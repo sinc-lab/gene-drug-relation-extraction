@@ -1,15 +1,12 @@
 # Gene-drug relation-type extraction in full biomedical texts
 
-This package contains the original methods proposed in:
+This is the source code used in:
 
 L.A. Bugnon, C. Yones, J. Bertinetti, D. Ramírez,  D.H. Milone, G. Stegmayer,
-Gene-drug relation-type extraction in full-text biomedical publications
-(2022 - in review)
+Gene-drug relation-type extraction in full-text biomedical publications, 2023 (under review)
 
-We propose a framework for extracting gene-drug relationship type from full biomedical texts.
-Differently from many approaches that are designed for in-sentence classification, our approach is based on the premise that entities interactions may appear far from the entity sentence. Thus, our approach only requires the raw text and the identification of biomedical entities of interest (BioNER stage).
+We propose a framework for extracting gene-drug relationship type from full biomedical texts. Differently from many approaches that are designed for in-sentence classification, our approach is based on the premise that entities interactions may appear far away in the text. Using only the raw text and the identification of biomedical entities of interest as inputs, we propose a combination of word-embeddings and a convolutional neural network to cope with text length.
 
-Each entity is identified (in this case, it is either “gene”, “drug” or “none”) and coded in a one-hot vector. The specific entities that we are looking for are also indicated in this coding. In order to extract language information from text, a pre-trained word-embedding can be used. These embedding models are important as they are able to code the semantics of the words into vector representations.  Finally, a CNN classifier can integrate the information of all the words and entities of the whole text and output a relation-type prediction for the target entities. 
 
 ![Abstract](abstract.svg)
 
