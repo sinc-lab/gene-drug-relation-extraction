@@ -41,6 +41,4 @@ To run a complete cross-validation scheme, use the configuration files as the fo
 
    python cross_validation.py conf_{embedding_name}.json paths.json
 
-
-# TODO revisar que quede andando con un solo método, pero sería bueno dejarla corrida con todos los métodos (en lo psoible que sean generados por esta misma carpeta)
-Results can be viewed using the notebook "summary.ipynb"
+A summary of the cross validation results  can be viewed using the notebook "summary.ipynb"
