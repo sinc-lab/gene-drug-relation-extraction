@@ -1,0 +1,857 @@
+biochemistry 1998, 37, 12649-12658
+
+12649
+
+the mechanism of  xxxd3156xxx -dependent activation of methionine
+synthase: a rapid kinetic analysis of intermediates in reductive methylation of
+cob(ii)alamin enzyme†
+joseph t. jarrett,‡ david m. hoover,§,|,⊥ martha l. ludwig,§,| and rowena g. matthews*,§,|
+johnson research foundation and department of biochemistry and biophysics, university of pennsylvania,
+philadelphia, pennsylvania 19104, and biophysics research division and department of biological chemistry,
+university of michigan, ann arbor, michigan 48109
+received april 16, 1998; revised manuscript received july 1, 1998
+
+abstract:  xxxg1479xxx  catalyzes the transfer of a methyl group from
+methyltetrahydrofolate to homocysteine, generating tetrahydrofolate and methionine. during this primary
+turnover cycle, the enzyme alternates between the active methylcobalamin and  xxxd1771xxx  forms of the
+enzyme. formation of the cob(ii)alamin prosthetic group by oxidation of  xxxd1771xxx  or photolysis of
+methylcobalamin renders the enzyme inactive.  xxxg1479xxx  from e. coli catalyzes its own
+reactivation by a reductive methylation that involves electron transfer from reduced flavodoxin and methyl
+transfer from  xxxd3156xxx . this process has been proposed to involve formation of a transient  xxxd1771xxx 
+intermediate that is then trapped by methyl transfer from  xxxd3156xxx . during aerobic growth of e. coli,
+electrons for this process are ultimately derived from nadph, and electron transfer does not generate a
+detectable level of  xxxd1771xxx  due to the large potential difference between the nadph/nadp+ couple
+and the  xxxd1771xxx /cob(ii)alamin couple. in this paper, we show that even in the presence of the strong
+reductant flavodoxin hydroquinone,  xxxd1771xxx  is not observed as a significant intermediate. we
+demonstrate, however, that this is due to a rate-limiting reorganization of the cobalt ligand environment
+from five-coordinate to four-coordinate cob(ii)alamin. mutation of aspartate 757 to glutamate results in
+a cob(ii)alamin enzyme that is ∼70% four-coordinate, and reductive methylation of this enzyme using
+flavodoxin hydroquinone as the electron donor proceeds through a kinetically competent  xxxd1771xxx 
+intermediate. furthermore, wild-type  xxxd1771xxx  enzyme produced by chemical reduction reacts with
+ xxxd3156xxx  in a kinetically competent reaction. we provide evidence that methyl transfer from  xxxd3156xxx  to
+ xxxd1771xxx  enzyme results initially in formation of a five-coordinate methylcobalamin enzyme that slowly
+decays to the active six-coordinate methylcobalamin enzyme. we propose a kinetic scheme for reductive
+methylation of wild-type cob(ii)alamin enzyme by  xxxd3156xxx  and flavodoxin hydroquinone in
+which slow conformational changes mask the relatively fast electron and methyl transfer steps.
+
+ xxxg1479xxx  from e. coli
+catalyzes the transfer of a methyl group from methylcobalamin enzyme to homocysteine, producing  xxxd1771xxx 
+enzyme and methionine. the catalytic cycle is completed
+by the transfer of a methyl group from ch3-h4folate1 to
+ xxxd1771xxx  enzyme, generating h4folate and regenerating
+the active methylcobalamin enzyme. oxidation of  xxxd1771xxx  enzyme or photolysis of methylcobalamin enzyme
+leads to formation of inactive cob(ii)alamin enzyme. in e.
+coli,  xxxg1479xxx  catalyzes the reactivation of
+oxidized enzyme through a reductive methylation, in which
+electron transfer from reduced flavodoxin and methyl transfer
+
+from  xxxd3156xxx  lead to regeneration of the active methylcobalamin enzyme.
+since  xxxd3156xxx  was first reported to be essential for
+maintaining  xxxg1479xxx  activity (1, 2), a number
+of studies have examined enzyme activation and the role of
+ xxxd3156xxx . taylor and weissbach first established that the
+methyl group from  xxxd3156xxx  is transferred to the cofactor,
+forming methylcobalamin enzyme (3), and that this activated
+methylcobalamin enzyme can undergo multiple turnovers
+with homocysteine and ch3-h4folate in the absence of
+ xxxd3156xxx  (4). a low-potential one-electron reducing system
+is also required for activity (5, 6). this reducing system
+
+† this research has been supported by nih research grants
+gm24908 (r.g.m.) and gm16429 (m.l.l.). j.t.j. was supported in
+part by an nih postdoctoral fellowship (gm17455).
+* correspondence should be addressed to this author at biophysics
+research division, university of michigan, 4024 chemistry building,
+930 n. university ave., ann arbor, mi 48109-1055.
+‡ university of pennsylvania.
+§ biophysics research division, university of michigan.
+| department of biological chemistry, university of michigan.
+⊥ present address: national cancer institute, frederick, md 21702.
+
+1
+abbreviations:  xxxd3157xxx ,  xxxd3157xxx ;  xxxd3156xxx ,
+s-adenosyl- xxxd2595xxx ; edta, ethylenediaminetetraacetic acid; epr,
+electron paramagnetic resonance; fad,  xxxd2112xxx ;
+fld, flavodoxin; fmn, flavin mononucleotide; fnr, ferredoxin (flavodoxin):nadp+ oxidoreductase; ch3-h4folate, 5-methyltetrahydrofolate; nadph,  xxxd3210xxx , reduced
+form; nadp+,  xxxd3210xxx ; she,
+standard hydrogen electrode; h4folate,  xxxd3334xxx ; tris,
+tris(hydroxymethyl)aminomethane hydrochloride.
+
+s0006-2960(98)00856-3 ccc: $15.00 © 1998 american chemical society
+published on web 08/20/1998
+
+12650 biochemistry, vol. 37, no. 36, 1998
+
+figure 1: scheme depicting the events leading to in vivo reductive
+methylation of cob(ii)alamin enzyme. under aerobic conditions,
+oxidized ferredoxin (flavodoxin):nadp+ oxidoreductase (fnr‚
+fadox) accepts a hydride from nadph and transfers the electrons
+to flavodoxin (fld‚fmnox), generating primarily flavodoxin semiquinone. under anaerobic conditions, the decarboxylation of
+pyruvate is coupled to reduction of flavodoxin, forming the
+flavodoxin hydroquinone as the major species. these reduced forms
+of flavodoxin bind to inactive cob(ii)alamin enzyme, leading to a
+conformational change that is coupled with dissociation of his759
+and protonation of the his759-asp757-ser810 triad (15, 16, 22).
+electron transfer and methyl transfer result in formation of active
+methylcobalamin enzyme. although nadph oxidation ultimately
+produces 2 equiv of flavodoxin semiquinone, only one electron is
+transferred to  xxxg1479xxx  during reductive methylation.
+midpoint potentials cited are literature values (11, 15, 30).
+
+was later shown to be involved in reductive methylation of
+oxidized enzyme (7), but is not required for anaerobic
+turnover of methylcobalamin enzyme with homocysteine and
+ch3-h4folate (8, 9). more recently it has been shown that
+electron transfer and methyl transfer are thermodynamically
+coupled reactions, and that the rate of formation of methylcobalamin enzyme is dependent on the degree of reduction
+of the oxidized enzyme (10). these experiments have led
+to a model for reductive methylation in which electron
+transfer leads to formation of a trace amount of  xxxd1771xxx 
+enzyme, which is trapped by irreversible methyl transfer from
+ xxxd3156xxx  (10).
+during aerobic growth, the electrons for reductive methylation are derived from nadph via ferredoxin (flavodoxin):
+nadp+ oxidoreductase and flavodoxin [formerly referred
+to as the r and f proteins (7, 11, 12, 13, 14), figure 1].
+under these conditions, electron transfer from reduced
+oxidoreductase to flavodoxin produces flavodoxin semiquinone as the major species. since the flavodoxin semiquinone/oxidized midpoint potential [em7 ) -260 mv vs
+she (15)] is much higher than the  xxxd1771xxx /cob(ii)alamin midpoint potential [em7 ) -490 mv (16)], the
+equilibrium does not favor  xxxd1771xxx  formation, and it is
+not formed as a detectable intermediate following electron
+transfer from flavodoxin semiquinone to cob(ii)alamin
+enzyme (17). in vitro, photochemical reduction of flavodoxin with deazaflavin and edta (18) allows conversion
+to the hydroquinone oxidation state. since the flavodoxin
+hydroquinone/semiquinone couple [em7 ) -440 mv (15)]
+is close to the  xxxd1771xxx /cob(ii)alamin couple,  xxxd1771xxx  should be observed following electron transfer from
+flavodoxin hydroquinone to cob(ii)alamin enzyme. flavodoxin hydroquinone is also the major form of flavodoxin
+during anaerobic growth of e. coli, where it is produced by
+the action of a thiamine diphosphate-dependent pyruvate:
+flavodoxin oxidoreductase (19).
+
+jarrett et al.
+recent studies have demonstrated that reorganization of
+the cobalt ligand environment and changes in the protein
+conformation are events that probably precede the electron
+and methyl group transfer steps that reactivate methionine
+synthase. the cobalt ligand environment in the wild-type
+cob(ii)alamin enzyme is predominantly five-coordinate (9),
+with four equatorial nitrogen ligands provided by the corrin
+macrocycle and one axial nitrogen ligand provided by
+histidine 759 from the protein (20, 21). reduction to the
+ xxxd1771xxx  oxidation state is coupled to dissociation of
+his759 and protonation of the his759-asp757-ser810 hydrogen-bonded triad (16), resulting in formation of a fourcoordinate  xxxd1771xxx  cofactor. flavodoxin binding favors
+reorganization of the five-coordinate cob(ii)alamin enzyme
+to four-coordinate cob(ii)alamin (15), an event that may
+prepare the cobalamin cofactor for electron transfer from the
+reduced flavin. reorganization of the cobalt ligand environment appears to be coupled with a conformational change
+that alters the reactivity of the  xxxd1771xxx  enzyme.  xxxd1771xxx  enzyme that is generated from methylcobalamin
+enzyme during primary turnover reacts rapidly with ch3h4folate, but is much less reactive with  xxxd3156xxx  or flavodoxin, while  xxxd1771xxx  enzyme that is generated by
+reduction is reactive with  xxxd3156xxx  and flavodoxin, but is
+unreactive with ch3-h4folate (22). these  xxxd1771xxx 
+enzymes prepared by different routes also differ in their
+proteolytic fragmentation pathways when they are treated
+with trypsin (22). together, these studies suggest that
+reductive methylation is associated with an altered conformation of the enzyme that is stabilized by flavodoxin binding.
+in this paper, we demonstrate that reorganization of the
+cob(ii)alamin ligand environment and/or the accompanying
+conformational change is the rate-limiting step in the overall
+reductive methylation pathway when flavodoxin hydroquinone is the electron donor. bypassing this reorganization
+by mutation of asp757 to glutamate allows observation of
+ xxxd1771xxx  as a discrete intermediate.  xxxd1771xxx  enzyme, produced by the reaction of asp757glu cob(ii)alamin
+enzyme with flavodoxin hydroquinone or by chemical
+reduction of wild-type cob(ii)alamin enzyme (22), reacts
+rapidly with  xxxd3156xxx . we use stopped-flow spectroscopy
+with a uv/visible diode-array detector to record absorption
+spectra of intermediates at intervals throughout these reactions, and are able to model the resulting spectra using
+previously reported spectra of the wild-type, asp757glu, and
+his759gly enzymes (21). we further show that the immediate product of reductive methylation is an enzyme that
+has a spectrum similar to the methylcobalamin his759gly
+enzyme, suggesting that the five-coordinate methylcobalamin
+cofactor is an intermediate in reductive methylation of wildtype enzyme. this five-coordinate methylcobalamin enzyme
+decays in a kinetically competent manner to the active sixcoordinate methylcobalamin enzyme, a process that we
+propose is associated with conversion back to the active
+primary turnover conformation of the enzyme.
+materials and methods
+materials. construction of the asp757glu mutation of
+ xxxg1479xxx  and the methods for purification of
+overexpressed wild-type and mutant enzymes have been
+described (23). wild-type  xxxg1479xxx  was converted to the cob(ii)alamin form by anaerobic treatment with
+
+reductive methylation of  xxxg1479xxx 
+homocysteine and dithiothreitol, followed by gel filtration
+chromatography (24). asp757glu cob(ii)alamin methionine
+synthase is easily oxidized in air; therefore, the enzyme was
+first converted to the methylcobalamin form by reductive
+methylation with  xxxd3156xxx  in an electrochemical cell (24).
+immediately prior to use in stopped-flow experiments, the
+enzyme was equilibrated with an argon atmosphere and
+converted to cob(ii)alamin enzyme by photolysis (described
+below). flavodoxin was overexpressed and purified as
+previously described (25). the following were obtained from
+the indicated commercial sources and used without further
+purification: l-homocysteine thiolactone and s-adenosyl-lmethionine (iodide salt) from sigma; methyl viologen and
+protocatechuic acid from aldrich; (6r,s)-ch3-h4folate (calcium salt) from schirks laboratories. titanium(iii) citrate
+(80 mm) was prepared from titanium(iii) chloride (1.9 m
+in 2 m hcl, aldrich) as described previously (24, 26).
+phosphate buffer refers to potassium phosphate buffer at ph
+7.2, unless otherwise specified.
+for stopped-flow studies of reductive methylation, flavodoxin was reduced to the semiquinone or hydroquinone
+oxidation state by photoirradiation in the presence of
+deazaflavin and edta (18). oxidized flavodoxin (150 µm)
+and 5-deazaflavin-3-sulfonate were mixed in 10 mm potassium phosphate buffer containing 0.5 mm edta, and placed
+in a glass tonometer along with protocatechuic acid (0.5
+mm), while protocatechuate dioxygenase (∼0.1 mg) was
+placed in a sidearm. semiquinone flavodoxin was obtained
+using 1 µm deazaflavin, while hydroquinone flavodoxin was
+obtained using 10 µm deazaflavin. the tonometer was
+equilibrated with argon, and protocatechuate dioxygenase
+was mixed with the flavodoxin solution to remove residual
+oxygen. the tonometer was immersed in cold water and
+irradiated with a 600 w tungsten/halogen lamp through the
+side of the beaker. after three 10 s exposures, the semiquinone protein appears as a dark blue solution while the
+hydroquinone protein appears as a pale yellow solution. uv/
+visible spectra of each protein solution were used to estimate
+the relative concentrations of oxidized, semiquinone, and
+hydroquinone oxidation states.
+to measure  xxxd3156xxx -dependent reductive methylation,
+wild-type cob(ii)alamin enzyme (30 µm) and  xxxd3156xxx  (200
+µm) were mixed in 10 mm potassium phosphate buffer in a
+glass tonometer, and equilibrated with argon. to avoid rapid
+oxidation of asp757glu cob(ii)alamin enzyme in air, this
+mutant enzyme was prepared as a solution of methylcobalamin enzyme (30 µm) and  xxxd3156xxx  (200 µm) in 10 mm
+potassium phosphate buffer in a glass tonometer. following
+equilibration with argon, the enzyme was converted to the
+cob(ii)alamin oxidation state by 5 s irradiation with a 600
+w tungsten/halogen lamp as described above. to maintain
+anaerobiosis, all solutions were prepared with protocatechuic
+acid and protocatechuate dioxygenase as described above.
+the cob(ii)alamin enzyme and  xxxd3156xxx  were rapidly mixed
+with reduced flavodoxin in an anaerobic stopped-flow
+spectrophotometer at 25 °c, and spectra were recorded at
+intervals from 2 ms to 10 s using a xenon lamp and a diodearray spectrophotometer. to minimize photoreduction of the
+deazaflavin and slow photolysis of the methylcobalamin
+product, a 360 nm cutoff filter was inserted in the light path
+immediately following the xenon lamp. single-wavelength
+
+biochemistry, vol. 37, no. 36, 1998 12651
+kinetic traces were also obtained using a tungsten lamp, a
+monochromator, and a photomultiplier tube.
+the conversion of five-coordinate cob(ii)alamin enzyme
+to four-coordinate cob(ii)alamin enzyme accompanying
+flavodoxin binding was measured by rapidly mixing wildtype cob(ii)alamin enzyme (30 µm) +  xxxd3156xxx  (200 µm)
+with oxidized flavodoxin (150 µm), both in 10 mm potassium phosphate buffer, ph 7.2, in a stopped-flow spectrophotometer at 25 °c. spectra were measured before and
+after the reaction, and spectral changes were followed at 465
+and 477 nm. the methylation of  xxxd1771xxx  methionine
+synthase by  xxxd3156xxx  was observed by reducing the wildtype enzyme with titanium(iii) citrate (24). wild-type cob(ii)alamin enzyme (30 µm) in 10 mm tris, ph 7.2, was
+placed in a tonometer and equilibrated with argon. titanium(iii) citrate (4 mm) was added with a syringe and the enzyme
+equilibrated for 10 min, producing enzyme that contains
+∼70-80%  xxxd1771xxx  and ∼20-30% cob(ii)alamin cofactor. this enzyme mixture was rapidly mixed in a stoppedflow spectrophotometer with  xxxd3156xxx  (200 µm) at 25 °c,
+and spectra were recorded from 2 ms to 1 s using the diodearray configuration described above. single-wavelength
+traces were obtained at selected wavelengths to monitor the
+formation and decay of transient intermediates.
+results
+a scheme for the participation of  xxxd1771xxx  as an
+intermediate in reductive methylation. reductive methylation of wild-type cob(ii)alamin  xxxg1479xxx  is
+accomplished via electron transfer from reduced flavodoxin
+and methyl transfer from  xxxd3156xxx ; presumably both transfers
+directly involve the cobalamin cofactor. electron transfer
+to the five-coordinate cob(ii)alamin cofactor would generate
+ xxxd1771xxx  as an intermediate and require prior or concomitant dissociation of his759 from the cobalt, while methyl
+transfer to this  xxxd1771xxx  intermediate must regenerate
+the resting six-coordinate methylcobalamin enzyme, and
+therefore requires recoordination of his759 to the cobalt.
+based on these necessary chemical events, a scheme is
+proposed for changes in the cobalamin oxidation state and
+coordination environment that lead from five-coordinate cob(ii)alamin to six-coordinate methylcobalamin enzyme (figure
+2, top). each of these proposed species has been generated
+by chemical treatment of the wild-type enzyme or by
+mutagenesis, and each has a unique uv/visible spectrum
+(figure 2). these unique spectra in principle allow direct
+observation of each species as a transient intermediate using
+stopped-flow uv/visible spectroscopy. unfortunately, the
+observations are complicated by temporal overlap of the
+kinetic phases, and transient changes in the spectra of the
+enzyme during reductive methylation often arise from
+mixtures of the intermediate species. to analyze the
+experiments described below, we have estimated rate constants by fitting single-wavelength transient absorbance
+changes, including those shown in figures 4-7, to multiple
+exponential functions. these rate constants were then
+substituted into the various kinetic steps in figure 2, and
+hopkinsim kinetic modeling software (d. wachsstock,
+johns hopkins university) was used to simulate transient
+changes in the concentrations of each intermediate (data not
+shown). we were then able to model the transient absorbance changes using known extinction coefficients for each
+
+12652 biochemistry, vol. 37, no. 36, 1998
+
+jarrett et al.
+
+figure 3: reductive methylation of cob(ii)alamin enzyme with
+ xxxd3156xxx  and reduced flavodoxin. reductive methylation of  xxxg1479xxx  in the cob(ii)alamin form with flavodoxin
+semiquinone (0): 30 µm enzyme and 200 µm  xxxd3156xxx  were mixed
+with 150 µm flavodoxin semiquinone in a stopped-flow spectrophotometer, and the reaction was monitored at 525 nm. the reaction
+proceeds with an apparent rate constant of 0.01 s-1 at 25 °c.
+reductive methylation of  xxxg1479xxx  with flavodoxin
+hydroquinone (]): 30 µm enzyme and 200 µm  xxxd3156xxx  were
+mixed with 150 µm flavodoxin hydroquinone in a stopped-flow
+spectrophotometer, and the reaction was monitored at several
+wavelengths (525 nm trace shown here). although the reaction is
+multiphasic, a rough estimate of the rate constant can be calculated
+from the half-time of ∼1.2 s at 25 °c; reductive methylation
+proceeds approximately 50-fold faster in the presence of flavodoxin
+hydroquinone than in the presence of an equal concentration of
+flavodoxin semiquinone. the solid curve is fit to a five-exponential
+function using a marquardt-levenberg algorithm while holding
+fixed the four rate constants determined from the data in figure 4.
+figure 2: general scheme for the sequence of reactions and
+intermediates in reductive methylation is shown at the top of the
+figure. five-coordinate cob(ii)alamin enzyme (i) is converted to
+four-coordinate cob(ii)alamin enzyme (ii) by dissociation and
+protonation of the lower axial ligand, and then reduced to  xxxd1771xxx  (iii) by electron transfer from flavodoxin or chemical
+reductants. methyl transfer from  xxxd3156xxx  to  xxxd1771xxx  enzyme
+(iii) generates five-coordinate methylcobalamin enzyme (iv), which
+is then converted to the stable six-coordinate methylcobalamin
+enzyme (v) by recoordination of the lower axial ligand. upper
+panel: five-coordinate cob(ii)alamin (i, s), four-coordinate cob(ii)alamin (ii, - -), and  xxxd1771xxx  (iii, - - -). lower panel:  xxxd1771xxx  (iii, - - -), five-coordinate methylcobalamin (iv, - ‚ -),
+and six-coordinate methylcobalamin (v, ‚‚‚). spectra of fourcoordinate cob(ii)alamin and five-coordinate methylcobalamin are
+based on experimentally determined spectra of the his759gly
+mutant enzyme. spectra of  xxxd1771xxx  and six-coordinate methylcobalamin enzyme are those measured for wild-type enzyme. the
+five-coordinate cob(ii)alamin spectrum is calculated from the wildtype spectrum assuming the wild-type enzyme is a mixture of 85%
+five-coordinate and 15% four-coordinate cob(ii)alamin enzyme.
+
+of the intermediate species. using these modeled data, we
+have predicted spectra of the enzyme mixtures at various
+times throughout reductive methylation and compared the
+predicted spectra to spectra recorded with a stopped-flow
+diode-array spectrophotometer. successive iterations of this
+process have developed a self-consistent kinetic and spectral
+interpretation of the experiments described below.
+the rate of reductive methylation of cob(ii)alamin
+enzyme is partially limited by the reduction potential of
+the in vivo reducing system. in vivo reducing systems that
+provide electrons for reductive methylation of cob(ii)alamin
+ xxxg1479xxx  in e. coli include nadph and ferre-
+
+doxin (flavodoxin):nadp+ oxidoreductase (7), yielding
+flavodoxin in the semiquinone oxidation state, and pyruvate
+and pyruvate:flavodoxin oxidoreductase, yielding flavodoxin
+in the hydroquinone oxidation state (19). figure 3 compares
+the rate of reduction of enzyme in the cob(ii)alamin form in
+the presence of  xxxd3156xxx  and an excess of either the
+flavodoxin semiquinone or the hydroquinone. we have
+assumed that the 75 µm concentration of reduced flavodoxin
+is sufficient to saturate  xxxg1479xxx  (15), although
+this has not been rigorously tested. in the presence of
+flavodoxin semiquinone, cob(ii)alamin enzyme is cleanly
+converted to methylcobalamin with an apparent rate constant
+of 0.01 s-1 at 25 ° c (figure 3, squares). in the presence of
+flavodoxin hydroquinone, the rate of reductive methylation
+was increased considerably relative to rates with flavodoxin
+semiquinone as donor. however, the formation of methylcobalamin enzyme is kinetically complex when flavodoxin
+hydroquinone is the electron donor (figure 3, diamonds); to
+allow comparison to the reaction with flavodoxin semiquinone (squares), we have used changes in absorbance at
+525 nm as a crude measure of the rate of methylcobalamin
+formation. based on these data, the half-time for formation
+of methylcobalamin enzyme is estimated to be ∼1.2 s,
+indicating an approximately 50-fold increase in the rate of
+methylation as compared to the reaction with flavodoxin
+semiquinone. since the primary difference between these
+experiments is the redox state of flavodoxin, the rate of
+reductive methylation with flavodoxin semiquinone as
+electron donor must be at least partially limited by the
+relatively high midpoint potential of the flavodoxin semiquinone/oxidized couple. the poor reducing power of
+
+reductive methylation of  xxxg1479xxx 
+
+figure 4: spectral changes observed during reductive methylation
+of cob(ii)alamin enzyme by excess  xxxd3156xxx  and flavodoxin
+hydroquinone suggest that early intermediates are formed during
+reductive methylation. experimental conditions are the same as in
+figure 3 (]). an initial increase in absorbance at 390 nm (o) and
+580 nm (4) suggests that electron transfer from flavodoxin
+hydroquinone to cob(ii)alamin (kobs ) 130 s-1) leads to formation
+of  xxxd1771xxx  and flavodoxin semiquinone, reaching a maximum
+concentration of ∼0.5 ( 0.2 µm  xxxd1771xxx  at 11 ms. the
+absorbance at 390 nm dissipates and the absorbance of the mixture
+increases at 450 nm (0, kobs ) 25 s-1), while spectral changes are
+not initially observed at 525 nm (]). this suggests that an
+intermediate is formed at ∼80 ms with a maximal absorbance at
+∼450 nm prior to the formation of significant amounts of
+six-coordinate methylcobalamin enzyme. formation of active
+methylcobalamin enzyme is then observed at 525 nm (]) and
+proceeds in two phases with apparent rate constants of 10 and 0.5
+s-1. in each case, the solid curve is a simulation using the spectra
+in figure 2 and the kinetic scheme depicted in figure 8. for 390
+nm data (circles), the solid curve is simulated with ∆em ) -4 mv
+for electron transfer, while the dashed curves indicate simulations
+with ∆em ) -20 mv (upper curve) and +20 mv (lower curve).
+kinetic traces have been shifted along the vertical axis to allow
+easier comparison.
+
+flavodoxin semiquinone may result in a decrease in the
+electron transfer rate and/or the resulting  xxxd1771xxx 
+population; both of these effects would decrease the overall
+rate of reductive methylation.
+when the reaction of cob(ii)alamin enzyme with  xxxd3156xxx 
+and flavodoxin hydroquinone was monitored at several
+wavelengths, it appeared that the enzyme was methylated
+in at least three separate stages (figures 3 and 4). initially,
+over the time range from 0.001 to 0.5 s, a small rapid increase
+in absorbance at 390 nm suggests that ∼10% of the enzyme
+is reduced to  xxxd1771xxx  with an apparent rate constant of
+130 s-1 (figure 4, circles). the absorbance at 390 nm then
+decreases with a rate constant of 25 s-1 (circles), and the
+absorbance at 450 nm increases at 25 s-1 (figure 4, squares).
+the absorbance at 450 nm then falls  xxxd1891xxx  s-1 (squares),
+while the absorbance at 525 nm (figure 4, diamonds)
+increases with the same rate constant. on a somewhat slower
+time scale (0.5-10 s), the continued increase in absorbance
+at 525 nm suggests that ∼80% of the enzyme is converted
+directly from cob(ii)alamin to methylcobalamin with an
+apparent rate constant of ∼0.5 s-1 (figure 4, diamonds).
+finally, on a much slower time scale (10-200 s), ∼10% of
+the enzyme is converted from cob(ii)alamin to methylcobalamin with an apparent rate constant of 0.02 s-1 (figure
+3, diamonds). we are unable to model this final very slow
+phase of methylation, which may be a reaction of damaged
+
+biochemistry, vol. 37, no. 36, 1998 12653
+enzyme, and it has been ignored in figure 4 and subsequent
+data analyses. the ratio of the amplitudes of the fast (0.0010.5 s) methylation reactions to the slower (0.5-10 s) reaction
+(∼1:8) is similar to the ratio of four-coordinate to fivecoordinate cob(ii)alamin that was observed for the wild-type
+enzyme by epr spectroscopy (21), suggesting that dissociation of his759 from the cob(ii)alamin cofactor may be
+limiting the rate of the slow phase of reductive methylation.
+dissociation of his759 from the cobalt is rate-limiting
+in the conversion of cob(ii)alamin enzyme to methylcobalamin enzyme. using epr and uv/visible spectroscopy,
+we have previously shown that flavodoxin binding to cob(ii)alamin  xxxg1479xxx  results in dissociation of
+his759 from the cobalt (15). this results in a shift in the
+principle visible absorption band from 477 to 465 nm and
+an increase in the extinction coefficient from 9470 to 12 500
+m-1 cm-1 (21). we rapidly mixed oxidized flavodoxin with
+wild-type cob(ii)alamin in the stopped-flow spectrophotometer and were able to use this spectral shift to detect formation
+of the four-coordinate cob(ii)alamin enzyme. we found that
+dissociation of his759 from the cobalt occurs at approximately the same rate as the slow phase for reductive
+methylation of wild-type enzyme (kobs ) 0.4 s-1, figure 5,
+solid curve), suggesting that this event is rate-limiting in the
+reductive methylation of five-coordinate cob(ii)alamin enzyme. to verify that the spectral changes seen were due to
+dissociation of his759 from the cobalt, spectra of the enzyme
+solutions prior to mixing and after 80 s were used to calculate
+a difference spectrum for the complete reaction (figure 5,
+inset). this difference spectrum was compared with one
+calculated using the spectra of wild-type and his759gly cob(ii)alamin enzymes (21). differences between the predicted
+and measured difference spectra from 480 to 550 nm may
+indicate that the his759gly mutant is not a perfect model
+for wild-type four-coordinate cob(ii)alamin enzyme.
+the asp757glu mutant enzyme contains four-coordinate
+cob(ii)alamin and allows direct observation of the electron
+and methyl transfer reactions. mutation of asp757 to glu
+results in a cob(ii)alamin enzyme that contains ∼70% fourcoordinate and ∼30% five-coordinate cob(ii)alamin (21). if
+dissociation of his759 from the cobalt is rate-limiting in
+reductive methylation, the four-coordinate cob(ii)alamin
+enzyme should be completely methylated at a rate that is
+comparable to the fast phase observed for wild-type enzyme,
+and  xxxd1771xxx  enzyme should be observed as a discrete
+intermediate. we mixed asp757glu cob(ii)alamin enzyme
+and  xxxd3156xxx  with flavodoxin hydroquinone, and observed
+an increase in absorbance at 390 and 580 nm that suggested
+electron transfer from flavodoxin hydroquinone to cob(ii)alamin, forming  xxxd1771xxx  enzyme and flavodoxin semiquinone with an apparent rate constant of 130 s-1 (figure
+6a). since initial changes in absorbance at 390 nm are
+primarily due to  xxxd1771xxx  formation and changes in
+absorbance at 580 nm are primarily due to flavodoxin
+semiquinone formation, we used known extinction coefficients for these enzyme forms to calculate the stoichiometry
+of product formation during electron transfer (figure 6b).
+the initial rise in absorbance at 390 and 580 nm corresponded to approximately stoichiometric  xxxd1771xxx  (4.7
+µm at 15 ms) and flavodoxin semiquinone (4.2 µm at 15
+ms) formation. the absorbance at 390 nm subsequently falls,
+
+12654 biochemistry, vol. 37, no. 36, 1998
+
+jarrett et al.
+
+figure 5: conversion of wild-type five-coordinate cob(ii)alamin enzyme to four-coordinate cob(ii)alamin enzyme. wild-type cob(ii)alamin enzyme (15 µm) and  xxxd3156xxx  (200 µm) were mixed with oxidized flavodoxin (150 µm), and spectral changes were monitored at
+465 nm (0). the rate of his759 dissociation (kobs ) 0.4 s-1, solid curve) is compared to reductive methylation catalyzed by excess flavodoxin
+hydroquinone as assessed from the ∆a525 trace in figure 4 (dashed curve). the changes in the spectrum of the cob(ii)alamin enzyme:
+flavodoxin mixture (inset, o) are modeled using spectra of the wild-type and his759gly cob(ii)alamin enzyme [solid curve (21)], suggesting
+that the observed spectral changes correspond to dissociation of his759 from the cobalt. the rate of his759 dissociation and the rate of the
+slowest phase of reductive methylation (over the range 2-10 s) are fit with similar rate constants (0.4 and 0.5 s-1, respectively), suggesting
+that dissociation of his759 and accompanying conformational changes (22) may be largely rate-limiting in reductive methylation with
+ xxxd3156xxx  and flavodoxin hydroquinone.
+
+and the absorbance at 535 nm rises; these absorbance changes
+are biphasic and share apparent rate constants of 25 and 10
+s-1 (figure 6a). these spectral changes correspond to the
+conversion of  xxxd1771xxx  enzyme to methylcobalamin
+enzyme; the source of two kinetic rate constants becomes
+apparent in experiments described below.
+to characterize the intermediates formed during reductive
+methylation of the asp757glu enzyme, we modeled the
+spectra obtained at intervals throughout the reaction, using
+the previously reported spectra of the asp757glu and
+his759gly mutant enzymes and the known spectra of
+flavodoxin hydroquinone and semiquinone. the ratios of
+components in mixtures of intermediates were predicted
+using the kinetic model described in figure 8 and hopkinsim kinetic modeling software. a difference spectrum
+representing the initial phase of electron transfer was
+generated by subtracting spectra recorded  xxxd1891xxx  and 2.6 ms
+(figure 6c, upper panel), and is accurately modeled to
+conversion of 2.1 µm four-coordinate cob(ii)alamin enzyme
+to 1.7 µm  xxxd1771xxx  and 0.4 µm five-coordinate methylcobalamin enzyme, and conversion of 2.1 µm flavodoxin
+hydroquinone to semiquinone. a difference spectrum was
+also generated for the subsequent methylation of asp757glu
+ xxxd1771xxx  enzyme by subtracting spectra recorded at 200
+and 26 ms (figure 6c, lower panel). this difference
+spectrum is somewhat more difficult to simulate due to the
+mixing of kinetic phases corresponding to methylation and
+to reduction of additional cob(ii)alamin enzyme. the
+primary reaction modeled is the conversion of 3.3 µm fourcoordinate cob(ii)alamin enzyme and 2.4 µm  xxxd1771xxx 
+enzyme to 1.3 µm five-coordinate and 4.7 µm six-coordinate
+
+methylcobalamin enzyme. these reactions are accompanied
+by conversion of an additional 3.3 µm flavodoxin hydroquinone to semiquinone.
+as described in more detail for the wild-type enzyme
+(below), we have invoked a five-coordinate methylcobalamin
+enzyme as a transient intermediate in reductive methylation
+to account for the apparent biphasic kinetics observed for
+methylation of  xxxd1771xxx  enzyme. the spectrum of
+his759gly methylcobalamin enzyme [figure 2 (21)] was
+used for accurate simulation of the observed difference
+spectra. the dashed curve in figure 6c corresponds to a
+calculated spectrum assuming  xxxd1771xxx  enzyme is converted directly to six-coordinate methylcobalamin enzyme,
+while the solid curve assumes initial formation of fivecoordinate methylcobalamin enzyme at 25 s-1 followed by
+conversion to six-coordinate methylcobalamin enzyme  xxxd1891xxx 
+s-1.
+chemical reduction of wild-type enzyme to the  xxxd1771xxx  form allows observation of methyl transfer and
+recoordination of his759 to the cobalt. although the
+mutation of asp757 to glu allowed observation of intermediates in reductive methylation, these experiments did not
+allow unambiguous identification of five-coordinate methylcobalamin cofactor as the immediate product of methyl
+transfer from  xxxd3156xxx  to the  xxxd1771xxx  prosthetic group.
+identification was complicated by overlap between changes
+in the flavodoxin spectrum and critical regions of the
+cobalamin spectrum. we were able to avoid this spectral
+interference by chemically reducing wild-type cob(ii)alamin
+enzyme with titanium(iii) citrate (22, 26). this chemical
+reduction resulted in formation of a mixture of ∼8 µm cob-
+
+reductive methylation of  xxxg1479xxx 
+
+figure 6: reductive methylation of asp757glu cob(ii)alamin
+enzyme confirms that  xxxd1771xxx  is formed as a competent
+intermediate during reductive methylation. asp757glu cob(ii)alamin enzyme is ∼70% four-coordinate cob(ii)alamin, and this
+fraction of the enzyme can react with reduced flavodoxin without
+prior rate-limiting dissociation of his759 from the cobalt. asp757glu
+cob(ii)alamin enzyme [20 µm total, ∼14 µm four-coordinate cob(ii)alamin] was rapidly mixed with  xxxd3156xxx  (100 µm) and
+flavodoxin hydroquinone (75 µm) in a stopped-flow spectrophotometer. (a) changes in absorbance at 390 nm (o), 535 nm (0),
+and 580 nm (]) are plotted vs time after mixing; curves have been
+shifted arbitrarily along the y-axis to allow easier comparison. (b)
+the initial changes in absorbance at 390 and 580 nm were used to
+calculate the concentration of  xxxd1771xxx  and flavodoxin semiquinone over the first 15 ms using previously reported extinction
+coefficients (15, 16). the similarity of these calculated curves
+suggests that electron transfer is approximately stoichiometric. slight
+differences between these curves may be due to uncertainties in
+the extinction coefficients of the proteins involved. (c) upper
+panel: spectral changes observed during the reduction of fourcoordinate cob(ii)alamin enzyme (o, 10 ms spectrum - 2.6 ms
+spectrum). lower panel: spectral changes observed during methylation of  xxxd1771xxx  enzyme (0, 200 ms spectrum - 26 ms
+spectrum). solid curves are calculated from the model in figure 8
+and spectra in figure 2 as described in the text. the dashed curves
+correspond to the spectra predicted by a model that does not include
+five-coordinate methylcobalamin enzyme.
+
+(i)alamin enzyme and ∼7 µm cob(ii)alamin enzyme, and
+this mixture was rapidly mixed with  xxxd3156xxx  in a stopped-
+
+biochemistry, vol. 37, no. 36, 1998 12655
+
+figure 7:  xxxd3156xxx  methylation of wild-type  xxxd1771xxx  enzyme.
+wild-type cob(ii)alamin enzyme (15 µm) was reduced with
+titanium(iii) citrate, yielding a mixture of ∼8-9 µm  xxxd1771xxx 
+and ∼6-7 µm cob(ii)alamin enzyme, which was then rapidly
+mixed with  xxxd3156xxx  (100 µm) in a stopped-flow spectrophotometer.
+(a) changes in absorbance at 390 (o), 450 (0), and 525 nm (])
+are plotted vs time after mixing. curves have been shifted arbitrarily
+along the y-axis to allow easier comparison. (b) upper panel:
+spectral changes observed during the methylation of  xxxd1771xxx 
+enzyme to form five-coordinate methylcobalamin enzyme (o, 40
+ms spectrum - 2.4 ms spectrum). lower panel: spectral changes
+observed during conversion of five-coordinate methylcobalamin
+enzyme to six-coordinate methylcobalamin enzyme (0, 600 ms
+spectrum - 100 ms spectrum). solid curves are calculated from
+the model in figures 8 and spectra in figure 2 as described in the
+text. the dashed curves correspond to the spectra predicted by a
+model that does not include five-coordinate methylcobalamin
+enzyme.
+
+flow spectrophotometer. a rapid decrease in absorbance at
+390 nm (figure 7a, circles) coincided with an increase in
+absorbance at 450 nm (squares), and both were associated
+with an apparent rate constant of 25 s-1. the absorbance at
+450 nm then dissipated, and the absorbance at 525 nm
+(diamonds) increased with an apparent rate constant of 10
+s-1. we used a diode-array detector to record spectra
+throughout the reaction, and have simulated the observed
+difference spectra using spectra of the wild-type  xxxd1771xxx 
+and methylcobalamin enzymes and the his759gly methylcobalamin enzyme (21). again, the ratios of mixtures of
+intermediates were predicted using the kinetic model described in figure 8 and hopkinsim kinetic modeling
+software. a difference spectrum representing the initial
+disappearance of  xxxd1771xxx  enzyme was generated by
+subtracting spectra recorded at 40 and 2.4 ms (figure 7b,
+circles); this spectrum is modeled to conversion of 4.7 µm
+ xxxd1771xxx  enzyme to 3.3 µm five-coordinate and 1.4 µm
+six-coordinate methylcobalamin enzyme (solid curve). a
+difference spectrum representing predominantly the final
+
+12656 biochemistry, vol. 37, no. 36, 1998
+
+jarrett et al.
+
+figure 8: kinetic model used to simulate steps in the reductive methylation of wild-type and asp757glu cob(ii)alamin enzyme. the
+inactive cob(ii)alamin enzyme contains tightly bound  xxxd3156xxx  and is an equilibrium mixture of five-coordinate and four-coordinate cob(ii)alamin forms (21). flavodoxin binding is coupled to proton uptake and conversion to the four-coordinate cob(ii)alamin cofactor (15).
+electron transfer from flavodoxin hydroquinone to four-coordinate cob(ii)alamin in the asp757glu mutant is nearly equipotential (∆em )
+-4 mv). for these simulations, the midpoint potential used for the four-coordinate wild-type cob(ii)alamin/ xxxd1771xxx  couple is assumed
+to be the same as the experimentally determined potential for the asp757glu enzyme [em ) -436 mv (16)]. the observed rate constant
+for this step is 130 s-1 in both wild-type and mutant enzymes; forward and reverse electron transfer rates are calculated assuming kobs )
+k2 + k-2 and k2/k-2 ) 10(-∆em/59.2). transfer of the methyl group from  xxxd3156xxx  to the cobalt is irreversible and proceeds with a rate constant
+of 25 s-1. dissociation of flavodoxin semiquinone,  xxxd3157xxx , and a proton is accompanied by recoordination of his759 to the cobalt.
+six-coordinate methylcobalamin enzyme is formed with an observed rate constant of 10 s-1.
+
+formation of six-coordinate methylcobalamin enzyme is
+calculated by subtracting spectra recorded at 600 and 100
+ms (figure 7b, squares); this spectrum is modeled to
+conversion of 2.4 µm  xxxd1771xxx  enzyme and 2 µm fivecoordinate methylcobalamin enzyme to 4.4 µm six-coordinate methylcobalamin enzyme (solid curve). in each case,
+the dashed curve represents a calculated spectrum assuming
+ xxxd1771xxx  enzyme is converted directly to six-coordinate
+methylcobalamin enzyme. in this experiment, it is apparent
+that an accurate fit of the kinetic and spectral data is only
+possible if one assumes that five-coordinate methylcobalamin
+enzyme is formed as an intermediate following transfer of a
+methyl group from  xxxd3156xxx  to  xxxd1771xxx  enzyme.
+discussion
+methionine biosynthesis involves transfer of a methyl
+group from ch3-h4folate to homocysteine; both are relatively
+unreactive substrates at neutral ph. catalysis is achieved
+by the  xxxg1479xxx  in part by
+using  xxxd1771xxx  as a highly reactive nucleophile toward
+ch3-h4folate. however,  xxxd1771xxx  is a potent reductant,
+and this catalytic scheme requires that the enzyme either
+stabilize and protect  xxxd1771xxx  during catalysis or develop
+a strategy for regenerating  xxxd1771xxx  following inadvertent
+oxidation. in a strictly anaerobic environment such as is
+found in methanogenic and acetogenic bacteria, coi corrinoids may be relatively stable (27). in adapting to an
+aerobic environment where oxidation to inactive cob(ii)alamin is a more common event, e. coli has evolved a system
+that regenerates methylcobalamin enzyme, using flavodoxin
+as electron donor and  xxxd3156xxx  as methyl donor. human
+ xxxg1479xxx  is reactivated in a similar manner, using
+reducing equivalents generated by a protein that incorporates
+flavodoxin- and flavodoxin reductase-like components in a
+single polypeptide chain (28).
+
+the activation system in  xxxg1479xxx  must
+circumvent a highly unfavorable redox potential for transfer
+of electrons to cob(ii)alamin. the intracellular redox
+potential of e. coli during aerobic growth is controlled by
+the nadph/nadp+ ratio, which is ≈1 (29), establishing
+an effective potential of -330 mv (30). this potential is
+much higher than that for free  xxxd1771xxx /cob(ii)alamin,
+which is -610 mv (31). the interactions of methionine
+synthase with bound cobalamin act to raise the potential of
+the  xxxd1771xxx /cob(ii)alamin couple to -490 mv (16). in
+principle, conversion of five-coordinate to four-coordinate
+cob(ii)alamin would be expected to further raise the midpoint
+potential for reduction of cob(ii)alamin (31). coupling
+reduction to irreversible methyl transfer from the reactive
+methyl donor,  xxxd3156xxx , provides a large free energy decrease
+to drive the overall reaction (10). thus, even under aerobic
+conditions, irreversible methyl transfer from  xxxd3156xxx  is able
+to trap the small amount of  xxxd1771xxx  produced and
+eventually return all of the enzyme to the active methylcobalamin form.
+to facilitate reduction of cob(ii)alamin enzyme, the bound
+five-coordinate cob(ii)alamin prosthetic group is destabilized
+relative to the free cofactor. at neutral ph, the free cofactor
+exists in an equilibrium between five- and four-coordinate
+cob(ii)alamin that strongly favors the five-coordinate species
+[keq ) 62 (31)], while the enzyme-bound cofactor is ∼1015% four-coordinate [keq ≈ 5.5-9 (21)]. flavodoxin binds
+to the cob(ii)alamin enzyme, and this interaction further
+stabilizes the four-coordinate cob(ii)alamin conformation, as
+assessed by epr and uv/visible spectroscopy (15). measurements of the rate of conversion of five-coordinate to fourcoordinate cob(ii)alamin upon binding flavodoxin to  xxxg1479xxx , described in this paper (figure 4),
+demonstrate that the conversion is slow (kobs ≈ 0.4 s-1). in
+fact, the rate of four-coordinate cob(ii)alamin formation is
+
+reductive methylation of  xxxg1479xxx 
+comparable to the overall rate of reductive methylation
+catalyzed by  xxxd3156xxx  and flavodoxin hydroquinone, indicating that this conversion is the rate-limiting step in reductive
+methylation.
+mutation of asp757 to glutamate stabilizes four-coordinate
+cob(ii)alamin, bypassing this rate-limiting conformational
+change and allowing observation of subsequent intermediates
+in reductive methylation. when asp757glu cob(ii)alamin
+enzyme reacts with  xxxd3156xxx  and flavodoxin hydroquinone,
+ xxxd1771xxx  enzyme forms rapidly (kobs ) 130 s-1, figure
+6a-c). these experiments with the asp757glu mutant
+enzyme provide the first conclusive spectral evidence that
+the immediate product of electron transfer is the reduced  xxxd1771xxx  cofactor. since the difference in midpoint potential
+between the asp757glu  xxxd1771xxx /cob(ii)alamin couple
+and the flavodoxin hydroquinone/semiquinone couple is
+known (∆em7 ) -4 mv), and if we assume that complex
+formation with flavodoxin alters neither redox potential, we
+can calculate the forward and reverse electron transfer rates
+as 70 and 60 s-1 (figure 8, assuming kobs ) kf + kr).
+the spectral changes observed during this fast electron
+transfer step (figure 6c, upper panel) are accurately modeled
+if we assume that only the ∼70% four-coordinate cob(ii)alamin enzyme is reduced by flavodoxin in this phase. the
+remaining five-coordinate asp757glu cob(ii)alamin enzyme
+is methylated at a much slower rate (kobs ≈ 0.5 s-1, data not
+shown); presumably this rate is limited by the conversion
+of five-coordinate to four-coordinate cob(ii)alamin enzyme.
+either the five-coordinate cob(ii)alamin enzyme does not
+bind flavodoxin productively or the  xxxd1771xxx /cob(ii)alamin couple is too low for effective reduction by flavodoxin. further experiments will be required to distinguish
+these possibilities.
+in modeling the data for the wild-type enzyme shown in
+figure 4, we have assumed the same midpoint potential for
+reduction of the four-coordinate wild-type enzyme as for the
+asp757glu mutant protein (em7 ) -436 mv, ∆em ) -4
+mv). however, attempts to measure the midpoint potential
+of the wild-type  xxxg1479xxx  in the presence of a
+20-fold excess of flavodoxin hydroquinone (300 µm) yielded
+a value of -510 mv [∆em ) +60 mv (15)]. due to
+uncertainties in our estimates of the initial amount of wildtype four-coordinate cob(ii)alamin enzyme and in the
+transient amount of  xxxd1771xxx  formed [the kinetic phase
+associated with  xxxd1771xxx  formation overlaps with that
+for methylcobalamin formation, as shown in figure 4], we
+are not able to estimate ∆em for the wild-type enzyme
+accurately from our data and can accommodate a range of
+values from -40 to +40 mv. the forward and reverse
+electron transfer rates associated with reduction of wild-type
+enzyme, calculated explicitly from kobs and ∆em for the
+asp757glu mutant enzyme in figure 8, could likewise
+encompass a relatively large range of values for the wildtype enzyme: k2 ) 20-110 s-1 and k-2 ) 110-20 s-1. thus,
+our estimates of the ∆em values and rates for electron transfer
+in the wild-type  xxxg1479xxx :flavodoxin complex
+should be regarded as tentative.
+the asp757glu  xxxd1771xxx  enzyme is rapidly methylated by  xxxd3156xxx  (figure 6a). the resulting spectral changes
+(figure 6c) are modeled most accurately assuming the
+enzyme initially forms a five-coordinate methylcobalamin
+enzyme (k3 ) 25 s-1) which then converts to six-coordinate
+
+biochemistry, vol. 37, no. 36, 1998 12657
+methylcobalamin enzyme (k4 ) 10 s-1, figure 8). chemical
+reduction of wild-type enzyme allows direct observation of
+the methyl transfer steps without interference from spectral
+changes due to electron transfer (figure 7). when wildtype  xxxd1771xxx  enzyme reacts with  xxxd3156xxx , the initial
+spectral changes suggest disappearance of  xxxd1771xxx  and
+formation of a five-coordinate methylcobalamin enzyme
+species, similar to the his759gly mutant enzyme, with an
+absorption maximum at 450 nm (21). this five-coordinate
+methylcobalamin enzyme is then converted to six-coordinate
+methylcobalamin enzyme (figure 7), in a kinetic step that
+is presumably also associated with flavodoxin dissociation
+and conversion to the active enzyme conformation involved
+in primary turnover (22). since five-coordinate methylcobalamin enzyme is not a significant intermediate following
+methylation of wild-type  xxxd1771xxx  enzyme by ch3-h4folate, even during turnover of asp757glu mutant enzyme,
+formation of a bond between his759 and the cobalt during
+the catalytic cycle must be inherently faster than methyl
+transfer, which proceeds with a kobs ≈ 180 s-1 (9). thus,
+our ability to detect five-coordinate methylcobalamin during
+reactivation, but not during the catalytic cycle, appears to
+rest on the coupling of histidine reassociation to a slow
+conformational change.
+we have used several strategies to populate intermediates
+in reductive methylation in order to visualize these transient
+enzyme states, including chemical reduction of flavodoxin
+and cob(ii)alamin enzyme, as well as mutation of asp757
+and his759. it is perhaps worthwhile to consider how the
+details of the kinetic mechanism might differ during aerobic
+growth of e. coli. under these conditions, ecell ≈ -330 mv
+(17, 30), and the predominant oxidation state of flavodoxin
+bound to  xxxg1479xxx  is the semiquinone form. since
+the flavodoxin semiquinone/oxidized couple has a much
+higher midpoint potential (em7 ) -260 mv) than the  xxxd1771xxx /cob(ii)alamin couple, the driving force for electron
+transfer is low, and therefore the equilibrium concentration
+of  xxxd1771xxx  and the rate of electron transfer will be
+significantly decreased. under aerobic physiological conditions, the rate of reductive methylation is predicted to be
+primarily limited by the population of  xxxd1771xxx  that can
+be generated by electron transfer from bound flavodoxin
+semiquinone. optimal rates of reductive methylation are
+achieved under anaerobic conditions where flavodoxin hydroquinone serves as electron donor.
+among the known vitamin b12-dependent enzymes,  xxxg1479xxx  is unique in its ability to catalyze its own
+reactivation. to do so requires the selective use of flavodoxin and  xxxd3156xxx  as substrates with oxidized enzyme,
+without allowing these substrates to interfere in the primary
+reactions of methionine biosynthesis.  xxxg1479xxx 
+appears to maintain a strict separation between conformations
+involved in primary turnover and reductive methylation (22).
+the manner in which the enzyme is able to detect the
+oxidation state of the cobalamin cofactor and to permit or
+deny conformational interconversion remains one of the more
+mysterious aspects of this enzyme.
+acknowledgment
+we thank professor david ballou (university of michigan)
+for the use of his stopped-flow spectrophotometer.
+
+12658 biochemistry, vol. 37, no. 36, 1998
+references
+1. magnum, j. h., and scrimgeour, k. g. (1962) fed. proc.,
+fed. am. soc. exp. biol. 21, 242.
+2. foster, m. a., dilworth, m. j., and woods, d. d. (1964)
+nature 201, 39-42.
+3. taylor, r. t., and weissbach, h. (1968) arch. biochem.
+biophys. 123, 109-126.
+4. taylor, r. t., and weissbach, h. (1969) arch. biochem.
+biophys. 129, 728-744.
+5. guest, j. r., and woods, d. d. (1960) biochem. j. 77, 422.
+6. hatch, f. t., larabee, a. r., cathou, r. e., and buchanan, j.
+m. (1961) j. biol. chem. 236, 1095.
+7. fujii, k., and huennekens, f. m. (1974) j. biol. chem. 249,
+6745-6753.
+8. taylor, r., and hanna, m. (1970) arch. biochem. biophys.
+137, 453-459.
+9. banerjee, r. v., frasca, v., ballou, d. p., and matthews, r.
+g. (1990) biochemistry 29, 11101-11109.
+10. banerjee, r. v., harder, s. r., ragsdale, s. w., and matthews,
+r. g. (1990) biochemistry 29, 1129-1135.
+11. fujii, k., galivan, j. h., and huennekens, f. m. (1977) arch.
+biochem. biophys. 178, 662-670.
+12. fujii, k., and huennekens, f. m. (1979) in biochemical
+aspects of nutrition (yagi, k., ed.) pp 173-183, japan
+scientific societies press, tokyo.
+13. osborne, c., chen, l.-m., and matthews, r. g. (1991) j.
+bacteriol. 173, 1729-1737.
+14. bianchi, v., eliasson, r., fontecave, m., mulliez, e., hoover,
+d. m., matthews, r. g., and reichard, p. (1993) biochem.
+biophys. res. commun. 197, 792-797.
+15. hoover, d. m., jarrett, j. t., sands, r. h., dunham, w. r.,
+ludwig, m. l., and matthews, r. g. (1997) biochemistry 36,
+127-138.
+16. jarrett, j. t., choi, c. y., and matthews, r. g. (1997)
+biochemistry 36, 15739-15748.
+
+jarrett et al.
+17. dunlap, r. b., harding, n. g. l., and huennekens, f. m.
+(1971) biochemistry 10, 88-97.
+18. massey, v., and hemmerich, p. (1978) biochemistry 17, 9-17.
+19. vetter, j. h., and knappe, j. (1971) z. physiol. chem. 352,
+433-446.
+20. drennan, c. l., huang, s., drummond, j. t., matthews, r.
+g., and ludwig, m. l. (1994) science 266, 1669-1674.
+21. jarrett, j. t., amaratunga, m., drennan, c. l., sands, r. h.,
+scholten, j. d., ludwig, m. l., and matthews, r. g. (1996)
+biochemistry 35, 2464-2475.
+22. jarrett, j. t., huang, s., and matthews, r. g. (1998)
+biochemistry 37, 5372-5382.
+23. amaratunga, m., fluhr, k., jarrett, j. t., drennan, c. l.,
+ludwig, m. l., matthews, r. g., and scholten, j. d. (1996)
+biochemistry 35, 2453-2463.
+24. jarrett, j. t., goulding, c., fluhr, k., huang, s., and matthews,
+r. g. (1997) methods enzymol. 281, 196-213.
+25. hoover, d. m., and ludwig, m. l. (1997) protein sci. 6,
+2525-2537.
+26. zehnder, a. j., and wuhrmann, k. (1976) science 194, 11651166.
+27. matthews, r. g., banerjee, r. v., and ragsdale, s. w. (1990)
+biofactors 2, 147-152.
+28. leclerc, d., wilson, a., dumas, r., gafuik, c., song, d.,
+watkins, d., heng, h. h. q., rommens, j. m., scherer, s.
+w., rosenblatt, d. s., and gravel, r. a. (1998) proc. natl.
+acad. sci. u.s.a. 95, 3059-3064.
+29. anderson, k. b., and von meyenberg, k. (1977) j. biol. chem.
+252, 4151-4156.
+30. clark, w. m. (1960) oxidation-reduction potentials of
+organic systems, waverly press, baltimore.
+31. lexa, d., and savéant, j. m. (1976) j. am. chem. soc. 98,
+2652-2658.
+bi9808565
+

@@ -1,0 +1,1197 @@
+bioorganic & medicinal chemistry 13 (2005) 2459–2468
+
+design, synthesis, and biological evaluation of
+n-acetyl-2-carboxybenzenesulfonamides: a novel class of
+ xxxg1884xxx  (cox-2) inhibitors
+qiao-hong chen, p. n. praveen rao and edward e. knaus*
+faculty of pharmacy and pharmaceutical sciences, university of alberta, edmonton, alberta, canada t6g 2n8
+received 14 december 2004; revised 21 january 2005; accepted 21 january 2005
+
+abstract—n-acetyl-2-carboxybenzenesulfonamide (11), and a group of analogues possessing an appropriately substituted-phenyl
+substituent (4-f, 2,4-f2, 4-so2me, 4-ochme2) attached to its c-4, or c-5 position, were synthesized for evaluation as selective
+ xxxg1884xxx  (cox-2) inhibitors. in vitro cox-1/cox-2 inhibition studies showed that 11 is a more potent inhibitor
+(cox-1 ic50 = 0.06 lm; cox-2 ic50 = 0.25 lm) than aspirin (cox-1 ic50 = 0.35 lm; cox-2 ic50 = 2.4 lm), and like aspirin
+[cox-2 selectivity index (s.i.) = 0.14], 11 is a nonselective cox-2 inhibitor (cox-2 s.i. = 0.23). regioisomers having a 2,4-diﬂuorophenyl substituent attached to the c-4 (cox-2 ic50 = 0.087 lm; cox-2 s.i. >1149), or c-5 (cox-2 ic50 = 0.77 lm, si > 130),
+position of 11 exhibited the most potent and selective cox-2 inhibitory activity relative to the reference drug celecoxib (cox-1
+ic50 = 33.1 lm; cox-2 ic50 = 0.07 lm; cox-2 s.i. = 472). n-acetyl-2-carboxybenzenesulfonamide (11, ed50 = 49 mg/kg), and
+its c-4 2,4-diﬂuorophenyl derivative (ed50 = 91 mg/kg), exhibited superior antiinﬂammatory activity (oral dosing) in a carrageenan-induced rat paw edema assay compared to aspirin (ed50 = 129 mg/kg). these latter compounds exhibited comparable analgesic activity to the reference drug diﬂunisal, and  xxxd2565xxx  activity compared to aspirin, in a 4% nacl-induced abdominal
+constriction assay. a molecular modeling (docking) study indicated that the so2nhcoch3 substituent present in n-acetyl-2-carboxy-4-(2,4-ﬂuorophenyl)benzenesulfonamide, like the acetoxy substituent in aspirin, is suitably positioned to acetylate the ser530
+hydroxyl group in the cox-2 primary binding site. the results of this study indicate that the so2nhcoch3 pharmacophore present in n-acetyl-2-carboxybenzenesulfonamides is a suitable bioisostere for the acetoxy (ocome) group in aspirin.
+ 2005 elsevier ltd. all rights reserved.
+
+1. introduction
+the complex biological actions exhibited by the simple
+salicylate class of compounds have attracted on-going
+attention for more than 100 years. in this context, the
+moderately active antiinﬂammatory and nonnarcotic
+analgesic agent  xxxd234xxx  (aspirin, 1) continues
+to be a frequent ﬁrst choice drug in the treatment of
+some arthritic disorders (see structure in fig. 1). however, these beneﬁcial actions of aspirin may also be
+accompanied by adverse eﬀects that include tinnitus,
+hypersensitization, and contraindicated gastrointestinal
+irritation, bleeding and/or ulceration.1 the ability of
+aspirin to inhibit blood platelet aggregation is now
+viewed as a clinically useful prophylactic action that
+
+keywords: n-acetyl-2-carboxybenzenesulfonamides; cyclooxygenase1 and -2 inhibition; antiinﬂammatory and analgesic activities.
+* corresponding author. tel.: +1 780 492 5993; fax: +1 780 492
+1217; e-mail: eknaus@pharmacy.ualberta.ca
+0968-0896/$ - see front matter  2005 elsevier ltd. all rights reserved.
+doi:10.1016/j.bmc.2005.01.039
+
+f
+co2h
+co2h
+o
+
+c
+
+me
+
+f
+
+oh
+
+o
+ xxxd1882xxx  (2)
+
+aspirin (1)
+c(ch2)3me
+
+sc
+
+o
+
+c
+
+meso2
+
+4
+3
+
+me
+
+2
+
+o
+o
+
+(4)
+
+aphs (3)
+so2me
+
+r
+
+o
+
+o
+
+(5, r = so2nhcome)
+(6, r = so2nh2)
+
+o
+
+o
+
+c
+
+me
+
+o
+
+r
+
+me
+
+n
+o
+--
+
+(7, r = so2n coet na+)
+(8, r = so2nh2)
+
+figure 1. some representative cyclooxygenase (cox) inhibitors.
+
+2460
+
+q.-h. chen et al. / bioorg. med. chem. 13 (2005) 2459–2468
+
+can reduce the incidence of thrombus formation in individuals with cardiovascular disease. the search for a
+clinical replacement for aspirin resulted in the development of the nonacetylating  xxxd3159xxx  derivative
+diﬂunisal (2) that is a more potent antiinﬂammatory
+and analgesic agent with a longer duration of action that
+is less ulcerogenic than aspirin.2 the subsequent discovery3,4 that there are two cyclooxygenase isozymes  xxxg1883xxx  and cox-2 provided the basis for the drug design concept that selective cox-2 inhibitors such as celecoxib5
+elicit eﬀective antiinﬂammatory activity devoid of the
+ulcerogenic eﬀect associated with the use of nonsteroidal
+antiinﬂammatory drugs (nsaids) such as aspirin that
+inhibit both cox-1 and cox-2. aspirin is a unique
+nonselective cox inhibitor due to its ability to acetylate
+the ser530 hydroxyl group in the primary cox binding
+site of cox-1 and cox-2. in this regard, aspirin is a
+10- to 100-fold more potent inhibitor of cox-1 relative
+to cox-2.6 acetylation of the weakly nucleophilic oh
+of ser530 by aspirin is thought to result from initial binding of its cooh to the arg120 residue near the mouth
+of the cox binding site, which positions the ortho-acetoxy moiety in close proximity to the ser530 oh, which
+it acetylates. some of aspirins beneﬁcial therapeutic
+eﬀects arise from acetylation of cox-2, whereas its
+antithrombotic and ulcerogenic eﬀects result from
+acetylation of cox-1. these observations were
+exploited in the design of the aspirin analogue o-(acetoxyphenyl)hept-2-ynyl sulﬁde (aphs, 3) that is a selective cox-2 inhibitor.7 in an earlier study, we reported a
+novel class of isomeric acetoxy analogues of rofecoxib
+(4), which are potent and selective cox-2 inhibitors
+that, like aspirin, have the potential to acetylate the
+cox-2 isozyme.8
+
+appropriately substituted-phenyl substituent attached
+to its c-4, or c-5, position that were designed to be potential bioisosteres of aspirin.
+2. chemistry
+n-acetyl-2-carboxybenzenesulfonamide (11) was synthesized using a two-step reaction sequence that involved n-acetylation of 2-methylbenzenesulfonamide
+(9) followed by oxidation of the aryl c-2 methyl substituent using kmno4 in 0.5 n aqueous naoh as illustrated in scheme 1. the target n-acetyl-2carboxybenzenesulfonamides (19a–d, 20a–e) having a
+variety (r1 = h, f, so2me, ochme2; r2 = h, f) of
+substituted-phenyl substituents at the c-4 or c-5 positions were prepared using a palladium-catalyzed suzuki
+cross-coupling reaction according to the reaction sequence shown in scheme 2. chlorosulfonation of 3bromotoluene (12a), and 4-bromotoluene (12b), at
+0 c followed by amminolysis using aqueous ammonium hydroxide in dioxane aﬀorded the respective sulfonamide (14a,b) in good yield. the subsequent
+acetylation of 14a,b yielded the corresponding
+
+ch3
+
+3
+
+5
+
+12a, 3-br
+12b, 4-br
+
+ch3
+so2nh2
+9
+
+a
+
+ch3
+
+br
+5
+
+so2cl
+
+so2nh2
+
+14a, 4-br
+14b, 5-br
+
+13a, 4-br
+13b, 5-br
+r2
+
+r2
+ch3
+
+4
+
+r1
+
+c
+
+b(oh)2
+
+ch3
+
+4
+
+16
+
+1
+
+r
+
+br
+
+d
+
+5
+
+so2nhcome
+
+so2nhcome
+
+15a, 4-br
+15b, 5-br
+
+17, 4-substituted-phenyl
+18, 5-substituted-phenyl
+e
+
+17-20a, r1 = r2 = h
+1
+
+2
+
+17-20b, r = f, r = h
+
+2
+
+r
+
+1
+
+co2h
+
+4
+
+r1
+5
+
+so2nhcome
+
+19, 4-substituted-phenyl
+20, 5-substituted-phenyl
+g, h
+
+ch3
+
+4
+
+b
+
+br
+
+4
+
+5
+
+it is known that the so2nhcoch3 moiety is a 105–106
+more reactive acetylating agent of enzyme serine
+hydroxyls than simple amides.9 in a recent study, it
+was shown that the incorporation of a para-n-acetylsulfonamido substituent on the c-3 phenyl ring of the
+rofecoxib regioisomer (5) provided a highly potent and
+selective cox-2 inhibitor that has the potential to acetylate the cox-2 isozyme.10 after acetylation of the
+cox-2 ser530 oh by compound 5, compound (6) having a free so2nh2 compound would be released that
+could also exhibit cox-2 inhibitory activity. this rationale is based on observation that the water soluble nonnarcotic analgesic agent  xxxd2849xxx  sodium (7)11 is a
+prodrug to the selective cox-2 inhibitor  xxxd3481xxx 
+(8).12 accordingly, the so2nhcoch3 pharmacophore
+could serve the dual role of acetylation agent and prodrug. as part of our on-going research program to design selective cox-2 inhibitors, we describe herein the
+synthesis and biological evaluation of a novel group of
+n-acetyl-2-carboxybenzenesulfonamides possessing an
+
+ch3
+
+4
+
+a
+
+br
+
+2
+
+17-20c, r = r = f
+f
+
+17-18d, r1 = sme, r2 = h
+17-18e, r1 = so2me, r2 = h
+1
+
+2
+
+19-20d, r = so2me, r = h
+1
+
+2
+
+18f, 20e, r = ochme2, r = h
+
+20d, r1 = so2me, r2 = h
+co2me
+
+so2nhcome
+meso2
+
+21
+
+scheme 2. reagents and conditions: (a) clso3h, chcl3, 0 c, 4 h; (b)
+30% w/v nh4oh, dioxane, 0 c, 6 h; (c) ac2o, dmap, pyridine,
+25 c, overnight; (d) pd(pph3)4, na2co3, thf, reﬂux, 5 h; (e)
+kmno4, 0.5 n naoh, 60 c, 4 h; (f) oxone, thf, meoh, h2o,
+25 c, 2 h; (g) meoh, h2so4, 80 c, overnight; (h) ac2o, pyridine,
+dmap, 25 c, overnight.
+
+b
+
+so2nhcome
+10
+
+cooh
+so2nhcome
+11
+
+scheme 1. reagents and conditions: (a) ac2o, dmap, pyridine, 25 c, overnight; (b) kmno4, 0.5 n aqueous naoh solution, 60 c, 6 h.
+
+q.-h. chen et al. / bioorg. med. chem. 13 (2005) 2459–2468
+
+n-acetyl-4-(or 5-)bromo-2-methylbenzenesulfonamide
+(15a,b). the suzuki cross-coupling reaction13,14 between
+an aryl bromide (15a,b) and a substituted-phenylboronic
+acid (16) in the presence of 2 m aqueous  xxxd3212xxx  in tetrahydrofuran, using tetrakis(triphenylphosphine)palladium(0) as a catalyst, aﬀorded the
+respective biaryl derivative (17, 18). subsequent oxidation of the c-2 methyl aryl substituent present in 17
+and 18 using kmno4 in 0.5 n aqueous naoh at
+60 c for 6 h yielded the desired c-4 (19), or c-5 (20)
+substituted-phenyl derivative of n-acetyl-2-carboxybenzenesulfonamide. methylation of the 2-carboxy
+compound 20d followed by reacetylation furnished 2methoxycarbonyl-5-(4-methylsulfonylphenyl)benzenesulfonamide (21).it was necessary to reacetylate the sulfonamide substituent since it undergoes n-deacetylation
+during the acid catalyzed esteriﬁcation reaction employed to convert the c-2 carboxyl substituent to the
+c-2 methyl ester.
+
+2461
+
+(11) is a more potent inhibitor of cox-1 and cox-2
+[cox-1 ic50 = 0.06 lm; cox-2 ic50 = 0.25 lm;
+cox-2 selectivity index (s.i.) = 0.23] than aspirin
+(cox-1 ic50 = 0.35 lm; cox-2 ic50 = 2.4 lm;  xxxg1454xxx   xxxg1884xxx  s.i. = 0.14). introduction of a c-4 phenyl substituent
+(19a) increased cox-2 inhibitory potency and selectivity (cox-1 ic50 = 0.33 lm; cox-2 ic50 = 0.03 lm,
+s.i. = 10). in contrast, incorporation of a c-5 phenyl
+substituent (20a) did not appreciably change cox-1
+inhibitory activity but cox-2 inhibitory activity and
+selectivity was decreased (cox-1 ic50 = 0.03 lm;
+cox-2 ic50 = 1.2 lm; cox-2 s.i. = 0.02). the point
+of attachment of a 4-ﬂuorophenyl substituent is a determinant of selectivity since the c-4 compound (19b)
+selectively inhibits cox-1, whereas the c-5 regioisomer
+(20b) is a selective cox-2 inhibitor. similarly, the c-4 4methanesulfonylphenyl regioisomer (19d) was a selective
+cox-1 inhibitor, while the c-5 regioisomer (20d) was a
+selective cox-2 inhibitor. on the other hand, placement
+of a 2,4-diﬂuorophenyl substituent at either the c-4 pocox-2
+sition
+(19c,
+cox-2
+ic50 = 0.087 lm;
+s.i. = >1149), or c-5 position (20c, cox-2
+ic50 = 0.77 lm; cox-2 s.i. = >130) provided compounds with superior cox-2 selectivity with the c-4
+diﬂuorophenyl regioisomer (19c) being a ninefold more
+potent and selective cox-2 inhibitor than the c-5 regioisomer (20c). accordingly, n-acetyl-2-carboxy-4-(2,4diﬂuorophenyl)benzenesulfonamide (19c) (i) is a signiﬁcantly more potent and selective cox-2 inhibitor than
+the reference drug aspirin (cox-1 ic50 > 0.35 lm;
+cox-2 ic50 = 2.4 lm; cox-2 s.i. = 0.14), and (ii) a
+slightly less potent but more selective cox-2 inhibitor
+than celecoxib (cox-1 ic50 = 33.1 lm; cox-2
+ic50 = 0.07 lm, s.i. = 472). other structure–activity
+
+3. results and discussion
+a group of n-acetyl-2-carboxybenzenesulfonamides
+possessing an appropriately substituted-phenyl substituent attached to its c-4, or c-5, position were designed to
+determine (i) whether the n-acetylsulfonamido moiety
+(11) is a suitable bioisostere of the acetoxy substituent
+in aspirin (1), and (ii) if a substituted-phenyl moiety attached to the c-4 or c-5 position of the parent 2-carboxybenzenesulfonamido ring will provide the additional
+steric size required to confer cox-2 selectivity. in vitro
+cox-1/cox-2 inhibition studies (see data in table 1)
+showed that n-acetyl-2-carboxybenzenesulfonamide
+
+table 1. in vitro cox-1 and cox-2 inhibition data for n-acetyl-2-carboxybenzenesulfonamides (11, 19, 20) and the 2-methoxycarbonyl derivative
+(21)
+r
+
+cooh
+
+2
+
+so2nhcoch3
+
+r1
+19a-c, e
+
+1 (aspirin)
+11
+
+compound
+
+11
+19a
+19b
+19c
+19d
+20a
+20b
+20c
+20d
+20e
+21
+1 (aspirin)
+celecoxib
+rofecoxib
+a
+
+r1
+
+so2nhcoch3
+h
+f
+f
+so2ch3
+h
+f
+f
+so2ch3
+(ch3)2cho
+so2ch3
+ococh3
+
+r2
+
+cooh
+
+r1
+
+r2
+
+—
+h
+h
+f
+h
+h
+h
+f
+h
+h
+h
+—
+
+r1
+
+3
+
+coor
+
+so2nhcoch3
+20a-e, 21
+
+r3
+
+—
+—
+—
+—
+—
+h
+h
+h
+h
+h
+ch3
+—
+
+ic50 (lm)a
+
+cox-2 s.i.b
+
+cox-1
+
+cox-2
+
+0.06
+0.33
+0.68
+>100
+0.17
+0.03
+>100
+>100
+2.17
+>100
+>100
+0.35
+33.1
+>100
+
+0.25
+0.03
+>100
+0.087
+>100
+1.2
+3.8
+0.77
+0.3
+>100
+>100
+2.4
+0.07
+0.50
+
+0.23
+10.3
+<0.007
+>1149
+<0.002
+0.02
+>25
+>130
+7.4
+n/a
+n/a
+0.14
+472
+>200
+
+values are means of two determinations acquired using an ovine cox-1/cox-2 assay kit (catalog no. 560101, cayman chemicals inc., ann arbor,
+mi, usa), and the deviation from the mean is <10% of the mean value.
+b
+in vitro cox-2 selectivity index (cox-1 ic50/cox-2 ic50).
+
+2462
+
+q.-h. chen et al. / bioorg. med. chem. 13 (2005) 2459–2468
+
+relationships acquired show that (i) introduction of a c5 4-isopropoxyphenyl substituent (20e) abolishes both
+cox-1 and cox-2 inhibitory activity (ic50 values
+>100 lm), and (ii) a c-2 carboxyl substituent is essential
+since its elaboration (20d) to a c-2 methoxycarbonyl
+substituent (21) destroys both cox-1 and cox-2 inhibitory activity.
+a molecular modeling experiment was carried out to
+determine the binding interactions of n-acetyl-2-carboxy-4-(2,4-diﬂuorophenyl)benzenesulfonamide (19c) in
+the cox-2 binding site (fig. 2). the parent aromatic ring
+possessing the c-2 carboxyl and n-acetylsulfonamido
+substituents was oriented such that the carboxylic acid
+moiety is positioned near the mouth of cox-2 binding
+site where it forms a salt bridge (electrostatic interaction)
+with the guanidino group of arg120 (distance < 3 å). the
+n-acetylsulfonamido-substituent is located in a region
+comprised of nonpolar amino acids such as ala527,
+val349, leu359, leu531, and leu117. interestingly, the
+c@o of the so2nhcome substituent forms a favorable
+hydrogen bonding interaction with the oh of tyr355
+close to the mouth of cox-2 channel (distance = 1.7 å).
+the distance between the oh of ser530, which is the acetylation site for aspirin, and c@o of the so2nhcome
+moiety is about 7.03 å. these observations suggest that
+the so2nhcome moiety present in 19c is suitably orientated to potentially acetylate (covalent bond formation)
+ser530 present in the cox-2 isozyme.
+the 2,4-diﬂuorophenyl ring present in 19c is oriented toward the cox-2 secondary pocket in the vicinity of amino
+
+acid residues val523, asp515, arg513, gln192, thr94, and
+his90 (fig. 2). in this context, the distance between 4-ﬂuoro atom of the 2,4-diﬂuorophenyl ring and the nh2
+(guanidino group) of arg513 is about 5.64 å, and it is
+positioned about 5.90 å from the nh2 of gln192. the
+2-ﬂuoro atom of the 2,4-diﬂuoro-phenyl ring is positioned near thr94, gly354, and tyr355 (distance < 5 å)
+close to the entrance of the cox-2 secondary pocket.
+pharmacological studies were carried out to assess the in
+vivo antiinﬂammatory and analgesic activities of n-acetyl-2-carboxybenzenesulfonamide (11), and some of the
+most potent and selective cox-2 inhibitors (19c, 20b,
+and 20c), based on in vitro enzyme inhibition data (see
+data in table 2). in the carrageenan-induced rat paw
+edema assay model, the parent compound 11 was the
+most potent antiinﬂammatory agent (ed50 = 49 mg/kg)
+within this group of compounds at 3 h postdrug administration (oral dose). this high in vivo antiinﬂammatory
+activity shown by 11, relative to 19c, 20b, and 20c, is
+attributed to the fact that 11 inhibits both cox-1 and
+cox-2 whereas the latter compounds inhibit only
+cox-2. credence for this explanation is based on observation that the more potent and selective in vitro cox-2
+inhibitor n-acetyl-2-carboxy-4-(2,4-diﬂuorophenyl)benzenesulfonamide (19c) is a less potent antiinﬂammatory
+agent in vivo (ed50 = 91 mg/kg, oral dose) than 11
+(ed50 = 49 mg/kg, oral dose). these structure–
+activity data indicate that the so2nhcome moiety
+present in 11 is a suitable bioisostere, with respect to
+antiinﬂammatory activity, of the acetoxy (ocome)
+
+figure 2. docking of n-acetyl-2-carboxy-4-(2,4-diﬂuorophenyl)benzenesulfonamide (19c) (ball-and-stick) in the active site of murine cox-2.
+hydrogens atoms of the amino acid residues have been removed to improve clarity.
+
+q.-h. chen et al. / bioorg. med. chem. 13 (2005) 2459–2468
+
+2463
+
+table 2. in vivo antiinﬂammatory and analgesic activities for n-acetyl-2-carboxybenzenesulfonamides
+f
+
+r2
+
+cooh
+f
+
+cooh
+
+so2nhcoch3
+11
+
+so2nhcoch3
+
+so2nhcoch3
+20b, r1 = f, r2 = h
+20c, r1 = r2 = f
+
+antiinﬂammatory activitya
+
+compound
+
+11
+19c
+20b
+20c
+diﬂunisal (2)
+aspirin (1)
+
+19c
+
+r1
+
+cooh
+
+analgesic activityb
+
+% inhibition (50 mg/kg)
+
+ed50 (mg/kg)
+
+% inhibition at 30 min
+
+% inhibition at 60 min
+
+51.1 ± 5.2
+41.7 ± 5.2
+inactive
+inactive
+60.8 ± 0.9c
+25.2 ± 3.3
+
+49
+91
+—
+—
+17
+129
+
+48.0 ± 9.7
+33.7 ± 10.1
+38.0 ± 19.7
+58.3 ± 11.8
+52.8 ± 20.7
+29.7 ± 10.7
+
+78.0 ± 1.4
+60.0 ± 10.3
+53.3 ± 22.2
+33.3 ± 18.0
+58.3 ± 10.2
+46.4 ± 14.1
+
+a
+
+inhibitory activity in a carrageenan-induced rat paw edema assay. the results are expressed as mean ± sem (n = 4) at 3 h following a 50 mg/kg oral
+dose of the test compound, or as the ed50 value when it was determined.
+b
+inhibitory activity in the rat 4% nacl-induced abdominal constriction assay. the results are expressed as mean ± sem (n = 4) following a 5 mg/kg
+oral dose of the test compound.
+c
+30 mg/kg oral dose.
+
+substituent present in aspirin (ed50 = 129 mg/kg, oral
+dose).
+in a rat model 4% nacl-induced abdominal constriction
+assay, a 5 mg/kg po dose of compounds 11, 19c, 20b,
+and 20c exhibited good analgesic activities (33–78%
+inhibition range) at 30 or 60 min postdrug administration relative to the reference drugs diﬂunisal (52–58%
+inhibition) and aspirin (30–46% inhibition).
+4. conclusions
+in vitro cox-1/cox-2 isozyme inhibition, and in vivo
+antiinﬂammatory and analgesic, data acquired for this
+novel class of n-acetyl-2-carboxybenzenesulfonamides
+showed that (i) the so2nhcoch3 moiety is a suitable
+bioisostere of the oac substituent present in aspirin, (ii)
+incorporation of a 2,4-diﬂuorophenyl substituent at the
+c-4 position of n-acetyl-2-carboxybenzenesulfonamide
+provided the most potent (ic50 = 0.087 lm) and selective (s.i. >1149) inhibition of cox-2, and that this compound could serve as a useful probe to study the
+function and catalytic activity of the cox-2 isozyme,
+and (iii) a compound, which inhibits both cox-1 and
+cox-2 such as n-acetyl-2-carboxybenzenesulfonamide
+exhibits superior in vivo antiinﬂammatory activity relative to compounds that are more potent and selective
+inhibitors of cox-2.
+5. experimental
+melting points were determined on a thomas–hoover
+capillary apparatus and are uncorrected. infrared (ir)
+spectra were recorded on a nicolet 550 series ii magna
+ft-ir spectrometer. 1h nmr spectra were measured
+on a bruker am-300 spectrometer in cdcl3 or
+cdcl3 + dmso-d6 with tms as the internal standard,
+where j (coupling constant) values are estimated in hz.
+spin multiples are given as s (singlet), d (double), t (trip-
+
+let), q (quartet), m (multiplet), and br (broad). microanalyses were performed for c, h, n (microanalytical
+service laboratory, department of chemistry, university of alberta) and were within ±0.4% of theoretical
+values. silica gel column chromatography was performed using merck silica gel 60 astm (70–230 mesh).
+all reagents, purchased from the aldrich chemical
+company (milwaukee, wi), were used without further
+puriﬁcation. male sprague–dawley rats, used in the
+antiinﬂammatory-analgesic screens, were purchased
+from animal health services at the university of alberta, and experiments were carried out using protocols approved by the animal welfare committee, university of
+alberta.
+5.1. n-acetyl-2-methylbenzenesulfonamide (10)
+acetic anhydride (1.7 ml, 18 mmol) and 4-dimethylaminopyridine (219 mg, 1.8 mmol) were added to a solution
+of 2-methylbenzenesulfonamide (9, 1.03 g, 6 mmol) in
+pyridine (3 ml) and the reaction was allowed to proceed
+at 25 c with stirring for 6 h. etoac (300 ml) was
+added and this solution was washed successively with
+saturated aqueous nh4cl (2 · 50 ml) and h2o
+(2 · 50 ml). the organic fraction was dried (na2so4)
+and the solvent was removed in vacuo to aﬀord 10
+(962 mg, 60%) as colorless needles; mp 130–132 c; ir
+(ﬁlm) 1704 (c@o), 1465 (ar), 1341 (so2) cm 1; 1h
+nmr (cdcl3): d 2.09 (s, 3h, nhcoch3), 2.68 (s,
+3h, c-2, ch3), 7.35 (d, j = 7.7 hz, 1h, h-3), 7.40 (t,
+j = 7.7 hz, 1h, h-5), 7.55 (t, j = 7.7 hz, 1h, h-4),
+8.15 (d, j = 7.7 hz, 1h, h-6), 8.66 (br s, 1h, nh).
+5.2. n-acetyl-2-carboxybenzenesulfonamide (11)
+kmno4 (1.9 g, 12 mmol) was added to a solution
+of n-acetyl-2-methylbenzenesulfonamide (10, 426 mg,
+2 mmol) in aqueous naoh (24 ml of 0.5 n), and the
+reaction was allowed to proceed at 60 c with stirring
+for 6 h prior to quenching with acetone. the insoluble
+material was removed by ﬁltration, and the ﬁltrate was
+
+2464
+
+q.-h. chen et al. / bioorg. med. chem. 13 (2005) 2459–2468
+
+diluted with h2o (150 ml) prior to acidiﬁcation to ph 3
+using 5% hcl. extraction with ch2cl2 (2 · 100 ml),
+washing the combined ch2cl2 extracts with water
+(3 · 50 ml), drying the organic fraction (na2so4), and
+removal of the solvent in vacuo aﬀorded 11 (306 mg,
+63%) as a pale yellow solid; mp 178–180 c; ir (chcl3)
+3669–2497 (cooh), 3273 (nh), 3157 (ar–h), 1721
+(c@o), 1620, 1470 (ar), 1380 (so2) cm 1; 1h nmr
+(cdcl3 + dmso): d 1.95 (s, 3h, nhcoch3), 7.50
+(m, 2h, h-4, h-5), 7.66 (dd, j = 7.8, 1.6 hz, 1h, h-3),
+8.10 (dd, j = 7.3, 1.2 hz, 1h, h-6), 10.40 (br s, 1h,
+nh). anal. calcd for c9h9o5ns: c, 44.44; h, 3.73;
+n, 5.76. found: c, 44.37; h, 3.51; n, 5.65.
+5.3. general procedure for the synthesis of 4-bromo-2methylbenzenesulfonyl chloride (13a) and 5-bromo-2methylbenzensulfonyl chloride (13b)
+chlorosulfonic acid (2.5 ml, 4.38 g, 37.6 mmol) was
+added slowly to a cold solution (0 c) of either 3-bromotoluene (12a, 1.03 g, 6 mmol), or 4-bromotoluene (12b,
+1.03 g, 6 mmol), in chcl3 (10 ml). the reaction was allowed to proceed with stirring for 4 h at 0 c prior to
+pouring onto crushed ice (250 ml), and then extraction
+with chcl3 (3 · 150 ml). the combined chcl3 extracts were washed with water (3 · 100 ml), the organic
+fraction was dried (na2so4), and the solvent was removed in vacuo to yield the respective arylsulfonyl chloride product (13a or 13b). some physical and
+spectroscopic data for 13a,b are listed below.
+5.4. 4-bromo-2-methylbenzenesulfonyl chloride (13a)
+yield, 99%; white crystals; mp 63–64 c; ir (ﬁlm) 1577,
+1547, 1472 (ar), 1375 (so2) cm 1; 1h nmr (cdcl3): d
+2.77 (s, 3h, ch3), 7.57 (d, j = 8.5 hz, 1h, h-5), 7.60 (s,
+1h, h-3), 7.93 (d, j = 8.6 hz, 1h, h-6).
+5.5. 5-bromo-2-methylbenzenesulfonyl chloride (13b)
+yield, 78%; colorless liquid; ir (neat) 3091 (ar–h),
+1374 (so2) cm 1; 1h nmr (cdcl3): d 2.73 (s, 3h,
+ch3), 7.31 (d, j = 8.2 hz, 1h, h-3), 7.72 (dd, j = 8.2,
+1.8 hz, 1h, h-4), 8.19 (d, j = 1.8 hz, 1h, h-6).
+5.6. general procedure for the synthesis of 4-bromo-2methylbenzenesulfonamide (14a) and 5-bromo-2-methylbenzenesulfonamide (14b)
+an aqueous solution of nh4oh (30 ml of 30% w/v)
+was added to a cold (0 c) solution of the arylsulfonyl
+chloride (13a or 13b, 0.59 g, 2.2 mmol) in dioxane
+(15 ml) with vigorous stirring, and the reaction was allowed to proceed for 6 h at 0 c with continued stirring.
+the insoluble material was removed by ﬁltration,
+washed with water (3 · 10 ml), and recrystallized from
+hexanes–acetone to yield the respective product (14a
+or 14b).
+5.7. 5-bromo-2-methylbenzenesulfonamide (14a)
+yield, 78%; white needles; mp 176–177 c; ir (ﬁlm)
+3362, 3242 (nh2), 1592, 1547 (ar), 1315 (so2) cm 1;
+
+1
+
+h nmr (cdcl3): d 2.67 (s, 3h, ch3), 4.81 (br s, 2h,
+nh2), 7.47 (d, j = 8.2 hz, 1h, h-5), 7.51 (s, 1h, h-3),
+7.88 (d, j = 8.2 hz, 1h, h-6).
+5.8. 5-bromo-2-methylbenzenesulfonamide (14b)
+
+yield, 80%; white needles; mp 164–165 c (lit.15 164–
+165 c); ir (ﬁlm) 3397, 3281 (nh2), 1291 (so2) cm 1;
+1
+h nmr (cdcl3): d 2.63 (s, 3h, ch3), 4.79 (br s, 2h,
+nh2), 7.21 (d, j = 8.0 hz, 1h, h-3), 7.58 (dd, j = 8.0,
+2.1 hz, 1h, h-4), 8.15 (d, j = 2.1 hz, 1h, h-6).
+compounds 15a,b, for which the physical and spectroscopic data are listed below, were prepared using an
+acetylation procedure similar to that described previously for the synthesis of compound 10.
+5.9. n-acetyl-4-bromo-2-methylbenzenesulfonamide
+(15a)
+yield, 80%; pale yellow crystals; mp 150–152 c; ir
+(ﬁlm) 1704 (c@o), 1597, 1547, 1440 (ar), 1349
+(so2) cm 1; 1h nmr (cdcl3): d 2.09 (s, 3h,
+nhcoch3), 2.65 (s, 3h, c-2 ch3), 7.52 (s, 1h, h-3),
+7.54 (d, j = 8.5 hz, 1h, h-5), 8.00 (d, j = 8.5 hz, 1h,
+h-6), 8.36 (br s, 1h, nh). anal. calcd for
+c9h10brno3s: c, 37.00; h, 3.45; n, 4.79. found: c,
+37.28; h, 3.34; n, 4.62.
+5.10. n-acetyl-5-bromo-2-methylbenzenesulfonamide
+(15b)
+yield, 82%; pale yellow crystals; mp 179–180 c; ir
+(ﬁlm) 1668 (c@o), 1473 (ar), 1333 (so2) cm 1; 1h
+nmr (cdcl3): d 2.12 (s, 3h, nhcoch3), 2.62 (s,
+3h, c-2, ch3), 7.22 (d, j = 8.3 hz, 1h, h-3), 7.65 (dd,
+j = 8.3, 2.1 hz, 1h, h-4), 8.26 (d, j = 2.1 hz, 1h, h6), 8.60 (br s, 1h, nh). anal. calcd for c9h10brno3s:
+c, 37.00; h, 3.45; n, 4.79. found: c, 37.13; h, 3.34; n,
+4.68.
+5.11. general procedure for the synthesis of n-acetyl-2methyl-4-(substituted-phenyl)benzenesulfonamides (17a–
+d) and n-acetyl-2-methyl-5-(substituted-phenyl)benzenesulfonamides (18a–d,f)
+the aryl bromide (15a or 15b, 0.58 g, 2.0 mmol) and the
+appropriately substituted-phenylboronic acid (16,
+3.0 mmol) were dissolved in thf (30 ml), and then
+aqueous na2co3 (3.0 ml of 2 m) followed by tetrakis(triphenylphosphine)palladium (70 mg, 0.06 mmol)
+were added. the reaction was allowed to proceed at reﬂux for 3–5 h, cooled to 25 c, water was added
+(150 ml), the mixture was acidiﬁed to ph 3 using 5%
+w/v hcl, and the mixture was extracted with etoac
+(3 · 100 ml). the combined etoac extracts were
+washed with water (3 · 50 ml), the organic fraction
+was dried (na2so4), and the solvent was removed
+in vacuo to aﬀord the crude product. puriﬁcation of
+the product by silica gel column chromatography using
+chcl3–meoh (100:3, v/v) as eluant furnished the
+respective title compound (17a–d, 18a–d,f).
+
+q.-h. chen et al. / bioorg. med. chem. 13 (2005) 2459–2468
+
+2465
+
+5.12. n-acetyl-2-methyl-4-phenylbenzenesulfonamide
+(17a)
+
+5.17. n-acetyl-5-(2,4-diﬂuorophenyl)-2-methylbenzenesulfonamide (18c)
+
+yield, 90%; white needles; mp 168–169 c; ir (chcl3)
+3393 (nh), 3155 (ar–h), 1722 (c@o), 1603, 1474
+(ar), 1380, 1350 (so2) cm 1; 1h nmr (cdcl3): d
+2.13 (s, 3h, nhcoch3), 2.74 (s, 3h, c-2, ch3),
+7.40–8.27 (m, 8h, ar–h), 8.62 (br s, 1h, nh). anal.
+calcd for c15h15no3s: c, 62.26; h, 5.23; n, 4.84.
+found: c, 62.20; h, 5.19; n, 4.69.
+
+yield, 69%; pale yellow needles; mp 162–164 c; ir
+(chcl3) 3385 (nh), 3010 (ar–h), 1720 (c@o), 1600,
+1490 (ar), 1380 (so2) cm 1; 1h nmr (cdcl3): d 2.12
+(s, 3h, nhcoch3), 2.71 (s, 3h, c-2, ch3), 6.95 (m,
+2h, diﬂuorophenyl h-3, h-5), 7.42 (d, j = 8.2 hz, 1h,
+h-3), 7.45 (m, 1h, diﬂuorophenyl h-6), 7.70 (br d,
+j = 8.2 hz, 1h, h-4), 8.28 (br s, 1h, h-6), 8.53 (br s,
+1h, nh). anal. calcd for c15h13f2no3s: c, 55.38;
+h, 4.03; n, 4.31. found: c, 55.45; h, 3.82; n, 4.21.
+
+5.13. n-acetyl-2-methyl-5-phenylbenzenesulfonamide
+(18a)
+yield, 53.5%; pale yellow crystals; mp 183–185 c; ir
+(ﬁlm) 1682 (c@o), 1480, 1435 (ar), 1310 (so2) cm 1;
+1
+h nmr (cdcl3): d 2.12 (s, 3h, nhcoch3), 2.71 (s,
+3h, c-2, ch3), 7.37–7.51 (m, 4h, h-3, phenyl h-3, h4, h-5), 7.62 (dd, j = 8.4, 1.2 hz, 2h, phenyl h-2, h6), 7.76 (dd, j = 8.0, 1.8 hz, 1h, h-4), 8.33 (br s, 1h,
+nh), 8.37 (d, j = 1.8 hz, 1h, h-6). anal. calcd for
+c15h15no3sæ1/4h2o: c, 61.31; h, 5.31; n, 4.77. found:
+c, 61.34; h, 5.31; n, 4.73.
+5.14. n-acetyl-4-(4-ﬂuorophenyl)-2-methylbenzenesulfonamide (17b)
+yield, 87%; pale yellow crystals; mp 175–176 c; ir
+(chcl3) 3382 (nh), 3019 (ar–h), 1723 (c@o), 1602,
+1474 (ar), 1387 (so2) cm 1; 1h nmr (cdcl3): d 2.12
+(s, 3h, nhcoch3), 2.73 (s, 3h, c-2, ch3), 7.18 (t,
+j = 8.5 hz, 2h, ﬂuorophenyl h-3, h-5), 7.50 (br s, 1h,
+h-3), 7.58 (m, 3h, h-5, ﬂuorophenyl h-2, h-6), 8.21
+(d, j = 8.4 hz, 1h, h-6), 8.57 (br s, 1h, nh). anal.
+calcd for c15h14fno3s: c, 58.62; h, 4.59; n, 4.56.
+found: c, 58.60; h, 4.34; n, 4.37.
+5.15. n-acetyl-5-(4-ﬂuorophenyl)-2-methylbenzenesulfonamide (18b)
+yield, 75%; pale yellow solid; mp 120–122 c; ir
+(chcl3) 3388 (nh), 3130 (ar–h), 1723 (c@o), 1620,
+1461 (ar), 1380 (so2) cm 1; 1h nmr (cdcl3): d 2.10
+(s, 3h, nhcoch3), 2.70 (s, 3h, c-2, ch3), 7.16 (t,
+j = 8.4 hz, 2h, ﬂuorophenyl h-3, h-5), 7.41 (d,
+j = 8.0 hz, 1h, h-3), 7.57 (dd, j = 8.4, 5.2 hz, 2h, ﬂuorophenyl h-2, h-6), 7.70 (dd, j = 8.0, 1.8 hz, 1h, h-4),
+8.33 (d, j = 2.1 hz, 1h, h-6), 8.34 (br s, 1h, nh). anal.
+calcd for c15h14fno3s: c, 58.62; h, 4.59; n, 4.56.
+found: c, 58.78; h, 4.48; n, 4.43.
+5.16. n-acetyl-4-(2,4-diﬂuorophenyl)-2-methylbenzenesulfonamide (17c)
+yield, 86%; pale gray crystals; mp 146–147 c; ir
+(chcl3) 3382 (nh), 3153 (ar–h), 1716 (c@o), 1622
+(ar), 1387 (so2) cm 1; 1h nmr (cdcl3): d 2.13 (s,
+3h, nhcoch3), 2.73 (s, 3h, c-2, ch3), 6.95 (m, 2h,
+diﬂuorophenyl h-3, h-5), 7.38–7.53 (m, 2h, h-3, h5), 8.20 (d, j = 8.2 hz, 1h, h-6), 8.52 (br s, 1h, nh).
+anal. calcd for c15h13f2no3s: c, 55.38; h, 4.03; n,
+4.31. found: c, 55.41; h, 3.96; n, 4.23.
+
+5.18. n-acetyl-2-methyl-4-(4-methylthiophenyl)benzenesulfonamide (17d)
+yield, 90%; white crystals; mp 162–163 c; ir (ﬁlm)
+1697 (c@o), 1600, 1442 (ar), 1300 (so2) cm 1; 1h
+nmr (cdcl3): d 2.12 (s, 3h, nhcoch3), 2.54 (s,
+3h, sch3), 2.73 (s, 3h, c-2, ch3), 7.34 (d,
+j = 8.4 hz, 2h, methylthiophenyl h-3, h-5), 7.52–7.58
+(m, 4h, h-3, h-5, methylthiophenyl h-2, h-6), 8.19
+(d, j = 8.6 hz, 1h, h-6), 8.46 (br s, 1h, nh). anal.
+calcd for c16h17no3s2: c, 57.29; h, 5.11; n, 4.18.
+found: c, 57.42; h, 5.08; n, 3.98.
+5.19. n-acetyl-2-methyl-5-(4-methylthiophenyl)benzenesulfonamide (18d)
+yield, 89%; pale yellow solid; mp 173–175 c; ir (ﬁlm)
+1696 (c@o), 1602, 1481 (ar), 1347 (so2) cm 1; 1h
+nmr (cdcl3): d 2.10 (s, 3h, nhcoch3), 2.53 (s,
+3h, sch3), 2.69 (s, 3h, c-2, ch3), 7.33 (d,
+j = 8.2 hz, 2h, methylthiophenyl h-3, h-5), 7.40 (d,
+j = 8.2 hz, 1h, h-3), 7.54 (d, j = 8.5 hz, 2h, methylthiophenyl h-2, h-6), 7.73 (dd, j = 8.2, 1.8 hz, 1h, h-4),
+8.35 (d, j = 1.8 hz, 1h, h-6), 8.58 (br s, 1h, nh). anal.
+calcd for c16h17no3s2: c, 57.29; h, 5.11; n, 4.18.
+found: c, 57.34; h, 4.93; n, 4.01.
+5.20. n-acetyl-5-(4-isopropoxyphenyl)-2-methylbenzenesulfonamide (18f)
+yield, 82%; white needles; mp 150–151 c; ir (chcl3)
+3388 (nh), 3031, 3024 (ar–h), 1726 (c@o), 1602,
+1485 (ar), 1205 (so2) cm 1; 1h nmr (cdcl3): d 1.38
+[d, j = 6.1 hz, 6h, och(ch3)2], 2.10 (s, 3h,
+nhcoch3), 2.69 (s, 3 h, c-2, ch3), 4.61 [m, 1h,
+och(ch3)2], 6.98 (d, j = 8.7 hz, 2h, isopropoxyphenyl
+h-3, h-5), 7.37 (d, j = 8.0 hz, 1h, h-3), 7.53 (d,
+j = 8.7 hz, 2h, isopropoxyphenyl h-2, h-6), 7.71 (dd,
+j = 8.2, 1.8 hz, 1h, h-4), 8.32 (d, j = 1.8 hz, 1h, h6), 8.62 (br s, 1h, nh). anal. calcd for c18h21no4s:
+c, 62.23; h, 6.09; n, 4.03. found: c, 62.34; h, 6.10;
+n, 3.94.
+5.21. general procedure for the synthesis of n-acetyl-4(4-methanesulfonylphenyl)-2-methylbenzenesulfonamide
+(17e) and n-acetyl-5-(4-methanesulfonylphenyl)-2-methylbenzenesulfonamide (18e)
+an aqueous solution of oxone (1.9 g, 3.03 mmol, 15 ml)
+was added to a stirred solution of the methylthiophenyl
+
+2466
+
+q.-h. chen et al. / bioorg. med. chem. 13 (2005) 2459–2468
+
+compound (17d or 18d, 574 mg, 1.71 mmol) in methanol
+(6 ml) and thf (15 ml), and the reaction was allowed
+to proceed with stirring at 25 c for 1.5 h. addition of
+h2o (100 ml), extraction with ch2cl2 (3 · 80 ml),
+drying the combined ch2cl2 extracts (na2so4), and
+removal of the solvent in vacuo aﬀorded the crude
+product. the 1h nmr of this product showed that
+the n-acetyl group has undergone partial hydrolysis.
+to circumvent this, the title compounds were isolated
+following acetylation of the crude product employing
+the same acetylation procedure described previously
+for the synthesis of compound 10. the physical and
+spectral data for 17–18e are summarized below.
+5.22. n-acetyl-4-(4-methanesulfonylphenyl)-2-methylbenzenesulfonamide (17e)
+yield, 89%; pale orange crystals; mp 206–208 c; ir
+(chcl3) 1716 (c@o), 1595, 1441 (ar), 1313 (so2) cm 1;
+1
+h nmr (cdcl3 + dmso): d 1.84 (s, 3h,
+nhcoch3), 2.56 (s, 3h, c-2, ch3), 2.94 (s, 3h,
+so2ch3), 7.35 (s, 1h, h-3), 7.39 (d, j = 8.2 hz, 1h,
+h-5), 7.62 (d, j = 8.2 hz, 2h, methanesulfonylphenyl
+h-2, h-6), 7.85 (d, j = 8.2 hz, 2h, methanesulfonylphenyl h-3, h-5), 8.04 (d, j = 8.2 hz, 1h, h-6), 11.7 (br s,
+1h, nh). anal. calcd for c16h17no5s2: c, 52.30; h,
+4.66; n, 3.81. found: c, 52.38; h, 4.38; n, 3.71.
+5.23. n-acetyl-5-(4-methanesulfonylphenyl)-2-methylbenzenesulfonamide (18e)
+yield, 57.5%; white crystals; mp 221–222 c; ir
+(chcl3) 3393 (nh), 3155 (ar–h), 1713 (c@o), 1639,
+1
+h
+nmr
+1500
+(ar),
+1380
+(so2) cm 1;
+(cdcl3 + dmso): d 1.98 (s, 3h, nhcoch3), 2.67 (s,
+3h, c-2, ch3), 3.05 (s, 3h, so2ch3), 7.36 (d,
+j = 8.2 hz, 1h, h-3), 7.67 (dd, j = 8.2, 2.2 hz, 1h, h4), 7.76 (d, j = 8.2 hz, 2h, methanesulfonylphenyl h2, h-6), 7.96 (d, j = 8.2 hz, 2h, methanesulfonylphenyl
+h-3, h-5), 8.36 (d, j = 2.2 hz, 1h, h-6), 11.7 (br s, 1h,
+nh). anal. calcd for c16h17no5s2: c, 52.30; h, 4.66;
+n, 3.81. found: c, 52.49; h, 4.74; n, 3.66.
+the n-acetyl-2-carboxy-4-(substituted-phenyl)benzenesulfonamides (19a–d) and n-acetyl-2-carboxy-5-(substituted-phenyl)benzenesulfonamides
+(20a–d)
+were
+prepared by oxidation of the c-2 methyl substituent
+using kmno4 according to the procedure described previously for the preparation of compound 11.
+5.24. n-acetyl-2-carboxy-4-phenylbenzenesulfonamide
+(19a)
+yield, 88%; white crystals; mp 195–196 c; ir (chcl3)
+3388–2475 (cooh), 1709 (c@o), 1595, 1467 (ar), 1250
+(so2) cm 1; 1h nmr (cdcl3 + dmso): d 2.00 (s, 3h,
+nhcoch3), 7.30–7.41 (m, 3h, phenyl h-3, h-4, h-5),
+7.51 (d, j = 7.5 hz, 2h, phenyl h-2, h-6), 7.70 (dd,
+j = 8.4, 1.8 hz, 1h, h-5), 7.89 (d, j = 1.8 hz, 1h, h3), 8.19 (d, j = 8.4 hz, 1h, h-6), 10.45 (br s, 1h, nh).
+anal. calcd for c15h13no5s: c, 56.42; h, 4.10; n,
+4.39. found: c, 56.32; h, 3.96; n, 4.23.
+
+5.25. n-acetyl-2-carboxy-5-phenylbenzenesulfonamide
+(20a)
+yield, 67%; pale yellow solid; mp 274–275 c; ir
+(chcl3) 3471–2513 (cooh), 1704 (c@o), 1638, 1473
+(ar), 1366 (so2) cm 1; 1h nmr (cdcl3 + dmso): d
+2.01 (s, 3h, nhcoch3), 7.35 (m, 3h, phenyl h-3, h4, h-5), 7.56 (d, j = 8.0 hz, 2h, phenyl h-2, h-6),
+7.75 (dd, j = 8.2, 1.5 hz, 1h, h-4), 7.81 (d, j = 8.2 hz,
+1h, h-3), 8.36 (d, j = 1.5 hz, 1h, h-6), 10.30 (br s,
+1h, nh). anal. calcd for c15h13no5s: c, 56.42; h,
+4.10; n, 4.39. found: c, 56.10; h, 4.15; n, 4.30.
+5.26. n-acetyl-2-carboxy-4-(4-ﬂuorophenyl)benzenesulfonamide (19b)
+yield, 88%; white solid; mp 201–202 c; ir (chcl3):
+3409–2468 (cooh), 1709 (c@o), 1602, 1467 (ar),
+1380 (so2) cm 1; 1h nmr (cdcl3 + dmso): d 1.92
+(s, 3h, nhcoch3), 7.02 (t, j = 8.5 hz, 2h, ﬂuorophenyl h-3, h-5), 7.45 (m, 2h, ﬂuorophenyl h-2, h-6), 7.60
+(dd, j = 8.2, 1.2 hz, 1h, h-5), 7.76 (d, j = 1.2 hz, 1h,
+h-3), 8.13 (d, j = 8.2 hz, 1h, h-6), 10.69 (br s, 1h,
+nh). anal. calcd for c15h12fno5s: c, 53.41; h,
+3.59; n, 4.15. found: c, 53.44; h, 3.51; n, 4.02.
+5.27. n-acetyl-2-carboxy-5-(4-ﬂuorophenyl)benzenesulfonamide (20b)
+yield, 78%; pale yellow solid; mp 250–252 c; ir
+(chcl3) 3493–2515 (cooh), 1712 (c@o), 1380
+(so2) cm 1; 1h nmr (cdcl3 + dmso): d 2.02 (s,
+3h, nhcoch3), 7.09 (t, j = 8.5 hz, 2h, ﬂuorophenyl
+h-3, h-5), 7.56 (dd, j = 8.5, 5.2 hz, 2h, ﬂuorophenyl
+h-2, h-6), 7.74 (dd, j = 8.0, 1.8 hz, 1h, h-4), 7.82 (d,
+j = 8.0 hz, 1h, h-3), 8.35 (d, j = 1.8 hz, 1h, h-6),
+10.27 (br s, 1h, nh). anal. calcd for c15h12fno5s:
+c, 53.41; h, 3.59; n, 4.15. found: c, 53.08; h, 3.51;
+n, 4.05.
+5.28. n-acetyl-2-carboxy-4-(2,4-diﬂuorophenyl)benzenesulfonamide (19c)
+yield, 81%; white solid; mp 189–190 c; ir (chcl3)
+3368–2509 (cooh), 1716 (c@o), 1615, 1461 (ar),
+1380 (so2) cm 1; 1h nmr (cdcl3 + dmso): d 1.87
+(s, 3h, nhcoch3), 6.83 (m, 2h, diﬂuorophenyl h-3,
+h-5), 7.26 (m, 1h, diﬂuorophenyl h-6), 7.54 (br d,
+j = 8.2 hz, 1h, h-5), 7.66 (br s, 1h, h-3), 8.08 (d,
+j = 8.2 hz, 1h, h-6), 10.90 (br s, 1h, nh). anal. calcd
+for c15h11f2no5s: c, 50.70; h, 3.12; n, 3.94. found:
+c, 50.55; h, 2.86; n, 3.87.
+5.29. n-acetyl-2-carboxy-5-(2,4-diﬂuorophenyl)benzenesulfonamide (20c)
+yield, 69%; white solid; mp 220–221 c; ir (chcl3)
+3361–2515 (cooh), 1729 (c@o), 1629, 1467 (ar),
+1380 (so2) cm 1; 1h nmr (cdcl3 + dmso): d 2.01
+(s, 3h, nhcoch3), 6.90 (m, 2h, diﬂuorophenyl h-3,
+h-5), 7.43 (m, 1h, diﬂuorophenyl h-6), 7.72 (br d,
+j = 8.0 hz, 1h, h-4), 7.79 (d, j = 8.0 hz, 1h, h-3),
+8.28 (br s, 1h, h-6), 10.36 (br s, 1h, nh). anal. calcd
+
+q.-h. chen et al. / bioorg. med. chem. 13 (2005) 2459–2468
+
+for c15h11f2no5s: c, 50.70; h, 3.12; n, 3.94. found:
+c, 50.66; h, 2.95; n, 3.85.
+5.30. n-acetyl-2-carboxy-4-(4-methanesulfonylphenyl)benzenesulfonamide (19d)
+yield, 70%; white crystals; mp 199–200 c; ir (chcl3)
+3382–2723 (cooh), 1716 (c@o), 1602, 1454 (ar), 1306
+(so2) cm 1; 1h nmr (cdcl3 + dmso): d 1.89 (s, 3h,
+nhcoch3), 2.93 (s, 3h, so2ch3), 7.64 (dd, j = 8.2,
+1.8 hz, 1h, h-5), 7.64 (d, j = 8.2 hz, 2h, methanesulfonylphenyl h-2, h-6), 7.80 (d, j = 1.8 hz, 1h, h-3), 7.87
+(d, j = 8.2 hz, 2h, methanesulfonylphenyl h-3, h-5),
+8.16 (d, j = 8.2 hz, 1h, h-6), 11.0 (br s, 1h, nh). anal.
+calcd for c16h15no7s2: c, 48.35; h, 3.80; n, 3.52.
+found: c, 48.44; h, 3.66; n, 3.42.
+5.31. n-acetyl-2-carboxy-5-(4-methanesulfonylphenyl)benzenesulfonamide (20d)
+yield, 81%; white solid; mp >300 c; ir (chcl3) 3409–
+2468 (cooh), 1716 (c@o), 1615, 1454 (ar), 1380
+(so2) cm 1; 1h nmr (cdcl3 + dmso): d 1.90 (s,
+3h, nhcoch3), 2.95 (s, 3h, so2ch3), 7.71 (m, 4h,
+h-3, h-4, methanesulfonylphenyl h-2, h-6), 7.89 (d,
+j = 8.6 hz, 2h, methanesulfonylphenyl h-3, h-5), 8.33
+(d, j = 1.0 hz, 1h, h-6), 11.0 (br s, 1h, nh). anal.
+calcd for c16h15no7s2: c, 48.35; h, 3.80; n, 3.52.
+found: c, 48.00; h, 3.71; n, 3.42.
+
+2467
+
+3h, so2ch3), 3.86 (s, 3h, och3), 7.73 (d, j = 8.2 hz,
+1h, h-3), 7.78 (d, j = 8.4 hz, 2h, methanesulfonylphenyl h-2, h-6), 7.80 (dd, j = 8.2, 1.5 hz, 1h, h-4), 7.92
+(d, j = 8.4 hz, 2h, methanesulfonylphenyl h-3, h-5),
+8.41 (d, j = 1.5 hz, 1h, h-6), 11.40 (br s, 1h, nh).
+anal. calcd for c17h17no7s2: c, 49.62; h, 4.16; n,
+3.40. found: c, 49.55; h, 3.96; n, 3.26.
+5.34. molecular modeling (docking) study
+docking experiments were performed using insight ii
+software version 2000.1 (accelrys inc.) running on a silicon graphics octane 2 r14000a workstation according
+to a previously reported method.16
+5.35. in vitro cyclooxygenase inhibition assays
+the ability of the test compounds listed in table 1 to inhibit ovine cox-1 and cox-2 (ic50 value, lm) was
+determined using an enzyme immuno assay (eia) kit
+(catalog number 560101, cayman chemical, ann
+arbor, mi, usa) according to our previously reported
+method.16
+5.36. antiinﬂammatory assay
+antiinﬂammatory activity was performed using a method described by winter et al.17
+5.37. analgesic assay
+
+5.32. n-acetyl-2-carboxy-5-(4-isopropoxyphenyl)benzenesulfonamide (20e)
+yield, 87%; white crystals; mp 206–208 c; ir (ﬁlm)
+3430–2845 (cooh), 1735, 1727 (c@o), 1592 (ar),
+1240 (so2) cm 1; 1h nmr (cdcl3): d 1.06 [d,
+j = 6.1 hz, 6h, ch(ch3)2], 1.76 (s, 3h, nhcoch3),
+4.32 [m, 1h, ch(ch3)2], 6.68 (d, j = 8.7 hz, 2h, isopropoxyphenyl h-3, h-5), 7.28 (d, j = 8.7 hz, 2h,
+isopropoxyphenyl h-2, h-6), 7.48 (d, j = 8.0 hz, 1h,
+h-3), 7.52 (dd, j = 8.0, 1.8 hz, 1h, h-4), 8.09 (d,
+j = 1.8 hz, 1h, h-6), 11.0 (br s, 1h, nh). anal. calcd
+for c18h19no6sæ1/4h2o: c, 56.61; h, 5.15; n, 3.67.
+found: c, 56.81; h, 5.10; n, 3.64.
+
+analgesic activity was determined using a 4% sodium
+chloride-induced writhing (abdominal constriction assay
+previously reported).18
+acknowledgements
+we are grateful to (i) the canadian institutes of health
+research (cihr) (mop-14712) for ﬁnancial support of
+this research, (ii) the alberta heritage foundation for
+medical research (ahfmr) for a postdoctoral fellowship award (to q.h.c.), and a graduate scholarship (to
+p.r.), and to rx&d-hrf/cihr for a postdoctoral fellowship (to q.h.c.).
+
+5.33. n-acetyl-2-methoxycarbonyl-5-(4-methanesulfonylphenyl)benzenesulfonamide (21)
+concentrated h2so4 (1.3 ml) was added dropwise at
+ice-bath temperature to a stirred solution of 20d
+(100 mg, 0.25 mmol) in methanol (15 ml). the reaction
+mixture was reﬂuxed for 24 h, cooled to 25 c, and
+ch2cl2 (100 ml) was added. this solution was washed
+with water (30 ml), the organic fraction was dried
+(na2so4), and the solvent was removed in vacuo to provide a white solid. this solid was acetylated in situ, following the procedure described previously for the
+synthesis of compound 10, to aﬀord a crude product,
+which was crystallized from hexanes–acetone to yield
+the target product 21 as pale yellow crystals (80 mg,
+77%); mp 217–218 c; ir (ﬁlm): 1721 (c@o), 1597,
+1
+h
+nmr
+1448
+(ar),
+1291
+(so2) cm 1;
+(cdcl3 + dmso): d 1.94 (s, 3h, nhcoch3), 2.98 (s,
+
+references and notes
+1. the salicylates; smith, m. j. h., smith, p. k., eds.; wileyinterscience: new york, 1966, and references cited therein.
+2. hannah, j.; ruyle, w. v.; jones, h.; matzuk, a. r.;
+kelly, k. w.; witzel, b. e.; holtz, w. j.; houser, r. a.;
+shen, t. y.; sarett, l. h. j. med. chem. 1978, 21, 1093.
+3. fu, j. y.; masferrer, j. l.; seibert, k.; raz, a.; needleman, p. j. biol. chem. 1990, 265, 16737.
+4. xie, w.; chipman, j.; robertson, d. l.; erikson, r. l.;
+simmons, d. l. proc. natl. acad. sci. u.s.a. 1991, 88,
+2692.
+5. goldstein, j. l.; silverstein, f. e.; agrawal, n. m.;
+hubbard, r. c.; kaiser, j.; maurath, c. i.; verburg, k.
+m.; geis, g. s. am. j. gastroenterol. 2000, 95, 1681.
+6. meade, e. a.; smith, w. l.; dewitt, d. l. j. biol. chem.
+1993, 268, 6610.
+
+2468
+
+q.-h. chen et al. / bioorg. med. chem. 13 (2005) 2459–2468
+
+7. (a) kalgutkar, a. s.; crews, b. c.; rowlinson, s. w.;
+garner, c.; seibert, k.; marnett, l. j. science 1998, 280,
+1268; (b) kalgutkar, a. s.; kozak, k. r.; crews, b. c.;
+hochgesang, g. p., jr.; marnett, l. j. j. med. chem. 1998,
+41, 4800; (c) hochgesang, g. p., jr.; nemeth-cawley, j.
+f.; rowlinson, s. w.; caprioli, r. m.; marnett, l. j.
+arch. biochem. biophys. 2003, 409, 127.
+8. rahim, m. a.; rao, p. n. p.; knaus, e. e. bioorg. med.
+chem. lett. 2002, 12, 2753.
+9. sykes, n. o.; macdonald, s. j. f.; page, m. i. j. med.
+chem. 2002, 45, 2850.
+10. zarghi, a.; rao, p. n. p.; knaus, e. e. bioorg. med.
+chem. lett. 2004, 14, 1957.
+11. boyer-joubert, c.; lorthiois, e.; moreau, f. annu. rep.
+med. chem. 2003, 38, 364.
+
+12. talley, j. j.; brown, d. l.; carter, j. s.; graneto, m. j.;
+koboldt, c. m.; masferrer, j. l.; perkins, w. e.; rogers,
+r. s.; shaﬀer, a. f.; zhang, y. y.; zweifel, b. s.; seibert,
+k. j. med. chem. 2000, 43, 775.
+13. miyaura, n.; suzuki, a. chem. rev. 1995, 95,
+2457.
+14. stanforth, s. p. tetrahedron 1998, 54, 263.
+15. huntress, e. h.; carten, f. h. j. am. chem. soc. 1940, 62,
+511.
+16. uddin, m. j.; rao, p. n. p.; knaus, e. e. bioorg. med.
+chem. 2004, 12, 5929.
+17. winter, c. a.; risley, e. a.; nuss, g. w. proc. soc. exp.
+biol. med. 1962, 111, 544.
+18. fukawa, k.; kawano, o.; hibi, m.; misaka, n.; ohba, s.;
+hatanaka, y. j. pharmacol. methods 1980, 4, 251.
+

@@ -1,0 +1,440 @@
+fems microbiology letters 207 (2002) 55^61
+
+www.fems-microbiology.org
+
+mosc domains: ancient, predicted sulfur-carrier domains, present
+in diverse metal^sulfur cluster biosynthesis proteins including
+molybdenum cofactor sulfurases
+vivek anantharaman, l. aravind *
+national center for biotechnology information, national library of medicine, national institutes of health, bethesda, md 20894, usa
+received 1 october 2001; received in revised form 25 october 2001; accepted 25 october 2001
+first published online 9 january 2002
+
+abstract
+using computational analysis, a novel superfamily of l-strand-rich domains was identified in the  xxxg1441xxx  and
+several other proteins from both prokaryotes and eukaryotes. these mosc domains contain an absolutely conserved cysteine and occur
+either as stand-alone forms such as the bacterial yiim proteins, or fused to other domains such as a  xxxg1562xxx -like catalytic domain in
+ xxxg1441xxx . the mosc domain is predicted to be a sulfur-carrier domain that receives sulfur abstracted by the
+ xxxd3047xxx -dependent  xxxg1562xxx -like enzymes, on its conserved cysteine, and delivers it for the formation of diverse sulfur^metal
+clusters. the identification of this domain may clarify the mechanism of biogenesis of various metallo-enzymes including molybdenum
+cofactor-containing enzymes that are compromised in human type ii xanthinuria. ß 2002 federation of european microbiological
+societies. published by elsevier science b.v. all rights reserved.
+
+1. introduction
+the molybdenum cofactor (moco) consists of molybdopterin and hexavalent molybdenum chelated via two
+thiol groups. the hexavalent molybdenum is additionally
+coordinated by either two oxo or by an oxo and a sul¢do
+ligand respectively [1]. the sul¢do-containing version of
+the moco is utilized by a variety of enzymes from both
+prokaryotes and eukaryotes such as  xxxg2431xxx , purine hydroxylase ii, pyridoxal oxidase and  xxxg168xxx  [1,2]. the human metabolic disorder, type ii
+xanthinuria appears to stem from a fundamental defect in
+moco biogenesis and is comparable to similar defects in
+moco metabolism that are observed in both animal systems like drosophila melanogaster and microbial models
+like aspergillus nidulans [3]. over the past four decades,
+genetic analyses in these systems have suggested that the
+maroon-like (ma-l) gene in d. melanogaster and the hxb
+of a. nidulans are the equivalents of the gene mutated in
+type ii xanthinuria [4^8]. on the basis of the inactivation
+of several distinct enzymes due to the disruption of these
+genes, it has become clear that they encode moco sulfu-
+
+* corresponding author. fax: +1 (301) 4809241.
+e-mail address : aravind@ncbi.nlm.nih.gov (l. aravind).
+
+rases (mos) that transfer sulfur to molybdenum, forming
+the sul¢do version of moco [6]. however, the mechanisms of moco biosynthesis in bacteria and archaea
+are even less understood.
+recently, the molybdenum sulfurase genes, ma-l, hxb
+and the human gene mutated in type ii xanthinuria have
+been cloned and characterized and shown to be orthologs
+of each other [9^11]. they were shown to encode proteins
+with a  xxxd3047xxx  (plp)-binding  xxxg1562xxx -like catalytic domain with a conserved cysteine [11]. this allowed a
+direct comparison with the  xxxg1562xxx -like proteins that are involved in the biosynthesis of metal^sulfur clusters in bacteria and predicted a similar mechanism for moco sulfuration [11]. however, the eukaryotic mos proteins are
+multi-domain proteins with additional uncharacterized cterminal domains that are not found in the  xxxg1562xxx  proteins,
+suggesting that there may be unexplored, functional complexities. while it has been suggested that the c-terminal
+extension of mos may have a role in interacting with the
+substrate [11], there has been no speci¢c investigation of
+its potential functions. using pro¢le sequence analysis and
+contextual information arising from domain fusions and
+predicted operon organization in diverse bacterial genomes, we show that the c-terminal domain of mos proteins de¢nes a novel, ancient domain superfamily that may
+have a generic role in the biosynthesis of metal^sulfur
+
+0378-1097 / 02 / $22.00 ß 2002 federation of european microbiological societies. published by elsevier science b.v. all rights reserved.
+pii: s 0 3 7 8 - 1 0 9 7 ( 0 1 ) 0 0 5 1 5 - 8
+
+femsle 10259 26-2-02
+
+cyaan magenta geel zwart
+
+56
+
+v. anantharaman, l. aravind / fems microbiology letters 207 (2002) 55^61
+
+clusters across a wide range of organisms. the identi¢cation of this domain provides a potential clari¢cation for
+the actual mechanism of sulfur transfer by proteins like
+mos and might result in a better understanding of the
+biochemical basis of metal^sulfur cluster biogenesis.
+2. materials and methods
+the non-redundant (nr) database of protein sequences
+(national center for biotechnology information, nih,
+bethesda, md, usa) was searched using the blastp
+program [12]. pro¢le searches were conducted using the
+psi-blast program with either a single sequence or an
+alignment used as the query, with a pro¢le inclusion expectation (e) value threshold of 0.01, and were iterated
+until convergence [12,13]. previously known, conserved
+protein domains were detected using the corresponding
+position-speci¢c scoring matrices (pssms) that were constructed using psi-blast [14]. multiple alignment was
+constructed using the t_co¡ee program [15], followed
+by manual correction based on the psi-blast results.
+protein secondary structure was predicted using a multiple
+alignment as the input for the jpred program [16]. sequence-structure threading was performed using the hybrid fold-prediction method that combines multiple alignment information with secondary-structure prediction [17],
+and the 3d-pssm method [18]. the phylogenetic tree was
+made using maximum-likelihood (ml) and minimum-evolution methods [19,20]. brie£y, this process involved the
+construction of a minimum evolution tree using the
+fitch program of the phylip package, followed by
+local rearrangement using the protml program of the
+molphy package to arrive at the ml tree. the statistical signi¢cance of various nodes of this ml tree was assessed using bootstrapping (protml rell-bp) with 10 000
+replicates. the operons were predicted in silico by using
+very stringent criteria : (a) two genes in a predicted operon
+must have the same orientation ; (b) they must be separated from predicted stop to start by no more than 50
+nucleotides ; (c) they must share common transcription
+initiation and termination signals. a compilation of gene
+neighborhoods for the completed genomes is available
+
+through the cog system: http://www.ncbi.nlm.nih.gov/
+cog/ [21].
+3. results and discussion
+several well-conserved, completely uncharacterized, protein domains with a widespread phyletic distribution are
+emerging as a result of genome-sequencing e¡orts [21].
+predicting their biochemistry and structures might help
+in uncovering, as yet unexplored, fundamental functions
+that are common to a range of biological systems. as a
+part of our survey of such uncharacterized, mobile domains, we chose those that are associated with small molecule binding- and enzymatic domains [22], and attempted
+function/structure predictions using a combination of sequence pro¢le methods and contextual information obtained from their domain architectures and gene neighborhoods. the yiim protein from escherichia coli typi¢ed
+one family of proteins that was identi¢ed in these studies.
+from one to four orthologs of yiim per genome are
+found in diverse bacteria such as k- and q-proteobacteria,
+campylobacter jejuni, actinomycetes, deinococcus radiodurans and gram-positive bacteria. a pro¢le search seeded
+with yiim from e. coli, using the psi-blast program
+[12], recovers not only its orthologs but also a variety of
+other uncharacterized proteins from bacteria, eukaryotes
+and the archaeon halobacterium salinarium in the ¢rst
+four iterations of psi-blast and the mos in the sixth
+iteration. the alignments of yiim with the mos correspond to the extreme c-terminus of the latter, almost the
+full length of the former, and have statistically signi¢cant
+e values (1034 ^1036 ) at the point of primary detection.
+transitive, reciprocal searches initiated with selected proteins detected in these searches consistently recovered a
+conserved region of about 125^170 residues in approximately the same set of proteins, including yiim. pairwise
+alignments produced by these psi-blast searches
+showed a similar pattern of conservation, occurring in
+di¡erent contexts, in all these proteins, suggesting that
+this region de¢nes a novel mobile domain. we named it
+the mosc domain after the proteins  xxxg1441xxx  cterminal domain.
+c
+
+fig. 1. a multiple alignment of the mosc domain was constructed using t_co¡ee [15] and realigning the sequences by parsing high-scoring pairs
+from psi-blast search results. the jpred secondary structure [16] is shown above the alignment with e representing a l-strand, and h an k-helix.
+the 85% consensus shown below the alignment was derived using the following amino acid classes : hydrophobic (h: alicvmyfw, yellow shading);
+the aliphatic subset of the hydrophobic class are (l: alivmc, yellow shading); aromatic (a: fhwy, yellow shading); small (s: acdgnpstv, green)
+and the tiny subset of the small class are (u: gas, green shading) and polar (p: cdehknqrst, blue). a `n' or `g' denotes the conserved n the
+small class and g of the tiny class, respectively. the completely conserved `c' is reverse-shaded in red. the limits of the domains are indicated by the
+residue positions on each side. the numbers within the alignment are poorly conserved inserts that have not been shown. the di¡erent families are
+shown on the right. the sequences are denoted by their gene name followed by the species abbreviation and genbank identi¢er. the species abbreviations are: hsp ^ halobacterium sp. nrc-1, atu ^ agrobacterium tumefaciens, bh ^ b. halodurans, bs ^ bacillus subtilis, cac ^ clostridium acetobutylicum, cc ^ caulobacter crescentus, cj ^ c. jejuni, dr ^ d. radiodurans, ec ^ e. coli, hi ^ h. in£uenzae, mlo ^ mesorhizobium loti, mt ^ mycobacterium
+tuberculosis, pa ^ pseudomonas aeruginosa, sau ^ staphylococcus aureus, sme ^ sinorhizobium meliloti, sco ^ streptomyces coelicolor a3, vc ^ vibrio
+cholerae, at ^ arabidopsis thaliana, ce ^ caenorhabditis elegans, dm ^ d. melanogaster, en ^ emericella nidulans, hs ^ homo sapiens, ms ^ mus musculus.
+
+femsle 10259 26-2-02
+
+cyaan magenta geel zwart
+
+v. anantharaman, l. aravind / fems microbiology letters 207 (2002) 55^61
+
+femsle 10259 26-2-02
+
+cyaan magenta geel zwart
+
+57
+
+58
+
+v. anantharaman, l. aravind / fems microbiology letters 207 (2002) 55^61
+
+the n- and c-terminal boundaries of the mosc domain were established using the yiim and mos protein
+where it occurs at the extreme n- and c-termini, respectively, and a multiple alignment was constructed using the
+t_co¡ee program [15], followed by manual correction
+based on the psi-blast results (fig. 1). the multiple
+alignment shows several conserved patches of hydrophobic
+residues and an absolutely conserved cysteine residue situated closer to the c-terminal end of the domain. consistent with this conservation pattern, the secondary-structure prediction using the combined jpred method [16]
+suggests a l-strand-rich fold with a couple of isolated khelical elements (fig. 1). however, sequence-structure
+threading through the pdb database, with the combined
+fold-recognition algorithm [17] and the 3d-pssm method
+[18], does not indicate any close relationship with any
+known l-strand-rich fold.
+the absolutely conserved cysteine in the mosc domain
+is reminiscent of the analogous conservation of a cysteine
+in the active site of the thioredoxin and rhodanese superfamilies [23^25]. members of both these superfamilies, especially those of the latter one, have been implicated in the
+synthesis of fe^s clusters, through mobilization of sulfur
+
+with their active cysteine [26^28]. multiple yiim-like proteins are found in most free-living bacteria with complex
+metabolism that are known to synthesize their own cofactors like moco and have several metal-cluster-containing
+metabolic enzymes (fig. 1). interestingly, the mosc domain is found fused to nadh oxidoreductase-related proteins with 2fe^2s ferredoxin domains in q-proteobacteria
+(fig. 2). in bacillus halodurans, the yiim ortholog appears
+to form an operon with the anaerobic nitrate reductase
+[29] that contains a ferredoxin domain and also utilizes
+moco. in haemophilus in£uenzae, yiim appears to occur
+in an operon with a protein that contains the cysteine-rich
+sec-c domain (seca-c-terminal domain, l.a. and v.a.,
+unpublished) that appears to form a metal-binding cluster
+[30]. these observations, taken together with its presence
+in the molybdenum sulfurases, suggest that the mosc
+domain might play a critical role in the formation of diverse metal^sulfur clusters, with the conserved cysteine
+playing an active role in this process.
+a more exact indication of this function is provided by
+the fusion of the mosc domain to the  xxxg1562xxx -like plpbinding catalytic domain. these  xxxg1562xxx -like enzymes, unlike
+the related plp-dependent aminotransferases, contain a
+
+fig. 2. phylogenetic relationships of the mosc domain containing proteins along with the domain architectures are shown. the phyletic pattern of
+each family is shown, along with the number of proteins (if there are more than one). the species abbreviations are as shown in fig. 1. 3-alpha is the
+conserved compact tri-helical domain predicted to have a topology similar to the helix^turn^helix domains found in the c-termini of a subset of the
+yiim-family proteins. beta-barrel is the distinct n-terminal domain found in the mos family that is predicted to adopt a l-barrel-like structure.
+
+femsle 10259 26-2-02
+
+cyaan magenta geel zwart
+
+v. anantharaman, l. aravind / fems microbiology letters 207 (2002) 55^61
+
+conserved cysteine in their catalytic domain [11,31]. this
+conserved cysteine in the catalytic domain is necessary for
+the abstraction of sulfur from a free donor cysteine, in
+process converting the donor cysteine to alanine (fig. 3).
+ xxxg1562xxx -like proteins show a low level of reconstitution of
+their catalytic cysteine in vitro and it is likely that additional factors help in regenerating by accepting the abstracted sulfur [31]. in the original studies on the nifslike proteins, it was proposed that the abstracted sulfur
+in the s0 -oxidation state was most likely transferred to a
+carrier protein [31] that in turn speci¢cally transfers it to
+certain apo-proteins with sulfhydryl acceptors or to a metal center-like molybdenum. while rhodanese and the acylcarrier protein have been suggested as potential s0 -carrier
+proteins, this carrier protein has not been actually identi¢ed, either for mos or other  xxxg1562xxx -like proteins [31]. based
+on the conserved cysteine and the domain architectures
+that it displays, we propose that the mosc domain is
+the actual carrier domain that accepts s0 from  xxxg1562xxx -like
+domains and delivers it to speci¢c targets (as in the scheme
+shown in fig. 3). in c. jejuni, yiim appears to be in an
+operon with the disul¢de bond isomerase/thioloxidoreductase, dsbd [32,33] of the thioredoxin family. this raises
+the interesting possibility that the mosc domain might
+also have a second function in the thiol-dependent redox
+pathway, with its active cysteine performing a role similar
+to the analogous cysteine of thioredoxin-fold thioloxidoreductases [33].
+an evolutionary classi¢cation of this domain-superfamily was established using both blast score-based clustering and construction of a phylogenetic tree using minimum evolution, ml and neighbor-joining methods
+[19,20]. two major families were identi¢ed, namely those
+
+59
+
+typi¢ed by yiim and forms closer to it than the rest, and
+those by mos c-terminal domains and their immediate
+relatives. a third minor family comprising few bacterial
+proteins, such as yuad, was clearly identi¢ed (fig. 2).
+the yiim-like family is found only in bacteria and several
+members contain a distinct extension that is predicted to
+form a compact tri-helical domain similar in topology to
+the helix^turn^helix domains. all members of the moslike family show a distinct domain, n-terminal to the
+mosc domain, that is undetectable elsewhere in standalone form, and is predicted to adopt a l-barrel-like structure (fig. 2). this particular domain may have speci¢c
+roles in interaction with substrates of these enzymes. the
+mosc domain in the mos-like family has a second conserved cysteine, n-terminal to the universally conserved
+cysteine (fig. 1). this pattern, with proteins of the same
+superfamily having either a single or two closely cysteines,
+is again reminiscent of the thioredoxin superfamily : the
+peroxiredoxins typically have a single cysteine whereas
+the classic thioredoxins contain two conserved cysteines
+[25]. members of this family are represented in both eukaryotes and prokaryotes like proteobacteria, streptomyces and in a solitary archaeon halobacterium.
+the eukaryotes show two versions of mos-like family:
+forms like flj22390, with just the mosc domain and the
+n-terminal l-barrel domain, and the mos proper, that
+have a further n-terminal fusion of a  xxxg1562xxx -like domain.
+the prominent presence of the mos-like family only in
+the proteobacteria (figs. 1 and 2) and absence in most
+archaea, taken together with the presence of a predicted
+transit peptide in all the eukaryotic flj22390-like forms,
+suggests that the eukaryotes acquired it from the pro-mitochondrial endosymbiont. the phylogenetic trees strongly
+
+fig. 3. the proposed catalytic scheme for the mosc domain in the generation of moco or other metal^sulfur cluster proteins.  xxxg1562xxx  represent the
+ xxxg1562xxx  domains that occur either as stand-alone proteins or in mos. the s^h represents the reactive thiol group in the active cysteines of the mosc
+and  xxxg1562xxx  proteins. the apo-protein is a generic protein on which a metal^sulfur cluster is generated.
+
+femsle 10259 26-2-02
+
+cyaan magenta geel zwart
+
+60
+
+v. anantharaman, l. aravind / fems microbiology letters 207 (2002) 55^61
+
+suggest that shortly after entering the eukaryotes, the
+mosc protein underwent duplication with one copy retaining the primitive architecture (represented by
+flj22390-like proteins) and the other copy undergoing
+domain fusion to form the mos. the flj22390-like
+group most probably continues to function as a sulfurcarrier protein in the synthesis of metal^sulfur clusters in
+the eukaryotic mitochondrion, as it did in the ancestral
+proteobacterium.
+4. conclusions
+
+[7]
+
+[8]
+
+[9]
+
+[10]
+
+here, we identify an ancient conserved domain that is
+predicted to function as a potential sulfur (s0 )-carrier domain in the biosynthesis of metal^sulfur clusters. it suggests a possible uni¢ed mechanism by which sulfur is
+transferred to molybdenum in the biogenesis of the
+moco in both bacteria and eukaryotes. this may also
+help in understanding the human metabolic disorder, type
+ii xanthinuria, that involved disruption of the moco
+biosynthesis. additionally, like the thioredoxins, this domain may also function as a thioloxidoreductase. the detection of the extensive mosc domain superfamily suggests a speci¢c role for di¡erent members of this family in
+the synthesis of speci¢c metal^sulfur complexes in diverse
+contexts. one such, typi¢ed by yiim, could play this role
+in diverse bacteria, while another typi¢ed by flj22390
+and mos could carry out this function in the eukaryotic
+mitochondria and cytoplasm. the identi¢cation of this
+domain might help in the understanding of a new class
+of bio-metal metabolism proteins that belong to a superfamily completely distinct from the previously identi¢ed
+rhodaneses and thioredoxins.
+
+[11]
+
+[12]
+
+[13]
+
+[14]
+
+[15]
+
+[16]
+
+[17]
+
+acknowledgements
+
+[18]
+
+we thank e.v. koonin for reading the manuscript and
+providing suggestions.
+
+[19]
+[20]
+
+references
+[1] rajagopalan, k.v. and johnson, j.l. (1992) the pterin molybdenum
+cofactors. j. biol. chem. 267, 10199^10202.
+[2] scazzocchio, c. (1980) in: molybdenum and molydenum-containing
+enzymes (coughlan, m.p., ed.), pp. 489. pergamon press, oxford.
+[3] simmonds, h.a., reiter, s. and nishino, t. (1995) in: the metabolic and molecular bases of inherited disease, vol. 2 (scriver, c.r.,
+beaudet, a.l., sly, w.s. and valle, d., eds.), p. 1781. mcgraw-hill,
+new york.
+[4] finnerty, v.g., duck, p. and chovnick, a. (1970) studies on genetic
+organization in higher organisms. ii. complementation and ¢ne
+structure of the maroon-like locus of drosophila melanogaster.
+proc. natl. acad. sci. usa 65, 939^946.
+[5] amy, n.k. (1981) identi¢cation of the molybdenum cofactor in chlorate-resistant mutants of escherichia coli. j. bacteriol. 148, 274^282.
+[6] wahl, r.c., warner, c.k., finnerty, v. and rajagopalan, k.v.
+
+femsle 10259 26-2-02
+
+[21]
+[22]
+
+[23]
+
+[24]
+
+[25]
+
+(1982) drosophila melanogaster ma-l mutants are defective in the
+sulfuration of desulfo mo hydroxylases. j. biol. chem. 257, 3958^
+3962.
+scazzocchio, c., holl, f.b. and foguelman, a.i. (1973) the genetic
+control of molybdo£avoproteins in aspergillus nidulans. allopurinolresistant mutants constitutive for xanthine-dehydrogenase. eur. j.
+biochem. 36, 428^445.
+warner, c.k. and finnerty, v. (1981) molybdenum hydroxylases in
+drosophila. ii. molybdenum cofactor in  xxxg2431xxx ,  xxxg168xxx  and pyridoxal oxidase. mol. gen. genet. 184, 92^96.
+ichida, k., matsumura, t., sakuma, r., hosoya, t. and nishino, t.
+(2001) mutation of human  xxxg1441xxx  gene is
+responsible for classical xanthinuria type ii. biochem. biophys. res.
+commun. 282, 1194^1200.
+watanabe, t., ihara, n., itoh, t., fujita, t. and sugimoto, y. (2000)
+deletion mutation in drosophila ma-l homologous, putative molybdopterin cofactor sulfurase gene is associated with bovine xanthinuria
+type ii. j. biol. chem. 275, 21789^21792.
+amrani, l., primus, j., glatigny, a., arcangeli, l., scazzocchio, c.
+and finnerty, v. (2000) comparison of the sequences of the aspergillus nidulans hxb and drosophila melanogaster ma-l genes with  xxxg1562xxx 
+from azotobacter vinelandii suggests a mechanism for the insertion of
+the terminal sulphur atom in the molybdopterin cofactor. mol. microbiol. 38, 114^125.
+altschul, s.f., madden, t.l., scha¡er, a.a., zhang, j., zhang, z.,
+miller, w. and lipman, d.j. (1997) gapped blast and psiblast : a new generation of protein database search programs. nucleic acids res. 25, 3389^3402.
+aravind, l. and koonin, e.v. (1999) gleaning non-trivial structural,
+functional and evolutionary information about proteins by iterative
+database searches. j. mol. biol. 287, 1023^1040.
+scha¡er, a.a., wolf, y.i., ponting, c.p., koonin, e.v., aravind, l.
+and altschul, s.f. (1999) impala: matching a protein sequence
+against a collection of psi-blast-constructed position-speci¢c score
+matrices. bioinformatics 15, 1000^1011.
+notredame, c., higgins, d.g. and heringa, j. (2000) t-co¡ee : a
+novel method for fast and accurate multiple sequence alignment.
+j. mol. biol. 302, 205^217.
+cu¡, j.a. and barton, g.j. (1999) evaluation and improvement of
+multiple sequence methods for protein secondary structure prediction. proteins 34, 508^519.
+fischer, d. (2000) hybrid fold recognition : combining sequence derived properties with evolutionary information. pac. symp. biocomput. 119^130.
+kelley, l.a., maccallum, r.m. and sternberg, m.j. (2000) enhanced genome annotation using structural pro¢les in the program
+3d-pssm. j. mol. biol. 299, 499^520.
+felsenstein, j. (1989) phylip ^ phylogeny inference package (version 3.2). cladistics 5, 164^166.
+hasegawa, m., kishino, h. and saitou, n. (1991) on the maximum
+likelihood method in molecular phylogenetics. j. mol. evol. 32, 443^
+445.
+tatusov, r.l., koonin, e.v. and lipman, d.j. (1997) a genomic
+perspective on protein families. science 278, 631^637.
+anantharaman, v., koonin, e.v. and aravind, l. (2001) regulatory
+potential, phyletic distribution and evolution of ancient, intracellular
+small-molecule-binding domains. j. mol. biol. 307, 1271^1292.
+koonin, e.v., aravind, l. and galperin, m.y. (2000) in: bacterial
+stress response (storz, g. and hengge-aronis, r., eds.), p. 485.
+american society of microbiology, washington, dc.
+hofmann, k., bucher, p. and kajava, a.v. (1998) a model of cdc25
+phosphatase catalytic domain and cdk-interaction surface based on
+the presence of a rhodanese homology domain. j. mol. biol. 282,
+195^208.
+schroder, e. and ponting, c.p. (1998) evidence that peroxiredoxins
+are novel members of the thioredoxin fold superfamily. protein sci. 7,
+2465^2468.
+
+cyaan magenta geel zwart
+
+v. anantharaman, l. aravind / fems microbiology letters 207 (2002) 55^61
+[26] ding, h. and demple, b. (1998) thiol-mediated disassembly and
+reassembly of [2fe^2s] clusters in the redox-regulated transcription
+factor soxr. biochemistry 37, 17280^17286.
+[27] bonomi, f., pagani, s., cerletti, p. and cannella, c. (1977) rhodanese-mediated sulfur transfer to succinate dehydrogenase. eur. j. biochem. 72, 17^24.
+[28] bonomi, f., pagani, s. and cerletti, p. (1977) insertion of sul¢de into
+ferredoxins catalyzed by rhodanese. febs lett. 84, 149^152.
+[29] wolf, y.i., rogozin, i.b., kondrashov, a.s. and koonin, e.v.
+(2001) genome alignment, evolution of prokaryotic genome organization, and prediction of gene function using genomic context. genome res. 11, 356^372.
+[30] fekkes, p., de wit, j.g., boorsma, a., friesen, r.h. and driessen,
+
+femsle 10259 26-2-02
+
+61
+
+a.j. (1999) zinc stabilizes the secb binding site of seca. biochemistry 38, 5111^5116.
+[31] flint, d.h. (1996) escherichia coli contains a protein that is homologous in function and n-terminal sequence to the protein encoded by
+the  xxxg1562xxx  gene of azotobacter vinelandii and that can participate in the
+synthesis of the fe^s cluster of dihydroxy-acid dehydratase. j. biol.
+chem. 271, 16068^16074.
+[32] missiakas, d., schwager, f. and raina, s. (1995) identi¢cation and
+characterization of a new disul¢de isomerase-like protein (dsbd) in
+escherichia coli. embo j. 14, 3415^3424.
+[33] katzen, f. and beckwith, j. (2000) transmembrane electron transfer
+by the membrane protein dsbd occurs via a disul¢de bond cascade.
+cell 103, 769^779.
+
+cyaan magenta geel zwart
+

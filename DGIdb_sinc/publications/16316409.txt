@@ -1,0 +1,1454 @@
+diﬀerentiation (2005) 73:385–396 doi:10.1111/j.1432-0436.2005.00040.x
+
+r 2005, copyright the authors
+journal compilation r 2005, international society of diﬀerentiation
+
+o ri g ina l ar t i c l e
+
+angèle nalbandian . alan l. y. pang . owen m.
+rennert . wai-yee chan . neelakanta ravindranath .
+daniel djakiew
+
+a novel function of differentiation revealed by cdna microarray
+profiling of p75ntr-regulated gene expression
+
+received may 19, 2005; accepted in revised form june 21, 2005
+
+abstract
+the expression of the p75  xxxg259xxx  receptor (p75ntr) is diminished in epithelial cells during
+progression of prostate cancer in vivo and in vitro. previous studies have demonstrated a role for p75ntr as a
+tumor suppressor in prostate growth. to better understand the molecular mechanism of p75ntr on tumor
+suppression, we utilized a complementary deoxyribonucleic acid microarray composed of  6,000 human
+cancer-related genes to determine the gene expression
+. )
+angèle nalbandian  wai-yee chan  daniel djakiew (*
+department of cell biology
+georgetown university medical center
+medical dental building, se 220
+3900 reservoir rd, nw, washington
+dc 20057-1436, usa
+tel: 11 202 687-1203
+fax: 11 202 687-1823
+e-mail: djakiewd@georgetown.edu
+angèle nalbandian  alan l. y. pang  owen m. rennert 
+wai-yee chan
+section on developmental genomics
+laboratory of clinical genomics
+national institute of child health and human development
+bethesda, md 20892-4429, usa
+neelakanta ravindranath
+national institutes of health
+bethesda,
+md 20892-4429, usa
+daniel djakiew
+vincent t. lombardi comprehensive cancer center
+georgetown university medical center
+washington, dc 20057-1436, usa
+this paper utilized the cdna microarray technique in the
+identiﬁcation of p75ntr-responsive genes in pc-3 prostate cancer cells. additionally, it provides a new role for the p75ntr
+tumor suppressor molecule in the differentiation of pc-3 cells.
+u.s. copyright clearance center code statement:
+
+pattern altered by re-introduction of p75ntr into pc-3
+prostate tumor cells. comparison of the transcripts in
+the neo and p75ntr-transfected cells revealed 52 diﬀerentially expressed genes, of which 21 were up-regulated
+and 31 were down-regulated in the presence of p75ntr.
+based on the known biological functions of the p75ntrregulated genes, we observed that p75ntr modulated
+the expression of genes that are critically involved in the
+regulation of differentiation as well as cell adhesion,
+signal transduction, apoptosis, tumor cell invasion, and
+metastasis. several differentially expressed genes identiﬁed by microarray were selected for conﬁrmation using quantitative real-time polymerase chain reaction.
+immunoblot analysis further conﬁrmed increased cellular  xxxd3417xxx -binding  xxxg165xxx  (crabpi) and
+ xxxg1150xxx  protein levels and decreased level of  xxxg1768xxx 
+protein with increasing p75ntr protein expression. as
+crabpi was elevated far more than any other genes,
+we observed that the retinoids, all- xxxd3417xxx 
+and 9-cis  xxxd3417xxx  , that bind crabpi, promoted
+nitroblue tetrazolium-associated functional cell diﬀerentiation in p75ntr pc-3 cells, but not in neo control
+pc-3 cells. subsequent examination of the retinoic
+acid receptors (rars) expression levels demonstrated
+an absence of rar-b in the neo control cells and reexpression in the p75ntr expressing cells, consistent
+with previous ﬁndings where rar-b is believed to
+play a critical role as a tumor suppressor gene that
+is lost during de-differentiation of prostate epithelial
+cells. whereas the rar-a and -g protein levels remained unchanged, retinoid x receptor (rxr)-a
+and -b also exhibited increasing protein levels with
+re-expression of the p75ntr protein. moreover, the
+ability of p75ntr sirna to knockdown levels of  xxxg1932xxx , rxr-a, and rxr-b supports the speciﬁcity of
+the functional involvement of p75ntr in differentiation.
+hence, re-expression of the p75ntr appears to
+
+0301–4681/2005/7308–385 $ 15.00/0
+
+386
+
+partially reverse de-differentiation of prostate cancer
+cells by up-regulating the expression of crabpi
+for localized sequestration of retinoids that are
+available to newly up-regulated rar-b, rxr-a, and
+rxr-b.
+key words tumor suppressor gene  gene expression
+proﬁle  cdna microarray  pc-3 prostate tumor cells
+ p75  xxxg259xxx  receptor  quantitative real-time
+polymerase chain reaction   xxxd3417xxx 
+
+introduction
+normal prostate development from the urogenital sinus
+epithelium, as well as its growth, differentiation, and
+maintenance of function in the adult, depends on androgen activity (cunha et al., 1992, 2003). members of
+the steroid receptor superfamily, such as the androgen
+receptor, have been shown to play a fundamental role in
+the growth and differentiation of the prostate via mesenchymal–epithelial interactions (cunha et al., 1985,
+1992, 2003), as well as its transformation to carcinoma
+(montie and pienta, 1994). prostate cancer is the second
+leading cause of all male cancer deaths next to lung
+cancer (american cancer society, 2005). however, the
+etiology of prostate cancer is still not yet completely
+understood. some of the determinants of carcinoma
+appear to be various growth stimulatory factors (androgens and polypeptide growth factors) and their receptors. indeed, the growth of prostate tumors is
+accompanied by modiﬁcations in the expression of
+growth factors and their receptors, many of which are
+the products of proto-oncogenes or tumor suppressor
+genes (djakiew, 2000). normally, tumor suppressor
+genes function to suppress cell growth or proliferation.
+in this context, the p75  xxxg259xxx  receptor
+(p75ntr), a 75 kda cell surface glycoprotein nerve
+growth factor receptor, which binds with similar afﬁnity
+to the  xxxg259xxx  family of growth factors (bothwell,
+1995; friedman and greene, 1999; krygier and
+djakiew, 2001), has been identiﬁed as a novel tumor
+suppressor (krygier and djakiew, 2001) and metastasis
+suppressor (krygier and djakiew, 2002) in human
+prostate cancer. complete expression of the p75ntr in
+the normal prostate, and partial loss of expression of
+the p75ntr in organ-conﬁned adenocarcinoma tissue
+(pﬂug et al., 1992, 1995; perez et al., 1997) indicate
+an inverse association of p75ntr-expression with malignant progression of the human prostate. therefore,
+p75ntr-associated differential gene expression patterns
+could provide insights for a better understanding of the
+molecular mechanisms involved in the development of
+prostate cancer.
+retinoids have been demonstrated to play an essential role in the growth, differentiation, and programed
+
+cell death of many tissues and organs, including the
+prostate (de luca, 1991; aboseif et al., 1997). retinoids
+are capable of binding to the cellular retinoic acidbinding proteins i and ii (crabpi and ii) (nasonburchenal and dmitrovsky, 1999) and exert their cellular effects by binding to and activating the nuclear
+ xxxd3417xxx  receptors (rar-a, -b, -g) and retinoid
+x receptors (rxr-a, -b, -g) (chambon, 1995). upon
+ligand binding, these receptors regulate transcription
+of target genes and result in biochemical cascades leading to alterations in cellular function (mangelsdorf
+et al., 1995). diseases of the breast, cervix, and lung
+have been linked to an aberrant expression of rars
+and rxrs (roman et al., 1993; geisen et al., 1997). a
+loss of rar-b expression has been demonstrated
+in a variety of tumor samples, including the prostate
+(lotan et al., 2000), breast (xu et al., 1997a), and lung
+(xu et al., 1997b). retinoids, all- xxxd3417xxx 
+(atra) and 9-cis  xxxd3417xxx  ( xxxd114xxx ), have been
+utilized as chemo-preventative agents in cancer therapy.
+atra was reported to induce differentiation in an
+aml (hl60) cell line (breitman et al., 1980) and was
+administered to acute  xxxg1785xxx  (apl)
+patients resulting in a successful therapy with a diﬀerentiation agent (huang et al., 1987). more recently,
+studies examining the effects of atra and  xxxd114xxx  on
+the development of the prostate have suggested an inhibition of prostatic ductal growth and branching in
+vitro possibly through the rar-b and -g (aboseif et al.,
+1997). similarly, studies have shown the administration
+of  xxxd2404xxx  and androgen ablation to have resulted in
+a significant reduction in tumor size in athymic nude
+mice in vivo (dahiya et al., 1995). thus, retinoids remain a focus as pharmacologic agents in cancer prevention and therapy through their ability to induce
+differentiation.
+although there have been studies examining the critical roles of p75ntr in prostate tumors, there have been
+no investigations for p75ntr-regulated altered gene
+expressions or p75ntr-induced differentiation by retinoids in pc-3 cells. in the present study, we examine
+the differentially expressed gene proﬁles in response to
+the tumor suppressor p75ntr in pc-3 prostate cancer
+cells by complementary deoxyribonucleic acid (cdna)
+microarray and quantitative real-time polymerase chain
+reaction (q-rt-pcr). a comparison of the neotransfected and p75ntr-transfected cells reveals distinctive patterns of gene expression, generating a list of
+genes with significantly altered gene expression levels.
+further analysis of these p75ntr-associated changes in
+gene expression show for the ﬁrst time a novel function
+for p75ntr in the partial re-differentiation of prostate
+epithelial cells by inducing increased expression levels of
+crabpi, rar-b, rxr-a, and -b. hence, the tumor
+suppressor function of the p75ntr to inhibit growth
+and proliferation now appears to also include a diﬀerentiation function.
+
+387
+
+materials and methods
+cell culture
+the pc-3 human prostate cancer cell line that exhibits suppressed
+levels of the p75ntr protein (allen et al., 2005) and had previously
+been transfected for re-expression of p75ntr protein or neo alone,
+was ranked as neo control, and low, intermediate, and high expressors of the p75ntr protein (krygier and djakiew, 2001). ectopic clones were maintained in dulbecco’s modiﬁed eagle’s
+medium (dmem; mediatech inc., herndon, va) containing
+4.5 g/l glucose and l-glutamine supplemented with antibiotic/antimycotic (100 u/ml  xxxd2871xxx , 100 mg/ml streptomycin, and
+0.25 mg/ml  xxxd164xxx ; mediatech inc.), 5% fetal bovine serum
+(sigma chemical co., st. louis, mo), and 200 mg/ml  xxxg418xxx  (mediatech inc.). cell cultures were incubated in the presence of 10%
+co2 at 371c.
+rna extraction and puriﬁcation
+total rna was extracted from pc-3 cells using trizol reagent
+(invitrogen corporation, carlsbad, ca) according to the manufacturer’s recommendations. the rna samples were subsequently
+puriﬁed on rneasy mini-columns (qiagen, valencia, ca). total
+rna with a spectrophotometric 260/280 nm ratio of 1.8 or higher
+was used for microarray hybridization and q-rt-pcr. quality
+and quantity of the rna were assessed by using the agilent technologies 2100 bioanalyzer (germantown, md).
+microarray hybridization and data analysis
+the cdna microarrays were each composed of  6,000 human
+cancer-related genes (dr. yan a. su, loyola university medical
+center, maywood, il). synthesis and ﬂuorescent labeling of cdna
+targets from puriﬁed total rna was performed using micromax
+direct labeling kit (perkin-elmer life sciences, boston, ma) according to the manufacturer’s instructions. briefly, 50 mg of total
+rna was transcribed into cdna targets in the presence of cy3dutp or cy5-dutp. the labeled cdna samples were puriﬁed by
+the microcon ym-100 spin columns (millipore corp., bedford,
+ma). cdna targets from control pc-3 cells were labeled with cy3dutp, while those from p75ntr-transfected pc-3 cells were labeled
+with cy5-dutp. in each set of experiments, the respective cy3- and
+cy5-labeled cdna samples were co-hybridized onto the microarray. all hybridizations were performed in duplicate. a further dyeswapping experiment was carried out in each set in which the use of
+cy3- or cy5-dutp was switched in the cdna target labeling reaction. the non-transfected pc-3 cells rna was used as a common
+reference in the microarray experiments. microarray hybridization
+was performed at 651c for 14 hr and washed successively. the microarrays were spun at 1,000 r.p.m. for 4 min and scanned at 5 mm
+resolution using the scanarray 5000xl microarray analysis system (packard biosciences, billerica, ma). signals generated from
+cy3 and cy5 channels on each microarray were background subtracted and normalized by the lowess method and analyzed by
+the scanarray express software (perkin-elmer life sciences). data
+were reported as the normalized ratio of means of ﬂuorescence intensity between the two channels. genes that differentially expressed
+at least a two-fold difference in ﬂuorescence intensity and the same
+trend of change in expression in all three hybridizations were considered for further analysis. gene annotation and gene ontology
+information were extracted from the human unigene cluster build
+#161 (june 5, 2003) and locuslink from ncbi website.
+q-rt-pcr
+total rna (5 mg) from each cell type was treated with dnase i
+(invitrogen, gaithersburg, md) to remove genomic dna and then
+
+reverse-transcribed into ﬁrst-strand cdna in the presence of random hexamers and superscript ii (invitrogen corporation, carlsbad, ca) according to the manufacturer’s instructions. genespecific primers (table 2) were designed using the primer express 2
+software (applied biosystems, foster city, ca). q-rt-pcr was
+performed in quadruplicate using sybr green i chemistry with
+each specific gene primer pair on the abi prisms 7900 hts sequence detection system (applied biosystems) according to the
+manufacturer’s instructions. gene expression levels were determined by the relative standard curve method as described previously (pang et al., 2003) using three serial dilutions of the cdna
+either from p75ntr-transfected cells or neo control cells. the ﬁnal
+gene expression levels were reported after normalizing to the 18s
+ribosomal rna contents of the cdna samples which were separately determined using taqman chemistry by q-rt-pcr.
+
+immunoblot analysis
+pc-3 cells expressing rank-order increased levels of p75ntr or neo
+control were grown in 100-mm culture dishes (corning inc., corning, ny) until approximately 75% conﬂuent. cells were washed
+with 1  phosphate-buﬀered saline (pbs) and lysed in 0.2 ml of
+ripa buﬀer, on ice and centrifuged at 12,000  g for 10 min at 41c.
+for immunoblots of p75ntr, the clones were lysed in np40 buﬀer
+containing 2 mg/ml aprotinin. supernatants were retained for the
+calculation of protein concentration according to the manufacturer’s protocol (biorad laboratories, hercules, ca).
+immunoblot analyses of the cell lysates were performed as described previously (allen et al., 2005). briefly, 50 mg of protein was
+loaded per lane onto 12% sds-page gels, electrophoresed for
+1 hr, and transferred to a nitrocellulose membrane (amersham
+biosciences corp., piscataway, nj). the membrane was blocked in
+5% non-fat milk in pbs for 1 hr, rinsed twice with pbs, and incubated overnight at 41c with primary antibodies in pbs. the primary antibodies used were a murine monoclonal anti-human
+p75ntr antibody (diluted 1:1,000; upstate cell signaling solutions,
+lake placid, ny), murine monoclonal crabpi (diluted 1:1,000;
+abcam inc., cambridge, ma), murine polyclonal  xxxg1150xxx  antibody (diluted 1:500; abcam inc.), murine monoclonal anti-hupar
+(diluted 1:500; santa cruz, biotechnology, santa cruz, ca),
+murine monoclonal anti-human rar, specific to either a-, b-, gisotypes (diluted 1:1,000; chemicon, international, inc., temecula,
+ca), and murine monoclonal anti-human rxr, specific to either
+a-, b-, or g- isotypes (diluted 1:1,000; r&d systems, minneapolis,
+mn). membranes were incubated in secondary antibody of horseradish peroxidase conjugated goat anti-mouse (diluted 1:2,000;
+biorad laboratories) at room temperature for 1 hr. finally, membranes were rinsed three times with pbs and immunoreactivity was
+visualized using the ecl western blotting detection reagents (amersham biosciences corp.).
+
+nitroblue tetrazolium (nbt) reduction differentiation analysis
+the ability of cells to reduce nbt has been documented as a functional marker of differentiation (collins et al., 1979; gueddari-pouzols et al., 2001). differentiation agents, atra or  xxxd114xxx  or
+dmso (control), were added to the 60% conﬂuent p75ntrtransfected and neo control pc-3 cells and incubated for 24, 72, or
+144 hr. cells of control and experimental groups were washed and
+resuspended in 200 ml of dmem containing 2 mg/ml nbt and
+1 mg/ml  xxxd2925xxx  (tpa). the cell suspension was incubated at 371c for 30 min in a shaking water bath.
+cells were pelleted by centrifugation at 1,000 r.p.m for 5 min and
+dissolved in 1 ml dmso. absorbance was determined at 570 nm.
+the percentage of relative differentiation between the high expressors of p75ntr and the neo cell line was expressed as high-neo/
+neo  100%. all agents, atra,  xxxd114xxx , nbt, and tpa, were
+purchased from sigma chemical co (st. louis, mo).
+
+388
+p75ntr sirna transfection
+the role of p75ntr in differentiation was examined by transfecting
+the high expressors of p75ntr pc-3 cells with sirna directed
+against p75ntr (dharmacon rna technologies, lafayette, co).
+the high p75ntr clone pc-3 cells were grown to approximately
+80% conﬂuency in six-well plates. in one tube, 10 ml of sirna was
+mixed with 10 ml of serum-free dmem (mediatech inc.), while a
+second tube contained 4 ml dharmafect transfection reagent
+(dharmacon rna technologies) mixed with 196 ml serum-free
+dmem and each was incubated at room temperature for 5 min
+before the two solutions were combined and allowed to incubate for
+an additional 20 min at room temperature for complex formation.
+after addition of sirna to each well, complete medium was added
+for a desired volume of 2 ml. mock transfects were treated identically with the absence of sirna against p75ntr. the plates were
+incubated for 96 hr, after which they were harvested for immunoblot analysis as described previously.
+
+statistical analysis
+the statistical differences between data were analyzed by the
+spearman rank correlation using the prizm program (graph pad
+software). data were considered significant when po0.05.
+
+results
+change in gene expression pattern in p75ntrexpressing pc-3 cells
+in order to elucidate the molecular mechanism of the
+tumor suppressor function (krygier and djakiew, 2001,
+2002) of p75ntr in pc-3 cells, we examined the change
+in gene expression pattern in the p75ntr-expressing  xxxg1682xxx  cells with respect to the vector-transfected cells (neo).
+among the  6,000 human genes examined in the
+cdna microarray experiments, the expressions of 52
+genes were found to be altered by the re-introduction of
+p75ntr. among these 52 genes, 21 appeared to be upregulated and 31 appeared to be down-regulated (figs.
+1a,1b). fifteen of these genes did not have characterized biological functions. the complete list of the 52
+differentially expressed genes, their genbank and unigene id numbers, biological functions, and fold change
+in ﬂuorescent signal intensity is shown in table 1.
+the up-regulated genes relative to neo-transfected
+pc-3 cells (table 1) included rgs5 ( four-fold), a
+regulator of gtpase enzyme, and  xxxg1150xxx  ( ﬁvefold), a regulator of cell growth. while  xxxg1857xxx , a proteolytic enzyme, exhibited a six-fold increase,  xxxg322xxx ,
+involved in cell growth and regulation, showed an
+eight-fold increase in expression. wsb1, a socs
+box containing wd protein gene (  10-fold), and
+crabpi, involved in  xxxd3417xxx -mediated diﬀerentiation and proliferation, showed the highest levels of
+expression (  33-fold).
+thirty-one genes showed at least a two-fold decrease
+in p75ntr-expressing cells relative to neo control (table
+1). transcriptional regulators such as tbx3 (rna po-
+
+fig. 1 differential gene expression of p75  xxxg259xxx  receptor
+(p75ntr)-transfected cells by cdna microarray: (a) up-regulated
+genes and (b) down-regulated genes. the up- and down-regulated
+genes reﬂect p75ntr-transfected versus neo control prostate cancer
+pc-3 cells. results are expressed as fold change in microarray  sd.
+
+lymerase ii transcription factor), nsep1 (nuclease sensitive element binding protein 1), and elf3 (e74-like
+factor 3) were down-regulated two- to four-fold. cytoskeletal biogenesis proteins showed a general decrease
+in expression in the presence of p75ntr,  xxxg1290xxx  (fourfold) and flnb (three-fold), similar to transcription
+regulators; however,  xxxg661xxx  (dsp), a desmosomal
+protein and structural constituent of the cytoskeleton,
+was reduced dramatically by nine-fold.  xxxg1768xxx , the
+plasminogen activator urokinase receptor, was downregulated by six- to seven-fold. a three to ﬁve-fold decrease in ﬂuorescent intensity was observed for stk-6,
+a serine threonine kinase involved in mitosis,  xxxg467xxx ,
+shown to have creatine kinase activity, and  xxxg1853xxx ,
+shown to have trypsin activity.
+
+veriﬁcation of altered gene expression by q-rt-pcr
+the differentially expressed genes identiﬁed in the microarray analysis to exhibit the greatest fold change
+were chosen for further analysis by q-rt-pcr. the
+primer pair sequences of the genes selected for q-rt-
+
+389
+table 1 differential expression of 52 genes in p75ntr-cloned pc-3 cells identiﬁed by cdna microarray analysis1
+symbol
+
+genbank id
+
+unigene id
+
+gene description
+
+up-regulated genes
+crabp1
+cellular  xxxd3417xxx  binding
+protein 1
+
+aa454702
+
+hs.346950
+
+wsb1
+
+n31577
+
+hs.187991
+
+ xxxd3417xxx -mediated
+differentiation and proliferation
+processes
+signal transduction
+
+r76554
+
+hs.374441
+
+aa403083
+
+hs.3260
+
+n48708
+h08560
+
+ xxxg322xxx 
+
+gene name
+
+socs box-containing wd protein
+swip-1
+ xxxg322xxx  (phosphorylase
+kinase, delta)
+ xxxg1857xxx  ( xxxg1857xxx )
+
+fold change in
+microarray
+32.66  8.86
+9.50  3.46
+8.33  2.05
+
+hs.378959
+hs.380833
+
+cell growth and cell cycle
+regulation
+anti-apoptosis; chromosome
+seggregation
+unknown
+cell growth/maintenance
+
+4.66  0.59
+4.53  2.06
+
+r62612
+n34362
+aa155695
+
+hs.287820
+hs.24950
+hs.2012
+
+cell adhesion and migration
+signal transduction
+ xxxd1771xxx   xxxd3520xxx  transport
+
+4.10  1.40
+3.76  2.26
+3.74  1.25
+
+t80932
+
+hs.289026
+
+signal transduction
+
+3.55  1.37
+
+aa460986
+w80964
+w92812
+
+hs.284157
+hs.106728
+hs.2164
+
+unknown
+unknown
+chemotaxis
+
+3.43  1.00
+3.27  0.41
+3.17  0.82
+
+r63197
+
+hs.265960
+
+unknown
+
+3.01  1.58
+
+aa432030
+
+hs.265827
+
+immune response
+
+2.97  0.29
+
+t95396
+aa598794
+
+hs.134542
+hs.75511
+
+2.95  0.68
+2.95  0.09
+
+h78097
+
+hs.424771
+
+unknown
+extracellular matrix, repsonse to
+wounding
+unknown
+
+w03787
+h51336
+
+hs.21708
+
+unknown
+unknown
+
+2.71  0.28
+2.65  0.73
+
+aa233549
+
+hs.155597
+
+c factor d activity; proteolysis
+and peptidolysis
+
+2.53  0.42
+
+down-regulated genes
+dsp
+ xxxg661xxx 
+
+h90899
+
+hs.349499
+
+9.09  0.04
+
+ xxxg1768xxx 
+
+aa455222
+
+hs.179657
+
+structural constituent of
+cytoskeleton
+chemotaxis
+
+r19158
+r31679
+aa489569
+
+hs.250822
+hs.449177
+hs.23881
+
+aa433851
+
+hs.166096
+
+aa894557
+aa284528
+t67549
+w30988
+
+hs.173724
+hs.241561
+hs.406278
+hs.9613
+
+aa486238
+
+hs.81008
+
+aa031770
+
+hs.9605
+
+r54664
+
+hs.183583
+
+ xxxg1857xxx 
+flj35740
+ xxxg1150xxx 
+ xxxg803xxx 
+rgs5
+ xxxg2255xxx 
+ xxxg926xxx 
+kiaa1200
+loc285550
+ppbp
+c14orf104
+g1p3
+ xxxg542xxx 
+
+flj35740 protein
+insulin-like growth factor binding
+protein 5
+ xxxg803xxx 
+regulator of g-protein signalling 5
+ xxxg2255xxx  ( xxxd1771xxx   xxxd3520xxx 
+binding protein, r binder family)
+guanine nucleotide binding protein
+(g protein), g 2
+kiaa1200 protein
+hypothetical protein loc285550
+pro-platelet basic protein
+(chemokine (c–x–c motif) ligand
+7)
+chromosome 14 open reading frame
+104
+interferon, a-inducible protein
+(clone ifi-6-16)
+est
+ xxxg542xxx 
+sapiens full length insert cdna
+clone yi44d08
+
+loc57795
+df
+
+ xxxg227xxx 
+ xxxg1290xxx 
+elf3
+ xxxg467xxx 
+ xxxg1853xxx 
+plgl
+angptl4
+flnb
+cpsf5
+serpinb1
+
+hypothetical protein from clone
+24828
+d component of complement
+( xxxg434xxx )
+
+ xxxg1767xxx 
+receptor
+ xxxg227xxx 
+est
+ xxxg1290xxx 
+e74-like factor 3 (ets domain
+transcription factor, epithelial
+specific )
+ xxxg467xxx 
+protease, serine, 2 ( xxxg1853xxx )
+plasminogen-like
+angiopoietin-like 4
+filamin b, beta (actin binding
+protein 278)
+cleavage and polyadenylation
+specific factor 5, 25 kda
+serine (or cysteine) proteinase
+inhibitor, clade b (ovalbumin),
+member 1
+
+6.17  2.14
+
+2.78  0.55
+
+6.67  0.09
+
+mitosis
+unknown
+cytoskeleton organization and
+biogenesis
+transcription factor
+(coactivator) activity
+
+5.00  0.01
+4.54  0.01
+4.17  0.03
+
+creatine kinase activity
+trypsin activity
+plasmin activity
+angiogenic (negative regulation
+of apoptosis)
+actin cytoskeleton organization
+and biogenesis
+mrna processing
+
+4.00  0.08
+3.57  0.13
+3.57  0.15
+3.23  0.10
+
+serine-type endopeptidase
+inhibitor activity
+
+3.13  0.05
+
+4.00  0.17
+
+3.23  0.05
+3.23  0.05
+
+390
+table 1 continued
+fold change in
+microarray
+
+symbol
+
+gene name
+
+genbank id
+
+unigene id
+
+gene description
+
+kcnk1
+
+ xxxg1232xxx , subfamily k,
+member 1
+
+n62620
+
+hs.79351
+
+k ion transport
+
+3.13  0.15
+
+hs.236556
+
+unknown
+unknown
+
+2.94  0.07
+2.78  0.15
+
+aa599175
+
+hs.74497
+
+transcription factor activity
+
+2.78  0.08
+
+h73329
+
+hs.9329
+
+unknown
+
+2.70  0.09
+
+w45165
+
+hs.333417
+
+2.70  0.14
+
+aa452753
+
+hs.149957
+
+f-actin capping protein family;
+regulate actin ﬁlament growth
+signal transduction
+
+2.70  0.06
+
+n54265
+aa450189
+aa180912
+t66936
+
+hs.7740
+hs.146580
+hs.75318
+hs.104859
+
+sterol transport
+enolase
+microtubule-based movement
+unknown
+
+2.63  0.10
+2.63  0.06
+2.56  0.13
+2.50  0.09
+
+n94043
+aa148736
+
+hs.97927
+hs.252189
+
+mitotic checkpoint regulation
+intracellular signaling
+
+2.44  0.07
+2.44  0.08
+
+r22632
+aa464627
+
+hs.16740
+hs.77422
+
+unknown
+ion transport
+
+2.33  0.05
+2.27  0.05
+
+hs.267182
+hs.727
+
+unknown
+transcription factor activity
+cell differentiation; cell–cell
+signaling; induction of apoptosis
+
+2.27  0.04
+2.27  0.05
+2.22  0.04
+
+strait
+11499
+nsep1
+c20orf1
+capzb
+ xxxg1987xxx 
+osbp2
+ xxxg702xxx 
+tuba1
+dkfzp
+762e1312
+loc148932
+sdc4
+flj11036
+plp2
+ xxxg2295xxx 
+tbx3
+ xxxd2971xxx 
+
+r32665
+hypothetical protein strait11499 r91137
+nuclease sensitive element binding
+protein 1
+chromosome 20 open reading frame
+1
+capping protein (actin ﬁlament)
+muscle z-line, beta
+ xxxg1989xxx ,
+90 kda, polypeptide 1
+oxysterol binding protein 2
+ xxxg702xxx , (g, neuronal)
+tubulin, a 1 (testis specific)
+hypothetical protein
+dkfzp762e1312
+similar to mob-lak
+ xxxg2036xxx  4 (amphiglycan,
+ryudocan)
+hypothetical protein flj11036
+proteolipid protein 2 (colonic
+epithelium-enriched)
+
+aa486085
+t-box 3 (ulnar mammary syndrome) r38300
+inhibin, b a ( xxxd2971xxx ,  xxxd2971xxx  a n27159
+polypeptide)
+
+1
+
+est indicates expressed sequence tag.
+p75ntr, p75  xxxg259xxx  receptor; cdna, complementary deoxyribonucleic acid.
+
+pcr analysis are shown in table 2. each gene in neo
+control pc-3 cells was assigned an expression level of
+one for comparison with p75ntr-expressing cells. the
+fold changes in gene expression levels determined by
+microarray analysis and q-rt-pcr are shown for
+comparison in table 3. q-rt-pcr analysis conﬁrmed
+the up-regulation of crabpi,  xxxg1150xxx , and rgs5
+(fig. 2a). although  xxxg322xxx ,  xxxg1857xxx , and wsb1 had
+shown an increase in ﬂuorescent signal intensity by microarray analysis, further analysis by q-rt-pcr indicated the change in their expression levels was less than
+2. q-rt-pcr analysis of the genes that appeared to be
+down-regulated based on microarray analysis conﬁrmed a reduction of mrna levels in p75ntr-expressing pc-3 cells for nine genes (fig. 2b).
+
+changes in levels of protein expression
+by p75ntr
+in order to conﬁrm whether the alterations of gene expression at the level of transcription subsequently
+resulted in changes at the translational level, we
+performed western blot analysis for a select group of
+
+genes with varying expression levels. immunoblot analysis of two up-regulated genes,  xxxg1150xxx  and crabpi,
+demonstrated a rank-order increase in protein levels
+commensurate with increased levels of p75ntr protein
+(fig. 3). conversely, levels of the  xxxg1768xxx  protein, a
+down-regulated gene, demonstrated a progressive decrease with a rank-order increase of p75ntr protein expression (fig. 3). levels of the b-actin loading control
+were relatively similar between p75ntr-expression
+levels.
+differentiation effect induced by retinoids in p75ntr
+pc-3 cells
+as the microarray analysis, q-rt-pcr, and immunoblot analysis all consistently showed a large up-regulation of crabpi in the p75ntr-transfected cells, we
+investigated the effects of retinoids in these cells with a
+differentiation assay that determines the burst oxidative
+capacity by nbt reduction (collins et al., 1979; gueddari-pouzols et al., 2001). there was a significant
+(po0.01) temporal and dose-dependent increase in the
+rate of nbt reduction by p75ntr-expressing pc-3 cells
+
+391
+table 2 q-rt-pcr primer pair sequences for selected genes
+genes
+
+forward primer
+
+reverse primer
+
+ xxxg661xxx  (dsp)
+plasminogen activator urokinase
+receptor ( xxxg1768xxx )
+ xxxg227xxx  ( xxxg227xxx )
+ xxxg1290xxx  ( xxxg1290xxx )
+e74-like factor 3 (elf3)
+ xxxg467xxx  ( xxxg467xxx )
+ xxxg1853xxx  ( xxxg1853xxx )
+filamin b, b (flnb)
+nuclease sensitive element binding
+protein 1 (nsep1)
+t-box 3 (tbx3)
+regulator of g-protein signaling
+5 (rgs5)
+insulin-like growth factor binding
+protein 5 ( xxxg1150xxx )
+ xxxg1857xxx  ( xxxg1857xxx )
+ xxxg322xxx  ( xxxg322xxx ),
+socs box-containing wd
+protein (wsb1)
+cellular  xxxd3417xxx  binding
+ xxxg165xxx  (crabpi)
+
+agt cag ttg gga  xxxg889xxx  gtt gct ata c
+atg gtt ttc cac aac aac gac ac
+
+tcc tat cac tct act gca agc acc
+cca ttc tgc ggc aga ttt tc
+
+gca cag ctc ctt aac tga tcg g
+aag cag gat atg gca cgg c
+ xxxg873xxx  cca ttg act tct cac g
+tga gtt cat  xxxg889xxx  gaa ccc tca c
+ctg ttc ttc tgg gca cac cat ag
+ttc ttg cag aat cac cac acg
+cca tca tcc ggt tta gtc atc c
+
+agc ctg tgc tag gca tgg tg
+cag aga tat tca cgg ctc cca c
+atg gag ttg gtc ccc cag ag
+gaa ctt ctc atg ctt gcc cag
+gag gga ggc aag gat tcc tg
+gcc act gca gaa ttt ctt cag ac
+acg ggc aaa aag caa gca c
+
+ggt tta tat gtc cgg gat ctg g
+cca ctt cac taa gga cat cac aat g
+
+aat ccg cac tga ggg aga tg
+taa aac tca gag cgc aca aag c
+
+tcc cct aaa ccc aac tca cg
+
+tgg ata act gct caa gat gca aag
+
+tga cca cct tgc act att gga c
+aac tgc tga gta ctt ggc aaa cc
+agt ggc atc tct ggc tac cg
+
+ctg gta gtt tct gca ccg agg
+aag ccc atc tga aat atc gag atc
+agt gga cat cga cca gca cc
+
+tac ttt cag gaa ggg atc gag g
+
+gaa aac ggg atc acc taa tat tgg
+
+q-rt-pcr, quantitative real-time polymerase chain reaction.
+
+as determined by the amount of formazan formation
+following a 6-day exposure with both 1 and 5 mm
+atra (fig. 4a) or  xxxd114xxx  (fig. 4b) with respect to
+control cells (dmso vehicle).
+
+change in expression levels of rar-a, -b, -g and  xxxg1998xxx , -b, -g by p75ntr
+immunoblot analysis of rar expression in pc-3 cells,
+that express in rank-order increasing levels of p75ntr,
+
+demonstrated comparable levels of rar-a and -g in the
+neo (vector-transfected alone) and the three clones of
+p75ntr-expressing cells (fig. 5). significantly, there was
+an absence of rar-b protein expression in the neo
+control cells (fig. 5), and the expression of rar-b
+protein levels was up-regulated in all the p75ntr-expressing pc-3 cells (fig. 5). treatment with atra or 9cis ra for 24 hr had no observable effect on expression
+levels of rar-a, -b, -g (data not shown) in the neo or
+p75ntr-transfected pc-3 cells. western blot analysis of
+the rxr-a and -b protein expression in the increasing
+
+table 3 fold difference between signal intensity from cdna microarray versus q-rt-pcr
+genes
+
+fold difference  sd
+(cdna microarray)
+
+fold difference  sd
+(q-rt-pcr)
+
+up-regulated genes
+regulator of g-protein signaling 5 (rgs5)
+ xxxg1150xxx  ( xxxg1150xxx )
+presenilin ( xxxg1857xxx )
+ xxxg322xxx  ( xxxg322xxx )
+socs box-containing wd protein (wsb1)
+cellular  xxxd3417xxx  binding  xxxg165xxx  (crabpi)
+
+3.76  2.26
+4.53  2.06
+6.17  2.14
+8.33  2.06
+9.50  3.46
+32.00  5.23
+
+2.49  0.026
+23.28  0.005
+1.68  0.007
+1.46  0.010
+0.27  0.015
+5096.0  5.23
+
+down-regulated genes
+ xxxg661xxx  (dsp)
+plasminogen ( xxxg1768xxx )
+ xxxg227xxx  ( xxxg227xxx )
+ xxxg1290xxx  ( xxxg1290xxx )
+ xxxg467xxx  ( xxxg467xxx )
+filamin b, b (flnb)
+e74-like factor 3 (elf3)
+nuclease sensitive element binding protein 1 (nsep1)
+t-box 3 (tbx3)
+
+10.02  1.71
+8.23  2.95
+5.00  0.01
+4.27  0.49
+4.00  0.17
+3.31  0.48
+3.07  0.89
+2.90  0.69
+2.27  0.26
+
+3225.0  0.012
+2.17  0.008
+3.95  0.015
+128.0  0.008
+4.59  0.0045
+16.0  0.014
+30.30  0.005
+7.7  0.010
+7.0  0.010
+
+p75ntr, p75  xxxg259xxx  receptor; cdna, complementary deoxyribonucleic acid; q-rt-pcr, quantitative real-time polymerase chain
+reaction.
+
+392
+
+fig. 2 veriﬁcation of microarray analysis of selected genes by
+quantitative real-time polymerase chain reaction: (a) up-regulated
+genes and (b) down-regulated genes. transcript levels of select
+genes were assayed simultaneously with the expression level for
+each gene in the neo-transfected pc-3 cells set at 1. data are the
+average of quadruplicate samples  sd.
+
+fig. 4 relative nitroblue tetrazolium reduction by p75  xxxg259xxx  receptor (p75ntr)-transfected and neo pc-3 cells. cells were
+treated with 0, 1, or 5 mm all- xxxd3417xxx  (atra) or 9-cis
+ xxxd3417xxx  (ra) or dmso (control) for 24, 72, or 144 hr. formazan production was determined at an absorbance of 570 nm. significant temporal and dose-dependent increase in formazan
+formation was associated with (a) atra or (b)  xxxd114xxx  treatment (po0.01) after 6 days.
+
+p75ntr clones revealed increasing levels of protein expression (fig. 5). however, there was only minimal expression of rxr-a and -b protein in the neo (vectortransfected alone) (fig. 5). levels of rxr-g protein
+expression were undetected in both the control and
+p75ntr clones (fig. 5). b-actin loading control levels
+remained unchanged between p75ntr and neo samples
+(fig. 5). treatment of the pc-3 clone that expresses
+high levels of p75ntr protein with sirna to p75ntr
+resulted in a knockdown of the levels of rar-b,  xxxg1998xxx , and rxr-b, whereas levels of the b-actin loading
+control were similar between treatments (fig. 6).
+
+discussion
+ntr
+
+fig. 3 effect of p75  xxxg259xxx  receptor (p75
+) on crabpi,
+ xxxg1150xxx , and  xxxg1768xxx  expression levels. immunoblot analysis of
+ntr
+p75
+-transfected clones in rank order as neo control (vectortransfected); low, intermediate (int.), and high expressors of
+p75ntr protein and corresponding levels of crabpi,  xxxg1150xxx ,
+and  xxxg1768xxx . loading was standardized by equal protein concentrations as shown with b-actin.
+
+microarray analysis has been utilized to simultaneously
+examine the expression proﬁle of thousands of genes in
+many types of cancers (xu et al., 2000; takemasa et al.,
+2001; han et al., 2002; xie et al., 2002). as the p75ntr
+has been shown to be both a tumor and metastasis
+
+393
+
+fig. 5 expression levels of  xxxd3417xxx  receptors (rars) and retinoid x receptors (rxrs) in p75  xxxg259xxx  receptor (p75ntr)expressing pc-3 cells. cells lacking p75ntr protein (neo) or expressing low, intermediate (int.), or high levels of p75ntr protein
+were examined for levels of rar-a, -b, and -g and rxr-a, -b, and
+-g. levels of b-actin from the same lysates are shown as loading
+control.
+
+suppressor in human urogenital cancers (krygier and
+djakiew, 2001, 2002), we utilized a cdna microarray
+comprised of more than 6,000 human cancer-related
+genes to determine the alteration of gene expression
+proﬁles of p75ntr-transfected prostate cancer cells.
+subsequently, a select group of genes identiﬁed by microarray analysis that exhibited qualitative changes in
+gene expression in response to p75ntr-expression were
+examined by q-rt-pcr and immunoblot analyses for
+veriﬁcation of p75ntr-dependent changes in gene ex-
+
+fig. 6 functional involvement of p75  xxxg259xxx  receptor
+(p75ntr) in pc-3 prostate cell differentiation. cells expressing either high levels of p75ntr (high), transiently transfected with sirna against p75ntr or mock-transfected cells, were examined for
+levels of  xxxd3417xxx  receptor-b, retinoid x receptor (rxr)-a; and
+-b. levels of b-actin from the same lysates are shown as loading
+control.
+
+pression and levels of gene product, respectively. the
+observation that not all qualitative changes in gene expression observed by the cdna microarray could be
+conﬁrmed by q-rt-pcr or immunoblot analyses indicates that some caution should be employed in the
+potential over-interpretation of stand alone microarray
+analyses. significantly, three of the gene products
+( xxxg1768xxx ,  xxxg1150xxx , and crabpi) that exhibited
+changes in expression levels with p75ntr-expression
+on the cdna microarray, and conﬁrmed by q-rtpcr and immunoblot have been linked to the progression of prostate cancer.
+a preponderance of literature has documented a role
+of the  xxxg1767xxx  (upa)
+complexed with the upa receptor ( xxxg1768xxx ) causatively involved in tumor cell invasion and metastasis of
+prostate cancer (sheng, 2001). upa catalyzes the extracellular proteolytic conversion of the zymogen plasminogen to plasmin that is then able to degrade
+extracellular matrix components (rabbani and mazar,
+2001) and regulate integrin-mediated signal transduction pathways in tumor cells (yebra et al., 1999; rabbani and mazar, 2001). localized pericellular upa
+activity is facilitated by the cell surface anchored
+ xxxg1768xxx  (ploug et al., 1993) that allows for the spatial
+regulation of upa activity. significantly, the density of
+both upa and  xxxg1768xxx  are higher in tumor tissues than
+from non-cancerous prostate tissues (miyake et al.,
+1999). comparable expression patterns of upa and
+ xxxg1768xxx  have been observed in human prostate cancer
+cell lines of different invasive and metastatic potential
+(hollas et al., 1992). this up-regulation of upa and
+ xxxg1768xxx  correlates with an aggressive phenotype and
+poor prognosis of human prostate cancer (sheng, 2001).
+hence, upa and its receptor  xxxg1768xxx  have been suggested as attractive targets for anti-metastatic therapy
+because of their role in invasion and metastasis of
+tumor cells (liu and rabbani, 1995; miyake et al.,
+1999; rabbani and gladu, 2002). significantly, the
+p75ntr has been characterized as a metastasis suppressor of human prostate cancer cells (krygier and
+djakiew, 2002). hence down-regulation of p75ntr-dependent  xxxg1768xxx  levels in prostate tumor cells is consistent with a metastasis suppressor function of the
+p75ntr, particularly in the context of suppressed pericellular proteolysis that is dependent on a cell surface
+anchored  xxxg1768xxx .
+the insulin-like growth factor (igf) system is characterized by complex interactions between the igfs,
+their receptors, high afﬁnity binding proteins, receptors
+for these binding proteins, and proteases. the ability of
+the igfs to mediate growth through their receptors can
+be altered by interaction with a variety of igf binding
+proteins (igfbps). specifically, sequestration of igfs
+by  xxxg1150xxx  has been suggested to attenuate igf receptor signal transduction (guenette and tenniswood,
+1994) during inhibition of growth and induction of
+
+394
+
+apoptosis.  xxxg1150xxx  also binds to the plasminogen activator inhibitor-1 (tonner et al., 2000). as the plasminogen activator inhibitor-1 is the main inhibitor of
+upa (gils and declerck, 2004) a complex of  xxxg1150xxx 
+with pai-1 potentially binding upa would be consistent
+with suppression of tumor cell invasion and metastasis
+of prostate cancer cells (sheng, 2001). conversely, in the
+relative absence of pai-1, the proteolytic cleavage of
+ xxxg1150xxx  by proteases has been shown to decrease
+ xxxg1150xxx  afﬁnity for ligands and therefore enhance the
+bioavailability of igfs. in this context, the  xxxg745xxx , psa, is known to preferentially cleave  xxxg1150xxx 
+(rajah et al., 1996) thereby releasing igfs to stimulate
+growth of prostatic epithelial cells (cohen et al, 1994).
+hence, considering the ability of  xxxg1150xxx  to sequester
+igfs and bind pai-1, the up-regulation of  xxxg1150xxx 
+following ectopic re-expression of the p75ntr identiﬁes
+a novel  xxxg1150xxx  associated mechanism for the tumor
+and metastasis suppressor role of p75ntr in prostate
+epithelial cells.
+ xxxd3417xxx  regulation of prostate cell growth and
+differentiation is characterized by interactions between
+the  xxxd2071xxx , their binding proteins, and retinoid
+receptors (peehl et al., 1993).  xxxd2071xxx  in the form
+of atra or  xxxd114xxx  lack appreciable aqueous solubility and thus must be bound to crabpi or crabpii
+to be present within the cell (nason-burchenal and
+dmitrovsky, 1999). hence, it has been suggested that
+the crabps act to sequester  xxxd2071xxx  in the cytoplasm (ong et al., 1994). crabpi has been documented to play a critical role in  xxxd3417xxx -mediated
+differentiation (leid et al., 1992) in numerous cell culture and animal models (lotan, 1995; nagy et al., 1998;
+hansen et al., 2000). conversely, crabpi levels have
+been shown to be lower in carcinoma tissue than in
+adjacent areas of normal tissue (gates and rees, 1985).
+hence, the high degree of crabpi up-regulation at
+both the transcriptional and translational levels of expression in response to ectopic expression of p75ntr in
+pc-3 cancer cells is consistent with the potentiation of
+ xxxd3417xxx  availability in these cells for diﬀerentiation. clinically, retinoids have been able to reverse premalignant lesions as well as inhibit the development of
+second primary tumors in patients (lotan, 1996), thereby demonstrating the usefulness of retinoids in both the
+chemotherapy as well as chemoprevention of some human cancers. in prostate cancer the  xxxd2071xxx  have
+pleiotropic effects decreasing 5a-reductase activity, inducing rb activation, and decreasing  xxxg183xxx 
+expression in prostate cell lines (halgunset et al., 1987;
+jutley et al., 1990; gao et al., 1999). significantly, in our
+analysis, treatment of pc-3 cells that ectopically express
+the p75ntr with atra or  xxxd114xxx  in the nbt differentiation assay exhibited a biochemical diﬀerentiation response, whereas the control neo-transfected pc-3
+cells did not exhibit a differentiation response. considering the documented role of crabpi in  xxxd3417xxx -
+
+mediated differentiation (leid et al., 1992) these results
+are consistent with p75ntr up-regulation of crabpi,
+which could facilitate  xxxd3417xxx  induction of biochemical differentiation in the pc-3 tumor cells.
+as ectopic p75ntr-expression substantially elevated
+levels of crabpi, we investigated additional components of the retinoid signaling axis. retinoids exert their
+pleiotropic effects through their rars and/or rxrs,
+which are members of the steroid  xxxg1603xxx 
+superfamily (chambon, 1996). within the cytoplasm
+the rars and rxrs serve as intracellular storage sites
+of retinoids with speciﬁcity of atra binding only to
+rars (-a, -b, and -g), while  xxxd114xxx  can bind both the
+rars and rxrs (-a, -b, and -g) (piedraﬁta and pfahl,
+1999). however, under physiological conditions and in
+the presence of  xxxd3417xxx , only an rxr:rar heterodimer can lead to productive dna binding (zhang
+et al., 1992). expression of rxr-a appears diminished
+in some prostate cancer specimens and cell lines, including pc-3 cells (zhong et al., 2003). in addition,
+conditional disruption of rxr-a leads to the development of pre-neoplastic lesions of the prostate (huang
+et al., 2002). similarly, expression of rxr-b is diminished (lotan et al., 2000) with progression of prostate
+cancer (alfaro et al., 2003). significantly, expression of
+rar-b is lost in prostate cancers, while levels of rara and -g remain unaffected (piedraﬁta and pfahl, 1999).
+more recently, rar-b has been identiﬁed as a retinoid
+target gene, believed to play an important role as a
+tumor suppressor gene (chen et al., 2002). in this context, the targeted disruption of rar-b has been shown
+to result in the loss of  xxxd3417xxx -associated growth
+arrest (faria et al., 1999), consistent with a tumor suppressor function of the p75ntr in part via restoration of
+the rar-b tumor suppressor. clearly, the ability of
+p75ntr to restore expression of rar-b, rxr-a, and -b
+that are typically diminished in prostate cancer, and the
+ability of p75ntr sirna to knockdown their expression levels supports the speciﬁcity of the functional involvement of p75ntr in differentiation. taken together,
+p75ntr-dependent elevation of levels of crabpi,
+rar-b, rxr-a, and rxr-b, in conjunction with retinoid induction of biochemical differentiation, is consistent with a novel role of the p75ntr in the induction
+of differentiation in the prostate. this is consistent with
+the role of p75ntr in neuronal (andrieu et al., 2003)
+and myogenic (erck et al., 1998) differentiation. these
+results further suggest that the p75ntr and retinoid
+signaling pathways participate in cross-talk during the
+process of prostatic cellular differentiation.
+acknowledgments we wish to acknowledge the help received from
+ms. vanessa baxendale and other members of the laboratory of
+clinical genomics, nichd, nih. special thanks to dr. yan a.
+su, department of pathology, loyola university medical center,
+maywood, il, for preparing the cdna microarrays for nih/nichd. this work was supported in part by nih grant r01 dk
+52626 (d.d.).
+
+395
+
+references
+aboseif, s.r., dahiya, r., narayan, p. and cunha, g.r. (1997)
+effect of  xxxd3417xxx  on prostate development. prostate 31:
+161–167.
+alfaro, j.m., fraile, b., lobo, m.v., royuela, m., paniagua, r.
+and arenas, m.i. (2003) immunohistochemical detection of the
+retinoid x receptors alpha, beta, and gamma in human prostate.
+j androl 24:113–119.
+allen, j., khwaja, f., byers, s. and djakiew, d. (2005) the
+p75(ntr) mediates a bifurcated signal transduction cascade
+through the  xxxg1559xxx  and jnk pathways to inhibit cell survival. exp cell res 304:69–80.
+american cancer society. (2005) cancer facts & ﬁgures 2005.
+american cancer society, inc, www.cancer.org pp. 4–6.
+andrieu, d., watrin, f., niinobe, m., yoshikawa, k., muscatelli,
+f. and fernandez, p.a. (2003) expression of the prader–willi
+gene necdin during mouse nervous system development correlates with neuronal differentiation and p75ntr expression. gene
+expres patterns 3:761–765.
+bothwell, m. (1995) functional interactions of neurotrophins and
+ xxxg259xxx  receptors. annu rev neurosci 18:223–253.
+breitman, t.r., selonick, s.e. and collins, s.j. (1980) induction
+of differentiation of the human  xxxg1785xxx  cell
+line (hl60) by  xxxd3417xxx . proc natl acad sci usa 77:
+2936–2940.
+chambon, p. (1995) the molecular and genetic dissection of
+the retinoid signal pathway. recent prog horm res 50:317–
+332.
+chambon, p. (1996) a decade of molecular biology of  xxxd3417xxx 
+receptors. faseb j 10:940–954.
+chen, l.i., sommer, k.m. and swisshelm, k. (2002) downstream
+codons in the  xxxg1932xxx  -2 and beta -4 mrnas
+initiate translation of a protein isoform that disrupts retinoidactivated transcription. j biol chem 277:35411–35421.
+cohen, p., peehl, d.m., graves, h.c. and rosenfeld, r.g. (1994)
+biological effects of prostate specific antigen as an insulin-like
+growth factor binding protein-3 protease. j endocrinol 142:407–
+415.
+collins, s.j., ruscetti, f.w., gallagher, r.e. and gallo, r.c.
+(1979) normal functional characteristics of cultured human
+ xxxg1785xxx  cells (hl-60) after induction of diﬀerentiation by dimethylsulfoxide. j exp med 149:969–974.
+cunha, g.r., battle, e., young, p., brody, j., donjacour, a.,
+hayashi, n. and kinbara, h. (1992) role of epithelial–mesenchymal interactions in the differentiation and spatial organization of visceral smooth muscle. epithelial cell biol 1:76–83.
+cunha, g.r., bigsby, r.m., cooke, p.s. and sugimura, y. (1985)
+stromal–epithelial interactions in adult organs. cell differ
+17:137–148.
+cunha, g.r., hayward, s.w., wang, y.z. and ricke, w.a. (2003)
+role of the stromal microenvironment in carcinogenesis of the
+prostate. int j cancer 107:1–10.
+dahiya, r., zhang, d.y., ho, r.j., haughney, p.c., hayward,
+s.w., cunha, g.r. and narayan, p. (1995) regression of
+lncap human prostate tumor xenografts in athymic nude mice
+by 13- xxxd2404xxx  and androgen ablation. biochem mol biol
+int 35:487–498.
+de luca, l.m. (1991) retinoids and their receptors in diﬀerentiation, embryogenesis and neoplasia. faseb j 5:2924–2933.
+djakiew, d. (2000) dysregulated expression of growth factors and
+their receptors in the development of prostate cancer. prostate
+42:150–160.
+erck, c., meisinger, c., grothe, c. and seidl, k. (1998) regulation
+of  xxxg1564xxx  and its low-afﬁnity receptor (p75ntr)
+during myogenic differentiation. j cell physiol 176:22–31.
+faria, t.n., mendelsohn, c., chambon, p. and gudas, l.j. (1999)
+the targeted disruption of both alleles of rarbeta(2) in f9 cells
+results in the loss of  xxxd3417xxx -associated growth arrest. j biol
+chem 274:26783–26788.
+
+friedman, w.j. and greene, l.a. (1999)  xxxg259xxx  signaling
+via trks and p75. exp cell res 253:131–142.
+gao, m., ossowski, l. and ferrari, a.c. (1999) activation of rb
+and decline in  xxxg183xxx  protein precede retinoic acidinduced apoptosis in androgen-dependent lncap cells and their
+androgen-independent derivative. j cell physiol 179:336–346.
+gates, r.e. and rees, r.s. (1985) altered  xxxd3105xxx -binding proteins in carcinoma of the head and neck. cancer 56:2598–2604.
+geisen, c., denk, c., gremm, b., baust, c., karger, a., bollag, w.
+and schwarz, e. (1997) high-level expression of the  xxxd3417xxx 
+receptor b gene in normal cells of the uterine cervix is regulated
+by the  xxxd3417xxx  receptor a and is abnormally down-regulated
+in cervical carcinoma cells. cancer res 57:1460–1467.
+gils, a. and declerck, p.j. (2004) plasminogen activator inhibitor1. curr med chem 11:2323–2334.
+gueddari-pouzols, n., duriez, p., chomienne, c., trussardi, a.
+and jardillier, j.c. (2001) interaction between mevalonate pathway and  xxxd3417xxx -induced differentiation. j biomed biotechnol 1:108–113.
+guenette, r.s. and tenniswood, m. (1994) the role of growth
+factors in the suppression of active cell death in the prostate: an
+hypothesis. biochem cell biol 72:553–559.
+halgunset, j., sunde, a. and lundmo, p.i. (1987)  xxxd3417xxx 
+(ra): an inhibitor of 5 alpha-reductase in human prostatic cancer cells. j steroid biochem 28:731–736.
+han, h., bearss, d.j., browne, l.w., calaluce, r., nagle, r.b. and
+von hoﬀ, d.d. (2002) identiﬁcation of differentially expressed
+genes in pancreatic cancer cells using cdna microarray. cancer
+res 62:2890–2896.
+hansen, l.a., sigman, c.c., andreola, f., ross, s.a., kelloﬀ, g.j.
+and de luca, l.m. (2000) retinoids in chemoprevention and
+differentiation therapy. carcinogenesis 21:1271–1279.
+hollas, w., hoosein, n., chung, l.w., mazar, a., henkin, j.,
+kariko, k., barnathan, e.s. and boyd, d. (1992) expression of
+urokinase and its receptor in invasive and non-invasive prostate
+cancer cell lines. thromb haemost 68:662–666.
+huang, j., powell, w.c., khodavirdi, a.c., wu, j., makita, t.,
+cardiﬀ, r.d., cohen, m.b., sucov, h.m. and roy-burman, p.
+(2002) prostatic intraepithelial neoplasia in mice with conditional
+disruption of the  xxxg1998xxx  allele in the prostate
+epithelium. cancer res 62:4812–4819.
+huang, m.e., ye, y.c. and chen, s.r. (1987) all-trans retinoic
+acid with or without low dose  xxxd1790xxx  in acute
+ xxxg1785xxx : report of six cases. chin med j 100:
+949–953.
+jutley, j.k., reaney, s., kelleher, j. and whelan, p. (1990) interactions of  xxxd3417xxx  and androgens in human prostatic tissue.
+prostate 16:299–304.
+krygier, s. and djakiew, d. (2001) the  xxxg259xxx  receptor
+p75ntr is a tumor suppressor in human prostate cancer. anticancer res 21:3749–3755.
+krygier, s. and djakiew, d. (2002)  xxxg259xxx  receptor
+p75(ntr) suppresses growth and  xxxg1564xxx -mediated
+metastasis of human prostate cancer cells. int j cancer 98:1–7.
+leid, m., kastner, p. and chambon, p. (1992) multiplicity generates diversity in the  xxxd3417xxx  signalling pathways. trends
+biochem sci 17:427–433.
+liu, d.f. and rabbani, s.a. (1995) induction of urinary plasminogen activator by  xxxd3417xxx  results in increased invasiveness
+of human prostate cancer cells pc-3. prostate 27:269–276.
+lotan, r. (1995) retinoids and apoptosis: implications for cancer
+chemoprevention and therapy. j natl cancer inst 87:1655–1657.
+lotan, r. (1996) retinoids in cancer chemoprevention. faseb j
+10:1031–1039.
+lotan, y., xu, x.c., shalev, m., lotan, r., williams, r., wheeler,
+t.m., thompson, t.c. and kadmon, d. (2000) differential expression of nuclear retinoid receptors in normal and malignant
+prostates. j clin oncol 18:116–121.
+mangelsdorf, d.j., thummel, c., beato, m., herrlich, p., schutz,
+g., umesono, k., blumberg, b., kastner, p., mark, m.,
+
+396
+chambon, p. and evans, r.m. (1995) the nuclear  xxxg1603xxx  superfamily: the second decade. cell 83:835–840.
+miyake, h., hara, i., yamanaka, k., arakawa, s. and kamidono,
+s. (1999) elevation of  xxxg1767xxx 
+and its receptor densities as new predictors of disease progression
+and prognosis in men with prostate cancer. int j oncol 14:
+535–541.
+montie, j.e. and pienta, k.j. (1994) review of the role of androgenic hormones in the epidemiology of benign prostatic hyperplasia and prostate cancer. urology 43:892–899.
+nagy, l., thomazy, v.a., heyman, r.a. and davies, p.j. (1998)
+retinoid-induced apoptosis in normal and neoplastic tissues. cell
+death differ 5:11–19.
+nason-burchenal, k. and dmitrovsky, e. (1999) the retinoid:
+cancer therapy and prevention mechanisms. in: nau, h. and
+blaner, w.s. (eds.) retinoids: handbook of experimental pharmacology. vol. 139, springer, berlin, pp. 117–149.
+ong, d., newcomer, m. and chytil, f. (1994) cellular retinoid
+binding proteins. in: sporn, m., roberts, a. and goodman, d.
+(eds.) the retinoids: biology, chemistry, and medicine. 2nd ed.
+raven press, new york, pp. 288–317.
+pang, a.l., taylor, h.c., johnson, w., alexander, s., chen, y.,
+su, y.a., li, x., ravindranath, n., dym, m., rennert, o.m.
+and chan, w.y. (2003) identiﬁcation of differentially expressed
+genes in mouse spermatogenesis. j androl 24:899–911.
+peehl, d.m., wong, s.t. and stamey, t.a. (1993)  xxxd3105xxx  regulates proliferation and differentiation of human prostatic epithelial cells. prostate 23:69–78.
+perez, m., regan, t., pﬂug, b., lynch, j. and djakiew, d. (1997)
+loss of low-afﬁnity  xxxg1564xxx  receptor during
+malignant transformation of the human prostate. prostate 30:
+274–279.
+pﬂug, b.r., dionne, c., kaplan, d.r., lynch, j. and djakiew, d.
+(1995) expression of a trk high afﬁnity  xxxg1564xxx  receptor in the human prostate. endocrinology 136:262–268.
+pﬂug, b.r., onoda, m., lynch, j.h. and djakiew, d. (1992) reduced expression of the low afﬁnity  xxxg1564xxx  receptor
+in benign and malignant human prostate tissue and loss of expression in four human metastatic prostate tumor cell lines.
+cancer res 52:5403–5406.
+piedraﬁta, f. and pfahl, m. (1999) nuclear retinoid receptors and
+mechanisms of action. in: nau, h. and blaner, w. (eds.) retinoids: handbook of experimental pharmacology. springer, berlin, pp. 153–184.
+ploug, m., kjalke, m., ronne, e., weidle, u., hoyer-hansen, g.
+and dano, k. (1993) localization of the disulﬁde bonds in the
+nh2-terminal domain of the cellular receptor for human
+ xxxg1767xxx . a domain structure belonging to a novel superfamily of glycolipid-anchored membrane
+proteins. j biol chem 268:17539–17546.
+rabbani, s.a. and gladu, j. (2002) urokinase receptor antibody
+can reduce tumor volume and detect the presence of occult tumor
+metastases in vivo. cancer res 62:2390–2397.
+
+rabbani, s.a. and mazar, a.p. (2001) the role of the plasminogen
+activation system in angiogenesis and metastasis. surg oncol
+clin north am 10:393–415.
+rajah, r., bhala, a., nunn, s.e., peehl, d.m. and cohen, p.
+(1996) 7s  xxxg1564xxx  is an insulin-like growth
+factor-binding protein protease. endocrinology 1996 137:2676–
+2682.
+roman, s.d., ormandy, c.j., manning, d.l., blamey, r.w., nicholson, r.i., sutherland, r.l. and clark, c.l. (1993) estradiol
+induction of  xxxd3417xxx  receptors in human breast cancer cells.
+cancer res 53:5940–5945.
+sheng, s. (2001) the  xxxg1767xxx 
+system in prostate cancer metastasis. cancer metastasis rev
+20:287–296.
+takemasa, i., higuchi, h., yamamoto, h., sekimoto, m., tomita,
+n., nakamori, s., matoba, r., monden, m. and matsubara, k.
+(2001) construction of preferential cdna microarray specialized
+for human colorectal carcinoma: molecular sketch of colorectal
+cancer. biochem biophys res commun 285:1244–1249.
+tonner, e., allan, g., shkreta, l., webster, j., whitelaw, c.b. and
+flint, d.j. (2000) insulin-like growth factor binding protein-5
+( xxxg1150xxx ) potentially regulates programmed cell death and
+plasminogen activation in the mammary gland. adv exp med
+biol 480:45–53.
+xie, w., mertens, j.c., reiss, d.j., rimm, d.l., camp, r.l., haﬀty, b.g. and reiss, m. (2002) alterations of smad signaling in
+human breast carcinoma are associated with poor outcome: a
+tissue microarray study. cancer res 62:497–505.
+xu, j., stolk, j.a., zhang, x., silva, s.j., houghton, r.l., matsumura, m., vedvick, t.s., leslie, k.b., badaro, r. and reed,
+s.g. (2000) identiﬁcation of differentially expressed genes in human prostate cancer using subtraction and microarray. cancer
+res 60:1677–1682.
+xu, x.c., sneige, n., liu, x., nandagiri, r., lee, j.j., lukmanji,
+f., hortobagyi, g., lippman, s.m., dhingra, k. and lotan, r.
+(1997a) progressive decrease in nuclear  xxxd3417xxx  receptor
+beta messenger rna level during breast carcinogenesis. cancer
+res 57:4992–4996.
+xu, x.c., sozzi, g., lee, j.s., lee, j.j., pastorino, u., pilotti, s.,
+kurie, j.m., hong, w.k. and lotan, r. (1997b) suppression of
+ xxxg1932xxx  in non-small-cell lung cancer in vivo:
+implications for lung cancer development. j natl cancer inst
+89:624–629.
+yebra, m., goretzki, l., pfeifer, m. and mueller, b.m. (1999)
+ xxxg1767xxx  binding to its receptor
+stimulates tumor cell migration by enhancing integrin-mediated
+signal transduction. exp cell res 250:231–240.
+zhang, x.k., hoﬀmann, b., tran, p.b., graupner, g. and pfahl,
+m. (1992) retinoid x receptor is an auxiliary protein for thyroid
+hormone and  xxxd3417xxx  receptors. nature 355:441–446.
+zhong, c., yang, s., huang, j., cohen, m.b. and roy-burman, p.
+(2003) aberration in the expression of the retinoid receptor,
+rxralpha, in prostate cancer. cancer biol ther 2:179–184.
+

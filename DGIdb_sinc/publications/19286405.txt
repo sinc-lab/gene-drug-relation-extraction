@@ -1,0 +1,2983 @@
+journal of molecular graphics and modelling 27 (2009) 930–943
+
+contents lists available at sciencedirect
+
+journal of molecular graphics and modelling
+journal homepage: www.elsevier.com/locate/jmgm
+
+applying linear interaction energy method for binding afﬁnity calculations of
+ xxxd2980xxx  analogues with tubulin using continuum solvent model and
+prediction of cytotoxic activity
+md. afroz alam, pradeep kumar naik *
+department of bioinformatics and biotechnology, jaypee university of information technology, waknaghat, solan 173215, himachal pradesh, india
+
+a r t i c l e i n f o
+
+a b s t r a c t
+
+article history:
+received 15 august 2008
+received in revised form 7 february 2009
+accepted 9 february 2009
+available online 20 february 2009
+
+ xxxd2980xxx  and its analogues have important therapeutic value in the treatment of cancer, due to
+their ability to induce apoptosis in cancer cells in a proliferation-independent manner. these ligands
+bind to colchicine binding site of tubulin near the a- and b-tubulin interface and interfere with tubulin
+polymerization. the binding free energies of  xxxd2980xxx -based inhibitors of tubulin were
+computed using a linear interaction energy (lie) method with a surface generalized born (sgb)
+continuum solvation model. a training set of 76  xxxd2980xxx  analogues was used to build a binding
+afﬁnity model for estimating the free energy of binding for 36 inhibitors (test set) with diverse structural
+modiﬁcations. the average root mean square error (rmse) between the experimental and predicted
+binding free energy values was 0.56 kcal/mol which is comparable to the level of accuracy achieved by
+the most accurate methods, such as free energy perturbation (fep) or thermodynamic integration (ti).
+the squared correlation coefﬁcient between experimental and sgb–lie estimates for the free energy for
+the test set compounds is also signiﬁcant (r2 = 0.733). on the basis of the analysis of the binding energy,
+we propose that the three-dimensional conformation of the a, b, c and d rings is important for
+interaction with tubulin. on the basis of this insight, 12 analogues of varying ring modiﬁcation were
+taken, tested with lie methodology and then validated with their experimental potencies of tubulin
+polymerization inhibition. low levels of rmse for the majority of inhibitors establish the structure-based
+lie method as an efﬁcient tool for generating more potent and speciﬁc inhibitors of tubulin by testing
+rationally designed lead compounds based on  xxxd2980xxx  derivatization.
+ß 2009 elsevier inc. all rights reserved.
+
+keywords:
+ xxxd2980xxx 
+free energy of binding
+binding afﬁnity
+docking
+surface generalized born continuum
+salvation model
+linear interaction energy
+
+1. introduction
+microtubules are involved in a wide range of cellular functions
+and are critical to the life cycle of the cell. composed of alternating
+a- and b-protoﬁlaments, microtubules are highly dynamic
+macromolecular assemblies that are organized in a polar, spatial
+and temporal cell cycle speciﬁc manner. the organization is
+regulated by numerous factors including the intrinsic ability of
+microtubule subunits, tubulin heterodimers, to form nonequilibrium, dynamic polymers. the a- and b-tubulins rapidly
+assemble and disassemble to meet the cell’s needs [1,2]. since
+inhibition of tubulin polymerization or blockage of microtubule
+disassembly increases the number of cells in metaphase arrest,
+microtubules are attractive molecular targets for anticancer
+therapeutics. small molecules have been shown to bind at four
+
+* corresponding author. tel.: +91 1792 239227; fax: +91 1792 245362.
+e-mail address: pknaik73@rediffmail.com (p.k. naik).
+1093-3263/$ – see front matter ß 2009 elsevier inc. all rights reserved.
+doi:10.1016/j.jmgm.2009.02.003
+
+major drug binding sites on tubulin: the vinca, taxane, colchicine
+and peloruside a [3–5].
+among the plethora of physiological activities and potential
+medicinal and agricultural applications, the antineoplastic and
+antiviral properties of  xxxd2980xxx  congeners and their
+derivatives are arguably the most eminent from a pharmacological
+perspective.  xxxd2980xxx  is an antitumor lignan mainly found
+in the plants  xxxd2980xxx  hexandrum and  xxxd2980xxx  peltatum.
+since the discovery of the therapeutic properties of  xxxd2980xxx , new ﬁndings related to its activities, its mechanism of action
+and pharmacological properties have been unveiled. structure–
+activity relationships (sar) have shown that  xxxd2980xxx 
+analogues preferentially inhibit tubulin polymerization, which
+leads to arrest of the cell cycle in the metaphase [6,7]. different
+derivatives of  xxxd2980xxx  have been demonstrated to bind to
+the colchicine site, as shown by the fact that  xxxd2980xxx  has
+been reported to compete with colchicine for the binding site in
+tubulin [8] and its afﬁnity is double than that of colchicine. these
+compounds including colchicine affect cancer and normal cells
+alike and lead to the appearance of adverse side effects [9].
+
+m.a. alam, p.k. naik / journal of molecular graphics and modelling 27 (2009) 930–943
+
+following binding of  xxxd2980xxx , the gtp hydrolyzing
+capacity of tubulin is inhibited, but colchicine stimulates an
+assembly-independent gtpase activity directed at the exchangeable site-bound gtp [10].  xxxd2980xxx  binds to b-tubulin at its
+interface with a-tubulin resulting in inhibition of tubulin
+polymerization. this binding mode was recently conﬁrmed by
+the determination of a 4.20 å x-ray structure of a- and b-tubulins
+complexed with  xxxd2980xxx  (pdb_id:1sa1), showing that
+ xxxd2980xxx  also binds at the colchicine site [11].
+while  xxxd2980xxx  has played a central role in elucidating
+the physical properties and biological functions of tubulin and
+microtubules, its high toxicity has limited its therapeutic application [12]. although colchicine site agents share a general toxicity,
+the promise to discover therapeutically useful analogues has
+fueled continued research. over the years, a large number of
+natural and synthetic analogues of  xxxd2980xxx  have been
+identiﬁed as colchicine site inhibitors. since a wide variety of
+molecular scaffolds are available for optimization, this diversity
+presents a signiﬁcant challenge to determining the essential
+features for activity. a rational approach for the discovery of a
+pharmaceutically acceptable, economically viable activity model
+awaits development of a predictive quantitative structure–activity
+relationship. with the advent of parallel synthesis methods and
+technology, we might expect the number of  xxxd2980xxx 
+analogues to be tested to grow dramatically. combinatorial
+methods could also be envisioned as a semi-rational approach
+to this discovery strategy. one method of orchestrating these
+strategies is to make use of linear interaction energy (lie) models
+for the rapid prediction and virtual prescreening of cytotoxic
+activity. the linear interaction energy approximation is a way of
+combining molecular mechanics calculations with experimental
+data to build a model scoring function for the evaluation of ligand–
+protein binding free energies. the lie method [13] is a semiempirical model that has become widely used to predict protein–
+ligand binding afﬁnities. in lie, the free ligand in water and the
+solvated protein–ligand complex are simulated and from these
+two calculations the ligand surrounding electrostatic and van der
+waals (vdw) energies are collected. the binding free energy is then
+evaluated as proposed by åqvist [13]. a continuum solvation
+model was developed based on the proposed lie method by adding
+continuum electrostatic ligand–water interaction energies by
+using an equivalent form of equation [14]. however, the proposed
+generalized born (gb)–lie method overestimates the change in
+solvation energy and this is caused by consistent underestimation
+of the effective born radii in the protein–ligand complex [14]. to
+further assess the usefulness of continuum models for estimating
+binding free energies, more accurate gb models should be carried
+out. the lie method has been applied on a number of protein–
+ligand systems with promising results producing small errors on
+the order of 1 kcal/mol for free energy prediction [15]. this
+approach could then be applied to larger sets of inhibitors and
+contribute to fast and efﬁcient ligand design. at present, a linear
+interaction energy method for rational design of  xxxd2980xxx 
+analogues for tubulin polymerization inhibition has not been
+determined.
+the availability of structural information on tubulin facilitates
+understanding the structure–activity relationships for tubulin
+polymerization inhibition. in this study, we have applied a
+structure-based linear interaction energy method implementing
+a surface generalized born (sgb) continuum model for solvation to
+build a binding afﬁnity model for estimating the binding free
+energy for a diverse set of  xxxd2980xxx  analogues with tubulin.
+the magnitude of free energy changes upon binding of inhibitors to
+tubulin directly correlates with the experimental potency of these
+inhibitors; hence, fast and accurate estimation of binding free
+energies provides a means to screen the compound libraries for
+
+931
+
+lead optimization and for generating more potent and speciﬁc
+inhibitors of tubulin by testing rationally designed lead compounds based on  xxxd2980xxx  derivatization.
+2. materials and methods
+2.1. lie methodology
+the lie method employs experimental data on binding free
+energy values for a set of ligands (referred as training set) to
+estimate the binding afﬁnities for a set of novel compounds. the
+method is based on the linear response approximation (lra),
+which dictates that binding free energy of a protein–ligand system
+is a function of polar and non-polar energy components that scale
+linearly with the electrostatic and van der waals interactions
+between a ligand and its environment. the free energy of binding
+(feb) for the complex is derived from considering only two states:
+(1) free ligand in the solvent and (2) ligand bound to the solvated
+protein. the conformational changes and entropic effects pertaining to unbound receptor are taken into account implicitly and only
+interactions between the ligand and either the protein or solvent
+are computed during molecular mechanics calculations. among
+the various formulations of the lie methodology developed in the
+past, the sgb–lie method [15] has been shown to be 1 order of
+magnitude faster than the methods based on explicit solvent with
+the same order of accuracy. in the lie method,
+
+dgbind ¼ ahdu ele i þ bhdu vdw i þ g hdsasa i
+
+(1)
+
+where hduelei and hduvdwi denotes the average change in the
+electrostatic and van der waals interaction energy of the ligand in
+the free and bound states, respectively, and hdsasai is the change in
+the solvent accessible surface area (sasa) of the ligand. the a, b,
+and g terms are adjustable parameters that need to be determined
+by ﬁtting the experimental data on the training set compounds.
+the sgb–lie method also offers better accuracy in treating the
+long-range electrostatic interactions. however, the sgb–lie
+method used in this studied is based on the original formulation
+proposed by jorgensen [15] and implemented in liaison (schrödinger, inc. portland, or, usa) using the opls-2005 force ﬁeld. a
+novel feature of liaison is that the simulation takes place in
+implicit (continuum) rather than explicit solvent, hence the name
+liaison, for linear interaction approximation in implicit solvation.
+the explicit-solvent version of the methodology was ﬁrst
+suggested by åqvist and hansson [16], based on approximating
+the charging integral in the free-energy-perturbation formula with
+a mean-value approach, in which the integral is represented as half
+the sum of the values at the endpoints, namely the free and bound
+states of the ligand. the empirical relationship used by liaison is
+shown below:
+b
+f
+b
+f
+b
+dgbind ¼ aðhuele
+i  huele
+iþ þ bðhuvdw
+i  huvdw
+iþ þ g ðhucav
+i
+f
+ hucav
+iþ
+
+(2)
+
+here ‘‘h’’ and ‘‘i’’ represent the ensemble average, b represents the
+bound form of the ligand, f represents the free form of the ligand,
+and a, b and g are the coefﬁcients. uele, uvdw and ucav are the
+electrostatic, van der waals and cavity energy terms in the sgb
+continuum solvent model. the cavity energy term, ucav, is
+proportional to the exposed surface area of the ligand. thus, the
+b
+f
+difference: hucav
+i  hucav
+i measures the surface area lost by contact
+with the receptor. the energy terms involved can be computed
+using energy minimization, molecular dynamics, or monte carlo
+calculations. in the sgb model of solvation, there is no explicit van
+der waals or electrostatic interaction between the solute and
+solvent. the contribution for net free energy of solvation comes
+from two energy terms, namely, reaction ﬁeld energy (urxn) and
+
+m.a. alam, p.k. naik / journal of molecular graphics and modelling 27 (2009) 930–943
+
+932
+
+cavity energy (ucav): usgb = urxn + ucav. the cavity and reaction
+ﬁeld energy terms implicitly take into account the van der waals
+and the electrostatic interactions, respectively, between the ligand
+and solvent. the application of the sgb–lie method for a given
+protein–ligand system essentially involves computing four energy
+components, i.e., the van der waals and coulombic energy
+between the ligand and protein and the reaction ﬁeld and cavity
+energy between the ligand and continuum solvent. the total
+electrostatic energy in the sgb–lie method is the sum of
+coulombic and reaction ﬁeld energy terms.
+
+3, 1, 0.3, 0.1) were applied to non-hydrogen atoms only. the
+complex structure was energy minimized using opls_2005 force
+ﬁeld and the conjugate gradient algorithm, keeping all atoms
+except hydrogen ﬁxed. the minimization was stopped either after
+1000 steps or after the energy gradient converged below 0.01 kcal/
+mol. the energy-minimized receptor structure was subsequently
+used for docking of  xxxd2980xxx  analogues and sgb–lie
+calculations.
+
+2.2. computational details
+
+ xxxd2980xxx  is well known for its antitumor activity.
+however, the clinical application of it and its analogues in the
+treatment of cancer has been limited by severe toxic side effects
+during administration of the drugs [20,21]. with a view to
+achieving greater therapeutic efﬁciency many  xxxd2980xxx 
+analogues have been isolated and via molecular manipulation, a
+large number of semisynthetic derivatives have been synthesized.
+however, new ﬁndings related to their activities, mechanism of
+action and pharmacological properties have been unexplored. a
+total of 112  xxxd2980xxx  analogues were used in the study and
+were taken from various sources belonging to different ring
+modiﬁcations. for better interpretation all these compounds were
+divided into following four sublibraries.
+sublib-i commonly known as tetralinelactones consist of 29
+compounds (1–29) (table 1a). these molecules were rationally
+designed as functional mimics of natural  xxxd2980xxx  with the
+goal of simplifying the chemical synthesis and improving the
+cytotoxic activity. structural modiﬁcation mainly introduced
+varying radicals at position 7 in  xxxd2980xxx  scaffold. reports
+have been made of compounds with oxygenated substituents in
+the form of ethers, esters and diverse nitrogen radicals [22–26].
+sublib-ii contains compounds (30–70) (table 1b) known as nonlactonic tetralines. structural modiﬁcations in this group include
+the opening of the lactone ring (d-ring) in  xxxd2980xxx 
+scaffold, to give rise to compounds with different degrees of
+oxidation at positions c-9 and c-90 [23,26]. in general these
+molecules lacking a lactone ring.
+
+preparation of receptor and ligands was done using the
+schrödinger package from schrödinger inc. [17]. all the calculations for the sgb–lie method were performed in the liaison
+package from schrödinger inc. [18]. the liaison module performs
+lie calculations in the opls force ﬁeld with a residue-based cutoff
+of 15 å. the opls force ﬁeld was also used for charge assignment
+and all energy calculations.
+2.3. receptor preparation
+the x-ray structure of the complex between  xxxd2980xxx 
+and tubulin protein (pdb_id:1sa1) has been used as initial
+structure in the preparation of  xxxd2980xxx  binding site. after
+manual inspection and cleaning of structure we retained a complex
+composed of protein chains a and b and  xxxd2980xxx  ligand.
+hydrogen was added to the model automatically via the maestro
+interface [19] leaving no lone pair and using an explicit all-atom
+model. all the water molecules were removed from the complex.
+the multi step schrödinger’s protein preparation tool (pprep) has
+been used for ﬁnal preparation of protein. pprep neutralizes side
+chains that are not close to the binding cavity and do not
+participate in salt bridges [19]. this step is then followed by
+restrained minimization of co-crystallized complex, which reorients side chain hydroxyl groups and alleviates potential steric
+clashes. progressively weaker restraints (tethering force constants
+
+2.4. preparation of ligands
+
+table 1a
+ xxxd2980xxx  derivatives (tetraline lactones) with cytotoxic activities against p-388 cell line used in the work.
+
+,
+
+.
+analogue
+
+r1
+
+r2
+
+experimental ic50
+
+analogue
+
+r1
+
+r2
+
+experimental ic50
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+
+oh
+h
+h
+oh
+oac
+ome
+h
+h
+h
+h
+cl
+o
+n–oh
+n–oac
+n–ome
+
+h
+h
+h(2–ome)
+h(40 –oh)
+h
+h
+oh
+ac
+ome
+cl
+h
+
+0.012
+0.010
+0.01
+0.027
+0.625
+0.06
+0.06
+0.05
+0.06
+0.6
+0.6
+1.8
+2.3
+2.1
+0.2
+
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+
+h
+h
+oh
+oac
+oac
+ome
+h
+h
+h
+h
+h
+o
+n–oh
+n–ome
+
+h
+h(2–ome)
+h
+h
+h(2–ome)
+h
+oh(2–ome)
+oac
+oac(2–ome)
+ome
+ xxxg1038xxx 
+
+0.10
+0.23
+6.0
+0.55
+1.02
+0.12
+0.11
+0.44
+0.51
+0.12
+0.013
+12.0
+2.3
+2.3
+
+m.a. alam, p.k. naik / journal of molecular graphics and modelling 27 (2009) 930–943
+
+933
+
+table 1b
+ xxxd2980xxx  derivatives (non-lactonic tetralines) with cytotoxic activities against p-388 cell line used in the work.
+
+,
+
+,
+
+.
+analogue
+
+r1
+
+r2
+
+r3
+
+experimental ic50
+
+analogue
+
+structure
+
+experimental ic50
+
+30
+31
+32
+33
+
+oh
+h
+h
+h
+
+h
+oh
+ome
+ome
+
+h
+h
+h
+ac
+
+1.2
+12.0
+11.6
+9.7
+
+35
+
+23.3
+
+34
+
+ome
+
+h
+
+ac
+
+9.7
+
+36
+
+3.5
+
+analogue
+
+r1
+
+r2
+
+r3
+
+r4
+
+experimental ic50
+
+analogue
+
+r1
+
+r2
+
+r3
+
+r4
+
+experimental ic50
+
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+
+h
+h
+h
+oh
+oh
+oac
+oac
+ome
+ome
+h
+
+h
+h
+h
+h
+h
+h
+h
+h
+h
+ome
+
+oh
+oac
+oac
+oh
+oh
+oac
+oac
+oh
+oac
+oh
+
+coome
+coome
+ch2oac
+ch2oh
+coome
+ch2oac
+coome
+ch2oh
+ch2oac
+ch2oh
+
+0.058
+0.21
+5.14
+23.9
+0.22
+7.4
+1.1
+23.2
+19.4
+11.6
+
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+
+h
+h
+h
+
+ome
+oh
+oh
+
+oac
+oh
+oh
+oh
+oac
+oac
+cho
+n–ome
+n–ome
+n–allyl
+
+ch2oac
+ch2oh
+coome
+coome
+coome
+coome
+coome
+coome
+coome
+coome
+
+9.7
+47.9
+1.1
+5.63
+0.20
+2.0
+2.34
+2.30
+10.94
+2.5
+
+o
+o
+n–oh
+h
+h
+h
+h
+
+h
+h
+h
+h
+
+analogue
+
+r1
+
+r2
+
+experimental ic50
+
+analogue
+
+r1
+
+r2
+
+experimental ic50
+
+57
+58
+59
+
+ch2oh
+cho
+cho
+
+coome
+ch2oh
+coome
+
+0.02
+0.25
+0.23
+
+64
+
+ch
+
+n–oh
+
+coome
+
+2.27
+
+65
+
+ch
+
+n–ome
+
+coome
+
+0.22
+
+60
+
+ch
+
+n–nh2
+
+coome
+
+0.57
+
+66
+
+coome
+
+0.20
+
+61
+
+ch
+
+n–nh–ch2cf3
+
+coome
+
+0.48
+
+67
+
+ch2oh
+
+1.00
+
+62
+63
+
+ch
+ch
+
+n–nh–ph
+n–nh–ph
+
+coome
+ch2oh
+
+1.94
+1.02
+
+68
+
+0.57
+5.66
+
+69
+6.25
+
+sublib-iii also includes a group of lignans (71–84) (table 1c) that
+have heterocyclic rings fused to the cyclolignan skeleton. this
+group is commonly called as pyrazolignans [23,25–27] and
+isoxazolignans [26,28] and they were obtained by reacting
+ xxxd2980xxx  with differently substituted hydrazines and
+hydroxylamines.
+sublib-iv contains 28 compounds (85–112) (table 1d) commonly known as aza- xxxd2980xxx  analogues. the preparation
+of this group of compounds requires selective chemical manipulation of the two aromatic rings (b- and e-rings) of the  xxxd2980xxx  scaffold. these molecules are readily prepared from anilines,
+benzaldehydes and tetronic acid or 2,3-cyclopentanedione in good
+
+70
+
+to excellent yield and have also shown better cytotoxic activity
+[29].
+all these  xxxd2980xxx  analogues were built from the
+scaffolds by different ring modiﬁcation and substitution of
+functional groups as mentioned in tables 1a–1d. we used isis
+draw 2.3 software for sketching structures and converting them to
+their 3d representation by using chemsketch 3d viewer of
+acdlabs 8.0. ligprep [19] was used for ﬁnal preparation of
+ligands from libraries. ligprep is a utility of schrödinger software
+suit that combines tools for generating 3d structures from 1d
+(smiles) and 2d (sdf) representation, searching for tatutomers and
+steric isomers and performing a geometry minimization of ligands.
+
+m.a. alam, p.k. naik / journal of molecular graphics and modelling 27 (2009) 930–943
+
+934
+
+table 1c
+ xxxd2980xxx  derivatives (pyrazolignans and isoxazolignan) with cytotoxic activities against p-388 cell used in the work.
+
+,
+
+,
+
+,
+
+.
+analogue
+
+r1
+
+r2
+
+experimental ic50
+
+analogue
+
+r1
+
+r2
+
+experimental ic50
+
+71
+72
+73
+
+ph
+ph
+ph
+
+cooh
+ch2oh
+ch2oac
+
+1.9
+4.1
+4.7
+
+74
+75
+76
+
+m-no2ph
+me
+coch3coome
+
+coome
+coome
+coome
+
+4.5
+5.6
+21
+
+analogue
+
+r
+
+experimental ic50
+
+analogue
+
+r
+
+experimental ic50
+
+77
+78
+79
+80
+
+h
+cho
+ch2ac
+cooh
+
+10
+21
+2.2
+2.2
+
+81
+82
+83
+84
+
+coome
+coome(40 –oh)
+ch2oh
+cho
+
+23
+12
+2.6
+2.4
+
+the ligands were minimized by means of molecular mechanics
+force ﬁelds (mmffs) with default setting. each of these compounds
+had associated in vitro cytotoxicity values (ic50 values reported in
+mm) against cell line p388. studied on in vitro cytotoxicity of
+ xxxd2980xxx  and its analogues were reported mostly on p388
+cell line. the reason being due to its resistance to anticancer drug
+vinorelbine [30]. p388 is a murine leukemia cell line. out of the
+seven b-tubulin isotype classes; class i was the major b-tubulin
+isotype (60–72%), followed by class iii (11.3–11.7%) while btubulin classes iva + ivb were the least abundant (1.2–1.7%) of
+total b-tubulin in p388 cell line [31].
+2.5. docking of the ligands
+all the ligands were docked to the tubulin receptor using glide
+version 4.0. after ensuring that protein and ligands are in correct
+form for docking, the receptor-grid ﬁles were generated using gridreceptor generation program, using van der waals scaling of the
+receptor at 0.4. the default size was used for the bounding and
+enclosing boxes was generated at the centroid of the tubulin
+binding site by selecting the bound  xxxd2980xxx  ligand. the
+ligands were docked initially using the ‘‘standard precision’’
+method and further reﬁned using ‘‘extra precision’’ glide algorithm. for the ligand docking stage, van der waals scaling of the
+ligand was set at 0.5. of the 50,000 poses that were sampled, 4000
+were taken through minimization (conjugate gradients 1000) and
+the 30 structures having the lowest energy conformations were
+further evaluated for the favorable glide docking score. a single
+best conformation for each ligand was considered for further
+analysis.
+2.6. lie calculations
+the docked complex corresponding to each analogue was
+transported to the liasion package for subsequent sgb–lie
+calculations. sampling technique such as molecular dynamics
+(md) has been used for lie conformation space sampling in the
+present work. the system was initially heated to 300 k for 5 ps and
+then subjected to a md simulation for 25 ps. a residue-based cutoff
+of 12 å was set for the non-bonding interactions. the non-bonded
+pair list was updated every 10 fs. the time integration step of 1.0 fs
+
+and sampling lie energies every 10 steps was used. during the md
+simulations, all the residues of the receptor beyond 12 å from the
+bound ligand were frozen. similarly, the average lie energies for
+the ligand were obtained using the opls-2005 force ﬁeld. the
+average lie energy terms were used for building binding afﬁnity
+model and free energy estimation for  xxxd2980xxx  analogues.
+the a, b and g lie ﬁtting parameters were determined based on
+gaussian elimination method using matlab 6.5 as described by
+thomas and finny [32] and by ﬁtting the experimental data on the
+training set compounds.
+in order to explore the reliability of the proposed model we used
+the cross validation method. prediction error sum of squares (press)
+is a standard index to measure the accuracy of a modeling method
+2
+based on the cross validation technique. the rcv
+was calculated
+based on the press and ssy (sum of squares of deviations of the
+experimental values from their mean) using following formula:
+pn
+2
+press
+i¼1 ðyexp  ypred þ
+2
+¼1 p
+¼1
+rcv
+n
+2
+ssy
+i¼1 ðyexp  ȳþ
+where yexp, ypred and ȳ are the predicted, observed and mean values
+of the cytotoxic activities of the  xxxd2980xxx  analogues. the
+cross validation analysis performed by using the leave one out
+(loo) method in which one compound removed from the data set
+and its activity predicted using the model derived from the rest of
+the data points. the cross-validated correlation coefﬁcient (q2) that
+resulted in optimum number of components and lowest standard
+error of prediction were considered for further analysis and
+calculated using following equations:
+p
+2
+y ðypred  yobserved þ
+q2 ¼ 1  p
+2
+y ðyobserved  ymean þ
+x
+press ¼
+ðy
+ yobserved þ2
+y predicred
+where ypred, yobserved and ymean are the predicted, observed and
+mean values of the cytotoxic activities of the  xxxd2980xxx 
+analogues and press is the sum of the predictive sum of squares.
+the predictive ability of the models is expressed by the r2
+predictive value, which is analogous to cross-validated r2 (q2).
+sd  press
+2
+rpred
+¼
+sd
+
+m.a. alam, p.k. naik / journal of molecular graphics and modelling 27 (2009) 930–943
+
+935
+
+table 1d
+aza- xxxd2980xxx  derivatives with cytotoxic activities against p-388 cell line used in the work.
+
+.
+substitution of b- and e-rings at 1 and 2 analogues:
+modiﬁcation 1
+
+modiﬁcation 2
+
+analogue
+
+b-ring
+
+e-ring
+
+experimental ic50
+
+analogue
+
+b-ring
+
+e-ring
+
+experimental ic50
+
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+
+i
+ii
+iii
+iii
+iii
+iv
+v
+vi
+i
+i
+i
+i
+i
+i
+
+vii
+vii
+vii
+viii
+xii
+vii
+vii
+vii
+viii
+ix
+x
+xi
+xii
+vii
+
+100
+80
+100
+39
+2.0
+29
+100
+63
+40
+100
+100
+60
+100
+71
+
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+
+i
+ii
+iii
+iii
+iii
+iv
+v
+vi
+i
+i
+i
+i
+i
+i
+
+vii
+vii
+vii
+viii
+xii
+vii
+vii
+vii
+viii
+ix
+x
+xi
+xii
+vii
+
+0.0018
+0.0017
+4.9
+0.76
+0.77
+2.6
+0.0041
+0.92
+0.048
+0.0053
+0.13
+0.0053
+0.030
+0.028
+
+3. results and discussions
+the original crystal structure of tubulin– xxxd2980xxx 
+complex pdb_id:1sa1 (pdb id:1sa1) was used to validate the
+glide-xp docking protocol. this was done by moving the cocrystallized  xxxd2980xxx  ligand outside of active site and then
+docking it back into the active site. the top 10 conﬁgurations after
+docking were taken into consideration to validate the result
+
+(table 2). the rmsd was calculated for each conﬁguration in
+comparison to the co-crystallized  xxxd2980xxx  and the value
+was found to be in between 0.02 and 0.85 å. whereas the rmsd
+value calculated out of 10 accepted poses for each conﬁguration
+was found in between 0.59 and 1.33 å. this revealed that the
+docked conﬁgurations have similar binding positions and orientations within the binding site and are similar to the crystal
+structure. the best-docked structure, which is the conﬁguration
+
+m.a. alam, p.k. naik / journal of molecular graphics and modelling 27 (2009) 930–943
+
+936
+
+table 2
+the rmsd and docking score from the docking simulation of 10 lowest
+conﬁgurations of co-crystal  xxxd2980xxx  in tubulin protein (1sa1).
+conﬁguration
+
+glide score
+
+dgscorea
+
+rmsd (å)b
+
+rmsd (å)c
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+10.26
+10.20
+9.80
+9.72
+9.50
+9.25
+8.78
+8.47
+7.87
+7.72
+
+0
+0.06
+0.46
+0.54
+0.76
+1.01
+1.48
+1.79
+2.39
+2.54
+
+0.85
+0.02
+0.68
+0.57
+0.04
+0.04
+0.80
+0.13
+0.03
+0.07
+
+0.60
+0.86
+1.33
+1.26
+0.67
+0.67
+0.59
+1.02
+0.79
+0.90
+
+a
+
+dgscore = ei – elowest.
+
+b
+
+rmsd = rmsd between docked and crystallographic  xxxd2980xxx  structure.
+c
+rmsd = rmsd between docked poses corresponding to each conﬁguration.
+
+with the lowest glide score, is compared with the crystal structure
+and is shown in fig. 1. these docking results illustrate that the bestdocked  xxxd2980xxx  complex agrees well with its crystal
+structure and that glide-xp docking protocol successfully reproduces the crystal tubulin– xxxd2980xxx  complex. the binding
+modes of ﬁve superimposed ligands from each class within
+ xxxd2980xxx  binding site are given in fig. 2(a–d). in this ﬁgure
+we can observe that all the ligands were well ﬁtted the deﬁned
+binding pocket.
+we have applied the sgb–lie method to a training set of 76
+ xxxd2980xxx  analogues to build a binding afﬁnity model that
+was then used to compute the free energy of binding and predicted
+pic50 for a test set of 36 analogues. further the sgb–lie model
+developed was validated using 12 new  xxxd2980xxx  analogues
+for which the experimental tubulin polymerization inhibition was
+known. the training set for building the binding afﬁnity model was
+comprised of four subsets of  xxxd2980xxx  analogues as
+mentioned in tables 1a–1d. for all the four subsets included in
+the training set the experimental ic50 values against the cell lines
+p388 are available. with the wide range of difference between the
+ic50 values and the large diversity in the structures, the combined
+set of 76 ligands is ideal to be considered as a training set, as the set
+does not suffer from bias, due to the similarity of the structures.
+also, the training set containing 76 analogues contains enough
+data points not to suffer from over parameterization by the lie
+model. training set compounds were docked into the colchicine
+binding site of tubulin protein and the sgb–lie calculations were
+performed using the liaison module. the simulations were
+performed both for the ligand-free and ligand-bound state. the
+various interaction energy terms described in the methods were
+collected and are presented in tables 3a–3d. the largest
+contribution for the binding energy comes from the van der
+waals interactions. this is obvious as the  xxxd2980xxx 
+analogues used in the study are mostly lipophilic molecules that
+interact favorably with a binding cavity lined with hydrophobic
+residues. the hydrophobic center that is located in the middle of
+trimethoxyphenyl moiety of  xxxd2980xxx  is surrounded by leu
+b242, ala b250, leu b255, ala b316, val b318 and ile b378 residues
+(fig. 2(a–d)). the cavity energy term in the bound state is smaller
+(1.45–2.07 kcal/mol) than in the free state (3.18–7.62 kcal/mol) for
+all the compounds, as there is less energy penalty for creating a
+cavity in solvent when part of the ligand is buried into the
+hydrophobic binding site. the reaction ﬁeld energy term in the free
+state lies in a very narrow range (22.41 to 28.73 kcal/mol) for all
+compounds, but it varies in a wide range in the bound state (6.37
+to 31.33 kcal/mol) as the solvent accessible surface area varies
+with ligand structure in the bound form. the energy values in
+tables 3a–3d were used to ﬁt eq. (2) using the gaussian
+
+fig. 1. superposition of all the docked conﬁgurations of  xxxd2980xxx  on crystal
+structure (red-stick). rmsd (heavy atoms) = 0.02–0.85 å.
+
+elimination method. the values obtained for the three ﬁtting
+parameters, a, b and g are – 0.141, 0.093 and 1.071,
+respectively. the large value of the cavity energy term signiﬁes
+the fact that binding is largely driven by the ligand’s ability to bury
+itself in the binding cavity, which is understandable given that
+most of the ligands are highly hydrophobic in nature. even though
+the r value is low, vdw interactions contribute signiﬁcantly toward
+the free energy of binding due to the large magnitude of the vdw
+interaction term. in tables 3a–3d, the experimental free energy
+values obtained from the rtic50 and the free energy values
+estimated using sgb–lie ﬁtting parameters are presented. the root
+mean square error (rmse) between the experimental values and
+the values obtained by the ﬁt was 0.48 kcal/mol, which is an
+indicator of the robustness of the ﬁt. the quality of the ﬁt can also
+be judged by the value of the squared correlation coefﬁcient (r2),
+which was 0.871 for the training set. fig. 3 graphically shows the
+quality of ﬁt. the statistical signiﬁcance of the sgb–lie model is
+evaluated by the correlation coefﬁcient r, standard error s, f-test
+value, signiﬁcance level of the model p, leave-one-out crossvalidation coefﬁcient q2 and predictive error sum of squares press.
+
+dgbind ¼ ð0:141þhu ele i þ ð0:093þhu vdw i þ ð1:07þhu cav i
+
+(3)
+
+2
+¼ 0:864, s = 0.598, f = 166.8, p = 0.0001,
+(n = 76, r2 = 0.871, rpred
+q2 = 0.865, press = 28.05)
+the sgb–lie model developed in this study is statistically
+(q2 = 0.865, r2 = 0.871, f = 166.77) best ﬁtted and consequently
+used for prediction of cytotoxic activities (pic50) of training and
+test sets of molecules as reported in tables 3a–3d and 4. the
+predicted activity calculated from free energy of binding is
+satisfactory with small deviation compared with experimental
+activity of training and test sets of molecules. the calculated free
+energy of binding represents the experimental activity well.
+theoretically, feb can be partitioned into several components:
+vdw, electrostatic and solvent accessible surface area [13]. in this
+
+m.a. alam, p.k. naik / journal of molecular graphics and modelling 27 (2009) 930–943
+
+937
+
+table 3a
+average electrostatic (ele), van der waals (vdw) and cavity (cav) energy terms as well as binding afﬁnity model calculations for the ﬁrst training subset inhibitors
+(tetralinelactone  xxxd2980xxx  analogues) using sgb–lie method.
+ligand
+
+huelei (kcal/mol)a
+
+huvdwi (kcal/mol)a
+
+hucavi (kcal/mol)a
+
+pic50,exptb
+
+dgbind,expt (kcal/mol)c
+
+dgbind,lie (kcal/mol)d
+
+pic50,prede
+
+1
+2
+3
+5
+7
+8
+9
+11
+13
+15
+16
+18
+19
+21
+23
+25
+26
+28
+29
+
+11.7
+12.4
+12.0
+10.5
+10.5
+13.7
+9.0
+11.4
+10.4
+13.9
+10.4
+10.6
+12.9
+11.5
+11.0
+11.5
+11.4
+10.5
+7.1
+
+41.4
+42.0
+44.7
+52.5
+48.5
+43.6
+35.9
+47.4
+49.2
+57.4
+53.4
+63.8
+58.9
+53.7
+57.8
+54.2
+49.4
+56.2
+58.6
+
+3.8
+4.3
+4.2
+3.8
+4.1
+3.8
+2.4
+3.8
+2.1
+3.8
+4.2
+2.3
+4.2
+3.5
+4.0
+3.7
+3.6
+2.9
+3.4
+
+1.921
+2.002
+2.002
+0.198
+1.217
+1.298
+1.217
+0.220
+0.359
+0.697
+0.997
+0.777
+0.257
+0.917
+0.359
+0.917
+1.892
+0.359
+0.359
+
+2.6
+2.7
+2.7
+0.3
+1.7
+1.8
+1.7
+0.3
+0.5
+0.9
+1.4
+1.1
+0.3
+1.2
+0.5
+1.2
+2.6
+0.5
+0.5
+
+1.9
+2.5
+2.0
+0.7
+1.3
+2.0
+0.5
+1.3
+0.8
+0.7
+1.0
+1.9
+0.8
+0.4
+0.5
+0.6
+0.8
+0.6
+0.8
+
+1.413
+1.810
+1.483
+0.542
+0.977
+1.471
+0.363
+0.960
+0.581
+0.509
+0.755
+1.391
+0.618
+0.269
+0.355
+0.449
+0.623
+0.479
+0.593
+
+a
+huelei, huvdwi and hucavi energy terms represents the ensemble average of the energy terms calculated as the difference between bound and free state of ligands and its
+environment.
+b
+pic50 refers to the experimental predicted cytotoxic activity using p388 cell line and is calculated as pic50 = log ic50.
+c
+dgbind,expt refers to free energy of binding for tubulin inhibition and is computed using the relationship: dgbinding  2.303rtpic50,expt, where 298 k is used in the work
+for temperature t.
+d
+dgbind,lie refer to the absolute free energy values obtained using sgb–lie method.
+e
+pic50, pred refers to predicted cytotoxic activity of ligands and is estimated using the relationship: pic50pred = (dgbind,lie/2.303rt).
+
+table 3b
+average electrostatic (ele), van der waals (vdw) and cavity (cav) energy terms as well as binding afﬁnity model calculations for the second training subset inhibitors (nonlactonic tetralines  xxxd2980xxx  analogues) using sgb–lie method.
+ligand
+
+hueleia (kcal/mol)
+
+huvdwia (kcal/mol)
+
+hucavia (kcal/mol)
+
+pic50,exptb
+
+dgbind,exptc (kcal/mol)
+
+dgbind,lied (kcal/mol)
+
+pic50,prede
+
+30
+32
+33
+34
+36
+37
+38
+40
+41
+42
+44
+45
+46
+48
+49
+51
+52
+54
+55
+56
+57
+59
+60
+62
+64
+65
+66
+68
+69
+70
+
+8.3
+6.8
+9.0
+7.9
+11.8
+14.3
+11.8
+10.3
+11.4
+6.6
+9.2
+7.6
+8.0
+9.2
+11.8
+12.5
+8.3
+11.0
+11.4
+12.3
+14.0
+14.5
+13.3
+11.1
+12.1
+14.8
+13.2
+14.8
+12.7
+6.9
+
+44.4
+54.0
+61.8
+52.6
+57.2
+46.7
+42.4
+51.0
+44.8
+51.4
+48.0
+48.5
+57.0
+56.8
+50.7
+46.8
+47.0
+55.5
+59.4
+54.1
+51.9
+52.1
+46.4
+59.2
+54.2
+51.8
+53.7
+56.2
+59.5
+55.4
+
+2.8
+2.1
+3.1
+2.2
+2.8
+4.4
+3.7
+1.7
+4.3
+2.2
+1.8
+1.8
+2.2
+1.7
+3.3
+4.0
+2.8
+2.8
+2.1
+2.2
+4.7
+4.4
+3.3
+2.8
+2.7
+4.8
+4.2
+4.3
+2.6
+2.4
+
+0.161
+1.151
+0.836
+0.953
+0.616
+1.012
+0.719
+1.012
+0.924
+0.968
+0.851
+0.990
+1.181
+1.364
+0.015
+0.653
+0.257
+0.557
+1.181
+0.763
+1.489
+0.763
+0.323
+0.733
+0.477
+1.034
+0.462
+0.528
+0.777
+1.012
+
+0.2
+1.6
+1.1
+1.3
+0.8
+1.4
+1.0
+1.4
+1.3
+1.3
+1.2
+1.3
+1.6
+1.9
+0.0
+0.9
+0.3
+0.8
+1.6
+1.0
+2.0
+1.0
+0.4
+1.0
+0.6
+1.4
+0.6
+0.7
+1.1
+1.4
+
+0.0
+1.8
+1.2
+1.4
+0.7
+2.4
+1.8
+1.4
+2.1
+1.5
+1.2
+1.5
+1.8
+2.1
+0.5
+1.7
+0.1
+0.6
+1.7
+0.9
+2.2
+1.9
+1.1
+0.9
+0.4
+2.4
+1.3
+1.5
+0.9
+1.6
+
+0.022
+1.335
+0.854
+1.040
+0.482
+1.744
+1.288
+1.053
+1.548
+1.097
+0.867
+1.098
+1.340
+1.545
+0.356
+1.221
+0.100
+0.426
+1.242
+0.663
+1.632
+1.428
+0.808
+0.656
+0.290
+1.789
+0.989
+1.122
+0.669
+1.143
+
+a
+huelei, huvdwi and hucavi energy terms represents the ensemble average of the energy terms calculated as the difference between bound and free state of ligands and its
+environment.
+b
+pic50 refers to the experimental predicted cytotoxic activity using p388 cell line and is calculated as pic50 = log ic50.
+c
+dgbind,expt refers to free energy of binding for tubulin inhibition and is computed using the relationship: dgbinding  2.303rtpic50,expt, where 298 k is used in the work
+for temperature t.
+d
+dgbind,lie refer to the absolute free energy values obtained using sgb–lie method.
+e
+pic50, pred refers to predicted cytotoxic activity of ligands and is estimated using the relationship: pic50pred = (dgbind,lie/2.303rt).
+
+m.a. alam, p.k. naik / journal of molecular graphics and modelling 27 (2009) 930–943
+
+938
+
+table 3c
+average electrostatic (ele), van der waals (vdw) and cavity (cav) energy terms as well as binding afﬁnity model calculations for the third training subset inhibitors
+(pyrazolignans and isoxazolignans  xxxd2980xxx  analogues) using sgb–lie method.
+ligand
+
+hueleia (kcal/mol)
+
+huvdwia (kcal/mol)
+
+hucavia (kcal/mol)
+
+pic50,exptb
+
+dgbind,exptc (kcal/mol)
+
+dgbind,lied (kcal/mol)
+
+pic50,prede
+
+71
+73
+74
+75
+77
+78
+80
+82
+84
+
+11.8
+5.6
+9.7
+9.5
+11.2
+5.8
+4.4
+9.6
+10.8
+
+47.1
+50.8
+53.0
+55.3
+65.4
+50.6
+44.5
+63.2
+47.3
+
+2.4
+2.7
+3.2
+3.4
+3.4
+2.1
+2.7
+2.8
+2.3
+
+0.565
+0.726
+0.660
+0.726
+0.909
+1.012
+0.623
+0.924
+0.653
+
+0.8
+1.0
+0.9
+1.0
+1.2
+1.4
+0.8
+1.3
+0.9
+
+0.2
+1.0
+0.1
+0.1
+0.8
+1.6
+0.6
+1.5
+0.4
+
+0.117
+0.725
+0.095
+0.089
+0.592
+1.198
+0.477
+1.112
+0.328
+
+a
+huelei, huvdwi and hucavi energy terms represents the ensemble average of the energy terms calculated as the difference between bound and free state of ligands and its
+environment.
+b
+pic50 refers to the experimental predicted cytotoxic activity using p388 cell line and is calculated as pic50 = log ic50.
+c
+dgbind,expt refers to free energy of binding for tubulin inhibition and is computed using the relationship: dgbinding  2.303rtpic50,expt, where 298 k is used in the work
+for temperature t.
+d
+dgbind,lie refer to the absolute free energy values obtained using sgb–lie method.
+e
+pic50, pred refers to predicted cytotoxic activity of ligands and is estimated using the relationship: pic50pred = (dgbind,lie/2.303rt).
+
+table 3d
+average electrostatic (ele), van der waals (vdw) and cavity (cav) energy terms as well as binding afﬁnity model calculations for the fourth training subset inhibitors (azapodophyllotoxin analogues) using sgb–lie method.
+ligand
+
+hueleia (kcal/mol)
+
+huvdwia (kcal/mol)
+
+hucavia (kcal/mol)
+
+pic50,exptb
+
+dgbind,exptc (kcal/mol)
+
+dgbind,lied (kcal/mol)
+
+pic50,prede
+
+85
+87
+89
+91
+92
+94
+95
+97
+99
+100
+102
+103
+105
+107
+108
+110
+111
+112
+
+6.1
+6.7
+4.9
+5.1
+8.9
+7.7
+6.3
+4.4
+12.9
+11.9
+5.2
+1.8
+9.8
+8.2
+8.6
+9.4
+8.0
+8.5
+
+60.6
+54.6
+48.2
+53.8
+54.0
+48.6
+50.3
+66.5
+41.8
+36.8
+52.3
+53.9
+45.9
+57.1
+37.0
+42.4
+48.9
+46.5
+
+3.0
+2.3
+3.3
+2.5
+2.2
+2.4
+2.8
+3.6
+4.3
+5.0
+4.5
+4.9
+4.6
+5.1
+4.6
+4.9
+5.6
+4.9
+
+1.951
+2.017
+0.521
+1.936
+1.826
+1.239
+1.085
+2.061
+2.420
+2.706
+0.345
+0.271
+1.635
+0.939
+2.405
+2.303
+2.185
+1.782
+
+2.7
+2.7
+0.7
+2.6
+2.5
+1.7
+1.5
+2.8
+3.3
+3.7
+0.5
+0.4
+2.2
+1.3
+3.3
+3.1
+3.0
+2.4
+
+1.6
+1.6
+0.2
+1.6
+1.4
+0.9
+0.7
+1.7
+2.6
+3.6
+0.7
+0.5
+2.0
+1.3
+2.7
+2.7
+2.5
+2.1
+
+1.150
+1.202
+0.164
+1.174
+1.023
+0.632
+0.542
+1.245
+1.895
+2.629
+0.486
+0.368
+1.494
+0.987
+2.008
+1.961
+1.870
+1.577
+
+a
+huelei, huvdwi and hucavi energy terms represents the ensemble average of the energy terms calculated as the difference between bound and free state of ligands and its
+environment.
+b
+pic50 refers to the experimental predicted cytotoxic activity using p388 cell line and is calculated as pic50 = log ic50.
+c
+dgbind,expt refers to free energy of binding for tubulin inhibition and is computed using the relationship: dgbinding  2.303rtpic50,expt, where 298 k is used in the work
+for temperature t.
+d
+dgbind,lie refer to the absolute free energy values obtained using sgb–lie method.
+e
+pic50, pred refers to predicted cytotoxic activity of ligands and is estimated using the relationship: pic50pred = (dgbind,lie/2.303rt).
+
+study the sasa energy term has been replaced by the cavity energy
+term as proposed by zhou et al. [15].
+satisﬁed with the robustness of the binding afﬁnity model
+developed using the training set, we applied the lie model to the
+ xxxd2980xxx  analogues comprising the test set. the test set
+includes 36 compounds categorized into four subgroups as
+mentioned above in tables 1a–1d. the analogues comprising
+the test set were also obtained from different sources [29,33]. since
+the experimental values of ic50 for these inhibitors are already
+available, this set of molecules provides an excellent data set for
+testing the prediction power of the sgb–lie method for new
+ligands. table 4 presents the free energy values estimated for the
+36 test compounds for which experimental ic50 values were
+available to enable the accuracy check. the free energy values were
+estimated based on optimized sgb–lie parameters a, b and g from
+the training set. the overall rmse between the experimental and
+predicted free energy of binding values was 0.56 kcal/mol which is
+comparable to the level of accuracy achieved by the most accurate
+
+methods such as free energy perturbation. the squared correlation
+coefﬁcient between experimental and sgb–lie estimates for the
+free energy for the test set compounds is also signiﬁcant
+(r2 = 0.733). the estimated free energy values for the test set
+ligands are plotted against the experimental data in fig. 4. there is
+a close match between the experimental and lie free energy values
+of the ligands in the test set. the predicted cytotoxic activity
+estimated based on lie free energy is also very close to
+experimental cytotoxic activity for the test set (table 4).
+to evaluate the accuracy of the sgb–lie estimation for tubulin
+polymerization inhibition potencies, we have taken a separate data
+set called as validation set consisting of 12 analogues of
+ xxxd2980xxx  (table 5). colchicine and its two structural
+derivatives were also taken in the validation set (table 5) in view
+of that these compounds also  xxxd1740xxx  in the same binding
+site. their experimental activity and chemical structures were
+obtained from literature [34,35]. the experimental activity (ic50
+value) of these compounds obtained from in vitro study of tubulin
+
+m.a. alam, p.k. naik / journal of molecular graphics and modelling 27 (2009) 930–943
+
+939
+
+fig. 2. (a–d). superposition of  xxxd2980xxx  analogues (ﬁve analogues) belonging to (a) tetraline lactones, (b) non-lactonic tetralines, (c) pyrazoline and isoxazoline
+derivatives and (d) aza- xxxd2980xxx  derivatives within binding site of tubulin along with the co-crystal  xxxd2980xxx  (red color).
+
+fig. 3. free energy values estimated by the sgb–lie method for 76  xxxd2980xxx 
+analogues comprising the training set plotted against corresponding experimental
+data. the rms error is 0.481 kcal/mol between the two data sets for 76 ligands
+studied here.
+
+fig. 4. free energy values estimated by the sgb–lie method for 36  xxxd2980xxx 
+analogues comprising the test set plotted against corresponding experimental data.
+the rms error is 0.561 kcal/mol between the two data sets for 76 ligands studied
+here.
+
+m.a. alam, p.k. naik / journal of molecular graphics and modelling 27 (2009) 930–943
+
+940
+
+table 4
+average electrostatic (ele), van der waals (vdw) and cavity (cav) energy terms as well as binding afﬁnity model calculations for the test set using sgb–lie method.
+ligand
+
+hueleia (kcal/mol)
+
+huvdwia (kcal/mol)
+
+hucavia (kcal/mol)
+
+pic50,exptb
+
+dgbind,exptc (kcal/mol)
+
+dgbind,lied (kcal/mol)
+
+pic50,prede
+
+4
+6
+10
+12
+14
+17
+20
+22
+24
+27
+31
+35
+39
+43
+47
+50
+53
+58
+61
+63
+67
+72
+76
+79
+81
+83
+86
+88
+90
+93
+96
+98
+101
+104
+106
+109
+
+11.0
+9.2
+10.9
+13.7
+11.6
+11.9
+10.6
+10.2
+13.8
+12.4
+10.3
+9.4
+10.3
+13.8
+10.0
+10.3
+12.4
+14.3
+13.5
+13.5
+12.4
+1.8
+10.6
+7.8
+9.1
+10.4
+5.2
+7.4
+5.9
+2.8
+3.6
+2.7
+2.0
+2.1
+7.7
+6.3
+
+49.5
+44.9
+53.3
+53.7
+49.2
+46.7
+47.2
+52.2
+50.9
+62.7
+54.4
+54.1
+61.7
+53.0
+53.3
+46.9
+50.4
+49.0
+58.8
+58.5
+56.5
+42.8
+63.8
+49.3
+60.4
+44.8
+63.6
+59.0
+56.2
+52.7
+49.5
+47.8
+61.1
+46.0
+52.1
+52.0
+
+3.8
+3.3
+3.7
+2.4
+2.3
+3.0
+2.5
+3.5
+4.0
+3.3
+2.0
+2.2
+3.1
+3.4
+2.1
+1.5
+2.3
+3.9
+4.2
+3.8
+3.3
+2.5
+1.9
+2.7
+2.0
+2.4
+3.0
+2.8
+3.3
+2.8
+2.2
+2.3
+4.6
+3.5
+2.7
+5.1
+
+1.569
+1.217
+0.220
+0.257
+0.323
+0.638
+0.007
+0.961
+0.293
+1.078
+1.049
+0.961
+0.763
+0.066
+0.939
+0.939
+0.535
+0.587
+0.227
+0.037
+0.257
+0.623
+0.983
+0.689
+1.071
+0.601
+2.288
+1.819
+1.232
+1.731
+1.987
+1.870
+0.733
+0.403
+0.051
+1.159
+
+2.1
+1.7
+0.3
+0.3
+0.4
+0.9
+0.0
+1.3
+0.4
+1.5
+1.4
+1.3
+1.0
+0.1
+1.3
+1.3
+0.7
+0.8
+0.3
+0.0
+0.3
+0.8
+1.3
+0.9
+1.5
+0.8
+3.1
+2.5
+1.7
+2.4
+2.7
+2.5
+1.0
+0.5
+0.1
+1.6
+
+1.1
+0.7
+0.6
+0.5
+0.4
+0.6
+0.2
+0.3
+1.5
+0.6
+1.5
+1.4
+1.0
+0.6
+1.3
+1.3
+0.5
+1.6
+0.9
+0.6
+0.0
+1.1
+2.4
+0.6
+2.1
+0.1
+1.9
+1.4
+0.9
+1.5
+1.7
+1.6
+0.5
+0.2
+0.9
+1.5
+
+0.797
+0.512
+0.454
+0.366
+0.315
+0.447
+0.169
+0.238
+1.097
+0.408
+1.095
+1.009
+0.717
+0.477
+0.966
+0.948
+0.363
+1.187
+0.689
+0.428
+0.013
+0.790
+1.777
+0.446
+1.545
+0.073
+1.405
+1.030
+0.640
+1.073
+1.251
+1.187
+0.337
+0.137
+0.630
+1.099
+
+a
+huelei, huvdwi and hucavi energy terms represents the ensemble average of the energy terms calculated as the difference between bound and free state of ligands and its
+environment.
+b
+pic50 refers to the experimental predicted cytotoxic activity using p388 cell line and is calculated as pic50 = log ic50.
+c
+dgbind,expt refers to free energy of binding for tubulin inhibition and is computed using the relationship: dgbinding  2.303rtpic50,expt, where 298 k is used in the work
+for temperature t.
+d
+dgbind,lie refer to the absolute free energy values obtained using sgb–lie method.
+e
+pic50, pred refers to predicted cytotoxic activity of ligands and is estimated using the relationship: pic50pred = (dgbind,lie/2.303rt).
+
+table 5
+the validation set along with their experimental activity expressed as the ic50 value for tubulin polymerization inhibition (tpi).
+ligand
+
+name
+
+structure
+
+experimental activity
+
+1
+
+g4
+
+>50 m
+
+2
+
+dehydropodophyllotoxin
+
+>25 mm
+
+3
+
+deoxypodophyllotoxin
+
+0.5 mm
+
+4
+
+b-peltatin
+
+0.7 mm
+
+m.a. alam, p.k. naik / journal of molecular graphics and modelling 27 (2009) 930–943
+
+941
+
+table 5 (continued )
+ligand
+
+name
+
+structure
+
+experimental activity
+
+5
+
+anhydropodophyllol
+
+1.0 mm
+
+6
+
+ xxxd2980xxx  cyclic sulﬁde
+
+10 mm
+
+7
+
+40 -demethylpodophyllotoxin
+
+0.5 mm
+
+8
+
+ xxxd2980xxx 
+
+0.6 mm
+
+9
+
+deoxypodophyllotoxin cyclic ether
+
+0.8 mm
+
+10
+
+deoxypodophyllotoxin cyclopentane
+
+5.0 mm
+
+11
+
+a-peltatine
+
+0.5 mm
+
+12
+
+40 -demethyldeoxypodophyllotoxin
+
+0.2 mm
+
+13
+
+colchicine
+
+2.4 mm
+
+14
+
+3-(ethoxycarbonyl)-3-demethylthiocolchicine
+
+1.4 mm
+
+15
+
+3-(butoxycarbonyl)-3-demethylthiocolchicine
+
+1.4 mm
+
+m.a. alam, p.k. naik / journal of molecular graphics and modelling 27 (2009) 930–943
+
+942
+
+table 6
+lie ﬁtting, free energy values (dgbind kcal/mol) and predicted potencies (pic50), obtained from the sgb–lie method and experimental data for the validation set.
+ligand
+
+huelei (kcal/mol)a
+
+huvdwi (kcal/mol)a
+
+hucavi (kcal/mol)a
+
+tpi,expt (pic50 value)b
+
+dgbind,expt (kcal/mol)c
+
+dgbind,lie (kcal/mol)d
+
+tpipred (pic50 value)e
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+
+13.4
+14.0
+11.8
+12.1
+10.8
+8.3
+11.8
+11.6
+10.8
+10.7
+11.5
+14.1
+13.6
+15.1
+8.1
+
+46.3
+56.3
+60.1
+61.2
+58.5
+47.3
+63.7
+56.2
+57.4
+55.7
+60.7
+63.4
+53.4
+67.1
+56.3
+
+4.3
+4.1
+3.3
+3.6
+3.5
+3.5
+3.5
+3.2
+4.0
+2.5
+4.0
+4.2
+6.0
+6.0
+6.1
+
+7.699
+1.398
+0.301
+0.155
+0.000
+1.000
+0.301
+0.222
+0.097
+0.699
+0.301
+0.699
+0.380
+0.146
+0.146
+
+10.5
+1.9
+0.4
+0.2
+0.0
+1.4
+0.4
+0.3
+0.1
+0.9
+0.4
+0.9
+0.5
+0.2
+0.2
+
+2.2
+1.2
+0.1
+0.1
+0.2
+0.9
+0.0
+0.3
+0.4
+1.0
+0.2
+0.6
+3.4
+2.4
+2.5
+
+1.588
+0.905
+0.072
+0.078
+0.117
+0.638
+0.007
+0.241
+0.292
+0.711
+0.185
+0.429
+2.474
+1.751
+1.809
+
+a
+huelei, huvdwi and hucavi energy terms represents the ensemble average of the energy terms calculated as the difference between bound and free state of ligands and its
+environment.
+b
+pic50 refers to the experimental predicted ic50 value for tpi and is calculated as pic50 = log ic50.
+c
+dgbind,expt refers to binding free energy for tubulin–analogue interaction and is computed using the relationship: dgbinding  2.303rtpic50,expt, where 298 k is used in
+the work for temperature t.
+d
+dgbind,lie refer to the absolute binding free energy values obtained using sgb–lie method.
+e
+pic50,pred refers to predicted ic50 value for tpi based on sgb–lie method and is estimated using the relationship: pic50pred = (dgbind,lie/2.303rt).
+
+polymerization inhibition (tpi). for all the compounds excluding
+colchicine and its two derivatives, sgb–lie predictions produce
+exactly the same trend for tubulin polymerization inhibition, even
+though the exact magnitudes of these values do not match very
+well to experimental values (table 6).  xxxd2980xxx  competitively inhibit the binding of colchicine to tubulin [36], implying
+that it bind to tubulin at the same site. the structural feature of
+ xxxd2980xxx  that share with colchicine is the trimethoxyphenyl moiety. for colchicine and  xxxd2980xxx , it has been
+suggested that the binding sites for the two drugs do not
+completely overlap, with the trimethoxyphenyl rings of the agents
+binding in the same site on the tubulin heterodimer [37,38]. harr
+et al. [34] suggested that the trimethoxyphenyl rings of the two
+drugs were situated in different regions of space, nearly orthogonal
+to each other. this revealed that these rings may bind to different
+regions of tubulin at the colchicine binding site. the rmse between
+the experimental and predicted binding free energy was 1.32 kcal/
+mol. for compound g4 the rmse is more than 1.29 kcal/mol.
+excluding g4 from the data set the rmse for the rest of the 11
+compounds is 0.29 kcal/mol, which means that the sgb–lie
+modeling was able to predict the binding free energy of the 11
+compounds within 0.29 kcal/mol, which is comparable to the level
+of accuracy achieved by the most accurate methods, such as free
+energy perturbation.
+4. conclusion
+we have demonstrated that the sgb–lie method can be applied
+to estimate the binding free energy with a high level of accuracy for
+a diverse set of  xxxd2980xxx  analogues with tubulin. the
+magnitude of free energy changes upon binding of these analogues
+to tubulin have directly correlated with the experimental potency
+of these inhibitors. despite the limitation imposed by the
+insufﬁcient sampling inherent in the energy minimization protocol, the method has reproduced experimental data with reasonably
+small error for the majority of  xxxd2980xxx  analogues. using
+lie methodology, we have been able to verify the experimental
+observation that derivatized  xxxd2980xxx  compounds, with
+their c-ring removed (as in g4) or unsaturated (as in dehydropodophyllotoxin), have inhibition potencies reduced. when the cring’s substituent was removed as in deoxypodophyllotoxin or
+substituted to b-ring as in b-peltatin, the resulting analogues were
+
+still a potent inhibitor. this indicated that the three-dimensional
+conformation of the c-ring and the resulting conformational
+inﬂuence on the d-ring is important for interaction with tubulin.
+this concurs with the ﬁnding that sterioisomers like epipodophyllotoxin are much less potent. the decreased potency of lactone
+d-ring analogues was also usually predicted by sgb–lie model.
+few analogues with modiﬁcations on the e-ring have been tested
+in vitro for tpi. removal of the 40 -methyl to give the phenol results
+in a small increase in potency. an increase in potency is also seen
+when the c-ring hydroxyl is moved to ring b: a-peltatin is slightly
+more potent than b-peltatin. the inﬂuences of these structural
+modiﬁcations were correctly predicted by sgb–lie model developed in the study. however, the sgb–lie predictions could not
+produce exactly the same trend of tubulin polymerization
+inhibition for the colchicine and two of its structural derivatives.
+this is obvious as the mode of interaction of colchicine is different
+at the colchicine binding site of tubulin than that of  xxxd2980xxx . it was suggested that the trimethoxyphenyl rings of the two
+drugs were bind to different regions of tubulin at the colchicine
+binding site.  xxxd2980xxx  is well known for its antitumor
+activity. it has better tubulin polymerization inhibition in
+comparison to colchicine. however, the clinical application of it
+and its analogues in the treatment of cancer has been limited by
+severe toxic side effects during administration of the drugs. with a
+view to achieving greater therapeutic efﬁciency many  xxxd2980xxx  analogues have been isolated and via molecular manipulation, a large number of semisynthetic derivatives have been
+synthesized. however, new ﬁndings related to their activities,
+mechanism of action and pharmacological properties have been
+unexplored. the interaction of colchicine with tubulin is ‘irreversible’ and temperature-sensitive.  xxxd2980xxx  binds faster
+than colchicine and the binding is reversible and less temperaturesensitive which makes them more useful in the ﬁeld of cancer
+therapy. the temporal and reversible binding of  xxxd2980xxx 
+with tubulin overcomes the problem of inhibiting the cell
+multiplication of normal cell. most of the toxic effects of the
+ xxxd2980xxx  and its derivatives are due to their scant
+selectivity between cancer and normal cells.
+moreover, the sgb–lie method is able to predict the binding
+free energy and cytotoxic activity of rationally designed  xxxd2980xxx  congeners with relative success. the difference in the
+exact magnitudes of estimated vs. experimental free energy of
+
+m.a. alam, p.k. naik / journal of molecular graphics and modelling 27 (2009) 930–943
+
+binding for compounds in the training set, test set and validation
+set may be due to the limitations imposed by inadequate sampling
+and force ﬁeld parametrization. in addition, the calculation of
+absolute binding free energy from experimental ic50 values for
+cytotoxicity obtained from the in vitro cell line is only an
+approximation. in practical the ic50 value of a drug molecule is
+dependent upon a number of factors including solubility,
+membrane permeability, p-glycoprotein activity against the
+compound, etc. however, the sgb–lie model developed is able
+to predict the binding energy of the validation set quite accurately
+in comparison to the binding kinetics in vitro. this may be the fact
+that tubulin is the most potential target for  xxxd2980xxx .
+further, the strong relationship between the experimental and
+predicted feb could be established by in vitro studies of all these
+ xxxd2980xxx  analogues with isolated tubulin. a detailed study
+on the sars for  xxxd2980xxx  analogues can throw light on the
+moieties and functional groups important in determining the
+inhibition potency. the close estimation of inhibition potencies of a
+wide range of structural derivatives for  xxxd2980xxx  establishes the sgb–lie methodology as an efﬁcient tool for screening
+novel compounds with very different structures. the mechanism
+of action of any drug is very important in drug development.
+generally, the drug compound binds with a speciﬁc target, a
+receptor, to mediate its effects. therefore, suitable drug–receptor
+interactions are required for high activity. understanding the
+nature of these interactions is very signiﬁcant and theoretical
+calculations, in particular the sgb–lie method, seem to be a proper
+tool for gaining such understanding. the results obtain will give
+information on how the chemical structure of the drug should be
+modiﬁed to achieve suitable interactions and for the rapid
+prediction and virtual prescreening of anti-tumor activity. this
+will lead to new proposals regarding possible improvements to the
+therapeutic indices of podophyllotoxins. compared to the empirical methods, such as scoring function approaches, the lie method
+is more accurate due to the semiempirical approach adopted in
+which experimental data are used to build the binding afﬁnity
+model. the sgb–lie method seems promising when compared to
+the fep or thermodynamic integration (ti) methods in achieving
+comparable accuracy with must faster speed even for structurally
+very different ligands.
+references
+[1] k.h. downing, e. nogales, tubuline structure: insight into microtubule properties
+and functions, curr. opin. struct. biol. 8 (1998) 785–791.
+[2] k.h. downing, e. nogales, new insight into microtubules structure and function
+from the atomic model of tubuline, eur. biophys. j. 27 (1998) 431–436.
+[3] a. jordan, j.a. hadﬁeld, n.j. lawrence, a.t. mcgown, tubuline as a target of
+anticancer drugs: agents which interact with the mitotic spindle, med. res.
+rev. 18 (1998) 259–296.
+[4] g.m. cragg, d.j. newman, a tale of two tumor targets: topoisomerase i and
+tubuline. the wall and wani contribution to cancer chemotherapy, j. nat. prod.
+67 (2004) 259–296.
+[5] j.t. huzil, j.k. chik, g.w. slysz, h. freedman, j. tuszynski, r.e. taylor, d.l. sackett,
+d.c. schriemer, a unique mode of microtubule stabilization induced by peloruside
+a, j. mol. biol. 378 (2008) 1016–1030.
+[6] j.a. snyder, r.j. mcintosh, biochemistry and physiology of microtubules, ann. rev.
+biochem. 45 (1976) 699–720.
+[7] r.l. margolis, l. wilson, opposite end assembly and disassembly of microtubules
+at steady state in vitro, cell 13 (1978) 1–8.
+[8] f. cortese, b. bhattacharyya, p. wolff,  xxxd2980xxx  as a probe for the colchicine binding site of tubulin, j. biol. chem. 252 (1977) 1134–1140.
+
+943
+
+[9] d. ayres, c. loike, j.d. in lignans, chemical biological and clinical properties,
+cambridge university press, cambridge, 1990.
+[10] c.m. lin, e. hamel, effects of inhibitors of tubulin polymerization on gtp hydrolysis, j. biol. chem. 256 (1981) 9242–9245.
+[11] r.b.g. ravelli, b. gigant, p.a. curmi, i. jourdain, s. lachkar, a. sobel, m. knossow,
+insight into tubulin regulation from a complex with colchicine and a stathminlike domain, nature 428 (2004) 198–202.
+[12] j.m. schilstra, r.s. martin, m.p. bayley, the effect of  xxxd2980xxx  on microtubule dynamics, j. biol. chem. 264 (1989) 8827–8834.
+[13] j. åqvist, c. medina, j.e. samuelsson, a new method for predicting binding afﬁnity
+in computer-aided drug design, protein eng. 7 (1994) 385–391.
+[14] j. carlsson, m. andér, m. nervall, j. åqvist, continuum solvation models in the
+linear interaction energy method, j. phys. chem. b 110 (24) (2006) 12034–12041.
+[15] r. zhou, r.a. frienser, a. ghosh, r.c. rizzo, w.l. jorgensen, r.m. levy, new linear
+interaction method for binding afﬁnity calculations using a continuum solvent
+model, j. phys. chem. b. 105 (2001) 10388–10397.
+[16] t. hansson, j. åqvist, estimation of binding free energies for hiv proteinase
+inhibitors by molecular dynamics simulations, protein eng. 8 (1995) 1137–1145.
+[17] firstdiscovery 2.7, 2.7 ed.; schrödinger inc.: portland, 2004.
+[18] liaison, version 4.0, schrödinger, llc, new york, ny, 2005.
+[19] schrodinger l. l.c., http://www.schrodinger.com (accessed: 24. 04. 2007).
+[20] i. jardine, in: j.m. cassady, j.d. douras (eds.), anticancer agents on natural
+product models, academic press, new york, 1980, , chapter 9.
+[21] s.g. weiss, w. tin-wa, a. von wartburg, h.j. stahelin, potential anticancer agents
+ii: antitumor and cytotoxic lignans from linum album (linaceae), j. pharm. sci. 64
+(1975) 95–98.
+[22] a. san feliciano, j.m. miguel del corral, m. gordaliza, m.a. castro, acetylated
+lignans form juniperus sabina, phytochemistry 28 (1989) 659–660.
+[23] a. san feliciano, m. gordaliza, j.m. miguel del corral, m.a. castro, m.d. garcı́agrávalos, p. ruiz- lázaro, antineoplastic and antiviral activities of some cyclolignans, planta med. 59 (1993) 246–249.
+[24] j.m. miguel del corral, m. gordaliza, m.a. castro, l.j. morales, j.l. lópez, a. san
+feliciano, methyl ethers of  xxxd2980xxx -related cyclolignans, j. nat. prod. 58
+(1995) 870–877.
+[25] j.c. doré, c. viel, n. pageot, m. gordaliza, m.a. castro, j.m. miguel del corral, a. san
+feliciano, multivariate analysis approach to antineoplastic and antiviral structure-activity relationships to a series of podophyllotoxins, j. pharm. belg. 51
+(1996) 9–18.
+[26] m. gordaliza, g.t. faircloth, m.a. castro, j.m. miguel del corral, m.l. lópezvázquez, a. san feliciano, immunosuppressive cyclolignans, j. med. chem. 39
+(1996) 2865–2868.
+[27] m. gordaliza, j.m. miguel del corral, m.a. castro, m.l. lópez-vázquez, a. san
+feliciano, m.d. garcı́a grávalos, a. carpy, synthesis and evaluation of pyrazolignans. a new class of cytotoxic agents, bioorg. med. chem. 3 (1995) 1203–1210.
+[28] m. gordaliza, j.m. miguel del corral, m.a. castro, m.d. garcı́a-grávalos, h.
+broughton, a. san feliciano, cytotoxic cyclolignans related to  xxxd2980xxx ,
+ii farmaco 56 (2001) 297–304.
+[29] y. hitotsuyanagi, m. fukuyo, k. tsuda, m. kobayashi, a. ozeki, h. itokawa, k.
+takeya, 4-aza-2, 3-dehydro-4-deoxypodophyllotoxin: simple aza- xxxd2980xxx  analogues possessing potent cytotoxicity, bioorg. med. chem. lett. 10
+(2006) 315–317.
+[30] m. marty, p. fumoleau, a. adenis, y. rousseau, y. merrouche, g. robinet, i. senac,
+c. puozzo, oral vinorelbine pharmacokinetics and absolute bioavailability study
+in patients with solid tumors, ann. oncol. 12 (11) (2001) 1643–1649.
+[31] a. aggarwal, a. kruczynski, a. frankfurter, j.j. correia, s. lobert, murine leukemia
+p388 vinorelbine-resistant cell lines are sensitive to vinﬂunine, invest. new drugs
+26 (2008) 319–330.
+[32] g.b. thomas, r.l. finny, in calculus and analytic geometry, 9th ed., addisonwesley, 2001.
+[33] m. gordaliza, m.a. castro, j.m. miguel del corral, a. san feliciano, antitumor
+properties of  xxxd2980xxx  and related compound, curr. pharm. des. 6 (2000)
+1811–1839.
+[34] e.t. haar, h.s. rosenkranz, e. hamel, b.w. day, computational and molecular
+modeling evaluation of structural for tubuline polymerization inhibition by
+colchicine site agent, bioorg. med. chem. 10 (1996) 1659–1671.
+[35] j.d. lokie, c.f. brewer, h. sternlicht, w.j. gensler, s.b. horwitz, structure activity
+study of the inhibition of microtubule assembly in vitro by  xxxd2980xxx  and
+its congeners, cancer res. 38 (1978) 2688–2693.
+[36] s.b. hastie, interactions of colchicine with tubulin, pharm. ther. 51 (1991) 377–
+401.
+[37] j.m. andreu, s.n. timasheff, interaction of tubulin with single ring analogues of
+colchicine, biochemistry 21 (3) (1982) 534–543.
+[38] j.m. andreu, s.n. timasheff, conformational states of tubulin liganded to colchicine, tropolone methyl ether, and  xxxd2980xxx , biochemistry 21 (1982)
+6465–6476.
+

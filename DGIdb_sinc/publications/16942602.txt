@@ -1,0 +1,1064 @@
+molecular microbiology (2006) 62(1), 45–56
+
+doi:10.1111/j.1365-2958.2006.05351.x
+first published online 30 august 2006
+
+succinic semialdehyde couples stress response to
+quorum-sensing signal decay in agrobacterium
+tumefaciens
+chao wang,1 hai-bao zhang,1 lian-hui wang1 and
+lian-hui zhang1,2*
+1
+institute of molecular and cell biology, 61 biopolis
+drive, singapore 138673.
+2
+department of biological science, national university
+of singapore, singapore 119260.
+summary
+quorum sensing (qs) signal decay in agrobacterium
+tumefaciens occurs in response to starvation or
+host signals. we have demonstrated that the
+g- xxxd2177xxx  (gaba) shunt metabolite links
+stress response to qs signal decay. mutation of the
+aldh gene encoding a succinic semialdehyde dehydrogenase ( xxxg138xxx ) that converts succinic semialdehyde (ssa) to  xxxd3251xxx  results in early
+expression of the signal degrading enzyme, attm.
+exogenous addition of ssa or its precursor gaba
+induces attm expression and abolishes ti plasmid
+conjugative transfer. ssa acts by binding to the
+repressor attj that regulates the attklm operon. attk
+encodes another  xxxg138xxx . the stress alarmone ppgpp
+and ssa modulates separately the expression of the
+two  xxxg138xxx  enzymes, which might control the intracellular ssa level and hence to switch on/off the
+qs signal decay system in response to environmental changes. these findings document for the
+first time a sophisticated signalling mechanism of
+the widely conserved gaba degradation pathway
+in prokaryotes.
+introduction
+agrobacterium tumefaciens increases its community
+infectivity by conjugal transfer of the virulence genes
+carried by the ti-plasmid from pathogenic cells to nonpathogenic members. ti-plasmid conjugal transfer of this
+bacterium is controlled by a cell-to-cell communication
+mechanism known as quorum sensing (qs), in which the
+two key components are the acylhomoserine lactone
+(ahl)-type qs signal, n-(3-oxo-octanoyl)-l-homoserine
+accepted 25 july, 2006. *for correspondence. e-mail lianhui@imcb.
+a-star.edu.sg; tel. (+65) 6586 9686; fax (+65) 6779 1117.
+
+© 2006 the authors
+journal compilation © 2006 blackwell publishing ltd
+
+lactone (3oc8hsl), and its cognate receptor, trar (piper
+et al., 1993; zhang et al., 1993). when reaching a threshold concentration, 3oc8hsl forms a complex with trar
+and induces the expression of genes controlling the
+ti-plasmid copy number and the ti-plasmid conjugation.
+(zhu and winans, 1999; qin et al., 2000; pappas and
+winans, 2003). most of these genes encode proteins and
+enzymes involved in conjugal dna replication and processing, synthesis of conjugal pili and formation of mating
+pairs (zhu et al., 2000).
+ti-plasmid transfer is a growth-phase-dependent
+process, initiating at the early exponential phase, maximizing at the mid-exponential phase, and diminishing
+when bacterial cells enter the stationary phase (tempé
+et al., 1978). the mechanism behind this growth-phasedependent phenomenon had not been elucidated until a
+recent study showed that the sharp decline in conjugation
+at the stationary phase is due to enhanced expression of
+attm (zhang et al., 2002). the attm gene encodes an
+ahl-lactonase responsible for hydrolysing ahl signals. in
+a. tumefaciens, attm, together with attk and attl, constitutes a transcriptional unit that is negatively regulated by
+an iclr-type repressor attj at the exponential phase. gel
+retardation analysis has shown that attj specifically binds
+to the attklm promoter. null mutation of attj abolishes
+ahl signal production and ti-plasmid conjugal transfer. at
+the stationary phase, the repression of attj is somehow
+relieved and attm enzyme activity is significantly
+increased, which accompanies the rapid decline in ahl
+signal accumulation and ti-plasmid transfer (zhang et al.,
+2002). subsequent analysis has revealed that the release
+of attj repression is induced by nutrient deprivation and
+mediated by the stress alarmone ppgpp (zhang et al.,
+2004). in addition, expression of the attm enzyme is also
+induced by contact with the host plant (rosen et al.,
+2004). these intriguing findings suggest that qs signal
+decay in a. tumefaciens represents a sophisticated
+stress-sensing and response mechanism. however, it is
+still not clear how ppgpp and the plant signal modulate
+the derepression of the qs signal decay system.
+the g-aminobutyrate (gaba) metabolic pathway is
+present in both eukaryotes and prokaryotes; the key
+metabolites include gaba and succinic semialdehyde
+(ssa). gaba is best known for its role in neurotransmis-
+
+46 c. wang, h.-b. zhang, l.-h. wang and l.-h. zhang
+sion in the mammalian brain (varju et al., 2001). defects
+in the gaba metabolism are associated with numerous
+clinical syndromes (gordon, 2004). in plants, gaba production is drastically enhanced in response to biotic and
+abiotic stresses, and appears to play an essential role in
+the defence against environmental stress (shelp et al.,
+1999; bouche and fromm, 2004). the biological functions
+of gaba and its metabolites are less clear in prokaryotes.
+recent studies showed that ssa and gaba could induce
+the expression of the attklm operon (carlier et al., 2004;
+chevrot et al., 2006), but the mechanism by which the two
+molecules regulating attklm expression is not fully
+understood. in this report, we find that the transposon
+insert mutation of aldh, which encodes a homologue of
+succinic semialdehyde dehydrogenase ( xxxg138xxx ), results
+in overexpression of the attklm operon. biochemical
+analysis confirms that aldh converts ssa to  xxxd3251xxx 
+(sa). addition of ssa and its precursor gaba, but not
+other structural analogues, drastically enhances attm
+activity. ssa functions by attenuating attj association with
+the attklm promoter. moreover, we find that aldh expression is downregulated at the stationary phase, which is
+mediated by the stress alarmone ppgpp. finally, we show
+that the attk encoded by the attklm operon, which is
+homologous to the  xxxg138xxx  encoded by aldh, functionally
+complements the aldh-deficient mutant when expressed
+constitutively. these findings have unveiled a key signalling role of gaba degradation pathway in a. tumefaciens
+in response to biotic and abiotic stresses.
+
+results
+null mutation of aldh encoding a homologue of  xxxg138xxx 
+results in overexpression of the attklm operon
+based on the observation that the expression of ahllactonase encoded by attm is tightly regulated in
+a. tumefaciens, we have previously generated a reporter
+strain a6(attklm::lacz), in which all three genes of the
+operon were disrupted because of the transcriptional
+fusion of lacz to the 5′ region of attk (zhang et al., 2004),
+for identification of the genetic components that control
+the expression of attklm operon. the reporter colonies
+show only a dim blue colour on a bm plate supplemented
+with xgal because the expression of the operon is
+repressed by attj when there are sufficient nutrients.
+using this reporter as the parental strain, we screened
+approximately 60 000 transposon mutants and identified
+a number of dark blue mutant colonies. sequence analysis of the potential mutants showed that there were eight
+dark blue mutants with tn5 inserted at the different locations of one open reading frame (orf) and its promoter
+region, in addition to 12 transposon insertion mutants of
+attj. the orf encodes a peptide of 483 amino acids with
+
+a deduced molecular mass of 51 704 da. a blast search
+showed that the peptide shared 97% identity with the
+peptide encoded by the aldh gene (atu3498, ncbi no.
+aal44311) of a. tumefaciens strain c58. aldh was annotated as a member of the aldehyde dehydrogenase family
+(wood et al., 2001), which includes aldehyde dehydrogenase (ec 1.2.1.3),  xxxg138xxx  (ec 1.2.1.16), and a few other
+members. a blast search showed that aldh is most
+similar to the annotated  xxxg138xxx  enzymes of nitrobacter
+hamburgensis (ncbi accession no. zp_00625337, 69%
+identity) and pseudomonas syringae (ncbi accession
+no. np_742487, 66% identity). the peptide is also similar
+to attk (42% identity), the first protein encoded by the
+attklm operon of a. tumefaciens. a recent study found
+that attk is a  xxxg138xxx  (carlier et al., 2004).
+to confirm that the attklm overexpression phenotype is
+due to tn5 insertion, we regenerated the aldh in frame
+deletion mutants in the reporter a6(attklm::lacz) and in
+wild-type a6 respectively. we also cloned the aldh coding
+region under the control of the lac promoter and generated the expression construct pla-aldh for complementation analysis. the results showed that deletion of aldh in
+strain a6(attklm::lacz) had no effect on bacterial growth
+(fig. 1a), but increased the attklm expression as indicated by b-galactosidase activity by more than eight times
+in comparison with the parental strain at the early stage of
+growth (before 18 h) (fig. 1b). complementation of the
+mutant with pla-aldh, which expressed aldh constitutively, repressed the attklm expression at the early
+growth stage as expected, but intriguingly, also abolished
+the stationary-phase-dependent expression pattern of
+attklm shown by its parental strain a6(attklm::lacz)
+(fig. 1b).
+similarly, deletion of aldh significantly boosted ahllactonase activity at the early stage (12 h, 16 h in fig. 1c),
+and complementation of the mutant with pla-aldh suppressed the attm expression to the basal level throughout
+the growth phases (fig. 1c). however, no significant
+increase of the ahl-lactonase activity was found at the
+stationary phase in the mutant a6(daldh) over the wildtype a6 (fig. 1c), which is in sharp contrast to the phenotypes of strain a6(attklm::lacz) and its aldh deletion
+mutant (fig. 1b).
+enzymatic oxidation of ssa to sa by aldh
+a blast search suggested that aldh might encode a
+ xxxg138xxx .  xxxg138xxx , an enzyme of the gaba degradation
+pathway, converts ssa into sa using nad or nadp as
+the cofactor. to test this possibility, we purified the recombinant aldh protein from escherichia coli. in trial experiments, we found that aldh was capable of catalysing ssa
+in the presence of nad, but much less efficiently with
+nadp. to determine the reaction product, ssa was
+
+© 2006 the authors
+journal compilation © 2006 blackwell publishing ltd, molecular microbiology, 62, 45–56
+
+ssa modulating qs signal decay 47
+those of the hexyl-amidated sa (hexyl-sa) standard
+(fig. 2a and b). in contrast, the control with denatured
+aldh did not show the specific peak at 13.2 min (fig. 2d).
+electrospray ionization mass spectrometry (esi-ms)
+analysis of the hplc fraction showed a strong quasimolecular (m-h) ion at an m/z of 200.2 (fig. 2e), which is the
+expected molecular mass of n-hexyl-succinamic acid
+(hexyl-sa) (fig. 2f). the results demonstrate that aldh
+possesses nad-dependent succinate semialdehyde
+dehydrogenase ( xxxg138xxx ) enzyme activity.
+ssa is a specific signal inducing attklm expression and
+inhibiting qs-dependent ti-plasmid conjugative transfer
+
+fig. 1. involvement of aldh in negative regulation of ahl-lactonase
+expression in a. tumefaciens.
+a. deletion of aldh does not affect bacterial growth in bm minimal
+medium: a6(attklm::lacz), circles; a6(attklm::lacz, daldh),
+triangles; a6(attklm::lacz, daldh, pla-aldh), squares.
+b. deletion of aldh drastically enhanced the attklm
+promoter-directed b-galactosidase activity. symbols:
+a6(attklm::lacz), circles; a6(attklm::lacz, daldh), triangles;
+a6(attklm::lacz, daldh, pla-aldh), squares.
+c. deletion of aldh significantly enhanced the ahl-lactonase
+activity at exponential growth phase. symbols: a6, circles;
+a6(daldh), triangles; a6(pla-aldh), squares. each value represents
+the mean of at least three replicates. bars indicate the standard
+deviations.
+
+reacted with aldh in the presence of nad and the reaction
+mixture was derivated with hexylamine. highperformance liquid chromatography (hplc) fractionation
+of the hexyl-amidated reaction mixture of aldh revealed a
+peak with a retention time of 13.2 min (fig. 2c) and
+maximal uv end absorbance at 198.1 nm, identical to
+
+the above findings are consistent with the previous report
+that ssa could trigger attklm expression in
+a. tumefaciens nopaline strain c58 (carlier et al., 2004).
+figure 3a shows that addition of ssa to the liquid culture
+of the octopine strain a6(attklm::lacz) also induced substantial increases in b-galactosidase activity, suggesting
+that the signalling mechanism is conserved in different
+types of a. tumefaciens strains. similarly, ssa significantly increased ahl-lactonase activity, particularly at the
+exponential phase (fig. 3b). further experiments showed
+ssa induction occurred in a dosage-dependent manner
+with an effective concentration starting from 50 mm and
+showing a maximum at about 1 mm (fig. s1). when the
+concentration of ssa was increased to about 15 mm, the
+chemical showed a detrimental effect on bacterial growth.
+we further tested whether other metabolites of the
+gaba degradation pathway, including gaba and sa,
+could
+also
+promote
+attklm
+transcription
+in
+a. tumefaciens. only gaba significantly enhanced the
+attklm expression (fig. s2a and b) with an effect paralleling that of ssa (fig. 3a and b). ssa is a member of the
+aldehyde group of compounds that are highly reactive
+reagents. for example, acetaldehyde can attack lysine
+residues to form a stable adduct (braun et al., 1995). to
+test whether ssa is a specific signal, we then tested 11
+other aldehyde derivatives but none showed ssa-like
+activity in a concentration range from 0.2 to 5 mm
+(fig. s3).
+we then determined the impact of ssa, gaba and aldh
+on ahl signal production and ti-plasmid conjugative
+transfer in a. tumefaciens. we used strain k588 in ahl
+signal assay because unlike a6, it is a conjugative constitutive strain producing readily detectable ahl signals in
+liquid culture (zhang et al., 2002). k588 rapidly accumulated the ahl signals in the supernatant at the exponential
+phase, but the signals sharply declined when cells
+entered the stationary phase (fig. 3c). in contrast, when
+ssa was added into the exponential-growth bacterial
+culture (12 h), ahl accumulation stopped and declined
+gradually (fig. 3c). exogenous addition of gaba showed
+
+© 2006 the authors
+journal compilation © 2006 blackwell publishing ltd, molecular microbiology, 62, 45–56
+
+48 c. wang, h.-b. zhang, l.-h. wang and l.-h. zhang
+fig. 2. demonstration that aldh possesses
+ xxxg138xxx  enzyme activity.
+a. hplc profile of standard sa derivated with
+hexylamine (retention time 13.2 min).
+b. uv spectrum of hexyl-sa.
+c. ssa was reacted with aldh enzyme and
+the reaction mixture derivated with
+hexylamine and separated in hplc. arrow
+indicates the fraction showing the same
+retention time (13.2 min) and uv spectrum as
+the standard hexyl-sa.
+d. hplc profile of the hexylamine product of
+ssa incubated with denatured aldh. au,
+arbitrary unit.
+e. esi-ms analysis of the fraction at 13.2 min
+in c.
+f. schematic presentation of analysis strategy
+used in this experiment and the
+corresponding chemical structures.
+
+the same effect as ssa (fig. s2c). moreover, aldh, which
+converts ssa to sa, when overexpressed in k588 by the
+introduced expression construct pla-aldh, abolished the
+ahl signal decay phenotype at the stationary phase
+(fig. 3c). in the conjugation experiment, as expected,
+addition of ssa or gaba to the induction medium of strain
+a6 blocked ti-plasmid transfer (less than 1 ¥ 10-9),
+whereas the a6 control without ssa and gaba transferred its ti-plasmid with a frequency of about 3 ¥ 10-5
+(fig. s4). these results imply that intracellular ssa
+content could be a key factor that determines the expression of the ahl signal decay system in a. tumefaciens.
+ssa interferes with attj binding to the attklm
+promoter in vitro
+our previous study showed that the protein level of attj
+remains constant at different growth stages of
+a. tumefaciens (zhang et al., 2004), which suggests that
+it is unlikely that the signal acts by changing the expression pattern of attj. the alternate possibility is that ssa
+might interfere with the binding of the attj repressor to the
+attklm promoter (pattklm). a gel retardation assay was
+conducted to test this possibility. gel retardation assays
+showed that optimal binding to a radioisotope-labelled
+pattklm dna promoter fragment was about 50:1 under
+
+the conditions used in this experiment (fig. 4a). using
+this ratio, we analysed the effect of ssa, sa and gaba on
+the attj–promoter interaction. the results shown in
+fig. 4b showed that ssa interfered with attj–pattklm
+complex formation in a dose-dependent manner (fig. 4b).
+in contrast, gaba and sa failed to disassociate the attj–
+pattklm complex even at a high concentration (fig. 4b).
+to understand how ssa interferes with the formation of
+the attj–pattklm complex, the possibility of ssa binding
+to attj was determined by using isothermal titration calorimetry (itc). figure 4c shows the typical titration calorimetry profile resulting from consecutive injection of 2 ml
+aliquots of 0.1–1 mm ssa to 100 mm attj solution at 28°c.
+the binding reaction is exothermic with a binding association constant ka equivalent to (2.77 ⫾ 0.54) ¥ 106 m-1, indicating that ssa binds to attj with a high affinity. gaba was
+also tested as a control but itc analysis did not reveal any
+binding reaction between gaba and attj (data not shown).
+aldh expression is negatively regulated by the ppgpp
+synthase rela
+given that ssa is the signal that counteracts the inhibition
+of attj on the attklm operon and this counteraction occurs
+when a. tumefaciens enters stationary phase, it is rational
+to speculate that the intracellular content of ssa might be
+
+© 2006 the authors
+journal compilation © 2006 blackwell publishing ltd, molecular microbiology, 62, 45–56
+
+ssa modulating qs signal decay 49
+
+fig. 3. ssa enhances ahl-lactonase activity and decreases ahl
+accumulation in a. tumefaciens.
+a. the attklm promoter-directed b-galactosidase activity of strain
+a6(attklm::lacz) without ssa induction (open symbols) or with
+ssa induction (filled symbols) at the exponential growth phase
+(12 h) and the stationary phase (24 h).
+b. the ahl-lactonase activity of a6 without ssa induction (open
+symbols) or with ssa induction (filled symbols) at the exponential
+and stationary stages.
+c. ahl accumulation in supernatants of strain k588 and its
+derivative overexpressing aldh. symbols: open triangle, k588 in
+bm medium; filled triangle, k588 in bm medium with ssa addition
+at 12 h; filled square, k588(pla-aldh). in the above experiments,
+ssa was added at a final concentration of 1 mm at the beginning
+of culture or at the time point indicated by arrow.
+
+significantly increased when the bacterial cells encounter
+nutritional stress. such a change could be caused either by
+overproduction of ssa or by decreased metabolism of ssa
+by aldh. the intriguing finding that constitutive expression
+of aldh, the enzyme metabolizing ssa, abolished the
+typical expression of the attklm operon at the stationary
+phase (fig. 1b) implies that aldh could be the cause. in
+
+fig. 4. ssa is the signal ligand interacting with transcriptional
+repressor attj.
+a. dna gel retardation analysis of specific binding of attj to the
+promoter of attklm (pattklm). lane 1, 32p-labelled pattklm probe;
+lane 2, the probe incubated with bovine  xxxg124xxx  (bsa) as a
+non-specific protein control. lanes 3–7, the probe was incubated
+with purified attj with increasing concentrations shown on the top.
+the final concentration of the probe used in this experiment was
+2 nm.
+b. ssa-dependent disassociation of attj–pattklm complex. lane
+1, probe only; lanes 2–5, the probe and attj were incubated with or
+without ssa as indicated; lanes 6 and 7, the probe and attj were
+incubated with 10 mm of sa and gaba respectively.
+c. itc analysis of ssa binding to attj. the upper panel shows the
+itc titration of 100 mm attj with 2 ml aliquots of 1 mm ssa in dpbs
+buffer, ph 7.3, at 28°c. the lower panel shows the binding
+isotherm for titration as described in the upper panel where the
+solid line is the best fit of the data to a one-site binding model.
+
+© 2006 the authors
+journal compilation © 2006 blackwell publishing ltd, molecular microbiology, 62, 45–56
+
+50 c. wang, h.-b. zhang, l.-h. wang and l.-h. zhang
+affected in an attk and aldh double mutant strain. furthermore, we showed that overexpression of attk in the double
+mutant a6(attklm::lacz, daldh) strongly inhibited the
+expression of the attklm operon (fig. 6b). in contrast,
+overexpression of attm from the same operon encoding an
+ahl lactonase had no effect on attklm expression
+(fig. 6b). thus, we conclude that a. tumefaciens has two
+ssa metabolic enzymes, i.e. aldh and attk, which are
+expressed at the exponential and stationary phase
+respectively.
+discussion
+fig. 5. regulation of aldh expression by ppgpp synthase rela in
+a. tumefaciens.
+a. rt-pcr analysis of aldh transcriptional expression in strain a6
+and its rela null mutant a6(rela::kanr). the rna samples were
+prepared at different time points of bacterial growth as indicated.
+b. western blot analysis of aldh expression at different growth
+stages of a6 and a6(rela::kanr) using aldh-specific antibody.
+
+in this study, we have used genetic, chemical and biochemical approaches to investigate the molecular mecha-
+
+silico analysis showed that aldh seems to have a typical
+s70-type promoter that directs gene expression in log
+phase. in agreement with the in silico promoter analysis,
+reverse transcription polymerase chain reaction (rt-pcr)
+analysis showed that the transcriptional expression of aldh
+was strong at the early growth stages of a. tumefaciens a6,
+declined at the transition to the stationary phase, and
+disappeared completely at the stationary phase (fig. 5a).
+considering that expression of the ppgpp synthase rela
+at the stationary phase is essential for induction of attklm
+(zhang et al., 2004), we determined whether abolishing
+rela expression could change the expression pattern of
+aldh. the results showed the rela null mutant
+a6(rela::kanr) expressed the aldh gene constitutively
+throughout, maintaining a similar transcriptional level at
+both the exponential and stationary phases (fig. 5a). furthermore, western blot confirmed similar contrasting
+expression patterns of aldh in the wild type and the rela
+mutant (fig. 5b), demonstrating that aldh expression
+is subjected to the negative regulation of rela in
+a. tumefaciens.
+attk is a functional homologue of aldh
+a previous study proposed that attk is a succinate semialdehyde dehydrogenase (carlier et al., 2004). to study
+whether attk also functions to digest ssa in a. tumefaciens cells, we compared the growth patterns of strain a6
+and its derivatives using ssa as the sole carbon source.
+the wild-type strain a6, the attk null mutant
+a6(attklm::lacz) and the aldh null mutant a6(daldh) displayed similar population density after growth for 2 days
+(fig. 6a). however, bacterial growth was dramatically
+
+fig. 6. attk is a functional  xxxg138xxx .
+a. double deletion of attk and aldh abolishes the growth of
+a. tumefaciens using ssa as the sole carbon source. strain a6 and
+its derivatives were inoculated in bm medium in which mannitol
+was replaced by 1 mm ssa. cell growth was monitored by
+measurement of optical density (od600) after incubation 24 h at
+28°c and shaking at 200 r.p.m.
+b. complementation of the aldh deletion mutant by attk. bacterial
+cells were grown in bm medium overnight and the b-galactosidase
+activity was determined. experiments were repeated three times
+and bars indicate the standard deviation.
+
+© 2006 the authors
+journal compilation © 2006 blackwell publishing ltd, molecular microbiology, 62, 45–56
+
+ssa modulating qs signal decay 51
+nism that couples the qs signal decay to generic stress
+response of a. tumefaciens. unexpectedly, the investigation led to the discovery of the signalling function of the
+gaba metabolites. the diverse physiological roles of the
+gaba metabolic pathway have been documented in
+mammalian and plant kingdoms, but little is known in
+prokaryotes except for its metabolic functions (dover and
+halpern, 1972; tian et al., 2005). the results from this
+study demonstrate that the enzymes of the gaba degradation pathway may not be present in prokaryotes purely
+for metabolic functions.
+ssa is the key signal coupling stress response to qs
+signal decay
+the negative transcription factor attj and the stress alarmone ppgpp synthase rela comprise the two important
+regulatory components controlling the expression of the
+qs signal decay system in a. tumefaciens. several lines
+of evidence from this study suggest that ssa plays a
+vital role in modulation of the qs signal decay system
+by transducing the upstream stress alarmone signal to
+modulate the repressor activity of the downstream regulator attj. first, transposon mutagenesis and deletion
+analysis showed that disruption of the aldh gene significantly increased the expression of attklm operon as
+well as the ahl-lactonase activity encoded by attm
+(fig. 1). biochemical analysis demonstrated that aldh
+encodes a nad-dependent  xxxg138xxx , which oxidizes ssa
+to generate sa (fig. 2). second, exogenous addition of
+ssa and its precursor gaba into the cell cultures considerably increases attklm transcription and ahllactonase activities, respectively, resulting in a sharp
+decrease in ahl qs signal accumulation and ti-plasmid
+conjugal transfer (fig. 3, figs s2 and s3). third, the gel
+retardation assay demonstrated that ssa, but not its
+precursor gaba or metabolic product sa, attenuates the
+binding ability of attj to the promoter of the attklm
+operon and prevents the formation of attj–pattklm
+complex (fig. 4). fourth, abundant expression of aldh
+occurs at the early growth stage but its product
+decreases sharply when bacterial cells enter the stationary phase (fig. 5), which explains the observed
+stationary-phase-dependent expression pattern of ahllactonase (zhang et al., 2002). moreover, this study has
+also established that the termination of aldh at the stationary phase is due to the activation of the stress alarmone synthase rela at the same growth stage (zhang
+et al., 2004), because in the null mutant of rela, aldh is
+expressed at a constant level throughout the bacterial
+growth phases (fig. 5). thus, our findings have
+unequivocally established that ssa is the key signal that
+couples the generic stress response to the qs signal
+decay in a. tumefaciens.
+
+why a. tumefaciens requires two differentially
+expressed  xxxg138xxx  enzymes?
+it is interesting to note that a. tumefaciens has two differentially expressed ssa metabolic enzymes, i.e. aldh and
+attk, occurring at the exponential and stationary phases
+respectively. in addition to their vital roles in ssa signalling as discussed later, these two periodically expressed
+enzymes may also serve to keep the intracellular ssa
+content within a subtle range. ssa is chemically active,
+and its accumulation might be toxic in all living organisms.
+we noted that external addition of ssa higher than 15 mm
+has a detrimental effect on bacterial growth. the existence of two ssa metabolic enzymes also explains the
+seemingly inconsistent findings in the first part of the
+results section, i.e. deletion of aldh in the reporter strain
+a6(attklm::lacz) significantly increased the attklm
+promoter-controlled b-galactosidase activity (fig. 1b),
+whereas deletion of the same gene in strain a6 had no
+significant effect on the same promoter-regulated ahllactonase activity at the stationary phase (fig. 1c). the
+answer to this puzzle becomes clear now because, in
+mutant a6(attklm::lacz;daldh), both ssa metabolic
+enzymes were mutated, while in a6(daldh), only one ssa
+metabolic enzyme was deleted; therefore, a higher
+amount of intracellular ssa could be accumulated in the
+former mutant than in the latter.
+more importantly, the findings from this study unveil an
+amazingly sophisticated signal regulatory mechanism that
+governs the on/off state of the qs signal decay pathway in
+a. tumefaciens (fig. 7). in this model, expression of aldh
+at the early growth stage prevents accumulation of ssa in
+the cytoplasm, thus, ahl-lactonase production is kept at
+the basal level because the attklm operon is tightly
+repressed by attj (zhang et al., 2002) (fig. 7a); when
+bacterial cells enter the stationary phase, a starvation
+signal induces the production of rela and accumulation of
+ppgpp; binding of ppgpp to rna polymerase (rnap)
+may destabilize the rnap-s70-promoter complexes and
+terminate the transcription of aldh, which in turn leads to
+accumulation of ssa; the accumulated ssa interacts with
+attj, dissociates the repressor from the attklm promoter,
+which leads to expression of ahl-lactonase (attm) (the
+qs signal decay system is now ‘on’) and rapid decay of
+the ahl qs signal (fig. 7b). remarkably, the attk gene of
+the attklm operon encodes a functional  xxxg138xxx  that
+can complement the function of aldh (fig. 6). the
+co-ordinated expression of attk and attm from the same
+operon at the stationary phase thus allows the qs signal
+decay system to return automatically to the original ‘off’
+state following elimination of ahl signals by the attmencoded ahl-lactonase, because attk encodes a functional ssa metabolic enzyme, which digests excessive
+ssa (fig. 7b).
+
+© 2006 the authors
+journal compilation © 2006 blackwell publishing ltd, molecular microbiology, 62, 45–56
+
+52 c. wang, h.-b. zhang, l.-h. wang and l.-h. zhang
+rnap that is induced under many stress conditions
+including starvation and can compete with the vegetative
+sigma factor s70 (hengge-aronis, 2002). in e. coli, rnap
+is composed of a core enzyme (e) and one of the seven
+sigma factors (s). in the stationary phase, downregulation
+of those genes expressed at the exponential growth
+phase is believed to occur through the effect of binding of
+ppgpp at the interface of the b- and b′-subunits of rnap
+(chatterji et al., 1998). binding of ppgpp destabilizes
+es70–promoter complexes, which facilitates formation of
+e–rpos complexes for initiating the transcription of
+stress-related genes (jishage et al., 2002). our previous
+data show that the ppgpp synthase rela is essential for
+the induction of the qs signal decay system at the stationary phase of a. tumefaciens, which is consistent with
+the general role of ppgpp as a stress alarmone. however,
+it was not clear how the attj transcriptional repressor
+could fit into the regulatory network of the alarmonemediated induction of attklm operon (zhang et al., 2004).
+the findings that ssa is the signal counteracting the
+inhibitory effect of attj (figs 3 and 4) and expression of
+the ssa oxidative enzyme aldh is subjected to the negative regulation of ppgpp synthase rela (fig. 5) have thus
+illustrated a new stress response signalling mechanism.
+agrobacterium tumefaciens and beyond: the role of the
+gaba degradation
+
+fig. 7. schematic presentation of the regulatory network for qs
+signal decay in a. tumefaciens. the genes located within the same
+locus are connected by solid lines and those located in different
+loci are indicated by dashed lines. a solid arrow indicates
+constitutive processes, and a dashed arrow suggests inducible
+processes.
+a. the qs signal decay system is ‘off’ at the bacterial exponential
+growth phase, in which cytosol ssa is constantly removed by aldh.
+accumulated ahl signals modulate the expression of qs  xxxd313xxx .
+b. the qs signal decay system is ‘on’ at the bacterial stationary
+phase. the stress alarmone ppgpp synthesized by rela interferes
+with the function of rna polymerase (rnap), stops expression of
+aldh, which results in accumulation of ssa. interaction of ssa with
+attj repressor activates the expression of attklm operon. attm
+degrades the ahl signal to acylhomoserine (ah) and qs stops.
+the excessive ssa is removed by attk, which gradually resets the
+qs decay system to the ‘off’ mode. exogenous gaba from the
+host plant can also activate the qs decay system by increasing the
+cytosol ssa pool through gaba-transaminase ( xxxg8xxx ).
+
+a stress response signalling pathway independent of
+the stress sigma factor rpos
+one intriguing puzzle in microbiology is how
+a-proteobacteria including a. tumefaciens, which does
+not have an rpos homologue (wood et al., 2001), could
+control the expression of the genes implicated in stress
+and starvation responses. rpos, encoded by rpos homologues in many bacterial species, is a sigma subunit of
+
+a recent study reported that the attklm operon of
+a. tumefaciens strain c58 could be activated by gamma
+butyrolactone (gbl), gamma hydroxybutyrate (ghb) and
+ssa (carlier et al., 2004). more recently, chevrot et al.
+(2006) showed that gaba is a plant signal that stimulates
+the inactivation of ahl qs signal by the agrobacterium
+lactonase attm. consistently, we found that gaba
+strongly induces the expression of the attklm operon at a
+level similar to ssa (fig. s2). unlike its metabolite ssa,
+gaba does not seem to interfere with the promoter
+binding activity of attj (fig. 4), suggesting that the
+observed induction activity of gaba is due to conversion
+to its metabolite ssa.
+succinic semialdehyde is typically synthesized by a
+ xxxg8xxx  ( xxxg8xxx ), which together with
+ xxxg138xxx  is responsible for converting ssa to sa; this
+constitutes the gaba degradation pathway, which is
+widely conserved in microorganisms, as well as in
+mammals and plants. the finding that gaba has a similar
+effect on induction of the qs signal decay system suggests that a. tumefaciens has a functional  xxxg8xxx , which
+is confirmed by biochemical analysis. although  xxxg8xxx 
+activity is significantly enhanced when a. tumefaciens
+grows in the presence of gaba, the enzyme activity is
+also evident in the bacterial cells without gaba induction
+(fig. s5). the finding that a. tumefaciens has a  xxxg8xxx 
+
+© 2006 the authors
+journal compilation © 2006 blackwell publishing ltd, molecular microbiology, 62, 45–56
+
+ssa modulating qs signal decay 53
+table 1. bacterial strains and plasmids used in this study.
+strains and plasmids
+a. tumefaciens
+nt1(trar,
+tra::lacz749)
+a6
+a6(attklm::lacz)
+a6(attklm::lacz,
+aldh::tn5)
+a6(attklm::lacz,
+daldh)
+a6(attklm::lacz,
+daldh, pla-aldh)
+a6(attklm::lacz,
+daldh, pla-attk)
+a6(attklm::lacz,
+daldh, pla-attm)
+a6(rela::kanr)
+a6(daldh)
+a6(pla-aldh)
+k749
+k588
+k588(pla-aldh)
+e. coli
+dh5a
+bw020767
+hb101(prk2013)
+bl21(de3)
+s17-1
+plasmids
+plafr3
+pla-aldh
+pla-attk
+pla-attm
+paw19
+paw19-daldh
+p2t-attj
+pet14b-aldh
+prl-aldh::tn5
+
+relevant characteristicsa
+
+sources or references
+
+c58c1rs harbouring pjm749 and psvb33, indicator strain for
+3oc8hsl bioassay, kanr, tcr
+wild-type octopine strain of a. tumefaciens
+a6 with the attklm operon transcriptionally fused with
+tn3hoho1-lacz, ampr
+a6(attklm::lacz) in which the aldh gene was inserted by tn5,
+ampr, kanr
+a6(attklm::lacz) with in frame deletion of the aldh gene, ampr
+
+piper et al. (1993)
+
+a6(attklm::lacz, daldh) with aldh overexpression, ampr, tcr
+
+this study
+
+r
+
+a6(attklm::lacz, daldh) with attk overexpression, amp , tc
+
+r
+
+a. kerr
+zhang et al. (2004)
+this study
+this study
+
+this study
+
+a6(attklm::lacz, daldh) with attm overexpression, ampr, tcr
+
+this study
+r
+
+a6 with rela disrupted by kanamycin-resistant fragment, kan
+a6 with an in frame deletion of the aldh gene
+a6 with aldh overexpression, tcr
+nopaline strain, pat-, pti-, ti-plasmid conjugal transfer recipient
+strain, rifr
+c58c1 harbouring the ti-plasmid of ptib6s3trac, eryr, chlr
+k588 with aldh overexpression, eryr, chlr, tcr
+
+zhang et al. (2004)
+this study
+this study
+a. kerr
+
+supe44 dlacu169(f80laczdm15) hsdr17 lpir reca1 enda1
+gyra96 thi-1 rela1
+harbouring tn5 transposon for a. tumefaciens mutagenesis, kanr
+thr leu thi reca hsdr hsdm pro, kanr
+f– ompt hsds(rb– mb–) dcm+ tetr gal (de3) enda hte
+pro res– mod+ integrated copy of  xxxg1955xxx , mob+
+
+laboratory collection
+
+incp, broad host range cosmid vector, tcr
+plafr3 harbouring the encoding region of aldh, tcr
+plafr3 harbouring the encoding region of attk, tcr
+plafr3 harbouring the encoding region of attm, tcr
+f1(+)ori lacza of pbluescript ii (sk+), sacb, sucr
+paw19 containing part of aldh and its flanking region for aldh
+in frame deletion, kanr
+pgex-2t vector harbouring the encoding region of attj for protein
+purification, ampr
+pet14b vector harbouring the encoding region of aldh for protein
+purification, ampr
+a plasmid rescued from strain a6(attklm::lacz, aldh::tn5) by
+self-ligation, kanr
+
+a. kerr
+this study
+
+larsen et al. (2002)
+laboratory collection
+stratagen
+a. kerr
+staskawicz et al. (1987)
+this study
+this study
+this study
+s.k. farrand
+this study
+this study
+this study
+this study
+
+a. ampr, ampicillin-resistant; chlr, chloramphenicol-resistant; eryr, erythromycin-resistant; kanr, kanamycin-resistant; rifr, rifampicin-resistant;
+sucr, sucrose-resistant; tcr, tetracycline-resistant; trac, constitutive in 3oc8hsl production and ti-plasmid conjugal transfer.
+
+enzyme(s) explains why gaba, which was not able to
+interfere with attj binding to the attklm promoter, could
+induce the expression of attm (chevrot et al., 2006).
+in bacteria, the gaba degradation has been known
+previously to metabolize gaba exclusively and the compound may act as a signal to induce its own metabolic
+enzymes (donnelly and cooper, 1981; prell et al., 2002;
+schneider et al., 2002). however, this seemingly narrow
+metabolic function of the gaba degradation may not be
+able to explain the observation that the shunt can be
+induced by a range of stress conditions, including acidic
+ph, osmotic shock and starvation (schneider et al., 2002;
+metzner et al., 2004). in addition, attj homologues, which
+are the members of the iclr negative transcription factor
+
+family (zhang et al., 2002), are widely conserved in
+microorganisms. these findings plus the results from this
+study suggest that the biological function of the gaba
+degradation in microorganisms may not be as simple as
+for metabolism only and the potential signalling roles of its
+metabolites in other bacterial species are clearly worthy of
+further investigation.
+experimental procedures
+strains and culture conditions
+the bacterial strains and plasmids used in this study are
+listed in table 1. e. coli strains were grown at 37°c in lb
+medium. a. tumefaciens strains were grown at 28°c in lb or
+
+© 2006 the authors
+journal compilation © 2006 blackwell publishing ltd, molecular microbiology, 62, 45–56
+
+54 c. wang, h.-b. zhang, l.-h. wang and l.-h. zhang
+in bm minimal medium (zhang et al., 2002). antibiotics were
+supplemented at the following concentrations when necessary: kanamycin, 100 mg  xxxg1167xxx ; ampicillin, 100 mg  xxxg1167xxx ; tetracycline, 5 mg  xxxg1167xxx  (a. tumefaciens) or 10 mg  xxxg1167xxx  (e. coli);
+rifampincin, 50 mg  xxxg1167xxx . xgal (5-bromo-4-chloro-3-indolyl-bd-galactopyranoside) was included in the medium at a final
+concentration of 50 mg  xxxg1167xxx  for detection of b-galactosidase
+activity on solid agar plates. the chemicals used in this study
+were purchased from sigma unless otherwise specified.
+
+gene cloning and deletion
+all the primers used in this study are listed in table s1.
+plasmid preparation, ligation, cloning and transformation of
+e. coli were performed following standard procedures. to
+generate the suicide plasmid construct paw-daldh, two dna
+fragments were amplified from a. tumefaciens a6 with the
+primer pairs aldhf1/r1 and aldhf2/r2 respectively. after
+enzymatic digestion and ligation, the ligation mixture was
+directly aliquoted for another round of pcr amplification
+using primers aldhf1/aldhr2. dna fragments of the
+expected size were then recovered from 1% agarose gel,
+blunted with klenow enzyme, and inserted into vector
+paw19, which was treated with the same enzymes. the
+resulting plasmid paw-daldh was screened by pcr and
+confirmed by dna sequencing. for construction of pla-aldh,
+pla-attm and pla-attk, the aldh, attm and attk genes from
+a. tumefaciens a6 were amplified with corresponding pcr
+primers respectively. pcr products were digested with
+appropriate enzymes and purified using a qiaquick pcr
+purification kit (qiagen), then ligated into the enzyme-treated
+cosmid plafr3. the resultant constructs were verified by
+dna sequencing.
+in frame deletion of aldh in a. tumefaciens was carried out
+following the modified procedure described previously
+(metcalf et al., 1996). the transconjugants were screened on
+bm medium containing kanamycin. the purified transconjugants were further selected on fresh bm agar plates containing 5% sucrose. the potential deletion mutants were then
+selected by the loss of kanamycin resistance on lb agar
+plates and confirmation by pcr with specific primers.
+
+transformation and transposon mutagenesis
+transformation of a. tumefaciens was carried out as reported
+previously (zhang et al., 2004). transposon mutagenesis
+was performed using e. coli bw020767 containing a mini tn5
+transposon (larsen et al., 2002). the fresh overnight cultures
+of e. coli bw020767 and a. tumefaciens a6(attklm::lacz)
+were mixed together, plated on an lb agar plate and grown
+for 5 h at 28°c. cells were then resuspended in sterile water
+and plated on selective plates containing xgal and appropriate antibiotics. after incubation at 28°c for 4 days, the
+colonies with a bluer colour than the parental strain
+a6(attklm::lacz) were selected and purified. disrupted
+genes were identified by sequencing the tn5-flanking fragments (larsen et al., 2002).
+
+primers aldhf4/r4, then fused into the 6¥ his-tagging
+expression vector pet14b (novagen) digested with bamhi.
+the resultant construct pet14b-aldh was transformed into
+host strain e. coli bl21(de3). after sequencing confirmation,
+the his6-aldh protein was expressed and purified with the
+ni-nta affinity column according to the procedure recommended by qiagen. for purification of the recombinant attj,
+the attj coding region was amplified from strain a6 and fused
+into the bamhi-ecori sites of the gst fusion expression
+vector pgex-2t (pharmacia) to create construct p2t-attj.
+after dna sequence verification, the construct was transformed into e. coli bl21(de3). attj protein was purified
+according to the manufacturer’s protocol (amersham).
+
+gel retardation and itc analysis
+the gel retardation assay was performed as previously
+reported (zhang et al., 2002). the promoter region of the
+attklm operon was amplified by pcr, treated with ecori and
+labelled at the 3′ end with [a-32p]-dctp by klenow enzyme.
+the chemicals listed in fig. 4 were included in the reaction
+solution when necessary. after separation on native page
+gel (4.5%) at 4°c, the radioactive signals were recorded by
+autoradiograph.
+titration calorimetric measurements were performed using
+a vp-itc calorimeter (microcal, northampton, ma) following
+the manufacturer’s protocol. in brief, 2 ml aliquots of ssa
+solution (1 mm) were added at an interval of 4 min between
+injections via  xxxd3426xxx  ml syringe to the sample cell containing
+1.4 ml of attj (0.1 mm) with constant stirring at 290 r.p.m.,
+and heat changes accompanying these additions were
+recorded. the protein samples were extensively dialysed
+against dpbs buffer (containing 0.2 g kcl, 0.2 g kh2po4,
+8.0 g nacl and 2.16 g na2hpo4·7h2o per litre, ph 7.3)
+before titration. ssa solution was prepared directly in the
+dpbs buffer and all titrant and titrate solutions were thoroughly degassed under vacuum prior to loading in the itc.
+the titration experiment was repeated at least twice and the
+data were calibrated with the buffer control and fitted using
+the one-site model to determine the binding constant (ka)
+using microcal origin v7.0 software.
+
+quantitative assay
+quantitative analysis of the b-galactosidase activity of
+a. tumefaciens strains was conducted according to the
+method previously described (stachel et al., 1985). the
+amount of ahl signals produced by bacterial cells was quantitatively determined as described previously (dong et al.,
+2000) and expressed as the equivalent of 3oc8hsl (wang
+et al., 2006), which is the major ahl signal in a. tumefaciens
+(zhang et al., 1993). ti-plasmid conjugal transfer analysis
+was performed following the published method (wang et al.,
+2006). when required, ssa or gaba was supplied in bm
+minimal media with a final concentration of 1 mm.
+
+purification of aldh and attj
+
+ssa dehydrogenase assay and characterization of
+reaction products
+
+for purification of the recombined protein his6-aldh, the aldh
+encoding region from a. tumefaciens a6 was amplified using
+
+the catalytic reaction of ssa by aldh was carried out in 3 ml
+of phosphate buffer (50 mm, ph 8.0) containing 120 mm
+
+© 2006 the authors
+journal compilation © 2006 blackwell publishing ltd, molecular microbiology, 62, 45–56
+
+ssa modulating qs signal decay 55
+ssa, 120 mm nad and 40 mm aldh at 28°c for 3 h with
+gentle shaking. as the positive control, ssa was replaced by
+the same amount of sa (from sigma) and reacted in the
+same way as described above; in the negative control, the
+same amount of denatured aldh was added to the ssa
+reaction mixture. for chemical derivatization of sa to facilitate hplc analysis, each reaction mixture was reacted separately with 0.36 mmol hexylamine using 0.72 mmol 1-ethyl-3(3-dimethylamino-propyl)carbodiimine (edc) as the coupling
+agent (hoare and koshland, 1967). for hplc analysis and
+purification, the sample was introduced onto a symmetry c18
+reverse-phase column (4.6 ¥ 250 mm). fractions were eluted
+isocratically with 50/50 methanol/water (v/v) at a flow rate of
+1 ml min-1, and detected by a waters 996 photodiode array
+detector. esi-ms was performed on a finnigan/mat lcq
+ion-trap mass spectrometer. the purified fraction was introduced into the mass spectrometer by loop injection.
+
+rna purification and rt-pcr
+total rnas were extracted from the bacterial cells cultivated
+in minimal medium using rneasy® mini kit (qiagen) and
+treated with rnase-free dnase i. rt-pcr was conducted
+following a one-step strategy (qiagen). an aliquot of 0.1 mg
+of total rnas was used as the template for rt-pcr to
+amplify the aldh coding region using the primers
+rtaldhf1/r1 (table s1). a 1.3 kb fragment of the 16s rrna
+gene was also amplified as an internal control.
+
+references
+bouche, n., and fromm, h. (2004) gaba in plants: just a
+metabolite? trends plant sci 9: 110–115.
+braun, k.p., cody, r.b., jr, jones, d.r., and peterson, c.m.
+(1995) a structural assignment for a stable acetaldehydelysine adduct. j biol chem 270: 11263–11266.
+carlier, a., chevrot, r., dessaux, y., and faure, d. (2004)
+the assimilation of gamma-butyrolactone in agrobacterium tumefaciens c58 interferes with the accumulation of
+the n-acyl-homoserine lactone signal. mpmi 17: 951–957.
+chatterji, d., fujita, n., and ishihama, a. (1998) the mediator
+for stringent control, ppgpp, binds to the beta-subunit of
+escherichia coli rna polymerase. genes cells 3: 279–
+287.
+chevrot, r., rosen, r., haudecoeur, e., cirou, a., shelp,
+b.j., ron, e., and faure, d. (2006) gaba controls the level
+of quorum-sensing signal in agrobacterium tumefaciens.
+proc natl acad sci usa 103: 7460–7464.
+dong, y.h., xu, j.l., li, x.z., and zhang, l.h. (2000) aiia, an
+enzyme that inactivates the acylhomoserine lactone
+quorum-sensing signal and attenuates the virulence of
+erwinia carotovora. proc natl acad sci usa 97: 3526–
+3531.
+donnelly, m.i., and cooper, r.a. (1981) succinic semialdehyde dehydrogenases of escherichia coli: their role in the
+degradation of p-hydroxyphenylacetate and gammaaminobutyrate. eur j biochem 113: 555–561.
+dover, s., and halpern, y.s. (1972) utilization of
+g- xxxd2177xxx  as the sole carbon and nitrogen source
+by escherichia coli k-12 mutants. j bacteriol 109: 835–843.
+
+gordon, n. (2004) succinic semialdehyde dehydrogenase
+deficiency ( xxxg138xxx ) (4-hydroxybutyric aciduria, gammahydroxybutyric aciduria). eur j paediatr  xxxd122xxx  8: 261–
+265.
+hengge-aronis, r. (2002) signal transduction and regulatory
+mechanisms involved in control of the sigma(s) (rpos)
+subunit of rna polymerase. microbiol mol biol rev 66:
+373–395.
+hoare, d.g., and koshland, d.e., jr (1967) a method for the
+quantitative modification and estimation of carboxylic acid
+groups in proteins. j biol chem 242: 2447–2453.
+jishage, m., kvint, k., shingler, v., and nystrom, t. (2002)
+regulation of sigma factor competition by the alarmone
+ppgpp. genes dev 16: 1260–1270.
+larsen, r.a., wilson, m.m., guss, a.m., and metcalf, w.w.
+(2002) genetic analysis of pigment biosynthesis in xanthobacter autotrophicus py2 using a new, highly efficient
+transposon mutagenesis system that is functional in a wide
+variety of bacteria. arch microbiol 178: 193–201.
+metcalf, w.w., jiang, w., daniels, l.l., kim, s.k.,
+haldimann, a., and wanner, b.l. (1996) conditionally replicative and conjugative plasmids carrying lacz alpha for
+cloning, mutagenesis, and allele replacement in bacteria.
+plasmid 35: 1–13.
+metzner, m., germer, j., and hengge, r. (2004) multiple
+stress signal integration in the regulation of the complex
+sigma s-dependent csid-ygaf-gabdtp operon in escherichia coli. mol microbiol 51: 799–811.
+pappas, k.m., and winans, s.c. (2003) a luxr-type regulator from agrobacterium tumefaciens elevates ti plasmid
+copy number by activating transcription of plasmid replication genes. mol microbiol 48: 1059–1079.
+piper, k.r., beck von bodman, s., and farrand, s.k. (1993)
+conjugation factor of agrobacterium tumefaciens regulates
+ti plasmid transfer by autoinduction. nature 362: 448–450.
+prell, j., boesten, b., poole, p., and priefer, u.b. (2002) the
+rhizobium leguminosarum bv. viciae vf39 gammaaminobutyrate (gaba) aminotransferase gene (gabt) is
+induced by gaba and highly expressed in bacteroids.
+microbiology 148: 615–623.
+qin, y., luo, z.q., smyth, a.j., gao, p., beck von bodman,
+s., and farrand, s.k. (2000) quorum-sensing signal
+binding results in dimerization of trar and its release from
+membranes into the cytoplasm. embo j 19: 5212–5221.
+rosen, r., sacher, a., shechter, n., becher, d., buttner, k.,
+biran, d., et al. (2004) two-dimensional reference map of
+agrobacterium tumefaciens proteins. proteomics 4: 1061–
+1073.
+schneider, b.l., ruback, s., kiupakis, a.k., kasbarian, h.,
+pybus, c., and reitzer, l. (2002) the escherichia coli
+gabdtpc operon: specific  xxxd2177xxx  catabolism and nonspecific induction. j bacteriol 184: 6976–
+6986.
+shelp, b.j., bown, a.w., and mclean, m.d. (1999) metabolism and functions of gamma- xxxd2177xxx . trends
+plant sci 4: 446–452.
+stachel, s.e., an, g., flores, c., and nester, e.w. (1985) a
+tn3 lacz transposon for the random generation of betagalactosidase gene fusions: application to the analysis of
+gene expression in agrobacterium. embo j 4: 891–
+898.
+
+© 2006 the authors
+journal compilation © 2006 blackwell publishing ltd, molecular microbiology, 62, 45–56
+
+56 c. wang, h.-b. zhang, l.-h. wang and l.-h. zhang
+staskawicz, b., dahlbeck, d., keen, n., and napoli, c. (1987)
+molecular characterization of cloned avirulence genes from
+race 0 and race 1 of pseudomonas syringae pv. glycinea.
+j bacteriol 169: 5789–5794.
+tempé, j., estrade, c., and petit, a. (1978) the biological
+significance of opines. ii. the conjugative activities of the ti
+plasmids of agrobacterium tumefaciens. in proceedings of
+the 4th international conference on plant pathogenic bacteria, pp. 153–160.
+tian, j., bryk, r., itoh, m., suematsu, m., and nathan, c.
+(2005) variant tricarboxylic acid cycle in mycobacterium
+tuberculosis:
+identification
+of
+{alpha}-ketoglutarate
+decarboxylase. proc natl acad sci usa 102: 10670–
+10675.
+varju, p., katarova, z., madarasz, e., and szabo, g. (2001)
+gaba signalling during development: new data and old
+questions. cell tissue res 305: 239–246.
+wang, c., zhang, h.b., chen, g., chen, l., and zhang, l.h.
+(2006) dual control of quorum sensing by two tram antiactivators in agrobacterium tumefaciens octopine strain
+a6. j bacteriol 188: 2435–2445.
+wood. d.w., setubal, j.c., kaul, r., monks, d.e., kitajima,
+j.p., okura, v.k., et al. (2001) the genome of the natural
+genetic engineer agrobacterium tumefaciens c58. science
+294: 2317–2323.
+zhang, h.b., wang, l.h., and zhang, l.h. (2002) genetic
+control of quorum-sensing signal turnover in agrobacterium tumefaciens. proc natl acad sci usa 99: 4638–4643.
+zhang, h.b., wang, c., and zhang, l.h. (2004) the quormone degradation system of agrobacterium tumefaciens is
+regulated by starvation signal and stress alarmone
+(p)ppgpp. mol microbiol 52: 1389–1401.
+
+zhang, l., murphy, p.j., kerr, a., and tate, m.e. (1993)
+agrobacterium conjugation and gene regulation by n-acyll-homoserine lactones. nature 362: 446–448.
+zhu, j., and winans, s.c. (1999) autoinducer binding by
+the quorum-sensing regulator trar increases affinity for
+target promoters in vitro and decreases trar turnover
+rates in whole cells. proc natl acad sci usa 96: 4832–
+4837.
+zhu, j., oger, p.m., schrammeijer, b., hooykaas, p.j.,
+farrand, s.k., and winans, s.c. (2000) the bases
+of crown gall tumorigenesis. j bacteriol 182: 3885–
+3895.
+
+supplementary material
+the following supplementary material is available for this
+article online:
+fig. s1. ssa dose-dependant induction of the attklm
+expression.
+fig. s2. gaba increases ahl-lactonase expression and
+decreases ahl accumulation in a. tumefaciens.
+fig. s3. induction of qs signal decay system by ssa and
+related chemicals.
+fig. s4. effect of ssa, gaba and aldh-deletion on the efficiency of ti-plasmid conjugal transfer in a. tumefaciens a6.
+fig. s5. constitutive and inducible pyruvate-dependent
+ xxxg8xxx  ( xxxg8xxx ) enzyme activities in
+a. tumefaciens.
+table s1. pcr primers used in this study.
+this material is available as part of the online article from
+http://www.blackwell-synergy.com
+
+© 2006 the authors
+journal compilation © 2006 blackwell publishing ltd, molecular microbiology, 62, 45–56
+

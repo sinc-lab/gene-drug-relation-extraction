@@ -1,0 +1,701 @@
+journal of chromatography b, 820 (2005) 121–130
+
+rapid quantitation of plasma 2-deoxyuridine by high-performance
+liquid chromatography/atmospheric pressure chemical ionization
+mass spectrometry and its application to pharmacodynamic
+studies in cancer patients
+kong m. li a , laurent p. rivory a,b , stephen j. clarke c,∗
+a
+
+department of pharmacology, faculty of medicine, institute for biomedical research, school of medical sciences,
+university of sydney, nsw 2006, australia
+b johnson and johnsons research pty. ltd., strawberry hills, nsw 2012, australia
+c department of medicine, concord hospital, concord, nsw 2137, australia
+received 22 march 2004; accepted 21 march 2005
+
+abstract
+a novel method employing high-performance liquid chromatograph–mass spectrometry (lc–ms) has been developed and validated for
+the quantitation of plasma 2 -deoxyuridine (udr). it involves a plasma clean-up step with strong anion-exchange solid-phase extraction
+(sax-spe) followed by hplc separation and atmospheric pressure chemical ionization mass spectrometry detection (apci–ms) in a
+selected-ion monitoring (sim) mode. the ionization conditions were optimised in negative ion mode to give the best intensity of the dominant
+formate adduct [m + hcoo]− at m/z 273. retention times were 7.5 and 12.5 min for 2 -deoxyuridine and 5-iodo-2 -deoxyuridine, an iodinated
+analogue internal standard (is), respectively. peak area ratios of 2 -deoxyuridine to is were used for regression analysis of the calibration
+curve. the latter was linear from 5 to 400 nmol/l using 1 ml sample volume of plasma. the average recovery was 81.5% and 78.6% for
+2 -deoxyuridine and  xxxd2323xxx , respectively. the method provides sufficient sensitivity, precision, accuracy and selectivity for
+routine analysis of human plasma 2 -deoxyuridine concentration with the lowest limit of quantitation (lloq) of 5 nmol/l. clinical studies
+in cancer patients treated with the new fluoropyrimidine analogue  xxxd425xxx  (n4 -pentoxycarbonyl-5 -5-fluorocytidine) have shown that
+plasma 2 -deoxyuridine was significantly elevated after 1 week of treatment, consistent with inhibition of  xxxg2366xxx  (ts). these
+findings suggest that the mechanism of antiproliferative toxicity of  xxxd425xxx  is at least partly due to ts inhibitory activity of its active
+metabolite 5-fluoro-2 - xxxd1838xxx  (fdump). monitoring of plasma udr concentrations have the potential to help clinicians
+to guide scheduling of  xxxd425xxx  or other ts inhibitors in clinical trials. marked differences of plasma 2 -deoxyuridine between human
+and rodents have also been confirmed. in conclusion, the lc–ms method developed is simple, highly selective and sensitive and permits
+pharmacodynamic studies of ts inhibitors in several species.
+© 2005 elsevier b.v. all rights reserved.
+keywords: 2 -deoxyuridine; lc–ms; apci; solid-phase extraction
+
+1. introduction
+the synthesis of intracellular nucleotides occurs by both
+de novo and salvage pathways. the enzyme  xxxg2366xxx  (ts) catalyses the reductive methylation
+∗
+
+corresponding author. tel.: +61 2 9767 6587; fax: +61 2 9767 7603.
+e-mail address: sclarke@med.usyd.edu.au (s.j. clarke).
+
+1570-0232/$ – see front matter © 2005 elsevier b.v. all rights reserved.
+doi:10.1016/j.jchromb.2005.03.008
+
+of 2 -deoxyuridine 5 -monophosphate (dump) to 2  xxxd3364xxx  5 -monophosphate (tmp), and this reaction
+is the only de novo synthetic pathway for production of 2  xxxd3364xxx  5 -triphosphate (ttp). hence, this pathway
+is crucial for dna synthesis and a critical target for the fluoropyrimidine drugs which are widely used in the treatment
+of breast, gastrointestinal, and head and neck cancers [1,2].
+inhibition of ts both directly and indirectly by cytotoxic
+
+122
+
+k.m. li et al. / j. chromatogr. b 820 (2005) 121–130
+
+fig. 1. negative ion apci mass spectrum of 2 -deoxyuridine.
+
+anticancer drugs will selectively inhibit the rapid growth of
+cancer cells by blocking dna replication and repair [3]. subsequent to ts inhibition, it is expected that accumulation of
+dump occur as a consequence of reduced formation of tmp.
+dump is then catabolized intracellularly to udr which effluxes from cells and can be measured in plasma. the observed rise in udr in clinical studies of ts inhibitors is taken
+as evidence that ts inhibition also occurs in normal tissue
+along with the tumour. the novel ts inhibitor,  xxxd425xxx ,
+on the other hand, is thought to be selectively activated to
+5-fu in the tumour. hence, ts inhibition should occur predominantly in the tumour and monitoring of plasma levels of
+udr could provide an important surrogate marker of estimating drug response and to provide rational dose adjustment in
+each patient for optimal therapeutic outcome with a minimum
+of untoward side effects [4,5].
+udr (fig. 1) is an oxypyrimidine, which is very polar and
+weakly acidic (pka ∼ 9.3) in nature. the conjugated doublebond system of pyrimidine absorbs light in the uv region,
+and most hplc assays of udr have used spectrophotometric
+detection. only a few of these methods have been intended for
+the measurement of plasma udr concentrations in humans,
+which have been reported to range from 20 to 100 nmol/l
+[5,6]. more recently, it has been argued that plasma udr levels are well below 50 nmol/l and beyond the sensitivity limit
+of hplc-uv detection [7,8]. in contrast, an earlier study using radioimmunoassay (ria) found the mean human plasma
+udr level to be 620 nmol/l [9]. therefore, there is significant
+discrepancy in reporting plasma udr levels and an accurate reference concentration range in humans has not been
+established. all the previously reported hplc-uv methods
+involved tedious sample extraction procedures and extensive
+chromatographic run time, 60 to 110 min for each sample, to
+overcome the difficulties of separation of udr from interfering endogenous polar materials in plasma matrix. the major
+
+problem encountered in these hplc-uv analyses is not only
+the specificity and selectivity of detection methods but also
+the complexity of sample workup procedures. the validation
+of sample extraction procedure in these assays was not always
+possible by the internal standard method due to the complex
+plasma matrix. even with hplc coupled with photodiode
+array (pda) detection, the validity of the characterization is
+difficult to justify especially when the udr concentration is
+low.
+the availability of highly selective and sensitive lc–ms
+chromatographic techniques permit accurate determination
+of low levels of various compounds. given the uncertainty
+in the specificity of hplc-uv for udr discussed above, we
+sought to extend our previous work to the detection of nucleosides [10]. in this report, we describe the development of
+a new simple solid-phase sample extraction procedure and a
+novel lc–ms method for quantitation of plasma udr. the
+described technique offers simpler sample preparation steps
+and better selectivity in detection compared to conventional
+hplc-uv. the application of this method is exemplified
+from a clinical trial of  xxxd425xxx  in colorectal cancer patients. plasma levels of udr in human volunteers and rodents
+are also reported.
+
+2. experimental
+2.1. chemicals and reagents
+all aqueous solutions were prepared in milli-q water (millipore, milford, ma, usa). udr and 5-iodo-2 deoxyuridine (internal standard (is)) were obtained from
+sigma (st. louis, mo, usa). hplc-grade acetonitrile and
+methanol were purchased from mallinckrodt baker (sellbybiolab, sydney, australia).  xxxd2154xxx , acetic acid and
+
+k.m. li et al. / j. chromatogr. b 820 (2005) 121–130
+
+sodium hydroxide (naoh) were supplied by  xxxg257xxx  (poole,
+uk). extract-clean anion-exchange (sax) solid-phase extraction (spe) cartridges (200 mg bed weight, 3 ml tube size)
+were obtained from alltech (deerfield, il, usa). each spe
+cartridge had ion exchange capacity of 0.15 meq/100 mg bed
+weight.
+
+123
+
+udr and 5-iodo-2 -deoxyuridine, respectively. the ms data
+were analysed using lc–ms workstation classs-8000␣ software (shimadzu scientific instruments, kyoto, japan). the
+peak area ratios of the standards were used to obtain a nonweighting scheme regression equation and concentrations in
+quality controls and study samples were then calculated using
+measure peak area ratios and the regression equation.
+
+2.2. instrumentation and chromatographic conditions
+2.3. preparation of standards and control samples
+the hplc–ms system used in the validation and application of the method consisted of a shimadzu lc–ms
+qp8000␣ module (shimadzu scientific instruments, kyoto,
+japan) equipped with a sil-10 autoinjector with sample
+cooler and lc-10 in-line vacuum degassing solvent delivery
+units. chromatographic control, data collection and processing were carried out using shimadzu class 8000 data software. hplc separation of analytes was performed on a waters atlantis dc18 3 ␮m, 150 mm × 2.1 mm reversed-phase
+analytical column (waters, sydney, australia) coupled with
+a 1 mm opti-guard pre-column (optimize technologies,
+oregon city, usa). the eluant was a gradient mixture of
+10 mm  xxxd2154xxx  with 2% acetonitrile (mobile phase a)
+and acetonitrile:water (90:10) (mobile phase b) delivered at
+0.25 ml/min and at ambient temperature. after equilibration
+of the column with 100% a, the gradient profile was carried
+out as shown in table 1. the volume of the reconstituted extract injected into the hplc was 20 ␮l. the eluate from the
+hplc column was directed in series via a shimadzu spd1-av uv–vis detector operated in dual wavelength mode
+(254 and 280 nm) into the ionization region of the mass spectrometer (shimadzu qp8000␣) without flow splitting. the
+eluant outflow to detector was re-directed automatically to
+waste from 0 to 6 min and at 14 min by means of a solvent
+switching valve. the optimal mass spectrometric conditions
+for udr detection was achieved in negative ion mode, with
+a curved desolvation line (cdl) temperature of 230 ◦ c, a
+cdl voltage of 45 v, deflector voltages of −35 v (use for
+in-source collision induced dissociation) and a corona probe
+voltage of −3 kv. the chemical ionization source probe temperature was set at 350 ◦ c and a nitrogen flow rate of 2 l/min
+was used for the nebulization. mass spectra of both analytes
+were acquired over the scan range m/z 100–500 in approximately 1 s. quantitative data were carried out using selectedion monitoring (sim) analysis. the ions selected to monitor
+were m/z 273.2 and m/z 399.1 for formate adduct ions of
+table 1
+gradient elution profile for lc programme
+time (min)
+
+mobile phase a (%)
+
+mobile phase b (%)
+
+0
+8
+13
+14
+19
+20
+25
+
+100
+92
+40
+10
+10
+100
+100
+
+0
+8
+60
+90
+90
+0
+0
+
+a stock standard solution of 2 mmol/l udr was prepared in water. this solution was further diluted with water to give a series spiking standard solutions with concentrations of 0.125, 0.25, 0.5, 1.25, 2.5, 5 and 10 ␮mol/l.
+a 2 mmol/l stock standard solution of the internal standard  xxxd2323xxx  was prepared in water and diluted
+with water to 10 ␮mol/l to give a working standard solution. stock solutions, prepared monthly, were subdivided into
+1 ml aliquots and stored in 1.5 ml eppendorf sample tubes
+at 4 ◦ c until use. working standard solutions were freshly
+prepared for each run. blank human plasma for calibration,
+stored at −80 ◦ c, were prepared in pooled normal human
+plasma from heparinized whole blood which had been dialyzed with cellulose membrane tubing (molecular cut-off size
+of 1000) overnight to remove endogenous udr as previously
+described by longo et al. [11]. authentic qc samples were
+prepared from pooled patients plasma of day 0 (low) and day
+8 (high) to mimic the authentic study samples.
+2.4. calibration and sample preparation
+calibration curves ranging from 5 to 400 nmol/l of udr
+in plasma were constructed by spiking udr into blank dialyzed human plasma (1 ml) with 40 ␮l of spiking standard
+solutions. for the unknown samples, fresh whole blood was
+collected in a pre-chilled heparinized blood tube kept on-ice,
+and plasma was rapidly separated from cells by centrifuging
+at 3300 × g at 4 ◦ c for 15 min. plasma samples were stored at
+−80 ◦ c and thawed just prior to analysis. plasma calibration
+standards, plasma and qc samples were spiked with 20 ␮l
+of internal standards to give a final plasma concentration of
+200 nmol/l. after brief mixing, 1 ml of acetonitrile was added
+to each sample and these were kept on-ice for another 10 min
+before centrifuging at 4 ◦ c, 16,000 × g for 10 min. the clear
+supernatants were then carefully removed and adjusted to ph
+12 with 40 ␮l of 2 mol/l naoh solution.
+2.5. solid-phase extraction
+selective isolation and extraction of udr from plasma
+matrix is a crucial step prior to lc–ms sample analysis
+to achieve better sensitivity and to evade unnecessary fouling of the chromatographic column. blank human plasma
+spiked with 50 nmol/l udr was used for the initial screening study for recovery using different spe strategies. the
+
+124
+
+k.m. li et al. / j. chromatogr. b 820 (2005) 121–130
+
+spiked plasma was subjected to various protein precipitation methods (10% trichloroacetic acid, 70% perchloric acid
+and acetonitrile) and extracted with a range of spe resin
+chemistries such as non-polar c18 (waters), mixed-mode
+(waters qma, bond-elut certify ii and strata screen-a),
+sax (alltech and bond-elut). the highest recovery and most
+reproducible extraction procedure for udr were achieved
+with the use of polystyrene divinylbenzene (ps-dvb) based
+strong anion-exchange resins. the optimum spe procedure
+was as follows: using a supelco visiprep spe vacuum manifolds (sigma-aldrich, sydney, australia), alltech extractclean sax-spe (3 ml, 200 mg) cartridges were preconditioned with 2 ml acetonitrile followed by 2 ml 0.01 mol/l
+naoh. alkalised sample supernatants were then loaded on
+the sax-spe cartridge with flow rate of not greater than
+1 ml/min and the latter was rinsed with 2 ml acetonitrile.
+the analytes were eluted with two fractions of 1 ml 10%
+glacial acetic acid in water at flow rate of not greater than
+1 ml/min. the eluant was dried under vacuum in a speedvac vacuum evaporator (savant instruments, farmingdale,
+ny, usa) and the dried residue was re-dissolved in 50 ␮l of
+10 mmol/l  xxxd2154xxx  with 2% acetonitrile (mobile phase a).
+the mixture was centrifuged, the supernatant was then transferred to micro insert vials and 20 ␮l of reconstituted solution in duplicate was automatically injected into the lc–ms
+system.
+2.6. assay validation
+2.6.1. linearity, precision, accuracy, recovery and
+sensitivity
+peak area ratios of udr to the internal standard measured
+at each nominal concentration were used to construct nonweighted least-square linear regression curves. the inter- and
+intra-run precision and accuracy of the method were evaluated on three separate days by triplicate analyses of blank human plasma containing udr at concentration ranging from 5
+to 400 nmol/l. an estimate of the inter-run precision for udr
+was obtained by one-way analysis of variance (anova) for
+each test concentration using “run day” as the classification
+variable [12]. the day mean square (dayms), error mean
+square (errms) and the grand mean (gm) of the observed
+concentration across analytical run days were obtained. the
+inter-run precision was calculated for each calibrated standard as follows, when n is the number of replicates within
+each analytical run:
+inter-run precision =
+
+[dayms − errms]/n]0.5
+× 100%
+gm
+
+the intra-run precision was calculated for each calibration
+standard as follows:
+intra-run precision =
+
+[errms]0.5
+× 100%
+gm
+
+the accuracy was assessed for each calibration standard and
+expressed as a percentage of bias ((mean value − nominal
+
+value)/nominal value × 100). to study the effect of coextracted blank plasma matrix, recovery was conducted by
+comparing responses of replicates of spiked plasma samples
+(10 and 200 nmol/l) with those of blank extraction eluants
+to which the same amounts of analytes had been added to
+post-extraction. similar recovery study was also conducted
+on authentic pooled patient plasma on day 0. the analytical
+limits of assay were determined by analysis of five replicates
+of different concentrations of spiked udr from a single pool
+of plasma blank matrix. the lower limit of quantification
+(lloq) was defined as the concentration, which produced
+assay results within ±20% of the nominal concentration, with
+a coefficient of variation less than 20%.
+2.6.2. stability
+for assessment of stability of udr in whole blood and
+plasma, fresh whole blood and plasma samples spiked with
+udr to a final concentration of approximately 50 and
+150 nmol/l were used for short-term stability study at 23 ◦ c
+and on-ice before extraction. these stability blood samples
+were separated and assayed at 0, 0.5, 1 and 2 h interval. these
+fresh plasma samples were also used to assess the long-term
+storage effect. they were assayed in duplicate on the day of
+preparation and the remainder of each control was divided
+into multiple tubes and stored at −80 ◦ c. these control samples were removed and assayed periodically up to 3 months.
+triplicate of each stability control samples (low and high concentrations) were also subjected to three freeze/thaw (4 ◦ c)
+cycles to assess stability over a 3-day period.
+2.7. clinical studies
+the clinical studies were carried out in sydney cancer
+centre, royal prince alfred hospital. plasma udr concentrations were measured in 26 cancer patients enrolled in an
+on going clinical study evaluating the relationship between
+predictive factors and therapeutic response to  xxxd425xxx 
+in advanced colorectal cancer patients. the patients received
+2 g  xxxd425xxx  twice daily orally for 2 weeks of a 3-week
+cycle. heparinized blood samples (10 ml) were collected on
+day 0, day 8, day 15 and day 22 of each cycle for plasma
+udr assay. the blood collection procedures were described
+in section 2.4. the plasma layer was removed and stored at
+−80 ◦ c until analysis. plasma samples from normal volunteers and rodents were also collected and stored similarly.
+these studies were approved by the ethics committees of
+the central area health service and university of sydney,
+respectively.
+2.8. statistical method
+the values shown are mean ± s.e. statistical analysis of
+data was achieved by anova, paired and unpaired student’s
+t-tests (graphpad prism programme). the minimum significance level for all statistical tests was set at p < 0.05.
+
+k.m. li et al. / j. chromatogr. b 820 (2005) 121–130
+
+125
+
+fig. 2. negative ion apci mass spectrum of 5-iodo-2 -deoxyuridine.
+
+3. results
+
+endogenous peaks in the blank plasma precluded the use of
+uv–vis detection for measurement of udr.
+
+3.1. lc–ms analysis
+typical mass spectral features of udr and internal
+standard 5-iodo-2 -deoxyuridine under the atmospheric
+pressure chemical ionization–mass spectrometry detection
+(apci–ms) negative ion condition are shown in figs. 1 and 2,
+respectively. both analytes produced predominant ions consistent with their formate adducts, [m + hco2 ]− at m/z 273
+and 399. the high adduct formation (nucleophilic addition)
+in the gas-phase maximised ms sensitivity for quantitation
+of udr in the sample. the analytes could also be monitored
+in positive mode, however, the peak intensity and the signalto-noise ratios were much less than those achieved using negative mode. the cleavage of glycosidic bonds with the loss
+of deoxyribose sugar, m/z 116, also yield the corresponding
+fragment ions uracil [m − h − 116]− of m/z 111 and deprotonated molecular ion [m − h]− with m/z 227 in udr, and
+ xxxd540xxx  formate adduct [m + hco2 − 116]− with m/z
+283 and  xxxd540xxx  ion [m − h − 116]− of m/z 237 in internal standard 5-iodo-2 -deoxyuridine. the described losses
+and resulting fragment ions are consistent with the chemical
+structures of both compounds. the general mass spectra, including fragmentations, are similar to those observed from
+nucleosides with capillary fast atom bombardment (fab)
+[13] and electrospray lc–m–ms [14]. the sim mass chromatograms of a representative plasma sample of blank, spiked
+udr, 5-iodo-2 -deoxyuridine (is), patient on day 0, 8 and human volunteer, wistar rat, c-57 mouse are depicted in figs. 3
+and 4a–d, respectively. the retention time for udr (7.5 min)
+was identified by comparing with those of an authentic standard. no interfering endogenous peaks were observed in both
+the plasma blank and unknown samples using lc–ms analysis. however, the presence of considerable interference from
+
+3.2. validation
+3.2.1. linearity, precision, accuracy, recovery and
+sensitivity
+the assay validated for linearity and reproducibility of the
+calibration curves by running five separated duplicate freshly
+prepared plasma standard of 5, 10, 20, 50, 100, 200 and
+400 nmol/l. the typical equation obtained by least squared
+regression was y = 0.0021x + 0.025 for udr. regression coefficients (r2 ) were ≥0.989 for all calibration curves (table 2).
+the intra- and inter-run accuracy (expressed as % bias) and
+precision (expressed as %r.s.d.) for udr based on peak area
+ratios are presented in table 3. the assay bias ranged from
+−2.0 to 15.6% over the concentration range 5–400 nmol/l.
+the inter-run precision for all concentrations was less than
+13.4% and overall intra-run precision for udr was less than
+12.9%.
+the analytical recoveries of plasma udr in dialyzed blank
+plasma was calculated from pre-spiked and post-spiked of
+extracted plasma concentrations of 10 and 200 nmol/l. the
+spiked plasma was then analysed by the described method.
+recoveries from 10 separated batch assays over a 2-month
+period were 79.7 ± 1.39% and 83.2 ± 1.53% for 10 and
+200 nmol/l, respectively. the average recovery for 5-iodotable 2
+validation data of linear regression analysis (n = 5)
+parameter
+slope: mean (cv%)
+intercept: mean (cv%)
+correlation coefficient: mean (range)
+
+0.0021 (9.7)
+0.025 (10.6)
+0.989 (0.988–1.0)
+
+126
+
+k.m. li et al. / j. chromatogr. b 820 (2005) 121–130
+
+fig. 3. single ion monitoring (sim) chromatograms obtained by lc–apci–ms analysis of (a) and (e) blank plasma; (b) spiked udr 10 nmol/l; (c) patient
+on day 0 (49 nmol/l); (d) day 8 (203 nmol/l) and (f) spiked is 200 nmol/l.
+
+table 3
+validation data of precision and accuracy for plasma udr (n = 3)
+nominal concentration (nmol/l)
+5
+10
+20
+50
+100
+200
+400
+
+measured concentration (nmol/l)
+5.78
+10.9
+21.5
+53.1
+106
+194
+392
+
+intra-run precision (%)
+
+inter-run precision (%)
+
+accuracy (% bias)
+
+12.9
+7.26
+5.02
+3.79
+2.09
+2.34
+2.08
+
+13.4
+6.58
+5.08
+3.06
+2.63
+2.88
+2.92
+
+15.6
+9.0
+7.5
+6.2
+6.0
+−3.0
+−2.0
+
+k.m. li et al. / j. chromatogr. b 820 (2005) 121–130
+
+127
+
+fig. 4. single ion monitoring (sim) chromatograms obtained by lc–apci–ms analysis of (a) human volunteer (57 nmol/l); (b) wistar rat (424 nmol/l, 1/2
+dilution); (c) c-57 mouse (3.5 ␮mol/l, 1/10 dilution) and (d) 1/5 dilution.
+
+2 -deoxyuridine (is) was 78.6 ± 1.35% (77.6 ± 1.69% and
+79.7 ± 1.55% at udr concentrations of 10 and 200 nmol/l,
+respectively). similar recovery results were obtained from
+pooled authentic patient plasma. it is consistent with recoveries from dialyzed plasma samples and no matrix differences
+were observed. the lowest limit of quantitation (lloq) was
+determined by analysis of five replicates of different concentrations of plasma udr. using 1 ml of plasma sample, the
+lloq for plasma udr was 5 nmol/l for which the r.s.d.
+was less than 20%.
+3.2.2. stability
+the short-term stability of 50 nmol/l udr in plasma and
+whole blood kept on-ice and 23 ◦ c is shown in figs. 5 and 6,
+respectively. there were no significant changes when fresh
+plasma or whole blood sample were kept on-ice for 2 h after
+spiking with udr at both concentrations of 50 and 150 nmo/l.
+however, the plasma udr of 50 nmol/l concentration was
+significantly reduced (p < 0.05) when the incubations were
+carried out at 23 ◦ c for 2 h for plasma samples. udr concentrations were significantly decreased to 87% (p < 0.01),
+72% (p < 0.001) and 70% (p < 0.001) when the whole blood
+samples incubated at 23 ◦ c after 0.5, 1 and 2 h, respectively.
+similar reduction was observed with plasma udr concentration of 150 nmol/l. for long-term stability of plasma samples
+
+stored at −80 ◦ c, repeated analysis of the control plasma udr
+samples (50 and 150 nmol/l) showed no apparent changed
+in concentration over 3 months. in addition, no significant
+change in plasma udr concentration was also observed after
+three freeze/thaw (4 ◦ c) cycles over a 3-day period (one-way
+anova). the stock 2 mmol/l udr aqueous solutions were
+stable for at least 4 weeks when store refrigerated.
+
+fig. 5. effect of temperature on stability of udr in human plasma sample
+(n = 4). zero time udr concentration = 51.6 ± 2.35. data are mean ± s.e.;
++ p < 0.05 when compared with baseline value (paired t-test).
+
+128
+
+k.m. li et al. / j. chromatogr. b 820 (2005) 121–130
+
+was no significant difference in plasma udr levels between
+normal volunteers and cancer patients.
+
+4. discussion
+
+fig. 6. effect of temperature on stability of udr in human whole blood
+samples (n = 4). zero time udr concentration = 52.4 ± 2.19. data are
+mean ± s.e.; + p < 0.01 and ++ p < 0.001 when compared with baseline values
+(paired t-test). * p < 0.05 and ** p < 0.001 when compared with corresponding
+time on-ice value (unpaired t-test).
+
+3.3. clinical studies
+the plasma udr concentrations in patients treated with
+one cycle of  xxxd425xxx  are shown in fig. 7. the plasma
+udr concentrations of treated patients were significantly
+increased on day 8 (∼3-fold, p < 0.001), day 15 (2-fold,
+p < 0.001) and day 22 (1.3-fold, p < 0.05) compared to
+basal levels. no significant change in udr levels in blood
+samples obtained from the three normal volunteers occurred over the same period of time. there were large
+significant differences in plasma udr concentrations between humans and rodents. plasma udr concentrations in
+healthy volunteers (52.9 ± 3.17 nmol/l, n = 6) and cancer patients (48.2 ± 4.04 nmol/l, n = 26) were 9- and 76-fold less
+than wistar rats (446 ± 24.3 nmol/l, n = 6) and c-57 mice
+(3810 ± 60 nmol/l, n = 6), respectively. specifically, there
+
+fig. 7. plasma udr levels in cancer patients following  xxxd425xxx  2 g twice
+daily for 14 days and normal volunteers over the same period time. data are
+mean ± s.e.; + p < 0.05 and ++ p < 0.001 when compared with baseline value
+(paired t-test).
+
+the removal of interference and the enrichment of analytes
+for quantitation of pyrimidine nucleosides in plasma sample
+has always been a challenging task for analytical chemists.
+the difficulty is not only because of the very low concentration of these compounds present in the sample matrix but
+also due to their hydrophilic properties which render isolation and separation from other polar endogenous compounds
+extremely challenging. in particular, the use of hydrophobic
+extraction phases (e.g. organic solvents, c18 cartridges) also
+leads to the recovery of lipophilic endogenous compounds
+from the matrix, which then accumulates on the analytic column. also, the resolution of polar analytes using hplc and
+reverse-phase chromatography is always difficult. inadequate
+sample preparation procedures are often a contributing factor
+to error in subsequent analysis.
+hplc-uv methods have been proposed and widely used
+for the quantitative analysis of plasma nucleosides. conventional perchloric acid protein precipitation technique with
+two-stage hplc runs has been used to measure nucleosides
+in plasma matrix by uv detection [15,16]. these two-stage
+assay procedures are complex, time-consuming and difficult
+for batch processing for routine quantitative analysis. slight
+variations in analytical conditions (temperature in particular), can lead to incorrect or incomplete recovery of the analyte in the first run. analytical methods using organic solvent acetonitrile for protein precipitation have also been applied for the quantitation of plasma udr in mice [17]. again,
+the use of two-stage chromatographic runs (separated by
+peak collection, lyophilization and chromatographic quantitation) to overcome the background interference precludes
+these from being effectively used as a routine analytical methods. recently, spe resins (isolute env+) with hydroxylated
+highly cross-linked polystyrene-based polymers have been
+used to enhance the selectivity and specificity for the extraction of udr in human plasma [5,6]. even so, the problem
+of lipophilic contaminants means that such methods require
+inordinately long run times to ensure that a stable baseline
+can be re-established after each sample. otherwise, chromatograms may be corrupted by the elution of peaks, which
+originated from previous injections. for example, run times
+used in the above methods have been as long as 110 min for
+each sample.
+in addition, human udr concentrations at well below
+50 nmol/l are beyond the limit of sensitivity of hplc-uv detection have recently been reported [7,8]. marti et al. verified
+the specificity of the uv absorption of udr peak by treating
+each sample with purified  xxxg2365xxx  (tp) and
+concluded that an endogenous peak, co-eluting at the same
+retention time as udr, could account for falsely high concentrations in hplc-uv analysis. furthermore, endogenous
+
+k.m. li et al. / j. chromatogr. b 820 (2005) 121–130
+
+substances such as hippuric acid, aromatic acids and drugs
+such as 6- xxxd2573xxx  ( xxxd2573xxx ) and methotrexate (mtx)
+may interfere with the nucleosides analysis as has been reported [18]. the major problems encountered in these previous hplc-uv assays are the selectivity of the sample extraction techniques and quantitative analysis methods. even
+with uv–vis photodiode array (pda) assays for the detection
+and quantitation of udr, separation and identification may
+be complicated by endogenous interferences in the sample
+matrices. in our study, we confirmed that the chromatograms
+acquired from uv detection at the usual wavelength of 254
+and 280 nm could not be used to measure udr in human
+subjects. with previously published methods, the extraction
+efficiency could not be established because of interferences
+in the detection of internal standards and in sample matrix.
+the new sample clean-up procedure presented here involves a novel approach to the extraction of the udr using
+polymeric-based (ps-dvb) sax-spe, which provides better and more selective recovery than other resin chemistries.
+this cleanliness is due to the fact that most of the interferences are removed during the column rinsing steps using the
+organic solvent acetonitrile, while the analytes present in the
+plasma are retained on the column. being a weak acid, udr
+is present almost entirely as monoanionic species at ph 12, so
+that retention on the column is mainly from anion-exchange
+mechanisms. the acetonitrile in the washing step served to
+promote the ionic interaction whilst disrupting hydrophobic
+interactions and hydrogen bonding to remove non-polar materials such as  xxxd2154xxx , lipid and other hydrophilic compounds in the plasma samples. the low ph eluent of acetic
+acid then reversed the anion-exchange component of retention as udr molecules become unionized. indeed, sax extraction bed chemistry achieved improved analytical recovery for udr (79.7%) as compared to a previously reported
+non-polar (70%) bonded phase spe chemistry [6]. the other
+feature of the described plasma clean-up step was the use of
+acetonitrile, as both the protein precipitant and rinsing solution, which produces a very clean and enriched udr plasma
+extract for subsequent ms measurement. in theory, the described sax extraction method can also be applied for measuring other oxypyrimidines in different biological matrices
+with slightly alternation of the ph and/or the organic solvents, which can be manipulated very predictably, in sample
+loading and washing steps.
+conventional reverse-phase c18 hplc columns used in
+previous studies required the use of mobile phase that contain ion-pairing agents in order to retain and separate polar nucleosides [5,6]. although ion-pairing agents can turn a
+reversed-phase hplc column into an ion exchange column
+to provide better retention, ion-pair chromatography requires
+very long column equilibration times, which are difficult for
+running reproducible gradient separation and most importantly, are not compatible with mass spectrometry analysis.
+retention of these types of polar analytes also requires the
+use of mobile phases that contain very low organic modifier. therefore, under these aqueous conditions, conventional
+
+129
+
+c18 stationary phases can exhibit a sudden loss of retention
+with the collapse of c18 chains. in this study, we have tested
+several hplc columns (eps, prevail, aqua and atlantis)
+specifically for analysing polar compounds. the difunctional
+non-polar (dc18 ) bonding chemistry of the waters atlantis
+column demonstrated a better retention for polar compounds
+and was compatible with the very low organic mobile phase
+(2%) used in the chromatographic runs. there was no apparent shift of retention time of the hplc runs observed in the
+course of study.
+the choice of sample matrix for preparation of calibration standards and qc samples is particularly challenging for
+analysing endogenous compounds. it is problematic to simply prepare calibration samples by adding increasing amount
+of udr to pooled human plasma as unknown samples with
+low udr concentration will be out of the lowest calibration
+range. more importantly, the absolute total mass of the analyte, at some point, needs to be known for analytical accuracy validation. in order to eliminate endogenous analyte
+and preserve as much of the characteristics of the matrix
+as possible, dialyzed plasma has been used for the method
+validation [11,19]. this approach is superior to the use of
+either aqueous or “artificial plasma” solutions [6]. the validation experiments in our study have shown that the assay
+has very good accuracy and precision. the reproducibility
+and sensitivity of the new method is appropriate for the measurement of plasma udr in both normal subjects and cancer
+patients. the lower limit of quantitation of 5 nmol/l and linear
+dynamic calibration range of 5–400 nmol/l of the assay are
+adequate for the analysis of plasma udr in patients receiving ts inhibitors of both pre- and post-treatment concentrations without dilution of samples. the total chromatographic
+run time of 25 min is also a significant improvement of sample turnaround time (2.5- to 4.4-fold increased) compared to
+previous hplc-uv methods. our experiments showed that
+udr stability in whole blood was very temperature sensitive
+(figs. 5 and 6) and is consistent with the presence of high tp
+activity in platelets and peripheral blood lymphocytes [7,20].
+a significant loss of udr concentration in plasma samples
+at 23 ◦ c also suggests that residual tp activity is present in
+plasma [10].
+as shown in figs. 3 and 4, no interfering endogenous
+peaks were observed in the plasma samples using lc–ms
+analysis. the described optimal ms condition for udr detection were achieved in negative ion mode which added further selectivity for detecting compounds as it required the
+presence of acidic groups or electronegative elements in the
+molecules for the production of negative ion. in general, the
+production of negative ion (deprotonation) contains less energy than positive ion (protonation) and therefore produces
+fewer fragments. the use of an internal standard 5-iodo-2 deoxyuridine of virtually the same physical and chemical
+properties as udr in the described assay served to correct
+for the changes of extraction efficiency and in mass spectrometer response during quantitative analysis. the recovery of is (average 78.6%) was consistent at both low and
+
+130
+
+k.m. li et al. / j. chromatogr. b 820 (2005) 121–130
+
+high udr concentrations. quantitation using an internal standard method was not possible in previous hplc-uv techniques. our results provide the first reliable reference plasma
+udr concentration (range 30–86 nmol/l) in humans using
+lc–ms method. pharmacodynamic studies have shown that
+oral  xxxd425xxx  produced significant elevation of plasma
+udr after 1 week and over the first cycle of treatment, consistent with ts inhibition. these marked increases in plasma
+udr concentrations are comparable to those previously reported in rodents [17] and patients [6]. these findings further
+suggest that the mechanism of the antiproliferative toxicity of
+ xxxd425xxx  is at least partly due to ts inhibitory activity of
+its active metabolite fdump. the data described indicate that
+plasma udr monitoring has the potential to assist clinicians
+in the development of optimal schedules for  xxxd425xxx  or
+other ts inhibitors in clinical trials. using the dialyzed human plasma calibration preparation, we have also confirmed
+large differences in plasma udr levels between human subjects and rodents.
+in conclusion, the new lc–ms method described here
+provides major advantages in terms of simplicity of sample
+extraction, selectivity of detection and turnaround time as
+compared with previous hplc-uv methods. this method
+has been successfully applied to analyse udr concentrations
+in patients receiving  xxxd425xxx  treatment. the linear mass
+spectrometer response over a wide dynamic range of concentrations of the method is useful for pharmacodynamic studies
+of ts inhibitors in both humans and rodents.
+references
+[1] p.v. danenberg, biochem. biophys. acta 473 (1977) 73.
+[2] c.c. moertel, n. engl. j. med. 330 (1994) 1136.
+
+[3] j.l. grem, in: b.a. chabner, j.m. collins (eds.), cancer chemotherapy, principles and practice, lippincott, philadelphia, 1990,
+p. 180.
+[4] f. mitchell, d. farrugia, c. rees, d. cunningham, i. judson, a.l.
+jackman, br. j. cancer 75 (1997) 25.
+[5] h.e.r. ford, f. mitchell, d. cunningham, d.c. farrugia, m.e. hill,
+c. rees, a.h. calvert, i.r. judson, a.l. jackman, clin. cancer res.
+8 (2002) 103.
+[6] f. mitchell, s. lynn, a.l. jackman, j. chromatogr. b biomed. sci.
+appl. 744 (2000) 351.
+[7] r. marti, y. nishigaki, m. hirano, biochem. bioph. res. co. 303
+(2003) 14.
+[8] r. marti, a. spinazzola, s. tadesse, i. nishino, y. nishigaki, m.
+hirano, clin. chem. 50 (2004) 120.
+[9] n.p.b. dudman, w.b. deveski, m.h.n. tattersall, anal. biochem.
+115 (1981) 428.
+[10] k.m. li, s.j. clarke, l.p. rivory, anal. chim. acta 486 (2003)
+51.
+[11] a. longo, g. bruno, s. curti, a. mancinelli, g. miotto, j. chromatogr. b biomed. sci. appl. 686 (1996) 129.
+[12] h. rosing, v. lustig, f.p. koopman, w.w. ten bokkel huinink, j.h.
+beijnen, j. chromatogr. b biomed. sci. appl. 696 (1997) 89.
+[13] n. takeda, h. yoshizumi, t. niwa, j. chromatogr. b 746 (2000) 51.
+[14] y. hua, s.b. wainhaus, y. yang, l. shen, y. xiong, x. xu, f.
+zhang, j.l. bolton, r.b. van breemen, j. am. soc. mass. spectrom.
+12 (2000) 80.
+[15] g.a. taylor, p.j. dady, k.r. harrap, j. chromatogr. 183 (1980) 421.
+[16] g.a. taylor, a.l. jackman, a.h. calvert, k.r. harrap, in: c.h.m.m.
+de bruyn, h.a. simmonds, m.m. muller (eds.), purine and pyrimidine metabolism in man iv, plenum press, new york, 1984, p.
+379.
+[17] s.j. clarke, d.c. farrugia, g.w. aherne, d.m. pritchard, j. benstead, a.l. jackman, clin. cancer res. 6 (2000) 285.
+[18] m. duran, l. dorland, e.e. meuleman, p. allers, r. berger, j. inherit. metab. dis. 20 (1997) 227.
+[19] m.m. kushnir, a.l. rockwood, g.j. nelson, j. mass spectrom. 39
+(2004) 532.
+[20] a. apinazzola, r. marti, i. nishino, a.l. andreu, a. naini, s.
+tadesse, i. pela, e. zammarchi, a. donati, a. oliver, m. hirano, j.
+biol. chem. 277 (2002) 4128.
+

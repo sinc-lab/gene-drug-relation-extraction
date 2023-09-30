@@ -1,0 +1,473 @@
+599
+
+note / note
+
+in vivo hydrolysis of s-adenosyl- xxxd2595xxx 
+in escherichia coli increases export of
+5-methylthioribose
+jeffrey a. hughes
+
+abstract: escherichia coli can not synthesize methionine from 5-methylthioribose (mtr) but instead exports this sulfurcontaining, energy-rich molecule into the surrounding medium. transforming e. coli with plasmids that direct expression
+of the cloned coliphage t3 s-adenosyl- xxxd2595xxx  (sam) hydrolase (samase) induces the met  xxxd313xxx  by cleaving
+the sam co-repressor to form 5′- xxxd2619xxx , which is then cleaved to produce mtr. to test the effect of in
+vivo samase activity on mtr production and its fate, cultures were incubated in the presence of [35s]methionine and
+[methyl-3h]methionine. cells with samase activity produced significantly enhanced levels (up to 40-fold in some trials)
+of extracellular mtr — the only radiolabeled compound released in significant amounts — when compared with
+controls. sam synthetase (metk) mutants transformed with samase expression vectors did not show this increase,
+verifying the path through sam as the sole route to mtr production. samase expression had little or no effect on
+intracellular mtr pools, levels of radiolabeled macromolecules, or the transfer of methyl groups to compounds that
+could be precipitated by trichloroacetic acid. thus, mtr appears to be a dead-end metabolite in e. coli, begging questions
+about how this has evolved, the mechanism of mtr export for the cell, and whether the release of mtr is important
+for some other activity.
+key words: 5-methylthioribose, s-adenosyl- xxxd2595xxx , samase, escherichia coli, export.
+résumé : escherichia coli ne peut synthétiser la méthionine à partir du 5-méthylthioribose (mtr) et exporte plutôt
+cette molécule contenant du soufre et riche en énergie dans le milieu environnant. la transformation de e. coli avec des
+plasmides qui dirigent l’expression du coliphage cloné t3 s-adénosyl-l-méthionine (sam) hydrolase (samase) induit
+le régulon met en clivant le co-répresseur sam pour former la 5′-méthylthioadénosine qui est ensuite clivée pour produire
+le mtr. afin d’évaluer l’impact de l’activité samase in vivo sur la production de mtr et sur son sort, des cultures
+ont été incubées en présence de [35s]méthionine et de [méthyl-3h]méthionine. les cellules avec une activité samase
+ont produit des niveaux significativement accrus (jusqu’à 40 fois dans certaines expériences) de mtr extracellulaire —
+le seul composé radiomarqué libéré en quantités significatives — lorsque comparées aux témoins. des mutants de la
+sam synthétase (metk) transformés avec les vecteurs d’expression de la samase n’ont pas manifesté cette augmentation,
+ce qui confirme que la voie passant par la sam est la seule menant à la production de mtr. l’expression de samase
+n’a eu que peu ou pas d’effet sur les réserves intracellulaires de mtr, les niveaux de macromolécules radiomarquées
+ou le transfert de groupes méthyle à des composés précipitables au tca. ainsi, le mtr semble être un métabolite sans
+issue chez e. coli, soulevant les questions de comment ceci a-t-il évolué, sur les mécanismes d’exportation du mtr
+hors de la cellule et si la libération de mtr est importante pour une quelque autre activité.
+mots clés : 5-méthylthioribose, s-adénosyl-l-méthionine, samase, escherichia coli, exportation.
+[traduit par la rédaction]
+
+hughes
+
+602
+
+s-adenosyl- xxxd2595xxx  (sam) is a ubiquitous nucleotide
+that participates in many physiological processes, including the
+received 29 august 2005. revision received 16 january 2006.
+accepted 20 january 2006. published on the nrc research
+press web site at http://cjm.nrc.ca on 14 june 2006.
+j.a. hughes.1 department of biology, hanover college,
+p.o. box 890, hanover, in 47243, usa
+(e-mail: hughes@hanover.edu).
+1
+present address: department of biology, roger williams
+university, bristol, ri 02809, usa.
+can. j. microbiol. 52: 599–602 (2006)
+
+synthesis of polyamines, ethylene, biotin, unusual nucleotides
+in trna, and most one-carbon transfers involving dna, rna,
+proteins, carbohydrates, lipids, and other biomolecules
+(reviewed in greene 1996; sekowska et al. 2000). the transfer
+of the methyl group produces  xxxd3157xxx 
+(sah), which is then recycled. other reactions involving
+sam, most notably those producing the polyamines spermidine
+and  xxxd3234xxx , produce 5′- xxxd2619xxx  (mta; reviewed
+in greene 1996). mta does not accumulate in the cell and
+is metabolized in most cells to regenerate methionine and
+adenine by either of two salvage pathways. in higher organisms,
+
+doi:10.1139/w06-008
+
+© 2006 nrc canada
+
+600
+
+mta is most commonly cleaved by  xxxg1471xxx  to
+produce mtr-1-phosphate (mtrp) and adenine (ferro et al.
+1976; pegg and williams-ashman 1969). most simple organisms
+(e.g., klebsiella pneumoniae) produce mtrp through a two-step
+process. first, mta nucleosidase cleaves mta to produce
+5-methylthioribose (mtr) and adenine (this bifunctional
+enzyme also cleaves sah to produce s-ribosylhomocysteine
+and adenine). second, mtr kinase transfers the terminal
+phosphate from atp to form mtrp (duerre 1962; ferro et
+al. 1978). methionine is then synthesized from mtrp in a
+multi-step enzymatic process (gianotti et al. 1990). the distinction between these two salvage pathways identifies an
+attractive site for antibiotic development (gianotti et al. 1990;
+riscoe et al. 1988).
+curiously, after cleaving mta to mtr with its mta
+nucleosidase, escherichia coli does not then synthesize mtrp
+from mtr but instead exports it (schroeder et al. 1973).
+this seems odd given the energetic cost to the cell and the
+elaborate mechanisms that exist in most cells for recycling
+sulfur, an often limiting nutrient and important part of
+antioxidation mechanisms. escherichia coli lives in an
+anaerobic environment unusually rich in sulfur, and it has
+been suggested that mtr export evolved because the ability
+to remove excess sulfur was an advantage to cells living
+under these conditions (sekowska et al. 2000).
+the metabolism of sam in e. coli can be studied by
+transforming cells with an expression vector containing the
+cloned coliphage t3 sam hydrolase (samase) gene (hughes
+et al. 1987; posnick and samson 1999). samase cleaves
+sam to produce homoserine and mta, and the mta is then
+cleaved by mta nucleoside in e. coli to produce mtr.
+among its other roles, sam is the co-repressor of the
+expression of most genes in the met  xxxd313xxx  (shoeman et al.
+1985). these genes, which include the gene for sam
+synthetase, metk, are induced upon the samase-mediated
+loss of sam (lamonte and hughes 2006). this should set
+up a destructive cycle in which in vivo samase activity
+induces synthesis of sam synthetase, more sam is then
+produced and immediately cleaved by samase into mta,
+and the mta is then cleaved by mta nucleosidase into
+adenine and mtr.
+this putative enhanced synthesis of mtr should produce
+a novel and possibly stressful situation for the cell that could
+reveal alternative uses for or fates of mtr. this report
+details experiments comparing the metabolism of exogenously
+supplied radiolabeled methionine by cells transformed with
+a samase expression vector to negative controls. the results
+of these experiments demonstrated sam-dependent enhanced
+mtr production and its export but revealed no alternative
+metabolism of methionine or accumulation of labeled
+metabolites in cells with in vivo samase activity, though it
+remains tempting to speculate on possible roles for the
+export of mtr.
+escherichia coli k12 strain bw545 (∆lacu169, rpsl) was
+used throughout these experiments. bwmj (bw545,
+tn5::metj172) and bwmk (bw545, tn5::metk173), strains
+induced for expression of elements of the met  xxxd313xxx  due to
+a defective apo-repressor (metj) or co-repressor (sam,
+produced by metk or sam synthetase) synthesis, were
+produced by p1 transduction (miller 1992) from gw2529
+and gw2533 (mulligan et al. 1982), respectively. yt medium
+
+can. j. microbiol. vol. 52, 2006
+
+(miller 1992) formulated with bacto™ tryptone and bacto™
+yeast extract (becton, dickinson, and company, sparks,
+maryland, usa) was used for all cultures. all chemicals not
+otherwise indicated were purchased from standard biochemical
+supply companies.
+cells were transformed with either pbr322 or phbbr2
+(a pbr322 derivative encoding resistance to tetracycline and
+containing a constitutively expressed coliphage t3 samase
+gene in an arrangement otherwise similar to the m13hb1
+reported in hughes et al. (1987)). samples (3 ml) of sterile
+yt containing 15 µg/ml tetracycline were inoculated with
+100 µl of an overnight culture and 3 µl of either [methyl3
+h]methionine (1 mci/ml, 70 ci/mmol) or [35s]methionine
+(15 mci/ml, 1000 ci/mmol) (amersham biosciences corp.,
+piscataway, new jersey, usa). they were then incubated
+overnight (approx. 16 h) at 37 °c with shaking. to minimize
+variability due to the impact of in vivo samase expression
+on cell growth rates, viability, and structure — samase
+expression induces significant cell filamentation — cultures
+were grown to stationary phase, and bacterial growth was
+measured spectrophotometrically at a600 rather than by viable
+cell counts.
+overnight cultures were divided into two fractions: culture
+supernatant (the medium remaining after cells were removed
+by centrifugation at 13 200g for 10 min) and cell pellet. the
+pellet was further subdivided into cell macromolecules (the
+precipitate from resuspended cells lysed by vortexing for
+2 min with 10% trichloroacetic acid (tca) and collected by
+centrifugation for 10 min at 13 200g), and cell small molecules (the post-tca centrifugation supernatant). supernatant
+fractions were neutralized with 1 mol/l koh and subjected
+to affi-gel 601 (bio-rad laboratories, hercules, california,
+usa) affinity chromatography to separate molecules into
+cis-diol-containing or -lacking fractions (hughes et al. 1987).
+[35s]methionine or methyl-3h radioactivity present in each
+fraction was counted by mixing samples in a beckman
+readysafe scintillation cocktail (beckman coulter, inc.,
+fullerton, california, usa) and quantifying radioactivity in
+a beckman ls5000 liquid scintillation counter. results are
+expressed as a percentage of the original label added to each
+culture. molecule identity was also assessed by several thin
+layer chromatography systems (marchitto and ferro 1985).
+the fate of exogenously added [35s]methionine and [methyl3
+h]methionine in overnight cultures of bw545(pbr322)
+and bw545(phbbr2) is detailed in table 1. after overnight
+incubation in yt medium, [35s]methionine and [methyl3
+h]methionine radioactivity wound up in the non-cis-diol
+supernatant fraction and comigrated with mtr in thin layer
+chromatography, indicating it was not affected under the
+conditions of the incubation (data not shown). all cultures
+imported a significant amount of radioactive methionine from
+the methionine-rich yt medium. a larger quantity of the
+[methyl-3h]methionine appeared to be imported, perhaps
+reflecting the use of the methyl group in transmethylations
+in addition to mtr synthesis, but the variability of the data
+complicates any speculation on this observation (see below).
+while statistically insignificant, cultures of cells with in vivo
+samase activity consistently converted up to twice as much
+methionine to either tca-insoluble or cis-diol-containing
+material, suggesting, at best, a marginally enhanced use of
+methionine in these cells. as expected from earlier reports
+© 2006 nrc canada
+
+hughes
+
+601
+
+table 1. effect of in vivo s-adenosyl- xxxd2595xxx  hydrolase (samase) expression on the metabolism of exogenously added
+[35s]methionine and [methyl-3h]methionine.
+total uptake
+
+extracellular mtr
+
+intracellular radioactivity
+
+phbbr2/
+pbr322
+
+% as mtr
+at a600
+
+% in cells
+at a600
+
+phbbr2/
+pbr322
+
+2.73±0.100
+2.35±0.169
+
+0.861
+
+17.5±7.28
+7.43±4.20
+
+0.424*
+
+radiolabel
+
+plasmid
+
+% uptake
+at a600
+
+[35s]methionine
+
+pbr322
+phbbr2
+
+3.15±0.200
+5.74±1.22
+
+1.82
+
+0.419±0.106
+3.37±1.13
+
+[methyl-3h]methionine
+
+pbr322
+phbbr2
+
+18.8±8.31
+20.1±7.16
+
+1.07
+
+1.27±1.20
+12.7±4.26
+
+phbbr2/
+pbr322
+8.04*
+10.0*
+
+note: mtr, 5-methylthioribose. samples were inoculated, cultured, and developed as described in the text. all values expressed as percentages are based
+on the original [35s]methionine or [methyl-3h]methionine added to the culture (± the standard error of the mean), and the phbbr2/pbr322 value is the
+ratio of results from cells with in vivo samase activity (phbbr2) vs negative controls (pbr322). total uptake refers to the radioactivity of the combined.
+extracellular mtr (cis-diol-containing material in the culture medium). intracellular radioactivity (the cell pellet).
+*represents a significant difference between the averages from pbr322 and phbbr2 transformed cells of four independently cultured samples according
+to student’s t test (p < 0.05).
+
+(schroeder et al. 1973), control cells released a significant
+amount of mtr but no mta (or, apparently, any other
+compound), as identified by a single cis-diol-containing
+radioactive compound that comigrated with authentic mtr
+during thin layer chromatography with either label (data not
+shown). in vivo samase activity induced a significant
+increase in mtr export, the predicted result given the
+samase-mediated 20-fold induction of sam synthetase in
+these cells (lamonte and hughes 2006) and subsequent
+hydrolysis of sam to mta and then mtr. finally, because
+yt medium is approximately 2.6 mmol/l in methionine (as
+calculated from “typical analysis” reports available from
+becton, dickinson, and company 2005) and because no
+more than 20% of this is converted during the course of any
+of these experiments, it is not likely that methionine starvation can explain any difference in methionine use between
+cells with in vivo samase activity and controls.
+under normal conditions, the sulfur atom of exogenously
+added methionine is incorporated primarily into proteins
+whereas the methyl group can be either added to proteins or
+transferred after the synthesis of sam to a wide variety of
+compounds. the data comparing the fate of the two labels
+reflect this different use. the 35s label was incorporated into
+cells at similar levels regardless of samase activity, an indication that sam hydrolytic activity did not affect the ability
+of cells to incorporate methionine into proteins. also, cells
+in both cultures incorporated the same amount of the 35s label
+into tca-insoluble material, suggesting that the enhanced
+uptake and conversion of [35s]methionine in cells with
+samase is explained by the dead-end conversion to and
+export of mtr and not by some other use of the sulfur moiety.
+on the other hand, higher levels of the [methyl3
+h]methionine label remained in cells lacking samase
+activity, suggesting that samase-induced conversion of
+methionine to sam and then to mtr prevented alternate
+uses of the methyl group. this is supported by previous
+studies showing significant inhibition of sam-mediated
+activities, such as dna methylation and polyamine biosynthesis
+in cells with in vivo samase activity (hughes et al. 1987).
+it should be noted that mtr export from cells with in
+vivo samase activity varied anywhere from approximately
+4- to 40-fold over the samase negative controls in separate
+trials, but similar trends (i.e., marked enhancement of mtr
+
+export with in vivo samase activity) were always noted.
+this variability is probably due to the uncharacterized growth
+inhibitory effects of in vivo samase expression and its
+effect on plasmid stability, a problem minimized but not
+abolished by use of freshly transformed cells and tetracycline
+in the culture medium. the data presented in table 1 were
+generated during a single trial from four sets of parallel
+cultures to minimize this variability.
+the conversion of exogenously added methionine ultimately
+to mtr should depend on its condensation with atp to
+form sam, and the enhanced export of mtr presumably
+results from the samase-mediated enhanced synthesis of
+sam and its subsequent degradation to mta and mtr. to
+test this, the fate of exogenously added [35s]methionine was
+assayed in bwmj (defective metj apo-repressor protein) and
+bwmk (contains a leaky sam synthetase mutant with less
+than 5% of wild-type activity under inducing conditions),
+both of which constitutively express most genes in the met
+ xxxd313xxx  in the same manner as the strains from which these
+alleles were obtained, as described by mulligan et al. (1982).
+bw545 and bwmj exported similar amounts of [35s]5methylthioribose (10.3% in bw545 vs 7.21% in bwmj),
+whereas, bwmk converted only 1.27% of the added
+methionine to mtr. it should be noted that bwmk cells
+(and those of other strains with metk mutations) grow very
+poorly when transformed with phbbr2, and these growth
+deficiencies may contribute to the lack of mtr export. these
+cultures have many highly filamented and inviable cells, as
+might be expected from and similar to the results of sam
+depletion studies (newman et al. 1998). that any mtr is
+produced is presumably explained by the leaky metk mutation
+in bwmk that not only allows cells growth but also a level
+of sam synthesis sufficient to permit a variety of sammeditated activities, such as dna methylation in this strain.
+taken together, these data suggest a sam-dependent path
+to mtr production and support a model in which in vivo
+samase activity induces sam synthetase expression, the
+subsequent rapid cleavage of many of the sam molecules
+by samase to produce mta then mtr, and the final export
+of apparently expendable mtr that accumulates in the
+culture medium. mtr does not accumulate in cells in which
+it is overproduced (over 95% of the radiolabel in all of these
+cells was tca precipitable), suggesting the presence of an
+© 2006 nrc canada
+
+602
+
+efficient export system. it would be helpful to identify and
+better characterize the mechanism by which this mtr export
+is accomplished. it would also be interesting to determine
+the extent to which other bacteria share the inability to
+metabolize mtr and the extent to which this might complicate
+the development and use of antibiotics that target the
+methionine recycling pathway. also, suggestions that mtr
+export may have resolved detrimental sulfur accumulation or
+may not have been penalized in the sulfur-rich intestinal
+environment might be tested by incorporating the methionine
+recycling genes from bacteria capable of this activity into
+e. coli or by identifying and interfering with the mechanism
+for mtr export.
+an intriguing alternative to this role for mtr export would
+be any possibility that such an activity might form the basis
+for a symbiotic relationship with one or more other organisms
+in e. coli’s complex microenvironment. a notable candidate
+might be quorum sensing, a process of bacterial cell–cell
+communication important for coordinating the activities among
+cells of the same or different species in complex and often
+crowded environments (reviewed in schauder and bassler 2001).
+quorum sensing depends on small molecules (autoinducers)
+to coordinate bacterial cell responses to the external environment, and these molecules are often derived from metabolites of sam, including s-ribosylhomocysteine and mtr
+(schauder et al. 2001). in this system, autoinducers must be
+exported and imported depending on growth conditions and
+culture density — processes that are just now being worked
+out in e. coli and other bacteria (xavier and bassler 2005).
+in vivo samase activity should not only enhance the synthesis
+of sam and mtr but also reduce levels of sah and its
+subsequent metabolites (e.g., s-ribosylhomocysteine) by cleaving
+sam prior to the events (e.g., transmethylations) that generate
+sah (hughes et al. 1987). because these compounds play
+roles in autoinducer synthesis, it may be instructive to assess
+the impact of in vivo samase expression on quorum sensing.
+
+acknowledgements
+this work was supported by vansant and faculty development grants from ursinus college and by faculty development grants from hanover college. i owe many thanks to
+jennifer simmons and nathan hatton for running experiments that supported the results presented in this paper.
+
+references
+becton, dickenson, and company. 2005. typical analysis – bacto™
+tryptone and typical analysis – bacto™ yeast extract [online].
+available from http://www.bd.com/ds/technicalcenter/typicalanalysis/
+index.asp [accessed 27 august 2005].
+duerre, j.a. 1962. a hydrolytic nucleosidase acting on sadenosylhomocysteine and on 5′- xxxd2619xxx . j. biol.
+chem. 237: 3737–3741.
+ferro, a.j., barrett, a., and shapiro, s.k. 1976. kinetic properties
+and the effect of substrate analogues on 5′- xxxd2619xxx 
+nucleosidase from escherichia coli. biochim. biophys. acta,
+438: 487–494.
+
+can. j. microbiol. vol. 52, 2006
+ferro, a.j., barrett, a., and shapiro, s.k. 1978. 5-methylthioribose
+kinase: a new enzyme involved in the formation of methionine
+from 5-methylthioribose. j. biol. chem. 254: 6021–6025.
+gianotti, a.g., tower, p.a., sheley, j.h., conte, p.a., spiro, c.,
+fitchen, j.h., and riscoe, m.k. 1990. selective killing of klebsiella
+pneumoniae by 5-trifluoromethylthioribose: chemotherapeutic
+exploitation of the enzyme methylthioribose kinase. j. biol. chem.
+265: 831–837.
+greene, r.g. 1996. biosynthesis of methionine. in escherichia
+coli and salmonella typhimurium: cellular and molecular biology.
+2nd ed. edited by frederick c. neidhardt. american society for
+microbiology, washington, d.c.
+hughes, j.a., brown, l.r., and ferro, a.j. 1987. expression of the
+cloned coliphage t3 s- xxxd3156xxx  hydrolase gene inhibits
+dna methylation and polyamine biosynthesis in escherichia
+coli. j. bacteriol. 169: 3625–3632.
+lamonte, b.l., and hughes, j.a. 2006. in vivo hydrolysis of sadenosylmethionine induces the met  xxxd313xxx  of escherichia coli.
+microbiology, 152: 1451–1459.
+marchitto, k.s., and ferro, a.j. 1985. the metabolism of 5′ xxxd2619xxx  and 5-methylthioribose-1-phosphate in
+saccharomyces cerevisiae. j. gen. microbiol. 131: 2153–2164.
+miller, j.h. 1992. a short course in bacterial genetics. cold spring
+harbor laboratory, cold spring harbor, n.y.
+mulligan, j.t., margolin, w., krueger, j.h., and walker, g.c. 1982.
+mutations affecting regulation of methionine biosynthetic genes
+isolated by use of met-lac fusions. j. bacteriol. 151: 609–619.
+newman, e.b., budman, l.i., chan, e.c., greene, r.c., lin, r.t.,
+woldringh, c.l., and d’ari, r. 1998. lack of sadenosylmethionine results in a cell division defect in escherichia coli. j. bacteriol. 180: 3614–3619.
+pegg, a.e., and williams-ashman, h.-g. 1969. phosphate-stimulated
+breakdown of 5′- xxxd2619xxx  by rat ventral prostate.
+biochem. j. 115: 241–247.
+posnick, l.m., and samson, l.d. 1999. influence of sadenosylmethionine pool size on spontaneous mutation, dam
+methylation, and cell growth of escherichia coli. j. bacteriol.
+181: 6756–6762.
+riscoe, m.k., ferro, a.j., and fitchen, j.h. 1988. analogs of 5methylthioribose, a novel class of antiprotozoal agents. antimicrob.
+agents chemother. 32: 1904–1906.
+schauder, s., and bassler, b.l. 2001. the languages of bacteria.
+genes dev. 15: 1468–1480.
+schauder, s., shokat, k., surette, m.g., and bassler, b.l. 2001.
+the luxs family of bacterial autoinducers: biosynthesis of a
+novel quorum-sensing signal molecule. mol. microbiol. 41:
+463–476.
+schroeder, h.r., barnes, c.j., bohinski, r.c., and mallette, m.f.
+1973. biological production of 5-methylthioribose. can. j.
+microbiol. 19: 1347–1354.
+sekowska, a., kung, f., and danchin, a. 2000. sulfur metabolism
+in escherichia coli and related bacteria: facts and fiction. j. mol.
+microbiol. biotechnol. 2: 145–177.
+shoeman, r., redfield, b., coleman, t., greene, r., smith, a.,
+brot, n., and weissbach, h. 1985. regulation of methionine
+synthesis in e. coli: effect of the metj gene product and sadenosylmethionine on the expression of the metf gene. proc.
+natl. acad. sci. u.s.a. 82: 3601–3605.
+xavier, k.b., and bassler, b.l. 2005. regulation of uptake and
+processing of the quorum sensing autoinducer ai-2 in escherichia coli. j. bacteriol. 187: 238–248.
+
+© 2006 nrc canada
+

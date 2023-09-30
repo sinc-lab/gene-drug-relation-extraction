@@ -1,0 +1,929 @@
+protein expression and puriﬁcation 55 (2007) 236–245
+www.elsevier.com/locate/yprep
+
+classical ligands interact with native and recombinant tubulin from
+onchocerca volvulus with similar rank order of magnitude
+eddie m. wampande a, j. richard mcintosh b, george w. lubega
+a
+
+a,*
+
+department of parasitology and microbiology, faculty of veterinary medicine, makerere university p.o. box 7062, kampala, uganda
+b
+department of molecular, cellular and developmental biology, university of colorado, boulder 80309-0347, usa
+received 13 september 2006, and in revised form 4 march 2007
+available online 25 april 2007
+
+abstract
+the a- and b-tubulin genes from onchocerca volvulus were individually expressed for the ﬁrst time in escherichia coli (dh5a). the
+recombinant tubulins were puriﬁed, renatured and reconstituted into oligomers, probably dimers, which were competent to bind three
+classical tubulin ligands: mebendazole (mbz), taxol (tax) and vinblastine (vbn). a new charcoal-dependent binding assay allowed
+accurate discrimination between speciﬁc and non-speciﬁc ligand binding in crude cell extracts. to compare the magnitude of binding
+of both native and recombinant forms of tubulin, we developed an elisa assay for estimating the amount of tubulin in soluble protein
+extracts of o. volvulus. binding assays were performed; both the maximum binding at saturating ligand concentrations (bmax) and the
+equilibrium dissociation constants (kd) were determined. the bmax values of the diﬀerent ligands were signiﬁcantly diﬀerent from one
+another (p < 0.05), but the order of the bmax and kd for each drug were vbn > tax > mbz for both native and recombinant tubulin.
+indeed, bmax values for mbz with native and recombinant tubulins were similar. on average, native tubulin had higher or similar binding capacity (bmax) but a consistently higher aﬃnity (lower kd) than the recombinant tubulin. we conclude that at least some of the
+recombinant molecules form receptors that are similar to those in native tubulin dimers. these data suggest that recombinant tubulin
+can be used to develop a molecular screen for novel anti-tubulin ligands to develop into drugs against onchocerciasis.
+ 2007 elsevier inc. all rights reserved.
+keywords: recombinant and native tubulin; onchocerca volvulus; classical ligands; binding capacity and binding aﬃnity; tubulin expression
+
+tubulin, a major constituent of microtubules, is present in all eukaryotic cells [1]. genetic and pharmacological perturbations show that tubulin is an essential
+protein. although highly conserved, the tubulins of lower
+eukaryotes, such as protozoa and helminthes, have diﬀerent sensitivities to microtubule perturbing agents compared to tubulins of higher eukaryotes, such as
+mammals [1]. this encourages hope for the development
+of novel, selective anti-tubulin chemotherapeutic compounds. classical antimitotic agents, including benzimidazoles (bz),1 vinblastine (vbn), colchicine (clc),
+ xxxd2980xxx  (pdn), and taxol (tax) act by binding
+*
+
+corresponding author. fax: +256 41 534336.
+e-mail address: glubega@imul.com (g.w. lubega).
+1
+abbreviations used: mbz, mebendazole; tax, taxol; vbn, vinblastine; bz, benzimidazoles; clc, colchicine; pdn,  xxxd2980xxx .
+1046-5928/$ - see front matter  2007 elsevier inc. all rights reserved.
+doi:10.1016/j.pep.2007.04.011
+
+to tubulin. since tubulin and microtubules exist in a
+dynamic equilibrium in vivo, tubulin ligands that interfere
+with this equilibrium are commonly lethal, either through
+blocking microtubule assembly or by stabilizing existing
+polymers. this interference disrupts cell physiology and
+blocks cell division [2,3].
+existing anti-tubulin drugs are important treatments for
+many human and animal diseases. for example, many bzs
+are potent fungicides and nematocides. paclitaxel (taxol), a
+dipteroid, now plays an important role in cancer chemotherapy, but its toxicity, aqueous insolubility and complex
+chemical structure make this line of compounds diﬃcult to
+modify for drug development [4,5]. it remains to be seen
+whether novel compounds with activities similar to or better than those of existing drugs can be found. understanding the kinetics of tubulin-drug interactions would help to
+give an insight into this possibility.
+
+e.m. wampande et al. / protein expression and puriﬁcation 55 (2007) 236–245
+
+237
+
+on the other hand, some anti-tubulin drugs appear to be
+useless for the treatment of some parasites. there is no
+clear evidence for a vinblastine (vbn)-binding site on helminthes tubulin, and attempts to localize the binding site of
+vbn to either a or b subunit of vertebrate tubulin have
+achieved only limited success [4,6]. therefore, with this limited information, it seems unlikely that vbn-like ligands
+can act as lead compounds in the screening or combinatorial chemistry for development of novel anthelmintics. the
+importance of the vbn-binding site is highlighted in this
+study.
+the anti-tubulin ligands that are widely used as anthelmintics, for instance the bzs, lack clinical signiﬁcance as
+macroﬁlaricides [7]. whereas albendazole, a bz, is eﬀective
+against lymphatic ﬁlariasis [8], it is ineﬀective against
+onchocerciasis. a ﬂubendazole analogue [8] kills adult
+onchocerca worms, and might well have been developed
+into a commercial drug, but it displays signiﬁcant toxicity
+for the host. because this ﬂubendazole analogue is an eﬀective macroﬁlaricide, it has been tempting to look for novel,
+tubulin-binding compounds (irrespective of chemical class
+or tubulin-binding site) with enhanced selectivity for
+macroﬁlaria.
+to enhance this drug discovery process, one needs biochemical quantities of an active drug target. it is diﬃcult,
+however, to gather onchocerca worms, because the surgical
+procedure for obtaining them from patients is expensive
+and traumatic, and tubulin abundance within them is limited [9–12]. further, there are no suitable laboratory animal hosts for propagating onchocerca volvulus [13]. the
+immediate focus of this study was therefore to determine
+whether one could make recombinant tubulin with receptor
+characteristics similar to those of native tubulin. our
+approach has been to compare the interactions of classical
+tubulin ligands with native and recombinant tubulin from
+o. volvulus. the long-term objective of this study is to provide knowledge and tools that will help to develop an assay
+for identifying novel lead ligands that interact eﬀectively
+with onchocerca tubulin and kill the adult parasite without
+harming its host. we assume that such novel compounds
+should mimic the activity of the classical ligands, though
+they could be structurally diﬀerent.
+in this paper, we report for the ﬁrst time, the successful
+expression of both a- and b-tubulin of o. volvulus in escherichia coli. we ﬁnd that both native and recombinant tubulins rank ligands similarly in terms of bmax and kd and
+propose that recombinant tubulin can be useful in the
+development of a molecular screen for novel anti-tubulin
+chemotherapeutics for onchocerciasis
+
+the plasmids, ptrp2 a or ptrp2 b, were transformed into
+dh5a e. coli cells that had been made competent by the
+calcium chloride method [16]. positive transformants were
+selected on ampicillin agar, and prospective clones were
+conﬁrmed to contain the appropriate gene by release of the
+insert through restriction digestion or pcr ampliﬁcation.
+cells from a colony that carried the insert of interest were
+grown to mid-log phase (od600 = 0.8–1.0) at 37 c while
+shaking at 200 rpm in 50 ml of lb medium containing
+100 lg/ml ampicillin and 200 lg/ml tryptophan (to repress
+the promoter activity). to induce expression, the grown cells
+were diluted 40-fold with m9 medium lacking tryptophan
+but containing 100 lg/ml ampicillin, 4 g/l glucose, 2 mm
+ xxxd2534xxx  and incubated for 2 h at 37 c. fifty micrograms
+per milliliter ﬁnal concentration of 3 b-indole acrylic acid
+was then added to further enhance protein expression, and
+the culture was incubated at 30 c for a further 16 h.
+
+materials and methods
+
+puriﬁcation and solubilisation of the inclusion bodies
+containing the expressed tubulin
+
+enzymes used
+restriction endonucleases and t4 dna ligases were
+purchased from amersham. the pcr kit was purchased
+
+from invitrogen. the enzyme reaction conditions were as
+recommended by the supplier.
+onchocerca volvulus a- and b-tubulin cdnas
+the a-tubulin cdna was cloned during the course of
+this study (genbank accession no. dq010542). the btubulin cdna was obtained courtesy of t. geary [14].
+the cdna’s were sub-cloned and expressed as outlined
+in the subsequent paragraphs.
+construction of ptrp2 a or ptrp2 b recombinant plasmids
+to introduce the appropriate restriction sites the inserts
+were regenerated by pcr using a-tubulin or b-tubulin
+cdnas of o. volvulus as templates and modiﬁed complementary primers (for a-tubulin: forward primer: 5 0 taa atc gat  xxxg873xxx  cga ggt gat atc agt
+aca-3 0 and reverse: 5 0 -taa gga tcc tca ata
+ctc ctc gcc ttc gcc-3 0 ; for b-tubulin: forward primer: 5 0 -taa atc gat gag aga aat tgt tca
+tgt tca agc-3 0 , reverse primer: 5 0 -tta gga tcc
+tta ctc ttc ctg ttc aat gta ttc c-3 0 ) that
+included clai (forward primers) and bamhi (reverse
+primers) restriction sites. the pcr products were cut with
+clai and bamhi, puriﬁed by agarose gel electrophoresis,
+and ligated with the ptrp2 vector [15], which had been similarly digested and puriﬁed, to produce recombinant plasmids ptrp2 a and ptrp2 b, respectively.
+transformation of e. coli and induction of tubulin expression
+
+both a- and b-tubulin were expressed in inclusion bodies,
+which were solubilised in alkaline urea, then puriﬁed and
+concentrated utilizing amicon cones as described [17–19].
+the concentrate was ﬁnally dialyzed for 6–8 h at 4 c against
+
+238
+
+e.m. wampande et al. / protein expression and puriﬁcation 55 (2007) 236–245
+
+pem buﬀer (0.1 m pipes, 2 mm  xxxd2534xxx , and 1 mm egta)
+containing 10% glycerol, 1 mm pmsf, and 2 mm gtp. the
+dialyzed sample was centrifuged at 12,000g and 4 c for
+30 min to remove aggregated tubulin, and the protein concentration of the supernatant phase was determined by the
+method of bradford [20], using bsa as standard. to characterize the expressed proteins sds–page and western blot
+analyses were done as described in [17].
+reconstitution of recombinant a- and b-tubulin monomer
+into heterodimer
+reconstitution of the expressed tubulin monomers into
+a/b hetero-oligomers (the preparation probably contained
+both heterodimers and hetero-oligomers of higher order)
+was initiated by mixing equal amounts of recombinant aand b-tubulin in pem buﬀer containing 2 mm gtp, 5%
+glycerol, and 20 mm  xxxd302xxx  hydrochloride (protease
+inhibitor), then incubating at 37 c for 1 h to allow the tubulins to form microtubule or microtubule-related structures. the sample was later transferred onto ice, cacl2
+added (2 mm ﬁnal concentration), and incubation continued for a further 1 h. this allowed the tubulin protein to
+disassemble yielding a soluble form of the tubulin, which
+was used in the drug-binding studies. the fact that this
+tubulin contained hetero-oligomers of both a- and b-tubulin was demonstrated by the immunoprecipitation kit
+(amersherm) and western blot (see results).
+preparation of o. volvulus soluble protein extracts and antitubulin antibodies
+nodulectomies were performed on patients with palpable
+onchocerca nodules; the worms were extracted from nodules
+as described [21], with modiﬁcations for optimal extraction,
+and kept frozen for future use. fresh or frozen o. volvulus
+adult worms were washed with cold pem buﬀer until they
+were visibly clean. the worms were cut into small pieces
+and 1.5 volumes of pem buﬀer containing 2 mm pmsf
+was added. the mixture was homogenized on ice using a
+hand-held polytron homogenizer, using bursts of a few seconds each, until the mixture was homogeneous. the resultant homogenate was centrifuged at 12,000g for 30 min at
+4 c, and the supernatant re-centrifuged at 100,000g for
+1 h at 4 c to produce a clear supernatant. the protein content in this supernatant was quantiﬁed and either used immediately or stored at 80 c until needed. in order to reliably
+estimate the tubulin content in the supernatant speciﬁc
+anti-tubulin antibodies were used in elisa. the speciﬁc
+antibodies were raised in rabbits against recombinant
+o. volvulus b-tubulin (rabbit anti-b tubulin sera).
+determination of o. volvulus tubulin concentration by
+elisa
+in this assay, known concentrations of recombinant btubulin were used to construct a standard curve from which
+the unknowns could be determined by interpolation. two
+
+hundred microliters of a 40 lg/ml solution of poly-l-lysine
+(pll) were added to elisa plates (corning) and incubated for 1 h at room temperature to allow the pll to coat
+the plates. the pll solution was removed, then 200 ll of
+0.2% glutaraldehyde in pbs was added to the wells and
+incubated for a further 30 min at room temperature to
+immobilize the pll on the plates. this solution was discarded, and the wells washed three times with pbs. then
+known concentrations of recombinant b-tubulin (0.4–
+5.0 lg/assay) or 10 ll of o. volvulus soluble extract (test
+sample) in 200 ll of 0.1 m carbonate buﬀer or 200 ll of
+0.1 m protein-free carbonate buﬀer alone (blank or control
+wells) were added and incubated overnight at 4 c to allow
+coating of the wells with tubulin (the pll selectively binds
+tubulin plus other acidic proteins). the solution was then
+discarded, and the wells were washed three times with
+pbs containing 0.05% tween 20. two hundred microliters
+of 5% bsa in pbs were added, and the plates were incubated at room temperature for 1 h to block any non-speciﬁc binding sites. the blocking solution was discarded,
+and 100 ll of primary antibody, consisting of the rabbit
+antiserum raised against onchocerca b-tubulin, diluted
+1:200 in pbs and containing 3% bsa, was added and incubated at 37 c for 1 h. the wells were washed as described
+above to remove the unbound antibodies. then 100 ll of
+secondary antibody consisting of anti-rabbit, peroxidaseconjugated igg (1:1000 dilution) (amersham) was added
+in each well and incubated for a further 1 h at 37 c. after
+washing as before, 200 ll of the substrate solution consisting of 5 mm orthophosphate phenyldiamine (opd) substrate (icn biomedical) and 0.04% v/v hydrogen
+peroxide in 0.1 m citrate–phosphate (ph 5) buﬀer were
+added and incubated for 10 min before the reaction was
+stopped with 3 n  xxxd3258xxx . absorbances were measured using an elisa reader (multiskan plus) at 492 nm,
+and the net absorbance readings were obtained by subtracting the negative control (column 1) reading from each of
+the absorbances obtained from the various wells containing
+known amounts of recombinant b-tubulin or unknown
+amounts of the test samples. the net absorbance values
+were then assembled with their corresponding recombinant
+b-tubulin concentrations to generate a standard curve. the
+amounts of tubulin in the unknown (test) samples were
+estimated by interpolation of their net absorbance values
+onto the linear range of the standard curve. for the calculations of binding parameters described below, soluble
+tubulin was assumed to be an a–b heterodimer.
+drug-binding studies
+establishment of optimal binding conditions
+various binding situations were investigated in order to
+determine the best conditions for the actual binding experiments. these included: conditions for solubilisation of bz
+compounds, incubation temperatures of assay components,
+assay volumes, order of adding assay components, charcoal concentration for extracting unbound drug, charcoal
+
+e.m. wampande et al. / protein expression and puriﬁcation 55 (2007) 236–245
+
+extraction time and temperature, and the amount of
+tubulin per assay. the procedure that produced the strongest and most reproducible binding results was then used
+for all the experiments reported here. in this procedure,
+the protein samples were ﬁrst incubated on ice for at least
+1 h in the presence of 2 mm cacl2, to promote tubulin depolymerization, and in the presence of 20 mm  xxxd302xxx 
+hydrochloride to inhibit any proteases that might be
+present. the reagents of the binding reaction were then
+mixed in a speciﬁc order. first added was 10 ll of either
+100% dmso (for the ‘‘total binding,’’ i.e. tb tubes) or
+100 lm unlabeled ligand in 100% dmso (‘‘non-speciﬁc
+binding,’’ i.e. nsb tubes), followed by 20 ll of [3h] ligand,
+and then 70 ll of pem buﬀer containing 1% bsa. samples
+were then mixed by vortexing, brieﬂy centrifuged to collect
+all the liquid in the tube, and incubated at 37 c for 1 h to
+allow equilibration of the contents at this temperature. one
+hundred microliter of ice-cold sample buﬀer containing
+either 1% bsa (blank) or the protein sample (40 lg/assay
+recombinant protein) in binding sample buﬀer were then
+added and vortexed, and the tube again brieﬂy centrifuged
+to collect the liquid contents, followed by incubation for a
+further 30 min at room temperature. the mixing of the
+pre-warmed (37 c) and ice-cold samples means that the
+incubation (binding assay) was instantly started at room
+temperature (18.5–25 c). the binding reaction was terminated by addition of 500 ll of a suspension of activated
+charcoal (14 mg/ml) containing 1% bsa, which had been
+equilibrated at room temperature with stirring. this mixture was immediately vortexed and centrifuged at 13,000g
+for 5 min to sediment the unbound drug (adsorbed on
+charcoal). to determine the amount of bound drug,
+500 ll of the supernatant were added to 5 ml of scintillation
+cocktail, and the amount of radioactivity (dpm) determined using a scintillation counter (beckman, ls 650).
+the net drug bound in the assay was determined as
+described by [17,22,23].
+results
+expression of o. volvulus a- or b-tubulin genes in e. coli
+an optimized method for puriﬁcation and naturation of
+recombinant tubulin was developed and the yield evaluated
+(table 1). fig. 1 shows the coomassie blue stained sds–
+page (a and b) of total cellular protein extracts from
+the uninduced or induced cells or puriﬁed expressed tubulin. similar samples were also processed for immunoblotting fig. 1(c and d) using commercial anti-chicken-a- or
+b-tubulin monoclonal antibodies. a prominent protein of
+about 50 kda was observed in each case.
+determining whether the recombinant tubulin formed heterooligomers
+the puriﬁed tubulin monomers were persuaded to
+dimerise (form dimer) as described in materials and
+
+239
+
+methods. the putative dimers were immunocomplexed
+with either anti-a or anti-b monoclonal antibodies or
+buﬀer (control) and immunoprecipitated by complexing
+with protein a-coated beads, followed by centrifugation.
+pelleted proteins were detected by western blot using
+anti-a or anti-b tubulin monoclonal antibodies. both aand b-tubulin antibodies were able to independently pull
+down an immunoprecipitate that contained both the target and counterpart subunits, but neither subunit was
+immunoprecipitated in the control, where no antibody
+was added (data not shown).
+evaluation of the presence and speciﬁcity of anti-b tubulin
+antibodies in the serum used for estimation of tubulin content
+in o. volvulus supernatant
+the rabbit immune sera, day 28, recognized recombinant and native b-tubulin from o. volvulus, but it bound
+neither o. volvulus a-tubulin nor rat brain tubulin
+(fig. 2). the commercial anti-chicken b-tubulin monoclonal antibody, on the other hand, recognized both the parasite and rat brain b-tubulin but not a-tubulin. there were
+no antibodies in the pre-immune serum to recognize tubulin in any sample (data not shown).
+estimation, from the standard curve of the amount of native
+tubulin in o. volvulus crude extracts
+a typical saturable standard curve was obtained by
+using known amounts of recombinant b-tubulin plotted
+against the net absorbance values obtained by elisa,
+using a ﬁxed amount of rabbit immune serum containing
+anti-b tubulin antibodies (fig. 3). the percentage of tubulin in the soluble extract was approximately 0.8% of the
+total soluble protein.
+drug-binding studies
+optimal drug-binding assay conditions
+mebendazole (mbz) and most other benzimidazoles
+(bz) are sparingly soluble in water, so these compounds
+were initially dissolved in 100% dmso and subsequently
+mixed with aqueous solutions, keeping the ﬁnal dmso
+concentration at 5% to prevent the drug from precipitating. also, the order of component addition turned out to
+be important to ensure that the bz compounds did not
+precipitate, so it was always as described in materials
+and methods and as indicated in the legend of fig. 4.
+it was also important to keep the tubulin sample on
+ice to ensure that it remained soluble. on the other hand
+bz binds tubulin with high aﬃnity only at temperatures
+ranging from room temperature to 37 c. the binding
+under cold conditions is of low aﬃnity, but at elevated
+temperatures, tubulin assembly might inﬂuence the
+binding model. therefore, conditions were devised by
+which the temperature of the protein sample was quickly
+raised to above room temperature. this allowed
+
+240
+
+e.m. wampande et al. / protein expression and puriﬁcation 55 (2007) 236–245
+
+fig. 1. expression and identiﬁcation of a- and b-tubulin from onchocerca volvulus. coomassie blue stained sds–page (a for a and b for b ) and the
+corresponding western blot membranes (c for a and d for b) show the tubulin (see arrow) expressed in e. coli using the ptrp2 vector. transformed e. coli
+cells were grown in presence of excess tryptophan (to repress expression) (lane 1) and later induced (lane 2) to express the tubulin (in absence of
+tryptophan). the tubulin which was produced in inclusion bodies was puriﬁed and renatured (lane 3). for western blots, commercial anti-chicken a- or btubulin monoclonal antibodies were used.
+
+fig. 2. demonstration of the presence and speciﬁcity of the anti-b tubulin antibodies in the immune serum used to estimate tubulin content in o. volvulus
+supernatant. amounts (30 lg) of recombinant a-tubulin (lane 1), o. volvulus crude soluble extract (lane 2), mammalian soluble extract of the brain, (lane 3)
+and recombinant b-tubulin, (lane 4) were run on sds–page in triplicates. one gel was stained with coomassie blue (a). the other two gels were
+processed for western blot using rabbit anti-b tubulin immune serum (b) or commercial anti-chicken b-tubulin monoclonal antibodies (c).
+
+high-aﬃnity bz-tubulin interaction to begin before
+substantial protein assembly could take place (see legend
+of fig. 4). this was achieved by making the ﬁnal
+incubation volume 200 ll, so that half of this (buﬀer
+containing the ligands to be tested) was pre-warmed to
+37 c while the other half, which contained the tubulin,
+was kept on ice. mixing the two halves instantly
+brought the assay temperature to room temperature
+(18–25 c).
+
+optimal charcoal extraction conditions were intensively
+investigated, because speciﬁc binding (sb) could assume a
+negative value for many protein samples, due to erroneous
+determination of the background for the nsb assay (data
+not shown). particularly investigated was the right concentration of the charcoal that would extract the unbound
+ligand(s) from the tb and nsb to the same extent, despite
+the presence of a large concentration of the unlabeled drug
+in the nsb tubes.
+
+e.m. wampande et al. / protein expression and puriﬁcation 55 (2007) 236–245
+
+40 lg/assay was taken as a suitable concentration and
+was used in the subsequent binding experiments. this
+was possible provided that the procedure given in the legend of fig. 4 was followed. deﬁning nsb with a ﬁnal concentration of unlabelled ligand higher than 5 lm required
+more stringent charcoal conditions to which the tubulin–
+ligand complex was not stable (data not shown).
+
+0.3
+
+od (492 nm)
+
+241
+
+0.2
+
+determination of the optimal unlabeled ligand, charcoal, and
+recombinant protein concentrations for use in drug-binding
+studies
+through many trial experiments we determined that the
+background radioactivity was about the same in both
+assays when the ﬁnal unlabeled ligand and charcoal concentration were 5 lm and p10 mg/ml, respectively, (see
+fig. 4i). therefore, a ﬁnal charcoal concentration of
+10 mg/ml and a ﬁnal unlabelled ligand concentration of
+5 lm were used in all subsequent experiments. under these
+conditions a linear plot of protein concentration against
+counts was observed for a/b dimer (fig. 4ii). at p40 lg/
+assay the binding for the reconstituted dimer was more
+than twice the corresponding background tubes, so
+
+interactions of [3h] classical ligands with native or
+recombinant tubulin preparations from o. volvulus
+the binding aﬃnity (kd) and the number of binding
+sites (bmax) of the ligands for various samples were determined from the saturation data presented in fig. 5 using
+non-linear regression in graphpad’s prism 4 software
+(table 2). when the bmax values for native and recombinant tubulins were compared, vbn and tax registered
+signiﬁcantly (p < 0.05) higher values for the native than
+for the recombinant tubulin, whereas mbz had similar
+bmax values for the two types of tubulin samples. on the
+other hand all the ligands registered a signiﬁcantly
+(p < 0.05) higher aﬃnity (kd 10 times lower) for the native
+than for the recombinant tubulin. the bmax values of the
+diﬀerent ligands were compared and found to be signiﬁ-
+
+1
+
+3
+
+5
+
+concentration of rbeta-tubulin (mug/assay)
+
+counts in dpm
+
+i
+
+5000
+
+tb assay
+nsb assay
+
+2500
+
+0
+
+ii
+
+5000
+
+specific binding
+
+fig. 3. a typical standard curve for estimation of b-tubulin content in o.
+volvulus total soluble protein extracts. the standard curve was generated
+using net absorbance values of known concentrations (0.4–5.0 lg/assay) of
+the recombinant b-tubulin (r-b) obtained by elisa, as described in
+materials and methods. the linear range of the curve was used to estimate
+tubulin content in the unknown samples.
+
+native and recombinant tubulin from o. volvulus shows
+classical ligand-binding behavior
+saturation binding was achieved for all ligands within
+the range of concentrations used for both native and
+recombinant a/b tubulin preparations; the binding tended
+to plateau towards the higher concentrations used
+(fig. 5). the binding proﬁles of native and recombinant
+dimers were similar, with vbn being bound the most
+and mbz the least in both types of samples. these data
+were subsequently analyzed using graphpad (see table 2).
+
+0.1
+
+2500
+
+0
+0
+
+10
+
+20
+
+final charcoal concentration
+mg/ml
+
+25
+
+85
+
+protein concentration mug/assay
+
+fig. 4. interaction of [3h] classical ligand with increasing charcoal or recombinant protein concentration. seventy microliters pem buﬀer containing 1%
+bsa were added to 10 ll of 100% dmso (tb assay) or 10 ll of 100 lm unlabeled mbz in 100% dmso (nsb assay) and then 20 ll of 10 lm (i) or 2 lm
+(ii) of [3h] mbz stock concentrations (speciﬁc activity 1250 dpm/pmol) added in 1.5 ml tubes. the tubes were pre-incubated in replicates for 1 h at 37 c.
+then 100 ll of ice-cold buﬀer (i) or recombinant protein (10–100 lg/assay) (ii) was added to appropriate tubes and incubated for a further 30 min at room
+temperature. thus, ﬁnal incubation concentrations were 5% dmso, 1 lm (i) or 0.2 lm (ii) [3h] mbz and 5 lm unlabelled mbz. the unbound drug was
+removed by addition of 500 ll of (0–40 mg/ml) (i) or 10 mg/ml (ii) ﬁnal charcoal concentration containing 1% (w/v) bsa in pem buﬀer, followed by
+immediate vortexing and centrifugation. then 500 ll of the supernatant was removed and added to 5 ml of scintillation liquid and counted in the
+scintillation counter. in (i) total counts remaining in tb or nsb after extraction with diﬀerent charcoal concentration were plotted. the optimum charcoal
+concentration for equivalent extraction from tb and nsb assay was established as 10 mg/ml and was tested in speciﬁc binding assays at diﬀerent tubulin
+concentrations (ii).
+
+e.m. wampande et al. / protein expression and puriﬁcation 55 (2007) 236–245
+
+bound
+(pmol/mg protein)
+
+a
+
+native
+
+vbn
+
+b
+
+recombinant
+
+1000
+
+vbn
+
+5000
+
+tax
+
+2500
+
+mbz
+
+bound
+(pmol/mg protein)
+
+242
+
+tax
+mbz
+500
+
+0
+
+0
+0
+
+1
+[3h] ligand (mum)
+
+0
+
+1
+
+[3h] ligands (mum)
+
+fig. 5. speciﬁc binding of classical ligands to native and recombinant tubulin of o. volvulus. binding conditions and procedure were as described in legend
+of fig. 4 or materials and methods using 40 lg of protein per assay of either native or recombinant heterooligomers or buﬀer (background). speciﬁc
+activities of [3h] mbz or [3h] tax or [3h] vbn were 1250 dpm/pmol, 416 dpm/pmol and 4170 dpm/pmol, respectively.
+
+cantly diﬀerent (p < 0.05) with rank order being
+vbn > tax > mbz for both native and recombinant
+tubulin. the diﬀerences were of approximately a factor of
+3 in case of native tubulin but were less than 1.5· for
+recombinant tubulin. with a given protein type, the binding aﬃnities for the diﬀerent ligands tended to be similar;
+even where diﬀerences were observed the aﬃnities diﬀered
+by less than a factor of 10).
+discussion
+in this paper, we report the ﬁrst successful prokaryotic
+expression and reconstitution of a- and b-tubulin from o.
+volvulus. we have used these proteins to examine the interactions of o. volvulus tubulin with three classical tubulin
+ligands of major interest. until now, the comprehensive
+study of tubulin from this species has been hampered by
+the scarcity of worms and the limited abundance of tubulin
+in them [9–11].
+both a- and b-tubulin subunits were successfully
+expressed in bacteria. these proteins could be at least
+partially renatured and persuaded to form hetero-oligomers, as indicated by an immunoprecipitation procedure
+(data not shown). to determine whether the reconstituted recombinant tubulin was competent for ligand
+binding, a sensitive and reliable binding assay was developed. charcoal extraction has been the procedure of
+choice for separating bound drug from free for many
+investigators [12,17,24–27]. however this procedure can
+be a problem when the determination of a true speciﬁc
+binding (sb) is required, because the non-speciﬁc binding
+(nsb) assay includes a large excess of total free ligand
+(labeled plus unlabelled). this amount is signiﬁcantly
+greater than the amount of drug in the total binding
+(tb) assay, which contains labelled ligand only. the
+background binding in the two types of assays can therefore be so diﬀerent that the background for nsb may be
+higher than the tb itself. in such a case no speciﬁc binding (sb) can be determined, because subtracting nsb
+from tb would give a negative value. nevertheless,
+
+where tb for a sample is inherently high, as it is in nematode eggs, sb can be calculated, provided the backgrounds for tb and nsb are determined separately for
+all the concentrations [12]. however, the risk of misrepresenting sb still remains, and such a procedure would
+be cumbersome for high throughput screening. in this
+study we determined optimal charcoal conditions for
+the even extraction of unbound ligand from tb and
+nsb assays. exploration of these conditions suggested
+that charcoal acts as a ‘‘pseudo receptor’’ for the drug,
+since the unlabeled ligand can displace the labeled ligand
+from the charcoal. this situation could raise the radioligand background to a level that depended on the concentration of the unlabeled ligand used. the ﬁnal
+concentrations of unlabeled ligand and charcoal that
+resulted in even extraction of free ligand from tb and
+nsb assay were 5 lm and 10 mg/ml, respectively, so
+these were adopted throughout the study. means of
+achieving standard optimum temperature and polymerization state of the tubulin for the assay were also devised
+(fig. 4). with these conditions speciﬁc binding could be
+determined reproducibly.
+native tubulin was required to validate the ligand binding by recombinant tubulin. it was, however, impossible to
+get enough pure native tubulin from onchocerca for this
+purpose [9–13]. fortunately, with the binding procedure
+adopted above, it was not necessary to purify the tubulin;
+the ligands will bind tubulin speciﬁcally even in crude
+extracts [12]. once nsb has been determined accurately,
+tubulin binding (i.e. sb) can be derived by subtracting
+nsb from tb [12]. this procedure was followed in the current study. however, it was still necessary to know the
+amount of tubulin in the crude extracts in order to be able
+to state the amount of binding in terms of moles or units of
+ligand per unit tubulin. therefore, in each assay the
+amount of tubulin was determined using an elisa procedure that was based on anti-recombinant b-tubulin
+immune serum raised in rabbits. the amount of tubulin
+in onchocerca was estimated at only 0.8% of the total soluble protein in an extract prepared as described in materi-
+
+the soluble form of a- (i) and b-tubulin (ii) expressed in e. coli cells was obtained as described [17–19] and the concentrate further natured by dialysis as described in materials and methods. by sds–
+page analysis, the puriﬁed proteins showed molecular size of 50 kda with over 80% purity (see fig. 1a and b) and the yield was over 15 mg for a- and 20 mg for b-tubulin from 2 l of the cultured cells .
+this result suggested that the amount of the expressed proteins was approximately 30–40% in total soluble proteins from bacterial cells; hence the expression system can provide large amounts of both
+proteins. to conﬁrm the proteins a western blot was performed as described in legend of fig. 1.
+
+42.1
+85.3
+30.4
+25.2
+120 ml (fraction ii diluted 20· in naturing buﬀer)
+5 ml (fraction iii concentrated 24· through ultra ﬁltration and
+dialysis)
+
+93.2
+85.2
+
+30–40
+42.1
+100
+93.2
+not determined
+30.4
+10 ml (1 g of pellet per 2 ml of lysis buﬀer)
+6 ml (3 g of pellet dissolved in 3 ml of 8 m urea)
+
+(ii) b-tubulin
+fraction i (cell pellet from 2 l culture)
+fraction ii (pellet of inclusion bodies from 10 ml of
+lysate)
+fraction iii (urea homogenate)
+fraction iv (natured and concentrated tubulin fraction)
+
+31.6
+81.1
+25.4
+20.2
+120 ml (fraction ii diluted 20· in naturing buﬀer)
+5 ml (fraction iii concentrated 24· through ultra ﬁltration &
+dialysis)
+
+88.2
+81.1
+
+30–40
+31.6
+100
+88.2
+not determined
+25.4
+10 ml (1 g of pellet per 2 ml of lysis buﬀer)
+6 ml (3 g of pellet dissolved in 3 ml of 8 m urea)
+
+total protein yield (% )
+total protein (mg)
+volume (ml)
+step
+
+table 1
+puriﬁcation and naturation of o. volvulus a- and b-tubulin proteins expressed in e. coli
+
+(i) a-tubulin
+fraction i (cell pellet from a 2 l culture)
+fraction ii (pellet of inclusion bodies from 10 ml of
+lysate)
+fraction iii (urea homogenate)
+fraction iv (natured and concentrated tubulin fraction)
+
+tubulin yield (%)
+
+e.m. wampande et al. / protein expression and puriﬁcation 55 (2007) 236–245
+
+243
+
+als and methods. this low level of tubulin is not surprising
+because tubulin content in parasitic nematodes is normally
+low, usually less than 1% [9–12].
+tubulin binding was investigated for classical [3h]
+ligands, ([3h] mbz, [3h] tax and [3h] vbn). the results
+presented showed that all the above [3h] classical ligand
+bound both native and recombinant tubulin dimers. the
+native tubulin had a signiﬁcantly higher number of receptors per mole of tubulin (bmax) than the recombinant tubulin; one possible reason for this phenomenon is that only
+some of the recombinant molecules are properly folded
+and are therefore able to bind ligand with high aﬃnity.
+this is probably true since [27] observed that refolding procedures may result in only 5–10% active proteins.
+according to the bmax values, the binding of diﬀerent
+ligands may be ranked as follows: vbn > tax > mbz.
+the same rank order was observed with both native and
+recombinant dimers. this means that there are more
+vbn receptors than tax receptors and more for tax
+than mbz in both native and recombinant dimers. this
+correlation suggests that receptors similar to those found
+in native tubulin were reconstituted in the recombinant
+tubulin preparation. on the other hand this rank order
+of the number of receptors for the three ligands is interesting because vbn is expected to be more toxic to cells than
+say mbz [28].
+all of the ligands displayed a signiﬁcantly higher aﬃnity
+for native than for recombinant tubulin. the diﬀerences in
+aﬃnity are about one order of magnitude (i.e. a factor of
+10). this suggests that not only the number of recombinant
+receptors formed is less than the number of moles of tubulin present, but also that some or all of the receptors (tubulin molecules) may not have the exact native fold. similarly
+the aﬃnity of mbz for recombinant b-tubulin of heamonchus contortus was lower than that for native tubulin [17].
+although the binding aﬃnity of the three ligands studied
+here diﬀer by a factor of 10 between native and recombinant tubulin, these ligands bind each protein type with an
+aﬃnity of the same order of magnitude, whether native
+or recombinant tubulin.
+variations in binding strengths between receptor samples are not surprising, since it has been observed that dissociation constant values for agonists like radioligands can
+vary when using receptors in the presence of other proteins
+that may also bind the radioligand being considered [29],
+and more so because it is very diﬃcult to realize a homogeneous population of receptors [30]. nevertheless, the data
+suggest that either protein (native or recombinant) can be
+used to compare ligands and rank them correctly, both in
+terms of bmax and aﬃnity. if it becomes important for a
+major program of drug screening, this claim should be substantiated using a larger number of tubulin ligands, but the
+fact that it holds for three distinct ligands in the current
+study is highly suggestive.
+the question of improper folding cannot be ruled out
+[27] and tubulin is a particular problem because of its
+dependence upon both chaperones and a pathway of fold-
+
+244
+
+e.m. wampande et al. / protein expression and puriﬁcation 55 (2007) 236–245
+
+table 2
+the bmax and kd values for the interaction of [3h] classical ligands with native or recombinant tubulin preparations from o. volvulus
+type of tubulin preparation
+
+bmaxa,c (pmol/mg tubulin)
+[3h] mbz
+
+ab dimer
+native tubulin
+
+640 ± 189
+674 + 54 f
+
+kdb,c (lm)
+
+[3h] tax
+f
+
+[3h] vbn
+
+g
+
+935 ± 68
+2307 + 136
+
+[3h] mbz
+j
+
+h
+
+999.5 ± 55
+5006 ± 820
+
+k
+
+3.38 ± 1.3
+0.29 ± 0.1
+
+[3h] tax
+n
+p
+
+2.22 ± 0.24
+0.38 ± 0.06
+
+[3h] vbn
+r
+p
+
+2.03 ± 1.07
+0.38 ± 0.17
+
+r
+p
+
+the data presented in fig. 5 were analyzed using graphpad to obtain the bmaxa and kdb values for various ligands and each tubulin preparation. the
+statistical computation was by one-way anova whereby values in the column and rows were compared.
+a
+bmax, maximum binding at inﬁnite ligand concentration.
+b
+kd, dissociation constants (measure of binding aﬃnity).
+c
+the data are mean ± se of three replicated experiments (n = 6); within columns or rows, values sharing diﬀerent superscript alphabetic letters were
+signiﬁcantly diﬀerent (p < 0.05), while values with same letters were not signiﬁcantly diﬀerent (p > 0.05).
+
+ing factors [31,32]. therefore, expressing tubulin in a native
+state (e.g. in a eukaryotic expression system) or reconstituting in the presence of folding factors [32] would probably
+reconcile these data and improve the validity of the assay.
+the binding of mbz, vbn or tax to individual
+recombinant a- or b-tubulin monomers of o. volvulus
+and the binding stoichiometry of these ligands with the various protein preparations are discussed else where [wampande and lubega, unpublished]. here, in a nutshell, we
+show that: native tubulin had a higher or same binding
+capacity and higher aﬃnity (lower kd) for all the classical
+ligands than did the recombinant hetero-oligomer but both
+tubulin preparations rank ligands correctly. the ﬁndings in
+this study should be compared with tubulin expressed in a
+eukaryotic system or expressed in a prokaryote and renatured with a eukaryotic cell extract [32]; this will help to
+explain why there were diﬀerences in aﬃnities and number
+of sites.
+nevertheless, it may be concluded from this study that
+both native and recombinant dimeric tubulin reconstituted
+as described can rank ligands correctly both in terms of
+bmax and kd. this in turn suggests that recombinant tubulin can be used to develop a molecular screen for novel
+anti-tubulin ligands for developing into chemotherapeutics
+against onchocerciasis.
+acknowledgments
+this investigation received ﬁnancial support from the
+world bank/undp/who special programme for research and training in tropical diseases (tdr) through a
+grant to g.w. lubega; e.m. wampande acknowledges
+the training assistance from tdr, and j.r. mcintosh
+thanks the american cancer society for their support.
+thanks to dr. timothy geary (pﬁzer animal health, kalamazoo, mi, usa) for the onchocerca volvulus b-tubulin
+cdna.
+references
+[1] p.j. dawson, w.e. gutteridge, k.a. gull, comparison of the
+interaction of anthelmintic benzimidazole with tubulin isolated from
+mammalian tissue and the parasite nematode ascaridia galli,
+biochem. pharmacol. 33 (1983) 1069–1074.
+
+[2] e. lacey, the role of the cytoskeleton protein, tubulin, in the mode of
+action and mechanism of drug resistance to benzimidazole, int. j.
+parasitol. 18 (1988) 885–936.
+[3] l.a. amos, microtubule structure and its stabilization, org. biomol.
+chem. 2 (2004) 2153–2160.
+[4] s. gupta, b. bhattacharyya, antimicrotubular drugs binding to vinca
+domain of tubulin, mol. cell biochem. 253 (2003) 41–47.
+[5] wei hu, hui dong, yue-zhong li, xi-tao hu, guan-jun han,
+yin-bo qu, a high-throughput model for screening anti-tumor
+agents capable of promoting polymerization of tubulin in vitro, acta
+pharmacol. sin. 6 (2004) 775–782.
+[6] r.f. luduena, biochemistry of tubulin, in: k. roberts, j.s. hyams
+(eds.), microtubules, academic press, london, 1986, pp. 65–116.
+[7] t.g. geary, s.c. nulf, m.z. favreau, l. tang, r.k. prichard,
+n.t. hetzenbuhler, three b-tubulin cdna from the parasitic
+nematode haemonchus contortus, mol. biochem. parasitol. 50
+(1992) 29–306.
+[8] who expert committee on onchocerciasis. third report, world
+health organ. tech. rep. ser. 752 (1987) 1–167.
+[9] p.a. friedman, e.g. platzer, e.l. carroll, tubulin characterization
+during embryogenesis of ascaris suum, dev. biol. 76 (1980) 47–57.
+[10] p. kohler, r. bachmann, intestinal tubulin as possible target for
+chemotherapeutic action of mebendazole in parasitic nematodes,
+mol. biochem. parasitol. 4 (1981) 325–336.
+[11] l. tang, r.k. prichard, characterization of tubulin from nippostrongylus brasiliensis, and comparison with mammalian brain tubulin, mol. biochem. parasitol. 29 (1988) 133–140.
+[12] g.w. lubega, r.k. prichard, beta tubulin and benzimidazole
+resistance in sheep nematode haemonchus contortus, mol. biochem.
+parasitol. 47 (1991) 129–138.
+[13] e.j. albeiz, d.w. buttner, b.o.l. duke, diagnosis and expiration of
+nodules in human onchocerciasis, trop. med. parasitol. 39 (1998)
+331–346.
+[14] t.g. geary, s.c. nulf, s.j. alexander-bowman, b.m. mahmoud,
+r.k. prichard, r.d. klein, cloning and characterization of cdna
+encoding beta tubulins from diroﬁlaria immitis and onchocerca
+volvulus, j. parasitol. 2 (1998) 356–360.
+[15] m.k. olsen, s.k. rockenbach, k.a. curry, c.c. tomich, enhancement of heterologous polypeptide expression by alterations in the
+ribosome-binding-site sequence, j. biotechnol. 9 (1989) 179–190.
+[16] i.g. cowell, c.a. austinmethods in molecular biology cdna
+library protocols, 69, human press inc., new jersey, 1997, pp. 1–
+140.
+[17] g.w. lubega, t.g. geary, r.d. klein, r.k. prichard, expression of
+cloned b-tubulin genes of haemonchus contortus in e. coli: interaction
+of recombinant b-tubulin with native tubulin and mebendazole, mol.
+biochem. parasitol. 62 (1993) 281–292.
+[18] j. sambrook,  xxxd1971xxx . fritsch, t. maniatis, molecular cloning: a
+laboratory mannual, second ed., cold spring harbor laboratory
+press, cold spring harbor, 1989.
+[19] m.e. oxberry, t.g. geary, c.a. winterrowd, r. prichard, individual expression of recombinant a- and b-tubulin from heamonchus
+
+e.m. wampande et al. / protein expression and puriﬁcation 55 (2007) 236–245
+
+[20]
+
+[21]
+[22]
+
+[23]
+
+[24]
+[25]
+
+contortus. polymerization and drug eﬀects, protein expr. purif. 21
+(2001) 30–39.
+m.m. bradford, a rapid and sensitive method for the quantitation of
+microgram quantities of protein utilizing the principle of protein dye
+binding, anal. biochem. 72 (1976) 248–254.
+h. schultzkey, a.j. albiez, d.v. buttner, isolation of living onchocerca volvulus from nodules, tropenmed. parasitol. 28 (1977) 430–528.
+e. lacey, e. john, c.j. claude, c.c. culvenor, interaction of
+phormopsin and related compounds with puriﬁed sheep brain
+tubulin, biochem. pharmacol. 36 (1987) 2133–2138.
+e. lacey, r.k. prichard, interaction of benzimidazoles (bz) with
+tubulin from bz-sensitive and bz-resistant isolates of haemonchus
+contortus, mol biochem. parasitol. 19 (1986) 171–181.
+e. lacey, mode of action of benzimidazoles, parasitol. today 6
+(1986) 112–115.
+g.j. russell, e. lacey, diﬀerential stability of the bz-tubulin
+complex in bz-resistant and bz-susceptible isolates of heamonchus
+contortus and trichostrongylus columbriformis, int. j. parasitol. 22
+(1992) 399–402.
+
+245
+
+[26] m.e. oxberry, t.g. geary, r.k. prichard, assessment of benzimidazole binding to individual recombinant tubulin isotypes from
+heamonchus contortus, parasitology 122 (2000) 683–687.
+[27] k. tadahiko, d.f. carmichael, a. sommer, r.c. thompson,
+refolding of recombinant proteins, methods enzymol. 185 (1990)
+187–195.
+[28] d.o.k. ochola, r.k. prichard, g.w. lubega, classical ligands bind
+tubulin of trypanosomes and inhibit their growth in vitro, j. parasitol.
+88 (2002) 600–604.
+[29] h.i. yamamura, s.j. enna, m.j. kuhar, methods in neurotransmitter receptor analysis, raven press, new york, 1990, pp. 100–500..
+[30] i.m. kloitz, number of receptor sites from scatchad graphs. facts an
+fantasies, science 217 (1982) 1247–1249.
+[31] g. tian, y. huang, h. rommelaere, j. vandekerckhove, c. ampe,
+n.j. cowan, pathway leading to correctly folded  xxxg2353xxx , cell 86
+(1996) 287–296.
+[32] c. shah, c.z. xu, j. vickers, r. williams, properties of microtubules
+assembled from mammalian tubulin synthesized in escherichia coli,
+biochemistry 40 (2001) 4844–4852.
+

@@ -1,0 +1,2381 @@
+doi:10.1016/j.jmb.2007.01.091
+
+j. mol. biol. (2007) 369, 108–128
+
+crystal structure of  xxxg2424xxx   xxxg2425xxx 
+complexed with adenosine-5′ tetraphosphate:
+evidence for distributed use of catalytic binding
+energy in amino acid activation by class i
+aminoacyl-trna synthetases
+pascal retailleau 1 , violetta weinreb 2 , mei hu 3
+and charles w. carter jr 2 ⁎
+1
+
+service de cristallochimie,
+icsn-cnrs, gif/yvette,
+91198, france
+2
+
+department of biochemistry
+and biophysics, university of
+north carolina, chapel hill,
+nc 27599-7360, usa
+3
+
+department of microbiology,
+duke university, durham,
+nc 27710, usa
+
+ xxxg2424xxx   xxxg2425xxx  ( xxxg2424xxx   xxxg2425xxx ) is a functionally dimeric ligase,
+which specifically couples hydrolysis of atp to amp and pyrophosphate
+to the formation of an ester bond between tryptophan and the cognate
+trna.  xxxg2424xxx   xxxg2425xxx  from bacillus stearothermophilus binds the atp analogue,
+adenosine-5′ tetraphosphate (aqp) competitively with atp during
+pyrophosphate exchange. estimates of binding affinity from this
+competitive inhibition and from isothermal titration calorimetry show
+that aqp binds 200 times more tightly than atp both under conditions of
+induced-fit, where binding is coupled to an unfavorable conformational
+change, and under exchange conditions, where there is no conformational
+change. these binding data provide an indirect experimental measurement of + 3.0 kcal/mol for the conformational free energy change
+associated with induced-fit assembly of the active site. thermodynamic
+parameters derived from the calorimetry reveal very modest enthalpic
+changes, consistent with binding driven largely by a favorable entropy
+change. the 2.5 å structure of the  xxxg2424xxx   xxxg2425xxx :aqp complex, determined de
+novo by x-ray crystallography, resembles that of the previously described,
+pre-transition state  xxxg2424xxx   xxxg2425xxx :atp complexes. the anticodon-binding domain
+untwists relative to the rossmann-fold domain by 20% of the way toward
+the orientation observed for the products complex. an unexpected
+tetraphosphate conformation allows the gamma and deltad phosphate groups to
+occupy positions equivalent to those occupied by the beta and gamma phosphates
+of atp. the beta-phosphate effects a 1.11 å extension that relocates the alphaphosphate toward the tryptophan carboxylate while the ppi mimic moves
+deeper into the kmsks loop. this configuration improves interactions
+between enzyme and nucleotide significantly and uniformly in the
+adenosine and ppi binding subsites. a new hydrogen bond forms
+between s194 from the class i kmsks signature sequence and the ppi
+mimic. these complementary thermodynamic and structural data are all
+consistent with the conclusion that the tetraphosphate mimics a
+transition-state in which the kmsks loop develops increasingly tight
+bonds to the ppi leaving group, weakening linkage to the palpha as it is
+relocated by an energetically favorable domain movement. consistent
+with extensive mutational data on  xxxg2435xxx   xxxg2436xxx , this aspect
+of the mechanism develops high transition-state affinity for the adenosine
+
+abbreviations used: aars, aminoacyl trna-synthetase;  xxxg2424xxx   xxxg2425xxx , tryptophanyl trna-synthetase; aqp,
+adenosine 5′-tetraphosphate; ppi, pyrophosphate; rmsd, root-mean-square deviation; mcd, minimal catalytic domain.
+e-mail address of the corresponding author: carter@med.unc.edu
+0022-2836/$ - see front matter © 2007 elsevier ltd. all rights reserved.
+
+ xxxg2424xxx   xxxg2425xxx :aqp: distributed transition state binding
+
+109
+
+and pyrophosphate moieties, which move significantly, relative to one
+another, during the catalytic step.
+© 2007 elsevier ltd. all rights reserved.
+*corresponding author
+
+keywords: induced-fit; mechanistic enzymology; phosphoryl-transfer;
+catalytic use of binding energy; class i aminoacyl-trna synthetases
+
+introduction
+because of its widespread use in biosynthetic, biomechanical, and regulatory processes, nucleophilic
+substitution at phosphoryl groups is among the
+most studied bimolecular reactions in biology.1
+uncatalyzed rates of phosphoryl-solvolysis are
+quite slow, in the range of 10− 5/min, and bimolecular reactions such as amino acid activation are
+slower, about 10− 8/mol per min.2 metal ions (mg2+)
+accelerate these rates by only perhaps three-fold.1,3
+understanding the relative roles of general acid or
+base catalysis, emerging charge stabilization,
+mechanical distortion, and other catalytic effects in
+enzyme mechanisms that accelerate this reaction
+1010–1014-fold requires characterization of the transition state in relation to the ground state(s). phosphoryl transfer is usually described with reference to
+two extreme transition-state configurations: a fully
+dissociative, sn1-like mechanism and a fully associative, sn2-like mechanism (figure 1;1,4–6). these
+extremes are distinguished by the extent to which
+the nucleophile and leaving group participate in
+bond-making and bond-breaking. in transition
+states with dissociative character, the bond to the
+leaving group is weakened or broken first, while in
+those with associative character, the approach of the
+nucleophile is strengthened before the bond to the
+leaving group weakens.
+
+figure 1. limiting transition states for phosphoryltransfer reactions involving nucleophilic displacement at
+palpha of atp.1 the relationship between the structure of
+adenosine tetraphosphate and a dissociative transition
+state is based on the potential equivalence of the gamma and
+delta-phosphates to the beta and gamma-phosphates of the ppi leaving
+group (ellipse).
+
+participation of both bond-making and bondbreaking processes leads in general to a continuous,
+two-dimensional surface.5 this surface is characterized by approximately equal barrier heights along
+many different possible trajectories, any of which
+might be stabilized by a variety of different interactions with enzymatic active sites,6 making it difficult
+to assess which path is taken by a particular enzyme.
+the amino acid activation step catalyzed by class i
+aminoacyl-trna synthetases (aars), in which the
+leaving group is inorganic pyrophosphate instead of
+phosphate, deserves renewed attention in this
+context. the amino acid activation mechanism has
+been extensively studied by site-directed mutagenesis and pre-steady-state kinetics,7–10 and by crystallographic methods.9,11–21 however, despite these
+efforts, mechanistic descriptions have been limited
+to modelling in-line displacement of the ppi leaving
+group by the alpha-carboxylate of the amino acid
+without identifying specific interactions that
+develop in the transition-state complexes.
+most enzymes that catalyze phosphoryl transfer
+and which have been characterized structurally,
+exhibit significant potential transition-state complementarity to a pentavalent phosphate group, consistent with associative character. in contrast, the
+class i bacillus stearothermophilus tryptophanyl-trna
+synthetase ( xxxg2424xxx   xxxg2425xxx ) structural reaction profile 11–13,15
+suggests a different transition state with dissociative character. first, active site residues do not
+appear to provide specific interactions capable of
+differentiating between ground-state and transition-state configurations of the alpha-phosphate. second, those catalytic residues identified by mutation
+of the closely related  xxxg2435xxx   xxxg2436xxx  active site interact either
+with the ribose or the pyrophosphate moieties.8
+finally,  xxxg2424xxx   xxxg2425xxx  catalysis is associated with a large
+domain rearrangement between the pre-transition
+state (prets) and products structures, in which the
+pyrophosphate binding site formed by the kmsks
+loop relocates by ∼ 1.6 å. the relative absence of
+interactions to the alpha-phosphate, the abundance of
+distributed catalytic interactions to the adenosine
+and pyrophosphate moieties, and the implication
+that the  xxxg2424xxx   xxxg2425xxx  transition state occurs during
+dynamic domain movement consistently point to
+a novel mechanism to stabilize the phosphoryltransfer transition state involved in amino acid
+activation by  xxxg2424xxx   xxxg2425xxx ,  xxxg2435xxx   xxxg2436xxx , and perhaps class i
+aars in general.
+one effective way to characterize enzymatic
+transition states structurally is to mimic them with
+stable compounds, or transition-state analog inhibitors.22 transition state mimics are a mixed blessing.
+on the one hand, it is impossible in principal to
+
+110
+imitate precisely in a stable analog the geometry and
+electron distributions of a transition state which, by
+definition is the least stable, and hence shortest-lived
+species along a reaction path.23 for this reason all
+such analogs mimic only a subset of the features of
+the actual transition state. the descriptive phrase,
+transition-state analog, therefore evokes a variety of
+interpretations, and examples of compounds designated as transition-state mimics approach the transition state more or less adequately.
+on the other hand, such inhibitors can provide
+useful, approximate structural models. when they
+can be crystallized with the enzymes they inhibit,
+interactions that strengthen in the transition state
+complex and possibly accelerate the reaction rate
+can be identified. thus, such analogs provide a
+valuable link between structure and function.
+the validity of inferences drawn from structural
+analogs of transition states depends on several
+criteria expected for such complexes.22,24 first, the
+compounds themselves should capture stably some
+distinctive aspect (geometry, charge distribution,
+polarity) of the altered substrate configuration in the
+transition state. second, their affinities should
+substantially exceed those for the substrates they
+mimic. third, to attribute the increased affinity to
+transition-state-like features, enzyme:transitionstate-analog complex structures should reveal
+strengthening of interactions already present in the
+binding of substrates, together with new interactions evoked by those parts of the analogs that
+mimic changes in the transition state. fourth, it is
+also reasonable that the active site will intensify the
+physical enclosure of the analog and limit the access
+of solvent, relative to what is observed for substrates. finally, experimental variables that alter the
+enzymatic rate acceleration should have parallel
+effects on the analog binding affinity.
+we describe here experiments with the atp
+analog, adenosine tetraphosphate (aqp). the affinity and crystal structure of a  xxxg2424xxx   xxxg2425xxx :aqp complex
+appear to meet each of the first four criteria.
+moreover, protein engineering experiments to identify a minimal, functionally active  xxxg2424xxx   xxxg2425xxx  catalytic
+domain, mcd2 suggest an important experimental
+test along the lines of the fifth criterion. these data
+provide a novel and coherent structural representation of the distributed interactions by which class ic
+enzymes use binding energy for catalysis, first
+outlined experimentally by fersht and co-workers7,8
+who showed that catalytically relevant interactions
+occur throughout the surface of the nucleotide.7,8
+
+results
+aqp binding affinity
+competitive inhibition
+aqp is not a substrate; it does not support
+incorporation of [32p]pyrophosphate into adenine
+nucleotide (we did not test for its ability to generate
+
+ xxxg2424xxx   xxxg2425xxx :aqp: distributed transition state binding
+
+acylated trnatrp). it is an inhibitor, competitive
+with atp. the inhibition constant, measured by
+steady-state kinetics, is 2.0 mm.
+although ki is a true thermodynamic dissociation
+constant, several considerations condition its interpretation. aqp, like atp, has a high affinity for mg2+,
+which is present in excess under the assay conditions. yet, as described below, the bound form of
+aqp does not contain mg2+. nor are there any water
+molecules near the ligand that might represent this
+ion. the binding equilibrium leading to inhibition is
+therefore coupled to an equilibrium in solution
+between aqp and mg2+ aqp that heavily favors
+the complexed form, so that the concentration of the
+uncomplexed aqp is very much smaller than ki (see,
+for example, frick et al.25). put another way, the
+ xxxg2424xxx   xxxg2425xxx –aqp interaction is strong enough to compete
+with the aqp–mg2+ interaction. thus, as the ki is
+based on the total aqp concentration in the assay
+rather than that of the uncomplexed form, a correct
+estimate for the affinity, ki*, requires estimating the
+concentration of free aqp in the assay from the
+dissociation constant for the mg2+ aqp complex in
+solution:
+
+·
+
+·
+
+(1)
+
+·
+
+we estimate the mg2+ aqp dissociation constant
+following26 to be, ∼ 2.18 × 10− 6 m†. under this
+assumption, the actual concentration of uncomplexed aqp at half-saturation is ∼ 2.2 mum.
+isothermal titration calorimetry (itc)
+titrations of two  xxxg2424xxx   xxxg2425xxx  concentrations (6 mum and
+60 mum) were carried out with aqp in the absence of
+mg2+. data were fitted to a sequential binding
+model with two different kinds of binding sites27 as
+described in experimental procedures (figure 2(a)).
+calorimetric determinations were noisy, owing to
+the small enthalpy changes and the limiting amount
+of aqp that we had synthesized. use of two
+different protein concentrations sharply constrained
+the combinations of binding affinity and binding
+enthalpy parameters (table 1) that would fit both
+curves simultaneously, reducing their uncertainty to
+less than 5%. dissociation constants for the two
+successive aqp molecules are 18 mum and 40 mum,
+respectively.
+† these calculations make several assumptions, extrapolating conservatively from the values given by adolfson and moudrianakis26 for the intrinsic affinity of mg for
+adp (12,000) and atp (140,000) and the mu values (1.5
+and 3.1, respectively), to values of 800,000 and 3.8,
+respectively. these two values are highly correlated. so,
+this extrapolation is subject to revision by experimental
+data that we cannot provide without synthesizing more
+aqp.
+
+111
+
+ xxxg2424xxx   xxxg2425xxx :aqp: distributed transition state binding
+
+finities of  xxxg2424xxx   xxxg2425xxx  for atp11 (figure 2(b)). in particular,
+aqp affinity is stronger by 200-fold both in exchange
+and in induced-fit binding processes, which have
+been determined for both nucleotides.
+as the enthalpy changes associated with successive binding events are rather small, ± ∼1 kcal/mol,
+aqp binding is largely entropy-driven (table 1).
+this result is consistent with the large reduction in
+the entropy of water molecules that results from
+dissolution of polyphosphates into water.29 the
+binding affinity for both adenine nucleotides therefore likely results from replacing water molecules
+bound to the phosphate groups with protein sidechains. the structural results also suggest that the
+differential binding affinity for aqp, relative to atp,
+arises largely from an increase in the number and
+strength of such hydrogen-bonded interactions and
+the release of water molecules bound to the
+ xxxg2424xxx   xxxg2425xxx  atp complex in the case of aqp.
+
+·
+
+the conformational free energy change
+associated with induced-fit
+
+figure 2. affinity measurements. (a) isothermal titration calorimetry. experimental data are blue triangles for
+titration of 60 mum  xxxg2424xxx   xxxg2425xxx  and green diamonds for titration
+of 6 mum  xxxg2424xxx   xxxg2425xxx . black symbols and broken lines represent
+the fit of the binding model whose thermodynamic
+parameters are in table 1. (b) binding data from (a) in
+the context of other affinity determinations for aqp and
+atp. the logarithmic scale represents measured dissociation constants. three types of binding processes, exchange
+into assembled active sites measured by ppi exchange
+(ki for aqp, km for atp; bold red lines below the scale,
+green logos), binding to the open form (bold blue arrow;
+shaded blue logos) and binding accompanied by inducedfit (itc for aqp; small angle x-ray scattering for atp11;
+bold green lines above the scale, blue to green logos) are
+compared. the differential between aqp and atp
+affinities is comparable in the two cases where all
+quantities have been determined. the same is true for
+the estimate of the free energy of the conformational
+change, given by the difference between the induced-fit
+and exchange dissociation constants.
+
+comparison of the three aqp binding processes
+reflected in ki* and the itc titrations is complicated
+by the fact that binding can induce conformational
+changes with non-negligible intrinsic free energies.11,28 there are three, distinct binding scenarios,
+indicated by the schematic logos in figure 2(b).
+these include: (i) binding to the open conformation
+(blue) and (ii) rebinding into the assembled active
+site vacated by a ligand (exchange; green), neither of
+which involve conformational changes, and (iii)
+binding of a second ligand to the singly liganded
+dimer (induced-fit; blue=>green), which confounds
+the conformation change with the nucleotide-binding affinity. in light of these three scenarios, the aqp
+binding affinities in figure 2(a) are consistent with
+other, related thermodynamic measurements,
+including the aqp inhibition constant and the af-
+
+the thermodynamic data from figure 2 are sufficient to allow an experimental determination of the
+free energy change for the conformational equilibrium between open and closed, prets states in the
+presence and absence of ligands, using the thermodynamic cycle in figure 3. the latter value is equivalent to the allosteric constant.24 the cycle in figure 3
+resolves the free energies associated with the inducedfit active-site assembly into purely conformational
+and purely ligand binding equilibria, which implicitly
+include any proton transfers associated with binding
+(we have not measured the ph dependence of either
+atp or aqp affinity). we assume in addition from the
+crystallographic symmetry of the closed, prets state
+that dissociation constants for both nucleotide-binding events to that form are identical.
+successive dissociations from the fully liganded
+open state are distinct; experimental determination of
+the first is convolved with the free energy change
+associated with the induced-fit assembly in the
+doubly liganded form. the determinations of comparable equilibrium constants for both atp and aqp,
+however, allow us to de-convolve the ligand binding
+and conformational free energies of this process by
+regression analysis (table 2), which is motivated by
+the near exact differences between the two ligands in
+the induced-fit and exchange binding scenarios.
+the regression model is:
+dg ¼<dgq;t > þdgqvst xlig þ dginducedfit xif
+ð2þ
+where the dependent variable, deltag, is the observed
+free energy obtained from each equilibrium constant
+table 1. thermodynamic parameters for aqp binding
+kd (m)
+1.8 × 10− 5
+4.0 × 10− 5
+
+deltag (kcal/mol)
+
+deltah (kcal/mol)
+
+–tdeltas (kcal/mol)
+
+− 6.56
+− 6.08
+
++ 0.85
+− 1.10
+
+− 7.45
+− 4.98
+
+112
+
+ xxxg2424xxx   xxxg2425xxx :aqp: distributed transition state binding
+
+energies are given by the exchange dissociation constants. the bottom branch is the allosteric constant
+describing the conformational equilibrium in the
+absence of adenine nucleotides and can be calculated by completing the cycle. allosteric constants
+for the two nucleotides, + 3.08 (for t) and + 3.00 (for
+q) are in excellent agreement, placing an upper limit
+on the error in the simplifying assumptions.
+structure of  xxxg2424xxx   xxxg2425xxx  crystallized with aqp
+
+figure 3. thermodynamic cycle for adenine nucleotide binding and induced-fit conformation change. conformational equilibria are horizontal, ligand-binding
+equilibria vertical. free energies for both dissociations
+from the closed, prets conformation are identical by
+virtue of crystallographic symmetry. corresponding values for the open conformation are distinct and obtained
+from itc (figure 2) and from regression analysis (table 2),
+respectively, as is the free energy for the induced-fit
+conformational change associated with binding the
+second nucleotide ligand to the open conformation.
+
+in table 2, lig is either 0 or 1 depending on whether
+the ligand is atp or aqp, and if is 0 or 1 depending
+on whether or not the process involves a conformational change. the three adjustable parameters are
+<deltagq,t>, the average free energy for binding either
+t or q to either state, deltagqvst, the incremental free
+energy for binding q, relative to t, and deltaginduced-fit,
+the conformational free energy for reversing the
+induced-fit closure of the fully liganded, open dimer.
+the model accounts for the four measured equilibrium constants associated with the cycle with
+r2 = 0.999 and an f-ratio probability of 0.007. the
+deltaginduced-fit value, together with the dissociation
+constants, provide estimates for the free energies of
+top and side equilibria of the thermodynamic cycle
+in figure 3. the right-hand side equilibrium free
+
+a binary crystalline complex was obtained by cocrystallization of  xxxg2424xxx   xxxg2425xxx  with aqp. the crystallizing
+solution buffered at ph 7.5 was made up with
+sodium citrate and mg2+, in addition to the cyclohexylammonium counter ion accompanying aqp.
+the crystal grew in the tetragonal p43212 space
+group with unit cell dimensions close to those of the
+pre-transition state (prets) crystalline complexes
+with atp ( xxxd83xxx ) and atp plus tryptophanamide
+( xxxd83xxx ), also grown in citrate (a = b = 62.18 å,
+c = 220.88 å versus a = b = 62.13 å, c = 217.81 å) suggesting the closed, prets  xxxg2424xxx   xxxg2425xxx  conformation as
+defined previously.11 the slight non-isomorphism of
+the 1.3% increase along the c axis is consistent with
+conformational changes described below with
+respect to prets state atp complexes. the polypeptide chain runs from the n-terminal (met1) to the cterminal (arg328) through the electron density map
+defined by unbiased experimental phases. as the
+asymmetric unit contains a single monomer, crystal
+packing imposes symmetry on the functionally
+asymmetric dimer. nevertheless, for low-energy
+hydrogen-bonding interactions to form between
+the two, symmetry-related gln94 side-chains across
+the molecular dyad they must assume alternate,
+complementary configurations in each monomer,
+breaking the crystallographic symmetry.
+isotropic b-values, <bca> = 46.5, are substantially
+elevated in this complex relative to those in the two
+prets crystals <bca> = 30.23 (1mua), 20.41 ( xxxd83xxx ).
+consistent with elevated b-values (figure 4), density
+
+table 2. joint estimation of conformational and binding free energies from binding data in figure 2
+input parameters
+ki(q)
+km(t)
+kif(q)
+kif(t)
+regression parameters
+<deltag
+
+binding>
+incremental deltag(qvst)
+deltagif(induced-fit)
+successive binding events
+t1
+t2
+q1
+q2
+
+keq
+
+deltag (kcal/mol)
+
+ligand
+
+induced-fit
+
+2.18e-06
+4.00e-04
+4.00e-05
+8.00e-03
+
+− 7.82
+− 4.69
+− 6.08
+− 2.90
+
+1
+0
+1
+0
+
+0
+0
+1
+1
+
+estimate (kcal/mol)
+
+std error
+
+t
+
+p(t)
+
+−4.68
+−3.16
+1.77
+
+0.22
+0.25
+0.25
+
+− 216.04
+− 126.2
+70.6
+
+0.0029
+0.005
+0.009
+
+deltag estimate (kcal/mol)
+
+keq
+
+−3.40
+−1.13
+−6.56
+−4.31
+
+notes
+−3
+
+3.5 × 10
+1.5 × 10− 1
+1.8 × 10− 5
+7.6 × 10− 4
+
+deltagq–deltag(qvst)
+deltagif(t)+ deltagif
+from table 1
+deltagif(q)+ deltagif
+
+ xxxg2424xxx   xxxg2425xxx :aqp: distributed transition state binding
+
+113
+
+figure 4. plot of the variation of
+the average main chain temperature factors (blue) and the realspace correlation coefficient per
+residue with the final sigmaa map
+output by o (red). the orange arrows delineate the putative anchorage sites of the trna.
+
+is poorly defined for a certain number of side-chains
+(d28, r104, e116, k178, r182, k191, k211, e225,
+k233, r259, r327 and r328). these sites are either
+accessible to solvent and/or belong to loops (loop
+112–119 in the rf is expected to anchor the cca
+acceptor stem and loop comprising residues 220–235
+and 259–266 in the sd to bind the anticodon) that
+recognize the cognate trna. the refined model
+consists of 2613 protein atoms in accordance with the
+monomer sequence. a bound aqp nearly coincident with the location of mg2+ atp in  xxxd83xxx  and
+ xxxd83xxx  was modelled and subsequently refined into
+difference density in the nucleotide-binding cavity
+(figure 5).
+
+·
+
+ xxxg2424xxx   xxxg2425xxx  conformation
+the  xxxg2424xxx   xxxg2425xxx  monomer consists of two domains, a
+rossmann dinucleotide binding fold of ∼ 200 residues (rf), which starts with the n-terminal beta
+strand a, and a smaller domain of ∼90 residues that
+includes a four-helix bundle, the c-terminal helix of
+which extends back by ∼ 35 residues with a
+pronounced kink, past the rf, where it interacts
+across the dimer interface. binding sites for tryptophan and atp are created opposite each crossover
+connection in the rf. the highly twisted beta-sheet
+brings three peptide signatures, tign from helix
+alphaa, gxdq from helix alphae, and kmsks together to
+bind the nucleotide, helix alphad providing specificitydetermining elements for amino acid binding whose
+configurations remain essentially unchanged in the
+course of catalysis.
+from comparisons between several  xxxg2424xxx   xxxg2425xxx  structures,11–13,15 it appeared that the functional  xxxg2424xxx   xxxg2425xxx 
+domain boundary actually falls between the tign
+and kmsks signatures, on one hand, and the gxdq
+signature with the main body of rf, on the other
+hand. coordinated movements between the two
+domains can be resolved into two internal coordinates, reflecting the hinge opening between domains
+
+and their relative twist.28 the hinge motion is
+effected via rotation of the axis of helix alphaa, relative
+to the rest of the rf. its motion is tightly coupled to
+that of the four-helix bundle via the hydrophobic
+side-chains of i16 and m193, from tign and
+kmsks, respectively, together with i20, which join
+a substantial hydrophobic core within the four-helix
+bundle containing the anticodon-binding site to
+form what we have called the small domain (sd).
+the rigid-body motions of the sd provide an
+important link between active-site chemistry and
+the orientation of the anticodon-binding site. the
+twist involves internal rotations within the interface
+between helix alphaa and the sd, for which the largest
+displacement resides in the kmsks loop.
+the overall conformation of  xxxg2424xxx   xxxg2425xxx  in complex
+with aqp is quite similar to that from the pretransition state complex with atp, obtained under
+identical crystallizing conditions.11 formation of
+this conformation implies that aqp provides binding energy comparable to that for atp, apparently
+necessary and sufficient to trigger both the 7.5°
+hinge-closing and 9° twisting rotations of the sd28
+relative to the rf, closing the active site around the
+nucleotide to form the closed, prets state and
+restraining access to the tryptophan-binding pocket.
+structural differences between the aqp complex
+and those reported previously for the prets
+conformations,  xxxd83xxx  and  xxxd83xxx , are subtle (figure
+6). naïve superposition of the aqp complex and the
+prets complexes yields rmsd values of 0.707 å
+( xxxd83xxx ) and 0.746 å ( xxxd83xxx ), while the two prets
+complexes agree with an rmsd of 0.384 å. the two
+previously described prets structures afford the
+opportunity to test the significance of these differences. for this purpose, the rossmann folds of all
+structures were superimposed as described at the
+end of experimental procedures, and then the r.m.s.
+coordinate differences were determined between the
+calpha atoms of all aligned structures and separately for
+the domains.
+
+114
+
+ xxxg2424xxx   xxxg2425xxx :aqp: distributed transition state binding
+
+figure 5. electron-density maps in the region of the nucleotide pocket superimposed with the arpwarp first model
+for the two first views and with the refined final model (pdb id 2ov4). these maps were calculated (a) with experimental
+siras phases output by sharp, (b) after density modification by solomon (black contour aims at highlighting the
+nucleotide) and (c) final sigmaa 2fo–fc map within buster. contouring level was 1.2sigma except for the solomon map
+(2sigma).
+
+the main contribution to the rmsds between
+prets and aqp complexes comes from a reorientation of the sd, which untwists toward the
+products conformation (figure 6(a)). this shift,
+albeit small (the r.m.s. coordinate difference over
+the rf excluding the loop 111–119 is less than 0.3
+and that over the sd is more than 0.7), places the sd
+in between positions assumed in the prets states
+and in the adenylate products complex (figure 6(b)).
+multiple regression models indicate that both
+replacing atp by aqp and the sd orientation
+(twist angle) are significant contributors of the
+rmsd values, with t-test probabilities of 2 × 10− 4,
+and 3 × 10− 3, respectively.
+untwisting of the sd in the products conformation displaces the kmsks sequence and the leaving
+ppi group by 1.42 å from its position in the atp
+complex.11 the twist angles of the prets, aqp, and
+
+products complexes are 8.9°, 8.1°, and 4.6°. the aqp
+structure therefore places the kmsks loop approximately 20% (0.19) of the way toward the products
+conformation, consistent with a similar estimate
+based on rmsds (0.16). we return to the possible
+dynamic participation of domain orientation in the
+catalytic process in the discussion.
+a last, conspicuous difference between the two
+binary, closed complexes lies in the path of the loop
+(112–119) that forms a gate over the active site and
+probably helps anchor the trna's 3′ terminus for
+aminoacylation. the terminal residues (112–113) of
+the alpha-helix (106–113) in the prets state unwind,
+creating a significantly modified path for the main
+chain in this region. the effect is to move this loop in
+the opposite direction from the kmsks loop across
+the active site, thereby slightly opening the crevice
+to the active site.
+
+ xxxg2424xxx   xxxg2425xxx :aqp: distributed transition state binding
+
+absence of magnesium and effective binding affinity
+of aqp
+the electron density for the nucleotide-binding
+site is shown in figure 5 and modelling of an aqp
+molecule into fourier difference maps is unambiguous. palpha and pgamma show up in the density at the level
+of sulphur atoms whereas pbeta and pdelta are at a level
+equivalent to the most stable backbone carbon
+atoms. curiously, no density appears for a counter
+cation in the aqp complex. polyphosphates have
+high affinity for  xxxd2531xxx  in solution, and
+mg 2+ was present in excess in crystallization.
+however, the position of the beta-phosphate replaces
+much of the volume occupied by magnesium in the
+atp complexes, and no density appears elsewhere
+near the phosphate groups. as noted above, there
+appears to be a competition between mg2+:aqp and
+aqp: xxxg2424xxx   xxxg2425xxx  interactions, such that aqp binds to
+ xxxg2424xxx   xxxg2425xxx  at least as tightly as it does to mg2+.
+aqp configuration and environment
+the adenosine moiety superimposes remarkably
+precisely on the position taken in the atp complex
+(figure 7), making in most cases essentially the same
+interactions with the protein. carbonyl oxygen
+atoms from ile183 and met193 recognize the n6
+amino group, and the purine ring is centered on the
+carbonyl-carbon of the conserved gly21 as in all
+ xxxg2424xxx   xxxg2425xxx  adenine nucleotide complexes.11,15
+if the rf domains are aligned (figure 6(b)), the
+adenosine, ribose, and terminal pyrophosphate
+moieties of atp and aqp superimpose closely
+(figure 7(a)). the ribose position has also changed
+little from its position in the closed atp complex,
+and therefore differs from its unique position
+observed in the atp-indolmycin complex.30 however, gly144 from the 144gxdq147 sequence which
+faces the ribose, has shifted toward the o2′ hydroxyl
+allowing the nitrogen group to make an h-bond
+with od2 of asp146 (table 3).
+three water molecules found in all  xxxg2424xxx   xxxg2425xxx  crystal
+structures that contain the adenosine moiety (five
+prets complexes and six products complexes) are
+also preserved in the immediate neighborhood of
+the nucleotide in the aqp complex (figure 6(b)).
+one (w557) stacks over the purine ring bridging the
+ xxxd146xxx  carboxylate to the c-terminal beta-strand of the
+rossmann fold (residue 181). another (w541) lies
+between the ribose 3′-oh group and the s6 hydroxyl group and the g7 carbonyl oxygen. s6 is structurally homologous to c35 in b. stearothermophilus
+ xxxg2435xxx   xxxg2436xxx , which plays a significant role in transition
+stabilization, probably via a homologous bound
+water molecule.31 the third, w513, links the t15
+hydroxyl group of the tign signature to the nonbridging o2beta,gamma of the nucleotide. this water molecule may protonate the transition state configuration
+of that oxygen, assuming a role played by histidine
+in the canonical high signature. three additional
+water molecules (gray) observed in the atp complexes are missing from the aqp complex.
+
+·
+
+115
+more unexpected was the accommodation of a
+longer phosphate tail by the  xxxg2424xxx   xxxg2425xxx  active site.
+thermodynamic linkage between binding free
+energies and conformations implies that different
+enzyme conformations selectively bind different
+ligands. by this reasoning, the alpha, beta, and gamma phosphates of aqp might be expected to superimpose on
+the atp triphosphate, with its terminal phosphate
+extending beyond the exit gate of the active site,
+delimited by side-chains of ser196 and lys111.
+however, rather than extending fully, the aqp
+terminal pyrophosphate moiety occupies very
+nearly the same position as the pyrophosphate
+leaving group in the atp complexes, “scrunching”
+the beta-phosphate in between it and the amp moiety.
+major differences between the two adenine
+nucleotide ligands are thus confined to the configuration of the palpha phosphate and mg2+ in the atp
+complexes and the palpha and pbeta phosphate groups of
+aqp. fitting the pgamma and pdelta phosphates into the
+pocket formed by the kmsks loop compels the
+polyphosphate to turn sharply at the beta-phosphate,
+which therefore overlaps the volume occupied by
+the mg2+ in prets complex structures. the extra
+phosphate relocates the alpha-phosphate by ∼ 0.4 å
+toward the tryptophan carboxylate nucleophile
+while pressing the ppi mimic deeper into the
+kmsks loop. as a consequence, the bridging
+oxygen atom between pbeta and pgamma (o3beta) assumes a
+position 2.73 å from palpha, compared to the corresponding distance in atp (1.62 å; figure 7(a)). this
+arrangement is quite close to that expected for a
+dissociative transition state.
+the presence of the additional beta-phosphate group
+imposes two unusual interactions on nearby electronegative groups: odelta1_146-o2beta and o1beta–o1delta (figure
+7(c) and bottom two rows in table 3). the distances
+of these contacts, 2.41 å, implies that they must
+share protons to minimize electrostatic repulsion.
+both interactions therefore entail an increase of
+several ph units in the pkas of the respective
+constituent acidic groups. their contributions to
+binding affinity therefore are likely to be
+unfavorable.32 the pbeta oxygen atoms also form
+weak hydrogen bonds to nepsilon2-gln147 and nepsilon2-gln9.
+the former interaction is absent entirely, while the
+latter is directed toward the alpha-phosphate (3.08 å)
+and mg2+ (3.8 å) in the prets atp complexes. thus,
+the beta-phosphate seems to exploit an environment
+similar to that of the mg2+ whose volume it replaces.
+comparison of binding interactions in the atp and
+aqp complexes
+the subtle repositioning of the ppi mimic significantly improves its interactions with the kmsks
+and loop (figure 7(c)). notably, a hydrogen bond
+between s194 and k192 in the atp complexes is
+broken in the aqp complex, and both residues make
+hydrogen bonds to phosphate oxygen atoms, one of
+which (s194-o3delta) is new. the novelty of the s194
+interaction motivated us to inventory all contacts
+between  xxxg2424xxx   xxxg2425xxx  and both adenine nucleotides.
+
+116
+
+ xxxg2424xxx   xxxg2425xxx :aqp: distributed transition state binding
+
+figure 6. (a) plot of rmsd between  xxxg2424xxx   xxxg2425xxx :aqp coordinates and the pre-transition state complex with atp (black)
+and that with the adenylate product complex (magenta). coloured beige and gray rectangles highlight two groups of
+rmsd values from domains that move in opposite directions, relative to one another, in the catalytic transition. (b) ribbon
+drawing of superimposed backbones for the following monomers: cyan, atp complex; magenta, aqp complex; and
+wheat, the trp-5′amp complex. the dimer interface is at the top, and points upward and to the left.
+
+the resulting inventory, with standard deviations
+based on the two prets crystal structures,  xxxd83xxx  and
+ xxxd83xxx , is compiled according to binding group
+subsite in table 3. all subsites show shortened
+contacts with the aqp ligand, relative to atp. these
+changes amount to seven standard deviations in the
+pyrophosphate-binding subsite, to five standard
+deviations in the ribose-binding subsite, and to
+nine standard deviations in the adenine-binding
+subsite. the only contact that does not shorten is
+
+that between the 3′oh group and w541. the
+differential contacts include both van der waals
+and hydrogen-bonding interactions. they are uniform and widely distributed throughout the entire
+volume occupied by adenine nucleotide. notably,
+the least dramatic changes, both in quantity and
+in significance occur in the environment of the
+alpha-phosphate, which shorten by less than one
+standard deviation. thus, the strengthened interactions to the adenosine and ppi moieties, together
+
+117
+
+ xxxg2424xxx   xxxg2425xxx :aqp: distributed transition state binding
+table 3. active site binding changes
+ xxxd83xxx  (å)
+
+ xxxd83xxx  (å)
+
+aqp (å)
+
+delta (delta) (å)
+
+sigma (delta) (å)
+
+delta/sigdelta
+
+adenosine
+c17-c5
+c17-c6
+c17-n1
+c17-c2
+c17-n3
+c17-c4
+calpha144-n3
+
+4.09
+4.10
+4.01
+3.96
+3.97
+4.00
+4.33
+
+4.07
+4.06
+3.97
+3.94
+3.96
+4.01
+4.31
+
+4.05
+3.91
+3.72
+3.76
+3.87
+3.99
+4.05
+averages:
+
+− 0.03
+− 0.17
+− 0.27
+− 0.19
+− 0.10
+− 0.02
+− 0.27
+−0.149
+
+0.014
+0.028
+0.028
+0.014
+0.007
+0.007
+0.014
+0.0162
+
+− 2.1
+− 6.0
+− 9.5
+− 13.4
+− 13.4
+− 2.1
+− 19.1
+− 9.19
+
+ribose
+o2′-odelta2_146
+o3′-wat541
+o2′-n144
+c5′-cgamma1_8
+c4′-cbeta22
+o3′-cbeta143
+
+2.72
+2.67
+4.05
+3.75
+4.32
+3.50
+
+2.64
+2.58
+4.11
+3.72
+4.24
+3.55
+
+2.6
+2.85
+3.05
+3.56
+4.025
+3.4
+averages:
+
+− 0.08
+0.23
+− 1.03
+− 0.18
+− 0.25
+− 0.13
+−0.240
+
+0.057
+0.064
+0.042
+0.021
+0.061
+0.035
+0.0467
+
+− 1.4
+3.5
+− 24.3
+− 8.2
+− 4.2
+− 3.5
+− 5.13
+
+ppi
+o1delta-nzeta111
+o1gamma-nzeta192
+o2delta-ogamma11
+o3delta-ogamma194
+o3delta-ogamma196
+ndelta2_18_o3alpha(o2gamma)
+
+3.00
+2.62
+2.45
+4.20
+2.65
+2.99
+
+2.92
+2.64
+2.58
+4.10
+2.58
+3.08
+
+2.85
+2.46
+2.20
+2.68
+2.39
+2.84
+averages:
+
+− 0.11
+− 0.17
+− 0.32
+− 1.47
+− 0.23
+− 0.19
+−0.414
+
+0.057
+0.014
+0.092
+0.071
+0.050
+0.064
+0.0577
+
+− 1.9
+− 12.0
+− 3.4
+− 20.8
+− 4.5
+− 3.0
+− 7.17
+
+palpha
+o1alpha-nzeta195
+o2alpha-n9
+
+2.71
+2.9
+
+2.78
+2.97
+
+2.65
+2.96
+averages:
+
+−0.095
+0.025
+−0.035
+
+0.050
+0.050
+0.050
+
+− 1.92
+0.51
+− 0.71
+
+water molecules
+hoh_634_o1alpha
+hoh_529_o1delta(o1gamma)
+hoh_565_o1delta(o1gamma)
+hoh_513_o2gamma(o2beta)
+hoh_513_ogamma1_15
+
+3.53
+3.39
+4.17
+2.76
+2.55
+
+3.65
+3.44
+4.15
+2.77
+2.60
+
+absent
+absent
+absent
+2.65
+2.53
+averages:
+
+− 0.11
+− 0.04
+−0.0783
+
+0.004
+0.031
+0.0173
+
+− 31.8
+− 1.4
+− 3.62
+
+other catalytically relevant changes
+palpha-nucleophile
+palpha-n_trpnh ( xxxd83xxx )
+palpha-leaving group
+palpha-pbeta; palpha-pgamma
+2.98
+
+3.50
+
+3.11
+
+− 0.39
+
+2.96
+
+4.11
+
+1.14
+
+0.0106
+
+107.3
+
+3.94
+2.84
+averages:
+
+− 0.59
+− 1.04
+−0.814
+
+0.131
+0.064
+0.098
+
+− 4.5
+− 16.1
+− 9.21
+
+4.24
+
+1.245
+
+0.0071
+
+176.1
+
+mg2+, pbeta equivalence
+pbeta- mg
+mg2+-odelta1_146
+mg2+-o_bridge
+
+1.60
+4.44
+3.83
+
+1.83
+4.63
+3.92
+
+kmsks internal
+ogamma194-nzeta192
+
+2.99
+
+3.00
+
+inferred proton-sharing
+o1beta-o1delta
+odelta1_146-o2beta
+
+with the three displaced water molecules (figure
+7(b)) provide the only convincing structural basis for
+the higher affinity of the  xxxg2424xxx   xxxg2425xxx :aqp complex.
+
+discussion
+the mechanisms by which class ic aars catalyze
+amino acid activation have been the object of
+considerable investigation. mutational studies of
+
+2.41
+2.41
+
+ xxxg2435xxx   xxxg2436xxx  combined with pre-steady-state kinetics8,33
+demonstrated catalytic roles for numerous residues
+remote from the site of chemical changes in the
+transition state for tyrosine activation. although
+lacking in many structural details, these studies
+sketched convincingly the outlines of a novel source
+of catalytic rate enhancement. participation of these
+residues is both significant and transient; they affect
+only the nucleotide; and, in the case of the ppibinding subsite, they are limited to a role in
+
+118
+transition-state binding. despite these data, the
+overall mechanism remains sketchy. while they
+are crucial, mutational and kinetic data can be
+interpreted in different ways, because they lack
+important structural details. thus, they are hard to
+match with models of the transition state configuration of atp itself during the catalyzed in-line
+displacement of ppi by the alpha-carboxylate. the
+structure of the  xxxg2424xxx   xxxg2425xxx :aqp complex brings complementary new structural data to bear on how the
+remote residues implicated by fersht's studies
+might contribute to the mechanism.
+we suggest in this discussion how data
+reported here bear on six questions relevant to
+the catalytic mechanisms of amino acid activation
+by aars: (1) why is aqp unable to function as a
+substrate? (2) what is the catalytic role of the
+single mg2+ in the rate acceleration observed for
+class i aars? (3) how does the metal interact with
+other potential sources for electrostatic catalysis?
+(4) are aqp:protein interactions similar to any of
+those responsible for accelerating amino acid
+activation? (5) does domain motion (untwisting)
+play a catalytic role, and if so, how? (6) do class i
+and class ii aars share a common transition state
+stabilization mechanism?
+why is aqp not a substrate?
+chemically, triphosphate should be approximately as good a leaving group as pyrophosphate. if the  xxxg2424xxx   xxxg2425xxx  active site stabilized only the
+altered, transition state configuration of the alphaphosphate group, one might expect to see a lag
+corresponding to the depletion of aqp, followed
+by rapid formation of [32p]atp. this does not
+occur, implying that the interaction of aqp with
+ xxxg2424xxx   xxxg2425xxx  precludes its acting as a substrate. we
+suggest two, mutually complementary, reasons
+for this. first, excluding the divalent metal from
+the active site precludes a catalytic role with
+aqp. second, the superimposed structures in
+figure 7(a) suggest that the scrunched tetraphosphate, having already positioned the adenosine
+and ppi moieties to approximate the transition
+state configurations recognized by  xxxg2424xxx   xxxg2425xxx , has
+insufficient room in the active site to expand and
+break the palpha-pbeta linkage.
+
+ xxxg2424xxx   xxxg2425xxx :aqp: distributed transition state binding
+
+how does mg2+ accelerate phosphoryl transfer?
+detailed empirical valence bond (evb) simulations of two nuclease mechanisms34 indicated that
+the electrostatic interactions with mg2+ contribute
+> 10 orders of magnitude in rate enhancement in the
+phosphodiester hydrolysis catalyzed by enzymes
+using both one35 and two36 mg2+ ions. in light of that
+estimate, it is somewhat startling that mg2+ accelerates uncatalyzed phosphoryl-transfer reactions by
+a factor of only 2 or 3.1,31,43
+numerous reports suggest that mg2+ plays similar
+roles in the mechanisms of aars. previous estimates
+for  xxxg2424xxx   xxxg2425xxx  catalysis11 suggested that mg2+ accelerates
+the catalyzed reaction by a factor of at least 100.
+however, it is surprisingly difficult to exclude mg2+
+from assays. we therefore have repeated the experiments described by retailleau et al., using buffers
+and atp scrubbed with chelex 10037 and then
+supplemented with increasing concentrations to
+5 mm edta. equilibrium calculations indicate that
+under these conditions, the free [mg2+] should be less
+than 0.01 nm, while the km for mg2+ is around
+2 mum.11 at the highest edta levels,  xxxg2424xxx   xxxg2425xxx  activity
+plateaus at rates about four orders of magnitude
+slower than that with mg2+. the divalent metal
+therefore appears to contribute a major fraction of
+the  xxxg2424xxx   xxxg2425xxx  transition stabilization free energy.
+the contrast between the strong dependence of
+aars catalysis on mg2+ and its minimal impact on the
+uncatalyzed rate implies that the protein itself must
+link the mg2+ mechanistically to the transition state.
+the  xxxg2424xxx   xxxg2425xxx  active-site mg2+ configuration compounds
+the question: no active-site residues interact directly
+with the mg2+ in any of the ground-state structures,
+although simulations suggest that q9 may play a role
+in the transition state mg2+ configuration (h. hu,
+personal communication).
+we recently identified a “minimal catalytic
+domain” (mcd) in the  xxxg2424xxx   xxxg2425xxx  rossmann dinucleotide-binding fold, which we have excised and
+engineered for stability.2 this 130-residue fragment
+includes all but one of the residues (k111) that
+interact with the two substrates. it catalyzes tryptophan activation roughly five orders of magnitude
+more slowly than the intact protein. transition state
+stabilization of 109-fold by the mcd is comparable to
+that from the metal in nuclease reactions.34 a
+
+figure 7. differences between the closed, pre-transition state atp complex and the complex formed with aqp. (a) the
+two ligands are supeimposed and precisely aligned, once the rf domains are aligned. the adenosine, ribose and terminal
+pyrophosphate moieties of atp (functional color) and aqp (wheat) compounds superimpose closely; the differences
+being largely in the configuration of the palpha phosphate and mg2+ in the atp complexes and the palpha and pbeta phosphate
+groups of aqp. a consequence of the sequestration of the pgamma and pdelta phosphates into the pocket formed by the kmsks
+loop is that the bridging oxygen atom between pbeta and pgamma (o3beta) is 2.73 å from palpha, compared to the corresponding
+distance in atp (1.62 å). (b) three water molecules (blue) conserved in all  xxxg2424xxx   xxxg2425xxx  crystal structures that contain the
+adenosine moiety (five prets complexes and six products complexes) are also preserved in the aqp complex. three
+additional water molecules (gray) observed in the atp complexes are missing from the aqp complex. (c) detailed
+changes are conspicuous in the interactions between the kmsks loop and the ppi mimic. notably, a hydrogen bond
+between s194 and k192 in the atp complexes is broken in the aqp complex, and both residues make strong hydrogen
+bonds to phosphate oxygen atoms. dashed lines denote close contacts between negatively charged oxygen atoms,
+expected to increase pka values for associated protons.
+
+ xxxg2424xxx   xxxg2425xxx :aqp: distributed transition state binding
+
+figure 7 (legend on previous page)
+
+119
+
+120
+reasonable inference is that the rudi-mentary mcd
+active-site, while providing no direct linkage to mg2+,
+nonetheless provides an environment in which
+electrostatic catalysis can function at a significant
+level. the functional linkage between the protein
+and mg2+, therefore, depends strongly on as yet
+unspecified interactions within the active site.
+how does mg2+ interact with other potential
+sources of electrostatic catalysis present in
+ xxxg2424xxx   xxxg2425xxx ?
+figure 8 shows a transition-state model derived
+from the aqp: xxxg2424xxx   xxxg2425xxx  complex coordinates. the
+
+ xxxg2424xxx   xxxg2425xxx :aqp: distributed transition state binding
+
+pyrophosphate atoms and the amp moiety are
+taken directly from the gamma and delta-phosphate groups
+and adenosine of aqp; the alpha-phosphate was
+converted to a metaphosphate. the mg2+ was
+located to equilibrate its average distances from
+surrounding coordinating groups.
+admiraal and herschlag1 describe five characteristics of the dissociative character in the uncatalyzed transition state for terminal phosphate
+hydrolysis.1 uncatalyzed pyrophosphoryl transfer,
+associated with synthetic reactions like amino acid
+activation, proceed by a transition state with
+somewhat less dissociative character than the
+terminal phosphate hydrolysis (38; d. herschlag,
+
+figure 8. structure-based, schematic representation of the transition state for phosphoryl transfer by  xxxg2424xxx   xxxg2425xxx . (a) the
+environment of the carboxylate nucleophile. (b) the active site showing the environment of the leaving pyrophosphate
+group. light red and blue shaded ellipses indicate regions of negative and positive electrostatic potential arising from
+active site residues, and illustrated in figure 9.
+
+ xxxg2424xxx   xxxg2425xxx :aqp: distributed transition state binding
+
+personal communication). the  xxxg2424xxx   xxxg2425xxx  active site in
+the aqp complex nevertheless reflects each of the
+following properties:
+(i) the nucleophile is little changed between
+ground state and transition state. warshel34
+argues from simulations that the hydroxy
+nucleophile in hydrolytic cleavage of phosphodiester bonds must be stabilized, and implicates
+the metal in this role in both single and twometal mechanisms. the tryptophan carboxylate
+nucleophile is four orders of magnitude more
+acidic than water, and therefore requires correspondingly less electrostatic stabilization. the
+hydrogen-bonding arrangement involving
+y125, water w613, the mg2+, and the tryptophan
+alphanh2 group all appear to influence the electronic configuration of one carboxylate oxygen
+atom (arbitrarily o2) in such a way that the other
+oxygen atom can serve more effectively as the
+nucleophile (figure 8(a)). the nh2 group may
+ensure that the tyrosine hydroxyl group serves
+as a hydrogen bond donor to the o2 atom, while
+the polarity of w613 imposed by its proximity to
+the catalytic mg2+ ensures that the o2 atom
+remains conjugated, freeing the o1 pi electrons
+for nucleophilic attack. the mg2+ may, therefore,
+indirectly sustain the requisite properties of the
+inline carboxylate oxygen, in keeping with fothergill et al.34.
+notably, however, the tryptophan subsite undergoes little, if any rearrangement throughout
+the known catalytic cycle, from which we infer
+that there is little modulation of the nucleophile,
+consistent with (i).
+(ii) the non-bridging oxygen atoms of the chemically changing phosphoryl group (palpha in this
+case) show a modest decrease in electron density. although the o1alpha atom interacts with the
+mg2+, the non-bridging oxygen atoms of the alphaphosphate in figure 8(b) do not interact with
+any active-site cationic residues that might
+further stabilize increased negative charge. the
+sole polar interaction from the protein that appears poised to assume such a role is the backbone amide nitrogen of q9. this group would
+form a better hydrogen bond to the non-bridging alpha-phosphate oxygen, o2alpha, as the three phosphate oxygen atoms become planar in either a
+metaphosphate or pentavalent phosphate transition state. indeed, this interaction is reminiscent of the use of backbone amide groups to
+form the “oxyanion hole” in serine proteases.39
+the electostatic neutrality of this group, however, is consistent with (ii).
+(iii) the bridging oxygen atom of the leaving group
+develops the greatest increase in negative
+charge. in contrast to the relative lack of attention to the alpha-phosphate, the similar positions
+of the beta-phosphate of aqp and the mg2+ position in the prets state suggest that the mg2+ is
+potentially suited to compensate increased neg-
+
+121
+ative charge on the oxygen bridging the alpha and betaphosphates of atp. interactions with the bridging oxygen atom in the scissile bond also
+include a contact (2.9 å) with ndelta2 of n18 in the
+tign signature and one (3.0 å) with nzeta of k195
+in the kmsks signature. the special focus on
+this bridging oxygen atom is in keeping with the
+expectation that it develops the greatest increase
+in negative charge in the transition state (iii).
+(iv) modest increases in negative charge develop on
+the non-bridging oxygen atoms of the leaving
+group. groups arrayed about the gamma and deltaphosphates of aqp (k111, k192, k195, s194,
+s196; figure 8(b)), and in particular the novelty
+of the interaction of s194 with the gamma-phosphate,
+provide considerable evidence that were the ppi
+leaving group of atp to move into the same
+position as the gamma-delta phosphate groups of aqp,
+the ppi binding subsite would stabilize increased negative charge on the leaving group.
+t15 from the tign signature also interacts via a
+conserved, bound water molecule with the nonbridging oxygen o2beta (2.9 å). this notable
+interaction could donate a proton to the newly
+formed ppi. these multiple electropositive interactions are all consistent with (iv).
+(v) items (ii), (iii), and (iv) together imply that the
+change in electrostatic potential between
+ground state and transition state is dipolar.
+for amino acid activation, the alpha-phosphate
+becomes relatively more positive, the ppi
+leaving group more negative, relative to the
+ground state. the graphic representation of the
+electrostatic field in the active site (figures 8
+and 9) reveals that the immediate environment
+of the scissile bond is indeed complementary to
+
+figure 9. electrostatic surface charge density in the
+ xxxg2424xxx   xxxg2425xxx  active site. blue and red colors represent positive
+and negative charge, respectively, on a range from −30 to
+30 electron volts/å2. the ligand is aqp, and the gamma and deltaphosphate groups are nestled into the leaving group
+subsite, which is entirely surrounded by positive charge
+density. the alpha-phosphate and nucleophile are deep within
+the pocket and are surrounded by negative charge density
+(prepared with spock).
+
+122
+
+ xxxg2424xxx   xxxg2425xxx :aqp: distributed transition state binding
+
+a dipolar transition state. the minus charges on
+ xxxd146xxx  and the tryptophan carboxylate provide a
+negative field proximal to the alpha-phosphate and
+on the face of the metaphosphate facing the
+nucleophile, while the plus charges of basic
+residues just enumerated provide a positive
+field around the leaving group, consistent with
+(v).
+do  xxxg2424xxx   xxxg2425xxx :aqp interactions resemble any that
+accelerate amino acid activation?
+the 105-fold activity deficit in the mcd implies
+additional interactions between the active site and
+the other parts of the protein, which alter either the
+structure of the mcd active site, or how it functions,
+or both. if, as we suggested above, the  xxxg2424xxx   xxxg2425xxx  mcd
+provides a rudimentary environment facilitating
+electrostatic catalysis by mg2+, the remainder of
+the protein must enhance that rate by five orders of
+magnitude by some sort of fine-tuning, which may
+complement and “supercharge” the catalytic effect
+of the mg 2+ . the aqp thermodynamics and
+structure shed new light on the possible nature of
+this amplified catalytic contribution in the intact
+protein.
+the affinity of  xxxg2424xxx   xxxg2425xxx  for aqp falls short of values
+observed for close transition state mimics of other
+reactions.25 moreover, the geometry and charge distribution of the configurations immediately surrounding the scissile bond are radically different in
+aqp and in the putative transition state derived for
+mg2+ atp. the alpha-phosphate has a ground state
+configuration, while the bound form significantly
+distorts the charge distribution expected from the
+transition state mg2+ atp configuration. yet, aqp
+binding is 200-fold tighter than atp and results
+directly in crystals nearly isomorphous to those of the
+pre-transition state complexes reported previously.11
+the energetics of the dramatic differences between
+the aqp beta-phosphate and the mg2+ cannot be
+evaluated on the basis of data reported here. it is
+likely, however, that since the beta-phosphate cannot
+mimic anything like a transition state configuration,
+its interactions with  xxxg2424xxx   xxxg2425xxx  contribute unfavorably to
+the aqp binding affinity. if the 200-fold greater
+affinity of aqp does, as we believe, represent binding
+interactions similar to those in the transition state,
+these must lie elsewhere in the complex. to what
+extent, then, might aqp resemble the transition state?
+the additional beta-phosphate group in aqp has a
+distinctive structural consequence: it pushes the
+terminal ppi mimic and the alpha-phosphate away from
+each other by approximately the amount expected for
+a transition state with dissociative character (figure
+7(a)). mimicking that separation drives the adenosine
+and ppi moieties deeper into binding pockets on
+opposite sides of the domain boundary, the adenosine
+toward the rossmann fold and the ppi toward the
+kmsks loop and c-terminal anticodon-binding
+domain, where each benefits from enhanced binding
+interactions. the gamma and delta-phosphate groups of the ppi
+mimic intensify all of the interactions seen between
+
+·
+
+·
+
+the kmsks loop and the beta and gamma-phosphates of the
+ppi leaving group of atp, and a new interaction
+develops from s194 of the kmsks loop. these and
+corresponding interactions to the adenosine are
+strengthened (table 3). the 200-fold greater affinity
+of aqp, relative to mg2+ atp, suggests that these
+distributed interactions must be strong enough to
+compensate for the unfavorable electrostatic substitutions near the alpha-phosphate plus ∼−3.2 kcal/mol of
+additional binding free energy. complementarity of
+the active site to the actual transition state may
+therefore be extensively delocalized into the  xxxg2424xxx   xxxg2425xxx 
+adenosine and ppi-binding subsites, as suggested by
+the  xxxg2435xxx   xxxg2436xxx  mutational and kinetic studies.
+
+·
+
+aqp appears to meet in a novel way the usual
+criteria for a transition state mimic
+aqp is not a substrate. it binds to  xxxg2424xxx   xxxg2425xxx  with
+substantially higher affinity than does atp. it
+interacts with the active site in a manner suggesting
+the distributed origins of enhanced transition state
+affinity.  xxxg2424xxx   xxxg2425xxx  responds to the altered configurations of adenosine and the ppi mimic by enhancing
+previously identified interactions to atp and by
+forming novel binding interactions. table 3 documents that the active site closes more or less
+uniformly on the inhibitor. the broad distribution
+of interactions responsible for the higher affinity of
+aqp throughout the adenine nucleotide-binding
+subsites is fully consistent with the extensive mutational data for the homologous  xxxg2435xxx   xxxg2436xxx  system,8
+which implicated comparable interactions in transition state binding. both the high binding affinity of
+aqp and the crystal structure therefore verify in
+unexpected detail many expectations for a transition
+state in which transient, strong binding to the adenosine and ppi moieties are important for transition
+state stabilization.
+in summary, introduction of the beta-phosphate between palpha and the ppi leaving group lengthens the
+distance between the leaving group and palpha, moving
+the former into the kmsks loop and the latter toward the nucleophile. the resulting configuration
+strengthens a variety of distributed binding interactions that, we suggest, contribute to transition state
+stabilization.
+what is the role of domain motion?
+the free energy cost of induced-fit, + 3.0 kcal/mol,
+measured for the first time here, is quite substantial.
+how might this stored free energy be utilized during
+catalysis?
+a partial, qualitative, solution to this puzzle
+emerged from md simulations, which revealed a
+significant interaction between the ppi oxygen
+distances to mg2+ and to the epsilon-nh2 groups of k111
+and k192,28 implicating that interaction directly in
+the endergonic twist angle between domains in the
+prets state. the exergonic untwisting domain motion observed in the products conformation,40,41 and
+the strengthening of interactions to ppi in the aqp
+
+123
+
+ xxxg2424xxx   xxxg2425xxx :aqp: distributed transition state binding
+
+complex demonstrated here imply that breaking the
+bond between the bridging oxygen atom and the alphaphosphorus would allow the ppi leaving group to
+form stronger bonds to the kmsks loop as it rotates
+away from the alpha-phosphate, likely accompanied by
+the mg2+ , which is not present in the product
+complex with trp-5′amp.13,15
+moreover, the domain re-orientation associated
+with aqp binding, which rotates the kmsks loop
+toward the products conformation, is exergonic.28
+two reinforcing effects therefore contribute to
+higher aqp affinity; the separated adenosine and
+ppi fit better into their respective binding subsites,
+and the enabling domain re-orientation is energetically favorable.
+loss of the twist takes the ribose and ppi-binding
+subsites in opposite directions, suggesting an
+element of strain in the catalytic mechanism. the
+structural re-organization of the  xxxg2424xxx   xxxg2425xxx  active site, in
+the conversion of the prets to the products
+conformation via the intermediate aqp-bound
+state suggests that relocation of the leaving group
+could occur prior to the approach of the nucleophile,
+as in a fully dissociative transition state. the
+problem with this notion is the well-known presumption that protein conformations are stabilized
+by non-bonded interactions far too weak to distort
+chemical bonds.42 essentially, this argument is that
+van der waals forces change rapidly with distance,
+so strain can be relaxed by small atomic movements.
+the development of incremental binding energy in
+the aqp complex suggests a novel formulation of the
+strain that is not vitiated by the argument of levitt
+and warshel. coordinated increases in binding to the
+dissociating pyrophosphate leaving group, coupled
+to its mechanical relocation can effectively strain the
+palpha-pbeta linkage statistically, by selecting those bondlength fluctuations that lead to bond breaking
+without actually changing equilibrium bond distances. by coupling the unfavorable free energy
+changes associated with the induced-fit to the
+stronger binding interactions to the dissociated
+leaving group, the domain relocation therefore
+could have a significant catalytic effect.
+do class i and class ii aars use different
+mechanisms?
+the distinction between the class-defining consensus motifs, high and kmsks for class i,43–45
+and motifs 2 and 3 for class ii,46 probably reflects
+differences in the detailed mechanism by which they
+catalyze phosphoryl transfer. class ii aars appear
+poised to stabilize developing negative charges on
+the non-bridging oxygen atoms in a pentavalent alphaphosphate group using a conserved arginine residue
+from motif 2. moreover, class ii active sites do not
+provide an extensive, mobile binding site for the ppi
+leaving group, whose negative charges appear to be
+neutralized primarily by multiple mg2+ ions coordinated by active-site  xxxd2431xxx  residues.47–49 this
+arrangement is reminiscent of that in the “two-mg2+
+mechanism” suggested for the analogous synthetic
+
+reaction carried out by nucleic acid polymerases36
+and the associated exonucleolytic reaction.50
+in most class i active sites, on the other hand, the
+kmsks loop has been implicated by mutational7,8,51
+and structural52,53 studies as a (dynamic) binding
+site for the pyrophosphate leaving group. further,
+the kmsks loop weakens atp binding in the pretransition state ground state, while strengthening
+transition-state binding. 28,51,54 thus, conserved
+lysine residues and a single mg2+ in class i active
+sites play slightly different roles to those played by
+conserved arginine residues and multiple mg2+ ions
+in class ii enzymes. mg2+ therefore must function
+somewhat differently in class i and class ii aars.
+an important consequence is that there is likely a
+requirement for the single mg2+ in class i mechanisms to be more mobile than the multiple metals in
+class ii acive sites, consistent with the absence of
+protein ligands and the previously observed weakening of mg2+–phosphate oxygen interactions by
+lysine epsilon-amino groups observed in  xxxg2424xxx   xxxg2425xxx .28
+there are two exceptions to the class i pattern in
+which the second lysine is missing from the kmsks
+signature. arginyl-trna synthetases provide a second lysine from upstream of the high signature.16
+eukaryotic cytoplasmic trprss provide instead an
+arginine from a similar position homologous to
+q9.55 in these enzymes, this upstream arginine
+residue might help stabilize a pentavalent phosphoryl moiety, rather than the metaphosphate that
+appears more appropriate in b. stearothermophilus
+ xxxg2424xxx   xxxg2425xxx .
+concluding remarks
+the path actually taken by a particular enzymatic
+or non-enzymatic system through the two-dimensional surface of bond-breaking and bond-making is
+difficult to determine, but can be studied experimentally by kinetic isotope effects,56,57 and theoretically by quantum-mechanical simulations.58,59 in
+particular, the low-energy path may depend critically on the balance between the electrostatic charges developed on the participants and the ability of
+the environment (solution or enzymatic) to complement it.6 release of pyrophosphate in biosynthetic
+reactions can generate altered negative charges on a
+relatively large number of phosphate oxygen atoms,
+making such determination especially difficult. for
+this reason, any conclusion regarding the precise
+nature of the transition state for tryptophan activation by  xxxg2424xxx   xxxg2425xxx  must remain speculative without
+further experimental and computational work. the
+data reported here underscore the importance of
+doing such studies.
+the affinity of a transition state analog should
+respond in the same way as the enzymatic rate to any
+perturbation that changes the rate,23 leading to a
+linear free energy relation. an orthogonal experimental test of the extent to which aqp mimics the
+transition state would thus be to measure aqp
+affinity for a range of variant trprss with different
+activities. the activity of the  xxxg2424xxx   xxxg2425xxx  mcd is reduced
+
+124
+by ∼five orders of magnitude.2 this fragment should
+not be inhibited by aqp, because the free aqp
+concentration cannot be increased by that relative
+amount. within the range between native  xxxg2424xxx   xxxg2425xxx  and
+its minimal catalytic domain lie a number of engineered fragments and point mutants with different
+specific activities. it should therefore be possible to
+compare the aqp affinity and activity of such
+variants, along lines suggested by wolfenden.23
+
+experimental procedures
+determination of ki for aqp
+pyrophosphate exchange assays were performed as
+described.11 assays at aqp concentrations of 4 × 10− 4 m,
+and 8 × 10− 3 m were analyzed to determine the inhibition
+constant.
+synthesis, purification, and isothermal titration
+calorimetric analysis of (aqp)
+when this work started, aqp was commercially
+available from sigma biochemical (a 4636), and that
+material was used for all crystallographic experiments and
+the determination of the inhibition constant, ki. once it
+became clear that aqp represented a potential transition
+state analog inhibitor, we were unable to purchase more
+compound. subsequent titration experiments were therefore carried out using material that we synthesized as
+follows. the ribonucleotide, 2′,3′isopropylidineadenosine
+(sigma i 4002; aldrich 1-2,240-4) was rendered anhydrous by five repeated evaporations of anhydrous
+dimethylformamide (dmf; aldrich 22,705-6) and was
+subsequently maintained under dried (p2o5) nitrogen.
+the anhydrous nucleotide (0.641 g, 2 mmol) was dissolved
+in 5 ml of anhydrous dmf and treated with 1.135 g
+(7 mmol) of 1,1′-carbonyldiimidazole (aldrich 11,553-3) in
+10 ml of anhydrous dmf and maintained under dried
+nitrogen for 12 h, followed by treatment with 21 ml of
+methanol. after 30 min, the solution was treated with
+13.07 g (10 mmol) of tetrabutylammonium tetraphosphate
+(prepared from ca2-tetraphosphate, city chemicals
+59415-82-6 by ion exchange chromatography) in 20 ml of
+anhydrous dmf and maintained under anhydrous conditions for 24 h.
+the crude 2′,3′ isopropyllidineadenosinetetraphosphate
+was filtered, evaporated to dryness, and deblocked using
+10% (v/v) triflouroacetic acid/water for 12 h. the
+tetraphosphate was purified from less highly charged
+components using ion-exclusion chromatography on
+dowex 50w-x4-400. 60 subsequent purification was
+achieved by adsorption to acid-washed charcoal and
+elution at 55 °c with pyridine. the resulting compound
+was characterized, relative to a commercial sample of aqp,
+atp, and adp by thin-layer chromatography on deaecellulose plates using 1.0 m phosphate (ph 3.4), and on
+silica gel plates in ethanol:nh3:water, 90:1:9 (by vol.).
+aqp concentration was determined using epsilon254 = 15,400/
+mol/cm.
+isothermal titration calorimetry with aqp was performed using a microcal vp-itc calorimeter at two different concentrations of ligand (2.4 × 10− 4 m, 8.5 × 10− 5 m)
+and protein (6 × 10− 6 m, 6 × 10− 5 m) and corrected for dilution of macromolecule and ligand by separate titrations.
+
+ xxxg2424xxx   xxxg2425xxx :aqp: distributed transition state binding
+
+crystallography of the  xxxg2424xxx   xxxg2425xxx :aqp complex
+recombinant native and selenomethionylated  xxxg2424xxx   xxxg2425xxx 
+of b. stearothermophilus were overexpressed in e. coli
+and purified as described.12 binary native complex
+crystals were grown by microdialysis (5 mul of 4 mg/ml
+protein versus 2000 ml well). the protein stock buffer
+(0.6 m potassium phosphate solution in the presence of
+50% (v/v) glycerol) was then extensively exchanged by a
+precipitant solution containing only ∼ 1 m sodium citrate
+(ph 7.5 0, 10 mm mgcl2 and 10 mm (freshly in solution) tri
+(cyclohexylammonium) adenosine 5′ tetraphosphate
+(aqp) (commercial source sigma). one mono crystal
+appeared within two weeks and then grew rapidly to
+suitable dimension 0.3 mm × 0.3 mm × 0.3 mm for x-ray
+diffraction experiment. prior to the flash-cooling performed directly in the stream of liquid nitrogen at 100 k,
+the crystal was quickly dipped into a 15% (v/v) glycerol
+cryoprotectant solution containing 0.1 m cæsium chloride.
+refined value for crystal mosaicity during data reduction
+was equal to 0.56°.
+data were recorded on a raxis-rigaku iv setup, at
+the copper kalpha wavelength, using a 18 cm mar image plate,
+in a single sweep of 70 images with 1° of oscillation.
+diffraction data were processed using the hkl package61
+(see table 1 for statistics). dataset was 95% complete to
+2.5 å but the reflections in the last resolution shell present
+an average i/sigma of 2.0 (between 2.59 and 2. 5 å) and a
+rsym < 0.5.
+native and derivative structure-factor amplitudes were
+calculated using truncate62,63 and then derivative
+amplitudes were scaled relative to the natives between 10
+and 4.0 å using the program scaleit.64,63 later, more
+redundant and higher resolution data were collected
+from a selenomethionylated crystal complexed with an
+mg ++ atp using the same x-ray diffraction setup (see
+table 4). this potential derivative crystal turned out to be
+more isomorphous with the native aqp complex than
+former atp complex crystals (riso = 0.163 versus 0.428 see
+table 4) and therefore was useful for ir phasing.
+molecular replacement using the amore software65
+was then used to place a model (protein atoms from  xxxd83xxx )
+in the asymmetric unit. the best solution obtained after
+search of rotation function then translation function using
+x-ray data from 8 to 4 å resolution had a structure factor
+correlation coefficient of 69.0 and an r-factor of 33.3%. the
+output coordinates were divided into five pieces (rf- alphahelix a (residues 1–15 and 30–165), alpha-helix a, (residues
+table 4. x-ray data processing
+native, aqp
+
+semet, atp
+
+p43212
+
+p43212
+
+62.178
+220.882
+20–2.5
+125,997
+15,946
+95 (95)
+0.076 (0.58)
+9.3 (2.0)
+4.1
+
+62.163
+219.937
+25–2.16
+337,468
+23,153
+95.6 (74.6)
+0.073 (0.44)
+12.9 (2.8)
+7.8
+0.198
+
+space group
+unit cell parameters
+a, b (å)
+c (å)
+maximum resolution (dmin, å)a
+total reflections measured to dmin
+independent reflections to dmin
+completeness (%)(a)
+rsymb (%)a
+<i/sigmai)>a
+redundancy
+riso (8–4 å)c
+a
+
+highest resolution shell (2.59–2.50 å)/(2.24–2.16 å).
+rsym = ∑h,k,l∑i <i(h,k,l)>–ii(h,k,l) /∑iii(h,k,l) where ii(h,k,l) is
+the ith observation of reflection h,k,l and <i(h,k,l)> is the weighted
+mean of all observations (after rejection of outliers).
+c
+riso = ∑h,k,l fph–fp /∑h,k,lfp.
+b
+
+|
+
+|
+
+|
+
+|
+
+125
+
+ xxxg2424xxx   xxxg2425xxx :aqp: distributed transition state binding
+table 5. phasing statistics
+native (1 cs)
+anomalous
+(acentric
+reflections)
+phasing power
+rcullis
+fom
+ave. phase
+difference to
+final model (°)
+
+0.178
+0.992
+
+derivative (9 se)
+isomorphous
+(all reflections)
+
+anomalous
+(acentric
+reflections)
+
+1.267
+0.740
+
+0.198
+0.984
+
+sharp
+solomon
+sharp
+
+0.329
+0.853
+67.2
+
+solomon
+arp/warp
+
+44.1
+38.0
+
+phasing power=<[|fh(calc)|/phase-integrated lack of closure]>
+rcullis=<phase-integrated lack of closure>/<|fph–fp|>.
+
+16–29), long belt (residues 166–199), sd (residues 200–
+265), helical long path (residues 266–328) and subjected to
+a rigid-body fitting using the appropriate macro in cns66:
+r-factor decreased from 49% to 44% after significant reorientation of the sd with respect to the rf. phases
+derived from the fitting coordinates were then used to
+calculate isomorphous and anomalous difference fourier
+maps to locate positions of heavy atoms.
+phasing was provided by isomorphous differences for
+nine of ten se-s atoms, plus one cæsium cation whose
+atomic coordinates were input into sharp67 to start heavyatom parameter refinement for sir phasing. the weak
+anomalous signal was also treated by refining scattering
+factors for se-s and cs at the cukalpha wavelength. sir(as)
+phases were derived to 2.5 å with overall figures of merit
+> 0.3 (see table 5). phase quality was sufficient to draw an
+accurate molecular envelope that permitted solvent-density
+modification (solomon),68 as implemented within
+sharp, to output a detailed electron density map using
+an optimized starting solvent fraction of 48.7%. the quality
+of this 2.5 å map was assessed by the autotracing of about
+90% of the protein backbone model in 120 cycles by the
+warpntrace protocol69 through the interface with sharp.
+attempts of side-chain docking with respect to the sequence
+were performed every 15 cycles and geometry adjustments
+were done by refmac70 and constrained by the sharp
+phase distribution.
+structure refinement was completed using the program
+buster71,72 and interfaced with tnt.73 the core of this
+program implements statistical treatment of both experimental and model structure factors according to the
+maximum-likelihood and maximum-entropy methods.71
+the first part of the process was driven by the maximum
+likelihood refinement of the atomic parameters of the
+incomplete {poly-gly,-ala,-ser} arpwarp model. sir(as)
+phase information output by sharp as the hendricksonlattman coefficients constrained the partial structure
+refinement whose stereochemical and geometrical
+restraints were handled in tnt.
+during the atomic parameter refinement process, bulk
+solvent and the random distribution of missing atoms
+were kept fixed. the missing atoms were utilized as a
+model-based non-uniform prior to output low-resolution
+distributions and together with the bulk solvent envelope and the fragment model, accounted for the realspace picture of the crystal content. maximum-entropy
+modulation of the envelope for missing atoms aims at
+recovering accurate density in their expected regions.
+although measured amplitudes did not exceed 2.5 å of
+resolution, the overlapped part of |2fo–fc, phirefined model|
+
+and |fo–fc, phirefined model|electron densities that delineates
+the solvent boundary was checked continuously during the
+refinement process for strongly protein-bound molecules.
+few (55) water molecules were included in the model with
+confidence, as they were (for most of them) already present
+in the 2.2 å atp complex, id pdb code  xxxd83xxx .
+the aqp was refined with restrained topology and
+parameter files established by xplo2d74 and atomic bfactors were kept correlated. at the end of the refinement,
+ligand occupancy was refined until convergence after
+keeping all coordinates and atomic b-values fixed, those
+for the ligand were set equal to the overall b-value of the
+protein region surrounding the ligand. refinement came
+up with an occupancy value of 0.85. this was followed by
+another round b-factor refinement (overall value nearly
+the same as the protein backbone), individual atomic
+values increasing toward the flexible phosphate tail,
+attaining almost 60 å2 for the delta-phosphate.
+two catalytic water molecules, the one (w541;5sigma) that
+interacts with the hydroxyl group o3′ of the ribose and
+that (w5113; 6.5sigma) that bridges the hydroxyl of thr15 with
+an oxygen of a nucleotide phosphate (beta-phosphate in
+the atp binary complex) were not among the top list
+peaks in the difference fo–fc fourier map after protein
+model completion. they were nevertheless conserved in
+the final model with b-factor values refined to reasonable
+values (< 47 å2).
+on the top of the list was a strong, round (12sigma) peak of
+density showing up in the cationic site previously
+noticed.15 this was modelled as a caesium cation that
+diffused during crystal post-soaking. a low occupancy
+(0.3) was attributed to this very heavy atom element to
+comply with the sharp refinement statistics and also
+with a reasonable value of refined thermal parameter. its
+coordination sphere is four in this complex, making short
+interactions (≤3.5 å) with three carbonyl oxygen atoms of
+q30, y33 and 74.  xxxd684xxx  and n34 amide groups, sulphur
+atoms from met 1 (and possibly that of c35) are also in the
+vicinity of the cation. the potential of this site to offer
+variable coordination sphere and chemical nature of
+neighbors, o, n or s suggests that a large variety of
+cations could be accommodated, and we previously have
+identified k+ at this site in crystals grown from potassium
+salts. however, the present result contrasts to some extent
+with weak evidence for sodium binding in the binary atp
+complex crystallized in sodium citrate. although this
+cation function is likely to be structural (this site is located
+far from the adenylation site, in the first half of the rf
+domain in a pocket created by two helices that connect
+the c terminus of helix alphaa to the beta-strand b on one side
+and the c terminus of helix alphab to the beta-strand c on the
+other, additional mono or di-valent metal-dependent
+table 6. refinement statistics
+resolution range (å)
+r-factor (%)
+r-free (%)
+no. of reflections used
+no. of protein atoms
+no. of solvent atoms (waters)
+av. b-value, protein atoms (å2)
+av. b-value, ligand atoms (å2)
+av. b-value, solvent atoms (å2)
+weighted rmsd from ideality
+bond length (å)
+
+20–2.5
+19.1
+25.8
+15,082
+2613
+75 (55)
+49.3
+50.8 (occ 0.85)
+49.3
+0.012
+
+buster/tnt refinement. r=sigma||fo|–k|fc||/sigma|fo|; r-free=rfactor for 10% of reflections randomly omitted from the
+refinement.
+
+126
+activities of b. stearothermophilus  xxxg2424xxx   xxxg2425xxx  should be worth
+being investigated.
+another residual, significant (9sigma) feature in the fourier
+difference was located in the tryptophan-binding pocket,
+addressing again the issue of contamination of the trp
+pocket. this density was fitted as hexylammonium, the
+counterion of commercially supplied aqp, with the
+aliphatic group within the hydrophobic cavity, and the
+carboxylic group of the trp-binding determinant,  xxxd132xxx 
+directed to the ammonium group.
+statistics at the completion of the model refinement are
+given in table 6. the final crystallographic r-free is equal
+to 25.8 and the r-factor is 19.1 for all data between 20.0
+and 2.5 å resolution. the standard deviation on coordinates estimated from the cruickshank approach within
+sfcheck75 is 0.5 å. agreement between the model and
+the sigmaa 2fo–fc final map is assessed by an overall
+real-space correlation coefficient of 0.85 calculated by the
+macro rs_fit within o. a plot of these coefficients for each
+residue is displayed in figure 4 in relation with the
+corresponding main chain temperature factors. geometry
+of the model was analysed by procheck,76 revealing
+that almost 93% of residues in the structure are in the most
+favored regions of the ramachandran plot (figure 2). for
+purposes of coordinate comparisons, all the models were
+superimposed by lsqkab using 42 calpha atoms taken from
+the first half of the rf domain, which has been used as a
+reference orientation for previous comparisons among
+class i aarss (doublié et al, 1995). color figures were
+prepared using molscript77 rendered by raster3d78
+and pymol.79
+
+ xxxg2424xxx   xxxg2425xxx :aqp: distributed transition state binding
+
+3.
+4.
+5.
+
+6.
+7.
+
+8.
+9.
+
+10.
+
+protein data bank accession code
+11.
+the coordinates for the binary complex of the aqp:
+ xxxg2424xxx   xxxg2425xxx  of b. stearothermophilus and the observed structure
+factors have been deposited with the rcsb protein data
+bank, with accession code 2ov4.
+12.
+
+acknowledgements
+13.
+
+this work was supported by nigms-48519. we
+are grateful also to globalphasing ltd for licenses
+for sharp and buster/tnt and for their assistance. we gratefully acknowledge substantive discussions with barry lentz and jan hermans, which
+clarified several important issues addressed in
+determining aqp affinity; with hao hu for discussion of his unpublished quantum mechanical and
+md simulations. we thank eric first, dan herschlag, gordon hammes, chris halkides, jan hermans, and richard wolfenden for their comments
+on the manuscript. several reviewers made key
+suggestions that improved the presentation.
+
+15.
+
+references
+
+17.
+
+1. admiraal, s. j. & herschlag, d. (1995). mapping the
+transition state for atp hydrolysis: implications for
+enzymatic catalysis. chem. biol. 2, 729–739.
+2. pham, y., li, l., kim, a., erdogan, o., weinreb, v.,
+butterfosss, g. et al. (2006). a minimal  xxxg2424xxx   xxxg2425xxx  catalytic
+
+14.
+
+16.
+
+18.
+
+domain supports sense/antisense ancestry of class i
+and ii aminoacyl-trna synthetases. mol. cell, 25,
+851–862.
+tetas, m. & lowenstein, j. m. (1963). the effect of
+bivalent metal ions on the hydrolysis of adenosine diand tri-phosphates. biochemistry, 2, 350–357.
+mildvan, a. s. (1997). mechanisms of signaling and
+related enzymes. proteins: struct. funct. genet. 29,
+401–416.
+åqvist, j., kolmodin, k., florian, j. & warshel, a.
+(1999). mechanistic alternatives in phosphate monoester hydrolysis: what conclusions can be drawn
+from available experimental data? chem. biol. 6,
+ xxxd1097xxx –r80.
+florian, j. & warshel, a. (1998). phosphate ester
+hydrolysis in aqueous solution: associative versus dissociative mechanisms. j. phys. chem. b, 102, 719–734.
+fersht, a. (1988). dissection of the structure and
+activity of an enzyme. in design of enzymes and enzyme
+models (kaiser, e. t., ed), vol. xxxi, pp. 159–182.
+robert a. welch foundation, houston, tx.
+fersht, a. r. (1987). dissection of the structure and
+activity of the  xxxg2435xxx   xxxg2436xxx  by sitedirected mutagenesis. biochemistry, 26, 8031–8037.
+mechulam, y., dardel, f., lecorre, d., blanquet, s. &
+fayat, g. (1991). lysine 335, part of the kmsks
+signature sequence, plays a crucial role in the amino
+acid activation catalyzed by the methionyl-trna
+synthetase from escherichia coli. j. mol. biol. 217, 465–475.
+schmitt, e., panvert, m., blanquet, s. & mechulam, y.
+(1995). transition state stabilization by the ‘high’ motif
+of class i aminoacyl-trna synthetases: the case of
+escherichia coli methionyl-trna synthetase. nucl.
+acids res. 23, 4793–4798.
+retailleau, p., huang, x., yin, y., hu, m., weinreb, v.,
+vachette, p. et al. (2003). interconversion of atp
+binding and conformational free energies by  xxxg2424xxx   xxxg2425xxx : structures of atp bound to
+open and closed, pre-transition conformations. j. mol.
+biol. 325, 39–63.
+ilyin, v. a., temple, b., hu, m., li, g., yin, y., vachette,
+p. & carter, c. w., jr (2000). 2.9 a crystal structure of
+ligand-free  xxxg2424xxx   xxxg2425xxx : domain
+movements fragment the adenine nucleotide binding
+site. protein sci. 9, 218–231.
+doublie, s., bricogne, g., gilmore, c. & carter, c. w.,
+jr (1995).  xxxg2424xxx   xxxg2425xxx  crystal
+structure reveals an unexpected homology to  xxxg2435xxx   xxxg2436xxx . structure, 3, 17–31.
+brown, k. a., brick, p. & blow, d. m. (1987). structure
+of a mutant of  xxxg2435xxx   xxxg2436xxx  with enhanced catalytic properties. nature, 326, 416–418.
+retailleau, p., yin, y., hu, m., roach, j., bricogne, g.,
+vonrhein, c. et al. (2001). high-resolution experimental phases for  xxxg2424xxx   xxxg2425xxx  ( xxxg2424xxx   xxxg2425xxx )
+complexed with tryptophanyl-5′amp. acta crystallog.
+sect. d, 57, 1595–1608.
+sekine, s.-i., shimada, a., nureki, o., cavarelli, j.,
+moras, d., vassylyev, d. g. & yokoyama, s. (2001).
+crucial role of the high-loop lysine for the catalytic
+activity of arginyl-trna synthetase. j. biol. chem. 276,
+3723–3726.
+cavarelli, j. (2003). pushing induced fit to its limits:
+trnba-dependent active site assembly in class i
+aminoacyl-trna synthetases. structure, 11, 484–486.
+delagoutte, b., moras, d. & cavarelli, j. (2000). trna
+aminoacylation by arginyl-trna synthetase: induced
+conformations during substrates binding. embo j. 19,
+5599–5610.
+
+127
+
+ xxxg2424xxx   xxxg2425xxx :aqp: distributed transition state binding
+
+19. cusack, s., yaremchuk, a. & tukalo, m. (2000). the 2
+a crystal structure of  xxxg1302xxx   xxxg1303xxx  and its
+complex with a leucyl-adenylate analogue. embo j.
+19, 2351–2361.
+20. sekine, s.-i., nureki, o., dubois, d. y., bernier, s.,
+chênevert, r., lapointe, j. et al. (2003). atp binding
+by  xxxg669xxx  is switched to the
+productive mode by trna binding. embo j. 22,
+676–688.
+21. sekine, s.-i., nureki, o., vassylyev, d. g., bernier, s.,
+chênevert, r., lapointe, j. & yokoyama, s. (2003).
+structural basis for the trna-dependent catalytic
+activation of  xxxg669xxx . embo j. 22,
+676–688.
+22. wolfenden, r. (1976). transition state analog inhibitors and enzyme catalysis. annu. rev. biophys. bioeng.
+5, 271–306.
+23. radzicka, a. & wolfenden, r. (1995). transition state
+and multisubstrate analog inhibitors. methods enymol.
+249, 284–312.
+24. fersht, a. r. (1999). structure and mechanism in protein
+science, w. h. freeman and company, new york.
+25. frick, l., yang, c., wolfenden, r. & marquez, v. e.
+(1989). binding of pyrimidine-2one- xxxd2246xxx  by
+ xxxg400xxx  as the transition state analogue
+3,4-dihydrouridine and the contribution of the 4hydroxyl group to its binding affinity. biochemistry,
+28, 9423–9430.
+26. adolfson, r. & moudrianakis, e. (1978). control of
+complex metal ion equilibria in biochemical reaction
+systems: intrinsic and apparent stability contants of
+metal  xxxd79xxx  nucleotide complexes. j. biol. chem. 253,
+4378–4379.
+27. majumbder, r., wang, j. & lentz, b. (2003). effects of
+water soluble  xxxd1857xxx  on bovine  xxxg741xxx :
+functional and structural changes plus dimerization.
+biophys. j. 84, 1238–1251.
+28. kapustina, m. & carter, c. w., jr (2006). computational studies of  xxxg2424xxx   xxxg2425xxx :
+activation of atp by induced-fit. j. mol. biol. 362,
+1159–1180.
+29. george, p., witonsky, r. j., trachtman, m., wu, x.,
+soeqer, q., richman, l. et al. (1970). an enquiry into
+the importance of solution effects in phosphate ester
+and anhydride reactions. biochim. biophys. acta, 223,
+1–15.
+30. yin, y. (1995). crystallographic study of bacillus
+stearothermophilus  xxxg2424xxx   xxxg2425xxx  in
+the catalytic reaction. phd, university of north
+carolina at chapel hill.
+31. wells, t. n. c. & fersht, a. r. (1986). use of binding
+energy in catalysis analyzed by mutagenesis of the
+ xxxg2435xxx   xxxg2436xxx . biochemistry, 25, 1881–1886.
+32. butler, p. j. g. & klug, a. (1978). the assembly of a
+virus. sci. am. 239, 62–69.
+33. fersht, a. r., knill jones, j. w., bedouelle, h. &
+winter, g. (1988). reconstruction by site-directed
+mutagenesis of the transition state for the activation
+of tyrosine by the  xxxg2435xxx   xxxg2436xxx : a mobile
+loop envelopes the transition state in an induced-fit
+mechanism. biochemistry, 27, 1581–1587.
+34. fothergill, m., goodman, m., petruska, j. &
+warshel, a. (1995). structure-energy analysis of
+the role of metal ions in phosphodiester bond
+hydrolysis by dna polymerase i. j. am. chem. soc.
+117, 11619–11627.
+35. åqvist, j. & warshel, a. (1990). free energy relationships in metalloenzyme-catalyzed reactions. calculations of the effects of metal ion substitutions in
+
+36.
+
+37.
+38.
+
+39.
+
+40.
+
+41.
+
+42.
+
+43.
+
+44.
+
+45.
+46.
+
+47.
+
+48.
+
+49.
+
+50.
+51.
+52.
+
+53.
+
+staphylococcal nuclease. j. am. chem. soc. 112,
+2860–2868.
+beese, l. s. & steitz, t. a. (1991). structural basis for
+the 3′ 5′ exonuclease activity of escherichia coli dna
+polymerase 1: a two metal ion mechanism. embo j.
+10, 25–33.
+holmquist, b. (1981). elimination of metals. methods
+enymol. 158, 6–12.
+messmore, j. m. & raines, r. t. (2000). pentavalent
+organo-vanadates as transition-state analogues for
+phosphoryl transfer enzymes. j. am. chem. soc. 122,
+9911–9916.
+robertus, j. d., kraut, j., alden, r. a. & birktoft, j. j.
+(1972). subtilisin: a stereochemical mechanism involving transition state stabilization. biochemistry, 11,
+4293–4303.
+doublié, s., bricogne, g., gilmore, c. j. & carter, c. w.,
+jr (1995).  xxxg2424xxx   xxxg2425xxx  crystal
+structure reveals an unexpected homology to  xxxg2435xxx   xxxg2436xxx . structure, 3, 17–31.
+retailleau, p., hu, m., bricogne, g., vonrhein, c.,
+roversi, p., blanc, e. et al. (2001). high resolution
+experimental phases for  xxxg2424xxx   xxxg2425xxx  ( xxxg2424xxx   xxxg2425xxx ) complexed with tryptophanyl-5′amp.
+acta crystallog. sect. d, 57, 1595–1608.
+levitt, m. & warshel, a. (1976). theoretical studies of
+enzymic reactions: dielectric, electrostatic and steric
+stabilization of the carbonium ion in the reaction of
+lysozyme. j. mol. biol. 103, 227–249.
+barker, d. g. & winter, g. (1982). conserved cysteine
+and histidine residues in the structures of the tyrosyl
+and methionyl-trna synthetases. febs letters, 145,
+191–193.
+webster, t., tsai, h., kula, m., mackie, g. a. &
+schimmel, p. (1984). specific sequence homology and
+three-dimensional structure of an aminoacyl transfer
+rna synthetase. science, 226, 1315–1317.
+hountondji, c., dessen, p. & blanquet, s. (1986).
+sequence similarities among the family of aminoacyltrna synthetases. biochimie, 68, 1071–1078.
+eriani, g., delarue, m., poch, o., gangloff, j. & moras,
+d. (1990). partition of trna synthetases into two
+classes based on mutually exclusive sets of sequence
+motifs. nature, 347, 203–206.
+arnez, j. g., augustine, j. g., moras, d. & francklyn,
+c. s. (1997). the first step of aminoacylation at the
+atomic level in  xxxg1021xxx . proc. natl
+acad. sci. usa, 94, 7144–7149.
+belrhali, h., yaremchuk, a., tukalo, m., berthetcolominas, c., rasmussen, b., bosecke, p. et al.
+(1995). the structural basis for seryl-adenylate and
+ap4a synthesis by  xxxg2012xxx . structure,
+3, 341–352.
+desogus, g., todone, f., brick, p. & onesti, s. (2000).
+active site of  xxxg1225xxx : structural studies of the adenylation reaction. biochemistry, 39,
+8418–8425.
+steitz, t. a. & steitz, j. a. (1993). a general two-metalion mechanism for catalytic rna. proc. natl acad. sci.
+usa, 90, 6498–6502.
+first, e. a. & fersht, a. r. (1993). mutational and
+kinetic analysis of a mobile loop in tyrosyl-trna
+synthetase. biochemistry, 32, 13658–13663.
+carter, c. w., jr, ilyin, v. a., yin, y., huang, x. &
+retailleau, p. (2002). using crystallography to understand enzyme mechanism. the american crystallographic association, st. paul, mn.
+carter, c. w., jr (2005). tryptophanyl-trna synthetases. the aminoacyl-rna synthetases (ibba, m.,
+
+128
+
+54.
+
+55.
+
+56.
+
+57.
+58.
+
+59.
+
+60.
+
+61.
+62.
+63.
+64.
+65.
+66.
+
+francklyn, c. & cusack, s., eds), pp. 99–110, landes
+biosciences/eurekah.com, georgetown, tx.
+first, e. a. & fersht, a. r. (1995). analysis of the role
+of the kmsks loop in the catalytic mechanism of the
+ xxxg2435xxx   xxxg2436xxx  using multimutant cycles.
+biochemistry, 34, 5030–5043.
+yang, x.-l., otero, f. j., skene, r. j., mcree, d. e.,
+schimmel, p. & ribas de pouplana, l. s. (2003).
+crystal structures that suggest late development of
+genetic code components for differentiating aromatic side chains. proc. natl acad. sci. usa, 100,
+15376–15380.
+gerretana, b., frey, p. a. & cleland, w. w. (2001).
+characterization of the transition-state structure of the
+reaction of kanamycin nucleotydyltransferase by
+heavy-atom kinetic isotope effects. biochemistry, 40,
+2972–2977.
+schramm, v. l. (1999). enzymatic transition-state
+analysis and transition-state analogs. methods enzymol. 308, 301–355.
+florian, j., goodman, m. & warshel, a. (2003).
+computer simulation of the chemical catalysis of
+dna polymerases: discriminating between alternative nucleotide insertion mechanisms for t7 dna
+polymerase. j. am. chem. soc. 125, 8163–8177.
+florian, j., goodman, m. & warshel, a. (2005).
+computer simulations of protein functions: searching for the molecular origin of the replication fidelity
+of dna polymerases. proc. natl acad. sci. 102,
+6819–6824.
+leigh, c. p. h. & cashion, p. j. (1980). rapid
+separation of nucleoside mono-,di-, and triphosphates
+on ion-exlcusion/exchange columns. j. chromatog.
+192, 490–493.
+otwinoski, z. & minor, w. (1997). processing of x-ray
+diffraction data collected in oscillation mode. methods
+enzymol. 276, 307–326.
+french, g. s. & wilson, k. s. (1978). on the treatment
+of negative intensity observations. acta crystallog. sect.
+a, 34, 517–525.
+ccp4. (1994). the ccp4 suite: a programs for
+protein crystallography. acta crystallog. sect. d, 50,
+760–76364.
+howell, l. & smith, d. (1992). identification of heavyatom derivatives by normal probability methods.
+j. appl. crystallog. 25, 81–86.
+navaza, j. (1997). amore: an automated molecular
+replacement package. methods enymol. 276, 581–594.
+brunger, a. t., adams, p. d., clore, g. m., delano,
+w. l., gros, p., grosse-kunstleve, r. w. et al. (1998).
+
+ xxxg2424xxx   xxxg2425xxx :aqp: distributed transition state binding
+
+67.
+
+68.
+
+69.
+
+70.
+
+71.
+72.
+
+73.
+74.
+75.
+
+76.
+77.
+78.
+79.
+
+crystallography & nmr system: a new software
+suite for macromolecular structure determination.
+acta crystallog. sect. d, 54, 905–921.
+de la fortelle, e. & bricogne, g. (1997). maximumlikelihood heavy-atom parameter refinement for
+multiple isomorphous replacement and multiwavelength anomalous diffraction methods. methods enzymol. 276, 472–494.
+abrahams, j. p. & leslie, a. g. w. (1996). methods
+used in the structure determination of bovine
+mitochondrial f1 atpase. acta crystallog. sect. d, 52,
+30–42.
+myers, r. j., perrakis, a. & lamzin, v. s. (2003).
+arp/warp and automatic interpretation of protein electron density maps. methods enymol. 374,
+229–244.
+murshudov, g. n., vagin, a. & dodson, e. j. (1997).
+refinement of macromolecular structures by the
+maximum-likelihood method. acta crystallog. sect. d,
+53, 240–255.
+bricogne, g. (1997). bayesian statistical viewpoint on
+structure determination: basic concepts and examples.
+methods enzymol. 276, 361–423.
+blanc, e., roversi, p., vonrhein, c., flensburg, c.,
+lea, s. m. & bricogne, g. (2004). refinement of
+severely incomplete structures with maximum likelihood in buster-tnt. acta crystallog. sect. d, 60,
+2210–2221.
+tronrud, d. e. (1997). tnt refinement package.
+methods enzymol. 277, 306–319.
+kleywegt, g. a. & jones, t. a. (1996). efficient rebuilding of protein structures. acta crystallog. sect. d,
+52, 826–828.
+vaguine, a. a., richelle, j. & wodak, s. j. (1999).
+sfcheck: a unified set of procedures for evaluating
+the quality of macromolecular structure-factor data
+and their agreement with the atomic model. acta
+crystallog. sect. d, 55, 191–205.
+laskowski, r. a., moss, d. s. & thornton, j. m. (1993).
+main-chain bond lengths and bond angles in protein
+structures. j. mol. biol. 231, 1049–1067.
+kraulis, p. (1991). molscript: a program to produce
+both detailed and schematic plots of protein structures. j. appl. crystallog. 24, 946–950.
+merrit, e. a. & murphy, m. e. p. (1994). raster 3d
+version 2.0: a program for photorealistic molecular
+graphics. acta crystallog. sect. d, 50, 869–873.
+delano, w. f. (2002). the pymol molecular graphics
+system pymol x11 hybrid edit. delano scientific, san
+carlos, ca.
+
+edited by j. doudna
+(received 7 december 2006; accepted 24 january 2007)
+available online 12 march 2007
+

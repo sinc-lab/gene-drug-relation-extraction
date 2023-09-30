@@ -1,0 +1,1361 @@
+protein science ~1999!, 8:467–481. cambridge university press. printed in the usa.
+copyright © 1999 the protein society
+
+structure and dynamics in solution of the complex
+of lactobacillus casei  xxxg631xxx  with
+the new lipophilic antifolate drug  xxxd3442xxx 
+vladimir i. polshakov,1,2 berry birdsall,1 thomas a. frenkiel,3
+angelo r. gargaro,1 and james feeney 1
+1
+
+division of molecular structure, national institute for medical research, the ridgeway, mill hill,
+london nw7 1aa, united kingdom
+2
+center for drug chemistry, moscow 119815, russia
+3
+mrc biomedical nmr centre, national institute for medical research, the ridgeway, mill hill,
+london nw7 1aa, united kingdom
+~received july 29, 1998; accepted november 3, 1998!
+
+abstract
+we have determined the three-dimensional solution structure of the complex of lactobacillus casei dihydrofolate
+reductase and the anticancer drug  xxxd3442xxx . two thousand seventy distance, 345 dihedral angle, and 144 hydrogen
+bond restraints were obtained from analysis of multidimensional nmr spectra recorded for complexes containing
+15
+n-labeled protein. simulated annealing calculations produced a family of 22 structures fully consistent with the
+constraints. several intermolecular protein-ligand noes were obtained by using a novel approach monitoring temperature effects of noe signals resulting from dynamic processes in the bound ligand. at low temperature ~5 8c! the
+trimethoxy ring of bound  xxxd3442xxx  is flipping sufficiently slowly to give narrow signals in slow exchange, which give
+good noe cross peaks. at higher temperature these broaden and their noe cross peaks disappear thus allowing the
+signals in the lower-temperature spectrum to be identified as noes involving ligand protons. the binding site for
+ xxxd3442xxx  is well defined and this was compared with the binding sites in related complexes formed with methotrexate
+and trimethoprim. no major conformational differences were detected between the different complexes. the 2,4diaminopyrimidine-containing moieties in the three drugs bind essentially in the same binding pocket and the remaining
+parts of their molecules adapt their conformations such that they can make effective van der waals interactions with
+essentially the same set of hydrophobic amino acids, the side-chain orientations and local conformations of which are
+not greatly changed in the different complexes ~similar x1 and x2 values!.
+keywords:  xxxg631xxx ; dynamics;
+structure determination;  xxxd3442xxx 
+
+15
+
+n relaxation; nmr; protein-ligand interactions; ring flipping;
+
+ xxxg631xxx  ~ec 1.5.1.3! catalyzes the reduction of
+7,8-dihydrofolate to  xxxd3334xxx  using nadph as co-
+
+enzyme. this reaction maintains the intracellular pool of tetrahydrofolate required by several folate-dependent enzyme systems
+involved in important steps in dna synthesis, such as the biosynthesis of purines and the conversion of  xxxd1838xxx  to  xxxd3365xxx  ~blakley, 1985!. the
+important cellular role of  xxxg631xxx  has led to it
+being used as the target for several clinically useful antifolate
+drugs. agents, such as trimethoprim ~antibacterial!, pyrimethamine
+~antimalarial!, and methotrexate ~anticancer!, act by inhibiting the
+enzyme in parasitic or malignant cells. the relatively small size of
+the enzyme ~18–20 kda! makes it amenable to detailed structural
+studies ~see reviews by roberts, 1983; freisheim & matthews,
+1984; blakley, 1985; feeney, 1986, 1990, 1996; feeney & birdsall, 1993!. these have been carried out on complexes of the
+enzyme using both x-ray ~bolin et al., 1982; matthews et al.,
+1985a, 1985b; sawaya & kraut, 1997; and references in gargaro
+et al., 1998! and nmr methods ~martorell et al., 1994; morgan
+et al., 1995; johnson et al., 1997; gargaro et al., 1998!. these
+studies have provided information about structures, interactions,
+
+reprint requests to: j. feeney, division of molecular structure, national
+institute for medical research, mill hill, london nw7 1aa, united kingdom; e-mail: jfeeney@nimr.mrc.ac.uk.
+abbreviations: cosy, correlated spectroscopy; dante, delays alternating with nutation for tailored excitation; dhfr,  xxxg631xxx ; dss, sodium 2,2-dimethyl-2-silapentane-5-sulfonate; dqf, double
+quantum filtered; garp-1, a broadband decoupling sequence; hnha, 3d
+experiment correlating amide nh and a-ch protons; hnhb, 3d experiment correlating amide nh and b-ch protons; hsqc, heteronuclear single
+quantum coherence spectroscopy; mtx, methotrexate; mlev-17, isotropic mixing sequence; nmr, nuclear magnetic resonance; noe, nuclear
+overhauser effect; noesy, nuclear overhauser effect spectroscopy; rmsd,
+root-mean-square deviation; roesy, rotating frame overhauser effect spectroscopy; scuba, stimulated cross peaks under bleached alphas; srep ,
+representative structure; tmp, trimethoprim;  xxxd3442xxx ,  xxxd3442xxx ; tocsy,
+total correlation time spectroscopy; vdw, van der waals; 1d, onedimensional; 2d, two-dimensional; 3d, three-dimensional; 4d, fourdimensional.
+
+467
+
+468
+and ionization states in several complexes of  xxxg631xxx  with substrates and inhibitors ~birdsall et al., 1981, 1982,
+1984, 1989a, 1989b, 1990, 1997; cocco et al., 1981; gronenborn
+et al., 1981; antonjuk et al., 1984; clore et al., 1984; bevan et al.,
+1985; hammond et al., 1986; searle et al., 1988; carr et al., 1991;
+cheung et al., 1993; falzone et al., 1994; epstein et al., 1995;
+polshakov et al., 1995a; gargaro et al., 1996; gerothanassis et al.,
+1996; nieto et al., 1997!.
+in the search for improved inhibitors of  xxxg631xxx ,
+numerous antifolate analogues have been synthesized and investigated ~roth & cheng, 1982; baccanari & kuyper, 1993!. one promising antifolate analogue is  xxxd3442xxx  ~2,4-diamino-5-methyl-6@~3,4,5-trimethoxyanilino!methyl#quinazoline! ~fig. 1a! ~bertino et
+al., 1979!.  xxxd3442xxx  was first prepared by elslager and co-workers
+~elslager et al., 1983! and was investigated initially as a potential
+antimalarial agent. subsequently, it was found to have antineoplastic activity in relation to breast, head, and neck cancers ~robert, 1988!
+and later it was used as an antibacterial in the treatment of pneumocystis carinii pneumonia ~pcp! in aids patients ~lin & bertino, 1987!. in 1993  xxxd3442xxx  ~ xxxd3442xxx ! was approved by the
+u.s. food and drug administration for the treatment of moderateto-severe pcp in people with compromised immune systems.
+the structure of  xxxd3442xxx  ~fig. 1a! combines some of the
+features of trimethoprim ~fig. 1b! and methotrexate ~fig. 1c!.
+because  xxxd3442xxx  lacks the terminal  xxxd2431xxx  moiety of
+methotrexate, it is more lipophilic and does not need active transport for penetration into the cell ~lin & bertino, 1991!. this significantly increases its efficacy against cells resistant to methotrexate.
+inhibition studies with the human enzyme show that although
+ xxxd3442xxx  is about an order of magnitude less potent than meth-
+
+a
+
+b
+
+c
+
+fig. 1. molecular structures of ~a!  xxxd3442xxx , ~b! trimethorim, and ~c!
+methotrexate.
+
+v.i. polshakov et al.
+otrexate, it is still an extremely tightly-binding inhibitor ~jackson
+et al., 1984!.
+recent studies on the antipneumocystis activity of  xxxd3442xxx 
+have stimulated the synthesis and biological testing of several new
+nonclassical antifolates ~gangjee et al., 1996!. gangjee and coworkers have used computer assisted molecular modeling of complexes of  xxxg631xxx  to help in developing novel
+antifolates ~gangjee et al., 1995!. such rational drug design studies
+could be improved if more structural information were available
+for complexes of dihydrofolate reductases and  xxxd3442xxx .
+in the present work, we report the high resolution solution structure of the binary complex of lactobacillus casei dihydrofolate
+reductase with  xxxd3442xxx . detailed information about the conformation of the bound drug and the structure of its binding site
+has been obtained. this information allows us to compare the
+binding site with those of methotrexate ~gargaro et al., 1998! and
+trimethoprim ~martorell et al., 1994! and to examine any differences in their modes of binding. the dynamics of the protein and
+the bound drug and the specific interactions between the enzyme
+with the drug have also been characterized.
+results
+signal assignments for the dhfr{ xxxd3442xxx  complex
+these assignments for the complex were made by analyzing 2d
+1
+h nmr spectra of the dhfr{ xxxd3442xxx  complex obtained
+from cosy, tocsy, noesy, and roesy experiments and 3d
+15
+n- 1 h nmr spectra from tocsy-hmqc, noesy-hmqc,
+roesy-hmqc, and hnhb experiments carried out on uniformly
+15
+n-labeled dhfr samples using procedures similar to those described earlier for the dhfr{methotrexate complex ~carr et al.,
+1991; gargaro et al., 1998!. the 15 n- 1 h hsqc spectrum of the
+dhfr{ xxxd3442xxx  complex with all the resonances labeled is
+shown in figure 2 and a table containing the 1 h and 15 n signal
+assignments is provided in electronic supplementary material.
+in earlier studies on the dhfr{methotrexate complex, almost
+complete assignments of the proton nmr signals were obtained by
+analyzing the 3d and 4d spectra from experiments carried out on
+uniformly 15 n and 13 c0 15 n labeled enzyme ~soteriou et al., 1993;
+gargaro et al., 1998!. these assignments for the dhfr{methotrexate
+complex assisted in the assignment of signals from some of the
+long-chain amino acids in the spectra of the dhfr{ xxxd3442xxx 
+complex, because many signals have similar chemical shifts in the
+two complexes and show similar patterns of noes.
+coupling constant and distance-related nmr data were used to
+derive the stereospecific assignments of b-methylene protons and
+of valine g-methyl groups using the program anglesearch as described in materials and methods ~polshakov et al., 1995b!.
+signals from all the side-chain amide protons of asparagine and
+glutamine residues could easily be assigned in 2d 15 n- 1 h tocsyhmqc and the 3d 15 n- 1 h tocsy-hmqc and noesy-hmqc
+spectra by identifying characteristic noe patterns involving the
+nh2 amide side-chain protons. the side-chain amide protons hg22
+in asparagine and hd22 in glutamine were determined as those
+closer to hb protons ~or hg protons in glutamine! than are hg21
+or hd21, respectively, and the stereospecific assignments of these
+protons could thus be obtained directly from the intensity information in roesy spectra. in the 3d roesy-hmqc spectra, correlations between amide proton of asparagine and glutamine residues
+sometimes had different polarities for different residues as a result
+
+469
+
+structure and dynamics in solution of the complex of l. casei
+
+fig. 2. 1 h- 15 n hsqc spectrum recorded from an
+~3 mm!.
+
+15
+
+n$ 1 h% noe experiment at 600 mhz for
+
+of contributions to the intensities from exchange and noe effects
+having opposite signs. thus, for q7, q33, n59, q92, and n148,
+strong negative cross peaks between hd21 and hd22 ~hg21 and
+hg22 for asparagine! were observed indicating that the noe contribution is dominant for these protons. in contrast, for other residues, cross peaks with positive polarity were observed and these
+indicated the predominant occurrence of magnetization transfer as
+a result of exchange from rotation about the amide bond. for the
+former residues, the absence of a large exchange contribution indicates hindered rotation about their amide bonds and these residues were subsequently found to be buried inside the protein or
+involved in hydrogen bond formation. in contrast, the side chains
+of the remaining asparagine and glutamine residues were found on
+the surface of the protein.
+at 288 k, the he signals for all eight arginine residues in l.
+casei dhfr could be observed in the 3d 15 n-noesy-hmqc and
+tocsy-hmqc spectra. these signals have cross peaks to arginine side-chain hd protons in the tocsy spectra. such signals
+were assigned by identifying similar patterns of cross peaks in the
+3d tocsy-hmqc spectrum from the he proton compared with
+cross peaks in the 3d 15 n- 1 h noesy-hmqc spectrum connected
+to the backbone amide nh signals of arginine residues.
+
+15
+
+n-dhfr{ xxxd3442xxx  complex
+
+assignment of ligand signals
+the signals in the 1 h spectrum of uncomplexed  xxxd3442xxx  in
+h2o solution were assigned on the basis of their characteristic
+chemical shifts, intensities, multiplicities, and intramolecular noes
+~see table 2!. the 1 h chemical shifts were measured as a function
+of ph ~over the range 4.8 to 9.3!, confirming that the site of
+protonation on the quinazoline ring of  xxxd3442xxx  is at n1 with a
+pka of 7.93 6 0.03. in the 1 h spectrum of the complex recorded
+in h 2o at 288 k, a signal detected at 15.46 ppm could be assigned
+to the  xxxg1580xxx  proton of the quinazoline ring of protonated bound
+ xxxd3442xxx  on the basis of the build-up of large intramolecular
+noes to the hn21 and h8 and smaller noes to the hn22 and h7
+protons. similar low field signals have been observed for the  xxxg1580xxx 
+protons of bound methotrexate ~16.85 ppm! ~gargaro et al., 1998!
+and trimethoprim ~14.9 ppm! ~martorell et al., 1994!. correlations
+between h7 and h8 and between hn21 and hn22 were detected
+in the cosy spectrum, thus confirming these assignments. other
+signals in bound  xxxd3442xxx  were assigned on the basis of their
+intramolecular noes, and cosy and tocsy connections.
+the assignments of the ch3-39,59 and h-29,69 protons from the
+trimethoxybenzyl ring of bound  xxxd3442xxx  were made by noting
+
+470
+
+v.i. polshakov et al.
+
+variations in linewidth resulting from changes in rates of ring
+flipping with temperature in their 2d and 1d spectra measured as
+a function of temperature. part of the 1 h roesy spectrum recorded at 288 k showing the exchange cross peaks ~in boxes!
+connecting the exchanging h29 and h69, and ch 3-39 and ch 3-59
+protons is presented in figure 3a. the exchange is caused by ring
+flipping and the signals are readily detectable in the roesy spectrum because they have opposite signs to other cross peaks that
+arise from dipolar relaxation interactions. in the 1 h noesy spectrum recorded at low temperature ~278 k! shown in figure 3b, the
+exchange cross peaks between the h29 and h69 protons are still
+detected although with lower intensity. examination of figure 3b
+indicates that it is relatively easy to detect the additional noe
+cross peaks that appear when the lines become narrower on lowering the temperature where the slower ring-flipping results in the
+signals from the ring protons being in slow exchange. this proved
+to be a very effective method for identifying both inter- and intramolecular noes involving the exchanging protons ~see below!.
+the anglesearch program was used to determine the stereospecific assignments of methylene protons at position 9 in  xxxd3442xxx . intramolecular roesy intensities were used in the anglesearch
+
+a
+
+calculations. because there is no chiral center in the  xxxd3442xxx 
+molecule, the stereospecific assignments of the ch2-9 protons in
+bound  xxxd3442xxx  have been made in a manner similar to that
+described for glycine residues in the methotrexate{dhfr complex
+~polshakov et al., 1995b!. for the two alternative assignments of
+the methylene ch2-9 protons, ranges of t1 and t2 torsion angles
+were obtained from anglesearch calculations and the correct assignment selected by comparison of these angles with the torsion
+angles found in the families of nmr structures calculated without
+using restraints on these torsion angles. this led to the determination of both the stereospecific assignments of the methylene ch2-9
+protons and the allowed ranges of torsion angles t1 ~c5-c6-c9n10! and t2 ~c6-c9-n10-c19! in bound  xxxd3442xxx . these constraints were used in the final stage of structure calculations
+~1708 6 308 for t1 and 908 6 308 for t2 !.
+
+assignment of protein-ligand noes
+once the assignment of the protein and ligand signals had been
+completed, most protein-ligand noes ~fig. 4! could be assigned
+
+b
+
+fig. 3. 2d noesy and roesy spectra recorded on the dhfr{ xxxd3442xxx  complex at 600 mhz showing the  xxxd3442xxx  protons
+involved in ring flipping ~a! part of the 2d roesy spectrum ~288 k; d2o! and ~b! part of the 2d noesy spectrum ~278 k; h2o!.
+the signals marked by boxes are the exchange peaks between h-29 and h-69 and between ch3-39 and ch3-59, which can be identified
+in the roesy spectrum by their positive polarity. in the noesy spectrum recorded at 278 k, the signals of the exchanging protons
+are much sharper than those in the higher temperature spectrum and allow detection of noes involving protein signals.
+
+471
+
+structure and dynamics in solution of the complex of l. casei
+
+ture srep . figure 5a shows a stereoview of the protein backbone
+and ligand heavy atoms for all 22 structures. figure 5b shows
+some of the important protein side chains and the ligand in its
+binding site. the structures of bound  xxxd3442xxx  are shown in
+figure 5c. all the structures shown in figures 5a–c are presented
+in the same orientation. some indication of the precision of the
+structures can be realized by noting how well the different calculated structures are superimposed ~pairwise rmsd is 0.5 å for
+backbone atoms and 1.0 å for all heavy atoms!. the absence of
+dihedral angle and noe violations and the small energies for the
+experimental constraints ~see table 1! provide further evidence for
+the precision of the structures. from an examination of the structure ~fig. 5a! and the procheck analysis ~laskowski et al.,
+1993, 1996! of the data, the general features of the structure are
+seen to be essentially identical to the overall structural features
+found in the solution structure of dhfr{methotrexate ~gargaro
+et al., 1998! and in the crystal structures of dhfr{methotrexate.
+nadph complex ~bolin et al., 1982!.
+backbone dynamics of the dhfr{ xxxd3442xxx  complex
+
+fig. 4. the intermolecular noes between protons of  xxxd3442xxx  and protein in the dhfr{ xxxd3442xxx  complex.
+
+from 2d noesy spectra recorded with 50 and 100 ms mixing
+time at 308, 288 and 278 k.
+in most cases ligand noe partners could be assigned unambiguously because of their unique chemical shifts or characteristic line
+shapes. signals from the 29,69-ring protons and the 39,59-methoxy
+protons of the trimethoxyphenyl ring could be uniquely identified
+because of their changes in line shape with temperature: decrease
+of temperature caused these signals to become sharper due to
+slower ring flipping whereas most of the protein signals became
+broader. this ability to manipulate the detection of noes by raising or lowering the temperature greatly facilitated the detection of
+the protein-ligand noes. furthermore, the availability of noes
+involving resolved protons from opposite sides of the ring increases the total number of detected noes. the method has general applicability in cases where there is an intramolecular rate
+process that can influence the line width of the ligand signals
+differently as the temperature is changed. in some cases, protein
+partners in protein-ligand noes were also assigned by identifying
+their characteristic set of noes ~for example, the  xxxd3442xxx  h8
+proton has noes to several protons of l27—ha, hg, hd1, and
+hd2!. for assignment of the remaining noes, the ambiguities
+were resolved in an iterative manner during the refinement stage of
+the structure calculation. a summary of the extensive number of
+intermolecular noes between  xxxd3442xxx  and protein protons is
+given in figure 4.
+structure of the dhfr{ xxxd3442xxx  complex
+the structures shown in figure 5 are from the final 22 calculated
+structures superimposed on the backbone of the representative struc-
+
+the overall rotational correlation time tc for the complex of dhfr
+with  xxxd3442xxx  was calculated from the 15 n t1 and t2 data using
+procedures developed by kay et al. ~1989!. t1 and t2 values were
+obtained from a total of 128 residues. local values of the overall
+correlation time were calculated from the t1 0t2 ratios of 54 of the
+residues ~see materials and methods!; the average of these values
+gives an overall correlation time of 8.75 6 0.1 ns at 308 k.
+the experimental values of the relaxation parameters were interpreted using the model-free formalism ~lipari & szabo, 1982!,
+with extensions to include slower internal motions ~clore et al.,
+1990b! and chemical exchange contributions rex to the transverse
+relaxation ~clore et al., 1990a! ~see electronic supplementary
+material!.
+values of the model-free parameters s 2 , te , and rex have been
+obtained for all 128 residues for which experimental relaxation
+data were obtained.
+figure 6 shows the measured values of the relaxation parameters
+r1 , r2 , and noe ~ri 5 ti21 ! and the calculated generalized order
+parameters, s 2 , plotted against the corresponding residue number.
+the te and rex values are given in electronic supplementary material.
+ring flipping in bound  xxxd3442xxx 
+ring flipping of the 39,49,59-trimethoxyphenyl ring of bound  xxxd3442xxx  has been studied using 2d roesy and 1d nmr- 1 h
+spectra of the complex recorded over the temperature range 278 to
+313 k. in the 2d roesy ~and 2d noesy! spectra, one can
+observe strong exchange cross peaks between h29 and h69 and
+between ch 3-39 and ch 3-59 ~fig. 3!. decreasing the temperature
+reduces the intensities of these cross peaks and at the same time
+sharpens the signals. this is typical for slow exchange behavior
+where separate signals are detected for the exchanging sites and
+the line widths of the signals have contributions from the exchange process. this dynamic process has been investigated by
+line shape analysis of the h69 signal in the 1d spectrum of the
+dhfr{ xxxd3442xxx  complex. this signal is observed as a wellresolved signal in a noncrowded region of the 1 h spectrum ~fig. 7!
+and this facilitates measurement of its lineshape. an approximate
+estimate of the nonexchange contribution to the linewidth was
+obtained from the mean values of the linewidths of several histi-
+
+472
+
+v.i. polshakov et al.
+
+a
+
+b
+
+c
+
+fig. 5. stereoview of a superposition over the backbone atoms ~n, ca, and c! of residues 1–162 of the final 22 structures of the
+dhfr{ xxxd3442xxx  complex. the superposition was made onto the backbone atoms of the representative structure, srep . a: view of
+the protein backbone and the  xxxd3442xxx  heavy atoms. b: view of  xxxd3442xxx  in the binding site of enzyme. c: conformation of
+ xxxd3442xxx  in the binding site of enzyme. the orientation of  xxxd3442xxx  is identical for all three figures ~a– c! and only its heavy
+atoms are shown.
+
+dine he and hd signals. the rates of ring flipping obtained from a
+lineshape analysis ranged from 6 s 21 at 278 k to 90 s 21 at 313 k.
+these values were used to obtain values of enthalpy and entropy of
+activation ~dh ‡ 5 62 6 2 kj mol 21 and ds ‡ 5 25 6 10 j mol 21
+k 21 , respectively!.
+discussion
+the solution structure of the dhfr{ xxxd3442xxx  complex
+some indication of the precision of the determined structures is
+provided by figure 5, which shows the superposition of the final
+
+family of 22 structures, and by the plot of the rmsd values
+against the residue numbers shown in figure 8. the precision of
+the structures compares very favorably with that of the structures
+reported earlier for the dhfr{methotrexate complex ~gargaro
+et al., 1998!. the latter determination was based on nmr studies
+of 13 c0 15 n labeled methotrexate and protein samples. the structure determination for the  xxxd3442xxx  complex was carried out
+using unlabeled  xxxd3442xxx  and only 15 n-labeled protein. notwithstanding this, the number of ligand-protein noes assigned for
+the  xxxd3442xxx  complex ~67! was greater than the number obtained for the methotrexate complex ~54!. the methyl substituted
+quinazoline ring of the bound  xxxd3442xxx  has more protons than
+
+473
+
+structure and dynamics in solution of the complex of l. casei
+
+table 2. the 1 h chemical shifts (ppm) of  xxxd3442xxx  ( xxxd3442xxx )
+for the free drug and in the dhfr{ xxxd3442xxx  complex
+measured at 308 k
+
+table 1. nmr restraints and structural statistics
+for dhfr{ xxxd3442xxx  complex
+a. restraints used in the final structure calculation
+noes
+total
+long range ~6i 2 j6 . 4!
+medium range ~1 , 6i 2 j6 # 4!
+sequential ~6i 2 j6 5 1!
+intraresidue
+ambiguous
+protein-ligand
+ligand-ligand
+h-bonds
+
+2,214
+662
+306
+533
+457
+33
+67
+12
+144
+
+dihedral angles
+total
+phi ~f!
+psi ~c!
+chi-1 ~x1 !
+chi-2 ~x2 !
+ xxxd3442xxx 
+
+345
+123
+120
+96
+4
+2
+
+b. constraint violations in the final ensemble of 22 structures a
+number of noe constraint violations above 0.1 å
+number of dihedral angle violations above 38
+xplor energies ~kcal mol 21 ! b
+^s& c
+enoe
+0.095 6 0.214
+ecdih
+0.465 6 0.047
+
+0
+0
+
+^s& c
+4.583 6 0.011
+0.321 6 0.001
+0.139 6 0.001
+
+srep
+0.034
+0.471
+
+srep
+4.586
+0.321
+0.139
+
+d. structural statistics for the final ensemble of 22 structures
+procheck analysis
+% of residues in most favorable
+region of ramachandran plot
+% of residues in disallowed region
+of ramachandran plot
+
+^s& c
+
+srep
+
+79.4
+
+78.2
+
+0
+
+0
+
+e. atomic rms differences for the residues 1 – 162 (å)
+backbone ~c, ca, n! atoms
+all heavy atoms
+
+^s& vs. ^s& d
+0.496 6 0.071
+1.081 6 0.117
+
+ xxxd3442xxx 
+d2o
+2.5 mm
+
+dhfr{ xxxd3442xxx 
+h 2o
+4 mm
+
+hn-1
+hn-21
+hn-22
+hn-41
+hn-42
+ch3-5
+h-7
+ xxxd736xxx 
+h-91
+h-92
+hn-10
+h-29
+ch3-39
+ch3-49
+ch3-59
+h-69
+
+—
+5.85
+5.85
+6.71
+6.71
+2.65
+7.42
+7.02
+4.15
+4.15
+5.46
+5.92
+3.66
+3.50
+3.66
+5.92
+
+—
+—
+—
+—
+—
+2.76
+7.73
+7.23
+4.41
+4.41
+—
+6.12
+3.78
+3.68
+3.78
+6.12
+
+15.47 a
+9.53
+5.76
+9.52
+7.88
+2.65
+7.38
+7.06
+4.11
+4.48
+5.99
+5.19
+3.37
+3.78
+3.96
+6.37
+
+a
+
+c. deviations from idealized geometry
+bonds ~å! 3 10 3
+angles ~8!
+impropers ~8!
+
+signal
+
+ xxxd3442xxx 
+dmso-d6
+15 mm
+
+^s& vs. srep e
+0.433 6 0.060
+1.023 6 0.104
+
+here and below: mean 6 standard deviation.
+the force constant used to calculate enoe was 50 kcal mol 21 å22 . the
+force constant used to calculate ecdih was 200 kcal mol 21 rad 22 .
+c
+^s& is the ensemble of 22 final structures; srep is the representative
+structure ~see text!.
+d
+values obtained from pairwise superimposition within ensemble of
+22 final structures.
+e
+values measured from superimposition on srep .
+a
+
+b
+
+the corresponding pteridine ring of methotrexate and these protons
+provide increased opportunities for measuring protein-ligand noes.
+additionally, the favorable dynamic behavior of the trimethoxy
+ring of  xxxd3442xxx  allows the measurement of unambiguous noes
+
+chemical shift measured at 288 k.
+
+from protons on each side of the ring at low temperature ~278 k!.
+at this temperature the ring flipping is sufficiently slow to allow
+the h29, h69 and ch3-39,ch3-59 protons to give separate signals in
+slow exchange and to allow detection of protein-ligand noes in
+the noesy spectra. these noes can be assigned to protein-ligand
+noes by noting their disappearance on raising the temperature
+where the increased rate of ring flipping broadens the ligand signals. in contrast, the flipping rates of the p-aminobenzoyl ring of
+methotrexate causes line broadening of its aromatic proton signals
+such that no signals could be detected at any of the temperatures
+studied. the low temperature spectra of the dhfr{ xxxd3442xxx 
+complex also allowed us to make specific noe assignments for
+the separate protons in the  xxxd3442xxx  nh2 groups. a further
+improvement in the structure determination of the  xxxd3442xxx 
+complex resulted from the use of many more noes involving
+stereospecifically assigned protons and more hydrogen bonds than
+were used in the methotrexate structure calculations. although
+18% fewer intramolecular noes were used in the calculations for
+the  xxxd3442xxx  complex ~resulting from the absence of some hbs0
+hbs, hgs0hbs assignments, which could only be obtained from
+13
+c data!, the compensating factors mentioned above result in the
+determined structures of the two complexes being of similar precision. the availability of the spectral and structural data for the
+methotrexate complex assisted in the structural determination of
+the  xxxd3442xxx  complex. high precision structures for proteins of
+this size can thus be obtained without using 13 c-labeled protein if
+one has a reference structure to assist in obtaining the initial set of
+noe values ~see material and methods!.
+comparisons with structures of related dhfr complexes
+figure 9c shows the structures of the three bound inhibitors
+~fig. 1a–c! obtained by superimposing the backbone atoms of the
+representative structures ~srep ! of their dhfr complexes ~kine-
+
+474
+
+v.i. polshakov et al.
+
+fig. 6. plots of relaxation data and parameters as a function of residue number. these are shown for the
+values measured at 600 mhz and 308 k, and the generalized order parameters s 2 .
+
+mages 1 and 2 in electronic supplementary material!. it is seen that
+the inhibitors occupy approximately the same space within the
+protein and consequently interact with many of the same residues.
+although the 2,4-diaminopyrimidine-containing rings occupy essentially the same binding site, the planes of the rings appear to be
+tilted by 208 with respect to each other ~with the  xxxd3442xxx 
+structure being in the middle!. the trimethoxy benzene ring of
+bound  xxxd3442xxx  is perpendicular to that of trimethoprim.
+the binding site residues in complexes of  xxxg631xxx  with methotrexate and trimethoprim have been well described
+in the literature ~bolin et al., 1982; matthews et al., 1985a; martorell et al., 1994; gargaro et al., 1998!. in each case, the 2,4diaminopyrimidine ring moiety binds in a very negatively charged
+pocket involving the side-chain carboxylate group of d26, the
+hydroxyl group of t116, and the backbone carbonyl groups of l4
+and a97. in the methotrexate complex, there are additional electrostatic interactions involving the carboxylate groups of the methotrexate glutamate side chain with h28 and r57. the “middle”
+part of the methotrexate molecule binds in a pocket containing
+several hydrophobic amino acids ~fig. 9a! and many of the same
+residues are involved in binding the trimethoxy ring of trimetho-
+
+a
+
+15
+
+n r1 , r2 , and
+
+15
+
+n$ 1 h%noe
+
+b
+
+fig. 7. a: 1 h spectra at 600 mhz of the dhfr{ xxxd3442xxx  complex
+~3 mm; d2o buffer! recorded at different temperatures and showing the
+h-69 signal of  xxxd3442xxx  involved in slow exchange with the h-29 proton
+due to ring flipping. b: calculated line shapes for the h-69 signal. this
+signal is in a noncrowded region of the observed spectrum, which facilitates the line-shape analysis.
+
+475
+
+structure and dynamics in solution of the complex of l. casei
+
+a
+
+b
+
+c
+
+fig. 8. a: plot of the rmsd for the backbone atoms ~ca, c, n! calculated from the pairwise global superimposition of all backbone
+atoms for the family of 22 nmr structures for the dhfr{ xxxd3442xxx  complex. the average values and corresponding standard
+deviations for each residue are shown. b: global comparison shown in a plot of r ~the normalized ratio of rmsds, see materials and
+methods! for each residue obtained by comparing the dhfr{ xxxd3442xxx  and dhfr{methotrexate complexes. the r values were
+calculated from the rmsds obtained from pairwise comparisons following global superimpositions of all backbone atoms performed
+i
+for all members of the family of 22 nmr structures of dhfr{ xxxd3442xxx  ~r  xxxd3442xxx 
+! against every member of the family of 21 nmr
+i
+structures of dhfr{methotrexate ~rmtx
+!. c: local comparison shown in a plot of r for each residue obtained by comparing the
+dhfr{ xxxd3442xxx  and dhfr{methotrexate complexes as in b but with the superimposition now being made by superimposing the
+heavy atoms of only the four adjacent residues ~i 2 2, i 2 1, i 1 1, and i 1 2! when determining the rmsd values for the heavy atoms
+of the residue i.
+
+prim ~fig. 9b! ~matthews et al., 1985a; martorell et al., 1994!. the
+structure of the dhfr{ xxxd3442xxx  complex reported here allows
+us to compare its protein-ligand interactions with those found in
+the methotrexate and trimethoprim complexes examined previously ~martorell et al., 1994; gargaro et al., 1998!. these comparisons need to be made with caution because not all parts of the
+structure are equally well defined. however, figure 8a shows that
+the regions of the protein with the smallest and largest rmsd
+values for the dhfr{ xxxd3442xxx  complex are very similar to
+those previously reported for the dhfr{methotrexate structure
+~see fig. 5 of gargaro et al., 1998!.
+comparison of dhfr{ xxxd3442xxx  and
+dhfr{methotrexate structures
+the global structure of the dhfr{ xxxd3442xxx  complex ~see
+figs. 5, 8, 9! is found to be very similar to that of the
+dhfr{methotrexate complex with the small differences between
+
+the structures being localized mainly to regions around the binding
+site. this is seen from examination of the rmsd values resulting
+from the pairwise global fitting of the backbone atoms ~c, ca, and
+n! of the two families of structures for the dhfr complexes with
+ xxxd3442xxx  and methotrexate ~fig. 8!. the residues with the largest backbone displacements are in the regions 6–10, 25–31, 72–73,
+114–117, and 124–155. the 6–10, 25–31, and 114–117 regions
+can obviously be implicated in differences between the ligand
+binding sites as can the 150–155 region, which is on the adjacent
+b-strand to the 6–10 and 114–117 regions. differences in the
+72–73 region may reflect some uncertainties in the determination
+of the structure of the loop containing these residues.
+the 2,4-diaminopyrimidine ring of each inhibitor binds similarly to the enzyme. in each case the protonated n1 binds to the
+side-chain carboxylate group of d26 ~fig. 5b! and the 2- and
+4-amino substituents are positioned to make interactions with
+t116, l4, and a97 as described earlier ~bolin et al., 1982; gargaro
+et al., 1998!. the side chains involved in binding to the 2,4-
+
+476
+
+v.i. polshakov et al.
+hibitors. for the  xxxd3442xxx  complex, these residues are  xxxg1979xxx ,
+l27, f30, f49, p50, l54, and a97 while for the methotrexate
+complex the side chains of the same residues, except for a97 ~not
+shown in the figure!, can be involved in the binding. the positions
+of the side chains of the interacting hydrophobic residues have not
+changed substantially between the two different complexes. this
+can be seen by examining figure 9a and is supported by the
+observed small values for the rmsd quotients ~fig. 8c! and the
+fact that all the residues have very similar measured x1 and x2
+values in both complexes ~see table 3!. some small differences
+were seen for l27, f49, and l54 with the largest difference being
+seen for the l27 x1 value ~178!. thus, the drugs are adapting their
+bound conformations to interact with the same hydrophobic amino
+acid side chains, which bind in general with relatively unchanged
+x1 0x2 conformations. the small changes in the positions of the
+interacting side chains in the two complexes ~fig. 9a! must be
+achieved by the sum of many small relative differences in the
+backbones of the two complexes.
+comparison of dhfr{ xxxd3442xxx  and
+dhfr{trimethoprim complexes
+
+fig. 9. figure showing the hydrophobic residues in the  xxxd3442xxx , methotrexate, and trimethoprim binding sites. methyl groups are shown as balls.
+a: comparison of the  xxxd3442xxx  ~red! and methotrexate ~blue! binding
+sites in the representative structures srep of their l. casei dihydrofolate
+reductase complexes. the superposition of structures was made over the
+backbone atoms ~n, ca, and c! of all 162 residues in the two structures.
+b: similar comparison for  xxxd3442xxx  ~red! and trimethoprim ~green!
+complexes with  xxxg631xxx . c: conformations of the bound
+inhibitors,  xxxd3442xxx  ~red!, methotrexate ~blue!, and trimethoprim ~green!
+obtained from the superposition of structures made over the backbone
+atoms ~n, ca, and c! of all 162 residues in the three srep structures. the
+2,4-diaminopyrimidine rings are displayed perpendicular to the plane of the
+paper.
+
+diaminopyrimidine moiety in each complex are in essentially the
+same positions in the two complexes indicating that this part of the
+molecule is binding in the same binding site.
+figure 9a shows some of the important hydrophobic side chains,
+which can be involved in van der waals interaction with the in-
+
+although the structures determined for the dhfr{trimethoprim
+complex ~martorell et al., 1994! are of lower precision than those
+of the  xxxd3442xxx  complex useful structural comparisons are still
+possible.
+the structures of the binding sites in the two complexes are
+shown in figure 9b. the  xxxd3442xxx  hydrophobic binding pocket
+is seen to contain  xxxg1979xxx , l27, f30, f49, p50, l54, and a97 and that
+for trimethoprim contains the same residues except for a97. in the
+ xxxd3442xxx  complex, the hydrophobic residues  xxxg1979xxx  and f30 interact with the quinazoline b ring whereas in the trimethoprim
+complex, where this ring is missing, these residues can interact
+with the trimethoxy ring. although the rings are in different positions in the binding sites of the two complexes, in each case, the
+side chains of l27 and f49 are sufficiently close to interact with
+the trimethoxy ring and substituents. the side chains of residues
+p50 and l54 also could provide some additional interactions in the
+ xxxd3442xxx  complex but these will be smaller in the trimethoprim
+complex. a97 is correctly positioned to interact with the c5 methyl
+of bound  xxxd3442xxx , which has no equivalent in trimethoprim.
+as was found in the earlier comparison of the structures of
+the  xxxd3442xxx  and methotrexate complexes, the positions and
+
+table 3. the values of x1 and x2 torsion angles for some of
+the residues in the binding site in the family of 22 structures
+of the dhfr{ xxxd3442xxx ( xxxd3442xxx ) complex and the 21
+structures of the dhfr{methotrexate (mtx) complex
+x1
+
+ xxxg1979xxx 
+l27
+f30
+f49
+p50
+l54
+a
+
+x2
+
+ xxxd3442xxx {dhfr
+
+mtx{dhfr
+
+ xxxd3442xxx {dhfr
+
+mtx{dhfr
+
+276.8 6 6.3 a
+263.7 6 4.3
+2170.2 6 1.1
+269.3 6 7.9
+12.8 6 0.5
+260.2 6 5.4
+
+274.8 6 8.6
+279.3 6 5.1
+2172.5 6 1.0
+258.7 6 7.5
+14.2 6 0.7
+269.9 6 5.6
+
+161.9 6 5.6
+173.9 6 0.4
+71.9 6 5.4
+256.5 6 1.4
+21.2 6 0.5
+172.0 6 2.5
+
+159.8 6 5.5
+162.3 6 4.7
+71.1 6 5.8
+250.8 6 21.0
+23.8 6 1.0
+171.2 6 4.1
+
+mean value 6 standard deviation.
+
+477
+
+structure and dynamics in solution of the complex of l. casei
+conformations of the interacting hydrophobic side chains in the
+protein are not very different. thus, once again, effective proteinligand interactions are formed by the drug adopting a bound conformation which takes advantage of the existing conformations of
+the interacting side chains of the protein.
+relaxation parameters
+the measured values of the 15 n relaxation parameters ~t1 , t2 , and
+noe! and the calculated generalized order parameter ~s 2 ! plotted
+against the corresponding residue number are shown in figure 6.
+the protein in the dhfr{ xxxd3442xxx  complex appears to have no
+really flexible parts: the only residue showing high flexibility is the
+c-terminal a162. thus, the data indicate that dhfr{ xxxd3442xxx 
+complex is globular ~average tc value of 8.75 6 0.1 ns!, which is
+in good agreement with the determined structure. the mean value
+obtained for s 2 is 0.86 and the standard deviation is 0.05. there are
+several residues with s 2 values below the mean value minus one
+standard deviation, namely, residues 68–71, 102, 110, 122, 131,
+133, 145, 146, 155, 161, and 162. most of these are near to the
+unoccupied binding site of the coenzyme or are situated in loop
+regions.
+ring flipping in bound  xxxd3442xxx 
+the nonlinear fitting of the experimental kinetic data for the  xxxd3442xxx  ring flipping provides the values: dh ‡ 5 62.0 6 2.0 kj
+mol 21 and ds ‡ 5 25 6 10 j mol 21 k 21 . interestingly, the value
+of ds ‡ is rather close to the values obtained for ring flipping in
+39,59-difluoromethotrexate bound to l. casei dhfr ~215 j mol 21
+k 21 for binary and 229 j mol 21 k 21 for the ternary complex with
+nadph! ~clore et al., 1984!. however, the enthalpy value for ring
+flipping of  xxxd3442xxx  is much higher than the values found for
+39,59-difluoromethotrexate ~dh ‡ 5 48.1 kj mol 21 for the binary
+and 41.4 kj mol 21 for the ternary complex!. there are two components in the value of dh ‡ : the intrinsic barrier to rotation about
+the n10-c19 bond and an additional barrier due to interactions of
+the benzoyl ring with protein residues including any conformational rearrangements required to relieve steric interactions hindering the ring flipping. for  xxxd3442xxx , the intrinsic barrier to
+rotation would be expected to be less than that for methotrexate,
+where the intrinsic barrier includes the effects of hindered rotation
+about the amide bond to the glutamate moiety. therefore, a substantial contribution to the value of dh ‡ ~62 kj mol 21 ! in the
+ xxxd3442xxx  complex arises from the additional barrier. because
+the structures of the ligand binding sites are fairly similar in the
+complexes formed with each of the drugs, the difference in the
+dh ‡ values for complexes of dhfr with  xxxd3442xxx  and with
+39,59-diflouromethotrexate probably reflects additional hydrophobic interactions of the 39,49,59-trimethoxyphenyl ring of  xxxd3442xxx  with residues in the active site. these interactions would need
+to be broken before ring flipping can take place, thus contributing to the activation barrier ~estimated contribution of 10 to 15
+kj mol 21 , that is, the difference 62 2 48 kj mol 21 !.
+materials and methods
+sample preparation
+l. casei  xxxg631xxx  was prepared as described previously from an escherichia coli strain in which the structural gene
+
+for the l. casei enzyme had been cloned ~dann et al., 1976; andrews et al., 1985!.  xxxd3442xxx  was a gift from warner-lambert0
+parke-davis ~pontypool, gwent!. just over one equivalent of
+ xxxd3442xxx  was added as a solid to the solution of dihydrofolate
+reductase: after 3–10 h standing, undissolved  xxxd3442xxx  was
+separated by centrifugation and the final solution dialyzed to remove uncomplexed  xxxd3442xxx .
+
+binding data
+methotrexate and  xxxd3442xxx  bind very tightly to dhfr, which
+makes direct measurement of the binding constant difficult.
+however, the ratios of the binding constants kamtx 0katmq and
+katmq 0katmp can be estimated from competition experiments. a
+sample containing a 1:1:1 mixture of dhfr, mtx, and  xxxd3442xxx  was
+made at ph 6.5 in 500 mm kcl and 50 mm potassium phosphate
+and examined after 2 and 7 days to confirm that complete equilibrium had been reached. at equilibrium, the ratio kamtx 0katmq
+equals $@dhfr{mtx#0@dhfr{ xxxd3442xxx #%{$@ xxxd3442xxx #0@mtx#%. defining h as the ratio @dhfr{mtx#0@dhfr{ xxxd3442xxx #, and assuming
+that @dhfr free # ; 0, which is a good assumption for tightlybinding ligands, it can be shown that for 1:1:1 mixture of dhfr,
+mtx, and  xxxd3442xxx , ratio @ xxxd3442xxx #0@mtx# can be approximated to h,
+and therefore kamtx 0katmq 5 h 2 . the ratio h was obtained from
+the integrated areas of well-resolved complex-specific signals in
+the 1d 1 h spectra of the complexes. the ratio of binding constants
+kamtx 0katmq is 20 6 10. a similar experiment carried out on a
+sample containing a 1:1:1 mixture of dhfr, tmp, and  xxxd3442xxx  gave
+the ratio of binding constants, katmq 0katmp 5 10 6 5. katmq can
+then be estimated as ;2 3 10 8 m 21 using the previously reported
+values for kamtx ~2 3 10 9 m 21 ! and katmp ~2 3 10 7 m 21 !
+~birdsall et al., 1980!.
+
+nmr experiments
+the nmr experiments were carried out on varian unity and
+unity plus spectrometers operating at proton frequencies of
+600 and 500 mhz, respectively. the spectra were recorded at
+278, 288, or 308 k on either unlabeled or 15 n-labeled protein
+samples with volumes of 0.6 ml and at concentrations 1 or
+4 mm in 500 mm  xxxd2988xxx  and 50 mm potassium
+phosphate buffer, ph* 6.5, made up either in d2o or in 90%
+h2o010% d2o ~ph* values are ph meter readings uncorrected
+for deuterium isotope effects!.
+full details of the nmr experiments are provided in electronic
+supplementary material. 2d dqf-cosy, tocsy, noesy, and
+roesy spectra were recorded at temperatures between 278 and
+308 k for both h2o and d2o samples of dhfr{ xxxd3442xxx . 2d
+and 3d experiments using uniformly 15 n labeled protein, hsqc,
+tocsy-hmqc, noesy-hmqc, roesy-hmqc, and hnhb
+were also carried out. longitudinal and transverse 15 n relaxation
+times ~t1 and t2 ! and 15 n$ 1 h%noe values were measured at 308 k
+using the pulse sequences described by kay and co-workers ~1992!.
+the 1 h chemical shifts were measured from dioxane as an internal
+reference and then referenced to sodium 2,2-dimethyl-2-silapentane5-sulfonate ~dss!, relative to which the chemical shift of dioxane
+is 3.75 ppm. the 15 n chemical shifts were referenced indirectly to
+liquid nh3 using the g ratios method ~live et al., 1984; wishart
+et al., 1996!.
+
+478
+nmr determined constraints
+distance constraints
+interproton distance constraints were obtained from noes measured in 2d and 3d noesy and roesy spectra recorded in d2o
+and h2o. the set of distance constraints used for generation of
+initial structures contained unambiguously assigned noes, and
+also a limited set of noes for which the ambiguity was resolved
+using the nmr structures of the dhfr{mtx complex ~gargaro
+et al., 1998!. the total number of noes used for initial structure
+generation was about 900. when the initial structures were being
+generated, assignments of additional noes were carried out in the
+usual iterative manner. cross-peak intensities were classified as
+strong ~0.0–2.5 å!, medium ~0.0–3.5 å!, weak ~0.0–4.5 å!, and
+very weak ~0.0–5.5 å!. pseudoatom center averaging was applied
+for methyl groups and all distance constraints based on noes
+involving methyl groups had their upper limits increased by 1 å.
+an r 26 sum averaging, where the r 26 distance was weighted by
+the number of ambiguous noes ~nilges, 1995!, was applied for all
+nonstereospecifically assigned pairs of methyl groups, all nonstereospecifically assigned protons in methylene groups and for the
+hd and he protons in phenylalanine and tyrosine rings.
+the number and distribution of noes used in the structural
+calculations are given in table 1 ~and illustrated in fig. 2 of electronic supplementary material!. the final restraint list contained
+2,070 noes. no intraresidue noes between atoms separated by
+three bonds ~e.g., hn-ha, ha-hb! were included in the x-plor
+calculations because these ~about 430 noes! had already been
+used for defining the torsion angles in the anglesearch calculations.
+torsion angle constraints and stereospecific assignments
+the program anglesearch ~polshakov et al., 1995b! was used
+to determine the f, c, x1 , and x2 torsional angle constraints and
+the stereospecific assignments for all the b-methylene protons
+and for valine g-methyl groups as described previously for the
+dhfr{methotrexate complex ~gargaro et al., 1998!. the error
+limits obtained from anglesearch for the dihedral angles were
+increased to 6308 for f, 6408 for c, and 6308 and 6408 for x1
+and x2 , respectively, to take into account local mobilities and the
+uncertainties in the karplus equations used in these studies.
+the ranges for the  xxxd3442xxx  torsion angles t1 ~c5-c6-c9n10! and t2 ~c6-c9-n10-c19! were determined from the anglesearch analysis of roesy effects between protons of the drug.
+the final restraint list contained 345 dihedral angles ~f, 123; c,
+120; x1 , 96; x2 , 4;  xxxd3442xxx , 2!.
+hydrogen bond constraints
+hydrogen bond constraints involving backbone nh protons
+were included in the calculation only at the last stage of structure
+refinement after they had been identified in the family of structures
+obtained without their use. donors of hydrogen bonds corresponding to slowly exchanging nh protons were identified from
+analysis of the rates of h r d exchange for backbone amide
+protons ~measured at 288 k from a series of hsqc spectra of
+dhfr{ xxxd3442xxx  complexes recorded between 5 and 880 min
+after dissolving the sample in d2o as described in electronic supplementary material!. acceptors of hydrogen bonds were selected
+if there were only one possible oxygen atom within 3 å distance
+of the corresponding amide proton in the family of structures and
+
+v.i. polshakov et al.
+each hydrogen bond was described with two restraints. the final
+calculations included 142 hydrogen bond restraints involving backbone nh protons ~corresponding to 71 hydrogen bonds!.
+a hydrogen bond restraint corresponding to the t34 g-hydroxyl
+proton interacting with the carbonyl oxygen of f30 was included
+in the structure calculation. a signal for the t34 g-hydroxyl proton
+was observed in all nmr spectra recorded in h2o and was also
+observed for the dhfr{methotrexate complex ~gargaro et al.,
+1998!.
+to specify the geometry of the interactions of the  xxxd3442xxx 
+ xxxg1580xxx  and hn21 protons with the d26 b-carboxylate oxygens
+~polshakov et al., 1995a!, two distance restraints and four additional torsion angles were included in the final stage of structure
+calculation to maintain the planarity of the 2-nh2 group and the
+pyrimidine ring.
+the final constraint list contained a total of 144 hydrogen bond
+constraints.
+structure calculations
+the structure calculations were performed in an iterative fashion
+using x-plor 3.1 ~brünger, 1992!. initially, a set of 100 structures was generated using a combined distance geometry0simulated
+annealing approach ~nilges et al., 1988, 1991!. the distance geometry used subembedding based on the ca, ha, n, hn, o, c,
+and cb atoms. the ligand was included from the beginning of the
+calculations. structures produced by this method were then regularized using simulated annealing consisting of 6 ps of dynamics at
+2,000 k with the force constants determining covalent geometry
+scaled during this stage to their final values, followed by cooling
+to 100 k with the vdw repulsive term increased from 0.003 to 0.4
+and the vdw radii decreased from 0.9 to 0.8 of their standard
+values and then subjected to 1,000 steps of conjugate gradient
+minimization. fifty-four of the structures with essentially the correct fold as judged by comparison with nmr structures of the
+dhfr{methotrexate complex ~gargaro et al., 1998! were accepted
+for further refinement. these structures were used to resolve ambiguities in the noe data set and then subjected to a slow cooling
+simulated annealing refinement ~from 1000 to 100 k during a
+20 ps period!. this stage of the process was repeated several times
+including progressively more noe and dihedral angle constraints.
+twenty-four structures with no noe violations greater than 0.2 å
+and no dihedral angle violations greater than 58 were accepted
+for the final refinement. at this stage, the hydrogen bonds and
+the constraints modeling specific interactions between 2,4diaminopyrimidyl moiety of  xxxd3442xxx  and the  xxxd2154xxx  of
+d26 were introduced. the final refinement protocol was essentially the same as the previous one followed by 1,000 steps of
+conjugate gradient minimization and yielded 22 structures with no
+distance violation greater then 0.1 å and no dihedral angle violations greater than 38. calculations of the final family of 22 structures ~shown in fig. 5! were carried out with double the earlier
+cooling md period ~40 ps!. figure 8a shows the rmsd values
+calculated for the backbone atoms ~ca, c, n! using pairwise global fitting of these 22 structures. bond lengths were constrained
+using shake ~ryckaert et al., 1977!. parameter and topology
+files for  xxxd3442xxx  were constructed using coordinates from the
+crystal structure of  xxxd3442xxx  ~hempel & camerman, 1988!.
+calculations were performed on silicon graphics ~power indigo2! and sun ~sparc 10! computers. coordinates for the 22 refined
+structures have been deposited in the brookhaven protein data
+
+479
+
+structure and dynamics in solution of the complex of l. casei
+bank ~coordinates id code1bzf; assignments and restraints id code
+r1bzfmr!.
+analysis of calculated structures
+structures were visualized using insight ii ~molecular simulations inc., burlington, massachusetts! and grasp ~nicholls et al.,
+1991! and analyzed using x-plor 3.1 ~brünger, 1992! and
+procheck-nmr0aqua ~laskowski et al., 1993, 1996!. the
+analysis showed that there are no residues in the disallowed regions of the ramachandran plot ~fig. 3 in electronic supplementary material!. a representative structure srep was selected from the
+ensemble of calculated structures as being the one that is closest to
+all the other structures and thus gives the lowest sum of pairwise
+rmsd for the remainder of the structures in the family. rmsd
+i
+parameters ~rtmq
+! for both side chain and all heavy atoms of each
+residue i have been calculated together with their standard deviations. similar calculations were performed for the family of 21
+calculated structures of the complex of mtx ~gargaro et al., 1998!.
+for comparison of solution structures of mtx and  xxxd3442xxx , similar
+parameters were also obtained using cross-pairwise superimposition of each structure of mtx on each structure of  xxxd3442xxx  in their
+families ~462 pairs!. for comparison of two families, a parameter
+i
+i
+i
+r i 5 ~rtmq0mtx
+! 20~rtmq
+{rmtx
+! was calculated. this parameter
+is especially useful when one is comparing results for superimposition on all heavy atoms. for example, residues with ill-defined
+i
+i
+side-chain conformations have large values of rtmq0mtx
+, r  xxxd3442xxx 
+,
+i
+i
+and rmtx , and the values of r will be closer to 1. however,
+residues that have well-defined side chains within families but that
+have large differences between two complexes will have large
+values of r i ~see fig. 8!. in figure 8c, only a-helix b ~between
+residues 26 and 28! shows a significant local displacement between the two dhfr complexes probably due to the interaction
+between h28 and the glutamate moiety of methotrexate, which is
+absent in the  xxxd3442xxx  complex.
+t1 , t2 and
+
+15
+
+n{ 1 h} noe data analysis
+
+the relaxation data were analyzed using the “model-free” approach of lipari and szabo ~1982! with the assumption of isotropic
+tumbling. the spectra used in the t1 , t2 , and 15 n$ 1 h% noe experiments were processed and analyzed with the felix program
+~molecular simulations inc.!. the time domain data were zerofilled to 1k and 2k complex points in the t1 and t2 dimensions, and
+a gaussian window function was applied in both dimensions before transformation. the t1 and t2 values ~giving the rates r1 and
+r2 , respectively! and their standard deviations were obtained from
+nonlinear fits of both integral peak volumes and the peak intensities. standard deviations of 15 n$ 1 h% noe values were calculated
+using the rms noise of background regions ~farrow et al., 1994!.
+for most of the residues, the results were identical, but for the
+residues with signals situated in more crowded regions the results
+obtained from peak intensities ~rather than from volumes! had
+smaller standard deviations, and therefore only these were used for
+further analysis ~results shown in fig. 6!. t1 and t2 values were
+obtained from a total of 128 residues.
+the overall correlation time tc for the complex of dhfr with
+ xxxd3442xxx  was calculated from the t1 0t2 ratios ~kay et al., 1989!.
+an initial selection was made of residues that had t1 and t2 values
+within one standard deviation from the mean values over all residues ~93 of 128 residues!. of these, the 54 residues that had t1 0t2
+
+ratios within one standard deviation of the mean of the subset of 93
+were then selected for further analysis. the calculations yield an
+average tc value of 8.75 6 0.1 ns. the overall correlation time was
+treated as a fixed parameter in the analysis of the relaxation data in
+terms of the model-free formalism.
+calculation of the model-free parameters from the measured
+relaxation rate constants and the noe enhancements was performed by powell minimization ~press et al., 1992! of a global
+target function x 2 summed over all residues using software written
+in-house ~see electronic supplementary material!. in this analysis,
+15
+n- 1 h dipolar relaxation and 15 n csa relaxation were examined
+using equations in the literature ~kay et al., 1989; farrow et al.,
+1994!. values of 1.02 å and 160 ppm were assumed for the n-h
+bond-length and 15 n csa, respectively. for some residues, an
+exchange term rex was included to represent line broadening due
+to exchange processes on a timescale much slower than the overall
+rotational correlation time.
+the relaxation data were fitted to three functional forms of the
+model free spectral density functions given in the literature ~lipari
+& szabo, 1982; clore et al., 1990a, 1990b! and described in electronic supplementary material.
+supplementary material in electronic appendix
+file: tmqsupp1.doc ~the tables are in word 6.0 ~rtf! with courier font; the text is in word 6.0 ~rtf! times new roman font.!
+file: fig_tmq.zip contains figure1.bmp ~fig. 1 supplementary!,
+figure2.bmp ~fig. 2 supplementary!, and figure3.bmp ~fig. 3
+supplementary!.
+file: dhfr_tmq.kin contains two kinemage figures
+nmr experimental details
+relaxation data analysis and parameters
+table 1. ~supplementary!. 1 h and 15 n chemical shift assignments
+for the dhfr{ xxxd3442xxx  complex at 308 k.
+table 2. ~supplementary!. noe, dihedral angle, and hydrogen bond
+restraints used for the final x-plor structure calculations.
+table 3. ~supplementary!. relaxation data and calculated parameters for the complex of dhfr and  xxxd3442xxx .
+fig. 1. ~supplementary!. plots of relaxation data and parameters as
+a function of residue number.
+fig. 2. ~supplementary!. plot of the number and distribution of
+noes against the amino acid sequence.
+fig. 3. ~supplementary!. a ramachandran plot of the torsion angles for all residues of the 22 final structures.
+kinemage 1. ribbon representation of dhfr in its complex with
+ xxxd3442xxx .
+kinemage 2. comparison of three representative structures of binary complexes of dhfr-with  xxxd3442xxx , methotrexate, and
+trimethoprim.
+acknowledgments
+v.i.p. acknowledges the award of a howard hughes medical institute
+international scholarship and a grant from the russian foundation for
+
+480
+basic research ~97-04-48245!. we thank warner-lambert0parke-davis
+~pontypool, gwent! for their gift of  xxxd3442xxx  and are grateful to j.e.
+mccormick and g. ostler for expert technical assistance and to a. lane,
+m.a. williams, and w.d. morgan for helpful discussions.
+
+references
+andrews j, clore gm, davies rw, gronenborn am, gronenborn b, kalderon
+d, papadopoulos pc, schafer s, sims pfg, stancombe r. 1985. nucleotide
+sequence of the  xxxg631xxx  gene of methotrexate-resistant
+lactobacillus casei. gene 35:217–222.
+antonjuk dj, birdsall b, burgen asv, cheung hta, clore gm, feeney j,
+gronenborn a, roberts  xxxg876xxx , tran w. 1984. a 1 h nmr study of the role
+of the glutamate moiety in the binding of methotrexate to dihydrofolate
+reductase. brit j pharmacol 81:309–315.
+baccanari dp, kuyper lf. 1993. basis of selectivity of antibacterial diaminopyrimidines. j chemother 5:393–399.
+bertino jr, sawicki wl, moroson ba, cashmore ar, elslager ef. 1979.
+24-diamino-5-methyl-6-@3,4,5#-trimethoxyanilino-methyl#quinazoline  xxxd3442xxx  a potent non-classical folate antagonist inhibitor: i. effect of
+ xxxg631xxx  and growth of rodent tumours in vitro and in vivo.
+biochemical pharmacol 28:1983–1987.
+bevan aw, roberts  xxxg876xxx , feeney j, kuyper l. 1985. 1 h and 15 n nmr studies
+of protonation and hydrogen-bonding in the binding of trimethoprim to
+ xxxg631xxx . eur biophys j 11:211–218.
+birdsall b, andrews j, ostler g, tendler sjb, feeney j, roberts  xxxg876xxx , davies
+rw, cheung hta. 1989b. nmr studies of the differences in the conformations and dynamics of ligand complexes formed with mutant dihydrofolate reductases. biochemistry 28:1353–1362.
+birdsall b, burgen asv, hyde ei, roberts  xxxg876xxx , feeney j. 1981. negative
+cooperativity between  xxxd2147xxx  and coenzyme in their binding to l. casei
+ xxxg631xxx . biochemistry 20:186–7195.
+birdsall b, burgen asv, roberts  xxxg876xxx . 1980. binding of coenzyme analogues
+to l. casei  xxxg631xxx : binary and ternary complexes. biochemistry 19:3723–3731.
+birdsall b, cassarotto mg, cheung hta, basran j, roberts  xxxg876xxx , feeney j.
+1997. the influence of aspartate 26 on the tautomeric forms of folate bound
+to lactobacillus casei  xxxg631xxx . febs lett 402:157–161.
+birdsall b, feeney j, pascual c, roberts  xxxg876xxx , kompis i, then rl, muller k,
+kroehn a. 1984. a 1 h study of the interactions and conformations of rationally designed brodimoprim analogues in complexes with lactobacillus
+casei  xxxg631xxx . j med chem 23:1672–1676.
+birdsall b, feeney j, tendler sjb, hammond sj, roberts  xxxg876xxx . 1989a.  xxxg631xxx : multiple conformations and alternative modes of substrate binding. biochemistry 28:2297–2305.
+birdsall b, gronenborn am, hyde ei, clore gm, roberts  xxxg876xxx , feeney j,
+burgen asv. 1982. hydrogen-1, carbon-13 and phosphorus-31 nuclear magnetic resonance studies of the  xxxg631xxx -nicotinamide adenine
+dinucleotide phosphate-folate complex: characterization of three coexisting
+conformational states. biochemistry 21:5831–5838.
+birdsall b, tendler sjb, arnold jrp, feeney j, griffin rj, carr md, thomas
+ja, roberts  xxxg876xxx , stevens mfg. 1990. nmr studies of multiple conformations in complexes of l. casei  xxxg631xxx  with analogues of
+pyrimethamine. biochemistry 29:9660–9667.
+blakley rl. 1985.  xxxg631xxx  in folates and pterins, vol 1, chapter
+5. in: blakley rl, benkovic sj, eds. new york, ny: j. wiley. pp 191–253.
+bolin jt, filman dj, matthews da, hamlin rc, kraut j. 1982. crystal structures of e. coli and l. casei  xxxg631xxx  refined to 1.7 å resolution: i. general features and binding of methotrexate. j biol chem
+257:13650–13662.
+brünger at. 1992. x-plor 3.1: a system for x-ray crystallography and nmr.
+new haven, ct: yale university press.
+carr md, birdsall b, frenkiel ta, bauer cj, jimenez-barbero j, polshakov vi,
+mccormick je, feeney j, roberts  xxxg876xxx . 1991.  xxxg631xxx :
+sequential resonance assignments using 2d and 3d nmr and secondary
+structure determination in solution. biochemistry 30:6330–6341.
+cheung hta, birdsall b, frenkiel ta, chau dd, feeney j. 1993. 13 c nmr
+determination of the tautomeric and ionization states of folate in its complexes with lactobacillus casei  xxxg631xxx . biochemistry
+32:6846–6854.
+clore gm, driscoll pc, wingfield pt, gronenborn am. 1990a. analysis of the
+backbone dynamics of interleukin-1b using inverse detected heteronuclear
+15
+n- 1 h nmr spectroscopy. biochemistry 29:7387–7401.
+clore gm, gronenborn am, birdsall b, feeney j, roberts  xxxg876xxx . 1984. 19 fnmr studies of 39,59-difluoromethotrexate binding to lactobacillus casei
+ xxxg631xxx . molecular motion and coenzyme-induced conformational changes. biochem j 217:659–666.
+
+v.i. polshakov et al.
+clore gm, szabo a, bax a, kay le, driscoll pc, gronenborn am. 1990b.
+deviations from the simple two-parameter model-free approach to the interpretation of nitrogen-15 nuclear magnetic relaxation in proteins. j am
+chem soc 112:4989–4991.
+cocco l, roth b, temple c, montgomery ja, london re, blakley rl. 1981.
+protonated state of methotrexate trimethoprim and pyrimethamine bound to
+ xxxg631xxx . arch biochem biophys 226:567–577.
+dann jg, ostler g, bjur ra, king rw, scudder p, turner pc, roberts  xxxg876xxx ,
+burgen asv, harding ngl. 1976. large scale purification and characterization of  xxxg631xxx  from a methotrexate-resistant strain of
+lactobacillus casei. biochem j 157: 559–571.
+elslager ef, johnson jl, werbel lm. 1983. folate antagonists. 20. synthesis
+and anti-tumor and anti-malarial properties of  xxxd3442xxx  and related
+6-@~phenylamino!methyl#-2,4-quinazolinediamines. j med chem 26:1753–
+1760.
+epstein dm, benkovic sj, wright pe. 1995. dynamics of the dihydrofolate
+reductase folate complex—catalytic sites and regions known to undergo
+conformational change exhibit diverse dynamical features. biochemistry
+34:11037–11048.
+falzone cj, cavanaugh j, cowart m, palmer ag iii, matthews cr, benkovic
+sj, wright pe. 1994. 1 h, 15 n and 13 c resonance assignments secondary
+structure and the conformation of substrate in the binary folate complex of
+escherichia coli  xxxg631xxx . j biomol nmr 4:349–366.
+farrow fa, muhandiram r, singer au, pascal sm, kay cm, gish g, shoelson
+se, pawson t, forman-kay jd, kay le. 1994. backbone dynamics of a
+free and phosphopeptide-complexed src homology 2 domain studied by 15 n
+nmr relaxation. biochemistry 33:5984–6003.
+feeney j. 1986. nmr studies of drug receptor complexes: antifolate drugs
+binding to  xxxg631xxx . nato advanced study inst ser c 164:347–
+366.
+feeney j. 1990. nmr studies of interactions of ligands with dihydrofolate
+reductase. biochem pharm 40:141–152.
+feeney j. 1996. nmr studies of ligand binding to  xxxg631xxx  and
+their application in drug design. in: craik d, ed. nmr in drug design. boca
+raton, new york, london, tokyo: crc press.
+feeney j, birdsall b. 1993. nmr studies of protein-ligand interactions. in:
+roberts  xxxg876xxx , ed. nmr of biological macromolecules: a practical approach. oxford, new york, tokyo: oxford university press.
+freisheim jh, matthews da. 1984. in: sirotnak fm, burchill jj, ensminger
+wd, montgomery ja, eds. folate antagonists as therapeutic agents, vol 1.
+new york: academic press inc. pp 69–131.
+gangjee a, elzain e, kothare m, vasudevan a. 1996. classical and nonclassical
+antifolates as a potential antitumor antipneumocystis and antitoxoplasma
+agents. current pharmaceutical design 2:263–280.
+gangjee a, zaveri n, kothare m, queener sf. 1995. nonclassical 2,4-diamino6-aminomethyl-5,6,7,8-tetrahydroquinazoline antifolates: syntheses and biological activities. j med chem 38:3660–3668.
+gargaro ar, frenkiel ta, nieto pm, birdsall b, polshakov vi, morgan wd,
+feeney j. 1996. nmr detection of arginine-ligand interactions in complexes
+of lactobacillus casei  xxxg631xxx . euro j biochem 238:435–
+439.
+gargaro ar, soteriou a, frenkiel ta, bauer cj, birdsall b, polshakov vi,
+barsukov il, roberts  xxxg876xxx , feeney j. 1998. the solution structure of the
+complex of lactobacillus casei  xxxg631xxx  with methotrexate.
+j mol biol 277:119–134.
+gerothanassis ip, barrie pj, birdsall b, feeney j. 1996. 31 p solid-state nmr
+measurements used to detect interactions between nadph and water and to
+determine the ionization state of nadph in a protein-ligand complex subjected to low-level hydration. euro j biochem 235:262–266.
+gronenborn a, birdsall b, hyde ei, roberts  xxxg876xxx , feeney j, burgen asv.
+1981. direct observation by nmr of two coexisting conformations of an
+enzyme-ligand complex in solution. nature 290:273–274.
+hammond sj, birdsall b, searle ms, roberts  xxxg876xxx , feeney j. 1986.  xxxg631xxx  1 h resonance assignments and coenzyme-induced conformational changes. j mol biol 188:81–97.
+hempel a, camerman n. 1988.  xxxd3442xxx : molecular structures and conformational similarities in two crystal forms. cancer biochem biophys 10:25–30.
+jackson rc, fry dw, boritzki tj, besserer ja, leopold wr, sloan bj, elslager
+ef. 1984. biochemical pharmacology of the lipophilic antifolate  xxxd3442xxx . advances in enzyme regulation 22:187–206.
+johnson jm, meiering em, wright je, pardo j, rosowsky a, wagner g. 1997.
+nmr solution structure of the anti tumor compound pt523 and nadph in
+the ternary complex with human  xxxg631xxx . biochemistry
+36:4399–4411.
+kay le, nicholson lk, delaglio f, bax a, torchia da. 1992. the effects of
+cross-correlation between dipolar and chemical shift anisotropy relaxation
+mechanism on the measurement of t1 and t2 values in proteins: pulse
+sequences for the removal of such effects. j magn reson 97:359–375.
+
+structure and dynamics in solution of the complex of l. casei
+kay le, torchia da, bax a. 1989. backbone dynamics of proteins as studied
+by 15 n inverse detected heteronuclear nmr spectroscopy: application to
+staphylococcal nuclease. biochemistry 28:8972–8979.
+laskowski ra, macarthur mw, moss ds, thornton jm. 1993. procheck:
+a program to check the stereochemical quality of protein structures. j appl
+cryst 26:283–291.
+laskowski ra, rullmann jac, macarthur mw, kaptein r, thornton jm.
+1996. aqua and procheck-nmr: programs for checking the quality of
+protein structures solved by nmr. j biomol nmr 8:477–486.
+lin jt, bertino jr. 1987.  xxxd3442xxx —a 2nd generation folate antagonist in
+clinical-trial. j clin oncol 5:2032–2040.
+lin jt, bertino jr. 1991. update on  xxxd3442xxx  a folate antagonist with antineoplastic and antiprotozal properties. cancer invest 9:159–172.
+lipari g, szabo a. 1982. model-free approach to the interpretation of nuclear
+magnetic resonance relaxation in macromolecules: 1. theory and range of
+validity. j am chem soc 104:4546–4559.
+live dh, davis dg, agosta wc, cowburn d. 1984. observation of 1000-fold
+enhancement of 15 n nmr via proton detected multiquantum coherences:
+studies of large peptides. j am chem soc 106:1939–1941.
+martorell g, gradwell mj, birdsall b, bauer cj, frenkiel ta, cheung hta,
+polshakov vi, kuyper l, feeney j. 1994. solution structure of bound trimethoprim in its complex with lactobacillus casei  xxxg631xxx .
+biochemistry 33:12416–12426.
+matthews da, bolin jt, burridge jm, filman dj, volz kw, kaufman bt,
+beddell cr, champness jn, stammers dk, kraut j. 1985a. refined crystal
+structures of escherichia coli and chicken liver  xxxg631xxx 
+containing bound trimethoprim. j biol chem 260:381–391.
+matthews da, bolin jt, burridge jm, filman dj, volz kw, kraut j. 1985b.
+ xxxg631xxx —the stereochemistry of inhibitor selectivity. j biol
+chem 260:392–399.
+morgan wd, birdsall b, polshakov vi, sali d, kompis i, feeney j. 1995.
+solution structure of a brodimoprim analogue in its complex with lactobacillus casei  xxxg631xxx . biochemistry 34:11690–11702.
+nicholls a, sharp ka, honig b. 1991. protein folding and association: insights
+from the interfacial and thermodynamic properties of hydrocarbons. proteins struct funct genet 11:281–296.
+nieto pm, birdsall b, morgan wd, frenkiel ta, gargaro ar, feeney j. 1997.
+correlated bond rotations in interactions of arginine residues with ligand
+carboxylate groups in protein ligand complexes. febs lett 405:16–20.
+nilges m. 1995. calculation of protein structures with ambiguous distance
+constraints: automated assignment of ambiguous noe crosspeaks and disulphide connectivities. j mol biol 245:645–660.
+
+481
+nilges m, gronenborn am, brünger at, clore gm. 1988. the determination of
+three-dimensional structures of proteins by simulated annealing with interproton distance restraints—application to crambin potato carboxypeptidase
+inhibitor and barley serine proteinase inhibitor-2. protein eng 2:27–38.
+nilges m, kuszewski j, brünger at. 1991. in: hoch jc, ed. computational
+aspects of the study of biological macromolecules by nmr. new york:
+plenum press.
+polshakov vi, birdsall b, gradwell mj, feeney j. 1995a. the use of pm3 scf
+mo quantum mechanical calculations to refine nmr-determined structures
+of complexes of antifolate drugs with  xxxg631xxx  in solution. j
+mol struct (theochem) 357:207–216.
+polshakov vi, frenkiel ta, birdsall b, soteriou a, feeney j. 1995b. determination of stereospecific assignments torsion-angle constraints and rotamer
+populations in proteins using the program anglesearch. j magn reson
+series b 108:31–43.
+press wh, teukolsky sa, vetterling wt, flannery bp. 1992. numerical recipes
+in fortran. the art of scientific computing, second ed. cambridge, uk:
+cambridge university press. pp 409–413; 564–570.
+robert f. 1988.  xxxd3442xxx  as a single agent in patients with advanced head
+and neck-cancer. seminars in oncol 15:22–26.
+roberts  xxxg876xxx . 1983. the interaction of substrates and inhibitors with  xxxg631xxx . in: blair ja, ed. chemistry and biology of pteridines.
+berlin: w. de gruyter. pp 197–214.
+roth b, cheng cc. 1982. recent progress in the medicinal chemistry of 2,4diaminopyrimidines. prog med chem 19:1–58.
+ryckaert jp, ciccotti g, berendsen hjc. 1977. numerical-integration of cartesian equations of motion of a system with constraints: molecular dynamics
+of n-alkanes. j comput phys 23:327–341.
+sawaya mr, kraut j. 1997. loop and subdomain movements in the mechanism
+of e. coli  xxxg631xxx : crystallographic evidence. biochemistry
+36:586–603.
+searle ms, forster mj, birdsall b, roberts  xxxg876xxx , feeney j, cheung hta,
+kompis i, geddes aj. 1988. dynamics of trimethoprim bound to  xxxg631xxx . proc nat acad sci usa 85:3787–3791.
+soteriou a, carr md, frenkiel ta, mccormick je, bauer cj, sali d, birdsall
+b, feeney j. 1993. 3d 13 c0 1 h nmr-based assignments for side-chain
+resonances of lactobacillus casei  xxxg631xxx . evidence for
+similarities between the solution and crystal structures of the enzyme.
+j biomol nmr 3:535–546.
+wishart ds, bigam cg, yao j, abildgaard f, dyson hj, oldfield e, markley jl,
+sykes bd. 1996. 1 h, 13 c and 15 n chemical shift referencing in biomolecular nmr. j biomol nmr 6:135–140.
+

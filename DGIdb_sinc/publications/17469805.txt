@@ -1,0 +1,868 @@
+6126
+
+biochemistry 2007, 46, 6126-6133
+
+a novel dna modification by sulfur: dnda is a  xxxg1562xxx -like cysteine desulfurase
+capable of assembling dndc as an iron-sulfur cluster protein in
+streptomyces lividans†
+delin you, lianrong wang, fen yao, xiufen zhou, and zixin deng*
+laboratory of microbial metabolism and college of life science and biotechnology, shanghai jiaotong university,
+shanghai 200030, china
+received december 20, 2006; revised manuscript received march 20, 2007
+
+abstract: a novel dna modification system by sulfur (s) in streptomyces lividans 66 was reported to
+be encoded by a cluster of five genes designated dnda-e [zhou, x., he, x., liang, j., li, a., xu, t.,
+kieser, t., helmann, j. d., and deng, z. (2005) mol. microbiol. 57, 1428-1438]. the dnda gene was
+cloned and the protein product expressed in escherichia coli, purified to homogeneity, and characterized
+as a homodimeric protein of ca. 91 kda. purified dnda has a yellow color and uv-visible spectra
+characteristic of a  xxxd3047xxx -containing enzyme and was proven to be a cysteine desulfurase
+able to catalyze removal of elemental s atoms from l-cysteine to produce l-alanine with substrate specificity
+similar to that of e. coli  xxxg1562xxx . dndc was also purified to homogeneity and found to contain a 4fe-4s
+cluster by spectral analysis and have obvious atp pyrophosphatase activity. dnda could catalyze ironsulfur cluster assembly by activation of apo-fe dndc protein prepared by removal of its iron-sulfur
+cluster using r,r′-dipyridyl. a mutated dnda, with serine substituted for cysteine at position 327, which
+was confirmed to have lost its corresponding cysteine desulfurase activity, also lost its ability to reactivate
+the apo-fe dndc. the likely involvement of an interaction between dnda and dndc in the biochemical
+pathway for the unusual site-specific dna modification in s. lividans 66 is discussed.
+
+cysteine desulfurase ( xxxg1562xxx ) is a pyridoxal 5′phosphate (plp)1 dependent homodimeric enzyme that
+catalyzes the formation of l-alanine and elemental s by using
+l-cysteine as substrate. the enzymatic activity was first
+described for the  xxxg1562xxx  protein from a diazotrophic bacterium,
+azotobacter vinelandi. the  xxxg1562xxx  protein is involved in
+nitrogenase iron-sulfur cluster formation (1).  xxxg1562xxx -like
+proteins, called  xxxg1562xxx , were later observed in a. vinelandii
+(2).  xxxg1562xxx  has been found not only in diazotrophs but also in
+nondiazotrophic microorganisms.  xxxg1562xxx  homologues are highly
+conserved among bacteria and eukaryotes and are required
+for the viability of organisms such as escherichia coli (3,
+4), salmonella enterica serovar typhimurium (5), bacillus
+subtilis (6), synechocystis sp. (7), helicobacter pylori (8),
+saccharomyces cerevisiae (9), and arabidopsis thaliana (10).
+most organisms have more than one copy of a  xxxg1562xxx 
+homologue. e. coli contains three genes with sequence
+homology to a. vinelandii  xxxg1562xxx , which were named  xxxg1562xxx ,
+csda, and sufs (csdb). the deduced  xxxg1562xxx  protein is 40%
+identical to a. vinelandii  xxxg1562xxx , but sufs and csda are only
+†
+this work was supported by grants from the ministry of science
+and technology [973 (2003cb114205) and 863 programs], the national
+science foundation of china, the ministry of education of china, and
+the shanghai municipal council of science and technology.
+* to whom correspondence should be addressed. tel: +86 21
+62933404. fax: +86 21 62932418. e-mail: zxdeng@sjtu.edu.cn.
+1
+abbreviations: orf, open reading frame; sds, sodium dodecyl
+sulfate; page, polyacrylamide gel electrophoresis; plp, pyridoxal 5′phosphate; dnd, dna degradation; apo-fe dndc, dndc devoid of any
+iron or iron-sulfur clusters; kda, kilodalton; iptg, isopropyl beta-dthiogalactopyranoside; dtt, dithiothreitol.
+
+24% identical to  xxxg1562xxx  (11). these enzymes are classified
+into two groups, based on the sequence similarity of a motif
+in the active site that contains a conserved cysteine (4). by
+this criterion, e. coli  xxxg1562xxx  is a group i enzyme, whereas sufs
+and csda are members of group ii. genetic experiments
+have generally revealed important or essential functions for
+ xxxg1562xxx  homologues. disruption of the e. coli  xxxg1562xxx  gene results
+in multiple auxotrophies and severely reduced activity of
+iron-sulfur cluster enzymes (12). although deletion of suf
+causes no observable growth defects in e. coli, such mutants
+are clearly more sensitive to iron starvation than isc mutants.
+the sufs gene is part of the suf operon, which is thought to
+contribute to iron-sulfur cluster formation under conditions
+of stress (13). in addition, the auxotrophies associated with
+deletion of the entire isc cluster in e. coli could be corrected
+by overexpression of the suf operon, suggesting that the suf
+and isc genes have overlapping functions in iron-sulfur
+protein biosynthesis.
+a specific cysteine residue essential for enzymatic activity
+has been identified by site-directed mutagenesis. the activity
+of a. vinelandii  xxxg1562xxx  is inhibited by thiol-alkylating agents
+(1). the cysteine residue acts as a nucleophile to attack the
+sulfhydryl group of cysteine, resulting in the formation of
+an enzyme-bound cysteine persulfide intermediate (14). the
+persulfide s is subsequently incorporated into the biosynthetic
+pathways of s-containing cofactors such as molybdopterin,
+thiamin, biotin, and  xxxd2494xxx , as well as iron-sulfur
+clusters in proteins and thionucleosides in e. coli trnas,
+including 4-thiouridine and 5-methylaminomethyl-2-thiou-
+
+10.1021/bi602615k ccc: $37.00 © 2007 american chemical society
+published on web 05/01/2007
+
+dnda and dndc in dna s-modification in s. lividans
+ridine (15, 16). synthesis of 4-thiouridine requires  xxxg1562xxx ,
+which mobilizes s via an l-cysteine desulfurase activity, and
+thii, a protein with adenylation and sulfur transferase
+activities.  xxxg1562xxx  and thii alone suffice to generate 4-thiouridine.  xxxg1562xxx  converts cysteine into alanine and forms a
+persulfide group on an active site cysteine residue, and the
+s is transferred to thii for further transfer to trna to
+generate 4-thiouridine (17-20).
+iron-sulfur proteins are ubiquitous in bacteria, archaea,
+and eukaryotes. in most iron-sulfur proteins the clusters
+function as electron transfer groups, but in others they have
+other functions such as contributing to catalytic activity,
+maintenance of protein structure, or regulation of activity
+(21). iron-sulfur cluster assembly is important for the de
+novo synthesis of a broad spectrum of proteins and also the
+repair of certain iron-sulfur proteins that are damaged during
+oxidative stress. so far, an understanding of the mechanism
+for iron-sulfur protein assembly has mainly been gained
+from in vitro experiments. formation of the iron-sulfur
+cluster is initiated by the abstraction of s from cysteine in a
+reaction catalyzed by cysteine desulfurases such as bacterial
+ xxxg1562xxx ,  xxxg1562xxx , sufs, or yeast nfs1p (1, 9, 14). the s atom
+derived from l-cysteine is transferred directly to a scaffold
+protein such as iscu and nifu for the assembly of ironsulfur clusters. several groups have obtained evidence of
+complexation and persulfide transfer between  xxxg1562xxx  and iscu
+(22-24). the preformed cluster can subsequently be transferred from iscu to an iron-sulfur apoprotein. furthermore,
+some experiments showed that  xxxg1562xxx , cysteine, and iron could
+be used in vitro to reconstitute iron-sulfur clusters of several
+different iron-sulfur proteins, including the nitrogenase apofe protein (25), regulatory proteins apo-fnr (26) and aposoxr (27) from e. coli, and apo-biotin synthase from
+bacillus sphaericus (28). a  xxxg1562xxx -like protein from the
+cyanobacterium synechocystis pcc 6803 could be used to
+produce holoferredoxin from apoferredoxin (29). similar in
+vitro experiments have shown that  xxxg1562xxx  is also effective in
+iron-sulfur cluster formation. cysteine desulfurase encoded
+by the gene  xxxg1562xxx  of e. coli could directly convert the nitric
+oxide-modified ferredoxin dinitrosyl iron complex to the
+ferredoxin [2fe-2s] cluster in the presence of l-cysteine in
+vitro (30).  xxxg1562xxx  from e. coli could be used to reconstitute
+the iron-sulfur cluster of dihydroxy acid dehydratase (3).
+ xxxg1562xxx  can also reconstitute the iron-sulfur cluster of 3′phosphoadenosine- xxxd1564xxx -sulfonucleotide reductase (31). although the exact mechanism of s incorporation
+into iron-sulfur clusters remains unclear, cysteine desulfurase is proposed to play a general role in the formation
+of iron-sulfur clusters.
+in a previous study, we reported identification and
+characterization of a dnd gene cluster for a novel dna s
+modification in streptomyces lividans 66 (32, 33). the entire
+gene cluster (dnd) involved in this modification was localized
+on an 8 kb dna fragment. a gene cluster (designated dndae) encoding five open reading frames (orfs) was identified
+by sequence analysis. dnda was predicted to encode a protein
+of 397 amino acids with a molecular mass of 43 kda and
+close sequence resemblance to e. coli  xxxg1562xxx  (a cysteine
+desulfurase), and dndc was deduced to encode a protein of
+498 amino acids with a molecular mass of 57 kda, with
+homology to subunit 2 of the sulfate adenylate transferase
+in the paps reductase family of proteins. in order to identify
+
+biochemistry, vol. 46, no. 20, 2007 6127
+functions for dnda and dndc, and to characterize their
+possible interactions, both proteins were expressed in e. coli
+and purified to homogeneity. dnda was first characterized
+as a homodimeric protein containing pyridoxal 5′-phosphate
+as a coenzyme, and confirmed to catalyze the removal of
+elemental s atoms from l-cysteine to produce l-alanine, and
+was subsequently shown to be able to directly activate apofe dndc for its reconstitution as a fully functional [4fe4s] cluster protein (dndc) with unambiguously demonstrated
+atp pyrophosphatase activity.
+materials and methods
+materials. escherichia coli strain bl21(de3) plyse and
+plasmid pet-15b were purchased from novagen (darmstadt,
+germany). enzymes for dna manipulation were purchased
+from new england biolabs (beverly, ma), roche molecular
+biochemicals (mannheim, germany), or takara shuzo
+(kyoto, japan). synthetic oligonucleotides were obtained
+from shanghai sangon biological engineering technology
+and services (shanghai, china). molecular mass markers for
+gel filtration and columns of hitrap chelating and superose
+12 (10/30) were purchased from amersham pharmacia
+biotech (uppsala, sweden). centricon plus-20 (pl-10)
+centrifugal filter devices were from millipore (bedford, ma).
+l-cysteine, l-selenocystine, pyridoxal 5′-phosphate (plp),
+and ferrous ammonium sulfate [fe(nh4)2(so4)2] were purchased from sigma-aldrich.  xxxd3186xxx  was prepared
+from l-selenocystine as previously described (34). the
+enzcheck pyrophosphate assay kit was from molecular
+probes inc. (eugene, or). coomassie blue protein assay
+reagent was from bio-rad. all other reagents were of
+analytical grade.
+cloning and expression of the dnda gene. the coding
+region of the s. lividans dnda protein was amplified by pcr
+with phz1904 as a template (phz1904 harboring the whole
+dnd gene cluster). the following two oligonucleotide primers
+were used: upstream primer, 5′-ggaattccatatgacgtacgggacgtgcag-3′containing an ndei recognition
+site (underlined) with the atg start codon; downstream
+primer, 5′-cgggatcctcaatagctcggcttcagcttc3′ containing a bamhi recognition site (underlined) with the
+tga stop codon. the ndei/bamhi-digested pcr product
+was purified and ligated to the expression vector pet15b
+(novagen) to yield phz882 containing a six-histidine tag
+attached to the n terminus of the dnda polypeptide. plasmid
+dna from a positive clone was sequenced and subsequently
+introduced by transformation into e. coli bl21(de3) plyse
+competent cells. the bacteria were grown in 500 ml of
+luria-bertani medium containing 100 µg/ml ampicillin and
+25 µg/ml chloramphenicol at 30 °c to an a600 of 0.8. the
+dnda gene was expressed by induction at 30 °c for 3 h with
+0.5 mm isopropyl 1-thio-beta-d-galactoside (iptg). the bacteria were harvested by centrifugation at 5000g for 5 min at
+4 °c. cell pellets were resuspended in 15 ml of buffer a
+(20 mm tris-hcl, ph 8.0, 150 mm nacl).
+purification of the dnda protein. resuspended bacteria
+were subjected to three complete cycles of freeze-thawing
+and then disrupted by sonication. the soluble protein from
+the cell lysate was collected in the supernatant after
+centrifugation at 15000g for 30 min at 4 °c. the crude extract
+was applied to a 5 ml hitrap chelating column (amersham
+
+6128 biochemistry, vol. 46, no. 20, 2007
+pharmacia biotech) charged with nickel and preequilibrated
+with buffer a. the column was subsequently washed
+thoroughly with buffer a, and the protein was eluted with a
+linear gradient of buffer b (20 mm tris-hcl, ph 8.0,
+150 mm nacl, 500 mm imidazole). fractions were analyzed
+by sds-page, and those containing his-tagged dnda were
+pooled and concentrated to 0.5 ml in centricon plus-20
+(pl-10) centrifugal filter devices (millipore). the sample
+was then applied to a superose 12 10/30 column (amersham
+pharmacia biotech) equilibrated with buffer a using an
+äkta fast protein liquid chromatography system (amersham pharmacia biotech). proteins were eluted with the same
+equilibration buffer with a 0.5 ml/min flow rate. fractions
+containing dnda protein were pooled. the purity of purified
+dnda protein was greater than 95% judging from its
+electrophoresis on a 12% polyacrylamide gel containing sds
+followed by staining with coomassie blue. the protein
+concentration was determined with the bradford protein assay
+kit (bio-rad) using bovine  xxxg124xxx  as a standard. the
+final preparation of the enzyme was stored frozen at
+-30 °c in the buffer supplemented with 0.02 mm pyridoxal
+5′-phosphate until use.
+site-directed mutagenesis. the mutants with cysteine
+residues mutated to serine were prepared by overlap extension pcr. to construct the c327s mutant, two pcrs, with
+phz1904 as the template, were performed with primer pairs
+dnda-1 (5′-ggaattccatatgacgtacgggacgtgcag-3′) plus dnda-2 (5′-gcgctggtggacgccgagc3′) and dnda-3 (5′-gctcggcgtccaccagcgc-3′) plus
+dnda-4 (5′-cgggatcctcaatagctcggcttcagcttc-3′). these reactions produced 3′ and 5′ fragments of
+dnda, respectively, whose sequences overlapped by 19 bp
+at the mutation. by combining the two pcr products as
+templates and using the dnda n-terminal and c-terminal
+primers, the fused coding sequence of the c327s variant was
+amplified by pcr. this pcr product was digested with ndei
+and bamhi, ligated into expression vector pet15b, and then
+sequenced. a clone with the sequence for the desired c327s
+mutation was chosen and introduced into e. coli bl21(de3)
+plyse. the recombinant cells were used for overproduction
+and purification of the c327s mutant enzyme.
+preparation of the dndc protein. the coding region of
+the s. lividans dndc protein was amplified by pcr with
+phz1904 as a template. two primers were designed to
+contain an ndei restriction site in one primer and a bamhi
+site in the other. the sequences of the primers are as
+follows: dndc-l,5′-ggaattccatatgagcacccccaaggc-3′, and dndc-2, 5′-cgggatccttatgcaggtgcatcggtg-3′. the ndei/bamhi-digested pcr product
+was purified and ligated to the expression vector prset-b
+(invitrogen) to yield pjtu76 containing a six-histidine tag
+attached to the c terminus of the dndc polypeptide. pjtu76
+was introduced into e. coli bl21(de3) plyse. the recombinant bacteria were used for overproduction and purification
+of dndc protein as described above for dnda protein.
+gel filtration. the native molecular masses of dnda and
+dndc were determined by gel filtration with a superose 12
+10/30 column (amersham pharmacia biotech) equilibrated
+with 20 mm tris-hcl, ph 8.0, 150 mm nacl buffer using
+an äkta fast protein liquid chromatography system (fplc).
+the column had previously been calibrated with the following gel filtration molecular mass markers (amersham
+
+you et al.
+pharmacia biotech, uppsala, sweden): catalase (232 kda),
+aldolase amylase (158 kda), bovine  xxxg124xxx  (67 kda),
+ovalbumin (43 kda), and  xxxg1963xxx  (13.7 kda).
+assay for cysteine desulfurase activity. dnda desulfurase
+activity was measured as sulfide production using l-cysteine
+and l-cystine as substrate as previously described (35).
+reactions were carried out at 37 °c in glass culture tubes
+capped with rubber septa stoppers (waters). the assay was
+carried out in a 0.8 ml reaction mixture containing 50 mm
+tris-hcl (ph 8.0), 0.02 mm plp, and 5 mm dithiothreitol
+(dtt) and various concentrations of dnda. the reactions
+were initiated by the addition of 2.5 mm l-cysteine (sigma).
+after a 20 min incubation at 37 °c, the reaction was stopped
+by adding 100 µl of 20 mm n,n-dimethyl-p-phenylenediamine sulfate in 7.2 n hcl and 100 µl of 30 mm fecl3 in
+1.2 n hcl. after further incubation in the dark for 30 min,
+the absorption of  xxxd2610xxx  was measured at 650 nm,
+and the sulfide concentration was determined on the basis
+of a standard na2s curve.
+l-cystine,  xxxd519xxx ,  xxxd3186xxx , and
+l-selenocystine were tested as substrates in a different way.
+cysteine desulfinase was assayed by determination of alanine
+formed from the above substrates with alanine dehydrogenase
+(4). a standard reaction mixture containing 5 mm lselenocysteine, 5 mm dtt, 0.02 mm plp, 2.5 mm nad+,
+120 mm tris-hcl buffer (ph 8.0), and enzyme in a final
+volume of 0.5 ml was incubated at 37 °c. a molar turbidity
+coefficient of nadh at 340 nm, 6.22 × 106 m-1‚cm-1, was
+used. specific activity was expressed as units per milligram
+of protein, with 1 unit of enzyme defined as the amount that
+catalyzed the formation of 1 nmol of the product in 1 min.
+assay for atp pyrophosphatase activity. atp pyrophosphatase activity was monitored by using the enzcheck
+pyrophosphate assay kit (molecular probes). in this assay,
+ppi is converted to pi by  xxxg1804xxx . the
+substrate 2-amino-6-mercapto-7-methylpurine  xxxd2246xxx 
+(mesg) is converted enzymatically by  xxxd2705xxx 
+phosphorylase (pnp) to  xxxd1585xxx  and 2-amino-6mercapto-7-methylpurine. enzymatic conversion of mesg
+results in a shift in absorbance maximum from 330 nm for
+the substrate to 360 nm for the product. one unit of enzyme
+was defined as the amount of enzyme that catalyzes the
+formation of 1 nmol of the product (ppi)/min. specific
+activity was expressed as units per milligram of protein.
+in vitro reconstitution of the iron-sulfur center. the
+assembly of the iron-sulfur clusters to the apo-fe dndc
+protein was performed under anaerobic conditions (nitrogen
+atmosphere), as previously described (25). to prepare apofe dndc, purified dndc protein (0.17 µmol) was incubated
+with 1 µm r,r′-dipyridyl in the presence of 2 mm dithionite
+in a total volume of 0.6 ml at room temperature for 30 min.
+apo-fe dndc protein was purified from the reaction mixture
+using an fplc sepharose 12 10/30 column equilibrated with
+50 mm tris-hcl, ph 7.4, 150 mm nacl buffer. the
+absorption spectrum of this sample was recorded. the sample
+was then made anaerobic and placed in a sealed cuvette. apofe dndc (40 nmol) was incubated with 0.3-0.6 nmol of
+dnda protein in the presence of 2.5 mm dtt and 2 mm
+fe(nh4)2(so4)2 in a total volume of 0.6 ml in 50 mm trishcl, ph 7.4, and 50 mm nacl. the mixture was incubated
+at 37 °c for 5 min before 1 mm l-cysteine (sigma) was
+added. reconstituted dndc was separated from the reaction
+
+dnda and dndc in dna s-modification in s. lividans
+
+biochemistry, vol. 46, no. 20, 2007 6129
+table 1: purification of dndaa
+
+step
+
+specific
+total
+total
+protein activity activity yield purification
+(x-fold)
+(units) (units/mg) (%)
+(mg)
+
+crude extract
+hitrap chelating
+superose 12
+a
+
+1096
+22
+15
+
+2630
+1175
+846
+
+2.4
+53.4
+56.5
+
+100
+45
+32
+
+1
+22
+24
+
+determined with  xxxd3186xxx  as a substrate.
+
+figure 1: purification of s. lividans dnda. dnda after purification
+on a hitrap chelating column was loaded on an analytical superose
+12 column and eluted with 20 mm tris-hcl, ph 8.0, and 50 mm
+nacl (solid line). the dashed line shows the elution profile of
+standard molecular mass proteins on the same column: a, aldolase
+(158.0 kda); b, ovalbumin (43.0 kda); c,  xxxg1963xxx  (13.7 kda).
+the inset shows sds-page analysis (coomassie brilliant blue
+r-250 stained) of the eluted fractions. lanes: 1, molecular mass
+markers (kda) 97.4, 66.2, 43, 31, 20.1, and 14.4; 2, whole cell
+lysate after induction; 3, the soluble fraction after sonication; 4 and
+5, pooled fractions from hitrap chelating; 6, pooled fractions
+from superose 12.
+
+mixture using an fplc sepharose 12 10/30 column
+(amersham pharmacia biotech) equilibrated with 50 mm
+tris-hcl, ph 7.4, 1 mm dtt, 150 mm nacl buffer. ironsulfur cluster formation was monitored by taking uv-visible
+absorption spectra in a perkin-elmer lambda 650 spectrophotometer.
+determination of iron, acid-labile sulfide, and uvvisible spectra. the content of iron in dndc protein was
+determined by atomic absorption spectroscopy in a varian
+aa-220 spectrometer using a solution of fe(nh4)2(so4)2 in
+25 mm hepes buffer as a standard. acid-labile sulfide was
+determined by the method of beinert (36). optical spectra
+during dndc reconstitution were recorded on a perkin-elmer
+lambda 650 two-beam spectrophotometer under anaerobic
+conditions using a slit width of 2 nm and 1 cm light path.
+the reference cuvette contained the reaction mixture without
+dndc protein.
+results
+evidence that dnda is a functional cysteine desulfurase.
+the nucleotide sequence of the dnda gene incorporated into
+the expression plasmid (phz882) was confirmed to be
+identical to that registered in genbank accession number
+aaz29040. induced expression of the gene by addition of
+iptg produced ca. 35% of the total soluble cellular protein
+as dnda, with a molecular mass of 45 kda as estimated by
+sds-page (figure 1, inset), consistent with the size of
+the polypeptide deduced from the dnda gene sequence
+(44984 da). the purified dnda, using hitrap chelating and
+superose 12, was in the n-terminal his-tagged form, and
+ca. 15 mg of homogeneous protein could be obtained per
+liter of culture in a representative purification (table 1).
+the molecular mass of the purified soluble dnda protein
+was determined to be 91 kda by gel filtration (figure 1),
+implying its presence as a homodimer. the purified dnda
+protein had a bright yellow color, with an absorbance
+spectrum (figure 2) typical of a protein to which the cofactor
+
+figure 2: absorption spectra of dnda. absorption spectra were
+taken in 20 mm tris-hcl buffer (ph 8.0) at an enzyme concentration of 0.021 mm. curves: a, native enzyme; b, 2 min after addition
+of sodium borohydride (1 mm) to the enzyme solution.
+table 2: substrate specificity of dnda
+substrate
+ xxxd3186xxx 
+l-cysteine
+l-cysteinesulfinic
+l-selenocystine
+l-cystine
+
+acid
+
+specific activity
+(units/mg)
+
+relative activity
+(%)
+
+56.5 ( 3.2
+38.6 ( 2.2
+3.6 ( 0.2
+not detectable
+not detectable
+
+100
+68
+6
+not detectable
+not detectable
+
+ xxxd3047xxx  is bound. the dnda protein showed
+an absorption maximum at 420 nm (figure 2, curve a) at
+ph 8.0. reduction by addition of sodium borohydride
+(1 mm) to the dnda protein solution resulted in disappearance of the absorption band at 420 nm within 2 min, with a
+concomitant increase in absorbance at 330 nm (figure 2,
+curve b). these results are fully consistent with the expected
+reduction of the imine linkage between the protein and a
+ xxxd3047xxx  cofactor (37). the reduced dnda protein
+was catalytically inactive, and the addition of plp did not
+reverse the inactivation.
+purified dnda from s. lividans could catalyze removal
+of a substituent at the beta-carbon of  xxxd3186xxx , lcysteine, and l- xxxd519xxx  to yield l-alanine
+(table 2). although the specific activity of the enzyme
+toward  xxxd3186xxx  (56.5 units/mg) was lower than that
+of e. coli  xxxg1562xxx  protein (3100 units/mg) (11), the specific
+activity of the enzyme toward l-cysteine (38.6 units/mg) was
+comparable to that of e. coli  xxxg1562xxx  (78 units/mg) (3) and a.
+vinelandii  xxxg1562xxx  (89 units/mg) (1). the optimal ph value for
+the removal of selenium from  xxxd3186xxx  was around
+ph 8.0 in tris-hcl, in accordance with other cysteine
+desulfurases. the substrate specificity of the enzyme is
+summarized in table 3. the enzyme showed the lowest km
+value and the highest kcat and kcat/km values for l-seleno-
+
+6130 biochemistry, vol. 46, no. 20, 2007
+
+you et al.
+
+table 3: substrate specificity of dnda and kinetic constants of
+the enzyme reactions
+
+ xxxd3186xxx 
+l-cysteine
+
+km
+(mm)
+
+vmax
+(nmol·min-1·mg-1)
+
+kcat
+(s-1)
+
+kcat/km
+(mm-1·s-1)
+
+0.36
+5.1
+
+56.5
+38.6
+
+1.4
+0.5
+
+3.9
+0.098
+
+cysteine, in accordance with the specific activity measurements. the specific activity of the enzyme toward  xxxd519xxx  (3.6 units/mg) was much lower than that
+of e. coli csda (20000 units/mg). thus, the substrate
+specificity of dnda was similar to that of e. coli  xxxg1562xxx  but
+different from e. coli csda and sufs.
+role of cysteine residues of dnda. as a cysteine
+desulfurase, whose representative members ( xxxg1562xxx , csda, and
+sufs) could be classified into two groups based on the
+sequence similarity of a specific motif in the active site that
+contains a conserved cysteine (4), dnda falls into a group
+(i) with a consensus sequence, atgsacts, around a
+conserved cysteine residue (cys327) in the c-terminal region.
+the counterpart cysteine 327 of dnda is highly conserved
+in many  xxxg1562xxx -like proteins and was shown to be crucial for
+the activity of a. vinelandii  xxxg1562xxx  (3). in  xxxg1562xxx , this conserved
+cysteine side chain is thought to bind the s mobilized from
+ xxxd1788xxx . consequently, we replaced this conserved
+residue with serine by site-directed mutagenesis and determined the cysteine desulfurase activity of the substituted
+protein. as suspected, the overexpressed and purified serine
+mutant protein had no cysteine desulfurase activity, consistent
+with the results obtained using similarly substituted versions
+of a. vinelandii  xxxg1562xxx  (3) and e. coli  xxxg1562xxx  (14).
+dnda promotes iron-sulfur cluster assembly in dndc.
+we also examined whether dnda could play a role in ironsulfur cluster assembly, as was shown for e. coli  xxxg1562xxx  and
+a. vinelandii  xxxg1562xxx  that facilitate formation of iron-sulfur
+proteins in vitro. as revealed by a blast search, dndc in
+the dnd gene cluster has a polycysteine cluster implicating
+it as a potential iron-sulfur-containing protein. we therefore
+overproduced and purified his6-tagged dndc in e. coli. uvvisible absorption spectroscopy of the recombinant dndc,
+eluted from the affinity matrix as a brownish protein, showed
+a broad absorption band between 350 and 500 nm with a
+shoulder around 410 nm (figure 3, curve a), indicating that
+dndc is indeed an iron-sulfur-containing protein. to gain
+information regarding the atomic composition of the ironsulfur cluster in dndc, the content of iron and acid-labile s
+was determined. analysis of freshly prepared dndc indicated
+4.2 ( 0.05 mol of iron and 4.6 ( 0.4 mol of sulfide per
+mole of dndc (concentration 0.22 mm per assay, three
+independent determinations), consistent with the presence of
+a single [4fe-4s] cluster per dndc monomer. when apo-fe
+dndc was tested, disappearance of its characteristic uvvisible spectrum was observed (figure 3, curve c). when
+apo-fe dndc protein was incubated anaerobically in the
+presence of l-cysteine, ferrous ammonium sulfate, dtt, and
+dnda, uv-visible spectra recorded after reconstitution
+showed an increased peak at 410 nm (figure 3, curve b),
+while the 410 nm peak was not observed in a control assay
+in which heat-inactivated dnda was used instead of dnda.
+the in vitro assembled dndc and purified dndc exhibited
+essentially identical spectra, demonstrating successful ironsulfur center synthesis by the addition of dnda.
+
+figure 3: absorption spectra of purified dndc (curve a), restored
+dndc (curve b) and apo-fe dndc (curve c). the spectra for purified
+dndc and apo-fe dndc were taken in 50 mm tris-hcl buffer
+(ph 7.4) with 150 mm  xxxd3213xxx  at a protein concentration
+of 0.068 mm. the reconstituted dndc (0.064 mm) was recorded
+under anaerobic conditions, containing 50 mm tris-hcl (ph7.4)
+with 150 mm  xxxd3213xxx  and 1 mm dtt.
+
+figure 4: atp pyrophosphatase activity of dndc and reactivation
+of apo-fe dndc by dnda. (a) atp pyrophosphatase activity was
+measured with various amounts of purified dndc (b) or apo-fe
+dndc (o). (b) atp pyrophosphatase activity of reconstituted
+dndc. apo-fe dndc (40 nmol) was incubated together with various
+proteins: 0.6 nmol of dnda (9); 0.3 nmol of dnda (2); 5 nmol
+of dnda-c327s (0); 5 nmol of heat-inactivated dnda (4).
+
+reconstitution of the atp pyrophosphatase activity of
+dndc by dnda. to provide further evidence that s. lividans
+dnda facilitates formation of an iron-sulfur cluster, the
+specific activity of dndc was examined. because scrutiny
+of sequence data revealed that dndc shares a unique “ploop” motif with the ppi synthetase family of proteins, we
+tried to determine its hypothetical atp pyrophosphatase
+activity. indeed, while the specific activity of the native
+dndc protein as an atp pyrophosphatase was 4.7 (
+0.2 units/mg of protein, apo-fe protein, prepared by removing
+the iron-sulfur cluster using r,r′-dipyridyl chelation,
+lost its atp pyrophosphatase activity almost completely
+(figure 4a). spectral data confirmed removal of the ironsulfur cluster in apo-fe dndc, correlating its lack of atp
+pyrophosphatase activity with the absence of a 4fe-4s
+cluster. subsequently, we investigated the possibility of
+
+dnda and dndc in dna s-modification in s. lividans
+restoring enzyme activity by reconstituting dndc by adding
+recombinant dnda anaerobically to the apo-fe dndc protein,
+in the presence of l-cysteine, dtt, and ferrous ammonium
+sulfate. interestingly, a rapid increase of atp pyrophosphatase activity was observed (figure 4b) under these
+conditions. reconstitution of the inactive apo-fe dndc
+catalyzed by dnda resulted in 80% recovery of the original
+activity, and restoration of the enzyme activity was found
+to depend on the concentration of dnda; a nearly complete
+restoration could be obtained after the apo-fe dndc protein
+was incubated with 0.6 nmol of dnda at 37 °c for 40 min.
+this increase in atp pyrophosphatase activity was not found
+when dnda was replaced by heat-inactivated dnda or the
+dnda-c327s mutant protein (figure 4b). in addition, in the
+absence of ferrous ammonium sulfate or l-cysteine, reconstitution of atp pyrophosphatase activity was not observed.
+these results indicated that iron-sulfur centers in dndc are
+required for its enzymatic activity and that they can be
+efficiently assembled by dnda.
+discussion
+the proposed biochemical pathway (33) leading to a novel
+dna modification by s involves five putative proteins
+encoded by the dnd gene cluster. an initial comparison with
+the possible mechanism proposed for e. coli trna modification by s to synthesize 4-thiouridine, which needs only two
+enzymes ( xxxg1562xxx  and thii), suggested that the mechanism for
+dna modification by s was more complex, as all of the
+five proteins (dnda-e) seemed to be essential either for
+direct s incorporation or regulation of the dna modification
+(33, 38); additional catalytic steps were likely to be involved.
+ xxxg1562xxx  involved in e. coli trna modification indeed showed
+extensive homology with dnda of the five proteins for dna
+modification. the similar role of dnda with  xxxg1562xxx  as an
+l-cysteine desulfurase, which might be essential for the
+mobilization of s into either dna or trna, and the similar
+role of dndc with thii, sharing a unique adenylation-specific
+p-loop motif (sggkds for dndc and sggfds for thii),
+which may function as a sulfate adenylate transferase for
+activation of the nucleotides to be modified, clearly suggested
+the existence of common steps in the respective biochemical
+pathways. the above information, mostly deduced from
+bioinformatic analysis, needed to be confirmed or revealed
+by biochemical approaches and prompted us to focus on these
+two types of enzymes probably shared, at least to certain
+extent, by both pathways.
+in a first experiment, we showed that s. lividans dnda
+was indeed a plp-containing homodimer that specifically
+catalyzes formation of l-alanine and elemental s using
+l-cysteine as substrate. the fact that the replacement of the
+normal cysteine residue (cys327) by a serine in dnda
+abolished its cysteine desulfurase activity proved the requirement of this cysteine for catalytic function to bind s
+mobilized from  xxxd1788xxx , agreeing with the identical role
+of  xxxg1562xxx  for trna modification in e. coli (18). dnda could
+thus be established as an  xxxg1562xxx -counterpart protein.
+in a second experiment, we also showed that dndc
+possesses an obvious atp pyrophosphatase activity, catalyzing hydrolysis of atp to pyrophosphate (ppi), whose
+specific activity (4.7 units/mg) was about 2.5 times of that
+
+biochemistry, vol. 46, no. 20, 2007 6131
+catalyzed by thii (1.9 units/mg; unpublished data). this
+could be a clear indication that activation of the specific site
+for modification by adenylation is necessary, resembling the
+situation for thii.
+in a further experiment, we demonstrated that the function
+of dndc could be mediated by formation of an iron-sulfur
+cluster protein, whose reconstitution was activated by dnda.
+the exact mechanism for [4fe-4s] cluster formation stimulated by dnda is not proven, but a likely relevance to its
+ability to mobilize s for iron-sulfur cluster reconstitution
+exists. biosynthesis of iron-sulfur clusters usually needs
+scaffolding proteins, like nifu or iscu, or nifu(iscu)-like
+proteins, whose direct counterpart was not obviously found
+to be encoded by the dnd gene cluster. although five orfs
+that are similar to  xxxg1562xxx  were found in the fully sequenced
+genome of strerptomyces coelicolor a3(2), a close relative
+of s. lividans, only one (sco1920) was found to encode a
+nifu-like protein. our data could not prove or exclude
+whether this nifu-like counterpart protein in s. lividans
+would function as a scaffold protein for the assembly and
+delivery of iron-sulfur clusters to dndc protein. an e. coli
+csd system contributing to fe-s biogenesis in vivo, which
+was known to contain a  xxxg1562xxx -like enzyme and a sulfur
+acceptor protein but no scaffold, was previously reported
+(39). the failure of the other potential five  xxxg1562xxx  homologues
+to complement the dnda mutation in s. lividans for
+incorporation of sulfur into its dna and capability of dnda
+in catalyzing the activation of dndc in vitro for iron-sulfur
+cluster formation suggested that the activation of dndc in
+vivo might be indeed dependent on dnda protein. ironsulfur proteins have been reported to play important roles
+in many fundamental processes of life, such as functioning
+as electron transfer groups, contributing to catalytic or
+regulatory activities (21), as sulfur donor to provide sulfur
+for insertion into dethiobiotin (40), playing a purely structural
+role as in e. coli endonuclease iii (41) and muty (42) like
+zn in zn-finger proteins, in which the cluster controls the
+structure of a protein loop essential for recognition and repair
+of damaged dna (43). the iron-sulfur-containing dndc
+protein and its activated formation might be unique and/or
+specific to the dna s-modification system. the iron-sulfurcontaining feature, and fact that the natural dndc was active
+only in a dimeric form while apo-fe dndc was inactive in
+a polymeric form (data not shown), implied that the
+functional role of dndc mimics that of thii in its adenylation
+activity but not in other possible structural and/or functional
+aspects. it was the obvious presence of the shared regional
+homology with a unique p-loop motif between two proteins,
+which was known to be important in thii for the adenylation
+of the uridine for its subsequent modification forming
+4-thiouridine in the trna, that prompted us to propose that
+the likely formation of a persulfide group between dnda
+and dndc and activation of the site to be modified by
+adenylation prior to nucleophilic attack by dndc persulfide
+for site-specific dna modification. this resembles the
+formation of a persulfide group between  xxxg1562xxx  and thii and
+activation of the uridine by adenylation prior to nucleophilic
+attack by thii persulfide to generate 4-thiouridine in trna
+modification. dndc’s additional property as an iron-sulfur
+cluster as suggested by the detected spectroscopic difference
+indicates that dndc could also function as a sulfur donor
+for nucleophilic attack of the site to be modified and that
+
+6132 biochemistry, vol. 46, no. 20, 2007
+this is a specific requirement for site-specific modification
+of dna, but not rna.
+we propose that adenylation of the site to be modified,
+and/or the site specificity of the modification into dna, is
+dependent on formation of an iron-sulfur cluster for dna
+modification, but not for trna modification, as mechanistically five enzymes are needed for the former but only two
+enzymes are needed for the latter. thus, the cysteine
+desulfurase dnda is also a central switch for dndc to form
+as an iron-sulfur cluster protein, which is a prerequisite for
+performing its atp pyrophosphatase activity on the site in
+dna. the iron-sulfur center of the dndc protein could also
+have an important structural role for recruitment of dndd
+and dnde at the modification site. these two proteins,
+encoded by genes cotranscribed with dndc, are believed to
+be involved in subsequent stages of dna s-modification.
+the essential roles of these genes in the proposed biochemical pathway for site-specific dna modification are under
+study. additionally, we are also making an effort to purify
+dndc protein from a dnda mutant to examine its suspected
+nonreconstituted activity in order to prove the activating role
+of dnda for iron-sulfur cluster formation of dndc.
+acknowledgment
+we are very grateful to prof. sir david hopwood, frs,
+for continuous support and encouragement throughout this
+study for many years and for critical and patient editing of
+the manuscript.
+references
+1. zheng, l., white, r. h., cash, v. l., jack, r. f., and dean, d.
+r. (1993) cysteine desulfurase activity indicates a role for  xxxg1562xxx 
+in metallocluster biosynthesis, proc. natl. acad. sci. u.s.a. 90,
+2754-2758.
+2. zheng, l., cash, v. l., flint, d. h., and dean, d. r. (1998)
+assembly of iron-sulfur clusters. identification of an iscsuahscba-fdx gene cluster from azotobacter vinelandii, j. biol.
+chem. 273, 13264-13272.
+3. flint, d. h. (1996) escherichia coli contains a protein that is
+homologous in function and n-terminal sequence to the protein
+encoded by the  xxxg1562xxx  gene of azotobacter vinelandii and that can
+participate in the synthesis of the fe-s cluster of dihydroxy-acid
+dehydratase, j. biol. chem. 271, 16068-16074.
+4. mihara, h., kurihara, t., yoshimura, t., soda, k., and esaki, n.
+(1997) cysteine sulfinate desulfinase, a  xxxg1562xxx -like protein of
+escherichia coli with  xxxg2016xxx  and cysteine desulfurase
+activities. gene cloning, purification, and characterization of a
+novel pyridoxal enzyme, j. biol. chem. 272, 22417-22424.
+5. skovran, e., and downs, d. m. (2000) metabolic defects caused
+by mutations in the isc gene cluster in salmonella enterica serovar
+typhimurium: implications for thiamine synthesis, j. bacteriol.
+182, 3896-3903.
+6. sun, d., and setlow, p. (1993) cloning, nucleotide sequence, and
+regulation of the bacillus subtilis nadb gene and a  xxxg1562xxx -like gene,
+both of which are essential for nad biosynthesis, j. bacteriol.
+175, 1423-1432.
+7. behshad, e., parkin, s. e., and bollinger, j. m., jr. (2004)
+mechanism of cysteine desulfurase slr0387 from synechocystis
+sp. pcc 6803: kinetic analysis of cleavage of the persulfide
+intermediate by chemical reductants, biochemistry 43, 1222012226.
+8. olson, j. w., agar, j. n., johnson, m. k., and maier, r. j. (2000)
+characterization of the nifu and  xxxg1562xxx  fe-s cluster formation
+proteins essential for viability in helicobacter pylori, biochemistry
+39, 16213-16219.
+9. muhlenhoff, u., balk, j., richhardt, n., kaiser, j. t., sipos, k.,
+kispal, g., and lill, r. (2004) functional characterization of the
+eukaryotic cysteine desulfurase nfs1p from saccharomyces cerevisiae, j. biol. chem. 279, 36906-36915.
+
+you et al.
+10. leon, s., touraine, b., briat, j. f., and lobreaux, s. (2002) the
+atnfs2 gene from arabidopsis thaliana encodes a  xxxg1562xxx -like
+plastidial cysteine desulphurase, biochem. j. 366, 557-564.
+11. mihara, h., maeda, m., fujii, t., kurihara, t., hata, y., and esaki,
+n. (1999) a  xxxg1562xxx -like gene, csdb, encodes an escherichia coli
+counterpart of mammalian  xxxg2016xxx . gene cloning,
+purification, characterization and preliminary x-ray crystallographic studies, j. biol. chem. 274, 14768-14772.
+12. schwartz, c. j., djaman, o., imlay, j. a., and kiley, p. j. (2000)
+the cysteine desulfurase,  xxxg1562xxx , has a major role in in vivo fe-s
+cluster formation in escherichia coli, proc. natl. acad. sci. u.s.a.
+97, 9009-9014.
+13. outten, f. w., djaman, o., and storz, g. (2004) a suf operon
+requirement for fe-s cluster assembly during iron starvation in
+escherichia coli, mol. microbiol. 52, 861-872.
+14. zheng, l., white, r. h., cash, v. l., and dean, d. r. (1994)
+mechanism for the desulfurization of l-cysteine catalyzed by the
+ xxxg1562xxx  gene product, biochemistry 33, 4714-4720.
+15. lauhon, c. t. (2006) orchestrating sulfur incorporation into rna,
+nat. chem. biol. 2, 182-183.
+16. kambampati, r., and lauhon, c. t. (2003) mnma and  xxxg1562xxx  are
+required for in vitro 2-thiouridine biosynthesis in escherichia coli,
+biochemistry 42, 1109-1117.
+17. mueller, e. g. (2006) trafficking in persulfides: delivering sulfur
+in biosynthetic pathways, nat. chem. biol. 2, 185-194.
+18. mueller, e. g., palenchar, p. m., and buck, c. j. (2001) the role
+of the cysteine residues of thii in the generation of 4-thiouridine
+in trna, j. biol. chem. 276, 33588-33595.
+19. lauhon, c. t., and kambampati, r. (2000) the  xxxg1562xxx  gene in
+escherichia coli is required for the biosynthesis of 4-thiouridine,
+thiamin, and nad, j. biol. chem. 275, 20096-20103.
+20. mueller, e. g., buck, c. j., palenchar, p. m., barnhart, l. e., and
+paulson, j. l. (1998) identification of a gene involved in the
+generation of 4-thiouridine in trna, nucleic acids res. 26, 26062610.
+21. beinert, h., and kiley, p. j. (1999) fe-s proteins in sensing and
+regulatory functions, curr. opin. chem. biol. 3, 152-157.
+22. smith, a. d., agar, j. n., johnson, k. a., frazzon, j., amster, i.
+j., dean, d. r., and johnson, m. k. (2001) sulfur transfer from
+ xxxg1562xxx  to iscu: the first step in iron-sulfur cluster biosynthesis, j.
+am. chem. soc. 123, 11103-11104.
+23. urbina, h. d., silberg, j. j., hoff, k. g., and vickery, l. e. (2001)
+transfer of sulfur from  xxxg1562xxx  to iscu during fe/s cluster assembly,
+j. biol. chem. 276, 44521-44526.
+24. yuvaniyama, p., agar, j. n., cash, v. l., johnson, m. k., and
+dean, d. r. (2000)  xxxg1562xxx -directed assembly of a transient [2fe2s] cluster within the nifu protein, proc. natl. acad. sci. u.s.a.
+97, 599-604.
+25. zheng, l., and dean, d. r. (1994) catalytic formation of a
+nitrogenase iron-sulfur cluster, j. biol. chem. 269, 18723-18726.
+26. khoroshilova, n., popescu, c., munck, e., beinert, h., and kiley,
+p. j. (1997) iron-sulfur cluster disassembly in the fnr protein of
+escherichia coli by o2: [4fe-4s] to [2fe-2s] conversion with
+loss of biological activity, proc. natl. acad. sci. u.s.a. 94, 60876092.
+27. hidalgo, e., and demple, b. (1996) activation of soxr-dependent
+transcription in vitro by noncatalytic or  xxxg1562xxx -mediated assembly
+of [2fe-2s] clusters into apo-soxr, j. biol. chem. 271, 72697272.
+28. bui, b. t., escalettes, f., chottard, g., florentin, d., and marquet,
+a. (2000) enzyme-mediated sulfide production for the reconstitution of [2fe-2s] clusters into apo-biotin synthase of escherichia
+coli. sulfide transfer from cysteine to biotin, eur. j. biochem.
+267, 2688-2694.
+29. jaschkowitz, k., and seidler, a. (2000) role of a  xxxg1562xxx -like protein
+from the cyanobacterium synechocystis pcc 6803 in the maturation of fes proteins, biochemistry 39, 3416-3423.
+30. yang, w., rogers, p. a., and ding, h. (2002) repair of nitric
+oxide-modified ferredoxin [2fe-2s] cluster by cysteine desulfurase
+( xxxg1562xxx ), j. biol. chem. 277, 12868-12873.
+31. berndt, c., lillig, c. h., wollenberg, m., bill, e., mansilla, m.
+c., de mendoza, d., seidler, a., and schwenn, j. d. (2004)
+characterization and reconstitution of a 4fe-4s  xxxd1564xxx /
+phosphoadenylyl sulfate reductase from bacillus subtilis, j. biol.
+chem. 279, 7850-7855.
+32. zhou, x., deng, z., firmin, j. l., hopwood, d. a., and kieser,
+t. (1988) site-specific degradation of streptomyces lividans dna
+during electrophoresis in buffers contaminated with  xxxd2385xxx ,
+nucleic acids res. 16, 4341-4352.
+
+dnda and dndc in dna s-modification in s. lividans
+33. zhou, x., he, x., liang, j., li, a., xu, t., kieser, t., helmann,
+j. d., and deng, z. (2005) a novel dna modification by sulphur,
+mol. microbiol. 57, 1428-1438.
+34. esaki, n., nakamura, t., tanaka, h., and soda, k. (1982)
+ xxxg2016xxx , a novel enzyme that specifically acts on
+selenocysteine. mammalian distribution and purification and
+properties of pig liver enzyme, j. biol. chem. 257, 43864391.
+35. siegel, l. m. (1965) a direct microdetermination for sulfide, anal.
+biochem. 11, 126-132.
+36. beinert, h. (1983) semi-micro methods for analysis of labile
+sulfide and of labile sulfide plus sulfane sulfur in unusually stable
+iron-sulfur proteins, anal. biochem. 131, 373-378.
+37. tirupati, b., vey, j. l., drennan, c. l., and bollinger, j. m., jr.
+(2004) kinetic and structural characterization of slr0077/sufs,
+the essential cysteine desulfurase from synechocystis sp. pcc
+6803, biochemistry 43, 12210-12219.
+38. liang, j., wang, z., he, x., li, j., zhou, x., and deng, z. (2007)
+dna modification by sulphur: analysis of the sequence recognition specificity surrounding the modification sites, nucleic acids
+res. (doi: 10.1093/nar/gkm176).
+
+biochemistry, vol. 46, no. 20, 2007 6133
+39. loiseau, l., ollagnier-de choudens, s., lascoux, d., forest, e.,
+fontecave, m., and barras, f. (2005) analysis of the heteromeric
+csda-csde cysteine desulfurase, assisting fe-s cluster biogenesis
+in escherichia coli, j. biol. chem. 280, 26760-26769.
+40. jameson, g. n., cosper, m. m., hernandez, h. l., johnson, m.
+k., and huynh, b. h. (2004) role of the [2fe-2s] cluster in
+recombinant escherichia coli biotin synthase, biochemistry 43,
+2022-2031.
+41. kuo, c. f., mcree, d. e., fisher, c. l., o’handley, s. f.,
+cunningham, r. p., and tainer, j. a. (1992) atomic structure of
+the dna repair [4fe-4s] enzyme endonuclease iii, science 258,
+434-440.
+42. guan, y., manuel, r. c., arvai, a. s., parikh, s. s., mol, c. d.,
+miller, j. h., lloyd, s., and tainer, j. a. (1998) muty catalytic
+core, mutant and bound adenine structures define specificity for
+dna repair enzyme superfamily, nat. struct. biol. 5, 1058-1064.
+43. johnson, d. c., dean, d. r., smith, a. d., and johnson, m. k.
+(2005) structure, function, and formation of biological iron-sulfur
+clusters, annu. rev. biochem. 74, 247-281.
+bi602615k
+

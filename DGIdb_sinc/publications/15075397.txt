@@ -1,0 +1,1067 @@
+the plant cell, vol. 16, 1091–1104, may 2004, www.plantcell.org ª 2004 american society of plant biologists
+
+atr regulates a g2-phase cell-cycle checkpoint
+in arabidopsis thaliana
+kevin culligan,a,1 alain tissier,b,2 and anne britta
+a section
+
+of plant biology, university of california, davis, california 95616
+à l’energie atomique cadarache, direction des sciences du vivant département d’ecophysiologie végétale et de
+microbiologie, laboratoire de radiobiologie végétale, 13108 st. paul-lez-durance cedex, france
+
+b commissariat
+
+ataxia telangiectasia-mutated and rad3-related (atr) plays a central role in cell-cycle regulation, transmitting dna damage
+signals to downstream effectors of cell-cycle progression. in animals, atr is an essential gene. here, we find that
+arabidopsis (arabidopsis thaliana) atrÿ/ÿ mutants were viable, fertile, and phenotypically wild-type in the absence of
+exogenous dna damaging agents but exhibit altered expression of atrnr1 ( xxxg1991xxx ) and
+alteration of some damage-induced cell-cycle checkpoints. atr mutants were hypersensitive to hydroxyurea (hu),
+aphidicolin, and uv-b light but only mildly sensitive to g-radiation. g2 arrest was observed in response to g-irradiation in
+both wild-type and atr plants, albeit with slightly different kinetics, suggesting that atr plays a secondary role in response
+to double-strand breaks. g2 arrest also was observed in wild-type plants in response to aphidicolin but was defective in atr
+mutants, resulting in compaction of nuclei and subsequent cell death. by contrast, hu-treated wild-type and atr plants
+arrested in g1 and showed no obvious signs of cell death. we propose that, in plants, hu invokes a novel checkpoint
+responsive to low levels of deoxynucleotide triphosphates. these results demonstrate the important role of cell-cycle
+checkpoints in the ability of plant cells to sense and cope with problems associated with dna replication.
+
+introduction
+the detection of dna damage is an important aspect of damage
+resistance. cells do not routinely express all dna repair
+mechanisms, but instead upregulate these functions as required,
+concomitantly slowing the cell cycle to permit time for repair
+before s-phase (as replication past damaged sites may be
+mutagenic) or before m-phase (after which point double-strand
+breaks and lesions in daughter strand gaps may become far
+more problematic to repair). damage is generally detected by
+protein complexes in the form of single-stranded dna (crowley
+and courcelle, 2002; zou and elledge, 2003), created when the
+replication fork is physically blocked by dna lesions or during
+the process of dna repair (e.g., homologous recombination,
+nucleotide excision repair, and mismatch repair). these damage
+sensors then activate downstream checkpoint mechanisms to
+prevent progression into the next phase of the cell cycle as well
+as upregulate dna repair (nyberg et al., 2002).
+some damage sensors also are involved in the regulation of
+deoxynucleotide triphosphate (dntp) pools, which may in turn
+influence the mode of dna replication. one of the primary targets
+for dntp pool regulation is the enzyme ribonucleotide reductase
+
+1 to
+
+whom correspondence should be addressed. e-mail kmculligan@
+ucdavis.edu; fax 530-752-5410.
+2 current address: librophyt sas, centre de cadarache, bâtiment 185,
+13108 st. paul-lez-durance cedex, france.
+the author responsible for distribution of materials integral to the
+findings presented in this article in accordance with the policy described
+in the instructions for authors (www.plantcell.org) is: kevin m. culligan
+(kmculligan@ucdavis.edu).
+article, publication date, and citation information can be found at
+www.plantcell.org/cgi/doi/10.1105/tpc.018903.
+
+(rnr), which catalyzes the final reduction step in the production
+of dntps. genetic studies in saccharomyces cerevisiae suggest
+that the elevation of dntp levels (through transcriptional and/or
+posttranslational regulation of rnr) in response to dna damage
+may result in more efficient translesion dna synthesis, enabling
+the cell to complete replication in spite of the presence of
+persisting lesions (tanaka et al., 2000; chabes et al., 2003; yao
+et al., 2003).
+the proteins that sense damaged or single-stranded dnas
+and trigger these elaborate responses have been extensively
+characterized in organisms ranging from bacteria to human
+(crowley and courcelle, 2002; melo and toczyski, 2002). in
+plants, however, the regulation of dna replication and repair and
+the cell cycle in response to dna damage is only beginning to be
+understood.
+the schizosaccharomyces pombe rad3 homologs (ataxia
+telangiectasia-mutated and rad3-related [atr] and ataxia
+telangiectasia-mutated [atm] in mammals, mec1 in s. cerevisiae) are essential regulators of cell-cycle checkpoints, sensing
+dna damage and/or single-stranded dna and activating
+downstream effectors of cell-cycle progression and dna repair.
+atm is activated primarily by dna double-strand breaks. atmdeficient plants and animals are hypersensitive to g-irradiation
+but not to replication-blocking agents such as uv-b light,
+hydroxyurea (hu), or aphidicolin (abraham, 2001; garcia et al.,
+2003; k. culligan and a. britt, unpublished data). furthermore,
+the arabidopsis (arabidopsis thaliana) atm homolog is required
+for the transcriptional induction of repair genes in response to
+g-irradiation and for efficient progression through meiosis
+(garcia et al., 2003), though its role in plant cell-cycle responses
+to dna damage has not yet been determined. in animals,
+activated atm phoshorylates downstream components of
+
+1092
+
+the plant cell
+
+checkpoint pathways that include p53, brca1, nbs1, and
+ xxxg443xxx , initiating g1-, s-, or g2-phase arrest and/or apoptosis.
+by contrast, atr is activated primarily by agents that block
+the progression of replication forks. atr dominant-negative
+and conditional knockout mammalian cell lines display hypersensitivity to uv-b light, hu, and aphidicolin but are also sensitive to g-radiation. thus, in animal cells, atr is thought to
+play a more generalized role in response to dna damage than
+atm. activated atr phosphorylates  xxxg442xxx  to initiate g2-phase
+arrest but may also act at other points of the cell cycle, as
+evidenced by atr-dependent phosphorylation of brca1
+(tibbetts et al., 2000; melo and toczyski, 2002). however, the
+determination of the full extent of atr’s role in genome maintenance has been complicated by the fact that atr homozygous
+knockouts die early in embryogenesis (brown and baltimore,
+2000; de klein et al., 2000); cre/lox-induced nulls survive only
+a few rounds of cell division, and the dominant-negative reduction-of-function cell lines have yielded conflicting results
+(cliby et al., 1998; wright et al., 1998). thus, a tractable genetic
+system in which a null allele of atr could be tolerated throughout
+the development of a higher organism would be particularly
+desirable.
+here, we investigate the effects of an atr t-dna insertion
+allele in the plant arabidopsis. the allele has a 6-kb insertion
+within the kinase domain and is presumably null. we find that
+the mutant plant (atr) is viable and developmentally normal in
+the absence of exogenous dna-damaging treatments but is
+hypersensitive to the replication-blocking agents uv-b light,
+hu, and aphidicolin. thus, atatr does appear to act as a
+functional homolog of its mammalian counterpart. however, the
+arabidopsis atr mutants differ from mammalian mutants not
+only in terms of their viability but also in their degree of sensitivity
+to g-radiation.
+in the course of these experiments, we also observed
+a differential response to hu versus aphidicolin in wild-type
+cells, with hu primarily inducing a g1 arrest, whereas aphidicolin
+induced arrest in g2. this stands in contrast with the g2 arrest
+induced by both agents in yeast and mammals (at concentrations that allow s-phase progression) and suggests that plants
+may possess a novel g1 checkpoint response to low dntp
+levels. the g2 arrest in response to aphidicolin was abrogated in
+atr mutants, suggesting that atr regulates the g2 checkpoint
+response to replication blocks, as it does in mammals. moreover,
+programmed cell death was observed in atr mutants in response
+to aphidicolin, but not hu, under our experimental conditions.
+we propose a model that suggests that the hu and aphidicolin
+hypersensitivities of atr mutants are the result of its defect in the
+g2 checkpoint response to blocked replication forks.
+results
+identification of the atr ortholog in arabidopsis
+atr orthologs, including mec1 of s. cerevisiae and rad3 of s.
+pombe, are members of a large gene family in eukaryotes that
+encode ser-thr kinases, whose c-terminal catalytic domains
+share similarity to yeast and mammalian phosphoinositide
+3-kinases (tibbetts and abraham, 2000). we searched the
+
+arabidopsis genome for homologs of atr, using the s. pombe
+rad3 c-terminal domain as a query sequence, and found
+several candidate genes. phylogenetic analysis of the corresponding predicted full-length protein sequences indicated that
+one was an ortholog of  xxxg1478xxx  (tor), one an
+ortholog of atm, and one was an ortholog of atr (figure 1a).
+no other candidate genes fell into these broad categories. the
+atr-orthologous sequence (previously reported in genbank as
+mrna atrad3 [ab040133], which we designate here as atatr)
+revealed high similarity throughout its entire length to other atr
+proteins, but its similarity to atm and tor sequences was
+limited only to the highly conserved middle and c-terminal
+regions. we confirmed the genbank sequence and intron/exon
+boundaries by isolating and sequencing cdnas of atatr
+(8.1 kb, ecotype wassilewskija [ws]) using rt-pcr, and the
+resulting sequence predicted 17 exons encoding a protein of
+2702 amino acids (figure 1b).
+
+identification of t-dna insertion-mutation alleles
+in atatr
+to study the function of atr in arabidopsis, we searched for
+lines with t-dna insertions within atr. three independent lines
+were identified from different collections and were termed atr-1
+(arabidopsis knockout facility, ecotype ws), atr-2 (signal database, ecotype columbia), and atr-3 (flag database, ecotype
+ws). atr-1 and atr-2 contain insertions in the middle of atr, in
+exons 7 and 10, respectively (figure 1b). atr-3 contains a single,
+6-kb t-dna insertion within the highly conserved c-terminal
+kinase (pi3kc) domain (figures 1b to 1d), which causes a 30-bp
+deletion adjacent to the catalytic asp required for kinase function.
+rt-pcr analysis of the c-terminal region of atr confirms
+that the transcript is absent in atr-3 (figure 7). thus, we believe
+atr-3 is likely to be a null mutation and have focused the majority of our characterization on this line (termed atr below).
+nonetheless, all three lines exhibit a similar recessive phenotype
+(see below) that cosegregates with their respective t-dna
+insertions in atr.
+
+neither atatr nor atatm is required during normal
+somatic development
+all three atr homozygous alleles are phenotypically wild-type in
+growth (of the root and shoot) and development (leaf and flower
+development, seed set and viability) under standard conditions.
+thus, atr is not essential for normal somatic development in
+arabidopsis. by contrast, atr is an essential gene in animals;
+atr knockout mice die early in embryogenesis (brown and
+baltimore, 2000; de klein et al., 2000), whereas conditional
+knockout human cell lines divide only a few times before dying
+(cortez et al., 2001; brown and baltimore, 2003). because atr
+and atm are paralogs known to play partially overlapping roles
+in animal cells (abraham, 2001), it is possible that atm could
+compensate for atr deficiency in arabidopsis. to test this
+hypothesis, we established atr atm double mutants and found
+no obvious phenotypic differences (in vegetative growth and
+development) when compared with wild-type or single-mutant
+
+atatr regulates a g2 checkpoint
+
+1093
+
+figure 1. phylogenetic analysis, structure, and t-dna insertions of atatr.
+(a) the neighbor-joining tree of rad3-like protein sequences was performed as described (culligan et al., 2000). numbers above each branch represent
+the number of times the branch was found in 1000 bootstrap replicas. arabidopsis sequences are in bold. no dna-pkcs (dna–protein kinase catalytic
+subunit)-like sequences were identified in the arabidopsis genome.
+(b) overview of the atatr gene, positions of atr-1, atr-2, and atr-3 t-dna insertions, and its corresponding cdna structure. numbered gray boxes
+indicate exons of atatr; the positions of the t-dna insertions are denoted as triangles. the cdna structure (bottom) shows the corresponding highly
+conserved domains found in atm, atr, tor, and  xxxg798xxx -rapamycin-associated protein sequences, including the kinase domain denoted as a black
+rectangle (pi3kc). the cdna sequence was confirmed by isolating and sequencing independent cdnas of atatr (ecotype ws) using rt-pcr. the
+resulting sequence predicts 17 exons that encode a protein of 2702 amino acids.
+(c) structure of the atr-3 t-dna insertion. capital letters denote t-dna insertion sequence. corresponding amino acids are shown above the dna
+sequence. the left-border sequence encodes 10 new amino acids within the atatr reading frame before a premature stop (boxed as tga). the
+approximate size of the entire insertion is 6 kb.
+(d) partial alignment of the kinase domain where atr-3 is inserted: 1 denotes a 30-bp deletion (equivalent to 10 amino acids) caused by the insertion, and
+2 denotes the position of the catalytic asp required for kinase function.
+
+1094
+
+the plant cell
+
+figure 2. siliques harvested from mature wild-type, atr, and atm-1 (ecotype ws) mutants.
+wild-type, atrÿ/ÿ, and atrÿ/ÿ atm1/ÿ on average produce 50 seeds per silique. atm plants, which are partially sterile, produce a range of silique
+sizes with much fewer (<10 on average) seeds. the siliques from the double atr atm line produced no seeds and were unable to outcross as males or
+females, suggesting complete sterility.
+
+plants, indicating that neither atr nor atm play an essential role
+during normal vegetative (somatic) growth.
+the double mutants, however, were completely sterile (figure
+2). atr mutant plants are fertile and produce normal gametes;
+pollen staining for viable spores revealed no differences versus
+the wild type, and the siliques were full (normal seed set). atm
+mutant plants, however, are partially sterile because of abundant
+chromosomal fragmentation during meiosis, resulting in a reduction in viable pollen and reduced seed set (garcia et al.,
+2003). we suggest that atatm and atatr play partially redundant roles during meiosis in arabidopsis.
+atatr is required for full transcriptional induction of the
+large subunit of rnr, atrnr1
+in the budding yeast s. cerevisiae, mec1 (the atr ortholog)
+regulates expression of rnr at both the transcriptional and
+posttranscriptional levels (zhao et al., 2001). null alleles of mec1
+are lethal, but this lethality is suppressed by mutations in genes
+that negatively regulate rnr (huang et al., 1998; zhao et al.,
+1998), such as the transcriptional repressor  xxxg1018xxx  (huang et al.,
+1998) or the inhibitor of rnr activity  xxxg2264xxx  (zhao et al., 1998).
+derepression of rnr transcription in response to dna damage
+is dependent on mec1 and the downstream kinase dun1, which
+indirectly induces an inhibitory phosphorylation of  xxxg1018xxx  (elledge
+et al., 1992; zhao and rothstein, 2002). whether mec1 or atr
+also play a role in the normal cell-cycle specific regulation of rnr
+transcription in unchallenged cells remains unclear.
+
+we therefore wanted to determine if rnr transcription is
+regulated in an atatr-dependent manner in challenged and/or
+unchallenged plants. we searched genbank and identified
+the arabidopsis homolog of rnr1, the large subunit of rnr
+(accession number af092841). transcription of rnr1 has
+already been shown to be regulated in a cell-cycle dependent
+manner in tobacco (nicotiana tabacum) (chabouté et al., 1998,
+2002), and transcription is induced by dna damage in this plant
+(m.e. chabouté, personal communication). we probed rna gel
+blots with atrnr1 and found that atrnr1 transcript is reduced
+in atr mutants, down 40% versus the wild type under
+standard conditions (figure 3), suggesting that atr is required
+to support normal expression of rnr1. plants treated with
+chronic doses of uv-b light, sufficient to inhibit but not eliminate
+growth, display a level of rnr1 transcript similar to that
+observed under standard (uv-free) conditions, and again atr
+plants exhibit reduced levels of rnr1 transcript. interestingly,
+plants treated with acute doses of uv-b light displayed
+a transient inhibition of atrnr1 transcript (at 2 h postirradiation), followed by a return to standard condition levels at 6 h
+postirradiation. this uv-induced suppression is not atr dependent, though again, the overall level of rnr1 transcript is
+reduced (figure 3).
+because we used hu (an inhibitor of rnr activity) as a dna
+replication-blocking agent (see below) to characterize the phenotypic effects of the atr mutant, we wanted to determine the
+effects of hu treatment on rnr expression in whole plants.
+surprisingly, in the presence of hu, rnr1 expression is the same
+
+atatr regulates a g2 checkpoint
+
+figure 3. rna gel blot analysis of the wild type and atr.
+rna samples were prepared from 7-d-old wild-type and atr plants
+(whole seedlings) sown on ms agar plates plus 1 mm hu, in the presence
+of uv-b (chronic dose), or left untreated (n.t.). for acute doses of uv-b
+light, the wild type and atr were grown for 7 d on ms agar plates and
+irradiated with uv-b light (10 kj/m2) in the dark and then harvested 2 h or
+6 h after uv irradiation. approximately 30 mg (lanes 1 to 6) or 25 mg (lanes
+7 to 10) of total rna from each sample was blotted and probed with
+a putative atrnr1 (genbank af092841) mrna sequence. the atrnr1
+mrna sequence is 2.65 kb. the bands corresponding to 4.4 and 2.4 kb
+of the rna ladder (ambion) are shown at the left and denoted as arrows.
+the ethidium bromide–stained gel is shown (bottom), and the relative
+rates of expression (rel. exp.) were determined with respect to wild-type
+no-treatment control. this experiment was repeated with independently
+isolated rna samples with very similar results.
+
+in both the wild type and atr (figure 3) with levels similar to the
+wild type under standard conditions. this suggests that there
+are additional atr-independent levels of rnr1 regulation in
+arabidopsis and is consistent with previous studies showing that
+hu induces rnr expression in plants (chabouté et al., 1998).
+
+arabidopsis atr mutants are mildly sensitive to
+acute doses of g-radiation but proficient
+in g-induced g2 arrest
+conditional mutants of atr/mec1 in mammalian cells and s.
+cerevisiae, as well as rad3 mutants in s. pombe, are
+hypersensitive to g-radiation (jimenez et al., 1992; cliby et al.,
+1998; wright et al., 1998). mutants of atm/sctel1, including
+those in arabidopsis, are also hypersensitive to g-radiation
+(sedgwick and boder, 1991; garcia et al., 2003). this sensitivity
+is generally interpreted as a failure of checkpoint responses to
+double-strand breaks (abraham, 2001) but may also involve
+a failure to induce dna repair genes (garcia et al., 2003). to
+determine whether atr plays a role in g-resistance in arabidopsis, we challenged wild-type, atr, and atm lines with sublethal
+doses of g-radiation. in contrast with atm mutants, atr lines
+exhibited only mild sensitivity to g-radiation. the root length of atr
+was reduced by 30% versus the wild type 7 d after seeds were
+g-irradiated at 200 gray (gy), whereas atm root length was
+reduced by >95% (figure 4a).
+
+1095
+
+to determine the role of arabidopsis atr as a cell-cycle
+checkpoint regulator in response to g-irradiation, we established
+homozygous wild-type and atr mutant lines carrying a cyclinb1
+promoter coupled to b-glucuronidase (pcyclinb1:gus) reporter
+construct. this construct harbors a gus gene fused to a mitotic
+destruction sequence and a cyclinb1 promoter (colon-carmona
+et al., 1999). the gus fusion gene is expressed upon entry into
+g2 (via the cyclinb1 promoter), and the fusion protein is
+degraded just before anaphase during mitosis. gus-positive
+cells stain blue in g2/early m, allowing us to visually monitor the
+progression of the cell cycle in root meristems (preuss and britt,
+2003). to determine g2-specific arrest (versus post-g2 mitotic
+arrest), we further stained root tips with 49,6-diamidino-2phenylindole (dapi) to visualize mitotic nuclei. in response to
+400 gy of g-radiation, atr mutants showed only a slightly altered
+cell-cycle response when compared with the wild type; both
+wild-type and atr meristematic cells arrest in g2 (dapi staining
+revealed no accumulation of mitotic figures) but differ slightly in
+the timing of the response. for instance, at 8 h postirradiation, atr
+root tips accumulated more g2 cells versus the wild type, but at
+1 d postirradiation the root tips accumulated less g2 cells versus the wild type (figure 4b). this suggests that arabidopsis
+atr is not absolutely required for the g2 checkpoint response to
+acute doses of g-radiation but does influence its rate of induction
+and persistence.
+arabidopsis atr mutants are hypersensitive to
+replication-blocking agents
+hsatr, scmec1, and sprad3 deficiencies are also associated
+with hypersensitivity to replication blocking agents. for example, yeast mec1 mutants fail to undergo the g2 arrest normally
+induced by stalled replication and instead proceed directly into
+mitosis. consequently, mutant cells accumulate single-strand
+gaps and double-strand breaks, leading to cell death (weinert
+et al., 1994). in animals, this failure to arrest induces apoptosis
+(brown and baltimore, 2000; cortez et al., 2001). to determine
+whether atr is required for plant cell-cycle responses to
+replication blocks, we challenged wild-type and homozygous atr
+mutant plants with the replication-blocking agents hu (1 mm),
+aphidicolin (12 mg/ml), and uv-b light. all of these agents
+inhibit replication in fundamentally different ways. hu inhibits
+rnr, thus depleting available dntps for dna polymerases.
+aphidicolin is an inhibitor of the replicative dna polymerases d
+and e, and uv-b light creates physical replication blocks (e.g.,
+cyclobutane pyrimidine dimers) in dna. we chose to focus our
+analysis on root meristems because we and others (wiedemeier
+et al., 2002) found that both hu and aphidicolin inhibit root
+growth in wild-type plants, suggesting that these agents are
+absorbed by the root. we germinated wild-type and homozygous atr seeds on control ms agar plates or on plates
+containing either hu or aphidicolin, selecting a dose of each
+agent that had mild but perceptible effects on growth of the
+wild-type root. both the wild type and atr grew at very similar
+rates on control plates. on plates containing 1 mm hu, wildtype root growth was reduced 40%, whereas the atr root
+growth was reduced >95% (figures 5a and 5d) and produced
+abnormally long root hairs that were densely clustered at the
+
+1096
+
+the plant cell
+
+figure 4. root growth and cell-cycle arrest phenotypes of g-irradiated wild-type and atr plants.
+(a) wild-type, atm, and atr seeds were g-irradiated at a dose of 200 gy. the seeds were immediately germinated on ms agar plates, and root growth
+was measured for 2 weeks. no-irradation controls grew as described (garcia et al., 2003) and as in figure 5d.
+(b) five-day-old wild-type and atr seedlings containing the pcyclinb1:gus fusion construct (as described in the text and figure 6) were g-irradiated with
+400 gy, and individual wild-type and atr plants were harvested at 8 h, 1 d, and 2 d time points for gus staining (n > 12). two representative examples
+from each treatment are shown.
+
+root tip. moreover, lateral root growth initiated much earlier in
+atr on hu plates compared with control plates. the shoot was
+reduced in size and produced anthocyanins (stress-induced
+pigments), perhaps as an indirect effect of the lack of root
+growth. the same differences between the wild type and atr
+(40% versus >95% growth inhibition, overproduction of root
+hairs and lateral roots) were observed when germinated on
+plates containing 12 mg/ml of aphidicolin or when 5-d-old seedlings were transferred to plates containing hu or aphidicolin,
+starting 2 d after transfer (figures 5c and 5d). furthermore,
+chronic doses of uv-b light had a similar phenotypic effect
+on atr roots compared with the wild type (figure 5b); the
+mutant was also retarded (to a lesser extent at this dose) in
+its root growth and formed root hairs at the tip of the root.
+thus, three treatments that block replication but differ in the
+mechanism of inhibition produced similar gross phenotypic
+effects in atr roots.
+
+atatr regulates a g2 checkpoint in response to
+replication blocks
+mec1 and atr are required for the g2 checkpoint response to
+replication blocks in fungi and mammals, respectively (melo and
+toczyski, 2002). to determine whether atr performs a similar
+function in plants, we gus and dapi stained homozygous wildtype and atr mutant lines carrying the pcyclinb1:gus reporter
+construct (described above) after growth on hu and aphidicolin.
+as shown in figure 6, the wild type and atr displayed typical
+patterns of pcyclinb1:gus expression on control plates (10 to 20
+blue cells per root tip), representing the fraction of g2/early
+m cells present during normal growth. by contrast, the meristematic cells of aphidicolin treated wild-type plants displayed
+a substantial increase in the number of pcyclinb1:gus-expressing
+cells and perhaps in the density of their staining (figure 6). using
+dapi staining to visualize mitotic nuclei, we observed no
+
+atatr regulates a g2 checkpoint
+
+1097
+
+figure 5. phenotypes of atr challenged with hu, aphidicolin, or uv-b light.
+(a) wild-type and atr seeds were germinated on ms plates or ms plus 1 mm hu and grown for 3 weeks.
+(b) wild-type and atr seeds were germinated on ms plates and grown for 3 weeks in the presence or absence of uv-b light (see methods).
+(c) wild-type and atr seeds were germinated on ms plates and grown for 5 d and then transferred to plates containing 12 mg/ml of aphidicolin (aph) for 5 d.
+(d) five-day-old wild-type and atr seedlings were grown as above in the presence or absence (n.t., no treatment) of hu or aphidicolin (aph). however, to
+make a more direct comparison of the effects of hu versus aphidicolin, we employed concentrations of hu and aphidicolin that inhibited wild-type root
+growth by 40% for both treatments, in this case, 1 mm hu and 12 mg/ml of aphidicolin. we measured root growth (n > 30) from each treatment for
+8 d after transfer. standard deviations are shown as error bars.
+
+significant aphidicolin-induced accumulation of mitotic figures in
+either wild-type or atr meristematic cells, thus ruling out post-g2
+mitotic arrest as a likely cause for the pcyclinb1:gus accumulation. this indicates that the dividing cells of wild-type plants
+experiencing aphidicolin-induced replicational stress spend
+a greater fraction of their cell cycle in g2 and that atr plants are
+defective in this g2 arrest (figure 6).
+in contrast with the aphidicolin response, hu did not induce
+g2-phase arrest in wild-type roots. in fact, a decline in the
+fraction of g2 cells was observed from day 4 to 6 (as measured
+by the lack of pcyclinb1:gus staining; figure 6). the cells are
+presumably arresting in g1- or s-phase because no increase in
+mitotic figures was observed via dapi staining. this response
+
+also occurred in atr root meristems but appeared to be slightly
+accelerated.
+to confirm the pcyclinb1:gus analysis, we employed semiquantitative rt-pcr, with primers specific to the cyclinb1 gene
+(which does not amplify the pcyclinb1:gus transcript), on untreated, hu-, or aphidicolin-treated wild-type and atr root tips. as
+shown in figure 7, cyclinb1 gene expression is reduced 20%
+(relative to untreated control root tips) in the wild type when
+grown in the presence of hu but is elevated nearly threefold in
+the presence of aphidicolin, consistent with our pcyclinb1:gus
+experimental conclusion that hu induces g1- or s-phase arrest
+and aphidicolin induces g2 arrest. furthermore, aphidicolintreated atr root tips display no enhancement of cyclinb1
+
+1098
+
+the plant cell
+
+figure 6. gus staining of root tips.
+five-day-old wild-type and atr-3 seedlings (carrying pcyclinb1:gus) were transferred to aphidicolin (aph), or hu, or control (n.t.) plates, and root growth
+was measured every other day after transfer for 8 d (figure 5d). individual wild-type and atr plants were harvested at each time point for gus staining of
+root tips. wild-type and atr were grown for 5 d on ms plates and then transferred to control plates or to plates containing 1 mm hu or 12 mg/ml of
+aphidicolin. these experiments were repeated several times with very similar results; thus, representative pictures are shown. gus stained root tips
+from 2, 4, and 6 d after transfer are shown. at least 12 individual plants were harvested and stained at each treatment and time point. two representative
+examples are shown for each treatment.
+
+transcript in response to aphidicolin, again suggesting the lack of
+g2 arrest in atr.
+to distinguish between g1- or s-phase arrest in wild-type hutreated roots, we employed rt-pcr analysis of the s-phase
+specific gene  xxxg1052xxx . in plants, the expression of  xxxg1052xxx 
+has been shown to be strongly induced upon entry into s-phase
+and maintained through g2 (reichheld et al., 1995; menges and
+murray, 2002). if hu induces s-phase arrest (e.g., in wild-type
+root tips), we would predict a concomitant increase in s-phase–
+specific gene expression. likewise, g1-phase arrest would
+predict a concomitant decrease in s-phase–specific gene expression. as shown in figure 7,  xxxg1052xxx  expression is reduced
+in hu-treated wild-type root tips and elevated in aphidicolintreated wild-type root tips, suggesting g1- and g2-phase arrest,
+respectively. in the atr mutant,  xxxg1052xxx  expression is elevated
+in the untreated root tips but is drastically reduced in the hu- and
+aphidicolin-treated root tips. this suggests that the atr mutant,
+although phenotypically normal in root growth, induces some sphase arrest (cyclinb1 is not induced) under standard growth
+conditions but in the presence of replication blocking agents,
+arrests and/or exits the cell cycle in g1.
+altogether, these data suggest that two independent checkpoints are responsible for the arrest phenotypes observed in the
+wild type versus atr: an aphidicolin-induced g2 checkpoint that
+is atatr dependent and a hu-induced g1 checkpoint.
+aphidicolin, but not hu, induces cell death in atr
+to further characterize the different cellular responses to hu and
+aphidicolin, we dapi stained wild-type and atr root tips (time
+points and treatments as above) to observe the integrity of the
+nuclei. as seen in figure 8a, wild-type roots had very organized
+meristems with round and slightly diffuse nuclei, and they
+retained this morphology on hu and aphidicolin. however, atr
+exhibited different cellular morphologies on both hu and aphidicolin. the cell files of atr meristems grown on hu were dis-
+
+organized and the cells enlarged, but the nuclei were similar in
+appearance to the wild type (round and slightly diffuse). all cells
+up to the root cap had a defined nucleus (figure 8a). the
+meristems of atr grown on aphidicolin also were disorganized,
+but the appearance of the nuclei differed from that observed in
+either the wild type (all conditions) or atr grown on hu. starting on
+day 4, the meristematic nuclei near the tip became condensed,
+and dapi staining was reduced relative to atr grown on hu or the
+wild type (all conditions). by day 6, most cells in the meristematic
+zone of aphidicolin-treated roots had completely lost their nuclei,
+leaving only a blue haze (figures 8a and 8b). this indicates that
+atr mutant cells undergo nuclear degradation (cell death) when
+treated with aphidicolin, but not hu, at dose levels of both agents
+that inhibit wild-type growth by 40%. although some cell death
+also can be seen at higher doses of hu (data not shown), these
+higher doses inhibited wild-type growth >95%. this suggests that
+(1) the aphidicolin-induced atatr-dependent g2 arrest plays
+a critical role in protecting the genome, and (2) that additional
+factors, such as the g1 arrest induced by hu, may rescue atr
+meristems from massive genomic instability induced by progression through m-phase in the absence of complete replication.
+discussion
+atr plays a central role in the cell’s response to dna damage by
+activating cell-cycle checkpoints that allow time for dna repair.
+we have shown that arabidopsis atr mutants are viable and
+normal under standard growth conditions but are hypersensitive to replication blocks and mildly sensitive to g-radiation.
+furthermore, we have shown that atatr is required for the
+g2-phase checkpoint in response to replication blocks but is
+not absolutely required in the g2-arrest response to doublestrand breaks (using acute doses of g-radiation). the differences
+seen in response to hu, aphidicolin, and g-irradiation suggest
+that additional checkpoints also play important roles in the cellcycle and cell-death phenotypes observed.
+
+atatr regulates a g2 checkpoint
+
+figure 7. semiquantitative rt-pcr analysis of g2-phase and s-phase–
+specific genes.
+wild-type and atr plants were grown as described in figure 6. root tips
+(n > 200) were excised (1 to 2 mm from the root cap) from wild-type and
+atr plants 4-d after transfer for rna extraction, cdna preparation, and
+rt-pcr analysis. twenty-five microliters of each rt-pcr sample was
+loaded on an ethidium bromide–stained agarose gel, and representative
+gels are shown. all rt-pcr products were between 400 bp and 850 bp
+in size. the rt-pcr product of eif4a (eukaryotic initiation factor) was
+employed as a standard for rt-pcr amplification. numbers below each
+gel band denote its relative expression (first normalized to eif4a) to the
+wild-type untreated (n.t.) sample. standard deviations for two replicates
+are shown in parentheses. aph, aphidicolin.
+
+atatr plays a relatively minor role in g-resistance
+at 400 gy of g-radiation, the atr mutant is similar to the wild type in
+root growth and its ability to recover from g-radiation treatments.
+by contrast, atm is not able to recover from g-radiation doses as
+low as 80 gy (garcia et al., 2003). this suggests that atatr plays
+a relatively minor role in g-resistance versus atatm in plants.
+human cell lines expressing a dominant-negative kinase mutant
+of atr have been used to characterize the relative contributions
+of atr and atm to g-resistance (cliby et al., 1998; wright et al.,
+1998). these experiments have clearly demonstrated that atr is
+involved in g-resistance, but independent studies employing
+these approaches have yielded inconclusive results in the relative
+contributions of atr and atm to g-resistance (jimenez et al.,
+1992; cliby et al., 1998; wright et al., 1998).
+
+1099
+
+the cell-cycle arrest phenotypes of atr in comparison to the
+wild type suggest that the mild g-sensitivity of atr is probably not
+an absolute effect of an abrogated checkpoint in g2; both the wild
+type and atr display an accumulation of gus within the meristem
+consistent with g2 arrest, although with slightly different kinetics. although we do not yet know if atatm contributes to the
+g-induced g2 checkpoint, it is possible that atatr and atatm
+play partially redundant roles in this response. in this case, atatm
+may partially compensate for atatr deficiency throughout all or
+part of the cell cycle. in mammalian cells, experiments employing
+conditional knockout (null) alleles of atr have demonstrated that
+g2 arrest is abrogated in response to g-radiation, indicating that
+atr is necessary for the g2 checkpoint in response to doublestrand breaks (brown and baltimore, 2003). however, these
+experiments used synchronized cells, irradiating cells during s/
+g2-phase and then assaying for progression into m-phase.
+because the acute doses of g-radiation used here create doublestrand breaks in all phases of the cell cycle, it is possible that atr
+is primarily activated during a specific phase of the cell cycle (e.g.,
+s-phase) in response to double-strand breaks (for review, see
+abraham, 2001). in this scenario, only a fraction of the
+meristematic cells (most are in g1) with dna damage would
+invoke atr-dependent g2 arrest, such as cells progressing
+through s-phase. g1 cells that acquire damage might be
+activated for g2 arrest through an atr-independent mechanism,
+progress through s-phase, and then arrest in g2-phase. it will be
+interesting to determine the cell-cycle responses to acute and
+chronic doses of g-radiation in atm and atr atm double mutant
+plants in comparison to atr. nonetheless, our preliminary results
+suggest that plants may regulate the g2-phase checkpoint in
+response to g-radiation differently than animals.
+
+atatr responses to replication blocks
+it is clear from both yeast and animal studies that atr plays
+a critical role in the g2 checkpoint response to replication blocks.
+many of these studies have employed hu and/or aphidicolin as
+model agents for replication blocks. hu or aphidicolin treatment of
+wild-type yeast and animals cells (at concentrations that allow sphase progression) results in g2 arrest. in atr-deficient mammalian cells, progression into mitosis (without g2 delay) leads to
+caspase-independent chromosomal fragmentation, which in turn
+induces an apoptotic response (brown and baltimore, 2000). we
+have shown that atr plants are hypersensitive to the growthinhibitory effects of hu and aphidicolin. the g2 arrest (as measured by pcyclinb1:gus) in wild-type root meristems on aphidicolin
+and the concomitant lack of g2 arrest in atr root meristems indicates that atr is required for the g2-phase checkpoint response
+to replication blocks. the lack of wild-type g2 arrest in response to
+hu, however, was surprising. because the fundamental difference
+between hu and aphidicolin in blocking s-phase replication is that
+hu-treated cells are reduced in dntps, this implies that the g1
+arrest is activated by a novel checkpoint responsive to low dntps.
+previous studies in human cells demonstrated a p53-dependent
+g1 arrest in response to low ribonucleotide levels, but not
+deoxynucleotide levels (linke et al., 1996). the response to low
+dntps may help to prevent plant cells from initiating s-phase dna
+
+1100
+
+the plant cell
+
+figure 8. dapi-stained root tips from wild-type and atr grown as in figure 6.
+(a) shown are root tips day 4 and day 6 after transfer.
+(b) close-up of 6 d after transfer to aphidicolin wild-type (left) and atr (right) dapi-stained root tips.
+
+atatr regulates a g2 checkpoint
+
+replication in the absence of sufficient dntp pools. because
+phosphate is a relatively immobile and limiting nutrient in soil (abel
+et al., 2002), this checkpoint could also represent a plant-specific
+response that helps direct root growth away from phosphatedepleted regions of soil, eliminating growth of root meristems in
+phosphate-depleted regions, while promoting the formation of
+other lateral root meristems elsewhere along the root.
+the cell death observed in atr in response to aphidicolin, but
+not hu, suggests that the g1 (dntp-dependent) checkpoint may
+rescue atr from cell death. however, atr mutants are hypersensitive to the effects of hu on the growth of the root, a fact that
+may appear paradoxical given the hypothesis that this line is
+proficient in the g1 arrest induced by this agent. for this reason,
+we remind the reader that the hu-treated wild-type roots are
+growing, though at a slightly reduced rate. in other words, the
+cells are progressing through the entire cell cycle, although they
+are spending a relatively longer fraction of that cycle in g1. we
+thus propose the following model for arabidopsis cell-cycle
+checkpoint regulation in response to hu. hu treatment induces
+two independent checkpoints in arabidopsis: one in g1 in
+response to low dntps (atatr independent) and one in g2 in
+response to replication blocks (atatr dependent). hu-treated
+wild-type and atr meristematic cells arrest in g1 in response to
+low dntp pools, thus retarding their entry into s-phase. the g1
+checkpoint is eventually relieved after enough dntps accumulate to permit entry into s-phase, and some fraction of cells leak
+through into s-phase. the resulting s-phase–induced depletion
+of dntps in the presence of hu then results in a requirement for
+atatr-dependent g2 checkpoint activation. the inability of
+atr to activate this g2 checkpoint results in defective dna
+replication and meristematic failure.
+by contrast, aphidicolin-treated atr cells do not invoke the g1
+checkpoint because they have normal levels of dntps and enter
+s-phase without delay. atr cells then fail to arrest in g2 and
+proceed into mitosis with incompletely replicated genomes,
+perhaps to a much larger degree than hu-treated atr cells. this
+results in a majority of the daughter g1 cells having an intolerable
+amount of single-strand gaps and double-strand breaks, leading
+to meristematic failure and cell death.
+the cell death seen in atr was unexpected. mutants in dna
+repair/maintenance genes in arabidopsis, such as dna ligase iv,
+ xxxg724xxx , and telomerase, do not exhibit obvious cell death, even
+in response to treatment with dna damaging agents (riha et al.,
+2001; friesner and britt, 2003; hefner et al., 2003). a prevailing
+hypothesis is that plants, which have no p53 homolog, lack dna
+damage–induced cell death (apoptosis). we believe the atr
+response to aphidicolin might be an example of programmed cell
+death, as indicated by the fact that all cells in the root tip die,
+including normally nondividing cells (e.g., epidermal cells), suggesting that the signal for the cell death is diffusible. alternatively,
+it is possible that the cells surrounding the dying meristem are
+recruited to reconstitute the missing meristem, and this induction
+of the cell cycle induces their death. in this case, death might
+simply be the direct result of the chromosomal fragmentation
+induced by progression through m-phase with an incompletely
+replicated genome. in any event, it is clear that replicationinduced checkpoints play an important role in protecting cells
+from the consequences of replicational stress.
+
+1101
+
+atatr-dependent and atatr-independent regulation
+of atrnr1 transcription
+the regulation of rnr in yeast is well defined and involves
+transcriptional and posttranslational control (i.e., inhibitory
+protein–protein interactions, modification of protein localization,
+and allosteric regulation). for instance, the yeast rnr1 (large
+subunit) gene is expressed during vegetative growth, upregulated in late g1 and early s, and further upregulated in response
+to dna damage (elledge et al., 1992). the expression patterns of
+several rnr genes have been characterized in tobacco,
+including an rnr1-like gene (chabouté et al., 1998, 2002). the
+reduced level of rnr1 transcript (figure 3) we observed in atr
+versus the wild type, in the absence of dna damaging agents or
+with chronic uv-b light, suggests that rnr1 is transcriptionally
+maintained in arabidopsis through both atatr-dependent and
+atatr-independent mechanisms. our analysis employing hu
+on whole seedlings (figure 3) further indicate that rnr1 is
+regulated transcriptionally, and independently of atatr, via
+a feedback-type mechanism that boosts rnr1 transcripts when
+dntps are low.
+the rapid reduction of atrnr1 transcript in response to acute
+doses of uv-b in wild-type and atr plants suggests an additional
+mode of transcriptional regulation for atrnr1 in response to dna
+damage that is independent of atatr. in yeast, rnr upregulation
+in response to dna damage is rapid, occurring within 30 min after
+treatment (elledge and davis, 1990; elledge, 1993). it was thus
+surprising that under our experimental conditions, an acute dose
+of uv-b light caused a rapid reduction of atrnr1 transcript
+within 2 h after uv-b treatment, followed by a return to notreatment control levels within 6 h after uv-b treatment. this
+response could represent a process by which inhibition of atrnr
+expression leads to low dntp levels and a concomitant arrest of
+the cell cycle during dna damage, possibly through the g1
+checkpoint described above. a decrease in rnr expression
+might also be expected to inhibit the potentially mutagenic
+actions of bypass polymerases, which require high levels of
+dntps for activity (johnson et al., 2001; chabes et al., 2003). one
+plausible model for this mode of regulation would be that
+immediately after experiencing acute dna damage, cells initially
+try to eliminate as much of the damage as possible via error-free
+pathways. initial downregulation of dntps would inhibit the
+inherently mutagenic bypass polymerases and contribute to the
+arrest of the cell cycle. return to normal levels of dntps then
+allows the cell cycle to progress and enables the cell to utilize
+bypass polymerases as needed to complete replication. this
+model is suggestive of the sos response in escherichia coli,
+wherein error-free repair mechanisms are induced early, and
+error-prone translesion synthesis is induced later (goodman and
+woodgate, 2000; rangarajan et al., 2002) in response to acute
+induction of dna damage.
+
+atatr is required for the completion of meiosis in the
+absence of atatm
+given the partial sterility of atm mutant plants and nonsterility of
+atr, the observation of complete sterility of the atr atm double
+mutant suggests that atr can partially complement atm
+
+1102
+
+the plant cell
+
+function during meiosis. although it is not clear whether atr has
+a distinct meiotic function or if atr is simply filling in for the lack of
+atm (or vice versa), our experiments do at the very least suggest
+that atr is present and functional during meiosis in arabidopsis.
+in mammalian cells, in situ localization studies have shown that
+both atm and atr are localized to meiotic chromosomes
+(keegan et al., 1996; moens et al., 1999). further studies using atr
+and atm single and double mutant plants will allow us to better
+understand the role of atr in plant meiosis, possibly leading to
+additional insights into atr function during animal meiosis.
+conclusions
+we have shown that plants encode an ortholog of atr and that
+its role in g2 checkpoint regulation is similar in many respects to
+its yeast and mammalian counterparts. the presence of atm
+and other downstream effectors of the cell cycle and dna repair,
+including brca1 (lafarge and montane, 2003) and a putative
+ xxxg442xxx  (s.b. preuss, k. culligan, and a. britt, unpublished data)
+for example, further suggest that g2 cell-cycle checkpoint
+responses to dna damage and replication blocks are regulated
+in a similar fashion in plants and animals. this is not to say that
+plant responses to dna damage and replication blocks are
+identical to that of animals; perhaps the most significant
+difference between plants and animals is the lack of a p53dependent programmed cell death response to persisting dna
+damage. plants may encode an analogous pathway for the
+degradation of hopelessly compromised cells, as evidenced by
+the cell death observed in atr, but this is probably a response to
+massive disruption of dna replication coupled to uninhibited
+progression through the cell cycle. perhaps because plants do
+not die from cancer, a cell death response to minor levels of dna
+damage (such as those that occur spontaneously and persist in
+repair defective mutants) would be counteradaptive. because of
+this insensitivity (versus animals) to persisting dna damage,
+plants may ultimately prove to be a robust model system for the
+study of many fundamental processes in cell-cycle regulation
+and dna repair pathways in eukaryotes (for review, see hays,
+2002).
+methods
+isolation of mutants
+the atr-1 allele (ecotype ws) was isolated from the arabidopsis knockout
+facility as described (krysan et al., 1999). the atr-2 allele (ecotype
+columbia; salk_032841) was identified using the salk signal web site
+(http://signal.salk.edu), and the seeds obtained from the abrc. the atr-3
+allele (ecotype ws) was identified using the flag database (genoplante;
+http://genoplante-info.infobiogen.fr/ ).
+growth of arabidopsis
+for standard growth conditions, seeds were sown on 13 ms (gibco,
+cleveland, oh) phytagel (sigma, st. louis, mo) agar, ph 5.8, and grown
+under cool-white lamps filtered through mylar at an intensity of 100 to
+150 mmol/m2/s with a 24-h day light cycle at 218c. hu (sigma; 500 mm
+stock in water) and aphidicolin (icn biomedicals, basingstoke, uk;
+20 mg/ml stock in dmso) were added to ms plates (as above) to concentrations described in the text and figure legends. for experiments
+
+using aphidicolin, all control and hu plates contained an equivalent
+amount (0.05%) of dmso to allow direct comparison.
+
+uv-b and g-irradiation of arabidopsis
+for chronic doses of uv-b light, plants were sown on ms plates and
+grown with a 24-h light cycle under cool-white lamps, supplemented with
+uv-b light using a medium wave uv-b lamp (spectronics, westbury, ny;
+peak intensity 312 nm) filtered through three sheets of cellulose acetate
+(golden state plastics, sacramento, ca; thickness 0.12 mm) to eliminate
+the uv-c (<280 nm) fraction of emitted light. the cellulose acetate was
+replaced every 3 d. the dose rate of uv-b was 2.5 j/s/m2. for acute
+doses of uv-b, 5-d-old seedlings were irradiated with a uv transilluminator (fisher, houston, tx), peak output at 305 nm, filtered through
+a single cellulose acetate sheet. uv-b intensities were measured with
+a uv-b radiometer with a peak response at 310 nm and a 50% response
+at 280 and 340 nm (uv products, san gabriel, ca). for g-radiation
+experiments, arabidopsis seeds and plants were irradiated using a cs137
+source (institute of toxicology and environmental health, university of
+california, davis). seeds were imbibed in water at 48c for 3 d, irradiated,
+and then immediately placed on ms agar plates for germination and
+placed in the growth chamber; plants were grown on ms plates (for 5 d),
+irradiated, and then immediately returned to the growth chamber.
+
+preparation of rna and rna gel blotting
+total rna was prepared from 7-d-old seedlings using an rneasy plant
+mini kit (qiagen, valencia, ca). rna was blotted onto positively charged
+membranes (britestar-plus; ambion, austin, tx) and probed with a
+32p radioactively labeled atrnr1 (genbank af092841) cdna fragment.
+this 761-bp fragment was generated with pcr primers rnr1 (59-aagaatggagtgaggaactctc-39) and rnr3 (59-ctcaagcaacattaagcattag-39). the resulting bands were visualized on a storm 860
+phosphorimager and quantified using imagequant software (molecular
+dynamics, sunnyvale, ca).
+
+semiquantitative rt-pcr
+wild-type and atr arabidopsis plants were sown on ms agar plates,
+grown for 5 d, then transferred to ms plates (n.t.), ms plates plus 1 mm
+hu (1hu), or ms plates plus 12 mg/ml of aphidicolin (1aph) for 4 d of
+additional growth. all plants were verified for their respective phenotypes described above. approximately 1 to 2 mm of root tips, from >200
+individual plants of each treatment, were excised and pooled together
+for rna extraction (rneasy mini-prep; qiagen). rna samples were
+dnase treated (dnase set; qiagen) and quantified. to produce cdna
+for rt-pcr, 2 mg of total rna from each condition described above
+was reverse transcribed, employing random hexamer primers, with
+a superscript first-strand synthesis kit (stratagene, la jolla, ca) in a 40ml reaction according to the manufacturers protocol. rt-pcr was
+performed in 50 ml reactions using ex-taq polymerase (takara bio,
+otsu, shiga, japan), 2 ml of cdna, and the following gene-specific
+primers: eif4a-1 (59-ctctcgcaatcttcgctcttctcttt-39), eif4a-5
+(59-tcatagatctggtccttgaaac-39), cycb1-2 (59-gtcgctttcttcttagtagccttct-39), cycb1-6 (59-ggcctccattcactctcaacag-39), h4-5 (59-atgtctggtcgtggaaagggag-39), h4-8 (59-accaaattgcgtgtttccattg-39), catr-1 (59-cagcgcccaaagaagatcattc-39), and catr-3 (59-ggcccgctgagcatgtgggttc-39). all
+primers (except  xxxg1052xxx ) spanned intron-exon boundaries to
+eliminate the possibility of amplifying contaminating genomic dna.
+pcr-cycle parameters for all primer pairs were 20 s at 948c, 20 s at
+628c, and 45 s at 728c. primer pairs were first tested for log-linear
+amplification using 18, 21, 24, 27, and 30 cycles of pcr. the optimized
+
+atatr regulates a g2 checkpoint
+
+number of cycles for each primer pair was: eif4a, 23 cycles; cycb1, 27
+cycles;  xxxg1052xxx , 29 cycles; and atr, 27 cycles. pcr products of
+ethidium bromide–stained gels were quantified using imagequant
+software as above.
+gus and dapi staining
+gus staining was performed as described (jefferson et al., 1987; preuss
+and britt, 2003). dapi staining was performed by fixing roots in a solution
+of ethanol and acetic acid (3:1). the roots were then washed two times in
+pbs, ph 7.4, and stained in pbs containing 2.5 mg/ml of dapi (molecular
+probes, eugene, or) for 20 min. the roots were then washed in pbs two
+times and mounted on slides in 50% glycerol. slides were visualized on
+a zeiss axiophot microscope, and photographs were taken with a zeiss
+mc100 camera. dapi staining was visualized with a standard uv
+fluorescence filter set.
+sequence data from this article have been deposited with the embl/
+genbank data libraries under accession numbers ab040133 and
+af092841.
+
+acknowledgments
+we thank ying peng for assistance in isolating the atr atm double mutant
+and cheryl whistler, joanna friesner, and eli hefner for critical reading of
+the manuscript. we also thank the arabidopsis knockout facility
+(university of wisconsin, madison) and the signal (salk institute) and
+flag databases for providing t-dna knockout resources. this work was
+supported by a usda postdoctoral fellowship (2001-01860) to k.m.c.
+and a national science foundation grant (mcb-9983142) to a.b.b.
+
+received october 30, 2003; accepted february 13, 2004.
+
+references
+abel, s., ticconi, c., and delatorre, c. (2002). phosphate sensing in
+higher plants. physiol. plant 115, 1–8.
+abraham, r. (2001). cell cycle checkpoint signaling through the atm
+and atr kinases. genes dev. 15, 2177–2196.
+brown, e., and baltimore, d. (2003). essential and dispensable roles of
+atr in cell cycle arrest and genome maintenance. genes dev. 17,
+615–628.
+brown, e.j., and baltimore, d. (2000). atr disruption leads to
+chromosome fragmentation and early embryonic lethality. genes
+dev. 15, 397–402.
+chabes, a., clement, b., domkin, v., zhao, x., rothstein, r., and
+thelander, l. (2003). survival of dna damage in yeast directly
+depends on increased dntp levels allowed by relaxed feedback
+inhibition of ribonucleotide reductase. cell 112, 391–401.
+chabouté, m., combettes, b., clement, b., gigot, c., and philipps,
+g. (1998). molecular characterization of tobacco ribonucleotide
+reductase rnr1 and rnr2. plant mol. biol. 38, 797–806.
+chabouté, m.e., clement, b., and philipps, g. (2002). s phase and
+meristem-specific expression of the tobacco rnr1b gene is mediated by an e2f element located in the 59 leader sequence. j. biol.
+chem. 277, 17845–17851.
+cliby, w., roberts, c., cimprich, k., stringer, c., lamb, j.,
+schreiber, s., and friend, s. (1998). overexpression of a kinaseinactive atr protein causes sensitivity to dna-damaging agents and
+defects in cell cycle checkpoints. embo j. 17, 159–169.
+colon-carmona, a., you, r., haimovitch-gal, t., and doerner, p.
+
+1103
+
+(1999). spatio-temporal analysis of mitotic activity with a labile cyclingus fusion protein. plant j. 20, 503–508.
+cortez, d., guntuku, s., qin, j., and elledge, s.j. (2001). atr and
+atrip: partners in checkpoint signaling. science 294, 1713–1716.
+crowley, d.j., and courcelle, j. (2002). answering the call: coping
+with dna damage at the most inopportune time. j. biomed.
+biotechnol. 2, 66–74.
+culligan, k.m., meyer-gauen, g., lyons-weiler, j., and hays, j.b.
+(2000). evolutionary origin, diversification and specialization of
+eukaryotic muts homolog mismatch repair proteins. nucleic acids
+res. 28, 463–471.
+de klein, a., muijtjens, m., van os, r., verhoeven, y., smit, b., carr,
+a., lehmann, a., and hoeijmakers, j. (2000). targeted disruption of
+the cell-cycle checkpoint gene atr leads to early embryonic lethality
+in mice. curr. biol. 10, 479–482.
+elledge, s., zhou, z., and allen, j.b. (1992). ribonucleotide reductase: regulation, regulation, regulation. trends biochem. sci. 17,
+119–123.
+elledge, s.j. (1993). dna damage and cell cycle regulation of
+ribonucleotide reductase. bioessays 15, 333–339.
+elledge, s.j., and davis, r.w. (1990). two genes differentially
+regulated in the cell cycle and by dna-damaging agents encode
+alternative regulatory subunits of ribonucleotide reductase. genes
+dev. 4, 740–751.
+friesner, j.d., and britt, a.b. (2003).  xxxg2434xxx - and dna ligase iv-deficient
+plants are sensitive to ionizing radiation and defective in t-dna
+integration. plant j. 34, 427–440.
+garcia, v., bruchet, h., camescasse, d., fabienne, g., bouchez,
+d.l., and tissier, a. (2003). atatm is essential for meiosis
+and the somatic response to dna damage in plants. plant cell 15,
+119–132.
+goodman, m.f., and woodgate, r. (2000). the biochemical basis and
+in vivo regulation of sos-induced mutagenesis promoted by
+escherichia coli dna polymerase v (umud’2c). cold spring harb.
+symp. quant. biol. 65, 31–40.
+hays, j. (2002). arabidopsis thaliana, a versatile model system for study
+of eukaryotic genome-maintenance functions. dna repair 1,
+579–600.
+hefner, e.a., preuss, s.b., and britt, a.b. (2003). arabidopsis mutants
+sensitive to gamma radiation include the homolog of the human repair
+gene  xxxg724xxx . j. exp. bot. 54, 669–680.
+huang, m., zhou, z., and elledge, s. (1998). the dna replication and
+damage checkpoint pathways induce transcription by inhibition of the
+ xxxg1018xxx  repressor. cell 94, 595–605.
+jefferson, r., kavanagh, t.a., and bevan, m.w. (1987). gus fusions:
+beta-glucuronidase as a sensitive and versatile gene fusion marker in
+higher plants. embo j. 6, 3901–3907.
+jimenez, g., yucel, j., rowley, r., and subramani, s. (1992). the
+rad31 gene of schizosaccharomyces pombe is involved in multiple
+checkpoint functions and in dna repair. proc. natl. acad. sci. usa
+89, 4952–4956.
+johnson, r., haracska, l., prakash, s., and prakash, l. (2001). role
+of dna polymerase zeta in the bypass of a (6-4) tt photoproduct.
+mol. cell. biol. 21, 3558–3563.
+keegan, k.s., et al. (1996). the atr and atm protein kinases associate
+with different sites along meiotically pairing chromosomes. genes
+dev. 10, 2423–2437.
+krysan, p.j., young, j.c., and sussman, m.r. (1999). t-dna as an
+insertional mutagen in arabidopsis. plant cell 11, 2283–2290.
+lafarge, s., and montane, m. (2003). characterization of the
+arabidopsis thaliana ortholog of the human breast cancer susceptibility gene 1:atbrca1, strongly induced by x-rays. nucleic acids
+res. 31, 1148–1155.
+
+1104
+
+the plant cell
+
+linke, s., clarkin, k., di leonardo, a., tsou, a., and wahl, g. (1996).
+a reversible, p53-dependent g0/g1 cell cycle arrest induced by
+ribonucleotide depletion in the absence of detectable dna damage.
+genes dev. 10, 934–947.
+melo, j., and toczyski, d. (2002). a unified view of the dna-damage
+checkpoint. curr. opin. cell biol. 14, 237–245.
+menges, m., and murray, j.a. (2002). synchronous arabidopsis
+suspension cultures for analysis of cell-cycle gene activity. plant j.
+30, 203–212.
+moens, p.b., tarsounas, m., morita, t., habu, t., rottinghaus, s.,
+freire, r., jackson, s., barlow, c., and wynshaw-boris, a. (1999).
+the association of atr protein with mouse meiotic chromosome
+cores. chromosoma 108, 95–102.
+nyberg, k.a., michelson, r.j., putnam, c.w., and weinert, t.a.
+(2002). toward maintaining the genome: dna damage and replication
+checkpoints. annu. rev. genet. 36, 617–656.
+preuss, s.b., and britt, a.b. (2003). a dna damage induced cell cycle
+checkpoint in arabidopsis. genetics 164, 323–334.
+rangarajan, s., woodgate, r., and goodman, m.f. (2002). replication restart in uv-irradiated escherichia coli involving pols ii, iii, v,
+pria, reca and recfor proteins. mol. microbiol. 43, 617–628.
+reichheld, j., sonobe, s., clément, b., chaubet, n., and gigot, c.
+(1995). cell cycle-regulated histone gene expression in synchronized
+plant cells. plant j. 7, 245–252.
+riha, k., mcknight, t., griffing, l., and shippen, d. (2001). living with
+genome instability: plant responses to telomere dysfunction. science
+291, 1797–1800.
+sedgwick, p., and boder, e. (1991). ataxia-telangiectasia. in hereditary neuropathies and spinocerebellar atrophies, j.m.b.v. dejong,
+ed (new york: elsevier science publishing), pp. 347–423.
+tanaka, h., arakawa, h., yamaguchi, t., shiraishi, k., fukuda, s.,
+matsui, k., takei, y., and nakamura, y. (2000). a ribonucleotide
+reductase gene involved in a p53-dependent cell-cycle checkpoint for
+dna damage. nature 404, 42–49.
+tibbetts, r.s., and abraham, r.t. (2000). pi3k-related kinases: roles
+in cell cycle regulation and dna damage responses. in signalling
+
+networks and cell cycle control: the molecular basis of cancer and
+other diseases, j. gutkind, ed (totowa, nj: humana press), pp.
+267–301.
+tibbetts, r.s., cortez, d., brumbaugh, k.m., scully, r., livingston,
+d., elledge, s.j., and abraham, r.t. (2000). functional interactions
+between brca1 and the checkpoint kinase atr during genotoxic
+stress. genes dev. 14, 2989–3002.
+weinert, t.a., kiser, g.l., and hartwell, l.h. (1994). mitotic
+checkpoint genes in budding yeast and the dependence of mitosis
+on dna replication and repair. genes dev. 8, 652–665.
+wiedemeier, a., judy-march, j., hocart, c., wasteneys, g.o.,
+williamson, r., and baskin, t. (2002). mutant alleles of arabidopsis
+radially swollen 4 and 7 reduce growth anisotropy without
+altering the transverse orientation of cortical microtubules or cellulose
+microfibrils. development 129, 4821–4830.
+wright, j., keegan, k., herendeen, d., bentley, n., carr, a.,
+hoekstra, m., and concannon, p. (1998). protein kinase mutants
+of human atr increase sensitivity to uv and ionizing radiation and
+abrogate cell cycle checkpoint control. proc. natl. acad. sci. usa 95,
+7445–7450.
+yao, r., zhang, z., an, x., bucci, b., perlstein, d.l., stubbe, j., and
+huang, m. (2003). subcellular localization of yeast ribonucleotide
+reductase regulated by the dna replication and damage checkpoint
+pathways. proc. natl. acad. sci. usa 100, 6628–6633.
+zhao, x., chabes, a., domkin, v., thelander, l., and rothstein, r.
+(2001). the ribonucleotide reductase inhibitor  xxxg2264xxx  is a new target of
+the mec1/ xxxg443xxx  kinase cascade during growth and in response to
+dna damage. embo j. 20, 3544–3553.
+zhao, x., muller, e.g., and rothstein, r. (1998). a suppressor of two
+essential checkpoint genes identifies a novel protein that negatively
+affects dntp pools. mol. cell 2, 329–340.
+zhao, x., and rothstein, r. (2002). the dun1 checkpoint kinase
+phosphorylates and regulates the ribonucleotide reductase inhibitor
+ xxxg2264xxx . proc. natl. acad. sci. usa 99, 3746–3751.
+zou, l., and elledge, s.j. (2003). sensing dna damage through atrip
+recognition of rpa-ssdna complexes. science 300, 1542–1548.
+
+atr regulates a g2-phase cell-cycle checkpoint in arabidopsis thaliana
+kevin culligan, alain tissier and anne britt
+plant cell 2004;16;1091-1104; originally published online april 9, 2004;
+doi 10.1105/tpc.018903
+this information is current as of october 18, 2019
+references
+
+this article cites 47 articles, 21 of which can be accessed free at:
+/content/16/5/1091.full.html#ref-list-1
+
+permissions
+
+https://www.copyright.com/ccc/openurl.do?sid=pd_hw1532298x&issn=1532298x&wt.mc_id=pd_hw1532298x
+
+etocs
+
+sign up for etocs at:
+http://www.plantcell.org/cgi/alerts/ctmain
+
+citetrack alerts
+
+sign up for citetrack alerts at:
+http://www.plantcell.org/cgi/alerts/ctmain
+
+subscription information
+
+subscription information for the plant cell and plant physiology is available at:
+http://www.aspb.org/publications/subscriptions.cfm
+
+© american society of plant biologists
+advancing the science of plant biology
+

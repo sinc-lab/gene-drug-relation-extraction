@@ -1,0 +1,808 @@
+antimicrobial agents and chemotherapy, june 2005, p. 2164–2171
+0066-4804/05/$08.00⫹0 doi:10.1128/aac.49.6.2164–2171.2005
+copyright © 2005, american society for microbiology. all rights reserved.
+
+vol. 49, no. 6
+
+phosphorylation of ribavirin and viramidine by  xxxg79xxx  and
+cytosolic 5⬘-nucleotidase ii: implications for ribavirin
+metabolism in erythrocytes†
+jim zhen wu,* gary larson, heli walker, jae hoon shim, and zhi hong
+drug discovery, valeant pharmaceuticals international, 3300 hyland avenue, costa mesa, california 92626
+received 10 november 2004/returned for modification 28 january 2005/accepted 11 february 2005
+
+many nucleoside analog drugs, such as ribavirin and viramidine, are activated or metabolized in vivo
+through 5ⴕ-phosphorylation. in this report, we determined the steady-state kinetic parameters for 5ⴕ-monophosphorylation of ribavirin and viramidine by  xxxg79xxx . the apparent km for ribavirin is 540 ␮m,
+and kcat is 1.8 minⴚ1. its catalytic efficiency of 3.3 ⴛ 10ⴚ3 minⴚ1 · ␮mⴚ1 is 1,200-fold lower than that of
+adenosine. in contrast to the common belief that ribavirin is exclusively phosphorylated by  xxxg79xxx ,
+cytosolic 5ⴕ-nucleotidase ii was found to catalyze ribavirin phosphorylation in vitro. the reaction is optimally
+stimulated by the physiological concentration of atp or 2,3-bisphosphoglycerate. in phosphate-buffered saline
+plus atp and 2,3-bisphosphoglycerate, the apparent km for ribavirin is 88 ␮m, and kcat is 4.0 minⴚ1. these
+findings suggest that cytosolic 5ⴕ-nucleotidase ii may be involved in ribavirin phosphorylation in vivo. like
+ribavirin, viramidine was found to be phosphorylated by either  xxxg79xxx  or cytosolic 5ⴕ-nucleotidase
+ii, albeit with a much lower activity. the catalytic efficiency for viramidine phosphorylation is 10- to 330-fold
+lower than that of ribavirin, suggesting that other nucleoside kinase(s) may be involved in viramidine
+phosphorylation in vivo. both ribavirin and viramidine are not phosphorylated by  xxxg611xxx  and
+uridine-cytidine kinase. the coincidence of presence of high concentrated 2,3-bisphosphoglycerate in erythrocytes suggests that cytosolic 5ⴕ-nucleotidase ii could play an important role in phosphorylating ribavirin and
+contribute to anabolism of  xxxd3111xxx  in erythrocytes. elucidation of ribavirin and viramidine
+phosphorylation mechanism should shed light on their in vivo metabolism, especially the ribavirin-induced
+hemolytic anemia in erythrocytes.
+lular gtp pool for 5⬘-cap synthesis of rna transcripts and
+viral genome synthesis (33). both ribavirin diphosphate (rdp)
+and triphosphate (rtp) have been implicated as competitive
+inhibitors with cognate nucleoside triphosphates for a number
+of viral rna polymerases, such as hcv rna-dependent rna
+polymerase and influenza viral rna polymerase (15, 36). moreover, ribavirin can act as a viral mutagen by imitating adenosine or guanosine to base pair with either thymidine or cytidine
+in a viral genome. because of this promiscuity, incorporation
+of rtp into a viral genome could induce transitional mutation
+and culminate virus error catastrophe (8). additionally, as an
+analog of guanosine nucleotide, rtp can be incorporated by
+rna guanylyl transferase in the place of gmp to produce
+defected 5⬘-cap structure for viral rna transcripts, attributing to a decrease of viral genome translation (6, 12). these
+described mechanisms of action are interlinked, as the suppression of intracellular gtp pool by inhibiting impdh potentiates ribavirin’s effect as an alternative nucleotide for competitive inhibition and incorporation. in terms of ribavirin’s
+immunomodulatory activity, evidences suggest that ribavirin
+can function as a small molecule immunomodulator and elicit
+t-cell-mediated immunity that favors elimination of intracellular viral pathogens (34). the fact that no ribavirin resistance
+has ever been cogently identified in a clinical setting indirectly
+supports the notion that ribavirin exerts antiviral effect through
+pleiotropic action mechanisms.
+despite the well-documented antiviral activity, the clinical
+application of ribavirin is somehow restricted due to some
+serious adverse effects, especially the ribavirin-induced hemo-
+
+although originally discovered more than 30 years ago, ribavirin remains the only approved small molecule antiviral drug
+that is active against both dna and rna viruses (28). ribavirin is approved by the u.s. food and drug administration
+for the treatment of pediatric respiratory syncytial virus infection and in combination with alpha-interferon for chronic hepatitis c virus (hcv) infection (26). more recently, therapeutic
+benefits of ribavirin have been realized for the treatment of the
+severe acute respiratory syndrome (16) and smallpox virus
+infection, a potential bioterrorist threat (1). these clinical successes have generated a renewed interest in understanding
+ribavirin’s action mechanism. structurally ribavirin is a purine
+ xxxd2246xxx  analog capable of mimicking inosine, guanosine, or adenosine (fig. 1). this unique propensity enables
+ribavirin to concomitantly target multiple viral and host enzymes utilizing  xxxd2705xxx  or nucleotide as a substrate
+or cofactor. the active form of ribavirin comprises its three
+5⬘-phosphorylated derivatives. they exert antiviral activity by
+interfering with several critical steps required for viral replication, including host nucleotide biosynthesis, viral genome transcription, and translation. ribavirin 5⬘-monophosphate (rmp)
+is a potent inhibitor for host imp dehydrogenase (impdh). it
+disrupts the de novo synthesis of gmp and depletes intracel* corresponding author. mailing address: drug discovery, valeant
+pharmaceuticals international, 3300 hyland avenue, costa mesa, ca
+92626. phone: (714) 545-0100, ext. 3024. fax: (714) 668-3142. e-mail:
+jwu@valeant.com.
+† the paper is dedicated to christopher walsh on the occasion of
+his 60th birthday.
+2164
+
+vol. 49, 2005
+
+ribavirin and viramidine 5⬘-monophosphorylation
+
+2165
+
+fig. 1. chemical structures of adenosine, ribavirin, and viramidine.
+
+lytic anemia (11). accumulation of ribavirin phosphates in
+erythrocytes or red blood cells (rbcs) attributes to hemolytic
+anemia in a significant percentage of treated hcv patients,
+many of whom require dose reduction or discontinuation of
+therapy. viramidine, a 3-carboxamidine derivative of ribavirin,
+is a prodrug of ribavirin. it can be activated and converted to
+ribavirin by  xxxg62xxx  in vitro (39). pharmacokinetic analysis indicates that this prodrug is capable of delivering more ribavirin to the liver with a reduced propensity to be
+trapped in rbcs (20, 38). in addition to the prodrug mechanism, viramidine may concurrently act as a catabolic inhibitor
+and slow down the catabolic rate of newly converted ribavirin
+from viramidine (37). because of these favorable pharmacokinetic properties, viramidine is currently in clinical trials for the
+treatment of chronic hcv infection.
+ribavirin requires 5⬘-phosphorylation to be pharmacologically active. in the literature, it is generally believed that 5⬘monophosphorylation of ribavirin is exclusively catalyzed by
+ xxxg79xxx . a partially purified rat liver lysate containing
+both adenosine and 2⬘-deoxyadenosine kinase activities was
+first observed to possess ribavirin phosphorylation activity in
+vitro (32). further studies with cell lines deficient in adenosine
+kinase expression suggested that  xxxg79xxx  is responsible for ribavirin phosphorylation (33, 35). however, it is unknown whether the  xxxg79xxx  deficiency has any effect
+on the cellular concentration of atp and thereby impairs
+other nucleoside phosphorylation pathways. interestingly, despite the deficiency, a small amount of rtp is produced in
+these cell lines (24). more recently,  xxxg79xxx  purified
+from chinese hamster ovary (cho) cells (13) and rabbit liver
+(22) were employed to demonstrate that it catalyzes ribavirin
+phosphorylation in vitro. yet the kinetics of the reaction has
+not been fully characterized. although  xxxg79xxx  is
+capable of catalyzing ribavirin phosphorylation, the observed
+activity thus far is low. one study revealed that the reaction of
+ribavirin phosphorylation by  xxxg79xxx  is significantly
+slower than that of adenosine (10).
+in addition to the direct phosphorylation route catalyzed by
+nucleoside kinases and related enzymes, alternative ribavirin
+phosphorylation pathways have been explored. a nucleoside
+could undergo phosphorolysis to nucleobase that is subsequently converted to nucleoside monophosphate by a phosphoribosyl transferase. although ribavirin can undergo phosphorolysis by purine  xxxg1792xxx , its triazole base
+fails to convert to rmp by hypoxanthine-guanine phosphoribosyl transferase (31).
+like ribavirin, viramidine undergoes 5⬘-phosphorylation in
+vivo (19). a metabolic profile analysis of orally dosed viramidine in animals showed that about 40% of viramidine exists in
+
+the three 5⬘-phosphorylated forms. although these viramidine
+5⬘-phosphates are not known to associate with any antiviral
+activities, it is important to comprehend its metabolic mechanism. in this study, we investigated 5⬘-monophosphorylation of
+ribavirin and viramidine by several nucleoside kinases and cytosolic 5⬘-nucleotidase ii ( xxxg1611xxx ) and determined their kinetic
+parameters. the implications of this study for in vivo drug
+activation and metabolic mechanism, especially ribavirin phosphate anabolism in rbcs, are discussed.
+materials and methods
+materials. [2,8-3h]inosine (30 ci/mmol) was purchased from amersham biosciences. [2,8-3h]adenosine (25 ci/mmol) was purchased from icn biomedicals.
+[5-14c]ribavirin (54 mci/mmol) and [5-14c]viramidine (56 mci/mmol) were custom synthesized by moravek biochemicals (brea, ca). a purified recombinant
+ xxxg79xxx  from cho cells was a gift from c. cameron at pennsylvania
+state university. a human placental cdna library and pcr4blunt-topo vector
+were obtained from invitrogen. 2,3-diphospho-d-glyceric acid tris salt (or 2,3bisphosphoglycerate; bpg) was purchased from sigma. various nucleosides and
+nucleotides were from sigma or icn biochemicals. all other reagents were of
+the highest grade available from sigma or fisher.
+ xxxg79xxx  assay. a radiochemical-based thin-layer chromatography
+(tlc) assay was developed to monitor 5⬘-phosphorylation of radiolabeled adenosine, ribavirin, or viramidine by  xxxg79xxx  with atp as a phosphate
+donor. a typical assay was carried out at 37°c in 20 ␮l containing 1⫻ dulbecco’s
+phosphate-buffered saline (pbs), ph 7.3, 1 mm atp, 1.5 mm mgcl2. the final
+concentration of  xxxg79xxx  was 0.05, 2.5, or 5 ␮m, respectively, for assays
+with [2,8-3h]adenosine, [5-14c]ribavirin, or [5-14c]viramidine as a substrate. in
+some experiments, the pbs was adjusted to ph 9.0 or replaced by 100 mm
+hepes, ph 7.3. an assay length was determined based on the activity of a
+substrate. it lasted 4, 30, or 60 min, respectively, for adenosine, ribavirin, or
+viramidine as a substrate. the reaction was quenched by addition of edta to
+the final concentration of 80 mm. six microliters of the quenched mixture was
+spotted on a silica gel 60 tlc plate (selecto scientific, ga). a tlc plate was
+developed in a solvent system of ammonium:isopropanol:water (3:5:2). after air
+dry and exposure to a phosphorimager overnight, products on the plate were
+analyzed and quantified to calculate initial velocity. for steady-state kinetic
+analysis, a substrate concentration was varied from 0.1 to 4 mm with atp fixed
+at 1.0 mm. apparent kinetic parameters were calculated by applying a series of
+initial velocity at different substrate concentrations into michaelis-menten equations using a nonlinear least-squares regression fit in kaleidagraph (synergy
+software). all the experiments were repeated at least three times to assure that
+reproducible results were obtained. the reported kinetic parameters are presented as mean ⫾ standard deviation.
+cloning, expression, and purification of cytosolic 5ⴕ-nucleotidase ii. the  xxxg1611xxx 
+gene was cloned from a human placenta cdna library using the published  xxxg1611xxx 
+sequence information (genbank accession number nm_012229) (23). a forward primer of 5⬘-tacatatgtcgacctcctggagtg-3⬘ and a reverse antiparallel primer of 5⬘-cgaattcttattcttcctcctcctcc-3⬘ were used to
+amplify the 1,686-bp open reading frame of the  xxxg1611xxx  gene. the pcr product
+was cloned directly into a topo vector using the zero blunt topo pcr
+cloning kit. the sequence of the  xxxg1611xxx  insert was confirmed by dna sequencing.
+the insert was subsequently recloned to a pet22b(⫹) vector using a rapid dna
+ligation kit (roche) and transformed with escherichia coli bl21(de3) cells.
+fermentation for expression of recombinant  xxxg1611xxx  was carried out in terrific
+broth at 30°c. the cell culture was induced by 1 mm isopropyl-␤-d-1-thiogalactopyranoside when its optical density at 600 nm (od600) reached 1.5. cells were
+
+2166
+
+wu et al.
+
+antimicrob. agents chemother.
+
+table 1. apparent steady-state kinetic parameters of 5⬘-monophosphorylation of adenosine, ribavirin, and
+viramidine by cho cell-derived adenosine kinasea
+substrate
+
+buffer
+
+kcat (min⫺1)
+
+km (␮m)
+
+kcat/km (min⫺1 · ␮m⫺1)
+
+relative act.
+
+adenosine
+ribavirin
+
+pbs, ph 7.3
+pbs, ph 7.3
+100 mm hepes, ph 7.3
+pbs, ph 7.3
+pbs, ph ⫽ 9.0
+
+13 ⫾ 1
+1.8 ⫾ 0.4
+0.62 ⫾ 0.01
+0.16 ⫾ 0.02
+0.26 ⫾ 0.08
+
+3.2 ⫾ 0.1
+540 ⫾ 170
+7,800 ⫾ 100
+16,000 ⫾ 200
+7,700 ⫾ 1,100
+
+3.9
+3.3 ⫻ 10⫺3
+7.9 ⫻ 10⫺5
+1.0 ⫻ 10⫺5
+3.4 ⫻ 10⫺5
+
+3.9 ⫻ 105
+330
+7.9
+1
+3.4
+
+viramidine
+a
+
+the parameters were determined at 37°c in dulbecco’s pbs, ph 7.3, with atp concentration fixed at 1.0 mm, unless otherwise indicated.
+
+harvested 3 h postinduction. the cell pellet was resuspended in a buffer containing 20 mm tris, ph 7.5, 200 mm nacl, 2 mm 2- xxxd26xxx  in the presence
+of a protease inhibitor cocktail. the suspension was passed through a microfluidizer to disrupt cells. the crude lysate was spun at 100,000 ⫻ g for 1 h to obtain
+supernatant. recombinant  xxxg1611xxx  was purified to apparent homogeneity using
+two chromatography steps. since  xxxg1611xxx  contains a stretch of acidic amino acid
+residues at the c terminus which enables it to bind to nickel-chelating resin (29),
+the supernatant was first loaded onto a 1-ml nickel-chelating column equilibrated
+with the suspension buffer. the column was washed with a buffer of 20 mm tris,
+ph 7.5, 200 mm nacl, 2 mm 2- xxxd26xxx , and 5 mm imidazole. when a
+step gradient of imidazole concentration raised to 25 mm,  xxxg1611xxx  eluted from the
+nickel column. the peak fractions containing  xxxg1611xxx  were pooled, and its nacl
+concentration was adjusted to 50 mm through dilution. it was reloaded onto a
+mono q column equilibrated with 20 mm tris, ph 7.5, 50 mm nacl, and 2 mm
+dithiothreitol (dtt). proteins were eluted over a 1 m nacl gradient.  xxxg1611xxx 
+eluted at 500 mm nacl with apparent homogeneity. the final protein yield was
+about 1.2 mg per liter of culture.
+phosphotransferase assay of  xxxg1611xxx . the phosphotransferase activity of  xxxg1611xxx 
+was assayed using a similar radiochemical tlc assay described for adenosine
+kinase except that imp was used as a phosphate donor. briefly, an assay was
+performed at 37°c in 15 ␮l containing 20 mm tris, ph 7.4, 5 mm mgcl2, 1 mm
+dtt, 4 mm imp, and a radioactive nucleoside substrate. small molecular effector(s) was included as indicated. the final concentration of  xxxg1611xxx  was 20 nm
+for all three substrates, [5-14c]ribavirin, [5-14c]viramidine, and [2,8-3h]inosine.
+the assay lasted for 1 h. reaction products were analyzed by tlc and quantified
+using a phosphorimager. the effects of atp, bpg, and dulbecco’s pbs on  xxxg1611xxx 
+activity were investigated. in these studies, ribavirin concentration was fixed at
+0.125 mm or viramidine at 0.5 mm with an effector’s concentration varied from
+0 to 5 mm for atp and 0 to 1.6 mm for bpg. the bpg dependency of  xxxg1611xxx 
+activity was found hyperbolic and fitted to michaelis-menten equation for calculating the apparent km for stimulation.
+steady-state kinetic analysis of  xxxg1611xxx  in the presence of a single effector was
+performed in  xxxd3449xxx  with imp concentration fixed at 4.0 mm as described
+above. an activator concentration was set at optimum with atp at 2 mm or bpg
+at 0.4 mm. the concentration of a nucleoside substrate was varied from km/2
+to 500 ␮m for [5-14c]ribavirin and [5-14c]viramidine and km/2 to 10 mm for
+[2,8-3h]inosine. the apparent kinetic parameters were determined from
+michaelis-menten equations. likewise, the kinetic parameters for ribavirin phosphorylation were also determined in dulbecco’s pbs in the presence of 2 mm
+atp with and without 3 mm bpg. all the experiments were repeated at least
+three times to assure that reproducible results were obtained. the reported
+kinetic parameters were presented as mean ⫾ standard deviation.
+
+results
+ xxxg79xxx  catalyzed 5ⴕ-phosphorylation. adenosine
+kinase is an abundant and ubiquitous enzyme that regulates
+extracellular adenosine and intracellular adenine nucleotide
+concentrations (30). since it is widely accepted that adenosine
+kinase is responsible for ribavirin 5⬘-monophosphorylation, we
+obtained a recombinant mammalian  xxxg79xxx  and determined the kinetic parameters for the reaction. the  xxxg79xxx  is derived from cho cells, and it was expressed
+and purified to homogeneity from e. coli. this  xxxg79xxx  shares approximately 92% amino acid sequence identity
+with the human form (21). we characterized the purified enzyme using adenosine as a substrate. in pbs, ph 7.3, with atp
+
+concentration fixed at 1.0 mm, the apparent km for adenosine
+was 3.2 ␮m and kcat was 13 min⫺1. the catalytic efficiency
+(kcat/km) of the reaction was 3.9 min⫺1 · ␮m⫺1 (table 1).
+these are consistent with the published results for cho cellderived  xxxg79xxx  (21).
+5⬘-phosphorylation of ribavirin by  xxxg79xxx  was initially investigated in a hepes buffer with atp fixed at 1 mm
+as described in the literature (13). kinetic analysis was performed by determining initial velocity at various ribavirin concentrations. saturation of michaelis-menten plot was not
+reached at the highest concentration of ribavirin used (4 mm)
+(data not shown). from the available data, the apparent km for
+ribavirin was estimated  xxxd2274xxx .8 mm and kcat at 0.62 min⫺1,
+yielding a catalytic efficiency of 7.9 ⫻ 10⫺5 min⫺1 · ␮m⫺1
+(table 1). this catalytic efficiency is 50,000-fold lower than that
+of adenosine. ribavirin phosphorylation was also investigated
+in pbs. surprisingly, suppression of the enzyme activity in pbs
+due to the presence of inorganic phosphate was not observed.
+on the contrary, compared to hepes buffer, pbs actually
+enhanced  xxxg79xxx ’s activity. further kinetic analysis
+yielded an apparent km of 0.54 mm and a kcat of 1.8 min⫺1.
+these represent a 14- and 3-fold improvement of the respective kinetic parameters to the hepes buffer. overall, the catalytic efficiency was increased by 42-fold after switching the
+buffer from hepes to pbs (table 1). regardless, ribavirin is
+still a poor substrate for  xxxg79xxx  with catalytic efficiency about 1,200-fold lower than that of adenosine. this
+conclusion is qualitatively consistent with a previous report
+that the velocity of ribavirin phosphorylation catalyzed by
+cem-cell  xxxg79xxx  is 5 ⫻ 105-fold slower than that of
+adenosine (10).
+likewise, phosphorylation of viramidine by  xxxg79xxx  was evaluated. in pbs, ph 7.3, viramidine phosphorylation was much slower than that of ribavirin. kinetic analysis by
+varying viramidine’s concentration from 0.1 to 4 mm with atp
+fixed at 1 mm gave an estimated km of 16 mm and a kcat of
+0.16 min⫺1. the resulting catalytic efficiency of 1.0 ⫻ 10⫺5
+min⫺1 · ␮m⫺1 is 330-fold lower than that of ribavirin and 3.9 ⫻
+105-fold lower than that of adenosine (table 1). the structures
+of ribavirin and viramidine are very similar (fig. 1). both
+compounds mimic the conformation of adenosine. but at
+physiological ph, viramidine possesses an additional positive charge on the 3-carboxamidine group. this charge has
+been shown to interfere with substrate recognition in viramidine deamination reaction catalyzed by  xxxg62xxx 
+(39). when the assay ph was changed from 7.3 to 9.0, viramidine lost some of the positive charge and became partially
+deprotonated. as a result, the deamination rate was increased
+by 300-fold. to find out whether this positive charge exerts a
+
+vol. 49, 2005
+
+ribavirin and viramidine 5⬘-monophosphorylation
+
+fig. 2.  xxxg1611xxx  catalyzed ribavirin 5⬘-monophosphorylation and formation of rmp. the assay was performed at 37°c for 1 h in 15 ␮l
+containing 20 mm tris, ph 7.4, 5 mm mgcl2, 4 mm imp, 1 mm dtt,
+20 nm  xxxg1611xxx , 125 ␮m [5-14c]ribavirin, and the following activator.
+lane 1: no enzyme control; lane 2: no activator; lane 3: 1 mm atp;
+lane 4: 0.4 mm bpg; lane 5: 1 mm atp and 0.4 mm bpg; lane 6:
+2 mm atp; lane 7: 0.8 mm bpg; lane 8: 2 mm atp and 0.8 mm bpg.
+the reaction products were resolved on tlc and quantified using a
+phosphorimager.
+
+similar effect on viramidine phosphorylation, we performed
+ xxxg79xxx  assay in pbs with ph adjusted to 9.0. at ph
+9.0, the phosphorylation reaction did accelerate. compared to
+ph 7.3, the apparent km was declined by twofold to 7.7 mm
+and kcat elevated to 0.26 min⫺1, resulting in a 3.4-fold improvement of catalytic efficiency (table 1). thus, deprotonation of
+the 3-carboxamidine group improves viramidine’s reactivity,
+but the effect is relatively small.
+5ⴕ-phosphorylation by other nucleoside kinases. in light of
+the lower activity of  xxxg79xxx  towards ribavirin and
+viramidine, other nucleoside kinases were obtained and tested
+for phosphorylation. we explored  xxxg611xxx , a nucleoside kinase notable for its broad substrate specificity, and
+uridine-cytidine kinase, a major pyrimidine  xxxd2246xxx  kinase. however, no ribavirin or viramidine phosphorylation was
+detected for either of the enzymes in our radiochemical assay
+(data not shown).
+ xxxg1611xxx  catalyzed phosphorylation. cytosolic 5⬘-nucleotidase
+ii or  xxxg1611xxx  is a ubiquitous enzyme capable of catalyzing 5⬘monophosphorylation of many inosine and guanosine nucleoside analogs, such as acyclovir,  xxxd1876xxx  (18), tiazofurin
+(10), and carbocyclic 2⬘-deoxyguanosine (3). since ribavirin
+also resembles the conformation of inosine (fig. 1),  xxxg1611xxx 
+could potentially catalyze ribavirin phosphorylation. to test
+this hypothesis, we cloned the human  xxxg1611xxx  gene from a human
+placenta cdna library and put it into an expression vector.
+the recombinant  xxxg1611xxx  was expressed in e. coli and purified to
+homogeneity. the enzyme was fully active in both 5⬘-nucleotidase assay and nucleoside phosphotransferase assay (data not
+shown).
+to investigate ribavirin phosphorylation by  xxxg1611xxx , we initially adapted the published assay buffer of 20 mm tris, ph 7.4,
+5 mm mgcl2, and 1 mm dtt with imp concentration fixed at
+4 mm. in these conditions, ribavirin was phosphorylated by cnii (fig. 2). interestingly, the presence of atp or bpg drastically enhanced the activity. similarly, viramidine was tested for
+phosphorylation by  xxxg1611xxx . like ribavirin, it was phosphorylated
+by  xxxg1611xxx , albeit to a lesser degree (data not shown). the stimulation effect of atp on ribavirin and viramidine phosphorylation was further examined by titrating atp from 0 to 5 mm
+
+2167
+
+with ribavirin concentration fixed at 125 ␮m or viramidine at
+500 ␮m. as shown in fig. 3a, the activation curves were bell
+shaped, with the optimal atp concentration at 2 mm for both
+ribavirin and viramidine phosphorylation. the observed decrease of the stimulation effect at high atp concentration (⬎2
+mm) was not caused by depletion of mgcl2, as elevated mgcl2
+concentration up to 20 mm yielded a similar bell-shaped curve
+(data not shown). further experiments are required to address
+the potential inhibitory effect observed at high atp concentration. the optimal atp concentration (2 mm) is in good
+agreement with reported value for inosine phosphorylation
+
+fig. 3. effects of atp (a) and bpg (b) on 5⬘-phosphorylation of
+ribavirin and viramidine. in the assay, the concentration of phosphate
+donor imp was set at 4 mm with [5-14c]ribavirin concentration fixed
+at 125 ␮m or [5-14c]viramidine at 500 ␮m. the hyperbolic curve of
+enzyme activity-bpg relationship was fitted to michaelis-menten
+equations for calculating the apparent km of bpg for  xxxg1611xxx  activation.
+f: ribavirin as a substrate. ■: viramidine as a substrate. all the data
+points are the average of at least three experiments and are presented
+as mean ⫾ standard deviation.
+
+2168
+
+wu et al.
+
+antimicrob. agents chemother.
+
+table 2. apparent kinetic parameters of 5⬘-monophosphorylation of inosine, ribavirin, and viramidine by cn-iia
+substrate
+
+inosine
+ribavirin
+
+viramidine
+a
+b
+
+buffer
+
+tris
+tris
+tris
+tris
+pbs
+pbs
+tris
+tris
+
+activator
+
+2 mm atp
+0.4 mm bpg
+2 mm atp
+0.4 mm bpg
+2 mm atp
+2 mm atp
+0.4 mm bpg
+2 mm atp
+0.4 mm bpg
+
+kcat (min⫺1)
+
+km (␮m)
+
+kcat/km (min⫺1 · ␮m⫺1)
+⫺1
+
+1,310 ⫾ 100
+1,160 ⫾ 30
+9.4 ⫾ 1.5
+1.6 ⫾ 0.1
+1.4 ⫾ 0.1
+4.0 ⫾ 0.8
+
+2,170 ⫾ 130
+1,840 ⫾ 20
+95 ⫾ 17
+47 ⫾ 13
+24 ⫾ 8
+88 ⫾ 11
+
+6.1 ⫻ 10
+6.3 ⫻ 10⫺1
+9.9 ⫻ 10⫺2
+3.5 ⫻ 10⫺2
+5.8 ⫻ 10⫺2
+4.5 ⫻ 10⫺2
+
+na
+na
+
+⬎500
+⬎500
+
+6.2 ⫻ 10⫺3b
+2.5 ⫻ 10⫺3b
+
+relative act.
+
+240
+250
+40
+14
+23
+18
+2.5
+1
+
+the apparent kinetic parameters were determined at 37°c in either  xxxd3449xxx  or dulbecco’s pbs with imp concentration fixed at 4 mm.
+the apparent kcat/km was estimated from the slope in the linear range of michaelis-menten plot.
+
+(25). compared to the reaction without atp, 2 mm atp
+enhanced the phosphotransferase activity by 17-fold for ribavirin and 10-fold for viramidine. the magnitude of activation
+effect is a bit higher than reported for inosine phosphorylation,
+which is 8.5-fold (25). the difference could be caused by the
+distinct substrate, assay conditions, or enzyme source employed in these assays.
+the stimulation effect of bpg on ribavirin and viramidine
+phosphorylation was also assessed. for either substrate, titration of bpg against  xxxg1611xxx  activity displayed a hyperbolic relationship (fig. 3b). the km of bpg for stimulation was 75 and
+58 ␮m for ribavirin and viramidine phosphorylation, respectively. these km values are about 10-fold lower than reported
+for inosine phosphorylation (25). notably, they are also lower
+than bpg’s physiological concentration in rbcs. compared to
+the reaction in the absence of bpg, the optimal bpg concentration elevated ribavirin and viramidine phosphorylation by
+eight- and fivefold, respectively. the magnitude of the stimulation effect is in good agreement with that reported for inosine
+phosphorylation (25). moreover, the combination effect of
+atp and bpg on  xxxg1611xxx  activity was examined by varying atp
+concentration from 1 to 2 mm and bpg from 0.4 to 0.8 mm.
+although significant activation effect was observed in all the
+concentrations, the preliminary results shown in fig. 2 suggest
+that combination of the two activators is likely to be antagonistic. this result implies that atp and bpg may act through
+a similar mechanism and compete with each other.
+kinetic analysis of  xxxg1611xxx  catalyzed 5ⴕ-phosphorylation. to
+further comprehend ribavirin and viramidine phosphorylation
+by  xxxg1611xxx , we determined their steady-state kinetic parameters
+in the presence of a single activator in  xxxd3449xxx  with imp
+fixed at 4 mm. for comparison, we first determined the kinetic
+parameters for [2,8-3h]inosine. in the presence of 2 mm atp,
+its kcat was 1,300 min⫺1 and km was 2.2 mm, resulting in a
+catalytic efficiency of 0.61 min⫺1 · ␮m⫺1 (table 2). in the
+literature, the reported km for inosine ranges from 1.2 to 9 mm
+(3, 18). our results are in good agreement with one of those
+studies (25). similarly, the kinetics with inosine was determined in the presence of 0.4 mm bpg. in that condition, the
+apparent kcat was 1,200 min⫺1 and km was 1.8 mm (table 2).
+the resultant catalytic efficiency of 0.63 min⫺1 · ␮m⫺1 is similar to that with atp as an activator.
+the steady-state kinetics of ribavirin phosphorylation by
+ xxxg1611xxx  was determined in  xxxd3449xxx . as illustrated in fig. 4a,
+in the presence of 2 mm of atp, the apparent km for ribavirin
+was 95 ␮m and kcat was 9.4 min⫺1, yielding a catalytic efficiency
+
+fig. 4. steady-state kinetics of ribavirin and viramidine 5⬘-monophosphorylation catalyzed by  xxxg1611xxx . in the assay, the imp concentration was set at 4 mm, with [5-14c]ribavirin or [5-14c]viramidine concentration varied from 12.5 to 500 ␮m. the initial velocity at various
+substrate concentrations was fitted into michaelis-menten equations
+for calculation of km and kcat values. f: ribavirin as a substrate. ■:
+viramidine as a substrate. all the data points are the average of at least
+three experiments and are presented as mean ⫾ standard deviation.
+(a) in the presence of 2 mm atp; (b) in the presence of 0.4 mm bpg.
+
+vol. 49, 2005
+
+ribavirin and viramidine 5⬘-monophosphorylation
+
+of 0.099 min⫺1 · ␮m⫺1 (table 2). when the activator was
+changed to 0.4 mm bpg, the apparent km was reduced to 47
+␮m and kcat declined to 1.6 min⫺1 (fig. 4b), resulting in a
+threefold reduction of catalytic efficiency (0.035 min⫺1 ·
+␮m⫺1) (table 2). likewise, the steady-state kinetics of viramidine phosphorylation by  xxxg1611xxx  was analyzed. as illustrated
+in fig. 4, in the presence of either 2 mm atp or 0.4 mm bpg
+as an activator, saturation of michaelis-menten plot was not
+reached even when [5-14c]viramidine was at the highest concentration used (500 ␮m). we could not increase viramidine
+concentration further due to its lower radioactive specific activity. judged from the available data, the km for viramidine is
+much higher than 500 ␮m. although it is impossible to deduce
+meaningful kcat and km from the data set, we estimated its
+catalytic efficiency from the slope in the linear range of
+michaelis-menten plot (fig. 4). it was 0.0062 min⫺1 · ␮m⫺1 in
+the presence of 2 mm atp and 0.0025 min⫺1 · ␮m⫺1 with 0.4
+mm bpg (table 2). clearly, viramidine phosphorylation by
+ xxxg1611xxx  is about 10- to 15-fold slower than that of ribavirin.
+to assess potential ribavirin phosphorylation by  xxxg1611xxx  in the
+physiological conditions, we determined its kinetic parameters
+in pbs plus 2 mm atp and 5 mm mgcl2, with and without 3
+mm bpg. this assay system contains all the important  xxxg1611xxx 
+effectors, including atp, bpg, mg2⫹, k⫹, and inorganic phosphate. bpg is a bisphosphorylated metabolite that acts as an
+allosteric modulator for oxygen binding to hemoglobin in
+rbcs (7). its concentration in mammalian rbcs is as high as
+4 to 13 mm; however, its concentration in other tissues is at
+least 2 to 3 magnitudes lower and can be neglected. to mimic
+the physiological conditions in rbcs and other tissues, we
+determined the kinetic parameters in the absence and presence of 3 mm bpg. as summarized in table 2, in the absence
+of bpg, the apparent km for ribavirin was 24 ␮m and kcat was
+1.4 min⫺1. compared to the reaction in  xxxd3449xxx , the presence of 9.3 mm inorganic phosphate, 2.7 mm kcl, and 140
+mm nacl in pbs collectively contributes to a decrease of kcat
+by 6.7-fold and km by 4-fold. overall, the resulting catalytic
+efficiency of 0.058 min⫺1 · ␮m⫺1 is comparable to that in tris
+buffer. these results indicate that switching buffer from tris to
+pbs has no significant effect on ribavirin phosphorylation by
+ xxxg1611xxx . further kinetic analysis was performed in the presence
+of bpg. compared to the reaction without bpg, the presence
+of 3 mm bpg increased kcat by 3-fold to 4.0 min⫺1 and km by
+3.7-fold to 88 ␮m (table 2). these results confirm the assessment in the literature that bpg can enhance nucleoside phosphorylation rate in the physiological conditions when both
+atp and inorganic phosphate are present. however, the presence of bpg does have a negative impact on substrate affinity,
+yielding a similar catalytic efficiency in the absence and presence of 3 mm bpg. nevertheless, when ribavirin concentration is below the km value as in the plasma of treated hcv
+patients, we anticipate a positive effect of bpg on ribavirin
+phosphorylation.
+discussion
+our steady-state kinetic studies indicate that although  xxxg79xxx  can catalyze ribavirin phosphorylation in vitro, the
+activity is unexpectedly low, with a km of 0.54 mm and a kcat of
+1.8 min⫺1 in pbs. notably, the km value is much higher than
+
+2169
+
+ribavirin’s concentration in the plasma of treated hcv patients. these findings suggest ribavirin is not a good substrate
+for  xxxg79xxx , which casts doubt whether ribavirin is
+exclusively phosphorylated by  xxxg79xxx  in vivo. further analyses show that the lower catalytic efficiency is attributed by both poor substrate binding and slower catalysis, which
+can be explained structurally. ribavirin’s triazole mimics adenine nucleobase (fig. 1); however, it misses the n1-c2-n3 segment of adenine. apparently, the missing molecular moiety is
+critical for substrate recognition and efficient catalysis by  xxxg79xxx . the lack of these structural elements in ribavirin
+culminates in a 1,200-fold decrease of reactivity.
+viramidine phosphorylation by  xxxg79xxx  was detected in our radiochemical assay; however, its catalytic efficiency is 330-fold lower than that of ribavirin. the extremely
+high km (16 mm) and low kcat (0.16 min⫺1) make viramidine
+an unlikely substrate for  xxxg79xxx  in vivo. structurally,
+viramidine should mimic adenosine better than ribavirin, as its
+two nitrogen atoms in 3-carboxamidine could imitate both
+6-amino and n1 nitrogen of adenosine (fig. 1). but our kinetic
+analysis suggests otherwise. whereas the n1 atom in adenosine
+is a hydrogen bond acceptor, the nitrogen atoms in the 3-carboxamidine moiety are positively charged and are a hydrogen
+bond donor. the electronic property of 3-carboxamidine is
+likely responsible for the lower viramidine phosphorylation by
+ xxxg79xxx .
+structurally related to ribavirin, tiazofurin is another purine
+nucleoside analog with a five-membered ring nucleobase. it is
+known to be phosphorylated by three enzymes, including  xxxg79xxx , nicotinamide  xxxd2246xxx  kinase, and a 5⬘nucleotidase (27).  xxxg1611xxx  is known as high-km 5⬘-nucleotidase
+or gmp-imp-specific 5⬘-nucleotidase (4). it possesses both
+5⬘-nucleotidase and nucleoside phosphotransferase activities.
+depending on the availability of phosphate acceptors,  xxxg1611xxx 
+catalyzes phosphotransfer from a  xxxd2705xxx  monophosphate, such as imp, to either a water molecule (5⬘-nucleotidase activity) or a  xxxd2705xxx  (phosphotransferase
+activity) (25). although it has not been thoroughly characterized, the interplay of these two enzymatic activities is highly
+influenced by the reaction ph as well as the presence of suitable nucleoside phosphate acceptors, nucleoside triphosphate
+activators, and other small molecular effectors. studies showed
+that ph 6.5 favors nucleotidase activity and ph 7.3 is optimal
+for phosphotransferase activity (2). moreover,  xxxg1611xxx  activity is
+very sensitive to the presence of atp, bpg, and potassium
+salt, which are the known activators, and inorganic phosphate,
+which is an inhibitor.
+our studies indicate that like tiazofurin, ribavirin phosphorylation can be catalyzed by a 5⬘-nucleotidase,  xxxg1611xxx , with a
+catalytic efficiency much better than that by  xxxg79xxx .
+judged from the kinetic parameters obtained in pbs, its kcat is
+2.2-fold higher (4.0 versus 1.8 min⫺1) and km is 6.1-fold lower
+(88 versus 540 ␮m) (table 2). remarkably, in contrast to most
+ xxxg1611xxx  substrates whose km values are in the millimolar range
+(18), the km for ribavirin is in the micromolar range, suggesting
+that the observed ribavirin phosphorylation by  xxxg1611xxx  may be
+physiologically relevant. the concomitant 5⬘-nucleotidase activity of  xxxg1611xxx  should have little effect on ribavirin phosphorylation in vivo, as rmp is only an intermediate in conversion to
+
+2170
+
+wu et al.
+
+rtp. rmp is not known to accumulate to a high concentration, and it should not be susceptible to  xxxg1611xxx ’s hydrolysis.
+as phosphotransferase activity of  xxxg1611xxx  is highly influenced
+by the presence of various small molecular effectors, we made
+an effort to include most notable  xxxg1611xxx  effectors in our studies.
+interestingly, the overall catalytic efficiency of ribavirin phosphorylation in  xxxd3449xxx  is comparable to that in pbs (table
+2). in addition to phosphate donor imp and nucleotide activator atp included in our assays, other small molecular effectors, such as gmp, dgmp,  xxxd1148xxx , and gtp are significantly
+present in vivo (25). they will certainly influence  xxxg1611xxx ’s activity for ribavirin phosphorylation. therefore, it is imperative
+to conduct in vivo experiments to assess whether our in vitro
+conclusions are plausible and determine how much each of
+ xxxg1611xxx  and  xxxg79xxx  contributes to ribavirin phosphorylation. the catalytic efficiency values reported in this study
+reflect the intrinsic catalytic power of  xxxg79xxx  and
+ xxxg1611xxx  towards ribavirin and viramidine phosphorylation. in
+physiological conditions, the respective contribution of  xxxg1611xxx 
+and  xxxg79xxx  for ribavirin and viramidine phosphorylation is likely determined by the concentrations of individual
+enzyme as well as various effectors present in vivo. our studies
+do not exclude any other nucleoside kinase and related enzyme
+that may be involved in ribavirin phosphorylation, nor do they
+exclude the possibility of rmp formation from deamination of
+vmp.
+like ribavirin, viramidine can be phosphorylated by  xxxg1611xxx  in
+vitro, albeit to a lesser degree. from our kinetic analysis, its
+high km (⬎0.5 mm) would make it unlikely to be efficiently
+phosphorylated by  xxxg1611xxx  in vivo. because of the lower activity
+of both  xxxg79xxx  and  xxxg1611xxx  towards viramidine, it is
+possible that other nucleoside kinases or related enzymes are
+involved in its phosphorylation in vivo.
+elucidation of ribavirin phosphorylation mechanism has important implications in understanding ribavirin metabolism in
+vivo, especially in rbcs. notably, among the hcv patients
+treated with ribavirin, significant numbers of them suffer from
+hemolytic anemia due to ribavirin phosphate accumulation in
+rbcs. the ribavirin phosphate concentration can reach a level
+that is 60- to 100-fold higher than its plasma concentration
+(14). the high-level ribavirin can deplete intracellular atp,
+impair atp-dependent oxidative respiratory pathway, damage
+rbc membrane integrity, and eventually cause hemolytic anemia (9). to date, the molecular mechanism behind the accumulation of ribavirin in rbcs is still unknown. studies showed
+that ribavirin’s cellular uptake is facilitated by a nitrobenzylthioinosine-sensitive (es)-nucleoside transporter (17). this type of
+transporter is ubiquitous in virtually all cell types. therefore,
+ribavirin should have no preference to be transported into a
+particular cell type. as a neutral molecule, it should come in
+and out of a cell rather easily. however, once it is phosphorylated, because of possession of negative charges, ribavirin
+phosphates will be trapped inside cells. it is intriguing that
+ribavirin only amasses to a high level in rbcs, which has to do
+with its unusual metabolic kinetics occurring there. in theory,
+a fast anabolism and/or slow catabolism of rtp would cause
+the accumulation observed in rbcs. one study on ribavirin
+metabolism reported that the rtp anabolic rate in rbcs is
+slightly faster than that of skin fibroblast cells and is much
+faster than that of lymphoblast cells. more importantly, the
+
+antimicrob. agents chemother.
+
+catabolic rate of rtp is a lot slower in rbcs than in either of
+the nucleated cell lines, resulting in a very long half-time of
+rtp in rbcs (24). if it turns out to be true in vivo, the slow
+dephosphorylation of rtp or the lack of rtp-specific nucleotidase and/or phosphatase should play a key role in accumulating rtp. on the other hand, the relatively fast anabolic rate
+in rbcs should also contribute to the accumulation. our studies reveal that  xxxg1611xxx  is able to catalyze ribavirin phosphorylation in vitro. coincidently,  xxxg1611xxx  is activated by bpg, a
+bisphosphate metabolite that only amasses to a high concentration in rbcs. it has been described that a high concentration of bpg can maximally stimulate  xxxg1611xxx ’s activity and renders it almost insensitive to physiological concentrations of
+atp and inorganic phosphate (5). our kinetic analysis supports bpg being a partial stimulator for ribavirin phosphorylation in the presence of atp and inorganic phosphate. although it is hard to predict the exact role of bpg in ribavirin
+phosphorylation based on in vitro kinetic analysis, it is possible
+that bpg is a major stimulator for  xxxg1611xxx  to drive the fast
+anabolism of rtp in rbcs that contributes to hemolytic anemia in ribavirin-treated patients.
+acknowledgments
+we are grateful to s. eriksson for helpful discussion and suggestion
+and for supplying us with purified  xxxg611xxx , c. cameron
+for supplying purified  xxxg79xxx , and c.-c. lin and l.-t. yeh
+for helpful discussion.
+references
+1. baker, r. o., m. bray, and j. w. huggins. 2003. potential antiviral therapeutics for smallpox, monkeypox and other orthopoxvirus infections. antiviral res. 57:13–23.
+2. banditelli, s., c. baiocchi, r. pesi, s. allegrini, m. turriani, p. l. ipata, m.
+camici, and m. g. tozzi. 1996. the phosphotransferase activity of cytosolic
+5⬘-nucleotidase; a purine analog phosphorylating enzyme. int. j. biochem.
+cell. biol. 28:711–720.
+3. bennett, l. l., jr., p. w. allan, g. arnett, y. f. shealy, d. s. shewach, w. s.
+mason, i. fourel, and w. b. parker. 1998. metabolism in human cells of the
+d and l enantiomers of the carbocyclic analog of 2⬘-deoxyguanosine: substrate activity with  xxxg611xxx , mitochondrial deoxyguanosine kinase, and 5⬘-nucleotidase. antimicrob. agents chemother. 42:1045–1051.
+4. bianchi, v., and j. spychala. 2003. mammalian 5⬘-nucleotidases. j. biol.
+chem. 278:46195–46198.
+5. bontemps, f., m. f. vincent, f. van den bergh, g. van waeg, and g. van
+den berghe. 1989. stimulation by glycerate 2,3-bisphosphate: a common
+property of cytosolic imp-gmp 5⬘-nucleotidase in rat and human tissues.
+biochim. biophys. acta 997:131–134.
+6. bougie, i., and m. bisaillon. 2004. the broad spectrum antiviral nucleoside
+ribavirin as a substrate for a viral rna capping enzyme. j. biol. chem. 279:
+22124–22130.
+7. carreras, j., r. bartrons, f. climent, and r. cusso. 1986. bisphosphorylated metabolites of glycerate, glucose, and fructose: functions, metabolism
+and molecular pathology. clin. biochem. 19:348–358.
+8. crotty, s., d. maag, j. j. arnold, w. zhong, j. y. lau, z. hong, r. andino,
+and c. e. cameron. 2000. the broad-spectrum antiviral  xxxd2246xxx  ribavirin is an rna virus mutagen. nat. med. 6:1375–1379.
+9. de franceschi, l., g. fattovich, f. turrini, k. ayi, c. brugnara, f. manzato,
+f. noventa, a. m. stanzial, p. solero, and r. corrocher. 2000. hemolytic
+anemia induced by ribavirin therapy in patients with chronic hepatitis c virus
+infection: role of membrane oxidative damage. hepatology 31:997–1004.
+10. fridland, a., m. c. connelly, and t. j. robbins. 1986. tiazofurin metabolism in human lymphoblastoid cells: evidence for phosphorylation by  xxxg79xxx  and 5⬘-nucleotidase. cancer res. 46:532–537.
+11. fried, m. w. 2002. side effects of therapy of hepatitis c and their management. hepatology 36:s237—s244.
+12. goswami, b. b., e. borek, o. k. sharma, j. fujitaki, and r. a. smith. 1979.
+the broad spectrum antiviral agent ribavirin inhibits capping of mrna.
+biochem. biophys. res. commun. 89:830–836.
+13. harki, d. a., j. d. graci, v. s. korneeva, s. k. ghosh, z. hong, c. e.
+cameron, and b. r. peterson. 2002. synthesis and antiviral evaluation of a
+mutagenic and non-hydrogen bonding  xxxd2246xxx  analogue: 1-beta-dribofuranosyl-3-nitropyrrole. biochemistry 41:9026–9033.
+
+vol. 49, 2005
+
+ribavirin and viramidine 5⬘-monophosphorylation
+
+14. homma, m., y. matsuzaki, y. inoue, m. shibata, k. mitamura, n. tanaka,
+and y. kohda. 2004. marked elevation of erythrocyte ribavirin levels in
+interferon and ribavirin-induced anemia. clin. gastroenterol. hepatol. 2:
+337–339.
+15. hong, z., e. ferrari, a. skelton, j. wright-minogue, w. zhong, and c. a.
+lesburg. 2002. effects of genotype variations on hepatitis c nonstructural
+protein 5b structure and activity, p. 109–121. in r. f. schinazi, c. m. rice,
+and j. p. sommadossi (ed.), therapies for viral hepatitis. elsevier science,
+amsterdam, the netherlands.
+16. hui, d. s., and g. w. wong. 2004. advancements in the battle against severe
+acute respiratory syndrome. expert opin. pharmacother. 5:1687–1693.
+17. jarvis, s. m., j. a. thorn, and p. glue. 1998. ribavirin uptake by human
+erythrocytes and the involvement of nitrobenzylthioinosine-sensitive (es)nucleoside transporters. br. j. pharmacol. 123:1587–1592.
+18. keller, p. m., s. a. mckee, and j. a. fyfe. 1985. cytoplasmic 5⬘-nucleotidase
+catalyzes acyclovir phosphorylation. j. biol. chem. 260:8664–8667.
+19. lin, c. c., d. lourenco, g. xu, and l. t. yeh. 2004. disposition and
+metabolic profiles of [14-c]viramidine and [14-c]ribavirin in rat and monkey
+red blood cells and liver. antimicrob. agents chemother. 48:1872–1875.
+20. lin, c. c., l.-t. yeh, d. vitarella, and z. hong. 2003. viramidine, a livertargeting ribavirin prodrug, show better liver-targeting properties and safety
+profile than ribavirin in animals. antiviral chem. chemother. 14:145–152.
+21. maj, m. c., b. singh, and r. s. gupta. 2000. structure-activity studies on
+mammalian  xxxg79xxx . biochem. biophys. res. commun. 275:386–
+393.
+22. noble, s. a., n. e. beddall, a. j. beveridge, c. l. marr, c. l. mo, p. l.
+myers, c. r. penn, r. storer, and j. m. woods. 1991. synthesis and biological evaluation of carbocyclic analogues of ribavirin. nucleosides nucleotides
+10:487–490.
+23. oka, j., a. matsumoto, y. hosokawa, and s. inoue. 1994. molecular cloning
+of human cytosolic purine 5⬘-nucleotidase. biochem. biophys. res. commun. 205:917–922.
+24. page, t., and j. d. connor. 1990. the metabolism of ribavirin in erythrocytes
+and nucleated cells. int. j. biochem. 22:379–383.
+25. pesi, r., m. turriani, s. allegrini, c. scolozzi, m. camici, p. l. ipata, and
+m. g. tozzi. 1994. the bifunctional cytosolic 5⬘-nucleotidase: regulation of
+the phosphotransferase and nucleotidase activities. arch. biochem. biophys.
+312:75–80.
+26. poynard, t., p. marcellin, s. s. lee, c. niederau, g. s. minuk, g. ideo, v.
+bain, j. heathcote, s. zeuzem, c. trepo, and j. albrecht. 1998. randomised
+trial of interferon alpha2b plus ribavirin for 48 weeks or for 24 weeks versus
+interferon alpha2b plus placebo for 48 weeks for treatment of chronic infection with hepatitis c virus. international hepatitis interventional therapy
+group (ihit). lancet 352:1426–1432.
+27. saunders, p. p., c. d. spindler, m. t. tan, e. alvarez, and r. k. robins.
+
+28.
+
+29.
+
+30.
+
+31.
+
+32.
+
+33.
+
+34.
+
+35.
+
+36.
+
+37.
+
+38.
+
+39.
+
+2171
+
+1990. tiazofurin is phosphorylated by three enzymes from chinese hamster
+ovary cells. cancer res. 50:5269–5274.
+sidwell, r. w., j. h. huffman, g. p. khare, l. b. allen, j. t. witkowski, and
+r. k. robins. 1972. broad-spectrum antiviral activity of  xxxd3111xxx : 1-beta-dribofuranosyl- xxxd17xxx -3-carboxamide. science 177:705–706.
+spychala, j., v. chen, j. oka, and b. s. mitchell. 1999. atp and phosphate
+reciprocally affect subunit association of human recombinant high km 5⬘nucleotidase. role for the c-terminal  xxxd2431xxx  tract in subunit
+association and catalytic activity. eur. j. biochem. 259:851–858.
+spychala, j., n. s. datta, k. takabayashi, m. datta, i. h. fox, t. gribbin,
+and b. s. mitchell. 1996. cloning of human  xxxg79xxx  cdna: sequence similarity to microbial ribokinases and fructokinases. proc. natl.
+acad. sci. usa 93:1232–1237.
+streeter, d. g., j. p. miller, r. k. robins, and l. n. simon. 1977. the
+enzymic conversion of  xxxd17xxx -3-carboxamide to ribavirin-5⬘-phosphate and its relationship to the proposed mechanism of action. ann. n. y.
+acad. sci. 284:201–210.
+streeter, d. g., l. n. simon, r. k. robins, and j. p. miller. 1974. the
+phosphorylation of ribavirin by deoxyadenosine kinase from rat liver. differentiation between adenosine and deoxyadenosine kinase. biochemistry
+13:4543–4549.
+streeter, d. g., j. t. witkowski, g. p. khare, r. w. sidwell, r. j. bauer,
+r. k. robins, and l. n. simon. 1973. mechanism of action of 1-d-ribofuranosyl- xxxd17xxx -3-carboxamide ( xxxd3111xxx ), a new broad-spectrum antiviral agent. proc. natl. acad. sci. usa 70:1174–1178.
+tam, r. c., b. pai, j. bard, c. lim, d. r. averett, u. t. phan, and t.
+milovanovic. 1999. ribavirin polarizes human t cell responses towards a
+type 1 cytokine profile. j. hepatol. 30:376–382.
+willis, r. c., d. a. carson, and j. e. seegmiller. 1978.  xxxg79xxx 
+initiates the major route of ribavirin activation in a cultured human cell line.
+proc. natl. acad. sci. usa 75:3042–3044.
+wray, s. k., b. e. gilbert, and v. knight. 1985. effect of  xxxd3111xxx  on primer generation and elongation during influenza virus transcription in vitro. antiviral res. 5:39–48.
+wu, j. z., g. larson, and z. hong. 2004. dual-action mechanism of viramidine functioning as a prodrug and as a catabolic inhibitor for ribavirin.
+antimicrob. agents chemother. 48:4006–4008.
+wu, j. z., c. c. lin, and z. hong. 2003. ribavirin, viramidine and adenosinedeaminase-catalysed drug activation: implication for nucleoside prodrug design. j. antimicrob. chemother. 52:543–546.
+wu, j. z., h. walker, j. y. lau, and z. hong. 2003. activation and deactivation of a broad-spectrum antiviral drug by a single enzyme: adenosine
+deaminase catalyzes two consecutive deamination reactions. antimicrob.
+agents chemother. 47:426–431.
+

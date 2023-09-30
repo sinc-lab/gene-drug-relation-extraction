@@ -1,0 +1,887 @@
+research article
+
+3353
+
+g-protein-coupled glucocorticoid receptors on the
+pituitary cell membrane
+christina maier1,*,‡, dominik rünzler2,*, julia schindelar1,2, gottfried grabner2, werner waldhäusl1,
+gottfried köhler2 and anton luger1
+1
+
+department of medicine iii, clinical division of endocrinology and metabolism, medical university of vienna, währinger gürtel 18-20, 1090
+vienna, austria
+2
+max f. perutz laboratories, department of chemistry, university of vienna, campus vienna biocenter 5/1, 1030 vienna, austria
+*these authors contributed equally to this work
+‡
+author for correspondence (e-mail: christina.maier@meduniwien.ac.at)
+
+accepted 28 april 2005
+journal of cell science 118, 3353-3361 published by the company of biologists 2005
+doi:10.1242/jcs.02462
+
+journal of cell science
+
+summary
+rapid, nongenomic actions of glucocorticoids (gcs) have
+been well documented, but information about putative
+membrane receptors that mediate them is scarce. we used
+fluorescence correlation spectroscopy to search for
+membrane gc-binding on the mouse pituitary cell line
+att-20. a slowly diffusing fraction (tau3; diffusion constant
+3⫻10–10 cm2 s–1) of fluorescein-labeled dexamethasone on
+the cell membrane corresponds to fluoresceindexamethasone binding. preincubation experiments were
+performed to test binding specificity: a 500-fold excess of
+unlabeled
+dexamethasone
+abolished
+subsequent
+fluorescein-dexamethasone membrane binding from 58±2
+(control) to 8±1 (% of tau3, mean ± s.e.m.), the natural ligand
+corticosterone prevented it partially (29±2), while the sex
+steroids estradiol (56±4) and progesterone (50±4) and the
+gc-receptor antagonist ru486 (56±2) had no effect.
+
+preincubation with pertussis toxin resulted in
+disappearance of the slowest diffusion component (11±4)
+suggesting association of the receptor with a g-protein.
+varying the concentration of fluorescein-dexamethasone
+showed that membrane binding is highly cooperative with
+an apparent kd of 180 nm and bmax of 230 nm. taken
+together, these results demonstrate high-affinity gcbinding on the cell membrane of att-20 cells with
+characteristics distinct from intracellular binding.
+
+introduction
+during the last decade, rapid steroid effects, i.e. effects
+occurring on a timescale of seconds to minutes, have been
+recognized as physiologically relevant and widespread through
+all classes of steroid hormones (norman et al., 2004; losel and
+wehling, 2003). these effects cannot be explained by
+interaction with the well-characterized intracellular steroid
+receptors acting as ligand-activated transcription factors (losel
+et al., 2003). steroids have repeatedly been shown to act
+independently of gene transcription (nongenomically) on
+several pathways that are typically used by membrane
+receptors, such as the activation of phosphoinosite 3-kinase
+( xxxg1743xxx  kinase) (simoncini et al., 2000) or protein kinase c (pkc)
+(winter et al., 2004); they mediate vasorelaxation, cell lysis
+and insulin release, and inhibit apoptosis [losel and wehling
+(losel and wehling, 2003) and the references therein]. for
+membrane steroid receptors by contrast, relatively few data are
+available. in some instances the ‘classical’ intracellular steroid
+receptors can somehow be attached to the cell membrane and
+are then able to elicit rapid steroid responses. so is the estrogen
+receptor alpha ( xxxg730xxx ) translocated to the plasma membrane upon
+stimulation with estradiol to form a protein complex together
+with shc and the  xxxg1145xxx  (kousteni et al., 2003; song
+et al., 2004). recently, it has been shown that the dna-binding
+
+domain of  xxxg730xxx  is responsible for the interaction of the receptor
+with  xxxg1743xxx  kinase (chambliss et al., 2004).
+additionally, a distinct class of membrane steroid receptors,
+unrelated to their intracellular counterparts, exist: the first
+unique vertebrate membrane steroid receptor, a progestin
+receptor that belongs to a new family of g-protein-coupled
+receptors, has been cloned and characterized recently (zhu et
+al., 2003a; zhu et al., 2003b).
+glucocorticoids (gcs) are, like cortisol or corticosterone
+(the main glucocorticoids of humans and rodents,
+respectively), a class of steroid hormones produced in the
+adrenal gland upon stimulation by the pituitary hormone
+ xxxg1801xxx  (acth). they are of vital importance in
+stress- and immune reactions as well as for metabolism, and
+affect virtually every cell in the body. gc blood levels are thus
+tightly regulated. by means of a feedback mechanism, gcs
+inhibit acth synthesis (muglia et al., 2000) and release (hinz
+and hirschelmann, 2000; antoni et al., 1992; loechner et al.,
+1999). this latter effect occurs in vivo on a timescale of
+minutes (hinz and hirschelmann, 2000) and can be considered
+a physiological, nongenomic steroid effect.
+the acth-producing mouse pituitary cell line att-20 is
+used as a model system for the fast-feedback inhibition of
+acth-release by gcs (antoni et al., 1992; loechner et al.,
+
+supplementary material available online at
+http://jcs.biologists.org/cgi/content/full/118/15/3353/dc1
+key words: nongenomic, pituitary, acth release, glucocorticoid
+receptor, fluorescence correlation spectroscopy
+
+journal of cell science
+
+3354
+
+journal of cell science 118 (15)
+
+1999). dexamethasone, a potent synthetic gc, inhibits acthrelease in this cell line in less than 10 minutes (loechner et al.,
+1999). the existence of a membrane  xxxg1601xxx 
+(mgr) was suggested as the result of binding studies of
+isolated att-20 cell membranes with radiolabeled ligands
+(harrison et al., 1979; spindler et al., 1991), and confocal
+microscopy with antibodies directed against the intracellular
+ xxxg1601xxx  (igr) on lymphoma cells (gametchu,
+1987) and blood leukocytes (bartholome et al., 2004). to our
+knowledge, data on affinity and binding characteristics of these
+membrane gc-binding sites have, until now, never been
+published.
+the aim of our study was to find specific binding of a gc
+ligand to the cell membrane of living att-20 cells. we decided
+to use fluorescence correlation spectroscopy (fcs) (magde et
+al., 1972; maiti et al., 1997) for this purpose. fcs
+measurements are non-invasive and can be carried out under
+equilibrium conditions in aqueous solution. fluctuations in
+signal-intensity are recorded when fluorescence-labeled
+molecules diffuse through the excitation volume, and are
+quantified by autocorrelation analysis. thus, faster and slower
+diffusion times can be assigned to unbound and bound ligand
+states, respectively. fcs has been used to investigate bacterial
+motor proteins (cluzel et al., 2000), p53 latency (yakovleva et
+al., 2001), active transport in plastid tubules (köhler et al.,
+2000), amyloid-beta-protein aggregates in cerebrospinal fluid
+(pitschke et al., 1998) and ultrasensitive pathogen detection
+(oehlenschlager et al., 1996; korn et al., 2003), and to study
+diffusion behavior of and ligand binding to membrane
+receptors on single cells (briddon et al., 2004; patel et al.,
+2002; rigler et al., 1999; zhong et al., 2001; pramanik et al.,
+2001; pick et al., 2003; licht et al., 2003; schwille et al.,
+1999a; schwille et al., 1999b).
+in the case of studying gc membrane-binding, a possible
+interference of ligand, binding to the igr, had to be excluded
+when measuring on whole cells. in a preliminary
+methodological study we used a ‘scanning’ procedure through
+the cell to measure membrane-binding as opposed to
+intracellular diffusion and/or binding of fluorescein-labeled
+dexamethasone (f-dexa) and found a characteristic, slowly
+diffusing component that was present exclusively on the cell
+membrane (maier et al., 2002). based on this model, the data
+presented here demonstrate specific and high-affinity binding
+of f-dexa on the membrane of att-20 cells.
+materials and methods
+materials
+att-20 cells (ccl-89) were purchased from the american type
+culture collection (atcc, manassas, va). cell culture media and
+reagents were from gibco brl (paisley, uk). f-dexa was obtained
+from molecular probes (leiden, the netherlands). all other
+chemicals were from sigma (st louis, mi). all steroids were
+purchased in a water-soluble form (estradiol as glucuronide,
+dexamethasone and corticosterone as cyclodextrin complex, and
+progesterone as pure substance); stock solutions were prepared
+directly in binding buffer. dexamethasone was also purchased as pure
+substance, which was dissolved in ethanol and diluted to final
+concentrations with binding buffer. mifepristone (ru486) was
+dissolved in  xxxd1896xxx  (dmso) and diluted to final
+concentrations in binding buffer (less than 0.1% dmso). pertussis
+toxin (ptx) was purchased from sigma (p-2980) as 0.2 mg/ml stock
+
+solution and diluted to final concentrations with binding buffer.
+labtek chambered coverglass (8 chambers) was from nalgenunc
+(naperville, il).
+cell culture
+cells were maintained at 37°c, 6% co2, 95% relative humidity in 75
+cm2 cell culture flasks in ham’s f10 medium (supplemented with
+12.5% horse serum, 2.5% fetal calf serum and antibiotics). the
+medium was changed twice weekly and cells were subcultured every
+4 weeks. for the binding experiments only cells with a passage
+number up to five were used.
+incubation
+cells were transferred to poly-d-lysine coated labtek chambered
+coverglass on the day of experiments and allowed to attach for 1 hour
+before washing them gently two times with phosphate buffered saline
+and replacing the culture medium with non-fluorescent binding buffer
+(containing 145 mm nacl, 4 mm kcl, 1 mm na2hpo4, 0.8 mm
+cacl2, 25 mm hepes and 22 mm glucose). att-20 cells showed a
+very low uncorrelated autofluorescence of approximately 0.3 khz.
+the viability of the cells was >90% after 3 hours of incubation at room
+temperature in the binding buffer (as assessed by trypan blue
+staining). the time required for measurements did not exceed 1.5 h.
+to generate the binding curve, f-dexa was added in varying
+concentrations and cells were incubated for 1 hour at 37°c;
+measurements were carried out immediately afterwards at 20°c. pure
+f-dexa was used for the low-concentration range (up to 80 nm); for
+the higher concentrations (240 and 540 nm) 80 nm f-dexa was mixed
+with unlabeled dexamethasone. measurements using 100, 120, 140
+and 160 nm were done with mixtures as well as with pure f-dexa
+solutions. for each concentration five cells from at least two
+independent incubation experiments were measured, and
+measurements were taken in triplicates.
+the specificity of f-dexa binding was tested in a 3-hour
+preincubation
+experiment,
+with
+the
+unlabeled
+steroids
+dexamethasone, corticosterone, estradiol and progesterone at a 500fold excess (60 mum) at 37°c, followed by a 1-hour incubation with
+120 nm f-dexa. for each steroid, at least eight cells from three
+independent incubation experiments were measured in triplicates.
+preincubation experiments with dexamethasone were done with both
+cyclodextrin-complexed and pure substance, and since the effects did
+not differ between the two groups, resulting data were pooled together.
+preincubation with binding buffer alone was used as control in each
+experiment.
+preincubation with the gc-receptor antagonist ru486 (60 mum) and
+ptx (1 mug/ml) were performed in the same way as described for the
+specificity experiments; heat-inactivated ptx (1 mug/ml) served as
+negative control for the latter experiments. for each substance, at least
+seven cells from three independent experiments were measured in
+triplicates.
+fluorescence correlation spectroscopy
+fcs measurements were carried out on a confocor spectrofluorimeter
+(carl zeiss-evotec, jena, germany) equipped with an ar-laser, a
+water immersion objective (c-apochromat 63⫻/1.2 w korr), an
+avalanche photodiode (spcm-cd 3017) and a hardware
+autocorrelator (alv 5000, alv, langen, germany).
+samples were excited with the 488-nm ar-laser-line attenuated by
+optical density filters, the fluorescence signal was detected through a
+dichroic mirror with bandpass filters. the pinhole diameter was set to
+45 mum, resulting in a confocal volume element of 0.17 mum in the radial
+and 2.4 mum in the axial dimension as determined by calibration using
+rhodamine 6g.
+the confocal volume was positioned in the cells using an x-y stage
+
+gc-binding on the pituitary membrane
+with 1 mum resolution, whereas the correct focus positioning on the
+cell membrane was ascertained by a scanning procedure (maier et al.,
+2002). briefly, the focus position was moved in 1-mum steps from
+outside the cell across the cell membrane towards the glass surface
+and measurements (15 seconds correlator scaling and 30 seconds
+measurement) were taken at each position. measurements at the
+membrane position (typically 7-9 mum from the coverglass) were taken
+in triplicates and the correct positioning was re-evaluated at the end
+of each measurement series.
+the signal response of f-dexa in solution was determined to be
+linear for up to 200 particles (corresponding to 1.6 mum f-dexa) in the
+focus; a negative control of pure fluorescein-dye incubated with the
+cells revealed unrestricted diffusion in all cellular compartments.
+
+3355
+
+solution and component tau2 representing dio diffusion on the cell
+membrane derived from the fitting procedure.
+in total, 22 (27 for control) autocorrelation curves taken at the
+membrane position from four individual cells were evaluated for each
+experimental subgroup. statistical evaluation was performed using
+spss 12.0 statistical software. diffusion times and percent fraction
+of the slower diffusion component from the co, dexa and ptx
+subgroups were compared by one-way anova followed by dunnett-test (two-sided, for comparison of either treatment group with co)
+as post-hoc statistics, when appropriate. p<0.05 was set as level of
+statistical significance. data are presented as mean ± s.e.m.
+
+data evaluation
+a normalized autocorrelation function g(tau) describes fluctuations
+with time around the mean measured intensity f, where angular
+brackets represent the ensemble average:
+g(tau) = 1 + 〈deltaf(t) · deltaf(t+tau)〉 / 〈f〉2 .
+g(tau) depends on the measurement geometry and on the diffusion
+properties of the fluorescent species. for a single diffusing species in
+a gaussian confocal volume it has the following analytical form:
+
+journal of cell science
+
+g(tau) = 1 + 1 / [n(1+tau/taud) (1+tau/(z/r)2taud)0.5] ,
+where n is the particle number and taud the characteristic diffusion time
+for the fluorescent molecule moving through the confocal volume with
+an axial (z) to radial (r) dimension. the confocal volume was
+determined by measurements of the correlation time for the
+fluorescent dye rhodamine 6g with the known diffusion coefficient
+d of 2.8⫻10–6 cm2 s–1 employing the relationship d=r2/4taud.
+experimental autocorrelation functions were evaluated using a two or
+three component model including the triplet state with the triplet
+fraction ft and the triplet lifetime taut. the analytical formula for the
+two component model is given by:
+1
+g(tau) =
+
+with
+
+n′
+
+[(1–y)gd1(tau) + ygd2(tau)] [ft etau/taut + (1–ft)] + 1
+
+n′ = n(1–ft) and
+
+⎛
+
+g(tau) = ⎜1 +
+
+⎝
+
+tau⎞
+
+⎟
+taud⎠
+
+–1 ⎛
+
+tau ⎞
+⎜1 +
+⎟
+(z/r)2tau2d ⎠
+⎝
+
+–0.5
+
+.
+
+an analogous expression is valid for the three component model,
+which according to preliminary work (maier et al., 2002) is adequate
+to fit the data obtained from scanning whole cells. confocal volume
+calibrations using rhodamine 6g were carried out on each
+experimental day as described above and used as an input for the fits,
+which yielded a diffusion time tau1 corresponding to free f-dexa in
+solution and two further cell-related diffusion times tau2 and tau3 as well
+as the corresponding relative amount of each component. the
+software fcs access® (evotec) and origin® (microcal) was used for
+nonlinear least squares fits.
+probing of membrane fluidity
+the lipophilic membrane marker 3,3′-dioctadecyloxacarbocyanine
+perchlorate (dio) was from molecular probes. to label cells with dio
+they were incubated with 10 mum dio (in binding buffer) for 20
+minutes. after this time, dio was replaced with binding buffer
+containing either 60 mum dexamethasone (dexa), 1 mug/ml ptx
+(ptx) or binding buffer alone (control, co). cells were then
+incubated for 1 hour before fcs measurements were performed.
+autocorrelation curves were best fitted to the two-component model
+with component tau1 corresponding to the diffusion time of dio in
+
+fig. 1. fcs analysis of f-dexa in a single att-20 cell. (a) the
+confocal volume was positioned above the center of a cell and a zintensity scan was performed towards the glass surface.
+representative positions, (a) outside of the cell (in the solution), (b)
+inside the cytoplasm and (c) at the cell membrane, are indicated by
+horizontal lines. (b) intensity fluctuations were recorded for 30
+seconds and are shown for the three representative positions together
+with their normalized autocorrelation curves (c). data were fitted
+with the three component model.
+
+journal of cell science
+
+journal of cell science 118 (15)
+
+results
+affinity of f-dexa–binding
+to determine the localization of f-dexa, att-20 cells were
+scanned by moving the laser focus along the z-direction
+through the cell. in fig. 1 a fluorescence intensity profile of a
+z-scan (fig. 1a) is shown together with recorded fluorescence
+fluctuations (fig. 1b) and corresponding autocorrelation
+curves (fig. 1c) for three distinct focus positions. examination
+of the brownian motion of free f-dexa in the buffer medium
+above the cell surface showed a homogeneous distribution of
+the intensity fluctuations. when the focus was positioned at the
+upper cell membrane, an increase and broadening of the
+fluctuation peaks was observed together with a large shift of
+the autocorrelation function towards longer diffusion times.
+these characteristics were significantly reduced when the
+focus was positioned completely inside the cell. analysis of
+the autocorrelation curves yielded consistently the following
+three diffusion coefficients: d1=1.8⫻10–6 cm2 s–1, d2=2⫻10–8
+cm2 s–1, and d3=3⫻10–10 cm2 s–1.
+increasing the concentration of f-dexa in the buffer-medium
+led to an increased proportion of the slowest component. in
+fig. 2 the intensity fluctuation and autocorrelation curves are
+displayed for low, medium and high concentrations of f-dexa.
+increase and broadening of the fluctuation peaks corresponded
+
+fig. 2. f-dexa–binding to the membrane of single att-20 cells
+quantified by fcs. intensity fluctuations and the measured and
+calculated corresponding autocorrelation curves g(tau) at the cell
+membrane position for representative f-dexa concentrations of (a)
+25, (b) 80 and (c)120 nm. data were fitted with the three component
+model, with the fixed diffusion times of tau1=0.05, tau2=3.6 and tau3=255
+ms. the resulting fractions were f1=0.61, f2=0.26, and f3=0.13 for 25
+nm, f1=0.55, f2=0.16, and f3=0.30 for 80 nm, and f1=0.23, f2=0.21,
+and f3=0.56 for 120 nm.
+
+well with the increase of the slowest component in the
+autocorrelation curves.
+a quantitative study of f-dexa–binding on the cell
+membrane was based on the dependence of the autocorrelation
+data on the concentration of f-dexa. to obtain a binding
+
+s
+
+3356
+
+fig. 3. f-dexa–binding isotherm. (a) membrane-bound f-dexa s(tau3)
+as a function of the f-dexa concentration in the binding medium for
+the average of measurements for each particular concentration (±
+s.d.). (b) calculated molar concentrations of bound f-dexa for
+individual measurements (䊊) and for the average of measurements
+(䊉) for each particular concentration. data were fitted to a hill
+equation with variable slope (solid line), which yields a bmax of
+230±10 nm, an apparent kd of 180±10 nm and a hill coefficient of
+2.1±0.2. insert shows the average of measurements (䊉) for each
+particular concentration (± s.d.) on a linear f-dexa concentration
+scale. (c) scatchard plot of transformed data (individual
+measurements (䊊) and for the average of measurements (䊉) together
+with the transformed nonlinear fit (solid line).
+
+journal of cell science
+
+gc-binding on the pituitary membrane
+isotherm over a suitably broad range of concentrations, it was
+necessary to mix labeled with unlabeled dexamethasone in the
+high concentration range (see materials and methods). in the
+intermediate range (100-160 nm), measurements were
+performed with pure f-dexa solutions as well as with mixtures
+to exclude a possible bias caused by this procedure.
+fig. 3a shows the average values of the relative statistical
+weights s(tau3) of the slowly diffusing component (tau3) as a
+function of the concentration of f-dexa on a logarithmic scale.
+with the assumption that tau3 is the specific signature of the
+membrane-bound ligand, s(tau3) can be equaled to the bound
+fraction. fig. 3a can thus be read as a binding curve reflecting
+the simultaneous presence of free and bound ligand; the
+magnitude of the bound fraction necessarily decreases at high
+ligand concentrations once the binding sites are saturated. the
+molar concentrations of membrane-bound ligands were
+calculated from the bound fraction s(tau3) and the f-dexa
+concentrations, and are shown in fig. 3b for both the
+individual measurements and for the average of measurements
+for each particular concentration on a log scale. the average
+data are shown in the insert of fig. 3b on a linear concentration
+scale; this representation clearly demonstrates a sigmoidal
+shape of the binding curve, which obviously cannot be fitted
+by a hyperbolic function, suggesting cooperativity. evaluation
+of the binding curve was performed by nonlinear fitting, based
+on the hill equation with a variable slope (cantor and
+schimmel, 1980) yielding a hill constant of 2.1±0.2, an
+apparent kd value for the interacting sites of 180±10 nm and
+a maximum concentration of bound ligand bmax of 230±10 nm;
+the best fits are shown in fig. 3b and its insert. the data were
+
+fig. 4. specificity of f-dexa–binding to
+the cell membrane of att-20 cells.
+examples of intensity fluctuations
+(normalized scale, measurement time: 30
+seconds) and corresponding measured
+and calculated autocorrelation curves
+g(tau) at the cell membrane position for fdexa after preincubation with (a)
+binding buffer as a control, and after
+preincubation with 500-fold excess of
+unlabeled (b) dexamethasone, (c)
+corticosterone, (d) progesterone or (e)
+estradiol.
+
+3357
+
+used to generate a scatchard plot (fig. 3c), whose pronounced
+concave shape is again characteristic of positive cooperativity.
+the transformed regression curve of fig. 3b may be used to
+visualize the saturation value bmax of 230 nm in the scatchard
+plot.
+specificity of f-dexa–binding
+the specificity of f-dexa–binding was assessed by
+preincubation for 3 hours in 500-fold excess of unlabeled
+dexamethasone, the natural ligand corticosterone, the sex
+steroids estradiol (which does not bind to the igr) and
+progesterone (which binds with low affinity to the igr),
+followed by an 1-hour incubation with f-dexa. results are the
+mean of at least eight cells from three independent
+experiments.
+representative intensity fluctuations and corresponding
+autocorrelation curves for the various steroid hormones are
+given in fig. 4. preincubation with unlabeled dexamethasone
+reduced f-dexa membrane-binding from 58±2% (fraction of
+membrane-bound f-dexa in the control, mean ± s.e.m.) to
+8±1%. corticosterone, the natural ligand of the rodent gc
+receptor, reduced subsequent f-dexa–binding to 29±2%,
+whereas progesterone (50±4%) and estradiol (56±4%) were
+unable to prevent f-dexa–binding on the cell membrane. an
+overview of the results is given in fig. 5.
+characterization of f-dexa binding
+the relation of the membrane-binding sites to the igr was
+
+3358
+
+journal of cell science 118 (15)
+
+journal of cell science
+
+fig. 5. overview of
+specificity experiments.
+fraction s(tau3) (mean ±
+s.e.m.) of at least eight cells
+from three independent
+experiments are shown.
+subsequent f-dexa binding
+is reduced from the control
+value 58±2% (a) by
+dexamethasone (8±1%) (b)
+and corticosterone (29±2%)
+(c), but unaltered by
+progesterone (50±4%) (d)
+and estradiol (56±4%) (e).
+
+assessed by preincubation with the igr antagonist ru486; a
+500-fold excess of ru486 did not alter subsequent fdexa–binding (56±2 vs 58±2%, control).
+the possible interaction with a gi protein was assessed by
+preincubation with ptx (1 mug/ml). after 3 hours of ptx
+treatment, a subsequent incubation with f-dexa still led to
+enrichment of f-dexa in the cell membrane, but the tau3
+component was reduced to the same extent as in the
+preincubation experiments with a 500-fold excess of unlabeled
+dexamethasone (see above): 11±4 vs 58±2% (control). instead,
+the tau2 component (the component which is normally seen
+predominantly in the cytosol) showed a maximum on the
+position of the cell membrane. by contrast, heat-inactivated
+ptx was unable to alter subsequent f-dexa–binding (data not
+shown).
+representative
+intensity
+fluctuations
+and
+corresponding autocorrelation curves, and an overview of the
+results are given in figs 6 and 7, respectively.
+effects on membrane fluidity
+incorporation of dio in the cell membrane resulted in a
+characteristic diffusion behavior at the membrane position
+(supplementary material fig.  xxxd3227xxx ). autocorrelation curves
+
+were best fitted with a two-component model, with the first (tau1)
+component representing diffusion of free dio in solution and
+the second (tau2) component diffusion of dio in the cell
+membrane. a two component fit with tau1 fixed resulted in a
+diffusion time of tau2=2.23±0.2⫻10–3 seconds (mean±s.e.m.)
+corresponding to a diffusion constant of 3.7⫻10–8 cm2 s–1.
+treatment with 60 mum dexa (the highest concentration used
+in the competition experiments) or 1 mug/ml ptx did not have
+any influence on the diffusion of dio on the cell membrane:
+diffusion times were 2.10±0.1⫻10–3 seconds (dexa) and
+1.78±0.2⫻10–3 seconds (ptx), respectively (p=0.2, one-way
+anova).
+the fraction of the tau2 component on the cell membrane was
+significantly different between groups (p<0.0001, one-way
+anova). dexa treatment led to a significant reduction of
+the tau2 fraction (22.0±1.2%, dexa vs 33.5±1.2%, co;
+p<0.0001, dunnet-t). by contrast, ptx did not change the tau2
+fraction (36.9±1.7%, ptx vs 33.5±1.2%, co; p=0.15,
+dunnet-t). representative autocorrelation curves together
+with their two-component fits are shown in supplementary
+material, fig. s1.
+discussion
+the data presented here show for the first time specific, highaffinity membrane-binding of a gc ligand to whole pituitary
+cells. applying the highly sensitive fcs technique to the
+mouse pituitary cell line att-20, we were able to discriminate
+the diffusion behavior of f-dexa inside the cell, on the cell
+membrane and outside the cell in solution. the small
+measuring volume of fcs makes it possible to measure steroid
+membrane-binding on whole cells without interference of
+intracellular receptor-binding. moreover, fcs allows to study
+ligand-binding without any manipulation of the cells. this is
+particularly important when considering that most membrane
+steroid-receptors seem to be very sensitive to changes of cellculture conditions when studied in vitro (watson et al., 2002).
+another advantage is the possibility to directly discriminate,
+by autocorrelation of the diffusion behavior of the
+fluorescently-labeled ligand, between specific binding and
+
+fig. 6. characterization of f-dexa–binding to the cell membrane of att-20 cells. examples of intensity fluctuations (normalized scale,
+measurement time: 30 seconds) and measured and calculated corresponding autocorrelation curves g(tau) at the cell-membrane-position for fdexa after preincubation with (a) binding buffer as a control, and after preincubation with (b) ru486 or (c) ptx.
+
+gc-binding on the pituitary membrane
+
+journal of cell science
+
+fig. 7. overview of
+characterization
+experiments. fraction
+s(tau3) (mean ± s.e.m.) of at
+least seven cells from
+three independent
+experiments are shown.
+subsequent fdexa–binding is not
+reduced from the control
+value 58±2% (a) by
+ru486 (56±2%) (b) but is
+almost abolished by ptx
+(11±4%) (c).
+
+unspecific attachment to the cell membrane. thus, even a high
+level of unspecific binding owing to the lipophilic nature of
+steroid hormones does not hamper detection of specific binding
+to the cell membrane, as would be the case when using
+radioligands (watson and gametchu, 2001).
+affinity data were obtained by incubation with different
+concentrations of f-dexa that resulted in an average kd of 180
+nm and a bmax of 230 nm, indicating a binding affinity
+significantly lower than that of the igr, which was determined
+using radioligands to be in the range of 5 nm or less (schaaf
+and cidlowski, 2003 and the references therein). indeed, the
+nongenomic gc effects described so far all occur at higher
+concentrations than those necessary to saturate igr binding.
+this also includes in vivo data, such as the vasorelaxing effect
+of dexamethasone in mice where the plasma concentrations for
+maximal effect were in the range of 100 nm (hafezimoghadam et al., 2002). gcs are used therapeutically in lifethreatening conditions such as status asthmaticus, severe
+episodes of multiple sclerosis or systemic autoimmune
+diseases, and leukaemia. initially, very high doses, resulting in
+gc plasma concentrations of several 100 nm, are used that are
+necessary for therapeutical effect. it has been postulated that at
+very high concentrations, gcs might be able to alter physicochemical properties of cell membranes (the so-called
+‘unspecific nongenomic effects’ of gcs) and thus inhibit cation
+cycling across the cell membrane (buttgereit et al., 2000). the
+highest concentration of dexamethasone used in this study, 60
+mum, competed with dio for membrane incorporation but was
+unable to alter membrane fluidity. it is therefore highly unlikely
+that an unspecific nongenomic effect could cause the changes
+in diffusion behavior of f-dexa observed in our work.
+most remarkably, the binding curve that we were able to
+obtain with fcs revealed positive cooperativity of the binding
+process. thus, ligand binding to the membrane binding sites
+enhances further binding. in other words, once a certain
+threshold in the concentration of gcs is reached, small changes
+in the gc concentration can elicit pronounced effects.
+physiologically, gc plasma levels undergo diurnal variations,
+and the body can react very precisely to sudden alterations of
+cortisol (or corticosterone, for rodents) concentrations. it is not
+known, which gc concentrations are reached locally at the
+pituitary gland but – under the assumption that the membrane
+
+3359
+
+binding sites described here are related to the feedback
+inhibition of acth release – a membrane receptor with
+cooperative binding properties would be well suited to mediate
+rapid adaptations of the system required in situations of acute
+stress. basal regulation might be mediated by gc-inhibition of
+acth synthesis via genomic pathways.
+specificity of dexamethasone binding was shown by
+preincubation experiments with various steroids. not only
+unlabeled dexamethasone, but also the natural ligand
+corticosterone were able to prevent subsequent fdexa–binding, whereas the sex steroids estradiol and
+progesterone had no influence. thus, f-dexa binds to gcspecific binding sites on the cell membrane of the corticotrope
+cell line att-20.
+like the affinity of binding, the binding characteristics were
+also clearly distinct from the igr. the igr antagonist ru486
+was unable to prevent f-dexa membrane-binding, as was
+progesterone, which is known to bind – albeit with low affinity
+– to the igr (which is expressed in the att-20 cell line in high
+abundance). distinct membrane binding sites – possibly related
+to opioid-like receptors – have been found in the amphibian
+brain (evans et al., 2000). by contrast, the mgr found on
+lymphoma cells and peripheral blood leukocytes was detected
+using an antibody against igr (gametchu, 1987; bartholome
+et al., 2004), indicating structural resemblance of these binding
+sites with the igr. with the data presented here, no direct
+conclusion on the structure of the binding sites can be drawn,
+because attachment to the cell membrane would certainly alter
+the binding characteristics of the igr as well. however, it
+seems reasonable that distinct binding characteristics should be
+associated with distinct function.
+another remarkable feature of the observed binding is the
+small diffusion constant (3⫻10–10 cm2 s–1) obtained for the
+bound ligand. measurements of ligand binding to cell
+membranes typically result in diffusion constants that are one
+order of magnitude higher (e.g. briddon et al., 2004; rigler et
+al., 1999). possible interpretations of a smaller diffusion
+constant are that the binding sites form huge clusters or,
+alternatively, that they are not freely diffusing in the cell
+membrane but are more closely attached to, e.g. the
+cytoskeleton. this interpretation is supported by the fact that
+preincubation with ptx abolished the tau3 component in the
+autocorrelation function on the membrane position while fdexa enrichment was still apparent. pertussis toxin decouples
+g-proteins from the receptor through adp ribosylation of the
+ xxxg2224xxx  subunit. since f-dexa can still bind to the receptor (the
+ligand is enriched in the cell membrane) it can be concluded
+that upon g-protein decoupling also clustering and/or
+cytoskeleton attachment of the receptor is disrupted. like
+dexamethasone, ptx was unable to change membrane fluidity
+at the concentration used in our experiments.
+redistribution of the actin cytoskeleton plays a central role
+in acth-release (mains et al., 1999) and has also been shown
+to be involved in rapid steroid effects. the steroid hormone
+testosterone has been described to increase psa secretion from
+a prostate cell line through binding to a membrane receptor and
+modifying the actin cytoskeleton (papakonstanti et al., 2003).
+testosterone is also able to act on gnrh release through a
+membrane receptor and this membrane ar-signaling has been
+shown to be coupled to a gi protein (shakil et al., 2002). the
+ xxxg730xxx  alpha has been shown to interact with the
+
+3360
+
+journal of cell science 118 (15)
+
+cytoskeletal protein p130cas (which is involved in the linkage
+of the actin cytoskeleton to the extracellular matrix) resulting
+in  xxxg1369xxx /2 mapk activation (cabodi et al., 2004).
+in summary, this study demonstrates for the first time
+specific, positive cooperative and g-protein-coupled
+membrane glucocorticoid receptors, distinct from their
+intracellular counterparts and well suited to mediate acute
+hpa-axis regulation.
+this project was supported by a grant of the austrian science
+foundation (project number p15958).
+
+journal of cell science
+
+references
+antoni, f. a., hoyland, j., woods, m. d. and mason, w. t. (1992).
+glucocorticoid inhibition of stimulus-evoked  xxxg1801xxx  release
+caused by suppression of intracellular calcium signals. j. endocrinol. 133,
+r13-r16.
+bartholome, b., spies, c. m., gaber, t., schuchmann, s., berk, t., kunkel,
+d., bienert, m., radbruch, a., burmester, g. r., lauster, r. et al.
+(2004). membrane glucocorticoid receptors (mgcr) are expressed in
+normal human peripheral blood mononuclear cells and up-regulated after in
+vitro stimulation and in patients with rheumatoid arthritis. faseb j. 18, 7080.
+briddon, s. j., middleton, r. j., cordeaux, y., flavin, f. m., weinstein,
+j. a., george, m. w., kellam, b. and hill, s. j. (2004). quantitative
+analysis of the formation and diffusion of a1-adenosine receptorantagonist complexes in single living cells. proc. natl. acad. sci. usa 101,
+4673-4678.
+buttgereit, f., burmester, g. r. and brand, m. d. (2000). therapeutically
+targeting lymphocyte energy metabolism by high-dose glucocorticoids.
+biochem. pharmacol. 59, 597-603.
+cabodi, s., moro, l., baj, g., smeriglio, m., di stefano, p., gippone, s.,
+surico, n., silengo, l., turco, e., tarone, g. et al. (2004). p130cas
+interacts with  xxxg730xxx  alpha and modulates non-genomic estrogen
+signaling in breast cancer cells. j. cell sci. 117, 1603-1611.
+cantor, c. r. and schimmel, p. r. (1980). ligand interactions at equilibrium.
+in biophysical chemistry. part iii: the behavior of biological
+macromolecule (ed. c. r. cantor and p. r. schimmel), pp. 863-866. new
+york: w. h. freeman and co.
+chambliss, k. l., simon, l., yuhanna, i. s., mineo, c. and shaul, p. w.
+(2004). dissecting the basis of nongenomic activation of enos by estradiol:
+role of er{alpha} domains with known nuclear functions. mol. endocrinol.
+19, 277-289.
+cluzel, p., surette, m. and leibler, s. (2000). an ultrasensitive bacterial
+motor revealed by monitoring signaling proteins in single cells. science 287,
+1652-1655.
+evans, s. j., searcy, b. t. and moore, f. l. (2000). a subset of kappa opioid
+ligands bind to the membrane  xxxg1601xxx  in an amphibian brain.
+endocrinology 141, 2294-2300.
+gametchu, b. (1987).  xxxg1601xxx -like antigen in lymphoma cell
+membranes: correlation to cell lysis. science 236, 456-461.
+hafezi-moghadam, a., simoncini, t., yang, e., limbourg, f. p., plumier,
+j. c., rebsamen, m. c., hsieh, c. m., chui, d. s., thomas, k. l.,
+prorock, a. j. et al. (2002). acute cardiovascular protective effects of
+corticosteroids are mediated by non-transcriptional activation of endothelial
+ xxxd2738xxx  synthase. nat. med. 8, 473-479.
+harrison, r. w., balasubramanian, k., yeakley, j., fant, m., svec, f. and
+fairfield, s. (1979). heterogeneity of att-20 cell glucocorticoid binding
+sites: evidence for a membrane receptor. adv. exp. med. biol. 117, 423-440.
+hinz, b. and hirschelmann, r. (2000). rapid non-genomic feedback effects
+of glucocorticoids on crf-induced acth secretion in rats. pharm. res. 17,
+1273-1277.
+köhler, r. h., schwille, p., webb, w. w. and hanson, m. r. (2000). active
+protein transport through plastid tubules: velocity quantified by fluorescence
+correlation spectroscopy. j. cell sci. 113, 3921-3930.
+korn, k., gardellin, p., liao, b., amacker, m., bergstrom, a., bjorkman,
+h., camacho, a., dorhofer, s., dorre, k., enstrom, j. et al. (2003). gene
+expression analysis using single molecule detection. nucleic acids res. 31,
+e89.
+kousteni, s., han, l., chen, j. r., almeida, m., plotkin, l. i., bellido, t.
+and manolagas, s. c. (2003). kinase-mediated regulation of common
+
+transcription factors accounts for the bone-protective effects of sex steroids.
+j. clin. invest. 111, 1651-1664.
+licht, s. s., sonnleitner, a., weiss, s. and schultz, p. g. (2003). a rugged
+energy landscape mechanism for trapping of transmembrane receptors
+during endocytosis. biochemistry 42, 2916-2925.
+loechner, k. j., knox, r. j., mclaughlin, j. t. and dunlap, k. (1999).
+dexamethasone-mediated inhibition of calcium transients and acth
+release in a pituitary cell line (att-20). steroids 64, 404-412.
+losel, r. and wehling, m. (2003). nongenomic actions of steroid hormones.
+nat. rev. mol. cell. biol. 4, 46-56.
+losel, r., falkenstein, e., feuring, m., schultz, a., tillmann, h. c.,
+rossol-haserothm, k. and wehling, m. (2003). nongenomic steroid
+action: controversies, questions, and answers. physiol. rev. 83, 965-1016.
+magde, d., elson, e. l. and webb, w. w. (1972). thermodynamic
+fluctuations in a reacting system – measurement by fluorescence
+correlation spectroscopy. phys. rev. lett. 29, 705-708.
+maier, c., rünzler, d., wagner, l., grabner, g., köhler, g. and luger, a.
+(2002). evidence for specific glucocorticoid binding sites on the cell
+membrane by fluorescence correlation spectroscopy. single mol. 3, 211-215.
+mains, r. e., alam, m. r., johnson, r. c., darlington, d. n., back, n.,
+hand, t. a. and eipper, b. a. (1999). kalirin, a multifunctional pam
+cooh-terminal domain interactor protein, affects cytoskeletal organization
+and acth secretion from att-20 cells. j. biol. chem. 274, 2929-2937.
+maiti, s., haupts, u. and webb, w. w. (1997). fluorescence correlation
+spectroscopy: diagnostics for sparse molecules. proc. natl. acad. sci. usa
+94, 11753-11757.
+muglia, l. j., jacobson, l., luedke, c., vogt, s. k., schaefer, m. l.,
+dikkes, p., fukuda, s., sakai, y., suda, t. and majzoub, j. a. (2000).
+ xxxg517xxx  links pituitary  xxxg1801xxx  gene
+expression and release during adrenal insufficiency. j. clin. invest. 105,
+1269-1277.
+norman, a. w., mizwicki, m. t. and norman, d. p. (2004). steroidhormone rapid actions, membrane receptors and a conformational ensemble
+model. nat. rev. drug discov. 3, 27-41.
+oehlenschlager, f., schwille, p. and eigen, m. (1996). detection of hiv-1
+rna by nucleic acid sequence-based amplification combined with
+fluorescence correlation spectroscopy. proc. natl. acad. sci. usa 93,
+12811-12816.
+papakonstanti, e. a., kampa, m., castanas, e. and stournaras, c. (2003).
+a rapid, nongenomic, signaling pathway regulates the actin reorganization
+induced by activation of membrane testosterone receptors. mol. endocrinol.
+17, 870-881.
+patel, r. c., kumar, u., lamb, d. c., eid, j. s., rocheville, m., grant, m.,
+rani, a., hazlett, t., patel, s. c., gratton, e. et al. (2002). ligand binding
+to somatostatin receptors induces receptor-specific oligomer formation in
+live cells. proc. natl. acad. sci. usa 99, 3294-3299.
+pick, h., preuss, a. k., mayer, m., wohland, t., hovius, r. and vogel, h.
+(2003). monitoring expression and clustering of the ionotropic 5ht3
+receptor in plasma membranes of live biological cells. biochemistry 42, 877884.
+pitschke, m., prior, r., haupt, m. and riesner, d. (1998). detection of
+single amyloid beta-protein aggregates in the cerebrospinal fluid of
+alzheimer’s patients by fluorescence correlation spectroscopy. nat. med. 4,
+832-834.
+pramanik, a., olsson, m., lange, u., bartfai, t. and rigler, r. (2001).
+fluorescence correlation spectroscopy detects galanin receptor diversity on
+insulinoma cells. biochemistry 40, 10839-10845.
+rigler, r., pramanik, a., jonasson, p., kratz, g., jansson, o. t., nygren,
+p., stahl, s., ekberg, k., johansson, b., uhlen, s. et al. (1999). specific
+binding of  xxxg1193xxx  c-peptide to human cell membranes. proc. natl. acad.
+sci. usa 96, 13318-13323.
+schaaf, m. j. and cidlowski, j. a. (2003). molecular determinants of
+ xxxg1601xxx  mobility in living cells: the importance of ligand
+affinity. mol. cell. biol. 23, 1922-1934.
+schwille, p., haupts, u., maiti, s. and webb, w. w. (1999a). molecular
+dynamics in living cells observed by fluorescence correlation spectroscopy
+with one- and two-photon excitation. biophys. j. 77, 2251-2265.
+schwille, p., korlach, j. and webb, w. w. (1999b). fluorescence correlation
+spectroscopy with single-molecule sensitivity on cell and model
+membranes. cytometry 36, 176-182.
+shakil, t., ehsanul-hoque, a. n., husain, m. and belsham, d. d. (2002).
+differential regulation of  xxxg930xxx  secretion and
+gene expression by androgen: membrane versus nuclear receptor activation.
+mol. endocrinol. 16, 2592-2602.
+
+gc-binding on the pituitary membrane
+
+journal of cell science
+
+simoncini, t., hafezi-moghadam, a., brazil, d. p., ley, k., chin, w. w.
+and liao, j. k. (2000). interaction of  xxxg730xxx  with the
+regulatory subunit of phosphatidylinositol-3-oh kinase. nature 407, 538541.
+song, r. x., barnes, c. j., zhang, z., bao, y., kumar, r. and santen, r.
+j. (2004). the role of shc and  xxxg1145xxx  in
+mediating the translocation of  xxxg730xxx  alpha to the plasma
+membrane. proc. natl. acad. sci. usa 101, 2076-2081.
+spindler, k. d., krahwinkel, r., kolb-bachofen, v. and schlepperschafer, j. (1991). electron microscopic demonstration of glucocorticoid
+recognition sites on isolated rat hepatocytes. j. steroid biochem. mol. biol.
+39, 315-322.
+watson, c. s. and gametchu, b. (2001). membrane estrogen and
+glucocorticoid receptors–implications for hormonal control of immune
+function and autoimmunity. int. immunopharmacol. 1, 1049-1063.
+watson, c. s., campbell, c. h. and gametchu, b. (2002). the dynamic and
+elusive membrane  xxxg730xxx -alpha. steroids 67, 429-437.
+winter, c., schulz, n., giebisch, g., geibel, j. p. and wagner, c. a. (2004).
+
+3361
+
+nongenomic stimulation of vacuolar h+-atpases in intercalated renal
+tubule cells by aldosterone. proc. natl. acad. sci. usa 101, 2636-2641.
+yakovleva, t., pramanik, a., kawasaki, t., tan-no, k., gileva, i.,
+lindegren, h., langel, u., ekstrom, t. j., rigler, r., terenius, l. et al.
+(2001). p53 latency. c-terminal domain prevents binding of p53 core to
+target but not to nonspecific dna sequences. j. biol. chem. 276, 1565015658.
+zhong, z. h., pramanik, a., ekberg, k., jansson, o. t., jornvall, h.,
+wahren, j. and rigler, r. (2001). insulin binding monitored by
+fluorescence correlation spectroscopy. diabetologia 44, 1184-1188.
+zhu, y., bond, j. and thomas, p. (2003a). identification, classification, and
+partial characterization of genes in humans and other vertebrates
+homologous to a fish membrane progestin receptor. proc. natl. acad. sci.
+usa 100, 2237-2242.
+zhu, y., rice, c. d., pang, y., pace, m. and thomas, p. (2003b). cloning,
+expression, and characterization of a membrane progestin receptor and
+evidence it is an intermediary in meiotic maturation of fish oocytes. proc.
+natl. acad. sci. usa 100, 2231-2236.
+

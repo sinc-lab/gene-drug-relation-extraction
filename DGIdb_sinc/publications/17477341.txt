@@ -1,0 +1,1333 @@
+doi: 10.1002/cmdc.200700026
+
+analysis of pharmacology data and the
+prediction of adverse drug reactions and offtarget effects from chemical structure
+andreas bender,*[a] josef scheiber,[a] meir glick,[a] john w. davies,[a]
+kamal azzaoui,[b] jacques hamon,[b] laszlo urban,[a] steven whitebread,[a] and
+jeremy l. jenkins[a]
+preclinical safety pharmacology (psp) attempts to anticipate adverse drug reactions (adrs) during early phases of drug discovery
+by testing compounds in simple, in vitro binding assays (that is,
+preclinical profiling). the selection of psp targets is based largely
+on circumstantial evidence of their contribution to known clinical
+adrs, inferred from findings in clinical trials, animal experiments,
+and molecular studies going back more than forty years. in this
+work we explore psp chemical space and its relevance for the
+prediction of adverse drug reactions. firstly, in silico (computational) bayesian models for 70 psp-related targets were built,
+which are able to detect 93 % of the ligands binding at ic50 
+10 mm at an overall correct classification rate of about 94 %. secondly, employing the world drug index (wdi), a model for adverse drug reactions was built directly based on normalized sideeffect annotations in the wdi, which does not require any underlying functional knowledge. this is, to our knowledge, the first attempt to predict adverse drug reactions across hundreds of categories from chemical structure alone. on average 90 % of the ad-
+
+verse drug reactions observed with known, clinically used compounds were detected, an overall correct classification rate of
+92 %. drugs withdrawn from the market (rapacuronium,  xxxd3265xxx ) were tested in the model and their predicted adrs align well
+with known adrs. the analysis was repeated for acetylsalicylic
+acid and benperidol which are still on the market. importantly,
+features of the models are interpretable and back-projectable to
+chemical structure, raising the possibility of rationally engineering
+out adverse effects. by combining psp and adr models new hypotheses linking targets and adverse effects can be proposed and
+examples for the opioid m and the muscarinic m2 receptors, as
+well as for  xxxg1883xxx  are presented. it is hoped that the
+generation of predictive models for adverse drug reactions is able
+to help support early sar to accelerate drug discovery and decrease late stage attrition in drug discovery projects. in addition,
+models such as the ones presented here can be used for compound profiling in all development stages.
+
+introduction
+the drug discovery and development process can be interpreted as a long story of many failures with rare—but crucial—success stories interspersed, be they due to serendipity or rational
+planning. from the first stages of clinical trials only about 11 %
+of compounds make it to registration.[1] many more compounds synthesized during the lead optimization phase fail—
+however, at lesser cost and with a considerably higher probability for correction of the failure. in a study comprising new
+chemical entities (nces) admitted to the market between 1975
+and 1999, it was found that out of 548 nces, 45 (8.2 %) acquired black box warnings and 16 (2.9 %) were withdrawn
+from the market.[2] reasons for failures are varied and have
+changed over time, with adme/pk issues dominating in the
+1990s.[3] more recently, the integration of both computational
+and experimental adme/pk models into the drug discovery
+process tipped the balance leaving efficacy and safety the two
+major hurdles, each responsible for about 30 % of attrition
+during late discovery and early clinical phases.[1] recent examples of compounds which where withdrawn because of relatively rare but serious adrs include  xxxd461xxx  (lipobay)[4]
+chemmedchem 2007, 2, 861 – 873
+
+and rofecoxib (vioxx).[5] if at all possible, late-stage failures due
+to unacceptable side-effect profiles should be avoided as early
+as possible to reduce the cost of the process and secure clinically safe drugs for the benefit of the patients. the further
+along the drug discovery and development pipeline a potential drug candidate travels, the exponentially higher the costs.
+[a] dr. a. bender, dr. j. scheiber, dr. m. glick, dr. j. w. davies, dr. l. urban,
+s. whitebread, dr. j. l. jenkins
+lead finding platform
+novartis institutes for biomedical research inc.
+250 massachusetts ave., cambridge, massachusetts
+02139 (usa)
+fax: (+ 1) 617-871-4088
+e-mail: andreas.bender@novartis.com
+[b] dr. k. azzaoui, dr. j. hamon
+lead finding platform
+novartis institutes for biomedical research
+lichtstrasse
+4002 basel (switzerland)
+supporting information for this article is available on the www under
+http://www.chemmedchem.org or from the author.
+
+f 2007 wiley-vch verlag gmbh & co. kgaa, weinheim
+
+861
+
+med
+
+a. bender et al.
+
+it would therefore be advantageous to predict the likelihood
+of failure as early as possible in the process. this includes in vitro preclinical profiling during lead selection and optimization.
+one might even extend the idea to library design. whereas adverse drug reactions differ in their seriousness, even comparatively mild side effects such as headache can lead to noncompliance of the patient and thus influence therapy outcome to
+a much larger extent then expected. therefore, knowledge
+about possible adverse reactions is an asset in the earliest
+stages of a drug discovery project.
+at present, regulatory guidelines require extensive in vivo
+studies[6] which refer to safety pharmacology/risk assessment.[7–9] however, these studies are costly and time demanding and most importantly they enter the project flowcharts at
+late stages and with low capacity. the lead optimization phase
+and even earlier, lead selection or library design phases need a
+rapid method to assess structures, and more importantly sars
+for the prediction and possible elimination of adrs. in silico
+and in vitro models fit the required criteria but depending on
+the particular aim, the best approach differs in each case.
+today, various formats of in vitro preclinical safety pharmacology (psp) are routinely employed in the pharmaceutical industry.[7, 8, 10, 11] indeed, it is employed in addition and ahead of
+safety pharmacology, required by regulatory authorities.[6]
+safety pharmacology describes the comprehensive identification of liabilities of a small number of compounds, whereas
+psp embodies the routine screening of a larger number of
+compounds against comparatively inexpensive, yet predictive
+assays. predictive refers to correct identification of hits at any
+target included in a large assay set (a safety driven selection of
+80–120 receptors, nuclear receptors, enzymes, transporters,
+and ion channels) which could potentially produce certain
+adrs in the clinic. however, the picture is complicated by the
+fact that many compounds have some level of pharmacological promiscuity and bind to various targets. therefore it is an
+intriguing scientific challenge to develop predictive methods
+to capture adverse drug reactions reliably with a comparatively
+small number of compounds at a reduced number of targets
+to be screened. this step is difficult in practice as pathways
+may be regulated by different targets, leading to the same
+phenomenological outcome despite distinct underlying molecular mechanisms. in some cases strong links between molecular targets and effects were nonetheless established, such as
+the link between the human ether-a-go-go-related gene
+(herg)  xxxg1232xxx  and torsade de pointes or long-qtsyndrome.[12, 13] the herg-related k + channel quickly became
+one of those targets routinely screened in safety pharmacology
+and also required by regulatory agencies to be screened.[6, 9]
+in general terms, there are compounds with two major preclinical profiles emerging from published studies: 1) compounds or structural classes which show high promiscuity and
+bind with various affinity to a large number of unrelated targets and 2) compounds or structural classes which have a high
+affinity to a specific class of targets or even only a single
+target. following this division, one way to interpret pharmacological profiling results is to evaluate activity against a particular target. this approach is feasible where strong links between
+
+862
+
+www.chemmedchem.org
+
+particular targets and undesired side effects are established.
+the herg-related k + channel,[14–17] the  xxxg1114xxx ,[18] or
+the  xxxg1598xxx  nuclear  xxxg1603xxx [19] are typical examples
+which fall into this category.
+the second way to analyze profiling data is to look at ligand
+promiscuity.[20] promiscuous ligands are by their very nature
+more likely to show undesired and often ill-defined side effects. ligand promiscuity should be distinguished from the
+phenomenon of frequent hitters, part of which has been explained by the formation of micelles,[21] and which has been
+subject to in silico studies.[22, 23] the question of whether selectivity is necessarily an advantage or disadvantage depends on
+the components of promiscuity and their relationship to the
+indication, and therefore needs to be considered separately.
+drugs hitting multiple desired targets also possess certain advantages.[24, 25] ligand promiscuity has recently been the subject of further investigation[26] with the aim of establishing general guidelines for what leads ligands to bind to a large
+number of targets. taking the novartis in-house safety screening data, more than 20 % of all ligands were found to bind to
+10–20 % of the profiling targets (7–14 in absolute numbers)
+with an ic50 < 5 mm (though this is biased by projects dealing
+with promiscuous ligands that tend to submit larger numbers
+of compounds for profiling). overall it was found that selective
+ligands are, on average, more hydrophilic and smaller, and that
+key selectivity features exist which virtually rule out promiscuity, such as carboxylic acid groups. whereas the effect can
+partly be explained by thermodynamic concepts (lipophilic ligands are squeezed out of the water, no matter what the binding partner is), this topic is still actively being investigated because of its paramount importance for the design of selective
+ligands.
+previous research in in silico pharmacology has been mainly
+concerned with the prediction of individual adverse effects
+such as herg inhibition,[14, 27] blockage of one of the p450 subtypes,[28] or  xxxg1598xxx  nuclear  xxxg1603xxx  binding.[18] modeling gpcr antitarget pharmacophore models of the a1a adrenoreceptor, the 5ht2 a serotonin receptor, and the d2 dopamine receptor were published.[29] the incorporation of multiple
+in silico models into early discovery stages has also been proposed.[30] whereas most models have been ligand-based, further approaches have been presented which take the target
+structure into account. one effort which employed docking to
+distinguish between the selectivity of different kinases showed
+very high specificity and sensitivity.[31] still, this approach is limited to certain targets. on the contrary, the present empirical
+model is similar to the bioprint approach[32] and work performed by pfizer[33] which considered multiple targets simultaneously. the latter approach has recently been extended to
+the prediction of drug side effects[34] in combination with hierarchical clustering. the present study extends upon the above
+features of the bioprint model with the novel element of in silico bioactivity spectra. reviews summarizing the current state
+of computational toxicology have also recently been published.[35, 36]
+in the main part of the present study a three-fold analysis of
+preclinical profiling data, adverse effect annotations, and mo-
+
+f 2007 wiley-vch verlag gmbh & co. kgaa, weinheim
+
+chemmedchem 2007, 2, 861 – 873
+
+prediction of adverse side effects from chemical structure
+lecular structures is performed. firstly, based on the novartis
+in-house data and an external database, world of molecular
+bioactivity (wombat),[37] in silico probabilistic models for the
+panel of preclinical profiling targets have been built (psp
+model). the objective of this model is the fast, computer-aided
+prediction of adverse target affinities during hit prioritization
+and the routine annotation of hts screens and it is based on
+the concept of molecular similarity—that similar compounds
+possess similar properties.[38] our models attempt to predict activity against the targets in the panel without testing them in
+vitro, and this kind of general target prediction effort, which
+can be used to gauge both on-target and off-target effects
+(against any kind of target for which ligands are known), has
+also been the subject of recent interest.[39–41] secondly, based
+on adverse drug reactions annotated in the world drug index
+(wdi, thomson scientific) a model for drug side-effects was
+built (adr model) which does not require any underlying functional knowledge about targets or pathways involved in adverse reactions. drugs currently on the market (acetylsalicylic
+acid, benperidol) and their predicted side-effects were compared to known adverse reactions, as were those of compounds recently withdrawn from the market (rapacuronium,
+ xxxd3265xxx ).
+in addition, several other aspects of the models were investigated; the similarity of ligands showing one particular activity
+in the psp model were compared to those of all other activity
+classes. this paves the way for establishing class-imminent (as
+opposed to chance) off-target effects. for benperidol, an antipsychotic, our predicted adverse reactions were compared to
+those predicted by the in vitro bioprint[32] method. the interpretability of model features is discussed on a set of compounds causing arrhythmia.
+finally, methodologically novel efforts were made to combine the psp target and the adr effect model. by doing so,
+the previously established separate links between chemical
+structures on the one hand and psp targets or adr effects on
+the other hand are joined by the common activity models for
+both. this process is shown in figure 1. target activities and
+
+figure 1. linking adverse drugs reactions to targets is performed in two
+steps. firstly, individual models linking molecular structure to targets, and
+models linking molecular structure to adverse drug reactions are generated.
+target models are built on activity data, such as from the wombat and inhouse databases, and adr models are built on as side-effect annotations
+from the world drug index. in a second step, similarity between the models
+of targets and adverse reactions are established, in effect establishing relationships between activities and adverse reactions by the generalized structure–activity and structure–adverse reaction models.
+
+chemmedchem 2007, 2, 861 – 873
+
+adverse drug reactions are merged by the common language
+of chemical structures and generalized models derived from
+them. by comparing how similar models for psp targets and
+adr effects are, we are able to establish predictivity of individual targets for the prediction of side effects. we discuss various
+utilities of the new model and demonstrate the predictive
+value of the combined methods by using the m opioid and
+muscarinic m2 receptors as well as  xxxg1883xxx  (cox1)
+and their associated adrs.
+
+results and discussion
+predictive model for preclinical profiling targets
+results from the psp model are shown in figure 2 and table 1.
+averaged over all targets, 92.9 % classification accuracy for the
+whole set is achieved in a tenfold random training/testing of
+the model using 10 % holdout sets. in some cases 100 % of the
+compounds binding to the receptor are detected ( xxxg838xxx , gr,
+pde6, pr-b), with some exhibiting rather high selectivity
+( xxxg838xxx : 46.7 % and gr: 70.3 %) and some a larger number of
+false-positives (selectivity pde6: 4.5 % and pr-b 7.9 %). sensitivity defines the percentage of true-positives detected and selectivity defines the fraction of positive predictions which are in
+fact positive data points. given that on average 92.2 % of the
+active compounds are correctly identified (achieving good sensitivity; at the expense of some false-positives) the model is
+able to identify most of the compounds found to be active in
+vitro. this is an advantageous situation compared to having
+high selectivity combined with low sensitivity. the latter case
+would lead to a larger number of false-negative predictions
+and the possibility of failing to set some red flags for some potentially suspect compounds.
+predictive model for adverse drug reactions
+results from the adr model are shown in the supporting information. averaged over all adverse reactions, 91.7 % classification accuracy for the whole set is achieved, at a selectivity of
+41.5 % in a tenfold random training/testing of the model using
+10 % holdout sets. on average 90.3 % of the compounds showing each particular side-effect are correctly identified at a selectivity similar to that achieved with the psp model. in some
+cases 100 % of the compounds showing a particular side-effect
+are identified, which are magnesium disorder, premature epiphyseal closure, adrenopathy, hiccup, nystagmus, vocal chord
+spasms, vaginitis, and enamel hypoplasia. all sensitivities are
+larger than at least 70 %, with the lowest value achieved for
+high cholesterol (70.45 %). as mentioned before, because of
+the multifactorial nature of endpoints a wide variety of effects
+other than the drug might contribute to high cholesterol, such
+as dietary and other habits. as before, the adr model enables
+the user to flag most of the compounds which show the need
+for further in vitro testing, which we did not necessarily
+expect, particularly as they are generally not caused by single
+mechanisms only. on the other hand, the bayes model applied
+here is able to incorporate separate submodels into the full
+
+f 2007 wiley-vch verlag gmbh & co. kgaa, weinheim
+
+www.chemmedchem.org
+
+863
+
+med
+
+a. bender et al.
+
+figure 2. sensitivity (black line), selectivity (gray line), and percent correct (broken line) predictions for the 70 targets in the psp panel with 10 % holdout sets.
+overall compounds which bind to each target are detected at better than 80 % sensitivity, with the average across classes being 92.9 %, at an average selectivity of 31.8 % and 20.9 % of all compounds classified correctly.
+
+knowledge base for a given adverse reaction, corresponding,
+for example, to different pathways leading to the same adverse reaction, which seems to be of importance here.
+case study: benperidol
+sample predictions of the adr model for benperidol are
+shown in table 2. here as in the following examples the compounds listed were not involved in training of the model. benperidol is an antipsychotic agent whose observed side effects,
+predicted side effects from the adr model, and those adverse
+reactions predicted by the bioprint[32] approach are shown. described briefly, the bioprint approach tests in vitro, the affinity
+of the compound in a panel of target proteins. this affinity fingerprint serves as a similarity measure for compounds with
+known side effects from a database. twenty similar compounds were identified this way, and their known adverse effects were used to make predictions of the side effects for benperidol.[32] of the side effects reported in the bioprint publications and an additional source[42] virtually all side effects observed are predicted correctly by the adr model. this is also
+true for some adrs missed by the bioprint approach such as
+nasal congestion and sexual disorders. it should be mentioned
+that the side-effect annotations in the wdi and the bioprint
+database do not use the same terms in each case. the generalized terms in our work would be flu like symptoms and impotence.
+predictions of the psp model for benperidol are as follows
+(bioprint predictions based on the activities of nearest neigh-
+
+864
+
+www.chemmedchem.org
+
+bors[32] in parentheses and matches between bioprint and the
+method presented here in bold):
+h2 (histamine plus h1 in bioprint work)
+a1, a2a (plus nonspecific a)
+b2 (nonspecific b)
+opioid-m (d, nonspecific opioid)
+opioid-k (d, nonspecific opioid)
+ xxxg894xxx 
+5ht2a
+d2, d3, d4
+herg k + channel
+in addition, bioprint predictions include inhibition of serotonin reuptake and inhibition of hemozoin formation as well as
+kca and sarcoplasmic ca2 + release,[32] which were not included
+in our model and could thus not be predicted. again, overall
+good agreement of binding predictions on this sample compound can be observed. combined with the cross-validation of
+both the psp and the adr model presented above we are confident that in silico safety pharmacology models, such as the
+ones presented herein, can add value in holistically assessing
+the quality of a potential drug candidate in a facile, predictive,
+and relatively low-cost way.
+sample predictions of adverse reactions: the cases of  xxxd234xxx , rapacuronium, and  xxxd3265xxx 
+a sample set of drugs was recently presented[43] which were
+withdrawn from the market because of adverse side effects,
+where the reasons for withdrawal include primary pharmacolo-
+
+f 2007 wiley-vch verlag gmbh & co. kgaa, weinheim
+
+chemmedchem 2007, 2, 861 – 873
+
+prediction of adverse side effects from chemical structure
+
+table 1. prediction performance of the 10-fold random validation of the psp model.[a}
+class
+
+sensitivity
+
+selectivity
+
+% correct
+
+class
+
+sensitivity
+
+selectivity
+
+% correct
+
+5-ht1a
+5-ht2a
+5-ht2b
+5-ht2c
+5-ht3
+ xxxg1118xxx 
+ xxxg1119xxx 
+5-ht7
+ xxxg2150xxx 
+a1
+a2a
+a3
+alpha1
+alpha2a
+alpha2b
+alpha2c
+ant
+at1
+ xxxg836xxx 
+beta2
+ xxxg838xxx 
+bkb1
+bkb2
+ccka
+cckb
+cox-1
+cox-2
+d1
+d2
+d3
+d4.4
+d5
+dat
+ xxxg731xxx 
+ xxxg676xxx 
+
+87.61 %
+90.05 %
+95.80 %
+92.28 %
+95.27 %
+95.56 %
+96.11 %
+87.22 %
+89.15 %
+99.08 %
+93.60 %
+88.65 %
+81.48 %
+97.02 %
+93.58 %
+95.05 %
+89.33 %
+96.80 %
+98.00 %
+92.96 %
+100.00 %
+95.12 %
+99.35 %
+97.01 %
+97.81 %
+99.04 %
+98.31 %
+89.80 %
+87.83 %
+88.71 %
+97.53 %
+98.73 %
+84.15 %
+99.89 %
+99.20 %
+
+63.25 %
+34.92 %
+13.24 %
+29.65 %
+33.97 %
+7.61 %
+5.91 %
+13.57 %
+59.17 %
+78.62 %
+58.95 %
+42.69 %
+46.19 %
+11.18 %
+10.59 %
+11.81 %
+6.10 %
+74.46 %
+40.07 %
+20.59 %
+46.68 %
+7.37 %
+75.29 %
+68.04 %
+78.71 %
+62.40 %
+74.79 %
+21.61 %
+55.17 %
+24.72 %
+7.86 %
+4.64 %
+83.97 %
+50.14 %
+96.64 %
+
+93.48 %
+89.01 %
+85.68 %
+91.51 %
+94.28 %
+97.63 %
+86.61 %
+92.06 %
+94.87 %
+97.34 %
+95.55 %
+92.05 %
+91.91 %
+87.68 %
+89.89 %
+88.57 %
+95.29 %
+98.10 %
+98.48 %
+95.19 %
+99.44 %
+94.43 %
+99.42 %
+98.31 %
+98.97 %
+97.58 %
+98.18 %
+89.35 %
+90.70 %
+87.08 %
+89.50 %
+92.78 %
+96.97 %
+98.01 %
+99.80 %
+
+ xxxg677xxx 
+gabaa
+gaba-b
+ xxxg874xxx 
+gr
+h1
+h2
+h3
+hergrlb
+m1
+m2
+m3
+m4
+m5
+mc3r
+mc4r
+mtl-r
+nachr
+net
+nk1
+ xxxg2240xxx 
+nmdach
+npy1-r
+ xxxg1591xxx 
+nt1
+opioid-d
+opioid-k
+opioid-m
+ xxxg1695xxx 
+ xxxg1700xxx 
+pde6
+pr-b
+txa2
+v1a
+v2
+
+99.52 %
+96.71 %
+98.68 %
+94.92 %
+100.00 %
+90.70 %
+95.73 %
+88.91 %
+95.70 %
+88.24 %
+88.91 %
+88.07 %
+96.40 %
+94.88 %
+86.22 %
+82.31 %
+90.40 %
+93.09 %
+90.59 %
+84.90 %
+83.55 %
+95.72 %
+91.56 %
+87.13 %
+87.74 %
+90.94 %
+82.40 %
+86.25 %
+94.58 %
+96.64 %
+100.00 %
+100.00 %
+95.93 %
+93.01 %
+99.42 %
+
+74.25 %
+47.50 %
+24.15 %
+19.28 %
+70.30 %
+27.25 %
+21.93 %
+71.48 %
+27.03 %
+60.29 %
+51.28 %
+57.09 %
+21.25 %
+18.55 %
+11.60 %
+19.91 %
+12.46 %
+61.32 %
+30.96 %
+55.52 %
+42.89 %
+69.37 %
+7.11 %
+4.52 %
+3.46 %
+60.40 %
+54.14 %
+63.13 %
+51.35 %
+4.49 %
+6.43 %
+7.88 %
+14.18 %
+29.37 %
+59.84 %
+
+98.85 %
+97.65 %
+98.94 %
+96.60 %
+99.37 %
+92.41 %
+90.67 %
+98.27 %
+91.84 %
+96.64 %
+96.24 %
+97.42 %
+94.11 %
+94.23 %
+87.99 %
+91.17 %
+97.42 %
+97.40 %
+90.19 %
+96.29 %
+97.15 %
+97.39 %
+89.35 %
+92.84 %
+94.11 %
+94.22 %
+93.86 %
+93.68 %
+97.54 %
+88.91 %
+94.01 %
+97.83 %
+93.82 %
+97.31 %
+98.95 %
+
+[a] whereas some of the classes are not predicted well, overall on average 92.2 % sensitivity and 31.8 % selectivity per class are achieved, in effect classifying 92.9 % of all compounds correctly.
+
+gy issues, secondary pharmacology problems, and organ toxicity. adverse reactions of two of the compounds are discussed,
+rapacuronium and  xxxd3265xxx , as are the adrs of acetylsalicylic
+acid (with about 60 000 tons per year, the world’s most widely
+used drug as measured by weight).
+ xxxd234xxx  belongs to the group of nonsteroidal
+anti-inflammatory drugs and is applied to the symptomatic
+relief of various pains (head, muscles, teeth, menstrual pain)
+and as an antiarthritic compound. its inhibition of platelet aggregation renders it in low doses a prophylactic compound to
+reduce the risk of myocardial infarcts. primary targets are the
+cyclooxygenases (unspecific, subforms 1 and 2) involved in
+prostaglandin synthesis. the most profound adverse reactions
+observed are gastrointestinal problems comprising ulcerations,
+abdominal bleeding and gastritis, tinnitus, cramps, nausea,
+rash, liver and kidney toxicity, and vertigo (table 3). among the
+predicted adverse reactions (table 3, right hand side column)
+the prediction of cns depressant effects on position one (out
+of about 140) might be surprising, but there are signs that in
+addition to inhibiting cyclooxygenase,  xxxd234xxx  also
+has cns activity.[44] cns toxicity has also been established,[44]
+chemmedchem 2007, 2, 861 – 873
+
+providing some support for the prediction. gastrointestinal
+bleeding is predicted as the second most likely adverse reaction which is fully supported by evidence.[45] hypotension has
+been reported in conjunction with the compound, but mostly
+in hypersensitive patients. the prediction of tinnitus as a side
+effect is interesting—it is a well established side effect, where
+involvement of the protein prestin is suspected.[46] speaking
+more generally, the analysis of datasets in the current form is
+able to establish statistical molecular feature–adverse reaction
+relationships, hopefully also facilitating the elucidation of underlying mechanistic frameworks.
+rapacuronium is a short-acting neuromuscular blocking
+agent which, until its withdrawal from the market, was employed in operations during intubation. the reason why it was
+withdrawn from the market was its tendency to induce bronchospasms, which is thought to be due to m2 antagonism
+without simultaneous m3 antagonism which leads to the excessive release of acetylcholine. apart from this main adverse
+reaction, arrhythmia, vomiting and nausea, several typical cholinergic and anticholinergic reactions (increased saliva flow, hypothermia, urinary retention) and other effects are also ob-
+
+f 2007 wiley-vch verlag gmbh & co. kgaa, weinheim
+
+www.chemmedchem.org
+
+865
+
+med
+
+a. bender et al.
+
+table 2. predicted adverse reactions for benperidol by the adr model, compared to experimentally observed adverse reactions and the bioprint model.[a]
+name
+
+structure
+
+benperidol
+
+desired target/
+action
+
+known adverse drug re- predicted adverse reaction
+actions
+
+bioprint predictions
+
+dopamine d2
+receptor
+
+hypotension
+postural hypotension
+tachycardia
+somnolence
+akathisia
+dyskinesia
+tardive dyskinesia
+dystonia
+extrapyramidal symptoms
+neuroleptic malignant
+syndrome
+oculogyric crisis
+opisthotonos
+torticollis
+constipation
+dry mouth
+urinary retention
+hypothermia
+eeg abnormalities
+convulsion
+gynecomastia
+galactorrhea
+rhinitis
+weight gain
+cholestatic hepatosis
+hypersalivation
+blood dyscrasias
+amenorrhea
+
+hypotension
+postural hypotension
+tachycardia
+somnolence
+akathisia
+dyskinesia
+tardive dyskinesia
+dystonia
+extrapyramidal symptoms
+neuroleptic malignant
+syndrome
+oculogyric crisis
+opisthotonos
+torticollis
+catatonic reaction
+constipation
+dry mouth
+urinary retention
+hypothermia
+eeg abnormalities
+convulsion
+gynecomastia
+galactorrhea
+rhinitis
+
+movement_extrapyramidal_disorder
+12.32
+general_parasympatholytic_effects 11.2
+movement_parkinsonism 10.01
+female_organs_breast_problems 5.59
+reproductive_system_impotence 3
+body_temperature_decreased 2.95
+female_organs_menstrual_disorder 2.83
+urinary_tract_diminished 2.76
+bodyweight_gain_increased_appetite
+2.67
+earnosethroat_flu_like_symptoms 2.64
+skin_dermatitis 2.61
+reproductive_system_general_disorder
+2.52
+heart_downregulation_hypotension_
+bradycardia 2.51
+oral_tract_dry_mouth 2.5
+heart_general_arrhythmia 2.38
+liver_damage_jaundice 2.35
+skin_phytosensitivity 2.21
+eyes_miosis_mydriasis 2.21
+gi_constipation 2.13
+
+[a] bayes scores for each adr are also shown. of the side effects reported in the bioprint publications and an additional source (www.netdoctor.co.uk) virtually all side effects are predicted correctly by the adr model. this is also true for some adrs missed by the bioprint approach such as “nasal congestion”
+and “sexual disorders”. as a result of different nomenclature, these effects are captured as “impotence” and “flu like symptoms” by our method.
+
+served (for a full list see table 3). the predicted adverse reactions that feature most prominently in the list are indeed the
+ones related to the respiratory system, such as asthma, apnea,
+and bronchospasms. interesting is the proposed association of
+this compound with priapisms (abnormal, long-lasting erections without sexual stimulation). looking at the training set
+compounds, it can be seen that corticosteroids and steroids
+such as testosterone are known to be associated with this reaction, making the prediction understandable. arrhythmia features in the list of predicted adverse reactions, which is also in
+agreement with observations.
+ xxxd3265xxx , an inhibitor of prostaglandin biosynthesis, was admitted to the market based on its superior potency, compared
+to similar drugs such as ibuprofen.[47] it was withdrawn because of increased incidence of flank pain syndrome associated
+with renal dysfunction and is currently only available as a local
+agent in ophthalmics. predicted adverse reactions include in
+the top position general kidney damage, in agreement with
+the observed effect, but also gastrointestinal bleeding, sleep
+disorder, tinnitus, and other effects.
+the examples shown underline the value of the models in
+early drug discovery stages where red flags can be used as an
+early indicator for follow-up or prioritization for further experimentation. given that the effort to annotate compounds is
+
+866
+
+www.chemmedchem.org
+
+minimal, the method presented here represents a quick yet
+powerful way to annotate large compound collections such as
+virtual libraries without performing in vitro studies in each instance.
+correlations between psp targets
+the between-group similarities between the whole sets of ligands binding to each of the 70 psp targets are shown in
+figure 3. the higher the similarities, the higher the propensity
+for ligands hitting one target to also bind to the second
+target. only a small number of observations shall be discussed
+here, as further analysis is still being undertaken. generally,
+chemical features associated with binding are more similar
+within target families, as compared to chemical features associated with binding to completely unrelated targets. this can be
+observed for virtually every target family, the 5ht receptors,
+adenosine receptors, alpha and beta adrenoreceptors (but only
+separately, not for the whole class of adrenoreceptors), dopamine, histamine, muscarinic, and the group of opioid receptors, to capture just the largest classes. this finding is in agreement with a recent publication[48] and it can be seen as a kind
+of first principle of chemogenomics: just as protein sequences
+are related, small molecule bioactivities are as well. the similar-
+
+f 2007 wiley-vch verlag gmbh & co. kgaa, weinheim
+
+chemmedchem 2007, 2, 861 – 873
+
+prediction of adverse side effects from chemical structure
+
+table 3. prediction of the adverse effects three compounds,  xxxd234xxx , rapacuronim and  xxxd3265xxx , along with observed adverse reactions.[a]
+name
+
+structure
+
+desired target/action
+
+adr leading to withdrawal known adverse drug reac- predicted adverse reaction
+(where applicable)
+tions
+
+acetylsalicylic
+acid
+
+depending on action
+n/a
+cox (unspecific) or unknown
+
+gi problems (ulcerations,
+abdominal burning, bleeding, gastritis)
+ringing in the ears
+pain
+cramping
+nausea
+rash
+liver toxicity
+kidney impairment
+vertigo
+bronchospasm (m2 antago- fever
+nist without m3 antagohypothermia
+nism leads to excessive re- hypertension
+lease of acetylcholine)
+arrhythmia/extrasystoles/
+tachycardia
+ileus
+increased saliva flow
+rigors
+back/chest pain
+thrombosis
+cerebrovascular disorder
+broad range of respiratory
+disorders
+(hypoxia, apnea, pneumothorax, laryngismus)
+injection site reaction/pain
+increased sweating
+prolonged neuromuscular
+block
+prolonged anesthesia
+emergence
+muscle disorders
+(hypothesia, hemiparesis,
+hypertonia)
+vomiting/nausea
+skin disorders (edema,
+rash, pruritis)
+post-operative bleeding
+urinary retention
+flank pain syndrome, renal n/a
+dysfunction,  xxxd3472xxx  secretion
+
+cns_depression 2.82
+gi_bleeding 2.59
+heart_downregulation_hypotension_bradycardia
+2.24
+hearing_tinnitus 2.22
+sleep_disorder 2.15
+
+rapacuronium
+
+nicotinic receptor
+blocker; short-acting
+neuromuscular blocking agent for intubation
+
+lungs asthma 122.77
+lungs apnea 35.03
+reproductive system
+priapism 23.73
+lungs bronchospasms
+11.08
+reproductive system ovaries 7.33
+muscles paralysis 6.77
+reproductive system male organs 5.6
+bones premature epiphyseal closure 3.66
+mutations other 3.03
+cns depression 2.58
+heart general arrhythmia
+2.35
+heart downregulation hypotension bradycardia 2.3
+metabolism nitrogen
+creatinine 2.3
+gi biliarytract disease 2.2
+
+ xxxd3265xxx 
+
+n/a
+
+kidney damage general
+2.54
+gi bleeding 2.46
+sleep disorder 2.44
+hearing tinnitus 2.28
+urinary tract frequency
+2.18
+skin phtosensitivity 2.11
+gi constipation 2.06
+general malaise 2.03
+
+[a]  xxxd234xxx  is the most consumed drug in the world today (about 60 000 tons/year) whereas rapacuronium and  xxxd3265xxx  have been withdrawn
+from the market because of bronchospasms and renal failure, respectively.
+
+ities of ligands of unrelated targets present more novel findings. for example, monoamine transporters such as the serotonin transporter ( xxxg2150xxx ),  xxxg2149xxx  (dat), and norepinephrin transporter (net) share considerable similarity
+among their ligands. histamine ligands and small molecules
+blocking the herg  xxxg1232xxx  are similar and indeed
+antihistamines were found to cause arrhythmia to which herg
+blocking seems to contribute.[49] whereas off-target effects of
+compounds are often treated as individual properties of molechemmedchem 2007, 2, 861 – 873
+
+cules, the analysis of datasets as performed here seems to hint
+at a group property of the whole class of antihistamines: as a
+group, they share features linked to herg binding, therefore as
+a group they are more likely to show this off-target effect.
+the analysis of multiple activities, relating to the question
+which multitarget drugs (combinations of targets) are more
+feasible to be targeted simultaneously than others, has also
+been subject to further analysis.[50]
+
+f 2007 wiley-vch verlag gmbh & co. kgaa, weinheim
+
+www.chemmedchem.org
+
+867
+
+med
+
+a. bender et al.
+
+figure 3. similarities between whole activity classes, here the 70 targets used in preclinical profiling. red colors indicate high class-similarities, whereas green
+colors show low similarities. similarity is determined by the pearson correlation of normalized feature probabilities in each bayesian model (see experimental
+section). receptor families share ligand similarity, but also groups such as antihistamines ( xxxg1078xxx ) and herg blockers, which is in agreement with the arrhythmic effect this class of compounds possesses.
+
+868
+
+www.chemmedchem.org
+
+f 2007 wiley-vch verlag gmbh & co. kgaa, weinheim
+
+chemmedchem 2007, 2, 861 – 873
+
+prediction of adverse side effects from chemical structure
+linking targets and adverse reactions: adverse reactions associated with the muscarinic acetylcholine receptor 2 (m2
+receptor), the m opioid receptor, and  xxxg1883xxx 
+whereas up to this point only findings within either preclinical
+profiling space or adverse drug reactions space have been presented, we will investigate the intersection of both spaces.
+the relationship between the 166 adr effect classes and the
+70 psp panel proteins is depicted in the upper left hand
+corner of figure 4. the larger the similarity between the model
+for an adverse reaction and a target class, the more likely the
+two are to be related. similarity reflects overlap in chemical
+substructures correlated with binding or activity. as the information content of this full matrix is huge, only a small number
+of observations shall be analyzed further, namely those ten
+classes of adverse reactions which were most often associated
+with the muscarinic acetylcholine receptor 2 ( xxxg448xxx ), the
+m opioid receptor, and  xxxg1883xxx .
+for the m opioid receptor, the most associated adverse reactions are (in this order) dependence, emotional disorder and
+
+depression, death, muscle cramps, hypotension and bradycardia, pruritus, nausea, respiratory disorder, elevated body temperature, and gi/biliary tract disease. opioids such as morphine
+or heroine are highly addictive and their side-effect profiles are
+well established, and indeed the adverse reactions have all
+been observed.[51]
+the adverse reactions most often associated with the muscarinic  xxxg448xxx [52] are shown in the center column of
+figure 4. dry skin is also a typical anticholinergic reaction[52]
+and might be involved in the transport of agents necessary for
+wound healing. dry mouth is also typical for compounds of
+this class[52] which is a possible explanation for the difficulty in
+swallowing. muscarinic stimulation of the cns is well established as is its cause of constipation.[52] muscarinic m2 receptors
+are expressed in the visual cortex, interference of which leads
+to effects such as the observed eye irritation, hypertension,
+and visual disorder.[52] involvement of the  xxxg448xxx  in teratogenic effects is in fact a suggestion made quite recently,
+when the teratogenic effect of toluene was explained by inhibition of muscarinic receptor mediated cytosolic ca2 + response
+
+figure 4. adverse drug reactions predicted to be associated with the muscarinic m2 and the opioid m receptor, as well as  xxxg1883xxx . in this case, all
+side effects predicted to be associated with this receptor could be corroborated by literature studies. used in a prospective manner, novel target/adr links
+can also be established. some of the links have indeed only been published quite recently.
+
+chemmedchem 2007, 2, 861 – 873
+
+f 2007 wiley-vch verlag gmbh & co. kgaa, weinheim
+
+www.chemmedchem.org
+
+869
+
+med
+
+a. bender et al.
+
+in neural precursor cells.[30] one of the main effects associated
+with cox-1 inhibition, is its effect on blood clotting.[53] indeed,
+many of the effects statistically most profoundly associated
+with this target are related to this effect. as shown in figure 4,
+excessive bleeding and gastrointestinal bleeding are directly
+associated with cox-1 inhibition.[53] other gi effects are also
+found to be related, namely ulcers and colitis. the next cluster
+of side effects are skin reactions, here the cluster includes erythema/stevens johnson syndrome/necrolysis and dermatitis.
+both pge2 and pgi2 are involved in the development of inflammatory erythema.[53] in anemia, bleeding times are increased,
+which is also observed in the case of cox-1 inhibition. prostaglandins are known to influence bronchial tone and blood
+vessel constriction and dilation, depending on the particular
+prostaglandin. thus, the effects of water in the lungs and
+asthma can be explained, as raised levels of bronchoconstrictor
+pgs in the lungs may contribute to allergic bronchospasm
+during asthmatic attacks.[53] the overall influence on asthma is
+unclear though and may depend on isoform selectivity.[53]
+there seems to be an influence of cox inhibition on the development of pancreatitis as the protective effect of hepatocyte
+growth factor is diminished.[54]
+overall, good agreement can be found between predicted
+side effects and the literature on targets we examined. this is
+particularly interesting, given that some of the experimental
+findings are from recent years; thus the method should also
+enable us to make prospective predictions of links between
+targets and adverse reactions.
+in addition to binding to particular receptors, the ligand
+needs to be partitioned in the particular body compartment,
+so its pharmacokinetic properties also play a role as to whether
+a side effect is observed or not. this point is not yet addressed
+explicitly in the model, although implicitly all structural properties statistically associated with a particular property are considered by the model, including pharmacokinetic properties. a
+limitation of this is the descriptor chosen, which may not capture all structural properties which define pharmacokinetics in
+its entirety.
+interpretation of the arrhythmia model
+one strength of the current method is that features in the
+models are back-mappable onto test structures. for example,
+by employing the adr model, features statistically associated
+with causing adverse drug reactions can be identified. this can
+be seen as an analogy to pharmacophore elucidation, where
+features responsible for receptor binding are identified. here,
+as adverse drug reactions are rarely based on a single mechanism, empirical toxicophores for adverse drug reactions can be
+analyzed. figure 5 shows a sample analysis for drugs causing
+arrhythmia. 763 out of the 3,355 compounds taken from the
+world drug index belong to this category. it can be seen that
+different classes of fragments are associated with drugs causing arrhythmia, including fragments containing nitrogen heterocycles, organophosphorous moieties, and also differently
+branched hydrocarbon scaffolds. a typical example for compounds containing the thiomorpholine substructure (first frag-
+
+870
+
+www.chemmedchem.org
+
+ment) is the antipsychotic compound chlorpromazine, which is
+an antagonist of the  xxxg656xxx  and which is known to prolong the qt interval.[55] the seven-membered nitrogen cycle
+for example, is found in antidepressants such as the family of
+imipramines, for which arrhythmic effects are also well established.[56] finally, the organophosphorous fragment is a frequent substructure of suicide acetylcholinesterase inhibitors,
+which are known to cause arrhythmia in vivo.[57] therefore,
+consistent models between empirically derived features, targets, and adverse drug reactions can be derived, which in the
+simplest case as given here, establishes one-to-one relationships between adverse effects and targets. information of this
+type can be used both for the annotation of compounds and
+the design of adr-relieved libraries for screening.
+the analysis between psp models can also be used in a different way, namely by subjecting the correlation between psp
+models to a principal component analysis (pca). this is shown
+in figure 6. the distance and direction of each assay from the
+coordinate origin depicts the correlation (or orthogonality) between the different target panel proteins. proteins which
+behave similarly point into similar directions in space. orthogonal proteins (affinity to one target increases whereas it decreases for the other for two adverse drug reactions) point
+into orthogonal directions. opposite directions indicate anticollinear behavior. it can be seen that many of the panel proteins
+share information content. interestingly the 5ht and m families
+have very similar loadings on the first principle components,
+along with the alpha adrenoreceptors. on a coarse-grained
+scale, dopamine, muscarinic, and serotonin receptors can be
+classified as sharing information content (because of shared
+substructures between the models responsible for activity).
+this is not given for example between the alpha and beta
+adrenergic receptors. interestingly the lower left-hand direction
+of the plot is empty, meaning that no panel protein behaves
+orthogonal to for example, the adenosine family (a1, a2a) or
+the endothelin receptors. by incorporating novel receptors in
+this kind of plot, voids can potentially be filled and receptors
+which behave very similarly can be removed (ongoing work).
+one should be aware though that only 35 % of the explained
+variance is depicted in two dimensions, with 24 eigenvectors
+needed to explain 90 % of the variance, indicating that higher
+principal components will in most cases contain additional information.
+pca combined with a suitable categorization of psp profiles
+can be employed to construct an information-optimal panel of
+psp target proteins where adverse effect-related information is
+identified by the smallest possible number of macromolecular
+targets. alternatively, targets in the preclinical profiling panel
+can be chosen to confer maximum information at a given size,
+or at least, to prioritize targets for testing when resources are
+limited. looking forward, this analysis can also be performed
+on targets which are not being considered for safety profiling
+yet and those which are predicted to be most associated with
+adverse reactions may potentially be very useful supplements
+for pharmacological safety studies in the future.
+
+f 2007 wiley-vch verlag gmbh & co. kgaa, weinheim
+
+chemmedchem 2007, 2, 861 – 873
+
+prediction of adverse side effects from chemical structure
+
+figure 5. structural features empirically found to be correlated with arrhythmia. substructures such as scaffolds found in antipsychotic compounds, pure
+carbon scaffolds at different saturation levels and nitrogen heterocycles were found to belong to this category of proarrhythmic compounds. as no underlying mechanistic assumption is necessary multiple submodels (mechanisms) can be contributing to a single model. sample structures are mentioned in the
+text.
+
+conclusions
+in this work, novel and prospective steps towards a better understanding of adverse drug reactions and the computer-aided
+flagging of compounds with undesirable side effects were performed. for both a panel of preclinical profiling targets and adverse reactions, in silico models were validated which can be
+used for prioritizing compounds and routine compound annotation.
+by combining both models, adverse reactions and targets
+can be linked, and examples for the muscarinic m2, the m
+opioid receptors, and  xxxg1883xxx  were given. previous
+studies cited provided support for the links between targets
+and adverse reactions. given that a good part of these links
+was established recently, it is hoped that novel, prospective relations can also be inferred by this route (figure 1).
+in addition the information linking adverse effects and psp
+activity predictions can be used to examine the information
+content contained in the psp panel, suggesting an information-optimal panel of targets which gives the maximum information possible at a given panel size (or alternatively the
+smallest possible panel at a given information threshold).
+chemmedchem 2007, 2, 861 – 873
+
+the in silico models of adverse reactions and understanding
+of receptor systems developed in the current study are valuable tools for early compound profiling. it is hoped that future
+work in this area will contribute to reducing late-stage failures
+in drug discovery and development significantly.
+
+experimental section
+psp dataset and model
+the psp dataset contained 100 269 data points for 70 targets obtained from the wombat and the novartis in-house databases (for
+details see table 1 of the supporting information). compounds
+were defined as active at a quantitative annotation (ki/ic50) less or
+equal than 10 mm and inactive without this annotation (thus including both experimentally determined inactives and missing
+data points, or presumed inactives). the size of the datasets differs
+greatly from 4890 ligands of the  xxxg656xxx  to 68
+blockers of the gestagen receptor. no filter was used to control
+the size of the dataset to incorporate as much knowledge into the
+models as possible. molecules were standardized in pipelinepilot
+5.1[58] employing the options standardizestereo and standardizecharges. for details on the model generated see a recent publication on chemogenomics approaches for the prediction of drug-tar-
+
+f 2007 wiley-vch verlag gmbh & co. kgaa, weinheim
+
+www.chemmedchem.org
+
+871
+
+med
+
+a. bender et al.
+
+principal component analysis
+principal component analysis
+(pca) was performed using spotfire.[61]
+inter-class similarity
+for any pairing of psp target and
+adr, the similarity between the
+two was established by computing
+the pearson correlation between
+the normalized feature probabilities from the individual bayesian
+models. only the 10,000 most frequent features of each individual
+(adr/psp) model which were also
+present in both model sets were
+used. this step was found to improve the overlap of chemical substructures between the adr and
+psp datasets which otherwise
+would cover very different areas of
+chemical space. correlations were
+normalized per adr, that is, every
+adverse reaction was assigned the
+same overall probability, with diffigure 6. variable loadings of the 70 psp targets as a result of a principal component analysis. targets close to
+ferent distributions of correlations
+each other convey similar information with respect to predicting adverse drug reactions whereas ‘orthogonal’ tarover the psp targets. in contrast to
+gets (far away from each other) give complementary information. interesting here is that dopamine receptors and
+the approach of comparing targets
+serotonin (5ht) receptors cluster together in the bottom left hand corner of the plot which may be a result of the
+similarity of the endogenous ligands. the herg channel clusters with several gpcrs, as might be expected from
+on the basis of their overlap in
+pharmacophore literature.
+small-molecule inhibitors,[62] determining similarity via statisticallycorrelated features allows one to
+gets[39] which can be seen as a psp-like model trained on all targets
+determine target-target or target-adr similarity even when no
+present in a given database. for more recent target prediction
+exact chemical structures are in common between datasets. in
+studies using 3d descriptors[40] as well as a review on the topic[41]
+other words, only important substructures of compounds need to
+the reader is referred to the literature. a multicategory bayes
+be shared between two targets to find similarity. this is important
+model was generated employing ecfp_4 fingerprints[58] and relabecause data from pooled sources do not contain a complete extive bayes scores of larger than one were interpreted as being posperimental matrix of all compounds tested against all targets.
+itives in the model predictions. circular fingerprints such as those
+employed in the current study have been shown to perform well
+in comparative ligand-based virtual screening studies[59, 60] and thus
+acknowledgements
+they can be expected to convey a large amount of information relevant to biological activity.
+the nibr education office is thanked for supporting a.b. and j.s.
+adr dataset and model
+steve bonner and david nick are thanked for their invaluable
+to analyze adverse drug reactions 48,509 data points representing
+knowledge regarding novartis’ internal structure–activity data3,355 compounds were extracted from the wdi. after streamlining
+bases.
+the adr list for repetitive appearance and spelling errors we obtained 462 distinct adverse reactions. for example, the term “hypersensitivity” was encountered in the database as “hypersensitivikeywords: adverse drug reactions · compound profiling ·
+ty”, “hypersensitivity”, “hypersensitivity”, “hypersensitivity.”, “hydrug side effects · preclinical profiling · safety pharmacology
+persensitivity.”, “hypersensitivity (r)”, “hypersensitivity (discontinue)”, “hypersensitivity (eye-drops)”, “hypersensitivity (possiblyfatal)”, “hypersensitivity (topical-use)”, “hypersensitivity-reactions”,
+[1] i. kola, j. landis, nat. rev. drug discovery 2004, 3, 711 – 715.
+“hypersensitivity-reactions.”, “hypersensitivity-reactions.”, “hyper[2] k. e. lasser, p. d. allen, s. j. woolhandler, d. u. himmelstein, s. n. wolfe,
+sensitivity reactions”, and “hyperstimulation-syndrome”. further sed. h. bor, j. am. med. assoc. 2002, 287, 2215 – 2220.
+mantic normalization (for example, merging ‘itching’ and ‘pruritus’)
+[3] j. wang, l. urban, drug discov. world 2004, 73 – 86.
+[4] f. charatan, br. med. j. 2001, 323, 359 – 359.
+this number was reduced to 166 side effects. the data subsets con[5] p. a. dieppe, s. ebrahim, p. juni, br. med. j. 2004, 329, 867 – 868.
+tained between 4,094 data points in case of general skin reactions
+[6] d. j. snodin, toxicol. lett. 2002, 127, 161 – 168.
+and 13 members in case of hypoplasia (damage to teeth enamel).
+[7] p. d. williams, regul. toxicol. pharmacol. 1990, 12, 238 – 252.
+details are given in table 2 of the supporting information for the
+[8] a. bass, l. kinter, p. williams, j. pharmacol. toxicol. methods 2004, 49,
+largest adr classes. despite the range of dataset sizes, like the psp
+145 – 151.
+dataset, we chose to include all of the compounds in the study to
+[9] s7a safety pharmacology studies for human pharmaceuticals. u. s. deincorporate as much knowledge into the models as possible. multipartment of health and human services. food and drug administracategory bayes models were trained as described for the psp datation, united states of america. available online at http://www.fda.gov/
+set.
+cder/guidance/4461fnl.htm.
+
+872
+
+www.chemmedchem.org
+
+f 2007 wiley-vch verlag gmbh & co. kgaa, weinheim
+
+chemmedchem 2007, 2, 861 – 873
+
+prediction of adverse side effects from chemical structure
+[10] s. whitebread, j. hamon, d. bojanic, l. urban, drug discovery today
+2005, 10, 1421 – 1433.
+[11] i. d. wakefield, c. pollard, w. s. redfern, t. g. hammond, j. p. valentin,
+fundam. clin. pharmacol. 2002, 16, 209 – 218.
+[12] m. c. sanguinetti, c. jiang, m. e. curran, m. t. keating, cell 1995, 81,
+299 – 307.
+[13] m. e. curran, i. splawski, k. w. timothy, g. m. vincent, e. d. green, m. t.
+keating, cell 1995, 80, 795 – 803.
+[14] o. roche, g. trube, j. zuegge, p. pflimlin, a. alanine, g. schneider,
+chembiochem 2002, 3, 455 – 459.
+[15] m. c. sanguinetti, m. tristan-firouzi, nat. chem. biol. 2006, 440, 463 –
+469.
+[16] p. hoffmann, b. warner, j. pharmacol. toxicol. methods 2006, 53, 87 –
+105.
+[17] w. s. redfern, l. carlsson, a. s. davis, w. g. lynch, i. mackenzie, s. palethorpe, p. k. siegl, i. strang, a. t. sullivan, r. wallis, a. j. camm, t. g.
+hammond, cardiovasc. res. 2003, 58, 32 – 45.
+[18] s. ekins, drug discovery today 2004, 9, 276 – 285.
+[19] s. ekins, j. a. erickson, drug metab. dispos. 2002, 30, 96 – 99.
+[20] k. azzaoui, j. hamon, b. faller, s. whitebread, e. jacoby, a. bender, j.
+jenkins, l. urban, chemmedchem, 2007, 2, 874 – 880
+[21] s. l. mcgovern, b. k. shoichet, j. med. chem. 2003, 46, 2895 – 2907.
+[22] s. l. mcgovern, e. caselli, n. grigorieff, b. k. shoichet, j. med. chem.
+2002, 45, 1712 – 1722.
+[23] o. roche, p. schneider, j. zuegge, w. guba, m. kansy, a. alanine, k.
+bleicher, f. danel, e. m. gutknecht, m. rogers-evans, w. neidhart, h.
+stalder, m. dillon, e. sjogren, n. fotouhi, p. gillespie, r. goodnow, w.
+harris, p. jones, m. taniguchi, s. tsujii, w. von der saal, g. zimmermann,
+g. schneider, j. med. chem. 2002, 45, 137 – 142.
+[24] p. csermely, v. agoston, s. pongor, trends pharmacol. sci. 2005, 26,
+178 – 182.
+[25] r. morphy, z. rankovic, j. med. chem. 2005, 48, 6523 – 6543.
+[26] j. hamon, k. azzaoui, s. whitebread, l. urban, e. jacoby, b. faller, eur.
+pharm. rev. 2006, 11, 60 – 63.
+[27] r. a. pearlstein, r. j. vaz, j. s. kang, x. l. chen, m. preobrazhenskaya,
+a. e. shchekotikhin, a. m. korolev, l. n. lysenkova, o. v. miroshnikova, j.
+hendrix, d. rampe, bioorg. med. chem. lett. 2003, 13, 1829 – 1835.
+[28] j. zuegge, u. fechner, o. roche, n. j. parrott, o. engkvist, g. schneider,
+qsar comb. sci. 2002, 21, 249 – 256.
+[29] t. klabunde, a. evers, chembiochem 2005, 6, 876 – 889.
+[30] j. shimada, s. ekins, c. elkin, e. i. shakhnovich, j.-p. wery, targets 2002,
+1, 196 – 205.
+[31] w. m. rockey, a. h. elcock, proteins struct. funct. bioinf. 2002, 48, 664 –
+671.
+[32] c. m. krejsa, d. horvath, s. l. rogalski, j. e. penzotti, b. mao, f. barbosa,
+j. c. migeon, curr. opin. drug discovery dev. 2003, 6, 470 – 480.
+[33] a. f. fliri, w. t. loging, p. f. thadeio, r. a. volkmann, j. med. chem. 2005,
+48, 6918 – 6925.
+[34] a. f. fliri, w. t. loging, p. f. thadeio, r. a. volkmann, nat. chem. biol.
+2005, 1, 389 – 397.
+[35] d. e. johnson, a. d. rodgers, curr. opin. drug discovery dev. 2006, 9,
+29 – 37.
+
+chemmedchem 2007, 2, 861 – 873
+
+[36] t. w. schultz, m. t. d. cronin, j. d. walker, a. o. aptula, j. mol. struct.
+(theochem) 2003, 622, 1 – 22.
+[37] world of molecular bioactivity (wombat), available from sunset molecular discovery llc, http://www.sunsetmolecular.com/.
+[38] a. bender, r. c. glen, org. biomol. chem. 2004, 2, 3204 – 3218.
+[39] nidhi, m. glick, j. w. davies, j. l. jenkins, j. chem. inf. model. 2006, 46,
+1124 – 1133.
+[40] j. h. nettles, j. l. jenkins, a. bender, z. deng, j. w. davies, m. glick, j.
+med. chem. 2006, 49, 6802 – 6810.
+[41] j. l. jenkins, a. bender, j. w. davies, drug discovery today technol. 2006,
+3, 413 – 421.
+[42] http://www.netdoctor.co.uk.
+[43] d. a. smith, e. f. schmid, curr. opin. drug discov. devel. 2006, 9, 38 – 46.
+[44] b. bromm, i. rundshagen, e. scharein, arzneim.-forsch. 1991, 41, 1123 –
+1129.
+[45] l. ibanez, x. vidal, l. vendrell, u. moretti, j. r. laporte, aliment. pharmacol. ther. 2006, 23, 235 – 242.
+[46] s. preyer, j. meyer,  xxxd2738xxx  2006, 54, 670 – 676.
+[47] e. l. tolman, m. e. rosenthale, r. j. capetola, j. l. mcguire, clin. rheum.
+dis. 1984, 10, 353 – 368.
+[48] a. schuffenhauer, p. floersheim, p. acklin, e. jacoby, j. chem. inf.
+comput. sci. 2003, 43, 391 – 405.
+[49] r. leurs, m. k. church, m. taglialatela, clin. exp. allergy 2002, 32, 489 –
+498.
+[50] a. bender, j. l. jenkins, m. glick, z. deng, j. h. nettles, j. w. davies, j.
+chem. inf. model. 2006, 46, 2445 – 2456.
+[51] a. d. furlan, j. a. sandoval, a. mailis-gagnon, e. tunks, can. med. assoc.
+j. 2006, 174, 1589 – 1594.
+[52] k. j. broadley, d. r. kelly, molecules 2001, 6, 142 – 193.
+[53] d. l. simmons, r. m. botting, t. hla, pharmacol. rev. 2004, 56, 387 – 437.
+[54] z. warzecha, a. dembinski, p. ceranowicz, s. j. konturek, r. tomaszewska, j. stachura, t. nakamura, p. c. konturek, eur. j. pharmacol. 2004,
+486, 107 – 119.
+[55] d. thomas, k. wu, s. kathofer, h. a. katus, w. schoels, j. kiehn, c. a.
+karle, br. j. pharmacol. 2003, 139, 567 – 574.
+[56] m. sala, f. coppa, c. cappucciati, p. brambilla, g. d’allio, e. caverzasi, f.
+barale, g. m. de ferrari, curr. opin. invest. drugs 2006, 7, 256 – 263.
+[57] c. m. finzi, g. bazzanini, a. m. tomasi, minerva med. 1964, 55, 698 – 701.
+[58] pipelinepilot 5.1, available from scitegic. http://www.scitegic.com/.
+[59] r. c. glen, a. bender, c. h. arnby, l. carlsson, s. boyer, j. smith, idrugs
+2006, 9, 199 – 204.
+[60] a. bender, h. y. mussa, r. c. glen, s. reiling, j. chem. inf. comput. sci.
+2004, 44, 1708 – 1718.
+[61] spotfire 8.0. http://www.spotfire.com.
+[62] g. v. paolini, r. h. shapland, w. p. van hoorn, j. s. mason, a. l. hopkins,
+nat. biotechnol. 2006, 24, 805 – 815.
+
+received: february 6, 2007
+revised: march 13, 2007
+published online on may 3, 2007
+
+f 2007 wiley-vch verlag gmbh & co. kgaa, weinheim
+
+www.chemmedchem.org
+
+873
+

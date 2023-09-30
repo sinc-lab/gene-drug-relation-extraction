@@ -1,0 +1,1094 @@
+biophysical journal
+
+volume 76
+
+january 1999
+
+233–245
+
+233
+
+state-dependent cocaine block of sodium channel isoforms, chimeras,
+and channels coexpressed with the ␤1 subunit
+sterling n. wright,* sho-ya wang,# yong-fu xiao,§ and ging kuo wang*
+*department of anesthesia research laboratories, harvard medical school, brigham and women’s hospital, boston, massachusetts
+02115; #department of biology, state university of new york at albany, albany, new york 12222; and §department of medicine,
+harvard medical school, beth israel deaconess medical center, boston, massachusetts 02215 usa
+
+abstract cocaine block of human cardiac ( xxxg2028xxx ) and rat skeletal (␮1) muscle sodium channels was examined under
+whole-cell voltage clamp in transiently transfected hek293t cells. low affinity block of resting ␮1 and  xxxg2028xxx  channels at ⫺180
+mv was the same, and high affinity block of inactivated channels at ⫺70 mv was the same. cocaine block of  xxxg2028xxx  channels
+was greater than block of ␮1 channels at voltages between ⫺120 mv and ⫺90 mv, suggesting that greater steady-state
+inactivation of  xxxg2028xxx  channels in this voltage range makes them more susceptible to cocaine block. we induced shifts in the
+voltage dependence of steady-state inactivation at ␮1 and  xxxg2028xxx  channels by constructing ␮1/ xxxg2028xxx  channel chimeras or by
+coexpressing the wild-type channels with the rat brain ␤1 subunit. in contrast to several previous reports, coexpression of the
+rat brain ␤1 subunit with ␮1 or  xxxg2028xxx  produced large positive shifts in steady-state inactivation. shifts in the voltage
+dependence of steady-state inactivation elicited linear shifts in steady-state cocaine block, yet these manipulations did not
+affect the cocaine affinity of resting or inactivated channels. these data, as well as simulations used to predict block, indicate
+that state-dependent cocaine block depends on both steady-state inactivation and channel activation, although inactivation
+appears to have the predominant role.
+
+introduction
+sodium channels are voltage-sensitive membrane proteins
+that produce the action potentials in excitable tissues such as
+nerve, skeletal muscle, and cardiac muscle. with sufficient
+depolarization from the resting potential, sodium channels
+activate, open, and allow sodium ion flux. within a few
+milliseconds of opening, the channels inactivate and return
+to a nonconducting state (hodgkin and huxley, 1952). the
+general structure of the sodium channel isoforms from different excitable tissues appears to be conserved (catterall,
+1995; fozzard and hanck, 1996). sodium channel ␣ subunits consist of four homologous domains (d1–d4), and
+each domain contains six transmembrane segments (s1–
+s6). the arrangement of the four domain regions in the
+membrane forms a pore for conducting sodium ions.
+although the structures of the different tissue isoforms of
+sodium channel are generally similar, there are marked
+differences among the isoforms in kinetic behavior and
+pharmacology. compared to skeletal muscle sodium channels, cardiac sodium channels activate and inactivate at
+more negative membrane potentials and have a slower time
+constant of macroscopic current decay when expressed in
+mammalian cells (wang et al., 1996a; wright et al., 1997).
+pharmacological differences between cardiac and skeletal
+muscle sodium channels include a relatively greater sensi-
+
+received for publication 31 march 1998 and in final form 16 september
+1998.
+address reprint requests to dr. sterling n. wright, department of biological sciences, murray state university, p.o. box 9, murray, ky 42071.
+tel.: 502-762-2087; fax: 502-762-2788; e-mail: sterling.wright@
+murraystate.edu.
+© 1999 by the biophysical society
+0006-3495/99/01/233/13 $2.00
+
+tivity of the cardiac muscle isoform to cd2⫹ ions and a
+lower sensitivity to tetrodotoxin (frelin et al., 1986). while
+the residues responsible for cd2⫹ and tetrodotoxin block
+have been delineated (tomaselli et al., 1995), sodium channel block by local anesthetics is less clearly understood
+because channel affinity profoundly varies depending on
+channel state.
+the two principal models used to explain the state-dependent modulation of receptor affinity are the modulated
+receptor hypothesis (hille, 1977) and the guarded receptor hypothesis (starmer et al., 1984). in hille’s (1977)
+modulated receptor scheme, the inactivation particle (h
+gate) accounted for the state-dependent alterations in receptor affinity. in contrast, starmer et al. (1984) attributed
+state-dependent alterations in receptor affinity to the activation particle (m gate). a clear determination of which
+mechanism is responsible for receptor modulation might
+help explain why some local anesthetics, such as cocaine or
+lidocaine, strongly affect cardiac physiology at concentrations that have little obvious effect on skeletal muscle
+physiology.
+the purpose of the present study was to examine the
+mechanisms that influence channel affinity and state-dependent cocaine block of skeletal muscle and cardiac sodium
+channels. two previous studies suggested that the anesthetic receptor in cardiac sodium channels has a higher
+affinity for lidocaine than does the receptor in skeletal
+muscle sodium channels, and that this difference in receptor
+affinity accounts for the difference in lidocaine sensitivity
+between cardiac and skeletal muscle tissue (nuss et al.,
+1995b; wang et al., 1996b). in contrast, we have recently
+shown that mammalian cardiac ( xxxg2028xxx ) and skeletal muscle
+sodium channels (␮1) have very similar affinities for co-
+
+234
+
+biophysical journal
+
+caine and for lidocaine (wright et al., 1997). at intermediate voltages (⫺120 mv to ⫺90 mv), however, cocaine
+blocked  xxxg2028xxx  channels with much greater potency, suggesting that the modulation of receptor affinity differs at the two
+isoforms. although we lacked direct evidence to support our
+hypothesis, we suggested that cocaine blocked a larger
+proportion of  xxxg2028xxx  channels than ␮1 channels at intermediate voltages because of greater steady-state inactivation of
+the  xxxg2028xxx  isoform (wright et al., 1997). to test this hypothesis, we induced shifts in steady-state inactivation by creating ␮1/ xxxg2028xxx  channel chimeras and also by coexpressing
+the rat brain ␤1 subunit with the ␣ subunits of  xxxg2028xxx  or ␮1.
+in stark contrast to data from other expression systems
+(isom et al., 1992, 1995; nuss et al., 1995a), we found that
+␤1 subunit coexpression induced strong positive shifts in
+the steady-state inactivation of both  xxxg2028xxx  and ␮1 channels.
+when we plotted the midpoint voltages of steady-state
+cocaine block as a function of the midpoint voltages of
+either steady-state activation or inactivation, we found that
+the relationship between block and steady-state inactivation
+was linear, and that block was better correlated with steadystate inactivation than with activation. in simulations of
+block, steady-state cocaine block of each channel could be
+fairly well predicted by using the steady-state inactivation
+curve of each channel and the kd values of resting and
+inactivated channels. the fit by the model was further
+improved by imposing an equilibrium shift in the steadystate inactivation curve. these data and the model suggested
+that the modulation of local anesthetic receptor affinity
+depends heavily on steady-state inactivation and perhaps to
+some extent on channel activation resulting from the coupling between inactivation and activation. some of the
+presented data have appeared in an abstract (wright et al.,
+1998).
+
+volume 76
+
+january 1999
+
+⫹1n. the ␮1(1–3) xxxg2028xxx (4) channel was cloned by ligating the large ␮1 clai
+fragment (domains 1–3) to the small  xxxg2028xxx  clai fragment (domain 3 and 4
+cytoplasmic linker and domain 4).
+the chimera, ␮1(1) xxxg2028xxx (2– 4), was created by using the bsiwi site (at
+positions 1328 –1333) of ␮1-cdna1/amp. this restriction site in ␮1 is
+located at the 3⬘ end junction of the domain 1 s6 segment. because  xxxg2028xxx 
+lacks this bsiwi site, we performed site-directed mutagenesis at the 3⬘ end
+junction of the domain 1 s6 segment of  xxxg2028xxx  (at positions 1252–1257) to
+create the clone  xxxg2028xxx -bsiwi ( xxxg2028xxx  also has a bsiwi restriction site in the 3⬘
+polylinker). three-way ligation was used to join dna fragments: 1.7
+kb-hindiii-bsiwi from ␮1-cdna1/amp, 4 kb-bsiwi from  xxxg2028xxx -bsiwi,
+and 5 kb-hindiii-bsiwi from  xxxg2028xxx -bsiwi. the orientations of
+␮1(1–3) xxxg2028xxx (4), ␮1(1) xxxg2028xxx (2– 4), and of two other channel chimeras
+( xxxg2028xxx (1–3)␮1(4) and  xxxg2028xxx (1)␮1(2– 4)) were determined by restriction mapping
+and sequencing. introduction of the restriction sites for chimera formation
+did not produce point mutations in either the ␮1 or the  xxxg2028xxx  portion of
+channel chimeras.
+
+channel expression in hek 293t cells
+the methods used for maintaining transformed human embryonic kidney
+(hek 293t) cells and for transiently expressing ␮1 (trimmer et al., 1989)
+and  xxxg2028xxx  (gellens et al., 1992) were described in a previous paper (wright
+et al., 1997). for transient expression of the ␣ subunits of cloned channels
+in hek cells, we prepared the following dna solution (cannon and
+strittmatter, 1993): 1 ␮g cd8 (cell surface antigen) and 2–10 ␮g sodium
+channel cdna clone in the pcdna1/amp vector (invitrogen, san diego,
+ca) were prepared in 250 mm cacl2 and added to a test tube containing
+0.36 ml hanks’ balanced salt (2⫻) solution (in mm: 274 nacl, 40 hepes,
+12 dextrose, 10 kcl, 1.4 na2hpo4, ph 7.05). after a 20-min incubation at
+22°c, the dna solution was added to a cell culture (in a ti-25 flask) that
+was 30 –50% confluent. after 15 h at 37°c, the transfected cells were
+replated onto 35-mm culture dishes (which also served as recording chambers) containing 2 ml fresh dmem supplemented with taurine (1%),
+penicillin/streptomycin (1%), and heat-inactivated fetal bovine serum
+(10%). for coexpression of the rat brain ␤1 subunit (isom et al., 1992) with
+␮1 or  xxxg2028xxx  ␣ subunits, saturating levels (⬎10-fold molar excess) of ␤1
+cdna were used to ensure that the resulting macroscopic currents were
+produced by channels consisting of both ␣ and ␤1 subunits.
+
+materials and methods
+solutions and chemicals
+
+electrophysiology procedures and data analysis
+
+the extracellular solution used to perfuse hek cells contained (in mm): 65
+nacl, 85 choline chloride, 2 cacl2, and 10 hepes (titrated with tetramethyl ammonium hydroxide to ph 7.4). the pipette solution contained (in
+mm) 100 naf, 30 nacl, 10 egta, and 10 hepes (titrated with cesium
+hydroxide to ph 7.2).  xxxd1736xxx  was purchased from
+mallinckrodt, inc. (st. louis, mo), and was stored at ⫺20°c as a 200 mm
+solution in distilled water. final anesthetic concentrations were obtained by
+serial dilution from a 10 mm stock solution prepared in external bathing
+solution.
+
+whole-cell voltage clamp (hamill et al., 1981) of hek cells was used to
+study macroscopic sodium currents at room temperature (23 ⫾ 2°c).
+electrode resistances ranged from 0.4 to 1.0 m⍀. command voltages were
+programmed by pclamp software and delivered by a list epc7 voltage
+clamp. data were sampled at 50 khz and were filtered at 5 khz. after
+gigaohm seal formation and establishment of whole-cell voltage clamp, the
+cells were always dialyzed for 25–30 min before acquiring data. timedependent shifts in the midpoint voltage of sodium channel availability
+during our experiments (⬃30 – 60 min after membrane rupture) would have
+been ⬃5–7 mv (wang et al., 1996a). the holding potential for all experiments was ⫺140 mv. most of the capacitative current was canceled by the
+epc7 circuitry. the remaining capacitative artifact and the leakage current
+were subtracted by the p/⫺4 method. the p/⫺4 method was not used for
+studies of use-dependent cocaine block. voltage errors at ⫹30 mv were
+ⱕ5 mv after 30 –50% compensation. least-squares curve fitting was
+performed with microcal origin software. depending on the experiment,
+data were fitted by an empirical boltzmann function {1/[1 ⫹ exp((v0.5 ⫺
+v)/k)]}, where v0.5 is the midpoint voltage of the function and k is the
+slope factor (in mv/e-fold change in current); by a single exponential
+function {y0 ⫹ a1*[1⫺exp(⫺x/␶1)]}; or by the sum of two exponential
+functions {y0 ⫹ a1*[1⫺exp(⫺x/␶1)] ⫹ a2*[1⫺exp(⫺x/␶2)]}. data are
+presented as mean ⫾ se.
+
+construction of ␮1/ xxxg2028xxx  channel chimeras
+for ␮1(1–3) xxxg2028xxx (4), site-directed mutagenesis (wang and wang, 1997) was
+used to create a clai site at positions 3862–3867 of the ␮1-cdna1/amp
+vector (the translation initiation site was at ⫹1n) by converting c into t at
+position 3867n. the ␮1-clai-3862 was further modified into ␮1-clai-clai
+by introducing another clai site in the 3⬘ polylinker. this was achieved by
+the digestion of ␮1-clai-3862 with sali, followed by a blunting reaction
+and ligation to the clai linker.  xxxg2028xxx -clai was created by mutating the
+attgac (4416 – 4421n) in the  xxxg2028xxx  clone (gellens et al., 1992) into a clai
+site: atcgat. the translation initiation site in the  xxxg2028xxx  clone is at position
+
+wright et al.
+
+cocaine block of sodium channels
+
+results
+role of domain regions in sodium channel
+activation and inactivation
+previous studies indicated that steady-state inactivation of
+␮1/ xxxg2028xxx  channel chimeras differed from the steady-state
+inactivation of the wild-type isoforms (makita et al., 1996;
+chahine et al., 1996; benzinger et al., 1997). our goal was
+to induce voltage-dependent shifts in steady-state channel
+activation or inactivation in an attempt to determine how
+shifts in channel kinetics might affect steady-state cocaine
+block. fig. 1 a shows current records obtained from the two
+wild-type sodium channels, ␮1 and  xxxg2028xxx , and from two
+channel chimeras. the ␮1 panel shows the four domains
+(d1–d4) of the sodium channel ␣ subunit, the charged (⫹)
+s4 segments in each domain, and the amino and carboxyl
+termini. the channel chimera, ␮1(1–3) xxxg2028xxx (4), contained domains 1–3 from the ␮1 ␣ subunit and domain 4 from the
+ xxxg2028xxx  ␣ subunit, whereas ␮1(1) xxxg2028xxx (2– 4) contained domain 1
+from ␮1 and domains 2– 4 from  xxxg2028xxx . despite repeated
+attempts, two other channel chimeras,  xxxg2028xxx (1)␮1(2– 4) and
+ xxxg2028xxx (1–3)␮1(4), failed to express current. to evoke the currents shown in fig. 1 a, we delivered 10-ms step depolarizations from a holding potential of ⫺140 mv. the inward
+currents for ␮1, ␮1(1–3) xxxg2028xxx (4), and ␮1(1) xxxg2028xxx (2– 4) channels
+peaked at ⫺30 mv, whereas the peak inward current for
+ xxxg2028xxx  channels occurred at ⫺40 mv. the time dependence of
+macroscopic current decay for both ␮1(1–3) xxxg2028xxx (4) and
+␮1(1) xxxg2028xxx (2– 4) channels clearly resembled the decay of  xxxg2028xxx 
+currents, which decayed more slowly than the ␮1 current.
+at ⫹30 mv, ␮1 current decayed with a time constant of
+0.28 ⫾ 0.01 ms (n ⫽ 7). in contrast,  xxxg2028xxx , ␮1(1–3) xxxg2028xxx (4), and
+␮1(1) xxxg2028xxx (2– 4) currents decayed with time constants of
+0.49 ⫾ 0.03 ms (n ⫽ 6), 0.46 ⫾ 0.02 ms (n ⫽ 11), and
+0.41 ⫾ 0.01 ms (n ⫽ 13), respectively.
+parts b and c in fig. 1 show the normalized membrane
+conductance and steady-state inactivation curves, respectively, for ␮1(1–3) xxxg2028xxx (4) and ␮1(1) xxxg2028xxx (2– 4) channels. these
+data were fitted with an empirical boltzmann function (solid
+lines) to determine the midpoint voltage (v0.5) and the slope
+factor (k). for comparison, the fitted boltzmann functions
+(dotted lines) for  xxxg2028xxx  and ␮1 channels (wright et al., 1997)
+are also shown in parts b and c. the activation (i.e., the
+conductance-voltage relationship) of both ␮1(1–3) xxxg2028xxx (4) and
+␮1(1) xxxg2028xxx (2– 4) channels more closely resembled the activation of ␮1 channels (fig. 1 b). the v0.5 value of channel
+activation for  xxxg2028xxx  channels was significantly (p ⬍ 0.05;
+t-test) more negative than were the v0.5 values of activation
+for ␮1, ␮1(1–3) xxxg2028xxx (4), or ␮1(1) xxxg2028xxx (2– 4) channels, whereas
+the v0.5 values of activation for ␮1(1–3) xxxg2028xxx (4) or
+␮1(1) xxxg2028xxx (2– 4) were not significantly different (p ⬎ 0.05)
+from that of ␮1 (table 1).
+we examined the steady-state inactivation properties of
+these four sodium channel isoforms by using a standard h⬁
+pulse protocol. we delivered 100 ms conditioning pulses of
+various amplitudes and measured the available sodium cur-
+
+235
+
+rent during a test pulse to ⫹30 mv (fig. 1 c, inset). the plot
+in fig. 1 c shows the averaged data for the channel chimeras and the solid lines represent the fits by a boltzmann
+function. the dotted lines are the fits to the averaged  xxxg2028xxx 
+and ␮1 data. the v0.5 values of steady-state inactivation of
+␮1(1–3) xxxg2028xxx (4) and ␮1(1) xxxg2028xxx (2– 4) channels fell between the
+v0.5 values of inactivation for  xxxg2028xxx  and ␮1, with ␮1(1–3) xxxg2028xxx (4)
+more closely resembling ␮1 and ␮1(1) xxxg2028xxx (2– 4) more closely
+resembling  xxxg2028xxx  (table 1). consistent with a previous report
+that used the oocyte expression system to examine inactivation (makita et al., 1996), the data in fig. 1 c suggest that
+all four domain regions contribute, perhaps equally, to the
+voltage dependence of steady-state inactivation.
+
+cocaine block of ␮1,  xxxg2028xxx , and chimeras
+as described above, chimera formation had distinct effects
+on channel activation and steady-state inactivation. the v0.5
+values of activation for both channel chimeras resembled
+that of ␮1, but the v0.5 values of steady-state inactivation
+for the chimeras were intermediate to those of ␮1 and  xxxg2028xxx .
+we compared the steady-state cocaine block of the four
+channels to perhaps distinguish whether the inactivation
+phenotype or the activation phenotype has the more prominent role in determining steady-state cocaine block. cocaine binds to the channels with a stoichiometry of 1:1, so
+we measured 30 ␮m cocaine block of the channels over a
+110 mv range of conditioning voltages. by using this approach, we were able to examine block of resting channels
+at the most negative conditioning voltages, block of inactivated channels at the least negative voltages, and block of
+varying proportions of resting and inactivated channels at
+intermediate voltages. the pulse protocol (fig. 1 d, inset)
+consisted of a 10-s conditioning pulse ranging from ⫺180
+mv to ⫺70 mv followed by a 100-ms interval at the
+holding potential and a subsequent test pulse to ⫹30 mv.
+as previously described (wright et al., 1997), a conditioning pulse of 10 s was necessary and sufficient for cocaine
+block to reach steady state at all of the channels in the study
+(n ⫽ 2–3 cells; data not shown). a 100-ms interval inserted
+between the conditioning pulse and the test pulse allowed
+drug-free channels to recover from fast inactivation. to
+normalize the data at each conditioning voltage, we divided
+the peak current amplitude at the test pulse in the presence
+of cocaine by the peak current amplitude elicited by the test
+pulse in control saline. at strongly negative conditioning
+pulses, 30 ␮m cocaine blocked ⬃10% of the resting
+␮1(1–3) xxxg2028xxx (4) and ␮1(1) xxxg2028xxx (2– 4) channels, which was similar to the block of resting ␮1 and  xxxg2028xxx  channels. when the
+channel chimeras were inactivated by a 10-s conditioning
+pulse to ⫺70 mv, 30 ␮m cocaine blocked ⬃75– 80% of the
+channels, which was similar to the block of inactivated ␮1
+and  xxxg2028xxx  channels. as with the wild-type channels, 300 ␮m
+cocaine blocked ⬃55% of the resting channels and ⬃97%
+of the inactivated channels (wright et al., 1997). at ⫺180
+mv, 300 ␮m cocaine blocked 55.5 ⫾ 1.7% (n ⫽ 5) of
+
+236
+
+biophysical journal
+
+volume 76
+
+january 1999
+
+figure 1 activation, steady-state inactivation, and cocaine block of ␮1,  xxxg2028xxx , and ␮1/ xxxg2028xxx  channel chimeras. (a) the sodium channel ␣ subunit
+structures and associated currents recorded from the two wild-type sodium channel isoforms, ␮1 and  xxxg2028xxx , and from two ␮1/ xxxg2028xxx  channel chimeras,
+␮1(1–3) xxxg2028xxx (4) and ␮1(1) xxxg2028xxx (2– 4), are shown. in the ␮1 panel, the domain regions, the charged (⫹) voltage sensing regions, and the amino and carboxyl
+termini are labeled. the channel chimera, ␮1(1–3) xxxg2028xxx (4), consisted of domains 1–3 from ␮1 and the interdomain linker between domains 3 and 4 and domain
+4 from  xxxg2028xxx , whereas ␮1(1) xxxg2028xxx (2– 4) consisted of domain 1 from ␮1 and domains 2– 4 from  xxxg2028xxx . the currents were evoked by 10-ms pulses from ⫺140
+mv to voltages ranging from ⫺100 mv to ⫹50 mv. the peak inward current and its corresponding voltage are labeled. (b) normalized membrane
+conductance (gm) plotted versus the amplitude of the 10-ms voltage step; gm was determined from the equation gm ⫽ ina/(em ⫺ ena), and the plot was
+fitted with a standard boltzmann function. for clarity, only the fits to the ␮1 and  xxxg2028xxx  data are shown. for ␮1, the average midpoint voltage (v0.5) and
+slope (k) of the function were ⫺32.8 ⫾ 2.8 mv and 9.3 ⫾ 1.5 mv, respectively. v0.5 and k were: ⫺48.0 ⫾ 1.8 mv and 9.4 ⫾ 0.9 mv, respectively, for
+ xxxg2028xxx ; ⫺27.8 ⫾ 1.2 mv and 9.8 ⫾ 0.3 mv, respectively, for ␮1(1–3) xxxg2028xxx (4); and ⫺32.4 ⫾ 0.6 mv and 9.7 ⫾ 0.6 mv, respectively, for ␮1(1) xxxg2028xxx (2– 4). (c)
+normalized sodium current availability function (h⬁) for the four channels. the pulse protocol is shown in the inset. the dotted lines are the fits to the
+averaged ␮1 or  xxxg2028xxx  data, as labeled. the average v0.5 values (50% availability) and k values for the fitted boltzmann functions were: ⫺78.5 ⫾ 1.0 mv
+and 6.1 ⫾ 0.3 mv, respectively for ␮1; ⫺94.1 ⫾ 1.4 mv and 7.7 ⫾ 0.1 mv, respectively, for  xxxg2028xxx ; ⫺82.2 ⫾ 1.0 mv and 6.5 ⫾ 0.2 mv, respectively,
+for ␮1(1–3) xxxg2028xxx (4); and ⫺90.7 ⫾ 1.0 mv and 6.1 ⫾ 0.1 mv, respectively, for ␮1(1) xxxg2028xxx (2– 4). (d) steady-state cocaine block of the four channels. the pulse
+protocol is shown in the inset. the filled symbols are the averaged data for ␮1(1–3) xxxg2028xxx (4) and ␮1(1) xxxg2028xxx (2– 4) measured in control saline. a boltzmann
+function was used to fit the data obtained in the presence of 30 ␮m cocaine. the dotted lines are the fits to the averaged ␮1 or  xxxg2028xxx  data, and the open
+symbols and solid lines are the averaged data and fits to the channel chimera data. the average v0.5 and k values for the fitted functions were: ⫺92.1 ⫾
+0.8 mv and 5.0 ⫾ 0.2 mv, respectively for ␮1; ⫺115.4 ⫾ 1.2 mv and 6.1 ⫾ 0.2 mv, respectively, for  xxxg2028xxx ; ⫺96.7 ⫾ 0.7 mv and 5.5 ⫾ 0.2 mv,
+respectively, for ␮1(1–3) xxxg2028xxx (4); and ⫺106.1 ⫾ 0.9 mv and 7.6 ⫾ 0.2 mv, respectively, for ␮1(1) xxxg2028xxx (2– 4).
+
+wright et al.
+table 1
+
+cocaine block of sodium channels
+
+237
+
+v0.5 values of steady-state activation, inactivation, and cocaine block
+
+channel
+
+activation v0.5
+(mv)
+
+inactivation v0.5
+(mv)
+
+cocaine v0.5
+(mv)
+
+␮1
+ xxxg2028xxx 
+␮1(1) xxxg2028xxx (2–4)
+␮1(1–3) xxxg2028xxx (4)
+␮1-␤1
+ xxxg2028xxx -␤1
+
+⫺32.8 ⫾ 2.8# (7)
+⫺48.0 ⫾ 1.8* (6)
+⫺32.4 ⫾ 0.6# (13)
+⫺27.8 ⫾ 1.2# (11)
+⫺31.1 ⫾ 0.8# (6)
+⫺43.3 ⫾ 1.0*§ (6)
+
+⫺78.5 ⫾ 1.0# (8)
+⫺94.1 ⫾ 1.4* (9)
+⫺90.7 ⫾ 1.0* (14)
+⫺82.2 ⫾ 1.0*# (14)
+⫺69.0 ⫾ 0.6*# (8)
+⫺81.2 ⫾ 1.7# (6)
+
+⫺92.1 ⫾ 0.8# (7)
+⫺115.4 ⫾ 1.2* (6)
+⫺106.1 ⫾ 0.9*# (15)
+⫺96.7 ⫾ 0.7*# (8)
+⫺79.8 ⫾ 0.7*# (8)
+⫺100.4 ⫾ 1.4*# (6)
+
+the v0.5 values obtained for the channel chimeras and for the ␣ subunits coexpressed with the ␤1 subunit were compared to those of the wild-type ␣
+subunits, ␮1 and  xxxg2028xxx .
+*#p ⬍ 0.05 (student’s t-test) compared to ␮l or  xxxg2028xxx , respectively.
+§
+p ⫽ 0.05 compared to  xxxg2028xxx . numbers in parentheses indicate the number of cells.
+
+resting ␮1(1–3) xxxg2028xxx (4) channels and 57.6 ⫾ 1.0% (n ⫽ 6)
+of resting ␮1(1) xxxg2028xxx (2– 4) channels. after a 10-s conditioning pulse to ⫺70 mv, 300 ␮m cocaine blocked 96.4 ⫾
+1.0% (n ⫽ 5) and 98.2 ⫾ 2.8% (n ⫽ 6) of inactivated
+␮1(1–3) xxxg2028xxx (4) and ␮1(1) xxxg2028xxx (2– 4) channels, respectively.
+there was no significant difference (p ⬎ 0.05) in block
+between the two chimeras; nor was there a difference between the block of the chimeras and block of the wild-type
+channels. at intermediate voltages, where there was a mixture of resting and inactivated channels, the relative differences in 30 ␮m cocaine block among the four channels
+(fig. 1 d) generally resembled the differences among the
+channels in steady-state inactivation (fig. 1 c). note that
+cocaine block of the ␮1(1–3) xxxg2028xxx (4) chimera, which has domain 4 from  xxxg2028xxx  and thus the putative local anesthetic
+receptor for  xxxg2028xxx  (ragsdale et al., 1994), more closely
+resembled cocaine block of ␮1 channels. the differences in
+steady-state inactivation therefore provided a reasonable
+correlation for the observed differences in steady-state cocaine block.
+effects of ␤1 subunit coexpression on channel
+kinetics and cocaine block
+in other expression systems, coexpression of the rat brain
+␤1 subunit with the ␣ subunit of sodium channels most
+often shifted channel kinetics toward more negative voltages. in xenopus oocytes, coexpression of the ␤1 subunit
+with the ␣ subunits of rat brain iia (isom et al., 1992) or ␮1
+(nuss et al., 1995a) sodium channels increased current
+amplitude, speeded the rate of current decay, and shifted the
+voltage dependence of steady-state inactivation to more
+negative voltages. in chinese hamster cells, ␤1 subunit
+coexpression with the rat brain iia ␣ subunit caused negative shifts in both activation and inactivation, but did not
+obviously affect the rate of current decay (isom et al., 1995).
+furthermore, in the oocyte expression system ␤1 subunit
+coexpression with  xxxg2028xxx  channels reduced the resting affinity
+for lidocaine by twofold (makielski et al., 1996).
+our first objective was to determine what effect, if any,
+␤1 subunit coexpression had on the channel kinetics of ␮1
+or  xxxg2028xxx  when expressed in hek cells. although ␤1 coexpression with ␮1 and  xxxg2028xxx  in hek cells increased current
+
+amplitude as in other expression systems, there were surprisingly different effects on channel activation and inactivation. the v0.5 values of activation for ␮1-␤1 and  xxxg2028xxx -␤1
+were 2 mv and 5 mv, respectively, more positive than the
+v0.5 values of activation for the ␣ subunits alone (fig. 2 a).
+compared to the v0.5 values of activation for ␮1 and  xxxg2028xxx  ␣
+subunits, the positive shift was modest (␮1 versus ␮1-␤1,
+p ⬎ 0.05;  xxxg2028xxx  versus  xxxg2028xxx -␤1, p ⫽ 0.05). ␤1 subunit
+coexpression had virtually no effect on the time constant of
+macroscopic current decay during depolarizations to between 0 and ⫹50 mv (fig. 2 b). coexpression of the ␤1
+subunit with ␮1 and  xxxg2028xxx  channels induced strong positive
+shifts in the v0.5 values of steady-state inactivation, as
+compared to expression of the ␣ subunits alone (fig. 2 c).
+for ␮1-␤1 and  xxxg2028xxx -␤1, the v0.5 values of inactivation
+were, respectively, 10 mv (p ⬍ 0.05) and 13 mv (p ⬍ 0.05)
+more positive than the v0.5 values of ␮1 and  xxxg2028xxx  (table 1).
+because ␤ subunit coexpression with ␮1 and  xxxg2028xxx  elicited
+strong positive shifts in steady-state inactivation and modest
+shifts in channel activation, we examined whether the ␤1
+subunit altered the relationship between the conditioning
+voltage and cocaine block. consistent with the effect on
+steady-state inactivation, ␤1 subunit coexpression with ␮1
+and  xxxg2028xxx  induced strong positive shifts in the v0.5 values of
+cocaine block. (fig. 2 d). we changed the voltage range
+over which we examined cocaine block by 20 mv in the
+positive direction. because the change in pulse protocol
+elicited more slow inactivation from ␮1-␤1 channels than
+from  xxxg2028xxx -␤1 channels, we normalized the block at each
+conditioning voltage by dividing the amplitude of the test
+current evoked in 30 ␮m cocaine by the amplitude of the
+test current evoked in control saline. the v0.5 values of
+steady-state cocaine block at ␮1-␤1 and at  xxxg2028xxx -␤1 were 12
+mv and 15 mv, respectively, more positive than the v0.5
+values of cocaine block at ␮1 and  xxxg2028xxx . compared to block
+of the ␣ subunits of ␮1 and  xxxg2028xxx , coexpression of the ␤1
+subunit did not significantly (p ⬎ 0.05) alter the percentages
+of resting or inactivated channels blocked by either 30 ␮m
+(fig. 2 d) or 300 ␮m cocaine. at ⫺160 mv, 300 ␮m
+cocaine blocked 54.5 ⫾ 1.5% (n ⫽ 4) of resting ␮1-␤1
+channels and 54.9 ⫾ 2.3% (n ⫽ 4) of resting  xxxg2028xxx -␤1
+channels. after a 10-s conditioning pulse to ⫺60 mv, 300
+␮m cocaine blocked 98.0 ⫾ 1.0% (n ⫽ 4) and 97.1 ⫾ 0.3%
+
+238
+
+biophysical journal
+
+volume 76
+
+january 1999
+
+figure 2 effects of rat brain ␤1 subunit coexpression on ␮1 and  xxxg2028xxx  channel kinetics and cocaine block. (a) normalized conductance of the ␣ subunits
+of ␮1 and  xxxg2028xxx  channels with and without coexpression of the ␤1 subunit. the average v0.5 and k values of the fitted boltzmann functions to the ␮1-␤1
+data were ⫺31.1 ⫾ 0.8 mv and 7.1 ⫾ 0.2 mv, respectively, and these values for  xxxg2028xxx -␤1 were ⫺43.3 ⫾ 1.0 mv and 9.2 ⫾ 0.7 mv, respectively. (b) time
+constants of macroscopic current decay plotted versus the amplitude of 10-ms depolarizations. (c) normalized sodium current availability (h⬁) function
+plotted versus the amplitude of the 100-ms conditioning pulse. coexpression of the ␤1 subunit with ␮1 or  xxxg2028xxx  channels produced rightward shifts in the
+voltage dependence of channel inactivation. the average v0.5 and k values of the boltzmann function fitted to the ␮1-␤1 data were ⫺69.0 ⫾ 0.7 mv and
+4.9 ⫾ 0.2 mv, respectively, and these values for  xxxg2028xxx -␤1 were ⫺81.2 ⫾ 1.7 mv and 6.8 ⫾ 0.2 mv, respectively. (d) steady-state cocaine block. the filled
+symbols are the averaged data for ␮1-␤1 and  xxxg2028xxx -␤1 measured in control saline. the open symbols and solid lines are the averaged data and boltzmann
+fits to the ␮1-␤1 and  xxxg2028xxx -␤1 data, and the dotted lines are the fits to the averaged data from ␮1 and  xxxg2028xxx  ␣ subunits expressed alone (as in fig. 1 d). the
+average v0.5 and k values of the ␮1-␤1 data were ⫺79.8 ⫾ 0.7 mv and 5.1 ⫾ 0.4 mv, respectively, and these values for  xxxg2028xxx -␤1 were ⫺100.4 ⫾ 1.4 mv
+and 6.2 ⫾ 0.3 mv, respectively.
+
+(n ⫽ 4) of inactivated ␮1-␤1 and  xxxg2028xxx -␤1 channels, respectively. thus, coexpression of the ␤1 subunit with ␮1 or  xxxg2028xxx 
+did not alter the cocaine affinities of either resting or inactivated channels. for the six sodium channels listed in table
+1, we plotted the v0.5 values of cocaine block as a function
+of their respective v0.5 values of activation and inactivation
+(fig. 3). regression analyses showed that the voltage dependence of steady-state cocaine block was better correlated
+with the voltage dependence of steady-state inactivation
+(r ⫽ 0.98) than with channel activation (r ⫽ 0.66).
+comparison of block recovery and usedependent block at ␮1 and  xxxg2028xxx  channels
+while the steady-state interactions between cocaine and
+cardiac sodium channels appear to be important in cocaineinduced cardiotoxicity, other interactions between cocaine
+and cardiac sodium channels may augment the cardiotoxic
+
+effects of cocaine. the fact that cardiac excitability is rhythmic and that cardiac cells spend more time than other
+sodium channel isoforms in the inactivated state suggests
+that the recovery time course from inactivated channel
+block and/or use-dependent block of cardiac sodium channels by local anesthetics may influence the net effects of
+cocaine. we therefore examined the recovery time course
+from cocaine block or in the extent of use-dependent block.
+to determine the unbinding rate of cocaine from inactivated ␮1 and  xxxg2028xxx  channels, we delivered a 10-s conditioning pulse to ⫺70 mv and measured the time-dependent
+recovery of current at ⫺140 mv (fig. 4, inset). the data
+obtained in control saline (filled symbols) showed that, in
+addition to eliciting fast inactivation, the conditioning pulse
+produced a slight amount of slow inactivation of both ␮1
+and  xxxg2028xxx  channels. for both ␮1 and  xxxg2028xxx , the recovery from
+inactivation was best fitted by the sum of two exponentials.
+in control saline, the fast time constant of recovery was
+
+wright et al.
+
+cocaine block of sodium channels
+
+figure 3 dependence of cocaine block on channel kinetics. the v0.5
+values of 30 ␮m cocaine block of ␮1,  xxxg2028xxx , ␮1(1) xxxg2028xxx (2– 4), ␮1(1–3) xxxg2028xxx (4),
+␮1-␤1, and  xxxg2028xxx -␤1 channels were plotted versus the v0.5 values of
+steady-state inactivation and activation of the channels. the error bars for
+the x-axis correspond to the standard errors of the averaged v0.5 values of
+inactivation or activation. linear regression analyses of the plots showed
+that the v0.5 values of cocaine block were better correlated with the v0.5
+values of steady-state inactivation (r ⫽ 0.98) than with the v0.5 values of
+steady state activation (r ⫽ 0.66).
+
+1.0 ⫾ 0.1 ms (n ⫽ 5) for ␮1 channels and was 6.3 ⫾ 0.4 ms
+(n ⫽ 6) for  xxxg2028xxx  channels. these recovery rates were similar
+to the recovery rates for ␮1 (1.5 ⫾ 0.1 ms; n ⫽ 5) and  xxxg2028xxx 
+(4.3 ⫾ 0.7 ms; n ⫽ 6) after delivery of a 10-ms conditioning
+pulse to ⫹30 mv. in control saline (see fig. 6, filled
+symbols), the fast phase of recovery from inactivation for
+␮1 and  xxxg2028xxx  channels comprised 81.2 ⫾ 1.3% and 87.9 ⫾
+1.9%, respectively, of the fractional amplitudes of recovery.
+the slow time constants of recovery for ␮1 and  xxxg2028xxx  channels were 279.1 ⫾ 40.5 ms and 724.9 ⫾ 190.0 ms (p ⫽
+0.07), respectively.
+the recovery from 30 ␮m cocaine block also was best
+described as the sum of two exponentials. the fractional
+amplitudes of the fast time constants of recovery from
+cocaine block of ␮1 and  xxxg2028xxx  channels were 26.3 ⫾ 1.4%
+and 27.5 ⫾ 1.4% (p ⬎ 0.05), respectively. as with recovery
+from lidocaine block (wright et al., 1997), we assumed that
+the fast time constants of recovery in the presence of 30 ␮m
+cocaine represented the recovery of drug-free channels and
+that the fractional amplitude of block at the conclusion of
+the fast phase of recovery represented block of inactivated
+channels. the fast time constants of recovery for ␮1 and
+ xxxg2028xxx  were 2.0 ⫾ 0.2 ms and 11.5 ⫾ 1.5 ms, respectively.
+this slowing of the fast time constant of recovery in the
+presence of cocaine also occurs in the presence of lidocaine
+and its quaternary derivatives (yeh and tanguy, 1985) and
+suggests that local anesthetics might affect the recovery
+from inactivation at “drug-free” channels by binding to
+them at various time points of the recovery phase. the time
+constant of recovery from cocaine block was similar for the
+two channels and required several seconds. the time constants of recovery from 30 ␮m cocaine block of ␮1 and  xxxg2028xxx 
+channels were 6.5 ⫾ 0.4 s (n ⫽ 5) and 6.8 ⫾ 0.5 s (n ⫽ 6;
+p ⬎ 0.5), respectively. these values were consistent with
+the time constant of cocaine unbinding from ventricular
+myocyte sodium channels (crumb and clarkson, 1990).
+
+239
+
+figure 4 recovery from cocaine block of inactivated channels. from
+a holding potential of ⫺140 mv, ␮1 (squares) and  xxxg2028xxx  (circles) channels
+were stepped to ⫺70 mv for 10 s. after a variable recovery interval at
+⫺140 mv, the channels were stepped to ⫹30 mv to measure the available
+current. the recovery time courses in control saline (filled symbols) and in
+30 ␮m cocaine (open symbols) were best fitted by the sum of two
+exponentials. in control saline, ␮1 channels recovered with fast and slow
+time constants of 1.0 ⫾ 0.1 ms and 279.1 ⫾ 40.5 ms, respectively, and the
+fractional amplitude of the fast time constant comprised 81.2 ⫾ 1.3% of the
+recovery;  xxxg2028xxx  channels had fast and slow time constants of 6.3 ⫾ 0.4 ms
+and 724.9 ⫾ 190.0 ms, respectively, and the fractional amplitude of the fast
+time constant was 87.9 ⫾ 1.9% of the recovery. in 30 ␮m cocaine, ␮1
+channels recovered with fast and slow time constants of 2.0 ⫾ 0.2 ms and
+6.5 ⫾ 0.4 s, respectively, and the fractional amplitude of the fast time
+constant was 26.3 ⫾ 1.4% of the recovery;  xxxg2028xxx  channels recovered with
+fast and slow time constants of 11.5 ⫾ 1.5 ms and 6.8 ⫾ 0.5 s, respectively,
+and the fractional amplitude of the fast time constant was 27.5 ⫾ 1.4% of
+the recovery.
+
+we compared use-dependent cocaine block of ␮1 and
+ xxxg2028xxx  channels using 1 and 2 hz stimulation rates (fig. 5) but
+found no difference between the channels in the extent of
+use-dependent block. cells were held at ⫺140 mv and
+received 25 ms pulses to ⫹30 mv. little use-dependent
+decrease in ␮1 or  xxxg2028xxx  sodium current occurred during 1- or
+2-hz stimulation in control saline, whereas repetitive pulses
+delivered in 30 ␮m cocaine produced potent use-dependent
+block. use-dependent block of ␮1 and  xxxg2028xxx  channels by 30
+␮m cocaine was fitted by a single exponential function. the
+percentages of steady-state block at 1- and 2-hz stimulation
+were 39.4 ⫾ 1.8% and 50.1 ⫾ 1.6%, respectively, for ␮1
+channels and were 41.5 ⫾ 1.7% and 53.2 ⫾ 1.3%, respectively, for  xxxg2028xxx  channels. the difference in the percentage of
+steady-state block between ␮1 and  xxxg2028xxx  at either 1- or 2-hz
+stimulation was not statistically significant (p ⬎ 0.05).
+although increasing the duration of the depolarization
+would have increased the percentage of block at steady
+state, the relative similarities in use-dependent block of ␮1
+and  xxxg2028xxx  channels would not likely have changed. when we
+delivered a single conditioning pulse to ⫹30 mv for 300 ms
+followed by a 100-ms interval at the holding potential and a
+test pulse to ⫹30 mv, cocaine blocked a similar percentage
+of ␮1 channels (29.7 ⫾ 2.0%; n ⫽ 7) and  xxxg2028xxx  channels
+(24.6 ⫾ 1.0%; n ⫽ 5; p ⬎ 0.05). although there were no
+significant differences between ␮1 and  xxxg2028xxx  in the time
+course of recovery from block or in use-dependent block,
+
+240
+
+biophysical journal
+
+volume 76
+
+january 1999
+
+more, the shifts in steady-state inactivation did not alter the
+affinities of resting and inactivated channels. to determine
+whether we could predict the voltage dependence of cocaine
+block, we used the steady-state inactivation data from each
+channel, as well as the kr and ki values to simulate steadystate cocaine block. for the simulation, we first determined
+the apparent kd using the h⬁ curve of each channel. that is,
+
+1/kapp ⫽ h/kr ⫹ 共1 ⫺ h兲/ki
+
+(1)
+
+where kapp is the apparent kd, and kr and ki are the kd
+values at resting and inactivated channels, respectively. the
+parameters h and 1 ⫺ h are the fractional distributions of
+resting and inactivated channels, respectively, at a given
+conditioning voltage (bean et al., 1983). we used 250 ␮m
+as the kr value and 9 ␮m as the ki value. note that in eq.
+1 the fraction of inactivated channels (1 ⫺ h) has a larger
+influence on the apparent kd than does the fraction of
+available channels (h), and thus imposes a leftward shift on
+the simulation. for example, at the conditioning voltage
+where h ⫽ 0.9 and 1 ⫺ h ⫽ 0.1, the apparent kd is 68 ␮m;
+when both h and 1 ⫺ h ⫽ 0.5, the apparent kd is 17 ␮m.
+fig. 6 a shows the kapp curves for ␮1 and  xxxg2028xxx  channels.
+we then used the kapp values from eq. 1 and the langmuir isotherm (hille, 1992) to predict the percentage of
+available channels at a given cocaine concentration:
+figure 5 use-dependent cocaine block of ␮1 and  xxxg2028xxx  channels. sixty
+pulses to ⫹30 mv were delivered to ␮1 channels (a) and to  xxxg2028xxx  channels
+(b) at stimulation frequencies of 1 and 2 hz. in control saline (filled
+symbols in a and b), the pulse protocol did not elicit use-dependent
+decreases in current amplitude at either 1 or 2 hz. the development of
+use-dependent block in 30 ␮m cocaine was best fitted by a single exponential function. (a) use-dependent cocaine block of ␮1 channels developed with a time constant of 4.1 ⫾ 0.3 pulses and reached steady state at
+39.4 ⫾ 1.8% block during 1 hz stimulation, and had a time constant of
+4.9 ⫾ 0.2 pulses and reached steady state at 50.1 ⫾ 1.6% block during 2
+hz stimulation. (b) use-dependent cocaine block of  xxxg2028xxx  channels developed with a time constant of 4.5 ⫾ 0.3 pulses and reached steady state at
+41.5 ⫾ 1.7% block during 1 hz stimulation, and had a time constant of
+5.4 ⫾ 0.3 pulses and reached steady state at 53.2 ⫾ 1.3% block during 2
+hz stimulation.
+
+the extremely slow nature of the recovery from block (fig.
+4) and the extent of use-dependent block (fig. 5) at  xxxg2028xxx 
+channels suggest that these two parameters, in conjunction
+with the rhythmic cardiac action potential, may play significant roles in cocaine-induced cardiotoxicity.
+simulation of cocaine block using a modulated
+receptor model
+in a previous report we attributed the differences in steadystate cocaine block between ␮1 and  xxxg2028xxx  to the differences
+in their steady-state inactivation curves (wright et al.,
+1997). the data in the present study appear to support our
+claim because the v0.5 values of steady-state cocaine block
+were better correlated with the v0.5 values of steady-state
+inactivation than with the v0.5 values of activation. further-
+
+ina ⫽ kapp/共关la兴 ⫹ kapp兲, or
+
+(2)
+
+ina ⫽ 1/关1 ⫹ 共关la兴/kapp兲兴
+
+(3)
+
+where ina is the peak current measured during the test pulse
+and [la] is the cocaine concentration.
+we applied the simulation to ␮1 and  xxxg2028xxx  channels and
+used the 30 ␮m and 300 ␮m cocaine data from wright et al.
+(1997) to see how well the model fit the data. the solid lines
+in figs. 6 b and c) are the results of the simulation using
+eqs. 1 and 3, and the symbols are the percentages of
+available channels in 30 ␮m cocaine (filled symbols) and in
+300 ␮m cocaine (open symbols). the simulation predicted
+steady-state cocaine block of ␮1 channels within a few
+millivolts at the midpoint of block (fig. 6 b), whereas
+steady-state cocaine block of  xxxg2028xxx  channels was several
+millivolts more negative than predicted by the simulation
+(fig. 6 c). scheme a in diagram 1 depicts the simplified
+model (bean et al., 1983) that uses eqs. 1 and 3 to predict
+cocaine block. thus, even though eq. 1 imposed a significant leftward shift on the kapp value, the simulation failed to
+account for an equilibrium shift toward the inactivated and
+blocked state. one of the defining characteristics of a modulated receptor (hille, 1977) is that local anesthetic shifts
+the equilibrium from the resting and drug-bound state (r*)
+toward the inactivated and drug-bound state (i*) as depicted
+in scheme b. the difference between the amount of block
+predicted by the initial simulation (scheme a) and the
+actual amount of block may be indicative of an equilibrium
+shift in the r* 7 i* portion of scheme b (courtney, 1975).
+note that we could not directly measure this equilibrium
+
+wright et al.
+
+cocaine block of sodium channels
+
+241
+
+diagram 1
+
+we also used the model to simulate 30 ␮m cocaine block
+of the channel chimeras, ␮1-␤1 channels, and  xxxg2028xxx -␤1 channels (fig. 7). the solid lines in fig. 7, a–d show the
+predicted results using eqs. 1 and 3 for 30 ␮m cocaine
+block of ␮1(1–3) xxxg2028xxx (4), ␮1(1) xxxg2028xxx (2– 4), ␮1-␤1, and  xxxg2028xxx -␤1
+channels. introducing equilibrium shifts of ⫺5 mv and ⫺6
+mv, respectively, to the h⬁ curves of ␮1(1–3) xxxg2028xxx (4) and
+␮1(1) xxxg2028xxx (2– 4) channels improved the prediction (fig. 7, a
+and b, dotted lines). as with ␮1 and  xxxg2028xxx  channels, applying
+equilibrium shifts of ⫺4.5 mv and ⫺10 mv to the h⬁
+curves of ␮1-␤1 and  xxxg2028xxx -␤1 channels, respectively, improved the prediction by the model (fig. 7, c and d, dotted
+lines). fig. 8 plots the average v0.5 values of cocaine block
+versus the average v0.5 values of steady-state inactivation.
+each symbol corresponds to the averaged data from one of
+the isoforms in the study (see fig. 8 legend). the cross
+symbol directly above each data point is the corresponding
+v0.5 value of cocaine block as predicted by the simple
+model (scheme a). the simulation results in figs. 6 – 8
+show that the equilibrium shift was larger for  xxxg2028xxx  and
+ xxxg2028xxx -␤1 channels than for any of the other channels, suggesting that a larger equilibrium shift from r* to i* at the
+ xxxg2028xxx  isoform may be an important factor in cocaine-induced
+cardiotoxicity (see discussion).
+discussion
+
+figure 6 simulations of cocaine block of ␮1 and  xxxg2028xxx  sodium channels. (a) plot of the apparent kd versus the conditioning voltage using eq.
+1. (b) and (c) the solid lines show the predictions of cocaine block of ␮1
+and  xxxg2028xxx  channels using eqs. 1 and 3. the filled symbols are the actual
+percentages of block by 30 ␮m cocaine, and the open symbols are the
+percentages of block by 300 ␮m cocaine. the dotted lines are the improved
+fits to the data after imposing shifts of ⫺4.5 mv and ⫺10 mv on the h⬁
+curves of ␮1 and  xxxg2028xxx , respectively. see text for details.
+
+shift because channels in the r* and i* states do not conduct. to account for the additional equilibrium shift at the
+drug-bound states and to improve the fit by the model, we
+adjusted the h⬁ curves of ␮1 and  xxxg2028xxx  channels by trial and
+error. adjusting the h⬁ curves of ␮1 and  xxxg2028xxx  channels by
+⫺4.5 mv and ⫺10 mv, respectively, improved how well the
+model predicted cocaine block (dotted lines in fig. 6, b and c).
+
+in a previous paper (wright et al., 1997), we showed that
+mammalian isoforms of cardiac and skeletal muscle sodium
+channel had similar resting and inactivated affinities for
+cocaine and lidocaine. this was in contrast to other studies
+(nuss et al., 1995b; wang et al., 1996b) which suggested
+that the sodium channels in cardiac tissue have a greater
+affinity for lidocaine compared to other sodium channel
+isoforms, and that this greater affinity might explain why
+cardiac tissue is relatively more sensitive than skeletal muscle to certain local anesthetics. we suggested that the differences in steady-state inactivation between  xxxg2028xxx  channels
+and ␮1 channels may in part explain the cardiotoxic effects
+of cocaine.
+in the present study we further addressed state-dependent
+cocaine block of ␮1 and  xxxg2028xxx  sodium channels by focusing
+on the mechanisms responsible for the greater cocaine block
+of the  xxxg2028xxx  isoform at intermediate voltages. first, we used
+shifts in the steady-state inactivation of ␮1 and  xxxg2028xxx  channels as a tool for investigating steady-state cocaine block.
+we induced shifts in steady-state inactivation by creating
+␮1/ xxxg2028xxx  channel chimeras and also by coexpressing the rat
+
+242
+
+biophysical journal
+
+volume 76
+
+january 1999
+
+figure 7 simulations of cocaine block of channel chimeras and channels coexpressed with the ␤1 subunit. as described in fig. 6, the apparent kd at
+each channel was first determined using eq. 1. (a–d) the solid lines show the predictions of cocaine block by 30 ␮m cocaine, and the dotted lines show
+the improved fits after imposing negative shifts in the h⬁ curves. the shifts for ␮1(1–3) xxxg2028xxx (4), ␮1(1) xxxg2028xxx (2– 4), ␮1-␤1, and  xxxg2028xxx -␤1 channels were ⫺5 mv,
+⫺6 mv, ⫺4.5 mv, and ⫺10 mv, respectively.
+
+brain ␤1 subunit with the ␣ subunits of ␮1 or  xxxg2028xxx . the
+shifts in the midpoint voltage of steady-state inactivation
+produced by these methods elicited directionally similar
+shifts in the midpoint voltage of cocaine block. second,
+unlike several previous studies conducted with other expression systems, ␤1 subunit coexpression with the ␮1 or  xxxg2028xxx 
+␣ subunits in hek cells shifted the voltage dependence of
+steady-state inactivation to more positive voltages, rather
+than toward more negative voltages, and did not affect the
+time constant of macroscopic current decay. in addition,
+coexpression of the ␤1 subunit did not alter the cocaine
+affinities of either resting or inactivated channels. and third,
+we used the h⬁ curves, the kd values at resting and inactivated channels, and the langmuir isotherm to simulate
+steady-state cocaine block.
+effects of channel chimera structure and ␤1
+subunit coexpression on channel kinetics
+we found it interesting that channel activation for both
+␮1(1–3) xxxg2028xxx (4) and ␮1(1) xxxg2028xxx (2– 4) resembled the activation
+
+kinetics of ␮1 channels. because ␮1(1) xxxg2028xxx (2– 4) contains
+only domain 1 from ␮1 channels, it would be tempting to
+speculate that domain 1 is the crucial domain for determining channel activation. however, chahine et al. (1996) and
+benzinger et al. (1997) have also shown that the activation
+of several different ␮1/ xxxg2028xxx  channel chimeras each resembled the activation of ␮1. recently, mitrovic et al. (1998)
+used cysteine point mutation within d2s4 and subsequent
+treatment with a cysteine modifying agent to demonstrate
+that domain 2 plays a significant role in channel activation.
+the findings by mitrovic et al. (1998) and the data in fig.
+1 b argue against the hypothesis (marcotte et al., 1997) that
+activation begins by outward movement of the s4 segment
+containing the most charged residues (domain 4) and concludes with the outward movement of the s4 segment with
+the fewest charged residues (domain 1). if this type of
+sequential movement of s4 segments occurred, then the
+activation phenotype of ␮1(1) xxxg2028xxx (2– 4) should have resembled the activation of  xxxg2028xxx  channels rather than ␮1 channels.
+these data suggest that channel activation is much more
+complex than can be deduced from the number of charged
+
+wright et al.
+
+cocaine block of sodium channels
+
+figure 8 plot of v0.5 values of cocaine block versus the v0.5 values of
+steady-state inactivation for the six channels in the study. as in fig. 3, the
+solid line is the regression line through the plot of average v0.5 values of
+cocaine block versus the average v0.5 values of steady-state inactivation. in
+this figure, the individual channels are distinguished by a symbol (filled
+square, ␮1; open square, ␮1-␤1; filled circle,  xxxg2028xxx ; open circle,  xxxg2028xxx -␤1;
+open triangle, ␮1(1–3) xxxg2028xxx (4); and open diamond, ␮1(1) xxxg2028xxx (2– 4)). the
+crosses are the predicted v0.5 values of cocaine block using eqs. 1 and 3
+and the dotted line is the regression through the points. the cross symbol
+located directly above each data point corresponds to the predicted
+v0.5 value of cocaine block for that particular channel. as discussed in the
+text, the predicted values for  xxxg2028xxx  channels and  xxxg2028xxx -␤1 channels had the
+largest deviations from the measured data (filled circle and open circle,
+respectively).
+
+residues in the s4 segments. one possible explanation for
+the discrepancy between our channel chimera data and the
+apparent importance of domain 2 in activation (mitrovic et
+al., 1998) may be that domain regions from the ␮1 isoform
+dominate the activation phenotype of channel chimeras
+constructed from ␮1 and  xxxg2028xxx .
+the steady-state inactivation data obtained for ␮1,  xxxg2028xxx ,
+and the channel chimeras indicate that the four domain
+regions have an evenly distributed role in determining the
+h⬁ phenotype (fig. 1 c). the v0.5 of steady-state inactivation for ␮1(1) xxxg2028xxx (2– 4) channels was ⬃4 mv less negative
+than that of  xxxg2028xxx , and the v0.5 of inactivation for ␮1(1–3) xxxg2028xxx (4)
+channels was ⬃4 mv more negative than that of ␮1. in
+another chimera study (benzinger et al., 1997), the effects
+of a single domain substitution on steady-state inactivation
+phenotype seemed less clear because the v0.5 values of
+steady-state inactivation for all chimeras were actually less
+negative than that of ␮1. although we were unable to test
+this phenomenon further using comparable channel chimeras ( xxxg2028xxx (1)␮1(2– 4) and  xxxg2028xxx (1–3)␮1(4)), the present data suggest that each domain contributes, perhaps equally, to the
+steady-state inactivation phenotype.
+the shifts in the voltage dependence of activation and/or
+steady-state inactivation after coexpression of sodium channel ␣ subunits with the rat brain ␤1 subunit appear to vary
+depending on the expression system and perhaps also on the
+sodium channel isoform. coexpression of the ␤1 subunit
+shifted the activation and inactivation kinetics of rat brain
+sodium channels to more negative voltages in xenopus
+oocytes (isom et al., 1992) and in chinese hamster cells
+(isom et al., 1995). ␤1 subunit coexpression with ␮1 chan-
+
+243
+
+nels in oocytes also elicited a negative shift in the voltage
+dependence of steady-state inactivation (nuss et al., 1995a).
+in oocytes, the effect of ␤1 subunit coexpression with
+cardiac sodium channels varies from no shift in the steadystate inactivation of  xxxg2028xxx  channels (nuss et al., 1995b) or rat
+heart sodium channels (rh1; qu et al., 1995) to one report
+of a modest but significant positive shift for  xxxg2028xxx  channels
+(makielski et al., 1996). in contrast to these studies, we
+found that coexpression of the ␤1 subunit with sodium
+channel ␣ subunits in hek cells markedly shifted steadystate inactivation (fig. 2 c) of ␮1 and  xxxg2028xxx  channels in the
+positive direction by ⬃10 mv and ⬃13 mv, respectively.
+we cannot presently explain the variable effects of ␤1
+subunit coexpression on sodium channel kinetics. one possibility may be that cellular processes such as protein phosphorylation (see cukierman, 1996 for review), which can
+affect channel kinetics, differ among different expression
+systems. alternatively, the time-dependent negative shift in
+steady-state inactivation (wang et al., 1996a) may be reduced or eliminated by ␤1 subunit coexpression.
+the positive voltage shifts in steady-state inactivation
+produced by ␤1 subunit coexpression with ␮1 and  xxxg2028xxx 
+resulted in directionally similar shifts in cocaine block (fig.
+2 d). the average v0.5 values of cocaine block for ␮1-␤1
+and  xxxg2028xxx -␤1 were 12.3 mv and 15.0 mv, respectively, more
+positive than the v0.5 values of cocaine block for the ␣
+subunits of ␮1 and  xxxg2028xxx . also important, ␤1 subunit coexpression did not affect the cocaine affinities of either resting
+or inactivated channels. in contrast, ␤1 subunit coexpression with  xxxg2028xxx  channels in the oocyte expression system
+decreased the affinity of resting channels for lidocaine by
+⬃2-fold (makielski et al., 1996); a result most likely due to
+a small (3–7 mv) positive shift in steady-state inactivation.
+
+steady-state cocaine block, the modulated
+receptor model, and cocaine-induced
+cardiotoxicity
+the data in figs. 1–3 indicated that shifts in the voltage
+dependence of steady-state inactivation induced linear shifts
+in the voltage dependence of steady-state cocaine block.
+the simple model (scheme a in diagram 1; bean et al.,
+1983), which used the h⬁ curve and the kd values at resting
+and inactivated channels, gave a fairly accurate prediction
+of steady-state cocaine block at ␮1 channels (v0.5 within
+⬃5 mv), but gave a somewhat less accurate prediction at
+ xxxg2028xxx  channels (v0.5 within ⬃10 mv). even though the v0.5
+values of cocaine block were shifted by ⬃⫺10 mv compared to the v0.5 values of steady-state inactivation, the
+simple model failed to account for the entire equilibrium
+shift because it did not include the transitions between the
+r* and i* states (scheme b). thus, the difference between
+␮1 and  xxxg2028xxx  channels in the size of the underestimated
+equilibrium shift may reflect the difference in the amount of
+cocaine-induced leftward shift in h⬁, which in our case
+becomes evident in the v0.5 value of steady-state cocaine
+
+244
+
+biophysical journal
+
+block. for example, the v0.5 values of steady-state inactivation at ␮1 and  xxxg2028xxx -␤1 channels were similar at ⫺79 mv
+and ⫺81 mv, respectively, but the v0.5 value of cocaine
+block was ⬃8 mv more negative for  xxxg2028xxx -␤1 channels than
+for ␮1 channels. indeed, these data suggest that the 15 mv
+difference between the v0.5 values of steady-state inactivation at ␮1 and  xxxg2028xxx  (wright et al., 1997), as well as a larger
+cocaine-induced shift in the h⬁ curve of  xxxg2028xxx  channels
+contribute to cocaine-induced cardiotoxicity.
+although steady-state inactivation appears to play the
+major role in determining steady-state cocaine block, channel activation could be one of the factors responsible for the
+magnitude of the underestimation in h⬁ shift. compare the
+v0.5 value of steady-state inactivation to the v0.5 value of
+cocaine block for each channel (table 1), and note the
+interesting quantitative difference between ␮1 and  xxxg2028xxx . for
+␮1 channels the difference between the v0.5 value of cocaine block and the v0.5 value of steady-state inactivation
+was ⬃14 mv and for  xxxg2028xxx  channels the difference was ⬃19
+mv. these differences were essentially the same at ␮1-␤1
+and  xxxg2028xxx -␤1 channels. for both of the channel chimeras, the
+difference between the v0.5 value of steady-state cocaine
+block and the v0.5 value of steady-state inactivation was
+⬃15 mv. when we adjusted the h⬁ curves to improve the fit
+by the simple model, the shift in the h⬁ curve that best
+improved the fit to the cocaine data from ␮1 and ␮1-␤1
+channels was ⫺4.5 mv, whereas the adjustment for  xxxg2028xxx 
+and  xxxg2028xxx -␤1 channels was ⫺10 mv. for ␮1(1) xxxg2028xxx (2– 4) and
+␮1(1–3) xxxg2028xxx (4), the adjustments were 5 and 6 mv, respectively, which more closely resembled the adjustment required for ␮1 channels. the fact that ␮1 channels and the
+channel chimeras had the same activation phenotype and
+required similar adjustments in h⬁ to improve the fit by the
+simple model suggests that channel activation may affect
+the magnitude of the underestimated shift. as the conditioning voltage becomes less negative,  xxxg2028xxx  channels enter
+preopen or preactivated states, which may influence the
+equilibrium shift from r* to i*. however, at the ␮1 isoform
+and at the chimeras, channel activation begins at voltages
+⬃15 mv more positive than at the  xxxg2028xxx  isoform, so these
+channels would therefore not enter the preactivated states at
+the same voltages. this possible role for activation in the
+equilibrium shift of the h⬁ curve is consistent with previous
+suggestions that activation is important in local anesthetic
+action (starmer et al., 1984; yeh and tanguy, 1985).
+the notion that state-dependent differences between cardiac and skeletal muscle sodium channels influence local
+anesthetic action in cardiac tissue has been previously reported for single batrachotoxin-modified sodium channels
+(zamponi et al., 1993; zamponi and french, 1993). in
+native channels, the antiarrhythmic properties of lidocaine
+and the cardiotoxic properties of cocaine most likely result
+from steady-state interactions with inactivated sodium channels at the diastolic membrane potential, as well as from
+use-dependent interactions with activated and inactivated
+channels during the cardiac action potential. here, we
+present an additional mechanism wherein cocaine induces a
+
+volume 76
+
+january 1999
+
+larger shift in the h⬁ curve at cardiac sodium channels than
+at skeletal muscle sodium channels. this additional shift in
+h⬁ may arise from the coupling between channel activation
+and inactivation (o’leary et al., 1995), both of which proceed at significantly more negative potentials in the cardiac
+isoform.
+we thank dr. roland kallen for the  xxxg2028xxx  clone, dr. james trimmer for the
+␮1 clone, drs. lori isom and william catterall for the rat brain ␤1 subunit
+clone, and dr. stephen cannon for providing the hek293t cell line and the
+cd8-pih3m plasmid.
+this work was supported by national institutes of health national research service award gm18760 (to s.n.w.) and national institutes of
+health grants gm35401 and gm48090 (to g.k.w.).
+
+references
+bean, b. p., c. j. cohen, and r. w. tsien. 1983. lidocaine block of cardiac
+sodium channels. j. gen. physiol. 81:613– 642.
+benzinger, g. r., c. l. drum, l.-q. chen, r. g. kallen, and d. a. hanck.
+1997. differences in the binding sites of two site-3 sodium channel
+toxins. pflügers arch. 434:742–749.
+cannon, s. c., and s. m. strittmatter. 1993. functional expression of
+sodium channel mutations identified in families with periodic paralysis.
+neuron. 10:317–326.
+catterall, w. a. 1995. structure and function of voltage-gated ion channels. annu. rev. biochem. 64:493–531.
+chahine, m., i., deschene, l. q. chen, and r. g. kallen. 1996. electrophysiological characteristics of cloned skeletal and cardiac muscle sodium channels. am. j. physiol. 271:h498 –h506.
+courtney, k. r. 1975. mechanism of frequency-dependent inhibition of
+sodium currents in frog myelinated nerve by the lidocaine derivative
+gea 968. j. pharmacol. exp. ther. 195:225–236.
+crumb, w. j., jr., and c. w. clarkson. 1990. characterization of cocaineinduced block of cardiac sodium channels. biophys. j. 57:589 –599.
+cukierman, s. 1996. regulation of voltage-dependent sodium channels.
+j. membr. biol. 151:203–214.
+fozzard, h. a., and d. a. hanck. 1996. structure and function of voltagedependent sodium channels: comparison of brain ii and cardiac isoforms. physiol. rev. 76:887–926.
+frelin, c., p. cognard, p. vigne, and m. lazdunski. 1986. tetrodotoxinsensitive and tetrodotoxin-resistant na⫹ channels differ in their sensitivity to cd2⫹ and zn2⫹. eur. j. pharmacol. 122:245–250.
+gellens, m. e., a. l. george, jr., l. chen, m. chahine, r. horn, r. l.
+barchi, and r. g. kallen. 1992. primary structure and functional expression of the human cardiac tetrodotoxin-insensitive voltagedependent sodium channel. proc. natl. acad. sci. usa. 89:554 –558.
+hamill, o. p., a. marty, e. neher, b. sakmann, and f. j. sigworth. 1981.
+improved patch-clamp techniques for high-resolution current recording
+from cells and cell-free membrane patches. pflügers arch. 391:85–100.
+hille, b. 1977. local anesthetics: hydrophilic and hydrophobic pathways
+for the drug-receptor reaction. j. gen. physiol. 69:497–515.
+hille, b. 1992. ionic channels of excitable membranes, 2nd ed. sinauer
+associates, inc., sunderland, ma.
+hodgkin, a. l., and a. f. huxley. 1952. a quantitative description of
+membrane current and its application to conduction and excitation in
+nerve. j. physiol. (lond.). 117:500 –544.
+isom, l. l., k. s. de jongh, d. e. patton, b. f. x. reber, j. offord, h.
+charbonneau, k. walsh, a. l. goldin, and w. a. catterall. 1992.
+primary structure and functional expression of the ␤1 subunit of the rat
+brain sodium channel. science. 256:839 – 842.
+isom, l. l., t. scheuer, a. b. brownstein, d. s. ragsdale, b. j. murphy,
+and w. a. catterall. 1995. functional co-expression of the ␤1 and type
+iia ␣ subunits of sodium channels in a mammalian cell line. j. biol.
+chem. 270:3306 –3312.
+
+wright et al.
+
+cocaine block of sodium channels
+
+makielski, j. c., j. t. limheris, s. y. chang, z. fan, and j. w. kyle. 1996.
+coexpression of ␤1 with cardiac sodium channel ␣ subunits in oocytes
+decreases lidocaine block. mol. pharmacol. 49:30 –39.
+makita, n., p. b. bennett, jr., and a. l. george, jr. 1996. multiple domains
+contribute to the distinct inactivation properties of human heart and
+skeletal muscle na⫹ channels. circ. res. 78:244 –252.
+marcotte, p., l.-q. chen, r. g. kallen, and m. chahine. 1997. effects of
+tityus serrulatus scorpion toxin ␥ on voltage-gated na⫹ channels. circ.
+res. 80:363–369.
+mitrovic, n., a. l. george, and r. horn. 1998. independent versus coupled
+inactivation in sodium channels: role of the domain 2 s4 segment.
+j. gen. physiol. 111:451– 462.
+nuss, h. b., n. chiamvimonvat, m. t. perez-garcia, g. f. tomaselli, and
+e. marbán. 1995a. functional association of the ␤1 subunit with human
+cardiac ( xxxg2028xxx ) and rat skeletal muscle (␮1) sodium channel ␣ subunits
+expressed in xenopus oocytes. j. gen. physiol. 106:1171–1191.
+nuss, h. b., g. f. tomaselli, and e. marbán. 1995b. cardiac sodium
+channels ( xxxg2028xxx ) are intrinsically more sensitive to block by lidocaine
+than are skeletal muscle (␮1) channels. j. gen. physiol. 106:1193–1209.
+o’leary, m. e., l.-q. chen, r. g. kallen, and r. horn. 1995. a molecular
+link between activation and inactivation of sodium channels. j. gen.
+physiol. 106:641– 658.
+qu, y. s., l. l. isom, r. e. westenbroek, j. c. rogers, t. n. tanada, k. a.
+mccormick, t. scheuer, and w. a. catterall. 1995. modulation of
+cardiac na⫹ channel expression in xenopus oocytes by ␤1 subunits.
+j. biol. chem. 270:25696 –25701.
+ragsdale, d. s., j. c. mcphee, t. scheuer, and w. a. catterall. 1994.
+molecular determinants of state-dependent block of na⫹ channels by
+local anesthetics. science. 265:1724 –1728.
+starmer, c. f., a. o. grant, and h. c. strauss. 1984. mechanisms of
+use-dependent block of sodium channels in excitable membranes by
+local anesthetics. biophys. j. 46:15–27.
+tomaselli, g. f., n. chiamvimonvat, h. b. nuss, j. r. balser, m. t.
+perez-garcia, r. h. xu, d. w. orias, p. h. backx, and e. marbán. 1995.
+
+245
+
+a mutation in the pore of the sodium channel alters gating. biophys. j.
+68:1814 –1827.
+trimmer, j. s., s. s. cooperman, s. a. tomiko, j. zhou, s. m. crean,
+m. b. boyle, r. g. kallen, z. sheng, r. l. barchi, f. j. sigworth, r. h.
+goodman, w. s. agnew, and g. mandel. 1989. primary structure and
+functional expression of a mammalian skeletal muscle sodium channel.
+neuron. 3:33– 49.
+wang, d. w., a. l. george, jr., and p. b. bennett. 1996a. comparison of
+heterologously expressed human cardiac and skeletal muscle sodium
+channels. biophys. j. 70:238 –245.
+wang, d. w., l. nie, a. l. george, jr., and p. b. bennett. 1996b. distinct
+local anesthetic affinities in na⫹ channel subtypes. biophys. j. 70:
+1700 –1708.
+wang, s.-y., and g. k. wang. 1997. a mutation in segment i-s6 alters
+slow inactivation of sodium channels. biophys. j. 72:1633–1640.
+wright, s. n., s.-y. wang, r. g. kallen, and g. k. wang. 1997. differences in steady-state inactivation between sodium channel isoforms
+affect local anesthetic binding affinity. biophys. j. 73:779 –788.
+wright, s. n., s.-y. wang, y.-f. xiao, and g. k. wang. 1998. relationships between steady-state inactivation, cocaine binding, and cocaine
+affinity at voltage-gated sodium channels. biophys. j. (abstr). 312.
+yeh, j. z., and j. tanguy. 1985. sodium channel activation gate modulates
+slow recovery from use-dependent block by local anesthetics in squid
+giant axons. biophys. j. 47:685– 694.
+zamponi, g. w., d. d. doyle, and r. j. french. 1993. state-dependent
+block underlies tissue specificity of lidocaine action on batrachotoxinactivated cardiac sodium channels. biophys. j. 65:91–100.
+zamponi, g. w., and r. j. french. 1993. dissecting lidocaine action:
+diethylamide and phenol mimic separate modes of lidocaine block of
+sodium channels from heart and skeletal muscle. biophys. j. 65:
+2339 –2347.
+

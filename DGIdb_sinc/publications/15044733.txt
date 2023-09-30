@@ -1,0 +1,864 @@
+inhibitor binding in a class 2 dihydroorotate
+dehydrogenase causes variations in the
+membrane-associated n-terminal domain
+majbritt hansen,1,2 jérôme le nours,1 eva johansson,1,3
+torben antal,1,4 alexandra ullrich,5 monika löffler,5
+sine larsen1,3
+
+and
+
+1
+
+centre for crystallographic studies, department of chemistry, university of copenhagen,
+dk-2100 copenhagen, denmark
+2
+department of clinical microbiology, copenhagen university hospital, dk-2100 copenhagen, denmark
+3
+european synchrotron radiation facility (esrf), f-38043 grenoble cedex, france
+4
+department of clinical biochemistry, glostrup hospital, dk-2600 glostrup, denmark
+5
+institute for physiological chemistry, philipps-university, d-35033 marburg, germany
+(received november 24, 2003; final revision january 19, 2004; accepted january 20, 2004)
+
+abstract
+the flavin enzyme  xxxg633xxx  (dhod; ec 1.3.99.11) catalyzes the oxidation of dihydroorotate to  xxxd2794xxx , the fourth step in the de novo pyrimidine biosynthesis of ump. the enzyme is a
+promising target for drug design in different biological and clinical applications for cancer and arthritis. the
+first crystal structure of the class 2  xxxg633xxx  from rat has been determined in complex
+with its two inhibitors  xxxd363xxx  and  xxxd243xxx . these inhibitors have shown promising results as antiproliferative, immunosuppressive, and antiparasitic agents. a unique feature of the class 2 dhods is their
+n-terminal extension, which folds into a separate domain comprising two ␣-helices. this domain serves as
+the binding site for the two inhibitors and the respiratory quinones acting as the second substrate for the class
+2 dhods. the orientation of the first n-terminal helix is very different in the two complexes of rat dhod
+(dhodr). binding of  xxxd243xxx  causes a 12 å movement of the first residue in the first ␣-helix. based
+on the information from the two structures of dhodr, a model for binding of the quinone and the residues
+important for the interactions could be defined. his 56 and arg 136, which are fully conserved in all class
+2 dhods, seem to play a key role in the interaction with the electron acceptor. the differences between the
+membrane-bound rat dhod and membrane-associated class 2 dhods exemplified by the escherichia coli
+dhod has been investigated by grid computations of the hydrophobic probes predicted to interact with
+the membrane.
+keywords:  xxxg633xxx ; inhibitor binding;  xxxd363xxx ;  xxxd243xxx ; domain movement;
+membrane association
+
+reprint requests to: sine larsen, centre for crystallographic studies,
+department of chemistry, university of copenhagen, universitetsparken
+5, dk-2100 copenhagen, denmark; e-mail: sine@ccs.ki.ku.dk or
+slarsen@esrf.fr; fax: 45-3532-0299 or 33-4-7688-2160.
+abbreviations: dhod,  xxxg633xxx ; dho, dihydroorotate; dcip, 2,3-dichlorophenolindophenol; hepes, 4–(2-hydroxyethyl)-1-piperazineethanesulfonic acid; mpd, 2-methyl 2,4-pentanediol;
+tris, tris-(hydroxymethyl)aminomethane, 2-amino-2–(hydroxymethyl) xxxd18xxx ; q0, 2,3-dimethoxy-5-methyl-benzoquinone; dhodr, rat
+
+dhod; dhodr-breq, structure of rat dhod in complex with  xxxd363xxx ;
+dhodr-ato, structure of rat dhod structure in complex with  xxxd243xxx ;
+ xxxg633xxx , human dhod;  xxxg633xxx -lefl, structure of human dhod structure in complex with  xxxd2450xxx ;  xxxg633xxx -breq, structure of human
+dhod in complex with  xxxd363xxx ; dhodc, escherichia coli dhod;
+dhoda, lactococcus lactis dhod a; dhodb, lactococcus lactis
+dhod b; rmsd, root-mean-square deviation.
+article and publication are at http://www.proteinscience.org/cgi/doi/
+10.1110/ps.03533004.
+
+protein science (2004), 13:1031–1042. published by cold spring harbor laboratory press. copyright © 2004 the protein society
+
+1031
+
+hansen et al.
+
+dihydrorotate dehydrogenase (dhod) (ec 1.3.99.11) catalyzes the fourth step and only redox reaction in the de novo
+pyrimidine biosynthesis, the stereospecific oxidation of (s)dho to  xxxd2794xxx  accompanied by the reduction of the prosthetic flavin (fmn) group (fig. 1). a phylogenetic analysis
+of available dhod sequences revealed that dhod from
+different organisms can be assigned to two different major
+classes: class 1 and class 2 (björnberg et al. 1997). class 1
+dhods originating mainly from gram-positive bacteria can
+furthermore be divided into subclasses 1a, 1b, and a new
+type 1s identified in sulfolobus solfataricus (sørensen and
+dandanell 2002). the dhods belonging to the different
+classes differ also in their location in the cell. the class 1a
+and 1b dhods are found in the cytosol, whereas those
+from class 2 are membrane associated. another distinct difference between the two classes of enzymes is their natural
+electron acceptor used to reoxidize the flavin group.
+lactococcus lactis contains two genes encoding for
+dhods representing subclass 1a and 1b, dhoda and
+dhodb, respectively. they differ in their structural organization and use of electron acceptor. the dhoda enzyme
+is a homodimer comprising two pyrda subunits with an
+(␣␤)8 barrel fold and the prosthetic fmn group located at
+
+figure 1. the reaction catalyzed by class 2 dhods and chemical structure of the dhod inhibitors  xxxd243xxx ,  xxxd363xxx , and a771726. this
+figure is produced by isis draw 2.4 (mdl information systems, inc.).
+
+1032
+
+protein science, vol. 13
+
+the c-terminal ends of the ␤-strands at the top of the barrel
+(rowland et al. 1997); it uses fumarate as its natural electron acceptor (andersen et al. 1996). the dhodb is a
+heterotetramer composed of a central homodimer of pyrdb
+subunits resembling the dhoda structure and two pyrk
+subunits (rowland et al. 2000). it is the presence of the
+pyrk subunits, which contain an fad group and a [2fe-2s]
+cluster, that enables the class 1b enzymes to use nad+ as
+the natural electron acceptor (nielsen et al. 1996). class 1s
+dhod can use q0 and molecular oxygen as electron acceptors, together with the unphysiological substrates ferricyanide and dcip used in in vitro measurements (sørensen
+and dandanell 2002).
+the membrane-associated class 2 dhods found in gramnegative bacteria and in eukaryotes are monomeric enzymes
+that have the respiratory quinones as their physiological
+electron acceptors (fig. 1; björnberg et al. 1999). a major
+structural difference between the class 1 and class 2 dhods
+is their extended n terminus. the structure determinations
+for the dhodc and  xxxg633xxx , truncated to be of the same
+length as dhodc, showed that the n terminus in the class
+2 enzymes comprises a separate domain with two ␣-helices
+located on the top of the catalytic (␣␤)8 barrel close to the
+fmn group (liu et al. 2000; nørager et al. 2002). all
+eukaryotic enzymes from class 2 are located in the mitochondrial membrane attached by transmembrane ␣-helices,
+whereas the gram-negative bacterial enzymes are associated
+with the cytosolic side of the outer membrane. the extension of the n terminus in class 2 dhods is thought to serve
+as a targeting signal guiding the enzyme to its location in the
+inner mitochondrial membrane (rawls et al. 2000; löffler et
+al. 2002)
+a basic residue in the active site mediates the stereospecific oxidation of (s)-dho. it is a cysteine in the class 1
+enzymes (björnberg et al. 1997) and a serine residue in the
+class 2 dhods (björnberg et al. 1999). the basic residue is
+located in a loop in close contact to dho bound on top of
+the fmn group. this position facilitates abstraction of a
+proton from the c5 atom of dho in the enzymatic reaction,
+where a double bond between c5 and c6 is formed due to
+the transfer of a hydride ion from c6 to the n5 atom of
+fmn (fig. 1). the second half reaction uses the respiratory
+quinones as electron acceptors. their proposed binding site
+(liu et al. 2000) is the n-terminal domain, where they are
+able to mediate the electron transfer to the fmnh2 group
+bound in the (␣␤) 8 barrel, as shown in figure 1.
+the inhibition of dhods causes a lowering of the intracellular pools of uracil, cytosine, and thymine nucleotides in
+cells, which makes dhods attractive drug targets (fairbanks et al. 1995). most organisms are able to use a salvage
+pathway for pyrimidine nucleotide biosynthesis. it allows
+the pyrimidine bases or nucleosides formed from degradation of nucleotides and nucleic acids to be reused by salvage
+reactions. some of the genes encoding for the enzymes in
+
+ xxxg633xxx  from rat
+
+the pyrimidine salvage pathway were not identified in the
+genomes of two organisms affecting human health, the bacterium helicobacter pylori causing stomach ulcers and
+stomach cancer and the malaria-causing parasite plasmodium. they therefore depend exclusively on de novo synthesis of pyrimidine nucleotides, which explains why
+dhods from these organisms are very attractive drug targets.
+rapidly dividing human cells, like activated lymphocytes (cutolo et al. 2003) and cancer cells (shawver et al. 1997) require
+also a functional de novo nucleotide pathway to meet their
+requirement for nucleotides because recycling using salvage
+pathways of the already existing nucleotide pool through salvage pathways is not sufficient (fairbanks et al. 1995).
+the immunomodulating drug  xxxd2450xxx  (arava) has
+been approved for the treatment of rheumatoid arthritis
+(goldenberg 1999). it has been shown that this drug inhibits
+ xxxg633xxx  and thereby inhibits the pyrimidine de novo biosynthetic pathway (davis et al. 1996). the structure of
+ xxxg633xxx  is known in complex with a771726, the active
+metabolite of the prodrug  xxxd2450xxx  ( xxxg633xxx -lefl) and
+ xxxd363xxx  ( xxxg633xxx -breq) (liu et al. 2000). from the analysis of the two structures of  xxxg633xxx , it was concluded that
+the inhibitors could bind to the same site as the second
+natural substrate, the respiratory quinone. this feature was
+also deduced from enzyme kinetics studies of most of the
+class 2 enzyme inhibitors reported so far (bader et al. 1998;
+knecht et al. 2000). considerable efforts have been put into
+structure activity analysis for dhods from different organisms, among them rat and mouse (knecht et al. 2000).
+an interesting feature of class 2 dhods is the relatively
+small number of conserved residues located in their extended n termini. this explains why the n-terminal domains in the known structures of the class 2 dhods display
+significant variations in the length and orientation of the
+helices that form this domain (nørager et al. 2002). the
+comparison of the sequences from  xxxg633xxx , dhodc, and
+dhodr in figure 2 reveals that, among the residues corresponding to the first 40 residues of dhodc, there are
+only six conserved. it is likely that this variation is the origin
+of the different behavior of inhibitors even for very closely
+related dhods like the rat and human (knecht and löffler
+1998). thus, it seems possible to design inhibitors that are
+specific for a given organism, as demonstrated by structureactivity studies made on class 2 dhods (copeland et al.
+2000).
+the work presented here addresses the differences between the class 2 dhods. we have determined the crystal
+structures of the dhod from rat, truncated like  xxxg633xxx  to
+be of the same length as dhodc, in complex with  xxxd363xxx  (dhodr-breq) and  xxxd243xxx  (dhodr-ato).  xxxd243xxx  (fig. 1) is a structural analog of ubiquinone. it is used
+as a broad-spectrum antiparasitic drug and has showed activity against various parasitic infections, such as malaria,
+toxoplasmosis (caused by toxoplasma gondii), and pneu-
+
+monia (pneumocystis carinii) (kaneshiro et al. 2000).
+ xxxd243xxx  has passed clinical trials and thereby received
+approval to combat plasmodium falciparum. the primary
+mechanism of action in plasmodium falciparum is the irreversible binding to the mitochondrial cytochrome bc1 complex, but it is also a potent inhibitor of dhod activity
+(ittarat et al. 1994).  xxxd243xxx  is marketed in the united
+states under the trade name  xxxd243xxx .  xxxd243xxx  is one of
+the active compounds in malarone (glaxosmithkline), used
+in the prophylaxis (prevention) and treatment of malaria.
+ xxxd363xxx  is a quinoline carboxylic acid, which has been
+tested preclinically as a cytostatic agent.
+the three inhibitors  xxxd243xxx , a77126, and  xxxd363xxx 
+(known to inhibit different class 2 dhods) are chemically
+different and do not mimic the natural electron acceptor, as
+shown in figure 1. our analysis of the two structures of
+dhodr-ato and dhodr-breq revealed a remarkable difference in the conformation of their small n-terminal domain. a comparison to the structures of inhibited  xxxg633xxx 
+have revealed subtle differences in the n-terminal domain
+that can explain why the dhod inhibitors act differently on
+the two highly homologous enzymes. these results are
+valuable for the structural-based drug design of organismspecific inhibitors of dhod, and have formed the basis for
+a modeling of quinone binding. furthermore, we present an
+analysis of the differences in the n-terminal domain between the class 2 membrane-bound and membrane-associated dhod, based on computational grid modeling.
+results and discussion
+the structures of dhodr
+the structures of the truncated dhodr complexed with
+ xxxd363xxx  (dhodr-breq) and  xxxd243xxx  (dhodr-ato)
+have been determined to 2.4 å and 2.3 å resolution, respectively. overall pictures of the two structures are presented in figure 3, a and b. dhodr-ato comprises two
+independent but identical complexes. superimposition calculated with default values in the program o (jones et al.
+1991) shows an rmsd of 0.14 å for 358 c␣ atoms. like the
+other known class 2 dhod structures, dhodr is a monomer, which folds into a small n-terminal domain and an
+(␣␤)8 barrel comprising the larger c-terminal domain. the
+smaller n-terminal domain contains the two ␣-helices (␣a
+and ␣b). a remarkable difference is noted between the
+dhodr-ato and dhodr-breq structures with respect to
+the orientation of the ␣a-helix, which adopts very different
+positions in the two structures (fig. 3a,b). the similarity
+between the two dhodr-ato complexes in the asymmetric
+unit and the absence of close (<3.9 å) crystal contacts make
+it unlikely that the difference between the two dhodr
+structures is due to crystal-packing effects. superimposition
+of the two structures in two different orientations is shown
+in figure 3c. using the position of the n-terminal tyr 38
+www.proteinscience.org
+
+1033
+
+hansen et al.
+
+figure 2. structural alignment of dhodr,  xxxg633xxx , and dhodc sequences. the structural elements correspond to the dhodr
+structures. ␣-helixes in the central barrel are named ␣1–␣8 and ␤-sheets in the barrel are named ␤1–␤8. ␣-helixes and ␤-sheets outside
+the barrel are named ␣a-␣e and ␤a-␤e. the predicted transmembrane helix (tm) is labeled in blue. the predicted targeting signal
+is labeled in orange. identical residues are labeled with a grey box. this figure was produced using the program indonesia (d. madsen,
+p. johansson, s. arent, m.r. harris, and g.j. kleywegt, unpubl.; http:// xxxg831xxx .bmc.uu.se/dennis/).
+
+c␣ atom as a measure, the n-terminal ␣-helix exhibits a
+relative movement of 12.2 å. the angle between the two
+orientations of the helix is 62°, with an rmsd of 4.57 å for
+1034
+
+protein science, vol. 13
+
+the 32 c␣ atoms in the ␣a-helix (tyr 38–pro 69) calculated
+using lsqman (kleywegt and jones 1999). calculation of
+the accessible surface area of dhodr in the two complexes
+
+ xxxg633xxx  from rat
+
+and  xxxg633xxx -lefl. the overall fold of dhodr-breq is very
+similar to the fold observed in these three structures,
+whereas the dhodr-ato displays a unique orientation of
+the n-terminal ␣〈-helix. superposition of dhodr-breq
+and  xxxg633xxx -breq using default values in the program o
+(jones et al. 1991) gives rmsd values of 0.536 å for 339 c␣
+atoms. the inhibitors in the dhod structures bind in the
+same location, between the two n-terminal helices ␣a and
+␣b suggested as the binding site for the natural quinone
+substrate (liu et al. 2000). this binding site is empty in
+dhodc, which was determined without any inhibitors. the
+n-terminal domain of dhodc differs from the other
+dhod structures by having a distinct kink in the ␣b-helix,
+with the last part comprising a 310 helix (nørager et al.
+2002).
+ xxxd363xxx  binding in dhodr
+
+figure 3. (a) dhodr-breq, dhodr in complex with  xxxd363xxx  (light
+blue). fmn and  xxxd2794xxx  are colored in light grey. the small n-terminal
+domain is colored in dark gray. the cations are shown as black spheres. (b)
+dhodr-ato, dhodr in complex with  xxxd243xxx  (yellow). fmn and
+ xxxd2794xxx  are colored in light gray. the bound ␤-octylglucoside is shown in
+black and the small n-terminal domain is colored in dark gray. (c) two
+views of the superimposition of dhodr-ato c␣-trace (red) with  xxxd243xxx  (yellow) and dhodr-breq c␣-trace (blue) with  xxxd363xxx  (light
+blue). fmn and  xxxd2794xxx  are colored in gray. these figures were produced
+by swiss pdb-viewer (guex and peitsch 1997).
+
+did not reveal any significant differences; thus, the different
+orientation of the ␣a-helix in dhodr-ato does not represent a more solvent-exposed structure.
+two n-terminal ␣-helices, ␣a and ␣b, form a hydrophobic entrance to the fmn group located on the top of the
+(␣␤)8 barrel.  xxxd2794xxx  is bound as in the complexes of the
+class 1a and 1b enzymes with the ring system stacked at the
+si-face of fmn (rowland et al. 1998, 2000). the presence of
+bound cations in dhodr-breq and a detergent molecule,
+␤-octylglucoside, in dhodr-ato can be attributed to the difference in crystallization conditions. the cations are located
+far from the substrate and inhibitor binding sites, and the detergent molecule is localized parallel to ␣1- and ␣2-helices of
+the (␣␤)8 barrel. the flexible loop with many conserved residues covering the active site is poorly defined in the electron
+densities of the dhodr structures. the disorder of this loop
+has the implication that asn 217–leu 224 and pro 216–leu
+224 could not be traced in the electron density maps for
+dhodr-breq and dhodr-ato, respectively.
+comparison to the structures of other class 2 dhods
+the structures of dhodr-ato and dhodr-breq were
+compared with the structures of dhodc,  xxxg633xxx -breq,
+
+the overall binding of  xxxd363xxx  in dhodr-breq is illustrated in figure 3a and in more detail in figure 4a.  xxxd363xxx  interacts with residues coming from the helices of the
+n-terminal helix, the loop connecting the two domains, ␤c,
+one of the additional ␤ strands in the (␣␤)8 barrel, and the
+first residue of ␣8. the carboxylate group of  xxxd363xxx 
+forms a hydrogen-bonded ring system with arg 136. the
+hydrophobic moiety of  xxxd363xxx  is in contact with met 43,
+ala 59, leu 68, pro 364, ala 55, leu 46, and ile 360. the
+stacking interactions between the fluorosubstituted quinoline ring system and the imidazole ring of his 56 seems also
+to be important for the  xxxd363xxx  binding (fig. 4a).  xxxd363xxx  binding in dhodr-breq resembles the binding of
+ xxxd363xxx  in  xxxg633xxx , but the ic50-value of  xxxd363xxx  is
+127 nm for dhodr and 6 nm for  xxxg633xxx  (ullrich et al.
+2001). to explain this significant difference in inhibition,
+we made a superimposition of the n-terminal domains of
+dhodr and  xxxg633xxx . the binding of  xxxd363xxx  is alike in
+the two dhods; however, phe 62 in the  xxxg633xxx  (replaced
+with val 62 in the dhodr) could give a better interaction
+with the aromatic ring, explaining why  xxxd363xxx  binds
+more strongly to  xxxg633xxx . the aromatic ring in phe 62 is
+almost perpendicular to the fluoro substituted part of the
+quinoline ring system of  xxxd363xxx .
+ xxxd243xxx  binding in dhodr
+ xxxd243xxx  also displays pronounced differences with respect to inhibition of  xxxg633xxx  and dhodr: the ic50 value
+is 14,500 nm for  xxxg633xxx  and 698 nm for dhodr
+(knecht et al. 2000). a detailed structural picture of the
+binding of  xxxd243xxx  in dhodr is presented in figure
+4b.  xxxd243xxx  interacts with residues from the same sequence regions as  xxxd363xxx . the interactions to the pyrrolidone rings of pro 44 and pro 364, which stack with the
+para-chloro phenyl group seem also to be significant. there
+www.proteinscience.org
+
+1035
+
+figure 4. (legend on next page)
+
+ xxxg633xxx  from rat
+
+are other hydrophobic interactions between  xxxd243xxx  and
+his 56, tyr 356, val 134, ile 360, ala 55, gln 47, and met
+43. arg 136 is essential for the binding of  xxxd243xxx . it
+forms a hydrogen-bonded ring system with the hydroxy and
+one of the carbonyl groups of the fused ring system resembling the one involving the carboxylate group of  xxxd363xxx .
+the side chain of arg 136 adopts quite different conformations in the two dhodr structures, as illustrated by the
+differences in the chi and  xxxg444xxx  torsion angles as calculated with o (jones et al. 1991). they are −61° and 175° in
+the  xxxd243xxx  complex compared with −157° and −57° in
+the  xxxd363xxx  complex. the hydrogen bonds between  xxxd243xxx  and arg 136 open an opportunity for interactions
+between the first residue glu 40 in ␣-helix 1 and the chloro
+atom in  xxxd243xxx . a comparison of this region in
+dhodr-breq and dhodr-ato reveals that if the n-terminal ␣a-helix is positioned like that in the  xxxd363xxx  structure, it would lead to clashes between the p-chloro-phenyl
+group and glu 40. the movement of the ␣〈-helix enables
+the formation of a hydrogen bond between the side chain of
+gln 47 (ne2) and the backbone carbonyl group of ile 360,
+an interaction that can contribute to the stabilization of the
+orientation of the ␣a-helix in the dhodr-ato structure.
+superimposition of the c␣ atoms of the two rat structures
+(fig. 3c) reveals that  xxxd243xxx  is bent toward ␣-helix 1.
+ xxxd243xxx  appears more deeply buried in the tunnel compared with  xxxd363xxx  and therefore closer to fmn. interestingly, kinetic experiments with the dhodr (knecht et al.
+2000) showed that both  xxxd243xxx  and  xxxd363xxx  are uncompetitive inhibitors with respect to dihydroorotate. however,  xxxd243xxx  was found to be a competitive inhibitor
+with respect to the ubiquinone substrate qd,, whereas  xxxd363xxx  did not show pure competitive inhibition with respect
+to qd. its noncompetition of dhodr could be identified as
+a “mixed-type”inhibition (copeland 2000; knecht et al.
+2000). on the basis of kinetic investigations, it was proposed that though the two inhibitors bind to the same qd
+binding site, they have different interactions with the enzyme. the naphthoqinone ring system makes  xxxd243xxx 
+structurally more similar to qd than  xxxd363xxx  (fig. 1). the
+fact that it functions as a competitive inhibitor against the
+electron acceptor confirms that it is bound at the same site.
+inhibitor binding in different dhods
+whereas  xxxd2450xxx ’s active metabolite a771726 and  xxxd363xxx  (fig. 1) inhibit  xxxg633xxx  and dhodr, they do not
+inhibit dhodc (k.f. jensen, unpubl.). from the  xxxg633xxx -
+
+breq and  xxxg633xxx -lefl structures, the following residues
+were identified as interacting with the inhibitors: gln 47,
+arg 136, his 56, tyr 356, thr 360, and met 43, ala 59, leu
+68, pro 364 (liu et al. 2000). a structural-based sequence
+comparison of the  xxxg633xxx , dhodr, and dhodc (fig. 2)
+reveals that only four of these nine residues are conserved in
+the three organisms: arg 136, his 56, tyr 356, and pro 364,
+noting that only his 56 is located in the n-terminal domain.
+this could explain why inhibition patterns of the three enzymes dhodc, dhodr, and  xxxg633xxx  are significantly
+different.
+the empty n-terminal domain of dhodc is depicted in
+figure 4d. from the comparison to the  xxxg633xxx  structure
+(nørager et al. 2002), the following residues in the n-terminal domain were identified as being of potential significance for the difference between the two enzymes in inhibitor binding: met 43, gln47, and ala59, which are all conserved in dhodr and  xxxg633xxx  but lacking in dhodc. in
+addition, val 134 can play a role for the differences in
+inhibition as this is replaced by a leucine in dhodc.
+
+inhibition studies
+the structures were determined for the truncated histidinetagged enzyme. in order to examine how far the n-terminal
+truncation influenced the biological function, the efficacy of
+ xxxd243xxx  and  xxxd363xxx  with truncated dhodr was
+evaluated from dose-response curves with the inhibitor and
+compared with that observed with the full-length enzyme.
+because ic50 values (inhibitor concentration giving 50%
+inhibition) of a particular inhibitor can change with changing solution conditions (copeland 2000), the values were
+determined under the same standardized assay conditions as
+previously applied for the full-length enzyme (knecht et al.
+2000; ullrich et al 2002).
+the ic50 values as obtained from dose-response curves
+are presented in table 1 with those determined with the
+full-length dhodr for comparison. both versions of the rat
+enzyme are more sensitive to  xxxd363xxx  than  xxxd243xxx .
+the difference of drug efficiency between the truncated and
+the full-length enzyme could indicate that access to the
+binding site to a certain extent is influenced by the n terminus. interestingly, the difference observed here for the
+quinone analogs  xxxd243xxx  and  xxxd363xxx  was not detected
+with the isoxazole class of malonnitrilamide compounds,
+a771726, mna 279, and mna 715. these revealed fairly
+identical ic50 values when comparisons between the full-
+
+figure 4. stereo diagrams showing the inhibitor and substrate binding sites in the class 2 dhods. (a)  xxxd363xxx  binding site. residues
+ala 55, leu 46, and ile 360, which make hydrophobic contacts to  xxxd363xxx , are not shown in the picture. (b)  xxxd243xxx  binding site.
+residues his 56, val 134, and met 43 are not shown in the picture. (c) modeled binding of the quinone substrate to dhodr. nitrogen
+atoms are shown in blue; oxygen, in red; and fluoride, in green. the distances given are in ångstroms. (d) the dhodc with an empty
+inhibitor site seen in the same view as the dhodr. the figures are produced by swiss pdb-viewer (guex and peitsch 1997).
+
+www.proteinscience.org
+
+1037
+
+hansen et al.
+
+table 1. ic50 values for inhibition of full-length rat dhodr
+and 29 amino acids of truncated rat dhodr
+
+compound
+
+ic50 for full-length
+rat dhod (nm)
+
+ic50 for truncated
+rat dhod, n-terminal ⌬29
+amino acids (nm)
+
+ xxxd243xxx 
+ xxxd363xxx 
+
+698 ± 64a
+367 ± 100b
+
+904 ± 100
+127 ± 21c
+
+the rat dhodase activity was determined with 1 mm dihydroorotate and
+0.1 mm qd. dose response curves for inhibition were obtained by varying
+the drug concentrations from 20 nm up to 200 ␮m  xxxd243xxx . results are
+means of three determinations and are given ± s.d.
+a
+knecht et al. (2000).
+b
+knecht and löffler (1998).
+c
+ullrich et al. (2001).
+
+length and truncated dhodr were made (knecht and löffler 1998; ullrich et al. 2001).
+the role of the n-terminal extension of class 2 dhods
+class 2 dhods are all associated with membranes and have
+an extended n terminus compared with the class 1 dhods.
+dhodc possesses one of the shortest extensions, and the
+eukaryotic dhods that have been subject to structure determination (liu et al. 2000 and this work) have had ∼30 of
+their first amino acids removed to have the same length as
+dhodc. the succeeding residues (the first of dhodc)
+fold into the n-terminal domain that is the binding site for
+the second substrate and the inhibitors as discussed earlier.
+the question remains on the biological function of the first
+n-terminal amino acids in the eukaryotic dhods. a probable function of these residues is to contribute to the membrane attachment through a transmembrane ␣-helix (tm in
+fig. 2), but also to provide a mitochondrial targeting signal
+(rawls et al. 2000; löffler et al. 2002). from the cdna of
+rat liver dhod, a typical sequence of 10 amino acid residues corresponding to a targeting signal and a hydrophobic
+stretch of 18 amino acids (residues 12–29) corresponding to
+the transmembrane ␣-helix could be identified (knecht et al.
+1996).
+dhodc does not possess a transmembrane ␣-helix, but
+it is still associated with the membrane. in order to investigate if the difference in membrane association between the
+dhods from gram-negative bacteria and eukaryotes is related to differences in the hydrophobic character of their
+surface, we used the program grid (goodford 1985) to
+calculate hydrophobic contour surfaces for the two different
+types of dhods. dhodc was used as a prototype for
+dhods from gram-negative bacteria, and we constructed a
+model of the eukaryotic dhods that includes the residues
+that connect the first ␣a-helix and the tm-helix. the residues 30–38 from the  xxxg633xxx -breq (pdb accession number
+1d3g) were used for the structural modeling because all of
+1038
+
+protein science, vol. 13
+
+the residues in helix ␣a are present in this structure. the
+hydrophobic contour surfaces calculated for this chimerical
+dhodr and dhodc are depicted in figure 5, a–d. the
+hydrophobic area covered by the n-terminal ␣-helices is
+larger in dhodc than in dhodr. this could be one of the
+reasons why the eukaryotic dhods require a transmembrane helix for attachment. in fact, a mutant of dhodr
+lacking the transmembrane helix was shown to be translocated into the mitochondrial matrix rather than to be inserted into the inner membrane (rawls et al. 2000). the
+residues that contribute mostly to the hydrophobic surface
+in dhodc are the aromatic residues tyr 2, phe 5, phe 21,
+and pro 4. other contributing residues are glu 20 and the
+chain of arg 17, arg 28, lys 8 (∼fig. 5c,d). it is also the
+aromatic residues in dhodr that make the largest contribution to the hydrophobic contour surfaces, namely, tyr 41
+and phe 37. contribution to the hydrophobic contour surfaces in dhodr comes also from val 62, leu 49, leu 50,
+arg 48, and arg 70 (fig. 5a,b). these grid calculations
+also provide an estimate of the hydrophobic binding capacity of the small n-terminal domain, which is −12.91 kcal/
+mole for dhodr and −10.46 kcal/mole for dhodc. this
+corresponds to a very small difference in the binding constant for dhodr and dhodc. however, the binding capacity is distributed over a larger area in dhodc compared
+with dhodr, which could give the dhodc a better interaction with the membrane.
+substrate binding in class 2 dhods
+his 56 and arg 136 are the only fully conserved residues
+that interact with the inhibitors of the class 2 dhods. this
+could indicate that they also play a role in binding of the
+electron acceptor. arg 136 contributes to the binding of
+ xxxd243xxx  and  xxxd363xxx  in dhodr by making hydrogen
+bonds to the inhibitors and adopting different conformations
+of the side chain. in order to get a picture of the binding of
+the natural substrate, we used autodocking (version 3.0.3)
+from the scripps research institute and molecular graphics
+laboratory to dock a quinone into the binding pocket of
+dhodr. the result of this modeling is depicted in figure
+4c. accommodation of the quinone into the pocket can take
+place in a similar way as for  xxxd363xxx  and  xxxd243xxx ,
+exploiting the flexibility of arg 136, meaning that arg 136
+can adopt its conformation to the chemical nature of the
+compound bound in the pocket, in this case making tight
+interactions with the c3 bound carbonyl group. as seen for
+the inhibitors, his 56 stacks with the quinone ring system.
+the significance of this residue in the substrate recognition
+is supported by earlier work by davis and copeland (1997).
+they showed that replacing his 56 by alanine cause a 10fold reduction in catalytic activity relative to the wild-type
+ xxxg633xxx  and that the mutant h56a was 167-fold less sensitive to inhibition by  xxxd363xxx . these results support our
+hypothesis that his 56 and arg 136 are important for bind-
+
+ xxxg633xxx  from rat
+
+figure 5. hydrophobic probes in dhodr and dhodc. the probes for dhodr are shown in figure 5a and for dhodc in figure
+5c. a more detailed picture of only the small n-terminal domain with side chains is shown for dhodr in figure 5b and for dhodc
+in figure 5d. the small n-terminal domain is colored in blue, and the rest of the protein, in red. hydrophobic probes are colored in
+gray. the hydrophobic probes are calculated by grid (version 21, molecular discovery ltd.; goodford 1985) and the pictures are
+produced using insight ii (97.0; biosym/msi).
+
+ing the electron acceptor, the second substrate of the class 2
+dhods.
+materials and methods
+protein preparation
+recombinant dhodr was expressed in e. coli and purified as a
+truncated protein where the first 29 amino acids in the n terminal
+are removed, as described previously (ullrich et al. 2001).  xxxd243xxx  was obtained from the wellcome foundation and  xxxd363xxx 
+from dupont pharma gmbh.
+
+crystallization
+initial searches for crystallization conditions were performed using
+crystal screen 1 and 2 from hampton research (jancarik and kim
+1991) using the vapor diffusion method. protein solutions of 15
+mg/ml protein, 2 mm  xxxd2794xxx , 0.1% ␤-octylglucoside, and inhibitor in a concentration of 0.1 mm and 1 mm for  xxxd243xxx  and
+ xxxd363xxx , respectively, were used. hanging or sitting drops of
+
+2-␮l protein solution and 2-␮l reservoir solutions were equilibrated over 500-␮l reservoir or 1-ml reservoir solution at room
+temperature.
+in the presence of  xxxd243xxx , small yellow crystals (dhodrato) appeared after 3 d in crystal screen 1, solution 39 (2% peg
+400 and 2 m ammonium sulphate, 0.1 m hepes-na at ph 7.5).
+optimization of this condition gave large reproducible crystals (0.2
+mm × 0.3 mm) grown with the following composition of the reservoir solution 5% peg 400, 1.9 m ammonium sulphate, and 0.1
+m tris-hcl buffer (ph 8.6). crystals of dhodr-breq were found
+in two conditions, solution 40 from crystal screen 1 (20% 2- xxxd3026xxx , 20% peg 4000, 0.1 m sodium citrate at ph 5.6) and solution 35 from crystal screen i (70% mpd, 0.1 m hepes at ph
+7.5). crystals used for data collection were grown as yellow thin
+needles over a period of 15 d with a reservoir solution consisting
+of 65% mpd, 0.1 m tris-hcl (ph 8.5).
+
+data collection
+diffraction data for dhodr-ato were collected to 2.3 å resolution
+at beamline bw7a, embl, hamburg, germany, using a ccd
+detector from mar research. prior to data collection, at 100k the
+crystals were transferred to cryo protectant (2 m ammonium sulphate, 20% peg 400, and 0.1 m tris-hcl at ph 8.5) and flash-
+
+www.proteinscience.org
+
+1039
+
+hansen et al.
+
+table 2. diffraction data statistics and refinement statistics
+
+x-ray source
+wavelength (å)
+resolution
+space group
+cell parameters (å)
+rmerge (%)c
+no. of reflections
+no. of unique reflections
+i/␴(i)>2 (%)
+completeness (%)
+no. of atoms
+no. of reflections in test set
+no. of reflections in working set
+no. of reflections in total
+average b-factor (å2)
+r factor (%)a
+r free (%)b
+
+dhodr-ato
+
+dhodr-breq
+
+bw7a, embl, hamburg, germany
+0.9999
+30–2.3 å (2.38–2.3)
+p3
+a⳱b⳱133.1 c⳱50.1
+5.5 (30.6)
+169873
+44018
+90 (74.1)
+99.9 (99.7)
+5697
+2183 (5%)
+41812 (95%)
+43995
+28.0
+21.6 (25.5)
+24.2 (28.4)
+
+1711, max lab, lund, sweden
+1.076
+20–2.44 å (2.5–2.44)
+ xxxd2372xxx 
+a⳱49.75, b⳱95.80, c⳱144.47
+10.8 (44.6)
+145268
+12989
+85.1 (62.1)
+100 (99.9)
+2666
+1302 (9.8%)
+11369 (85.9%)
+12671
+31.2
+21.0 (26.8)
+26.3 (32.0)
+
+values in parentheses are data for the highest resolution shell.
+a
+rfactor ⳱ ⌺work㛳fobs|—k|fcalc㛳/⌺work fobs.
+b
+rfree ⳱ ⌺test㛳fobs|—k|fcalc㛳/⌺test fobs, where fobs and fcalc are observed and calculated structure factors,
+respectively, k is the scale factor, and the sums are the overall reflections in the working set and test set,
+respectively.
+c
+rmerge ⳱ ⌺|i—〈 i〉 |/⌺i, where the sums are the overall reflections of intensity i.
+
+cooled for transportation to the beamline. the crystals belong to
+space group p3 (a ⳱ b ⳱ 133.1 å, c ⳱ 50.1 å); with two molecules in the asymmetric unit, the corresponding water content is
+59%. a data set to 2.4 å resolution was collected for dhodrbreq at beamline i711 (max lab, lund, sweden) on a crystal
+cooled to 100k. these crystals belong to space group  xxxd2372xxx 
+(a ⳱ 49.8 å, b ⳱ 95.8 å, c ⳱ 144.5 å) and have one molecule in
+the asymmetric unit with a corresponding water content of 39%.
+auto indexing, data reduction, and scaling were performed with
+programs from the hkl suite (otwinowski and minor 1997). details of data collection and statistics are summarized in table 2.
+
+structure determination and refinement
+the structure of dhodr-breq was determined by molecular replacement using epmr (kissinger et al. 1999). the crystal structure of  xxxg633xxx -breq (pdb accession number 1d3g), sharing
+88% sequence identity with dhodr, was used as search model. a
+correlation coefficient of 60.5% and an r-factor of 40.2% were
+obtained for the correct solution. the nonconserved residues in the
+model were changed to alanine residues using o (jones et al. 1991)
+and this model was used in a rigid body refinement, performed
+with cns (brunger et al. 1998). the difference electron density
+map showed clear density for  xxxd2794xxx ,  xxxd363xxx , and fmn. these
+three molecules were incorporated in the model that was built
+using o (jones et al. 1991) and a simulated annealing refinement
+was performed with cns (brunger et al. 1998). a few rounds of
+model building with o (jones et al. 1991) and refinement with
+cns (brunger et al. 1998) revealed two distinct peaks in the
+electron density, which from their peak height and surroundings
+were interpreted as a sodium ion and a nickel ion, the latter coming
+from the purification of dhodr on ni-column. both ions are
+located far from the active and the inhibitor binding sites. these
+ions were introduced in the model, b-factors were refined, and
+
+1040
+
+protein science, vol. 13
+
+water molecules were added automatically in cns (brunger et al.
+1998) at a peak height above 3.0 ␴ in the fobs-fcalc electron density
+map and above 1.5 ␴ in the 2fobs-fcalc electron density map, with
+at least one hydrogen bond between water and any atom in the
+protein, and a b-factor below 50 å2. the final model has an
+r-factor of 21.0% (r-free 26.3%) and contains 351 amino acid
+residues, one  xxxd2794xxx  molecule, one fmn molecule, one  xxxd363xxx ,
+one sodium ion, one nickel ion, and 41 water molecules.
+the refined model of dhodr-breq was used as a search model
+in molecular replacement with the dhodr-ato diffraction data
+using epmr (kissinger et al. 1999). the correct solution had a
+correlation coefficient of 61.5% and an r-factor of 38.5% and
+confirmed the presence of two molecules in the asymmetric unit.
+ xxxd2794xxx , fmn, and  xxxd243xxx  were easily identified in the electron density map and these molecules were added to the model
+using o (jones et al. 1991). a major movement of the n-terminal
+helix was discovered. after cycles of refinement in cns (brunger
+et al. 1998) and model building in o (jones et al. 1991), these
+amino acid residues could be placed in agreement with the electron
+density map. moreover, as refinement progressed, a ␤-octylglucoside molecule was identified bound to each molecule parallel to the
+␣1- and ␣2-helices in (␣␤)8 barrel. b-factors were refined and
+water molecules added as described earlier. the final model has an
+r-factor of 21.6% (r-free 24.2%). both molecules in the asymmetric unit contain 358 amino acid residues, one  xxxd2794xxx  molecule,
+one fmn molecule, one  xxxd243xxx  molecule, and one ␤-octylglucoside molecule, in addition to the 208 water molecules. a
+summary of refinement statistics for the two structures is shown in
+table 2.
+the quality of the structural models was evaluated with
+procheck (laskowski et al. 1993). dhodr-breq has 93.2%,
+and both chain a and chain b of dhodr-ato have 90.8% of the
+residues located in the most favored regions in the ramachandran
+plot. the additionally allowed regions contain 6.2% of the residues
+in dhodr-breq and 8.9% of the residues in dhodr-ato (both
+
+ xxxg633xxx  from rat
+
+chain a and chain b). the generously allowed region contains one
+residue (glu 40) from both chain a and b in dhodr-ato and two
+residues (ser 120 and tyr 356) in dhodr-breq. these residues
+are all well defined according to the electron density. the structures have been deposited at the protein data bank (dhodr-ato:
+1 uum and dhodr-breq: 1uuo).
+
+and deutsche forschungsgemeinschaft, graduiertenkolleg marburg, “protein function at the atomic level.”
+the publication costs of this article were defrayed in part by
+payment of page charges. this article must therefore be hereby
+marked “advertisement” in accordance with 18 usc section 1734
+solely to indicate this fact.
+
+molecular modeling procedures
+
+references
+
+modeling of dhodr residues 30–38 was performed using the
+homology modules as implemented in insight ii (97.0; biosym/
+msi). the template for these residues was taken from dhodhbreq (pdb accession number 1d3g). the program grid (version
+21, molecular discovery ltd.; goodford 1985) was used to compute the hydrophobic contour surfaces. this was used to predict
+the residues in the small n-terminal domain that are involved in
+attachment of dhodc to the membrane and to compare the same
+domain in dhodr. the hydrophobic binding affinity was obtained from a summation over the pairwise interactions of hydrophobic probe with the protein atoms.
+
+andersen, p.s., martinussen, j., and hammer, k. 1996. sequence analysis and
+identification of the pyrkdbf operon from lactococcus lactis including a
+novel gene, pyrk, involved in pyrimidine biosynthesis. j. bacteriol. 178:
+5005–5012.
+bader, b., knecht, w., fries, m., and löffler, m. 1998. expression, purification,
+and characterization of histidine-tagged rat and human flavoenzyme  xxxg633xxx . protein expr. purif. 13: 414–422.
+björnberg, o., rowland, p., larsen, s., and jensen, k.f. 1997. active site of
+ xxxg633xxx  a from lactococcus lactis investigated by
+chemical modification and mutagenesis. biochemistry 36: 16197–16205.
+björnberg, o., gruner, a.c., roepstorff, p., and jensen, k.f. 1999. the activity
+of escherichia coli  xxxg633xxx  is dependent on a conserved loop identified by sequence homology, mutagenesis, and limited
+proteolysis. biochemistry 38: 2899–2908.
+brunger, a., adams, p., clore, g., delano, w., gros, p., grosse-kunstleve, r.,
+jiang, j., kuszewski, j., nilges, m., read, r., et al. 1998. crystallography
+and nmr system: a new software suite for macromolecular structure determination. acta crystallogr. d biol. crystallogr. 54: 905–921.
+copeland, r.a. 2000. enzymes. wiley-vch inc., new york.
+copeland, r.a., marcinkeviciene, j., haque, t.s., kopcho, l.m., jiang, w.j.,
+wang, k., ecret, l.d., sizemore, c., amsler, k.a., foster, l., et al. 2000.
+helicobacter pylori-selective antibacterials based on inhibition of pyrimidine biosynthesis. j. biol. chem. 275: 33373–33378.
+cutolo, m., sulli, a., ghiorzo, p., pizzorni, c., craviotto, c., and villaggio, b.
+2003. anti-inflammatory effects of  xxxd2450xxx  on cultured synovial macrophages from patients with rheumatoid arthritis. annals rheum. dis. 62:
+297–302.
+davis, j.p. and copeland, r.a. 1997. histidine to alanine mutants of human
+ xxxg633xxx —identification of a  xxxd363xxx -resistant mutant enzyme. biochem. pharmacol. 54: 459–465.
+davis, j.p., cain, g.a., pitts, w.j., magolda, r.l., and copeland, r.a. 1996.
+the immunosuppressive metabolite of  xxxd2450xxx  is a potent inhibitor of
+human  xxxg633xxx . biochemistry 35: 1270–1273.
+fairbanks, l.d., bofill, m., ruckemann, k., and simmonds, h.a. 1995. importance of ribonucleotide availability to proliferating t-lymphocytes from
+healthy humans—disproportionate expansion of pyrimidine pools and contrasting effects of de-novo synthesis inhibitors. j. biol. chem. 270: 29682–
+29689.
+goldenberg, m.m. 1999.  xxxd2450xxx , a novel immunomodulator for the treatment of active rheumatoid arthritis. clin. ther. 21: 1837–1852.
+goodford, p.j. 1985. a computational procedure for determining energetically
+favorable binding sites on biologically important macromolecules. j. med.
+chem. 28: 849–857.
+guex, n. and peitsch, m.c. 1997. swiss-model and the swiss-pdbviewer:
+an environment for comparative protein modeling. electrophoresis. 18:
+2714–2723.
+ittarat, i., asawamahasakda, w., and meshnick, s.r. 1994. the effects of antimalarials on the plasmodium-falciparum  xxxg633xxx .
+exp. parasitol. 79: 50–56.
+jancarik, j. and kim, s.-h. 1991. sparse matrix sampling: a screening method
+for crystallization of proteins. journal of applied crystallography 24: 409–
+411.
+jones, t., zou, j., cowan, s., and kjeldgaard, m. 1991. improved methods for
+building protein models in electron density maps and the location of errors
+in these models. acta crystallogr. a 47: 110–119.
+kaneshiro, e.s., sul, d., and hazra, b. 2000. effects of  xxxd243xxx  and diospyrin-based drugs on ubiquinone biosynthesis in pneumocystis carinii organisms. antimicrob. agents and chemother. 44: 14–18.
+kissinger, c., gehlhaar, d., and fogel, d. 1999. rapid automated molecular
+replacement by evolutionary search. acta crystallogr. d biol. crystallogr.
+55: 484–491.
+kleywegt, g.j. and jones, t.a. 1999. software for handling macromolecular
+envelopes. acta crystallogr. d biol. crystallogr. 55: 941–944.
+knecht, w. and löffler, m. 1998. species-related inhibition of human and rat
+
+docking of natural substrate
+a truncated quinone was docked into the hydrophobic tunnel of
+dhodr-breq where  xxxd363xxx  was removed before docking.
+there were no constraints on the torsion angles during the docking
+experiment performed with the program autodock (version
+3.0.3) from the scripps research institute and molecular graphics
+laboratory.
+
+enzyme assay and inhibition studies
+all studies were performed with the histidine-tagged enzyme without cleavage of the tag. the chromogen reduction assay was carried out with 1 mm l-dho, 0.1 mm qd, 0.06 mm dcip, 50 mm
+tris-hcl, 150 mm kcl at ph 8.0, 0.08% triton (for solubilization
+of qd), and 1% dmso (for solubilization of inhibitors) to test
+enzyme activities; the assay was started by addition of the enzyme
+and measured at a600 nm (␧ ⳱ 18,800 m−1cm−1).
+to determine the inhibitory potency of the drug  xxxd243xxx , we
+measured the initial velocity of the dhodr-catalyzed reaction at
+saturating concentrations of dho (1 mm) and qd (0.1 mm) with
+varying drug concentrations in the range of 20 nm up to 200 ␮m.
+the equation vi / vo ⳱ 1/[1 + [i]/ic50], where vi is the initial velocity in the presence of the inhibitor at concentration [i] and vo is
+the initial velocity in the absence of the inhibitor, was fitted to the
+initial velocities in order to find the drug concentration causing
+50% inhibition of the enzyme activity (ic50; copeland 2000).
+
+acknowledgments
+we thank embl outstation hamburg for beam time at station
+bw7a and max-lab for beam time at i711. the visits to the
+synchrotrons were supported through the ari (european community’s access to research infrastructure program) and by the
+danish natural science research council through a grant to
+dansync.
+we thank flemming hansen, centre for crystallographic studies, for his help with the data collection for dhodr-ato. the
+research is supported through funding from danish national research foundation, department of clinical microbiology, university hospital of copenhagen, dtc (danish toxicology centre),
+
+www.proteinscience.org
+
+1041
+
+hansen et al.
+
+ xxxg633xxx  by immunosuppressive isoxazol and cinchoninic acid derivatives. biochem. pharmacol. 56: 1259–1264.
+knecht, w., bergjohann, u., gonski, s., kirschbaum, b., and löffler, m. 1996.
+functional expression of a fragment of human  xxxg633xxx  by means of the baculovirus expression vector system, and kinetic
+investigation of the purified recombinant enzyme. eur. j. biochem. 240:
+292–301.
+knecht, w., henseling, j., and löffler, m. 2000. kinetics of inhibition of human
+and rat  xxxg633xxx  by  xxxd243xxx , lawsone derivatives,
+ xxxd363xxx  sodium and polyporic acid. chem. biol. interact. 124: 61–76.
+laskowski, r., macarthur, m., moss, d., and thornton, j. 1993. procheck:
+a program to check the stereochemical quality of protein structures. journal
+of applied crystallography 26: 283–291.
+liu, s.p., neidhardt, e.a., grossman, t.h., ocain, t., and clardy, j. 2000.
+structures of human  xxxg633xxx  in complex with antiproliferative agents. structure fold. des. 8: 25–33.
+löffler, m., knecht, w., rawls, j., ullrich, a. and dietz, c. 2002. drosophila
+melanogaster  xxxg633xxx : the n terminus is important
+for biological function in vivo but not for catalytic properties in vitro. insect
+biochem. mol. biol. 32: 1159–1169.
+nielsen, f.s., andersen, p.s., jensen, k.f. 1996. the b form of dihydroorotate
+dehydrogenase from lactococcus lactis consists of two different subunits,
+encoded by the pyrdb and pyrk genes, and contains fmn, fad, and [fes]
+redox centers. j. biol. chem. 271: 29359–29365.
+nørager, s., jensen, k.f., bjornberg, o., and larsen, s. 2002. e. coli  xxxg633xxx  reveals structural and functional distinctions between different classes of dihydroorotate dehydrogenases. structure 10:
+1211–1223.
+otwinowski, z. and minor, w. 1997. processing of x-ray diffraction data
+
+1042
+
+protein science, vol. 13
+
+collected in oscillation mode. methods enzymol. (macromolecular crystallography, part a) 276: 307–326.
+rawls, j., knecht, w., diekert, k., lill, r., and löffler, m. 2000. requirements
+for the mitochondrial import and localization of  xxxg633xxx . eur. j. biochem. 267: 2079–2087.
+rowland, p., nielsen, f.s., jensen, k.f., and larsen, s. 1997. the crystal
+structure of the flavin containing enzyme  xxxg633xxx  a
+from lactococcus lactis. structure 5: 239–252.
+rowland, p., björnberg, o., nielsen, f.s., jensen, k.f., and larsen, s. 1998.
+the crystal structure of lactococcus lactis  xxxg633xxx  a
+complexed with the enzyme reaction product throws light on its enzymatic
+function. protein sci. 7: 1269–1279.
+rowland, p., nørager, s., jensen, k.f., and larsen, s. 2000. structure of  xxxg633xxx  b: electron transfer between two flavin groups
+bridged by an iron-sulphur cluster. structure 8: 1227–1238.
+shawver, l.k., schwartz, d.p., mann, e., chen, h., tsai, j.m., chu, l., taylorson, l., longhi, m., meredith, s., germain, l., et al. 1997. inhibition of
+platelet-derived growth factor-mediated signal transduction and tumor
+growth by n-[4–(trifluoromethyl)-phenyl] 5-methylisoxazole-4-carboxamide. clin. cancer res. 3: 1167–1177.
+sørensen, p.g. and dandanell, g. 2002. a new type of  xxxg633xxx , type 1s, from the thermoacidophilic archaeon sulfolobus solfataricus. extremophiles 6: 245–251.
+ullrich, a., knecht, w., fries, m., and löffler, m. 2001. recombinant expression of n-terminal truncated mutants of the membrane bound mouse, rat and
+human flavoenzyme  xxxg633xxx —a versatile tool to rate
+inhibitor effects? eur. j. biochem. 268: 1861–1868.
+ullrich, a., knecht, w., piskur, j., and löffler, m. 2002. plant dihydroorotate
+dehydrogenase differs significantly in substrate specificity and inhibition
+from the animal enzymes. febs lett. 529: 346–350.
+

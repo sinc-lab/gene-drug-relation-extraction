@@ -1,0 +1,1507 @@
+molecular immunology 44 (2007) 3823–3837
+
+review
+
+mechanisms of killing by anti-cd20 monoclonal antibodies
+martin j. glennie a,∗ , ruth r. french a , mark s. cragg a , ronald p. taylor b
+a
+
+tenovus research laboratory, cancer sciences division, southampton university school of medicine,
+general hospital, southampton so16 6yd, uk
+b department of biochemistry and molecular genetics, university of virginia health sciences center,
+p.o. box 800733, charlottesville, va 22908-0733, usa
+received 30 may 2007
+
+abstract
+cd20 is a cell-surface marker expressed on mature b cells and most malignant b cells, but not stem or plasma cells. it is an ideal target for
+monoclonal antibodies (mab), such as rituximab and  xxxd2771xxx , as it is expressed at high levels on most b-cell malignancies, but does not become
+internalized or shed from the plasma membrane following mab treatment. this allows mab to persist on the cell surface for extended periods and
+deliver sustained immunological attack from complement and fcr-expressing innate effectors, particularly macrophages. cd20 can also generate
+transmembrane signals when engaged by certain mab which, although unproven, might provide an important element of the therapeutic success
+of anti-cd20 mab. these favourable characteristics have led to anti-cd20 mab being developed and exploited for use in immunotherapy, where
+they have proven remarkably efficacious in both the treatment of malignant disease and autoimmune disorders by deleting malignant or normal b
+cells, respectively. in this review, we discuss how these mab have driven research in the immunotherapy field over the last decade, detail their likely
+modes of action and their limitations in terms of effector exhaustion, and explore ways in which they might be enhanced and further exploited in
+the future.
+© 2007 elsevier ltd. all rights reserved.
+keywords: cd20; monoclonal antibody; cdc; adcc; pcd; b cell; immunotherapy; effector exhaustion; the shaving reaction
+
+1. introduction
+the chimeric anti-cd20 mab rituximab was approved for
+use in relapsed or refractory low-grade or follicular b-cell nonhodgkin’s lymphoma (nhl) in 1997. it has since become a
+major element in the management of many b-cell malignancies
+and provided important impetus to the biotechnology industry
+in its search for mab-based drugs. most lymphoma patients
+now receive rituximab at some point in their treatment. as a
+single agent, it produces objective, mostly partial, responses in
+approximately half the cases of relapsed nhl (mclaughlin et
+al., 1998; coiffier, 2006). however, its full worth is seen only
+when combined with conventional chemotherapy such as chop
+(cyclophosphamide, doxorubicin, vincristine and prednisone),
+where responses are significantly improved with a high proporabbreviations: mac, membrane attack complex; mab, monoclonal antibody; pcd, programmed cell death
+∗ corresponding author. tel.: +44 23 80320103; fax: +44 23 80704061.
+e-mail address: mjg@soton.ac.uk (m.j. glennie).
+0161-5890/$ – see front matter © 2007 elsevier ltd. all rights reserved.
+doi:10.1016/j.molimm.2007.06.151
+
+tion of cases achieving long-term survival (cheung et al., 2007).
+such combinations have had most impact in the more aggressive
+diffuse large b-cell lymphoma where rituximab combined with
+chop is now considered as the standard for certain patients
+(feugier et al., 2005; coiffier, 2006). despite such advances
+there are many unanswered questions, particularly concerning
+the optimal treatment dose of rituximab and how long it should
+be continued for patients who might benefit from maintenance
+therapy. one of the major benefits of most mab drugs such as
+rituximab, is their lack of long-term toxicity and the fact that
+any short-term adverse effects associated with infusion do not
+overlap with those from chemotherapy; thus, the gains in efficacy from combination therapy do not come at the expense of
+increased toxicity.
+in addition to b-cell malignancies, there is a growing interest in the use of rituximab for the treatment of autoimmune
+conditions and in particular rheumatoid arthritis (edwards and
+cambridge, 2006). in a recent randomized, double-blind, controlled study, it was concluded that ‘in patients with active
+rheumatoid arthritis despite methotrexate treatment, a single
+
+3824
+
+m.j. glennie et al. / molecular immunology 44 (2007) 3823–3837
+
+course of two infusions of rituximab, alone or in combination with either cyclophosphamide or continued methotrexate,
+provided significant improvement in disease symptoms at both
+weeks 24 and 48 (edwards et al., 2004). in fact, the results
+showed that when rituximab was added to these chemotherapies,
+disease improved by at least 50% in more than 40% of patients,
+compared with a similar improvement in only 13% of those
+on methotrexate alone. the impressive ability of rituximab to
+deplete normal b cells has revealed their previously unappreciated importance in many autoimmune conditions. as with b-cell
+lymphoma, optimal results are achieved only when rituximab is
+combined with chemotherapy, allowing sustained depletion of
+circulating b cells which can last in excess of 6 months. during
+this time the patients appear well, with surprisingly modest loss
+of normal immunoglobulins, the levels of which rarely fall outside the normal range. this maintenance of immunoglobulins
+in all types of patients has been an important lesson from rituximab treatment, underlining the ability of long-lived, cd20−,
+plasma cells to sustain humoral immunity (hoyer et al., 2004,
+2005; martin and chan, 2004).
+compared with rituximab, other potential anti-lymphoma
+treatments, such as mab against  xxxg375xxx  and cd37, have been
+disappointing to date, producing only modest responses in pilot
+clinical trials, and this has resulted in a general lack of enthusiasm for taking such reagents through to full clinical development
+(reff et al., 1994; pescovitz, 2006). in some cases, such as anticd22, anti-cd23 and anti- xxxg396xxx , mab have been developed
+and tested more extensively, but their performance when used
+as monotherapy has also been unexceptional and most are now
+
+being explored in combination with other treatments, especially
+with rituximab, in the hope that some unexpected additive benefit
+might be revealed (czuczman et al., 2005; fanale and younes,
+2007; leonard et al., 2007). in the case of anti- xxxg378xxx  mab,
+which is internalized very efficiently into the endosome of target
+cells (chan et al., 1998; carnahan et al., 2003), the main hope
+is that it can be linked to a suitable toxin (meng et al., 2004;
+kreitman and pastan, 2006; pastan et al., 2007). the only other
+mab which have shown anything like similar potency are the
+logistically impractical anti-idiotype mab tailor-made for individual cases of follicular lymphoma (davis et al., 1998), and the
+humanized mab alemtuzumab (anti- xxxg393xxx ) approved for treatment resistant chronic lymphoid leukaemia (cll) (keating et
+al., 2003; byrd et al., 2006).
+in addition to their potency in human lymphoma and
+xenograft models (clynes et al., 2000; di gaetano et al., 2003;
+cragg and glennie, 2004; golay et al., 2006), more recently,
+anti-cd20 mab have been confirmed to perform well at depleting b cells in mice carrying a human cd20 transgene (gong
+et al., 2005). however, perhaps the most convincing evidence
+of the potency of anti-cd20 mab comes from the recent work
+of tedder et al. (2006), showing that a panel of mouse antimouse cd20 mab have outstanding efficacy at depleting b
+cells in wild-type mice. this is important because, until this
+point, almost all other anti-b-cell mab specificities tested in
+mice, including many of the same mab tested in humans, such
+as anti- xxxg375xxx  and anti- xxxg378xxx , had failed to give efficient depletion of normal or malignant b cells (krop et al., 1996). the
+recent work from yazawa et al. (2005) comparing the depletion
+
+fig. 1. schematic illustrating the multiple levels of target cell regulation available to mab. after mab binding, fc domains can cluster to provide an optimal platform
+for the binding of c1q, resulting in the activation of the classical complement pathway. activation results in the release of anaphylatoxins ( xxxg282xxx ,  xxxg283xxx  and c5a), as
+well as opsonins which derive from c3 (i.e. c3b). these products of complement activation promote phagocytosis and enhance the activation status of effector cells.
+in certain contexts, complement activation can also lead to the generation of membrane attack complexes that can enter the target cell membrane and cause lysis.
+finally, binding of the target antigen can also initiate intracellular signals in the target cell, potentially resulting in programmed cell death. intriguingly it appears that
+for anti-cd20 mab, different mab might utilize different effector mechanisms: type i anti-cd20 mab, such as rituximab, appear to operate through the activation
+of complement and effector cell mechanisms whereas type ii mab, such as b1 and  xxxd2765xxx , appear to operate independently of complement activation and likely
+function through a combination of effector cell activation and pcd induction.
+
+m.j. glennie et al. / molecular immunology 44 (2007) 3823–3837
+
+of normal b cells in mice with different anti-cd20 and anticd19 mab underlines this difference in efficiency. here 2 ␮g
+of anti-cd20 mab depleted circulating cd20+ cells for more
+than 7 days, while a similar dose of anti- xxxg375xxx  mab of the same
+isotype caused little more than a transient reduction. thus, we
+can confidently say that cd20 holds a very special position as
+a target for mab in the depletion of normal and malignant b
+cells. here we will discuss the effector mechanisms used by
+anti-cd20 mab to try to give some insight into such activity
+(fig. 1).
+2. the potency of anti-cd20 mab
+explaining why anti-cd20 mab have been so successful in
+eradicating unwanted b cells has proved difficult. as we will
+discuss, anti-cd20 mab such as rituximab do not seem to mediate any unique function that we can measure in vitro to explain
+their potency, more likely it is due to a combination of factors. for example, cd20 is usually expressed at high levels on
+b cells compared with most targets, often more than 250,000
+molecules per cell, allowing dense accumulation of the mab
+on the plasma membrane. this appears important, particularly
+for complement-dependent cytotoxicity (cdc) and golay et al.
+(2000) have shown that cd20 density provides the best correlation with cdc, which may be important for outcome. the cd20
+molecule is also resistant to internalization and remains on the
+cell surface with its bound mab for extended periods of hours,
+and perhaps days (johnson and glennie, 2003; press et al., 1989;
+mclaughlin et al., 1998). this is important because unlike other
+b-cell targets, such as  xxxg378xxx , it probably allows anti-cd20 mab
+to sustain the recruitment of natural effectors and thereby maintain any immunological attack for as long as the effectors are
+available. lack of internalization also reduces the consumption
+of the mab by the target cells. it is likely that we often underestimate the capacity of tumours to consume mab as a result of
+target turnover in the membrane. one of the features of rituximab
+treatment that probably contributes to its success is its persistence in the patients. cd20 is a multi-transmembrane molecule
+with four predicted hydrophobic motifs that cross the membrane
+and two extracellular loops, the larger of which provides most
+of the epitopes recognized by mab (cragg et al., 2005). such
+loops do not extend far from the target membrane and allow
+any bound anti-cd20 mab to be held close to the cell surface,
+a factor which may be important for recruiting certain types of
+effector, particularly complement for cdc (teeling et al., 2006).
+it is perhaps more than coincidence that the other effective antib-cell mab, alemtuzumab, approved for cll treatment, also
+has a small extracellular motif consisting of only 12 glycosylated amino acids and will also hold any bound igg close to the
+membrane (ermini et al., 2005). finally, although poorly defined
+at this stage, there is the potentially important ability of cd20
+to act as a signalling molecule to trigger programmed cell death
+(pcd) when engaged by certain types of mab (see below). it is
+likely that all these properties are important, with their relative
+contributions being dependent on factors such as the nature and
+location of the target cells and the type of anti-cd20 mab being
+used.
+
+3825
+
+to add further complexity to the situation, we have also
+shown that anti-cd20 mab are of two distinct types: type i,
+or rituximab-like, which activate complement and are relatively
+poor at mediating pcd unless extensively cross-linked by antiantibody; and a rarer type ii, or bexxar-like, which are relatively
+inactive in complement activation but tend to promote more pcd
+as igg or f(ab )2 molecules (chan et al., 2003; cragg et al.,
+2003; cragg and glennie, 2004). both types of mab are equally
+potent in antibody-mediated cellular cytotoxicity (adcc) with
+fcr-bearing myeloid effectors. in terms of their biophysical
+properties, these two types are distinguished by their ability to
+reorganize cd20 molecules into different phases of the plasma
+membrane called ‘microdomains’ or lipid ‘rafts’. microdomains
+can be isolated by membrane fractionation on the basis of differential solubility in detergents such as triton x (deans et al.,
+1998). type i mab are able to efficiently shift cd20 complexes
+into detergent-insoluble microdomains, but the rare type ii mab
+are not. this translocation of cd20:anti-cd20 mab complexes
+into microdomains appears important for the ability of type i
+mab to bind c1q and activate complement, probably because
+the process concentrates the mab fc regions in such a way that
+they very efficiently engage multiple globular heads of the c1q
+molecules, thereby initiating the classical complement pathway
+(cragg and glennie, 2004; teeling et al., 2004, 2006). despite
+having such distinct functional properties, we do not understand
+what aspect of their binding causes such differences. for example, in the case of rituximab and b1, the prototypical type i and
+ii mab, both bind to the same region of the extracellular loop
+of cd20 and in both cases a point mutation that converts proline 172 to alanine will ablate almost all binding for both mab
+(polyak and deans, 2002; teeling et al., 2004; perosa et al.,
+2005). furthermore, it is not simply a difference in the ability of
+these mab to cross-link cd20 molecules since the same properties of cd20 translocation to microdomains are retained by
+their univalent fab fragments (unpublished observation). one
+of the most interesting recent observations concerning the differences between these mab comes from the work of umana et al.
+(2006) working with a new anti-cd20 mab,  xxxd2765xxx .  xxxd2765xxx  is
+a humanized type ii cd20 igg1 mab engineered for enhanced
+adcc (through a fucosylated fc region) and direct induction
+of pcd. it was developed from a mouse mab, bly-1, which
+appeared to have the properties of a typical type i cd20 mab and
+was therefore unable to initiate pcd efficiently. interestingly,
+however, after making an unspecified change to the sequence of
+the framework during the humanization process,  xxxd2765xxx  converted to a type ii mab with enhanced ability to initiate pcd
+of a wide range of cd20+ targets, including those in fresh
+biopsy material. furthermore, the prospects for developing this
+reagent as a clinical product are encouraging, since the advantages were translated in vivo using a range of nhl xenograft
+models, including aggressive diffuse large b-cell lymphoma and
+myeloid cell leukaemia. finally, for unknown reasons, we also
+find that at saturation, the number of type i mab bound to each b
+cell is twice that observed for type ii mab (teeling et al., 2004).
+a number of workers have reported that cd20 exists as complexes in the plasma membrane containing at least a tetramer of
+cd20 (bubien et al., 1993; polyak and deans, 2002), and one
+
+3826
+
+m.j. glennie et al. / molecular immunology 44 (2007) 3823–3837
+
+possible explanation for these differences in binding stoichiometry may be that type ii mab engage two adjacent extracellular
+loops within a complex while the type i mab bind only one.
+while this explanation might satisfy the observed 2:1 binding
+ratio, it would not explain differences in the induction of cd20
+translocation between type i and ii mab.
+in vivo data from both lymphoma xenografts and depletion
+of normal b cells (transgenic for human cd20) suggest that
+type ii mab, despite being less efficient at engaging complement, are more potent than their type i counterparts (cragg and
+glennie, 2004; umana et al., 2006; beers et al., unpublished).
+this is perhaps surprising given that they saturate their targets
+with half the number of igg molecules, and would suggest that
+either complement is actually detrimental to immunotherapy,
+a suggestion which has recently been proposed (wang et al.,
+2006), or that their increased ability to mediate pcd is important.
+we favour the latter explanation since at least two reports have
+shown that f(ab )2 fragments are capable of inducing pcd and
+in one case these fc-deficient fragments gave appreciable therapeutic activity against a cd20+ xenograft (cragg and glennie,
+2004).
+3. mechanisms of action of anti-cd20 mab
+given the unusual clinical efficacy of rituximab and the
+other anti-cd20 mab now under development, we might have
+expected some outstanding activity in one or more in vitro effector assays to point to how these mab work in vivo. generally,
+this has not been the case and most workers in the field feel
+that in vitro assays, using anti-cd20 and other specificities, do
+not help predict clinical success. certainly this has been true for
+adcc assays, where the majority of mab, provided they are
+not internalized too rapidly by the target cell (e.g. anti- xxxg378xxx 
+mab), are cytotoxic in vitro. similarly, most histological types of
+cd20+ lymphoma are sensitive to rituximab-mediated adcc,
+regardless of whether they are responsive to rituximab treatment
+(manches et al., 2003). in contrast, we find that the requirements
+for cdc are more stringent and relatively few mab are able to
+support cdc (bindon et al., 1988a,b; xia et al., 1993; cragg and
+glennie, 2004; teeling et al., 2004, 2006). this appears to reflect
+the high density of non-modulating mab required at the cell surface to support cdc and the preference for target molecules
+which hold the mab close to the plasma membrane. in this
+regard, we find that type i anti-cd20 mab are especially efficacious and provide some of the most cytotoxic reagents available,
+partly because of the surface density of cd20, but mainly due
+to their unusual ability to reorganize into dense clusters in the
+membrane microdomains (cragg and glennie, 2004; teeling et
+al., 2004). whether such activity is important for therapeutic
+potency, or simply an explanation for some of their infusionassociated toxicity, remains controversial (below). however, it
+is interesting and perhaps more than a coincidence that the only
+two unconjugated mab approved for treating b-cell malignancies, rituximab and alemtuzumab, are both outstanding in cdc
+(xia et al., 1993). the other potential therapeutic mechanism
+which continues to generate considerable interest, despite relatively little supportive evidence, especially in vivo, is that of
+
+pcd (chan et al., 2003; cragg and glennie, 2004; cragg et al.,
+2005). here we will consider adcc, cdc and pcd, so that
+we might analyse their relative contributions to b-cell depletion
+and help explain the limitations of anti-cd20 mab therapy and
+how it might be improved (fig. 1).
+3.1. fcr-mediated killing mechanisms in immunotherapy
+3.1.1. antibody-dependent cellular cytotoxicity
+growing evidence points toward the ability of mab to recruit
+innate effector cells via fc:fc␥r interaction as being critical to
+therapeutic potency for a range of mab including anti-cd20
+(hamaguchi et al., 2006; kaneko et al., 2006; nimmerjahn and
+ravetch, 2007). fc␥r are expressed on a wide range of effector
+cells, such as macrophages, neutrophils and nk cells, and can
+be broadly divided into two types: activating receptors (human:
+fc␥ri, fc␥riia and fc␥riiia; mouse: fc␥ri, fc␥riiia and
+fc␥riv) that signal via an immunoreceptor tyrosine-based activation motif (itam), and an inhibitory receptor (human and
+mouse: fc␥riib) that signal via an immunoreceptor tyrosinebased inhibitory motif (itim). triggering of effectors such as
+monocytes/macrophages via their fc␥r initiates a series of signalling pathways leading to the release of a variety of immune
+modulators which are either inflammatory or cytotoxic or both,
+including cytokines, chemokines, proteases and reactive oxygen
+species. if the effectors are recruited via igg bound to cellular
+targets such as erythrocytes or in the case of anti-cd20 mab,
+b cells, then the targets may be internalized by phagocytosis
+as part of the adcc process. work from ravetch and bolland
+(2001), nimmerjahn and ravetch (2005) and nimmerjahn and
+ravetch (2006) suggests that the signalling threshold is set by
+the balance of activating and inhibitory fc␥r expressed by the
+individual effector cells. clearly the ratio of mab binding to
+the two types of fc␥r will be determined first by their levels of expression at the effector cell surface, and second by the
+relative affinity of any particular mab isotype for the various
+fc␥r. interestingly, this balance of expression for fc␥r is controlled by the activation status of the effector cells, with fc␥riib
+being dominant on resting cells but being replaced by activating
+fc␥r following activation. although outside the scope of this
+review, it appears that dendritic cells are particularly influenced
+by the fc␥r balance, which seems to determine how they process immune complexes to drive acquired immune responses
+(bergtold et al., 2005; desai et al., 2007). importantly, recent
+analysis of the relative binding affinity of igg isotypes to the
+different fc␥r shows that the ratio of binding of activating and
+inhibitory fc␥r closely matches the observed activity of mab
+in vivo (nimmerjahn and ravetch, 2005).
+in mouse models, the therapeutic activity of a range of anticancer mab correlates with their isotypes and ability to bind
+to fc␥r (kipps et al., 1985; kaminski et al., 1986; uchida
+et al., 2004; hamaguchi et al., 2006; tedder et al., 2006).
+thus, for example, those isotypes that bind more strongly to
+the activating fc␥r, such as fc␥riv and fc␥ri, are particularly potent (nimmerjahn and ravetch, 2005; bevaart et al.,
+2006). furthermore, removing all activating fc␥r by genetic
+deletion of the common signalling gamma chain eliminates
+
+m.j. glennie et al. / molecular immunology 44 (2007) 3823–3837
+
+almost all the therapeutic activity of most anti-cancer mab,
+including that of rituximab, at least in subcutaneous xenograft
+models (clynes et al., 2000). conversely, deleting the inhibitory
+fc␥riib promotes mab therapeutic activity, an observation
+which supports the role of non-nk cells in the therapeutic
+process, since nk cells do not express fc␥riib and their
+signalling threshold should not be influenced by its deletion
+(fossati-jimack et al., 2000). thus, there is little doubt that
+fc␥r play a central role in controlling mab effectors. it also
+appears that in mice, the phagocytic network provided by monocytes/macrophages (part of the mononuclear phagocytic system,
+mps) are the most important effectors for eliminating mab
+coated targets since mice rendered macrophage-deficient using
+liposome-encapsulated  xxxd1721xxx  are much less amenable to
+treatment with mab, while removal of nk cells or neutrophils
+has little measurable impact on immunotherapy (van rooijen
+and sanders, 1996; uchida et al., 2004; gong et al., 2005). one
+of the most informative recent papers came from gong et al.
+(2005) showing that the ‘circulatory dynamics of b cells and
+survival factors from the microenvironment are critical regulators that determine the mechanistic basis for immunodepletion’.
+in this work, they used a human cd20 transgenic mouse and type
+i mab to study b-cell depletion in various tissue compartments.
+the work suggested that there are at least two types of b-cell
+elimination: rapid and efficient clearance of circulating b cells
+via the mps, and a slower less efficient removal of b cells in the
+tissues, including splenic follicles, payer’s patches, lymph nodes
+and the peritoneal cavity. they make the interesting suggestion
+that b cells in these latter compartments are depleted slowly,
+partly because of a lack of resident effectors capable of destroying the targets and because of the time required for such cells to
+gain entry into the vasculature where they can be cleared via the
+mps. such a mechanism would explain the longer time needed
+to clear b cells from certain regions of the lymph nodes and from
+the peritoneum, since they are known to circulate very rarely. in
+support of this suggestion, tedder and co-workers have also
+reported that the peritoneal cavity is a protected site for cd20
+mab coated b cells with only 30–43% of b1 cells and 43–78%
+of b2 cells being depleted following 7 days of cd20 mab
+treatment. however, these cells were not inherently resistant to
+killing and were effectively removed following thioglycolateinduced recruitment of activated monocytes into this otherwise
+privileged niche (hamaguchi et al., 2005). collectively these
+results indicate that the level of activated effectors in various
+tissues is an important limitation to the effectiveness of mab
+treatment and that without providing external pro-inflammatory
+agents, the main source of effectors is the mps of the liver and
+spleen where circulating cells can be quickly killed.
+in humans, most therapeutic mab are of the igg1 isotype which has been selected to efficiently engage effectors.
+evidence that fc␥r play an important role in humans is understandably less extensive than in the mouse models. however, a
+number of groups have now shown an important relationship
+between certain fc␥r polymorphisms and response to mab
+immunotherapy of malignant and autoimmune disease (cartron
+et al., 2002; anolik et al., 2003; weng and levy, 2003). in particular, fc␥riiia appears to be a critical determinant in that allelic
+
+3827
+
+variants of this receptor can impact on the therapeutic activity
+of rituximab. thus, fc␥riiia containing a valine at position
+158 has a higher affinity for igg1 than does that with a phenylalanine at this position, and patients with the former allele are
+also more likely to respond to treatment. similar observations
+have been made concerning variants of fc␥riia with patients
+expressing either high (histidine 131) or low (arginine 131) affinity fc␥riia for igg2 (weng and levy, 2003). it is not clear why
+this latter polymorphism should influence a rituximab-mediated
+response, since it is an igg1 mab and should not be influenced
+by this allelic difference (parren et al., 1992). however, allelic
+polymorphism need not just affect affinity, but may also be linked
+to phenotypic differences as shown by recent work from treon
+and co-workers; in this case, the valine158 variant of fc␥riiia
+is also associated with higher receptor expression (hatjiharissi
+et al., 2007).
+thus, while it is clear that fc␥r play a critical role in human
+mab therapy, presumably due to the recruitment of effectors for
+adcc, we know much less about which cells are responsible
+for mediating such effects. there has been a tendency within the
+field to believe that nk cells are the most potent effectors, but
+this suggestion stems largely from the use of pbmc in adcc
+assays where nk cells are the main effectors. in vivo, perhaps
+macrophages and kupffer cells are much more important (see
+below).
+3.1.2. complement-dependent cytotoxicity
+the role for complement in mab therapy remains controversial and in the case of animal studies is very model dependent.
+our group and others have shown that in various xenograft models the classical complement system is required for tumour cell
+depletion. thus, we found that treatment of scid mice with
+cobra venom factor to inactivate complement markedly reduced
+the therapeutic activity of type i anti-cd20 mab (cragg and
+glennie, 2004). similarly, golay and co-workers showed that
+rituximab was effective in a syngeneic lymphoma transduced
+with human cd20 only if the mice expressed a full complement
+system, and that activity was ablated in c1q-deficient mice (di
+gaetano et al., 2003; golay et al., 2006). the work of gong
+et al. (2005) showed that the complement system promoted the
+depletion of certain b-cell subsets following anti-cd20 mab
+treatment. in particular, they noted that b cells in the marginal
+zone compartment, which had a reduced tendency to enter the
+circulation through the mps, demonstrated a greater dependency on the complement system rather than cellular effectors
+for their depletion. however, a number of groups have found no
+requirement for complement in a range of rodent models, mainly
+using c3 or c4-deficient mice (uchida et al., 2004; hamaguchi
+et al., 2005; nimmerjahn and ravetch, 2006). the explanation
+for the discrepancies between these models is likely to be complex, and dependent upon a number of factors. most tumours
+are heavily protected by complement defence molecules which
+generally resist direct lysis by membrane attack complex. however, even disregarding such resistance to lysis, relatively few
+anti-cancer mab are able to promote complement activation to
+levels capable of lysing tumour cells, although clearly type i  xxxd3132xxx  mab are an exception (cragg and glennie, 2004; teeling
+
+3828
+
+m.j. glennie et al. / molecular immunology 44 (2007) 3823–3837
+
+et al., 2004, 2006). finally, the primary outcome of complement
+activation may not be lysis, but rather an inflammatory cascade
+leading to activation of innate immune cells, target opsonization
+for recognition by phagocytes, and promotion of acquired immunity. most tumour models are designed such that a small tumour
+inoculum, often given subcutaneously where complement may
+be less available, is treated before it is fully established and at
+a point when the innate immune effectors are given the greatest
+opportunity to prevent or slow tumour growth. it is not unreasonable to believe that, with the odds stacked in favour of mab
+controlling the tumour in this way, complement cannot be shown
+to have a major role.
+in contrast to the situation in mouse models, in cancer
+patients, where tumours have become established over an
+extended period and caused suppression of immune effectors, promoting complement activation may provide a useful
+advantage for mab therapy, particularly for activating immune
+effectors which have become suppressed by the tumour environment. the evidence that complement is activated by mab such as
+rituximab and alemtuzumab is strong. for example, complement
+consumption can readily be demonstrated following treatment of
+cll patients with rituximab. in fact, in vitro calibrations demonstrate that at high b-cell densities (∼20,000–100,000 cells/␮l)
+adding rituximab at even moderate concentrations substantially
+consumes complement (kennedy et al., 2004). this in vitro
+result is replicated clinically where we find that complement
+consumption can be readily demonstrated following treatment of
+cll patients with rituximab, and in certain cases pre-rituximab
+complement titers are not restored until several weeks after the
+therapy is completed. furthermore, van der kolk et al. (2001)
+have shown that some of the toxicity associated with mab treatment, particularly the first infusion, is probably the result of
+complement activation. in support of a role in immunotherapy,
+manches et al. (2003) have observed an interesting correlation
+between the sensitivity to cdc of different histological types
+of b-cell tumours and their readiness to respond to rituximab
+treatment. thus, as a general observation, tumours such as follicular lymphoma which respond to rituximab tend to by lysed
+by complement in vitro, while others such as mantle cells are
+much less susceptible to lysis and tend not to respond to this
+mab. interestingly, in this study all histological types of tumour
+investigated were equally sensitive to adcc mediated by rituximab and cellular effectors. finally, there have been sporadic
+reports of tumour cells returning after immunotherapy expressing higher levels of complement defence molecules than those
+circulating before rituximab was given (treon et al., 2001).
+however, there have been a similar number of reports not
+supporting a role for complement. for example, generally there
+is no relationship between expression of complement defence
+molecules and the therapeutic response to rituximab (weng and
+levy, 2001). in addition, one of the clearest demonstrations that
+complement alone did not protect against tumour in patients
+comes from work performed by waldmann and co-workers who
+demonstrated that an igm variant of the anti- xxxg393xxx  mab, campath 1 (parental mab of alemtuzumab), showed little efficacy in
+a patient despite being highly potent in cdc, while subsequent
+treatment of the same patient with an igg variant of this mab
+
+gave impressive tumour clearance (dyer et al., 1989). thus, it
+appears that complement as a single effector is rarely able to
+mediate mab cancer therapy.
+the question of whether a mab could be engineered to provide sufficient complement activation to directly lyse tumour
+cells has been considered by a number of groups (idusogie et
+al., 2000). for example, rituximab has been modified to increase
+its potency for cdc, but this variant has yet to be tested in
+humans (idusogie et al., 2001). a new anti-cd20 mab, humax
+cd20 ( xxxd2771xxx ), has recently been developed from human
+ig transgenic mice (teeling et al., 2004, 2006). in addition to
+having the advantage of being fully human and therefore potentially less immunogenic, this type i mab showed outstanding
+potency in cdc and was able to activate complement and lyse
+fresh cll in whole blood. such lytic activity was not seen with
+rituximab. the explanation for the increased potency of  xxxd2771xxx  may come either from its very slow off rate compared
+with other anti-cd20 mab, or the fact that it recognizes a unique
+epitope outside the motif seen by other anti-cd20 mab. the
+slow off-rate would provide very stable binding which might
+favour recruitment of c1q molecules. this explanation is consistent with the observed increase in c1q capture by  xxxd2771xxx 
+compared to rituximab onto the target cells. one of the proposed
+explanations for such stable binding is that the unique epitope
+holds the igg1 molecules in such a way that it encourages
+fc:fc interactions which might stabilize binding by encouraging igg polymerization. such multimers are also thought to bind
+c1q more efficiently because they provide multiple fc regions
+which can simultaneously engage multiple globular heads of
+the hexameric c1q (walport, 2001a,b; teeling et al., 2006).
+ xxxd2771xxx  is currently being investigated in various clinical
+trials treating lymphoma and rheumatoid arthritis. it is also well
+advanced in a phase iii trial of cll where early results indicate
+a superior response to that recorded in similar patients following
+rituximab treatment (coiffier et al., 2005, 2006).
+3.1.3. synergy between complement and fcgammar-mediated
+cell clearance
+as discussed, one of the potentially most critical roles of
+complement appears to be its ability to promote inflammation
+and change the activation status of innate effectors. the importance of this interface and synergy between the complement
+system and fc␥r-expressing monocytes/macrophages has been
+revealed in a series of elegant and provocative experiments
+reported by the research groups of gessner et al. and ward
+et al. (shushakova et al., 2002; schmidt and gessner, 2005;
+huber-lang et al., 2006; kumar et al., 2006). in several immune
+complex models of inflammatory disease, these workers have
+demonstrated that the production of the anaphlyatoxin c5a during complement activation is critical to the activation status of
+these effectors and that by engaging the c5a receptor, it can
+induce up-regulation of activating fc␥r, and decrease expression of the inhibitory receptor, fc␥riib. the result is that these
+effectors become directed toward a more robust inflammatory
+response with increased phagocytic activity. it has also been
+demonstrated that binding of igg immune complexes to monocytes/macrophages leads to local production of c5a by these
+
+m.j. glennie et al. / molecular immunology 44 (2007) 3823–3837
+
+cells, even in serum lacking c3 (huber-lang et al., 2006), suggesting the existence of a c5a-generating pathway that bypasses
+c3 and that can still promote development of inflammation.
+such provocative results, if substantiated, underline the need to
+re-examine the results obtained using c3-deficient mice, since
+through this c5 pathway, complement activation might still play
+an important role (atkinson, 2006). finally, kumar et al. (2006)
+have provided compelling evidence demonstrating that binding
+of igg-opsonized erythrocytes to macrophages, including kupffer cells, can directly induce production of c5a by the cells in
+the absence of exogenous complement. this finding is particularly important because it suggests that a positive feedback
+loop can be generated in which the c5a produced by the kupffer cells can then bind in an autocrine fashion to its receptor
+on these cells, again modulating fc␥r expression toward an
+inflammatory phenotype with increased phagocytic activity. as
+noted, research in this area has understandably focused on several mouse models of inflammatory injury mediated by immune
+complexes and it has yet to be tested in a mab immunotherapy setting. however, the lessons learned from these studies
+may provide new insights into developing strategies to optimize
+effector cell-mediated killing of igg-opsonized malignant cells,
+based on using c5a to enhance macrophage activity. for example, studies in mouse models that allow for or prevent interaction
+between c5a and its receptor may reveal substantial differences
+in adcc of igg-opsonized b cells. alternatively, development
+of strategies which either up-regulate c5a receptors on effector
+cells or perhaps allow for delivery of c5a or a suitable agonist, perhaps in association with an anti-cd20 mab, might be
+feasible.
+3.1.4. enhancing adcc with a focus on complement
+in the presence of complement, binding of anti-cd20 mab to
+b cells promotes deposition of a large number of c3b molecules
+which are rapidly degraded to ic3b; ross and co-workers pioneered the general strategy of using ic3b fragments on cancer
+cells as targets to enhance adcc (ross et al., 1999; gelderman
+et al., 2004; hong et al., 2004). in particular, they have focused
+on potentiating the action of cr3, the ic3b receptor that is
+expressed on a number of effector cells including monocytes,
+neutrophils and nk cells. they have found that the use of biological response modifiers such as soluble ␣-1,3-glucans can
+enhance adcc of ic3b-opsonized cells. these agents work
+by binding to the lectin domain on the ␣ subunit of cr3 and
+prime the effector cells to execute cytotoxic degranulation and
+subsequent killing of the ic3b-opsonized substrate cells. it is
+likely that use of such biological response modifiers to increase
+a complement-dependent adcc killing mechanism will effectively synergize with adcc, mediated by fc␥r on effector cells
+which are able to directly kill b cells opsonized with anti-cd20
+mab (golay et al., 2003; dall’ozzo et al., 2004; bowles et al.,
+2006). indeed, modak et al. (2005) have demonstrated that an
+orally administered ␣-glucan significantly enhanced the activity of rituximab in both subcutaneous and disseminated mouse
+xenograft models of b-cell lymphoma. this paradigm may be
+particularly advantageous for the use of anti-cd20 mab in the
+treatment of b-cell malignancies such as cll in which the b
+
+3829
+
+cells are quite resistant to rituximab-mediated killing via complement, despite deposition of large numbers of c3b fragments
+on the b cells after mab infusion (golay et al., 2001; kennedy
+et al., 2004; van meerten et al., 2006).
+3.2. saturation of cytotoxic mechanisms
+one issue that has not been adequately addressed is the question of what happens when the tumour burden is sufficiently
+large to overwhelm or saturate the various effector mechanisms
+engaged by anti-cd20 mab. the problem is not simply that
+the therapy was initiated too late, and thus the expansion and
+growth of the large tumour burden substantially exceeded the
+rate at which the immunotherapeutic mab promoted killing of
+targeted malignant cells. instead, we address the clinical scenario in which a large and accessible tumour burden is treated
+with a dose of mab sufficient to completely saturate antigenic
+sites on the targeted malignant cells. we suggest that under these
+conditions it is quite likely that the body’s downstream effector functions will become saturated or exhausted, and that until
+this situation is remedied, administration of more mab may be
+useless, expensive, and in certain instances detrimental.
+3.2.1. inﬂuence of complement
+an illustration of this phenomenon is the observation that
+the activity of the classical pathway of the complement system can be diminished after reaction with high concentrations
+of igg-containing immune complexes (ic), including soluble
+ic and particulate substrates such as b cells with bound  xxxd3132xxx  mab (edberg et al., 1988; kennedy et al., 2004). thus,
+if the challenge presented by soluble antibody–antigen ic or
+a large number of b cells opsonized with igg mab is sufficiently large, one or more proteins in the complement pathway
+can be depleted, suppressing the complement activation pathway
+until more of the consumed complement protein(s) are made
+de novo and the complement-consuming agents are cleared.
+indeed, igg/dsdna ic efficiently consume complement in vitro
+(edberg et al., 1988), and an extensive literature reveals that in
+autoimmune diseases such as systemic lupus erythematosus, in
+which these complexes play an important role in pathogenesis, consumption of one or more complement component(s) is
+quite readily observed (aarden et al., 1976; emlen et al., 1986;
+edberg et al., 1988; jaekell et al., 2006). measurements which
+detect such activation have served as useful diagnostic markers
+for disease activity (miniter et al., 1979; swaak et al., 1979,
+1986).
+in vitro investigations with b-cell lymphoma cell lines have
+revealed that at high cell concentrations, comparable with those
+often seen in cll patients, binding of rituximab to cd20+ b
+cells can lead to virtually complete consumption of complement
+lytic activity and depletion of several complement components,
+including c2 (kennedy et al., 2004). moreover, measurements
+on serum samples taken from cll patients treated with rituximab replicate this finding, and further demonstrate that
+replacement of the depleted components with purified complement proteins is necessary and sufficient to restore the cytotoxic
+activity of rituximab in these sera. in order to translate this find-
+
+3830
+
+m.j. glennie et al. / molecular immunology 44 (2007) 3823–3837
+
+ing to the clinic, we suggested that administration of fresh frozen
+plasma could therefore enhance the action of rituximab in cll
+(kennedy et al., 2004). some support for this idea is provided
+by the recent case report of klepfish et al. (2007) who reported
+that a cll patient with disease refractory to single agent rituximab showed marked improvement when treated with rituximab
+in combination with fresh frozen plasma. it is likely that the
+enhanced cytotoxic activity of the infused rituximab was due, in
+part, to the reserve of extra complement activity provided by the
+fresh frozen plasma. it will be interesting to see if this approach
+may also be applied to other immunotherapeutic mab which
+make use of complement to kill malignant cells, one particular
+example being the anti-cd20 mab  xxxd2771xxx  (teeling et al.,
+2004, 2006).
+3.2.2. consequences for adcc
+as noted previously, several lines of evidence indicate that
+effector cells which express fc␥r can kill rituximab-targeted
+cells by adcc (cartron et al., 2002; weng and levy, 2003;
+dall’ozzo et al., 2004; treon et al., 2005; bowles et al., 2006;
+lazar et al., 2006; lefebvre et al., 2006). in vitro investigations
+have revealed that nk cells are responsible for most, and probably all, of the cytotoxic action mediated by rituximab that is
+observed in peripheral blood mononuclear cells (golay et al.,
+2003; dall’ozzo et al., 2004), and clinical studies that combine rituximab therapy with il-2 also suggest that nk cells
+participate in killing rituximab-targeted malignant b cells in vivo
+(lopes de menezes et al., 2007). there is little in vitro evidence
+that monocytes participate in killing rituximab-opsonized cells
+(lopes de menezes et al., 2007), but proper differentiation of
+monocytes to macrophages generates effector cells that, in the
+presence of rituximab, promote adcc quite readily, even at low
+effector to target cell ratios (lefebvre et al., 2006).
+several mouse models, based on targeting normal b cells with
+anti-cd20 mab, demonstrate that in order to eliminate iggopsonized b cells from most compartments there is an absolute
+requirement for effector cells that express fc␥r (clynes et al.,
+2000; gong et al., 2005; teeling et al., 2006), but as discussed
+earlier the identity/location of these effector cells is somewhat
+uncertain. surprisingly, there is little evidence to support a role
+for nk cells in these models, but monocytes/macrophages of
+the mps appear to be the key cells that participate in the adcc
+of normal and in some cases malignant b cells targeted by  xxxd3132xxx  mab. what is not clear is how much adcc of normal or
+malignant b cells occurs in situ due to infiltration of the fc␥rexpressing effector cells into sites that include lymph nodes,
+spleen and bone marrow. on the other hand, based on the work
+of gong et al. (2005), it is quite likely that circulating b cells are
+killed and phagocytosed by liver macrophages (kupffer cells).
+in fact, in an analogous mouse model system based on a different
+substrate, igg-opsonized erythrocytes (e), the gessner laboratory has demonstrated that infusion of an igg2a anti-e antibody
+leads to phagocytosis of e by liver kupffer cells (kumar et al.,
+2006). the work of gong and co-workers (above) strongly suggests that most b cells in other compartments are not eliminated
+until they have entered the circulation, thus allowing once again
+for clearance by liver kupffer cells. the receptors on these cells
+
+in humans include the high affinity receptor fc␥ri, as well as
+the lower affinity receptors, fc␥riia, and fc␥riii (ravetch and
+bolland, 2001).
+it is likely that under conditions of high cell burden, clearance
+of igg-opsonized b cells promoted by fc␥r on kupffer cells in
+the liver will lead to saturation of phagocytosis and will be manifested in part by down-regulation of one or more fc␥r. studies
+in mouse models indicate that fc␥ri and fc␥riii, expressed
+on macrophages, both participate in removing igg-opsonized
+cells (fossati-jimack et al., 2000; kumar et al., 2006; meyer
+et al., 1998). the high affinity receptor fc␥ri may be partially
+blocked due to the presence of high concentrations of normal
+igg, and fc␥riii appears to play a more important role in clearance. indeed, the lazarus laboratory reported that fc␥riiia is
+down-regulated on splenic macrophages after injection of anti-e
+antibodies used in a mouse model to treat immune thrombocytopenia (itp) (song et al., 2005). moreover, bowles and weiner
+(2005) have found that interaction of nk cells with rituximabopsonized b cells in vitro leads to substantial down-regulation of
+fc␥riii on the nk cells, and this reaction appears to occur due
+to internalization of the receptor by the nk cells (g. weiner,
+personal communication). in principle, the internalized fc␥r
+should be recycled to the external cell membrane and/or synthesized de novo, but under conditions of a large burden of
+igg-opsonized cells, there is likely to be a considerable period
+of time in which nk cells and kupffer cells would simply be saturated and incapable of killing, and/or internalizing additional
+igg-opsonized b cells. this condition could severely compromise the efficacy of an anti-cd20 mab, and we therefore suggest
+that mouse models which only target normal b cells, and do not
+explicitly include substantial burdens of malignant cells, may
+not reveal the consequences of mps saturation.
+we speculate that rituximab treatment in cll can induce
+saturation of the mps as a consequence of the challenge of
+large numbers of rituximab-opsonized b cells. saturation will
+be accompanied by substantial (but temporary) loss of expression of macrophage fc␥riii, and possibly fc␥riia. fc␥ri plays
+a lesser role in clearing these substrates (meyer et al., 1998;
+fossati-jimack et al., 2000), but this high affinity fc␥r can still
+participate in the shaving reaction (see below) due to its ability
+to effectively mediate endocytosis of small igg complexes, followed by its rapid recycling to the extracytoplasmic surface of
+the cell (davis et al., 1995; lovdal et al., 2000).
+it is obvious that the clearance capacity of the mps is finite
+and can be saturated, and in fact, use of the igg anti-e polyclonal
+antibody preparation rhogam in immune thrombocytopenia is
+based on providing decoy igg-opsonized e that will saturate
+fc␥r on cells of the mps, thus sparing the antibody-opsonized
+platelets from clearance (song et al., 2005). of key relevance
+to the present discussion, one of our laboratories has reported
+that in numerous cases intravenous infusion of the first 30 mg of
+rituximab (out of a total infusion of ∼750 mg) in cll patients
+can rapidly reduce the number of circulating b cells by as much
+as ∼50,000 cells/ml, corresponding to a net removal from the
+bloodstream of ∼2 × 1011 cells (kennedy et al., 2004; williams
+et al., 2006). it is unlikely that the cleared cells are destroyed by
+complement, as they often express less cd20 than other malig-
+
+m.j. glennie et al. / molecular immunology 44 (2007) 3823–3837
+
+nant b cells and, in fact, b cells from most cll patients have
+been demonstrated to be quite resistant to rituximab-mediated
+killing by complement (golay et al., 2000; van meerten et al.,
+2006). based on the classic studies of schreiber and frank
+(1972), as well as the report of gong et al. (2005), a large fraction of these rituximab-opsonized cells should be cleared by the
+liver. the human liver has roughly 2 × 1010 kupffer cells and it
+would therefore seem reasonable that an influx of approximately
+10 rituximab-opsonized b cells per effector kupffer cell would
+lead to temporary saturation of the clearance capacity of these
+cells, lasting about 24–48 h (williams et al., 2006).
+3.2.3. the shaving reaction: saturation of cytotoxic
+mechanisms due to high burden of circulating mab targets
+after infusion of the usual full rituximab dose of ∼750 mg
+in cll, the attendant saturation of the clearance capacity of
+the kupffer cells would predict that as additional cll cells
+re-equilibrate into the bloodstream from the bone marrow and
+the lymphatics (cooper et al., 1979), they would be opsonized
+by the large excess of circulating rituximab. these rituximabopsonized cells might then simply remain in the circulation and
+take their places in a bloodstream queue, waiting for clearance
+by the liver after the first pass of cleared cells were digested.
+however, rituximab-opsonized b cells do not continue to circulate without consequence; the re-equilibrated cll cells appear
+to rapidly lose cd20 and bound rituximab in a process we
+have called shaving (kennedy et al., 2004; beum et al., 2006;
+williams et al., 2006). observations on more than a dozen
+rituximab-treated cll patients indicate that a single infusion
+of 100–700 mg is sufficient to generate a condition in which
+the first wave of cll cells is cleared from the bloodstream.
+the cll cells which subsequently enter the circulation from
+other compartments appear to be opsonized by rituximab, but as
+they cannot be cleared due to saturation, they are diverted to a
+second pathway in which both bound rituximab and cd20 are
+shaved from the b cells. acute loss of the cd20 target under
+these conditions will allow the malignant cll b cells to survive
+and proliferate, despite the presence of rituximab in the circulation. it is likely that shaving may in part explain why single
+agent rituximab has had limited success in cll (mclaughlin
+et al., 1998; huhn et al., 2001; mclaughlin, 2001). we are now
+investigating several paradigms designed to limit shaving while
+preserving the cytotoxic action of rituximab (beum et al., 2006;
+williams et al., 2006). a reasonable approach is to infuse rituximab several times per week, but limit each infusion to a small
+dose (20–40 mg) that promotes clearance of circulating cells and
+spares the re-equilibrated cells from opsonization and shaving.
+alternatively, large amounts of monomeric  xxxd2207xxx  can bind
+to fc␥ri and block shaving (beum et al., 2006; taylor et al.,
+2006). it is possible that the enhanced efficacy of rituximab in
+cll, promoted by infusion of fresh frozen plasma (klepfish et
+al., 2007), was due in part to the extra igg which helped to block
+fc␥ri.
+based on in vitro findings as well as studies in a mouse model
+(mack et al., 2006; taylor et al., 2006), we believe that shaving
+closely resembles trogocytosis, a process by which receptors on
+acceptor cells bind to ligands on donor cells to form an immuno-
+
+3831
+
+logic synapse in which there is partial merging of the membranes
+of the two cells (espinosa et al., 2002; tabiasco et al., 2003;
+hudrisier et al., 2007). subsequently the acceptor cell pinches
+off pieces of membrane and associated liganded cell-surface
+proteins (within the synapse) from the donor cell and then internalizes the transferred material in an endocytic process. in the
+present system, our in vitro investigations strongly suggest that
+fc␥ri on the acceptor cell recognizes and binds to the fc region
+of cell-bound rituximab, and then both the mab and b-cell cd20
+are taken up and internalized by the acceptor cell (beum et
+al., 2006). human monocytes are likely candidates for acceptor cells, and it is also possible that liver endothelial cells, which
+express fc␥ri and are also capable of endocytosis (lovdal et
+al., 2000), may participate in the process. a third cell that may
+execute trogocytosis after saturation of its phagocytic activity
+is the liver kuppfer cell, especially after presumptive internalization and down-regulation of its low affinity fc␥r, conditions
+under which fc␥ri should still be available to promote shaving
+(davis et al., 1995; lovdal et al., 2000).
+in summary, under conditions of high tumour burden,
+saturation of the body’s effector functions for eliminating iggopsonized cells, manifested by consumption of complement
+and/or reduction in  xxxg772xxx -mediated clearance or killing, can
+have serious consequences for cancer immunotherapy. recent
+investigations from one of our laboratories (beum and taylor,
+unpublished observations) have demonstrated that several other
+mab, either fda-approved or examined for possible clinical
+applications in cancer, can also mediate shaving of targeted epitopes. we believe that future use of large doses (>100 mg) of
+mab in the immunotherapy of cancer will require careful attention to the possibility that this phenomenon may limit overall
+therapeutic potential.
+4. direct cell killing of b cells by anti-cd20 mab
+in addition to the fc-dependent effects detailed above, binding of mab can induce direct effects on tumour cells, leading
+to transmission of intracellular signals which trigger cell cycle
+arrest and in some cases programmed cell death. the prototype molecule for inducing changes in b-cell growth is the
+immunoglobulin receptor for ag (bcr) which, depending on
+the maturation state of the b cells, can deliver signals leading
+either to proliferation at one extreme or apoptosis at the other.
+in the case of cd20, the ability of mab to induce anti-tumour
+effects through signalling is much less clear and remains controversial. in support of this ability, tedder et al. (1986), and golay
+et al. (1985) and clark and shu (1987) were among the first to
+show that different anti-cd20 mab were able to induce changes
+in the growth patterns of b cells including growth arrest and
+there is evidence that signals generated following cd20 crosslinking can lead to death of certain b-cell lines (shan et al., 2000;
+hofmeister et al., 2000; pedersen et al., 2002; cardarelli et al.,
+2002; cragg et al., 2002, 2003; johnson and glennie, 2001),
+including apoptosis in cll cells following treatment with rituximab in vivo (byrd et al., 2002). however, many other b-cell
+lines appear insensitive to such death and the use of diverse culture conditions and experimental strategies makes it difficult to
+
+3832
+
+m.j. glennie et al. / molecular immunology 44 (2007) 3823–3837
+
+interpret and compare results. for example, incubation of some
+b-cell lines or primary lymphoma cells with rituximab, for up to
+4 days in media alone, leads to little or no cell killing/apoptosis,
+and cell growth is either not affected, or only modestly suppressed (ghetie et al., 2001; golay et al., 2000; kennedy et
+al., 2003; manches et al., 2003). therefore, in order to increase
+killing, rituximab–cd20 complexes on the opsonized cells are
+either cross-linked with secondary reagents or homodimers of
+rituximab are prepared (ghetie et al., 2001; pedersen et al.,
+2002). importantly, this strategy of secondary cross-linking may
+not provide a valid model for the way in which rituximab is
+cross-linked in vivo, which presumably occurs through fc␥r on
+effector cells. currently, we are unaware of any direct evidence
+to show that fc␥r can perform this cross-linking leading to cell
+death in vivo.
+further controversy exists when the mechanism of cell death
+induced by cd20 ligation is considered. many in the field have
+reported that death seen following cd20 cross-linking by mab
+shows hallmarks of classical apoptosis, including activation of
+caspases, cleavage of parp and nucleosomal dna fragmentation lines (shan et al., 2000; hofmeister et al., 2000; pedersen
+et al., 2002; deans et al., 2002; shan et al., 1999; mathas et al.,
+2000; ghetie et al., 2001). in contrast, we and others, find that
+anti-cd20 mab-induced cell death is not classical apoptosis, in
+that dna fragmentation is not apparent, the nucleus does not
+condense, caspase activity is dispensable and over-expression
+of  xxxg250xxx  is only partially able to block the cell death induced by
+such mab (chan et al., 2003; cragg and glennie, 2004; rose
+et al., 2002; van der kolk et al., 2002; cragg et al., 2005). at
+first glance, these data are entirely contradictory and previously
+we suggested that it might be explained based upon the extent
+of hyper-cross-linking employed in the different experiments
+(cragg et al., 2005). however, it is equally likely that different
+results arise because of the mab chosen for these studies. most
+groups outside ours have generally explored the signalling and
+cell death pathway evoked by rituximab and other type i mab,
+whereas we have focused on the more potent type ii mab. therefore, our current hypothesis is that type i and ii anti-cd20 mab
+may use different pathways to generate programmed cell death.
+our rationale for this hypothesis is detailed below.
+firstly, results from deans et al. (2002) demonstrate that
+rituximab and other type i mab transmit their death signals following movement of the cd20 into lipid microdomains, whereas
+we have provided several lines of evidence to indicate that redistribution of cd20 into microdomains may not be necessary for
+the transduction of death signals [chan et al., 2003 and reviewed
+in cragg et al., 2005]. the type ii mab we used do not cause
+redistribution of cd20 to detergent-insoluble microdomains,
+as discussed earlier (deans et al., 1998; cragg et al., 2003).
+therefore, while this at first appears wholly contradictory, both
+supporting signalling within microdomain and suggesting that it
+is not needed, it seems more likely that we are simply studying
+different death signalling pathways for type i and ii mab. similarly, although several reports have implied that ca2+ influx
+may be important in cd20-induced cell death (bubien et al.,
+1993; shan et al., 1998, 2000; hofmeister et al., 2000), our
+recent data clearly indicate that only type i mab evoke robust
+
+increases in cytosolic ca2+ levels and that this results from an
+association between cd20 molecules and the bcr (walshe et
+al., submitted for publication). such observations are supported
+by data from petrie and deans (2002) showing that cd20 and
+the bcr become associated in microdomains following crosslinking by type i anti-cd20 mab. thus, we propose that one
+pathway by which type i cd20 mab can lead to direct cell death
+is to hijack the ca2+ flux and other downstream signals leading
+to apoptosis triggered by the bcr. however, whether this pathway is operational in vivo and of importance in the therapeutic
+efficacy of rituximab remains to be determined.
+in contrast no such association with the bcr is produced
+by type ii reagents, in line with their inability to translocate
+cd20 into microdomains or evoke ca2+ flux. we do, however,
+find this type of mab more active in mediating pcd in cell
+lines and in providing fc region independent immunotherapy
+of xenografts. indeed, our very recent unpublished experiments
+indicate that type ii anti-cd20 mab may act via an autophagic
+pathway of cell destruction. this is evident by the presence of
+autophagic vesicles in the cytoplasm of the dying cells and the
+lack of classical chromosome condensation, which is the reverse
+of the situation seen in cells treated with ␥-irradiation or antibcr mab. autophagy is a highly conserved process, whereby
+cytoplasmic material (including organelles) becomes enveloped
+in double membraned vesicles and targeted for degradation and
+recycling of the constituent material (reviewed in dunn, 1994;
+codogno and meijer, 2005). although long viewed as a cellular survival mechanism, more recently cell death resulting from
+autophagy has been confirmed and classified as type ii cell death,
+as an alternative to classical, apoptotic type i death (meijer and
+codogno, 2004) and induced by a variety of stimuli such as
+caspase inhibition and etoposide treatment (kim et al., 2005).
+while apoptosis is regulated by the caspase,  xxxg250xxx  family and
+inhibitor of apoptosis genes among others, autophagy is controlled by a completely separate family of autophagy or atg
+genes (ohsumi, 2001). therefore, although the processes of
+apoptosis and autophagy are in some manner co-regulated in
+cells, the proteins involved remain obscure. however, as apoptosis is commonly impaired in tumour cells, autophagy, with its
+own distinct regulators, represents a novel alternative pathway
+of tumour destruction, which may be exploited by type ii mab.
+indeed, circumstances where apoptosis is heavily inhibited by
+ xxxg250xxx  or bclxl over-expression may even directly sensitize these
+cells to autophagy (shimizu et al., 2004).
+such a death mechanism may also have important implications for combination therapy with radiation or chemotherapy,
+such as chop, which operate by evoking dna damage. importantly, these combinations significantly improve therapeutic
+efficacy, although we remain largely ignorant of the mechanisms
+involved. potentially, they involve an additive or synergistic
+effect on the induction of pcd through apoptosis, autophagy
+or both. indeed, our recent work treating cells with b1 and radiation has shown synergistic cell death responses which appear to
+be achieved through a combination of both apoptotic and nonapoptotic cell death mechanisms (ivanov et al., submitted for
+publication). whether these non-apoptotic death programs are
+important for the therapeutic efficacy of type ii mab in vivo
+
+m.j. glennie et al. / molecular immunology 44 (2007) 3823–3837
+
+remains to be seen and is the subject of our current work. however, as fc-lacking f(ab )2 fragments of b1 are able to evoke
+some therapeutic effects in xenograft models, we remain optimistic that this is the case.
+5. summary and future developments
+monoclonal ab are now established clinical drugs with
+potential for improvement either via engineering or in the way
+they are used (carter, 2001, 2006; johnson and glennie, 2003;
+scallon et al., 2006). in this regard, cd20 mab lead the way with
+rituximab the most successful anti-cancer mab to date and with
+a range of second and third generation products on the way (e.g.
+ xxxd2765xxx ,  xxxd2771xxx  (humax cd20), ocrlizumab (vugmeyster
+et al., 2005), tru-015, ha20 (immu-106)). these new reagents
+include mab which have been humanized, those which are fully
+human from transgenic mice, and those which have been engineered or selected to improve their ability to mediate cdc,
+adcc and pcd. over the next 5–10 years we will learn which
+of these strategies proves successful and hopefully be left with
+a number of highly potent drugs for treating various b-cell diseases. the competition between these reagents may also help to
+reduce their cost to the health service.
+one of the most advanced of the new anti-cd20 mab is
+ xxxd2771xxx  which is currently in the advanced stages of clinical development for cll and lymphoma, and is also being
+investigated in the treatment of rheumatoid arthritis. this is
+a fully human mab with potentially reduced immunogenicity
+compared with the other products which will be particularly
+helpful in autoimmune disease where 30–50% of patients have
+responded to rituximab with the development of an anti-ab
+response (haca) (eisenberg and looney, 2005). the other
+major feature and potential advantage for this mab is its unusual
+ability to activate complement. for example,  xxxd2771xxx  will
+lyse rituximab-resistant cll in whole blood assays simply as a
+result of its unusual potency in cdc (teeling et al., 2004). the
+other exciting anti-cd20 mab which, although only at the preclinical stage, will teach us much about therapeutic mechanism
+and hopefully provide an excellent drug, is  xxxd2765xxx . not only
+is this a type ii mab with an enhanced ability to initiate pcd,
+it also has a sugar modified fc which increases adcc 10- to
+100-fold (umana et al., 2006). hence, it appears that the field
+of b-cell disease will be well served with interesting new mab
+for the foreseeable future.
+an additional exciting area of mab development will come
+from combination therapy, particularly looking at ways of
+enhancing the cytotoxic potential of innate effector cells such as
+monocytes/macrophages and possibly nk cells. in this regard,
+the recent appreciation of how the balance of activating and
+inhibiting fc␥r controls ab-mediated function is a critical area
+of investigation. presumably we will soon be seeing reagents
+engineered to bind more strongly to activating fcr and more
+weakly to inhibitory fcr (lazar et al., 2006), and the development of agents which block either the binding or signalling of
+fc␥riib provides a novel and exciting opportunity to modulate
+the potency of a range of mab (nimmerjahn and ravetch, 2007).
+the  xxxd2765xxx  mab is one of the first mab, with its altered gly-
+
+3833
+
+cosylation and fcr binding profile, to utilize this mechanism.
+unfortunately, because it is also the first type ii cd20 mab en
+route to the clinic, it will be difficult to unravel exactly which
+property of this mab (i.e. its type ii nature or the improved fcr
+binding profile) provides any enhanced clinical benefits.
+in summary, it is apparent that despite the many disadvantages of mab in terms of their size as drugs and production costs,
+their unique specificity, effector functions and flexibility provide
+the potential for the generation of a wide variety of new agents in
+cancer immunotherapy. the anti-cd20 mab have served as outstanding prototypes for this field; based on the lessons learned
+from these mab, it is hoped that in the future mab specific for
+other cancer-cell-associated antigens will be developed to have
+similar or even higher levels of therapeutic efficacy.
+references
+aarden, l.a., de groot, e.r., lakmaker, f., 1976. immunology of dnav.
+analysis of dna/anti-dna complexes. j. immunol. methods 13, 241–252.
+anolik, j.h., campbell, d., felgar, r.e., young, f., sanz, i., rosenblatt, j.,
+looney, r.j., 2003. the relationship of  xxxg775xxx  genotype to degree
+of b cell depletion by rituximab in the treatment of systemic lupus erythematosus. arthritis rheum. 48, 455–459.
+atkinson, j.p., 2006. c5a and fcgamma receptors: a mutual admiration society.
+j. clin. invest. 116, 304–306.
+bergtold, a., desai, d.d., gavhane, a., clynes, r., 2005. cell surface recycling
+of internalized antigen permits dendritic cell priming of b cells. immunity
+23, 503–514.
+beum, p.v., kennedy, a.d., williams, m.e., lindorfer, m.a., taylor, r.p.,
+2006. the shaving reaction: rituximab/cd20 complexes are removed from
+mantle cell lymphoma and chronic lymphocytic leukemia cells by thp-1
+monocytes. j. immunol. 176, 2600–2609.
+bevaart, l., jansen, m.j., van vugt, m.j., verbeek, j.s., van de winkel, j.g.,
+leusen, j.h., 2006. the high-affinity igg receptor, fcgammari, plays a
+central role in antibody therapy of experimental melanoma. cancer res. 66,
+1261–1264.
+bindon, c.i., hale, g., bruggemann, m., waldmann, h., 1988a. human monoclonal igg isotypes differ in complement activating function at the level of
+c4 as well as c1q. j. exp. med. 168, 127–142.
+bindon, c.i., hale, g., waldmann, h., 1988b. importance of antigen specificity
+for complement-mediated lysis by monoclonal antibodies. eur. j. immunol.
+18, 1507–1514.
+bowles, j.a., wang, s.y., link, b.k., allan, b., beuerlein, g., campbell, m.a.,
+marquis, d., ondek, b., wooldridge, j.e., smith, b.j., breitmeyer, j.b.,
+weiner, g.j., 2006. anti-cd20 monoclonal antibody with enhanced affinity
+for cd16 activates nk cells at lower concentrations and more effectively
+than rituximab. blood 108, 2648–2654.
+bowles, j.a., weiner, g.j., 2005. cd16 polymorphisms and nk activation
+induced by monoclonal antibody-coated target cells. j. immunol. methods
+304, 88–99.
+bubien, j.k., zhou, l.j., bell, p.d., frizzell, r.a., tedder, t.f., 1993. transfection of the cd20 cell surface molecule into ectopic cell types generates a
+ca2+ conductance found constitutively in b lymphocytes. j. cell. biol. 121,
+1121–1132.
+byrd, j.c., kitada, s., flinn, i.w., aron, j.l., pearson, m., lucas, d., reed,
+j.c., 2002. the mechanism of tumor cell clearance by rituximab in vivo
+in patients with b-cell chronic lymphocytic leukemia: evidence of caspase
+activation and apoptosis induction. blood 99, 1038–1043.
+byrd, j.c., lin, t.s., grever, m.r., 2006. treatment of relapsed chronic lymphocytic leukemia: old and new therapies. semin. oncol. 33, 210–219.
+cardarelli, p.m., quinn, m., buckman, d., fang, y., colcher, d., king, d.j.,
+bebbington, c., yarranton, g., 2002. binding to cd20 by anti-b1 antibody
+or f(ab )(2) is sufficient for induction of apoptosis in b-cell lines. cancer
+immunol. immunother. 51, 15–24.
+
+3834
+
+m.j. glennie et al. / molecular immunology 44 (2007) 3823–3837
+
+carnahan, j., wang, p., kendall, r., chen, c., hu, s., boone, t., juan, t., talvenheimo, j., montestruque, s., sun, j., elliott, g., thomas, j., ferbas, j., kern,
+b., briddell, r., leonard, j.p., cesano, a., 2003.  xxxd2015xxx , a humanized
+monoclonal antibody targeting  xxxg378xxx : characterization of in vitro properties.
+clin. cancer res. 9, 3982s–3990s.
+carter, p., 2001. improving the efficacy of antibody-based cancer therapies. nat.
+rev. cancer 1, 118–129.
+carter, p.j., 2006. potent antibody therapeutics by design. nat. rev. immunol.
+6, 343–357.
+cartron, g., dacheux, l., salles, g., solal-celigny, p., bardos, p., colombat, p.,
+watier, h., 2002. therapeutic activity of humanized anti-cd20 monoclonal
+antibody and polymorphism in igg fc receptor  xxxg775xxx  gene. blood
+99, 754–758.
+chan, c.h., wang, j., french, r.r., glennie, m.j., 1998. internalization of
+the lymphocytic surface protein  xxxg378xxx  is controlled by a novel membrane
+proximal cytoplasmic motif. j. biol. chem. 273, 27809–27815.
+chan, h.t., hughes, d., french, r.r., tutt, a.l., walshe, c.a., teeling, j.l.,
+glennie, m.j., cragg, m.s., 2003. cd20-induced lymphoma cell death is
+independent of both caspases and its redistribution into triton x-100 insoluble membrane rafts. cancer res. 63, 5480–5489.
+cheung, m.c., haynes, a.e., meyer, r.m., stevens, a., imrie, k.r., 2007. rituximab in lymphoma: a systematic review and consensus practice guideline
+from cancer care ontario. cancer treat. rev. 33, 161–176.
+clark, e.a., shu, g., 1987. activation of human b cell proliferation through surface  xxxg1445xxx  (cd20) polypeptides or immunoglobulin receptors. j. immunol.
+138, 720–725.
+clynes, r.a., towers, t.l., presta, l.g., ravetch, j.v., 2000. inhibitory fc
+receptors modulate in vivo cytoxicity against tumor targets. nat. med. 6,
+443–446.
+codogno, p., meijer, a.j., 2005. autophagy and signaling: their role in cell
+survival and cell death. cell death differ. 12 (suppl. 2), 1509–1518.
+coiffier, b., 2006. monoclonal antibody as therapy for malignant lymphomas.
+c.r. biol. 329, 241–254.
+coiffier, b., tilly, h., pedersen, l.m., plesner, t., frederiksen, h., van oers,
+m.h.j., wooldridge, j., kloczko, j., holowiecki, j., hellmann, a., walewski,
+j.j., flensburg, m.f., petersen, j., robak, t., 2005. humax cd20 fully
+human monoclonal antibody in chronic lymphocytic leukemia. early results
+from an ongoing phase i/ii clinical trial. ash annual meeting abstracts
+106, p. 448.
+coiffier, b., tilly, h., pedersen, l.m., plesner, t., frederiksen, h., van
+oers, m.h.j., wooldridge, j., kloczko, j.s., holowiecki, j., hellmann,
+a., walewski, j., flensburg, m., petersen, j., robak, t., 2006. significant correlation between survival endpoints and exposure to  xxxd2771xxx 
+( xxxd2771xxx ) in chronic lymphocytic leukemia. ash annual meeting
+abstracts 108, p. 2842.
+cooper, i.a., ding, j.c., adams, p.b., quinn, m.a., brettell, m., 1979. intensive
+leukapheresis in the management of cytopenias in patients with chronic
+lymphocytic leukaemia (cll) and lymphocytic lymphoma. am. j. hematol.
+6, 387–398.
+cragg, m.s., o’brien, l., tutt, a., chan, h.t.c, anderson, v.a., glennie, m.j.,
+2002. opposing properties of cd20 mab. in: leukocyte typing vii. oxford
+university press, oxford, pp. 95–97.
+cragg, m.s., glennie, m.j., 2004. antibody specificity controls in vivo effector
+mechanisms of anti-cd20 reagents. blood 103, 2738–2743.
+cragg, m.s., morgan, s.m., cha, h.t., morgan, b.p., filatov, a.v., johnson,
+p.w., french, r.r., glennie, m.j., 2003. complement-mediated lysis by
+anti-cd20 mab correlates with segregation into lipid rafts. blood 101,
+1045–1052.
+cragg, m.s., walshe, c.a., ivanov, a.o., glennie, m.j., 2005. the biology of
+cd20 and its potential as a target for mab therapy. curr. dir. autoimmun.
+8, 140–174.
+czuczman, m.s., thall, a., witzig, t.e., vose, j.m., younes, a.,
+emmanouilides, c., miller, t.p., moore, j.o., leonard, j.p., gordon, l.i.,
+sweetenham, j., alkuzweny, b., finucane, d.m., leigh, b.r., 2005. phase
+i/ii study of  xxxd2173xxx , an anti- xxxg396xxx  antibody, for relapsed or refractory
+follicular lymphoma. j. clin. oncol. 23, 4390–4398.
+dall’ozzo, s., tartas, s., paintaud, g., cartron, g., colombat, p., bardos, p.,
+watier, h., thibault, g., 2004. rituximab-dependent cytotoxicity by natural
+
+killer cells: influence of fcgr3a polymorphism on the concentration–effect
+relationship. cancer res. 64, 4664–4669.
+davis, t.a., maloney, d.g., czerwinski, d.k., liles, t.m., levy, r., 1998.
+anti-idiotype antibodies can induce long-term complete remissions in nonhodgkin’s lymphoma without eradicating the malignant clone. blood 92,
+1184–1190.
+davis, w., harrison, p.t., hutchinson, m.j., allen, j.m., 1995. two distinct
+regions of fc gamma ri initiate separate signalling pathways involved in
+endocytosis and phagocytosis. embo j. 14, 432–441.
+deans, j.p., li, h., polyak, m.j., 2002. cd20-mediated apoptosis: signalling
+through lipid rafts. immunology 107, 176–182.
+deans, j.p., robbins, s.m., polyak, m.j., savage, j.a., 1998. rapid redistribution of cd20 to a low density detergent-insoluble membrane compartment.
+j. biol. chem. 273, 344–348.
+desai, d.d., harbers, s.o., flores, m., colonna, l., downie, m.p., bergtold,
+a., jung, s., clynes, r., 2007. fc{gamma} receptor iib on dendritic cells
+enforces peripheral tolerance by inhibiting effector t cell responses. j.
+immunol. 178, 6217–6226.
+di gaetano, n., cittera, e., nota, r., vecchi, a., grieco, v., scanziani, e.,
+botto, m., introna, m., golay, j., 2003. complement activation determines
+the therapeutic activity of rituximab in vivo. j. immunol. 171, 1581–1587.
+dunn jr., w.a., 1994. autophagy and related mechanisms of lysosome-mediated
+protein degradation. trends cell. biol. 4, 139–143.
+dyer, m.j., hale, g., hayhoe, f.g., waldmann, h., 1989. effects of campath1 antibodies in vivo in patients with lymphoid malignancies: influence of
+antibody isotype. blood 73, 1431–1439.
+edberg, j.c., tosic, l., wright, e.l., sutherland, w.m., taylor, r.p., 1988.
+quantitative analyses of the relationship between c3 consumption, c3b capture, and immune adherence of complement-fixing antibody/dna immune
+complexes. j. immunol. 141, 4258–4265.
+edwards, j.c., cambridge, g., 2006. b-cell targeting in rheumatoid arthritis and
+other autoimmune diseases. nat. rev. immunol. 6, 394–403.
+edwards, j.c., szczepanski, l., szechinski, j., filipowicz-sosnowska, a.,
+emery, p., close, d.r., stevens, r.m., shaw, t., 2004. efficacy of b-celltargeted therapy with rituximab in patients with rheumatoid arthritis. n.
+engl. j. med. 350, 2572–2581.
+eisenberg, r., looney, r.j., 2005. the therapeutic potential of anti-cd20 “what
+do b-cells do?”. clin. immunol. 117, 207–213.
+emlen, w., pisetsky, d.s., taylor, r.p., 1986. antibodies to dna. a perspective.
+arthritis rheum. 29, 1417–1426.
+ermini, l., secciani, f., la sala, g.b., sabatini, l., fineschi, d., hale, g.,
+rosati, f., 2005. different glycoforms of the human gpi-anchored antigen
+ xxxg393xxx  associate differently with lipid microdomains in leukocytes and sperm
+membranes. biochem. biophys. res. commun. 338, 1275–1283.
+espinosa, e., tabiasco, j., hudrisier, d., fournie, j.j., 2002. synaptic transfer
+by human gamma delta t cells stimulated with soluble or cellular antigens.
+j. immunol. 168, 6336–6343.
+fanale, m.a., younes, a., 2007. monoclonal antibodies in the treatment of
+non-hodgkin’s lymphoma. drugs 67, 333–350.
+feugier, p., van hoof, a., sebban, c., solal-celigny, p., bouabdallah, r., ferme,
+c., christian, b., lepage, e., tilly, h., morschhauser, f., gaulard, p., salles,
+g., bosly, a., gisselbrecht, c., reyes, f., coiffier, b., 2005. long-term
+results of the r-chop study in the treatment of elderly patients with diffuse
+large b-cell lymphoma: a study by the groupe d’etude des lymphomes de
+l’adulte. j. clin. oncol. 23, 4117–4126.
+fossati-jimack, l., ioan-facsinay, a., reininger, l., chicheportiche, y., watanabe, n., saito, t., hofhuis, f.m., gessner, j.e., schiller, c., schmidt, r.e.,
+honjo, t., verbeek, j.s., izui, s., 2000. markedly different pathogenicity of
+four immunoglobulin g isotype-switch variants of an antierythrocyte autoantibody is based on their capacity to interact in vivo with the low-affinity
+fcgamma receptor iii. j. exp. med. 191, 1293–1302.
+gelderman, k.a., tomlinson, s., ross, g.d., gorter, a., 2004. complement
+function in mab-mediated cancer immunotherapy. trends immunol. 25,
+158–164.
+ghetie, m.a., bright, h., vitetta, e.s., 2001. homodimers but not monomers of
+rituxan (chimeric anti-cd20) induce apoptosis in human b-lymphoma cells
+and synergize with a chemotherapeutic agent and an immunotoxin. blood
+97, 1392–1398.
+
+m.j. glennie et al. / molecular immunology 44 (2007) 3823–3837
+golay, j., cittera, e., di gaetano, n., manganini, m., mosca, m., nebuloni, m.,
+van rooijen, n., vago, l., introna, m., 2006. the role of complement in the
+therapeutic activity of rituximab in a murine b lymphoma model homing in
+lymph nodes. haematologica 91, 176–183.
+golay, j., lazzari, m., facchinetti, v., bernasconi, s., borleri, g., barbui, t.,
+rambaldi, a., introna, m., 2001. cd20 levels determine the in vitro susceptibility to rituximab and complement of b-cell chronic lymphocytic leukemia:
+further regulation by  xxxg394xxx  and cd59. blood 98, 3383–3389.
+golay, j., manganini, m., facchinetti, v., gramigna, r., broady, r., borleri, g.,
+rambaldi, a., introna, m., 2003. rituximab-mediated antibody-dependent
+cellular cytotoxicity against neoplastic b cells is stimulated strongly by
+interleukin-2. haematologica 88, 1002–1012.
+golay, j., zaffaroni, l., vaccari, t., lazzari, m., borleri, g.m., bernasconi,
+s., tedesco, f., rambaldi, a., introna, m., 2000. biologic response of
+b lymphoma cells to anti-cd20 monoclonal antibody rituximab in vitro:
+ xxxg394xxx  and cd59 regulate complement-mediated cell lysis. blood 95, 3900–
+3908.
+golay, j.t., clark, e.a., beverley, p.c., 1985. the cd20 ( xxxg1445xxx ) antigen is
+involved in activation of b cells from the g0 to the g1 phase of the cell
+cycle. j. immunol. 135, 3795–3801.
+gong, q., ou, q., ye, s., lee, w.p., cornelius, j., diehl, l., lin, w.y., hu, z., lu,
+y., chen, y., wu, y., meng, y.g., gribling, p., lin, z., nguyen, k., tran, t.,
+zhang, y., rosen, h., martin, f., chan, a.c., 2005. importance of cellular
+microenvironment and circulatory dynamics in b cell immunotherapy. j.
+immunol. 174, 817–826.
+hamaguchi, y., uchida, j., cain, d.w., venturi, g.m., poe, j.c., haas, k.m.,
+tedder, t.f., 2005. the peritoneal cavity provides a protective niche for b1
+and conventional b lymphocytes during anti-cd20 immunotherapy in mice.
+j. immunol. 174, 4389–4399.
+hamaguchi, y., xiu, y., komura, k., nimmerjahn, f., tedder, t.f., 2006.
+antibody isotype-specific engagement of fcgamma receptors regulates b
+lymphocyte depletion during cd20 immunotherapy. j. exp. med. 203,
+743–753.
+hatjiharissi, e., xu, l., santos, d.d., hunter, z.r., ciccarelli, b.t., verselis, s.,
+modica, m., cao, y., manning, r.j., leleu, x., dimmock, e.a., kortsaris,
+a., mitsiades, c., anderson, k.c., fox, e.a., treon, s.p., 2007. increased
+natural killer cell expression of cd16, and augmented binding and adcc
+activity to rituximab among individuals expressing the fc{gamma}riiia158 v/v and v/f polymorphism. blood, in press.
+hofmeister, j.k., cooney, d., coggeshall, k.m., 2000. clustered cd20 induced
+apoptosis: src-family kinase, the proximal regulator of tyrosine phosphorylation, calcium influx, and  xxxg341xxx -dependent apoptosis. blood cells mol.
+dis. 26, 133–143.
+hong, f., yan, j., baran, j.t., allendorf, d.j., hansen, r.d., ostroff, g.r.,
+xing, p.x., cheung, n.k., ross, g.d., 2004. mechanism by which orally
+administered beta-1,3-glucans enhance the tumoricidal activity of antitumor
+monoclonal antibodies in murine tumor models. j. immunol. 173, 797–806.
+hoyer, b.f., manz, r.a., radbruch, a., hiepe, f., 2005. long-lived plasma
+cells and their contribution to autoimmunity. ann. n. y. acad. sci. 1050,
+124–133.
+hoyer, b.f., moser, k., hauser, a.e., peddinghaus, a., voigt, c., eilat, d.,
+radbruch, a., hiepe, f., manz, r.a., 2004. short-lived plasmablasts and
+long-lived plasma cells contribute to chronic humoral autoimmunity in
+nzb/w mice. j. exp. med. 199, 1577–1584.
+huber-lang, m., sarma, j.v., zetoune, f.s., rittirsch, d., neff, t.a., mcguire,
+s.r., lambris, j.d., warner, r.l., flierl, m.a., hoesel, l.m., gebhard, f.,
+younger, j.g., drouin, s.m., wetsel, r.a., ward, p.a., 2006. generation of
+c5a in the absence of c3: a new complement activation pathway. nat. med.
+12, 682–687.
+hudrisier, d., aucher, a., puaux, a.l., bordier, c., joly, e., 2007. capture of
+target cell membrane components via trogocytosis is triggered by a selected
+set of surface molecules on t or b cells. j. immunol. 178, 3637–3647.
+huhn, d., von schilling, c., wilhelm, m., ho, a.d., hallek, m., kuse, r.,
+knauf, w., riedel, u., hinke, a., srock, s., serke, s., peschel, c., emmerich,
+b., 2001. rituximab therapy of patients with b-cell chronic lymphocytic
+leukemia. blood 98, 1326–1331.
+idusogie, e.e., presta, l.g., gazzano-santoro, h., totpal, k., wong, p.y.,
+ultsch, m., meng, y.g., mulkerrin, m.g., 2000. mapping of the c1q bind-
+
+3835
+
+ing site on rituxan, a chimeric antibody with a human igg1 fc. j. immunol.
+164, 4178–4184.
+idusogie, e.e., wong, p.y., presta, l.g., gazzano-santoro, h., totpal, k.,
+ultsch, m., mulkerrin, m.g., 2001. engineered antibodies with increased
+activity to recruit complement. j. immunol. 166, 2571–2575.
+ivanov, a., krysov, s., cragg, m.s., illidge, t., radioimmunotherapy with b1
+anti-cd20 mab initiates cell death that overcomes resistance to apoptosis.
+blood, submitted for publication.
+jaekell, h.p., trabandt, a., grobe, n., werle, e., 2006. anti-dsdna antibody
+subtypes and anti-c1q antibodies: toward a more reliable diagnosis and
+monitoring of systemic lupus erythematosus and lupus nephritis. lupus 15,
+335–345.
+johnson, p., glennie, m., 2003. the mechanisms of action of rituximab in the
+elimination of tumor cells. semin. oncol. 30, 3–8.
+johnson, p.w., glennie, m.j., 2001. rituximab: mechanisms and applications.
+br. j. cancer 85, 1619–1623.
+kaminski, m.s., kitamura, k., maloney, d.g., campbell, m.j., levy, r., 1986.
+importance of antibody isotype in monoclonal anti-idiotype therapy of a
+murine b cell lymphoma. a study of hybridoma class switch variants. j.
+immunol. 136, 1123–1130.
+kaneko, y., nimmerjahn, f., ravetch, j.v., 2006. anti-inflammatory activity of
+immunoglobulin g resulting from fc sialylation. science 313, 670–673.
+keating, m.j., chiorazzi, n., messmer, b., damle, r.n., allen, s.l., rai, k.r.,
+ferrarini, m., kipps, t.j., 2003. biology and treatment of chronic lymphocytic leukemia. hematol. am. soc. hematol. educ. program, 153–175.
+kennedy, a.d., beum, p.v., solga, m.d., dilillo, d.j., lindorfer, m.a., hess,
+c.e., densmore, j.j., williams, m.e., taylor, r.p., 2004. rituximab infusion promotes rapid complement depletion and acute cd20 loss in chronic
+lymphocytic leukemia. j. immunol. 172, 3280–3288.
+kennedy, a.d., solga, m.d., schuman, t.a., chi, a.w., lindorfer, m.a.,
+sutherland, w.m., foley, p.l., taylor, r.p., 2003. an anti-c3b(i) mab
+enhances complement activation, c3b(i) deposition, and killing of cd20+
+cells by rituximab. blood 101, 1071–1079.
+kim, r., emi, m., tanabe, k., 2005. caspase-dependent and -independent cell
+death pathways after dna damage (review). oncol. rep. 14, 595–599.
+kipps, t.j., parham, p., punt, j., herzenberg, l.a., 1985. importance of
+immunoglobulin isotype in human antibody-dependent, cell-mediated cytotoxicity directed by murine monoclonal antibodies. j. exp. med. 161, 1–17.
+klepfish, a., schattner, a., ghoti, h., rachmilewitz, e.a., 2007. addition of
+fresh frozen plasma as a source of complement to rituximab in advanced
+chronic lymphocytic leukaemia. lancet oncol. 8, 361–362.
+kreitman, r.j., pastan, i., 2006. immunotoxins in the treatment of refractory
+hairy cell leukemia. hematol. oncol. clin. n. am. 20 (1137-1151), viii.
+krop, i., de fougerolles, a.r., hardy, r.r., allison, m., schlissel, m.s., fearon,
+d.t., 1996. self-renewal of b-1 lymphocytes is dependent on  xxxg375xxx . eur. j.
+immunol. 26, 238–242.
+kumar, v., ali, s.r., konrad, s., zwirner, j., verbeek, j.s., schmidt, r.e.,
+gessner, j.e., 2006. cell-derived anaphylatoxins as key mediators of
+antibody-dependent type ii autoimmunity in mice. j. clin. invest. 116,
+512–520.
+lazar, g.a., dang, w., karki, s., vafa, o., peng, j.s., hyun, l., chan, c., chung,
+h.s., eivazi, a., yoder, s.c., vielmetter, j., carmichael, d.f., hayes, r.j.,
+dahiyat, b.i., 2006. engineered antibody fc variants with enhanced effector
+function. proc. natl. acad. sci. u.s.a. 103, 4005–4010.
+lefebvre, m.l., krause, s.w., salcedo, m., nardin, a., 2006. ex vivo-activated
+human macrophages kill chronic lymphocytic leukemia cells in the presence
+of rituximab: mechanism of antibody-dependent cellular cytotoxicity and
+impact of human serum. j. immunother. 29, 388–397.
+leonard, j., friedberg, j., younes, a., fisher, d., gordon, l., moore, j., czuczman, m., miller, t., stiff, p., cheson, b., forero-torres, a., chieffo, n.,
+mckinney, b., finucane, d., molina, a., 2007. a phase i/ii study of  xxxd2173xxx  (an anti- xxxg396xxx  monoclonal antibody) in combination with rituximab
+for relapsed or refractory, follicular lymphoma. ann. oncol., in press.
+lopes de menezes, d.e., denis-mize, k., tang, y., ye, h., kunich, j.c., garrett, e.n., peng, j., cousens, l.s., gelb, a.b., heise, c., wilson, s.e.,
+jallal, b., aukerman, s.l., 2007. recombinant interleukin-2 significantly
+augments activity of rituximab in human tumor xenograft models of b-cell
+non-hodgkin lymphoma. j. immunother. 30, 64–74.
+
+3836
+
+m.j. glennie et al. / molecular immunology 44 (2007) 3823–3837
+
+lovdal, t., andersen, e., brech, a., berg, t., 2000. fc receptor mediated endocytosis of small soluble immunoglobulin g immune complexes in kupffer
+and endothelial cells from rat liver. j. cell. sci. 113, 3255–3266.
+manches, o., lui, g., chaperot, l., gressin, r., molens, j.p., jacob, m.c.,
+sotto, j.j., leroux, d., bensa, j.c., plumas, j., 2003. in vitro mechanisms of
+action of rituximab on primary non-hodgkin lymphomas. blood 101, 949–
+954.
+mack, d.a., beum, p.v., lindorfer, m.a., pawluczkowycz, a.w., taylor, r.p.,
+2006. the shaving reaction is facilitated through trogocytosis: concerted transfer of both rituximab (rtx) and the membrane dye pkh26
+from b lymphocytes to macrophages is demonstrable by flow cytometry, fluorescence microscopy, and high resolution digital imaging in
+a flow cytometric environment. ash annual meeting abstracts 108,
+2096.
+martin, f., chan, a.c., 2004. pathogenic roles of b cells in human autoimmunity;
+insights from the clinic. immunity 20, 517–527.
+mathas, s., rickers, a., bommert, k., dorken, b., mapara, m.y., 2000.
+anti-cd20- and b-cell receptor-mediated apoptosis: evidence for shared
+intracellular signaling pathways. cancer res. 60, 7170–7176.
+mclaughlin, p., 2001. rituximab: perspective on single agent experience, and
+future directions in combination trials. crit. rev. oncol. hematol. 40, 3–16.
+mclaughlin, p., grillo-lopez, a.j., link, b.k., levy, r., czuczman, m.s.,
+williams, m.e., heyman, m.r., bence-bruckler, i., white, c.a., cabanillas, f., jain, v., ho, a.d., lister, j., wey, k., shen, d., dallaire, b.k., 1998.
+rituximab chimeric anti-cd20 monoclonal antibody therapy for relapsed
+indolent lymphoma: half of patients respond to a four-dose treatment program. j. clin. oncol. 16, 2825–2833.
+meijer, a.j., codogno, p., 2004. regulation and role of autophagy in mammalian
+cells. int. j. biochem. cell biol. 36, 2445–2462.
+meng, r., smallshaw, j.e., pop, l.m., yen, m., liu, x., le, l., ghetie, m.a.,
+vitetta, e.s., ghetie, v., 2004. the evaluation of recombinant, chimeric,
+tetravalent antihuman  xxxg378xxx  antibodies. clin. cancer res. 10, 1274–1281.
+meyer, d., schiller, c., westermann, j., izui, s., hazenbos, w.l., verbeek,
+j.s., schmidt, r.e., gessner, j.e., 1998. fcgammariii (cd16)-deficient
+mice show igg isotype-dependent protection to experimental autoimmune
+hemolytic anemia. blood 92, 3997–4002.
+miniter, m.f., stollar, b.d., agnello, v., 1979. reassessment of the clinical
+significance of native dna antibodies in systemic lupus erythematosus.
+arthritis rheum. 22, 959–968.
+modak, s., koehne, g., vickers, a., o’reilly, r.j., cheung, n.k., 2005. rituximab therapy of lymphoma is enhanced by orally administered (1→3)
+(1→4)-d-beta-glucan. leuk. res. 29, 679–683.
+nimmerjahn, f., ravetch, j.v., 2005. divergent immunoglobulin g subclass
+activity through selective fc receptor binding. science 310, 1510–1512.
+nimmerjahn, f., ravetch, j.v., 2006. fcgamma receptors: old friends and new
+family members. immunity 24, 19–28.
+nimmerjahn, f., ravetch, j.v., 2007. antibodies fc receptors and cancer. curr.
+opin. immunol. 19, 239–245.
+ohsumi, y., 2001. molecular dissection of autophagy: two ubiquitin-like systems. nat. rev. mol. cell. biol. 2, 211–216.
+parren, p.w., warmerdam, p.a., boeije, l.c., arts, j., westerdaal, n.a., vlug,
+a., capel, p.j., aarden, l.a., van de winkel, j.g., 1992. on the interaction of
+igg subclasses with the low affinity fc gamma riia (cd32) on human monocytes, neutrophils, and platelets. analysis of a functional polymorphism to
+human igg2. j. clin. invest. 90, 1537–1546.
+pastan, i., hassan, r., fitzgerald, d.j., kreitman, r.j., 2007. immunotoxin
+treatment of cancer. annu. rev. med. 58, 221–237.
+pedersen, i.m., buhl, a.m., klausen, p., geisler, c.h., jurlander, j., 2002. the
+chimeric anti-cd20 antibody rituximab induces apoptosis in b-cell chronic
+lymphocytic leukemia cells through a p38 mitogen activated protein-kinasedependent mechanism. blood 99, 1314–1319.
+perosa, f., favoino, e., caragnano, m.a., dammacco, f., 2005. generation of biologically active linear and cyclic peptides has revealed a
+unique fine specificity of rituximab and its possible cross-reactivity with
+acid sphingomyelinase-like  xxxg1696xxx  precursor. blood 107,
+1070–1077.
+pescovitz, m.d., 2006. rituximab, an anti-cd20 monoclonal antibody: history
+and mechanism of action. am. j. transplant. 6, 859–866.
+
+petrie, r.j., deans, j.p., 2002. colocalization of the b cell receptor and cd20 followed by activation-dependent dissociation in distinct lipid rafts. j. immunol.
+169, 2886–2891.
+polyak, m.j., deans, j.p., 2002. alanine-170 and proline-172 are critical determinants for extracellular cd20 epitopes; heterogeneity in the fine specificity
+of cd20 monoclonal antibodies is defined by additional requirements
+imposed by both amino acid sequence and quaternary structure. blood 99,
+3256–3262.
+press, o.w., farr, a.g., borroz, k.i., anderson, s.k., martin, p.j., 1989. endocytosis and degradation of monoclonal antibodies targeting human b-cell
+malignancies. cancer res. 49, 4906–4912.
+ravetch, j.v., bolland, s., 2001. igg fc receptors. annu. rev. immunol. 19,
+275–290.
+reff, m.e., carner, k., chambers, k.s., chinn, p.c., leonard, j.e., raab, r.,
+newman, r.a., hanna, n., anderson, d.r., 1994. depletion of b cells in
+vivo by a chimeric mouse human monoclonal antibody to cd20. blood 83,
+435–445.
+rose, a.l., smith, b.e., maloney, d.g., 2002. glucocorticoids and rituximab
+in vitro: synergistic direct antiproliferative and apoptotic effects. blood 100,
+1765–1773.
+ross, g.d., vetvicka, v., yan, j., xia, y., vetvickova, j., 1999. therapeutic intervention with complement and beta-glucan in cancer. immunopharmacology
+42, 61–74.
+scallon, b.j., snyder, l.a., anderson, g.m., chen, q., yan, l., weiner, l.m.,
+nakada, m.t., 2006. a review of antibody therapeutics and antibody-related
+technologies for oncology. j. immunother. 29, 351–364.
+schmidt, r.e., gessner, j.e., 2005. fc receptors and their interaction with complement in autoimmunity. immunol. lett. 100, 56–67.
+schreiber, a.d., frank, m.m., 1972. role of antibody and complement in the
+immune clearance and destruction of erythrocytes. ii. molecular nature of
+igg and igm complement-fixing sites and effects of their interaction with
+serum. j. clin. invest. 51, 583–589.
+shan, d., ledbetter, j.a., press, o.w., 1998. apoptosis of malignant human b
+cells by ligation of cd20 with monoclonal antibodies. blood 91, 1644–1652.
+shan, d., ledbetter, j.a., press, o.w., 2000. signaling events involved in  xxxd3132xxx -induced apoptosis of malignant human b cells. cancer immunol.
+immunother. 48, 673–683.
+shan, d., press, o.w., tsu, t.t., hayden, m.s., ledbetter, j.a., 1999. characterization of scfv-ig constructs generated from the anti-cd20 mab
+1f5 using linker peptides of varying lengths. j. immunol. 162, 6589–
+6595.
+shimizu, s., kanaseki, t., mizushima, n., mizuta, t., arakawa-kobayashi, s.,
+thompson, c.b., tsujimoto, y., 2004. role of bcl-2 family proteins in a
+non-apoptotic programmed cell death dependent on autophagy genes. nat.
+cell biol. 6, 1221–1228.
+shushakova, n., skokowa, j., schulman, j., baumann, u., zwirner, j., schmidt,
+r.e., gessner, j.e., 2002.  xxxg285xxx  is a major regulator of activating versus inhibitory fcgammars in immune complex-induced lung disease.
+j. clin. invest. 110, 1823–1830.
+song, s., crow, a.r., siragam, v., freedman, j., lazarus, a.h., 2005. monoclonal antibodies that mimic the action of anti-d in the amelioration of
+murine itp act by a mechanism distinct from that of ivig. blood 105,
+1546–1548.
+swaak, a.j., aarden, l.a., statius van eps, l.w., feltkamp, t.e., 1979. antidsdna and complement profiles as prognostic guides in systemic lupus
+erythematosus. arthritis rheum. 22, 226–235.
+swaak, a.j., groenwold, j., bronsveld, w., 1986. predictive value of complement profiles and anti-dsdna in systemic lupus erythematosus. ann.
+rheum. dis. 45, 359–366.
+tabiasco, j., vercellone, a., meggetto, f., hudrisier, d., brousset, p., fournie,
+j.j., 2003. acquisition of viral receptor by nk cells through immunological
+synapse. j. immunol. 170, 5993–5998.
+taylor, r.p., li, y., lindorfer, m.a., coursar, j.b., williams, m.e., 2006. flow
+cytometry and immunohistochemistry analyses reveal that rituximab/cd20
+complexes are removed (shaved) from mantle cell lymphoma cells (z138)
+previously infused intravenously or subcutaneously in a scid mouse model,
+and the shaving reaction can be blocked by ivig. ash annual meeting
+abstracts 108, p. 2105.
+
+m.j. glennie et al. / molecular immunology 44 (2007) 3823–3837
+tedder, t.f., baras, a., xiu, y., 2006. fcgamma receptor-dependent effector
+mechanisms regulate  xxxg375xxx  and cd20 antibody immunotherapies for b lymphocyte malignancies and autoimmunity. springer semin. immunopathol.
+28, 351–364.
+tedder, t.f., forsgren, a., boyd, a.w., nadler, l.m., schlossman, s.f., 1986.
+antibodies reactive with the b1 molecule inhibit cell cycle progression but
+not activation of human b lymphocytes. eur. j. immunol. 16, 881–887.
+teeling, j.l., french, r.r., cragg, m.s., van den brakel, j., pluyter, m., huang,
+h., chan, c., parren, p.w., hack, c.e., dechant, m., valerius, t., van de
+winkel, j.g., glennie, m.j., 2004. characterization of new human cd20
+monoclonal antibodies with potent cytolytic activity against non-hodgkin
+lymphomas. blood 104, 1793–1800.
+teeling, j.l., mackus, w.j., wiegman, l.j., van den brakel, j.h., beers, s.a.,
+french, r.r., van meerten, t., ebeling, s., vink, t., slootstra, j.w., parren,
+p.w., glennie, m.j., van de winkel, j.g., 2006. the biological activity of
+human cd20 monoclonal antibodies is linked to unique epitopes on cd20.
+j. immunol. 177, 362–371.
+treon, s.p., hansen, m., branagan, a.r., verselis, s., emmanouilides, c.,
+kimby, e., frankel, s.r., touroutoglou, n., turnbull, b., anderson, k.c.,
+maloney, d.g., fox, e.a., 2005. polymorphisms in  xxxg775xxx  (cd16)
+receptor expression are associated with clinical response to rituximab in
+waldenstrom’s macroglobulinemia. j. clin. oncol. 23, 474–481.
+treon, s.p., mitsiades, c., mitsiades, n., young, g., doss, d., schlossman,
+r., anderson, k.c., 2001. tumor cell expression of cd59 is associated
+with resistance to cd20 serotherapy in patients with b-cell malignancies. j.
+immunother. 24, 263–271.
+uchida, j., hamaguchi, y., oliver, j.a., ravetch, j.v., poe, j.c., haas, k.m.,
+tedder, t.f., 2004. the innate mononuclear phagocyte network depletes b
+lymphocytes through fc receptor-dependent mechanisms during anti-cd20
+antibody immunotherapy. j. exp. med. 199, 1659–1669.
+umana, p., moessner, e., bruenker, p., unsin, g., puentener, u., suter, t., grau,
+r., schmidt, c., gerdes, c., nopora, a., patre, m., moser, s., sondermann,
+p., wheat, l., dyer, m.j.s., poppema, s., bauer, s., strein, p., friess, t.,
+klein, c., 2006. novel 3rd generation humanized type ii cd20 antibody
+with glycoengineered fc and modified elbow hinge for enhanced adcc
+and superior apoptosis induction. ash annual meeting abstracts 108, p.
+229.
+van der kolk, l.e., evers, l.m., omene, c., lens, s.m., lederman, s., van lier,
+r.a., van oers, m.h., eldering, e., 2002. cd20-induced b cell death can
+bypass mitochondria and caspase activation. leukemia 16, 1735–1744.
+van der kolk, l.e., grillo-lopez, a.j., baars, j.w., hack, c.e., van oers, m.h.,
+2001. complement activation plays a key role in the side-effects of rituximab
+treatment. br. j. haematol. 115, 807–811.
+
+3837
+
+van meerten, t., van rijn, r.s., hol, s., hagenbeek, a., ebeling, s.b., 2006.
+complement-induced cell death by rituximab depends on cd20 expression
+level and acts complementary to antibody-dependent cellular cytotoxicity.
+clin. cancer res. 12, 4027–4035.
+van rooijen, n., sanders, a., 1996. kupffer cell depletion by liposome-delivered
+drugs: comparative activity of intracellular  xxxd1721xxx , propamidine, and
+ethylenediaminetetraacetic acid. hepatology 23, 1239–1243.
+vugmeyster, y., beyer, j., howell, k., combs, d., fielder, p., yang, j., qureshi,
+f., sandlund, b., kawaguchi, l., dummer, w., lowman, h., mckeever, k.,
+2005. depletion of b cells by a humanized anti-cd20 antibody pro70769
+in macaca fascicularis. j. immunother. 28, 212–219.
+walport, m.j., 2001a. complement. first of two parts. n. engl. j. med. 344,
+1058–1066.
+walport, m.j., 2001b. complement. second of two parts. n. engl. j. med. 344,
+1140–1144.
+walshe, c.a., beers, s.a., french, r.r., chan, c.h.t., johnson, p.w., packham,
+g.k., glennie, m.j., cragg, m.s., induction of cytosolic calcium flux by
+cd20 is dependent on the b cell antigen receptor, j. biol. chem., submitted
+for publication.
+wang, s.y., racila, e., taylor, r.p., weiner, g.j., 2006. the c3b component of
+complement inhibits nk cell activation induced by rituximab-coated target
+cells. ash annual meeting abstracts 108, p. 2505.
+weng, w.k., levy, r., 2001. expression of complement inhibitors cd46,
+ xxxg394xxx , and cd59 on tumor cells does not predict clinical outcome after
+rituximab treatment in follicular non-hodgkin lymphoma. blood 98, 1352–
+1357.
+weng, w.k., levy, r., 2003. two immunoglobulin g fragment c receptor polymorphisms independently predict response to rituximab in patients with
+follicular lymphoma. j. clin. oncol. 21, 3940–3947.
+williams, m.e., densmore, j.j., pawluczkowycz, a.w., beum, p.v., kennedy,
+a.d., lindorfer, m.a., hamil, s.h., eggleton, j.c., taylor, r.p., 2006.
+thrice-weekly low-dose rituximab decreases cd20 loss via shaving and
+promotes enhanced targeting in chronic lymphocytic leukemia. j. immunol.
+177, 7435–7443.
+xia, m.q., hale, g., lifely, m.r., ferguson, m.a., campbell, d., packman, l., waldmann, h., 1993. structure of the  xxxg393xxx , a
+glycosylphosphatidylinositol-anchored glycoprotein which is an exceptionally good target for complement lysis. biochem. j. 293, 633–640.
+yazawa, n., hamaguchi, y., poe, j.c., tedder, t.f., 2005. immunotherapy using
+unconjugated  xxxg375xxx  monoclonal antibodies in animal models for b lymphocyte malignancies and autoimmune disease. proc. natl. acad. sci. u.s.a.
+102, 15178–15183.
+

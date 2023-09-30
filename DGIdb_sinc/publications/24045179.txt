@@ -1,0 +1,1529 @@
+published onlinefirst september 17, 2013; doi: 10.1158/1078-0432.ccr-13-1675
+
+clinical
+cancer
+research
+
+cancer therapy: preclinical
+
+dual  xxxg411xxx / xxxg414xxx  inhibition induces cell-cycle arrest and
+senescence in neuroblastoma
+julieann rader1, mike r. russell1, lori s. hart1, michael s. nakazawa1, lili t. belcastro1, daniel martinez2,
+yimei li1,3, erica l. carpenter1, edward f. attiyeh1,3, sharon j. diskin1,3, sunkyu kim5, sudha parasuraman5,
+giordano caponigro5, robert w. schnepp1, andrew c. wood1, bruce pawel2, kristina a. cole1,3, and
+john m. maris1,3,4
+
+abstract
+purpose: neuroblastoma is a pediatric cancer that continues to exact significant morbidity and mortality.
+recently, a number of cell-cycle proteins, particularly those within the cyclin d/ xxxg411xxx / xxxg414xxx /rb network,
+have been shown to exert oncogenic roles in neuroblastoma, suggesting that their therapeutic exploitation
+might improve patient outcomes.
+experimental procedures: we evaluated the effect of dual  xxxg411xxx / xxxg414xxx  inhibition on neuroblastoma
+viability using  xxxd3112xxx  (novartis oncology), a highly specific  xxxg411xxx /6 inhibitor.
+results: treatment with  xxxd3112xxx  significantly reduced proliferation in 12 of 17 human neuroblastomaderived cell lines by inducing cytostasis at nanomolar concentrations (mean ic50 ¼ 307  68 nmol/l in
+sensitive lines).  xxxd3112xxx  caused cell-cycle arrest and cellular senescence that was attributed to dosedependent decreases in phosphorylated rb and foxm1, respectively. in addition, responsiveness of
+neuroblastoma xenografts to  xxxd3112xxx  translated to the in vivo setting in that there was a direct correlation
+of in vitro ic50 values with degree of subcutaneous xenograft growth delay. although our data indicate
+that neuroblastomas sensitive to  xxxd3112xxx  were more likely to contain genomic amplification of  xxxg1488xxx 
+(p ¼ 0.01), the identification of additional clinically accessible biomarkers is of high importance.
+conclusions: taken together, our data show that  xxxd3112xxx  is active in a large subset of neuroblastoma cell
+line and xenograft models, and supports the clinical development of this  xxxg411xxx /6 inhibitor as a therapy for
+patients with this disease. clin cancer res; 19(22); 6173–82. 2013 aacr.
+
+introduction
+neuroblastoma is a pediatric cancer that originates in
+tissues of the developing sympathetic nervous system. it is
+typically diagnosed in very young children and has a highly
+variable clinical presentation, with tumors displaying significant genomic and biological heterogeneity (1–3).
+although patients with favorable clinical and biological
+features (low-risk disease) can often be cured by surgery
+alone, patients with high-risk disease, particularly those
+harboring amplification of the  xxxg1488xxx  oncogene, have survival rates of less than 40% despite intensive multimodal
+authors' afﬁliations: 1division of oncology and center for childhood
+cancer research; 2division of pathology, children's hospital of philadelphia; 3department of pediatrics; 4abramson family cancer research
+institute, perelman school of medicine at the university of pennsylvania,
+philadelphia, pennsylvania; and 5novartis institutes for biomedical
+research, cambridge, massachusetts
+note: supplementary data for this article are available at clinical cancer
+research online (http://clincancerres.aacrjournals.org/).
+corresponding author: john m. maris, children's hospital of philadelphia, colket translational research building, room 3060, 3501 civic
+center blvd., philadelphia, pa 19104. phone: 215-590-5244; fax: 267426-0685; e-mail: maris@email.chop.edu
+doi: 10.1158/1078-0432.ccr-13-1675
+2013 american association for cancer research.
+
+therapy (1, 4). such high mortality thus mandates a need for
+the development of novel therapies that will significantly
+improve high-risk patient survival.
+the identification of molecular abnormalities driving
+neuroblastoma tumorigenesis and disease progression followed by their targeted treatment is a pragmatic strategy for
+meeting this need. currently, converging evidence points
+to members of the cyclin d/ xxxg411xxx / xxxg414xxx /rb cell-cycle
+regulatory pathway as potential candidates for such therapeutic exploitation. both  xxxg411xxx  and  xxxg414xxx  ( xxxg411xxx /6)
+encode cyclin-dependent serine–threonine kinases that, in
+response to mitogenic or pro-proliferative stimuli, complex
+with d-type cyclins to phosphorylate the rb tumor suppressor protein. this phosphorylation induces the release of
+rb from e2f transcription factors, and thus enables e2f to
+transcribe the genes that are required for g1–s phase cellcycle progression and ultimately cellular proliferation (5–
+7). in addition to cell-cycle regulation,  xxxg411xxx /6 signaling
+has also been linked to senescence suppression via regulation of the foxm1 transcription factor (8). given its demonstrated ability to override suppressive cues in favor of
+cellular proliferation, it is not surprising that deregulation
+of the cyclin d/ xxxg411xxx / xxxg414xxx /rb pathway is associated with
+unrestricted growth and is a hallmark of nearly every tumor
+histotype.
+
+www.aacrjournals.org
+
+downloaded from clincancerres.aacrjournals.org on october 15, 2019. © 2013 american association for cancer research.
+
+6173
+
+published onlinefirst september 17, 2013; doi: 10.1158/1078-0432.ccr-13-1675
+
+rader et al.
+
+translational relevance
+neuroblastoma is a pediatric cancer that continues to
+exact significant morbidity and mortality. we and others
+have shown that the cyclin d/ xxxg411xxx / xxxg414xxx /rb pathway
+is hyperactive in neuroblastoma, suggesting that this
+cancer might be particularly vulnerable to  xxxg411xxx /6 inhibition. in an effort to translate this finding to the clinic,
+we evaluated the in vitro and in vivo response of neuroblastoma to  xxxd3112xxx  (novartis oncology), a small molecule inhibitor targeting  xxxg411xxx  and  xxxg414xxx . we show that
+a majority of neuroblastoma models are indeed sensitive
+to  xxxg411xxx /6 inhibition, with sensitivity attributed to an
+induction of cytostasis (g1 arrest) and cellular senescence. our data therefore strongly support the integration of  xxxg411xxx /6 inhibitors into current treatment
+regimens for neuroblastoma, and have provided a rationale for initiating a phase i clinical trial in this disease
+(nct01747876).
+
+with respect to neuroblastoma, we and others have
+identified several genetic aberrations that increase  xxxg411xxx /
+6 kinase activity. genomic amplification of  xxxg366xxx  (cyclin
+d1) and  xxxg411xxx , as well as homozygous deletion of
+ xxxg421xxx , have been reported in a subset of neuroblastomas
+(9–14). in addition,  xxxg366xxx ,  xxxg411xxx , and  xxxg414xxx  have not
+only been shown to be overexpressed in almost all cases of
+neuroblastoma, but also their expression was found to be
+higher in neuroblastoma in comparison to other tumors
+(15). more recently, a synthetic lethality screen of the
+protein kinome identified  xxxg411xxx  as a potential candidate
+for therapeutic targeting in neuroblastoma (16). taken
+together, these findings suggest a dependency on  xxxg411xxx /6
+activity for neuroblastoma survival, and thus highlight their
+potential as molecular targets for pharmacologic inhibition.
+ xxxd3112xxx  (novartis oncology) is an orally bioavailable,
+small molecule inhibitor of both  xxxg411xxx  and  xxxg414xxx . here,
+we report on the preclinical evaluation of  xxxd3112xxx  as a
+neuroblastoma therapy. our results show that a subset of
+neuroblastomas are highly sensitive to  xxxd3112xxx , and therefore support the clinical development of  xxxg411xxx /6 inhibition
+strategies in this disease.
+
+materials and methods
+cell lines and patient samples
+all cell lines were obtained from the children’s hospital
+of philadelphia cell line bank and were cultured in rpmi1640 media containing 10% fbs, 1% l-glutamine, and 1%
+penicillin/streptomycin at 37 c and 5% co2. annual
+genotyping (ampfistr identifier kit) of these lines and
+a single-nucleotide polymorphism (snp) array analysis
+(illumina h550) were performed to ensure maintenance
+of cell identity using methods as previously described
+(17). all annotated but de-identified patient tumor samples were obtained from the children’s oncology group
+
+6174
+
+clin cancer res; 19(22) november 15, 2013
+
+neuroblastoma biorepository. the illumina h550 snp
+arrays were used to determine dna copy number status
+of 375 high-risk primary neuroblastoma tumors, and gene
+expression profiling of 251 tumors (30 low-risk, 221 highrisk) was performed using affymetrix human exon 1.0 st
+microarrays.
+tissue microarray
+a neuroblastoma tissue microarray of duplicate paraffinembedded tumor cores from 106 diagnostic patients, as
+well as control tissues, was used for this study (18). using
+the bond refine polymer staining kit (leica microsystems), slides from each tumor core were stained with an
+antibody against endogenous rb (cell signaling #9309,
+1:300 dilution). antigen retrieval was performed with e2
+retrieval solution (leica microsystems), and developed
+slides were imaged at 20 magnification on an aperio os
+slide scanner (aperio technologies). positive staining was
+described by staining intensity (negative, weak, moderate,
+or strong), and a staining score was also calculated as the
+product of staining intensity and the percentage of neuroblasts stained.
+western blotting
+approximately 40 mg of cell line or patient tumor lysate
+was prepared as previously described (19), separated by
+electrophoresis on 4% to 12% polyacrylamide gels (lonza),
+transferred to pvdf membranes (millipore), and probed
+with primary antibodies at the indicated dilutions: rb,
+1:2,000; prbs780, 1:2,000; prbs795, 1:2,000; prbs807/811,
+1:2,000;  xxxg366xxx , 1:1,000;  xxxg368xxx , 1:1,000;  xxxg1488xxx ,
+1:1,000; foxm1, 1:1,000 (cell signaling);  xxxg411xxx , 1:2,000;
+ xxxg414xxx , 1:3,000; and b-actin, 1:3,000 (santa cruz). all
+blots were quantified with imagej (national institutes of
+health).
+rna interference
+cell lines were plated in triplicate in 96-well plates, and
+knockdown of  xxxg411xxx  and  xxxg414xxx  was performed 24 hours
+later via combined transfection with 25 nmol/l on-target smartpool sirna targeting  xxxg411xxx  and 25 nmol/l
+on-target smartpool sirna targeting  xxxg414xxx  (thermo
+scientific). cell lines were also transfected with sirnas
+directed against plk1 as well as nontargeting oligonucleotides (ntc), representing positive and negative controls,
+respectively. cell viability was assayed 72 hours posttransfection using cell titer glo (promega). gene knockdown
+was confirmed to be >85% at this time point by quantitative
+real-time pcr, and protein-level knockdown was confirmed
+by western blot.
+pharmacologic growth inhibition
+ xxxd3112xxx  was provided by novartis pharmaceuticals. a
+panel of neuroblastoma cell lines, selected based upon
+prior demonstration of substrate adherent growth, was
+plated in triplicate on the xcelligence real-time cell electronic sensing system (acea biosciences) and treated 24
+hours later with a four-log dose range of inhibitor or with a
+
+clinical cancer research
+
+downloaded from clincancerres.aacrjournals.org on october 15, 2019. © 2013 american association for cancer research.
+
+published onlinefirst september 17, 2013; doi: 10.1158/1078-0432.ccr-13-1675
+
+ xxxg411xxx /6 inhibition in neuroblastoma
+
+ xxxd1896xxx  (dmso) control. cell indexes were
+monitored continuously for 100 hours, and ic50 values
+were determined as follows: growth curves were generated
+by plotting the cell index as a function of time and were
+normalized to the cell index at the time of treatment for a
+baseline cell index of 1. the area under the normalized
+growth curve from the time of treatment to 96 hours
+posttreatment was then calculated using a baseline area of
+1 (the cell index at the time of treatment). areas were
+normalized to the dmso control, and the resulting data
+were analyzed using a nonlinear log inhibitor versus normalized response function (graphpad prism). all experiments were repeated at least once.
+cell-cycle analysis
+cell lines were plated in duplicate in 35 mm plates and
+treated 24 hours later with the indicated concentrations of
+ xxxd3112xxx  or with a dmso control. at 96 hours posttreatment,
+cells were gently harvested and fixed overnight in 70%
+ethanol. cells were then washed in pbs, stained with 1
+mg/ml fxviolet stain (invitrogen), and assayed for dna
+content on an attune acoustic focusing cytometer (invitrogen). analysis was carried out using venturione software
+(applied cytometry).
+senescence and apoptosis assays
+cellular senescence was assayed via measurement of
+senescence-associated b-galactosidase activity (sa-b-gal).
+cells were grown for 24 hours in 35 mm plates, treated
+with 500 nmol/l  xxxd3112xxx  for 6 days, and then fixed and
+stained overnight according to the manufacturer’s protocol
+(cell signaling #9860). cells were then imaged for sa-b-gal
+using an axio observer d.1 phase contrast microscope
+(zeiss). the percentage of sa-b-gal positive cells was determined by counting the number of positive cells present in 3
+separate microscope frames, and then normalizing to the
+control. to assess apoptotic activity, cells were plated in
+triplicate in 96-well plates, treated with  xxxd3112xxx , and
+assayed for  xxxg341xxx /7 activation 16 hours after treatment
+with caspase-glo 3/7 (promega). cells treated with sn-38
+were used as a positive control (20).
+xenograft therapeutic trials
+the be2c, nb-1643, or ebc1 cell line–derived xenografts
+were implanted subcutaneously into the right flank of cb17
+scid/ mice. animals bearing engrafted tumors of 200 to
+600 mm3 were then randomized to oral treatment with 200
+mg/kg  xxxd3112xxx  in 0.5%  xxxd2609xxx  (n ¼ 10) or vehicle
+(n ¼ 10) daily for a total of 21 days. tumor burden was
+determined periodically throughout treatment according to
+the formula (p/6)  d2, where d represents the mean tumor
+diameter obtained by caliper measurement. in accordance
+with the children’s hospital of philadelphia institutional
+animal care and use committee, animals were euthanized
+as soon as tumor volume exceeded 3 cm3. a linear mixed
+effects model was used to analyze differences in the rate of
+tumor growth between the  xxxd3112xxx  and vehicle-treated
+groups.
+
+www.aacrjournals.org
+
+immunohistochemistry of xenografted
+neuroblastomas
+prbs807/811 (cell signaling) or ki67 (abcam #16667)
+antibodies were used to stain slides of formalin-fixed,
+paraffin-embedded tumor that had been excised from mice
+following 7 days of treatment with vehicle or  xxxd3112xxx .
+staining for prbs807/811 was performed in accordance with
+the manufacturer’s protocol (cell signaling) using a 1:200
+dilution of primary antibody followed by a 1:500 dilution
+of anti-rabbit immunoglobulin g (igg) secondary antibody
+(abcam # 6721). slides pretreated with alkaline-phosphatase (new england biolabs) were used to confirm specificity
+of phosphorylation detection. for ki67 staining, slides were
+incubated in a pressure cooker (biocare medical) with
+antigen unmasking solution (vector labs h3300), blocked
+with 2% fbs and endogenous biotin (vector labs sp2001),
+and stained at a 1:400 dilution of primary antibody for 1
+hour and a 1:200 dilution of biotinylated anti-rabbit igg
+secondary antibody (vector labs) for 30 minutes. slides
+were then developed via incubation with abc (vector labs)
+for 30 minutes followed by dab (dako cytomation) for
+10 minutes. all slides were counterstained with harris
+hematoxylin (fisher scientific), dehydrated, mounted, and
+imaged at 20 magnification with an aperio os slide
+scanner (aperio technologies).
+
+results
+ xxxg411xxx /6 signaling is hyperactive in neuroblastoma
+copy number gain and overexpression of  xxxg411xxx ,  xxxg414xxx ,
+and  xxxg366xxx  have been reported in many neuroblastoma
+cell lines (refs. 10–15; supplementary table s1). to confirm
+that these genomic aberrations translate to constitutive
+ xxxg411xxx /6 signaling within the cyclin d/ xxxg411xxx / xxxg414xxx /rb
+pathway, we examined the activation status of rb in a
+comprehensive panel of highly characterized human neuroblastoma-derived cell lines. as shown in fig. 1a, robust
+phosphorylation of rb at serines 780 and 807/811—residues directly targeted by  xxxg411xxx  and  xxxg414xxx  (21–23)—was
+observed in all neuroblastoma cell lines, and protein-level
+expression of  xxxg411xxx ,  xxxg414xxx , and  xxxg366xxx  occurred in the
+majority of lines. comparatively, rb phosphorylation
+together with protein-level expression of  xxxg411xxx ,  xxxg414xxx , and
+ xxxg366xxx  was substantially lower in several other representative tumor types as well as in immortalized, nontransformed retinal pigmented epithelial (rpe1) cells (fig. 1b).
+thus, it seems that in neuroblastoma cell lines, aberrant
+overexpression of  xxxg411xxx ,  xxxg414xxx , and  xxxg366xxx  does indeed
+facilitate hyperactive  xxxg411xxx /6 signaling within the cyclin
+d/ xxxg411xxx / xxxg414xxx /rb network.
+we next analyzed several neuroblastoma patient samples
+to verify that the pathway activation observed in neuroblastoma cell lines is also a characteristic of patient tumors at
+diagnosis and is not simply an artifact of the in vitro setting.
+we found that  xxxg411xxx  mrna was highly expressed in highrisk patients in comparison to low-risk patients, and we
+observed copy number gain of  xxxg411xxx  (5.1%),  xxxg414xxx 
+(15.7%), and  xxxg366xxx  (19.5%) in a cohort of 375 high-risk
+
+clin cancer res; 19(22) november 15, 2013
+
+downloaded from clincancerres.aacrjournals.org on october 15, 2019. © 2013 american association for cancer research.
+
+6175
+
+published onlinefirst september 17, 2013; doi: 10.1158/1078-0432.ccr-13-1675
+
+rpe1
+
+nb16
+
+sknas
+
+ebc1
+
+sknfi
+
+nbls
+
+nbsd
+
+nb69
+
+nlf
+
+lan5
+
+kelly
+
+ngp
+
+sy5y
+
+1643
+
+be2c
+
+a
+
+imr5
+
+rader et al.
+
+prbs780
+prbs807/811
+rb
+ xxxg411xxx 
+ xxxg414xxx 
+ xxxg53xxx 
+
+figure 1. the cyclin d/ xxxg411xxx /
+ xxxg414xxx /rb pathway is hyperactive
+in neuroblastoma. a, western
+blot analysis of a panel of
+neuroblastoma cell lines reveals
+high protein expression of  xxxg411xxx ,
+ xxxg414xxx , and  xxxg366xxx  as well as
+extensive phosphorylation of rb
+that (b) is higher in neuroblastoma
+lines in comparison to
+nontransformed rpe1 cells and
+several pediatric and adult tumor
+types. daoy, medulloblastoma;
+h441, lung adenocarcinoma;
+t98g, glioblastoma multiforme;
+panc1, pancreatic carcinoma.
+diagnostic tumors from
+neuroblastoma patients also
+demonstrate constitutive pathway
+activation, as evidenced by
+(c) intense positive staining of a
+neuroblastoma tissue microarray
+for rb and (d) western blot
+analysis of high-risk and low-risk
+tumors.
+
+ xxxg366xxx 
+
+rpe1
+
+panc1
+
+t98g
+
+h441
+
+daoy
+
+sknas
+
+ebc1
+
+ngp
+
+be2c
+
+b
+
+imr5
+
+ xxxg53xxx 
+
+prbs780
+rb
+ xxxg411xxx 
+ xxxg414xxx 
+ xxxg366xxx 
+ xxxg53xxx 
+
+430
+
+415
+
+66
+
+1,129
+
+505
+
+1,000
+
+1,133
+
+lr
+
+hr
+
+1,040
+
+d
+
+weak (9 %)
+
+443
+
+negative (6 %)
+
+193
+
+c
+
+prbs780
+rb
+ xxxg411xxx 
+ xxxg414xxx 
+ xxxg366xxx 
+
+moderate (39 %)
+
+strong (46 %)
+
+ xxxg53xxx 
+
+patients (supplementary fig. s1 and table s2). rb was also
+expressed in the majority of patients, as a tissue microarray
+comprised of 106 diagnostic tumors revealed that 100
+(94%) stained positively for total endogenous rb, with
+90 (85%) showing moderate to strong staining (fig. 1c).
+a significant increase in rb staining intensity, however, was
+observed in high-risk,  xxxg1488xxx  amplified samples (p ¼ 0.03;
+supplementary fig. s2). western blot analysis of several
+diagnostic tumor samples confirmed the expression of
+ xxxg411xxx ,  xxxg414xxx , and  xxxg366xxx  protein, and also indicated the
+
+6176
+
+clin cancer res; 19(22) november 15, 2013
+
+presence of active, phosphorylated rb (fig. 1d). these data
+therefore demonstrate that  xxxg411xxx /6 signaling is indeed
+hyperactive in both neuroblastoma cell lines and tumors.
+a large subset of neuroblastoma cell lines is sensitive to
+ xxxg411xxx /6 inhibition
+due to our observation that  xxxg411xxx /6 signaling is highly
+active in neuroblastoma (15, 16), thus maintaining hyperphosphorylated rb and supporting cell-cycle progression
+through the g1–s checkpoint, we chose to interrogate the
+
+clinical cancer research
+
+downloaded from clincancerres.aacrjournals.org on october 15, 2019. © 2013 american association for cancer research.
+
+published onlinefirst september 17, 2013; doi: 10.1158/1078-0432.ccr-13-1675
+
+ xxxg411xxx /6 inhibition in neuroblastoma
+
+viable cells (% of ntc)
+
+a
+
+confirm that the growth inhibition observed in sensitive
+cell lines was indeed because of a targeted impairment of
+ xxxg411xxx /6 signaling, we analyzed the levels of phosphorylated rb following treatment with  xxxd3112xxx . depletion of
+prbs780 was observed as early as 6 hours posttreatment in
+the be2c and imr5 cell lines, both of which respond to
+ xxxd3112xxx  with growth inhibition at nanomolar ic50 values
+(data not shown). this effect was sustained at 96 hours,
+with depletion of prbs780 beginning at 250 nmol/l.
+decreased prbs780 was also seen in the ebc1- and
+sknas-resistant cell lines, however only at higher inhibitor
+concentrations (fig. 3b).
+
+120
+100
+80
+60
+40
+20
+0
+be2c
+
+lmr5
+
+ebc1
+
+sknas
+
+sicdk4/6
+
+ntc
+
+sicdk4/6
+
+ntc
+
+sicdk4/6
+
+ntc
+
+ntc
+
+b
+
+sicdk4/6
+
+ xxxg1488xxx  amplified
+
+prbs780
+rb
+ xxxg411xxx 
+ xxxg414xxx 
+ xxxg53xxx 
+be2c
+
+imr5
+
+sknas
+
+ebc1
+
+figure 2. dual sirna-mediated knockdown of  xxxg411xxx  and  xxxg414xxx  inhibits
+neuroblastoma growth. a, sirna-mediated knockdown of both  xxxg411xxx 
+and  xxxg414xxx  expression signiﬁcantly reduced neuroblastoma growth in a
+manner that correlated with  xxxg1488xxx  status (p ¼ 0.03). cell viabilities are
+expressed as the percentage of ntc. b, representative protein depletion
+s780
+.
+of  xxxg411xxx ,  xxxg414xxx , and prb
+
+effect of dual  xxxg411xxx /6 depletion on neuroblastoma cell
+lines. targeted depletion of  xxxg411xxx /6 by sirna resulted in
+differential decreases in cell viability, where some lines
+responded robustly to  xxxg411xxx /6 depletion whereas little to
+no effect was observed in other lines (fig. 2a). this phenotypic stratification of cell lines into  xxxg411xxx /6 "sensitive" or
+"resistant" was not due to knockdown efficiency, as we
+achieved significant knockdown of  xxxg411xxx  and  xxxg414xxx  mrna
+and protein in all cell lines (fig. 2b). sensitive cell lines,
+however, were more likely to harbor amplification of  xxxg1488xxx 
+(p ¼ 0.03; fig. 2a).
+we next investigated whether pharmacologic inhibition
+of  xxxg411xxx /6 phenocopied sirna-mediated protein depletion by treating a panel of 17 neuroblastoma cell lines with
+ xxxd3112xxx  across a four-log dose range (10–10,000 nmol/l).
+treatment with  xxxd3112xxx  significantly inhibited substrate
+adherent growth relative to the control in 12 of the 17
+neuroblastoma cell lines examined (mean ic50 ¼ 306  68
+nmol/l, considering sensitive lines only, where sensitivity
+was defined as an ic50 of less than 1 mmol/l; fig. 3a). this
+differential sensitivity to pharmacologic  xxxg411xxx /6 inhibition largely reflected that of  xxxg411xxx /6 depletion by sirna,
+in that  xxxg1488xxx  amplified cell lines were more sensitive to
+ xxxd3112xxx  than nonamplified lines (p ¼ 0.01; fig. 3a) and cell
+line  xxxg1488xxx  expression was inversely correlated with sensitivity (r ¼ 0.55, p ¼ 0.03; supplementary fig. s3). to
+
+www.aacrjournals.org
+
+ xxxg411xxx /6 inhibition induces cytostasis that is mediated
+by g1 arrest and senescence
+analysis of the real-time substrate adherent growth curves
+generated by  xxxd3112xxx  treatment of neuroblastoma cell lines
+showed that growth inhibition in sensitive cell lines was
+consistent with a cytostatic effect (data not shown). however, because responses to targeted inhibition of cyclindependent kinase pathways are not always strictly a result
+of cell-cycle arrest (24–26), we sought to fully characterize
+the mechanism of neuroblastoma growth inhibition in
+response to pharmacologic  xxxg411xxx /6 inhibition.  xxxd3112xxx 
+treatment of 2 neuroblastoma cell lines (be2c and imr5)
+with demonstrated sensitivity to  xxxg411xxx /6 inhibition
+resulted in a dose-dependent accumulation of cells in
+the g0/g1 phase of the cell cycle (fig. 4a). this g0/g1
+arrest became significant at inhibitor concentrations of
+100 nmol/l (p ¼ 0.007) and 250 nmol/l (p ¼ 0.01),
+respectively, and was also accompanied by dose-dependent
+decreases in the percentage of cells in s and g2–m. as
+expected, cell lines that were resistant to  xxxg411xxx /6 inhibition
+arrested in g1 only at significantly higher doses of  xxxd3112xxx 
+(ebc1, 5 mmol/l, p ¼ 0.01; sknas, no arrest achieved;
+fig. 4a and b).
+recently, a systematic screen for novel  xxxg411xxx /6 substrates
+identified the foxm1 transcription factor as a potential
+target of  xxxg411xxx /6 signaling, and implicated  xxxg411xxx /6-mediated activation of foxm1 in the prevention of cellular
+senescence (8, 25, 27–29). these results are corroborated
+by the fact that foxm1 inhibition, either by deletion or by
+ xxxg411xxx /6 inhibition, impairs the self-renewal capacity of
+cells (29). we therefore investigated whether or not inhibition of  xxxg411xxx /6 activity by  xxxd3112xxx  would induce senescence in neuroblastoma via downregulation of foxm1.
+there was a significant reduction in foxm1 mrna as early
+as 6 hours following administration of  xxxd3112xxx  to sensitive
+cell lines, and modest but reproducible decrease in foxm1
+protein levels (fig. 4c and d). this was associated with the
+induction of cellular senescence in sensitive lines, as indicated by a significant increase in the percentage of sa-b-gal
+positive cells (fig. 4e). by contrast, cell lines resistant to
+ xxxd3112xxx  showed no reduction of foxm1 mrna or protein
+following  xxxd3112xxx  treatment, and subsequently did not
+senesce. as we did not observe significant increases in
+ xxxg341xxx /7 activity or parp cleavage in sensitive lines
+treated with  xxxd3112xxx  (supplementary fig. s5), these results
+
+clin cancer res; 19(22) november 15, 2013
+
+downloaded from clincancerres.aacrjournals.org on october 15, 2019. © 2013 american association for cancer research.
+
+6177
+
+published onlinefirst september 17, 2013; doi: 10.1158/1078-0432.ccr-13-1675
+
+cell line
+
+ic50
+(nmol/l)
+
+134
+
+1643
+
+147
+148
+
+sy5y
+
+154
+
+ngp
+
+175
+
+kelly
+
+220
+
+chp134
+
+273
+
+nlf
+
+328
+
+lan5
+
+429
+
+nb69
+
+738
+
+skndz
+
+801
+
+nbsd
+
+1,900
+
+sknfi
+
+3,500
+
+>10,000
+
+nb16
+
+>10,000
+
+rpe1
+
+>10,000
+
+prbs780
+rb
+
+5
+
+6,400
+
+sknas
+
+1 µmol/l
+
+ebc1
+
+500
+
+250
+
+100
+
+10 nmol/l
+
+control
+
+10
+
+5
+
+1 µmol/l
+
+750
+
+500
+
+250
+
+100
+
+10 nmol/l
+
+control
+
+126
+
+sknsh
+
+ xxxg1488xxx  amplified
+
+b
+
+imr5
+be2c
+
+750
+
+(nmol/l)
+
+a
+
+10
+
+rader et al.
+
+figure 3. pharmacologic inhibition
+of  xxxg411xxx /6 suppresses
+neuroblastoma growth in vitro.
+a, the growth of 12 of 17
+neuroblastoma cell lines was
+signiﬁcantly impaired in response
+to  xxxg411xxx /6 inhibition with  xxxd3112xxx 
+(mean ic50 ¼ 306  68 nmol/l,
+sensitive lines only). data are
+plotted (and tabulated) as the best
+ﬁt ic50 per log(inhibitor) versus
+normalized response analysis
+(graphpad prism); upper and lower
+bars represent 95% conﬁdence
+levels. b, dose-dependent
+s780
+decreases in prb
+accompany
+growth suppression in sensitive
+lines and are indicative of on-target
+activity.
+
+ xxxg53xxx 
+
+be2c
+
+ebc1
+
+imr5
+
+sknas
+
+prbs780
+rb
+ xxxg53xxx 
+
+suggest that the growth inhibition of neuroblastoma cell
+lines following  xxxg411xxx /6 inhibition is primarily cytostatic
+and is mediated by a g1 cell-cycle arrest and cellular
+senescence.
+ xxxg411xxx /6 inhibition causes tumor growth delay in vivo
+given the observed differential sensitivity of neuroblastoma cell lines to  xxxg411xxx /6 inhibition, we assayed for in vivo
+efficacy using neuroblastoma cell line–derived xenografts
+representing the extremes of in vitro sensitivity. cb17 immunodeficient mice bearing be2c, nb-1643 ( xxxg1488xxx  amplified, sensitive in vitro), or ebc1 (nonamplified, resistant in
+vitro) xenografts were treated once daily for 21 days with
+ xxxd3112xxx  or with a vehicle control. this dosing strategy was
+well tolerated, as no weight loss or other signs of toxicity
+were observed in any of the xenograft models. as shown
+in fig. 5a and supplementary fig. s6, tumor growth was
+
+6178
+
+clin cancer res; 19(22) november 15, 2013
+
+significantly delayed throughout the 21 days of treatment in
+mice harboring the be2c or 1643 xenografts (both, p <
+0.0001), although growth resumed posttreatment (data not
+shown). by contrast, as anticipated by the in vitro data,
+tumor growth suppression was less robust in the ebc1
+xenograft model (p ¼ 0.51). assessment of the ki67 proliferation marker by immunohistochemistry confirmed that
+proliferation was impaired only in the be2c and 1643
+xenograft models, as tumors resected from separate cohorts
+of be2c or 1643 xenografted mice demonstrated comparatively weaker staining following 7 days of treatment with
+ xxxd3112xxx  than with the vehicle control, whereas no ki67
+staining differences were observed in the ebc1 xenografts
+(fig. 5b). phosphorylation of rb was also substantially
+diminished in the be2c and 1643 xenografts, whereas only
+a minimal decrease was detected in the ebc1 model (fig. 5b
+and c).
+
+clinical cancer research
+
+downloaded from clincancerres.aacrjournals.org on october 15, 2019. © 2013 american association for cancer research.
+
+published onlinefirst september 17, 2013; doi: 10.1158/1078-0432.ccr-13-1675
+
+ xxxg411xxx /6 inhibition in neuroblastoma
+
+a
+
+100
+
+be2c
+
+ebc1
+
+% cells
+
+80
+
+g0/g1
+
+60
+
+s
+40
+
+g2–m
+
+20
+0
+
+cells
+
+imr5
+
+b
+
+200
+
+260
+
+331
+
+300
+
+be2c
+control
+
+200
+
+500 nmol/l
+
+1 µmol/l
+
+sknas
+control
+
+500 nmol/l
+
+300
+
+1 µmol/l
+
+150
+
+200
+
+count
+
+200
+
+100
+100
+100
+100
+
+50
+
+50
+
+100
+
+150
+3
+(x 10 )
+
+50
+
+100
+
+150
+3
+(x 10 )
+
+50
+
+100
+
+150 170.00
+3
+(x 10 )
+
+50
+
+100
+
+150 170.00
+3
+
+(x 10 )
+
+fxviolet-a
+
+foxm1 expression
+
+*
+
+control
+500 nmol/l
+
+e
+control
+
+100
+
+be2c
+
+*
+*
+
+50
+
+0
+
+ xxxg53xxx 
+
+100
+80
+60
+
+0
+
+10
+
+5
+
+imr5
+
+100
+
+*
+
+80
+60
+40
+20
+0
+
+100
+
+% positive cells
+
+imr5
+
+ xxxg53xxx 
+
+*
+
+20
+
+ebc1
+foxm1
+
+**
+
+control
+500 nmol/l
+
+40
+
+sknas
+
+1 µmol/l
+
+750
+
+ebc1
+
+500
+
+250
+
+be2c
+
+be2c
+
+foxm1
+
+100
+
+10 nmol/l
+
+d
+
+control
+
+imr5
+
+500 nmol/l
+% positive cells
+
+*
+
+150
+
+% positive cells
+
+c
+
+80
+60
+40
+20
+
+ xxxg53xxx 
+
+sknas
+
+100
+
+% positive cells
+
+foxm1
+
+sknas
+
+ xxxg53xxx 
+
+ebc1
+
+0
+
+foxm1
+
+80
+60
+40
+20
+0
+
+figure 4. growth suppression via  xxxg411xxx /6 inhibition is mediated by cell-cycle arrest and senescence. neuroblastoma cell lines with demonstrated sensitivity or
+resistance to  xxxd3112xxx  were analyzed for cell-cycle arrest and sa-b-gal activity. a, a signiﬁcant g1 arrest accompanied by reductions in the fraction of
+cells in s-phase and g2–m was observed in sensitive lines only. b, representative cell-cycle histograms of a sensitive and resistant cell line. c, downregulation
+of foxm1 mrna  p ¼ 0.02 and (d) protein was observed in sensitive lines and was associated with (e) the induction of a senescent phenotype ( p ¼ 0.0001).
+
+www.aacrjournals.org
+
+clin cancer res; 19(22) november 15, 2013
+
+downloaded from clincancerres.aacrjournals.org on october 15, 2019. © 2013 american association for cancer research.
+
+6179
+
+published onlinefirst september 17, 2013; doi: 10.1158/1078-0432.ccr-13-1675
+
+rader et al.
+
+ xxxd3112xxx 
+
+4
+
+prbs780
+
+3
+
+rb
+
+2
+
+prbs807/811
+
+tumor volume (cm3)
+
+vehicle
+ xxxd3112xxx 
+
+ki67
+
+be2c
+5
+
+c
+ xxxd3112xxx 
+
+vehicle
+
+b
+
+vehicle
+
+a
+
+1
+0
+0
+
+7
+
+14
+
+ xxxg53xxx 
+
+21
+
+days
+
+ki67
+
+1643
+
+prbs780
+
+3
+rb
+
+2
+1
+0
+
+0
+
+7
+
+14
+
+21
+
+prbs807/811
+
+tumor volume (cm3)
+
+4
+
+ xxxd3112xxx 
+
+ xxxd3112xxx 
+vehicle
+
+vehicle
+
+ xxxg53xxx 
+
+days
+
+ki67
+
+prbs780
+
+3
+rb
+
+2
+
+prbs807/811
+
+tumor volume (cm3)
+
+4
+
+ xxxd3112xxx 
+
+ebc1
+5
+
+ xxxd3112xxx 
+vehicle
+
+vehicle
+
+1
+0
+0
+
+7
+
+14
+
+ xxxg53xxx 
+
+21
+
+days
+
+figure 5. inhibition of  xxxg411xxx /6 suppresses neuroblastoma growth in vivo. a, mice with subcutaneously implanted xenografts were treated daily with 200 mg/kg
+ xxxd3112xxx  or with a vehicle for 21 days. in 2 of 3 neuroblastoma xenograft models, treatment with  xxxd3112xxx  signiﬁcantly reduced tumor burden in comparison
+to vehicle, as determined by linear mixed effects analysis (be2c, p < 0.0001; 1643, p < 0.0001; ebc1, p ¼ 0.51). b, the reduction in tumor proliferation
+observed in sensitive lines was conﬁrmed by ki67 staining of resected xenografts, and inhibition of  xxxg411xxx /6 activity was conﬁrmed by (c)
+s780
+immunohistochemical staining and western blot for prb
+.
+
+discussion
+cure rates for children with high-risk neuroblastoma
+have not significantly improved over the last decade, and
+of those children who do achieve remission, half will
+ultimately suffer a relapse (1). such unfavorable outcomes
+
+6180
+
+clin cancer res; 19(22) november 15, 2013
+
+are due in part to the fact that the current treatment regimen
+does not sufficiently leverage the unique biological features
+of this heterogeneous disease. indeed, although  xxxg1488xxx 
+amplification is the most common genomic lesion in this
+disease, strategies to target this oncogene have not yet
+
+clinical cancer research
+
+downloaded from clincancerres.aacrjournals.org on october 15, 2019. © 2013 american association for cancer research.
+
+published onlinefirst september 17, 2013; doi: 10.1158/1078-0432.ccr-13-1675
+
+ xxxg411xxx /6 inhibition in neuroblastoma
+
+resulted in a clinical deliverable. in addition, although the
+discovery that 8% to 10% of neuroblastomas harbor somatic activating mutations in the alk oncogene provides
+another therapeutic opportunity (30, 31), most neuroblastoma patients will not have a somatic alk mutation that is
+actionable with a targeted inhibitor (32–35). steps must
+therefore be taken to identify additional molecular abnormalities that drive neuroblastoma disease progression and
+to subsequently exploit them with targeted therapy.
+the data presented here identify  xxxg411xxx /6 inhibition as a
+viable therapeutic strategy in neuroblastoma, with selectivity for patients whose tumors harbor  xxxg1488xxx  amplification.
+specifically, we show that rb phosphorylation via  xxxg411xxx /6
+signaling is nearly ubiquitous in neuroblastoma cell lines
+and tumors and is likely the result of high expression of
+ xxxg411xxx ,  xxxg414xxx , and  xxxg366xxx  (ref. 15; fig. 1), but there may be
+other as yet undiscovered mechanisms of  xxxg411xxx /6 hyperactivation. however, despite the fact that  xxxg411xxx /6 signaling
+is hyperactive in the majority of neuroblastoma cell lines,
+not all are sensitive to  xxxd3112xxx . therefore, although the
+finding that a  xxxg411xxx -amplified cell line (ngp) was highly
+sensitive to  xxxd3112xxx  may be clinically relevant, our data
+suggest that prb,  xxxg411xxx , or  xxxg414xxx  status alone cannot be
+used to accurately predict a response to  xxxg411xxx /6 inhibition.
+we instead show that sensitivity correlated significantly
+with  xxxg1488xxx  amplification status. indeed, cell lines displaying sensitivity to  xxxg411xxx /6 inhibition by either sirna-mediated depletion or  xxxd3112xxx  treatment were likely to be  xxxg1488xxx 
+amplified (figs. 2a and 3a) as well as harbor high  xxxg1488xxx 
+mrna and protein levels (supplementary fig. s3). although myc-induced replicative stress may be a contributing
+factor, the precise mechanism for this association is
+unknown. nevertheless, the finding has important clinical
+ramifications, as  xxxg411xxx /6 inhibition may provide an alternative therapy for the 40% of high-risk neuroblastoma cases
+harboring amplification at the  xxxg1488xxx  locus. future research, however, should focus on the discovery of additional
+biomarkers of sensitivity as a means to identify a sensitive
+patient population beyond  xxxg1488xxx  or  xxxg411xxx  amplification
+status.
+over the last decade, first-generation cdk inhibitors have
+been evaluated in clinical trials for the treatment of adult
+malignancies, and a number of second-generation cdk
+inhibitors are currently undergoing phase i and phase ii
+testing (7, 36). no clinical trial, however, has been adapted
+for childhood malignancies. as we show that  xxxg411xxx /6
+inhibition induces a cytostatic as opposed to a cytotoxic
+
+effect on neuroblastoma growth, combination strategies
+with conventional cytotoxic agents that rely on s-phase
+dna replication may be antagonistic (37), suggesting that
+ xxxg411xxx /6 inhibition may be best placed in the post-chemotherapy maintenance phase of treatment (immunotherapy
+and retinoids). novel–novel screens with other agents that
+do not rely on targeted dna replication should therefore be
+explored in order to develop a combinatorial strategy that
+will maximally inhibit the growth of residual, chemo-resistant cells. taken together, our data suggest that a subset of
+neuroblastomas are highly sensitive to  xxxg411xxx /6 inhibition,
+and support the clinical development of  xxxd3112xxx  in this
+disease.
+disclosure of potential conﬂicts of interest
+j.m. maris has commercial research grant in novartis. he is also a
+consultant/advisory board member of novartis. no potential conflicts of
+interest were disclosed by the other authors.
+
+authors' contributions
+conception and design: j. rader, m. russell, l.s. hart, e.l. carpenter, g.
+caponigro, r.w. schnepp, k.a. cole, j.m. maris
+development of methodology: j. rader, m. russell, m.s. nakazawa, e.l.
+carpenter, a.c. wood, j.m. maris
+acquisition of data (provided animals, acquired and managed patients,
+provided facilities, etc.): j. rader, m.s. nakazawa, l.t. belcastro, d.
+martinez, s. parasuraman, g. caponigro, b.r. pawel, j.m. maris
+analysis and interpretation of data (e.g., statistical analysis, biostatistics, computational analysis): j. rader, l.s. hart, y. li, e.l. carpenter, e.
+f. attiyeh, s.j. diskin, s. kim, s. parasuraman, a.c. wood, j.m. maris
+writing, review, and/or revision of the manuscript: j. rader, m. russell,
+l.s. hart, m.s. nakazawa,  xxxd1971xxx . attiyeh, s. parasuraman, g. caponigro, r.w.
+schnepp, a.c. wood, k.a. cole, j.m. maris
+administrative, technical, or material support (i.e., reporting or organizing data, constructing databases): j. rader, d. martinez, j.m. maris
+study supervision: l.s. hart, k.a. cole, j.m. maris
+
+acknowledgments
+the authors thank investigators in the neuroblastoma therapeutically
+applicable research to generate effective treatments (target) consortium
+(ocg.cancer.gov/programs/target/projects/neuroblastoma) and especially
+dr. s. asgarzadeh and dr. r. seeger for generation of the patient gene
+expression data.
+
+grant support
+this work was generously supported through research grants from the
+cookies for kids cancer, arms wide open, rally, and alex’s lemonade
+stand foundations. r.w. schnepp was supported by nih grant no.
+t32ca009615.
+the costs of publication of this article were defrayed in part by the
+payment of page charges. this article must therefore be hereby marked
+advertisement in accordance with 18 u.s.c. section 1734 solely to indicate
+this fact.
+received june 20, 2013; revised august 14, 2013; accepted august 29,
+2013; published onlinefirst september 17, 2013.
+
+references
+1.
+
+2.
+3.
+4.
+
+cole ka, maris jm. new strategies in refractory and recurrent neuroblastoma: translational opportunities to impact patient outcome. clin
+cancer res 2012;18:2423–8.
+maris jm. recent advances in neuroblastoma. n engl j med 2010;
+362:2202–11.
+maris jm, hogarty md, bagatell r, cohn sl. neuroblastoma. lancet
+2007;369:2106–20.
+carpenter el, mosse yp. targeting alk in neuroblastoma—preclinical and clinical advancements. nat rev clin oncol 2012;9:391–9.
+
+www.aacrjournals.org
+
+5.
+
+6.
+7.
+
+harbour jw, luo rx, dei santi a, postigo aa, dean dc. cdk phosphorylation triggers sequential intramolecular interactions that progressively block rb functions as cells move through g1. cell 1999;
+98:859–69.
+malumbres m, barbacid m. cell cycle, cdks and cancer: a changing
+paradigm. nat rev cancer 2009;9:153–66.
+musgrove ea, caldon ce, barraclough j, stone a, sutherland rl.
+cyclin d as a therapeutic target in cancer. nat rev cancer 2011;11:
+558–72.
+
+clin cancer res; 19(22) november 15, 2013
+
+downloaded from clincancerres.aacrjournals.org on october 15, 2019. © 2013 american association for cancer research.
+
+6181
+
+published onlinefirst september 17, 2013; doi: 10.1158/1078-0432.ccr-13-1675
+
+rader et al.
+
+8.
+
+9.
+
+10.
+
+11.
+
+12.
+
+13.
+
+14.
+
+15.
+
+16.
+
+17.
+
+18.
+
+19.
+
+20.
+
+6182
+
+anders l, ke n, hydbring p, choi yj, widlund hr, chick jm, et al. a
+systematic screen for  xxxg411xxx /6 substrates links foxm1 phosphorylation to senescence suppression in cancer cells. cancer cell 2011;20:
+620–34.
+easton j, wei t, lahti jm, kidd vj. disruption of the cyclin d/cyclindependent kinase/ xxxg421xxx /retinoblastoma protein regulatory pathway in
+human neuroblastoma. cancer res 1998;58:2624–32.
+krasnoselsky al, whiteford cc, wei js, bilke s, westermann f, chen
+qr, et al. altered expression of cell cycle genes distinguishes aggressive neuroblastoma. oncogene 2005;24:1533–41.
+molenaar jj, koster j, ebus me, van sluis p, westerhout em, de
+preter k, et al. copy number defects of g1-cell cycle genes in
+neuroblastoma are frequent and correlate with high expression of
+e2f target genes and a poor prognosis. genes chromosomes
+cancer 2012;51:10–9.
+molenaar jj, van sluis p, boon k, versteeg r, caron hn. rearrangements and increased expression of  xxxg366xxx  ( xxxg366xxx ) in neuroblastoma. genes chromosomes cancer 2003;36:242–9.
+mosse yp, diskin sj, wasserman n, rinaldi k, attiyeh ef, cole k, et al.
+neuroblastomas have distinct genomic dna proﬁles that predict
+clinical phenotype and regional gene expression. genes chromosomes cancer 2007;46:936–49.
+mosse yp, greshock j, margolin a, naylor t, cole k, khazi d, et al.
+high-resolution detection and mapping of genomic dna alterations in neuroblastoma. genes chromosomes cancer 2005;43:
+390–403.
+molenaar jj, ebus me, koster j, van sluis p, van noesel cj, versteeg
+r, et al.  xxxg366xxx  and  xxxg411xxx  activity contribute to the undifferentiated
+phenotype in neuroblastoma. cancer res 2008;68:2599–609.
+cole ka, huggins j, laquaglia m, hulderman ce, russell mr, bosse
+k, et al. rnai screen of the protein kinome identiﬁes checkpoint kinase
+1 ( xxxg442xxx ) as a therapeutic target in neuroblastoma. proc natl acad sci
+u s a 2011;108:3336–41.
+attiyeh ef, diskin sj, attiyeh ma, mosse yp, hou c, jackson em, et al.
+genomic copy number determination in cancer cells from single
+nucleotide polymorphism microarrays based on quantitative genotyping corrected for aneuploidy. genome res 2009;19:276–83.
+peddinti r, zeine r, luca d, seshadri r, chlenski a, cole k, et al.
+prominent microvascular proliferation in clinically aggressive neuroblastoma. clin cancer res 2007;13:3499–506.
+russell m, levin k, rader j, belcastro l, li y, martinez d, et al.
+combination therapy targeting the  xxxg442xxx  and wee1 kinases demonstrates therapeutic efﬁcacy in neuroblastoma. cancer res 2013;73:
+776–84.
+bagatell r, london wb, wagner lm, voss sd, stewart cf, maris jm,
+et al. phase ii study of irinotecan and temozolomide in children with
+relapsed or refractory neuroblastoma: a children's oncology group
+study. j clin oncol 2011;29:208–13.
+
+clin cancer res; 19(22) november 15, 2013
+
+21. knudsen es, wang jy. differential regulation of retinoblastoma protein function by speciﬁc cdk phosphorylation sites. j biol chem
+1996;271:8313–20.
+22. connell-crowley l, harper jw, goodrich dw.  xxxg366xxx / xxxg411xxx  regulates retinoblastoma protein-mediated cell cycle arrest by site-speciﬁc phosphorylation. mol biol cell 1997;8:287–301.
+23. kitagawa m, higashi h, jung hk, suzuki-takahashi i, ikeda m, tamai
+k, et al. the consensus motif for phosphorylation by  xxxg366xxx - xxxg411xxx  is
+different from that for phosphorylation by  xxxg365xxx /e- xxxg410xxx . embo j
+1996;15:7060–9.
+24. burkhart dl, sage j. cellular mechanisms of tumour suppression by
+the retinoblastoma gene. nat rev cancer 2008;8:671–82.
+25. chicas a, wang x, zhang c, mccurrach m, zhao z, mert o, et al.
+dissecting the unique role of the retinoblastoma tumor suppressor
+during cellular senescence. cancer cell 2010;17:376–87.
+26. harbour jw, dean dc. rb function in cell-cycle regulation and apoptosis. nat cell biol 2000;2:e65–7.
+27. ruas m, gregory f, jones r, poolman r, starborg m, rowe j, et al.
+ xxxg411xxx  and  xxxg414xxx  delay senescence by kinase-dependent and
+ xxxg421xxx -independent mechanisms. mol cell biol 2007;27:4273–82.
+28. wierstra i, alves j. transcription factor foxm1c is repressed by rb
+and activated by  xxxg366xxx / xxxg411xxx . biol chem 2006;387:949–62.
+29. wang z, park hj, carr jr, chen yj, zheng y, li j, et al. foxm1 in
+tumorigenicity of the neuroblastoma cells and renewal of the neural
+progenitors. cancer res 2011;71:4292–302.
+30. bresler sc, wood ac, haglund ea, courtright j, belcastro lt, plegaria
+js, et al. differential inhibitor sensitivity of  xxxg144xxx 
+variants found in neuroblastoma. sci transl med 2011;3:108ra14.
+31. mosse yp, laudenslager m, longo l, cole ka, wood a, attiyeh ef,
+et al. identiﬁcation of alk as a major familial neuroblastoma predisposition gene. nature 2008;455:930–5.
+32. cheung nk, zhang j, lu c, parker m, bahrami a, tickoo sk, et al.
+association of age at diagnosis and genetic mutations in patients with
+neuroblastoma. jama 2012;307:1062–71.
+33. molenaar jj, koster j, zwijnenburg da, van sluis p, valentijn lj, van
+der ploeg i, et al. sequencing of neuroblastoma identiﬁes chromothripsis and defects in neuritogenesis genes. nature 2012;483:589–93.
+34. pugh tj, morozova o, attiyeh ef, asgharzadeh s, wei js, auclair d,
+et al. the genetic landscape of high-risk neuroblastoma. nat genet
+2013;45:279–84.
+35. sausen m, leary rj, jones s, wu j, reynolds cp, liu x, et al.
+integrated genomic analyses identify  xxxg190xxx  and arid1b alterations
+in the childhood cancer neuroblastoma. nat genet 2013;45:12–7.
+36. canavese m, santo l, raje n. cyclin dependent kinases in cancer:
+potential for therapeutic intervention. cancer biol ther 2012;13:451–7.
+37. dean jl, mcclendon ak, knudsen es. modiﬁcation of the dna
+damage response by therapeutic  xxxg411xxx /6 inhibition. j biol chem
+2012;287:29075–87.
+
+clinical cancer research
+
+downloaded from clincancerres.aacrjournals.org on october 15, 2019. © 2013 american association for cancer research.
+
+published onlinefirst september 17, 2013; doi: 10.1158/1078-0432.ccr-13-1675
+
+dual  xxxg411xxx / xxxg414xxx  inhibition induces cell-cycle arrest and
+senescence in neuroblastoma
+julieann rader, mike r. russell, lori s. hart, et al.
+clin cancer res 2013;19:6173-6182. published onlinefirst september 17, 2013.
+
+updated version
+supplementary
+material
+
+cited articles
+citing articles
+
+e-mail alerts
+reprints and
+subscriptions
+permissions
+
+access the most recent version of this article at:
+doi:10.1158/1078-0432.ccr-13-1675
+access the most recent supplemental material at:
+http://clincancerres.aacrjournals.org/content/suppl/2013/09/17/1078-0432.ccr-13-1675.dc1
+
+this article cites 37 articles, 13 of which you can access for free at:
+http://clincancerres.aacrjournals.org/content/19/22/6173.full#ref-list-1
+this article has been cited by 21 highwire-hosted articles. access the articles at:
+http://clincancerres.aacrjournals.org/content/19/22/6173.full#related-urls
+
+sign up to receive free email-alerts related to this article or journal.
+to order reprints of this article or to subscribe to the journal, contact the aacr publications department at
+pubs@aacr.org.
+to request permission to re-use all or part of this article, use this link
+http://clincancerres.aacrjournals.org/content/19/22/6173.
+click on "request permissions" which will take you to the copyright clearance center's (ccc)
+rightslink site.
+
+downloaded from clincancerres.aacrjournals.org on october 15, 2019. © 2013 american association for cancer research.
+

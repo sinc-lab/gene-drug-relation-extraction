@@ -1,0 +1,882 @@
+466430
+urnal of biomolecular screeningahmad et al.
+2012
+
+jbxxxx10.1177/1087057112466430jo
+
+original research
+
+development and validation of a highthroughput intrinsic atpase activity assay
+for the discovery of  xxxg1364xxx  inhibitors
+
+journal of biomolecular screening
+18(4) 388­–399
+© 2012 society for laboratory
+automation and screening
+doi: 10.1177/1087057112466430
+jbx.sagepub.com
+
+syed ahmad1, mark a. hughes1, gary l. johnson2,3, and john e. scott1
+
+abstract
+the kinase  xxxg1364xxx  ( xxxg1364xxx ) has recently been implicated in tumor growth and metastasis. thus, selective inhibition of
+ xxxg1364xxx  may be a novel strategy for cancer therapy. to identify inhibitors of  xxxg1364xxx  kinase activity, we have developed a
+novel activity assay for  xxxg1364xxx  based on the discovery that recombinant purified  xxxg1364xxx  has intrinsic atpase activity.
+this  xxxg1364xxx  atpase assay was validated for enzyme identity and enzymatic purity by multiple methods including mass
+spectrometry analysis, testing different sources of  xxxg1364xxx  and comparing atpase assay ic50 data for multiple inhibitors to
+literature values and to ic50 data generated using  xxxg1364xxx  binding and transphosphorylation assays. taken together, these
+data indicated that genuine  xxxg1364xxx  activity was being measured in this assay and no other atpases contributed to the signal.
+a miniaturized version of the assay was validated for high-throughput screening, and compound libraries were screened.
+the screening hits generated comparable potencies in the  xxxg1364xxx  intrinsic atpase, binding, and transphosphorylation
+assays. we identified a novel  xxxg1364xxx  inhibitor and confirmed that  xxxd1761xxx  and  xxxd359xxx  are potent in vitro inhibitors of
+ xxxg1364xxx  activity with ic50 values of <100 nm. thus, this assay has utility for the discovery of small-molecule inhibitors of
+ xxxg1364xxx  activity.
+keywords
+ xxxg1364xxx ,  xxxg1364xxx , atpase,  xxxd1761xxx ,  xxxd359xxx 
+
+introduction
+mitogen-activated protein kinases (mapk) are critical
+cell-signaling components that transduce extracellular
+stimuli to the nucleus, ultimately leading to changes in gene
+expression.1,2 erk5 is a mapk that is activated by a number of growth factors, oxidative stress, and hyperosmolarity.3 disruption of the erk5 gene in mice resulted in
+embryonic lethality due to defects in cardiac development
+and angiogenesis.4 erk5 protects many cell types from
+stress-induced apoptosis.3,5,6 mek5 is the only map2k for
+the erk5 pathway.7 mek5 gene knockout in mice was
+lethal and resulted in abnormal cardiac development, similar in phenotype to the erk5 knockout mouse.7 the only
+defined map3ks for the erk5 pathway are  xxxg1364xxx 
+( xxxg1364xxx ) and mekk3 (map3k3).8,9 these kinases
+phosphorylate mek5 and activate its activity. disruption of
+the  xxxg1364xxx  gene in mice resulted in normal development
+and fertility.10,11 in contrast, the disruption of mekk3
+resulted in embryonic lethality due to cardiac development
+defects that mimicked the erk5 knockout phenotype.12
+thus, the different phenotypes of these transgenic animals
+demonstrate that these two map3ks integrate different
+
+stimuli.  xxxg1364xxx  activates both the erk5 and jnk pathways.10,13  xxxg1364xxx  has been observed to autophosphorylate
+in response to stimuli, and this autophosphorylation is
+required for activation of  xxxg1364xxx .14
+the role of the erk5 pathway in cancer has only relatively recently been explored. expression of erk5 in a
+panel of 84 human early-stage breast cancer tissue samples
+1
+
+department of pharmaceutical sciences, biomanufacturing research
+institute and technology enterprise (brite), north carolina central
+university, durham, nc, usa
+2
+department of pharmacology, university of north carolina school of
+medicine, chapel hill, nc, usa
+3
+lineberger comprehensive cancer center, university of north
+carolina school of medicine, chapel hill, nc, usa
+received aug 17, 2012, and in revised form oct 8, 2012. accepted for
+publication oct 9, 2012.
+supplementary material for this article is available on the journal of
+biomolecular screening web site at http://jbx.sagepub.com/supplemental.
+corresponding author:
+john e. scott, phd, north carolina central university, 1801 fayetteville
+st., brite bldg., rm. 1019, durham, nc 27707, usa.
+email: jscott@nccu.edu
+
+downloaded from jbx.sagepub.com by guest on march 31, 2015
+
+389
+
+ahmad et al.
+was examined, and overexpression of erk5 was found in
+20% of the samples.15 overexpression of erk5 correlated
+with a decrease in disease-free survival time. in a similar
+study done with prostate cancer, erk5 expression was significantly increased in high-grade prostate cancer compared
+with benign prostatic hyperplasia.16,17 analysis of erk5
+expression in samples taken before and after hormone
+relapse showed a correlation with erk5 activation and
+hormone-insensitive disease.17 erk5 overexpression in
+ xxxg1682xxx  cells resulted in more efficient tumor formation in
+mice. in another study, a dominant negative form of erk5
+restricted the proliferation of myeloma cells and sensitized
+the cells to apoptosis-inducing drugs.18 in a recent study,
+mir-143 was shown to be a tumor suppressor in prostate
+cancer using a mouse model.19 one of the mechanisms of
+mir-143 appears to be suppression of erk5 protein expression. activation of the erk5 pathway, but not the  xxxg1369xxx 
+pathway, was correlated with lymph node metastasis in oral
+squamous cell carcinoma.20 a potent and selective erk5
+inhibitor has been reported that inhibited tumor growth in
+an in vivo mouse cancer model.21 mek5 has also been
+implicated in tumor development. mek5 expression was
+determined in 127 cases of prostate cancer and 20 cases of
+benign prostatic hypertrophy.22 the data indicated that elevated expression of mek5 correlated with bone metastasis
+and poor prognosis. in one study linking  xxxg1364xxx  to cancer,
+11 prostate cancer tissue samples were compared with uninvolved prostate tissue using imaging mass spectrometry
+(ms).16 one peptide was found to discriminate cancer from
+uninvolved tissue. this peptide was a fragment of  xxxg1364xxx .
+in confirmation of the ms data,  xxxg1364xxx  was expressed at
+4.4-fold higher level in prostate cancer tissue versus benign
+tissue using western blotting. even higher levels of  xxxg1364xxx 
+expression were observed in lncap, du145, and  xxxg1682xxx  prostate cell lines.
+we have recently examined the role of  xxxg1364xxx  in tumor
+growth and metastasis using an in vivo mouse xenograft
+model for breast cancer.23 we found that shrna-mediated
+knockdown of  xxxg1364xxx  inhibited activation of erk5 in
+response to  xxxg681xxx  (egf) in the breast
+cancer cell line mda-mb-231. knockdown of  xxxg1364xxx 
+expression strongly inhibited both tumor growth and metastasis. increased apoptosis was observed with the loss of
+ xxxg1364xxx  expression in xenografts versus size-matched control tumors, even though growth of  xxxg1364xxx  knockdown
+cells in culture was unaffected.  xxxg1364xxx  shrna knockdown in the bt474 cell line also resulted in inhibited tumor
+growth in xenografts. thus,  xxxg1364xxx  is critical for egfrand her2/neu  xxxg2198xxx –dependent erk5 activation,
+tumor growth of both mda-mb-231 and bt474 cells, and
+metastasis of mda-mb-231 cells. because  xxxg1364xxx  is
+required for egfr activation of erk5, we assessed
+whether knockdown of erk5 in mda-mb-231 cells would
+show similar tumor growth and metastasis phenotypes as
+
+with  xxxg1364xxx  knockdown. erk5 knockdown resulted in a
+decrease in metastasis without a significant effect on tumor
+growth. thus,  xxxg1364xxx  regulation of erk5 is only one arm
+of  xxxg1364xxx  signaling controlling tumor growth and metastasis. these results further support  xxxg1364xxx  as a novel target for small-molecule inhibitor development.
+kinase intrinsic atpase activity is the hydrolysis of atp to
+adp and phosphate in the absence of a phosphate-accepting
+substrate. intrinsic atpase activity has been observed for a
+number of kinases using in vitro biochemical assays and purified kinase. this atpase activity has been described for several mapks, including  xxxg1368xxx , p38gamma,  xxxg1366xxx ,  xxxg1367xxx , and
+ xxxg1361xxx .24,25 a format comparison study compared screening
+results using an antibody-based disassociation-enhanced lanthanide fluoroimmunoassay, an atp-consumption intrinsic
+atpase assay, and a fluorescence polarization binding assay
+for itk.26 the authors concluded that the intrinsic atpase
+assay identified the most comprehensive set of inhibitors from
+screening. in another study using  xxxg1745xxx , ic50 data for a panel
+of inhibitors generated using an intrinsic atpase assay were
+similar to data generated by a lipid phosphorylation assay.27
+we have discovered that  xxxg1364xxx  has intrinsic atpase
+activity and have developed a high-throughput  xxxg1364xxx 
+activity assay based on this property. multiple methods
+were employed to demonstrate that genuine  xxxg1364xxx  activity was being measured and no other atpase activities contributed to the assay signal. in addition, a miniaturized
+version of the assay was validated for high-throughput
+screening (hts), and compound libraries were screened.
+using this assay, a novel  xxxg1364xxx  inhibitor was identified,
+and  xxxd1761xxx  and  xxxd359xxx  were confirmed to inhibit
+ xxxg1364xxx  activity with ic50 values of <100 nm.
+
+materials and methods
+materials
+all common reagents such as hepes, triton x-100,
+mgcl2, ethylene glycol tetraacetic acid (egta), sodium
+orthovanadate, beta-glycerophosphate, dithiothreitol (dtt),
+and dmso were reagent grade quality and obtained from
+thermo fisher scientific (waltham, ma) or sigma-aldrich
+(st. louis, mo). the adp-glo kinase assay kit (cat no.
+v9102), containing adp-glo, detection reagent, and ultrapure atp, was obtained from promega (madison, wi).
+solid white 96-well half-area plates (cat no. 3693) for the
+manual activity assay and 384-well low-volume white
+plates (cat no. 3673) for the high-throughput activity assay
+and binding assay were from corning incorporated
+(corning, ny). falcon polypropylene plates (cat no. 1190)
+used for serial dilutions of compounds for manual activity
+and binding assays were obtained from becton dickinson
+(franklin lake, nj). kinase inhibitors were obtained from
+fisher chemical (waltham, ma), lc laboratories
+
+downloaded from jbx.sagepub.com by guest on march 31, 2015
+
+390		
+
+journal of biomolecular screening 18(4)
+
+(woburn, ma), selleck chemicals (houston, tx), ak
+scientific (union city, ca), biovision (milpitas, ca),
+toronto research chemicals (toronto canada), and
+symansis (shanghai, china). the validation set of compounds for test screening was obtained from prestwick
+chemical (washington, dc). the kinase-focused library of
+compounds was obtained from the center for integrative
+chemical biology and drug discovery at the university of
+north carolina at chapel hill (chapel hill, nc).
+recombinant purified  xxxg1364xxx  enzyme was obtained from
+signalchem (richmond, bc, canada; vendor 1), invitrogen
+(grand island, ny; vendor 2), and carna bioscience (kobe,
+japan; vendor 3). we used the  xxxg1364xxx  enzyme from
+signalchem (vendor 1) to generate the data shown in this
+report unless otherwise indicated. lanthascreen eu-antiglutathione s-transferase (gst) antibody (cat no. pv5594)
+and kinase tracer 236 (cat no. pv5592) used in the binding
+assays were obtained from invitrogen. protease digestion
+and matrix-assisted laser desorption/ionization-time of
+flight/time of flight (maldi-tof/tof) analysis of the
+ xxxg1364xxx  solution was performed by the proteomics core
+facility, unc-chapel hill.
+
+ xxxg1364xxx  intrinsic atpase activity assay
+all compound stock solutions were made in 100% dmso.
+serial dilutions of compounds for ic50 determinations were
+initially performed in 100% dmso in 96-well polypropylene plates, followed by appropriate dilutions in assay buffer
+(50 mm hepes, ph 7.4, 10 mm mgcl2, 0.5 mm egta,
+0.5 mm sodium orthovanadate, 0.5 mm beta-glycerophosphate,
+2.5 mm dtt, and 0.01% triton x-100), producing a constant 2.5% dmso in all wells. subsequently, 10 µl of the
+diluted compound (or just 2.5% dmso in assay buffer for
+controls) was added to the wells of a 96-well plate followed
+by 10 µl of  xxxg1364xxx  enzyme diluted in assay buffer. after
+a 10-min incubation, the reactions were initiated by addition of 5 µl of atp (150 µm ultrapure atp from promega
+kit) diluted in assay buffer, and the assay plates were centrifuged at 1000 rpm for 1 min in a beckman coulter
+allegra x-12r centrifuge. final concentrations in the
+assembled standard assay were as follows: 1x assay buffer,
+1% dmso, 30 µm atp, and 10 nm  xxxg1364xxx  enzyme. the
+enzyme reactions were allowed to proceed protected from
+light for 75 min at 23 °c and terminated by the addition of
+25 µl of solution 1 (adp-glo reagent, promega). at this
+point, assay plates were centrifuged again as described
+above and incubated at 23 °c for an hour. a 50 µl volume
+of solution 2 (detection reagent) of the promega kit was
+added to each well, and the plates were incubated for 1 h at
+23 °c, protected from light. the plates were read using an
+endpoint luminescence protocol (measurement interval
+time: 1.0 s, optic module: lum plus, gain: 3600, focal
+height: 13.7 mm, positional delay: 0.1 s) in a bmg
+
+pherastar (bmg labtech, cary, nc) plate reader.
+luminescence data, expressed in relative luminescence
+units (rlu), were normalized to dmso (100% activity)
+and “no enzyme” (0% activity) controls as maximum and
+minimum responses, respectively.
+for all  xxxg1364xxx  assay formats, compound concentrationresponse curves were generated using data points that represent the average of three determinations per concentration,
+except for the transphosphorylation assay, in which duplicate determinations were performed. all ic50 values provided in this report are averages of at least three independent
+determinations. the ic50 values and hill slopes were calculated from concentration-response data using graphpad
+prism software (graphpad software inc., la jolla, ca)
+employing either a four-parameter or a three-parameter
+(fixed bottom) curve fit.
+
+high-throughput  xxxg1364xxx  activity assay
+the activity assay described above was readily adapted to
+an automated 384-well assay version in which handling of
+compound dilutions, delivery of reagents, and mixing was
+performed on a biomek nx (beckman coulter inc.,
+fullerton, ca) and a nanoscreen nsx 1536 (charleston,
+sc). the automated assay was carried out exactly as the
+manual assay including incubation times and centrifugation
+with the following modifications. 2.5 µl of enzyme solution was added to 384-well white solid low-volume assay
+plates. compounds of 50 nl in 100% dmso (or 100%
+dmso as controls) were added to each well using a v&p
+scientific pin tool (san diego, ca). after 10 min, 2.5 µl of
+ultrapure atp was added to each well, bringing the final
+assay volume to 5 µl. the reaction was terminated by addition of 5 µl of solution 1 (adp-glo), and following 60
+minutes of incubation, 10 µl of solution 2 (detection
+reagent) was added. the plates were sealed with mylar
+plate seals (thermo, milford, ma) during incubations. the
+kinase inhibitor library was screened at 5 µm concentration, and compounds with ≥50% inhibition were considered
+hits. z′-factor calculations were performed as published.28
+
+ xxxg1364xxx  tr-fret binding assay
+compound dilution methods and assay buffer was the same
+for the  xxxg1364xxx  time-resolved fluorescence resonance
+energy transfer (tr-fret) binding assay as in the atpase
+assay. the assay was performed according to the antibody
+and tracer manufacturer’s recommendations (invitrogen).
+briefly, 5 µl of diluted compounds (or 3% dmso for controls) were added to wells of a solid white low-volume
+384-well plate followed by 5 µl of a mixture of  xxxg1364xxx 
+enzyme and lanthascreen eu-anti-gst antibody diluted in
+assay buffer. immediately after addition of the enzymeantibody mixture, the reaction mixtures were completed by
+
+downloaded from jbx.sagepub.com by guest on march 31, 2015
+
+391
+
+ahmad et al.
+the addition of 5 µl of kinase tracer 236 diluted in assay
+buffer. the assay plates were then centrifuged at 1000 rpm
+for 1 min as before and incubated for 60 min at 23 °c. final
+concentrations in the assembled assay were as follows: 1%
+dmso, 2 nm lanthascreen eu-anti-gst antibody, 25 nm
+kinase tracer, and 5 nm  xxxg1364xxx  enzyme. time-resolved
+fluorescence was measured using a bmg pherastar with
+the following parameters: number of flashes per well: 300,
+optic module: htrf, excitation: 337 nm, emission a: 665
+nm, emission b: 620 nm, integration start (µs): 100, integration time (µs): 200, focal length: 10.3 mm, ratio multiplier: 1000, positional delay: 0.1. the tr-fret signal was
+calculated by determining the ratio of relative fluorescence
+units obtained at 665 nm and 620 nm (665 nm/620 nm) and
+subsequently normalizing the value to dmso (100% activity) and 30 µm  xxxd1815xxx  (0% activity) controls as maximum and minimum responses, respectively.
+
+ xxxg1364xxx  transphosphorylation activity assay
+the  xxxg1364xxx  transphosphorylation activity assay and ic50
+determinations were performed as described for the atpase
+assay, except the reactions were initiated by a mixture of
+atp and kinase-inactive mutant mkk6 (map2k6, carna
+biosciences). final concentrations in the enzyme reactions
+were 2 nm  xxxg1364xxx , 200 nm mkk6, and 3 µm atp. the
+reaction time was 25 min, and the reactions were stopped
+by the addition of 225 µl of stop buffer (25 mm hepes,
+ph 7.4, 10 mm edta). these reactions were then transferred to polyvinylidene difluoride membranes using a slot
+blot apparatus (hoefer pr 648) following the manufacturer’s recommendations. the membrane was allowed to dry
+and then probed with an anti-phosphomkk6 antibody
+(phospho- xxxg1363xxx  [ser189]/mkk6 [ser207] [22a8] rabbit
+monoclonal antibody; cell signaling, danvers, ma) using
+a standard western blotting protocol.29
+
+results
+characterization of  xxxg1364xxx  intrinsic atpase
+activity
+we sought to develop a high-throughput activity assay for
+ xxxg1364xxx  to identify small-molecule inhibitors of this kinase.
+using a sensitive chemiluminescent adp detection assay
+(adp-glo kit, promega), we observed atpase activity using
+purified recombinant  xxxg1364xxx  enzyme in the absence of any
+protein substrate. this atpase activity increased in a linear
+fashion directly proportional to the concentration of  xxxg1364xxx 
+in the reaction up to 10 nm (fig. 1a). atpase activity was
+readily detected even at 1 nm  xxxg1364xxx . reaction time course
+studies with 10 nm  xxxg1364xxx  demonstrated a linear assay
+signal increase from 0 to 90 min (fig. 1b). thus, we chose
+final reaction conditions of 10 nm  xxxg1364xxx  and a reaction
+
+time of 75 min. the km for atp was determined by performing reactions with variable concentrations of atp with and
+without  xxxg1364xxx  (fig. 1c). reactions without  xxxg1364xxx  were
+taken as background and subtracted from the signal obtained
+with enzyme to obtain specific rlu. the average km value
+was 34 µm, and thus, we chose to use 30 µm atp for the
+final assay. we also used pure adp to determine a standard
+curve (data not shown). under final standard assay conditions, we calculated that approximately 3 µm adp was
+generated, translating into a 10% substrate conversion (atp
+to adp). the activity observed in this assay is unlikely to be
+ xxxg1364xxx  autophosphorylation activity based on the ratio of
+the amount of product formed to the  xxxg1364xxx  enzyme concentration. because there is only 10 nm  xxxg1364xxx  and 3000
+nm adp generated during the course of the reaction, each
+molecule of  xxxg1364xxx  would have to be autophosphorylated
+300 times, roughly twice the sum of all the serine, threonine,
+and tyrosine residues in the gst- xxxg1364xxx  construct. because
+this assay would be used to test compounds dissolved in
+dmso, the dmso tolerance of the assay was assessed
+(fig. 1d). up to 8% dmso was tolerated in the assay without significant effect. the final dmso concentration in the
+reaction under final assay conditions was set at 1% dmso.
+
+validation of the identity and enzymatic
+purity of  xxxg1364xxx  in the intrinsic atpase
+activity assay
+we purchased purified recombinant human  xxxg1364xxx  and
+confirmed its identity by mass spectrometry analysis. the
+entire  xxxg1364xxx  enzyme (vendor 1) solution was subjected
+to enzymatic digestion followed by maldi tof/tof ms
+analysis of the resulting peptides. peptides matching human
+ xxxg1364xxx  were observed, but no other peptides were
+detected (data not shown).
+nonselective assay formats, such as measuring adp
+generation for kinase assays, require an extra amount of
+enzymatic purity validation to prove that the target activity,
+and only that activity, is being measured. we used several
+experimental approaches to validate that the observed
+atpase activity was due to  xxxg1364xxx  and only  xxxg1364xxx . in
+one approach, we obtained purified recombinant human
+ xxxg1364xxx  from three different vendors because if contamination was the source of activity, then it is less likely (though
+possible) that the all three sources would have the same
+contaminating atpase at the same concentration or activity
+level. we demonstrated that all three sources of  xxxg1364xxx 
+had time-dependent atpase activity with similar specific
+activities, because they were all tested  xxxd1891xxx  nm  xxxg1364xxx 
+(fig. 2a). furthermore, we used sunitinib as a control
+inhibitor to determine its potency using all three sources of
+ xxxg1364xxx  (fig. 2b). the concentration-response data produced average ic50 values and standard deviations (sds) of
+
+downloaded from jbx.sagepub.com by guest on march 31, 2015
+
+392		
+
+journal of biomolecular screening 18(4)
+
+figure 1.  xxxg1364xxx  intrinsic atpase activity assay characterization. (a) assay signal in response to  xxxg1364xxx  enzyme concentration was
+assessed. (b) assay signal linearity with respect to reaction times, as indicated, was determined. (c) the km for atp was determined using
+different concentrations of atp as indicated, with and without  xxxg1364xxx . signal obtained without  xxxg1364xxx  was taken as assay background for
+each atp concentration tested.this value was subtracted from the respective assay signal with  xxxg1364xxx  to obtain specific rlu values. (d)
+the assay signal at the indicated concentrations of dmso was determined. data points represent the average of three determinations
+per variable, and error bars represent standard deviation. data are representative of three independent experiments.
+
+337 ± 157, 184 ± 80, and 315 ± 199 nm for  xxxg1364xxx  from
+vendors 1, 2, and 3, respectively. the sunitinib potencies
+were all within twofold of each other, and therefore, these
+data suggested that the same enzyme activity was being
+measured in all three sources of  xxxg1364xxx . when inhibiting
+a single enzyme in any biochemical assay, a hill slope of
+1.0 is indicative of the measurement of a single enzyme,
+versus multiple enzymes that could be present and detected
+in the assay. broad (<1) slopes may indicate that more than
+one enzyme is being measured in the assay. thus, we also
+analyzed the hill slope data from these ic50 curves. the
+average hill slope values and sds from these inhibitor
+curves were 1.06 ± 0.16, 1.01 ± 0.02, and 1.01 ± 0.05 for
+vendors 1, 2, and 3, respectively. the slopes for the different  xxxg1364xxx  sources were very close to 1.0, indicating that
+a single atpase enzyme was being measured and inhibited
+in all three sources of  xxxg1364xxx . sunitinib also demonstrated
+complete inhibition of activity at high compound concentrations (fig. 2b), which is also expected for measurement
+
+of a single enzyme activity. it should also be noted that vendor 3  xxxg1364xxx  is different from the other two in that the
+vendor 3 protein construct consists of only the catalytic
+domain of  xxxg1364xxx . these data from different sources of
+ xxxg1364xxx  indicate that  xxxg1364xxx  has intrinsic atpase activity
+in vitro. vendor 1  xxxg1364xxx  was used for all experimental
+data and screening shown and cited in this report, except as
+indicated in figure 2.
+we further validated that the assay was measuring genuine  xxxg1364xxx  activity and not a contaminant atpase or
+kinase by using a panel of four kinase inhibitors for inhibitor-based enzymatic purity studies. inhibitor concentrationresponse curves were generated for sunitinib,  xxxd1815xxx ,
+vx-680, and  xxxd3241xxx  using the intrinsic atpase
+activity assay (fig. 2c). sunitinib,  xxxd1815xxx , and vx-680
+generated ic50 values (nm) and sds of 337 ± 157, 753 ±
+268, and 3603 ± 826, respectively (table 1). these values
+are comparable (within threefold and the same rank order)
+to data provided by invitrogen using their  xxxg1364xxx 
+
+downloaded from jbx.sagepub.com by guest on march 31, 2015
+
+393
+
+ahmad et al.
+
+figure 2. intrinsic atpase activity observed from different sources of purified  xxxg1364xxx  and used to determine ic50 values for a panel
+of kinase inhibitors. (a) intrinsic atpase assay reaction time courses were performed using three different sources of purified  xxxg1364xxx 
+obtained from three different vendors: vendor 1(), vendor 2 (), and vendor 3 (). (b) concentration-response data for sunitinib were
+normalized to controls with and without enzyme and plotted as percentage activity. these ic50 value determinations resulted in average
+ic50 values of 337, 184, and 315 nm using  xxxg1364xxx  from vendor 1, 2, and 3, respectively, and average hill slopes of 1.0 to 1.1 as indicated.
+(c) concentration-response data for a panel of kinase inhibitors were normalized to controls with and without  xxxg1364xxx  and plotted as
+percentage activity. potency determinations for sunitinib (),  xxxd1815xxx  (•), vx-680 (), and  xxxd3241xxx  () resulted in average ic50
+values (nm) and sds of 337 ± 157, 753 ± 268, 3603 ± 826, and 1.0 ± 0.6, respectively. the average hill slope values derived from the ic50
+curves for these compounds ranged from 0.93 to 1.10. data points represent the average of three determinations per concentration, and
+error bars represent standard deviation. data are representative of three independent experiments.
+
+tr-fret binding assay (lanthascreen; table 1).  xxxd3241xxx  is a very potent inhibitor of  xxxg1364xxx  and behaved as
+a tight binding inhibitor in the atpase assay. therefore, the
+ xxxg1364xxx  concentration in the reaction was reduced to 1 nm
+to obtain valid ic50 and hill slope data for  xxxd3241xxx .
+titration of  xxxd3241xxx  resulted in an average ic50 and
+sd of 1.0 ± 0.6 nm (table 1). this ic50 value also favorably compared with the reported invitrogen tr-fret binding assay ic50 of 4.2 nm for  xxxd3241xxx . using a different
+bead-based competition binding assay for  xxxg1364xxx , kd values for these same compounds were published as part of a
+large kinase profiling panel.30 this published binding data
+gave the same rank order as we obtained, and our ic50 values differed from these published kd values by 2.4-fold to
+6-fold (table 1). using our atpase assay, the average hill
+
+slopes for this panel of inhibitors ranged from 0.93 to 1.1
+(see table 1), which was indicative of a single enzyme species being measured. furthermore, at high concentrations,
+all compounds were able to completely inhibit the enzyme
+activity (fig. 2c). the compounds in this set were tested
+for assay interference by adding compound after completion of the  xxxg1364xxx  enzyme reaction. none of these compounds demonstrated inhibition of the assay format (data
+not shown). thus, this panel of structurally diverse and varied potency inhibitors confirmed enzymatic purity of the
+atpase activity assay (i.e., a single enzyme species was
+generating signal). in addition, the comparable ic50 data
+between our  xxxg1364xxx  atpase activity assay and reported
+ xxxg1364xxx  binding assays indicated that genuine  xxxg1364xxx 
+activity was being measured.
+
+downloaded from jbx.sagepub.com by guest on march 31, 2015
+
+394		
+
+journal of biomolecular screening 18(4)
+
+table 1.  xxxg1364xxx  intrinsic atpase assay control inhibitor potency data compared with literature values.
+ xxxg1364xxx  intrinsic atpase assaya
+compound
+sunitinib
+ xxxd1815xxx 
+ xxxd3241xxx 
+vx-680
+
+published  xxxg1364xxx  binding
+assayb
+
+published  xxxg1364xxx  binding
+assayc
+
+ic50 ± sd (nm)
+
+hill slope ± sd
+
+ic50 (nm)
+
+kd (nm)
+
+337 ± 157
+753 ± 268
+1.0 ± 0.6d
+3603 ± 826
+
+1.06 ± 0.16
+1.10 ± 0.20
+0.93 ± 0.13
+0.97 ± 0.13
+
+120
+960
+4.2
+2300
+
+  57
+140
+2.4
+1100
+
+a. ic50 value determinations were performed at least three times, with average ic50 values and hill slopes provided with standard deviations (sd).
+b. time-resolved fluorescence resonance energy transfer binding assay: invitrogen lanthascreen eu kinase binding assay for  xxxg1364xxx  validation packet
+(http://tools.invitrogen.com/content/sfs/manuals/map3k2_lanthascreen_binding.pdf).
+c. bead-based competition binding assay.30
+d  xxxd3241xxx  ic50 determinations were performed using 1 nm (instead of 10 nm)  xxxg1364xxx  enzyme in the activity assay.
+
+figure 3. validation of the high-throughput  xxxg1364xxx  activity
+assay. the intrinsic atpase activity assay was performed using a
+low-volume 384-well plate format with a total enzyme reaction
+volume of 5 µl. ic50 variability experiments were performed with
+the semiautomated high-throughput screening activity assay using
+two control inhibitors. ic50 determinations for sunitinib () and
+ xxxd1815xxx  () resulted in average ic50 values (nm) ±sd of 963 ±
+178 and 1656 ± 319, respectively. data are representative of three
+independent experiments.
+
+validation of a miniaturized semiautomated
+high-throughput  xxxg1364xxx  activity assay
+we converted this  xxxg1364xxx  activity assay into a less expensive semiautomated high-throughput assay by reducing
+volume size from 25 to 5 µl and using pin tools to deliver
+compound. we assessed assay variability by setting up
+whole 384-well plates of maximum and minimum signal
+wells by including or excluding enzyme, respectively, and
+using dmso instead of compound (suppl. fig.  xxxd3227xxx ). “no
+enzyme” signal mimics the signal at high concentration of
+inhibitor in this assay (see fig. 2c). the z′ factors calculated from these duplicate hts validation experiments
+were 0.68 and 0.77. we tested the validity of the hts version of the assay to reproducibly and accurately determine
+compound potency values by performing ic50 determina-
+
+tions with the control inhibitors sunitinib and  xxxd1815xxx 
+(fig. 3). this hts version of the  xxxg1364xxx  atpase assay
+generated ic50 values and sds of 963 ± 178 nm and 1656
+± 319 nm for sunitinib and  xxxd1815xxx , respectively. these
+ic50 values are within threefold of the values determined in
+the manual assay (see table 1) and acceptable reproducibility with %cvs of <20%. as a final validation step, the
+small prestwick collection of predominately food and
+drug administration (fda)–approved drugs was screened
+using the semiautomated hts version of the  xxxg1364xxx 
+atpase assay (suppl. fig. s1b). the z′ factors for this
+screen ranged from 0.61 to 0.78, with an average of 0.71.
+no actives (≥50% inhibition) were obtained.
+
+screening for  xxxg1364xxx  inhibitors using the
+intrinsic atpase activity assay
+a kinase-focused library consisting of 4727 compounds
+was screened to identify novel  xxxg1364xxx  inhibitors (suppl.
+fig. s1c). the z′ factors for this screen ranged from 0.53
+to 0.86, with an average of 0.72. only two actives (≥50%
+inhibition) were obtained. to identify other control inhibitors of  xxxg1364xxx  kinase activity, we screened a small collection of 13 kinase inhibitors, 11 of which are fda-approved
+drugs and two in clinical trials. sunitinib was employed as
+an internal control. these compounds were screened at 1
+µm concentration in the  xxxg1364xxx  intrinsic atpase assay,
+and three hits (≥50% inhibition) were obtained (fig. 4a).
+the hits were  xxxd2855xxx ,  xxxd1761xxx , and  xxxd359xxx .
+
+ic50 determinations of hit compounds
+using three different  xxxg1364xxx  assay
+formats: intrinsic atpase, binding, and
+transphosphorylation assays
+the active compounds from screening were initially confirmed by ic50 determination using the intrinsic atpase
+
+downloaded from jbx.sagepub.com by guest on march 31, 2015
+
+395
+
+ahmad et al.
+
+figure 4.  xxxg1364xxx  inhibitory activity of a panel of known kinase inhibitors and ic50 determination for screening hits. (a) a panel
+of marketed and clinical trial kinase inhibitors was screened at 1 µm compound concentration using the  xxxg1364xxx  activity assay. the
+compounds were screened in duplicate wells in three independent experiments, and the normalized data from all experiments were
+aggregated by averaging percentage inhibition values obtained from all experiments and plotting them as shown. error bars represent
+standard deviations of the three experiments. (b) concentration-response data for the hit compound from the large kinase-focused
+library screen and a structural analog were normalized to controls with and without  xxxg1364xxx  and plotted as percentage specific activity.
+one hit (compound 1, ) confirmed activity, with an average ic50 of 299 ± 71 nm and a close structural analog (compound 2, ) resulting
+in an ic50 of >30 µm. ic50 data are representative of at least three independent experiments. (c) the compounds resulting in ≥50%
+inhibition from the known kinase inhibitor panel were tested in concentration-response experiments, except for sunitinib, which was
+used as a control. ic50 determinations for  xxxd359xxx  (),  xxxd1761xxx  (), and  xxxd2855xxx  () resulted in ic50 values (nm) and sd of 59 ±
+34, 75 ± 35, and 698 ± 163, respectively. ic50 data are representative of three independent experiments.
+
+downloaded from jbx.sagepub.com by guest on march 31, 2015
+
+396		
+
+activity assay. with regard to the large kinase-focused
+library screen, only one of the two actives repeated activity
+in ic50 confirmation using the intrinsic atpase assay; this
+hit compound was referred to as compound 1. compound 1
+generated an ic50 of 299 ± 71 nm in this assay (fig. 4b;
+table 2). a close analog of this compound (compound 2)
+was also tested and found to be inactive (>30 µm ic50) and
+thus served as a specificity control (fig. 4b; table 2).
+from the screening of 13 known kinase inhibitors,  xxxd2855xxx ,  xxxd1761xxx , and  xxxd359xxx  confirmed activity with
+ic50 values (±sd) in the atpase assay of 698 ± 163, 75 ±
+35, and 59 ± 34 nm, respectively (fig. 4c; table 2).
+we employed a tr-fret  xxxg1364xxx  binding assay as an
+orthogonal secondary assay to further validate the intrinsic
+atpase activity assay and to confirm atpase assay screening hits. this binding assay measures the binding of compound to the atp pocket of  xxxg1364xxx . the  xxxg1364xxx  binding
+assay was optimized as indicated by the reagent manufacturer’s instructions (invitrogen lanthascreen eu kinase
+binding assay) using the same source of  xxxg1364xxx  enzyme
+and assay buffer. concentration-response data for sunitinib
+were generated using the  xxxg1364xxx  binding assay (table 2).
+the average ic50 value and sd in the binding assay was 143
+± 6 nm with an average hill slope of 0.89 ± 0.04. therefore,
+the ic50 values for sunitinib in the atpase and binding
+assay differed by only 2.4-fold, and our binding data were
+very close to the manufacturer’s published ic50 value (120
+nm; table 1). compound 1 was tested in the  xxxg1364xxx  binding assay, resulting in an average ic50 value of 355 ± 134
+nm, in close agreement with the 299 nm ic50 obtained in
+the atpase assay (table 2). the inactive control compound
+2 was also inactive (>30 µm ic50) in the binding assay.
+thus, compound 1 represents a novel inhibitor of  xxxg1364xxx .
+ xxxd2855xxx ,  xxxd1761xxx , and  xxxd359xxx  were also tested in the
+ xxxg1364xxx  binding assay, resulting in ic50 values (±sd) of
+1145 ± 211, 24 ± 7, and 64 ± 17 nm, respectively (table 2).
+
+journal of biomolecular screening 18(4)
+
+the hill slopes for these compounds in both binding and
+atpase assays were close to expected for single-site binding,
+ranging from 0.93 to 1.3 (see table 2). none of the compounds in figure 4, table 1, or table 2 demonstrated any
+significant assay interference in either the atpase or binding
+assay format (data not shown). thus, the  xxxg1364xxx  binding
+assay data confirmed the  xxxg1364xxx  inhibitory activity of these
+compounds discovered with the  xxxg1364xxx  intrinsic atpase
+assay. furthermore, this panel of five diverse inhibitors
+(table 2) demonstrated ≤threefold difference in ic50 values
+when comparing the atpase and binding assay data.
+to further validate the screening hits and the atpase
+assay, we developed a transphosphorylation assay in which
+kinase-inactive mutant mkk6 was used as a substrate in
+ xxxg1364xxx  enzyme reactions. stopped reaction mixtures were
+transferred to membranes using a slot blot protocol, and
+phosphorylation of mkk6 was m2i32t21 (tpase am>)92 7 229.5ry act
+
+ahmad et al.
+
+discussion
+we sought to develop a high-throughput activity assay for
+ xxxg1364xxx . unlike many kinases,  xxxg1364xxx  and many other
+members of the mapk family do not effectively use small
+synthetic peptides as substrates. thus, large protein substrates are typically used to measure  xxxg1364xxx  activity.
+however, for hts, this would require large amounts of
+protein substrate. in developing a biochemical activity
+assay for  xxxg1364xxx , we discovered that purified  xxxg1364xxx 
+had intrinsic atpase activity. this atpase activity was
+discovered using a universal chemiluminescent adp detection kit. although convenient, this type of detection assay
+requires careful validation to ensure that the observed activity derives from the target kinase (enzyme identity) and no
+other kinases or atpases (enzymatic purity). trace amounts
+of contaminating atpases or other kinases in the  xxxg1364xxx 
+preparation could also cause the observed atpase activity.
+multiple independent methods and data were used to verify
+that the observed atpase activity derived from  xxxg1364xxx . first,
+the identity of the commercially obtained enzyme solution was
+confirmed to be human  xxxg1364xxx  by ms, and no other proteins
+were identified in the solution. second, we compared three different sources of recombinant baculovirus-expressed and purified  xxxg1364xxx . all three demonstrated atpase activity in the
+absence of added substrate, and even the specific activity was
+similar among the  xxxg1364xxx  sources. unlike the other two vendors’ constructs, which were full-length proteins, one of the
+vendor’s  xxxg1364xxx  consisted of only the kinase domain of
+ xxxg1364xxx  yet still maintained atpase activity. furthermore, the
+ic50 value determination for the control kinase inhibitor sunitinib using all three sources of  xxxg1364xxx  resulted in ic50 values
+within twofold of each other, suggestive of measuring the
+same activity. third, inhibitor-based studies were performed
+using a panel of four inhibitors that had been tested in the
+ xxxg1364xxx  binding assay reported by invitrogen. ic50 values
+measured using the atpase assay were comparable (within
+two- to fourfold) to invitrogen’s  xxxg1364xxx  binding assay data.
+in addition, our data were also consistent with published potencies using a bead-based competition binding assay used for
+kinome profiling.30
+
+397
+
+398		
+
+journal of biomolecular screening 18(4)
+
+kinase intrinsic atpase activity has been previously
+observed.25
+we have developed and optimized a high-throughput activity assay for  xxxg1364xxx  based on the discovery that  xxxg1364xxx  has
+intrinsic atpase activity. this activity assay for  xxxg1364xxx  was
+validated for enzyme identity and enzymatic purity by multiple
+methods to demonstrate that genuine  xxxg1364xxx  activity was
+being measured and no other contaminating activities contribute to the signal. furthermore, a miniaturized version of the
+assay was validated for hts and compound libraries screened.
+ xxxg1364xxx  inhibitors were identified that may be useful as
+research tools or lead to potent and selective  xxxg1364xxx 
+inhibitors.
+acknowledgments
+
+8.
+
+9.
+
+10.
+
+we acknowledge the nccu/brite hts core facility, the center
+for integrative chemical biology and drug discovery at uncchapel hill, and the unc proteomics core facility for support of
+this research.
+
+declaration of conflicting interests
+
+11.
+
+the authors declared no potential conflicts of interest with respect
+to the research, authorship, and/or publication of this article.
+
+funding
+the authors disclosed receipt of the following financial support
+for the research, authorship, and/or publication of this article: this
+work was supported by national institutes of health (nih) grant
+u54ca156735 (j.e.s. and g.l.j.) and in part by a grant from the
+golden leaf foundation (j.e.s.) and funds from the state of
+north carolina (j.e.s.).
+
+references
+
+12.
+
+13.
+
+14.
+
+1. whitmarsh, a. j. regulation of gene transcription by mitogen-activated protein kinase signaling pathways. biochim.
+biophys. acta 2007, 1773, 1285–1298.
+2. kim, e. k.; choi, e. j. pathological roles of mapk signaling pathways in human diseases. biochim. biophys. acta
+2010, 1802, 396–405.
+3. drew, b. a.; burow, m. e.; beckman, b. s. mek5/erk5
+pathway: the first fifteen years. biochim. biophys. acta
+2012, 1825, 37–48.
+4. yan, l.; carr, j.; ashby, p. r.; murry-tait, v.; thompson, c.;
+arthur, j. s. knockout of erk5 causes multiple defects in
+placental and embryonic development. bmc dev. biol. 2003,
+3, 11.
+5. wang, x.; tournier, c. regulation of cellular functions
+by the erk5 signalling pathway. cell signal. 2006, 18,
+753–760.
+6. pi, x.; yan, c.; berk, b. c. big mitogen-activated protein
+kinase (bmk1)/erk5 protects endothelial cells from apoptosis. circ. res. 2004, 94, 362–369.
+7. wang, x.; merritt, a. j.; seyfried, j.; guo, c.; papadakis, e.
+s.; finegan, k. g.; kayahara, m.; dixon, j.; boot-handford,
+
+15.
+
+16.
+
+17.
+
+18.
+
+r. p.; cartwright, e. j.; mayer, u.; tournier, c. targeted deletion of mek5 causes early embryonic death and defects
+in the extracellular signal-regulated kinase 5/myocyte
+enhancer factor 2 cell survival pathway. mol. cell. biol.
+2005, 25, 336–345.
+sun, w.; kesavan, k.; schaefer, b. c.; garrington, t. p.; ware,
+m.; johnson, n. l.; gelfand, e. w.; johnson, g. l.  xxxg1364xxx 
+associates with the adapter protein lad/ribp and regulates
+the mek5-bmk1/erk5 pathway. j. biol. chem. 2001, 276,
+5093–5100.
+chao, t. h.; hayashi, m.; tapping, r. i.; kato, y.; lee, j. d.
+mekk3 directly regulates mek5 activity as part of the big
+ xxxg1366xxx  (bmk1) signaling pathway. j. biol. chem. 1999, 274, 36035–36038.
+garrington, t. p.; ishizuka, t.; papst, p. j.; chayama, k.; webb,
+s.; yujiri, t.; sun, w.; sather, s.; russell, d. m.; gibson, s.
+b.; keller, g.; gelfand, e. w.; johnson, g. l.  xxxg1364xxx  gene
+disruption causes loss of cytokine production in response
+to ige and c-kit ligand stimulation of es cell-derived mast
+cells. embo j. 2000, 19, 5387–5395.
+guo, z.; clydesdale, g.; cheng, j.; kim, k.; gan, l.;
+mcconkey, d. j.; ullrich, s. e.; zhuang, y.; su, b. disruption
+of  xxxg1364xxx  in mice reveals an unexpected role for  xxxg1364xxx 
+in modulating t-cell receptor signal transduction. mol. cell
+biol. 2002, 22, 5761–5768.
+yang, j.; boerm, m.; mccarty, m.; bucana, c.; fidler, i. j.;
+zhuang, y.; su, b. mekk3 is essential for early embryonic
+cardiovascular development. nat. genet. 2000, 24, 309–313.
+kesavan, k.; lobel-rice, k.; sun, w.; lapadat, r.; webb, s.;
+johnson, g. l.; garrington, t. p.  xxxg1364xxx  regulates the coordinate activation of erk5 and jnk in response to  xxxg787xxx  in
+fibroblasts. j. cell physiol. 2004, 199, 140–148.
+cheng, j.; yu, l.; zhang, d.; huang, q.; spencer, d.; su, b.
+dimerization through the catalytic domain is essential for
+ xxxg1364xxx  activation. j. biol. chem. 2005, 280, 13477–13482.
+montero, j. c.; ocana, a.; abad, m.; ortiz-ruiz, m. j.; pandiella, a.; esparis-ogando, a. expression of erk5 in early
+stage breast cancer and association with disease free survival identifies this kinase as a potential therapeutic target.
+plos one 2009, 4, e5565
+cazares, l. h.; troyer, d.; mendrinos, s.; lance, r. a.; nyalwidhe, j. o.; beydoun, h. a.; clements, m. a.; drake, r.
+r.; semmes, o. j. imaging mass spectrometry of a specific
+fragment of mitogen-activated protein kinase/extracellular
+signal-regulated kinase kinase kinase 2 discriminates cancer from uninvolved prostate tissue. clin. cancer res. 2009,
+15, 5541–5451.
+mccracken, s. r.; ramsay, a.; heer, r.; mathers, m. e.; jenkins, b. l.; edwards, j.; robson, c. n.; marquez, r.; cohen,
+p.; leung, h. y. aberrant expression of extracellular signalregulated kinase 5 in human prostate cancer. oncogene
+2008, 27, 2978–2988.
+carvajal-vergara, x.; tabera, s.; montero, j. c.; esparisogando, a.; lopez-perez, r.; mateo, g.; gutierrez, n.;
+
+downloaded from jbx.sagepub.com by guest on march 31, 2015
+
+399
+
+ahmad et al.
+
+19.
+
+20.
+
+21.
+
+22.
+
+23.
+
+24.
+
+parmo-cabanas, m.; teixido, j.; san miguel, j. f.; pandiella,
+a. multifunctional role of erk5 in multiple myeloma. blood
+2005, 105, 4492–4499.
+clape, c.; fritz, v.; henriquet, c.; apparailly, f.; fernandez,
+p. l.; iborra, f.; avances, c.; villalba, m.; culine, s.; fajas, l.
+mir-143 interferes with erk5 signaling, and abrogates prostate cancer progression in mice. plos one 2009, 4, e7542.
+sticht, c.; freier, k.; knopfle, k.; flechtenmacher, c.; pungs,
+s.; hofele, c.; hahn, m.; joos, s.; lichter, p. activation of
+map kinase signaling through erk5 but not  xxxg1369xxx  expression is associated with lymph node metastases in oral squamous cell carcinoma (oscc). neoplasia 2008, 10, 462–470.
+yang, q.; deng, x.; lu, b.; cameron, m.; fearns, c.; patricelli, m. p.; yates, j. r., iii; gray, n. s.; lee, j. d. pharmacological inhibition of bmk1 suppresses tumor growth
+through  xxxg1785xxx  protein. cancer cell 2010,
+18, 258–267.
+mehta, p. b.; jenkins, b. l.; mccarthy, l.; thilak, l.;
+robson, c. n.; neal, d. e.; leung, h. y. mek5 overexpression is associated with metastatic prostate cancer, and
+stimulates proliferation,  xxxg1440xxx  expression and invasion.
+oncogene 2003, 22, 1381–1389.
+cronan, m. r.; nakamura, k.; johnson, n. l.; granger, d. a.;
+cuevas, b. d.; wang, j. g.; mackman, n.; scott, j. e.; dohlman, h. g.; johnson, g. l. defining map3 kinases required
+for mda-mb-231 cell tumor growth and metastasis. oncogene 2012, 31, 3889–3900.
+fox, t.; fitzgibbon, m. j.; fleming, m. a.; hsiao, h. m.;
+brummel, c. l.; su, m. s. kinetic mechanism and atp-binding
+
+25.
+
+26.
+
+27.
+
+28.
+
+29.
+
+30.
+
+site reactivity of p38gamma map kinase. febs lett. 1999,
+461, 323–328.
+rominger, c. m.; schaber, m. d.; yang, j.; gontarek, r. r.;
+weaver, k. l.; broderick, t.; carter, l.; copeland, r. a.;
+may, e.w. an intrinsic atpase activity of phospho-mek-1
+uncoupled from downstream erk phosphorylation. arch.
+biochem. biophys. 2007, 464, 130–137.
+kashem, m. a.; nelson, r. m.; yingling, j. d.; pullen, s. s.;
+prokopowicz, a. s., iii; jones, j. w.; wolak, j. p.; rogers,
+g. r.; morelock, m. m.; snow, r. j.; homon, c. a.; jakes,
+s. three mechanistically distinct kinase assays compared:
+measurement of intrinsic atpase activity identified the most
+comprehensive set of itk inhibitors. j. biomol. screen.
+2007, 12, 70–83.
+klink, t. a.; kleman-leyer, k. m.; kopp, a.; westermeyer,
+t. a.; lowery, r. g. evaluating  xxxg1743xxx  kinase isoforms using
+transcreener adp assays. j. biomol. screen. 2008, 13, 476–
+485.
+zhang, j. h.; chung, t. d.; oldenburg, k. r. a simple statistical parameter for use in evaluation and validation of high
+throughput screening assays. j. biomol. screen. 1999, 4,
+67–73.
+ahmad, s.; carter, j. j.; scott, j. e. a homogeneous cellbased assay for measurement of endogenous paraoxonase 1
+activity. anal. biochem. 2010, 400, 1–9.
+davis, m. i.; hunt, j. p.; herrgard, s.; ciceri, p.; wodicka, l.
+m.; pallares, g.; hocker, m.; treiber, d. k.; zarrinkar, p. p.
+comprehensive analysis of kinase inhibitor selectivity. nat.
+biotechnol. 2011, 29, 1046–1051.
+
+downloaded from jbx.sagepub.com by guest on march 31, 2015
+

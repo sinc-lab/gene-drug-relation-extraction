@@ -1,0 +1,577 @@
+inorg. chem. 2006, 45, 5585−5590
+
+dft analysis of co−alkyl and co−adenosyl vibrational modes in
+b12-cofactors
+pawel m. kozlowski,*,† tadeusz andruniow,†,‡ andrzej a. jarzecki,§ marek z. zgierski,| and
+thomas g. spiro⊥
+department of chemistry, university of louisville, louisville, kentucky 40292, institute of
+physical and theoretical chemistry, department of chemistry, wroclaw university of technology,
+50-370 wroclaw, poland, department of chemistry, brooklyn college and the graduate school of
+the city university of new york, brooklyn, new york 11230, steacie institute for molecular
+science, national research council of canada, ottawa, ontario, canada k1a or6,
+department of chemistry, princeton university, princeton, new jersey 08544
+received december 2, 2005
+
+density functional theory (dft)-based normal mode calculations have been carried out on models for b12-cofactors
+to assign reported isotope-edited resonance raman spectra, which isolate vibrations of the organo−co group.
+interpretation is straightforward for alkyl−co derivatives, which display prominent co−c stretching vibrational bands.
+dft correctly reproduces co−c distances and frequencies for the methyl and ethyl derivatives. however, spectra
+are complex for adenosyl derivatives, due to mixing of co−c stretching with a ribose deformation coordinate and
+to activation of modes involving co−c−c bending and co−adenosyl torsion. despite this complexity, the computed
+spectra provide a satisfactory re-assignment of the experimental data. reported trends in adenosyl−cobalamin
+spectra upon binding to the methylmalonyl coa mutase enzyme, as well as on subsequent binding of substrates
+and inhibitors, provide support for an activation mechanism involving substrate-induced deformation of the adenosyl
+ligand.
+
+introduction
+nature exploits organometallic chemistry in the case of
+ xxxd1771xxx  by making and breaking cobalt-carbon bonds.1-4
+there are two b12 cofactors (figure 1) in b12-dependent
+enzymes, which support distinctive chemical pathways.5
+enzymes utilizing methylcobalamin (mecbl) catalyze methyl
+transfer reactions6,7 in which the co-c bond is cleaved
+* to whom correspondence should be addressed. phone: (502) 8526609. fax: (502) 852-8149. e-mail: pawel@louisville.edu.
+† university of louisville.
+‡ wroclaw university of technology.
+§ brooklyn college and the graduate school of the city university of
+new york.
+| national research council of canada.
+⊥ princeton university.
+(1) b12; dolphin, d., ed.; wiley-interscience: new york, 1982.
+(2) marzilli, l. g. in bioinorganic catalysis; reedijk, j., ed.; marcel
+dekker: new york, 1993; pp 227-259.
+(3)  xxxd1771xxx  and b12 proteins; kräutler, b., arigoni, d., golding, b.
+t., eds.; wiley-vch: new york, 1998.
+(4) banerjee, r. chemistry and biochemistry of b12; john wiley and
+sons: new york, 1999.
+(5) banerjee, r. chem. biol. 1997, 4, 175-186.
+(6) ludwig, m. l.; matthews, r. g. annu. rev. biochem. 1997, 66, 269313.
+(7) mathews, r. g. acc. chem. res. 2001, 34, 681-689.
+
+10.1021/ic052069j ccc: $33.50
+published on web 06/17/2006
+
+© 2006 american chemical society
+
+figure 1. molecular structure of b12 cofactors (left panel) where r )
+me for mecbl and r ) ado for adocbl (r1 ) ch2conh2, r2 ) ch2ch2conh2, r3 ) (ch2)2conhch2ch(ch3)opo3) right panel: structural
+model of b12 cofactors employed in the present work, b-[coiiicorrin]r+ (b ) dbi or im, r ) me, et, iso-prop, or ado).
+
+heterolytically,8 while enzymes employing adenosylcobalamin (adocbl) catalyze organic rearrangement reactions in
+which the first step is homolytic cleavage of the co-c
+bond.9-11 there is great interest in the mechanisms whereby
+inorganic chemistry, vol. 45, no. 14, 2006
+
+5585
+
+kozlowski et al.
+the co-c bond is activated toward heterolytic or homolytic
+cleavage in the b12-dependent enzymes.
+these processes can in principle be probed via vibrational
+spectroscopy.12 co-alkyl stretching vibrations have been
+detected by infrared and raman spectroscopy,13-16 and give
+an indirect indication of the co-c bond strength.17,18
+resonance raman (rr) spectroscopy can provide access to
+b12-containing proteins,19-21 since laser tuning can be used
+to selectively excite cobalamin vibrations. facile photolysis
+of co-alkyl bonds is a significant hurdle, which can,
+however, be overcome cryogenically, since geminate recombination is efficient in frozen samples. co-adenosyl vibrations have been detected in various functional states of the
+enzyme methylmalonylcoenzyme a mutase (mcm),19,20
+using 13/12c and ch/d isotope editing, and also in glutamate
+mutase (glm).21 the co-methyl stretching vibration has
+been detected in a corrinoid/iron-sulfur protein.22
+to interpret these spectroscopic signatures, one needs
+reliable assignments of the vibrational modes. the situation
+is straightforward in mecbl, which gives a single strong
+co-c stretching band at 506 cm-1,12,14,18 but is not straightforward in adocbl, for which a number of features are seen
+in isotope difference rr spectra.17-20 an assignment scheme
+was suggested,18,20 based on physical arguments, and was
+used to infer a mechanism for activation by mcm20 from
+changes in the spectral pattern when substrates and inhibitors
+were bound to the enzyme.
+a primary motivation of the present work was to assess
+these assignments and interpretations using density functional
+theory (dft) computation. dft has been successful in
+modeling the geometries and spectroscopic properties including optical absorption, xes, or xps and vibrational spectra
+of metal-containing compounds of considerable complexity,
+including metalloporphyrins23,24 and cobalamins.25-29 a
+(8) the heterolytic cleavage of the co-c bond to form the methyl
+carbocation in cobalamin-dependent methyltransferases should not be
+taken literally: these heterolytic reactions are most likely nucleophilic
+displacement of sn2-type, and the presence of free carbocations is
+not involved. alternative mechanisms have been postulated for methyl
+transfer including oxidative addition and single electron transfer but
+are less probable (see ref 7 for details).
+(9) banerjee, r. biochem. 2001, 40, 6191-6198.
+(10) toraya, t. chem. rev. 2003, 103, 2095-2127.
+(11) banerjee, r. chem. rev. 2003, 103, 2083-2094.
+(12) hirota, s.; marzilli, l. g. vibrational spectroscopy of b12 and related
+compounds. in chemistry and biochemistry of b12; banerjee, r., ed.;
+john wiley and sons, new york, 1999; chapter 8.
+(13) ervin, a. m.; shupack, s. i.; byler. spectrosc. lett. 1984, 17, 603613.
+(14) nie, s.; marzilli, p. a.; marzilli, l. g.; yu, n.-t. j. chem. soc., chem.
+commun. 1990, 770-771.
+(15) salama, s.; spiro, t. g. j. raman spectrosc. 1977, 6, 57-60.
+(16) stich, t. r.; brooks, a. j.; buan, n. r.; brunold, t. c. j. am. chem.
+soc. 2003, 125, 5897-5914.
+(17) dong, s.; padmakumar, r.; banerjee, r.; spiro, t. g. j. am. chem.
+soc. 1996, 118, 9182-9183.
+(18) dong, s.; padmakumar, r.; banerjee, r.; spiro, t. g. inorg. chim.
+acta. 1998, 270, 392-398.
+(19) dong, s.; padmakumar, r.; maiti, n.; banerjee, r.; spiro, t. g. j.
+am. chem. soc. 1998, 120, 9947-9948.
+(20) dong, s.; padmakumar, r.; banerjee, r.; spiro, t. g. j. am. chem.
+soc. 1999, 121, 7063-7070.
+(21) huhta, m. s.; chen, h.-p.; hemann, c.; hille, c. r.; marsh, e. n. g.
+biochem. j. 2001, 355, 131-137.
+(22) stich, t. a., seravalli, j., venkateshrao, s., spiro, t. g., ragsdale,
+s. w., brunold, t. c. j. am. chem. soc. 2006, 128, 5010-5020.
+
+5586 inorganic chemistry, vol. 45, no. 14, 2006
+
+previous vibrational study of a six-coordinate im-[coiiicorrin]-me+ model30,31 permitted analysis of the most
+important interligand modes for mecbl. the dft-based
+force field accurately reproduced isotope shifts for interligand
+vibrations and provided a semiquantitative description of the
+corrin modes. rovira et al.32 have recently reported a
+computation of the full mecbl structure, which produced
+an accurate co-c stretching frequency (509 cm-1). we now
+extend dft to adocbl and find that the results require reassignment of the experimental spectra,17-20 although the
+proposed activation mechanism in mcm is not substantially
+altered.
+methods
+calculations reported in this paper were carried out using
+gradient-corrected dft with the becke-lee-yang-parr composite exchange correlation functional (b3lyp) as implemented
+in the gaussian suite of programs for electronic structure calculations.33 the b3lyp level of theory with 6-31g(d) [for h, c, and
+(23) ghosh, a. acc. chem. res. 1998, 31, 189-198. ghosh, a. quantum
+chemical studies of molecular structures and potential energy
+surfaces of porphyrins and hemes. in the porphyrin handbook;
+kadish, k. m., guilard, r., smith, k. m., eds.; academic press: new
+york, 1999; vol. 7,  xxxd1100xxx -38.
+(24) spiro, t. g.; kozlowski, p. m.; zgierski, m. z. j. raman spectrosc.
+1998, 29, 869-879. spiro, t. g.; zgierski, m. z.; kozlowski, p. m.
+coord. chem. rev. 2001, 219-221, 923-936.
+(25) andruniow, t.; zgierski, m. z.; kozlowski, p. m. chem. phys. lett.
+2000, 331, 509-515. andruniow, t.; zgierski, m. z.; kozlowski, p.
+m. j. phys. chem. b 2000, 104, 10921-10927. andruniow, t.;
+zgierski, m. z.; kozlowski, p. m. j. am. chem. soc. 2001, 123, 26792680. kozlowski, p. m. curr. opin. chem. biol. 2001, 5, 736-743.
+kozlowski, p. m.; zgierski, m. z. j. phys. chem. b 2004, 108, 1416314170.
+(26) jensen, k. p., ryde, u. j. mol. struct. (theochem) 2002, 585, 239255. jensen, k. p.; ryde, u. j. am. chem. soc. 2003, 125, 1397013971.
+(27) dölker, n.; maseras, f.; llenos, a. j. phys. chem. b 2001, 105, 75647571. dölker, n.; maseras, f.; lledos, a. j. phys. chem. b 2003,
+107, 306-315. dölker, n.; maseras, f.; siegbahn, p. e. m. chem.
+phys. lett. 2004, 386, 174-178. dölker, n.; morreale, a.; maseras,
+f. j. biol. inorg. chem. 2005, 10, 509-517.
+(28) ouyang, l.; randaccio, l.; rulis, p.; kurmaev, e. z.; moewes, a.;
+ching, w. y. j. mol. struct. (theochem) 2003, 622, 221-227.
+kurmaev, e. z.; moewes, a.; ouyang, l.; randaccio, l.; rulis, p.;
+ching, w.-y.; bach, m.; neumann, m. europhys. lett. 2003, 62, 582587. ouyang, l.; rulis, p.; ching, w.-y.; slouf, m.; nardin, g.;
+randaccio, l. spectochim. acta a 2005, 61, 1647-1652.
+(29) ouyang, l.; rulis, p.; ching, w. y.; nardin, g.; randaccio, l. inorg.
+chem. 2004, 43, 1235-1241.
+(30) andruniow, t.; zgierski, m. z.; kozlowski, p. m. chem. phys. lett.
+2000, 331, 502-508.
+(31) andruniow, t.; zgierski, m. z.; kozlowski, p. m. j. phys. chem. a
+2002, 106, 1365-1373.
+(32) rovira, c.; biarnes, x.; kunc, k. inorg. chem. 2004, 43, 6628-6632.
+(33) frisch, m. j.; trucks, g. w.; schlegel, h. b.; scuseria, g. e.; robb,
+m. a.; cheeseman, j. r.; montgomery, j. a., jr.; vreven, t.; kudin,
+k. n.; burant, j. c.; millam, j. m.; iyengar, s. s.; tomasi, j.; barone,
+v.; mennucci, b.; cossi, m.; scalmani, g.; rega, n.; petersson, g.
+a.; nakatsuji, h.; hada, m.; ehara, m.; toyota, k.; fukuda, r.;
+hasegawa, j.; ishida, m.; nakajima, t.; honda, y.; kitao, o.; nakai,
+h.; klene, m.; li, x.; knox, j. e.; hratchian, h. p.; cross, j. b.;
+bakken, v.; adamo, c.; jaramillo, j.; gomperts, r.; stratmann, r.
+e.; yazyev, o.; austin, a. j.; cammi, r.; pomelli, c.; ochterski, j.
+w.; ayala, p. y.; morokuma, k.; voth, g. a.; salvador, p.;
+dannenberg, j. j.; zakrzewski, v. g.; dapprich, s.; daniels, a. d.;
+strain, m. c.; farkas, o.; malick, d. k.; rabuck, a. d.; raghavachari,
+k.; foresman, j. b.; ortiz, j. v.; cui, q.; baboul, a. g.; clifford, s.;
+cioslowski, j.; stefanov, b. b.; liu, g.; liashenko, a.; piskorz, p.;
+komaromi, i.; martin, r. l.; fox, d. j.; keith, t.; al-laham, m. a.;
+peng, c. y.; nanayakkara, a.; challacombe, m.; gill, p. m. w.;
+johnson, b.; chen, w.; wong, m. w.; gonzalez, c.; pople, j. a.
+gaussian 03, revision c.02; gaussian, inc.: wallingford, ct, 2004.
+
+dft analysis of co-alkyl and co-adenosyl vibrational modes
+
+figure 2. simulated nonresonance raman spectra, in the low-frequency
+region, for the indicated im-[coiiicorrin]-r+ models (r ) me, et,  xxxd2401xxx , and ado). a uniform scaling factor (0.86) was applied to b3lyp
+force constants for all shown models.
+
+n atoms] and ahlrichs vtz (for co) basis sets, successfully used
+in previous calculations on cobalamins, was employed in the present
+study. frequency calculation and nonresonance raman intensities
+based upon polarizability derivatives have been carried for all the
+b-[coiiicorrin]-r+ structural models (figure 1). cartesian force
+constants calculated at the optimized geometry were transformed
+to natural internal coordinates.34 these coordinates were generated
+by the fct (force constant transformation) program, which is
+included in tx90 program package35 and manually augmented. to
+refine the calculated dft force constants, we employed the sqm
+procedure, which scales the original dft force constants according
+to the formula fij′ ) (lambdailambdaj)1/2fij. the sqm procedure allows
+application of single or multiscale factors to refine the originally
+computed force constants and to obtain scaled frequencies and their
+refined vibrational modes. our vibrational analysis was performed
+with the following strategy. first, the sqm refinement of force
+constants was utilized with a single scaling factor (lambda ) 0.86)31 for
+all computed models of im-[coiiicorrin]-r+ (r ) me, et,  xxxd2401xxx , and ado). resulting nonresoonance raman spectra are shown
+in figure 2. for a final comparison of computed isotope difference
+spectra for im-[coiiicorrin]-r+ (r ) me, et, and ado) with
+experimental spectra, we have decided to refine the originally
+computed force constants using the sqm set of seven scaling
+factors. this sqm set of scaling factors has been shown previously
+(34) fogarasi, g.; zhou, x.; taylor, r. w.; pulay, p. j. am. chem. soc.
+1992, 114, 8191-8201.
+(35) pulay, p. tx90; fayetteville, ar, 1990. pulay, p. theor. chim. acta
+1979, 50, 229.
+(36) an original set of six scaling factors previously optimized and
+extensively applied to metalloporphyrins (see for example stoll, l.
+k.; zgierski, m. z.; kozlowski, p. m. j. phys. chem. a 2003, 107,
+4165-4171) was augmented by one extra scaling factor (0.74) applied
+to co-c stretching mode of the cofactor model.
+
+figure 3. comparison of computed isotope difference spectra for im[coiiicorrin]-r+ (r ) me and et) with experimental spectra (ref 18) for
+mecbl and etcbl. computed spectra are based on refined b3lyp force
+constants applying multiple scaling factors. the alignment of experimental
+spectra to one common scale might be slightly affected by electronic
+manipulation of digitalized data.
+
+to produce very reliable frequencies, especially for porphyrin-based
+structures.36 the computed isotope difference spectra of im-[coiiicorrin]-r+ (r ) me, et, and ado) are compared with experimental
+spectra in figures 3 and 4.
+
+results and discussion
+alkyl corrins. as in previous studies,25-27 dft gives
+satisfactory geometries for alkyl corrins (table 1). for the
+methyl adduct, the co-c distance is short, 1.96 å, as it is
+in mecbl (1.98 å)37 while the bond to the axial imidazole
+is long, 2.22 å, as is the co-dimethylbenzimidazole bond
+in mecbl (2.16 å).37 changing the alkyl group to ethyl
+lengthens the co-c bond, to 1.99 å, due to a combination
+of electronic and nonbonded ethyl-corrin interactions, while
+increasing the steric bulk further, to propyl, lengthens the
+co-c bond to 2.03 å. interestingly, the co-imidazole bond
+lengthens in the same order, to 2.26 and 2.32 å, illustrating
+what has become known as the ‘inverse trans influence’.38-43
+(37) randaccio, l.; furlan, m.; geremia, s.; slouf, m.; srnova, i.; toffoli,
+d. inorg. chem. 2000, 39, 3403-3413.
+(38) bresciani-pahor, n.; forcolin, m.; marzilli, l. g.; randaccio, l.;
+summers, m. f.; toscano, p. j. coord. chem. rev. 1985, 63, 1-125.
+(39) randaccio, l.; bresciani-pahor, n.; zangrando, e.; marzilli, l. g.
+chem. soc. rev. 1989, 18, 225-250.
+(40) de ridder, d. j. a.; zangrando, e.; bürgi, h.-b. j. mol. struct. 1996,
+374, 63-83.
+(41) randaccio, l. comments inorg. chem. 1999, 21, 327-376.
+(42) randaccio, l.; geremia, s.; stener, m.; toffoli, d.; sangrando, e.
+eur. j. inorg. chem. 2002, 93-103.
+(43) andruniow, t.; zgierski, m. z.; kozlowski, p. m. chem. phys. lett.
+2005, 410, 410-416.
+
+inorganic chemistry, vol. 45, no. 14, 2006
+
+5587
+
+kozlowski et al.
+
+figure 4. comparison of computed isotope difference spectra for im[coiiicorrin]-ado+, with experimental spectra (ref 20 for adocbl).
+computed spectra are based on refined b3lyp force constants applying
+multiple scaling factors and empirical enhancement of raman intensities
+for delta and tau modes (see text for details). the alignment of experimental
+spectra to one common scale might slightly be affected by electronic
+manipulation of digitalized data.
+table 1. r-cocbl bond lengths (å), force constants (mdyn/å),
+stretching frequencies, and isotope shifts (cm-1)
+calcd nuco-c
+
+calcd co-c
+
+exptl nuco-c
+
+length force conts. nuco-c ∆(d) ∆(13c) nuco-c ∆(d) ∆(13c)
+ xxxg1393xxx .962
+ xxxg674xxx .989
+iso-prop- 2.033
+a
+
+4.824
+2.145
+2.002
+
+510
+475
+466
+
+32
+20
+10
+
+12
+10
+8
+
+506
+472
+
+24
+12
+
+∆(d): ch2/cd2 shift for the ch2 bounded to co. b ∆(13c):
+2 shift for the c atom bounded to co.
+
+13
+
+12ch
+
+2/
+
+13ch
+
+the computed frequencies fall in the same order, as
+expected. the co-c stretching frequencies are in excellent
+agreement with reported values for mecbl and etcbl; no
+data are available for isopropyl derivatives. stretching
+frequencies for the axial base have not been reported;
+searches of the me-cobinamide rr spectrum using isotopically labeled imidazole as axial base have been unsuccessful, presumably due to inadequate resonance enhancement.44 the computed co-imidizole stretches are at very low
+frequencies (∼100 cm-1)30,31 reflecting the very weak bonds.
+interestingly, rovira et al.32 computed a much higher
+frequency for the co-dimethylbenzimidazole stretch in
+mecbl, 437 cm-1, consistent with a somewhat shorter co-n
+bond, 2.15 å; possibly the covalent attachment of the
+dimethylbenzimidazole ligand to the corrin ring produces this
+shortening, via the chelate effect.
+(44) cwickel, d.; spiro, t. g. unpublished results.
+
+5588 inorganic chemistry, vol. 45, no. 14, 2006
+
+figure 2 shows computed raman spectra for the alkylcorrin-imidazole complexes in the low-frequency region.
+most of the bands arise from corrin vibrations, but the co-c
+stretches stand out strongly. the computed intensities are
+based on classical polarizability derivatives and do no capture
+selective resonance effects. nevertheless the co-c stretches
+show up prominently in rr spectra of mecbl and etcbl.
+figure 3 shows an excellent match of the observed 13/12c
+and ch/d difference spectra with computed ones for the
+corrin-imidazole analogues. on the other hand, the computed co-imidazole bands are very weak and it is not
+surprising that the analogous cobalamin bands have not been
+detected.
+adenosyl corrins. computed co-c and co-imidazole
+bond distances for im-[coiiicorrin]-ado+, 1.99 and 2.22 å,
+are similar to those of the ethyl adduct (table 1) and are in
+satisfactory agreement with the corresponding distances,
+2.033 and 2.237 å, in adocbl.29 the dft calculations
+employing the b3lyp functional do not capture the trend
+which is experimentally observed for axial bond distances
+in adocbl29 and mecbl37 cofactors. this most likely reflects
+structural simplifications introduced by truncating the adocbl
+side chains and replacing the dimethylbenzimidazole ligand
+with imidazole. furthermore, the hybrid b3lyp functional
+does not perform as well as nonhybrid bp86, as has been
+recently demonstrated.45,46 for both functionals, the frequencies for the co-c bond stretch are overestimated and the
+force constants have to be scaled in order to obtain reasonable
+agreement with experiment. while the bp86 value is closer
+to experiment, the overall performance from a statistical point
+of view is better for b3lyp. consequently, the latter was
+used in recent dft analyses of co-alkyl and co-adenosyl
+vibrational modes in b12-cofactors, consistent with previous
+studies.30,31
+the computed raman spectrum (figure 2) is very complex; no dominant co-c stretching band can be seen. figure
+4 shows the experimental 13/12c and ch/d difference spectra
+for adocbl, reported by dong et al.,20 and compares them
+with the dft-computed difference spectra. (the intensities
+of the bands marked delta and tau were enhanced for visualization.
+although their computed polarizability derivatives are low,
+they may be enhanced resonantly if the excited state is
+displaced along their normal coordinates. they are both
+polarized and are subject to the dominant franck-condon
+enhancement mechanism.) difference spectroscopy was used
+in order to cancel out the numerous rr contributions from
+corrin modes and to isolate those vibrations associated with
+the co-ado unit. it was recognized that the complex spectral
+pattern required at least four isotope-sensitive vibrations, and
+these were proposed to be co-c stretching (430 cm-1),
+ribose ring deformation (569 cm-1), co-c-c bending (363
+cm-1), and a torsion of the adenosyl ligand about the co-c
+bond (420 cm-1). indeed, the computed difference spectra
+reveal four bands with the requisite isotope sensitivity.
+band shapes in the difference spectra are functions of the
+intensities, widths, and isotope shifts of the parent bands,
+and since the computed intensities do not take resonance
+enhancement into account, the computed difference spectrum
+
+dft analysis of co-alkyl and co-adenosyl vibrational modes
+table 2. isotope-sensitive adocbl modes (cm-1)
+calculated
+
+figure 5. schematic eigenvectors for the four isotope-sensitive co-ado
+modes identified in figure 4.
+
+cannot be expected to reproduce the experimental one
+faithfully. nevertheless, there is a reasonable correspondence
+between the experimental difference bands and the main
+features of the computed spectra. the broad sigmoidal feature
+at 567/546 cm-1 in the 13/12c difference spectrum and at 567/
+534 cm-1 in the ch/d difference spectrum coincides with
+two computed modes having differing isotope sensitivities;
+the apparently greater ch/d isotope shift can be accounted
+for by the stronger negative peak computed at 540 cm-1 in
+the ch/d difference spectrum. experimental 13/12c and ch/d
+difference spectra each show a 425 cm-1 band, which finds
+a prominent corresponding band in the computed spectra,
+while computed and experimental spectra both show a
+neighboring 446 cm-1 band only in the ch/d difference
+spectra. finally, there is a weak computed couplet corresponding to the 392/382 cm-1 couplet seen in the ch/d
+experimental spectrum. as might be expected, there are
+additional minor bands in the computed difference spectra
+which are not observed in the experimental spectra, presumably because of weak resonance enhancement.
+the eigenvectors of the four most prominent modes are
+illustrated in figure 5. they involve the same vibrational
+coordinates, as had been inferred from the experimental
+spectra, namely co-c stretching and torsion, co-c-c
+bending, and ribose deformation. however, the computations
+show the co-c stretching coordinate to be heavily mixed
+with ribose deformation, giving rise to the two modes near
+560 cm-1. the coordinates combine in phase for the higherfrequency mode, labeled deltar + nucoc, and out of phase for
+the-lower frequency mode, deltar - nucoc. as a result, there is
+no ‘co-c stretch’ in the expected 400-500 cm-1 region as
+there is for the simpler alkyl corrins. the previous attribution
+of the 425 cm-1 band to co-c stretching was based on a
+reduced-mass model for the ado ligand. this model is
+adequate for the alkyl cobalamins but fails for adocbl
+because of the kinematic effect of the ribose ring, whose
+
+experimental
+
+nu
+
+∆(d)
+
+∆(13c)
+
+nu
+
+574
+550
+441
+424
+376
+
+34
+10
+6
+6
+11
+
+4
+3
+2
+2
+3
+
+567
+446
+429
+392
+
+∆(d)
+
+16
+10
+
+∆(13c)
+
+11
+
+mode character
+nuco-c + deltaribose
+nuco-c - deltaribose
+tauco-ado
+deltaco-c-c
+tau-ch2
+
+deformation coordinate interacts strongly with the co-c
+displacement.
+instead, the 425 cm-1 mode is seen (figure 5) to be coc-c bending in character (deltacocc); its relatively high
+frequency reflects the steric crowding of the ado ligand with
+the corrin ring. the 440 and 380 cm-1 modes both involve
+torsional motions about the co-c bonds. the h atoms of
+the co-ch2 group undergo significant motion, while the c
+atom does not; this is why the bands are seen in the ch/d
+difference spectrum but not in the 13/12c difference spectrum.
+the higher-frequency torsion mode has significant contribution from co-n(corrin) bond stretching (taucoc + nucon), while
+the lower-frequency mode (tau′coc) does not (table 2). even
+the lower of these modes, 380 cm-1, is much higher than
+would be expected for simple torsion about a single bond
+and again reflects the nonbonded interactions of the ado
+ligand with the corrin ring.
+implications for protein activation of b12 coenzymes.
+despite the reassignments required by the dft-based normal
+mode analysis, the inferences about enzyme activation of
+adocbl which were drawn from the rr study of mcm are
+still supported. in that study, isotope difference spectra were
+monitored as the coenzyme was bound to the apoenzyme,
+and then substrates or inhibitors were added. for all these
+samples, the 567 cm-1 band appeared at the same frequency,
+though with somewhat variable relative intensity. the
+identification of this broad band as deltar + nucoc plus deltar nucoc implies that the co-c bond strength is unaffected by
+interaction of the cofactor with the enzyme or the subsequent
+binding of substrates or inhibitors. this finding is also
+supported by recent qm/mm calculations which show that
+in the case of mcm the co-c bond remains intact upon
+coenzyme binding to apoenzyme.47 there is no indication
+that the activation mechanism involves co-c bond weakening.
+however, there are rr spectral changes in the 350-450
+cm-1 region, which, in light of the current assignments, imply
+that the co-c-c bending and co-c torsion coordinates
+are affected. specifically, the intensity is diminished for
+deltacocc, but augmented for tau′coc, as coenzyme binds to the
+enzyme, and these trends are accentuated when substrate is
+bound to the active site. these changes in resonance
+enhancement imply diminished and augmented displacements
+along the deltacocc and tau′coc coordinates between the ground
+and the resonant excited state of the chromophore. the
+(45) jensen, k. p.; ryde, u. j. phys. chem. a 2003, 107, 7539-7545.
+(46) kuta, j.; patchkovskii, s.; zgierski, m. z.; kozlowski, p. m. j. compt.
+chem. 2006, 27, in press.
+(47) freindorf, m., kozlowski, p. m. j. am. chem. soc. 2004, 126, 19281929.
+
+inorganic chemistry, vol. 45, no. 14, 2006
+
+5589
+
+kozlowski et al.
+altered displacements in turn imply bending and twisting of
+the ado ligand in either the ground or the excited states, or
+both.
+these kinds of ligand distortions have become the favored
+explanation for enzymatic activation of adocbl10,11 since
+alternative effects, including modulation of the trans ligand
+bond, or distortions of the corrin ring have been largely ruled
+out. recent crystallographic studies for two b12-containg
+enzymes, glutamate mutase (glm)48 and diol dehydratase
+(ddh),49 suggest that the main contribution to co-c bond
+cleavage is substrate-induced deformation of the coenzyme,
+although the evidence is complicated by the likelihood that
+(48) gruber, k.; reitzer, r.; kratky, c. angew. chem., int. ed. 2001, 40,
+3377-3380.
+(49) shibata, n.; masuda, j.; morimoto, y.; yasuoka, n.; toraya, t.
+biochemistry 2002, 41, 12607-12617.
+
+5590 inorganic chemistry, vol. 45, no. 14, 2006
+
+the co(iii) is reduced to co(ii) in the crystals. recent qm/
+mm calculations reported by jensen and ryde50 likewise
+support adenosyl deformation as the most feasible mechanism
+of co-c activation.
+one can speculate that nature has chosen the complex ado
+ligand because it offers a ready handle for substrate-induced
+deformation. the misalignment of the bonding orbitals
+resulting from such deformations weaken the co-c bond
+along the homolytic dissociation coordinate. in contrast, the
+small methyl ligand does not facilitate substrate-induced
+deformation and mecbl enzymes do not promote co-c
+homolysis. instead, they facilitate heterolytic cleavage by
+promoting electrophilic diplacement of the methyl cation.
+ic052069j
+(50) jensen, k. p.; ryde, u. j. am. chem. soc. 2005, 127, 9117-9128.
+

@@ -1,0 +1,742 @@
+the journal of biological chemistry vol. 284, no. 6, pp. 3897–3905, february 6, 2009
+© 2009 by the american society for biochemistry and molecular biology, inc. printed in the u.s.a.
+
+evidence for inhibitory interaction of hyaluronan-binding
+protein 1 ( xxxg278xxx /p32/ xxxg278xxx ) with streptococcus
+pneumoniae hyaluronidase*
+received for publication, june 3, 2008, and in revised form, october 22, 2008 published, jbc papers in press, november 11, 2008, doi 10.1074/jbc.m804246200
+
+gitanjali yadav‡1, ramachandra l. a. prasad§, babal kant jha§, vivek rai‡, vinod bhakuni¶, and kasturi datta§2
+from the ‡computational biology laboratory, national institute for plant genome research, aruna asaf ali marg,
+new delhi 110067, india, §biochemistry laboratory, school of environmental sciences, jawaharlal nehru university,
+new delhi 110067, india, and ¶division of molecular and structural biology, central drug research institute, lucknow 226001, india
+
+bacterial hyaluronidases have long been known as the
+“spreading factors” or virulence factors responsible for a wide
+range of acute and invasive infections in humans causing lifethreatening diseases, such as pneumonia, meningitis, and septicemia among many others (1–3). these enzymes directly
+facilitate the spread of infection by degrading the ha3 matrix,
+which constitutes a highly organized network in the extracellular space in all vertebrates, acting as a diffusion barrier in vivo
+and regulating the transport of other substances through the
+intercellular space (4). the ha matrix in extracellular matrix is
+mainly composed of ha polymer, a negatively charged polysac-
+
+* the costs of publication of this article were defrayed in part by the payment
+of page charges. this article must therefore be hereby marked “advertisement” in accordance with 18 u.s.c. section 1734 solely to indicate this fact.
+supported by the innovative young biotechnologist award by the department of biotechnology, government of india. to whom correspondence
+may be addressed. e-mail: gy@nipgr.res.in.
+2
+supported by the department of biotechnology and department of science
+and technology. to whom correspondence may be addressed. e-mail:
+kdatta@mail.jnu.ac.in.
+3
+the abbreviations used are: ha, hyaluronan;  xxxg278xxx , hyaluronan-binding
+protein 1; spnhl, s. pneumoniae  xxxd2289xxx  lyase;  xxxd234xxx ., accessible surface area.
+1
+
+february 6, 2009 • volume 284 • number 6
+
+charide of repeating disaccharide units of d-glucuronic acid
+(␤-1,3) and n-acetyl-␤- xxxd2211xxx , and is highly viscous in
+nature (5). hyaluronidases are able to split this matrix, reducing
+its viscoelasticity and increasing membrane permeability,
+thereby allowing greater microbial access to or promoting diffusion between host tissues for colonization (4, 6, 7). the organized structure of ha substantially influences binding to receptors and to the active site of hyaluronidases. bacterial
+hyaluronidases, isolated from strains of various microorganisms such as clostridium, micrococcus, streptococcus, or streptomyces, degrade ha at very fast rates via a ␤-elimination reaction that cleaves the alternate ␤-1,4-glycosidic linkage between
+the repeating units, resulting in unsaturated disaccharide products (8, 9). although the mechanism of hyaluronidase-mediated degradation of ha has been very well elucidated through
+biochemical as well as structural investigations (10, 11), relatively little is known about the defense mechanisms used by the
+host during infection or about the role of ha and hyaluronidase
+in pathophysiological processes. it is believed that the balance
+of ha biosynthesis and intrinsic hyaluronidase levels may
+be regulated by invoking specific inhibitors (12–14). as a result,
+potent and specific inhibitors of bacterial  xxxd2289xxx  lyase
+would have enormous therapeutic potential as drugs in the
+treatment of various bacterial infections.
+the search for effective hyaluronidase inhibitors began more
+than half a century ago (2, 15–18) and continues to this day.
+exogenous small molecule inhibitors have been identified, but
+they have weak potency and low selectivity, and there are many
+unanswered questions with regard to their mechanism of inhibition and whether they would be active against bacterial hyaluronidases as well. for example, heparins and derivatives of
+alginic acids (19, 20) have structural similarity to ha, whereas
+polyphenols, flavone analogues (21), saponins, norlignans, or
+antiallergic drugs are among other reported inhibitors of hyaluronidases (22, 23).  xxxd228xxx , l-arginine derivatives, and fatty
+acids have been reported to inhibit streptococcal hyaluronidases at submillimolar concentrations, but a comparison of
+percent inhibition and ic50 values between these and previous
+reports is difficult because of differences in the experimental
+conditions (24 –26). in view of the enormous medical applications of effective inhibitors, a systematic search has continued,
+using computer-aided drug design strategies. a rational analysis based on structural interactions led to the identification of a
+hydrophobic derivative of  xxxd228xxx  as a strong inhibitor of
+journal of biological chemistry
+
+3897
+
+downloaded from http://www.jbc.org/ by guest on october 15, 2019
+
+bacterial hyaluronan lyase enzymes are the major virulence
+factors that enable greater microbial ingress by cleaving hyaluronan (ha) polymers present predominantly in extracellular
+space of vertebrates. based on the premise that effective inhibitors may bind to and stabilize ha thereby protecting it from
+degradation, here we investigated inhibitory activity of human
+ xxxg278xxx  ( xxxg278xxx ) on bacterial hyaluronidase because it is highly specific to ha and localized on the cell
+surface. biochemical characterization revealed that  xxxg278xxx  is a
+competitive inhibitor of streptococcus pneumoniae  xxxd2289xxx 
+lyase (spnhl) with an ic50 value of 22 ␮m. this is thus the first
+report of an endogenous protein inhibitor that may be used during natural antibacterial defense. our findings also support a
+novel multipronged mechanism for the high efficacy of habp1mediated inhibition based on structural modeling of enzyme,
+substrate, and inhibitor. evidence from docking simulations
+and contact interface interactions showed that the inherent
+charge asymmetry of  xxxg278xxx  plays a key role in the inhibitory
+activity. this novel role of  xxxg278xxx  may pave the way for peptide
+inhibitors as alternatives to synthetic chemicals in antibacterial
+research.
+
+inhibition of spnhl by  xxxg278xxx 
+
+experimental procedures
+general materials and reagents—substrate from human
+umbilical cord ha was purchased from sigma co. all other
+chemicals were of analytical grade and obtained from sigma.
+purification and estimation of  xxxg278xxx — xxxg278xxx  (amino
+acids 74 –282) was overexpressed in escherichia coli and purified following the method described earlier (34) with modifications using the 55–90% ammonium sulfate cut followed by ion
+exchange chromatography on mono qtm hr (10/10) column
+(amersham biosciences) using a linear gradient of 0 –1 m nacl
+in 20 mm tris, ph 7.2, after washing the column with 150 mm
+nacl in 20 mm tris, ph 7.2. the pooled peak fractions were
+dialyzed in 150 mm nacl, 20 mm tris, ph 7.2, and quantified for
+further use.
+assay of spnhl enzymatic activity—the activity of spnhl
+was determined following the method described earlier (35)
+and is defined as its ability to break down ha to unsaturated
+disaccharide units (36). in a 1-ml solution of 0.2 mg/ml ha in
+50 mm sodium acetate buffer, 10 mm cacl2, ph 6.5, 10 ␮l of
+enzyme sample (3 ng/␮l, diluted just before taking measurement) was added. the reaction mixture was incubated for 5 min
+during which the measurements were carried out by monitor-
+
+3898 journal of biological chemistry
+
+ing the increase in absorbance at 232 nm at 25 °c in a cary 100
+bio uv-visible double beam spectrophotometer (varian inc.).
+determination of inhibitory activity on hyaluronidase—the
+in vitro enzyme inhibition experiments were performed with
+varying concentrations of  xxxg278xxx . the inhibitory effect of
+ xxxg278xxx  on s. pneumoniae hyaluronidase was measured by
+using two different enzymatic inhibition assays. in the first
+assay 0.2 mg/ml ha was preincubated with varying concentrations (0 –100 ␮m) of  xxxg278xxx  for 1 h at 4 °c in a l-ml reaction
+volume of 50 mm sodium acetate buffer, 10 mm cacl2, ph 6.5.
+the reaction was initiated with 30 ng of enzyme, and activity
+was measured. in the second assay, 30 ng of spnhl was preincubated in the above mentioned 1-ml reaction volume of buffer
+with varying concentrations of  xxxg278xxx  (0 –100 ␮m) for 1 h at
+4 °c. the reaction was initiated with 0.2 mg/ml ha, and enzymatic activity was measured. in both assays, the reaction was
+initiated exactly at 60 s after the addition of either enzyme or
+ha, respectively, to the reaction mixture. the progress of the
+reaction was monitored by detecting the appearance of ha oligosaccharide at 232 nm absorbance.
+enzyme activity in absence and presence of inhibitor—to
+study the effect of varying the concentration of substrate in the
+presence of inhibitor, ha concentration in solution was
+expressed as moles of hexasaccharide based on a hexasaccharide molecular weight of 1203.9 (37). in the absence of inhibitor,
+varying concentrations of ha (0.0625– 0.750 mm) in 150 mm
+sodium acetate buffer, 10 mm cacl2, ph 6.5, was added to the
+enzyme (30 ng), and the activity was measured. in the presence
+of inhibitor, 20 ␮m  xxxg278xxx  was preincubated with the enzyme
+(30 ng) for 1 h at 4 °c in a 1-ml reaction volume of buffer,
+increasing concentrations of ha (0.0625– 0.750 mm) were
+added, and enzymatic activity was measured exactly 60 s after
+the ha was added to the reaction mixture. the progress of the
+reaction was monitored by detecting the appearance of ha oligosaccharide at 232 nm absorbance.
+initial velocity measurement and data analysis—the reaction progress curves for the enzymatic activity and enzyme
+inhibition were obtained by measurement of the absorbance at
+232 nm due to the unsaturated disaccharide product. the reaction was carried out in a 1-ml solution of 50 mm sodium acetate
+buffer, 10 mm cacl2, ph 6.5, with substrate concentration
+ranging from 0.2072 to 0.3469 mm ha in the above buffer. the
+reaction was initiated by the addition of 10 ␮l of enzyme in the
+same buffer. the product absorbance was measured every 60 s
+for 5 min at 25 °c. the reaction progress was linear over the
+time of measurement within the precision of the instrument.
+the initial velocity of the reaction was determined from the
+increase in absorbance over the first 5 min of the reaction.
+the slope was divided by the molar absorption coefficient for
+the disaccharide product, 5.5 ⫻ 103 mol⫺1 cm⫺1 (36). the values were calculated and expressed in ␮m/min ha degradation
+by spnhl in the presence of  xxxg278xxx .
+the data for initial velocity, vi, from each experiment in
+which the concentration of substrate, s, was varied, were fit into
+the michaelis-menten equation with a nonlinear regression
+program (graphpad prism, version 5, graphpad software inc.,
+san diego, ca). for all experiments, goodness-of-fit statistics
+showed that r2 and correlation values were greater than 0.987
+volume 284 • number 6 • february 6, 2009
+
+downloaded from http://www.jbc.org/ by guest on october 15, 2019
+
+streptococcus agalactiae hyaluronidase, but it was weakly active
+against streptococcus pneumoniae, a major human gram-positive pathogen (27). computer-aided drug design-based strategies mainly explore new leads by virtue of structural similarity
+to ha or, in some cases, by rational de novo approaches. an
+alternative strategy may also exist wherein an inhibitor may
+bind to and stabilize ha thereby protecting it from degradation. such an alternative is plausible because ha has been
+known to bind and interact with receptors and a large number
+of ha-binding proteins. hyaladherins are a very well characterized and highly selective family of proteins reported to interact non-covalently with ha and have a wide array of functions,
+including receptor-mediated activation of intracellular signaling and structural aggregations in the extracellular matrix (28 –
+30). we therefore began this work with the surmise that a
+potent hyaluronidase inhibitor may be supplied endogenously
+by one of these ubiquitous proteins.  xxxg278xxx  (synonym human
+p32 or  xxxg278xxx ), a member of the multifunctional hyaladherin
+family, is a 68-kda protein originally purified and cloned from
+human fibroblast as a novel ha receptor by our group (31). in
+this work,  xxxg278xxx  was tested as an inhibitor of bacterial hyaluronidase because we had already confirmed its localization on
+the cell surface (32). according to the crystal structure of
+ xxxg278xxx , it exists as a homotrimer having n-terminal ␣-helices
+and asymmetric charge distribution with structural plasticity
+(33).
+here we report the role of  xxxg278xxx  as an inhibitor of s. pneumoniae hyaluronidase (spnhl) and the elucidation of its competitive nature of inhibition. we also propose a unique multipronged mechanism of action based upon evidence from
+structural modeling of the interactions among substrate,
+enzyme, and inhibitor. thus we present biochemical evidence
+for a novel role of  xxxg278xxx  in pathophysiological processes as a
+highly potent inhibitor of spnhl, offering a variety of avenues
+for optimization of selectivity and potency.
+
+inhibition of spnhl by  xxxg278xxx 
+
+february 6, 2009 • volume 284 • number 6
+
+figure 1. inhibition of spnhl activity by  xxxg278xxx  in a concentration-dependent manner. in a, the graph represents the inhibition of spnhl activity
+with increasing concentration of  xxxg278xxx  as described under “experimental
+procedures.” the first curve (f) represents ha preincubated with increasing
+concentrations of  xxxg278xxx  (0 –100 ␮m) before the reaction was initiated with 30
+ng of the enzyme. the second curve (e) represents increasing concentrations
+of  xxxg278xxx  (0 –100 ␮m) preincubated with spnhl (10 ␮l of 3 ng/␮l) before the
+reaction was initiated with 0.2 mg/ml ha. in both cases, activity was measured at 232 nm. in b, the graph represents the percent inhibition of spnhl
+activity as plotted against varying concentrations of inhibitor. the values represent the average of four different experiments.
+
+results
+in vitro effect of  xxxg278xxx  on the activity of spnhl
+the in vitro enzyme inhibition experiments demonstrated
+that highly purified  xxxg278xxx  inhibits spnhl activity in a concentration-dependent manner as shown in fig. 1. the activity
+of purified spnhl gradually decreased in the presence of
+increasing concentrations of purified  xxxg278xxx  either when
+ xxxg278xxx  was preincubated with ha and the reaction was initiated with spnhl or when it was preincubated with the enzyme
+spnhl and the reaction was initiated with ha. this can be seen
+much better in fig. 1b, which shows a plot of percent inhibition
+of spnhl activity versus inhibitor concentration.  xxxg278xxx  was
+found to inhibit spnhl with an ic50 value of 22 ␮m.
+journal of biological chemistry
+
+3899
+
+downloaded from http://www.jbc.org/ by guest on october 15, 2019
+
+and 0.982, respectively. among the curve fitting results, the
+program gave values of vmax and km as well as their respective
+standard deviations (␴).
+computational simulations—the structural details of the
+interactions among substrate, enzyme, and inhibitor were elucidated by molecular docking experiments. available crystal
+structures of the s. pneumoniae  xxxd2289xxx  lyase (protein data
+bank code 1loh) and human  xxxg278xxx  (protein data bank code
+1p32) were used for docking studies (33). the three-dimensional structures of the ha oligomers, namely disaccharide,
+tetrasaccharide, and hexasaccharide, were processed from the
+available crystal structure complex of spnhl and ha hexasaccharide (protein data bank code 1loh). details of local noncovalent interactions were studied using an in-house fortran
+program/script that requires an interacting complex in protein
+data bank format. the solvent-accessible area lost upon complexation was measured using naccess (38). all visualizations and renderings were done using vmd (visual molecular
+dynamics) (39) and pymol (40).
+substrate inhibitor interaction—the three-dimensional
+structure of the inhibitor (protein data bank code 1p32)
+having three potential active sites (one per monomer) was
+treated as the static “receptor” molecule with ha polysaccharide as the mobile “ligand” molecule. the three processed
+ha oligomers were docked to  xxxg278xxx , one at a time, with the
+experimentally characterized bx7b (where b is a basic residue) ha binding motif (residues 119 –128, 1p32 numbering)
+defined as the binding site (31, 41). flex-x molecular docking program was used because it is able to accurately predict
+the geometry of the protein-ligand complex for a protein
+with known three-dimensional structure and a small ligand
+molecule. flex-x is based on a robust incremental construction algorithm where the ligand is decomposed into pieces
+and thereafter flexibly rebuilt in the active site using multiple
+placement strategies followed by a ranking of all orientations
+using a variety of scoring functions. hydrogens were added
+to both structures before the experiment. default parameter
+values were used, and the top ranking orientations were considered for further analysis.
+enzyme inhibitor interaction—the enzyme s. pneumoniae
+ xxxd2289xxx  lyase protein (protein data bank code 1loh),
+which was the smaller of the two proteins, was kept flexible and
+docked onto the  xxxg278xxx  homotrimer, which was kept static.
+preprocessing of the hyaluronidase involved removal of ha and
+water molecules. the receptor and ligand were projected onto a
+160-å cubical grid using zdock, a rigid body docking program, followed by a refinement program, rdock. zdock
+uses a fast fourier transform to search all possible binding
+modes for the proteins, evaluating based on shape complementarity, desolvation energy, and electrostatics. the top 2000 predictions from zdock were submitted to rdock where they
+were minimized by charmm (chemistry at harvard molecular mechanics) to improve the energies and eliminate clashes.
+finally the electrostatic and desolvation energies were recomputed by rdock, and the top ranking complex was selected for
+analysis of the contact interface.
+
+inhibition of spnhl by  xxxg278xxx 
+
+3900 journal of biological chemistry
+
+volume 284 • number 6 • february 6, 2009
+
+downloaded from http://www.jbc.org/ by guest on october 15, 2019
+
+chains. the hexasaccharide sugar
+was found to bind with  xxxg278xxx 
+strongly via hydrophobic as well as
+hydrogen bond interactions. interestingly the two ␤-1,4-glycosidic
+linkages of the ha polymer (one
+between  xxxd951xxx  and ha2 and the
+other between ha2 and ha3) are
+both entirely buried in this complex;
+they are tethered on both sides by
+hydrogen bonds as well as hydrophobic interactions. for example,
+the c-1 and c-4 carbon atoms that
+mediate the ␤-1,4-glycosidic linkages are bound by multiple hydrophobic interactions with  xxxg278xxx 
+residues his-75 and thr-76 for the
+first linkage and asp-245, arg-246,
+and gly-247 for the second linkage.
+furthermore residue arg-122 of the
+ha binding motif plays a key role in
+the first linkage, making hydrogen
+bonds with the glucuronate moiety
+on the sugar preceding the linkage
+and the secondary alcohol group on
+the sugar succeeding the linkage.
+motif residues arg-122 and ala-125
+figure 2. model of hyaluronan binding by  xxxg278xxx . each monomer of the  xxxg278xxx  trimer has been shown in
+distinct colors. the docked complex depicts ha hexamer (shown in atom colors) closely bound to one of the ha also participate in hydrophobic
+binding motifs (depicted in gray) on the trimeric  xxxg278xxx  protein. the inset zooms into the complex to show the interactions with the ligand. the
+details of the contact interface between the ligand and receptor. hydrogen bonds are depicted as yellow binding between  xxxg278xxx  and the
+dashes. as can be seen, the ␤-1,4-glycosidic linkage is protected during binding, being tethered by hydrogen
+ha hexasaccharide is further
+bonds and hydrophobic interaction on all sides.
+strengthened by side chains of lys80, ser-106, and arg-244 that make
+structural modeling: binding of ha hexasaccharide to  xxxg278xxx 
+hydrogen bonds with the sugar and met-74, gly-107, asp-249,
+it has been reported that the alternate ␤-1,4-glycosidic link- and thr-251 that are involved in hydrophobic interactions.
+age within ha gets cleaved by spnhl (37), and we were inter- atomic details of the all these interactions have been provided
+ested in finding out whether  xxxg278xxx  mediates spnhl inhibi- in table 1.
+thus the collective strength of a substantial number of nontion by protecting this bond during its interaction with ha. to
+test this, we structurally modeled the  xxxg278xxx  and ha interac- covalent interactions at the contact interface enhances the
+tion. the results showed that binding of ha to  xxxg278xxx  indeed binding of ha oligomers to  xxxg278xxx , thereby protecting ha
+involves the ␤-1,4-glycosidic linkage site on the ha oligomer, from degradation. it may be noted that the inhibitor is in the
+homotrimeric form, and the interaction causes a very small loss
+explaining the observed reduction in enzyme activity.
+docking simulations depicted a steric fit between substrate of accessible surface area (479 å2; roughly 2% of the entire moland inhibitor. interestingly when the top ranking orientations ecule) at one of the three interchain junctions (see fig. 2).
+were analyzed to elucidate the molecular details of binding, the therefore it is plausible that the remaining two interchain juncha hexasaccharide was predicted to bind with an energy of tions of  xxxg278xxx  could potentially bind more ha molecules, or a
+⫺7.59 kcal/mol, whereas the tetrasaccharide and disaccharide much longer ha polymer may utilize all three binding sites at
+ha oligomers showed binding energies of ⫺6.56 and ⫺6.28 various regions along its length, ensuring protection.
+kcal/mol, respectively. these observations are in agreement
+with previous experimental reports stating that the ha hexas- competitive nature of spnhl inhibition by  xxxg278xxx 
+accharide shows better binding affinity than its shorter olito determine the nature of inhibition observed during the
+gomers (42). fig. 2 shows the top ranking confirmation between preincubation of spnhl and  xxxg278xxx  (fig. 1), enzyme assays
+the hexasaccharide substrate and inhibitor after refinement as were carried out either in the absence or in the presence of
+described under “experimental procedures.” a total of 24 con- purified  xxxg278xxx  (20 ␮m). fig. 3 depicts the plot of substrate
+tacts were observed between the sugar and  xxxg278xxx  of which 17 concentrations against the enzyme activity in the presence and
+were from chain a and seven were from chain b. thus, only two absence of inhibitor. an inhibition of 20 –30% was observed in
+of the three polypeptide chains of  xxxg278xxx  participate in this the presence of the inhibitor. the plot shows that reaction was
+interaction, and binding occurs at the junction of these two linear over the time of measurement, and the initial velocity and
+
+inhibition of spnhl by  xxxg278xxx 
+table 1
+interactions and surface accessibility at the  xxxg278xxx -ha hexasaccharide contact interface
+for each ha unit, ua and nac denote ␤-d-glucuronic acid and n-acetyl-␤- xxxd2211xxx , respectively. stars (**) mark the c-1 and c-4 atoms that participate in the two
+crucial ␤-1,4-glycosidic linkages present in the ha hexasaccharide. distance, distance in å between interacting atoms from sugar and  xxxg278xxx . rsa ␦ (ha) is the loss in
+residue surface accessibility (rsa) of  xxxg278xxx  residues upon complexation with ha measured in å2. “hyp” denotes a hydrophobic interaction. rsa ␦ (hl) shows the partial
+ xxxd234xxx . lost from three residues of one chain of the  xxxg278xxx  trimer during spnhl inhibition. the last three rows depict residues that lose accessibility but do not directly interact
+with the sugar.  xxxd951xxx , ha2, and ha3 denote the three hyaluronan units of the hexasaccharide. chn, chain; res, residue; id, identity; na, not applicable.
+
+downloaded from http://www.jbc.org/ by guest on october 15, 2019
+
+february 6, 2009 • volume 284 • number 6
+
+journal of biological chemistry
+
+3901
+
+inhibition of spnhl by  xxxg278xxx 
+
+downloaded from http://www.jbc.org/ by guest on october 15, 2019
+
+figure 3. lineweaver-burke plot representing competitive nature of
+inhibition. a, michaelis-menten graph. b, lineweaver-burke plot. in both
+cases, curve e represents enzyme activity in the absence of  xxxg278xxx  (0 ␮m), and
+curve œ represents 20 –30% inhibition of enzyme activity in the presence of
+ xxxg278xxx  (20 ␮m). the km and vmax values were calculated according to the
+lineweaver-burke plot. each plot is representative of at least more than four
+separate experiments. the km was calculated to be 0.2765 and 0.41129 mm in
+the absence and presence of the inhibitor, respectively. the inhibitor inhibits
+the enzyme at a ki value of 34.24 ␮m.
+
+other parameters were calculated as described under “experimental procedures.” the km was calculated to be 0.2765 and
+0.41129 mm in the absence and presence of the inhibitor,
+respectively. a lineweaver-burke plot (double reciprocal) of
+the data obtained was indicative of competitive inhibition. the
+value for ki was obtained from plots of 1/v versus 1/[s]. it was
+found that  xxxg278xxx  inhibits the enzyme at a ki value of 34.24 ␮m.
+these results confirmed that the inhibition observed in fig. 1 is
+competitive in nature.
+structural modeling: inhibition of hyaluronidase
+mediated by  xxxg278xxx 
+to comprehend the molecular details and structural implications of the observed competitive inhibition,  xxxg278xxx  was
+docked with spnhl as described under “experimental procedures.” analysis of the top ranking docking complex confirmed
+that  xxxg278xxx  binds to the enzyme in the same region where
+substrate ha has been reported to bind (37); the data thus support the competitive inhibition observed in the experimental
+assays.
+fig. 4a depicts the overall mode of binding with the inset (fig.
+4b) showing the molecular details of the interaction. an accessible surface area ( xxxd234xxx .) of ⬃2938 å2 (roughly 11% of the total
+ xxxd234xxx .) is buried on the negatively charged face of  xxxg278xxx  trimer
+upon binding to spnhl, occluding an  xxxd234xxx . of 5489 å2 (roughly
+
+3902 journal of biological chemistry
+
+figure 4.  xxxg278xxx  binding to spnhl. the enzyme spnhl (green schematic) is
+shown docked with the inhibitor  xxxg278xxx  (trimer shown in silver schematic).
+the active site is in the ␣-domain of the enzyme; catalytic triad residues have
+been labeled and depicted in orange ball-and-stick model. residues of the
+aromatic patch can be seen in pink (dots in a and lines in b); the negative patch
+in the active site is depicted in red (dots in a and lines in b). non-covalent
+interactions all along the contact interface are represented as dashed lines of
+distinct colors, namely hydrogen bonds (yellow), electrostatic interactions
+(blue), and hydrophobic interactions (cyan). residues of both molecules
+involved in these interactions are colored in the same color as the interaction.
+(only main chain carbon atoms are shown to maintain clarity.) as can be seen,
+most of the interactions are electrostatic in nature. b is an enlarged inset of a.
+details are provided in the text.
+
+20% of total  xxxd234xxx .) from the enzyme around its active site cleft.
+the majority of interactions at the contact interface emerge
+from the juxtaposition of these two large and oppositely
+charged surfaces. all three monomers of the inhibitor participate in binding. the refined model of binding revealed a total of
+207 contacts between the two structures mediated by 49 residues from  xxxg278xxx  and 81 residues from spnhl. of these, 25 are
+volume 284 • number 6 • february 6, 2009
+
+inhibition of spnhl by  xxxg278xxx 
+
+february 6, 2009 • volume 284 • number 6
+
+of the inhibitor. for example, arginines 462 and 466 of this
+patch lose 27 and 47 å2 of their residue surface accessibility,
+respectively, to ionic interactions with glutamates 198 and 200
+of  xxxg278xxx , amounting to a 77.4% loss of accessibility. other
+residues comprising the positive patch, namely lys-250, arg300, arg-355, and arg-480, also get buried during the inhibitory interaction, resulting in an overall loss of 71% surface
+accessible area for this patch. the negative patch comprising
+residues glu-388, asp-398, and thr-400 has been implicated in
+the product release process of spnhl. the above mentioned
+interactions involving the positive patch of the enzyme also lead
+to the occlusion of the residues in the negative patch because
+the two patches lie in close vicinity of each other. in particular,
+glu-388 was observed to lose 12.5-å2 (roughly 26%) surface
+area during the interaction with  xxxg278xxx .
+it may be noted that the residues of the ha binding motif (of
+ xxxg278xxx ) are not involved in any of its interactions with spnhl.
+of the three potential ha binding sites on a given  xxxg278xxx  trimer, two are completely accessible during the inhibitory interaction. the third binding site shows a small overlap as three of
+the 24  xxxg278xxx  residues required for sugar binding lose partial
+side chain accessibility during the inhibitory interaction. these
+three residues are shown in table 1. a perusal of this partially
+buried region reveals that the lost  xxxd234xxx . is relatively insignificant
+(roughly 6%) as a result of which all three binding sites of
+ xxxg278xxx  retain sufficient accessibility when it mediates the inhibition of spnhl. the significance of this observation for the
+mechanism of action is discussed below.
+
+discussion
+in the present study, we have characterized human  xxxg278xxx 
+as the only known endogenous protein inhibitor of spnhl, thus
+implying indirectly its functional role in defense against bacterial invasion. the mechanistic/structural aspects of this inhibition have been elucidated with the help of docking simulations.
+ xxxg278xxx  with an ic50 value of 22 ␮m is one of the most potent
+inhibitors of spnhl reported to date.  xxxd228xxx  6- xxxd2833xxx  has previously been reported as an inhibitor of s. agalactiae  xxxd2289xxx  lyase with an ic50 of 4 ␮m, but it showed
+much weaker inhibition of spnhl with an ic50 of 100 ␮m (27).
+we have analyzed enzyme substrate interaction in context with
+enzyme-inhibitor and substrate-inhibitor interactions to elucidate the structural details of the observed inhibition.
+preincubation of  xxxg278xxx  and ha was able to inhibit the
+enzyme activity, and there was no further degradation of ha
+upon addition of spnhl to the reaction solution. it was
+observed that ha degradation and product release are totally
+dependent on the ratio of  xxxg278xxx  and ha molecules present in
+the reaction solution. with the increase in  xxxg278xxx  concentration in the reaction solution, a decrease in enzymatic activity
+was observed, whereas upon increasing the concentration of
+ha, the enzymatic activity was retained. for a given amount of
+ha, however, low  xxxg278xxx  was not able to block enzyme or
+sequester substrate, but with high concentration of  xxxg278xxx ,
+95% inhibition was observed. furthermore there was no change
+in enzymatic activity when the concentration of ha was kept
+equal to that of  xxxg278xxx . it is therefore plausible that during the
+preincubation binding occurred between  xxxg278xxx  and its ligand
+journal of biological chemistry
+
+3903
+
+downloaded from http://www.jbc.org/ by guest on october 15, 2019
+
+ionic interactions. the inhibitory activity of  xxxg278xxx  is evidently
+due to the combined effect of the considerable number of noncovalent interactions it forms with catalytically essential residues in the active site of the enzyme.
+as can be seen in fig. 4, the binding potency of the inhibitor
+is a virtue of electrostatic, hydrophobic, and hydrogen bonding
+interactions all along the contact interface mainly in the catalytic pocket region and a few involving the ␣-domain of the
+enzyme. several interesting features of the complex become
+evident because the orientation of inhibitor obstructs the
+region on the enzyme where substrate must enter and bind,
+thereby rendering the cleft inaccessible. the majority of interactions at the interface are electrostatic in nature. it may be
+noted that the enzyme active site, which is in the form of a cleft
+between the two structural domains of spnhl, has a highly
+positive center, and the negatively charged projection of
+ xxxg278xxx  plays a key role in facilitating the attachment, thereby
+effecting the high charge complementarity at the interface. the
+maximum ionic contacts are observed in the product release
+region, which has previously been shown to be an important
+target site for hyaluronidase inhibitors (27). small moleculebased inhibitor design strategies also target specific residues
+within the active site that are known to be crucial for catalysis.
+targeting of these sites in the enzyme has been reported to add
+to the potency of inhibition (43). these reports add strength to
+our data because many of the reported crucial groups of residues were observed to be blocked by the inhibitor  xxxg278xxx  in the
+final refined model as follows.
+the catalytic triad—the side chain of the catalytically
+active his-399 residue is blocked by close proximity to the
+backbone and negative side chains of residue asp-197 on the
+inhibitor. as shown in fig. 4, residues his-399 and asn-349 of
+the catalytic triad make electrostatic and hydrogen bond interactions with the inhibitor. his-399 makes a hydrogen bond with
+ser-201 of  xxxg278xxx , whereas asn-349 is involved in hydrogen
+bonding with residue asp-197. although tyr-408 does not
+interact specifically with the inhibitor, it is within 5-å distance
+of the negative projection of  xxxg278xxx  and thus rendered
+solvent-inaccessible.
+the aromatic patch—residues trp-291, trp-292, and phe343 of spnhl are known to constitute the aromatic patch on
+one end of the enzyme cleft, which has been reported to be
+responsible for the correct positioning of substrate chains for
+catalysis, i.e. for the selection of cleavage sites on the ha substrate (27). asp-197 of  xxxg278xxx  completely obstructs this aromatic patch, making hydrophobic interactions with all three
+patch residues. trp-292 makes additional hydrophobic interactions with residues 198 –200 of the inhibitor. interactions
+between other residues in the vicinity, namely ile-296 and gly297 from the enzyme and ala-199 from the inhibitor, further
+obstruct the surface accessibility of this patch. overall these
+interactions lead to a total loss of more than 75% residue
+surface accessibility for the aromatic patch, thereby burying
+it extensively.
+the positive and negative patches—the dense electrostatic
+interactions at the binding interface depicted in fig. 4 are
+formed between the outermost residues of the catalytically
+essential positive patch of the enzyme and the negative surface
+
+inhibition of spnhl by  xxxg278xxx 
+
+3904 journal of biological chemistry
+
+figure 5. proposed model for the multifaceted mechanism of habp1mediated spnhl inhibition. in this figure, multiple ha hexasaccharide
+ligands (atom colors, stick representation) have been structurally superimposed upon the docked complex of enzyme and inhibitor (trimer shown in
+gray). spnhl has been colored by secondary structure (helices, red; sheets,
+yellow; loops, green), and its active site has been depicted with ha oligomer
+to highlight how the substrate binding region is entirely blocked by the one
+side/face of the inhibitor. similarly multiple ha oligomers have been depicted
+bound to the inhibitor to show that the three ha binding motif sites (green,
+line representation) are free to bind substrate ha molecules even when one
+entire side of the protein is blocking the spnhl active site. residues of the
+enzyme and inhibitor within 5 å of each other are depicted in blue and purple
+lines. hydrogen bonds are depicted as yellow dashes. the ha orientations
+used for superimposition have been taken from the crystal structure (for
+spnhl), and the top ranking docked complexes are discussed in the text (for
+ xxxg278xxx ).
+
+architectures and are therefore not likely to be inhibited by
+ xxxg278xxx . it may be conjectured that this strategy of selective
+defense against bacterial hyaluronidases may have evolved in
+mammalian hosts to protect their own hyaluronidases from
+inhibition. it is encouraging to note that there have been
+reports of up-regulation and involvement of  xxxg278xxx  in inflammation, apoptosis, and bacterial infections like listeria (44, 45).
+based on the crystal structure it has been suggested that terminal ␣-helices of  xxxg278xxx  are critical for maintaining trimeric
+assembly as well as protein-protein interactions (33, 46). this is
+also evident from the trp-glu signature motif at the n-terminal region of  xxxg278xxx  that is homologous to the wd-40 family of
+proteins that play predominant roles in interprotein interactions (47). a few viral proteins and bacterial proteins have
+already been reported to interact with  xxxg278xxx  (48). however,
+although its multifunctional nature has been characterized, its
+role in hyaluronan protection has never been explored before.
+apart from the ability to competitively inhibit bacterial hyaluronidases,  xxxg278xxx  has the added advantage of being able to
+bind and sequester multiple ha oligomers by virtue of its
+unique structural asymmetry. our observations thus also
+explain the inherent charge asymmetry of the  xxxg278xxx  structure
+that had not been accounted for until now. it may be speculated
+that, at least to some extent, this characteristic may be used to
+volume 284 • number 6 • february 6, 2009
+
+downloaded from http://www.jbc.org/ by guest on october 15, 2019
+
+ha, thereby protecting the latter from the enzyme. this deduction was structurally supported by docking experiments
+between  xxxg278xxx  and ha that revealed a tight binding with the
+␤-1,4-glycosidic linkage of ha via hydrogen bonding as well as
+hydrophobic interactions (shown in fig. 2 and table 1).
+having thus confirmed the protection of ha by  xxxg278xxx , we
+tested whether this was the exclusive mode of inhibition used
+by the inhibitor. as shown in fig. 1a, the inhibition of enzyme
+observed upon preincubating substrate and inhibitor was found
+to be comparable to the inhibition observed upon preincubating the enzyme and inhibitor. subsequently assays were carried
+out to determine the nature of this inhibition. as shown in fig.
+3, lineweaver-burke plot analysis confirmed that  xxxg278xxx 
+inhibits spnhl activity in a competitive manner. docking
+experiments between spnhl and  xxxg278xxx  further provided the
+molecular details of the contact interface between  xxxg278xxx  and
+the active site cleft of spnhl (fig. 4). it was also observed that
+ xxxg278xxx  uses only the negative side/face of its trimeric (roughly
+flat) structure during the inhibition of spnhl. these observations were taken together to build a novel mechanism of
+ xxxg278xxx -mediated inhibition of spnhl.
+a novel mechanism for  xxxg278xxx -mediated inhibition of
+spnhl—the fascinating aspect of our study is that the sugar is
+capable of binding to both enzyme and inhibitor, and in both
+cases, it is the ␤-1,4-glycosidic linkage of the sugar, which is
+buried in the receptors. rationalization of the competitive
+nature of inhibition has further revealed that the enzyme
+spnhl binds to the substrate and inhibitor in the same region,
+namely the active site cleft. it is remarkable that the doughnutshaped  xxxg278xxx  acting as an inhibitor uses only its negative face/
+side for blocking the enzyme, whereas the opposite side/face is
+used for binding to the relatively negatively charged ha. evidently the inhibitor uses two distinct and spatially separate sites
+for binding to the enzyme and the substrate. based on these
+observations from experiments as well as computational simulations, we hypothesize that  xxxg278xxx  may use a novel and unique
+multipronged mechanism/model for lowering hyaluronidase
+activity. according to this model, on one hand,  xxxg278xxx 
+obstructs the active site of the enzyme to inhibit its activity,
+thereby following the nature of competitive inhibition. on the
+other hand, it uses its large free side/face to bind and sequester
+up to three additional ha polymers from the matrix, thereby
+protecting ha from spnhl-mediated degradation during
+infection. this model has been structurally depicted in fig. 5.
+although one of the three inter chain junctions (or ha binding
+sites) shows a slight loss of residue surface area during the
+inhibitory interaction, 21 of 24 residues depicted in table 1
+remain fully accessible and free to bind ha oligomers. alternatively a single long polymer of ha may bind to  xxxg278xxx  using all
+three of its binding sites to circumvent degradation.
+biological implications—our findings reveal that  xxxg278xxx 
+interacts with and blocks a large number of crucial/conserved
+groups of residues in the active site cleft of spnhl. a majority of
+bacterial  xxxd2289xxx  lyases are known to have a high degree of
+sequence conservation in the cleft region, and consequently, we
+speculate that they may also be inhibited by  xxxg278xxx  in a similar
+manner. in contrast, mammalian and bacteriophage hyaluronidase enzymes have very different sequence as well as structural
+
+inhibition of spnhl by  xxxg278xxx 
+
+references
+1. chain, e., and duthie, e. s. (1939) nature 144, 977–978
+2. mathews, m. b., and dorfman, a. (1955) physiol. rev. 35, 381– 402
+3. hynes, w. l., and walton, s. l. (2000) fems microbiol. lett. 183,
+201–207
+4. rapport, m. m., linker, a., and meyer, k. (1951) j. biol. chem. 192,
+283–291
+5. laurent, t. c., laurent, u. b., and fraser, j. r. (1996) immunol. cell biol.
+74, a1–7
+6. day, t. d. (1950) nature 166, 785–786
+7. csoka, t. b., frost, g. i., and stern, r. (1997) invasion metastasis 17,
+297–311
+8. weissmann, b., meyer, k., sampson, p., and linker, a. (1954) j. biol.
+chem. 208, 417– 429
+9. kreil, g. (1995) protein sci. 4, 1666 –1669
+10. jedrzejas, m. j., mewbourne, r. b., chantalat, l., and mcpherson, d. t.
+(1998) protein expr. purif. 13, 83– 89
+11. li, s., kelly, s. j., lamani, e., ferraroni, m., and jedrzejas, m. j. (2000)
+embo j. 19, 1228 –1240
+12. laurent, t. c., and fraser, j. r. (1992) faseb j. 6, 2397–2404
+13. stern, r. (2004) eur. j. cell biol. 83, 317–325
+14. stern, r. (2003) glycobiology 13, 105r–115r
+15. meyer, k., and rapport, m. m. (1951) j. biol. chem. 188, 485– 490
+16. haas, e. (1946) j. biol. chem. 163, 63– 68
+17. fiszer-szafarz, b. (1968) proc. soc. exp. biol. med. 129, 300 –302
+18. dorfman, a., ott, m. l., and whitney, r. (1948) j. biol. chem. 174,
+
+february 6, 2009 • volume 284 • number 6
+
+621– 629
+19. brodiagin, n. a., and saburov, g. e. (1970) biull. eksp. biol. med. 70,
+52–54
+20. asada, m., sugie, m., inoue, m., nakagomi, k., hongo, s., murata, k., irie,
+s., takeuchi, t., tomizuka, n., and oka, s. (1997) biosci. biotechnol. biochem. 61, 1030 –1032
+21. kuppusamy, u. r., khoo, h. e., and das, n. p. (1990) biochem. pharmacol.
+40, 397– 401
+22. mio, k., csoka, a. b., nawy, s. s., and stern, r. (2001) methods mol. biol.
+171, 391–397
+23. udabage, l., brownlee, g. r., stern, r., and brown, t. j. (2004) glycoconj.
+j. 20, 461– 471
+24. li, s., taylor, k. b., kelly, s. j., and jedrzejas, m. j. (2001) j. biol. chem. 276,
+15125–15130
+25. spickenreither, m., braun, s., bernhardt, g., dove, s., and buschauer, a.
+(2006) bioorg. med. chem. lett. 16, 5313–5316
+26. suzuki, k., terasaki, y., and uyeda, m. (2002) j. enzyme inhib. med. chem.
+17, 183–186
+27. botzki, a., rigden, d. j., braun, s., nukui, m., salmen, s., hoechstetter, j.,
+bernhardt, g., dove, s., jedrzejas, m. j., and buschauer, a. (2004) j. biol.
+chem. 279, 45990 – 45997
+28. turley, e. a., noble, p. w., and bourguignon, l. y. (2002) j. biol. chem.
+277, 4589 – 4592
+29. toole, b. p. (1990) curr. opin. cell biol. 2, 839 – 844
+30. day, a. j., and prestwich, g. d. (2002) j. biol. chem. 277, 4585– 4588
+31. deb, t. b., and datta, k. (1996) j. biol. chem. 271, 2206 –2212
+32. gupta, s., batchu, r. b., and datta, k. (1991) eur. j. cell biol. 56, 58 – 67
+33. jiang, j., zhang, y., krainer, a. r., and xu, r. m. (1999) proc. natl. acad.
+sci. u. s. a. 96, 3572–3577
+34. jha, b. k., salunke, d. m., and datta, k. (2003) j. biol. chem. 278,
+27464 –27472
+35. akhtar, m. s., and bhakuni, v. (2003) j. biol. chem. 278, 25509 –25516
+36. yamagata, t., saito, h., habuchi, o., and suzuki, s. (1968) j. biol. chem.
+243, 1523–1535
+37. jedrzejas, m. j., mello, l. v., de groot, b. l., and li, s. (2002) j. biol. chem.
+277, 28287–28297
+38. hubbard, s. j., and thornton, j. m. (1993) naccess, university college,
+london
+39. humphrey, w., dalke, a., and schulten, k. (1996) j. mol. graph. 14,
+33–38, 27–38
+40. delano, w. l. (2002) the pymol user’s manual, delano scientific, palo
+alto, ca
+41. yang, b., yang, b. l., savani, r. c., and turley, e. a. (1994) embo j. 13,
+286 –296
+42. deb, t. b., majumdar, m., bhardwaj, a., jha, b. k., and datta, k. (2001) in
+hyaluronan (kennedy, j. f., philips, g. o., and williams, p. a., eds) vol. 1,
+pp. 365–372, woodhead publishing ltd., cambridge, uk
+43. rigden, d. j., botzki, a., nukui, m., mewbourne, r. b., lamani, e., braun,
+s., von angerer, e., bernhardt, g., dove, s., buschauer, a., and jedrzejas,
+m. j. (2006) glycobiology 16, 757–765
+44. ghebrehiwet, b., lim, b. l., kumar, r., feng, x., and peerschke, e. i. (2001)
+immunol. rev. 180, 65–77
+45. braun, l., ghebrehiwet, b., and cossart, p. (2000) embo j. 19, 1458 –1466
+46. schaerer, m. t., kannenberg, k., hunziker, p., baumann, s. w., and sigel,
+e. (2001) j. biol. chem. 276, 26597–26604
+47. iwasaki, y., komano, m., ishikawa, a., sasaki, t., and asahi, t. (1995)
+plant cell physiol. 36, 505–510
+48. ito, s., ikeda, m., kato, n., matsumoto, a., ishikawa, y., kumakubo, s., and
+yanagi, k. (2000) virology 266, 110 –119
+
+journal of biological chemistry
+
+3905
+
+downloaded from http://www.jbc.org/ by guest on october 15, 2019
+
+protect the host ha matrix from endogenous hyaluronidases as
+well.
+competitive inhibition conventionally refers to structural
+analogy between substrate and inhibitor leading to competition
+of both for the active site of the enzyme. it must be noted that
+although we demonstrate the phenomenon of competitive
+inhibition here the inhibitor is structurally distinct from the
+substrate, and there is also a simultaneous blocking interaction
+of  xxxg278xxx  with its substrate ha. such a dual mode of inhibition
+is a unique phenomenon by itself, not previously demonstrated
+by any other enzyme inhibitor. it is true that free unbridled
+hyaluronidase activity would create much havoc, and nature
+must have created a great number of mechanisms for keeping
+these enzymes in check, mechanisms that must function at
+multiple levels. we believe that the data presented in this work
+may describe how remarkable such checking mechanisms can
+be and that they may indeed function at multiple levels
+simultaneously.
+in conclusion, the identification of  xxxg278xxx  as a competitive
+inhibitor of spnhl constitutes a new line of defense against
+bacterial invasion and offers novel opportunities for therapeutic intervention, making it a highly suitable candidate to be
+investigated further for optimization of potency and specificity
+against bacterial virulence factors. furthermore based on the
+insights obtained in this study, it will be possible to design short
+inhibitory peptides for binding and protecting ha polymers.
+efforts in this direction present an alternative to synthetic
+chemicals and are currently underway in our laboratory.
+
+evidence for inhibitory interaction of  xxxg278xxx 
+( xxxg278xxx /p32/ xxxg278xxx ) with streptococcus pneumoniae hyaluronidase
+gitanjali yadav, ramachandra l. a. prasad, babal kant jha, vivek rai, vinod bhakuni
+and kasturi datta
+j. biol. chem. 2009, 284:3897-3905.
+doi: 10.1074/jbc.m804246200 originally published online november 11, 2008
+
+access the most updated version of this article at doi: 10.1074/jbc.m804246200
+alerts:
+• when this article is cited
+• when a correction for this article is posted
+
+this article cites 46 references, 18 of which can be accessed free at
+http://www.jbc.org/content/284/6/3897.full.html#ref-list-1
+
+downloaded from http://www.jbc.org/ by guest on october 15, 2019
+
+click here to choose from all of jbc's e-mail alerts
+

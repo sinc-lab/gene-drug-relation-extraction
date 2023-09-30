@@ -1,0 +1,1750 @@
+1364
+
+proarrhythmic response to
+sodium channel blockade
+theoretical model and numerical experiments
+c. frank starmer, phd; anselmo a. lastra, phd;
+vladislav v. nesterenko, phd; and augustus 0. grant, md, phd
+
+background. the use of  xxxd2113xxx  and  xxxd1991xxx  was terminated in the cardiac arrhythmia
+suppression trial because of an excess of sudden cardiac deaths in the active treatment group.
+such events might arise from reentrant rhythms initiated by premature stimulation in the
+presence of anisotropic sodium channel availability. drugs that bind to sodium channels
+increase the functional dispersion of refractoriness by slowing (a result of the drug-unbinding
+process) the transition from an inexcitable state to an excitable state. it is interesting that
+ xxxd1991xxx  and  xxxd2113xxx  unbind slowly (15-20 seconds), whereas lidocaine and  xxxd2669xxx 
+unbind rapidly (0.2-1.3 seconds).
+methods and results. with a computer representation of a cable with beeler-reuter membrane
+properties, we found a small (6 msec) vulnerable window that occurred 338 msec after the last
+drive stimulus. premature stimuli falling within the vulnerable window resulted in unidirectional block and reentrant activation. in the presence of a slowly unbinding drug, the window
+was delayed an additional 341 msec, and its duration was extended to 38 msec. the delay
+(antiarrhythmic effect) before the onset of the vulnerable window and its duration (proarrhythmic effect) were both dependent on the sodium channel availability and the recovery process.
+both effects were also prolonged when sodium channel availability was reduced by membrane
+depolarization. defining the proarrhythmic potential as the duration of the vulnerable window,
+we found that hypothetical use-dependent class i drugs have a greater proarrhythmic potential
+than non-use-dependent drugs.
+conclusions. the antiarrhythmic and proarrhythmic properties of pure sodium channel
+antagonists are both dependent on sodium channel availability. consequently, the price for
+increased antiarrhythmic efficacy (suppressed premature ventricular contractions) is an
+increased proarrhythmic vulnerability to unsuppressed premature ventricular contractions.
+(circulation 1991;84:1364-1377)
+
+r ecently, the use of  xxxd2113xxx  and  xxxd1991xxx 
+was discontinued in the cardiac arrhythmia suppression trial (cast),1 but the use
+
+of  xxxd2669xxx  was continued. among the causes of
+sudden death, this study suggests that certain antiarrhythmic agents can significantly amplify the likelihood of life-threatening arrhythmic events. there
+are many possible mechanisms for drug-associated
+arrhythmogenesis, including modification of passive
+properties2 and slowed conduction as a result of
+from the departments of medicine and computer science
+
+(c.f.s., a.a.l., a.o.g.), duke university medical center,
+durham, n.c.; and the laboratory of heart electrophysiology
+(v.v.n.), institute of experimental cardiology, academy of medical science, moscow, ussr.
+supported in part by grants hl-32994, hl-32708, and hl11307 from the national heart, lung, and blood institute, national institutes of health (nih), and by the joint us-ussr
+scientific exchange in problem area 5, sudden death. computer
+
+modified sodium channel conductance.3 all of these
+drugs interact with the cardiac sodium channel and
+modify the time course of availability of sodium
+channels for recruitment in the excitatory process.4
+reentrant rhythms occur in a variety of settings,
+and it has been proposed that unidirectional block,
+perhaps resulting from a dispersion of the refractory
+states of individual cells, is a requirement for initiation.5 investigators have discussed dispersion of refractoriness as a reflection of cellular variations of
+time was provided by grants from the pittsburgh supercomputer
+center through grant rr-04154 from the division of research
+resources, nih; the north carolina supercomputer center; the
+advanced computing research facility, mathematics and computer science division, argonne national laboratories; and cray
+research inc.
+address for correspondence: c. frank starmer, phd, box 3181,
+duke university medical center, durham, nc 27710.
+received november 27, 1990; revision accepted may 14, 1991.
+
+downloaded from http://circ.ahajournals.org/ by guest on march 14, 2015
+
+starmer et al modeling proarrhythmic potential
+
+the repolarization process derived from structural
+differences between cells. less obvious is the possibility of achieving functional dispersion of refractoriness in an array of identical excitable cells.6 this
+dispersion is the result of identical repolarization
+processes coupled with a finite conduction velocity.
+with activation, cells make a transition between an
+excitable state and an inexcitable state. after an
+interval of time associated with the plateau region of
+the cardiac action potential, cells return to the excitable state. because activation and recovery wave
+fronts propagate at a finite velocity, cells in different
+spatial regions of the heart will exhibit different
+states of recovery or excitability, depending on their
+location relative to the activation or recovery wave
+front.
+from a theoretical perspective, however, the distribution of refractory states relative to the stimulation site is also critical for initiating reentrant processes. if refractoriness is dispersed but isotropic
+(varies in a similar manner in all directions relative to
+a stimulation site), then premature stimulation will
+result in only bidirectional block or bidirectional
+conduction. on the other hand, if refractoriness is
+anisotropic in the region of the stimulation site, then
+unidirectional block is possible. spach and colleagues7 elegantly demonstrated microreentry resulting from premature stimulation in the presence of
+structural anisotropy as determined by directional
+differences in cell properties. functional anisotropy
+in an array of identical cells can be generated for a
+short period of time by selecting a premature stimulation site remote from a drive site. thus, when the
+wave front derived from drive site stimulation passes
+over the premature stimulation site, refractoriness
+will transiently be greater in the antegrade direction
+than in the retrograde direction-a result of functional anisotropy. as with structural anisotropy, a
+critically timed stimulus at a site of functional anisotropic excitability will also lead to unidirectional
+block.
+the critical time when refractoriness is anisotropic
+occurs when cells experience a transition from an
+inexcitable state to an excitable state such that sodium channel availability is different in different
+directions. (the same applies to nodal tissue where
+calcium channel availability is the primary determinant of excitability.) the duration of the transition
+time between inexcitable and excitable states is a
+complex function of repolarizing currents, membrane
+potential, and the degree of sodium channel availability, whereas spatial dispersion of channel availability is a function of the direction and velocity of
+the propagated wave front.
+lidocaine,  xxxd2669xxx ,  xxxd2113xxx , and  xxxd1991xxx 
+block sodium channels in a use-dependent manner4 8-11 and slow the recovery of channel availability.
+use-dependent antagonism, where the formation of
+drug-complexed channels is dependent on the stimulation frequency, will result when blockade is sensitive to membrane potential and/or channel protein
+
+1365
+
+conformation. thus, under certain conditions, increasing the frequency of cellular stimulation will
+result in increasing the fraction of blocked channels.
+increasing the degree of blockade with increasing
+frequency of stimulation is the cumulative effect of
+incomplete unblocking during the interstimulus interval, which in turn is dependent on the time course
+of uncoupling of the drug-complexed channel.
+these drugs exhibit unbinding time constants ranging from 200 msec for lidocaine4 to 20 seconds for
+ xxxd1991xxx ,11 which can significantly affect sodium
+channel availability at rapid heart rates. because
+lidocaine has few reported proarrhythmic properties
+relative to those reported for  xxxd2113xxx , we hypothesized that one dimension of the proarrhythmic
+potential of an antiarrhythmic agent might be associated with the "apparent" dispersion of refractoriness (functional anisotropy) as determined by sodium
+channel availability. based on this hypothesis, we
+anticipated that lidocaine would be the least proarrhythmic (a result of rapid recovery of channel
+availability), whereas slower unbinding drugs would
+be progressively more proarrhythmic.
+to test this hypothesis, we simulated the electrical
+responses to premature stimulation in both a 4-cm
+cable with membrane properties identical to those of
+the beeler-reuter ventricular cell12 and an 8-cm ring
+of cells. because demonstration of reentry is dependent on path length, we chose to focus these investigations on exploring the factors controlling unidirectional block in the cable and used the simulations of
+reentry in a ring to demonstrate that reentry did
+follow from unidirectional block, given a sufficiently
+long path.
+our primary goal was to explore functional anisotropy by using different sites of drive and premature
+stimulation to identify the vulnerable window (vw)
+during which premature stimulation produced unidirectional conduction block and to observe the effects
+of sodium channel availability and the rate of unblocking on the duration of vw. these computational experiments were followed by in vitro experiments13 in which the protocol for searching for the
+vulnerable region was patterned after the results of
+the computational experiments.
+model
+the numerical experiments used a one-dimensional cable model of beeler-reuter membrane.12
+the unmodified beeler-reuter model was selected
+for several reasons. it has been used in many simulation studies (e.g., references 14 and 15), and the
+model of the depolarization process has been
+matched to the model of the repolarization process.
+this is particularly important because our model of
+drug-channel interaction is based on binding to inactivated channels, and the lifetime of an inactivated
+channel is determined by the time course of repolarization. the equations were discretized and solved
+numerically.1617 the values of the model parameters
+are illustrated in table 1.
+
+downloaded from http://circ.ahajournals.org/ by guest on march 14, 2015
+
+1366
+
+circulation vol 84, no 3 september 1991
+
+table 1. parameter values of numerical experiments
+
+a x=0.033 cm
+
+c= 1 /lf/cm'
+
+a t=0.01 msec
+
+ri=250 qcm
+
+gna=4.0 ms/cm2
+gnac=0.003 ms/cm2
+gk=0.35 ms/cm2
+g,l=0.8 ms/cm2
+
+length=4.2 or 8.0 cm
+radius=0.0007 cm
+mesh ratio=0.0126
+
+gca=0.09 ms/m2
+vna=50 mv
+
+there are several models of ion channel blockade.18-20 we chose the guarded receptor model,21 a
+generalization of armstrong's model,18 to represent
+the interaction between the cardiac sodium channel
+and an antiarrhythmic drug. the guarded receptor
+model involves fewer rate constants than the modulated receptor model19 and does not assume modification of the channel inactivation process in drugcomplexed channels. furthermore, experimentally
+derived rate constants for lidocaine based on the
+guarded receptor model are readily available.22,23 for
+purposes of the numerical experiments, we used
+lidocaine as a model drug with blockade occurring
+predominantly to channels in an inactivated conformation according to the following:
+kd
+r =c i b
+a
+
+-
+
+where r is the rest state, i is the inactivated state, b
+is the blocked state, and ,b are channel transition
+rates, and kd and are rates of binding and unbinding. if h is the fraction of available channels [h=r/
+(r+i)] in the absence of drug, then the time course
+of blockade is described by the solution of the
+following:
+a
+
+db
+=
+
+kd(1-h)(1 -b)-- b
+
+where b is the fraction of blocked channels.22 the
+beeler-reuter sodium current as modified by channel blockade is described by the following:
+
+ina=gna m3h j(1 b)(v vna)
+recent studies in our laboratory22'23 provided data
+regarding lidocaine rates of binding and unbinding
+and their voltage dependence. because our emphasis
+in these studies was on the effect of the time course
+of the unblocking process and both inactivated and
+open channel antagonists exhibit exponential recovery,8,24 the nature of the blocking process was considered a secondary effect and was not investigated.
+we selected a range of rates for hypothetical drugs
+that illustrated an effect on the delay to and duration
+of the window. thus, the focus of these studies was to
+demonstrate and explore the existence of the vw
+while the relation to "real" drugs was left for the in
+vitro studies.
+
+to study the effect of the rate of unbinding, we
+fixed the forward rate at 4 events/sec (similar to that
+observed for 80 ,um lidocaine) and varied the reverse
+or unbinding rate. to study the effect of drug concentration, we fixed the unbinding rate at 1.5 events/
+sec (similar to that of  xxxd2635xxx ) and varied the
+binding rate (or drug concentration).
+computations were performed on a cray y-mp
+computer at the north carolina supercomputer center and the pittsburgh supercomputer center. programs were written in c and vectorized where possible. computations for the drive train were performed
+once, and the state of the cable just before premature
+stimulation was saved. for each probe of the diastolic
+interval, the drive train results were used as an initial
+condition, and computations were continued for the
+duration of the response to premature stimulation.
+refractory and window times were measured relative
+to either the time of the last drive pulse or the time
+when repolarization passed through -60 mv. the
+results of premature stimulation were saved and used
+later for graphic display and detailed analysis using a
+sun sparc workstation.
+instrumentation. we monitored the membrane potential at 0.5-cm intervals along the length of the
+cable. a stimulating electrode (s5) was placed at one
+end of the cable and used to excite the preparation at
+selected drive rates. a second stimulating electrode
+(s2) was placed at the midpoint of the cable for
+premature stimulation.
+stimulation protocols. the diastolic threshold for
+stimulation at a 1-hz drive rate was determined by
+progressively reducing the stimulus amplitude until
+no response was achieved. for normal stimulation,
+an amplitude of twice diastolic threshold and a
+duration of 1 msec were used for both the drive
+electrode and the premature electrode. the vw was
+located by using a binary search algorithm to scan the
+postrepolarization interval. after a 10- or 20-pulse
+train was applied to the drive (sl) electrode, a single
+premature stimulus was applied to the midpoint
+electrode (s2). if bidirectional conduction was observed in response to the premature excitation, then
+the more premature interval of time was bisected.
+premature stimulation was applied at a time equal to
+the midpoint of the left interval. if bidirectional block
+was observed, then the less premature interval was
+bisected and the right subinterval was tested. this
+process was continued until the boundaries of the
+vw were determined to within a specified interval.
+to investigate reentry, we connected one end of
+the cable to the other end. loops of 4 and 8 cm were
+used to investigate reentry. as with the cable experiments, data were usually monitored at 0.5 -cm intervals. the premature stimulation electrode was located one fourth of the circumference distant from
+the drive electrode.
+results
+the primary goal of this investigation was to test
+the hypothesis that prolongating the recovery of
+
+downloaded from http://circ.ahajournals.org/ by guest on march 14, 2015
+
+starmer et al modeling proarrhythmic potential
+premature stimulus
+
+a
+
+time
+
+337
+
+b
+
+mmmc
+
+premature stimulus tnm
+
+338 m
+
+4.0
+
+x
+
+:
+
+c
+
+x
+
+--
+
+0.0
+
+x
+
+500
+
+400
+
+300
+
+,~o
+
+premature stinldus
+x
+
+x
+
+-
+
+tme m
+
+343 msec
+
+4.0
+
+0.0
+
+300
+
+400
+
+time (ma)
+
+400
+
+.;,500
+
+figure 1. traces showing spatial and temporal responses in retrograde and antegrade
+directions to premature stimulation. each
+panel contains nine traces representing membrane potentials observed at 0.5-cm intervals
+along length of cable. drive stimuli are applied at x=0 (bottom trace), and premature
+stimuli are applied at x=2 cm (middle
+trace). horizontal axis indicates time relative
+to last stimulus in drive train. panel a:
+response 1 msec before most premature
+boundary of vulnerable window. note that
+there
+
+time (me)
+
+c
+
+,
+
+300
+
+500
+
+300
+
+1367
+
+is
+
+no
+
+response
+
+in
+
+either
+
+antegrade
+
+or
+
+retrograde direction. panel b: response when
+timing of premature stimulus corresponds to
+most premature boundary of vulnerable window. here, response to stimulation is propagated in retrograde direction, but conduction
+is blocked in antegrade direction. panel c:
+~-~----~--~=-response when timing of premature stimulus
+corresponds to least premature boundary of
+vulnerable window. again, premature response is propagated in retrograde direction
+and blocked in antegrade direction. panel d:
+response when timing of premature stimulus
+is delayed 1 msec beyond least premature
+boundary. response is seen to propagate in
+_both antegrade and retrograde directions. du..-.r.....-...j ration of vulnerable window under control
+1 --500 conditions was 6 msec.
+4.0
+time (me)
+
+sodium channel availability influences the delay to
+and duration of the vw, during which premature
+stimulation can elicit transient unidirectional block.
+to explore this hypothesis, we first computed the
+responses to premature stimulation under drug-free
+conditions where sodium channel availability was
+modulated by either changing the maximum sodium
+conductance or increasing the fraction of inactivated
+channels by reducing the resting membrane potential. we then explored the effects of dynamic changes
+in sodium channel availability in response to usedependent sodium channel blockade.
+figure 1 illustrates computed responses to premature stimulation at the most premature boundary
+(mpb) and the least premature boundary (lpb) of
+the vw under control conditions. these results,
+derived from a continuous cable, are qualitatively
+similar to those derived from a one-dimensional
+array of coupled cells studied by quan and rudy.25
+under control conditions, we found the duration of
+the vw to be 6 msec (from 338 msec through 343
+msec after the last drive, sl stimulus) when a 4-ma/
+cm2, 1-msec stimulus pulse was used. the results
+appear insensitive to the detailed kinetics of the
+sodium channel since quan and rudy'1 replaced the
+beeler-reuter sodium channel model with the ebi-
+
+hara-johnson sodium channel model.26 the conduction velocity, as estimated from the time required for
+the peak of an action potential to travel the length of
+the cable, was 50 cm/sec.
+reducing the maximal sodium channel conductance increased the window duration and delayed the
+appearance of the window. under control conditions,
+sodium conductance ( na) was 4.0 ms/cm2, the window duration was 6 msec, and the window was
+located 338 msec after the last drive stimulus. as can
+be seen in table 2, increasing the conductance above
+table 2. window parameters as a function of maximum
+sodium conductance
+window
+width
+conduction
+gna
+location (msec)*
+velocity (m/sec)
+(msec)
+(ms/cm 2)
+2.0
+no conduction
+...
+...
+13
+0.37
+2.5
+359
+8
+0.43
+349
+3.0
+7
+342
+0.47
+3.5
+337
+6
+0.50
+4.0
+4
+0.61
+326
+6.0
+4
+0.68
+320
+8.0
+*window location is measured relative to time of last drive pulse.
+
+downloaded from http://circ.ahajournals.org/ by guest on march 14, 2015
+
+circulation vol 84, no 3 september 1991
+
+1368
+
+the control value reduces the delay to the start of the
+vw (refractory period) and its duration, whereas
+reducing the conductance below the control value
+delays the vw and prolongs its duration.
+we sought to approximate the effects of ischemia
+by reducing the resting membrane potential (by
+reducing the potassium equilibrium potential); we
+then explored the effects of membrane potential on
+window location and width. as seen in table 3,
+progressive depolarization of the resting membrane
+potential results in monotonic increases in the refractory period (window location) and in the duration of
+the vw.
+in the presence of a fast recovery drug (kd, 4
+second-1; e, 4 second-1), we found that the window
+width increased from 6 to 9 msec. decreasing the
+unbinding rate from 4 to 0.8 event/sec while maintaining the binding rate resulted in an increase to 38
+msec of the duration of the vw. thus, use-dependent agents appear able to prolong the duration of
+the window beyond that associated with a simple
+reduction of the maximal sodium conductance.
+shown in figure 2 are responses at the mpb and
+lpb of the vw when the unbinding rate was 0.8
+second`. the retrograde conduction velocity under
+these conditions was 42 cm/sec. further reductions in
+a
+
+pmatue stimuhis tim
+x
+
+.
+
+-
+
+426 mc
+
+b
+
+premature stimulus tim
+
+table 3. window parameters as a function of resting potential
+window location (msec)*
+width
+337
+6
+361
+7
+-75
+395
+10
+-73
+417
+14
+-70
+no conduction
+*window location is measured relative to last drive pulse.
+
+vm (mv)
+-85
+-80
+
+the unbinding rate resulted in progressive increases
+in the duration of the vw and reductions in conduction velocity.
+in exploring the effect of stimulus energy, we
+systematically increased the amplitude and duration
+of the premature pulse. using a 1-msec stimulus
+duration and varying the amplitude, we found that
+the lpb was insensitive to the stimulus amplitude,
+whereas the delay to the mpb increased as the
+amplitude was decreased (figure 3a). similarly, using an amplitude of 4 ma/cm2 and varying the
+duration, we found that the lpb was insensitive to
+stimulus duration, whereas the delay to the mpb
+decreased as the stimulus duration was increased
+(figure 3b). the overall result was that increasing
+-
+
+427 msc
+
+0
+4_0
+
+i
+
+i,
+20
+x -
+
+0.0
+
+400
+
+500
+
+600
+
+time (m)
+
+c
+
+premature stimulus tine
+
+500
+
+400
+
+600
+
+time (ms)
+
+-
+
+449 misc
+
+d
+
+premature stimulus time * 450 msec
+
+x - 4.0
+.
+
+c
+ii
+c
+
+x-
+
+2.0
+
+x -
+
+0.0
+
+400
+
+500
+time
+
+(me)
+
+600
+
+400
+
+500
+
+time
+
+figure 2. traces showing temporal and
+spatial responses to premature stimulation
+in presence of use-dependent sodium channel blockade (kd, 4 second-'; f, 1.5 second-'). horizontal axis indicates time relative to last stimulus in drive train. note that
+responses occur considerably later than under control conditions, indicating a prolonged refractory interval. panels a-d:
+these panels correspond to panels a-d in
+figure 1. duration of vulnerable window is
+23 msec for this drug. note that in addition
+to a prolongation of vulnerable window,
+conduction is slowed as indicated by increased delay of action potential peaks between two monitoring points.
+
+600
+
+(ma)
+
+downloaded from http://circ.ahajournals.org/ by guest on march 14, 2015
+
+starmer et al modeling proarrhythmic potential
+a
+
+1369
+
+effect of stimulus amplitude on window location
+
+ee
+u
+
+,
+
+*-" urn........ u
+
+730
+
+e
+a
+
+720
+
+a ~~~~~~~mpb
+
+a
+
+710
+
+<
+
+a
+
+a
+
+700
+
+a
+
+figure 3. plots of effects of stimulus parameters on
+width of vulnerable window. panel a: effect ofstimulus
+amplitude on duration of vulnerable window in presence
+of a use-dependent sodium channel antagonist (kd, 4
+second-1; e, 0.8 second-l; 1 hz drive frequency). as
+current amplitude is increased, mostpremature boundary
+(mpb) is reduced, whereas least premature boundary
+(lpb) remains constant. similarly, panel b illustrates
+that when stimulus energy is increased by increasing
+duration of stimulus pulse, lpb remains relatively constant, whereas delay to mpb (relative refractory period) is
+reduced.
+
+.
+
+690
+1
+
+3
+
+2
+
+5
+
+4
+
+6
+
+7
+
+8
+
+current (ma)
+
+effect of stimulus duration on window location
+
+b
+
+7400
+
+m......m...rn
+
+e
+
+a a a a a m a
+
+730e30
+0
+
+720
+
+-
+
+a
+a
+
+-i
+
+a
+
+a
+
+710
+
+aa
+aam
+
+aa
+7w0
+
+mb
+lpb
+
+ooo
+
+a
+
+°°ooaa
+
+c0
+
+ao
+
+c
+
+690 a
+0
+
+2
+
+duration (meec)
+
+the stimulus energy by increasing either the amplitude or duration prolonged the window duration by
+decreasing the delay to the mpb.
+when both drive and premature stimuli were
+initiated from the same site, no window was detectable at 1-msec precision. when drive and premature
+stimulation were initiated from different sites, a
+window was detected. exploring this effect in more
+detail, we systematically increased the separation
+between the sites of drive and premature stimulation.
+we found that the majority of the effects of electrode
+separation occurred when the electrodes were separated by less than 1 mm.
+to investigate the effects of drive frequency and
+the level of steady-state blockade on the window
+width, we simulated the response to a drug with an
+intermediate recovery rate (c, 1.5 events/sec) at drive
+intervals of 1.1, 1.0, 0.9, and 0.8 seconds. the window
+width progressively increased with drive frequency,
+ranging from 22 msec at 1.1-second drive interstimulus intervals to 25 msec at 0.8-second drive interstimulus intervals. results of simulations in which
+
+drive frequency and binding and unbinding rates
+varied are shown in table 4.
+the effect of increasing the concentration on the
+window duration was nonlinear and exhibited a typical sigmoid dose-response relation. shown in figure
+4a is the relation between the mpb and lpb of the
+vw as a function of the rate of binding. for a low
+rate of binding and consequently a small fraction of
+blocked channels, the window duration was 9 msec
+and comparable to that under control conditions.
+however, as the binding rate was increased, the
+window duration increased until it stabilized at a
+constant value of approximately 32 msec. similarly,
+the mpb (indicative of the refractory interval that
+reflects the antiarrhythmic potential) increased with
+larger rates of binding, reflecting an increase in the
+antiarrhythmic effect (i.e., the refractory period increased with increasing degrees of blockade). thus,
+both the antiarrhythmic and proarrhythmic potentials appear to reflect the blocking and unblocking
+process, but the proarrhythmic potential appears to
+saturate at a lower concentration.
+
+were
+
+downloaded from http://circ.ahajournals.org/ by guest on march 14, 2015
+
+1370
+
+circulation vol 84, no 3 september 1991
+table 4. window durations as a function of unbinding rate, concentration, and drive frequency
+
+k[d] (second-')
+0.0 (control)
+4
+4
+4
+4
+4
+4
+4
+2.4
+1.6
+8
+4
+3
+2
+1
+4
+
+1 (second-1)
+0.0
+4
+4
+4
+1.5
+1.5
+1.5
+1.5
+1.5
+1.5
+1.5
+1.5
+1.5
+1.5
+1.5
+0.8
+
+drive interstimulus
+interval (seconds)
+1.0
+1.0
+0.8
+0.6
+1.1
+1.0
+0.9
+0.8
+1.0
+1.0
+1.0
+1.0
+1.0
+1.0
+1.0
+1.0
+
+window (msec)*
+mbp
+27
+41
+41
+42
+106
+110
+115
+120
+406
+367
+263
+110
+58
+38
+27
+368
+
+lpb
+32
+49
+49
+50
+127
+132
+137
+144
+435
+394
+287
+133
+72
+47
+34
+405
+
+width
+6
+9
+9
+9
+22
+23
+23
+25
+30
+28
+25
+24
+15
+10
+8
+38
+
+*most (mbp) and least premature boundaries (lbp) were measured relative to time when repolarizing membrane
+potential passed through -60 mv.
+
+the relation between the probabilities of a proarrhythmic event and unbinding rate is illustrated in
+figure 4b. we chose to define the probability of a
+proarrhythmic event in terms of the likelihood that
+an unsuppressed premature stimulus would fall
+within the vw. a premature stimulus would be
+suppressed if it occurred at any time up to the mpb
+of the vw. any premature stimulus occurring after
+the mpb would be unsuppressed and has a likelihood
+of falling within the vw. formally, then, the probability of a proarrhythmic event is the duration of the
+vw divided by the excitable interval (isi minus lpb
+of the window). note that the probability increases
+dramatically, in concert with the antiarrhythmic potential (as reflected by the window boundary) displayed in figure 4a for large binding rates (large
+drug concentrations) even though the window width
+appears to have saturated. this is the result of
+reducing the excitable interval as the refractory interval is prolonged.
+to examine the possible mechanistic process underlying the window duration, we evaluated sodium
+channel availability at the boundaries of the window.
+we found that in the absence of drug, sodium
+channel availability ranged from 1.2 ms/cm2 at the
+mpb to 1.72 ms/cm2 at the lpb. in the presence of
+drug with a binding rate of 4 events/sec and an
+unbinding rate of 1.5 events/sec, we found sodium
+channel availability ranged from 1.68 ms/cm2 at the
+mpb to 1.72 ms/cm2 at the lpb. the duration of the
+window appeared to reflect the time required for a
+critical number of nonconducting (drug-complexed
+or inactivated) channels in the region of the premature stimulation electrode to recover their conducting property (recovery from inactivation or unbinding). when the conductance exceeded 1.72 ms/cm2,
+
+bidirectional propagating wave fronts were possible.
+conductances less than this value supported either
+unidirectional propagation or no propagation.
+with the demonstration of unidirectional conduction in a cable, we questioned whether reentry could
+be supported in a ring of cable with a physiologically
+realistic circumference. with a 4-cm circumference,
+reentry was not possible. however, with an 8-cm
+circumference, premature stimulation in the absence
+of drug yielded a premature response and one additional response. in the presence of drug (kd, 4
+second-1; e, 4 second-') there was a continuously
+reentrant action potential. although such a demonstration is to a certain extent arbitrary (we can select
+any circumference), it demonstrates that given a
+sufficiently long path, the unidirectional block we
+studied in detail can initiate reentrant activation.
+discussion
+background of hypothesis
+the focus of the present study was to investigate
+the conditions necessary to produce a transient
+"functional" unidirectional block in a uniform excitable cable and to explore how modification of sodium
+channel availability with hypothetical class i agents
+would influence the determinants of a transient
+unidirectional block. our hypothesis was that usedependent sodium channel blockade would significantly increase the likelihood of unidirectional block
+with premature stimulation. why was this our focus?
+there is considerable evidence that anisotropy of
+passive properties and structural dispersion of refractoriness provide a substrate suitable for initiating
+reentrant rhythms.5.7 however, are the structural
+complexities seen in cardiac tissue and reported in
+
+downloaded from http://circ.ahajournals.org/ by guest on march 14, 2015
+
+starmer et al modeling proarrhythmic potential
+a
+
+antiarrhythmic and proarrhythmic potential
+500-
+
+e
+c
+
+400
+
+0
+
+300-
+
+0.
+
+mpb
+
+e
+
+lpb
+
+200-
+
+window
+
+1000
+
+-~
+~
+
+0.
+
+00
+
+~~~
+
+probability of
+
+b
+
+- - -
+
+a
+
+a
+
+0.01
+binding rate (kd)
+
+a
+
+*
+
+-s
+
+0.02
+eventslmsac
+
+proarrhythmic event
+
+0.05-
+
+m
+
+a
+0.04
+
+a
+
+e
+
+0.03-
+
+a.
+
+u
+a.
+
+prob (arrhythmia)
+
+0.02 -
+
+.0
+
+0.
+
+a
+
+a
+
+0.01 -
+
+a
+
+0.00
+0.00
+s
+
+a
+
+*
+
+1
+
+0.01
+0.02
+binding rate (kd) events/mssc
+
+figure 4. plots of antiarrhythmic and proarrhythmic potentials of a use-dependent sodium channel antagonist (kd,
+variable; e, 1.5 second-'). in panel a, open squares represent
+most premature boundary (mpb) of vulnerable window, and
+closed diamonds represent least premature boundary (lpb) of
+vulnerable window. difference between boundary values-the
+window duration is plotted with filled squares. as binding rate
+is increased by increasing concentration of drug, both boundaries become less premature, reflecting antiarrhythmic effect,
+because premature stimuli injected before mpb experience
+bidirectional conduction blockade. note that window duration,
+reflecting proarrhythmic potential, stabilizes at a value near 30
+msec in this simulation while mpb (refractory period reflecting
+antiarrhythmic potential) continues to increase with higher rates
+of binding. in panel b, we plotted conditional probability of a
+proarrhythmic event. we have assumed that there is a uniform
+probability of a random stimulus occurring at any time during
+interstimulus interval. because there is no conduction of stimulus responses more premature than mpb, the denominator of
+the probability is the interval of time during which conduction
+can occur. thus, even though window duration remains relatively constant forkd of more than 0.04 event/sec, probability of
+a proarrhythmic event increases because the interval where
+premature responses are conducted is decreasing.
+-
+
+1371
+
+the present study necessary for reentrant activity, or
+do they amplify or attenuate responses derived from
+some simpler substrate? we sought to explore the
+simplest model (a structurally uniform cable of excitable membrane with no discontinuities, constant
+passive properties, and identical refractory properties) to address questions about the minimally complex substrate for initiating and supporting reentrant
+activity.
+our numerical experiments revealed many interesting observations. first, "functional" unidirectional
+block required anisotropic excitability relative to the
+stimulating electrode. such conditions were achieved
+by having different sites of drive and premature
+stimulation. second, there was a vw during which
+premature stimulation produced a transient unidirectional block in the antegrade direction. third, reduction of sodium channel availability increased the
+duration of the vw. fourth, reduction of sodium
+channel availability with hypothetical use-dependent
+class i agents produced larger windows than a fixed
+reduction in channel availability. fifth, the duration
+of the window was longer with slowly unbinding
+drugs than with rapidly unbinding drugs. last, the
+drug-unbinding rate was coupled to both prolongation of the refractory period (antiarrhythmic effect)
+and duration of the vw (proarrhythmic effect).
+the existence of a vw was very interesting, but
+had it been observed experimentally? allessie and
+coworkers27 demonstrated that tachycardias could be
+consistently initiated with a properly timed premature stimulus following a train of drive pulses in an
+isolated left atrial rabbit preparation. they observed
+a window of time (vw) during which a variety of
+tachycardias of variable duration could be initiated.
+premature stimulation before the mpb of the window resulted in no response, whereas premature
+stimulation after the lpb of the window resulted in a
+single response. within the window, however, tachycardias of variable duration could be consistently
+initiated with a single premature stimulus.
+soon after allessie et al's report,27 van capelle and
+durrer6 studied the role of spatial interaction among
+excitable elements in the production of both focal
+and reentrant rhythms using simulations of a twodimensional array of identical excitable elements.
+with different sites of drive and premature stimulation, they identified a vw similar to that observed by
+allessie et al, where they were able to initiate
+reentrant activity when premature stimulation occurred within the window. this was the first demonstration that the anisotropic properties necessary for
+reentrant activity could be generated in an array of
+identical cells by using separate sites for drive and
+premature stimulation. from their studies, they
+noted that the spatial anisotropy of excitability, necessary for initiation of reentry, could be induced by
+propagation of the repolarization (recovery) wave
+front and that spatial dispersion of the intrinsic
+cellular properties was unnecessary. that such a
+simple system was in qualitative agreement with the
+
+downloaded from http://circ.ahajournals.org/ by guest on march 14, 2015
+
+1372
+
+circulation vol 84, no 3 september 1991
+
+experimental results of allessie et al caused us to
+hypothesize that sodium channel availability as a
+determinant of excitability might further influence
+the duration of the vw by prolonging the excitability
+recovery process.
+can antiarrhythmic agents slow the recovery from
+inexcitability in cardiac cells? grant and coworkers8
+showed that lidocaine significantly prolonged the
+recovery from inexcitability under normal ph and
+further prolonged the recovery process in the presence of reduced ph. using the maximum upstroke
+velocity of the action potential as a monitor of
+sodium channel availability, they found that the time
+course of recovery was prolonged from 10 msec
+under drug-free conditions to 91 msec in the presence of 15 ,m lidocaine. although we could not find
+evidence of studies of the vw in the presence of an
+antiarrhythmic agent, we felt that loss of sodium
+channel availability and the slowed recovery caused
+by the voltage dependence of channel blockade might
+prolong the duration of the vw and that the prolongation might reflect one dimension of a drug's proarrhythmic potential. recently, weirich and antoni4
+studied many antiarrhythmic agents and found the
+unbinding rate to be a particularly important parameter for classifying drug behavior (see table 5).
+the interim results of the cast study1 lent support to this hypothesis. consistent with the fifth
+observation listed above, flecainide10 (unbinding time
+constant of approximately 16 seconds) and encainide1l (unbinding time constant of approximately 20
+seconds) were each associated with an increase in the
+incidence of sudden cardiac death compared with
+that of the control group (recovery from inactivation
+time constant of the order of 10-20 msec). also,
+moricizine9 exhibits a recovery time constant of 1.3
+seconds, and one might hypothesize that the rate of
+sudden death in this group would be less than that in
+the  xxxd2113xxx  and  xxxd1991xxx  groups.
+the influence of the recovery time constant can be
+readily illustrated. at a heart rate of 1 second-1,
+approximately 60% of the channels blocked by  xxxd2669xxx  will become unblocked before the next cycle
+of depolarization. on the other hand, with  xxxd2113xxx ,
+only 6% of the blocked channels will become unblocked before the next cardiac cycle is initiated.
+thus, the time a cell spends in recovering from
+ xxxd2113xxx  blockade is significantly prolonged, which
+we hypothesize will simultaneously prolong the delay
+to and duration of the vw and reduce the conduction velocity. it is important to note that prolongation
+of the channel recovery process will result in increased premature ventricular contraction suppression (antiarrhythmic effect) while simultaneously
+prolonging the duration of vw (proarrhythmic effect), exposing unsuppressed premature ventricular
+contractions to more vulnerable tissue.
+in support of our hypothesis, we were able to locate
+many reports of the proarrhythmic effects of drugs
+acting as sodium channel antagonists.328-33 some reports cited an increased proarrhythmic potential in the
+
+table 5. recovery time constants
+drug
+class
+lidocaine
+lb
+mexiletine
+lb
+ xxxd3387xxx 
+lb
+ xxxd2669xxx 
+lb
+quinidine
+ia
+procainamide
+ia
+disopyramide
+ia
+ic
+lorcainide
+propafenone
+ia
+ xxxd2113xxx 
+ic
+ xxxd1991xxx 
+ic
+ic
+nicainoprol
+prajmaline
+ic
+adapted from references 4 and 9.
+
+time constant (seconds)
+0.23
+0.47
+1.1
+1.3
+4.7
+6.3
+12.2
+13.2
+15.5
+15.5
+20.3
+47.1
+184.3
+
+presence of exercise or increased heart rate, consistent
+with the use- and frequency-dependent nature of ion
+channel blockers.431-33 with increased heart rate, less
+time is available for unblocking of drug-complexed
+channels. consequently, we would anticipate that the
+degree of blockade would be increased, conduction
+velocity would be reduced, and the duration of the vw
+would be prolonged. in addition, we recently described34 a patient who experienced electrocardiographic abnormalities resulting from propoxyphene (a
+slowly unbinding sodium channel antagonist) overdose
+that was reversed through competition with lidocaine,
+which reduced the average unbinding time of drugcomplexed channels.
+in light of results from our study, reports in the
+literature of proarrhythmic effects of  xxxd2113xxx , and
+the recent results of the cast study, we felt that
+there was a good possibility that factors influencing
+the interaction between drug molecules and channels
+might reflect a dimension of a drug's proarrhythmic
+potential. thus, these studies were designed to test
+this hypothesis first in a series of numerical experiments and then in an in vitro preparation.13
+
+role of sodium channel availability
+several significant findings resulted from these
+numerical experiments. we found that reducing the
+available sodium conductance (gna) simultaneously
+reduced the conduction velocity and delayed the
+appearance and extended the duration of the vw.
+these specific results differ qualitatively from the
+numerical studies of quan and rudy.25 they found
+that reducing the maximum available sodium conductance in the ebijara-johnson sodium model from 23
+to 11.5 ms/cm2 resulted in a small reduction of the
+duration of the vw from 1.4 to 1.2 msec. using the
+original beeler-reuter sodium channel model, we
+found that incrementally reducing the sodium conductance from 8 to 2.5 ms/cm2 produced monotonic
+increases in the mpb from 320 to 359 msec and in the
+duration of the vw from 4 to 13 msec (table 2). the
+difference between these observations may reside in
+
+downloaded from http://circ.ahajournals.org/ by guest on march 14, 2015
+
+stanner et al modeling proarrhythmic potential
+
+the complexity of their model and the large values of
+the cell-to-cell coupling resistance. our results
+clearly show that transient unidirectional block can
+be initiated by premature stimulation without modifying cell-to-cell coupling or other passive properties.
+our results were consistent with other maneuvers
+that reduced sodium channel availability. for instance, we found that depolarizing the rest potential,
+which would increase the degree of sodium channel
+inactivation, resulted in delay in the appearance time
+of the vw as well as prolongation of the vw
+duration and reduction of the conduction velocity.
+consequently, our attempt to simulate ischemia resulted in an amplified proarrhythmic potential. further amplification could result from the ph-induced
+prolongation of the drug-unbinding time observed by
+grant and coworkers8 and could result in conversion
+of a drug with a low proarrhythmic potential under
+normal conditions to a drug with a greater proarrhythmic potential in the presence of ischemia.
+we found that the instantaneous sodium channel
+availability at the time of the mpb was considerably
+larger (1.68 ms/cm2) for use-dependent antagonists
+than that observed under drug-free conditions (1.20
+ms/cm2). these results indicate that the window duration is sensitive to the dynamics of channel blockade,
+possibly reflecting the blockade of channels during the
+initial depolarization of the action potential evoked by
+premature stimulation. use-dependent antagonists exhibit binding and unbinding rates that are voltage
+dependent. therefore, as the membrane is slowly depolarized during the foot of the action potential, sodium channels can become blocked, decreasing the
+number of channels available for conduction and increasing the likelihood of conduction block.
+role of stimulation parameters
+stimulus intensity also affected the mpb of the
+vw. low-energy, short-duration stimuli produced a
+small window with a delayed mpb, whereas higherenergy, long-duration stimuli produced larger windows with an early mpb. higher energies appear to
+depolarize larger spatial regions, thus recruiting
+more sodium channels into the propagation process.
+these results were reassuring because long-duration
+windows under control conditions appear to be incompatible with life. under in vivo conditions, the
+available current for premature excitation is limited
+to that available from a local cluster of cells. thus,
+one would expect the vw duration under drug-free
+conditions to be negligible, consistent with the observed low incidence in spontaneously occurring reentrant rhythms in humans.
+perhaps the most important observation we made
+was that in a homogeneous one-dimensional excitable cable, the site of premature stimulation must be
+different from the drive site to initiate a unidirectional activation wave front. when the drive and
+premature sites were the same, the premature activation wave front encountered isotropic excitability.
+in the presence of isotropy, only isotropic responses
+
+1373
+
+can be expected (i.e., either bidirectional conduction
+or bidirectional block). however, when the sites were
+different, then as the drive activation wave front
+passed over the premature stimulation site, the premature activation wave front "saw" a region of
+functionally anisotropic excitability where the antegrade region was more refractory than the retrograde
+region. the conduction velocity and the time course
+of the sodium channel recovery process control this
+gradient of excitability, which in these numerical
+experiments reflects a spatial gradient in sodium
+channel availability. in real preparations, there may
+be anisotropic dispersion of refractoriness and sodium channel availability derived from structural
+inhomogeneities among cells. our results suggest
+that it is essential that there be anisotropic sodium
+channel availability relative to the site of premature
+stimulation for a unidirectional response to be
+evoked but that structural inhomogeneities are not
+necessary. whether the structural complexities amplify or attenuate this basic response is unclear. we
+conclude that conduction velocity is central to modulating the anisotropy of the spatial gradient of
+channel availability.
+we found that the temporal location and duration
+of the vw were sensitive to stimulus frequency and
+to drug concentration. increases in the rate of binding (reflecting increases in the drug concentration)
+resulted in greater delay before the onset of the vw
+and an increased duration of the vw. similarly,
+increases in the apparent rate of binding (reflecting
+increases in the rate of stimulation) produced parallel results. the delay in the vw reflects the degree of
+blockade that exists at the initiation of the repolarization process. because a critical population of
+sodium channels is required to support propagation,
+recovery from a larger initial block will require more
+time to reach the critical value of available channels
+than a smaller amount of initial block. we view this
+recovery time as well as the degree of blockade when
+repolarization is initiated as a reflection of the antiarrhythmic potential because premature stimulation
+during this time experiences conduction block. during the vw, unidirectional conduction is supported
+through a complex balance of conduction velocity,
+time course of recovery from blockade, time course
+of recovery from sodium channel inactivation, and
+balance of background ionic currents. in general, we
+found that the duration of the window was also
+related to the speed of blockade recovery as well as
+the degree of blockade (see table 4).
+reentry
+in an 8-cm ring of cells under control conditions,
+we were able to observe only two responses to a
+premature stimulus timed to occur within the vw.
+however, in the presence of drug, the response to
+premature stimulation continued to circulate around
+the ring, a sort of sustained tachycardia. rinkenberger and colleagues28 observed similar drug con-
+
+downloaded from http://circ.ahajournals.org/ by guest on march 14, 2015
+
+1374
+
+circulation vol 84, no 3 september 1991
+
+versions of nonsustained responses to sustained responses in patients.
+slowed conduction appears to have two effects:
+increased anisotropy of sodium channel availability
+in the region of the premature stimulation site and
+decreased path length required for sustaining a reentrant wave front. the effect of slowed conduction
+on the gradient of channel availability is essential for
+the initiation of a potentially reentrant wave front. in
+a homogeneous setting, the spatial distribution of
+availability is directly related to the conduction velocity. thus, when the conduction velocity is reduced,
+the spatial distribution of excitability as determined
+by sodium channel availability is to some extent
+compressed, thereby increasing the gradient of excitability. with stimulation in a region exhibiting a
+gradient of excitability, the likelihood of meeting the
+conditions for unidirectional conduction would be
+greater than when the gradient is less, as in the case
+of a normal conduction velocity. the effect of structural inhomogeneities in supporting gradients of excitability is unknown and could act to either amplify
+or attenuate such gradients.
+
+clinical implications
+there are several clinical implications from the
+model and our experiments. programmed stimulation with one or more premature stimuli is frequently
+used to induce reentrant rhythms in patients.35 multiple premature stimuli appear more effective than a
+single premature stimulus.36 our results suggest that
+the use of different drive and premature sites may be
+effective in initiating a reentrant rhythm. recently,
+frazier and coworkers37 showed that colliding wave
+fronts derived from perpendicular drive and premature stimulus sites could initiate a reentrant rhythm.
+their research supports the concept that careful
+selection of stimulation sites can be used to produce
+the required anisotropy of sodium channel availability necessary for initiation of reentry.
+reversing reentrant rhythms, though, may be more
+difficult in the presence of class i drugs. we hypothesize that reversal of reentrant rhythms induced in
+the presence of class ic agents (slowly unbinding)
+would be more difficult than with faster unbinding
+class ia or lb agents because of the increased mass of
+tissue that is in transition between inexcitable and
+excitable states.
+in the setting of managing a patient receiving a
+use-dependent sodium channel-blocking antiarrhythmic drug, increased heart rate, perhaps induced by
+exercise, will increase its proarrhythmic potential. we
+have shown that with an increased stimulation rate,
+window duration is increased. with accelerating heart
+rate, the window will thus increase in duration as well
+as occur progressively later during the cardiac cycle
+(figure 5). under these conditions, a "normally"
+conducted sinus activation wave front could serve as a
+"gpremature stimulus" by occurring within the window
+as it is delayed later and later in the cardiac cycle.
+although we have shown that the window does not
+
+exist when the drive and premature sites are the same,
+anisotropy as described by spach and coworkers38
+within the conduction pathway of sinus beats may be
+adequate to meet the requirements for establishing an
+anisotropic spatial gradient in sodium channel availability, leading to unidirectional block and initiation of
+reentry. anastasiou-nana and coworkers32 have observed an effect consistent with this hypothesis.
+a similar effect can be achieved by using drugs
+with progressively longer unbinding time constants as
+shown in the lower half of figure 5. with a short
+unbinding time constant, we hypothesize that there
+will be a small window and a small increase in the
+refractory period. as the unbinding time constant is
+increased, both the refractory period and the duration of vw are increased. clearly, the drugs that
+exhibit slow unbinding rates will achieve a high
+degree of premature ventricular contraction suppression because of the increased refractory period, but
+simultaneously, the unsuppressed premature ventricular contractions will have a higher probability of
+provoking a proarrhythmic event. this coupling of
+the antiarrhythmic and proarrhythmic effects to
+channel unbinding rate is a property of all pure
+sodium channel-blocking agents.
+the increase in window duration in response to
+increased drug concentration, stimulus frequency, or
+diminished unbinding rate may also be important in
+determining energy requirements for reversing reentrant or fibrillatory activity. long temporal windows
+derived from slowly unbinding drugs may reflect a
+large spatial mass of tissue that is in transition
+between inexcitable and excitable states. thus, one
+might infer that rhythms initiated under conditions of
+prolonged windows will require greater (defibrillation) energy to terminate than rhythms initiated
+under conditions of a narrow window. this effect may
+be particularly important when considering the use of
+programmed stimulation to induce reentrant activity
+in the presence of slowly unbinding sodium channel
+antagonists and when adjusting energy levels in implantable devices.
+ischemia provides a complex setting that can be
+proarrhythmic. under some conditions, ischemia may
+reduce the resting membrane potential to more positive
+potentials and decrease extracellular ph. in the presence of many class i agents, these two effects will
+amplify each other. the slightly depolarized resting
+potential will increase the fractions of inactivated and
+drug-complexed channels (for inactivated channel antagonists). furthermore, reduced ph has been observed to reduce the rate of unbinding of drug-complexed channels.8 as we have shown, reducing the rate
+of unbinding will increase the duration of the vw while
+simultaneously increasing the refractory period (a result of the larger fraction of blocked channels). thus,
+we hypothesize that with ischemia, slowly unbinding
+class i agents will increase the fraction of suppressed
+premature ventricular contractions and simultaneously
+increase the vulnerability of unsuppressed premature
+ventricular contractions.
+
+downloaded from http://circ.ahajournals.org/ by guest on march 14, 2015
+
+starmer et al modeling proarrhythmic potential
+
+1375
+
+effect of stimulus frequency
+
+rate = 60
+
+figure 5. effects ofheart rate and unbinding time
+constant on location and duration of vulnerable
+window in presence ofuse-dependent sodium channel
+blockade. at a normal heart rate (60 beats/min), there
+is a small fraction of blocked channels leaving refractory (absolute plus relative) period and vulnerable
+window almost unchanged with respect to drug-free
+conditions. note vulnerable window is depicted as
+occuring during t wave, consistent with arrhythmogenic effects of r on t. with increasing heart rate
+or increasing unbinding time constant, refractory interval is increased (reflecting increase in steady-state
+sodium channel blockade), resulting in increased
+premature ventricular contraction (pvc) suppression.
+however, simultaneously, duration ofvulnerable window is increased and now located beyond boundary of
+twave. increased heart rate or use of agents with long
+unbinding time constants promotes pvc suppression,
+but simultaneously, unsuppressed pvcs enjoy a
+greater probability of initiating a reentrant rhythm.
+thus, in the presence of such agents, programmed
+stimulation can result in arrhythmogenic responses in
+regions remote to t wave.
+
+effect of recovery time-constant
+
+refractory interval (pvc supression)
+vulnerable window (arrhythmogenic responses to pvcs)
+
+role of class iii agents
+it is interesting to speculate about the action of
+class iii agents that dominantly block the potassium
+currents responsible for repolarization.39 one would
+postulate that with prolonged action potential duration, the proarrhythmic potential associated with
+premature events would remain fixed while the antiarrhythmic potential would be modulated by the
+increase in the action potential duration. however,
+ xxxg1232xxx  blockade may influence other
+types of proarrhythmic events such as early afterdepolarizations and/or the failure to repolarize. to
+date, most antiarrhythmic agents block sodium, calcium, and potassium channels. further studies will be
+required to explore the role of various channel
+antagonists in modulating antiarrhythmic and proarrhythmic events, particularly with respect to their
+multichannel blocking capacity. models such as this
+may provide a useful tool for predicting different
+dimensions of a drug's proarrhythmic and antiar-
+
+rhythmic potentials and evaluating the collective
+response to multichannel blockade.
+summary
+we have demonstrated with numerical experiments in a one-dimensional cable that there is an
+interval of time after repolarization during which
+premature stimulation encounters a functional unidirectional conduction block. modulation of the processes controlling sodium channel availability leads
+to modulation of the temporal location (antiarrhythmic potential) and duration (proarrhythmic potential) of the vw. the temporal location of the window
+relative to the predecessor response derived from a
+drive stimulus reflects both the fraction of available
+sodium channels and the time course of recovery
+from channel blockade and channel inactivation.
+slowed conduction in the presence of drug affects the
+likelihood of both initiating a unidirectionally conducted wave front (by increasing the anisotropy of
+sodium channel availability at the site of premature
+
+downloaded from http://circ.ahajournals.org/ by guest on march 14, 2015
+
+1376
+
+circulation vol 84, no 3 september 1991
+
+stimulation) and sustaining a small reentrant path.
+the duration of the window is predominantly modulated by the channel blockade and sodium channel
+inactivation recovery processes. for class i agents
+that predominantly block sodium channels, it appears impossible to separate the antiarrhythmic potential from the proarrhythmic potential.
+references
+1. cardiac arrhythmia suppression trial (cast) investigators:
+preliminary report: effect of  xxxd1991xxx  and  xxxd2113xxx  on
+mortality in a randomized trial of arrhythmia suppression after
+myocardial infarction. n engl j med 1989;321:406-412
+2. arnsdorf mf, schmidt ga, sawicki gj: effects of  xxxd1991xxx 
+on the determinants of cardiac excitability in sheep purkinje
+fibers. j pharmacol exp ther 1985;232:40-48
+3. ranger s, talajic m, lemery r, roy d, nattel s: amplification of  xxxd2113xxx -induced ventricular conduction slowing by
+exercise: a potentially significant clinical consequence of
+use-dependent sodium channel blockade. circulation 1989;79:
+1000-1006
+4. weirich j, antoni h: differential analysis of the frequencydependent effects of class i antiarrhythmic drugs according to
+periodical ligand binding: implications for antiarrhythmic and
+proarrhythmic efficacy. j cardiovasc pharmacol 1990;15:
+998-1009
+5. han j, moe gk: nonuniform recovery of excitability in
+ventricular muscle. circ res 1964;14:44-60
+6. van capelle fjl, durrer d: computer simulation of arrhythmias in a network of coupled excitable elements. circ res
+1980;47:454-466
+7. spach ms, dolber pc, heidlage jf: influence of the passive
+anisotropic properties on directional differences in propagation following modification of the sodium conductance in
+human atrial muscle: a model of reentry based on anisotropic
+discontinuous propagation. circ res 1988;62:811-832
+8. grant ao, strauss lj, wallace ag, strauss hc: the influence of ph on the electrophysiological effects of lidocaine in
+guinea pig ventricular myocardium. circ res 1980;47:542-550
+9. shubert b, hering s, bodewei r, rosenshtraukh lv, wollenberger a: use- and voltage-dependent depression of  xxxd2669xxx  ( xxxd2669xxx ) of the rapid inward sodium current in
+single rat ventricular muscle cells. j cardiovasc pharmacol
+1986;8:358-366
+10. campbell tj, vaughan williams em: voltage- and timedependent depression of maximum rate of depolarization of
+guinea-pig ventricular action potentials by two new antiarrhythmic drugs,  xxxd2113xxx  and lorcainide. cardiovasc res
+1983;17:251-258
+11. campbell tj: resting and rate-dependent depression of maximum rate of depolarization (vm,,) in guinea pig ventricular
+action potentials by mexiletine, disopyramide and  xxxd1991xxx . j
+cardiovasc pharmacol 1983;5:291-296
+12. beeler gw, reuter h: reconstruction of the action potential
+of ventricular myocardial fibers. j physiol (lond) 1977;286:
+177-210
+13. nesterenko vv, lastra aa, rosenshtraukh lv, starmer cf:
+a proarrhythmic response to sodium channel blockade: 2. the
+influence of antiarrhythmic drugs on the window of vulnerability in guinea pig myocardium.
+14. joyner rw, ramza bm, osaka t, tan rc: cellular mechanisms of delayed recovery of excitability in ventricular tissue.
+am j physiol 1991;260:h225-h233
+15. lesh md, pring m, spear jf: cellular uncoupling can unmask
+dispersion of action potential duration in ventricular myocardium: a computer modeling study. circ res 1989;65:
+1426-1440
+16. cooley jw, dodge fd: digital computer solutions for excitation and propagation of the nerve impulse. biophys j 1966;6:
+583-599
+
+17. crank j, nicolson p: practical method for numerical evaluation of solutions of partial differential equations of the heatconduction type. proc cambridge phil soc 1947;43:50-67
+18. armstrong cm: time course of tea'-induced anomalous
+rectification in squid giant axons. j gen physiol 1966;50:
+491-503
+19. hondeghem lm, katzung bg: time- and voltage-dependent
+interactions of antiarrhythmic drugs with cardiac sodium
+channels. biochim biophys acta 1977;472:373-398
+20. starmer cf, grant ao, strauss hc: mechanisms of usedependent block of sodium channels in excitable membranes
+by local anesthetics. biophys j 1984;46:15-27
+21. starmer cf, packer dl, grant ao: ligand binding to transiently accessible sites: mechanisms for varying apparent
+binding rates. j theoret biol 1987;124:335-341
+22. gilliam fr, starmer cf, grant ao: blockade of rabbit
+atrial sodium channels by lidocaine: characterization of
+continuous and frequency-dependent blocking. circ res
+1989;65:723-739
+23. starmer cf, nesterenko vv, undrovinas ai, grant ao,
+rosenshtraukh lv: lidocaine blockade of a transiently accessible site in cardiac sodium channels. j mol cell cardiol
+
+1991;23(suppl):73-83
+24. gruber r, carmeliet e: the activation gate of the sodium
+channel controls blockade and deblockade by disopyramide in
+rabbit purkinje fibres. br j pharmacol 1989;97:41-50
+25. quan w, rudy y: unidirectional block and reentry of cardiac
+excitation: a model study. circ res 1990;66:367-382
+26. ebihara l, johnson ea: fast sodium current in cardiac
+muscle: a quantitative description. biophys j 1980;32:779-790
+27. allessie ma, bonke fim, schopman fjg: circus movement
+in rabbit atrial muscle as a mechanism of tachycardia. circ res
+
+1973;33:54-62
+28. rinkenberger r, prystowsky en, jackman wm, naccarelli
+gv, heger jj, zipes dp: drug conversion of nonsustained
+ventricular tachycardia to sustained ventricular tachycardia
+during serial electrophysiologic studies: identification of drugs
+that exacerbate tachycardia and potential mechanisms. am
+heart j 1982;103:177-184
+29. nathan aw, hellestrand kj, bexton rs, banim so, spurrell raj, camm aj: proarrhythmic effects of the new
+antiarrhythmic agent,  xxxd2113xxx  acetate. am heart j 1984;
+107:222-228
+30. morganroth j, horowitz ln:  xxxd2113xxx : its proarrhythmic
+effect and expected changes on the surface electrocardiogram.
+am j cardiol 1984;53:89b-94b
+31. boehnert mt, lovejoy fh jr: value of the qrs duration
+versus the serum drug level in predicting seizures and ventricular arrhythmias after an acute overdose of tricyclic antidepressants. n englj med 1984;313:474-479
+32. anastasiou-nana mi, anderson jl, stewart jr, crevey bj,
+yanowitz fg, lutz jr, johnson ta: occurrence of exerciseinduced and spontaneous wide complex tachycardia during
+therapy with  xxxd2113xxx  for complex ventricular arrhythmias: a
+probable proarrhythmic effect. am heart j 1987;113:
+1071-1077
+33. anderson kp, walker r, lux rl, ershler pr, menlove r,
+williams mr, krall r, moddrelle d: conduction velocity
+depression and drug-induced ventricular tachyarrhythmias:
+effects of lidocaine in the intact canine heart. circulation
+
+1990;81:1024-1038
+34. whitcomb dc, gilliam fr iii, starmer cf, grant ao:
+marked qrs complex abnormalities and sodium channel
+blockade by propoxyphene reversed with lidocaine. j clin
+invest 1989;84:1629-1636
+35. wellens hj, schuileabure rm, durrer d: electrical stimulation of the heart in patients with ventricular tachycardia.
+circulation 1972;46:216-226
+36. bugada p, green m, abdollah h, wellens hjj: significance of
+ventricular arrhythmias initiated by programmed ventricular
+stimulation: the importance of the type of ventricular arrhythmia induced and the number of premature stimuli required.
+circulation 1984;69:87-92
+
+downloaded from http://circ.ahajournals.org/ by guest on march 14, 2015
+
+starmer et al modeling proarrhythmic potential
+37. frazier dw, wolf pd, wharton jm, tang asl, smith wm,
+ideker re: stimulus induced critical point: mechanism for
+electrical initiation of reentry in normal canine myocardium. j
+clin invest 1989;83:1039-1052
+38. spach ms, dolber pc, heidlage jf: interaction of inhomogeneities of repolarization with anisotropic propagation in dog
+atria: a mechanism for both preventing and initiating reentry.
+circ res 1989;65:1612-1631
+
+1377
+
+39. colatsky tj, follmer ch, starmer cf: channel specificity in
+antiarrhythmic drug action: mechanism of  xxxg1232xxx 
+block and its role in suppressing and aggravating cardiac
+
+arrhythmias. circulation 1990;82:2235-2242
+key words * sodium channel blockade * arrhythmias m
+proarrhythmias * clinical trials
+
+downloaded from http://circ.ahajournals.org/ by guest on march 14, 2015
+
+proarrhythmic response to sodium channel blockade. theoretical model and numerical
+experiments.
+c f starmer, a a lastra, v v nesterenko and a o grant
+circulation. 1991;84:1364-1377
+doi: 10.1161/01.cir.84.3.1364
+circulation is published by the american heart association, 7272 greenville avenue, dallas, tx 75231
+copyright © 1991 american heart association, inc. all rights reserved.
+print issn: 0009-7322. online issn: 1524-4539
+
+the online version of this article, along with updated information and services, is located on
+the world wide web at:
+http://circ.ahajournals.org/content/84/3/1364
+
+permissions: requests for permissions to reproduce figures, tables, or portions of articles originally
+published in circulation can be obtained via rightslink, a service of the copyright clearance center, not the
+editorial office. once the online version of the published article for which permission is being requested is
+located, click request permissions in the middle column of the web page under services. further
+information about this process is available in the permissions and rights question and answer document.
+reprints: information about reprints can be found online at:
+http://www.lww.com/reprints
+subscriptions: information about subscribing to circulation is online at:
+http://circ.ahajournals.org//subscriptions/
+
+downloaded from http://circ.ahajournals.org/ by guest on march 14, 2015
+

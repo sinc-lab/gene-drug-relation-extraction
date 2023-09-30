@@ -1,0 +1,983 @@
+474
+
+review
+
+trends in neurosciences vol.25 no.9 september 2002
+
+cysteine regulation of protein
+function – as exemplified by
+nmda-receptor modulation
+stuart a. lipton, yun-beom choi, hiroto takahashi, dongxian zhang, weizhong li,
+adam godzik and laurie a. bankston
+until recently cysteine residues, especially those located extracellularly,
+were thought to be important for metal coordination, catalysis and protein
+structure by forming disulfide bonds – but they were not thought to
+regulate protein function. however, this is not the case. crucial cysteine
+residues can be involved in modulation of protein activity and signaling
+events via other reactions of their thiol (sulfhydryl; –sh) groups. these
+reactions can take several forms, such as redox events (chemical reduction
+or oxidation), chelation of transition metals (chiefly zn2++, mn2++ and cu2++)
+or s-nitrosylation [the catalyzed transfer of a  xxxd2738xxx  (no) group
+to a thiol group]. in several cases, these disparate reactions can
+compete with one another for the same thiol group on a single cysteine
+residue, forming a molecular switch composed of a latticework of
+possible redox, no or zn2+ modifications to control protein function.
+thiol-mediated regulation of protein function can also involve
+reactions of cysteine residues that affect ligand binding allosterically. this
+article reviews the basis for these molecular cysteine switches, drawing on
+the nmda receptor as an exemplary protein, and proposes a molecular
+model for the action of s-nitrosylation based on recently derived crystal
+structures.
+
+stuart a. lipton*
+yun-beom choi
+hiroto takahashi
+dongxian zhang
+center for neuroscience
+and aging, the burnham
+institute, 10901 north
+torrey pines road,
+la jolla, ca 92037, usa.
+*e-mail: slipton@
+burnham.org
+weizhong li
+adam godzik
+program in
+bioinformatics and
+systems biology,
+the burnham institute,
+10901 north torrey pines
+road, la jolla, ca 92037,
+usa.
+laurie a. bankston
+program in cell adhesion
+– extracellular matrix
+biology, the burnham
+institute, 10901 north
+torrey pines road,
+la jolla, ca 92037, usa.
+
+similar to phosphorylation of serine, threonine or
+tyrosine residues, modification of crucial cysteine
+residues has recently been shown to regulate the
+function of a large number of proteins in the brain
+and other organs. modulation of protein activity is
+based on sulfhydryl reactions of cysteine residues
+with redox reagents, transition metals or nitric
+oxide (no)-related molecules (box 1) [1–5].
+cysteine residues have been shown to have
+regulatory roles at the active site of enzymes [6], in
+zn2+ finger and oxyr transcription factors [7,8], in
+zn2+ repository proteins such as metallothionein
+[9–12], in hemoglobin [13] and in voltage- and
+ligand-gated ion channels [1,14–20]. here, we
+discuss the range of possible reactions of cysteine
+thiol-groups with redox agents, no or zn2+ that can
+regulate protein function. as an exemplary protein,
+we highlight regulation of ion-channel activity
+coupled to the nmda-subtype of glutamate
+receptor. we chose the nmda receptor because it
+currently best demonstrates the detailed knowledge
+allowing us to dissect the mechanism of cysteine
+chemical reactions in the brain (although other
+proteins undoubtedly utilize similar mechanisms
+of regulation).
+http://tins.trends.com
+
+multi-tasking of thiol groups on the nmda receptor
+
+physiological nmda-receptor activity is thought to
+control such diverse functions as neuronal
+development, synaptic plasticity and memory.
+however, excessive activation of nmda receptors
+contributes to neuronal cell death in a variety of
+acute and chronic neurological disorders, indicating
+that tight regulation of nmda-receptor activity is
+crucial for neuronal survival [21]. under both
+physiological and pathophysiological conditions,
+endogenous levels of oxidizing agents, no and
+zn2+ have been shown to inhibit excessive
+excitation of nmda receptors and, thus, limit
+excessive influx of ca2+ via the nmda-receptorcoupled ion channel, and consequently ameliorate
+nmda-receptor-mediated neurotoxicity [22,23].
+how do oxidizing agents, no and
+zn2+ downregulate nmda-receptor channel
+activity? recent publications [16–18,24] have
+reported that at least seven cysteine residues on
+nmda-receptor subunits are involved in this
+regulation by redox agents, no or zn2+. this work is
+based on site-directed mutagenesis and is
+complemented by structural evidence from recent
+crystallographic and molecular modeling
+studies [19,25]. a potential worry with site-directed
+mutagenesis experiments is that the whole
+molecule might somehow be affected; however, in
+these studies, other sites of ligand or modulatory
+action on the nmda receptor remained virtually
+intact. for example, the inhibitory effects of
+protons, polyamines, direct channel blockade and
+competitive antagonists acting at agonist-binding
+sites were all essentially normal [16–18]. the
+various effects of these cysteine residues (some
+involve a single protein thiol group, whereas others
+involve the recruitment of multiple thiol groups to
+the reaction mechanism) can be summarized in the
+form of a venn diagram. figure 1 shows each
+cysteine residue that can influence high-affinity
+zn2+ inhibition, redox modulation or s-nitrosylation
+(reaction with no) of the nmda receptor. because
+a single sulfhydryl group can, in some cases, react
+with an oxidizing agent, no or zn2+, these thiol
+groups are capable of multi-tasking.
+
+0166-2236/02/$ – see front matter © 2002 elsevier science ltd. all rights reserved. pii: s0166-2236(02)02245-2
+
+review
+
+trends in neurosciences vol.25 no.9 september 2002
+
+box 1. potential reactions of protein thiol with  xxxd2738xxx , zn2++ and
+redox reagents
+competing reactions of the sulfhydryl (thiol) groups of cysteine residues with
+ xxxd2738xxx  (no), zn2+ and redox reagents can regulate protein function. note that,
+for simplicity, the following reactions have not been balanced for charge and
+electron transfer.
+competitive reactions of no and zn2+ for cysteine thiol groups (rs-h) on proteins:
+rs-h + no ↔ rs-no + h
+rs-h + zn ↔ rs-zn + h
+rs-zn + no ↔ rs-no + zn
+redox reactions of cysteine residues:
+rs-sr + dtt(2h) ↔ 2rs-h + oxdtt
+2rs-h + dtnb ↔ rs-sr + 2tnb + 2h, or
+rs-h ↔ rs-tnb + h
+disulfide can be reduced to free thiol – for example, by dithiothreitol (dtt), which
+in the process becomes oxidized itself (oxdtt). conversely, free thiol groups can be
+oxidized by 5,5′-dithio-bis(2-bisnitrobenzoic acid) (dtnb) to form disulfide, with
+resulting reduction of dtnb to 2tnb or to thiobenzoate protein derivatives (rs-tnb).
+s-nitrosylated protein can be reduced to free thiol and no by reducing agents,
+such as dtt:
+2rs-no + dtt(2h) ↔ 2rs-h + 2no + oxdtt
+
+redox-activated cysteine residues of the
+nmda receptor
+
+six cysteine residues are involved in redox
+modulation – that is, they can be modified by
+chemical reduction with agents such as dithiothreitol
+(dtt, an exogenous agent) or  xxxd1887xxx  (an
+endogenous agent) to increase nmda-activated
+current. conversely, oxidizing agents that promote
+disulfide formation, such as 5,5′-dithiobis(2-bisnitrobenzoic acid) (dtnb, an exogenous
+agent),  xxxd2811xxx  or  xxxd2494xxx  (both
+endogenous agents) decrease nmda-evoked
+current. using site-directed mutagenesis of
+recombinant receptor subunits, as well as treatment
+of native subunits with small sulfhydryl reactive
+
+redox
+
+nr1 cys79
+cys308
+
+no
+
+nr1 cys744
+cys798
+ xxxg964xxx  cys87
+cys320
+
+zn2+
+
+ xxxg964xxx 
+cys399
+
+trends in neurosciences
+
+fig. 1. effect of individual cysteine residues on the nmda receptor.
+depending on the exact site on the receptor, various individual cysteine
+residues can react with redox reagents, undergo s-nitrosylation or
+influence high-affinity zn2+ inhibition. the venn diagram summarizes
+the effect of each cysteine residue on the nr1 and  xxxg964xxx  subunits,
+based on site-directed mutagenesis experiments.
+
+http://tins.trends.com
+
+475
+
+molecules such as 2-(trimethylammonium)ethyl
+methanethiosulfonate (mtset), we have learned
+that these six cysteine residues act in three distinct
+pairs. for example, mutagenesis of one member of a
+pair has the same effect as mutating both cysteine
+residues, suggesting the formation of a disulfide bond
+between the two [17,24]. we have also learned from
+these experiments the location of these pairs of
+cysteine residues on two different nmda-receptor
+subunits: on the nr1 subunit, cys79 and cys308
+form one pair and cys744 and cys798 form another;
+cys87 and cys320 of the  xxxg964xxx  subunit constitute the
+final pair. interestingly, two of the residues
+implicated in nr1 (cys79 and cys308) are, in our
+model, in homologous positions to the two redoxactive cysteine residues in  xxxg964xxx  (cys87 and cys320).
+these residues lie within a predicted n-terminal
+regulatory domain – the leu-ile-val binding protein
+(livbp)-like domain, which controls nmda receptor
+activity [17–19]. this region constitutes the first
+~400 amino acids of each subunit and is structurally
+related to a bacterial periplasmic-binding protein [26]
+and to the glutamate-binding domain of the
+metabotropic  xxxg981xxx   xxxg972xxx , the crystal
+structure of which has recently been reported [27].
+cysteine residues that allosterically modulate
+zn2++-mediated inhibition
+
+the same six cysteine residues of the nmda receptor
+that are involved in redox reactions also modulate
+high-affinity zn2+-mediated inhibition [18]. if zn2+
+were simply binding to these thiol groups to mediate
+this effect, then the free (reduced) form of the thiol
+would favor zn2+ inhibition. however, it was found
+empirically that the thiol groups enhance
+high-affinity zn2+ inhibition of the nmda receptor
+when in their oxidized state (i.e. when part of a
+disulfide bond). hence, it was concluded that the
+redox status of these thiol groups modulates the
+effect of zn2+ allosterically, rather than by direct
+binding to zn2+. in confirmation of this postulate,
+four recent papers have shown by mutagenesis that
+the high-affinity zn2+-coordination site involves
+three histidine and one glutamate, rather than
+cysteine, residues [19,28–30].
+poly-s-nitrosylation of cysteine residues and
+modulation of nmda-receptor activity
+
+to add to the multi-tasking nature of the thiol groups
+of nmda receptors, five cysteine thiol groups are
+involved in s-nitrosylation: cys744 and cys798 of
+nr1, and cys87, cys320 and cys399 of  xxxg964xxx  [17]. in
+all cases, s-nitrosylation of receptor thiol is inhibitory
+– that is, it decreases the amplitude of nmda-evoked
+responses by decreasing the number of channel
+openings. physiological levels of zn2+ are also known
+to inhibit neurotransmission mediated by nmda
+receptors containing  xxxg964xxx  subunits. of note, all of
+these cysteine residues also influence high-affinity
+zn2+-mediated inhibition of nmda receptors
+
+476
+
+review
+
+trends in neurosciences vol.25 no.9 september 2002
+
+comprising the nr1 and  xxxg964xxx  subunits [18]. four of
+these cysteine residues (all but cys399 of  xxxg964xxx ) are
+also involved in redox modulation of nmda
+receptors. because no is a good leaving group, its
+position on a cysteine residue is often unstable. in
+some cases, no catalyzes disulfide-bond formation,
+for example, if there are vicinal thiol groups [15,31].
+in other cases, no can cause stable modification of a
+cysteine residue. however, such modification requires
+the no to be buried and to share pi electrons with, for
+example, a tyrosine or heme group [13].
+
+nr1– xxxg964xxx  receptors, and the crucial residue was
+cys399 of  xxxg964xxx  [19]. additionally, inhibition of
+nmda-evoked responses of nr1– xxxg964xxx  receptors by
+mtset or no was shown to be mediated
+predominantly by cys399 of  xxxg964xxx  [16,17]. one can,
+therefore, envisage that the mechanism of mtset
+and/or no-mediated inhibition of nmda-receptor
+activity is the enhancement of zn2+-mediated
+inhibition, via modification of cys399 of  xxxg964xxx .
+indeed, as shown in fig. 2, new experimental data
+demonstrate that exposure to no enhances
+nr1– xxxg964xxx -receptor sensitivity to high-affinity
+zn2+-mediated inhibition, and that this effect is
+totally abrogated in the nr1– xxxg964xxx  cys399ala
+mutant. recently, zheng et al. [32] demonstrated that
+the inhibitory effect of zn2+ is exerted by enhanced
+glutamate affinity that results in receptor
+desensitization. thus, by analogy to the effects of
+s-nitrosylation on hemoglobin, we propose a model
+whereby s-nitrosylation of a crucial cysteine residue
+(cys399 on  xxxg964xxx ) allosterically affects the
+quaternary organization of the receptor, resulting in
+enhanced glutamate binding and receptor
+desensitization (fig. 3).
+
+facilitation of disulfide-bond formation following
+s-nitrosylation
+
+mapping the regulatory cysteine residues onto a
+three-dimensional model of the nmda receptor
+
+s-nitrosylation of four of the cysteine residues
+(cys744 and cys798 of nr1; cys87 and cys320 of
+ xxxg964xxx ) appears to catalyze disulfide-bond formation
+(box 2). alternatively, if these cysteine residues are
+involved in an oxidation reaction after exposure to an
+endogenous redox agent (e.g.  xxxd2811xxx  or
+ xxxd2494xxx ), then they are not available for
+s-nitrosylation (box 2). oxidation of the receptor at
+these cysteine residues, either by an endogenous
+redox agent or following s-nitrosylation and
+subsequent disulfide formation, decreases nmdaevoked responses and enhances the effect of zn2+
+[17,18]. as stated above, the results of site-directed
+mutagenesis experiments suggest that these cysteine
+residues act in pairs to form disulfides. moreover, the
+recently elucidated crystal structure of the ligandbinding domain of the ionotropic  xxxg981xxx 
+ xxxg953xxx  [25] reveals a disulfide bond between cysteine
+residues homologous to cys744 and cys798 of nr1.
+
+despite the lack of high-resolution structural data on
+the nmda-receptor, it is now possible to build a
+model using insights from structural homology to
+bacterial proteins (box 3). although this is
+speculative, it allows one to make predictions about
+the regulation of channel function. the nmda
+receptor is thought to be a heterotetramer with
+twofold symmetry, composed of two nr1 and two
+ xxxg964xxx , nr2b,  xxxg966xxx  or  xxxg967xxx  (or possibly  xxxg965xxx )
+subunits. some time ago, the structural homology
+between domains of glutamate receptors and
+bacterial periplasmic-binding proteins was
+recognized [33,34]. this homology gives rise to a
+model whereby each nmda-receptor subunit has two
+distinct extracellular domains (fig. 3).
+one of the domains in each subunit is structurally
+homologous to the lys-arg-ornithine and glutamine
+periplasmic-binding proteins from escherichia coli
+(i.e. it is a domain of the laobp–qbp family) and
+binds an agonist (glycine in the case of nr1;
+glutamate in the case of nr2). this homology was
+confirmed for glutamate receptors by the crystal
+structure of the glutamate-binding domain of  xxxg953xxx 
+[25]. the second domain lies n-terminal to the
+agonist-binding domain and is structurally
+homologous to the livbp and leucine periplasmicbinding protein from e. coli (i.e. it is a domain of the
+livbp–lbp family). based on this homology, and
+using the high-resolution crystal structure of livbp
+from e. coli, a model of this latter domain has been
+reported [19,35]. support for this model comes from
+the mapping of residues on  xxxg964xxx  found by mutation
+to be involved in high-affinity inhibition of receptor
+
+box 2. s-nitrosylation, redox reactions and disulfide-bond formation
+ xxxd2738xxx  (no) chemistry favors disulfide-bond formation of thiol groups (rs-h)
+in the following way:
+rs-h + no ↔ rs-no + h
+rs-no + rs-h ↔ rs-sr + no + h
+however, prior oxidation of thiol prevents s-nitrosylation. as shown below, the
+oxidizing agents  xxxd2811xxx  ( xxxd2811xxx ) or  xxxd2494xxx  (la) are reduced, to
+glutathione (gsh) and  xxxd1887xxx  ( xxxd1887xxx ), respectively. disulfide bonds do
+not interact with no to produce s-nitrosylation.
+2rs-h +  xxxd2811xxx  (or la) ↔ rs-sr + 2gsh (or  xxxd1887xxx )
+no + rs-sr does not generate rs-no
+
+allosteric effect of s-nitrosylation of a single residue
+
+of those residues that are s-nitrosylated, a single
+crucial thiol group (that of cys399 of  xxxg964xxx ) mediates
+the predominant inhibitory effect of no [17]. the
+other four cysteine residues that can be nitrosylated
+only contribute to this reaction when they are in the
+free thiol conformation (i.e. in their chemically
+reduced state) and have not been oxidized to disulfide.
+moreover, cys399 on  xxxg964xxx  also plays a role in
+zn2+ inhibition of the receptor that is mechanistically
+distinct from those of the other four cysteine residues.
+recently, modification of a crucial cysteine residue by
+mtset was shown to increase zn2+ inhibition of
+http://tins.trends.com
+
+review
+
+trends in neurosciences vol.25 no.9 september 2002
+
+activity by zn2+ [19,28–30]. the amino acid residues
+involved in binding of zn2+ to the  xxxg964xxx  subunit are
+clustered into two groups facing each other across a
+central binding cleft in the livbp domain. when zn2+
+is present in the cleft, the two lobes are proposed to
+close tightly around the zn2+, leading to inhibition of
+nmda-receptor activity – thus, assigning a
+regulatory function to this second domain.
+the tertiary structure of the agonist-binding
+and regulatory domains is distinct but similar overall.
+in both cases, the domains are bi-lobed, with a
+(a)
+
+477
+
+ligand-binding cleft between the lobes (the ligand
+can be a metal, e.g. zn2+, as appears to be the case for
+the regulatory domain of  xxxg964xxx ). when ligand is
+bound, the cleft is closed. thus, each domain
+appears to have two tertiary conformations,
+open and closed (i.e. unbound and bound), borne out
+by the crystal-structure analysis of the  xxxg953xxx 
+laobp–qbp-like glutamate-binding domain [36].
+we propose that, for the nmda receptor, the
+zn2+-coordinated (closed) regulatory domain of  xxxg964xxx 
+interacts with the bound state of the agonist-binding
+
+nr1 and  xxxg964xxx 
+nmda
+
+1 mm snoc
+
+nmda
+
+1000 nm
+300
+100
+30
+3
+
+1000 nm
+300
+100
+30
+
+10
+
+10
+3
+
+zn2+ 1
+
+zn2+
+
+1
+
+50 na
+30 s
+nr1 and  xxxg964xxx (cys399ala)
+nmda
+
+1 mm snoc
+
+nmda
+1000 nm
+300
+
+1000 nm
+300
+100
+
+100
+
+30
+
+30
+
+10
+
+10
+
+zn2+ 3
+1
+
+zn2+ 3
+1
+
+50 na
+30 s
+
+(b)
+100
+
+nr1 and  xxxg964xxx (cys399ala)
+
+*
+
+normalized currents (%)
+
+normalized currents (%)
+
+nr1 and  xxxg964xxx 
+
+**
+80
+
+*
+
+60
+40
+20
+0
+1
+
+10
+
+100
+
+1000
+
+[zn2+] (nm)
+
+100
+80
+60
+40
+20
+0
+
+1
+
+10
+
+100
+
+1000
+
+[zn2+] (nm)
+trends in neurosciences
+
+fig. 2.  xxxd2738xxx  (no) enhances high-affinity zn2+ inhibition of
+nmda receptors composed of nr1 and  xxxg964xxx  receptors.
+(a) zn2+ inhibition of nmda-receptor activity in oocytes expressing
+nr1-1a and  xxxg964xxx  receptors (upper trace) or nr1-1a and
+ xxxg964xxx (cys399ala) mutant receptors (lower trace) before and 2 min after
+exposure to the s-nitrosylating agent, snoc (500 µm to 1 mm) [17].
+various concentrations of zn2+ ([zn2+]), titrated in tricine-buffered
+solution [19,28], were applied in the presence of nmda (200 µm) plus
+glycine (100 µm). the enhancement of zn2+ inhibition by snoc was
+observed in nr1–1a and  xxxg964xxx  receptors but abolished in nr1-1a and
+ xxxg964xxx (cys399ala) mutant receptors. currents were recorded at a
+
+http://tins.trends.com
+
+holding potential of −40 mv and ph 7.3. zn2+ concentrations shown
+represent calculated concentration of free zn2+. (b) zn2+ dose–response
+curves of nr1– xxxg964xxx  and nr1– xxxg964xxx (cys399ala) receptors before and
+after exposure to no. currents were normalized as a percentage of the
+nmda-evoked control current obtained in nominally zero
+zn2+ conditions (no added zn2+, plus 10 mm tricine). each point
+represents mean ± sem (n = 4–5 oocytes). snoc enhancement of
+zn2+-mediated inhibition was statistically significant for nr1-1a– xxxg964xxx ,
+but not nr1-1a– xxxg964xxx (cys399ala), receptors [**p <0.005, *p <0.05 by
+paired t test for the same oocyte before (open circles) and after (closed
+circles) application of snoc at a given zn2+ concentration].
+
+review
+
+478
+
+(a)
+
+trends in neurosciences vol.25 no.9 september 2002
+
+ xxxg964xxx 
+
+fig. 3. predicted atomic structures of the extracellular domains of nr1
+and  xxxg964xxx , and functional implications for the nmda receptor.
+(a) comparative modeling of the nmda-receptor structure was
+performed based on the crystal structures of homologous bacterial
+periplasmic-binding proteins and the glutamate-binding domain of the
+ xxxg953xxx  receptor. primary sequence homology places cysteine residue
+399 (cys399, or c399) on a linker region separating the agonist-binding
+domain and the zn2+-binding regulatory domain of the  xxxg964xxx  subunit.
+the lower domain binds the ligand glutamate in its central cavity. the
+upper domain binds zn2+ in its central cavity. glycine presumably binds
+to the cleft representing the agonist-binding domain of nr1 (lower
+right). crucial cysteine residues involved in s-nitrosylation or zn2+
+and/or redox modulation of the nmda receptor are shown as pale
+yellow balls [ xxxg964xxx  cys399, the predominant s-nitrosylation site; plus
+three pairs of redox-active residues, cys87 (c87) and cys320 (c320) of
+ xxxg964xxx ; cys79 (c79) and cys308 ( xxxd371xxx ) of nr1; cys744 (c744) and (c798)
+of nr1). none of these cysteine residues are in the agonist-binding or
+zn2+-binding cavities, consistent with their allosteric mechanism of
+action on high-affinity zn2+ inhibition. tyrosine residues (y) possibly
+involved in stabilization of pi electrons of the no group nitrosylating
+ xxxg964xxx  cys399 are highlighted as red balls. (b) three quaternary states of
+the nmda receptor and the observed inhibitory effect of s-nitrosylation
+on nmda-receptor activity. state (i) is a receptor with two nr1 and two
+ xxxg964xxx  subunits and no ligand; the agonist-binding domains are open
+and the channel is closed. states (ii) and (iii) are two quaternary states
+that exist in the presence of glutamate (large red ball; interacting with
+the agonist-binding domain on  xxxg964xxx ) and glycine (dark-blue ball;
+interacting with the agonist-binding domain on nr1). in state (ii),
+glutamate and glycine are bound, the agonist-binding domains are
+closed, the linker separating the two extracellular domains in each
+subunit is extended (‘relaxed’) and the channel is open. in state (iii),
+glycine is bound to the nr1 subunit and glutamate is bound to  xxxg964xxx .
+however, when the  xxxg964xxx  subunit coordinates zn2+ (red square) in the
+outer, regulatory domain and is s-nitrosylated at cys399 in the linker
+region, then the linker is bent (‘tense’). under these conditions, the
+regulatory domain interacts with the agonist-binding domain and/or
+the linker region, stabilizing the glutamate-bound state, thereby
+slowing the off-rate, increasing glutamate affinity and resulting in
+receptor desensitization. crucial cysteine residues involved in either
+s-nitrosylation of the linker region or zn2+ or redox modulation (and
+potentially disulfide-bond formation) on the outer, regulatory domain
+are shown as yellow balls; tyrosine residues potentially involved in
+stabilization of the nitrosylating group are shown as small red balls.
+
+nr1
+
+(b)
+(i)
+
+(ii)
+
+(iii)
+
+cys399
+
+no
+
+key:
+tyr
+
+gly
+
+glu
+
+zn2+
+
+no
+
+cys
+trends in neurosciences
+
+domain. this interaction effectively stabilizes the
+closed state of the glutamate-binding domain and
+shifts the unbound versus bound equilibrium in favor
+of the bound state. hence, the off-rate for glutamate is
+slowed and desensitization results. the existence of
+such a high-affinity desensitized state is consistent
+http://tins.trends.com
+
+with electrophysiological data describing the
+inhibitory effect of submicromolar concentrations of
+zn2+ on nr1– xxxg964xxx  receptors [28,32,37,38].
+reciprocally, in the glutamate-bound state, the
+affinity for zn2+ is increased [32]. as discussed below,
+the fact that the region separating the regulatory and
+agonist-binding domains is predicted to be a linker
+region, within which lies a flexible stretch of amino
+acids, is consistent with the existence of a two-state
+quaternary equilibrium.
+in fig. 3a, we present an atomic model of the two
+extracellular domains of nr1 and  xxxg964xxx  in which we
+have mapped the seven cysteine residues so far
+identified to be important for regulation of the
+nmda receptor. of note is the location of the cysteine
+residues that are both redox active and also affect
+zn2+ inhibition. they map either to nr1 or to a region
+outside the zn2+-binding cleft of  xxxg964xxx , consistent with
+their allosteric effect on high-affinity zn2+-mediated
+inhibition. it is possible that the three pairs of cysteine
+residues form intermolecular disulfide bonds between
+subunits, based on the model and also by analogy to
+the solved crystal structure of  xxxg972xxx  [27].
+as shown in fig. 3a, the location on  xxxg964xxx  of
+cys399, the cysteine residue that mediates the
+
+review
+
+trends in neurosciences vol.25 no.9 september 2002
+
+box 3. methods for modeling the structure of
+nmda-receptor subunits
+this box is available as a separate pdf file online at
+http://archive.bmn.com/supp/tins/liptonbox3.pdf
+
+predominant effect of s-nitrosylation, is important.
+this crucial residue lies in an unstructured linker
+region separating the two domains, suggesting that it
+might regulate quaternary organization of the nmda
+receptor. but how can the addition of two atoms (i.e.
+no) to this cysteine residue lying in an extended linker
+region have a global affect on such a large oligomer?
+more lessons from hemoglobin
+
+elegant work from stamler and colleagues has
+detailed the interaction of hemoglobin with no [13]. in
+the case of hemoglobin, the binding of no is relatively
+stable, with its position depending on the oxygen
+concentration and the quaternary state of hemoglobin.
+at low oxygen concentrations, no is bound to iron and
+stabilized by sharing pi electrons with heme, and
+hemoglobin is in the quaternary ‘t state’. however,
+high concentrations of oxygen facilitate s-nitrosylation
+of a cysteine residue. the no on this cysteine is buried
+and shares its pi electrons with a tyrosine residue,
+which is associated with a shift of hemoglobin to the
+‘r state’. thus, in the presence of no, a shift in the
+quaternary state of hemoglobin is associated with
+s-nitrosylation of a single cysteine residue.
+is the s-nitrosylation of  xxxg964xxx  cys399 linked to a
+quaternary switch?
+
+acknowledgements
+we are indebted to kosi
+gramatikoff for the
+cartoon model of the
+nmda-receptor binding
+domains. the work of
+s.a.l., y-b.c., h.t. and
+d.z. was supported by
+nih grants  xxxd3042xxx  hd29587,
+r01 ey05477 and r01
+ey09024.
+
+by analogy to hemoglobin, we propose that the nmda
+receptor exists in two principal quaternary states in
+the presence of ligand (fig. 3b). in one state, the
+regulatory domain of  xxxg964xxx  stretches away from the
+fully ligand-bound glycine- and glutamate-binding
+domains, being elongated or ‘relaxed’ and constituting
+the ‘free’ state. cys399 is not s-nitrosylated, zn2+ is not
+coordinated and the channel is open. in the other
+state, the  xxxg964xxx  regulatory domain bends towards the
+agonist-binding domain, forming the bent or ‘tense’
+state. there is stable nitrosylation of cys399 in the
+linker region between domains (the no group sharing
+pi electrons with a tyrosine side chain) and zn2+ is
+coordinated in the binding cleft of the regulatory
+domain. in this quaternary conformation, the
+regulatory and agonist-binding domains interact with
+each other and/or the linker. we propose that the
+interactions occurring in the bent, quaternary state
+stabilize the bound states of the regulatory domain
+and the glutamate-binding domain. the two domains
+could interact more closely than is apparent in fig. 3b
+because the linker is quite long and flexible. the
+prolonged, high-affinity glutamate binding results in
+desensitization and channel closure [32,37]. we
+imagine that an equilibrium exists between these two
+quaternary states and that events, such as the
+http://tins.trends.com
+
+479
+
+s-nitrosylation of cys399 and/or the coordination of
+zn2+, shift the equilibrium in favor of the bent,
+desensitized state (fig. 3b,iii). the model
+structures can be viewed as a movie on the server
+http://wind.prohosting.com/kosig/ [see table and
+choose ‘molecular 4 (nmda receptor) neuroscience’].
+in fig. 3a, we have labeled the four tyrosine residues
+in  xxxg964xxx  that, in our model, lie in proximity to cys399
+and could potentially stabilize the nitrosylation
+reaction. one of these residues lies at the bottom
+of the regulatory domain (tyr251), one is in the linker
+region (tyr393), and two are at the top of the
+glutamate-binding domain (tyr475 and tyr502). this
+nitrosylation model represents only one of several
+possible mechanisms for receptor desensitization.
+for example, the crystal structure of non-nmda
+receptors composed of  xxxg953xxx  subunits suggests that
+desensitization occurs predominantly by molecular
+interactions between two pairs of subunit dimers [39].
+of interest, the olfactory cyclic-nucleotide-gated
+channel manifests very different structural domains
+from the nmda receptor, and yet it, too, is regulated
+by s-nitrosylation of a single cysteine residue
+(cys460) [14]. analogous to cys399 of the nmda
+receptor, this cysteine residue lies in a long linker
+region – in this case separating the membrane from
+the ligand-binding domain. it is tempting to
+speculate, therefore, that s-nitrosylation of solitary,
+crucial cysteine residues in linker regions adjacent to
+the ligand-binding domain of ion channels represents
+a general mechanism for a quaternary switch that
+regulates channel activity.
+does the multi-tasking of thiol influence other forms of
+protein modulation?
+
+finally, the state of the seven crucial cysteine thiol
+groups could influence other modulatory effects on the
+nmda receptor. the glycine-independent form of
+ xxxd3234xxx  potentiation of nmda receptors lacking exon
+5 in nr1 was reported to reflect relief from tonic proton
+inhibition [40], and the high-affinity zn2+ effect is
+mediated by enhancing proton inhibition [17,28,30,32].
+as shown here, multiple cysteine residues modulate
+high-affinity zn2+-mediated inhibition, as well
+as mediating the effects of redox reagents and
+no. therefore, there is a complicated web of
+nmda-receptor regulation that is influenced by these
+cysteine thiol groups – and this regulation extends to
+ xxxd3234xxx , protons, zn2+, no and redox reagents. at the
+single-channel level, the reactions of these cysteine
+residues all affect the frequency of channel opening.
+thus, these crucial cysteine thiol groups transduce
+signals into an effect on channel activity and, hence,
+channel gating [18]. this mechanistic interpretation of
+nmda-receptor regulatory events is in accord with
+recent evidence showing that crucial cysteine residues
+can be involved in the modulation of protein activity
+and signaling events via a rich repertoire of reactions of
+their thiol groups with no-related species and
+redox-active agents.
+
+480
+
+review
+
+trends in neurosciences vol.25 no.9 september 2002
+
+references
+1 lipton, s.a. et al. (1993) a redox-based
+mechanism for the neuroprotective and
+neurodestructive effects of  xxxd2738xxx  and related
+nitroso-compounds. nature 364, 626–632
+2 stamler, j.s. (1994) redox signaling:
+nitrosylation and related target interactions of
+ xxxd2738xxx . cell 78, 931–936
+3 stamler, j.s. et al. (1997) (s)no signals:
+translocation, regulation and a consensus motif.
+neuron 18, 691–696
+4 katzen, f. and beckwith, j. (2000)
+transmembrane electron transfer by the
+membrane protein csbd occurs via disulfide bond
+cascade. cell 103, 769–779
+5 lay, a.j. et al. (2000) phosphoglycerate kinase
+acts in tumour angiogenesis as a disulphide
+reductase. nature 408, 869–873
+6 gergel, d. and cederbaum, a.i. (1996) inhibition of
+the catalytic activity of  xxxg110xxx  by
+ xxxd2738xxx  is associated with s-nitrosylation and
+the release of zinc. biochemistry 35, 16186–16194
+7 kroncke, k.d. and carlberg, c. (2000)
+inactivation of zinc finger transcription factors
+provides a mechanism for a gene regulatory role of
+ xxxd2738xxx . faseb j. 14, 166–173
+8 choi, h. et al. (2001) structural basis of the redox
+switch in the oxyr transcription factor. cell 105,
+103–113
+9 kroncke, k.d. et al. (1994)  xxxd2738xxx  destroys
+zinc-sulfur clusters inducing zinc release from
+metallothionein and inhibition of the zinc fingertype yeast transcription activator lac9.
+biochem. biophys. res. commun. 200, 1105–1110
+10 misra, r.r. et al. (1996) evidence that  xxxd2738xxx 
+enhances cadmium toxicity by displacing the
+metal from metallothionein. chem. res. toxicol. 9,
+326–332
+11 aravindakumar, c.t. et al. (1999)  xxxd2738xxx 
+induces zn2+ release from metallothionein by
+destroying zinc-sulphur clusters without
+concomitant formation of s-nitrosothiol. biochem.
+j. 344, 253–258
+12 pearce, l.l. et al. (2000) role of metallothionein
+in  xxxd2738xxx  signaling as revealed by a green
+fluorescent fusion protein. proc. natl. acad. sci.
+u. s. a. 97, 477–482
+13 stamler, j.s. et al. (1997) blood flow regulation by
+s-nitrosohemoglobin in the physiological oxygen
+gradient. science 276, 2034–2037
+
+14 broillet, m-c. (2000) a single intracellular
+cysteine residue is responsible for the activation of
+the olfactory cyclic nucleotide-gated channel by
+no. j. biol. chem. 275, 15135–15141
+15 lei, s.z. et al. (1992) effect of  xxxd2738xxx 
+production on the redox modulatory site of the
+nmda receptor-channel complex. neuron 8,
+1087–1099
+16 kim, w-k. et al. (1999) attenuation of nmda
+receptor activity and neurotoxicity by  xxxd2738xxx 
+(no−). neuron 24, 461–469
+17 choi, y-b. et al. (2000) molecular basis of nmda
+receptor-coupled ion channel modulation by snitrosylation. nat. neurosci. 3, 15–21
+18 choi, y-b. et al. (2001) three pairs of cysteine
+residues mediate both redox and zn2+ modulation
+of the nmda receptor. j. neurosci. 21, 392–400
+19 paoletti, p. et al. (2000) molecular organization of
+a zinc binding n-terminal modulatory domain in a
+nmda receptor subunit. neuron 28, 911–925
+20 renganathan, m. et al. (2002)  xxxd2738xxx  blocks
+fast, slow, and persistent na+ channels in c-type
+drg neurons by s-nitrosylation. j. neurophysiol.
+87, 761–775
+21 lipton, s.a. and rosenberg, r.a. (1994)
+mechanisms of disease: excitatory amino acids as
+a final common pathway in neurologic disorders.
+new engl. j. med. 330, 613–622
+22 mcbain, c.j. and mayer, m.l. (1994) n-methyl-daspartic acid receptor structure and function.
+physiol. rev. 74, 723–760
+23 sucher, n.j. et al. (1996) nmda receptors: from
+genes to channels. trends pharmacol. sci. 17,
+348–355
+24 sullivan, j.m. et al. (1994) identification of two
+cysteine residues that are required for redox
+modulation of the nmda subtype of glutamate
+receptor. neuron 13, 929–936
+25 armstrong, n. et al. (1998) structure of a
+glutamate-receptor ligand-binding core in
+complex with kainate. nature 395, 913–917
+26 masuko, t. et al. (1999) a regulatory domain
+(r1–r2) in the amino terminus of the n-methyl-daspartate receptor: effects of  xxxd3234xxx , protons,
+and  xxxd2326xxx , and structural similarity to
+bacterial leucine/isoleucine/valine binding
+protein. mol. pharmacol. 55, 957–969
+27 kunishima, n. et al. (2000) structural basis of
+glutamate recognition by a dimeric metabotropic
+ xxxg981xxx . nature 407, 971–977
+
+28 choi, y-b. and lipton, s.a. (1999) mechanism of
+action and identification of two histidine residues
+underlying high-affinity zn2+ inhibition of the
+nmda receptor. neuron 23, 171–180
+29 fayyazuddin, a. et al. (2000) four residues of the
+extracellular n-terminal domain of the  xxxg964xxx 
+subunit control high-affinity zn2+ binding to
+nmda receptors. neuron 25, 683–694
+30 low, c-m. et al. (2000) molecular determinants
+of coordinated proton and zinc inhibition
+of n-methyl-d-aspartate nr1/ xxxg964xxx 
+receptors. proc. natl. acad. sci. u. s. a. 97,
+11062–11067
+31 stamler, j.s. et al. (1992) biochemistry of nitric
+oxide and its redox-activated forms. science 258,
+1898–1902
+32 zheng, f. et al. (2001) allosteric interaction
+between the amino terminal domain and the
+ligand binding domain of  xxxg964xxx . nat. neurosci. 4,
+894–901
+33 stern-bach, y. et al. (1994) agonist selectivity of
+glutamate receptors is specified by two domains
+structurally related to bacterial amino acidbinding proteins. neuron 13, 1345–1357
+34 wo, z.g. and oswald, r.e. (1995) unraveling the
+modular design of glutamate-gated ion channels.
+trends neurosci. 18, 161–168
+35 sack, j.s. et al. (1989) periplasmic binding
+protein structure and function. refined x-ray
+structures of the leucine/isoleucine/valine-binding
+protein and its complex with leucine. j. mol. biol.
+206, 171–191
+36 armstrong, n. and gouaux, e. (2000)
+mechanisms for activation and antagonism of an
+ampa-sensitive  xxxg981xxx : crystal
+structures of the  xxxg953xxx  ligand binding core.
+neuron 28, 165–181
+37 chen, n. et al. (1997) differential sensitivity of
+recombinant n-methyl-d-aspartate receptor
+subtypes to zinc inhibition. mol. pharmacol. 51,
+1015–1023
+38 paoletti, p. et al. (1997) high-affinity zinc
+inhibition of nmda nr1– xxxg964xxx  receptors.
+j. neurosci. 17, 5711–5725
+39 sun, y. et al. (2002) mechanism of glutamate
+receptor desensitization. nature 417,
+245–253
+40 traynelis, s.f. et al. (1995) control of proton
+sensitivity of the nmda receptor by rna splicing
+and polyamines. science 268, 873–876
+
+why not make the neuroscience gateway your home page?
+…for easy access to the latest news, research developments and expert reviews
+of the literature!
+take a look at…
+editor's choice – bmn.com/neuroscience
+featuring articles carefully selected by the editors of trends in neurosciences, current opinion in neurobiology and
+
+trends in cognitive sciences
+
+http://tins.trends.com
+

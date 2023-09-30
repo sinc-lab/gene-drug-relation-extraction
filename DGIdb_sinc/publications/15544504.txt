@@ -1,0 +1,2441 @@
+current pharmaceutical design, 2004, 10, 3141-3156
+
+3141
+
+development of bivalent acetylcholinesterase inhibitors as potential
+therapeutic drugs for alzheimer’s disease
+da-ming dua and paul r. carlierb,*
+a
+
+key laboratory of bioorganic chemistry and molecular engineering, college of chemistry and molecular
+engineering, peking university, beijing 100871, p.r.china and bdepartment of chemistry, virginia tech, blacksburg,
+va 24061, usa
+abstract: at present the only fda-approved therapy for alzheimer’s disease involves the administration of
+acetylcholinesterase inhibitors, to alleviate the cholinergic deficit associated with this disease. however, none of the
+approved drugs is ideal in efficacy or tolerability. one possible strategy to improve selectivity and potency is to design
+drugs that can simultaneously bind to the catalytic and peripheral anionic sites of ache. in this review we will describe
+the development of dimeric ache inhibitors, from the early observations of high inhibition potency by bis-quaternary
+inhibitors, to the structure-based design of dimers based on tacrine,  xxxd2287xxx , galanthamine, and polyamines.
+
+key words: acetylcholinesterase,  xxxg248xxx , alzheimer’s disease, inhibitor, bivalent, dimer.
+1. the use of ache inhibitors to treat
+alzheimer’s memory loss
+
+n
+h
+n
+
+alzheimer’s disease (ad) is a neurodegenerative condition characterized by a loss of basal forebrain neurons and
+reduced cortical and hippocampal levels of acetylcholine
+(ach). although the precise etiology of ad is unknown,
+onset and progression of the disease are associated with
+extracellular deposition of beta-amyloid plaques and intracellular deposition of neurofibrillary tangles [1]. intervention in
+these protein deposition processes could provide the basis for
+future preventive or curative treatments. however a useful
+intermediate goal is to ameliorate the learning and memory
+deficits resulting from the associated ach depletion [2]. a
+number of strategies to address the cholinergic deficit can be
+envisioned, but to date only the administration of reversible
+acetylcholinesterase (ache) inhibitors has provided success
+in clinical practice. some well-known reversible ache
+inhibitors are listed in scheme 1.
+tacrine [3] was the first drug approved in the united
+states for the palliative treatment of ad, but the poor
+selectivity of this drug for ache results in a number of
+undesired side effects [4]. in the intervening years, e2020
+[5], galanthamine [6], and rivastigmine [7] were approved
+for the treatment of ad in the united states, europe, and
+australia. (-)- xxxd2287xxx  [8-10] is a selective ache
+inhibitor isolated from the chinese medicinal herb huperzia
+serrata, and is used in china for the palliative treatment of
+ad. it is safe to say however, that none of these drugs has
+proven ideal either in efficacy or tolerability. these shortcomings, as well as a tantalizing early report that blockage of
+the peripheral site of ache inhibits beta-amyloid aggregation
+[11], inspired the development of dimeric inhibitors that
+span the catalytic and peripheral sites of the enzyme.
+*address correspondence to this author at the department of chemistry,
+virginia tech, blacksburg, va 24060-0212, usa; tel: 540-231-9219;
+fax: 425-984-8099; e-mail: pcarlier@vt.edu
+1381-6128/04 $45.00+.00
+
+nh 2
+
+o
+
+h2n
+
+tacrine
+(tha, cognex®)
+
+(-)- xxxd2287xxx 
+o
+
+meo
+ch2
+
+nch2ph
+
+meo
+e2020 (donepezil, aricept®)
+
+oh
+h
+o
+
+o
+
+me 2n
+
+ch3o
+
+n(me)et
+o
+
+n
+ch3
+galanthamine (reminyl®)
+
+rivastigmine
+(exelon®)
+
+scheme 1. selected reversible ache inhibitors.
+
+selected scientific [12] and patent [13] literature in this area
+has been briefly reviewed by martinez. in this review we
+will describe the development of dimeric ache inhibitors,
+from the early observations of high inhibition potency by
+bis-quaternary inhibitors, to the structure-based design of
+dimers based on tacrine,  xxxd2287xxx , galanthamine, and
+polyamines. the success or failure of the dimer strategy in
+each case will be critically assessed. although e2020 is now
+known to bind to the catalytic anionic site and fill the gorge
+© 2004 bentham science publishers ltd.
+
+3142
+
+current pharmaceutical design, 2004, vol. 10, no. 25
+
+du and carlier
+
+up to the peripheral site [14], we will not discuss drug
+development around this pharmacophore, since dual-site
+binding was not a driving force in its design. we will close
+with the use of “click chemistry” to enable electrophorus
+electricus ache to synthesize its own 99 fm heterodimeric
+inhibitor, and the possible use of dimeric inhibitors to inhibit
+beta-amyloid aggregation.
+2. historical development of dimeric
+ache inhibitors: bis- (and tris)-quaternaries
+in the first half of the 20th century a number of bisquaternary amines were found to have the curariform activity
+of d- xxxd3456xxx  (scheme 2) [15].
+
+oh
+ome
+
+n
++
+
+o
+o
+meo
+
++
+
+oh
+
+n
+
+d- xxxd3456xxx 
+nme3
+
++
+
++
+
+me 3n
+ xxxd1820xxx 
+o
+
++
+
++
+
+n
+me
+
+n
+
+bw284c51
+
+me
+
+et
+
+me
+
+me
+
+o
+
+et
+n
+
+cl
+h
+n
+
+n
+h
+
++
+
+cl
+
++
+
+n
+et
+
+o
+
+et
+
+ xxxd137xxx 
+
+h2n
+
+n
+
++
+
+n
+
+nh 2
+
++
+
+dap
+
+och2ch2net3+
+och2ch2net3+
+och2ch2net3
+ xxxd2174xxx 
+
++
+
+n
+ph
+
++
+
++
+
+(ch2) n
+
+n(me)et2
+
+ xxxd3027xxx : n = 3
+decidium: n = 10
+
+scheme 2. selected bis- (and tris)-quaternary inhibitors of ache.
+
+paton and zaimis [16] and bergmann [17] were among
+the first to relate the physiological effects of d- xxxd3456xxx 
+and  xxxd1820xxx  to specific modes of pharmacological
+action, including ache inhibition. bergmann subsequently
+demonstrated that  xxxd1820xxx  was 1800-fold more
+potent than  xxxd3337xxx  for inhibiting acetylcholinesterase [18]. these results prompted the speculation that
+acetylcholinesterase, unlike  xxxg248xxx , possessed
+two anionic sites, though at this point the locus of the second
+site was not clear. during the subsequent twenty years a
+number of other bis- (and tris)-quaternary compounds were
+found to be potent inhibitors of ache, including bw284c51
+[19],  xxxd137xxx  [20-22], dap [23, 24],  xxxd2174xxx  [25],
+and the phenanthridinium derivatives  xxxd3027xxx  [26] and
+decidium [27]. fluorescence studies proved useful for
+characterizing competitive binding to the active [23, 24, 26]
+and peripheral sites [26], and taylor’s 1975 study on
+torpedo californica ache (tcache) demonstrated that
+ xxxd3027xxx  bound selectively to the peripheral site, but
+ xxxd1820xxx , dap, and  xxxd137xxx  bound to the active
+site and peripheral sites with similarly high affinities [26].
+although the authors were careful not to claim proof, the
+clear inference from this study was that bis-quaternary
+ligands featuring an intercharge distance of ~14å simultaneously occupy (and thus span) these two sites [26]. a
+subsequent tcache fluorescence study with decidium
+suggested that this ligand could also span both the active and
+peripheral sites, as consequence of the long intercharge
+separation [27].
+landmark crystallographic studies of tcache by
+sussman et al. in the early 1990s finally provided a
+convincing structural explanation for the potency of bisquaternary ache inhibitors, and a foundation for structurebased drug design [28, 29]. the catalytic site of ache was
+found to be located at the bottom of a deep and narrow
+cavity, called the “aromatic gorge” since 40% of the surface
+of the gorge is lined with the rings of 14 conserved aromatic
+amino acid residues [28]. the so-called “anionic subsite” of
+the catalytic site was void of anionic groups; this result was
+unexpected in view of the extremely high catalytic efficacy
+of ache. instead of aspartic or  xxxd2431xxx , two aromatic
+amino acids, w84 and f330 were found to be present at the
+catalytic anionic site. the so-called “peripheral anionic site”
+was similarly found to consist of aromatic amino acids
+w279, y70, and f290, located at the opening of the mouth
+of the active site gorge. the 1993 structure of the  xxxd1820xxx  complex of tcache [29] demonstrated that the
+ligand had close contacts with the enzyme both at the
+catalytic anionic site (w84) and at the mouth of the active
+site gorge (w279), thus providing one of the first examples
+of the importance of the cation-pi effect in biology [30]. in
+contrast, tacrine was shown to bind only at the active site
+[29]. following these pivotal studies, a number of other
+inhibitors have been co-crystallized with tcache or murine
+ache (mache), including (-)- xxxd2287xxx  [31], e2020 [14],
+galanthamine [32], bw284c51 [33],  xxxd2174xxx  [34],  xxxd3027xxx  [34], and decidium [34]. however, the details of these
+enzyme•inhibitor structures will not be discussed at this
+point, since the first rationally-designed blood-brain penetrable dimeric ache inhibitors preceded these structures.
+
+development of bivalent acetylcholinesterase inhibitors
+
+current pharmaceutical design, 2004, vol. 10, no. 25 3143
+
+as described above for ache, and as portoghese subsequently demonstrated for opioid receptors [35-37], dimeric
+ligands can display significant enhancements in binding
+potency and selectivity relative to their monomeric counterparts. the relationship of this phenomenon to the familiar
+“chelate effect” of inorganic chemistry has been long
+appreciated, and in 1981 jencks provided an early theoretical
+treatment of dual-site binding [38]. based on the inhibition
+profiles of the bis-quaternary ache inhibitors described
+above, it seems likely that dimerization might prove an
+effective strategy for development of a clinically effective
+and tolerable drug for the treatment of alzheimer’s memory
+loss. quaternary amine compounds, however, do not cross
+the blood-brain barrier, and thus the published bis-quaternaries described above could not be used in cholinergic
+replacement therapy for alzheimer’s memory loss. but as
+early as 1992 rosenberry suggested that a bis-tertiary amine
+such as di(desethyl)  xxxd137xxx  could be blood-brain barrier
+penetrable, and potentially useful as a therapeutic agent [22].
+3. structure-based design of
+dimers and analogous dimers
+
+tacrine
+
+in this context, rational design of the first blood-brain
+barrier penetrable dimeric ache inhibitor was carried out by
+pang. determination of the tcache x-ray structure [28, 29]
+allowed docking studies with inhibitors to be performed, and
+in 1994, pang identified a putative peripheral binding site for
+tacrine near w279, y70, and f290 [39]. pang further proposed that the affinity of tacrine for the peripheral site was
+low, to explain why x-ray crystallography did not evidence
+binding of tacrine to the peripheral site [29]. based on the
+computed distance between the catalytic and peripheral
+binding sites in ache, pang prepared alkylene-linked tacrine
+dimers (bis(n)-tacrines, 1f-i) (scheme 3), and evaluated them
+for ache and  xxxg248xxx  ( xxxg248xxx ) inhibition in
+vitro (rat) [40, 41].
+the pharmacological data obtained provide remarkable
+vindication of the computational prediction. computation
+
+n
+
+nh 2
+
+1. koh, dmso,
+heat, cool to rt
+2. br(ch2) nbr
+0.5 equiv.
+
+predicted an optimum tether length of 9 methylenes for
+tcache, and for rat ache the optimum tether length proved
+to be 7 methylenes: bis(7)-tacrine (1f) was 1000-fold more
+potent than tacrine for inhibiting ache. dimerization also
+achieved the related goal of improved ache/ xxxg248xxx 
+selectivity. the isozyme  xxxg248xxx  possesses nonaromatic
+residues a279, n70, and q121 in place of the corresponding
+aromatic residues in ache, and since these residues cannot
+effectively interact with a cationic protonated tacrine,
+dimerization should not improve affinity for  xxxg248xxx . thus, as
+predicted, dimerization of tacrine not only increased ache
+inhibition potency, but also improved ache/ xxxg248xxx 
+inhibition selectivity nearly 10,000-fold [40, 41].
+to probe the specificity of the ache peripheral site, a
+series of tacrine heterodimers (2c-i) was prepared with a
+neutral hydrophobic benzene ring in place of the cationic,
+protonated tacrine unit (scheme 3). enzyme inhibition by
+this class showed that compound (2g) was optimal, and
+further decrease or increase of chain length weakened ache
+inhibition and lowered ache/ xxxg248xxx  selectivity. this result
+confirmed that the chain length of tacrine-aromatic heterodimeric analogs was an important determinant of potency
+and selectivity. however, since the inhibition potency of
+bis(7)-tacrine (1f) was 500-fold greater than that of 2g, it
+appeared that the ache peripheral site only weakly bound
+hydrophobic aromatics [40].
+following the initial publications by pang on tacrine
+dimers [40, 41], work on these and related dimers proceeded
+in the context of a collaboration between pang, carlier, and
+han. in pang’s study with a small series of tacrine dimers 1fi, heptylene-linked dimer bis(7)-tacrine (1f) had the highest
+anti-ache potency. however, the question remained, do
+seven methylenes provide the optimum tether length for
+ache inhibition? demonstration that 1f is superior to
+homologous ‘short-tether’ tacrine dimers (i.e. bis(n)-tacrine,
+n<7) is important not only from the perspective of drug
+development, but as a further physical test of the dual
+binding site hypothesis. if simultaneous binding to the
+
+n
+
+nh(ch2 )nhn
+
+n
+
+1f-i (~80%)
+
+n
+
+nh 2
+
+1. koh, dmso,
+heat, cool to rt
+
+(ch2) n
+hn
+
+2. br(ch2) nph
+n
+2c-i
+homolog lettering system for all schemes: a, n=2; b, n=3; c, n=4; d, n=5; e, n=6; f, n=7; g, n=8; h, n=9; i, n=10; j, n=11; k, n=12; l, n=13; m, n=14.
+
+scheme 3. synthesis of bis(n)-tacrines 1f-i and tacrine/benzene heterodimers 2c-i [40].
+
+3144
+
+current pharmaceutical design, 2004, vol. 10, no. 25
+
+du and carlier
+
+ache and  xxxg248xxx  inhibition assays of 1a-i confirmed that
+a seven methylene tether (1f) indeed optimizes both ache
+inhibition potency and ache/ xxxg248xxx  selectivity, consistent
+with earlier projections (fig. 1).
+
+catalytic and peripheral sites is indeed responsible for the
+enhanced ache inhibition potency of 1f, there should be a
+well-defined minimum tether length, beyond which dual-site
+binding is impossible and ache ic50 rises dramatically.
+thus we undertook the synthesis of short-tether homologs
+bis(2)-tacrine to bis(6)-tacrine (1a-e) [42]. application of the
+previously developed alkylation method [41] to the synthesis
+of desired homologs (1a-e) was not successful owing to
+competing cyclization and elimination processes with br(ch2)n-br (n = 2 to 6) [42]. we then developed a nucleophilic
+aromatic substitution route, which proved both convenient
+and versatile (scheme 4).
+
+bis(7)-tacrine (1f) had an ic50 value of 1.5 ± 0.1 nm,
+nearly 150-fold lower than that of tacrine [42]; note that this
+potency enhancement, while quite significant, is somewhat
+less than first reported by pang [40]. bis(n)-tacrines (1) are
+significantly more potent than tacrine at ache until n = 3-4,
+at which point the dimers approximate the tacrine monomer
+in potency. this observation is consistent with the expectation that at some point, the tether will be too short, permitting only single site binding to ache. finally, bis(2)-tacrine
+(1a) has roughly 1/3 the potency of tacrine; this loss of
+potency could be due to crowding at the bottom of the ache
+gorge, as a consequence of the close proximity of the two
+tacrine units. in contrast to the dramatic tether length
+dependence for ache inhibition, inhibition of  xxxg248xxx  is
+rather insensitive to tether-length, and none of the dimers are
+
+ xxxd189xxx  and cyclohexanone provided spirocarbinolamine ester ( 3) in 93% yield. direct treatment of (3)
+with 4 equivalents of phosphorus oxychloride provided 9amino-1,2,3,4-tetrahydroacridine (4) in high yield (96%), for
+an overall yield of 89%. reaction of compound (4) and 0.5
+equivalent of alpha,omega-diamines in refluxing 1-pentanol for 40 h
+gave the desired dimers (1a-i) in good yield [42].
+
+nh 2
+
+cl
+
+h
+n
+
+a
+
+b
+o
+
+co2h
+
+n
+
+o
+4
+
+3
+
+c
+n
+
+nh(ch2 )nhn
+
+n
+
+1a-i
+a) 1.2 equiv. cyclohexanone, toluene, dean-stark trap, reflux (93%). b) 4 equiv. pocl3, reflux (96%).
+c) 0.5 equiv. h2n-(ch2)n-nh2, 1-pentanol, reflux 40 h. lettering designates tether length, as in scheme 3.
+
+scheme 4. synthesis of bis(n)-tacrines (1a-i) by nucleophilic aromatic substitution [42].
+
+fig. (1). effect of tether-length on ache and  xxxg248xxx  inhibition potency of bis(n)-tacrines (1a-i) [42].
+
+development of bivalent acetylcholinesterase inhibitors
+
+current pharmaceutical design, 2004, vol. 10, no. 25 3145
+
+more potent than tacrine for inhibiting  xxxg248xxx  (fig. 1). this
+result is consistent with the fact that  xxxg248xxx , unlike ache has
+only one cation-binding domain. thus, as expected tacrine
+dimerization did not provide any advantage for  xxxg248xxx 
+inhibition.
+bis(7)-tacrine (1f) was subsequently evaluated in several
+ex vivo and in vivo rat models. in rat cortex or whole brain,
+30 minutes after a single oral administration, 1f is 10-fold
+more potent for ache inhibition than tacrine [43]. furthermore, at doses of 1f and tacrine that afford equivalent ache
+inhibition, 1f exhibits significantly reduced serum  xxxg248xxx 
+inhibition [43]. dimer 1f also exhibits 24-fold greater potency
+than tacrine for reversing scopolamine-induced memory
+impairments in the standard morris water maze [44]. finally,
+1f was shown to dose-dependently reverse af64a-induced
+learning deficits in the morris water maze [45]. these results
+clearly show that 1f penetrates the blood-brain barrier, and
+suggest that it might be a promising candidate for treatment
+of alzheimer’s memory loss.
+however since the catalytic and peripheral anionic sites
+on ache are not identical, it seemed unlikely that the
+symmetrical tacrine dimer 1f would prove to be the optimum
+drug. to understand the structural determinants of binding at
+the peripheral site we therefore expanded pang’s original
+study [40] by preparing four additional classes of tacrine
+heterodimers [46]. these new heterodimers feature stepwise
+mutation of one inhibitor unit from tacrine to a simple amino
+group (scheme 5). such heterodimers will be useful for
+assessing the complementary roles that cation-pi and
+hydrophobic interactions have on peripheral site affinity. it is
+worth noting that such heterodimers might also be useful
+molecular probes in other systems: similar homodimeric
+drugs have previously been valuated as k+ channel [47] and
+nmda receptor [48, 49] blockers.
+
+a
+
+n
+
+4
+
+(ch2) nnh2
+
+5f-i,k
+
+c
+
+n
+
+nh
+
+nh
+
+(ch2) n-nh
+
+7f-i,k
+
+the desired heterodimeric inhibitors were synthesized by
+modification of the route we developed previously for the
+synthesis of tacrine dimers (1) (scheme 4) [42]. combination of 9-chloro-1,2,3,4-tetrahydroacridine (4) with 3 equiv
+of the desired  xxxd3043xxx  in refluxing 1-pentanol provided
+amino-tacrine heterodimers (5) in good yield. subsequent
+eschweiler-clarke methylation provided dimethylaminotacrine heterodimers (6). treatment of 5 with 2 equiv of 4bromopyridine in refluxing 1-pentanol provided  xxxd1804xxx -tacrine heterodimers (7). finally, reaction of 5 with
+4-chloroquinoline gave 4-aminoquinoline-tacrine heterodimers (8).
+ache inhibition studies of these four classes of tacrine
+heterodimers revealed that all four series show tether lengthdependent ache inhibition potency and selectivity enhancements relative to tacrine, suggesting dual-site binding to
+ache. in contrast, the heterodimers are uniformly less
+potent than tacrine at  xxxg248xxx , consistent with the absence of a
+peripheral cation-binding domain on this enzyme. the best
+members from each series are described in table 1.
+in the amino-tacrine heterodimers (5), optimal ache
+inhibition potency is provided by an 8-methylene tether (5g).
+in the dimethylamino-tacrine heterodimers (6), tethers of 7
+(6f), 8 (6g), and 10 (6i) methylenes provide nearly identical
+ache ic50 values that are significantly lower than that of
+tacrine. in the  xxxd1804xxx - and 4-aminoquinolinetacrine heterodimers series (7) and (8), tether lengths of 7 or
+8 methylenes afford the highest ache potency (12.8-13.6
+and 8.8-10.1 nm, respectively). thus within experimental
+error, a tether length of 7 or 8 methylenes in all cases
+provides the optimum ache affinity. this slight variation is
+likely due to different optimum binding orientations of the
+peripheral site ligands and the inability to exactly realize the
+ideal spacing between the peripheral and catalytic sites with
+an alkylene chain. all of these peripheral site ligands will be
+
+b
+
+n
+
+(ch2) nnme2
+
+6f-i,k
+
+d
+
+n
+
+nh
+
+n
+
+nh
+
+(ch2) n-nh
+
+n
+
+8f-h
+
+(a) 3.0 equiv. h2n(ch2)nnh2, 1-pentanol, 160 °c, 18 h; (b)  xxxd2154xxx , hcho (aq), reflux;
+(c) 2.0 equiv. 4-bromopyridine.hcl, 1-pentanol,160 °c, 40 h; (d) 2.0 equiv 4-chloroquinoline, 1-pentanol, 160 °c, 40 h.
+
+scheme 5. synthesis of tacrine xxxd2850xxx  heterodimers [46].
+
+3146
+
+current pharmaceutical design, 2004, vol. 10, no. 25
+
+table 1.
+
+du and carlier
+
+ache inhibition potencies of selected dimers and monomeric controls, relative to tacrine [46]
+
+optimum dimer in series
+
+tether length (n)
+
+peripheral site ligand
+
+ache ic50 (nm)
+
+relative potency
+
+5g
+
+8
+
+nh2
+
+89.4±6.2
+
+2.5
+
+6g
+
+8
+
+ xxxg1569xxx 
+
+47.0±1.0
+
+4.7
+
+7f
+
+7
+
+ xxxd1804xxx 
+
+12.8±4.0
+
+17
+
+8f
+
+7
+
+4-aminoquinoline
+
+10.1±1.4
+
+22
+
+1f
+
+7
+
+tacrine
+
+1.5±0.3
+
+149
+
+tacrine
+
+na
+
+na
+
+223±11
+
+1.0
+
+4-aminoquinoline
+
+na
+
+na
+
+50,700±5,350
+
+0.004
+
+ xxxd1804xxx 
+
+na
+
+na
+
+>500,000
+
+<0.0004
+
+na: not applicable.
+
+protonated under assay conditions and thus can potentially
+undergo cation-pi interaction with w279. ache ic50 values
+of the optimum heterodimers decrease significantly as the
+peripheral site ligand was permuted in the series ammonia >
+dimethylamine >  xxxd1804xxx  > 4-aminoquinoline >
+tacrine. calculated desolvation free energies of the optimum
+dimers match the trend in ic50 values, suggesting the
+importance of ligand hydrophobicity for effective cation-pi
+interaction with the peripheral site (table 2).
+to systematically investigate the effect of catalytic site
+ligand perturbation on the ache inhibition potency of
+dimeric ligands, three series of symmetrical homologous
+bivalent inhibitors possessing a tacrine-like core were
+prepared and evaluated [50]. aminoquinaldine dimers (9i,k)
+and 4-aminoquinoline dimers (10i,k) have been evaluated
+previously for k+ channel blocker activity [51].  xxxd1804xxx  dimers (11) have also been evaluated as antimicrobial agents (11i) [52] and as polyamine modulators of
+nmda receptor function (11b-c) [49]. dimers (9f-i) and
+(10e-i,k) were prepared as the bis-hydrochloride salts in
+good to excellent yields by refluxing the corresponding
+diamine with 4-chloroquinaldine or 4-chloroquinoline,
+respectively.  xxxd1804xxx  dimers 11e-k were prepared
+by a modification of the two step acylation-reduction method
+previously developed for 11i [52]. as an additional control,
+alkylated monomers of these heterocycles were also prepared
+(scheme 6).
+table 2.
+
+in all cases significant tether length-dependent potency
+and selectivity enhancements (up to 3000-fold) were seen
+relative to the corresponding monomers, indicating simultaneous binding to the catalytic and peripheral sites of ache
+(see table 3).
+interestingly, whereas  xxxd1804xxx  itself exhibited
+no ache inhibition at concentrations up to 0.5 mm, the
+dodecamethylene-linked dimer (11k) shows significant
+ache potency (ic50 = 152 ± 30 nm), giving it greater ache
+inhibition potency and selectivity than tacrine. this result
+demonstrates that dual-site binding can occur in systems
+where the monomer has no discernable affinity to the receptor, but contains a key fragment of a known high-affinity
+ligand. as will be described below, this insight prompted the
+development of huperzine fragment dimers [53].
+the observation that the dimerization potency versus free
+monomer was greatest (>3000-fold) for the most hydrophilic
+head group ( xxxd1804xxx ), and lowest for the most
+hydrophobic head group (tacrine), suggested that the hydrophobic nature of the tether might be playing a role in the
+potency enhancements. thus alkylated monomers 12 - 15
+were prepared, in which the length of the alkyl chain
+matches the optimum tether of the corresponding dimer. nn-heptyl tacrine (15) is only half as potent than tacrine at rat
+ache, although the potency order is apparently reversed at
+electophorus electricus ache (eeache) [54]. on the other
+hand, n-n-dodecyl- xxxd1804xxx  (14) is >320-fold more
+
+ache ic50 values and calculated desolvation free energies [46]
+
+optimum dimer in series
+
+model for peripheral site ligand
+
+ache ic50 (nm)
+
+hf/6-31g* cpcm desolvation free
+energy of model ligand (kcal/mol)
+
+5g
+
+nh4+
+
+89.4±6.2
+
+80
+
+6g
+
+me2nh2+
+
+47.0±1.0
+
+65
+
+7f
+
+ xxxd1804xxx •h+
+
+12.8±4.0
+
+55
+
+10.1±1.4
+
+51
+
+1.5±0.3
+
+48
+
+8f
+1f
+
+4-aminoquinoline•h
++
+
+tacrine•h
+
++
+
+development of bivalent acetylcholinesterase inhibitors
+
+n
+
+current pharmaceutical design, 2004, vol. 10, no. 25 3147
+
+nh(ch2 )nhn
+r
+
+n
+
+n
+
+r
+
+r
+
+9f-j (r = ch 3)
+10e-i,k (r = h)
+
+n
+
+nh(ch2 )n-h
+
+12 (r = ch 3, n = 9)
+13 (r = h, n = 7)
+
+nh(ch2 )nhn
+
+n
+
+n
+
+11e-k
+
+nh-n-c12  xxxd1544xxx 
+14
+
+n
+
+nh-n-c7h15
+15
+
+scheme 6. dimers and alkylated monomers of 4-aminoquinaldine, 4-aminoquinoline, and  xxxd1804xxx  [50].
+
+table 3.
+
+a
+
+ache ic50 values of optimum dimers, and potencies relative to the corresponding monomers and alkylated
+monomers [50]
+
+optimum dimer
+
+number of
+methylenes
+
+ache ic50 (nm)
+
+potency versus free
+monomera
+
+alkylated monomer
+
+potency versus free
+monomer
+
+1f
+
+7
+
+1.5 ± 0.3
+
+149
+
+15
+
+0.5
+
+9h
+
+9
+
+54.1 ± 2.0
+
+290
+
+12
+
+4.7
+
+10f
+
+7
+
+87.8 ± 6.1
+
+577
+
+13
+
+8.5
+
+11k
+
+12
+
+152 ± 30
+
+>3290
+
+14
+
+>320
+
+the corresponding free monomers are tacrine, 4-aminoquinaldine, 4-aminoquinoline, and  xxxd1804xxx .
+
+potent than  xxxd1804xxx  at rat ache. these data suggest
+that the alkylene tether can play at least two complementary
+roles in the dimers. for large hydrophobic monomers like
+tacrine, the tether increases potency by reducing entropy loss
+on binding both units of the dimer. for the smaller,
+hydrophilic monomers 4-aminoquinaldine, 4-aminoquinoline
+and  xxxd1804xxx , the tether increases potency both by
+reducing entropy loss on binding, and by reducing the desolvation penalty of the monomer. thus the hydrophobicity of
+the tether can be an important contributor to the potency of
+dimeric ache inhibitors.
+several other investigators have recently published work
+on tacrine dimer analogs. savini [55] reinvestigated 1f using
+fetal bovine serum (fbs) ache and equine (eq)  xxxg248xxx 
+(92% and 88% homology with human ache and  xxxg248xxx ,
+respectively), and found similar inhibition potencies at both
+enzymes. this lack of selectivity stands in stark contrast to
+results with rat ache and rat  xxxg248xxx , where  xxxg248xxx /ache
+ic50 ratios ranged from 980 [40] to 99 [42]. although the
+relevance of potent inhibition of eq  xxxg248xxx  to the develop-
+
+ment of a human therapeutic is not known, this observation
+prompted the development of new tacrine-based selective
+inhibitors for fbs ache and eq  xxxg248xxx  (table 4).
+savini et al. were the first to demonstrate that substitution of the central methylene unit of bis(7)-tacrine (1f) could
+usefully perturb cholinesterase potencies and selectivities.
+drugs 16 and 17 feature substitution of the central methylene
+by nme and nc(o)me respectively; this change acts as
+‘switch’ to either dramatically lower or raise fbs ache ic 50
+values. because eq  xxxg248xxx  ic50 values are largely unchanged
+by this variation, drug 16 offers both 60 pm inhibition of
+fbs ache and excellent eq  xxxg248xxx /fbs ache selectivity;
+17 in contrast has excellent selectivity for eq.  xxxg248xxx  [56].
+even better potency for eq  xxxg248xxx  can be obtained by
+replacing the basic, protonatable tacrine unit of 1f with a 9thio-1,2,3,4-tetrahydroacridine unit. drug 18 exhibits subnanomolar potency for eq.  xxxg248xxx , a result that may lead to
+the development of new potent and selective  xxxg248xxx  inhibitors [56]. finally, savini et al. explored the effect of 6,8dichloro-substitution on the tacrine nucleus. whereas mono-
+
+3148
+
+current pharmaceutical design, 2004, vol. 10, no. 25
+
+table 4.
+
+du and carlier
+
+selective tacrine-based inhibitors of savini et al. [55, 56]
+cl
+cl
+n
+
+h
+n
+
+(ch2) 3
+
+x
+
+(ch2) 3
+
+x
+ch2
+nme
+nc(o)me
+ch2
+
+1f
+16
+17
+18
+
+y
+
+n
+
+y
+nh
+nh
+nh
+s
+
+nh 2
+
+19
+
+drug
+
+fbs ache
+ic50 (nm)
+
+eq  xxxg248xxx 
+ic50 (nm)
+
+1f
+
+1
+
+2
+
+16
+
+0.06
+
+6
+
+17
+
+1500
+
+2
+
+18
+
+250
+
+0.4
+
+19
+
+1
+
+50
+
+tacrine
+
+40
+
+7
+
+mer 19 is significantly more potent and selective than
+tacrine, both homo- and heterodimers derived from 19
+proved less potent than tacrine dimer 1f and 19 itself [55].
+hu [57] and coworkers also chose to focus on dimeric
+inhibitors featuring modification of the tacrine nucleus, in
+particular 6-substitution, changes in carbocyclic ring size,
+and isosteric modification (table 5).
+table 5.
+
+n
+
+a range of tether lengths were explored with all of the
+modified tacrine nuclei; in general the 7-methylene tether
+was optimal for ache inhibition potency. heptylene-linked
+bis-(6-chloro)-tacrine (20) proved 3000- and 3-fold more
+potent in inhibiting rat ache than tacrine and the bis(7)tacrine (1f), respectively. this potency increase parallels that
+known for 6-chlorotacrine relative to tacrine [58, 59].
+isosteric substitution of a nitrogen atom for a ch group (21)
+
+tacrine nucleus modification studies of hu et al. [57]
+y
+
+y
+
+x
+
+x
+
+n
+
+n
+h
+
+(ch2) 7
+
+(ch2) n
+
+hn
+
+n
+
+n(h 2c)
+
+drug
+
+x
+
+y
+
+n
+
+rat ache
+ic50 (nm)
+
+human  xxxg248xxx 
+ic50 (nm)
+
+1f
+
+ch
+
+h
+
+1
+
+0.2 ± 0.1
+
+54 ± 14
+
+20
+
+ch
+
+cl
+
+1
+
+0.07 ± 0.01
+
+26 ± 1
+
+21
+
+n
+
+h
+
+1
+
+1.3 ± 0.2
+
+59 ± 14
+
+22
+
+ch
+
+h
+
+0
+
+75 ± 11
+
+328 ± 40
+
+23
+
+ch
+
+h
+
+2
+
+2.7 ± 0.4
+
+2.6 ± 1.3
+
+development of bivalent acetylcholinesterase inhibitors
+
+current pharmaceutical design, 2004, vol. 10, no. 25 3149
+
+reduced ache potency and selectivity. reduction (22) or
+enlargement (23) of the size of the carbocyclic ring of the
+dimers reduced both the selectivity and the potency of ache
+inhibition relative to 1f.
+4. design and synthesis of
+inhibitors from (-)- xxxd2287xxx 
+
+dimeric
+
+(-)- xxxd2287xxx , isolated from the clubmoss huperzia
+serrata, a chinese folk medicine (qian ceng ta), is a potent
+and selective ache inhibitor that shows promise for the
+palliative treatment of ad [9]. owing to its potent and
+selective anti-ache activity and memory-enhancing effect
+on a broad range of behavioral animal models, (-)-huperzine
+a has attracted considerable attention. several total syntheses have been reported [60-62]. however, the lack of
+patent protection has hindered development of this drug in
+the west. in an effort to develop new chemical entities
+derived from (-)- xxxd2287xxx , numerous chemical structural
+modifications of this molecule have been undertaken [9, 6368]. however, ache inhibition potency proved to be
+intolerant of even small structural changes, and at the start of
+our work in this area, only two structural analogues of (-) xxxd2287xxx  matched or exceeded the potency of the natural
+product [67].
+since pang’s earlier computational studies indicated
+affinity of (-)- xxxd2287xxx  for the peripheral site of tcache
+[39],  xxxd2287xxx -derived dimers appeared to be a promising
+target. however, to achieve this goal, carlier, pang, and han
+chose to use a bicyclic fragment of  xxxd2287xxx  (hupyridone,
+24), rather than the intact natural product (scheme 7).
+h
+n
+
+h
+n
+
+o
+
+nhr
+
+o
+
+24: r = h
+25: r = ch2ch2 ph
+26: r = n-bu
+
+n
+
+o
+
+nh
+
+27
+
+(ch2) n
+
+nh
+nh
+
+(±)-28c-i,k
+
+o
+
+scheme 7.  xxxd2287xxx  fragments (hupyridones, 24-26), synthetic
+intermediate 27, and tacrine-hupyridone heterodimers 28 [69].
+
+this decision was made principally from the perspective
+of economy and synthetic ease; but as will become apparent
+below, this decision proved essential to achieving potent
+ache inhibition. although n-alkylated hupyridones such as
+25 are known to be extremely weak ache inhibitors [65],
+our previous investigations have disclosed that monomers
+which have no discernable affinity for ache can still serve
+
+as effective peripheral site ligands, when incorporated in a
+bivalent drug [50].
+tacrine-hupyridone heterodimers ((±)-28c-i,k) were
+trivially prepared by forming the schiff bases of tacrineamino heterodimers (5c-i,k) and known 5-oxoquinolinone 27
+[70], followed by reduction [69]. the assay results for rat
+ache and  xxxg248xxx  inhibition showed that tacrine-hupyridone
+heterodimers ((±)-28) are all more potent for ache inhibition than tacrine. the optimum drug (±)-28i has nanomolar
+affinity for ache (ic50 = 8.8 nm), and is 13-fold more
+potent than (-)- xxxd2287xxx . although (±)-28i does not
+possess the excellent selectivity of (-)- xxxd2287xxx , it is
+considerably more selective than tacrine. as expected, the nbutyl-hupyridone control (26) is an extremely weak inhibitor
+(ic50 ≈ 500,000 nm). however, linking the parent monomer
+(24) to tacrine via an alkylene tether results in significant
+enhancement in ache inhibition potency and selectivity. we
+therefore propose that (±)-28i derives its high potency and
+selectivity from simultaneous binding to the peripheral and
+catalytic sites of ache. in closing this section on tacrinehuperzine a fragment heterodimers it is necessary to cite the
+excellent work of camps et al. on “conjuctive pharmacomodulation” of tacrine and  xxxd2287xxx  [71, 72]. instead of
+constructing a bivalent derivative that would span the catalytic and peripheral sites, camps et al. fused the  xxxd2287xxx 
+and tacrine structures together into a single drug unit. the
+optimum drug,  xxxd1439xxx , was shown to possess 26 pm
+affinity for human ache, an impressive accomplishment for
+an inhibitor that binds only to the catalytic site [72].
+our success with tacrine-huperzine fragment heterodimer
+(±)-28i suggested that the huperzine fragment was an
+effective peripheral site ligand, at least when incorporated in
+a tacrine heterodimer. however a question emerged: could
+homodimers of a huperzine fragment also exhibit potent and
+selective ache inhibition? based on the x-ray crystal
+structure of the torpedo ache•(-)- xxxd2287xxx  complex
+[31], hupyridone 24 appears to possess much of the requisite
+functionality for binding to the catalytic site region of ache.
+in particular 24 retains the pyridone oxygen atom and nh
+group of (-)- xxxd2287xxx , which form hydrogen bonds to
+y130 and to  xxxg117xxx /e199 (through a water molecule), respectively, and the 5-amino group, which undergoes a cation-piinteraction with w84/f330. bis(n)-hupyridones (29) were
+thus prepared as a mixture of the rac- and meso-diastereomers, using a method analogous to that used for 28 [53]
+(scheme 8).
+bis(n)-hupyridones (rac-/meso-29d-i,k) showed dramatic, tether length-dependent potency increases relative to nbutyl hupyridone monomer 26, with the highest potency
+observed at a tether length of 12 methylene groups (rac/meso-29k, 159 nm) [53]. the preparation of the pure
+enantiomers of 29 was then carried out by transformation of
+27 to protected amine 30. resolution with (r)-(-)-mandelic
+acid afforded (s)-(+)-30; this building block was then used to
+prepare (s,s)-29i-m. the corresponding enantiomers were
+prepared analogously from (r)-(-)-30 (obtained from
+resolution with (s)-(+)-mandelic acid).
+the enantiomerically pure dimers were then assayed
+(table 6).
+
+3150
+
+current pharmaceutical design, 2004, vol. 10, no. 25
+h
+n
+
+o
+
+du and carlier
+
+o
+
+h
+n
+
+o
+
+hn
+
+27
+
+(ch2) n
+
+h
+n
+
+o
+
+h
+n
+
+o
+
+nh
+
+rac-/meso-29d-i,k
+
+n
+
+obn
+
+h
+n
+
+o
+
+nh 2
+
+(ch2) n
+
+hn
+
+nh
+
+(s,s)-29i-m
+
+(s)-30
+
+scheme 8. synthesis of bis(n)-hupyridones (29) [53].
+table 6.
+
+a
+
+cholinesterase inhibition by bis(n)-hupyridones (29) and controls [53]
+
+drug
+
+na
+
+rat ache
+ic50 (nm)
+
+rat  xxxg248xxx 
+ic50 (nm)
+
+selectivity for acheb
+
+(±)-26
+
+na
+
+500,000
+
+500,000
+
+1
+
+rac-/meso-29k
+
+12
+
+159 ± 26
+
+24,400 ± 910
+
+153
+
+(s,s)-(-)-29i
+
+10
+
+151 ± 36
+
+1820 ± 70
+
+12.1
+
+(s,s)-(-)-29j
+
+11
+
+84 ± 5
+
+1160 ± 80
+
+13.8
+
+(s,s)-(-)-29k
+
+12
+
+52 ± 8
+
+9600 ± 300
+
+185
+
+(s,s)-(-)-29l
+
+13
+
+52 ± 9
+
+16,700 ± 650
+
+321
+
+(s,s)-(-)-29m
+
+14
+
+240 ± 50
+
+59,500 ± 10,100
+
+248
+
+(r,r)-(+)-29k
+
+12
+
+3,130 ± 790
+
+297,000 ± 78,400
+
+94.9
+
+(-)- xxxd2287xxx 
+
+na
+
+115 ± 1
+
+135,000 ± 6,000
+
+1,200
+
+number of methylenes in tether.
+defined as ic50( xxxg248xxx )/ic50(ache)
+
+b
+
+as can be seen in table 6, ache ic50 values evidence
+significant tether length dependence in the (s,s)-series,
+suggesting dual-site binding. furthermore, the 60-fold greater potency of (s,s)-(-)-29k relative to its enantiomer (r,r)(+)-29k suggests a multipoint interaction with the ache
+active site. remarkably the optimum drugs (s,s)-(-)-29k,l
+are nearly 10,000-fold more potent than the related monomer
+(±)-26, and are twice as potent as the natural product (-) xxxd2287xxx  [53].
+bis(n)-hupyridones (29) were designed to interact with
+the ache active site in the same manner as (-)- xxxd2287xxx .
+from that perspective the absolute configuration of the most
+active dimers (s,s)-(-)-29k,l was unexpected, since (-) xxxd2287xxx  is (5r)-configured. docking studies of tcache
+with the n-methyl analogues of (r)- and (s)-24 supported
+the idea that the (s)-configuration was required at the active
+site in order to direct the tether up the gorge to the peripheral
+site [53]. recent x-ray crystallographic studies of (s,s)-(-)-
+
+29i,k complexed to tcache confirm that these drugs bind to
+the active and peripheral sites of ache [73]. furthermore,
+the catalytic site hupyridone units of (s,s)-(-)-29i,k make all
+the same close contacts with catalytic site residues as does
+(-)- xxxd2287xxx , vindicating the design principle that lead to
+the dimers [73]. enzyme inhibition studies performed with
+tcache confirmed the enhanced potency of the dimers
+relative to (-)- xxxd2287xxx , but provided some unexpected
+results as well. first, whereas the optimum tether length in
+rat is 12 methylenes, for torpedo californica, the optimum
+tether length is 10 methylenes [73]. secondly, whereas in rat
+the optimum dimer is only twice as potent as (-)-huperzine
+a, in torpedo californica the corresponding potency
+enhancement is 175-fold.
+in 2002 bai et al. reported the synthesis of alkylenelinked dimers of the intact (-)- xxxd2287xxx  natural product,
+using a reductive alkylation procedure [74] (scheme 9).
+
+development of bivalent acetylcholinesterase inhibitors
+
+h
+n
+
+current pharmaceutical design, 2004, vol. 10, no. 25 3151
+
+h
+n
+
+o
+
+o
+o
+
+hn
+
+(ch2 )n
+
+nh
+
+o
+
+n
+
+o
+
+o
+
+n
+
+(ch2) 8
+
+(ch2) 8
+
+n
+
+n
+
+br
+
+(-)-31f-k
+
+scheme 9. alkylene-linked (-)-huperzine dimers ((-)-31f-k) of bai
+et al. [74]
+
+the most potent dimer in the series was (-)-31f, with a
+seven methylene tether; however this drug was 5-fold less
+potent than (-)- xxxd2287xxx . the authors gave no explanation
+for this suprising result, which illustrates that there is no
+simple correlation between the inhibition potencies of
+monomers and the corresponding dimers [38]. furthermore
+the juxtaposition of these two approaches to huperzine abased dimers suggests that when developing dimeric drugs
+based on structurally complex natural products, it may be
+useful to incorporate fragments, rather than the intact natural
+product.
+
+the only non-quaternary derivative to show greater
+inhibitory potency than galanthamine was 32. oxidation to
+the iminium derivative (33) introduces a permanent charge
+and improves inhibition potency considerably [75].
+similarly, monoquaternary derivative 34 is 4-fold more
+potent than galanthamine. increased inhibition potency can
+also be achieved by linking a phthalimide moiety through the
+phenolic oxygen (35). based on the x-ray crystal structure of
+the tcache•galanthamine complex, sussman et al. noted
+that is likely that inhibitors 32-34 can span the catalytic and
+peripheral sites of ache without disturbing the preferred
+binding orientation of the galanthamine unit [32].
+guillou et al. also prepared galanthamine homodimers
+and galanthamine/galanthaminium heterodimers [78] (scheme
+11).
+the potency of the optimum galanthamine homodimer 36
+was only slightly (1.6-fold) greater than that of galanthamine, whereas the optimum galanthamine/galanthami-
+
+oh
+
+o
+
+och3
+
+och3
+
+32
+280 ± 40 nm
+
+33
+10 ± 2 nm
+ch3
+
+n(ch 3)3
+
+br
+
+br
+
+n
+
+(ch2) 12
+n
+oh
+
+o
+o
+
+5. design and synthesis of galanthamine
+and polyamine-based dimeric inhibitors
+galanthamine is a centrally acting competitive and
+reversible ache inhibitor that has been shown to produce
+significant improvement of cognitive performances in ad
+patients [75]. in addition to being less toxic than tacrine and
+physostigmine, galanthamine also allosterically regulates the
+ xxxg456xxx  [76]. nicotinic receptor
+modulation represents a promising new direction in
+alzheimer’s research [77]. guillou and coworkers [75]
+reported the synthesis and ache inhibition potency of
+galanthamine heterodimers. these drugs feature pendant
+phthalimide or trimethylammonium groups that are linked to
+the galanthamine nitrogen or phenolic oxygen. assays using
+eeache indicated tether length-dependent potency of the
+heterodimers. the optimum dimers (32-35) are depicted in
+scheme 10.
+
+oh
+
+o
+
+oh
+
+o
+
+(ch2) 10
+n
+
+och3
+
+o
+
+o
+
+34
+80 ± 10 nm
+
+35
+50 ± 9 nm
+
+galanthamine 360 ± 10 nm
+
+scheme 10. heterodimeric galanthamine and galanthaminium
+inhibitors of guillou et al. [75].
+och3
+ho
+
+o
+
+och3
+o
+
+ho
+
+n
+
+n
+
+(ch2) 8
+
+(ch2) 8
+
+n
+
+n
+
+o
+och3
+
+oh
+
+br
+
+o
+
+oh
+
+och3
+
+36
+230 ± 20 nm
+
+37
+12 ± 1 nm
+
+galanthamine 360 ± 10 nm
+
+scheme 11. galanthamine homodimers and galanthamine/galanthaminium heterodimers of guillou et al. [78].
+
+3152
+
+current pharmaceutical design, 2004, vol. 10, no. 25
+
+du and carlier
+
+nium heterodimer matched that of galanthaminium/
+phthalimide heterodimer 33, being 30-fold more potent than
+galanthamine. however, whether 37 or the other cationic
+galanthamine derivatives 33-35 could penetrate the bloodbrain barrier has yet to be established; therefore their promise
+as centrally-available, memory enhancing therapeutics for
+alzheimer’s disease is still unclear.
+another promising target to improve cholinergic neurotransmission are the muscarinic m2 autoreceptors, since
+inhibition of these autoreceptors would increase ach release
+into the synapse. melchiorre and coworkers chose the
+polyamine scaffold in an attempt to prepare drugs that would
+inhibit both ache and muscarinic m2 autoreceptors [79].
+submicromolar ache inhibition was obtained with
+caproctamine (38) (scheme 12).
+caproctamine (38) also was a micromolar or submicromolar antagonist at m1, m2, and m3 receptors [79]. the
+twenty-two atom spacing between the two basic tertiary
+amines is much longer than any bivalent inhibitor described
+thus far, raising the question of how it binds to ache.
+however, melchiorre et al. reported that docking studies
+indicate the chain can fold in such a way as to provide a 1016 å distance between the o-methoxybenzylamine groups.
+subsequent optimization led to the n-ethyl analog 39, which
+is a 10-nanomolar ache inhibitor that showed submicromolar potency for reversing a neuromuscular block and
+micromolar potency for antagonism of the m2 autoreceptor
+[80].
+6. new approaches in the design and
+synthesis of dimeric ache inhibitors
+the observation that ache has two binding sites for
+substrate and inhibitors prompted two recent investigations
+into the synthesis and evaluation of dimeric inhibitors. while
+these inhibitors formed are quaternary and not likely to
+penetrate the blood-brain barrier, the techniques involved,
+and affinities achieved merit discussion. lehn et al. used
+parallel synthesis to prepare a potent bis-quaternary inhibitor
+[81]. four hydrazides were combined pairwise with each of
+nine aldehydes (4 mono-, 5 dialdehydes) to prepare the
+corresponding bis-acylhydrazones, and the purified products
+were screened at torpedo marmorata ache (scheme 13).
+the most potent pairwise combination produced 40 (ic 50
+value of 2.30 ± 0.09 nm) [81], a bis-pyridinium reminiscent
+of dap (scheme 2). since acylhydrazone formation is
+reversible under the reaction conditions (ph 4.2), and
+irreversible under the assay conditions (ph 7.2), lehn et al.
+then explored the possibility of identifying the potent
+combination by dynamic combinatorial chemistry and
+
+dynamic deconvolution-screening. this process consists of
+comparing the inhibitory potency of a mixture containing all
+13 components, with that of 13 sublibraries that each lack
+one of the components. in this way lehn et al. were able to
+confirm that mixtures lacking the optimum building blocks
+were significantly less potent than the mixture of all 13
+building blocks [81]. with a large number of building blocks
+this dynamic deconvolution-screening process could be more
+economical than the traditional method of screening pairwise
+combinations.
+building blocks:
+4 acylhydrazones
+4 monoaldehydes
+5 dialdehydes
+most potent inhibitor
+bonds made
+
+hn
+
+cl –
++
+
+n
+
+n
+
+n
+
+o
+
+o
+
+as this review has illustrated, traditional drug discovery
+depends upon the iterative cycle of design, synthesis, and
+screening. the pharmacology of one iteration of drugs then
+directs (via human intervention) design of the next iteration.
+an interesting alternative to traditional approach is to allow
+an enzyme to synthesize its own inhibitor, in a non-iterative
+fashion, without any human intervention. such an approach
+would depend upon the simultaneous binding of two ligands,
+each decorated with complementary reactive groups, to
+adjacent sites on the protein. the co-localization of these
+ligands is then likely to accelerate the reaction that connects
+them, and the product formed should have excellent affinity
+for the enzyme. this approach was successfully employed in
+a collaborative effort of sharpless, finn, taylor, and carlier
+[82]. in brief, a collection of  xxxd3027xxx -based ligands and
+tacrine-based ligands were prepared, each designed to bind
+to the ache peripheral and catalytic/peripheral anionic sites,
+respectively (scheme 14).
+these ligands were decorated with either azide or
+terminal acetylene moieties, in order to make use of the
+reliable huisgen [3+2] cycloaddition, the premier “clickome
+
+(ch2) 5
+
+c
+
+o
+n
+
++
+n
+
+scheme 13.
+bis-pyridinium inhibitor identified by parallel
+synthesis of lehn et al. [81].
+
+o
+r
+
+cl –
+
+40
+
+ome
+n
+
+nh
+
+(ch2) 8
+
+me
+
+n
+me
+
+c
+
+(ch2) 5
+
+n
+r
+
+38: r = me
+39: r = et
+
+scheme 12. polyamine ache inhibitors with simultaneous m2 autoreceptor inhibition properties [79, 80].
+
+development of bivalent acetylcholinesterase inhibitors
+
+current pharmaceutical design, 2004, vol. 10, no. 25 3153
+
+n
+
+hn
+
+n
+
+(ch2) n
+
+hn
+
+n3
+
+tz2-6 (n = 2-6)
+
+(ch2) n
+
+h
+
+ta-1-3 (n = 1-3)
+
+h2n
+
+nh 2
+
+h2n
+
+nh 2
+
+n +
+(ch2) m
+
+n +
+n3
+
+(ch2) m
+
+pz6-8 (m = 6-8)
+
+h
+
+pa2-6 (m = 2-6)
+
+scheme 14. cross-reactive ligands used in in situ “click chemistry” [82].
+
+chemistry” reaction [83, 84]. all possible 49 azide/acetylene
+pairings were incubated with eeache, at concentrations that
+would give a negligible backround cycloaddition rate. after
+90 minutes at room temperature, each reaction was analyzed
+by dios-ms, to determine whether cycloaddition products
+could be detected. product was detected in only one pairing,
+tz2 + pa6. control experiments then confirmed that
+blockage of the active site by reversible or irreversible ache
+inhibitors inhibited the formation of product, indicating that
+product did arise as a consequence of forming the ternary
+eeache/tz2/pa6 complex. 1h nmr and ms studies
+determined that the adduct formed was the syn-triazole 41
+(scheme 15).
+
+h2n
+
+nh 2
+n +
+
+n n
+
+n
+
+hn
+
+n
+41 eeache kd = 99 fm
+tcache kd = 77 fm
+
+scheme 15. the femtomolar inhibitor synthesized by eeache
+using in situ “click chemistry” [82].
+
+detailed kinetic studies of 41 indicated a dissociation
+constant (kd) of 99 fm at eeache, and 77 fm at tcache,
+
+making 41 the most potent non-covalent ache inhibitor
+known to date by nearly two orders of magnitude [82].
+7. future directions
+this review has demonstrated that significant enhancements in drug potency and selectivity can be achieved
+through the dimer approach, although this strategy is not
+uniformly successful. some monomers, such as tacrine [40,
+42], 6-chlorotacrine [57], and hupyridone [53] achieve
+dramatic increases in potency upon dimerization. however
+others, such as 6,8-dichlorotacrine [55], huperzine [74], and
+galanthamine [78], do not. these disparate results were
+foreseen years ago by jencks [38], who noted that the very
+act of adding a tether to a molecule can disrupt its favored
+binding orientation. will a therapeutically useful drug
+emerge from these studies? bis(7)-tacrine has already shown
+effectiveness in in vivo rat ache inhibition [43], memory
+[44, 45], and neuroprotection [85, 86] models. dimeric
+ache inhibitors might also have the advantage of blocking
+beta-amyloid aggregation. since inestrosa’s initial report that
+ache accelerates beta-amyloid fibril formation [11], a number
+of other studies have confirmed that blockage of the ache
+peripheral site inhibits beta-amyloid aggregation [87]. in
+particular, andrisano et al. demonstrated that 100 µm  xxxd3027xxx  inhibited human ache-induced beta-amyloid aggregation
+by 82% [88]. finally, valenti et al. demonstrated that e2020
+and 42 have 20 nm potency to inhibit human ache, and at
+100 µm they inhibit beta-amyloid aggregation by 22 and 35%
+respectively [89] (scheme 16).
+meo
+
+o
+
+o
+
+meo
+me
+n
+42
+
+scheme 16.  xxxd2082xxx  ache/beta-amyloid aggregation inhibitor 42
+of valenti et al. [89].
+
+3154
+
+current pharmaceutical design, 2004, vol. 10, no. 25
+
+as mentioned at the start of the review, although e2020
+was not designed using the dimer approach, x-ray crystallography revealed that it does span the gorge between the
+catalytic and peripheral anionic sites [14]. based on the
+structural similarity of 42 and e2020, the authors propose a
+similar binding mode for 42. if the potency for inhibiting betaamyloid aggregation could be significantly increased, dualsite binding ache inhibitors would not only improve
+cognition in early-stage alzheimer’s disease, but might have
+promise for reversing the progression of disease.
+
+du and carlier
+
+[18]
+[19]
+[20]
+[21]
+
+acknowledgement
+p. r. c. thanks the alzheimer’s and related diseases
+award fund (commonwealth of virginia, 03-1) for financial
+support during the writing of this review.
+
+[22]
+
+[23]
+
+references
+references 90-92 are related articles recently published in
+current pharmaceutical design.
+[1]
+[2]
+[3]
+[4]
+[5]
+
+[6]
+[7]
+[8]
+
+[9]
+[10]
+[11]
+
+[12]
+[13]
+[14]
+[15]
+[16]
+[17]
+
+hardy j, selkoe dj. the amyloid hypothesis of alzheimer’s
+disease: progress and problems on the road to therapeutics. science
+(washington, d. c.) 2002; 297: 353-356.
+moghul s, wilkinson d. use of acetylcholinesterase inhibitors in
+alzheimer’s disease. expert rev neurotherapeutics 2001; 1: 61-69.
+relman as. tacrine as a treatment for alzheimer’s dementia. n
+eng j med 1990; 324: 349-352.
+watkins pb, zimmerman hj, knapp mj, gracon si, lewis kw.
+hepatotoxic effects of tacrine administration in patients with
+alzheimer’s disease. j am med assoc 1994; 271: 992-998.
+sugimoto h, iimura y, yamanishi y, yamatsu k. synthesis and
+structure-activity relationships of acetylcholinesterase inhibitors: 1benzyl - 4 - [ ( 5, 6 - dimethoxy - 1 - oxoindan - 2 - yl ) methyl ] - piperidine
+hydrochloride and related compounds. j med chem 1995; 38:
+4821-4829.
+thomsen t, bickel u, fischer jp, kewitz h. stereoselectivity of
+cholinesterase inhibition by galanthamine and tolerance in humans.
+eur j clin pharmacol 1990; 39: 603.
+polinsky rj. clinical pharmacology of rivastigmine: a newgeneration acetylcholinesterase inhibitor for the treatment of
+alzheimer’s disease. clin therap 1998; 20: 634-647.
+han y, tang x. preclinical and clinical progress with  xxxd2287xxx :
+a novel acetylcholinesterase inhibitor. in: becker r, giacobini e,
+editors.  xxxg178xxx : from molecular biology to therapy.
+boston: birkhäuser; 1996; p. 245-250.
+kozikowski ap, tückmantel w. chemistry, pharmacology, and
+clinical efficacy of the chinese nootropic agent  xxxd2287xxx . acc
+chem res 1999; 32: 641-650.
+tang xc, he xc, bai dl.  xxxd2287xxx : a novel
+acetylcholinesterase inhibitor. drugs future 1999; 24: 647-663.
+inestrosa nc, alvarez a, perez ca, moreno rd, vicente m,
+linker c, et al. acetylcholinesterase accelerates assembly of
+amyloid-beta-peptides into alzheimer’s fibrils: possible role of the
+peripheral site of the enzyme. neuron 1996; 16: 881-896.
+castro a, martinez a. peripheral and dual binding site
+acetylcholinesterase inhibitors: implications in treatment of
+alzheimer’s disease. mini rev med chem 2001; 1: 267-272.
+dorronsoro i, castro a, martinez a. peripheral and dual binding
+site inhibitors of acetylcholinesterase as neurodegenerative diseasemodifying agents. exp opin ther patents 2003; 13: 1725-1732.
+kryger g, silman i, sussman jl. structure of acetylcholinesterase
+complexed with e2020 (aricept®): implications for the design of
+new anti-alzheimer drugs. structure 1999; 7: 297-307.
+paton wdm, zaimis ej. curare-like action of polymethylene bisquaternary ammonium salts. nature 1948; 161: 718-719.
+paton wdm, zaimis ej. the pharmacological actions of
+polymethylene bistrimethylammonium salts. br j pharmacol 1949;
+4: 381-400.
+bergmann f, wilson ib, nachmansohn d. the inhibitory effect of
+stilbamidine, curare, and related compounds and its relationship to
+
+[24]
+[25]
+[26]
+[27]
+
+[28]
+
+[29]
+
+[30]
+[31]
+
+[32]
+[33]
+
+[34]
+[35]
+[36]
+[37]
+[38]
+[39]
+[40]
+
+the active groups of acetylcholine esterase. action of stilbamidine
+on nerve impulse conduction. biochim biophys acta 1950; 6: 217224.
+bergmann f, segal r. the relationship of quaternary ammonium
+salts to the anionic sites of true and pseudo cholinesterase.
+biochem j 1954; 58: 692-698.
+austin l, berry wk. two selective inhibitors of cholinesterase.
+biochem j 1953; 54: 695-700.
+lands am, hoppe jo, arnold a, kirchner fk. an investigation of
+the structure-activity correlations within a series of  xxxd137xxx 
+analogs. j pharmacol exp ther 1958; 123: 121-127.
+webb gd. affinity of benzoquinonium and  xxxd137xxx 
+derivatives for the acetylcholine receptor, tested on the electroplax,
+and for acetylcholinesterase in solution. biochim biophys acta
+1965; 102: 172-184.
+hodge as, humphrey dr, rosenberry tl.  xxxd137xxx  is a
+rapidly reversible noncovalent inhibitor of acetylcholinesterase,
+with one of the highest known affinities. mol pharmacol 1992; 41:
+937-942.
+mooser g, schulman h, sigman ds. fluorescent probes of
+acetylcholinesterase. biochem 1972; 11: 1595-1602.
+mooser g, sigman ds. ligand binding properties of
+acetylcholinesterase determined with fluorescent probes. biochem
+1974; 13: 2299-2307.
+changeux j-p. responses of acetylcholinesterase from torpedo
+marmorata to salts and curarizing drugs. mol pharmacol 1966; 2:
+369-392.
+taylor p, lappi s. interaction of fluorescence probes with
+acetylcholinesterase. the site and specificity of  xxxd3027xxx  binding.
+biochem 1975; 14: 1989-1997.
+berman ha, decker mm, nowak mw, leonard kj, mccauley m,
+baker wm, et al. site selectivity of fluorescent bisquaternary
+phenanthridinium ligands for acetylcholinesterase. mol pharmacol
+1987; 31: 610-616.
+sussman jl, harel m, frolow f, oefner c, goldman a, toker l,
+et al. atomic structure of acetylcholinesterase from torpedo
+californica: a prototype acetylcholine-binding protein. science
+(washington, d. c.) 1991; 253: 872-879.
+harel m, schalk i, ehret-sabatier l, bouet f, goeldner m, hirth c,
+et al. quaternary ligand binding to aromatic residues in the activesite gorge of acetylcholinesterase. proc natl acad sci usa 1993;
+90: 9031-9035.
+dougherty da. cation-pi interactions in chemistry and biology: a
+new view of benzene, phe, tyr, and trp. science (washington, d
+c) 1996; 271: 163-168.
+raves ml, harel m, pang y-p, silman i, kozikowski ap,
+sussman jl. structure of acetylcholinesterase complexed with the
+nootropic alkaloid (-)- xxxd2287xxx . nature struct biol 1997; 4: 5763.
+greenblatt hm, kryger g, lewis t, silman i, sussman jl.
+structure of acetylcholinesterase complexed with (-)-galanthamine
+at 2.3 å resolution. febs lett 1999; 463: 321-326.
+felder ce, harel m, silman i, sussman jl. structure of a complex
+of the potent and specific inhibitor bw 284c51 with torpedo
+californica acetylcholinesterase. acta crystallogr, sect d 2002; 58:
+1765-1771.
+bourne y, taylor p, radic z, marchot p. structural insights into
+ligand interactions at the acetylcholinesterase peripheral anionic
+site. embo j 2003; 22: 1-12.
+portoghese ps, larson dl, yim cb, sayre lm, ronsisvalle g,
+tam sw, et al. the relationship of spacer length and selectivity at
+multiple opioid receptors. j med chem 1986; 29: 1855-1861.
+portoghese ps. bivalent ligands and the message-address concept
+in the design of selective opioid receptor antagonists. trends pharm
+sci 1989; 10: 230-235.
+portoghese ps. the role of concepts in structure-activity
+relationship studies of opioid ligands. j med chem 1992; 35: 19271937.
+jencks wp. on the attibution and additivity of binding energies.
+proc natl acad sci usa 1981; 78: 4046-4050.
+pang y-p, kozikowski ap. prediction of the binding sites of
+ xxxd2287xxx  in acetylcholinesterase by docking studies. j computaided mol design 1994; 8: 669-681.
+pang y-p, quiram p, jelacic t, hong f, brimijoin s. highly
+potent, selective, and low cost bis- xxxd3270xxx  inhibitors
+of acetylcholinesterase. j biol chem 1996; 271: 23646-23649.
+
+development of bivalent acetylcholinesterase inhibitors
+[41]
+
+[42]
+
+[43]
+[44]
+
+[45]
+[46]
+
+[47]
+
+[48]
+
+[49]
+[50]
+
+[51]
+
+[52]
+[53]
+
+[54]
+
+[55]
+
+[56]
+
+[57]
+[58]
+
+[59]
+
+pang y-p, hong f, quiram p, jelacic t, brimijoin s. synthesis of
+alkylene linked bis-tha and alkylene linked benzyl-tha as
+highly potent and selective inhibitors and molecular probes of
+acetylcholinesterase. j chem soc perkin trans i 1997; 171-176.
+carlier pr, han yf, chow es-h, li cp-l, wang h, lieu tx, et
+al. evaluation of short-tether bis-tha ache inhibitors. a further
+test of the dual binding site hypothesis. bioorg med chem 1999; 7:
+351-357.
+wang h, carlier pr, ho wl, wu dc, lee ntk, li cpl, et al .
+effects of bis(7)-tacrine, a novel anti-alzheimer’s agent, on rat
+brain ache. neuroreport 1999; 10: 789-793.
+wang h, carlier pr, ho wl, lee nt-k, pang y-p, han y-f.
+attenuation of scopolamine-induced deficits in navigational
+performance in rats by bis(7)-tacrine, a novel dimeric ache
+inhibitor. acta pharm sin 1999; 20: 211-217.
+liu j, ho w-l, lee ntk, carlier pr, pang y-p, han y. bis(7)tacrine, a novel ache-inhibitor, reverses af64a-induced deficits
+in navigational memory in rats. neurosci lett 1999; 282: 165-168.
+carlier pr, chow es-h, han y, liu j, yazal je, pang y-p.
+heterodimeric tacrine-based acetylcholinesterase inhibitors:
+investigating ligand-peripheral site interactions. j med chem 1999;
+42: 4225-4231.
+galanakis d, davis ca, herrero bdr, ganellin cr, dunn pm,
+jenkinson dh. synthesis and structure-activity relationships of
+dequalinium analogs as k+ channel blockers. investigations on the
+role of the charged heterocycle. j med chem 1995; 38: 595-606.
+nelson me, albuquerque ex. 9-aminoacridines act at a site
+different from that for mg2+ in blockade of the n-methyl-daspartate receptor channel. mol pharmacol 1994; 46: 151-160.
+bergeron rj, weimar wr, wu q, feng y, mcmanis js.
+polyamine analogue regulation of nmda mk-801 binding: a
+structure-activity study. j med chem 1996; 39: 5257-5266.
+han yf, li cp-l, chow es-h, wang h, pang y-p, carlier pr.
+dual-site binding of bivalent  xxxd1804xxx  and 4aminoquinoline-based ache inhibitors: contribution of the
+hydrophobic alkylene tether to monomer and dimer affinities.
+bioorg med chem 1999; 7: 2569-2575.
+galanakis d, davis ca, ganellin cr, dunn pm. synthesis and
+quantitative structure-activity relationship of a novel series of small
+conductance ca2+-activated k+ channel blockers related to
+dequalinium. j med chem 1996; 39: 359-370.
+paolini jp, lendvay lj, palopoli fp. n4,n4'-decamethylenebis-4aminopyridine and n9,n9'-decamethyl-9-aminoacridine. j me d
+chem 1969; 12: 701-702.
+carlier pr, du d-m, han y-f, liu j, perola e, williams id, et al.
+dimerization of an inactive fragment of  xxxd2287xxx  produces a
+drug with twice the potency of the natural product. angew chem
+int ed 2000; 39: 1775-1777.
+pomponi m, marta m, colella a, sacchi s, patamia m, gatta f, et
+al. studies on a new series of tha analogues: effects of the
+aromatic residues that line the gorge of ache. febs lett 1997;
+409: 155-160.
+savini l, campiani g, gaeta a, pellerano c, fattoruso c,
+chiasserini l, et al. novel and potent tacrine-related hetero- and
+homobivalent
+ligands
+for
+acetylcholinesterase
+and
+ xxxg248xxx . bioorg med chem lett 2001; 11: 17791782.
+savini l, gaeta a, fattorusso c, catalanotti b, campiani g,
+chiasserini l, et al . specific targeting of acetylcholinesterase and
+ xxxg248xxx  recognition sites. rational design of novel,
+selective, and highly potent cholinesterase inhibitors. j med chem
+2003; 46: 1-4.
+hu m-k, wu l-j, hsiao g, yen m-h. homodimeric tacrine
+congeners as acetylcholinesterase inhibitors. j med chem 2002;
+45: 2277-2282.
+gregor ve, emmerling mr, lee c, moore cj. the synthesis and
+in vitro acetylcholinesterase and  xxxg248xxx  inhibitory
+activity of tacrine (cognex®) derivatives. bioorg med chem lett
+1992; 2: 861-864.
+recanatini m, cavalli a, belluti f, piazzi l, rampa a, bisi a, et
+al. sar of  xxxd3270xxx -based acetylcholinesterase inhibitors: synthesis, enzyme inhibitory activity, qsar,
+and structure-based comfa of tacrine analogues. j med chem
+2000; 43: 2007-2018.
+
+current pharmaceutical design, 2004, vol. 10, no. 25 3155
+[60]
+[61]
+[62]
+
+[63]
+[64]
+[65]
+
+[66]
+
+[67]
+
+[68]
+
+[69]
+[70]
+[71]
+
+[72]
+
+[73]
+
+[74]
+[75]
+
+[76]
+[77]
+
+[78]
+
+[79]
+
+[80]
+
+xia y, kozikowski ap. a practical synthesis of the chinese
+"nootropic" agent  xxxd2287xxx : a possible lead in the treatment of
+alzheimer’s disease. j am chem soc 1989; 111: 4116-4117.
+qian l, ji r. a total synthesis of (±)- xxxd2287xxx . tetrahedron lett
+1989; 30: 2089-2090.
+kaneko s, yoshino t, katoh t, terashima s. an enantioselective
+synthesis of natural (-)- xxxd2287xxx  via cinchona alkaloidspromoted asymmetric michael reaction. heterocycles 1997; 46: 2730.
+kozikowski ap, xia y, reddy er, tückmantel w, hanin i, tang
+xc. synthesis of  xxxd2287xxx  and its analogues and their
+anticholinesterase activity. j org chem 1991; 56: 4636-4645.
+he xc, wang zy, li yl, xu zr, bai dl. synthesis of analogues
+of  xxxd2287xxx . chin chem lett 1993; 4: 597-600.
+fink dm, bores gm, effland rc, huger fp, kurys be, rush dk,
+et al. synthesis and evaluation of 5-amino-5,6,7,8-tetrahydroquinolines as potential agents for the treatment of alzheimer’s disease. j
+med chem 1995; 38: 3645-3651.
+kozikowski ap, campiani g, nacci v, sega a, saxena a, doctor
+bp. an approach to modified heterocyclic analogues of huperzine
+a and isohuperzine a. synthesis of the pyrimidone and  xxxd3045xxx 
+analogues, and their anticholinesterase activity. j chem soc perkin
+trans i 1996; 1287-1297.
+kozikowski ap, campiani g, sun l-q, wang s, saxena a, doctor
+bp. identification of a more potent analogue of the naturally
+occurring alkaloid  xxxd2287xxx . predictive molecular modelling of
+its interaction with ache. j am chem soc 1996; 118: 1135711362.
+campiani g, kozikowski ap, wang s, ming l, nacci v, saxena
+a, et al. synthesis and anticholinesterase activity of  xxxd2287xxx 
+analogues containing phenol and catechol replacements for the
+pyridone ring. bioorg med chem lett 1998; 8: 1413-1418.
+carlier pr, du d-m, han y-f, liu j, pang y-p. potent, easily
+synthesized  xxxd2287xxx -tacrine hybrid acetylcholinesterase
+inhibitors. bioorg med chem lett 1999; 9: 2335-2338.
+dubas-sluyter mat, speckamp wn, huisman ho. heterocyclic
+synthesis via 1-amino-3-oxo-1-cyclohexene. recueil 1972; 91:
+157-160.
+camps p, achab re, görbig dm, morral j, muñoz-torrero d,
+badia a, et al. synthesis, in vitro pharmacology, and molecular
+modeling of very potent tacrine- xxxd2287xxx  hybrids as
+acetylcholinesterase inhibitors of potential interest for the treatment
+of alzheimer’s disease. j med chem 1999; 42: 3227-3242.
+camps p, cusack b, mallender wd, achab re, morral j, muñoztorrero d, et al.  xxxd1439xxx  is a novel high-affinity inhibitor of
+acetylcholinesterase that is of interest for treatment of alzheimer’s
+disease. mol pharmacol 2000; 57: 409-417.
+wong dm, greenblatt hm, dvir h, carlier pr, han y-f, pang yp, et al. acetylcholinesterase complexed with bivalent ligands
+related to  xxxd2287xxx : experimental evidence for speciesdependent protein-ligand complementarity. j am chem soc 2003;
+125: 363-373.
+jin gy, he xc, zhang hy, bai dl. synthesis of alkylene-linked
+dimers of (-)- xxxd2287xxx . chin chem lett 2002; 13: 23-26.
+mary a, renko z, guillou c, thal c. potent acetylcholinesterase
+inhibitors: design, synthesis, and structure-activity relationships of
+bis-interacting ligands in the galanthamine series. bioorg med
+chem 1998; 6: 1835-1850.
+raskind ma. update on alzheimer drugs (galantamine).
+neurologist 2003; 9: 235-240.
+prendergast ma, jackson wj, terry jr av, decker mw, arneric
+sp, buccafusco jj. central nicotinic agonists abt-418, abt-089,
+and (-)-nicotine reduce distractability in adult monkeys.
+psychopharm 1998; 136: 50-58.
+guillou c, mary a, renko dz, gras e, thal c. potent
+acetylcholinesterase inhibitors: design, synthesis and structureactivity relationships of alkylene linked bis-galanthamine and
+galanthamine-galanthaminium salts. bioorg med chem lett 2000;
+10: 637-639.
+melchiorre c, andrisano v, bolognesi ml, budriesi r, cavalli a,
+cavrini v, et al. acetylcholinesterase noncovalent inhibitors based
+on a polyamine backbone for potential use against alzheimer’s
+disease. j med chem 1998; 41: 4186-4189.
+tumiatti v, rosini m, bartolini m, cavalli a, marucci g,
+andrisano v, et al. structure-activity relationships of acetylcholinesterase noncovalent inhibitors based on a polyamine backbone.
+
+3156
+
+[81]
+
+[82]
+
+[83]
+[84]
+[85]
+
+[86]
+
+current pharmaceutical design, 2004, vol. 10, no. 25
+2. role of the substituents on the phenyl ring and nitrogen atoms of
+caproctamine. j med chem 2003; 46: 954-966.
+bunyapaiboonsri t, ramström o, lohmann s, lehn j-m, peng l,
+goeldner m. dynamic deconvolution of a pre-equilibrated dynamic
+combinatorial
+library
+of
+acetylcholinesterase
+inhibitors.
+chembiochem 2001; 2: 438-444.
+lewis wg, green lg, grynszpan f, radic z, carlier pr, taylor
+p, et al. click chemistry in situ: acetylcholinesterase as a reaction
+vessel for the selective assembly of a femtomolar inhibitor from an
+array of building blocks. angew chem int ed 2002; 41: 1053-1057.
+kolb hc, finn mg, sharpless kb. click chemistry: diverse
+chemical function from a few good reactions. angew chem int ed
+2001; 40: 2004.
+kolb hc, sharpless kb. the growing impact of click chemistry on
+drug discovery. drug discov today 2003; 8: 1128-1137.
+wu d-c, xiao x-q, ng aky, chen pmy, chung w, lee ntk, et
+al. protection against ischemic injury in primary cultured mouse
+astrocytes by bis(7)-tacrine, a novel acetylcholinesterase inhibitor.
+neurosci lett 2000; 288: 95-98.
+xiao xq, lee nt-k, carlier pr, pang y-p, han yf. bis(7)tacrine, a promising anti-alzheimer's agent, reduces hydrogenperoxide-induced injury in rat pheochromocytoma cells:
+comparison with tacrine. neurosci lett 2000; 290: 197-200.
+
+du and carlier
+[87]
+[88]
+[89]
+
+[90]
+
+[91]
+
+[92]
+
+rees tm, brimijoin s. the role of acetylcholinesterase in the
+pathogenesis of alzheimer’s disease. drugs of today 2003; 39: 7583.
+bartolini m, bertucci c, cavrini v, andrisano v. beta-amyloid
+aggregation induced by human acetylcholinesterase: inhibition
+studies. biochem pharm 2003; 65: 407-416.
+piazzi l, rampa a, bisi a, gobbi s, belluti f, cavalli a, et al.
+3-(4-{[benzyl(methylamino]methyl}-phenyl)-6,7-dimethoxy-2h-2chromenone (ap2238) inhibits both acetylcholinesterase and
+acetylcholinesterase-induced beta-amyloid aggregation: a dual
+function lead for alzheimer’s disease therapy. j med chem 2003;
+46: 2279-2282.
+gualtieri f, manetti d, romanelli mn, ghelardini c. design and
+study of piracetam-like nootropics, controversial members of the
+problematic class of cognition-enhancing drugs. curr pharm
+design 2002; 8(2): 125-38.
+schechter le, dawson la, harder ja. the potential utility of  xxxg1108xxx  receptor antagonists in the treatment of cognitive
+dysfunction associated with alzheimer s disease. curr pharm
+design 2002; 8(2): 139-45.
+schimmoller f, higaki jn, cordell b. amyloid forming proteases:
+therapeutic targets for alzheimer's disease. curr pharm design
+2002; 8(28): 2521-31.
+

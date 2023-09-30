@@ -1,0 +1,776 @@
+the journal of biological chemistry
+© 2003 by the american society for biochemistry and molecular biology, inc.
+
+vol. 278, no. 43, issue of october 24, pp. 41789 –41797, 2003
+printed in u.s.a.
+
+catalytic and thermodynamic properties of tetrahydromethanopterindependent serine hydroxymethyltransferase from
+methanococcus jannaschii*
+received for publication, june 25, 2003, and in revised form, august 1, 2003
+published, jbc papers in press, august 5, 2003, doi 10.1074/jbc.m306747200
+
+sebastiana angelaccio, roberta chiaraluce, valerio consalvi, bärbel buchenau‡,
+laura giangiacomo, francesco bossa§, and roberto contestabile¶
+from the dipartimento di scienze biochimiche “a. rossi fanelli” and §centro di eccellenza di biologia e medicina
+molecolare, università degli studi di roma “la sapienza,” piazzale aldo moro 5, roma 00185, italy and the ‡maxplanck-institut für terrestrische mikrobiologie and laboratorium für mikrobiologie des fachbereichs biologie der
+philipps-universität, karl-von-frisch-strasse, marburg d-35043, germany
+
+serine hydroxymethyltransferase (shmt,1 ec 2.1.2.1)
+catalyzes the reversible transfer of c␤ of serine to tetrahydrop* this work was supported by the italian ministero dell’istruzione,
+dell’università, and della ricerca. the costs of publication of this article
+were defrayed in part by the payment of page charges. this article must
+therefore be hereby marked “advertisement” in accordance with 18
+u.s.c. section 1734 solely to indicate this fact.
+¶ to whom correspondence should be addressed: dipartimento di
+scienze biochimiche, università degli studi di roma “la sapienza,”
+piazzale aldo moro 5, roma 00185, italy. tel.: 39-06-49917569; fax:
+39-06-49917566; e-mail: roberto.contestabile@uniroma1.it.
+1
+the abbreviations used are: shmt, serine hydroxymethyltransferase; mjshmt, m. jannaschii shmt; eshmt, e. coli shmt; h4mpt,
+tetrahydromethanopterin;  xxxd3334xxx ,  xxxd3334xxx  or
+tetrahydrofolate; dtt, dithiothreitol; plp,  xxxd3047xxx ; svd,
+singular value decomposition algorithm.
+this paper is available on line at http://www.jbc.org
+
+teroylglutamate ( xxxd3334xxx ) to form glycine and 5,10-methylene- xxxd3334xxx . in eukarya and eubacteria,  xxxd3334xxx  functions as a carrier of c1 units in several oxidation states, which
+are used in the biosynthesis of important cellular components,
+such as purines and thymidylate, in the regeneration of methionine from homocysteine or, in acetogenic bacteria, in the synthesis of acetyl-coa. the reaction catalyzed by shmt represents in these organisms one of the major loading routes of c1
+units onto the folate carrier (1). in methanogens and several
+other archaea, c1 fragments from formyl to methyl oxidation
+levels are carried by tetrahydromethanopterin (h4mpt), a
+pterin-containing compound involved in methanogenesis. although  xxxd3334xxx  and h4mpt are structurally similar in their
+pterin-like portion (fig. 1) and in the role as c1 units carriers,
+they are functionally distinct. h4mpt does not appear to be
+suited to most of the biosynthetic functions of  xxxd3334xxx . moreover, the biosynthetic pathways of the two carriers have few, if
+any, homologies, suggesting the possibility of separate evolutionary origins (2). in the metabolism of folates, shmt represents a unique link between archaea and the rest of living
+beings, in the sense that, whereas all shmts clearly share a
+common evolutionary origin (3), other enzymes that use
+h4mpt as cofactor do not show any significant homology to
+their eukaryotic and eubacterial counterparts (2).
+although a gene encoding shmt is present in all archaeal
+genomes so far sequenced, little information is available on the
+catalytic properties and metabolic role of the enzyme in these
+organisms. modified folates are not commercially available,
+and this has clearly hindered a satisfactory characterization of
+archaeal shmts. moreover, the purification of the enzyme
+from archaea that thrive in extreme environments is complicated
+by the difficulty of growing these organisms in a laboratory. two
+reports of purified shmt activity, from methanobacterium thermoautotrophicum (4), recently renamed methanothermobacter marburgensis (5), and from sulfolobus solfataricus (6), with limited
+structural and functional characterization, have been made. in the
+first report, the enzyme was proposed to function in vivo in the
+direction of serine biosynthesis. importantly, both works provided
+evidence that shmt was selective toward the modified folate used
+by the source organisms: h4mpt for m. marburgensis and sulfopterin for s. solfataricus (2, 7).
+this study reports on the purification of recombinant shmt
+from methanococcus jannaschii (mjshmt) and the characterization of its catalytic and thermodynamic properties. the aim
+of the research was to assess the extent to which mjshmt is
+structurally and mechanistically similar to its prokaryotic and
+eukaryotic counterparts.
+
+41789
+
+downloaded from http://www.jbc.org/ by guest on october 15, 2019
+
+the reaction catalyzed by serine hydroxymethyltransferase (shmt), the transfer of c␤ of serine to  xxxd3334xxx , represents in eucarya and eubacteria a major source of one-carbon (c1) units for several
+essential biosynthetic processes. in many archaea, c1
+units are carried by modified pterin-containing compounds, which, although structurally related to  xxxd3334xxx , play a distinct functional role.
+tetrahydromethanopterin, and a few variants of this
+compound, are the modified folates of methanogenic
+and sulfate-reducing archaea. little information on
+shmt from archaea is available, and the metabolic role
+of the enzyme in these organisms is not clear. this contribution reports on the purification and characterization of recombinant shmt from the hyperthermophilic
+methanogen methanococcus jannaschii. the enzyme
+was characterized with respect to its catalytic, spectroscopic, and thermodynamic properties. tetrahydromethanopterin was found to be the preferential pteridine substrate.  xxxd3334xxx  could also take part in
+the hydroxymethyltransferase reaction, although with a
+much lower efficiency. the catalytic features of the enzyme
+with substrate analogues and in the absence of a pteridine
+substrate were also very similar to those of shmt isolated
+from eucarya or eubacteria. on the other hand, the m.
+jannaschii enzyme showed increased thermoactivity and
+resistance to denaturating agents with respect to the enzyme purified from mesophilic sources. the results reported suggest that the active site structure and the mechanism of shmt are conserved in the enzyme from m.
+jannaschii, which appear to differ only in its ability to bind
+and use a modified folate as substrate and increased thermal stability.
+
+41790
+
+serine hydroxymethyltransferase from methanococcus jannaschii
+
+fig. 1. structures of  xxxd3334xxx  (a) and tetrahydromethanopterin (b).
+
+taining shmt, detected spectrophotometrically, pooled, and concentrated using centrifuge concentrators (30 kda cut-off; vivaspin,
+sartorius) to a volume of about 20 ml, were heat-treated for 15 min at
+75 °c to precipitate most of the host cell proteins. after centrifugation
+at 15,000 ⫻ g for 30 min, the supernatant containing mjshmt and a
+few other proteins was loaded onto a deae-sepharose column (3 ⫻ 10
+cm) that had been equilibrated with 20 mm potassium phosphate, ph
+7.2. the column was washed with 100 ml of the same buffer, and the
+protein was then eluted with a 500-ml linear gradient of 0 – 0.4 m nacl
+in 20 mm phosphate buffer, ph 7.2. fractions were pooled and concentrated as in the previous step. the purity of the mjshmt sample was
+checked by sds-page and judged to be ⱖ98%. the protein concentration was determined measuring the absorbance at 280 nm and using a
+⑀280 ⫽ 34990 m⫺1 cm⫺1, calculated according to ref. 10.
+molecular mass estimation by size-exclusion chromatography—the
+molecular mass of the native enzyme was estimated by size-exclusion
+chromatography at 20 °c on a superose 12 column (amersham biosciences), eluted at a flow rate of 0.4 ml/min with 20 mm sodium
+phosphate, ph 7.2, containing 0.15 m nacl, controlled by a dionex
+pump. elution was monitored at 280 and 226 nm. the superose column
+was calibrated with horse spleen  xxxg818xxx  (440 kda, elution volume
+ve ⫽ 8.0 ml), catalase (232 kda, ve ⫽ 9.1 ml), rabbit muscle aldolase
+(158 kda, ve ⫽ 9.3 ml), bsa (67 kda, ve ⫽ 9.8 ml), egg albumin (43 kda,
+ve ⫽ 10.4 ml), chymotrypsin (25 kda, ve ⫽ 12 ml), and ribonuclease
+(13.7 kda, ve ⫽ 12.5 ml). ve of the purified shmt was 9.6 ml.
+molecular mass estimation by analytical ultracentrifugation—all
+experiments were conducted at 20 °c on a beckman optima xl-a
+analytical ultracentrifuge equipped with absorbance optics. the protein
+concentration was in the range of 0.2 to 1.0 mg/ml. sedimentation
+velocity experiments were done at 40,000 rpm. data were collected at
+280 nm at a spacing of 0.005 cm with three averages in a continuous
+scan mode and were analyzed with the program sedfit (11). sedimentation coefficients were corrected to s20,w using standard procedures.
+sedimentation equilibrium experiments were performed at 16,000,
+19,000 and 22,000 rpm. data were collected at 280 nm at a spacing of
+0.001 cm with 10 averages in a step scan mode. establishment of
+equilibrium was checked by comparing scans up to 24 h. data sets were
+edited with reedit (j. lary, national analytical ultracentrifugation
+center, storrs, ct) and fit with nonlin (pc version provided by
+e. braswell, national analytical ultracentrifugation center, storrs,
+ct) (12). data from different speeds were combined for global fitting.
+fits to a single species give a z-average molecular weight. for fits to a
+monomer-dimer association scheme, the monomer molecular weight
+was fixed at the value determined from the amino acid sequence. the
+experiments were performed in 20 mm phosphate buffer, ph 7.2, and in
+20 mm sodium formate, ph 3.0, containing 200 ␮m dtt and 100 ␮m
+edta.
+kinetic studies—with serine and h4mpt as substrates, the rate of
+5,10-methylene-h4mpt production was determined by oxidizing this
+compound to 5,10-methenyl-h4mpt, using nadp⫹ and methyleneh4mpt dehydrogenase from m. extorquens am1. the initial rate of the
+reaction, carried out in 75 mm potassium phosphate, ph 7.4, at 37 °c,
+
+downloaded from http://www.jbc.org/ by guest on october 15, 2019
+
+experimental procedures
+
+materials—ingredients for bacterial growth were from difco. chemicals used in the purification procedure were from  xxxg257xxx , and deaesepharose and phenyl-sepharose were from amersham biosciences.
+enzymes used for the cloning procedures were purchased from roche
+diagnostics. shmt from escherichia coli (eshmt) was expressed and
+purified as described previously (8). the oligonucleotides used in the
+pcr reaction were from mwg biotech. (6s)- xxxd3334xxx  was a gift from
+a. g. eprova, schaffhausen, switzerland. all other reagents were from
+sigma-aldrich. the bifunctional enzyme methylene- xxxd3334xxx  dehydrogenase/methenyl- xxxd3334xxx  cyclohydrolase from e. coli was purified
+from a recombinant e. coli bacterial strain kindly provided by dr.
+martino di salvo (università “la sapienza,” rome, italy) following the
+procedure described previously (9). nadp-dependent methyleneh4mpt dehydrogenase from methylobacterium extorquens am1 and
+h4mpt purified from m. marburgensis were kindly provided by rolf
+thauer (max-planck-institut für terrestrische mikrobiologie, marburg,
+germany). the thermostable  xxxg110xxx  from thermoanaerobium brockii employed in the  xxxg2069xxx  assay was from
+sigma-aldrich.
+cloning of the  xxxg2069xxx  gene from m. jannaschii—a puc18 plasmid with
+a 1686-bp insert containing the gene encoding mjshmt was purchased
+from the american type culture collection. this plasmid (amjk15)
+was used as template in a pcr amplification that used 5⬘-gggatacatatggaatattcgg-3⬘ (upstream) and 5⬘-gcgaattcttaatagaatcttag-3⬘ (downstream) oligonucleotides as primers. ndei and
+ecori restriction sites were introduced in the primers to insert the
+amplified 1287-bp dna fragment into a pet22b expression plasmid
+(novagen), which was used to transform e. coli hms174 (de3) cells
+(novagen). the nucleotide sequence of the insert was determined to
+confirm that no mismatching had occurred during the pcr
+amplification.
+expression and purification—a 100-ml overnight culture of e. coli
+hms174 (de3) cells, transformed with the mjshmt overexpressing
+plasmid, was inoculated into 3 liters of luria-bertani broth containing
+ampicillin (100 mg/liter) and grown aerobically at 37 °c to exponential
+phase (a600 ⫽ 0.3– 0.4). expression of mjshmt was then induced with
+0.2 mm isopropyl thio-␤-d-galactopyranoside. after 20 h, cells were
+harvested and suspended in 100 ml of 50 mm tris/hcl, 1 mm edta, ph
+7.6. cell lysis was obtained by the addition of 1 mg of lysozyme per g of
+packed bacterial cells. after incubation at 25 °c for 30 min, the cells
+were frozen overnight at ⫺20 °c. after thawing, streptomycin sulfate
+(10 g/liter) was added to precipitate dna. the cell extract was then
+centrifuged at 15,000 ⫻ g for 30 min, and the pellet was discarded. solid
+ammonium sulfate was added to the yellow supernatant to 60% saturation. the solution was centrifuged at 15,000 ⫻ g for 20 min, and the
+pellet was discarded. the supernatant was directly loaded onto a phenyl-sepharose column (5 ⫻ 15 cm) pre-equilibrated with 50 mm potassium phosphate buffer, ph 7.2, containing ammonium sulfate to 30%
+saturation. the column was washed with 100 ml of the same buffer, and
+the protein was eluted using a 600-ml linear gradient from the equilibrating buffer to 20 mm potassium phosphate, ph 7.2. fractions con-
+
+serine hydroxymethyltransferase from methanococcus jannaschii
+
+denaturant dependence of each basis spectrum. both u and v columns
+are arranged in terms of their decreasing order of the relative weight of
+information, as indicated by the magnitude of the singular values in s.
+the diagonal s matrix contains the singular values that quantify the
+relative importance of each vector in u and v. an important feature of
+svd analysis is that the signal-to-noise ratio is very high in the earliest
+columns of u and v, and the random noise is mainly accumulated in the
+latest u and v columns. the wavelength averaged spectral changes
+induced by increasing denaturant concentrations are represented by
+the columns of matrix v. therefore, the plot of the columns of v versus
+the denaturant concentration provides information about the observed
+transition.
+urea-induced equilibrium unfolding was analyzed by fitting baseline
+and transition region data to a two-state linear extrapolation model (20)
+according to equation 1, where ⌬gunfolding is the free energy change of
+unfolding for a given denaturant concentration, ⌬gh2o is the free energy change of unfolding in the absence of denaturant, and m is a slope
+term that quantitates the change in ⌬gunfolding per unit concentration of
+denaturant, r is the gas constant, t is the absolute temperature, and
+kunfolding is the equilibrium constant for unfolding.
+⌬gunfolding ⫽ ⌬gh2o ⫹ m[urea] ⫽ ⫺ rtlnkunfolding
+
+(eq. 1)
+
+the model expresses the signal as a function of denaturant concentration, shown in equation 2, where yi is the observed signal, yn and yd are
+the native and denatured baseline intercepts, mn and md are the native
+and denatured baseline slopes, [x]i is the denaturant concentration
+after the ith addition, ⌬gh2o is the extrapolated free energy of unfolding
+in the absence of denaturant, m is the slope of a g unfolding versus [x]
+plot, r is the gas constant, and t is the absolute temperature.
+yi ⫽
+
+yn ⫹ mn关x兴i ⫹ 共yd ⫹ md关x兴i兲*exp关共 ⫺ ⌬gh2o ⫺ m关x兴i兲/rt兴
+1 ⫹ exp关共 ⫺ ⌬gh2o ⫺ m关x兴i兲/rt兴
+
+(eq. 2)
+
+the [urea]0.5 is the denaturant concentration at the midpoint of the
+transition and, according to equation 1, is calculated as shown in
+equation 3.
+[urea]0.5 ⫽ ⌬gh2o/m
+
+(eq. 3)
+
+results
+
+purification of mjshmt and molecular mass estimation—
+purification was performed on 15-g portions of wet bacterial
+cell paste deriving from 2 liters of culture. a 20-fold purification of the enzyme with a yield of 10 mg per liter of culture was
+obtained. the purified enzyme exhibited a single band on sdspage when stained with coomassie blue and, on analytical
+ultracentrifugation, sedimented as a single, sharp, and symmetrical peak (see below). mjshmt, whose predicted subunit
+size based on the amino acid sequence is 48.2 kda, eluted in 20
+mm sodium phosphate, ph 7.2, from a calibrated size-exclusion
+chromatography column (superose 12) with an elution volume
+corresponding to a protein of 98 kda, suggesting that the enzyme is a dimer at neutral ph.
+catalytic properties of mjshmt—the shmt activity of the
+enzyme was assayed at 37 °c, using either h4mpt or
+ xxxd3334xxx  as pteridine substrate. such a sub-optimal temperature was required by the use of methylene-h4mpt dehydrogenase from m. extorquens am1 as the coupling enzyme in the
+assay. activity, which was measured upon mixing 0.1 ␮m enzyme with 4 mm l-serine and 50 ␮m of either pteridine substrates, could only be detected when using h4mpt. the dependence of the steady-state rate of the reaction on substrates
+concentration conformed to the michaelis-menten equation,
+with best fit values of kinetic parameters as summarized in
+table i. the addition of 20 mm magnesium acetate to the
+reaction mixture did not increase activity, differently from that
+reported for the enzyme from m. marburgensis (4). the same
+experiment was repeated under anaerobic conditions, obtaining similar values for the kinetic parameters, and showing
+that, interestingly, the reaction is not negatively affected by
+oxygen.
+activity could actually be measured also when using
+
+downloaded from http://www.jbc.org/ by guest on october 15, 2019
+
+was calculated from the absorbance change at 340 nm because of
+nadph and methenyl-h4mpt formation, using a value of ⑀340 ⫽ 27 000
+⫺1
+m
+cm⫺1 (13). the same procedure was employed when  xxxd3334xxx  was
+the pteridine substrate, except that the coupled enzyme employed in the
+assay was the bifunctional methylene- xxxd3334xxx  dehydrogenase/methenyl- xxxd3334xxx  cyclohydrolase from e. coli, and the ⑀340 used in the
+calculation was 7200 m⫺1 cm⫺1 (8). the reaction mixture included
+mjshmt at either 0.1 ␮m, when h4mpt was the pteridine substrate, or
+14 ␮m, when  xxxd3334xxx  was used. kinetic parameters were determined
+either under anaerobic conditions (n2 pressure equal to 0.3 bar) or in
+the presence of air, varying the concentration of one substrate while the
+second was kept constant. the dependence of the initial velocity of the
+reaction on h4mpt concentration was determined maintaining l-serine
+at 30 mm and varying  xxxd3334xxx  concentration between 0.162 and 0.45
+mm. h4mpt was 0.162 mm when serine was varied between 0.09 and 30
+mm. the formaldehyde was measured mixing aliquots of the reaction
+mixture, taken at time intervals, with an equal volume of 0.2% (w/v)
+2,4-dinitrophenyl hydrazine in 1 m hcl. the resulting colored solution
+was diluted in 1 m hcl and used to measure the increase in absorbance
+at 380 nm because of the formation of a dinitrophenyl hydrazone derivative. for this derivative, a calibration curve, obtained previously
+using commercial formaldehyde, gave a ⑀380 ⫽ 57120 m⫺1 cm⫺1.
+retroaldol cleavage reactions were carried out in 20 mm potassium
+phosphate, ph 7.2. the rate of allo-threonine cleavage was measured by
+coupling the reaction with reduction of the product acetaldehyde by
+nadh and thermostable  xxxg110xxx  from t. brockii (14).
+the rate of the reaction was calculated from the rate of decrease in
+absorbance at 340 nm, using a value of ⑀340 ⫽ 6220 m⫺1 cm⫺1. benzaldehyde production from phenylserine cleavage was measured spectrophotometrically at 279 nm, using a molar absorptivity value of ⑀279 ⫽
+1400 m⫺1 cm⫺1 (15). the rate of transamination with both alanine
+enantiomers was determined according to ref. 16. kinetic data analysis, curve-fitting procedures, and statistical analysis were performed
+using the data manipulation software of scientist (micromath, salt
+lake city, ut).
+spectroscopic techniques—fluorescence emission measurements
+were carried out at 20 °c with a ls50b spectrofluorimeter
+(perkinelmer life sciences) using a 1-cm path length quartz cuvette.
+intrinsic fluorescence emission spectra were recorded from 300 – 450
+nm (1-nm sampling interval) with the excitation wavelength set at 295
+nm. plp emission fluorescence was monitored between 330 and 600 nm
+exciting at 285, 320, and 418 nm.
+cd spectra were recorded at 20 °c in a jasco j-720 spectropolarimeter. far-uv-cd spectra (190 –250 nm) were measured in a 0.1-cm path
+length quartz cuvette, and near-uv-cd spectra (250 –310 nm) and
+visible-cd spectra (310 –500 nm) were measured in a 1.0-cm path
+length quartz cuvette. the results are expressed as the mean residue
+ellipticity ([⌰]) assuming a mean residue weight of 110 da per amino
+acid residue. in all the spectroscopic measurements, 200 ␮m dtt and
+100 ␮m edta were added unless otherwise stated. uv-visible spectra
+were recorded with a double-beam lambda 16 perkinelmer life sciences spectrometer equipped with a peltier thermocontroller set at
+20 °c.
+urea-induced unfolding equilibrium—protein samples, at 0.12
+mg/ml final concentration, were incubated at 20 °c with increasing
+concentrations of urea (0 –7.9 m) in 20 mm sodium phosphate, ph 7.2, or
+in 20 mm sodium formate, ph 3.0, in the presence of 200 ␮m dtt and
+100 ␮m edta. after 24 h, a time that was tested to be sufficient to reach
+equilibrium, far-uv-cd spectra were recorded at 20 °c. to probe the
+reversibility of the unfolding process, the protein (1.9 mg/ml) was incubated at 20 °c with 7.9 m urea in 20 mm formate, ph 3.0, in the presence
+of 3.2 mm dtt and 1.6 mm edta. after 24 h, the refolding was started
+by a 16-fold dilution with the same buffer used for the unfolding,
+containing decreasing denaturant concentrations. the final protein concentration was 0.12 mg/ml. after 2 h, a time that was established to be
+sufficient to reach equilibrium, far-uv-cd spectra were recorded at
+20 °c.
+data analysis—far-uv-cd spectra from urea titration were analyzed by the singular value decomposition algorithm (svd) (17–19)
+using the software matlab (mathworks, south natick, ma). svd is
+useful to find the number of independent components in a set of spectra
+and to remove the high-frequency noise and the low-frequency random
+error. cd spectra in the 210 –250-nm region (0.2-nm sampling interval)
+were placed in a rectangular matrix a of n columns, one column for each
+spectrum collected in the titration. the a matrix is decomposed by svd
+into the product of three matrices: a ⫽ u*s*vt, where u and v are
+orthogonal matrices, and s is a diagonal matrix. the columns of u
+matrix contain the basis spectra, and those of the v matrix contain the
+
+41791
+
+41792
+
+serine hydroxymethyltransferase from methanococcus jannaschii
+
+table i
+kinetic parameters of the reactions catalysed by mjshmt
+kinetic constants are the average of at least three determinations.
+the range of values was always less than ⫾10%.
+reaction
+
+shmt
+l-serine
+h4mpt
+ xxxd3334xxx 
+retroaldol cleavaged
+l-allo-threonine
+d,l-threo-3-phenylserine
+
+km
+
+kcat
+
+kcat/km
+
+mm
+
+min⫺1
+
+min⫺1 mm⫺1
+
+0.8a
+0.1a
+n.d.b
+
+212
+212
+n.d.
+
+265
+2122
+5.2c
+
+1.3
+95
+
+687
+3576
+
+528
+37.6
+
+a
+apparent km values calculated from experiments in which the concentration of one substrate was varied whereas the second substrate
+was fixed at high concentration.
+b
+n.d., not determined.
+c
+calculated as reported in the text.
+d
+reactions were carried out at 60 °c.
+
+downloaded from http://www.jbc.org/ by guest on october 15, 2019
+
+ xxxd3334xxx , but only if the enzyme was present in the assay at a
+much higher concentration (14 ␮m). in this case, the dependence of the steady-state velocity on the pteridine substrate was
+linear on a range from 0 to 150 ␮m. higher  xxxd3334xxx  concentrations could not be employed without incurring problems
+with the assay. activity did not change significantly when
+measured under anaerobic conditions. the specificity constant
+with  xxxd3334xxx  could be calculated, because the observed linear
+relationship between substrate concentration and initial velocity is evidence that under the conditions of the assay km⬎⬎ [s],
+and therefore the michaelis-menten equation can be reduced to
+v0 ⫽ kcat/km䡠[e0]䡠[s].  xxxd3334xxx  is known to react spontaneously with formaldehyde (21). therefore, there was a possibility that the shmt reaction we observed with  xxxd3334xxx  was
+actually because of the retroaldol cleavage of serine, followed
+by the spontaneous condensation between the product formaldehyde and the folate to form 5,10-methylene- xxxd3334xxx . to
+check this hypothesis, we repeated the experiment under the
+same conditions but in the absence of  xxxd3334xxx . no formaldehyde could be detected, confirming that the shmt reaction
+involving  xxxd3334xxx  takes place on the enzyme. the actual
+binding of  xxxd3334xxx  to the enzyme was also demonstrated by
+the appearance of a typical 490-nm absorbing band, corresponding to a quinonoid intermediate (22), upon mixing 0.2 mm
+ xxxd3334xxx  with 230 ␮m enzyme and 70 mm glycine at 37 °c in 20
+mm potassium phosphate, ph 7.2. analogously, a quinonoid
+intermediate was visible after mixing 0.135 mm h4mpt with
+14 ␮m enzyme and 70 mm glycine (data not shown).
+the enzyme was also capable of catalyzing the retroaldol
+cleavage of l-allo-threonine and threo-␤-phenylserine to glycine and the corresponding aldehyde (table i). addition of 200
+mm of either l- or d-alanine to the enzyme resulted in a
+transamination reaction, as indicated by the decrease of absorbance at 424 nm and the concomitant formation of a new
+absorption band with a maximum at 324 nm. the 498-nm
+absorbing band, corresponding to a quinonoid intermediate,
+which is observed with the e. coli enzyme (16), is absent in the
+reaction catalyzed by mjshmt. the kinetics of both reactions,
+which were carried out at 60 °c, fitted well to the sum of two
+first-order processes. with d-alanine, the rapid phase exhibited
+a k ⫽ 0.42 min⫺1 and was responsible for about 3⁄4 of the total
+absorbance change, whereas the slow phase had a k ⫽ 0.054
+min⫺1. with l-alanine, the fast phase corresponded to a k ⫽
+0.092 min⫺1 and 1⁄3 of the total amplitude; the slow phase had
+a k ⫽ 0.001 min⫺1. although eshmt transaminates both alanine enantiomers with single first order kinetics, the reaction
+of d-alanine is also faster with this enzyme (k is 0.038 min⫺1
+with d-alanine and 0.014 min⫺1 with l-alanine).
+temperature dependence of enzyme activity—the tempera-
+
+fig. 2. temperature dependence of enzyme activity. a, the
+activity of mjshmt (triangles) and eshmt (circles) in the retroaldol
+cleavage of l-allo-threonine was assayed at various temperatures. the
+steady-state velocity of the reaction was measured either under virtually saturating conditions (25 mm substrate; closed symbols) or at about
+4% of saturation (0.055 mm substrate; open symbols). measurements
+were carried out over the first minute from the beginning of the reaction, during which linearity was always observed. b, arrhenius plot for
+the apparent catalytic constant of the reaction.
+
+ture dependence of the rate of retroaldol cleavage of l-allothreonine was determined, using either eshmt or mjshmt as
+catalyst, over the range from 25 to 85 °c (fig. 2a). the steadystate velocity of the reaction was measured both under virtually saturating conditions (25 mm substrate) and at about 4% of
+saturation (0.055 mm substrate). the reaction catalyzed by
+mjshmt was found to have an optimal temperature 20 –25 °c
+higher than that catalyzed by the e. coli enzyme. saturation
+with the substrate had a stabilizing effect on the activity of
+both enzymes. data were used in a global fit to the arrhenius
+equation in which the activation energy (estimated to be equal
+to 70.00 ⫾ 2.10 kj/mol) was a shared parameter (fig. 2b).
+urea-induced unfolding equilibrium—the equilibrium stability of mjshmt was studied by monitoring urea-induced
+unfolding transitions. at neutral ph, in the presence of 10 m
+
+serine hydroxymethyltransferase from methanococcus jannaschii
+
+urea, 42% residual ellipticity at 222 nm was still present after
+24 h at 20 °c, thus indicating that the enzyme structure was
+not abolished (data not shown). no further changes were observed after 48 h. these results prompted us to explore the
+effect of urea at acidic ph, with the aim of finding the conditions required for complete and reversible unfolding transitions. at ph 3.0 a single monomeric species is present, as
+indicated by analytical ultracentrifugation experiments, with a
+secondary structure content similar to that of the enzyme at ph
+7.2 (see below). these observations encouraged us to analyze
+the effect of urea on mjshmt at ph 3.0. increasing urea
+concentrations (0 –10 m) induced structural changes on the
+enzyme, as revealed by far-uv-cd spectra, and above 6 m the
+dichroic activity was reduced significantly with a transition
+midpoint at 2.56 m (fig. 3). the process was completely reversible, as indicated by the recovery of the dichroic activity after
+dilution of the denaturant, with ⌬g and m values corresponding to 13.43 kj/mol and 5.23 kj/mol/m, respectively. the ellipticity changes at 222 nm induced by increasing concentrations
+of urea were analyzed after removal of the high-frequency noise
+and the low-frequency random error by svd. the global
+changes in the spectral region from 210 to 250 nm were analyzed by svd, which indicates that only two spectral components contribute to the far-uv-cd spectra. the most significant singular values are 1.7 ⫻ 105, 0.2 ⫻ 105, and 0.03 ⫻ 105.
+all the other singular values are well below 10% of the largest
+singular value and progressively decrease approaching to zero.
+a plot of the first and the second columns of the v matrix (v1
+and v2) as a function of urea concentration (data not shown)
+shows transition profiles comparable with those observed by
+monitoring the 222-nm ellipticity changes.
+spectroscopic and analytical ultracentrifugation analyses—
+the secondary, tertiary, and quaternary arrangement of the
+enzyme at ph 7.2 was investigated and compared with that at
+ph 3.0, with the aim of detecting possible structural changes
+caused by the low ph necessary to reversibly denature the
+enzyme. the far-uv-cd spectrum at ph 7.2 is typical of a
+predominantly ␣-helix protein (fig. 4a). at ph 3.0, the faruv-cd spectrum of the holoenzyme is characterized by a profile similar to that at ph 7.2 with the same zero intercept and
+
+⌰222/⌰208 ratio and a slight general decrease of ellipticity compared with that at neutral ph (fig. 4a). in the near-uv region,
+the dichroic activity of the enzyme at ph 3.0 is notably decreased in comparison with the enzyme at ph 7.2, and the
+289-nm trp band is absent (fig. 4b). at ph 3.0, the 420- and
+325-nm bands, present in the uv-visible cd spectrum of the
+holoenzyme at neutral ph and attributable to the plp cofactor,
+are absent (fig. 4c). the uv-visible absorption spectrum at ph
+3.0 shows a 3-fold decrease of the absorbance at 420 nm, when
+compared with that of the holoenzyme at ph 7.2 (fig. 4d).
+the intrinsic fluorescence emission spectra of the holoenzyme at ph 7.2 and 3.0, measured upon excitation at 295 nm,
+are similar and show the same maximum emission wavelength
+at 347 nm (fig. 4e). at ph 7.2, as observed with other plp
+enzymes in the holo-form (23–25), excitation at either 320 or
+418 nm yields fluorescence emission spectra with maxima centered, respectively, at 386 nm and 494 nm (fig. 5, a and b). a
+faint energy transfer band at about 510 nm is observed when
+exciting at 285 nm (fig. 5a, inset). at ph 3.0, the fluorescence
+emission spectra of the holoenzyme (fig. 5, a and b) excited at
+320 and 418 nm are centered at the same maximum emission
+wavelength, although a dramatic decrease of the relative fluorescence is observed upon excitation at 418 nm. at ph 3.0, the
+510-nm energy transfer band is absent (fig. 5a, inset).
+the relative content of the secondary structure elements in
+solution, estimated by selcon 2 (26) using the software dicroprot v2.5 on the far-uv-cd spectra, at ph 7.2 and 3.0,
+was at least 98% and corresponded to 36 and 28% ␣⫺helix, 14
+and 18% ␤-sheet, 22 and 24% turns, 8% polyproline ii, and 20%
+of other structures, respectively. the relative amount of ␣ and
+␤ structures was also consistent with that determined by k2d
+program (27) and selcon 3 (28). these results indicate that
+at ph 3.0 the shmt relative secondary structure composition
+is closely similar to that at ph 7.2. secondary structure prediction according to ref. 29 indicates 50% ␣-helix, 16% extended, and 34% loops.
+the spectral properties of the monomer at ph 3.0 indicate
+that the dissociation of the dimer into monomers is accompanied by remarkable changes of the tertiary contacts, as indicated by the near-uv and visible cd signals, and suggest that
+the secondary structure content of the monomer is similar to
+that of the dimeric enzyme.
+sedimentation velocity experiments yielded an s20,w value of
+6.2 for the enzyme at ph 7.0 and 3.9 – 4.3 at ph 3.0. such values
+correspond to molecular masses of 100 kda and 50 –55 kda,
+respectively, for proteins with a spherical shape (30). equilibrium sedimentation experiments confirmed such results, yielding molecular mass values of 53 ⫾ 4 kda at ph 3.0 and 80 ⫾ 10
+kda at ph 7.2, when data were fitted to a single species. a very
+poor fit was obtained for a monomer-dimer association-dissociation scheme at both ph values. taken together, the performed
+analyses strongly indicate that the protein is mainly dimeric at
+neutral ph and dissociates almost entirely into monomers at
+ph 3.0.
+discussion
+
+shmt has been isolated from several sources and extensively characterized, from both the structural and functional
+points of view (31). crystal structures of the enzyme from five
+different eubacterial and eukaryotic sources, either in the unliganded form or in complex with amino substrates and
+ xxxd3334xxx  analogues, have been solved (32–36). therefore, a
+clear picture of the amino acid residues which form the active
+site and are involved in cofactor and substrate binding is available. a recent, theoretical analysis on the structural features of
+archaeal shmts proposed that the environment of the plp
+cofactor in these enzymes exhibits no significant differences
+
+downloaded from http://www.jbc.org/ by guest on october 15, 2019
+
+fig. 3. urea-induced unfolding/refolding equilibrium of m. jannaschii shmt. far uv-cd spectra were recorded after 24 h of incubation in 20 mm formate, ph 3.0, at 20 °c at the indicated urea concentrations, at a protein concentration of 0.12 mg/ml. the solid line results
+from a non-linear regression analysis using equation 2. reversibility
+points (e) were not included in the non-linear regression analysis.
+
+41793
+
+41794
+
+serine hydroxymethyltransferase from methanococcus jannaschii
+
+downloaded from http://www.jbc.org/ by guest on october 15, 2019
+
+fig. 4. spectral properties of m. jannaschii shmt. a, far-uv-cd spectra were recorded in a 0.1-cm quartz cuvette at 0.13 mg/ml protein
+concentration. b and c, near-uv and visible-cd spectra were recorded in a 1-cm quartz cuvette at 1.2 mg/ml protein concentration. d, uv-visible
+spectra were recorded at 2.0 mg/ml. e, fluorescence emission spectra were recorded at 0.13 mg/ml protein concentration (295-nm excitation
+wavelength). mjshmt in 20 mm sodium phosphate, ph 7.2, is represented by solid lines and in 20 mm sodium formate, ph 3.0, is represented by
+dotted lines. all the spectra were recorded at 20 °c after 24 h incubation of the protein at the indicated ph values in the presence of 200 ␮m dtt
+and 100 ␮m edta.
+
+with respect to their bacterial and eukaryotic counterparts (3).
+shmt is characterized by very broad reaction and substrate
+specificities. in addition to its physiological hydroxymethyltransferase activity, this enzyme is able to catalyze, in the
+absence of the pteridine substrate, a number of different reactions such as the reatroaldol cleavage of ␤-hydroxyamino acids
+and the transamination of both alanine enantiomers (31). our
+results show that the catalytic properties of mjshmt match
+those of the enzyme purified from other sources and therefore
+confirm that the plp catalytic apparatus of shmt is substantially conserved throughout the kingdoms. a multiple sequence
+alignment of eubacterial and archaeal shmts (the numbering
+system is based on the amino acid sequence of eshmt) shows
+
+indeed that all residues interacting with plp are invariant
+(fig. 6): his126 and ala202, the residues that stack, respectively,
+to the re face and si face of plp, his129 and asn102, which
+appear to stabilize the crucial interaction between asp200 and
+the pyridinium nitrogen of plp, and his203 and ser 175, which
+interact with the phenol oxygen of plp pyridine ring. the
+residues involved in the binding of the amino acid substrates
+are also invariant: glu57, and tyr65, (the apostrophe indicates
+that the residues are contributed from the other subunit),
+which appear to interact with the hydroxyl group of the plpbound serine substrate, and arg363 and ser35, which bind to the
+␣-carboxylate of the substrates. on the other hand, the selectivity of mjshmt toward h4mpt reflects the presence of a
+
+serine hydroxymethyltransferase from methanococcus jannaschii
+
+specific binding site of the pteridine substrate and clearly represents a distinguishing feature. interestingly,  xxxd3334xxx  can
+also bind to mjshmt and take part to the hydroxymethyltransferase reaction, although 450-fold less efficiently than h4mpt.
+this suggests that significant differences between h4mpt-dependent and  xxxd3334xxx -dependent shmts may be limited to
+only the pteridine binding site. crystallographic studies have
+shown that the pteridine substrate binds to the enzyme from
+different eubacterial and eukaryotic sources with similar modalities, although the stoichiometry and subunit occupancy for
+
+the binding is different for each of the four structures solved so
+far (34, 35, 36, 38). asn347, which binds to n-1 and n-8 of
+ xxxd3334xxx , is probably the most important structural element
+in the pteridine ring recognition. another important interaction is made by tyr64, which stacks to the p-aminobenzoic acid
+ring of  xxxd3334xxx . other interactions are made by the backbone
+carbonyls of residues 121, 125, and 127. the portion of the
+active site that binds the pteridine ring, i.e. the moiety of the
+molecule that is similar in all different pteridine substrates, is
+expected to be structurally similar in all shmts. asn347 is
+indeed an invariant residue (fig. 6). tyr64 is present in all
+aligned sequences except those corresponding to shmt from
+methanogens, which have a leu residue at this position. however, this difference does not seem to be related to the nature of
+the pteridine substrate, because pyrococcus shmts use a modified folate whose pteridine ring is identical to that of h4mpt
+(2). identification of the residues responsible for the pteridine
+substrate specificity is actually difficult. apparent differences
+in the primary structure of shmts from methanogens that use
+h4mpt (note that methanosarcina shmt is an exception in
+methanogens, because it is  xxxd3334xxx -dependent (39)) with respect to the eubacterial and eukaryotic enzymes (fig. 6) may be
+related to the particular phylogenetic history of these organisms, rather than to a specific function. moreover, the available
+structures of shmt in complex with  xxxd3334xxx  derivatives do
+not give any clue of how the distinctive portion of the pteridine
+substrates may bind to the enzyme, and modeling studies did
+not locate structural elements involved in this specific binding
+(3).
+m. jannaschii is an obligate anaerobe and therefore it is
+expected that oxygen might affect the hydroxymethyltransferase reaction catalyzed by mjshmt. we tested the effect of
+oxygen by performing kinetic studies under both aerobic and
+anaerobic conditions and using either h4mpt or  xxxd3334xxx  as
+pteridine substrate. surprisingly, the presence of oxygen does
+not seem to affect significantly the kinetic parameters of the
+reaction.
+the temperature dependence of the enzyme activity in the
+allo- xxxg2069xxx  reaction shows that with either
+mjshmt or eshmt the saturation with substrate has a stabilizing effect (fig. 2a). this is in agreement with previously
+reported studies on the interactions of substrates and substrate
+analogues with cytosolic rabbit shmt, which suggested that
+the binding of ␤-hydroxyamino acids results in a conformational change of the enzyme (40). the activation energy of the
+allo- xxxg2069xxx  reaction calculated from the arrhenius
+plots appears to be the same for both enzymes. taken together,
+these results confirm that mjshmt is quite similar in several
+respects to the enzyme from mesophilic sources.
+notably, mjshmt is fairly resistant to denaturation. at ph
+3.0, the protein shows a global secondary structure content
+similar to the native dimeric form with a significant perturbation of the tertiary structure, as revealed by the near-uv and
+visible cd spectra and the plp fluorescence emission spectrum, accompanied by loss of the dimeric assembly. this finding may indicate that electrostatic interactions play a significant role in the stabilization of the dimer. the ⌬g of the
+monomer secondary structure unfolding is below the lowest
+limit reported for many globular proteins from mesophiles,
+whereas the transition midpoint is at 2.56 m denaturant, a
+value similar to that reported for the dimeric e. coli enzyme at
+neutral ph (41). this fact indicates that the monomeric protein
+can tolerate high concentrations of denaturant without showing a remarkable conformational stability at 20 °c. interestingly, the notable resistance of the enzyme against urea-induced denaturation is shown by the persistence of a significant
+
+downloaded from http://www.jbc.org/ by guest on october 15, 2019
+
+fig. 5. fluorescence emission spectra of m. jannaschii shmt.
+spectra were recorded at 2.7 mg/ml protein concentration with the
+excitation wavelength set at 320 nm (a) and 418 nm (b) in 20 mm
+sodium phosphate, ph 7.2 (solid lines), and in 20 mm formate, ph 3.0
+(dotted lines). the inset shows the fluorescence emission spectrum
+monitored at 0.2 mg/ml upon excitation at 285 nm. all the spectra were
+recorded at 20 °c.
+
+41795
+
+41796
+
+serine hydroxymethyltransferase from methanococcus jannaschii
+
+downloaded from http://www.jbc.org/ by guest on october 15, 2019
+
+fig. 6. multiple-sequence alignment of shmts from eubacterial and archaeal organisms. the multiple-sequence alignment was
+obtained employing the t-coffee server (37) at www.ch.embnet.org/software/tcoffee.html. dashes represent insertions or deletions. numbers
+above the sequences are relative to the sequence numbering of eshmt. amino acid one-letter code is used. the invariant residues are displayed
+in gray boxes. residues that appear to be invariant only in methanogens shmts that use h4mpt are in boldface and are indicated by a circle above
+the sequences (e). the name of the microorganisms selected for the sequence alignment and their swissprot accession numbers are as follows: mja,
+m. jannaschii q58992; mth, m. thermoautotrophicum o27433; mma, m. marburgensis p50436; mka, methanopyrus kandleri q8tz19; mac,
+methanosarcina acetivorans q8tk94;  xxxd2594xxx , methanosarcina mazei q8pzq0; pab, pyrococcus abyssi q9v1b2; pfu, pyrococcus furiosus q8u039;
+pho, pyrococcus horikoshii o59347; aae, aquifex aeolicus o66776; tma, thermotoga maritima q9wzh9; eco, escherichia coli p00477.
+
+serine hydroxymethyltransferase from methanococcus jannaschii
+amount of secondary structure in the presence of 10 m urea at
+ph 7.2. therefore, the monomeric state of mjshmt at ph 3.0
+should be considered a protein resistant against urea-induced
+denaturation rather than a stable protein (42).
+a recent structural comparison between shmt from mesophilic and thermophilic sources, carried out through the application of homology modeling, indicated that the thermal stability in shmt may be the result of the combination of an
+increased number of charged residues at the protein surface
+and an increased hydrophobicity at the protein core (3). the
+experimental results obtained with mjshmt agree with these
+hypotheses.
+acknowledgments—we thank professors verne schirch and rolf
+thauer for help during the writing of the manuscript and for helpful
+discussions. we are grateful to eprova ag, schaffhausen, switzerland,
+for kindly providing pure (6s)  xxxd3334xxx .
+references
+
+13. vorholt, j. a., chistoserdova, l., lidstrom, m. e., and thauer, r. k. (1998) j.
+bacteriol. 180, 5351–5356
+14. schirch, v., and peterson, d. (1980) j. biol. chem. 255, 7801–7806
+15. ulevitch, r. j., and kallen, r. g. (1977) biochemistry 16, 5342–5350
+16. shostak, k., and schirch, v. (1988) biochemistry 27, 8007– 8014
+17. henry, e. r., and hofrichter, j. (1992) methods enzymol. 210, 129 –192
+18. ionescu, r. m., smith, v. f., o’neill, j. c., jr., and matthews, c. r. (2000)
+biochemistry 39, 9540 –9550
+19. johnson, w. c., jr. (1992) methods enzymol. 210, 426 – 447
+20. santoro, m. m., and bolen, d. w. (1988) biochemistry 27, 8063– 8068
+21. chen, m. s., and schirch, l. (1973) j. biol. chem. 248, 7979 –7984
+22. schirch, l. v., and jenkins, t. (1964) j. biol. chem. 239, 3801–3806
+23. arrio-dupont, m. (1971) biochem. biophys. res. commun. 44, 653– 659
+24. bertoldi, m., cellini, b., clausen, t., and borri voltattorni, c. (2002) biochemistry 41, 9153–9164
+25. shaltiel, s., and cortijo, m. (1970) biochem. biophys. res. commun. 41,
+594 – 600
+26. deléage, g., and geourjon, c. (1993) comp. appl. biosci. 9, 197–199
+27. andrade, m. a., chacon, p., merelo, j. j., and moran, f. (1993) protein eng. 6,
+383–390
+28. sreerama, n., and woody, r. w. (1994) j. mol. biol. 242, 497–507
+29. rost, b. (1996) methods enzymol. 266, 525–539
+30. wyman, j., jr., and ingalls, e. n. (1943) j. biol. chem. 147, 297–318
+31. schirch, v. (1998) in comprehensive biological catalysis (sinnot, m., ed) vol.
+1, pp. 211–252, academic press, san diego, ca
+32. renwick, s. b., snell, k., and baumann, u. (1998) structure 6, 1105–1116
+33. scarsdale, j. n., kazanina, g., radaev, s., schirch, v., and wright, h. t.
+(1999) biochemistry 38, 8347– 8358
+34. scarsdale, j. n., radaev, s., kazanina, g., schirch, v., and wright, h. t.
+(2000) j. mol. biol. 296, 155–168
+35. szebenyi, d. m. e., xiaowen, l., kriksunov, i. a., stover, p., and thiel, d. j.
+(2000) biochemistry 39, 13313–13323
+36. trivedi, v., gupta, a., jala, v. r., saravanan, p., jagannatha rao, g. s.,
+appaji rao, n., savithri, h. s., and subramanya, h. s. (2002) j. biol. chem.
+277, 17161–17169
+37. notredame, c., higgins, d., and heringa, j. (2000) j. mol. biol. 302, 205–217
+38. fu, t. f., scarsdale, j. n., kazanina, g., schirch, v., and wright, h. t. (2003)
+j. biol. chem. 278, 2645–2653
+39. lin, z., and sparling, r. (1998) can. j. microbiol. 44, 652– 656
+40. schirch, v., shostak, k., zamora, m., and gautam-basak, m. (1991) j. biol.
+chem. 266, 759 –764
+41. cai, k., schirch, d., and schirch, v. (1995) j. biol. chem. 270, 19294 –19299
+42. myers j. k., pace, n. c., and scholtz, m. j. (1995) protein sci. 4, 2138 –2148
+
+downloaded from http://www.jbc.org/ by guest on october 15, 2019
+
+1. schirch, l. (1984) in folates and pterins (blakley, r. l., and benkovic, s. j.,
+eds) vol i, pp. 399 – 431, john wiley & sons, inc., new york
+2. maden, b. e. (2000) biochem. j. 350, 509 –529
+3. paiardini, a., gianese, g., bossa, f., and pascarella, s. (2003) proteins 50,
+122–134
+4. hoyt, j. c., oren, a., escalante-semerena, j. c., and wolfe, r. s. (1986) arch.
+microbiol. 145, 153–158
+5. wasserfallen, a., nolling, j., pfister, p., reeve, j., and conway de macario, e.
+(2000) int. j. syst. evol. microbiol. 50, 43–53
+6. delle fratte, s., white, r. h., maras, b., bossa, f., and schisch, v. (1997) j.
+bacteriol. 179, 7456 –7461
+7. white, r. h. (1991) j. bacteriol. 173, 1987–1991
+8. schirch, v., hopkins, s., villar, e., and angelaccio, s. (1985) j. bacteriol. 163,
+1–7
+9. fu, t. f., di salvo, m., and schirch, v. (2001) anal. biochem. 290, 359 –365
+10. gill, s. c., and von hippel, p. h. (1989) anal. biochem. 182, 319 –326
+11. schuck, p., and rossmanith, p., (2000) biopolymers 54, 328 –341
+12. johnson, m. l., correia, j. j., yphantis, d. a., and halvorson, h. r. (1981)
+biophys. j. 36, 575–588
+
+41797
+
+catalytic and thermodynamic properties of tetrahydromethanopterin-dependent
+serine hydroxymethyltransferase from methanococcus jannaschii
+sebastiana angelaccio, roberta chiaraluce, valerio consalvi, bärbel buchenau, laura
+giangiacomo, francesco bossa and roberto contestabile
+j. biol. chem. 2003, 278:41789-41797.
+doi: 10.1074/jbc.m306747200 originally published online august 5, 2003
+
+access the most updated version of this article at doi: 10.1074/jbc.m306747200
+alerts:
+• when this article is cited
+• when a correction for this article is posted
+
+this article cites 41 references, 12 of which can be accessed free at
+http://www.jbc.org/content/278/43/41789.full.html#ref-list-1
+
+downloaded from http://www.jbc.org/ by guest on october 15, 2019
+
+click here to choose from all of jbc's e-mail alerts
+

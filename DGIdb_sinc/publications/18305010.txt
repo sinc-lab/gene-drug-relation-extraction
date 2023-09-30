@@ -1,0 +1,2719 @@
+0022-3565/08/3253-1039–1060$20.00
+the journal of pharmacology and experimental therapeutics
+copyright © 2008 by the american society for pharmacology and experimental therapeutics
+jpet 325:1039–1060, 2008
+
+vol. 325, no. 3
+136960/3335355
+printed in u.s.a.
+
+two-state models and the analysis of the allosteric effect of
+ xxxd2174xxx  at the m2 muscarinic receptor
+frederick j. ehlert and michael t. griffin
+department of pharmacology, school of medicine, university of california, irvine, california (f.j.e.); and department of
+physical sciences, chapman university, orange, california (m.t.g.)
+received january 22, 2008; accepted february 26, 2008
+
+a variety of drugs have been shown to modulate the binding of ligands allosterically to the primary recognition site
+(orthosteric site) of muscarinic receptors (stockton et al.,
+1983; birdsall and lazareno, 2005). allosterism is often analyzed within the context of the allosteric ternary complex
+model as shown in fig. 1b, which illustrates that both orthosteric and allosteric ligands bind to their respective sites on
+the same receptor with dissociation constants of kx and ka,
+respectively (stockton et al., 1983; ehlert, 1988a). when both
+ligands are bound to the receptor, their observed dissociation
+constants (kobs) are modified by the factor ␣, which is a
+measure of the cooperativity between the binding of the two
+ligands. by considering that the ternary complex ( xxxd3000xxx )
+might have an altered intrinsic efficacy (epsilon⬘) compared to that
+of the binary (xr) complex (epsilon), it is possible to measure
+allosteric modulation of intrinsic efficacy in functional experiments (ehlert, 1988a, 2005).
+we can also consider the allosteric model at a deeper level
+
+this work was supported by a national institutes of health grant gm
+69829 (to f.j.e.).
+article, publication date, and citation information can be found at
+http://jpet.aspetjournals.org.
+doi:10.1124/jpet.108.136960.
+
+count for affinity-only modulation, even if multiple conformations of ground and active states were considered. we also
+expanded the tandem two-site model (j biol chem 275:18836 –
+18844, 2000) within the context of the allosteric ternary complex model and analyzed the resulting hybrid model at the level
+of receptor states. this model posits that the agonist first binds
+to a relay site and then shuttles to the activation site to turn on
+the receptor. if it is assumed that allosterism occurs at the relay
+site and not the activation site, then this model can account for
+affinity-only modulation in a manner consistent with the allosteric ternary complex model.
+
+of analysis and examine how the allosteric ligand changes
+the affinity and intrinsic efficacy of the orthosteric ligandreceptor complex. the two-state allosteric model described
+mathematically in fig. 1c and schematically in fig. 2a is the
+simplest way to address this question. if the orthosteric and
+allosteric ligands exhibit the same preference for the ground
+and active states, then the interaction is positively cooperative (␣ ⬎ 1), whereas if the ligands exhibit the opposite
+selectivity, the interaction is negatively cooperative (0 ⬍ ␣ ⬍
+1). predictions from this model include a correlation between
+the quality (negative or positive) and magnitude of the cooperativity and the intrinsic efficacy of the orthosteric ligandreceptor complex. in addition, if the orthosteric ligand lacks
+sufficient intrinsic efficacy to activate the receptor completely at 100% occupancy in both the absence and presence
+of the allosteric modulator, the modulation in affinity occurs
+with a simultaneous modulation in the proportion of receptors in the active state at 100% receptor occupancy (i.e.,
+efficacy modulation). heteromeric gabaa receptor subtypes
+exhibit many of the predictions of the two-state allosteric
+model with regard to benzodiazepines and other allosteric
+modulators (ehlert et al., 1983; levitan et al., 1988; sigel and
+baur, 1988).
+
+abbreviations: bm5, n-methyl-n- (1-methyl-4-pyrrolidino-2-butynyl)  xxxd63xxx ; cho, chinese hamster ovary;  xxxg448xxx , human m2 muscarinic
+receptor; 4-damp mustard, n-(2-chloroethyl)-4-piperidinyl diphenyl acetate; ac-42, 4-n-butyl-1-[4-(2-methylphenyl)-4-oxo-1-butyl]-piperidine);
+dmem, dulbecco’s modified eagle’s medium; ec50, concentration of agonist eliciting half-maximal response; krb, krebs-ringer bicarbonate;
+mcn-a-343, [4-[[n-(3-chlorophenyl)carbamoyl]oxy]-2-butynyl]trimethylammonium; nms, n-methylscopolamine.
+1039
+
+downloaded from jpet.aspetjournals.org at aspet journals on march 16, 2015
+
+abstract
+we measured the influence of  xxxd2174xxx  on the functional responses and binding properties of selected agonists at the m2
+muscarinic receptor and analyzed the data within the context of
+the allosteric ternary complex model. our analysis showed that
+ xxxd2174xxx  modified agonist affinity without influencing efficacy.
+to explain this behavior, we investigated the allosteric ternary
+complex model at a deeper level of analysis to assess allosterism in terms of the differential affinity of  xxxd2174xxx  for ground
+and active states of the receptor. our simulations showed that
+two-state models based on a single orthosteric site for the
+agonist linked to an allosteric site for  xxxd2174xxx  could not ac-
+
+1040
+
+ehlert and griffin
+
+the neuromuscular blocking agent  xxxd2174xxx  has been
+shown to inhibit both functional responses and binding properties of orthosteric muscarinic ligands at the m2 muscarinic
+receptor allosterically (clark and mitchelson, 1976; stockton
+et al., 1983; ehlert, 1988b; lazareno and birdsall, 1995). so
+far, only parallel shifts have been reported for the effect of
+ xxxd2174xxx  on the concentration-response curves of agonists,
+including the partial agonist bm5, suggesting that  xxxd2174xxx 
+modifies the affinity of agonists without influencing their
+intrinsic efficacy. in contrast, strychnine (lazareno and birdsall, 1995) and alcuronium (zahn et al., 2002) have been
+shown to reduce both the potency and maximal responses of
+muscarinic agonists through an allosteric mechanism. it has
+been shown that the allosteric shift in the concentrationresponse curve of a full agonist for eliciting a downstream
+response is equivalent to the product of the change in affinity
+(p, eq. 9) and efficacy (q, eq. 10) caused by the modulator
+(ehlert, 1988a, 2005). when the modulator is present at a
+maximally effective concentration, these changes in observed
+affinity and intrinsic efficacy are equivalent to the cooperativity constants ␣ and ␤ (see appendix). if  xxxd2174xxx  only
+modulates the affinity of muscarinic agonists, its effect on the
+potency of an agonist for eliciting a response should be equivalent to its effect on binding affinity.
+in the present report, we have tested this postulate and
+found that  xxxd2174xxx  only modulates the affinity of a group of
+agonists. we show that this behavior is inconsistent with a
+simple two-state allosteric model (figs. 1c and 2a) as well as
+a more complex one exhibiting two ground and two active
+conformations of the receptor (fig. 2b). given that studies on
+mutagenesis (matsui et al., 1995; hulme et al., 2003) and the
+
+fig. 2. expansion of the allosteric ternary complex model into various
+two-state models. a, simple two-state model. the receptor complex exists
+in two states, inactive and active. in the absence of ligands, the inactive
+state of the receptor predominates. agonists and positive allosteric modulators bind to their respective orthosteric and allosteric sites and exhibit
+selectivity for the active state, whereas negative modulators exhibit selectivity for the inactive state. b, complex two-state model. the receptor
+complex exists in two states, inactive and active, each with two different
+conformations. in the absence of ligands, the two conformations of the
+inactive state of the receptor predominate. agonists and positive allosteric modulators bind to their respective orthosteric and allosteric sites and
+exhibit selectivity for the active conformations, whereas negative modulators exhibit selectivity for the inactive conformations. c, tandem twosite, two-state model. the receptor complex has a superficially located
+relay site (s1) that directs the agonist to the activation site (s2). the relay
+site exists in two conformations that are linked to an allosteric binding
+site. positive allosteric modulators select for a conformation that exhibits
+high affinity for the orthosteric ligand and negative allosteric modulators
+select for a conformation that exhibits low affinity for the orthosteric
+ligand. the activation site exists in two states, inactive and active, which
+undergo conformational changes independently of the relay site. in the
+absence of an orthosteric ligand, the inactive state predominates. agonists exhibit selectivity for the active state.
+
+kinetics of ligand binding (jakubik et al., 2000) suggest the
+presence of an accessory site on the muscarinic receptor that
+relays the orthosteric ligand to the primary activation site,
+we have considered allosterism based on the tandem two-site
+model of jakubik et al. (2000) (fig. 2c). we show that this
+model can account for the selective modulation of agonist
+affinity by  xxxd2174xxx  if it is assumed that allosterism occurs
+at the relay site and not the activation site. although the
+three models examined (fig. 2) differ at the level of receptor
+states, they are all consistent at the level of receptor complexes, illustrating the usefulness of the simple allosteric
+model (fig. 1b) in quantifying allosteric modulation.
+
+downloaded from jpet.aspetjournals.org at aspet journals on march 16, 2015
+
+fig. 1. hierarchical levels of analysis and the simple two-state model for
+allosterism. a, on the surface, the binding of drug d to the receptor is
+consistent with a simple one-site model characterized by kobs. b, at the
+second level of analysis, the bound drug can be divided into two types of
+complexes, a binary drug-receptor complex (dr) and a ternary drugreceptor-modulator complex (dra), exhibiting microscopic affinity constants of k1 and ␣k1, respectively. the concentration of d required for
+half-maximal formation of each complex is equivalent to kobs. c, at the
+third level of analysis, each type of receptor complex can be further
+divided into two states, ground (r) and active (r*), each exhibiting a
+unique, unvarying microscopic affinity constant. the concentration of d
+required for half-maximal formation of the two states of each of the two
+types of drug receptor complexes is equivalent to kobs.
+
+1041
+
+allosteric modulation of the muscarinic  xxxg448xxx 
+
+materials and methods
+
+b⫽
+
+xbmax
+x ⫹ kobs⫺nms
+
+(1)
+
+in which x denotes the concentration of [3h]nms. the data for the
+inhibition of the binding of a fixed concentration of [3h]nms by
+various concentration of  xxxd2174xxx  (a) were fitted to the following
+equation by nonlinear regression analysis (ehlert, 1988a):
+
+b ⫽ yo
+
+冢
+
+冣
+
+1 ⫺ y⬘
+⫹ y⬘
+a
+1⫹
+a50
+
+(2)
+
+in which yo denotes the maximal amount of [3h]nms bound in the
+absence of  xxxd2174xxx , y⬘ denotes the fractional estimate of the residual [3h]nms bound at maximally effective concentration of  xxxd2174xxx , and a50 denotes the concentration of  xxxd2174xxx  causing half
+of its maximal effect. as described previously (ehlert, 1988a), the
+estimate of the cooperativity (␣) for the interaction between  xxxd2174xxx  and [3h]nms can be calculated from the following equation:
+
+␣nms ⫽
+
+y⬘
+1 ⫹  xxxg107xxx ⫺nms 共1 ⫺ y⬘兲
+
+(3)
+
+in which k1-nms denotes the affinity constant of [3h]nms for its site
+on the muscarinic receptor in the absence of  xxxd2174xxx . the constant
+k1 has units of inverse molarity and is equivalent to the reciprocal of
+kobs-nms value measured in the absence of  xxxd2174xxx . in eq. 3, a
+value of ␣ greater than 1 denotes positive cooperativity, whereas a
+value between 1 and 0 denotes negative cooperativity. thus, the
+definition of ␣ in this study is equivalent to the reciprocal of that
+described in ehlert (1988a). the estimate of the affinity constant of
+ xxxd2174xxx  for it binding site in the absence of nms (k2) can be
+calculated as described previously:
+
+k2 ⫽
+
+xk1⫺nms ⫹ 1
+共x␣nms k1⫺nms ⫹ 1兲 a50
+
+(4)
+
+as described above for k1, k2 also has units of inverse molarity.
+the agonist/[3h]nms competition curves were analyzed by nonlinear regression analysis according to the following equation to estimate the concentration of agonist causing half-maximal inhibition of
+specific [3h]nms binding (ic50):
+
+b ⫽ yo
+
+冢
+
+1⫹
+
+1
+dh
+ic50h
+
+冣
+
+(5)
+
+in which d denotes the concentration of agonist and h denotes the
+hill slope. for those experiments in which the agonist/[3h]nms
+competition curve was measured in the absence of  xxxd2174xxx , the
+ic50 value was corrected for the competitive effect of nms to yield
+the affinity constant for the agonist (k1-d) (cheng and prusoff, 1973):
+
+k 1⫺d ⫽
+
+1 ⫹ k1⫺nms 关关3h兴nms兴
+ic50
+
+(6)
+
+the cooperativity between the binding of agonist and  xxxd2174xxx 
+(␣d) was estimated from the agonist/[3h]nms competition curve
+measured in the presence of  xxxd2174xxx  using the following equation,
+which is derived from eq. 54 under the appendix:
+
+␣d ⫽
+
+冉
+
+冊
+
+1 1 ⫺ r 1 ⫹ ␣nms 关关3h兴 nms兴k1⫺nms
+⫹
+r  xxxg108xxx 
+1 ⫹ 关关3h兴 nms兴 k1⫺nms
+
+(7)
+
+downloaded from jpet.aspetjournals.org at aspet journals on march 16, 2015
+
+cell culture. chinese hamster ovary cells stably expressing the
+human m2 muscarinic receptor (cho  xxxg448xxx  cells) were obtained from
+acadia pharmaceuticals (san diego, ca) and cultured in dulbecco’s
+modified eagle’s medium (dmem), with high glucose plus l-glutamine, supplemented with 10% fetal calf serum, sodium bicarbonate (3.7 g/l), and penicillin-streptomycin (100 u/ml) containing  xxxg418xxx 
+(0.3 mg/ml) at 37°c in a humidified atmosphere with 5% co2.
+ xxxd1773xxx  accumulation. muscarinic agonist-mediated inhibition of  xxxd1742xxx -stimulated camp accumulation was measured in
+cho  xxxg448xxx  cells using a modification of the [3h]adenine-prelabeling
+method of schultz et al. (1972) and the chromatography procedure of
+salomon et al. (1974). confluent cell monolayers grown in t75 flasks
+were washed with dmem and then incubated in 9 ml of dmem
+containing [3h]adenine (60 ␮ci) and adenine (3 ␮m) for 1 h at 37°c
+in 5% co2. cells were washed twice with dmem and harvested
+using trypsin. the resulting intact cell suspensions were centrifuged
+for 10 min at 350g, suspended in krebs-ringer bicarbonate buffer
+(krb buffer; 124 mm nacl, 5 mm kcl, 1.3 mm mgcl2, 26 mm
+nahco3, 1.2 mm kh2po4, 1.8 mm cacl2, and 10 mm glucose) at ph
+7.4 and centrifuged for a second time. cells were suspended in krb
+buffer containing  xxxd2388xxx  (0.5 mm) and incubated
+for an additional 10 min at 37°c before use in the camp assay.
+muscarinic agonist-mediated inhibition of camp accumulation was
+carried out in plastic tubes containing intact cells,  xxxd1742xxx  (10 ␮m),
+ xxxd2388xxx  (0.5 mm), and various concentrations of
+muscarinic agonist in a final volume of 0.35 ml of krb buffer. tubes
+were incubated at 37°c for 12 min in a water bath. the reaction was
+started by the addition of cells and was stopped by the addition of an
+aliquot (0.2 ml) of ice-cold 30% (w/v) trichloroacetic acid. after at
+least 30 min on ice, the tubes were centrifuged for 10 min at 3000g,
+and an aliquot (0.5 ml) from each tube was applied to a column of 1.5
+ml of dowex (ag-50w-x4, 200 – 400 mesh; sigma-aldrich, st. louis,
+mo) and washed with two aliquots of water (1.25 ml each) to remove
+[3h]atp. the [3h]camp was eluted onto a column of neutral alumina (0.6 g) with 4 ml of water and then eluted into scintillation vials
+with 4 ml of 0.1 m imidazole hcl, ph 7.5. the samples were counted
+by liquid scintillation spectroscopy.
+intact cell binding assay. muscarinic receptor binding was
+measured using [3h]n-methylscopolamine ([3h]nms, 80 ci/mmol;
+perkinlife and analytical sciences, boston, ma). cho  xxxg448xxx  cells
+were harvested as described above for the camp assay. cells were
+suspended in an appropriate amount of krb buffer, such that specific [3h]nms binding never exceeded 20% of the total amount of
+added [3h]nms. for agonist/[3h]nms competitive binding assays
+measured in the absence and presence of  xxxd2174xxx  (10 ␮m), cell
+suspensions were incubated for 15 min at 37°c in 1.0 ml of krb
+buffer containing [3h]nms (1.0 nm) and various concentrations of
+agonist. preliminary experiments in the absence and presence of
+ xxxd2174xxx  (10 ␮m) showed that the competition curves were unaffected by a change in the incubation time from 10 to 30 min; consequently, we chose 15 min as our standard incubation time for these
+experiments. in some experiments with  xxxd215xxx , we measured
+binding in the presence of 100 ␮m  xxxd2174xxx . for these experiments,
+we extended the incubation to 90 min (the control competition curve
+was also incubated for 90 min), because we found that a shorter
+incubation underestimated the effect of  xxxd2174xxx , whereas a longer,
+3-h incubation yielded results similar to the 90-min incubation period. a 2-h incubation was used in experiments investigating the
+influence of various concentrations of  xxxd2174xxx  on the binding of
+[3h]nms. the incubation with [3h]nms was always started by the
+addition of cells. all assays were run in triplicate, and nonspecific
+binding was defined as the residual binding in the presence of 10 ␮m
+atropine. specific [3h]nms binding was trapped by rapid filtration
+on whatman glass fiber filters (g/fb) (whatman, clifton, nj) using
+a cell harvester (brandel, gaithersburg, md). the filters were rinsed
+with three aliquots (4 ml each) of ice-cold saline and counted.
+
+analysis of biological data. the observed dissociation constant
+of [3h]nms (kobs-nms) was estimated from the results of equilibrium
+measurements of the specific binding (b) at various concentrations of
+the radioligand. to estimate kobs-nms, the following equation was
+fitted to the data by nonlinear regression analysis:
+
+1042
+
+ehlert and griffin
+
+in this equation r denotes the ratio of the ic50 value of the agonist
+measured in the presence of  xxxd2174xxx  divided by that measured in
+its absence.
+drug and chemicals. drugs and chemicals were obtained from
+the following sources: [3h]adenine and [3h]nms were from
+perkinelmer life and analytical sciences (boston, ma); dmem and
+trypsin-edta were from invitrogen (carlsbad, ca); acetylcholine,
+atropine, carbachol, and  xxxd2174xxx  were from sigma-aldrich; and
+oxotremorine-m was from (sigma rbi, natick, ma). the compound
+4-damp mustard was synthesized as described previously (thomas
+et al., 1992).
+
+results
+biological assays
+
+fig. 3. the influence of  xxxd2174xxx  on the specific binding of [3h]nms to
+the human m2 muscarinic receptor stably expressed in cho cells. a, the
+specific binding of [3h]nms was measured at various concentrations of
+radioligand and in the absence and presence of  xxxd2174xxx  (10 ␮m). the
+data represent the mean binding values ⫾ s.e.m. of four experiments,
+each done in triplicate. b, the specific binding of [3h]nms was measured
+at a fixed concentration (0.5 nm) in the presence of various concentrations
+of  xxxd2174xxx . the data represent the mean binding values ⫾ s.e.m. of
+three experiments, each done in triplicate.
+
+downloaded from jpet.aspetjournals.org at aspet journals on march 16, 2015
+
+influence of  xxxd2174xxx  on the binding of [3h]nms.
+the influence of a single concentration of  xxxd2174xxx  (10 ␮m)
+on the equilibrium binding of [3h]nms in intact cho cells
+stably expressing the human m2 muscarinic receptor is
+shown in fig. 3a. in the absence of  xxxd2174xxx , the [3h]nms
+saturation curve was consistent with a simple one-site model
+having a binding capacity of 64 fmol per assay and an observed dissociation constant of 0.144 nm (1/k1). in the presence of  xxxd2174xxx , the observed dissociation constant of
+[3h]nms increased 8.3-fold to 1.20 nm without a significant
+effect on binding capacity (f1,44 ⫽ 1.5; p ⫽ 0.23). we also
+measured the influence of various concentrations of gal-
+
+lamine on the binding of [3h]nms at a fixed concentration
+(see fig. 3b).  xxxd2174xxx  caused a concentration-dependent
+inhibition of [3h]nms binding with the ic50 for this effect
+being 1.97 ␮m. over the concentration range investigated,
+ xxxd2174xxx  did not fully displace specific [3h]nms binding,
+but rather the binding reached a plateau of 21% at high
+concentrations of  xxxd2174xxx . knowing this plateau value and
+the equilibrium dissociation constant of [3h]nms, it is possible to estimate a cooperativity value ␣ of 0.060 for the
+interaction between [3h]nms and  xxxd2174xxx  using eq. 3. it is
+also possible to estimate the dissociation constant of  xxxd2174xxx  in the absence of [3h]nms using eq. 4 and the estimates of k1 and ␣. all of these parameter estimates are listed
+in table 1. these results are consistent with the findings of
+others (stockton et al., 1983).
+influence of  xxxd2174xxx  on the binding of agonists.
+we also investigated the influence of  xxxd2174xxx  on the binding affinities of the muscarinic agonists, acetylcholine,
+s-aceclidine, carbachol, and oxotremorine-m in cho cells
+stably expressing the human m2 muscarinic receptor. for
+these experiments, we measured the competitive inhibition
+of the binding of [3h]nms at a fixed concentration (approximately 1 nm) by increasing concentrations of the agonists.
+we also repeated these experiments in the presence of a fixed
+concentration of  xxxd2174xxx  (10 ␮m). the results of these
+experiments are shown in fig. 4 where the agonist curves
+have been scaled to the maximal binding observed in the
+absence of agonist. this maximal binding value was inhibited
+approximately 64% in the presence of  xxxd2174xxx  (10 ␮m). the
+competition curves were consistent with a simple one-site
+model having a hill slope of approximately 1.  xxxd2174xxx 
+shifted the agonist/[3h]nms competition curves to the right
+approximately 4-fold for each agonist. the ic50 values and
+hill slopes for these competition curves are listed in table 2.
+the ic50 value measured in the absence of  xxxd2174xxx  was
+corrected for the competitive effect of [3h]nms using eq. 6 to
+yield the true affinity constants of the agonists, and these
+estimates are listed in table 1. with knowledge of the shift in
+the competition curve caused by  xxxd2174xxx  as well as the
+binding parameters of [3h]nms and  xxxd2174xxx  (see table 1),
+it is possible to estimate the cooperativity constant (␣) for the
+allosteric interaction between  xxxd2174xxx  and the agonists
+using eq. 7. these cooperativity estimates are listed in table
+1. compared to [3h]nms, which exhibited a 17-fold reduction
+in affinity for the  xxxd2174xxx  occupied receptor compared to
+the free receptor, the corresponding reduction in affinity for
+agonists was approximately 100-fold.
+we also investigated the influence of  xxxd2174xxx  at three
+concentrations (3, 10, and 100 ␮m) on the binding of  xxxd215xxx  (fig. 4e). for the data obtained in the presence of 100 ␮m
+ xxxd2174xxx  as well as a paired set of control binding measurements, we extended the incubation time to 90 min to ensure
+that equilibrium was achieved as explained under materials
+and methods. the data were calculated as described in the
+previous paragraph. the ic50 values of the control inhibition
+curve and those measured in the presence of 10 ␮m  xxxd2174xxx  are listed in table 2, and the average estimates of k1
+and cooperativity constant (␣) for the interaction between
+ xxxd2174xxx  and  xxxd215xxx  are listed in table 1.
+influence of  xxxd2174xxx  on the functional response
+of agonists. we also investigated the influence of  xxxd2174xxx 
+(10 ␮m) on the functional responses to the same muscarinic
+
+allosteric modulation of the muscarinic  xxxg448xxx 
+
+1043
+
+table 1
+binding parameters of muscarinic ligands at the human m2 muscarinic receptora
+ligand
+
+orthosteric site (log k1)
+
+关 h兴nms
+ xxxd2174xxx 
+acetylcholine
+s-aceclidine
+ xxxd215xxx 
+carbachol
+oxotremorine-m
+
+9.84 ⫾ 0.038
+
+3
+
+5.93 ⫾ 0.073
+4.75 ⫾ 0.029
+4.66 ⫾ 0.014
+5.12 ⫾ 0.062
+5.67 ⫾ 0.077
+
+allosteric site (log k2)
+
+6.25 ⫾ 0.064
+
+cooperativity with gallamineb (␣)
+
+0.065 (⫺1.19 ⫾ 0.050)
+0.013 (⫺1.88 ⫾ 0.10)
+0.048 (⫺1.32 ⫾ 0.13)
+0.0058 (⫺2.23 ⫾ 0.16)
+0.0090 (⫺2.05 ⫾ 0.12)
+0.0082 (⫺2.09 ⫾ 0.12)
+
+a
+the data are calculated from the experiments shown in figs. 3 and 4. the number of experiments is given in the appropriate figure legends. the data represent mean
+values ⫾ s.e.m. the s.e.m. values of the agonist parameters were calculated assuming constant values for k2, the k1 of 关3h兴nms, and ␣ value for the  xxxd2174xxx -关3h兴nms
+interaction.
+b
+the values in parentheses next to each estimate represent the log mean ⫾ s.e.m.
+
+agonists in cho cells stably transfected with the human m2
+muscarinic receptor. in these assays, we measured agonistmediated inhibition of  xxxd1742xxx -stimulated camp accumulation (fig. 5) under conditions that were nearly identical to
+those of the binding assay. each agonist caused a concentration-dependent inhibition of camp accumulation, with the
+maximal effect reaching a plateau at approximately 65%
+inhibition. in the presence of  xxxd2174xxx  (10 ␮m), the inhibition curves shifted to the right approximately 14-fold, without a significant effect on the maximal inhibition [p values of
+
+0.40, 0.92, 0.95, 0.74, and 0.22 for the lack of effect of  xxxd2174xxx  on the emax values of acetylcholine, s-aceclidine,
+ xxxd215xxx , carbachol, and oxotremorine-m, respectively
+(paired t test)]. we also investigated two additional concentrations of  xxxd2174xxx  (3 and 100 ␮m) on the inhibition of
+camp accumulation elicited by  xxxd215xxx . a summary of the
+influence of  xxxd2174xxx  on the ec50 and emax values of the
+agonists is given in table 3.
+it is possible that an allosteric-mediated reduction in agonist efficacy could be manifest without a change in the emax
+
+downloaded from jpet.aspetjournals.org at aspet journals on march 16, 2015
+
+fig. 4. the influence of  xxxd2174xxx  on
+agonist/[3h]nms binding competitive
+binding curves. the specific binding of
+[3h]nms was measured at a fixed
+concentration (0.9 nm) in the absence
+and presence of various concentrations of acetylcholine (a), carbachol
+(b), oxotremorine-m (c), s-aceclidine
+(d), and  xxxd215xxx  (e). the experiments were repeated in the presence
+of the indicated concentrations of  xxxd2174xxx . the competition curves have
+been scaled to the maximal specific
+binding measured in the absence of
+agonist. the data represent the mean
+binding values ⫾ s.e.m. of five (a– c)
+and three (d, e) experiments, each
+done in triplicate.
+
+1044
+
+ehlert and griffin
+
+table 2
+competitive inhibition of the binding of 关3h兴nms to human m2 muscarinic receptors by muscarinic agonists in the presence and absence of
+ xxxd2174xxx  (10 ␮m)a
+ xxxd2174xxx  (10 ␮m)
+
+control
+
+acetylcholine
+s-aceclidine
+ xxxd215xxx 
+carbachol
+oxotremorine-m
+a
+b
+
+pic50b
+
+hill slope
+
+pic50b
+
+hill slope
+
+5.07 ⫾ 0.073
+3.87 ⫾ 0.029
+3.71 ⫾ 0.014
+4.27 ⫾ 0.062
+4.82 ⫾ 0.077
+
+0.99 ⫾ 0.032
+0.91 ⫾ 0.054
+0.95 ⫾ 0.050
+0.98 ⫾ 0.039
+0.90 ⫾ 0.054
+
+4.52 ⫾ 0.071
+3.51 ⫾ 0.050
+3.33 ⫾ 0.028
+3.69 ⫾ 0.071
+4.23 ⫾ 0.062
+
+1.09 ⫾ 0.026
+0.93 ⫾ 0.089
+1.1 ⫾ 0.012
+1.00 ⫾ 0.046
+0.96 ⫾ 0.032
+
+the data are calculated from the experiments shown in fig. 4. the number of experiments is given in the legend to fig. 4. the data represent mean values ⫾ s.e.m.
+denotes the negative logarithm of the molar ic50 value.
+
+of the agonist, if the agonist is highly efficacious and elicits a
+maximal response at a submaximal level of receptor occupancy. to explore this issue, we treated cho cells with
+cyclized 4-damp mustard [40 nm for 30 min; see thomas et
+al. (1992)] to inactivate a portion of the m2 muscarinic receptor (fig. 5f). after washing the cells, we measured oxotremorine-m-mediated inhibition of  xxxd1742xxx -stimulated camp accumulation in control and 4-damp mustard-treated cells.
+treatment with 4-damp mustard caused a reduction in the
+potency of oxotremorine-m (control, pec50 ⫽ 6.67; 4-damp
+mustard-treated, pec50 ⫽ 6.05) and a decrease in the maximal response to 38% inhibition of camp accumulation (control emax ⫽ 56%). analysis of these data by the operational
+model yielded estimates of the negative logarithm of the
+dissociation constant of oxotremorine-m (pkobs ⫽ 6.03 ⫾
+0.27) and the proportion of residual receptors not inactivated
+by 4-damp mustard (0.3 ⫾ 0.09) (black and leff, 1983). we
+
+also measured the effects of  xxxd2174xxx  (10 and 100 ␮m) on
+the response to oxotremorine-m after 4-damp mustard
+treatment; these results are summarized in table 3.  xxxd2174xxx  caused parallel dextral shifts in the concentrationresponse curves of oxotremorine-m without affecting the
+maximal response (p values of 0.97 and 0.45 for the lack of
+effect of 10 and 100 ␮m  xxxd2174xxx  on the emax, respectively).
+comparison of the effects of  xxxd2174xxx  in binding
+and functional assays. the influence of  xxxd2174xxx  on the
+response to an agonist can be attributed to a change in the
+affinity or the intrinsic efficacy of the agonist-receptor complex or some combination thereof. for a highly efficacious
+agonist exhibiting a receptor reserve for the response at
+ec50, the allosteric shift in the agonist concentration-response curve is equivalent to the product of the affinity and
+intrinsic efficacy of the agonist in the presence of the modulator expressed relative to that measured in the absence of
+
+downloaded from jpet.aspetjournals.org at aspet journals on march 16, 2015
+
+fig. 5. the influence of  xxxd2174xxx  on
+agonist-mediated inhibition of  xxxd1742xxx -stimulated camp accumulation in
+cho cells stably expressing the human m2 muscarinic receptor. cyclic
+amp accumulation was measured in
+the presence of a fixed concentration
+of  xxxd1742xxx  (10 ␮m) in the absence
+and presence of various concentrations of acetylcholine (a), carbachol
+(b), oxotremorine-m (c), s-aceclidine
+(d),  xxxd215xxx  (e), and oxotremorine-m,
+before and after treatment with
+4-damp mustard (f). the experiments were repeated in the presence
+of the indicated concentrations of  xxxd2174xxx . the data represent the mean
+values ⫾ s.e.m. of four experiments,
+each done in triplicate.
+
+allosteric modulation of the muscarinic  xxxg448xxx 
+
+1045
+
+table 3
+summary of the effects of  xxxd2174xxx  on the function (inhibition of camp) and binding affinity of muscarinic agonistsa
+maximal inhibition of camp
+
+pec50
+
+observed log shift
+
+predicted log shift binding datab
+
+1.22 ⫾ 0.087
+
+1.19 ⫾ 0.025
+
+1.12 ⫾ 0.11
+
+1.01 ⫾ 0.066
+
+0.59 ⫾ 0.17
+1.28 ⫾ 0.079
+1.99 ⫾ 0.18
+
+0.79 ⫾ 0.092
+1.22 ⫾ 0.041
+2.02 ⫾ 0.069
+
+1.08 ⫾ 0.062
+
+1.21 ⫾ 0.029
+
+1.14 ⫾ 0.059
+1.94 ⫾ 0.094
+
+1.22 ⫾ 0.025
+1.86
+
+%
+
+61 ⫾ 2.8
+
+7.30 ⫾ 0.067
+
+66 ⫾ 3.9
+
+6.16 ⫾ 0.049
+
+60 ⫾ 1.3
+
+5.99 ⫾ 0.059
+
+60 ⫾ 3.5
+
+4.89 ⫾ 0.18
+
+46 ⫾ 4.1
+
+6.09 ⫾ 0.084
+
+47 ⫾ 3.5
+46 ⫾ 3.3
+42 ⫾ 4.9
+
+5.55 ⫾ 0.12
+4.82 ⫾ 0.15
+4.07 ⫾ 0.21
+
+65 ⫾ 2.3
+
+6.40 ⫾ 0.069
+
+64 ⫾ 1.7
+
+5.32 ⫾ 0.018
+
+67 ⫾ 4.4
+
+7.06 ⫾ 0.087
+
+72 ⫾ 1.4
+
+5.92 ⫾ 0.043
+
+a
+the predicted log shift has been calculated from the binding data shown in figs. 3 and 4 and table 1. the s.e.m. values for the theoretical log shift in binding affinity
+were estimated assuming constant values for k2, the k1 of 关3h兴nms, and ␣ value for the  xxxd2174xxx -关3h兴nms interaction.
+
+the modulator (ehlert (2005). thus, by comparing the total
+effect of  xxxd2174xxx  in a functional assay (change in affinity
+and efficacy), with its effect on observed affinity in a binding
+assay (change in affinity only), it should be possible to dissect
+out its modulatory effects on the affinity and intrinsic efficacy components of the agonist-receptor complex. when used
+at a concentration of 10 ␮m,  xxxd2174xxx  caused shifts of approximately 14-fold in the concentration-response curves of
+the various agonists. with the knowledge of true affinity
+constant (k1) of each agonist as well as its cooperativity
+constant (␣), it is possible to estimate the reduction in the
+affinity of the agonist-receptor complex caused by  xxxd2174xxx 
+using eq. 18 under appendix and the corresponding parameters estimated in binding assays. these calculations yielded
+estimates of approximately 15-fold for the reduction in affinity of the agonist-receptor complex caused by  xxxd2174xxx   xxxd1891xxx 
+␮m. we also calculated that the theoretical shifts for the
+other concentrations of  xxxd2174xxx  used functional assays
+with  xxxd215xxx  and oxotremorine-m. these estimates of the
+predicted reduction in affinity are listed in table 3 together
+with the observed shift in the agonist concentration-response
+curve. the close agreement between the two estimates shows
+that the modulatory effect of  xxxd2174xxx  on the activity of the
+agonists can be attributed entirely to a reduction in affinity.
+mathematical modeling
+to understand the mechanism for the selective modulation
+in agonist affinity by  xxxd2174xxx , we explored three distinct
+allosteric models of two general types. the first type represents a standard two-state model having ground and active
+states of the receptor, with orthosteric and allosteric binding
+sites, in which the degree of receptor activation is proportional to the amount of receptor in the active state. within
+this context, we have explored two subtypes of models, the
+first having only one conformation of each state (simple twostate model) and the second having two ground and two
+active conformations (complex two-state model). the second
+
+overall type of model that we have explored was the tandem
+two-site model of jakubik et al. (2000). this model posits that
+the orthosteric ligand first binds upon the receptor at a relay
+site and then shuttles to the activation site of the receptor.
+both sites contribute to the overall affinity of the orthosteric
+ligand, but only the activation site triggers the stimulus. this
+model introduces the possibility that allosteric regulation can
+occur at the relay site, the activation site, or both. in our
+analysis, we explored the allosteric regulation at the relay
+site only, because such a mechanism can easily explain why
+only the affinity of orthosteric agonists is modulated by  xxxd2174xxx  and not intrinsic efficacy. we considered that both the
+relay site and the activation site exist in two conformations.
+the two conformations of the relay site contribute to affinity
+only, whereas the two conformations of the activation site
+represent ground and active states. thus, these states contribute to both affinity and intrinsic efficacy.
+our modeling addresses three hierarchical levels of analysis. at the first level, all three models are equivalent and
+can be described by a simple one-site model having an observed dissociation constant (kobs) that we express in units of
+molarity (see fig. 1a). at the second level, all three models
+are also equivalent and can be described by the simple allosteric ternary complex model shown in fig. 1b. at this level
+of analysis, we use affinity constants with inverse molarity
+units and cooperativity constants (e.g., ␣) to describe the
+microscopic binding affinities of the binary (xr, ra) and
+ternary ( xxxd3000xxx ) complexes. at both the first and second levels,
+the tandem two-site model is more complicated than the
+state models, yet it still reduces to the simple allosteric
+ternary complex model (see discussion and appendix, eqs. 52
+and 53). at the third level of analysis, the three models are
+distinct and characterized by a unique set of microscopic
+affinity constants for different conformations of the receptor
+(figs. 1c, 8c, and 10c). these are expressed in inverse molarity units. we do not use cooperativity constants at this level
+
+downloaded from jpet.aspetjournals.org at aspet journals on march 16, 2015
+
+acetylcholine
+control
+ xxxd2174xxx 
+10 ␮m
+s-aceclidine
+control
+ xxxd2174xxx 
+10 ␮m
+ xxxd215xxx 
+control
+ xxxd2174xxx 
+3 ␮m
+10 ␮m
+100 ␮m
+carbachol
+control
+ xxxd2174xxx 
+10 ␮m
+oxotremorine-m
+control
+ xxxd2174xxx 
+10 ␮m
+100 ␮m
+
+1046
+
+ehlert and griffin
+
+fig. 6. simulation of the simple two-state model for allosterism. a, the
+logarithm of the cooperativity constants describing the change in observed affinity (␣) and intrinsic efficacy (␤) of the agonist-receptor-positive allosteric modulator complex is plotted against the logarithm of the
+ratio of microscopic affinity constants of the orthosteric ligand for the
+active (kb) and inactive (ka) states of the receptor. also shown is the
+product of the cooperativity constants (␣␤). for this simulation, very little
+receptor (0.1%) is in the active state in the absence of orthosteric ligand
+(ki ⫽ 10⫺3). the ratio of microscopic affinity constants of the allosteric
+ligand for the active (kf) and inactive (ke) states of the receptor are
+indicated in the figure. b, the same as a with the exception that the
+corresponding values for a negative allosteric modulator are shown the ␣
+and ␤ values were estimated using eqs. 21 and 31, respectively.
+
+an  xxxd1422xxx  (kb/ka ⬍ 1) or neutral antagonist (1 ⬍
+kb/ka ⬍⬍ 1/ki) or agonist (kb/ka ⬎⬎ 1), depending upon its
+selectivity for the ground and active states. highly efficacious
+agonists have very large kb/ka ratios. figure 6a shows that
+a positive allosteric modulator with selectivity for the active
+state (kf/ke ⫽ 100) exhibits positive cooperativity with an
+agonist and no cooperativity (␣ ⫽ 1) with a neutral antagonist or  xxxd1422xxx . a positive modulator would exhibit
+negative cooperativity with an  xxxd1422xxx  if the selectivity of the modulator for the active state were sufficient (kf/
+ke ⬎ 103) to overcome the large tendency for the free receptor
+to exist in the inactive state (ki ⫽ 10⫺3). a complementary
+effect is seen with the negative allosteric modulator; that is,
+the modulator exhibits negative cooperativity with agonists
+and no cooperativity (␣ ⫽ 1) with a neutral antagonist or
+ xxxd1422xxx . in the latter case, there is no cooperativity
+between an  xxxd1422xxx  and a negative allosteric modulator because the receptor is already in the inactive state in
+the absence of ligands. with regard to agonists, the allosteric
+modulation (␣) of affinity is proportional to the efficacy of the
+agonist over a range of kb/ka ratios but reaches a plateau at
+high ratios. this behavior is well established and has been
+described previously (ehlert et al., 1983; ehlert, 1986; hall,
+2000).
+figure 6 also shows the effect of the allosteric modulator on
+the change in the observed intrinsic efficacy of the orthosteric
+ligand (␤) over a broad range of kb/ka values. the change in
+
+downloaded from jpet.aspetjournals.org at aspet journals on march 16, 2015
+
+of analysis because each conformation represents a unique
+structure.
+in most pharmacological experiments, it is only possible to
+estimate the second-level parameters [i.e., the observed affinity of the orthosteric (k1) and allosteric (k2) ligands and
+the maximal change in affinity (␣) and efficacy (␤) caused by
+the allosteric modulator] and not the microscopic affinity
+constants of the various states of the receptor (level 3 parameters). the goal of this analysis is to show how the secondlevel parameters are related to the level 3 parameters and
+how, in some instances, it is possible to estimate the ratio of
+microscopic affinity constants of the allosteric modulator for
+different states of the receptor (e.g., kf/ke, two-state models).
+our conformational analysis (level 3) is distinct from the
+analysis described by hall (2000). in the latter analysis,
+ground and active states of the receptor were considered, yet
+the affinity of each state was under allosteric regulation and
+could exhibit a range of observed affinities. this behavior can
+only occur if each so-called state represents an equilibrium
+among additional, undefined conformations with unique affinity constants. thus, it is impossible to determine whether
+some of the cooperativity values explored by hall (2000) are
+actually possible within the constraints of a two-state model.
+in other words, to explore the consequences of an allosteric
+model, one cannot simply assign different values to the cooperativity constants and see how the model behaves. rather,
+one needs to assign different values to the microscopic constants that determine the cooperativity constants to explore
+the permissible range of cooperativity constants. in this regard, we follow the convention for defining microscopic
+constants established by monod et al. (1965) and others
+(koshland et al., 1966; colquhoun and sakmann, 1985) and
+designate each conformation as unique, with a distinct, unvarying affinity constant.
+simple two-state model. figure 1 illustrates how the
+allosteric model can be expanded to incorporate ground and
+active states of a receptor. the resulting model is a simplified
+form of that described by hall (2000), and its derivation has
+been described within the context of the ternary complex
+model (ehlert, 2000). each side of the allosteric model (fig.
+1b) has been expanded into a square representing the equilibrium between inactive and active states of the receptor.
+each square represents a vertical side of the cube shown in
+fig. 1c. the top horizontal square of the cube represents all
+receptor complexes in the active state, whereas the bottom
+horizontal square denotes those of the inactive state. the
+inactive and active states each have unique microscopic affinity constants for the orthosteric (ka and kb, respectively)
+and allosteric ligands (kc and kd, respectively), and the equilibrium between the free forms of the states (r and r*) are
+determined by the constant ki. all equilibria of the cube can
+be described using these five constants, which are defined
+under appendix.
+figure 6 shows how positive (kf/ke ⫽ 100) and negative
+(kf/ke ⫽ 0.01) allosteric modulators affect the change in
+observed affinity (␣) and intrinsic efficacy (␤) of the orthosteric ligand-receptor complex. the values of log ␣ and ␤ are
+plotted against the log of the ratio of microscopic affinity
+constants of the orthosteric ligand for active and inactive
+conformations of the receptor (kb/ka). in this example, very
+little of the receptor is in the active state in the absence of
+agonist (ki ⫽ 10⫺3). the orthosteric ligand can be defined as
+
+allosteric modulation of the muscarinic  xxxg448xxx 
+
+fig. 7. simulation of the influence of maximally effective concentrations
+of positive and negative allosteric modulators on the occupancy, stimulus,
+and response of an agonist. a, the effects of positive (1 mm) and negative
+(1 mm) modulators on the occupancy (open symbols) and stimulus (closed
+symbols) curves for an agonist are shown. for this simulation, very little
+receptor (0.1%) is in the active state in the absence of agonist (ki ⫽ 10⫺3).
+the microscopic affinity constants of the agonist for the ground and active
+conformations of the receptor are ka ⫽ 104 and kb ⫽ 107. the microscopic
+affinity constants of the positive allosteric modulator for the ground and
+active states are ke ⫽ 108 and kf ⫽ 109, and those of the negative
+allosteric modulator are ke ⫽ 109 and kf ⫽ 108. these microscopic
+constants yield the following second-level parameters for the agonist and
+the positive and negative allosteric modulators, k1 ⫽ 2.0 ⫻ 104, k2 ⫽
+1.0 ⫻ 108, and k2 ⫽ 1.0 ⫻ 109, respectively. the cooperativity (␣) between
+the binding of agonist and positive and negative allosteric modulators are
+5.5 and 0.55, respectively. the observed efficacies of the agonist in the
+presence of the positive and negative modulators expressed relative to
+control are 1.8 and 0.18, respectively. the observed dissociation constant
+of the agonist in the absence and presence of the positive (1 mm) and
+negative (1 mm) allosteric modulators are 5.0, 1.5, and 8.5 ␮m, respectively. the occupancy and stimulus functions for the agonist were calculated using eqs. 14 and 25, respectively. b, the effects of positive (1 mm)
+and negative (1 mm) modulators on a highly sensitive response to an
+agonist. the concentration-response curves were generated using the
+operational model (response ⫽ s/(s ⫹ 0.001) (black and leff, 1983), in
+which s denotes the stimulus plotted in a. c, the effects of positive (1 mm)
+and negative (1 mm) modulators on a less sensitive response to an
+agonist. the simulation was done as described in b, with the exception
+that the response was generated from a less sensitive operational model.
+(response ⫽ s/(s ⫹ 0.1).
+
+directed signaling at the third level of analysis (ehlert, 2008).
+figure 8 shows how the allosteric ternary complex model
+(fig. 1b) is expanded into the complex two-state model. each
+side of the allosteric model is expanded into an elongated
+rectangle consisting of three squares of equilibria. the four
+
+downloaded from jpet.aspetjournals.org at aspet journals on march 16, 2015
+
+␤ is related to the maximum of the receptor activation function (stimulus) for the orthosteric ligand. the maximum of
+this function (observed intrinsic efficacy) in the presence of a
+maximally effective concentration of the modulator divided
+by that in its absence is defined as ␤ (eq. 31). when the
+orthosteric ligand lacks a sufficiently large kb/ka value to
+trigger a measurable response, it would be impossible to
+measure the ␤ value through the analysis of a downstream
+response. nonetheless, fig. 6 shows the theoretical ␤ values
+over the complete range of kb/ka values of the orthosteric
+ligand. both positive and negative allosteric modulators
+cause corresponding changes in observed intrinsic efficacy in
+addition to their effects on affinity. the product of their
+combined effect on affinity and efficacy (␣␤) is constant and
+equivalent to the ratio of microscopic affinity constants of the
+allosteric ligand for the ground and active states of the receptor (kf/ke). the basis of this relationship is described in
+eq. 33 under appendix. for very weak partial agonists, allosteric modulators primarily affect observed intrinsic efficacy.
+if the intrinsic efficacy of the orthosteric ligand is high
+enough so that it is capable of causing nearly complete receptor activation, even in the presence of the modulator (i.e.,
+kbkfki/kake ⱖ 10), the allosteric modulation is manifest as a
+change in observed affinity only.
+figure 7 shows a simulation of the effect of allosteric modulators on the occupancy, stimulus, and response functions of
+an agonist. in fig. 7a, the effects of maximally effective
+concentrations of positive (kf/ke ⫽ 10) and negative (kf/ke ⫽
+0.1) modulators on the occupancy and stimulus of an agonist
+(kb/ka ⫽ 103) are shown. the positive modulator causes
+increases in observed affinity and intrinsic efficacy corresponding to factors of 5.5 and 1.8, respectively. the product of
+these two effects is equivalent to kf/ke of 10. the negative
+modulator causes decreases in observed affinity and intrinsic
+efficacy corresponding to factors of 0.55 and 0.18, respectively, with the product of these two effects equivalent to
+kf/ke of 0.1. figure 7, b and c, shows the effects of a maximally effective concentrations of the same positive and negative modulators on the response to the agonist in a highly
+sensitive system exhibiting a large receptor reserve (b) and in
+a less sensitive one (c). the concentration-response curves
+were generated using the operational model as described in
+the legend to the figure. in the more sensitive system, the
+positive and negative allosteric modulators shift the concentration-response curves 10-fold, without affecting the maximal response. it has been shown previously that this shift is
+equivalent to the product ␣␤ (ehlert, 1988a, 2005) (i.e., 10 for
+the positive modulator and 0.10 for the negative modulator),
+which is also equivalent to kf/ke (eq. 33). in the less sensitive
+system, the allosteric modulator causes changes in the potency and maximal response of the agonist. it is possible to
+obtain independent estimates of ␣ and ␤ in this condition
+through analysis of the concentration-response curves as described previously (ehlert, 2005). for the positive modulator,
+this analysis yielded estimates of 5.5, 1.8, and 10 for ␣, ␤, and
+their product, respectively. for the negative modulator, the
+corresponding estimates are 0.18, 0.55, and 0.10.
+complex two-state model. we investigated a two-state
+model incorporating two ground conformations (r1, r2) and
+two active conformations (r1* and r2*). we refer to this
+model as the complex two-state model. as an aside, this is the
+type of model required to explain the phenomenon of ligand-
+
+1047
+
+1048
+
+ehlert and griffin
+
+rectangles form the tri-cubic equilibrium shown in fig. 8. the
+affinity constants of the agonist for the two active conformations (r1* and r2*) are denoted as kb and kd, whereas those
+for the two inactive conformations (r1 and r2) are ka and kc,
+respectively. the corresponding affinity constants of the allosteric modulator are denoted as kf, kh, ke, and kg, respectively. the constants describing the sequential equilibrium
+between the free forms of the various conformations (r1, r1*,
+r2, and r2*) are denoted by ki, kj, and kk. all of the equilibria shown in the model can be described with these 11
+constants, which are defined in fig. 8 and under appendix
+together with the mathematical solution to the model.
+the complex two-state model shown in fig. 8 is a simplification of all possible conformational changes. for example,
+it is entirely possible that ground state r1 might change
+directly into active conformation r2* without going through
+the transition from r1 to r1* to r2 to r2*. for the purposes
+of equilibrium, this matter is unimportant because a more
+complex model incorporating the latter transition would
+yield the same result as the simpler scheme shown in fig. 8.
+thus, the model represents an oversimplification as far as
+
+downloaded from jpet.aspetjournals.org at aspet journals on march 16, 2015
+
+fig. 8. hierarchical levels of analysis and the complex two-state model
+for allosterism. a, on the surface, the binding of drug d to the receptor is
+consistent with a simple one-site model characterized by kobs. b, at the
+second level of analysis, the bound drug can be divided into two types of
+complexes, a binary drug-receptor complex (dr) and a ternary drugreceptor-modulator complex (dra), exhibiting microscopic affinity constants of k1 and ␣k1, respectively. the concentration of d required for
+half-maximal formation of each complex is equivalent to kobs. c, at the
+third level of analysis, each type of receptor complex can be further
+divided into four states, two ground (r1 and r2) and two active (r1* and
+r2*), each exhibiting a unique, unvarying microscopic affinity constant.
+the concentration of d required for half-maximal formation of the four
+states of each of the two types of drug receptor complexes is equivalent to
+kobs.
+
+kinetics are concerned, but not with respect to equilibrium
+behavior. with regard to conformational changes not specified in fig. 8, it is nonetheless possible to denote their equilibrium constants using the constants designated in the figure. for example, the constant governing the equilibrium
+between r1 and r2* (i.e., r2*/r1) is equivalent to kikj.
+it is possible to define the second-level parameters of the
+allosteric model (k1, k2, ␣, and ␤) in terms of the constants of
+the complex two-state model, and these definitions are shown
+under appendix (eqs. 36 –38, 44). similar to the simple twostate model, the complex two-state model predicts changes in
+both observed affinity and intrinsic efficacy in almost all
+instances, with the exception of agonists with intrinsic efficacy so great that they are able to cause complete receptor
+activation in both the presence and absence of the allosteric
+modulator. unlike the consequences of the simple two-state
+model, the effect of the allosteric modulator on the product ␣␤
+varies for different orthosteric ligands in the more complex
+model. the logarithm of the product ␣␤ represents a
+weighted geometric average of the ratios of microscopic affinity constants of the allosteric modulator for the active and
+inactive states of r1 (kf/ke) and r2 (kh/kg). thus, the value
+of ␣␤ is bounded by the interval of kf/ke to kh/kg, and it
+depends upon whether the allosteric modulator shifts the
+equilibrium in the direction of r1 or r2, respectively (see
+appendix, eqs. 46 – 47).
+interesting deviations from the simple model occur when
+the allosteric modulator selects for rare conformations of the
+receptor in the more complex model. for example, suppose
+that r1 is the most abundant form (99%) of the receptor
+under basal conditions in the absence of modulator and that
+agonist activation occurs mainly through a transition from
+r1 to r1*. if the geometric average of the microscopic affinity
+constants of the allosteric modulator for the r2 conformations is much higher affinity than that of the r1 conformation, the allosteric modulator can switch the activation step
+to an r2 to r2* transition. in so doing, the allosteric modulator can change the pharmacological profile of the receptor.
+that is, in the presence of the modulator, the rank orders of
+observed affinity and intrinsic efficacy of a group of agonists
+will change. this result occurs because one would expect that
+the ratios of kb/ka and kd/kc would vary randomly among a
+group of orthosteric ligands because the four conformations
+(r1, r1*, r2, and r2*) represent unique structures having
+unique structure-affinity relationships. in contrast, the simple two-state model predicts that positive allosteric modulators appear to increase the affinity and efficacy of all agonists, whereas negative modulators do the opposite without
+altering the rank order of observed affinity and intrinsic
+efficacy.
+if it is assumed that the ratio of kb/ka is the same as kd/kc
+for a given agonist, it is possible for an allosteric modulator to
+cause affinity-only modulation provided that ke ⫽ kf ⫽ kg ⫽
+kh. figure 9a shows the behavior of the model under these
+conditions for a negative allosteric modulator. the values of
+the microscopic affinity constants of the agonist and the
+allosteric modulator are displayed graphically in fig. 9b. in
+this simulation, the most abundant form of the receptor
+under basal conditions is r1, and there is very little receptor
+activation in the absence of agonist. as shown in fig. 9b, the
+ratio of affinity constants of the orthosteric agonist for the
+ground and active conformations of r1 (ka/kb ⫽ 100) is the
+
+allosteric modulation of the muscarinic  xxxg448xxx 
+
+1049
+
+modulator exhibits the precise degree of selectivity for the
+pairs of states to offset the difference:
+
+k b ki ⫹ k dkj kk k bkf ki ⫹ k d kh kj kk
+⫽
+k a ⫹ k ck j
+kak e ⫹ k c kg l j
+
+same as that of r2 (kc/kd ⫽ 100); however, the average
+overall affinity for the r1 pair is greater than that of the r2
+pair. in contrast, the allosteric modulator has equivalent
+affinities for the ground and active conformations of r1 (ke/
+kf ⫽ 1), as well as those of r2 (kg/kh ⫽ 1), but its affinities for
+the r2 pair of conformations are greater than those for the r1
+pair. this opposite selectivity of the agonist and modulator
+for the r1 and r2 pairs of conformations results in negative
+cooperativity as shown in fig. 9a. that is, the allosteric
+modulator causes a reduction in the observed binding affinity
+of the agonist. because of the unique values of the microscopic affinity constants, this reduction in agonist potency
+occurs with no change in the maximum of the agonist activation curve, illustrating that the modulator has no influence
+the intrinsic efficacy of the agonist. affinity-only modulation
+can also occur with a positive allosteric modulator provided
+that the orthosteric and allosteric ligands exhibit the same
+preference for the r1 and r2 conformations and that the
+ratios of ka/kb and kc/kd are constant for the agonist and
+equal to one for the modulator.
+this type of affinity-only allosteric modulation occurs because of the unique relationship among the parameters
+shown in fig. 9b. other combinations of microscopic constants can yield affinity-only modulation. for example, the
+ratio of agonist affinity constants for the ground and active
+states of r1 and r2 could differ provided that the allosteric
+
+it is possible that the activity of the two active states (r1*
+and r2*) might differ. affinity-only modulation could still
+occur in this situation provided that a corresponding difference in the ratio of agonist affinity constants for ground and
+active states (ka/kb and kc/kd) or those of the allosteric
+modulator offset the difference in activity of the two states.
+these solution sets are unique enough to make it unlikely for
+an orthosteric-allosteric ligand pair to exhibit affinity-only
+modulation with this model. moreover, if a pair is found,
+other agonists will not exhibit affinity-only modulation unless their ratios of ka/kb and kc/kd are the same as those of
+the first pair. this scenario seems highly unlikely because
+the four conformations of the receptor represent unique
+structures with unique structure-affinity relationships.
+tandem two-site, two-state model. within the context of a two-state model, it seems that  xxxd2174xxx  reduces a
+component of agonist affinity for both the ground and active
+states of the receptor to the same extent (ehlert, 2005). one
+way to account for this enigma is to consider a model that
+distributes the total observed affinity of the agonist over two
+distinct sites—a distal site undergoing agonist-mediated activation and a more proximal site that relays the agonist to
+the distal activation site. if allosteric modulators affect the
+affinity of the relay site only, then only a modification in
+affinity can occur. such a relay model has been proposed by
+jakubik et al. (2000) to account for the two-step kinetics of
+ligand binding to m1 and m2 muscarinic receptors, and these
+investigators have suggested that a superficial  xxxd233xxx 
+(asp99) in the m1 sequence is part of the relay site. hulme et
+al. (2003) have suggested that trp157 in the m1 sequence may
+act as a relay site, whereas matsui et al. (1995) have suggested that superficial tryptophan residues 91, 101, and 400
+in the m1 sequence may line a cleft that guides orthosteric
+ligands inwardly to the activation site. these residues are
+highly conserved across all muscarinic receptor subtypes,
+including the m2. a similar idea has been advanced for the
+interaction of substrates with acetylcholinesterase (harel et
+al., 1993). we have combined the tandem two-site model with
+a two-state allosteric model to explain the cooperative interactions at the  xxxg448xxx  at the level of receptor states (level
+3 analysis). figure 10 shows how the allosteric model (fig.
+1b) can be incorporated into the tandem two-site model (fig.
+10b). the tandem two-site model posits that there are two
+sites on the receptor (s1 and s2) and that the agonist first
+binds upon s1 and then transfers to s2 where receptor activation occurs. we postulate that there is an allosteric site on
+s1 that modulates the affinity of orthosteric ligands for the s1
+site, but not the s2 site. thus, the s1 site can exist in two
+conformations (s1 and s1⬘), neither of which has an influence
+on the activation of the receptor. the s2 site can exist in two
+states, inactive (s2) and active (s2*), and the degree of receptor activation is proportional to the amount of receptors in
+the active conformation. the microscopic affinity constants of
+the orthosteric ligand for the two conformations of the relay
+site (s1 and s1⬘) are denoted as ka and kb, respectively, and
+the unimolecular constants describing the transfer of the
+
+downloaded from jpet.aspetjournals.org at aspet journals on march 16, 2015
+
+fig. 9. a unique set of parameter values, albeit unlikely, enables the
+complex two-state model to account for a selective allosteric modulation
+in agonist affinity without affecting intrinsic efficacy. a, the effects of a
+negative modulator on the occupancy (open symbols) and stimulus (closed
+symbols) curves for an agonist are shown. for this simulation, the relative abundance of the various receptor states (r1, r1*, r2, and r2*) in the
+absence of agonist are 99.8, 0.1, 0.1, and 0.0001%, respectively (ki ⫽ kj ⫽
+kk ⫽ 10⫺3). the microscopic affinity constants of the agonist for the two
+ground (ka and kc) and two active (kb and kd) conformations of the
+receptor as well as those of the negative modulator (ke, kg, kf, and kh,
+respectively) are illustrated in b. these microscopic constants yield the
+following second-level parameters for the agonist and negative allosteric
+modulator, k1 ⫽ 2.0 ⫻ 105, k2 ⫽ 1.1 ⫻ 106, and ␣ ⫽ 0.10. the observed
+dissociation constant of the agonist in the absence and presence of the
+negative allosteric modulator (1 mm) are 5.0 and 50 ␮m, respectively.
+
+(8)
+
+1050
+
+ehlert and griffin
+
+ligand from the relay site to the two states of the inactive (s2)
+and active (s2*) conformations of the s2 site are denoted as
+kc and kd, respectively. the microscopic affinity constants of
+the allosteric modulator for the two conformations of the
+relay site (s1 and s1⬘) are denoted as ke and kf, respectively.
+the equilibrium between the two conformations of the free
+forms of s1 and s2 are independent of each other and denoted
+by kg and kh, respectively. all of the equilibria shown in the
+model can be described with these eight constants, which are
+defined under appendix together with the mathematical solution to the model.
+similar to the model in fig. 8, the tandem two-site, twostate model is a simplification of all possible conformational
+changes. for example, it is entirely possible for the s1s2
+conformation to change directly into the s1s2* conformation
+
+fig. 11. the tandem two-site, two-state model readily accounts for a
+selective modulation in agonist affinity by negative and positive allosteric
+modulators. the effects of positive and negative modulators on the occupancy (open symbols) and stimulus (closed symbols) curves for an agonist
+are shown. for this simulation, very little (0.1%) of the activation site is
+in the active state (s2*) in the absence of agonist (kh ⫽ 10⫺3), and very
+little (1%) of the relay site is in the s1⬘ conformation in the absence of
+ligands (kg ⫽ 10⫺2). the microscopic affinity constants of the agonist for
+the s1 and s1⬘ conformations of the relay site are ka ⫽ 103 and kb ⫽ 107,
+respectively. the corresponding values for the positive modulator are
+ke ⫽ 105 and kf ⫽ 108, and those of the negative modulator are ke ⫽ 108
+and kf ⫽ 105. the unimolecular constants describing the transfer of the
+orthosteric ligand to the ground and active conformations of the activation site are kc ⫽ 10 and kd ⫽ 2 ⫻ 104, respectively. these microscopic
+constants yield the following second-level parameters for the agonist and
+the positive and negative allosteric modulators, k1-r ⫽ 105, k1-a ⫽ 30,
+and k2 ⫽ 9.9 ⫻ 107, respectively. the cooperativity (␣) between the
+binding of agonist and positive and negative allosteric modulators are 91
+and 0.011, respectively. the observed dissociation constant of the agonist
+in the absence and presence of the positive (1 mm) and negative (1 mm)
+allosteric modulators are 0.32, 0.0035, and 29 ␮m, respectively. the
+occupancy and stimulus functions were calculated using eqs. 50 and 63,
+respectively.
+
+downloaded from jpet.aspetjournals.org at aspet journals on march 16, 2015
+
+fig. 10. hierarchical levels of analysis and the tandem two-site, twostate model for allosterism. a, the tandem two-site model posits that the
+drug d first binds upon the receptor at relay site s1 and then shuttles to
+the activation site s2. on the surface, the binding of drug d to this circuit
+of two sites is consistent with a simple one-site model characterized by
+kobs equivalent to 1/(k1r ⫹ k1rk1a). b, at the second level of analysis,
+bound drug can be divided into two main types of complexes, a binary
+drug-receptor complex and a ternary drug-receptor-modulator complex.
+each of these can be further divided, depending upon whether the drug is
+occupying the relay site (ds1s2 and ds1as2) or the activation site (s1ds2
+and s1ads2). the concentration of d required for half-maximal formation
+of each complex is equivalent to kobs. c, at the third level of analysis, each
+type of receptor complex can be further divided based on the state of the
+relay site (s1 and s1⬘) and the activation site (s2 and s2*), each exhibiting
+a unique, unvarying microscopic affinity constants. the concentration of
+d required for half-maximal formation of the various combinations of
+states of the various types of drug-receptor complexes is equivalent to
+kobs.
+
+without going through the transition from s1s2 to s1⬘s2 to
+s1⬘s2* to s1s2*. for the purposes of equilibrium, this matter
+is unimportant because a more complex model incorporating
+the latter transition would yield the same result as the simpler scheme shown in fig. 10.
+figure 11 shows the influence of a positive (kf/ke ⬎ 1) and
+a negative (kf/ke ⬍ 1) allosteric modulator on the occupancy
+and activation curves of an agonist (kd/kc ⫽ 2 ⫻ 103). in both
+cases, the modulator shifts the occupancy curve without influencing the maximal degree of receptor activation. consequently, the tandem two-site, two-state model explains affinity-only modulation of agonist responses regardless of the
+solution set of parameters. furthermore, because the allosteric regulation occurs at the relay site and not the activation
+site, the model can account for the well known observation
+that the cooperative effects of  xxxd2174xxx  are independent of
+the magnitude of the efficacy of the orthosteric ligand. this
+property can be appreciated mathematically by examining
+fig. 10, which shows that the propensity of the agonist to
+shuttle to the active state s2* (kd) relative to inactive state
+s2 (kc) is proportional to efficacy, whereas the cooperativity
+constant ␣ is unaffected by these constants (see eq. 57 under
+appendix). the model can also explain the reciprocal modulation of the affinity of orthosteric and allosteric ligands.
+that is, through application of the equations under appendix
+it can be shown that, if  xxxd2174xxx  reduces the affinity of
+[3h]nms, the tandem two-site two-state model predicts that
+[3h]nms should reduce the affinity of  xxxd2174xxx  to the same
+extent.
+relationship of the state models to the allosteric
+ternary complex model. it is important to emphasize that
+the three models investigated are all consistent at the second
+
+allosteric modulation of the muscarinic  xxxg448xxx 
+
+level of analysis; that is, they are consistent with the allosteric ternary complex model (figs. 1b, 8b, and 10b). this model
+is the level at which allosterism is usually measured experimentally. at this level, the models predict that the orthosteric ligand binds according to a simple one-site model exhibiting an observed dissociation constant equivalent to 1/k1,
+with k1 ⫽ k1-r ⫹ k1-rk1-a for the tandem two-site model. all
+three models predict that the effect of the allosteric modulator is to cause a multiplicative change in the observed dissociation constant by the factor p (see appendix, eqs. 15–18,
+with level 2 parameters defined in eqs. 19 –21 for the simple
+model, eqs. 36 –38 for the complex model, and eqs. 50 to 53 for
+the tandem model, with level 2 parameters defined in eqs.
+54 –57) (ehlert, 1988a, 2005):
+
+p⫽
+
+1 ⫹  xxxg108xxx 
+1 ⫹ a␣k 2
+
+(9)
+
+q⫽
+
+1 ⫹ a␣␤k 2
+1 ⫹ a␣k 2
+
+(10)
+
+in this equation, ␤ denotes the intrinsic efficacy of the
+agonist when the allosteric site is occupied, expressed relative to that of the complex, when the allosteric site is empty.
+it may seem that the constants for cooperativity and efficacy
+(␣ and ␤) are independent parameters that are unique to the
+particular orthosteric-allosteric ligand pair. our analysis
+shows that the second-level parameters ␣ and ␤ of the simple
+
+two-state models do not vary independently but are highly
+correlated. the more complex two-state model also predicts
+simultaneous changes in both parameters with allosteric
+modulation, although the magnitude of the changes may be
+uncorrelated. in contrast, the tandem two-site, two-state
+model for allosterism predicts affinity-only modulation provided that the allosteric site is linked only to the relay site.
+it is interesting to consider allosterism from different perspectives relating to the definition of affinity and efficacy.
+pharmacologists typically define observed affinity and observed intrinsic efficacy as the ec50 (kobs) and emax (epsilon) values of the stimulus function (receptor activation) (furchgott,
+1966). electrophysiologists studying ligand-gated ion channels have defined affinity and efficacy (gating) at a deeper
+level of analysis (colquhoun, 1998). affinity defines how the
+agonist would bind if it did not induce a conformational
+change in the receptor, and intrinsic efficacy is defined as the
+propensity of the agonist to induce a conformational change
+(i.e., ka and kbki/ka, respectively, in the simple two-state
+model). tables 4 and 5 list these two different hierarchical
+definitions of affinity and efficacy for the three different
+models and describe the influence of a maximally effective
+concentration of an allosteric modulator on each parameter.
+at the level of the stimulus (table 4), both two-state models
+predict that an allosteric modulator simultaneously influences both the observed affinity and observed intrinsic efficacy of the agonist, whereas the tandem two-site, two-state
+model predicts affinity-only modulation. at the level of receptor states (third level), the definition of intrinsic efficacy is
+such that simple two-state model predicts efficacy-only modulation; the tandem two-site, two-state model predicts affinity-only modulation; and the complex two-state model pre-
+
+table 4
+relationship between the microscopic constants of the allosteric ternary complex model and the definitions of observed affinity and intrinsic
+efficacy
+the table shows the maximal effect of the modulator on affinity and efficacy.
+stimulus
+model
+
+simple two-state
+control
+
+plus modulator
+complex two-state
+control
+
+plus modulator
+
+tandem two-site, two-state
+control
+
+plus modulator
+
+a
+b
+
+denotes kobs in units of molarity.
+denotes the maximum of the stimulus function.
+
+observed affinitya
+
+observed intrinsic efficacyb
+
+1 ⫹ ki
+ka ⫹ kbki
+
+1
+ka
+1⫹
+kbki
+
+ke ⫹ kfki
+kake ⫹ kbkfki
+
+1
+kake
+1⫹
+kbkfki
+1
+ka ⫹ kckj
+1⫹
+kbki ⫹ kdkjkk
+
+1 ⫹ki ⫹ kj共1 ⫹ kk兲
+ka ⫹ kbki ⫹ kj共kc ⫹ kdkk兲
+ke ⫹ kfki ⫹ kj共kg ⫹ khkk兲
+kake ⫹ kbkfki ⫹ kj共kckg ⫹ kdkhkk兲
+
+1
+kake ⫹ kckgkj
+1⫹
+kbkfki ⫹ kdkhkjkk
+
+共1 ⫹ kh兲共1 ⫹ kg兲
+共1 ⫹ kc ⫹ kh ⫹ kdkh兲共ka ⫹ kbkg兲
+
+1
+
+ke ⫹ kfkg
+kake ⫹ kbkfkg
+
+1⫹
+
+kc
+kdkh
+1
+
+1⫹
+
+kc
+kdkh
+
+downloaded from jpet.aspetjournals.org at aspet journals on march 16, 2015
+
+the simple and complex two-state models also predict that
+allosteric modulators may cause a multiplicative change in
+the intrinsic efficacy of the agonist receptor complex equivalent to q (ehlert, 2005), with ␤ defined in eq. 31 for the simple
+two-state model and eq. 44 for the complex two-state model:
+
+1051
+
+1052
+
+ehlert and griffin
+
+table 5
+relationship between the microscopic constants of the allosteric ternary complex model and the definitions of affinity and efficacy at the third
+level of analysis
+the table shows the maximal effect of the modulator on affinity and efficacy.
+third-level analysis
+model
+affinity
+
+a
+
+intrinsic efficacyb
+
+simple two-state
+1/ka
+
+kb
+⫻ ki
+ka
+
+plus modulator
+
+1/ka
+
+kbkf
+⫻ ki
+kake
+
+1 ⫹ kj
+ka ⫹ kjkc
+
+kbki ⫹ kdkjkk
+ka ⫹ kcki
+
+ke ⫹ kjkg
+kake ⫹ kjkckg
+
+kbkfki ⫹ kdkhkjkk
+kake ⫹ kckgkj
+
+control
+
+1 ⫹ kg
+kakc ⫹ kbkckg
+
+kd
+⫻ kh
+kc
+
+plus modulator
+
+ke ⫹ kfkg
+kake ⫹ kbkfkg
+
+kd
+⫻ kh
+kc
+
+complex two-state
+control
+plus modulator
+tandem two-site, two-state
+
+a
+affinity is expressed in units of molarity, and it represents the observed affinity of the agonist if did not activate the receptor (e.g., kobs when ki ⫽ 0 for the simple
+two-state model).
+b
+intrinsic efficacy is a measure of the ability of the agonist to activate the receptor. agonist activation of the receptor is defined by eqs. 28, 41, and 63 for the three models.
+at high agonist concentrations, these equations are of the form 1/(1 ⫹ 1/x), with x being equivalent to intrinsic efficacy in the table.
+
+dicts simultaneous changes in affinity and efficacy. with the
+latter model, widespread affinity-only modulation is extremely remote because the four distinct conformations exhibit four unique structure-affinity relationships (random
+relationship between ka, kb, ke, and kf for a sample of
+orthosteric ligands).
+analysis of allosterism at g protein-linked receptors and ligand-gated ion channels using two-state
+models. the allosteric ternary complex model has been extended previously to account for ground and active conformations of the receptor. in the model of hall (2000), two states
+of the receptor are proposed, but the states are allowed to
+assume any conformation, which leads to the introduction of
+cooperativity constants that are undefined in terms of microscopic constants for receptor conformations. this convention
+has led to the assumption that the cooperativity constants for
+affinity (␣) and efficacy (␤) modulation [␥ and ␦, respectively
+in the model of hall (2000)] are independent parameters of
+two-state allosteric models. as described above, however,
+these parameters are not independent in two-state models,
+and affinity-only modulation defined in table 5 is an unlikely
+outcome of such a model. as illustrated with the behavior of
+ xxxd2174xxx , the models described in this report enable one to
+address the origin of cooperativity in two-state models and
+to assess what mechanisms can account for the measured
+cooperativity.
+for example, one phenomenon that is thought to be a
+consequence of the extended allosteric ternary complex
+model is the ability of two neutral ligands to interact allosterically to produce a response, even though each ligand
+lacks selectivity for the active state (hall, 2000). according to
+the complex two-state allosteric model, this phenomenon
+could occur if there were two pairs (r1 and r2) of ground and
+active states in equal abundance (kj ⫽ 1) and if the orthosteric ligand acted as an  xxxd1422xxx  at r1 (kb ⬍ ka) and
+an agonist at r2 (kd ⬎ kc). the net effect is that inverse
+
+agonism at r1 is opposed by agonism at r2, resulting in no
+net receptor activation. if the allosteric ligand behaved like
+that shown in fig. 9 and was selected for the r2 pair without
+activating it (kg ⫽ kh ⬎ ke ⫽ kf), the pair of ligands could
+produce a response together, although either ligand by itself
+would have no effect on receptor activation. the same phenomenon could occur if the roles of the ligands were reversed.
+however, this exotic explanation seems unlikely. the simple
+two-state model readily accounts for the phenomenon of coagonism in terms of positive cooperativity between two interacting ligands— each exhibiting selectivity for the active
+state (kb/ka ⬎ 1 and kf/ke ⬎ 1)—although the amount of
+selectivity is insufficient for either one to elicit a response by
+itself (kb/ka ⬍⬍ 1/ki and kf/ke ⬍⬍ 1/ki). an analogous form
+of homotropic cooperativity is commonplace at oligomeric,
+ligand-gated ion channels. often, the binding of more than
+one agonist molecule is required for channel opening (e.g.,
+ xxxg456xxx ).
+it has also been suggested that the extended allosteric
+ternary complex model can account for the phenomenon
+whereby a modulator increases the affinity (␣ ⬎ 1) and reduces the efficacy (␤ ⬍ 1) of an agonist simply by changing
+the amount of active receptor complex and its observed affinity (hall, 2000). according to the complex two-state model,
+this phenomenon could occur if there were two pairs of agonist conformations (r1 and r2) and if the agonist activated
+the more abundant pair (r1, kb ⬎⬎ ka) but behaved as an
+ xxxd1422xxx  (r2, kd ⬍⬍ kc) with much higher affinity
+(kd ⬎ kb) at the less abundant pair of conformations (kj ⬍⬍
+1). if the modulator behaved like that shown in fig. 9 and
+selected for the less abundant pair of conformations (kg ⫽
+kh ⬎ ke ⫽ kf), it would cause an increase in affinity and
+decrease in efficacy of the agonist-receptor complex. however, once again, such a complicated mechanism seems unlikely. a much simpler mechanism is the phenomenon of
+uncompetitive inhibition, whereby the allosteric modulator
+
+downloaded from jpet.aspetjournals.org at aspet journals on march 16, 2015
+
+control
+
+allosteric modulation of the muscarinic  xxxg448xxx 
+
+discussion
+two-state models inevitably predict that allosteric modulators affect the observed efficacy of the agonist. this report
+as well as those of others have generated a small list of
+agonists (acetylcholine, s-aceclidine,  xxxd215xxx , bm5, carbachol, and oxotremorine-m) whose efficacy is unaffected by
+ xxxd2174xxx . these results would appear to rule out two-state
+models as the sole explanation for the allosteric effect of
+ xxxd2174xxx .
+an issue requiring careful consideration in a two-state
+model relates to the maximal degree of receptor activation.
+highly efficacious agonists that cause complete receptor activation, even in the presence of a negative modulator, would
+only exhibit an allosteric modulation in affinity. when m2
+muscarinic receptor-mediated inhibition of adenylyl cyclase
+activity was measured in homogenates of the myocardium in
+the presence of 0.1 mm gtp, the relative efficacy values of a
+group of agonists all varied, with the values for oxotremorine-m, carbachol, s-aceclidine, and bm5 being 1.6, 1, 0.37,
+and 0.087, respectively (ehlert, 1985). the lack of a clear
+plateau value for the efficacy of the most efficacious agonists
+suggests that none of the agonists causes maximal receptor
+activation. this result is not surprising because the assays
+were carried out in the presence of gtp (0.1 mm), which
+greatly inhibits the proportion of the agonist-receptor complex in the active state (ehlert, 2000). it is possible that the
+intracellular concentration of gtp is comparatively lower in
+cho cells, which would enable agonists with lower efficacy
+to generate more of the active receptor conformation. this
+postulate is consistent with the moderate increase in the
+observed affinity of oxotremorine-m observed in this study
+(pkobs ⫽ 6.03) compared to that observed in myocardial homogenates in the presence of gtp (0.1 mm) (pkobs ⫽ 5.12)
+(ehlert, 1987). the moderate increase in affinity indicates
+that the corresponding increase in the proportion of occupied
+receptor in the active conformation is also moderate, which
+suggests that the agonist kb/ka ratios are not much greater
+than those required for maximal receptor activation in the
+cho cell. if the agonists were near the threshold for complete receptor activation, one would expect that  xxxd2174xxx 
+would still cause a reduction in receptor activation at high
+
+concentrations (10 –100 ␮m) if the two-state model were tenable. the result would be a greater  xxxd2174xxx -induced reduction in agonist potency for inhibiting camp accumulation
+compared with that for observed binding affinity (ehlert,
+2005) or an accompanying decline in emax. however, this
+behavior was not observed, and the shift in the agonistconcentration-response curve was equivalent to the measured change in binding affinity. in addition, high concentrations of  xxxd2174xxx  (1– 0.1 mm) were without effect on the
+emax of the partial agonist bm5 (ehlert, 1988b) or on the
+emax of oxotremorine-m after a reduction in its emax by
+partial receptor inactivation (fig. 5).
+the simple two-state model predicts a correlation between
+the cooperativity constant (␣) for a given allosteric-orthosteric ligand pair and the intrinsic efficacy of the orthosteric
+ligand. in other words, the model predicts that the absolute
+value of the log ␣ value would be greatest for efficacious
+agonists, intermediate for agonists with low efficacy, and
+zero for antagonists. it is interesting that it also predicts that
+the product of the cooperativity constants for observed affinity (␣) and intrinsic efficacy (␤) is constant and equivalent to
+the ratio of microscopic affinity constants of the modulator
+for active and inactive states of the receptor (kf/ke). various
+gabaa receptor subtypes exhibit this behavior with regard
+to the allosteric interactions between gaba agonists and
+benzodiazepine, barbiturates, and other allosteric modulators (ehlert et al., 1983; levitan et al., 1988; sigel and baur,
+1988). in contrast,  xxxd2174xxx  exhibits substantial negative
+cooperativity with both agonists and antagonists, which is
+inconsistent with the simple two-state model (stockton et al.,
+1983). the complex two-state model can explain this behavior; however, it cannot account for widespread modulation in
+affinity only. in contrast, the tandem two-site, two-state allosteric model can account for the behavior of  xxxd2174xxx .
+at the present time, we cannot rule out small allosteric
+changes in the intrinsic efficacy of the agonist receptor complex by  xxxd2174xxx . the data of jakubı́k et al. (1996) showing
+that occupancy of the allosteric site on m2 receptors by  xxxd2174xxx  actually elicits small agonistic effects (i.e., inhibition
+in camp accumulation) suggest that a minor effect on efficacy may occur. within the context of the tandem two-site
+model, the latter observation may imply that conformational
+changes in the relay site and activation site is not completely
+independent of each other.
+there are several examples of other allosteric muscarinic
+ligands that behave differently from  xxxd2174xxx , indicating
+that not all allosteric interactions at the m2 muscarinic receptor can be explained by the tandem two-site, two-state
+allosteric model as described here. for example, alcuronium
+has been shown to modulate the intrinsic efficacy of pilocarpine (zahn et al., 2002), and the allosteric effects of strychnine on acetylcholine-stimulated guanosine 5⬘-o-(3-[35s]thio)triphosphate ([35s]gtp␥s) binding show a discrepancy
+between the allosteric modulation of observed binding affinity and functional potency indicating allosteric changes in
+agonist efficacy (lazareno and birdsall, 1995). it is generally
+assumed that alcuronium acts at the same allosteric site as
+ xxxd2174xxx , and it is conceivable that occupancy of the site by
+alcuronium alters the unimolecular constants (kc, kd) of the
+activation site, such that efficacy modulation occurs. furthermore, the compound ac-42 has been shown to activate
+the m2 muscarinic receptor, and it appears to do so through
+
+downloaded from jpet.aspetjournals.org at aspet journals on march 16, 2015
+
+exhibits selectivity for the active state yet inhibits activity
+when bound to it. for a ligand-gated ion channel, the mechanism of this inhibition could be an open channel block. for
+a g protein-coupled receptor, the inhibitor could sterically
+interfere with the receptor-g protein interaction.
+it has also been argued that the extended ternary complex
+model shows that the allosteric parameters are system-dependent whenever the orthosteric ligand exhibits selectivity
+for ground or active conformations of the receptor (hall,
+2000). for the simple two-state model, however, we show
+that the product ␣␤ is equivalent to kf/ke provided that ki ⬍⬍
+1 for negative modulators and that kf/ke ⬍⬍ 1/ki for positive
+modulators. because it is always possible to estimate the
+product of ␣␤ in functional studies (ehlert, 1988a, 2005), it
+should be possible to measure the selectivity of the allosteric
+modulator for ground and active states of the receptor (kf/ke)
+for any system conforming to the simple two-state model. the
+latter ratio is solely a property of the allosteric ligand-receptor complex.
+
+1053
+
+1054
+
+ehlert and griffin
+
+tion of accurate models for allosterism at ligand-gated ion
+channels and g protein-coupled receptors.
+
+appendix
+this appendix describes the derivation of the various receptor state models and the estimation of the allosteric parameters of nonlabeled ligands measured in competition experiments with labeled ligand and allosteric modulator.
+simple two-state model. the affinity constants for the
+simple two-state model at the third level of analysis are
+described in fig. 1c. these constants are expressed in inverse
+molarity units and are defined as the ratio of the ligandreceptor complex divided by the product of the concentrations
+of ligand and the corresponding receptor state. for example
+ka ⫽ [dr]/[d][r]. the unimolecular constant describing the
+equilibrium between the free states of the receptor states is
+defined as: ki ⫽ r*/r.
+fractional receptor occupancy in the presence of allosteric
+modulator expressed as agonist bound relative to the total
+receptor concentration (rt) is defined as:
+
+bound
+rt
+⫽
+
+dr ⫹ dr* ⫹ dra ⫹ dr*a
+共11兲
+r ⫹ r* ⫹ dr ⫹ dr* ⫹ ra ⫹ r*a ⫹ dra ⫹ dr*a
+
+it is possible to replace each term in the numerator and
+denominator on the right hand side of eq. 11 with a product
+of affinity constants and r. for example:
+
+dr* ⫽ dkb kir
+
+(12)
+
+using a similar strategy for the other terms, eq. 11 can be
+rewritten as:
+
+bound dkar ⫹ dkbkir ⫹ adkaker ⫹ adkbkfkir
+⫽
+rt
+r ⫹ kir ⫹ dkar ⫹ dkbkir ⫹ aker
+⫹ akfkir ⫹ adkaker ⫹ adkbkfkir
+
+(13)
+
+factoring out r and simplifying yields:
+
+d
+bound
+⫽
+rt
+d ⫹ kobs
+
+(14)
+
+in which kobs can be defined in terms of third-level parameters (ehlert, 2000):
+
+k obs ⫽
+
+1 ⫹ ki ⫹ ake ⫹ akf ki
+ka ⫹ kbki ⫹ akake ⫹ akbkf ki
+
+(15)
+
+as described previously (ehlert, 1988a), kobs can also be
+defined in terms of second-level parameters:
+
+k obs ⫽
+
+1 ⫹  xxxg108xxx 
+k1 ⫹ a␣k1k2
+
+(16)
+
+equation 16 can be rearranged into the following form
+illustrating that the allosteric modulator has a multiplicative
+effect on the observed affinity of the orthosteric ligand complex corresponding to the factor p:
+
+k obs ⫽ p
+
+1
+k1
+
+(17)
+
+downloaded from jpet.aspetjournals.org at aspet journals on march 16, 2015
+
+binding to an allosteric site located on the extracellular loops
+of the receptor (may et al., 2007). the muscarinic agonist
+mcn-a-343 has also been suggested to act allosterically
+(birdsall et al., 1983; may et al., 2007). if the mechanism
+were allosteric, it would exhibit a high degree of negative
+cooperativity with both nms and carbachol. in the case of
+carbachol, the minimal estimate of the absolute value of the
+logarithm of its ␣ value with carbachol would be approximately 3.0 in order to explain the data obtained by christopolous and michelson (1997). because mcn-a-343 activates
+the  xxxg448xxx , it must discriminate between active and
+inactive states. an allosteric mechanism would require these
+conformations to be different from those utilized by carbachol; otherwise, the two agonists would exhibit positive
+cooperativity.
+models of the  xxxg448xxx  place the location of the allosteric site at the level of the outer membrane surface, whereas
+the orthosteric site is thought to be deeper within the transmembrane domains (trankle et al., 2005). this topography
+explains why  xxxd2174xxx  and other allosteric agents greatly
+slow the binding kinetics of orthosteric ligands, because the
+model predicts that the allosteric ligand may trap the orthosteric ligand when both types of ligands are occupying their
+respective sites. jakubik et al. (2000) have suggested that the
+putative relay site and activation site are in such close proximity that occupancy of both sites by two molecules of nms is
+sterically hindered. if the putative relay site facilitates the
+inward transfer of orthosteric ligands to the activation site, it
+would seem that the relay site might be between the activation and allosteric sites. perhaps the conformational states of
+the putative relay site function normally in the absence of
+allosteric modulators to facilitate the inward transfer of agonist to the activation site.
+it has been shown that the second extracellular loop (e2) of
+the m2 muscarinic receptor has modest role in the binding of
+ xxxd2174xxx  but a much greater role in the binding of other
+modulators (leppik et al., 1994; gnagey et al., 1999; voigtländer et al., 2003). cysteine mutagenesis of residues val171
+and asn419 caused a marked reduction in the affinity of
+acetylcholine and only a moderate reduction in that of  xxxd2174xxx  (avlani et al., 2007). these effects were reversed by
+treatment with dithiothreitol, suggesting that the changes in
+affinity are caused by bending the e2 loop over the binding
+pocket of the receptor through a disulfide bond linkage.
+given that the e2 loop seems far from what is thought to be
+the acetylcholine binding pocket, the results suggest that a
+reduction in agonist affinity can be caused by reducing access
+to the binding pocket by a greater net decrement relative to
+egress (outward rectification). this “capping” mechanism is
+reminiscent of the slowing in the kinetics of [3h]nms binding caused by  xxxd2174xxx  (stockton et al., 1983). it is conceivable that the postulated allosteric effect of  xxxd2174xxx  on the
+putative relay site may cause a relative outward rectification
+of access to the agonist binding pocket similar to that caused
+by modification of the e2 loop.
+our models are straightforward extensions of the original
+ideas put forth by monod et al. (1965) and koshland et al.
+(1966) and have widespread application to the analysis of
+allosterism at other receptors. a better understanding of the
+origin of cooperativity and the interdependence of allosteric
+changes in affinity and efficacy should help in the identifica-
+
+allosteric modulation of the muscarinic  xxxg448xxx 
+
+in which p is defined as:
+
+1 ⫹  xxxg108xxx 
+p⫽
+1 ⫹ a␣k2
+
+k1 ⫽
+
+ka ⫹ kbki
+1 ⫹ ki
+
+(19)
+
+k2 ⫽
+
+ke ⫹ kikf
+1 ⫹ ki
+
+(20)
+
+(21)
+
+r active
+rt
+r* ⫹ r*a ⫹ dr* ⫹ dr*a
+共22兲
+r ⫹ r* ⫹ dr ⫹ dr* ⫹ ra ⫹ r*a ⫹ dra ⫹ dr*a
+
+using a strategy similar to that described above for eq. 11,
+it is possible to reduce eq. 22 to the following (ehlert, 2000):
+
+r active
+⫽
+rt
+
+1
+1 ⫹ dka ⫹ ake ⫹ adkake
+1⫹
+ki 共1 ⫹ dkb ⫹ akf ⫹ adkbkf 兲
+
+(23)
+
+it is useful to consider the proportion of orthosteric ligandreceptor complex in the active conformation (dractive/rt):
+
+dr active
+rt
+⫽
+
+dr* ⫹ dr*a
+共24兲
+r ⫹ r* ⫹ dr ⫹ dr* ⫹ ra ⫹ r*a ⫹ dra ⫹ dr*a
+
+this equation represents the orthosteric ligand-induced
+change in activation of the receptor from basal activity. using a strategy similar to that described above, it is possible to
+reduce eq. 24 to the following:
+
+dr active
+⫽
+rt
+
+1
+1 ⫹ ki ⫹ dka ⫹ ake ⫹ akf ki ⫹ adkake
+1⫹
+dkbki ⫹ adkbkf ki
+(25)
+
+in the absence of the allosteric modulator (a ⫽ 0), eq. 25
+reduces to:
+
+dr active
+⫽
+rt
+
+1
+1 ⫹ ki ⫹ dka
+1⫹
+dkbki
+
+(26)
+
+the maximum of this function represents the maximal
+stimulus or observed intrinsic efficacy (epsilon) elicited by the
+orthosteric ligand, and it can be derived by taking its limit as
+d approaches infinity:
+
+ka
+kbki
+
+(27)
+
+by setting eq. 25 equal to equal to one half times eq. 27 and
+solving for d, it is possible to show that the concentration of
+d required for half-maximal receptor activation is equivalent
+to kobs (see eq. 15 in the absence of a). the equation describing receptor activation in the presence of a maximally effective concentration of the allosteric modulator can be derived
+by taking the limit of eq. 25 as a approaches infinity:
+
+dr active
+⫽
+rt
+
+1
+ke ⫹ kf ki ⫹ dkake
+1⫹
+dkbkfki
+
+(28)
+
+the maximum of this function represents the maximal
+stimulus or the observed intrinsic efficacy of the orthosteric
+ligand in the presence of a maximally effective concentration
+of the allosteric modulator (epsilon⬘) and can be derived by taking
+its limit as d approaches infinity:
+
+epsilon⬘ ⫽
+
+1
+kake
+1⫹
+kbkf ki
+
+(29)
+
+by setting eq. 25 equal to equal to one half times eq. 29 and
+solving for d, it is possible to show that the concentration of
+d required for half-maximal receptor activation in the presence of a maximally effective concentration of a is equivalent
+to kobs (see eq. 15). the parameter ␤ is defined as the efficacy
+of the orthosteric ligand-receptor-allosteric ligand complex
+(epsilon⬘) complex expressed relative to that of the orthosteric ligand-receptor complex (epsilon) (ehlert, 1988a, 2005). this parameter can be expressed in microscopic constants by taking the
+ratio of epsilon⬘ to epsilon:
+
+1
+ka k e
+1⫹
+epsilon⬘
+kbkf ki
+␤⫽ ⫽
+epsilon
+1
+ka
+1⫹
+kbk i
+
+(30)
+
+this equation reduces to:
+
+␤⫽
+
+kakf ⫹ kbkf ki
+k ake ⫹ k bkf ki
+
+(31)
+
+the product of the maximal change in observed affinity (␣)
+and intrinsic efficacy (␤) caused by the allosteric ligand can
+be derived by taking the product of eqs. 21 and 31, which
+yields:
+
+␣␤ ⫽
+
+k f ⫹ k f ki
+k e ⫹ k f ki
+
+(32)
+
+for a receptor lacking substantial constitutive activity (ki
+⬍⬍ 1), eq. 32 reduces to the following for a negative allosteric
+modulator (kf ⬍ ke):
+
+␣␤ ⬇
+
+kf
+ke
+
+(33)
+
+downloaded from jpet.aspetjournals.org at aspet journals on march 16, 2015
+
+the total proportion of receptors in the active state (ractive/
+rt) can be described as:
+
+⫽
+
+1⫹
+
+(18)
+
+the foregoing second-level parameters can be defined in
+terms of third-level parameters (ehlert, 2000):
+
+共1 ⫹ ki兲共kake ⫹ kbkf ki兲
+␣⫽
+共ke ⫹ kf ki兲共ka ⫹ kbki兲
+
+1
+
+epsilon⫽
+
+1055
+
+1056
+
+ehlert and griffin
+
+equation 33 will also hold for a positive modulator provided that the selectivity of the modulator for the active state
+is much less than the reciprocal of the fraction of the free
+receptor in the active state (i.e., if kf/ke ⬍ 1/ki).
+complex two-state model. the affinity constants for
+the complex two-state model at the third level of analysis are
+described in fig. 8c. these are expressed in inverse molarity
+units and are defined as the ratio of the ligand-receptor
+complex divided by the product of the concentrations of ligand and the corresponding receptor state. for example ka ⫽
+[dr1]/[d][r1]. the unimolecular constants describing the
+equilibrium between the free states of the receptor states are
+defined as: ki ⫽ r1*/r1, kj ⫽ r2/r1 and kk ⫽ r2*/r2.
+receptor occupancy by the agonist in the presence of the
+allosteric ligand can be expressed as:
+
+k obs
+
+(40)
+using a strategy similar to that described in eq. 24, it is
+possible to derive the proportion of orthosteric ligand-receptor complex in the active conformation (dractive/rt):
+
+dr active
+⫽
+rt
+
+(41)
+
+(35)
+
+the maximum of this function represents the maximal
+stimulus elicited by the orthosteric ligand, and it can be
+derived by taking its limit as d approaches infinity. in the
+absence of the allosteric modulator (a ⫽ 0), the maximum
+denotes the observed intrinsic efficacy (epsilon) of the orthosteric
+ligand:
+
+epsilon⫽
+
+(36)
+
+ke ⫹ kikf ⫹ kj共kg ⫹ khkk兲
+k2 ⫽
+1 ⫹ k i ⫹ k j 共 1 ⫹ k k兲
+
+(37)
+
+共1 ⫹ ki ⫹ kj共1 ⫹ kk兲兲
+⫻ 共kake ⫹ kbkf ki ⫹ kj共kckg ⫹ kdkhkk兲兲
+␣⫽
+共ke ⫹ kf ki ⫹ kj共kg ⫹ khkk兲兲
+⫻ 共ka ⫹ kbki ⫹ kj共kc ⫹ kdkk兲兲
+
+(38)
+
+the proportion of receptors in the active state can be described as:
+
+r1* ⫹ r2* ⫹ r1*a ⫹ r2*a ⫹ dr1*
+r active
+⫹ dr1*a ⫹ dr2* ⫹ dr2*a
+⫽
+rt
+r1 ⫹ r2 ⫹ r1* ⫹ r2* ⫹ dr1 ⫹ dr1* ⫹ r1a
+⫹ r1*a ⫹ dr1a ⫹ dr1*a ⫹ dr2 ⫹ dr2*
+⫹ r2a ⫹ r2*a ⫹ dr2a ⫹ dr2*a
+
+共39兲
+
+using a strategy analogous to that used with eq. 22 yields:
+
+1
+ka ⫹ kckj
+1⫹
+k b k i ⫹ k d k jk k
+
+(42)
+
+in the presence of a maximally effective concentration of
+the allosteric modulator, the maximum of eq. 41 represents
+the observed intrinsic efficacy of the orthosteric ligand in the
+presence of a maximally effective concentration of the allosteric modulator (epsilon⬘):
+
+the observed dissociation constant kobs can also be defined
+in terms of second-level parameters as shown above in eqs.
+16 to 18. in the case of the complex two-state model however,
+the second-level parameters are defined by the following
+third-level parameters:
+
+ka ⫹ kbki ⫹ kj共kc ⫹ kdkk兲
+k1 ⫽
+1 ⫹ k i ⫹ k j 共 1 ⫹ k k兲
+
+1
+1 ⫹ k i ⫹ k j ⫹ k jk k ⫹ d 共 k a ⫹ k c k j兲
+⫹ a 共 k e ⫹ k fk i ⫹ k g k j ⫹ k h k jk k 兲
+⫹ da共kake ⫹ kckgkj兲
+1⫹
+d 共 k b k i ⫹ k d k jk k ⫹ a 共 k b k fk i ⫹ k d k h k jk k 兲
+
+(34)
+
+using a strategy analogous to that used in eq. 11 yields a
+simple one-site model for agonist receptor occupancy in the
+presence of allosteric modulator. this model is equivalent to
+eq. 14 with an observed dissociation constant defined in
+third-level parameters as:
+
+1 ⫹ ki ⫹ kj 共1 ⫹ kk兲
+⫹ a共ke ⫹ kf ki ⫹ kj共kg ⫹ khkk兲兲
+⫽
+k a ⫹ k b k i ⫹ k j共 k c ⫹ k d k k 兲
+⫹ a共kake ⫹ kbkfki ⫹ kj共kckg ⫹ kdkhkk兲兲
+
+1
+1 ⫹ k j ⫹ d 共 k a ⫹ k c k j兲 ⫹ a 共 k e ⫹ k g kj 兲
+⫹ da共kake ⫹ kckgkj兲
+1⫹
+k i ⫹ k j k k ⫹ d 共 k b k i ⫹ k d k jk k 兲
+⫹ a共kfki ⫹ khkjkk兲 ⫹ da共kbkfki ⫹ kdkhkjkk兲
+
+epsilon⬘ ⫽
+
+1
+kake ⫹ kckgkj
+1⫹
+k b k fk i ⫹ k d k h k jk k
+
+(43)
+
+using a strategy like that used with eq. 30, it can be shown
+that the cooperativity constant for the maximal change in
+efficacy (␤) caused by the allosteric ligand is defined as:
+
+共 k b k fk i ⫹ k d k h k j k k 兲
+epsilon⬘
+⫻ 共 k a ⫹ k b k i ⫹ k c kj ⫹ k d kj k k 兲
+␤⫽ ⫽
+共44兲
+epsilon
+共 k b k i ⫹ k d k jk k 兲
+⫻ 共 k a k e ⫹ k b k f k i ⫹ k c k g k j ⫹ k d k h kj k k 兲
+the product of the maximal change in observed affinity (␣)
+and intrinsic efficacy (␤) caused by the allosteric ligand can
+be derived by taking the product of eqs. 38 and 44, which
+yields:
+
+␣␤ ⫽
+
+共kbkfki ⫹ kdkhkjkk兲共1 ⫹ ki ⫹ kj ⫹ kjkk兲
+共45兲
+共kbki ⫹ kdkjkk兲共ke ⫹ kfki ⫹ kgkj ⫹ khkjkk兲
+
+when the equilibrium between the free forms of the receptor favors the r1 state over r2 (i.e., ki ⬎⬎ kj and kk) and the
+receptor lacks constitutive activity (ki ⬍⬍ 1), eq. 45 reduces to
+the following for a negative allosteric modulator (kf ⬍ ke):
+
+␣␤ ⬇
+
+kf
+ke
+
+(46)
+
+downloaded from jpet.aspetjournals.org at aspet journals on march 16, 2015
+
+dr1 ⫹ dr1* ⫹ dr1a ⫹ dr1*a
+bound
+⫹ dr2 ⫹ dr2* ⫹ dr2a ⫹ dr2*a
+⫽
+rt
+r1 ⫹ r2 ⫹ r1* ⫹ r1* ⫹ dr1 ⫹ dr1*
+⫹ r1a ⫹ r1*a ⫹ dr1a ⫹ dr1*a
+⫹ dr2 ⫹ dr2* ⫹ r2a ⫹ r2*a
+⫹ dr2a ⫹ dr2*a
+
+r active
+⫽
+rt
+
+allosteric modulation of the muscarinic  xxxg448xxx 
+
+equation 46 will also hold for a positive modulator provided that the selectivity of the modulator for the active state
+of r1 is much less than the reciprocal of the fraction of free r1
+in the active state (i.e., if kf/ke ⬍ 1/ki). when the equilibrium between the free forms of the receptor favors the r2
+state over r1 (i.e., kj ⬎⬎ ki) and the receptor lacks constitutive activity (kk ⬍⬍ 1), eq. 45 reduces to the following for a
+negative allosteric modulator (kh ⬍ kg):
+
+␣␤ ⬇
+
+kh
+kg
+
+(47)
+
+bound ⫽ 关ds1s2兴 ⫹ 关ds1⬘s2兴 ⫹ 关ds1s2*兴 ⫹ 关ds1⬘s2*兴
+
+共1 ⫹ kh兲共1 ⫹ kg ⫹ a共ke ⫹ kfkg兲兲
+共1 ⫹ kc ⫹ kh ⫹ kdkh兲共ka ⫹ kbkg ⫹ a共kake ⫹ kbkfkg兲兲
+(50)
+
+this kobs can also be defined in second-level parameters:
+
+k obs ⫽
+
+1 ⫹  xxxg108xxx 
+(51)
+k1⫺r ⫹ k1⫺rk1⫺a ⫹ a␣k1⫺rk2 ⫹ a␣k1⫺rk1⫺ xxxg108xxx 
+
+equation 51 can be rearranged into the following form
+illustrating that the allosteric modulator has a multiplicative
+effect on the observed affinity of the orthosteric ligand complex corresponding to the factor p:
+
+k obs ⫽ p
+
+1
+k1⫺r ⫹ k1⫺rk1⫺a
+
+(52)
+
+in which p is defined as:
+
+p⫽
+
+1 ⫹  xxxg108xxx 
+1 ⫹ a␣k2
+
+(53)
+
+the foregoing second-level parameters can be defined in
+terms of third-level parameters:
+
+k 1⫺r ⫽
+
+ka ⫹ kbkg
+1 ⫹ kg
+
+(54)
+
+k 1⫺a ⫽
+
+kc ⫹ k d k h
+1 ⫹ kh
+
+(55)
+
+k2 ⫽
+␣ ⫽ ␣r ⫽
+
+ke ⫹ kf kg
+1 ⫹ kg
+
+共kake ⫹ kbkfkg兲共1 ⫹ kg兲
+共ke ⫹ kf kg兲共ka ⫹ kbkg兲
+
+(56)
+
+(57)
+
+⫹ 关s1⬘as2兴 ⫹ 关s1as2*兴 ⫹ 关s1⬘as2*兴 ⫹ 关ds1s2兴
+
+the cooperativity constant ␣r denotes the cooperativity
+between the binding of d and a at the relay site. it can be
+shown that whenever the constant describing the transfer of
+d from the relay site to the activation site is independent of
+the conformation of the relay site, then ␣r ⫽ ␣, where ␣
+denotes the observed cooperativity constant in the allosteric
+ternary complex model (fig. 1b). in other words, if ds1s2/
+s1ds2 ⫽ ds1⬘s2/s1⬘ds2 ⫽ kc and ds1s2*/s1ds2* ⫽
+ds1⬘s2*/s1⬘ds2* ⫽ kd, then ␣r ⫽ ␣. we use different variables to denote ␣r and ␣ because a modification of the tandem two-site, two-state model without the forgoing constraint would yield different values for ␣r and ␣.
+the amount of receptors in the active state is defined as:
+
+⫹ 关ds1⬘s2兴 ⫹ 关ds1s2*兴 ⫹ 关ds1⬘s2*兴 ⫹ 关s1ds2兴
+
+r active ⫽ 关s1s2*兴 ⫹ 关s1⬘s2*兴 ⫹ 关s1as2*兴 ⫹ 关s1⬘as2*兴
+
+⫹ 关s1ds2兴 ⫹ 关s1⬘ds2兴 ⫹ 关s1ds2*兴 ⫹ 关s1⬘ds2*兴
+⫹ 关ds1as2兴 ⫹ 关ds1⬘as2兴 ⫹ 关ds1as2*兴
+⫹ 关ds1⬘as2*兴 ⫹ 关s1ads2兴 ⫹ 关s1⬘ads2兴
+⫹ 关s1ads2*兴 ⫹ 关s1⬘ads2*兴
+
+(48)
+
+the total amount of receptor is defined as:
+
+r t ⫽ 关s1s2兴 ⫹ 关s1⬘s2兴 ⫹ 关s1s2*兴 ⫹ 关s1⬘s2*兴 ⫹ 关s1as2兴
+
+⫹ 关s1⬘ds2兴 ⫹ 关s1ds2*兴 ⫹ 关s1⬘ds2*兴
+
+⫹ 关ds1s2*兴 ⫹ 关ds1⬘s2*兴 ⫹ 关s1ds2*兴
+
+⫹ 关ds1as2兴 ⫹ 关ds1⬘as2兴 ⫹ 关ds1as2*兴
+
+⫹ 关s1⬘ds2*兴 ⫹ 关ds1as2*兴 ⫹ 关ds1⬘as2*兴
+
+⫹ 关ds1⬘as2*兴 ⫹ 关s1ads2兴 ⫹ 关s1⬘ads2兴
+⫹ 关s1ads2*兴 ⫹ 关s1⬘ads2*兴
+
+⫹ 关s1ads2*兴 ⫹ 关s1⬘ads2*兴
+(49)
+
+using a strategy analogous to that used in eq. 11 yields a
+simple one-site model for agonist receptor occupancy in the
+presence of allosteric modulator. this model is equivalent to
+eq. 14 with an observed dissociation constant defined as:
+
+(58)
+
+the total amount of receptors (rt) is defined in eq. 49.
+using a strategy analogous to that used in eq. 11 yields the
+equation for the amount of receptor in the active state:
+
+r active
+1
+⫽
+rt
+1 ⫹ kactive
+
+(59)
+
+downloaded from jpet.aspetjournals.org at aspet journals on march 16, 2015
+
+equation 47 holds for a positive modulator provided that
+the selectivity of the modulator for the active state of r2 is
+much less than the reciprocal of the fraction of free r2 in the
+active state (i.e., if kh/kg ⬍ 1/kk). it can be seen from eqs. 46
+and 47 that the value of the product ␣␤ is bounded by the
+interval of kf/ke to kh/kg.
+tandem two-site, two-state model. the affinity constants for the tandem two-site, two-state model at the third
+level of analysis are described in fig. 10c. these are expressed in inverse molarity units and are defined as the ratio
+of the ligand-receptor complex divided by the product of the
+concentrations of ligand and the corresponding receptor
+state. for example ka ⫽ [ds1s2]/[d][s1s2]. the unimolecular
+constants describing the transfer of ligand between the relay
+site and the ground and active states of the activation site are
+defined as: kc ⫽ s1ds2/ds1s2 and kd ⫽ s1ds2*/ds1s2*.
+the equilibrium between the free states of the relay site and
+the activation site are independent of each other and are
+defined as: kg ⫽ s1⬘/s1 and kh ⫽ s2*/s2.
+the amount of bound orthosteric ligand in the presence of
+allosteric modulator is defined as:
+
+k obs ⫽
+
+1057
+
+1058
+
+ehlert and griffin
+
+in which,
+
+epsilon⬘ ⫽
+k active
+
+numerator1
+⫽
+denominator1
+
+(60)
+
+numerator1 ⫽ 1 ⫹ kg ⫹ d共ka ⫹ kakc ⫹ kbkg ⫹ kbkckg兲
+⫹ a共ke ⫹ kfkg兲 ⫹ da共kake ⫹ kakcke
+⫹ kbkckfkg ⫹ kbkfkg兲 (61)
+
+␤⫽
+
+⫹ d 共 ka ⫹ k bk dkg ⫹ k bk g ⫹ k a kd兲 ⫹ a 共 ke ⫹ k fkg兲
+⫹ da共kakc ⫹ kakdke ⫹ kbkfkg ⫹ kbkdkfkg兲兲 (62)
+
+(63)
+
+in which,
+
+k dr⫺active ⫽
+
+numerator2
+denominator2
+
+bound ⫽ lr ⫹ lra ⫽
+
+k obs ⫽
+
+⫻ 共1 ⫹ kh兲 ⫹ ad共kake ⫹ kbkfkg兲
+⫻ 共1 ⫹ kc ⫹ kh兲 (65)
+
+by setting a ⫽ 0 in eq. 63 and taking its limit as d
+approaches infinity, it is possible to derive the maximal stimulus (epsilon) generated by the orthosteric ligand in the absence of
+the allosteric modulator:
+
+(67)
+
+k obs⬘ ⫽
+
+1⫹
+
+kc
+kd kh
+
+by taking the limit of eq. 63 as both a and d approach
+infinity, it is possible to estimate the maximal stimulus generated by the orthosteric ligand in the presence of a maximally effective concentration of the allosteric modulator (epsilon⬘):
+
+(73)
+
+l ⫻ rt
+l ⫹ kobs⬘
+l ⫹ kobs
+⫽
+f⫽
+l ⫻ rt
+l ⫹ kobs
+l ⫹ kobs⬘
+
+d
+lr + a
+
+(68)
+
+1 ⫹  xxxg108xxx 
+k1⫺nms ⫹ a␣nmsk1⫺nmsk2
+
+in which kobs⬘ denotes the observed dissociation constant of
+[3h]nms in the absence of agonist. the equation describing
+the competitive inhibition of the binding of a fixed concentration of [3h]nms by various concentration of agonist in the
+presence of a fixed concentration of  xxxd2174xxx  can be derived
+by taking the ratio of eq. 71 divided by the same equation
+with kobs⬘ substituted in for kobs.
+
+given that kc denotes the unimolecular constant describing the transfer of orthosteric ligand from the relay site (s1)
+to the inactive state of the activation site (s2), we would
+expect that kc ⬎ 1. thus, for a receptor lacking constitutive
+activity (kh ⬍⬍ 1), observed intrinsic efficacy can be well
+approximated by:
+
+1
+
+(72)
+
+in the absence of agonist (d ⫽ 0), the observed dissociation
+constant of [3h]nms reduces to:
+
+⫽ dkdkh共共ka ⫹ kbkg兲 ⫹ a共kake ⫹ kbkfkg兲兲 (66)
+
+epsilon⬇
+
+(71)
+
+1 ⫹  xxxd1482xxx ⫺d ⫹ ak2共1 ⫹ d␣ xxxd1482xxx ⫺d兲
+k1⫺nms ⫹ a␣nmsk1⫺ nmsk2
+
+denominator2
+
+1
+1 ⫹ kc ⫹ kh
+1⫹
+kd kh
+
+l ⫻ rt
+l ⫹ kobs
+
+in which
+
+⫻ 共 1 ⫹ k c ⫹ k h 兲 ⫹ a 共 k e ⫹ k fk g 兲
+
+epsilon⫽
+
+(70)
+
+analysis of agonist/[3h]nms competition experiments in the presence of  xxxd2174xxx . the scheme describing the competitive interaction between agonist (d) and
+[3h]nms (l) at the m2 muscarinic receptor in the presence of
+ xxxd2174xxx  (a) is described in scheme 1 (ehlert, 1985).
+the various affinity constant are defined above, and subscripts have been added to discriminate between the parameters of the agonist and [3h]nms. the analytical solution to
+this scheme of equilibria has be described previously within
+the context of a ternary complex model (ehlert, 1985):
+
+(64)
+
+numerator2 ⫽ 1 ⫹ kg ⫹ kh ⫹ kgkh ⫹ d共ka ⫹ kbkg兲
+
+epsilon⬘
+⫽1
+epsilon
+
+k1-nms
+
+alphanmsk2
+
+d
++
+l+r+a
+
+k1-d
+
+d
+
+alphanmsk1-nms
+
+l + ra
++
+d
+
+l
++
+dr + a
+
+alphadk2
+
+k2
+
+lra
+
+(74)
+
+alphadk1-d
+
+dra
++
+l
+
+scheme 1. competitive interaction between agonist (d) and [3h]nms (l)
+at the m2 muscarinic receptor in the presence of  xxxd2174xxx  (a).
+
+downloaded from jpet.aspetjournals.org at aspet journals on march 16, 2015
+
+the proportion of orthosteric ligand-receptor complex in
+the active state (dractive/rt) is defined as:
+
+(69)
+
+it can be seen that the observed intrinsic efficacy of the
+orthosteric ligand in the absence of the allosteric modulator
+(eq. 67 is the same as that in the presence of the modulator,
+eq. 69), indicating that the allosteric modulator has no effect
+on the observed intrinsic efficacy of the orthosteric ligand
+receptor complex:
+
+denominator1 ⫽ kh共共1 ⫹ kg兲
+
+1
+dr active
+⫽
+rt
+1 ⫹  xxxg1274xxx ⫺active
+
+1
+1 ⫹ kc ⫹ kh
+1⫹
+kdkh
+
+allosteric modulation of the muscarinic  xxxg448xxx 
+
+in this equation, f denotes the fractional binding of
+[3h]nms at a fixed concentration measured in the presence
+of various concentrations of agonist and a fixed concentration
+of  xxxd2174xxx  divided by that measured in the absence of
+agonist. substituting in eqs. 72 and 73 for kobs and kobs⬘
+followed by rearrangement yields:
+
+f⫽
+
+1
+d共k1⫺d ⫹ a␣ xxxd1482xxx ⫺dk2兲
+1⫹
+1 ⫹  xxxg108xxx  ⫹ l共k1⫺nms ⫹ a␣nmsk1⫺dk2兲
+
+(75)
+
+when d is present at a concentration causing 50% displacement specific [3h]nms binding, eq. 75 becomes:
+
+1
+⫽
+2
+
+1
+ic50⬘共k1⫺d ⫹ a␣ xxxd1482xxx ⫺dk2兲
+1⫹
+1 ⫹  xxxg108xxx  ⫹ l共k1⫺nms ⫹ a␣nmsk1⫺dk2兲
+
+(76)
+
+ic50⬘ ⫽
+
+1 ⫹  xxxg108xxx  ⫹ l共k1⫺nms ⫹ a␣nmsk1⫺nmsk2兲
+k1⫺d ⫹ a␣ xxxd1482xxx ⫺dk2
+
+(77)
+
+equation 77 can be used to describe the ic50 value of the
+agonist in the absence of  xxxd2174xxx  by setting a ⫽ 0. under
+this condition, eq. 77 reduces to:
+
+ic50 ⫽
+
+1 ⫹ lk1⫺nms
+k1⫺d
+
+(78)
+
+equation 78 is equivalent to that described by cheng and
+prussoff (1973), with the dissociation constants replaced with
+affinity constants. the shift in the agonist/[3h]nms competition curves caused by  xxxd2174xxx  can be derived by taking
+the ratio of the ic50 value of the agonist measured in the
+presence of  xxxd2174xxx  divided by that measured in its absence (r):
+
+r⫽
+
+ic50⬘
+ic50
+
+(79)
+
+substituting in eqs. 77 and 78 for ic50⬘ and ic50 followed
+by rearrangement yields:
+
+r⫽
+
+1 ⫹  xxxg108xxx  ⫹ l共k1⫺nms ⫹ a␣nmsk1⫺nmsk2兲
+1 ⫹ lk1⫺nms ⫹ a␣dk2 ⫹ al␣ xxxd1482xxx ⫺nmsk2
+
+(80)
+
+solving this equation for ␣d yields eq. 7 (see materials and
+methods).
+references
+avlani va, gregory kj, morton cj, parker mw, sexton pm, and christopoulos
+a (2007) critical role for the second extracellular loop in the binding of both
+orthosteric and allosteric g protein-coupled receptor ligands. j biol chem
+282:25677–25686.
+birdsall nj, burgen as, hulme ec, stockton jm, and zigmond mj (1983) the effect
+of mcn-a-343 on muscarinic receptors in the cerebral cortex and heart. br j
+pharmacol 78:257–259.
+birdsall nj and lazareno s (2005) allosterism at muscarinic receptors: ligands and
+mechanisms. mini rev med chem 5:523–543.
+black jw and leff p (1983) operational models of pharmacological agonism. proc r
+soc lond b 220:141–162.
+cheng y and prusoff wh (1973) relationship between the inhibition constant (k1)
+and the concentration of inhibitor which causes 50 per cent inhibition ( xxxd1289xxx ) of an
+enzymatic reaction. biochem pharmacol 22:3099 –3108.
+christopoulos a and mitchelson f (1997) pharmacological analysis of the mode of
+interaction of mcn-a-343 at atrial muscarinic m2 receptors. eur j pharmacol
+339:153–156.
+
+clark al and mitchelson f (1976) the inhibitory effect of  xxxd2174xxx  on muscarinic
+receptors. br j pharmacol 58:323–331.
+colquhoun d (1998) binding, gating, affinity and efficacy: the interpretation of
+structure-activity relationships for agonists and of the effects of mutating receptors. br j pharmacol 125:924 –947.
+colquhoun d and sakmann b (1985) fast events in single-channel currents activated by acetylcholine and its analogues at the frog muscle end-plate. j physiol
+369:501–557.
+ehlert fj (1985) the relationship between muscarinic receptor occupancy and
+adenylate cyclase inhibition in the rabbit myocardium. mol pharmacol 28:410 –
+421.
+ehlert fj (1986) ‘inverse agonists’, cooperativity and drug action at benzodiazepine
+receptors. trends pharmacol sci 7:28 –32.
+ehlert fj (1987) coupling of muscarinic receptors to adenylate cyclase in the
+rabbit myocardium: effects of receptor inactivation. j pharmacol exp ther
+240:23–30.
+ehlert fj (1988a) estimation of the affinities of allosteric ligands using radioligand
+binding and pharmacological null methods. mol pharmacol 33:187–194.
+ehlert fj (1988b)  xxxd2174xxx  allosterically antagonizes muscarinic receptormediated inhibition of adenylate cyclase activity in the rat myocardium. j pharmacol exp ther 247:596 – 602.
+ehlert fj (2000) ternary complex model, in biomedical applications of computer
+modeling (christopoulos a ed) pp 21– 85, crc press, boca raton, fl.
+ehlert fj (2005) analysis of allosterism in functional assays. j pharmacol exp ther
+315:740 –754.
+ehlert fj (2008) on the analysis of ligand directed signaling at g protein coupled
+receptors. naunyn-schmiedeberg’s arch pharmacol, in press.
+ehlert fj, roeske wr, gee kw, and yamamura hi (1983) an allosteric model for
+benzodiazepine receptor function. biochem pharmacol 32:2375–2383.
+furchgott rf (1966) the use of ␤-haloalkylamines in the differentiation of receptors
+and in the determination of dissociation constants of receptor-agonist complexes.
+adv drug res 3:21–55.
+gnagey al, seidenberg m, and ellis j (1999) site-directed mutagenesis reveals
+two epitopes involved in the subtype selectivity of the allosteric interactions of
+ xxxd2174xxx  at muscarinic acetylcholine receptors. mol pharmacol 56:1245–
+1253.
+hall da (2000) modeling the functional effects of allosteric modulators at pharmacological receptors: an extension of the two-state model of receptor activation. mol
+pharmacol 58:1412–1423.
+harel m, schalk i, ehret-sabatier l, bouet f, goeldner m, hirth c, axelsen ph,
+silman i, and sussman jl (1993) quaternary ligand binding to aromatic
+residues in the active-site gorge of acetylcholinesterase. proc natl acad sci u
+s a 90:9031–9035.
+hulme ec, lu zl, saldanha jw, and bee ms (2003) structure and activation of
+muscarinic acetylcholine receptors. biochem soc trans 31:29 –34.
+jakubı́k j, bacakova l, lisa v, el-fakahany ee, and tucek s (1996) activation of
+muscarinic acetylcholine receptors via their allosteric binding sites. proc natl
+acad sci u s a 93:8705– 8709.
+jakubik j, el-fakahany ee, and tucek s (2000) evidence for a tandem two-site
+model of ligand binding to muscarinic acetylcholine receptors. j biol chem 275:
+18836 –18844.
+koshland de, nemethy g, and filmer d (1966) comparison of experimental binding
+data and theoretical models in proteins containing subunits. biochemistry 5:365–385.
+lazareno s and birdsall nj (1995) detection, quantitation, and verification of
+allosteric interactions of agents with labeled and unlabeled ligands at g proteincoupled receptors: interactions of strychnine and acetylcholine at muscarinic receptors. mol pharmacol 48:362–378.
+leppik ra, miller rc, eck m, and paquet jl (1994) role of acidic amino acids in the
+allosteric modulation by  xxxd2174xxx  of antagonist binding at the m2 muscarinic
+acetylcholine receptor. mol pharmacol 45:983–990.
+levitan es, blair la, dionne ve, and barnard ea (1988) biophysical and pharmacological properties of cloned gabaa receptor subunits expressed in xenopus
+oocytes. neuron 1:773–781.
+matsui h, lazareno s, and birdsall nj (1995) probing of the location of the allosteric site
+on m1 muscarinic receptors by site-directed mutagenesis. mol pharmacol 47:88 –98.
+may lt, avlani va, langmead cj, herdon hj, wood md, sexton pm, and christopoulos a (2007) structure-function studies of allosteric agonism at m2 muscarinic acetylcholine receptors. mol pharmacol 72:463– 476.
+monod j, wyman j, and changeux jp (1965) on the nature of allosteric transitions:
+a plausible model. j mol biol 12:88 –118.
+salomon y, londos c, and rodbell m (1974) a highly sensitive adenylate cyclase
+assay. anal biochem 58:541–548.
+schultz j, hamprecht b, and daly jw (1972) accumulation of adenosine 3⬘:5⬘-cyclic
+monophosphate in clonal glial cells: labeling of intracellular adenine nucleotides
+with radioactive adenine. proc natl acad sci u s a 69:1266 –1270.
+sigel e and baur r (1988) allosteric modulation by benzodiazepine receptor ligands
+of the gabaa receptor channel expressed in xenopus oocytes. j neurosci 8:289 –
+295.
+stockton jm, birdsall nj, burgen as, and hulme ec (1983) modification of the binding
+properties of muscarinic receptors by  xxxd2174xxx . mol pharmacol 23:551–557.
+thomas ea, hsu hh, griffin mt, hunter al, luong t, and ehlert fj (1992)
+conversion of n-(2-chloroethyl)-4-piperidinyl diphenylacetate (4-damp mustard)
+to an aziridinium ion and its interaction with muscarinic receptors in various
+tissues. mol pharmacol 41:718 –726.
+trankle c, dittmann a, schulz u, weyand o, buller s, johren k, heller e,
+birdsall nj, holzgrabe u, ellis j, et al. (2005) atypical muscarinic allosteric
+modulation: cooperativity between modulators and their atypical binding topology in muscarinic m2 and m2/m5 chimeric receptors. mol pharmacol 68:
+1597–1610.
+voigtländer u, johren k, mohr m, raasch a, trankle c, buller s, ellis j, holtje
+
+downloaded from jpet.aspetjournals.org at aspet journals on march 16, 2015
+
+in which ic50⬘ denotes the ic50 value of the agonist measured
+in the presence of  xxxd2174xxx . solving this equation for ic50⬘
+yields:
+
+1059
+
+1060
+
+ehlert and griffin
+
+hd, and mohr k (2003) allosteric site on muscarinic acetylcholine receptors:
+identification of two amino acids in the muscarinic  xxxg448xxx  that account
+entirely for the m2/m5 subtype selectivities of some structurally diverse allosteric ligands in n-methylscopolamine-occupied receptors. mol pharmacol 64:
+21–31.
+zahn k, eckstein n, trankle c, sadee w, and mohr k (2002) allosteric modulation of muscarinic receptor signaling: alcuronium-induced conversion of pilo-
+
+carpine from an agonist into an antagonist. j pharmacol exp ther 301:720 –
+728.
+
+address correspondence to: dr. frederick j. ehlert, department of pharmacology, school of medicine, university of california, irvine, ca 92697-4625.
+e-mail: fjehlert@uci.edu
+
+downloaded from jpet.aspetjournals.org at aspet journals on march 16, 2015
+

@@ -1,0 +1,509 @@
+doi: 10.1002/cmdc.201000146
+
+jostling for position: optimizing linker location in the
+design of  xxxg730xxx -targeting protacs
+kedra cyrus,[a] marie wehenkel,[a] eun-young choi,[b] hyosung lee,[a] hollie swanson,[b] and
+kyung-bo kim*[a]
+ xxxg730xxx -a (er) antagonists have been widely used
+for breast cancer therapy. despite initial responsiveness, hormone-sensitive er-positive cancer cells eventually develop resistance to er antagonists. it has been shown that in most of
+these resistant tumor cells, the er is expressed and continues
+to regulate tumor growth. recent studies indicate that  xxxd3285xxx  initially acts as an antagonist, but later functions as an er
+agonist, promoting tumor growth. this suggests that targeted
+er degradation may provide an effective therapeutic approach
+for breast cancers, even those that are resistant to conventional therapies. with this in mind, we previously demonstrated
+that proteolysis targeting chimeras (protacs) effectively
+induce degradation of the er as a proof-of-concept experiment. herein we further refined the protac approach to
+target the er for degradation. the er-targeting protacs are
+
+composed of an estradiol on one end and a hypoxia-inducing
+factor 1a ( xxxg1048xxx )-derived synthetic pentapeptide on the other.
+the pentapeptide is recognized by an e3 ubiquitin ligase
+called the von hippel lindau tumor suppressor protein ( xxxg2415xxx ),
+thereby recruiting the er to this e3 ligase for ubiquitination
+and degradation. specifically, the pentapeptide is attached at
+three different locations on estradiol to generate three different protac types. with the pentapeptide linked through the
+c7a position of estradiol, the resulting protac shows the
+most effective er degradation and highest affinity for the  xxxg730xxx . this result provides an opportunity to develop
+a novel type of er antagonist that may overcome the resistance of breast tumors to conventional drugs such as  xxxd3285xxx 
+and  xxxd2165xxx  ( xxxd2165xxx ).
+
+introduction
+breast cancer is the most common form of malignant disease
+in women worldwide. the majority of breast tumors, about
+two thirds of those initially diagnosed, are  xxxg730xxx -a
+(er)-positive. in most cases the er plays a significant role in
+the stimulation and growth of these breast tumors.[1, 2] for example, the protein level of the er is elevated in pre-malignant
+and malignant breast lesions relative to normal tissue.[1] in addition, the clear correlation between er-positive breast tumors
+and their response to anti-estrogen therapy has been demonstrated.[3]
+most er-positive tumors initially respond well to anti-estrogens, which block the site at which estrogen can bind, thereby
+halting the growth of cancer cells.  xxxd3285xxx , a non-steroid selective er modulator (serm), is an anti-estrogen therapeutic
+which has been widely used for more than 20 years in all
+stages of er-positive breast cancers.[4, 5] specifically,  xxxd3285xxx 
+induces a conformational change of the er that blocks the receptor’s function.[6] another example is  xxxd2165xxx  ( xxxd2165xxx ),[7, 8] which is a pure steroidal anti-estrogen approved for
+the treatment of post-menopausal women with hormone-sensitive, advanced, or metastatic breast cancers. like  xxxd3285xxx ,
+ xxxd2165xxx  competitively binds the er and blocks er-promoted
+cell proliferation. whereas  xxxd3285xxx  causes accumulation of
+the er,  xxxd2165xxx , like er-targeting protac molecules, induces selective proteasome-mediated degradation of the er and
+therefore does not exhibit the agonistic effects commonly associated with serms.[9] unfortunately, despite the relative
+chemmedchem 2010, 5, 979 – 985
+
+safety and significant anti-neoplastic activities of these anti-estrogens, most initially responsive breast tumors acquire resistance.[10–14] as such, the major challenge is to develop novel
+therapeutic agents that not only inhibit the growth of hormone-sensitive breast tumors, but also prevent the development of drug resistance.
+although the mechanism by which er-positive cancer cells
+acquire drug resistance is not clearly understood, it is unlikely
+that any single mechanism or gene confers anti-estrogen resistance. given that less than 25 % of tumors which recur following treatment with  xxxd2165xxx  or  xxxd3285xxx  lack the
+er,[15, 16] er loss does not seem to be the major mechanism
+that drives acquired resistance. it has also been shown that a
+loss of anti-estrogen responsiveness by initially sensitive
+tumors is unlikely due to mutations or deletion of the er
+gene.[1, 14] in fact, most tumors at recurrence retain levels of er
+[a] dr. k. cyrus,+ m. wehenkel,+ dr. h. lee, prof. dr. k.-b. kim
+department of pharmaceutical sciences, university of kentucky
+789 south limestone, lexington, ky 40536-0596 (usa)
+fax: (+ 1) 859-257-7564
+e-mail: kbkim2@uky.edu
+[b] dr. e.-y. choi, prof. dr. h. swanson
+department of molecular and biomedical pharmacology
+university of kentucky, 800 rose st., lexington, ky 40536 (usa)
+[+] these authors contributed equally to this work.
+supporting information for this article is available on the www under
+http://dx.doi.org/10.1002/cmdc.201000146.
+
+ 2010 wiley-vch verlag gmbh & co. kgaa, weinheim
+
+979
+
+med
+
+k.-b. kim et al.
+
+expression that would define them as er positive.[17–21] in addition, the er appears to maintain the
+ability to continuously regulate tumor growth in
+most anti-estrogen-resistant tumors.[20] it has been
+suggested that one likely cause of  xxxd3285xxx  resistance is the ability of tumors to switch from recognizing an anti-estrogen as an antagonist to recognizing
+it as an agonist, perhaps through differential co-regulator recruitment to the er.[22–26] for  xxxd2165xxx , a
+conformational change in the er is suggested to
+affect the binding of co-regulator(s) and to influence
+the stability of the er, thereby causing its rapid degradation. additionally,  xxxd2165xxx  causes a loss of the
+er protein without affecting er mrna levels.[27, 28]
+consistent with this observation, it has been reported
+that resistance of human breast cancer cells to  xxxd2165xxx  is not associated with a general loss of er expression or lack of estrogen responsiveness.[29] taken
+together, it seems that  xxxd3285xxx  and  xxxd2165xxx 
+maintain their er binding affinity despite the loss of
+their antiproliferative or er-antagonistic effects, and
+that the er continues to regulate the growth of resistant er-positive breast cancer cells. consequently,
+a small molecule that targets the er for degradation,
+regardless of changes that induce drug resistance,
+figure 1. protac-induced targeted degradation of the er. a) the protac is composed
+may prove useful as an alternative therapeutic option of three components: an e3 ligase recognition motif, linker, and ligand (in this case, tarfor er-positive breast cancer therapy.
+geting the er). b) the protac recruits the er to the  xxxg2415xxx  e3 ligase complex for ubiquititoward this end, we used a novel small-molecule- nation and subsequent degradation by the 26s proteasome; this degradation of the er
+based technology termed proteolysis targeting chi- should decrease the amount of dimerized er bound to estradiol available to drive gene
+transcription, a major factor in the growth and survival of breast cancers.
+meras (protacs) to target the er for degradation at
+the posttranslational level. protac molecules are
+composed of three major components (figure 1 a): a
+small-molecule ligand for a targeted protein, an e3 ubiquitin
+other potential positions for derivation from 17b-estradiol
+ligase recognition motif, and a linker. for the e3 ligase recognihave been reported. a  xxxd2187xxx -tagged estradiol comtion domain, a 12-mer polypeptide containing two phosphopound derivatized at the c16 position on estradiol was reportserines (derived from  xxxg1561xxx ) was initially used as a proof of coned to maintain its interaction with the er.[35, 36] similarly, deriva[30]
+cept.
+however, the poor bioavailability of the 12-mer
+tization at the c7a position of estradiol has been shown to
+protac necessitates microinjection for delivery, hence limiting
+preserve its binding affinity with the er.[7, 8, 37] for instance, fulits use as a molecular probe. to circumvent this, an alternative
+vestrant has a high er binding affinity, and it is an e2 derivae3 recognition motif was required, so  xxxg1048xxx  polypeptides
+tive with a long hydrocarbon tail at the c7a position. thus, we
+were developed. a pentapeptide was found by our research
+endeavored to create a more stable linker by attaching the
+group and others to be sufficient for  xxxg1048xxx -based protacs to
+pentapeptide at the c16 and c7 positions of estradiol to precross cell membranes and to effectively degrade target propare protacs (scheme 1). herein we report the rational
+teins.[31–33]
+design and optimization of protacs that target the er for
+previously, we developed protacs that target the er by
+ubiquitination and degradation. the information contained
+using estradiol as the ligand and the optimized pentapeptide
+herein also provides an example for protac design that will
+as the e3 recognition motif. these proof-of-concept protacs
+produce molecules with superior effects in cell-based systems.
+used an ester bond to attach the linker moiety to the o17 position of estradiol. a significant drawback to this attachment
+site is its vulnerability to esterases, which would inactivate the
+results and discussion
+protac as well as release estradiol. another critical issue with
+protac synthesis
+the o17-linked protac was the loss of the 17-oh group,
+which is reported to be important for er binding of e2.[34]
+the parent er-targeting protac 2 was synthesized as described.[38] in addition, protac 2 was deprotected at the c tertherefore, e2-based protacs that can spare the 17-oh group
+are desirable for the design of improved protacs that target
+minus of the pentapeptide to give protac 2*, using the same
+the er.
+procedure as described below (13 and 14). to synthesize
+protac 3, a “free amine handle” was introduced at the c16a
+
+980
+
+www.chemmedchem.org
+
+ 2010 wiley-vch verlag gmbh & co. kgaa, weinheim
+
+chemmedchem 2010, 5, 979 – 985
+
+er-targeting protacs
+was activated to the succinimidyl ester 12 by using disuccinimidyl suberate (dss). compound
+12 was finally coupled with the
+ xxxg1048xxx  pentapeptide, and the
+tbdms group was deprotected
+with tetrabutylammonium fluoride (tbaf) to yield protac 13.
+the benzyl group of protac 13
+was removed by hydrogenolysis
+to obtain protac 14.
+as was the case for protac
+13, the most critical step for the
+synthesis of protac 24 is the inscheme 1. synthetic strategy for next-generation er-targeting protacs. attaching the linker by a carbon–carbon
+troduction of a primary amine
+bond should produce protacs with higher er binding affinity and stability in living cells than the parent er-tar“handle” at the c7a position of
+geting protac 2.
+estradiol (scheme 3). a procedure similar to that reported by
+skaddan and katzenellenbogen[41, 42] was followed to introduce this handle. as a first step,
+position of e2 (17b-estradiol) via a carbon–carbon linkage, by
+following a procedure similar to that previously reported
+tetrahydropyran (thp)-protected 15 was synthesized by follow(scheme 2).[36, 39, 40] first, estrone 5 was treated with tert-butyldiing a procedure similar to that previously described.[43–45]
+methylsilyl chloride (tbdmscl) to yield compound 6. alkylation
+deprotonation at the c6 position under “superbase” condiat the c16 position of 6 was carried out by using lithium diisotions followed by treatment with trimethyl borate yielded an
+propylamide (lda) and 1,4-dibromo-2-butene. the resulting
+intermediate borate ester, which was oxidized with hydrogen
+alkyl bromo residue was converted into the azido compound 8
+peroxide to provide 16 as epimers. further oxidation of 16
+by treatment with sodium azide. sequential reduction of the
+with pyridinium chlorochromate (pcc) afforded the keto funcketo and azide groups with sodium borohydride and lithium
+tionality at the c6 position in 17. treatment of 17 with potassialuminum hydride yielded the free amine “handle”, 9. the
+um tert-butoxide and allyl iodide afforded 18. simultaneous
+handle was further extended with glycine to give 11, which
+deprotection of the thp groups and the c6 keto functionality
+
+scheme 2. synthesis of the c16-derivatized estradiol-based protacs: a) tbdmscl, imidazole, 99 %; b) lda, c4h6br2, thf, 45 %; c) nan3, thf, dmso, h2o, 96 %;
+d) 1. nabh4, meoh; 2. lialh4, thf, 35 %; e) fmoc-gly-oh, hbtu, dipea, ch2cl2, 47 %; f) 20 % piperidine in dmf, 67 %; g) dss, dmf, 38 %; h) 1.  xxxg1048xxx  pentapeptide, dmap, dmf; 2. tbaf, thf, 47 %; i) h2, pd/c, etoac, meoh, 89 %.
+
+chemmedchem 2010, 5, 979 – 985
+
+ 2010 wiley-vch verlag gmbh & co. kgaa, weinheim
+
+www.chemmedchem.org
+
+981
+
+med
+
+k.-b. kim et al.
+
+scheme 3. synthesis of an estradiol containing an amine functional group at the c7 position: a) dhp/ xxxd1526xxx , 94 %; b) 1. lidakor; 2. b(ome)3 ; 3. h2o2, 66 %;
+c) pcc, 80 %; d) 1. kotbu, c3h5i, 2. naome, 36 %; e) et3sih, bf3·et2o, 90 %; f) tbdmscl, imidazole, 85 %; g) 1. 9-bbn; 2. h2o2, koh, 66 %; h) pph3, diad, phthalimide, 83 %; i) nh2nh2, 76 %; j) disuccinimidyl glutarate, 37 %; k) 1.  xxxg1048xxx  pentapeptide; 2. tfa, 25 % over two steps.  xxxg1048xxx  pentapeptide = leu-ala-prooh-tyrile-bzl.
+
+was carried out with triethylsilane and boron trifluoride diethyl
+etherate to give 19. the free oh groups were re-protected
+with tbdms groups to give 20, which was then treated under
+hydroboration–oxidation conditions to produce alcohol 21.
+treatment of 21 with phthalimide under mitsunobu conditions
+followed by hydrazinolysis provided the primary amine
+“handle” 23. compound 23 was further extended and activated using dss. sequential coupling of  xxxg1048xxx  pentapeptide and
+deprotection of tbdms groups yielded protac 24.
+
+biological characterization of protacs
+protacs 2, 2*, 13, 14, and 24 were tested for their ability to
+degrade the endogenous er in mcf7 breast cancer cells. after
+incubation with protacs for 48 h, their effects on er protein
+levels were evaluated by western blotting analysis and immunofluorescence.
+previous reports indicated that the o17-linked protac 2
+would degrade the er in a proteasome-dependent
+manner.[31, 32, 38] our initial data confirmed this finding (figure 2 a) while demonstrating that the c-terminal-protected
+protac 2 is superior to the deprotected protac 2*. a major
+drawback to these compounds is their susceptibility to endogenous esterases, so we moved forward with the testing of
+carbon-based linkages to confirm the results from these proofof-concept protacs. a similar trend in er degradation was observed for the c16a-based protacs 13 and 14, with the protected pentapeptide providing superior degradation (figure 2 b). the c7a-based protac 24 showed a similar ability to
+
+982
+
+www.chemmedchem.org
+
+figure 2. c-terminal protection of the  xxxg1048xxx  pentapeptide provides improved degradation of the er by protacs linked at any position on estradiol. a) o17 (2 and 2*) and c16 (13 and 14) derivatives of e2-based protacs
+with the benzyl-protected  xxxg1048xxx  pentapeptide (2 and 13) are more effective in degrading the endogenous er than unprotected protacs (2* and
+14). b) a similar pattern was observed for the c7 derivative of e2-based
+protac, as the benzyl-protected compounds 13 and 24 showed greater er
+degradation than the deprotected compound 14.
+
+degrade the er when compared with the c16a-based protac
+13 (figure 2 b).
+next, we further confirmed the protac-mediated degradation of the er in mcf7 cells by immunofluorescence studies.
+estradiol (e2) was used as a positive control. e2 induces proteasome-mediated degradation of the er as a result of transcriptional activation, resulting in cell proliferation. er degradation
+by e2 was blocked by co-treatment with epoxomicin, a natural
+
+ 2010 wiley-vch verlag gmbh & co. kgaa, weinheim
+
+chemmedchem 2010, 5, 979 – 985
+
+er-targeting protacs
+
+figure 3. protacs bind to the er and cause its proteasome-mediated degradation. a) immunofluorescence images of mcf7 cells after 48 h treatment with
+25 mm protacs, 10 nm e2, or dmso vehicle. the er is visualized by conjugation with fitc (green), and dapi staining (blue) indicates the nucleus. co-treatment with epoxomicin causes accumulation of the er. b) western blot data demonstrating the proteasome dependence of protac-mediated er degradation.
+c) competitive binding assay indicating that c7 is a superior position for protac derivatization due to its enhanced binding to the er relative to the o17and c16a-based protacs.
+
+product proteasome-specific inhibitor. compared with dmso
+control, the attenuation of er signal (green) was observed with
+the treatment of 13 and 24 (figure 3 a, top row). these compounds showed an accumulation of the green signal when cotreated with epoxomicin, which was also observed in control/
+epoxomicin treated cells (figure 3 a, bottom row). this result
+was confirmed by western blotting using 24 and e2 (figure 3 b). to validate the superior position for protac linkage, a
+competitive ligand binding affinity assay was performed. these
+in vitro data indicate that the c7a-based protac 24 has the
+highest affinity of the e2-based protac compounds tested, superior even to  xxxd3285xxx . the binding data for the c16a-based
+protacs 13 and 14 also support the data from figure 2 which
+indicates that benzyl protection of the c terminus of the pentapeptide gives a superior compound. because a protac with
+a higher binding affinity for the target protein should induce
+optimal ubiquitination and subsequent degradation by the
+proteasome, further optimization of the protac approach for
+the er should use the c7a linkage.
+
+chemmedchem 2010, 5, 979 – 985
+
+conclusions
+the ubiquitin–proteasome degradation pathway is a destructive, irreversible process and controls many important biological processes such as cell-cycle progression, differentiation,
+and inflammation. we have shown previously that the cellular
+ubiquitination machinery can be hijacked by a protac containing a pentapeptide that is recognized by the e3 ligase
+ xxxg2415xxx , and that a protac containing a ligand of a target protein induces ubiquitination and degradation of that protein in
+living cells.[31, 38, 46] this “chemical knockout” approach provides
+flexible spatial and temporal control, which is critical to dissect
+complex signaling pathways in cells.
+as many diseases are driven by the expression of a few proteins, a potential therapeutic strategy is to remove these essential proteins. small interfering rnas (sirnas), which knock
+down the expression of a gene of interest by destroying its
+mrnas, have drawn considerable attention as a potential therapeutic approach.[47, 48] however, this sirna knock-down strategy has some inherent problems,[47–49] such as off-target effects, sequence-independent effects, activation of unrelated
+signaling pathways, and drug delivery. the protac approach
+does not appear to suffer these same limitations and thus may
+
+ 2010 wiley-vch verlag gmbh & co. kgaa, weinheim
+
+www.chemmedchem.org
+
+983
+
+med
+
+k.-b. kim et al.
+
+provide an additional strategy to treat diseases by destroying
+disease-promoting proteins.
+as er-positive breast cancers require er-promoted cell proliferation, the current therapeutic paradigm relies on the blockage of this hormone-mediated cell growth. thus, a strategy
+which allows selective degradation of the er could provide a
+valuable and novel therapeutic option for many breast cancer
+patients. additionally, most breast cancers that develop resistance to current treatments retain functional ers. optimized
+protacs, which induce the degradation of the er, may thus
+provide an additional therapeutic option for the treatment of
+ xxxd3285xxx - or  xxxd2165xxx -resistant breast tumors.
+in summary, we have shown that a chimeric small molecule
+induces the proteasome-dependent degradation of the er in
+living cells. whether the targeted degradation of er is useful in
+treating hormone-sensitive or anti-estrogen-resistant breast
+tumors remains to be determined. generally, protacs should
+be optimized by determining a position for derivatization that
+retains a maximal binding affinity. additionally, pentapeptidebased protacs benefit from c-terminal protection of the peptide regardless of the linker position. finally, the small-molecule strategy reported herein presents a generic approach to
+target any cancer-promoting protein for degradation.
+
+experimental section
+chemistry
+all reagents were purchased from aldrich. protac 2 was synthesized by following a procedure similar to that previously reported.[50] epoxomicin was synthesized as previously reported.[51] see
+the supporting information for more detailed information on the
+chemical syntheses.
+
+biological assays
+reagents: fetal bovine serum (fbs), rpmi 1640, phenol-red-free
+rpmi, conjugated secondary antibody alexa fluor 488 (fitc), antibiotics, hank’s  xxxd2988xxx  (hbss), goat serum, prolong
+gold antifade with dapi, recombinant human estrogen receptors
+(er-a), and trypsin–edta were purchased from invitrogen (carlsbad, ca, usa). 17b-estradiol,  xxxd3285xxx , kodak xar film, nacl, nonidet-p40 (np40), protease inhibitors cocktail, tween-20, ethanol,
+bovine  xxxg124xxx  (bsa), and 2  laemmli sample buffer were
+obtained from sigma–aldrich (st. louis, mo, usa). charcoal–dextran-treated fbs was purchased from hyclone (logan, ut, usa).
+anti-er antibodies were acquired from santa cruz biochemical
+(santa cruz, ca, usa) for western blotting, and abcam (cambridge,
+ma, usa) for immunofluorescence, while the anti-b-actin antibody
+was purchased from novus biologicals (littleton, co, usa). the
+anti-mouse igg–horseradish peroxidase (hrp) conjugate was obtained from zymed laboratories (south san francisco, ca, usa).
+anti-rabbit igg–hrp and enhanced chemiluminescence (ecl) detection reagents were acquired from ge healthcare (piscataway, nj,
+usa). protein assay dye reagent concentrate, tris·hcl, triton x100,  xxxd3215xxx  (sds), and pvdf membranes were
+purchased from bio-rad (hercules, ca, usa).  xxxd1896xxx 
+(dmso) and kcl were obtained from emd (darmstadt, germany),
+while the celltiter 96 aqueous one solution cell proliferation
+assay was purchased from promega (madison, wi, usa). parafor-
+
+984
+
+www.chemmedchem.org
+
+maldehyde (pfa) was purchased from fisher scientific, while monobasic and dibasic potassium phosphate were acquired from mallinckrodt baker (phillipsburg, nj, usa). antibody dilutant with
+background reducing components was purchased from dako
+(glostrup, denmark), while [6,7-3h]17b-estradiol was purchased
+from amersham biosciences (buckinghamshire, uk).
+cell culture: the mcf7 human breast cancer cell line was purchased from the american type culture collection (manassas, va,
+usa). mcf7 cells were maintained in rpmi 1640 medium containing fbs (10 % v/v), penicillin (100 u ml 1), and streptomycin
+(100 ug ml 1) (gibco, carlsbad, ca, usa). all experiments were performed when the cells were 70 % confluent and had been maintained in 5 % (v/v) charcoal–dextran-treated fbs rpmi with antibiotics for at least 24 h. compounds were treated in a dmso vehicle
+at the appropriate dilutions for 48 h unless noted otherwise.
+western blotting: whole-cell lysates were prepared by incubating
+cells in non-denaturing lysis buffer (50 mm tris·hcl, 150 mm nacl,
+1 % np40, 1 % triton x-100, and 1 % protease inhibitor cocktail) on
+ice for 1 h. cells were then centrifuged (14 000 rpm, microliter rotor
+24  1.5/2 ml, biofuge primo r) with supernatants collected and
+subjected to protein assay by the bradford method. the sample
+was mixed with an equal volume of 2  laemmli sample buffer
+and heated in boiling water for 10 min. equal protein concentrations of the samples were subjected to 10 % sds polyacrylamide
+gel electrophoresis and blotted onto a pvdf membrane. after
+blocking, the membranes were incubated overnight at 4 8c in primary antibody and for 1 h at room temperature with secondary
+antibody. antibody binding was detected using ecl and film. all
+membranes were then re-probed with mouse anti-b-actin to
+ensure equal protein loading.
+cell viability assay by mts: mcf7 cells were plated at a density of
+5  103 cells per well in 96-well plates in rpmi 1640 with 10 % fbs
+and left overnight at 37 8c. the media was changed to 5 % charcoal rpmi for 24 h prior to the addition of compounds. the proliferation rate of the cells was determined after 48 h by using the
+celltiter 96 aqueous one solution cell proliferation assay according to the supplier’s instructions. absorbance was measured at
+l 490 nm on a microplate reader using the kc4 program. ic50
+values were obtained from at least triplicate results via a sigmoid
+dose–response curve using nonlinear regression to a logarithmic
+function (graphpad prism software, san diego, ca, usa).
+er binding affinity assay: competitive ligand binding assays were
+performed according to the manufacturer’s protocol (invitrogen).
+purified human recombinant er (10 nm) was added to 3h-labeled
+estradiol (20 nm) and the indicated concentrations of estradiol or
+protacs. after incubation for 2 h at room temperature or overnight at 4 8c, a 50 % hydroxyapatite slurry was added to bind the
+receptor–ligand complex. the sample was centrifuged (14 000 rpm,
+microliter rotor 24  1.5/2 ml, biofuge primo r), and the pellet resuspended for analysis of tritium activity by scintillation counting.
+the percent specific binding was calculated, and ic50 values were
+obtained using one-site competition curve analyses in graphpad
+prism. relative binding affinity (rba) was calculated by the following equation: rba = (ic50 e2/ic50 sample)  100.
+immunofluorescence: cover slips were sterilized with ethanol and
+uv light exposure. mcf7 cells were added directly to the cover slip
+and allowed to attach for 24 h. the media was then changed to
+phenol-red-free rpmi with 5 % charcoal–dextran-treated fbs until
+treatment with compounds. compounds were diluted in the
+phenol-red-free media and treated as before. cells were then fixed
+with 4 % pfa, washed with phosphate-buffered saline (pbs), and
+
+ 2010 wiley-vch verlag gmbh & co. kgaa, weinheim
+
+chemmedchem 2010, 5, 979 – 985
+
+er-targeting protacs
+permeabilized with 0.2 % triton x-100 in pbs. between all subsequent steps, cover slips were washed in pbst (pbs with 0.05 %
+tween-20). cover slips were blocked in 10 % goat serum with 0.1 %
+bsa in pbst. next, primary antibody was added in the antibody dilutant directly to the cover slip, then secondary antibody was
+added in the same way. prolong gold with dapi was added to
+clean slides to mount the cover slips, and the mounted slides were
+allowed to dry overnight. after drying, the cover slips were
+rimmed with clear nail polish and visualized on an inverted fluorescence microscope (nikon ti-u) with nis element research image
+analysis software.
+
+acknowledgements
+this work was supported by graduate school academic year,
+kentucky opportunity, and american foundation for pharmaceutical education fellowships (m.w.). k.b.k. gratefully acknowledges the support of the markey cancer foundation, nih
+(ca131059), and dod (w81xwh-08-1-0092). h.s. thanks the nih
+for financial support (es014849). we thank members of the
+swanson, lee, and kim research groups for their helpful comments on the manuscript. we are grateful to dr. wooin lee for
+helping with the collection of fluorescent images.
+keywords: e3 ubiquitin ligase · protacs · proteasome ·
+receptors · targeted degradation
+[1] s. sommer, s. a. fuqua, semin. cancer biol. 2001, 11, 339.
+[2] y. omoto, y. kobayashi, k. nishida, e. tsuchiya, h. eguchi, k. nakagawa,
+y. ishikawa, t. yamori, h. iwase, y. fujii, m. warner, j. a. gustafsson, s. i.
+hayashi, biochem. biophys. res. commun. 2001, 285, 340.
+[3] l. e. rutqvist, b. cedermark, t. fornander, u. glas, h. johansson, b. nordenskjold, s. rotstein, l. skoog, a. somell, t. theve, j. clin. oncol. 1989,
+7, 1474.
+[4] v. c. jordan, j. natl. cancer inst. 2003, 95, 338.
+[5] v. c. jordan, cancer cell 2004, 5, 207.
+[6] a. k. shiau, d. barstad, p. m. loria, l. cheng, p. j. kushner, d. a. agard,
+g. l. greene, cell 1998, 95, 927.
+[7] a. e. wakeling, cancer treat. res. 1991, 53, 239.
+[8] a. e. wakeling, j. bowler, biochem. soc. trans. 1991, 19, 899.
+[9] a. e. wakeling, endocr.-relat. cancer 2000, 7, 17.
+[10] s. s. larsen, i. heiberg, a. e. lykkesfeldt, br. j. cancer 2001, 84, 686.
+[11] r. clarke, f. leonessa, j. n. welch, t. c. skaar, pharmacol. rev. 2001, 53,
+25.
+[12] c. k. osborne, e. b. coronado-heinsohn, s. g. hilsenbeck, b. l. mccue,
+a. e. wakeling, r. a. mcclelland, d. l. manning, r. i. nicholson, j. natl.
+cancer inst. 1995, 87, 746.
+[13] a. howell, d. defriend, j. robertson, r. blamey, p. walton, lancet 1995,
+345, 29.
+[14] l. c. dorssers, s. van der flier, a. brinkman, t. van agthoven, j. veldscholte, e. m. berns, j. g. klijn, l. v. beex, j. a. foekens, drugs 2001, 61,
+1721.
+[15] t. bachleitner-hofmann, b. pichler-gebhard, m. rudas, m. gnant, s.
+taucher, d. kandioler, e. janschek, p. dubsky, s. roka, e. sporn, r. jakesz,
+clin. cancer res. 2002, 8, 3427.
+[16] t. kuukasjrvi, j. kononen, h. helin, k. holli, j. isola, j. clin. oncol. 1996,
+14, 2584.
+[17] c. a. encarnacion, d. r. ciocca, w. l. mcguire, g. m. clark, s. a. fuqua,
+c. k. osborne, breast cancer res. treat. 1993, 26, 237.
+[18] j. a. johnston, e. s. johnson, p. r. waller, a. varshavsky, j. biol. chem.
+1995, 270, 8172.
+
+chemmedchem 2010, 5, 979 – 985
+
+[19] s. c. johnston, c. n. larsen, w. j. cook, k. d. wilkinson, c. p. hill, embo j.
+1997, 16, 3787.
+[20] r. clarke, m. c. liu, k. b. bouker, z. gu, r. y. lee, y. zhu, t. c. skaar, b.
+gomez, k. o’brien, y. wang, l. a. hilakivi-clarke, oncogene 2003, 22,
+7316.
+[21] s. ali, r. c. coombes, nat. rev. cancer 2002, 2, 101.
+[22] y. cui, i. parra, m. zhang, s. g. hilsenbeck, a. tsimelzon, t. furukawa, a.
+horii, z. y. zhang, r. i. nicholson, s. a. fuqua, cancer res. 2006, 66,
+5950.
+[23] r. michalides, a. griekspoor, a. balkenende, d. verwoerd, l. janssen, k.
+jalink, a. floore, a. velds, l. van’t veer, j. neefjes, cancer cell 2004, 5,
+597.
+[24] j. d. norris, l. a. paige, d. j. christensen, c. y. chang, m. r. huacani, d.
+fan, p. t. hamilton, d. m. fowlkes, d. p. mcdonnell, science 1999, 285,
+744.
+[25] c. k. osborne, v. bardou, t. a. hopp, g. c. chamness, s. g. hilsenbeck,
+s. a. fuqua, j. wong, d. c. allred, g. m. clark, r. schiff, j. natl. cancer
+inst. 2003, 95, 353.
+[26] v. c. jordan, j. natl. cancer inst. 1998, 90, 967.
+[27] a. l. wijayaratne, d. p. mcdonnell, j. biol. chem. 2001, 276, 35684.
+[28] a. howell, c. k. osborne, c. morris, a. e. wakeling, cancer 2000, 89, 817.
+[29] c. n. larsen, d. finley, cell 1997, 91, 431.
+[30] k. m. sakamoto, k. b. kim, a. kumagai, f. mercurio, c. m. crews, r. j. deshaies, proc. natl. acad. sci. usa 2001, 98, 8554.
+[31] d. zhang, s. h. baek, a. ho, k. kim, bioorg. med. chem. lett. 2004, 14,
+645.
+[32] d. zhang, s.-h. baek, a. ho, h. lee, y. s. jeong, k. kim, comb. chem.
+high throughput screening 2004, 7, 691.
+[33] j. s. schneekloth, jr., f. n. fonseca, m. koldobskiy, a. mandal, r. deshaies, k. sakamoto, c. m. crews, j. am. chem. soc. 2004, 126, 3748.
+[34] g. m. anstead, k. e. carlson, j. a. katzenellenbogen, steroids 1997, 62,
+268.
+[35] s. d. kuduk, t. c. harris, f. f. zheng, l. sepp-lorenzino, q. ouerfelli, n.
+rosen, s. j. danishefsky, bioorg. med. chem. lett. 2000, 10, 1303.
+[36] s. d. kuduk, f. f. zheng, l. sepp-lorenzino, n. rosen, s. j. danishefsky,
+bioorg. med. chem. lett. 1999, 9, 1233.
+[37] c. k. osborne, a. wakeling, r. i. nicholson, br. j. cancer 2004,
+90(suppl.1), s2.
+[38] a. rodriguez-gonzalez, k. cyrus, m. salcius, k. kim, c. m. crews, r. j. deshaies, k. m. sakamoto, oncogene 2008, 27, 7201.
+[39] t. l. fevig, j. e. lloyd, j. a. zablocki, j. a. katzenellenbogen, j. med.
+chem. 1987, 30, 156.
+[40] t. l. fevig, m. k. mao, j. a. katzenellenbogen, steroids 1988, 51, 471.
+[41] m. b. skaddan, j. a. katzenellenbogen, bioconjugate chem. 1999, 10,
+119.
+[42] m. b. skaddan, f. r. wust, j. a. katzenellenbogen, j. org. chem. 1999,
+64, 8108.
+[43] r. tedesco, j. a. thomas, b. s. katzenellenbogen, j. a. katzenellenbogen,
+chem. biol. 2001, 8, 277.
+[44] r. tedesco, m. k. youngman, s. r. wilson, j. a. katzenellenbogen, bioorg.
+med. chem. lett. 2001, 11, 1281.
+[45] s. l. hussey, e. he, b. r. peterson, org. lett. 2002, 4, 415.
+[46] h. lee, d. puppala, e. y. choi, h. swanson, k. b. kim, chembiochem
+2007, 8, 2058.
+[47] d. f. hudson, c. morrison, s. ruchaud, w. c. earnshaw, trends cell biol.
+2002, 12, 281.
+[48] c. m. henry, chem. eng. news 2003, 81(51), 32.
+[49] a. l. jackson, s. r. bartz, j. schelter, s. v. kobayashi, j. burchard, m. mao,
+b. li, g. cavet, p. s. linsley, nat. biotechnol. 2003, 21, 635.
+[50] s. zhang, c. qin, s. h. safe, environ. health perspect. 2003, 111, 1877.
+[51] n. sin, k. b. kim, m. elofsson, l. meng, h. auth, b. h. kwok, c. m. crews,
+bioorg. med. chem. lett. 1999, 9, 2283.
+
+received: april 7, 2010
+revised: april 28, 2010
+published online on may 28, 2010
+
+ 2010 wiley-vch verlag gmbh & co. kgaa, weinheim
+
+www.chemmedchem.org
+
+985
+

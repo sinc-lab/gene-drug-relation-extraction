@@ -1,0 +1,691 @@
+biochimica et biophysica acta 1804 (2010) 433–439
+
+contents lists available at sciencedirect
+
+biochimica et biophysica acta
+j o u r n a l h o m e p a g e : w w w. e l s e v i e r. c o m / l o c a t e / b b a p a p
+
+review
+
+dissecting the role of mtor: lessons from mtor inhibitors
+ryan j.o. dowling, ivan topisirovic, bruno d. fonseca, nahum sonenberg ⁎
+department of biochemistry, rosalind and morris goodman cancer centre, mcgill university, 1160 pine avenue west, rm. 609, montreal, quebec, canada h3a 1a3
+
+a r t i c l e
+
+i n f o
+
+article history:
+received 29 october 2009
+received in revised form 27 november 2009
+accepted 1 december 2009
+available online 11 december 2009
+keywords:
+mammalian  xxxg1478xxx  (mtor)
+s6 kinases (s6ks)
+ xxxg692xxx -binding proteins (4e-bps)
+eukaryotic translation initiation factor  xxxg692xxx 
+( xxxg692xxx )
+rapamycin
+active-site mtor inhibitor
+translation
+
+a b s t r a c t
+recent years have observed signiﬁcant advances in our understanding of how the  xxxg1377xxx 
+ xxxg1478xxx  (tor) controls key cellular processes such as cell survival, growth and proliferation.
+consistent with its role in cell proliferation, the mtor pathway is frequently hyperactivated in a number of
+human malignancies and is thus considered to be an attractive target for anti-cancer therapy. rapamycin and
+its analogs (rapalogs) function as allosteric inhibitors of mtorc1 and are currently used in the treatment of
+advanced renal cell carcinoma. rapamycin and its derivatives bind to the small immunophilin  xxxg798xxx  to
+inhibit mtorc1 signalling through a poorly understood mechanism. rapamycin/ xxxg798xxx  efﬁciently inhibit
+some, but not all, functions of mtor and hence much interest has been placed in the development of drugs
+that target the kinase activity of mtor directly. several novel active-site inhibitors of mtor, which inhibit
+both mtorc1 and mtorc2, were developed in the last year. in this manuscript, we provide a brief outline of
+our current understanding of the mtor signalling pathway and review the molecular underpinnings of the
+action of rapamycin and novel active-site mtor inhibitors as well as potential advantages and caveats
+associated with the use of these drugs in the treatment of cancer.
+© 2009 elsevier b.v. all rights reserved.
+
+1. introduction
+1.1. mtor signalling in health and disease
+the  xxxg1377xxx  mammalian  xxxg1478xxx 
+(mtor) plays a central role in regulating critical cellular processes
+such as growth, proliferation, cytoskeletal organization, transcription,
+protein synthesis and ribosomal biogenesis. mtor is present in two
+distinct protein complexes commonly referred to as mtor complex 1
+(mtorc1) and mtor complex 2 (mtorc2; fig. 1). mtorc1 modulates
+cap-dependent translation in response to nutrients, hormones and
+growth factors and is composed of mtor, the scaffolding protein raptor
+(regulatory associated protein of tor), the gtpase beta-subunit like
+protein gbetal (also known as mlst8) and the recently identiﬁed deptor
+(disheveled, egl-10, pleckstrin [dep] domain containing mtor interacting protein) [1,2]. some of the mtorc1 components are also
+present in mtorc2: these include mtor, mlst8 and deptor. other
+proteins, like rictor (rapamycin insensitive companion of tor), msin1
+(mammalian stress-activated protein kinase ( xxxg1372xxx )-interacting protein) and prr5 (proline-rich protein 5, also known as protor) are found
+exclusively in mtorc2 [3–7].
+mtorc1 and mtorc2 phosphorylate different substrates to
+regulate distinct cellular functions. for instance, mtorc2 phosphorylates akt, sgk1 and pkc (members of the agc kinase family) which
+control cell survival and cytoskeletal organization [1,8–10]. mtorc1,
+
+⁎ corresponding author.
+e-mail address: nahum.sonenberg@mcgill.ca (n. sonenberg).
+1570-9639/$ – see front matter © 2009 elsevier b.v. all rights reserved.
+doi:10.1016/j.bbapap.2009.12.001
+
+on the other hand, stimulates cell growth and proliferation by
+increasing cap-dependent translation initiation and this is mediated
+by its two major downstream targets: the  xxxg692xxx -binding proteins (4ebps) and s6 kinases ( xxxg1989xxx  and s6k2) [11]. s6 kinases are believed to
+control translation by modulating the activity of their downstream
+targets including ribosomal protein s6, eukaryotic initiation factor 4b
+(eif4b) and  xxxg1689xxx  protein ( xxxg1689xxx ) [12]. 4e-bps
+are a family of small molecular weight translational repressors that
+include  xxxg693xxx , 4e-bp2, and 4e-bp3. these proteins suppress
+translation of a subset of transcripts referred to as “ xxxg692xxx -sensitive
+mrnas” by competing with eif4g for binding to  xxxg692xxx , and thereby
+preventing formation of the  xxxg692xxx  initiation complex [13]. eif4esensitive mrnas are characterized by long and complex 5′utr
+regions and encode proliferation and survival promoting proteins
+such as cyclins, c-myc and  xxxg251xxx  [14,15]. due to the complexity of
+their 5′utrs,  xxxg692xxx -sensitive mrnas are translated less efﬁciently
+than mrnas bearing short, unstructured 5′utrs, such as mrnas
+encoding housekeeping proteins [16–18]. the most extensively
+studied and best-understood member of the 4e-bp family is  xxxg693xxx .
+upon activation, mtorc1 phosphorylates thr37 and thr46 on  xxxg693xxx , which acts as a priming event essential for the phosphorylation
+of ser65 and thr70 leading to the release of  xxxg692xxx  and subsequent
+assembly of the  xxxg692xxx  complex [19,20]. mtorc1 is also thought to
+modulate protein synthesis indirectly through the activation of tif-ia
+and consequent stimulation of transcription of ribosomal rna and
+ribosomal biogenesis [21], as well as through phosphorylation of
+eif4g [22].
+in addition to its well-established role in translation, the mtorc1
+pathway is suggested to play a role in a variety of important cellular
+
+434
+
+r.j.o. dowling et al. / biochimica et biophysica acta 1804 (2010) 433–439
+
+fig. 1. schematic representation of mtor signalling pathway. mammalian  xxxg1478xxx  (mtor) exists in two distinct complexes: mtorc1 and mtorc2. mtorc1 is activated
+by various extra- and intracellular cues which regulate a multitude of signalling pathways including pi3k/akt,  xxxg2337xxx / xxxg2338xxx / xxxg1954xxx ,  xxxg2218xxx /ampk and vam6/rag gtpases. in yeast,
+amino acids activate vam6/vps39 (the guanine nucleotide exchange factor) that loads gtp onto gtr1/gtr2 gtpases (the yeast homologs of rag gtpases in mammals). in turn, in
+mammals, rag gtpases are believed to activate mtorc1 by recruiting this complex into close proximity of  xxxg1954xxx , a small gtpase that switches mtorc1 signalling on through a poorly
+understood mechanism. gtp loading onto  xxxg1954xxx  is controlled by the tuberous sclerosis complex that comprises both the scaffolding protein,  xxxg2337xxx  and the gtpase activating protein
+(gap),  xxxg2338xxx .  xxxg2338xxx  is phosphorylated at multiple sites by akt and ampk. phosphorylation of  xxxg2338xxx  by akt and ampk has been proposed to inhibit (block) or activate (arrow) the
+ xxxg2337xxx / xxxg2338xxx  complex, respectively. mtorc1 is believed to modulate protein synthesis through activation of s6ks and inhibition of 4e-bps. several additional downstream targets of
+mtorc1 have been described over the years and their proposed roles in mediating functional outputs of mtorc1 pathway are outlined. kinase inhibitors that directly or indirectly
+affect mtorc1 signalling are shown in red. abbreviations: mtor: mammalian  xxxg1478xxx ; astori: active-site mtor inhibitors; aicar: aminoimidazole carboxamide
+ribonucleotide; tsc: tuberous sclerosis complex; sgk1: serum-and glucocorticoid-induced protein kinase 1; pkc: protein kinase c;  xxxg2218xxx :  xxxg1377xxx  11; ampk: ampactivated protein kinase; pi3k: phosphoinositide 3-kinase; pras40 proline-rich akt substrate of 40 kda; hif1alpha: hypoxia-inducible factor 1alpha;  xxxg1198xxx   xxxg1198xxx ; pdk1
+phosphoinositide-dependent kinase 1; pten: phosphatase and tensin homologue; redd1: protein regulated in development and dna damage response 1; 4e-bp: 4e-binding
+protein;  xxxg1989xxx : s6 kinase. ulk1: autophagy promoting factors unc-51-like kinase 1; atg13: autophagy-related gene 13; srebp1: sterol regulatory element binding protein 1;  xxxg1807xxx :
+ xxxg1807xxx ; pgc1-alpha:  xxxg1807xxx  coactivator 1; stat3: signal transducer and activator of transcription 3; tif-ia: transcription initiation factor ia;
+msin1: mammalian stress-activated protein kinase  xxxg1372xxx -interacting protein; gbetal: gtpase beta-subunit like protein; raptor: regulatory associated protein of tor; rictor: rapamycin
+insensitive companion of tor.
+
+processes. for instance, mtorc1 inhibits autophagy, an evolutionarily
+conserved catabolic process triggered by nutrient deprivation in
+which cellular organelles and/or long-lived proteins are degraded by
+the lysosomal machinery [23]. recent studies revealed that this is
+achieved through the phosphorylation and subsequent repression of
+the autophagy promoting factors unc-51-like kinase 1 (ulk1) and
+autophagy-related gene 13 (atg13) [24–26]. an emerging body of
+data suggests that mtorc1 also plays an important role in the
+regulation of lipid synthesis and mitochondrial metabolism and
+biogenesis. at the molecular level, the effects of mtorc1 on lipid
+homeostasis are thought to be mediated by lipogenic transcription
+
+factors (e.g. sterol regulatory element binding protein 1 (srebp1) [27]
+and  xxxg1807xxx  ( xxxg1807xxx ) [28]), and
+a phosphatidic acid phosphatase, lipin-1 [29]. mtorc1 stimulates
+mitochondrial biogenesis and oxidative metabolism [30] possibly by
+modulating the interaction between  xxxg1807xxx  coactivator 1 (pgc1-alpha)
+and the transcription factor yin-yang 1 (yy1) [31]. mtor was also
+shown to phosphorylate clip-170/restin, which is a member of a
+family of conserved microtubule associated proteins [32]. the
+phosphorylation of clip-170/restin was abrogated by rapamycin,
+indicating a possible role for mtorc1 in cytoskeletal organisation
+[32]. additional substrates of mtorc1 include hif1alpha [33] and stat3
+
+r.j.o. dowling et al. / biochimica et biophysica acta 1804 (2010) 433–439
+
+[34]. albeit the precise role of these substrates in mtorc1 signalling
+needs to be established, these ﬁndings implicate the mtorc1 pathway
+in transcriptional regulation during hypoxia and inﬂammation.
+mtorc1 signalling is regulated by a multitude of signalling
+cascades (depicted in fig. 1). for instance, the tuberous sclerosis
+complex ( xxxg2337xxx / xxxg2338xxx ) functions upstream of mtorc1 to inhibit
+signalling through this complex (see for example [35] for review).
+consistent with the inhibitory effect of  xxxg2337xxx / xxxg2338xxx  on mtorc1,
+overexpression of  xxxg2338xxx  drastically reduces the phosphorylation of
+mtorc1 targets: 4e-bps and s6ks [36]. phosphorylation of 4e-bps and
+s6ks is also dramatically reduced by overexpression of a recently
+identiﬁed component of mtorc1 termed pras40 (for proline rich
+akt substrate 40 kda) ([37–41]). it is not entirely clear how
+overexpression of pras40 inhibits the phosphorylation of 4e-bps
+and  xxxg1989xxx : early reports suggested pras40 inhibited mtorc1 by acting
+upstream of this complex [37,38] but other mechanisms may also
+exist. pras40 binds to raptor via a tor signalling (tos) motif,
+commonly found in other mtorc1 targets: 4e-bps, s6ks and hif1alpha
+and is subject to phosphorylation by mtorc1 at multiple sites,
+including rapamycin-sensitive (ser 183 and ser 221) and rapamycininsensitive (ser 212) residues [40,41]. the observation that pras40
+contains a tos motif and is itself a target for phosphorylation by
+mtorc1 [39,41,42] suggests that pras40 is not an upstream
+regulator, but rather, a downstream target of mtorc1 which inhibits
+mtorc1 signalling by competing with 4e-bps and s6ks for binding
+and phosphorylation by mtorc1. the exact mechanism whereby
+pras40 exerts its inhibitory effects on mtorc1 remains unclear to
+date and further work is required to elucidate the signiﬁcance of its
+phosphorylation by mtorc1.
+mtorc1 signalling is frequently dysregulated in cancer [1,43]. loss
+or inactivation of tumor suppressors such as p53,  xxxg2218xxx , pten, and
+ xxxg2337xxx /2, which antagonize pi3k-dependent activation of mtorc1, can
+promote tumorigenesis via increased signalling through mtorc1
+[44–47]. moreover, increased levels and/or phosphorylation of
+downstream targets of mtorc1 have been reported in various
+human malignancies in which they correlate with tumor aggressiveness and poor prognosis [1,43,48].  xxxg1989xxx  is reported to be overexpressed in breast cancer [49] and  xxxg693xxx  is downregulated and/or
+hyperphosphorylated (i.e. inactivated) in breast, ovarian, and other
+cancers [50–52]. accordingly, in our recent study we show that 4e-bps
+act as tumor suppressors in p53-null mice and that the loss of 4e-bps
+results in premature senescence in ﬁbroblasts derived from p53-wild
+type mice [53]. alterations in components of the  xxxg692xxx  complex have
+also been linked to a wide variety of human malignancies. for
+example, high levels and/or hyperactivity of  xxxg692xxx  have been reported
+in head and neck squamous cell carcinoma, lung, colon, breast cancer,
+leukemias and lymphomas [54–57]. taken together, these ﬁndings
+link aberrant mtorc1 signalling with dysregulated translational
+control in cancer. as a result, mtorc1 has emerged as an important
+target for anti-cancer therapy.
+2. mtor inhibitors
+2.1. rapamycin and rapalogs
+rapamycin is a naturally occurring macrolide triene antibiotic that
+acts as a speciﬁc, allosteric inhibitor of mtorc1 [11,58,59]. although
+rapamycin has been widely used to study mtorc1 signalling for more
+than a decade, the molecular underpinnings of rapamycin's actions
+are still poorly understood. rapamycin associates with its intracellular
+receptor,  xxxg798xxx  ( xxxd3271xxx -binding protein of 12 kda) and the resulting
+complex interacts with the frb ( xxxg798xxx -rapamycin binding) domain
+located in the c-terminus of mtor [60]. binding of rapamycin/
+ xxxg798xxx  to the frb domain of mtor precludes the binding of mtor to
+raptor and this is believed to uncouple mtorc1 from its substrates
+(e.g. 4e-bps and s6ks) [61,62]. a recent study using high micromolar
+
+435
+
+doses of the rapamycin analogue  xxxd3307xxx  indicated that
+rapamycin and its derivatives can directly bind to the frb domain
+of mtor, thus disputing the absolute requirement of  xxxg798xxx  for
+rapamycin-mediated inhibition of mtorc1 signalling [63].
+in contrast to mtorc1, mtorc2 does not bind rapamycin/ xxxg798xxx 
+and this is thought to confer mtorc2 its resistance to acute
+rapamycin treatment. mtorc2 is sensitive, however, to prolonged
+rapamycin treatment which (as proposed by [64]) interferes with de
+novo assembly of mtorc2. according to this model binding of
+rapamycin/ xxxg798xxx  to mtor impedes the subsequent binding of the
+mtorc2-speciﬁc components msin1 and rictor which are required for
+signalling downstream of mtorc2. this model is corroborated by the
+observation that rapamycin treatment leads to dephosphorylation
+and sub-cellular re-localization of msin1 and rictor in non-immortalized
+human diploid ﬁbroblasts and nih 3t3 cells [65]. however, these
+effects are cell type speciﬁc and the factor(s) that render mtorc2
+sensitive to rapamycin in some but not all cell types still need to be
+determined [64].
+the ability of rapamycin to suppress both cellular proliferation and
+growth (through inhibition mtorc1) suggested that rapamycin and
+its analogs could serve as potent anti-cancer agents [59,66]. this
+observation prompted the development of rapamycin analogs
+(rapalogs), which share the mechanism of action of rapamycin but
+display improved pharmacokinetic properties. presently, rapamycin
+and several rapalogs are in clinical development for the treatment of a
+wide variety of human malignancies. it has been reported that
+rapamycin and rapalogs effectively inhibit cell proliferation and
+angiogenesis in some human tumors [67,68]. at the molecular level,
+this could be partly explained by the mtorc1/ xxxg693xxx  mediated
+suppression of translation of “ xxxg692xxx -sensitive” mrnas such as cyclin
+d1,  xxxg368xxx  and vegf.
+2.2. molecular mechanisms underlying the relative inefﬁcacy of
+rapamycin and rapalogs in cancer treatment
+the us fda (united states food and drug administration) has
+recently approved the rapamycin analogs  xxxd3307xxx  ( xxxd3307xxx ) and
+ xxxd2072xxx  ( xxxd2072xxx ) for the treatment of advanced stage renal cell
+carcinoma and sarcoma, respectively [58,68,69]. however, the efﬁcacy
+of rapamycin and rapalogs as broad based monotherapies for cancer
+does not appear as promising as initially expected [54,58]. this has
+been attributed to the inability of rapamycin to inhibit the
+phosphorylation of 4e-bps in an effective and sustained manner and
+thus suppress translation of  xxxg692xxx -sensitive mrnas (fig. 2). the
+relative inefﬁcacy of rapamycin in cancer treatment has been
+attributed to rapamycin-mediated upregulation of pi(3)k/akt phosphorylation resulting from the loss of the negative-feedback loop from
+ xxxg1989xxx  to  xxxg1198xxx . [54,58,70,71]. upon activation, mtorc1 activates  xxxg1989xxx ,
+which in turn phosphorylates inhibitory sites (i.e. ser 636/639) on the
+ xxxg1194xxx  substrate-1 ( xxxg1198xxx ), thereby suppressing  xxxg1198xxx 
+mediated activation of the pi3k/akt pathway. inhibition of
+mtorc1 by rapamycin results in the attenuation of negative feedback
+to  xxxg1198xxx , leading to increased akt activity. the full activation of akt
+requires two phosphorylation events, on ser473 which lies in its
+hydrophobic motif, and on thr308 within its activation loop. pdk1 has
+long been known to be the major kinase for thr308 [72]. recently, it
+was revealed that mtorc2 is also implicated in the activation of akt,
+through phosphorylation of ser473 [9,73]. as mentioned above,
+mtorc2 is rapamycin-insensitive in the majority of cancer cell lines
+[64,74], suggesting that mtorc2-dependent phosphorylation of akt
+on ser473 still persists during rapamycin treatment.
+taken together these ﬁndings indicate that at the molecular level,
+rapamycin treatment leads to hyperactivation of akt through loss of
+the mtorc1/ xxxg1989xxx / xxxg1198xxx /pi3k negative feedback loop, which in some
+types of cancer is further reinforced by the inability of rapamycin to
+efﬁciently suppress mtorc2 signalling towards akt. accordingly,
+
+436
+
+r.j.o. dowling et al. / biochimica et biophysica acta 1804 (2010) 433–439
+
+fig. 2. diagram depicting differences in the effects of the active-site mtor inhibitors and rapamycin on mtor signalling. active-site mtor inhibitors suppress the phosphorylation of
+4e-bps on ser65 to a higher extent than rapamycin. furthermore, these compounds completely abolish the phosphorylation of rapamycin-insensitive thr37/46 sites on 4e-bps. in
+turn, the effects of the active-site mtor inhibitors on s6 kinase ( xxxg1989xxx ) activation through inhibition of thr389 phosphorylation are comparable to those of rapamycin. prolonged
+rapamycin treatment leads to a loss of the negative feedback between  xxxg1989xxx  and  xxxg1198xxx , resulting in increased phosphorylation of akt on thr308 and its subsequent activation. it is
+suggested that the active-site mtor inhibitors counteract the effect of the loss of the negative feedback between  xxxg1989xxx  and  xxxg1198xxx , by inhibiting mtorc2 dependent phosphorylation
+of akt on ser473. intriguingly, it has been reported that in a limited number of cell lines, mtorc2 signalling towards akt is inhibited by prolonged rapamycin treatment (⁎).
+relatively limited success of rapamycin as an anti-cancer agent has been attributed to activation of the akt pathway as well as the inability of rapamycin to inhibit phosphorylation
+of 4e-bps.
+
+phosphorylation of akt is reportedly increased in tumors derived
+from patients treated with  xxxd2072xxx  [66]. the activation of aktdependent pro-survival mechanisms may not only hinder the antineoplastic activity of rapamycin, but also promote tumorigenesis and
+lead to resistance of tumor cells to other anti-cancer agents.
+2.3. new generation of mtor inhibitors: targeting the active site
+in addition to the emerging role of mtorc2 in the activation of
+akt, it was recently shown that mtorc2 activity is necessary for
+pten-dependent tumorigenesis. a study by guertin at al., [75]
+revealed that mtorc2 signalling is necessary for the development
+of prostate cancer caused by pten deletion. intriguingly, mtorc2
+activity was dispensable for the function of normal prostate epithelial
+cells. these ﬁndings highlight the importance of developing speciﬁc
+inhibitors of mtorc2 in order to efﬁciently target mtor signalling in
+cancer. a number of active-site mtor inhibitors have now been
+developed, which speciﬁcally suppress mtor signalling by competing
+with atp for binding to the kinase domain of mtor [76–79]. these
+compounds, pp242,  xxxd3403xxx , wye-354 and  xxxd2585xxx  suppress both
+mtorc1 and mtorc2 activity with signiﬁcant selectivity over
+phosphatidylinositol 3-kinase (pi3k) isoforms and display more
+dramatic effects on cell growth, proliferation, cell cycle and capdependent translation than rapamycin [76–79]. furthermore, it was
+shown that  xxxd3403xxx , unlike rapamycin, potently induces autophagy in
+mouse embryonic ﬁbroblasts [78]. as expected, active-site mtor
+inhibitors, but not rapamycin, suppressed mtorc2-mediated phosphorylation of akt on ser473 [76,78]. surprisingly, the active-site
+mtor inhibitors inhibited cell proliferation, growth and cell cycle
+progression to the same extent in wild type and mouse embryonic
+ﬁbroblasts lacking rictor or msin1 which are deﬁcient in mtorc2
+activity [76,78]. these ﬁndings indicate that the effects of the activesite mtor inhibitors are not mediated by mtorc2. furthermore, the
+active-site mtor inhibitors and rapamycin reduced the phosphorylation of s6ks and its substrate, ribosomal protein rps6, to the same
+extent [76–78]. in stark contrast, the effects of active site mtor
+inhibitors on  xxxg693xxx  phosphorylation were much stronger than
+rapamycin. rapamycin has little effect on the phosphorylation of
+thr37 and thr46 on  xxxg693xxx , whilst  xxxd2585xxx , pp242 and  xxxd3403xxx 
+
+completely inhibited the phosphorylation of these residues in vivo
+[76–78]. in addition,  xxxd2585xxx , pp242 and  xxxd3403xxx  caused a greater
+reduction in ser65 phosphorylation compared to rapamycin [76–78].
+these ﬁndings are consistent with recent studies showing that  xxxg693xxx 
+phosphorylation is resistant to rapamycin in several cancer cell lines,
+especially after prolonged treatment [58,70].
+thus, the ability of active-site mtor inhibitors to exert more
+prominent effects on mtor functional outputs than rapamycin is
+largely due to their ability to suppress rapamycin-resistant mtorc1
+signalling towards 4e-bps [76–78]. a question that remains unanswered is how does rapamycin cause complete deactivation of  xxxg1989xxx ,
+while having only a moderate effect on  xxxg693xxx  phosphorylation? one
+possible explanation to this conundrum is that mtorc1 binds to 4ebps and s6ks with a different afﬁnity and/or conformation, wherein
+the rapamycin-mediated structural changes in mtorc1 are sufﬁcient
+to disrupt its association with s6ks, but not with 4e-bps [80,81]. this
+would allow mtor to still signal to  xxxg693xxx  while simultaneously
+loosing its ability to phosphorylate  xxxg1989xxx . whilst assessing the binding
+afﬁnity of the mtorc1 complex to its substrates is experimentally
+challenging, the observation that raptor binds more efﬁciently to  xxxg693xxx  than  xxxg1989xxx  supports this model of rapamycin-resistant signalling to
+ xxxg693xxx  [80,82]. alternatively, it has been proposed that kinases other
+than mtor regulate the phosphorylation of  xxxg693xxx  on thr 37/46 [83].
+thus, the discrepancy in the effects of rapamycin and the active-site
+mtor inhibitors on the phosphorylation of 4e-bps and s6ks, could
+also be explained by the inability of rapamycin to inhibit the kinase
+responsible for the phosphorylation of 4e-bps on thr 37/46. finally, it
+is plausible that the differential effects of the active-site mtor
+inhibitors and rapamycin on the phosphorylation of s6ks and 4e-bps
+are the consequence of the activation of a hitherto unidentiﬁed
+phosphatase. undoubtedly, future studies will be necessary to answer
+the conundrum of differential sensitivity of s6ks and 4e-bps to the
+active-site mtor inhibitors and rapamycin.
+2.4. new active-site mtor inhibitors in cancer treatment
+while new active-site mtor inhibitors have been important in
+elucidating the molecular mechanisms of mtorc1 and 2 signalling,
+their most critical role may be in the treatment of cancer. due to the
+
+r.j.o. dowling et al. / biochimica et biophysica acta 1804 (2010) 433–439
+
+existence of the rapamycin-resistant mtorc2 complex and its role in
+akt activation, active-site mtor inhibitors have the potential to be
+potent anti-cancer agents. these new inhibitors may function as more
+effective anti-cancer therapies because they counteract the activation
+of akt, which can occur as a result of rapamycin-mediated disruption
+of the mtor/ xxxg1989xxx / xxxg1198xxx  negative feed back loop. to date,  xxxd2585xxx ,
+pp242 and  xxxd3403xxx  have not been tested in animal models for the
+inhibition of tumor growth. however, new active-site inhibitors
+(way-600, wye-687, and wye-354) have been developed by wyeth
+(pearl river, ny) and tested on a variety of cancer cells in vitro and in
+vivo [79]. in a xenograft model, the mtor active-site inhibitor wye354 signiﬁcantly inhibited the growth of tumors established with
+ xxxg1682xxx -mm2 prostate cancer cells, indicating that these new inhibitors
+represent future potential anti-cancer agents [79].
+when considering compounds as anti-cancer agents, it is important to identify factors that may be responsible for governing
+sensitivity or resistance to treatment. for example, increased
+activation of akt and over-expression of  xxxg1989xxx  have correlated with
+rapamycin sensitivity [84,85]. in addition, loss of the tumor
+suppressor pten is thought to increase the sensitivity of cells and
+tumors to treatment with rapamycin [86]. however using pten status
+as a marker of sensitivity to rapamycin treatment has been somewhat
+unreliable in human patients [54]. the level of  xxxg692xxx  activation may
+correlate with resistance to rapamycin as over-expression of  xxxg692xxx , or
+decreased expression of its inhibitor,  xxxg693xxx , have been associated
+with poor responses to rapamycin based therapies [87,88].
+in addition to identifying markers of rapamycin sensitivity, it is of
+paramount importance to identify biomarkers to assess the efﬁcacy of
+rapamycin and other mtor inhibitors in human patients. in general,
+inhibition of mtor activity can be monitored by assessing the
+phosphorylation status of its downstream targets,  xxxg1989xxx  and  xxxg693xxx .
+indeed, several clinical studies have demonstrated a decrease in the
+phosphorylation of  xxxg1989xxx  and  xxxg693xxx  in skin, blood, and tumor samples
+from cancer patients undergoing therapy with rapamycin derivatives
+[66,89]. however, the existence of rapamycin-resistant phosphorylation sites on  xxxg693xxx  renders the use of  xxxg693xxx  as a biomarker for
+rapamycin based anti-cancer therapies problematic.
+3. conclusions and future directions
+the dysregulation of mtor signalling is implicated in a number of
+human diseases including cancer. consequently, a great deal of
+research has focused on elucidating the mechanisms linking mtor
+signalling to the control of cell growth, proliferation, differentiation
+and transformation. despite recent advances in the understanding of
+mtor structure and function, much work still needs to be done. the
+development of the novel active-site mtor kinase inhibitors has
+already yielded interesting ﬁndings on mtorc1 and mtorc2
+signalling. the use of these mtor inhibitors will likely reveal new
+targets for phosphorylation by mtor and further our current
+understanding of mtor signalling and its role in health and disease.
+furthermore, the optimization of new active-site mtor inhibitors for
+use in patients and the identiﬁcation of biomarkers of efﬁcacy of
+mtor inhibition in patients will be key for the effective treatment of
+human cancers with mtor-targeted therapies.
+acknowledgements
+the authors thank colin lister and pam kirk for excellent
+technical assistance. the work in author's laboratory is supported
+in part by the canadian cancer society. nahum sonenberg is a
+howard hughes medical institute international research scholar and
+a james mcgill professor. ryan dowling is supported by a research
+studentship provided by the terry fox foundation through the
+national cancer institute of canada. ivan topisirovic is a special
+fellow of the leukemia and lymphoma society, usa. bruno d.
+
+437
+
+fonseca gratefully acknowledges ﬁnancial support from a canadian
+institute for health research consortium training fellowship award.
+the authors have no conﬂicts of interest that relate to the content of
+this review article.
+
+references
+[1] d.a. guertin, d.m. sabatini, deﬁning the role of mtor in cancer, cancer cell 12
+(2007) 9–22.
+[2] t.r. peterson, m. laplante, c.c. thoreen, y. sancak, s.a. kang, w.m. kuehl, n.s.
+gray, d.m. sabatini, deptor is an mtor inhibitor frequently overexpressed
+in multiple myeloma cells and required for their survival, cell 137 (2009)
+873–886.
+[3] m.a. frias, c.c. thoreen, j.d. jaffe, w. schroder, t. sculley, s.a. carr, d.m. sabatini,
+msin1 is necessary for akt/pkb phosphorylation, and its isoforms deﬁne three
+distinct mtorc2s, curr. biol. 16 (2006) 1865–1870.
+[4] e. jacinto, v. facchinetti, d. liu, n. soto, s. wei, s.y. jung, q. huang, j. qin, b. su,
+sin1/mip1 maintains rictor-mtor complex integrity and regulates akt phosphorylation and substrate speciﬁcity, cell 127 (2006) 125–137.
+[5] l.r. pearce, x. huang, j. boudeau, r. pawlowski, s. wullschleger, m. deak, a.f.
+ibrahim, r. gourlay, m.a. magnuson, d.r. alessi, identiﬁcation of protor as a
+novel rictor-binding component of mtor complex-2, biochem. j. 405 (2007)
+513–522.
+[6] k. thedieck, p. polak, m.l. kim, k.d. molle, a. cohen, p. jeno, c. arrieumerlou, m.n.
+hall, pras40 and prr5-like protein are new mtor interactors that regulate
+apoptosis, plos one 2 (2007) e1217.
+[7] s.y. woo, d.h. kim, c.b. jun, y.m. kim, e.v. haar, s.i. lee, j.w. hegg, s. bandhakavi,
+t.j. grifﬁn, prr5, a novel component of mtor complex 2, regulates plateletderived growth factor receptor beta expression and signaling, j. biol. chem. 282
+(2007) 25604–25612.
+[8] d.d. sarbassov, s.m. ali, d.h. kim, d.a. guertin, r.r. latek, h. erdjument-bromage,
+p. tempst, d.m. sabatini, rictor, a novel binding partner of mtor, deﬁnes a
+rapamycin-insensitive and raptor-independent pathway that regulates the
+cytoskeleton, curr. biol. 14 (2004) 1296–1302.
+[9] d.d. sarbassov, d.a. guertin, s.m. ali, d.m. sabatini, phosphorylation and regulation
+of akt/pkb by the rictor-mtor complex, science 307 (2005) 1098–1101.
+[10] j.m. garcia-martinez, d.r. alessi, mtor complex 2 (mtorc2) controls hydrophobic motif phosphorylation and activation of serum- and glucocorticoidinduced protein kinase 1 (sgk1), biochem. j. 416 (2008) 375–385.
+[11] n. hay, n. sonenberg, upstream and downstream of mtor, genes dev. 18 (2004)
+1926–1945.
+[12] x.m. ma, j. blenis, molecular mechanisms of mtor-mediated translational
+control, nat. rev. mol. cell biol. 10 (2009) 307–318.
+[13] a. pause, g.j. belsham, a.c. gingras, o. donze, t.a. lin, j.c. lawrence, n. sonenberg,
+insulin-dependent stimulation of protein synthesis by phosphorylation of a
+regulator of 5′-cap function, nature 371 (1994) 762–767.
+[14] a. de benedetti, j.r. graff,  xxxg692xxx  expression and its role in malignancies and
+metastases, oncogene 23 (2004) 3189–3199.
+[15] n. sonenberg, a.c. gingras, the mrna 5′ cap-binding protein  xxxg692xxx  and control of
+cell growth, curr. opin. cell biol. 10 (1998) 268–275.
+[16] a.c. gingras, b. raught, n. sonenberg, eif4 initiation factors: effectors of mrna
+recruitment to ribosomes and regulators of translation, annu. rev. biochem. 68
+(1999) 913–963.
+[17] n. sonenberg, a.g. hinnebusch, regulation of translation initiation in eukaryotes:
+mechanisms and biological targets, cell 136 (2009) 731–745.
+[18] a.e. koromilas, a. lazaris-karatzas, n. sonenberg, mrnas containing extensive
+secondary structure in their 5′ non-coding region translate efﬁciently in cells
+overexpressing initiation factor  xxxg692xxx , embo j. 11 (1992) 4153–4158.
+[19] a.c. gingras, b. raught, s.p. gygi, a. niedzwiecka, m. miron, s.k. burley, r.d.
+polakiewicz, a. wyslouch-cieszynska, r. aebersold, n. sonenberg, hierarchical
+phosphorylation of the translation inhibitor  xxxg693xxx , genes dev. 15 (2001)
+2852–2864.
+[20] a.c. gingras, s.p. gygi, b. raught, r.d. polakiewicz, r.t. abraham, m.f. hoekstra, r.
+aebersold, n. sonenberg, regulation of  xxxg693xxx  phosphorylation: a novel two-step
+mechanism, genes dev. 13 (1999) 1422–1437.
+[21] c. mayer, j. zhao, x. yuan, i. grummt, mtor-dependent activation of the
+transcription factor tif-ia links rrna synthesis to nutrient availability, genes dev.
+18 (2004) 423–434.
+[22] b. raught, a.c. gingras, s.p. gygi, h. imataka, s. morino, a. gradi, r. aebersold, n.
+sonenberg, serum-stimulated, rapamycin-sensitive phosphorylation sites in the
+eukaryotic translation initiation factor 4gi, embo j. 19 (2000) 434–444.
+[23] p. codogno, a.j. meijer, autophagy and signaling: their role in cell survival and cell
+death, cell. death differ. 12 (suppl. 2) (2005) 1509–1518.
+[24] i.g. ganley, h. lam du, j. wang, x. ding, s. chen, x. jiang, ulk1.atg13.fip200
+complex mediates mtor signaling and is essential for autophagy, j. biol. chem.
+284 (2009) 12297–12305.
+[25] n. hosokawa, t. hara, t. kaizuka, c. kishi, a. takamura, y. miura, s. iemura, t.
+natsume, k. takehana, n. yamada, j.l. guan, n. oshiro, n. mizushima, nutrientdependent mtorc1 association with the ulk1–atg13–fip200 complex required
+for autophagy, mol. biol. cell 20 (2009) 1981–1991.
+[26] c.h. jung, c.b. jun, s.h. ro, y.m. kim, n.m. otto, j. cao, m. kundu, d.h. kim, ulk–
+atg13–fip200 complexes mediate mtor signaling to the autophagy machinery,
+mol. biol. cell 20 (2009) 1992–2003.
+
+438
+
+r.j.o. dowling et al. / biochimica et biophysica acta 1804 (2010) 433–439
+
+[27] t. porstmann, c.r. santos, b. grifﬁths, m. cully, m. wu, s. leevers, j.r. grifﬁths, y.l.
+chung, a. schulze, srebp activity is regulated by mtorc1 and contributes to aktdependent cell growth, cell metab. 8 (2008) 224–236.
+[28] j.e. kim, j. chen, regulation of  xxxg1807xxx 
+activity by mammalian  xxxg1478xxx  and amino acids in adipogenesis,
+diabetes 53 (2004) 2748–2756.
+[29] t.a. huffman, i. mothe-satney, j.c. lawrence, insulin-stimulated phosphorylation
+of lipin mediated by the mammalian  xxxg1478xxx , proc. natl. acad. sci.
+u. s. a. 99 (2002) 1047–1052.
+[30] s.m. schieke, d. phillips, j.p. mccoy, a.m. aponte, r.f. shen, r.s. balaban, t. finkel, the
+mammalian  xxxg1478xxx  (mtor) pathway regulates mitochondrial oxygen
+consumption and oxidative capacity, j. biol. chem. 281 (2006) 27643–27652.
+[31] j.t. cunningham, j.t. rodgers, d.h. arlow, f. vazquez, v.k. mootha, p. puigserver,
+mtor controls mitochondrial oxidative function through a yy1-pgc-1alpha
+transcriptional complex, nature 450 (2007) 736–740.
+[32] j.h. choi, p.g. bertram, r. drenan, j. carvalho, h.h. zhou, x.f. zheng, the fkbp12rapamycin-associated protein (frap) is a clip-170 kinase, embo rep. 3 (2002)
+988–994.
+[33] s.c. land, a.r. tee, hypoxia-inducible factor 1alpha is regulated by the
+mammalian  xxxg1478xxx  (mtor) via an mtor signaling motif, j. biol.
+chem. 282 (2007) 20534–20543.
+[34] k. yokogami, s. wakisaka, j. avruch, s.a. reeves, serine phosphorylation and
+maximal activation of stat3 during cntf signaling is mediated by the rapamycin
+target mtor, curr. biol. 10 (2000) 47–50.
+[35] j. huang, b.d. manning, the  xxxg2337xxx - xxxg2338xxx  complex: a molecular switchboard
+controlling cell growth, biochem. j. 412 (2008) 179–190.
+[36] a.r. tee, d.c. fingar, b.d. manning, d.j. kwiatkowski, l.c. cantley, j. blenis,
+tuberous sclerosis complex-1 and -2 gene products function together to inhibit
+mammalian  xxxg1478xxx  (mtor)-mediated downstream signaling, proc.
+natl. acad. sci. u. s. a. 99 (2002) 13571–13576.
+[37] e. vander haar, s.i. lee, s. bandhakavi, t.j. grifﬁn, d.h. kim, insulin signalling
+to mtor mediated by the akt/pkb substrate pras40, nat. cell biol. 9 (2007)
+316–323.
+[38] y. sancak, c.c. thoreen, t.r. peterson, r.a. lindquist, s.a. kang, e. spooner, s.a.
+carr, d.m. sabatini, pras40 is an insulin-regulated inhibitor of the mtorc1
+protein kinase, mol. cell 25 (2007) 903–915.
+[39] b.d. fonseca, e.m. smith, v.h. lee, c. mackintosh, c.g. proud, pras40 is a target
+for mammalian  xxxg1478xxx  complex 1 and is required for signaling
+downstream of this complex, j. biol. chem. 282 (2007) 24514–24524.
+[40] l. wang, t.e. harris, r.a. roth, j.c. lawrence, pras40 regulates mtorc1 kinase
+activity by functioning as a direct inhibitor of substrate binding, j. biol. chem. 282
+(2007) 20036–20044.
+[41] n. oshiro, r. takahashi, k. yoshino, k. tanimura, a. nakashima, s. eguchi, t.
+miyamoto, k. hara, k. takehana, j. avruch, u. kikkawa, k. yonezawa, the
+proline-rich akt substrate of 40 kda (pras40) is a physiological substrate of
+mammalian  xxxg1478xxx  complex 1, j. biol. chem. 282 (2007)
+20329–20339.
+[42] b.d. fonseca, v.h. lee, c.g. proud, the binding of pras40 to 14-3-3 proteins is not
+required for activation of mtorc1 signalling by phorbol esters/erk, biochem. j.
+411 (2008) 141–149.
+[43] y. mamane, e. petroulakis, o. lebacquer, n. sonenberg, mtor, translation
+initiation and cancer, oncogene 25 (2006) 6416–6422.
+[44] d.m. sabatini, mtor and cancer: insights into a complex relationship, nat. rev.
+cancer 6 (2006) 729–734.
+[45] k. inoki, t. zhu, k.l. guan,  xxxg2338xxx  mediates cellular energy response to control cell
+growth and survival, cell 115 (2003) 577–590.
+[46] r.j. shaw, n. bardeesy, b.d. manning, l. lopez, m. kosmatka, r.a. depinho, l.c.
+cantley, the  xxxg2218xxx  tumor suppressor negatively regulates mtor signaling, cancer
+cell 6 (2004) 91–99.
+[47] z. feng, h. zhang, a.j. levine, s. jin, the coordinate regulation of the p53 and mtor
+pathways in cells, proc. natl. acad. sci. u. s. a. 102 (2005) 8204–8209.
+[48] d.a. guertin, d.m. sabatini, an expanding role for mtor in cancer, trends mol.
+med. 11 (2005) 353–361.
+[49] m. barlund, o. monni, j. kononen, r. cornelison, j. torhorst, g. sauter, o.-p.
+kallioniemi, a. kallioniemi, multiple genes at 17q23 undergo ampliﬁcation and
+overexpression in breast cancer, cancer res. 60 (2000) 5340–5344.
+[50] j. castellvi, a. garcia, f. rojo, c. ruiz-marcellan, a. gil, j. baselga, s. ramon y cajal,
+phosphorylated 4e binding protein 1: a hallmark of cell signaling that correlates
+with survival in ovarian cancer, cancer 107 (2006) 1801–1811.
+[51] f. rojo, l. najera, j. lirola, j. jimenez, m. guzman, m.d. sabadell, j. baselga, s.
+ramon y cajal, 4e-binding protein 1, a cell signaling hallmark in breast cancer
+that correlates with pathologic grade and prognosis, clin. cancer res. 13 (2007)
+81–89.
+[52]  xxxd1971xxx . petricoin 3rd, v. espina, r.p. araujo, b. midura, c. yeung, x. wan, g.s. eichler,
+d.j. johann jr., s. qualman, m. tsokos, k. krishnan, l.j. helman, l.a. liotta,
+phosphoprotein pathway mapping: akt/mammalian  xxxg1478xxx  activation is negatively associated with childhood rhabdomyosarcoma survival, cancer
+res. 67 (2007) 3431–3440.
+[53] e petroulakis, et al., p53-dependent translational control of senescence and
+transformation via 4e-bps, cancer cell 16 (2009) 439–446.
+[54] r.j. dowling, m. pollak, n. sonenberg, current status and challenges associated
+with targeting mtor for cancer therapy, biodrugs 23 (2009) 77–91.
+[55] y. mamane, e. petroulakis, l. rong, k. yoshida, l.w. ler, n. sonenberg,  xxxg692xxx —from
+translation to transformation, oncogene 23 (2004) 3172–3179.
+[56] a. de benedetti, a.l. harris,  xxxg692xxx  expression in tumors: its possible role in
+progression of malignancies, int. j. biochem. cell biol. 31 (1999) 59–72.
+
+[57] i. topisirovic, m.l. guzman, m.j. mcconnell, j.d. licht, b. culjkovic, s.j. neering,
+c.t. jordan, k.l. borden, aberrant eukaryotic translation initiation factor 4edependent mrna transport impedes hematopoietic differentiation and contributes to leukemogenesis, mol. cell biol. 23 (2003) 8992–9002.
+[58] d.a. guertin, d.m. sabatini, the pharmacology of mtor inhibition, sci. signal. 2
+(2009) pe24.
+[59] e. petroulakis, y. mamane, o. le bacquer, d. shahbazian, n. sonenberg, mtor
+signaling: implications for cancer and anticancer therapy, br. j. cancer 94 (2006)
+195–199.
+[60] j. chen, x.f. zheng, e.j. brown, s.l. schreiber, identiﬁcation of an 11-kda fkbp12rapamycin-binding domain within the 289-kda  xxxg798xxx -rapamycin-associated
+protein and characterization of a critical serine residue, proc. natl. acad. sci. u. s. a.
+92 (1995) 4947–4951.
+[61] d.h. kim, d.d. sarbassov, s.m. ali, j.e. king, r.r. latek, h. erdjument-bromage, p.
+tempst, d.m. sabatini, mtor interacts with raptor to form a nutrient-sensitive
+complex that signals to the cell growth machinery, cell 110 (2002) 163–175.
+[62] n. oshiro, k. yoshino, s. hidayat, c. tokunaga, k. hara, s. eguchi, j. avruch, k.
+yonezawa, dissociation of raptor from mtor is a mechanism of rapamycininduced inhibition of mtor function, genes cells 9 (2004) 359–366.
+[63] b. shor, w.g. zhang, l. toral-barza, j. lucas, r.t. abraham, j.j. gibbons, k. yu, a new
+pharmacologic action of  xxxd3307xxx  involves  xxxg798xxx -independent inhibition of
+mtor kinase activity and profound repression of global protein synthesis, cancer
+res. 68 (2008) 2934–2943.
+[64] d.d. sarbassov, s.m. ali, s. sengupta, j.h. sheen, p.p. hsu, a.f. bagley, a.l.
+markhard, d.m. sabatini, prolonged rapamycin treatment inhibits mtorc2
+assembly and akt/pkb, mol. cell 22 (2006) 159–168.
+[65] m. rosner, m. hengstschlager, cytoplasmic and nuclear distribution of the protein
+complexes mtorc1 and mtorc2: rapamycin triggers dephosphorylation and
+delocalization of the mtorc2 components rictor and sin1, hum. mol. genet. 17
+(2008) 2934–2948.
+[66] s. faivre, g. kroemer, e. raymond, current development of mtor inhibitors as
+anticancer agents, nat. rev. drug discov. 5 (2006) 671–688.
+[67] p. liu, h. cheng, t.m. roberts, j.j. zhao, targeting the phosphoinositide 3-kinase
+pathway in cancer, nat. rev. drug. discov. 8 (2009) 627–644.
+[68] a. kapoor, r.a. figlin, targeted inhibition of mammalian  xxxg1478xxx  for
+the treatment of advanced renal cell carcinoma, cancer 115 (2009) 3618–3630.
+[69] m.m. mita, a.c. mita, q.s. chu, e.k. rowinsky, g.j. fetterly, m. goldston, a. patnaik,
+l. mathews, a.d. ricart, t. mays, h. knowles, v.m. rivera, j. kreisberg, c.l.
+bedrosian, a.w. tolcher, phase i trial of the novel mammalian  xxxg1478xxx 
+inhibitor  xxxd3114xxx  ( xxxd3114xxx ;  xxxd3114xxx ) administered intravenously daily for
+5 days every 2 weeks to patients with advanced malignancies, j. clin. oncol. 26
+(2008) 361–367.
+[70] a.y. choo, s.o. yoon, s.g. kim, p.p. roux, j. blenis, rapamycin differentially inhibits
+s6ks and  xxxg693xxx  to mediate cell-type-speciﬁc repression of mrna translation,
+proc. natl. acad. sci. u. s. a. 105 (2008) 17414–17419.
+[71] j. huang, b.d. manning, a complex interplay between akt,  xxxg2338xxx  and the two
+mtor complexes, biochem. soc. trans. 37 (2009) 217–222.
+[72] d.r. alessi, m. deak, a. casamayor, f.b. caudwell, n. morrice, d.g. norman, p.
+gaffney, c.b. reese, c.n. macdougall, d. harbison, a. ashworth, m. bownes,
+3-phosphoinositide-dependent protein kinase-1 (pdk1): structural and functional homology with the drosophila dstpk61 kinase, curr. biol. 7 (1997)
+776–789.
+[73] r.c. hresko, m. mueckler, mtor.rictor is the ser473 kinase for akt/protein
+kinase b in 3t3-l1 adipocytes, j. biol. chem. 280 (2005) 40406–40416.
+[74] e. jacinto, r. loewith, a. schmidt, s. lin, m.a. ruegg, a. hall, m.n. hall, mammalian
+or complex 2 controls the actin cytoskeleton and is rapamycin insensitive, nat.
+cell. biol. 6 (2004) 1122–1128.
+[75] d.a. guertin, d.m. stevens, m. saitoh, s. kinkel, k. crosby, j.h. sheen, d.j.
+mullholland, m.a. magnuson, h. wu, d.m. sabatini, mtor complex 2 is required
+for the development of prostate cancer induced by pten loss in mice, cancer cell
+15 (2009) 148–159.
+[76] m.e. feldman, b. apsel, a. uotila, r. loewith, z.a. knight, d. ruggero, k.m. shokat,
+active-site inhibitors of mtor target rapamycin-resistant outputs of mtorc1 and
+mtorc2, plos biol. 7 (2009) e38.
+[77] j.m. garcia-martinez, j. moran, r.g. clarke, a. gray, s.c. cosulich, c.m. chresta, d.r.
+alessi,  xxxd2585xxx  is a speciﬁc inhibitor of the mammalian  xxxg1478xxx 
+(mtor), biochem. j. 421 (2009) 29–42.
+[78] c.c. thoreen, s.a. kang, j.w. chang, q. liu, j. zhang, y. gao, l.j. reichling, t. sim, d.
+m. sabatini, n.s. gray, an atp-competitive mammalian  xxxg1478xxx 
+inhibitor reveals rapamycin-resistant functions of mtorc1, j. biol. chem. 284
+(2009) 8023–8032.
+[79] k. yu, l. toral-barza, c. shi, w.g. zhang, j. lucas, b. shor, j. kim, j. verheijen, k.
+curran, d.j. malwitz, d.c. cole, j. ellingboe, s. ayral-kaloustian, t.s. mansour, j.j.
+gibbons, r.t. abraham, p. nowak, a. zask, biochemical, cellular, and in vivo
+activity of novel atp-competitive and selective inhibitors of the mammalian
+ xxxg1478xxx , cancer res. 69 (2009) 6232–6240.
+[80] a.y. choo, j. blenis, not all substrates are treated equally: implications for mtor,
+rapamycin-resistance and cancer therapy, cell cycle 8 (2009) 567–572.
+[81] l.p. mcmahon, k.m. choi, t.a. lin, r.t. abraham, j.c. lawrence, the rapamycinbinding domain governs substrate selectivity by the mammalian target of
+rapamycin, mol. cell biol. 22 (2002) 7428–7438.
+[82] k. hara, y. maruki, x. long, k. yoshino, n. oshiro, s. hidayat, c. tokunaga, j.
+avruch, k. yonezawa, raptor, a binding partner of  xxxg1478xxx  (tor),
+mediates tor action, cell 110 (2002) 177–189.
+[83] t. nishiuma, k. hara, y. tsujishita, k. kaneko, k. shii, k. yonezawa,
+characterization of the phosphoproteins and protein kinase activity in
+
+r.j.o. dowling et al. / biochimica et biophysica acta 1804 (2010) 433–439
+mtor immunoprecipitates, biochem. biophys. res. commun. 252 (1998)
+440–444.
+[84] k. yu, l. toral-barza, c. discafani, w.g. zhang, j. skotnicki, p. frost, j.j. gibbons,
+mtor, a novel target in breast cancer: the effect of  xxxd3307xxx , an mtor inhibitor, in
+preclinical models of breast cancer, endocr. relat. cancer 8 (2001) 249–258.
+[85] w.c. noh, w.h. mondesire, j. peng, w. jian, h. zhang, j. dong, g.b. mills, m.c. hung,
+f. meric-bernstam, determinants of rapamycin sensitivity in breast cancer cells,
+clin. cancer res. 10 (2004) 1013–1023.
+[86] m.s. neshat, i.k. mellinghoff, c. tran, b. stiles, g. thomas, r. petersen, p. frost, j.j.
+gibbons, h. wu, c.l. sawyers, enhanced sensitivity of pten-deﬁcient tumors to
+inhibition of frap/mtor, proc. natl. acad. sci. u. s. a. 98 (2001) 10314–10319.
+
+439
+
+[87] h.g. wendel, a. malina, z. zhao, l. zender, s.c. kogan, c. cordon-cardo, j. pelletier,
+s.w. lowe, determinants of sensitivity and resistance to rapamycin-chemotherapy drug combinations in vivo, cancer res. 66 (2006) 7639–7646.
+[88] m.b. dilling, g.s. germain, l. dudkin, a.l. jayaraman, x. zhang, f.c. harwood, p.j.
+houghton, 4e-binding proteins, the suppressors of eukaryotic initiation factor 4e,
+are down-regulated in cells with acquired or intrinsic resistance to rapamycin,
+j. biol. chem. 277 (2002) 13907–13917.
+[89] e. raymond, j. alexandre, s. faivre, k. vera, e. materman, j. boni, c. leister, j.
+korth-bradley, a. hanauske, j.p. armand, safety and pharmacokinetics of
+escalated doses of weekly intravenous infusion of  xxxd3307xxx , a novel mtor
+inhibitor, in patients with cancer, j. clin. oncol. 22 (2004) 2336–2347.
+

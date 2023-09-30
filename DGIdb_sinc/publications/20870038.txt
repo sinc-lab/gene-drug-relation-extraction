@@ -1,0 +1,513 @@
+st segment elevation by current-to-load mismatch:
+an experimental and computational study
+mark g. hoogendijk, md,* mark potse, phd,*† alain vinet, phd,‡§ jacques m.t. de bakker, phd,*¶
+ruben coronel, md, phd*
+*from the department of experimental cardiology, heart failure research center, academic medical center, university
+of amsterdam, amsterdam, and †cardiovascular research institute maastricht, maastricht university, maastricht, the
+netherlands, ‡research center, sacré-coeur hospital, and §institute of biomedical engineering, université de montréal,
+montreal, quebec, canada, and ¶interuniversity cardiology institute of the netherlands, utrecht, the netherlands.
+background recently, we demonstrated that  xxxd96xxx  caused
+st segment elevation in the heart of an  xxxg2028xxx  mutation carrier by
+excitation failure in structurally discontinuous myocardium. in
+patients with brugada syndrome, st segment elevation is modulated by cardiac sodium (ina), transient outward (ito), and l-type
+calcium currents (ical).
+objective to establish experimentally whether excitation failure
+by current-to-load mismatch causes st segment elevation and is
+modulated by ito and ical.
+methods in porcine epicardial shavings, isthmuses of 0.9, 1.1,
+or 1.3 mm in width were created parallel to the fiber orientation.
+local activation was recorded electrically or optically (di-4anepps) simultaneously with a pseudo-electrocardiogram (ecg)
+before and after  xxxd96xxx  application. intra- and extracellular potentials and ecgs were simulated in a computer model of the heart
+and thorax before and after introduction of right ventricular structural discontinuities and during varying levels of ina, ito, and ical.
+results in epicardial shavings, conduction blocked after  xxxd96xxx  in a frequency-dependent manner in all preparations with
+isthmuses ⱕ1.1 mm width. total conduction block occurred in
+three of four preparations with isthmuses of 0.9 mm versus one of
+
+introduction
+coved st segment elevation followed by a negative t wave
+in the right precordial leads is the electrocardiographic
+(ecg) hallmark of the brugada syndrome.1 thus far, no
+mechanism of this so-called brugada ecg pattern has been
+demonstrated in patients.2
+a reduced function of the cardiac sodium channel plays
+an important role in the mechanism of the brugada synthe first two authors contributed equally to this work. this study was
+supported by the netherlands heart foundation (2008b062 to rc) and by
+the interuniversity cardiology institute of the netherlands. computational
+resources were provided by the réseau québécois de calcul de haute
+performance. address reprint requests and correspondence: mark
+hoogendijk, m.d., heart failure research center, academic medical
+center, meibergdreef 9, 1105 az, amsterdam, the netherlands. e-mail
+address: m.g.hoogendijk@amc.uva.nl. (received august 3, 2010; accepted
+september 15, 2010.)
+
+seven with isthmuses ⱖ1.1 mm (p⬍.05). excitation failure resulted in st segment elevation on the pseudo-ecg. in computer
+simulations, subepicardial structural discontinuities caused local
+activation delay and made the success of conduction sensitive to
+ina, ito, and ical. reduction of ito and increase of ical resulted in
+a higher excitatory current, overcame subepicardial excitation
+failure, and reduced the st segment elevation.
+conclusions excitation failure by current-to-load mismatch
+causes st segment elevation and, like st segment elevation in
+brugada patients, is modulated by ito and ical.
+keywords brugada syndrome; structure; st segment elevation
+abbreviations ecg ⫽ electrocardiogram;  xxxg304xxx  ⫽ gene
+encoding the ␣1 subunit of the l-type calcium channel;
+cacnb2b ⫽ gene encoding the ␤2b subunit of the l-type calcium channel; gna ⫽ sodium channel conductivity; gcal ⫽ ltype calcium channel conductivity; gto ⫽ transient outward
+conductivity; ina ⫽ sodium current; ical ⫽ l-type calcium current; ito ⫽ transient outward current;  xxxg2028xxx  ⫽ gene encoding
+the ␣ subunit of the cardiac sodium channel
+(heart rhythm 2011;8:111–118) © 2011 heart rhythm society.
+published by elsevier inc. all rights reserved.
+
+drome: sodium channel blockers can provoke or augment
+the brugada ecg pattern,3 and loss-of-function mutations
+in  xxxg2028xxx , the gene encoding the ␣-subunit of the cardiac
+sodium channel, are identified in ⬃20% of patients.4 additionally, structural discontinuities appear to play a role because subtle signs of right ventricular structural discontinuities are common in patients with brugada syndrome.2,5– 8
+recently, we demonstrated in the explanted heart of an
+ xxxg2028xxx  mutation carrier that sodium channel blockade caused
+excitation failure in discontinuous myocardium, which showed
+as st segment elevation on a pseudo-ecg.9 at sites at which
+structural discontinuities cause sudden expansion of the myocardium, more depolarizing current is required for cells to
+reach threshold potential, and conduction can fail especially if
+available excitatory current is reduced (current-to-load mismatch).10,11 in addition, we demonstrated in a computer model
+that excitation failure and activation delay by current-to-load
+
+1547-5271/$ -see front matter © 2011 heart rhythm society. published by elsevier inc. all rights reserved.
+
+doi:10.1016/j.hrthm.2010.09.066
+
+112
+mismatch can result in the brugada ecg pattern and concluded that current-to-load mismatch may underlie the brugada ecg pattern.9 however, a direct experimental proof that
+excitation failure by current-to-load mismatch results in st
+segment elevation is still lacking.
+the brugada ecg pattern is modulated not only by
+cardiac sodium current (ina) but also by transient outward
+(ito) and l-type calcium current (ical). quinidine, a class
+1a sodium channel blocker that also blocks ito,12 can ameliorate the st segment elevation of the brugada ecg pattern13 and reduces inducibility of ventricular arrhythmias.14
+likewise, pharmacological enhancement of ical by  xxxd2401xxx  can reduce the brugada ecg pattern3 and is applied
+to treat electrical storms.15 furthermore, mutations in
+ xxxg304xxx  and cacnb2b that reduce ical were recently
+associated with the brugada syndrome in concurrence with
+a short qt duration.16
+at sites of local activation delay, the current available for
+excitation is modulated by currents activated after the upstroke of the action potential such as ito17 and ical.11,18,19
+therefore, we established experimentally whether excitation failure by current-to-load mismatch results in st segment elevation on a pseudo-ecg in porcine epicardial shavings with introduced structural discontinuities. second, we
+determined whether the brugada ecg pattern by currentto-load mismatch is modulated by ito and ical in a computer
+model encompassing the heart and thorax.
+
+methods
+the experimental protocol complied with the guide for the
+care and use of laboratory animals published by the u.s.
+national institutes of health and was approved by the institutional animal experiments committee.
+
+epicardial shavings
+eight male pigs (25–35 kg) were premedicated with an
+intramuscular injection of ketamine (10 –15 mg/kg, animal
+health bv, bladel, the netherlands) and midazolam (1.0
+mg/kg, f. hoffmann, la roche ltd., basel, switzerland).
+after induction of anesthesia with pentobarbital (20 mg/kg
+iv, ceva santé animale, la ballastière, france) and heparin (leo pharma bv, breda, the netherlands), vf was
+induced by a dc current, and the heart was removed and
+rapidly placed in ice-cold modified tyrode’s solution (nacl
+128 mmol/l, kcl 4.7 mmol/l, cacl2 1.5 mmol/l, mgcl2
+0.7 mmol/l, nahco3 28 mmol/l, nah2po4 0.5 mmol/l,
+glucose 11.0 mmol/l). epicardial shavings (⬃30 ⫻ 20 ⫻
+0.5 mm) were cut with a dermatome parallel to the epicardial surface, while carefully avoiding regions containing the
+main coronary vasculature. suitable preparations were immediately transferred to the superfusion setup and pinned to
+the wax floor of the perfusion chamber. the preparations
+were superfused (100 ml/min) with 0.5 l of recirculating
+modified tyrode’s solution at 37oc. the superfusate was
+gassed with 95% o2/5% co2. eleven preparations were
+used in this study. three preparations were derived from the
+right ventricular free wall, and eight from the left ventricle.
+
+heart rhythm, vol 8, no 1, january 2011
+after determination of the fiber direction, isthmuses were
+created in a line parallel to the fiber orientation at ⬃6 mm
+intervals by puncturing of the epicardial shaving with two
+needles positioned at a fixed distance (either 0.9, 1.1, or 1.3
+mm). after puncturing of the epicardial shavings, cuts were
+made parallel to the fiber direction away from the needles
+using an opthalmic scalpel. this technique allowed precise
+control over isthmus width (0.9, 1.1, or 1.3 mm). the
+preparations were then allowed to equilibrate for 1 hour.
+
+experimental setup
+preparations were stimulated at twice the diastolic threshold. a pseudo-ecg was recorded at 2 khz from electrodes
+placed 5 mm from the epicardial shaving in the superfusion
+solution at either side of the preparation in a line perpendicular to the line of the isthmuses. the ecg electrode at
+the side of stimulation was the negative pole. local activation was recorded either electrically (n ⫽ 4) or optically (n ⫽
+7). for electrical activation recording, two electrodes containing two silver wires were positioned on the epicardial
+surface of the epicardial shaving, one proximal and one
+distal to the isthmus. for the optical mapping, epicardial
+shavings were stained with di-4-anepps 20 ␮mol/l (invitrogen corp., carlsbad, ca) during 7.5 minutes and ⫾
+blebbistatin 10 ␮mol/l (tocris bioscience, bristol, uk)
+was added to the modified tyrode’s solution to avoid mechanical artifacts caused by contraction. fluorescence was
+obtained by exciting the stained tissue with a 5-w light
+emitting diode (cyan, 505 nm) reflected by a dichroic mirror
+and focused at the preparation through a tandem lens set.
+the emitted fluorescent light was transmitted through the
+tandem lens setup, filtered (⬎610 nm) and projected on a
+micam ultima optical camera (scimedia usa ltd., costa
+mesa, ca). the camera had 100 ⫻ 100 pixels and 1-khz
+sampling frequency. the viewing window of the optical
+setup was 9 ⫻ 9 mm.
+recordings were made at varying basic cycle lengths
+(2000 –200 ms) before and after addition of  xxxd96xxx  5
+␮mol/l (solvay pharmaceuticals gmbh, hannover, germany), a rate-dependent blocker of the cardiac sodium
+channel.20 at baseline, the conduction velocity of the epicardial shavings was determined using activation maps during central stimulation at a cycle length of 500 ms. preparations with successful conduction at baseline over the
+isthmuses at all tested frequencies were included in this
+study.
+
+data analysis
+data were analyzed using custom-made software based on
+matlab r2006b (mathsworks inc., natick, ma).21 local electrograms or optical mapping data were aligned with
+the pseudo-ecg on the stimulation artifact.
+the modulation of current-to-load mismatch by ito and
+ical in addition to  xxxd96xxx  could not be tested in epicardial
+shavings because porcine ventricular cardiomyocytes do not
+express ito1.22 furthermore, reduction of ical reduces the
+action potential duration,23 and this will increase the dia-
+
+hoogendijk et al
+
+st segment elevation by current-to-load mismatch
+
+113
+
+figure 1
+optical map and pseudo-ecg of a porcine epicardial shaving after the introduction of isthmuses during stimulation from below. colors
+correspond with local activation times, lines are 2.5-ms isochrones, viewing window is 9 ⫻ 9 mm. tracing shows qrs complex and st-t segment of the
+pseudo-ecg.
+
+stolic interval during steady state pacing, which will affect
+the use-dependent blockade of the sodium channel by  xxxd96xxx . therefore, we studied the effects of ito and ical in
+computer simulations.
+
+computer simulations
+as before,9 propagating action potentials were simulated
+with a whole-heart reaction-diffusion model containing 90
+million nodes, each represented by a membrane model of
+the human ventricular myocyte.24 membrane ionic currents
+were computed with a human membrane model that included the differential characteristics of subendocardial,
+midmyocardial, and subepicardial myocytes.25 transmural
+fiber rotation was represented in the model. the ecg was
+computed using a bidomain model of the human heart and
+torso, including lungs and intracavitary blood volumes.26
+structural discontinuities were simulated by the introduction of barriers (thickness 0.4 – 0.6 mm) in the outer 50% of
+the right ventricular wall. in these barriers, no intercellular
+coupling was present, but the interstitium was unaffected.
+the barriers contained gaps of 0.2 mm width in which the
+intercellular coupling was reduced to 30% of normal to
+mimic smaller gaps. sodium channel conductivity (gna)
+was simulated at 100% or 30% of normal in the entire heart.
+the conductivity of the l-type calcium channels (gcal) was
+modified in steps from 50% to 400% of normal, and the
+conductivity of the transient outward channels (gto) from
+0% to 400% of normal in the entire heart. simulation of a
+single cardiac beats in this model required 7–12 hours (sgi
+altix computer, 128 processors).
+
+results
+epicardial shavings
+at baseline, the conduction velocity of the epicardial shavings was 60.7 ⫾ 5.7 cm/s longitudinal and 15.2 ⫾ 3.7 cm/s
+(mean ⫾ sd) transversal to the fiber direction. a typical
+example of an activation map and pseudo-ecg of an epicardial shaving after creation of an isthmus is shown in
+figure 1.
+after  xxxd96xxx , conduction blocked at the isthmuses in
+most of the preparations. the fraction of blocked beats was
+greater at shorter cycle lengths and in preparations with the
+smallest isthmus width (figure 2). total conduction block
+occurred in three of four preparations with isthmuses of 0.9
+mm versus one of seven with isthmuses ⱖ1.1 mm (p⬍.05).
+
+statistical analysis
+the occurrence of conduction block after  xxxd96xxx  was
+compared between groups of preparations with similar isthmus width using a fisher’s exact test. the level of statistical
+significance was set to p⬍.05.
+
+figure 2
+graph showing the portion of beats conducted over the isthmuses in epicardial shavings at increasing pacing rates after  xxxd96xxx  (5
+␮mol/l). the conduction block depended on the width of the isthmuses
+and on the pacing rate; n ⫽ no. of preparations.
+
+114
+no blocked beats at any cycle length were observed in two
+of three preparations with isthmuses of 1.3 mm versus eight
+of eight with isthmuses ⱕ1.1 mm (p ⫽ .055).
+figure 3 shows the activation maps, optically recorded
+action potentials, and pseudo-ecgs of two consecutive beats
+of an epicardial shaving containing three isthmuses (one outside the recording area) of 1.1 mm after  xxxd96xxx  during stimulation at a cycle length of 300 ms. in the upper panel, conduction over one of the isthmuses is successful and the
+myocardium distal of the isthmuses was activated with a long
+delay. this resulted in a long fractionated qrs complex followed by a negative t wave on the pseudo-ecg. in the lower
+panel, conduction fails at both isthmuses, resulting in excitation failure of the myocardium distal of the isthmuses. activation at the proximal site of the barrier gives rise to a potential
+gradient over the isthmuses and current flow toward the posi-
+
+heart rhythm, vol 8, no 1, january 2011
+tive ecg electrode, which is seen as st segment elevation on
+the pseudo-ecg.
+
+computer simulations
+local activation
+all simulations were run with a model of both ventricles.
+three-dimensional activation maps of a subepicardial section
+of this model after introduction of subepicardial structural
+discontinuities are shown in figure 4. for clarity, the structural
+discontinuities were made transparent. graphs below show
+local action potentials; ina, ito, and ical; and the total current
+given or received through the gap junctions at four different
+locations indicated in the activation maps. at baseline (figure
+4a), activation is delayed at the distal end of the isthmuses, but
+all myocardium distal from the isthmuses reached threshold
+potential and was activated. as shown before,9 reduction of the
+
+figure 3
+activation maps showing two out of three isthmuses of 1.1 mm width of an epicardial shaving, optically recorded action potentials, and
+pseudo-ecgs of two consecutive beats after  xxxd96xxx  during stimulation at a cycle length of 300 ms. in the upper panel, conduction over the right isthmus
+was successful and the myocardium distal of the isthmus was activated late, resulting in a long qrs duration followed by a negative t wave on the
+pseudo-ecg. in the lower panel, conduction failed at all isthmuses, resulting in excitation failure of the myocardium distal of the isthmuses and in a potential
+gradient over the isthmuses, which is seen as st segment elevation on the pseudo-ecg. colors correspond with local activation; lines are 5-ms isochrones;
+viewing window is 9 ⫻ 9 mm; and s1 indicates the stimulation artifact, qrs complex, and st-t segment of the pseudo-ecg.
+
+hoogendijk et al
+
+st segment elevation by current-to-load mismatch
+
+115
+
+figure 4
+three-dimensional activation map of a subepicardial section of the computer model after introduction of subepicardial structural discontinuities
+and graphs showing action potentials and ion currents at four locations, which are indicated by colored spheres in the activation map. at baseline (a),
+activation is delayed at the distal end of the isthmuses. however, all distal myocardium is activated. after reduction to 30% of the conductance of the cardiac
+sodium channel (b), activation is blocked at the isthmuses and subepicardial sites failed to excite. after reduction of the conductance of the transient outward
+current to 0% of normal (c), the phase 1 repolarization at subepicardial locations is reduced (red) and more current is provided to sites distal of the isthmus
+(green), and excitation threshold potential is reached. likewise, an increase in the l-type calcium current to 150% of normal (d) resulted in a higher
+depolarizing current being provided to the location distal of the isthmuses (green) and prevented excitation failure. colors in the activation map correspond
+with local activation time. endo indicates the endocardial side and epi the epicardial side of the section. in panels a and d, ito at the gray marker is small,
+because it is located in endocardial tissue, where the expression of ito is relatively low.
+
+conductance of the cardiac sodium channel to 30% of normal
+(figure 4b) resulted in activation block at some of the isthmuses and in excitation failure in part of the subepicardial
+tissue distal to the isthmuses. reduction of the conductance of
+gto to 0% of normal (figure 4c) prevented subepicardial
+excitation failure at some sites. phase 1 repolarization at subepicardial locations was reduced (see red action potential), and
+more current was provided to sites distal to the isthmus (green),
+which enabled it to reach threshold potential and prevented
+subepicardial excitation failure. likewise, an increase in gcal
+to 150% of normal (figure 4d) resulted in a higher depolarizing current being provided to the location distal of the isthmuses (green) and prevented excitation failure.
+
+simulated ecgs
+the subepicardial activation delay and excitation failure after
+reduction of gna to 30% in structurally discontinuous heart
+resulted in st segment elevation followed by a negative t
+
+wave in the right precordial leads of the ecg. the percentage
+of elements of the entire heart that failed to excite and the right
+precordial st segment elevation after gna reduction were
+modulated by gto and gcal. an increase of gto (figure 5) or
+a reduction of gcal (figure 6) resulted in more sites that failed
+to excite and in greater amplitude of the right precordial st
+segment elevation. conversely, a reduction of gto or an increase of gcal improved the success of conduction, decreased
+the number of sites that failed to excite, and reduced the
+amplitude of the right precordial st segment elevation. the
+same changes in gto and gcal did not result in st segment
+deviation in the heart without structural discontinuities either at
+normal gna or after reduction of gna to 30% of normal (data
+not shown).
+
+discussion
+in this study, we directly demonstrated that excitation failure by current-to-load mismatch results in st segment ele-
+
+116
+
+heart rhythm, vol 8, no 1, january 2011
+
+figure 5 simulated ecgs of the heart with structural discontinuities and reduced sodium current at different levels of conductivity of the channel
+underlying the transient outward current (gto). the graphs on the right relate the corresponding percentage of excited elements of the whole heart with the
+cumulative st segment elevation in the four right precordial leads. gto modulated success of conduction in structurally discontinuous right ventricular
+subepicardium. reduction of gto prevented excitation failure at some subepicardial sites and decreased the right precordial st segment elevation on the ecg.
+v1ics3 and v2ics3 indicate leads v1 and v2 positioned in the third intercostal space.
+
+vation on the ecg. in porcine epicardial shavings, success
+of conduction across an isthmus depended on the width of
+the isthmus and on the available ina, which was varied by
+addition of the rate-dependent sodium channel blocker  xxxd96xxx  and by changing the pacing frequency. small isthmuses (ⱕ 1.1 mm) in combination with reduced sodium
+current resulted in excitation failure and st segment elevation on the pseudo-ecg. additionally, we demonstrated in
+a computer model that ito and ical modulate the excitation
+failure-induced brugada ecg pattern in discontinuous
+myocardium. at sites of sudden expansion of the myocardium, a small source volume must activate a large sink
+volume. this caused activation delay and made the success
+of conduction sensitive to currents activated shortly after the
+upstroke of the action potential, such as ito and ical. the
+repolarizing ito reduced, and the depolarizing ical increased
+the current available for downstream depolarization and
+success of conduction.
+these results are in line with clinical observations in
+patients with brugada syndrome. subtle signs of structural
+discontinuities in histological studies,8 imaging studies,5
+and electrophysiological studies6,7 are common in patients
+with brugada syndrome. additionally, enhancement of ical
+by  xxxd2401xxx  can reduce the brugada ecg pattern3 and
+
+can suppress electrical storms.15 likewise, blockade of ito
+by quinidine can reduce the st segment elevation13 and
+lower the inducibility of arrhythmias.14 in a case report,
+watanabe et al. have demonstrated that quinidine reversibly
+eliminated late potentials on the signal-averaged ecg of a
+patient with brugada syndrome.27 therefore, the observation that the brugada syndrome is modulated by ito and ical
+is consistent with the hypothesis that conduction disturbances by current-to-load mismatch cause the brugada ecg
+pattern.
+as shown schematically in figure 7, current-to-load mismatch can cause unidirectional conduction block depending
+on the distribution of structural discontinuities and the depolarizing current available for conduction. the first observed extrasystole can be caused by reentrant activation.
+the ventricular arrhythmias associated with the brugada
+ecg pattern can therefore be explained by current-to-load
+mismatch without the need for an extrasystole by a focal
+mechanism.
+the question remains whether excitation failure by currentto-load mismatch can also underlie the st segment elevation
+and ventricular fibrillation in other patient groups. haïssaguerre et al. have demonstrated that elevation of the qrs-st
+
+figure 6 simulated ecgs of the heart with right ventricular structural discontinuities and reduction of the cardiac sodium current at different levels of
+conductivity of the l-type calcium channel (gcal). the graphs on the right relate the corresponding percentage of excited elements of the whole heart with
+the cumulative st segment elevation in the four right precordial leads. gcal modulated success of conduction in structurally discontinuous right ventricular
+subepicardium. increased gcal prevented excitation failure at some subepicardial sites and decreased the right precordial st segment elevation on the ecg.
+
+hoogendijk et al
+
+st segment elevation by current-to-load mismatch
+
+117
+
+shavings. however, others have provided ample demonstration of the effects of ito17 and ical11,19,32 on the success of
+conduction in the setting of local activation delay. furthermore, the width of the isthmuses in epicardial shavings that
+resulted in conduction block in the present study as well as
+in previous reports33 was larger than those in the computer
+model. to obtain conduction block by current-to-load mismatch in a computer model with isthmus sizes comparable
+to those of the epicardial shavings, it may be necessary to
+account for the discontinuities at the cellular level.34 with
+the currently available computing power, this is not feasible
+for a whole-heart model. in addition, the cutting of the
+epicardial shavings may have changed the interstitial conductivity. because the nature and size of these changes are
+unknown, they were not accounted for in the computer
+model.
+
+conclusions
+excitation failure by current-to-load mismatch causes st
+segment elevation and, like st segment elevation in brugada patients, is modulated by ina, ito, and ical . therefore,
+current-to-load mismatch may underlie the brugada syndrome.
+
+acknowledgments
+figure 7
+schematic drawings illustrating the induction of reentrant
+arrhythmias by current-to-load mismatch in myocardium containing two
+isthmuses. a: during normal conditions, the redundancy in excitatory
+current makes conduction successful over both isthmuses and there is no
+reentrant activation. b: a reduction of the cardiac sodium current or l-type
+calcium current or an increase of the transient outward current lowers the
+excitatory current and can cause unidirectional conduction block depending on the local geometry of the myocardium. in the top drawing, activation is blocked at the left but not at the right isthmus. the asymmetrical
+distribution of the structural discontinuities at the left isthmus make conduction in the opposite direction successful, and activation reenters the
+proximal myocardium. colors depict activation time; black indicates fibrous tissue between myocardium.
+
+junction on the inferior and lateral leads (also termed inferolateral early-repolarization sign [ers]) is associated with idiopathic vf and that these patients are at high risk of recurrent
+vf.28 as in the brugada syndrome, isoproterenol28,29 and
+quinidine29 reduce or eliminate inferolateral ers and may
+prevent arrhythmias in these patients.29,30 furthermore, inferolateral ers is a common feature in patients with brugada
+syndrome,31 and sodium channel blockade can provoke the
+brugada ecg pattern in inferior or lateral leads in ⬃5% of
+patients with brugada syndrome.30 however, sodium channel
+blockade, the most potent modulator of the brugada ecg
+pattern, usually has no effect on inferolateral ers.30,31 despite
+these similarities, the mechanisms of st segment elevation in
+patients with the brugada syndrome and in those with inferolateral ers are therefore likely different but share modulation
+by ito and ical.
+
+study limitations
+variation of ito and ical was only performed in the computer model of the brugada syndrome and not in epicardial
+
+the authors thank charly belterman and goos huijzer for
+invaluable assistance.
+
+references
+1. brugada p, brugada j. right bundle branch block, persistent st segment
+elevation and sudden cardiac death: a distinct clinical and electrocardiographic
+syndrome. a multicenter report. j am coll cardiol 1992;20:1391–1396.
+2. hoogendijk mg, opthof t, postema pg, wilde aam, de bakker jmt, coronel
+r. the brugada ecg pattern: a marker of channelopathy, structural heart
+disease, or neither? toward a unifying mechanism of the brugada syndrome.
+circ arrhythm electrophysiol 2010;3:283–290.
+3. miyazaki t, mitamura h, miyoshi s, soejima k, ogawa s, aizawa y. autonomic and antiarrhythmic drug modulation of st segment elevation in patients
+with brugada syndrome. j am coll cardiol 1996;27:1061–1070.
+4. priori sg, napolitano c, gasparini m, et al. natural history of brugada syndrome: insights for risk stratification and management. circulation 2002;105:
+1342–1347.
+5. catalano o, antonaci s, moro g, et al. magnetic resonance investigations in
+brugada syndrome reveal unexpectedly high rate of structural abnormalities. eur
+heart j 2009;30:2241–2248.
+6. ikeda t, sakurada h, sakabe k, et al. assessment of noninvasive markers in
+identifying patients at risk in the brugada syndrome: insight into risk stratification. j am coll cardiol 2001;37:1628 –1634.
+7. postema pg, van dessel pfhm, de bakker jmt, et al. slow and discontinuous
+conduction conspire in brugada syndrome: a right ventricular mapping and
+stimulation study. circ arrhythm electrophysiol 2008;1:379 –386.
+8. zumhagen s, spieker t, rolinck j, et al. absence of pathognomonic or inflammatory patterns in cardiac biopsies from patients with brugada syndrome. circ
+arrhythm electrophysiol 2009;2:16 –23.
+9. hoogendijk mg, potse m, linnenbank ac, et al. mechanism of right precordial
+st-segment elevation in structural heart disease: excitation failure by currentto-load mismatch. heart rhythm 2010;7:238 –248.
+10. de la fuente d, sasyniuk b, moe gk. conduction through a narrow isthmus in
+isolated canine atrial tissue: a model of the w-p-w syndrome. circulation 1971;
+44:803– 809.
+11. inoue h, zipes dp. conduction over an isthmus of atrial myocardium in vivo: a
+possible model of wolff-parkinson-white syndrome. circulation 1987;76:637– 647.
+12. stanton ms. class 1 antiarrhythmic drugs: quinidine, procainamide, disopyramide, lidocaine, mexiletine,  xxxd3387xxx , phenytoin, morcizine,  xxxd2113xxx ,
+propafenone. in: zipes dp, jalife j, eds. cardiac electrophysiology: from cell to
+bedside. philadelphia, pa: wb saunders company, 2000:890 –903.
+
+118
+13. alings m, dekker lrc, sadee a, wilde aam. quinidine induced electrocardiographic normalization in two patients with brugada syndrome. pacing clin
+electrophysiol 2001;24:1420 –1422.
+14. belhassen b, viskin s, fish r, glick a, setbon i, eldar m. effects of electrophysiologic-guided therapy with class ia antiarrhythmic drugs on the long-term
+outcome of patients with idiopathic ventricular fibrillation with or without the
+brugada syndrome. j cardiovasc electrophysiol 1999;10:1301–1312.
+15. tanaka h, kinoshita o, uchikawa s, et al. successful prevention of recurrent
+ventricular fibrillation by intravenous  xxxd2401xxx  in a patient with brugada
+syndrome. pacing clin electrophysiol 2001;24:1293–1294.
+16. antzelevitch c, pollevick gd, cordeiro jm, et al. loss-of-function mutations in the
+cardiac calcium channel underlie a new clinical entity characterized by st-segment
+elevation, short qt intervals, and sudden cardiac death. circulation 2007;115:442–449.
+17. huelsing dj, spitzer kw, cordeiro jm, pollard ae. conduction between
+isolated rabbit purkinje and ventricular myocytes coupled by a variable resistance. am j physiol heart circ physiol 1998;274:h1163–h1173.
+18. joyner rw, kumar r, wilders r, et al. modulating l-type calcium current affects
+discontinuous cardiac action potential conduction. biophys j 1996;71:237–245.
+19. rohr s, kucera jp. involvement of the calcium inward current in cardiac
+impulse propagation: induction of unidirectional conduction block by nifedipine
+and reversal by bay k 8644. biophys j 1997;72:754 –766.
+20. heistracher p. mechanism of action of antifibrillatory drugs. naunyn schmiedebergs arch pharmacol 1971;269:199 –212.
+21. potse m, linnenbank ac, grimbergen ca. software design for analysis of
+multichannel intracardial and body surface electrocardiograms. comput methods programs biomed 2002;69:225–236.
+22. li gr, du xl, siow yl, o k, tse hf, lau cp. calcium-activated transient
+outward chloride current and phase 1 repolarization of swine ventricular action
+potential. cardiovasc res 2003;58:89 –98.
+23. vitek m, trautwein w. slow inward current and action potential in cardiac
+purkinje fibres. pflugers arch 1971;323:204 –218.
+
+heart rhythm, vol 8, no 1, january 2011
+24. potse m, dubé b, richer j, vinet a, gulrajani rm. a comparison of monodomain and bidomain reaction-diffusion models for action potential propagation in
+the human heart. ieee trans biomed eng 2006;53:2425–2435.
+25. ten tusscher khwj, noble d, noble pj, panfilov av. a model for human
+ventricular tissue. am j physiol heart circ physiol 2004;286:h1573–h1589.
+26. potse m, dubé b, vinet a. cardiac anisotropy in boundary-element models for
+the electrocardiogram. med biol eng comput 2009;47:719 –729.
+27. watanabe h, chinushi m, osaki a, et al. elimination of late potentials by
+quinidine in a patient with brugada syndrome. j electrocardiol 2006;39:63– 66.
+28. haïssaguerre m, derval n, sacher f, et al. sudden cardiac arrest associated with
+early repolarization. n engl j med 2008;358:2016 –2023.
+29. haïssaguerre m, sacher f, nogami a, et al. characteristics of recurrent ventricular fibrillation associated with inferolateral early repolarization: role of drug
+therapy. j am coll cardiol 2009;53:612– 619.
+30. sarkozy a, chierchia gb, paparella g, et al. inferior and lateral electrocardiographic repolarization abnormalities in brugada syndrome. circ arrhythm electrophysiol 2009;2:154 –161.
+31. letsas kp, sacher f, probst v, et al. prevalence of early repolarization pattern
+in inferolateral leads in patients with brugada syndrome. heart rhythm 2008;
+5:1685–1689.
+32. shaw rm, rudy y. ionic mechanisms of propagation in cardiac tissue: roles of
+the sodium and l-type calcium currents during reduced excitability and decreased gap junction coupling. circ res 1997;81:727–741.
+33. cabo c, pertsov am, baxter wt, davidenko jm, gray ra, jalife j. wave-front
+curvature as a cause of slow conduction and block in isolated cardiac muscle.
+circ res 1994;75:1014 –1028.
+34. spach ms, miller wt, iii, dolber pc, kootsey jm, sommer jr, mosher ce,
+jr.the functional role of structural complexities in the propagation of depolarization in the atrium of the dog. cardiac conduction disturbances due to discontinuities of effective axial resistivity. circ res 1982;50:175–191.
+

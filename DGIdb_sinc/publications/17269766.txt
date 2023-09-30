@@ -1,0 +1,1072 @@
+published on web 02/02/2007
+
+exploring the subtleties of drug-receptor interactions: the
+case of matrix metalloproteinases
+ivano bertini,*,†,‡ vito calderone,† marco fragai,†,§ andrea giachetti,†,§,|
+mauro loconte,| claudio luchinat,†,§ massimiliano maletta,†,‡ cristina nativi,⊥ and
+kwon joo yeo†
+contribution from the magnetic resonance center (cerm), university of florence,
+via l. sacconi 6, 50019 sesto fiorentino, italy, department of chemistry, university of
+florence, via della lastruccia 3, 50019 sesto fiorentino, italy, department of agricultural
+biotechnology, university of florence, via maragliano, 75-77, 50144 florence, italy, protera
+s.r.l., via delle idee, 22, 50019 sesto fiorentino, italy, and department of organic chemistry,
+university of florence, via della lastruccia 13, 50019 sesto fiorentino, italy
+received july 19, 2006; e-mail: ivanobertini@cerm.unifi.it
+
+abstract: by solving high-resolution crystal structures of a large number (14 in this case) of adducts of
+matrix metalloproteinase 12 ( xxxg1421xxx ) with strong, nanomolar, inhibitors all derived from a single ligand
+scaffold, it is shown that the energetics of the ligand-protein interactions can be accounted for directly
+from the structures to a level of detail that allows us to rationalize for the differential binding affinity between
+pairs of closely related ligands. in each case, variations in binding affinities can be traced back to slight
+improvements or worsening of specific interactions with the protein of one or more ligand atoms. isothermal
+calorimetry measurements show that the binding of this class of mmp inhibitors is largely enthalpy driven,
+but a favorable entropic contribution is always present. the binding enthalpy of  xxxd66xxx  (aha),
+the prototype zinc-binding group in mmp drug discovery, has been also accurately measured. in principle,
+this research permits the planning of either improved inhibitors, or inhibitors with improved selectivity for
+one or another mmp. the present analysis is applicable to any drug target for which structural information
+on adducts with a series of homologous ligands can be obtained, while structural information obtained
+from in silico docking is probably not accurate enough for this type of study.
+
+introduction
+
+drug discovery projects aim at finding small molecules that
+bind a selected protein target with high binding affinity. high
+selectivity is also a desirable property especially when the
+selected target belongs to a protein family. in the case of matrix
+metalloproteinases (mmp), a family of closely related zinccontaining extracellular proteases, numerous high affinity inhibitors are available.1 well-known examples are  xxxd287xxx  and
+marimastat belonging to the class of succinate peptidomimetic
+inhibitors,2,3 the class of succinate macrocyclic inhibitors,4 the
+class of sulfone hydroxamate inhibitors,5 the class of the reverse
+hydroxamic acid inhibitors,6 and the class of sulfonamidic
+†
+
+magnetic resonance center (cerm), university of florence.
+department of chemistry, university of florence.
+§ department of agricultural biotechnology, university of florence.
+| protera s.r.l.
+⊥ department of organic chemistry, university of florence.
+‡
+
+(1) fisher, j. f.; mobashery, s. cancer metastasis rev. 2006, 25, 115-136.
+(2) whittaker, m.; floyd, c. d.; brown, p.; gearing, a. j. chem. rev. 1999,
+99, 2735-2776.
+(3) skiles, j. w.; gonnella, n. c.; jeng, a. y. curr. med. chem. 2004, 11,
+2911-2977.
+(4) xue, c. b.; he, x. h.; corbett, r. l.; roderick, j.; wasserman, z. r.;
+liu, r. q.; jaffee, b. d.; covington, m. b.; qian, m. x.; trzaskos, j. m.;
+newton, r. c.; magolda, r. l.; wexler, r. r.; decicco, c. p. j. med.
+chem. 2001, 44, 3351-3354.
+(5) lovejoy, b.; welch, a. r.; carr, s.; luong, c.; broka, c.; hendricks, r.
+t.; campbell, j. a.; walker, k. a. m.; martin, r.; van wart, h.; browner,
+m. f. nat. struct. biol. 1999, 6, 217-221.
+2466
+
+9
+
+j. am. chem. soc. 2007, 129, 2466-2475
+
+inhibitors such as  xxxd1109xxx .7 their dissociation constants are in
+the low nanomolar range. however, the selectivity versus one
+or another mmp is often modest, and this is at the origin of
+several side-effects discovered during the clinical trials.8 several
+approaches have been proposed in order to design selective
+ligands for protein targets.9-12 three-dimensional structures of
+enzyme-inhibitor adducts for several ligands, belonging to the
+various classes, with several different mmps are available.3,5,13-22
+(6) hajduk, p. j. et al. j. am. chem. soc. 1997, 119, 5818-5827.
+(7) macpherson, l. j. et al. j. med. chem. 1997, 40, 2525-2532.
+(8) coussens, l. m.; fingleton, b.; matrisian, l. m. science 2002, 295, 23872392.
+(9) johnson s. l.; pellecchia m. curr. top. med. chem. 2006, 6, 317-329.
+(10) zartler, e. r.; shapiro, m. j. curr. opin. chem. biol. 2005, 9, 366-370.
+(11) erlanson, d. a.; wells, j. a.; braisted, a. c. annu. rev. biophys. biomol.
+struct. 2004, 33, 199-223.
+(12) blundell, t. l.; jhoti, h.; abell, c. nat. rev. drug discovery 2002, 1,
+45-54.
+(13) moy, f. j.; chanda, p. k.; chen, j. m.; cosmi, s.; edris, w.; levin, j. i.;
+powers, r. j. mol. biol. 2000, 302, 671-689.
+(14) brandstetter, h.; grams, f.; glitz, d.; lang, a.; huber, r.; bode, w.; krell,
+h. w.; engh, r. a. j. biol. chem. 2001, 276, 17405-17412.
+(15) gall, a. l.; ruff, m.; kannan, r.; cuniasse, p.; yiotakis, a.; dive, v.;
+rio, m. c.; basset, p.; moras, d. j. mol. biol. 2001, 307, 577-586.
+(16) borkakoti, n.; winkler, f. k.; williams, d. h.; darcy, a.; broadhurst, m.
+j.; brown, p. a.; johnson, w. h.; murray, e. j. nat. struct. biol. 1994, 1,
+106-110.
+(17) bertini, i.; calderone, v.; cosenza, m.; fragai, m.; lee, y.-m.; luchinat,
+c.; mangani, s.; terni, b.; turano, p. proc. natl. acad. sci. u.s.a 2005,
+102, 5334-5339.
+(18) lang, r.; kocourek, a.; braun, m.; tschesche, h.; huber, r.; bode, w.;
+maskos, k. j. mol. biol. 2001, 312, 731-742.
+10.1021/ja065156z ccc: $37.00 © 2007 american chemical society
+
+matrix metalloproteinases
+
+articles
+
+figure 1. (a) schematic representation of the active site of mmps highlighting the zinc ion site, the hydrophobic pocket termed s1′, and the substrate
+binding groove. (b) the sulfonamide scaffold used in this work with its r1, r2 and r3 substituents. the actual compounds investigated are: 1 r1 ) h, r2
+) h, r3 ) h, 2 r1 ) f, r2 ) h, r3 ) h, 3 r1 ) och3, r2 ) h, r3 ) h, 4 r1 ) c6h5, r2 ) h, r3 ) h, 5 r1 ) f, r2 ) ch2ch2oh, r3 ) h, 6 r1
+) och3, r2 ) ch2ch2oh, r3 ) h, 7 r1 ) c6h5, r2 ) ch2ch2oh, r3 ) h, 8 r1 ) och3, r2 ) h, r3 ) (d)ch2oh, 9 r1 ) och3, r2 ) h, r3 )
+(d)chch3oh, 10 r1 ) och3, r2 ) h, r3 ) (l)ch2oh, 11 r1 ) och3, r2 ) h, r3 ) (l)chch3oh, 12 r1 ) och3, r2 ) ch2ch(ch3)2, r3 ) h, 13
+r1 ) och3, r2 ) ch2chohch2oh, r3 ) h, 14 r1 ) och3, r2 ) ch2chohch2oh, r3 ) (d)ch2oh.
+
+given the active site topology of mmps, most inhibitors share
+similar features, i.e., the ability to bind to the metal ion, to the
+hydrophobic pocket termed s1′, and to the substrate binding
+groove (figure 1a). in such a situation, to attempt planning
+ligands with increased selectivity requires an understanding of
+the energetics of the inhibitor interactions with each of these
+active site regions to an unprecedented level of detail. the
+existing structural data for various mmp-inhibitor adducts are
+many but scattered, and structure-affinity relationships at the
+level of a meaningful dissection of the various contributions
+can be hardly attempted.23 furthermore, the catalytic domains
+of mmps undergo non-negligible conformational equilibria in
+solution,17,24,25 which also involve the active site pocket. a
+flexible active site is a serious drawback for the use of in silico
+docking programs to design inhibitors,26 and even more to refine
+them to increase selectivity.27
+with this in mind, we felt it would be important to ascertain
+whether, in case a large number of structures of mmp adducts
+with a homologous series of ligands were available, structureaffinity relationships can be established, and, if so, whether these
+relationships are accurate enough to enable meaningful proteinspecific ligand-refinement strategies. thus, we collected structural data for a large number of adducts of a homologous series
+of ligands with one particular mmp. we selected  xxxg1421xxx , a
+validated target for emphysema28 and multiple sclerosis,29
+because a crystalline form of its catalytic domain is available17
+that allows easy soaking of inhibitors. high-resolution crystal
+structures of as many as 16 different adducts of the protein with
+structurally related inhibitors were obtained. in parallel, the free
+(19) bertini, i.; calderone, v.; fragai, m.; luchinat, c.; mangani, s.; terni, b.
+j. mol. biol. 2004, 336, 707-716.
+(20) vandoren, s. r.; kurochkin, a. v.; hu, w. d.; ye, q. z.; johnson, l. l.;
+hupe, d. j.; zuiderweg, e. r. p. protein sci. 1995, 4, 2487-2498.
+(21) browner, m. f.; smith, w. w.; castelhano, a. l. biochemistry 1995, 34,
+6602-6610.
+(22) rowsell, s.; hawtin, p.; minshull, c. a.; jepson, h.; brockbank, s. m.
+v.; barratt, d. g.; slater, a. m.; mcpheat, w. l.; waterson, d.; henney,
+a. m.; pauptit, r. a. j. mol. biol. 2002, 319, 173-181.
+(23) rush, t. s.; powers, r. the application of x-ray, nmr, and molecular
+modeling in the design of mmp inhibitors. curr. top. med. chem. 2004,
+4, 1311-1327.
+(24) moy, f. j.; pisano, m. r.; chanda, p. k.; urbano, c.; killar, l. m.; sung,
+m. l.; powers, r. j. biomol. nmr 1997, 10, 9-19.
+(25) gao, g.; semenchenko, v.; arumugam, s.; van doren, s. r. j. mol. biol.
+2000, 301, 537-552.
+(26) teague, s. j. nature rev. drug discovery 2003, 2, 527-541.
+(27) moy, f. j.; chanda, p. k.; chen, j.; cosmi, s.; edris, w.; levin, j. i.;
+rush, t. s.; wilhelm, j.; powers, r. j. am. chem. soc. 2002, 124, 1265812659.
+(28) morris, d. g.; huang, x. z.; kaminski, n.; wang, y. n.; shapiro, s. d.;
+dolganov, g. glick, a.; sheppard, d. nature 2003, 422, 169-173.
+(29) vos, c. m. p.; van haastert, e. s.; de groot, c. j. a.; van der valk, p.; de
+vries, h. e.  xxxg1421xxx  j. neuroimmunol. 2003, 138,
+106-114.
+
+energies of binding (∆g°) through enzyme activity inhibition
+experiments were measured for the same ligands. it is shown
+that, indeed, a careful analysis of the structural data, performed
+with the aid of structure-based computed interatomic interaction
+energies, can provide a detailed description of how different
+substituents on the same scaffold can interplay to improve or
+worsen affinity and selectivity. it is proposed that this strategy
+is of general validity for any drug target, provided structural
+information on a number of homologous ligand-protein adducts
+can be obtained. in particular, other therapeutically relevant
+metalloproteinases9,30 may benefit from this approach.
+materials and methods
+synthesis, characterization, and inhibitory assays of compounds
+1-11, 13, and 14 will be described elsewhere. compound 12 has been
+already described.7
+expression and purification of human  xxxg1421xxx  and  xxxg1422xxx 
+catalytic domain. cloning, expression, and purification of  xxxg1421xxx 
+catalytic domain have been previously described.17 the cdna of
+prommp13 (leu20-pro268) was cloned into the pet21 vector (novagen)
+using nde i and xho i as restriction enzymes. one additional methionine
+at position 19 was present in the final expression product. the e. coli
+strain bl21 codon plus cells, transformed with the above plasmid,
+were grown in lb medium at 310 k. the protein expression was
+induced during the exponential growth phase with 0.5 mm of iptg.
+the cells were harvested 3 h after induction. after lysis of the cells,
+the inclusion bodies, containing the prommp13, were solubilized in 6
+m urea and 20 mm tris (ph 8.0). the protein was purified on the
+hitrap q column (pharmacia) with a buffer containing 6 m urea and
+20 mm tris (ph 8.0). the elution was performed using a linear gradient
+of nacl up to 0.6 m. the purified protein was then refolded using
+multistep dialysis against solutions containing 50 mm tris (ph 7.2),
+10 mm cacl2, 0.1 mm  xxxd3556xxx , and 0.3 m nacl and decreasing
+concentration of urea. the refolded protein was exchanged, by dialysis,
+against a buffer with 50 mm tris (ph 7.2), 5 mm cacl2, 0.1 mm
+ xxxd3556xxx , and 0.3 m nacl. the protein was concentrated at roomtemperature using an amicon up to a concentration of about 30 µm.
+the active protein is left overnight in these conditions to allow the
+autoproteolysis of the prodomain. after addition of acetohydroxamic
+acid (aha) to a final concentration of 0.5 m, the catalytic domain of
+ xxxg1422xxx  (tyr104-pro268) was purified using size-exclusion chromatography with the buffer containing 50 mm tris (ph 7.2), 5 mm cacl2,
+0.1 mm  xxxd3556xxx , 0.3 m nacl, and 0.2 m aha and then concentrated
+using a centriprep concentrator at 277 k to a final concentration of
+0.3 mm.
+(30) forino, m.; johnson, s.; wong, t. y.; rozanov, d. v.; savinov, a. y.;
+li, w.; fattorusso, r.; becattini, b.; orry, a. j.; jung, d. w.; abagyan,
+r. a.; smith, j. w.; alibek, k.; liddington, r. c.; strongin, a. y.;
+pellecchia, m. proc. natl. acad. sci. u.s.a. 2005, 102, 9499-9504.
+j. am. chem. soc.
+
+9
+
+vol. 129, no. 9, 2007 2467
+
+bertini et al.
+
+articles
+fluorimetric assays. the inhibition constants for the compounds
+here investigated were determined, evaluating their ability to prevent
+the hydrolysis of the fluorescent-quenched peptide substrate mca-proleu-gly-leu-dpa-ala-arg-nh2 (biomol inc.). all measurements were
+performed in 50 mm hepes buffer, with 10 mm cacl2, 0.05% brij35, and 0.1 mm  xxxd3556xxx  (ph 7.0), using 1 nm enzyme and 1 µm peptide
+at 298 k.
+crystallization, data collection, and resolution of the crystal
+structures. crystals of human  xxxg1421xxx , already containing aha from
+the refolding process, grew at 293 k from a 0.1 m tris-hcl/30% peg
+8000/200 mm aha/1.0 m licl2 solution at ph 8.0 using the vapor
+diffusion technique. the final protein concentration was about 10 mg/
+ml.
+the complexes were obtained through soaking  xxxg1421xxx -aha
+crystals with a solution containing the inhibitor itself in the presence
+of licl2. crystals of  xxxg1421xxx -aha were obtained in the presence of
+licl2 as well.17
+the data were measured in-house, using a px-ultra copper sealed
+tube source (oxford diffraction), for 3, 6, 7, 9, 13, and 14, at id29
+esrf (grenoble, france) for 4 and 8, at bw7a desy (hamburg,
+germany) for 1, 2, 5, 10, and 11 complexes, and at xrd-1 elettra
+(trieste, italy) for 12. all the datasets were collected at 100 k, and
+the crystals used for data collection were cryocooled without any
+cryoprotectant treatment. the crystals of all complexes had a mosaicity
+ranging from 0.3° to 0.8° and diffracted to a maximum resolution of
+1.1 å.
+all the soaked adducts crystallize in the c2 space group with one
+molecule in the asymmetric unit while cocrystallized complex of 12
+crystallizes in p21212 space group with one molecule in the asymmetric
+unit.
+the data were processed in all cases using the program mosflm31
+and scaled using the program scala32 with the tails and secondary corrections on (the latter restrained with a tie surface
+command) to achieve an empirical absorption correction. table 1s (in
+supporting information) shows the data collection and processing
+statistics for all datasets.
+the structure of the adduct with 12 was previously solved17 using
+the molecular replacement technique; the model used was that of a
+molecule of human  xxxg1421xxx  (1os9) while the structure of all other
+adducts were solved using the  xxxg1421xxx -aha adduct (1y93) as the
+model from where the inhibitor, all the water molecules, and ions were
+omitted. the correct orientation and translation of the molecule within
+the crystallographic unit cell was determined with standard patterson
+search techniques33,34 as implemented in the program molrep.35,36
+the refinement was carried out using refmac5,37 and for the atomic
+resolution datasets anisotropic b-factors were also refined. in between
+the refinement cycles the models were subjected to manual rebuilding
+by using xtalview.38 the same program has been used to model all
+inhibitors. water molecules have been added by using the standard
+procedures within the arp/warp suite,39 and for the atomic resolution
+datasets, hydrogens were added at the riding positions and refined.
+the stereochemical quality of the refined models was assessed using
+the program procheck.40 the ramachandran plot for all structures is
+of very good quality.
+(31) leslie, a. g. w. in crystallographic computing v. in molecular data
+processing; moras, d.; podjarny, a. d.; thierry, j.-c., eds.; oxford
+university press: oxford, 1991.
+(32) evans, p. r. data reduction. proceedings of ccp4 study weekend. data
+collection & processing; sawyer, l., isaacs, n., bailey, s., eds.; serc
+daresbury laboratory: england, 1993; pp 114-122.
+(33) rossmann, m. g.; blow, d. m. acta crystallogr. 1962, d15, 24-31.
+(34) crowther, r. a. the molecular replacement method; rossmann, m. g.,
+ed.; gordon & breach: new york, 1972.
+(35) vagin, a.; teplyakov, a. j. app. crystallogr. 1997, 30, 1022-1025.
+(36) vagin, a.; teplyakov, a. acta crystallogr. d biol. crystallogr. 2000, 56
+pt 12, 1622-1624.
+(37) murshudov, g. n.; vagin, a. a.; dodson, e. j. acta crystallogr. 1997,
+ xxxd53xxx , 240-255.
+(38) mcree, d. e. j. mol. graphics 1992, 10, 44-47.
+(39) lamzin, v. s. acta crystallogr. d biol. crystallogr. 1993, 49, 129-147.
+2468 j. am. chem. soc.
+
+9
+
+vol. 129, no. 9, 2007
+
+the coordinates for all adducts are under deposition at the proteindatabank.
+energy calculation. autodock 3.05 was used to calculate the protein
+ligand binding energy.41 the calculation was performed starting from
+the x-ray crystal structure using reliable zn(ii) parameters.42 a box of
+70 × 70 × 70 points with grid spacing of 0.375 å was created on the
+protein side and centered near the catalytic zn(ii) ion. the ligands were
+extracted from the x-ray structure, and hydrogen atoms were added
+considering the hydroxamic group deprotonated; gaister-marsili partial
+atomic charges were calculated using babel.43 the ligands were
+modeled based on the x-ray structures which were already minimized
+against the experimental diffraction data. energy contributions for
+individual atoms were extracted from the autodock energy output.
+calorimetry. isothermal titration microcalorimetry experiments
+were performed at 298 k with a vp-itc microcalorimeter (microcal,
+inc., northampton, ma). after an initial injection of 1 µl, aliquots of
+9 µl of 200 µm inhibitor were stepwise injected into the sample cell
+containing a solution 20 µm of  xxxg1421xxx  catalytic domain until complete
+saturation. all experiments were performed in 20 mm tris (ph 7.2),
+5 mm cacl2, 0.1 mm  xxxd3556xxx , 0.3 m nacl, and 4 mm aha with 0.1%
+(v/v) dmso. heats of dilution were measured by injecting the ligand
+into buffer and then subtracted from the binding heats. the thermodynamic parameters and ka values were calculated fitting data to a
+single binding site model with origin 7.0 sofware (microcal, inc.).44
+
+results and discussion
+
+crystal structures and dissociation constants of ligandmmp12 adducts. the crystal structures of the complexes of
+the catalytic domain of  xxxg1421xxx  with 14 closely related
+inhibitors have been solved. figure 1b shows the scaffold
+common to all these inhibitors, and the three positions on which
+different functionalizations have been tested. the general
+formula contains a hydroxamic group targeted to bind the
+catalytic zinc ion, and an aromatic moiety bearing the r1
+substituent targeted to the hydrophobic s1′ pocket. the two
+groups are tethered by a sulfonamide moiety interacting with
+the substrate binding groove and containing substituents r2 and
+r3, potentially able to give rise to further interactions. r1 ranges
+from h to f to och3 to c6h5. these variations were planned
+to monitor their relative effects on the strength of the interaction
+with s1′. r2 and r3 are either h or aliphatic groups with various
+degrees of hydrophobicity/hydrophilicity.
+a close up of the arrangement of the various ligands in the
+active site of  xxxg1421xxx  is shown in figures 2-6. all the inhibitors
+share the same binding mode, as expected, and in a first
+inspection all relevant interactions (with the s1′ pocket, the
+metal, and the substrate binding groove) are in place. to
+emphasize the similarities, all structures are reported with the
+same orientation, obtained by least-square fits of all the
+coordinates of the adducts to one another. the left-hand column
+of figures 2-6 shows the structures of each adduct, and the
+central column reports the structure of the adduct with the closest
+ligand homologue.
+despite the similarities of the ligand-protein interactions, the
+dissociation constants, measured as inhibition constants through
+fluorimetry under non-saturating substrate concentration condi(40) laskowski, r. a.; macarthur, m. w.; moss, d. s.; thornton, j. m. j.
+appl. crystallogr. 1993, 26, 283-291.
+(41) morris, g. m.; goodsell, d. s.; halliday, r. s.; huey, r.; hart, w. e.;
+belew, r. k.; olson, a. j. j. comput. chem. 1998, 19, 1639-1662.
+(42) hu, x.; shelver, w. h. j. mol. graph. model. 2003, 22, 115-126.
+(43) shah, a. v.; walters, w. p.; shah, r.; dolata, d. p. babel - a molecular
+structure information interchange hub; lysakowski, r., gragg, c. e., eds.;
+american society for testing and materials: philadelphia, pa, 1994.
+(44) indyk, l.; fisher, h. f. methods enzymol. 1998, 295, 350-364.
+
+matrix metalloproteinases
+
+articles
+
+figure 2. close up of the high-resolution 3d structures of the adducts of
+ xxxg1421xxx  with ligands 2-4 (left-hand column) and 1 (central column, panels
+a-c). the right-hand column highlights the improvement (green spheres)
+and worsening (red spheres) of the protein interaction with individual atoms
+of ligands 2-4 with respect to 1. the volumes of the spheres are proportional
+to the size of the interaction energy variation.
+figure 4. close up of the high-resolution 3d structures of the adducts of
+ xxxg1421xxx  with ligands 8-11 (left-hand column panels a-d) and 3 (central
+column, panels a-d). the right-hand column highlights the improvement
+(green spheres) and worsening (red spheres) of the protein interaction with
+individual atoms of ligands 8-11 with respect to 3. the volumes of the
+spheres are proportional to the size of the interaction energy variation.
+
+figure 3. close up of the high-resolution 3d structures of the adducts of
+ xxxg1421xxx  with ligands 5-7 (left-hand column panels a-c) and 2-4 (central
+column, panels a-c). the right-hand column highlights the improvement
+(green spheres) and worsening (red spheres) of the protein interaction with
+individual atoms of ligands 5-7 with respect to 2-4, respectively. the
+volumes of the spheres are proportional to the size of the interaction energy
+variation.
+
+figure 5. close up of the high-resolution 3d structures of the adducts of
+ xxxg1421xxx  with ligands 10 and 11 (left-hand column panels a,b) and 8 and
+9 (central column, panels a,b). the right-hand column highlights the
+improvement (green spheres) and worsening (red spheres) of the protein
+interaction with individual atoms of ligands 10 and 11 with respect to 8
+and 9. the volumes of the spheres are proportional to the size of the
+interaction energy variation.
+
+tions at 298 k (see materials and methods), span 2 orders of
+magnitude. the associated ∆g° values are reported in table 1.
+as described in materials and methods, the protein was used
+as an adduct with the weak inhibitor  xxxd66xxx 
+(aha). stock protein solutions contained 200 mm aha. at
+the final dilution for the fluorimetric assays (1 nm enzyme),
+the aha concentration was 5 µm at most, which is well below
+the dissociation constant of 6.2 mm estimated through the same
+fluorimetric assay. therefore, it may be concluded that aha
+does not appreciably interfere with the assays. it can be seen
+that there are relevant differences in binding affinities even
+between ligands that are very close homologues, i.e., that are
+next to one another in figures 2-6.
+these results illustrate well the nature of the problem: as
+large differences in the binding modes can be immediately ruled
+out by visual inspection, the point is to ascertain whether small
+differences in the binding mode are at all detectable (the nominal
+resolution for the adduct structures obtained in this work range
+between 1.2 and 1.7 å, which corresponds to indeterminations
+in interatomic distances of (0.10 to (0.15 å) and, if so, whether
+
+these small differences are consistently related with the differences in binding affinity.
+careful examination of key interatomic distances and angles
+does suggest that indeed not all interactions, despite being all
+in place, may be energetically equivalent. for example, on
+passing from r1 ) -h (1) to r1 ) -f (2), -och3 (3), -c6h5
+(4), van der waals contacts are of course gained in the s1′
+pocket, but less optimal h-bond interactions of the so2 group
+are seen in all cases. a slight worsening is apparent in the
+hydroxamic acid coordination mode in the -och3 derivative,
+and a less deep penetration of the first phenyl ring in the s1′
+pocket is seen in the -c6h5 derivative. as another example, by
+comparing the r1 ) -c6h5, r2 ) -ch2ch2oh, r3 ) -h
+derivative (7) with the r1 ) -c6h5, r2 ) -h, r3 ) -h derivative
+(4) on one side, and the r1 ) -och3, r2 ) -ch2ch2oh, r3
+) -h derivative (6) with the r1 ) -och3, r2 ) -h, r3 ) -h
+derivative (3) on the other side, we notice that the addition of
+the r2 ) -ch2ch2oh substituent may have opposite effects:
+it modestly improves the overall binding of the r1 ) -och3
+compound and strongly worsens the binding of the r1 ) -c6h5
+j. am. chem. soc.
+
+9
+
+vol. 129, no. 9, 2007 2469
+
+bertini et al.
+
+articles
+
+figure 6. close up of the high-resolution 3d structures of the adducts of
+ xxxg1421xxx  with ligands 12-14 (left-hand column panels a-d), and 3 (central
+column, panels a-c), and 8 (central column, panels d). the right-hand
+column highlights the improvement (green spheres) and worsening (red
+spheres) of the protein interaction with individual atoms of ligands 12-14
+with respect to 3 and 14 with respect to 8. the volumes of the spheres are
+proportional to the size of the interaction energy variation.
+table 1. corrected thermodynamic parameters for the
+investigated inhibitors
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+aha
+ xxxd2329xxx 
+actinonin
+
+kd
+(nm)
+
+∆g°
+(kcal/mol)
+
+∆h°
+(kcal/mol)
+
+−t∆s°
+(kcal/mol)
+
+61.1
+65.1
+19.7
+2.36
+39.5
+7.88
+30.6
+5.91
+10.8
+41.5
+1980
+4.20
+7.88
+41.5
+6.18 × 106
+7.88
+102
+
+-9.83
+-9.80
+-10.50
+-11.76
+-10.09
+-11.05
+-10.24
+-11.22
+-10.86
+-10.06
+-7.77
+-11.42
+-11.05
+-11.12
+-3.01
+-11.05
+-9.53
+
+-9.09
+-6.77
+-8.52
+-8.85
+-6.46
+-9.65
+-8.39
+-8.12
+-8.24
+-8.89
+-8.08
+-3.18
+-4.07
+2.20
+
+-0.74
+-3.03
+-1.98
+-2.91
+-3.63
+-1.40
+-2.83
+-2.74
+-3.18
+-2.16
+-3.04
+0.17
+-6.98
+-11.73
+
+compound. inspection of the structures suggests that the
+worsening of the affinity of the -c6h5 derivative may be
+qualitatively explained by the less optimal binding mode of the
+hydroxamic moiety, with an average distance between the two
+oxygens being 0.03 å longer, respectively, in the -c6h5 with
+respect to the -och3 case. while an increase in binding affinity
+upon increasing the size of the r1 substituent in the first example
+could have been expected, the reversal in behavior of the r2 )
+-ch2ch2oh substitution between the -och3 and the -c6h5
+derivatives was unexpected.
+differential interaction energies of homologous ligand
+pairs. from careful inspection of the structures, a qualitative
+correlation seems to exist between good intermolecular interactions and binding affinity. it is difficult, however, to extend
+these considerations to all molecules, especially when some
+interactions seem to have improved and other to have been
+worsened in the same adduct. in other words, it would be
+2470 j. am. chem. soc.
+
+9
+
+vol. 129, no. 9, 2007
+
+desirable to have a simpler but reliable way to translate these
+observations to contributions to binding. as the individual
+interaction strengths can be ultimately traced down to either
+hydrophobic or electrostatic effects, we decided to simply
+evaluate the hydrophobic and electrostatic contributions to the
+overall intermolecular interaction energy by each ligand atom
+using standard parameter sets such as those employed in popular
+docking programs. among them, the parameter set used by
+autodock was selected because of its simple ad hoc treatment
+of the ligand metal ion interaction.45 it should be immediately
+stressed that we are not using these parameters to estimate
+overall, absolute binding energies (see however later) but only
+to attach a more quantitative meaning to structural observations
+by calculating differences in interatomic interaction energies
+between the protein and each atom of different homologous
+ligands. by estimating differences, possible biases originating
+from crude approximations, for instance those used by autodock
+to parametrize the strength of the zinc-hydroxamic ligand
+coordination bonds, should largely cancel. furthermore, the
+differences are taken between ligands that are very close
+homologues, i.e., are next to one another in figures 2-6.
+the results are reported in pictorial form on the right-hand
+columns of figures 2-6. for each row in these figures, the
+ligand forming the adduct reported in the left-hand side of the
+figure is drawn, and its atoms are color- and size-coded to show
+whether their individual interactions with the protein are stronger
+(green) or weaker (red), and by how much (sphere volume),
+with respect to those of the corresponding atoms in the central
+column adduct. for ligand atoms that do not have a corresponding atom in the homologue compound, their interaction strengths
+with the protein are encoded as such. the right-hand columns
+of figures 2-6 thus provide an immediate perception of which
+atoms may be relevant in determining the differences in affinity
+when the structures of closely related ligands are compared.
+we have checked that the results of the above procedure are
+largely independent of the set of parameters used, suggesting
+that the estimated differences in interaction energies are reliable.
+a better way to check their reliability is of course to compare
+the algebraic sum of all the differences with the difference in
+experimental ∆g° values (∆∆g°). this comparison is reported
+in figure 7. remarkably, not only are the signs of the ∆∆g°s
+predicted correctly in most cases, but their magnitudes are also
+reproduced quite well. in only two cases (2-1 and 10-3) is the
+calculated sign opposite to the predicted one, but in both cases
+the differences are rather close to zero. an entropic penalty may
+be further added to the algebraic sum of the individual energetic
+terms if, between the two ligands, there is a difference in the
+number of rotatable bonds that can be possibly immobilized
+upon binding to the protein. for instance, in autodock the
+entropic penalty is assigned a default value of 0.31 kcal/mol
+per bond. the calculated ∆∆g° in figure 7 takes this contribution into account when deemed present, i.e., when the ligands
+to be compared differ in the number of potentially immobilized
+rotatable bonds. the lines extending inward or outward of the
+calculated ∆∆g° bar values show the results obtained by
+neglecting the entropic penalty. it is apparent that the general
+trend is maintained whether or not such contribution is taken
+into account. solvent effects due to the variations of interface
+(45) hu, x.; balaz, s.; shelver, w. h. j. mol. graph. model. 2004, 22, 293307.
+
+matrix metalloproteinases
+
+articles
+
+figure 7. calculated (white bars) and observed (black bars) free energy variations (∆∆g°) on passing from one  xxxg1421xxx  adduct to another with a close
+analogue ligand. the calculated ∆∆g° values are the algebraic sum of all the intermolecular interaction energies plus a entropic penalty term related to
+immobilization of rotatable bonds as described in materials and methods. the lines extending inward or outward of the calculated ∆∆g° bar values show
+the results obtained by neglecting the entropic penalty. the individual intermolecular interaction energy differences are illustrated in figure 2 for ligand pairs
+2-1, 3-1, and 4-1, in figure 3 for ligand pairs 5-2, 6-3, and 7-4, in figure 4 for ligand pairs 8-3, 9-3, 10-3, and 11-3, in figure 5 for ligand pairs 10-8 and
+11-9, and in figure 6 for ligand pairs 12-3, 13-3, 14-3, and 14-8.
+
+areas buried in the protein-ligand interface also contribute to
+the energetics. in other approaches these effects are explicitly
+taken into account. in the autodock parametrization, solvent
+effects are taken into account implicitly.
+in our opinion, the results in figure 7 constitute a strong
+validation of the use of energetic considerations to examine the
+details of the structure-affinity relationships in this series of
+homologous mmp inhibitors. we turn now to describe such
+details, to further show that their information content is adequate
+to make this approach vital in terms of predictive power for
+the refinement of inhibitors toward a particular target.
+r1 groups. the first three pairs of experimental ∆∆g° values
+in figure 7 show that the substitution of a hydrogen atom in
+para position to the phenyl substituent targeted to the hydrophobic s1′ pocket with -f (2), -och3 (3), or a -c6h5 (4) r1
+group is essentially neutral, moderately advantageous, and
+strongly advantageous, respectively. the corresponding estimated ∆∆g° values (figure 7) agree very well with the
+observations, albeit with a slight tendency to overestimate the
+improvement. from figure 2a-c it appears that the atoms
+involved in improving the binding are mostly the additional
+atoms in the r1 group, as expected. the rest of the molecular
+scaffold is scarcely affected. however, it is interesting to notice
+that the perturbations on the rest of the scaffold are larger in
+the -och3 than in the -f derivative, and that they extend as far
+
+as to affect the coordination of the hydroxamic group to the
+zinc ion. it is also interesting to note that individual interactions
+can both gain and lose strength, with a prevalence of the latter.
+this is to be expected as the bulkier the r1 group, the fewer
+the degrees of freedom available to the rest of the molecule to
+optimize these individual interactions. the worsening of a subset
+of other interactions in the rest of the molecule is particularly
+apparent for r1 ) -c6h5: its presence does substantially increase
+the total hydrophobic interactions in the s1′ pocket but at the
+same time decreases the hydrophobic interactions of the first
+phenyl ring (right-hand side of figure 2c). as noticed already
+by comparing the left and central panels in figure 2c, the
+presence of the second ring apparently prevents the first phenyl
+ring from entering the s1′ pocket as deeply as in the unsubstituted derivative. also the other qualitative observations made
+by comparing the structures in panels a-c in figure 2 are
+confirmed: -f introduces the least perturbations, slightly
+worsening the hydrophobic interactions in the s1′ pocket and
+the hydrogen bonds of the so2 group, while in the -och3
+derivative an appreciable worsening is transmitted to the
+hydroxamic moiety, and in the -c6h5 derivative there is a modest
+but clear decrease of the hydrophobic interactions of the first
+phenyl ring with the s1′ pocket.
+r2 ) -ch2ch2oh. for three derivatives with r1 ) -f (5),
+-och3 (6), and -c6h5 (7), the effect of substituting the hydrogen
+j. am. chem. soc.
+
+9
+
+vol. 129, no. 9, 2007 2471
+
+bertini et al.
+
+articles
+
+atom in position r2 with -ch2ch2oh was investigated. the
+alcoholic substituent in r2 slightly improves the binding to the
+enzyme for the first two derivatives and sizably worsens the
+binding for the third. again, the estimated ∆∆g° values agree
+very well with the observations (figure 7). panels a-c in
+figure 3 provide a rationale for the different behavior. in
+summary, in all three cases the r2 substituent provides an
+appreciable contribution to binding, especially through hydrophobic interactions of the two additional ch2 groups. for r1
+) -f this is accompanied by a modest worsening of the
+hydroxamic coordination strength. conversely, for r1 ) -och3
+the hydroxamic coordination is actually slightly improved, and
+a modest worsening of the hydrophobic contact of the phenyl
+ring is seen. thus, in no case a perfect fit is achieved. it is
+interesting to note that the nonperfect fits for the two different
+molecules lead to different compromises for the interactions with
+the three enzyme subsites: for r1 ) -f, the interaction is
+optimized for the hydrophobic pocket and the substrate binding
+groove, while the binding to zinc is sacrificed. for r1 ) -och3
+the interaction is optimized for the binding to zinc and to the
+substrate binding groove, while the binding to the hydrophobic
+pocket is sacrificed.
+unexpectedly, the r2 ) -ch2ch2oh substitution has a
+sizable destabilizing effect on the r1 ) -c6h5 scaffold. in this
+case, the binding to zinc is strongly worsened, and the additional
+interactions established by the alcoholic r2 group do not
+compensate for the loss of interaction strength of the zincbinding group. apparently, a sizable steric misfit is being faced
+in this derivative. figure 2c shows that there is almost no
+perturbation of the hydrophobic interactions of the biphenyl
+group with respect to those experienced by the same group in
+the r2 ) -h derivative. this suggests that the two phenyl rings
+together are held so tightly in the s1′ pocket that the steric
+perturbation introduced by the r2 substituent on the sulfonamide
+nitrogen, which is apparently tolerated in the r1 ) -f and r1
+) -och3 derivatives, is not tolerated by the r1 ) -c6h5
+derivative. as a consequence, a serious mismatch of the
+hydroxamic moiety in the zinc subsite occurs. it should be
+recalled that the hydroxamic group, if free to optimize its
+orientation, is very specifically tailored for the mmp active site,
+featuring bidentate binding to zinc together with two strong
+hydrogen bonds, one with the carboxylate side chain of the
+active site glu-219 and one with the peptide carbonyl group of
+ala-182.
+r3 ) -d, xxxd3193xxx  or -d, xxxd3361xxx . the effect of these substituents
+(8-11) has been examined on the scaffold having r1 ) -och3.
+the d stereoisomers have higher affinity, and the l stereoisomers
+lower affinity, for  xxxg1421xxx  with respect to the r3 ) -h scaffold
+(figure 7). examination of figure 4a-d again provides a full
+rationale for this behavior: the d-isomers, besides providing
+additional binding interactions with the r3 group, also exert a
+slight stabilizing effect on the hydroxamic moiety. the stabilization is somewhat larger for the d-thr derivative but is accompanied by a modest weakening of the sulfonamide nitrogen
+interactions, so that the overall gain in affinity is slightly lower
+for the d-thr (9) than for the  xxxd5xxx  (8) derivative. in the  xxxd3193xxx 
+stereoisomer (10) the stabilizing effect on the hydroxamic
+moiety is estimated to be essentially lost, leading to a very small
+overall stabilization effect, while the experimental ∆∆g°
+indicates an overall modest destabilization. finally, the behavior
+2472 j. am. chem. soc.
+
+9
+
+vol. 129, no. 9, 2007
+
+of the r3 )  xxxd3361xxx  (11) is strikingly different, both the experiment
+and the computational estimate showing a strong destabilization.
+figure 5a,b shows that the  xxxd3361xxx  group actually has slightly
+more stabilizing interactions that the d-thr group; however, its
+stereochemistry causes an appreciable distortion of the scaffold
+that apparently strongly destabilizes both the hydroxamic moiety
+and the sulfonamide nh and so2 groups. again, it is remarkable
+that the experimental ∆∆g° trend is reproduced so well by these
+simple calculations (figure 7).
+figure 7 also shows the direct differences between the l and
+d isomers and confirms the analysis. in the case of the ser
+derivatives (8, 10) the l isomer slightly stabilizes the ser itself
+and mainly destabilizes the hydroxamic moiety, while in the
+case of the thr derivatives (9, 11) the thr itself is slightly
+stabilized, but the hydroxamic moiety and the sulfonamide nh
+and so2 groups are substantially destabilized. this direct
+comparison between the l and d isomers is of course redundant,
+because the effects could have been deduced from the preceding
+panels of figure 7. however, it is instructive because the ∆∆g°
+values in this latter comparison are by definition free from
+solvent-ligand interactions and essentially free also from
+solvent-protein interactions. in other words, the ∆∆g° values
+almost purely reflect ligand-protein interactions.
+r2 ) -ch2ch(ch3)2; r2 ) -ch2chohch2oh with r3
+t -h, -ch2oh. having established that the -och3 substitution
+in r1 allows substituents in either r2 or r3 to increase the overall
+affinity for  xxxg1421xxx , the relative effects of hydrophobic vs
+hydrophilic substituents in r2 was investigated for r1 ) -och3,
+both in the absence (-h) or in the presence (-ch2oh) of a
+substituent in r3 with a d configuration. the experimental and
+predicted ∆∆g° values for hydrophobic (12) vs hydrophilic (13)
+r2 are shown in figure 7, and the calculated energetics of the
+individual interactions are reported in figure 6a-d. the
+estimated sign of the effect is again correct, i.e., both r2 groups
+are predicted and found to stabilize the r1 ) -och3, r2 ) -h,
+r3 ) -h scaffold, although the stabilizing effect is somewhat
+overestimated for the hydrophobic substituent and underestimated for the hydrophilic substituent. in the first case, figure
+6a shows that the hydrophobic substituent has by itself a strong
+stabilizing effect, on top of which a non-negligible stabilization
+of the hydroxamic moiety is also observed. in the second case
+(figure 6b), the stabilizing effect of the r2 substituent is smaller,
+but the stabilizing effect on the hydroxamic moiety is maintained. these findings are consistent with what observed for
+the r2 ) -ch2ch2oh case already discussed: it can be
+concluded that for r1 ) -och3 (but not r1 ) -f or r1 ) -c6h5)
+any substituent at r2 improves the binding of the hydroxamic
+group. with this in mind, the derivative with r2 ) -ch2chohch2oh and r3 ) -ch2oh simultaneously present (14)
+was tested. these r2 and r3 groups, taken separately, both
+improved the binding of the starting r1 ) -och3 scaffold.
+figure 7 shows that the effect is not synergistic, the improvement
+being of the same order of each substituent separately, and
+actually slightly smaller than that caused by the r3 ) -ch2oh
+substituent alone. again, the calculations are in qualitative
+agreement in all cases. figure 6c,d surprisingly shows that the
+hydroxamic moiety and the so2 groups are both improved by
+the simultaneous presence of the two substituents, but each
+substituent adopts a less optimal set of interactions with the
+protein, essentially neutralizing the improvement.
+
+matrix metalloproteinases
+
+articles
+
+figure 8. experimental free energy of binding to  xxxg1421xxx  (up triangles) and  xxxg1422xxx  (filled circles) for ligands 1, 3, and 6 (a) and 1, 4, and 7 (b). the
+increased discrimination between  xxxg1421xxx  and  xxxg1422xxx  is highlighted.
+
+implications for drug-design strategies. the above analysis demonstrates that the availability of high-resolution structures
+of a series of enzyme adducts with homologous ligands provides
+precious information on the subtle factors that modulate ligand
+affinity and thus may be of much help in the optimization of
+such ligands. for instance, increasing the size of the hydrophobic
+group in the s1′ pocket increases the affinity but only provided
+that no substituents are placed in r2 and r3 positions.
+conversely, a smaller hydrophobic group such as the one with
+r1 ) -och3 permits the insertion of other groups, including
+more hydrophilic groups, in r2 and r3, provided their local
+effect is not destabilizing. one could even conceive substitutions
+in r1, r2, and r3 that strongly destabilize the hydroxamic moiety
+but provide enough local stabilization to partially compensate
+for the loss. under such circumstances, the substitution of the
+now unfit hydroxamic moiety with a more druggable group with
+a better fit could provide enough extra stabilization to obtain
+nanomolar affinity for a non-hydroxamic ligand. for example,
+we predict that a non-hydroxamic ligand could provide a
+reasonable binding affinity in the case of 7, which displays a
+nonoptimal fit of the hydroxamic moiety (figure 3). regarding
+the r2 and r3 substituents, the present results also show that
+hydrophilic substitutions are not severely disfavored with respect
+to hydrophobic substitutions, as commonly assumed for this
+class of molecules. furthermore, as other mmps such as
+ xxxg1422xxx  have a larger binding site, one could exploit the present
+findings to test ligands with substituents in, e.g., r1, r2, that
+show more or less pronounced steric misfit in  xxxg1421xxx  for
+improved selectivity for  xxxg1422xxx . indeed, ∆g° data on binding
+of selected ligands to  xxxg1422xxx  confirm the correctness of the
+approach (figure 8): adding an r2 ) ch2ch2oh to the r1 )
+och3 or r1 ) c6h5 scaffolds stabilizes the adduct with  xxxg1422xxx 
+more, or destabilizes it less, than the corresponding adduct with
+ xxxg1421xxx , resulting in both cases in an increased selectivity for
+ xxxg1422xxx . of course, if suitable crystals for ligand soaking were
+available for other mmps, the potential of this strategy would
+be further enhanced. finally, the degree of prediction achieved
+with the present strategy should help avoiding the extensive
+screening of substituents in n different positions (r1, r2, and
+r3 in this case) by examining a full n-dimensional matrix of
+compounds. indeed, once the interplay among a certain set of
+substituents shows that one position is disfavored, examining
+further substitutions in that position with the chosen set of
+substituents can be avoided.
+
+it should be stressed that the above findings have only been
+made possible by the availability of experimental structures.
+while docking programs are able to provide reasonable models
+of ligand binding modes, especially in the presence of existing
+structures with homologous ligands, the accuracy of the resulting
+models is lower than that of experimental structures, and
+insufficient for the present purpose. this has been tested by
+taking the high-resolution (1.1 å) crystal structure of  xxxg1421xxx 
+and using it to dock all the inhibitors described in this work.
+despite the overall binding mode always being correct, the
+details of the interatomic distances were not accurate enough
+to make any energetic predictions. one drawback is the use of
+the same protein structure for all adducts, while the present work
+shows that the protein structures differ slightly from one another
+in the various adducts, as a consequence of some mutual
+adaptation or “induced fit”. attempts to mimic this induced fit,
+either by allowing protein side-chain movements during docking
+or by overall (i.e., ligand and protein) restrained energy
+minimization of the final adduct did not improve the energetic
+predictions significantly (data not shown). on the other hand,
+it is reassuring that the choice of the set of potentials to extract
+energetic information from the experimental structures is not
+critical, as different popular potential sets provide similar results.
+thermodynamics of ligand binding. of course, it is wellknown that the relationship between ∆g° and intermolecular
+potential energy calculations is totally empirical, although it is
+often found to hold.46-48 there are two reasons to question its
+applicability. the first reason is that contributions to ∆g° from
+solvent-ligand, solvent-protein, and solvent-adduct interactions are not taken into account. however, it can be speculated
+that, at least in systems of this kind, solvation effects are not
+so strong, and there is always partial cancellation between
+solvent effects on the reactants and the product. furthermore,
+in our approach ∆∆g° values are estimated, so the differential
+solvent-protein effects are zero, and the other two terms are
+likely to be further reduced. in one case, i.e., the comparison
+between the behavior of the d- and l- isomers substituted in
+r2, solvent effects on the ligands are also zero, and the
+differential solvent-adduct effects are probably negligibly small.
+it is obvious that the striking difference in binding affinity
+(46) lamb, m. l.; jorgensen, w. l. curr. opin. chem. biol. 1997, 1, 449457.
+(47) aqvist, j.; luzhkov, v. b.; brandsdal, b. o. acc. chem. res. 2002, 35,
+358-365.
+(48) osterberg, f.; morris, g. m.; sanner, m. f.; olson, a. j.; goodsell, d. s.
+proteins struct. funct. genet. 2002, 46, 34-40.
+j. am. chem. soc.
+
+9
+
+vol. 129, no. 9, 2007 2473
+
+bertini et al.
+
+articles
+
+between the r2d d-thr and r2 )  xxxd3361xxx  is almost entirely due
+to the difference in protein-ligand interaction.
+the second reason is that, even if the leading term is the
+free energy of the protein-ligand interaction, the latter is still
+composed by enthalpic and entropic terms, and intermolecular
+interaction energy calculations only take into account the
+enthalpic term (except for a modest correction for possible
+differences in number of immobilized rotatable bonds). prompted
+by these considerations, ∆h° values for the binding of some of
+the present ligands were measured through isothermal titration
+calorimetry (itc). two other well-known strong mmp ligands,
+actinonin and  xxxd2329xxx  (biomol inc.), were also studied for
+comparison purposes.
+itc measurements. isothermal titration calorimetry is
+widely used in drug discovery, since it permits an accurate and
+extensive thermodynamic characterization of protein-ligand
+interactions.49,50 in particular, itc measurements have already
+been successfully exploited to design and characterize stromelysin inhibitors.51,52
+all measurements were performed at 298 k. at variance with
+fluorimetric assays, here the protein concentrations were much
+higher (20 µm), and the aha concentration was correspondingly higher (4 mm). this concentration is comparable with
+the dissociation constant of aha itself. therefore, aha
+interferes with the binding of the inhibitors, and the experimental
+∆h° values are conditional values. a proper estimate of the
+∆h° for aha was needed, both to obtain the true ∆h° values
+for the other inhibitors and to obtain thermodynamic parameters
+of aha itself. a series of itc measurements on the binding of
+the 3 (r1 ) och3, r2 ) h) were thus performed in the presence
+of various aha concentrations in the range 1 to 256 mm. by
+fitting the obtained enthalpy as a function of aha concentration,
+a ∆h° of -3.180 kcal/mol was found for the binding of aha.
+the latter parameter provides an experimental estimate of the
+enthalpic contribution of the metal binding group to the overall
+binding of all the inhibitors investigated here, as well as of all
+hydroxamic-based inhibitors in general, to  xxxg1421xxx . furthermore, the aha ∆h° value allowed us to estimate the correction
+to apply to the other ∆h° values. the corrected thermodynamic
+parameters of some of the inhibitors investigated here, as well
+as those of aha, are reported in table 1.
+although itc measurements performed at increasing inhibitor
+concentrations as in the present experimental scheme also
+provide estimates of the dissociation constants, the latter are
+affected by large errors when the constants approach nanomolar
+values, and so are the derived ∆g° values. conversely, the ∆h°
+values are not affected by such errors. therefore, estimates of
+-t∆s° values were obtained by using the corrected ∆h° values
+from calorimetry and the ∆g° values from fluorimetry measurements. the -t∆s° values are also reported in table 1. the
+binding constants derived from itc measurements (not shown)
+were in any case within a factor two with respect to the
+fluorimetric values.
+from the ∆h° and -t∆s° values reported in table 1 it
+appears that the free energy of binding of all the homologous
+
+ligands examined in this work contain an important enthalpic
+contribution and a less important but sizable entropic contribution, both favorable to binding. this appears a general feature
+for this class of ligands but is by no means general for other
+inhibitors of mmps. for instance,  xxxd2329xxx  and actinonin, two
+well-known strong inhibitors of mmps, show much less
+favorable, or even unfavorable, enthalpic contributions, respectively, and much more favorable entropic terms (table 1).
+by examination of the ∆h° values in table 1, no apparent
+correlation can be seen with the corresponding ∆g° values,
+neither with the intermolecular interaction energies estimated
+from the experimental structures in the present homologous
+series of ligands; nor do the differences ∆∆h° correlate better
+with the ∆∆g°. apparently, the enthalpies (and entropies) of
+the ligand-solvent interactions are sizable and vary in a rather
+unpredictable way, while they largely cancel each other to give
+a modest contribution to ∆g°. apparently, this is yet another
+manifestation of the well-known entropy-enthalpy cancelation
+phenomenon.
+an interesting finding from itc measurements is the fact
+that, as already observed for stromelysin,52 the binding of aha
+to  xxxg1421xxx  (and thus presumably to all others mmps) is almost
+exclusively enthalpy-driven. the ∆h° value of about -3.2 kcal/
+mol for this ligand having millimolar affinity is only two to
+three times smaller than the binding enthalpy of nanomolar
+affinity ligands, which is a relevant contribution. the -t∆s
+value for aha is close to zero. this relatively strong contribution to the overall binding enthalpy could be even higher if the
+ligand solvent contribution were not unfavorable, as it is
+expected to be for the very soluble aha molecule. indeed, in
+our parametrization, the estimated contribution of the aha
+moiety to the overall protein-ligand interaction energy has to
+be as high as -6 kcal/mol if a reasonable estimate of the overall
+interaction energy for this class of ligands has to be obtained.
+this is not unexpected, as it is well-known that, if aha is
+considered a fragment of a strong binding ligand rather than an
+independent molecule, the loss of rigid body rotational and
+traslational entropy upon binding occurs only once and not twice
+as it would be for the isolated fragments. the corresponding
+gain in ∆g°, which is parametrically incorporated in the
+interaction energy in our calculations, can easily be of the order
+of -3 kcal/ mol.52-54
+
+(49) holdgate, g.; fisher, s.; ward, w. the application of isothermal titration
+calorimetry to drug discovery. in biocalorimetry 2; ladbury, j. e., doyle,
+m. l., eds.; john wiley & sons ltd: chichester, 2004.
+(50) ruben, a. j.; kiso, y.; freire, e. chem. biol. drug des. 2006, 67, 2-4.
+(51) parker, m. h.; lunney, e. a.; ortwine, d. f.; pavlovsky, a. g.; humblet,
+c.; brouillette, c. g. biochemistry 1999, 38, 13592-13601.
+
+(52) olejniczak, e. t.; hajduk, p. j.; marcotte, p. a.; nettesheim, d. g.;
+meadows, r. p.; edalji, r.; holzman, t. f.; fesik, s. w. j. am. chem.
+soc. 1997, 119, 5828-5832.
+(53) jencks, w. p. proc. natl. acad. sci. u.s.a. 1981, 78, 4046-4050.
+(54) murray, c. w.; verdonk, m. l. j. comput.-aided mol. des. 2002, 16,
+741-753.
+
+2474 j. am. chem. soc.
+
+9
+
+vol. 129, no. 9, 2007
+
+conclusion
+
+in summary, it is shown here that an analysis of the details
+of the protein-ligand interactions, as they appear from the threedimensional structures in terms of simple hydrophobic and
+electrostatic contributions, provides a remarkable semiquantitative account of (i) the ∆g° values of the adducts, (ii) the
+differences in ∆g° (∆∆g°) between pairs of closely related
+ligands, and (iii) the identity of the individual ligand atomprotein atom interactions that contribute in each case to increase,
+or decrease, the affinity of each particular ligand with respect
+to its closest analogue. this work demonstrates that this kind
+of rationalization is possible and reliable and provides hints for
+
+matrix metalloproteinases
+
+the planning of finely tuned inhibitors, originating from the same
+scaffold, for any structurally well-characterized biological target.
+for some of the present ligands, the enthalpies of binding
+(∆h°) were also measured through isothermal calorimetry. all
+the ligands from this class are found to be characterized by
+favorable enthalpic as well as entropic contributions. the
+enthalpic contribution of the hydroxamic moiety, a popular zincbinding group in the mmp inhibitor landscape, has been
+separately evaluated and discussed in terms of its relative
+contribution to the potency of hydroxamic-based mmp ligands.
+a detailed analysis of the ∆h° and ∆s° values, taken separately,
+is less instructive, due to the well-known entropy-enthalpy
+compensation effects.49 as in many other thermodynamic
+
+articles
+
+studies, the two terms are found to provide opposite and largely
+canceling contributions to ∆g°.
+acknowledgment. this work was supported by ec
+(projects: lshg-ct-2004-512077and toc: mtki-ct-2004509750), miur (prin 2005, prot. n. 2005039878, prot. n.
+4455, and rbau013nsb), and ente cassa di risparmio di
+firenze (innovative strategies for drug design).
+supporting information available: data collection, processing statistics, and refinement statistics for all crystallographic
+datasets; full references 6 and 7. this material is available free
+of charge via the internet at http://pubs.acs.org.
+ja065156z
+
+j. am. chem. soc.
+
+9
+
+vol. 129, no. 9, 2007 2475
+

@@ -1,0 +1,862 @@
+the novel  xxxd1868xxx  analog 3-isopropylamino7-methoxy-4h-1,2,4-benzothiadiazine 1,1-dioxide
+is a selective  xxxg1250xxx / xxxg19xxx  channel opener
+michael dabrowski,1 frances m. ashcroft,2 rebecca ashfield,2 philippe lebrun,3 bernard pirotte,4
+jan egebjerg,5 john bondo hansen,1 and philip wahl1
+
+atp-sensitive kⴙ (katp) channels are activated by a
+diverse group of compounds known as  xxxg1232xxx  openers (pcos). here, we report functional studies
+of the  xxxg1250xxx / xxxg19xxx  selective pco 3-isopropylamino-7methoxy-4h-1,2,4-benzothiadiazine 1,1-dioxide (nnc
+55-9216). we recorded cloned  xxxg1253xxx  currents
+from inside-out patches excised from xenopus laevis
+oocytes heterologously expressing  xxxg1250xxx / xxxg19xxx ,
+ xxxg1250xxx /sur2a, or  xxxg1250xxx /sur2b, corresponding to the
+␤-cell, cardiac, and smooth muscle types of the katp
+channel. nnc 55-9216 reversibly activated  xxxg1250xxx /
+ xxxg19xxx  currents (ec50 ⴝ 16 ␮mol/l). this activation
+was dependent on intracellular mgatp and was abolished by mutation of a single residue in the walker a
+motifs of either nucleotide-binding domain of  xxxg19xxx .
+the drug had no effect on  xxxg1250xxx /sur2a or  xxxg1250xxx /
+sur2b currents. we therefore used chimeras of  xxxg19xxx 
+and sur2a to identify regions of  xxxg19xxx  involved in the
+response to nnc 55-9216. activation was completely
+abolished and significantly reduced by swapping
+transmembrane domains 8 –11. the reverse chimera
+consisting of sur2a with transmembrane domains
+8 –11 and nbd2 consisting  xxxg19xxx  was activated by nnc
+55-9216, indicating that these  xxxg19xxx  regions are important for drug activation. [3h] xxxd2215xxx  binding
+to membranes from hek293 cells transfected with
+ xxxg19xxx  was displaced by nnc 55-9216 (ic50 ⴝ 105
+␮mol/l), and this effect was impaired when nbd2 of
+ xxxg19xxx  was replaced by that of sur2a. these results
+suggest nnc 55-9216 is a  xxxg19xxx -selective pco that
+requires structural determinants, which differ from
+those needed for activation of the  xxxg1253xxx  by
+pinacidil and cromakalim. the high selectivity of nnc
+55-9216 may prove to be useful for studies of the
+
+from 1research & development, novo nordisk, malov, denmark; the 2university laboratory of physiology, oxford, u.k.; the 3laboratory of pharmacology, faculty of medicine, free university of brussels, brussels, belgium;
+the 4department of medicinal chemistry, institute of pharmacy, university of
+liege, liege, belgium; and the 5institute of molecular and structural biology,
+aarhus university, aarhus, denmark.
+address correspondence and reprint requests to john bondo hansen, novo
+nordisk, research & development, dk 2760 malov, denmark. e-mail:
+jbha@novonordisk.com.
+received for publication 16 may 2001 and accepted in revised form 6 march
+2002.
+m.d. is currently affiliated with the university laboratory of physiology,
+oxford, u.k. m.d. has received grant support from and holds stock in novo
+nordisk. f.m.a., p.l., and b.p. have received grant support from novo
+nordisk. j.b.h. and p.w. hold stock in novo nordisk.
+abc, atp-binding cassette; katp, atp-sensitive k⫹; nbd, nucleotidebinding domain; nnc 55-9216, 3-isopropylamino-7-methoxy-4h-1,2,4-benzothiadiazine 1,1-dioxide; pco,  xxxg1232xxx  opener.
+1896
+
+molecular mechanism of pco action. diabetes 51:
+1896 –1906, 2002
+
+tp-sensitive k⫹ (katp) channels are found in a
+variety of tissues, including endocrine, muscle,
+and neural tissues, where they couple the metabolic state of the cell to its electrical activity.
+in pancreatic ␤-cells, katp channels link changes in blood
+glucose concentration to insulin secretion (1); in cardiac
+myocytes, increased  xxxg1253xxx  activity during ischemia
+may protect against myocardial damage by shortening the
+action potential (2); in vascular smooth muscle, katp
+channels regulate vessel tone (3); and in skeletal muscle,
+they contribute to the enhanced k⫹ efflux and fatigue
+found during severe exercise (4). their physiological role
+in neurones is not clearly established, but it is believed
+that they modulate electrical activity (5), influence synaptic transmitter release (6), and contribute to the response
+to cerebral ischemia (7).
+the  xxxg1253xxx  is an octameric complex of two
+different protein subunits, an inwardly rectifying k-channel, kir6.x, and a sulfonylurea receptor, surx (8 –14). the
+former acts as the  xxxg1253xxx  pore, whereas sur is a
+channel regulator that endows kir6.x with sensitivity to
+drugs and mg nucleotides (15). katp channels in different
+tissues are composed of different subunits (16). in most
+cases, the pore comprises  xxxg1250xxx  (8,10,17), but in some
+smooth muscles, it is kir6.1 (18). these kir subunits
+associate with different types of sur. the ␤-cell katp
+channel is composed of  xxxg19xxx  and  xxxg1250xxx  (8,10), the
+cardiac type of sur2a and  xxxg1250xxx  (11), and the smooth
+muscle type of sur2b combined with either kir6.1 or
+ xxxg1250xxx  (17,18). both  xxxg1250xxx / xxxg19xxx  and  xxxg1250xxx /sur2b combinations are found in the brain (5,19). although wild-type
+katp channels require both sur and kir6.x for functional
+activity, a mutant form of  xxxg1250xxx  with a cooh-terminal
+truncation of 26 or 36 amino acids ( xxxg1250xxx ⌬c) is capable of
+independent expression (15,20).  xxxg1250xxx ⌬c therefore provides a useful tool for studying the effects of drugs on the
+pore-forming subunit of the  xxxg1253xxx .
+katp channels are inhibited by sulfonylureas and activated by a chemically diverse group of compounds known
+as  xxxg1232xxx  openers (pcos) (21–23). these
+effects are mediated by interaction of the drug with the
+sur subunit of the channel. it is well established that
+different types of katp channels exhibit markedly different
+
+a
+
+diabetes, vol. 51, june 2002
+
+m. dabrowski and associates
+
+sensitivities toward the various pco drugs. in particular,
+pinacidil and cromakalim activate both native and cloned
+cardiac ( xxxg1250xxx /sur2a) and smooth muscle ( xxxg1250xxx /
+sur2b) types of  xxxg1253xxx , but have little or no effect
+on ␤-cell ( xxxg1250xxx / xxxg19xxx ) channels (3,24 –26). conversely,
+ xxxd1868xxx  strongly activates ␤-cell and smooth muscle
+katp channels and has only a weak stimulatory effect on
+cardiac katp channels (27–30).
+nucleotides modulate  xxxg1253xxx  activity by interaction with both sur and  xxxg1250xxx  subunits. binding of atp or
+adp to an unidentified site on  xxxg1250xxx  causes channel
+closure (15,31). in contrast, mg nucleotides enhance katp
+channel activity and decrease its sensitivity to atp by
+interaction with the nucleotide-binding domains (nbds)
+of the sur subunit (32–35). interaction of nucleotides
+with the nbds of sur also modifies the response to pcos.
+for example, stimulation of ␤-cell katp channels by  xxxd1868xxx  requires the presence of intracellular mg nucleotide
+(36), and mutations in the nbds of  xxxg19xxx  abolish the
+ability of mgatp to support  xxxd1868xxx  activation (33,35).
+likewise, although pinacidil can activate cardiac katp
+channels in the absence of added nucleotide (provided
+that the drug is tested before channel run-down is pronounced) (21,37,38), both the rate of deactivation of
+ xxxg1250xxx /sur2a currents on removal of pinacidil and the
+ability to measure binding of the analog [3h]p-1075 to
+sur2a require the presence of mgatp and intact nbds
+(38 – 40). one explanation for the mgatp dependence of
+pco activation of katp channels is offered by the observation that pcos enhance the atpase activity of nbd2 of
+ xxxg20xxx  (41). it is proposed that this promotes the duration
+of the nucleotide-bound state at one or both nbds and
+thereby stimulates  xxxg1253xxx  activation.
+a ␤-cell–specific pco would be useful for treatment of
+inoperable insulinoma and some forms of persistent hypoglycemic hyperinsulinemia of infancy. furthermore, it has
+been proposed that ␤-cell “rest” induced by pcos might be
+beneficial in the treatment of type 1 diabetes (42– 44).
+␤-cell–specific pcos have also been suggested for prevention of type 2 diabetes and obesity (45– 47). by combining
+structural elements from pinacidil and  xxxd1868xxx  and by
+reducing the conformational flexibility compared with
+pinacidil, a range of novel  xxxd1868xxx  analogs have been
+synthesized and shown to inhibit insulin release from
+pancreatic islets (48 –51). in screening tests, the compound 3-isopropylamino-7-methoxy-4h-1,2,4-benzothiadiazine 1,1-dioxide (nnc 55-9216 or bpdz 216) (fig. 1) was a
+more potent inhibitor of insulin release from rat pancreatic islets than  xxxd1868xxx  and had no significant myorelaxant action on rat aortic rings in vitro (data on file at novo
+nordisk and the free university of brussels). these results suggested nnc 55-9216 might show specificity for the
+␤-cell  xxxg1253xxx . in this study, we investigated the
+effect of nnc 55-9216 on recombinant katp channels
+composed of  xxxg1250xxx  and either  xxxg19xxx  (␤-cell type), sur2a
+(cardiac/skeletal muscle type), or sur2b (smooth muscle
+type), heterologously expressed in xenopus oocytes. a
+chimeric approach was used to investigate the domains of
+sur that are involved in nnc 55-9216 –induced katp
+channel activation. this identified a novel pco interaction
+site in the second set of transmembrane domains of  xxxg19xxx .
+diabetes, vol. 51, june 2002
+
+fig. 1. structures of  xxxd3394xxx , nnc 55-9216,  xxxd1868xxx , and pinacidil.
+
+research design and methods
+molecular biology. mouse  xxxg1250xxx  (genbank no. d50581) (8,10), rat  xxxg19xxx 
+(genbank no. l40624) (9), rat sur2a (genbank no. d83598) (11), and sur2b
+(genbank no. d86038) (17) cdnas were cloned in the pbf vector. a truncated
+form of  xxxg1250xxx  ( xxxg1250xxx ⌬c36), which lacks the cooh-terminal 36 amino acids
+and forms functional channels in the absence of sur, was prepared as
+previously described (15). sur chimeras containing different segments of
+ xxxg19xxx  and sur2a were constructed using standard molecular biology techniques (52). the chimeras were composed of the following segments, in which
+the numbers refer to sequences of  xxxg19xxx  or sur2a, as appropriate. chimeras
+based on  xxxg19xxx  are denoted sur12-a to sur12-e, and chimeras based on
+sur2a are denoted sur21-a to sur21-e: sur12-a: (1-662; xxxg19xxx )-(655-849;
+sur2a)-(871-1581; xxxg19xxx ); sur12-b: (1-1284; xxxg19xxx )-(1249-1545;sur2a);
+sur12-c: (1-662; xxxg19xxx )-(655-849;sur2a)-(871-1284; xxxg19xxx )-(1249-1545;
+sur2a); sur12-d: (1-423; xxxg19xxx )-(417-651;sur2a)-(660-1581; xxxg19xxx ); sur12-e:
+(1-1034; xxxg19xxx )-(1013-1241;sur2a)-(1278-1581; xxxg19xxx ); sur21-a: (1-1248;
+sur2a)-(1285-1581; xxxg19xxx ); sur21-b: (1-648;sur2a)-(656-870; xxxg19xxx )-(8501248;sur2a)-(1285-1581; xxxg19xxx ). sur21-c: (1-414; xxxg19xxx )-(408-1545;sur2a);
+sur21-d: (1-416;sur2a)-(424-700; xxxg19xxx )-(689-1545;sur2a); sur21-e: (1-1012;
+sur2a)-(1035-1277; xxxg19xxx )-(1242-1545;sur2a); and sur21-f: (1-416;sur2a)(424-700; xxxg19xxx )-(689-1248;sur2a)-(1285-1581; xxxg19xxx ).
+mutagenesis of individual amino acids was performed using the altered
+sites ii system (promega). capped mrna was prepared using the mmessage mmachine large-scale in vitro transcription kit (ambion, austin, tx),
+as previously described (53). when chimeric surs were coexpressed with
+ xxxg1250xxx  in xenopus oocytes, current amplitudes were similar to those found for
+wild-type  xxxg1250xxx / xxxg19xxx  or  xxxg1250xxx /sur2a channels.
+oocyte collection. female xenopus laevis were anesthetized with ms222 (2
+g/l added to the water). one ovary was removed via a mini-laparotomy, the
+incision was sutured, and the animal was allowed to recover. after the wound
+had completely healed, the second ovary was removed in a similar operation,
+and the animal was then killed by decapitation while under anesthesia.
+immature stage–v-vi oocytes were incubated for 60 min with 1.0 mg/ml
+collagenase (type v; sigma) and manually defolliculated. oocytes were either
+injected with ⬃1 ng  xxxg1250xxx ⌬c36 mrna or coinjected with ⬃0.1 ng  xxxg1250xxx 
+mrna and ⬃2 ng mrna encoding wild-type or chimeric sur. the final
+injection volume was 50 nl/oocyte. isolated oocytes were maintained in
+barth’s solution and studied 1–5 days after injection (53).
+1897
+
+a  xxxg1250xxx / xxxg19xxx  selective  xxxg1253xxx  opener
+
+fig. 2. effects of nnc 55-9216 on  xxxg1250xxx / xxxg19xxx ,  xxxg1250xxx /sur2a,  xxxg1250xxx /sur2b, or  xxxg1250xxx ⌬c36 currents. macroscopic currents recorded from
+inside-out patches in response to a series of voltage ramps from ⴚ110 to 100 mv from oocytes coexpressing  xxxg1250xxx  and either  xxxg19xxx , sur2a, or
+sur2b or expressing  xxxg1250xxx ⌬c36. mgatp and nnc 55-9216 were added to the intracellular solution as indicated by the bars.
+electrophysiology. patch pipettes were pulled from thick-walled borosilicate glass and had resistances of 250 –500 k⍀ when filled with pipette solution.
+macroscopic currents were recorded from giant excised inside-out patches at
+a holding potential of 0 mv and at 20 –24°c (53). currents were evoked by
+repetitive 3-s voltage ramps from ⫺110 mv to 100 mv and recorded using an
+epc7 patch-clamp amplifier (list electronik, darmstadt, germany). they
+were filtered at 0.2 khz, digitized at 0.4 khz using a digidata 1200 interface,
+and analyzed using pclamp software (axon instruments, foster city, ca).
+the pipette (external) solution contained (mmol/l): 140 kcl, 1.2 mgcl2, 2.6
+cacl2, and 10 hepes (ph 7.4 with koh). the intracellular (bath) solution
+contained (mmol/l): 110 kcl, 1.4 mgcl2, 10 egta, and 10 hepes (ph 7.2 with
+koh; final [k⫹] ⬃140 mmol/l). nnc 55-9216 (synthesized at the department of
+medicinal chemistry, university of liege) was prepared as a 200 mmol/l stock
+solution in dmso. in control experiments, the maximal dmso concentration
+applied (0.15%) was without effect on the  xxxg1253xxx  current. solutions
+containing atp, adp, or atp␥s were made fresh each day. the ph of the
+solution was readjusted after addition of the drug and/or nucleotide. rapid
+exchange of solutions was achieved by positioning the patch in the mouth of
+one of a series of adjacent inflow pipes placed in the bath.
+preparation of sur-expressing membranes. hek293 cells were grown to
+60 –70% confluency in 13-cm petri dishes and transfected using fugene 6
+(roche diagnostics) according to the manufacturer’s instructions. confluent
+dishes of transfected hek293 cells were washed once in pbs, harvested with
+a cell scraper, and centrifuged at 1,000g in pbs for 5 min. all subsequent
+procedures were performed at ⬃0°c. the supernatant was removed, and cells
+were resuspended in ice-cold buffer (buffer 1: 30 mmol/l hepes and 2 mmol/l
+mgcl2, ph 7.4 with naoh), homogenized with an ultra turrax t25 homogenizer, and centrifuged at 48,000g for 15 min. the pellet was resuspended, and
+the homogenization step was repeated. the final pellet was resuspended in
+buffer 1 (500 –1,500 ␮l per dish) with 250 mmol/l sucrose. the membrane
+solution was aliquoted and stored at ⫺80°c for later use in binding assays.
+[3h] xxxd2215xxx  binding. membranes were thawed, placed on ice, and
+diluted in ice-cold buffer (30 mmol/l hepes, 2 mmol/l mgcl2, and 2 mmol/l
+na2atp; ph 7.4 adjusted with naoh) to a concentration of 200 – 800 ␮g/ml
+protein. the radioligand [3h] xxxd2215xxx  (52.00 ci/mmol) (nen, boston,
+ma) was added to a final concentration of 1 nmol/l. [3h] xxxd2215xxx  was
+displaced with increasing concentrations of nnc 55-9216 (1–1,000 ␮mol/l).
+samples were incubated at 37°c for 1 h. incubation was terminated by
+1898
+
+filtration through whatman gf/b filters, and the filters were washed three
+times with 154 mmol/l of ice-cold nacl. ultima gold was used as the
+scintillation fluid for counting 3h decay. nonspecific binding was determined
+using 10 ␮mol/l  xxxd2204xxx  (final concentration). the ratio of nonspecific
+binding to total [3h] xxxd2215xxx  bound was always ⬍0.15, and the amount
+of total [3h] xxxd2215xxx , bound as a function of protein concentration, was
+linear over the protein concentration range used (200 – 800 ␮g/ml).
+data analysis. the slope conductance was measured by fitting a straight line
+to the current-voltage relation between ⫺20 and ⫺100 mv. conductance was
+measured from an average of five consecutive ramps in each solution.
+responses to nnc 55-9216 or nucleotides were expressed relative to the
+conductance measured in control solution without added nnc 55-9216 or
+nucleotides. concentration-response curves were constructed by expressing
+the conductance in the presence of nnc 55-9216 (g) as a fraction of that in
+control solution (gc). the following equation was then fitted to the data (54):
+1⫺l
+g
+⫽l⫹
+gc
+1 ⫹ 共关nnc 55–9216]/ec50兲h
+where g and gc are the slope conductances in the presence of nnc 55-9216
+and in control solution, respectively, [nnc 55-9216] is the concentration of
+nnc 55-9216, ec50 is the nnc 55-9216 concentration at which activation is
+half maximal, h is the hill coefficient (slope factor), and l is the maximum
+activation. data were fit using microcal origin software.
+to measure the time course of the nnc 55-9216 response, patches were
+held at ⫺60 mv and macroscopic currents were recorded in response to
+application of the drug.
+in the binding experiments, a modified form of the hill equation was used
+to fit the data:
+y⫽l⫹
+
+1⫺l
+1 ⫹ 共关nnc 55–9216]/ic50兲h
+
+where y is the number of [3h] xxxd2215xxx  counts at a given nnc 55-9216
+concentration expressed as a percentage of that in the absence of nnc
+55-9216 both corrected for nonspecific binding, [nnc 55-9216] is the nnc
+55-9216 concentration, ic50 is the nnc 55-9216 concentration at which half the
+[3h] xxxd2215xxx  is displaced, h is the hill coefficient (slope factor), and l is
+the nondisplaceable fraction of [3h] xxxd2215xxx .
+diabetes, vol. 51, june 2002
+
+m. dabrowski and associates
+
+fig. 3. nucleotide dependence of nnc 55-9216 action. a: mean macroscopic slope conductances (g) in the presence of 100 ␮mol/l nnc 55-9216
+and no nucleotide (䡺), 100 ␮mol/l mgatp (^), or 100 ␮mol/l mgatp ⴙ 100 ␮mol/l nnc 55-9216 (f). b: mean macroscopic slope conductances
+(g) in the presence of 10 ␮mol/l mgadp (䡺) or 10 ␮mol/l mgadp ⴙ 100 ␮mol/l nnc 55-9216 (f). data are expressed as a fraction of the mean
+slope conductance in control solution (no additions) (gc) (n ⴝ 3–33). the vertical bars indicate 1 sem. the dashed line indicates the
+conductance in control solution (no additions).
+all data are presented as means ⫾ 1 sem. statistical significance was
+tested using student’s t test.
+
+results
+
+we examined the ability of nnc 55-9216 to activate the
+different types of recombinant katp channels by recording
+macroscopic currents in inside-out membrane patches
+excised from xenopus oocytes coexpressing  xxxg1250xxx  and
+either  xxxg19xxx , sur2a, or sur2b or expressing  xxxg1250xxx ⌬c36
+alone. in all cases, the currents were very small in the
+cell-attached configuration but increased dramatically
+when the patch was excised into nucleotide-free solution,
+consistent with the idea that in the intact oocyte, the katp
+channel is blocked by cytoplasmic nucleotides such as
+atp. because pcos usually require mgatp to support
+their action, we tested nnc 55-9216 in the presence of
+100 ␮mol/l mgatp. this atp concentration blocked
+ xxxg1250xxx ⌬c36 currents by ⬃40% and  xxxg1250xxx / xxxg19xxx  currents by
+⬃83% (figs. 2 and 3).
+figure 2 shows that when 100 ␮mol/l nnc 55-9216 was
+added to the intracellular membrane surface, it largely
+reversed the block of  xxxg1250xxx / xxxg19xxx  currents produced by
+100 ␮mol/l mgatp but had no effect on  xxxg1250xxx /sur2a,
+ xxxg1250xxx /sur2b, or  xxxg1250xxx ⌬c36 currents. the concentrationresponse relation for nnc 55-9216 activation of  xxxg1250xxx /
+ xxxg19xxx  currents measured in the presence of 100 ␮mol/l
+mgatp is shown in fig. 4. the data were fit by the hill
+equation (equation 1) with an ec50 of 16 ⫾ 8 ␮mol/l and a
+hill coefficient of 0.8 ⫾ 0.2 (n ⫽ 6 –16). the fact that the
+hill coefficient is close to unity suggests that the binding of
+a single molecule of the drug is sufficient to cause channel
+activation. in all subsequent experiments, nnc 55-9216
+was used at a concentration of 100 ␮mol/l because this
+appeared to produce a near-maximal response.
+diabetes, vol. 51, june 2002
+
+interactions with mg-nucleotides. we explored
+whether mgatp is required to support activation of  xxxg1250xxx /
+ xxxg19xxx  currents by nnc 55-9216 by testing the efficacy of
+the drug in the absence of added nucleotide (fig. 3, white
+columns). similar experiments were carried out using
+ xxxg1250xxx /sur2a,  xxxg1250xxx /sur2b, and  xxxg1250xxx ⌬c36. as fig. 3
+shows, the drug failed to activate all four types of katp
+channel in the absence of mgatp.
+the nucleotide diphosphate mgadp is able to support
+ xxxd1868xxx  activation of  xxxg1250xxx / xxxg19xxx  (33). furthermore,
+although  xxxd1868xxx  is relatively ineffective at activating
+ xxxg1250xxx /sur2a in the presence of mgatp, the drug
+produces reliable activation of  xxxg1250xxx /sur2a channels
+in the presence of mgadp (28). we therefore tested the
+effects of nnc 55-9216 on all four types of  xxxg1253xxx 
+in the presence of 10 ␮mol/l mgadp. this nucleotide
+concentration was chosen because higher concentrations produce near-maximal activation of the channel,
+which may mask any stimulatory effect of the drug
+itself. figure 3 shows that nnc 55-9216 was unable to
+activate  xxxg1250xxx / xxxg19xxx ,  xxxg1250xxx /sur2a,  xxxg1250xxx /sur2b, or
+ xxxg1250xxx ⌬c36 channels when mgadp was present. nnc
+55-9216 (100 ␮mol/l) was also tested under conditions
+where  xxxd1868xxx  activates  xxxg1250xxx /sur2a channels [i.e.,
+in the presence of 100 ␮mol/l mgadp plus 100 ␮mol/l
+mgatp (28)] but no stimulatory effect was observed on
+currents through  xxxg1250xxx /sur2a channels (n ⫽ 3, data
+not shown). these data indicate that the presence of
+intracellular mgatp, rather than mgadp, is required for
+channel activation by nnc 55-9216 and provide additional support that the drug is selective for the ␤-cell
+type of  xxxg1253xxx .
+we next investigated the mechanism by which mgatp
+1899
+
+a  xxxg1250xxx / xxxg19xxx  selective  xxxg1253xxx  opener
+
+fig. 4. nnc 55-9216 concentration-response relation for  xxxg1250xxx / xxxg19xxx 
+currents (n ⴝ 6 –16). mean macroscopic slope conductance in the
+presence of nnc 55-9216 plus 100 ␮mol/l mgatp (g), expressed as a
+fraction of the mean slope conductance in control solution containing
+100 ␮mol/l mgatp but not nnc 55-9216 (gc). the vertical bars
+indicate 1 sem. the solid line is the best fit of the hill equation
+(equation 1) to the data: ec50 ⴝ 16 ⴞ 8 ␮mol/l, h ⴝ 0.8 ⴞ 0.2 (n ⴝ
+6 –16).
+
+supports activation of  xxxg1250xxx / xxxg19xxx  channels by nnc 559216. fig. 5a compares the effect of 100 ␮mol/l nnc
+55-9216 in the presence of 100 ␮mol/l mgatp, in the
+presence of 100 ␮mol/l atp but without mg2⫹, and in the
+presence of 100 ␮mol/l mgatp␥s. as has been observed
+for  xxxd1868xxx  (36,55), mg2⫹ was required for the ability of
+atp to support channel activation by nnc 55-9216. although this result is consistent with the idea that atp
+hydrolysis is needed for nnc 55-9216 activation, we
+cannot exclude the alternative possibility that mgatp, but
+not atp alone, is able to interact with the channel. figure
+5a also shows that atp␥s was able to substitute partially
+for atp, albeit with lower efficacy (40% activation compared with 75%). there was no difference in the rate of
+activation by 100 ␮mol/l nnc 55-9216 in the presence of
+atp␥s or atp, but the rate of deactivation of  xxxg1250xxx / xxxg19xxx 
+currents on removal of the drug was significantly slower in
+atp solution (fig. 5b). the mean time constants were
+12.6 ⫾ 0.7 s (n ⫽ 8) and 6.4 ⫾ 0.8 s (n ⫽ 5) for solutions
+containing 100 ␮mol/l mgatp or mgatp␥s, respectively.
+this indicates that the off-rate of the drug is slower when
+atp is present, a finding that may reflect a slower rate of
+hydrolysis of atp␥s compared with atp, a reduced
+binding affinity of atp␥s, or a difference in the extent of
+coupling between binding/hydrolysis and channel activation.
+to further explore the role of mgatp in channel activation by nnc 55-9216, we made mutations in the nbds of
+ xxxg19xxx . specifically, we mutated lysine 719 to alanine [ xxxg19xxx (k719a)] and lysine 1384 to methionine
+[ xxxg19xxx (k1384m)]. these residues lie in the walker a
+motifs of nbd1 and nbd2, respectively, and, in other
+atp-binding cassette (abc) transporters, their mutation
+impairs atp binding and/or hydrolysis. coexpression of
+either of these mutant sur1s with  xxxg1250xxx  produced currents of similar amplitude to wild-type currents (fig. 6). as
+previously reported, the currents were slightly more atp
+sensitive (33). they were also not activated by nnc
+1900
+
+55-9216, even in the presence of mgatp. these results
+imply that the ability of mgatp to support channel activation by nnc 55-9216 results from interaction of the
+nucleotide with the nbds of  xxxg19xxx . furthermore, both
+nbds must be intact for channel activation. in this
+respect, nnc 55-9216 differs from  xxxd1868xxx , which is still
+able to induce some activation of  xxxg1250xxx / xxxg19xxx (k1384m)
+currents (33).
+identification of the nnc 55-9216 binding site. as
+described above, nnc 55-9216 activates  xxxg1250xxx / xxxg19xxx  but
+not  xxxg1250xxx /sur2a channels (figs. 2 and 3). we used this
+difference to identify the region of  xxxg19xxx  that confers
+sensitivity to the drug by constructing chimeric surs
+based on either  xxxg19xxx  or sur2a (fig. 7a). these chimeric
+surs were coexpressed with  xxxg1250xxx , and the ability of 100
+␮mol/l nnc 55-9216 to activate the expressed currents in
+the presence of 100 ␮mol/l mgatp was then examined
+(fig. 7b).
+transfer of nbd1 of  xxxg20xxx  into  xxxg19xxx  (chimera 12-a) had
+little effect, whereas substitution of nbd2 from  xxxg20xxx  to
+ xxxg19xxx  (12-b) markedly reduced nnc 55-9216 stimulation.
+moreover, when both nbd1 and -2 of  xxxg19xxx  were replaced
+with those of  xxxg20xxx  (12-c), the effect of the drug was
+completely abolished. these findings suggest that nbd2 of
+ xxxg19xxx  is essential for nnc 55-9216 activation. we next
+investigated the effects of replacing various transmembrane helices of  xxxg19xxx  with the equivalent region of
+sur2a. figure 7b also shows that although transfer of
+tms 13–16 from sur2a to  xxxg19xxx  (12-e) confers pinacidil
+sensitivity on  xxxg19xxx  (37,56,57), it did not affect the stimulatory effect of nnc 55-9216. in contrast, the efficacy of
+nnc 55-9216 was approximately halved when tms 8 –11 of
+ xxxg19xxx  were replaced with the corresponding tms of
+sur2a (12-d). this suggests that tms 8 –11 are important
+for nnc 55-9216 sensitivity.
+we also constructed chimeric surs based on sur2a, in
+which the equivalent region of  xxxg19xxx  replaced various
+domains in sur2a. swapping tms 1–7 (21-c), 8 –11 (21-d),
+or 13–16 (21-e) did not confer nnc 55-9216 sensitivity on
+sur2a. likewise, transfer of either nbd2, or both nbds,
+of  xxxg19xxx  into sur2a did not render nnc 55-9216 capable
+of activating the  xxxg1253xxx  current. however, when
+both tms 8 –11 and nbd2 were transferred from  xxxg19xxx 
+into sur2a (21-f), a significant activation by nnc 55-9216
+was seen (36 ⫾ 7%, n ⫽ 9), thus confirming the importance
+of these domains for nnc 55-9216 activation.
+because nnc 55-9216 shares some structural similarities with the inhibitory sulfonylurea  xxxd3394xxx  (fig. 1),
+we examined whether a single amino acid mutation that
+abolishes  xxxd3394xxx  sensitivity ( xxxg19xxx -s1238y) (52) was
+able to abolish activation by nnc 55-9216. wild-type and
+mutant katp channels, preblocked by 100 ␮mol/l mgatp,
+were activated by nnc 55-9216 (100 ␮mol/l) to similar
+extents: to 75 ⫾ 7% (n ⫽ 33) and 61 ⫾ 15% (n ⫽ 5) of
+control (nucleotide-free solution), respectively. this result
+indicates that the drug interaction sites for  xxxd3394xxx 
+and nnc 55-9216 are not identical, a view also supported
+by the fact that tms 13–16 of  xxxg19xxx , which form part of the
+ xxxd3394xxx -binding site (52), do not appear to be involved
+in nnc 55-9216 activation.
+displacement of [3h] xxxd2215xxx  by nnc 55-9216.
+we next explored the ability of nnc 55-9216 to displace
+[3h] xxxd2215xxx  binding to membranes isolated from
+diabetes, vol. 51, june 2002
+
+m. dabrowski and associates
+
+fig. 5. effects of nucleotide hydrolysis on nnc 55-9216 activation of  xxxg1250xxx / xxxg19xxx  currents. a: mean macroscopic slope conductance in the
+presence of 100 ␮mol/l mgatp, 100 ␮mol/l mgatp␥s, or 100 ␮mol/l mg-free atp in the absence (䡺) or presence (f) of 100 ␮mol/l nnc 55-9216.
+conductance (g) is expressed as a fraction of the mean slope conductance in control solution without added drug or nucleotide (gc). the
+numbers above the columns indicate the number of patches and the vertical bars indicate 1 sem. the dashed line indicates the control level
+(100%). b: effect of nnc 55-9216 on  xxxg1250xxx / xxxg19xxx  currents recorded at ⴚ60 mv in the presence of 100 ␮mol/l mgatp and 100 ␮mol/l mgatp␥s.
+drug and nucleotide were added to the intracellular surface as indicated by the bars.
+
+hek293 cells transiently transfected with  xxxg19xxx , or with
+the chimeras 12-a or 12-b (consisting of  xxxg19xxx  with either
+nbd1 or nbd2 of sur2a, respectively). all experiments
+were carried out in the presence of 100 ␮mol/l mgatp,
+because pco binding to sur requires the presence of
+mgatp (58). figure 8 shows that nnc 55-9216 dosedependently displaced [3h] xxxd2215xxx  binding to  xxxg19xxx ,
+with an ic50 of 103 ⫾ 11 ␮mol/l (n ⫽ 6). a similar result
+was obtained for displacement of [3h] xxxd2215xxx  binding to the chimera 12-a by nnc 55-9216 (fig. 8). however,
+nnc 55-9216 was less effective at displacing [3h] xxxd2215xxx  from chimera 12-b. thus, swapping nbd1 of  xxxg19xxx 
+for that of sur2a is without obvious effect, whereas
+replacement of nbd2 of  xxxg19xxx  by that of sur2a has a
+marked effect. this is consistent with the results of the
+electrophysiological experiments.
+it was not possible to dissolve nnc 55-9216 at concentrations ⬎1 mmol/l; hence, the full concentration-response
+relationship for the 12-b chimera could not be obtained. it
+is not clear from the available data whether the displacement curve corresponds to a single curve or a multimodal
+curve, or whether incomplete displacement of binding
+occurs at saturating concentrations of the pco. if the
+shifted curve is a result of binding of the pco at a single
+site, the data can be a fit with an ic50 of 730 ⫾ 25 ␮mol/l
+and h ⫽ 0.43 ⫾ 0.07 (n ⫽ 5). alternatively, the data are also
+consistent with the idea that nnc 55-9216 is only able to
+displace a maximum of 50% of [3h] xxxd2215xxx  binding.
+diabetes, vol. 51, june 2002
+
+in this case, the ic50 was 51 ⫾ 30 ␮mol/l and h ⫽ 0.76 ⫾
+0.21 (n ⫽ 5). whichever is correct, it is clear that replacement of nbd2 of  xxxg19xxx  by that of sur2a reduces the ability
+of nnc 55-9216 to displace [3h] xxxd2215xxx  binding.
+discussion
+
+the results reported here demonstrate that nnc 55-9216
+activates  xxxg1250xxx / xxxg19xxx , but not  xxxg1250xxx /sur2a or  xxxg1250xxx /
+sur2b currents, by interaction with the  xxxg19xxx  subunit of
+the  xxxg1253xxx . they also imply that the drug will
+stimulate native katp channels in pancreatic ␤-cells but
+not in cardiac or smooth muscles. this selectivity is
+particularly interesting in view of the fact that the drug
+shares some structural similarity with  xxxd1868xxx , which
+interacts with katp channels containing sur2a and
+sur2b as well as  xxxg19xxx  (28,59).
+activation of  xxxg1250xxx / xxxg19xxx  currents by nnc 55-9216 is
+dependent on the presence of intracellular mgatp. the
+adenine dinucleotide mgadp is unable to substitute for
+mgatp, and in this respect, the nucleotide requirements of
+nnc 55-9216 differ from those of  xxxd1868xxx  (fig. 1), which
+is supported by mgadp (28). the lack of effect of mgadp,
+and of atp in the absence of mg2⫹, suggests that mgatp
+hydrolysis might be needed for nnc 55-9216 activation.
+the ability of mgatp␥s to support the action of the
+ xxxd1868xxx  analog, albeit to a lesser extent than mgatp, is
+also consistent with a role for atp hydrolysis. in this case,
+1901
+
+a  xxxg1250xxx / xxxg19xxx  selective  xxxg1253xxx  opener
+
+fig. 6. effects of walker a mutations on nnc 55-9216 activity. a: macroscopic currents recorded from inside-out patches in response to a series
+of voltage ramps from ⴚ110 to 100 mv from oocytes coexpressing  xxxg1250xxx  and either  xxxg19xxx (k719a) or  xxxg19xxx (k1384 mol/l). mgatp and nnc
+55-9216 were added to the intracellular solution as indicated by the bars. b: mean macroscopic slope conductances (g) in the presence of 100
+␮mol/l mgatp (䡺) or 100 ␮mol/l mgatp ⴙ 100 ␮mol/l nnc 55-9216 (f), expressed as a fraction of the mean slope conductance in control solution
+without drug or nucleotide (gc). the numbers above the columns indicate the number of patches, and the vertical bars indicate 1 sem.
+
+the faster off-rate of the drug in atp␥s solution might also
+be explained by a slower hydrolysis of mgatp␥s (compared with mgatp). however, we cannot exclude the
+possibility that mgatp binding per se (rather than mgatp
+binding with subsequent hydrolysis) is sufficient to support nnc 55-9216 stimulation, and that the slower off-rate
+of the drug in the presence of mgatp results because the
+allosteric effect on drug binding differs for mgatp␥s and
+mgatp.
+mutagenesis experiments suggest that mgatp supports
+nnc 55-9216 activation by interaction with the nbds of
+ xxxg19xxx . both nbds are required because mutation of a
+single lysine residue in the walker a motif of either nbd1
+or nbd2 was sufficient to abolish the effect of the drug. in
+other abc transporters, mutation of the walker a lysine
+prevents atp hydrolysis without markedly altering atp
+binding (60,61). similar mutations in  xxxg19xxx , however,
+decrease atp binding (62,63). our mutagenesis experiments, therefore, cannot distinguish whether atp binding
+or hydrolysis is required for nnc 55-9216 activation.
+the experiments using  xxxg19xxx /2a chimeras highlight the
+importance of several domains of  xxxg19xxx  for channel activation by nnc 55-9216. first, it is clear that nbd2 plays a
+particularly important role because substitution of this
+1902
+
+domain by the equivalent region of sur2a abolished the
+effect of nnc 55-9216. this is in sharp contrast to  xxxd1868xxx , which activates equally well when nbd2 of  xxxg19xxx  is
+replaced by that of sur2a (27). it is possible that the
+nbds of  xxxg19xxx  cooperate in nucleotide binding (and/or
+transduction), that this interaction is needed for nucleotides to support nnc 55-9216 activation, and that nbd2 of
+sur2a is unable to interact with that of nbd1. second,
+replacement of tms 8 –11 of  xxxg19xxx  with the equivalent
+region of sur2a abolished the action of the drug. there
+are three principal mechanisms by which manipulation of
+tms 8 –11 might influence the stimulatory effect of nnc
+55-9216. first, it may disrupt the drug binding site; second,
+it may influence the coupling mechanism by which drug
+binding is transduced into channel opening; and third, it
+may impair the ability of mgatp to support nnc 55-9216
+binding and/or activation. the available data do not allow
+us to distinguish between these possibilities. we were able
+to transfer some of the activity of nnc 55-9216 from  xxxg19xxx 
+to sur2a by substituting both tms 8 –11 and nbd2 from
+ xxxg19xxx  into sur2a. the efficacy of nnc 55-9216 activation
+is reduced in this chimera, but the presence of some
+activation confirms that tms 8 –11 of  xxxg19xxx  are required
+for proper nnc 55-9216 function.
+diabetes, vol. 51, june 2002
+
+m. dabrowski and associates
+
+fig. 7. effects of nnc 55-9216 on katp channels containing chimeric surs. a: schematic representation of sur chimeras indicating the regions
+exchanged between  xxxg19xxx  and sur2a. b: mean macroscopic slope conductance (g) in the presence of 100 ␮mol/l mgatp (䡺) or 100 ␮mol/l mgatp
+ⴙ 100 ␮mol/l nnc 55-9216 (f), expressed as a fraction of the mean slope conductance in control solution (no added drug or nucleotide) (gc)
+(n ⴝ 6 –33). the vertical bars indicate 1 sem. the dashed line shows the mean  xxxg1250xxx / xxxg19xxx  current in 100 ␮mol/l mgatp for comparative
+purposes.
+diabetes, vol. 51, june 2002
+1903
+
+a  xxxg1250xxx / xxxg19xxx  selective  xxxg1253xxx  opener
+
+fig. 8. displacement of [3h] xxxd2215xxx  by nnc 55-9216 from hek
+293 membranes expressing  xxxg19xxx , chimera 12-a, or chimera 12-b. each
+data point is the mean of 5– 6 duplicate determinations that were
+corrected for nonspecific binding and normalized to the maximal
+specific binding. the curves are fitted with the hill equation (equation
+2) using the following values:  xxxg19xxx : l ⴝ 0, ic50 ⴝ 103 ␮mol/l, and h ⴝ
+0.53 (n ⴝ 6) (f, solid line); chimera 12-a: l ⴝ 0, ic50 ⴝ 142 ␮mol/l, and
+h ⴝ 0.48 (n ⴝ 6) (f, dashed line); and chimera 12-b: l ⴝ 0.46, ic50 ⴝ
+51 ␮mol/l, and h ⴝ 0.76 (n ⴝ 5) (œ, dotted line.).
+
+the sur subunit consists of 17 tms arranged in three
+groups of 5, 6, and 6 (64,65). previous studies have
+demonstrated that a range of pcos that show specificity
+for  xxxg20xxx , including pinacidil, cromakalim, and nicorandil,
+interact with the third set of tms. chimera studies suggest
+that pinacidil and p1075 interact with tms 13–16 of sur2a
+(38,56,57). mutation of two residues within tm 17 [sur2a
+(l1249t) and sur2a(t1253m)] abolishes activation of
+ xxxg1250xxx /sur2a currents by the cromakalim analog sr47063,
+whereas the reverse mutation  xxxg19xxx (m1290t) confers sensitivity to p1075, rilmakalim, and sr47063 on  xxxg1250xxx /
+ xxxg19xxx (m1290t) (25). these mutations did not abolish
+activation by  xxxd1868xxx , however, suggesting that it may
+interact with a different site. our studies now identify the
+presence of a novel interaction site for pcos that lies in
+the second set of transmembranes of  xxxg19xxx  (specifically
+tms 8 –11). it is possible that in addition to nnc 55-9216,
+ xxxd1868xxx  may interact with (part of) this site. it is
+interesting that this region lies in the cooh-terminal part
+of the second set of transmembranes because in the
+related  xxxg22xxx   xxxg12xxx , drug
+binding sites are located in an equivalent position in both
+the second and third set of tms.
+the ability of nnc 55-9216 to displace [3h] xxxd2215xxx  binding to  xxxg19xxx  in the presence of mgatp
+suggests several possibilities. first, the binding sites for
+these drugs may overlap, or they may be able to influence
+each other allosterically. second, it is possible that the
+pco affects [3h] xxxd2215xxx  binding indirectly, for example, by stabilizing atp binding to  xxxg19xxx , which in turn
+reduces [3h] xxxd2215xxx  binding. the importance of
+nbd2 for this effect is demonstrated by the reduced
+displacement that is observed when nbd2 of sur2a
+replaces that of  xxxg19xxx , a finding that supports the results of
+the electrophysiological experiments. it seems most likely
+that interaction of mgatp with nbd2 is essential for nnc
+55-9216 binding, but we cannot exclude the possibility that
+1904
+
+it is instead involved in allosteric coupling of pco and
+sulfonylurea binding sites.
+in conclusion, nnc 55-9216 is the first pco that shows
+significant selectivity for  xxxg1250xxx / xxxg19xxx  channels (the ␤-cell
+type of katp channels). it is also more potent than
+ xxxd1868xxx  (ec50 ⫽ 65 ␮mol/l for  xxxd1868xxx  [10] versus 16
+␮mol/l for nnc 55-9216). of particular interest, is the
+finding that nnc 55-9216 appears to interact with a
+different region of sur than many other pcos (pinacidil,
+cromakalim, etc.). this suggests that it may form the basis
+for the development of  xxxg1250xxx / xxxg19xxx –selective pcos that
+are devoid of the side effects (e.g., edema and hirsutism)
+associated with  xxxd1868xxx . such compounds could be used
+to treat patients suffering from diseases of excessive
+insulin secretion, such as insulinoma or certain types of
+persistent hypoglycemic hyperinsulinemia of infancy.
+they may also be of value in the treatment of both type 1
+(42– 44) and type 2 diabetes (45) as well as obesity (46).
+finally, nnc 55-9216 may provide a useful pharmacological tool for studies on the molecular mechanisms of pco
+action and for studies of the relationship between the
+structure and function of sulfonylurea receptors.
+acknowledgments
+
+this work was supported by the wellcome trust (to
+f.m.a.). m.d. was supported by a grant from the danish
+academy of technical sciences. we thank dr. susumu
+seino (chiba university, japan) for providing sur2a.
+references
+1. ashcroft fm, rorsman p: electrophysiology of the pancreatic ␤-cell. prog
+biophys mol biol 54:87–143, 1989
+2. nichols cg, lederer wj:  xxxd83xxx -sensitive potassium
+channels in the cardiovascular system. am j physiol 261:h1675–h1686,
+1991
+3. quayle jm, nelson mt, standen nb: atp-sensitive and inwardly-rectifying
+potassium channels in smooth muscle. physiol rev 77:1165–1232, 1997
+4. davis nw, standen nb, stanfield pr: atp-dependent potassium channels
+of muscle cells: their properties, regulation, and possible functions.
+j bioenerg biomembr 23:509 –535, 1991
+5. liss b, bruns r, roeper j: alternative sulfonylurea receptor expression
+defines metabolic sensitivity of k-atp channels in dopaminergic midbrain
+neurons. embo j 18:833– 846, 1999
+6. schmid-anttomarchi h, amoroso s, fosset m, lazdunski m: k⫹ channel
+openers activate brain sulphonylurea-sensitive k⫹ channels and block
+neurosecretion. proc natl acad sci u s a 87:3489 –3492, 1990
+7. heurteaux c, bertaina v, widmann c, lazdunski m: k⫹ channel openers
+prevent global ischemia-induced expression of c-fos, c-jun, heat shock
+protein and amyloid-protien precursor genes and neuronal death in rat
+hippocampus. proc natl acad sci u s a 90:9431–9435, 1993
+8. sakura h, ämmälä c, smith pa, gribble fm, ashcroft fm: cloning and
+functional expression of the cdna encoding a novel atp-sensitive  xxxg1232xxx  expressed in pancreatic ␤-cells, brain, heart and skeletal
+muscle. febs lett 377:338 –344, 1995
+9. aguilar-bryan l, nichols cg, wechsler sw, clement jp iv, boyd ae,
+gonzalez g, herrera-sosa h, nguy k, bryan j, nelson da: cloning of the
+␤-cell high-affinity sulphonylurea receptor: a regulator of insulin secretion.
+science 268:423– 425, 1995
+10. inagaki n, gonoi t, clement iv jp, namba n, inazawa j, gonzalez g,
+aguilar-bryan l, seino s, bryan j: reconstitution of  xxxg1250xxx  channel: an
+inward rectifier subunit plus the sulphonylurea receptor. science 270:
+1166 –1169, 1995
+11. inagaki n, gonoi t, clement iv jp, wang cz, aguilar-bryan l, bryan j,
+seino s: a family of sulfonylurea receptors determines the properties of
+atp-sensitive k⫹ channels. neuron 16:1011–1017, 1996
+12. inagaki n, gonoi t, seino s: subunit stoichiometry of the pancreatic ␤-cell
+atp-sensitive k⫹ channel. febs lett 409:232–236, 1997
+13. clement iv jp, kunjilwar k, gonzalez g, schwanstecher m, panten u,
+diabetes, vol. 51, june 2002
+
+m. dabrowski and associates
+
+aguilar-bryan l, bryan j: association and stoichiometry of  xxxg1253xxx 
+subunits. neuron 18:827– 838, 1997
+14. shyng s-l, nichols cg: octameric stochiometry of the  xxxg1253xxx 
+complex. j gen physiol 110:655– 664, 1997
+15. tucker sj, gribble fm, zhao c, trapp s, ashcroft fm: truncation of  xxxg1250xxx 
+produces atp-sensitive k-channels in the absence of the sulphonylurea
+receptor. nature 387:179 –181, 1997
+16. ashcroft fm, gribble fm: correlating structure and function in atpsensitive k⫹ channels. trends neurosci 21:288 –294, 1998
+17. isomoto s, kondo c, yamada m, matsumoto s, horio y, matsuzawa, y,
+kurachi y: a novel sulphonylurea receptor forms with bir ( xxxg1250xxx ) a
+smooth muscle type of atp-sensitive k⫹ channel. j biol chem 271:24321–
+24325, 1996
+18. yamada m, isomoto s, matsumoto s, kondo c, shindo t, horio y, kurachi
+y: nucleotide sulphonylurea receptor 2b and kir6.1 form a sulphonylureasensitive but atp-insensitive k⫹ channel. j physiol 499:715–720, 1997
+19. karschin a, brockhaus j, ballanyi k:  xxxg1253xxx  formation by the
+sulphonylurea receptors  xxxg19xxx  with  xxxg1250xxx  subunits in rat dorsal vagal
+neurons in situ. j physiol 509:339 –346, 1998
+20. zerangue n, schwappach b, jan yn, jan ly: a new er trafficking signal
+regulates the subunit stoichiometry of plasma membrane k(atp) channels. neuron 22:537–548, 1999
+21. terzic a, jahangir a, kurachi y: cardiac atp-sensitive k⫹ channels:
+regulation by intracellular nucleotides and k⫹ channel-opening drugs.
+am j physiol 269:c525–c545, 1995
+22. fujita a, kurachi y: molecular aspects of atp-sensitive k⫹ channels in the
+cardiovascular system and k⫹ channel openers. pharmacol ther 85:39 –53,
+2000
+23. ashcroft fm, gribble fm: new windows on the mechanism of action of
+k(atp) channel openers. trends pharmacol sci 21:439 – 445, 2000
+24. shindo t, yamada m, isomoto s, horio y, kurachi y:  xxxg20xxx  subtype (a and
+b)-dependent differential activation of the cloned atp-sensitive k⫹ channels by pinacidil and nicorandil. br j pharmacol 124:985–991, 1998
+25. moreau c, jacquet h, prost al, d’hahan n, vivaudou m: the molecular
+basis of the specificity of action of  xxxg1253xxx  openers. embo j
+19:6644 – 6651, 2000
+26. reimann f, gribble fm, ashcroft fm: differential response of k(atp)
+channels containing sur2a or sur2b subunits to nucleotides and pinacidil. mol pharmacol 58:1318 –1325, 2000
+27. d’hahan n, jacquet h, moreau c, catty p, vivaudou m: a transmembrane
+domain of the sulfonylurea receptor mediates activation of atp-sensitive
+k⫹ channels by k⫹ channel openers. mol pharm 56:308 –315, 1999
+28. d’hahan n, moreau c, prost a-l, jacquet h, alekseev ae, terzic a,
+vivaudou m: pharmacological plasticity of cardiac atp-sensitive potassium channels toward  xxxd1868xxx  revealed by adp. proc natl acad sci u s
+a 96:12162–12167, 1999
+29. babenko ap, gonzalez g, bryan j: pharmaco-topology of sulfonylurea
+receptors: separate domains of the regulatory subunits of k(atp) channel
+isoforms are required for selective interaction with k(⫹) channel openers.
+j biol chem 275:717–720, 2000
+30. matsuoka t, matsushita k, katayama y, fujita a, inageda k, tanemoto m,
+inanobe a, yamashita s, matsuzawa y, kurachi y: c-terminal tails of
+sulfonylurea receptors control adp-induced activation and  xxxd1868xxx 
+modulation of atp-sensitive k(⫹) channels. circ res 87:873– 880, 2000
+31. tanabe k, tucker sj, matsuo m, proks p, ashcroft fm, seino s, amachi t,
+ueda k: direct photoaffinity labeling of the  xxxg1250xxx  subunit of the atpsensitive k⫹ channel by 8-azido-atp. j biol chem 274:3931–3933, 1999
+32. nichols cg, shyng sl, nestorowicz a, glaser b, clement jp, gonzalez g,
+aguilar-bryan l, permutt ma, bryan j:  xxxd80xxx  as an
+intracellular regulator of insulin secretion. science 272:1785–1787, 1996
+33. gribble fm, tucker sj, ashcroft fm: the essential role of the walker a
+motifs of  xxxg19xxx  in k-atp channel activation by mg-adp and  xxxd1868xxx .
+embo j 16:1145–1152, 1997
+34. gribble fm, tucker sj, haug t, ashcroft fm: mgatp acctivates the beta
+cell  xxxg1253xxx  by interaction with its  xxxg19xxx  subunit. proc natl acad sci
+u s a 95:7185–7190, 1998
+35. shyng s, ferrigni t, nichols cg: regulation of  xxxg1253xxx  activity by
+ xxxd1868xxx  and mgadp: distinct functions of the two nucleotide binding
+folds of the sulfonylurea receptor. j gen physiol 110:643– 654, 1997
+36. kozlowski rj, hales cn, ashford m l j: dual effects of  xxxd1868xxx  on
+atp-k⫹ currents recorded from an insulin-secreting cell line. br j pharmacol 97:1039 –1050, 1989
+37. fan z, nakayama k, hiraoka m: multiple actions of pinacidil on adenosine
+triphosphate-sensitive potassium channels in guinea-pig ventricular myocytes. j physiol 430:273–295, 1990
+38. gribble fm, reimann f, ashfield r, ashcroft fm: nucleotide modulation
+diabetes, vol. 51, june 2002
+
+of pinacidil stimulation of the cloned  xxxg1253xxx   xxxg1250xxx /sur2a. mol
+pharm 57:1256 –1261, 2000
+39. hambrock a, loffler wc, kurachi y, quast u: mg2⫹ and atp dependence
+of k(atp) channel modulator binding to the recombinant sulphonylurea
+receptor sur2b. br j pharmacol 125:577–583, 1998
+40. schwanstecher m, sieverding c, dorschner h, gross i, aguilar-bryan l,
+schwanstecher c, bryan j:  xxxg1232xxx  openers require atp to bind
+to and act through sulfonylurea receptors. embo j 17:5529 –5535, 1998
+41. bienengraeber m, alekseev ae, abraham mr, carrasco aj, moreau c,
+vivaudou m, dzeja pp, terzic a: atpase activity of the sulfonylurea
+receptor: a catalytic function for the  xxxg1253xxx  complex. faseb j
+14:1943–1952, 2000
+42. björk e, berne c, kämpe o, wibell l, oskarsson p, karlsson f:  xxxd1868xxx 
+treatment at onset preserved residual insulin secretion in adults with
+autoimmune diabetes. diabetes 45:1427–1430, 1996
+43. björk e, berne c, karlsson f: induction of beta-cell rest in type 1 diabetes:
+studies on the effects of octreotide and  xxxd1868xxx . diabetes care 21:427–
+430, 1998
+44. karlsson f, björk e: beta-cell rest: a strategy for the prevention of
+autoimmune diabetes. autoimmunity 26:117–122, 1997
+45. aizawa t, taguchi n, sato y, nakabayashi t, kobuchi h, hikada h,
+nagawasa t, ishiara f, ithoh n, hashizume k: prophylaxis of genetically
+determined diabetes by  xxxd1868xxx : a study in a rat model of naturally
+occurring obese diabetes. j pharmacol exp therp 275:194 –199, 1995
+46. hiramatsu s, hoog a, moller c, grill v: treatment with  xxxd1868xxx  causes
+prolonged improvement of beta-cell function in rat islets transplanted to a
+diabetic environment. metabolism 49:657– 661, 2000
+47. alemzadeh r, langley g, upchurch l, smith p, slonim ae: beneficial effect
+of  xxxd1868xxx  in obese hyperinsulinemic adults. j clin endocrinol metab
+83:1911–1915, 1998
+48. pirotte b, de tullio p, lebrun p, antoine m-h, fontaine j, masereel b,
+schynts m, dupont l, herchuelz a, delarge j: 3-(alkylamino)-4hpyrido[4,3-e]-1,2,4-thiadiazine 1,1-dioxides as powerful inhibitors of insulin
+release from rat pancreatic b-cells: a new class of  xxxg1232xxx 
+openers? j med chem 36:3211–3213, 1993
+49. de tullio p, pirotte b, lebrun p, fontaine j, dupont l, antoine m,
+ouedraogo r, khelili s, maggetto c, masereel b, diouf o, podona t,
+delarge j: 3- and 4-substituted 4h- xxxd3047xxx (4,3-e)-1,2,4-thiadiazine 1,1-dioxides as  xxxg1232xxx  openers: synthesis, pharmacological evaluation,
+and structure-activity relationships. j med chem 39:937–948, 1996
+50. lebrun p, arkhammar p, antoine m-h, nguyen qa, bondo hansen j,
+pirotte b: a potent  xxxd1868xxx  analogue activating atp-sensitive k⫹ channels and inhibiting insulin release. diabetologia 43:723–732, 2000
+51. pirotte b, ouedraogo r, de tullio p, khelili s, somers f, boverie s, dupont
+l, fontaine j, damas j, lebrun p: 3-alkylamino-4h- xxxd3047xxx [2,3-e]-1,2,4thiadiazine 1,1-dioxides structurally related to  xxxd1868xxx  and pinacidil as
+ xxxg1232xxx  openers acting on vascular smooth muscle cells:
+design, synthesis, and pharmacological evaluation. j med chem 43:1456 –
+1466, 2000
+52. ashfield r, gribble fm, ashcroft sjh, ashcroft fm: identification of the
+high-affinity  xxxd3394xxx  site on the  xxxg19xxx  subunit of the  xxxg1253xxx .
+diabetes 48:1341–1347, 1999
+53. gribble fm, ashfield r, ämmälä c, ashcroft fm: properties of cloned
+atp-sensitive k-currents expressed in xenopus oocytes. j physiol 498:87–
+98, 1997
+54. gribble fm, tucker sj, ashcroft fm: the interaction of nucleotides with
+the  xxxd3394xxx  block of k-atp currents: a reinterpretation. j physiol
+504:35– 45, 1997
+55. larsson o, ämmälä c, bokvist k, fredholm b, rorsman p: stimulation of
+the  xxxg1253xxx  by adp and  xxxd1868xxx  requires nucleotide hydrolysis in
+mouse pancreatic ␤-cells. j physiol 463:349 –365, 1993
+56. gross i, toman a, uhde i, schwanstecher c, schwanstecher m: stoichiometry of  xxxg1232xxx  opener action. mol pharm 56:1370 –1373,
+1999
+57. uhde i, toman a, gross i, schwanstecher c, schwanstecher m: indentification of the  xxxg1232xxx  opener site on sulfonylurea receptors.
+j biol chem 274:28079 –28082, 1999
+58. schwanstecher m, brandt c, behrends s, schaupp u, panten u: effect of
+mgatp on pinacidil-induced displacement of  xxxd2215xxx  from the
+sulphonylurea receptor in a pancreatic beta-cell line and rat cerebral
+cortex. br j pharmacol 106:295–301, 1992
+59. ämmälä c, moorhouse a, ashcroft fm: the sulphonylurea receptor
+confers  xxxd1868xxx  sensitivity on the inwardly-rectifying k-channel, kir6.1.
+j physiol 494:709 –714, 1996
+60. carson mr, travis sm, welsh mj: the two nucleotide-binding domains of
+1905
+
+a  xxxg1250xxx / xxxg19xxx  selective  xxxg1253xxx  opener
+
+ xxxg437xxx  (cftr) have distinct
+functions in controlling channel activity. j biol chem 270:1711–1717, 1995
+61. ko yh, pedersen pl: the first nucleotide binding fold of the cystic fibrosis
+transmembrane conductance regulator can function as an active atpase.
+j biol chem 270:22093–22096, 1995
+62. ueda k, komine j, matsuo m, seino s, amachi t: cooperative binding of
+atp and mgadp in the sulfonylurea receptor is modulated by  xxxd2215xxx . proc natl acad sci u s a 96:1268 –1272, 1999
+63. matsuo m, tanabe k, kioka n, amachi t, ueda k: different binding
+
+1906
+
+properties and affinities for atp and adp among sulfonylurea receptor subtypes,  xxxg19xxx , sur2a, and sur2b. j biol chem 275:28757–28763,
+2000
+64. tusnady ge, bakos e, varadi a, sarkadi b: membrane topology distinguishes a subfamily of the atp-binding cassette (abc) transporters. febs
+lett 402:1–3, 1997
+65. raab-graham kf, cirilo lj, boettcher aa, radeke cm, vandenberg ca:
+membrane topology of the amino-terminal region of the sulfonylurea
+receptor. j biol chem 274:29122–29129, 1999
+
+diabetes, vol. 51, june 2002
+

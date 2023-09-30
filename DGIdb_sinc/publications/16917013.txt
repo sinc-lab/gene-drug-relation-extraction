@@ -1,0 +1,656 @@
+antimicrobial agents and chemotherapy, oct. 2006, p. 3389–3395
+0066-4804/06/$08.00⫹0 doi:10.1128/aac.00726-06
+copyright © 2006, american society for microbiology. all rights reserved.
+
+vol. 50, no. 10
+
+system for expression of microsporidian methionine amino peptidase
+type 2 ( xxxg1400xxx ) in the yeast saccharomyces cerevisiae䌤
+rajendra upadhya,1 hong shan zhang,1 and louis m. weiss1,2*
+departments of pathology1 and medicine,2 albert einstein college of medicine, bronx, new york 10461
+
+microsporidia are parasitic protists of all classes of vertebrates and most invertebrates. they recently
+emerged as important infections in various immunosuppressed and immunocompetent patient populations.
+they are also important veterinary and agricultural pathogens. current therapies for microsporidiosis include
+benzimidazoles, which bind tubulin-inhibiting microtubule assembly, and  xxxd2166xxx  and its derivatives, which
+bind and inhibit methionine amino peptidase type 2 ( xxxg1400xxx ). benzimidazoles are not active against enterocytozoon bieneusi, the most common cause of human microsporidiosis.  xxxd2166xxx  is active against most
+microsporidia, including e. bieneusi, but thrombocytopenia has been a problem in clinical trials. there is a
+pressing need for more-specific microsporidian  xxxg1400xxx  inhibitors. to expedite and facilitate the discovery of
+safe and effective  xxxg1400xxx  inhibitors, we have engineered saccharomyces cerevisiae to be dependent on encephalitozoon cuniculi  xxxg1400xxx  (ecmetap2) for its growth, where ecmetap2 is harbored on an episomal uracilselectable tetracycline-regulated plasmid. we have also constructed a leucine-selectable tetracycline-regulated
+expression plasmid into which any  xxxg1400xxx  gene can be cloned. by utilizing a 5-fluoroorotic acid-mediated
+plasmid shuffle in the ecmetap2 yeast strain, a yeast strain can be generated whose growth is dependent on
+ xxxg1400xxx  from any organism. the level of heterologous  xxxg1400xxx  gene expression can be controlled by the
+addition of tetracycline to the growth medium. these yeast strains should permit high-throughput screening
+for the identification of new inhibitors with high specificity and activity toward microsporidian  xxxg1400xxx .
+semisynthetic analogue of  xxxd2166xxx  that appears to be less
+toxic but has been reported to exhibit side effects in wound
+healing and female reproduction (15). clinical trials with tnp470 as an angiogenesis inhibitor suggest that resistance to
+ xxxd1330xxx  can occur (2).
+ xxxd2800xxx  (5),  xxxd2166xxx , and derivatives such as  xxxd1330xxx 
+(23), cis- xxxd2166xxx  (21), and fumagalone (35) specifically and
+covalently bind to a target enzyme identified as methionine
+amino peptidase type 2 ( xxxg1400xxx  [map2 in yeast]) and specifically inhibit its peptidase activity.  xxxg1400xxx  catalyzes an essential posttranslational modification of nascent proteins by
+cleaving the initiator methionine and thus is a major component of the n-terminal methionine excision pathway (15).
+n-terminal methionine excision has been found to be an
+essential universal process conserved from eubacteria to
+higher eukaryotes.  xxxg1400xxx  genes are essential genes in all
+prokaryotes since  xxxg1400xxx  deletion is lethal. there are two
+major forms of metaps, designated type 1 and type 2 (1,
+22). although not an absolute rule, prokaryotes, which include eubacteria and archaebacteria, will typically express
+the  xxxg1399xxx  isoform, while eukaryotes express both type 1
+and type 2 isoforms. additionally, there are reports of other
+forms of metaps (16, 27).  xxxg1400xxx  gained a lot of attention
+recently as an excellent therapeutic target not only in treatment of various parasite infections but also in anticancer
+therapy (26). data suggest that the cellular target for  xxxd2166xxx  and its analogs in microsporidia is a microsporidian
+ xxxg1400xxx  homologue and that this is an essential enzyme for
+these organisms (34).
+ xxxd2166xxx  and its analogs do not bind or inhibit the activity
+of  xxxg1399xxx  or other amino peptidases. saccharomyces cerevisiae cells deficient in  xxxg1399xxx  (⌬map1) are killed by  xxxd2800xxx ,
+
+microsporidia are “emerging” human and veterinary pathogens. these protists belong to the phylum microsporidia, which
+are obligate intracellular parasites. they are ubiquitous in nature, having been described as parasites of all classes of vertebrates and most invertebrates (8, 33). they have been reported
+to infect mainly their host’s digestive tract; however, infections
+have also been reported in reproductive, muscle, excretory,
+and nervous systems (4, 7, 10, 11, 30, 31). microsporidia have
+been identified in water sources as well as in wild, domestic,
+and farm animals. this has raised concerns for waterborne,
+food-borne, and zoonotic transmissions of these infections. at
+least 10 species have been etiologic in several disease syndromes in humans (32). these pathogens have presented as
+opportunistic infections in immunodeficient hosts, such as patients with aids and/or organ transplantation, but also infect
+immunocompetent hosts (9). the two most commonly used
+drugs for treating microsporidiosis in animals and humans are
+albendazole and  xxxd2166xxx  (6). albendazole is a benzimidazole that inhibits tubulin polymerization. even though it is
+effective against many microsporidia, including encephalitozoon spp., which infect mammals, including humans, it is only
+variably effective against enterocytozoon bieneusi, the most
+common cause of human microsporidiosis.
+ xxxd2166xxx  is a sesquiterpene diepoxide produced by the
+fungus aspergillus fumigatus and is highly effective when administered systemically to humans but has caused neutropenia
+and thrombocytopenia in some patients (24).  xxxd1330xxx  is a
+* corresponding author. mailing address: albert einstein college
+of medicine, 1300 morris park avenue, forchhemier building, room
+504, bronx, ny 10461. phone: (718) 430-2142. fax: (718) 430-8543.
+e-mail: lmweiss@aecom.yu.edu.
+䌤
+published ahead of print on 17 august 2006.
+3389
+
+downloaded from http://aac.asm.org/ on march 17, 2015 by the university of iowa libraries
+
+received 6 june 2006/returned for modification 20 july 2006/accepted 8 august 2006
+
+3390
+
+upadhya et al.
+
+materials and methods
+strains, growth conditions, and dna methods. all s. cerevisiae strains used
+and generated in the present study are derived from s228c (atcc 201388), with
+the genotype mata his3⌬1 leu2⌬0 met15⌬0 ura3⌬0. yeast was grown at 30°c on
+yeast extract-peptone-dextrose (ypd) solid or liquid medium and synthetic
+complete (sc) liquid or solid medium. ypd- xxxg418xxx  plates contained ypd medium with 200 ␮g/ml of  xxxg418xxx  (life technologies, gaithersburg, md). escherichia coli strain top10 and standard media and methods were used for plasmid
+manipulations. yeast genomic dna was isolated using a yeast star genomic
+dna kit from zymo research (zymo research, orange, ca). plasmid dna
+was isolated from e. coli and from agarose gels using qiagen kits (qiagen,
+santa clarita, ca). oligonucleotides were purchased from invitrogen (carlsbad,
+ca). dna for plasmid construction and yeast transformation was generated by
+pcr using the expand system (boehringer mannheim, indianapolis, in) for 30
+cycles.
+
+plasmids and vector construction. the ecmetap2 gene was pcr amplified
+from a pcr2.1-topo vector containing the ecmetap2 gene, (34) using primers
+ecmap2pmefor (5⬘ccgtttaaacagatgaagtgtattctgttgaatca
+ggctgaggagc3⬘) and ecmap2 eagrev (5⬘ gaatcggccgttaatagt
+catcgccccttgtaag3⬘) (restriction sites are underlined). the 1.1-kb pcr
+product was cloned into the yeast episomal vector pcm190 at the pmei and eagi
+sites to generate the plasmid pcm190:ecmetap2. ligation of the pcr product
+was confirmed by restriction enzyme digestion and sequencing to confirm the
+absence of pcr-generated mutations in the vector construct. to construct plasmid prs425tet, plasmid pcm190 was cut with hindiii, followed by end blunting
+with klenow. ecori treatment of this product yielded a 2,822-bp fragment
+containing the elements required for tetracycline-dependent transcription in
+yeast. this fragment was initially cloned into prs423 at blunt-ended noti and
+ecori sites to generate prs423tet. the 3.3-kb pvuii fragment from prs423tet
+was then excised and ligated into prs425 at the pvuii site, resulting in the
+plasmid prs425tet.
+mutant ecmetap2 was pcr amplified from the vector pvl1392:mutecmetap2 (34), using the same primers as described above for the amplification of the
+wild-type ecmetap2 gene. a 1.1-kb pcr product was digested with pmei and
+eagi and was ligated into pmei/eagi-digested prs425tet. positive clones
+(prs425tet::mutecmetap2) were confirmed by restriction digestion and sequencing.
+human  xxxg1400xxx  was pcr amplified using a human cdna library as the
+template, employing the primer set humap2pmefor (ccgtttaaacagatg
+gcgggtgtggaggaggtagc) and humap2eagrev (gaatcggccgt
+taatagtcatctcctctgctgacaac) (restriction sites are underlined).
+the 1.5-kb pcr product was ligated at the pmei and eagi sites of prs425tet,
+generating prs425tet:humetap2.
+pcr-mediated deletion of yeast map2 using a his3mx6 disruption cassette.
+a 1.6-kb pcr product of his3mx6 marker flanked by 60 nucleotides homologous to the region immediately upstream and downstream of the start and stop
+codons, respectively, of the yeast map2 gene locus was generated using the
+primers map2hisfor (5⬘gaagctaataagtgggcttttacatcaacaag
+tactgtagaagctctaccgtattgaaaaggcgcgccacttctaaataagcgaatttc3⬘)
+and map2hisrev (5⬘atataactacaacagtattcatatacctagtg
+aggaggccatttgaaagcgcattttaccgatctgatatcatcgatgaattcgagctcg3⬘)
+(letters in lowercase are homologous to the plasmid sequence), using pym2
+plasmid (20) as the template. the pcr product was gel purified, and 5 ␮g of the
+product was used for transforming the by4741 map1::kan mata yeast strain
+(atcc 4005153) containing pcm190:ecmetap2 plasmid by using the lithium
+acetate transformation procedure (14). transformants were then selected on an
+sc-histidine (sc-his) plate.
+genomic dna was prepared and used as the template for the diagnostic
+pcrs, using the primers map2for (p1) (5⬘caagggacctttaatgacct
+ggtctc3⬘), map2rev (p2) (5⬘tgcagcacaatggttgagagagag
+3⬘), and map2hisrev (p3) (5⬘cttaacttcgcatctgggcagatgatg
+tcg3⬘).
+immunoblot analysis. yeast cells were harvested around an optical density at
+600 nm of 2.0 and washed in cold water, and cell lysates were prepared by glass
+bead disruption. total protein was estimated using bio-rad protein reagent, and
+50 ␮g of total protein was loaded per lane in a 10% sodium  xxxd3215xxx  gel.
+resolved proteins were electroblotted to nitrocellulose and incubated with a
+1:2,000 dilution of anti-recombinant ecmetap2 (anti-recmetap2) or antihumetap2 antibody overnight at 4°c. immune complexes were visualized by
+incubation of the immunoblots with a 1:5,000 dilution of horseradish peroxidaseconjugated anti-mouse immunoglobulin g, followed by chemiluminiscence detection (ge healthcare biosciences, piscataway, nj).
+yeast drug assay. yeast colonies were inoculated onto ypd liquid medium
+and grown at 30°c with shaking. at an a600 reading of 1.5, yeast cells were
+diluted to 0.5 absorbance units and were then 10-fold serially diluted. using a
+multichannel pipettor, 3 ␮l of the yeast cell suspension was spotted onto solid
+ypd medium in the absence of any drugs or onto the plates containing either 10
+␮g/ml of doxycycline or different concentrations of  xxxd2800xxx ,  xxxd2166xxx , or tnp470. the plates were incubated at 30°c for 5 to 6 days and photographed.
+
+results
+microsporidian (e. cuniculi) methionine aminopeptidase
+type 2 complements the function of yeast methionine amino
+peptidase type 2. an amino acid sequence alignment of yeast
+map2 and ecmetap2 proteins demonstrates a 45% identity
+
+downloaded from http://aac.asm.org/ on march 17, 2015 by the university of iowa libraries
+
+but yeast cells deficient in  xxxg1400xxx  (⌬map2) are not (17, 29).
+deletion of both  xxxg1399xxx  and  xxxg1400xxx  is lethal in yeast (17,
+34). these data confirm that  xxxd2166xxx  selectively targets
+ xxxg1400xxx  and not  xxxg1399xxx . the genome of the microsporidian
+encephalitozoon cuniculi lacks  xxxg1399xxx  (19, 25); therefore, in
+microsporidia, inhibition of  xxxg1400xxx  by  xxxd2166xxx  most likely
+results in cell death analogous to the situation in ⌬map1 yeast.
+this indicates that microsporidian  xxxg1400xxx  is a physiologically
+relevant target for parasite drug development. although the
+therapeutic potentials of  xxxg1400xxx  have increasingly been recognized, there are only a few inhibitors against metaps reported in the literature.
+screening for potent novel inhibitors of the enzyme  xxxg1400xxx 
+can conventionally be accomplished either by using the recombinant protein of the pathogen or by using in vitro cell culture
+of the parasite. the use of the recombinant enzyme is not ideal
+since it involves tedious heterologous expression, isolation, and
+purification procedures and an in vitro inhibitory assay may not
+reflect the true physiological conditions of the protein. in addition, since the enzyme requires metal ion for its activity,
+conversion of the recombinant apoenzyme to its corresponding
+active holoenzyme adds an additional complication. the use of
+an in vitro microsporidian culture for identifying the inhibitors
+of microsporidian  xxxg1400xxx  is cumbersome and time consuming. in addition, this approach is impossible for those microsporidia which are noncultivatable and for which there is no
+murine model of infection, such as e. bieneusi. as an alternative to the above-described methods, yeast-based screening
+strategies are attractive as they are simple and rapid and can be
+carried out in a high-throughput manner. they have successfully been used for studying drugs effective against protein
+targets of apicomplexa (28) and for identifying the inhibitors of
+ xxxg631xxx  of mycobacterium tuberculosis (13) and
+cryptosporidium parvum (3). one of the main prerequisites
+required for conducting such studies is that parasite target
+protein needs to be able to complement its ortholog protein
+function in yeast.
+we have reported the identification and characterization of
+the  xxxg1400xxx  gene and its protein product from the humanpathogenic microsporidian e. cuniculi (34). in an attempt to
+design a simple and rapid approach to screen for novel e.
+cuniculi  xxxg1400xxx  (ecmetap2) inhibitors, we devised a complementary approach which is independent of recombinant
+protein or parasite culture and instead dependent on the expression of ecmetap2 in the yeast s. cerevisiae.
+
+antimicrob. agents chemother.
+
+vol. 50, 2006
+
+expression of microsporidian  xxxg1400xxx  in yeast
+
+3391
+
+fig. 1. immunoblot analysis of the expression of ecmetap2 protein in yeast. fifty micrograms of protein from yeast cell lysate was
+loaded per lane, and the immunoblot was probed with antirecmetap2 antibody. lane 1, lysate from cells containing pcm190
+vector alone; lane 2, lysate from cells containing pcm190:ecmetap2.
+
+and 53% similarity. ecmetap2 was pcr amplified and cloned
+into a 2-␮m yeast expression plasmid, pcm 190, to generate
+pcm190:ecmetap2. a ⌬map1 yeast strain (atcc 4005153)
+was transformed with pcm190 and pcm190:ecmetap2 vectors. transformants were selected on sc-uracil (sc-ura)
+plates. independent colonies from both of the plates were
+inoculated into sc-ura medium for growth. cell lysates
+were subjected to immunoblot analysis to investigate whether
+ecmetap2 protein was expressed in yeast, using mouse polyclonal antibodies raised against recombinant ecmetap2 (34).
+a minimum of four colonies was examined for each transformation, and a representative figure is shown in fig. 1. a
+specific signal corresponding to the predicted size of the
+ecmetap2 protein is seen in the lysates of the yeast transformed with the pcm190:ecmetap2 vector (fig. 1, lane 2),
+and this signal is absent in lysates from yeast transformed with
+an empty pcm190 vector (lane 1), indicating that ecmetap2
+expresses in yeast from the teto- xxxg568xxx  hybrid promoter in the
+vector pcm190.
+in order to determine whether ecmetap2 complements the
+function of map2 in yeast, we employed a one-step pcrmediated gene disruption of the endogenous yeast map2 gene
+in the strains harboring pcm190:ecmetap2. a histidine-selectable marker cassette was pcr amplified using primers with
+homologous sequences flanking the start and the stop codon of
+the yeast map2 gene, using pym2 as a template (20). this
+pcr product was transformed to the yeast strains which contain either pcm190 (control) or pcm190:ecmetap2 (test)
+vector, and the transformants were selected on sc-his plates.
+his- and ura-positive transformants from the control and test
+plates were then replica plated onto a 5-fluoroorotic acid (5foa) plate. while almost all of the colonies from the control
+plate grew in the presence of 5-foa, more than 50% of the
+transformants from the test plate exhibited an inability to grow
+in the presence of 5-foa. in the next experiment, two of the
+independent his/ura-positive colonies from the test plate were
+serially diluted and spotted onto ypd plates containing doxy-
+
+ xxxd2900xxx . a representative clone is shown in fig. 2, illustrating
+the regulation of gene expression by doxycycline in yeast with
+a disrupted endogenous map2 locus which is now dependent
+on ecmetap2 under the control of the teto- xxxg568xxx  hybrid
+promoter. to further confirm the deletion of the genomic
+map2 gene, genomic dna was isolated from these cells and
+used as a template in a diagnostic pcr. pcr was carried out
+using three primers designed as shown in fig. 3a. primer p1
+
+fig. 3. yeast map2 deletion strategy and confirmatory pcr.
+(a) schematic representation of the yeast map2 deletion strategy and
+the position of the diagnostic primers. the diagram is not drawn to
+scale. (b) diagnostic pcr was performed with p1, p2, and p3 primers,
+using genomic dna as the template (lanes 2 to 4). lane 1, dna
+ladder; lane 2, wild-type s228c; lane 3, cells transformed with
+pcm190:ecmetap2; lane 4, genomic dna from ⌬map1 map2 cells
+expressing a functional copy of ecmetap2 protein.
+
+downloaded from http://aac.asm.org/ on march 17, 2015 by the university of iowa libraries
+
+fig. 2. heterologous expression of ecmetap2 in yeast can be
+modulated by the addition of doxycycline to the medium. tenfold
+serial dilutions of the wild type (s228c), isogenic ⌬map1 strains containing pcm190 and prs425tet vectors, and the corresponding test
+strains of ⌬map1 map2 background containing pcm190:ecmetap2
+and prs425tet:humetap2 were spotted onto ypd medium in the
+absence (a) or in the presence (b) of 10 ␮g/ml of doxycycline (dox).
+
+3392
+
+upadhya et al.
+
+was designed to anneal to the yeast map2 gene locus outside
+the region of alteration, primer p2 to anneal in the map2 gene
+locus, and primer p3 to anneal to the hismx6 region in the
+transformation module. in the cells where the map2 gene is
+intact, a pcr product of 650 bp was obtained as predicted
+(fig. 3b, lanes 2 and 3), and in the cells where there is a
+replacement of the yeast map2 gene by a histidine marker, a
+pcr product of 1,650 bp was obtained as expected (fig. 3b,
+lane 4).
+evaluation of 5-foa-mediated plasmid shuffle to convert
+ecmetap2-dependent yeast to a strain dependent on humetap2.
+since the  xxxg1400xxx  gene has been reported to be a therapeutic
+target for a wide range of infectious agents, we wanted to extend
+the present system to be useful for screening novel inhibitors for
+ xxxg1400xxx  from other organisms. to achieve this, prs425tet, an
+episomal leucine (leu) marker-containing plasmid, was constructed with the same basic elements required for the tetracycline-dependent expression of a foreign gene as pcm190. as
+human  xxxg1400xxx  (humetap2) has been reported to complement
+yeast map2 function (12), this gene was selected to test this
+plasmid shuffle vector. the humetap2 gene was cloned into
+the pmei/eagi sites of prs425tet to generate prs425tet:
+humetap2. this plasmid was initially transformed to a ⌬map1
+yeast strain, and the transformants were selected on sc-leu
+plates. after the initial colony purification, individual colony
+lysates were used for the immunoblot analysis employing antihumetap2. as shown in fig. 4 there is a specific signal in lane
+1 corresponding to the predicted size of the human  xxxg1400xxx 
+protein which is absent in the lysate from the cells transformed
+with vector alone (prs425tet), confirming the expression of
+humetap2 in yeast.
+to demonstrate the complementation of yeast map2 by
+humetap2, a plasmid reshuffle was carried out in the ⌬map1
+map2 pcm190:ecmetap2 strain to replace pcm190:
+ecmetap2 plasmid with prs425tet:humetap2. the ⌬map1
+
+fig. 5. expression of mutant ecmetap2 in yeast. yeast cell lysates
+from ⌬map1 cells containing pcm190:ecmetap2 (lane 1), prs425tet
+(lane 2), and prs425tet:mutecmetap2 (lane 3) are shown. immunoblots were probed with mouse antibody against recmetap2.
+
+map2 pcm190:ecmetap2 strain was transformed with
+prs425tet (control) or prs425tet:humetap2 (test) plasmid, and the transformants were selected on sc-leu plates.
+leu-positive colonies were streaked after colony purification
+on sc–5-foa-containing ura plates for facilitating the ejection of ura-containing plasmid causing the loss of ecmetap2.
+there was a significant number of colonies in the plate
+streaked with the cells transformed with test plasmid, indicating that humetap2 is the only copy of the  xxxg1400xxx  gene in
+these cells and that it complements yeast map2 function. there
+were no colonies in the plate spread with the cells transformed
+with control plasmid, confirming our earlier observation that in
+the absence of a copy of humetap2, cells require ecmetap2
+activity for survival. when prs425tet:humetap2-containing
+cells were spotted after a 10-fold serial dilution on ypd plates
+containing doxycycline, they also exhibited doxycycline sensitivity
+(fig. 2), consistent with the phenotype observed earlier for
+ecmetap2-containing cells. this experiment demonstrates the
+generation of ⌬map1 map2 prs425tet:humetap2 yeast cells
+starting from ⌬map1 map2 pcm190:ecmetap2 and suggests
+that the  xxxg1400xxx  gene from any organism can be used for
+plasmid reshuffle to generate a new yeast strain dependent on
+that organism’s  xxxg1400xxx  (provided that the organism’s
+ xxxg1400xxx  can complement the function of endogenous map2 in
+yeast).
+a point mutation in ecmetap2 abolished its ability to complement yeast  xxxg1400xxx . site-directed mutagenesis of ecmetap2 was
+performed using a quikchange ii site-directed mutagenesis
+kit (stratagene, la jolla, ca), changing the residue ala to thr
+at position 241 in ecmetap2 (this ala corresponds to the ala
+at position 362 in humetap2) (34). both the wild-type and the
+mutant proteins were expressed in sf9 insect cells, employing the
+bakpak baculovirus expression system as previously described
+(34). independent in vitro enzymatic assays were done using methionine–para-nitroanilide and met–pro–p-nitroanilide as substrates and confirmed that both of these enzyme preparations
+exhibited comparable in vitro enzyme activities (data not
+shown). the ecmetap2-thr241 mutant gene was cloned into
+
+downloaded from http://aac.asm.org/ on march 17, 2015 by the university of iowa libraries
+
+fig. 4. immunoblots demonstrating the expression of human
+ xxxg1400xxx  from the teto- xxxg568xxx  hybrid promoter in the vector
+prs425tet:humetap2. whole-cell lysates from ⌬map1 cells which
+were transformed with either prs425tet:humetap2 (lane 1) or
+prs425tet (lane 2) are shown. fifty micrograms of total protein was
+loaded in each lane, and the immunoblot was probed with mouse
+anti-human  xxxg1400xxx  antibody. the specific signal corresponding to the
+humetap2 protein is shown by an arrow.
+
+antimicrob. agents chemother.
+
+vol. 50, 2006
+
+expression of microsporidian  xxxg1400xxx  in yeast
+
+3393
+
+prs425ttet to generate prs425tet:mutecmetap2. a ⌬map1
+strain was transformed with this plasmid, the transformants
+were selected on sc-leu plates, and the positive transformants
+were used for the immunoblot analysis with anti-recmetap2.
+as demonstrated in fig. 5 there was expression of both
+ecmetap2 (lane 1) and mutecmetap2 (lane 3) in transformed cells and no expression in cells transformed with empty
+prs425tet vector (lane 2). despite multiple attempts, we were
+unable to replace the pcm190:ecmetap2 plasmid with
+prs425tet:mutecmetap2 following 5-foa-mediated selection.
+in all of the experiments, no colonies grew in the presence of
+5-foa, suggesting that mutecmetap2 does not complement
+yeast map2.
+validation of a drug screening strategy for ecmetap2 and
+humetap2 by using the newly generated yeast strains. for
+validation of the use of these newly generated yeast strains as
+a screen for potential  xxxg1400xxx  inhibitors, we used  xxxd2166xxx ,
+ xxxd2800xxx , and  xxxd1330xxx , which are known inhibitors of  xxxg1400xxx .
+after pilot experiments to determine the optimum concentrations of each drug, each yeast strain was spotted after 10-fold
+serial dilutions on ypd agar plates containing the appropriate
+amount of drug and the plates were incubated at 30°c. as
+shown in fig. 6  xxxd2166xxx  at 1 and 5 nm inhibited  xxxg1400xxx 
+from all three sources, i.e., yeast, e. cuniculi, and human;
+however, yeast map2 was more resistant to  xxxd2166xxx  than
+both e. cuniculi  xxxg1400xxx  and humetap2. we have observed
+that higher concentrations of the drugs were required to inhibit
+yeast map2, resulting in growth arrest (data not shown).  xxxd2800xxx  was more effective than  xxxd2166xxx . for  xxxd2800xxx , 0.5 to 1
+nm of the drug was inhibitory for all three metap2s. for
+ xxxd1330xxx , 0.25 ␮m of the drug was used and all of the
+metap2s were less sensitive than to  xxxd2166xxx  or  xxxd2800xxx .
+
+discussion
+a main goal of the present study was to develop a new
+strategy to identify potent inhibitors of microsporidian
+ xxxg1400xxx . to accomplish this, using yeast as a surrogate system,
+the primary criterion was to determine whether microsporidian
+ xxxg1400xxx  complements map2 function in yeast. it had already
+been shown that human  xxxg1400xxx  complements yeast map2
+function only when overexpressed from a 2-␮m episomal plasmid. when human  xxxg1400xxx  was cloned into a centromerecontaining yeast expression plasmid, it failed to support the
+viability of ⌬map1 map2 yeast cells, suggesting that the amount
+of humetap2 protein expressed from a single-copy centromere plasmid may not be sufficient to sustain yeast growth
+(12). overexpression of a heterologous protein may, however,
+force nonspecific protein-protein interactions titrating out a
+specific protein from its biologically relevant association with
+another protein, resulting in a lethal phenotype. systematic
+characterization of proteins associated with either yeast map1
+or map2 have not been reported; however, genome-wide affinity purification-based protein interaction network studies of
+yeast have identified a physical interaction of map2 with an
+essential dna binding protein, rfc3p ( xxxg220xxx  of heteropentameric replication factor c) (18). overexpression of a heterologous  xxxg1400xxx  protein may result in its increased association
+with rfc3p, making this protein unavailable for dna replication and leading to cell death and the conclusion that the
+heterologous protein is nonfunctional in yeast. therefore,
+pcm190, a 2-␮m-based yeast expression plasmid in which the
+expression of the foreign gene can be modulated using tetracycline derivatives, was utilized for these studies.
+a ⌬map1 yeast strain was obtained from the atcc in which
+
+downloaded from http://aac.asm.org/ on march 17, 2015 by the university of iowa libraries
+
+fig. 6. validation of drug screening against e. cuniculi and human metap2s, using yeast as the surrogate system. tenfold serial dilutions of
+the wild type and isogenic yeast strains containing vector alone or vectors containing either e. cuniculi or human  xxxg1400xxx  were spotted onto ypd
+medium containing  xxxd2166xxx  (1 and 5 nm),  xxxd2800xxx  (0.5 and 1 nm), or  xxxd1330xxx  (250 nm), the known inhibitors of  xxxg1400xxx . photographs were
+taken after the plates were incubated at 30°c for 4 to 5 days.
+
+3394
+
+upadhya et al.
+
+strategy and is consistent with earlier reports of yeast map2
+complementation by humetap2.
+in the case of humetap2, it has been reported that a point
+mutation resulting in the change of a single amino acid at
+position 362 from ala to thr abolishes its sensitivity to  xxxd2800xxx . this study was carried out to screen for  xxxd2800xxx -resistant
+humetap2 after random mutagenesis using a yeast system (2),
+and the exact mechanism of a362t-mediated resistance of
+humetap2 to  xxxd2800xxx  is not clear. we wondered whether
+ecmetap2 would exhibit properties similar to those of  xxxd2800xxx 
+and thus would be useful for validating  xxxd2800xxx  drug assays.
+we, therefore, mutated the ala at 241 of ecmetap2 to threonine and successfully expressed this mutant protein in a baculovirus system. the in vitro enzyme activity of the mutant protein
+was comparable to that of the wild-type protein. despite this,
+mutecmetap2 failed to complement the function of map2 in
+yeast. this may be because this mutation interferes with biologically relevant potential protein-protein interactions in
+yeast. this suggests that in addition to the peptidase activity,
+yeast map2 may also participate in other important functions
+required for yeast growth and mutecmetap2 may not be able
+to complement such functions. this may not be surprising
+given the fact that in yeast, map1 point mutations in the zinc
+finger region exhibited a more detrimental effect on the enzyme function in vivo than did truncation of the entire zinc
+finger domain (12).
+we validated our strategy of using the yeast strains generated in the present study for drug screening by using known
+inhibitors of  xxxg1400xxx . serial dilution and spotting of yeast
+strains dependent on  xxxg1400xxx  of yeast, e. cuniculi, and human
+on plates containing  xxxd2166xxx ,  xxxd2800xxx , and  xxxd1330xxx  are
+clearly consistent with in vitro data for e. cuniculi showing that
+these drugs are inhibitory to this organism. in our assays for all
+of the drugs tested, human  xxxg1400xxx  was more sensitive to
+these agents than either ecmetap2 or yeast map2. this may
+be due to our observation that ecmetap2 complements yeast
+map2 function more efficiently than human  xxxg1400xxx . the doubling time of a yeast ⌬map1 map2 strain dependent on
+ecmetap2 was 3.5 to 4 h compared to 7.5 to 8 h for a yeast
+⌬map1 map2 strain dependent on humetap2. we have observed that the yeast strains exhibited a higher sensitivity toward all of the drug concentrations tested than toward the drug
+concentrations found optimal by brdlik and crews (2). this
+may be because of a difference in the parental yeast strains
+used by brdlik and crews (2) as well as a difference in the
+compositions of media used for our respective drug assays. the
+higher concentration of  xxxd1330xxx  required in the present study
+to inhibit  xxxg1400xxx  activities and thereby the growth of yeast
+cells is consistent with the reported observation that  xxxd1330xxx 
+is less potent in arresting the growth of s. cerevisiae cells (2).
+the strategy of generating new yeast strains dependent on
+ xxxg1400xxx  of an organism of choice and the demonstration of
+their use for high-throughput drug screening should prove to
+be very useful for developing new inhibitors for  xxxg1400xxx . once
+novel inhibitors are identified in screens using these yeast
+strains dependent on heterologous  xxxg1400xxx , yeast cells can be
+grown in liquid culture to determine their respective 50%
+inhibitory concentration values against a parasite’s  xxxg1400xxx . in
+addition, random mutagenesis studies can be carried out with
+various metap2s from different sources with yeast to identify
+
+downloaded from http://aac.asm.org/ on march 17, 2015 by the university of iowa libraries
+
+genomic map1 is replaced by a kanmx4 cassette, rendering
+the cells  xxxg418xxx  positive. the absence of the map1 gene in this
+strain was reconfirmed by diagnostic pcr using gene-specific
+primers. transformation of this strain with pcm190:ecmetap2
+vector and subsequent immunoblot analysis clearly established
+that ecmetap2 can be expressed in yeast. in the next step,
+three independent approaches were employed to ascertain the
+complementation of yeast map2 function by ecmetap2 protein. we hypothesized that if ecmetap2 complements the
+function, we should be able to delete the endogenous chromosomal copy of the yeast map2 gene. a histidine-selectable
+marker cassette was used for the disruption of the yeast map2
+gene by a one-step pcr-mediated gene deletion strategy.
+transformation of yeast cells containing either pcm190 (control plate) or pcm190:ecmetap2 (test plate) vector resulted
+in the appearance of a significant number of colonies in sc-his
+plates, which represent cells in which the transformation module is recombined either at the target map2 gene locus or
+elsewhere in the genome. to facilitate screening for those cells
+in which homologous recombination has occurred at the map2
+locus, we employed 5-foa selection. when his- and urapositive transformants from the test plate are selected on
+plates containing 5-foa, only those cells which possess the
+intact endogenous copy of yeast map2 will grow. those cells in
+which the recombination of the histidine marker module has
+occurred at the genomic map2 locus will not be able to survive
+because in the presence of 5-foa, yeast cells will lose uracontaining plasmid which harbors the ecmetap2 gene. consistent with this, all of the colonies from the control plate
+survived in the presence of 5-foa and a significant number of
+colonies from the test plate failed to grow in the presence of
+5-foa.
+in the vector pcm190:ecmetap2, the expression of
+ecmetap2 is under the regulation of doxycycline. in the
+⌬map1 map2 yeast transformants, the only source of map2
+activity is ecmetap2. in these cells, if ecmetap2 complements the function of yeast map2, then their growth should be
+modulated by doxycycline. accordingly, we found that 5-foasensitive colonies from the test plate had a clear sensitivity
+toward doxycyline, confirming that in these cells, the genomic
+yeast map2 locus has been replaced by a his-selectable
+marker cassette (fig. 2). the final demonstration of the
+genomic yeast map2 deletion in the presence of ecmetap2
+was provided by a diagnostic pcr of yeast genomic dna. all
+of these independent experimental results conclusively suggest
+that we have generated a ⌬map1 map2 yeast strain which is
+dependent on ecmetap2 for its viability. these yeast strains
+exhibited growth rates similar to that of their parental ⌬map1
+yeast strain.
+since several species of microsporidia have caused human
+infections, we wanted to extend our study to facilitate the
+generation of yeast strains whose growth is dependent on the
+functional expression of  xxxg1400xxx  from any organism of choice.
+to this end, we generated the prs425tet vector. using the
+two vectors pcm190 and prs425tet with ura and leu markers, respectively, one can generate a yeast strain containing the
+ xxxg1400xxx  of any organism by employing a 5-foa-mediated
+plasmid shuffle. using these vectors, we demonstrated the conversion of a yeast strain dependent on ecmetap2 to one dependent on human  xxxg1400xxx  for its growth. this validates our
+
+antimicrob. agents chemother.
+
+vol. 50, 2006
+
+expression of microsporidian  xxxg1400xxx  in yeast
+
+critical amino acid residues essential for the binding of the
+drug molecule, thus helping to understand protein-drug interactions and the possible development of resistance to any
+newly identified compounds.
+overall, the technique we have described should prove to be
+very useful for the development of new therapeutic agents
+against microsporidia as well as other pathogenic organisms.
+acknowledgments
+
+references
+1. arfin, s. m., r. l. kendall, l. hall, l. h. weaver, a. e. stewart, b. w.
+matthews, and r. a. bradshaw. 1995. eukaryotic methionyl aminopeptidases: two classes of cobalt-dependent enzymes. proc. natl. acad. sci. usa
+92:7714–7718.
+2. brdlik, c. m., and c. m. crews. 2004. a single amino acid residue defines
+the difference in  xxxd2800xxx  sensitivity between type i and ii methionine aminopeptidases. j. biol. chem. 279:9475–9480.
+3. brophy, v. h., j. vasquez, r. g. nelson, j. r. forney, a. rosowsky, and c. h.
+sibley. 2000. identification of cryptosporidium parvum  xxxg631xxx  inhibitors by complementation in saccharomyces cerevisiae. antimicrob.
+agents chemother. 44:1019–1028.
+4. cali, a., p. m. takvorian, s. lewin, m. rendel, c. s. sian, m. wittner, h. b.
+tanowitz, e. keohane, and l. m. weiss. 1998. brachiola vesicularum, n.g.,
+n.sp., a new microsporidium associated with aids and myositis. j. eukaryot.
+microbiol. 45:240–251.
+5. corey, e. j., a. guzman-perez, and m. c. noe. 1994. short enantioselective
+synthesis of (⫺)- xxxd2800xxx , a potent inhibitor of angiogenesis, using substrateenhanced catalytic asymmetric dihydroxylation. j. am. chem. soc. 116:
+12109–12110.
+6. costa, s. f., and l. m. weiss. 2000. drug treatment of microsporidiosis.
+drug resist. updates 3:384–399.
+7. coyle, c. m., l. m. weiss, l. v. rhodes iii, a. cali, p. m. takvorian, d. f.
+brown, g. s. visvesvara, l. xiao, j. naktin, e. young, m. gareca, g.
+colasante, and m. wittner. 2004. fatal myositis due to the microsporidian
+brachiola algerae, a mosquito pathogen. n. engl. j. med. 351:42–47.
+8. deplazes, p., a. mathis, and r. weber. 2000. epidemiology and zoonotic
+aspects of microsporidia of mammals and birds. contrib. microbiol. 6:236–
+260.
+9. didier, e. s. 2005. microsporidiosis: an emerging and opportunistic infection
+in humans and animals. acta trop. 94:61–76.
+10. didier, e. s., l. b. rogers, j. m. orenstein, m. d. baker, c. r. vossbrinck,
+t. van gool, r. hartskeerl, r. soave, and l. m. beaudet. 1996. characterization of encephalitozoon (septata) intestinalis isolates cultured from nasal
+mucosa and bronchoalveolar lavage fluids of two aids patients. j. eukaryot.
+microbiol. 43:34–43.
+11. didier, e. s., j. a. shadduck, p. j. didier, n. millichamp, and c. r.
+vossbrinck. 1991. studies on ocular microsporidia. j. protozool. 38:635–638.
+12. dummitt, b., y. fei, and y. h. chang. 2002. functional expression of human
+methionine aminopeptidase type 1 in saccharomyces cerevisiae. protein pept.
+lett. 9:295–303.
+13. gerum, a. b., j. e. ulmer, d. p. jacobus, n. p. jensen, d. r. sherman, and
+c. h. sibley. 2002. novel saccharomyces cerevisiae screen identifies
+wr99210 analogues that inhibit mycobacterium tuberculosis dihydrofolate
+reductase. antimicrob. agents chemother. 46:3362–3369.
+14. gietz, d., a. st. jean, r. a. woods, and r. h. schiestl. 1992. improved
+method for high efficiency transformation of intact yeast cells. nucleic acids
+res. 20:1425.
+15. giglione, c., a. boularot, and t. meinnel. 2004. protein n-terminal methionine excision. cell. mol. life sci. 61:1455–1474.
+16. giglione, c., a. serero, m. pierre, b. boisson, and t. meinnel. 2000. identification of eukaryotic peptide deformylases reveals universality of n-terminal protein processing mechanisms. embo j. 19:5916–5929.
+
+17. griffith, e. c., z. su, b. e. turk, s. chen, y. h. chang, z. wu, k. biemann,
+and j. o. liu. 1997. methionine aminopeptidase (type 2) is the common
+target for angiogenesis inhibitors  xxxd1330xxx  and  xxxd2800xxx . chem. biol.
+4:461–471.
+18. ho, y., a. gruhler, a. heilbut, g. d. bader, l. moore, s. l. adams, a. millar,
+p. taylor, k. bennett, k. boutilier, l. yang, c. wolting, i. donaldson, s.
+schandorff, j. shewnarane, m. vo, j. taggart, m. goudreault, b. muskat, c.
+alfarano, d. dewar, z. lin, k. michalickova, a. r. willems, h. sassi, p. a.
+nielsen, k. j. rasmussen, j. r. andersen, l. e. johansen, l. h. hansen, h.
+jespersen, a. podtelejnikov, e. nielsen, j. crawford, v. poulsen, b. d.
+sorensen, j. matthiesen, r. c. hendrickson, f. gleeson, t. pawson, m. f.
+moran, d. durocher, m. mann, c. w. hogue, d. figeys, and m. tyers. 2002.
+systematic identification of protein complexes in saccharomyces cerevisiae by
+mass spectrometry. nature 415:180–183.
+19. katinka, m. d., s. duprat, e. cornillot, g. metenier, f. thomarat, g.
+prensier, v. barbe, e. peyretaillade, p. brottier, p. wincker, f. delbac, h. el
+alaoui, p. peyret, w. saurin, m. gouy, j. weissenbach, and c. p. vivares.
+2001. genome sequence and gene compaction of the eukaryote parasite
+encephalitozoon cuniculi. nature 414:450–453.
+20. knop, m., k. siegers, g. pereira, w. zachariae, b. winsor, k. nasmyth, and
+e. schiebel. 1999. epitope tagging of yeast genes using a pcr-based strategy: more tags and improved practical routines. yeast 15:963–972.
+21. kwon, j., h. w. jeong, h. k. kim, k. h. kang, y. h. chang, k. s. bae, et
+al. 2000. cis- xxxd2166xxx , a new methionine amino peptidase (type 2) inhibitor
+produced by penicillium sp. f2757. j. antibiot. (tokyo) 53:799–806.
+22. li, x., and y. h. chang. 1995. amino-terminal protein processing in saccharomyces cerevisiae is an essential function that requires two distinct methionine aminopeptidases. proc. natl. acad. sci. usa 92:12357–12361.
+23. masami kusaka, k. s., t. fujita, s. marui, f. itoh, d. ingber, and j.
+folkman. 1991. potent anti-angiogenic action of  xxxd1330xxx : comparison to
+the  xxxd2166xxx  parent. biochem. biophys. res. commun. 174:1070–1076.
+24. molina, j. m., m. tourneur, c. sarfati, s. chevret, a. de gouvello, j. g.
+gobert, s. balkan, and f. derouin. 2002.  xxxd2166xxx  treatment of intestinal
+microsporidiosis. n. engl. j. med. 346:1963–1969.
+25. peyret, p., m. d. katinka, s. duprat, f. duffieux, v. barbe, m. barbazanges,
+j. weissenbach, w. saurin, and c. p. vivares. 2001. sequence and analysis
+of chromosome i of the amitochondriate intracellular parasite encephalitozoon cuniculi (microspora). genome res. 11:198–207.
+26. selvakumar, p., a. lakshmikuttyamma, j. r. dimmock, and r. k. sharma.
+2006.  xxxg1400xxx  and cancer. biochim. biophys. acta
+1765:148–154.
+27. serero, a., c. giglione, a. sardini, j. martinez-sanz, and t. meinnel. 2003.
+an unusual peptide deformylase features in the human mitochondrial nterminal methionine excision pathway. j. biol. chem. 278:52953–52963.
+28. sibley, c. h., v. h. brophy, s. cheesman, k. l. hamilton, e. g. hankins,
+j. m. wooden, and b. kilbey. 1997. yeast as a model system to study drugs
+effective against apicomplexan proteins. methods 13:190–207.
+29. sin, n., l. meng, m. q. wang, j. j. wen, w. g. bornmann, and c. m. crews.
+1997. the anti-angiogenic agent  xxxd2166xxx  covalently binds and inhibits the
+methionine aminopeptidase, metap-2. proc. natl. acad. sci. usa 94:6099–
+6103.
+30. weber, r., p. deplazes, m. flepp, a. mathis, r. baumann, b. sauer, h.
+kuster, and r. luthy. 1997. cerebral microsporidiosis due to encephalitozoon cuniculi in a patient with human immunodeficiency virus infection.
+n. engl. j. med. 336:474–478.
+31. weber, r., p. deplazes, and d. schwartz. 2000. diagnosis and clinical aspects
+of human microsporidiosis. contrib. microbiol. 6:166–192.
+32. weiss, l. m., s. f. costa, and h. zhang. 2001. microsporidian methionine
+aminopeptidase type 2. j. eukaryot. microbiol. 48(suppl.):88s–90s.
+33. wittner, m., and l. m. weiss (ed.). 1999. the microsporidia and microsporidiosis. asm press, washington, d.c.
+34. zhang, h., h. huang, a. cali, p. m. takvorian, x. feng, g. zhou, and l. m.
+weiss. 2005. investigations into microsporidian methionine aminopeptidase
+type 2: a therapeutic target for microsporidiosis. folia parasitol. (prague)
+52:182–192.
+35. zhou, g., c. w. tsai, and j. o. liu. 2003. fumagalone, a reversible inhibitor
+of type 2 methionine aminopeptidase and angiogenesis. j. med. chem.
+46:3452–3454.
+
+downloaded from http://aac.asm.org/ on march 17, 2015 by the university of iowa libraries
+
+this work was supported by nih grants ai 069953 and ai 031788.
+
+3395
+

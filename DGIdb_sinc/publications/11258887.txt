@@ -1,0 +1,963 @@
+2766
+
+biochemistry 2001, 40, 2766-2776
+
+structural bases for inhibitor binding and catalysis in polyamine oxidase†,‡
+claudia binda,§ riccardo angelini,| rodolfo federico,| paolo ascenzi,| and andrea mattevi*,§
+dipartimento di genetica e microbiologia, università di pavia, via abbiategrasso 207, i-27100 pavia, italy,
+and dipartimento di biologia, università “roma tre”, viale guglielmo marconi 446, i-00146 roma, italy
+received december 4, 2000; revised manuscript received january 11, 2001
+
+abstract: polyamine oxidase ( xxxg2178xxx ) carries out the fad-dependent oxidation of the secondary amino
+groups of spermidine and  xxxd3234xxx , a key reaction in the polyamine catabolism. the active site of  xxxg2178xxx 
+consists of a 30 å long u-shaped catalytic tunnel, whose innermost part is located in front of the flavin
+ring. to provide insight into the  xxxg2178xxx  substrate specificity and amine oxidation mechanism, we have
+investigated the crystal structure of maize  xxxg2178xxx  in the reduced state and in complex with three different
+inhibitors, guazatine, 1,8-diaminooctane, and n1-ethyl-n11-[(cycloheptyl)methyl]-4,8-diazaundecane
+(chenspm). in the reduced state, the conformation of the isoalloxazine ring and the surrounding residues
+is identical to that of the oxidized enzyme. only lys300 moves away from the flavin to compensate for
+the change in cofactor protonation occurring upon reduction. the structure of the  xxxg2178xxx ‚inhibitor complexes
+reveals an exact match between the inhibitors and the  xxxg2178xxx  catalytic tunnel. inhibitor binding does not
+involve any protein conformational change. such lock-and-key binding occurs also in the complex with
+chenspm, which forms a covalent adduct with the flavin n5 atom. comparison of the enzyme complexes
+hints at an “out-of-register” mechanism of inhibition, in which the inhibitor secondary amino groups are
+not properly aligned with respect to the flavin to allow oxidation. except for the glu62-glu170 pair, no
+negatively charged residues are involved in the recognition of substrate and inhibitor amino groups, which
+is in contrast to other polyamine binding proteins. this feature may be exploited in the design of drugs
+specifically targeting  xxxg2178xxx .
+
+the natural polyamines putrescine [nh2(ch2)4nh2], spermidine [nh2(ch2)3nh(ch2)4nh2], and  xxxd3234xxx  [nh2(ch2)3nh(ch2) xxxd831xxx (ch2)3nh2] are ubiquitous in living organisms,
+being essential for cell growth and differentiation. their
+biological role is being extensively investigated, and the
+number of known processes that involve these linear polycationic molecules is continuously increasing. the intracellular concentration of polyamines is finely regulated through
+pathways for their synthesis, degradation, and uptake (13).
+polyamine oxidase ( xxxg2178xxx )1 is a fad-dependent enzyme
+that catalyzes the oxidation of the secondary amino groups
+† this research was supported by grants from consiglio nazionale
+delle ricerche of italy (target-oriented project on biotechnology) and
+from agenzia spaziale italiana.
+‡ atomic coordinates and structure factors have been deposited in
+the protein data bank with accession codes 1h81 and r1h81sf for
+reduced  xxxg2178xxx , 1h82 and r1h82sf for the  xxxg2178xxx ‚guazatine complex, 1h83
+and r1h83sf for the  xxxg2178xxx ‚1,8-diaminooctane complex, 1h84 and r1h84sf
+for the  xxxg2178xxx ‚chenspm complex at ph 4.6, and 1h86 and r1h86sf for
+the  xxxg2178xxx ‚chenspm complex at ph 7.0.
+* to whom correspondence should be addressed: department of
+genetics and microbiology, university of pavia, via abbiategrasso
+207, i-27100 pavia, italy. phone: +39-0382-505560. fax: +39-0382528496. e-mail: mattevi@ipvgen.unipv.it.
+§ università di pavia.
+| università “roma tre”.
+1 abbreviations:  xxxg2178xxx , polyamine oxidase; fad, flavin adenine
+dinucleotide; chenspm, n1-ethyl-n11-[(cycloheptyl)methyl]-4,8-diazaundecane; mdl72527, n,n′-bis(2,3-butadienyl)- xxxd3043xxx ;
+bes, n,n-bis(2-hydroxyethyl)-2-aminoethanesulfonic acid; rmsd, rootmean-square deviation; ncs, noncrystallographic symmetry; pdb,
+protein data bank.
+
+of  xxxd3234xxx , spermidine, and their acetylated derivatives (4,
+5). the reaction is part of the ubiquitous pathway for
+polyamine degradation. the nature of the products of  xxxg2178xxx 
+reactions depends on the enzyme source. animal  xxxg2178xxx 
+oxidizes preferentially n1-acetylspermidine and n1-acetylspermine into putrescine and spermidine, respectively, in
+addition to 3-acetamidopropionaldehyde (5). in plants and
+bacteria,  xxxg2178xxx  converts spermidine and  xxxd3234xxx  into 4-aminobutyraldehyde and 3-(aminopropyl)-4-aminobutyraldehyde, respectively, in addition to 1,3-diaminopropane (figure
+1) (4, 6).
+the interest in polyamine metabolism has increased with
+the discovery that some polyamine analogues exhibit antitumoral effects on a number of cell lines (2). various
+polyamine analogues display antineoplastic activity in vitro
+and are currently being evaluated in clinical trials (7).
+therefore, progress in the analysis of the metabolism of these
+compounds is a promising route for the design of new drugs
+(8). although the precise mechanism of the cytotoxic activity
+of polyamines is unknown, it has been noticed that the
+accumulation of polyamine analogues leads to dna fragmentation and cell death by apoptosis (9, 10). in particular,
+some polyamine analogues, such as n1-ethyl-n11-[(cyclopropyl)methyl]-4,8-diazaundecane2 (chenspm; figure 1),
+may induce programmed cell death by increasing the rates
+2 the iupac name of chenspm is (3-{[3-({3-[(cycloheptylmethyl)amino]propyl}amino)propyl]amino}propyl)ethylamine. chenspm and
+n1-ethyl-n11-[(cycloheptyl)methyl]-4,8-diazaundecane are the acronym
+and the name, respectively, being generally used in the literature.
+
+10.1021/bi002751j ccc: $20.00 © 2001 american chemical society
+published on web 02/08/2001
+
+inhibitor binding in polyamine oxidase
+
+biochemistry, vol. 40, no. 9, 2001 2767
+
+figure 1: reaction scheme for  xxxd3234xxx  oxidation catalyzed by maize  xxxg2178xxx  (top) and chemical structure and atomic numbering of the
+ xxxg2178xxx  inhibitors guazatine, 1,8-diaminooctane, and chenspm used in the crystallographic analysis (bottom).
+
+figure 2: molscript stereodrawing of  xxxg2178xxx  (chain c) in complex with guazatine. the inhibitor and the fad molecules are shown in
+ball-and-stick representations. the trace of the inhibitor closely follows the path of the u-shaped catalytic tunnel.
+
+of polyamine catabolism and consequent production of toxic
+h2o2 (11). moreover, it has been suggested that  xxxg2178xxx  is
+involved in programmed cell death in plants (12).
+maize (zea mays l.)  xxxg2178xxx  represents the first  xxxg2178xxx  of
+known primary and tertiary structure (13, 14). the crystal
+structure of maize  xxxg2178xxx  had been determined by x-ray
+diffraction at 1.9 å resolution in the native oxidized state
+and in complex with the inhibitor n,n′-bis(2,3-butadienyl) xxxd3043xxx  (mdl72527) (14). the x-ray analysis
+revealed that the enzyme structure consists of two domains,
+a fad-binding domain showing the typical rossmann fold
+topology and a substrate binding domain, comprising a
+central beta-sheet flanked by r-helices (figure 2). this overall
+folding topology is similar to that of many other flavoenzymes (15). a prominent feature of the  xxxg2178xxx  structure is a
+30 å long u-shaped catalytic tunnel located at the interface
+between the two domains. the innermost part of the tunnel
+
+is positioned in front of the flavin ring and forms the catalytic
+center. the tunnel is lined mainly by aromatic side chains
+and carbonyl and carboxylate oxygen atoms, which are able
+to form ch‚‚‚o h-bonds with the active site ligands. a ring
+of glutamate and aspartate side chains surrounding one of
+the two tunnel openings may help to steer the substrate
+toward the tunnel interior.
+here, we report the crystal structure of complexes of maize
+ xxxg2178xxx  and three different inhibitors. the aim of this study is
+the characterization of the structural bases of inhibitor and
+substrate binding and specificity in  xxxg2178xxx , a prerequisite for
+the design of inhibitors targeting enzymes involved in
+polyamine metabolism. for these purposes, the symmetrical
+competitive inhibitors guazatine3 and 1,8-diaminooctane
+3 guazatine is 1,1′-iminodi(octamethylene)diguanidine triacetate
+(figure 1).
+
+2768 biochemistry, vol. 40, no. 9, 2001
+
+binda et al.
+
+table 1: data collection and refinement statisticsa
+resolution (å)
+cell axes a, c (å)
+i/sigmab
+no. of observations
+no. of unique reflections
+completeness (%)b
+rsym (%)b,c
+no. of protein atoms
+no. of waters
+no. of ligand atoms
+average b (å2)
+chain a
+chain b
+chain c
+ligand
+water
+rmsdd (å)
+chain a and chain b
+chain a and chain c
+chain b and chain c
+rfactor (%)e
+no. of reflections for rfree
+rfree
+rmsd for bond lengths (å)f
+rmsd for bond angles (deg)f
+
+reduced state
+
+chenspm (ph 4.6)
+
+chenspm (ph 7.0)
+
+1,8-diaminooctane
+
+guazatine
+
+2.1
+181.77, 277.53
+35.1 (10.3)
+1527497
+156392
+99.8 (99.2)
+7.0 (17.6)
+11389
+724
+-
+
+2.0
+184.04, 280.80
+15.4 (5.6)
+617266
+172552
+93.5 (90.8)
+7.0 (21.4)
+11389
+745
+42
+
+2.0
+184.29, 279.61
+13.3 (4.9)
+599120
+174933
+94.9 (93.2)
+9.4 (19.8)
+11389
+791
+42
+
+1.9
+184.69, 282.22
+12.1 (3.8)
+774835
+215494
+97.9 (87.9)
+8.1 (32.8)
+11389
+734
+60
+
+1.9
+184.97, 282.24
+11.2 (2.2)
+677712
+207570
+94.3 (81.6)
+10.1 (38.0)
+11389
+746
+69
+
+19.6
+18.0
+16.7
+23.7
+
+15.9
+14.7
+13.7
+34.7
+20.4
+
+15.3
+13.3
+11.9
+33.2
+19.0
+
+15.4
+13.6
+12.8
+19.7
+21.1
+
+18.4
+17.7
+15.4
+40.0
+24.3
+
+0.43
+0.32
+0.32
+19.1
+1570
+23.5
+0.009
+2.2
+
+0.51
+0.32
+0.50
+18.9
+1746
+22.7
+0.009
+2.1
+
+0.54
+0.40
+0.50
+18.4
+1745
+22.9
+0.010
+2.2
+
+0.52
+0.50
+0.50
+19.6
+2176
+23.7
+0.009
+2.1
+
+0.47
+0.50
+0.50
+19.9
+2107
+23.1
+0.011
+2.0
+
+a no sigma or low-resolution cutoff was applied. all measured data were used in the refinement. b the values for the highest-resolution shell are in
+parentheses. c rsym ) sigmahsigmai|i(h) - ii(h)|/sigmahsigmaiii(h), where ii(h) and i(h) are the ith and mean measurements of reflection h, respectively. d the rmsd
+values are for all ncs-related protein and fad atoms. e r-factor ) sigmah||fo| - |fc||/sigmah|fc|, where fo and fc are the observed and calculated structure
+factors of reflection h, respectively. f the rmsds from the ideal values were calculated with the program tnt (21).
+
+(figure 1) were chosen, since they exemplify the ability of
+ xxxg2178xxx  to bind molecules that greatly differ in size, the chain
+of guazatine being 2 times longer than that of 1,8-diaminooctane. moreover, the complex of  xxxg2178xxx  with chenspm
+(figure 1) was investigated. chenspm is a member of a
+group of several asymmetrically alkylated inhibitors, which
+are presently being tested as potential antitumor agents (7,
+11). in particular, chenspm is peculiar in that it carries a
+bulky cycloheptyl terminal substituent. finally, as a part of
+this study, the structure of  xxxg2178xxx  in the reduced state was
+determined.
+experimental procedures
+materials. all chemicals used in crystallization [sodium
+chloride, sodium phosphate, ammonium sulfate, sodium
+acetate, glycerol, and n,n-bis(2-hydroxyethyl)-2-aminoethanesulfonic acid] were from sigma. guazatine was provided
+by rhòne-poulenc (agro, italy). 1,8-diaminooctane and
+ xxxd3234xxx  were from sigma. chenspm was a generous gift
+of r. a. casero, jr. (university of baltimore, baltimore,
+md), and was synthesized as reported previously (16).
+crystallization and crystal soaking. maize  xxxg2178xxx  was
+purified and crystallized as previously reported (17). briefly,
+crystals were grown by the hanging drop vapor diffusion
+method at 20 °c. droplets containing 4 mg of enzyme/ml
+in 300 mm nacl and 50 mm sodium phosphate buffer (ph
+6.0) were equilibrated against a reservoir solution consisting
+of 42-50% saturated ammonium sulfate and 100 mm
+sodium acetate (ph 4.6). all  xxxg2178xxx ‚inhibitor complexes were
+obtained by soaking at 20 °c for 24 h. experiments were
+performed using the following ligands: guazatine, 1,8diaminooctane, chenspm, and  xxxd3234xxx . the soaking
+solutions consisted of 5 mm ligand, 55% saturated am-
+
+monium sulfate, and 100 mm sodium acetate buffer (ph 4.6).
+the complex with chenspm at ph 7.0 (table 1) was
+obtained by using a soaking solution containing 100 mm
+n,n-bis(2-hydroxyethyl)-2-aminoethanesulfonic acid (bes)
+(ph 7.0) rather than sodium acetate (ph 4.6).  xxxg2178xxx  crystals
+have the typical bright yellow color of the oxidized flavin.
+soaking in 1,8-diaminooctane and guazatine did not result
+in any change in the crystal color. conversely, during soaking
+with  xxxd3234xxx  and chenspm, the yellow color of the
+crystals vanished. this process, indicative of flavin reduction,
+occurred in a few minutes in the case of soaking in the
+ xxxd3234xxx  containing solution, whereas it took several hours
+to be completed in the experiments with chenspm.
+data collection, crystallographic refinement, and model
+analysis. for data collection, crystals were transferred into
+a cryoprotectant solution containing 5 mm ligand, 50%
+saturated ammonium sulfate, 25% (v/v) glycerol, and 100
+mm sodium acetate buffer (ph 4.6) [100 mm bes (ph 7.0)
+for the  xxxg2178xxx ‚chenspm complex at ph 7.0]. all x-ray
+diffraction experiments were performed at 100 k using
+standard cryocrystallographic techniques (18). data were
+measured for reduced  xxxg2178xxx  at beam line bw7b at embl/
+desy (hamburg, germany) using a mar-ip345 and for
+the  xxxg2178xxx  complexes at beam line id14-eh3 of the european
+synchrotron radiation facility (grenoble, france) using a
+marccd detector. the data were processed with mosflm
+(19) and programs of the ccp4 suite (20). crystals of  xxxg2178xxx ‚
+inhibitor complexes had a diffraction power comparable to
+that of the native oxidized crystals, allowing measurement
+of the diffraction data up to 1.9-2.1 å resolution.
+the crystals of  xxxg2178xxx  complexes were isomorphous to those
+of the native oxidized enzyme (14) (table 1). they belong
+to space group p6522 with three enzyme molecules in the
+
+inhibitor binding in polyamine oxidase
+
+biochemistry, vol. 40, no. 9, 2001 2769
+
+figure 3: stereoview of the final 2fo - fc map (chain c) of the covalent  xxxg2178xxx ‚chenspm adduct at ph 4.6 (table 1). the drawing also
+shows the water molecule h-bonded to the adduct hydroxyl group. at the terminus of the chenspm chain (c16), there is some residual
+electron density that is probably due to a partly ordered conformation of the cycloheptyl substituent (see the text). the contour level is 1.0sigma.
+chenspm atoms are numbered as in figure 1. with respect to figure 2, the molecule has been rotated by 50° around an axis perpendicular
+to the plane of the drawing.
+
+asymmetric unit. atomic coordinates were refined by means
+of the least-squares refinement program tnt (21). in all
+experiments, the initial model used in refinement was that
+of the native unligated structure (14), deposited as entry 1b37
+in the protein data bank (22). all measured data were
+employed, without applying any low-resolution or sigma cutoff.
+throughout refinement, tight ncs restraints were applied
+to the three crystallographically independent molecules.
+progress of the refinement was monitored by rfree (23), which
+was calculated using the same set of reflections used for
+the rfree calculation in the refinement of the native structure.
+ordered water molecules were automatically added with
+the program arp (24). manual model building was carried
+out with the program o (25). all the active site ligands
+were well defined in both 2fo - fc and fo - fc maps (figure
+3). the quality of the stereochemical parameters of the
+refined models was evaluated with procheck (26).
+data collection and refinement statistics are listed in table
+1.
+
+analysis and inspection of the three-dimensional structures
+were carried out with o (25) and programs of the uppsala
+software factory (27) and of the ccp4 package (20). the
+solvent accessible surface was calculated with the program
+area (20) using a probe radius of 1.4 å. cutoff distances of
+4.0 and of 3.4 å were used for van der waals contacts and
+h-bonds, respectively. figures were generated with molscript
+(28), bobscript (29), and dino (30).
+results
+overall structure. the crystal structure of  xxxg2178xxx  in the
+reduced state and in complex with the inhibitors chenspm,
+1,8-diaminooctane, and guazatine (figure 1 and table 1) has
+been investigated. in all cases, the inhibitors are well defined
+in the electron density map (figure 3), being bound in the
+u-shaped catalytic tunnel that runs across the  xxxg2178xxx  structure
+(figure 2). the crystals of maize  xxxg2178xxx  contain three enzyme
+molecules in the asymmetric unit (named a, b, and c). as
+in the native structure (14), chain c has a slightly lower
+
+2770 biochemistry, vol. 40, no. 9, 2001
+
+binda et al.
+
+figure 4: stereoview of the different conformations of lys300 in oxidized (pdb entry 1b37) and reduced  xxxg2178xxx  (present study). the water
+molecule bound to n5 and the side chain of lys300 in the native oxidized structure are outlined by gray bonds and black atoms. the
+orientation is the same as in figure 2.
+
+average b-factor with respect to those of the a and b
+monomers (table 1). for this reason, chain c has been
+chosen as the reference molecule for model analysis and
+structure description. however, in all complexes, the three
+crystallographically independent monomers, which were
+subjected to tight ncs restraints throughout the refinement,
+are virtually identical in both overall structure and geometry
+of the active center and substrate binding site (table 1).
+neither cofactor reduction nor inhibitor binding causes
+significant conformational changes compared to native  xxxg2178xxx .
+the rmsd between equivalent cr atoms of the native
+unligated enzyme and the complexes with chenspm at ph
+4.6, chenspm at ph 7.0, 1,8-diaminooctane, and guazatine
+are 0.13, 0.17, 0.10, and 0.14 å, respectively. likewise, the
+rmsd deviation between the native oxidized enzyme and the
+reduced protein is 0.27 å. given the absence of any change
+in the overall structure, the description of the  xxxg2178xxx ‚inhibitor
+complexes will mainly focus on the catalytic center and
+substrate binding site.
+reduced  xxxg2178xxx . soaking of crystals in a solution containing
+the substrate  xxxd3234xxx  led to a change in the color of the
+crystals from bright yellow, typical of the oxidized enzyme,
+to a pale color. this change occurred in a few minutes and
+suggested that the crystalline enzyme reacted with the
+substrate, thereby becoming reduced. the soaking experiment
+was carried out in air-saturated solutions, indicating that,
+despite the presence of oxygen, the large excess of substrate
+(5 mm) was able to keep crystalline  xxxg2178xxx  in the reduced
+state (see ref 31). consistent with this observation, transfer
+of a reduced “colorless” crystal to a substrate free solution
+resulted in crystal reoxidation as indicated by the almost
+immediate reappearance of the yellow color. a protective
+effect against reoxidation brought about by the presence of
+substrate in excess has been observed in other flavoenzyme
+crystals such as those of  xxxg602xxx  (32, 33).
+the electron density of the reduced enzyme does not show
+any indication of the presence of active site ligand(s), with
+the innermost part of the catalytic tunnel being occupied by
+eight ordered water molecules. thus, it appears that the
+products generated by  xxxd3234xxx  oxidation (figure 1) are
+released from  xxxg2178xxx  after catalysis. the structure of the active
+site of the reduced enzyme is identical to that of the native
+oxidized  xxxg2178xxx  (14). the heavily bent conformation of the
+flavin is left unmodified by reduction, with an angle of 28°
+
+between the dimethylbenzene and pyrimidine rings, very
+close to the value of 30° observed in the oxidized enzyme.
+the only change observed in the reduced protein affects the
+lys300 conformation (figure 4). in native oxidized  xxxg2178xxx ,
+the amino group of lys300 is engaged in a h-bond with a
+water molecule, which is further h-bonded to the flavin n5
+atom. upon reduction, the chi4 torsion angle of lys300 changes
+from 69° to -162°, leading to a 1.9 å shift of the n amino
+group. in its new position, n interacts with the side chain
+of asn59 and the backbone oxygen atoms of glu55 and
+gly57. however, despite such a movement of lys300, the
+water molecule, which in the oxidized structure is h-bonded
+to n5 and lys300, retains its position also in the reduced
+enzyme. in particular, this water molecule is within hbonding distance of the flavin n5 atom and another solvent
+molecule, not present in the oxidized protein.
+upon cofactor reduction, the flavin n5 atom becomes
+protonated. lys300 seems to be perfectly positioned to
+function as a conformational switch that compensates for
+the change in the flavin protonation state. in the oxidized
+ xxxg2178xxx , a water molecule acts as a bridge between the
+unprotonated n5 atom and the positively charged lys300
+side chain. after reduction, lys300 moves away, possibly
+allowing a reorientation of this water, which, therefore, is
+enabled to function as a h-bond acceptor in the interaction
+with the protonated n5 atom of the reduced fad.
+ xxxg2178xxx ‚guazatine complex. guazatine inhibits maize  xxxg2178xxx 
+with a ki value of 7.5 × 10-9 m at ph 6.5 and 25 °c (34).
+among  xxxg2178xxx  inhibitors, guazatine comprises the longest
+linear chain, consisting of two octane units that are connected
+by a secondary nitrogen atom (n9 in figure 1). such a long
+(ch2)8-nh-(ch2)8 chain is further elongated by two terminal
+guanidinium groups (figure 1).
+guazatine binds to the catalytic tunnel of  xxxg2178xxx  (figure
+2), adopting a curved conformation that is made possible
+mainly by two kinks along the path of the inhibitor chain.
+in particular, c4-c5-c6-c7, c5-c6-c7-c8, n9c10-c11-c12, and c10-c11-c12-c13 torsion angles
+(figure 5a) have values of -117°, 127°, -110°, and -83°,
+respectively, being the only dihedral angles of the bound
+guazatine which do not adopt the anti conformation (angle
+of ∼180°). despite the bulkiness of the ligand, the positions
+of the atoms lining the active site tunnel in the  xxxg2178xxx ‚
+guazatine complex are strikingly identical to those of the
+
+inhibitor binding in polyamine oxidase
+
+figure 5: (a) schematic drawing of the  xxxg2178xxx ‚guazatine interactions. h-bonds are indicated with dashed lines. (b) mode of binding
+of guazatine to the u-shaped tunnel. the surface of the protein is
+shown in a semitransparent representation together with a ball-andstick model of guazatine and fad (carbon atoms in yellow, nitrogen
+blue, oxygen red, and phosphorus green). with respect to figure
+2, the protein has been rotated by 120° about a vertical axis, to
+highlight the location of the inhibitor guanidinium groups at the
+tunnel openings. in this orientation, the guanidinium group bound
+to the c17 atom (see figure 1 and panel a) is in the upper position.
+
+native oxidized structure. the only movement is a small 0.15
+å shift of the carbonyl oxygen of gly438. guazatine
+
+biochemistry, vol. 40, no. 9, 2001 2771
+extensively interacts with  xxxg2178xxx  (figure 5a) through van der
+waals contacts with aromatic side chains. moreover, the
+secondary n9 nitrogen of guazatine is h-bonded to tyr298,
+whereas three inhibitor carbon atoms (c6, c8, and c10) are
+within h-bonding distance of the carboxylate groups of
+glu62 and glu170. the presence of this type of ch‚‚‚o
+h-bonds also characterizes the  xxxg2178xxx ‚mdl72527 complex
+(14) and, therefore, seems to be a recurrent feature in the
+ xxxg2178xxx  inhibitor binding mode, independent of the nature of
+the active site ligand.
+a remarkable feature revealed by the structure of the  xxxg2178xxx ‚
+guazatine complex is the fact that the long inhibitor chain
+completely fills the tunnel (figure 5b). when complexed to
+the enzyme, guazatine has a solvent accessible surface area
+of only 90 å2, which can be entirely ascribed to the terminal
+guanidinium groups located at the tunnel entrances (figure
+5b). by contrast, the total surface area of the guazatine
+molecule is 720 å2, indicating that formation of the  xxxg2178xxx ‚
+inhibitor complex buries about 90% (630 å2) of the guazatine
+surface area. in keeping with this observation, the inhibitor
+binding causes the expulsion of all eight ordered water
+molecules present in the tunnel of the unligated enzyme
+structure. thus, the excellent complementarity between the
+tunnel and guazatine leads to nearly complete desolvation
+of the bound inhibitor.
+ xxxg2178xxx ‚1,8-diaminooctane complex. 1,8-diaminooctane inhibits maize  xxxg2178xxx  with a ki of 3.0 × 10-7 m (r. federico,
+unpublished). the length of 1,8-diaminooctane is approximately half of that of guazatine (figure 1), being among the
+shortest known  xxxg2178xxx  inhibitors. the electron density map
+of the  xxxg2178xxx ‚1,8-diaminooctane complex showed a strong and
+elongated peak in the central part of the tunnel in all three
+crystallographically independent protein molecules. surprisingly, the electron density peak turned out to be too long to
+simply account for one 1,8-diaminooctane ligand, its length
+being consistent with a chain of about 15 atoms (figure 6).
+the electron density could reflect the presence of two
+adjacent nonoverlapping inhibitor molecules, one or both of
+them having part of their structure in a disordered conformation, not visible in the electron density map. although this
+interpretation of the electron density cannot be completely
+ruled out, it has been disregarded in view of the following
+considerations: (i) refinement of two side-by-side 1,8diaminooctane molecules gave poorer statistics; (ii) as shown
+by the guazatine complex, the narrow tunnel seems unlikely
+to give the degree of flexibility required to justify the lack
+of well-defined electron density for part of one or both of
+the two bound inhibitors; and (iii) the electron density peak
+is continuous, which is not expected if two adjacent
+nonoverlapping inhibitor molecules are bound.
+on these bases, the electron density has been instead
+modeled as two overlapping 1,8-diaminooctane molecules
+(figure 6), whose atoms were refined with an occupancy of
+0.5. this value was suggested by refinement of the inhibitor
+occupancies (21). this interpretation assumes that 1,8diaminooctane has at least two binding modes that are
+mutually exclusive and partly overlapping. in each of the
+alternative conformations, the terminal amino groups located
+in the innermost part of the tunnel form h-bonds to the
+protein, one with tyr298 and the other with glu62. the first
+h-bond mimics the interaction of n9 of guazatine with the
+tyrosine side chain (figure 5a), whereas the other h-bond
+
+2772 biochemistry, vol. 40, no. 9, 2001
+
+binda et al.
+
+figure 6: stereoview of the  xxxg2178xxx ‚1,8-diaminooctane complex (chain c). the alternative positions of the two inhibitor molecules are
+outlined with black and light gray atoms, respectively. h-bonds between the inhibitor amino groups and  xxxg2178xxx  are indicated with dashed
+lines. the 2fo - fc map calculated before the inclusion of the inhibitor atoms in the refinement is shown. the contour level is 0.85sigma. the
+orientation is the same as in figure 2.
+
+figure 7: superposition of the  xxxg2178xxx ‚inhibitor complexes. guazatine and the chenspm‚flavin adduct have white bonds with the atoms
+colored in black and gray, respectively. the two 1,8-diaminooctane molecules are outlined with gray bonds as in figure 6. for comparison,
+the atomic trace of the mdl72527 inhibitor (pdb entry 1b5q) is shown in black. the orientation is the same as in figure 2.
+
+mimics that of the c6 atom of guazatine with the glutamate.
+indeed, the two alternative conformations of 1,8-diaminooctane closely resemble that of guazatine (figure 7). thus, the
+1,8-diaminooctane complex is consistent with the idea
+emerging from the  xxxg2178xxx ‚guazatine structure that the tunnel
+provides along its entire path a favorable environment for
+binding aliphatic molecules of variable length.
+covalent  xxxg2178xxx ‚chenspm complex at ph 4.6. several
+asymmetrically alkylated polyamine analogues have shown
+cytotoxic effects on cancer cells and are of potential
+therapeutic use as antitumor agents (2, 8, 11). we have
+investigated  xxxg2178xxx  in complex with one of these compounds,
+chenspm, which is characterized by an ethyl and a
+cycloheptyl terminal substituent (figure 1). when  xxxg2178xxx 
+
+crystals were soaked in a chenspm-containing solution,
+they gradually became colorless. such a crystal bleaching
+process required several hours to be completed and suggested
+that chenspm very slowly reacted with the oxidized
+crystalline protein generating a reduced form of the cofactor.
+the electron density map, calculated with diffraction data
+measured from a crystal soaked for 24 h in chenspm,
+confirmed these observations. the electron density was
+compatible with the presence of a covalent adduct between
+the c4 atom of chenspm (figure 1) and the flavin n5 atom
+(figure 3). the synthesis of this flavin derivative could be
+triggered by a slow oxidation of the n3-c4 bond of
+chenspm (figure 8). the resulting imino-chenspm
+product could then undergo hydrolysis, with release of
+
+inhibitor binding in polyamine oxidase
+
+figure 8: scheme for the proposed reaction leading to the
+formation of the  xxxg2178xxx ‚chenspm covalent adduct. the chenspm
+atoms are numbered as in figure 1.
+
+aminoethane and formation of a transient complex between
+the reduced enzyme and the chenspm-derived aldehyde.
+the latter could then react with the reduced flavin, leading
+to the formation of the observed covalent adduct. a very
+similar mechanism involving a reduced  xxxg2178xxx -aldehyde
+intermediate with formation of a covalent flavin derivative
+has been shown to exist in the reaction of lactate oxidase
+with  xxxd2219xxx  (35), and therefore, it is not unprecedented
+in flavoenzymology.
+several lines of evidence support the presence of the
+proposed covalent adduct. the electron density unambiguously shows that the atom covalently linked to n5 has a
+nonplanar configuration. this is fully consistent with the
+tetrahedral configuration of the adduct c4 atom carrying a
+hydroxyl group (figure 8). moreover, strong electron density
+departs from the flavin n5 locus extending across one arm
+of the u-shaped catalytic tunnel (the “upper” arm in figures
+
+biochemistry, vol. 40, no. 9, 2001 2773
+2 and 5b). the chenspm linear chain going from c4 to
+c16 fits very well this elongated density peak (figure 3).
+chains a and b lack any residual electron density for the
+cycloheptyl moiety. this group falls in a position outside
+the tunnel and, therefore, may not be fixed in a defined
+conformation. interestingly, in chain c, there is a residual
+density, which extends from the c16 position (figure 3) and
+might reflect the presence of a partly ordered cycloheptyl
+ring. however, this density is too weak and poorly defined
+to allow modeling of the chenspm terminal substituent.
+in the covalent adduct, the chenspm chain protruding
+from the flavin binds in one of the two arms of the u-shaped
+tunnel. its position overlaps that of the n9-c17 segment of
+guazatine (figures 5a, 5b, and 7). conversely, the other arm
+remains occupied by a few ordered solvent molecules. thus,
+it could easily provide access of the water molecule involved
+in the hydrolysis of imino-chenspm and allow the subsequent release of the aminoethane product (figure 8). in
+agreement with the other  xxxg2178xxx ‚inhibitor structures, the
+covalent adduct also displays virtually no conformational
+changes with respect to the native enzyme. the isoalloxazine
+ring is in the usual bent conformation, identical to that of
+the native protein (figure 3). moreover, the flavin n5 atom
+is within h-bonding distance of a water molecule, which is
+additionally h-bonded to the hydroxyl group of the chenspm
+c4 atom (figure 3). the only significant change affects
+lys300, whose side chain adopts the same conformation
+observed in the reduced enzyme (figure 4). this feature,
+however, is not surprising, reflecting the reduced state of
+the flavin in the  xxxg2178xxx ‚chenspm derivative.
+covalent  xxxg2178xxx ‚chenspm complex at ph 7.0. a soaking
+experiment using chenspm was carried out in a solution
+buffered by 100 mm bes (ph 7.0) instead of sodium acetate
+(ph 4.6), which was employed in all other soaking experiments. despite the relatively large ph change,  xxxg2178xxx  crystals
+maintained their diffraction power and a 2.0 å data set could
+be measured. the resulting electron density map turned out
+to be virtually indistinguishable from that calculated for the
+ xxxg2178xxx ‚chenspm complex at ph 4.6. indeed, after refinement, the rmsd between the cr atoms of the  xxxg2178xxx ‚
+chenspm structures at ph 7.0 and ph 4.6 is 0.08 å for all
+three ncs-related molecules. this fact leads to three main
+conclusions: (i)  xxxg2178xxx  confirms to have a quite rigid structure;
+(ii) the acidic ph used for crystal growth and analysis is
+very unlikely to perturb the protein structure with respect to
+that adopted by the enzyme at neutral ph, reflecting the
+ability of maize  xxxg2178xxx  to retain catalytic activity over a wide
+ph range (36); and (iii) formation of the covalent adduct
+also occurs at neutral ph.
+discussion
+lock-and-key inhibitor binding in  xxxg2178xxx . the crystallographic investigation of  xxxg2178xxx ‚inhibitor complexes reveals
+a precise complementarity between the catalytic tunnel and
+the active site ligands. the conformation of the protein is
+unaffected by the inhibitors, whose binding mode appears,
+therefore, to be of the lock-and-key type with little or no
+induced fit. indeed, in all complexes, water molecules are
+totally removed from the tunnel section where the ligand is
+positioned, effectively desolvating the  xxxg2178xxx -bound ligand.
+these features are well exemplified by the complex with
+guazatine (figure 2). except for the guanidinium terminal
+
+2774 biochemistry, vol. 40, no. 9, 2001
+groups, all inhibitor atoms become solvent inaccessible with
+the burial of more than 600 å2 of surface area. the long
+guazatine chain contains 18 dihedral angles (figure 5a),
+which, on binding, become fixed in a single conformation.
+the entropic cost of such a “conformational freezing” is
+compensated by the extensive guazatine-protein interactions,
+most of them involving inhibitor aliphatic carbons and
+aromatic side chains. thus, the hydrophobic effect due to
+the removal of the inhibitor aliphatic moieties from aqueous
+solvent seems to provide the main factor in the binary
+complex stabilization.
+however, the  xxxg2178xxx ‚inhibitor interactions do not simply
+involve van der waals contacts but also ch‚‚‚o h-bonds
+(figure 5a). therefore, it appears that the interactions with
+water molecules that the ligand can establish in solution are
+partly replaced in the enzyme‚inhibitor complexes by hbonds with protein oxygen atoms. this phenomenon may
+reflect the fine energetic balancing that  xxxg2178xxx  must effect in
+substrate binding. the tunnel provides a solvent-protected
+hydrophobic environment that is favorable for the aliphatic
+segments of the substrates. on the other hand, an entirely
+hydrophobic binding site may represent an “overly favorable”
+environment, which could form an energetic trap, hampering
+catalysis by preventing product(s) release or even formation
+of the transition state (37).  xxxg2178xxx  avoids this problem by
+interacting with the substrate through a combination of
+hydrophobic contacts, which are not possible in solution, and
+polar ch‚‚‚o bonds, which are similar to the interactions
+possibly made in solution by the substrate carbon atoms with
+the surrounding waters.
+an “out-of-register” mechanism of  xxxg2178xxx  inhibition. the
+physiological substrates of  xxxg2178xxx  bear both primary and
+secondary amino groups (figure 1). a remarkable feature
+revealed by the crystal structure of  xxxg2178xxx  binary complexes
+is that the polycationic nature of the polyamine substrates
+does not find a counterpart in an array of negatively charged
+residues in the binding site. indeed, the only group inside
+the tunnel, which is likely to carry a negative charge, is the
+glu62-glu170 pair, whose side chains are within h-bonding
+distance from each other (figures 5a and 9). this feature is
+related to another important observation emerging from the
+comparison of the various  xxxg2178xxx  complexes (figure 7).
+superposition of the  xxxg2178xxx -bound inhibitors shows that carbon
+and nitrogen atoms can bind at the same location within the
+tunnel. in fact, the positions of the n1 and n8 atoms of a
+ xxxg2178xxx -bound 1,8-diaminooctane overlap those of c15 and c6
+of guazatine, respectively. likewise, n7 of chenspm
+(figure 3) occupies the same position of guazatine c13.
+apparently, the  xxxg2178xxx  tunnel does not contain subsites, which
+are specific for amino groups. rather, either ch2 or nh
+atoms, depending on the inhibitor complex, may occupy the
+same position.
+the fundamental question raised by these observations
+concerns the nature of the structural determinants that
+discriminate between an actual substrate and an inhibitor of
+ xxxg2178xxx . for example, guazatine (figure 1) and mdl72527 (14)
+both carry a secondary amino group but, nevertheless, are
+not oxidized by the enzyme. inspection of the  xxxg2178xxx ‚inhibitor
+complexes shows that the ligand secondary amino groups
+and the adjacent carbon atoms are too far from the reactive
+n5 locus of the flavin to undergo oxidation. the c8 and
+c10 atoms of guazatine linked to the n9 secondary amino
+
+binda et al.
+
+figure 9: model for  xxxd3234xxx  binding. carbon atoms are numbered
+as in figure 1. the n5-bound water molecule is labeled with “wat”.
+the thick dashed line connects the flavin n5 locus and the  xxxd3234xxx 
+c9 atom, which undergoes oxidation. the orientation is the same
+as in figure 2.
+
+group (figures 1 and 5a) are 4.7 and 6.2 å from n5,
+respectively. independent of the exact mechanism of catalysis, these distances are too long to allow flavin-catalyzed
+oxidation. thus, it appears that a key factor in achieving
+catalysis is the correct alignment of the c-n bond undergoing oxidation with respect to the flavin ring. inhibitors such
+as guazatine attain an out-of-register binding mode, which
+allows tight binding but not catalysis.
+a model for  xxxd3234xxx  binding. to investigate the structural basis of substrate specificity, the substrate  xxxd3234xxx  has
+been tentatively modeled in the  xxxg2178xxx  active site (figure 1),
+based on the following criteria. (i) guazatine has been used
+as an atomic skeleton. this inhibitor is very well defined in
+electron density, and apart from the terminal guanidinium
+groups, its chain, like  xxxd3234xxx , does not contain double
+bonds (figure 1). (ii) the position of the site of oxidative
+attack ( xxxd3234xxx  c9 in figure 1) was assumed to be identical
+to that found in other flavoenzymes. a comparison among
+flavoprotein structures carrying out dehydrogenation reactions has shown that the ch group undergoing oxidation with
+concomitant rupture of the c-h bond is located in a
+strikingly conserved position in front of the n5 locus of the
+flavin (15). the c7 atom of guazatine (figure 5a) is 3.6 å
+from n5 with a c7(guazatine)-n5(flavin)-n10(flavin)
+angle of 96°, well within the range of values found for the
+site of oxidative attack in other flavoenzymes (15). thus,
+the  xxxd3234xxx  c9 atom (figure 1) undergoing oxidation in
+maize  xxxg2178xxx  was modeled at the same position of guazatine
+c7.
+the  xxxg2178xxx ‚ xxxd3234xxx  model is shown in figure 9. as
+expected, the substrate becomes completely solvent inaccessible when bound to the protein. the substrate amino
+groups are all within h-bonding distance of protein side
+chains: n1 from glu170, n5 from tyr169, n10 from glu62,
+and n14 from tyr439. in this h-bond network, glu62 and
+glu170 are crucial in that they bind to primary (n1) and
+
+inhibitor binding in polyamine oxidase
+secondary (n10) amino groups of  xxxd3234xxx , respectively. the
+glu62-glu170 pair may represent the structural element that
+senses the correct spacing between the substrate primary and
+secondary amino groups and properly aligns the substrate
+within the tunnel to achieve catalysis. however, the role of
+these residues in dictating substrate specificity needs to be
+tested by site-directed mutagenesis.
+the mechanism of flavin-dependent oxidation of amines
+has been thoroughly investigated, especially for monoamine
+oxidase (see ref 38 and references therein) and sarcosine
+oxidase (39). in particular,  xxxg1357xxx   xxxg1358xxx  is considered
+the prototype of amine oxidases; its sequence is 20% identical
+to that of  xxxg2178xxx  (14), although it acts on primary rather than
+secondary amines. three mechanisms have been proposed
+for  xxxg1357xxx   xxxg1358xxx  and sarcosine oxidase (38, 39): (i)
+a single electron-transfer mechanism involving an intermediate flavin anion/amine cation radical pair, (ii) a polar
+nucleophile mechanism occurring via a nucleophilic attack
+at flavin  xxxg283xxx  by a deprotonated amine, and (iii) a hydride
+transfer mechanism requiring direct transfer of a hydride ion
+to flavin n5 from the substrate carbon adjacent to the amino
+group. the available structural data for  xxxg2178xxx  do not
+discriminate between these hypothetical mechanisms. the
+side chain of glu62 and the water molecule h-bonded to
+flavin n5 are well positioned to play a role in catalysis, e.g.,
+to abstract a proton from the substrate. moreover, in the
+proposed model for  xxxd3234xxx  binding, the substrate n10 and
+c9 atoms are juxtaposed to flavin  xxxg283xxx  and n5, respectively.
+this situation is compatible with any of the three catalytic
+mechanisms that have been proposed. in fact, it would make
+possible transfer of an electron or of a hydride to the flavin
+as predicted by the single-electron transfer and hydride
+transfer mechanisms, respectively. however, this substrate
+binding mode is compatible also with the formation of the
+covalent  xxxg283xxx  adduct postulated by the nucleophile mechanism. interestingly, the orientation with respect to the flavin
+of the  xxxd3234xxx  n10-c9 bond undergoing oxidation is
+highly similar to that observed in  xxxg602xxx  for
+the n-cr unit of the amino acid substrate (40). thus, an
+intriguing hypothesis is that the structural features underlying
+substrate oxidation among flavin-dependent amino acid
+oxidases and amino oxidases may be similar.
+conclusions
+the narrow catalytic tunnel of  xxxg2178xxx  is highly complementary to inhibitors and substrates. however, except for
+the glu62-glu170 pair, in the tunnel there are no other
+negatively charged residues that take part in the recognition
+of the ligand amino groups. this is in sharp contrast to other
+polyamine binding proteins, such as deoxyhypusine synthase
+(41) and the polyamine carrier protein potd (42), where the
+primary amino groups of spermidine are bound through
+interactions with several asp and glu residues. in vivo,  xxxg2178xxx 
+is known to act on  xxxd3234xxx , spermidine, n1-acetylspermine,
+n1-acetylspermidine, and, in certain organisms, even norspermine (1, 5). the lack of charged groups in the  xxxg2178xxx 
+catalytic tunnel may serve the purpose of conferring to the
+enzyme a rather broad specificity, allowing the recognition
+of ligands with a variable length and number of amino
+groups. these differences in the architecture of the substrate
+binding sites among proteins acting on polyamines may be
+
+biochemistry, vol. 40, no. 9, 2001 2775
+exploited for the design of inhibitors targeting specific
+enzymes involved in polyamine metabolism.
+acknowledgment
+we thank m. rizzi (università di pavia) for many
+stimulating discussions. the supervision of the esrf and
+embl/desy staff during synchrotron data collection is
+gratefully acknowledged. access to the embl hamburg
+facility is supported by the european union program hpri
+(contract hpri-ct-1999-00017). chenspm was a kind gift
+from r. a. casero, jr. (university of baltimore).
+references
+1. tabor, c. w., and tabor, h. (1984) annu. rev. biochem. 53,
+749-790.
+2. pegg, a. e., and hu, r. h. (1995) cancer lett. 95, 247-252.
+3. igarashi, k., and kashiwagi, k. (2000) biochem. biophys. res.
+commun. 271, 559-564.
+4. federico, r., and angelini, r. (1991) in biochemistry and
+physiology of polyamines in plants (slocum, r. d., and flores,
+h. e., eds.) pp 41-56, crc press, boca raton, fl.
+5. seiler, n. (1995) prog. brain res. 106, 333-344.
+6. federico, r., cona, a., angelini, r., schininà, m. e., and
+giartosio, a. (1990) phytochemistry 29, 2411-2414.
+7. mccloskey, d. e., woster, p. m., casero, r. a., jr., and
+davidson, n. e. (2000) clin. cancer res. 6, 17-23.
+8. marton, l. j., and pegg, a. e. (1995) annu. rev. pharmacol.
+toxicol. 35, 55-91.
+9. hu, r. h., and pegg, a. e. (1997) biochem. j. 328, 307316.
+10. schipper, r. g., penning, l. c., and verhofstad, a. a. (2000)
+semin. cancer biol. 10, 55-68.
+11. ha, h. c., woster, p. m., yager, j. d., and casero, r. a., jr.
+(1997) proc. natl. acad. sci. u.s.a. 94, 11557-11562.
+12. laurenzi, m., rea, g., federico, r., tavladoraki, p., and
+angelini, r. (1999) planta 208, 146-154.
+13. tavladoraki, p., schinina, m. e., lecconi, f., di agostino,
+s., manera, f., rea, g., mariottini, p., federico, r., and
+angelini r. (1998) febs lett. 426, 62-66.
+14. binda, c., coda, a., angelini, r., federico, r., ascenzi, p.,
+and mattevi, a. (1999) structure 7, 265-276.
+15. fraaije, m. w., and mattevi, a. (2000) trends biochem. sci.
+25, 126-132.
+16. woster, p. m. (1995) in polyamines: regulation and molecular interaction (casero, r. a., ed.) pp 171-186, landes,
+austin, tx.
+17. binda, c., coda, a., angelini, r., federico, r., ascenzi, p.,
+and mattevi, a. (1998) acta crystallogr.  xxxd54xxx , 1429-1431.
+18. rodgers, d. w. (1994) structure 2, 1135-1140.
+19. leslie, a. g. (1999) acta crystallogr. d55, 1696-1702.
+20. collaborative computational project number 4 (1994) acta
+crystallogr. d50, 760-767.
+21. tronrud, d. e., ten eyck, l. f., and matthews, b. w. (1987)
+acta crystallogr. a43, 489-501.
+22. berman, h. m., westbrook, j., feng, z., gilliland, g., bhat,
+t. n., weissig, h., shindyalov, i. n., and bourne, p. e. (2000)
+nucleic acids res. 28, 235-242.
+23. brünger, a. t. (1992) nature 355, 472-475.
+24. perrakis, a., morris, r., and lamzin, v. s. (1999) nat. struct.
+biol. 5, 458-463.
+25. jones, t. a., zou, j. y., cowan, s. w., and kjeldgaard, m.
+(1991) acta crystallogr. a47, 110-119.
+26. laskowski, r. a., macarthur, m. w., moss, d. s., and
+thornton, j. m. (1993) j. appl. crystallogr. 26, 283-291.
+27. kleywegt, g. j., and jones, t. a. (1994) acta crystollogr.
+d50, 178-185.
+28. kraulis, p. j. (1991) j. appl. crystallogr. 24, 946-950.
+29. esnouf, r. m. (1999) acta crystallogr. d55, 938-940.
+30. philippsen, a. (1999) dino: visualising structural biology
+(http://www.bioz.unibas.ch/∼xray/dino).
+
+2776 biochemistry, vol. 40, no. 9, 2001
+31. bellelli, a., angelini, r., laurenzi, m., and federico, r. (1997)
+arch. biochem. biophys. 343, 146-148.
+32. todone, f., vanoni, m. a., mozzarelli, a., bolognesi, m.,
+coda, a., curti, b., and mattevi, a. (1997) biochemistry 36,
+5853-5860.
+33. miura, r., setoyama, c., nishina, y., shiga, k., mizutani,
+h., miyahara, i., and hirotsu, k. (1997) j. biochem. 122, 825833.
+34. federico, r., leone, l., botta, m., binda, c., angelini, r.,
+venturini, g., and ascenzi, p. (2000) j. enzyme inhib. (in
+press).
+35. ghisla, s., and massey, v. (1980) j. biol. chem. 255, 56885696.
+36. federico, r., alisi, c., and forlani, f. (1989) phytochemistry
+28, 45-50.
+
+binda et al.
+37. warshel, a. (1998) j. biol. chem. 273, 27035-27038.
+38. miller, j. r., and edmondson, d. e. (1999) biochemistry 38,
+13670-13683.
+39. wagner, m. a., trickey, p., chen, z. w., mathews, f. s.,
+and jorns, m. s. (2000) biochemistry 39, 8813-8824.
+40. umhau, s., pollegioni, l., molla, g., diederichs, k., welte,
+w., pilone, m. s., and ghisla, s. (2000) proc. natl. acad.
+sci. u.s.a. 97, 12463-12468.
+41. liao, d.-i., wolff, e. c., park, m. h., and davies, d. r. (1998)
+structure 6, 23-32.
+42. sugiyama, s., vassylyev, d. g., matsushima, m., kashiwagi,
+k., igarashi, k., and morikawa, k. (1996) j. biol. chem. 271,
+9519-9525.
+bi002751j
+

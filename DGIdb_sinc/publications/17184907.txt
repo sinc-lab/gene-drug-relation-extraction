@@ -1,0 +1,742 @@
+molecular and cellular endocrinology 264 (2007) 82–89
+
+analysis of ligand-dependent recruitment of coactivator peptides to rxr␤
+in a time-resolved fluorescence resonance energy transfer assay
+deborah k. stafslien ∗ , kevin l. vedvik, therese de rosier, mary szatkowski ozers 1
+invitrogen discovery sciences, madison, wisconsin 53719, united states
+received 28 july 2006; received in revised form 4 october 2006; accepted 10 october 2006
+
+abstract
+because rxr plays a significant role in nuclear receptor signaling as a common heterodimeric partner for tr, ppar, rar, vdr, lxr and
+others, the ability of rxr␤ ligand binding domain (lbd) to interact with coregulator peptides bearing lxxll or other interaction motifs was
+investigated using time-resolved fluorescence resonance energy transfer (tr-fret). the random phage display peptide d22 and peptides derived
+from pgc1␣, src1-4,  xxxg1511xxx -3,  xxxg1771xxx /rap250 and  xxxg1607xxx  yielded the highest tr-fret signal with rxr␤ lbd in the presence of saturating
+9-cis  xxxd3417xxx  (9-cisra). several peptides including d22, pgc1␣,  xxxg1512xxx -2,  xxxg1771xxx /rap250 and src1-4 also formed a complex with rxr␤
+lbd in the presence of all- xxxd3417xxx  ( xxxd3417xxx ) and the  xxxd2154xxx , phytanic acid (pa) and docosahexaenoic acid (dha). determination of the
+dose dependency (ec50 ) of these compounds to recruit d22 to rxr␤ lbd indicated that the rank order potency was 9-cisra > pa >  xxxd3417xxx  > dha.
+the ligands 9-cisra and  xxxd3417xxx  yielded an overall higher fold-change in d22 recruitment to rxr␤ lbd suggesting that more rxr␤ lbd–d22
+complex was formed in the presence of these ligands under the assay conditions tested. the statistical parameter z factor for 9-cisra-induced
+recruitment of d22 to rxr␤ lbd was 0.6 after 2 h incubation, indicating a robust methodology that could be applied to high throughput screening.
+these results demonstrate that rxr␤ occupied with the fatty acid ligands, dha and pa, can recruit coactivator peptides in a ligand-dependent
+manner.
+© 2006 elsevier ireland ltd. all rights reserved.
+keywords: rxr␤; coactivator;  xxxd2154xxx ; high throughput; time-resolved fluorescence resonance energy transfer
+
+1. introduction
+abbreviations: rxr, retinoid x receptor; tr, thyroid  xxxg1603xxx ;
+ppar, peroxisome proliferator-activated receptor; rar,  xxxd3417xxx  receptor;
+lxr, liver x receptor; lbd, ligand binding domain; tr-fret, time-resolved
+fluorescence resonance energy transfer; 9-cisra, 9- xxxd2404xxx ;  xxxd3417xxx ,
+all- xxxd3417xxx ; pa, phytanic acid; dha, docosahexaenoic acid; fl,
+fluorescein; gst,  xxxg1073xxx ; dmso, dimethylsulfoxide; tb,
+terbium; cornr, corepressor nuclear receptor box; src, steroid receptor coactivator; nr box, nuclear receptor interaction motif; cbp,  xxxg516xxx ;
+trap, thyroid  xxxg1603xxx  associated protein; drip,  xxxg2412xxx 
+interacting protein; rip, receptor interacting protein;  xxxg1771xxx , ppar interacting
+protein; ar,  xxxg183xxx ;  xxxg1594xxx ,  xxxg1594xxx -adrenal
+hypoplasia congenital critical region on the x chromosome gene 1; shp, short
+heterodimer partner; grip-1,  xxxg1601xxx -interacting protein 1;
+ xxxg1512xxx , amplified in  xxxg269xxx ; smrt, silencing mediator for retinoid and
+thyroid hormone receptors; ncor, nuclear corepressor; id, interaction domain
+∗ corresponding author at: invitrogen corporation, 501 charmany drive,
+madison, wisconsin 53719, united states. tel.: +1 608 204 5220;
+fax: +1 608 204 5300.
+e-mail address: deb.stafslien@invitrogen.com (d.k. stafslien).
+1 senior author, current address: university of wisconsin-madison, department of biochemistry, 433 babcock drive, madison, wisconsin 53706, united
+states.
+0303-7207/$ – see front matter © 2006 elsevier ireland ltd. all rights reserved.
+doi:10.1016/j.mce.2006.10.016
+
+the nuclear receptor retinoid x receptor ␤ (rxr␤;  xxxg1999xxx )
+mediates effects of  xxxd3105xxx  derivatives or retinoids on genes
+that regulate cell growth, differentiation and neurodevelopment
+(mangelsdorf et al., 1990; mangelsdorf and evans, 1995). the
+ligand binding domain or e domain contains sequences involved
+in ligand recognition, coactivator interaction, ligand-induced
+transactivation and receptor dimerization. rxr has been shown
+to function as either a homodimer or in heterodimeric complexes
+with other nuclear receptors including thyroid  xxxg1603xxx 
+(tr),  xxxg2412xxx  (vdr), peroxisome proliferatoractivated receptor (ppar),  xxxd3417xxx  receptor (rar), liver x
+receptor (lxr) and a number of orphan receptors (mangelsdorf
+and evans, 1995). rxr was thought to be unable to bind ligand and act as a silent partner in these heterodimers. however,
+recent studies indicate that rxr can interact in permissive heterodimers where either partner can bind ligand (i.e. tr) or in
+non-permissive heterodimers where ligand binding at the receptor partner induces an allosteric change to an unoccupied but
+active rxr conformation (i.e. vdr) (bettoun et al., 2003;
+
+d.k. stafslien et al. / molecular and cellular endocrinology 264 (2007) 82–89
+
+li et al., 2004). this latter effect has been termed the phantom
+ligand effect (schulman et al., 1997).
+the high-affinity physiological ligand for rxr is 9-cis
+ xxxd3417xxx  (9-cisra) (heyman et al., 1992; levin et al., 1992).
+all- xxxd3417xxx  ( xxxd3417xxx ), which is the cognate ligand for
+rar, has been reported as having minimal binding affinity to
+rxr in vitro but is still capable of upregulating rxr-mediated
+transactivation, perhaps due to isomerization to a more active
+ligand (heyman et al., 1992). other recently identified ligands
+for rxr␤ include phytanic acid (pa) and docosahexaenoic acid
+(dha) (radominska-pandya and chen, 2002). pa, a dietary
+fatty acid that can elevate to abnormal levels in a variety of
+metabolic disorders, has been shown to transactivate rxr␤
+in transient transfection studies (zomer et al., 2000). dha is
+a fatty acid that plays an important role in embryonic neural
+development and can activate the rxr partner in a heterodimer
+with the orphan receptor, nurr1, leading to increased survival
+of dopaminergic cells and other neurons (wallen-mackenzie et
+al., 2003).
+retinoids have been used as treatments for a number of cancers and dermatologic conditions. because of the heterodimeric
+nature of rxr␤ signaling, retinoid ligands also have the ability
+to affect several receptor signaling pathways. selective rxr
+ligands, or rexinoids, have been shown to act as efficacious
+therapeutics for tamoxifen-resistant breast cancer, type ii diabetes and obesity via activation of the rxr:ppar␥ heterodimer,
+and induction of apoptosis in leukemic myeloid cells (boehm
+et al., 1995; bischoff et al., 1999; canan koch et al., 1999;
+cesario et al., 2001). rxr has also been implicated in the
+etiology of schizophrenia because the rxr␤ gene loci have
+been linked to the schizophrenia gene loci (goodman, 1998).
+retinoids have also been shown to regulate the dopamine d2
+receptor and other genes related to schizophrenia and parkinson’s disease (goodman, 1998; krezel et al., 1998). rxr␤
+has been found in the striatum and is distributed throughout the central nervous system, whereas rxr␣ and rxr␥
+are more restricted in their expression patterns (zetterstrom et
+al., 1999). rxr␣ and rxr␤ have been shown to co-localize
+in human epidermal keratinocytes (reichrath et al., 1997).
+rxr␣ and rxr␤ expression is also distributed in precancerous lesions of the breast and ductal carcinoma in situ (dcis)
+(ariga et al., 2000). reduction in normal rxr␤ expression has
+been implicated in prostate cancer progression (alfaro et al.,
+2003).
+although coactivator interactions with rxr␣ have been
+studied in some detail, little has been reported on rxr␤ interactions with coregulator proteins, especially in the presence
+of pa and dha. the crystal structure of rxr␤ complexed
+with the rexinoid  xxxd1077xxx  indicated that helix 12 does not
+cap the ligand binding pocket, unlike most other agonist-bound
+nuclear receptors (love et al., 2002). the crystal structure of the
+lxr␣/rxr␤ heterodimer showed each receptor bound with
+agonist and complexed to a grip-1 (also known as src-2)
+peptide with helix 12 positioned in the common agonist conformation capping the ligand binding pocket (svensson et al.,
+2003). the differences in helix 12 position between the agonistoccupied lxr␣/rxr␤ heterodimer and the  xxxd1077xxx -bound
+
+83
+
+rxr␤ suggest that coactivator binding stabilizes helix 12 in an
+active conformation (svensson et al., 2003). in addition to the
+role of helix 12 in ligand-dependent coactivator interactions,
+helix 11 of rxr␣ has been shown to also directly stabilize
+interactions with  xxxg1449xxx  coactivators (lee and noy, 2002). studies using the rar␤/rxr␣ lbd heterodimer, as compared to
+the individual receptors, indicated that heterodimerization does
+not affect the ability of each receptor to interact with the second lxxll motif of src1 in the presence of various agonists
+(pogenberg et al., 2005). however, binding of both agonists to
+the rar␤/rxr␣ lbd heterodimer induced the highest affinity
+interaction with coactivators (pogenberg et al., 2005). a similar lxxll peptide from src1 has been shown to interact
+with rxr␤ in the presence of 9-cisra but not an antagonist
+hx531 by surface plasmon resonance (kanayasu-toyoda et al.,
+2005). pgc1, originally identified as a coactivator for ppar, has
+been demonstrated as a coactivator for rxr and a pgc1-derived
+lxxll peptide interacted with rxr␣ in a time-resolved fluorescence assay (delerive et al., 2002).
+to examine the ligand-dependent recruitment of coregulator peptides to rxr␤, a homogeneous tr-fret methodology
+was employed using a  xxxg1073xxx  (gst)-tagged
+rxr␤ lbd, terbium (tb) chelate-labeled anti-gst antibody,
+fluorescein (fl)-labeled coactivator and corepressor peptides
+and various ligands. we identified several coactivator peptides
+that interacted with rxr␤ lbd in the presence of agonist and
+determined the dose dependency (ec50 ) for the ligand-induced
+rxr␤ lbd interaction with the random phage display peptide,
+d22. our results demonstrate that coactivator peptides differentially associate with rxr␤ lbd, depending on which agonist
+is occupying the receptor.
+2. materials and methods
+2.1. materials
+polypropylene 96-well plates for ligand dilutions were from nalge nunc
+(rochester, ny, usa). black low-volume 384-well plates for assays (cat. no.
+3676) were obtained from costar/corning (corning, ny, usa). the ligand
+9- xxxd2404xxx  (9-cisra) was from lkt labs (st. paul, mn, usa). the
+all-trans isomer of  xxxd3417xxx  ( xxxd3417xxx ) was from mp biomedicals (solon, oh,
+usa). phytanic acid (pa) and cis-4,7,10,13,16,19-docosahexaenoic acid (dha)
+were from sigma chemical (st. louis, mo, usa). the lanthascreen terbium
+(tb) anti-gst antibody was from invitrogen (carlsbad, ca, usa). the assay
+buffer was composed of 50 mm tris ph 7.5, 100 mm ammonium sulfate, 3%
+xylitol, 0.01% acetylated bgg and 20% glycerol and was supplemented with
+dtt to a final concentration of 5 mm immediately prior to use.
+the coregulator peptides (cavailles et al., 1995; chen and evans, 1995;
+onate et al., 1995; voegel et al., 1996; anzick et al., 1997; puigserver et al.,
+1998; chang et al., 1999; perissi et al., 1999; caira et al., 2000; rachez et
+al., 2000; heery et al., 2001; heldring et al., 2004) were obtained and labeled
+with fluorescein at the n-terminus as previously described (gowda et al., 2006).
+peptides tested, with the coactivator or corepressor interaction motif shown in
+bold, contained the following sequences:
+naturally occurring coactivator sequences
+src1-1
+src1-2
+src1-3
+src1-4
+ xxxg1511xxx -1
+
+kysqtshklvqlltttaeqql
+ltarhkilhrllqegspsd
+eskdhqllrylldkdekdl
+gpqtpqaqqksllqqllte
+dskgqtkllqllttksdqm
+
+84
+ xxxg1511xxx -2
+ xxxg1511xxx -3
+ xxxg1512xxx -1
+ xxxg1512xxx -2
+ xxxg1512xxx -3
+pgc1␣
+ xxxg1771xxx /rap250
+ xxxg1607xxx  l6
+ xxxg1607xxx  l8
+ xxxg1396xxx /drip-1
+ xxxg1396xxx /drip-2
+
+d.k. stafslien et al. / molecular and cellular endocrinology 264 (2007) 82–89
+lkekhkilhrllqdssspv
+kkkenallrylldkddtkd
+eskghkkllqlltcssddr
+lqekhrilhkllqngnspa
+kkennallrylldrddpsd
+eaeepsllkklllapantq
+vtltspllvnllqsdisag
+shqkvtllqlllghkneen
+sfskngllsrllrqnqdsy
+kvsqnpiltsllqitgngg
+ntknhpmlmnllkdnpaqd
+
+random phage display peptides
+d22
+c33
+eab1
+ xxxg302xxx 
+
+lpyegslllkllrapveev
+hvemhpllmgllmesqwga
+ssnhqssrliellsr
+sskgvlwrmlaepvsr
+
+corepressor peptides
+smrt id1
+smrt  xxxd2323xxx 
+ncor  xxxd2323xxx 
+
+ghqrvvtlaqhisevitqdytrh
+hastnmgleaiirkalmgkydqw
+nlglediirkalmg
+
+2.2. methods
+2.2.1. expression and puriﬁcation of rxrbeta ligand binding domain
+sequences containing the recombinant human rxr␤ ligand binding domain
+(amino acids 295–533; np 068811.1) were cloned into a gateway entry
+clone (pentr  xxxg1999xxx -lbd) via standard pcr cloning methods. an lr clonase
+reaction using pentr  xxxg1999xxx -lbd and pdest20 as substrates was used to
+generate an expression plasmid encoding the gst-rxr␤ fusion protein. the
+resulting expression plasmid was used to create a bacmid for baculovirus production using bac-to-bac (invitrogen). spodoptera frugiperda (sf9) cells were
+infected with the recombinant rxr␤ lbd gst baculovirus in sf900ii media
+(invitrogen) containing fbs and harvested at 3 days after infection. the lbd
+was purified using glutathione sepharose and superdex 75 chromatography to at
+least 80% purity as assessed by visual estimation on a coomassie blue-stained
+sds-page gel and stored in buffer containing 50 mm tris–hcl ph 7.5, 150 mm
+nacl, 0.5 mm edta, 0.02% triton x-100, 10 mm dtt and 50% glycerol. the
+active concentration of lbd was verified using 9-cisra-induced coactivator
+recruitment (determination of agonist ec50 ) as described below.
+2.2.2. screening of coregulator peptide interactions
+an initial evaluation of coregulator peptide interactions was conducted by
+adding 60 nm rxr␤ lbd (total protein) plus 5 ␮m ligand or equivalent volume of dmso, 500 nm fl-labeled coregulator peptide and 5 nm tb anti-gst
+antibody in a 384-well black assay plate. the plate was incubated at room
+temperature for 1 h prior to tr-fret detection, as described below.
+2.2.3. estimation of peptide afﬁnity
+fl-labeled d22 was serially diluted into assay buffer, followed by addition of
+3 nm rxr␤ lbd, 2 nm tb anti-gst antibody and 10 ␮m ligand. an identical
+titration was conducted in the absence of receptor to measure diffusion-enhanced
+fret. tr-fret was measured after 2 h. the 520 emission in the presence of
+receptor (minus the 520 emission in the absence of receptor) was plotted against
+the fl-labeled d22 concentration. the data was fit by non-linear regression
+using an equation for sigmoidal dose response (variable slope) in graphpad
+prism (graphpad software inc., san diego, ca, usa).
+2.2.4. determination of agonist ec50 for recruitment of fl-labeled d22 to
+rxrbeta lbd
+test ligands were diluted to 100× concentration in dmso and serially
+diluted in dmso in a 96-well polypropylene plate to maintain ligand solubility.
+ligands were then diluted to 2× concentration in assay buffer. the final assay
+conditions consisted of 10 ␮l ligand at 2× concentration and 2% dmso, 5 ␮l
+of a 4× rxr␤ lbd solution and 5 ␮l of a 4× mixture of tb anti-gst antibody
+
+and fl-labeled d22 peptide. the final concentrations of rxr␤ lbd, tb antigst antibody and fl-labeled d22 were 3, 2 and 350 nm, respectively, in a 20 ␮l
+volume per well at 1% dmso. negative control wells included all components
+except for: ligand (control for ligand-independent binding) or receptor (negative
+control for diffusion-enhanced fret). positive controls wells included all components and maximum agonist. after all components were added, plates were
+protected from light and incubated for 2 h (or as listed in figure legend) prior to
+measurement of tr-fret.
+2.2.5. z factor determination
+the z factor was calculated as described by zhang and colleagues with a
+value >0.5 indicating an excellent assay with high statistical reliability (zhang
+et al., 1999). the z factor was determined, in three independent experiments,
+from 24 replicate wells containing either 1 ␮m 9-cisra (positive control) or
+no ligand (dmso solvent negative control) plus 3 nm rxr␤ lbd, 350 nm
+fl-labeled d22 and 2 nm tb anti-gst antibody. the assay was protected from
+light and incubated at room temperature with tr-fret detection at 1, 2, 4, 6
+and 24 h. the z factor equation is:
+z = 1 −
+
+ 3sigma + 3sigma 
+c1
+c2
+|( xxxg1482xxx  −  xxxg1484xxx  )|
+
+where sigma c1 and sigma c2 are the standard deviations of the positive and negative control
+wells in the assay plate, respectively and  xxxg1482xxx  and  xxxg1484xxx  are mean values for the
+positive and negative control wells in the assay plate, respectively.
+2.2.6. detection of tr-fret
+tr-fret was measured on a tecan ultra plate reader (tecan, durham, nc,
+usa), as described previously (gowda et al., 2006). in brief, the terbium donor
+was excited using a 340 nm excitation filter with a 30 nm bandwidth. the terbium
+donor emission was measured using a 495 nm filter with a 10 nm bandwidth
+and the fluorescein acceptor emission was measured using a 520 nm filter with a
+25 nm bandwidth. the data was plotted as the ratio of the 520 emission to the 495
+emission versus the log of the ligand concentration. the data were fit using nonlinear regression with an equation for sigmoidal dose response (variable slope)
+in graphpad prism (graphpad software inc.) or xlfit4 (idbs, guildford, uk).
+
+3. results
+the assay used to examine ligand-dependent receptor–
+peptide interactions consisted of tb-chelate labeled anti-gst
+antibody, gst-tagged rxr␤ lbd, fl-labeled coregulator peptides containing lxxll coactivator or l-x-x-i/h-i-x-x-x-i/l
+corepressor motifs from naturally occurring proteins or fllabeled random phage display peptides, and various ligands. as
+shown schematically in fig. 1, ligand binding to rxr␤ lbd
+induces a conformational change that can lead to increased affinity for coactivator peptides. the terbium donor label is excited
+with light of 340 nm and is capable of transferring energy to the
+associated fluorescein acceptor on the bound coactivator peptide. the fluorescein acceptor emits light at 520 nm, resulting in
+an increase in the acceptor:donor (520:495) emission ratio.
+the 9-cisra-induced interaction of rxr␤ lbd was examined using 19 peptides containing nr boxes from the src  xxxg1449xxx 
+class, ppar-specific pgc1␣ and  xxxg1771xxx /rap250,  xxxg1607xxx  and
+ xxxg1396xxx  coactivators or from the ncor and smrt corepressors. four random phage display peptides were also tested,
+including d22 and c33 which resemble known coactivators
+in their sequences flanking the lxxll interaction motif, and
+eab1 and  xxxg302xxx  which were originally isolated from tamoxifeninduced interactions with  xxxg730xxx  (chang et al., 1999;
+heldring et al., 2004). in the presence of 5 ␮m 9-cisra, fllabeled pgc1␣ and d22 showed the highest fold change in
+
+d.k. stafslien et al. / molecular and cellular endocrinology 264 (2007) 82–89
+
+85
+
+fig. 1. binding of agonist to rxr␤ lbd gst induces a conformational change in the ligand binding pocket, leading to increased affinity for coactivator peptides
+bearing an lxxll or other interaction motif. after excitation with light of 340 nm, a terbium-chelate labeled antibody bound to the gst tag of the rxr␤ lbd can
+transfer energy to the fluorescein label on the coactivator peptide, yielding an increase in tr-fret. if the fluorescein-labeled coactivator peptide does not interact
+with the rxr␤ lbd, tr-fret is not detected. t, terbium.
+
+the tr-fret ratio representing recruitment to rxr␤ lbd, as
+compared to a dmso control (fig. 2a). other fl-labeled peptides that were also recruited at high levels to 9-cisra-occupied
+rxr␤ lbd were src1-4,  xxxg1771xxx /rap250,  xxxg1511xxx -3,  xxxg302xxx  and
+ xxxg1607xxx  (motif 8). the agonist-induced recruitment of coregulator peptides to rxr␤ lbd was also compared for the rar
+
+agonist,  xxxd3417xxx  and the  xxxd2154xxx , pa and dha (fig. 2b). several peptides, including d22, pgc1␣,  xxxg1512xxx -2,  xxxg1771xxx /rap250
+and src1-4 exhibited substantial recruitment to rxr␤ lbd in
+the presence of  xxxd3417xxx , pa and dha (fig. 2b). because of the
+differential recruitment of d22 to rxr␤ lbd occupied with the
+four agonists tested (figs. 2a and 2b), this peptide was chosen
+
+fig. 2. the tr-fret ratio was measured after 1 h for assay wells (n = 3) containing 60 nm rxr␤ lbd gst (total protein), 500 nm fl-labeled coregulator peptide,
+5 ␮m ligand or equivalent concentration of solvent (shown in key) and 5 nm tb anti-gst antibody. agonists tested were (a) 9-cisra (9- xxxd2404xxx ) or (b)
+dha (cis-4,7,10,13,16,19-docosahexaenoic acid), pa (phytanic acid) and  xxxd3417xxx  (all- xxxd3417xxx ); dmso, solvent control for ligand-independent binding.
+
+86
+
+d.k. stafslien et al. / molecular and cellular endocrinology 264 (2007) 82–89
+
+for further studies to examine the ligand dose dependency of
+the d22-rxr␤ lbd interaction. a matrix approach was used
+to examine concentrations of fl-labeled d22, tb anti-gst antibody and rxr␤ lbd to use in the tr-fret methodology with
+optimal concentrations defined as those that yielded a potent
+ligand ec50 and at least two-fold change in tr-fret ratio as
+compared to an unliganded rxr␤ control (data not shown).
+the final assay conditions were determined as 350 nm peptide,
+2 nm antibody and 3 nm rxr␤ lbd (total protein). use of
+a lower concentration of receptor improves the sensitivity of
+the assay to examine more potent agonist compounds and is
+advantageous in a methodology that can be employed as a high
+throughput screen. the upper and lower tr-fret plateaus may
+differ slightly from day-to-day experiments due to normal variation in gain settings, but the overall tr-fret fold-change and
+ec50 values were consistent between experiments and different
+batches of purified rxr␤ lbd.
+to estimate the affinity of fl-labeled d22 for rxr␤ lbd
+occupied with the various agonists, a titration of fl-labeled d22
+was conducted in the presence of 3 nm rxr␤ lbd, 2 nm tb
+anti-gst antibody and 10 ␮m ligand. the difference in the 520
+emission (minus the 520 emission in the absence of receptor
+to correct for diffusion-enhanced fret) was plotted against
+the fl-labeled d22 concentration after a 2 h incubation (fig. 3).
+these results indicated that rxr␤ lbd occupied with 9-cisra
+or  xxxd3417xxx  had approximate affinities (ec50 ) of 60 and 80 nm
+for fl-labeled d22, respectively. rxr␤ lbd occupied with the
+ xxxd2154xxx , pa or dha, had approximate affinities >1 ␮m for
+fl-labeled d22.
+the dose dependency of agonist-induced association of fllabeled d22 with rxr␤ lbd was determined by titrating
+increasing concentrations of 9-cisra into assay wells containing
+constant amounts of rxr␤ lbd, fl-labeled d22 peptide and
+tb anti-gst antibody. fl-labeled d22 was recruited to rxr␤
+lbd in a 9-cisra-dependent manner and was characterized by
+
+fig. 4. the tr-fret ratio was measured after 1, 2, 4, 6 and 24 h for assay
+wells (n = 24) containing 3 nm rxr␤ lbd gst (total protein), 350 nm fllabeled d22 coactivator peptide and 2 nm tb anti-gst antibody. the experiment
+shown is representative of three independent experiments. agonist was 9-cisra
+(9- xxxd2404xxx ); dmso, solvent control for ligand-independent binding.
+
+an ec50 value of 3.1 nm at 2 h (fig. 4). this ec50 was stable over
+a 24-hour time of incubation (table 1). the z factor, which provides a statistical indicator of the reliability of the methodology,
+was calculated as 0.6 after 2 h incubation and was at least 0.5
+from 1 to 6 h of incubation (table 1), indicating a methodology
+that could be employed to screen test compounds as agonists of
+rxr␤. to examine the compatibility of this assay with solvents
+often found in compound libraries, solvent tolerance tests were
+conducted with increasing concentrations of dmso, methanol
+and ethanol and indicated that the assay was stable up to 8% of
+each solvent in addition to the 1% dmso already included in
+the assay (data not shown).
+the dose dependency of 9-cisra,  xxxd3417xxx , pa and dha
+to induce an association between fl-labeled d22 and rxr␤
+lbd was also examined (fig. 5). all four agonists resulted
+in recruitment of fl-labeled d22 to rxr␤ lbd and the rank
+order potency was 9-cisra > pa >  xxxd3417xxx  > dha (fig. 5). the 9cisra ec50 of 5.8 ± 1.0 nm in this experiment, compared to the
+3.0 ± 0.1 nm determined in the z factor experiments (table 1),
+indicates some of the variability that can be observed when
+slightly different methods of ligand dilutions and plating assay
+components are used and highlight the need for consistency in
+experiments when comparing test compounds to a known agonist. both 9-cisra and  xxxd3417xxx  resulted in the most substantial
+recruitment of fl-labeled d22 to rxr␤ lbd in assay conditions
+table 1
+z factors and ligand ec50 at different incubation times
+
+fig. 3. fl-labeled d22 was serially diluted into assay buffer with final assay
+conditions containing 3 nm rxr␤ lbd gst (total protein), 2 nm tb antigst antibody and 10 ␮m ligand (shown in legend). a parallel titration was
+done in the absence of receptor to control for diffusion-enhanced fret. the
+assay was incubated for 2 h at room temperature. the delta 520 nm value is the
+520 emission from the peptide titration in the presence of rxr␤ lbd minus
+the 520 nm emission from the peptide titration in the absence of rxr␤ lbd.
+each data point is the mean of four replicates and error bars are s.e.m. the
+ec50 listed is the approximate affinity of the ligand-occupied rxr␤ lbd for
+fl-labeled d22. rfu, relative fluorescence units.
+
+read time
+
+ec50 (nm)
+
+z factor
+
+1 (h)
+2 (h)
+4 (h)
+6 (h)
+overnight
+
+3.3
+3.0
+2.9
+3.0
+3.3
+
+0.51
+0.63
+0.53
+0.50
+0.28
+
+note: ec50 values were measured over time in assays (n = 24) containing 3 nm
+rxr␤ lbd gst (total protein), 350 nm fl-labeled d22 coactivator peptide
+and 2 nm tb anti-gst antibody. z values were calculated from 24 replicates of
+maximum agonist (1 ␮m 9- xxxd2404xxx ) and no agonist (1% dmso solvent
+control). the results are the average from three independent experiments.
+
+d.k. stafslien et al. / molecular and cellular endocrinology 264 (2007) 82–89
+
+fig. 5. ligands (each at n = 4) were diluted into assay buffer containing 3 nm
+rxr␤ lbd gst (total protein), 350 nm fl-labeled d22 coactivator peptide
+and 2 nm tb anti-gst antibody. the tr-fret ratio was measured after 2 h.
+the experiment shown is representative of two independent experiments. agonists are as described in fig. 2. dmso, solvent control for ligand-independent
+binding.
+
+containing 3 nm receptor, 350 nm fl-labeled d22 and 2 nm tb
+anti-gst antibody, compared to pa and dha. the lower foldchange in tr-fret ratio observed in the presence of pa and
+dha in the dose dependency experiments, coupled with the estimations of fl-labeled d22 affinity for agonist-occupied rxr␤
+lbd, indicates that the complex of rxr␤ lbd with these fatty
+acid agonists has lower affinity for d22 than the complexes
+formed in the presence of 9-cisra and  xxxd3417xxx . it is also possible that the lower tr-fret ratio with pa and dha is due in
+part to ligand-induced alterations in the rxr␤ conformation.
+4. discussion
+our in vitro results indicate that several coactivator peptides
+tested are capable of binding to the rxr␤ lbd in response
+to ligand. rxr␤ binds with highest affinity to its physiological ligand, 9-cisra (heyman et al., 1992). as expected,
+9-cisra induced an interaction between rxr␤ lbd and several
+coactivator peptides (fig. 2a) and was the most potent ligand
+(ec50 = 3–6 nm) for recruitment of fl-labeled d22 to rxr␤
+lbd (fig. 5 and table 1). the coactivator peptide d22 was chosen for further characterization in a tr-fret assay amenable to
+high throughput applications because d22 exhibited differential
+recruitment to rxr␤ depending on which agonist was bound
+to the receptor (fig. 2b). d22 contains sequences flanking its
+lxxll motifs which resemble the sequences from the natural
+coregulators, pgc1␣,  xxxg1607xxx , shp and  xxxg1594xxx  (chang et al.,
+1999). given its resemblance to pgc1␣, the interaction of d22
+with rxr␤ is in agreement with previous findings that pgc1␣
+interacts with and coactivates human rxr␣ (delerive et al.,
+2002). the reported 9-cisra affinity values for mouse rxr␤
+are 18 or 22 nm (allenby et al., 1993; kitareewan et al., 1996).
+the ligand dose dependency values (ec50 ) reported here are a
+composite value that encompasses multiple equilibrium events
+including ligand binding to the receptor, ligand-induced receptor conformational changes and fl-labeled d22 peptide binding
+to the receptor. therefore, these ligand dose dependency values
+when measuring association with peptides may not be equivalent to the ligand affinity value in the absence of such peptides.
+
+87
+
+the increased potency of 9-cisra in mediating d22 association
+with rxr␤, compared to the reported 9-cisra affinity value for
+rxr␤, may reflect the implications from crystal structure studies that coactivator peptide binding stabilizes helix 12 of the lbd
+in an active conformation, leading to a more thermodynamically
+stable state (svensson et al., 2003).
+the interaction of coactivator peptides with rxr␤ in the
+presence of pa and dha was of particular interest. these fatty
+acids have only recently been identified as bona ﬁde ligands
+for rxr␤ (radominska-pandya and chen, 2002), and their
+role in coregulator interactions with rxr␤ in particular has
+not been explored. pa has been shown to upregulate rxr␣mediated reporter gene expression between pa concentrations
+of 4–64 ␮m, and the ki for pa displacement of 9-cisra from
+rxr␣ was 4 ␮m (kitareewan et al., 1996). our pa ec50 findings of 100 nm are more similar to the pa ic50 value of 200 nm
+for protection of photoincorporation of [3 h]9-cisra into rxr␤
+(radominska-pandya and chen, 2002). pa, a dietary fatty acid
+found in dairy products, meat and fish, is present in micromolar
+concentrations in the serum of healthy patients but can be elevated 100-fold in individuals with metabolic disorders such as
+ xxxg1741xxx  (verhoeven et al., 1998; zomer et al., 2000). pa
+has been shown to be a ligand for ppar␣, and ppar␣:rxr␤
+heterodimers exhibit synergistic transactivation of reporter gene
+expression in the presence of pa (zomer et al., 2000). thus, it is
+likely that pa and rxr␤ are important regulators of the ppar
+signaling pathway in the control of fatty acid metabolism and
+represent important drug targets for diabetes and obesity. our in
+vitro results indicate that pa-occupied rxr␤ is capable of associating with several coactivator peptides in a ligand-dependent
+manner, and this association is dependent on pa concentration as
+shown with fl-labeled d22. studies by pogenberg et al. (2005)
+using rar␤/rxr␣ lbd complexes indicate that heterodimerization does not significantly affect receptor conformation or
+the ability to recruit coactivators. studies in the presence of
+linked heterodimers will be useful to further assess the effect
+of heterodimerization on coactivator association.
+dha is a long-chain polyunsaturated fatty acid derived from
+the diet, important for early brain maturation, and present as
+30–50% of total fatty acid in mammalian brain. dha was
+demonstrated as a ligand for mouse rxr␣ and was able to
+induce association of src1 with rxr␣ in transfected cells
+and in an in vitro gst pull-down assay (de urquiza et al.,
+2000). dha was conclusively shown to be a ligand for rxr␤
+by radominska-pandya and chen, and our ec50 of 830 nm for
+dha-induced recruitment of fl-labeled d22 to rxr␤ is similar
+to the 1 ␮m dha ic50 observed in the photoprotection studies
+with 9-cisra and rxr␤ (radominska-pandya and chen, 2002).
+in our studies, dha was able to recruit coactivator peptides
+to rxr␤ in a differential manner, in the presence of different
+peptides associated to a greater extent in the presence of pa
+versus dha (fig. 2b). our studies indicate that dha binding
+results in a rxr␤ conformation that is capable of interacting
+with coactivator peptides.
+the finding that  xxxd3417xxx  was able to induce coactivator recruitment to rxr␤ lbd to the levels observed in fig. 2b was
+surprising, given the reports that  xxxd3417xxx  does not have significant
+
+88
+
+d.k. stafslien et al. / molecular and cellular endocrinology 264 (2007) 82–89
+
+affinity for rxr␤. despite this low affinity binding,  xxxd3417xxx  has
+been shown to be able to transactivate rxr␣-mediated gene
+expression with 40-fold lower potency than 9-cisra, perhaps
+due to isomerization to an active form (mangelsdorf et al., 1990;
+heyman et al., 1992). in fig. 3, rxr␤ occupied with 9-cisra
+or  xxxd3417xxx  had similar approximate affinity (60 nm versus 80 nm)
+for fl-labeled d22, under saturating ligand conditions. in our
+dose dependency assay,  xxxd3417xxx  was 50- to 100-fold less potent
+than 9-cisra in recruiting fl-labeled d22 to rxr␤ lbd (fig. 5
+and table 1), in agreement with its lower activity on rxr. in
+a [3 h]-9-cisra charcoal binding assay, excess unlabeled  xxxd3417xxx 
+was much less efficient at displacing [3 h]-9-cisra compared
+to competition with unlabeled 9-cisra, confirming that  xxxd3417xxx 
+is not binding with high affinity to our rxr␤ lbd preparation
+(data not shown).
+in summary, our results describe coactivator peptide association with rxr␤ lbd in the presence of agonists 9-cisra,
+ xxxd3417xxx , pa and dha. several peptides, including motifs from
+the src family of coactivators, pgc1␣ and d22, interacted
+with the highest signal in a homogeneous tr-fret assay. the
+methodology described here has been applied previously to
+examine other nuclear receptor–coactivator interactions (zhou
+et al., 1998; gowda et al., 2006). advantages of this tb-based
+assay include the ability to couple the tb donor with a common acceptor such as fluorescein as well as the time-resolved
+aspect of the interaction which reduces background interference from light scatter and compound autofluorescence. this
+format is being applied to other nuclear receptor–coactivator
+interactions and provides a robust and reliable method for
+high throughput screening of pharmaceutical compounds, as
+indicated by the z factors of at least 0.5. our results indicate that the rank order potency for association of d22 with
+rxr␤ lbd was 9-cisra > pa >  xxxd3417xxx  > dha and demonstrate
+that the recently identified rxr␤ ligands, pa and dha, can
+recruit coactivator peptides to rxr␤ lbd in a ligand-dependent
+manner. this assay can be used to characterize the liganddependent coactivator peptide association with rxr␤ in the
+presence of agonists, antagonists, or rexinoid compounds and
+could potentially identify compounds that may serve as novel
+therapeutics in the disruption of coactivator-receptor interactions for the treatment of cancer, neurological disorders and
+diabetes.
+acknowledgments
+the authors thank the following colleagues: mark maffitt
+and thomas zielinski for cloning; steven hayes and kurt vogel
+for preliminary experiments leading to this work; tina hallis
+for assistance with graphics and tina hallis, kurt vogel and
+richard somberg for helpful comments on the manuscript.
+references
+alfaro, j.m., fraile, b., lobo, m.v., royuela, m., paniagua, r., arenas, m.i.,
+2003. immunohistochemical detection of the retinoid x receptors ␣, ␤, and
+␥ in human prostate. j. androl. 24, 113–119.
+
+allenby, g., bocquel, m.t., saunders, m., kazmer, s., speck, j., rosenberger,
+m., lovey, a., kastner, p., grippo, j.f., chambon, p., levin, a.a., 1993.
+ xxxd3417xxx  receptors and retinoid x receptors: interactions with endogenous  xxxd2071xxx . proc. natl. acad. sci. u.s.a. 90, 30–34.
+anzick, s.l., kononen, j., walker, r.l., azorsa, d.o., tanner, m.m., guan,
+x.y., sauter, g., kallioniemi, o.p., trent, j.m., meltzer, p.s., 1997.  xxxg1512xxx , a
+steroid receptor coactivator amplified in breast and ovarian cancer. science
+277, 965–968.
+ariga, n., moriya, t., suzuki, t., kimura, m., ohuchi, n., sasano, h., 2000.
+ xxxd3417xxx  receptor and retinoid x receptor in ductal carcinoma in situ
+and intraductal proliferative lesions of the human breast. jpn. j. cancer res.
+91, 1169–1176.
+bettoun, d.j., burris, t.p., houck, k.a., buck 2nd, d.w., stayrook, k.r., khalifa, b., lu, j., chin, w.w., nagpal, s., 2003. retinoid x receptor is a nonsilent
+major contributor to  xxxg2412xxx -mediated transcriptional activation.
+mol. endocrinol. 17, 2320–2328.
+bischoff, e.d., heyman, r.a., lamph, w.w., 1999. effect of the retinoid x
+receptor-selective ligand  xxxd330xxx  on mammary carcinoma after tamoxifen
+failure. j. natl. cancer inst. 91, 2118–2123.
+boehm, m.f., zhang, l., zhi, l., mcclurg, m.r., berger, e., wagoner, m.,
+mais, d.e., suto, c.m., davies, j.a., heyman, r.a., et al., 1995. design
+and synthesis of potent retinoid x receptor selective ligands that induce
+apoptosis in leukemia cells. j. med. chem. 38, 3146–3155.
+caira, f., antonson, p., pelto-huikko, m., treuter, e., gustafsson, j.a., 2000.
+cloning and characterization of rap250, a novel nuclear receptor coactivator. j. biol. chem. 275, 5308–5317.
+canan koch, s.s., dardashti, l.j., cesario, r.m., croston, g.e., boehm, m.f.,
+heyman, r.a., nadzan, a.m., 1999. synthesis of retinoid x receptorspecific ligands that are potent inducers of adipogenesis in 3t3-l1 cells.
+j. med. chem. 42, 742–750.
+cavailles, v., dauvois, s., l’horset, f., lopez, g., hoare, s., kushner, p.j.,
+parker, m.g., 1995.  xxxg1607xxx  modulates transcriptional activation by the  xxxg730xxx . embo j. 14, 3741–3751.
+cesario, r.m., klausing, k., razzaghi, h., crombie, d., rungta, d.,
+heyman, r.a., lala, d.s., 2001. the rexinoid lg100754 is a novel
+rxr: xxxg1807xxx  agonist and decreases glucose levels in vivo. mol.
+endocrinol. 15, 1360–1369.
+chang, c., norris, j.d., gron, h., paige, l.a., hamilton, p.t., kenan, d.j.,
+fowlkes, d., mcdonnell, d.p., 1999. dissection of the lxxll nuclear
+receptor-coactivator interaction motif using combinatorial peptide libraries:
+discovery of peptide antagonists of estrogen receptors alpha and beta. mol.
+cell. biol. 19, 8226–8239.
+chen, j.d., evans, r.m., 1995. a transcriptional co-repressor that interacts with
+nuclear hormone receptors. nature 377, 454–457.
+de urquiza, a.m., liu, s., sjoberg, m., zetterstrom, r.h., griffiths, w., sjovall,
+j., perlmann, t., 2000. docosahexaenoic acid, a ligand for the retinoid x
+receptor in mouse brain. science 290, 2140–2144.
+delerive, p., wu, y., burris, t.p., chin, w.w., suen, c.s., 2002. pgc-1 functions
+as a transcriptional coactivator for the retinoid x receptors. j. biol. chem.
+277, 3913–3917.
+goodman, a.b., 1998. three independent lines of evidence suggest retinoids
+as causal to schizophrenia. proc. natl. acad. sci. u.s.a. 95, 7240–
+7244.
+gowda, k., marks, b.d., zielinski, t.k., ozers, m.s., 2006. development of
+a coactivator displacement assay for the orphan receptor estrogen-related
+receptor-gamma using time-resolved fluorescence resonance energy transfer.
+anal. biochem. 357, 105–115.
+heery, d.m., hoare, s., hussain, s., parker, m.g., sheppard, h., 2001. core
+lxxll motif sequences in  xxxg516xxx , src1, and  xxxg1607xxx 
+define affinity and selectivity for steroid and retinoid receptors. j. biol. chem.
+276, 6695–6702.
+heldring, n., nilsson, m., buehrer, b., treuter, e., gustafsson, j.a., 2004.
+identification of tamoxifen-induced coregulator interaction surfaces within
+the ligand-binding domain of estrogen receptors. mol. cell. biol. 24,
+3445–3459.
+heyman, r.a., mangelsdorf, d.j., dyck, j.a., stein, r.b., eichele, g., evans,
+r.m., thaller, c., 1992. 9-cis  xxxd3417xxx  is a high affinity ligand for the
+retinoid x receptor. cell 68, 397–406.
+
+d.k. stafslien et al. / molecular and cellular endocrinology 264 (2007) 82–89
+kanayasu-toyoda, t., fujino, t., oshizawa, t., suzuki, t., nishimaki-mogami,
+t., sato, y., sawada, j., inoue, k., shudo, k., ohno, y., yamaguchi, t., 2005.
+hx531, a retinoid x receptor antagonist, inhibited the 9-cis retinoic acidinduced binding with  xxxg1510xxx  as detected by surface
+plasmon resonance. j. steroid biochem. mol. biol. 94, 303–309.
+kitareewan, s., burka, l.t., tomer, k.b., parker, c.e., deterding, l.j., stevens,
+r.d., forman, b.m., mais, d.e., heyman, r.a., mcmorris, t., weinberger,
+c., 1996. phytol metabolites are circulating dietary factors that activate the
+nuclear receptor rxr. mol. biol. cell 7, 1153–1166.
+krezel, w., ghyselinck, n., samad, t.a., dupe, v., kastner, p., borrelli, e.,
+chambon, p., 1998. impaired locomotion and dopamine signaling in retinoid
+receptor mutant mice. science 279, 863–867.
+lee, w.y., noy, n., 2002. interactions of rxr with coactivators are differentially
+mediated by helix 11 of the receptor’s ligand binding domain. biochemistry
+41, 2500–2508.
+levin, a.a., sturzenbecker, l.j., kazmer, s., bosakowski, t., huselton, c.,
+allenby, g., speck, j., kratzeisen, c., rosenberger, m., lovey, a., grippo,
+j.f., 1992. 9-cis  xxxd3417xxx  stereoisomer binds and activates the nuclear
+receptor rxr alpha. nature 355, 359–361.
+li, d., yamada, t., wang, f., vulin, a.i., samuels, h.h., 2004. novel roles of
+retinoid x receptor (rxr) and rxr ligand in dynamically modulating the
+activity of the thyroid  xxxg1603xxx /rxr heterodimer. j. biol. chem.
+279, 7427–7437.
+love, j.d., gooch, j.t., benko, s., li, c., nagy, l., chatterjee, v.k., evans,
+r.m., schwabe, j.w., 2002. the structural basis for the specificity of
+retinoid-x receptor-selective agonists: new insights into the role of helix
+ xxxg1956xxx . j. biol. chem. 277, 11385–11391.
+mangelsdorf, d.j., evans, r.m., 1995. the rxr heterodimers and orphan
+receptors. cell 83, 841–850.
+mangelsdorf, d.j., ong, e.s., dyck, j.a., evans, r.m., 1990. nuclear receptor
+that identifies a novel  xxxd3417xxx  response pathway. nature 345, 224–229.
+onate, s.a., tsai, s.y., tsai, m.j., o’malley, b.w., 1995. sequence and characterization of a coactivator for the steroid  xxxg1603xxx  superfamily.
+science 270, 1354–1357.
+perissi, v., staszewski, l.m., mcinerney, e.m., kurokawa, r., krones, a., rose,
+d.w., lambert, m.h., milburn, m.v., glass, c.k., rosenfeld, m.g., 1999.
+molecular determinants of nuclear receptor-corepressor interaction. genes
+dev. 13, 3198–3208.
+pogenberg, v., guichou, j.f., vivat-hannah, v., kammerer, s., perez, e., germain, p., de lera, a.r., gronemeyer, h., royer, c.a., bourguet, w., 2005.
+characterization of the interaction between  xxxd3417xxx  receptor/retinoid
+x receptor (rar/rxr) heterodimers and transcriptional coactivators
+through structural and fluorescence anisotropy studies. j. biol. chem. 280,
+1625–1633.
+puigserver, p., wu, z., park, c.w., graves, r., wright, m., spiegelman, b.m.,
+1998. a cold-inducible coactivator of nuclear receptors linked to adaptive
+thermogenesis. cell 92, 829–839.
+
+89
+
+rachez, c., gamble, m., chang, c.p., atkins, g.b., lazar, m.a., freedman,
+l.p., 2000. the drip complex and  xxxg1510xxx / xxxg1449xxx  coactivators share similar
+nuclear receptor binding determinants but constitute functionally distinct
+complexes. mol. cell. biol. 20, 2718–2726.
+radominska-pandya, a., chen, g., 2002. photoaffinity labeling of human
+ xxxg1999xxx  (rxrbeta) with 9- xxxd2404xxx : identification
+of phytanic acid, docosahexaenoic acid, and lithocholic acid as ligands for
+rxrbeta. biochemistry 41, 4883–4890.
+reichrath, j., mittmann, m., kamradt, j., muller, s.m., 1997. expression
+of retinoid-x receptors (-alpha,-beta,-gamma) and  xxxd3417xxx  receptors
+(-alpha,-beta,-gamma) in normal human skin: an immunohistological evaluation. histochem. j. 29, 127–133.
+schulman, i.g., li, c., schwabe, j.w., evans, r.m., 1997. the phantom ligand
+effect: allosteric control of transcription by the retinoid x receptor. genes
+dev. 11, 299–308.
+svensson, s., ostberg, t., jacobsson, m., norstrom, c., stefansson, k., hallen,
+d., johansson, i.c., zachrisson, k., ogg, d., jendeberg, l., 2003. crystal structure of the heterodimeric complex of lxralpha and rxrbeta
+ligand-binding domains in a fully agonistic conformation. embo j. 22,
+4625–4633.
+verhoeven, n.m., wanders, r.j., poll-the, b.t., saudubray, j.m., jakobs, c.,
+1998. the metabolism of phytanic acid and pristanic acid in man: a review.
+j. inherit. metab. dis. 21, 697–728.
+voegel, j.j., heine, m.j., zechel, c., chambon, p., gronemeyer, h., 1996.  xxxg1511xxx ,
+a 160 kda transcriptional mediator for the ligand-dependent activation function af-2 of nuclear receptors. embo j. 15, 3667–3675.
+wallen-mackenzie, a., mata de urquiza, a., petersson, s., rodriguez,
+f.j., friling, s., wagner, j., ordentlich, p., lengqvist, j., heyman,
+r.a., arenas, e., perlmann, t., 2003. nurr1-rxr heterodimers mediate
+rxr ligand-induced signaling in neuronal cells. genes dev. 17, 3036–
+3047.
+zetterstrom, r.h., lindqvist, e., mata de urquiza, a., tomac, a., eriksson,
+u., perlmann, t., olson, l., 1999. role of retinoids in the cns: differential expression of retinoid binding proteins and receptors and evidence for
+presence of  xxxd3417xxx . eur. j. neurosci. 11, 407–416.
+zhang, j.h., chung, t.d., oldenburg, k.r., 1999. a simple statistical parameter
+for use in evaluation and validation of high throughput screening assays. j.
+biomol. screen. 4, 67–73.
+zhou, g., cummings, r., li, y., mitra, s., wilkinson, h.a., elbrecht,
+a., hermes, j.d., schaeffer, j.m., smith, r.g., moller, d.e., 1998.
+nuclear receptors have distinct affinities for coactivators: characterization by fluorescence resonance energy transfer. mol. endocrinol. 12,
+1594–1604.
+zomer, a.w., van der burg, b., jansen, g.a., wanders, r.j., poll-the, b.t., van
+der saag, p.t., 2000. pristanic acid and phytanic acid: naturally occurring
+ligands for the nuclear receptor peroxisome proliferator-activated receptor
+alpha. j. lipid res. 41, 1801–1807.
+

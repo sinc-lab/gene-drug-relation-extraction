@@ -1,0 +1,2044 @@
+article no. jmbi.1998.2506 available online at http://www.idealibrary.com on
+
+j. mol. biol. (1999) 286, 829±850
+
+crystal structure of  xxxg1856xxx 
+ê resolution: comparison
+from escherichia coli at 2.3 a
+of the unligated enzyme and a complex with
+a -methyl-l-glutamate
+gerko hester, wilhelm stark, markus moser, joèrg kallen
+zora markovicâ-housley and johan n. jansonius*
+biozentrum, university of
+basel, klingelbergstrasse 70
+ch-4056 basel, switzerland
+
+ xxxg1856xxx  (psat;  xxxg1856xxx ), a member of subgroup iv of the aminotransferases, catalyses the conversion of 3-phosphohydroxypyruvate to  xxxd1857xxx . the crystal structure of psat from
+escherichia coli has been solved in space group p212121 using miras
+phases in combination with density modi®cation and was re®ned to an
+ê resolution. in addition, the
+r-factor of 17.5 % (rfree  20.1 %) at 2.3 a
+structure of psat in complex with a-methyl-l-glutamate (amg) has
+ê resolution.
+been re®ned to an r-factor of 18.5 % (rfree  25.1 %) at 2.8 a
+each subunit (361 residues) of the psat homodimer is composed of a
+large pyridoxal-50 -phosphate binding domain (residues 16-268), consisting
+of a seven-stranded mainly parallel b-sheet, two additional b-strands and
+seven a-helices, and a small c-terminal domain, which incorporates a
+®ve-stranded b-sheet and two a-helices. a three-dimensional structural
+comparison to four other  xxxd3049xxx -dependent enzymes reveals that
+three a-helices of the large domain, as well as an n-terminal domain
+(subgroup ii) or subdomain (subgroup i) are absent in psat. its only 15
+n-terminal residues form a single b-strand, which participates in the
+b-sheet of the c-terminal domain. the cofactor is bound through an aldimine linkage to lys198 in the active site. in the psat-amg complex
+ser9 and arg335 bind the amg a-carboxylate group while his41, arg42
+and his328 are involved in binding the amg side-chain. arg77 binds the
+amg side-chain indirectly through a solvent molecule and is expected to
+position itself during catalysis between the plp phosphate group and the
+substrate side-chain. comparison of the active sites of psat and aspartate aminotransferase suggests a similar catalytic mechanism, except for
+the transaldimination step, since in psat the schiff base is protonated.
+correlation of the psat crystal structure to a published pro®le sequence
+analysis of all subgroup iv members allows active site modelling of  xxxg1562xxx 
+and the proposal of a likely molecular reaction mechanism.
+# 1999 academic press
+
+*corresponding author
+
+keywords: enzyme catalysis; nif s gene product; pyridoxal-50 -phosphate;
+substrate analogue complex; three-dimensional structure
+
+present addresses: w. stark, novartis pharma ag, k-681.5.45, postfach, ch-4002 basel, switzerland; j. kallen,
+novartis pharma ag, s-503.12.08, postfach, ch-4002, basel, switzerland; m. moser, danzas ag, direktion
+schweiz, st. jakobs-strasse 222, postfach 2647, ch-4002 basel, switzerland.
+abbreviations used: aat, aspartate aminotransferase; aat-ama, complex of aspartate aminotransferase with
+a-methyl- xxxd233xxx ; ama, a-methyl- xxxd233xxx ; amg, a-methyl-l-glutamate; dgd, 2,2-dialkylglycine
+decarboxylase; mir, multiple isomorphous replacement; miras, multiple isomorphous replacement and anomalous
+scattering; psat,  xxxg1856xxx ; psat-amg, complex of  xxxg1856xxx  with
+a-methyl-l-glutamate; od,  xxxg1626xxx ; plp, pyridoxal-50 -phosphate; rmsd, root mean square deviation;
+tpl, tyrosine phenol-lyase.
+e-mail address of the corresponding author: jansonius@ubaclu.unibas.ch
+0022-2836/99/000829±22 $30.00/0
+
+# 1999 academic press
+
+830
+
+structure of  xxxg1856xxx 
+
+introduction
+l-serine participates in a number of important
+metabolic pathways and is the major source of
+one-carbon units in the living cell (ichihara &
+greenberg, 1957; walsh & sallach, 1966). its biosynthesis is carried out by the enzymes of the
+``phosphorylated pathway''. this involves the d-3phosphoglycerate dehydrogenase-catalysed (ec
+1.1.1.95) and nad-linked oxidation of d- xxxd35xxx  to 3-phosphohydroxypyruvate, which
+in turn is converted to  xxxd1857xxx  in a l-glutamate-linked transamination by  xxxd1857xxx 
+aminotransferase (psat,  xxxg1856xxx ):
+l-glutamate
+
+ 3-phosphohydroxypyruvate
+
+$ 2-oxoglutarate   xxxd1857xxx 
+in the ®nal step  xxxd1857xxx  is hydrolysed to
+l-serine by l- xxxg1866xxx  (ec
+3.1.3.3; ichihara & greenberg, 1957; walsh &
+sallach, 1966). d-3- xxxg1739xxx  plays a key role in the regulation of serine biosynthesis because its substrate is an intermediate of
+the glycolytic pathway and l-serine regulates the
+activity of d-3- xxxg1739xxx  by
+feedback inhibition. catalysis by psat and l- xxxg1866xxx  does not appear to be regulated (pizer, 1963; mckitrick & pizer, 1980). it has
+been established that the phosphorylated pathway
+is functional in many different organisms, from
+bacterial cells to higher animals (pizer, 1963;
+umbarger et al., 1963; walsh & sallach, 1966;
+mckitrick & pizer, 1980).
+the aminotransferases are part of the large
+a-family of  xxxd3049xxx -dependent enzymes, and
+have been subdivided into four subgroups (mehta
+et al., 1993; alexander et al., 1994). psat, peroxisomal serine-pyruvate aminotransferases from mammals ( xxxg102xxx ), the small subunit of soluble
+hydrogenases from cyanobacteria, isopenicillin-nepimerase and the nif s gene product from bacteria
+and yeast belong to or are homologous to subgroup iv aminotransferases (mehta & christen,
+1993; mehta et al., 1993; ouzounis & sander, 1993;
+zheng et al., 1993; mehta & christen, 1994; zheng
+et al., 1994). these enzymes do not show signi®cant
+sequence identity to any other known member of
+the a-family and, upon sequence alignment, share
+a lysine in the region near position 200 which is
+probably the plp-binding residue (mehta &
+christen, 1993; ouzounis & sander, 1993).
+a-family members are characterized by an open
+a/b type structure with a typical central sevenstranded b-sheet with order of agfedbc, in which
+all strands, except g, are parallel. these proteins
+are symmetric a2 dimers or loose multiples (a4, a6,
+a12) thereof. they contain one plp molecule per
+monomer and the two subunits in the dimer share
+two active sites at the subunit interface. in addition
+to the large plp-binding a/b domain, each subunit
+contains one, two or more smaller domains that
+often differ much from enzyme to enzyme,
+
+depending on the reaction catalysed (john, 1995).
+the most extensively studied representative of the
+a-family is aspartate aminotransferase (ec 2.6.1.1;
+ford et al., 1980; jansonius & vincent, 1987; smith
+et al., 1989; kamitori et al., 1990; jaèger et al., 1994;
+john, 1995). crystal structures of other aminotransferases of the a-family have been solved as well;
+e.g. o-amino acid:pyruvate aminotransferase (ec
+2.6.1.18) from pseudomonas sp. f-126 (watanabe
+et al., 1989), dialkylglycine decarboxylase (ec
+4.1.1.64) from pseudomonas cepacia (toney et al.,
+1993, 1995), glutamate-1-semialdehyde aminomutase from synechococcus (hennig et al., 1997),
+human recombinant  xxxg1621xxx 
+(ec 2.6.1.13; shen et al., 1998).
+psat has been isolated from several different
+sources, like animal tissues (hirsch & greenberg,
+1967; lund et al., 1987), bacterial cells (schmidt &
+sojka, 1973; lewendon, 1984; duncan & coggins,
+1986; o'gaora et al., 1989; battchikova et al.,
+1996), yeast (belhumeur et al., 1994) and plant
+organisms (cheung et al., 1968; walton &
+woolhouse, 1986; reynolds et al., 1988; stolz &
+dornemann, 1994; saito et al., 1997). psat from
+escherichia coli is a homodimer of mr 79,000 and
+consists of 361 residues per subunit. its cofactor
+plp is bound through a schiff base with a pka
+of 8.4 to the active site residue lys198 (kallen
+et al., 1987; figure 1). the ph-dependence of the
+enzyme reaction, which follows a pin-pong-bi-bi
+mechanism, shows a broad maximum between
+ph 7.5 and ph 8.5 (cleland, 1963; kallen et al.
+1987). psat from e. coli was originally crystallized 11 years ago (kallen et al., 1987). a ®rst
+partial structure solution obtained by multiple
+isomorphous replacement (mir) methods and
+consisting of a  xxxd2428xxx  model containing 83 %
+of all residues was reported by stark et al.
+(1991). when further efforts (moser, 1995) did not
+lead to signi®cant progress, as an alternative
+approach the structure determination of psat
+from bacillus circulans subsp. alkalophilus was
+initiated (moser et al., 1996). however, powerful
+recent methods of phase improvement have now
+been successfully applied to e. coli psat and
+allowed the elucidation and re®nement of its
+three-dimensional structure.
+here we present the crystal structures of e. coli
+psat (native psat) and of a complex of psat
+with the substrate analogue a-methyl-l-glutamate
+ê resolution,
+(psat-amg), solved at 2.3 and 2.8 a
+respectively. this work represents the ®rst structure of a member of subgroup iv of the aminotransferases (mehta & christen, 1993; mehta et al.,
+1993; ouzounis & sander, 1993). the topology of
+the psat fold, substrate binding, catalysis and
+signi®cant differences between psat and other
+ xxxd3049xxx -dependent enzymes are discussed. correlation of the two psat crystal structures to a
+pro®le of aligned sequences of all subgroup iv
+enzymes allows us to suggest a correction of a
+proposed reaction mechanism for the nif s gene
+product, one of the nitrogen ®xation genes that
+
+831
+
+structure of  xxxg1856xxx 
+
+results and discussion
+structure determination
+
+figure 1. nomenclature of atoms for plp-lys198 aldimine and for the external aldimine with amg.
+
+encodes a cysteine desulphurase involved in metallocluster formation (mehta & christen, 1993;
+ouzounis & sander, 1993; zheng et al., 1993, 1994).
+
+the structure of psat was solved by multiple
+isomorphous replacement and anomalous scattering (miras; see materials and methods). the
+powerful combination of maximum likelihood
+heavy atom re®nement and new density modi®cation methods was instrumental in solving the
+problems previously encountered during the structure determination (otwinowski, 1991; cowtan &
+main, 1996), in combination with the recollection
+of native data on a powerful area detector.
+the only useful data set out of many trials with
+substrate and inhibitor complexes was obtained by
+soaking a native psat crystal in a solution containing amg (psat-amg). analysis of a simulated annealing omit fo ÿ fc map and a 2fo ÿ fc
+map (figure 2), generated after exhaustive torsion
+angle re®nement (see materials and methods;
+hodel et al., 1992; rice & bruènger, 1994), suggested
+binding of amg in subunit a as an external aldimine, formed between amg and plp (figure 1),
+while subunit b most likely does not bind amg to
+a signi®cant degree. observations that support this
+hypothesis are the crystal packing, suggestive of a
+signi®cantly more accessible active site of subunit
+a in comparison to subunit b (figure 3), the active
+site of which is blocked by a neighbouring molecule, and the density observed in the active site of
+subunit b which is very similar to that of the active
+sites of the unligated native psat structure. the
+psat-amg model was therefore subsequently edited and further re®ned according to this interpretation of the data.
+as summarized in table 1, the atomic models of
+native psat and psat-amg display excellent
+geometry and were re®ned with r-factors of 17.5 %
+(rfree  20.1 %) and 18.5 % (rfree  25.1 %), respectively. the higher rfree of the psat-amg model
+re¯ects the lower quality of the psat-amg data
+
+figure 2. stereo representation of the active site of subunit a of psat-amg. the model is depicted in stick mode
+and surrounded by the electron density contours of the ®nal re®ned map at a level of ls. drawn with bobscript
+(kraulis, 1991; esnouf, 1998).
+
+832
+
+structure of  xxxg1856xxx 
+
+figure 3. stick models, depicted in yellow, of the native structure in the active site region, superimposed on the
+re®ned electron density (contour level 1s). left, subunit a; right, subunit b. at the middle left in each picture the
+cofactor is seen end on, stacked against the indole ring of trp102, which on the other side stacks against the phenyl
+group of tyr101. note that the active site of subunit b is inaccessible due to a crystal lattice contact with another molecule, modelled in magenta. drawn with o (jones et al., 1991).
+
+set (bruènger, 1992). the ®rst residue of psat, a
+methionine, is cleaved off in a post-translational
+process and is therefore not present in the mature
+enzyme (duncan & coggins, 1986). however, the
+362 residue numbering is used here. the atomic
+model of the psat-amg complex compares closely to that of native psat. superpositions yielded
+ê for all atoms and 0.29 a
+ê for
+rmsd values of 0.65 a
+ca atoms only. since both models represent the
+same crystal form and care has been taken to re®ne
+both models according to the same principles, signi®cant differences between the two models should
+be mainly induced by ligand binding and differences in quality and resolution of the x-ray data.
+overall fold
+analysis of the secondary structure of psat
+with program procheck (laskowski et al., 1993)
+reveals an open a/b type structure (figure 4). each
+subunit of the psat homodimer (duncan &
+coggins, 1986) consists of two domains and has an
+ê  60 a
+ê  25 a
+ê . the large
+approximate size of 60 a
+domain is formed by residues 16-268 and contains
+the typical seven-stranded b-sheet observed in all
+a-family aminotransferases (jansonius & vincent,
+1987; john, 1995), two additional, individual
+b-strands and six a-helices. a seventh a-helix (residues 260-282) connects the large domain with the
+
+small domain (residues 3-15 and 269-362), a rather
+compact structure consisting of two a-helices and
+an extended ®ve-stranded b-sheet that is formed
+by a combination of a two-stranded parallel
+b-sheet (including the b-strand contributed by the
+n-terminal part of the small domain) and a
+three-stranded antiparallel b-sheet. the n-terminal
+b-strand is followed by a sharp turn initiated by a
+cis peptide bond between gly10 and pro11. the
+®ve-stranded b-sheet is covered by the long a-helix
+coming from the large domain and two additional
+a-helices (one of these being the c-terminal helix).
+a total of eight 310-helices or helical turns are
+observed per subunit, situated either between two
+b-strands or at the n terminus of an a-helix
+(figure 4).
+in the psat crystal there is one dimer per asymmetric unit. the subunits are related by a non-crystallographic 2-fold axis. the dimer has a rather
+open structure (figure 4(b) and (c)). nevertheless,
+the subunit interface is quite extensive. it involves
+residues 4, 6, 8, 11-14 and 323 of the small domain
+and residues 19-20, 23-24, 26-27, 32-34, 37-39, 41,
+73-74, 77, 78, 81, 109, 112-113, 197, 203, 220-225,
+238-241, 244 and 248 of the large domain. if only
+ê are considered a total
+contacts shorter than 3.8 a
+of 32 polar and 31 non-polar contacts, but no salt
+bridges are observed. the total accessible surface
+ê 2 when a probe
+area of the psat dimer is 26,667 a
+
+833
+
+structure of  xxxg1856xxx 
+table 1. statistics of data collection and re®nement
+ê)
+resolution range (a
+no. unique reflections (fobs < 2s(fobs) excluded)
+rsyma (%)
+completeness (%)
+multiplicity
+hi/s(i)i
+fraction of i > 3s (%)
+ê 2)
+wilson b-factorb (a
+no. of refinement rounds
+r-factorc (fobs < 2s(fobs) excluded) (%)
+rfreed (fobs < 2s(fobs) excluded) (%)
+ê 2)
+overall average temperature factor (a
+ê 2)
+average temperature factor for protein atoms (a
+ê 2)
+average temperature factor for solvent atoms (a
+ê 2)
+average temperature factor for ligand and plp atoms (a
+ê)
+cross-validated coordinate error (luzzati/sigmaa)e (a
+no. of refined atoms
+no. of protein residues
+no. of solvent molecules
+no. of co-factors
+no. of ligands
+ê)
+rmsd from ideal bond lengths (a
+rmsd from ideal bond angles ( )
+rmsd from ideal dihedral angles ( )
+rmsd from ideal improper angles ( )
+
+native psat
+
+psat-amg
+
+32.5-2.3
+38,831 (37,964)
+8.3
+98.2
+4.5
+14.7
+74.4
+31.0
+6
+17.5 (17.2)
+20.1 (19.7)
+33.0
+32.8
+36.1
+30.0
+0.34/0.22
+5880
+720
+241
+2
+0.01
+1.33
+24.0
+1.16
+
+39.8-2.8
+19,908 (19,241)
+9.4
+91.8
+2.7
+9.8
+66.3
+29.1
+7
+18.5 (18.1)
+25.1 (24.5)
+33.5
+33.5
+32.9
+43.1
+0.49/0.39
+5679
+720
+50
+2
+1
+0.01
+1.33
+23.86
+1.15
+
+a
+rsym  hkljjij,hkl ÿ hihklij/hkljij,hkl, where hihkli is the average of the intensity ij,hkl over j  1, . . . , n observations of symmetry
+equivalent re¯ections hkl.
+b
+ê and 3.5-2.8 a
+ê , respectively.
+resolution range used for estimation: 3-2.3 a
+c
+crystallographic r factor  (kfobsj ÿ jfcalck)/jfobsj, where fobs and fcalc are the observed and calculated structure-factor amplitude, respectively.
+d
+crystallographic r factor calculated for a subset of randomly selected re¯ections (5 % in both cases) not used in the phasing process (bruènger, 1992).
+e
+cross-validated coordinate error (kleywegt & bruènger, 1996) estimated with methods of luzzati (1952) and read (1986), respectively, using program x-plor, version 3.851 (bruènger et al., 1987).
+
+ê is used. upon dimerization
+radius of 1.4 a
+ê 2) of the surface area of
+approximately 15 % (2290 a
+each subunit is buried. the two subunits compare
+closely in both models. superpositions of subunit
+ê for
+a on subunit b yielded rmsd values of 0.54 a
+ê for ca atoms only (native
+all atoms and 0.09 a
+ê for all atoms and 0.18 a
+ê for ca
+psat) and 0.48 a
+atoms only (psat-amg). it should be noted, however, that during re®nement of both atomic models
+non-crystallographic symmetry restraints have
+been applied due to the limited resolution of the
+x-ray data.
+comparison of the overall folds of vitamin
+b6-dependent enzymes
+the dali algorithm was employed for threedimensional structural comparisons (holm &
+sander, 1993). the four highest scoring similar
+structures were: 2,2-dialkylglycine decarboxylase
+(dgd; toney et al., 1995), tyrosine phenol-lyase
+(tpl; antson et al., 1993), aat (ford et al., 1980;
+mcphalen et al., 1992a; smith et al., 1989; kamitori
+et al., 1990; jaèger et al., 1994; john, 1995) and
+ xxxg1626xxx  (od; momany et al.,
+1995a,b), all of which are  xxxd3049xxx -dependent
+enzymes. aspartate aminotransferase from e. coli
+was used for comparison purposes (smith et al.,
+1989; kamitori et al., 1990; jaèger et al., 1994). coor-
+
+dinates of further  xxxd3049xxx -dependent enzymes
+related to psat were not yet released at the time
+this work was performed (watanabe et al., 1989;
+clausen et al., 1996; hennig et al., 1997; shen et al.,
+1998).
+aat, dgd and psat belong to subgroups i, ii
+and iv of the transaminases within the a family
+of  xxxd3049xxx -dependent enzymes, respectively
+(mehta & christen, 1993, 1994; mehta et al., 1993;
+ouzounis & sander, 1993; alexander et al., 1994).
+tpl also has been assigned to the a-family but not
+to any of the three subgroups speci®cally (christen
+et al., 1994; alexander et al., 1994). od is a prokaryotic  xxxg1626xxx  that has been
+assigned to subgroup iii of the decarboxylases
+(sandmeier et al., 1994). a distinct relationship
+between subgroups i, ii and iii of the decarboxylase family and the family of aminotransferases has
+been established (sandmeier et al., 1994; momany
+et al., 1995b). the functional unit of all ®ve compared enzymes is a dimer even though dgd and
+tpl are tetramers (a ``dimer of dimers'') and od is
+a dodecamer (a ``hexamer of dimers''). structural
+comparisons of aat, tpl, dgd and od have
+established strong similarities with respect to structure and topology comprising a conserved large
+domain (seven-stranded b-sheet surrounded by
+eight to nine a-helices) and a conserved small
+domain (four to ®ve-stranded b-sheet covered by
+
+834
+
+structure of  xxxg1856xxx 
+
+three a-helices; antson et al., 1993; momany et al.,
+1995a,b; toney et al., 1995). the 3d structure comparisons with dali con®rm these ®ndings
+(figure 5(a) and 5(b)). however, three regions in
+the large domain of psat (residues 133-141, 160-
+
+166 and 181-189) deviate signi®cantly from all four
+enzymes included in the comparison. the equivalent regions of aat, od, tpl and dgd form regular a-helices while in psat only unclassi®ed coil
+structure and a one turn 310-helix in two of the
+
+figure 4(a, b) (legend opposite)
+
+structure of  xxxg1856xxx 
+
+835
+
+figure 4. amino acid sequence, overall fold and secondary structure of psat. (a) alignment of psat sequences
+including secondary structure as determined by program procheck (laskowski et al., 1993). a-helices (a),
+b-strands (b) and 310-helices or helical turns (g) are indicated. programs amps and alscript were used to determine the optimal sequence alignment and prepare the figure, respectively (barton & sternberg, 1987a,b; barton, 1990,
+1993). secondary structural elements are colour-coded red when they were used in the sequence alignment, imposing
+a higher gap penalty for these regions, and colour-coded blue when they were not used in the sequence alignment.
+active site residues that are functionally important or are believed to be functionally important are indicated by a
+red triangle. all residue positions with a conservation value higher than 5 (values range from 0 to 10, 10 being identical residue; zvelebil et al., 1987) and all positions where at least 13 of the 15 aligned sequences have an identical residue are emphasized by yellow boxes. green boxes designate positions where all residues are identical. included are,
+from top to bottom (the identi®er and sequence identity with respect to psat from e. coli are listed): escherichia coli
+(psat ecoli; 100 %), salmonella gallinarum (serc salgl; 89.8 %), salmonella typhimurium (serc salty; 88.7 %),
+yersinia enterocolitica (serc yeren; 75.6 %), haemophilus in¯uenzae (serc haein; 53.3 %), bacillus circulans subsp.
+alkalophilus (psat bacci; 45.8 %), bacillus subtilis (psat bacsu; 43.6 %), caenorhabditis elegans (psat nemat;
+45.4 %), rabbit (psat rabit; 49.3 %), arabidopsis thaliana (psat arath; 49.7 %), spinach (serc spiol; 49.2 %), saccharomyces cerevisiae (serc yeast; 40.6 %), schizosaccharomyces pombe (serc schpo; 34.9 %), mycobacterium tuberculosis (serc myctu; 21.6 %), methanosarcina barkeri (serc metba; 19.7 %). (b) ribbon plot of the psat dimer.
+helices, b-strands and loops are colour-coded red, green and yellow, respectively.  xxxd3047xxx  molecules are
+represented as space ®lling models. carbon, nitrogen and oxygen atoms are colour-coded white, blue and red,
+respectively. (c) stereo diagram of the ca trace of the psat dimer; every 30th position up to position 120 and after
+position 120 every 40th position is numbered in both subunits a and b; n and c termini are labelled as well. (b) and
+(c) display the same molecular orientation and were prepared using programs molscript (kraulis, 1991) and
+raster3d (bacon & anderson, 1988; merrit & murphy, 1994).
+
+three regions (residues 133-141 and 181-189) is
+observed (figure 4(a)). apart from a crystal contact
+formed by lys132 of subunit b none of these three
+deviating regions in psat is involved in crystal or
+inter-subunit contacts, nor are they part of or close
+to the active site. the observed density in the three
+regions is well de®ned with average temperature
+ê 2 for residues
+factors of 46.8, 40.0 and 32.7 a
+133-141, 160-166 and 181-189, respectively. the six
+a-helices of the large domain of psat all have
+topologically equivalent partners in the four compared enzymes (figure 5(a) and 5(b)). recently, the
+crystal structure of psat from bacillus circulans
+subsp. alkalophilus was determined by molecular
+replacement using the atomic model of native
+psat from escherichia coli as a search model (to be
+
+published elsewhere). a comparison of the two
+psat structures shows that the three discussed
+regions are completely conserved with respect to
+position and topology, indicating that the absence
+of three regular a-helices in the large domain with
+respect to other currently known aminotransferase
+structures is a conserved general feature of psat.
+another striking difference with the known
+structures of a-family enzymes is the following.
+instead of an n-terminal domain like in dgd, for
+example, or an n-terminal arm followed by a subdomain of the small domain as in aat, in psat
+only 15 residues precede the large domain. this
+n-terminal stretch forms a single b-strand which
+attaches to strand b13 of the pleated sheet in the
+c-terminal small domain (figure 4(a)). a small
+
+836
+
+structure of  xxxg1856xxx 
+
+figure 5. comparison of structure topologies by superpositions of ca traces of psat with those of dgd and e. coli
+aat, respectively, using dali algorithm (holm & sander, 1993). in both stereo diagrams psat is displayed in fat
+lines while the superimposed molecule is displayed in thin lines. n and c termini are labelled. (a) stereo diagram of
+superimposed ca traces of closed form of aat and psat-amg complex. (b) stereo diagram of superimposed ca
+traces of dgd and native psat. pictures generated using program bobscript (kraulis, 1991; esnouf, 1998). program raster3d was used additionally to generate (b) (bacon & anderson, 1988; merrit & murphy, 1994).
+
+domain topology consisting of ®ve b-strands and
+three a-helices is observed in psat, dgd and tpl
+(antson et al., 1993; toney et al., 1995). in od the
+small domain is formed only by c-terminal residues due to its different domain structure which
+results in loss of the n-terminal b-strand (momany
+et al., 1995a,b). aat lacks one of the four antiparallel b-strands of the c-terminal part of the small
+domain and the relative orientation of the small
+domain with respect to the large domain is quite
+different (figure 5(a); ford et al., 1980; mcphalen
+et al., 1992a,b; smith et al., 1989; kamitori et al.,
+1990; jaèger et al., 1994; john, 1995). the greater
+structural differences of the small domains of od
+and aat are probably responsible for the lower
+similarity scores (not shown) with psat in comparison with tpl and dgd.
+in summary, three a-helices of the large domain
+are absent in psat with concomitant shortening of
+the polypeptide chain and deviation in large
+domain topology with respect to the four compared enzymes. the small domain of psat is
+smaller as well although the topology is conserved
+
+in the c-terminal part. as a result psat has the
+smallest structure known so far for an aminotransferase, except for d-amino acid aminotransferase,
+which has a different fold (sugio et al., 1995).
+active site
+the two active sites of the psat dimer are situê apart at the subunit interated approximately 20 a
+face and are formed by residues of both large
+domains and one small domain. this feature, typical for  xxxd3049xxx -dependent enzymes of the
+a-family, implies that the complete dimer is essential for activity (jansonius & vincent, 1987; john,
+1995). a sequence alignment of all available psat
+sequences shows that (active site) residues his41,
+arg42, gly76, trp102, thr153, asp174, ser176,
+ser177, gln197, lys198, asn239, thr240, his328,
+arg329 and arg335 are nearly fully conserved
+(figure 4(a)).
+in each active site a plp molecule is bound in an
+aldimine linkage to lys198 and is additionally
+hydrogen bonded to residues of the two large
+
+837
+
+structure of  xxxg1856xxx 
+
+figure 6. two views of the active site of psat as stick models. all residues are labelled. (a) stereo diagram of
+native psat showing plp and surrounding residues (table 2). the hydrogen bonds made by asp a174 are drawn
+as thin lines. (b) stereo diagram of superposition of native psat (thin lines) and psat-amg complex (fat lines; a
+water molecule binding to arg77 is depicted as a ®lled circle). for further information see the text. figures generated
+using program bobscript (kraulis, 1991; esnouf, 1998).
+
+domains (figure 6(a)) and by favourable stacking
+interactions with the indole ring of trp102
+(figure 3; table 2) and van der waals interactions
+with the side-chain of ser176. further interactions
+include at least two hydrogen bonds per phosphate
+
+non-ester oxygen of plp and one hydrogenbonded ion pair formed by asp174 to the protonated pyridine nitrogen of plp (table 2). the asp
+174 carboxylate receives a total of four hydrogen
+bonds (figure 6(a)): from the plp pyridine n1 and
+
+table 2. hydrogen-bonding of plp and plp-amg to psat
+protein
+atom
+
+plp
+atom
+
+native psat
+a
+
+gly76-n
+op2
+3.1
+gly76-n
+op3
+3.1
+arg77-n
+op2
+2.7
+o30
+thr153-og1
+asp174-od2
+n1
+2.9
+op3
+2.8
+gln197-ne2
+thr240b-n
+op1
+2.8
+op1
+2.7
+thr240b-og1
+wat157
+op3
+2.5
+asn239b-nd2
+op2
+3.0
+wat15
+op1
+wat41
+op3
+wat41
+o50
+wat42
+op3
+wat6
+op3
+ê was taken as upper limit.
+3.2 a
+a
+subunit b of psat-amg complex.
+b
+residue of neighbouring subunit.
+
+psat-amg complex
+plp-amg
+distance
+ê)
+atom
+(a
+
+ê)
+distance (a
+b
+
+ba
+
+protein
+atom
+
+3.0
+2.9
+2.7
+2.8
+2.7
+2.9
+2.7
+3.2
+2.7
+3.2
+2.6
+2.5
+-
+
+3.2
+3.1
+2.9
+2.9
+2.6
+2.8
+2.9
+2.8
+3.0
+2.7
+
+gly76-n
+arg77-n
+trp102-ne1
+thr153-og1
+asp174-od1
+asp174-od2
+gln197-ne2
+lys198-nz
+asn239b-nd2
+thr240b-n
+thr240b-og1
+ser9-og
+lys198-nz
+arg42b-nz2
+wat1
+
+op2
+op2
+o30
+o30
+n1
+n1
+op3
+o30
+op2
+op1
+op1
+o
+n
+oe1
+oe1
+
+3.0
+2.8
+3.2
+2.5
+3.2
+2.8
+2.6
+2.8
+2.9
+2.8
+3.1
+2.9
+2.5
+2.7
+2.9
+
+838
+a water molecule (wat93) to od2 and from the
+peptide n and the side-chain hydroxyl of ser176 to
+od1. these interactions ®x the position and orientation of the aspl74 carboxylate, which in turn contributes to the proper anchoring of the cofactor.
+the o30 atom of the pyridine ring of plp is the
+acceptor of a hydrogen bond from thr153 in
+psat-amg. thr153 could actually adopt a different side-chain conformation in native psat and
+bind to o30 but it seems to prefer the interaction
+with the nitrogen of the indole ring of trp102. five
+of the plp-binding residues are situated near the c
+terminus of one of three b-strands from the canonical seven-stranded b-sheet in the large domain
+(jansonius & vincent, 1987; john, 1995) : thr153
+(b6); asp174 and ser177 (b8); gln197 and lys198
+(b9). the six remaining plp-binding residues
+(gly76, arg77, tyr101, trp102 and asn239-thr240
+from the neighbouring subunit) are situated near
+the n termini of a-helices a3, a4 and a6
+(figure 4(a)). the phosphate group of plp makes
+electrostatic interactions with the positive ®elds at
+the n termini of these a-helical dipoles, especially
+of helix a3. the involvement of the seven-stranded
+b-sheet and the a-helices in formation of the active
+site and binding of plp is a conserved feature of
+ xxxd3049xxx -dependent enzymes of the a-family
+(ford et al., 1980; jansonius & vincent, 1987; smith
+et al., 1989; watanabe et al., 1989; kamitori et al.,
+1990; antson et al., 1993; jaèger et al., 1994; john,
+1995; momany et al., 1995a,b; toney et al., 1995).
+his328 and arg329 of the small domain of the
+same subunit and his41 and arg42 of the large
+domain of the neighbouring subunit are located
+near the n terminus of a-helix a2 and in a loop
+between b-strands b13 and b14, respectively
+(figure 4(a)). these four residues are oriented in
+two pairs and opposite each other in the active
+site, ideally suited for binding the highly charged
+and bulky substrate phosphate group (figure 6(b)).
+arg335 is part of the last b-strand of the small
+domain and, based on its position in the active site
+and the 3d structural comparisons, is the likely
+candidate for binding the substrate a-carboxylate
+group, an essential function (figures 4(a) and 6;
+jansonius & vincent, 1987; john, 1995).
+amg is (in subunit a) bound covalently to plp
+as an external aldimine. it is oriented in the active
+site through a strong hydrogen bond between its
+a-carboxylate group and ser9 and by a close electrostatic interaction between its g-carboxylate
+group and arg42 of the neighbouring subunit
+(figures 2 and 6(b); table 2). the side-chain conformation of amg is almost ideal with energetically
+favourable torsion angles. one water molecule is
+involved in binding amg. it can make strong
+hydrogen bonds to the phosphate group of plp,
+the g-carboxylate group of amg and the guanidinium group of arg77. some changes in plp binding and conformation are observed upon
+formation of the psat-amg complex: plp has
+rotated approximately 20  around its c5-c50 bond,
+lys198 is a free residue again and forms a hydro-
+
+structure of  xxxg1856xxx 
+
+gen bond to the o30 atom of the pyridinium ring of
+plp and thr153 changes its side-chain conformation allowing it to form a strong hydrogen bond
+to the o30 atom of the pyridinium ring of plp
+(figures 1 and 6(b)). the hydrogen-bonded ion
+pair between asp174 and the protonated n1 atom
+of the plp pyridinium ring stays intact. however,
+instead of the expected hydrogen bonds, only van
+der waals contacts are observed between the substrate a-carboxylate group and arg335 and
+between the substrate g-carboxylate group and
+his41 and his328 while arg329 is too far away to
+bind to amg. the observed non-optimal binding
+mode could be the combined result of the small
+domain being restricted by crystal lattice contacts
+ê between the carbonyl
+and the close contact of 3.6 a
+group of gly10 and the a-methyl group of amg,
+which is absent in the physiological substrate. formation of a closed structure (in analogy to aat)
+would cause the small domain residue gly10 to
+move closer to amg, resulting in increased steric
+repulsion. optimal interactions between active site
+residues and substrate are therefore probably
+prohibited.
+four bound solvent molecules are observed in at
+least three of the four active sites of the combined
+psat structures. one solvent molecule mediates
+hydrogen bonds of gly10 and thr240 to plp while
+a second mediates a hydrogen bond of arg77 to
+plp. the third and fourth solvent molecules bind
+to arg42 and to arg335, respectively.
+comparisons of active sites of vitamin
+b6-dependent enzymes
+the 3d structural alignments utilizing dali (not
+shown) enable a comparison of the important
+active site residues of psat to possible functional
+analogues in od, tpl, dgd and aat (ford et al.,
+1980; jansonius & vincent, 1987; smith et al., 1989;
+kamitori et al., 1990; antson et al., 1993; jaèger et al.,
+1994; john, 1995; momany et al., 1995a,b; toney
+et al., 1995; see table 3). as expected, 3d structural
+alignment of the ®ve enzymes con®rms that
+asp174 and lys198 are strictly conserved throughout the a-family of  xxxd3049xxx -dependent enzymes
+while arg335 is conserved in all aminotransferases
+(mehta et al., 1993; alexander et al., 1994; mehta &
+christen, 1994). all enzymes have an aromatic residue capable of forming favourable stacking interactions with plp at the position equivalent to
+trp102 in psat. in tpl, tyr122 is the likely equivalent of trp102 in psat. all residues equivalent to
+gln197, with the exception of ser271 of dgd, seem
+to play similar roles in binding the plp phosphate
+group (table 2). asn239 and thr240 are not strictly
+conserved. even so, they are replaced by residues
+with comparable hydrogen-bonding properties.
+his41, arg42, his328 and arg329, the residues
+postulated to bind the substrate phosphate group,
+are not conserved in tpl, od, dgd and aat but
+are conserved in all aligned psat sequences and
+
+839
+
+structure of  xxxg1856xxx 
+table 3. a comparison of active site residues by 3d structural alignment
+psat
+arg77
+trp102
+thr153
+asp174
+ser176
+ser177
+g1n197
+lys198
+asn239
+thr240
+arg335
+
+dgd (2dkb)
+
+tpl (1tpl)a
+
+od (1ord)
+
+aatb
+
+a1a112
+trp138
+ser214
+asp243
+a1a245
+g1n246
+ser271
+lys272
+thr303
+his304
+arg406
+
+arg100
+tyr122
+asn185
+asp214
+thr216
+arg217
+lys256
+lys257
+gly293
+arg404
+
+ser199
+his223
+tyr292
+asp316
+a1a318
+trp319
+his354
+lys355
+thr395
+ser396
+-
+
+thr109
+trp140
+asn194
+asp222
+a1a224
+tyr225
+ser257
+lys258
+ser296
+asn297
+arg386
+
+the dali algorithm (holm & sander, 1993) was used to make the structural comparisons. in parentheses the protein data bank
+id of the compared enzyme is listed (bernstein et al., 1977).
+a
+the listed residues of tpl are speculative because the tpl structure corresponds to the apoenzyme. a sulphate ion is bound at
+the assumed binding site of the plp phosphate (antson et al., 1993).
+b
+7aat, 1aaw and 1asl protein data bank entries were utilized for dali searches. the sequence numbering of the 7aat protein data bank entry is used throughout.
+
+therefore probably form a unique signature of
+psat (figure 4(a)).
+in psat, arg77 makes a hydrogen bond to the
+plp phosphate group and also seems to play a
+role in binding the substrate (figure 6(a) and (b)).
+the presumed dual role of this residue is probably
+different from the function of the equivalent residues in dgd, tpl, od and aat as judged from
+analysis of the superimposed structures and the literature (jansonius & vincent, 1987; smith et al.,
+1989; kamitori et al., 1990; mcphalen et al., 1992b;
+antson et al., 1993; jaèger et al., 1994; john, 1995;
+momany et al., 1995a,b; toney et al., 1995). in subunit a of native psat, arg77 adopts two alternative conformations, binding either directly to the
+plp phosphate group or indirectly through a solvent molecule, while in subunit b of native psat
+and in both subunits of psat-amg only the latter
+conformation is observed where arg77 binds plp
+indirectly (figure 6). the two conformations of
+arg77 in subunit a of native psat differ mainly in
+the torsion angle w4, which adopts a value of either
+ÿ51  or 106  . the difference in solvent accessibility of the two psat subunits could explain why
+arg77 is less ordered in subunit a of native psat.
+on the assumption that the substrate  xxxd1857xxx  binds just like amg the estimated distance
+between the phosphate groups of plp and  xxxd1857xxx  in an external aldimine adduct of psat
+and  xxxd1857xxx  would only be approximately
+ê . optimal stabilization would be achieved by
+7a
+placing the guanidinium group of arg77 between
+the two phosphate groups, instead of a solvent
+molecule. in an oxime complex of mitochondrial
+aat with the monocarboxylic hydroxylamine analogue of  xxxd233xxx ,  xxxd439xxx , arg292, the
+residue that binds the substrate o-carboxylate
+group, made a hydrogen-bonded ion pair with the
+carboxylate of the inhibitor, but was observed to
+adopt two alternative conformations in the open
+crystal form while adopting only one conformation
+in the closed crystal form (markovic-housley et al.,
+1996). since arg42 and arg77 of psat both take
+
+part in binding the amg g-carboxylate group
+(table 2), these two residues probably perform the
+same function as arg292 in aat which is contributed by the neighbouring subunit, just like arg42 in
+psat.
+figure 7(a) and (b) shows the cofactor and
+selected active site residues of native psat superimposed, using dali, on the corresponding
+regions of aat and dgd, respectively. the conformation of the latter resembles that of psat most
+closely, in spite of its different reaction and substrate speci®city. while the a-carbon atoms of
+lys258, asp222 and trp140 of aat superimpose
+reasonably well on those of lys198, asp174 and
+trp102 of psat (table 3), the phosphate group of
+plp deviates strongly in the two enzymes. this
+presumably is a consequence of the relative shift of
+helix a3 in psat and helix a5 in aat, at the n terminus of which the phosphate group is bound.
+possibly, arg266, which makes two hydrogen
+bonds to the plp phosphate in aat (mcphalen
+et al., 1992a) and has no counterpart in psat and
+dgd, is also in part responsible for this shift,
+which results in different orientations of the two
+cofactors. in spite of this, the tryptophan indole
+groups stack parallel to the pyridine rings in both
+enzymes. the different positions of arg386 of aat
+and arg335 of psat are a consequence of the nonequivalent positions of the small domains in the
+two enzymes (figure 5(a)). there are no further
+conserved active site residues (table 3; figure 7(a)).
+arg b292 of aat is replaced in psat by arg a77
+and arg b42 on either side of it, in line with the
+double negative charge of the phosphate group of
+its substrate. the involvement of a third arginine,
+arg a329, cannot be excluded as an alternative to
+arg a77.
+as mentioned above, the active sites of psat
+and dgd superimpose better. this is most obvious
+for the cofactors. in fact, comparison of figure 5(a)
+and (b) reveals the more similar overall folds, as
+exempli®ed for example by the better superposition of the phosphate-binding a-helices a3 and a4,
+
+840
+
+structure of  xxxg1856xxx 
+
+figure 7. stereo diagrams (stick models) of active site of psat (fat lines) superimposed, using dali (holm &
+sander, 1993) on those of aat or dgd (thin lines). all residues are labelled. (a) native psat structure superimposed
+on that of aat. (b) native psat structure superimposed on that of dgd. (c) psat-amg structure superimposed on
+the closed form of aat complexed with a-methylaspartate (ama). drawn with bobscript (kraulis, 1991; esnouf,
+1998).
+
+respectively, and especially the two small domains.
+accordingly, arg335 in psat and arg406 in dgd
+
+superimpose rather well. the indole of trp138 in
+dgd does not stack against the plp pyridine ring.
+
+structure of  xxxg1856xxx 
+
+instead, it provides a non-polar surface contributing to one of the three substrate subsites (toney
+et al., 1995). asp243 in dgd and aspl74 in psat
+superimpose well. the same is true for gln246 in
+dgd and ser177 in psat, with as consequence
+that the latter with its shorter side-chain cannot
+quite make a hydrogen bond with the plp o30 . no
+further similarities can be found (table 3;
+figure 7(b)).
+a comparison of substrate analogue
+complexes of psat and aat
+comparison of the psat-amg complex with a
+similar complex of aat from escherichia coli, that
+with a-methyl- xxxd233xxx  (aat-ama; figures 5(a)
+and 7(c)), allows us to analyse possible differences
+and similarities between psat and the best studied representative of the aminotransferases, aat
+(dunathan, 1971; ford et al., 1980; jansonius &
+vincent, 1987; smith et al., 1989; kamitori et al.,
+1990; goldberg et al., 1991; inoue et al., 1991;
+mcphalen et al., 1992a,b; yano et al., 1993; jaèger
+et al., 1994; john, 1995; markovic-housley et al.,
+1996). first, the plp cofactor in the aat-ama
+complex has a quite different orientation compared
+to plp in the psat-amg complex. the most relevant structural differences responsible for this are
+the already mentioned shift of a-helix 5 of aatama with respect to helix a3 of psat and the
+hydrogen bonding of arg266 of aat-ama with
+the plp phosphate group (figures 4(a), 5(a) and
+7(c); jaèger et al., 1994). a similar interaction of an
+arginine with the plp phosphate group is not
+observed in od, tpl, dgd and psat. binding of
+the plp phosphate group to the n terminus of an
+a-helix (helix 5 in aat), on the other hand, is a
+conserved feature of  xxxd3049xxx -dependent
+enzymes (john, 1995). the different relative orientations of the small domains of psat and aat
+mentioned above (figure 5(a)) has the effect that
+arg386 of aat does not superimpose on arg335
+of psat. their guanidinium head groups are only
+ê apart (figure 7(c)).
+ê , but their ca atoms 7.8 a
+4.0 a
+another difference is that contrary to the situation
+in aat there is very little space in the active site of
+psat for the methyl group of amg, already in
+the present, supposedly open, conformation, as
+demonstrated by the above described observed
+close contact with the carbonyl group of gly10.
+this difference should, however, not in¯uence the
+catalytic mechanism signi®cantly when one of the
+regular substrates is bound.
+a fourth signi®cant difference between aat and
+psat is the pka value of the imine nitrogen of the
+internal schiff base. for aat this value is about
+6.5, causing aat to be largely unprotonated near
+neutral ph where the enzyme is active while for
+psat this pka value is 8.4, implying that the imine
+nitrogen of the internal schiff base is up to 90 %
+protonated at ph 7.5-8.5 where the enzyme is
+active (jansonius & vincent, 1987; kallen et al.,
+1987; john, 1995). actually, aat is an exception
+
+841
+because for most aminotransferases the imine
+nitrogen of the internal schiff base is protonated in
+their active state (john, 1995). asn194 of aat,
+topologically equivalent to thr153 (table 3), forms
+a hydrogen bond to atom o30 of the plp pyridinium ring and to the side-chain of arg386, equivalent to arg335 of psat. the postulated role of
+asn194 is to decrease the pka value of the internal
+aldimine group, facilitating the transaldimination
+step of the catalytic reaction, and to contribute to
+the proper orientation of the arg386 side-chain for
+binding to the substrate a-carboxylate group. the
+aat residue tyr225, equivalent to ser177, binds to
+the o30 atom of plp as well and in doing so also
+lowers the pka value of the internal aldimine
+group (goldberg et al., 1991; inoue et al., 1991;
+yano et al., 1993). in the unligated state of psat no
+hydrogen bond to atom o30 of plp is made. contrary to asn194 of aat, thr153 only contributes a
+hydrogen bond to atom o30 of plp when amg is
+bound, and does not interact with arg335 at all
+(table 2). instead, residue ser9 makes a hydrogen
+bond to arg335 and amg. therefore, the insuf®cient stabilization of the negative charge of atom
+o30 of plp by hydrogen bonding may well explain
+why the pka value of the imine nitrogen of the
+internal schiff's base of psat is so high. the alignment of psat sequences (figure 4(a)) shows that
+thr153 and ser177 are completely conserved while
+only in four out of 15 sequences a serine or asparagine residue is found at position 9. a search for a
+different residue with a similar function as ser9
+by relating the crystal structures of psat from
+b. circulans subsp. alkalophilus and e. coli to the
+aligned psat sequences was not successful. these
+results suggest that in most psat enzymes from
+different sources the functions of asn194 and
+tyr225 of aat are likely to be performed by
+thr153 and possibly ser177, which in e. coli psat
+is a little too far away to contribute signi®cantly.
+although the comparison of psat to aat has
+revealed differences with respect to cofactor and
+substrate binding, some similarities are observed
+as well when comparing the psat-amg and
+aat-ama complexes. first, the substrate analogues amg and ama are oriented in the active
+site in a similar way, interacting with corresponding regions of the respective active sites
+(figure 7(c)). secondly, the ca-ch3 bond in the
+plp-amg external aldimine is perpendicular to
+the conjugated double bond system of the cofactor
+(figures 2 and 6(b)). this orientation is also
+observed in the aat-ama complex (figure 7(c))
+and is the most favourable one for release of the
+ca-proton from the substrate (dunathan, 1971;
+jansonius & vincent, 1987; john, 1995). in both
+complexes the plp-binding lysine is ideally positioned to deprotonate the substrate ca of the plpsubstrate external aldimine and subsequently
+reprotonate the adduct of the c40 atom of plp
+which are, at least in aat, partially rate-limiting
+steps in the catalytic mechanism (dunathan, 1971;
+
+842
+kirsch et al., 1984; jansonius & vincent, 1987;
+kuramitsu et al., 1990; goldberg & kirsch, 1996).
+psat compared to other subgroup iv enzymes
+four invariant residues have been identi®ed in
+all aminotransferases. in psat these are apart
+from the above described plp-binding lysine
+(lys198), the aspartate that forms a salt bridge to
+the pyridinium nitrogen of plp (asp174), the arginine that binds the a-carboxylate group of the substrate (arg335), and a glycine present in a turn at
+the interface between the small and large domains
+(gly156) (mehta et al., 1993). pro®le sequence analysis has indicated the homology of several gene
+products to psat and serine aminotransferase,
+suggesting that these proteins are most closely
+related to subgroup iv of the aminotransferases:
+the small subunit of soluble hydrogenases from
+cyanobacteria, isopenicillin-n-epimerase and the
+nif s gene product from bacteria and yeast (mehta
+& christen, 1993, 1994; mehta et al., 1993;
+ouzounis & sander, 1993). apart from the invariant aminotransferase residues described above
+three additional ones have been identi®ed in subgroup iv (mehta & christen, 1993; ouzounis &
+sander, 1993): gly204 is part of a loop between bstrands b9 and b10, asp306 is situated at the
+amino terminus of 310-helix g8 and thr240 is positioned in a loop near the amino terminus of a-helix
+a6 (figure 4(a)). gly204 and asp306 do not have
+an obvious mechanistic function while thr240 contributes to binding the plp phosphate group, as
+described above.
+correlation of a pro®le sequence analysis of all
+known members of subgroup iv to the psat crystal structure allows us to determine additional conserved active site residues (ouzounis & sander,
+1993). conserved residues are likely to have one of
+three possible functions: to bind plp, to bind the
+non-varying part of the substrate (a-carboxylate
+group) or to play a catalytic role. the analysis indicated that the plp-binding residues gly76, arg77,
+ser177 and asn239 are probably not conserved
+while gln197 in the other members is either a glutamine or a histidine, also capable of binding a
+phosphate group. trp102 is largely conserved and
+might be replaced by a histidine in the nif s gene
+products, assuming it is shifted by four residues in
+serine aminotransferase and the nif s gene products. thr153 seems to be conserved in all subgroup iv members, except for two of the six nif s
+gene product sequences, and it is with thr240 one
+of only two subgroup iv-speci®c plp-binding
+residues.
+ser9, like arg335 involved in binding the a-carboxylate group of amg (table 2), is not conserved
+in subgroup iv. as expected, arg42, arg77 and
+arg329 are also not conserved, since they are
+involved in binding the psat-speci®c part of its
+substrate. however, his41 and his328, likewise
+involved in binding the substrate, might be exceptions. in all  xxxg1562xxx  gene products his41 is probably
+
+structure of  xxxg1856xxx 
+
+replaced by a histidine at position 40 while his328
+is conserved in the soluble dehydrogenase
+sequences and is replaced in all nif s gene product
+sequences by a cysteine with an important catalytic
+function (ouzounis & sander, 1993; zheng et al.,
+1993, 1994). not much information is currently
+available about the small subunit of soluble hydrogenases from cyanobacteria and isopenicillin-nepimerase. correlation of their sequences to the
+psat crystal structure does not lead to any new
+suggestions for possible functionally important
+active site residues.
+substrate specificity
+experiments with psat from the green alga
+(scenedesmus obliquus) have shown that with two
+exceptions none of several substrate analogues
+examined revealed more than 2.5 % of the enzyme
+activity for  xxxd1857xxx  (stolz & dornemann,
+1995). only 4,5-dioxovalerate and glutamate-lsemialdehyde behaved clearly as substrates, exhibiting 7 % and 7.4 % of the activity for  xxxd1857xxx , respectively. studies with psat from beef
+liver revealed that this enzyme accepts 2 -amino-4phosphonobutyrate, 2-amino-5-phosphono-valerate
+and homocysteate as substrates, although speci®c
+activities towards these compounds were not
+reported (basurko et al., 1989). it was established
+for psat from b. circulans subsp. alkalophilus that it
+is responsible for the majority of the total
+measured aat activity (battchikova et al., 1996).
+also psat from e. coli has been reported to readily
+accept  xxxd233xxx  as a substrate (lewendon,
+1984).
+the active site of psat is optimised for binding
+its substrates l-glutamate, 3-phosphohydroxypyruvate, 2-oxoglutarate and  xxxd1857xxx . all four
+molecules have side-chains of equal length. analysis of the psat-amg complex seems to suggest
+that despite the reduced length of the side-chain of
+ xxxd233xxx  in comparison to l-glutamate or  xxxd1857xxx , it should be bound suf®ciently well to
+be a substrate, due to the presence of several arginine residues in the active site that can make ion
+pairs, and probably hydrogen bonds as well, with
+the aspartate side-chain.
+catalytic mechanism
+it is interesting to compare the catalytic mechanism of psat with that of the related enzyme aat
+since they both work on substrates with a negatively charged side-chain (ford et al., 1980; kirsch
+et al., 1984; jansonius & vincent, 1987; smith et al.,
+1989; kamitori et al., 1990; kuramitsu et al., 1990;
+goldberg et al., 1991; inoue et al., 1991; mcphalen
+et al., 1992a,b; yano et al., 1993; jaèger et al., 1994;
+john, 1995; goldberg & kirsch, 1996; markovichousley et al., 1996). the ®rst chemical step in the
+catalytic mechanism of aat concerns the transfer,
+in the michaelis complex, of a proton of the
+charged substrate amino group to the unproto-
+
+843
+
+structure of  xxxg1856xxx 
+
+nated imine nitrogen of the internal schiff base, followed by nucleophilic attack of the substrate
+amino group on the c4' carbon atom of the cofactor, resulting in formation of the external aldimine
+intermediate between plp and the substrate. subsequently, deprotonation of the a-carbon atom of
+the substrate followed by reprotonation at the c40
+carbon atom of plp to produce the ketimine intermediate take place. finally its hydrolysis to the
+oxo acid product and release of that complete the
+catalytic half-reaction.
+at physiological ph values, the plp-aldimine
+nitrogen of psat is largely protonated (kallen
+et al., 1987) and consequently transaldimination is
+slowed down considerably. the small percentage
+of the substrate molecules with an uncharged
+a-amino group could immediately react with the
+schiff-base-protonated form of psat, a reaction
+pathway recently suggested by hayashi & kagamiyama (1997). alternatively, the psat molecules
+with unprotonated schiff base can react with the
+substrate molecules with charged a-amino groups.
+an active site group that has both the correct position and proton af®nity to attract the third proton
+of the substrate a-amino group is lacking. the
+alternative reactions listed above are probably suf®cient.
+the above described comparison of the psatamg and aat-ama complexes has revealed
+similarities in substrate binding. in both enzymes
+the external aldimine adduct is oriented in the
+active site in a similar way and interacts with the
+same regions. the ca ± ch3 bond in the plp-amg
+external aldimine is perpendicular to the conjugated double bond system of the cofactor, a most
+favourable orientation for release of the ca-proton
+from the substrate, and the plp binding lysine is
+ideally positioned to deprotonate the substrate ca
+and reprotonate the adduct of the c40 atom of plp.
+the observed similarities suggest that the second
+part of the catalytic half-reaction, formation of the
+ketimine intermediate and its hydrolysis to the oxo
+acid product, are likely to proceed by a similar
+mechanism in psat and aat.
+a proposal for the catalytic mechanism of the
+nif s gene product
+a possible mechanism for the desulphurization
+of l-cysteine catalysed by the nif s gene product
+has been proposed by zheng et al. (1994). after
+entry of the substrate l-cysteine in the active site of
+the nif s gene product an external aldimine is
+formed with plp by nucleophilic attack of the substrate amino group on the c40 atom of plp. in the
+next step of the proposed catalytic mechanism the
+a-carbon atom of the substrate is deprotonated and
+a cysteinyl residue (cys325) protonates the c40
+atom of the cysteine-pyridoxal quinonoid intermediate which activates it as a nucleophile. subsequently, the cys325 sÿ carries out a nucleophilic
+attack on the resulting cysteine-pyridoxal ketimine
+intermediate. this leads to the formation of a pro-
+
+tein-bound persulphide, the proposed sulphur
+donor in fe-s core formation, and the plp-ketimine of the product, l-alanine, which in the ®nal
+step of the catalytic mechanism is released.
+although the above described mechanism is a
+plausible proposal, the suggested protonation of
+the c40 atom of the cysteine-pyridoxal quinonoid
+intermediate by cys325 does not seem to be very
+probable. the plp-binding lysine is a priori more
+likely to perform this function, as in aspartate
+aminotransferase (jansonius & vincent, 1987; john,
+1995) and, presumably, in psat, because it is
+optimally positioned to do so (figures 6(b) and
+7(c)). a different mechanism for the activation of
+the catalytic cysteine would therefore be required.
+the potentially conserved his41 of psat, proposed to be present at position 40 in the nif s gene
+product, would be a possible candidate for deprotonation of the catalytic cysteine side-chain. utilizing the psat-amg complex as a starting model, a
+cysteine replacing his328 (structural equivalent of
+cys325), a cysteine replacing the inhibitor amg,
+forming a quinonoid intermediate with plp, and a
+histidine replacing ser40 of the neighbouring subunit (as described above), were modelled in the
+active site. they were arranged and positioned
+with near-optimal side-chain conformations to
+improve their interactions (figure 8). the modelling experiment suggests an approximate distance
+ê between the sulphur of the catalytic cysteine
+of 6 a
+side-chain and the histidine side-chain of the
+neighbouring subunit, too far away to allow deprotonation of the catalytic cysteine side-chain. however, the local conformation of the main-chain in
+the active site of the nif s gene product might suf®ciently deviate from that of psat to bring the histidine side-chain much closer. sequence identities
+below 25 % for members of subgroup iv make considerable structural deviations especially of the
+dimeric quaternary structure, likely (mehta &
+christen, 1993; ouzounis & sander, 1993). the
+approximate distance between the two modelled
+ê . assumcysteine side-chain sulphur atoms is 4.3 a
+ing that the catalytic cysteine, being part of the
+small domain, approaches the cysteine moiety in
+the quinonoid intermediate more closely during
+catalysis, this distance might be further reduced,
+allowing nucleophilic attack by the catalytic
+cysteine. alternatively, at ph values around 8 the
+cys325 thiol group may be ionized for a suf®cient
+fraction of the time that a catalyst for its deprotonation is unnecessary.
+
+conclusions
+the structure of psat provides insight into the
+structural differences of a representative of subgroup iv with respect to other aminotransferases
+of subgroups i and ii. the most signi®cant topological difference is the absence of three canonical
+a-helices in the large domain of psat and
+reduction of the n terminus to a single b-strand.
+
+844
+
+structure of  xxxg1856xxx 
+
+figure 8. stereo diagram showing modelled plp-amg ketimine adduct and surrounding residues (colour-coded
+green) ser40, his41 and his328 of psat from e. coli. superimposed are two upon sequence alignment equivalent residues from the nif s gene product of azotobacter vinelandii (his40 and cys325) and its substrate l-cysteine (colourcoded red), forming a quinonoid intermediate with plp (see the text; ouzounis & sander, 1993; zheng et al., 1994).
+all residues are labelled. figure generated utilizing bobscript (kraulis, 1991; esnouf, 1998).
+
+analysis of the active site of psat and of the
+complex with amg demonstrates that the enzyme
+is well adapted for binding a highly negatively
+charged substrate side-chain. the substrate a-carboxylate group is bound by a conserved arginine,
+typical for aminotransferases, and a serine which is
+not even conserved in the aligned psat sequences
+and is therefore probably not essential for the catalytic function of psat. two histidine/arginine
+pairs, each at one side of the active site, are available to compensate for the three to four negative
+charges of the plp phosphate group and the substrate side-chain, in close proximity to each other.
+only one of the two arginine residues makes a
+hydrogen bond with amg, however. a third arginine binds the amg side-chain indirectly through
+a solvent molecule but is expected to position itself
+during catalysis between the plp phosphate group
+and the substrate side-chain. comparison to other
+aminotransferases and a sequence alignment of all
+known psat sequences leads to the conclusion
+that this particular residue arrangement in the
+active site is probably unique for psat.
+the absence of stabilization for the o30 atom of
+plp in psat provides a possible explanation for
+the high pka value of the imine nitrogen of the
+internal schiff base. the resulting protonation of
+the imine nitrogen at the ph range where psat is
+active has consequences for the catalytic mechanism. however, comparison of the psat-amg complex with that of aat with a-methylaspartate
+revealed analogous orientations of the external
+aldimine adducts and the plp-binding lysine residues and a most favourable orientation in both
+complexes of the substrate ca ± ch3 bond with
+respect to the cofactor conjugate double bond system. therefore, it is not unlikely that the catalytic
+mechanism of psat differs from aat only in the
+®rst step of the catalytic half-reaction. better understanding of this subject might be gained by further
+biochemical characterization of e. coli psat and a
+structure of its putative closed complex.
+correlation of the psat crystal structure to a
+published pro®le sequence analysis of all subgroup
+iv members indicates a possible conservation of
+his41 in the  xxxg1562xxx  gene product where it might have
+a catalytic function. until further crystal structures
+
+of subgroup iv members become available the
+overall equivalences and distinctions between subgroup iv members and those of subgroups i and ii
+remain speculative.
+
+materials and methods
+crystallization and heavy atom derivatives
+psat was isolated, puri®ed and crystallized as
+reported previously (lewendon, 1984; duncan &
+coggins, 1986; kallen et al., 1987). crystallization was
+performed at 4-7  c by the hanging drop method, using
+peg 4000 as a precipitating agent, buffered with sodium
+acetate to ph 7.2 in the drop and to ph 5.6 in the reservoir. the ph-gradient was essential for the crystallization. the space group of the psat crystals is p212121.
+there is one dimer in the asymmetric unit.
+heavy atom derivatives were obtained by soaking
+experiments (table 4). one heavy atom derivative was
+prepared by iodination, with i2/ki, of tyrosine sidechains. psat crystals were transferred into 5 ml of a stabilizing solution which contained 20 % (w/v) peg 4000
+and was buffered with 50 mm sodium acetate to ph 6.0.
+a total of 4 ml of 50 mm ki solution in methanol was
+added in 1 ml amounts at intervals of a few minutes.
+after one hour the solution was treated with 1 ml of
+50 mm iodine in methanol. the reaction was allowed to
+proceed for 15 hours, after which the crystals were
+washed in a stabilizing solution to remove unreacted
+iodine ions. for the preparation of two heavy atom
+derivatives (methylmercury acetate and i2/ki) glutaraldehyde-crosslinked crystals were used. for this purpose
+the psat crystals were soaked for 48 hours in 0.025 %
+(w/v) glutaraldehyde in stabilizing solution.
+data collection and processing
+ê resolution was collected at
+a native data set to 2.3 a
+4  c on a mar image plate area detector, using a single
+crystal. these data were processed with denzo (version
+1.6.2) and reduced with scalepack (version 1.6;
+otwinowski & minor, 1997). cell dimensions are
+ê , b  94.74 a
+ê , c  133.64 a
+ê . all other data
+a  68.74 a
+sets were collected on an enraf-nonius fast area detector at 4  c. these data were processed with madnes
+(messerschmidt & p¯ugrath, 1987) and reduced with
+programs from the ccp4 program suite (collaborative
+computational project, 1994). x-rays were generated
+with an elliott gx-20 rotating anode generator operated
+
+table 4. statistics of heavy atom derivatives and re®nement of heavy atom sites
+derivativea
+uranyl nitrate
+emts
+ptcl62ÿ
+ircl62ÿ
+i2/ki
+mma
+tlcl
+sm-acetate
+a
+
+soak
+(mm/hour)
+
+resolution
+ê)
+limits (a
+
+no. of unique
+reflections
+
+completeness
+(%)
+
+rsymc
+
+rbiso
+(on f)
+
+no. of
+sites
+
+1/18
+1/24
+1/5
+1/6
+50/15
+0.1/18
+0.5/3
+0.5/10
+
+15.1-2.7
+15.1-2.7
+42.6-3.2
+10.0-3.0
+37.2-3.2
+34.1-3.2
+44.6-2.8
+10.0-3.2
+
+20033
+20938
+13206
+14172
+14031
+13365
+19359
+13281
+
+81.2
+86.0
+89.9
+79.4
+93.9
+91.2
+89.3
+83.6
+
+0.054
+0.054
+0.065
+0.156
+0.074
+0.153
+0.071
+0.131
+
+0.202
+0.154
+0.197
+0.286
+0.167
+0.192
+0.199
+0.273
+
+2
+7
+5
+5
+4
+5
+4
+6
+
+phasing powderd
+rcullise
+acentric/centric
+1.23/0.88
+1.70/1.14
+1.14/0.73
+0.80/0.53
+0.67/0.51
+1.23/0.77
+0.43/0.31
+0.50/0.36
+
+0.93/0.90
+0.83/0.84
+0.84/0.91
+0.90/0.93
+0.94/0.93
+0.83/0.86
+0.94/0.96
+0.93/0.95
+
+emts, ethylmercury thiosalicylate; i2/ki, iodination of tyrosine side-chains, glutaraldehyde crosslinked crystals; mma, methylmercury acetate, glutaraldehyde crosslinked crystals.
+riso  (kfphj ÿ jfpk)/jfpj, where fp and fph are the structure factor amplitudes of the native protein and heavy atom substituted protein, respectively.
+c
+rsym  hkljjij,hkl ÿ hihklij/hkljij,hkl, where hihkli is the average of the intensity ij,hkl over j  1, . . . , n observations of symmetry equivalent re¯ections hkl.
+d
+phasing power is de®ned as the ratio of the heavy atom structure factor and the rms lack-of-closure error.
+e
+rcullis  hklkfph  fpj ÿ fh(calc)j/jfph ÿ fpj, where fph, fp and fh(calc) are the derivative, native and calculated heavy atom structure factors, respectively.
+b
+
+846
+ê resolution was
+at 40 kv and 70 ma. a data set to 2.8 a
+collected at 4 c from a single psat crystal, soaked 24
+hours in sodium acetate buffer at ph 6.5, containing
+25 % (w/v) peg 4000, 20 mm nacl and 200 mm aê,
+methyl-d,l-glutamate. cell dimensions were a  68.86 a
+ê , c  131.81 a
+ê . relevant statistics are listed in
+b  94.45 a
+tables 1 and 4.
+structure solution
+phases were obtained by the method of multiple isomorphous replacement and anomalous scattering
+(miras), incorporating the data of eight heavy atom
+derivatives (table 4). heavy atom sites were re®ned and
+miras phases calculated using program mlphare
+(otwinowski, 1991; collaborative computational project,
+1994). a ®rst heavy atom site of a uranyl nitrate derivative was located by inspection of difference pattersons
+and used to locate other sites by employing difference
+fourier methods. after re®nement of the located heavy
+atom sites a ®rst miras phase set was calculated using
+ê resolution, resulting in an overall
+data up to 3.2 a
+®gure-of-merit of 0.51. these phases were improved
+using program dm, applying a density modi®cation procedure where solvent ¯ipping was alternated with solvent ¯attening and density histogram matching
+(collaborative computational project, 1994; abrahams &
+leslie, 1996; cowtan & main, 1996). this procedure converged after four rounds resulting in a ®nal rfree value of
+32.8 % (bruènger, 1992). the density modi®ed phases
+were used to calculate new difference fourier maps.
+more heavy atom sites were located and a new re®nement round followed where the heavy atom sites were
+re®ned against the density modi®ed phases. a ®nal
+ê
+miras phase set was calculated using data up to 3.0 a
+resolution, resulting in an overall ®gure-of-merit of 0.60.
+these phases were improved in a new round of density
+modi®cation where a combination of the following
+methods was applied: solvent ¯attening, density histogram matching, skeletonization and 2-fold averaging.
+the density modi®cation procedure converged in ®ve
+rounds with a ®nal rfree value of 28.8 % and an overall
+®gure-of-merit of 0.85. the psat-amg data were
+phased employing difference fourier methods and the
+atomic model of native psat.
+model building and refinement
+relevant statistics of re®nement are listed in table 1.
+a ®rst model was built in the ®nal density modi®ed
+map, which was of excellent quality. rounds of model
+building were alternated with rounds of re®nement, utilizing programs o (version 5.10.3) and xplor (versions
+3.1 and 3.8), respectively (bruènger et al., 1987; jones et al.,
+1991). the ®rst two residues were not included in either
+of the models because met1 is not present in the mature
+protein (duncan & coggins, 1986) and ala2 is disordered. the side-chains of arg a77, thr a93, asn a117,
+val a123 and asn b117 of native psat were found to
+have two discrete conformations which were re®ned separately with variable occupancies. in the ®nal re®nement
+round these occupancies were ®xed, resulting in a total
+summed occupancy for each residue of 1.0. the ®nal
+occupancies re®ned to values between 0.4 and 0.6.
+a ramachandran plot of the f/c torsion angles of the
+polypeptide chain shows good geometry for both models
+with none of the protein residues in a generously
+allowed or disallowed region, while 91.7 % of the resi-
+
+structure of  xxxg1856xxx 
+dues of native psat and 89.2 % of the residues of psatamg are found in the most favoured regions.
+the following simulated annealing protocol was
+employed in round 1 of the native psat model and
+round 2 of the psat-amg model: tinit  4000 k;
+tend  300 k; t  0.5 fs; t  ÿ 25 k for every 50 steps
+(bruènger et al., 1987). apart from round 3 of the psatamg model (see next section) conventional energy minimization was applied in all remaining re®nement
+rounds. the parameters by engh & huber (1991) were
+employed. topology and parameter ®les for the cofactor
+pyridoxal-50 -phosphate and the ligand a-methyl-l-glutamate were generated using coordinates of small molecule x-ray structures and the program xplo2d
+(kleywegt, 1995). all data were included during re®nement with the exception of round 6 of both models,
+when only data with fo > 2s(fo) were included. a randomly selected set of re¯ections (5 % of the data) was
+used to monitor the rfree, in order to assist decision making during re®nement (bruènger, 1992). bulk solvent corrections were employed during re®nement of both
+models (jiang & bruènger, 1994). non-crystallographic
+symmetry constraints were applied in round 1 of the
+native psat model and in rounds 1 and 3 of the psatamg model. in all other rounds non-crystallographic
+symmetry restraints were used. in the last round these
+were applied only to ncs related residues with a rmsd
+ê (35 of the 362 residues and plp were not
+less than 1 a
+included), utilizing a weight on positional restraints of
+ê 2 and a sncs for b-factor restraints of
+100 kcal/mol-a
+2
+ê
+2.5 a . electron density maps (2fo ÿ fc and fo ÿ fc)
+were calculated after each re®nement round using phase
+information from the re®ned atomic model as suggested
+by read (1986). water molecules were selected from electron density peaks with heights exceeding 4s observed
+in fo ÿ fc electron density maps. to be accepted they
+ê of a protein atom capable
+had to be located within 4 a
+of forming hydrogen bonds. the ®nal check was performed graphically with program o. the solvent model
+was inspected and improved constantly during the
+re®nement stage.
+temperature factor re®nement was performed utilizing individual atomic b-factors for the native psat
+model and grouped b-factors (two per residue) for the
+psat-amg model. analysis of the temperature factor
+distribution after round 5 indicated that temperature factor re®nement had been insuf®ciently restrained and
+resulted in too high b-factors for both models. the overê 2 for the psat model and
+all average b-factor was 40.3 a
+ê 2 for the psat-amg model. these values deviated
+44.7 a
+too much from the estimated wilson b-factors (table 1).
+the latest version of x-plor (3.851) allows a more
+restrained re®nement of the temperature factors. therefore, after round 5 all temperature factors were reset
+ê 2 (i.e. the approximate wilson b-factor). an
+to 30 a
+acceptable temperature factor distribution with acceptable overall average b-factors was thus obtained (table 1).
+model building and refinement of bound amg
+the ligand amg was ®tted into the electron density
+after re®nement round 2 of the psat-amg complex. in
+the ®rst two re®nement rounds only protein atoms were
+included in the atomic model allowing the generation of
+bias-free phases (simulated annealing omit map; hodel
+et al., 1992). in re®nement round 3 of the psat-amg
+model a rigorous torsion angle re®nement protocol was
+performed to check the suspected presence of an external
+
+structure of  xxxg1856xxx 
+aldimine adduct with amg in subunit a (rice &
+bruènger, 1994). before starting this re®nement protocol
+several test runs were performed to determine the most
+optimal re®nement conditions using rfree as a means of
+cross-validation: non-crystallographic symmetry constraints were applied to achieve an optimal observation
+to parameter ratio; two alternative conformations of
+amg were re®ned in order to model the assumed different binding modes in subunits a and b (amg was modeled as a free ligand in both alternative conformations);
+the x-plor ``constraints-interaction-statement'' was
+used to prevent plp, lys198 and the two alternative conformations of amg from having any interaction with
+each other (i.e. they could not ``see each other''); one
+temperature factor per residue and one occupancy per
+alternative conformation of amg were re®ned; solvent
+molecules were not included. by setting up the re®nement in this way maximal freedom for the amg ligand
+and the plp molecule was achieved so that in combination with the powerful torsion angle re®nement algorithm the conformational space could be sampled in an
+optimal manner. the applied torsion angle re®nement
+protocol was as follows: ®rst optimization of the geometry by energy minization while excluding the x-ray
+energy term; a 2 ps (t  0.002 ps) constant temperature
+(2500 k) torsion angle re®nement run followed; a short
+quenching molecular dynamics run at 300 k was subsequently performed (200 steps, t  0.5 fs); ®nally
+energy minimization was carried out. this protocol was
+immediately followed by a simulated annealing slow
+cooling protocol as described above (tinit was in this case
+3000 k). finally energy minimization and temperature
+factor re®nement were done. after re®nement the occupancy and mean temperature factors of the two alternative amg conformations in the two otherwise
+ê 2, and 0.53
+constrained subunits were 0.47 and 37.9 a
+ê 2, respectively. the ®rst conformation correand 50.7 a
+sponded to the external aldimine with amg (subunit a),
+the second to the internal aldimine with lys198 (subunit
+b). here amg was too far away for covalent binding.
+the equal occupancies, corresponding to 100 % external
+aldimine in subunit a and 100 % internal aldimine in
+subunit b were a satisfactory result.
+accession numbers
+the atomic coordinates and structure factors for the
+native psat model and the psat-amg complex have
+been deposited at the brookhaven data bank (bernstein
+et al., 1977), entries 1bjn, r1bjnsf, 1bjo and r1bjosf,
+respectively.
+
+acknowledgements
+financial support by the swiss national science foundation (grants 3.098-0.85, 31-25712-88 and 31-36432.92) is
+gratefully acknowledged. we are grateful to professor
+j. r. coggins for providing the psat-overproducing
+e. coli strain. we thank m. kania, b. fol, u. sauder and
+r. muèller for expert technical support.
+
+references
+abrahams, j.-p. & leslie, a. g. w. (1996). methods used
+in the structure determination of bovine mitochondrial f-1 atpase. acta crystallog. sect. d, 52, 30-42.
+
+847
+alexander, f. w., sandmeier, e., mehta, p. k. &
+christen, p. (1994). evolutionary relationships
+among pyridoxal-50 -phosphate-dependent enzymes.
+eur. j. biochem. 219, 953-960.
+antson, a. a., demidkina, t. v., gollnick, r., dauter,
+z., von tersch, r. l., long, j., berezhnoy, s. n.,
+phillips, r. s., harutyunyan, e. h. & wilson, k. s.
+(1993). three-dimensional structure of tyrosine phenol-lyase. biochemistry, 32, 4195-4206.
+bacon, d. j. & anderson, w. f. (1988). a fast algorithm
+for rendering space-®lling pictures (abstract of
+paper presented at the seventh annual meeting of
+the molecular graphics society). j. mol. graph. 6,
+219-220.
+barton, g. j. (1990). protein multiple sequence alignment
+and ¯exible pattern matching. methods enzymol.
+183, 403-428.
+barton, g. j. (1993). alscript, a tool to format multiple
+sequence alignments. protein eng. 6, 37-40.
+barton, g. j. & sternberg, m. j. (1987a). a strategy for
+the rapid multiple alignment of protein sequences.
+con®dence levels from tertiary structure comparisons. j. mol. biol. 198, 327-337.
+barton, g. j. & sternberg, m. j. (1987b). evaluation and
+improvements in the automatic alignment of protein sequences. protein eng. 1, 89-94.
+basurko, m.-j., darriet, m. & cassainge, a. (1989). catalytic properties and speci®city of  xxxd1857xxx 
+aminotransferase from beef liver. biochem. soc.
+trans. 17, 787-788.
+battchikova, n., himanen, j.-p., ahjolahti, m. &
+korpela, t. (1996).  xxxg1856xxx 
+from bacillus circulans subsp. alkalophilus: puri®cation, gene cloning and sequencing. biochim. biophys. acta, 1295, 187-194.
+belhumeur, p., fortin, n. & clark, m. w. (1994). a gene
+from saccharomyces cerevisiae which codes for a
+protein with signi®cant homology to the bacterial
+3- xxxg1856xxx . yeast, 10, 385389.
+bernstein, f. c., koetzle, t. f., williams, g. j. b., meyer,
+e. j., jr, brice, m. d., rogers, j. k., kennard, o.,
+shimanouchi, t. & tasumi, m. (1977). the protein
+data bank: a computer-based archival ®le for
+macromolecular structure. j. mol. biol. 112, 535-542.
+bruènger, a. t. (1992). free r value: a novel statistical
+quantity for assessing the accuracy of crystal structures. nature, 355, 472-475.
+bruènger, a. t., kuriyan, j. & karplus, m. (1987). crystallographic r factor re®nement by molecular
+dynamics. science, 235, 458-460.
+cheung, g. p., rosenblum, i. y. & sallach, h. j. (1968).
+comparative studies of enzymes related to serine
+metabolism in higher plants. plant physiol. 43, 18131820.
+christen, p., mehta, p. k. & sandmeier, e. (1994). molecular evolution of pyridoxal-50 -phosphate-dependent enzymes. in biochemistry of  xxxd3049xxx  and
+pqq (marino, g., sannia, g. & bossa, e., eds),
+pp. 9-13, birkhaèuser verlag, basel, switzerland.
+clausen, t., huber, r., laber, b., pohlenz, h.-d. &
+messerschmidt, a. (1996). crystal structure of
+the pyridoxal-50 -phosphate dependent cystathionine
+ê . j. mol. biol.
+b-lyase from escherichia coli at 1.83 a
+262, 202-224.
+cleland, w. w. (1963). the kinetics of enzyme-catalyzed
+reactions with two or more substrates or products.
+i. nomenclature and rate equations. biochim. biophys. acta, 67, 104-137.
+
+848
+collaborative computational project number 4 (1994).
+the ccp4 suite: programs for protein crystallography. acta crystallog. sect. d, 50, 760-763.
+cowtan, k. d. & main, p. (1996). phase combination
+and cross validation in iterated density modi®cation
+calculations. acta crystallog. sect. d, 52, 43-48.
+dunathan, h. c. (1971). stereochemical aspects of  xxxd3047xxx  catalysis. advan. enzymol. 35, 79134.
+duncan, k. & coggins, j. r. (1986). the serc-aroa
+operon of escherichia coli. biochem. j. 234, 49-57.
+engh, r. a. & huber, r. (1991). accurate bond and
+angle parameters for x-ray protein structure re®nement. acta crystallog. sect. a, 47, 392-400.
+esnouf, r. (1998). an extensively modi®ed version of
+molscript that includes greatly enhanced colouring capabilities. j. mol. graph. modeling, 15, 132-136.
+ford, g. c., eichele, g. & jansonius, j. n. (1980). threedimensional structure of a pyridoxal-phosphatedependent enzyme, mitochondrial aspartate aminotransferase. proc. natl acad. sci. usa, 77, 2559-2563.
+goldberg, j. m. & kirsch, j. f. (1996). the reaction catalyzed by escherichia coli aspartate aminotransferase
+has multiple partially rate-determining steps, while
+that catalyzed by the y225f mutant is dominated
+by ketimine hydrolysis. biochemistry, 35, 5280-5291.
+goldberg, j. m., swanson, r. v., goodman, h. s. &
+kirsch, j. f. (1991). the tyrosine 225 to phenylalanine mutation of escherichia coli aspartate aminotransferase results in an alkaline transition in the
+spectrophotometric and kinetic pka values and
+reduced values of both kcat and km. biochemistry, 30,
+305-312.
+hayashi, h. & kagamiyama, h. (1997). transient-state
+kinetics of the reaction of aspartate aminotransferase with aspartate at low ph reveals dual routes in
+the enzyme substrate association process. biochemistry, 36, 13558-13569.
+hennig, m., grimm, b., contestabile, r., john, r. a. &
+jansonius, j. n. (1997). crystal structure of glutamate-1-semialdehyde aminomutase: an a2-dimeric
+ xxxd3049xxx  dependent enzyme with asymmetry in
+structure and active site reactivity. proc. natl acad.
+sci. usa, 94, 4866-4871.
+hirsch, h. & greenberg, d. m. (1967). studies on  xxxg1856xxx  of sheep brain. j. biol.
+chem. 242, 2283-2287.
+hodel, a., kim, s.-h. & bruènger, a. t. (1992). model
+bias in macromolecular crystal structures. acta crystallog. sect. a, 48, 851-859.
+holm, l. & sander, c. (1993). protein structure comparison by alignment of distance matrices. j. mol. biol.
+233, 123-138.
+ichihara, a. & greenberg, d. m. (1957). further studies
+on the pathway of serine formation from carbohydrate. j. biol. chem. 224, 331-341.
+inoue, k., kuramitsu, s., okamoto, a., hirotsu, k.,
+higuchi, t., morino, y. & kagamiyama, h. (1991).
+tyr225 in aspartate aminotransferase: contribution
+of the hydrogen bond between tyr225 and coenzyme to the catalytic reaction. j. biochem. 109, 570576.
+jaèger, j., moser, m., sauder, u. & jansonius, j. n. (1994).
+crystal structures of escherichia coli aspartate aminotransferase in two conformations. comparison of
+an unliganded open and two liganded closed
+forms. j. mol. biol. 239, 285-305.
+jansonius, j. n. & vincent, m. g. (1987). structural basis
+for catalysis by aspartate aminotransferase. in bio-
+
+structure of  xxxg1856xxx 
+logical macromolecules & assemblies (jurnak, f. a. &
+mcpherson, a., eds), vol. 3, active sites of enzymes,
+pp. 187-285, john wiley & sons, new york.
+jiang, j.-s. & bruènger, a. t. (1994). protein hydration
+observed by x-ray diffraction: solvation properties
+of penicillopepsin and neuraminidase crystal structures. j. mol. biol. 243, 100-115.
+john, r. a. (1995).  xxxd3047xxx -dependent
+enzymes. biochim. biophys. acta, 1248, 81-96.
+jones, t. a., zou, j.-y., cowan, s. w. & kjeldgaard, m.
+(1991). improved methods for building protein
+models in electron density maps and the location of
+errors in these models. acta crystallog. sect. a, 47,
+110-119.
+kallen, j., kania, m., markovic-housley, z., vincent,
+m. g. & jansonius, j. n. (1987). crystallographic
+and solution studies on  xxxg1856xxx  from escherichia coli. in biochemistry of vitamin
+b6 (christen, p. & korpela, t., eds), pp. 157-160,
+birkhaèuser verlag, basel, switzerland.
+kamitori, s., okamoto, a., hirotsu, k., higushi, t.,
+kuramitsu, s., kagamiyama, h., matsuura, y. &
+katsube, y. (1990). three-dimensional structures of
+aspartate aminotransferase from escherichia coli and
+ê resolution. j. biochem.
+its mutant enzyme at 2.5 a
+108, 175-184.
+kirsch, j. f., eichele, g., ford, g. c., vincent, m. g.,
+jansonius, j. n., gehring, h. & christen, p. (1984).
+mechanism of action of aspartate aminotransferase
+proposed on the basis of its spatial structure. j. mol.
+biol. 174, 497-525.
+kleywegt, g. j. (1995). dictionaries for heteros. ccp4/
+esf-eacbm newsletter protein crystallog. 31, 45-50.
+kleywegt, g. j. & bruènger, a. t. (1996). checking your
+imagination: applications of the free r value. structure, 4, 897-904.
+kraulis, p. j. (1991). molscript: a program to produce
+both detailed and schematic plots of protein structures. j. appl. crystallog. 24, 946-950.
+kuramitsu, s., hiromi, k., hayashi, h., morino, y. &
+kagamiyama, h. (1990). pre-steady state kinetics of
+escherichia coli aspartate aminotransferase catalyzed
+reactions and thermodynamic aspects of its substrate speci®city. biochemistry, 29, 5469-5476.
+laskowski, r. a., macarthur, m. w., moss, d. s. &
+thornton, j. m. (1993). procheck: a program to
+check the stereochemical quality of protein structures. j. appl. crystallog. 26, 283-291.
+lewendon, a. (1984). studies on the 5-enolpyruvylshikimate 3-phosphate synthase of escherichia coli. phd
+thesis, university of glasgow, scotland.
+lund, k., merril, d. k. & guynn, r. w. (1987). puri®cation and properties of  xxxg1856xxx  from bovine liver. arch. biochem. biophys. 254,
+319-328.
+luzzati, v. (1952). traitement statistique des erreurs
+dans la deâtermination des structures cristallines.
+acta crystallog. 5, 802-810.
+markovic-housley, z., schirmer, t., hohenester, e.,
+khomutov, a. r., khomutov, r. m., karpeisky,
+m. y., sandmeier, e., christen, p. & jansonius, j. n.
+(1996). crystal structures and solution studies of
+oxime adducts of mitochondrial aspartate aminotransferase. eur. j. biochem. 236, 1025-1032.
+mckitrick, j. c. & pizer, l. i. (1980). regulation of  xxxg1739xxx  levels and effect on
+serine synthesis in escherichia coli k-12. j. bacteriol.
+141, 235-245.
+
+structure of  xxxg1856xxx 
+mcphalen, c. a., vincent, m. g. & jansonius, j. n.
+(1992a). x-ray structure re®nement and comparison
+of three forms of mitochondrial aspartate aminotransferase. j. mol. biol. 225, 495-517.
+mcphalen, c. a., vincent, m. g., picot, d., jansonius,
+j. n., lesk, a. m. & chothia, c. (1992b). domain
+closure in mitochondrial aspartate aminotransferase.
+j. mol. biol. 227, 197-213.
+mehta, p. k. & christen, p. (1993). homology of pyridoxal-50 -phosphate-dependent
+aminotransferases
+with the cobc (cobalamin synthesis),  xxxg1562xxx  (nitrogen
+®xation) pabc (p-aminobenzoate synthesis) and
+maly (abolishing endogenous induction of the maltose system) gene products. eur. j. biochem. 211,
+373-376.
+mehta, p. k. & christen, p. (1994). homology of 1-aminocyclopropane-1-carboxylate synthase, 8-amino-7oxononanoate synthase, 2-amino-6-caprolactam
+racemase, 2,2-dialkylglycine decarboxylase, glutamate-1-semialdehyde 2,1-aminomutase and isopenicillin-n-epimerase with aminotransferases. biochem.
+biophys. res. commun. 198, 138-143.
+mehta, p. k., hale, t. i. & christen, p. (1993). aminotransferases: demonstration of homology and division into evolutionary subgroups. eur. j. biochem.
+214, 549-561.
+merrit, e. a. & murphy, m. e. p. (1994). raster3d version 2.0. a program for photorealistic molecular
+graphics. acta crystallog. sect. d, 50, 869-873.
+messerschmidt, a. & p¯ugrath, j. j. (1987). crystal
+orientation and x-ray pattern prediction routines
+for area detector diffractometer systems in macromolecular crystallography. j. appl. crystallog. 20,
+306-315.
+momany, c., ernst, s., ghosh, r., chang, n.-l. &
+hackert, m. l. (1995a). crystallographic structure of
+a plp-dependent  xxxg1626xxx  from lacê resolution. j. mol. biol. 252,
+tobacillus 30a to 3.0 a
+643-655.
+momany, c., ghosh, r. & hackert, m. l. (1995b). structural motifs for pyridoxal-50 phosphate binding in
+decarboxylases: an analysis based on the crystal
+structure of the lactobacillus 30a  xxxg1626xxx . protein sci. 4, 849-854.
+moser, m. (1995). x-ray crystallographic studies of  xxxd2203xxx  b6-dependent enzymes. phd thesis, university
+of basel, switzerland.
+moser, m., muèller, r., battchikova, n., koivulehto, m.,
+korpela, t. & jansonius, j. n. (1996). crystallization
+and preliminary x-ray analysis of  xxxd1857xxx 
+aminotransferase from bacillus circulans subsp. alkalophilus. protein sci. 5, 1426-1428.
+o'gaora, p., maskel, d., coleman, d., cafferkey, m. &
+dougan, g. (1989). cloning and characterization of
+the serc and aroa genes of yersinia enterocolitica,
+and construction of an aroa mutant. gene, 84, 2330.
+otwinowski, z. (1991). maximum likelihood re®nement
+of heavy atom parameters. in isomorphous replacement and anomalous scattering (wolf, w., evans,
+p. r. & leslie, a. g. w., eds), pp. 80-85, serc
+daresbury laboratory, warrington, uk.
+otwinowski, z. & minor, w. (1997). processing of x-ray
+diffraction data collected in oscillation mode.
+methods enzymol. 276, 307-326.
+ouzounis, c. & sander, c. (1993). homology of the  xxxg1562xxx 
+family of proteins to a new class of  xxxd3047xxx -dependent enzymes. febs letters, 322, 159164.
+
+849
+pizer, l. i. (1963). the pathway and control of serine
+biosynthesis in escherichia coli. j. biol. chem. 238,
+3934-3944.
+read, r. j. (1986). improved fourier coef®cients for
+maps using phases from partial structures with
+errors. acta crystallog. sect. a, 42, 140-149.
+reynolds, p. h. s., hine, a. & rodber, k. (1988). serine
+metabolism in legume nodules: puri®cation and
+properties of  xxxg1856xxx . physiol. plant., 74, 194-199.
+rice, l. m. & bruènger, a. t. (1994). torsion angle
+dynamics:
+reduced
+variable
+conformational
+sampling enhances crystallographic structure re®nement. proteins: struct. funct. genet. 19, 277-290.
+saito, k., takagi, y., ling, h. c., takahashi, h. & noji,
+m. (1997). molecular cloning, characterization and
+expression of cdna encoding  xxxg1856xxx  involved in phosphorylated pathway
+of serine biosynthesis from spinach. plant mol. biol.
+33, 359-366.
+sandmeier, e., hale, t. i. & christen, p. (1994). multiple
+evolutionary origin of pyridoxal-50 -phosphatedependent amino acid decarboxylases. eur. j. biochem. 221, 997-1002.
+schmidt, l. s. & sojka, g. a. (1973). enzymes of serine
+biosynthesis in rhodopseudomonas capsulata. arch.
+biochem. biophys. 159, 475-482.
+shen, b. w., hennig, m., hohenester, e., jansonius, j. n.
+& schirmer, t. (1998). crystal structure of human
+recombinant  xxxg1621xxx . j. mol. biol.
+277, 81-102.
+smith, d. l., almo, s. c., toney, m. d. & ringe, d.
+ê resolution crystal structure of an
+(1989). 2.8 a
+active-site mutant of aspartate aminotransferase
+from escherichia coli. biochemistry, 28, 8161-8167.
+stark, w., kallen, j., markovic-housley, z., fol, b.,
+kania, m. & jansonius, j. n. (1991). the threedimensional structure of  xxxg1856xxx  from escherichia coli. in enzymes dependent on
+ xxxd3047xxx  and other carbonyl compounds as
+cofactors (fukui, t., kagamiyama, h., soda, k. &
+wada, h., eds), pp. 111-115, pergamon press,
+oxford, uk.
+stolz, m. & dornemann, d. (1994). puri®cation, characterization and n-terminal sequence of  xxxg1856xxx  from the green alga
+scenedesmus obliquus, mutant c-2 a. z. naturforschung, 49c, 63-69.
+stolz, m. & dornemann, d. (1995). kinetic characteristics, substrate speci®city and catalytic properties
+of  xxxg1856xxx  from the green
+alga scenedesmus obliquus, mutant c-2 a. z. naturforschung, 50c, 630-637.
+sugio, s., petsko, g. a., manning, j. m., soda, k. &
+ringe, d. (1995). crystal structure of a d-amino
+acid aminotransferase: how the protein controls
+stereoselectivity. biochemistry, 34, 9661-9669.
+toney, m. d., hohenester, e., cowan, s. w. &
+jansonius, j. n. (1993). dialkylglycine decarboxylase
+structure: bifunctional active site and alkali metal
+sites. science, 261, 756-759.
+toney, m. d., hohenester, e., keller, j. w. & jansonius,
+j. n. (1995). structural and mechanistic analysis of
+two re®ned crystal structures of the pyridoxal-phosphate-dependent enzyme dialkylglycine decarboxylase. j. mol. biol. 245, 151-179.
+umbarger, h. e., umbarger, m. e. & siu, p. m. l.
+(1963). biosynthesis of serine in escherichia coli and
+salmonella typhimurium. j. bacteriol. 85, 1431-1439.
+
+850
+
+structure of  xxxg1856xxx 
+
+walsh, d. a. & sallach, h. j. (1966). comparative studies on the pathways for serine biosynthesis in animal tissues. j. biol. chem. 241, 4068-4076.
+walton, n. j. & woolhouse, h. w. (1986). enzymes of
+serine and glycine metabolism in leaves and nonphotosynthetic tissues of pisum sativum l. planta,
+167, 119-128.
+watanabe, n., sakabe, k., sakabe, n., higashi, t.,
+sasaki, k., aibara, s., morita, y., yonaha, k.,
+toyama, s. & fukutani, h. (1989). crystal structure
+analysis of o-amino acid:pyruvate aminotransferase
+with a newly developed weissenberg camera and
+an imaging plate using synchrotron radiation.
+j. biochem. 105, 1-3.
+yano, t., mizuno, t. & kagamiyama, h. (1993).
+a hydrogen-bonding network modulating enzyme
+
+function: asparagine-194 and tyrosine-225 of escherichia coli aspartate aminotransferase. biochemistry, 32,
+1810-1815.
+zheng, l., white, r. h., cash, v. l., jack, r. f. & dean,
+d. r. (1993). cysteine desulfurase activity indicates
+a role for  xxxg1562xxx  in metallocluster biosynthesis. proc.
+natl acad. sci. usa, 90, 2754-2758.
+zheng, l., white, r. h., cash, v. l. & dean, d. r.
+(1994). mechanism for the desulfurization of
+l-cysteine catalyzed by the  xxxg1562xxx  gene product.
+biochemistry, 33, 4714-4720.
+zvelebil, m. j., barton, g. j., taylor, w. r. & sternberg,
+m. j. e. (1987). prediction of protein secondary
+structure and active sites using the alignment of
+homologous sequences. j. mol biol. 195, 957-961.
+
+edited by r. huber
+(received 24 july 1998; received in revised form 14 december 1998; accepted 14 december 1998)
+

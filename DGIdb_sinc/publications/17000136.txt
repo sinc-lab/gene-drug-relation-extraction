@@ -1,0 +1,837 @@
+article
+
+doi:10.1016/j.ymthe.2006.07.010
+
+gene therapy based on gemcitabine chemosensitization
+suppresses pancreatic tumor growth
+fabienne vernejoul,1 laurent ghénassia,2 anny souque,1 hubert lulka,1 daniel drocourt,2
+pierre cordelier,1 lucien pradayrol,1 stéphane pyronnet,1
+louis buscail,1,* and gérard tiraby2
+1
+
+inserm u531, institut louis bugnard ifr31, centre hospitalier universitaire rangueil, 31403 toulouse cedex 4, france
+2
+research department, cayla invivogen company, zi montaudran, 31400 toulouse, france
+
+*to whom correspondence and reprint requests should be addressed at inserm u531, chu rangueil, ifr-31, bat. l3, bp 84225,
+31432 toulouse cedex 4, france. fax: +33 5 61 32 24 03. e-mail: louis.buscail@toulouse.inserm.fr.
+
+available online 25 september 2006
+
+excepting surgical resection, there is no efficient treatment against pancreatic cancer. the
+chemotherapeutic agent gemcitabine improves the patientts clinical status but survival is not
+prolonged. the aim of this study was to design a new strategy to render gemcitabine more efficient
+in the treatment of pancreatic cancer using gene therapy. we have generated a fusion gene
+( xxxg611xxx :: xxxg478xxx ) combining  xxxg611xxx  ( xxxg611xxx ) and  xxxd870xxx  kinase ( xxxg478xxx ),
+which converts gemcitabine into its toxic phosphorylated metabolite. antitumor effects of
+ xxxg611xxx :: xxxg478xxx  gene expression were tested in vitro and in vivo in an orthotopic transplantable model
+of pancreatic cancer established in hamsters.  xxxg611xxx :: xxxg478xxx  sensitizes pancreatic cancer cells to
+gemcitabine by reducing dramatically both in vitro cell viability and in vivo tumor volume. we found
+that in vivo expression of  xxxg611xxx :: xxxg478xxx  resulted in an antitumor bystander effect due to apoptosis of
+untransduced cells. in vivo intratumoral gene transfer of  xxxg611xxx :: xxxg478xxx  using the synthetic carrier pei
+induced a potent tumor regression. taken together, the results show that the fusion gene
+ xxxg611xxx :: xxxg478xxx  sensitizes pancreatic cancer cells to gemcitabine treatment to induce cell death by
+apoptosis and tumor regression. intratumoral delivery of the  xxxg611xxx :: xxxg478xxx  gene in combination with
+gemcitabine might be of high interest for pancreatic cancer management.
+key words: pancreatic carcinoma, chemosensitization, gemcitabine, in vivo gene therapy
+bystander effect, pei,  xxxg611xxx 
+
+introduction
+pancreatic ductal carcinoma is, at present, the fifth
+leading cause of cancer-related deaths in western countries. its incidence has been increasing for the past 30
+years. due to a long silent clinical phase during tumor
+development and a late diagnosis, its prognosis is very
+poor. the only curative treatment is surgical resection.
+unfortunately, such approach is possible in only 10 to
+15% of overall cases. following resection, only 5% of
+patients have a 5-year survival, while the overall 5-year
+survival rate does not exceed 3%. at the time of
+diagnosis, 15 to 30% of patients have extensive metastasis, primarily to the liver, peritoneum, and lymph
+system, and are therefore not amenable to resection [1,2].
+abbreviations used:  xxxg611xxx ,  xxxg611xxx ;  xxxg478xxx ,  xxxd870xxx  kinase; tk, thymidine kinase;  xxxd2188xxx , difluorodeoxycytidine;
+gcv, ganciclovir; pei, polyethylenimine.
+
+758
+
+yet, no effective therapy has so far been established to
+alleviate this often fatal end-stage disease. as a palliative,
+patients are treated using radiation or chemotherapeutic
+compounds such as 5-fluorouracil or gemcitabine. gemcitabine treatment is now considered as the first-line
+therapy for unresectable and/or metastatic pancreatic
+cancers. however, only a few clinical parameters, including pain intensity, analgesic consumption, and weight
+changes, are ameliorated following gemcitabine administration. tumor volume is virtually unchanged as
+survival remains extremely short [3,4]. clearly, a more
+effective treatment is urgently needed.
+preclinical strategies based on chemosensitization have
+been developed to amplify the cytotoxic effect of clinically
+used compounds [5]. these strategies include the use of
+suicide genes, such as the herpes simplex virus thymidine
+kinase (hsv-tk) and ganciclovir [6–8], escherichia coli
+cytosine deaminase and  xxxd2119xxx  [9], and uracil
+
+molecular therapy vol. 14, no. 6, december 2006
+copyright c the american society of gene therapy
+1525-0016/$30.00
+
+doi:10.1016/j.ymthe.2006.07.010
+
+phosphoribosyltransferase and 5-fluorouracil systems [10].
+however, gemcitabine is currently used most in patients.
+gemcitabine (2v,2v-difluoro-2v- xxxd1836xxx ;  xxxd2188xxx ) is
+a nucleoside analogue that is transported into cells [11]
+where it must be sequentially converted into mono-, di-, or
+triphosphorylated forms to exert its full cytotoxic activity.
+in this cascade, the first two steps of phosphorylation are
+rate limiting. in mammalian cells, gemcitabine conversion into gemcitabine monophosphate is performed by
+the  xxxg611xxx  ( xxxg611xxx ;  xxxg611xxx ) [12–14].
+then, the  xxxd870xxx  kinase ( xxxg478xxx ; ec
+2.7.4.14) yields gemcitabine diphosphate [15,16]. gemcitabine derivatives exhibit antitumor activity either by
+interfering with intracellular nucleotide pools or through
+direct inhibition of dna synthesis. indeed, while the
+diphosphate form is a potent inhibitor of the nucleotide
+biosynthetic enzyme ribonucleotide reductase, the triphosphate form incorporates into the elongating dna
+strand and blocks dna replication during the cell cycle.
+the reactions catalyzed by  xxxg611xxx  and  xxxg478xxx  are considered rate limiting because their respective substrates
+(gemcitabine and gemcitabine monophosphate) are labile
+in tumoral cells due to increased deaminase activities
+[17,18]. this could explain, at least in part, the relative
+resistance of various solid tumors including non-smallcell lung, head and neck, ovarian, and pancreatic cancers
+to gemcitabine [3,19,20]. also, resistance to gemcitabine
+has been reported to involve a deficiency in the  xxxg611xxx 
+enzyme [21], a decrease in nucleoside transport [22], and
+an overexpression of ribonucleotide reductase [23].
+thus, one way to render gemcitabine more efficient for
+pancreatic cancer would be to reinforce its conversion into
+stable and highly cytotoxic metabolites. to this end, we
+have engineered a fusion cdna encoding both  xxxg611xxx  and
+ xxxg478xxx  proteins. the  xxxg611xxx :: xxxg478xxx  fusion gene delivery was
+then successfully tested for its capability to render
+pancreatic cancer cells sensitive to gemcitabine both in
+vitro and in vivo. furthermore, intratumoral injection of
+the  xxxg611xxx :: xxxg478xxx  fusion gene coupled with gemcitabine
+administration resulted in a significant regression of
+pancreatic primary tumors, due to a potent, proapoptotic,
+antitumoral bystander effect.
+
+results
+transgene expression
+we first transiently transfected cos-7 cells with pvivo. xxxg611xxx :: xxxg478xxx /tk or pvivo.lacz/gfp vector as a control.
+we extracted total rna and proteins and analyzed them
+for further expression of the fusion transgene. by rt-pcr,
+transfected cos-7 cells expressed high levels of mrna
+coding for  xxxg611xxx :: xxxg478xxx . by contrast, the 1400-bp rt-pcr
+product was undetectable in untransfected cells or in cells
+transfected with the control pvivo.lacz/gfp plasmid
+(fig. 1b). we obtained similar results following transient
+transfection of pc1.0 cells (data not shown). in addition,
+
+molecular therapy vol. 14, no. 6, december 2006
+copyright c the american society of gene therapy
+
+article
+
+western blot analysis revealed that cos-7 cells transiently
+transfected with pvivo. xxxg611xxx :: xxxg478xxx /tk plasmid did
+express detectable levels of  xxxg611xxx  protein (fig. 1c).
+in vitro chemosensitization of  xxxg707xxx .0 pancreatic
+cancer cells to gemcitabine by  xxxg611xxx :: xxxg478xxx  hybrid
+gene expression
+the in vitro growth characteristics of pc1.0 and
+ xxxg611xxx :: xxxg478xxx /tk and lacz/gfp stably transfected pc1.0
+cells were identical in the absence of gemcitabine or
+
+fig. 1. characterization of  xxxg611xxx :: xxxg478xxx -expressing vector. (a) schematic dna
+map of pvivo plasmid encoding  xxxg611xxx :: xxxg478xxx  fusion and tk genes. (b) rt-pcr
+analysis of transgene expression in cos-7 cells transfected or not by pvivo
+ xxxg611xxx :: xxxg478xxx /tk or pvivo lacz/gfp plasmids. pcr products resulting from
+specific amplification of the  xxxg611xxx :: xxxg478xxx  fusion gene were analyzed on 1%
+agarose ethidium bromide-stained gel. lane 1, wild-type cos-7 cells; lane 2,
+cos-7 cells expressing lacz/gfp; lanes 3 and 4, cos-7 cells transfected with
+pvivo  xxxg611xxx :: xxxg478xxx /tk; lane 5, pvivo  xxxg611xxx :: xxxg478xxx /tk plasmid pcr amplification. results are representative of two independent experiments. (c) cos-7
+cells were transiently transfected or not with pvivo  xxxg611xxx :: xxxg478xxx /tk. control
+cells were transfected with pvivo lacz/gfp. 48 h later, proteins were purified
+and resolved by sds–page, before western blotting for  xxxg611xxx  as described
+under materials and methods. lane 1, cos-7 cells transfected with pvivo
+lacz/gfp; lane 2, cos-7 cells transfected with pvivo  xxxg611xxx :: xxxg478xxx /tk. results
+are representative of two independent experiments.
+
+759
+
+article
+
+doi:10.1016/j.ymthe.2006.07.010
+
+the expression of the  xxxg611xxx :: xxxg478xxx  hybrid gene inhibits
+growth of pancreatic cancer in vivo
+based on these in vitro data, we next evaluated the
+potential in vivo chemosensitization. thus, we implanted
+stably expressing pc1.0. xxxg611xxx :: xxxg478xxx /tk cells as orthotopic
+allografts in immune hamsters. on day 7, during the
+exponential growth phase of primary pancreatic tumors,
+we treated the animals with gemcitabine or vehicle, nacl
+0.9%. we administered the gemcitabine four times at a
+dose of 120 mg/kg/day intraperitoneally (ip) on days 7,
+10, 13, and 16 post-cell engraftment. a 3-day interval
+schedule has been shown to be active in human
+carcinoma xenografts [27]. we observed no difference
+between the two groups at days 7 and 16 following
+gemcitabine administration (data not shown). however,
+gemcitabine treatment resulted in significantly smaller
+pc1.0. xxxg611xxx :: xxxg478xxx /tk tumors than did vehicle treatment
+on day 28 ( p b 0.001), i.e., at the completion of the
+observation period (fig. 3). the tumor volume was also
+significantly lower compared to control tumors treated
+with gemcitabine. we observed similar results at day 22
+( p b 0.005—data not shown). these results demonstrated
+that the combination of  xxxg611xxx :: xxxg478xxx  expression with
+gemcitabine ip administration prevented pancreatic
+tumor growth. we also observed such an antitumoral
+effect with longer kinetics; indeed, we observed a
+complete regression of pc1.0. xxxg611xxx :: xxxg478xxx  tumors up to
+36 days following gemcitabine administration (data
+not shown). for comparison purposes, the growth of
+ xxxg611xxx :: xxxg478xxx /tk-expressing tumors was significantly re-
+
+fig. 2. in vitro chemosensitization of pancreatic cancer cells by  xxxg611xxx :: xxxg478xxx 
+and tk gene expression. representative growth inhibition curves of the
+pancreatic carcinoma cell line pc1.0; lacz/gfp-transfected, wt, and
+ xxxg611xxx :: xxxg478xxx /tk-transfected cells are shown. the cells were exposed to a range
+of (a) gemcitabine ( xxxd2188xxx ) or (b) gcv concentrations for 3 days. cell viability
+was measured by mts, as described under materials and methods. each curve
+is representative of five experiments performed in triplicate.
+
+ganciclovir (data not shown). to determine the sensitivity of these cell lines to gemcitabine or ganciclovir, we
+generated cytotoxicity curves after 3 days of drug
+exposure. we found that the concentrations of gemcitabine that resulted in 50% cytotoxicity (ic 50 ) for
+pc1.0. xxxg611xxx :: xxxg478xxx /tk, pc1.0 wt, and pc1.0.lacz/gfp
+cells were 0.00125, 0.0096, and 0.01 ag/ml, respectively
+(fig. 2a). for comparison purposes, treatment of pc1.0
+ xxxg611xxx :: xxxg478xxx /tk-expressing cells with ganciclovir resulted
+in an ic50 value of 0.056 ag/ml, when we observed no
+cytotoxic effect on pc1.0 wt and pc1.0.lacz/gfp cells
+(fig. 2b). these results indicate that pc1.0 cells are
+sensitive to gemcitabine treatment but demonstrate that
+this sensitivity is strongly increased by  xxxg611xxx :: xxxg478xxx 
+expression.
+
+760
+
+fig. 3. antitumoral activity of  xxxg611xxx :: xxxg478xxx  and tk gene expression. pancreatic
+tumors were generated in syrian golden hamsters following implantation of
+pc1.0 cells stably expressing lacz/gfp (control) or  xxxg611xxx :: xxxg478xxx /tk. the
+growth curves for pc1.0. xxxg611xxx :: xxxg478xxx /tk and pc1.0.lacz/gfp tumors in
+animals receiving either vehicle (nacl) or gemcitabine ( xxxd2188xxx ) as described
+under materials and methods (ip route) are represented. tumor volume was
+measured after median laparotomy at day 28 post-cell implantation in the
+different groups of animals. each data point is the mean of 8 to 12 allografts
+per treatment group (compared to vehicle, **p b 0.001; compared to control
+lacz/gfp tumors treated with gemcitabine, #p b 0.01; student’s t test).
+
+molecular therapy vol. 14, no. 6, december 2006
+copyright c the american society of gene therapy
+
+doi:10.1016/j.ymthe.2006.07.010
+
+duced after 75 mg/kg/day ganciclovir administration
+compared to vehicle-treated animals (data not shown).
+the expression of the  xxxg611xxx :: xxxg478xxx  fusion gene induces
+local antitumor bystander effects in pancreatic
+primary mixed tumors
+to assess whether the gemcitabine chemosensitizing
+effect evoked by  xxxg611xxx :: xxxg478xxx  gene expression in pc1.0
+cells can influence the neighboring cells, by a so-called
+‘‘bystander effect,’’ we conducted mixing experiments
+with mixed allografts containing a 25:75 ratio of
+pc1.0. xxxg611xxx :: xxxg478xxx /tk cells to pc1.0 wild-type cells. then,
+8 days following implantation, we ip injected hamsters
+bearing mixed tumors with vehicle, 60 or 120 mg/kg/day
+gemcitabine at 3-day interval, or 37.5 or 75 mg/kg/day
+gcv, as described above. as shown in fig. 4, gemcitabine
+or gcv treatment significantly inhibited the growth of
+primary pancreatic mixed tumors compared to untreated
+tumors (vehicle) ( p b 0.0001 and p b 0.002 for gemcitabine and gcv treatment, respectively). however, the
+antitumor bystander effect of the tk gene is less
+important than that observed with the  xxxg611xxx :: xxxg478xxx  gene.
+indeed, tumor growth progression after gcv administration was slowed down compared to the 50% tumor size
+regression observed after gemcitabine treatment (data not
+shown). in addition this effect was dose-dependent. at
+day 22, pancreatic mixed tumor volume in hamsters
+treated with 120 mg/kg gemcitabine was significantly
+
+fig. 4. bystander killing effect following gemcitabine ( xxxd2188xxx ) or ganciclovir
+(gcv) administration in primary pancreatic cancer established in hamster.
+ xxxg611xxx :: xxxg478xxx /tk mixed pancreatic tumors were generated by inoculating into the
+tail of the pancreas a mixed population of pc1.0. xxxg611xxx :: xxxg478xxx /tk cells and pc1.0
+wild-type cells at a ratio of 25:75 (5  105 cells per allograft). eight days after
+orthotopic tumor cell allograft, the animals received an ip injection of vehicle, 60
+or 120 mg/kg  xxxd2188xxx , or 37.5 or 75 mg/kg gcv. pancreatic mixed tumor volumes
+were measured at days 8 and 22 after median laparotomy. results are expressed
+in tumor volume (mm3). all tumors from treated animals were significantly
+smaller than those of animals receiving vehicle/nacl 0.9%. each data point is the
+mean of four to eight allografts per treatment group (comparison with vehicle/
+nacl 0.9%, *p b 0.002, **p b 0.0001; student’s t test).
+
+molecular therapy vol. 14, no. 6, december 2006
+copyright c the american society of gene therapy
+
+article
+
+reduced compared to that of hamsters treated with a halfdose or that of untreated animals. taken together, these
+results support the existence of a local antitumor
+bystander effect induced dependent on  xxxg611xxx :: xxxg478xxx  fusion
+gene expression in pc1.0 pancreatic tumors. interestingly, combining treatment (gemcitabine at a dose of
+60 mg/kg/day and gcv at a dose of 37.5 mg/kg/day) did
+not potentiate the gemcitabine-mediated antitumoral
+effect (data not shown from two experiments).
+in vivo  xxxg611xxx :: xxxg478xxx  gene transfer experiments using
+the synthetic carrier polyethylenimine (pei)
+we previously demonstrated that a synthetic polycationic pei vector is able to transduce pancreatic cancer
+cells efficiently in vitro [25] and in vivo [24,26]. the
+transgene is detectable at the mrna level at least 6 days
+after in vivo gene transfer using such a carrier [24,28].
+based on our data demonstrating that  xxxg611xxx :: xxxg478xxx  gene
+expression via intratumoral delivery enhanced gemcitabine sensitivity to pc1.0 cells in vitro and induced a
+stronger local bystander effect compared to the tk gene
+in vivo, we hypothesized that  xxxg611xxx :: xxxg478xxx  might be an
+effective chemosensitization gene for gene therapy of
+pancreatic adenocarcinoma.
+we administered pei/dna complexes intratumorally
+to hamsters on day 8 after intrapancreatic inoculation of
+pc1.0 wild-type cells and sacrificed the animals 10 days
+later. animals injected or not with pei/ xxxg611xxx :: xxxg478xxx /gfp or
+pei/lacz/gfp complexes were treated with either vehicle
+or gemcitabine at the dose of 120 mg/kg on days 10 (48 h
+after gene transfer), 13, and 16. we measured the volume
+of transplanted pancreatic tumors before and after in vivo
+ xxxg611xxx :: xxxg478xxx  gene transfer. we observed no significant
+difference in initial tumor volume (i.e., before gene
+transfer) (fig. 5). ten days after gene transfer there was
+no difference in tumor volume in hamsters injected with
+either pei/ xxxg611xxx :: xxxg478xxx /gfp or pei/lacz/gfp and treated
+with nacl 0.9%. in these tumors, the  xxxg611xxx :: xxxg478xxx  transgene was readily detected by rt-pcr (data not shown).
+gemcitabine administration induced an inhibition of the
+growth of pancreatic tumors injected with pei/lacz/gfp
+compared to vehicle-treated animals. these results
+obtained after in vivo gemcitabine administration are in
+agreement with our in vitro data, suggesting that wildtype pc1.0 cells were relatively sensitive to gemcitabine
+(as also shown in fig. 3a). moreover, pancreatic tumor
+progression was strongly impaired in hamsters injected
+with pei/ xxxg611xxx :: xxxg478xxx /gfp complexes treated with gemcitabine, compared to pei/ xxxg611xxx :: xxxg478xxx  complexes alone,
+resulting in a dramatic regression of tumor growth (50%
+compared to tumor volume before treatment—data not
+shown). we did not observe such tumor regression in
+control tumors injected with pei/lacz/gfp and treated
+with gemcitabine. these results demonstrated that the in
+vivo transfer of  xxxg611xxx :: xxxg478xxx  strongly sensitizes pancreatic
+tumors to gemcitabine cytotoxic action. in other words, a
+
+761
+
+article
+
+fig. 5. effects of in vivo  xxxg611xxx :: xxxg478xxx  gene transfer with the synthetic vector pei
+on the growth of primary pancreatic cancer established in hamsters. pc1.0
+cells were inoculated orthotopically into the tail of the pancreas of hamsters.
+on day 7 post-cell implantation, gene transfer was performed after median
+laparotomy by direct intratumoral injection of pei/ xxxg611xxx :: xxxg478xxx /gfp or pei/
+lacz/gfp complexes. gemcitabine ( xxxd2188xxx ) (120 mg/kg) or vehicle (nacl
+0.9%) was administered on days 10 (48 h after gene transfer), 13, and 16
+post-cell implantation. pancreatic tumor volumes were measured at day 8
+(before gene transfer) and day 18 postallograft after median laparotomy.
+results are expressed in tumor volume (mm3). all tumors from gemcitabinetreated animals were significantly smaller than those of animals receiving
+vehicle (comparison with vehicle, **p b 0.001; student’s t test).
+
+significant chemosensitization of primary pancreatic
+tumor was obtained with a significant reduction in tumor
+volume compared to gemcitabine treatment alone.
+mechanism of bystander effect induced by  xxxg611xxx :: xxxg478xxx 
+gene transfer
+the cytotoxic effects of gemcitabine occur following the
+induction of programmed cell death or apoptosis. thus,
+the latter could be essential in the bystander killing effect
+generated following  xxxg611xxx :: xxxg478xxx  in vivo gene transfer and
+gemcitabine treatment. we first measured the in vitro
+apoptosis induction using annexin-v labeling of cellular
+clones stably expressing  xxxg611xxx :: xxxg478xxx  or lacz/gfp genes,
+24 to 48 h following treatment or no treatment with
+gemcitabine. by 24 h, we measured a twofold increase in
+cells undergoing apoptosis among cells expressing
+ xxxg611xxx :: xxxg478xxx  and treated with 0.3 ag/ml gemcitabine,
+compared to control-transfected cells (fig. 6). by 48 h,
+the proportion of cells undergoing apoptosis was fivefold
+higher in  xxxg611xxx :: xxxg478xxx -transfected cells, compared to
+control-transfected cells. these results indicate that
+expression of the  xxxg611xxx :: xxxg478xxx  gene markedly increases
+the apoptotic effect of gemcitabine on pc1.0 pancreatic
+cancer cells.
+to confirm further the  xxxg611xxx :: xxxg478xxx -dependent apoptotic induction in a gene transfer setting, we transiently
+transfected pc1.0 cells in vitro. transfected cells were
+identified by the concomitant expression of the gfp
+
+762
+
+doi:10.1016/j.ymthe.2006.07.010
+
+marker. as shown in fig. 7, flow cytometry analysis
+demonstrated that the percentage of  xxxg611xxx :: xxxg478xxx -transfected cells that underwent apoptosis (i.e., percentage of
+annexin-v-positive cells) was higher than that of the
+gfp-positive cells (+32%), suggesting that apoptosis
+induced by gemcitabine treatment was not solely
+restricted to  xxxg611xxx :: xxxg478xxx -expressing cells but also to
+neighboring pc1.0 wild-type cells. to investigate
+whether this phenomenon may occur in vivo, we looked
+for  xxxg611xxx  expression and apoptosis-specific labeling on
+serial tissue sections by the combination of immunohistochemistry for  xxxg611xxx  and terminal deoxynucleotidyl
+transferase-mediated deoxyuridine triphosphate biotin
+nick-end labeling (tunel) assay. we chose mixed and
+control tumors treated or not with gemcitabine. as
+shown in fig. 8a, mixed tumor cells still expressed
+human  xxxg611xxx  14 days after gemcitabine treatment,
+whereas control tumors were negative. interestingly, we
+observed dna fragmentation not only in  xxxg611xxx -positive
+cells, but also in transgene-free, wild-type tumor cells
+(fig. 8b). this may indicate that  xxxg611xxx -expressing cells
+treated with gemcitabine do generate an apoptotic signal
+that diffuses to neighboring cells, to kill untransfected
+cells. such bystander effect may account for the potent
+antitumoral effect observed following the concomitant
+treatment of pancreatic cancer tumors with gemcitabine
+and  xxxg611xxx :: xxxg478xxx  gene transfer.
+
+discussion
+gemcitabine itself is not active, but following transport
+into the cell via facilitated diffusion, the drug is phosphorylated to its corresponding active, gemcitabine
+triphosphate form. the first and rate-limiting event in
+these phosphorylation steps is catalyzed by  xxxg611xxx . gemcitabine triphosphate is one of the most important
+gemcitabine metabolites and is thought to lead to cell
+death through its incorporation into dna [28]. gemcitabine is also unique among anti-metabolites in that it
+inhibits dna synthesis via a specific process called
+masked chain termination.
+our in vitro and in vivo data demonstrated that
+expression of the  xxxg611xxx :: xxxg478xxx  hybrid gene results in
+increased sensitivity of pancreatic cancer-derived cells to
+the cytotoxic effect of gemcitabine. these results agree
+with previous studies that also demonstrate that the
+transfer of  xxxg611xxx  cdna alone into a large panel of drugresistant tumor cells, such as gliosarcoma, lung carcinoma,
+osteosarcoma, or pancreatic carcinoma cells, results in a
+complete restoration of sensitivity in vitro or in vivo to
+nucleoside analogues, including gemcitabine [12,18,29].
+moreover,  xxxg611xxx  overexpression was associated with accumulation and retention of intracellular gemcitabine
+nucleotide pools and increased levels of gemcitabine
+incorporation into dna [30,13,18]. one can postulate
+that such mechanisms are involved in  xxxg611xxx : xxxg478xxx -trans-
+
+molecular therapy vol. 14, no. 6, december 2006
+copyright c the american society of gene therapy
+
+doi:10.1016/j.ymthe.2006.07.010
+
+article
+
+fig. 6. enhanced cell death by apoptosis following
+treatment of pc1.0 cells expressing  xxxg611xxx :: xxxg478xxx  with
+gemcitabine. pc1.0 cells stably expressing either
+lacz/gfp (control) or  xxxg611xxx :: xxxg478xxx  were treated with
+0.3 ag/ml  xxxd2188xxx  for 24 (top) or 48 h (bottom).
+control cells were treated with nacl 0.9%. annexin-v
+labeling was quantified by facs analysis as described
+under materials and methods. results are representative of two independent experiments. percentage of
+annexin-v-positive cells is indicated.
+
+molecular therapy vol. 14, no. 6, december 2006
+copyright c the american society of gene therapy
+
+763
+
+article
+
+fig. 7. in vitro bystander killing effect following treatment of pc1.0 cells
+expressing  xxxg611xxx :: xxxg478xxx  with gemcitabine. pc1.0 cells were transiently transfected with either lacz/gfp- or gfp/ xxxg611xxx :: xxxg478xxx -encoding vectors as
+described under materials and methods. (a) facs analysis for gfp expression
+in pc1.0 cells transiently transfected for 48 h with gfp/ xxxg611xxx :: xxxg478xxx  expression
+vector. open distribution: wild-type pc1.0 cells. filled distribution: gfp/
+ xxxg611xxx :: xxxg478xxx -transfected pc1.0 cells. results are representative of two independent experiments. % of gfp-positive cells is indicated. (b) lacz/gfp(control) or gfp/ xxxg611xxx :: xxxg478xxx -expressing pc1.0 cells were treated with
+0.3 ag/ml  xxxd2188xxx  for 24 h. control cells were treated with nacl 0.9%.
+annexin-v labeling was quantified by facs analysis as described under
+materials and methods. results are expressed as the percentage of annexin-vpositive cells in nacl-treated pc1.0 cells and are representative of two
+independent experiments. **p b 0.001, student t test.
+
+fected pc1.0 cells generated in the present work. interestingly, it has been shown that specific overexpression of the
+ xxxg611xxx  gene into brain tumor (glioma) cells by retroviral and
+adenoviral vectors resulted in their increased sensitivity to
+the cytotoxic actions of a cytosine analogue, cytosine
+arabinoside, in vitro and in vivo [29]. conversely, deficiency of  xxxg611xxx  activity or  xxxg611xxx  expression mediates tumor
+
+764
+
+doi:10.1016/j.ymthe.2006.07.010
+
+cell resistance to a variety of antineoplastic nucleoside
+analogues, including gemcitabine [30].
+it is well known that, in a gene therapy approach to
+solid tumors, the transfer of the therapeutic gene to all
+tumor cells is unlikely to occur with the currently available
+in vivo gene delivery systems. a bystander killing effect on
+nontransduced cells as well as a long-term antitumor effect
+is thus required for the success of such cancer gene
+therapy. despite a low transgene expression rate (25 or
+5–10% of tumor cells express  xxxg611xxx :: xxxg478xxx  gene in respectively ex vivo mixing or in vivo experiments), we observed a
+dramatic inhibition of tumor growth in  xxxg611xxx ::umkexpressing tumors. a strong  xxxg611xxx :: xxxg478xxx -induced
+bystander effect may therefore be responsible for this
+therapeutic action. such a bystander effect has largely
+been described in gene-directed prodrug therapy, but the
+mechanisms are not fully characterized. it is noteworthy
+that a killing bystander effect was eventually described
+with the tk/gcv model and it was considered the most
+efficient gene transfer system to generate an antitumor
+bystander effect. interestingly, in our pancreatic cancer
+model the  xxxg611xxx :: xxxg478xxx /gemcitabine system was more
+efficient than this well-characterized tk/gcv model. it
+is likely that the local antitumor bystander effect could be
+ascribed to apoptosis. indeed, the cytotoxic effects of
+gemcitabine occur through the induction of programmed
+cell death or apoptosis, which is determined by the
+antiapoptotic protein bcl-2 cellular content in human
+pancreatic carcinoma and requires caspase activation.
+thus, a gemcitabine-mediated bystander killing effect
+could result from the intercellular transfer of hydrolases
+and apoptotic vesicles containing also cytotoxic phosphorylated metabolites of gemcitabine to neighboring
+untransduced cells [24]. our in vitro and in vivo data may
+support this hypothesis regarding the diffusion of apoptotic signal to the neighboring cells from the  xxxg611xxx ::umkexpressing cells. in addition we did not observe a
+synergistic effect combining gemcitabine and gcv treatment in hamsters bearing mixed tumors, suggesting that
+the mechanism of action of the two drugs could be in
+common, such as apoptosis.
+the success of gene therapy depends on efficient and
+sufficient gene delivery systems and the selective expression of the therapeutic gene in tumor cells. adenovectors
+are limited systems since they induce the subsequent
+development of a neutralizing host immune response and
+most of pancreatic cancer cells have a low level of
+adenovirus receptors at their surface [31,32]. in this
+context, use of a safe, nonviral vector for therapeutic gene
+delivery, such as linear cationic polymers of pei, might be
+of great interest. pei was chosen because of its relatively
+high efficiency of gene delivery in pancreatic cancer cells
+both in vitro [25] and in vivo [24,26,33,34]. in addition,
+compared to cationic lipid carriers, pei may better protect
+dna from enzyme degradation because of its best stability
+in the pancreatic environment, known to be rich in lipid
+
+molecular therapy vol. 14, no. 6, december 2006
+copyright c the american society of gene therapy
+
+doi:10.1016/j.ymthe.2006.07.010
+
+article
+
+fig. 8. in vivo bystander killing effect following treatment of pancreatic tumors expressing  xxxg611xxx :: xxxg478xxx  established in syrian golden hamsters with gemcitabine.
+ xxxg611xxx :: xxxg478xxx /tk mixed pancreatic tumors were generated by inoculating into the tail of the pancreas a mixed population of pc1.0. xxxg611xxx :: xxxg478xxx /tk cells and pc1.0
+wild-type cells at a ratio of 25:75 (5  105 cells per allograft). eight days after orthotopic tumor cell allograft, animals received ip injection of either vehicle or
+120 mg/kg gemcitabine ( xxxd2188xxx ). (a) immunostaining for  xxxg611xxx  was performed 22 days following tumor implantation as described under materials and methods.
+results representative of 15 successive high-power fields from three independent experiments were analyzed. (b) colocalization of  xxxg611xxx  immunoreactivity and
+tunel labeling on serial sections was performed as described under materials and methods. results representative of 15 successive high-power fields from three
+independent experiments were analyzed.
+
+catabolism enzymes such as  xxxg428xxx  or pancreatic lipases that could destroy nonviral lipid molecules.
+the  xxxg611xxx :: xxxg478xxx /gemcitabine sensitizing system has a
+number of potential advantages for cancer gene therapy
+and potential clinical relevance, particularly for pancreatic
+carcinoma: (i) nowadays, gemcitabine is the only chemotherapeutic agent used as first-line treatment of locally
+advanced and/or metastatic pancreatic cancer; (ii) as
+opposed to hsv/tk and others currently utilized chemosensitization genes, such as cytosine deaminase or uracil
+phosphoribosyltransferase, a fusion  xxxg611xxx :: xxxg478xxx  gene is a
+synthetic humanized gene and thus limits the chances of a
+significant anti- xxxg611xxx :: xxxg478xxx  immunologic response in
+humans; (iii)  xxxg611xxx :: xxxg478xxx  gene expression is able to
+enhance the cytotoxic effects of gemcitabine chemotherapy locally by interacting in the metabolism/anabolism of the drug within the tumor cells. our encouraging in
+vitro and in vivo data suggest that the  xxxg611xxx :: xxxg478xxx  gene/
+gemcitabine system may be a powerful therapeutic
+approach to in vivo gene therapy of pancreatic cancer.
+
+materials
+
+and
+
+methods
+
+chemicals and reagents
+rpmi 1640,  xxxd164xxx , penicillin, streptomycin, trypsin, and fetal calf
+serum (fcs) were purchased from invitrogen (cergy pontoise, france).
+the anti-mycoplasma agent, plasmocin, was provided by cayla invivo-
+
+molecular therapy vol. 14, no. 6, december 2006
+copyright c the american society of gene therapy
+
+gen co. (toulouse, france). gemcitabine hydrochloride (gemzar) was
+purchased from eli lilly and co. (indianapolis, in, usa). ganciclovir
+cymevan was from roche pharmaceuticals (basel, switzerland). the
+synthetic linear polymers of pei (22 kda) used as transfection reagent
+(exgen 500) were from euromedex (souffleweyersheim, france).
+ xxxg611xxx :: xxxg478xxx -expressing plasmids
+the self-cleaving fmdv 2a peptide was inserted between  xxxg611xxx  and  xxxg478xxx 
+cdnas to make the fusion cdna  xxxg611xxx :: xxxg478xxx . similarly, the thymidine
+kinase cdna from herpes simplex virus type 1 was cloned in frame with a
+zeocin-resistance cdna (cayla, toulouse, france). these genes were
+subcloned in the pvivo plasmid (cayla). in pvivo, two glucoseregulated protein promoters ( xxxg1099xxx  and  xxxg1101xxx ), known to drive high
+levels of expression under normal conditions and stronger expression
+under stress conditions (such as glucose deprivation and hypoxia
+prevailing inside tumors) are used to generate a high level of cpg-free
+gene expression (cpg motifs were eliminated from nonmammalian genes
+present in the plasmid backbone by chemical synthesis). three expression
+vectors were generated: (i) pvivo coexpressing  xxxg611xxx :: xxxg478xxx  and tk genes
+( xxxg611xxx :: xxxg478xxx /tk) (fig. 1a), (ii) pvivo coexpressing  xxxg611xxx :: xxxg478xxx  and the
+green fluorescent protein gene ( xxxg611xxx :: xxxg478xxx /gfp), and (iii) pvivo coexpressing lacz and the green fluorescent protein gene (lacz/gfp).
+transfected cell lines
+pc1.0 cells, derived from a pancreatic ductal carcinoma induced by nnitrosobis(2-oxopropyl)amine in syrian golden hamsters [24,25], were
+maintained in rpmi 1640, supplemented with 5% fcs,  xxxd164xxx ,
+antibiotics (streptomycin/penicillin), l-glutamine, and an anti-mycoplasma reagent (plasmocin; cayla). cells were kept at 378c and 5%
+co2.  xxxg611xxx :: xxxg478xxx /tk or lacz/gfp genes subcloned in the pvivo vector
+were stably transfected using a cationic phosphonolipid reagent lyovec
+(cayla invivogen). stable clonal cell populations were selected in the
+
+765
+
+article
+
+presence of 0.4 to 0.6 mg/ml zeocin. stable transfectants (named
+pc1.0. xxxg611xxx :: xxxg478xxx /tk cells and pc1.0.lacz/gfp cells) were then cultured in rpmi 1640 medium containing 5% svf and 0.3 mg/ml zeocin.
+for transient transfection, pc1.0 cells or cos-7 cells (maintained in
+dmem, supplemented with 10% fcs) were plated in 60-mm diameter
+dishes (2  105 cells per dish in 4 ml of rpmi 1640 or dmem
+containing 5 or 10% fcs). after a 12-h attachment phase, cells were
+transfected with 5 ag of plasmid using pei 22-kda as transfection
+reagent (ration n/p = 8 as described previously) [24–26].
+rna isolation and rt-pcr assays
+total rna from cultured cells or from mechanically homogenized tumor
+tissues was extracted by the guanidinium thiocyanate–phenol–chloroform method as described previously [24,26]. to eliminate genomic dna,
+total rna was subjected to an rnase-free dnase i treatment before reverse
+transcription. expression of the  xxxg611xxx :: xxxg478xxx  fusion was visualized by rtpcr using a sense primer (5v-atggccaccccgcccaagaga-3v) specific
+to  xxxg611xxx  and an antisense primer (5v-ttagccttccttgtcaa-3v) specific
+to  xxxg478xxx , which yield a 1.4-kb fragment (fig. 1b). the pcr products were
+separated on 7% polyacrylamide or 1% agarose gels using h-actin or
+ xxxg861xxx  as internal control genes.
+western blot analysis
+cos-7 cells transiently transfected with pvivo plasmids coexpressing the
+ xxxg611xxx :: xxxg478xxx /tk or lacz/gfp gene were cultured for 2 days and subjected to
+western blot analysis using anti-human  xxxg611xxx  antibody 1:250 (gift from
+dr. f. bontemps, university of louvain, ucl, brussels, belgium) as
+described previously [26].
+in vitro drug sensitivity assays
+pc1.0 or pc1.0. xxxg611xxx :: xxxg478xxx /tk or pc1.0.lacz/gfp cells were plated in 35mm-diameter dishes at 4  103 cells/ml (2 ml per dish) in rpmi 1640
+medium containing 5% fcs. after a 12-h attachment phase, cells were
+cultured for 3 days in a fresh medium supplemented or not with
+increasing concentrations of nucleoside analogues (0.003 to 0.3 ag/ml
+gemcitabine or 0.1 to 30 ag/ml gcv). cell survival was measured by mts
+according the manufacturerts instructions (promega, charbonnières-lesbains, france).
+animals and experimental protocols
+five-week-old male syrian golden hamsters (weight 70– xxxd1523xxx ) were
+obtained from harlan france (gannat). the animals were acclimatized
+in a temperature-controlled room under a 12-h light/12-h dark schedule
+and received pelleted diet and water. hamsters were anesthetized for all
+surgical procedures, by an ip injection of pentobarbital (60 mg/kg). as
+described previously, 5  105 pc1.0 cells resuspended in 100 al of fcsfree rpmi 1640 medium were orthotopically implanted (tail of the
+pancreas) into hamsters [24,25] after minilateral laparotomy. all experiments were performed according to the rules of the animal ethical
+committee. following sacrifice, tumors were immediately sampled either
+in cold isopentane, and then frozen in liquid nitrogen and kept at
+808c, or in formalin before subsequent manipulation. three sets of
+experiments were conducted using groups of four to five animals, as
+follows:
+protocol 1: ex vivo gene therapy. pc1.0 wild-type or pc1.0. xxxg611xxx ::  xxxg478xxx /
+tk or pc1.0.lacz/gfp cells were injected into the pancreatic tail of
+hamsters to generate primary tumors. seven days after cell implantation,
+animals bearing pancreatic tumors were divided into three groups and
+treated with nacl 0.9%,  xxxd2188xxx , or gcv. gemcitabine was given by single
+ip injections on days 7, 10, 13, and 16 post-cell implantation at a dose
+of 120 mg/kg body wt [27]. gcv was given once a day for 7 days (days 7
+to 14 post-cell implantation) at a dose of 75 mg/kg body wt (ip
+injection) [28]. tumor size was measured in situ with calipers at days 7
+(before drug administration), 16, 22, and 28 after median laparotomy
+under pentobarbital anesthesia. tumor volume in cubic millimeters and
+tumor progression rate were determined as described [24,26].
+
+766
+
+doi:10.1016/j.ymthe.2006.07.010
+
+protocol 2: ex vivo mixed-population experiments. to evaluate the local
+bystander effect, pancreatic tumors were generated by inoculating
+mixed populations of pc1.0. xxxg611xxx :: xxxg478xxx /tk and pc1.0 wild-type cells
+into the pancreatic tail of hamsters at a ratio of 25:75 (5  105 cells per
+allograft). eight days later, tumor volume (called mixed tumors) was
+measured as described above after median laparotomy under anesthesia
+and then animals were ip injected with nacl 0.9%, 60 or 120 mg/kg
+gemcitabine, or 37.5 or 75 mg/kg gcv, or combination of 60 mg/kg
+gemcitabine plus 37.5 mg/kg gcv as described above. tumor volumes
+and progression were measured after sacrifice at day 22 post-cell
+implantation.
+protocol 3: in vivo gene therapy. pancreatic tumors were generated by
+inoculating pc1.0 wild-type cells into the pancreatic tail of hamsters.
+eight days later, after median laparotomy under anesthesia, tumor
+volume was measured and an intratumoral gene transfer was performed
+using pei 22-kda (ratio pei nitrogen to dna phosphate n/p = 10) in 5%
+w/v glucose as described [24]. pei/dna complexes were then injected
+into exponentially growing tumors using a sterile 29-gauge lymphography catheter set with a flow rate of 25 al/min. a total of 25 ag of
+ xxxg611xxx :: xxxg478xxx /gfp or lacz/gfp expression vectors was injected. animals
+were then ip injected with nacl 0.9% or gemcitabine 120 mg/kg, as
+described above under experimental protocols 1 and 2. tumor volumes
+and progression were evaluated after sacrifice at day 18 post-cell
+implantation.
+assessment of in vitro annexin-v expression using facs analysis
+pc1.0 cells transiently or stably transfected with pvivo plasmids coexpressing  xxxg611xxx :: xxxg478xxx /tk or lacz/gfp genes were cultured in 60-mm-diameter
+dishes in complete medium before treatment or no treatment with 0.3 ag/
+ml gemcitabine for 24 and 48 h. annexin-v labeling was measured on
+10,000 events by flow cytometry following the manufacturerts instructions (becton–dickinson, sunnyvale, ca, usa) using cellquest software on a
+facscalibur station (becton–dickinson).
+immunohistochemical staining for  xxxg611xxx  and in situ tunel assay
+four-micrometer-thick serial sections were prepared from paraffin-embedded specimens as described [24,26], before overnight incubation with
+anti-human  xxxg611xxx  antibody (1:400). following incubation with hrpcoupled secondary antibodies, immunostaining was revealed using 3,3vdiaminobenzidine (sigma co., st. louis, mo, usa). slides were counterstained with mayerts hematoxylin. negative control slides were prepared
+by replacing the primary antibody with pbs. tunel staining was
+performed as described [24] using the in situ cell death detection kit
+apopdetek (enzo diagnostics, inc., farmingdale, ny, usa), according to
+the manufacturerts instructions. slides were counterstained with mayerts
+hematoxylin.
+
+acknowledgments
+this research was aided in part by grants from the région midi-pyrénées
+(programme concerté de thérapie génique et cellulaire 2002/2003), the
+association pour la recherche contre le cancer, a cifre contract (f.v.), and
+the ligue nationale contre le cancer (p.c., l3 laboratory facility), cancéropôle
+gso. the authors thank dr. f. bontemps, university of louvain, ucl,
+brussels, belgium, for kindly providing human anti- xxxg611xxx  antibodies.
+received for publication november 17, 2005; revised july 7, 2006;
+accepted july 17, 2006.
+
+references
+1. warshaw, a. l., and fernandez-del castillo, c. (1992). pancreatic carcinoma. n. engl. j.
+med. 326: 455 – 465.
+2. buscail, l., pages, p., berthelemy, p., fourtanier, g., frexinos, j., and escourrou, j. (1999).
+role of eus in the management of pancreatic and ampullary carcinoma: a prospective
+study assessing resectability and prognosis. gastrointest. endosc. 50: 34 – 40.
+3. burris, h. a., iii (1997). improvements in survival and clinical benefit with gemcitabine
+
+molecular therapy vol. 14, no. 6, december 2006
+copyright c the american society of gene therapy
+
+doi:10.1016/j.ymthe.2006.07.010
+
+4.
+
+5.
+6.
+
+7.
+
+8.
+
+9.
+10.
+
+11.
+
+12.
+
+13.
+
+14.
+15.
+
+16.
+
+17.
+
+18.
+
+as first-line therapy for patients with advanced pancreas cancer: a randomized trial.
+j. clin. oncol. 15: 2403 – 2413.
+storniolo, a. m., et al. (1999). an investigational new drug treatment program for
+patients with gemcitabine: results for over 3000 patients with pancreatic carcinoma.
+cancer 85: 1261 – 1268.
+lohr, m., et al. (2001). microencapsulated cell-mediated treatment of inoperable
+pancreatic carcinoma. lancet 357: 1591 – 1592.
+kasuya, h., nishiyama, y., nomoto, s., hosono, j., takeda, s., and nakao, a. (1999).
+intraperitoneal delivery of hrr3 and ganciclovir prolongs survival in mice with
+disseminated pancreatic cancer. j. surg. oncol. 72: 136 – 141.
+carrio, m., mazo, a., lopez-iglesias, c., estivill, x., and fillat, c. (2001). retrovirusmediated transfer of the herpes simplex virus thymidine kinase and connexin26 genes
+in pancreatic cells results in variable efficiency on the bystander killing: implications for
+gene therapy. int. j. cancer 94: 81 – 88.
+makinen, k., loimas, s., wahlfors, j., alhava, e., and janne, j. (2000). evaluation of
+herpes simplex thymidine kinase mediated gene therapy in experimental pancreatic
+cancer. j. gene med. 2: 361 – 367.
+evoy, d., et al. (1997). in vivo adenoviral-mediated gene transfer in the treatment of
+pancreatic cancer. j. surg. res. 69: 226 – 231.
+kanai, f., et al. (1998). adenovirus-mediated transduction of escherichia coli uracil
+phosphoribosyltransferase gene sensitizes cancer cells to low concentrations of 5fluorouracil. cancer res. 58: 1946 – 1951.
+rauchwerger, d. r., firby, p. s., hedley, d. w., and moore, m. j. (2000). equilibrativesensitive nucleoside transporter and its role in gemcitabine sensitivity. cancer res. 60:
+6075 – 6079.
+hapke, d. m., stegmann, a. p., and mitchell, b. s. (1996). retroviral transfer of
+ xxxg611xxx  into tumor cell lines enhances nucleoside toxicity. cancer res. 56:
+2343 – 2347.
+blackstock, a. w., et al. (2001). tumor uptake and elimination of 2v,2v-difluoro-2vdeoxycytidine (gemcitabine) after  xxxg611xxx  gene transfer: correlation with
+in vivo tumor response. clin. cancer res. 7: 3263 – 3268.
+kroep, j. r., et al. (2002). pretreatment  xxxg611xxx  levels predict in vivo
+gemcitabine sensitivity. mol. cancer ther. 1: 371 – 376.
+van rompay, a. r., johansson, m., and karlsson, a. (1999). phosphorylation of
+ xxxd1836xxx  analog monophosphates by  xxxg478xxx : molecular characterization of the human enzyme. mol. pharmacol. 56: 562 – 569.
+liou, j. y., dutschman, g. e., lam, w., jiang, z., and cheng, y. c. (2002).
+characterization of human  xxxg478xxx  and its phosphorylation of d- and l-form
+ xxxd1836xxx  analogue monophosphates. cancer res. 62: 1624 – 1631.
+eliopoulos, n., cournoyer, d., and momparler, r. l. (1998). drug resistance to 5-aza2v- xxxd1836xxx , 2v,2v-difluorodeoxycytidine, and  xxxd1790xxx  conferred by
+retroviral-mediated transfer of human  xxxg400xxx  cdna into murine cells.
+cancer chemother. pharmacol. 42: 373 – 378.
+beausejour, c. m., gagnon, j., primeau, m., and momparler, r. l. (2002). cytotoxic
+activity of 2v,2v-difluorodeoxycytidine, 5-aza-2v- xxxd1836xxx  and  xxxd1790xxx 
+in cells transduced with  xxxg611xxx  gene. biochem. biophys. res. commun.
+293: 1478 – 1484.
+
+molecular therapy vol. 14, no. 6, december 2006
+copyright c the american society of gene therapy
+
+article
+
+19. sandler, a., and ettinger, d. s. (1999). gemcitabine: single-agent and combination
+therapy in non-small cell lung cancer. oncologist 4: 241 – 251.
+20. dtagostino, g., amant, f., berteloot, p., scambia, g., and vergote, i. (2003). phase ii
+study of gemcitabine in recurrent platinum- and paclitaxel-resistant ovarian cancer.
+gynecol. oncol. 88: 266 – 269.
+21. ruiz van haperen, v. w., et al. (1994). development and molecular characterization of
+a 2v,2v-difluorodeoxycytidine-resistant variant of the human ovarian carcinoma cell line
+a2780. cancer res. 54: 4138 – 4143.
+22. mackey, j. r., et al. (1998). functional nucleoside transporters are required for
+gemcitabine influx and manifestation of toxicity in cancer cell lines. cancer res. 58:
+4349 – 4357.
+23. goan, y. g., zhou, b., hu, e., mi, s., and yen, y. (1999). overexpression of
+ribonucleotide reductase as a mechanism of resistance to 2,2-difluorodeoxycytidine
+in the human kb cancer cell line. cancer res. 59: 4204 – 4207.
+24. vernejoul, f., et al. (2002). antitumor effect of in vivo somatostatin receptor
+sst2 gene transfer in primary and metastatic cancer models. cancer res. 62:
+6124 – 6131.
+25. benali, n., et al. (2000). inhibition of growth and metastatic progression of pancreatic
+carcinoma in hamster after somatostatin receptor subtype 2 (sst2) gene expression and
+administration of cytotoxic somatostatin analog an-238. proc. natl. acad. sci. usa 97:
+9180 – 9185.
+26. carrere, n., et al. (2005). characterization of the bystander effect of somatostatin
+receptor sst2 after in vivo gene transfer into human pancreatic cancer cells. hum. gene
+ther. 16: 1175 – 1193.
+27. braakhuis, b. j., ruiz van haperen, v. w., welters, m. j., and peters, g. j.
+(1995). schedule-dependent therapeutic efficacy of the combination of gemcitabine and cisplatin in head and neck cancer xenografts. eur. j. cancer 31a:
+2335 – 2340.
+28. huang, p., chubb, s., hertel, l. w., grindey, g. b., and plunkett, w. (1991). action of
+2v,2v-difluorodeoxycytidine on dna synthesis. cancer res. 51: 6110 – 6117.
+29. manome, y., et al. (1996). viral vector transduction of the human  xxxg611xxx 
+cdna sensitizes glioma cells to the cytotoxic effects of  xxxd1790xxx  in vitro and
+in vivo. nat. med. 2: 567 – 573.
+30. bergman, a. m., pinedo, h. m., and peters, g. j. (2002). determinants of resistance to
+2v,2v-difluorodeoxycytidine (gemcitabine). drug resist. update 5: 19 – 33.
+31. pearson, a. s., et al. (1999). factors limiting adenovirus-mediated gene
+transfer into human lung and pancreatic cancer cell lines. clin. cancer res.
+5: 4208 – 4213.
+32. mcclane, s. j., chirmule, n., burke, c. v., and raper, s. e. (1997). characterization of the immune response after local delivery of recombinant adenovirus in
+murine pancreas and successful strategies for readministration. hum. gene ther. 8:
+2207 – 2216.
+33. goula, d., benoist, c., mantero, s., merlo, g., levi, g., and demeneix, b. a. (1998).
+polyethylenimine-based intravenous delivery of transgenes to mouse lung. gene ther.
+5: 1291 – 1295.
+34. aoki, k., et al. (2001). polyethylenimine-mediated gene transfer into pancreatic tumor
+dissemination in the murine peritoneal cavity. gene ther. 8: 508 – 514.
+
+767
+

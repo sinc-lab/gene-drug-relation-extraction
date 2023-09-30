@@ -1,0 +1,827 @@
+molecular genetics and metabolism 89 (2006) 64–73
+www.elsevier.com/locate/ymgme
+
+propionyl-coa and adenosylcobalamin metabolism in
+caenorhabditis elegans: evidence for a role of methylmalonyl-coa
+epimerase in intermediary metabolism
+randy j. chandler a, vijay aswani a, matthew s. tsai a, marni falk b,c, natasha wehrli d,
+sally stabler e, robert allen e, margaret sedensky f, haig h. kazazian d, charles p. venditti a,¤
+a
+
+genetic disease research branch, national human genome research institute, national institutes of health, bethesda, md 20892, usa
+b
+department of genetics, case school of medicine, cleveland, oh 44106, usa
+c
+department of pediatrics, case school of medicine, cleveland, oh 44106, usa
+d
+department of genetics, university of pennsylvania school of medicine, philadelphia, pa 19114, usa
+e
+department of medicine, university of colorado school of medicine, denver, co 80206, usa
+f
+department of anesthesiology, university hospitals of cleveland, cleveland, oh 44106, usa
+received 25 april 2006; received in revised form 2 june 2006; accepted 2 june 2006
+available online 14 july 2006
+
+abstract
+we have utilized caenorhabditis elegans to study human methylmalonic acidemia. using bioinformatics, a full complement of mammalian homologues for the conversion of propionyl-coa to succinyl-coa in the genome of c. elegans, including propionyl-coa carboxylase subunits a and b ( xxxg1677xxx -1,  xxxg1678xxx -1), methylmalonic acidemia cobalamin a complementation group ( xxxg1414xxx -1), co(i)balamin
+adenosyltransferase ( xxxg1415xxx -1),  xxxg1416xxx  (cblc-1), methylmalonyl-coa epimerase (mce-1) and  xxxg1485xxx  (mmcm-1)
+were identiwed. to verify predictions that the entire intracellular adenosylcobalamin metabolic pathway existed and was functional, the
+kinetic properties of the c. elegans mmcm-1 were examined. rna interference against mmcm-1,  xxxg1415xxx -1,  xxxg1414xxx -1 in the presence of  xxxd3029xxx  revealed a chemical phenotype of increased methylmalonic acid; deletion mutants of mmcm-1,  xxxg1415xxx -1 and mce-1 displayed
+reduced 1-[14c]-propionate incorporation into macromolecules. the mutants produced increased amounts of methylmalonic acid in the
+culture medium, proving that a functional block in the pathway caused metabolite accumulation. lentiviral delivery of the c. elegans
+mmcm-1 into wbroblasts derived from a patient with muto class methylmalonic acidemia could partially restore propionate xux. the
+c. elegans mce-1 deletion mutant demonstrates for the wrst time that a lesion at the epimerase step of methylmalonyl-coa metabolism
+can functionally impair xux through the  xxxg1485xxx  pathway and suggests that malfunction of mcee may cause methylmalonic acidemia in humans. the c. elegans system we describe represents the wrst lower metazoan model organism of mammalian propionate spectrum disorders and demonstrates that mass spectrometry can be employed to study a small molecule chemical phenotype in
+c. elegans rnai and deletion mutants.
+© 2006 elsevier inc. all rights reserved.
+keywords: propionate metabolism; methylmalonic acidemia; methylmalonyl-coa epimerase;  xxxg1485xxx ; cobalamin; c. elegans;
+methylmalonyl-coa racemase; mass spectrometry; rna interference; bioinformatics
+
+introduction
+the metabolism of propionyl-coa to succinyl-coa via
+the formation and isomerization of methylmalonyl-coa is
+*
+
+corresponding author. fax: +1 3014022170.
+e-mail address: venditti@mail.nih.gov (c.p. venditti).
+
+1096-7192/$ - see front matter © 2006 elsevier inc. all rights reserved.
+doi:10.1016/j.ymgme.2006.06.001
+
+a critical metabolic pathway in humans (fig. 1). defective
+conversion of l-methylmalonyl-coa to succinyl-coa in
+the mitochondrial matrix underlies the etiology of the
+hereditary methylmalonic acidemias (mim 251000 and
+mim 251100), a heterogeneous group of inborn errors of
+metabolism [1]. patients dewcient in methylmalonyl-coa
+mutase (mut) or adenosylcobalamin, the enzymatic
+
+r.j. chandler et al. / molecular genetics and metabolism 89 (2006) 64–73
+
+65
+
+fig. 1. major pathway of the conversion of propionyl-coa into succinyl-coa in human cells. the biotin-dependent enzyme, propionyl-coa carboxylase
+( xxxg1677xxx ,  xxxg1678xxx ) converts propionyl-coa into d-methylmalonyl-coa which is then racemized into l-methylmalonyl-coa and isomerized into succinylcoa, a kreb cycle intermediate. the l- xxxg1485xxx  (mut) reaction requires adenosylcobalamin. the class and genes associated with
+methylmalonic acidemia are mut (mut),  xxxg1414xxx  ( xxxg1414xxx ), cblb ( xxxg1415xxx ), cbld variant 2 (unknown gene(s)), cblc (mmahc), cblf (unknown gene(s)).
+question marks indicate unknown genes or poorly dewned cellular processes [6–10,19].
+
+cofactor, accumulate methylmalonic acid in their tissues
+and body xuids, and display secondary metabolic perturbations such as hyperglycinemia, hyperammonemia and intermittent hypoglycemia [1]. despite meticulous dietary
+control, avected individuals exhibit extreme metabolic
+instability and suver from severe complications, such as
+developmental delay, renal disease, pancreatitis and metabolic infarction of the basal ganglia [2–5]. the pathophysiology of these processes and disease complications remain
+poorly dewned.
+a common feature of cell lines derived from mut,
+ xxxg1414xxx ,  xxxg1415xxx  and cbld variant two dewcient patients is
+diminished 1-[14c] propionate incorporation into macromolecules, an indirect assay of propionate xux through the
+pathway depicted in fig. 1 [11,12].
+the function of the methylmalonyl-coa epimerase or
+racemase (mcee) in vivo is uncertain. one older report
+proposed that patients who harbor mutations at this locus
+are protected from developing methylmalonic acidemia
+because a free methylmalonic acid shunt bypasses the epimerase reaction [13]. the striking conservation of the gene
+throughout the phyla suggests that the gene product may
+play a critical role in intermediary metabolism [14].
+
+the methylmalonyl-coa epimerase (mce-1) of c. elegans has been studied [15]. a deletion mutant has no phenotype and exhibits relative resistance to oxidative stress.
+while the gene product has been demonstrated to possess
+methylmalonyl-coa epimerase activity in vitro, the biochemical phenotype of the mutant has not been evaluated.
+speciwcally, whether it displays a functional impairment of
+1-[14c]-propionate incorporation into macromolecules,
+suggesting an active role in propionyl- and methylmalonylcoa metabolism, remains unknown. because there are no
+dewnitive reports of methylmalonic acidemia patients with
+mcee gene mutations, and no other animal models of
+mcee dewciency exist, the role of the mcee gene in methylmalonyl-coa metabolism remains mysterious.
+methylmalonic acidemia has been diycult to study in
+model organisms. earlier evorts have used nutritional [16]
+and cobalamin-analog treatments [17] to induce methylmalonic aciduria in rats. both of these treatments are artiwcial
+and produce an incomplete block, especially in the case of
+nutritional dewciency, causing combined  xxxg1479xxx  and  xxxg1485xxx  functional impairment. establishing tractable model organism systems to
+study methylmalonic acidemia will be required to better
+
+66
+
+r.j. chandler et al. / molecular genetics and metabolism 89 (2006) 64–73
+
+understand the symptoms and complications associated
+with this group of disorders, develop new therapies and further dewne genes that may play a role in methylmalonylcoa and cobalamin metabolism. to date, knock-out
+murine models of  xxxg1485xxx  have displayed a severe neonatal phenotype with uniform mortality
+by 24–36 h of life [18,19]. organisms more amenable to
+genetic manipulations such as yeast and drosophila do not
+possess cobalamin-dependent metabolic enzymes or utilize
+alternative pathways for propionyl-coa metabolism, such
+as the methylcitrate cycle [20].
+in the present report, we employed a combination of
+informatic, genomic, biochemical, and metabolic analyses
+to identify and characterize c. elegans genes predicted to
+participate in methylmalonyl-coa metabolism. in addition
+to providing direct biochemical evidence for  xxxg1485xxx  activity and adenosylcobalamin synthetic
+capacity, we show that c. elegans can be used to dewne the
+function of gene products previously suspected to participate in methylmalonyl-coa metabolism in man, particularly methylmalonyl-coa epimerase. we propose that c.
+elegans may be used in genetic and genomic evorts to
+identify genes that inxuence cobalamin and methylmalonyl-coa metabolism and demonstrate the utility of mass
+spectrometry to study chemical phenotypes in c. elegans.
+materials and methods
+strains
+c. elegans bristol n2, rb1434 mmcm-1(ok1637), rb1347 mmab1(ok1493), vc974  xxxg1415xxx -1(ok1484) and rb512 mce-1(ok243) nematodes
+were obtained from the caenorhabditis genetics center, university of
+minnesota, minneapolis, mn, usa. deletion mutants rb1434, rb1347
+
+and rb512 were generated by the oklahoma medical research foundation (omrf) knockout group, oklahoma city, ok, usa. deletion
+mutant vc974 was isolated by the reverse genetics core facility at the
+university of british columbia, vancouver, canada. nematodes were
+grown at 20 °c on nematode growth media (ngm) plates using e. coli
+strain op50 as a food source [21].
+
+bioinformatics and sequence analysis
+the blastp searches were performed against wormbase
+(www.wormbase.org) using protein sequences from the ncbi
+(www.ncbi.nih.gov) known to be involved in the conversion of propionylcoa to succinyl-coa in humans. reciprocal comparisons yielded identical results. the sequence accession numbers are displayed in table 1.
+
+radioactive incorporation study
+10–20 mg of c. elegans were incubated with 2 ci of [1–14c] sodium
+propionate (perkinelmer, boston, ma) in 500 l of pbs with 50 g/ml of
+kanamycin for 24 h. worms were examined for viability and re-suspended
+in 500 l of 5% trichloroacetic acid (tca) solution, heated for 10 min at
+85 °c and then placed on ice for 20 min. insoluble material was concentrated by centrifugation at 16,060£ g for 10 min. the pellet was rinsed
+with 500 l of ice-cold 5% tca, re-suspended in 500 l of 1 n naoh and
+heated at 85 °c for 15 min. protein concentration was determined using
+the bio-rad protein assay (bio-rad, hercules, ca). incorporation of
+radioactive isotopes was measured using scintillation system ls6500
+(beckman instruments, fullerton, ca).
+
+isolation of cdna and c. elegans homologues
+rna was isolated from a mixed worm population using rneasy mini
+kit (qiagen inc., valencia, ca). superscript first-strand synthesis system
+for rt-pcr (invitrogen, carlsbad, ca) was used to generate single strand
+cdna libraries. the cdnas for mmcm-1,  xxxg1414xxx -1,  xxxg1415xxx -1,  xxxg1677xxx -1,  xxxg1678xxx -1
+and mce-1 were isolated by pcr using primers designed against sequences
+obtained from wormbase. the forward and reverse primers were designed
+with restriction enzyme sites for directional cloning; the forward primer
+also contained a kozak consensus sequence for expression. pcr products
+
+table 1
+putative c. elegans homologues of genes involved in propionyl-coa metabolism
+human protein
+
+c. elegans protein
+gene
+
+protein %
+similarity/e-value
+
+domains present in human protein
+
+domain(s) %
+similarity/e-value
+
+propionyl-coa carboxylase alpha
+subunit ( xxxg1677xxx ) np000273.1
+
+wp:ce04451
+f27d9.5  xxxg1677xxx -1
+
+94.6/5.2e-215
+
+89.8/2.00e-26
+
+100/5.00e-12
+100/0.00e-00
+
+propionyl-coa carboxylase beta
+subunit ( xxxg1678xxx ) np000523.1
+methylmalonyl-coa epimerase
+(mce) np115990.2
+ xxxg1485xxx  (mut)
+np000246.1
+
+wp:ce07269
+f52e4.1  xxxg1678xxx -1
+wp:ce09082
+ xxxd2030xxx .5 mce-1
+wp:ce30404
+zk1058.1 mmcm-1
+
+95.3/1.4e-212
+
+carbamoyl-phosphate synthase lchain,
+atp binding domain, pfam02786
+biotin caboxylase c-terminal domain
+pfam02785
+carbamoyl-phosphate synthase, n-terminal
+domain pfam00289
+biotin-requiring enzyme pfam00364
+carboxyl transferase domain pfam01039
+
+79.6/2.3e-45
+
+glyoxalase pfam00903
+
+100/7.00e-17
+
+97.8/7.29e-280
+
+100/5.00e-43
+
+methylmalonic aciduria type a
+( xxxg1414xxx ) np758454.1
+methylmalonic aciduria type b
+( xxxg1415xxx -1) np443077.1
+ xxxg1416xxx  [35]
+
+wp:ce31822
+t02g5.13  xxxg1414xxx -1
+wp:ce01159
+c26e6.11  xxxg1415xxx -1
+wp:ce34461
+zk546.17 cblc-1
+
+82.5/1.2e-89
+
+ xxxg1485xxx  b12 binding
+domain cd02071
+ xxxg1485xxx  pfam01642
+argk protein pfam03308
+
+100/0.00e-00
+100/3.00e-105
+
+53.7/5.7e-35
+
+cobalamin adenosyltransferase pfam01923
+
+97.6/4.00e-50
+
+52/5e-31
+
+none proven
+
+100/1.00e-35
+100/2.00e-27
+
+the percent similarity and e-values of the p-blast scores between human proteins involved in propionate metabolism and putative c. elegans orthologs
+as well as the conserved domains between human and c. elegans proteins is shown.
+
+r.j. chandler et al. / molecular genetics and metabolism 89 (2006) 64–73
+were cloned into pcr 2.1 topo vector (invitrogen, carlsbad, ca) using
+ta cloning. clones were screened by pcr and positive clones were
+sequenced.
+
+isolation of break point sequences in c. elegans mutants
+dna was isolated from c. elegans using dneasy tissue kit (qiagen
+inc., valencia, ca). the genomic dna from each mutant underwent pcr
+using the inner left and inner right primers designed by the c. elegans
+knockout project at omrf for mutant screening. pcr products were
+cloned into pcr 2.1 topo vector (invitrogen, carlsbad, ca) using ta
+cloning. five clones from each mutant strain were then sequenced and
+compared to the genomic dna sequence to determine the site of the deletion. the sequences have been deposited in wormbase under the respective gene entries.
+
+rna interference
+mmcm-1,  xxxg1414xxx -1,  xxxg1415xxx -1,  xxxg1677xxx -1,  xxxg1678xxx -1 and mce-1 were cloned into
+the rnai vector ppd129.36 and transformed into e. coli strain op50 [22].
+feeding rnai was performed as described [23]. the strains were grown
+overnight from individual colonies in lb with 100 g/ml of ampicillin at
+37 °c. one milliliter of overnight culture was then placed in 30 ml of lb
+with 100 g/ml of ampicillin and grown to od of 0.4 absorbance units at
+595 nm. the culture was induced with 0.4 mm iptg for an additional 4 h.
+bacteria were concentrated by centrifugation and plated on 100 mm ngm
+agar plate with 12.5 g/ml of tetracycline, 100 g/ml of ampicillin and
+1 mm iptg. strains were grown overnight at room temperature. the following day two 100 mm plates per strain were seeded with c. elegans eggs
+prepared using standard methods. nematodes were grown at 20 °c until
+plates were cleared.
+
+loading studies
+nematodes were washed from plates (two plates per strain) after feeding rnai with 6 ml phosphate buvered saline (pbs) and puriwed via a
+sucrose gradient (30% sucrose in ultra-pure water). the animals were
+placed in 1.5 ml centrifuge tubes and suspended with 5 mm of sodium propionate (sigma) in 500 l pbs with 50 g/ml kanamycin incubated at 20 °c
+for 48 h. the worms were centrifuged and the supernatant was removed
+for gc/ms analysis. metabolite levels were normalized to protein concentration of the pellet or wet weight.
+
+gas chromatography/mass spectrometry (gc/ms)
+methylmalonic acid concentrations were determined using capillary
+gas chromatography–mass spectroscopy with stable isotopic internal calibration as described [24]. in some experiments, organic acids were puriwed
+after perchloric acid precipitation of macromolecules and anion exchange
+column chromatography [25].
+
+mitochondrial preparations
+isolation of intact mitochondria from c. elegans was performed as previously described [26], with the modiwcations detailed below, to obtain
+well-functioning mitochondria. a total of 1 to 3 g of freshly washed adult
+worms were washed twice with 10 ml msm-e [150 ml msm (40.08 g mannitol, 23.96 g sucrose, 1.047 g mops, 3 ml 0.1 m edta, ph 7.4, per liter)]
+and re-suspended by centrifugation (300£ g, 10 min, 4 °c). a glass potter/
+elvehjem tissue grinder with a texon (dupont, wilmington, de) pestle
+(wheaton, millville, nj) was then used for initial rupture: 3 slow strokes
+at 400 rpm. proteinase subtilisin a (sigma, mo) was added to the homogenate (5 mg per gram of worms) and stirred for 10 min on ice. immediately
+afterward, the slurry was homogenized in the same apparatus as before,
+with 10 slow strokes at 400 rpm. an equal volume of msm-eb (50 ml
+msm-e + 0.2 g defatted bovine  xxxg124xxx ) was added and the
+homogenate was centrifuged (300£ g, 10 min, 4 °c). the supernatant was
+
+67
+
+pipetted into a fresh centrifuge tube, while the pellet was re-extracted in
+the same manner as described above. centrifugation (7000£ g, 10 min,
+4 °c) of the supernatants from both the original and re-extracted homogenizations yielded mitochondrial pellets, which were re-suspended in 10 ml
+msm-e, centrifuged (7000£g, 10 min, 4 °c), and then re-suspended in
+10 ml msm, and centrifuged as before. the wnal mitochondrial pellet was
+re-suspended in approximately 100 l of msm (per »2 g of fresh-washed
+adult worm pellet initially used). total protein concentration was determined by the lowry assay with bovine  xxxg124xxx  (0–100 g) used as
+standard [27]. two microliters of protease inhibitor cocktail (p8340,
+sigma, mo) were added per 100 l mitochondrial preparation. oxidative
+phosphorylation assays on the puriwed mitochondrial preparations veriwed functional activity. isolated mitochondria were frozen at ¡80 °c prior
+to enzymatic analyses.
+
+expression of c. elegans mmcm-1 in yeast
+a sequence veriwed, full-length c. elegans mmcm-1 cdna was cloned
+into the pyes-dest52 gateway vector (invitrogen, carlsbad, ca) and
+transformed into strain invsc1. the vector carries a ura selection
+marker and uses the gal4 promoter to drive expression of the insert.
+expression was induced after growth in galactose containing media and
+conwrmed by comparison to a lacz expression control and enzymatic
+assay for the  xxxg1485xxx  gene product. lysates were
+prepared by homogenization with acid-washed glass beads and subsequent centrifugation and were used for enzyme kinetic assays as
+described [23].
+
+enzymatic assays and kinetics
+ xxxg1485xxx  activity was assayed using a radioactive
+succinate thiokinase-linked assay as described [28]. the assay mixture contained: 95 l of d/l-[methyl-14c]methylmalonyl-coa (150 ci per mmol),
+1 mm in 3 mm hcl], 45 l of tris-hcl buver, 0.5 m, ph 9, 45 l mgcl2,
+0.1 m, 45 l gdp, 20 mm, 50 l adenosylcobalamin (variable concentration), 20 l of succinate-coa ligase (succinyl thiokinase) prepared at
+5 units/ml, yeast cell lysate or mitochondrial preparation extract (variable
+volume) and water to bring the volume to 450 l. the tubes were incubated
+in a 30 °c dry block for 30 min (in dark). the reactions were stopped by
+acidiwcation and extracted with ethylacetate. an aliquot was then counted
+by liquid scintillography to determine activity. the wild-type murine
+enzyme, expressed in an identical fashion in yeast, served as a control for
+the kinetic studies. assays were performed in triplicate for all concentration points and the kinetics repeated twice. kinetic constants were determined by nonlinear regression modeling of the kinetic data and regression
+statistics were calculated as previously described [29].
+
+lentiviral correction
+the c. elegans mmcm-1 cdna was cloned into plenti6/v5-dest
+(invitrogen, carlsbad, ca) using gateway lr clonase enzyme mix (invitrogen, carlsbad, ca). a replication-incompetent, hiv-based lentivirus
+was generated by using the virapower lentiviral expression system
+(invitrogen, carlsbad, ca). the viral construct has the mmcm-1 gene
+driven by the cmv promoter; the backbone also has a blasticidin cassette
+driven by the e7 promoter. a control virus expressing egfp was also prepared and used in parallel for correction experiments. human muto wbroblast cell lines were transduced with virus containing either the c. elegans
+mmcm-1 or egfp. the transduced cells were selected and expanded in
+dmem with 5% fetal bovine serum containing 2.5 g/ml blasticidin prior
+to 1-[14c]-propionate propionate incorporation assays.
+
+results
+protein blast searches of human proteins involved in
+propionate metabolism against wormbase identiwed
+
+68
+
+r.j. chandler et al. / molecular genetics and metabolism 89 (2006) 64–73
+
+unique worm homologues for each gene product (table 1).
+the homologues have been named in accordance with c.
+elegans nomenclature (http://biosci.umn.edu/cgc/nomenclature/nomenguid.htm). the high degree of similarity suggests that these proteins are functionally related. mut,
+ xxxg1678xxx ,  xxxg1677xxx ,  xxxg1414xxx , mcee,  xxxg1415xxx  and mmahc
+have similarities of 97.8, 95.3, 94.6, 82.5, 79.6 53.7% and 52%
+with the worm homologues (table 1). the functional
+domains of the predicted protein products were also highly
+conserved between species. this would be expected for
+mut,  xxxg1677xxx  and  xxxg1678xxx  because of the high degree of similarity seen at the amino acid level.  xxxg1414xxx , mcee and
+ xxxg1415xxx , which had a lower degree of similarity, also had
+conservation of all known domains between species. the
+c. elegans  xxxg1415xxx -1 gene product only has a similarity of
+53.7%, but the adenosylcobalamin transferase domain of
+this protein displays 97.6% similarity with the same domain
+in the human enzyme. such protein domain conservation
+may be more indicative of proteins with similar function
+than a simple residue alignment. the high degree of similarity and domain conservation between the human enzymes
+involved in propionate metabolism and c. elegans proteins
+would seem to be unlikely, unless enzymatic function was
+conserved. as a secondary conwrmation that cobalamin
+metabolic pathways might be intact in c. elegans, we
+performed similar searches to identify genes that might
+participate in methylcobalamin metabolism. single homologues of  xxxg1479xxx  (5-methyltetrahydrofolate–
+homocysteine methyltransferase) and  xxxg1479xxx 
+reductase (msr) appear to be present with a similar degree
+of protein and domain conservation; wp: ce01609 is 80%
+similar to human  xxxg1479xxx  (blast e-value d 0.0)
+and wp: ce00868 is 50% similar to  xxxg1479xxx 
+
+reductase (blast e-value d 1.5e-75). however, homologues
+of  xxxg2255xxx , transcobalamin ii, intrinsic factor, and
+the e. coli periplasmic binding protein btuf were not
+detected. queries with  xxxg557xxx  and  xxxg1342xxx  produced a nonspeciwc alignment to a number of c. elegans genes in the
+egf-like domains of these genes.
+we wrst attempted to verify the existence of functional
+c. elegans homologues of propionate metabolism genes,
+which were identiwed using bioinformatics, using an rnai
+approach. rnai directed against mmcm-1,  xxxg1414xxx -1 and
+ xxxg1415xxx -1 cause the accumulation of methylmalonic acid in
+the supernatant at 2-3 times the levels seen in the wild-type
+nematodes (fig. 2). interference against  xxxg1678xxx -1 was used as
+a negative control and produced no increase in mma versus the wild-type strain. methylmalonic acid levels did not
+diver from controls, probably because  xxxg1678xxx -1 rnai blocks
+the conversion of propionyl-coa to d-methylmalonylcoa. bacterial rnai feeding strains were loaded with propionate in the same manner as nematodes and did not
+exhibit levels of methylmalonic acid above wild-type nematodes (data not shown) demonstrating that the bacteria
+were not producing methylmalonic acid in our experiment.
+attempts were made to clone  xxxg1677xxx -1 and mce-1 into rnai
+vectors, but in bacteria, these vectors were unstable and
+toxic, respectively.
+three c. elegans deletion mutants suspected to remove
+portions of genes identiwed in our bioinformatic analysis,
+mmcm-1 and  xxxg1415xxx -1, were studied and the deletion breakpoints delineated when not known. the c. elegans mmcm-1
+deletion mutant, strain rb1434, has a portion of exon 2
+and all of exon 3 deleted. exon 3 appears to encode a portion of the highly conserved  xxxd1739xxx  binding pocket
+and would be predicted to produce a non-functional
+
+fig. 2. methylmalonic acid production after rnai against putative propionate metabolic enzymes. methylmalonic acid concentration (nm), normalized
+by nematode wet weight (mg), detected in supernatant after rnai against indicated genes in the presence of 5 mm  xxxd3029xxx  in pbs. mmcm-1 (p
+value vs wt d 0.004),  xxxg1414xxx -1 (p value vs wt d 0.005), and  xxxg1415xxx -1 (p value vs wt d 0.33, ns) rnai showed increases in methylmalonic acid concentrations relative to wild-type. propionyl-coa carboxylase subunit b ( xxxg1678xxx -1) rnai creates a block prior to the formation of methylmalonyl-coa, therefore methylmalonic acid concentrations are not increased (p value d 0.211, ns vs wild-type). values are from two independent experiments, averaged,
+with ranges indicated by error bars.
+
+r.j. chandler et al. / molecular genetics and metabolism 89 (2006) 64–73
+
+protein. rt-pcr performed on mmcm-1 deletion mutants
+did not detect mrna (data not shown). based on the rtpcr results, which showed no mmcm-1 rna transcript,
+and the neonatal lethal phenotype observed in mice with a
+similar deletion, the c. elegans mmcm-1 mutant would be
+predicted to have no enzymatic activity. strain rb 1347
+harbors a deletion of the wrst exon of the putative  xxxg1415xxx -1
+gene. the second exon of  xxxg1415xxx -1 begins with a start codon
+and expression studies to characterize the rna made by
+this mutant were not pursued. the deletion of  xxxg1415xxx -1 harbored in strain vc974 has been described by the generating
+laboratory and appears to remove the c-terminal exon that
+has high homology with the adenosyltransferase domain.
+strain rb512 has previously been shown to harbor a deletion of the mce-1 gene [15]. propionate incorporation and
+metabolic analysis of the mce-1 mutant have not been previously described.
+in order to verify the phenotypes observed in our rnai
+treated animals, we conducted 1-[14c]-propionate propionate
+incorporation studies on the c. elegans deletion mutants.
+1-[14c]-propionate incorporation studies, routinely used to
+study human mutant cell lines [11,12], were adapted to detect
+blocks in propionate metabolism of c. elegans as described
+above. radioactive incorporation studies with the n2 strain
+showed that c. elegans incorporates 1-[14c]-propionate from
+propionate into protein in amounts similar to those seen in
+human cells [11 § 4 nmols/mg/18 h] [30] (fig. 3). furthermore, a robust stimulation of incorporation was observed
+when  xxxd2300xxx  ( xxxd2300xxx ) was added to the
+medium in excess. c. elegans mmcm-1,  xxxg1415xxx -1 and mce-1
+deletion mutants all exhibited a diminished ability to incorporate 1-[14c]-propionate into protein as compared to
+wild-type nematodes (fig. 3). the n-terminal deletion
+mutant  xxxg1415xxx -1(ok1493) displayed a less severe block than
+
+69
+
+the c-terminal mutant  xxxg1415xxx -1(ok1484), possibly because the
+c-terminal deletion removes a domain critical to  xxxg1415xxx -1
+function as the sequence analysis would suggest. the mce-1,
+mmcm-1, and  xxxg1415xxx -1(ok1484) mutant animals exhibited
+a > 80% decrease in the ability to incorporate propionate relative to wild-type animal. a similar decrease in 1-[14c]-propionate xux can been seen in human muto wbroblasts when
+compared to wild-type controls.
+to assess the biochemical response to precursor loading,
+we incubated the n2, mmcm-1,  xxxg1415xxx -1 (ok1484, ok1493)
+and mce-1 mutant strains with  xxxd3029xxx  and measured methylmalonic acid in the supernatant (fig. 4). preliminary studies suggested methylmalonic acid was easily
+detected in the supernatant, which ranged in concentration
+from 0.5–10 m and was present at higher concentrations
+than in whole cell worm extracts. while both the wild-type
+and mmcm-1 animals produce an increased amount of
+methylmalonic acid after loading, the mmcm-1 mutant
+accumulated 17 times more methylmalonic acid than the
+wild-type strain (fig. 4). the  xxxg1415xxx -1(ok1484, ok1493) and
+mce-1 mutant strains show approximately a two-fold
+increase in the accumulation of methylmalonic acid in comparison to wild-type animals. kanamycin treatment provided a bactericidal evect on the residual feeding strain to
+assure bacteria had no evect on metabolite measurements;
+growth assays of the bacteria that were incubated for 24 h
+in kanamycin showed uniform and complete sensitivity and
+failed to incorporate c14 propionate or produce metabolites. furthermore, metabolic measurements of the supernatant from the wash steps of puriwcation, before and after
+ xxxd3029xxx  loading indicating that the bacteria were not
+producing mma (data not shown).
+attempts to demonstrate  xxxg1485xxx 
+enzyme activity in crude worm extracts were unsuccessful.
+
+fig. 3. 1-[14c]-propionate incorporation in c. elegans deletion mutants. 1-[14c]-propionate incorporation of  xxxg1485xxx  mmcm1(ok1637), methylmalonyl-coa epimerase mce-1(ok243), and  xxxg1415xxx -1 mutants  xxxg1415xxx -1(ok1493) and  xxxg1415xxx -1(ok1484) expressed as a percentage of the
+mean propionate incorporation of wild-type (wt d 6.8 nanomoles propionate/mg protein/24 h). values are averages from 6 (n2, mcmm-1), 5 (mce-1) and
+5 ( xxxg1415xxx -1) independent experiments with triplicate or quadruplicate measurements of each sample. error bars represent mean § sd. p-values vs wildtype: mmcm-1(ok1637) d 2.9 e¡22; mce-1(ok243) d 2.6 e¡19;  xxxg1415xxx -1(ok1493) d 0.008;  xxxg1415xxx -1(ok1484) d 1.4 e¡08; n2 plus ohcbl d 2.03 e¡06.
+
+70
+
+r.j. chandler et al. / molecular genetics and metabolism 89 (2006) 64–73
+
+fig. 4. methylmalonic acid production by the deletion mutants. wild-type (n2), mmcm-1,  xxxg1415xxx -1(ok1493, ok1484) and mce-1 deletion mutant were incubated in pbs containing 10 mm  xxxd3029xxx  and the supernatant analyzed by gc-ms. values are averages from independent experiments shown in
+table below the wgure and measured in nm mma/mg protein. error bars represent mean § sd. p-value wild-type versus mutants were calculated using
+the student t-test and are shown below the wgure.
+
+we therefore sought to examine isolated mitochondrial
+preparations to determine whether detectable activity
+might be present. we found that puriwed mitochondria harbored signiwcant  xxxg1485xxx  activity and
+the activity was destroyed by heat inactivation (table 2a).
+a yeast over-expression strain was created using a fulllength sequence veriwed c. elegans methylmalonyl-coa
+mutase and was employed in comparison with wild-type c.
+elegans mitochondrial preparations to examine apparent
+kinetic constants (table 2b). the initial reaction velocities
+of the enzyme-catalyzed reactions were graphed against
+substrate concentrations in michaelis–menton plots. the
+kinetic parameters and lineweaver–burke plots were determined from these data by curve wtting using non-linear
+regression [29].
+the apparent km for adenosylcobalamin for the mouse
+enzyme, the c. elegans enzyme from isolated mitochondria,
+and the c. elegans enzyme over-expressed in the yeast system, were all within the 10¡8 m range and were similar to
+
+that reported for human enzyme [31]. the c. elegans
+mutase enzyme in the mitochondrial preparations appears
+to exist predominantly as an apoenzyme and, in the presence of adenosylcobalamin, exhibits a vmax of 6.42 mol/
+min/mg. this is comparable to the vmax observed for ascaris lumbricoides of (4.73 mol/min/mg) [32] but much less
+than the mouse enzyme.
+the c. elegans  xxxg1485xxx  cdna was
+introduced into a human muto cell line by lentiviral delivery.
+blasticidin was used to select for transduced cells; an egfp
+control was conwrmed by xorescence and western analysis
+using antibodies against egfp (data not presented). cell
+lines that had undergone transduction plus selection were
+studied by c14 macromolecule incorporation. the expression of c. elegans mutase signiwcantly increased the mutasedependent label movement into macromolecules in mutant
+cell lines to 30% of wild-type but failed to reach 100% normalized xux as assessed by this assay (fig. 5). the c. elegans
+mmcm-1 corrected cell line also exhibited increased methyl-
+
+table 2
+properties of the  xxxg1485xxx  enzyme from c. elegans (a) heat lability (b) apparent kinetic constants
+sample a
+heat inactivated mitochondria
+c. elegans mitochondria
+c. elegans mitochondria
+
+adenosylcobalamin
+present
+absent
+present
+
+nmol/h/mg total protein
+0.45
+13.47
+101.17
+
+sample b
+c. elegans mmcm-1 - yeast
+c. elegans - native mitochondria
+murine - recombinant in yeast
+
+adenosylcobalamin km (m)
+6.97 £ 10¡8
+5.02 £ 10¡8
+1.23 £ 10¡8
+
+sd
+1.71 £ 10¡8
+1.21 £ 10¡8
+3.38 £ 10¡9
+
+vmax (nmol/h/mg)
+196.35
+75.54
+1,794.83
+
+sd
+6.32
+2.22
+78.96
+
+(a) heat lability and speciwc activity of the native c. elegans  xxxg1485xxx  in mitochondrial preparations, with and without adenosylcobalamin, added at standard assay concentrations. (b) apparent km for adenosylcobalamin and vmax under standard assay conditions in c. elegans mitochondrial preparations and yeast extracts. the murine enzyme served as a positive control.
+
+r.j. chandler et al. / molecular genetics and metabolism 89 (2006) 64–73
+
+71
+
+fig. 5. lentiviral correction of a mutant human cell line with c. elegans  xxxg1485xxx . a full-length c. elegans mmcm-1 cdna carried in
+plenti6 was used to transduce a human muto wbroblast cell line. 1-[14c]-propionate incorporation was measured in triplicate and expressed as a percentage of the mean propionate incorporation of wild-type (5.2 nanomoles 1-[14c]-propionate/mg protein/18 h). error bars represent mean § sd. p-values:
+wild-type vs muto d 0.001, muto vs muto plus mmcm-1 d 0.0078; muto plus ohcbl vs muto plus mmcm-1 plus  xxxd2300xxx  d 0.0001.
+
+malonyl-coa mutase dependent label movement after supplementation with  xxxd2300xxx , a precursor of the
+active co-factor, adenosylcobalamin.
+discussion
+in these studies, we have used genetic, genomic and biochemical methods to establish the existence of an adenosylcobalamin-dependent  xxxg1485xxx  in c.
+elegans. the conservation and extreme similarity between the
+vertebrate and predicted worm enzymes suggests that the
+entire propionyl-coa to succinyl-coa pathway depicted in
+fig. 1 is functionally intact in c. elegans. our wndings demonstrate that native c. elegans mitochondria do harbor an
+active mutase that is predominantly apoenzyme in constitution. the observed kinetic constants of the nematode  xxxg1485xxx  show high aynity adenosylcobalamin
+binding, as seen in vertebrate mutases and a vmax that
+approximates what has been seen in other organisms. the
+signiwcant fraction of apoenzyme versus holoenzyme
+observed in our mitochondrial preparations suggests a modulation of or dependence upon cobalamin in the environment
+or the food source. the accentuation of activity in whole
+worm incorporation experiments after incubation in the
+presence of  xxxd2300xxx  further demonstrates the existence of adenosylcobalamin synthetic capacity in vivo and
+suggests that propionate metabolism can be greatly increased
+when the environment is cobalamin-replete. the mechanisms
+for extra-cellular cobalamin uptake and transport are
+unclear from a bioinformatics analysis as the extracellular
+proteins known to participate in these processes do not
+appear to have c. elegans homologues. however, the synthesis of methylcobalamin seems likely, given the presence of
+gene products that are highly similar to human vitamin
+b12—dependent  xxxg1479xxx  and  xxxg1479xxx  reductase. future studies, perhaps similar to the ones
+
+described herein, will be required to examine the functionality and nature of these enzymatic pathways.
+a number of other lines of experimental evidence indicate the presence of an adenosylcobalamin metabolic pathway in c. elegans when grown under laboratory conditions.
+the mmcm-1 and  xxxg1415xxx -1 deletion mutants have diminished 1-[14c]-propionate incorporation compared to wildtype animals, indicating that downstream movement of the
+label from 1-[14c]-propionate into protein is impaired, presumably at the step of conversion of methylmalonyl-coa
+to succinyl-coa. these metabolic blocks are consistent
+with a functional defect in adenosylcobalamin synthesis in
+the case of the  xxxg1415xxx -1 mutants, and impairment in apoenzyme synthesis in the case of the mmcm-1 deletion mutant.
+the deletion in the  xxxg1415xxx -1(ok1493) mutant removes the
+wrst exon, which may contain an inverted repeat. the possibility of an internal translation product from the deleted
+allele with residual activity is feasible given the fact that the
+second exon begins with a start codon. the other mutants
+all display severe blocks and appear to have similar activity
+in this assay, consistent with the proposed roles for the gene
+products in methylmalonyl-coa metabolism.
+the mmcm-1 mutant exhibits increased methylmalonic acid production, which is accentuated in the face of
+precursor loading. the mutant consistently produced
+greater than tenfold more methylmalonic acid than the
+n2 strain (p value d 0.02), but exhibits variability
+between experiments, which explains the larger standard
+deviation observed in this strain versus n2. the mce-1
+and  xxxg1415xxx -1 deletion mutant strains appear to have
+decreased viability in propionate-containing medium but
+consistently produce more methylmalonic acid than the
+n2 strain. preliminary observations indicate diminished
+survival by these strains under propionate loading, which
+likely explains the milder increases in metabolite production by these mutants, especially since the mutants show
+
+72
+
+r.j. chandler et al. / molecular genetics and metabolism 89 (2006) 64–73
+
+display a severe impairment in the c14 incorporation
+assays. the results show that the c. elegans system might
+be used to examine inducers and regulators of the  xxxg1485xxx  reaction by virtue of metabolite
+production.
+a surprising wnding was that the mce-1 mutant had a
+severe block in c14 propionate incorporation. although
+mutations in mut,  xxxg1414xxx  and  xxxg1415xxx  have been shown
+to cause methylmalonic acidemia in humans, mcee dewciency has not yet been proven to cause methylmalonic acidemia [33]. montgomery et al. [13] administered a number
+of methylmalonic acid isotopomers to vitamin b12 dewcient
+rats and analyzed methylmalonic acid output by mass spectrometry. they noted a rearrangement of label in the urine
+after peritoneal injection of methylmalonic acid into the
+cobalamin-dewcient rats, which was not observed in control
+animals. to explain the label distribution observed, they
+posited the existence of a “free” methylmalonic acid shunt,
+which was able to bypass the epimerase reaction and proposed that this mechanism protected patients with mcee
+lesions from developing methylmalonic acidemia. the
+results we have observed are not entirely consistent with the
+existence of a bypass in c. elegans because the mce-1 deletion mutant exhibits a block as severe as the c. elegans
+mcm mutant and produces increased methylmalonic acid.
+if a free-shunt was functionally operational over the physiological range of methylmalonyl-coa concentrations,
+selective pressure on the mcee gene might be lessened or
+removed and conservation between species would not be
+predicted. mutations of mcee may result in either a mild
+or an embryonic lethal phenotype in humans, which could
+go undetected. if a free mma metabolic shunt exists in c.
+elegans, it appears to be incapable of handling the normal
+xux through this pathway as assessed in the assays we have
+performed. isotopomer studies using the mutant strains
+may be useful to further examine this issue. the results
+observed with the c. elegans mce-1 deletion mutant suggest
+that humans with functional methylmalonyl-coa epimerase lesions will have methylmalonic acidemia and cell lines
+from these patients will exhibit a block in 1-[14c]-propionate incorporation. the identiwcation and careful clinical
+characterization of patients harboring suspected mcee
+mutations will be required to resolve this issue.
+we also demonstrated that the c. elegans mutase can
+partially correct wbroblasts derived from muto human
+patients. the level of correction was signiwcantly increased
+over the mutant background and gfp in all instances. the
+corrected human cell line displayed similar intermediate
+correction and could be stimulated by  xxxd2300xxx 
+addition to the media. the reason for a partial correction of
+the human cell line is uncertain, but may relate to the specialized mitochondrial importation sequences found at the
+n-terminal end of the c. elegans gene. other mitochondrial
+enzymes have been shown to have a limited cross-species
+correction for this reason, even when the species barrier is
+relatively close, such as between human and mouse [34]. if
+c. elegans mitochondrial localized genes are to be used for
+
+cross-species correction of mutant cell lines, for example, to
+identify unknown cobalamin disease genes or disease gene
+modiwers, future studies will be required to determine optimum expression parameters.
+we have documented that this model organism can be
+used to study the pathophysiology of human methylmalonic
+acidemia by demonstrating that the mce-1 mutant has a
+functional dewcit in 1-[14c]-propionate incorporation and
+predict, based on these results, that the human homolog will
+cause methylmalonic acidemia in humans when mutated.
+the metabolic lesions generate a chemical phenotype that
+might be useful if rnai or targeted deletion mutant analysis could be coupled to metabolic prowling. such an analysis
+could identify mutants that produced increased amounts of
+methylmalonic acid and/or reduced 1-[14c]-propionate
+incorporation, and might identify new genes involved in
+intracellular cobalamin and propionyl-coa metabolism,
+some of which may have human homologues that are
+mutated in patients with propionic acidemia, methylmalonic
+acidemia and/or homocysteinemia. the experiments presented here also demonstrate that sensitive mass spectrometry measurements can be performed on small numbers of
+animals to determine chemical phenotypes and suggest that
+metabolic prowling will be useful to study c. elegans rnai
+and deletion mutants in other pathways.
+acknowledgments
+this research was supported, in part, by the intramural
+research program of the national human genome
+research institute, national institutes of health. n.w. and
+m.t. were supported, in part, by the mma research foundation. the authors are grateful for the help and advice
+overed by meera sundaram and robyn barweld, department of genetics, university of pennsylvania school of
+medicine in the early stages of this project; to the omrf
+for the isolation of the mmcm-1 and  xxxg1415xxx -1 deletion
+mutants and to theresa stiernagle, caenorhabditis genetics center of the university of minnesota for the provision
+of c. elegans strains. m.f. and m.s were supported, in part,
+by nih grant #gm58881.
+references
+[1] w.a. fenton, r.a. gravel, d.s. rosenblatt, disorders of propionate
+and methylmalonate metabolism, in: c.r. scriver, a.l. beaudet, w.s.
+sly, d. valle (eds.), the metabolic and molecular bases for inhertited disease, mcgraw-hill, new york, 2001, pp. 2165–2192.
+[2] e.r. baumgarter, c. viardot, long-term follow-up of 77 patients with isolated methylmalonic acidaemia, j. inherit. metab. dis. 18 (1995) 138–142.
+[3] h.o. de baulny, j.f. benoist, o. rigal, g. touati, d. rabier, j.m. saudubray, methylmalonic and propionic acidaemias: management and
+outcome, j. inherit. metab. dis. 28 (2005) 415–423.
+[4] s.m. matsui, m.j. mahoney, l.e. rosenberg, the natural history of the
+inherited methylmalonic acidemias, n. engl. j. med. 308 (1983) 857–861.
+[5] s.b. van der meer, f. poggi, m. spada, j.p. bonnefont, h. ogier, p.
+hubert, e. depondt, d. rapoport, d. rabier, c. charpentier, et al., clinical outcome of long-term management of patients with vitamin b12unresponsive methylmalonic acidemia, j. pediatr. 125 (1994) 903–908.
+
+r.j. chandler et al. / molecular genetics and metabolism 89 (2006) 64–73
+[6] c.m. dobson, t. wai, d. leclerc, a. wilson, x. wu, c. dore, t.
+hudson, d.s. rosenblatt, r.a. gravel, identiwcation of the gene
+responsible for the  xxxg1414xxx  complementation group of vitamin b12responsive methylmalonic acidemia based on analysis of prokaryotic gene arrangements, proc. natl. acad. sci. usa 99 (2002)
+15554–15559.
+[7] c.m. dobson, t. wai, d. leclerc, h. kadir, m. narang, j.p. lernerellis, t.j. hudson, d.s. rosenblatt, r.a. gravel, identiwcation of the
+gene responsible for the cblb complementation group of vitamin b12dependent methylmalonic aciduria, hum. mol. genet. 11 (2002)
+3361–3369.
+[8] t. suormala, m.r. baumgartner, d. coelho, p. zavadakova, v. kozich, h.g. koch, m. berghauser, j.e. wraith, a. burlina, a. sewell, j.
+herwig, b. fowler, the cbld defect causes either isolated or combined dewciency of methylcobalamin and adenosylcobalamin synthesis, j. biol. chem. 279 (2004) 42742–42749.
+[9] n. korotkova, m.e. lidstrom, meab is a component of the  xxxg1485xxx  complex required for protection of the enzyme
+from inactivation, j. biol. chem. 279 (2004) 13652–13658.
+[10] n.a. leal, s.d. park, p.e. kima, t.a. bobik, identiwcation of the
+human and bovine  xxxg1415xxx  cdnas
+based on complementation of a bacterial mutant, j. biol. chem. 278
+(2003) 9227–9234.
+[11] h.f. willard, l.m. ambani, a.c. hart, m.j. mahoney, l.e. rosenberg, rapid prenatal and postnatal detection of inborn errors of propionate, methylmalonate, and cobalamin metabolism: a sensitive
+assay using cultured cells, hum. genet. 34 (1976) 277–283.
+[12] g.d. morrow, b. revsin, c. mathews, h. giles, a simple, rapid
+method for prenatal detection of defects in propionate metabolism,
+clin. genet. 10 (1976) 218–221.
+[13] j.a. montgomery, o.a. mamer, c.r. scriver, metabolism of
+methylmalonic acid in rats. is methylmalonyl- xxxd1739xxx  racemase dewciency symptomatic in man? j. clin. invest. 72 (1983)
+1937–1947.
+[14] t.a. bobik, m.e. rasche, identiwcation of the human methylmalonylcoa racemase gene based on the analysis of prokaryotic gene
+arrangements. implications for decoding the human genome, j. biol.
+chem. 276 (2001) 37194–37198.
+[15] j. kuhnl, t. bobik, j.b. procter, c. burmeister, j. hoppner, i. wilde,
+k. luersen, a.e. torda, r.d. walter, e. liebau, functional analysis
+of the methylmalonyl-coa epimerase from caenorhabditis elegans,
+febs. j. 272 (2005) 1465–1477.
+[16] e.p. brass, a.g. tahiliani, r.h. allen, s.p. stabler,  xxxd1739xxx  metabolism in  xxxd2716xxx -12-dewcient rats, j. nutr. 120 (1990) 290–297.
+[17] s.p. stabler, e.p. brass, p.d. marcell, r.h. allen, inhibition of cobalamin-dependent enzymes by cobalamin analogues in rats, j. clin.
+invest. 87 (1991) 1422–1430.
+[18] h. peters, m. nefedov, j. sarsero, j. pitt, k.j. fowler, s. gazeas, s.g.
+kahler, p.a. ioannou, a knock-out mouse model for methylmalonic
+aciduria resulting in neonatal lethality, j. biol. chem. 278 (2003)
+52909–52913.
+[19] r.j. chandler, c.p. venditti, genetic and genomic systems to study
+methylmalonic acidemia, mol. genet. metab. 86 (2005) 34–43.
+
+73
+
+[20] j.t. pronk, a. van der linden-beuman, c. verduyn, w.a. schevers,
+j.p. van dijken, propionate metabolism in saccharomyces cerevisiae:
+implications for the metabolon hypothesis, microbiology 140 (pt 4)
+(1994) 717–722.
+[21] s. brenner, the genetics of caenorhabditis elegans, genetics 77
+(1974) 71–94.
+[22] l. timmons, d.l. court, a. fire, ingestion of bacterially expressed
+dsrnas can produce speciwc and potent genetic interference in caenorhabditis elegans, gene 263 (2001) 103–112.
+[23] e. andrews, r. jansen, a.m. crane, s. cholin, d. mcdonnell, f.d.
+ledley, expression of recombinant human methylmalonyl-coa
+mutase: in primary mut wbroblasts and saccharomyces cerevisiae,
+biochem. med. metab. b. 50 (1993) 135–144.
+[24] r.h. allen, s.p. stabler, d.g. savage, j. lindenbaum, elevation of 2methylcitric acid i and ii levels in serum, urine, and cerebrospinal xuid
+of patients with cobalamin dewciency, metabolism 42 (1993) 978–988.
+[25] r.l. foll, a. pleyers, g.j. lewandovski, c. wermter, v. hegemann,
+r.j. paul, anaerobiosis in the nematode caenorhabditis elegans,
+comp. biochem. phys. b. 124 (1999) 269–280.
+[26] e.b. kayser, p.g. morgan, c.l. hoppel, m.m. sedensky, mitochondrial expression and function of gas-1 in caenorhabditis elegans, j.
+biol. chem. 276 (2001) 20551–20558.
+[27] o.h. lowry, n.j. rosebrough, a.l. farr, r.j. randall, protein measurement with the folin phenol reagent, j. biol. chem. 193 (1951) 265–275.
+[28]j.f. kolhouse, s.p. stabler, r.h. allen, l- xxxg1485xxx 
+from human placenta, methods enzymol. 166 (1988) 407–414.
+[29] e. billo, excel for chemists: a comphrensive guide, john wiley and
+sons, 2001.
+[30] l.c. worgan, k. niles, j.c. tirone, a. hofmann, a. verner, a. sammak, t. kucic, p. lepage, d.s. rosenblatt, spectrum of mutations in
+mut methylmalonic acidemia and identiwcation of a common hispanic mutation and haplotype, hum. mutat. 27 (2006) 31–43.
+[31] j. janata, n. kogekar, w.a. fenton, expression and kinetic characterization of  xxxg1485xxx  from patients with the mutphenotype: evidence for naturally occurring interallelic complementation, hum. mol. genet. 6 (1997) 1457–1464.
+[32] y.s. han, j.m. bratt, h.p. hogenkamp, puriwcation and characterization of  xxxg1485xxx  from ascaris lumbricoides,
+comp. biochem. phys. b. 78 (1984) 41–45.
+[33] e.s. kang, p.j. snodgrass, p.s. gerald, methylmalonyl  xxxd1739xxx 
+racemase defect: another cause of methylmalonic aciduria, pediatr.
+res. 6 (1972) 875–879.
+[34] x. ye, k.p. zimmer, r. brown, c. pabin, m.l. batshaw, j.m. wilson,
+m.b. robinson, diverences in the human and mouse amino-terminal
+leader peptides of  xxxg1638xxx  avect mitochondrial import
+and eycacy of adenoviral vectors, hum. gene ther. 12 (2001) 1035–1046.
+[35] j.p. lerner-ellis, j.c. tirone, p.d. pawelek, c. dore, j.l. atkinson, d.
+watkins, c.f. morel, t.m. fujiwara, e. moras, a.r. hosack, g.v.
+dunbar, h. antonicka, v. forgetta, c.m. dobson, d. leclerc, r.a.
+gravel, e.a. shoubridge, j.w. coulton, p. lepage, j.m. rommens, k.
+morgan, d.s. rosenblatt, identiwcation of the gene responsible for
+methylmalonic aciduria and homocystinuria, cblc type, nat. genet.
+38 (2006) 93–100.
+

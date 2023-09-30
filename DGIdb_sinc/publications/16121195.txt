@@ -1,0 +1,1363 @@
+the embo journal (2005) 24, 3166–3177
+www.embojournal.org
+
+|&
+
+2005 european molecular biology organization | all rights reserved 0261-4189/05
+
+the
+
+embo
+journal
+
+crystal structure of  xxxd148xxx  synthase,
+the first enzyme of heme biosynthesis,
+and its link to  xxxg123xxx  in humans
+
+isabel astner1,3, jörg o schulze1,3,
+joop van den heuvel1, dieter jahn2,
+wolf-dieter schubert1,* and dirk w heinz1
+1
+division of structural biology, german research centre for
+biotechnology, braunschweig, germany and 2institute of microbiology,
+technical university braunschweig, braunschweig, germany
+
+ xxxd148xxx  synthase (alas) is the first and ratelimiting enzyme of heme biosynthesis in humans, animals, other non-plant eukaryotes, and a-proteobacteria. it
+catalyzes the synthesis of  xxxd148xxx , the first
+common precursor of all tetrapyrroles, from glycine and
+succinyl- xxxd1739xxx  (scoa) in a pyridoxal 50 -phosphate
+(plp)-dependent manner. x-linked sideroblastic anemias
+(xlsas), a group of severe disorders in humans characterized by inadequate formation of heme in erythroblast
+mitochondria, are caused by mutations in the gene for
+erythroid ealas, one of two human genes for alas. we
+present the first crystal structure of homodimeric alas
+from rhodobacter capsulatus (alasrc) binding its cofactor
+plp. we, furthermore, present structures of alasrc
+in complex with the substrates glycine or scoa. the
+sequence identity of alas from r. capsulatus and
+human ealas is 49%.  xxxg123xxx -causing mutations may
+thus be mapped, revealing the molecular basis of  xxxg123xxx 
+in humans. mutations are found to obstruct substrate
+binding, disrupt the dimer interface, or hamper the correct
+folding. the structure of alas completes the structural
+analysis of enzymes in heme biosynthesis.
+the embo journal (2005) 24, 3166–3177. doi:10.1038/
+sj.emboj.7600792; published online 25 august 2005
+subject categories: structural biology
+keywords:  xxxd148xxx  acid synthase; bacteriochlorophyll;
+plp; tetrapyrrole biosynthesis; x-linked sideroblastic anemia
+
+introduction
+tetrapyrroles, such as hemes and chlorophylls, are arguably
+among the most important pigments in the biosphere and
+the most versatile of cofactors. they are required for molecular, energy, and electron transport, o2 and co2 sensing,
+as well as in countless enzymatic reactions (dailey, 1997;
+frankenberg et al, 2003).
+*corresponding author. division of structural biology, german
+research centre for biotechnology, mascheroder weg 1,
+38124 braunschweig, germany. tel.: þ 49 531 6181 764;
+fax: þ 49 531 6181 763; e-mail: wds@gbf.de or dih@gbf.de
+3
+these authors contributed equally to this work
+received: 10 may 2005; accepted: 29 july 2005; published online:
+25 august 2005
+
+3166 the embo journal vol 24 | no 18 | 2005
+
+the initial enzyme of tetrapyrrole biosynthesis,  xxxd148xxx  synthase (alas; ec 2.3.1.37), was discovered by
+shemin (shemin and kikuchi, 1958) and neuberger (gibson
+et al, 1958). alas catalyzes the decarboxylative condensation of glycine and succinyl- xxxd1739xxx  (scoa) yielding
+ xxxd148xxx  (ala), the universal precursor of all
+tetrapyrroles. much later, alas was found to be restricted
+to non-plant eukaryotes and the a-group of proteobacteria
+(jordan, 1990). in plants and most bacteria, ala is instead
+derived from trna-bound glutamate in two enzymatic steps
+via the c5 pathway involving glutamyl-trna reductase
+(hungerer et al, 1996; moser et al, 1999, 2001) and glutamate-1-semialdehyde-2,1-aminomutase (hennig et al, 1997).
+humans and other mammals produce two isoforms of
+alas: housekeeping halas, ubiquitously expressed in
+all cell types, and erythroid-specific ealas, exclusively
+produced in developing erythrocytes (riddle et al, 1989).
+ealas produces b90% of the total body heme. alas
+is highly conserved from a-proteobacteria to humans, the
+sequence identity ranging from 40 to 80%. thus, for example,
+the sequence identity of human ealas and rhodobacter
+capsulatus alas (alasrc) is 49%, rising to 70% if similar
+residues are included.
+alas is a pyridoxal 50 -phosphate (plp)-dependent homodimer, composed of 44–65 kda monomers. it belongs to the
+oxoamine synthase subgroup of a-division plp-dependent
+enzymes (mehta and christen, 1994; christen and mehta,
+2001). the catalytic mechanism of the alas reaction
+involves binding of glycine to plp to form a plp–glycine
+complex (external aldimine; scheme 1). following proton
+abstraction, the resonance-stabilized quinonoid intermediate
+nucleophilically attacks scoa, the second substrate. release
+of coa and decarboxylation of the resulting intermediate
+yields ala. the final step, release of ala, is the slowest
+and hence rate-limiting step of the reaction (ferreira et al,
+1993; zhang and ferreira, 2002; cheltsov et al, 2003).
+mutations in the human gene for ealas ( xxxg123xxx ) cause
+x-linked sideroblastic anemia ( xxxg123xxx ), a group of severe
+disorders characterized by inadequate formation of heme
+and accumulation of iron in erythroblast mitochondria
+(may and bishop, 1998). the physiological concentration of
+iron is normally tightly regulated to prevent nonspecific iron
+binding (andrews, 1999). iron overloads, as in  xxxg123xxx , disturb
+the cellular reduction–oxidation state and reduce cellular
+lifetime, making ealas critical for erythroid cell differentiation and survival (harigae et al, 2003). a biological half-life
+of a mere hour means that mammalian ealas is notoriously
+difficult to purify from natural sources (furuyama and
+sassa, 2002). we have therefore selected bacterial alas
+for the structural elucidation, especially as the high degree
+of sequence identity between bacterial and the core human
+alas should allow the former to serve as a suitable structural
+model for the latter.
+& 2005 european molecular biology organization
+
+crystal structure of alas
+i astner et al
+
+scheme 1 the reaction mechanism of alas. in the substrate-free state, the cofactor plp is bound by lys248 (alasrc), the internal aldimine.
+incoming glycine induces transaldimination, leading to plp binding glycine rather than lys248 (external aldimine). the substrate scoa
+is nucleophilically attacked by the plp-activated glycine, leading to the addition of  xxxd3251xxx  to glycine and concomitant loss of
+coa. decarboxylation (carboxylate of the glycine moiety) of this intermediate yields the plp-bound product, released in the rate-limiting
+step of the reaction.
+
+results and discussion
+
+alasrc is a tightly interlocked homodimer (figure 1). each
+monomer consists of three domains, all of which participate
+in dimerization: an n-terminal domain (residues 1–52, yellow in figure 1), a central, catalytic domain (residues 53–296,
+orange) that contributes most of the dimer interface, and
+a c-terminal domain (residues 297–401, red). the n-terminal
+domain consists of an a-helix, remote from the rest of the
+monomer, and a three-stranded, antiparallel b-sheet. the
+large central or catalytic domain bears a seven-stranded,
+largely parallel b-sheet (b-strand order: 32456701, 0 implying
+an antiparallel orientation) covered on either side by nine
+a-helices in repeated b/a motifs. the c-terminal domain
+includes a three-stranded antiparallel b-sheet contacting
+both n-terminal and catalytic domains of the same monomer
+and three a-helices contacting the n-terminal domain.
+
+the structure of alas
+alas has previously been identified as a member of the
+oxoamine synthase subgroup of a-division plp-dependent
+enzymes (grishin et al, 1995; mehta and christen, 2000;
+schneider et al, 2000). the structure of alas from
+r. capsulatus (alasrc) was correspondingly solved by
+molecular replacement, using a model consisting of
+the superimposed structures of 8-amino-7-oxononanoate
+synthase (aons; pdb code 1bs0; alexeev et al, 1998) and
+2-amino- xxxd64xxx  coa ligase (kbl; pdb code 1fc4;
+schmidt et al, 2001) of this subgroup. the structure was
+analyzed to a maximum resolution of 2.1 å, with two dimers
+in the asymmetric unit. data collection and refinement
+statistics are summarized in table i.
+
+plp-binding site and active site pocket
+an alasrc dimer symmetrically binds two plp molecules
+(green in figure 1). in the absence of substrate or product,
+plp is covalently bound as a schiff base to lys248 (hunter
+and ferreira, 1999a). this lysine, conserved in all alas, is
+located in loop b9–b10 of the catalytic domain. the catalytic
+domain of the second monomer participates in plp binding
+by providing three of six hydrogen bonds to the phosphate
+group: ser277*-og and thr278*-og and -n (where * denotes
+the second monomer), in addition to ala115-n, tyr116-n,
+and thr245-og (figures 2 and 3a). recognition of the pyridinium ring of plp, by contrast, exclusively involves
+one monomer: val216 and his142 stack on either side of
+
+here we describe the first crystal structure of full-length
+alas from r. capsulatus (alasrc), including the cofactor
+plp, at 2.1 å resolution. in addition, we present the structures
+of alasrc, respectively, binding glycine and scoa at 2.7 and
+2.8 å. the high degree of conservation between alasrc
+and human ealas allows us to derive a model for the core
+of human ealas, elucidating the structural and functional
+implications of naturally occurring  xxxg123xxx -inducing mutations.
+in addition, we can now elucidate the structural aspects
+of catalysis of the oxoamine synthase subfamily of plpdependent enzymes in unprecedented detail.
+
+& 2005 european molecular biology organization
+
+the embo journal
+
+vol 24 | no 18 | 2005 3167
+
+crystal structure of alas
+i astner et al
+
+table i data collection and structure determination statistics
+
+data collection
+unit cell dimensions, a, b, c (å)
+space group
+wavelength (å)
+number of unique reflections
+resolution range (å)
+completeness of data (%)
+redundancy
+rmerge (%)
+i/s
+refinement statistics
+maximal resolution (å)
+no. of atoms: protein, cofactor, water
+monomers per asymmetric unit
+r-factor (%)
+rfree (%)
+average b-factor (å2)
+r.m.s.d. bond length (å)
+r.m.s.d. bond angles (deg)
+ramachandran plota
+
+alas/plp
+
+alas/plp/gly
+
+alas/plp/scoa
+
+67.9, 92.9, 250.1
+p212121
+1.05
+78265
+50–2.1 (2.18–2.10)
+83.8 (82.7)
+4.7 (4.7)
+7.7 (34.0)
+13.7 (3.8)
+
+68.0, 92.0, 248.6
+p212121
+0.95
+42365
+30–2.7 (2.8–2.7)
+96.4 (92.7)
+4.1 (3.7)
+6.1 (37.2)
+16.8 (2.9)
+
+67.9, 91.1, 247.2
+p212121
+0.95
+38554
+30–2.8 (2.9–2.8)
+99.6 (99.7)
+3.6 (3.5)
+7.6 (36.2)
+13.5 (2.8)
+
+2.1 (2.18–2.10)
+12202, 30, 512
+4
+15.6 (17.0)
+21.7 (27.0)
+23.9
+0.02
+1.61
+91.1/8.2/0.7/0
+
+2.7 (2.77–2.70)
+12190, 80, 144
+4
+17.6 (29.6)
+23.6 (38.2)
+39.6
+0.02
+1.68
+91.6/7.8/0.6/0
+
+2.8 (2.88–2.80)
+12220, 284, 142
+4
+16.5 (26.8)
+23.6 (38.3)
+34.2
+0.02
+1.69
+90.3/8.8/0.7/0.1
+
+values in parentheses refer to the shell of highest resolution.
+a
+procheck: most favored/additionally allowed/generously allowed/disallowed regions.
+
+figure 1 the structure of the alas homodimer from r. capsulatus (alasrc) in ribbon representation. the n-terminal domain is rendered in
+yellow, the catalytic domain in orange, and the c-terminal domain in red. the cofactor plp (green) is depicted in ball-and-stick representation,
+carbon in green, oxygen in red, nitrogen in blue, and phosphorus in magenta. this figure and most others were produced using pymol
+(delano, 2002).
+
+the pyridinium ring, stabilizing it through hydrophobic interactions. specificity is achieved through the hydrogen bond
+his217-ne2–plp-o3 and the salt bridge asp214-od2–plp-nd2
+(the protonated nitrogen of the pyridinium ring). the latter
+interaction, found in most plp-dependent enzymes, increases
+the electron-withdrawing potential of the pyridinium ring
+(hunter and ferreira, 1999b). the tight binding allows plp
+to remain bound during catalysis, despite losing its covalent
+bond to lys248. plp, instead, binds the substrate glycine
+through a schiff base bond.
+alongside each plp, both catalytic domains and the
+c-terminal domain of the plp-binding monomer delimit
+the substrate-binding pocket. this pocket is connected to
+the enzyme surface by a channel (figure 4b) created by the
+same domains involved in forming the active site. this
+channel is clearly involved in scoa binding (see below).
+3168 the embo journal vol 24 | no 18 | 2005
+
+binding of substrates glycine and scoa
+to elucidate the binding mode of both substrates, we soaked
+crystals of alasrc/plp with either glycine or scoa for 24 h.
+the resulting complexes were analyzed crystallographically
+to maximum resolutions of 2.7 and 2.8 å, respectively. unit
+cell parameters and space group essentially remained unchanged (table i), allowing glycine and scoa to be located by
+difference fourier techniques, following rigid-body and simulated-annealing refinement using the alasrc/plp structure.
+the difference map of glycine-soaked crystals reveals
+unambiguous residual electron density alongside plp in all
+four monomers in the asymmetric unit (figure 3b). glycine is
+thus covalently bound to plp through a schiff base bond,
+forming the so-called ‘external aldimine’. the occupancy
+of glycine, however, appears to vary, underlining the dynamic
+nature of the schiff base and the known fact that the
+& 2005 european molecular biology organization
+
+crystal structure of alas
+i astner et al
+
+figure 2 schematic representation of the active site. glycine-bound plp and scoa are highlighted by bonds in black; bonds of surrounding
+residues are shown in dark orange. dotted lines indicate hydrogen bonds (green numbers) and salt bridges (red) between substrates or
+cofactors and alas; green semicircles indicate hydrophobic interactions. an asterisk marks residues from the second monomer. lys248,
+involved in plp binding and catalysis, is marked by a blue box, residues affected by mutations in human ealas by a red box.
+
+dissociation constant of alas for glycine is surprisingly high
+at 1.8–30 mm (bolt et al, 1999). the glycine a-carboxylate
+group forms a weak salt bridge (3.8 å) with the guanidinium
+side chain of arg374 (confirming its involvement; tan et al,
+1998), and hydrogen bonds to ser189-og and asn54-nd2.
+in scoa-soaked crystals, significant difference electron
+density is seen near the entrance of the active-site channel.
+in particular, the 30 -phosphate adp moiety of scoa is well
+defined (figures 3d and e)—the first time scoa and hence its
+binding pocket have been located in any member of the
+oxoamine synthase subfamily of plp-dependent enzymes.
+it is bound within a hydrophobic pocket on the surface
+of the enzyme. residues ile146 and ile158 lie on either side
+of the adenine moiety, while ile149 delimits the bottom of the
+pocket (figures 2, 3d and e). specificity is achieved through
+hydrogen bonds ser139-o–n6, asp138-o–n6, and ser137og–n1, where n1 and n6 belong to the scoa adenine
+moiety. the ribose moiety of scoa, in turn, is recognized
+by a hydrogen bond from lys156-nz to o30 . the binding
+pocket is located immediately alongside the entrance to the
+& 2005 european molecular biology organization
+
+active-site channel (figure 4b). at the end of the active-site
+channel, a planar, three-pronged electron density opposite
+the guanidinium group of arg21 is visible (figure 3e). we
+have interpreted this to mark the position of the succinate
+carboxylate group of scoa, forming a salt bridge to arg21nz2. this carboxylate oxygen also forms hydrogen bonds to
+thr365-og and asn85*-nd, while the second oxygen forms
+hydrogen bonds to thr83*-og and a buried water molecule
+(figure 2). lateral van der waals interactions with ile86*
+further serve to stabilize this interaction. the carboxylate
+group is also seen in the absence of scoa—indicating the
+high affinity for acidic groups. only weak electron density is
+visible for the intermediate region better modeled as discrete
+water molecules. the succinyl-pantetheine moiety of scoa
+is thus disordered in the absence of the second substrate
+glycine. nevertheless, the positions of the 30 -phosphate adp
+and carboxylate moieties allow the entire scoa to be modeled
+into the active site tunnel in an elongated conformation
+(figure 3e and dashed black lines in figure 2). the modeled
+positions of hydrophilic atoms of scoa (op1,  xxxg1608xxx , os1)
+the embo journal
+
+vol 24 | no 18 | 2005 3169
+
+crystal structure of alas
+i astner et al
+
+figure 3 detailed views of cofactor plp and substrates in combination with their electron densities. (a) electron density of the internal
+aldimine consisting of plp (green) covalently bound to lys248. only residues in contact with plp are shown. residues of the second subunit
+are marked by an asterisk. (b) electron density of plp–glycine intermediate (cyan). the view is rotated compared to (a) to indicate the
+residues involved in glycine binding. arg374 appears vital for glycine recognition. the interaction is, however, weakened by covalent bond
+formation—possibly aiding later decarboxylation. (c–e) the binding of scoa to alas: (c) in three of four monomers of the scoa/alas
+complex, plp is not covalently bound to lys248. this is documented by positive difference electron density in the absence of plp and side
+chain of lys248 (green, contoured at 3s), the negative difference density in ‘enforced’ schiff-base bond (red, contoured at 3s, structure in
+narrow bonds), and the refined electron density of unbound plp (blue, contoured at 1s, thick bonds). (d) the adenine and ribose moieties of
+scoa bind in a hydrophobic (white) pocket with positively charged rim (blue) adjacent to the active-site channel. (e) the electron density is
+well defined for the 30 -phosphate adp moiety and for the carboxylate group of scoa, indicating that the central portion is not rigidly bound in
+the absence of the second substrate glycine.
+
+figure 4 open and closed conformations in alas. (a) monomers a (blue) and b (gray) are overall quite similar, except for the loops b11–a14
+and a14–b12 that adopt a closed conformation in monomer a (red). the open conformation may aid entry of scoa to the active site, while the
+closed conformation clamps it into position prior to catalysis. in the second dimer in the asymmetric unit (and in all monomers of the substratebound complexes) only the closed conformation is observed. (b, c) the molecular surface of the alas dimer, showing a cross section through
+the active site in the closed (b) and in the open (c) conformation. the complete set of substrates and cofactors are included in (b) and (c) to
+indicate good fit in the closed conformation, allowing for high substrate specificity.
+
+3170 the embo journal vol 24 | no 18 | 2005
+
+& 2005 european molecular biology organization
+
+crystal structure of alas
+i astner et al
+
+roughly correspond to the water molecules in the channel,
+indicating that these atoms would be stabilized by hydrogen
+bonds to the surrounding protein, while the remaining
+aliphatic parts are stabilized by hydrophobic van der waals
+interactions.
+in the substrate-free structure of alas, plp is covalently
+bound by lys248. the substrate glycine replaces lys248 in
+binding to plp, as expected (figures 3b). however, though
+scoa does not bind to plp itself, plp appears no longer to be
+bound to lys248 in at least three (of four) monomers of this
+complex (figure 3c). instead, the pyridinium ring of plp is
+tipped by b151 around the c5–c5a bond, so that its o3
+and  xxxg283xxx  atoms move away from lys248—comparable to
+the glycine-bound state and to other external aldimines
+of plp-dependent enzymes. the rotation of the plp ring is
+accompanied by a movement of his142 in all substrate-bound
+monomers, such that it remains stacked above the plp
+ring. lys248 forms a new hydrogen bond through its nz to
+ xxxg537xxx  of the conserved residue asn54.
+superimposing the glycine- and scoa-bound complexes
+of alasrc indicates that both substrates can simultaneously
+be accommodated within the active site, without incurring
+steric clashes (figure 4b). overall, this leads to an arrangement in which the distance between the glycine ca atom and
+cs1 of scoa is b2.8 å. the nucleophilic attack of cs1 by the
+deprotonated ca of the quinonoid, anionic glycyl-plp to
+create the new c–c bond is thus feasible.
+glycine-rich stretch
+a glycine-rich stretch comprising residues 77-gagsggtr
+nisgt-89, in loop a3–a4 of the catalytic domain, was earlier
+proposed to be involved in substrate binding (gong et al,
+1996). especially three residues, gly77, gly79, and arg84,
+were found to be intolerant of mutational replacement.
+indeed, the structure indicates that this loop is crucial for
+the recognition of the succinyl-moiety of scoa. in particular,
+residues thr83, asn85, and ile86 are directly involved
+in positioning the terminal carboxylate group of scoa
+(figure 3e). structurally, this intricately folded loop is
+furthermore surrounded by the catalytic domain of the
+same monomer and all three domains of the second monomer. it therefore occupies a particularly sensitive position that
+may easily be disrupted by any change in the amino-acid
+sequence. arg84 forms a salt bridge to glu97, helping to
+stabilize the loop. gly77 adopts a conformation reserved for
+glycines. mutated to any other residue, it would be forced
+into a different region of the ramachandran plot, again
+disrupting this loop and upsetting the recognition of succinyl.
+open and closed alas conformations
+the crystal packing in the complex alasrc/plp places
+two alas dimers (or four monomers) into the asymmetric
+unit. three of these monomers, a, d, and e, are structurally
+essentially indistinguishable. monomer b, by contrast,
+adopts an ‘open’ conformation in which two loops (residues
+332–348 between b11 and a14 and residues 358–374 between
+a14 and b12; red in figure 4a) of the c-terminal domain
+move outwards, widening the active site, the active-site
+channel, and opening a second channel, both longer and
+narrower than the first (figure 4c). comparing the ‘open’ and
+‘closed’ states of alas indicates that in particular thr365,
+located at the outermost tip of the loop 358–375, moves
+& 2005 european molecular biology organization
+
+inwards by 3.5 å during this transition. in the closed conformation, thr365 is firmly positioned among the residues
+of the active site stabilized by a hydrogen bond thr365-og1–
+arg21-nz2 and by van der waals interactions thr365-cg2–
+ile361- xxxd435xxx  and –met190-ce. as a result, the narrow active-site
+channel winds past thr365, ending opposite the side chain of
+arg21. the carboxylate group of the substrate scoa presumably fills this end of the channel, forming a hydrogen bond to
+thr365-og (see above). thr365 is thus crucial in locking the
+succinyl group into position and is itself locked into the
+closed position when the substrate is present.
+the open conformation is observed only in one monomer
+of the substrate-free crystal structure. in glycine- and scoabound complexes, all monomers adopt the closed conformation. the open state presumably provides more facile
+access to the active site, especially for the extensive
+scoa. the closed conformation in turn constricts the active
+site and active-site channel, clasping the pantetheine
+and succinate moieties of scoa into position—presumably
+as a prelude to catalysis. an additional salt bridge arg368–
+glu17 further stabilizes the closed conformation. arg368
+is conserved in comparison with human ealas, while glu17
+of alasrc is replaced by aspartate (asp159) in ealas
+(figure 5a).
+structural aspects of enzymatic reaction
+structurally and functionally, alas belongs to the a-division
+of plp-dependent enzymes and along with aons, serine
+ xxxd2832xxx  transferase, and kbl constitutes the a-oxoamine
+synthase subfamily. these enzymes catalyze the decarboxylative condensation of a carboxylic acid coa thioester
+and an amino acid (mehta and christen, 2000). of the two
+substrate molecules, the amino acid (glycine in alas) is
+covalently bound through a schiff base, while coa is bound
+noncovalently.
+the crystal structure of alasrc indicates that the
+plp–glycine intermediate forms a weak salt bridge (3.8 å)
+to the conserved arg374 (figure 3b). replacing the arginine
+by lysine in murine ealas reduces its enzymatic activity, but
+only by 23% (tan et al, 1998). clearly, a positively charged
+residue is required at this position, presumably to aid initial
+recognition and orientation of glycine prior to plp binding.
+formation of the schiff bond in the external aldimine
+(scheme 1) would cause glycine to move towards plp and
+away from arg374, weakening the salt bridge interaction.
+though overall stability of the glycine would be sacrificed, a
+weaker salt bridge may favor elimination of the a-carboxylate
+as co2 later in the reaction.
+the side-chain methyl group of thr83* and the ca atom of
+plp–glycine intermediate are in direct van der waals contact
+(3.9 å) with each other. amino acids other than glycine could
+theoretically bind only if their side chains face away from
+thr83*. this would, however, block the binding site of scoa,
+indicating that thr83* is pivotal in governing the specificity
+of alas for glycine. in aons thr83* is replaced by a serine
+(alexeev et al, 1998), which lacks the terminal methyl
+group. alanine, larger by exactly this methyl group, is
+hence the favored substrate of aons. accordingly, alas
+may be modified to accept threonine (and to a lesser extent
+serine, alanine and glycine) by engineering the replacement
+of thr83 by serine, as shown for alas from r. sphaeroides
+(shoolingin-jordan et al, 2003).
+the embo journal
+
+vol 24 | no 18 | 2005 3171
+
+crystal structure of alas
+i astner et al
+
+figure 5  xxxg123xxx -causing mutations in human ealas. (a) sequence alignment of alasrc and human ealas. conserved residues are shown in
+black, all others in gray. rectangles and arrows (colors as in figure 1) above the alignment indicate a-helices and b-strands, respectively.
+colored spheres highlight residues replaced in  xxxg123xxx -causing mutations. magenta—cofactor and substrate binding; green—mutations affecting
+cofactor and substrate binding indirectly; orange—mutations in the hydrophobic core; blue—surface-exposed mutation sites. colored boxes
+indicate residues directly involved in substrate/cofactor binding (see figure 2)—green, cyan and yellow indicate residues involved in plp,
+glycine, and scoa binding. (b) a model of human ealas. residues replaced in  xxxg123xxx  mutants are indicated by colored spheres. color-coding
+for spheres and domains as described in (a). pale colors indicate the second monomer.
+
+the scoa carboxylate group is recognized by arg21 at the
+far end of the substrate channel. another two hydrogen
+bonds from asn85* and thr365 add to this recognition.
+a mutation of thr365 (thr508 in human ealas) to serine
+induces  xxxg123xxx  (see below), confirming its crucial participation in substrate binding.
+we observe that scoa binds in the absence of glycine,
+indicating that binding is initiated by 30 -phosphate adenosine
+recognition. only upon glycine binding would the succinylpantetheine ‘tail’, however, fill the remaining channel. the
+conformational equilibrium would then presumably be
+tipped towards the closed conformation, constricting the
+3172 the embo journal vol 24 | no 18 | 2005
+
+active-site tunnel and eliminating any excess water molecules, initiating the enzymatic reaction.
+in vitro activity assays with several acyl-coa derivatives
+indicate the importance of the acyl chain length and hydrophilicity (shoolingin-jordan et al, 1997). the crystal structure
+underscores these conclusions, as the optimal chain length is
+clearly dictated by the successful positioning of cs1 opposite
+glycine-ca following succinyl carboxylate recognition at the
+far end of the channel. this also explains why increasing the
+acyl-group hydrophilicity by substituting the carboxylate
+by carbonyl, hydroxyl, or methyl groups should negatively
+influence enzymatic activity. tight binding of the succinyl
+& 2005 european molecular biology organization
+
+crystal structure of alas
+i astner et al
+
+carboxylate group furthermore slows the release of ala,
+making it the rate-limiting step in the alas-catalyzed
+reaction (hunter and ferreira, 1999b).
+modeling human ealas on alas from r. capsulatus
+before the present crystal structure of alas from r. capsulatus, structural information on alas was available only for
+the 49 amino-acid presequence of murine alas from an nmr
+study (goodfellow et al, 2001), and by modeling the catalytic
+domain of alas on related enzymes such as aons (cheltsov
+et al, 2003; shoolingin-jordan et al, 2003).
+excluding the variable n-terminal regulatory and targeting
+domain (140 residues; conboy et al, 1992), the catalytic core
+of human ealas is 49% identical (70% similar) by sequence
+to alasrc (figure 5a). this is a particularly high degree
+of conservation between a human and bacterial protein,
+and is significantly higher than the 29% between aons
+and alasrc. the sequence similarity is uniformly distributed
+throughout the length of 401 residues. it is, however, particularly pronounced in the active site, the active-site channel,
+the monomer–monomer interface, and the protein core
+(figure 5a). compared to alasrc, human ealas bears two
+single-residue insertions and a single deletion in the first
+40 residues of alasrc, in the least-conserved part of the
+sequence. the high degree of amino-acid conservation and
+the fact that the enzymatic activity of truncated human
+ealas (km 2.6 mm glycine) is similar to that of alasrc
+(2.8 mm), as well as alas from r. sphaeroides (5.8 mm),
+indicate that the structure of alasrc represents a valid model
+for human ealas.
+mutations of ealas cause  xxxg123xxx 
+hereditary sideroblastic anemia or  xxxg123xxx  is caused by point
+mutations in  xxxg123xxx . in total, 42 such substitutions affecting
+37 residues of human ealas have been identified (table ii;
+reviewed by bottomley, 2004). some of these cases have been
+successfully treated by supplemental pyridoxine ( xxxd3049xxx ,
+converted to plp on uptake), phlebotomy (bleeding), or ironchelating drugs. the success of treatment, however, varies
+especially due to the differential responsiveness of mutated
+ealas patients to pyridoxine. the fact that many of the
+ xxxg123xxx -sensitive residues of ealas are either strictly conserved
+in alasrc or replaced by similar residues (table ii, columns 1
+and 2) now permits the precise location of these mutation
+sites to be mapped and analyzed (figure 5b).
+in our discussion of the mutations, we have assigned four
+groups of  xxxg123xxx  mutations depending on their proximity to
+the active site.
+ xxxg123xxx  mutations directly involved in substrate or plp binding
+(magenta in figure 5a and b and table ii)
+r517c: arg517 (arg374 in alasrc) engages the substrate
+glycine carboxylate group in a salt bridge, and is thus crucial
+for substrate recognition and discrimination (see above; tan
+et al, 1998). replacing arginine by shorter, uncharged cysteine would severely reduce the substrate specificity. this
+effect cannot be corrected by higher concentrations of plp,
+hence confirming the observation that individuals carrying
+this mutation do not respond to pyridoxine therapy.
+t388s: thr388 (thr245) is part of the plp recognition
+pattern by hydrogen bonding the plp phosphate. replacing
+threonine by serine allows for higher rotational freedom of
+& 2005 european molecular biology organization
+
+serine, significantly reducing the affinity of ealas for plp.
+a lower affinity for plp may be offset by increasing its
+concentration. correspondingly, patients respond favorably
+to pyridoxine treatment.
+t508s: thr508 (thr365) is central to the function of alas.
+it appears essential both for active-site closure (see above)
+and in stabilizing scoa. this stabilization involves hydrophobic interactions to the succinyl-moiety and a hydrogen
+bond to the succinyl-carboxylate group. removing the methyl
+group by replacing threonine by serine would impair the
+balance of interactions in the active site. in particular, conformational constraint on the succinyl-moiety of scoa would
+be lost, affecting the position of atom cs1 of scoa, the atom
+that attacks the deprotonated ca of the plp–glycine aldimine.
+the lower affinity for scoa cannot be counteracted by an
+increase in the amount of plp. correspondingly, this mutation is not convincingly pyridoxine responsive in patients.
+k299q: lys299 (lys156), located on the surface of alas,
+binds the o30 atom of scoa (ribose moiety) through a
+hydrogen bond. replacing lysine by glutamine causes this
+interaction to be lost, decreasing the binding affinity of
+ealas for scoa. patients with this mutation are reported to
+respond to pyridoxine treatment (table ii). however, as plp
+binding in alas is not affected by the mutation, the effect of
+pyridoxine supplementation may be indirect.
+y506 frame shift and r204 stop: two mutations cause the
+polypeptide to be terminated prematurely. termination at
+position 204 (61) removes the major part of the catalytic
+domain, while a frame shift after position 506 (363) leads,
+at the very least, to the loss of arg517 (arg374), required
+for glycine binding. both polypeptides will thus not give rise
+to a functional enzyme, and increasing the concentration of
+plp will not rescue their activity.
+ xxxg123xxx  mutations indirectly affecting cofactor or ligand binding
+(orange in figure 5a and b and table ii). the following
+ xxxg123xxx  mutations involve residues not directly in contact with
+the substrates glycine and scoa, nor with plp. they are,
+however, located within the core of the alas monomer,
+frequently in the immediate structural vicinity of the active
+site. replacing them with physically incompatible residues
+upsets the active site or the binding affinity of cofactor or
+substrates.
+f165l: phe165 (phe23) structurally stabilizes the neighboring arg163 (arg21, figure 2), required for scoa carboxylate group recognition, through hydrophobic interactions. replacing phe165 by leucine destabilizes arg163,
+reducing the specificity of scoa binding. as plp binding
+is not affected by the mutation, response to pyridoxine
+treatment is marginal.
+c276w: cys276 (leu133) is located at the n-terminal end
+of b-strand b5 (figure 5a), filling a small hydrophobic
+pocket. it is physically linked to residues ser280 (ser137)
+and asp281 (asp138) involved in recognition of the scoa
+adenine moiety. replacing this residue with the much bulkier
+tryptophan will severely reduce scoa binding. as plp binding is not affected, patients are not responsive to pyridoxine
+supplementation.
+g291s: gly291 (gly148) is intermediate to ile289 (ile146)
+and ile292 (ile149), both part of the scoa adenine-binding
+pocket. replacing glycine by serine will upset the pocket,
+decreasing the affinity for scoa. furthermore, gly291 is one
+the embo journal
+
+vol 24 | no 18 | 2005 3173
+
+crystal structure of alas
+i astner et al
+
+mutation in
+ealasd
+
+m154i
+d159n
+d159y
+t161a
+f165l
+r170s
+r170c
+r170h
+
+corresponding
+residue in
+alasrca
+
+i11–
++
+
+d16
+
+r19 –
+f23++
+
+r28++
+
+r170l
+a172t
+d190v
+y199h
+r204stop
+r204q
+r227c
+
+occurs
+in
+
+table ii overview of known  xxxg123xxx  mutations in human alas
+
+?
+
+severityb/
+pyridoxine
+responsivenessc
+
+structural impairment
+
+?/?
+– – /+?
+
++
+
+– –/+
+?/?
+
+(+)
+
+at interface of n-, c-term. and catalytic* domain; may affect arg163 involved in scoa binding
+
++
+
+destabilizes arg163 required for scoa binding; affects interaction of n- and c-terminal domains
+
+– –/+
+– –/+
+?/?
+
+near asp408 (c-term. domain) and asp159, required for active-site closure
+loss of salt bridge (sb) to arg511 (c-term. domain) involved in stabilizing closed active-site conformation
+
++
+
+disrupts buried sb to asp198 destabilizing glycine-rich stretch and hence plp binding.
+mutation to histidine more severe due to larger size
+
+– –/++
+–/–
+
++
+
+affects gly220 of glycine-rich stretch, indirectly reducing plp-binding affinity; at interface, destabilizing enzyme
+
+–/+
+
++
+
++
+
+– –/–
+
++
+
++
+
++
+
+loss of enzyme function through deletion of catalytic and c-terminal domains
+loss of sb to asp173, weakening interaction of n-term. and catalytic domains; affects glycine-rich stretch
+
++
+
++
++
+
+–/–
+– –/+
+
+k30–
+ xxxd47xxx ++
+y56++
+++
+
+q61
+
+r84++
+
+– –/+
+–/–
+– – /?
+
+s251p
+d263n
+
+a108+
+ xxxd120xxx +
+
+c276w
+g291s
+
+l133+
+ xxxg148xxx ++
+
+k299q
+g351r
+t388s
+
+k156++
+ xxxg208xxx ++
+t245++
+
+c395y
+
+v252+
+
+g398d
+r411c
+r411h
+
+ xxxg255xxx ++
+
+g416d
+
+ xxxg273xxx ++
+
+m426v
+r436w
+r448q
+
+a283–
+
+–/+
+– –/++
+
+a293–
+ xxxd305xxx –
+
+– –/–
+– /– +
+
+r268++
+
+r452h
+r452c
+
+affects binding
+of
+gly– scoa
+plp
+cine
+
+remote from active site on enzyme surface; may affect binding of scoa synthetase (furuyama and sassa, 2000)
+destabilizes his360 (plp binding), arg517 (glycine recognition), and lys391 (catalysis)
+
++
+
+general destabilization by placing wide, hydrophobic residue into restrictive pocket on protein surface
+
+– –/++?
+
++
+
+close to molecular symmetry axis, that is near asp263*; possible loss of divalent metal binding
+
+– –/–
+– –/++
+– –/++
+
++
++
++
+
+ser280 and asp281 in binding pocket of scoa-adenine moiety disrupted; binding affinity of scoa reduced
+
++
+
+r452s
+r458h
+
+k315+
+
+i476n
+
+v333+
+
+y506–fs
+
+f363+
+
+t508s
+r517c
+
+t365++
+r374++
+
+h524d
+r559h
+
+h381++
+n/a
+
+r560h
+
+n/a
+
+s568g
+
+n/a
+
+disrupts binding pocket of scoa-adenine moiety, reducing affinity for scoa
+affinity for succinyl-coa reduced through loss of hydrogen bond (hb) to ribose-o3’
+
+–/++
+– –/++
+
++
+
+plp affinity reduced by weakening hb to po4 group
+
+– –/++
+– –/–
+
++
++
+
+larger size disrupts thr388 and lys391 affecting plp binding and catalysis
+
+may displace n-terminal extension of ealas destabilizing enzyme; distance to plp is 25 å
+
+–
+
+abrogates plp binding by filling plp–po4
+
+– –/+
+–/+
+
+(+)
++
+(+)
+
++
+
+–/+
+–/+
+?/?
+– –/++
+– –/–
+–/?
+– –/–
+
+site
+
+loss of sb to  xxxd408xxx  may affect thr420 and thr421 in loop alpha9–alpha10 involved in plp binding
+–
+
+disrupts phe419 (scoa pantetheine binding) and thr420 and thr421 involved in plp–po4 binding
+branched valine may affect neighboring gly220 and ala221 of glycine-rich stretch, affecting plp binding
+
+–(–)/–+
+m309–
+
+disrupts adjacent thr226 involved for scoa and glycine binding by loss of sb to glu240
+
+residues constitute a positively charged cluster on the surface of ealas remote from active site;
+potentially involved in binding scoa synthetase (furuyama and sassa, 2000)
+
++
+
++
++
++
+
+displaces his360 (plp binding) and arg517 (glycine recognition); hydrophilic residue in hydrophobic pocket
+
++
++
+
+frame shift disrupts c-terminal domain, catalysis abolished; scoa and glycine binding severely affected
+hb to scoa carboxylate group weakened, residue required for closed enzyme conformation
+arg517 is essential for glycine recognition, loss of substrate specificity
+
+– –/–
+
+stacking of his524 (c-term. domain) and trp194 of n-term. domain lost; contacts to catalytic domain disturbed
+
+?/?
+– –/+
+(–)/–
+
+n/a — not present in model
+n/a — not present in model
+n/a — not present in model
+
+~/#: observed in females/males.
+a
+conserved++, similar+, not conserved residue in alasrc compared to ealas (colors as in figure 5).
+b
+severe symptoms , moderately severe .
+c
+completely responsive ++, partially responsive +, not responsive , unknown ? (according to bottomley, 2004).
+d
+for references, please refer to extended table ii in supplementary data.
+
+helical turn away from his285 (his142) involved in plp
+binding (figure 2). disruption of a-helix a5 will thus affect
+plp binding as well. as a result, this mutation may be
+counteracted by increasing levels of plp.
+c395y: cys395 (val252) is spatially immediately adjacent
+to leu389 (leu246), which in turn is located sequentially
+between thr388 (thr245) and lys391 (lys248), respectively,
+3174 the embo journal vol 24 | no 18 | 2005
+
+involved in plp–phosphate binding and in catalysis.
+replacing cys395 by significantly larger tyrosine will
+adversely affect plp binding. correspondingly, the activity
+of this mutant enzyme may be rescued by higher concentrations of plp.
+g398d: gly398 (gly255) is wedged in between cys258
+(a115) and thr388 (th245), itself involved in an  xxxg123xxx 
+& 2005 european molecular biology organization
+
+crystal structure of alas
+i astner et al
+
+mutation and involved in plp–phosphate binding. adding a
+side chain by mutation to aspartate will sterically disrupt this
+pocket. by additionally introducing a negative charge, the
+negative phosphate will no longer bind. correspondingly,
+pyridoxine treatment is ineffectual in this case.
+i476n: the side chain of ile476 (val333) stabilizes that
+of his360 (his217), involved in plp binding, and arg517
+(arg374), required for glycine recognition. replacing this
+residue by asparagine will thus likely affect both plp
+and glycine binding. patients with this mutation therefore
+respond well to pyridoxine.
+y199h: like ile476 (val333), above, tyr199 (tyr56) stabilizes his360 and arg517, as well as the catalytic lys391
+(lys248) and asn197 (asn54), involved in glycine binding.
+replacing tyrosine by histidine, though frequently a tolerable
+mutation, appears to destabilize plp and glycine binding
+sufficiently, so that elevated intracellular levels of plp only
+partially offset the mutation.
+r227c: arg227 (arg84), located in the glycine-rich stretch
+and immediately adjacent to thr226 (thr83), itself involved
+in substrate glycine and scoa carboxylate binding, is stabilized by a buried salt bridge to glu240 (glu97). replacing
+arg227 by cysteine abrogates this ionic interaction.
+apparently, this destabilizes the active site to such an extent
+that plp supplementation proves ineffectual.
+g416d: gly416 (gly273) is one a-helical turn removed
+and thus physically adjacent to phe419 (phe276), which
+is crucial for interaction with the pantetheine moiety of
+coa. gly416 is also physically close to thr420 (ser277) and
+thr421 (thr278), both of which bind the plp–phosphate.
+substitution of gly416 by aspartate would hence disrupt
+both plp and scoa binding. surprisingly, the disruption
+is not severe, as plp does impart a moderate improvement
+in alas activity.
+buried  xxxg123xxx  mutations physically distant from the active site
+(green in figure 5a and b and table ii). five mutational sites
+(accounting for eight described mutations) are quite distant
+with respect to the active site-, cofactor-, and substratebinding pockets. here, the influence of a substitution is less
+direct. instead, a local change may radiate throughout the
+structure, influencing protein stability, substrate-binding affinity, or enzymatic catalysis. buried residues are particularly
+sensitive in this regard, normally permitting only conservative substitutions if complete destabilization and hence
+inactivation is to be prevented.
+due to the large number of mutations, the indirect effect of
+the mutations, and hence the partly speculative nature of the
+structural explanation, the discussion of these mutations is
+provided in the supplementary data.
+ xxxg123xxx  mutations on the protein surface (highlighted in blue
+in figure 5a and b and table ii). in all, 16 mutations affect
+the 12 separate surface-exposed residues in alas not located
+near the active-site channel. these residues are exposed to
+the surrounding aqueous medium and thus tend to be
+hydrophilic. replacing them with hydrophobic residues or
+by a residue of opposite charge will generally not directly
+affect the binding of substrates or of cofactors. instead, they
+may lead to protein destabilization and/or aggregation,
+affecting the amount of protein available to produce ala.
+alternatively, surface-exposed residues may affect the inter& 2005 european molecular biology organization
+
+action of alas with other proteins. alas has, for example,
+previously been reported to bind the b-subunit of atpspecific scoa synthetase, the enzyme that generates scoa
+for ealas (furuyama and sassa, 2000). the replacement of
+asp190 by valine, an  xxxg123xxx -inducing mutant (table ii), was
+shown to prevent this interaction. at least six further mutations, affecting four positively charged amino acids (r436w,
+r448q, r452c/h/s, r458h), cluster near asp190, indicating
+that they, too, may induce  xxxg123xxx  by inhibiting the interaction
+of ealas with scoa synthatase.
+the detailed discussion of each individual mutation is
+provided as supplementary data to this publication.
+conclusions
+the structure of alas from r. capsulatus is the first structure
+of this essential enzyme from tetrapyrrole biosynthesis.
+coincidentally thus, the first enzyme required for heme
+biosynthesis in humans, animals, and a-proteobacteria is
+the last to be elucidated structurally. the high degree of
+conservation of this enzyme from bacteria to humans underlines the importance of this enzyme, the low evolutionary
+tolerance of changes, and allows a surprisingly detailed view
+of human ealas. this will aid the understanding of the
+disease and allow the efficacy of pyridoxine treatment to be
+rationalized. it may furthermore allow sufferers of the disease
+and medical personnel involved in its treatment to lift the
+veil of uncertainty by providing firm structural evidence to
+understand the physical basis for the symptoms.
+
+materials and methods
+cloning, production, and purification of alas from
+r. capsulatus, activity assay
+the hema gene of r. capsulatus (dsm 1710) was amplified from
+genomic dna using pcr and cloned into the bamhi/hindiii sites of
+the escherichia coli expression vector pqe30 (qiagen). the protein
+was produced in e. coli m15 (prep4) (qiagen) cells at 201c in tb
+medium after induction with 0.1 mm isopropylthio-b-d-galactoside.
+cells were harvested by centrifugation, disrupted by french press,
+and the insoluble membrane and cell wall fraction were discarded
+following centrifugation. alasrc was isolated from the soluble
+fraction by ni-nta affinity chromatography (ni-nta agarose,
+qiagen), followed by anion exchange chromatography (monoq,
+amersham biosciences) and gel filtration (superdex 200, amersham biosciences). the purified protein was concentrated to 10 mg/
+ml. protein integrity and purity were verified using sds–page,
+n-terminal sequencing, dynamic light scattering, and mass-spectrometric analysis.
+the human  xxxg123xxx  gene encoding ealas was amplified by
+pcr to yield a truncated (135 amino acids n-terminal and 34 amino
+acids at the c-terminus) and n-terminally his-tagged protein.
+expression and purification procedures were as described for the
+alasrc.
+enzymatic activity was analyzed by spectrophotometrically
+monitoring the increase of nadh (l ¼ 340 nm) produced by
+a-ketoglutarate dehydrogenase during the regeneration of scoa
+consumed by alas (hunter and ferreira, 1995).
+crystallization
+alasrc was crystallized by hanging drop vapor diffusion at 201c
+under anaerobic conditions (macs1000 anaerobic workbench,
+don whitley scientific). in all, 2 ml of protein in 20 mm hepes,
+ph 7.3, 200 mm nacl, 1 mm dtt, and 1 mm plp was added to 2 ml
+of reservoir solution containing 100 mm hepes, ph 7.5, 200 mm
+na acetate, 8% isopropanol (v/v), and 20% peg 4000. rectangular
+crystals grew to a size of 50  50  50 mm3 within 2 weeks. the
+crystals belong to space group p212121 with cell constants
+a ¼ 67.3 å, b ¼ 90.6 å, and c ¼ 245.6 å. a matthews coefficient
+of 2.24 å3/da indicated the presence of two alas dimers per
+the embo journal
+
+vol 24 | no 18 | 2005 3175
+
+crystal structure of alas
+i astner et al
+
+asymmetric unit, corresponding to a solvent content of 44%
+(matthews, 1968). for the substrate-bound structures, glycine or
+scoa sodium salt was added to the reservoir solution (final
+concentration 10 mm) and the crystals were transferred into 4 ml
+of this solution and soaked for 24 h.
+data collection and structure determination
+x-ray diffraction data of substrate-free and substrate-soaked crystals
+were, respectively, collected at the beamline bw6 (desy, hamburg)
+and beamline bl1 (bessy ii, berlin). data were processed and
+scaled using the hkl suite (otwinowski and minor, 1997). all
+further steps were performed using programs of the ccp4 suite
+(ccp4, 1994). the superimposed structures of aons (pdb code
+1bs0; alexeev et al, 1998) and kbl (pdb code 1fc4; schmidt et al,
+2001) were used as a model for molecular replacement in epmr
+(kissinger et al, 1999). cns (brunger et al, 1998) was used for the
+rigid-body and simulated-annealing refinement of all three structures. refmac5 was used for subsequent refinement, including
+ncs-restraint and tls-refinement protocols (murshudov et al,
+1997). the program o was used for manual model building
+and structural analysis (jones et al, 1991). structures were validated
+using procheck (laskowski et al, 1993) and what if (vriend,
+1990). molecular depictions were prepared using pymol (delano,
+
+2002). sequence alignments were performed with clustalw
+(thompson et al, 1994), structure-based sequence alignments using
+dali (holm and sander, 1996).
+accession number
+the coordinates of the structures have been deposited in the protein
+data bank (code 2bwn, 2bwo and 2bwp).
+supplementary data
+supplementary data are available at the embo journal online.
+
+acknowledgements
+we thank s alves, b voedisch, s gläsener, u widow, g layer, and
+d gebauer for help in cloning, protein purification, and crystallization. we are indebted to professor s bottomley, for kindly
+sharing her list of all  xxxg123xxx  mutations with us. we gratefully
+acknowledge synchrotron beam time at bw6, desy, hamburg,
+germany (substrate-free alas) and bl1, bessy, berlin, germany
+(glycine-bound and succinyl-coa-bound alas). this work was
+funded by the deutsche forschungsgemeinschaft (dfg).
+
+references
+alexeev d, alexeeva m, baxter rl, campopiano dj, webster sp,
+sawyer l (1998) the crystal structure of 8-amino-7-oxononanoate synthase: a bacterial plp-dependent, acyl-coa-condensing
+enzyme. j mol biol 284: 401–419
+andrews nc (1999) disorders of iron metabolism. n engl j med
+341: 1986–1995
+bolt el, kryszak l, zeilstra-ryalls j, shoolingin-jordan pm, warren
+mj (1999) characterization of the rhodobacter sphaeroides
+ xxxd148xxx  synthase isoenzymes, hema and hemt,
+isolated from recombinant escherichia coli. eur j biochem 265:
+290–299
+bottomley ss (2004) sideroblastic anemias. in wintrobe’s clinical
+hematology, greer j, foerster j, lukens jn, rodgers gm,
+paraskevas r, glader bertil (eds), pp 1012–1033. philadelphia:
+lippincott williams & wilkins
+brunger at, adams pd, clore gm, delano wl, gros p, grossekunstleve rw, jiang js, kuszewski j, nilges m, pannu ns, read
+rj, rice lm, simonson t, warren gl (1998) crystallography &
+nmr system: a new software suite for macromolecular structure
+determination. acta crystallogr d biol crystallogr 54 (part 5):
+905–921
+ccp4, ccp, number 4 (1994) the ccp4 suite: programs for protein
+crystallography. acta crystallogr d 50: 760–763
+cheltsov av, guida wc, ferreira gc (2003) circular permutation of
+ xxxd148xxx  synthase: effect on folding, conformational
+stability, and structure. j biol chem 278: 27945–27955
+christen p, mehta pk (2001) from cofactor to enzymes.
+the molecular evolution of pyridoxal-50 -phosphate-dependent
+enzymes. chem rec 1: 436–447
+conboy jg, cox tc, bottomley ss, bawden mj, may bk (1992)
+human erythroid  xxxd148xxx  synthase. gene structure and
+species-specific differences in alternative rna splicing. j biol
+chem 267: 18753–18758
+dailey ha (1997) enzymes of heme biosynthesis. j biol inorg chem
+2: 411–417
+delano wl (2002) the pymol molecular graphics system.
+(www.pymol.org)
+ferreira gc, neame pj, dailey ha (1993) heme biosynthesis in
+mammalian systems: evidence of a schiff base linkage between
+the pyridoxal 50 -phosphate cofactor and a lysine residue in
+ xxxd148xxx  synthase. prot sci 2: 1959–1965
+frankenberg n, moser j, jahn d (2003) bacterial heme biosynthesis
+and its biotechnological application. appl microbiol biotechnol
+63: 115–127
+furuyama k, sassa s (2000) interaction between succinyl coa
+synthetase and the heme-biosynthetic enzyme  xxxg123xxx  is
+disrupted in sideroblastic anemia. j clin invest 105: 757–764
+furuyama k, sassa s (2002) multiple mechanisms for hereditary
+sideroblastic anemia. cell mol biol (noisy-le-grand) 48: 5–10
+
+3176 the embo journal vol 24 | no 18 | 2005
+
+gibson kd, laver wg, neuberger a (1958) initial stages in the
+biosynthesis of porphyrins. 2. the formation of delta-aminolaevulic acid from glycine and succinyl- xxxd1739xxx  by particles
+from chicken erythrocytes. biochem j 70: 71–81
+gong j, kay cj, barber mj, ferreira gc (1996) mutations at a
+glycine loop in  xxxd148xxx  synthase affect pyridoxal
+phosphate cofactor binding and catalysis. biochemistry 35:
+14109–14117
+goodfellow bj, dias js, ferreira gc, henklein p, wray v, macedo
+al (2001) the solution structure and heme binding of the
+presequence of murine  xxxd148xxx  synthase. febs lett
+505: 325–331
+grishin nv, phillips ma, goldsmith ej (1995) modeling of the
+spatial structure of eukaryotic ornithine decarboxylases. prot sci
+4: 1291–1304
+harigae h, nakajima o, suwabe n, yokoyama h, furuyama k,
+sasaki t, kaku m, yamamoto m, sassa s (2003) aberrant
+iron accumulation and oxidized status of erythroid-specific
+ xxxd148xxx  synthase ( xxxg123xxx )-deficient definitive
+erythroblasts. blood 101: 1188–1193
+hennig m, grimm b, contestabile r, john ra, jansonius jn (1997)
+crystal structure of glutamate-1-semialdehyde aminomutase: an
+alpha 2-dimeric  xxxd3049xxx -dependent enzyme with asymmetry
+in structure and active site reactivity. proc natl acad sci usa 94:
+4866–4871
+holm l, sander c (1996) mapping the protein universe. science 273:
+595–603
+hungerer c, weiss ds, thauer rk, jahn d (1996) the hema
+gene encoding glutamyl-trna reductase from the archaeon
+methanobacterium thermoautotrophicum strain marburg. bioorg
+med chem 4: 1089–1095
+hunter ga, ferreira gc (1995) a continuous spectrophotometric
+assay for  xxxd148xxx  synthase that utilizes substrate
+cycling. anal biochem 226: 221–224
+hunter ga, ferreira gc (1999a) lysine-313 of  xxxd148xxx 
+synthase acts as a general base during formation of the quinonoid
+reaction intermediates. biochemistry 38: 12526
+hunter ga, ferreira gc (1999b) pre-steady-state reaction of
+ xxxd148xxx  synthase. evidence for a rate-determining
+product release. j biol chem 274: 12222–12228
+jones ta, zou j-y, cowan sw, kjeldgaard m (1991) improved
+methods for building protein models in electron density maps
+and the location of errors in these models. acta crystallogr sect a
+2: 110–119
+jordan pm (1990) biosynthesis of  xxxd148xxx  and
+its transformation into  xxxd1749xxx  in animals and
+bacteria. in biosynthesis of heme and chlorophylls, dailey
+ha (ed), pp 55–121. new york: mcgraw-hill publishing
+company
+& 2005 european molecular biology organization
+
+crystal structure of alas
+i astner et al
+
+kissinger cr, gehlhaar dk, fogel db (1999) rapid automated
+molecular replacement by evolutionary search. acta crystallogr
+d biol crystallogr 55: 484–491
+laskowski ra, macarthur mw, moss ds, thornton jm (1993)
+procheck: a program to check the stereochemical quality of
+protein structures. j appl crystallogr 26: 283–291
+matthews bw (1968) solvent content of protein crystals. j mol biol
+33: 491–497
+may a, bishop df (1998) the molecular biology and pyridoxine
+responsiveness of x-linked sideroblastic anaemia. haematologica
+83: 56–70
+mehta pk, christen p (1994) homology of 1-aminocyclopropane1-carboxylate synthase, 8-amino-7-oxononanoate synthase,
+2-amino-6-caprolactam racemase, 2,2-dialkylglycine decarboxylase, glutamate-1-semialdehyde 2,1-aminomutase and isopenicillin-n-epimerase with aminotransferases. biochem biophys res
+commun 198: 138–143
+mehta pk, christen p (2000) the molecular evolution of pyridoxal50 -phosphate-dependent enzymes. adv enzymol relat areas mol
+biol 74: 129–184
+moser j, lorenz s, hubschwerlen c, rompf a, jahn d (1999)
+methanopyrus kandleri glutamyl-trna reductase. j biol chem
+274: 30679–30685
+moser j, schubert wd, beier v, bringemeier i, jahn d, heinz dw
+(2001) v-shaped structure of glutamyl-trna reductase, the first
+enzyme of trna-dependent tetrapyrrole biosynthesis. embo j 20:
+6583–6590
+murshudov gn, vagin aa, dodson ej (1997) refinement of macromolecular structures by the maximum-likelihood method. acta
+crystallogr sect d biol crystallogr 53: 240–255
+otwinowski z, minor w (1997) processing of x-ray diffraction data
+collected in oscillation mode. macromol crystallogr pt a methods
+enzymol 276: 307–326
+
+& 2005 european molecular biology organization
+
+riddle rd, yamamoto m, engel jd (1989) expression of deltaaminolevulinate synthase in avian cells: separate genes encode
+erythroid-specific and nonspecific isozymes. proc natl acad sci
+usa 86: 792–796
+schmidt a, sivaraman j, li y, larocque r, barbosa ja, smith c,
+matte a, schrag jd, cygler m (2001) three-dimensional structure
+of 2-amino- xxxd64xxx  coa ligase from escherichia coli complexed with a plp-substrate intermediate: inferred reaction
+mechanism. biochemistry 40: 5151–5160
+schneider g, kack h, lindqvist y (2000) the manifold of vitamin
+b6 dependent enzymes. struct fold des 8: r1–r6
+shemin d, kikuchi g (1958) enzymatic synthesis of sigma- xxxd148xxx  acid. ann n y acad sci 75: 122–128
+shoolingin-jordan pm, al-daihan s, alexeev d, baxter rl,
+bottomley ss, kahari id, roy i, sarwar m, sawyer l, wang sf
+(2003)  xxxd148xxx  synthase: mechanism, mutations
+and medicine. biochim biophys acta 1647: 361–366
+shoolingin-jordan pm, lelean je, lloyd aj (1997) continuous
+coupled assay for  xxxd148xxx  synthase. methods enzymol
+281: 309–316
+tan d, harrison t, hunter ga, ferreira gc (1998) role of arginine
+439 in substrate binding of  xxxd148xxx  synthase. biochemistry
+37: 1478–1484
+thompson jd, higgins dg, gibson tj (1994) clustal w:
+improving the sensitivity of progressive multiple sequence
+alignment through sequence weighting, position-specific gap
+penalties and weight matrix choice. nucleic acids res 22:
+4673–4680
+vriend g (1990) what if: a molecular modeling and drug design
+program. j mol graph 8: 52–56, 29
+zhang j, ferreira gc (2002) transient state kinetic investigation
+of  xxxd148xxx  synthase reaction mechanism. j biol chem
+277: 44660–44669
+
+the embo journal
+
+vol 24 | no 18 | 2005 3177
+

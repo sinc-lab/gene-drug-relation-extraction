@@ -1,0 +1,825 @@
+j. med. chem. 2005, 48, 3613-3620
+
+3613
+
+stereoselective binding of indomethacin ethanolamide derivatives to
+ xxxg1883xxx 
+christopher w. moth, jeffrey j. prusakiewicz, larry j. marnett, and terry p. lybrand*
+departments of chemistry & pharmacology, vanderbilt university, center for structural biology, 5142 biosciences/mrb iii,
+nashville, tennessee 37232-8725
+received july 22, 2004
+
+we have used molecular modeling studies and molecular dynamics simulations to generate
+three-dimensional models for  xxxg1883xxx  complexes with a series of indomethacin
+ethanolamide derivatives. these studies provide a plausible explanation for the stereoselective
+ligand binding preferences observed experimentally for these inhibitors and predict the general
+binding mode as well as specific structural details for the ligand-enzyme complexes. these
+studies provide insight into the nature of  xxxg1883xxx  interactions with a series of novel
+inhibitors and should help increase our understanding of key structural determinants for
+cyclooxygenase isozyme-selective inhibitor binding.
+introduction
+cyclooxygenase (cox), the molecular target of nonsteroidal antiinflammatory drugs (nsaids) such as
+aspirin,1 metabolizes  xxxd208xxx  to generate prostaglandin h2.2 downstream enzymes convert prostaglandin h2 to other prostaglandins and thromboxanes.
+these in turn bind to g-protein-coupled receptors and
+effect diverse biological responses.3
+two cox isoforms have been identified. cox-1 is
+constituitively expressed in nearly all tissues, but its
+activity is most strongly associated with prostaglandin
+production in gastric mucosa and thromboxane production in platelets.4 cox-2 expression is upregulated in
+response to inflammatory stimuli and elevates prostaglandin levels as part of the inflammatory response.
+identification of this alternate role for cox-2 has led
+to development of the cox-2-selective nsaids rofecoxib, celecoxib, and  xxxd3481xxx . these drugs have good
+antiinflammatory activity, but with reduced ulcerogenicity compared to nonselective nsaids.
+despite their commercial success, current cox-2
+selective inhibitors may still exhibit undesirable side
+effects, including increased risk of adverse thromboembolytic events in susceptible individuals.5 enzyme specificity is also an issue, as the sulfonamide-containing
+inhibitors celecoxib and  xxxd3481xxx  can also inhibit
+ xxxg293xxx .6 cox-1 selective inhibitors may
+also have therapeutic value, as it was shown recently
+that cox-1 is overexpressed in some ovarian cancer
+cells, where it stimulates angiogenesis.7 thus, a more
+detailed understanding of cox isoform differences could
+aid in the design of more selective, and potent, inhibitors
+of both cox isoforms.
+previously, a wide range of ester and amide derivatives of the nonselective carboxylate-containing nsaid
+indomethacin were synthesized and found to selectively
+and potently inhibit cox-2.8 if these inhibitors bind to
+cox-2 in a manner consistent with the published
+crystal structure for the cox-2/indomethacin complex,9
+* to whom correspondence should be addressed. phone: 615-3431247. fax: 615-936-2211. e-mail: terry.p.lybrand@vanderbilt.edu.
+
+the indole ring c3 position side chain projects through
+a constriction site formed by the arg120/glu524/tyr355
+triad and into a cavity bounded by the four membrane
+binding helices. this cavity is commonly referred to as
+the “lobby” region in cox.8
+two crystal structures for cox-2 complexes with
+selective inhibitors ( xxxd3563xxx  derivatives) have been
+published.10 these crystal structures confirm that the
+ xxxd3563xxx  analogues do project into the lobby region,
+but specific interactions between these ligands and cox
+membrane binding helix residues were not identified
+and the structures remain undeposited. in one of these
+crystal structures, the typically observed constriction
+site triad is rearranged substantially. the glu524
+residue hydrogen bonds to arg513 rather than arg120,
+and the arg120 side chain rotates away from the
+constriction site and hydrogen bonds to the backbone
+carbonyls of glu524 and phe470. the second half of the
+fourth membrane binding helix, which includes arg120,
+unwinds partially. the arg120 cr is displaced 2.3 å
+away from the active site, relative to other published
+cox crystal structures. this conformational rearrangement generates a notably larger binding pocket in the
+cox-2 isoform. no cox-1/ligand complex crystal structures available to date exhibit a comparably enlarged
+binding site. moreover, in cox-1, residue 513 is a
+histidine rather than an arginine, so it is possible that
+cox-1 cannot undergo comparable conformational
+changes. if only the cox-2 isoform is able to adopt an
+alternate, enlarged binding site conformation, this could
+explain the cox-2-selective inhibition observed for a
+wide variety of bulky indomethacin ester and amide
+derivatives.8
+an exception to cox-2-selective inhibition by indomethacin amide derivatives was discovered recently
+in the case of r-substituted indomethacin ethanolamides. while r-(r)-alkyl indomethacin ethanolamides
+are potent cox-2-selective inhibitors, r-(s)-alkyl- and
+r-dimethyl-substituted indomethacin ethanolamides inhibit both cox isoforms well,11 as shown in table 1.
+here, we focus our attention on the cox-1 isoform,
+hypothesizing that cox-1 does not undergo major
+
+10.1021/jm0494164 ccc: $30.25 © 2005 american chemical society
+published on web 04/23/2005
+
+3614
+
+journal of medicinal chemistry, 2005, vol. 48, no. 10
+
+table 1. inhibition of wild-type cyclooxygenases by
+r-substituted indomethacin ethanolamides11
+
+ic50 (µm)
+
+rsubstituent
+
+r
+
+s
+
+ovine
+cox-1
+inhibn
+
+r-methyl
+s-methyl
+r-isopropyl
+s-isopropyl
+r-phenyl
+s-phenyl
+dimethyl
+
+ch3
+h
+ch(ch3)2
+h
+c6h5
+h
+ch3
+
+h
+ch3
+h
+ch(ch3)2
+h
+c6h5
+ch3
+
+33
+0.59
+>63
+0.40
+47
+<1.3
+0.80
+
+human
+cox-2
+inhibn
+
+estimated
+∆gbind to
+ovine cox-1
+(kcal/mol)a
+
+0.17
+0.27
+0.11
+0.37
+0.44
+0.085
+0.19
+
+-6.4
+-8.8
+>-4.6
+-7.7
+-4.7
+<-6.9
+-7.2
+
+a the binding free energy for each ligand with cox-1 is
+computed directly from the corresponding ic50 value.
+
+constriction site reorganization or binding site expansion upon binding of indomethacin ethanolamides. our
+modeling studies suggest that the r-substituted indomethacin ethanolamide derivative side chains interact with cox-1 through a network of hydrogen bonds
+to glu524, arg120, and tyr355 and through hydrophobic interactions that involve primarily pro86, ile89,
+leu93, and val116 in the lobby region. our studies
+further suggest that while both r-(r)- and r-(s)-stereoisomers can be accommodated well in the binding site,
+the r-(r)-isomers must adopt an energetically strained
+conformation to form a comparable set of hydrogen
+bonding and van der waals interactions with the
+enzyme relative to the r-(s)-isomers.
+results and discussion
+on the basis of prior extensive mutagenesis experiments,11 it is hypothesized that indomethacin ethanolamide derivatives inhibit cox via binding at the active
+site and not through some secondary (i.e., allosteric)
+interactions with the enzyme. thus, we have attempted
+to generate cox-1/ligand complexes that are consistent
+with the mutagenesis data and that also help explain
+the stereoselectivity profile.
+it is well-known that small changes to ligand structure can result in dramatically different binding orientations, and a recently published crystal structure of the
+inhibitor diclofenac bound to cox-2 reveals that it binds
+with its carboxylate group interacting with ser530 and
+tyr385, rather than arg120, as seen for all other carboxylic acid ligand complexes with cox published to
+date.12 therefore, we chose to explore alternate active
+site orientations for each ligand. attempts to place the
+ethanolamide ligands in a “flipped” binding site orienta-
+
+moth et al.
+
+tion, analogous to the cox-2/diclofenac structure, invariably led to severe protein-ligand steric overlap, and
+it appears that these compounds must bind in a more
+conventional orientation. attempts were also made to
+rotate each ligand about the indole ring center of mass,
+but again these alternate ligand orientations produced
+serious steric clashes, and it appears that the ethanolamide derivatives’ binding mode must be rather similar
+to that observed in the cox-2/indomethacin crystal
+structure.
+in the initial model building process, the indole ring
+for each ethanolamide derivative was superimposed
+directly on the indole ring for the indomethacin template
+structure. while the indole ring core fits nicely in the
+active site in this position, there are unfavorable steric
+interactions between the ethanolamide side chain and
+arg120, regardless of which low-energy ligand conformer is docked. most of these unfavorable steric
+interactions were relieved by shifting the ligand indole
+ring ∼1 å lower in the binding pocket toward the lobby
+region. this ligand displacement toward the lobby
+region is consistent with crystal structures that exhibit
+a comparable shift between a  xxxd3563xxx  amide derivative and  xxxd2141xxx  in the cox-2 active site.10
+given a plausible placement and orientation for the
+indole ring core of each ligand, we explored potential
+interactions for the ethanolamide side chain in the lobby
+region. as can be seen in table 1, cox-1 can accommodate s-isomer derivatives with relatively small aliphatic side chain substituents (e.g., methyl, isopropyl)
+and the achiral, dimethyl analogue, but larger alkyl or
+aryl substituents are not tolerated as well. these data
+suggest that smaller aliphatic substituents likely interact with a small hydrophobic pocket somewhere in
+the lobby region. manual docking of low-energy conformers for each ligand reveals that compounds with
+isopropyl substituents form favorable van der waals
+interactions with a hydrophobic pocket formed by lobby
+residues pro86, ile89, leu93, and val116 and the
+aromatic ring of tyr355. the methyl and dimethyl
+derivatives also fit nicely, but compounds with larger
+substituents (e.g., phenyl) cannot be accommodated in
+this hydrophobic pocket without significant shifting of
+the ligand and concomitant disruption of favorable
+protein-ligand interactions. these models thus provide
+a simple explanation for the ligand binding preferences
+as a function of side chain size.
+while these models explain the size constraints for
+ethanolamide side chain substituents, they do not
+provide a clear explanation for stereoselective binding
+of these compounds. low-energy conformers for both rand s-isomers can fit well in the lobby region, forming
+a strong hydrogen bond between the side chain hydroxyl
+group and glu524. since manual ligand docking and
+structural refinement did not suggest any clear explanation for stereoselectivity control, we generated several
+relatively long (1-1.5 ns) equilibrium md trajectories
+for each complex to assess energetic contributions and
+stability of ligand-protein interactions.
+we used the mm-gbsa protocol13 to estimate ligand
+binding free energies from each equilibrium md trajectory and identified those trajectories yielding the most
+energetically favorable complexes for each ligand. we
+did not compute entropy contributions explicitly, since
+
+binding of indomethacin ethanolamides to cox-1
+
+journal of medicinal chemistry, 2005, vol. 48, no. 10 3615
+
+table 2. mm-gbsa energy components for enzyme-ligand
+complexesa
+enzyme only
+r-methyl
+s-methyl
+r-isopropyl
+s-isopropyl
+
+-26605.3 (89.0)
+-26540.2 (86.7)
+-26622.2 (90.5)
+-26518.8 (93.2)
+
+ligand only
+23.5 (4.8)
+21.2 (5.5)
+26.2 (5.2)
+21.0 (4.8)
+
+complex
+-26640.5 (89.1)
+-26576.3 (87.1)
+-26658.4 (89.9)
+-26561.4 (93.5)
+
+table 3. total intramolecular strain energy for bound
+ligandsa
+r-isomer
+
+s-isomer
+
+∆eb
+(r vs s)
+
+58.4 (4.8)
+66.3 (5.2)
+
+56.3 (5.0)
+61.5 (5.1)
+
+2.1
+4.8
+
+∆h
+-58.7
+-57.3
+-62.4
+-63.6
+
+a
+
+total energy values are listed for the enzyme, ligand, and
+enzyme-ligand complex (standard deviations are listed in parentheses), and include the generalized born solvation contribution.
+the binding energy estimate listed in column 4 is calculated as
+the total complex energy minus the enzyme plus ligand energies,
+but it does not include the entropy contributions and thus may be
+best regarded as a binding enthalpy estimate. all values are
+reported in kcal/mol units.
+
+the large size of these complexes makes normal mode
+calculations impractical, and the trajectories are not
+sufficiently long to obtain reliable entropy estimates
+from quasiharmonic analysis. however, we reason that
+the entropy contribution will be quite comparable for
+different trajectories of a particular ligand-enzyme
+complex, and probably for trajectories with different
+stereoisomers. the entropy contribution might be comparable for all the ligand-enzyme complexes, since the
+ligands are all quite similar. however, this is a rather
+tenuous assumption, and we therefore did not attempt
+to make any rigorous quantitative comparison of binding free energies for different ligands. total energies for
+the enzyme, ligand, and the enzyme-ligand complex
+from the mm-gbsa calculations are listed in table 2,
+and experimental ligand binding free energies for smethyl versus r-methyl and s-isopropyl versus risopropyl derivatives are listed in table 1, calculated
+from the experimental ic50 values for these compounds.
+it must be noted that a simple correlation between ic50
+ratios and relative binding free energies is strictly true
+only for enzymes that exhibit michaelis-menton kinetics, but many cox inhibitors do not display simple
+michaelis-menton kinetics. however, we also note that
+excellent correlation for ic50 values and computed
+binding free energies for celecoxib analogues was observed by assuming this relationship in a previous
+study.14 as can be seen from the data in table 2, the
+energy component terms are quite large, and the
+statistical uncertainty for most terms is larger than the
+estimated binding free energy difference for r- versus
+s-stereoisomers. therefore, even if we did assume that
+the entropy contributions are comparable for r- and
+s-stereoisomer complexes, we still cannot make definitive predictions about ligand binding preferences using
+these data. final energetic and structural results are
+derived primarily from analysis of these “energetically
+most favorable” trajectories, although all independent
+trajectories were considered in the analyses. in each
+case, the md trajectories exhibiting less energetically
+favorable complexes (i.e., less favorable ligand binding
+free energies based on mm-gbsa calculations) involved
+complexes with higher ligand conformational strain
+energy and are a direct consequence of our decision to
+build initial complex models with several low-energy
+conformers for each ligand. in many equilibrium trajectories, the strained ligand conformers relaxed to
+lower energy conformations, but in some trajectories the
+higher energy conformers appear to be effectively locked,
+because these higher energy ligand conformers facilitate
+optimal ligand-enzyme interactions. thus, we observe
+
+r-methyl ligands
+r-isopropyl ligands
+
+a the total intramolecular energy for each ligand is computed
+as the average over the final 800 ps of equilibrium molecular
+dynamics trajectories for each complex. the intramolecular energy
+is a sum of bond stretch, angle bending, dihedral, and intramolecular van der waals and electrostatics energy components
+(standard deviations are listed in parentheses). b the relative
+conformational strain energy for r- versus s-isomers is listed. in
+each case, the s stereoisomer displays a more favorable conformational energy in the bound complexes. all energies are reported
+in kcal/mol units.
+
+figure 1. conformational strain energy for s-methyl and
+r-methyl compounds during the last 800 ps of equilibrium md
+trajectories. the conformational energies were calculated every
+picosecond and are displayed as configurations 1-800.
+
+that the net ligand binding free energies calculated from
+these trajectories are a relatively subtle balance between ligand-enzyme interactions and ligand conformational strain energy.
+this balance of ligand-enzyme interaction energy
+with ligand conformational strain energy appears to
+successfully explain the stereoselective binding preferences for the ethanolamide analogue series. as can be
+seen in table 2, the ligand energies are consistently
+lower for s-methyl and s-isopropyl ligands than for the
+corresponding r-stereoisomers. the solvation energy
+terms are essentially identical for ligand stereoisomers,
+so the ligand energy difference must reflect differences
+in conformational strain energies for r- versus sstereoisomers in these complexes. to investigate this
+possibility more thoroughly, we performed detailed
+
+3616
+
+journal of medicinal chemistry, 2005, vol. 48, no. 10
+
+figure 2. conformational strain energy for s-isopropyl and
+r-isopropyl compounds during the last 800 ps of equilibrium
+md trajectories. the conformational energies were calculated
+every picosecond and are displayed as configurations 1-800.
+table 4. enzyme-ligand interaction energiesa
+r-methyl ligands
+r-isopropyl ligands
+
+r-isomer
+
+s-isomer
+
+-96.5 (3.2)
+-99.4 (4.6)
+
+-94.1 (4.1)
+-101.6 (4.7)
+
+a the enzyme-ligand interaction energies are computed as the
+average over the final 800 ps of equilibrium molecular dynamics
+trajectories for each complex (standard deviations are reported in
+parentheses). all energies are reported in kcal/mol units.
+
+energy decomposition and structural analyses for 800
+configurations from trajectories of each enzyme-ligand
+complex. the energetic analysis reveals that the rmethyl and r-isopropyl isomers do indeed have higher
+conformational strain energies on average than the
+s-methyl and s-isopropyl isomers, as shown in table
+3. while the energy fluctuations are reasonably large,
+as shown by the standard deviations in table 3, the
+trends observed over these trajectories are quite dramatic, and the s-isomers consistently adopt lower
+energy conformations, as can be seen from the plots in
+figures 1 and 2. the energy decomposition analysis
+further reveals that the ligand-enzyme interaction
+energies are statistically indistinguishable for corresponding r- and s-isomers, as shown in table 4. these
+results are consistent with the initial manual model
+building and structural refinement, which indicated that
+r- and s-stereoisomers formed equally good interactions
+with the enzyme. the structural analysis shows clearly
+that the r-isomers on average adopt a more strained
+conformation than the corresponding s-isomers, as seen
+in figure 3. basically, these analyses indicate that the
+
+moth et al.
+
+figure 3. newman projections of average conformations for
+r-substituted indomethacin ethanolamides bound to cox-1.
+the projections display the view looking down the bond from
+the cr carbon to the amide nitrogen. to bind cox-1, renantiomers must adopt a strained conformation in which the
+amide carbon (top of diagram) is gauche to both the cbeta carbon
+and the alkyl substituent. the s-enantiomers bind to cox-1
+in a low-energy conformation that places both the cbeta carbon
+and the alkyl substituent in a gauche arrangement relative
+to the amide hydrogen. the dimethyl compound adopts a
+gauche conformation similar to that of the r-enantiomers, but
+this is the lowest energy conformation observed for the
+dimethyl analogue in a detailed conformational analysis.
+
+r-isomers generally adopt a conformation that places
+both the ligand cbeta carbon and the methyl or isopropyl
+substituent gauche to the amide carbonyl carbon, while
+the s-isomers position the cbeta carbon and alkyl substituent gauche to the amide hydrogen. to test whether
+these results might reflect bias in the original model
+construction and manual ligand docking or simply
+inadequate configurational sampling in the md simulations, we generated equilibrium md trajectories starting
+with lower energy r-methyl and r-isopropyl conformers
+(i.e., conformations where the cbeta and alkyl side chains
+are positioned gauche to the amide hydrogen) docked
+in the binding site. for these trajectories, there was no
+significant difference in ligand conformational strain
+energy compared to the s-isomer complexes, but the
+ligand-enzyme interaction energies were 6-10 kcal/mol
+higher (i.e., less favorable) compared to the earlier
+r-methyl and r-isopropyl complex trajectories. together, these results suggest that the r-methyl and
+r-isopropyl compounds can indeed optimize binding site
+interactions and ultimately yield lower binding free
+energies, by adopting slightly strained conformations.
+the higher conformational strain energy for r- versus
+s-isomers correlates rather well with the experimental
+binding energies for r- versus s-isomers and nicely
+explains the basis for stereoselective ligand binding in
+this ethanolamide analogue series.
+the equilibrium md trajectories also provide additional structural information for the complexes. sev-
+
+binding of indomethacin ethanolamides to cox-1
+
+journal of medicinal chemistry, 2005, vol. 48, no. 10 3617
+
+figure 4. stereoview of (a) r-(r)- and (b) r-(s)-methyl indomethacin enthanolamide ligand bound to cox-1. hydrogen bonds
+between ligand, protein, and crystallographic water are shown as dashed yellow lines. the ligand also makes van der waals
+contacts with lobby residues p86, i89, l93, and v116. the lobby region backbone atoms are displayed in purple, while the active
+site backbone atoms are green. figures 4-7 were generated with the dino program.22
+
+figure 5. stereoview of (a) r-(r)- and (b) r-(s)-isopropyl indomethacin enthanolamide ligand bound to cox-1. hydrogen bonds
+between ligand, protein, and crystallographic water are shown as dashed yellow lines. the ligand also makes van der waals
+contacts with lobby residues p86, i89, l93, and v116. the color scheme is as defined in figure 4.
+
+3618
+
+journal of medicinal chemistry, 2005, vol. 48, no. 10
+
+moth et al.
+
+figure 6. stereoview of r-dimethyl indomethacin enthanolamide ligand bound to cox-1. hydrogen bonds between ligand, protein,
+and crystallographic water are shown as dashed yellow lines. the ligand also makes van der waals contacts with lobby residues
+p86, i89, l93, and v116. the color scheme is as defined in figure 4.
+
+figure 7. stereoview of r-(s)-phenyl indomethacin enthanolamide ligand docked in cox-1. the ligand is rendered as a cpk
+structure, and the cox-1 lobby region is displayed with a translucent purple molecular surface. the unfavorable steric interactions
+for this molecule are highlighted by the penetration of the ligand phenyl side chain cpk surface through the purple molecular
+surface of enzyme residues i89 and v116. the molecular surface was computed with the msms23 program.
+
+eral ligand-enzyme interactions are observed for all
+molecules in every trajectory and probably represent the
+predominant, stabilizing interactions for the complexes.
+the ethanolamide side chain hydroxyl group forms a
+hydrogen bond with glu524, and the side chain amide
+carbonyl oxygen accepts a hydrogen bond from arg120.
+these two hydrogen bonds are maintained consistently
+in all simulations. the ligand side chain amide nh
+forms a hydrogen bond with the tyr355 side chain,
+although this hydrogen bond does fluctuate and occasionally breaks in some of the trajectories, particularly
+for the dimethyl compound. lobby residues pro86, ile89,
+leu93, and val 116, and the aromatic ring of tyr355
+make favorable van der waals contacts with smaller
+alkyl substitutes in the ethanolamide side chain in all
+complexes, as shown in figures 4-6. the simulations
+suggest that the pocket size does not fluctuate dramatically, so larger side chain substituents such as a phenyl
+group cannot be accommodated quite as well, as shown
+in figure 7.
+water molecules also appear to play an important role
+in stabilization of the enzyme-ligand complexes. we
+retained crystallographic waters observed in the cox-1
+reference structure used for all model-building exercises,
+since it was easy to dock the ethanolamide derivatives
+in the binding site without removal of these waters.
+during the simulations, some of these waters did shift
+positions, and waters near the entrance of the lobby
+
+region can migrate freely and/or exchange with bulk
+solvent. two water molecules are particularly well
+localized, however, and have important structural roles
+in the complexes. one water molecule forms a stable
+bridging hydrogen bond between the glu524 backbone
+carbonyl oxygen and the arg120 guanidinium side
+chain, anchoring these two residues strategically in the
+binding site, where both form key interactions with all
+ligands. this water molecule is present in the 1ht5
+crystal structure, and although it exchanges occasionally
+with bulk water during our simulations, this particular
+water molecule has a mean occupancy value of 1.0 in
+all trajectories and always forms this bridging hydrogen
+bond between arg120 and glu524, as observed in the
+crystal structure. a second key water molecule is buried
+more deeply in the binding site and forms a bridging
+hydrogen bond between tyr355, his90, and glu524 side
+chains in the 1ht5 crystal structure. however, in all
+our simulations, his90 rotates away from the ligand
+binding site to eliminate an unfavorable electrostatic
+interaction with the indole ring methoxy group, and this
+water molecule then forms bridging hydrogen bonds
+between the ligand side chain hydroxyl or indole ring
+methoxy substituents and nearby protein side chains
+(e.g., tyr355) or backbone carbonyl oxygens (e.g., pro84).
+while these hydrogen bonds fluctuate significantly
+during the simulations, and his90 does infrequently
+rotate back into the binding site to re-form a hydrogen
+
+binding of indomethacin ethanolamides to cox-1
+
+journal of medicinal chemistry, 2005, vol. 48, no. 10 3619
+
+bond with the second water molecule, this water molecule does remain well-localized in the binding site
+(figures 4-6). bulk water molecules do occasionally
+enter the binding site and make direct contact with this
+buried water molecule, so exchange with bulk water
+should be possible. however, we did not observe direct
+exchange with bulk water during the course of these
+simulations.
+in summary, all ligands appear to form a consistent
+set of discrete interactions with enzyme binding site side
+chains. both r- and s-stereoisomers form comparable
+interactions with the enzyme, but the r-isomers do so
+at the expense of modest conformational strain. the
+relative conformational strain energies for r- versus
+s-stereoisomers parallel the relative binding free energies for the stereoisomers extremely well. there appears
+to be little size fluctuation in the hydrophobic pocket of
+the lobby region, explaining why ethanolamide derivatives with larger aliphatic or aromatic substituents do
+not bind as well. finally, it seems clear from these
+simulations that water molecules play a crucial role in
+stabilizing the ligand-enzyme complexes, either by
+mediating ligand-enzyme hydrogen bonds or else by
+stabilizing enzyme side chain conformations in the
+ligand binding site.
+
+for active site residues, so it seems quite likely that experimental data and modeling results obtained for ovine cox-1
+will be relevant for human cox-1 as well. protein backbone
+atoms for the cox-1 complex were superimposed onto the
+cox-2 reference structure (backbone rmsd ) 0.86 å) to project
+a plausible reference position for indomethacin in the cox-1
+binding site. crystallographic waters, including active site
+waters, and detergent molecules observed in the 1ht5 structure were retained in all models. we felt it was important to
+retain the detergent molecules in these simulations, since all
+enzymatic assays referenced in this work were performed in
+aqueous detergent solution. while the crystal structures may
+not perfectly represent the enzyme-detergent interactions
+that exist in aqueous solution, these crystal structures do
+reflect favorable detergent interaction sites on the enzyme in
+crystals with high water content. the oligosaccharide substituents were not retained, since the electron density for these
+residues is neither complete nor well-resolved in the crystal
+structure. previous experimental studies suggest that the
+oligosaccharides are important for proper folding, but they are
+not necessary for enzymatic function of properly folded protein.15 the indole ring of each ethanolamide derivative was
+then superimposed on the indomethacin indole ring in this
+reference template. each ethanolamide derivative was shifted
+down in the binding pocket toward the lobby region by ∼1 å
+to improve ligand-protein contacts, as suggested by crystal
+structures for  xxxd2141xxx  and  xxxd3563xxx  derivatives with
+cox-2.10 binding site residue side chains were adjusted to
+reduce bad steric contacts with ligands, using a systematic
+conformational search procedure and a backbone-dependent
+side chain rotamer library.16 all ligand conformers with serious
+binding site steric clashes were discarded, and the remaining
+complexes were refined with energy minimization and limited,
+low-temperature molecular dynamics to relieve any residual
+bad protein-ligand interactions.
+each refined complex was solvated with spc/e water17 in
+a truncated octahedron periodic box, and two sodium cations
+were added for net charge neutrality, to facilitate particle-mesh
+ewald calculations described below. as discussed previously,
+all enzymatic analyses for these inhibitors were performed in
+aqueous detergent solution, rather than in vesicles or some
+other membrane environment. therefore, it is appropriate to
+use aqueous solution simulations with included detergent
+molecules to better reflect the experimental conditions. water
+and cation positions were relaxed with 1000 steps of conjugate
+gradient energy minimization, while keeping all protein,
+ligand, and detergent atoms fixed. next, all protein, ligand,
+and detergent atoms were refined with 1000 steps of energy
+minimization, while water and counterions were held fixed.
+finally, the entire system was relaxed with 1000 additional
+steps of energy minimization. the minimization procedure was
+followed by 20 ps of low-temperature molecular dynamics,
+allowing only water, ligand, detergent molecules, and counterions to move freely. a thermalization procedure was then
+used to prepare the system for equilibrium molecular dynamics
+simulation. initial velocities for each atom were assigned from
+a boltzmann distribution at 310 k, followed by a 0.2 ps md
+simulation. this procedure was repeated 10 times with a
+different boltzmann velocity distribution in each cycle, and
+then equilibrium md simulations were run for each complex.
+a weak harmonic restraint (20 kcal/mol/å) was applied to
+tether the heme prosthetic group securely to its histidine
+ligand in each monomer. each complex was equilibrated for
+several hundred picoseconds until total energies and structural
+fluctuations stabilized. various low-energy configurations were
+selected from these initial md trajectories and used as starting
+points for subsequent, more extensive (1-1.5 ns) equilibrium
+md simulations, so that several trajectories were available for
+analysis for each complex. the final 800 ps segment of each
+trajectory was used for subsequent energetic and structural
+analysis.
+standard amber all-atom potential functions were used
+for these calculations. atom types and all necessary potential
+function parameters for ethanolamide ligands were assigned
+
+conclusions
+we have used model building and equilibrium molecular dynamics simulations to propose three-dimensional models for ovine cox-1 bound to a series of
+indomethacin ethanolamide derivatives and to investigate energetic and structural aspects of these complexes.
+our modeling studies yield a detailed picture for the
+various inhibitor complexes that is consistent with
+available experimental data, and the calculations also
+provide a plausible explanation for the basis of stereoselective ligand binding for this set of molecules. these
+calculations confirm that it is possible for cox-1 to bind
+indomethacin enthanolamide analogues without a significant structural rearrangement or expansion of the
+binding site region. results obtained in these modeling
+studies may be helpful in further defining some key
+features that govern cox-1 versus cox-2 isozyme
+inhibitor selectivity and could be useful in future
+attempts to design inhibitors with increased isozyme
+selectivity.
+experimental section
+three-dimensional models for all indomethacin ethanolamide analogues listed in table 1 were generated using crystal
+structure coordinates for indomethacin9 as a template. a
+systematic search procedure was used to sample ethanolamide
+side chain conformations for each molecule, and all conformers
+were then energy-minimized. a clustering algorithm was used
+to eliminate redundant conformers (i.e., conformers with rmsd
+< 0.3 å), and all remaining conformers within 8 kcal/mol of
+the global minimum energy conformation were retained for
+subsequent ligand docking studies.
+crystal structures for  xxxd2141xxx  methyl ester bound to
+ovine cox-1 (pdb id code 1ht5) and indomethacin bound
+to human cox-2 (pdb id code 4cox) were used as reference
+structures to guide manual ligand docking exercises. to date,
+only ovine cox-1 crystal structures are available and nearly
+all biochemical characterization for cox-1 has been done with
+the ovine enzyme, because human cox-1 cannot be expressed
+in large quantities. however, human and ovine cox-1 have
+∼95% sequence identity overall and 100% sequence identity
+
+3620
+
+journal of medicinal chemistry, 2005, vol. 48, no. 10
+
+by analogy with existing parameters. optimized geometries
+for each ligand were obtained from hartree-fock calculations
+with a 3-21g* basis set. partial charges for each ligand were
+derived from ab initio molecular electrostatic potential calculations using a 6-31g* basis set, followed by fitting of the
+electrostatic potential to an atom-centered point charge model.
+charge fitting was constrained to ensure that r- and sstereoisomers had identical partial charge assignments. all
+energy minimization, molecular dynamics, and energetic and
+structural analysis calculations were performed with the
+amber 7 suite of programs.18 a 1 fs integration time step
+was used in all md simulations, with a 9 å nonbonded cutoff
+and particle-mesh ewald summation to correct for long-range
+electrostatic interactions. relative ligand binding free energies
+were estimated using the mm-gbsa protocol in amber.13
+gaussian-98 was used for all ligand geometry optimization and
+molecular electrostatic potential calculations,19 and partial
+charge fitting was performed using the resp program.20 the
+mddisplay program was used for visual analysis of md
+trajectories.21
+
+acknowledgment. this work was supported in part
+by grant ns33290 (t.p.l.) from the national institutes
+of health. c.w.m. was supported by training grant t32
+gm65086-02 from the national institutes of health.
+supporting information available: potential function
+parameters for all ligands presented here. this material is
+available free of charge via the internet at http://pubs.acs.org.
+coordinates for all receptor-ligand complexes discussed here
+are available from the corresponding author upon request.
+
+references
+(1) vane, j. r. inhibition of prostaglandin synthesis as a mechanism
+of action for aspirin-like drugs. nature-new biol. 1971, 231,
+232-235.
+(2) hamberg, m.; samuelsson, b. detection and isolation of an
+endoperoxide intermediate in prostaglandin biosynthesis. proc.
+natl. acad. sci. u.s.a. 1973, 70, 899-903.
+(3) funk, c. d. prostaglandins and leukotrienes: advances in
+eicosonoid biology. science 2001, 294, 1871-1875.
+(4) smith, w. l.; dewitt, d. l.; garavito, m. cyclooxygenases:
+structural, cellular and molecular biology. annu. rev. biochem.
+2000, 69, 145-182.
+(5) http://www.fda.gov/bbs/topics/answers/2002/ans01145.
+html, http://www.fda.gov/bbs/topics/answers/2002/ans01170.
+html. solomon, d. h.; glynn, r. j.; levin, r.; avorn, j.
+nonsteroidal antiinflammatory drug use and acute myocardial
+infarction. arch. intern. med. 2002, 162, 1099-1104. fitzgerald,
+g. a. coxibs and cardiovascular disease. n. engl. j. med. 2004,
+351, 1709-1711.
+(6) weber, a.; casini, a.; heine, a.; kuhn, d.; supuran, c. t.;
+scozzafava, a.; klebe, g.; unexpected nanomolar inhibition of
+carbonic anhydrase by cox-2-selective celecoxib: new pharmacological opportunities due to related binding site recognition. j. med. chem. 2004, 47, 550-557.
+(7) gupta, r. a.; tejada, l. v.; tong, b. j.; das, s. k.; morrow, j.
+d.; dey, s. k.; dubois, r. n.  xxxg1883xxx  is overexpressed
+and promotes angiogenic growth factor production in ovarian
+cancer. cancer res. 2003, 63, 906-911.
+(8) kalgutkar, a. s.; marnett, a. b.; crews, b. c.; remmel, r. p.;
+marnett, l. j. ester and amide derivatives of the nonsteroidal
+antiinflammatory drug, indomethacin, as selective  xxxg1884xxx  inhibitors. j. med. chem. 2000, 43, 2860-2870.
+
+moth et al.
+(9) kurumbail, r. g.; stevens, a. m.; gierse, j. k.; mcdonald, j.
+j.; stegeman, r. a.; pak, j. y.; gildehaus, d.; miyashiro, j. m.;
+penning, t. d.; seibert, k.; isakson, p. c.; stallings, w. c.
+structural basis for selective inhibition of  xxxg1884xxx  by
+antiinflammatory agents. nature 1996, 384, 644-648.
+(10) luong, c.; miller, a.; barnett, j.; chow, j.; ramesha, c.;
+browner, m. f. flexibility of the nsaid binding site in the
+structure of human  xxxg1884xxx . nat. struct. biol. 1996,
+3, 927-933.
+(11) kozak, k. r.; prusakiewicz, j. j.; rowlinson, s. w.; marnett, l.
+j. enantiospecific, selective  xxxg1884xxx  inhibitors. bioorg.
+med. chem. lett. 2002, 12, 1315-1318.
+(12) rowlinson, s. w.; kiefer, j. r.; prusakiewicz, j. j.; pawlitz, j.
+l.; kozak, k. r.; kalgutkar, a. s.; stallings, w. c.; kurumbail,
+r. g.; marnett, l. j. a novel mechanism of  xxxg1884xxx 
+inhibition involving interactions with ser-530 and tyr-385. j.
+biol. chem. 2003, 278, 45763-45769.
+(13) massova, i.; kollman, p. a. combined molecular mechanical and
+continuum solvent approach (mm-pbsa/gbsa) to predict
+ligand binding. persp. drug disc. des. 2000, 18, 113-135.
+(14) plount price, m. l.; jorgensen, w. l. analysis of binding
+affinities for celecoxib analogues with cox-1 and cox-2 from
+combined docking and monte carlo simulations and insight
+into the cox-2/cox-1 selectivity. j. am. chem. soc. 2000, 122,
+9455-9466.
+(15) otto, j. c.; dewitt, d. l.; smith, w. l. n-glycosylation of
+prostanglandin endoperoxide synthases-1 and -2 and their
+orientations in the endoplasmic reticulum. j. biol. chem. 1993,
+268, 18234-18242.
+(16) dunbrack, r. l., jr.; karplus, m. backbone-dependent rotamer
+library for proteins: application to side-chain prediction. j.
+mol. biol. 1993, 230, 543-574.
+(17) berendsen, h. j. c.; grigera, j. r.; straatsma, t. p. the missing
+term in effective pair potentials. j. phys. chem. 1987, 91,
+6269-6271.
+(18) case, d. a.; pearlman, d. a.; caldwell, j. w.; cheatham, t. e.,
+iii; wang, j.; ross, w. s.; simmerling, c. l.; darden, t. a.; merz,
+k. m.; stanton, r. v.; cheng, a. l.; vincent, j. j.; crowley, m.;
+tsui, v.; gohlke, h.; radmer, r. j.; duan, y.; pitera, j.;
+massova, i.; seibel, g. l.; singh, u. c.; weiner p. k.; kollman,
+p. a. amber 7; university of california, san francisco, 2002.
+(19) frisch, m. j.; trucks, g. w.; schlegel, h. b.; scuseria, g. e.;
+robb, m. a.; cheeseman, j. r.; zakrzewski, v. g.; montgomery,
+j. a., jr.; stratmann, r. e.; burant, j. c.; dapprich, s.; millam,
+j. m.; daniels, a. d.; kudin, k. n.; strain, m. c.; farkas, o.;
+tomasi, j.; barone, v.; cossi, m.; cammi, r.; mennucci, b.;
+pomelli, c.; adamo, c.; clifford, s.; ochterski, j.; petersson, g.
+a.; ayala, p. y.; cui, q.; morokuma, k.; malick, d. k.; rabuck,
+a. d.; raghavachari, k.; foresman, j. b.; cioslowski, j.; ortiz,
+j. v.; stefanov, b. b.; liu, g.; liashenko, a.; piskorz, p.;
+komaromi, i.; gomperts, r.; martin, r. l.; fox, d. j.; keith, t.;
+al-laham, m. a.; peng, c. y.; nanayakkara, a.; gonzalez, c.;
+challacombe, m.; gill, p. m. w.; johnson, b. g.; chen, w.; wong,
+m. w.; andres, j. l.; head-gordon, m.; replogle, e. s.; pople,
+j. a. gaussian 98; gaussian, inc.: pittsburgh, pa, 1998.
+(20) bayly, c. i.; cieplak, p.; cornell, w. d.; kollman p. a. a well
+behaved electrostatic potential based method using charge
+restraints for determining atom-centered charges: the resp
+model. j. phys. chem. 1993, 97, 10269-10280.
+(21) callahan, t. j.; swanson, e.; lybrand, t. p. md display: an
+interactive graphics program for visualization of molecular
+dynamics trajectories. j. mol. graph. 1996, 14, 39-41.
+(22) dino: visualizing structural biology, 2002 (http://www.
+dino3d.org).
+(23) sanner, m. f.; olson, a. j.; spehner, j. c. reduced surface: an
+efficient way to compute molecular surfaces. biopolymers 1996,
+38, 305-320.
+
+jm0494164
+

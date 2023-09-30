@@ -1,0 +1,1553 @@
+a gene duplication led to specialized c-aminobutyrate
+and b- xxxg941xxx  in yeast
+gorm andersen1,2, birgit andersen2, doreen dobritzsch3, klaus d. schnackerz2,4 and jure piškur2
+1
+2
+3
+4
+
+biocentrum-dtu, technical university of denmark, lyngby, denmark
+department of organism and cell biology, lund university, sweden
+department of medical biochemistry and biophysics, karolinska institute, stockholm, sweden
+biozentrum, universität würzburg, germany
+
+keywords
+aminotransferase; b-alanine;
+c-aminobutyrate; gene duplication;
+saccharomyces kluyveri
+correspondence
+j. piškur, department of cell and organism
+biology, lund university, sölvegatan 35,
+se-223 62 lund, sweden
+fax: +46 46 2224113
+tel: +46 46 2228373
+e-mail: jure.piskur@cob.lu.se
+database
+sequence data from this article have been
+deposited with the embl ⁄ genbank data
+libraries under accession nos. dq512721dq512723
+(received 12 december 2006, revised 30
+january 2007, accepted 5 february 2007)
+doi:10.1111/j.1742-4658.2007.05729.x
+
+in humans, b-alanine (bal) and the neurotransmitter c-aminobutyrate
+(gaba) are transaminated by a single aminotransferase enzyme. apparently, yeast originally also had a single enzyme, but the corresponding gene
+was duplicated in the saccharomyces kluyveri lineage. skuga1 encodes a
+homologue of saccharomyces cerevisiae  xxxg8xxx , and
+skpyd4 encodes an enzyme involved in both bal and gaba transamination. skpyd4 and skuga1 as well as s. cerevisiae uga1 and schizosaccharomyces pombe uga1 were subcloned, over-expressed and puriﬁed.
+one discontinuous and two continuous coupled assays were used to characterize the substrate speciﬁcity and kinetic parameters of the four enzymes.
+it was found that the cofactor pyridoxal 5¢-phosphate is needed for enzymatic activity and a-ketoglutarate, and not pyruvate, as the amino group
+acceptor. skpyd4p preferentially uses bal as the amino group donor
+(vmax ⁄ km ¼ 0.78 uæmg)1æmm)1), but can also use gaba (vmax ⁄ km ¼
+0.42 uæmg)1æmm)1), while skuga1p only uses gaba (vmax ⁄ km ¼
+4.01 uæmg)1æmm)1). spuga1p and scuga1p transaminate only gaba and
+not bal. while mammals degrade bal and gaba with only one
+enzyme, but in different tissues, s. kluyveri and related yeasts have two different genes ⁄ enzymes to apparently ‘distinguish’ between the two reactions
+in a single cell. it is likely that upon duplication 200 million years ago, a
+specialized uga1p evolved into a ‘novel’ transaminase enzyme with broader
+substrate speciﬁcity.
+
+in biological systems, b-alanine (bal) plays a major
+role as a precursor of pantothenic acid, as a constituent of dipeptides like anserine and carnosine, and as
+an intermediate in the reductive degradation of pyrimidines. because of its chemical similarity to the major
+inhibitory neurotransmitters, c-aminobutyrate (gaba)
+and glycine, and its presence in the brain, bal is
+thought to have a similar function in animals [1]. in
+
+mammals, uracil is degraded to bal via three consecutive enzymatic steps catalyzed by  xxxg652xxx  ( xxxg652xxx ), dihydropyrimidine
+amidohydrolase ( xxxg653xxx ) and b-ureidopropionase
+[ec 3.5.1.6]. in microorganisms, other biochemical
+pathways also provide bal, e.g. escherichia coli produces bal by direct decarboxylation of aspartate,
+while saccharomyces cerevisiae uses the breakdown of
+
+abbreviations
+akg, a-ketoglutarate; bal, b-alanine; bal-at, b- xxxg941xxx ; bup, b-ureidopropionate; dbaib-at, d-3-aminoisobutyrate:
+pyruvate aminotransferase; dhu, dihydrouracil; gaba, c-aminobutyrate;  xxxg8xxx , c-aminobutyrate aminotransferase; gdh, glutamate
+dehydrogenase; msa, malonic semialdehyde; msadc, malonic semialdehyde decarboxylase; plp, pyridoxal 5¢-phosphate; ssa, succinic
+semialdehyde;  xxxg138xxx , succinic semialdehyde dehydrogenase.
+
+1804
+
+febs journal 274 (2007) 1804–1817 ª 2007 the authors journal compilation ª 2007 febs
+
+g. andersen et al.
+
+polyamines (putrescine, spermidine and  xxxd3234xxx )
+[2–4].
+mammals degrade bal to malonic semialdehyde
+(msa) using either bal:a-ketoglutarate aminotransferase (bal-at,  xxxg8xxx ) or d-3-aminoisobutyrate:pyruvate aminotransferase (dbaib-at,
+ xxxg103xxx ). only bal-at activity can be found in
+rat brain, and even though d-3-aminoisobutyrate aminotransferase activity is present in rat liver and kidney,
+bal-at is the dominant enzyme also in these tissues
+[5]. the produced msa is subsequently metabolized
+by malonic semialdehyde dehydrogenase ( xxxg139xxx )
+to acetyl- xxxd1739xxx  [6–8].
+in humans, bal-at and  xxxg8xxx 
+activity ( xxxg8xxx ,  xxxg8xxx ) reside within the
+same enzyme [9]. the gene is primarily expressed
+in brain, liver, pancreas and kidney, and the actual
+function in these tissues could be related to substrate
+availability, e.g.  xxxg8xxx  in brain (high gaba
+concentration) and bal-at in liver (high bal concentration).
+even though s. cerevisiae can synthesize bal from
+polyamines, it cannot use it as sole nitrogen source
+[10]. gaba, on the other hand, is readily used as sole
+nitrogen source by the action of  xxxg8xxx  and succinic semialdehyde dehydrogenase ( xxxg138xxx ), encoded
+by uga1 and uga2, respectively [11]. transport of
+gaba across the cell membrane is facilitated by the
+uga4 gene product [12]. the whole gaba catabolic
+pathway is regulated by the transcriptional activator
+uga3 [13]. several yeast species, like saccharomyces
+kluyveri and schizosaccharomyces pombe can utilize
+bal as the sole nitrogen source [14]. s. kluyveri has
+recently become a useful model with which to study
+degradation of pyrimidines and the biosynthesis of
+bal [15,16]. in this yeast, dihydrouracil (dhu) is
+degraded to b-ureidopropionate (bup) and further to
+bal by enzymes encoded by pyd2 and pyd3,
+respectively [17–16]. however, in s. kluyveri, uracil is
+apparently not degraded to dhu [18].
+in this study, s. kluyveri is employed as a model to
+better understand bal degradation and the role of
+gene duplication in the origin of modern transaminases. a genetic and enzymatic characterization of a
+bal-at (encoded by pyd4) and a  xxxg8xxx  (encoded
+by uga1) from s. kluyveri is presented and compared
+with  xxxg8xxx  from s. pombe and s. cerevisiae. bal
+and gaba degradation in s. kluyveri seems to be catalyzed by more specialized enzymes than those found
+in mammals, where a single enzyme converts both substrates. both enzymes in the s. kluyveri lineage originated from a gene duplication event, which apparently
+took place 200 million years ago.
+
+origin of yeast aminotransferases
+
+results
+identification of pyd4 gene encoding a b-alanine
+aminotransferase
+while screening mutagenized s. kluyveri cells on dhu
+plates, a mutant, y947 (mata ura3 pyd41), which
+could not use dhu, bup or bal, but could use uracil as a sole nitrogen source, was isolated. this mutant
+behaved like a double mutant, since both bup and
+bal can serve as a direct nitrogen source via the
+action of b-ureidopropionase or bal-at enzymes.
+however, complementation with the genomic library
+yielded plasmid p733, which supported growth on all
+three nitrogen sources (dhu, bup and bal). an
+orf, termed pyd4 (dq512721), encoding a protein
+with 55% identity at the protein level to s. cerevisiae
+uga1 gene product,  xxxg8xxx , was identiﬁed. a
+blast search of scuga1 in the s. kluyveri genome
+[19] revealed another homologous gene, termed
+skuga1 (dq512722). its gene product has 80% identity to scuga1p, and 57% to skpyd4p. knockout
+strains of both genes, pyd4 and uga1, were constructed in different genetic backgrounds (table 1).
+two double mutants (y1154 and y1155) were made
+from crossing and sporulation of y1042 (duga1) and
+y1048 (dpyd4) (table 1). strains were tested for their
+ability to utilize dhu, bup, bal and gaba as
+nitrogen sources (table 2). the y1048 (dpyd4) strain
+showed low growth on bal. in contrast to y947
+(pyd41), however, it could grow on both dhu and
+bup. transformation of y1048 (dpyd4) with p733,
+restored wild-type growth on media with bal as sole
+nitrogen source. y1042 (duga1) showed decreased
+growth on gaba, but was able to grow on the other
+nitrogen sources tested. the double mutants y1154
+(dpyd4 duga1) and y1155 (dpyd4 duga1) showed
+decreased growth on both bal and gaba as sole
+nitrogen source. the results in table 2 suggest that
+skpyd4 is primarily involved in bal degradation,
+but also has some inﬂuence on gaba degradation.
+skuga1, on the other hand, is only involved in
+gaba degradation. the remaining poor growth on
+bal and gaba, when both genes are disrupted, indicates the presence of some additional background
+transaminase activity in the cells.
+sequence analysis of pyd genes
+phylogenetic analysis of homologous proteins from
+yeast shows that the pyd4 protein is only found in two
+other sequenced yeasts (debaryomyces hansenii and
+candida albicans). both yeasts also contain a putative
+
+febs journal 274 (2007) 1804–1817 ª 2007 the authors journal compilation ª 2007 febs
+
+1805
+
+origin of yeast aminotransferases
+
+g. andersen et al.
+
+table 1. description of the yeast and bacterial strains used.
+designation
+s. kluyveri strains
+y057
+y090
+y091
+y156
+y159
+y947
+y1042
+y1043
+y1044
+y1047
+y1048
+y1049
+y1050
+y1154
+y1155
+e. coli strains
+xl-1 blue
+
+reference ⁄ origin
+
+genotype
+
+comment
+
+nrrl y-12651
+l. marsch, mya-2152
+l. marsch, mya-2153
+j. strathern, gry1175
+j. strathern, gry1183
+y159
+y90
+y91
+y156
+y90
+y91
+y156
+y159
+y1042xy1048
+y1042xy1048
+
+diploid, prototroph
+mata thr
+mata his aux
+mata ura3
+mata ura3
+mata ura3 pyd41
+mata thr uga1::kanmx3
+mata his aux uga1::kanmx3
+mata ura3 uga1::kanmx3
+mata thr pyd4::kanmx3
+mata his aux pyd4::kanmx3
+mata ura3 pyd4::kanmx3
+mata ura3 pyd4::kanmx3
+haploid, thr uga1::kanmx3 pyd4::kanmx3
+haploid, aux uga1::kanmx3 pyd4::kanmx3
+
+ethyl methanesulfonate mutagenesis
+disruption
+disruption
+disruption
+disruption
+disruption
+disruption
+disruption
+random spore
+random spore
+
+stratagene
+
+reca1 enda1 gyra96 thi-1 hsdr17 supe44
+rela1 lac [f¢ proab laciqzdm15 tn10 (tetr)]
+f– mcra d(mrr-hsdrms-mcrbc) f80
+laczdm15 dlac ·74 reca1 arad139
+d(ara-leu)7697 galu galk rpsl
+(strr) enda1 nupg
+f– ompt hsdsb (rb–mb–) gal dcm rne131 (de3)
+
+top10
+
+invitrogen
+
+bl21
+startm(de3)
+
+invitrogen
+
+table 2. growth of pyd41, pyd4 and uga1 mutant strains on media
+with uracil (ura), dihydrouracil (dhu), b-ureidopropionate (bup),
+b-alanine (bal) and c-aminobutyrate (gaba) as sole nitrogen sources. + + +, good growth; +, growth; + –, some growth; –, no
+growth. surprisingly, y947, which exhibits several deficiencies
+could be fully complemented by the wild type pyd4 gene. the discrepancy between the phenotypes of y947 and y1048 could be
+due to that pyd41 is a pleiotropic mutation causing several different
+phenotypes.
+mutant
+
+ura
+
+dhu
+
+bup
+
+bal
+
+gaba
+
+y947 (pyd41)
+y1042 (duga1)
+y1048 (dpyd4)
+y1154 (duga1 dpyd4)
+
++
++
++
++
+
+–
++++
++++
++++
+
+–
++++
++++
++++
+
+–
++++
++–
++–
+
++++
++
++++
++–
+
++
++
++
++
+
++
++
++
++
+
+uga1p encoding gene. when a search for  xxxg653xxx  and b-ureidopropionase encoding genes
+was performed, it was found that s. kluyveri is the
+only yeast having all three genes, c. albicans and
+d. hansenii lack pyd2, and kluyveromyces lactis
+has pyd2 and pyd3, but lacks pyd4 (table 3). a
+phylogenetic tree of all pyd4 ⁄ uga1 homologous proteins found in fungi with mammalian bal-at and
+dbaib-at is shown in fig. 1. sccar2p (ornithine
+aminotransferase from s. cerevisiae) and scarg8p
+1806
+
+(acetylornithine aminotransferase from s. cerevisiae)
+are included to illustrate general phylogenetic relationships. apparently, pyd4 and uga4 originate from a
+duplication event which took place prior to the separation of the s. cerevisiae, s. kluyveri, c. albicans and
+d. hansenii lineages.
+cloning and expression
+the pyd4 and uga1 genes from s. kluyveri, s. cerevisiae and s. pombe were subcloned. four expression
+plasmids (pet151-skpyd4, pet151-skuga1, pet151scuga1 and pet151-spuga1, respectively) were
+constructed using the pet151 ⁄ d-topo cloning
+system. sequence analysis conﬁrmed correct cloning
+without mutations, except for scuga1. here a single
+mutation (719 a > g) was found resulting in an
+exchange of histidine for arginine (h240r) when compared with the reference sequence np_011533. in the
+original published sequence, position 719 is a guanine
+not an adenine [20]. this is also noted in the swissprot
+entry p17649 (even though the actual protein sequence
+in this entry has a histidine at position 240). our
+scuga1 sequence has been deposited in genbank
+(dq512723). all the other yeast uga1 proteins used in
+the phylogenetic analysis including s. pombe have an
+
+febs journal 274 (2007) 1804–1817 ª 2007 the authors journal compilation ª 2007 febs
+
+g. andersen et al.
+
+origin of yeast aminotransferases
+
+table 3. homologous proteins to s. kluyveri pyd2p, pyd3p and pyd4p in k. lactis, d. hansenii and c. albicans. numbers in brackets show
+percent identity to the s. kluyveri protein. note that the genome sequence of all four species has been determined.
+species
+
+pyd2
+
+pyd3
+
+k. lactis
+c. albicans
+d. hansenii a
+
+xp_453052 (69%)
+no homologue
+no homologue
+
+xp_453223
+xp_714639
+xp_458518
+xp_460391
+
+a
+
+pyd4
+(77%)
+(54%)
+(53%)
+(53%)
+
+no homologue
+xp_721100 (64%)
+xp_460765 (61%)
+
+there were two pyd3 homologous genes in d. hansenii (60% identical to each other).
+
+skpyd4p
+dh xp 460765
+
+pyd4p-like
+
+ca xp 721100
+yl xp 504096
+cg xp 445591
+eg np 986616
+kl xp 456003
+
+fig. 1. phylogenetic tree of eukaryotic
+bal-at,  xxxg8xxx  and dbaib-at. ornithine
+aminotransferase (sccar2p) and acetylornithine aminotransferase (scarg2p) from
+s. cerevisiae are also shown. sk, s. kluyveri;
+dh, d. hansenii; ca, c. albicans; yl, y. lipolytica; cg, candida glabrata; eg, eremothecium gossypii; kl, k. lactis; sc, s.
+cerevisiae; gz, gibberella zeae; an,
+aspergillus nidulans; af, aspergillus fumigatus; nc, neurospora crassa; mg,
+magnaporthe grisea; sp, s. pombe; cn,
+cryptococcus neoformans; um,
+ustilago maydis; rn, rat; bt, bovine; hs,
+human; cf, dog. the sequence accession
+numbers follow the name of the proteins,
+skpyd4p has the accession number
+dq512721 and skuga1p has dq512722.
+note that some fungi have only one protein,
+while s. kluyveri and relatives have two.
+apparently, the duplication took place after
+the separation of the s. kluyveri ⁄ c. albicans ⁄ d. hansenii lineage split from the rest
+of yeasts and fungi.
+
+skugalp
+scugalp np 011533
+
+uga1p-like
+
+dh xp 458397
+ca xp 721047
+gz xp 385730
+an xp 659852
+af xp 753965
+nc xp 959026
+mg xp 363736
+
+arginine at that position, so it is most likely that the
+reference sequence is wrong, and the pet151-scuga1
+clone contains the wild-type sequence. note that all
+the recombinant enzymes were tagged with the 33
+amino acid peptide extension at the n-terminus.
+purification of pyd4p and uga1p
+the puriﬁcation of his-tagged skpyd4p, skuga1p,
+scuga1p and spuga1p was accomplished after disruption
+of the respective cells in three steps using streptomycin (removal of dna), afﬁnity column chromatography on nickel-chelating sepharose and size
+
+gz xp 386927
+spugalp np 594905
+
+fungal
+ xxxg8xxx 
+
+cn xp 570811
+cn xp 570223
+um xp 757227
+rn np 112265
+bt xp 582638
+cf xp 851424
+
+mammalian
+bal-at
+
+hs np 000654
+sccar2p np 013542
+scarg8p np 014501
+cf xp 855415
+rn np 114023
+hs np 114106
+bt xp 599817
+
+mammalian
+dbaib-at
+
+exclusion gel ﬁltration on sepharose s12. in a typical
+puriﬁcation of the four proteins from 1 l of cell
+culture, 20 mg of pure protein could be obtained.
+pyridoxal 5¢-phosphate (plp) had to be added during
+the puriﬁcation to warrant that the enzymes are always
+saturated with cofactor. the molecular weight of the
+subunits of the four proteins was determined to be
+56–57 kda based on sds ⁄ page gel, being consistent with the expected molecular weights. the puriﬁed
+proteins of skpyd4 and spuga1 had native molecular
+weights of 111 kda and 98 kda, respectively, when
+separated by native gel electrophoresis, corresponding
+to dimers. scuga1 and skuga1 proteins were both
+
+febs journal 274 (2007) 1804–1817 ª 2007 the authors journal compilation ª 2007 febs
+
+1807
+
+origin of yeast aminotransferases
+
+g. andersen et al.
+
+seen as dimers (113 and 135 kda, respectively) and
+tetramers (225 and 240 kda, respectively).
+the spectrum of puriﬁed skpyd4p showed two maxima at 340 and 410 nm, as well as the 280 nm absorbance for aromatic amino acids. when the protein was
+dialysed against three portions of 1 l buffer s in the
+absence of plp, the 340 ⁄ 410 nm absorption maxima
+disappeared (data not shown), indicating that the
+cofactor is not bound very tightly. the apoprotein
+(without the 340 ⁄ 410 nm absorption) was inactive.
+when plp was added to the apoprotein, the
+340 ⁄ 410 nm absorption reappeared and the protein
+regained full activity (data not shown). in the reconstituted skpyd4p, the 410 nm absorbance indicates the
+formation of the schiff base of the formyl group of
+plp with the e-amino group of an active-site lysine
+residue of the protein. when the ph was varied
+between 6.6 and 8.6, a ph-dependent change of these
+maxima was observed (fig. 2), indicating a change in the
+equilibrium of the ketoenamine and enolimine tautomers.
+
+reaction interferes with the glutamate detection, which
+can only be overcome by quenching akg with large
+amounts of hydrazine. second, the determination of
+msa in a continuous coupled assay using malonic
+semialdehyde decarboxylase (msadc) and alcohol
+dehydrogenase is very sensitive and easy to execute.
+the msa produced in the skpyd4p reaction is converted
+to acetaldehyde which, in a third reaction, is coupled
+to the nadh-dependent  xxxg110xxx 
+reaction resulting in ethanol and nad+, observed in
+the disappearance of nadh at 340 nm [21].
+in the initial reaction of skuga1p, scuga1p and
+skuga1p, akg and gaba are converted to glutamate
+and ssa. in a second reaction, either the amount of
+glutamate (see above) or that of ssa is determined.
+when gaba is used as amino acceptor, the formation
+of ssa is followed by reaction with  xxxg138xxx  in a very
+sensitive, continuous coupled assay, observing the formation of nadh at 340 nm.
+ph optimum, enzyme stability and substrate
+specificity
+
+initial velocity studies
+in the initial reaction of skpyd4p, a-ketoglutarate
+(akg) and bal (or gaba) are converted to glutamate and msa (or succinic semialdehyde, ssa),
+respectively (fig. 3). in a second reaction, either the
+amount of glutamate or that of msa or ssa was
+determined.
+firstly, the determination of glutamate is a discontinous assay using glutamate dehydrogenase (gdh),
+which would have the advantage that both bal and
+gaba can be used as amino acceptors. however, it
+bears the great disadvantage that akg used in the ﬁrst
+
+0.20
+0.15
+
+measurements on skpyd4p were performed at different
+ph values (data not shown). the ph optimum was
+determined to be close to 8.0, with 70% of activity
+remaining at ph values of 7 and 9. after storage of
+skpyd4p at 4 c for 12 days, 57% activity could still
+be recovered.
+the substrate speciﬁcity of the four enzymes to use
+either bal or gaba as an amino donor was tested
+and the results are summarized in table 4. there are
+only minor differences in the relative activities of
+bal-at determined by the two methods, but, in
+general, skpyd4p is more active with bal, while the
+other three enzymes show almost only  xxxg8xxx 
+activity and very little bal-at activity. in addition,
+all enzymes use akg and not pyruvate as amino
+acceptor.
+
+6.6
+
+0.10
+abs
+
+7.0
+
+kinetic analysis of skpyd4p and skuga1p
+
+7.5
+
+0.05
+
+8.6
+
+0.00
+–0.05
+250
+
+300
+
+350
+400
+wavelength (nm)
+
+450
+
+500
+
+fig. 2. absorption spectra of recombinant skpyd4p. the ph values
+used were 6.6, 7.0, 7.5 and 8.6, as indicated on the graph. a
+decrease at 410 nm and an increase at 340 nm is seen when ph is
+increased. these data indicate the presence of a plp-dependent
+aminotransferase.
+
+1808
+
+both skpyd4p and skuga1p were subjected to a full
+kinetic analysis. since skuga1p showed only very little
+activity towards bal, only skpyd4p was analyzed
+with both substrates, bal and gaba. as the coupled
+assays for pyd4p (msadc) and uga1p ( xxxg138xxx ) are
+much more reliable than the discontinuous assay using
+gdh, these assay systems were used to determine the
+respective kinetic parameters (table 5). note that the
+standard errors are much lower for the continuous
+assays when compared with those of the discontinuous
+assays.
+
+febs journal 274 (2007) 1804–1817 ª 2007 the authors journal compilation ª 2007 febs
+
+g. andersen et al.
+
+origin of yeast aminotransferases
+
+fig. 3. reactions of the assay systems
+used. the substrates or co-substrates which
+are finally observed are highlighted. (a) continuous bal-at assay using malonic semialdehyde decarboxylase and alcohol
+dehydrogenase: disappearance of nadh. (b)
+discontinuous determination of glutamate
+using glutamate dehydrogenase in the presence of 10 m hydrazine: appearance of
+nadh. (c) continuous  xxxg8xxx  assay with
+succinate dehydrogenase: disappearance of
+nadh.
+table 4. activity (uæmg)1) of skpyd4p, skuga1p, scuga1p and
+spuga1p with two substrates as determined with three different
+methods. relative activities (%) are given in parentheses. the
+enzyme with the highest specific activity in each column is set to
+100%. nd, not determined. specific activities were determined at
+saturating concentrations of all substrates. one unit is defined as
+the amount of enzyme needed to convert 1 lmol substrate into
+product per minute.
+enzyme
+
+bala
+
+gabaa
+
+balb
+
+gabac
+
+skpyd4p
+skuga1p
+scuga1p
+spuga1p
+
+4.5 (100)
+0.13 (3)
+0.00 (0)
+0.00 (0)
+
+1.6 (21)
+nd
+3.6 (48)
+7.5 (100)
+
+3.52
+0.10
+0.15
+0.14
+
+0.75 (6)
+12.8 (100)
+nd
+nd
+
+a
+c
+
+(100)
+(3)
+(4)
+(4)
+
+determined with gdh assay. b determined with msadc assay.
+determined with  xxxg138xxx  assay.
+
+when the velocity was determined at various akg
+concentrations and several ﬁxed levels of bal, the velocity pattern in fig. 4a was obtained. the pattern is
+
+composed of parallel lines at low reactant concentrations. the pattern shown in fig. 4a,b gave calculated values of 8.2 ± 0.4 mm, 2.9 ± 0.2 mm and
+6.4 ± 0.2 uæmg)1 for kbal, kakg, and vmax, respectively. at high akg concentrations, the linear lines are
+deﬂected upwards, indicating substrate inhibition. the
+inhibition constant calculated for akg is 28.3 ±
+6.7 mm. with gaba as substrate skpyd4p gives calculated values of 1.8 ± 0.2 mm, 0.18 ± 0.02 mm and 0.75 ±
+0.03 uæmg)1 for kgaba, kakg and vmax, respectively.
+as the maximal velocity of skpyd4p is more than eight
+times higher for bal, skpyd4p can be considered a
+bal-at rather than a  xxxg8xxx . skuga1p, on the
+other hand, reveals similar initial velocity pattern (data
+not shown), with calculated values of 3.2 ± 0.2 mm,
+0.22 ± 0.01 mm and 12.8 ± 0.3 uæmg)1 for kgaba,
+kakg, and vmax, respectively. the activity of skuga1p
+is so low (table 4) that detailed parameters could not
+be determined.
+
+febs journal 274 (2007) 1804–1817 ª 2007 the authors journal compilation ª 2007 febs
+
+1809
+
+origin of yeast aminotransferases
+
+g. andersen et al.
+
+table 5. bal-at and  xxxg8xxx  activity analysis of skpyd4p and skuga1p.
+enzyme
+
+vmax (uæmg)1)
+
+km,bal (mm)
+
+km,gaba (mm)
+
+km,akg (mm)
+
+ki,akg (mm)
+
+skpyd4pa
+skpyd4pb
+skuga1pb
+skpyd4pc
+
+7.5
+0.75
+12.8
+6.4
+
+7.6 ± 2.1
+nd
+nd
+8.2 ± 0.4
+
+nd
+1.8 ± 0.2
+3.2 ± 0.2
+nd
+
+2.1
+0.18
+0.22
+2.9
+
+nd
+nd
+nd
+28.3 ± 6.7
+
+±
+±
+±
+±
+
+1.3
+0.03
+0.3
+0.2
+
+±
+±
+±
+±
+
+0.6
+0.02
+0.01
+0.2
+
+a
+
+discontinuous gdh assay. b continuous  xxxg138xxx  assay. c continuous msadc assay. nd, not determined. one unit is defined as the
+amount of enzyme needed to convert 1 lmol substrate into product per minute.
+
+2.2
+
+2.2
+
+2.0
+
+2.0
+
+1.8
+
+1.8
+
+1.6
+
+1.6
+
+1/activity
+(1/µmole/min/mg)
+
+b 2.4
+
+1/activity
+(1/µmole/min/mg)
+
+a 2.4
+
+1.4
+1.2
+1.0
+0.8
+
+1.4
+1.2
+1.0
+0.8
+
+0.6
+
+0.6
+
+0.4
+
+0.4
+
+0.2
+
+0.2
+
+0.0
+0.0
+
+0.2
+
+0.4 0.6 0.8 1.0 1.2
+1/[akg] (1/mm)
+
+1.4 1.6
+
+1.8 2.0
+
+0.0
+0.0
+
+0.1
+
+0.2 0.3 0.4 0.5 0.6 0.7 0.8
+1/[bal] (1/mm)
+
+0.9 1.0
+
+fig. 4. (a,b) full kinetic analysis skpyd4p bal-at activity (msadc assay). (a) double reciprocal plot of skpyd4p bal-at activity (uæmg)1)
+versus akg concentration (mm). bal concentrations: 1 mm (diamonds), 2 mm (crosses), 4 mm (triangles), 8 mm (circles), 20 mm (squares).
+the lines represents global nonlinear regression fits of all data set to eqn 3. (b) double reciprocal plot of skpyd4p bal-at activity (uæmg)1)
+versus bal concentration (mm). akg concentrations: 0.5 mm (diamonds), 1 mm (crosses), 2 mm (triangles), 5 mm (circles), 10 mm (squares).
+the lines represents global nonlinear regression fits of all data set to eqn 3.
+
+discussion
+identification of a novel bal-at-encoding gene
+duplication is one of the main sources of new genes.
+the majority of duplicated copies is sooner or later
+lost from the genome, however, both copies can be
+preserved if they develop: (a) a different expression
+pattern (regulation), (b) divide the original function
+between them, or (c) if one of the copies develops a
+new function. the genes and enzymes involved in
+metabolism of nucleic acid precursors represent a very
+useful model with which to study the origin of new
+genes and enzymes through the duplication events [22].
+mammals have only one gene encoding a  xxxg8xxx ,
+which exhibits both bal-at and  xxxg8xxx  activity.
+1810
+
+s. cerevisiae has only one gene encoding a  xxxg8xxx 
+(scuga1), while s. kluyveri has two scuga1-like genes.
+similarly, the genomes of c. albicans and d. hansenii
+seem to contain two uga1-like genes (fig. 1). this study
+identiﬁes that one of the two genes in s. kluyveri,
+skpyd4 is a bal-at involved in bal degradation.
+the orf of pyd4 could complement a pyd41 mutant
+unable to grow on dhu, bup and bal as sole nitrogen
+source. similarly, a strain with the disrupted gene
+(dpyd4) could also be complemented for the pyd4 defect.
+this demonstrates that dhu is indeed degraded ﬁrst to
+bup and then further to bal and msa. however,
+pyd41 does not necessarily have a defect in the pyd4
+gene, and apparently represents a pleiotropic mutation
+affecting several functions in the cell, among them proper
+functioning of pyd4 (table 2).
+
+febs journal 274 (2007) 1804–1817 ª 2007 the authors journal compilation ª 2007 febs
+
+g. andersen et al.
+
+close homologues of skpyd4 can be found in two
+other yeast strains, d. hansenii and c. albicans, along
+with homologues of pyd3 but not pyd2 (table 3). a
+more closely related species (k. lactis) does not have
+the pyd4 gene, but has both pyd2 and pyd3 homologous genes, while y. lipolytica has no homologous
+genes. apparently, the original pyd4 ⁄ uga1 gene was
+duplicated in one yeast lineage. later on, one of the
+duplicated genes was lost in some descendant lineages,
+such as s. cerevisiae. the time point for the gene
+duplication is estimated to be 200 million years ago,
+when yarrowia lipolytica split from the saccharomyces ⁄ candida ⁄ debaryomyces lineages [23].
+gene duplication and specialization
+we could show that skuga1 is equivalent to scuga1, both by phylogenetic relationship and by the phenotype of a targeted disruption. in mammals, bal-at
+and  xxxg8xxx  activity derive from the same geneproduct. the presence of two separate genetic loci in
+s. kluyveri for enzymes with distinct substrate speciﬁcity
+indicates a recent duplication of a bal ⁄  xxxg8xxx  into
+the specialized pyd4 and uga1 gene(s). the function
+of the preduplicated gene can be either bal-at or
+ xxxg8xxx , or both. to test this hypothesis, skuga1p,
+skpyd4p, scuga1p and spuga1p were characterized.
+the s. pombe homologue was believed to be an example
+of a preduplicated unspecialized gene, as it is the only
+homologous gene in the genome and falls phylogenetically outside the skuga1 and skpyd4 branch (fig. 1).
+spuga1p showed only  xxxg8xxx  activity (table 4),
+which suggests that the duplicated progenitor gene was
+likely to be encoding a  xxxg8xxx , and that skpyd4
+represents a neofunctionalization of one of the two copies of the yeast bal-at [24]. these results are a little
+surprising, as s. pombe, like s. kluyveri, can use bal as
+its sole nitrogen source (j. stolz, department of cell
+biology and plant physiology, universität regensburg,
+germany, personal communication). however, alternative transaminases or other enzymes may degrade bal.
+alternative routes for bal ⁄ gaba degradation are found
+in ustilago maydis, where a gene disruption of the ugata
+locus encoding a putative uga1 protein decreases the
+growth on bal but not on gaba [25].
+characterization of skpyd4p and skuga1p
+the absorption spectra of both proteins showed maxima
+at 330 and 410 nm, indicating the schiff base of pyridoxal 5¢-phosphate bound to an active-site lysine, typical
+for all aminotransferases [26]. the two maxima reﬂected
+the equilibrium between enolimine (330 nm) and keto-
+
+origin of yeast aminotransferases
+
+enamine (410 nm) tautomers of the internal aldimine,
+which is ph dependent [27]. at higher ph values there
+was a decrease in absorbance at 410 nm and a slight
+increase at 330 nm. the spectral change could be the
+result of deprotonation of the internal aldimine at high
+ph. sequence alignment of skpyd4p with e. coli
+ xxxg8xxx  deduced that the active-site lysine of
+skpyd4p forming the schiff base is k330 [28]. the apoenzyme of skpyd4p could be obtained by exhaustive
+dialysis of the protein against buffer without plp, which
+indicated that the cofactor was not very tightly bound.
+full enzymatic activity could be restored upon addition
+of free plp. to keep the protein fully saturated with
+cofactor, plp was present during all puriﬁcation steps.
+based on the amino acid sequence, identities in all
+four enzymes, skpyd4p, skuga1p, scuga1p and scuga1p, belong to the aminotransferase evolutionary
+subgroup ii [29]. the lysine (k 330 in skpyd4p) forming
+the schiff base linkage to the cofactor, the amino acid
+stabilizing the nitrogen of the pyridoxal moiety ( xxxd299xxx  in
+skpyd4p) and the arginines (r196 and r449 in
+skpyd4p) involved in the binding of the carboxyl groups
+of the substrates are all conserved. in other words, the
+three-dimensional structures are most likely to be very
+similar to other enzymes in this subgroup ii, such as
+ xxxg8xxx  from e. coli, dialkylglycine
+decarboxylase and  xxxg1621xxx  [30,31].
+initial velocity studies
+the enzymatic activity of both skpyd4p and skuga1p
+was determined in a coupled assay system using
+msadc and  xxxg138xxx , respectively. the coupled assay
+systems were far superior to the discontinuous assay
+using gdh, which was too tedious and adequate only
+at certain low akg concentration ranges. it ﬁrst had
+to be established that skpyd4p preferentially accepts
+akg and not pyruvate as a keto substrate.
+for a classical bireactant enzyme, such as skpyd4p
+and skuga1p, two classes of kinetic mechanism, sequential and ping pong, are possible. the pattern of an array
+of parallel lines for different ﬁxed concentrations of the
+second substrate shown in fig. 4a,b are consistent with
+a ping-pong mechanism. all aminotransferases adhere
+to a ping-pong mechanism, where the keto substrates
+exert substrate inhibition. both skpyd4p and skuga1p
+show a reaction mechanism involving two half-reactions. in the ﬁrst half-reaction, the amino group is transferred from bal or gaba to the internal aldimine of
+plp, forming a semialdehyde and pyridoxamine
+5¢-phosphate. in the second half-reaction, the amino
+group of pyridoxamine 5¢-phosphate is transferred to
+akg, forming glutamate and restoring plp [30,31].
+
+febs journal 274 (2007) 1804–1817 ª 2007 the authors journal compilation ª 2007 febs
+
+1811
+
+origin of yeast aminotransferases
+
+g. andersen et al.
+
+for skuga1p, km values for bal, gaba and akg
+are in the millimolar range, very similar to the corresponding values for  xxxg8xxx  from e. coli, with
+kgaba, kakg and kcat of 5.8 ± 0.4 mm, 1.07 ±
+0.05 mm and 47.4 ± 1.0 s)1, respectively [31]. the catalytic efﬁciency (vmax ⁄ kgaba) of skuga1p for gaba
+as substrate is 10 times higher than that of skpyd4p
+(4 versus 0.41). the catalytic efﬁciency of skpyd4p for
+bal as substrate is only two times higher than for
+gaba as substrate (0.78 versus 0.41). the binding of
+akg is much tighter in skuga1p when compared with
+skpyd4p (0.2 versus 2.9). the same is true when comparing the binding of bal and gaba as substrate for
+skpyd4p and skuga1p (8.2 versus 3.2).
+both skpyd4p and  xxxg8xxx  from e. coli show
+comparable substrate inhibition for akg with inhibition constants of 28.3 ± 6.7 and 10.2 ± 2.3 mm [30],
+respectively.
+downstream reactions
+because s. kluyveri can utilize bal as a sole nitrogen
+source, an efﬁcient system for degradation of the product msa is likely to be present. in mammals and bacteria, msa is converted to acetyl- xxxd1739xxx  by
+methylmalonic semialdehyde dehydrogenase, normally
+associated with valine metabolism [6,32]. in the soil bacterium pseudomonas pavonaceae 170, a msadc was
+recently identiﬁed as one of the enzymes involved in
+trans-1,3-dichloropropene catabolism [21]. msadc
+converts msa into acetaldehyde and co2 (note that this
+enzymatic reaction was utilized in the bal-at assay)
+and the acetaldehyde could be reduced to ethanol by
+ xxxg110xxx . however, there are no homologues of methylmalonic semialdehyde dehydrogenase
+or msadc found in the s. kluyveri genome. another
+possibility would be oxidation of msa to malonate by a
+msa dehydrogenase in a reaction similar to ssa to succinate catalyzed by  xxxg138xxx . there are two s. kluyveri
+scuga2 homologous genes in the genome nucleotide sequence deposited at ncbi (termed uga2a
+and termed uga2b with the accession numbers
+aace02000036 : 11053.12537 and aace02000070 :
+4699.6216, respectively). however, further characterization of these genes and their products is necessary to
+understand the whole metabolic pathway.
+
+acids and ammonium sulfate were obtained from difco
+(bd biosciences, san jose, ca, usa) and chelating sepharose fast ﬂow from amersham biosciences (piscataway,
+nj, usa). oligos were purchased from dna technology
+(aarhus, denmark).
+
+strains and media
+the yeast and bacterial strains used in this study are presented in table 1. the strains were grown in ypd medium (1%
+yeast extract, 2% bactopeptone, 2% glucose) or synthetic
+deﬁned medium (1%  xxxd3251xxx , 0.6% sodium hydroxide,
+2% glucose, 0.67% yeast nitrogen base without amino acids
+and ammonium sulfate) supplemented with different nitrogen sources (0.5% ammonium sulfate, 0.1% for all other
+types). for solid medium (plates), 2% agar was added. all
+percentages are w ⁄ v. for plasmid rescue, e. coli strain xl1blue (stratagene, la jolla, ca, usa) was used, and for cloning top10 and for overexpression of fusion proteins, bl21
+startm (de3, stratagene) was used. all bacteria were grown
+at 37 c in lb medium supplemented with ampicillin
+(100 mgæl)1) for selection [33].  xxxg418xxx  selection media consisted of ypd supplemented with 75 mgæl)1 of  xxxg418xxx .
+
+mutagenesis
+s. kluyveri mutants were generated from the strains y156
+and y159 with ethyl methanesulfonate as described in
+gojkovic et al. [15]. mutagenized cells were plated on ypd
+plates (100–200 colonies per plate) and grown for 2–3 days
+at 25 c. the plates were replicated onto new plates containing ammonium sulfate (control) or dhu as sole nitrogen source. after 5–7 days at 25 c, colonies were selected
+based on their inability to grow on dhu plates compared
+with the control plates. putative mutants were tested for
+growth on bup, with bal as sole nitrogen source.
+
+complementation with genomic library
+the s. kluyveri wild-type genomic library was prepared by
+f. lacroute and was based on the shuttle vector pfl44s
+[34]. y947 was transformed with the library dna using the
+electroporation procedure [17] and plated on media containing bal as sole nitrogen source for selection. a number of transformants were tested for plasmid loss before
+rescue of the plasmid, p733, into e. coli strain xl1-blue.
+
+dna sequence analysis
+
+experimental procedures
+materials
+all chemicals and enzymes used were purchased from sigma
+(st louis, mo, usa). yeast nitrogen base without amino
+
+1812
+
+sequencing was performed by mwg biotech (ebersberg,
+germany). nucleotide sequence analysis and protein alignments were carried out with winseqez version 1.0 (f.g.
+hansen, bio centrum-dtu, lyngby, denmark, unpublished) and clustalx [35]. database searches were per-
+
+febs journal 274 (2007) 1804–1817 ª 2007 the authors journal compilation ª 2007 febs
+
+g. andersen et al.
+
+formed using the blast network services of the national
+center for biotechnology information (http://www.ncbi.
+nlm.nih.gov/blast/).
+
+disruption of the pyd4 and uga1 genes
+replacement cassettes with very long ﬂanking homology
+regions (500 bp) within the orf were used to disrupt the
+two genes. upon correct integration, approximately onethird of the orf (the middle section) would be exchanged
+with the resistance cassette. the dominant cassette kanmx3,
+which confers  xxxd2191xxx  resistance, was used. pcr ampliﬁcation was performed with pfu polymerase (stratagene) from
+wild-type genomic dna (nrrl y-12651) with the following oligonucleotides: pyd4 1–5¢-cctcttattctgtcgc
+tgaactt, pyd4 1–3¢-gacccggcggggacgaggc
+aagctttcagtgctaaaagacctaccatttc, pyd4
+2–5¢-cgagccctgccacggctctgcgccccatgaa
+cactggaacctaagtaatc, pyd4 2–3¢-ctaaccgt
+aaagttgtctcaatgtt, uga1 1–5¢-atgactgtttg
+cgaaagctactacc, uga1 1–3¢-gacccggcgggga
+cgaggcaagctttcattttcttcagcagaaaac
+tcag, uga1 2–5¢-cgagccctgccacggctctg
+cgcccacatcattgatgaagttcaaactgg,
+uga1
+2–3¢-ttcaaagtgtcaacaaagatgtcag, and on
+pfa6-kanmx3 plasmid with the oligonucleotides kanmx3
+5¢-aagcttgcctcgtccccgccgggtc and kanmx3
+3¢-gggcgcagagccgtggcagggctcg. this generated four 500 bp dna products corresponding to two parts
+of the genes, with 25-bp extensions homologous to the kanmx3 marker, and one 1500 bp dna product corresponding
+to the kanmx3 cassette. in a second pcr ampliﬁcation, the
+two 500 bp parts of the genes were fused to the kanmx3
+cassette using the outer primers. the two resulting linear
+fragments of each 2500 bp were used to transform s. kluyveri
+cells using electroporation as described in gojkovic et al.
+[17], and selected on  xxxd2191xxx  plates. correct integration was
+conﬁrmed by pcr.
+
+cloning, expression and purification procedures
+proteins were expressed using the pet151 ⁄ d-topo expression system (invitrogen k151-01, carlsbad, ca, usa). the
+expression vector pet151 adds a 33 amino acid n-terminal
+his-tag (mhhhhhhgkpipnpllgldstenlyfqgidpft) to the expressed protein. the following oligonucleotides for skpyd4, skuga1, scuga1 and spuga1
+(genbank accession number dq512721, dq512722,
+np_011533 and np_594905, respectively) were used:
+skpyd4–5¢-caccatgccctcttattctg, skpyd4–3¢ctaaccgtaaagttgtctcaatg, skuga1–5¢-cac
+catgactgtttgcgaaag, skuga1–3¢-ctatagtt
+gaggaacaacctttttc, scuga1–5¢-caccatgtct
+atttgtgaacaatac, scuga1–3¢-tcataattcatt
+aactgatttggc, spuga1–5¢-caccatgtcttctac
+
+origin of yeast aminotransferases
+
+tgccac and spuga1–3¢-ttaaatcaattcgtcaatc
+ttcttgag.
+total dna from s. kluyveri (nrrl y-12651) and
+s. cerevisiae (nrrl y-12632) and a commercial cdna
+library from s. pombe were used as a template. the cloning
+was carried out as described by the manufacturer, and
+clones were checked for correct insertion by pcr and
+restriction analysis, before sending for sequencing. the
+resulting plasmids were termed pet151-skpyd4 (p895),
+pet151-skuga1 (p896), pet151-scuga1 (p897) and
+pet151-spuga1 (p898).
+
+purification of pyd4p and uga1p
+expression
+bl-21(de3) was transformed as described by the manufacturer. a preculture was made by inoculation of the transformation in 10 ml lb media (100 lgæml)1 ampicillin,
+100 lm plp) and overnight growth (37 c) with shaking.
+the preculture was transferred to 1 l of lb media
+(100 lgæml)1 ampicillin, 100 lm plp) and the culture was
+grown at 37 c with shaking till the od600 was 0.5–0.6.
+the temperature was lowered to 25 c, isopropyl b-d-1thiogalactopyranoside was added to a ﬁnal concentration
+of 100 lm, and the culture was grown overnight (25 c).
+harvesting was carried out by centrifugation at 4225 g for
+10 min, and the harvested cells were either stored at )20 c
+or processed directly. all procedures involving columns
+were run  xxxd1891xxx  c, while all other procedures past the
+harvesting were carried out on ice.
+
+cell disruption
+the pellet was resuspended in 20 ml lysis buffer [50 mm
+potassium phosphate ph 7.0, 300 mm  xxxd2988xxx ,
+100 lm plp, 1 mm dithiothreitol, complete minus edta
+protease inhibitor cocktail tablets (roche diagnostics,
+basel, switzerland)] and disrupted in a french press
+(4 · 1000 psi). cell debris was removed by centrifugation
+(24 500 g, 30 min).
+
+streptomycin treatment
+streptomycin sulfate (10%) was added dropwise to a ﬁnal
+concentration of 2% with stirring. the precipitate was
+removed after 30 min by centrifugation (24 500 g,
+30 min).
+
+desalting
+the solution was desalted on a g-25 column. the column
+was equilibrated and run with buffer a (50 mm potassium
+phosphate ph 7.0, 300 mm  xxxd2988xxx , 100 lm
+plp).
+
+febs journal 274 (2007) 1804–1817 ª 2007 the authors journal compilation ª 2007 febs
+
+1813
+
+origin of yeast aminotransferases
+
+g. andersen et al.
+
+the protein was concentrated by ammonium sulfate precipitation (and removal of ni2+ and edta would also be
+achieved). finely ground solid ammonium sulfate was
+slowly added to obtain 70% saturation [0.472 g (nh4)2so4
+per ml protein solution]. the solution was stirred for
+15 min prior to centrifugation (24 500 g, 30 min). the precipitated protein was dissolved in 6 ml buffer s (100 mm
+potassium phosphate ph 7.0, 100 lm plp).
+
+and vacuum ﬁltered. the washing procedure was repeated
+several times. the column material was scraped of the ﬁlter
+and mixed with 5 ml of elution buffer (50 mm sodium
+phosphate ph 7.0, 300 mm  xxxd3213xxx , 10% glycerol,
+500 mm imidazole, 20 mm edta). this mixture was then
+transferred to a 10 ml single use syringe, with a ﬁlter
+placed at the bottom. the mixture was placed at room temperature for 30 min with regular inversions of the syringe,
+before ﬁltering the solution through the syringe. the solution was dispensed in a dialysis tube (10 kda cut-off), covered with absorbent gel matrix, and incubated at 4 c to
+concentrate the protein solution. the volume was reduced
+to 2 ml before running a ﬁnal gel ﬁltration on an s-12 column. the s-12 gel-ﬁltration column was equilibrated and
+run with storage buffer (100 mm sodium phosphate ph 7.0,
+10% glycerol). protein fractions were pooled and stored in
+200 ll and 2 ml fractions at )80 c.
+the gabd gene encoding  xxxg138xxx , cloned in the overexpression plasmid pet23a(+) (p899), was kindly provided
+by m. d. toney (university of california, davis, ca, usa).
+the puriﬁcation was executed as described previously [30].
+
+gel filtration
+
+protein analysis
+
+a ﬁnal gel-ﬁltration step was used to remove ammonium sulfate. the s-12 gel-ﬁltration column was equilibrated and run
+with buffer s. active fractions were pooled. glycerol was
+added to a ﬁnal concentration of 10% (w ⁄ v), and protein
+was stored in 200 ll and 2 ml fractions at )80 c.
+
+the overexpression vector pet(130) containing the p. pavonaceae 170 orf130 encoding msadc was kindly provided by
+c. p. whitman (university of texas, austin, tx, usa) [21].
+the gene was cloned into pet101 ⁄ d-topo (invitrogen),
+using the 5¢ primer caccatgccacttctcaag and the
+3¢ primer gacgaggtccccagtc. the resulting plasmid
+(p900) was sequenced. transformation, expression, cell disruption, streptomycin treatment and desalting (g-25 column)
+is the same as used for pyd4p and uga1p described above
+except all potassium was exchanged for sodium and no plp
+was added.
+
+protein concentrations were determined based on the calculated extinction coefﬁcient at 280 nm (http://www.expasy.org/
+tools/protparam.html) or by the colorimetric method of bradford using bovine  xxxg124xxx  as standard [36]. protein
+purity and subunit molecular mass determination was carried
+out by sds ⁄ page [37]. native protein mass was measured
+by running native gel electrophoresis at four different acrylamide concentrations (4, 6, 8 and 10%) in tris-glycine buffer
+(ph 8.8). gels were stained with coomassie blue (40% ethanol, 1% acetic acid, 1 gæl)1 r-250 coomassie blue) and
+destained with 1% acetic acid. b-amylase (200 kda), bovine
+ xxxg124xxx , dimer (132 kda), bovine  xxxg124xxx ,
+monomer (66 kda), and carbonic anhydrase (29 kda) were
+used as native protein standards. the native size was determined as recommended by the nondenatured protein molecular weight marker kit producer (sigma; sigma tech. bulletin
+n. mkr-137, october 1986: p.1–8). the procedure for determining molecular weights of nondenatured proteins was a
+modiﬁcation of the methods of bryan [38] and davis [39].
+
+affinity chromatography
+
+spectroscopic measurements
+
+the desalted solution was added slowly to a slurry of
+ni2+-nta material (chelating sepharose fast flow from
+amersham biosciences) on ice. the content was slowly
+swirled around for 5 min, before carefully removing buffer by vacuum ﬁltration, without letting the ni2+-nta
+material run dry. wash buffer (50 mm sodium phosphate
+ph 7.0, 300 mm  xxxd3213xxx , 10% glycerol, 25 mm imidazole) was added, and the mixture was swirled around
+
+all measurements were performed on a varian cary3
+uv ⁄ visible spectrophotometer equipped with a temperature
+controlled automatic multi-cell changer. absorption spectra
+at various ph values were determined on recombinant
+skpyd4p at the protein concentrations 1–1.5 mgæml)1. for
+all assays, one unit (u) was deﬁned as the amount of
+enzyme which catalyzed the formation of 1 lmol of the corresponding product in 1 min.
+
+affinity chromatography
+the desalted solution was applied to a 4.5 ml ni2+-nta
+(chelating sepharose fast flow from amersham biosciences). the column was equilibrated and washed with 200 ml
+buffer i (50 mm potassium phosphate ph 7.0, 300 mm  xxxd2988xxx , 100 lm plp, 20 mm imidazole). the protein
+was eluted by stripping the column with buffer b (50 mm
+potassium phosphate ph 7.0, 300 mm  xxxd2988xxx ,
+100 lm plp, 10 mm ethylenediaminetetraacetic acid).
+
+(nh4)2so4 precipitation
+
+purification of msadc and  xxxg138xxx 
+
+1814
+
+febs journal 274 (2007) 1804–1817 ª 2007 the authors journal compilation ª 2007 febs
+
+g. andersen et al.
+
+discontinuous assay using gdh in the presence
+of hydrazine (gdh assay)
+the enzymatic activity of bal-at type enzymes was determined in a discontinued assay system based on a previously
+described method [40]. the ﬁrst reaction is catalyzed by
+bal-at type enzymes, which convert bal ⁄ gaba and
+akg to msa or ssa and glutamate, respectively (fig. 3).
+the second reaction is catalyzed by gdh, which stoichiometrically converts glutamate to akg and ammonia while
+reducing nad+ to nadh. for the second reaction to go
+to completion, akg originating from the ﬁrst reaction had
+to be quenched by hydrazine.
+the standard reaction mixture consisted of 100 mm
+potassium phosphate (ph 8.0), 100 lm plp, varying concentrations of akg and bal ⁄ gaba, and 0.3–3 lg pyd4
+or uga1 enzyme. the reaction was carried out in a total
+volume of 200 ll at 30 c for 5 min. the reaction was terminated by addition of 40 ll ice-cold stop mix (20% trichloroacetic acid ⁄ 0.6 m hydrazine) and placed on ice. after
+incubation on ice for 10 min, the reaction was neutralized
+with 20 ll 2 m potassium hydroxide. the second reaction
+mixture contained 260 ll of the ﬁrst reaction, 320 mm glycine buffer (ph 9.0), 5 lm adp, 160 lm nad+ and 0.2 mg
+gdh in a ﬁnal volume of 1 ml. a measurement of the initial absorbance at 340 nm was taken before adding nad+.
+the reaction was carried out until no further rise in absorbance at 340 nm was observed (1 h). the amount of glutamate was calculated from the total change in absorbance
+at 340 nm using a molar extinction coefﬁcient of nadh of
+6.22 mm)1æcm)1.
+
+continuous assay coupling the formation of msa
+from bal to msadc and  xxxg110xxx 
+(msadc assay)
+in a continuous assay, the production of msa by bal-at
+is coupled with msadc to produce acetaldehyde, which,
+in a nadh-dependent  xxxg110xxx  reaction,
+generates nad+ and ethanol (fig. 3). the msadc-generated acetaldehyde was monitored by following the depletion
+of nadh at 340 nm [21].
+amounts of msadc and  xxxg110xxx  used in
+the assay system were optimized to concentrations which
+are not limiting the ﬁrst reaction. one unit of bal-at was
+deﬁned as the amount of enzyme which catalyzes the formation of 1 lmol msa per min. as the bal-at catalyzes
+the limiting reaction, the activity can be calculated from the
+amount of nadh reduced to nad+ using the extinction
+coefﬁcient of nadh of 6.22 mm)1æcm)1. the standard
+bal-at assay conditions (1 ml total volume) were 100 mm
+potassium phosphate (ph 9.0), 100 lm plp, 0.2 mm
+nadh, 5 ll  xxxg110xxx , 50 ll msadc, akg,
+bal, 2–30 lg skpyd4p ⁄ skuga1p.
+
+origin of yeast aminotransferases
+
+continuous assay coupling the formation
+of ssa from gaba to succinic semialdehyde
+dehydrogenase ( xxxg138xxx  assay)
+in a continuous assay, the ssa produced by uga1p or pyd4p
+was converted by the nadp+-dependent  xxxg138xxx , the
+e. coli gabd gene product, to nadph and succinate
+(fig. 3). the absorbance change at 340 nm was monitored.
+the activity of the puriﬁed  xxxg138xxx  was determined at
+30 c in a reaction mixture containing 0.3 mm ssa,
+0.2 mm nadp+, 100 mm potassium phosphate (ph 7.0) in
+a ﬁnal volume of 1 ml. the amount of  xxxg138xxx  in the
+assay was optimized, so that  xxxg138xxx  was not the ratelimiting step. standard  xxxg8xxx  assay conditions were
+100 mm potassium phosphate (ph 8.0), 100 lm plp,
+0.3 uæml)1  xxxg138xxx , 0.4 mm nadp+, varying concentrations of akg and gaba, and 0.5–9 lg pyd4 or uga1
+enzyme.
+
+data analysis
+reciprocal initial velocities (vi) were plotted versus reciprocal substrate concentrations. data for single reciprocal plots
+were ﬁtted to (eqn 1):
+vi ¼ va=ðka þ aþ
+
+ð1þ
+
+initial velocity pattern in which initial velocity is obtained
+as a function of one reactant at different ﬁxed concentrations of the second reactants were ﬁtted to (eqn 2):
+
+vi ¼ vab=ðka b þ kb a þ abþ
+
+ð2þ
+
+for substrate inhibition by akg initial velocity pattern
+were ﬁtted to (eqn 3):
+
+vi ¼ vab=ðka b ð1 þ b=kis þ þ kb a þ ðabþ
+
+ð3þ
+
+in (eqns 1–3), vi and v are the initial and maximum velocities, respectively; a and b are the concentrations of reactants; ka and kb are the michaelis constants for the
+respective reactants (bal or gaba and akg); and kis is
+the inhibition constant for akg.
+for kinetics data analysis, the commercial curve-ﬁtting
+program enzfitter version 2.0 (biosoft) was employed.
+
+acknowledgements
+this work was supported by swedish research council (vr) and the crafoord foundation. we thank
+c. p. whitman (university of texas, austin, tx,
+usa) and m. d. toney (university of california,
+davis, ca, usa) for providing the plasmids for overexpression of msadc and  xxxg138xxx , respectively, and
+y. pynyaha (institute of cell biology, nas, lviv,
+ukraine) for helping with the gene disruptions.
+
+febs journal 274 (2007) 1804–1817 ª 2007 the authors journal compilation ª 2007 febs
+
+1815
+
+origin of yeast aminotransferases
+
+g. andersen et al.
+
+references
+1 wu fs, gibbs tt & farb dh (1993) dual activation of gabaa and glycine receptors by beta-alanine: inverse modulation by progesterone and 5
+alpha-pregnan-3 alpha-ol-20-one. eur j pharmacol
+246, 239–246.
+2 cronan je jr (1980) beta-alanine synthesis in escherichia coli. j bacteriol 141, 1291–1297.
+3 white wh, gunyuzlu pl & toyn jh (2001) saccharomyces cerevisiae is capable of de novo pantothenic acid
+biosynthesis involving a novel pathway of beta-alanine
+production from  xxxd3234xxx . j biol chem 276, 10794–
+10800.
+4 white wh, skatrud pl, xue z & toyn jh (2003) specialization of function among aldehyde dehydrogenases:
+the ald2 and ald3 genes are required for beta-alanine
+biosynthesis in saccharomyces cerevisiae. genetics 163,
+69–77.
+5 kontani y, sakata sf, matsuda k, ohyama t, sano k
+& tamaki n (1999) the mature size of rat  xxxg8xxx  is different in liver and brain.
+eur j biochem 264, 218–222.
+6 goodwin gw, rougraff pm, davis ej & harris ra
+(1989) puriﬁcation and characterization of methylmalonate-semialdehyde dehydrogenase from rat liver. identity to  xxxg139xxx . j biol
+chem 264, 14965–14971.
+7 tamaki n, aoyama h, kubo k, ikeda t & hama t
+(1982) puriﬁcation and properties of beta- xxxg941xxx  from rabbit liver. j biochem (tokyo) 92,
+1009–1017.
+8 ueno s, morino h, sano a & kakimoto y (1990)
+puriﬁcation and characterization of d-3-aminoisobutyrate-pyruvate aminotransferase from rat liver. biochim
+biophys acta 1033, 169–175.
+9 schor ds, struys ea, hogema bm, gibson km &
+jakobs c (2001) development of a stable-isotope dilution assay for  xxxd2177xxx  (gaba) transaminase in isolated leukocytes and evidence that gaba
+and beta-alanine transaminases are identical. clin chem
+47, 525–531.
+10 di carlo fj, schultz as & kent am (1952) on the
+mechanism of pyrimidine metabolism by yeasts. j biol
+chem 199, 333–343.
+11 ramos f, el guezzar m, grenson m & wiame jm
+(1985) mutations affecting the enzymes involved in the
+utilization of  xxxd2177xxx  as nitrogen source by
+the yeast saccharomyces cerevisiae. eur j biochem 149,
+401–404.
+12 vissers s, andre b, muyldermans f & grenson m
+(1989) positive and negative regulatory elements control
+the expression of the uga4 gene coding for the inducible 4-aminobutyric-acid-speciﬁc permease in saccharomyces cerevisiae. eur j biochem 181, 357–361.
+
+1816
+
+13 andre b (1990) the uga3 gene regulating the gaba
+catabolic pathway in saccharomyces cerevisiae codes for
+a putative zinc-ﬁnger protein acting on rna amount.
+mol general genet 220, 269–276.
+14 larue ta & spencer jf (1968) the utilization of
+purines and pyrimidines by yeasts. can j microbiol 14,
+79–86.
+15 gojkovic z, paracchini s & piskur j (1998) a new
+model organism for studying the catabolism of pyrimidines and purines. adv exp med biol 431, 475–479.
+16 lundgren s, gojkovic z, piskur j & dobritzsch d
+(2003) yeast beta-alanine synthase shares a structural
+scaffold and origin with dizinc-dependent exopeptidases.
+j biol chem 278, 51851–51862.
+17 gojkovic z, jahnke k, schnackerz kd & piskur j
+(2000) pyd2 encodes 5,6- xxxg653xxx , which participates in a novel fungal catabolic
+pathway. j mol biol 295, 1073–1087.
+18 andersen g, merico a, bjornberg o, andersen b, schnackerz kd, dobritzsch d, piskur j & compagno c
+(2006) catabolism of pyrimidines in yeast: a tool to
+understand degradation of anticancer drugs. nucleosides
+nucleotides nucleic acids 25, 991–996.
+19 cliften p, sudarsanam p, desikan a, fulton l, fulton
+b, majors j, waterston r, cohen ba & johnston m
+(2003) finding functional features in saccharomyces
+genomes by phylogenetic footprinting. science 301,
+71–76.
+20 andre b & jauniaux jc (1990) nucleotide sequence of
+the yeast uga1 gene encoding  xxxg8xxx .
+nucleic acids res 18, 3049.
+21 poelarends gj, johnson wh jr, murzin ag & whitman cp (2003) mechanistic characterization of a bacterial malonate semialdehyde decarboxylase: identiﬁcation
+of a new activity on the tautomerase superfamily. j biol
+chem 278, 48674–48683.
+22 sandrini mp & piskur j (2005) deoxyribonucleoside
+kinases: two enzyme families catalyze the same reaction.
+trends biochem sci 30, 225–228.
+23 piskur j, rozpedowska e, polakova s, merico a &
+compagno c (2006) how did saccharomyces evolve to
+become a good brewer? trends genet 22, 183–186.
+24 force a, lynch m, pickett fb, amores a, yan yl &
+postlethwait j (1999) preservation of duplicate genes by
+complementary, degenerative mutations. genetics 151,
+1531–1545.
+25 straffon mj, hynes mj & davis ma (1996) characterization of the ugata gene of ustilago maydis, isolated by
+homology to the gata gene of aspergillus nidulans. curr
+genet 29, 360–369.
+26 toney md (2005) reaction speciﬁcity in pyridoxal
+phosphate enzymes. arch biochem biophys 433,
+279–287.
+27 yonaha k, suzuki k & toyama s (1985) streptomyces
+beta-alanine: alpha-ketoglutarate aminotransferase, a
+
+febs journal 274 (2007) 1804–1817 ª 2007 the authors journal compilation ª 2007 febs
+
+g. andersen et al.
+
+28
+
+29
+
+30
+
+31
+
+32
+
+33
+
+novel omega-amino acid transaminase. puriﬁcation,
+crystallization, and enzymologic properties. j biol chem
+260, 3265–3268.
+storici p, capitani g, de biase d, moser m, john ra,
+jansonius jn & schirmer t (1999) crystal structure of
+gaba-aminotransferase, a target for antiepileptic drug
+therapy. biochemistry 38, 8628–8634.
+mehta pk & christen p (1994) homology of 1-aminocyclopropane-1-carboxylate synthase, 8-amino-7-oxononanoate synthase, 2-amino-6-caprolactam racemase,
+2,2-dialkylglycine decarboxylase, glutamate-1-semialdehyde 2,1-aminomutase and isopenicillin-n-epimerase
+with aminotransferases. biochem biophys res commun
+198, 138–143.
+liu w, peterson pe, carter rj, zhou x, langston ja,
+fisher aj & toney md (2004) crystal structures of
+unbound and  xxxd439xxx -bound escherichia coli
+ xxxg8xxx . biochemistry
+43, 10896–10905.
+liu w, peterson pe, langston ja, jin x, zhou x,
+fisher aj & toney md (2005) kinetic and crystallographic analysis of active site mutants of escherichia
+coli  xxxg8xxx . biochemistry 44, 2982–2992.
+zhang yx, tang l & hutchinson cr (1996) cloning
+and characterization of a gene (msda) encoding methylmalonic acid semialdehyde dehydrogenase from streptomyces coelicolor. j bacteriol 178, 490–495.
+sambrook j, fritsch ef & maniatis t (1989)
+molecular cloning: a laboratory manual, 2nd edn.
+
+origin of yeast aminotransferases
+
+34
+
+35
+
+36
+
+37
+
+38
+
+39
+
+40
+
+cold spring harbor laboratory, cold spring harbor,
+ny.
+bonneaud n, ozier-kalogeropoulos o, li gy, labouesse m, minvielle-sebastia l & lacroute f (1991) a
+family of low and high copy replicative, integrative and
+single- stranded s. cerevisiae ⁄ e. coli shuttle vectors.
+yeast 7, 609–615.
+thompson jd, gibson tj, plewniak f, jeanmougin f
+& higgins dg (1997) the clustal_x windows interface: ﬂexible strategies for multiple sequence alignment
+aided by quality analysis tools. nucleic acids res 25,
+4876–4882.
+bradford mm (1976) a rapid and sensitive method for
+the quantitation of microgram quantities of protein utilizing the principle of protein-dye binding. anal biochem
+72, 248–254.
+laemmli uk (1970) cleavage of structural proteins
+during the assembly of the head of bacteriophage t4.
+nature 227, 680–685.
+bryan jk (1977) molecular weights of protein multimers from polyacrylamide gel electrophoresis. anal
+biochem 78, 513–519.
+davis bj (1964) disc electrophoresis. ii. method and
+application to human serum proteins. ann n y acad
+sci 121, 404–427.
+weber jp, bolin rj, hixon ms & sherald af (1992)
+beta- xxxg941xxx  activity in black and suppressor of black mutations of drosophila melanogaster.
+biochim biophys acta 1115, 181–186.
+
+febs journal 274 (2007) 1804–1817 ª 2007 the authors journal compilation ª 2007 febs
+
+1817
+

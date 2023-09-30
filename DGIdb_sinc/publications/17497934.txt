@@ -1,0 +1,1271 @@
+6536
+
+biochemistry 2007, 46, 6536-6546
+
+biochemical and crystallographic analysis of substrate binding and
+conformational changes in  xxxg51xxx †,‡
+albert s. reger,§,| jill m. carney,§ and andrew m. gulick*,§,|
+hauptman-woodward medical research institute, buffalo, new york 14203, and
+department of structural biology, state university of new york at buffalo, buffalo, new york 14203
+received december 27, 2006; revised manuscript received march 9, 2007
+
+abstract: the adenylate-forming enzymes, including acyl-coa synthetases, the adenylation domains of
+non-ribosomal peptide synthetases (nrps), and firefly luciferase, perform two half-reactions in a pingpong mechanism. we have proposed a domain alternation mechanism for these enzymes whereby, upon
+completion of the initial adenylation reaction, the c-terminal domain of these enzymes undergoes a 140°
+rotation to perform the second thioester-forming half-reaction. structural and kinetic data of mutant enzymes
+support this hypothesis. we present here mutations to salmonella enterica  xxxg51xxx  (acs)
+and test the ability of the enzymes to catalyze the complete reaction and the adenylation half-reaction.
+substitution of lys609 with alanine results in an enzyme that is unable to catalyze the adenylate reaction,
+while the gly524 to leucine substitution is unable to catalyze the complete reaction yet catalyzes the
+adenylation half-reaction with activity comparable to the wild-type enzyme. the positions of these two
+residues, which are located on the mobile c-terminal domain, strongly support the domain alternation
+hypothesis. we also present steady-state kinetic data of putative substrate-binding residues and demonstrate
+that no single residue plays a dominant role in dictating coa binding. we have also created two mutations
+in the active site to alter the acyl substrate specificity. finally, the crystallographic structures of wild-type
+acs and mutants r194a, r584a, r584e, k609a, and v386a are presented to support the biochemical
+analysis.
+
+the adenylate-forming superfamily is composed of a
+diverse group of enzymes that utilize atp and an acyl- or
+aryl-carboxylate to form an adenylate intermediate. the
+superfamily consists of three subfamilies: the acyl- or arylcoa synthetases (also called ligases), the adenylation
+domains of the non-ribosomal peptide synthetases (nrpss1)
+(1-3), and the firefly luciferases. between the subfamilies
+there is 20% to 40% sequence homology (4, 5). the acyladenylate intermediate usually reacts with the pantetheine
+thiol of an acyl carrier protein or coa to form a thioester.
+in the case of the firefly luciferase subfamily, however, the
+adenylate reacts in an oxidative decarboxylation to yield an
+† this research was supported in part by nih grant gm-068440
+(a.m.g.). this work is based upon research conducted at the cornell
+high energy synchrotron source (chess) which is supported by the
+national science foundation under award dmr 0225180 and the
+national institutes of health through its national center for research
+resources under award 5  xxxg1366xxx  rr001646-23. use of nsls, the
+national synchrotron light source at brookhaven national laboratory,
+was supported by the u.s. department of energy, office of science,
+office of basic energy sciences, under contract no. de-ac0298ch10886.
+‡ the structure factors and coordinates have been deposited in the
+protein data bank. accession codes are as follows: wild-type + amp
++ coa, 2p2f; r194a + propyl-amp, 2p2m; v386a + propyl-amp
++ coa, 2p2b; r584a + propyl-amp, 2p20; r584e + propyl-amp,
+2p2q; k609a + propyl-amp + coa, 2p2j.
+* corresponding author: hauptman-woodward medical research
+institute, department of structural biology, state university of new
+york at buffalo, 700 ellicott st, buffalo, ny 14203-1102. phone: (716)
+898-8619. fax: (716) 898-8660. e-mail: gulick@hwi.buffalo.edu.
+§ hauptman-woodward medical research institute.
+| department of structural biology.
+
+activated carbonyl that decomposes to emit light. the average
+size of these enzymes is 500-700 amino acids in length.
+the structures of several family members demonstrate that
+the enzymes contain a large 400-550 residue n-terminal
+domain and a smaller ∼130 residue c-terminal domain.
+the 72 kda  xxxg51xxx  (acs, ec 6.2.1.1) from
+salmonella enterica is part of the adenylate-forming superfamily (6). this enzyme allows bacteria to use acetate as a
+sole carbon and energy source. in low acetate concentrations,
+acs is responsible for acetyl-coa synthesis, while at higher
+concentrations, acetyl-coa production is carried about by
+acetate kinase and phosphotransacetylase (7). synthesis of
+acetyl-coa is carried out in two steps. in the first halfreaction acs combines acetate with atp to form an acyladenylate. in the second half-reaction, the thiol of coa
+attacks the acyl carbon displacing the amp leaving group
+to form the product acetyl-coa (scheme 1).
+1 abbreviations: acs,  xxxg51xxx ; cbal, 4-chlorobenbenzoyl-coa ligase form alcaligenes sp. al3007;  xxxd2901xxx , phenylalanine
+activating adenylation domain of the gramicidin synthetase a protein;
+dhbe, 2,3-dihydroxybenzoate activating domain of the bacillibactin
+siderophore synthetase; nrps, non-ribosomal peptide synthetase;
+tcep, tris(2-carboxyethyl)phosphine hydrochloride; epps, 4-(2-hydroxyethyl)-1-piperazinepropanesulfonic acid; prpe, the propionyl-coa
+synthetase from salmonella enterica; hepes, 4-(2-hydroxyethyl)piperazine-1-ethanesulfonic acid; btp,  xxxd1593xxx ; propyl-amp, adenosine-5′-propylphosphate;
+rmsd, root mean square deviation; mt- xxxg47xxx ,  xxxg51xxx 
+from the thermophilic bacterium methanothermobacter thermoautotrophicus; lb, luria-bertani media; iptg, isopropyl beta-d-1-thiogalactopyranoside.
+
+10.1021/bi6026506 ccc: $37.00 © 2007 american chemical society
+published on web 05/12/2007
+
+structure/function studies of acs
+
+biochemistry, vol. 46, no. 22, 2007 6537
+
+scheme 1
+
+members of the adenylate-forming superfamily contain ten
+regions of highly conserved residues that have been named
+a1-a10 (2). a conserved residue, part of the a8 region,
+forms a hinge that bridges the n-terminus to the c-terminus
+of these enzymes (6). this conserved hinge residue is usually
+an  xxxd233xxx  (asp517 for acs); however, a lysine residue
+has also been observed (8). the a10 conserved region
+contains a lysine at the c-terminus of the adenylate-forming
+enzymes with a consensus sequence of pxxxxgk (lys609
+in acs). this residue is known to be important for the
+adenylate-forming half-reaction based upon kinetic studies
+of propionyl-coa synthetase and firefly luciferase (9, 10).
+the a5 conserved sequence of ygxte is found at the atp
+binding pocket, which can be seen in the 4-chlorobenzoate:
+coa ligase/synthetase (cbal) (11),  xxxd2901xxx  (12), and firefly
+luciferase (8) structures. in acs, this sequence is modified
+to w413wqte; trp413 is orientated away from the active
+site, while trp414 truncates the acyl binding pocket, accommodating the small acyl substrate acetate. finally, there
+is a highly conserved region with the consensus sequence
+of (s/t)(s/t/g)g(s/t)(s/t)gxpkg (thr264-gly273 of
+acs). this glycine- and ser/thr-rich sequence of the a3
+region is thought to play a role in orientating the three
+phosphates of atp prior to the first half-reaction (13) in a
+manner that is somewhat analogous to the walker p-loop of
+certain nucleotide hydrolases (14).
+the conserved hinge residue is proposed to be the pivot
+point for a c-terminal rotation of ∼140° allowing for both
+half-reaction to occur (6). this domain alternation hypothesis
+arises from biochemical and crystallographic studies of a
+number of adenylate-forming enzyme. the three-dimensional
+
+structures of  xxxd2901xxx  (12), dhbe (15), cbal (11), and
+eukaryotic acs (16) have been solved in the proposed
+adenylate-forming conformation. firefly luciferase has been
+solved in the adenylate forming conformation (17), as well
+as in an intermediate conformation of unknown significance
+(8). prokaryotic acs (6) was solved with the c-terminus
+rotated ∼140° and in the presence of coa relative to the
+orientation seen in the original  xxxd2901xxx  structure.
+we present here a series of structural and functional studies
+of site-directed mutants of acs. residues from both the nand c-terminal domains were chosen to explore the impact
+of side chain substitution on the steady-state kinetics of atp
+and coa. in addition to residues that interact with the coa,
+we have also mutated the hinge  xxxd233xxx  residue of the
+a8 region to glycine and proline in an attempt to increase
+and decrease, respectively, the conformational flexibility of
+this residue. finally, in light of the relative promiscuity of
+the members of this family to recognize multiple acyl
+containing substrates (9, 18, 19), several residues were
+mutated to alter the acyl substrate specificity. crystallographic structures of the ligand bound wild-type enzyme,
+as well as the r194a, r584a, r584e, k609a, and v386a
+mutant proteins, are also presented.
+methods
+materials. adenosine-5′-propylphosphate was generously
+provided by dr. alex horswill and dr. jorge escalantesemerena (9). nadh, sodium acetate, pyruvate, coa, amp,
+hepps, btp, and hepps, as well as  xxxg107xxx , pyruvate
+kinase, and lactate dehydrogenase, used in the coupled
+
+6538 biochemistry, vol. 46, no. 22, 2007
+enzyme assay, were from sigma-aldrich (milwaukee, wi).
+the 32p-ppi was obtained from perkin-elmer life sciences
+(shelton, ct). tcep was from hampton research (aliso
+viejo, ca).  xxxd2982xxx  (8000 mw) was from fluka
+(milwaukee, wi).
+acs mutagenesis. mutations were made to wild-type acs/
+ptyb1 construct (6), using the quikchange site-directed
+mutagenesis kit (stratagene, la jolla, ca). mutagenic
+primers were designed to introduce silent restriction sites
+for preliminary identification of mutants. plasmid sequences
+were confirmed to contain the mutation by dna sequencing
+of the acs gene at roswell park cancer institute, buffalo,
+ny.
+expression and purification of wild-type acs and mutants. wild-type and mutant acs proteins were purified as
+reported previously (6). lb containing 50 mg/ml ampicillin
+was inoculated with bl21(de3) cells harboring the expression plasmid and grown overnight at 37 °c in a shaker. the
+25 ml culture was used to inoculate a 1 l flask. cells were
+grown at 16 °c. at mid log phase (od600 ) 0.6) cells were
+induced with 1 mm iptg and allowed to grow for 1215 h. cells were harvested by centrifugation, frozen in liquid
+nitrogen, and stored at -80 °c until needed. purification
+was achieved utilizing the impact protein purification
+system (new england biolabs, ipswich, ma). acs is
+produced as a c-terminal fusion protein with a chitin-binding
+domain, joined by a modified intein that is susceptible to
+thiol-dependent cleavage (20). the protein is adsorbed to a
+chitin affinity column and incubated for 40 h at 4 °c on
+column with 30 mm dtt. following thiol-dependent
+cleavage of the chitin binding domain-intein fusion protein,
+the 652-residue protein with no extra residues derived from
+the expression vector is eluted from the column. after
+purification, protein was dialyzed to 10 mm epps (ph 8.0)
+and 0.2 mm tcep. wild-type and mutant proteins were then
+concentrated to >10 mg/ml and frozen as small aliquots in
+liquid n2 until needed (21).
+kinetic determination of apparent km, kcat, and kcat/km.
+a nadh consumption assay (9) was used which contained
+50 mm hepes buffer, ph 7.5, 5 mm mgcl2, 1 mm tcep,
+3 mm phosphoenolpyruvate, 5 units of  xxxg107xxx , 1 unit
+of pyruvate kinase, 1.5 units of lactate dehydrogenase, and
+0.1 mm nadh. in this assay, the production of amp is
+detected through coupled assays with  xxxg107xxx , which
+catalyzes the production of 2 adp molecules from amp
+and atp, pyruvate kinase, which converts phosphoenolpyruvate and adp to pyruvate and atp, and lactate dehydrogenase, which converts pyruvate to lactate with the oxidation
+of nadh to nad+. the loss of nadh is monitored with
+340 of 6220 m-1 min-1. apparent kinetic constants were
+determined by varying one substrate while holding the
+remaining two constant. to determine kinetic constants for
+atp, coa and acetate were held constant at 1.0 mm and
+20 mm, respectively, and atp was varied from 5 to
+1000 µm. to determine kinetics for coa, atp and acetate
+were held constant at 2.5 mm and 20 mm, and coa was
+varied from 50 to 800 µm. assays were preincubated at
+37 °c in disposable cuvettes in an agilent 8453 spectrophotometer with a circulating water jacket. the reaction was
+initialized with 0.052 µm wild-type acs or 0.104 µm mutant
+acs. acs proteins were diluted in 250 mm hepes buffer,
+ph 7.5 before assay measurement. the reaction was moni-
+
+reger et al.
+tored at 340 nm for 1 min. initial velocity data were analyzed
+using the program dynafit (22).
+km, kcat, and kcat/km determination for acetate, propionate,
+and glycine. the same coupled assay was used to determine
+the kinetic constants for acetate, propionate, and glycine.
+atp and coa were held constant at 2.5 mm and 1.5 mm,
+respectively, while acetate varied from 0.5 mm to 5 mm,
+propionate varied from 0.5 mm to 5 mm, and glycine varied
+from 1 mm to 15 mm. the reaction was initialized with
+0.005 µm wild-type acs, v386a, or v310d. proteins were
+diluted in 250 mm hepes buffer, ph 7.5 before assay
+measurements.
+pyrophosphate exchange assay. the pyrophosphateexchange assay was used to measure the activity of the
+adenylate-forming half-reaction by monitoring the incorporation of 32p-labeled pyrophosphate into atp through cycles
+of the reversible adenylation half-reaction (23). the reaction
+contained 2 mm atp, 0.2 mm nappi, 5 mm acetate,
+50 mm hepes (ph 8.0), 100 mm nacl, 10 mm mgcl2,
+and 1.5 µci/ml of 32ppi. the reaction was initialized with
+10 µm enzyme and allowed to incubate at 37 °c for 10 min.
+the reaction was quenched with a solution containing 1.2%
+active charcoal, 0.1 m unlabeled ppi, and 0.35 m perchloric
+acid. the charcoal pellet was washed twice with 1 ml of
+h2o and then resuspended in 0.5 ml of h2o for scintillation counting. counts were converted to µmol/min/mg using
+a standard curve of known activity. each assay was
+performed with five replicates along with a control for
+background.
+crystallization of wild-type acs and mutant acs. crystals
+were grown via the vapor diffusion method using 6-15%
+peg 8000, 9-13% ethylene glycol, and 50 mm btp,
+ph 6.5. wild-type acs was incubated with 1 mm of amp,
+coa, and acetate prior to setup. 1 mm each of propyl-amp,
+coa, and tcep was added to the mutant protein sample
+before setup. crystals were cryoprotected by transferring
+through three solutions containing increasing amounts of
+ethylene glycol (14%, 18%, 24%) for approximately 1 min
+each. the final cryoprotectant solution contained 25% peg
+8000, 24% ethylene glycol, and 50 mm btp (ph 6.5). each
+cryoprotectant solution contained 1.25 mm of ligand.
+crystallographic data collection and data refinement.
+data collection for wild-type acs and the mutants r194a
+and v386a were collected at the national synchrotron light
+source at brookhaven national laboratory at beamlines x4a
+(r194a) and x12c (wild-type and v386a). data for mutants
+r584a, r584e, and k609a were collected at the cornell
+high energy synchrotron source beamline f2. two crystal
+forms were identified from identical crystallization conditions, the monoclinic form observed in our original structure
+(6) and a new orthorhombic form. both crystal forms
+contained two molecules in the asymmetric unit. all data
+were processed with hkl2000 (24), except for the r584a
+mutant crystals, which were processed with mosflm and
+scala (25, 26), and converted from intensities to structure
+factors with truncate of the ccp4 package (25). all
+structures were solved by molecular replacement using
+molrep (27) of the ccp4 package using the wild-type acs
+(1pg4) structure as a search model with all non-protein atoms
+removed. refinement of all structures was performed with
+refmac5 (28) using weighted individual atomic b-factors.
+manual model building was performed with turbo (29)
+
+structure/function studies of acs
+and coot (30). water molecules were included into
+spherical or nearly spherical difference density that made
+chemically plausible interactions with protein atoms or
+neighboring waters. near the completion of refinement, tls
+anisotropic refinement (31) was included for the n- and
+c-terminal domains, which was monitored by a drop in the
+rfree value. the final models all are missing the n-terminal
+four or five residues and the c-terminal five or six residues
+and contain one disordered loop at positions 623 through
+633; the density of this disordered loop was of variable
+quality, and the exact number of omitted residues varied from
+two to ten. this loop and the disorder at the n- and c-termini
+were also observed to be disordered in the original structure
+(6).
+results
+to explore the effects of specific residues on the activity
+of acs, a series of point mutations were constructed. mutant
+enzymes were purified and subjected to steady-state kinetics
+to determine apparent kinetic constants for atp and coa.
+additionally, the effect of several mutations on the adenylation half-reaction was examined with the ppi-exchange
+assay. the apparent kcat and km values for both atp and
+coa are similar to constants that have been observed
+previously for both prpe and cbal (9, 13).
+mutation in lys609 from the c-terminal domain. previous
+studies suggested that the lysine of the a10 region is
+catalytically responsible for the first half-reaction (9, 10).
+this lysine has been observed in structures of the adenylateforming conformation of  xxxd2901xxx  (12), dhbe (15), and luciferase (17) to interact with the r-phosphate of the
+adenylate. s. enterica acs shares this conserved lysine at
+position 609. mutation of this lysine in prpe has been shown
+to block specifically the adenylation half-reaction while
+leaving the thioester-forming half-reaction unaffected (9).
+the acs enzyme from s. enterica (32) and mouse (33) have
+been shown to be regulated by acetylation of this c-terminal
+lysine; the enzyme is activated by the activity of a deacetylase
+of the sirtuin family. a mutation from a lysine to an alanine
+at position 609 was created in acs. no detectable activity
+was observed for this mutant of acs in steady-state kinetic
+experiments. the ability of this enzyme to catalyze the
+adenylation half-reaction was determined with ppi-exchange
+assay (see below).
+mutations in residues that interact with coa or play a
+role in stabilization of the thioester-forming conformation.
+the previous structural characterization of acs in the
+thioester-forming conformation in the presence of propylamp and coa (6) was used to identify residues that interact
+with coa (figure 1) and perhaps stabilize the second halfreaction conformation. these residues were targeted for
+analysis by site-directed mutagenesis. the results for the
+kinetics are shown in table 1.
+arg194 and arg584 interact with the coa 3′-phosphate
+(6); these residues were mutated to alanine and glutamate.
+the kcat values for the enzymes containing each of the four
+mutations are reduced by roughly a factor of 2. the km
+values for atp are reduced in each protein by an equivalent
+amount resulting in no change in kcat/km with respect to atp.
+the apparent kinetic constants for coa, however, show an
+increase in km for coa ranging from 2- to 3-fold for the
+
+biochemistry, vol. 46, no. 22, 2007 6539
+arg194 mutations and 7- to 8-fold for the arg584 mutations.
+at limiting coa concentrations, the rates of kcat/km are
+reduced as much as 20-fold.
+acs contains an arg526 residue that is located on the
+c-terminal domain on the loop joining a two-stranded
+antiparallel beta-sheet that follows the asp517 hinge residue;
+this arg is part of the a8 region and is highly conserved
+although not to the same degree as the hinge residue
+(asp517) and gly524. in the proposed thioester-forming
+conformation, the arg526 forms an ionic interaction with
+the highly conserved glu417 of the n-terminal domain
+(figure 1a). in the crystal structure (6), the side chain also
+interacts with the phosphate of the adenylate intermediate.
+although arg526 does not interact directly with the coa,
+we thought that it may stabilize the thioester-forming
+conformation through the interaction with glu417. the
+r526a mutation results in a 2-fold reduction in the apparent
+kcat values for both atp and coa, and a 9.5-fold reduction
+in kcat/km for coa.
+two residues were identified that abut the channel that
+the pantetheine group of coa occupies when bound. the
+mutations made to these residues were designed to fill this
+channel to prevent coa binding. the mutation of ala357 to
+a valine exhibited only limited effects on coa binding with
+a reduced kcat/km for coa by 6.3-fold. thus, the pantetheine
+group of coa can still pass through the tunnel in the presence
+of the larger side chain at position ala357.
+a more dramatic result was observed with the second
+mutation at the pantetheine binding tunnel. gly524 is
+universally conserved in the a8 region of adenylate-forming
+enzymes, occurring on a loop that follows the hinge between
+the n- and c-terminal domains. the beta-alanine portion of
+coa passes below the gly524 cr position (figure 1a).
+gly524 was mutated to a serine and to a leucine to add
+increasingly larger side chains that might affect coa binding.
+the g524s mutation had little effect on the apparent kinetic
+constants for atp. in contrast, the kcat for coa was reduced
+by a factor of 2 and, more significantly, the kcat/km was
+reduced by nearly 20-fold, resulting in an increase in km of
+nearly 9-fold. increasing the size of the side chain at this
+position with the g524l mutation reduced activity below
+detectable levels. as with the k609a mutation, this enzyme
+was analyzed further to determine its ability to catalyze the
+adenylation half-reaction (see below).
+mutations that targeted the hinge residue. comparing
+the structures of adenylate-forming enzymes in both conformations, a change in the backbone torsional angles is
+observed at a conserved residue located between the n- and
+c-terminal domains (6, 11). two mutations were made to
+the hinge residue of the a8 region. a d517p mutation was
+made that would increase the rigidity of this hinge, and a
+d517g mutation was made to increase the conformational
+flexibility of the hinge area. both mutant proteins exhibited
+activity (table 1). again, the effects on the atp kinetic
+constants were more limited than the effects on coa. the
+kcat values changed by only 2-fold. interestingly, the effects
+on the km for atp of the d517g mutant suggest that the
+c-terminal domain may have difficulty adopting a stable
+conformation for the adenylation half-reaction. the kinetics
+with coa demonstrate that the proline and glycine mutant
+enzymes are able to catalyze the second half-reaction,
+however the affinity for coa is reduced in both mutant
+
+6540 biochemistry, vol. 46, no. 22, 2007
+
+reger et al.
+
+figure 1: active site interactions of acs. the structure of the wild-type acs enzyme determined in the presence of propyl-amp and coa
+(1pg4) and amino acids that form the active site pocket are shown. (a) the orientation of propyl-amp bound to acs in the thioesterforming conformation illustrates residues that interact that interact with the nucleotide. interactions made to the nucleotide include arg526
+and arg515, which interact with the phosphate group. the acetate binding pocket is formed by the three side chains of val310, val386,
+and trp414 (shown in green). (b) the coa binding site. the nucleotide of coa binds at the surface of the protein and the pantetheine
+group leads in to the adenylate site through a tunnel that is bordered by ala357 and gly524, two residues that were mutated to contain
+bulkier side chains. arg584 was positioned to interact with the coa 3′ phosphate. arg194 was oriented away from the phosphate but could
+interact through a torsional rotation.
+
+enzymes. the d517p mutant protein has the lowest kcat/km
+value observed for coa.
+pyrophosphate exchange assay on hinge and inactive
+mutants. to examine which half-reaction was more dramatically affected by the mutations, we used the ppi-exchange
+assay to further examine several mutant enzymes (table 2).
+the k609a mutation showed no activity with the ppiexchange assay, while g524l, d517p, and d517g all
+showed activity similar to wild-type acs. of note, the g524l
+mutation, which showed no activity using the nadh
+consumption assay, can quite readily catalyze the adenylation
+half-reaction, demonstrating that the g524l mutation is
+disrupting only the second half-reaction, most likely by
+occluding the pantetheine tunnel.
+substrate specificity studies. the acetate binding pocket
+of acs (figure 1a) is formed by three residues, val310,
+val386, and trp414 (6). we examined whether we could
+
+alter the substrate specificity of acs by targeted mutation of
+these residues. bacterial propionyl-coa synthetases (9)
+contain an alanine in place of val386 but retain the other
+two acyl pocket residues. we thus constructed a v386a
+mutant to attempt to alter the specific activity of acs toward
+propionate. the v386a mutation decreased the catalytic
+efficiency for acetate and more than doubled its catalytic
+efficiency for propionate (table 3). thus, the single mutation
+of v386a switches the substrate preference from acetate to
+propionate.
+analysis of the amino acid binding pockets of nrps
+adenylation domains (12, 34) identifies a conserved aspartic
+acid that interacts with the substrate r-amino group. the
+homologous residue in acs is val310, which forms part of
+the acetate binding pocket. we replaced val310 of acs with
+ xxxd233xxx  to create an enzyme that might accommodate
+the amino acid glycine as an acyl substrate. the v310d
+
+structure/function studies of acs
+
+biochemistry, vol. 46, no. 22, 2007 6541
+
+table 1: steady-state kinetics with acs mutations
+enzyme
+
+km atp (µm)
+
+kcat atp (s-1)
+
+kcat/km atp (µm-1 s-1)
+
+77.1 ( 13
+
+100.6 ( 2.6
+
+1.3 ( 0.2
+
+wt
+
+km coa (µm)
+50 ( 4.5
+
+mutations that affect the adenylation half-reaction
+nd
+nd
+
+kcat coa (s-1)
+95.1 ( 1.9
+
+k609aa
+
+nd
+
+r194a
+r194e
+r584a
+r584e
+r526a
+
+mutations of residues that interact with coa or stabilize the thioester-forming conformation
+28.7 ( 2.2
+39.9 ( 0.5
+1.4 ( 0.1
+141.7 ( 17.4
+41.1 ( 0.7
+37.3 ( 5.7
+41.7 ( 1.3
+1.1 ( 0.2
+107.2 ( 11.9
+40.0 ( 1.5
+38.1 ( 5.5
+46.7 ( 1.2
+1.2 ( 0.2
+358.3 ( 60.6
+41.5 ( 1.1
+26.5 ( 2.3
+36.4 ( 0.6
+1.4 ( 0.1
+426.0 ( 39.0
+40.8 ( 0.8
+22.4 ( 3.5
+37.4 ( 1.3
+1.7 ( 0.3
+205.0 ( 31.2
+40.5 ( 0.6
+
+a357v
+g524s
+g524la
+
+23.8 ( 2.7
+63.8 ( 7.3
+nd
+
+d517p
+d517g
+
+44.0 ( 3.2
+243.0 ( 13.8
+
+a
+
+nd
+
+mutations that border the pantetheine binding tunnel
+38.9 ( 0.5
+1.6 ( 0.2
+133.0 ( 18.0
+49.8 ( 1.6
+0.8 ( 0.09
+448.0 ( 90
+nd
+nd
+nd
+40.9 ( 0.7
+42.8 ( 0.6
+
+mutations in the hinge residue, asp517
+0.9 ( 0.07
+527.8 ( 60
+0.2 ( 0.01
+228.0 ( 31.7
+
+nd
+
+35.0 ( 0.8
+43.1 ( 1.1
+nd
+43.8 ( 1.5
+42.4 ( 0.7
+
+kcat/km coa (µm-1 s-1)
+1.9 ( 0.2
+nd
+0.3 ( 0.04
+0.4 ( 0.05
+0.1 ( 0.02
+0.09 ( 0.009
+0.2 ( 0.03
+0.3 ( 0.04
+0.1 ( 0.02
+nd
+0.08 ( 0.009
+0.2 ( 0.03
+
+no detectable activity was observed for k609a and g524l.
+
+table 2: ppi-exchange assay results
+enzyme
+no enzyme
+wt
+k609a
+g524l
+d517p
+d517g
+
+activity
+(µmol of atp produced min-1 mg-1)
+3(2
+128 ( 5
+4(1
+159 ( 39
+194 ( 23
+206 ( 18
+
+mutation increased the catalytic efficiency for acetate while
+the catalytic efficiency of this mutant enzyme for glycine
+remained similar to that of wild-type. this mutation is
+thus unable to improve the acs activity with an r-amino
+acid.
+structural determination of wild-type and mutant acs.
+to supplement the kinetic analyses and demonstrate that no
+large-scale structural rearrangements have occurred, the
+proteins were used in crysallographic studies. a new wildtype crystal structure was obtained along with the structures
+of the r194a, r584a, r584e, k609a, and v386a mutant
+enzymes. suitable crystals of the remaining proteins were
+not obtained; because all of the other mutant proteins retain
+activity in either the complete or ppi-exchange assay, we
+believe that the failure to obtain crystals does not result from
+large-scale structural changes or improper protein folding.
+the structures, obtained in two crystals forms, all are in the
+proposed thioester-forming conformation. the crystals diffract to moderate resolution (table 4), and the molecular
+models refined with good geometry and statistics (table 5).
+whereas the prior acs crystal structure was determined
+with coa and propyl-amp, the current wild-type protein
+was incubated with acetate, amp, and coa to attempt to
+trap an adenylate-like complex. despite repeated efforts, we
+have never been able to crystallize the bacterial acs enzyme
+in the adenylate-forming conformation; the yeast acs
+enzyme, which exhibits 45% sequence identity with the
+bacterial enzyme, was determined in the adenylate-forming
+conformation by jogl and tong (16).
+the crystals of the mutant proteins were grown in the
+presence of propyl-amp and coa. ligand density is shown
+in figure 2. as was observed in the original structure (6),
+the density of the coa demonstrates that the cofactor is very
+
+well-ordered at the nucleotide; however, the pantetheine
+moiety is not well-ordered. in the omit maps generated for
+the wild-type (figure 2a) and the k609a (figure 2c)
+structures, density is present for the pantetheine although it
+is not continuous at a level of 2.5sigma. in the v386a mutant
+(figure 2b), there is no significant density for the pantetheine
+group at a contour level of 2.5sigma although the coa nucleotide
+is well-ordered.
+the new wild-type structure superimposes with the original
+structure (6) with an rmsd for all cr positions of 0.37 å
+over all 637 residues. acetate was present in the active site
+and was modeled with one oxygen interacting with the
+phosphate oxygen. at the 2.6 å resolution of the wild-type
+structure, the precise orientation of the acetate molecule and
+the positions of the methyl group and the non-interacting
+oxygen atom are unclear.
+the mutant structures are all very similar to the original
+structure, exhibiting the proposed thioester-forming conformation (figure 3). the rmsd values of the mutants vs the
+new wild-type structures for all cr positions (ranging from
+a total of 633-638 atoms for the different comparisons)
+range from 0.19 to 0.37 å. the density for all mutant residues
+is unequivocal. (it should be noted that the solvent exposed
+side chain of lys609 of the a10 region is disordered in all
+acs structures and thus cannot be used to confirm the k609a
+mutation.) the v386a mutant illustrates how the larger
+binding pocket is able to accommodate the propyl side chain
+(figure 4). the propyl group of the inhibitor bound in the
+active site adopts a more extended conformation with the
+torsion angle of 172° around the c1-c2 bond. in contrast,
+in the wild-type structures, this torsion angle is 32°,
+demonstrating that the propyl group adopts a more compact
+orientation to fit into the active site.
+structures were also determined for the r194a, r584a,
+and r584e mutant enzymes. although coa was included
+in the crystallization and cryoprotection solutions, no significant density was observed for the coa ligands. the
+propyl-amp, in contrast, was well-ordered in all three
+mutants (figure 2). although all three mutant enzymes can
+bind coa, as evidenced by the activitysalbeit reducedsin
+the steady-state kinetics, the affinity of these enzymes is
+
+6542 biochemistry, vol. 46, no. 22, 2007
+
+reger et al.
+
+table 3: substrate kinetics
+enzyme
+wt
+v386a
+v310d
+a
+
+substrate
+
+km
+(µm)
+
+kcat
+(s-1)
+
+kcat/km
+(µm-1 s-1)
+
+rel cat.
+effic.a
+
+acetate
+propionate
+glycine
+acetate
+propionate
+acetate
+glycine
+
+6047 ( 1024
+9413 ( 1709
+9450 ( 1658
+6403 ( 701
+1539 ( 119
+2464 ( 321
+8367 ( 753
+
+276.8 ( 21.4
+261.0 ( 20.8
+259.4 ( 13.3
+183.5 ( 10.3
+93.4 ( 2.4
+232.0 ( 12.3
+165.5 ( 6.4
+
+0.045 ( 0.008
+0.027 ( 0.005
+0.027 ( 0.005
+0.028 ( 0.003
+0.060 ( 0.005
+0.090 ( 0.010
+0.020 ( 0.002
+
+0.6
+2.2
+2.0
+0.7
+
+relative catalytic efficiency is defined as the ratio of kcat/km for a particular substrate for the mutant enzyme compared to the wild-type.
+
+table 4: crystallographic statistics for wild-type and mutant acs
+wt amp +
+acetate + coa
+
+r194a
+propyl-amp
+
+r584a
+propyl-amp
+
+r584e
+propyl-amp
+
+k609a coa +
+propyl-amp
+
+v386a coa
++ propyl-amp
+35 - 2.0 å
+p21
+a ) 59.9 å
+b ) 143.0 å
+c ) 71.3 å
+beta ) 90.9°
+4.7% (21.3%)
+96.9% (85.1%)
+17.3 (4.2)
+200915
+59117
+
+resolution
+space group
+unit cell
+
+25 - 2.6 å
+p212121
+a ) 90.9 å
+b ) 94.9 å
+c ) 161.8 å
+
+40 - 2.1 å
+p212121
+a ) 91.7 å
+b ) 95.5 å
+c ) 163.5 å
+
+30 - 2.2 å
+p212121
+a ) 91.8 å
+b ) 95.4 å
+c ) 164.7 å
+
+35 - 2.4 å
+p212121
+a ) 92.0 å
+b ) 95.5 å
+c ) 164.2 å
+
+35 - 2.3 å
+p212121
+a ) 91.6 å
+b ) 94.5 å
+c ) 167.5 å
+
+rmergea
+completenessa
+i/sigmaa
+no. of observations
+no. of reflections
+
+7.2% (22.4%)
+99.6% (100%)
+17.5 (3.0)
+224405
+44408
+
+5.5% (27.9%)
+91.8% (58.4%)
+17.5 (2.4)
+259320
+77387
+
+6.2% (31.4%)
+92.0% (61.6%)
+20.1 (4.7)
+313104
+67992
+
+10.6% (36.4%)
+93.4% (81.0%)
+11.7 (2.0)
+173551
+55167
+
+8.5% (39.9%)
+95.2% (81.0%)
+11.8 (1.9)
+202699
+62317
+
+a
+
+the number in parentheses represents the value for the highest resolution shell.
+
+table 5: refinement statistics for wild-type and mutant acs
+
+rcrysta
+rfreea
+wilson b-factor
+av b-factor (all atoms)
+av b-factor (n-term)b
+av b-factor (c-term)b
+av b-factor (solvent)
+solvent molecules
+av b-factor (propyl-amp)b,c
+av b-factor (coa)b
+rms deviations (lengths, angles)
+
+wt amp +
+acetate + coa
+
+r194a
+propyl-amp
+
+r584a
+propyl-amp
+
+r584e
+propyl-amp
+
+k609a coa +
+propylamp
+
+v386a coa +
+propyl-amp
+
+18.6% (22.6%)
+24.7% (34.1%)
+38.3 å2
+23.9 å2
+(a) 20.2 å2
+(b) 22.5 å2
+(a) 36.4 å2
+(b) 2.1 å2
+18.9 å2
+162
+(a) 15.3 å2
+(b) 16.5 å2
+(a) 46.3 å2
+(b) 44.4 å2
+0.014 å, 1.53°
+
+18.0% (20.3%)
+22.0% (26.6%)
+24.9 å2
+24.0 å2
+(a) 20.8 å2
+(b) 24.3 å2
+(a) 33.1 å2
+(b) 24.4 å2
+29.8 å2
+625
+(a) 14.6 å2
+(b) 16.9 å2
+
+17.8% (28.1%)
+23.3% (37.0%)
+26.3 å2
+23.2 å2
+(a) 20.2 å2
+(b) 25.0 å2
+(a) 28.3 å2
+(b) 22.4 å2
+26.8 å2
+600
+(a) 12.3 å2
+(b) 14.0 å2
+
+18.8% (23.0%)
+24.5% (32.8%)
+31.2 å2
+24.2 å2
+(a) 22.3 å2
+(b) 24.6 å2
+(a) 30.2 å2
+(b) 25.7 å2
+20.7 å2
+239
+(a) 17.2 å2
+(b) 19.7 å2
+
+0.011 å, 1.14°
+
+0.011 å, 1.23°
+
+0.013 å, 1.40°
+
+18.8% (23.5%)
+23.7% (27.5%)
+29.6 å2
+24.6 å2
+(a) 20.8 å2
+(b) 26.2 å2
+(a) 31.8 å2
+(b) 25.6 å2
+23.4 å2
+384
+(a) 15.6 å2
+(b) 19.2 å2
+(a) 48.3 å2
+(b) 53.9 å2
+0.012 å, 1.33°
+
+16.8% (17.7%)
+21.1% (24.3%)
+27.8 å2
+25.3 å2
+(a) 22.0 å2
+(b) 26.4 å2
+(a) 28.9 å2
+(b) 29.8 å2
+25.8 å2
+316
+(a) 18.3 å2
+(b) 20.7 å2
+(a) 45.9 å2
+(b) 44.8 å2
+0.012 å, 1.35°
+
+a
+
+the number in parentheses represents the value for the highest resolution shell. b a and b refer to the two protein chains within the asymmetric
+unit. c for the wild-type enzyme, the average b-value is shown for amp. the average b-values for acetate atoms are 55.6 and 60.5 for the a and
+b subunits.
+
+reduced for coa such that the coa molecules are not bound
+with sufficient occupancy to be included in the refined model.
+discussion
+we have proposed that the adenylate-forming enzymes
+adopt two different conformations to catalyze the two halfreactions. in the domain alternation hypothesis, the members
+of this family are believed to adopt the conformation seen
+in the crystal structures of  xxxd2901xxx  (12), cbal (11), and yeast
+acs (16), among others (15, 17) during the catalysis of the
+initial adenylation half-reaction. the c-terminal domain of
+these enzymes then rotates by ∼140° around the hinge
+residue (at asp517 in acs) to adopt a second conformation
+
+for the second half-reaction. this thioester-forming conformation has been observed in the bacterial acs structures as
+well as in a long-chain acyl-coa synthetase structure (35).
+that this thioester-forming conformation has now been
+observed in a second crystal form of acs strongly suggests
+that the conformation is not stabilized by crystal contacts
+but rather represents a stable protein conformation that is
+likely part of the reaction mechanism.
+the biochemical analysis of several mutant enzymes
+strongly supports our hypothesis of the conformational
+change. in particular, the k609a and g524l mutants that
+are located on opposite faces of the mobile c-terminal
+domain specifically affect the different half-reactions. both
+mutants are completely inactive when assayed for the full
+
+structure/function studies of acs
+
+biochemistry, vol. 46, no. 22, 2007 6543
+
+figure 2: ligand density for the wild-type and mutant structures. omit maps were generated by removing the ligands followed by a cycle
+of refinement. the maps of the coefficients fo - fc were contoured at 2.5sigma and shown for the coa ligand of wild-type (a), v386a (b),
+and k609a (c). maps were generated in the same way for the propyl-amp inhibitor of the r194a (d), r584a (e), and r584e (f)
+mutants as well. neighboring protein atoms, including arg191, which interacts with the 5′ diphosphate of coa, are labeled in panels a and
+d.
+
+reaction. the k609a mutant, however, is defective in the
+adenylation half-reaction while the g524l mutant is able to
+catalyze the ppi-exchange assay quite effectively, suggesting
+that the defect in the complete reaction occurs in the
+thioester-forming half-reaction. gly524, part of the a8
+region, is universally conserved in the adenylate-forming
+enzymes. in the crystal structures that have been determined
+in the adenylate-forming conformation, the gly524 residue
+is 25-30 å from the active site. this clearly supports the
+need for the c-terminal domain to rotate into the position
+observed in the acs structure during the thioester-forming
+half-reaction.
+additional studies by us and others have also identified
+mutations on the c-terminal domains of adenylate-forming
+enzymes that specifically affect the individual half-reactions.
+mutation of the lys609 homologue in prpe was shown
+biochemically to be inhibited for the adenylation half-reaction
+while the thioester-forming half-reaction occurred with near
+wild-type activity (9). branchini and colleagues have shown
+
+that mutations in lys529 (10) and lys434 (36) of firefly
+luciferase can specifically disrupt the adenylation and oxidative decarboxylation half-reactions, respectively. while the
+lys529 residue is homologous to lys609 of acs, lys434 of
+luciferase is homologous to asn521 of acs. this residue is
+located within the a8 region that follows the hinge residue
+at asp517. while asn521 of acs does not make any direct
+contacts to ligands at the acs active site, the side chain of
+this residue is positioned 5.4 å from the ribose ring oxygen.
+the lys434 residue in firefly luciferase therefore appears
+to play a role in the second half-reaction upon adopting the
+conformation observed in the acs structures. for the nrps
+adenylation domain subfamily, we have also recently shown
+that a poorly conserved residue in the a8 region of the
+c-terminal domain can be mutated to specifically affect one
+half-reaction (37). arg437 of the self-standing adenylation
+domain ente was mutated to an  xxxd233xxx  and assayed
+in both the ppi-exchange assay and the complete transfer of
+the 2,3-dihydroxybenzoate substrate to the pantetheine co-
+
+6544 biochemistry, vol. 46, no. 22, 2007
+
+figure 3: three-dimensional structure of acs and the proposed
+conformational change. acs is shown in the (a) adenylate-forming
+conformation bound to propyl-amp and (b) thioester-forming
+conformation bound to coa and propyl-amp. the n-terminal
+domains are shown with blue strands while the c-terminal domains
+is colored pink. the a8 region of the c-terminal domain is shown
+in yellow, with gly524 depicted as a single yellow sphere. the
+cr position of lys609 from the a10 region is shown as a black
+sphere. while the thioester-forming conformation shown in b
+represents a crystallographically observed structure for acs (1pg4),
+the adenylate-forming conformation represents a computational
+model that was produced by rotating the c-terminal domain of the
+acs protein onto the c-terminal domain of the cbal structure
+(1t5d), which was determined bound to 4cba. the n- and
+c-terminal residues are labeled n and c, and the gap around
+residues 623-632 is shown with a dashed line. (c) the superposition of the cr chain of the five mutant enzymes and wild-type
+acs bound to acetate, amp, and coa. the ligands from the wildtype enzyme are shown in black, while the wild-type protein is
+depicted with green. the mutant proteins are represented in the
+following colors: k609a (teal), r194a (magenta), r584a (yellow), r584e (gray), and v386a (peach).
+
+reger et al.
+factor of the acyl-carrier protein of entb. while activity of
+the complete reaction was severely compromised, the mutant
+was still able to catalyze the adenylation half-reaction. this
+arg437 residue precedes the universally conserved glycine
+residue (gly524 of acs). together with the results presented
+here for g524l of acs, the a8 region that forms a twostranded loop that follows the hinge residue has now been
+shown in all three subfamilies of the adenylate-forming
+enzymes to be involved specifically in the second halfreaction.
+analysis of the original structure of acs (6) demonstrated
+that arg194 and arg584 of acs interact with the 3′-phosphate
+of coa, while gly524 and ala357 border the pantetheine
+tunnel. finally, arg526 was proposed to stablize the thioesterforming conformation by its interactions with glu417 and
+the adenylate phosphate. we mutated these residues to
+investigate their roles in steady-state kinetics with respect
+to atp and coa. with the exception of g524l, which had
+no detectable activity, all mutations caused a ∼2-fold
+reduction in kcat with no effect on kcat/km with respect to
+atp. the kcat values for coa were similarly reduced by ∼2fold and kcat/km values were reduced by 5- to 20-fold,
+reflecting a slower rate at limiting coa concentrations. the
+reduced affinity for coa demonstrates a role for these
+residues in binding coa or stabilizing the thioester-forming
+conformation.
+while it is always difficult to make any quantitative
+conclusions from the presence or absence of ligands in a
+crystallographic study, it is worth noting that although coa
+was maintained at constant concentration in all of the proteins
+studied, no density was observed for the coa molecule in
+the three arg mutant enzymes. although the coa molecule
+was not observed, it can bind at some level as the enzymes
+retain activity. the long-chain acyl-coa synthetase also was
+crystallized in the thioester-forming conformation, and, in
+that case as well, coa was not modeled into the crystal
+structure (35). coa was, however, included in the crystallizations  xxxd1891xxx  mm raising the possibility that for this enzyme,
+as for the arg mutants of acs, coa bound with sufficient
+occupancy to drive the conformational change, yet not with
+a high enough occupancy to be seen in the electron density.
+interestingly, arginine residues at 191, 194, and 584, which
+all interact with the coa phosphates, are not part of the a1a10 conserved motifs (2) and are not conserved even within
+the acyl- and aryl-coa subfamily of the adenylate-forming
+enzymes. this raises the possiblity that different residues
+may be involved in binding the phosphates of coa or the
+peptidyl-carrier protein bound phosphopantetheine.
+the d517g and d517p mutants were designed to examine
+the hinge residue by increasing flexibility and increasing
+rigidity respectively. the d517g mutation reduced the
+catalytic efficiency for both substrates and was the only
+mutation studied that increased the km for atp. this
+mutation may thus have reduced conformational stability and
+may be compromised in stably adopting either conformation.
+while the catalytic efficiency for d517p for both substrates
+was reduced, we note that the apparent km values were
+reduced for atp and increased for coa. the phi, psi angles of
+the hinge residue asp402 are -72.4°, -15.7° in the cbal
+crystal structure (11), which was solved in the adenylateforming conformation. in contrast, the phi, psi angles for
+asp517 of acs were -103.6° and -170.9° in the thioester-
+
+structure/function studies of acs
+
+biochemistry, vol. 46, no. 22, 2007 6545
+
+figure 4: superposition of the acyl binding pockets of wild-type and v386a mutants. the models were superimposed using the cr
+positions of all residues. atoms from the v386a model are colored blue (nitrogens), red (oxygens), and yellow (protein carbons) or green
+(ligand carbons). the propyl-amp ligand and val386 from the wild-type structure are shown in dark gray and illustrate the occluded
+orientation torsional angles of the propyl group.
+
+forming conformation. as the backbone phi angle of proline
+residues are constrained to -60° ( 20°, the d517p mutant
+likely has difficulty adopting the second half-reaction
+conformation resulting in a higher km for coa and a lower
+km for atp. a similar result was obtained with the
+homologue 4-chlorobenzoate-coa ligase. (wu, reger, gulick, and dunaway-mariano, in preparation.)
+our attempts at changing the specificity of the acetate
+binding pocket of acs were mixed. we were able to improve
+the preference of the enzyme for propionate over acetate with
+a single mutation of val386 to alanine. the structure of this
+mutant enzyme bound to the propyl-amp ligand demonstrates that, while the propyl group adopts a more constrained orientation in the wild-type enzyme, the increase in
+the size of the acyl substrate binding pocket allows the
+propyl moiety to bind in an extended conformation. the
+v386a mutation was one of several mutations made in an
+acs homologue from methanothermobacter thermoautotrophicus (18). the v388a mutation of the mt- xxxg47xxx 
+protein conferred similar improvements in the activity with
+propionate; the increased binding pocket, however, was not
+sufficiently large to accommodate butyrate as the catalytic
+efficiency dropped by a factor of 20 with the additional
+methylene group into the acyl substrate. this study further
+examined the substrate specificity by mutating additional
+residues in the acetate-binding pocket to accommodate such
+substrates as butyrate, valerate, and hexanoate. as we had
+noted in the comparison of the structures of different
+adenylate-forming enzymes (11), the trp414 of acs forms
+one wall of the acyl-substrate binding pocket. replacement
+of this trp with a gly opened the binding pocket of the mtacs1 enzyme to function with acyl substrates as large as
+octanoate (18).
+in contrast to the success with the v386a mutation, the
+v310d mutation did not confer a catalytic preference for
+the amino acid glycine. indeed, the catalytic efficiency with
+acetate improved slightly with this mutation. the inability
+to utilize glycine as a substrate more efficiently most likely
+failed because the pocket was not large enough to accommodate both the larger asp side chain and the larger glycine
+substrate. the failure of the v310d mutant to catalyze the
+reaction with glycine suggests that further studies are needed
+to understand the relationship between substrate and the
+substrate-binding pocket.
+
+acknowledgment
+we would like to thank kristen homick and kelly dearing
+for technical assistance with production of mutant acs
+enzymes and dr. debra dunaway-mariano for helpful
+discussions.
+references
+1. sieber, s. a., and marahiel, m. a. (2005) molecular mechanisms
+underlying nonribosomal peptide synthesis: approaches to new
+antibiotics, chem. rev. 105, 715-738.
+2. marahiel, m. a., stachelhaus, t., and mootz, h. d. (1997)
+modular peptide synthetases involved in nonribosomal peptide
+synthesis, chem. rev. 97, 2651-2674.
+3. challis, g. l., and naismith, j. h. (2004) structural aspects of
+non-ribosomal peptide biosynthesis, curr. opin. struct. biol. 14,
+748-756.
+4. babbitt, p. c., kenyon, g. l., martin, b. m., charest, h., slyvestre,
+m., scholten, j. d., chang, k. h., liang, p. h., and dunawaymariano, d. (1992) ancestry of the 4-chlorobenzoate dehalogenase: analysis of amino acid sequence identities among families
+of acyl: xxxd81xxx  ligases, enoyl-coa hydratases/isomerases, and acylcoa thioesterases, biochemistry 31, 5594-5604.
+5. dunaway-mariano, d., and babbitt, p. c. (1994) on the origins
+and functions of the enzymes of the 4-chlorobenzoate to 4-hydroxybenzoate converting pathway, biodegradation 5, 259-276.
+6. gulick, a. m., starai, v. j., horswill, a. r., homick, k. m., and
+escalante-semerena, j. c. (2003) the 1.75 a crystal structure of
+ xxxg51xxx  bound to adenosine-5′-propylphosphate and
+ xxxd1739xxx , biochemistry 42, 2866-2873.
+7. starai, v. j., and escalante-semerena, j. c. (2004) acetylcoenzyme a synthetase (amp forming), cell. mol. life sci. 61,
+2020-2030.
+8. conti, e., franks, n. p., and brick, p. (1996) crystal structure of
+firefly luciferase throws light on a superfamily of adenylateforming enzymes, structure 4, 287-298.
+9. horswill, a. r., and escalante-semerena, j. c. (2002) characterization of the propionyl-coa synthetase (prpe) enzyme of
+salmonella enterica: residue lys592 is required for propionylamp synthesis, biochemistry 41, 2379-2387.
+10. branchini, b. r., murtiashaw, m. h., magyar, r. a., and
+anderson, s. m. (2000) the role of lysine 529, a conserved residue
+of the acyl-adenylate- forming enzyme superfamily, in firefly
+luciferase, biochemistry 39, 5433-5440.
+11. gulick, a. m., lu, x., and dunaway-mariano, d. (2004) crystal
+structure of 4-chlorobenzoate:coa ligase/synthetase in the unliganded and aryl substrate-bound states, biochemistry 43, 86708679.
+12. conti, e., stachelhaus, t., marahiel, m. a., and brick, p. (1997)
+structural basis for the activation of phenylalanine in the nonribosomal biosynthesis of gramicidin s, embo j. 16, 4174-4183.
+13. chang, k. h., xiang, h., and dunaway-mariano, d. (1997) acyladenylate motif of the acyl-adenylate/thioester-forming enzyme
+superfamily: a site-directed mutagenesis study with the pseudomonas sp. strain cbs3 4-chlorobenzoate: xxxd1739xxx  ligase, biochemistry 36, 15650-15659.
+
+6546 biochemistry, vol. 46, no. 22, 2007
+14. saraste, m., sibbald, p. r., and wittinghofer, a. (1990) the
+p-loop-a common motif in atp- and gtp-binding proteins,
+trends biochem. sci. 15, 430-434.
+15. may, j. j., kessler, n., marahiel, m. a., and stubbs, m. t. (2002)
+crystal structure of dhbe, an archetype for aryl acid activating
+domains of modular nonribosomal peptide synthetases, proc. natl.
+acad. sci. u.s.a. 99, 12120-12125.
+16. jogl, g., and tong, l. (2004) crystal structure of yeast acetylcoenzyme a synthetase in complex with amp, biochemistry 43,
+1425-1431.
+17. nakatsu, t., ichiyama, s., hiratake, j., saldanha, a., kobashi,
+n., sakata, k., and kato, h. (2006) structural basis for the spectral
+difference in luciferase bioluminescence, nature 440, 372376.
+18. ingram-smith, c., woods, b. i., and smith, k. s. (2006)
+characterization of the acyl substrate binding pocket of acetylcoa synthetase, biochemistry 45, 11482-11490.
+19. linne, u., schafer, a., stubbs, m. t., and marahiel, m. a. (2007)
+aminoacyl- xxxd1739xxx  synthesis catalyzed by adenylation
+domains, febs lett. 581, 905-910.
+20. chong, s., mersha, f. b., comb, d. g., scott, m. e., landry, d.,
+vence, l. m., perler, f. b., benner, j., kucera, r. b., hirvonen,
+c. a., pelletier, j. j., paulus, h., and xu, m. q. (1997) singlecolumn purification of free recombinant proteins using a selfcleavable affinity tag derived from a protein splicing element,
+gene 192, 271-281.
+21. deng, j., davies, d. r., wisedchaisri, g., wu, m., hol, w. g.,
+and mehlin, c. (2004) an improved protocol for rapid freezing
+of protein samples for long-term storage, acta crystallogr., sect.
+d: biol. crystallogr. 60, 203-204.
+22. kuzmic, p. (1996) program dynafit for the analysis of enzyme
+kinetic data: application to hiv proteinase, anal. biochem. 237,
+260-273.
+23. linne, u., and marahiel, m. a. (2000) control of directionality
+in nonribosomal peptide synthesis: role of the condensation
+domain in preventing misinitiation and timing of epimerization,
+biochemistry 39, 10439-10447.
+24. otwinowski, z. m., w. (1997) processing of x-ray diffraction
+data collected in oscillation mode, methods enzymol. 276, 307326.
+25. ccp4. (1994) the ccp4 suite: programs for protein crystallography, acta crystallogr., sect. d: biol. crystallogr. 50, 760763.
+26. kabsch, w. (1988) evaluation of single-crystal x-ray diffraction
+data from a position-sensitive detector, j. appl. crystallogr. 21,
+916-924.
+
+reger et al.
+27. vagin, a., and teplyakov, a. (2000) an approach to multi-copy
+search in molecular replacement, acta crystallogr., sect. d: biol.
+crystallogr. 56 (part 12), 1622-1624.
+28. murshudov, g. n., vagin, a. a., and dodson, e. j. (1997)
+refinement of macromolecular structures by the maximumlikelihood method, acta crystallogr., sect. d: biol. crystallogr.
+53, 240-255.
+29. roussel, a., and cambillau, c. (1991) turbo-frodo, in silicon
+graphics geometry partners directory, p 86, silicon graphics,
+mountain view, ca.
+30. emsley, p., and cowtan, k. (2004) coot: model-building tools
+for molecular graphics, acta crystallogr., sect. d: biol. crystallogr. 60, 2126-2132.
+31. winn, m. d., isupov, m. n., and murshudov, g. n. (2001) use
+of tls parameters to model anisotropic displacements in macromolecular refinement, acta crystallogr., sect. d: biol. crystallogr. 57, 122-133.
+32. starai, v. j., celic, i., cole, r. n., boeke, j. d., and escalantesemerena, j. c. (2002) sir2-dependent activation of acetyl-coa
+synthetase by deacetylation of active lysine, science 298, 23902392.
+33. hallows, w. c., lee, s., and denu, j. m. (2006) sirtuins
+deacetylate and activate mammalian acetyl-coa synthetases, proc.
+natl. acad. sci. u.s.a. 103, 10230-10235.
+34. stachelhaus, t., mootz, h. d., and marahiel, m. a. (1999) the
+specificity-conferring code of adenylation domains in nonribosomal peptide synthetases, chem. biol. 6, 493-505.
+35. hisanaga, y., ago, h., nakagawa, n., hamada, k., ida, k.,
+yamamoto, m., hori, t., arii, y., sugahara, m., kuramitsu, s.,
+yokoyama, s., and miyano, m. (2004) structural basis of the
+substrate-specific two-step catalysis of long chain fatty acyl-coa
+synthetase dimmer, j. biol. chem. 279, 31717-31726.
+36. branchini, b. r., southworth, t. l., murtiashaw, m. h., wilkinson,
+s. r., khattak, n. f., rosenberg, j. c., and zimmer, m. (2005)
+mutagenesis evidence that the partial reactions of firefly
+bioluminescence are catalyzed by different conformations of
+the luciferase c-terminal domain, biochemistry 44, 13851393.
+37. drake, e. j., nicolai, d. a., and gulick, a. m. (2006) structure
+of the entb multidomain nonribosomal peptide synthetase and
+functional analysis of its interaction with the ente adenylation
+domain, chem. biol. 13, 409-419.
+
+bi6026506
+

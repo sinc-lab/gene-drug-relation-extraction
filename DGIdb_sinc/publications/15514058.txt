@@ -1,0 +1,1030 @@
+copyright  2004 by the genetics society of america
+doi: 10.1534/genetics.104.028605
+
+thiamine pyrophosphate biosynthesis and transport
+in the nematode caenorhabditis elegans
+liesbeth de jong, yan meng, joseph dent and siegfried hekimi1
+department of biology, mcgill university, montreal, quebec h3a 1b1, canada
+manuscript received march 10, 2004
+accepted for publication june 25, 2004
+abstract
+thiamine (vitamin b1) is required in the diet of animals, and thiamine deficiency leads to diseases
+such as beri-beri and the wernicke-korsakoff syndrome. dietary thiamine (vitamin b1) consists mainly of
+thiamine pyrophosphate (tpp), which is transformed into thiamine by gastrointestinal phosphatases before
+absorption. it is believed that tpp itself cannot be transported across plasma membranes in significant
+amounts. we have identified a partial loss-of-function mutation in the caenorhabditis elegans gene (tpk-1)
+that encodes thiamine pyrophosphokinase, which forms tpp from thiamine at the expense of atp inside
+cells. the mutation slows physiological rhythms and the phenotype it produces can be rescued by tpp
+but not thiamine supplementation. tpk-1 functions cell nonautonomously, as the expression of wild-type
+tpk-1 in one tissue can rescue the function of other tissues that express only mutant tpk-1. these observations
+indicate that, in contrast to expectation from previous evidence, tpp can be transported across cell
+membranes. we also find that thiamine supplementation partially rescues the phenotype of partial lossof-function mutants of the na/k atpase, providing genetic evidence that thiamine absorption, and/or
+redistribution from the absorbing cells, requires the full activity of this enzyme.
+
+v
+
+itamin b1 (thiamine), in the form of thiamine
+pyrophosphate (tpp), is necessary for oxidative
+phosphorylation and the pentose phosphate pathway
+by acting as a cofactor for ␣-ketoacid dehydrogenases such
+as pyruvate dehydrogenase (pdh), ␣-ketoglutarate dehydrogenase (kgdh), branched-chain ␣-ketoacid dehydrogenase, and transketolase (reviewed in hohmann and
+meacock 1998). animals, including humans, cannot
+synthesize thiamine but extract it from a food source
+via intestinal absorption. malnutrition or poor absorption of thiamine causes a deficiency that results in polyneuropathy, cardiomyopathy, disturbances of the bloodbrain barrier, and metabolic acidosis. well-known diseases
+caused by thiamine deficiency include beri-beri and the
+wernicke-korsakoff syndrome (reviewed in singleton
+and martin 2001).
+dietary thiamine consists mainly of tpp, but in the
+intestinal lumen it is converted to thiamine by gastrointestinal phosphatases (rindi and laforenza 2000).
+previous studies in humans, rats, and other animal species have revealed a dual mechanism for thiamine absorption in intestinal tissue (hoyumpa et al. 1982; rindi
+and laforenza 2000) as well as in other tissues such
+as liver (moseley et al. 1992), kidney (gastaldi et al.
+2000), erythrocytes (casirola et al. 1990), and neuro-
+
+sequence data from this article have been deposited with the
+embl/genbank data libraries under accession no. ay513235.
+1
+corresponding author: department of biology, mcgill university,
+1205 ave. docteur penfield, montreal, quebec h3a 1b1, canada.
+e-mail: siegfried.hekimi@mcgill.ca
+genetics 168: 845–854 (october 2004)
+
+blastoma cells (bettendorff 1995). at low physiological concentrations, thiamine is transported via a saturable, carrier-mediated process involving electroneutral
+thiamine/h⫹ antiport (reviewed in rindi and laforenza 2000). at high concentrations, some studies suggest that simple diffusion of thiamine prevails (hoyumpa et al. 1982; rindi and laforenza 2000), while
+others point to carrier-mediated absorption (moseley
+et al. 1992; bettendorff and wins 1994).
+recently, two closely related thiamine transporters
+have been identified,  xxxg2100xxx  ( xxxg2100xxx ; diaz et al. 1999;
+fleming et al. 1999; labay et al. 1999) and  xxxg2101xxx 
+( xxxg2101xxx ; eudy et al. 2000; rajgopal et al. 2001; said
+et al. 2004). the high-affinity carrier  xxxg2100xxx  is widely
+expressed in human tissues but is most abundant in
+skeletal muscle, followed by heart, placenta, kidney, and
+liver. patients lacking the  xxxg2100xxx  transporter suffer from
+thiamine-responsive megaloblastic anemia syndrome
+characterized by diabetes mellitus, megaloblastic anemia, and sensorineural deafness (diaz et al. 1999; fleming et al. 1999; labay et al. 1999). most of these symptoms can be reversed by administration of large amounts
+of thiamine.
+the other high-affinity carrier,  xxxg2101xxx , is expressed
+in many human tissues as well. the highest expression
+is in placenta, followed by liver, kidney, and heart. the
+reduced folate carrier (rfc-1) shares ⵑ40% protein
+sequence identity with both thiamine transporters. evidence obtained in murine leukemia cells suggests that
+rfc-1 might mediate influx of thiamine mono-phosphate (tmp) and efflux of tpp (zhao et al. 2001, 2002).
+
+846
+
+l. de jong et al.
+
+although thiamine uptake is not directly atp dependent, it is driven by the rapid phosphorylation of thiamine by cytosolic thiamine pyrophosphokinase to form
+tpp at the expense of atp (lumeng et al. 1979; yoshioka 1984; bettendorff and wins 1994; bettendorff
+1995). as a result, thiamine is found predominantly as
+tpp within cells, existing as a large, stable pool associated
+with enzymes such as transketolase, pdh, and ␣-kgdh.
+since tpp is synthesized in the cytosol and pdh and
+␣-kgdh are mitochondrial enzymes, the cofactor has
+to be transported across the mitochondrial membranes.
+inside mitochondria, tpp is hydrolyzed to tmp (barile
+et al. 1990). in saccharomyces cerevisiae tpc1p was shown
+to be involved in mitochondrial uptake of tpp in exchange for tmp (marobbio et al. 2002).
+it is generally assumed that tpp transport is of little, if
+any, importance in maintaining thiamine homeostasis,
+and it has been found that yeast (nosaka et al. 1989)
+and rat hepatocytes (yoshioka et al. 1983) are unable
+to take up tpp. as a consequence, thiamine pyrophosphokinase (tpk) is thought to be essential in every cell
+since it converts thiamine into tpp. disruption of the
+gene coding for tpk in s. cerevisiae (thi80; nosaka et
+al. 1993) or in schizosaccharomyces pombe (tnr3; fankhauser et al. 1995) is lethal. although human tpk has
+been cloned (nosaka et al. 2001), so far no multi-cellular organism that carries a mutation in the tpk gene
+has been described.
+here, we describe a partial loss-of-function mutation
+(qm162) in the nematode caenorhabditis elegans gene
+that encodes thiamine pyrophosphokinase (tpk-1). tpk-1
+(qm162) was identified in a genetic screen for maternaleffect mutations resulting in slow development and behavior. like other mutations found in this screen (hekimi et al. 1995), tpk-1(qm162) also affects a number of
+biological rates and rhythms, including the rate of aging
+(table 1). we take advantage of this mutation to show
+that, in c. elegans, tpp can be taken up directly from
+the environment and appears to be carried over plasma
+membranes without being converted into thiamine. we
+also demonstrate a role for thiamine deficiency in the
+phenotype of mutants of the sodium/potassium atpase
+encoded by the eat-6 gene in c. elegans (davis et al.
+1995), which provides genetic evidence that thiamine
+absorption requires the activity of the na⫹/k⫹ atpase.
+
+materials and methods
+materials and media: thiamine and thiamine pyrophosphate were purchased from sigma. thie ⫺ bacteria were cultured for 16 hr in m9-metal medium without thiamine, sufficiently depleting bacteria of thiamine. control bacteria were
+cultured similarly, except that thiamine (0.5 ␮g/ml) was present in the medium. subsequently, bacteria were plated on m9metal plates containing 5 ␮g/ml cholesterol, with or without
+thiamine (0.5 ␮g/ml).
+cosmid zk637 was kindly provided by alan coulson. the
+
+cdna clone yk903f12 was kindly provided by y. kohara. the
+ppd95.77 vector was provided by a. fire.
+nematode and bacterial strains: c. elegans strains were cultured on op50 bacteria at 20⬚ as described by brenner (1974).
+the n2 (bristol) strain was used as wild type. mutant strains
+analyzed include tpk-1(qm162), eat-4(ky5), and eat-6(ad601). thie
+knock-out bacteria (genotype thie::tn5kan-i-scei at position
+307 in minus orientation) were kindly provided by the escherichia coli genome project at the university of wisconsin-madison.
+isolation and identification of tpk-1(qm162): tpk-1(qm162)
+was isolated in a genetic screen for maternal-effect mutations
+affecting development and behavior (wong et al. 1995) and
+was backcrossed four times with n2. to test if wild-type
+zk637.9 could rescue the tpk-1(qm162) phenotypes, a 2.4-kb
+fragment including the zk637.9 coding sequence and 425
+bp upstream sequence was amplified from genomic dna by
+nested pcr using outer forward primer cattttcgccaat
+attttgtatttc, inner forward primer accgttgaat
+aaataagttgattgc, and reverse primer acattccaatc
+atgtttgattttct. the pcr product was gel purified and
+co-injected into the germline of tpk-1(qm162) with the rol-6
+(su1006) marker plasmid. all tpk-1 phenotypes tested (growth
+rate, brood size, defecation cycle length) were rescued, demonstrating that the transgene complements the tpk-1(qm162)
+mutation. to identify the nature of the tpk-1(qm162) mutation,
+the above-mentioned primers were used to amplify zk637.9
+from tpk-1 mutant dna and the resulting fragment was sequenced.
+construction of translational fusions: the zk637.9 coding
+sequence was amplified by pcr from genomic dna with the
+forward primer acg acg tgc gac gtc gac gat tct
+cat cac aag tgg containing the sal i restriction site
+(underlined) and the reverse primer agc acg atc  xxxg873xxx 
+ggt acc gaa tca agt ttg tag acc containing the kpni
+restriction site (underlined). after digestion, the 1.3-kb sal i/
+kpni fragment was cloned into the corresponding sites in the
+ppd95.77 vector (obtained from a. fire) under the control
+of the myo-3 and the myo-2 promoters.
+sequencing of cdna: vector pme18s-fl containing cdna
+clone yk903f12 (obtained from y. kohara) was sequenced
+using the forward primer 5⬘-gta ata cga ctc act ata
+ggg cgt cca tct gcc tga tca aga c and the reverse
+primer 5⬘-gta ata cga ctc act ata ggg ctc caa ttg
+aac tga cga t (both contain the t7 promoter that is not
+used). the obtained sequence data covered the entire coding
+sequence of tpk-1.
+transgenic worms: tpk-1 constructs were micro-injected in various concentrations into tpk-1 mutant worms with 150 ng/␮l coinjection marker construct prf4 [containing rol-6(su1006)] to
+create transgenic lines.
+scoring phenotypes: defecation and pharyngeal pumping
+cycle lengths of singled young adults were scored at 20⬚ as
+described (wong et al. 1995). four successive defecation cycles
+were timed. pharyngeal pumping rate was scored by measuring
+the number of pumps in 60 sec. to determine brood size, young
+adults were singled and transferred each day to a new plate
+until they stopped laying eggs. progeny were counted on each
+of the plates.
+o2 consumption rate: worms were cultured at 20⬚ as described (feng et al. 2001). developmentally synchronized
+young adults were collected and washed with m9. tubes were
+left on the table to allow the worms to sink for 5–10 min.
+the supernatant was removed as much as possible without
+removing worms. oxygen consumption was analyzed using a
+clark electrode. a total of 100 ␮l of the worms was put in
+the chamber and the volume was adjusted with m9 buffer.
+measurements were taken for 6 min.
+
+thiamine pyrophosphate in nematodes
+
+847
+
+figure 1.—sequence conservation of thiamine pyrophosopkinase. multiple alignment of thiamine pyrophosphokinase from
+human, mouse, drosophila, c. elegans, and
+s. cerevisiae. sequences were aligned using
+dnaman 4.1 and adjusted by hand. the
+tpk-1(qm162) mutation (cys67 ⬎ tyr) is
+shown in boldface type and indicated by an
+asterisk.
+
+electropharyngeograms: recording of electropharyngeograms (epgs) was essentially as described in raizen and
+avery (1994) using a warner instruments (hamden, ct),
+patch clamp pc-501a with a 1-g⍀ headstage but without filtering in the amplifier. borosilicate suction pipettes (1.2 od)
+were pulled on a sutter p-97 pipette puller (sutter instrument,
+novato, ca). epgs were digitized using a digitdata1322a and
+recorded using clampex 8.1 software (axon instruments,
+union city, ca). recordings were formatted and digitally
+filtered using a 1-khz gaussian filter with clampfit 8.1 software
+(axon instruments).
+results
+
+identification tpk-1(qm162): the tpk-1 mutant was isolated in a genetic screen for maternal-effect mutations
+affecting development and behavior (clk mutants),
+which was similar to a previously described screen (hekimi et al. 1995) and whose results will be described in
+detail elsewhere. the qm162 mutation was mapped to
+lg iii between sma-2 and unc-69 and found to be genetically inseparable from unc-32 (mapping data have been
+deposited at http://www.wormbase.org). cosmids from
+the corresponding genomic region were injected to
+assay for rescue of the mutant phenotypes. injection
+of zk637 allowed for phenotypic rescue and predicted
+genes on the rescuing cosmid were amplified by pcr and
+assayed by injection. injection of a 2.4-kb pcr amplicon
+(coordinates: iii:8911625 to 8914002) containing the pre-
+
+dicted gene zk637.9 was sufficient to rescue the developmental and behavioral phenotypes of the mutant strain
+(data not shown). to reveal the correct gene structure,
+an apparently full-length cdna clone (yk903f12, kindly
+provided by y. kohara) that had sequences in common
+with zk637.9 was sequenced. the sequence of yk903f12
+(accession no. ay513235) indicated that it encodes a
+228-amino-acid protein similar to tpk in vertebrates,
+plants, and yeast, which converts thiamine into the essential cofactor tpp. we identified the tpk-1(qm162) mutation (cys67 → tyr) by resequencing the gene from the
+mutant strain. multiple alignment of c. elegans, human,
+mouse, fruit fly, and yeast tpk shows strong sequence
+conservation of the protein from yeast to humans (figure 1).
+phenotype of tpk-1(qm162) mutants: clk mutants, including tpk-1(qm162), are characterized by a general
+slowdown and deregulation of physiological rhythms,
+including a lengthening of life span. table 1 summarizes
+a variety of physiological traits that are affected in tpk-1
+(qm162) mutants. the average cycle lengths of adult
+rhythmic behaviors such as defecation and pharyngeal
+pumping are almost doubled. other timed life-cycle
+phases, including embryonic and postembryonic development, are of increased duration. tpk-1 mutants have
+a substantially increased life span, which is due primarily
+to an increase in adult life span (table 1). in addition,
+
+848
+
+l. de jong et al.
+table 1
+
+effect of tpk-1(qm162) on developmental, reproductive, and behavioral features in comparison to the effect of clk-1(qm30)
+
+phenotype
+embryonic development
+(hr)
+postembryonic development
+(hr)
+brood size
+
+clk-1(qm30)
+
+14.88 ⫾ 0.97 (n ⫽ 297)
+
+23.6 ⫾ 4.49 (n ⫽ 70)
+
+46.8 ⫾ 1.4 (n ⫽ 200)
+
+99.2 ⫾ 6.2a (n ⫽ 100)
+
+59.1 ⫾ 5.2 (n ⫽ 30)
+
+51.6 ⫾ 2.0 (n ⫽ 31)
+
+87.2 ⫾ 27.2a (n ⫽ 10)
+
+78.8 ⫾ 7.4 (n ⫽ 5)
+
+nd
+
+24.8 ⫾ 6.6 (n ⫽ 50)
+max ⫽ 36
+
+nd
+
+nd
+
+261.8 ⫾ 28.1 (n ⫽ 5)
+
+tpk-1(qm162)
+
+16.94 ⫾ 1.51 (n ⫽ 116) nd
+
+life span (days)
+
+17.8 ⫾ 4.5 (n ⫽ 150)
+max ⫽ 28
+
+20.6 ⫾ 7.1 (n ⫽ 150)
+max ⫽ 40
+
+pharyngeal pumping
+(pumps/min)
+
+248 ⫾ 6.9 (n ⫽ 20)
+
+170.3 ⫾ 26.9a (n ⫽ 25)
+
+140 ⫾ 23.5 (n ⫽ 25)
+
+defecation cycle (sec)
+
+56 ⫾ 3.1 (n ⫽ 5)
+
+92.4 ⫾ 15.0a (n ⫽ 25)
+
+115.9 ⫾ 19.7 (n ⫽ 20)
+
+a
+
+tpk-1(qm162)
+maternally rescued
+
+wild type (n2)
+
+65.5 ⫾ 5.3 (n ⫽ 12)
+
+data are from wong et al. (1995).
+
+tpk-1 mutants can be maternally rescued. this means
+that tpk-1 homozygous mutant progeny from a heterozygous mother (tpk-1/⫹) are phenotypically wild type. although all phenotypes appear rescued, only postembryonic development and the defecation cycle measured
+were exactly quantified (table 1).
+clk-1 mutants, which are the most extensively characterized animals with a clk phenotype, look generally
+healthy and do not show any obvious morphological
+defects in spite of the slowdown and deregulation of physiological rhythms. however, tpk-1 mutants, although
+anatomically and behaviorally mostly normal, appear
+slimmer and more transparent than wild-type worms. additionally, tpk-1 mutants tend to clump in groups and avoid
+the bacterial lawn. these behaviors are reminiscent of eat
+mutants, which have impaired pharyngeal pumping and
+consequently impaired food intake (avery 1993). since
+tpp is an essential cofactor for several key metabolic
+enzymes including mitochondrial pyruvate decarboxylase and ␣-ketoglutarate decarboxylase, reduced availability of tpp due to the tpk-1(qm162) mutation should
+affect mitochondrial metabolism. however, we did not
+observe a difference in oxygen consumption rates between wild-type (n2; 28.12 ⫾ 4.09 nmol/min/mg protein) and tpk-1 mutant worms (29.36 ⫾ 4.47 nmol/min/
+mg protein). the numbers represent the means ⫾ standard error of two independent experiments with three
+independent samples measured per experiment. this
+suggests that the phenotype produced by the tpk-1
+(qm162) mutation is not mediated by a decrease in electron transport and atp synthesis. this is consistent with
+previous studies of animals with reduced electron transport that are large and dark, rather than small and
+transparent like tpk-1 mutants (feng et al. 2001). this
+
+means that the levels of tpp present in tpk-1 mutants
+are not limiting for mitochondrial function.
+c. elegans requires thiamine from food: animals, unlike plants and micro-organisms, depend on external
+sources of thiamine to be able to produce tpp. in mammals, a thiamine-depleted diet eventually leads to severe
+neurological defects. to establish the effect of thiamine
+deficiency on c. elegans, wild-type worms at the l2, l3,
+or l4 larval stage were cultured on thiamine-free plates
+containing thiamine-depleted thie ⫺ bacteria, which
+cannot produce any thiamine and fail to grow without
+exogenous thiamine. to grow enough thie ⫺ bacteria
+to feed worms, we grew thie ⫺ bacteria in thiaminedeficient medium until they stopped growing. control
+worms were cultured under the same conditions except
+that thiamine was added to the plates (see materials
+and methods). on the thiamine-deficient plates, the
+wild-type worms (n2) developed into normal-looking
+gravid adults that behave normally. after 2 days, the
+pharyngeal pumping rate, a behavior that is affected in
+tpk-1 mutants, was still similar to that of the controls
+(⬎230 pumps) as well as to that of n2 worms fed on
+op50 bacteria (the standard bacterial strain). however,
+thiamine deficiency becomes apparent in the f1 progeny
+of animals grown continuously on deficient bacteria.
+although f1 progeny develop into adults, these animals
+remain very small and slim and they fail to produce
+progeny. thus wild-type animals can subsist on accumulated thiamine although the thiamine is eventually depleted in their progeny.
+unlike wild-type worms, young adult tpk-1 mutants
+that are challenged with a thiamine-depleted diet display symptoms of thiamine deficiency immediately: after
+2 days the pharyngeal pumping rate is slowed down
+
+thiamine pyrophosphate in nematodes
+
+849
+
+figure 2.—thiamine and
+thiamine pyrophosphate supplementation on tpk-1 mutants. effect of soaking in m9
+buffer (⫺), thiamine (t), or
+tpp on behavioral rhythms
+and brood size of wild-type
+animals (n2) and tpk-1 mutants. (a) defecation cycle
+length in seconds (n ⫽ 10
+animals). (b) pharyngeal
+pumping rate in pumps per
+minute (n ⫽ 10 animals). (c) brood size in number of offsprings (n ⫽ 5 animals). treatments with either thiamine or tpp
+have no effect on the wild type. for tpk-1 mutants only tpp had a significant effect on the defecation rate. for pumping rate,
+both thiamine (p ⬎ 0.02) and tpp had a significant effect. however, the effect of thiamine is very small. for brood size, both
+thiamine and tpp appear to have an effect on mutant animals but we could detect only a statistically significant effect for tpp
+(p ⬍ 0.01).
+
+from 140 to 90 pumps/minute, and the worms start
+looking sick and die after ⵑ1 week. although they produce f1 eggs, none of these hatch. the strong effect
+seen in tpk-1 worms suggests that these mutants are not
+able to subsist on previously accumulated thiamine. this
+is in line with the fact that most thiamine inside organisms is in the form of tpp. thus, low activity of tpk
+might result in low levels of thiamine and tpp.
+the tpk-1 mutant phenotypes are caused by thiamine
+pyrophosphate deficiency: the strong phenotype of tpk-1
+mutants implies that worms normally need to produce
+tpp endogenously to remain healthy. to determine
+directly the relationship between tpk-1 phenotypes and
+tpp, tpk-1 mutants were exposed to high concentrations
+of tpp by soaking a mix of l4 larvae and young adults
+in m9 buffer containing 2.5 mm tpp for 30 min. the
+pharyngeal pumping and defecation cycle lengths of
+the soaked worms were scored 24 hr later. figure 2
+illustrates the profound rescuing effect of tpp on rhythmic behaviors and brood size of tpk-1 mutant worms. in
+addition, the rescued worms look darker and bigger,
+suggesting that they are healthier. in principle, it is
+possible that tpp is first dephosphorylated inside the
+worm before cellular uptake, as is the case in the mammalian intestine. however, exposing worms to 2.5 mm
+thiamine has no effect on pharyngeal pumping and
+defecation cycle length and only a very slight effect on
+brood size, demonstrating that tpp is taken up and
+used directly. neither thiamine nor tpp has any effect
+on wild-type worms (figure 2).
+tpk-1(qm162) results in a partial loss-of-function of
+tpk: the finding that tpp but not thiamine supplementation rescues tpk-1 mutants indicates that qm162 is
+a loss-of-function mutation. however, this result also
+means that tpk-1(qm162) might be a null mutation and
+that the viability of mutants feeding on bacteria capable
+of synthesizing tpp is due to dietary tpp uptake. to
+establish whether tpk-1(qm162) is a full or partial lossof-function mutation we used a particular phenotype
+associated with tpk-1(qm162). in the absence of food,
+newly hatched worms arrest as l1 larvae, which allows
+
+them to survive a prolonged period of starvation. when
+food becomes available, the wild-type arrested larvae
+resume normal development. however, tpk-1 mutant
+worms tend to die within a few days as arrested l1
+larvae or fail to resume development when placed in
+the presence of food. to determine if this defect could
+be rescued exogenously, tpk-1 l1 larvae were arrested
+on plates containing thiamine or tpp but no bacteria.
+each day, a sample of worms was transferred to a plate
+with bacteria and their development was monitored. as
+table 2 documents, the presence of either thiamine or
+tpp in the plates on which the worms were arrested
+allows tpk-1 l1 larvae to resume development after transfer to a food plate. thiamine appears to be as effective
+as tpp, strongly suggesting that tpk-1(qm162) has residual activity and converts exogenous thiamine to tpp.
+the inability of tpk-1 mutants to survive arrest and starvation without thiamine or tpp supplementation is likely
+due to a reduced ability to store thiamine as tpp. it
+also suggests that resuming growth after arrest requires
+less tpp than the other phenotypes we have described
+(e.g., pumping), which cannot be rescued by providing
+thiamine.
+tpk-1 functions cell nonautonomously: tpp is generally believed to be unable to cross cell membranes. thus,
+given that tpp is essential for basic cellular metabolism,
+tpk is expected to be required in every cell. however,
+our observation that exogenous tpp can be taken up
+by c. elegans and appears to have global effects on the
+worm suggests that tpp can be transported without
+previous dephosphorylation from the absorbing cells to
+other cells in the body. thus, tpk-1 might function cell nonautonomously. to explore this, a tpk-1::gfp translational
+fusion was expressed under the control of the myo-3 promoter (body-wall muscles) or the myo-2 promoter (pharyngeal muscles). in tpk-1 mutants that carry a [myo-3::tpk-1::
+gfp] or [myo-2::tpk-1::gfp] transgenic array, gfp fluorescence is detected as expected in the body-wall muscles
+or the pharyngeal muscles, respectively. however, in
+both cases the construct profoundly rescued all tested
+mutant phenotypes (table 3). thus, the rescue of phe-
+
+850
+
+l. de jong et al.
+table 2
+effect of thiamine and tpp on recovery from larval arrest
+duration of development to adulthood after l1 arrest (days)
+duration of
+arrest (days)a
+1
+2
+3
+4
+5
+
+wild type
+t
+
+tpp
+
+2
+2
+2
+2–3
+2–3
+
+2
+2
+2
+2–3
+2–3
+
+tpk-1
+m9 buffer
+2
+2
+2
+3
+3
+
+t
+
+tpp
+
+m9 buffer
+
+3
+3
+3
+3–4
+3–4
+
+3
+3
+3
+3–4
+3–4
+
+3
+3–4
+4
+5b
+6–7b
+
+l1 larvae were arrested on empty plates supplemented with 200 ␮l thiamine (25 mm), tpp (25 mm), or
+m9 buffer. worms were transferred to plates with bacteria at the indicated day and the duration of development
+to adulthood was determined.
+b
+some worms had already died; others appeared developmentally arrested.
+a
+
+notypes unrelated to the activity of a particular tissue
+(e.g., pharyngeal pumping should be independent of
+body-wall muscle function) suggests that tpk-1 functions
+cell nonautonomously. however, extrachromosomal
+arrays generally contain multiple copies of the gene,
+which can result in overexpression. to exclude the possibility that the expression of the transgene was not
+confined to a particular tissue because of overexpression, we used the myo-2::tpk-1::gfp construct in the following way. we produced transgenic arrays by injecting
+very low concentrations of rescuing dna at a concentration so low (1 ng/␮l) that two out of three independent
+transgenic lines were not rescued, presumably because
+they did not contain a full-length copy of the construct.
+the third line, however, was rescued for both the pharyngeal pumping rate and the defecation cycle length,
+which is not dependent on pharyngeal muscle function.
+furthermore, the worms of this line have a general wildtype appearance. together, these observations strongly
+
+suggest that tpk-1 functions cell nonautonomously, suggesting that tpp can be transported from one cell or
+tissue to others.
+slow pumping in tpk-1 mutants is due to failure to
+trigger muscle contraction: to better understand the
+slow-pumping phenotype of tpk-1 mutants, we examined
+pumping by electrophysiological methods. we recorded
+epgs, extracellular recordings that measure changes in
+the membrane potential of pharyngeal muscles during
+rhythmic pumping of the pharynx (raizen and avery
+1994; davis et al. 1995). normally, the rate of pumping
+in the presence of food is determined by the activity of
+the marginal cells (mc) pacemaker motor neurons. we
+found that in tpk-1 mutants, in contrast to what is observed in the wild type, the excitatory postsynaptic potentials (epsps) produced by the mc motor neurons
+do not always trigger muscle contraction (figure 3, a
+and b), which can explain the slow-pumping rate of the
+mutants. indeed, treatment of mutants with tpp rescues
+
+table 3
+tissue-specific extrachromosomal expression of the wild-type tpk-1 gene fused to gfp
+and expressed in a tpk-1 mutant background
+
+genotype (extrachromosomal arrays)
+
+brood size
+(progeny)
+(n ⫽ 5)
+
+wild type (n2)
+tpk-1
+[myo-3::tpk-1:gfp]
+[myo-2::tpk-1:gfp]
+[myo-2::tpk-1:gfp]
+[myo-2::tpk-1:gfp]
+[myo-2::tpk-1:gfp]
+[myo-2::tpk-1:gfp]
+[myo-2::tpk-1:gfp]
+[myo-2::tpk-1:gfp]
+
+305 ⫾ 16
+76 ⫾ 7
+253 ⫾ 11
+167 ⫾ 21
+176 ⫾ 10
+191 ⫾ 40
+167 ⫾ 46
+84 ⫾ 10
+nd
+80 ⫾ 16
+
+a
+
+25 ng/␮l, line 1a
+25 ng/␮l, line 1a
+5 ng/␮l, line 1a
+5 ng/␮l, line 2a
+5 ng/␮l, line 3a
+1 ng/␮l, line 1
+1 ng/␮l, line 2a
+1 ng/␮l, line 3
+
+lines whose individuals have a wild-type appearance.
+
+defecation
+cycle length
+(sec) (n ⫽ 20)
+55.6
+115
+59.3
+65
+77
+64.9
+83.5
+101
+73.4
+114.3
+
+⫾
+⫾
+⫾
+⫾
+⫾
+⫾
+⫾
+⫾
+⫾
+⫾
+
+3.8
+23.6
+4.1
+5.9
+6.2
+5.9
+20.3
+20
+3.8
+18.5
+
+pharyngeal
+pumping
+(pumps/min)
+(n ⫽ 20)
+
+postembryonic
+development
+(hr) (n ⫽ 50)
+
+⫾
+⫾
+⫾
+⫾
+⫾
+⫾
+⫾
+⫾
+⫾
+⫾
+
+47.7 ⫾ 3.5
+60.5 ⫾ 4.5
+49.2 ⫾ 3.2
+49.1 ⫾ 3.4
+56.1 ⫾ 3.5
+52.4 ⫾ 3.3
+51.4 ⫾ 3.4
+58.2 ⫾ 4.7
+nd
+59.9 ⫾ 4.9
+
+248
+140
+243
+245
+207
+215
+217
+141
+208
+142
+
+16.8
+23.8
+14.2
+12
+11.2
+12
+21.7
+19.7
+12.6
+18.2
+
+thiamine pyrophosphate in nematodes
+
+851
+
+figure 3.—epgs. e1 is the epsps produced by
+the action of the two mc motor neurons on the
+muscle. e2 reflects the depolarization of the muscle and the initiation of the action potential in
+response to e1. r1 indicates the repolarization
+of the muscle that terminates the muscle action
+potential. (a) typical recording from wild-type
+muscle. (b) typical recording from a tpk-1 mutant
+and a tpk-1 mutant treated with tpp. the smaller
+amplitude of the spikes reflects the smaller size
+of the tpk-1 mutant animals. many epsps (marked
+by an asterisk) failed to elicite a muscle action
+potential. this phenotype is fully rescued by treatment with tpp. (c) typical recording from an
+eat-6(ad601) mutant without and with treatment
+with thiamine. in the untreated mutant the r1
+spike is very small compared to those in the wild
+type, and this phenotype is not rescued by treatment with thiamine, although thiamine rescues
+the pumping rate.
+
+the coupling between epsp and contraction so that
+virtually every epsp triggers a muscle contraction (figure 3b). inefficient triggering of muscle action potentials is characteristic of mutants, such as snt-1, that have
+compromised neurotransmitter release (raizen et al.
+1995). however, reduced muscle excitability could also
+explain this phenotype.
+all currents in the epg traces of the tpk-1 worms are
+smaller because tpk-1 worms are starved and small worms
+have smaller amplitude epg currents. this is because
+the epg measures capacitative currents and the capacitance of the cell decreases with size. however, this does
+not affect our conclusions. even in normal small worms
+(i.e., larvae) a normal small epsp triggers a pump almost
+every time.
+thiamine redistribution after uptake requires the activity of naⴙ/kⴙ-atpase: although uptake of thiamine
+appears to be driven by tpk-dependent phosphorylation, export of thiamine from cells is believed to require
+the activity of na⫹/k⫹-atpase (laforenza et al. 1993).
+in c. elegans, the ␣-subunit of this enzyme is encoded
+by the eat-6 gene (davis et al. 1995), and partial lossof-function mutants in this gene have decreased na⫹/
+
+k⫹-atpase activity (shima et al. 1998) and display slow,
+abnormal pumping (avery 1993). we treated eat-6 mutants by soaking them in thiamine or tpp and found that
+both compounds dramatically improved the pharyngeal
+pumping rate of the mutants (figure 4). in contrast,
+no effect was seen on mutants (ky5) of the eat-4 gene,
+which encodes a vesicular glutamate transporter (bellocchio et al. 2000). this suggests that at least part of
+the phenotype of eat-6 mutants is due to a deficiency in
+thiamine. a likely explanation is that, after thiamine is
+taken up by competent cells, for example, in the gut,
+it cannot be reexported to the rest of the body because
+of the defect in na⫹/k⫹-atpase.
+eat-6 mutants display an electrophysiological phenotype in which the r spike, which corresponds to the
+repolarization phase of the action potential just before
+the muscles relax, is dramatically reduced (davis et
+al. 1995; figure 4). however, treatment with thiamine,
+which rescues the pumping-rate phenotype (figure 3),
+does not rescue the electrophysiological phenotype.
+thus the muscle defect that results in the reduced r
+spike is not a result of thiamine deficiency and does not
+explain the reduced pumping rate. decreased levels of
+
+852
+
+l. de jong et al.
+
+figure 4.—effect of thiamine and thiamine pyrophosphate
+supplementation on pumping mutants. effect of soaking in
+m9 buffer (⫺), thiamine (t), or tpp on pharyngeal pumping
+rate of wild-type, tpk-1, eat-4(ky5), and eat-6(ad601) worms (n ⫽
+10 animals for each strain). the effect of thiamine on tpk-1
+mutants is small but significant (p ⬎ 0.02). the effects of both
+thiamine (p ⬍ 0.001) and tpp (p ⬍ 0.001) on eat-6 mutants
+are highly significant, but there is no significant effect of either
+compound on eat-4 (p ⫽ 0.18 and p ⫽ 0.72, for thiamine and
+tpp, respectively).
+
+tpp in the nervous system, specifically in the pacemaker
+neurons, might explain the decreased pumping rate in
+eat-6 mutants. this would be consistent with findings in
+vertebrates that the nervous system is the first tissue to
+be affected by thiamine deficiency.
+discussion
+
+thiamine and tpk-1: thiamine plays an essential role
+in energy metabolism in the form of tpp in all organisms. to synthesize tpp, animals have to extract thiamine from food, which is converted into the active coenzyme by tpk. this enzyme is essential for viability in
+yeast and probably in other species as well, since no
+salvation pathway for tpp is known to exist. we identified tpk-1(qm162) in a screen for c. elegans mutants with
+a slow life cycle and behavioral rhythms and used positional cloning to discover that the gene encodes c. elegans tpk.
+function of dietary thiamine: symptoms associated
+with thiamine deficiency are being studied in organisms
+such as rats and mice. rats that are fed a thiaminedeficient diet for 30 days start to show the first signs
+of thiamine deficiency, that is, anorexia, after 3 weeks
+(pires et al. 2001). in mice, anorexia sets in after 10–15
+days of thiamine depletion (nakagawasai et al. 2001).
+by feeding wild-type worms a thiamine-depleted diet
+and monitoring growth and reproduction, we show that
+c. elegans, like other animal species, needs dietary thiamine for survival. moreover, tpk-1(qm162) mutants are
+hypersensitive to thiamine depletion. when tpk-1 adults
+are fed a thiamine-depleted diet they immediately display a significantly reduced feeding rate and start dying
+
+after only a few days. on the other hand, although tpk-1
+mutants presumably have reduced levels of tpp (see
+results), their behavioral and developmental phenotypes are not improved by excess thiamine (figure 2).
+together, these observations suggest that cellular uptake of thiamine in worms is coupled to tpk activity as
+in other organisms (lumeng et al. 1979; yoshioka 1984;
+bettendorff and wins 1994; bettendorff 1995),
+which is why tpk-1 mutants are hypersensitive to thiamine depletion. however, the amount of thiamine that
+tpk-1 mutants can extract from normal food is not limiting and allows for maximal activity of the mutant tpk
+in most tissues, which is why the tpk-1 mutant phenotype
+cannot be improved by pharmacological amounts of
+thiamine, except when endogenous thiamine is depleted by developmental arrest (table 2).
+uptake and transport of tpp in c. elegans: dietary
+thiamine, which consists mostly of tpp, is converted
+into thiamine in the mammalian intestine before absorption. in fact, tpp is thought to be produced only
+where it is used, and its transport is thought to be of
+minor, if any, importance in thiamine metabolism. dephosphorylation of dietary tpp is likely to occur as well
+in the c. elegans intestine, given that worms need tpk
+activity to maintain a wild-type physiology. this would
+suggest that direct uptake and utilization of dietary tpp
+is not possible, is insufficient, or is prevented by rapid
+dephosphorylation. yet, we show that tpk-1 mutants are
+rescued by soaking in pharmacological amounts of tpp
+but not of thiamine. this indicates that tpp can be
+taken up directly without being dephosphorylated.
+all aspects of the phenotype of tpk-1 mutants improve
+upon tpp treatment, which indicates that it is not only
+taken up in the intestine, but also efficiently distributed
+through the worms. this finding is surprising, given
+that it is believed that only thiamine but not tpp can
+be exported from cells (yoshioka et al. 1983; nosaka
+et al. 1989). to rule out the possibility that the effect
+of soaking is merely an artifact induced by the extremely
+high amounts of tpp, we tested whether expression of
+wild-type tpk-1 in a single tissue could rescue the entire
+animal. as shown in table 3, extrachromosomal expression of tpk-1::gfp restricted to the pharyngeal muscles
+rescues not only pharyngeal pumping, but also unrelated phenotypes such as the defecation cycle, as well
+as the overall aspect of the animal. this strongly indicates that tpp produced in the pharyngeal muscles is
+efficiently distributed throughout the worm by endogenous physiological mechanisms. taken together, these
+findings show that tpp can be effectively transported
+across plasma membranes in c. elegans.
+the tpk-1 gene lies in an operon whose first gene is
+unc-32 (blumenthal et al. 2002), a gene whose pattern
+of expression has been studied in detail (oka et al. 2001;
+pujol et al. 2001). the promoter of this operon directs
+expression to many tissues, including to the entire embryo, the intestine, the excretory cell, the pharynx, the
+
+thiamine pyrophosphate in nematodes
+
+somatic gonad, the nervous system, and various hypodermal cells. however, the operon appears not to be
+expressed in the body-wall muscle cells and in the main
+hypodermal multinucleated hypodermal cell. in addition, tpk-1 might be expressed in fewer tissues because
+of post-transcriptional controls. thus, the tpp transport
+system might be essential to provide tpp that has been
+synthesized elsewhere to muscle cells, the hypodermis,
+and, possibly, other tissues.
+redistribution of dietary thiamine: while uptake of thiamine into cells is energized by the activity of tpk, export of thiamine requires the activity of na⫹/k⫹-atpase
+(laforenza et al. 1993). we found that this also appears
+to be the case in c. elegans, as the phenotype of eat-6
+mutants, which have partially impaired na⫹/k⫹-atpase
+function, is rescued by thiamine. it suggests that thiamine redistribution to other tissues after uptake from
+dietary sources by the intestine might be one of the
+cellular processes that is most sensitive to a partial reduction of the function of na⫹/k⫹-atpase. it also indicates
+that part of the eat-6 phenotype is due to thiamine (and
+therefore tpp) deficiency.
+tpp transport may also be important in mammals:
+tpp appears to be transported rather efficiently between cells in c. elegans. does similar transport occur
+in mammals and, if so, how important is it for thiamine
+homeostasis? our observations suggest that all the basic
+aspects of thiamine metabolism previously described in
+mammalian systems exist in c. elegans as well. furthermore, mammalian genes known to be directly involved
+in thiamine metabolism, including the two thiamine
+transporters and tpk, have close homologs in c. elegans.
+an inability to transport tpp across membranes was
+directly demonstrated only in yeast and liver cells (yoshioka et al. 1983; nosaka et al. 1989). more circumstantial evidence that tpp does not cross membranes includes the observations that tpp can be detected in
+erythrocytes but not in blood serum (tallaksen et al.
+1997) and that dietary tpp is taken up in the form of
+thiamine. however, what we observe in worms might
+nonetheless be a phylogenetically common mechanism.
+indeed, there have been early observations that ehrlich
+ascites carcinoma cells rapidly take up labeled thiamine
+and that after 2 hr practically all the labeled thiamine
+is in the phosphorylated form, including that in the
+medium (menon and quastel 1966). more recently,
+mouse leukemia cells were also shown to transport tpp
+through plasma membranes. thiamine uptake appears
+to be impaired in thiamine-responsive megaloblastic
+anemia syndrome patients. yet the symptoms of these
+patients appear to be distinct from those induced by
+dietary thiamine depletion (oishi et al. 2002). possibly,
+the basis of this disease is impaired tpp transport.
+we thank robyn branicky for insightful comments on the manuscript; a. coulson, a. fire, and y. kohara for providing clones; and
+the caenorhabditis genetics centre, which is funded by the national
+
+853
+
+institute of health national center for research resources, for providing strains. s.h. is a canadian institutes of health research scientist.
+
+literature cited
+avery, l., 1993 the genetics of feeding in caenorhabditis elegans.
+genetics 133: 897–917.
+barile, m., s. passarella and e. quagliariello, 1990 thiamine
+pyrophosphate uptake into isolated rat liver mitochondria. arch.
+biochem. biophys. 280: 352–357.
+bellocchio, e. e., r. j. reimer, r. t. fremeau, jr. and r. h.
+edwards, 2000 uptake of glutamate into synaptic vesicles by
+an inorganic phosphate transporter. science 289: 957–960.
+bettendorff, l., 1995 thiamine homeostasis in neuroblastoma
+cells. neurochem. int. 26: 295–302.
+bettendorff, l., and p. wins, 1994 mechanism of thiamine transport in neuroblastoma cells. inhibition of a high affinity carrier
+by sodium channel activators and dependence of thiamine uptake
+on membrane potential and intracellular atp. j. biol. chem.
+269: 14379–14385.
+blumenthal, t., d. evans, c. d. link, a. guffanti, d. lawson et
+al., 2002 a global analysis of caenorhabditis elegans operons.
+nature 417: 851–854.
+brenner, s., 1974 the genetics of caenorhabditis elegans. genetics
+77: 71–94.
+casirola, d., c. patrini, g. ferrari and g. rindi, 1990 thiamin
+transport by human erythrocytes and ghosts. j. membr. biol. 118:
+11–18.
+davis, m. w., d. somerville, r. y. lee, s. lockery, l. avery et
+al., 1995 mutations in the caenorhabditis elegans na,k-atpase
+alpha-subunit gene, eat-6, disrupt excitable cell function. j. neurosci. 15: 8408–8418.
+diaz, g. a., m. banikazemi, k. oishi, r. j. desnick and b. d. gelb,
+1999 mutations in a new gene encoding a thiamine transporter
+cause thiamine-responsive megaloblastic anaemia syndrome. nat.
+genet. 22: 309–312.
+eudy, j. d., o. spiegelstein, r. c. barber, b. j. wlodarczyk, j.
+talbot et al., 2000 identification and characterization of the
+human and mouse  xxxg2101xxx  gene: a novel member of the reduced folate family of micronutrient transporter genes. mol.
+genet. metab. 71: 581–590.
+fankhauser, h., a. zurlinden, a. m. schweingruber, e. edenharter and m. e. schweingruber, 1995 schizosaccharomyces
+pombe thiamine pyrophosphokinase is encoded by gene tnr3 and
+is a regulator of thiamine metabolism, phosphate metabolism,
+mating, and growth. j. biol. chem. 270: 28457–28462.
+feng, j., f. bussiere and s. hekimi, 2001 mitochondrial electron
+transport is a key determinant of life span in caenorhabditis
+elegans. dev. cell 1: 633–644.
+fleming, j. c., e. tartaglini, m. p. steinkamp, d. f. schorderet,
+n. cohen et al., 1999 the gene mutated in thiamine-responsive
+anaemia with diabetes and deafness ( xxxg2100xxx ) encodes a functional thiamine transporter. nat. genet. 22: 305–308.
+gastaldi, g., e. cova, a. verri, u. laforenza, a. faelli et al.,
+2000 transport of thiamin in rat renal brush border membrane
+vesicles. kidney int. 57: 2043–2054.
+hekimi, s., p. boutis and b. lakowski, 1995 viable maternal-effect
+mutations that affect the development of the nematode caenorhabditis elegans. genetics 141: 1351–1364.
+hohmann, s., and p. a. meacock, 1998 thiamin metabolism and
+thiamin diphosphate-dependent enzymes in the yeast saccharomyces cerevisiae: genetic regulation. biochim. biophys. acta
+1385: 201–219.
+hoyumpa, jr., a. m., r. strickland, j. j. sheehan, g. yarborough
+and s. nichols, 1982 dual system of intestinal thiamine transport in humans. j. lab. clin. med. 99: 701–708.
+labay, v., t. raz, d. baron, h. mandel, h. williams et al., 1999
+mutations in  xxxg2100xxx  cause thiamine-responsive megaloblastic
+anaemia associated with diabetes mellitus and deafness. nat.
+genet. 22: 300–304.
+laforenza, u., g. gastaldi and g. rindi, 1993 thiamine outflow
+from the enterocyte: a study using basolateral membrane vesicles
+from rat small intestine. j. physiol. 468: 401–412.
+lumeng, l., j. w. edmondson, s. schenker and t. k. li,
+
+854
+
+l. de jong et al.
+
+1979 transport and metabolism of thiamin in isolated rat hepatocytes. j. biol. chem. 254: 7265–7268.
+marobbio, c. m., a. vozza, m. harding, f. bisaccia, f. palmieri
+et al., 2002 identification and reconstitution of the yeast mitochondrial transporter for thiamine pyrophosphate. embo j. 21:
+5653–5661.
+menon, i. a., and j. h. quastel, 1966 transport and metabolism
+of thiamine in ehrlich ascites-carcinoma cells. biochem. j. 99:
+766–775.
+moseley, r. h., p. g. vashi, s. m. jarose, c. j. dickinson and
+p. a. permoad, 1992 thiamine transport by basolateral rat liver
+plasma membrane vesicles. gastroenterology 103: 1056–1065.
+nakagawasai, o., t. tadano, s. hozumi, r. taniguchi, k. tanno et al., 2001 characteristics of depressive behavior induced by
+feeding thiamine-deficient diet in mice. life sci. 69: 1181–1191.
+nosaka, k., h. nishimura and a. iwashima, 1989 identity of soluble thiamine-binding protein with thiamine repressible acid phosphatase in saccharomyces cerevisiae. yeast 5 (spec no.): s447–
+ xxxd2830xxx .
+nosaka, k., y. kaneko, h. nishimura and a. iwashima, 1993 isolation and characterization of a thiamin pyrophosphokinase gene,
+thi80, from saccharomyces cerevisiae. j. biol. chem. 268:
+17440–17447.
+nosaka, k., m. onozuka, n. kakazu, s. hibi, h. nishimura et
+al., 2001 isolation and characterization of a human thiamine
+pyrophosphokinase cdna. biochim. biophys. acta 1517: 293–
+297.
+oishi, k., s. hofmann, g. a. diaz, t. brown, d. manwani et al.,
+2002 targeted disruption of  xxxg2100xxx , the gene encoding the
+high-affinity thiamin transporter  xxxg2100xxx , causes diabetes mellitus,
+sensorineural deafness and megaloblastosis in mice. hum. mol.
+genet. 11: 2951–2960.
+oka, t., t. toyomura, k. honjo, y. wada and m. futai, 2001 four
+subunit a isoforms of caenorhabditis elegans vacuolar h⫹-atpase.
+cell-specific expression during development. j. biol. chem. 276:
+33079–33085.
+pires, r. g., s. r. pereira, j. e. pittella, g. c. franco, c. l.
+ferreira et al., 2001 the contribution of mild thiamine deficiency and ethanol consumption to central cholinergic parameter
+dysfunction and rats’ open-field performance impairment. pharmacol. biochem. behav. 70: 227–235.
+pujol, n., c. bonnerot, j. j. ewbank, y. kohara and d. thierrymieg, 2001 the caenorhabditis elegans unc-32 gene encodes
+
+alternative forms of a vacuolar atpase  xxxg220xxx . j. biol. chem.
+276: 11913–11921.
+raizen, d. m., and l. avery, 1994 electrical activity and behavior
+in the pharynx of caenorhabditis elegans. neuron 12: 483–495.
+raizen, d. m., r. y. lee and l. avery, 1995 interacting genes
+required for pharyngeal excitation by motor neuron mc in caenorhabditis elegans. genetics 141: 1365–1382.
+rajgopal, a., a. edmondnson, i. d. goldman and r. zhao, 2001
+ xxxg2101xxx  encodes a second thiamine transporter  xxxg2101xxx . biochim. biophys. acta 1537: 175–178.
+rindi, g., and u. laforenza, 2000 thiamine intestinal transport
+and related issues: recent aspects. proc. soc. exp. biol. med. 224:
+246–255.
+said, h. m., k. balamurugan, v. s. subramanian and j. s.
+marchant, 2004 expression and functional contribution of
+hthtr-2 in thiamin absorption in human intestine. am. j. physiol. gastrointest. liver physiol. 286:  xxxg491xxx – xxxg498xxx .
+shima, y., y. tada, m. furuki, y. hara and h. ohta, 1998 a
+missense mutation of the gene for na⫹,k(⫹)-atpase alpha-subunit causes abnormal feeding behavior in caenorhabditis elegans. biochem. biophys. res. commun. 248: 778–782.
+singleton, c. k., and p. r. martin, 2001 molecular mechanisms
+of thiamine utilization. curr. mol. med. 1: 197–207.
+tallaksen, c. m., t. bohmer, j. karlsen and h. bell, 1997 determination of thiamin and its phosphate esters in human blood,
+plasma, and urine. methods enzymol. 279: 67–74.
+wong, a., p. boutis and s. hekimi, 1995 mutations in the clk-1
+gene of caenorhabditis elegans affect developmental and behavioral
+timing. genetics 139: 1247–1259.
+yoshioka, k., 1984 some properties of the thiamine uptake system
+in isolated rat hepatocytes. biochim. biophys. acta 778: 201–209.
+yoshioka, k., h. nishimura, k. sempuku and a. iwashima, 1983
+inability of thiamine phosphates transport in isolated rat hepatocyte. experientia 39: 505–507.
+zhao, r., f. gao, y. wang, g. a. diaz, b. d. gelb et al., 2001 impact
+of the reduced folate carrier on the accumulation of active thiamin metabolites in murine leukemia cells. j. biol. chem. 276:
+1114–1118.
+zhao, r., f. gao and i. d. goldman, 2002 reduced folate carrier
+transports thiamine monophosphate: an alternative route for
+thiamine delivery into mammalian cells. am. j. physiol. cell physiol. 282: c1512–c1517.
+communicating editor: k. kemphues
+

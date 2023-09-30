@@ -1,0 +1,886 @@
+sulfonylurea stimulation of insulin secretion
+peter proks,1 frank reimann,2 nick green,1 fiona gribble,2 and frances ashcroft1
+
+sulfonylureas are widely used to treat type 2 diabetes
+because they stimulate insulin secretion from pancreatic ␤-cells. they primarily act by binding to the sur
+subunit of the atp-sensitive potassium (katp) channel
+and inducing channel closure. however, the channel is
+still able to open to a limited extent when the drug is
+bound, so that high-affinity sulfonylurea inhibition is
+not complete, even at saturating drug concentrations.
+katp channels are also found in cardiac, skeletal, and
+smooth muscle, but in these tissues are composed of
+different sur subunits that confer different drug
+sensitivities. thus  xxxd3394xxx  and  xxxd2202xxx  block
+channels containing  xxxg19xxx  (␤-cell type), but not  xxxg20xxx 
+(cardiac, smooth muscle types), whereas  xxxd2215xxx ,
+ xxxd2203xxx ,  xxxd3098xxx , and meglitinide block both
+types of channels. this difference has been exploited
+to determine residues contributing to the sulfonylurea-binding site. sulfonylurea block is decreased by
+mutations or agents (e.g., phosphatidylinositol bisphosphate) that increase  xxxg1253xxx  open probability. we
+now propose a kinetic model that explains this effect in
+terms of changes in the channel open probability and in
+the transduction between the drug-binding site and the
+channel gate. we also clarify the mechanism by which
+mgadp produces an apparent increase of sulfonylurea
+efficacy on channels containing  xxxg19xxx  (but not  xxxg20xxx ).
+diabetes 51 (suppl. 3):s368 –s376, 2002
+
+s
+
+ulfonylureas stimulate insulin secretion from
+pancreatic ␤-cells and are widely used to treat
+type 2 diabetes. their principal target is the
+atp-sensitive potassium (katp) channel, which
+plays a major role in controlling the ␤-cell membrane
+potential. inhibition of katp channels by glucose or sulfonylureas causes depolarization of the ␤-cell membrane; in
+turn, this triggers the opening of voltage-gated ca2⫹ channels, eliciting ca2⫹ influx and a rise in intracellular ca2⫹
+which stimulates the exocytosis of insulin-containing secretory granules (1). katp channels are also found at high
+density in a variety of other cell types, including cardiac,
+from the 1university laboratory of physiology, oxford university, oxford,
+u.k., and the 2department of clinical biochemistry, university of cambridge,
+addenbrooke’s hospital, cambridge, u.k.
+address correspondence and reprint requests to prof. frances m. ashcroft,
+university laboratory of physiology, parks road, oxford  xxxd2351xxx  3pt, u.k.
+e-mail: frances.ashcroft@physiol.ox.ac.uk.
+received for publication 12 march 2002 and accepted in revised form 8 may
+2002.
+ic50, half-maximal inhibitory concentration value;  xxxg1253xxx , atpsensitive  xxxg1232xxx ; kir channel, inwardly rectifying k⫹ channel;
+nbd, nucleotide-binding domain; po, open probability; sur, sulfonylurea
+receptor; tm, transmembrane helix.
+p.p., f.g., and f.a. receive honoraria from servier for speaking engagements. f.a. is a paid consultant for novonordisk.
+the symposium and the publication of this article have been made possible
+by an unrestricted educational grant from servier, paris.
+s368
+
+smooth, and skeletal muscle, and some brain neurones. in
+all these tissues, opening of katp channels in response to
+metabolic stress leads to inhibition of electrical activity.
+thus they are involved in the response to both cardiac and
+cerebral ischemia (2). they are also important in neuronal
+regulation of glucose homeostasis (3), seizure protection
+(4), and the control of vascular smooth muscle tone (and,
+thereby, blood pressure) (5).
+the  xxxg1253xxx  is a hetero-octameric complex of two
+different types of protein subunits: an inwardly rectifying
+k⫹ channel, kir6.x, and a sulfonylurea receptor, sur (6,7).
+kir6.x belongs to the family of inwardly rectifying k⫹
+(kir) channels and assembles as a tetramer to form the
+channel pore (fig. 1a). binding of atp to the intracellular
+domains of this subunit produces channel inhibition (8).
+sur is a member of the  xxxg22xxx  family, with 17
+transmembrane helices (tms), arranged as one group of 5
+tms, and two repeats each of 6 tms followed by a large
+cytosolic loop containing consensus sequences for nucleotide binding and hydrolysis. interaction of mg nucleotides
+with the nucleotide-binding domains (nbds) mediates activation of the  xxxg1253xxx  (9 –12). sur also endows  xxxg1250xxx 
+with sensitivity to certain drugs, such as the inhibitory
+sulfonylureas and the stimulatory k⫹ channel openers
+(6,7).
+more than one isoform exists for both kir6.x ( xxxg150xxx   xxxg1255xxx ,
+ xxxg1250xxx ) and sur ( xxxg19xxx , sur2a, sur2b). in most tissues,
+ xxxg1250xxx  serves as the pore-forming subunit, but it associates
+with different sur subunits; for example, it associates
+with  xxxg19xxx  in the pancreas and brain; sur2a in heart and
+skeletal muscle; and sur2b in brain and smooth muscle
+(13–15). in vascular smooth muscle, the  xxxg1253xxx  is
+composed of  xxxg150xxx   xxxg1255xxx  in association with sur2b. variation
+in the subunit composition of the  xxxg1253xxx  accounts
+for the different metabolic and drug sensitivities of katp
+channels in different cells.
+inhibitors of  xxxg1253xxx  activity fall into two groups:
+those that interact with  xxxg1250xxx  and those that interact with
+sur. imidazolines (e.g.,  xxxd2914xxx , cibenzoline) and
+antimalarials (e.g., quinine, mefloquine) block katp channels by binding to  xxxg1250xxx  (16 –18). in contrast, sulfonylureas (e.g.,  xxxd3394xxx ,  xxxd2202xxx ,  xxxd2203xxx ), and
+benzamido derivatives (e.g., meglitinide) close katp channels by binding with high affinity to sur (19 –21). sulfonylureas also interact with  xxxg1250xxx , but with low affinity. all
+drugs that block katp channels stimulate insulin secretion,
+but only those that interact with the sur subunit are used
+therapeutically to treat type 2 diabetes. thus, in this
+review, we focus on how studies of recombinant katp
+channels have helped to elucidate the molecular mechanism of sulfonylurea inhibition.
+diabetes, vol. 51, supplement 3, december 2002
+
+p. proks and associates
+
+inhibit the  xxxg1250xxx  subunit are much higher than those
+found in the plasma of patients treated with the drugs.
+thus, in this review, we focus on the high-affinity drugbinding site.
+stoichiometry
+
+fig. 1. a: schematic of the transmembrane topology of  xxxg1250xxx  and
+ xxxg19xxx . b: mean relation between  xxxd2202xxx  concentration and inhibition of the  xxxg1250xxx / xxxg19xxx  current, measured in inside-out patches (n ⴝ
+5– 8). the conductance in the presence of  xxxd2202xxx  (g) is expressed as
+a fraction of its amplitude in the absence of the drug (gc). the line is
+fit to (equation 2) g/gc ⴝ (l ⴙ (1 ⴚ l)/(1 ⴙ ([s]/ic50 –1)h1)) ⴛ (1/(1 ⴙ
+([s]/ic50 –2)h2)), where ic50 –1 ⴝ 51 nmol/l, h1 ⴝ 1.0, ic50 –2 ⴝ 3.1 mmol/l,
+h2 ⴝ 1, and l ⴝ 0.40 (19); [s] is the concentration of sulphonylurea;
+ic50 –1 and ic50 –2 are the half-maximal inhibitory concentrations at the
+high- and low-affinity sites, respectively; h1 and h2 are the hill
+coefficients for the high- and low-affinity sites, respectively; and l is
+the fraction of current that remains unblocked when all high-affinity
+sites are occupied.
+
+sulfonylureas block katp channels at two
+sites
+
+when measured in excised patches in the absence of
+nucleotides, sulfonylurea block of katp channels is best
+described by a two-site model (fig. 1b). the low-affinity
+site is independent of sur, as a similar block is seen when
+ xxxg1250xxx  is expressed in the absence of sur (20). the
+high-affinity site lies on sur, as it is only present when
+sur is coexpressed with  xxxg1250xxx . the presence of both lowand high-affinity sites for sulfonylureas on the  xxxg1253xxx  introduces important considerations when interpreting
+experiments with these drugs. first, at high concentrations these drugs may mediate their effects via  xxxg1250xxx , and
+channel inhibition therefore cannot be taken to support
+the idea that they interact with the sulfonylurea receptor.
+second, as discussed below, different surs endow the
+ xxxg1253xxx  with variable sensitivity to low concentrations of sulfonylureas, a property that can be used to
+distinguish the type of sulfonylurea receptor expressed in
+different tissues. finally, to isolate effects mediated by the
+high-affinity site, it is best to use a drug that shows a wide
+separation between its low- and high-affinity actions, such
+as  xxxd2202xxx  or  xxxd2215xxx . the low-affinity site is of no
+clinical relevance, because the concentrations required to
+diabetes, vol. 51, supplement 3, december 2002
+
+because four sur subunits contribute to the  xxxg1253xxx 
+complex, the question arises as to how many subunits
+must bind drug to close the channel. this topic is currently
+controversial. dörschner et al. (22) found that the affinity
+of sulfonylurea binding to  xxxg1250xxx / xxxg19xxx  or  xxxg1250xxx /sur2b
+channels is between three- and sevenfold lower than their
+potency on channel inhibition (table 1). consequently,
+they concluded that occupation of a single binding site is
+sufficient to induce channel closure. in contrast, russ et al.
+(23) found that the concentration-response relation for
+[3h] xxxd2215xxx  binding to  xxxg150xxx   xxxg1255xxx /sur2b lies to the left
+of that for  xxxd2215xxx  block of channel activity, so that
+the kd is sevenfold lower than the half-maximal inhibitory
+concentration on channel activity (ic50) (table 1). they
+therefore suggested that  xxxd2215xxx  can bind independently to four identical sites on the channel and that
+occupation of all four sites is required for channel closure
+(23). interestingly, the different proposed stoichiometries
+arise from the different binding affinities measured by
+these groups (table 1). it is not clear why the affinities
+were found to be so different, but possible confounding
+factors include the nature of the kir6.x subunit ( xxxg1250xxx  or
+ xxxg150xxx   xxxg1255xxx ) and the nucleotide concentrations used. the conflicting results suggest that conclusions based on comparing binding affinities with potencies of channel inhibition
+may not be reliable.
+sulfonylurea-bound channels can still open
+
+in the absence of added nucleotides, high-affinity inhibition of the katp current by sulfonylureas is not complete,
+but reaches a maximum of 60 – 80% (fig. 1b). there are
+several possible explanations for this finding. one possibility is that some percentage of the channels are in a state
+in which they do not bind drug with high affinity. an
+alternative possibility is that all channels bind drug with
+high affinity, but they are still able to open when drug is
+bound, albeit with lower probability. single-channel currents recorded at sulfonylurea concentrations that saturate the high-affinity site (but do not interact with  xxxg1250xxx )
+can be used to distinguish between these possibilities. if
+some channels exist in a low-affinity state and others in a
+high-affinity state, and transitions between these states are
+relatively slow, there should be two kinetically distinct
+populations of channels— one with a reduced open probability (po) and another with kinetics similar to that
+observed in the absence of drug. on the other hand, if the
+reason for incomplete block by sulfonylureas is because
+the channel can still open when the drug is bound at the
+high-affinity site(s), then there will be only one type of
+single-channel kinetics. under experimental conditions,
+only a single type of kinetic behavior has been observed in
+the presence of sulfonylureas (24; p.p., f.m.a., unpublished observations), supporting the idea that the channel
+can still open when drug is bound. because it is thought
+that each  xxxg19xxx  monomer binds drug independently, all
+four binding sites should be occupied at saturating drug
+s369
+
+sulfonylurea stimulation of insulin secretion
+
+table 1
+comparison of the ic50 for  xxxg1253xxx  inhibition by various sulfonylureas with the kd for drug binding
+ xxxg19xxx 
+ic50
+(current)
+
+⬇0.7 *,†[22]
+7.1 *[32]
+1.5 ‡, 1.8*[41]
+0.2 {†}[55]
+3.8 †[22]
+⬇17 *,†[22]
+3.0 †[34]
+—
+4.9 †[22]
+⬇29 *,†[22]
+5.4 †[21]
+140 *[32]
+10.5 † [52] 9 {†}[55]
+50 †[21]
+—
+1.2 †[22]
+⬇7 *[22]
+0.26 †[21]
+⬇60 †[32] 280 *[32]
+3.8 †[33]
+5.6 †[53]
+1,600 *[32]
+21 †[55]
+0.6 {†}[55]
+—
+8 *[32]
+0.8 †[55]
+0.2 {†}[55]
+
+ xxxd2215xxx  (nmol/l) 0.13 †[22]
+4.2 †[21]
+ xxxd2204xxx  (nmol/l)
+ xxxd2203xxx  (nmol/l)
+ xxxd3394xxx  (␮mol/l)
+ xxxd2202xxx  (nmol/l)
+meglitinide (␮mol/l)
+ xxxd2654xxx  (nmol/l)
+ xxxd3098xxx  (nmol/l)
+ xxxd2702xxx  (␮mol/l)
+
+kd
+(binding)
+
+sur2a
+ic50
+(current)
+
+sur2b
+kd
+(binding)
+
+⬇300 (*,†)[22]
+1,200 *,¶[14]
+
+45 †[22]
+27 †[21]
+
+5.4 †[34]
+85 †[22]
+ⱖ nmol/l †[21,54]
+⬎1 mmol/l [55]
+⬎100 ␮mol/l †[21]
+0.53 †[21]
+⬎ 100 ␮mol/l †[32]
+3200 †[33]
+2.2 †[53]
+
+ic50
+(current)
+42 †[22]
+43 ‡[23]
+166 †[36]
+
+kd
+(binding)
+⬇350 *,(†,‡)[22]
+6.3 ‡, 32 *[23]
+
+⬇6,000 (*,†)[22] 1,200 †[22]
+7.3 †[34]
+⬇270 (*,†)[22]
+88 †[22]
+
+⬇6,000 *,(†,‡)[22]
+
+⬇7 (*)[22]
+
+⬇8 (*)[22]
+
+1.6 †[22]
+
+⬇280 *,(†,‡)[22]
+
+⬎100 ␮mol/l †[32]
+4,600 †[33]
+2.0 †[53]
+
+only studies on recombinant sur (indicated) are listed. * surx expressed in the absence of  xxxg1250xxx ; †surx coexpressed with  xxxg1250xxx ; ‡surx
+coexpressed with  xxxg150xxx   xxxg1255xxx . the kd was measured by displacement of [3h]  xxxd2215xxx  or, if no data were available, of [3h]p1075 (indicated
+by round brackets) or iodo- xxxd2215xxx  (¶) or [3h] xxxd3098xxx  (indicated by curly brackets). numbers in square brackets indicate
+references.
+
+concentrations. thus it appears that the  xxxg1253xxx  can
+still open, even when each of its four sur subunits has
+bound sulfonylurea.
+the maximal extent of block at the high-affinity site can
+be modulated by mutations or truncations in either  xxxg1250xxx 
+or sur (25–28), or by membrane phospholipids such as
+phosphatidylinositol bisphosphate (pip2) (29). all these
+modulators share the common property that they increase
+the channel po (25–27,30,31). we therefore simulated the
+effect of po on sulfonylurea block using the kinetic scheme
+given in fig. 2b and rate constants calculated from single
+ xxxg1250xxx / xxxg19xxx  channel kinetics recorded in the absence and
+presence of  xxxd2202xxx .
+as fig. 2a shows, katp channels exhibit bursts of
+openings separated by long closed periods.  xxxd2202xxx 
+reduces the duration of the bursts of openings and increases the long closed intervals. the burst can be described by one open (o) and one short closed (c1) state,
+and the long closings between bursts can be lumped
+together into a single long closed state (c2). we assume
+that all these states can bind sulfonylurea, so that the
+channel can exist in both open and closed states when
+sulfonylurea is bound. we further assume that when drug
+is bound to  xxxg19xxx , this either has no effect on channel
+activity (bound but untransduced states) or results in a
+conformational change that affects the channel kinetics
+(bound and transduced states). in the former case, the
+channel flickers between states ob, c1b, and c2b with the
+same rate constants as in the absence of drug. in the
+second case, the channel undergoes a conformational
+change that either results in channel closure (the ob to ct
+transition) or stabilization of the closed state (c2b to c2t).
+we made the simplifying assumption that the major contribution to the channel po in the presence of sulfonylurea
+is produced by states with only a single drug molecule
+bound (i.e., only one sur in the tetramer is occupied).
+s370
+
+this model explains the incomplete block by sulfonylureas, because, even when drug is bound, the channel
+does not inevitably enter the closed states c2b and ct.
+entry into these closed states is not, therefore, directly
+proportional to the drug concentration, and channel opening is still possible, even at very high concentrations of the
+drug.
+the concentration-response curve for the high-affinity
+site is described by the following:
+g/gc ⫽ 关1 ⫹ l ⫻ 共关s兴/ic50兲h兴/关1 ⫹ 共关s兴/ic50兲h兴
+
+(1)
+
+where g is the conductance in the presence of the drug, gc
+is the conductance in the absence of drug, l is the fraction
+of current that remains unblocked in the presence of a
+saturating concentration of sulfonylurea, h is the hill
+coefficient, and ic50 is the drug concentration ([s]) at
+which the fraction of the current inhibitable with high
+affinity is blocked by 50%. the kinetic scheme depicted in
+fig. 2b allowed us to derive analytical equations that could
+be used to calculate the relation between the channel po
+and l (fig. 2c), and between po and ic50 (fig. 2d). it is
+clear that both l and ic50 increase with po. the value of l
+reaches unity when the po is maximal, which, in the case
+of the  xxxg1253xxx , is ⬃0.85, so that the model predicts
+that there will be no channel inhibition when po is
+maximal. this has in fact been observed for channels
+containing the mutation c166s, which have a po close to
+maximum (27). as predicted, reducing the po of kir6.2c166s/ xxxg19xxx  channels with atp partially restored sulfonylurea sensitivity (25). the predicted effect of po on the
+concentration-response curve is illustrated in fig. 2e, and
+resembles that found experimentally with increasing concentrations of pip2, which also increases po (29).
+deletion of the nh2-terminus of  xxxg1250xxx  ( xxxg1250xxx ⌬n) results in an increase in the channel po and a concomitant
+diabetes, vol. 51, supplement 3, december 2002
+
+p. proks and associates
+
+reduction in  xxxd3394xxx  block when  xxxg1250xxx ⌬n is coexpressed with  xxxg19xxx  (25). the reduction in block produced by deletion of up to nine residues can be accounted
+for simply by the increase in po. however, deletion of the
+first fourteen nh2-terminal residues produced a complete
+loss of  xxxd3394xxx  inhibition, an observation that cannot
+be explained solely by an increase in po. in addition,
+decreasing po with atp was unable to restore the  xxxd3394xxx  sensitivity of this deletion mutant (25). thus it
+appears that nh2-terminal residues may be involved in
+transducing sulfonylurea binding to  xxxg19xxx  into closure of
+the  xxxg1250xxx  pore.
+specificity of high-affinity sulfonylurea
+block
+
+studies of cloned channels have revealed that certain katp
+channel inhibitors ( xxxd3394xxx ,  xxxd2202xxx , and  xxxd2654xxx ) (19 –21,32,33) block katp channels containing  xxxg19xxx ,
+but not sur2a or sur2b, subunits with high affinity. in
+contrast, meglitinide blocks all three types of cloned katp
+channel with similar affinities (21). this finding has been
+interpreted to indicate that sulfonylureas resembling  xxxd3394xxx  in structure interact with a binding site that is
+specific to  xxxg19xxx , whereas benzamido compounds and
+their derivatives (like meglitinide) interact with a site that
+is common to all sur subtypes.  xxxd2215xxx  and
+ xxxd2203xxx , which contain both sulfonylurea and nonsulfonylurea moieties and block both  xxxg19xxx - and sur2containing channels, are postulated to interact with both
+sites on  xxxg19xxx , but only a single (benzamido-derivative)
+site on  xxxg20xxx  (21,34). the binding affinities and inhibitory
+potencies of these drugs for the high-affinity sites of
+different types of katp channels are illustrated in table 1.
+location of the sulfonylurea binding site on
+sur
+
+a single residue within the cooh-terminal set of transmembrane domains accounts for the difference in  xxxd3394xxx  sensitivity of  xxxg19xxx - and  xxxg20xxx -containing channels.
+mutation of serine 1237 in the cytoplasmic loop between
+tms 15 and 16 to tyrosine abolishes the high-affinity block
+of  xxxg1250xxx / xxxg19xxx  channels by  xxxd3394xxx  (35),  xxxd2654xxx 
+(33), and  xxxd2702xxx  (55). it is likely that this residue also
+interacts with the sulfonylurea moiety of drugs such as
+ xxxd2215xxx  and  xxxd2203xxx . this is suggested by the
+fact that  xxxd2215xxx  block of  xxxg1250xxx / xxxg19xxx , or native
+pos ⴝ po ⴛ (1 ⴙ ␬ ⴛ [s])/(1 ⴙ ␬ ⴛ [s] ⴙ ␬ ⴛ ␬to ⴛ po ⴛ [s] ⴙ
+␬2 ⴛ ␬ ⴛ ␬tc ⴛ po ⴛ [s]),
+where ␬2 ⴝ k2/k-2; ␬ ⴝ kb/k-b; ␬to ⴝ kto/kⴚto, and ␬tc ⴝ ktc/k-tc.
+equating pos/po with i/io leads to
+fig. 2. a: single-channel currents recorded at ⴚ60 mv in the absence
+(top) or presence (bottom) of a saturating concentration of  xxxd2202xxx 
+(10 ␮mol/l). b: kinetic scheme for  xxxg1253xxx  gating in the presence
+of sulfonylureas. agents that increase po usually mediate their effects
+by increasing the burst duration and reducing the frequency of the
+interburst closed states (i.e., they reduce k2). the relation between k2,
+po, and ic50 was derived as described previously (27). when drug is
+bound but untransduced, the channel can exist in states ob, c1b, or
+c2b. the closed states that result following the conformational change
+permitted by drug binding are given by ct and ct2. o, open state; c1,
+intraburst closed state; c2, lumped interburst closed states; gray box,
+burst state. c and d: relation between channel po and the fraction of
+current that remains unblocked in the presence of a saturating concentration of sulfonylurea (l) (c) or ic50 (d). the po in the presence
+of sulfonylurea predicted by the kinetic scheme in b is given by
+diabetes, vol. 51, supplement 3, december 2002
+
+l ⴝ ␬ ⴛ ic50 ⴝ 1/[1 ⴙ ␭ ⴛ (pmax ⴚ po)]
+where ic50 ⴝ 1/{␬ ⴛ [1 ⴙ ␭ ⴛ (pmax ⴚ po)]},
+␭ ⴝ kⴚ2 ⴛ exp(ⴚ⌬gs/rt) ⴛ [1 ⴙ exp(ⴚ⌬gc2t,ct/rt)]/(k ⴚ to ⴛ pmax),
+where ⌬gc2t,ct ⴝ gc2t ⴚ gct. for these plots, the values of ␭ and ␬
+were obtained from the ic50 and l (0.4) measured for  xxxd2202xxx  block
+of  xxxg1250xxx / xxxg19xxx  currents (19), assuming a po of 0.32 (25). ic50 ⴝ 50
+nmol/l for the high-affinity site and 3 mmol/l for the low-affinity site. e:
+relation between the inhibition of the katp current and drug concentration at various values of po, calculated using the kinetic scheme
+given in b and the equations in c and d. the low-affinity block is
+assumed to be unchanged by alterations in channel po, as found
+experimentally (25). the curves are fit to equation 2.
+s371
+
+sulfonylurea stimulation of insulin secretion
+
+␤-cell katp channels, is not easily reversed in electrophysiological recordings, whereas  xxxd2215xxx  block is rapidly reversed when  xxxg19xxx  contains the s1237y mutation.
+ xxxg1250xxx / xxxg20xxx  channels, which already possess a tyrosine at
+this position, also show reversible block by  xxxd2215xxx 
+and  xxxd2203xxx . in addition,  xxxd2215xxx  binding to
+ xxxg19xxx  is greatly decreased by the s1237y mutation (35),
+whereas  xxxd2215xxx  binding to sur2b is enhanced by
+the reverse mutation (36,37). thus s1237 must contribute
+to the binding site for sulfonylureas on  xxxg19xxx . it is possible
+that the bulkier volume of the tyrosine side chain, as
+compared to serine, sterically hinders the binding of the
+sulfonylurea moiety, thereby accounting for its inability to
+interact with  xxxg20xxx .
+the fact that  xxxd2215xxx  blocks  xxxg1250xxx / xxxg19xxx -s1237y
+channels indicates that residues other than s1237 are
+critical for binding of this drug. likewise, the block of
+ xxxg1250xxx / xxxg19xxx  by meglitinide and  xxxd3098xxx , which do not
+possess a sulfonylurea moiety, is unaltered by the s1237y
+mutation (35,53), suggesting that these drugs do not interact with this residue. recent studies have shown that two
+nonadjacent cytosolic loops of  xxxg19xxx , linking tms 5 and 6
+and tms 15 and 16, are critical for [3h] xxxd2215xxx 
+binding (38). because the tm 15–16 loop contains s1237,
+this raises the possibility that the tm 5– 6 loop may
+interact with benzamido compounds and their derivatives.
+interestingly, the drug-binding site of the related abc
+transporter  xxxg13xxx   xxxg1448xxx  also involves sites in both nh2- and
+cooh-terminal parts of the protein, and the tm 5– 6 loop
+is essential for high-affinity drug binding (39).
+these data do not imply that only residue s1237 in the
+tm 15–16 loop and unidentified residues in the tm 5– 6
+loop interact with sulfonylureas. however, it is clear that
+these residues are critical for high-affinity interactions.
+this suggests that despite their separate location in the
+primary structure of sur, the cytosolic loops between
+tms 5– 6 and tms 15–16 lie in close proximity in the
+three-dimensional structure of the channel. the maximal
+distance between them must be the length of the  xxxd2215xxx  molecule (17 å), but because the molecule is very
+flexible, they could be much closer. the location of the
+sulfonylurea binding site(s) within the cytosolic loops of
+sur is consistent with earlier studies suggesting an intracellular site of action for sulfonylureas (40).
+interactions between  xxxg1250xxx  and sur
+
+it is well established that the sulfonylurea receptor can
+modulate the activity of  xxxg1250xxx , because binding of sulfonylureas or mgadp to sur results in a decrease or
+increase of channel activity, respectively. there is growing
+evidence that kir6.x can also affect the properties of sur.
+co-expression of  xxxg150xxx   xxxg1255xxx  with sur2a, or mutant sur2b,
+has been shown to increase the affinity of [3h] xxxd2215xxx  binding by fivefold and fourfold, respectively
+(23,36). an even greater increase in affinity (eightfold) was
+found when  xxxg1250xxx  was co-expressed with mutant sur2b
+(36). coexpression of  xxxg1250xxx  with  xxxg19xxx  has variously been
+reported to increase the affinity of [3h] xxxd2215xxx  binding (32) and to not affect it (22,41). interestingly, dörschner and colleagues (22) found no change in the
+[3h] xxxd2215xxx  binding affinity of  xxxg19xxx  or  xxxg20xxx  on
+co-expression with kir6.x. these discrepancies may be a
+s372
+
+result of the different experimental conditions used by the
+groups or different fractions of uncoupled sur subunits in
+the presence of kir6.x. it is clear that additional experiments are needed to resolve this controversy.
+modulation of sulfonylurea block by pip2
+
+the phospholipid pip2 reduces the maximal block produced by saturating concentrations of  xxxd3394xxx  (28)
+and  xxxd2215xxx  (29). it also increases the ic50 of the
+drug-sensitive fraction of channels. the effects of pip2 are
+attenuated by the mutation r176a in  xxxg1250xxx  (29), which is
+believed to reduce pip2 binding to this subunit. furthermore, negatively charged lipids reduce  xxxd2215xxx 
+block with similar potency, whereas neutral or weakly
+charged lipids have no effect. as described above, the
+effects of pip2 on sulfonylurea sensitivity can be largely
+accounted for by the increase in channel po produced by
+the phospholipid. however, it is also possible that pip2
+(like the nh2-terminal deletions) has additional effects on
+sulfonylurea block that are masked by the effect on the
+channel po.
+the amount of pip2 in the membrane can vary as a
+result of altered phospholipid metabolism. thus pip2 is
+expected to fall in response to ischemia (because falling
+atp levels reduce its generation from pip by phosphorylation) and increase when phosphatidylinositol kinases are
+stimulated. this means that pip2 regulation of  xxxd2215xxx  block will also be subject to regulation.
+modulation of sulfonylurea block by mg
+nucleotides
+
+as fig. 1b shows, in the excised patch, the concentrationresponse curve for  xxxg1253xxx  inhibition by sulfonylureas is best fit by assuming both high- and low-affinity
+sites, with a maximum of 60 –70% block at the high-affinity
+site. this is not the case when sulfonylurea block is
+measured in whole cells. remarkably, sulfonylureas produce complete (⬎90%) high-affinity inhibition of both the
+native ␤-cell  xxxg1253xxx  (42,43) and its cloned counterpart,  xxxg1250xxx / xxxg19xxx  (44), when measured in the whole-cell
+configuration. this difference may arise because experiments on recombinant katp channels have largely been
+carried out in excised patches, whereas experiments on
+native katp channels have mainly been carried out in
+whole cells. we therefore compared the concentrationresponse curve for  xxxd2202xxx  block of  xxxg1250xxx / xxxg19xxx  currents in the intact cell with that in the inside-out patch.
+figure 3a and b shows that there was no significant
+difference in the  xxxd2202xxx  concentration producing halfmaximal block of  xxxg1250xxx / xxxg19xxx  channels or native ␤-cell
+katp channels when measured in the whole cell (108 ⫾ 3
+and 184 ⫾ 30 nmol/l, respectively), and the maximum
+block was similar, being ⬎90% in both cases. in contrast,
+there was a marked difference in the maximal extent of
+ xxxd2202xxx  block of  xxxg1250xxx / xxxg19xxx  currents when measured in
+the intact cell and in the excised patch, which amounted to
+93 and 60%, respectively.
+one explanation for the difference in the shape of the
+concentration-response curve in excised patches and
+whole cells is that it results from the presence of intracellular mgadp, which is always present in the intact cell, but
+not, unless deliberately added, in excised patches. intradiabetes, vol. 51, supplement 3, december 2002
+
+p. proks and associates
+
+fig. 3. a: whole-cell katp currents recorded using a two-electrode
+voltage clamp from an intact oocyte expressing  xxxg1250xxx / xxxg19xxx , in response to a series of depolarizing and hyperpolarizing 10-mv pulses
+from a holding potential of ⴚ10 mv. azide (3 mmol/l) and  xxxd2202xxx  (1
+mmol/l) were added to the extracellular solution, as indicated. methods are the same as those described in ref. 42. b: mean relation
+between  xxxd2202xxx  concentration and inhibition of the  xxxg1250xxx / xxxg19xxx 
+current, measured in the intact oocyte (n ⴝ 6). the current evoked by
+a voltage step to ⴚ100 mv in the presence of  xxxd2202xxx  (i) is expressed
+as a fraction of its amplitude in the absence of the drug (io). the solid
+line is the best fit of equation 1 to the data, with ic50 ⴝ 108 ⴞ 3 nmol/l
+(n ⴝ 5), h ⴝ 0.81, and l ⴝ 0. the dotted line shows the fit obtained for
+ xxxd2202xxx  block of  xxxg1250xxx / xxxg19xxx  currents in the excised patch configuration (see fig. 1). the dashed line shows the fit obtained for  xxxd2202xxx 
+block of the native ␤-cell  xxxg1253xxx  in whole-cell recordings from
+mouse pancreatic ␤-cells (ic50 ⴝ 184 nmol/l) (42). c: relation between
+ xxxd2202xxx  concentration and inhibition of the  xxxg1250xxx / xxxg19xxx  current,
+measured in the inside-out patch in the presence of 100 ␮mol/l mgadp
+(n ⴝ 5). the current evoked by a voltage step to ⴚ100 mv in the
+presence of  xxxd2202xxx  (i) is expressed as a fraction of its mean
+amplitude in the absence of the drug (io). the solid line is the best fit
+of equation 1 to the data, with ic50 ⴝ 204 nmol/l, h ⴝ 1.13, and l ⴝ
+0.065. the dashed line shows the fit obtained in the absence of added
+nucleotide (adapted from gribble et al. [19]).
+
+cellular mgadp has been shown to produce an apparent
+increase in the efficacy of  xxxd3394xxx  inhibition in both
+native and recombinant ␤-cell katp channels (20,44,45).
+diabetes, vol. 51, supplement 3, december 2002
+
+ xxxd2202xxx  block of  xxxg1250xxx / xxxg19xxx  currents in inside-out
+patches was also much greater in the presence of 100
+␮mol/l mgadp (fig. 3c), and the concentration-inhibition
+relation was best fit with a single-site model with an ic50 of
+204 ⫾ 7 nmol/l (n ⫽ 5). this finding was consistent with
+the idea that the difference in the maximal block mediated
+via the high-affinity site in excised patch and whole-cell
+recordings results from the presence of mgadp in the
+intact cell.
+mgadp has both stimulatory and inhibitory effects on
+the  xxxg1253xxx , mediated by the sur and  xxxg1250xxx  subunits, respectively (8). it has previously been hypothesized
+that the nucleotide produces an apparent enhancement of
+sulfonylurea block of  xxxg1250xxx / xxxg19xxx  currents, because the
+drug abolishes the stimulatory action of mgadp, while
+leaving the inhibitory effect untouched (20). consequently,
+the combined inhibitory effects of sulfonylurea and nucleotide result in an enhanced inhibition. if this idea is
+correct, then  xxxd2202xxx  block of mutant katp channels that
+show reduced nucleotide inhibition should be unaffected
+by mgadp.
+mutation of the arginine at position 50 of  xxxg1250xxx  to
+glycine ( xxxg1250xxx -r50g) strongly reduces nucleotide block at
+the inhibitory site on  xxxg1250xxx  (46). the extent of this
+reduction can be quantified by examining the effect of adp
+in the absence of mg2⫹, because, in mg-free solution, the
+stimulatory effect of adp is abolished and the inhibitory
+effect of adp is unmasked (20). as fig. 4a shows, when
+tested in the absence of mg2⫹, adp potently blocked
+ xxxg1250xxx / xxxg19xxx  currents, but blocked  xxxg1250xxx -r50g/ xxxg19xxx  currents much less effectively (⬍15%). as a result of this
+reduction in nucleotide block, adp produced an enhanced
+stimulation of  xxxg1250xxx -r50g/ xxxg19xxx  currents (compared with
+control currents) when applied in the presence of mg2⫹.
+in the absence of nucleotides, the extent of  xxxd2202xxx 
+block of  xxxg1250xxx -r50g/ xxxg19xxx  was similar to that found for
+the wild-type channel, whether measured in the presence
+or absence of mg2⫹ (fig. 4b and c). thus the r50g
+mutation did not interfere with the action of the drug.
+however, although mgadp enhanced  xxxd2202xxx  block of
+wild-type channels, this was not the case for  xxxg1250xxx -r50g/
+ xxxg19xxx  channels; indeed, the currents were actually slightly
+larger in the presence of the drug (fig. 4b). these data
+support the idea that  xxxd2202xxx  reduces the stimulatory
+action of mgadp on wild-type channels and unmasks the
+inhibitory effect of the nucleotide. the fact that kir6.2r50g/ xxxg19xxx  currents are somewhat greater in the presence
+of both drug and mgadp than in the presence of  xxxd2202xxx 
+alone suggests that 10 ␮mol/l  xxxd2202xxx  markedly reduces,
+but does not totally abolish, the stimulatory action of the
+nucleotide. an alternative explanation is that mgadp
+reduces the potency of  xxxd2202xxx  block, as 10 ␮mol/l
+ xxxd2202xxx  would not then saturate the high-affinity site.
+if  xxxd2202xxx  prevents the stimulatory action of mgadp,
+and unmasks its inhibitory effect, then the combined block
+by  xxxd2202xxx  and adp on wild-type channels should be
+similar in the absence and presence of mg2⫹. this was in
+fact observed (fig. 4b and c). when mg2⫹ was absent,
+ xxxg1250xxx -r50g/ xxxg19xxx  currents were of similar amplitude in
+the presence of  xxxd2202xxx  or  xxxd2202xxx  plus adp (fig. 4c).
+this is presumably because adp did not cause substantial
+block of the mutant channel. because mgatp is the
+s373
+
+sulfonylurea stimulation of insulin secretion
+
+fig. 4. a: mean  xxxg1250xxx / xxxg19xxx  or  xxxg1250xxx -r50g/
+ xxxg19xxx  conductance in the presence of 100
+␮mol/l adp (■), 100 ␮mol/l adp ⴙ 2 mmol/l
+mg2ⴙ ( ), or 100 ␮mol/l atp plus 2 mmol/l
+mg2ⴙ (p). b and c: mean  xxxg1250xxx / xxxg19xxx  or
+ xxxg1250xxx -r50g/ xxxg19xxx  conductance in the presence of 10 ␮mol/l  xxxd2202xxx  (䡺), 10 ␮mol/l
+ xxxd2202xxx  plus 100 ␮mol/l adp ( ), or 10
+␮mol/l  xxxd2202xxx  plus 100 ␮mol/l atp (p), in
+the presence (b) or absence (c) of 2 mmol/l
+mg2ⴙ. conductance (g) is expressed as a fraction of that in the absence of the drug and
+nucleotide (gc). the number of patches is
+given above each bar. the dashed line indicates the control conductance level.
+
+predominant mg nucleotide in vivo, we also examined the
+effect of  xxxd2202xxx  on mgatp activation.  xxxg1250xxx -r50g/
+ xxxg19xxx  currents were activated by mgatp (fig. 4a), because the inhibitory effect of the nucleotide was impaired
+by the r50g mutation (10). as with adp, the stimulatory
+action of atp in the presence of mg2⫹ was abolished by
+ xxxd2202xxx  (fig. 4b).
+the potency of  xxxd2202xxx  block was significantly different when measured in the absence and presence of 100
+␮mol/l mgadp in excised patches (ic50 of 50 and 204
+nmol/l, respectively). it is therefore possible that mgadp
+caused a small reduction in drug potency. this might also
+explain why  xxxd2202xxx  was somewhat less potent in intact
+oocytes (108 nmol/l). it also would be consistent with the
+fact that  xxxd2202xxx  block of  xxxg1250xxx -r50g/ xxxg19xxx  currents is
+less in the presence of mgadp than in its absence.
+although the effects of mg nucleotides on  xxxd2202xxx  binding have not been investigated, it is known that [3h] xxxd2215xxx  binding to native ␤-cell katp channels is
+decreased by mgadp (47). it is not clear whether  xxxd2202xxx  displaces mgadp from the nucleotide-binding domains of  xxxg19xxx , or if it uncouples mgadp binding from
+channel activation. however,  xxxd2215xxx  has been
+shown to cause unbinding of 8-azido-[32p]atp to nbd1 of
+ xxxg19xxx  in the presence of mgadp (48), lending some
+support to the former hypothesis.
+transduction
+
+binding of sulfonylureas to the cytoplasmic domains of
+ xxxg19xxx  ultimately results in closure of the pore formed by
+ xxxg1250xxx . precisely how this transduction occurs is unknown.
+there must be a close physical association between the
+ xxxd2215xxx  binding site on sur and the  xxxg1250xxx  subunit,
+as both proteins can be photoaffinity labeled by [125i] xxxd2215xxx  (7). five residues within the first tm of  xxxg1250xxx 
+are essential for interaction with sur (49), and recent
+studies have indicated that the first five tms of  xxxg19xxx  are
+also involved (50). however, although these regions are
+required for structural interactions, it is not clear whether
+they are also involved in functional coupling. mutagenesis
+studies, however, have implicated the nh2-terminus of
+s374
+
+ xxxg1250xxx  and the cooh-terminus of  xxxg19xxx  in coupling sulfonylurea binding to channel inhibition (25,26).
+conclusion and perspectives
+
+sulfonylureas have been used for many years to treat type
+2 diabetes, but it is only now that the details of their
+molecular mechanism of action are beginning to be unraveled. as first proposed by henquin and colleagues (51),
+antidiabetogenic sulfonylureas, benzamido compounds,
+and their derivatives appear to interact with more than one
+part of the  xxxg1253xxx . this suggests that, like other
+atp-binding cassette transporters, sur possesses a large
+multifaceted drug-binding pocket that can accommodate
+several structurally distinct compounds. individual compounds differ in the residues within this pocket with which
+they interact. studies of recombinant katp channels suggest that the sulfonylurea moiety interacts with residues in
+the tm 15–16 linker of  xxxg19xxx , whereas benzamido derivatives may interact with the tm 5– 6 linker in the nh2terminal part of the protein. how these different parts of
+the sulfonylurea receptor contribute to drug binding, and
+how this is transduced into changes in channel activity,
+remains far from clear and awaits determination of the
+structure of sur, and its relation to  xxxg1250xxx , at atomic
+resolution.
+currently, sulfonylureas are classified as first- and
+second-generation drugs, although there is no structural or
+functional basis for this classification. we now know that
+some sulfonylureas bind with high-affinity to  xxxg19xxx , but not
+ xxxg20xxx , whereas others interact with both types of sur. we
+therefore propose that the classification of sulfonylureas,
+meglitinide derivatives, and structurally related compounds be changed to reflect the functional differences
+among these drugs, and that they be referred to instead as
+ xxxg19xxx -specific and non– xxxg19xxx -specific.
+acknowledgments
+
+we thank the wellcome trust and the beit memorial trust
+for support. f.a. is the royal society glaxosmithkline
+research professor, p.p. is a beit memorial trust fellow,
+diabetes, vol. 51, supplement 3, december 2002
+
+p. proks and associates
+
+f.g. is wellcome trust clinician scientist fellow, and f.r.
+is a diabetes u.k. r.d. lawrence fellow.
+references
+1. ashcroft fm, rorsman p: electrophysiology of the pancreatic beta-cell.
+prog biophys mol biol 54:87–143, 1989
+2. nichols cg, lederer wj:  xxxd83xxx -sensitive potassium
+channels in the cardiovascular system. am j physiol 261:h1675–h1686,
+1991
+3. miki t, liss b, minami k, shiuchi t, saraya a, kashima y, horiuchi m,
+ashcroft f, minokoshi y, roeper j, seino s: atp-sensitive k⫹ channels in
+the hypothalamus are essential for the maintenance of glucose homeostasis. nat neurosci 4:507–512, 2001
+4. yamada k, ji jj, yuan h, miki t, sato s, horimoto n, shimizu t, seino s,
+inagaki n: protective role of atp-sensitive potassium channels in hypoxiainduced generalized seizure. science 292:1543–1546, 2001
+5. quayle jm, nelson mt standen nb: atp-sensitive and inwardly rectifying
+potassium channels in smooth muscle. physiol rev 77:1165–1232, 1997
+6. ashcroft fm, gribble fm: atp-sensitive k⫹ channels and insulin secretion:
+their role in health and disease. diabetologia 42:903–919, 1999
+7. aguilar-bryan l, bryan j: molecular biology of adenosine triphosphatesensitive potassium channels. endocr rev 20:101–135, 1999
+8. tucker sj, gribble fm, zhao c, trapp s, ashcroft fm: truncation of  xxxg1250xxx 
+produces atp-sensitive k-channels in the absence of the sulphonylurea
+receptor. nature 387:179 –181, 1997
+9. nichols cg, shyng sl, nestorowicz a, glaser b, clement jp, gonzalez g,
+aguilar-bryan l, permutt ma, bryan j:  xxxd80xxx  as an
+intracellular regulator of insulin secretion. science 272:1785–1787, 1996
+10. gribble fm, tucker sj, haug t, ashcroft fm: mgatp activates the
+beta-cell  xxxg1253xxx  by interaction with its  xxxg19xxx  subunit. proc natl
+acad sci u s a 95:7185–7190, 1998
+11. gribble fm, tucker sj, ashcroft fm: the essential role of the walker a
+motifs of  xxxg19xxx  in k-atp channel activation by mg-adp and  xxxd1868xxx .
+embo j 16:1145–1152, 1997
+12. shyng s, ferrigni t, nichols cg: regulation of  xxxg1253xxx  activity by
+ xxxd1868xxx  and mgadp: distinct functions of the two nucleotide binding
+folds of the sulfonylurea receptor. j gen physiol 110:643– 654, 1997
+13. aguilar-bryan l, nichols cg, wechsler sw, clement jp 4th, boyd ae 3rd,
+gonzalez g, herrera-sosa h, nguy k, bryan j, nelson da: cloning of the
+beta-cell high-affinity sulphonylurea receptor: a regulator of insulin secretion. science 268:423– 425, 1995
+14. inagaki n, gonoi t, clement jp, wang cz, aguilar-bryan l, bryan j, seino,
+s: a family of sulfonylurea receptors determines the properties of atpsensitive k⫹ channels. neuron 16:1011–1017, 1996
+15. isomoto s, kondo c, yamada m, matsumoto s, horio y, matsuzawa y,
+kurachi y: a novel sulphonylurea receptor forms with bir ( xxxg1250xxx ) a
+smooth muscle type of atp-sensitive k⫹ channel. j biol chem 271:24321–
+24325, 1996
+16. mukai e, ishida h, horie m, noma a, seino y, takano m: the antiarrhythmic agent cibenzoline inhibits k-atp channels by binding to  xxxg1250xxx .
+biochem biophys res commun 251:477– 481, 1998
+17. proks p, ashcroft fm:  xxxd2914xxx  block of k-atp channels is mediated
+by  xxxg1250xxx . proc natl acad sci u s a 94:11716 –11720, 1997
+18. gribble fm, davis tme, higham ce, clark a, ashcroft fm: the antimalarial agent mefloquine inhibits atp-sensitive k-channels. br j pharmacol
+131:756 –760, 2000
+19. gribble fm, ashcroft fm: differential sensitivity of ␤-cell and extrapancreatic katp channels to  xxxd2202xxx . diabetologia 42:845– 848, 1999
+20. gribble fm, tucker sj, ashcroft fm: the interaction of nucleotides with
+the  xxxd3394xxx  block of k-atp currents: a reinterpretation. j physiol
+504:35– 45, 1997
+21. gribble fm, tucker sj, seino s, ashcroft fm: tissue specificity of
+sulphonylureas: studies on cloned cardiac and beta-cell katp channels.
+diabetes 47:1412–1418, 1998
+22. dörschner h, brekardin e, uhde i, schwanstecher c, schwanstecher m:
+stoichiometry of sulfonylurea-induced atp-sensitive  xxxg1232xxx 
+closure. mol pharmacol 55:1060 –1066, 1999
+23. russ u, hambrock a, artunc f, löffler-walz c, horio y, kurachi y, quast
+u: coexpression with the inward rectifier k⫹ channel  xxxg150xxx   xxxg1255xxx  increases the
+affinity of the vascular sulfonylurea receptor sur2b for  xxxd2215xxx . mol
+pharmacol 56:955–961, 1999
+24. barrett-jolley r, davies nw: kinetic analysis of the inhibitory effect of
+ xxxd2215xxx  on katp channels of mammalian skeletal muscle. j membr
+biol 155:257–262, 1997
+25. reimann f, tucker sj, proks p, ashcroft fm: involvement of the ndiabetes, vol. 51, supplement 3, december 2002
+
+terminus of  xxxg1250xxx  in coupling to the sulphonylurea receptor. j physiol
+518:325–336, 1999
+26. sakura h, trapp s, liss b, ashcroft fm: altered functional properties of
+ xxxg1253xxx  conferred by a novel splice variant of  xxxg19xxx . j physiol
+521:337–350, 1999
+27. trapp s, proks p, tucker sj, ashcroft fm: molecular analysis of atpsensitive k channel gating and implications for channel inhibition by atp.
+j gen physiol 112:333–349, 1998
+28. koster jc, sha q, nichols cg: sulfonylurea and k⫹-channel opener
+sensitivity of katp channels: functional coupling of  xxxg1250xxx  and  xxxg19xxx 
+subunits. j gen physiol 114:203–213, 1999
+29. krauter t, ruppersberg jp, baukrowitz t: phospholipids as modulators of
+katp channels: distinct mechanisms for control of sensitivity to sulphonylureas, k⫹ channel openers, and atp. mol pharmacol 59:1086 –1093, 2001
+30. shyng s-l, nichols cg: membrane phospholipid control of nucleotidesensitivity of katp channels. science 282:1139 –1141, 1998
+31. baukrowitz t, schulte u, oliver d, herlitze s, krauter t, tucker sj,
+ruppersberg jp, fakler b: pip2 and pip as determinants for atp-inhibition
+of katp channels. science 282:1141–1144, 1998
+32. sunaga y, gonoi t, shibasaki t, ichikawa k, kusama h, yano h, seino s:
+the effects of  xxxd2654xxx  (kad-1229), a new anti-diabetic drug, on
+atp-sensitive k⫹ channels and insulin secretion: comparison with the
+sulfonylureas and  xxxd2702xxx . eur j pharmacol 431:119 –125, 2001
+33. reimann f, proks p, ashcroft fm: effects of  xxxd2654xxx  (s 21403) on
+ xxxg1250xxx / xxxg19xxx ,  xxxg1250xxx /sur2a and  xxxg1250xxx /sur2b types of atp-sensitive  xxxg1232xxx . br j pharmacol 132:1542–1548, 2001
+34. song dk, ashcroft fm:  xxxd2203xxx  block of cloned ␤-cell, cardiac and
+smooth muscle k-atp channels. br j pharmacol 133:193–199, 2001
+35. ashfield r, gribble fm, ashcroft sjh, ashcroft fm: identification of the
+high-affinity  xxxd3394xxx  site on the  xxxg19xxx  subunit of the  xxxg1253xxx .
+diabetes 48:1341–1347, 1999
+36. hambrock a, löffler-walz c, russ u, lange u, quast u: characterization of
+a mutant sulfonylurea receptor sur2b with high affinity for sulfonylureas
+and openers: differences in the coupling to kir6.x subtypes. mol pharmacol
+60:190 –199, 2001
+37. löffler-walz c, hambrock a, quast u: interaction of k-atp channel
+modulators with sulfonylurea receptor sur2b: implication for tetramer
+formation and allosteric coupling of subunits. mol pharmacol 61:407– 414,
+2002
+38. mikhailov mv, mikhailova ea, ashcroft sjh: molecular structure of the
+ xxxd2215xxx  binding site of the beta-cell k-atp channel. febs lett
+499:154 –160, 2001
+39. qian ym, qiu w, gao m, westlake cj, cole sp, deeley rg: characterization of binding of leukotriene c4 by human  xxxg12xxx  1:
+evidence of differential interactions with nh2- and cooh-proximal halves
+of the protein. j biol chem 276:38636 –38644, 2001
+40. schwanstecher m, schwanstecher c, dickel c, chudziak f, moshiri a,
+panten u: location of the sulphonylurea receptor at the cytoplasmic face
+of the beta-cell membrane. br j pharmacol 113:903–1011, 1994
+41. mikhailov mv, mikhailova ea, ashcroft sjh: investigation of the molecular assembly of ␤-cell katp channels. febs lett 482:59 – 64, 2000
+42. trube g, rorsman p, ohno-shosaku t: opposite effects of  xxxd3394xxx  and
+ xxxd1868xxx  on the atp-dependent k⫹ channel in mouse pancreatic betacells. pflügers arch 407:493– 499, 1986
+43. lawrence cl, proks p, rodrigo gc, jones p, hayabuchi y, standen nb,
+ashcroft fm:  xxxd2202xxx  produces high-affinity block of katp channels in
+mouse isolated pancreatic ␤-cells but not rat heart or arterial smooth
+muscle cells. diabetologia 44:1019 –1025, 2001
+44. zünckler bj, lins s, ohno-shosaku t, trube g, panten u: cytosolic adp
+enhances the sensitivity of  xxxd3394xxx  of atp-dependent k⫹ channels
+from pancreatic ␤-cells. febs lett 239:241–244, 1988
+45. schwanstecher c, dickel c, panten u: cytosolic nucleotides enhance the
+ xxxd3394xxx  sensitivity of the atp-dependent k-channel in mouse pancreatic beta-cells by their combined actions at inhibitory and stimulatory
+sites. mol pharmacol 41:480 – 486, 1992
+46. proks p, gribble fm, adhikari r, tucker sj, ashcroft fm: involvement of
+the n-terminus of  xxxg1250xxx  in the inhibition of the  xxxg1253xxx  by atp.
+j physiol 514:19 –25, 1999
+47. schwanstecher m, loser s, rietze i, panten u: phosphate and thiophosphate group donating adenine and guanine nucleotides inhibit  xxxd2215xxx  binding to membranes from pancreatic islets. naunyn
+schmiedebergs arch pharmacol 343:83– 89, 1991
+48. ueda k, komine j, matsuo m, seino s, amachi t: cooperative binding of
+atp and mgadp in the sulphonylurea receptor is modulated by  xxxd2215xxx . proc natl acad sci u s a 96:1268 –1272, 1999
+49. schwappach b, zerangue n, jan yn, jan ly: molecular basis for katp
+s375
+
+sulfonylurea stimulation of insulin secretion
+
+assembly: transmembrane interactions mediate association of a k⫹ channel with an  xxxg22xxx . neuron 26:155– 67, 2000
+50. chan kw, logothetis de: the first transmembrane domain of  xxxg19xxx 
+enhances functional expression of  xxxg1250xxx  (abstract). biophys j 80:2820,
+2001
+51. henquin jc, garrino mg, nenquin m: stimulation of insulin release by
+ xxxd306xxx  derivatives related to the non-sulphonylurea moiety of
+ xxxd2215xxx : structural requirements and cellular mechanisms. eur
+j pharmacol 141:243–251, 1987
+52. giblin jp, leaney jl, tinker a: the molecular assembly of atp-sensitive
+
+s376
+
+potassium channels: determinants of the pore forming subunit. j biol
+chem 274:22652–22659, 1999
+53. dabrowski m, wahl p, holmes we, ashcroft fm: effect of  xxxd3098xxx  on
+cloned beta cell, cardiac and smooth muscle types of atp-sensitive
+ xxxg1232xxx . diabetologia 44:747–756, 2001
+54. babenko ap, gonzalez g, aguilar-bryan l, bryan j: reconstituted human
+cardiac katp channels. circ res 83:1132–1143, 1998
+55. hansen amk, christensen it, hansen jb, carr rd, ashcroft fm, wahl p:
+differential actions of  xxxd2702xxx  and  xxxd3098xxx  on the human sulphonylurea receptor 1. diabetes 51:2789 –2795, 2002
+
+diabetes, vol. 51, supplement 3, december 2002
+

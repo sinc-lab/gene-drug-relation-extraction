@@ -1,0 +1,5081 @@
+s t e r o i d s 7 3 ( 2 0 0 8 ) 193–208
+
+available at www.sciencedirect.com
+
+journal homepage: www.elsevier.com/locate/steroids
+
+ xxxg1601xxx  binding: a biphasic dependence on
+molecular size as revealed by the bilinear linbiexp model
+peter buchwald ∗
+molecular and cellular pharmacology and diabetes research institute, miller school of medicine,
+university of miami, 1450 nw 10 avenue (r-134), miami, fl 33136, united states
+
+a r t i c l e
+
+i n f o
+
+a b s t r a c t
+
+article history:
+
+for corticosteroids, receptor-binding afﬁnity (rba) at the  xxxg1601xxx  (gr) is a
+
+received 7 august 2007
+
+major determinant of therapeutic potential. here, the results of a comprehensive quan-
+
+received in revised form
+
+titative analysis of relative rba (rrba) data obtained from more than a hundred active
+
+26 september 2007
+
+structures are reported. because of a clear biphasic size-dependence, the recently intro-
+
+accepted 3 october 2007
+
+duced linearized biexponential (linbiexp) model provided very good ﬁt: for steroids that
+
+published on line 11 october 2007
+
+satisfy the main binding criteria at the gr, it accounts for close to 80% of the variability in
+
+keywords:
+
+molecular volume and an indicator variable for the presence of 6␣/9␣-halogen or cyclic
+
+fluorination
+
+16,17-acetal moieties. accordingly, binding is strongest for corticosteroids close to an ideal
+
+glucocorticoid
+
+size that is large enough to provide as large nonspeciﬁc (van der waals-type) interactions as
+
+molecular size
+
+possible, but is not too large to have difﬁculty ﬁtting due to size-limitations at the binding
+
+structure–activity relationship
+
+site. binding afﬁnity is dramatically increased by 6␣- or 9␣-halogenation or introduction of
+
+binding afﬁnity
+
+a cyclic 16,17-acetal moiety (in average, about 7-fold), but there is no signiﬁcant increase
+
+the free energy of binding g0 (or log rrba) data by using only two descriptors: calculated
+
+after the ﬁrst substitution. known highly active glucocorticoids, such as betamethasone
+17-monopropionate, ﬂuticasone propionate, or  xxxd2665xxx , indeed satisfy both
+of these criteria. for small-enough structures, the obtained size-dependency (slope) of the
+free energy of binding suggest that, as long as only nonspeciﬁc interactions are involved,
+addition of a methylene-sized non-hydrogen atom to the ligand structure increases g0 on
+average by about 1.5 kj/mol, corresponding to an almost doubling of the binding afﬁnity.
+© 2007 elsevier inc. all rights reserved.
+
+1.
+
+introduction
+
+because of their ability to exert intense biological effects in
+almost any organ, corticosteroids are one of the most widely
+used drug classes [1–3]. they are commonly utilized in a
+variety of clinical diseases and are even the drug of choice
+and the mainstay of therapy in many of them, mainly due
+to their potent antiinﬂammatory and immunosuppressive
+effects [1,4,5]. despite the long and widespread use of glucocorticoids and the considerable time since the concept of
+
+∗
+
+tel.: +1 305 243 9657.
+e-mail address: pbuchwald@med.miami.edu.
+0039-128x/$ – see front matter © 2007 elsevier inc. all rights reserved.
+doi:10.1016/j.steroids.2007.10.001
+
+steroid  xxxg1603xxx  action was laid down [6], the molecular mechanism of their action(s) started to emerge only in
+the last 20 years [7–9]. these steroids exert their main effect
+by binding to glucocorticoid receptors (grs), a member of
+the steroid–thyroid–retinoid receptor super-family [10,11]. not
+surprisingly, gr, together with the  xxxg1078xxx , are
+the target with the most number of drugs approved [12]. grs
+are predominantly localized to the cytoplasm of target cells
+and move into the nuclear compartment only on binding of the
+glucocorticoid. the crystal structure of the human gr ligand-
+
+194
+
+s t e r o i d s 7 3 ( 2 0 0 8 ) 193–208
+
+binding domain (lbd) bound to dexamethasone as well as
+mifepristone ( xxxd2643xxx ) has been determined by using receptors
+with single point mutations (e.g., f602 s,  xxxd2587xxx  d) [13,14]. it should
+be mentioned that even if steroids exert their main action via
+binding to these hormone receptors that regulate the expression of corticosteroid-responsive genes, there is increasing
+evidence that corticosteroids can exert non-genomic effects as
+well [15–17]. there also seems to be a physical and functional
+interaction between the  xxxg1601xxx  and the t-cell
+receptor complex underlying the non-genomic glucocorticoidinduced immunosuppression in t cells [18]. a number of
+structural requirements for glucocorticoid and mineralocorticoid activities are now commonly accepted [1]. some of the
+more important ones are summarized in fig. 1 together with
+the common numbering and notation system of these structures; more detailed reviews have been published recently
+[2,3].
+
+the therapeutic potential of a compound is a function
+of various properties determining both the efﬁcacy of the
+stimulus–response mechanism [19] and the overall absorption, distribution, metabolism, and excretion (adme) behavior,
+with receptor-binding afﬁnity (rba) being, in general, a major
+determinant. for corticosteroids, it is even more so, because
+grs from different tissues and even from different species
+seem to be essentially the same; consequently, relative rbas
+(rrbas; usually expressed as percent values with dexamethasone as reference) are commonly used as a measure of
+potency. there are also indications that ligand rba inﬂuences
+even gr molecular mechanisms, for example, it alters gr
+mobility in living cells [20]. indeed, for corticosteroids, various in vitro and in vivo pharmacological properties tend to
+correlate closely with rba [21]; e.g., rba has been shown to
+be related to the clinical efﬁcacy of inhaled glucocorticoids
+[22], to side-effects such as cortisol suppression [23,24], or
+
+fig. 1 – numbering and notation system of steroid structures with commonly accepted structure–activity relationships (sar)
+and selected representative structures for which gr-binding data were available.
+
+s t e r o i d s 7 3 ( 2 0 0 8 ) 193–208
+
+195
+
+fig. 2 – average recommended daily doses of inhaled corticosteroids (a) [26] and estimated daily doses causing 10% (cs10 )
+and 20% (cs20 ) auc cortisol suppression (b) [40] as a function of relative receptor-binding afﬁnities (rrba). bud: budesonide
+(4), flu: ﬂunisolide (3), fp: ﬂuticasone propionate (7), taa:  xxxd3418xxx  (5), and bdp:  xxxd293xxx   xxxd294xxx 
+dipropionate (9), which is the only exception as it is inactive and is a prodrug that has to be transformed into the active
+17␣-monopropionate (bmp, whose rrba value was used in the ﬁgure).
+
+to immunosuppressive potency [25]. accordingly, for example, for inhaled corticosteroids [26], average recommended
+daily doses are closely correlated with rrba (fig. 2a); the
+only exception being  xxxd294xxx  (bdp, 8),
+which, however, is a prodrug and has to be transformed into
+the active 17␣-monopropionate (bmp) form. as customary
+in quantitative structure–activity relationship (qsar) studies,
+the logarithm of the inverse of the dose (log 1/d) is represented
+as a function of the log rrba values.
+unfortunately, because of the intrinsic multiple activities of steroids and because of the ubiquitous distribution
+of the corticosteroid receptors, unwanted side-effects tend
+to closely parallel therapeutic effectiveness. systemic sideeffects, which typically include myopathy, osteoporosis,
+hypertension, insulin resistance, weight gain, fat redistribution, increased intraocular pressure, growth inhibition, and
+others in a dose-dependent manner [27–32], still seriously
+limit the application of glucocorticoids. with the introduction of newer inhaled or intranasal corticosteroids, at least
+the therapeutic index of this class increased signiﬁcantly:
+whereas local activity and clinical efﬁcacy were preserved
+or enhanced, most of the serious and immediately apparent
+side-effects were virtually eliminated [33]. for most of these
+compounds, the risk of serious adverse events (sae) is also relatively low; for example, for inhaled budesonide, the incidence
+of reported saes is 1 event per 100,000 patient years [34]. nevertheless, even inhaled corticosteroids are often underused
+because of concerns about side-effects, including possible
+local side-effects, such as oral candidiasis or dysphonia [35],
+and in a few cases, even severe systemic side-effects have been
+seen especially when co-administered with cyp3a4 inhibitors
+[30,36–39]. because most of these potential adverse effects
+usually arise only following long-term treatment, clinical
+studies of corticosteroids in the development phase monitor
+suppression of the hypothalamic–pituitary–adrenal (hpa) axis
+as a surrogate marker. cortisol (hydrocortisone) suppression
+
+is also closely rrba-related as fig. 2b showing the estimated
+daily doses causing 10% and 20% auc cortisol suppression
+clearly illustrates (data are for mdi formulations except for
+bud, which is for dpi [40]).
+here, a comprehensive quantitative analysis of gr rrba
+data from more than a hundred steroid structures is presented. because of a clear biphasic (bilinear) dependence on
+molecular size (i.e., calculated molecular volume v), a nonlinear analysis is needed, and the recently introduced linearized
+biexponential (linbiexp) model [41,42] provided good ﬁt, just
+as it did for anticholinergic binding at muscarinic acetylcholine receptors [43]. linbiexp can ﬁt any bilinear-type data,
+i.e., data that show a maximum, a minimum, or just a ratechange around a given parameter value, but tend to show good
+linearity away from this. it uses a novel functional form [41,42]
+consisting of the logarithm of the sum of two exponentials to
+obtain a bilinear functionality:
+y = f (x) =  ln[e˛1 (x−c )/ + e˛2 (x−c )/ ] + 
+
+(1)
+
+even if the mathematical form of the model seems at ﬁrst
+sight somewhat complex, it relies on a set of intuitive, easily interpretable parameters (denoted with greek symbols):
+two slopes (˛1 and ˛2 ) corresponding to the two linear segments, a constant () for shifting along the y (vertical) axis, a
+constant ( c ) for shifting along the x (horizontal) axis (i.e., to
+position the rate-change point), and a parameter () for adjusting the smoothness/abruptness of the transition between the
+two linear portions. in addition, if needed, speciﬁc effects due
+to the presence of certain structural functions and/or moieties (ϕ) can be accounted for through the use of indicator
+variables (iϕ , which are 1 if ϕ is present and 0 otherwise) by
+addition of ıϕ ·iϕ terms to the above equation so that ıϕ corresponds to the average change in y due to the presence of ϕ
+[41,43].
+
+196
+
+2.
+
+s t e r o i d s 7 3 ( 2 0 0 8 ) 193–208
+
+experimental
+
+glucocorticoid relative receptor-binding afﬁnity data (rrba),
+were collected from literature [23,24,44–64]; they were
+determined using standard methodology. experimental
+gr-binding afﬁnities are typically obtained with rat cytosol
+preparations by determining the concentration (ic50 ) necessary to inhibit by 50% the binding of a given concentration of
+3 h-dexamethasone as radioligand (l* ). the corresponding k
+d
+dissociation constants, kd = [r][d]/[rd], for the receptor–drug
+(rd) binding, r + d ↔ rd, are then obtained with the
+∗ ).
+cheng–prusoff equation [65] as kd = 1/ka = ic50 /(1 + [l* ]0 /kd
+depending on the assay, the binding afﬁnity of dexamethasone itself is usually somewhere in the range of 2–12 nm;
+here we will use a value of 6.6 nm, the average of available
+literature data [44,45,47,56,66–71]. to allow comparison of
+receptor-binding data obtained under different conditions,
+they were all expressed as percent values relative to dexamethasone (rrbadex = 100%) following standard practice.
+whenever multiple rrbas were available for a single compound, their average has been used; for each compound,
+corresponding references are shown in table 1 . all values
+were then converted to change in standard free energy (g0 )
+values compared to the reference dexamethasone using
+g0 = rt0 ln kd,dex /kd = rt0 ln 10 log rrba = 5.708 log rrba
+(kj) and a value of kd,dex = 6.6 nm corresponding to
+g0dex = −46.70 kj/mol for dexamethasone. estimated kd
+0
+values (nm) recalculated from these averages (kd = eg /rt0 )
+are also shown in table 1 for all compounds to provide a more
+intuitive binding afﬁnity scale. all structures that have g0
+and kd values shown in table 1 have been used for the qsar
+study except for the four antiprogestins included for illustration only (their values are shown in parenthesis). some
+compounds with low binding have been omitted, a likely
+reason for their inactivity is shown as a comment. binding
+data from [46] seemed lower than from most comparable
+other studies; some of these series have been omitted.
+molecular structures were built and optimized in chemdraw/chem3d (chemofﬁce ultra 7.0; cambridgesoft, cambridge, ma), and molecular weight, volumes, surface areas,
+and other descriptors were calculated and compiled with
+an extension of the qlogp program as described previously
+[43,72–74]. for lipophilicity estimates, log octanol–water partition coefﬁcients (log po/w ) were obtained as a consensus
+estimate (average) of three methods: qlogp, clogp (chemdraw ultra 7.0, cambridgesoft, cambridge, massachusetts,
+usa), and acd/logp (advanced chemistry development,
+toronto, ontario, canada); this has been found to provide quite reliable estimates. wherever available, cas
+numbers are also shown in table 1. for fig. 4, structure 1m2z [13] was obtained from rcsb’s protein data
+bank (http://www.rcsb.org/pdb/cgi/explore.cgi?pdbid=1m2z),
+and the image was generated with ds visualizer 1.7 (accelrys,
+inc., san diego, ca). glucocorticoid structures were individually optimized using am1 [75] semiempirical quantum
+chemical methods, and ring-fusion carbon atoms (c5 , c8 , c9 ,
+c10 , c13 , c14 ) were used to generate an overlapping structure, which was then superimposed on dexamethasone in the
+above crystal structure of the human glucocorticoid ligand-
+
+binding domain. the receptor structure is covered with a van
+der waals surface; however, the amino acids in front of the
+ligand structure are shown as line structures only for better
+visibility.
+nonlinear ﬁttings required for linbiexp were performed
+using custom-built models in winnonlin professional 5.0
+(pharsight corp., mountain view, ca) as described previously
+[41,42]. the gauss–newton (levenberg and hartley) minimization algorithm was used with the convergence criteria set
+to 0.00001, the increment for partial derivatives set to 0.001,
+and the number of iterations set to 50. user-provided initial parameter estimates and software-provided bounds were
+used. statistical analyses were performed using a standard
+spreadsheet program (microsoft excel 2003).
+
+3.
+
+results
+
+steroid relative receptor-binding afﬁnity (rrba) data at the
+gr were collected for more than 150 structures (table 1), and
+104 of these were actually used for the qsar analysis; those
+omitted were inactive compounds that usually did not satisfy
+some known structural requirements of gr-binding (a corresponding footnote in table 1 indicates the likely reason for
+inactivity for the omitted compounds). in this sense, these
+data can be considered as representing a sort of upper limit of
+binding obtainable for a given ligand size. as fig. 3 indicates,
+data can be divided roughly into two categories: a set of more
+active halogen and/or acetal-substituted steroid compounds
+and a set of unsubstituted compounds (data are shown with a
+reversed vertical axis so that the more active compounds that
+have lower g0 values are at the top of the ﬁgure in agreement
+with standard qsar practice). there is also clear evidence for
+a biphasic dependence on molecular size: for smaller compounds, activity increases with increasing size, but there is
+a turning point and for larger compounds, activity decreases
+with increasing size. such data may be well suited for bilinear
+ﬁtting [41–43], and the overall adequacy of a bilinear model for
+the gr-binding data is strongly supported by the very close
+similarity between the shape of the bilinear (linbiexp) ﬁt and
+that of the smoothed average obtained for the more active
+subset, where there are a more adequate number of data on
+both sides of the curve (fig. 3). hence, this model will be used
+for further ﬁttings with molecular size (volume) as the independent variable (x = v) in the following form that can also
+account for various substitution effects (ϕi , i = 1, . . ., n) through
+the incorporation of indicator variables, iϕi :
+g0 (kj/mol) = rt0 ln kd
+=  ln[e˛1 (v−c )/ + e˛2 (v−c )/ ] +  +
+
+n
+
+
+ıϕi iϕi
+
+(2)
+
+i=1
+
+as suggested by this equation, as a ﬁrst try, one can use
+ = 2.48 (i.e., rt0 in kj/mol) and ﬁt all halogen- and acetonideunsubstituted structures without using any indicators (i.e.,
+n = 0 meaning no ıϕ iϕ terms,). this results in model 1 (table 2)
+with a well-deﬁned ﬁrst and a somewhat uncertain second
+slope (˛1 = −0.110 ± 0.024 , ˛2 = 0.074 ± 0.044 ), and a quite good
+overall ﬁt that accounts for about 60% of the variability
+(r2 = 0.59). fit of all substituted compounds with the same
+
+table 1 – data used in the present study
+log pcalc
+
+v (å3 ) fl/ac rrba g0 (kj/mol) kd,est (nm) linbiexp
+
+c21 h28 o5
+
+360.45
+
+1.37
+
+283.75
+
+0
+
+10
+
+−40.99
+
+65.86
+
+−40.67
+
+[44]
+
+h
+coch2 ch3
+
+ch2 oh,
+18-aldehyde
+ch2 oh
+ch2 oh
+
+c22 h29 cl1 o5
+ xxxd1102xxx  h33 cl1 o6
+
+408.92
+464.99
+
+2.36
+3.15
+
+306.37
+349.59
+
+1
+1
+
+76
+1440
+
+−46.02
+−53.31
+
+8.67
+0.46
+
+−47.85
+−52.01
+
+[59]
+[23,54]
+
+␤-ch3
+
+coch2 ch3
+
+ch2 ococh2 ch3
+
+c28 h37 cl1 o7
+
+521.05
+
+4.37
+
+392.73
+
+1
+
+140
+
+−47.53
+
+4.70
+
+−49.78
+
+[23,54]
+
+f
+f
+
+␤-ch3
+␤-ch3
+
+h
+co(ch2 )3 ch3
+
+ch2 oh
+ch2 oh
+
+c22 h29 f1 o5
+ xxxd962xxx  h37 f1 o6
+
+392.47
+476.58
+
+2.04
+3.82
+
+298.23
+369.51
+
+1
+1
+
+79
+1048
+
+−46.12
+−52.52
+
+8.31
+0.63
+
+−46.93
+−51.95
+
+[44,46,48,56]
+[46,51]
+
+1,2
+
+x6
+
+x9
+
+aldosterone
+
+ xxxd103xxx 
+
+−
+
+h
+
+h
+
+h
+
+no oh
+
+ xxxd293xxx   xxxd294xxx 
+ xxxd293xxx   xxxd294xxx 
+17-monopropionate
+ xxxd293xxx   xxxd294xxx 
+dipropionate
+betamethasone
+betamethasone
+17-valerate
+betamethasone
+dipropionate
+betamethasone,
+21-deoxy
+betamethasone,
+21-deoxy
+17-propionate
+betamethasone,
+21-propionate, etc.
+budesonide 22r,6␣,9␣-f
+
+ xxxd293xxx 
+5534-18-9
+
++
++
+
+h
+h
+
+cl
+cl
+
+␤-ch3
+␤-ch3
+
+ xxxd294xxx 
+
++
+
+h
+
+cl
+
+ xxxd322xxx 
+2152-44-5
+
++
++
+
+h
+h
+
+compound
+
+cas#
+
+5593-20-4
+
+x16
+
+r␣
+
+r␤
+
+formula
+
+mw
+
+ref. rrba
+
++
+
+h
+
+f
+
+␤-ch3
+
+coch2 ch3
+
+ch2 ococh2 ch3
+
+c28 h37 f1 o7
+
+504.59
+
+4.10
+
+388.99
+
+1
+
+151
+
+−47.72
+
+4.36
+
+−50.21
+
+[56]
+
++
+
+h
+
+f
+
+␤-ch3
+
+h
+
+ch3
+
+c22 h29 f1 o4
+
+376.47
+
+2.38
+
+293.76
+
+1
+
+43
+
+−44.60
+
+15.32
+
+−46.43
+
+[46]
+
++
+
+h
+
+f
+
+␤-ch3
+
+coch2 ch3
+
+ch3
+
+ xxxd1102xxx  h33 f1 o5
+
+432.53
+
+3.52
+
+338.26
+
+1
+
+300
+
+−49.42
+
+2.20
+
+−51.20
+
+[46]
+
+h
+
+f
+
+␤-ch3
+
+h
+
+ch2 ococh2 ch3
+
+ xxxd1102xxx  h33 f1 o6
+
+448.53
+
+3.24
+
+344.44
+
+1
+
+40
+
+−51.69
+
+[46]
+
+f
+
+f
+
+␣-o–
+
+ch2 oh
+
+ xxxd1102xxx  h32 f2 o6
+
+466.52
+
+2.75
+
+343.50
+
+1
+
+1080
+
+−52.60
+
+0.61
+
+−51.63
+
+[45]
+
++
+
+h
+
+f
+
+␣-o–
+
+ch2 oh
+
+ xxxd1102xxx  h33 f1 o6
+
+448.53
+
+2.80
+
+340.11
+
+1
+
+800
+
+−51.85
+
+0.82
+
+−51.36
+
+[45]
+
+␣-o–
+
+ch2 oh
+
+ xxxd1102xxx  h34 o6
+
+430.54
+
+2.85
+
+336.81
+
+1
+
+1120
+
+−52.69
+
+0.59
+
+−51.07
+
+[45]
+
+ch2 oh
+
+ xxxd1102xxx  h34 o6
+
+430.54
+
+2.85
+
+336.83
+
+1
+
+420
+
+−50.25
+
+1.57
+
+−51.07
+
+[45]
+
+ch2 ococh(ch3 )2
+
+c32 h44 o7
+
+540.70
+
+5.14
+
+428.05
+
+1
+
+15
+
+−42.00
+
+43.76
+
+−45.47
+
+[24,70]
+
+ch2 oh
+
+c28 h38 o6
+
+470.60
+
+3.87
+
+370.56
+
+1
+
+1681
+
+−53.69
+
+0.39
+
+−51.89
+
+[24,70]
+
+ch2 cl
+ch2 oh
+ch2 oh, 11-keto
+ch2 oh, 11-keto
+ch2 oh, no 11-oh
+ch2 oh
+ch2 ocochchc6 h5
+
+ xxxd1102xxx  h32 cl1 f1 o5
+c21 h30 o4
+c21 h28 o5
+c21 h27 f1 o5
+c21 h30 o4
+c22 h29 f1 o4
+c31 h35 f1 o5
+
+466.98
+346.47
+360.45
+378.44
+346.47
+376.47
+506.61
+
+3.97
+2.10
+1.43
+1.40
+2.55
+2.48
+5.22
+
+349.86
+279.45
+281.36
+286.23
+281.86
+293.68
+392.90
+
+1
+0
+0
+1
+0
+1
+1
+
+6300
+35
+0
+10
+7
+68
+50
+
+−56.97
+−44.12
+
+0.10
+18.64
+
+−40.01
+−45.74
+−44.98
+
+97.58
+9.68
+13.17
+
+−52.02
+−40.19
+−40.40
+−45.58
+−40.46
+−46.42
+−49.77
+
+[56]
+[44–46]
+[44]
+[46]
+[44,46]
+[56]
+[56]
+
+budesonide, 22r
+
+ xxxd379xxx 
+
++
+
+h
+
+h
+
+budesonide, 22s
+
+ xxxd379xxx 
+
++
+
+h
+
+h
+
+␣-o–
+
+ xxxd1690xxx 
+
+ xxxd1690xxx 
+
++
+
+h
+
+h
+
+␣-o–
+
++
+
+h
+
+h
+
+␣-o–
+
++
+−
+−
+−
+−
++
++
+
+h
+h
+h
+h
+h
+h
+h
+
+f
+h
+h
+f
+h
+f
+f
+
+␤-ch3
+h
+h
+h
+h
+␣-ch3
+␣-ch3
+
+ch(ch2 )2 ch3 , r
+acetonide
+ch(ch2 )2 ch3 , r
+acetonide
+ch(ch2 )2 ch3 , r
+acetonide
+ch(ch2 )2 ch3 , s
+acetonide
+chchex, r
+acetonide
+chchex, r
+acetonide
+coch2 ch3
+no oh
+h
+h
+h
+no oh
+no oh
+
+64-85-7
+ xxxd1853xxx 
+
+−
++
++
+
+h
+h
+h
+
+h
+f
+f
+
+h
+␣-ch3
+␣-ch3
+
+no oh
+h
+h
+
+ch2 oh, no 11-oh
+ch2 oh
+ch3
+
+c21 h30 o3
+c22 h29 f1 o5
+c22 h29 f1 o4
+
+330.47
+392.47
+376.47
+
+3.30
+2.03
+2.38
+
+275.56
+298.01
+293.77
+
+0
+1
+1
+
+9
+100
+55
+
+−40.73
+−46.70
+−45.21
+
+73.18
+6.59
+11.97
+
+−39.75
+−46.91
+−46.43
+
+[44,46]
+
+7008-26-6
+
++
++
++
++
++
++
+
+h
+f
+h
+h
+h
+h
+
+cl
+f
+h
+h
+h
+f
+
+h
+␣-ch3
+h
+h
+h
+␣-ch3
+
+h
+cochcl2
+cochcl2
+cochcl2
+cochcl2
+cochcl2
+
+ch2 oh, 11-cl
+och2 ch3
+och3
+och2 (ch3 )2
+och2 cl
+och3
+
+c21 h26 cl2 o4
+ xxxd1102xxx  h30 cl2 f2 o6
+c23 h28 cl2 o6
+ xxxd1102xxx  h32 cl2 o6
+c23 h27 cl3 o6
+c24 h29 cl2 f1 o6
+
+413.34
+535.41
+471.38
+499.43
+505.82
+503.39
+
+2.91
+4.79
+3.94
+4.79
+4.31
+4.36
+
+299.52
+367.71
+332.28
+361.17
+344.41
+350.48
+
+1
+1
+0
+0
+0
+1
+
+148
+760
+165
+117
+684
+1745
+
+−47.67
+−51.72
+−47.94
+−47.09
+−51.46
+−53.79
+
+4.45
+0.87
+3.99
+5.63
+0.96
+0.38
+
+−47.08
+−52.05
+−46.02
+−47.62
+−47.07
+−52.05
+
+[44]
+[44]
+[51]
+[51]
+[51]
+[51]
+
++
+
+h
+
+f
+
+␣-ch3
+
+cochcl2
+
+och2 ch3
+
+ xxxd1102xxx  h31 cl2 f1 o6
+
+517.42
+
+4.85
+
+364.62
+
+1
+
+687
+
+−51.47
+
+0.96
+
+−52.17
+
+[51]
+
++
++
++
+
+h
+h
+h
+
+h
+h
+h
+
+h
+h
+h
+
+coch2 ch3
+cochclch3
+coch2 cl
+
+och2 ch3
+och2 ch3
+och2 ch3
+
+ xxxd1102xxx  h34 o6
+ xxxd1102xxx  h33 cl1 o6
+c24 h31 cl1 o6
+
+430.54
+464.99
+450.96
+
+3.78
+4.07
+3.65
+
+338.42
+349.74
+335.97
+
+0
+0
+0
+
+38
+88
+22
+
+−44.30
+−46.38
+−42.94
+
+17.33
+7.48
+29.94
+
+−46.60
+−47.39
+−46.37
+
+[51]
+[51]
+[51]
+
+199331-40-3
+
++
+
+h
+
+h
+
+h
+
+cochcl2
+
+och2 ch3
+
+c24 h30 cl2 o6
+
+485.40
+
+4.44
+
+347.26
+
+0
+
+200
+
+−48.42
+
+3.29
+
+−47.26
+
+[57]
+
+ xxxd2126xxx 
+
++
+
+f
+
+h
+
+␣-o–
+
+ch2 oh
+
+c24 h31 f1 o6
+
+434.50
+
+2.25
+
+326.05
+
+1
+
+165
+
+−47.94
+
+3.99
+
+−50.01
+
+[23,54]
+
+807-38-5
+ xxxd2128xxx 
+
++
++
+
+f
+f
+
+f
+f
+
+␣-oh
+␣-o–
+
+c(ch3 )2 ,
+acetonide
+h
+c(ch3 )2 ,
+acetonide
+
+ch2 oh
+ch2 oh
+
+c21 h26 f2 o6
+c24 h30 f2 o6
+
+412.43
+452.49
+
+0.74
+2.26
+
+295.84
+330.49
+
+1
+1
+
+107
+234
+
+−46.86
+−48.80
+
+6.15
+2.81
+
+−46.66
+−50.46
+
+[44]
+[44]
+
+budesonide 22r,9␣-f
+
+ xxxd1690xxx , act. metab.
+ xxxd1719xxx  propionate
+corticosterone
+cortisone
+cortisone, 9␣-f
+cortodoxone
+ xxxd1851xxx 
+ xxxd1851xxx 
+21-cinnamate
+desoxycorticosterone
+dexamethasone
+dexamethasone,
+21-deoxy
+dichlorisone
+ed, 6,9-f 16␣-me analog
+ed, a analog (me)
+ed, c analog (ipr)
+ed, d analog (clme)
+ed, i analog (9f, 16␣-me,
+me)
+ed, j analog (9f, 16␣-me,
+et)
+ed, p analog (et, nocl pr)
+ed, q analog (et, clpr)
+ed, r analog (et,
+monoclac)
+etiprednol dicloacetate
+(ed)
+ xxxd2126xxx 
+
+152-58-9
+ xxxd1851xxx 
+
+11-keto
+11-keto
+
+[44]
+
+197
+
+ xxxd2128xxx 
+ xxxd2128xxx 
+
+ xxxd1719xxx 
+ xxxd1751xxx 
+ xxxd1753xxx 
+
+too low,
+omitted
+
+s t e r o i d s 7 3 ( 2 0 0 8 ) 193–208
+
++
++
+
+remark
+
+198
+
+table 1 ( continued )
+compound
+
+cas#
+
+1,2 x6
+
+x9
+
+x16
+
+fluocortolone
+ xxxd2139xxx 
+
+152-97-6
+ xxxd2139xxx 
+
++
+−
+
+f
+f
+
+h
+h
+
+␣-ch3
+␣-o–
+
+ xxxd2145xxx 
+fp16cm
+
+ xxxd2145xxx 
+
++
++
+
+f
+h
+
+f
+f
+
+␣-ch3
+␣-cooch3
+
++
+
+h
+
+f
+
+r␤
+
+formula
+
+mw
+
+log pcalc v (å3 ) fl/ac rrba g0 (kj/mol) kd,est (nm) linbiexp
+
+ref. rrba
+
+ch2 oh
+ch2 oh
+
+c22 h29 f1 o4
+c24 h33 f1 o6
+
+376.47 2.41
+436.52 2.31
+
+291.32 1
+332.61 1
+
+67
+186
+
+−45.70
+−48.24
+
+9.83
+3.54
+
+−46.15
+−50.68
+
+[48]
+[44]
+
+sch2 f
+ch2 oh
+
+ xxxd1102xxx  h31 f3 o5 s1
+c23 h29 f1 o7
+
+500.57 3.76
+436.48 1.34
+
+357.82 1
+320.01 1
+
+1796
+11
+
+−53.86
+
+0.37
+
+−52.25
+−49.36
+
+␣-cooch3 h
+
+ch2 ococh3
+
+ xxxd1102xxx  h31 f1 o8
+
+478.51 2.01
+
+349.84 1
+
+4
+
++
+
+f
+
+f
+
+␣-o–
+
+394.77 1
+
+200
+
+−48.42
+
+3.29
+
+−49.55
+
+h
+h
+
+h
+h
+
+h
+h
+
+ch2 s-␥-lactone
+ring
+ch2 oh
+ch2 oh
+
+552.63 2.74
+
+−
+−
+
+c(ch3 )2 ,
+acetonide
+h
+coch3
+
+c28 h34 f2 o7 s1
+
+ xxxd2296xxx 
+
+c21 h30 o5
+c23 h32 o6
+
+362.47 1.67
+404.50 2.26
+
+286.00 0
+315.54 0
+
+10
+41
+
+−40.90
+−44.49
+
+68.13
+16.06
+
+−40.93
+−44.25
+
+[44,45,48]
+[46]
+
+13609-67-1
+
+−
+
+h
+
+h
+
+h
+
+co(ch2 )2 ch3
+
+ch2 oh
+
+ xxxd1102xxx  h36 o6
+
+432.56 3.28
+
+344.32 0
+
+95
+
+−46.57
+
+6.93
+
+−47.06
+
+[46,51]
+
+−
+
+h
+
+h
+
+h
+
+coch2 ch3
+
+ch2 oh
+
+c24 h34 o6
+
+418.53 2.80
+
+332.60 0
+
+79
+
+−46.11
+
+8.34
+
+−46.05
+
+[46]
+
+−47.89
+
+4.06
+
+−47.63
+
+[46]
+
+−46.04
+
+[46]
+
+−46.16
+−46.91
+
+[44]
+[44]
+
+−43.37
+
+[44]
+
+−47.12
+−46.15
+−43.57
+
+[44]
+[44,46]
+[44]
+
+glaxo, ␥-lactone
+
+−52.02
+
+h
+
+h
+
+h
+
+co(ch2 )3 ch3
+
+ch2 oh
+
+c26 h38 o6
+
+446.58 3.49
+
+360.43 0
+
+162
+
+h
+
+h
+
+h
+
+h
+
+ch2 ococh2 ch3
+
+c24 h34 o6
+
+418.53 2.88
+
+332.45 0
+
+9
+
+−
+−
+
+f
+f
+
+h
+h
+
+h
+oh
+
+h
+h
+
+ch2 oh
+ch2 oh
+
+c21 h29 f1 o5
+c21 h29 f1 o6
+
+380.46 1.57
+396.45 0.79
+
+291.42 1
+298.00 1
+
+47
+10
+
+−
+
+h
+
+br
+
+h
+
+h
+
+ch2 oh
+
+c21 h29 br1 o5
+
+441.36 2.15
+
+307.61 0
+
+1
+
+−
+−
+−
+
+h
+h
+h
+
+cl
+h
+f
+h
+och3 h
+
+h
+h
+h
+
+ch2 oh
+ch2 oh
+ch2 oh
+
+c21 h29 cl1 o5
+c21 h29 f1 o5
+c22 h32 o6
+
+396.91 1.95
+380.46 1.60
+392.49 1.15
+
+299.88 1
+291.32 1
+309.39 0
+
+59
+99
+0
+
+−45.39
+−46.67
+
+106033-96-9 +
+
+f
+
+f
+
+␣-o–
+
+ch2 och(ch3 )ocooch
+c29
+h383f2 o9
+2 ch
+
+568.61 3.92
+
+415.87 1
+
+800
+
+−51.85
+
+0.82
+
+−46.98
+
+[53]
+
+le5601
+le5602
+le5603
+le5606
+
+−
++
+−
++
+
+h
+h
+h
+h
+
+h
+h
+h
+h
+
+h
+h
+h
+h
+
+ch(ch2 )2 ch3 ,
+acetonide
+cooch2 ch3
+coo(ch2 )3 ch3
+cooch(ch3 )2
+cooch2 ch3
+
+och2 cl
+och2 cl
+och2 cl
+och2 sch3
+
+c24 h33 cl1 o7
+c26 h35 cl1 o7
+ xxxd1102xxx  h35 cl1 o7
+ xxxd1102xxx  h34 o7 s1
+
+468.97
+495.01
+483.00
+478.60
+
+348.74
+370.54
+362.67
+362.00
+
+0
+0
+0
+0
+
+150
+110
+70
+3
+
+−47.70
+−46.93
+−45.81
+
+4.39
+5.99
+9.41
+
+−47.34
+−47.27
+−47.60
+−47.61
+
+[57]
+[57]
+[57]
+[57]
+
+le5608
+
++
+
+h
+
+h
+
+h
+
+cooch2 ch3
+
+och2 ch3
+
+ xxxd1102xxx  h34 o7
+
+446.54 3.41
+
+345.29 0
+
+0
+
+−47.13
+
+[57]
+
+le5610
+le5613
+
++
++
+
+h
+h
+
+h
+h
+
+h
+h
+
+cooch(ch3 )2
+cooch2 cl
+
+och2 cl
+och3
+
+ xxxd1102xxx  h33 cl1 o7
+c23 h29 cl1 o7
+
+480.98 3.63
+452.93 3.19
+
+356.54 0
+328.54 0
+
+200
+0
+
+−47.61
+−45.65
+
+[57]
+[57]
+
+le5614
+
++
+
+h
+
+f
+
+h
+
+cooch2 ch3
+
+och2 ch3
+
+ xxxd1102xxx  h33 f1 o7
+
+464.53 3.35
+
+348.61 1
+
+0
+
+−51.95
+
+[57]
+
+le5618
+le5621
+le5623
+le5628
+le5629
+le5638
+le5639
+le5643
+le5644
+le5648
+le5649
+
++
++
++
++
++
++
++
++
+−
++
++
+
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+
+h
+h
+h
+f
+f
+f
+f
+h
+h
+f
+h
+
+h
+h
+h
+␣-ch3
+␣-ch3
+␤-ch3
+␤-ch3
+h
+h
+␣-ch3
+h
+
+cooch2 och3
+coocooch3
+cooch2 och3
+cooch2 ch3
+cooch(ch3 )2
+cooch(ch3 )2
+cooch2 ch3
+cooc6 h5
+coo(ch2 )2 ch3
+coo(ch2 )2 ch3
+cooch(ch3 )2
+
+och2 cl
+och2 cl
+ch2 cl
+och2 cl
+och2 cl
+och2 cl
+och2 cl
+och2 cl
+och2 cl
+och2 cl
+och3
+
+c24 h31 cl1 o8
+c24 h29 cl1 o9
+c24 h31 cl1 o7
+ xxxd1102xxx  h32 cl1 f1 o7
+c26 h34 cl1 f1 o7
+c26 h34 cl1 f1 o7
+ xxxd1102xxx  h32 cl1 f1 o7
+c28 h31 cl1 o7
+ xxxd1102xxx  h35 cl1 o7
+c26 h34 cl1 f1 o7
+ xxxd1102xxx  h34 o7
+
+482.96
+496.94
+466.96
+498.98
+513.00
+513.00
+498.98
+515.00
+483.00
+513.00
+446.54
+
+349.95
+350.22
+343.01
+359.72
+373.89
+374.08
+360.01
+373.20
+362.60
+373.87
+344.99
+
+0
+0
+0
+1
+1
+1
+1
+0
+0
+1
+0
+
+16
+0
+10
+740
+560
+440
+820
+80
+210
+870
+3
+
+−47.40
+−47.42
+−46.97
+−52.25
+−51.66
+−51.65
+−52.25
+−47.09
+−47.60
+−51.66
+−47.11
+
+[57]
+[57]
+[57]
+[61]
+[61]
+[57]
+[57]
+[57]
+[57]
+[61]
+[57]
+
+le5651
+
++
+
+h
+
+h
+
+h
+
+cooch(ch3 )2
+
+och2 och2 ch3
+
+ xxxd962xxx  h38 o8
+
+490.59 3.69
+
+380.32 0
+
+0
+
+−46.49
+
+[57]
+
+le5654
+le5657
+le5658
+
++
++
++
+
+h
+f
+h
+
+h
+h
+f
+
+h
+␤-ch3
+␣-ch3
+
+cooch(ch3 )2
+cooch(ch3 )2
+coo(ch2 )4 ch3
+
+och(ch3 )cl
+och(ch3 )cl
+och2 cl
+
+c26 h35 cl1 o7
+495.01 4.05
+ xxxd962xxx  h36 cl1 f1 o7 527.03 4.42
+c28 h38 cl1 f1 o7 541.06 5.16
+
+370.40 0
+387.78 1
+401.94 1
+
+10
+11
+840
+
+−47.28
+−50.34
+−48.69
+
+[57]
+[61]
+[61]
+
+itrocinonide
+
+57524-89-7
+
+3.34
+4.25
+3.69
+3.66
+
+2.69
+2.76
+2.53
+3.69
+4.04
+4.04
+3.69
+4.04
+3.83
+4.18
+3.56
+
+−44.83
+
+−48.42
+
+−51.66
+−50.97
+−50.37
+−51.91
+−46.14
+−48.54
+−52.06
+
+−51.97
+
+14.01
+
+11.16
+6.65
+
+3.29
+
+0.89
+1.18
+1.50
+0.80
+8.23
+3.14
+0.76
+
+0.78
+
+too low,
+omitted
+16-oh
+unsuitable
+9-br
+unsuitable
+
+9-ome
+unsuitable
+
+no hal./oh
+in r␤
+no hal./oh
+in r␤
+no hal./oh
+in r␤
+no hal./oh
+in r␤
+inadeq. r␣
+inadeq. r␣
+inadeq. r␣
+
+no hal./oh
+in r␤
+no hal./oh
+in r␤
+branched r␤
+branched r␤
+
+s t e r o i d s 7 3 ( 2 0 0 8 ) 193–208
+
+−
+−
+
+hydrocortisone, 9␣-cl
+hydrocortisone, 9␣-f
+hydrocortisone, 9␣-ome
+
+remark
+
+[23,50,54,58,59,70,92]
+[60,67]
+inadequate
+x16
+[67]
+inadequate
+x16
+[52]
+
+fp16cm 21-acetate
+
+hydrocortisone (cortisol)
+hydrocortisone
+17-acetate
+hydrocortisone
+17-butyrate
+hydrocortisone
+17-propionate
+hydrocortisone
+17-valerate
+hydrocortisone
+21-propionate, etc.
+hydrocortisone, 6␣-f
+hydrocortisone, 6␣-f,
+16␣-oh
+hydrocortisone, 9␣-br
+
+r␣
+no oh
+c(ch3 )2 ,
+acetonide
+coch2 ch3
+h
+
+h
+h
+f
+h
+
+f
+f
+f
+f
+
+␣-ch3
+␣-ch3
+␣-ch3
+␣-ch3
+
+cooch2 ch3
+cooch(ch3 )2
+cooch2 ch3
+cooch2 ch2 cl
+
+och2 cl, 11-keto
+och2 f
+och2 cl
+och3
+
+ xxxd1102xxx  h30 cl1 f1 o7
+c26 h34 f2 o7
+ xxxd1102xxx  h31 cl1 f2 o7
+ xxxd1102xxx  h32 cl1 f1 o7
+
+496.96
+496.55
+516.97
+498.98
+
+3.77
+3.66
+3.64
+3.55
+
+354.88
+365.85
+363.09
+359.74
+
+1
+1
+1
+1
+
+16
+820
+2100
+0
+
+−52.20
+−52.12
+−52.21
+−52.25
+
+[61]
+[61]
+[61]
+[57]
+
+le5683
+
++
+
+h
+
+f
+
+␣-ch3
+
+cooch2 ch3
+
+och2 ch2 cl
+
+c26 h34 cl1 f1 o7
+
+513.00
+
+4.04
+
+373.68
+
+1
+
+19
+
+−51.68
+
+[61]
+
+le5685
+
++
+
+h
+
+h
+
+h
+
+cooch(ch3 )2
+
+och2 ch2 cl
+
+c26 h35 cl1 o7
+
+495.01
+
+3.98
+
+370.45
+
+le5687
+le5689
+le5690
+le5693
+le5698
+le5699
+le5702
+le5704
+le5707
+le5709
+le5711
+le5712
+le5715
+
++
++
++
++
++
++
++
++
++
++
++
++
++
+
+h
+f
+f
+h
+f
+f
+h
+f
+h
+h
+h
+h
+h
+
+f
+f
+f
+f
+h
+h
+h
+h
+f
+f
+h
+h
+h
+
+␣-ch3
+␣-ch3
+␣-ch3
+␣-ch3
+␣-ch3
+␣-ch3
+h
+␣-ch3
+␤-ch3
+␤-ch3
+h
+h
+␤-ch3
+
+h
+cooch(ch3 )2
+coo(ch2 )2 ch3
+coo(ch2 )2 ch3
+coo(ch2 )2 ch3
+cooch(ch3 )2
+cooch3
+cooch3
+cooch3
+coo(ch2 )2 ch3
+cooch2 ch3
+cooch(ch3 )2
+h
+
+och2 cl
+och2 cl
+och2 cl
+och2 f
+och2 cl
+och2 cl
+och2 cl
+och2 cl
+och2 cl
+och2 cl
+och2 f
+och2 f
+och2 cl
+
+c22 h28 cl1 f1 o5
+c26 h33 cl1 f2 o7
+c26 h33 cl1 f2 o7
+c26 h34 f2 o7
+c26 h34 cl1 f1 o7
+c26 h34 cl1 f1 o7
+c23 h29 cl1 o7
+c24 h30 cl1 f1 o7
+c24 h30 cl1 f1 o7
+c26 h34 cl1 f1 o7
+c24 h31 f1 o7
+ xxxd1102xxx  h33 f1 o7
+c22 h29 cl1 o5
+
+426.91
+530.99
+530.99
+496.55
+513.00
+513.00
+452.93
+484.95
+484.95
+513.00
+450.50
+464.53
+408.92
+
+2.76
+3.99
+4.13
+3.80
+4.13
+4.00
+3.07
+3.15
+3.09
+4.07
+3.18
+3.25
+2.82
+
+309.54
+377.12
+377.34
+365.97
+373.81
+373.97
+328.52
+345.83
+345.98
+373.96
+334.45
+348.46
+305.98
+
+0
+
+1
+
+−47.28
+
+[57]
+
+1
+1
+1
+1
+1
+1
+0
+1
+1
+1
+0
+0
+0
+
+7
+1100
+1000
+990
+1000
+820
+180
+1200
+990
+1460
+200
+70
+3
+
+−48.21
+−51.40
+−51.38
+−52.12
+−51.67
+−51.66
+−45.64
+−51.79
+−51.80
+−51.66
+−46.23
+−47.33
+−43.19
+
+[61]
+[61]
+[61]
+[61]
+[61]
+[57]
+[61]
+[61]
+[61]
+[61]
+[61]
+[61]
+[61]
+
+le5718
+
++
+
+h
+
+h
+
+h
+
+ch3
+
+och3
+
+c22 h30 o5
+
+374.48
+
+2.57
+
+295.33
+
+0
+
+0
+
+−41.99
+
+[57]
+
+le5720
+
++
+
+h
+
+h
+
+h
+
+(ch2 )2 ch3
+
+o(ch2 )2 ch3
+
+c26 h38 o5
+
+430.58
+
+4.47
+
+351.36
+
+0
+
+10
+
+−47.47
+
+[57]
+
+le5721
+
++
+
+h
+
+f
+
+␣-ch3
+
+ch3
+
+och3
+
+c23 h31 f1 o5
+
+406.49
+
+2.98
+
+312.54
+
+1
+
+25
+
+−48.54
+
+[57]
+
+le5725
+le5726
+legh01
+legh02
+legh03
+legh04
+legh05
+legh06
+legh07
+legh08
+legh09
+ xxxd2509xxx  etabonate
+(le)
+medroxyprogesterone
+acetate
+methylprednisolone
+methylprednisolone
+17-propionate
+methylprednisolone
+aceponate
+mifepristone ( xxxd2643xxx )
+
+82034-46-6
+
++
++
+−
+−
+−
+−
+−
+−
+−
+−
+−
++
+
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+
+ch3
+(ch2 )2 ch3
+ch3
+ch2 ch3
+(ch2 )2 ch3
+(ch2 )3 ch3
+ch2 sch3
+ch2 och3
+ch2 och2 ch3
+ch(ch3 )och3
+ch(ch3 )och2 ch3
+cooch2 ch3
+
+och2 cl
+och2 cl
+och2 cl
+och2 cl
+och2 cl
+och2 cl
+och2 cl
+och2 cl
+och2 cl
+och2 cl
+och2 cl
+och2 cl
+
+c22 h29 cl1 o5
+c24 h33 cl1 o5
+c22 h31 cl1 o5
+c23 h33 cl1 o5
+c24 h35 cl1 o5
+ xxxd1102xxx  h37 cl1 o5
+c23 h33 cl1 o5 s1
+c23 h33 cl1 o6
+c24 h35 cl1 o6
+c24 h35 cl1 o6
+ xxxd1102xxx  h37 cl1 o6
+c24 h31 cl1 o7
+
+408.92
+436.97
+410.94
+424.96
+438.99
+453.02
+457.02
+440.96
+454.99
+454.99
+469.02
+466.96
+
+2.93
+3.86
+2.99
+3.43
+3.92
+4.40
+3.48
+2.95
+3.39
+3.30
+3.74
+3.31
+
+306.65
+334.69
+312.85
+326.72
+340.66
+354.73
+343.12
+334.13
+348.15
+348.01
+362.19
+345.88
+
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+10
+315
+3
+29
+132
+124
+54
+6
+10
+9
+2
+150
+
+−40.99
+−49.54
+
+65.86
+2.09
+
+−43.63
+−47.39
+−47.23
+−45.17
+
+22.71
+4.99
+5.31
+12.20
+
+−47.70
+
+4.39
+
+−43.26
+−46.26
+−43.95
+−45.46
+−46.78
+−47.58
+−46.98
+−46.20
+−47.31
+−47.30
+−47.61
+−47.17
+
+[57]
+[57]
+[62]
+[62]
+[62]
+[62]
+[62]
+[62]
+[62]
+[62]
+[62]
+[63,64]
+
+ xxxd2554xxx 
+
+−
+
+ch3
+
+h
+
+h
+
+coch3
+
+ch3 , no 11-oh
+
+c24 h34 o4
+
+386.53
+
+4.19
+
+319.68
+
+0
+
+44
+
+−44.66
+
+14.97
+
+−44.71
+
+[56]
+
+ xxxd2616xxx 
+
++
++
+
+ch3
+ch3
+
+h
+h
+
+h
+h
+
+h
+coch2 ch3
+
+ch2 oh
+ch2 oh
+
+c22 h30 o5
+ xxxd1102xxx  h34 o6
+
+374.48
+430.54
+
+2.03
+3.16
+
+294.78
+341.32
+
+0
+0
+
+33
+48
+
+−43.95
+−.88
+
+19.96
+13.72
+
+−41.93
+−46.84
+
+[48,56]
+[56]
+
+86401-95-8
+
++
+
+ch3
+
+h
+
+h
+
+coch2 ch3
+
+ch2 ococh3
+
+ xxxd962xxx  h36 o7
+
+472.58
+
+3.60
+
+371.64
+
+0
+
+17
+
+−42.30
+
+38.74
+
+−47.20
+
+[56]
+
+ xxxd1797xxx   xxxd2643xxx 
+
+−
+
+h
+
+=
+
+h
+
+429.59
+
+4.96
+
+373.53
+
+1528
+
+−53.46
+
+0.43
+
+cl
+cl
+=
+
+␣-ch3
+␣-ch3
+h
+
+c22 h28 cl2 o4
+ xxxd962xxx  h30 cl2 o6
+c29 h39 n1 o3
+
+427.37
+521.44
+449.62
+
+3.11
+4.53
+4.14
+
+314.08
+367.93
+373.53
+
+1
+1
+
+88
+1833
+12
+
+−46.38
+−53.91
+−41.48
+
+7.48
+0.36
+54.01
+
+−48.71
+−52.03
+
++
++
++
++
+
+f
+h
+h
+h
+
+h
+h
+h
+h
+
+␣-ch3
+h
+h
+h
+
+17␤-oh,
+11␤-ph-n(ch3 )2
+ch2 cl
+ch2 cl
+17␤-oh,
+11␤-ph-n(ch3 )2
+ch2 oh
+ch2 ococh2 ch3
+ch2 oh
+ch2 oh
+
+c29 h39 n1 o3
+
+h
+h
+h
+
+no oh,
+17␣-ccch3
+h
+co(2-furoate)
+no oh,
+17␣-(ch2 )3 oh
+h
+cooch2 ch3
+h
+cooch2 ch3
+
+mometasone
+ xxxd2665xxx 
+onapristone (zk 98299)
+
+ xxxd2665xxx 
+ xxxd2665xxx 
+96346-61-1
+
++
++
+-
+
+c22 h29 f1 o5
+ xxxd962xxx  h36 o8
+c21 h28 o5
+c24 h32 o7
+
+392.47
+488.58
+360.45
+432.51
+
+2.01
+3.56
+1.60
+2.32
+
+300.21
+378.49
+280.45
+334.02
+
+1
+0
+0
+0
+
+257
+75
+19
+110
+
+−49.04
+−45.98
+−42.58
+−46.93
+
+2.56
+8.78
+34.66
+5.99
+
+−47.16
+−46.66
+−40.30
+−46.19
+
+[92]
+[50,54,56,58,92]
+[69]
+diff.
+structure
+[44]
+[56]
+[44,48,56,60]
+[56]
+
+ xxxd2846xxx 
+ xxxd3002xxx 
+prednisolone
+prednisolone
+17-ethylcarbonate
+prednisolone
+17-ethylcarbonate,
+21-phenylacetate
+
+ xxxd2846xxx 
+ xxxd3002xxx 
+ xxxd3003xxx 
+
++
+
+h
+
+h
+
+h
+
+cooch2 ch3
+
+ch2 ococh2 c6 h5
+
+c32 h38 o8
+
+550.65
+
+4.56
+
+424.20
+
+0
+
+33
+
+−43.95
+
+19.96
+
+−41.33
+
+[56]
+
+−51.91
+−54.24
+
+−52.64
+−52.41
+−52.38
+−52.41
+−51.91
+−48.15
+−52.86
+−52.38
+−53.34
+−48.42
+−45.81
+
+0.80
+0.31
+
+0.60
+0.66
+0.67
+0.66
+0.80
+3.66
+0.55
+0.67
+0.45
+3.29
+9.41
+
+[68,69]
+
+11-keto
+
+no hal./oh
+in r␤
+inadeq. hal.
+subst.
+inadeq. hal.
+subst.
+inadeq. r␣
+
+lacking r␣
+substitution
+no hal./oh
+in r␤
+no hal./oh
+in r␤
+no hal./oh
+in r␤
+
+inadeq. r␣
+
+inadeq. r␣
+inadeq. r␣
+inadeq. r␣
+inadeq. r␣
+
+diff.
+structure
+
+199
+
++
++
++
++
+
+s t e r o i d s 7 3 ( 2 0 0 8 ) 193–208
+
+le5660
+le5671
+le5673
+le5679
+
+200
+
+(no o) sch2 ch3
+h
+c(ch3 )2 ,
+acetonide
+h
+␣-oh
+␣-o–
+f
+f
+f
++
++
++
+tipredane
+triamcinolone
+ xxxd3418xxx 
+
+h
+h
+h
+
+no oh
+h
+=
+h
+−
+rti 3021-022
+
+85197-77-9
+ xxxd3418xxx 
+76-25-5
+
+notes: see fig. 1 for general structure and position of substituents (1,2 , x6 , x9 , x16 , r␣ , r␤ ). log pcalc is average of three calculated values (qlogp, clogp, and acd/logp). rrba is relative receptor-binding afﬁnity from literature data (see
+ref. rrba column) calculated as percent compared to dexamethasone (rrbadex = 100%) following standard practice; these were converted to kd and g0 values using kd,dex = 6.6 nm. remark indicates a likely reason for the low gr-binding
+activity of compounds omitted from the regression.
+
+[47,49]
+[46,55]
+[44–46,48,50,59]
+0.47
+14.80
+2.44
+−53.22
+−44.69
+−49.16
+315.91
+291.24
+326.06
+4.22
+0.78
+2.30
+410.60
+394.44
+434.50
+c22 h31 f1 o2 s2
+c21 h27 f1 o6
+c24 h31 f1 o6
+
+c30 h39 n1 o2
+
+445.64
+
+5.76
+
+375.99
+
+1
+1
+1
+
+1390
+45
+270
+
+1.27
+520
+
+−50.78
+
+−48.91
+−46.14
+−50.01
+
+[68]
+
+[44,46]
+[68]
+−39.70
+346.68
+1.16
+−36.87
+−51.01
+2
+570
+0
+275.20
+384.34
+3.09
+4.67
+330.47
+475.62
+c21 h30 o3
+c30 h37 n1 o4
+
+ch3 , no 11-oh
+ch3 ,
+11␤-ph-n(ch3 )2
+ch3 ,
+11␤-ph-n(ch3 )2
+(no co) sch3
+ch2 oh
+ch2 oh
+h
+coch3
+h
+h
+h
+h
+−
+−
+126784-99-4
+progesterone, 17␣-oh
+rti 3021-012 (hrp 2000)
+
+ xxxd3004xxx 
+
+ xxxd3023xxx 
+
+h
+f
+h
+h
+h
+h
+h
+h
++
++
++
++
++
+−
+−
+−
+prednisolone, 16␣-oh
+prednisolone, 6␣-f
+prednisolone, 9␣-f
+prednisone
+prednisone 17-valerate
+progesterone
+progesterone, 11␤-oh
+progesterone, 11-oxo
+
+h
+=
+
+40.82
+59.87
+−42.17
+−41.23
+
+␣-oh
+h
+h
+h
+h
+h
+h
+h
+
+h
+
+h
+h
+f
+h
+h
+h
+h
+h
+
+diff.
+structure
+diff.
+structure
+
+11-keto, no
+17-oh
+
+11-keto
+11-keto
+
+[45]
+[44]
+[46,60]
+[44]
+[46]
+[44,46,59]
+[44]
+[44]
+−41.10
+−45.60
+−45.58
+−39.63
+−47.42
+−38.99
+−39.74
+−39.15
+219.56
+8.13
+9.02
+−38.00
+−46.17
+−45.92
+
+3
+81
+73
+1
+6
+16
+11
+0
+0
+1
+1
+0
+0
+0
+0
+0
+287.54
+286.40
+286.26
+274.50
+350.24
+268.89
+275.50
+270.34
+0.83
+1.64
+1.46
+1.59
+3.46
+3.92
+2.83
+2.76
+376.45
+378.44
+378.44
+358.43
+442.55
+314.47
+330.47
+328.45
+c21 h28 o6
+c21 h27 f1 o5
+c21 h27 f1 o5
+c21 h26 o5
+c26 h34 o6
+c21 h30 o2
+c21 h30 o3
+c21 h28 o3
+ch2 oh
+ch2 oh
+ch2 oh
+ch2 oh, 11-keto
+ch2 oh, 11-keto
+ch3 , no 11-oh
+ch3
+ch3 , 11-keto
+
+[45]
+−49.66
+2.99
+−48.65
+220
+1
+322.75
+2.47
+416.51
+c24 h32 o6
+
+c(ch3 )2 ,
+acetonide
+h
+h
+h
+h
+co(ch2 )3 ch3
+no oh
+no oh
+no oh
+␣-o–
+
+ch2 oh
+
+[56]
+
++
+
+h
+
+linbiexp
+
+−46.19
+43.91
+
+kd,est (nm)
+g0 (kj/mol)
+
+−41.99
+15
+
+rrba
+fl/ac
+
+0
+334.04
+
+v (å3 )
+log pcalc
+
+2.38
+432.51
+
+mw
+formula
+
+c24 h32 o7
+ch2 ocooch2 ch3
+
+r␤
+x16
+x9
+x6
+
+h
+
+1,2
+
++
+
+compound
+
+table 1 ( continued )
+
+cas#
+prednisolone
+21-ethylcarbonate
+prednisolone acetonide
+
+h
+
+r␣
+h
+h
+
+ref. rrba
+
+remark
+
+s t e r o i d s 7 3 ( 2 0 0 8 ) 193–208
+
+equation results in the well-deﬁned model 2 (table 2), which
+except for a vertical shift, is quite similar to model 1 (i.e., the
+slopes and the turning points are not very different) and also
+to the smoothed average of the data obtained by a negative
+exponential smoothing; hence, the bilinear model provides an
+adequate basis for further analysis.
+it has been long known that rba is dramatically increased
+by 6␣- or 9␣-halogenation (mainly ﬂuorination) [44] and by
+introduction of cyclic 16,17-acetal moieties; these substituent
+effects are analyzed in detail here. for halogenations, a ﬁrst
+substitution at the 6␣- or 9␣-position seems to cause about
+the same activity increase, whereas the second one seems
+to cause some increase, but far less than the close to 10-fold
+one caused by the ﬁrst substitution. if separate indicators are
+used for 6␣- only, 9␣- only, and 6&9␣-halogenation in cyclic
+acetal non-containing compounds (i6f,only , i9f,only , i6&9f,only )
+in the linbiexp model (model 3, table 2), the corresponding changes in the associated g0 (or log rrba) are very
+similar for the ﬁrst halogenations: ı6f,only = −4.64(±0.77) and
+ı9f,only = −4.60(±0.47) (kj/mol) and not very different if both
+positions are halogenated ı6&9f,only = −5.95(±0.83) . furthermore,
+approximately the same change seems to be caused by the
+presence of a cyclic 16,17-acetal moiety in nonhalogenated
+compounds (in addition to the corresponding size-related
+effects) (ıactl,only = −4.22(±0.99) kj/mol) (model 3, table 2), but it
+has almost no or even a detrimental effect in already halogenated compounds (ıhal& xxxg35xxx  = +0.94(±0.91) ). except for this last
+value, all coefﬁcients are statistically well-deﬁned (with coefﬁcients of variations that are all below 25%) indicating that the
+corresponding structural modiﬁcations produce quite consistent effects on binding.
+these results (model 3, table 2) clearly show that, on
+one hand, the beneﬁcial effects of a ﬁrst 6␣-halogen, 9␣halogen, or cyclic 16,17-acetal substitutions are about the
+same (ı6f,only ≈ ␦9f,only ≈ ıactl,only ≈ −4.5 kj/mol, corresponding
+to an approximately 6- to 7-fold increase in receptor afﬁnity;
+i.e., 104.5/5.708 = 6.14), and, on the other hand, a halogenation
+in an already halogenated or a cyclic acetal-containing compound causes only minimal improvement over the ﬁrst one
+(e.g., in double-ﬂuorinated compounds, where the change
+should be ı6f,only + ı9f,only = −9.24 with additive effects, it is only
+−5.95). hence, from an activity point of view, steroid structures seem to be divisible in two groups only by use of a
+single indicator: those that are substituted with a 6␣- or 9␣halogen or cyclic 16,17-acetal moiety (ihal/ xxxg35xxx  = 1) and those
+that are not (ihal/ xxxg35xxx  = 0). if separate indicators are used for
+6␣- or 9␣-halogenation (ihal ) and the presence of cyclic 16,17acetal moiety (iactl ), not only are the corresponding changes
+in the associated g0 very similar (ıhal = −4.71(±0.44) and
+ıactl = −4.15(±0.99) ), but when both are present (ihal& xxxg35xxx  = = 1),
+one of the effects is practically cancelled (ıhal& xxxg35xxx  = +4.51(±1.24) )
+(model 4, table 2).
+a no beneﬁcial effect of halogenation in cyclic 16,17acetal-containing compounds has already been noted in
+budesonide analogs more than 20 years ago [45]. a comparison of speciﬁc pairs that differ only in a single substitution,
+such as, for example, hydrocortisone-9␣f vs. hydrocortisone
+(1) (g0 = −5.76 kj/mol) and  xxxd3418xxx  (5) vs.
+prednisolone acetonide (g0 = −0.51 kj/mol) for the effect
+of 9␣-ﬂuorination in a non-substituted and a cyclic acetal-
+
+s t e r o i d s 7 3 ( 2 0 0 8 ) 193–208
+
+201
+
+fig. 3 –  xxxg1601xxx  (gr)-binding of corticosteroids that satisfy the main binding criteria at gr. free energies of
+binding (g = rt ln kd ) shown as a function of calculated molecular size (molecular volume, v) and ﬁtted with the linbiexp
+bilinear model. because inactive corticosteroids that lack various pharmacophores required for binding at gr were not
+included, this set represents a sort of upper limit of binding at this receptor. 6␣- or 9␣-halogenated (mostly ﬂuorinated) or
+cyclic 16,17-acetal-containing highly active structures are denoted separately with closed symbols; four antiprogestins with
+a somewhat different structural framework that were not used for ﬁtting are shown as dashed symbols. the dashed brown
+line shows the smoothed average of the more active subset (negative exponential 2d smooth method with a sampling
+proportion of 0.5 from sigmaplot 2002; spss inc, chicago, il, usa); it is included to illustrate the adequacy of the linbiexp
+bilinear model for ﬁtting these data.
+
+substituted compound, respectively, gives statistically much
+less well-deﬁned values (as there are only relatively low
+numbers of exact pairs), but essentially supports these observations (see table 3 for the mean ± s.d. value of all such
+possible pairings with available data). according to these pair
+comparisons, ﬂuorination at the 6␣ and 9␣ positions changes
+the free energy of binding by −3.76±0.23 kj/mol (n = 2) and
+−6.12±2.22 kj/mol (n = 4), respectively, if it is the ﬁrst ﬂuorination; whereas, it changes the free energy of binding by
+only −1.41±1.06 kj/mol (n = 5) and −0.36±0.51 kj/mol (n = 2) if it is
+the second ﬂuorination in an already ﬂuorinated compound,
+and by + 0.71 kj/mol (n = 1) and + 0.16±0.95 kj/mol (n = 2) if it is
+in an already cyclic 16,17-acetal-substituted compound (in all
+these cases, the size-related effects are small as f is only
+slightly larger than h, v ≈ 4–5 å3 ). this is somewhat surprising because 6␣- or 9␣-ﬂuorination (halogenation) is usually
+considered as activity enhancing for any structure, and there
+were even studies on antiinﬂammatory activity indicating
+not just additive, but even synergistic effects for this pair of
+substituents [76]. from the same comparison (table 3), introduction of a cyclic 16,17-acetal substitution changes the free
+energy of binding by −10.64 kj/mol (n = 1) if it is in an unﬂuorinated compound; whereas, it changes the free energy of
+binding by only −4.55±2.65 kj/mol (n = 3) if it is in an already
+ﬂuorinated compound. in this case, there is also a size-related
+effect as the substituent is quite large (v ≈ 35 å3 ); to obtain a
+value comparable to the ı values of the linbiexp-based models
+(models 3–6), one has to subtract the correspond free energy
+change (∼0.10 v) resulting in values of −7.12 kj/mol (n = 1) and
+
+−1.08±2.65 kj/mol (n = 3) for unﬂuorinated and already ﬂuorinated compounds, respectively.
+considering all these, a single indicator variable (ihal/ xxxg35xxx  )
+was used in the ﬁnal bilinear model to avoid overparametrization, resulting in model 5 (table 2). this model with only two
+descriptors (v, ihal/ xxxg35xxx  ) and ﬁve adjustable parameters (˛1 , ˛2 ,
+, c , ıhal/ xxxg35xxx  ) is statistically very well-deﬁned and accounts
+for 76% of the variance in the gr-binding data of 104 compounds. in all these equations,  = 2.48 was assumed for the
+value of the constant regulating the smoothness (width) of the
+transition between the two linear segments simply because
+of the proportionality between g0 and ln k (eq. (2)) [41]. the
+corresponding width of the curved transition section, which
+depends on  and is approximately 1.7/(˛1 − ˛2 ), agrees well
+with the data being maybe slightly larger than suggested by
+the overall trend of the data (fig. 3). if the restriction on 
+is released, a somewhat better ﬁt is obtained with a smaller
+value ( = 0.241±2.159 , corresponding to a more abrupt transition) (model 6). however, this value is not well-deﬁned, and
+the obtained improvement in the quality of ﬁt does not justify the increase in the number of parameters according to
+most model selection criteria used to judge the adequacy of
+such models. the akaike information criterion (aic) indicates
+model 6 with released  as somewhat more adequate, but the
+more stringent schwarz–bayesian information criterion (sbic)
+and the f-statistics (p = 0.06) indicate the more parsimonious
+model 5 with ﬁxed  as somewhat more adequate (the more
+adequate model has lower aic and sbic values on the same
+dataset [41,42]).
+
+202
+
+660.6
+
+645.9
+646.9
+parameter (˛1 , ˛2 , , c , , ıϕi ) estimates and standard errors of estimates shown together with corresponding model selection criteria ( , r2 , aic, sbic).
+
+sbic
+aic
+
+632.7
+631.0
+0.762
+0.770
+
+r
+
+2.006
+1.981
+−4.62(±0.41)
+−4.72(±0.41)
+
+␦hal/ xxxg35xxx 
+
+
+2.479
+0.241(±2.159)
+360.1(±6.3)
+355.7(±3.5)
+
+c
+
+˛2
+
+−0.114(±0.012) 0.124(±0.026) −49.35(±0.39)
+−0.107(±0.010) 0.095(±0.020) −48.34(±0.44)
+
+˛1
+n
+
+104
+104
+all w single hal/ xxxg35xxx  ind
+all w  rel.
+
+2.022
+4.51(±1.24)
+
+ıhal& xxxg35xxx 
+ıactl
+
+−4.15(±0.99)
+−4.71(±0.44)
+
+ıhal
+
+
+2.479
+358.9(±7.1)
+
+c
+
+˛2
+˛1
+
+−0.116(±0.014) 0.120(±0.028) −49.33(±0.40)
+104
+all w hal& xxxg35xxx  ind.
+
+n
+
+2
+
+sbic
+
+654.7
+636.2
+
+aic
+r
+
+2
+
+0.763
+
+2.010
+0.94(±0.91)
+
+0.770
+
+636.8
+
+4.
+
+−4.22(±0.99)
+−5.95(±0.83)
+−4.60(±0.47)
+−4.64(±0.77)
+2.479
+357.6(±7.2)
+−0.117(±0.014) 0.119(±0.027) −49.28(±0.39)
+
+ı6&9f,only
+ı9f,only
+ı6f,only
+
+c
+
+˛2
+˛1
+n
+
+2.479
+359.5(±6.2)
+59
+
+−0.132(±0.018) 0.146(±0.028) −54.52(±0.39)
+
+2.479
+350.5(±17.0)
+−0.110(±0.024) 0.074(±0.044) −48.64(±0.62)
+45
+
+model 2
+all substituted
+
+104
+
+sbic
+aic
+r2
+ıhal& xxxg35xxx 
+ıactl,only
+
+ıϕ5
+ıϕ4
+ıϕ3
+ıϕ2
+ıϕ1
+
+c
+
+˛2
+˛1
+n
+
+model 1
+all unsubstituted
+
+table 2 – bilinear models for the present data
+
+model 3
+all w 3 + 2 ind.
+
+326.4
+318.0
+0.701
+1.866
+
+249.2
+241.9
+0.593
+2.101
+
+r2
+
+aic
+
+sbic
+
+s t e r o i d s 7 3 ( 2 0 0 8 ) 193–208
+
+discussion
+
+a large number of gr rrba data were collected and assembled as g0 data for qsar analysis. to provide a set of more
+0
+intuitive binding data, corresponding kd values (kd = eg /rt0 )
+are also shown (table 1). compounds considered for the
+present quantitative analysis show good binding and satisfy
+all main binding criteria at the gr; therefore, the average of
+their dissociation constants, ∼17 nm, is in good agreement
+with the median afﬁnity for current small-molecule drugs,
+which was found to be quite high, around 20 nm in a recent
+study of all binding afﬁnity-related endpoints of all identiﬁable drug-efﬁcacy target pairs (i.e., ic50 , ec50 , ed50 , ki , kd ,
+and pa2 ) found [12]. the estimated average gr-binding afﬁnity of hydrocortisone (cortisol, 1) is about 70 nm (table 1);
+a reasonable value within the normal plasma concentration range of cortisol. normal human plasma cortisol levels
+ﬂuctuate between approx. one hundred and 800 nm (being
+higher in the morning); however, free cortisol represents only
+about 5% of the total (i.e., 5–40 nm) as 80–90% is bound to
+corticosteroid-binding globulin (cbg or transcortin) and the
+remainder is associated with albumin [77]. cbg is a transport/cargo glycoprotein that binds biologically active steroids
+with considerably higher afﬁnity and speciﬁcity than other
+plasma proteins [78]. cbg binding data have been frequently
+used as a steroid “benchmark” binding data for qsar studies
+[79–81], but it has to be noted that there seems to be no close
+correlation between cbg binding and gr-binding, which is the
+subject of the present analysis.
+with the present bilinear model (models 5 and 6), two
+structure-based descriptors, calculated molecular volume,
+v, and an indicator variable, ihal/ xxxg35xxx  , for activity-enhancing
+substitutions (6␣- or 9␣-ﬂuorination or cyclic 16,17-acetal substitution), account for about 80% of the variability in the
+binding data of more than 100 steroid structures. activity
+shows a biphasic dependence on size with maximal afﬁnity
+occurring for steroids close to an ideal size, which is similar
+to those of most highly active steroids. there have been a few
+previous studies on corticosteroid binding [44,46,55] or activity
+[76,82,83], mainly using lipophilicity (e.g., log po/w ) as descriptor; compared to these, the present study not only uses a much
+larger number of data, but also has the additional advantage
+that (1) it maintains the intuitivity and easy interpretability
+of linear approaches, while still accounting for the nonlinearity of the data through the linbiexp model, and that (2) all
+of its descriptors are entirely structure-derived. one has to
+remember that because size and lipophilicity are closely correlated [84] (especially on related structures), lipophilicity and
+size (volume) can give similar performances; nevertheless,
+volume gave a much better ﬁt with the bilinear model here
+than did lipophilicity (log po/w ). a strong size-dependency of
+the rba at the gr has been shown previously using calculated
+molecular volume (n = 38, 57) [41,57] or connolly surface area
+(coar, n = 11) [55]. mager and jusko found a linear increase
+with size (coar) [55]; however, they considered only eleven
+compounds that were all on the rising side of the biphasic
+curve as ﬂuticasone propionate was the largest compound
+included in their study, and they did not discriminate among
+ﬂuorinated and non-ﬂuorinated compounds. nevertheless,
+
+203
+
+s t e r o i d s 7 3 ( 2 0 0 8 ) 193–208
+
+table 3 – estimated substituent effect as obtained from comparing the corresponding direct structural pairs present in
+the current data and shown as mean ± s.d. for all corresponding pairs
+substituent
+
+6␣-f
+9␣-f
+6␣-f (w 9f present)
+9␣-f (w 6f present)
+6&9␣-f
+6␣-f (w cyc. xxxg35xxx  present)
+9␣-f (w cyc. xxxg35xxx  present)
+6␣-f (w 9f&cyc. xxxg35xxx  present)
+9␣-f (w 6f&cyc. xxxg35xxx  present)
+6&9␣-f (w cyc. xxxg35xxx  present)
+16,17-cactl
+16,17-cactl (w 6or9f present)
+1,2
+21-o
+
+n
+
+2
+4
+5
+2
+1
+1
+2
+2
+1
+2
+1
+3
+8
+5
+
+g0 (kj/mol)
+
+rrba incr. (×)
+
+v (å3 )
+
+g0 w v corr.
+
+avg.
+
+s.d.
+
+avg.
+
+s.d.
+
+avg.
+
+s.d.
+
+avg.
+
+−3.76
+−6.12
+−1.41
+−0.36
+−8.86
+0.71
+0.16
+−0.19
+−0.87
+−0.03
+−10.64
+−4.55
+−1.41
+−1.52
+
+−0.23
+−2.22
+−1.06
+−0.51
+n/a
+n/a
+−0.95
+−0.78
+n/a
+−0.17
+n/a
+−2.65
+−1.27
+−1.82
+
+4.55
+11.81
+1.76
+1.16
+35.67
+0.75
+0.94
+1.08
+1.42
+1.01
+73.33
+6.27
+1.77
+1.84
+
+1.10
+2.45
+1.54
+1.23
+n/a
+n/a
+1.47
+1.37
+n/a
+1.07
+n/a
+2.92
+1.67
+2.09
+
+5.68
+4.92
+3.55
+3.34
+8.30
+3.30
+3.31
+3.91
+4.44
+7.21
+35.20
+34.69
+−5.46
+5.20
+
+0.37
+0.90
+0.60
+0.27
+n/a
+n/a
+0.01
+0.74
+n/a
+0.75
+n/a
+0.11
+1.22
+1.35
+
+−3.19
+−5.63
+−1.05
+−0.03
+−8.03
+1.04
+0.49
+0.20
+−0.42
+0.69
+−7.12
+−1.08
+−1.95
+−1.00
+
+the rightmost column uses an approximate volume correction (g0 + 0.1v) to obtain values that are comparable to the ı terms obtained in
+the linbiexp regression equations (table 2).
+
+the size-dependency they found still agrees sufﬁciently well
+with the one found here for small-enough compounds: the
+slope they found, 0.027 for log rrba as a function of coar,
+can be converted to the scale used here (g0 as a function of
+v) due to the close correlation between the two measures of
+molecular size (coar = 1.065v + 15.502, r2 = 0.976, n = 11), and
+it corresponds to a slope of −5.708 × 1.065 × 0.027 = −0.146,
+which is somewhat larger but not very different than the
+˛1 = −0.114±0.012 obtained here (model 5).
+at ﬁrst sight, it might seem somewhat surprising that a
+nonspeciﬁc parameter such as size can account for such a
+large proportion of the binding afﬁnity as one would expect
+more speciﬁc, pharmacophore-related effects; however, the
+compounds included in the present study already satisfy the
+main structural requirements of binding at the gr, and they
+already contain the essentials pharmacophores required for
+adequate binding [1,57]. therefore, this set probably represents a sort of upper limit of binding; inactive steroids lacking
+various required pharmacophores were omitted. the ﬁrst
+crystal structure of the human gr ligand-binding domain
+(lbd) bound to dexamethasone determined by using a receptor with a single point mutation (f602 s) [13] is in excellent
+agreement with the observations of the present qsar study.
+gr seems to have an additional branch, compared to the
+steroid-shaped pocket of androgen-, estrogen-, or progestinreceptors, and can accommodate the larger 17␣ substituents
+of glucocorticoids that are not present in testosterone, estrogen, or progesterone [11,13]. unspeciﬁc (van der waals-type)
+interactions within the surprisingly large 17-positioned side
+pocket of gr, where most of the ligands’ structural variations
+are (fig. 4), could be responsible for a good portion of the
+g0 (rrba) variation seen, and they could indeed be mainly
+size-dependent. an overlap of representative, highly active
+glucocorticoid structures within the lbd of the human gr
+generated using the crystal structure complexed with dexamethasone [13] illustrates well this point: even the largest
+structure ( xxxd1690xxx  active metabolite) encounters only minimal structural bumps even though the structure of the
+
+fig. 4 – overlap of representative, highly active
+glucocorticoid structures within the ligand-binding domain
+of the human gr generated using the crystal structure
+complexed with dexamethasone [13]. included steroid
+structures are as follows:  xxxd293xxx   xxxd294xxx  monopropionate:
+orange, 22r budesonide (4): brown,  xxxd1690xxx  active
+metabolite: purple,  xxxd1719xxx : green, dexamethasone:
+black, ﬂuticasone propionate (7): blue,  xxxd2665xxx 
+(8): red. note that even the largest structure ( xxxd1690xxx 
+active metabolite) encounters only minimal structural
+bumps (dashed yellow lines around its 16,17␣ cyclohexyl
+substituent in the lower right corner). (for interpretation of
+the references to color in this ﬁgure legend, the reader is
+referred to the web version of the article.)
+
+binding pocket was obtained with the much smaller dexamethasone as ligand (fig. 4). proteins are ﬂexible structures in
+constant motion between different states of similar energies;
+hence, binding site shape and size is, at least to some extent,
+determined by the ligand [85], and the larger ligands almost
+certainly ﬁt even better than indicated by this ﬁgure especially that the lbd of gr has been shown to be particularly
+
+204
+
+s t e r o i d s 7 3 ( 2 0 0 8 ) 193–208
+
+ﬂexible [14], and other members of this receptor super-family
+also show unique plasticity (e.g., serm binding at estrogen
+receptors [86]).
+as long as the substituents are not prohibitively
+large, increasing size tends to result in increasing
+binding. for the gr, optimum receptor binding is
+predicted to occur somewhere around vmax = c − 
+[ln(˛1 ) − ln(−˛2 )]/(˛1 − ˛2 ) = 361.0 å3 , and seems to be about the
+same in substituted and unsubstituted compounds (table 2
+and fig. 3). this value is very close to those of highly active
+steroids such as  xxxd1719xxx  propionate (6; 349.9), ﬂuticasone
+propionate (7; 357.8), or  xxxd2665xxx  (8; 367.9).
+dexamethasone, which was observed to occupy only part of
+the volume of the overall gr steroid pocket, but still have
+nearly every atom of its steroid core in contact with one
+or more hydrophobic residue of gr in addition to speciﬁc
+protein–ligand hydrogen bonds at all hydrophilic moieties
+(e.g., at the c3 ketone, at the 11␤-, 17␣-, and 21-hydroxyl)
+[13], indeed has a considerably smaller volume (298.0 å3 ).
+obviously, overall size is not a perfect descriptor, and, for
+example, size-limitations are certainly not the same in all
+regions of the lbd of gr (e.g., they are probably more stringent
+at the 17␤ than at the 17␣ side chain), and this is probably
+why the larger compounds are much more scattered from a
+linear ﬁt than the smaller ones. most substituted 17␤ esters,
+such as  xxxd294xxx  (9) or  xxxd1690xxx  (10),
+are inactive, but can be activated by hydrolytic cleavage of the
+ester moiety.
+such a biphasic behavior of binding afﬁnity on ligand size
+may be present in many other receptor classes as well; for
+example, recently we showed evidence for a similar behavior
+in quaternary anticholinergics [43]. for small-enough corticosteroids that contain all necessary pharmacophores, the
+size-dependency of the free energy of binding (slope of approx.
+0.1 kj/mol/å3 ) obtained here suggest that, as long as only
+nonspeciﬁc interactions are involved, addition of a methylenesized non-hydrogen atom to the ligand structure, which with
+the algorithm used here increases the volume by 14–16 å3 ,
+increases the absolute value of the free energy of binding on
+average by about 1.5 kj/mol, corresponding to an almost doubling of the binding afﬁnity (101.5/5.708 = 1.83). this is somewhat
+less than some earlier general estimates for ligand–receptor
+binding (e.g., 3–6 kj/mol/atom [66,87]), but it is quite reasonable
+as here, it only represent increases due to nonspeciﬁc interactions, whereas, in the general cases, size also incorporates
+a term due to speciﬁc interactions (and/or other interceptrelated assumptions) [66,87,88]. this value is also in excellent
+agreement with the average binding increment seen for 18
+highly optimized inhibitors at ﬁve different protein targets in
+fragment-based drug discovery [89]. this found that a 10-fold
+increase in binding (i.e., a one unit change in pkd or log kd )
+requires an average increase of about 64 in mw [89]; hence, the
+1.8-fold increase seen here for addition of a non-h atom would
+require an increase of about 64 × log 1.8 ≈ 16 in mw, about the
+mass of a methylene-sized unit.
+regarding the halogenation effects, an activity-enhancing
+effect for ﬂuorination has been long known for glucocorticoids. one of the earliest detailed thermodynamic
+analysis of gr-binding [44], mainly on the basis of data for
+hydrocortisone (cortisol, 1) and prednisolone derivatives, sug-
+
+gested an approximate three-fold increase for 9␣-ﬂuorination
+(g0 = −2.39 kj/mol), two-fold increase for 6␣-ﬂuorination
+(−1.51 kj/mol), and four-fold increase for 9␣-chlorination
+(−2.97 kj/mol) in rba vs. the average of 6- to 7-fold increase
+obtained here (−4.6 kj/mol). however, this study by wolff et
+al. used a much more limited number of structures and did
+not consider separately the ﬂuorination of cyclic 16,17-acetal
+compounds, where its activity-enhancing effect seems to be
+much less. it is still unclear why does 6␣- or 9␣-halogenation
+increases gr-binding so signiﬁcantly, especially since the
+h → f replacement is a classic isosteric replacement often
+used to provide metabolic stability because of the stability of
+the c–f bond and the steric similarity between h and f [90].
+there seems to be, however, a clear size-limitation: bromination already decreases activity [44] (hydrocortisone, 9␣-br;
+table 1). the crystal structure of the dexamethasone–receptor
+complex (fig. 4) does not seem to indicate the presence of
+any special interaction. interestingly, contrary to the glucocorticoid case, 6␣-halogenation (f, cl) seems to have no
+effect on the binding of progesterone to its receptor [91,92].
+also, whereas 6␣ or 9␣ ﬂuorination seems to have about
+the same effect on gr-binding, they seem to have very different effects at the  xxxg1602xxx , substitution
+at 9␣ being much more effective than at 6␣, at least in
+the case of ﬂuoroprednisolone [93]. fluorination may also
+cause metabolism/pharmacokinetic changes as, for example,
+oxidation of steroids by 11␤-hydroxysteroid dehydrogenase
+(11␤-hsd) is diminished if they are 6␣- or 9␣-ﬂuorinated [94].
+however, overall human half-lives (t1/2 ) are not very different for representative cases such as dexamethasone 4.0 h vs.
+prednisolone 3.2 h (p.o.) [95] or ﬂunisolide ∼1.5 h vs. budesonide ∼3.0 h (i.v., inh) [3,96]; hence, this effect, if present at all,
+is much less relevant than the one produced on gr-binding
+afﬁnity.
+for the cyclic acetal moiety, the restricted rotation in a preferred conﬁguration, might contribute to an increased binding
+afﬁnity by reducing the entropy loss on binding of a less ﬂexible ligand, and possible hydrogen bonding at the two oxygen
+atoms might further enhance this effect. combining two such
+different substitutions into a single indicator variable (ihal/ xxxg35xxx  )
+is difﬁcult to justify from a physicochemical perspective, but
+the corresponding regression coefﬁcients are statistically so
+similar that it makes sense to collapse them into a single
+one to reduce the number of parameters in the model. it is
+also unclear why these two effects seem to cancel each other
+except that the acetal substituent tends to fold in the binding
+pocket under the steroid skeleton (␣ side; fig. 4), so it might
+interfere with interactions at the 6/9␣-halogens even if it is farther away. on a related note, however, it might worth noting
+that the corresponding g0 ≈ −4.6 kj/mol values are in excellent agreement with the estimated average free energy change
+due to a hydrogen bond in aqueous solvents. the energetic of
+hydrogen bonding is somewhat controversial [97], but by most
+indications, while the bonding enthalpy (h) of hydrogen bonds
+varies depending on the involved systems over a relatively
+wide range (5–30 kj/mol), an enthalpy–entropy compensation
+[98–100], characteristic especially for water, keeps the gibbs
+free energy (g) of neutral hydrogen bonds in aqueous solutions
+in a better deﬁned area around 3–6 kj/mol (1–1.5 kcal/mol)
+[101–104] (a value also conﬁrmed in mutagenesis and stability
+
+s t e r o i d s 7 3 ( 2 0 0 8 ) 193–208
+
+studies of enzyme–ligand and nucleotide–nucleotide complexes [105–108]). intriguingly, it is also about the same value
+that was seen as possible related to changes due to hydrogen
+bonding in the log octanol–water partition coefﬁcient (log po/w )
+after taking away the size (molecular volume) related effects
+(4.2 kj/mol) in the qlogp model [84,109].
+a 1,2 double bond that ﬂattens the a-ring has long been
+assumed to enhance gr-binding. the present data indicate
+a small increase, but not a statistically signiﬁcant contribution: an indicator variable in the linbiexp model results only
+in a ı1,2
+ = −0.24±0.56 kj/mol term and direct comparison of the
+eight pairs gives −1.41±1.27 kj/mol (n = 8; table 3). the latter
+corresponds to an almost two-fold increase (1.77) in rrba
+and is similar to that obtained by wolff et al. on only three
+pairs (−1.21 kj/mol); however, statistics did not justify its inclusion in the ﬁnal model. the presence of a 21-o substituent
+(e.g., betamethasone vs. 21-deoxy betamethasone) produces
+a very similar (and statistically also not signiﬁcant) change:
+−1.52±1.82 kj/mol (n = 5; i.e., from comparison of ﬁve direct
+pairs in the present data), which also corresponds to an almost
+two-fold increase (1.84) in rrba. these two observations are in
+agreement with the generally accepted sars for gr-binding
+(fig. 1).
+an 11-oh function is required for gr-activity, and 11-keto
+compounds indeed bind too weakly and had to be omitted.
+however, the 11 unsubstituted compounds (such as desoxycorticosterone or even progesterone) lack gr activity, but
+still ﬁt the general biphasic pattern for binding well. furthermore, even some of the antiprogestins, which tend to
+be antiglucocorticoids too, such as mifepristone or hrp 2000
+that show strong gr-binding (kd < 1 nm) [68,69] (but not others such as, e.g., onapristone with a lower gr afﬁnity) ﬁt
+this pattern well as they have molecular sizes close to the
+predicted vmax of ∼360 å3 obtained here and afﬁnities in excellent agreement with the linbiexp predicted ones (table 1 and
+fig. 3) despite having large 11␤ substituents. for illustration,
+they were included in table 1 and fig. 3, but were not used
+in the model development because of their different structures. even some representative nonsteroidal gr modulators
+such as al-438, which has gr-binding similar to prednisolone
+[110,111] and also has a very similar molecular size (v of 279.2
+vs. 280.5 å3 ), or newer one such as the thienylmethylidenesubstituted ones recently published by hudson et al. [71],
+which show high gr afﬁnities (kd ∼ 1 nm) and have molecular
+sizes close to vmax (∼360 å3 ), seem to ﬁt the pattern predicted
+here at least to some degree—even if they are not necessarily expected to do so because of their different structural
+framework and substituent pattern. these seem to further
+reinforce the possibility that this model indeed represents a
+sort of upper limit of binding determined by the size of the
+gr-binding pocket.
+in conclusion, gr-binding afﬁnity of steroids that satisfy
+the main binding criteria at this receptors show a biphasic
+size-dependence that can be well-described by the recently
+introduced linbiexp bilinear model. with this model, close
+to 80% of the variability in the free energy of binding can be
+accounted for by using only two descriptors: calculated molecular volume and an indicator variable for halogenation at the
+6␣- or 9␣-position or the presence of a cyclic 16,17-acetal moiety. binding is strongest for corticosteroids close to an ideal
+
+205
+
+size and is dramatically increased by 6␣- or 9␣-halogenation or
+introduction of a cyclic 16,17-acetal moiety (in average, about
+6- to 7-fold), but there is no signiﬁcant increase after the ﬁrst
+substitution. as long as all required structural elements are
+present and ligand size is not yet prohibitively large, addition of a methylene-sized non-hydrogen atom to the ligand
+structure changes g0 on average by about 1.5 kj/mol, corresponding to an almost doubling of the binding afﬁnity.
+
+acknowledgements
+the helpful comments of the anonymous reviewers are gratefully acknowledged.
+
+references
+
+[1] schimmer bp, parker kl.  xxxg1801xxx ;
+adrenocortical steroids and their synthetic analogs;
+inhibitors of the synthesis and actions of adrenocortical
+hormones. in: hardman jg, limbird le, editors. goodman &
+gilman’s the pharmacological basis of therapeutics. 9th ed.
+new york: mcgraw-hill; 1996. p. 1459–85.
+[2] avery ma, woolfrey jr. anti-inﬂammatory steroids. in:
+abraham dj, editor. burger’s medicinal chemistry and drug
+discovery, cardiovascular agents and endocrines, vol. 3, 6th
+ed. new york: wiley; 2003. p. 747–853.
+[3] bodor n, buchwald p. corticosteroid design for the
+treatment of asthma: structural insights and the
+therapeutic potential of soft corticosteroids. curr pharm
+des 2006;12(25):3241–60.
+[4] martindale w. the extra pharmacopoeia. 31st ed. london:
+pharmaceutical press; 1996.
+[5] barnes pj. therapeutic strategies for allergic diseases.
+nature 1999;402(suppl.):b31–8.
+[6] jensen ev, suzuki t, kawashima t, stumpf we, jungblut
+pw, desombre er. a two-step mechanism for the
+interaction of estradiol with rat uterus. proc natl acad sci
+u s a 1968;59(2):632–8.
+[7] hollenberg sm, weinberger c, ong es, cerelli g, oro a, lebo
+r, et al. primary structure and expression of a functional
+human  xxxg1601xxx  cdna. nature
+1985;318(6047):635–41.
+[8] baraniuk jn. molecular actions of glucocorticoids: an
+introduction. j allergy clin immunol 1996;97:141–2.
+[9] barnes pj. molecular mechanisms of corticosteroids in
+allergic diseases. allergy 2001;56:928–36.
+[10] kumar r, thompson eb. the structure of the nuclear
+hormone receptors. steroids 1999;64:310–9.
+[11] lu nz, wardell se, burnstein kl, defranco d, fuller pj,
+giguere v, et al. international union of pharmacology. lxv.
+the pharmacology and classiﬁcation of the nuclear
+receptor superfamily: glucocorticoid, mineralocorticoid,
+progesterone, and androgen receptors. pharmacol rev
+2006;58(4):782–97.
+[12] overington jp, al-lazikani b, hopkins al. how many drug
+targets are there? nat rev drug discov 2006;5(12):993–6.
+[13] bledsoe rk, montana vg, stanley tb, delves cj, apolito cj,
+mckee dd, et al. crystal structure of the glucocorticoid
+receptor ligand binding domain reveals a novel mode of
+receptor dimerization and coactivator recognition. cell
+2002;110:93–105.
+[14] kauppi b, jakob c, färnegå xxxg2186xxx  m, yang j, ahola h, alarcon
+m, et al. the three-dimensional structures of antagonistic
+and agonistic forms of the  xxxg1601xxx 
+
+206
+
+[15]
+
+[16]
+
+[17]
+
+[18]
+
+[19]
+[20]
+
+[21]
+
+[22]
+
+[23]
+
+[24]
+
+[25]
+
+[26]
+
+[27]
+[28]
+
+[29]
+
+[30]
+
+[31]
+
+[32]
+[33]
+[34]
+
+[35]
+
+s t e r o i d s 7 3 ( 2 0 0 8 ) 193–208
+
+ligand-binding domain: ru-486 induces a
+transconformation that leads to active antagonism. j biol
+chem 2003;278(25):22748–54.
+falkenstein e, tillmann h-c, christ m, feuring m, wehling
+m. multiple actions of steroid hormones—a focus on rapid,
+nongenomic effects. pharmacol rev 2000;52(4):513–56.
+norman aw, mizwicki mt. norman dpg. steroid-hormone
+rapid actions, membrane receptors and a conformational
+ensemble model. nat rev drug discov 2004;1:27–41.
+maier c, runzler d, schindelar j, grabner g, waldhausl w,
+kohler g, et al. g-protein-coupled glucocorticoid receptors
+on the pituitary cell membrane. j cell sci 2005;118(pt
+15):3353–61.
+löwenberg m, verhaar ap, van den brink gr, hommes dw.
+glucocorticoid signaling: a nongenomic mechanism for
+t-cell immunosuppression. trends mol med
+2007;13(4):158–63.
+kenakin tp. a pharmacology primer. theory, applications,
+and methods. 2nd ed. burlington ma: academic press; 2006.
+schaaf mj, cidlowski ja. molecular determinants of
+ xxxg1601xxx  mobility in living cells: the
+importance of ligand afﬁnity. mol cell biol
+2003;23(6):1922–34.
+kelly hw. establishing a therapeutic index for the inhaled
+corticosteroids: part i pharmacokinetic/pharmacodynamic
+comparison of the inhaled corticosteroids. j allergy clin
+immunol 1998;102:s36–51.
+rohdewald pj. comparison of clinical efﬁcacy of inhaled
+glucocorticoids. arzneim-forsch/drug res
+1998;48(ii):789–96.
+derendorf h, hochhaus g, meibohm b, möllmann h, barth
+j. pharmacokinetics and pharmacodynamics of inhaled
+corticosteroids. j allergy clin immunol 1998;101:s440–6.
+rohatagi s, arya v, zech k, nave r, hochhaus g, jensen k, et
+al. population pharmacokinetics and pharmacodynamics
+of  xxxd1690xxx . j clin pharmacol 2003;43:365–78.
+mager de, moledina n, jusko wj. relative
+immunosuppressive potency of therapeutic corticosteroids
+measured by whole blood lymphocyte proliferation. j
+pharm sci 2003;92:1521–5.
+national asthma education and prevention program.
+expert panel report 2: guidelines for the diagnosis and
+management of asthma. bethesda, md: nih, nhlbi; 1997.
+buchman al. side effects of corticosteroid therapy. j clin
+gastroenterol 2001;33(4):289–94.
+lipworth bj. systemic adverse effects of inhaled
+corticosteroid therapy: a systematic review and
+meta-analysis. arch intern med 1999;159:941–55.
+allen db. systemic effects of intranasal steroids: an
+endocrinologist’s perspective. j allergy clin immunol
+2000;106(suppl.):s179–90.
+perry rj, findlay ca, donaldson mdc. cushing’s syndrome,
+growth impairment, and occult adrenal suppression
+associated with intranasal steroids. arch dis child
+2002;87:45–8.
+israel e, banerjee tr, fitzmaurice gm, kotlov tv, lahive k,
+leboff ms. effects of inhaled glucocorticoids on bone
+density in premenopausal women. n engl j med
+2001;345(13):941–7.
+rosen j, miner jn. the search for safer glucocorticoid
+receptor ligands. endocr rev 2005;26(3):452–64.
+boushey ha. inhaled corticosteroid therapy for asthma:
+therapeutic and toxic potentials. am j med 2000;108:338–40.
+brattsand r. development of inhaled steroids: past,
+present, and prospects. in: dalby rn, byron pr, peart j, farr
+sj, editors. respiratory drug delivery, vol. iii. richmond, va:
+virginia commonwealth university; 2002. p. 1–14.
+volcheck gw, o’connell ej. anti-inﬂammatory drugs for
+controlling asthma. postgrad med 1998;104:127–36.
+
+[36] chen f, kearney t, robinson s, daley-yates pt, waldron s,
+churchill dr. cushing’s syndrome and severe adrenal
+suppression in patients treated with ritonavir and inhaled
+nasal ﬂuticasone. sex transm infect 1999;75:274.
+[37] gupta sk, dubé mp. exogenous cushing syndrome
+mimicking human immunodeﬁciency virus lipodystrophy.
+clin infect dis 2002;35:e69–71.
+[38] raaska k, niemi m, neuvonen m, neuvonen pj, kivistö kt.
+plasma concentrations of inhaled budesonide and its
+effects on plasma cortisol are increased by the cytochrome
+p4503a4 inhibitor itraconazole. clin pharmacol ther
+2002;72:362–9.
+[39] bolland mj, bagg w, thomas mg, lucas ja, ticehurst r,
+black pn. cushing’s syndrome due to interaction between
+inhaled corticosteroids and itraconazole. ann
+pharmacother 2004;38:46–9.
+[40] martin rj, szeﬂer sj, chinchilli vm, kraft m, dolovich m,
+boushey ha, et al. systemic effect comparisons of six
+inhaled corticosteroid preparations. am j respir crit care
+med 2002;165:1377–83.
+[41] buchwald p. general linearized biexponential model for
+qsar data showing bilinear-type distribution. j pharm sci
+2005;94(11):2355–79.
+[42] buchwald p. a general bilinear model to describe growth or
+decline time-proﬁles. math biosci 2007;205(1):108–36.
+[43] buchwald p, bodor n. soft quaternary anticholinergics:
+comprehensive qsar with a linearized biexponential
+(linbiexp) model. j med chem 2006;49(3):883–91.
+[44] wolff me, baxter jd, kollman pa, lee dl, kuntz id, bloom e,
+et al. nature of steroid- xxxg1601xxx  interactions:
+thermodynamic analysis of the binding reaction.
+biochemistry 1978;17:3201–8.
+[45] dahlberg e, thalén a, brattsand r, gustafsson j-å,
+johansson u, roempke k, et al. correlation between
+chemical structure, receptor binding, and biological activity
+of some novel, highly active, 16␣, 17␣-acetal-substituted
+glucocorticoids. mol pharmacol 1984;25:70–8.
+[46] ponec m, kempenaar j, shroot b, caron j-c. glucocorticoids:
+binding afﬁnity and lipophilicity. j pharm sci 1986;75:973–5.
+[47] wojnar rj, varma rk, free ca, millonig rc, karanewsky d,
+lutsky bn. androstene-17-thioketals. 1st communication:
+ xxxg1601xxx  binding, antiproliferative and
+antiinﬂammatory activities of some novel 20-thiasteroids
+(androstene-17-thioketals). arzneim-forsch/drug res
+1986;36:1782–7.
+[48] derendorf h, hochhaus g, möllmann h, barth j, krieg m,
+tunn s, et al. receptor-based
+pharmacokinetic-pharmacodynamic analysis of
+corticosteroids. j clin pharmacol 1993;33:115–23.
+[49] barnes pj, pedersen s, busse ww. efﬁcacy and safety of
+inhaled corticosteroids new developments. am j respir
+crit care med 1998;157:s1–53.
+[50] smith cl, kreutner w. in vitro  xxxg1601xxx 
+binding and transcriptional activation by topically active
+glucocorticoids. arzneim-forsch/drug res
+1998;48(ii):956–60.
+[51] bodor n. androstene derivatives. u.s. patent 5,981,517; 1999
+november 9.
+[52] biggadike k, angell rm, burgess cm, farrell rm, hancock
+ap, harker aj, et al. selective plasma hydrolysis of
+glucocorticoid ␥-lactones and cyclic carbonates by the
+enzyme paraoxonase: an ideal plasma inactivation
+mechanism. j med chem 2000;43:19–21.
+[53] thalén a, andersson ph, andersson pt, axelsson b,
+edsbäcker s, brattsand r. prospects for developing inhaled
+steroids with extrahepatic metabolism—“soft steroids”. in:
+schleimer rp, o’byrne pm, szeﬂer sj, brattsand r, editors.
+inhaled steroids in asthma optimizing effects in the
+airways. new york: marcel dekker; 2002. p. 521–37.
+
+s t e r o i d s 7 3 ( 2 0 0 8 ) 193–208
+
+[54] brattsand r. a pharmacologist’s view based on experiences
+from the budesonide project. in: schleimer rp, o’byrne pm,
+szeﬂer sj, brattsand r, editors. inhaled steroids in asthma
+optimizing effects in the airways. new york: marcel
+dekker; 2002. p. 3–32.
+[55] mager de, jusko wj. quantitative
+structure–pharmacokinetic/pharmacodynamic
+relationships of corticosteroids in man. j pharm sci
+2002;91:2441–51.
+[56] hammer s, spika i, sippl w, jessen g, kleuser b, höltje h-d,
+et al.  xxxg1601xxx  interactions with
+glucocorticoids: evaluation by molecular modeling and
+functional analysis of  xxxg1601xxx  mutants.
+steroids 2003;68:329–39.
+[57] buchwald p, bodor n. soft glucocorticoid design: structural
+elements and physicochemical parameters determining
+receptor-binding afﬁnity. pharmazie 2004;59:396–404.
+[58] valotis a, neukam k, elert o, högger p. human receptor
+kinetics, tissue binding afﬁnity, and stability of
+ xxxd2665xxx . j pharm sci 2004;93:1337–50.
+[59] würthwein g, rehder s, rohdewald p. lipophilicity and
+receptor afﬁnity of glucocorticoids. pharm ztg wiss
+1992;4:161–7.
+[60] park k-k, ko d-h, you z, heiman as, lee hj. synthesis and
+pharmacological evaluations of new steroidal
+anti-inﬂammatory antedrugs:
+9␣-fluoro-11␤,17␣,21-trihydroxy-3,20-dioxo-pregna-1
+4-diene-16␣-carboxylate (fp16cm) and its derivatives.
+steroids 2006;71(1):83–9.
+[61] bodor n. design of biologically safer chemicals based on
+retrometabolic concepts. in: devito sc, garrett rl, editors.
+designing safer chemicals green chemistry for pollution
+prevention. washington, dc: acs; 1996. p. 84–115.
+[62] hochhaus g, druzgala p, hochhaus r, huang m-j, bodor n.
+glucocorticoid activity and structure activity relationship
+in a series of some novel 17␣-ether-substituted steroids:
+inﬂuence of 17␣-substituents. drug design deliv
+1991;8:117–25.
+[63] druzgala p, hochhaus g, bodor n. soft drugs 10. blanching
+activity and receptor binding afﬁnity of a new type of
+glucocorticoid:  xxxd2509xxx  etabonate. j steroid biochem
+1991;38:149–54.
+[64] bodor n, buchwald p. design and development of a soft
+corticosteroid,  xxxd2509xxx  etabonate. in: schleimer rp,
+o’byrne pm, szeﬂer sj, brattsand r, editors. inhaled
+steroids in asthma optimizing effects in the airways. new
+york: marcel dekker; 2002. p. 541–64.
+[65] cheng y, prusoff wh. relationship between the inhibition
+constant (k1 ) and the concentration of inhibitor which
+causes 50 per cent inhibition ( xxxd1289xxx  ) of an enzymatic reaction.
+biochem pharmacol 1973;22(23):3099–108.
+[66] andrews pr, craik dj, martin jl. functional group
+contributions to drug-receptor interactions. j med chem
+1984;27:1648–57.
+[67] heiman as, ko d-h, chen m, lee hj. new steroidal
+anti-inﬂammatory antedrugs: methyl 3,20-dioxo-9␣-ﬂuoro11␤,17␣,21-trihydroxy-1,4-pregnadiene-16␣-carboxylate
+and methyl 21-acetyloxy-3,20-dioxo-11␤,17␣-dihydroxy-9␣ﬂuoro-1,4-pregnadiene-16␣-carboxylate. steroids
+1997;62:491–9.
+[68] wagner bl, pollio g, giangrande p, webster jc, breslin m,
+mais de, et al. the novel  xxxg1737xxx  antagonists
+rti 3021-012 and rti 3021-022 exhibit complex
+ xxxg1601xxx  antagonist activities: implications
+for the development of dissociated antiprogestins.
+endocrinology 1999;140(3):1449–58.
+[69] miner jn, tyree c, hu j, berger e, marschke k, nakane m, et
+al. a nonsteroidal  xxxg1601xxx  antagonist. mol
+endocrinol 2003;17(1):117–27.
+
+207
+
+[70] belvisi mg, bundschuh ds, stoeck m, wicks s, underwood
+s, battram ch, et al. preclinical proﬁle of  xxxd1690xxx , a
+novel corticosteroid for the treatment of asthma. j
+pharmacol exp ther 2005;314(2):568–74.
+[71] hudson ar, roach sl, higuchi ri, phillips dp, bissonnette
+rp, lamph ww, et al. synthesis and characterization of
+nonsteroidal  xxxg1601xxx  modulators for
+multiple myeloma. j med chem 2007;50(19):4699–709.
+[72] buchwald p, bodor n. quantitative structure-metabolism
+relationships: steric and nonsteric effects in the enzymatic
+hydrolysis of noncongener carboxylic esters. j med chem
+1999;42:5160–8.
+[73] buchwald p. complexation thermodynamics of
+cyclodextrins in the framework of a molecular size-based
+model for nonassociative organic liquids that includes a
+modiﬁed hydration-shell hydrogen-bond model for water. j
+phys chem b 2002;106:6864–70.
+[74] buchwald p, einstein b, bodor n. qsar study of
+2,3-benzodiazepin-4(thi)one- and 1, 2-phthalazine-related
+negative allosteric modulators of the  xxxg981xxx : a
+structural descriptors-based reassessment. qsar comb sci
+2005;24(3):325–31.
+[75] dewar mjs, zoebisch eg, healy ef, stewart jjp. am1: a new
+general purpose quantum mechanical molecular model. j
+am chem soc 1985;107:3902–9.
+[76] bodor n, harget aj, philips ew. structure-activity
+relationships in the antiinﬂammatory steroids: a
+pattern-recognition approach. j med chem 1983;26:318–28.
+[77] lewis jg, bagley cj, elder pa, bachmann aw, torpy dj.
+plasma free cortisol fraction reﬂects levels of functioning
+corticosteroid-binding globulin. clin chim acta
+2005;359(1–2):189–94.
+[78] hammond gl. determinants of steroid hormone
+bioavailability. biochem soc trans 1997;25(2):577–82.
+[79] cramer iii rd, patterson de, bunce jd. comparative
+molecular ﬁeld analysis (comfa) 1. effect of shape on
+binding of steroids to carrier proteins. j am chem soc
+1988;110:5959–67.
+[80] good ac, so ss, richards wg. structure–activity
+relationships from molecular similarity matrices. j med
+chem 1993;36(4):433–8.
+[81] maw hh, hall lh. e-state modeling of corticosteroids
+binding afﬁnity validation of model for small data set. j
+chem inf comput sci 2001;41(5):1248–54.
+[82] stouch tr, jurs pc. computer-aided studies of the
+structure-activity relationship between the structure of
+some steroids and their antiinﬂammatory activity. j med
+chem 1986;29:2125–36.
+[83] zeelen fj. qsar of steroids. quant struct-act relat
+1986;5:131–7.
+[84] buchwald p, bodor n. octanol–water partition: searching
+for predictive models. curr med chem 1998;5:353–80.
+[85] teague sj. implications of protein ﬂexibility for drug
+discovery. nat rev drug discov 2003;2:527–41.
+[86] nilsson s, koehler kf. oestrogen receptors and selective
+ xxxg730xxx  modulators: molecular and cellular
+pharmacology. basic clin pharmacol toxicol
+2005;96(1):15–25.
+[87] kuntz id, chen k, sharp ka, kollman pa. the maximal
+afﬁnity of ligands. proc natl acad sci u s a
+1999;96:9997–10002.
+[88] andrews pr. the role of functional groups in drug–receptor
+interactions. in: wermuth cg, editor. the practice of
+medicinal chemistry. london: academic press; 1996. p.
+345–65.
+[89] hajduk pj. fragment-based drug design: how big is too big?
+j med chem 2006;49(24):6972–6.
+[90] wermuth cg. molecular variations based on isosteric
+replacements. in: wermuth cg, editor. the practice of
+
+208
+
+[91]
+
+[92]
+
+[93]
+
+[94]
+
+[95]
+
+[96]
+
+[97]
+
+[98]
+
+[99]
+
+[100]
+
+s t e r o i d s 7 3 ( 2 0 0 8 ) 193–208
+
+medicinal chemistry. london: academic press; 1996. p.
+203–37.
+seeley dh, wang wy, salhanick ha. molecular interactions
+of progesterone analogues with rabbit uterine cytoplasmic
+receptor. j biol chem 1982;257:13359–66.
+issar m, sahasranaman s, buchwald p, hochhaus g.
+differences in the glucocorticoid to  xxxg1737xxx 
+selectivity of inhaled glucocorticoids. eur respir j
+2006;27(3):511–6.
+funder jw, adam wr, mantero f, kraft n, ulick s. the
+etiology of a syndrome of factitious mineralocorticoid
+excess: a steroid-containing nasal spray. j clin endocrinol
+metab 1979;49(6):842–6.
+diederich s, eigendorff e, burkhardt p, quinkler m,
+bumke-vogt c, rochel m, et al. 11␤-hydroxysteroid
+dehydrogenase types 1 and 2: an important
+pharmacokinetic determinant for the activity of synthetic
+mineralo- and glucocorticoids. j clin endocrinol metab
+2002;87(12):5695–701.
+czock d, keller f, rasche fm, haussler u. pharmacokinetics
+and pharmacodynamics of systemically administered
+glucocorticoids. clin pharmacokinet 2005;44(1):61–98.
+rohatagi s, appajosyula s, derendorf h, szeﬂer s, nave r,
+zech k, et al. risk-beneﬁt value of inhaled corticosteroids:
+a pharmacokinetic/pharmacodynamic perspective. j clin
+pharmacol 2004;44:37–47.
+rose gd, wolfenden r. hydrogen bonding, hydrophobicity,
+packing, and protein folding. annu rev biophys biomol
+struct 1993;22:381–415.
+lumry r, rajender s. enthalpy-entropy compensation
+phenomena in water solutions of proteins and small
+molecules: a ubiquitous property of water. biopolymers
+1970;9:1125–227.
+grunwald e, steel c. solvent reorganization and
+thermodynamic enthalpy–entropy compensation. j am
+chem soc 1995;117(21):5687–92.
+liu l, guo q-x. isokinetic relationship, isoequilibrium
+relationship, and enthalpy-entropy compensation. chem
+rev 2001;101:673–95.
+
+[101] némethy g, scheraga ha. structure of water and
+hydrophobic bonding in proteins i. a model for the
+thermodynamic properties of liquid water. j chem phys
+1962;36:3382–400.
+[102] grant djw, higuchi t. solubility behavior of organic
+compounds. new york: wiley-interscience; 1990.
+[103] jeffrey ga, saenger w. hydrogen bonding in biological
+structures. berlin: springer; 1994.
+[104] smith jd, cappa cd, wilson kr, messer bm, cohen rc,
+saykally rj. energetics of hydrogen bond network
+rearrangements in liquid water. science
+2004;306(5697):851–3.
+[105] fersht ar, shi j-p, knill-jones j, lowe dm, wilkinson aj,
+blow dm, et al. hydrogen bonding and biological speciﬁcity
+analysed by protein engineering. nature 1985;314:235–8.
+[106] fersht ar. the hydrogen bond in molecular recognition.
+trends biochem sci 1987;12:301–4.
+[107] shirley ba, stanssens p, hahn u, pace cn. contribution of
+hydrogen bonding to the conformational stability of
+ribonuclease t1. biochemistry 1992;31:725–32.
+[108] stapley bj, doig aj. hydrogen bonding interactions between
+glutamine and asparagine in ␣-helical peptides. j mol biol
+1997;272:465–73.
+[109] bodor n, buchwald p. molecular size based approach to
+estimate partition properties for organic solutes. j phys
+chem b 1997;101:3404–12.
+[110] elmore sw, coghlan mj, anderson dd, pratt jk, green be,
+wang ax, et al. nonsteroidal selective glucocorticoid
+modulators: the effect of c-5 alkyl substitution on the
+transcriptional activation/repression proﬁle of
+2,5-dihydro-10-methoxy-2,2,4-trimethyl-1h[1]benzopyrano[3,4-f]quinolines. j med chem
+2001;44(25):4481–91.
+[111] coghlan mj, jacobson pb, lane b, nakane m, lin cw, elmore
+sw, et al. a novel antiinﬂammatory maintains
+glucocorticoid efﬁcacy with reduced side effects. mol
+endocrinol 2003;17(5):860–9.
+

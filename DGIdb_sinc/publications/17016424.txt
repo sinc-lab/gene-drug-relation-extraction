@@ -1,0 +1,1688 @@
+reviews
+c a s e h i s t o ry
+
+discovery and development of
+sorafenib: a multikinase inhibitor
+for treating cancer
+scott wilhelm, christopher carter, mark lynch, timothy lowinger, jacques dumas,
+roger a. smith, brian schwartz, ronit simantov and susan kelley
+
+abstract | since the molecular revolution of the 1980s, knowledge of the aetiology of cancer
+has increased considerably, which has led to the discovery and development of targeted
+therapies tailored to inhibit cancer-specific pathways. the introduction and refinement of
+rapid, high-throughput screening technologies over the past decade has greatly facilitated
+this targeted discovery and development process. here, we describe the discovery and
+continuing development of sorafenib (previously known as  xxxd3226xxx ), the first oral
+multikinase inhibitor that targets raf and affects tumour signalling and the tumour
+vasculature. the discovery cycle of sorafenib (nexavar; bayer pharmaceuticals) — from
+initial screening for a lead compound to fda approval for the treatment of advanced renal
+cell carcinoma in december 2005 — was completed in just 11 years, with approval being
+received ~5 years after the initiation of the first phase i trial.
+metastasis
+the spread of cancer cells
+through lymphatics/blood
+vessels to other sites or tissues
+in the body (for example, brain
+or liver).
+
+epigenetic events
+reversible heritable changes
+in gene function or other cell
+phenotype that occur without
+a change in dna sequence.
+
+department of cancer
+research, bayer
+pharmaceuticals corp.,
+west haven,
+connecticut 06516, usa.
+correspondence to s.w.
+e-mail:
+scott.wilhelm.b@bayer.com
+doi:10.1038/nrd2130
+
+the mainstays of cancer treatment during the twentieth
+century were surgery, radiation and chemotherapy.
+however, surgery is not curative in cases of advanced
+metastatic disease, and radiation and chemotherapy
+are limited by severe side effects and a limited capacity
+to discriminate between healthy and cancerous cells.
+furthermore, these treatment modalities offer limited
+therapeutic benefit to patients with solid tumours — the
+most common malignancies — which are inherently
+radio- and chemotherapy-resistant.
+for the majority of the twentieth century, drug discovery
+programmes focused on the development of novel cytotoxic chemotherapeutics, owing to a lack of understanding
+of the molecular mechanisms that drive tumorigenesis.
+however, in the 1980s, several groups began to identify
+the key molecular changes responsible for malignant
+transformation. these changes included the discovery of
+both cancer-causing oncogenes and tumour-suppressor
+genes that normally hold cancer in check1–7, and the
+identification of epigenetic events such as promoter
+methylation that predispose individuals to cancer by
+switching genes that regulate cell growth on or off 8.
+oncogenes are frequently activated by inherited or
+spontaneous gain-of-function mutations or fusions with
+other genes8, or they can be aberrantly expressed due
+to amplification, increased promoter activity or protein
+
+nature reviews | drug discovery
+
+stabilization8, and so they have integral roles in the genesis of human tumours. the inherited or spontaneous loss
+of function of tumour-suppressor genes resulting from
+inactivating mutations or epigenetic events (for example, promoter hypermethylation) was also implicated
+in tumorigenesis at this time3,8,9.
+these landmark findings greatly contributed to our
+molecular understanding of cancer, and subsequent
+studies of oncogene function were instrumental in
+delineating many of the key signal transduction pathways. several oncogenes were found to encode either
+growth factors (for example,  xxxd292xxx )10, constitutively active
+growth factor receptor tyrosine kinases (rtks) (for
+example,  xxxg681xxx  receptor (egfr, also
+known as  xxxg682xxx ); erbb2 (also known as her2/neu); and
+fms)11–13, or non-receptor tyrosine kinases (for example,
+src)14 that relay signals through the ubiquitous mapk
+(mitogen-activated protein kinase) intracellular signaltransduction pathway, which is composed of raf, mek
+(mapk kinase) and erk (extracellular signal-regulated
+kinase). other oncogenes have since been confirmed
+as encoding constitutively activated components of
+the mapk cascade (ki-ras,  xxxg1605xxx  and b-raf v600e)15,16
+or transcription factors that represent nuclear targets
+of this signal-transduction pathway (myc, fos and
+jun)17–19. the highly evolutionarily conserved mapk
+
+volume 5 | o ctober 2006 | 835
+© 2007 nature publishing group
+
+reviews
+signalling pathway regulates normal cellular proliferation, survival, differentiation, adhesion and motility by
+relaying extracellular growth-factor signals to multiple
+downstream nuclear effectors (for example, transcription factors) via rtks and ras20. it therefore became
+clear that dysregulated activation of signalling through
+the mapk pathway has a major role in human cancer,
+including several well-vascularized solid tumour types
+and haematological malignancies.
+our increased understanding of the aetiology of cancer
+at the molecular level since the 1980s has shifted the focus
+of drug discovery and development over the past decade
+away from non-specific chemotherapeutics and towards
+rationally designed drugs that target cancer-specific
+pathways. by inhibiting cancer-specific pathways, it was
+hoped that the new targeted agents would spare normal
+cells and thereby offer improved safety benefits over
+standard chemotherapeutics, while also providing a
+higher therapeutic index.
+
+therapeutic index
+(also known as therapeutic
+ratio or margin of safety).
+a comparison of the amount of
+a therapeutic agent that causes
+the therapeutic effect to the
+amount that causes toxic
+effects.
+
+scintillation proximity assay
+(spa)
+a process that uses
+fluoromicrospheres coated
+with streptavidin to detect
+phosphorylation of substrates
+by kinases, which has become
+an important technique in highthroughput screening (hts) for
+new drugs.
+
+xenograft
+xenograft mouse models of
+cancer are created by injecting
+homogeneous human tumour
+cell lines into immunodeficient
+mice.
+
+combinatorial chemistry
+any of various technologies for
+the rapid synthesis of large
+collections of compounds to
+facilitate the identification of
+new active compounds for drug
+targets by high-throughput
+screening techniques.
+
+ic50
+the half maximal inhibitory
+concentration, or the
+concentration of an inhibitor
+that is required for 50%
+inhibition of a biochemical or
+cellular target.
+
+target selection:  xxxg1924xxx 
+the raf  xxxg1377xxx  isoforms ( xxxg184xxx ,
+b-raf and raf1 (or c-raf)) are the first kinases in the
+mapk cascade and are pivotal regulators of cellular
+proliferation and survival20. in addition, it has recently
+been shown that wild-type raf1 can prolong cell
+survival, independent of mapk signalling, by direct
+interaction with anti-apoptotic and apoptotic regulatory proteins 20,21. dysregulated activation of these
+direct raf pathways, which can be independent of raf ’s
+kinase activity (that is, involve a mechanism other than
+protein phosphorylation), might also be implicated
+in tumorigenesis and the progression of several solid
+tumour types20,21.
+dysregulated signalling through  xxxg1924xxx  isoforms is
+detected in ~30% of human cancers20. constitutive b-raf
+activity can be caused by activating oncogenic mutations,
+such as the b-raf v600e mutation, which is prevalent in
+melanomas (63%)22 and papillary thyroid carcinomas (up
+to 50%)23,24. wild-type raf1 is often hyperactivated in a
+wide range of human solid tumours as a consequence
+of constitutively active upstream oncogenic ras mutants,
+or the overexpression of upstream growth factors and/or
+their rtks in the absence of oncogenic mutations.
+furthermore, constitutively active ras oncogenes (particularly  xxxg1285xxx ) are common in human solid tumours,
+including 90% of pancreatic, 45% of colorectal, and 30%
+of hepatocellular cancers (hcc), 35% of non-small-cell
+lung cancers (nsclc), 15% of melanomas and 10% of
+kidney tumours25. raf1 hyperactivation in the absence of
+oncogenic mutations is common in renal cell carcinoma
+(rcc) (50%)26 and hcc (100% in 30/30 biopsies)27,
+and is associated with poor prognosis in ovarian28 and
+androgen-insensitive prostate cancer29.
+in 1989, kasid et al. demonstrated that disrupting
+the raf1 gene using the specific antisense oligonucleotide (ason) isis 5132 inhibits the growth of human
+lung, breast and ovarian tumour xenografts in athymic
+mice30. this provided the first proof-of-concept that
+the raf1 gene is a valid anticancer target. isis 5132 is a
+20-base phosphorothioate ason designed to hybridize
+
+836 | o ctober 2006 | volume 5
+
+to the 3′-untranslated sequence of raf1, inducing its
+degradation, and decreasing raf1 protein synthesis30.
+interestingly, isis 5132 also decreased raf1 activity
+and enhanced the sensitivity of several resistant human
+tumour lines to cytotoxic agents and radiation30.
+a collaboration between bayer pharmaceuticals and
+onyx pharmaceuticals provided further validation of
+raf1 as a target for anticancer drug design. they demonstrated that mice with colon, pancreatic or fibrosarcoma
+human tumour xenografts harbouring oncogenic  xxxg1285xxx ,
+and expressing an mek construct that disrupted signalling from raf to erk, survived twofold longer than
+controls lacking this construct31.
+
+medicinal and combinatorial chemistry
+when the project team was formed in 1994, the reagents
+and assays were available to identify a  xxxg1924xxx  inhibitor. a scintillation proximity assay for the high-throughput
+screening (hts) and identification of selective raf/
+mek/erk enzyme inhibitors had already been developed by mcdonald et al. at glaxo-wellcome inc.,
+showing that this approach was feasible32. tumour cell
+lines that contained oncogenic  xxxg1285xxx  and/or b-raf mutations demonstrated upregulated signalling through the
+raf–mek–erk pathway. such tumour lines would be
+vital for performing the necessary in vitro and human
+tumour xenograft studies required to identify and select
+candidate  xxxg1924xxx  inhibitors for further evaluation
+in phase i clinical trials. so, the essential tools were
+available to proceed with the discovery and development of a novel targeted raf1 kinase inhibitor for the
+treatment of cancer.
+at the onset of the medicinal chemistry programme
+that led to sorafenib, there were no marketed kinase
+inhibitors in the field of oncology. however, before the
+approval of sorafenib, two first-generation targeted
+anticancer agents — imatinib (gleevec; novartis) and
+ xxxd2029xxx  (tarceva; genentech), which target bcr–abl
+and egfr, respectively — had begun to show clinical
+benefit33,34. several technologies designed to accelerate
+the identification of innovative and effective targeted drugs were crucial to these successes35. hts, as
+described above for the identification of selective raf/
+mek/erk inhibitors, is one of these key methodologies,
+which, along with combinatorial chemistry, has become
+an essential component of the contemporary cancer
+drug discovery process35,36. another crucial component was the introduction of early adme (absorption,
+distribution, metabolism and elimination) optimization in lead identification to facilitate preclinical
+proof-of-concept studies37.
+by 1994, bayer and onyx had engaged in a collaboration to discover novel therapies targeting the ras–raf–
+mek–erk pathway. hts screening for raf1 kinase
+inhibitory activity was initiated in 1995, and eventually
+led to the testing of about 200,000 compounds38,39. this
+effort generated 3-thienyl urea 1 as a promising lead
+compound, with a raf1 ic50 (half maximal inhibitory
+concentration) of 17 mum (fig. 1).
+the raf1 inhibitory potency of the lead 3-thienyl urea
+was improved tenfold (that is, to 1.7 mum; compound 2)
+www.nature.com/reviews/drugdisc
+
+© 2007 nature publishing group
+
+reviews
+
+o
+
+o
+
+s
+
+s
+n
+h
+
+o
+
+n
+h
+
+n
+h
+o
+
+o
+
+1 raf1 ic50 = 17 mum
+
+n
+h
+
+o
+
+2 raf1 ic50 = 1.7 mum
+
+o
+
+o
+
+o
+
+o
+
+o
+
+o
+n
+
+n
+h
+
+n
+h
+
+n
+n
+
+3 raf1 ic50 = 1.1 mum
+
+n
+h
+
+n
+h
+
+4 raf1 ic50 = 230 nm
+
+o
+
+cf3
+cl
+
+o
+
+o
+n
+h
+
+n
+h
+
+n
+
+n
+h
+
+ xxxd3226xxx 
+(sorafenib)
+
+figure 1 | summary of the chemical optimization of sorafenib. the raf1
+inhibitor 1 was identified through high-throughput screening. medicinal chemistry
+efforts described in the main text led to sorafenib.
+
+by a 4-methyl substitution on the phenyl ring. however,
+no variants of this 3-thienyl urea with ic50 values below 1
+mum were identified while pursuing a traditional medicinal chemistry approach. a library of ~1,000 bis-aryl urea
+analogues of the lead compound was then constructed,
+using rapid parallel synthesis techniques. the objective
+was to further explore the structure–activity relationships (sar) of the lead 3-thienyl urea compound, and
+to improve its raf1 inhibitory potency. this combinatorial library was then screened against raf1 to identify
+a new analogue, 3-amino-isoxazole (compound 3),
+exhibiting a raf1 kinase ic 50 of 1.1 mum 39,40 (fig. 1) .
+from this point, the inhibitory potency of compound 3
+was increased fivefold (raf1 kinase ic50 230 nm) by
+replacing its distal ring with a 4-pyridyl moiety (which
+produced compound 4)40 (fig. 1). compound 4 also
+showed decreased lipophilicity, improved aqueous
+solubility and significant activity in hct116 proliferation assays. furthermore, the inhibition of hct116
+cell proliferation by compound 4 was associated with
+decreased phosphorylation (that is, decreased activation) of mek and erk31,41. compound 4 was found to
+be orally available in mice, and to inhibit the growth of
+hct116 xenografts in vivo, thereby providing proof
+of principle for this new kinase inhibitor class.
+further sar studies were then undertaken. this
+effort revealed that although the urea moiety was
+essential for raf1 kinase inhibitory activity, aromatic
+replacements of the heterocyclic moiety of compound 4,
+resulting in diphenyl ureas, were tolerated. finally,
+
+nature reviews | drug discovery
+
+modification of the distal pyridine ring, while maintaining the diphenylurea moiety, led to the identification
+of sorafenib40,41 (fig. 1).
+in vitro biochemical assays confirmed that sorafenib
+is a potent in vitro inhibitor of raf1 kinase (ic50 of 6
+nm) (table 1)42. sorafenib was also shown to potently
+inhibit the wild-type b-raf, and oncogenic b-raf v600e
+serine/threonine kinases, pro-angiogenic rtks ( xxxg2413xxx  receptors (vegfrs) 1/2/3,
+platelet-derived growth factor receptor-beta (pdgfrbeta)
+and  xxxg791xxx  ( xxxg791xxx )) and
+other rtks involved in tumorigenesis (c-kit,  xxxg801xxx 
+and ret) in vitro (table 1)42,43. with the exception of
+wild-type b-raf, these molecular targets have been
+implicated in the aetiology of several forms of human
+cancer. however, sorafenib had no significant inhibitory
+effect on  xxxg1361xxx ,  xxxg1369xxx , protein kinase b, protein kinase
+a, protein kinase calpha, protein kinase-cgamma, egfr, her2/
+neu or insulin-like growth factor receptor 1 (igfr1) in
+biochemical assays (table 1)42.
+x-ray crystallographic studies of the complexes
+formed between sorafenib and raf1, wild-type b-raf
+and b-raf v600e were published in 2004 (ref. 44). the
+distal 4-pyridyl ring of sorafenib occupies the atp
+adenine binding pocket of the kinase domain, interacting with the conserved hinge region in a bidentate
+fashion44. the lipophilic trifluoromethyl phenyl ring at
+the opposite end of the molecule inserts into a hydrophobic pocket formed between the alphac and alphae helices
+and amino-terminal regions of the dfg motif and
+catalytic loop. the urea functionality forms two crucial
+hydrogen bonds, one with the backbone aspartate of the
+dfg loop, the other with the glutamate side chain of the
+alphac helix. although these x-ray data were not available
+at the time of the identification of sorafenib, it provided,
+after the fact, a clear rationale for most of the earlier
+sar observations.
+interestingly, the interaction between sorafenib
+and raf1–wild-type b-raf turned out to show some
+similarity with the interaction between c-abl and its
+inhibitor, imatinib45. the net effect of sorafenib’s interactions with  xxxg1924xxx  is to stabilize the dfg motif in
+an inactive conformation44.
+
+pharmacological profile
+as shown in fig. 2, sorafenib directly blocks the autophosphorylation of several receptor tyrosine kinases
+( xxxg800xxx , 2 and 3, pdgfrbeta, c-kit and ret), as well as
+inhibiting downstream  xxxg1924xxx  isoforms (wild-type
+raf1, and b-raf and mutant b-raf v600e) in cell lines.
+wilhelm et al. demonstrated that sorafenib inhibited
+signalling through the mapk pathway in a broad range
+of tumour cell lines harbouring oncogenic  xxxg1285xxx  and/
+or b-raf mutations42. they also showed that sorafenib
+induced dose-dependent inhibition of the corresponding human tumours when grown as xenografts into
+athymic nude (nu/nu) mice42. furthermore, they demonstrated that sorafenib potently inhibited vegf- and
+pdgfbeta-stimulated phosphorylation of  xxxg1274xxx  and
+pdgfrbeta rtks, respectively, in human cells (table 1)42.
+sorafenib induced complete tumour stasis in human
+volume 5 | o ctober 2006 | 837
+
+© 2007 nature publishing group
+
+reviews
+table 1 | in vitro inhibitory profile of sorafenib*
+kinase target
+
+in vitro ic50 value (nm)
+
+biochemical (kinase) assay
+ xxxg1924xxx 
+
+6
+
+wild-type b-raf
+
+25
+
+oncogenic b-raf v600e
+
+38
+
+ xxxg800xxx 
+
+26
+
+ xxxg1274xxx 
+
+90
+
+murine  xxxg802xxx 
+
+20
+
+murine pdgfrbeta
+
+57
+
+ xxxg801xxx 
+
+33
+
+p38
+
+38
+
+c-kit
+
+68
+
+ xxxg791xxx 
+
+580
+
+ xxxg1361xxx ,  xxxg1369xxx , egfr, her2/neu, c-met, igfr1, pka, pkb, cdk1/cyclin b, pim-1,  xxxg1837xxx , pkcgamma
+
+>10,000
+
+cellular kinase assay
+mek phosphorylation in mda mb 231 cells*‡
+
+40
+
+ xxxg1369xxx /2 phosphorylation in mda mb 231 cells‡
+
+90
+§
+
+ xxxg1361xxx /2, and  xxxd1355xxx /p42 mapk phosphorylation in fro cells
+
+500
+
+ret phosphorylation in human nih3t3 fibroblasts
+
+47
+||
+
+110
+
+oncogenic v804l ret human thyroid carcinoma cells
+
+||
+
+oncogenic v804m ret human thyroid carcinoma cells
+
+147
+
+oncogenic b-raf v600e in human thyroid carcinoma cells
+
+1,000
+
+ xxxg1274xxx  phosphorylation in human nih3t3 fibroblasts
+
+30
+
+vegf– xxxg1369xxx /2 phosphorylation in human huvec cells¶
+
+60
+
+pdgfrbeta phosphorylation in haosmc#
+
+80
+
+ xxxg802xxx  phosphorylation in mouse hek-293 cells
+
+100
+**
+
+ xxxg801xxx  phosphorylation in mouse hek-293 cells with human itds
+
+20
+
+*see refs. 42,43,91,92 for further details. ‡human breast carcinoma cells containing g463v b-raf and  xxxg1285xxx  oncogenes. §aro
+and fro human thyroid carcinoma cells. ||human thyroid carcinoma cell lines with ret mutations (v804l or v804m) conferring
+resistance to anilinoquinazolines and pyrazolopyrimidines. ¶human umbilical vein endothelial cells (huvec). #human aortic
+smooth muscle cells (haosmc). **internal tandem duplication  xxxg801xxx  mutants found in human acute myeloid leukaemia. cdk, cyclindependent kinase; egfr,  xxxg681xxx  receptor; erk, extracellular-regulated kinase; fgfr, fibroblast growth factor
+receptor; her, human  xxxg681xxx  receptor;  xxxg1145xxx , insulin growth factor receptor; itd, internal tandem duplications
+ xxxg801xxx  mutants; mapk, mitogen-activated protein kinase; mek, mapk kinase; pdgfr, platelet-derived growth factor receptor;
+pka,  xxxg1836xxx ; pkb, protein kinase b; pkc, protein kinase c; vegfr,  xxxg2413xxx  receptor.
+
+angiogenesis
+the growth of new blood
+vessels from pre-existing
+vessels. angiogenesis is a
+normal process in growth and
+development but is also a
+fundamental process required
+for the growth of tumours.
+
+pericytes
+elongated contractile cells
+found in association with
+arterioles outside the
+basement membrane.
+
+colon tumour xenograft models (ht-29 and colo-205
+(both of which are b-raf v600e-positive) and dld-1
+( xxxg1285xxx  positive)) at doses of 30 and 60 mg per kg42. it
+also induced complete tumour stasis in a breast carcinoma xenograft model (mda-mb-231 containing
+g463v b-raf and  xxxg1285xxx  oncogenes). in addition, sorafenib inhibited the growth of a number of human
+xenografts, including ovarian (sk-ov-3, overexpresses
+egfr and her2/neu), pancreatic ( xxxg1285xxx -positive mia
+paca 2), melanoma (lox, uacc 903 and 1205 lu containing b-raf v600e) and thyroid (containing oncogenic
+ret)42,43,46. although sorafenib inhibited the growth of
+two nsclc xenograft models (a549 and nci-h460),
+inhibition of the mapk pathway was not evident in these
+studies42. sorafenib’s inhibitory activity against human
+colon colo-205 xenografts was also not associated
+
+838 | o ctober 2006 | volume 5
+
+with a detectable reduction in phosphorylated erk42.
+therefore, sorafenib can inhibit the growth of some
+tumour types by mechanisms other than a direct
+tumour antiproliferative effect mediated by mapk
+pathway inhibition — most probably by exerting potent
+antivascular effects42,46.
+sorafenib’s tumour growth-inhibitory effects could in
+fact be attributed to inhibition of tumour angiogenesis, as
+demonstrated by a significant reduction in microvessel
+area and microvessel density in the colo-205 xenograft
+model42. sorafenib also inhibited the growth of renal
+tumours in the renca murine model by disrupting
+the tumour vasculature47. presumably, inhibition of
+endothelial cell  xxxg1274xxx  and pericyte pdgfrbeta activity
+by sorafenib contributed to its anti-angiogenic effects in
+these models.
+
+www.nature.com/reviews/drugdisc
+© 2007 nature publishing group
+
+reviews
+vegf
+
+pdgfbeta
+
+scf
+
+gdnf
+
+vegfr
+
+pdgfr
+
+c-kit
+
+ret
+
+receptor autophosphorylation
+
+sorafenib
+
+cell survival (antiapoptotic eﬀects)
+
+activation of raf
+
+neovascularization
+
+invasion
+and metastasis
+
+mek/erk
+
+tumour cell proliferation
+
+figure 2 | cellular targets of sorafenib. sorafenib blocks receptor  xxxg2198xxx 
+signalling (vegfr, pdgfr, c-kit and ret) and inhibits downstream raf serine/threonine
+kinase activity to prevent tumour growth by anti-angiogenic, antiproliferative and/or
+pro-apoptotic effects. erk, extracellular signal-regulated kinase; gdnf, glial-derived
+ xxxg1614xxx ; mek, mitogen-activated protein kinase kinase; pdgfr, plateletderived growth factor receptor; scf, stem cell factor; vegfr, vascular endothelial
+growth factor receptor.
+
+apoptosis
+programmed cell death.
+
+recist criteria
+response evaluation criteria in
+solid tumors are standardized,
+radiographic criteria for
+determining tumour response
+or progression in clinical trials
+of cancer drugs.
+
+randomized discontinuation
+trial (rdt) design
+a two-phase trial: in phase i all
+patients are openly treated
+with the medication being
+evaluated; in phase ii, those
+with stable disease are
+randomly assigned to continue
+the same treatment or switch
+to placebo.
+
+in other human tumour xenograft models (mdamb-231 breast; ht-29 colon; plc/prf/5 hcc) 48,
+sorafenib’s activity involved both inhibition of signalling through the mapk pathway (that is, an antiproliferative effect) and inhibition of angiogenesis.
+sorafenib was also recently found to induce apoptosis
+in several human cancer lines, including achn renal
+carcinoma, ht-29 colon carcinoma, mda-mb-231
+breast carcinoma, a549 nsclc, plc/prf/5 and
+hepg2 hcc48, and kmch cholangiocarcinoma cells,
+and jurkat (acute t-cell), k562 (chronic myelogenous)
+and mec-2 (chronic lymphocytic) leukaemia cells. in
+these cancer lines, sorafenib acted by downregulating
+the levels of the anti-apoptotic protein  xxxg1388xxx  (myeloid
+cell leukaemia sequence 1)49,50. furthermore, sorafenib
+induced apoptosis of human melanoma cell lines by
+an mek/erk- and caspase-independent mechanism,
+which involved the nuclear translocation of apoptosisinducing factor51. the induction of tumour cell apoptosis might represent another mechanism of action for
+sorafenib in a broad range of tumour types, and this
+effect seems to involve inhibition of erk-independent
+activities of raf1.
+
+clinical development in rcc
+as the molecular targets of sorafenib are involved in the
+aetiology of many common malignancies, it was first
+evaluated in a mixed population of patients with several
+forms of advanced solid tumours.
+
+nature reviews | drug discovery
+
+phase i. the first phase i clinical trial evaluating oral
+sorafenib tablets (as a tosylate salt) in patients with
+advanced solid tumours was initiated in july 2000 (ref. 31).
+a total of four single-agent phase i trials, evaluating
+sorafenib oral doses ranging up to 800 mg twice daily
+(bid), have now been completed and published52–55.
+from these phase i trials, the optimum regimen and
+maximum tolerated dose were determined as continuous oral administration of sorafenib at doses of 400 mg
+bid56. dose-limiting toxicities in these studies included
+grade 3 diarrhoea and fatigue at 800 mg bid, and grade
+3 skin toxicity at 600 mg bid56. overall, sorafenib was
+well tolerated and the majority of adverse events were
+mild to moderate in severity and easily manageable52–56.
+in these phase i trials, 11 patients with metastatic rcc
+were evaluated for tumour response52–55 (recist). early
+signals of antitumour activity were detected in one
+patient with metastatic rcc, who had a confirmed
+partial response (pr), which was sustained for 104 days
+with sorafenib 600 mg bid54, and two additional rcc
+patients who experienced sustained (≥2 years) stable
+disease52,53.
+sorafenib also demonstrated favourable tolerability and promising preliminary antitumour activity in
+phase i combination trials with standard chemotherapeutic agents, including oxaliplatin57, 5-fluorouracil and
+leucovorin58,  xxxd2824xxx carboplatin59, gemcitabine60,
+doxorubicin61, taxotere62, cpt-1163 and  xxxd1796xxx 
+(dtic)64. in these trials, the addition of sorafenib did
+not significantly increase the toxicity of the chemotherapeutic agent. sorafenib also did not increase the
+toxicity of interferon when co-administered with this
+cytokine65,66.
+rationale for rcc as target indication. rcc is a notoriously
+chemoresistant, hypervascularized tumour type, often
+associated with upregulated raf1, egfr, vegf and
+vegfr activity26. furthermore, overexpression of vegf
+and egfr are associated with poor prognosis in rcc67,68.
+loss of function of the von hippel–lindau tumoursuppressor gene (vhl) in rcc results in the upregulation of hypoxia-inducible factors ( xxxg1048xxx  and hif2), and
+consequent aberrant overexpression of transforming
+growth factor-alpha (tgfalpha), and its receptor egfr, and
+vegf69,70. in preclinical models, the tgfalpha–egfr autocrine loop has been shown to promote the growth of
+vhl–/– rcc tumours, and vegf expression promotes
+neoangiogenesis69,70. therefore, there was a strong rationale to support the use of an oral multikinase inhibitor,
+such as sorafenib, for the treatment of advanced rcc.
+phase ii/iii rcc. on the basis of the promising preliminary activity in rcc patients across the phase i
+trials, bayer and onyx decided to evaluate sorafenib
+monotherapy as a treatment for rcc by enriching the
+recruitment of rcc in an accruing phase ii trial, with
+a randomized discontinuation trial (rdt) design. the very
+high rate of rcc patients who were progression-free
+after 12 weeks of dosing in this phase ii trial led to the
+initiation of the phase iii study to assess the safety and
+activity of sorafenib. these two randomized controlled
+
+volume 5 | o ctober 2006 | 839
+© 2007 nature publishing group
+
+reviews
+
+proportion of patients progression free
+
+a
+
+1.00
+
+sorafenib (n = 32)
+placebo (n = 33)
+censored observation
+median pfs from
+randomization:
+placebo = 6 weeks
+sorafenib = 24 weeks
+p = 0.0087
+
+0.75
+
+0.50
+
+0.25
+
+12-week
+run-in
+period
+0.00
+–84
+
+0
+
+100
+
+200
+
+300
+
+400
+
+500
+
+days from randomization
+
+proportion of patients progression free
+
+b
+
+1.00
+
+sorafenib
+placebo
+censored observation
+median pfs:
+placebo = 12 weeks
+sorafenib = 24 weeks
+hazard ratio (s/p) = 0.44
+p = <0.000001
+
+0.75
+
+0.50
+
+0.25
+
+0.00
+0
+
+6
+
+12
+
+18
+
+24
+
+30
+
+36
+
+42
+
+48
+
+54
+
+60
+
+time from randomization (weeks)
+
+figure 3 | clinical activity of sorafenib in cancer efficacy trials. sorafenib significantly
+prolonged progression-free survival (pfs) in comparison with placebo treatment in
+patients with advanced renal cell carcinoma participating in a phase ii randomized
+discontinuation trial (a), and a phase iii trial (b). part a reproduced, with permission,
+from ref. 71 © (2006) american society of clinical oncology.
+
+trials confirmed sorafenib’s activity against rcc by
+showing that it significantly prolonged progression-free
+survival (pfs) compared with placebo in patients with
+advanced disease71,72 (fig. 3a,b). these trials also confirmed that sorafenib was well tolerated by patients with
+advanced rcc.
+in the phase ii rdt, which involved 502 patients
+with multiple tumour types, a total of 202 rcc
+patients were evaluated. in this trial, significantly
+more patients treated with sorafenib (16/32; 50%)
+were progression-free at 12 weeks post-randomization,
+compared with those on placebo (6/33; 18%; p <0.0077)71.
+furthermore, sorafenib treatment significantly prolonged the median pfs fourfold over placebo treatment (24 weeks versus 6 weeks; p = 0.0087)71 (fig. 3a).
+the phase iii treatment approaches in renal cancer
+global evaluation trial (targets) is the largest
+
+840 | o ctober 2006 | volume 5
+
+randomized controlled trial in rcc performed to
+date, and involved 903 patients (intention-to-treat
+cohort) with advanced rcc72. in this trial, sorafenib
+was associated with a twofold increased median
+pfs compared with placebo treatment (24 versus 12
+weeks; p <0.000001)72 (fig. 3b). this pfs benefit was
+independent of gender, age, prior therapy, mskcc
+(memorial sloan-kettering memorial cancer center)
+risk group73, baseline eastern cooperative oncology
+group performance status and time since diagnosis72.
+furthermore, patients receiving sorafenib experienced
+a 39% improvement in overall survival relative to those
+on placebo treatment (p <0.018; hazard ratio 0.72),
+according to a planned survival analysis72, although
+the pre-specified threshold for statistical significance
+was not reached (o’brien–fleming stopping boundary: p ≤0.0005). nevertheless, the 28% reduction in
+the risk of death indicates a trend towards improved
+survival, consistent with the pfs results. in both of the
+randomized and controlled rcc trials, sorafenib was
+associated with a low pr rate, but the vast majority of
+treated patents did experience some degree of tumour
+shrinkage71,72.
+the targets safety findings were generally consistent with those of the rdt studies. in targets,
+the most common adverse events were dermatological
+(rash 40% and hand–foot skin reaction 30%), gastrointestinal (diarrhoea 43%) and constitutional (fatigue
+37%)72. these events were mostly grades 1–2 in severity. importantly, the comparative incidence rates of
+fatigue, nausea, anorexia, vomiting and constipation
+were similar in the sorafenib and placebo groups.
+although hypertension was more prevalent among
+patients receiving sorafenib (17%) than placebo (2%),
+almost all cases of sorafenib-related hypertension were
+grade 1–2 in severity72.
+these phase ii/iii results established oral sorafenib
+(400 mg bid) as a safe and effective new treatment for metastatic rcc and formed the basis for its fda marketing
+approval in december 2005 for the treatment of
+advanced rcc. the sorafenib discovery and development cycle — from initial lead compound to approval
+— took ~11 years (timeline).
+
+current development
+rcc. clinical trials are ongoing to further evaluate sorafenib in rcc and address a number of issues. firstly,
+a phase ii trial is underway to compare sorafenib with
+interferon, the current standard of care for rcc. the
+use of combinations of targeted agents that inhibit different cancer pathways is an attractive approach that
+could further improve survival in notoriously resistant
+tumours such as rcc. to address this possibility, trials
+are underway to evaluate sorafenib in combination
+with other targeted agents, including a phase ii trial
+in combination with the  xxxd328xxx  monoclonal antibody bevacizumab (avastin; genentech/roche). the
+combination of sorafenib with the egfr rtk inhibitor
+ xxxd2029xxx  is also being evaluated in a phase ii trial.
+two randomized, double-blind, placebo-controlled
+phase iii adjuvant trials are being planned in patients
+
+www.nature.com/reviews/drugdisc
+© 2007 nature publishing group
+
+reviews
+timeline | discovery and development for sorafenib
+december: nexavar is approved by fda for
+treatment of advanced kidney cancer.
+november: new phase iii targets data shows
+survival trend for nexavar versus placebo
+(39% improvement).
+first preclinical proof of
+concept that targeting
+raf1 has antitumour
+effect (isis 5132 antisense
+oligonucleotide).
+
+july: first phase i trial
+initiated to evaluate safety
+and pharmacokinetics of
+nexavar in patients with
+advanced solid tumours.
+
+bayer and onyx initiate highthroughput screening of
+200,000 compounds for raf
+kinase inhibitory activity.
+
+1989
+
+1994
+
+1995
+
+bayer and onyx start
+collaboration to discover
+novel raf/mek/erk inhibitors.
+
+1999
+
+ xxxd3226xxx  nominated
+as a preclinical
+development candidate.
+
+november: largest ever phase iii
+trial (targets) in rcc initiated.
+october: preliminary phase ii rdt
+data presented at amsterdam
+international symposium.
+june: early phase i data presented
+at asco meeting (chicago)
+documenting good tolerability
+and anticancer effects.
+
+2000
+
+2002
+
+september: phase ii
+randomized discontinuation
+trial (rdt) initiated.
+
+2003
+
+september: fda grants priority review status.
+july: bayer and onyx complete nda.
+may: nexavar made available to eligible
+advanced rcc patients in us in advanced
+renal cell carcinoma sorafenib (arccs) study.
+march: phase iii targets data shows
+significantly prolonged pfs compared with
+placebo. bayer and onyx prepare nda.
+
+2004
+
+2005
+
+april: fda grants fast-track status.
+june: phase ii rdt data presented at
+asco (new orleans) show durable
+responses, tumour shrinkage, disease
+stabilization in advanced rcc cohort.
+august: orphan drug status granted
+in europe by emea.
+
+2006
+
+march: nexavar is
+approved in switzerland
+and mexico for the
+treatment of advanced
+kidney cancer.
+april: phase iii trials
+ongoing in hcc,
+melanoma and nsclc.
+
+october: latest phase ii rdt data
+show 70% of rcc patients had tumour
+shrinkage or disease stabilization. fda
+grants orphan drug status.
+
+asco, american society of clinical oncology; erk, extracellular signal-regulated kinase; hcc, hepatocellular carcinoma; mek, mitogen-activated protein kinase kinase;
+nda, new drug application; nsclc, non-small-cell lung cancer; pfs, progression-free survival; rcc, renal cell carcinoma
+
+with resected primary rcc at high or intermediate risk
+of relapse to resolve whether sorafenib monotherapy
+improves survival. the assure trial will randomize
+patients to sorafenib, sunitinib (sutent; pfizer) or placebo for 1 year. in the sorce trial, patients will be
+randomized to one of three arms: placebo for 3 years;
+oral sorafenib (400 mg bid) for 1 year followed by placebo for 2 years; or oral sorafenib for 3 years. this trial
+will address whether length of exposure to sorafenib
+correlates with survival. in addition, this trial will aim
+to identify biological parameters that predict benefit
+from sorafenib. the primary endpoint for this 8-year
+trial will be metastasis-free survival.
+other tumours. because sorafenib targets multiple
+kinases involved in tumour growth and angiogenesis,
+and has broad preclinical activity in several models of human cancer42, it would be anticipated to be
+of clinical benefit in several solid tumour types. in a
+phase ii trial, sorafenib monotherapy demonstrated a
+median time to progression (ttp) of 5.7 months and
+a median overall survival of 9.2 months in 137 hcc
+patients with good hepatic function74. a phase iii trial
+of sorafenib monotherapy is also ongoing for the treatment of advanced hcc. in a phase ii trial, in which
+52 patients with metastatic, refractory nsclc received
+sorafenib monotherapy75, 30 patients experienced stable
+
+nature reviews | drug discovery
+
+disease and there was evidence of tumour shrinkage in
+15 patients75. sorafenib monotherapy has also shown
+promise in early phase ii trials in patients with iodinerefractory metastatic papillary and follicular thyroid
+carcinomas76, hormone-refractory prostate cancer77,78
+and metastatic breast cancer79. single-agent sorafenib
+is also being evaluated through the national cancer
+institute’s cancer therapy evaluation program (ncictep) for the treatment of other tumours, including
+head and neck cancer, sarcoma, small-cell lung cancer
+(sclc) and mesothelioma80.
+the favourable tolerability of sorafenib in singleagent trials has led to its evaluation in combination with
+other anticancer therapies, including cytotoxic chemotherapy, immunological agents and anti-angiogenic
+agents. a phase i trial explored the combination of
+sorafenib with carboplatin and paclitaxel in patients
+with solid tumours59. on the basis of preliminary evidence of efficacy, a further 105 patients with malignant
+melanoma were enrolled in this trial. sorafenib in
+combination with carboplatin and paclitaxel was well
+tolerated and demonstrated promising preliminary
+antitumour activity in this cohort of patients with
+malignant melanoma59. on the basis of these results,
+two phase iii placebo-controlled trials have been
+initiated to evaluate sorafenib in combination with
+carboplatin and paclitaxel in patients with metastatic
+
+volume 5 | o ctober 2006 | 841
+© 2007 nature publishing group
+
+reviews
+malignant melanoma. sorafenib is also currently being
+evaluated in combination with carboplatin/paclitaxel
+in a phase iii placebo-controlled trial in patients with
+nsclc. sorafenib has shown promise in combination
+with  xxxd1796xxx  in patients with metastatic melanoma,
+according to the recently reported preliminary results
+of a phase ii trial81.
+in addition, sorafenib is being evaluated in combination with the humanized antivascular endothelial
+growth factor receptor monoclonal antibody bevacizumab in phase i trials82,83. preliminary results have
+suggested that this combination has clinical activity
+in patients with advanced solid tumours; however, the
+dose-limiting toxicities are under investigation82,83. the
+nci- xxxd3432xxx  is further evaluating sorafenib in combination with anticancer agents including interferonalpha,  xxxd2029xxx ,  xxxd3307xxx  and cetuximab (erbitux;
+imclone/bristol-myers squibb) in a wide range of
+tumour types.
+
+future development
+future issues for the development of sorafenib include
+the identification and validation of appropriate biomarkers for improved patient selection, prognostication
+and/or as response endpoints. preliminary biomarker
+evaluations from a phase ii trial suggest that high baseline perk levels are indicative of sorafenib response in
+hcc74. in addition,  xxxg1274xxx  (svegfr2) levels
+were significantly decreased 3 weeks after initiating
+sorafenib treatment in patients with advanced rcc in
+targets84. this effect was sustained after 8 weeks of
+sorafenib treatment. there was also a weak correlation
+between the observed reduction in svegfr2 and target
+lesion reduction84. these and other putative markers
+identified by genomic profiling are being further evaluated. finally, ongoing and future preclinical and clinical
+studies should soon cast light on sorafenib’s mechanism
+of action in different tumour types, and determine
+whether inhibition of its other target kinases confers
+activity against other human malignancies. possible
+target malignancies include acute myeloid leukaemia
+and chronic myeloid leukaemia ( xxxg801xxx  and c-kit are
+targets)85,86, imatinib-resistant gastrointestinal tumours
+(c-kit is the target)87, and papillary thyroid carcinoma
+(ret is the target)88.
+it is anticipated that its favourable tolerability profile
+will make sorafenib suitable for longer-term administration, either as a monotherapy or in combination with
+other therapies.
+conclusion
+the drug discovery and development cycle of sorafenib, a rationally designed, targeted anticancer agent,
+took ~11 years. sorafenib was approved by the fda for
+the treatment of advanced rcc in december 2005, just
+5 years after the initiation of the first phase i clinical
+trials. the identification of a protein kinase involved
+in tumorigenesis and progression, and the adoption
+of state-of-the-art hts and combinatorial chemistry
+approaches to identify novel compounds (bis-arylureas) that inhibit this target kinase (that is, raf1),
+842 | o ctober 2006 | volume 5
+
+greatly facilitated this process. the use of appropriate
+in vitro cancer cell lines and models of human cancer
+(that is, with upregulated mapk signalling) were instrumental in identifying the anticancer activity of sorafenib and ensuring that it translated its early promise
+into the clinical setting.
+among the molecular targets of sorafenib are several
+rtks involved in angiogenesis ( xxxg800xxx , 2 and 3,
+and pdgfrbeta) and tumorigenesis ( xxxg801xxx , c-kit and
+ret). these additional molecular targets of sorafenib
+might be responsible for its broad-spectrum activity
+in several models of human cancer. it is clear from
+the clinical trials reported above that the repertoire
+of tumour types for which sorafenib could be applicable is rapidly expanding. the multiple molecular
+targets of sorafenib might account for its antitumour
+effects, as a single agent or in combination treatment,
+in clinical trials in rcc71,72, hcc74, melanoma59,64,89
+and nsclc90. similarly the multikinase inhibitory
+profile of sorafenib leads to effects in cancer cells as
+well as endothelial cells and pericytes of the tumour
+vasculature. sorafenib inhibits tumour growth and
+angiogenesis by inhibiting cellular proliferation, and
+inducing apoptosis. anticancer agents with multiple
+targets, or combinations of anticancer agents that act
+on different pathways, might be more effective against
+cancers with multiple molecular drivers, such as rcc,
+and it could be less likely that resistance to these drugs
+will develop in tumours than to agents targeting a
+single pathway.
+the early realization that targeted agents like sorafenib can show clinical efficacy without the evidence of
+significant tumour shrinkage was also crucial to its successful clinical development. this observation about the
+drug’s activity enabled inclusion of clinical endpoints
+such as pfs and ttp in clinical trials of sorafenib,
+to better demonstrate its disease-stabilizing effects.
+if clinical trials of sorafenib had only incorporated
+standard recist or endpoints defined by the world
+health organization, which rely on the extent of
+tumour shrinkage as a measure of response, sorafenib
+might not have reached phase iii trials. although only
+a small number of rcc patients treated with sorafenib
+had prs in the rdt and targets clinical trials,
+the majority of patients had some degree of tumour
+shrinkage, and sorafenib significantly prolonged pfs
+compared with placebo in these trials71,72.
+in conclusion, in 2005, sorafenib, a molecularly
+targeted agent that inhibits raf isoforms and  xxxg800xxx ,
+2 and 3 rtks, became the first new treatment to be
+approved by regulatory authorities for advanced rcc
+in more than a decade. sorafenib also inhibits several
+other rtks, such as pdgfrbeta, c-kit,  xxxg801xxx  and ret.
+it is conceivable that sorafenib’s clinical activity is due
+to its capacity to inhibit multiple kinases involved in
+ubiquitous signalling pathways, which are dysregulated
+in cancer. with its novel mechanisms of action, favourable safety profile and combinability demonstrated so
+far with several standard chemotherapeutic agents,
+sorafenib has potential clinical utility in a broad range
+of tumour types.
+
+www.nature.com/reviews/drugdisc
+© 2007 nature publishing group
+
+reviews
+1.
+2.
+
+3.
+4.
+
+5.
+6.
+
+7.
+8.
+
+9.
+
+10.
+
+11.
+
+12.
+
+13.
+
+14.
+
+15.
+
+16.
+17.
+
+18.
+
+19.
+
+20.
+
+21.
+
+22.
+
+23.
+
+24.
+
+25.
+26.
+
+27.
+
+28.
+
+29.
+
+tabin, c. j. et al. mechanism of activation of a human
+oncogene. nature 300, 143–149 (1982).
+parada, l. f., tabin, c. j., shih, c. & weinberg, r. a.
+human ej bladder carcinoma oncogene is homologue
+of harvey sarcoma virus ras gene. nature 297,
+474–478 (1982).
+weinberg, r. a. tumor suppressor genes. science
+254, 1138–1146 (1991).
+gallo, r. c. & wong-staal, f. retroviruses as etiologic
+agents of some animal and human leukemias and
+lymphomas and as tools for elucidating the molecular
+mechanism of leukemogenesis. blood 60, 545–557
+(1982).
+varmus, h. retroviruses. science 240, 1427–1435
+(1988).
+spector, d. h. et al. uninfected avian cells contain
+rna related to the transforming gene of avian
+sarcoma viruses. cell 13, 371–379 (1978).
+bishop, j. m. cellular oncogenes and retroviruses.
+annu. rev. biochem. 52, 301–354 (1983).
+frost, p. & kerbel, r. s. on a possible epigenetic
+mechanism(s) of tumor cell heterogeneity. the role
+of dna methylation. cancer metastasis rev. 2,
+375–378 (1983).
+weinberg, r. a. the molecular basis of oncogenes and
+tumor suppressor genes. ann. ny acad. sci. 758,
+331–338 (1995).
+niman, h. l. antisera to a synthetic peptide of the
+sis viral oncogene product recognize human plateletderived growth factor. nature 307, 180–183
+(1984).
+coussens, l. et al. structural alteration of viral
+homologue of receptor proto-oncogene fms at
+carboxyl terminus. nature 320, 277–280 (1986).
+schechter, a. l. et al. the neu oncogene: an erb-brelated gene encoding a 185, 000-mr tumour
+antigen. nature 312, 513–516 (1984).
+gill, g. n., bertics, p. j. & santon, j. b. epidermal
+growth factor and its receptor. mol. cell endocrinol.
+51, 169–186 (1987).
+ishizawar, r. & parsons, s. j.  xxxg2198xxx  and cooperating
+partners in human cancer. cancer cell 6, 209–214
+(2004).
+kranenburg, o. the kras oncogene: past, present,
+and future. biochim. biophys. acta 1756, 81–82
+(2005).
+bos, j. l. ras oncogenes in human cancer: a review.
+cancer res. 49, 4682–4689 (1989).
+ponzielli, r., katz, s., barsyte-lovejoy, d. & penn, l. z.
+cancer therapeutics: targeting the dark side of myc.
+eur. j. cancer 41, 2485–2501 (2005).
+milde-langosch, k. the fos family of transcription
+factors and their role in tumourigenesis. eur. j. cancer
+41, 2449–2461 (2005).
+weiss, c. & bohmann, d. deregulated repression of
+c-jun provides a potential link to its role in
+tumorigenesis. cell cycle 3, 111–113 (2004).
+kolch, w., kotwaliwale, a., vass, k. & janosch, p. the
+role of raf kinases in malignant transformation.
+expert. rev. mol. med. 2002, 1–18 (2002).
+review on the importance of  xxxg1924xxx  signalling
+in tumour cells.
+o’neill, e., rushworth, l., baccarini, m. & kolch, w.
+role of the kinase mst2 in suppression of apoptosis
+by the proto-oncogene product  xxxg1924xxx . science 306,
+2267–2270 (2004).
+brose, m. s. et al. braf and ras mutations in human
+lung cancer and melanoma. cancer res. 62,
+6997–7000 (2002).
+salvatore, g. et al. analysis of braf point mutation
+and ret/ptc rearrangement refines the fine-needle
+aspiration diagnosis of papillary thyroid carcinoma.
+j. clin. endocrinol. metab. 89, 5175–5180 (2004).
+melillo, r. m. et al. the ret/ptc-ras-braf linear
+signaling cascade mediates the motile and mitogenic
+phenotype of thyroid cancer cells. j. clin. invest. 115,
+1068–1081 (2005).
+downward, j. targeting ras signalling pathways in
+cancer therapy. nature rev. cancer 3, 11–22 (2003).
+oka, h. et al. constitutive activation of mitogenactivated protein (map) kinases in human renal cell
+carcinoma. cancer res. 55, 4182–4187 (1995).
+hwang, y. h. et al. over-expression of c- xxxg1924xxx  protooncogene in liver cirrhosis and hepatocellular
+carcinoma. hepatol. res. 29, 113–121 (2004).
+mcphillips, f. et al. association of c-raf expression
+with survival and its targeting with antisense
+oligonucleotides in ovarian cancer. br. j. cancer 85,
+1753–1758 (2001).
+mukherjee, r., bartlett, j. m., krishna, n. s.,
+underwood, m. a. & edwards, j.  xxxg1924xxx  expression
+
+30.
+
+31.
+
+32.
+
+33.
+
+34.
+
+35.
+
+36.
+
+37.
+
+38.
+
+39.
+
+40.
+
+41.
+
+42.
+
+43.
+
+44.
+
+45.
+
+46.
+
+47.
+
+48.
+
+49.
+
+may influence progression to androgen insensitive
+prostate cancer. prostate 64, 101–107 (2005).
+kasid, u. & dritschilo, a. raf antisense
+oligonucleotide as a tumor radiosensitizer. oncogene
+22, 5876–5884 (2003).
+lyons, j. f., wilhelm, s., hibner, b. & bollag, g.
+discovery of a novel  xxxg1924xxx  inhibitor. endocrinerelated cancer 8, 219–225 (2001).
+mcdonald, o. b. et al. a scintillation proximity assay
+for the raf/mek/erk kinase cascade: high-throughput
+screening and identification of selective enzyme
+inhibitors. anal. biochem. 268, 318–329 (1999).
+capdeville, r., buchdunger, e., zimmermann, j. &
+matter, a. glivec (sti571, imatinib), a rationally
+developed, targeted anticancer drug. nature rev.
+drug discov. 1, 493–502 (2002).
+dowell, j., minna, j. d. & kirkpatrick, p.  xxxd2029xxx 
+hydrochloride. nature rev. drug discov. 4, 13–14
+(2005).
+zhang, z. et al. oncogenes as novel targets for cancer
+therapy (part i): growth factors and protein tyrosine
+kinases. am. j. pharmacogenomics 5, 173–190
+(2005).
+aherne, g. w., mcdonald, e. & workman, p. finding
+the needle in the haystack: why high-throughput
+screening is good for your health. breast cancer res.
+4, 148–154 (2002).
+lipinski, c. a., lombardo, f., dominy, b. w. & feeney,
+p. j. experimental and computational approaches to
+estimate solubility and permeability in drug discovery
+and development settings. adv. drug deliv. rev. 46,
+3–26 (2001).
+riedl, b. et al. potent  xxxg1924xxx  inhibitors from the
+diphenylurea class: structure activity relationships.
+clin. cancer res. 20, 83a (2001).
+smith, r. a. et al. discovery of heterocyclic ureas as a
+new class of  xxxg1924xxx  inhibitors: identification of a
+second generation lead by a combinatorial chemistry
+approach. bioorg. med. chem. lett. 11, 2775–2778
+(2001).
+lowinger, t. b., riedl, b., dumas, j. & smith, r. a.
+design and discovery of small molecules targeting raf1 kinase. curr. pharm. des. 8, 2269–2278 (2002).
+wilhelm, s. et al.  xxxd3226xxx , a novel  xxxg1924xxx  kinase
+inhibitor (rki) blocks the raf/mek/erk pathway in
+tumor cells. proc. am. assoc. cancer res. 42, 923
+(2001).
+wilhelm, s. m. et al.  xxxd3226xxx  exhibits broad
+spectrum oral anti-tumor activity and targets the raf/
+mek/erk pathway and receptor tyrosine kinases
+involved in tumor progression and angiogenesis.
+cancer res. 64, 7099–7109 (2004).
+preclinical data describing sorafenib
+pharmacological target profile and effects on mapk
+signalling and anti-angiogenic activity in preclinical
+human tumour xenograft models in rodents.
+carlomagno, f. et al.  xxxd3226xxx  inhibition of
+oncogenic ret mutants. j. natl. cancer inst. 98,
+326–334 (2006).
+wan, p. t. et al. mechanism of activation of the
+raf-erk signaling pathway by oncogenic mutations of
+b-raf. cell 116, 855–867 (2004).
+pivotal paper describing how sorafenib induces
+inhibition of raf1, wild-type b-raf and b-raf
+v600e, by binding to and stabilizing the conserved
+kinase domain. this paper confirmed the sar
+observations.
+nagar, b. et al. crystal structures of the kinase domain
+of c-abl in complex with the small molecule inhibitors
+pd173955 and imatinib (sti-571). cancer res. 62,
+4236–4243 (2002).
+sharma, a. et al. mutant v599eb-raf regulates growth
+and vascular development of malignant melanoma
+tumors. cancer res. 65, 2412–2421 (2005).
+chang, y. s. et al.  xxxd3226xxx  (sorafenib) inhibits
+ectopic and orthotopic growth of a murine model of
+renal adenocarcinoma (renca) predominantly through
+inhibition of tumor angiogenesis. clin. cancer res. 46,
+5831 (2005).
+liu, l. et al. sorafenib ( xxxd3226xxx ) inhibits the raf/
+mek/erk pathway in hepatocellular carcinoma (hcc)
+cells and produces robust efficacy against plc/prf/5
+hcc tumors in mice. poster presentation am. assoc.
+cancer res.–natl cancer inst.–eur. organiz. res.
+treat. cancer. philadelphia, pennsylvania (2005).
+yu, c. et al. the role of  xxxg1388xxx  downregulation in the
+proapoptotic activity of the multikinase inhibitor bay
+43-9006. oncogene 24, 6861–6869 (2005).
+preclinical data describing the downregulation of
+the prosurvival protein  xxxg1388xxx  and pro-apoptotic
+activity of sorafenib in tumour cells.
+
+nature reviews | drug discovery
+
+50. rahmani, m., maynard davis, e., bauer, c., dent, p. &
+grant, s. apoptosis induced by the kinase inhibitor
+ xxxd3226xxx  in human leukemia cells involves downregulation of  xxxg1388xxx  through inhibition of translation.
+j. biol. chem. 280, 35217–35227 (2005).
+51. panka, d. j., wang, w., atkins, m. b. & mier, j. w.
+the raf inhibitor  xxxd3226xxx  (sorafenib) induces
+caspase-independent apoptosis in melanoma cells.
+cancer res. 66, 1611–1619 (2006).
+52. strumberg, d. et al. phase i clinical and
+pharmacokinetic study of the novel  xxxg1924xxx  and
+ xxxg2413xxx  receptor inhibitor
+ xxxd3226xxx  in patients with advanced refractory
+solid tumors. j. clin. oncol. 23, 965–972 (2005).
+53. clark, j. w., eder, j. p., ryan, d., lee, r. & lenz, h.-j.
+the safety and pharmacokinetics of the multi-targeted
+ xxxg2198xxx  inhibitor (including  xxxg1924xxx  and
+vegf kinase),  xxxd3226xxx , in patients with
+advanced, refractory solid tumors. clin. cancer res.
+11, 5472–5480 (2005).
+54. awada, a. et al. phase i safety and pharmacokinetics
+of  xxxd3226xxx  administered for 21 days on/7 days
+off in patients with advanced, refractory solid tumours.
+br. j. cancer 92, 1855–1861 (2005).
+55. moore, m. et al. phase i study to determine the safety
+and pharmacokinetics of the novel  xxxg1924xxx  and
+vegfr inhibitor  xxxd3226xxx , administered for 28
+days on/7 days off in patients with advanced, refractory
+solid tumors. ann. oncol. 16, 1688–1694 (2005).
+56. strumberg, d. et al. pooled safety analysis of
+ xxxd3226xxx  (sorafenib) monotherapy in patients
+with advanced solid tumours: is rash associated with
+treatment outcome? eur. j. cancer 42, 548–556
+(2006).
+57. kupsch, p. et al. results of a phase i trial of sorafenib
+( xxxd3226xxx ) in combination with oxaliplatin in
+patients with refractory solid tumors, including
+colorectal cancer. clin. colorectal cancer 5, 188–196
+(2005).
+58. figer, a. et al. phase i trial of  xxxd3226xxx  in
+combination with 5-fluorouracil (5-fu) and  xxxd2462xxx 
+(lcv) in patients with advanced refractory solid
+tumors. ann. oncol. 15, iii87 (2004).
+59. flaherty, k. t. et al. sorafenib combined with
+carboplatin and paclitaxel for metastatic melanoma:
+pfs and response versus b-raf status. proc. 4th intl.
+symp. targeted anticancer ther. amsterdam, the
+netherlands [online], <http://www.nddo.org/files/pdf/
+tat_symp06_proceedings.pdf> (2006).
+60. siu, l. l. et al. phase i/ii trial of sorafenib and
+gemcitabine in advanced solid tumors and in
+advanced pancreatic cancer. clin. cancer res. 12,
+144–151 (2006).
+61. richly, h. et al. results of a phase i trial of sorafenib
+( xxxd3226xxx ) in combination with doxorubicin in
+patients with refractory solid tumors. ann. oncol. 17,
+866–873 (2006).
+62. awada, a. et al. a phase i study of  xxxd3226xxx , a
+novel  xxxg1924xxx  and vegfr inhibitor, in combination
+with taxotere in patients with advanced solid tumors.
+poster presentation am. assoc. cancer res.–natl
+cancer inst.–eur. organiz. res. treat. cancer. geneva,
+switzerland (2004).
+63. steinbild, s. et al. phase i study of  xxxd3226xxx 
+(sorafenib), a  xxxg1924xxx  and vegfr inhibitor,
+combined with irinotecan ( xxxd2383xxx ) in advanced solid
+tumors. j. clin. oncol. 23, 3115 (2005).
+64. eisen, t. et al. phase i trial of  xxxd3226xxx  (sorafenib)
+combined with  xxxd1796xxx  (dtic) in metastatic
+melanoma patients. j. clin. oncol. 23, 7508 (2005).
+65. gollob, j. et al. phase ii trial of sorafenib (bay 439006) in combination with  xxxg1137xxx  2b in
+patients with metastatic renal cell carcinoma. eur. j.
+cancer supplements 3, 226 (2005).
+66. robert, c. et al. phase i trial of sorafenib (bay 439006) in combination with  xxxg1137xxx  2a in
+patients with unresectable and/or metastatic renal cell
+carcinoma and malignant melanoma. eur. j. cancer
+supplements 3, 254 (2005).
+67. hainsworth, j. d. et al. treatment of metastatic renal
+cell carcinoma with a combination of bevacizumab and
+ xxxd2029xxx . j. clin. oncol. 23, 7889–7896 (2005).
+68. takahashi, a. et al. markedly increased amounts of
+messenger rnas for vascular endothelial growth
+factor and  xxxg1734xxx  in renal cell
+carcinoma associated with angiogenesis. cancer res.
+54, 4233–4237 (1994).
+69. smith, k. et al. silencing of  xxxg681xxx 
+receptor suppresses hypoxia-inducible factor-2-driven
+vhl-/- renal cancer. cancer res. 65, 5221–5230
+(2005).
+
+volume 5 | o ctober 2006 | 843
+© 2007 nature publishing group
+
+reviews
+70. gunaratnam, l. et al. hypoxia inducible factor
+activates the transforming growth factor-alpha/
+ xxxg681xxx  receptor growth stimulatory
+pathway in vhl(-/-) renal cell carcinoma cells. j. biol.
+chem. 278, 44966–44974 (2003).
+71. ratain, m. j. et al. phase ii placebo-controlled
+randomized discontinuation trial of sorafenib in
+patients with metastatic renal cell carcinoma. j. clin.
+oncol. 24, 2505–2512 (2006).
+pivotal phase ii trial demonstrating sorafenib’s
+significant pfs benefit over placebo and its
+acceptable tolerability in patients with advanced
+refractory rcc. these findings formed the basis of
+sorafenib’s recent fda approval for this indication.
+72. escudier, b. et al. randomized phase iii trial of the
+multi-kinase inhibitor sorafenib ( xxxd3226xxx ) in
+patients with advanced renal cell carcinoma (rcc).
+eur. j. cancer supplements 3, 226 (2005).
+pivotal phase iii trial confirming sorafenib’s
+significant pfs benefit and acceptable tolerability
+in patients with advanced refractory rcc. these
+findings formed the basis of sorafenib’s recent fda
+approval for this indication.
+73. motzer, r. j. et al. prognostic factors for survival in
+previously treated patients with metastatic renal cell
+carcinoma. j. clin. oncol. 22, 454–463 (2004).
+74. abou-alfa, g. k. et al. phase ii biomarker analysis of
+sorafenib ( xxxd3226xxx ) in patients with advanced
+hepatocellular carcinoma. poster presentation am.
+assoc. cancer res.–natl cancer inst.–eur. organiz.
+res. treat. cancer. philadelphia, pennsylvania
+(2005).
+75. gatzemeier, u. et al. phase ii trial of single-agent
+sorafenib in patients with advanced non-small-cell
+lung carcinoma. j. clin. oncol. 24, 364s (2006).
+76. kloos, r. et al. significant clinical and biologic activity
+of raf/vegf-r kinase inhibitor  xxxd3226xxx  in
+patients with metastatic papillary thyroid carcinoma
+(ptc): updated results of a phase ii study. j. clin.
+oncol. 24, 288s (2006).
+
+77. steinbild, s. et al. phase ii study of sorafenib (bay439006) in hormone-refractory patients with prostate
+cancer: a study of the central european society for
+anticancer drug research — ewiv (cesar). j. clin.
+oncol. 24, 144s (2006).
+78. dahut, w. l. et al. bony metastatic disease responses
+to sorafenib ( xxxd3226xxx ) independent of psa in
+patients with metastatic androgen independent
+prostate cancer. j. clin. oncol. 24, 218s (2006).
+79. moreno-aspitia, a. et al.  xxxd3226xxx  as single oral
+agent in patients with metastatic breast cancer
+previously exposed to anthracycline and/or taxane.
+j. clin. oncol. 24, 577 (2006).
+80. wright, j. j., zerivitz, k. & gravell, a. clinical trials
+referral resource. current clinical trials of  xxxd3226xxx ,
+part 1. oncology (williston park) 19, 499–502 (2005).
+81. lorigan, p. et al. phase ii trial of sorafenib combined
+with  xxxd1796xxx  in metastatic melanoma patients.
+j. clin. oncol. 24, 8012 (2006).
+82. sosman, j. et al. a phase i/ii trial of sorafenib (s) with
+bevacizumab (b) in metastatic renal cell cancer (mrcc)
+patients (pts). j. clin. oncol. 24, 128s (2006).
+83. azad, n. s. et al. increased efficacy and toxicity
+with combination  xxxd328xxx  therapy using
+sorafenib and bevacizumab. j. clin. oncol. 24,
+121s (2006).
+84. elting, j. et al. biomarkers associated with clinical
+outcomes in targets, a phase iii single-agent,
+placebo-controlled study of sorafenib in advanced
+renal cell carcinoma. proc. am. assoc. cancer res.
+47, a2909 (2006).
+85. advani, a. s. c-kit as a target in the treatment of
+acute myelogenous leukemia. curr. hematol. rep. 4,
+51–58 (2005).
+86. markovic, a., mackenzie, k. l. & lock, r. b.  xxxg801xxx :
+a new focus in the understanding of acute leukemia.
+int. j. biochem. cell biol. 37, 1168–1172 (2005).
+87. chen, l. l. et al. imatinib resistance in gastrointestinal
+stromal tumors. curr. oncol. rep. 7, 293–299
+(2005).
+
+844 | o ctober 2006 | volume 5
+
+88. kodama, y. et al. the  xxxg1952xxx :
+a molecular therapeutic target in thyroid cancer.
+cancer sci. 96, 143–148 (2005).
+89. flaherty, k. t. et al. phase i/ii, pharmacokinetic and
+pharmacodynamic trial of  xxxd3226xxx  alone in
+patients with metastatic melanoma. proc. am. soc.
+clin. oncol. 23, 201s (2005).
+90. blumenschein, g. r. et al. phase ii multicenter
+uncontrolled trial of single agent sorafenib (bay 439006) in relapsed or refractory advanced non-small
+cell lung cancer. poster presentation am. assoc.
+cancer res.–natl cancer inst.–eur. organiz. res.
+treat. cancer. philadelphia, pennsylvania (2005).
+91. salvatore, g. et al. b-raf is a therapeutic target in
+aggressive thyroid carcinoma. clin. cancer res. 12,
+1623–1629 (2006).
+92. levy, j. et al. analysis of transcription and protein
+expression changes in the 786-o human renal cell
+carcinoma tumor xenograft model in response to
+treatment with the multi-kinase inhibitor sorafenib
+( xxxd3226xxx ). proc. am. assoc. cancer res. 47,
+213–214 (2006).
+
+competing interests statement
+the authors declare competing financial interests: see web
+version for details.
+
+databases
+the following terms in this article are linked online to:
+entrez gene:
+http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=gene
+ xxxg184xxx  | b-raf | c-kit |  xxxd292xxx  | egfr | erbb2 |  xxxg791xxx  | fms | fos |
+jun | ki-ras |  xxxg1388xxx  | myc |  xxxg1605xxx  | raf1 | pdgfrbeta | src | tgfalpha |
+ xxxg800xxx  |  xxxg1274xxx  |  xxxg802xxx  | vhl
+
+further information
+nexavar: http://www.nexavar.com
+access to this interactive links box is free online.
+
+www.nature.com/reviews/drugdisc
+© 2007 nature publishing group
+
+doi 2262
+corrigenda
+
+discovery and development of sorafenib: a multikinase inhibitor for
+treating cancer
+scott wilhelm, christopher carter, mark lynch, timothy lowinger, jacques dumas, roger a. smith,
+brian schwartz, ronit simantov and susan kelley
+nature reviews drug discovery 5, 835–844 (2006); doi:10.1038/nrd2130
+
+on page 836, the following sentence implies that an assay reported in 1999 by mcdonald and colleagues was used to discover
+ xxxg1924xxx  inhibitors that led to sorafenib: “when the project team was formed in 1994, the reagents and assays were available
+to identify a  xxxg1924xxx  inhibitor. a scintillation proximity assay for the high-throughput screening (hts)
+and identification of selective raf/mek/erk enzyme inhibitors had already been developed by mcdonald et al. at
+glaxo-wellcome inc., showing that this approach was feasible32.”
+the authors wish to correct the text as follows: “when the project team was formed in 1994, the reagents and scintillation
+proximity assay technology were availble to format a high-throughput assay for the identification of  xxxg1924xxx  inhibitors. a
+similar approach was also used by mcdonald et al. at glaxo-welcome inc., who identified  xxxg1924xxx  inhibitors using a raf/mek/
+erk spa hts assay32.”
+the authors also wish to clarify that the primary objective of the randomized discontinuation trial (rdt) discussed on page
+839 and 840 of the article was to test for disease-stabilizing activity of sorafenib in metastatic colorectal cancer (crc), with
+secondary endpoints for activity in other solid tumour types using a design by ratain. analysis of the rdt data indicated no
+disease-stabilizing activity in metastatic crc patients, but confirmed the early clinical signals observed in metastatic renal cell
+carcinoma (rcc) patients, and led to the study being refocused towards patients with metastatic rcc.
+
+© 2007 nature publishing group
+

@@ -1,0 +1,1098 @@
+quantitative chimeric analysis of six specificity
+determinants that differentiate escherichia coli
+aspartate from  xxxg2250xxx 
+wendy a. shaffer, tinh n. luong,1 steven c. rothman,
+
+and
+
+jack f. kirsch
+
+department of molecular and cell biology, university of california, berkeley, california 94720-3206, usa
+(received june 2, 2002; final revision september 10, 2002; accepted september 13, 2002)
+
+abstract
+the six mutations, referred to as the hex mutations, that together have been shown to convert escherichia
+coli aspartate aminotransferase (aatase) specificity to be substantially like that of e. coli  xxxg2250xxx  (tatase) are dissected into two groups, (t109s/n297s) and (v39l/k41y/t47i/n69l). the
+letters on the left and right of the numbers designate aatase and tatase residues, respectively. the
+t109s/n297s pair has been investigated previously. the latter group, the “grease” set, is now placed in the
+aatase framework, and the retrogrease set (l39v/y41k/i47t/l69n) is substituted into tatase. the
+grease mutations in the aatase framework were found primarily to lower kms for both aromatic and
+dicarboxylic substrates. in contrast, retrogrease tatase exhibits lowered kcats for both substrates. the six
+retrohex mutations, combining retrogrease and s109t/s297n, were found to invert the substrate specificity
+of tatase, creating an enzyme with a nearly ninefold preference (kcat/km) for aspartate over phenylalanine.
+the retrohex mutations perturb the electrostatic environment of the  xxxd3047xxx  cofactor, as
+evidenced by a spectrophotometric titration of the internal aldimine, which uniquely shows two pkas, 6.1
+and 9.1. retrohex was also found to have impaired dimer stability, with a kd for dimer dissociation of 350
+nm compared with the wild type kd of 4 nm. context dependence and additivity analyses demonstrate the
+importance of interactions of the grease residues with the surrounding protein framework in both the
+aatase and tatase contexts, and with residues 109 and 297 in particular. context dependence and
+cooperativity are particularly evident in the effects of mutations on kcat/km(asp). effects on kcat/km(phe)
+are more nearly additive and context independent.
+keywords: aminotransferase; chimera; context dependence; protein/genetic engineering;  xxxd3047xxx ; substrate specificity
+
+1
+
+present address: usc keck school of medicine, los angeles, california 90089, usa.
+reprint requests to: jack f. kirsch, department of molecular and cell
+biology, university of california, berkeley, 229 stanley hall #3206,
+berkeley, ca 94720-3206, usa; e-mail: jfkirsch@uclink.berkeley.edu;
+fax: (510) 642-6368.
+abbreviations: ␣kg, ␣-ketoglutarate; aatase, aspartate aminotransferase (ec 2.6.1.1); grease aatase, a mutant of aatase with the substitutions v39l/k41y/t47i/n69l; hca, hydrocinnamate; hex aatase, a mutant of aatase with the substitutions v39l/k41y/t47i/n69l/t109s/
+n297s; ho-hxodh, 2-hydroxyisocaproate (2-hydroxy-4-methylpentanoate) dehydrogenase (ec 1.1.1.-); mdh,  xxxg1739xxx  (ec
+1.1.1.37); plp, pyridoxal 5⬘-phosphate; retrogrease tatase, a mutant of
+tatase with the substitutions l39v/y41k/i47t/l69n; retrohex tatase,
+a mutant of tatase with the substitutions l39v/y41k/i47t/l69n/s109t/
+s297n; trip aatase, a mutant of aatase with the substitutions v39l/
+t47i/n69l.
+article and publication are at http://www.proteinscience.org/cgi/doi/
+10.1110/ps.0221902.
+
+2848
+
+a central problem in the area of structural biology is that of
+identifying the functionally important amino acid residues
+of an enzyme and of quantitating their individual and context dependent contributions. many of the proteins whose
+sequences have been elucidated by genomics remain uncharacterized. families of such proteins, which may be
+quite diverse in function or substrate specificity, provide an
+opportunity to study putative functionally important residues by creating chimeras in which residues from one sequence are transferred into another. the results have implications both for the study of protein function and for enzyme redesign.
+several successful examples of enzyme substrate specificity redesign inspired by analyses of homologous sequences have been reported. subtilisin has been engineered
+
+protein science (2002), 11:2848–2859. published by cold spring harbor laboratory press. copyright © 2002 the protein society
+
+specificity determinants of aminotransferases
+
+to exhibit the substrate specificities of the related serine
+proteases kex2 (ballinger et al. 1995) and furin (ballinger et
+al. 1996). the substrate specificity of trypsin has been converted to that of chymotrypsin (hedstrom et al. 1992). comparison of isocitrate dehydrogenase and isopropylmalate dehydrogenase prompted the design of mutants with inverted
+preferences for nad versus nadp as cofactors (chen et al.
+1996). cronin (1998) used sequence comparisons of choline
+acetyltransferases and carnitine acetyltransferases to design
+a mutant  xxxg440xxx  that displays a >1600fold improvement in kcat/km for carnitine.
+onuffer and kirsch (1995) selected six escherichia coli
+aspartate aminotransferase (aatase) residues that were
+thought to dictate substrate specificity. their replacement
+with the corresponding residues from e. coli  xxxg2250xxx  (tatase) yielded an enzyme, designated hex,
+with substantial aromatic aminotransferase activity. subsequently, luong and kirsch (2001) further clarified the roles
+of the amino acids at positions 109 and 297 by studying the
+single and double mutants of these positions in both the
+aatase to tatase and tatase to aatase direction. position 109 was found to be crucial to dicarboxylic substrate
+recognition and position 297 to aromatic substrate recognition. they further presented a general quantitative metric to
+analyze the context dependence and energetic impact of
+forward and retro chimeric substitutions.
+this work examines the roles of the remaining four residues, 39, 41, 47, and 69, collectively known as the grease
+residues, in the substrate specificity of aatase and
+tatase. these four amino acids were mutated in tandem
+because they line the upper surface of the active site, and
+all are substitutions from more polar (aatase) to less polar
+(tatase). they were therefore postulated to provide a
+better hydrophobic binding surface for nonpolar substrates.
+kinetic and spectrophotometric data for the grease
+aatase, retrogrease tatase, and retrohex tatase mutants are presented. context dependence and impact analysis are applied to the grease/retrogrease and hex/retrohex
+mutant pairs.
+
+table 1. targeted substitutions in aatase and tatasea
+
+aatases
+
+tatases
+
+position
+
+39
+
+41
+
+47
+
+69
+
+109
+
+297
+
+wt aatase
+t109s
+n297s
+t109s/n297s
+trip
+grease
+hex
+retrohex
+retrogrease
+s109t/s297n
+s297n
+s109t
+wt tatase
+
+v
+v
+v
+v
+l
+l
+l
+v
+v
+l
+l
+l
+l
+
+k
+k
+k
+k
+k
+y
+y
+k
+k
+y
+y
+y
+y
+
+t
+t
+t
+t
+i
+i
+i
+t
+t
+i
+i
+i
+i
+
+n
+n
+n
+n
+l
+l
+l
+n
+n
+l
+l
+l
+l
+
+t
+s
+t
+s
+t
+t
+s
+t
+s
+t
+s
+t
+s
+
+n
+n
+s
+s
+n
+n
+s
+n
+s
+n
+n
+s
+s
+
+a
+
+unshaded and shaded residues are those found in wt aatase and wt
+tatase, respectively.
+
+the six positions mutated to construct hex aatase cluster into two groups in the active site (fig. 1). two—109 and
+297—contact the  xxxd3047xxx  (plp) cofactor. the
+effects of mutations of these residues in aatase and
+tatase were described (luong and kirsch 2001). the remaining four residues—39, 41, 47, and 69—affect the polarity of the active site; they are less polar in tatase than
+in aatase. these four residues are collectively referred to
+as the “grease” residues.
+kinetics of the reactions with  xxxd233xxx  and  xxxd2433xxx 
+steady-state kinetic parameters for mutant and wild-type
+aminotransferases are collected in table 2. figure 2 shows
+
+results
+the aminotransferase mutants described here were constructed to define the roles played in substrate specificity
+determination by the six residues originally characterized in
+the hex mutant of aatase. mutation of these six residues
+in aatase to their equivalents in tatase was sufficient to
+increase the activity for phenylalanine by >1500-fold, as
+measured by single turnover kinetics (onuffer and kirsch
+1995). new steady-state data reported below confirm this
+substrate specificity shift. table 1 illustrates how subsets of
+these six positions were targeted for mutagenesis in aatase
+and tatase to produce the mutants described here.
+
+fig. 1. schematic illustration of the external aldimine of aatase. the
+relative positions of the six residues targeted for mutagenesis are indicated
+in large boldface type. the amino acid indicated on the left of each number
+is that found in e. coli aatase; that on the right is the e. coli tatase
+residue. (adapted from onuffer and kirsch 1995).
+
+www.proteinscience.org
+
+2849
+
+shaffer et al.
+
+table 2. kinetic parameters for wild-type and mutant aminotransferases
+aspa
+
+ xxxd2901xxx 
+
+kcat/km (m−1 s−1) × 10−1
+
+kcat (s)
+
+km (mm)
+
+kcat/km (m−1 s−1) × 10−2
+
+kcat (s−1)
+
+km (mm)
+
+910 (13)b
+86 (7)
+280 (12)
+120 (4)
+1560 (90)
+33 (4)
+340 (50)
+
+159 (2)b
+180 (14)
+95 (1)
+160 (3)
+13.4 (0.2)
+0.301 (0.004)
+7.4 (0.3)
+
+1.75 (0.04)b
+21 (3)
+3.5 (0.2)
+12.8 (0.7)
+0.086 (0.006)
+0.092 (0.009)
+0.22 (0.04)
+
+1.19 (0.03)c
+3.0 (0.02)
+1.56 (0.04)
+3.3 (0.2)
+23 (2)
+19.4 (9)
+370 (20)
+
+n.s.c
+n.s.
+n.s.
+n.s.
+34 (2)
+3.4 (0.03)
+28.9 (0.5)
+
+n.s.c
+n.s.
+n.s.
+n.s.
+15 (2)
+1.75 (0.07)
+0.78 (0.05)
+
+370
+390 (70)
+83 (8)
+130 (24)
+24 (2)
+120 (11)
+
+140
+61 (4)
+76 (7)
+42 (2)
+21.5 (0.9)
+30 (1)
+
+3.8
+1.4 (0.7)
+9.1 (0.1)
+2.9 (0.4)
+7.9 (0.9)
+2.6 (0.3)
+
+9600
+2200 (220)
+870 (250)
+320 (140)
+400 (30)
+14 (1)
+
+250
+137 (17)
+65 (20)
+131 (48)
+82 (1.4)
+n.s.
+
+0.26
+0.6 (0.2)
+0.6 (0.4)
+2.5 (1.7)
+2 (0.2)
+n.s.
+
+aspartate aminotransferases
+wt
+t109sc
+n297sc
+t109s/n297sc
+trip
+grease
+hex
+tyrosine aminotransferases
+wtc
+s109tc
+s297nc
+s109t/s297nc
+retrogrease
+retrohex
+
+(n.s.) no saturation.
+a
+conditions: 20 ␮m plp, 150–200 ␮m nadh, 25°c. [mdh] ⳱ 0.32–2.4 nm for asp coupled assay. [ho-hxodh] ⳱ 0.3–3.0 ␮m for phe coupled assay.
+trip aatase, hex aatase: 0.2 m taps at ph 8.4; 0.1 m kcl; 5 or 10 mm ␣kg for trip aatase, 4 mm ␣kg for hex aatase. retrohex tatase: 20
+mm k phosphate at ph 7.5; ic maintained at 0.1 m with kcl; 1 mg/ml bsa; 15 mm ␣kg; [ xxxd233xxx ] varied from 0.5–12 mm. [ xxxd2433xxx ] varied from 2–24
+mm. grease aatase, retrogrease tatase: 0.2 m taps at ph 8.0; 0.1 m kcl; 20 mm ␣kg for grease aatase, 30 mm ␣kg for retrogrease tatase.
+[ xxxd233xxx ] and [ xxxd2433xxx ] varied from 1–40 mm. values for grease aatase and retrogrease tatase are reported as weighted averages from 3–5 experiments.
+b
+from gloss and kirsch (1995).
+c
+from luong and kirsch (2001).
+d
+from hayashi et al. (1993). errors were not reported.
+
+the kinetic data used to determine these parameters for
+grease aatase, retrogrease tatase, and retrohex
+tatase. previous work on the t109s, n297s, and t109s/
+n297s mutants of aatase showed that mutations of
+aatase towards the tatase sequence decrease kcat/km for
+aspartate. this generalization holds for grease and hex
+aatase as well: grease exhibits a decrease of 28-fold in
+kcat/km for aspartate compared with wild-type aatase,
+whereas hex shows a decrease of threefold. trip aatase
+(v39l/t47i/n69l) is the sole exception, exhibiting a modest (less than twofold) increase in kcat/km for aspartate compared with wild type. in all three mutants, the changes in
+activity result from changes in both kcat and km.
+the trip, grease, and hex aatase mutants show increased phenylalanine activity compared with wild-type
+aatase. the kcat/km values for phe are enhanced 16- to
+19-fold in the trip and grease mutants, respectively. hex
+aatase achieves an impressive 310-fold increase in kcat/
+km compared with that of wild type. these six mutations
+suffice to bring this parameter to within a factor of thirty of
+wild-type tatase.
+retrogrease and retrohex, the mutations of tatase towards the aatase sequence, show the expected large decreases in activity toward phenylalanine. retrogrease
+shows a 24-fold drop in kcat/km for phenylalanine compared
+with wild-type tatase, whereas retrohex has a kcat/km for
+phenylalanine that is 690-fold lower than that of wild type.
+retrogrease and retrohex also result in decreased activity
+2850
+
+protein science, vol. 11
+
+for aspartate, although the effects are more modest than
+those seen in most of the aatase mutants. in retrogrease
+tatase, the kcat/km for aspartate is 15-fold lower than that
+of wild type. retrohex tatase has a kcat/km for aspartate
+that is only threefold lower than that of wild-type tatase.
+in both of these mutants, the decreases in aspartate activity
+result almost entirely from the reduction of kcat, with little
+effect seen on km.
+association of inhibitors with aatases and tatases
+ki and kd values for maleate and hydrocinnamate (hca)
+inhibition of aatase and tatase variants are given in
+table 3. figure 3 shows titration data used to determine kds
+for grease aatase and retrogrease tatase. figure 4
+presents kinetic data for retrohex tatase with the two
+inhibitors. the grease and hex mutants of aatase show
+considerably increased affinity for both the aspartate analog, maleate, and the phenylalanine analog, hca. the mutations of tatase towards the aatase sequence do not
+affect the kd(hca) values outside of a ±3-fold range, while
+the effects on kd(maleate) range from a 15-fold reduction
+(s109t) to >3-fold increase (s297n).
+spectrophotometric determination of pkas
+data from the spectrophotometric titrations of grease
+aatase, retrogrease tatase, and retrohex tatase are
+
+specificity determinants of aminotransferases
+
+fig. 2. initial velocities determined as a function of substrate concentrations for the indicated enzyme forms. the kinetic parameters
+were calculated as a weighted average from 3–5 experiments. the reaction conditions and values are given in table 2.
+
+presented in figure 5. the spectrum of grease aatase
+(fig. 5a) and its variation with ph are nearly identical to
+those of wild-type aatase. the pka of the internal aldimine, as determined by spectrophotometric titration, is
+6.91 ± 0.05, indistinguishable from the value of 6.96 ± 0.02
+reported for wild-type aatase (goldberg et al. 1991). retrogrease tatase (fig. 5b) has an internal aldimine pka of
+6.32 ± 0.03, which is shifted downward by 0.33 pk units
+from that reported for wild-type tatase (hayashi et al.
+1993).
+the spectrum of retrohex tatase (fig. 5c) is unique in
+this series. it has a significant absorbance peak at 320 nm,
+in addition to the usual ones at 360 and 430 nm. the enzyme
+also has substantial residual 430 nm absorbance at high ph.
+finally, data for the 320, 360, or 430 nm absorbance as a
+function of ph fit best to a model incorporating two pkas
+(equation 9) rather than the single pka observed in all other
+aatases and tatases (fig. 5d). the two pka’s are 6.1 ±
+0.2 and 9.1 ± 0.1.
+dissociation of retrohex to inactive monomers
+retrohex loses activity when diluted in buffer prior to the
+addition of substrate. the rate of loss is slow and levels off
+
+to a baseline level of activity after ∼ 15 min. the percentage
+of activity retained is a function of enzyme concentration
+(fig. 6a).
+these observations are consistent with a model in which
+the dimeric enzyme, upon dilution into the assay buffer,
+slowly dissociates and comes to equilibrium with the inactive monomer. based on this model, measurements of enzyme activity after incubation at various dilutions could be
+fit to equations 10 and 11 (see materials and methods) to
+give a kd of 350 nm. the comparable dissociation constant
+for wild-type aatase is 4 nm (herold and kirschner 1990).
+discussion
+specificity determinants of aatase and tatase
+onuffer and kirsch (1995) identified six residues in
+aatase, which, when mutated to their tatase counterparts, were sufficient to increase kcat/km for phenylalanine
+by >300-fold, conferring a tatase-like substrate specificity
+on the enzyme. luong and kirsch (2001) subsequently
+clarified the roles of the residues at positions 109 and 297.
+the functions of the other four positions, collectively
+known as the grease residues, had not been examined. the
+www.proteinscience.org
+
+2851
+
+shaffer et al.
+
+table 3. dissociation/inhibition constants for wild-type and
+mutant aminotransferases
+
+aspartate aminotransferases
+wtb
+t109sc
+n297sb
+t109s/n297sc
+tripb
+grease
+ xxxg1043xxx 
+tyrosine aminotransferases
+wtb
+s109tc
+s297nc
+s109t/s297nc
+retrogrease
+retrohexd
+
+maleatea
+kd (mm)
+
+hydrocinnamatea
+kd (mm)
+
+19 (1)
+>150
+19 (1)
+>100
+1.9 (0.1)
+0.2 (0.01)
+0.44 (0.12)
+
+>75
+44 (1)
+25 (26)
+28 (1)
+15 (8)
+3.8 (0.2)
+0.12 (0.03)
+
+140 (10)
+8.7 (0.4)
+>400
+39 (2)
+n.b.
+30 (2)
+
+12 (0.4)
+10.9 (0.4)
+33 (2)
+25 (1)
+20 (2)
+3.5 (0.3)
+
+(n.b.) no binding observed.
+a
+kd values were determined by spectrophotometric titration (see materials
+and methods). conditions: grease aatase and retrogrease tatase: 0.2
+m taps at ph 8.0; 0.14 m kcl; [hca] ⳱ 0–40 mm. [maleate] ⳱ 0–30
+mm. [enzyme] ⳱ 31 ␮m. 25°c. values reported are weighted averages
+from three experiments. retrohex tatase: ki values determined as described in materials and methods. conditions: 20 mm k phosphate at ph
+7.5; ic ⳱ 0.1 m (kcl). [asp] ⳱ 1 mm, [␣kg] ⳱ 8 mm. [maleate] ⳱
+0–40 mm. [hca] ⳱ 0–4 mm. [mdh] ⳱ 0.32 nm. 25°c.
+b
+from onuffer and kirsch (1995).
+c
+from luong and kirsch (2001).
+d
+ki values reported.
+
+question of whether the six retro mutations would convert
+tatase specificity to resemble that of aatase was of particular additional interest. these topics are addressed in this
+paper.
+the sequences of many additional homologous aromatic
+aminotransferases have recently become available. some of
+these manifest their substrate specificity differences from
+aatase with substitutions other than the six characterizing
+the hex mutant (jensen and gu 1996). the evolutionary
+pathways leading to the divergence of present-day aatases
+and tatases are the subject of ongoing work in this and
+other laboratories and will be discussed elsewhere (s. rothman and j.f. kirsch, unpubl.).
+kinetics and inhibitor binding
+wild-type aatase and wild-type tatase differ in kcat/
+km(asp) by only 2.5-fold (table 2). it might therefore be
+expected that mutations in either the aatase → tatase or
+tatase → aatase direction would have little effect on
+aspartate activity. as the data of table 2 illustrate, hex
+aatase bears out this expectation, with a kcat/km for aspartate that is nearly identical to that of wild-type tatase.
+however, the grease aatase mutant exhibits a 28-fold
+lower kcat/km(asp) than does wild-type aatase. this il2852
+
+protein science, vol. 11
+
+lustrates the large degree of interaction between the grease
+and the t109s/n297s mutations. individually, grease
+aatase and t109s/n297s aatase each have lower aspartate activity than does wild-type tatase, but when the two
+are combined in hex aatase, aspartate activity is recovered. a similar cooperativity is displayed in the tatase
+framework: kcat/km(asp) for retrogrease tatase is 15-fold
+lower that of wild-type tatase; the addition of s109t/
+s297n to form retrohex tatase restores asp activity to
+within threefold of wild-type tatase.
+the effects of the grease, retrogrease, and retrohex mutations on phe activity are more straightforward: all mutations from tatase → aatase decrease phe activity,
+whereas mutations in the aatase → tatase direction augment it. cumulatively, the effect in retrohex is to create an
+enzyme with an aatase-like substrate specificity.
+the maleate and hca dissociation constants of the three
+mutants further clarify the role of the four grease residues
+(table 3). grease aatase has high affinity for both the
+dicarboxylic and aromatic inhibitors, suggesting that these
+four mutations serve to increase binding energy for the corresponding substrates. the reverse substitutions of retrogrease, however, have little effect on the affinity for inhibitors. these effects correlate well with the kinetic data on
+these mutants: grease aatase has dramatically lowered
+kms for both substrates, whereas retrogrease tatase
+shows only small changes in km(asp) and an eightfold
+change in km(phe). the addition of s109t/s297n to retrogrease to form retrohex tatase results in greatly restored
+maleate affinity and a modest decrease in kd for hca. this
+is consistent with the effect of the s109t/s297n mutations
+in the wild-type tatase framework, where the effect is
+manifested primarily in a decreased kd value for maleate.
+spectrophotometric titrations
+most aminotransferases exhibit low ph absorption bands
+with maxima near 430 nm, characteristic of the protonated
+internal aldimine depicted in figure 7, structure i. deprotonation of the aldimine yields the form of the cofactor
+shown in structure iii, which absorbs maximally at 360 nm.
+the pka of this transition is 6.96 in wild-type aatase
+(goldberg et al. 1991) and 6.65 in wild-type tatase (hayashi et al. 1993).
+the grease aatase mutations have no effect on this
+internal aldimine pka, showing that they do not perturb the
+electrostatic environment of the active site in the aataseto-tatase direction. however, the mutations in the
+tatase-to-aatase direction do shift the pka downward by
+0.33 units.
+retrohex exhibits an unusual spectrum, indicating that
+this set of mutations introduces substantial changes in the
+cofactor environment. the 320-nm absorbance peak present
+in the spectrum is most likely attributable to the enolimine
+
+specificity determinants of aminotransferases
+
+fig. 3. changes in a430 following addition of maleate (a) or hca (b) to grease aatase (solid circles) and retrogrease tatase (open
+circles). conditions and values are given in table 3.
+
+tautomer of the protonated schiff’s base (fig. 7, structures
+ii and v). this tautomer has been observed in model systems in solution and is favored in hydrophobic environments. metzler (1979) suggested that aatase uses specific
+hydrogen-bonding interactions to stabilize the 430-nm absorbing ketoenamine (i) over the enolimine tautomer(ii). it
+is probable that the hydrogen bond from tyrosine 225 to the
+3⬘ oxygen of plp contributes importantly to this stabilization. the presence of a strong hydrogen bond here would
+prevent the addition of a second proton to the 3⬘ oxygen,
+which occurs in the tautomerization of ketoenamine (fig. 7,
+structure i) to enolimine (fig. 7, structure ii). the evidence
+
+thus points to a weaker tyrosine 225–3⬘ oxygen hydrogen
+bond in retrohex than that which exists in wild-type
+tatase.
+the residual 430-nm absorbance found in retrohex at
+high ph is explained by the transfer of a proton to the
+aldimine nitrogen of iii. this proton most reasonably emanates from tyrosine 225 (fig. 7, structure iv). this is another indicator of the weakening of the tyrosine 225–3⬘
+oxygen hydrogen bond in retrohex, as the weakened hydrogen bond would increase the acidity of tyrosine 225,
+allowing for a more favorable proton transfer to the aldimine nitrogen.
+
+fig. 4. inhibition of the reactions of retrohex tatase by maleate (a) and hca (b). data shown are representative. the values collected
+in table 3 are weighted averages from 2–3 experiments. see table 3 for conditions.
+
+www.proteinscience.org
+
+2853
+
+shaffer et al.
+
+fig. 5. ph-dependent absorbance changes for grease aatase (a), retrogrease tatase (b), and retrohex tatase (c). conditions: 5
+mm ches buffer (grease aatase) or 5 mm borate buffer (retrogrease tatase, retrohex tatase), ic ⳱ 0.1 (kcl). the ph was
+adjusted with 100 mm acetic acid, ph 3.8. [enzyme] ⳱ 20 ␮m. (d) 430-nm absorbance plotted as a function of ph for all three
+enzymes. solid lines show the fit of the data to equation 7 for grease aatase and retrogrease tatase and to equation 9 for retrohex
+tatase. the fitted pka values are shown. (solid circles) grease aatase; (open squares) retrogrease tatase; (inverted triangles)
+retrohex tatase.
+
+the a224i mutant of aatase (eliot and kirsch 2002)
+shares the 320-nm absorbance peak and residual 430-nm
+absorbance at high ph with retrohex. these characteristics were attributed to the weakened tyrosine 225–3⬘ oxygen hydrogen bond caused by the bulky isoleucine introduced at position 224, which pushes the plp cofactor
+away from the tyrosine. however, the a224i mutant does
+not exhibit the other unusual feature of the retrohex spectrophotometric ph titration: the presence of two pkas
+rather than one. the second pka in retrohex is explained
+by a dissociation of the second proton, leaving a deprotonated internal aldimine and a deprotonated tyrosine 225 in
+the active site (fig. 7, structure vi). presumably, this second transition has a high enough pka to remain outside the
+range of the ph titration in the case of a224i.
+2854
+
+protein science, vol. 11
+
+dissociation of retrohex to monomers
+aatase and tatase active sites are formed by contributions from both subunits; therefore, the monomers are inactive. the retrohex set of mutations is unique among those
+investigated here, because it serves to reduce the stability of
+the dimer by >70-fold.
+of the six hex residues, 39, 69, and 297 make contacts
+across the dimer interface. val 39 is 3.2 å from asn 69
+from the opposite monomer in the crystal structure of wildtype aatase. asn 297 is within 4 å of phe 79 and arg 266
+from the other monomer. contacts made by these residues
+in wild-type tatase must be important for dimer stability
+and may be disrupted in retrohex. the context dependence
+and cooperativity (non-additivity) of these mutations is
+
+specificity determinants of aminotransferases
+
+fig. 6. dissociation of retrohex tatase to inactive monomers. (a) the decline in initial velocity with time of incubation in the
+reaction mixture before addition of substrate. stock solutions initially at 35, 12, or 3.5 ␮m were diluted 1:100 to give the subunit
+concentrations shown. (solid circles) 350 nm; (open squares) 120 nm; (solid triangles) 35 nm. conditions: 20 mm k phosphate at ph
+7.5, ic ⳱ 0.1 (kcl) 20 ␮m plp, 150–200 ␮m nadh, [ xxxd233xxx ] ⳱ 1 mm, [␣kg] ⳱ 1 mm, [mdh] ⳱ 0.32 nm. (b) plot of initial
+velocity versus enzyme subunit concentration. the solid line shows the fit of these data to equation 11. the broken line shows the fit
+to a straight line (i.e., for no dimer dissociation). conditions: as above, with the addition of 1 mg/ml bsa to all reactions. rates were
+measured after a 15-min incubation of the enzyme in the reaction mixture.
+
+clear—neither retrogrease tatase (which contains the
+l39v and l69n mutations) nor s297n tatase show
+signs of dimer instability, nor does the hex mutant of
+aatase.
+context dependence analysis
+the chimeras constructed by the exchange of putatively
+important specificity residues between aatase and tatase
+define their contributions quantitatively within the context
+of the donating and accepting frameworks. the impact (i)
+and context dependence (c) of the forward and retro exchanges are given by equations 1 and 2, respectively
+(luong and kirsch 2001; deu et al 2002).
+i = ⌬⌬gsa→
+
+b
+
+− ⌬⌬gb→
+
+c = ⌬⌬gsa→
+
+b
+
++ ⌬⌬gsb→
+
+( 1)
+
+a
+
+a
+
+( 2)
+
+⌬⌬gsa → b is the ⌬⌬g on an addressed thermodynamic or
+kinetic parameter from the forward substitution, whereas
+⌬⌬gsb → a is that resulting from the retro substitution. the
+parameter c describes the context dependence of the substitutions. context independent substitutions will produce
+nearly equal and opposite values of ⌬⌬gsa → b and ⌬⌬gsb → a,
+yielding a small c value. conversely, highly context dependent substitutions will yield ⌬⌬gss of differing magnitudes,
+resulting in larger c values.
+the i value completes the analysis by providing a measure of the energetic impact of the substitution on the parameter of interest. the i value is required to distinguish
+cases of true context independence from the trivial result
+
+where both i and c are near zero because the substitution
+has little effect on the interrogated parameter.
+⌬⌬gs values for both the aspartate and phenylalanine
+aminotransferase kcat/kms of the grease/retrogrease and
+hex/retrohex mutant pairs are shown in figure 8. for comparison, ⌬⌬g values computed for wild-type aatase considered as a “mutant” of wild-type tatase and for wildtype tatase considered as a “mutant” of wild-type aatase
+are shown. these ⌬⌬gs are equal in magnitude and opposite in sign. they illustrate the total free energy difference
+on the addressed parameter characterizing the two wildtype proteins and are useful in gauging the magnitude of
+the impact parameter for any given substitution. for example, the ⌬⌬gss computed for kcat/km(asp) clearly illustrate that the difference in reactivity for aspartate between the two wild-type enzymes is small and that the free
+energy perturbations caused by the chimeric constructs are
+also rather small. the effects of both sets of substitutions
+on aspartate activity are highly context dependent, in that
+mutations in either the aatase → tatase or the tatase
+→ aatase direction decrease aspartate activity. this results in the relatively large c and small i values observed.
+in contrast, the same substitutions are nearly context independent with respect to phenylalanine activity. these same
+trends were observed by luong and kirsch (2001) for mutations at positions 109, 297, and 109/297. the effects on
+aspartate activity are highly context dependent, whereas
+those on phenylalanine activity are less so.
+additivity
+the 109/297 and grease/retrogrease mutations can also be
+examined for additivity. wells (1990) proposed the use of
+www.proteinscience.org
+
+2855
+
+shaffer et al.
+
+fig. 7. model accounting for the two pkas observed in the spectrophotometric titration of retrohex tatase and the retention by the
+enzyme of substantial residual 430 nm absorbance at high ph (see fig. 5). at low ph, the enzyme is in prototropic equilibrium between
+forms i (␭max ⳱ 430 nm) and ii (␭max ⳱ 320 nm). loss of a proton (pka ∼ 6.1) from i or ii gives rise to species iii (␭max ⳱ 360 nm),
+iv (␭max ⳱ 430 nm), and v(␭max ⳱ 320 nm), which are also in prototropic equilibrium. the loss of a second proton (pka ∼ 9.1)
+produces species vi (␭max ⳱ 360 nm).
+
+equation 3 for quantitating additivity. ⌬⌬gs are computed
+for mutants x and y and for the combined mutant x,y, and
+the ⌬gi (interaction energy) is given by equation 3:
+⌬⌬g共x,y兲 = ⌬⌬g共x兲 + ⌬⌬g共y兲 + ⌬gi
+
+( 3)
+
+⌬gi is a measure of the extent of non-additivity and is taken
+as an indication that the mutated residues interact.
+the ⌬⌬gs and ⌬gis computed for t109s/n297s
+aatase, grease aatase, hex aatase, and the corresponding retro tatase mutations are shown in figure 9.
+the ⌬⌬gs for the reactions with phenylalanine are more
+nearly additive in both the aatase and tatase framework.
+the effects of s109t/s297n mutations and the retrogrease
+mutations are essentially perfectly additive, with a ⌬gi of
+only 0.03 kcal/mole. the aatase mutants show slightly
+more interaction between the t109s/n297s residues and
+the four grease positions, giving a ⌬gi of 1.1 kcal/mole.
+the interaction energies become larger when aspartate activity is considered. for s109t/s297n tatase and retro2856
+
+protein science, vol. 11
+
+grease tatase, ⌬gi is 1.6 kcal/mole. ⌬gi is 2.6 kcal/mole
+for t109s/n297s aatase and grease aatase.
+the ⌬gi values complement and confirm the picture provided by the context dependence parameters, c and i. the c
+value measures the extent to which the interaction of a
+residue or group of residues with its environment affects the
+parameter of interest. the ⌬gi value measures the extent to
+which the interaction of a residue or group of residues with
+another mutated position or positions affects the parameter
+of interest. often there will be a correlation of c with ⌬gi,
+but this is not necessarily so.
+materials and methods
+site-directed mutagenesis
+aatase and tatase mutants were constructed by pcr-based
+site-directed mutagenesis. pcr reactions (100 ␮l) were carried
+out for 25 cycles through 95°c (1 min), 55°c (1 min), and 75°c
+(1.5 min). mutagenized reaction products were digested with restriction enzymes and ligated into either the puc 118 or puc 119
+vectors cut with the same restriction enzymes. ligation mixtures
+
+specificity determinants of aminotransferases
+
+the procedure of herold and kirschner (1990) with modifications
+by onuffer and kirsch (1995). purification of ho–hxodh was as
+described in luong and kirsch (1997).
+
+ xxxd233xxx 
+
+and  xxxd2433xxx  kinetics
+
+transamination of  xxxd233xxx  was followed by an mdh-coupled assay
+in the presence of saturating ␣kg.  xxxd2433xxx  transamination was followed with ho–hxodh as the coupling enzyme, in the presence
+of saturating ␣kg, as described by luong and kirsch (1997). in
+both cases, the change in 340-nm absorbance attributable to conversion of nadh to nad by the coupling enzyme was measured.
+reactions of grease and retrogrease were followed with a molecular devices spectramax 340 or spectramax 250 spectrophotometer equipped with a 96-well plate reader. reactions of
+hex and retrohex were monitored on a perkin elmer lambda 6 or
+uvikon 860 (kontron instruments, watford, uk) spectrophotometer. background rates measured in the presence of coupling enzymes were subtracted from those recorded after addition of the
+aminotransferase. details of reaction conditions are given in table 2.
+data were imported into kaleidagraph (synergy software,
+reading, pa) and fit to the michaelis-menten equation. errors for
+kcat/km were determined from equation 4, a transformation of the
+michaelis-menten equation:
+v ⲑ et =
+
+kcat关s兴 ⲑ km
+1 + 关s兴 ⲑ km
+
+( 4)
+
+fig. 8. context dependence (c) and impact (i) of mutations in aatase
+and tatase on kcat/km for aspartate (top) and phenylalanine (bottom).
+open bars represent the effect, measured in terms of ⌬⌬g‡, of mutations
+of aatase towards the tatase sequence. hatched bars represent the
+effect, in ⌬⌬g‡, of mutations of tatase towards the aatase sequence.
+the bottom two bars in each frame show the difference in ⌬⌬g‡ between
+the two wild types (i.e., the white bar represents wild-type tatase considered as a “mutant” of aatase, and the hatched bar represents wild-type
+aatase considered as a “mutant” of wild-type tatase). the c value for
+the complete sequence substitution is zero by definition; the i value gives
+twice the total free energy change in the addressed parameter measured for
+the two wild-type sequences. i and c values calculated from equations 1
+and 2 for each pair of mutants are reported in boxes adjacent to the corresponding ⌬⌬g‡ values.
+
+were transformed by electroporation into e. coli dh5␣ cells. plasmid extractions were performed with promega wizard prep kits.
+the isolated plasmids were screened for the presence of mutagenized inserts using silent restriction sites introduced during mutagenesis. sequences were verified by automated dna sequencing
+(university of california, berkeley dna sequencing facility).
+
+enzyme purification
+aatase and tatase were overexpressed in e. coli mg204 (gift
+from i. fotheringham, nutrasweet corp.) and purified according to
+
+fig. 9. interaction between the t109s/n297s and grease mutants in
+aatase and of the corresponding retro mutations in tatase. the top and
+bottom panels illustrate the effects on kcat/km for aspartate and phenylalanine, respectively. the top three bars in each plot show ⌬⌬g‡ values for
+t109s/n297s, grease, and hex (or their corresponding retro mutants),
+respectively. the bottom bar illustrates the interaction energy, ⌬gi, calculated from equation 3. a large ⌬gi indicates non-additivity of effects of
+mutations and demonstrates the interdependence of the mutated positions
+with respect to the addressed parameter.
+
+www.proteinscience.org
+
+2857
+
+shaffer et al.
+
+inhibitor dissociation and inhibition constants
+absorbance changes at 430 nm were measured as a function of
+[maleate] or [hca]. a molecular devices spectramax 340 or
+spectramax 250 spectrophotometer was used to record spectra
+of 200-␮l samples in 96-well plates. samples were incubated at
+25°c prior to addition of enzyme. data were imported into kaleidagraph and fit to equation 5, where a, a0, and a⬁ are the measured absorbance, the absorbance in the absence of inhibitor, and
+the absorbance at saturating inhibitor concentration, respectively.
+a = a0 −
+
+共a0 − a⬁兲关l兴
+kd + 关l兴
+
+( 5)
+
+the high 430-nm absorbance of retrohex prevented the use of
+this spectrophotometric method for measuring kds of inhibitors.
+therefore, kis were determined kinetically. rates for aspartate
+transamination were measured as described above as a function of
+[maleate] or [hca]. data were fit to equation 6 with kaleidagraph:
+kcat
+
+v ⲑ et =
+1+
+
+kasp
+m
+关asp兴
+
+冉 冊
+
+grease aatase, retrogrease tatase, and retrohex tatase were
+dissolved to 20 ␮m in either 5 mm ches (grease aatase) or 5
+mm borate (retrogrease and retrohex tatase) at ph 10 and
+ic ⳱ 0.1 m. aliquots of 100 mm acetic acid at ph 3.8 were added
+to adjust the ph. the ph was measured with a corning 320 ph
+meter fitted with a corning semimicro combination electrode.
+spectra were taken from 250 to 500 nm on a uvikon 860 double
+beam spectrophotometer and were normalized for protein concentration using the absorbance at 280 nm.
+data at 430 nm and 360 nm from grease and retrogrease titrations were fit to equations 7 and 8, respectively.
+
+a=
+
+a1 − a2
+1 + 10共ph−
+
+pk␣兲
+
++ a2
+
+a=
+
+2ph
+
+兲ah2a + 共10−
+
+共ph+ pk1兲
+
+− 共pk1+ pk2兲
+
+10
+
+ph兲
+
++ a2
+
+( 8)
+
+兲aha− + 共10−
+
+− 共ph+ pk1兲
+
++ 10
+
+共pk1pk2兲
+
+− 2ph
+
++ 10
+
+兲aa2−
+
+( 9)
+
+here, ah2a, aha− and aa2− represent the molar absorbances of
+the doubly protonated, singly protonated, and unprotonated forms
+of the plp cofactor, respectively.
+
+retrohex dissociation
+measurements of the time-dependent dissociation of retrohex
+were carried out by diluting the enzyme 100-fold from stock so-
+
+2858
+
+protein science, vol. 11
+
+( 10)
+
+the concentration of dimer, [d], is given by equation 11:
+关d兴 =
+
+kd + 4et −
+
+公kd2 +
+8
+
+8kdet
+
+( 11)
+
+we thank dan malashock and andrew eliot for critical reading of
+the manuscript.
+this work was supported by nih grant gm-35393. w.a.s. was
+supported in part by the applied biology bioprocess engineering
+research training grant (nih grant t-32 gm-08352–13). s.c.r.
+was supported in part by the applied biology bioprocess engineering research training grant and was a howard hughes medical institute predoctoral fellow. t.n.l. was a university of california undergraduate mcnair scholar and was supported in part by
+the howard hughes medical institute-funded biology fellows
+program.
+the publication costs of this article were defrayed in part by
+payment of page charges. this article must therefore be hereby
+marked “advertisement” in accordance with 18 usc section 1734
+solely to indicate this fact.
+
+( 7)
+
+a1 and a2 are the upper and lower limits, respectively, for the
+molar absorbance at the wavelength measured.
+data for retrohex were fit to equation 9, transformed from
+equation 5•10 of fersht (1985):
+共10−
+
+k␣kg
+kasp
+m
+m
+1+
++
+关␣kg兴 关asp兴
+
+references
+
+a1 − a2
+1 + 10共pk␣−
+
+kcat关d兴
+
+acknowledgments
+
+spectrophotometric determination of pkas
+
+a=
+
+v=
+
+( 6)
+
+k␣kg
+m
+
+关i兴
++
+ki
+关␣kg兴
+
+1+
+
+lutions of 35, 12, or 3.5 ␮m into solution containing all the reaction components except the aspartate and ␣kg substrates (see fig.
+6 for details). after dilution, the enzyme was incubated for 0–30
+min, substrates were added, and the rate measured as described
+above.
+for measurement of the dissociation constant of the retrohex
+dimer, the enzyme was diluted to various concentrations. each
+dilution was incubated for 15 min to allow monomer and dimer to
+come to equilibrium, followed by measurement of the velocity of
+the reaction. the data were fit to equation 10 with the nlin
+procedure from the sas package (sas institute, cary, nc):
+
+ballinger, m.d., tom, j., and wells, j.a. 1995. designing subtilisin bpn⬘ to
+cleave substrates containing dibasic residues. biochemistry 34:
+13312–13319.
+———. 1996. furilisin: a variant of subtilisin bpn⬘ engineered for cleaving
+tribasic substrates. biochemistry 35: 13579–13585.
+chen, r., greer, a., and dean, a.m. 1996. redesigning secondary structure to
+invert coenzyme specificity in isopropylmalate dehydrogenase. proc. natl.
+acad. sci. 93: 12171–12176.
+cronin, c.n. 1998. redesign of  xxxg440xxx  specificity by protein
+engineering. j. biol. chem. 273: 24465–24469.
+deu, e., koch, k.a., and kirsch, j.f. 2002. the role of the conserved
+lys68*:glu265 intersubunit salt bridge in aspartate aminotransferase kinetics: multiple forced covariant amino acid substitutions in natural variants.
+protein sci. 11: 1062–1073.
+eliot, a.c. and kirsch, j.f. 2002. modulation of the internal aldimine pka’s of
+1-aminocyclopropane-1-carboxylate synthase and aspartate aminotransferase by specific active site residues. biochemistry 41: 3836–3842.
+fersht, a. 1985. enzyme structure and mechanism, 2nd ed., p. 157. w.h.
+freeman and company, new york.
+goldberg, j.m., swanson, r.v., goodman, h.s., and kirsch, j.f. 1991. the
+tyrosine-225 to phenylalanine mutation of escherichia coli aspartate aminotransferase results in an alkaline transition in the spectrophotometric and
+kinetic pka values and reduced values of both kcat and km. biochemistry 30:
+305–312.
+
+specificity determinants of aminotransferases
+
+hayashi, h., inoue, k., nagata, t., kuramitsu, s., and kagamiyama, h. 1993.
+escherichia coli aromatic amino acid aminotransferase: characterization
+and comparison with aspartate aminotransferase. biochemistry 32: 12229–
+12239.
+hedstrom, l., szilagyi, l., and rutter, w.j. 1992. converting trypsin to chymotrypsin: the role of surface loops. science 255: 1249–1253.
+herold, m. and kirschner, k. 1990. reversible dissociation and unfolding of
+aspartate aminotransferase from escherichia coli: characterization of a monomeric intermediate. biochemistry 29: 1907–1913.
+jensen, r. a. and gu, w. 1996. evolutionary recruitment of biochemically
+specialized subdivisions of family i within the protein superfamily of aminotransferases. j. bacteriol. 178: 2161–2171.
+luong, t.n. and kirsch, j.f. 1997. a continuous coupled spectrophotometric
+
+assay for  xxxg2250xxx  activity with aromatic and other nonpolar amino acids. anal. biochem. 253: 46–49.
+———. 2001. a general method for the quantitative analysis of functional
+chimeras: applications from site-directed mutagenesis and macromolecular
+association. protein sci. 10: 581–591.
+metzler, d.e. 1979. tautomerism in  xxxd3047xxx  and in enzymatic
+catalysis. adv. enzymol. relat. areas mol. biol. 50: 1–40.
+onuffer, j.j. and kirsch, j.f. 1995. redesign of the substrate specificity of
+escherichia coli aspartate aminotransferase to that of escherichia coli  xxxg2250xxx  by homology modeling and site-directed mutagenesis. protein sci. 4: 1750–1757.
+wells, j.a. 1990. additivity of mutational effects in proteins. biochemistry 29:
+8509–8517.
+
+www.proteinscience.org
+
+2859
+

@@ -1,0 +1,1058 @@
+bjp
+
+british journal of
+pharmacology
+
+doi:10.1111/j.1476-5381.2010.00834.x
+www.brjpharmacol.org
+
+research paper
+
+correspondence
+
+the major determinant of
+ xxxd2076xxx /glucagon-like
+peptide 1 differential
+affinity at the rat
+ xxxg873xxx 
+receptor n-terminal domain
+is a hydrogen bond from
+ser-32 of  xxxd2076xxx *
+
+dr dan donnelly, institute of
+membrane and systems biology,
+faculty of biological sciences,
+university of leeds, leeds ls2
+9jt, uk. e-mail:
+d.donnelly@leeds.ac.uk
+----------------------------------------------------------------
+
+*the authors would like to
+dedicate this paper to the
+memory of prof rainer rudolph
+(1949–2009).
+----------------------------------------------------------------
+
+keywords
+glp-1;  xxxd2076xxx ; gpcr;
+diabetes; hormone; receptor;
+ligand
+----------------------------------------------------------------
+
+received
+15 december 2009
+
+revised
+1 march 2010
+
+accepted
+8 march 2010
+
+rj mann1, ne nasr1, jk sinfield1, e paci2 and d donnelly1
+1
+
+institute of membrane and systems biology, faculty of biological sciences, university of leeds,
+leeds, uk, and 2institute of molecular and cellular biology, faculty of biological sciences,
+university of leeds, leeds, uk
+
+background and purpose
+ xxxd2076xxx  (exenatide,  xxxd2076xxx ) is a high-affinity peptide agonist at the glucagon-like peptide-1 receptor ( xxxg899xxx ), which has been
+approved as a treatment for type 2 diabetes. part of the drug/hormone binding site was described in the crystal structures of
+both glp-1 and  xxxd2076xxx  bound to the isolated n-terminal domain (ntd) of  xxxg899xxx . however, these structures do not account for
+the large difference in affinity between glp-1 and  xxxd2076xxx  at this isolated domain, or for the published role of the c-terminal
+extension of  xxxd2076xxx . our aim was to clarify the pharmacology of  xxxg899xxx  in the context of these new structural data.
+
+experimental approach
+the affinities of glp-1,  xxxd2076xxx  and various analogues were measured at human and rat  xxxg899xxx  (hglp-1r and rglp-1r,
+respectively) and various receptor variants. molecular dynamics coupled with in silico mutagenesis were used to model and
+interpret the data.
+
+key results
+the membrane-tethered ntd of hglp-1r displayed similar affinity for glp-1 and  xxxd2076xxx  in sharp contrast to previous studies
+using the soluble isolated domain. the selectivity at rglp-1r for  xxxd2076xxx (9–39) over  xxxd2076xxx (9–30) was due to ser-32 in the ligand.
+while this selectivity was not observed at hglp-1r, it was regained when glu-68 of hglp-1r was mutated to asp.
+
+conclusions and implications
+glp-1 and  xxxd2076xxx  bind to the ntd of hglp-1r with similar affinity. a hydrogen bond between ser32 of  xxxd2076xxx  and asp-68 of
+rglp-1r, which is not formed with glu-68 of hglp-1r, is responsible for the improved affinity of  xxxd2076xxx  at the rat receptor.
+
+abbreviations
+ xxxd2076xxx ,  xxxd2076xxx ; glp-1,  xxxg873xxx ;  xxxg899xxx ,  xxxg899xxx ; gpcr, g protein-coupled receptors; hglp-1r,
+human  xxxg899xxx ; hntd, n-terminal domain of hglp-1r; ntd, n-terminal domain of  xxxg899xxx ; rglp-1r, rat  xxxg899xxx ;
+rntd, n-terminal domain of rglp-1r
+© 2010 the authors
+journal compilation © 2010 the british pharmacological society
+
+british journal of pharmacology (2010) 160 1973–1984
+
+1973
+
+bjp
+
+rj mann et al.
+
+introduction
+glucagon-like peptide-1 (glp-1) is a 30 amino acid
+‘incretin’ hormone that plays a central role in postprandial insulin release and the subsequent regulation of blood sugar levels (baggio and drucker,
+2007). glp-1 is released from intestinal l-cells in
+response to the ingestion of food, and acts at pancreatic b-cells to potentiate insulin secretion in a
+glucose-dependent manner (kieffer and habener,
+1999; drucker, 2001). it also acts to reduce blood
+glucose by the inhibition of gastric emptying (wettergren et al., 1993), inhibition of glucagon secretion (orskov et al., 1988) and reduction of food
+intake (turton et al., 1996). as such, it is of great
+interest as a pharmaceutical target for the treatment
+of diabetes, with two peptides ( xxxd2495xxx ,  xxxd99xxx ) currently in phase iii clinical trials (knudsen
+et al., 2001; matthews et al., 2008) and another
+(exenatide) already licensed for use as an adjunct
+therapy (defronzo et al., 2005). exenatide is the
+synthetic version of  xxxd2076xxx  ( xxxd2076xxx ), a 39 amino
+acid natural analogue of glp-1 found in the saliva
+of the gila monster (eng et al., 1992; goke et al.,
+1993). it acts as a potent agonist at the  xxxg899xxx  ( xxxg899xxx ) and was developed as an anti-diabetic
+drug due to its much longer half-life in vivo (taylor
+et al., 2002).
+the receptor for glp-1 ( xxxg899xxx ; alexander et al.,
+2009) is a typical ‘family b’ g protein-coupled receptor (gpcr), a family characterized by an extracellular n-terminal domain (ntd) of 100–150 residues
+and a transmembrane domain (j or core domain)
+consisting of seven transmembrane a-helices (mayo
+et al., 2003). the proposed model for agonistinduced activation of  xxxg899xxx  is via a two-step
+mechanism in which the c-terminal helical region
+of the peptide ligand binds to the ntd, while a
+second interaction between the n-terminal residues
+of the ligand and the core region of the receptor
+leads to receptor activation (lopez de maturana
+et al., 2003). while the details of this second interaction are still to be determined, the first interaction
+has been elucidated in detail via the determination
+of the crystal structures of the isolated ntd of
+human  xxxg899xxx  (hglp-1r) bound with either glp-1
+(underwood et al., 2010) or  xxxd2076xxx (9–39) (runge et al.,
+2008). in common with other family b gpcrs, the
+ntd of hglp-1r has an n-terminal a-helix and a
+short consensus repeat stabilized by three conserved
+disulphide bonds (grace et al., 2007; parthier et al.,
+2007; pioszak and xu, 2008; pioszak et al., 2008;
+runge et al., 2008).
+ xxxd2076xxx  is 50% identical with glp-1 with an additional nine-residue c-terminal extension and some
+unusual pharmacological properties that are not
+1974 british journal of pharmacology (2010) 160 1973–1984
+
+shared with glp-1 itself: firstly, it can be truncated
+at its n-terminus by up to eight residues without
+significant loss of affinity at the rat  xxxg899xxx  (rglp1r) (montroserafizadeh et al., 1997); secondly, it
+can maintain high affinity for the isolated ntd of
+the  xxxg899xxx  (lopez de maturana et al., 2003). in previous studies using rglp-1r, we demonstrated that
+the nine-residue c-terminal extension of  xxxd2076xxx , which
+is absent in glp-1, enhanced the peptide’s affinity
+via an interaction with the ntd of the receptor
+(al-sabah and donnelly, 2003a; lopez de maturana
+et al., 2003). we suggested that this extra ‘ex’ interaction was the reason for the higher affinity of  xxxd2076xxx 
+over glp-1 for the ntd and also the reason why
+ xxxd2076xxx , but not glp-1, could be truncated at its
+n-terminus without significant loss of affinity at
+rglp-1r. as the c-terminal region of the peptide
+had been shown via nmr to form a unique fold
+called a ‘trp-cage’ (neidigh et al., 2001), we had
+speculated (although not demonstrated) that this
+structural motif may be the basis for the ‘ex’ interaction (al-sabah and donnelly, 2003a).
+a comparison of the crystal structures of the isolated ntd of hglp-1r bound with either glp-1 or
+ xxxd2076xxx (9–39) (runge et al., 2008; underwood et al.,
+2010) has shown that both peptides share a remarkably similar binding mode, despite the large difference in affinity displayed by these peptides at this
+isolated domain. furthermore, the structure of
+ xxxd2076xxx (9–39) bound to the isolated ntd showed no
+trp-cage motif and very limited interaction between
+the nine-residue c-terminal extension and the
+receptor. moreover, a combination of pharmacological and biophysical approaches demonstrated that
+the removal of the c-terminal extension of  xxxd2076xxx  had
+no effect upon binding to hglp-1r (runge et al.,
+2007). given these apparently contradictory outcomes, we have carried out a detailed pharmacological study of the role of the ntd of  xxxg899xxx  in
+binding glp-1,  xxxd2076xxx  and  xxxd2076xxx (9–39). using modified
+and truncated receptors and ligands, we describe
+a model for the interaction of the peptides with
+the receptor that is consistent with the available
+structural data, but also accounts for the observed
+pharmacology.
+
+methods
+constructs
+the pcdna3 vector (invitrogen, paisley, uk) containing the full-length rglp-1r cdna (lopez de
+maturana and donnelly, 2002), and pcdna5-frt
+(invitrogen) containing the cdna encoding the fulllength hglp-1r (gift from astrazeneca, macclesfield, cheshire, uk), were used to express the
+
+peptide binding at the  xxxg899xxx 
+
+full-length receptors. the cdna encoding amino
+acids met1-asn177 (ntd, including signal
+sequence, and first transmembrane helix of the
+rglp-1r followed by a stop codon, named rnt-tm1)
+was synthesized by pcr, using the pcdna3 vector
+containing the full-length rglp-1r cdna as a template. the forward and reverse oligonucleotides
+incorporated the hindiii and xhoi recognition sites,
+respectively, to facilitate insertion into the pcdna3
+expression vector. the analogous hglp-1r construct was synthesized by pcr amplification of the
+cdna encoding the equivalent region of the human
+receptor and inserted into the pcdna3 vector. all
+other mutated full-length receptors were generated
+using quikchange site-directed mutagenesis (stratagene, la jolla, ca, usa), and confirmed by dna
+sequencing. these constructs were used to express
+the wild-type, truncated and mutant glp-1rs in
+human embryonic kidney (hek)-293 cells. the
+soluble ntd of rglp-1r (rntd) was expressed in
+escherichia coli from a construct containing the
+cdna encoding residues a21-e127, followed by a
+stop codon, inserted via the bamhi and hindiii sites
+of the plasmid pqe-30 (qiagen ltd, crawley, uk) as
+described previously (lopez de maturana et al.,
+2003).
+
+protein expression and cell culture
+the soluble rntd was expressed in e. coli, purified
+and refolded exactly as we have described previously
+(lopez de maturana et al., 2003). the hek-293
+cells were cultured in dulbecco’s modified eagle’s
+medium (sigma, poole, uk) supplemented with
+10% fetal calf serum (lonza wokingham ltd, wokingham, uk), 2 mm l-glutamine, 100 u· xxxg1167xxx  penicillin and 100 mg· xxxg1167xxx  streptomycin (invitrogen).
+cells were transfected with plasmid containing the
+cdna encoding the receptors, using the superfect
+transfection reagent (qiagen ltd), and stable clones
+were selected as described previously (al-sabah and
+donnelly, 2003b).
+
+peptides
+glp-1(7-36)amide (called glp-1 throughout),  xxxd2076xxx 
+and  xxxd2076xxx (9–39) were purchased from bachem
+(saffron walden, essex, uk). ser32– xxxd2076xxx (9–39),
+ser33– xxxd2076xxx (9–39) and  xxxd2076xxx (9–30) were custom synthesized by genosphere biotechnologies (paris,
+france). the radioligand [125i]-exendin(9–39) was
+from perkinelmer life and analytical sciences
+(waltham, ma, usa).
+
+radioligand binding using
+hek-293 membranes
+hek-293 cells, cultured to confluence on five
+160 cm2 petri dishes (pre-coated with poly-d-lysine),
+
+bjp
+
+were washed with pbs, followed by the addition of
+15 ml of ice-cold sterile double distilled water to
+induce cell lysis. following 5 min incubation on ice,
+the ruptured cells were thoroughly washed with icecold pbs before being scraped from the plates and
+pelleted by centrifugation in a bench-top centrifuge
+(13 000¥ g for 30 min). the crude membrane pellet
+was resuspended in 1 ml membrane binding solution [mbs; 25 mm hepes (ph 7.4), 2.5 mm cacl2,
+1 mm mgcl2, 50 mg·l-1 bacitracin) and forced
+through a 23g needle; 0.1 ml aliquots were snapfrozen in liquid nitrogen and stored at -70°c. membranes were slowly thawed on ice before being
+diluted to a concentration that gave total radioligand binding of <10% total counts added. in a reaction volume of 200 ml, 75 pm [125i]-exendin(9–39),
+various concentrations of an unlabelled competitor
+ligand and hek-293 membranes expressing the
+receptor of interest were combined, all diluted
+appropriately in mbs. assays were carried out for
+1 h at room temperature in multiscreen 96-well filtration plates (glass fibre filters, 0.65 mm pore size,
+millipore, bedford, ma, usa) pre-soaked in 1%
+non-fat milk/pbs. after the incubation, membraneassociated radioligand was harvested by transferring
+the assay mixture to the filtration plate housed
+in a vacuum manifold. the wells of the filtration
+plate were washed three times with 0.2 ml pbs
+before harvesting the filter discs. radioactivity was
+measured in a g counter (riastar 5405 counter;
+perkinelmer life and analytical sciences). total
+radioligand bound was <10%, and non-specific
+binding was ~1% of total counts added.
+
+radioligand binding using soluble rntd
+in a reaction volume of 300 ml, [125i]-exendin(9–39)
+(50 pm), various concentrations of unlabelled competitor ligand and rntd, diluted appropriately in
+mbs, were combined in 0.5 ml microfuge tubes.
+following incubation for 1 h at room temperature,
+the hexa-histidine-tagged rntd was separated from
+free radioligand by the addition of 40 ml of nickel–
+ xxxd2739xxx  agarose resin (qiagen ltd.;
+ni-nta). following mixing, the resin was allowed to
+incubate with the rntd for 30 min before the addition of 100 ml of a phthalate oil mixture (2:1 ratio of
+dibutyl phthalate to diisononyl phthalate, sigmaaldrich, st louis, mo, usa). the tubes were centrifuged so that the oil formed a layer in-between the
+resin–rntd complex and the free radioligand. the
+tubes were frozen on dry ice, the pellets isolated by
+cutting off the bottom of the tubes and the radioactivity counted as above. the concentration of rntd
+used for the experiments was determined empirically such that it gave total radioligand binding of
+<10% of the total counts added.
+british journal of pharmacology (2010) 160 1973–1984
+
+1975
+
+bjp
+
+rj mann et al.
+
+data analysis
+binding curves in the figures represent one of at
+least three independent experiments for which each
+point is the mean of triplicate values with sem displayed as error bars. counts were normalized to the
+maximal specific binding within each data set. ic50
+values were calculated with a single site binding
+model fitted using non-linear regression with the
+aid of graphpad prism 5 software (san diego, ca,
+usa). values in the tables represent the mean with
+sem calculated from the pic50 values (–log ic50)
+from at least three independent experiments. statistical significance was calculated using student’s
+unpaired t-test with threshold values quoted in the
+text and tables.
+
+molecular modelling and dynamics
+the crystal structure of the ntd of hglp-1r bound
+with  xxxd2076xxx (9–39) (runge et al., 2008; protein data
+bank code 3c5t) was used as the starting structure.
+in order to explore the stability of the putative trpcage and the possibility that it interacts with the
+receptor, this region of the ligand had to be modelled because residues 34*–39* (ligand residues will
+be identified with an asterisk throughout) were disordered in the crystal structure. the trp-cage structure was built with the aid of sybyl v6.3 (tripos
+associates, st louis, mo, usa) using the  xxxd2076xxx  nmr
+structure (neidigh et al., 2001; protein data bank
+code 1jrj) by least square superposition of the
+ligands followed by the replacement of the
+c-terminal residues of 3c5t with those of 1jrj. as
+noted previously, the structures of the two ligand
+structures are highly compatible, making this modelling stage straightforward (runge et al., 2008). in
+silico mutagenesis of glu68 was carried out using the
+mutagenesis option within sybyl v6.3. molecular
+dynamics simulations of ntd of hglp-1r bound
+with  xxxd2076xxx (9–39) and the e68d mutant were per-
+
+formed using the united atom model charmm19
+with the implicit solvation model facts (haberthur
+and caflisch, 2008) implemented in charmm
+(brooks et al., 2009). simulations were performed
+starting from the conformations described above
+after a brief energy minimization; simulations were
+performed at 300k using langevin dynamics, an
+integration time step of 2 ns, and were at least
+100 ns long.
+
+results
+competition radioligand binding experiments were
+carried out using [125i]-exendin(9–39) as the tracer
+and various unlabelled peptides as competitor
+ligands. from these experiments, ic50 values were
+obtained and used as an approximation of binding
+affinity. the two natural peptides glp-1 and  xxxd2076xxx 
+bind to hglp-1r with similar affinity (table 1,
+twofold, p = 0.43), whereas rglp-1r has a small, but
+significant preference for  xxxd2076xxx  (table 1, fivefold, p <
+0.005). while the membrane-tethered ntd of
+hglp-1r (hnt-tm1) displayed only eightfold preference (p = 0.002) for  xxxd2076xxx  over glp-1, there was
+almost 25-fold selectivity (p < 0.001) observed at the
+rat equivalent (rnt-tm1), and this selectivity was
+increased to 200-fold at the fully soluble/isolated
+rntd (p < 0.001).
+the importance of the c-terminal extension of
+ xxxd2076xxx (9–39) for binding to either rglp-1r or hglp-1r
+was investigated by comparing  xxxd2076xxx (9–39) with
+ xxxd2076xxx (9–30). the absence of these nine c-terminal
+residues was shown to have no significant effect on
+binding to hglp-1r (twofold reduction in affinity),
+whereas it resulted in a 28-fold reduction in affinity
+at rglp-1r (figure 1a,b; table 1). receptors consisting of the ntd of either the rat or human receptor
+anchored in the membrane with transmembrane
+
+table 1
+binding properties of the rat and hglp-1rs, and truncated receptors lacking all or most of their core domain
+
+glp-1
+
+ xxxd2076xxx 
+
+rglp-1r
+
+8.4 ⫾ 0.10
+
+9.1 ⫾ 0.08
+
+rnt-tm1
+
+d1
+
+ xxxd2076xxx (9–39)
+
+ xxxd2076xxx (9–30)
+
+d2
+
+5
+
+8.1 ⫾ 0.06
+
+6.7 ⫾ 0.08a
+
+28
+
+6.9 ⫾ 0.05
+
+8.3 ⫾ 0.01
+
+a
+
+25
+
+8.1 ⫾ 0.10
+
+6.6 ⫾ 0.07a
+
+35
+
+rntd
+
+6.4 ⫾ 0.15
+
+8.7 ⫾ 0.03a
+
+200
+
+7.9 ⫾ 0.12
+
+6.4 ⫾ 0.11a
+
+32
+
+hglp-1r
+
+8.7 ⫾ 0.07
+
+8.9 ⫾ 0.06
+
+2
+
+8.1 ⫾ 0.06
+
+7.8 ⫾ 0.07
+
+2
+
+hnt-tm1
+
+6.8 ⫾ 0.07
+
+7.7 ⫾ 0.02
+
+8
+
+7.4 ⫾ 0.10
+
+6.9 ⫾ 0.11
+
+3
+
+significantly different from the value in the cell to the left (p < 0.001).
+values represent mean pic50 values ⫾ se for three independent competition binding assays using  xxxd2076xxx (9–39) and  xxxd2076xxx (9–30) as the unlabelled
+ligands with 125i- xxxd2076xxx (9–39) as the tracer. d1 refers to the fold change in mean ic50 values of glp-1 relative to  xxxd2076xxx , while d2 to the fold change
+in mean ic50 values of  xxxd2076xxx (9–30) relative to  xxxd2076xxx (9–39).
+a
+
+1976 british journal of pharmacology (2010) 160 1973–1984
+
+peptide binding at the  xxxg899xxx 
+
+bjp
+
+figure 1
+competition radioligand binding experiments using [125i]- xxxd2076xxx (9–39) as the tracer and either  xxxd2076xxx (9–39) or  xxxd2076xxx (9–30) as the competing ligands,
+at (a) hglp-1r, (b) rglp-1r, (c) hnt-tm1 and (d) rnt-tm1. the panels each represent a typical example of one of three independent
+experiments. the receptors derived from rat are highly sensitive to the removal of the c-terminal extension of  xxxd2076xxx , while those from human
+are not.
+
+helix 1 (rnt-tm1 and hnt-tm1) were also tested for
+their sensitivity to the removal of the c-terminal
+extension (figure 1c,d; table 1). these mirrored the
+effects observed at the full-length receptors (threefold reduction in affinity at hnt-tm1 and 35-fold at
+rnt-tm1), indicating that residues 31*–39* (ligand
+residues will be identified with an asterisk throughout) of  xxxd2076xxx (9–39) interact with the ntd of rglp-1r.
+moreover, the fully isolated/soluble rntd also
+displayed a 32-fold selectivity for  xxxd2076xxx (9–39) over
+ xxxd2076xxx (9–30).
+to investigate whether the contribution to affinity made by residues 31*–39* at rglp-1r was due to
+the formation of a trp-cage motif, competition
+binding was carried out using ala33– xxxd2076xxx (9–39) as
+the competing ligand. the study of mini-proteins
+via nmr has shown that ser-33* is essential for
+
+trp-cage formation due to a hydrogen bond made
+by the serine side chain (barua et al., 2008), and
+therefore the removal of the hydroxyl moiety
+would be expected to prevent the formation of this
+motif. however, this modified peptide ligand bound
+to rglp-1r with similar affinity to  xxxd2076xxx (9–39)
+(figure 2).
+in contrast, removal of the hydroxyl group from
+ser-32* had a pronounced effect, with ala32– xxxd2076xxx (9–
+39) displaying a similar reduction in affinity relative
+to  xxxd2076xxx (9–39), as had been seen for  xxxd2076xxx (9–30) (21fold and 28-fold, respectively; figure 2 and table 2).
+the mutation of asp68 to glu in rglp-1r
+resulted in a receptor that was no longer affected by
+removal of the c-terminal nine residues of  xxxd2076xxx (9–
+39) (threefold reduction in affinity; table 2) or by
+the replacement of ser-32* with ala in  xxxd2076xxx (9–39)
+british journal of pharmacology (2010) 160 1973–1984
+
+1977
+
+bjp
+
+rj mann et al.
+
+(twofold reduction in affinity; figure 3a and
+table 2). likewise, asp68–ala in rglp-1r was also
+insensitive to either c-terminal truncation of  xxxd2076xxx (9–
+39) (fourfold) or by the removal of the side chain
+hydroxyl at residue 32* (twofold decrease in affinity
+of ala32– xxxd2076xxx (9–39) relative to  xxxd2076xxx (9–39); figure 3b
+and table 2). conversely, mutation of glu68 to asp
+in hglp-1r caused the receptor to become sensitive
+both to n-terminal deletion (21-fold reduction in
+affinity; table 2), as well as to the replacement of
+
+ser32* by ala in  xxxd2076xxx (9–39) (16-fold reduction in
+affinity; table 2 and figure 4).
+in order to interpret the data described above
+and to investigate the nature of the receptor–
+ligand interaction in more detail, long equilibrium
+molecular dynamics simulations of ntd of
+hglp-1r and the e68d mutant bound with  xxxd2076xxx (9–
+39) were carried out as described in methods.
+figure 5 (upper panel) shows a histogram of the
+distance between the side chain oxygen of ser32*
+of  xxxd2076xxx (9–39) and the carboxyl group of glu68 of
+hglp-1r; this has a small peak at an optimum distance for hydrogen bond formation (~3 å). it can
+be seen at the wild-type hglp-1r that, despite a
+hydrogen bond being present in the starting structure, there is a low probability that a hydrogen
+bonding distance can be maintained (a snapshot of
+this low-frequency event is shown in figure 6a).
+instead, the atoms spend most of their time bent
+away at a distance too great for a hydrogen bond
+(figure 6b). however, when glu68 is mutated to
+asp, there is a much greater probability of the
+atoms being at an ideal distance to form a hydrogen bond (figure 5, lower panel). this situation is
+illustrated in figure 6c.
+
+discussion
+figure 2
+competition radioligand binding experiments at the rglp-1r using
+[125i]- xxxd2076xxx (9–39) as the tracer and either  xxxd2076xxx (9–39),  xxxd2076xxx (9–30), ala32ex4(9–39) or ala33- xxxd2076xxx (9–39) as the competing ligands. note that
+the curves for  xxxd2076xxx (9–39) and ala33( xxxd2076xxx (9–39) are overlaid. curves
+represent a typical example of one of three independent experiments. mean pic50 for ala33– xxxd2076xxx (9–39) is 8.01 ⫾ 0.14 (n = 3); see
+table 2 for other pic50 values. disruption of the putative trp-cage, via
+removal of the side chain hydroxyl of ser-33*, had no effect upon
+ xxxd2076xxx (9–39) affinity, whereas removal of the ser-32* hydroxyl reduces
+the affinity to that of the c-terminally truncated peptide.
+
+the crystal structure of the ntd of hglp-1r and
+ xxxd2076xxx (9–39) shows that the ligand forms an a-helix
+from residues leu-10*–asn-28*, but that only glu15* to asn-28* actually contacts the ntd (runge
+et al., 2008). likewise, the recent structure of glp-1
+bound to the ntd of hglp-1r shows that glp-1
+forms an a-helix from thr-13* to val-33*, with only
+ala-24*–val-33* contacting the ntd (neidigh et al.,
+2001; underwood et al., 2010). the binding sites of
+ xxxd2076xxx  and glp-1 are remarkably similar, and,
+
+table 2
+binding properties of mutant and wild-type  xxxg899xxx 
+
+ xxxd2076xxx (9–39)
+
+ xxxd2076xxx (9–30)
+
+ala32– xxxd2076xxx (9–39)
+
+d2
+
+d3
+
+rglp-1r
+
+8.1 ⫾ 0.06
+
+6.7 ⫾ 0.08a
+
+6.9 ⫾ 0.08a
+
+28
+
+21
+
+rglp-1r d68e
+
+7.8 ⫾ 0.08
+
+7.4 ⫾ 0.09
+
+7.4 ⫾ 0.14
+
+3
+
+2
+
+rglp-1r d68a
+
+8.6 ⫾ 0.05
+
+8.0 ⫾ 0.06
+
+8.2 ⫾ 0.06
+
+4
+
+2
+
+hglp-1r
+
+8.1 ⫾ 0.06
+
+7.8 ⫾ 0.07
+
+7.7 ⫾ 0.14
+
+2
+
+2
+
+hglp1r e68d
+
+8.2 ⫾ 0.02
+
+6.9 ⫾ 0.01a
+
+7.0 ⫾ 0.03a
+
+21
+
+16
+
+significantly different (p < 0.0005) compared to  xxxd2076xxx (9–39).
+values represent mean pic50 values ⫾ se for three independent competition binding assays using  xxxd2076xxx (9–39),  xxxd2076xxx (9–30) and ala32– xxxd2076xxx (9–39)
+as the unlabelled ligands with 125i- xxxd2076xxx (9–39) as the tracer. d2 refers to the fold change in mean ic50 values of  xxxd2076xxx (9–30) relative to  xxxd2076xxx (9–39),
+and d3 refers to the fold change in mean ic50 values of ala32– xxxd2076xxx (9–39) relative to  xxxd2076xxx (9–39).
+a
+
+1978 british journal of pharmacology (2010) 160 1973–1984
+
+peptide binding at the  xxxg899xxx 
+
+bjp
+
+figure 4
+
+figure 3
+125
+
+competition radioligand binding experiments using [ i]- xxxd2076xxx (9–39)
+as the tracer and either  xxxd2076xxx (9–39) or ala32– xxxd2076xxx (9–39) as the competing ligands at (a) rglp-1r asp68–glu and (b) rglp-1r asp68–ala.
+curves represent a typical example of one of three independent
+experiments. removal of the hydrogen-bonding capability of asp68
+by replacing it with ala abolishes the ability of rglp-1r to select
+between the two ligands (compare with figure 1b). the ability to
+select between the peptides is also absent in the asp68–glu mutant,
+suggesting that the  xxxd2431xxx  side chain cannot interact with
+ser-32*.
+
+although the a-helix of glp-1 is kinked relative to
+that of  xxxd2076xxx (9–39), this occurs at gly-22* in a region
+that does not contact the ntd (neidigh et al., 2001;
+underwood et al., 2010). the crystal structures do
+not appear to explain why  xxxd2076xxx  has such enhanced
+affinity for this fully isolated/soluble ntd compared
+with glp-1 (187- to 400-fold; lopez de maturana
+
+competition radioligand binding experiments using [125i]- xxxd2076xxx (9–39)
+as the tracer and either  xxxd2076xxx (9–39) (circles) or ala32– xxxd2076xxx (9–39) (triangles) as the competing ligands at (a) hglp-1r and (b) hglp-1r
+glu68–asp. the panels each represent a typical example of one of
+three independent experiments. the replacement of the native
+glutamate in hglp-1r with asp confers the ability to select between
+ xxxd2076xxx (9–39) and ala32–ex(9–39).
+
+et al., 2003; runge et al., 2007), and indeed a
+mutagenic analysis of the peptide binding site failed
+to locate a specific interaction that accounts for this
+large affinity difference, but rather identified a more
+subtle sevenfold differential affinity (underwood
+et al., 2010). this was in keeping with the conclusions of a detailed biophysical study which demonstrated that it is the higher helical propensity of  xxxd2076xxx 
+compared with glp-1 that was responsible for its
+enhanced affinity at the isolated ntd (runge et al.,
+2007).
+british journal of pharmacology (2010) 160 1973–1984
+
+1979
+
+bjp
+
+rj mann et al.
+
+figure 5
+histogram chart showing calculations from molecular dynamics
+simulations showing the probability (normalized so that the integral
+between 0 and infinity is 1) that the side chain oxygen of ser-32* of
+ xxxd2076xxx (9–39) and the closest side chain oxygen of asp/glu68 of  xxxg899xxx 
+are at a given distance. a peak at 3 å indicates the atoms are at an
+ideal distance for hydrogen bond formation to occur. upper panel:
+probabilities of distances between atoms of ser-32* in  xxxd2076xxx (9–39) and
+glu68 in  xxxg899xxx . lower panel: probabilities of distances between
+atoms of ser32* in  xxxd2076xxx (9–39) and asp68 in  xxxg899xxx .
+
+here, we demonstrate a surprising observation
+showing that the large difference in affinity between
+glp-1 and  xxxd2076xxx  observed at the isolated ntd of
+hglp-1r was almost absent at the membranetethered hnt-tm1 (eightfold; table 1). this similarity in binding affinity is in agreement with the
+binding data resulting from the mutagenic analysis
+of reedtz-runge and co-workers, which implies that
+ xxxd2076xxx  makes only minor additional interactions with
+the ntd of hglp-1r relative to glp-1 (underwood
+et al., 2010). however, the data appear to conflict
+with the binding data at the fully isolated ntd, and
+therefore, in order to explain these apparently
+conflicting observations, we propose a modified
+peptide/receptor binding model (figure 7). while
+the 200-fold difference in affinity between glp-1
+and  xxxd2076xxx  at rglp-1r was substantially reduced at
+rnt-tm1 (25-fold), there nevertheless still remained
+a significant difference between the affinities of the
+two peptides (table 1). we have described this
+observation previously and have accounted for it
+by defining an extra ‘ex’ interaction between  xxxd2076xxx 
+and the ntd of rglp-1r, which we localized to
+the c-terminal extension of  xxxd2076xxx  (asterisk in
+figure 7a–c; al-sabah and donnelly, 2003a). this
+‘ex’ interaction also accounts for the ~30-fold
+difference between the affinities of  xxxd2076xxx (9–39) and
+ xxxd2076xxx (9–30) observed at both the isolated rntd and
+rnt-tm1 (table 2; al-sabah and donnelly, 2003a).
+the modest affinity enhancement that  xxxd2076xxx  attains
+over glp-1 as a result of the ‘ex’ interaction with
+1980 british journal of pharmacology (2010) 160 1973–1984
+
+rglp-1r is physiologically relevant and should not
+be confused with the larger affinity difference
+observed at the isolated ntd, which results from the
+low helical propensity of glp-1 in this artificial
+receptor-binding environment.
+however, in contrast to these observations at
+the rat receptor, the deletion of the c-terminal
+extension from  xxxd2076xxx (9–39) had a minimal effect on
+binding affinity at either the full-length hglp-1r
+or the membrane-tethered hnt-tm1 (table 1;
+figure 1a,c), in agreement with data obtained
+using the fully isolated soluble hntd (runge et al.,
+2007). further evidence for the absence of a role
+for the c-terminal extension of  xxxd2076xxx  in binding
+came from the crystal structure of  xxxd2076xxx (9–39)
+bound to the soluble ntd of hglp-1r, which
+showed that residues 34*–39* of  xxxd2076xxx (9–39) were
+disordered and did not contact the receptor (runge
+et al., 2008). given these data, it would appear
+that the extra nine residues that make up the
+c-terminal extension of  xxxd2076xxx  enhance the affinity
+for rglp1r, but play little or no role in generating
+affinity for the human receptor.
+as the c-terminal extension of  xxxd2076xxx  has been
+shown to form part of a trp-cage motif in some
+environments (neidigh et al., 2001), it is feasible
+that this structure could play a role in enhancing
+the affinity of the peptide at rglp-1r. trp-cage formation is dependent upon a number of sequencedependent features, one of which is the presence of
+the hydroxyl side chain of ser-33* which forms an
+intra-molecular hydrogen bond (barua et al., 2008).
+therefore, in order to examine the putative role of
+the trp-cage in enhancing the affinity of  xxxd2076xxx (9–39),
+we substituted ser-33* with ala, preventing the
+intra-molecular hydrogen bond and hence disrupting trp-cage formation. however, this substitution
+had no effect upon the peptide’s affinity at rglp-1r
+(figure 2). hence, it is clear that our earlier speculation was wrong because neither the putative trpcage motif nor the hydroxyl side chain of ser-33* is
+responsible for the observed affinity enhancement
+mediated by residues 31*–39*. these data were substantiated in our molecular dynamics simulations
+where the trp-cage motif included in the starting
+conformation was observed to unfold early in the
+simulation (data not shown).
+in order to explain how the c-terminal extension
+of  xxxd2076xxx (9–39) generates affinity for rglp-1r, but not
+hglp-1r, the species-specific residues in the vicinity
+of the binding site of this region of the peptide were
+identified from the crystal structure (runge et al.,
+2008). in fact, only glu68 (asp-68 in rglp-1r)
+appeared to be capable of interacting with the
+c-terminal region of  xxxd2076xxx (9–39) via an interaction
+with ser-32*. the replacement of ser-32* with ala in
+
+peptide binding at the  xxxg899xxx 
+
+bjp
+
+figure 6
+ribbon diagrams illustrating snapshots of the structure of  xxxd2076xxx (9–39) bound to hglp-1r taken from different points during molecular dynamics
+simulations.  xxxd2076xxx (9–39) is shown in green,  xxxg899xxx  is shown in orange and the atoms of ser32* of  xxxd2076xxx (9–39) and glu/asp68 from  xxxg899xxx  are shown
+as ball and sticks coloured by atom type. hydrogen bond formation between these groups is indicated (see boxed panels for close-up views). in
+the wild-type hglp-1r, ser32* and glu68 spend a relatively short amount of time at a hydrogen bonding distance, for example, (a) while, instead,
+the majority of time is spent over 4 å apart, for example, (b), a distance too great to allow a hydrogen bond. in glu68–asp hglp-1r, ser32* and
+asp68 have a high probability of forming a distance ideal for hydrogen bond formation, for example (c).
+
+ xxxd2076xxx (9–39) reduced affinity at rglp-1r to a similar
+extent as the deletion of the entire c-terminal
+region of the peptide (table 2; figure 2), and it
+may be concluded therefore that the hydroxyl side
+chain of this residue is responsible for the enhanced
+affinity at rglp-1r caused by the presence of the
+c-terminal extension.
+although the crystal structure shows that glu-68
+forms a hydrogen bond with ser-32* of the ligand,
+the authors imply that this assignment was tentative due to the increasing b-factors at the c-terminal
+end of the ligand. indeed, our molecular dynamic
+simulations demonstrated that this interaction
+was transient and unlikely to generate affinity
+(figure 5a), and we confirmed this experimentally
+by the disruption of this interaction via the replacement of ser-32* with ala in  xxxd2076xxx (9–39), which had
+no effect on the peptide’s affinity at hglp-1r
+(table 2; figure 4a).
+on the other hand, the molecular dynamic simulations using the hglp-1r mutant glu-68–asp (generated in silico) bound with  xxxd2076xxx (9–39), predicted a
+much more stable interaction via a hydrogen bond
+between the asp-68 side chain and the hydroxyl
+group of ser-32*. it would therefore be expected that
+the removal of the hydroxyl from ser-32* would
+manifest as a reduction in binding affinity and, once
+
+again, this was confirmed experimentally (table 2;
+figure 4b). indeed, despite the subtle change at only
+one side chain, the glu-68–asp mutation at
+hglp-1r conferred pharmacological selectivity that
+closely resembled that observed at rglp-1r, presumably by enabling the ‘ex’ interaction to form.
+to confirm the importance of the asp-68–ser-32*
+interaction between rglp-1r and  xxxd2076xxx (9–39), this
+residue was mutated to either glu or ala. the asp68–ala mutation would result in a side chain that
+cannot hydrogen bond with ser-32*, and indeed
+this mutant receptor was insensitive to the removal
+of the serine hydroxyl of  xxxd2076xxx (9–39) or the truncation of residues 31*–39* (table 2; figure 3b). moreover, despite its theoretical ability to form an
+interaction resembling asp-68, the sensitivity of the
+asp-68–glu mutant to the removal of the ser32*
+hydroxyl closely resembled that of the asp-68–ala
+mutant, indicating that no stable interaction
+between glu68 and ser-32* was formed. while the
+mutations at asp-68 abolished the selectivity
+between  xxxd2076xxx (9–39) and ala32– xxxd2076xxx (9–39), both
+mutants bound the peptides with higher affinity
+than expected, suggesting the possibility that conformational changes in the protein structure may
+enhance interactions with other regions of the
+peptide. while mutations often result in such unexbritish journal of pharmacology (2010) 160 1973–1984
+
+1981
+
+bjp
+
+rj mann et al.
+
+figure 7
+a model for the binding of  xxxd2076xxx  (left panels, a–c) and glp-1 (right panels, d–f) to either the fully isolated/soluble ntd of  xxxg899xxx  expressed in
+escherichia coli (a, d), the isolated ntd tethered to the membrane, expressed in hek-293 cells (nt-tm1, b and e) or the full-length receptor
+expressed in hek-293 cells (c, f). the helical structure of the peptide ligands is critical for their high-affinity interaction with the ntd via the ‘h’
+interaction. (a) a cartoon representation of the binding of  xxxd2076xxx  (helix) with the isolated ntd of  xxxg899xxx  based on the crystal structure. the
+c-terminal half of the peptide interacts with the ntd, while the high helical propensity of  xxxd2076xxx  enables its helical structure to remain intact, despite
+the absence of interactions with the n-terminal region of the ligand. however, the binding of glp-1 with the isolated ntd of  xxxg899xxx  occurs with
+much lower affinity because the lower helical propensity of glp-1, coupled with the absence of interactions with the n-terminal region of the
+ligand, results in the more frequent unwinding of the helix, loss of the ‘h’ interaction and consequent dissociation of the ligand (d). hence, there
+is a large affinity difference between  xxxd2076xxx  and glp-1 at the isolated ntd (200- to 400-fold), which reflects the difference in helical propensity rather
+than the relative strength of the ‘h’ interaction. however, the two ligands bind with much more similar affinity to the isolated ntd tethered to
+the plasma membrane (b, e). we speculate that this is due to the close proximity of the membrane, which stabilizes the n-terminal region of
+glp-1, eliminating the difference in helical propensity, and thus enabling the c-terminal helix to remain intact and interact with the ntd. the
+addition of the core domain of the receptor (c, f) results in additional interactions with the n-terminal region of the ligands, the ‘n’ interaction,
+which is stronger for glp-1 than for  xxxd2076xxx . a third interaction, termed ‘ex’ (white asterisk), represents a specific interaction between ser-32* in the
+c-terminal region of  xxxd2076xxx  and the ntd of rglp-1r.
+
+pected observations, we have found previously that
+the difference in the affinities of two very similar
+ligands at the same receptor is highly diagnostic
+for identifying ligand–receptor interactions (mann
+et al., 2008; pioszak et al. 2009). taken with the data
+from the pharmacological and dynamics analyses of
+hglp-1r, it can be concluded that a  xxxd2431xxx 
+side chain at residue 68 of  xxxg899xxx  cannot form a
+stable hydrogen bond with ser-32* of the peptide
+ligand, and therefore does not contribute to the
+affinity of the peptide.
+in summary, we have identified a specific interaction between rglp-1r and the c-terminal extension of  xxxd2076xxx (9–39). rather than being formed via the
+putative trp-cage of the peptide ligand, it is most
+likely to be the result of a hydrogen bond formed
+1982 british journal of pharmacology (2010) 160 1973–1984
+
+between the side chains of asp-68 and ser-32*. this
+interaction improves the affinity of the peptide by
+20- to 30-fold, and accounts for the ‘ex’ interaction
+which we had observed previously (al-sabah and
+donnelly, 2003a). this ‘ex’ interaction is responsible for the insensitivity of  xxxd2076xxx  to n-terminal truncation at rglp-1r (montroserafizadeh et al., 1997)
+and for the high affinity of  xxxd2076xxx  for the membranetethered ntd of rglp-1r. furthermore, the absence
+of the ‘ex’ interaction in  xxxd2076xxx  binding to hglp-1r
+results in a much more modest  xxxd2076xxx /glp-1 differential affinity, while the much larger differential
+affinity observed at the fully isolated ntd is independent of the ‘ex’ interaction and derives from the
+absence of a stabilizing interaction with the
+n-terminal half of glp-1.
+
+peptide binding at the  xxxg899xxx 
+
+bjp
+
+acknowledgements
+
+receptor in complex with a peptide ligand. proc natl
+acad sci usa 104: 4858–4863.
+
+we thank bbsrc, astrazeneca and the egyptian
+government for funding.
+
+haberthur u, caflisch a (2008). facts: fast analytical
+continuum treatment of solvation. j comput chem 29:
+701–715.
+
+conflict of interest
+
+kieffer tj, habener jl (1999). the glucagon-like
+peptides. endocr rev 20: 876–913.
+
+none to declare.
+
+references
+
+knudsen lb, agerso h, bjenning c, bregenholt s,
+carr rd, godtfredsen c et al. (2001). glp-1 derivatives
+as novel compounds for the treatment of type 2
+diabetes: selection of  xxxd2495xxx  for clinical development.
+drugs future 26: 677–685.
+
+al-sabah s, donnelly d (2003a). a model for
+receptor-peptide binding at the glucagon-like peptide-1
+(glp-1) receptor through the analysis of truncated
+ligands and receptors. br j pharmacol 140: 339–346.
+
+lopez de maturana r, donnelly d (2002). the
+glucagon-like peptide-1 receptor binding site for the
+n-terminus of glp-1 requires polarity at asp198 rather
+than negative charge. febs lett 530: 244–248.
+
+al-sabah s, donnelly d (2003b). the positive charge at
+lys-288 of the glucagon-like peptide-1 (glp-1) receptor
+is important for binding the n-terminus of peptide
+agonists. febs lett 553: 342–346.
+alexander sph, mathie a, peters ja (2009). guide to
+receptors and channels (grac), 4th edition. br j
+pharmacol 158: s1–s239.
+baggio ll, drucker dj (2007). biology of incretins:
+glp-1 and gip. gastroenterology 132: 2131–2157.
+barua b, lin jc, williams vd, kummler p, neidigh jw,
+andersen nh (2008). the trp-cage: optimizing the
+stability of a globular miniprotein. protein eng des sel
+21: 171–185.
+brooks br, brooks cl, mackerell iiiad jr, nilsson l,
+petrella rj, roux b et al. (2009). charmm: the
+biomolecular simulation program. j comput chem 30:
+1545–1614.
+defronzo ra, ratner re, han j, kim dd, fineman ms,
+baron ad (2005). effects of exenatide ( xxxd2076xxx ) on
+glycemic control and weight over 30 weeks in
+metformin-treated patients with type 2 diabetes.
+diabetes care 28: 1092–1100.
+drucker dj (2001). minireview: the glucagon-like
+peptides. endocrinology 142: 521–527.
+eng j, kleinman wa, singh l, singh g, raufman jp
+(1992). isolation and characterization of  xxxd2076xxx , an
+exendin-3 analog, from heloderma-suspectum venom –
+further evidence for an exendin receptor on dispersed
+acini from guinea-pig pancreas. j biol chem 267:
+7402–7405.
+goke r, fehmann hc, linn t, schmidt h, krause m,
+eng j et al. (1993).  xxxd2076xxx  is a high potency agonist
+and truncated exendin-(9–39)-amide an antagonist at
+the  xxxg873xxx -(7–36)-amide receptor of
+insulin-secreting beta-cells. j biol chem 268:
+19650–19655.
+grace crr, perrin mh, gulyas j, digruccio mr,
+cantle jp, rivier je et al. (2007). structure of the
+n-terminal domain of a type b1 g protein-coupled
+
+lopez de maturana r, willshaw a, kuntzsch a,
+rudolph r, donnelly d (2003). the isolated n-terminal
+domain of the glucagon-like peptide-1 (glp-1) receptor
+binds exendin peptides with much higher affinity than
+glp-1. j biol chem 278: 10195–10200.
+mann r, wigglesworth mj, donnelly d (2008).
+ligand–receptor interactions at the parathyroid
+hormone receptors: subtype binding selectivity is
+mediated via an interaction between residue 23 on the
+ligand and residue 41 on the receptor. mol pharmacol
+74: 605–613.
+matthews je, stewart mw, de boever eh, dobbins rl,
+hodge rj, walker se et al. &  xxxd99xxx  study group
+(2008). pharmacodynamics, pharmacokinetics, safety,
+and tolerability of  xxxd99xxx , a long-acting
+glucagon-like peptide-1 mimetic, in patients with type 2
+diabetes. j clin endocrinol metab 93: 4810–4817.
+mayo ke, miller lj, bataille d, dalle s, goke b,
+thorens b et al. (2003). international union of
+pharmacology. xxxv. the  xxxg874xxx  family.
+pharmacol rev 55: 167–194.
+montroserafizadeh c, yang h, rodgers bd, beday a,
+pritchette la, eng j (1997). high potency antagonists of
+the pancreatic glucagon-like peptide-1 receptor. j biol
+chem 272: 21201–21206.
+neidigh jw, fesinmeyer rm, prickett ks, andersen nh
+(2001).  xxxd2076xxx  and glucagon-like-peptide-1: nmr
+structural comparisons in the solution and
+micelle-associated states. biochemistry 40: 13188–13200.
+orskov c, holst jj, nielsen ov (1988). effect of
+truncated glucagon-like peptide-1 [proglucagon-(78–107)
+amide] on endocrine secretion from pig pancreas,
+antrum, and nonantral stomach. endocrinology 123:
+2009–2013.
+parthier c, kleinschmidt m, neumann p, rudolph r,
+manhart s, schlenzig d et al. (2007). crystal structure of
+the incretin-bound extracellular domain of a g
+protein-coupled receptor. proc natl acad sci usa 104:
+13942–13947.
+british journal of pharmacology (2010) 160 1973–1984
+
+1983
+
+bjp
+
+rj mann et al.
+
+pioszak aa, xu he (2008). molecular recognition of
+ xxxg1885xxx  by its g protein-coupled receptor.
+proc natl acad sci usa 105: 5034–5039.
+pioszak aa, parker nr, suino-powell k, xu he (2008).
+molecular recognition of  xxxg517xxx 
+by its g-protein-coupled receptor crfr1. j biol chem
+283: 32900–32912.
+pioszak aa, parker nr, gardella tj, xu he (2009).
+structural basis for  xxxg1888xxx 
+binding to the parathyroid  xxxg1603xxx  and
+design of conformation-selective peptides. j biol chem
+284: 28382–28391.
+runge s, schimmer s, oschmann j, schiodt cb,
+knudsen sm, jeppesen cb et al. (2007). differential
+structural properties of glp-1 and  xxxd2076xxx  determine
+their relative affinity for the  xxxg899xxx  n-terminal
+extracellular domain. biochemistry 46: 5830–5840.
+runge s, thogersen h, madsen k, lau j, rudolph r
+(2008). crystal structure of the ligand-bound
+glucagon-like peptide-1 receptor extracellular domain.
+j biol chem 283: 11340–11347.
+
+1984 british journal of pharmacology (2010) 160 1973–1984
+
+taylor k, kim d, bicsak t, heintz s, varns a,
+aisporna m et al. (2002). continuous subcutaneous
+infusion of  xxxd2076xxx  ( xxxd2076xxx ) provides
+sustained, day-long glycemic control to patients with
+type 2 diabetes. diabetes 51: 344.
+turton md, oshea d, gunn i, beak sa, edwards cmb,
+meeran k et al. (1996). a role for glucagon-like peptide-1
+in the central regulation of feeding. nature 379: 69–72.
+underwood cr, garibay p, knudsen lb, hastrup s,
+peters gh, rudolph r et al. (2010). crystal structure of
+glucagon-like peptide-1 in complex with the
+extracellular domain of the glucagon-like peptide-1
+receptor. j biol chem 285: 723–730.
+wettergren a, schjoldager b, mortensen pe, myhre j,
+christiansen j, holst jj (1993). truncated glp-1
+(proglucagon 78–107-amide) inhibits gastric and
+pancreatic functions in man. dig dis sci 38: 665–673.
+

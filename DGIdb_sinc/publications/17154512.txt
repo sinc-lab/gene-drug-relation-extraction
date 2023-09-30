@@ -1,0 +1,1823 @@
+j. med. chem. 2006, 49, 6819-6832
+
+6819
+
+2-aminothiazole as a novel kinase inhibitor template. structure-activity relationship studies
+toward the discovery of n-(2-chloro-6-methylphenyl)-2-[[6-[4-(2-hydroxyethyl)-1piperazinyl)]-2-methyl-4-pyrimidinyl]amino)]-1,3-thiazole-5-carboxamide
+( xxxd1815xxx ,  xxxd1815xxx ) as a potent pan-src kinase inhibitor
+jagabandhu das,* ping chen,* derek norris, ramesh padmanabha,† james lin, robert v. moquin, zhongqi shen,
+lynda s. cook,† arthur m. doweyko, sidney pitt, suhong pang, ding  xxxd2200xxx , qiong fang, henry f. de fex,
+kim w. mcintyre, david j. shuster, kathleen m. gillooly, kamelia behnia, gary l. schieven, john wityak, and
+joel c. barrish
+bristol-myers squibb pharmaceutical research institute, post office box 4000, princeton, new jersey 08543-4000, and
+bristol-myers squibb pharmaceutical research institute, wallingford, connecticut
+received june 15, 2006
+
+2-aminothiazole (1) was discovered as a novel src family kinase inhibitor template through screening of
+our internal compound collection. optimization through successive structure-activity relationship iterations
+identified analogs 2 ( xxxd1815xxx ,  xxxd1815xxx ) and 12m as pan-src inhibitors with nanomolar to subnanomolar
+potencies in biochemical and cellular assays. molecular modeling was used to construct a putative binding
+model for lck inhibition by this class of compounds. the framework of key hydrogen-bond interactions
+proposed by this model was in agreement with the subsequent, published crystal structure of 2 bound to
+structurally similar abl kinase. the oral efficacy of this class of inhibitors was demonstrated with 12m in
+inhibiting the proinflammatory cytokine il-2 ex vivo in mice (ed50 ∼ 5 mg/kg) and in reducing tnf
+levels in an acute murine model of inflammation (90% inhibition in lps-induced tnfr production when
+dosed orally at 60 mg/kg, 2 h prior to lps administration). the oral efficacy of 12m was further demonstrated
+in a chronic model of adjuvant arthritis in rats with established disease when administered orally at 0.3 and
+3 mg/kg twice daily.  xxxd1815xxx  (2) is currently in clinical trials for the treatment of chronic myelogenous
+leukemia.
+introduction
+mammalian immunity relies on activation of t cells upon
+antigen presentation. immune responses in t cells are initiated
+by interaction of the t-cell antigen receptor ( xxxg2325xxx ) with an
+antigen presented in the context of a glycoprotein encoded by
+the major histocompatability complex (mhc). upon its engagement t-cell activation is amplified by sequential activation of
+three distinct classes of nonreceptor tyrosine kinases, namely,
+the src family kinases ( xxxg1306xxx  and fyn), the syk family kinases
+(syk and  xxxg2438xxx ), and the tec family kinases (itk, txk, and
+tec). a cascade of downstream signaling pathways ultimately
+leads to t-cell proliferation and/or differentiation and production
+of proinflammatory cytokines such as interleukin-2 (il-2).
+ xxxg1306xxx  (lck) is a member of the src family of nonreceptor
+tyrosine kinases that share a high degree of homology,
+particularly at the atp binding pocket. lck, expressed predominantly in t cells and nk cells is absolutely required for
+t-cell development,1 activation,2 and initiation of the t-cell
+antigen receptor (tcr)-mediated signal transduction pathway.
+studies have shown that the catalytic activity of lck is regulated
+by phosphorylation of tyr394 in the catalytic domain and
+tyr505 at the c-terminus. upon autophosphorylation, activated
+* to whom correspondence should be addressed. e-mail:
+jagabandhu.das@bms.com. phone: 609-252-5068. fax: 609-252-6804.
+† bristol-myers squibb pharmaceutical research institute, wallingford,
+ct.
+a abbreviations: lck, lymphocyte-specific kinase; apc, antigen presenting cell; mhc, major histocompatability complex; tcr, t-cell antigen
+receptor; il-2,  xxxg1173xxx ; abl, abelson  xxxg2198xxx ; tnfr, tumor
+necrosis factor alpha; itam, immunoreceptor tyrosine activation motif;
+egfr,  xxxg681xxx  receptor; vegfr, vascular endothelial
+growth factor receptor; pdgfr, platelet derived growth factor receptor.
+
+lck phosphorylates tyrosine residues in the immunoreceptor
+tyrosine activation motif (itam) sequences of the invariant
+chains (including the zeta chain) within the tcr. once phosphorylated, the zeta chain provides docking sites for  xxxg2438xxx  binding
+via its sh2 domains.2c phosphorylation of  xxxg2438xxx  by lck and
+the combined action of  xxxg2438xxx , lck, and the related src family
+kinase fyn drives downstream signaling events and leads
+ultimately to calcium flux, t-cell activation, and proliferation
+(figure 1). genetics experiments using lck-/- mice have
+validated lck as a potential immunosuppressive molecular
+target.1a these mice display a scid-like syndrome and are
+unable to reject skin grafts despite the presence of peripheral t
+cells.3 in addition, overexpression of a dominant negative form
+of lck leads to early arrest of thymocyte development prior to
+expression of cd4, cd8, and the tcr.1b based on these data,
+an lck inhibitor should inhibit t-cell activation and have
+potential utility in the treatment of acute and chronic t-cell
+mediated autoimmune and inflammatory disorders, including
+solid organ transplant graft rejection, multiple sclerosis, rheumatoid arthritis (ra), psoriasis, and delayed type hypersensitivity reactions.4 in addition, dysregulation of lck expression or
+its kinase activity has also been implicated in human t-cell
+leukemia,5 lymphocytic b cell leukemia,6 human colon carcinoma,7 and small cell lung cancer.8
+the  xxxg2198xxx  proto-oncogene also plays a central role in the
+development and progression of several human cancers, including colon, breast, pancreatic, lung, and brain cancers.9,10 src
+kinase modulates signal transduction through multiple oncogenic
+pathways downstream of receptor tyrosine kinases such as
+egfr, vegfr, her2, and pdgfr. a pan-src kinase inhibitor
+
+10.1021/jm060727j ccc: $33.50 © 2006 american chemical society
+published on web 10/24/2006
+
+6820
+
+journal of medicinal chemistry, 2006, vol. 49, no. 23
+
+figure 1. schematic diagram of t-cell receptor (tcr) activation by
+antigen presenting cell (apc)smajor histocompatibility peptide (mhc)
+complex.
+
+figure 2. activities of compounds 1 and 2.
+
+may be considered useful in modulating aberrant pathways
+leading to oncologic transformation of cells.
+screening of our internal compound collection using filter
+binding assays11 identified aminothiazole 1 as an atp competitive lck inhibitor with a weak potency in biochemical and cellbased assays (murine lck ic50 ) 6.6 µm; human lck ic50 )
+5 µm; t-cell proliferation ic50 >10 µm)).12 subsequent
+structural modification through iterative structure-activity
+relationship (sar) approaches led to the identification of
+extremely potent pan-src inhibitors with picomolar activities
+against these enzymes. within this class, several analogs also
+showed potent inhibitory activity against bcr-abl kinase. we
+describe here the synthesis, and sar studies leading to the
+discovery of compounds 12m and 2 ( xxxd1815xxx ,
+ xxxd1815xxx ),12c-e as extremely potent pan-src inhibitors (figure
+2).
+chemistry
+thiazole analogs described here were synthesized following
+the synthetic routes outlined in schemes 1-3. to prepare the
+carboxamide, carbamate, and urea derivatives, appropriate
+2-amino-thiazole-5-carboxylate 3 was treated with di-tert-butyl
+carbonate in the presence of 4-(n,n-dimethylamino)pyridine in
+thf to form the corresponding tert-butyl carbamate that upon
+saponification afforded the acid 4. conversion of the carboxylic
+acid to its acid chloride and its subsequent treatment with the
+appropriate aniline in the presence of diisopropylethylamine in
+dichloromethane or thf afforded the anilide 5, which on further
+deprotection of the boc-protecting group in tfa formed the
+aminothiazole 6. aminothiazole 6 served as an advanced
+intermediate for the synthesis of carboxamide, and ureido
+analogs. we utilized a solution-phase parallel synthesis approach
+to prepare a wide variety of such analogs. accordingly, 6 was
+treated with a carboxylic acid chloride or its anhydride in the
+
+das et al.
+
+presence of an organic base to form amides 7. alternatively, 6
+could be reacted with a carboxylic acid under standard peptide
+coupling conditions to form 7. reaction of 6 with an isocyanate
+in the presence of pyridine or 4-(n,n-dimethylamino)pyridine
+formed the urea analogs 9. compound 6 could also be converted
+to the phenyl carbamate 10, which on further reaction with an
+amine in thf-acetonitrile mixture formed the urea 9. commercial availability of a wide variety of amines made the later
+approach more attractive for the synthesis of diverse urea
+analogs (scheme 1).
+the 2′-aminoheteroarylthiazole anilide analogs were prepared
+as described in schemes 2 and 3. ethyl 2-amino-thiazole-5carboxylate (3b) was converted to amine 6b following the
+synthetic sequence outlined in scheme 1. compound 6b could
+be directly coupled to an activated heteroaromatic halide to form
+12. alternatively, 6b was treated with copper(ii) bromide and
+tert-butyl nitrite in anhydrous degassed acetonitrile to form the
+bromide 18, which on treatment with the appropriate heteroaryl
+amine and sodium hydride in thf afforded 12 (scheme 2).
+an alternate concise and efficient route was also developed
+for this series of analogs and is illustrated with the synthesis of
+2 (scheme 3). treatment of 2-chlorothiazole 19 with nbutyllithium at -78 °c followed by addition of 2-chloro-6methylphenyl isocyanate afforded anilide 14. protection of the
+anilide followed by reaction of 15 with 4-amino-6-chloro-2methylpyrimidine in the presence of sodium hydride in thf
+and subsequent removal of the pmb protecting group formed
+17. further homologation of 17 by treatment with 1-(2hydroxyethyl)piperazine in dioxane afforded 2, which was
+converted to its monohydrochloride salt with methanolic
+hydrogen chloride in ether.
+results and discussion
+initial structure-activity studies. compounds were evaluated for their ability to inhibit lck using both biochemical and
+cellular assays.13 our initial screening used recombinant mouse
+lck ( xxxg1491xxx ) as the enzyme and enolase as substrate. subsequently,  xxxg1491xxx  was substituted with recombinant human lck
+(hlck). because lck shares a high degree of sequence homology
+(84%) between mouse and human, we reasoned this change will
+have an insignificant impact on the observed ic50 values, a
+hypothesis that was borne out by observation of a good
+correlation for a set of analogs (tables 1 and 2).
+broad screening of our in-house compound collection identified aminothiazole 1 as a lead with weak biochemical potency
+against lck and little cell activity up to a concentration of 10
+µm. the corresponding tert-butyl carbamate 5a was approximately equipotent and served as a starting point for further
+optimization. as part of a systematic sar approach, we first
+investigated the importance of the carboxanilide side chain on
+the thiazole (table 1). substitution studies revealed an extremely
+narrow structural requirement at this position. replacement of
+the 2,4,6-trimethyl substituents on the benzamide with hydrogen
+(5f) significantly attenuates potency. both the  xxxd26xxx  and 2, xxxd590xxx -me analogs (5g and 5j) are also significantly less potent.
+the 2,6-di-me analog (5c) is only 3-fold less potent. the 4-me
+substituent can be replaced with bromo (5d) without loss of
+potency. either or both of the ortho-methyl substituents on the
+benzamide can be replaced with a similarly small group (5b
+and 5e) with minimal loss of potency. in contrast, substitution
+with sterically demanding groups (5h and 5i) results in dramatic
+loss in potency. overall, small substituents at both the ortho
+positions on the benzamide ring are optimal for lck inhibitory
+
+2-aminothiazole as a novel kinase inhibitor template
+
+journal of medicinal chemistry, 2006, vol. 49, no. 23 6821
+
+scheme 1. synthesis of carboxamide, carbamate, and urea analogs (5 and 7-9)a
+
+a reagents and conditions: (a) boc o, dmap, thf, 70-72%; (b) naoh, aq meoh, 86-96%; (c) (cocl) , cat. dmf; (d) r-phnh , i-pr net, 282
+2
+2
+2
+100% in two steps; (e) tfa, rt, 68-100%; (f) r1cocl or (r1co)2o, thf, dmap or r1co2h, edac, hobt, i-pr2net, 18-90%; (g) r1ococl, aq
+nahco3, thf, 75-85%; (h) r1nco, py, 45-87%; (i) phococl, aq nahco3, thf, 69-90%; (j) r1nh2, thf, ch3cn, 75-95%.
+
+scheme 2. synthesis of heteroaryl amines 12a
+
+a reagents and conditions: (a) boc ,o, dmap, thf, 70%; (b) naoh, aq meoh, 96%; (c) (cocl) , cat. dmf, ch cl ; (d) r-phnh , ch cl , i-pr net;
+2
+2
+2 2
+2
+2 2
+2
+(e) tfa, rt, 19-85% in three steps; (f) cubr2, t-buono, ch3cn, 69-78%; (g) r2,r3-4-amino-pyrimidine, thf, 60 °c, 19-70%.
+
+scheme 3. synthesis of 2a
+
+a reagents and conditions: (a) n-buli, thf, 2-chloro-6-methylphenyl isocyanate, -78 °c, 86%; (b) nah, 4-methoxybenzyl chloride, thf, 95%; (c)
+nah, thf, 4-amino-6-chloro-2-methyl pyrimidine, ∆, 83%; (d) tfoh, tfa, ch2cl2, 99%; (e) 1-(2-hydroxyethyl)piperazine, 1, xxxd1904xxx , ∆; (f) hcl, et2o,
+meoh, 91% in two steps.
+
+activity of these analogs. this finding is consistent with similar
+observations with other classes of lck inhibitors.13,14 the ortho
+substituents are most likely required to orient the aniline ring
+out of the plane formed by the anilide and thiazole groups in
+order that it can fit into a narrow hydrophobic pocket of the
+enzyme (table 1).16
+our attention turned next to the modification of the 2-amino
+substituent on the thiazole ring (table 2). a large number of
+diverse carbamates, carboxamides, and ureas were prepared
+using a solution-phase parallel synthesis strategy. in general,
+derivatization of the amino group leads to improved lck
+
+inhibitory activity in vitro. for example, the methyl carbamate
+(7a),  xxxd63xxx  (7c), and the methyl urea analogs (8a) are
+roughly 3-20-fold more potent than 1. sterically demanding
+groups in general lead to a significant loss in potency (5a, 7e,
+and 8d). introduction of aryl and certain heteroaryl groups (7d,
+7f-k, 8b, and 8e) also led to significant enhancement in
+potency. in a direct comparison, the 2,4,6-trimethylaniline
+analogs (7d, 7f, 7h, and 8c) are essentially equipotent to their
+2-chloro-6-methylaniline counterparts (7l, 7k, 7j, and 8f).
+n-butyl urea 8c was identified as the most potent inhibitor in
+this series (hlck ic50 ) 30 nm).
+
+6822
+
+journal of medicinal chemistry, 2006, vol. 49, no. 23
+
+das et al.
+
+table 1. in vitro lck activity of tert-butoxycarbamate analogs 5a-j
+
+ xxxg1491xxx  ic50a
+(µm)
+
+compd
+
+r
+
+5a
+5b
+5c
+5d
+5e
+5f
+5g
+5h
+5i
+5j
+
+2,4,6-tri-me
+2-cl, 6-me
+2,6-di-me
+4-br, 2,6-di-me
+2,6-di-cl
+h
+ xxxd26xxx 
+ xxxd26xxx , 6-ipr
+2-ome, 6-me
+2,4-di-me
+
+a
+
+3
+9.6
+7.5
+2.4
+
+hlck ic50a
+(µm)
+1.5
+28
+4.4
+1.4
+12.5
+
+28b
+45.7
+40.3
+24.3
+27.4
+
+figure 3. activity of  xxxd304xxx  11.
+table 3. in vitro lck activity of 2-carboxamido-4-hydrido-thiazoles
+7n-w
+
+compd
+
+r
+
+r1
+
+hlck ic50a
+(µm)
+
+7n
+7o
+7p
+7q
+7r
+7s
+7t
+7u
+7v
+7w
+
+2-cl,6-me
+2-cl,6-me
+2-cl,6-me
+2-cl,6-me
+2-cl,6-me
+2-cl,6-me
+2-cl,6-me
+2-cl,6-me
+2-cl,6-me
+2-cl,6-me
+
+cyclopropyl
+et
+1-me-cyclopropyl
+ xxxd26xxx -cyclopropyl
+ph
+2-thienyl
+3-thienyl
+2-furyl
+cyclobutyl
+cyclopentyl
+
+0.035
+22b
+15b
+15b
+0.89
+2.23
+0.017
+29b
+17b
+1.34
+
+n ) 3, variation in individual values, <20%. b % inhibition @ 50 µm.
+
+table 2. in vitro lck activity of 2-amino-4-methyl-thiazole analogs
+7a-i and 8a-f
+
+a
+
+compd
+
+r
+
+r1
+
+7a
+7b
+5a
+7c
+7d
+7e
+7f
+7g
+7h
+7i
+7j
+7k
+7l
+7m
+8a
+8b
+8c
+8d
+8e
+8f
+
+2,4,6-tri-me
+2,4,6-tri-me
+2,4,6-tri-me
+2,4,6-tri-me
+2,4,6-tri-me
+2,4,6-tri-me
+2,4,6-tri-me
+2,4,6-tri-me
+2,4,6-tri-me
+2-cl, 6-me
+2-cl, 6-me
+2-cl, 6-me
+2-cl, 6-me
+2-cl, 6-me
+2,4,6-tri-me
+2,4,6-tri-me
+2,4,6-tri-me
+2,4,6-tri-me
+2,4,6-tri-me
+2-cl, 6-me
+
+meobnot-buome
+ph
+t-bu
+2-furyl
+3-furyl
+3-thienyl
+3-thienyl
+2-thienyl
+2-furyl
+ph
+cyclopropyl
+me
+ph
+n-bu
+t-bu
+bn
+n-bu
+
+a
+
+ xxxg1491xxx  ic50a
+(µm)
+
+hlck ic50a
+(µm)
+
+0.72
+33.32
+3
+0.51
+0.32
+
+0.7
+
+0.17
+0.09
+0.07
+0.10
+
+1.5
+0.48
+0.8
+12.08
+0.36
+1.2
+0.18
+0.39
+0.13
+0.71
+4.47
+1.4
+0.24
+0.16
+0.03
+1.3
+0.13
+0.62
+
+n ) 3, variation in individual values, <20%.
+
+sar studies were now directed toward modification of the
+substituent at the 4′-position of the thiazole. with a series of
+compounds in which the 2-amino group was functionalized as
+its tert-butyl carbamate derivative, we observed earlier that the
+replacement of the 4′-methyl substituent with several other
+groups (h, et, ph, and cf3) led to significant attenuation in
+biochemical potency (hlck ic50s > 30 µm). at this stage, our
+sar findings in a related series prompted us to re-explore the
+4′-substituent modification further. in a series of related
+benzothiazoles,13a introduction of a cyclopropyl amide at the
+2′-position (11) leads to a dramatic increase in lck biochemical
+potency (figure 3). to our surprise, cyclopropyl amide analog
+7n (table 3) with the 4′-unsubstituted thiazole core (hlck ic50
+) 18 nm) is about 80-fold more potent than the corresponding
+4′-methyl-substituted thiazole analog 7m (hlck ic50 ) 1.4 µm).
+this observation is in sharp contrast with our earlier findings
+in the tert-butyl carbamate series, where replacing the 4′-methyl
+by a hydrogen resulted in a significant loss in activity.12a
+moreover, 7n potently inhibits  xxxd2676xxx  and anti-cd28 induced
+
+n ) 3, variation in individual values, <20%. b % inhibition @ 3.13
+
+µm.
+
+proliferation in a t-cell proliferation assay (ic50 ) 884 nm).
+further structural optimization was therefore focused on the
+4′-unsubstituted thiazole core.
+table 3 summarizes the c2′ carboxamide sar. replacement
+of the cyclopropyl amide with an alkyl (7o), cyclobutyl (7v)
+amide, or small alkyl substitution on the cyclopropyl ring (7p,
+7q) leads to a substantial loss (>1000-fold) in potency.
+benzamide (7r), cyclopentyl amide (7w), and the 2-thienyl
+amide (7s) retains some of the intrinsic potency. only the
+3-thienyl amide 7t displays comparable potency to 7n. however,
+in the t-cell proliferation assay, 7t (ic50 > 2 µm) is less potent
+than 7n. minor structural changes thus led to dramatic drops in
+activity, and as such, a very narrow sar pattern was observed
+in this series.
+model of aminothiazole binding to lck. based on the
+published crystal structure of the atp binding site of active,
+autophosphorylated lck15-17 and homology modeling based on
+a reported  xxxg1028xxx  structure,18 we constructed an lck binding site
+model, as described in our previous communications.13,19 the
+binding model of 7n highlights some of the critical h-bond
+interactions with the active site residues. the aniline nh appears
+to be positioned favorably for a productive hydrogen-bonding
+interaction with the thr316 hydroxyl, and both the thiazole
+nitrogen and the cyclopropyl carboxamide nh are in h-bond
+contact with the backbone carbonyl and nh of met319,
+respectively, at the hinge region of the protein. the cyclopropyl
+group appears to fit snugly in a hydrophobic pocket. this
+proposed binding mode is consistent with the 2,6-aniline
+disubstitution, which orients the phenyl ring so that it can fit
+into an angular deep but narrow hydrophobic pocket (figure
+4).
+to rationalize the 4′-me effect, we utilized the model
+structures shown in figure 5. the preferred binding conformations for these compounds are represented by a1 and b1,
+respectively. when subjected to sam 1d minimization, the 4′unsubstituted thiazole was shown to adopt either conformation
+(a1 and a2) equally, while for the 4′-me thiazole, the preferred
+
+2-aminothiazole as a novel kinase inhibitor template
+
+journal of medicinal chemistry, 2006, vol. 49, no. 23 6823
+table 4. in vitro and cell activity of 2-heteroarylamino-thiazoles
+12a-o
+
+compd
+
+figure 4. proposed binding interactions of thiazole 7n (white) and
+ xxxd304xxx  11 (blue) with the lck kinase.
+
+figure 5. proposed binding conformations of 4′-unsubstituted and 4′me thiazoles.
+
+figure 6. activities of benzothiazoles 13 and 13a.
+
+conformation is b2. this conformation interferes with the ability
+of 4′-me thiazole to adopt the required binding conformation
+and may explain the difference in biochemical potency observed
+between these series.
+heteroaryl replacement of the 2′-carboxamides and
+identification of 2. further sar investigations with the
+ xxxd304xxx  lck inhibitors revealed that replacement of the
+2-carboxamide function with certain heteroaryl amines led to
+highly potent inhibitors (figure 6).13b molecular docking of 7n
+(figure 4) suggested that the cyclopropyl amide carbonyl was
+not engaged in any productive h-bond interaction. we, therefore,
+rationalized that the c2′ carboxamide could be replaced with a
+heteroaryl amine that can function as a conformationally
+constrained “amide mimetic”. these studies were, therefore,
+undertaken with the 4′-unsubstituted thiazole core (table 4).
+replacement of the c2′ cyclopropyl carboxamide with a 2′′pyridyl amine (12a) leads to a 30-fold increase in biochemical
+potency and a 6-fold increase in cell potency. regioisomeric
+3′′- and 4′′-pyridyl analogs 12b and 12c are 6-8-fold less potent
+than the 2′′-isomer. similar improvements in both biochemical
+and cellular potencies were observed in the 2,6-di-me and 2,4,6tri-me aniline series (12d,e). a wide variety of heterocyclic
+amine replacements (12f-i) were tolerated. methyl substitution
+on the 2′′-aminopyridine ring (12j,k) leads to a further enhancement in both in vitro enzyme and cellular activity. 4′′,6′′-disubstitution on the pyridine ring (12l) is also tolerated. the
+2′′,6′′-di-me-4′′-pyrimidinyl-substituted analog 12m was identified as one of the more potent lck inhibitors in this series. the
+
+r
+
+r1
+
+12a
+12b
+12c
+12d
+12e
+12f
+12g
+12h
+
+2-cl, 6-me
+2-cl, 6-me
+2-cl, 6-me
+2,6-di-me
+2,4,6-tri-me
+2-cl, 6-me
+2,6-di-me
+2-cl, 6-me
+
+12i
+12j
+
+2,4,6-tri-me
+2-cl, 6-me
+
+12k
+
+2-cl, 6-me
+
+12l
+
+2-cl, 6-me
+
+12m
+
+2-cl, 6-me
+
+12n
+
+2-cl, 6-me
+
+12o
+
+2,4,6-tri-me
+
+2′′-pyridyl
+3′′-pyridyl
+4′′-pyridyl
+2′′-pyridyl
+2′′-pyridyl
+3′′-pyridazinyl
+3′′-pyridazinyl
+3′′,5′′-di-me-2′′pyrazinyl
+2′′-pyrazinyl
+6′′-me-2′′pyridinyl
+4′′-me-2′′pyridinyl
+4′′,6′′-di-me-2′′pyridinyl
+2′′,6′′-di-me-4′′pyrimidinyl
+4′′,6′′-di-me-2′′pyrimidinyl
+2′′,6′′-di-me-4′′pyrimidinyl
+
+hlck ic50a
+(nm)
+
+t-cell ic50b
+(nm)
+
+1.2
+6.7
+9.4
+1.2
+5
+4
+0.3
+6.3
+
+140
+870
+270
+180
+510
+350
+350
+570
+
+4.9
+0.6
+
+500
+110
+
+0.5
+
+80
+
+4
+
+140
+
+1
+
+80
+
+50
+3
+
+140
+
+a n ) 3, variation in individual values, <20%. b n ) 3, variation in
+individual values, <30%.
+
+corresponding analog 12o in the 2,4,6-tri-me aniline series is
+slightly less potent. similarly, the regioisomeric pyrimidinyl
+analog 12n is significantly less potent (50-fold) than 12m,
+suggesting specific interactions of the heteroatoms in the active
+site binding pocket. based on its substantial potency, 12m (lck
+ki ) 130 pm, t-cell ic50 ) 80 nm) was selected for further
+characterization.
+as in the  xxxd304xxx  series (figure 6), further enhancements in both biochemical and cellular activities with the
+thiazoles are achieved through appending polar functional groups
+to the heteroaromatic ring (table 5).13b
+in the pyridine series, introduction of a weakly basic or polar
+residue at the 6′′-position of the pyridine ring led to analogs
+(12p-r) with subnanomolar activities against lck in vitro.
+differentiation of these analogs at the biochemical level proved
+quite difficult because the ic50 values approached the enzyme
+concentration in this assay. more importantly, a 10-25-fold
+increase in cellular potency was observed with the morpholino
+and imidazolyl analogs 12q and 12r, respectively. a similar
+trend was observed with the pyrimidine-based analogs. analogs
+having a morpholino group directly attached at the 2′′-position
+of the pyrimidine (12s,t) or tethered through an alkylamino side
+chain (12u) displays nanomolar or below biochemical potency
+and single digit nanomolar activity in the t-cell assay. finally,
+introduction of a 4-hydroxyethylpiperazinyl side chain at the
+2′′-position of the pyrimidine resulted in the identification of
+one of the most potent analogs (2) in the series. compound 2
+is roughly 30-fold more potent on t-cells than 12m.
+characterization of 2′-(heterocyclo)amino-thiazole analogs. the proposed binding modes for 12m and 2 (figure 7)
+are consistent with that of the cyclopropyl amide 7n (figure 4)
+in that the key hydrogen-bond interactions of the pyrimidinyl
+nh, thiazole nitrogen, and the anilide nh are preserved. the
+critical requirement of the h-bond interactions of the pyrimidinyl
+and anilide nhs for lck activity was demonstrated by synthesis
+
+6824
+
+journal of medicinal chemistry, 2006, vol. 49, no. 23
+
+table 5. in vitro and cell activity of 2′-heteroarylamino-thiazoles 2
+and 12m-w
+
+a n ) 3, variation in individual values, <20%. b n ) 3, variation in
+individual values, <30%.
+
+of the corresponding n-me derivatives, both of which are
+significantly less potent than the parent 12m.12b a similar
+attenuation in biochemical activity is observed with other
+thiazole analogs.12a furthermore, as illustrated with 12m (left,
+inset), the 2-amino pyrimidine ring appears to occupy a
+relatively narrow hydrophobic pocket delineated by leu251,
+tyr318, and gly322. this may explain the increased binding
+affinity of the heteroaryl amine analogs in comparison to amides,
+carbamates, and ureas. the polar 4-hydroxyethylpiperazine
+residue in 2 approaches the solvent front and does not appear
+to engage in additional h-bond interactions. the significant
+increase in cellular potency of 2 and related analogs relative to
+12m cannot be readily explained by our binding model nor is
+it likely to be solely attributed to improvement of the physicochemical properties and/or cell permeability due to incorporation
+of a polar side chain. nevertheless, 2 was identified as one of
+the most potent lck inhibitors in the t-cell proliferation assay.
+it is also possible that the lck construct used in the biochemical
+assay is not a perfect reflection of the enzyme in cells.
+to better understand their enzyme inhibitor properties, both
+2 and 12m were evaluated for their selectivity against a panel
+of in-house kinases, some of which are shown in table 6.
+compound 12m was a potent inhibitor of all src family kinases
+and bcr-abl kinase. a high degree of selectivity (>200 fold)
+was observed against other tyrosine and serine/threonine kinases.
+a similar selectivity profile was observed with 2, which strongly
+inhibited the src family kinases lck, src, yes, fyn, c-kit, and
+bcr-abl kinase with subnanomolar potencies. analog 2 was also
+highly selective against other kinases tested. compounds 2 and
+12m were further confirmed to be potent atp competitive
+inhibitors of lck and src with ki values of 130 pm and 96 pm,
+respectively, for 12m and 64 pm and 16 pm, respectively, for
+2. in addition, 2 was a highly potent atp competitive inhibitor
+of bcr-abl (ki ) 30 ( 22 pm). the lack of selectivity of these
+analogs over other src family kinases is not unexpected, because
+the kinase domain is known to be highly conserved among its
+members. in addition, the structural similarities of lck and
+
+das et al.
+
+activated abl kinase may explain the strong inhibition of the
+bcr-abl kinase by these analogs.20
+efficacy of compound 12m was evaluated ex vivo in a mouse
+ xxxd2676xxx /anti-cd28 induced il-2 production model. when
+dosed orally 2 h prior to  xxxd2676xxx /anti-cd28 stimulation,
+compound 12m reduced serum il-2 level in a dose-dependent
+manner with an ed50 value of approximately 5 mg/kg (figure
+8).
+compound 12m was further characterized in vivo in an acute
+murine model of lps-induced tnfr. overproduction of tnfr,
+a major proinflammatory cytokine is implicated in several
+inflammatory diseases.21 the blockade of tnfr function by
+anti-tnfr biologics such as enbrel (etanercept), remicade
+(infliximab), and humira is demonstrated to be clinically
+efficacious in the treatment of ra, crohn’s disease, and
+psoriasis.22 when dosed orally 2 h prior to lps challenge, 12m
+inhibited tnfr production in a dose-dependent manner (figure
+9). statistically significant inhibition of tnf production (90%)
+was observed at an oral dose of 60 mg/kg. this reduction in
+tnf production may be attributed to the inhibition of src family
+kinases  xxxg1028xxx  and fgr, which regulate tnfr production by
+monocytes and macrophages. inhibition of p38 kinase (ic50 )
+202 nm) may also contribute to the inhibition of tnf production
+by this analog. compound 12m, a potent inhibitor of both these
+kinases ( xxxg1028xxx  ic50 ) 2 nm, fgr ic50 ) 0.8 nm) inhibited lpsinduced tnfr production in human peripheral blood mononuclear cells (pbmc) with an ic50 value of 670 nm.
+the in vivo pharmacokinetic profile of 12m was determined
+in rats. upon administration of single doses of 10 mg/kg (iv
+and po), compound 12m had a peak plasma exposure of 2 µm
+(cmax) with a tmax of 1 h. both plasma half-life (t1/2) and mean
+residence time were approximately 4 h. compound 12m had a
+moderate rate of plasma clearance (29 ml/min/kg) and a large
+volume of distribution (vsss ) 12 l/kg), indicative of wide
+tissue distribution. oral bioavailabilty of 12m in rats was
+determined to be 65%.
+t-cell activation is known to play a critical role in the
+pathogenesis of ra.23 recent studies demonstrating the clinical
+efficacy of  xxxg544xxx -ig, an inhibitor of the t-cell costimulation,
+in ra patients has validated the strategy of blocking t-cell
+activation for the treatment of ra.24 because lck plays a central
+role in t-cell activation in response to antigen, we evaluated
+the anti-inflammatory efficacy of 12m in a rat adjuvant arthritis
+model of established disease, which is a widely utilized model
+of human ra. furthermore, this model was chosen based on
+acceptable pharmacokinetic profile, including oral bioavailability
+of 12m in rats. in this model, male lewis rats were immunized
+with complete freund’s adjuvant at the base of the tail and hind
+paw volumes were measured to assess disease progression. rats
+were treated with 12m or vehicle beginning on day 14 after
+immunization when arthritic disease was well-established. as
+shown in figure 10, 12m significantly reduced the progression
+of paw swelling when administered orally at 0.3 and 3 mg/kg
+twice daily.
+conclusion
+our broad screening effort identified the 2′-amino-4′methyl
+thiazole 1 as a novel lck inhibitor. iterative sar studies showed
+the 4′-unsubstituted-2′-amino thiazole to be an optimal template
+for src family kinase inhibition. further structural refinements
+on the 4′-unsubstituted thiazole core based on insights from sar
+studies in a related series of benzothiazoles led to the discovery
+of analogs 2 and 12m as highly potent pan-src kinase inhibitors.
+in addition, using molecular modeling, we developed a putative
+
+2-aminothiazole as a novel kinase inhibitor template
+
+journal of medicinal chemistry, 2006, vol. 49, no. 23 6825
+
+figure 7. proposed binding interactions of 12m (left) and 2 (right) with the lck kinase domain. van der waals surfaces are shown for 12m (left,
+inset).
+table 6. kinase selectivity profiles of 2 and 12m
+
+compd
+
+lck
+ic50
+(nm)
+
+2
+12m
+
+0.4
+1
+
+src
+ic50
+(nm)
+0.5
+<2
+
+fyn
+ic50
+(nm)
+
+ xxxg1028xxx 
+ic50
+(nm)
+
+yes
+ic50
+(nm)
+
+lyn
+ic50
+(nm)
+
+0.2
+1
+
+2
+
+0.5
+2
+
+4
+
+bcr-abl
+ic50
+(nm)
+<1
+3
+
+ xxxg410xxx 
+ic50
+(nm)
+
+p38
+ic50
+(nm)
+
+ xxxg682xxx 
+ic50
+(nm)
+
+her2
+ic50
+(nm)
+
+ xxxg791xxx 
+ic50
+(nm)
+
+>5000
+>25 000
+
+100
+202
+
+180
+5200
+
+710
+500
+
+880
+>10 000
+
+figure 8. inhibition of  xxxd2676xxx /anti-cd28 stimulated il-2 production
+ex vivo in mice (n ) 7/group, mean ( sem) by compound 12m (*p
+< 0.01).
+figure 10. efficacy of compound 12m in the treatment of rats with
+established adjuvant arthritis disease: mean ( sem, n ) 8/group.
+
+as reported earlier,12c compound 2 is currently in clinical trials25
+for the treatment of chronic myelogenous leukemia.
+experimental section
+
+figure 9. inhibition of lps-induced tnfr induction in mice (n )
+11-12/group, mean ( sem). compound 12m was dosed orally 2 h
+prior to lps challenge (*p < 0.01).
+
+binding model for lck inhibition by this class of compounds.
+the framework of key hydrogen-bond interactions proposed by
+this model is in agreement with the subsequent, published crystal
+structure of 2 bound to the structurally similar abl kinase.12c
+the oral efficacy of this class of inhibitors was demonstrated
+with 12m in inhibiting the proinflammatory cytokine il-2 ex
+vivo in mice and in reducing tnf levels in an acute murine
+model of inflammation. the oral efficacy of 12m was further
+demonstrated in a chronic model of adjuvant arthritis in rats
+with established disease when administered orally at 0.3 and 3
+mg/kg twice daily. our research culminated in the identification
+of 2 as an exquisitely potent inhibitor of the src family kinases.
+
+chemistry. all solvents and reagents were obtained from
+commercial sources and used without further purification unless
+noted otherwise. proton and carbon magnetic resonance (1h and
+13c nmr) spectra were recorded on one of the following instruments: cpf-270 spectrometer operating at 270 or 67.5 mhz,
+bruker avance 400 mhz, bruker drx-400 mhz, jeol ecl500 mhz, jeol ecl-400 mhz spectrometer and chemical shifts
+are reported in ppm (delta) from the tetramethylsilane resonance in
+the indicated solvent. high-resolution mass spectra (hrms) were
+recorded on a jeol sx102 mass spectrometer. flash chromatography was carried out on e. merck kieselgel 60 silica gel (230400 mesh). elemental analyses were performed by robertson
+microlit laboratories, and the results are within (0.4% of the
+theoretical value, unless indicated otherwise. analytical hplc and
+lc/ms analyses were conducted using a shimadzu lc-10as liquid
+chromatograph and a spd-10avuv-vis detector at 220 nm with
+the ms detection performed with a micromass platform lc
+spectrometer. hplc and lc/ms methods are detailed below.
+preparative reverse-phase hplc purifications were performed using
+the following conditions: ballistic ymc s5 ods 20 × 100 mm
+column or 30 × 250 mm with a binary solvent system where solvent
+
+6826
+
+journal of medicinal chemistry, 2006, vol. 49, no. 23
+
+a ) 10% methanol, 90% water, 0.1% trifluoroacetic acid and
+solvent b ) 90% methanol, 10% water, and 0.1% trifluoroacetic
+acid, flow rate ) 20 ml/min, linear gradient time ) 10 min, start
+% b ) 20, final % b ) 100.
+hplc methods. method a. a linear gradient program using
+10% methanol, 90% water, and 0.2% h3po4 (solvent a) and 90%
+methanol, 10% water, and 0.2% h3po4 (solvent b); t ) 0 min, 0%
+b, t ) 4 min, 100% b was employed on a ymc s5 ods 4.6 × 50
+mm ballastic column. flow rate was 4 ml/min, and uv detection
+was set to 220 nm. the lc column was maintained at ambient
+temperature.
+method b. a linear gradient program using 10% methanol, 90%
+water, and 0.2% h3po4 (solvent a) and 90% methanol, 10% water,
+and 0.2% h3po4 (solvent b); t ) 0 min, 0% b, t ) 30 min, 100%
+b was employed on a zorbax s8 c18 4.5 × 75 mm column. flow
+rate was 2.5 ml/min, and uv detection was set to 217 nm. the
+lc column was maintained at ambient temperature.
+method c. a linear gradient program using 10% methanol, 90%
+water, and 0.2% h3po4 (solvent a) and 90% methanol, 10% water,
+and 0.2% h3po4 (solvent b); t ) 0 min, 0% b, t ) 8 min, 100%
+b was employed on a ymc ocd 4.6 × 50 mm column. flow rate
+was 2.5 ml/min, and uv detection was set to 220 nm. the lc
+column was maintained at ambient temperature.
+method d. a linear gradient program using 10% methanol, 90%
+water, and 0.1% tfa (solvent a) and 90% methanol, 10% water,
+and 0.1% tfa (solvent b); t ) 0 min, 0% b, t ) 4 min, 100% b
+was employed on a ymc combiscreen 4.6 × 50 mm s-5 column.
+flow rate was 4 ml/min, and uv detection was set to 220 nm.
+the lc column was maintained at ambient temperature.
+method e. a linear gradient program using 10% methanol, 90%
+water, and 0.2% h3po4 (solvent a) and 90% methanol, 10% water,
+and 0.2% h3po4 (solvent b); t ) 0 min, 0% b, t ) 30 min, 100%
+b was employed on a ymc s-3 ods 6 × 150 mm column. flow
+rate was 1.5 ml/min, and uv detection was set to 217 nm. the
+lc column was maintained at ambient temperature.
+method f. a linear gradient program using 10% methanol, 90%
+water, and 0.2% h3po4 (solvent a) and 90% methanol, 10% water,
+and 0.2% h3po4 (solvent b); t ) 0 min, 0% b, t ) 4 min, 100%
+b was employed on a ymc c18 s5 4.6 × 50 mm ballastic column.
+flow rate was 3 ml/min, and uv detection was set to 220 nm.
+the lc column was maintained at ambient temperature.
+ethyl-2-[[(tert-butyloxy)carbonyl]-amino]-4-methyl-1,3-thiazole-5-carboxylate (4a): a solution of ethyl 2-amino-4-methylthiazole-5-carboxylate (3a, 18.6 g, 100 mmol), di-tert-butyl carbonate (26.2 g, 120 mmol), and catalytic 4-dimethylamino pyridine
+(800 mg, 6.6 mmol) in dry thf (300 ml) was stirred under an
+inert atmosphere for 18 h. the reaction mixture was concentrated.
+the residue was suspended in dichloromethane (1 l) and filtered
+through a pad of celite. the filtrate was washed with 1 n aq hcl
+solution, water, and brine, dried ( xxxd2534xxx ), filtered, and concentrated.
+the residue was triturated with hexanes. the solid was filtered and
+dried in vacuo to obtain 4a (20 g, 72%) as a solid. 1h nmr (270
+mhz, cdcl3) delta 11.03 (br s, 1h), 4.3 (q, j ) 7.3 hz, 2h), 2.67 (s,
+3h), 1.55 (s, 9h), 1.35 (t, j ) 7.3 hz, 3h). 13c nmr (cdcl3) delta
+163.3, 162.6, 156.3, 152.5, 114.7, 83.5, 60.8, 28.2, 17.0, 14.3.
+2-[[(tert-butyloxy)carbonyl]-amino]-4-methyl-1,3-thiazole-5carboxylic acid (4b): a solution of 4a (10 g, 34.95 mmol) in
+thf-etoh (250 ml, 2:3) and 6 n aq koh solution (250 ml)
+was heated to 55 °c overnight under an inert atmosphere. the
+solution was cooled to 0 °c and acidified with concd hcl to ph 1.
+the solution was concentrated in vacuo, and the residue was washed
+with water, ether, and dried in vacuo over p2o5 to obtain 4b (89%)
+as a white solid. 1h nmr (270 mhz, dmso-d6) delta 2.52 (s, 3h),
+1.40 (s, 9h). 13c nmr (dmso-d6) delta 163.6, 161.2, 155.8, 152.7,
+115.0, 81.8, 27.8, 16.9.
+2-[[(tert-butyloxy)carbonyl]-amino]-4-methyl-n-(2,4,6-trimethylphenyl)-1,3-thiazole-5-carboxamide (5a): a 2 m solution
+of oxalyl chloride (22.5 ml, 45 mmol) in dichloromethane was
+added dropwise to a stirred suspension of 4b (10 g, 38.7 mmol)
+and dmf (150 µl) in dichloromethane at 0 °c. the solution was
+warmed to room temperature, stirred for 1.5 h, and concentrated.
+
+das et al.
+
+the residue was azeotroped with toluene (300 ml, 2×) and dried
+in vacuo to obtain the crude acid chloride (10.7 g, 99%) as a tan
+solid.
+2,4,6-trimethylaniline (6.3 ml, 44.9 mmol) was added slowly
+to a stirred solution of crude acid chloride (10.7 g, 38.7 mmol) in
+dichloromethane (150 ml) at 0 °c. after 20 min, diisopropylethylamine (88 ml, 50.7 mmol) was added dropwise. the solution was
+warmed to room temperature and stirred for 2 h. the solution was
+concentrated. the residue was suspended in etoac (700 ml),
+washed with 1 n aq hcl solution, water, and brine. the etoac
+extract was separated, dried ( xxxd2534xxx ), filtered, and concentrated.
+the residue was triturated with etoac to obtain 5a (12.5 g, 86%)
+as a tan solid. 1h nmr (400 mhz, dmso-d6) delta 11.71 (s, 1h),
+9.15 (s, 1h), 6.89 (s, 2h), 2.53 (s, 3h), 2.23 (s, 3h), 2.11 (s, 6h),
+1.48 (s, 9h). hrms (esi) m/z calcd for c19h26n3o3s [m + h]+,
+376.1697; found, 376.1690. purity: 100% (method c; tr ) 7.71
+min), 100% (method e; tr ) 31.35 min).
+2-[[(tert-butyloxy)carbonyl]-amino]-4-methyl-n-(2-chloro-6methylphenyl)-1,3-thiazole-5-carboxamide (5b): 1h nmr (400
+mhz, dmso-d6) delta 11.74 (s, 1h), 9.51 (s, 1h), 7.37 (dd, j ) 7.63,
+2.03 hz, 1h), 7.20-7.28 (m, 2h), 2.56 (s, 3h), 2.21 (s, 3h), 1.49
+(s, 9h). hrms (esi) m/z calcd for c17h21cln3o3s [m + h]+,
+382.0993; found, 382.1001. purity: >99% (method a; tr ) 3.86
+min), 100% (method d; tr ) 3.29 min).
+2-[[(tert-butyloxy)carbonyl]-amino]-4-methyl-n-(2,6-dimethylphenyl)-1,3-thiazole-5-carboxamide (5c): 1h nmr (400 mhz,
+dmso-d6) delta 11.69 (s, 1h), 9.23 (s, 1h), 7.09 (s, 3h), 2.48 (s,
+3h), 2.16 (s, 6h), 1.49 (s, 9h). hrms (esi) m/z calcd for
+c18h24n3o3s [m + h]+, 362.1539; found, 362.1544. purity: 100%
+(method a; tr ) 3.87 min), 98% (method d; tr ) 3.26 min).
+2-[[(tert-butyloxy)carbonyl]-amino]-4-methyl-n-(4-bromo-2,6dimethylphenyl)-1,3-thiazole-5-carboxamide (5d): 1h nmr (400
+mhz, dmso-d6) delta 11.73 (s, 1h), 9.27 (s, 1h), 7.32 (s, 2h), 2.47
+(s, 3h), 2.15 (s, 6h), 1.48 (s, 9h). hrms (esi) m/z calcd for
+c18h23brn3o3s [m + h]+, 440.0644; found, 440.0633. purity:
+>99% (method a; tr ) 4.24 min), 93% (method d; tr ) 3.44
+min).
+2-[[(tert-butyloxy)carbonyl]-amino]-4-methyl-n-phenyl-1,3thiazole-5-carboxamide (5f): 1h nmr (400 mhz, dmso-d6) delta
+11.77 (s, 1h), 9.88 (s, 1h), 7.67 (d, j ) 7.6 hz, 2h), 7.33 (t, j )
+7.6 hz, 2h), 7.09 (t, j ) 7.4 hz, 1h), 2.49 (s, 3h), 1.51 (s, 9h).
+hrms (esi) m/z calcd for c16h20n3o3s [m + h]+, 334.1226;
+found, 334.1239. purity: 98% (method d; tr ) 3.18 min), >92%
+(method e; tr ) 29.5 min).
+2-[[(tert-butyloxy)carbonyl]-amino]-4-methyl-n-(2-methylphenyl)-1,3-thiazole-5-carboxamide (5g): 1h nmr (400 mhz, dmsod6) delta 11.71 (s, 1h), 9.38 (s, 1h), 7.33 (d, j ) 7.63 hz, 1h), 7.24
+(d, j ) 7.63 hz, 1h), 7.18 (t, j ) 7.63 hz, 1h), 7.13 (t, j ) 7.63
+hz, 1h), 2.53 (s, 3h), 2.21 (s, 3h), 1.49 (s, 9h). hrms (esi) m/z
+calcd for c17h22n3o3s [m + h]+, 348.1387; found, 348.1397.
+purity: >95% (method a; tr ) 3.87 min), 98% (method d; tr )
+3.11 min).
+2-[[(tert-butyloxy)carbonyl]-amino]-4-methyl-n-(2-isopropyl6-methylphenyl)-1,3-thiazole-5-carboxamide (5h): 1h nmr (400
+mhz, dmso-d6) delta 11.70 (s, 1h), 9.24 (s, 1h), 7.13-7.24 (m, 2h),
+7.09 (dd, j ) 6.61, 2.03 hz, 1h), 3.10 (m, 1h), 2.47 (s, 3h), 2.15
+(s, 3h), 1.49 (s, 9h), 1.12 (d, j ) 5.09 hz, 6h). hrms (esi) m/z
+calcd for c20h28n3o3s [m + h]+, 390.1852; found, 390.1851.
+purity: >95% (method a; tr ) 4.17 min), >95% (method d; tr
+) 3.44 min).
+2-[[(tert-butyloxy)carbonyl]-amino]-4-methyl-n-(2-methoxy6-methylphenyl)-1,3-thiazole-5-carboxamide (5i): 1h nmr (400
+mhz, dmso-d6) delta 11.65 (s, 1h), 9.00 (s, 1h), 7.16 (t, j ) 7.9
+hz, 1h), 6.88 (d, j ) 7.9 hz, 1h), 6.83 (d, j ) 7.9 hz, 1h), 3.73
+(s, 3h), 2.47 (s, 3h), 2.14 (s, 3h), 1.48 (s, 9h). ms (esi) m/z 378
+[m + h]+. purity: 100% (method a; tr ) 3.79 min), 96% (method
+d; tr ) 3.17 min).
+2-[[(tert-butyloxy)carbonyl]-amino]-4-methyl-n-(2,4-dimethylphenyl)-1,3-thiazole-5-carboxamide (5j): 1h nmr (400 mhz,
+dmso-d6) delta 11.68 (s, 1h), 9.30 (s, 1h), 7.18 (d, j ) 8.1 hz, 1h),
+7.04 (s, 1h), 6.98 (d, j ) 8.1 hz, 1h), 2.53 (s, 3h), 2.26 (s, 3h),
+
+2-aminothiazole as a novel kinase inhibitor template
+
+2.16 (s, 3h), 1.48 (s, 9h). hrms (esi) m/z calcd for c18h24n3o3s
+[m + h]+, 362.1539; found, 362.1544. purity: 95% (method a;
+tr ) 4.05 min), 95% (method d; tr ) 3.43 min).
+2-amino-4-methyl-n-(2,4,6-trimethylphenyl)-1,3-thiazole-5carboxamide (1). a solution of 5a (10 g, 26.6 mmol) in
+trifluoroacetic acid (100 ml) was stirred at 0 °c for 3 h. the
+solution was concentrated, diluted with etoac, and washed with
+5% aq khco3 solution, water, and brine. the etoac extract was
+separated, dried ( xxxd2534xxx ), filtered, and concentrated. the residue
+was rinsed with etoac (200 ml) and accn (100 ml) and dried
+in vacuo to obtain 1 (91%) as a white solid. 1h nmr (270 mhz,
+dmso-d6) delta 8.68 (s, 1h), 7.38 (s, 2h), 6.9 (s, 2h), 4.88 (s, 2h),
+2.39 (s, 3h), 2.22 (s, 3h), 2.20 (s, 6h). 13c nmr (dmso-d6) delta
+167.9, 160.6, 153.8, 135.5, 132.9, 128.2, 112.0, 20.5, 18.1, 17.2.
+anal. calcd for c14h17n3os‚0.15h2o: c, 60.47; h, 6.27; n, 15.11;
+s, 11.53. found: c, 60.45; h, 6.19; n, 15.01; s, 11.61. purity:
+100% (method c; tr ) 4.77 min).
+2-[[(methoxy)carbonyl]-amino]-4-methyl-n-(2,4,6-trimethylphenyl)-1,3-thiazole-5-carboxamide (7a): a solution of 1 (100
+mg, 0.36 mmol), methyl chloroformate (111 µl, 1.44 mmol), and
+pyridine (87 µl, 1.08 mmol) in dichloromethane (3 ml) was stirred
+at rt for 1.5 h. the solution was diluted with dichloromethane,
+washed with aq nahco3 solution, and brine. dichloromethane
+extract was separated, dried ( xxxd2534xxx ), filtered, and concentrated.
+the residue was triturated with ether and dried in vacuo to obtain
+7a (88 mg, 82%) as a white solid. 1h nmr (400 mhz, dmso-d6)
+delta 11.99 (s, 1h), 9.18 (s, 1h), 6.90 (s, 2h), 3.75 (s, 3h), 2.50 (s,
+3h), 2.23 (s, 3h), 2.12 (s, 6h). hrms (esi) m/z calcd for
+c16h20n3o3s [m + h]+, 334.0564; found, 334.1225. purity: 100%
+(method e; tr ) 25.68 min).
+2-[[(benzyloxy)carbonyl]-amino]-4-methyl-n-(2,4,6-trimethylphenyl)-1,3-thiazole-5-carboxamide (7b): 1h nmr (270 mhz,
+dmso-d6) delta 12.2 (br s, 1h), 9.21 (s, 1h), 7.43 (m, 5h), 6.91 (s,
+2h), 5.25 (s, 2h), 2.5 (s, 3h), 2.24 (s, 3h), 2.13 (s, 6h). hrms
+(esi) m/z calcd for c22h24n3o3s [m + h]+, 410.1540; found,
+410.1537. purity: 98% (method b, gradient time 8 min; tr ) 8.66
+min).
+2-[[(tert-butyl)carbonyl]-amino]-4-methyl-n-(2,4,6-trimethylphenyl)-1,3-thiazole-5-carboxamide (7e): a solution of 1 (30
+mg, 0.11 mmol), tert-butylacetic acid (13.3 mg, 0.13 mmol), hobt
+(19.5 mg, 0.14 mmol), edac (26.8 mg, 0.14 mmol), and
+diisopropylethyl amine (60 µl, 0.34 mmol) in thf (400 µl) was
+heated to 45 °c in a sealed tube for 24 h. the mixture was diluted
+with ch2cl2 and washed with 2 n aq hcl solution. the ch2cl2
+solution was passed through a varian scx cation exchange column
+on a gilson robot. the column was eluted sequentially with
+ch3cn-meoh (10 ml, 4:1), 1.5 m methanolic nh3 solution (3
+ml), and 2 m methanolic nh3 solution (3 ml, 4×). fractions
+containing the product were concentrated in vacuo to obtain 7e
+(30 mg, 77%). 1h nmr (270 mhz, dmso-d6) delta 9.2 (s, 1h), 6.9
+(s, 2h), 2.55 (s, 3h), 2.25 (s, 3h), 2.14 (s, 6h), 1.25 (s, 9h). hrms
+(esi) m/z calcd for c19h25n3o2s [m + h]+, 360.1748; found,
+360.1751. purity: 100% (method b; tr ) 8.3 min).
+2-[(benzoyl)amino]-4-methyl-n-(2,4,6-trimethylphenyl)-1,3thiazole-5-carboxamide (7d): 1h nmr (270 mhz, cdcl3) delta 10.22
+(br s, 1h), 7.95 (d, 2h), 7.65 (t, 1h), 7.55 (t, 2h), 6.9 (m, 3h), 2.6
+(s, 3h), 2.25 (s, 3h), 2.2 (s, 6h). hrms (esi) m/z calcd for
+c21h22n3o2s [m + h]+, 380.1432; found, 380.1420. purity: >95%
+(method e; tr ) 29.8 min).
+2-[[(furanyl)carbonyl]-amino]-4-methyl-n-(2,4,6-trimethylphenyl)-1,3-thiazole-5-carboxamide (7f): 1h nmr (270 mhz,
+cdcl3) delta 7.62 (s, 1h), 7.42 (d, j ) 3.5 hz, 1h), 6.94 (s, 2h), 6.89
+(br s, 1h), 6.64 (m, 1h), 2.7 (s, 3h), 2.29 (s, 3h), 2.25 (s, 6h).
+ms (esi) m/z 370 [m + h]+. purity: 93% (method a; tr ) 4.45
+min).
+3-[[(furanyl)carbonyl]-amino]-4-methyl-n-(2,4,6-trimethylphenyl)-1,3-thiazole-5-carboxamide (7g): 1h nmr (400 mhz,
+dmso-d6) delta 12.69 (br s, 1h), 9.3 (s, 1h), 8.61 (s, 1h), 7.87 (s,
+1h), 7.12 (s, 1h), 6.93 (s, 2h), 2.54 (s, 3h), 2.25 (s, 3h), 2.15 (s,
+
+journal of medicinal chemistry, 2006, vol. 49, no. 23 6827
+
+6h).). hrms (esi) m/z calcd for c19h20n3o3s [m + h]+,
+370.1226; found, 370.1209. purity: 100% (method a; tr ) 4.54
+min).
+3-[[(thienyl)carbonyl]-amino]-4-methyl-n-(2,4,6-trimethylphenyl)-1,3-thiazole-5-carboxamide (7h): 1h nmr (400 mhz, dmsod6) delta 12.76 (s, 1h), 9.3 (s, 1h), 8.65 (s, 1h), 7.74 (d, j ) 5.09 hz,
+1h), 7.7 (m, 1h), 6.93 (s, 2h), 2.59 (s, 3h), 2.26 (s, 3h), 2.16 (s,
+6h). hrms (esi) m/z calcd for c19h20n3o2s2 [m + h]+,
+386.0999; found, 386.1008. purity: 100% (method a; tr ) 4.04
+min).
+3-[[(thienyl)carbonyl]-amino]-4-methyl-n-(2-chloro-6-methylphenyl)-1,3-thiazole-5-carboxamide (7i): 1h nmr (400 mhz,
+dmso-d6) delta 12.74 (s, 1h), 9.62 (s, 1h), 8.63 (s, 1h), 7.75 (dd, j
+) 5.09, 1.02 hz, 1h), 7.68-7.71 (m, 1h), 7.34-7.41 (m, 1h),
+7.22-7.30 (m, 2h), 2.59 (s, 3h), 2.24 (s, 3h). hrms (esi) m/z
+calcd for c17h15cln3o2s2 [m + h]+, 392.0294; found, 392.0288.
+purity: 97% (method a; tr ) 3.71 min).
+2-[[(thienyl)carbonyl]-amino]-4-methyl-n-(2-chloro-6-methylphenyl)-1,3-thiazole-5-carboxamide (7j): 1h nmr (400 mhz,
+dmso-d6) delta 12.91 (s, 1h), 9.63 (s, 1h), 8.24 (s, 1h), 7.98 (d, j )
+4.58 hz, 1h), 7.38 (dd, j ) 7.38, 1.78 hz, 1h), 7.17-7.32 (m,
+3h), 2.58 (s, 3h), 2.24 (s, 3h). hrms (esi) m/z calcd for c17h15cln3o2s2 [m + h]+, 392.0294; found, 392.0293. purity: 96%
+(method a; tr ) 3.7 min).
+2-[[(furanyl)carbonyl]-amino]-4-methyl-n-(2-chloro-6-methylphenyl)-1,3-thiazole-5-carboxamide (7k): 1h nmr (400 mhz,
+dmso-d6) delta 12.80 (s, 1h), 9.64 (s, 1h), 8.03 (s, 1h), 7.70 (s,
+1h), 7.38 (dd, j ) 7.12, 2.03 hz, 1h), 7.19-7.31 (m, 2h), 6.706.79 (m, 1h), 2.58 (s, 3h), 2.23 (s, 3h). hrms (esi) m/z calcd
+for c17h15cln3o3s [m + h]+, 376.0522; found, 376.0532. purity:
+98% (method a; tr ) 3.49 min).
+2-[(benzoyl)-amino]-4-methyl-n-(2-chloro-6-methylphenyl)1,3-thiazole-5-carboxamide (7l): 1h nmr (400 mhz, dmsod6) delta 12.92 (s, 1h), 9.65 (s, 1h), 8.11 (d, j ) 7.63 hz, 2h), 7.64
+(d, j ) 7.63 hz, 1h), 7.55 (t, j ) 7.63 hz, 2h), 7.36-7.41 (m,
+1h), 7.21-7.30 (m, 2h), 2.59 (s, 3h), 2.24 (s, 3h). hrms (esi)
+m/z calcd for c19h17cln3o2s [m + h]+, 386.0730; found,
+386.0739. purity: >95% (method a; tr ) 3.79 min).
+2-[[(cyclopropyl)carbonyl]-amino]-4-methyl-n-(2-chloro-6methylphenyl)-1,3-thiazole-5-carboxamide (7m): 1h nmr (400
+mhz, dmso-d6) delta 12.63 (s, 1h), 9.54 (s, 1h), 7.37 (dd, j)7.12,
+2.03 hz, 1h), 7.19-7.30 (m, 2h), 2.53 (s, 3h), 2.21 (s, 3h), 1.901.98 (m, 1h), 0.88-0.96 (m, 4h). hrms (esi) m/z calcd for
+c16h17cln3o2s [m + h]+, 350.0730; found, 350.0741. purity: 95%
+(method a; tr ) 3.41 min).
+2-acetamido-4-methyl-n-(2,4,6-trimethylphenyl)-1,3-thiazole5-carboxamide (7c): a solution of 1 (54 mg, 0.2 mmol), acetic
+anhydride (22 µl, 0.23 mmol) and 4-(n,n-dimethylamino)pyridine
+(3 mg) in ch2cl2 (4.5 ml) was stirred at rt for 4.5 h. the mixture
+was diluted with ch2cl2 and washed with 1 n aq hcl solution
+and water, dried ( xxxd2534xxx ), filtered, and concentrated. the residue
+was chromatographed on a silical gel column. elution with 35%
+etoac in hexanes afforded 7c (43 mg, 69%) as a white solid. 1h
+nmr (400 mhz, dmso-d6) delta 12.34 (s, 1h), 9.24 (s, 1h), 6.91 (s,
+2h), 2.53 (s, 3h), 2.25 (s, 3h), 2.17 (s, 3h), 2.13 (s, 6h). hrms
+(esi) m/z calcd for c16h20n3o2s [m + h]+, 318.1276; found,
+318.1276. purity: 98% (method d; tr ) 2.7 min), purity: 95%
+(method e; tr ) 25.07 min).
+2-[[(phenylamino)-carbonyl]amino]-4-methyl-n-(2,4,6-trimethylphenyl)-1,3-thiazole-5-carboxamide (8b): a solution of 1
+(80 mg, 0.29 mmol) and phenyl isocyanate (103.5 mg, 0.87 mmol)
+in thf (3.5 ml) and pyridine (2 ml) was heated to 60-70 °c for
+5 h. the mixture was cooled to room temperature, diluted with
+ch2cl2, washed with 1 n aq hcl solution, water, and brine, dried
+( xxxd2534xxx ), filtered, and concentrated. the residue was purified by
+chromatography on a silica gel column. elution with 20% etoac
+in hexanes followed by 40% etoac in hexane afforded 8b (60
+mg, 52%) as a white solid. 1h nmr (270 mhz, cdcl3 + cd3od) delta 7.5 (d, 2h), 7.35 (t, 2h), 7.15 (t, 1h), 6.95 (s, 2h), 2.65 (s,
+3h), 2.3 (s, 3h), 2.25 (s, 6h). hrms (esi) m/z calcd for
+
+6828
+
+journal of medicinal chemistry, 2006, vol. 49, no. 23
+
+c21h23n4o2s [m + h]+, 395.1541; found, 395.1533. purity: >95%
+(method b; tr ) 30.45 min).
+2-[[(methylamino)-carbonyl]amino]-4-methyl-n-(2,4,6-trimethylphenyl)-1,3-thiazole-5-carboxamide (8a): 1h nmr (270
+mhz, cd3od) delta 6.95 (s, 2h), 2.9 (s, 3h), 2.65 (s, 3h), 2.3 (s,
+3h), 2.2 (s, 6h). hrms (esi) m/z calcd for c16h21n4o2s [m +
+h]+, 333.1385; found, 333.1373. purity: >95% (method b; tr )
+24.48 min).
+2-[[(butylamino)-carbonyl]amino]-4-methyl-n-(2,4,6-trimethylphenyl)-1,3-thiazole-5-carboxamide (8c): 1h nmr (270 mhz,
+cdcl3 + cd3od) 6.92 (s, 2h), 3.28 (t, j ) 7 hz, 2h), 2.63 (s,
+3h), 2.28 (s, 3h), 2.22 (s, 6h), 1.54 (m, 2h), 1.39 (m, 2h), 0.95
+(t, j ) 7 hz, 3h). hrms (esi) m/z calcd for c19h27n4o2s [m +
+h]+, 375.1854; found, 375.1845. purity: >95% (method b; tr )
+30.49 min).
+2-[[(tert-butylamino)carbonyl]-amino]-4-methyl-n-(2,4,6-trimethylphenyl)-1,3-thiazole-5-carboxamide (8d): phenyl chloroformate (1.39 ml, 11.1 mmol) was added dropwise to a stirred
+biphasic solution of 1 (1.02 g, 3.7 mmol) and 10% aq khco3
+solution (170 ml) in thf (130 ml). the mixture was stirred at rt
+overnight, diluted with ch2cl2 (200 ml), and washed with water
+and brine. the organic extract was separated, dried ( xxxd2534xxx ),
+filtered, and concentrated. the residue was chromatographed on a
+silica gel column. elution with 10% etoac in hexanes afforded
+phenyl carbamate (980 mg, 69%). 1h nmr (270 mhz, dmsod6) delta 12.55 (br s, 1h), 9.25 (s, 1h), 7.45 (m, 2h), 7.3 (m, 3h), 6.9
+(s, 2h), 2.52 (s, 3h), 2.2 (s, 3h), 2.1 (s, 6h). ms (esi) m/z 408
+[m + h]+.
+a solution of phenyl carbamate (20 mg, 0.054 mmol) and tertbutyl amine (6 mg, 0.08 mmol) in thf-ch3cn (3 ml, 1:1) was
+heated to 60 °c overnight. the solution was cooled to rt, diluted
+with ch2cl2, washed with 1 n aq. hcl solution, and 1 n aq. naoh
+solution. the organic extract was dried ( xxxd2534xxx ), filtered, and
+concentrated to obtain 8d (16 mg, 84%) as a white solid. 1h nmr
+(400 mhz, dmso-d6) delta 10.20 (s, 1h), 9.04 (s, 1h), 6.88 (s, 2h),
+6.54 (s, 1h), 2.44 (s, 3h), 2.23 (s, 3h), 2.11 (s, 6h), 1.30 (s, 9h).
+hrms (esi) m/z calcd for c19h27n4o2s [m + h]+, 375.1855;
+found, 375.1838. purity: 99% (method b, 8 min gradient; tr )
+8.48 min).
+2-[[(benzylamino)carbonyl]-amino]-4-methyl-n-(2,4,6-trimethylphenyl)-1,3-thiazole-5-carboxamide (8e): 1h nmr (400
+mhz, dmso-d6) delta 10.73 (s, 1h), 9.07 (s, 1h), 7.34 (t, 2h), 7.29
+(t, 2h), 7.25 (t, j ) 6.87 hz, 1h), 7.09 (br s, 1h), 6.88 (s, 2h),
+4.34 (d, j ) 6.10 hz, 2h), 2.46 (s, 3h), 2.22 (s, 3h), 2.11 (s, 6h).
+hrms (esi) m/z calcd for c22h25n4o2s [m + h]+, 409.1698;
+found, 409.1683. purity: 100% (method e, 8 min gradient; tr )
+8.52 min).
+2-[[(n-butylamino)carbonyl]-amino]-4-methyl-n-(2-chloro-6methylphenyl)-1,3-thiazole-5-carboxamide (8f): 1h nmr (400
+mhz, cd3od) delta 7.48 (dd, j ) 6.9, 3.7 hz, 1h), 7.35 (m, 2h), 3.4
+(t, j ) 7 hz, 2h), 2.7 (s, 3h), 2.46 (s, 3h), 1.66 (m, 2h), 1.55 (m,
+2h), 1.12 (t, j ) 7 hz, 3h). ms (esi) m/z 381.1 [m + h]+.
+purity: 100% (method f; tr ) 4.51 min).
+n-(2-chloro-6-methylphenyl)-2-[(cyclopropylcarbonyl)amino]1,3-thiazole-5-carboxamide (7n): 2-tert-butoxycarbonyloxyaminothiazole-5-carboxylic acid 4c was prepared from ethyl 2-aminothiazole-5-carboxylate 3b following the procedure used in the
+preparation of 4a. a 2 m solution of oxalyl chloride (1 ml, 2 mmol)
+was added dropwise to a stirred solution of 2-tert-butoxycarbonyloxyamino-thiazole-5-carboxylic acid 4c (234 mg, 1 mmol) and
+dmf (3 drops) in thf (10 ml). the solution was stirred at rt for
+4 h and concentrated under reduced pressure and in vacuo to obtain
+the crude acid chloride of 4c.
+2-chloro-6-methylaniline (212 mg, 1.5 mmol) was added dropwise to a stirred solution of crude acid chloride (∼1 mmol) in ch2cl2 (10 ml) at 0 °c. diisopropylethylamine (516 mg, 4 mmol)
+was added. the solution was warmed to rt and stirred for 24 h,
+diluted with ch2cl2 (60 ml), and washed with 2 n aq hcl solution
+(15 ml). the organic extract was separated, dried ( xxxd2534xxx ), filtered,
+and concentrated. the residue was diluted with etoac-et2o (25
+
+das et al.
+
+ml, 4:1). the solid was filtered, washed with ether, and dried in
+vacuo to obtain 5k (r ) 2-cl, 6-me) as a tan solid (175 mg, 48%).
+a solution of 5k (175 mg, 0.48 mmol) in trifluoroacetic acid (1
+ml) and ch2cl2 (1 ml) was stirred at 0 °c for 2 h and concentrated
+in vacuo. the residue was diluted with ch2cl2, washed with water,
+satd nahco3 solution, dried (na2so4), and concentrated to obtain
+6b (r ) 2-cl,6-me) as a glassy solid (51 mg, 40%). 1h nmr
+(400 mhz, dmso-d6) delta 9.62 (s, 1h), 7.85 (s, 1h), 7.60 (s, 2h),
+7.36 (dd, j ) 7.38, 1.78 hz, 1h), 7.16-7.29 (m, 2h), 2.19 (s,
+3h). 13c nmr (dmso-d6) delta 18.2, 120.6, 126.8, 127.9, 128.9,
+132.4, 133.6, 138.8, 142.9, 159.5. ms (esi) 268.23 [m + h]+.
+a solution of amine 6b [r ) 2-cl,6-me] (51 mg, 0.19 mmol)
+and cyclopropanecarboxylic acid anhydride (302 mg, 1.96 mmol)
+in dioxane (2 ml) was heated to 93 °c overnight. the mixture
+was cooled to rt and concentrated in vacuo. the residue was diluted
+with etoac, washed with satd khco3 solution, dried (na2so4),
+filtered, and concentrated. the residue was triturated with ether to
+obtain 7n (11 mg, 18%) as a white solid. 1h nmr (400 mhz,
+dmso-d6) delta 12.71 (br s, 1h), 10.02 (s, 1h), 8.28 (s, 1h), 7.39
+(dd, j ) 7.38, 1.78 hz, 1h), 7.23-7.31 (m, 2h), 2.21 (s, 3h),
+1.97 (ddd, j ) 12.08, 7.25, 5.09 hz, 1h), 0.89-0.98 (m, 4h).
+hrms (esi) m/z calcd for c15h15cln3o2s [m + h]+, 336.0573;
+found, 336.0569. purity: 100% (method d; tr ) 2.52 min), 100%
+(method f; tr ) 3.25 min).
+n-(2-chloro-6-methylphenyl)-2-[(ethylcarbonyl)amino]-1,3thiazole-5-carboxamide (7o): 1h nmr (400 mhz, dmso-d6) delta
+12.39 (s, 1h), 10.03 (s, 1h), 8.27 (s, 1h), 7.39 (d, j ) 7.4 hz,
+1h), 7.21-7.34 (m, 2h), 3.37 (q, j ) 7.5 hz, 2h), 2.22 (s, 3h),
+1.11 (t, j ) 7.6 hz, 3h). hrms (esi) m/z calcd for c14h15cln3o2s
+[m + h]+, 324.0573; found, 324.0580. purity: 95% (method a;
+tr ) 3.53 min), 96% (method d; tr ) 2.39 min).
+n-(2-chloro-6-methylphenyl)-2-[(phenylcarbonyl)amino]-1,3thiazole-5-carboxamide (7r): 1h nmr (400 mhz, dmso-d6) delta
+12.99 (s, 1h), 10.09 (s, 1h), 8.38 (s, 1h), 8.12 (d, j ) 7.63 hz,
+2h), 7.66 (t, j ) 7.38 hz, 1h), 7.52-7.62 (m, 2h), 7.41 (dd, j )
+7.63, 2.03 hz, 1h), 7.23-7.33 (m, 2h), 2.24 (s, 3h). hrms (esi)
+m/z calcd for c18h15cln3o2s [m + h]+, 372.0573; found,
+372.0569. purity: 94% (method a; tr ) 3.61 min), >95% (method
+d; tr ) 2.94 min).
+n-(2-chloro-6-methylphenyl)-2-[(2-thienylcarbonyl)amino]1,3-thiazole-5-carboxamide (7s): 1h nmr (400 mhz, dmsod6) delta 13.09 (s, 1h), 10.10 (s, 1h), 8.39 (s, 1h), 8.32 (s, 1h), 8.03
+(d, j ) 4.07 hz, 1h), 7.42 (dd, j ) 7.63, 2.03 hz, 1h), 7.20-7.36
+(m, 3h), 2.25 (s, 3h). hrms (esi) m/z calcd for c16h13cln3o2s2
+[m + h]+, 378.0138; found, 378.0137. purity: 98% (method a;
+tr ) 3.61 min), 93% (method d; tr ) 2.85 min).
+n-(2-chloro-6-methylphenyl)-2-[(3-thienylcarbonyl)amino]1,3-thiazole-5-carboxamide (7t): 1h nmr (400 mhz, dmsod6) delta 12.86 (s, 1h), 10.08 (s, 1h), 8.67 (s, 1h), 8.37 (s, 1h), 7.76
+(d, j ) 4.58 hz, 1h), 7.71 (dd, j ) 4.58, 2.80 hz, 1h), 7.40 (dd,
+j ) 7.38, 1.78 hz, 1h), 7.22-7.34 (m, 2h), 2.23 (s, 3h). hrms
+(esi) m/z calcd for c16h13cln3o2s2 [m + h]+, 378.0138; found,
+378.0136. purity: 98% (method a; tr ) 3.60 min), >95% (method
+d; tr ) 2.85 min).
+n-(2-chloro-6-methylphenyl)-2-[(2-furanylcarbonyl)amino]1,3-thiazole-5-carboxamide (7u): 1h nmr (400 mhz, dmsod6) delta 12.96 (s, 1h), 10.08 (s, 1h), 8.35 (s, 1h), 8.05 (s, 1h), 7.72
+(s, 1h), 7.40 (dd, j ) 7.38, 1.78 hz, 1h), 7.19-7.33 (m, 2h),
+6.76 (s, 1h), 2.23 (s, 3h). hrms (esi) m/z calcd for c16h13cln3o3s [m + h]+, 362.0366; found, 362.0362. purity: 95%
+(method a; tr ) 3.61 min), 93% (method d; tr ) 2.62 min).
+n-(2-chloro-6-methylphenyl)-2-[(cyclobutylcarbonyl)amino]1,3-thiazole-5-carboxamide (7v): 1h nmr (400 mhz, dmsod6) delta 12.30 (s, 1h), 10.02 (s, 1h), 8.27 (s, 1h), 7.39 (dd, j ) 7.12,
+2.03 hz, 1h), 7.22-7.31 (m, 2h), 3.38 (m, 1h), 2.19-2.28 (m,
+2h), 2.22 (s, 3h), 2.10-2.19 (m, 2h), 1.89-2.04 (m, 1h), 1.781.87 (m, 1h). hrms (esi) m/z calcd for c16h17cln3o2s [m +
+h]+, 350.0730; found, 350.0720. purity: 91% (method a; tr )
+3.52 min), 90% (method d; tr ) 2.75 min).
+n-(2-chloro-6-methylphenyl)-2-[(cyclopentylcarbonyl)amino]1,3-thiazole-5-carboxamide (7w): 1h nmr (400 mhz, dmso-
+
+2-aminothiazole as a novel kinase inhibitor template
+
+d6) delta 12.42 (s, 1h), 10.02 (s, 1h), 8.27 (s, 1h), 7.39 (dd, j ) 7.38,
+1.78 hz, 1h), 7.20-7.32 (m, 2h), 2.86-3.02 (m, 1h), 2.21 (s,
+3h), 1.50-1.99 (m, 8h). hrms (esi) m/z calcd for c17h19cln3o2s
+[m + h]+, 364.0886; found, 364.0891. purity: 93% (method a;
+tr ) 3.59 min), >95% (method d; tr ) 2.95 min).
+n-(2-chloro-6-methylphenyl)-2-[(2,6-dimethyl-4-pyrimidinyl)amino]-1,3-thiazole-5-carboxamide (12m): a solution of copper(ii) bromide (2.68 g, 12 mmol) in ch3cn (50 ml) was purged
+with nitrogen and cooled to 0 °c. t-butyl nitrite (2 ml, 15 mmol)
+was added. a solution of amine 6b [r ) 2-cl,6-me] (2.68 g, 10
+mmol) in accn (50 ml) was added. the mixture was stirred at rt
+and concentrated, and the residue was dissolved in etoac and
+washed with satd nahco3 solution. the precipitate was removed
+by filtration, and the etoac extract was dried (na2so4), filtered,
+and concentrated. the residue was crystallized from etoac/ether/
+hexanes mixture to obtain bromide 11 [r ) 2-cl,6-me] (1.68 g,
+51%) as a yellow solid. 1h nmr (500 mhz, dmso-d6) delta 10.39
+(s, 1h), 8.44 (s, 1h), 7.41 (dd, j ) 7.15, 2.20 hz, 1h), 7.24-7.32
+(m, 2h), 2.22 (s, 3h). hrms (esi) m/z calcd for c11h8n2osbrcl
+[m - h]-, 328.9150; found, 328.9153.
+sodium hydride (95%; 609 mg, 24.1 mmol) was added to a
+solution of bromide 11 [r ) 2-cl,6-me] (1 g, 3.02 mmol) and
+2,6-dimethyl-4-amino-pyrimidine (1.49 g, 12.06 mmol) in thf (10
+ml). the solution was heated under reflux overnight, cooled to rt,
+and quenched by addition of glacial acetic acid and methanol. the
+reaction mixture was concentrated, and the residue was diluted with
+water and saturated aq nahco3 solution. the solid was collected
+by filtration, washed with water and a minimal amount of methanol,
+and dried in vacuo to obtain a pale yellow solid that was suspended
+in meoh and treated with concd hcl (62 µl, 0.74 mmol). the
+solution was concentrated and triturated with etoh and ether to
+obtain 12m as its hydrochloride salt (240 mg, 19%) as a light yellow
+solid. 1h nmr (400 mhz, dmso-d6) delta 11.96 (s, 1h), 9.96 (s,
+1h), 8.29 (s, 1h), 7.41 (m, 1h), 7.28 (m, 2h), 6.74 (s, 1h), 2.56
+(s, 3h), 2.36 (s, 3h), 2.25 (s, 3h). hrms (esi) m/z calcd for
+c17h17cln5os [m + h]+, 374.0842; found, 374.0840. purity:
+100% (method a; tr ) 2.64 min), >95% (method d; tr ) 2.07
+min).
+n-(2-chloro-6-methylphenyl)-2-[(3-pyridinyl)amino]-1,3-thiazole-5-carboxamide (12b): 1h nmr (500 mhz, dmso-d6) delta
+10.81 (s, 1h), 9.95 (s, 1h), 8.77 (d, j ) 2.20 hz, 1h), 8.16-8.24
+(m, 2h), 8.15 (s, 1h), 7.34-7.42 (m, 2h), 7.21-7.31 (m, 2h),
+2.23 (s, 3h). hrms (esi) m/z calcd for c16h14cln4os [m + h]+,
+345.0578; found, 345.0576. purity: 99% (method a; tr ) 2.47
+min).
+n-(2-chloro-6-methylphenyl)-2-[(4-pyridinyl)amino]-1,3-thiazole-5-carboxamide (12c): 1h nmr (500 mhz, dmso-d6) delta 11.70
+(s, 1h), 10.13 (s, 1h), 8.53 (d, j ) 6.60 hz, 2h), 8.29 (s, 1h),
+7.86 (d, j ) 3.85 hz, 2h), 7.40 (d, j ) 7.70 hz, 1h), 7.23-7.32
+(m, 2h), 2.23 (s, 3h). hrms (esi) m/z calcd for c16h14cln4os
+[m + h]+, 345.0578; found, 345.0564. purity: 97% (method a;
+tr ) 2.49 min).
+n-(2,4,6-trimethylphenyl)-2-[(2-pyridinyl)amino]-1,3-thiazole-5-carboxamide (12e): 1h nmr (500 mhz, dmso-d6) delta 11.61
+(s, 1h), 9.50 (s, 1h), 8.35 (d, j ) 3.85 hz, 1h), 8.19 (s, 1h),
+7.71-7.78 (m, 1h), 7.10 (d, j ) 8.25 hz, 1h), 6.98 (dd, j ) 6.87,
+5.22 hz, 1h), 6.91 (s, 2h), 2.24 (s, 3h), 2.13 (s, 6h). hrms (esi)
+m/z calcd for c18h19n4os [m + h]+, 339.1280; found, 339.1272.
+purity: 99% (method a; tr ) 3.66 min).
+n-(2,6-dimethylphenyl)-2-[(3-pyradizinyl)amino]-1,3-thiazole5-carboxamide (12g): 1h nmr (500 mhz, dmso-d6) delta 11.85
+(s, 1h), 9.67 (s, 1h), 8.88 (d, j ) 4.4 hz, 1h), 8.25 (s, 1h), 7.64
+(dd, j ) 8.8, 4.4 hz, 1h), 7.41 (d, j ) 8.8 hz, 1h), 7.11 (s, 3h),
+2.19 (s, 6h). hrms (esi) m/z calcd for c16h16n5os [m + h]+,
+326.1070; found, 326.1076. purity: 95% (method a; tr ) 2.97
+min).
+n-(2-chloro-6-methylphenyl)-2-[(3,5-dimethyl-2-pyrazinyl)amino]-1,3-thiazole-5-carboxamide (12h): 1h nmr (500 mhz,
+dmso-d6) delta 11.17 (s, 1h), 9.89 (s, 1h), 8.29 (s, 1h), 8.12 (s,
+1h), 7.38 (d, j ) 7.7 hz, 1h), 7.21-7.31 (m, 2h), 2.57 (s, 3h),
+2.39 (s, 3h), 2.23 (s, 3h). hrms (esi) m/z calcd for c17h17cln5-
+
+journal of medicinal chemistry, 2006, vol. 49, no. 23 6829
+
+os [m + h]+, 374.0843; found, 374.0854. purity: 99% (method
+a; tr ) 3.58 min).
+n-(2-chloro-6-methylphenyl)-2-[(6-methyl-2-pyridinyl)amino]1,3-thiazole-5-carboxamide (12j): 1h nmr (500 mhz, dmsod6) delta 11.59 (s, 1h), 9.83 (s, 1h), 8.24 (s, 1h), 7.63 (t, j ) 7.79
+hz, 1h), 7.39 (d, j ) 7.33 hz, 1h), 7.21-7.31 (m, 2h), 6.90 (d,
+j ) 8.25 hz, 1h), 6.85 (d, j ) 7.79 hz, 1h), 2.50 (s, 3h), 2.24 (s,
+3h). hrms (esi) m/z calcd for c17h16cln4os [m + h]+,
+359.0734; found, 359.0731. purity: >95% (method a; tr ) 3.61
+min).
+n-(2-chloro-6-methylphenyl)-2-[(4-methyl-2-pyridinyl)amino]1,3-thiazole-5-carboxamide (12k): 1h nmr (500 mhz, dmsod6) delta 11.59 (s, 1h), 9.83 (s, 1h), 8.17-8.25 (m, 2h), 7.38 (dd, j
+) 7.7, 1.65 hz, 1h), 7.21-7.30 (m, 2h), 6.91 (s, 1h), 6.84 (d, j
+) 5.5 hz, 1h), 2.30 (s, 3h), 2.23 (s, 3h). hrms (esi) m/z calcd
+for c17h16cln4os [m + h]+, 359.0734; found, 359.0741. purity:
+98% (method a; tr ) 3.29 min).
+n-(2-chloro-6-methylphenyl)-2-[(4,6-dimethyl-2-pyridinyl)amino]-1,3-thiazole-5-carboxamide (12l): 1h nmr (400 mhz,
+dmso-d6) delta 11.53 (s, 1h), 9.82 (s, 1h), 8.23 (s, 1h), 7.39 (d, j )
+7.63 hz, 1h), 7.16-7.34 (m, 2h), 6.70 (d, j ) 2.54 hz, 2h), 2.43
+(s, 3h), 2.25 (s, 3h), 2.23 (s, 3h). ms (esi) m/z 373 [m + h]+.
+purity: >98% (method a; tr ) 3.58 min).
+2-chloro-n-[2-chloro-6-methylphenyl]-1,3-thiazole-5-carboxamide (14): a 2.5 m solution of n-butyllithium in hexanes (1.68
+ml, 4.2 mmol) was added dropwise to a solution of 2-chlorothiazole
+13 (480 mg, 4 mmol) in thf (10 ml) at -78 °c. the reaction
+mixture was maintained below -75 °c during addition. after 15
+min, a solution of 2-chloro-6-methylphenyl isocyanate (600 µl,
+4.4 mmol) in thf (5 ml) was added. the solution was stirred at
+-78 °c for 2 h, quenched by addition of saturated aq nh4cl
+solution (10 ml), and partitioned between etoac and water. the
+etoac extract was separated, washed with brine, dried ( xxxd2534xxx ),
+filtered, and concentrated. the residue was crystallized from
+etoac-hexanes to obtain 14 (988 mg, 86%) as a pale yellow solid.
+1h nmr (400 mhz, cdcl ) delta 8.08 (s, 1h), 7.97 (s, 1h), 7.27 (m,
+3
+1h), 7.16 (m, 2h), 2.25 (s, 3h). ms (esi) m/z 286 [m + h]+.
+n-(4-methoxybenzyl)-2-chloro-[2-chloro-6-methylphenyl]-1,3thiazole-5-carboxamide (15): sodium hydride (95% dispersion,
+60 mg, 2.4 mmol) was added to a solution of 14 (574 mg, 2 mmol)
+in dmf (5 ml). after 30 min, the mixture was treated with
+4-methoxybenzyl chloride (325 µl, 2.4 mmol) and tetrabutylammonium iodide (148 mg, 0.4 mmol) and then stirred at rt for 16 h.
+the mixture was diluted with etoac and water. the etoac extract
+was separated, washed with brine, dried ( xxxd2534xxx ), filtered, and
+concentrated. the residue was chromatographed on a silica gel
+column and eluted with 90% etoac in hexanes to obtain 15 as a
+colorless viscous oil (95% dispersion, 676 mg, 95%). 1h nmr (400
+mhz, dmso-d6) delta 7.48 (d, j ) 8.3 hz, 1h), 7.42 (s, 1h), 7.41
+(dd, j ) 7.7, 8.3 hz, 1h), 7.28 (d, j ) 7.7 hz, 1h), 7.11 (d, j )
+8.3 hz, 2h), 6.78 (d, j ) 8.8 hz, 2h), 5.85 (d, j ) 14.0 hz, 1h),
+4.50 (d, j ) 14.0 hz, 1h), 3.66 (s, 3h), 1.72 (s, 3h). 13c nmr
+(100 mhz, dmso-d6) delta 159.3, 155.3, 145.8, 140.5,136.1, 134.0,
+133.7, 131.6, 131.5, 130.9, 128.9, 127.6, 113.9, 55.2, 51.6, 17.9.
+ms (esi) m/z 408 (m + h)+.
+n-(4-methoxybenzyl)-2-(6-chloro-2-methylpyrimidin-4-ylamino)-n-(2-chloro-6-methylphenyl)-1,3-thiazole-5-carboxamide (16):
+4-amino-6-chloro-2-methylpyrimidine (14.4 g, 0.10 mol) was added
+in portions to a suspension of sodium hydride (60% dispersion,
+12.0 g, 0.30 mol) in thf (300 ml) at 0 °c. after 30 min, 15 (27.2
+g, 0.067 mol) was added in portions. the mixture was heated at
+reflux for 4 h, cooled to room temperature, and diluted with h2o
+(10 ml). the mixture was acidified with 1 n hcl (500 ml) and
+extracted with 10% meoh in chloroform (250 ml, 3×). the
+combined extracts were dried ( xxxd2534xxx ), filtered, and concentrated
+in vacuo to obtain a solid that was triturated with ether to give 16
+(28.4 g, 83%). 1h nmr (400 mhz, dmso-d6) delta 7.54 (d, j ) 8.5
+hz, 1h), 7.46 (s, 1h), 7.43 (dd, j ) 8.3, 7.7 hz, 1h), 7.30 (d, j )
+7.7 hz, 1h), 7.16 (d, j ) 8.3 hz, 2h), 6.74 (s, 1h), 6.83 (d, j )
+
+6830
+
+journal of medicinal chemistry, 2006, vol. 49, no. 23
+
+8.8 hz, 2h), 5.21 (d, j ) 13.7 hz, 1h), 4.44 (d, j ) 13.7 hz, 1h),
+3.71 (s, 3h), 2.45 (s, 3h), 1.72 (s, 3h). ms (esi) m/z 515 (m +
+h)+.
+2-(6-chloro-2-methylpyrimidin-4-ylamino)-n-(2-chloro-6-methylphenyl)-1,3-thiazole-5-carboxamide (17): a solution of 16 (6.6
+g, 13 mmol) dissolved in a mixture of ch2cl2 and tfa (50 ml,
+1:1) was treated with triflic acid (6.8 g, 45 mmol) and stirred at rt
+for 3 h. the mixture was poured onto crushed ice (150 g) and
+extracted with chcl3 (100 ml, 3×). the desired product precipitated from solution upon standing at room temperature and was
+collected by filtration and dried in vacuo to give compound 17 (5.0
+g, 99%). 1h nmr (400 mhz, dmso-d6) delta 12.24 (br s, 1h), 10.02
+(s, 1h), 8.32 (s, 1h), 7.41 (d, j ) 7.7 hz, 1h), 7.30 (dd, j ) 6.1,
+6.7 hz, 1h), 7.26 (d, j ) 7.7 hz, 1h), 6.95 (s, 1h), 2.59 (s, 3h),
+2.24 (s, 3h). ms (esi) m/z 395 (m + h)+.
+ xxxd1815xxx , hydrochloride salt (2): a mixture of 17 (34.7 g, 88.1
+mmol), diisopropylethylamine (3.6 ml, 0.17 mol), and 1-(2hydroxyethyl)piperazine (54 ml, 0.44 mol) in 1, xxxd1904xxx  (300
+ml) was refluxed for 12 h. the mixture was concentrated under
+vacuum, and the solid was triturated successively with h2o, aqueous
+meoh, and et2o (2×) and dried in vacuo. the solid was
+resuspended in ether-methanol, treated with 2 n hcl (44 ml),
+and vigorously stirred for 30 min. the precipitate was collected
+by filtration and triturated successively with ether, ether-methanol,
+and then ether. the solid was dried in vacuo to give 2 (42.2 g,
+91%) as its hydrochloride salt. mp ) 279-280 °c (free base). 1h
+nmr (400 mhz, dmso-d6) delta 11.67 (br s, 1h), 10.50 (br s, 1h),
+9.96 (s, 1h), 8.27 (s, 1h), 7.40 (d, j ) 7.7 hz, 1h), 7.28 (dd, j )
+6.6, 6.7 hz, 1h), 7.25 (d, j ) 7.7 h, 1 hz), 6.17 (s, 1h), 4.33 (d,
+j ) 12.6 hz, 2h), 3.79 (dd, j ) 5.0, 5.5 hz, 2h), 3.60 (d, j )
+11.6 hz, 2h), 3.38 (dd, j ) 12.1, 12.6 hz, 2h), 3.22 - 3.19 (m,
+2h), 3.13 - 3.07 (m, 2h), 2.45 (s, 3h), 2.24 (s, 3h). 13c nmr
+(125 mhz, dmso-d6) delta 165.7, 162.8, 162.1, 160.4, 157.5, 141.2,
+139.4, 133.8, 133.0, 129.6, 128.8, 127.6, 126.5, 84.0, 58.1, 55.2,
+51.1 (2), 41.2 (2), 25.7, 18.8. hrms (esi) m/z calcd for c22h27cln7o2s (m + h)+, 488.1635; found, 488.1636. anal. calcd for
+ xxxd1815xxx : c, 54.14; h, 5.37; n, 20.09. found: c, 53.90;
+h, 5.30; n, 20.07. purity: 100% (method a; tr ) 2.72 min).
+n-(2-chloro-6-methylphenyl)-2-(6-(2-hydroxyethylamino)pyridin-2-ylamino)-1,3-thiazole-5-carboxamide (12p): 1h nmr
+(400 mhz, dmso-d6) delta 11.27 (s, 1h), 9.77 (s, 1h), 8.19 (s, 1h),
+7.38 (dd, j ) 2.17, 7.23 hz, 1h), 7.32-7.22 (m, 3h), 6.16 (d, j )
+7.63 hz, 1h), 6.09 (d, j ) 8.13 hz, 1h), 3.60-3.57 (m, 2h), 3.503.45 (m, 2h), 2.23 (s, 3h). hrms (esi) m/z calcd for c18h19cln5o2s (m + h)+, 404.0948; found, 404.0964. anal. calcd for
+c18h18cln5o2s‚1.0hcl‚0.2h2o: c, 48.69; h, 4.40; n, 15.77.
+found: c, 48.65; h, 4.18; n, 15.59. purity: >99% (method a; tr
+) 3.08 min).
+n-(2-chloro-6-methylphenyl)-2-(6-(3-morpholinopropylamino)pyridin-2-ylamino)-1,3-thiazole-5-carboxamide (12q): 1h nmr
+(400 mhz, dmso-d6) delta 11.39 (s, 1h), 9.55 (s, 1h), 9.57 (br s,
+1h), 8.27 (s, 1h), 7.39 (d, j ) 7.63 hz, 1h), 7.33 (dd, j ) 7.63
+hz, 7.63 hz, 1h), 7.29-7.22 (m, 2h), 6.97 (br s, 1h), 6.19 (d, j
+) 7.63 hz, 1h), 6.05 (d, j ) 8.13 hz, 1h), 3.88 (d, j ) 13.74 hz,
+3h), 3.55 (t, j ) 11.69 hz, 2h), 3.46-3.37 (m, 3h), 3.29-3.23
+(m, 2h), 3.03-2.93 (m, 2h), 2.23 (s, 3h), 2.03-1.97 (m, 2h).
+hrms (esi) m/z calcd for c23h28cln6o2s (m + h)+, 487.1683;
+found, 487.1696. purity: >98% (method a; tr ) 2.87 min).
+2-(6-(3-(1h-imidazol-1-yl)propylamino)pyridin-2-ylamino)n-(2-chloro-6-methylphenyl)-1,3-thiazole-5-carboxamide (12r):
+1h nmr (500 mhz, cd od) delta 8.99 (s, 1h), 8.36 (s, 1h), 7.70 (s,
+3
+1h), 7.65 (br s, 1h), 7.54 (s, 1h),7.36-7.38 (dd, j ) 2.2, 7.2 hz,
+1h), 7.25-7.28 (m, 2h), 6.39-6.44 (m, 2h), 4.46 (t, j ) 7.4 hz,
+2h), 3.55 (t, j ) 7.2 hz, 2h), 2.32-2.36 (m, 5h). hrms (esi)
+m/z calcd for c22h23cln7os (m + h)+, 468.1373; found, 468.1394.
+purity: >98% (method a; tr ) 2.83 min).
+n-(2-chloro-6-methylphenyl)-2-(6-morpholinopyrimidin-4ylamino)-1,3-thiazole-5-carboxamide (12s): 1h nmr (500 mhz,
+dmso-d6) delta 11.75 (br s, 1h), 9.98 (s, 1h), 8.45 (s, 1h), 8.26 (s,
+
+das et al.
+
+1h), 7.39 (dd, j ) 1.65, 7.38 hz, 1h), 7.29-7.24 (m, 2h), 6.29
+(s, 1h), 3.70-3.68 (m, 4h), 3.53-3.51 (m, 4h), 2.23 (s, 3h).
+hrms (esi) m/z calcd for c19h20cln6o2s (m + h)+, 431.1057;
+found, 431.1055. anal. calcd for c19h19cln6o2s‚1.0hcl: c, 48.83;
+h, 4.31; n, 17.98. found: c, 48.76; h, 4.21; n, 17.80. purity:
+>98% (method a; tr ) 3.44 min).
+n-(2-chloro-6-methylphenyl)-2-(2-methyl-6-morpholinopyrimidin-4-ylamino)-1,3-thiazole-5-carboxamide (12t): 1h nmr
+(400 mhz, dmso-d6) delta 11.52 (s, 1h), 9.88 (s, 1h), 8.21 (s, 1h),
+7.39 (d, j ) 6.10 hz, 1h), 7.29-7.23 (m, 3h), 6.04 (s, 1h), 3.673.65 (m, 4h), 3.49-3.46 (m, 4h), 2.41 (s, 3h), 2.23 (s, 3h). hrms
+(esi) m/z calcd for c20h22cln6o2s (m + h)+, 445.1213; found,
+445.1234. purity: 95% (method a; tr ) 3.34 min).
+n-(2-chloro-6-methylphenyl)-2-(2-methyl-6-(3-morpholinopropylamino)pyrimidin-4-ylamino)-1,3-thiazole-5-carboxamide (12u): 1h nmr (500 mhz, dmso-d6): delta 11.16 (br s, 1h),
+10.08 (s, 1h), 8.33 (s, 1h), 7.40 (dd, j ) 1.65, 7.38 hz, 1h), 7.307.25 (m, 3h), 6.28 (br s, 1h), 4.01-3.90 (m, 2h), 3.89-3.80 (m,
+2h), 3.53-3.43 (m, 2h), 3.19-3.13 (m, 2h), 3.09-3.03 (m, 2h),
+2.60-2.53 (m, 2h), 2.45 (s, 3h), 2.24 (s, 3h), 2.07-1.99 (m, 2h).
+hrms (esi) m/z calcd for c23h29cln7o2s (m + h)+, 502.1792;
+found, 502.1787. purity: >98% (method a; tr ) 2.25 min).
+n-(2-chloro-6-methylphenyl)-2-(6-(2-hydroxyethylamino)-2methylpyrimidin-4-ylamino)-1,3-thiazole-5-carboxamide (12v):
+1h nmr (400 mhz, dmso-d ): delta 11.27 (s, 1h), 9.77 (s, 1h),
+6
+8.19 (s, 1h), 7.38 (dd, j ) 2.17, 7.23 hz, 1h), 7.32-7.22 (m,
+3h), 6.16 (d, j ) 7.63 hz, 1h), 6.09 (d, j ) 8.13 hz, 1h), 3.603.57 (m, 2h), 3.50-3.45 (m, 2h), 2.23 (s, 3h). hrms (esi) m/z
+calcd for c18h20cln6o2s (m + h)+, 419.1057; found, 419.1047.
+purity: 95% (method a; tr ) 2.68 min).
+n-(2-chloro-6-methylphenyl)-2-(6-(4-(hydroxymethyl)piperidin-1-yl)-2-methylpyrimidin-4-ylamino)-1,3-thiazole-5-carboxamide (12w): 1h nmr (500 mhz, cd3od) delta 8.22 (s, 1h), 7.35
+(dd, j ) 7.1, 1.6 hz, 1h), 7.26-7.23 (m, 2h), 6.39 (br s, 1h),
+3.45 (d, j ) 6.0 hz, 2h), 3.31-3.29 (m, 4h), 2.65 (s, 3h), 2.31
+(s, 3h), 2.00-1.80 (m, 3h), 1.35-1.32 (m, 2h). lc/ms (esi):
+m/z 473 (m + h)+. purity: 98% (method a; tr ) 3.05 min).
+lck enzyme assay. for the preparation of recombinant lck,
+human lck was prepared as a his-tagged fusion protein using the
+commercially available (life technologies) baculovirus vector
+pfastbac hta in insect cells. a cdna encoding human lck isolated
+by pcr was inserted into the vector, and the protein was expressed
+using the methods described by the manufacturer. the lck purified
+by nickel affinity chromatography was incubated in kinase buffer
+(20 mm mops, ph 7, 10 mm mgcl2) in the presence of the test
+compound. the reaction was initiated by the addition of the
+substrates to the final concentration of 1 µm atp, 3.3 µci/ml
+[33p] g-atp, and 0.1 mg/ml acid denatured enolase and was
+stopped after 10 min by the addition of 10% trichloroacetic acid
+and 100 mm sodium pyrophosphate, followed by 2 mg/ml bovine
+ xxxg124xxx . the labeled enolase protein substrate was precipitated at 4 °c, harvested onto packard unifilter plates, and counted
+in a topcount scintillation counter.
+t-cell proliferation assay. a 96-well plate was coated with a
+monoclonal antibody to cd3 ( xxxg19xxx -4), the antibody was allowed
+to bind, and then the plate was washed. normal human peripheral
+blood t-cells were added to the wells, along with the test compound
+and anti-cd28 antibody (e.3), to provide costimulation. after 3
+days, the [3h]-thymidine was added to the cells, further incubation
+occurred, and the cells were harvested and counted in a scintillation
+counter to measure proliferation.
+inhibition of il-2 production ex vivo in mice. balb/c
+female mice were dosed by oral gavage (po) with either vehicle
+alone ( xxxd3034xxx -water, 1:1, v/v) or compound 12m
+dissolved in vehicle. after 2 h, blood was collected into heparain
+anticoagulant. triplicate cultures of each sample containing 100
+µl whole blood and  xxxd2676xxx  antibody (10 µg/ml), anti-cd28
+antibody (10 µg/ml), and goat anti-hamster igg antibody (30 µg/
+ml) were established in 96-well plates. plates were incubated for
+24 h at 37 °c in 5% co2. culture supernatants were collected and
+
+2-aminothiazole as a novel kinase inhibitor template
+
+assayed for il-2 concentration by elisa. results are shown as
+mean ( sem of n ) 7 mice per treatment group.
+inhibition of  xxxg2296xxx  r (tnfr) in mice.
+c57bl/6 female mice, 8-10 weeks of age (harlan teklad,
+indianapolis, in), were dosed by oral gavage (po) with either vehicle
+alone ( xxxd3034xxx -water, 1:1, v/v) or compound 12m
+dissolved in vehicle. after 2 h, mice were injected intravenously
+(iv) with 500 µg/kg lipopolysaccharide (lps, escherichia coli 0111:
+b4; sigma, st. louis, mo). mice were bled 1 h after lps injection.
+serum was separated from clotted blood samples by centrifugation
+(5 min, 5000 × g, room temperature) and analyzed for the levels
+of tnfr by elisa assay according to manufacturer’s instructions
+(r&d systems, minneapolis, mn). results are shown as mean (
+sem of n ) 11-12 mice per treatment group.
+adjuvant arthritis in rats: treatment of established
+disease. male lewis rats (150-175 g; harlan teklad, indianapolis,
+in) were immunized at the base of the tail with complete freund’s
+adjuvant. the volumes of their hind paws were measured in a water
+displacement plethysmometer (ugo basile, italy). fourteen days
+after immunization, when disease was clinically evident, rats were
+randomized into treatment groups (n ) 8/group). rats were treated
+orally twice daily with 12m at 0.3 mg/kg and 3.0 mg/kg in a vehicle
+solution of  xxxd3034xxx /h2o (1:1). control rats received vehicle
+alone. all procedures involving animals were reviewed and
+approved by the institutional animal care and use committee.
+
+acknowledgment. we are greatly indebted to emily luk
+and bethanne warrack of bioanalytical and discovery analytical sciences for analytical support and bei wang of the
+department of chemical synthesis for the synthesis of an
+advanced intermediate.
+references
+(1) (a) molina, t. j.; kishihara, k.; siderovski, d. p.; van ewijk, w.;
+narendran, a.; timms, e.; wakeham, a.; paige, c. j.; hartman, k.u.; veilette, a.; davison, d.; mak, t. w. profound block in
+thymocyte development in mice lacking  xxxg1306xxx . nature 1992, 357,
+161-4. (b) levin, s. d.; anderson, s. j.; forbush, k. a.; perlmutter,
+r. m. a dominant-negative transgene defines a role for  xxxg1306xxx  in
+thymopoiesis. embo j. 1993, 12, 1671-80.
+(2) (a) straus, d. b.; weiss, a. genetic evidence for the involvement of
+the lck  xxxg2198xxx  in signal transduction through the t cell
+antigen receptor. cell 1992, 70, 585-93. (b) chan, a. c.; desai, d.
+m.; weiss, a. c. the role of protein tyrosine kinases and protein
+tyrosine phosphatases in t cell antigen receptor signal transduction.
+ann. rev. immunol. 1994, 12, 555-92. (c) weiss, a.; littman, d.
+signal transduction by lymphocyte antigen receptors. cell 1994, 76,
+263-74. (d) hanke, j. h.; gardner, j. p.; dow, r. l.; changelian,
+p. s.; brissette, w. h.; weringer, e. j.; pollok, b. a.; connelly, p.
+a. discovery of a novel, potent, and src-selective  xxxg2198xxx 
+inhibitor. study of lck- and fyn t-dependent t cell activation. j.
+biol. chem. 1996, 271, 695-701. (e) van oers, n. s.; lowin-kropf,
+b.; connolly, k.; weiss, a. r/beta t cell development is abolished in
+mice lacking both lck and fyn protein tyrosine kinases. immunity
+1996, 5, 429-36.
+(3) wen, t.; zhang, l.; kung, s. k. p.; molina, t. j.; miller, r. g.;
+mak, t. w. allo-skin graft rejection, tumor rejection, and natural
+killer activity in mice lacking  xxxg1306xxx . eur. j. immunol. 1995, 25,
+3155-9.
+(4) (a) kamens, j. s.; ratnofsky, s. e.; hirst, g. c. lck inhibitors as a
+therapeutic approach to autoimmune disease and transplant rejection.
+curr. opin. invest. drugs 2001, 2, 1213-19. (b) dowden, j.; ward,
+s. g. inhibitors of  xxxg1306xxx : assessing their potential as tools for
+manipulating t-lymphocyte activation. expert opin. ther. pat. 2001,
+11, 295-306. (c) boschelli, d. h.; boschelli, f. small molecule
+inhibitors of src family kinases. drugs future 2000, 25, 717-36.
+(d) susa, m.; teti, a.  xxxg2198xxx  src inhibitors: potential
+therapeutic applications. drug news perspect. 2000, 13, 169-75.
+(5) (a) majolini, m. b.; boncristiano, m; baldari, c. t. dysregulation
+of the protein  xxxg2198xxx  lck in lymphoproliferative disorders
+and in other neoplasias. leuk. lymphoma 1999, 35, 245-54. (b) yu,
+c. l.; jove, r.; burakoff, s. j. constititive activation of the janus
+kinase-stat pathway in t lymphoma overexpressing the lck protein
+ xxxg2198xxx . j. immunol. 1997, 159, 5206-10.
+
+journal of medicinal chemistry, 2006, vol. 49, no. 23 6831
+(6) (a) majolini, m. b.; d’elios, m. m.; galieni, p.; boncriastiano, m.;
+lauria, f.; del prete, g.; telford, j. l.; baldari, c. t. expression of
+the t-cell specific  xxxg2198xxx  lck in normal b-1 cells and in
+chronic lymphocytic leukemia b cells. blood 1998, 91, 3390-96.
+(b) von knethen, a.; abts, h.; kube, d.; diehl, v.; tesch, h.
+expression of  xxxg1306xxx  in b-cell neoplasias. leuk. lymphoma 1997,
+26, 551-62.
+(7) (a) mccracken, s.; kim, c. s.; xu, y.; minden, m.; miyamoto, n.
+g. an alternative pathway for expression of  xxxg1306xxx  from type 1
+promoter transcripts in colon carcinoma. oncogene 1997, 15, 292937. (b) nakamura, k.; chijiiwa, y.; nawata, h. eur. j. cancer 1996,
+32a, 1401-07. (c) veillette, a.; foss, f. m.; sausville, e. a.; bolen,
+j. b.; rosen, n. expression of the lck  xxxg2198xxx  gene in human
+colon carcinoma and other non-lymphoid human tumor cell lines.
+oncogene res. 1987, 1, 357-74.
+(8) krystal, g. w.; deberry, c. s.; linnekin, d.; litz, j. lck associates
+with and is activated by kit in a small cell lung cancer line: inhibition
+of scf-mediated growth by the src family kinase inhibitor pp1.
+cancer res. 1998, 58, 4660-66.
+(9) frame, m. c. src in cancer deregulation and consequences for cell
+behaviour. biochim. biophys. acta 2002, 1602, 114-130.
+(10) haskell, m. d.; slack, j. k.; parsons, j. t.; parsons, s. j.  xxxg2198xxx 
+tyrosine phosphorylation of  xxxg681xxx  receptor, p190
+rhogap, and focal adhesion kinase regulates diverse cellular
+processes. chem. rev. 2001, 101, 2425-40.
+(11) padmanabha, r.; shu, y.-z.; cook, l. s.; veitch, j. a.; donovan,
+m.; lowe, s.; huang, s.; pirnik, d.; manly, s. p. 1-methoxyagroclavine from penicillium sp. wc75209, a novel inhibitor of the
+lck  xxxg2198xxx . bioorg. med. chem. lett. 1998, 8, 569-74.
+(12) for a preliminary discussion on thiazole analogs, see: (a) wityak,
+j.; das, j.; moquin, r. v.; shen, z.; lin, j.; chen, p.; doweyko, a.
+m.; pitt, s.; pang, s.; shen, d. r.; fang, q.; de fex, h. f.; schieven,
+g. l.; kanner, s. b.; barrish, j. c. discovery and initial sar of
+2-amino-5-carboxamidothiazoles as inhibitors of the src-family kinsae
+ xxxg1306xxx . bioorg. med. chem. lett. 2003, 13, 4007-10. (b) chen, p.;
+norris, d.; das, j.; spergel, s. h.; wityak, j.; leith, l.; zhao, r.;
+chen, b-c.; pitt, s.; pang, s.; shen, d. r.; zhang, r.; defex, h. r.;
+doweyko, a. m.; mcintyre, k. w.; shuster, d. j.; behnia, k.;
+schieven, g.; barrish, j. discovery of novel 2-(aminoheteroaryl)thiazole-5-carboxamides as potent and orally active src-family kinase
+ xxxg1306xxx  inhibitors. bioorg. med. chem. lett. 2004, 143, 6061-66. (c)
+lombardo, l. j.; lee, f. y.; chen, p.; norris, d.; barrish, j. c.;
+behnia, k.; castaneda, s.; cornelius, l.; das, j.; doweyko, a. m.;
+fairchild, c.; hunt, j. t.; inigo, i.; kamath, a.; kan, d.; marathe,
+p.; pang, s.; pitt, s.; schieven, g. l.; schmidt, r. j.; tokarski, j.;
+wen, m-l.; wityak, j.; borzilleri, r. m. discovery of n-(2-chloro6-methylphenyl)-2-(6-(4-(2-hydroxyethyl) xxxd2960xxx -1-yl)-2-methylpyrimidin-4-ylamino)thiazole-5-carboxamide ( xxxd1815xxx ), a dual
+src/abl kinase inhibitor with potent anti-tumor activity in preclinical
+assays. j. med. chem. 2004, 47, 6658-61. (d) shah, n. p.; tran,
+c.; lee, f. y.; chen, p.; norris, d.; sawyers, c. l. overriding
+imatinib resistance with a novel abl kinase inhibitor. science 2005,
+305, 399-401. (e) das, j.; padmanabha, r.; chen, p.; norris, d. j.;
+doweyko, a. m. p.; barrish, j. c.; wityak, j. cyclic protein tyrosine
+kinase inhibitors. us 6596746 b2, 2003.
+(13) for a description of assays, see: (a) das, j.; lin, j.; moquin, r. v.;
+shen, z.; spergel, s. h.; wityak, j.; doweyko, a. m.; defex, h. r.;
+fang, q.; pang, s.; pitt, s.; shen, d. r.; schieven, g. l.; barrish, j.
+c. molecular design, synthesis and structure activity relationships
+leading to the potent and selective  xxxg1306xxx  inhibitor bms-243117.
+bioorg. med. chem. lett. 2003, 13, 2145-49. (b) das, j.; moquin,
+r. v.; lin, j.; liu, c.; doweyko, a. m.; defex, h. r.; fang, q.;
+pang, s.; pitt, s.; shen, d. r.; schieven, g. l.; barrish, j. c.; wityak,
+j. discovery of 2-amino-heteroaryl- xxxd304xxx -6-anilides as potent
+ xxxg1306xxx  inhibitors. bioorg. med. chem. lett. 2003, 13, 2587-90.
+(14) (a) chen, p.; norris, d.; iwanowicz, e. j.; spergel, s. h.; lin, j.;
+gu, h. h.; shen, z.; wityak, j.; lin, t-a.; pang, s.; defex, h. f.;
+pitt, s.; shen, d. r.; doweyko, a. m.; bassolino, d. a.; roberge,
+j. y.; poss, m. a.; chen, b-c.; schieven, g. l.; barrish, j. c.
+discovery and initial sar of imidazoquinoxalines as inhibitors of
+src-family kinase  xxxg1306xxx . bioorg. med. chem. lett. 2002, 12, 136164. (b) snow, r. j.; cardozo, m. g.; morwick, t. m.; busacca, c.
+a.; dong, y.; eckner, r. j.; jacober, s.; jakes, s.; kapadia, s.; lukas,
+s.; panzenbeck, m.; peet, g. w.; peterson, j. d.; prokopowicz, a.
+s., iii; sellati, r.; tolbert, r. m.; tschantz, m. a.; moss, n.
+discovery of 2-phenylamino-imidazo[4,5-h]isoquinolin-9-ones: a
+new class of inhibitors of lck kinase. j. med. chem. 2002, 45, 33943405.
+(15) yamaguchi, h.; hendrickson, w. a. structural basis for activation
+of human lymphocyte kinase lck upon tyrosine phosphorylation.
+nature 1996, 384, 484-89.
+
+6832
+
+journal of medicinal chemistry, 2006, vol. 49, no. 23
+
+(16) zhu, x.; kim, j. l.; rose, p. e.; stover, d. r.; toledo, l. m.; zhao,
+h.; morgenstern, k. a. structural analysis of the lymphocyte-specific
+kinase lck in complex with non-selective and src family selective
+kinase inhibitors. structure 1999, 7, 651-61.
+(17) sicheri, f.; kuriyan, j. structures of src-family tyrosine kinases. curr.
+opin. struct. biol. 1997, 7, 777-85.
+(18) sicheri, f.; moarefi, i.; kuriyan, j. crystal structure of the src-family
+ xxxg2198xxx   xxxg1028xxx . nature 1997, 385, 602-9.
+(19) chen, p.; doweyko, a. m.; norris, d.; gu, h. h.; spergel, s. h.;
+das, j.; moquin, r. v.; lin, j.; wityak, j.; iwanowicz, e. j.;
+mcintyre, k. w.; shuster, d. j.; behnia, k.; chong, s.; defex, h.;
+pang, s.; pitt, s.; shen, d. r.; thrall, s.; stanley, p.; kocy, o. r.;
+witmer, m. r.; kanner, s. b.; schieven, g. l.; barrish, j. c.
+imidazoquinoxaline src-family kinase  xxxg1306xxx  inhibitors: sar,
+qsar, and the discovery of (s)-n-(2-chloro-6-methylphenyl)-2-(3methyl-1-piperazinyl)imidazo[1,5-a] xxxd3047xxx [3,2-e]pyrazin-6 xxxd2850xxx 
+(bms-279700) as a potent and orally active inhibitor with excellent
+in vivo anti-inflammatory activity. j. med. chem. 2004, 47, 451729.
+(20) (a) tokarski, j. s.; newitt, j. a.; chang, c. y. j.; cheng, j. d.;
+wittekind, m.; kiefer, s. e.; kish, k.; lee, f. y. f.; borzilleri, r.;
+lombardo, l. j.; xie, d.; zhang, y.; klei, h. e. the structure of
+ xxxd1815xxx  ( xxxd1815xxx ) bound to activated abl kinase domain
+elucidates its inhibitory activity against imatinib-resistant abl mutants.
+cancer res. 2006, 66, 5790-97. (b) nagar, b.; bornmann, w. g.;
+pellicena, p.; schindler, t.; veach, d. r.; miller, w. t.; clarkson,
+b.; kuriyan, j. crystal structures of the kinase domain of c-abl in
+complex with the small molecule inhibitors pd173955 and imatinib
+(sti-571). cancer res. 2002, 62, 4236-43. (c) schindler, t.;
+bornmann, w.; pellicena, p.; miller, w. t.; clarkson, b.; kuriyan,
+j. structural mechanism for sti-571 inhibition of ableson tyrosine
+kinase. science 2000, 289, 1938-42.
+
+das et al.
+(21) (a) newton, r. c.; decicco, c. p. therapeutical potential and
+strategies for inhibiting  xxxg2296xxx -r. j. med. chem. 1999,
+42, 2295-2314. (b) feldmann, m.; brennan, f. m.; maini, r. n.
+role of cytokines in rheumatoid arthritis. annu. rev. immunol. 1996,
+14, 397-440.
+(22) (a) jarvis, b.; faulds, d. etanercept: a review of its use in rheumatoid
+arthritis. drugs 1999, 57, 945-966. (b) lipsky, p. e.; van der heijde,
+d. m. f. m. e.; st. clair, w.; furst, d. e.; breedveld, f. c.; kalden,
+j. r.; smolen, j. s.; weisman, m.; emery, p.; feldmann, m.;
+harriman, g. r.; maini, r. n. infliximab and methotrexate in the
+treatment of rheumatoid arthritis. n. engl. j. med. 2000, 343, 15941602. (c) rutgeerts, p. j. efficacy of infliximab in crohn’s diseases
+induction and maintenance of remission. aliment. pharmacol. ther.
+1999, 13 (suppl 4), 9-15.
+(23) (a) falta, m. t.; kotzin, b. l. in t cells in arthritis; miossec, p.,
+van den berg, w. b., firestein, g. s., eds.; birkhauser verlag: basel,
+switzerland, 1998; pp 202-31. (b) korganow, a-s.; ji, h.; mangialaio, s.; duchatelle, v.; pelanda, r.; martin, t.; degott, c.;
+kikutani, h.; rajewsky, k.; pasquali, j.-l.; benoist, c.; mathis, d.
+from systemic t cell self-reactivity to organ-specific autiimmune
+disease via immunoglobulins. immunity 1999, 10, 451-61.
+(24) kremer, j. m.; westhovens, r.; leon, m.; di giorgio, e.; alten, r.;
+steinfeld, s.; russell, a.; dougados, m.; emery, p.; nuamah, i. f.;
+williams, g. r.; becker, j.-c.; hagerty, d. t.; moreland, l. w.
+treatment of rheumatoid arthritis by selective inhibition of t-cell
+activation with fusion protein  xxxd52xxx . n. engl. j. med. 2003, 349,
+1907-15.
+(25) talpaz, m.; shah, n. p.; kantarjian, h.; donato, n.; nicoll, j.;
+paquette, r.; cortes, j.; o’brien, s.; nicaise, c.; bleickardt, e.;
+blackwood-chirchir, m. a.; iyer, v.; chen, t-t.; huang, f.; decillis,
+a. p.; sawyers, c. l.  xxxd1815xxx  in imatinib-resistant philadelphia
+chrosome-positive leukemias. n. engl. j. med. 2006, 354, 2531-41.
+
+jm060727j
+

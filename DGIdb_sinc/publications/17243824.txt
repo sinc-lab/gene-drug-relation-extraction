@@ -1,0 +1,746 @@
+published on web 01/04/2007
+
+polyproline-rod approach to isolating protein targets of
+bioactive small molecules: isolation of a new target
+of indomethacin
+shin-ichi sato,† youngjoo kwon,†,§ shinji kamisuki,† neeta srivastava,† qian mao,†
+yoshinori kawazoe,†,‡ and motonari uesugi*,†,‡
+contribution from the verna and marrs mclean department of biochemistry and molecular
+biology, baylor college of medicine, houston, texas 77030, and institute for
+chemical research, kyoto university, uji, kyoto 611-0011, japan
+received august 1, 2006; e-mail: muesugi@bcm.tmc.edu
+
+abstract: identification of protein targets of bioactive small molecules has been a technical hurdle of
+chemical genetics. here we report a polyproline-rod approach to isolating protein targets of small molecules
+from cell lysates. the results indicate that insertion of a long, rigid polyproline helix between a smallmolecule bait and a biotin tag boosts the capacity of affinity purification and thereby permits isolation of
+low-abundance or low-affinity proteins. in the course of the proof-of-concept experiments, we isolated
+glyoxalase 1 ( xxxg898xxx ) as a new target of indomethacin, a widely used antiinflammatory drug. molecular
+biological experiments suggest that inhibition of  xxxg898xxx  enzyme activity is related to the clinically recognized
+beneficial side effects of the indomethacin family of nonsteroidal antiinflammatory drugs.
+
+introduction
+
+one of the technical challenges in forward chemical genetics
+and phenotype-based drug discovery is the identification of
+protein targets of bioactive small molecules.1 the most straightforward approach to identifying protein targets is biochemical
+isolation with affinity resins, in which a close analogue of a
+small-molecule ligand is covalently attached to a solid support,2-5
+or its biotinylated version is bound to avidin-agarose beads.6-13
+the avidin-biotin affinity approach is based on the remarkably
+strong noncovalent interaction between biotin and avidin and
+has been offering a convenient preparation of affinity columns
+†
+
+baylor college of medicine.
+kyoto university.
+§ current address: college of pharmacy, ewha womans university,
+seoul 120-750, korea.
+‡
+
+(1) burdine, l.; kodadek, t. chem. biol. 2004, 11, 593-597.
+(2) harding, m. w.; galat, a.; uehling, d. e.; schreiber, s. l. nature 1989,
+341, 758-760.
+(3) taunton, j.; hassig, c. a.; schreiber, s. l. science 1996, 272, 408-411.
+(4) ding, s.; wu, t. y.; brinker, a.; peters, e. c.; hur, w.; gray, n. s.;
+schultz, p. g. proc. natl. acad. sci. u.s.a. 2003, 100, 7632-7637.
+(5) khersonsky, s. m.; jung, d. w.; kang, t. w.; walsh, d. p.; moon, h. s.;
+jo, h.; jacobson, e. m.; shetty, v.; neubert, t. a.; chang, y. t. j. am.
+chem. soc. 2003, 125, 11804-11805.
+(6) lefkowitz, r. j.; haber, e.; o’hara, d. proc. natl. acad. sci. u.s.a. 1972,
+69, 2828-2832.
+(7) sin, n.; meng, l.; wang, m. q.; wen, j. j.; bornmann, w. g.; crews,
+c. m. proc. natl. acad. sci. u.s.a. 1997, 94, 6099-6103.
+(8) meng, l.; mohan, r.; kwok, b. h.; elofsson, m.; sin, n.; crews, c. m.
+proc. natl. acad. sci. u.s.a. 1999, 96, 10403-10408.
+(9) nguyen, c.; teo, j. l.; matsuda, a.; eguchi, m.; chi, e. y.; henderson,
+w. r., jr.; kahn, m. proc. natl. acad. sci. u.s.a. 2003, 100, 1169-1173.
+(10) shim, j. s.; lee, j.; park, h. j.; park, s. j.; kwon, h. j. chem. biol. 2004,
+11, 1455-1463.
+(11) shimogawa, h.; kwon, y.; mao, q.; kawazoe, y.; choi, y.; asada, s.;
+kigoshi, h.; uesugi, m. j. am. chem. soc. 2004, 126, 3461-3471.
+(12) sche, p. p.; mckenzie, k. m.; white, j. d.; austin, d. j. chem. biol.
+1999, 6, 707-716.
+(13) choi, y.; shimogawa, h.; murakami, k.; ramdas, l.; zhang, w.; qin, j.;
+uesugi, m. chem. biol. 2006, 13, 241-249.
+10.1021/ja0655643 ccc: $37.00 © 2007 american chemical society
+
+of bioactive molecules since its introduction in 1976 by
+hofmann and co-workers.14,15
+one problem of the widely used avidin-biotin approach is
+the low recovery of binding proteins relative to a high-density
+direct conjugation approach. the crystal structure of avidin
+bound to biotin indicates that biotin binds within a deep cleft
+inside the core of avidin, and the distance from the bound biotin
+molecule to the surface of avidin is as long as 7 å.16,17
+commercially available biotinylation reagents are usually
+composed of relatively short methylene or ethylene glycol
+linkers (up to 14 å) and may not project the small-molecule
+ligand away enough for the isolation of bulky binding proteins.
+a longer linker with optimized chemical and physical properties
+would be desirable.
+our approach to designing such a linker stems from the
+analogy of affinity purification to fishing, in which a rod is often
+used to cast a fishhook away and to prevent tangles of fishing
+lines. in our design, a rod-like polyproline helix is inserted
+between a small-molecule bait and a biotin molecule. the stretch
+of l-prolines forms a stable left-handed helix, and the length of
+the 9-proline helix has been measured to be 27 å by fluorescence resonance energy transfer experiments.18,19 the rigid
+polyproline helix may prevent folding of the linker and project
+(14) hofmann, k.; finn, f. m.; kiso, y. j. am. chem. soc. 1978, 100, 35853590.
+(15) hofmann, k.; kiso, y. proc. natl. acad. sci. u.s.a. 1976, 73, 35163518.
+(16) pugliese, l.; coda, a.; malcovati, m.; bolognesi, m. j. mol. biol. 1993,
+231, 698-710.
+(17) livnah, o.; bayer, e. a.; wilchek, m.; sussman, j. l. proc. natl. acad.
+sci. u.s.a. 1993, 90, 5076-5080.
+(18) arora, p. s.; ansari, a. z.; best, t. p.; ptashne, m.; dervan, p. b. j. am.
+chem. soc. 2002, 124, 13067-13071.
+(19) stryer, l.; haugland, r. p. proc. natl. acad. sci. u.s.a. 1967, 58, 719726.
+j. am. chem. soc. 2007, 129, 873-880
+
+9
+
+873
+
+sato et al.
+
+articles
+
+a small-molecule bait away from the biotin-avidin complex to
+permit its interaction with protein targets.
+here we demonstrate that the rigid polyproline linker
+facilitates the biochemical isolation of protein targets. during
+the course of the proof-of-concept experiments, we were able
+to isolate glyoxalase 1 ( xxxg898xxx ) as a new target of indomethacin,
+a clinically used nonsteroidal antiinflammatory drug that is
+known to inhibit cyclooxygenases. although the generality of
+the approach needs to be addressed by many other molecules,
+the results may suggest the utility of rod-like linkers in
+increasing the success rates of biochemically isolating protein
+targets of small molecules.
+results
+
+proof of concept with glutathione. the small molecule
+that we initially used for proof of concept was glutathione, a
+naturally occurring peptide that binds specifically to glutathiones-transferase (gst). biotinylated glutathione with varied lengths
+of polyproline linkers (zero, six, and nine l-prolines) were
+synthesized (figure 1a) and incubated with e. coli cell lysates
+containing gst. while commercially available glutathionesepharose, in which a high density of glutathione molecules are
+attached directly to the solid resin, works well in general due
+to its high effective concentration, the biotinylated glutathione
+with a methylene linker (1) bound to the avidin agarose resin
+showed the limited ability to recover gst from the lysates
+(figure 1b), representing the low-recovery problem of the
+avidin-biotin affinity approach. in contrast, when a polyproline
+linker (2 or 3) was inserted between glutathione and biotin, the
+recovery rates of gst went up, and a longer 9-proline linker
+(27 å) showed a higher recovery than the one with six prolines
+(18 å) (figure 1b).
+to compare the polyproline linker with poly(ethylene glycol)
+(peg) linkers, water-soluble linkers widely used for affinity
+purification, a series of peg-based linkers with varied lengths
+(4-7; 11-32 å) were inserted between glutathione and biotin.
+the longer peg linkers exhibited the higher recovery of gst
+from the lysates. however, even the longest peg linker (7, 32
+å) purified ∼1/4 times less gst than the 27-å polyproline
+linker (3) (figure 1b). these results encouraged us to pursue
+the idea of employing a proline-helix linker, rather than flexible
+linkers, for isolating protein targets.
+proof of concept with indomethacin. we next used
+indomethacin (8) as a model of more drug-like organic
+compounds. indomethacin is a clinically used antiinflammatory
+drug that targets cyclooxygenases (coxs) and thereby inhibits
+the biosynthesis of prostaglandins. as is often with smallmolecule drugs, biotin-indomethacin conjugates had limited
+water solubility, rendering them hard to purify by reversedphase hplc. to improve the water-solubility, two lysine
+residues were introduced between a biotin molecule and a
+polyproline linker (figure 2a). the soluble version of the nineproline-rod-biotin-indomethacin conjugate (11) was then
+examined for its ability to isolate endogenous cox-1 from
+mammalian cell lysates. whole cell extracts of mouse sto cells
+were incubated with conjugate 11, and bound proteins were
+analyzed by western blots. as shown in figure 2b, conjugate
+11 had greater ability to isolate cox-1 than control conjugates
+9 and 10. excess amounts of free indomethacin abolished the
+interaction between 11 and cox-1 (figure s1), suggesting that
+874 j. am. chem. soc.
+
+9
+
+vol. 129, no. 4, 2007
+
+figure 1. design of biotinylated glutathione with a polyproline linker.
+(a) chemical structures of biotinylated glutathione conjugates 1-7. (b)
+affinity purification of gst from bacterial lysates. increasing amounts of
+gst were purified by the biotinylated glutathione with a longer proline
+linker (2 and 3) bound to the avidin agarose resin, whereas the one without
+a polyproline linker (1) exhibited only limited ability to purify gst (upper
+panel). the 27 å polyproline linker was also compared with polyethylene
+glycol (peg) linkers (4-7) (lower panel). the 27 å polyproline linker
+exhibited ∼4 times better recovery of gst than the 32 å peg linker.
+
+the interaction is selective. silver staining of the gel showed a
+faint but selective protein band whose electrophoretic mobility
+matched that of cox-1 in the western blots (figure 2b). to
+confirm the identity of the band, we scaled up the purification
+100 times and excised a coomassie blue-stained band from a
+gel. microsequencing analysis revealed three peptide sequences
+that matched the amino-acid sequence of mouse cox-1
+(alghgvdlghiygdnler, nfdyhvlhvavdvik, and
+qlpdvqllaqqlllr). to our knowledge, this result represents the first successful isolation and microsequencing of an
+
+polyproline-rod approach to isolating protein targets
+
+articles
+
+figure 3. capture and release of cox-1 and  xxxg898xxx . (a) model structures
+of capture-and-release affinity conjugates. a recognition sequence of hrvc3 protease is shown in bold italic letters. (b) isolation of cox-1 and
+ xxxg898xxx . the number of nonspecific bands was reduced by proteolytic elution.
+the loading amounts and staining for 11 and 12 were normalized with the
+darkest bands on the gels.
+figure 2. isolation of cox-1 by a biotinylated proline-rod indomethacin.
+(a) structures of indomethacin derivatives and a control compound. (b)
+purification of endogenous cox-1 from sto cell lysates. the upper panel
+shows western blot with a cox-1 antibody. the lower panel shows a silverstained gel. 20% of input is shown.
+
+endogenous cox protein from mammalian cell lysates by
+affinity chromatography of a nonsteroidal antiinflammatory
+drug.
+improvement: capture and release. the cox-1 band in
+figure 2b is specific but hard to detect due to the overlap with
+nonspecific bands. microsequencing of 10 representative nonspecific bands revealed that many of them are associated with
+the polyproline linker, including proline hydroxylase, 14-3-3,
+and a number of heat-shock proteins. these nonspecific bands
+can be removed by taking a capture and release approach, in
+which a specific protease cleavage site is inserted between a
+small molecule bait and a proline linker so that the bait and its
+binding protein can be released by protease cleavage
+(figure 3a).
+the protease-based capture and release technique is not new
+in affinity purification in general, but in many cases  xxxg741xxx 
+is used as a releasing protease. in our attempt, a 6his-tagged
+recombinant protein of bacterial hrv-c3 protease was chosen
+due to its neutral recognition sequence and high activity and
+
+selectivity even at 4 °c.20 the presence of a 6his tag also
+permits convenient removal of the protease from the sample
+after cleavage.
+such a capture-and-release version of the indomethacin
+conjugate 12 was synthesized and tested for the ability to purify
+cox-1 from sto cell lysates. when a protease-treated sample
+was analyzed on a silver-stained sds gel, the number of
+nonspecific bands was reduced, and, as a result, the cox-1
+band became more visible on the gel than it was in a sample
+eluted simply by sds (figure 3b). the combination of the
+capture-and-release and proline-rod approaches may permit the
+isolation and detection of the low-abundance proteins that bind
+to drug-like small molecules.
+identification of glyoxalase 1 as a target of indomethacin.
+while conducting the capture-and-release experiments with
+indomethacin, we noticed another specific band in the lower
+molecular weight region of the gels (figure 3b). microsequencing analysis of the band revealed 14 peptide sequences that all
+matched the amino acid sequence of mouse glyoxalase 1
+( xxxg898xxx ).
+ xxxg898xxx  and structurally unrelated  xxxg1015xxx  forms a metabolic
+enzyme system that catalyzes the conversion of  xxxd2613xxx ,
+a cytotoxic metabolite produced primarily as a byproduct of
+(20) cordingley, m. g.; callahan, p. l.; sardana, v. v.; garsky, v. m.; colonno,
+r. j. j. biol. chem. 1990, 265, 9062-9065.
+j. am. chem. soc.
+
+9
+
+vol. 129, no. 4, 2007 875
+
+sato et al.
+
+articles
+scheme 1. reactions catalyzed by the glyoxalase system
+
+glycolysis, to d-lactate.21,22 the direct substrate of  xxxg898xxx  is the
+hemithioacetal form of methylglyoxal produced by the nonenzymatic conjugation with glutathione, and its product is s-dlactoylglutathione, which is then hydrolyzed by  xxxg1015xxx  to
+d-lactate (scheme 1). notwithstanding the numerous previous
+studies,  xxxg898xxx  has never been reported or suggested to be a
+binding target of indomethacin or any other antiinflammatory
+drugs.
+to examine the effect of indomethacin on the enzymatic
+activity of  xxxg898xxx , the catalytic activity of recombinant  xxxg898xxx 
+was measured in the presence of varied concentrations of
+indomethacin. dixon plot and lineweaver-burk plot analyses
+showed that indomethacin competitively inhibits  xxxg898xxx  with a
+ki value of 18.1 µm (figure s2). this high range of ki may
+still be comparable to the ki value reported for cox-2 (5 µm),
+a known pharmacological target of indomethacin, and could be
+physiological considering a high dose administration of indomethacin in the clinic.23 when 12 other antiinflammatory
+drugs that target cox-2 (figure 4) were evaluated, acemetacin,
+a close analogue of indomethacin, exhibited comparable inhibitory activity (ki ) 12.1 µm), and other members of indomethacin class of drugs ( xxxd3259xxx ,  xxxd3396xxx ,  xxxd3563xxx ) showed weak
+but detectable activity. in contrast, antiinflammatory drugs of
+other chemical classes including aspirin, ibuprofen, and vioxx
+had little or no detectable effects on  xxxg898xxx  (table 1).
+a similar trend was observed when kd was measured by
+isothermal titration microcalorimetry (itc). the kd of indomethacin for  xxxg898xxx  was estimated to be 4.0 µm with
+stoichiometry of 1.06 ( 0.08, and  xxxd3563xxx , which had a five
+times weaker ki, exhibited a paralleled kd (18 µm) (figure s3).
+nmr titration experiments indicated that the addition of  xxxg898xxx 
+diminished selective proton signals of indomethacin, especially
+those arising from the methylene (3.53 ppm), 2-methyl (2.18
+ppm), and methoxy (3.82 ppm) protons (figure 5). the signal
+losses are consistent with the low-µm kd of the interaction where
+the exchange rate between the free and bound states is often
+intermediate at the nmr time scale and the perturbations of
+the methylene and 2-methyl groups are also in agreement with
+their importance in the structure-activity relationship for  xxxg898xxx .
+[in slow exchange (<∼100 s-1), separate resonances are seen
+for each of the two states. by contrast, in fast exchange
+(>∼1000 s-1), a single averaged resonance is observed. in the
+intermediate exchange region, resonances broaden, often becoming unobservable. detailed descriptions of these exchange
+(21) thornalley, p. j. gen. pharmacol. 1996, 27, 565-573.
+(22) thornalley, p. j. biochem. j. 1990, 269, 1-11.
+(23) gierse, j. k.; koboldt, c. m.; walker, m. c.; seibert, k.; isakson, p. c.
+biochem. j. 1999, 339 (pt 3), 607-614.
+876 j. am. chem. soc.
+
+9
+
+vol. 129, no. 4, 2007
+
+figure 4. chemical structures of the nonsteroidal antiinflammatory drugs
+used in the study.
+table 1. inhibition of  xxxg898xxx  with varied nsaids
+
+a
+
+nsaids
+
+kia (µm)
+
+acemetacin
+aspirin
+celebrex
+fenoprofen
+ibuprofen
+indomethacin
+ xxxd2423xxx 
+ xxxd2969xxx 
+ xxxd3259xxx 
+ xxxd3396xxx 
+vioxx
+ xxxd3563xxx 
+
+12.9 ( 0.9
+>1000
+>100
+400 ( 30
+>1000
+18.1 ( 0.1
+414 ( 5
+808 ( 12
+77.9 ( 2.6
+87.8 ( 4.9
+>100
+107 ( 2
+
+ki values were determined by dixon plot analyses.
+
+effects in nmr spectra can be found in a number of text books
+(e.g., lian, l., roberts, g. c. k.. in nmr of macromolecules.
+a practical approach; roberts, g. c. k., ed.; academic press:
+london, 1993; pp.153-182).] these biochemical data collectively indicate that, although the potencies vary, the indomethacin family of antiinflammatory drugs interact directly
+with gl01 and block its enzymatic activity.
+association of  xxxg898xxx  with the anticancer property of the
+indomethacin family.  xxxg898xxx -inhibitory activity was observed
+only in the indomethacin family but not in other classes.  xxxg898xxx 
+may play little general role, if any, in antiinflammatory property
+of the drugs. instead,  xxxg898xxx  may be related to some other
+pharmacological properties unique to the indomethacin family.
+one such property may be a beneficial side effect of
+indomethacin in cancer therapy. a substantial body of clinical
+and experimental evidence indicates that nonsteroidal antiin-
+
+polyproline-rod approach to isolating protein targets
+
+articles
+
+figure 6. increased sensitivity of a549 cells to doxorubicin in the presence
+of indomethacin. a549 cells were treated with three distinct drugs (a,
+indomethacin; b,  xxxd3396xxx ; c, aspirin) in the presence (open symbols) or
+absence (filled symbols) of doxorubicin. cell viability was estimated by
+wst-1 assays. the data shown are means ( sd for a minimum of three
+independent experiments.
+
+figure 5. nmr perturbation study. (a) expanded one-dimensional 1h
+nmr spectra of indomethacin in the presence or absence of  xxxg898xxx . addition
+of 2.5 µm (middle) or 5 µm (bottom) of  xxxg898xxx  to a 100-µm nmr sample
+of indomethacin decreased the signal intensities of the methoxy (3.82 ppm),
+methylene (3.53 ppm), and methyl (2.18 ppm) protons of indomethacin
+(indicated by red arrow). a star indicates an internal reference signal arising
+from methanol. (b) a summary of the differential signal intensities. the
+percentage value of each signal was calculated by using the internal methanol
+peak as a reference and classified as strong (red, < the median), medium
+(yellow, > the median and < the average), and weak (blue, > the average)
+effects. detailed data are shown in supporting information figures s4
+and s5.
+
+flammatory drugs including indomethacin have mild anticancer
+properties as a side effect, especially when combined with
+chemotherapy.24-27 epidemiological studies have also shown
+that regular use of nonsteroidal antiinflammatory drugs reduces
+the risk of developing cancers.27,28 in cultured cells, the
+indomethacin family, but not other types of nonsteroidal
+antiinflammatory drugs, potentiates the cytotoxicity of anthracycline anticancer drugs,29 implying that the property is unique
+to the indomethacin family. indomethacin retains such activity
+(24) raveendran, r.; heybroek, w.; caulfield, m.; lawson, m.; abrams,
+s. m.; wrigley, p. f.; slevin, m.; turner, p. hum. exp. toxicol. 1992, 11,
+291-293.
+(25) maca, r. d. anticancer drug des. 1991, 6, 453-466.
+(26) ruegg, c.; zaric, j.; stupp, r. ann. med. 2003, 35, 476-487.
+(27) hull, m. a.; gardner, s. h.; hawcroft, g. cancer treat. rev. 2003, 29,
+309-320.
+(28) hixson, l. j.; alberts, d. s.; krutzsch, m.; einsphar, j.; brendel, k.; gross,
+p. h.; paranka, n. s.; baier, m.; emerson, s.; pamukcu, r.; et al. cancer
+epidemiol biomarkers prev. 1994, 3, 433-438.
+(29) duffy, c. p.; elliott, c. j.; o’connor, r. a.; heenan, m. m.; coyle, s.;
+cleary, i. m.; kavanagh, k.; verhaegen, s.; o’loughlin, c. m.; nicamhlaoibh, r.; clynes, m. eur. j. cancer 1998, 34, 1250-1259.
+
+against hct15 human crc cells (which do not express either
+cox-1 or cox-2) and cox-1/cox-2-null transformed murine
+embryonic fibroblasts.30 therefore, the beneficial side effect of
+indomethacin appears to occur via a cox-independent mechanism.
+to evaluate a relationship between  xxxg898xxx  and the side effect,
+we chose three antiinflammatory drugs, indomethacin (strong
+ xxxg898xxx  inhibition),  xxxd3396xxx  (mild  xxxg898xxx  inhibition), and aspirin
+(no  xxxg898xxx  inhibition) and assayed their ability to enhance the
+cytotoxicity of doxorubicin, a prototypic anthracycline anticancer
+drug.29 although indomethacin alone had no cytotoxic effects
+on lung cancer a549 cells up to 32 µm, indomethacin at lower
+concentrations potentiated the cytotoxicity of doxorubicin
+(figure 6a).  xxxd3396xxx  showed no potentiation of doxorubicin
+in the same concentration range, but at the higher concentrations
+(up to 400 µm),  xxxd3396xxx  enhanced the cytotoxicity of doxorubicin (figure 6b). in contrast, aspirin had no detectable effects
+even at 1 mm (figure 6c). these results correspond with the
+ki value of the three drugs for  xxxg898xxx , suggesting that indomethacin sensitizes cells to doxorubicin by inhibiting the
+enzymatic activity of  xxxg898xxx .
+to further evaluate the role of  xxxg898xxx  in the synergy of
+indomethacin and doxorubicin, we modulated expression levels
+of  xxxg898xxx  by transfecting its cdna or sirna and examined
+the effects on the drug response. stable transfection of a  xxxg898xxx 
+expression vector into a549 cells yielded three  xxxg898xxx -overexpressing cell lines that have 1.4- to 6.6-fold expression levels
+of  xxxg898xxx  compared with the parental cells (cell line i; 6.6 fold,
+cell line ii; 1.4 fold, and cell line iii; 3.8 fold, figure 7b). when
+the cells were cotreated with doxorubicin and indomethacin,
+the cell lines with the higher  xxxg898xxx  expression were more
+(30) zhang, x.; morham, s. g.; langenbach, r.; young, d. a. j. exp. med.
+1999, 190, 451-459.
+j. am. chem. soc.
+
+9
+
+vol. 129, no. 4, 2007 877
+
+sato et al.
+
+articles
+
+figure 8. effects of  xxxg898xxx  knockdown on the doxorubicin sensitivity.
+(a) confirmation of sirna knockdown of  xxxg898xxx  in a549 cells. the levels
+of endogenous  xxxg898xxx  were analyzed by western blots with an antibody
+against human  xxxg898xxx . the  xxxg53xxx  (upper panel) and  xxxg898xxx  (lower panel)
+are shown. ∼60% knockdown of  xxxg898xxx  was observed in sirna-transfected
+cells. (b) the knockdown of  xxxg898xxx  replaces indomethacin for increasing
+sensitivity to doxorubicin. mock or sirna-transfected cells were treated
+with a 16-µm indomethacin in the absence or presence of doxorubicin (6.25
+ng/ml). data were normalized by the viability of cells with no drug
+treatment.
+figure 7. effects of  xxxg898xxx  overexpression on the synergy of indomethacin
+and doxorubicin. three stable cell lines that overexpress  xxxg898xxx  at different
+levels were used (i, ii, and iii). the expression levels of  xxxg898xxx  in the cell
+lines are shown in b. (a) a549 cells were treated with a 12.5-ng/ml
+doxorubicin in the presence (open bars) or absence (gray filled bars) of a
+32-µm indomethacin. it is evident that expression of  xxxg898xxx  decreases the
+synergy of indomethacin and doxorubicin. the data shown are means (
+sd for a minimum of three experiments. (b) detection of  xxxg898xxx  by western
+blot analysis (upper panel). quantification of  xxxg898xxx  expression levels (lower
+panel).
+
+resistant to the drug treatment than the parental cells (figure
+7a), presumably because the higher concentrations of indomethacin are required for complete inhibition of  xxxg898xxx  in
+the overexpressing cells.
+selective silencing of the  xxxg898xxx  expression was achieved by
+transiently transfecting  xxxg898xxx  sirna (figure 8a). the glo1silenced cells were more sensitive to doxorubicin than the mocktransfected cells were, and indomethacin had limited ability to
+further potentiate the doxorubicin activity in the  xxxg898xxx -silenced
+cells (figure 8b). therefore, selective silencing of  xxxg898xxx 
+expression replaced indomethacin for enhancing the doxorubicin
+activity. these results support our notion that inhibition of  xxxg898xxx 
+is responsible for indomethacin-mediated enhancement of the
+doxorubicin activity.
+discussion
+
+biochemical isolation of small molecule targets. the small
+molecules whose target identification provided significant
+impacts on biology are mostly natural products with potent
+biological activity, with a few exceptions including those of beta
+878 j. am. chem. soc.
+
+9
+
+vol. 129, no. 4, 2007
+
+blockers6 and more recently tws119.4 the naturally validated
+bioactive compounds tend to be highly specific toward the gene
+products with which they coevolved, and therefore natural
+products have generally been thought more suited for target
+identification than synthetic molecules have been. however, an
+increasing number of research tools and drug leads are
+discovered from phenotypic screening of synthetic compound
+libraries. target identification of the synthetic molecules is a
+bottleneck in chemical genetics and phenotype-based drug
+discovery.
+one drawback of the library-derived compounds is that they
+are usually not highly potent and may bind several different
+proteins with low affinity, typically with a kd of low µm.
+successful isolation of these low-affinity targets would increase
+the value of the library-derived synthetic molecules for biological investigation. in this particular study, the polyproline-linker
+approach enabled isolation of  xxxg898xxx  as a target of indomethacin.
+the ki and kd of indomethacin to  xxxg898xxx  are in a low µm range,
+but  xxxg898xxx  inhibition appears to be responsible for the additive
+effects of indomethacin and anthracyclines on cultured cells and
+could be relevant to the clinical observation. our results
+encourage exploration of low-µm affinity yet pharmacologically
+relevant targets with affinity-based biochemical purification.
+a problem common in natural products and library-derived
+synthetic compounds is that physiological targets may not be
+abundant in cell lysates and could be underrepresented on a
+stained sds gel. in such a case, high recovery or enrichment
+of the target is required for the successful isolation.1 in our
+particular case, the insertion of a long, rigid polyproline linker
+
+polyproline-rod approach to isolating protein targets
+
+enhanced the recovery of cox-1, a low-abundance protein in
+cell lysates. further design of rod-like, and preferably hydrophilic, linkers would increase the success rates of isolating lowabundance proteins.
+the generality of the approach needs to be addressed by many
+other bioactive small molecules including natural products, and
+such studies are currently underway. we note that the applicability of the polyproline-linker approach may depend on
+the characteristics of binding proteins. for instance, a biotinylated methotrexate molecule without a proline linker isolated
+its target,  xxxg631xxx , at a reasonable yield, and
+coupling of a proline linker enhanced the isolation only less
+than 2-fold in our hands (data not shown). the proline-linker
+approach may prove to be useful for isolating hard-to-isolate
+proteins.
+ xxxg898xxx  and indomethacin. our study identified  xxxg898xxx  as a
+binding protein of indomethacin and implicated the inhibition
+of  xxxg898xxx  in the sensitization of lung cancer cells to the effects
+of doxorubicin. further support for the involvement of  xxxg898xxx 
+in the cancer-drug sensitivity can be found in literature. a
+subtractive gene hybridization study on chemoresistant leukemia
+cells has shown that  xxxg898xxx  is overexpressed selectively in the
+chemoresistant cells, and stable integration of a  xxxg898xxx  gene into
+human jurkat cells rendered the cells resistant to adriamycin, a
+prototypic anthracycline cancer drug.31 increased  xxxg898xxx  expression has also been found in invasive ovarian,32 prostate,33 and
+breast cancers.34
+it remains unclear how the inhibition of  xxxg898xxx  enhances the
+effects of anthracycline cancer drugs. it is possible to imagine
+that  xxxg898xxx  directly reacts and detoxifies the drugs. however,
+this possibility may be unlikely because 1 day-incubation of
+ xxxg898xxx  with doxorubicin had no impacts on the chromatographic
+and the spectroscopic profile of doxorubicin (data not shown).
+a recent study has shown that increased glycolytic flux causes
+increased methylglyoxal modification of corepressor msin3a
+and thereby modulates gene expression.35 such methylglyoxalinitiated modulation of gene expression may mediate the synergy
+between indomethacin and anthracycline cancer drugs.
+there is now ample clinical evidence that indomethacin has
+a number of side effects including the beneficial one in oncology
+as well as adverse ones such as gastroduodenal ulceration,
+headache, and dizziness. it is not difficult to suppose that
+indomethacin interacts with a number of unknown targets that
+our approach failed to detect. nonetheless, the finding of  xxxg898xxx 
+as an additional target of indomethacin may lead to a better
+understanding of these pharmacological effects other than
+antiinflammation and to development of novel anticancer agents
+or safer derivatives of indomethacin.
+experimental section
+materials. mouse embryonic fibroblast sto cells were maintained
+in dmem supplemented with 10% fbs. human lung carcinoma a549
+(31) sakamoto, h.; mashima, t.; kizaki, a.; dan, s.; hashimoto, y.; naito,
+m.; tsuruo, t. blood 2000, 95, 3214-3218.
+(32) jones, m. b.; krutzsch, h.; shu, h.; zhao, y.; liotta, l. a.; kohn, e. c.;
+petricoin, e. f., 3rd proteomics 2002, 2, 76-84.
+(33) samadi, a. a.; fullerton, s. a.; tortorelis, d. g.; johnson, g. b.; davidson,
+s. d.; choudhury, m. s.; mallouh, c.; tazaki, h.; konno, s. urology 2001,
+57, 183-187.
+(34) rulli, a.; carli, l.; romani, r.; baroni, t.; giovannini, e.; rosi, g.; talesa,
+v. breast cancer res. treat. 2001, 66, 67-72.
+(35) yao, d.; taguchi, t.; matsumura, t.; pestell, r.; edelstein, d.; giardino,
+i.; suske, g.; ahmed, n.; thornalley, p. j.; sarthy, v. p.; hammes, h. p.;
+brownlee, m. cell 2006, 124, 275-286.
+
+articles
+cells were cultured in a 50:50 mixture of hams f-12:dmem solution
+supplemented with 10% fetal bovine serum at 37 °c under humidified
+5% co2.
+synthesis of 1-7. conjugates 1-7 were synthesized on rink-amide
+mbha resin (0.6 mmol/g, nova biochem) by coupling n-r-fmocprotected amino acids (nova biochem), n--fmoc-protected - xxxd146xxx  acid (nova biochem), n-fmoc-amido-dpeg2-acid (quanta
+biodesign), n-fmoc-amido-dpeg4-acid (quanta biodesign), n-fmocamido-dpeg6-acid (quanta biodesign), n-fmoc-amido-dpeg8-acid
+(quanta biodesign), -maleimidocaproic acid (pierce), reduced lglutathione (sigma-aldrich), and d-biotin (sigma-aldrich) (supplemental scheme s1), purified by a reversed phase hplc, and characterized by mass spectrometry and 1d/2d nmr. conjugate 3: 1h nmr
+(d2o, 600 mhz) deltah 4.63 (br. t, 9h), 4.59 (br. t, 1h), 4.52 (br. t, 1h),
+4.34 (br. m, 2h), 4.15 (t, j)7.2 hz, 1h), 3.99 (m, 3h), 3.75 (br. m,
+9h), 3.54 (br. s, 11h), 3.43 (t, j)6.6 hz, 5h), 3.25-3.19 (m, 4h),
+3.09 (br. m, 6h), 2.63 (br. t, 1h), 2.51 (m, 2h), 2.25-2.12 (m, 12h),
+1.95 (t, j)6.6 hz, 18h), 1.83 (br. t, 11h), 1.51 (br. m, 10h), 1.44 (br.
+t, 4h), 1.32-1.27 (m, 6h), 1.18 (br. t, 2h); maldi-tof-ms exact
+mass calcd for c87h131n19o22s2+ requires m/z 1858.92. found m/z
+1858.77. conjugate 1: calcd for c42h88n10o13s2+ requires 985.2. found
+(maldi-tof-ms) 986.4 [m + h]+. conjugate 2: calcd for
+c72h110n16o19s2+ requires 1567.9. found (maldi-tof-ms) 1567.6
+[m + h]+. conjugate 4: calcd for c49h81n11o16s2+ requires 1144.4.
+found (maldi-tof-ms) 1144.5 [m + h]+. conjugate 5: calcd for
+c53h89n11o18s2+ requires 1232.5. found (maldi-tof-ms) 1232.6
+[m + h]+. conjugate 6: calcd for c57h97n11o20s2+ requires 1320.6.
+found (maldi-tof-ms) 1320.6 [m + h]+. conjugate 7: calcd for
+c61h105n11o22s2+ requires 1408.7. found (maldi-tof-ms) 1408.7
+[m + h]+.
+synthesis of 9-13. conjugates 9-13 were synthesized on rinkamide mbha resin (0.6 mmol/g, nova biochem) by coupling n-rfmoc-protected amino acids (nova biochem), n--fmoc-- xxxd146xxx  acid (nova biochem), indomethacin (sigma-aldrich), and d-biotin
+(sigma-aldrich) (supplemental scheme s2), purified by a reversed
+phase hplc and characterized by mass spectrometry. conjugate
+9: calcd for c79h128n19o15s+ requires 1615.0. found (maldi-tofms) 1615.0 [m + h]+. conjugate 10: calcd for c53h79cln11o9s+
+requires 1080.8. found (maldi-tof-ms) 1080.6 [m + h]+. conjugate 11: calcd for c98h143cln20o18s+ requires 1954.8. found
+(maldi-tof-ms) 1955.1 [m + h]+. conjugate 12: calcd for c153h230cln33o31s+ requires 3095.2. found (maldi-tof-ms) 3095.7 [m +
+h]+. conjugate 13: calcd for c134h217n32o28s+ requires 2755.4. found
+(maldi-tof-ms) 2755.6 [m + h]+. the concentrations were
+determined by measuring uv absorbance in methanol ( ) 6290
+lmol-1cm-1 at lambdamax)319 nm).
+binding analysis of glutathione (gsh)-biotin conjugates 1-7.
+bacterial lysates were prepared from a 50 ml culture of e. coli cells
+overexpressing glutathione-s-transferase (gst) in 2 ml of a lysis buffer
+[phosphate buffer (ph 7.4) containing 5 mm edta, 0.5% np-40, and
+1 mm pmsf]. the soluble fraction was pretreated with neutravidineagarose beads to eliminate bacterial biotin-binding and nonspecific
+proteins. a 150-µl of the pretreated sample was then incubated with
+each gsh-biotin conjugate (1-7, 25 µm in a final concentration) at
+4 °c for 16 h and added slurry of neutravidine-agarose beads (100
+µl). after another 2-h incubation at 4 °c, the beads were washed three
+times with the lysis buffer and then three times with a tris-hcl buffer
+(ph 8.0) containing 100 mm nacl. the bound proteins were eluted
+with a tris-hcl buffer (ph 8.0) containing 100 mm nacl and 10 mm
+reduced  xxxd2213xxx , followed by sds-page.
+isolation of endogenous cox-1. mouse sto cells were harvested
+from a 10-ml culture, resuspended in 500 µl of a binding buffer
+[phosphate buffer (ph 7.4) containing 100 mm nacl and 1% dmso],
+and sonicated for 5 s three times on ice. debris was removed by
+centrifugating the sample at 20000g for 30 min. slurry of neutravidineagarose beads (100 µl) saturated with each biotin conjugate was
+j. am. chem. soc.
+
+9
+
+vol. 129, no. 4, 2007 879
+
+sato et al.
+
+articles
+incubated with 100 µl of sto cell lysates for 1 h on ice in the binding
+buffer and washed eight times with the binding buffer. the bound
+proteins were analyzed by sds-page, silver staining, and western
+blots using an antibody against mouse cox-1 (santa cruz biotechnology). for microsequencing of the protein bands, the purification
+was scaled up 100-fold. a 2-ml solution of the sto-cell lysates
+prepared from a 1-l culture was incubated with slurry of neutravidineagarose beads (1 ml) saturated with biotin conjugates 9 or 11 in the
+binding buffer on ice for 3 h. after extensive wash with the binding
+buffer, the bound proteins were eluted with a 1% sds buffer and
+separated by sds-page. the 70-kda band specific to conjugate 11
+was excised from the gel and subjected to lc-ms-ms analysis of tryptic
+peptides.
+capture and release of  xxxg898xxx . a 2-ml solution of the sto-cell
+lysates prepared from a 1-l culture was incubated with slurry of
+neutravidine-agarose beads (1 ml) saturated with biotin conjugates
+12 or 13 in the binding buffer [phosphate buffer (ph 7.4) containing
+100 mm nacl (pbs)] on ice for 3 h. after extensive wash with pbs,
+the beads were treated with 6his-tagged hrv-3c protease (20 units/
+ml) in pbs at 4 °c for 16 h. the sample was then filtered with an
+empty polypropylene chromatography column (biorad). after removal
+of the protease by using 100 µl of his-bind resin (novagen), proteins
+in the flowthrough were separated by sds-page. the 25-kda band
+specific to conjugate 12 was excised from the gel and microsequenced
+by lc-ms-ms analysis of tryptic peptides.
+preparation of recombinant  xxxg898xxx . total rna was extracted
+from mouse sto cells with isogen-reagent (nippon gene), and 5
+µg of the rna was reverse-transcribed to cdna by using oligo (dt)
+primer with avian myeloblastosis virus reverse transcriptase (invitrogen)
+for 60 min at 42 °c. the reaction mixture was then subjected to pcr
+by using pfx dna polymerase (invitrogen) with following primer
+pairs: 5′-ggg atc cca tat ggc aga gcc aca gcc ggc
+gtc cag tgg cct cac-3′ and 5′-gat cga att cct aaa taa
+tcg ttg cta ttt tgt tag gat tca gaa tct c-3′. the
+resulting  xxxg898xxx  cdna was then inserted into pet28a expression vector
+(novagen) and introduced into escherichia coli bl21-codonplus(de3)ripl cells (invitrogen) for overexpression. recombinant 6his-taged
+ xxxg898xxx  protein was purified by using his-bind resins (novagen). protein
+concentration was determined using tryptophan and tyrosine absorbance
+with 280 ) 5500 and 1100 m-1 cm-1.
+determination of ki values. the ability of the nonsteroidal
+antiinflammatory drugs to inhibit the enzymatic activity of mouse
+recombinant  xxxg898xxx  was measured in a 50-mm tris-hcl buffer (ph
+6.8) containing 100 mm nacl, 1% dmso, 4 mm glutathione, and 4
+mm  xxxd2613xxx  (sigma-aldrich). after preincubation with varied
+concentrations of each drug at 30 °c for 10 min,  xxxg898xxx  (20 nm) was
+added to the reaction buffer. the rate of formation of s-lactylglutathione
+was monitored by an increase in absorption at 240 nm as described.36
+data collection was performed below an absorbance of 1.0 to maintain
+the linearity of the data. concentrations of the drugs were determined
+using their lambdamax absorbance in methanol: acemetacin (319 ) 6800 m-1
+cm-1), aspirin (278 ) 1300 m-1 cm-1), fenoprofen (274 ) 1700 m-1
+cm-1), ibuprofen (265 ) 310 m-1 cm-1), indomethacin (319 ) 6300
+m-1 cm-1),  xxxd2423xxx  (255 ) 21400 m-1 cm-1),  xxxd2969xxx  (255 )
+11700 m-1 cm-1),  xxxd3259xxx  (327 ) 15000 m-1 cm-1),  xxxd3396xxx  (261 )
+9500 m-1 cm-1), and  xxxd3563xxx  (256 ) 12700 m-1 cm-1).
+
+overexpression and knockdown of  xxxg898xxx . for overexpression
+of  xxxg898xxx , pcdna3.1his(b) expression vector of  xxxg898xxx  was transfected
+into a549 cells using lipofectamine 2000 reagent (invitrogen). stable
+transfectants were selected by  xxxg418xxx . for knockdown of  xxxg898xxx , 21nucleotide sirna duplex corresponding to the coding region 99-117
+(5′-caa acg aug cua aga auu adtdt-3′) (dharmacon
+research, boulder, co) was transiently transfected using lipofectamine
+2000 reagent (invitrogen). expression levels of  xxxg898xxx  were estimated
+by western blot analysis using an antibody against human  xxxg898xxx 
+(abnova) and quantified with the scion-image (version 4.02) software.
+
+(36) lyon, p. a.; vince, r. j. med. chem. 1977, 20, 77-88.
+
+ja0655643
+
+880 j. am. chem. soc.
+
+9
+
+vol. 129, no. 4, 2007
+
+combination cytotoxicity assay. doxorubicin (lkt laboratories)
+was dissolved in dmso before being diluted to its working concentrations in a culture medium. acemetacin, aspirin, ibuprofen, indomethacin,  xxxd2423xxx ,  xxxd2969xxx ,  xxxd3259xxx , and  xxxd3563xxx  sodium (sigmaaldrich), and fenoprofen and  xxxd3396xxx  (lkt laboratories), were
+dissolved in pbs containing 1% dmso (ph 7.6) and then were diluted
+in a culture medium. a549 cells were seeded at 2000 cells per well in
+96-well plates, and doxorubicin and each antiinflammatory drug were
+added on day 2. four days after the drug addition, cell viability was
+evaluated by using wst-1 reagent.29 the results were also confirmed
+by manual cell counting.
+isothermal titration microcalorimetry (itc) measurement. the
+binding of  xxxg898xxx  to indomethacin was analyzed by a microcal vpitc calorimeter. a solution of the recombinant mouse  xxxg898xxx  (10 µm)
+was titrated with an indomethacin solution (280 µm) or a  xxxd3563xxx 
+solution (2 mm) at 28 °c in a tris-buffered saline containing 1% dmso
+(tbs: 20 mm tris, 100 mm nacl, 1% dmso, ph 6.8). binding
+enthalpy (∆h), equilibrium-binding constant (ka), and binding stoichiometry (n) were obtained through the analysis of titration data.
+nmr studies. indomethacin and methanol was dissolved in pbs
+containing 5% d2o at a concentration of 100 µm. assignments of the
+proton signals were achieved by 1d and 2d nmr experiments. a pbs
+solution of  xxxg898xxx  (100 µm) was gradually added to an nmr sample
+of indomethacin, and a one-dimensional 1h spectrum was collected
+after each addition of the protein. nmr experiments were performed
+on a bruker avance 600 mhz spectrometer. the data were processed
+using uxnmr (bruker), and proton chemical shifts were referenced
+to the h2o resonance (4.70 ppm at 298 k). the one-dimensional 1h
+nmr spectra were recorded with 14 ppm spectral width, 8192 data
+points, and 298 k temperature. suppression of the h2o resonance was
+achieved by an excitation sculpting gradient pulse.
+
+acknowledgment. this work was supported in part by grants
+from nih (ca109277), nagase science and technology
+foundation, and mext scientific research on priority area.
+we thank a. otaka for helpful discussion. nmr spectra were
+obtained in the keck nmr facility at the university of houston.
+supporting information available: details of the determination of ki and kd values and nmr data (figures s1-s5),
+and the synthetic procedures of the polyproline compounds
+(schemes s1-s3). this material is available free of charge via
+the internet at http://pubs.acs.org.
+

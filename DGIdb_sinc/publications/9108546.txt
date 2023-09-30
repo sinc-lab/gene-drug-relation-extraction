@@ -1,0 +1,1181 @@
+molecular and biochemical parasitology 85 (1997) 25 – 40
+
+analysis in yeast of antimalaria drugs that target the
+ xxxg631xxx  of plasmodium falciparum
+jason m. wooden, leland h. hartwell, brandi vasquez1, carol hopkins sibley*
+department of genetics, box 357360, uni6ersity of washington, seattle, wa 98 195 -7360, usa
+received 29 august 1996; accepted 19 november 1996
+
+abstract
+pyrimethamine and cycloguanil are competitive inhibitors of the plasmodium enzyme  xxxg631xxx 
+(dhfr). they have been effective treatments for malaria, but rapid selection of populations of the parasite resistant
+to these drugs has compromised their effectiveness. parasites resistant to either drug usually have point mutations in
+the dhfr gene, but the frequency of these mutations is unknown. to study drug resistance more effectively, we
+transferred the dhfr domain of the dhfr- xxxg2366xxx  gene from a drug-sensitive line of p. falciparum to a
+strain of the budding yeast, saccharomyces cere6isiae, that lacks endogenous dhfr activity. expression of the p.
+falciparum dhfr is controlled by the yeast dhfr 5% and 3% regulatory regions and the heterologous enzyme provided all
+of the functions of the yeast dhfr gene. these yeast were susceptible to pyrimethamine and cycloguanil at low
+concentrations that inhibit p. falciparum (ic50 about 10 − 8 and 10 − 7 m, respectively). yeast expressing constructs
+with dhfr alleles from pyrimethamine-resistant strains were resistant to both pyrimethamine and cycloguanil
+(ic50 \10 − 6 m); resistance of the yeast depended on the dhfr allele they expressed. the experimental drug wr99210
+efficiently killed all three yeast strains (ic50 about 10 − 8 m) but the pyrr strains showed collateral hypersensitivity to
+drug. the yeast transformants carrying the drug-sensitive allele can now be screened quickly and quantitatively to
+identify new drugs or combinations of drugs and determine which drugs select resistant parasites least efficiently. such
+compounds would be excellent candidates for development of treatments with a longer life in clinical practice. © 1997
+elsevier science b.v.
+keywords: plasmodium falciparum; saccharomyces cere6isiae; malaria; antifolate; drug resistance
+
+abbre6iations: dhfr,  xxxg631xxx ; pf-dhfr, dhfr derived from p. falciparum; sc-dhfr, dhfr derived from s.
+cere6isiae; d6, d6/sierra leone; hon, honduras 1; mik, mikenga.
+* corresponding author. tel.: + 1 206 6859378; fax: +1 206 5430754; e-mail: sibley@genetics.washington.edu
+1
+current address: oregon health sciences university, portland, oregon, usa.
+0166-6851/97/$17.00 © 1997 elsevier science b.v. all rights reserved.
+pii s 0 1 6 6 - 6 8 5 1 ( 9 6 ) 0 2 8 0 8 - 3
+
+26
+
+j.m. wooden et al. / molecular and biochemical parasitology 85 (1997) 25–40
+
+1. introduction
+the selection of populations resistant to standard regimens of chemotherapy has led to a major
+public health problem in many regions where
+falciparum malaria is common. currently, most
+of the drugs that have been used in the past to
+treat or prevent malaria are no longer effective
+[1,2]. it is critical to increase chemotherapeutic
+options by identifying new drugs and drug
+targets, and optimizing deployment of drugs that
+are already in use. two drugs that have been used
+widely against malaria are pyrimethamine and
+ xxxd1672xxx  (which is metabolized in humans into
+the active form, cycloguanil [1]). these are both
+competitive inhibitors of the enzyme  xxxg631xxx  (dhfr;  xxxd3334xxx :
+nadp + oxidoreductase, ec 1.5.1.3) that controls a key step in thymidylate biosynthesis [3].
+drug screening studies have identified many other
+dhfr inhibitors that are effective in vitro
+against p. falciparum [4 – 6], but the rapid selection of resistance to pyrimethamine and cycloguanil has strongly discouraged further
+development. the assumption is that other drugs
+with a mode of action similar to pyrimethamine
+and cycloguanil would show equally strong selection for drug resistance, but it has not been
+possible to test this directly.
+although the gene that encodes dhfr has
+been strongly conserved during evolution, subtle
+differences in the active sites of bacterial, human
+and parasite enzymes have been exploited to develop dhfr inhibitors specific to particular
+pathogens [1,3]. for example, pyrimethamine and
+cycloguanil bind strongly to the p. falciparum
+dhfr active site, but not to that of humans [7].
+in eukaryotes, resistance to inhibitors of dhfr
+develops in three major ways: changes in drug
+transport or accumulation, overexpression of the
+wild type enzyme or point mutations in the dhfr
+gene that reduce the binding affinity of the inhibitor [3,8]. in mammalian cells, the first two
+mechanisms predominate and in the kinetoplastid,
+leishmania tropica, resistance results mostly from
+over-replication of the region that encodes the
+wild type enzyme [9]. resistance due to overexpression of the enzyme has only been reported in
+
+a laboratory line of p. falciparum selected for
+pyrimethamine resistance [10]. in all other cases,
+resistance to dhfr inhibitors correlated with
+point mutations in the dhfr enzyme itself, both
+in lines selected in the lab [10,11] and in field
+populations [12–14]. based on these studies, there
+is considerable agreement that resistance to
+pyrimethamine is associated with a mutation in
+the ser108 to asn and that a further increase in
+resistance results from changes to ile51, arg59 or
+leu164
+[7,12,15,16].
+transfection
+into
+pyrimethamine-sensitive p. falciparum of a dhfr
+gene carrying the asn108 mutation has recently
+confirmed the importance of that mutation [17].
+similar studies of the dhfr coding region of parasites from cycloguanil resistant populations have
+identified positions thr108 and val16 as possible
+mutations to cycloguanil resistance, but the correspondence between particular mutations and the
+cycloguanil-resistant phenotype (cycr) is considerably less clear for this drug [18,19].
+the dhfr enzyme activity in p. falciparum is
+one domain of a bifunctional enzyme that includes  xxxg2366xxx  (ts), an enzyme that
+catalyzes a subsequent step in the folate pathway,
+[3,20]. a construct that contains just the dhfr
+domain has been cloned and expressed in escherichia coli, but the endogenous enzyme is still
+produced and the p. falciparum enzyme is mostly
+sequestered in inclusion bodies [7,21–23]. therefore, while purification of the p. falciparum
+dhfr from the e. coli has been extremely useful
+for study of the biochemistry of the enzyme, the
+system does not allow the selection of drug resistant e. coli. several groups have studied the development of pyrimethamine resistance (pyrr) in
+laboratory populations of p. falciparum [10,11],
+but the practical limitations of parasite growth in
+the lab prevent the determination of the frequency
+with which the resistance develops. peters and his
+colleagues have also conducted extensive studies
+to select mutants resistant to antifolate drugs
+using p. bergei in mice [1], but these studies are
+extremely time consuming and expensive.
+to circumvent these limitations, we have expressed the p. falciparum dhfr gene in the budding
+yeast saccharomyces cere6isiae. this work is the
+first step to establish a biological system that will
+
+j.m. wooden et al. / molecular and biochemical parasitology 85 (1997) 25–40
+
+allow new anti-malaria drugs or combinations of
+drugs that target the  xxxg631xxx 
+enzyme to be screened quickly and quantitatively
+to determine their potential as antimalaria
+treatments and to measure the frequency with
+which colonies resistant to the drug arise.
+
+2. materials and methods
+
+2.1. malaria and yeast strains
+three strains of plasmodium falciparum were
+used to isolate dna for this study. the strains
+sl/d6 [24] and mikenga (kenyan isolate, personal communication) were from dr wilbur milhous (experimental therapeutics division, walter
+reed army institute of research, silver spring,
+md) and were grown in vitro with a modification
+of the method of trager [25]. genomic dna
+from the strain honduras 1 [26] was provided by
+dr r.f. howard (seattle biomedical research
+institute, seattle, wa). the two saccharomyces
+cere6isiae strains used, the wild-type parent th1
+(mata leu2 -3,112 trp1 ura3 -52 tup1 ) and the dfr1
+mutant th5 (mata leu2 -3,112 trp1 ura3 -52
+dfr1::ura3 tup1 ), were generously provided by
+dr tun huang [27]. yeast were cultured for all
+experiments at 30°c, on minimal, dropout, rich
+(yepd) and ym-1 using standard yeast genetics
+techniques [28]. growth of the dfr1 mutant was
+supported by supplementation of the medium
+with 100 mg ml − 1  xxxd3365xxx  (sigma, st. louis, mo).
+
+2.2. construction of plasmids
+genomic dna for use in polymerase chain
+reaction (pcr) was isolated from plasmodium
+strains s/l d6 and mikenga using the saponin
+lysis-chelex method [29] and from wild-type yeast
+(th1) using the glass bead method [30]. primers
+that incorporated useful enzyme restriction sites
+were designed for each dna to be amplified
+based on published sequence data for the p. falciparum [31] and s. cere6isiae dhfr [32] genes. pcr
+protocols were all adaptations of standard procedures described in higuchi [33] and saiki et al.
+[34]. the reactions contained a total volume of
+
+27
+
+100 ml, with 0.2 mm dntps and 1.25 u of
+replitherm (epicentre, madison, wi). the reactions were amplified in a ptc-100 thermocycler
+(mj research, watertown, ma) with the following parameters unless noted otherwise: initial denaturation for 4 min at 94°c and 29 cycles with
+denaturation at 94°c for 1 min, annealing at 55°c
+for 1 min and extension at 72°c for 2 min. the
+entire 1.6 kb yeast dhfr gene was amplified as a
+kpni/saci product using the upstream primer
+5%-gaggtaccctataggaatcgtcactc-3%
+and
+downstream
+primer
+5%-ttagagctcaactggatccggacagca-3%, the yeast
+dhfr gene promoter as a 600 bp kpni/bamhi
+product using the upstream primer 5%-gaggtaccctataggaatcgtcactc-3% and the
+downstream primer 5%-agcggatccgctcgtagttcgttgcgctcttca-3%, the yeast dhfr
+gene coding region as a 600 bp bamhi/eagi
+product using the upstream primer 5%-cgaggatccatggctggaggaaagattcct-3%
+and the downstream primer 5%-gcgcggccgaataacctttttcttccagcgagta-3%
+and the yeast dhfr terminator/downstream flank
+as a 400 bp eagi/saci product using the upstream
+primer 5%-taccggccggcttcgaattcactctat-3% and the downstream primer 5%-ttagagctcaactggatccggacagca-3%. the
+plasmodium dhfr gene coding region was amplified
+(48°c annealing temperature) on a biosycler (bios
+corporation) as a 800 bp bamhi/eagi product
+using the upstream primer 5%-cgggatcctatgatggaacaagtctgcg-3% and the downstream primer 5%-gcgcggccgtcatatgacatgtatctt-3%.
+each pcr product was purified on a wizard
+pcr prep dna column (promega, madison,
+wi) and digested with the appropriate restriction
+enzymes. plasmid preparations, enzyme reactions
+and ligation reactions were performed according
+to standard methods [35] except for eagi digests
+which were done at 30°c overnight. restriction
+enzymes, phosphatase and t4 dna ligase were
+obtained from boehringer mannheim (indianapolis, in) and new england biolabs (beverley,
+ma) and used according to manufacturer’s instructions. vector and insert dna digests were
+isolated on a wizard dna column (promega),
+
+28
+
+j.m. wooden et al. / molecular and biochemical parasitology 85 (1997) 25–40
+
+fig. 1. test for dhfr enzyme function. (a) test constructs and ability to complement the yeast dfr1 defect. transformants
+containing test constructs were transferred onto rich medium and allowed to grow for 2 days. yeast patches were then replica plated
+to a test plate without  xxxd3365xxx  and a control plate supplemented with 100 mg ml − 1  xxxd3365xxx . the replica plates were incubated at 30°c
+for 3 days before scoring for growth. (b) growth with/without  xxxd3365xxx  supplementation. the wild type, dhfr disruption mutant
+(dfr1::ura3 ) and the mutant containing either vector alone, the yeast dhfr construct (sc-dhfr) or the plasmodium dhfr
+construct (pf-dhfr) were tested as described above.
+
+ligated, and transformed into e. coli strain dh5a.
+taking advantage of the pcr engineered restriction sites, the various components of each dhfr
+construct were assembled into the yeast shuttle
+vector prs314 [36] in a stepwise fashion to create
+the constructs shown in fig. 1. this vector contains selectable markers for bacterial growth in
+ampicillin-containing medium and yeast growth in
+tryptophan-deficient medium. in addition, it contains yeast sequences that allow autonomous
+replication of the plasmid in yeast and centromere
+sequences that assure that the yeast cell maintains
+the plasmid at about one copy per cell. to
+
+confirm that no mutations were created during the
+pcr, dna fragments of interest were cloned into
+pks+ -bluescript (stratagene, la jolla, ca) and
+subjected to cycle sequencing according to manufacturer’s instructions (perkin-elmer/abi, foster
+city, ca)
+
+2.3. complementation tests for dhfr enzyme
+function
+the constructs were transformed into the yeast
+dfr1::ura3 mutant (th5) using the lithium acetate method [37]. transformation mixes were
+plated on tryptophan-deficient synthetic medium
+
+j.m. wooden et al. / molecular and biochemical parasitology 85 (1997) 25–40
+
+supplemented with 100 mg ml − 1  xxxd3365xxx  to select
+for plasmid-containing cells. after 3 – 5 days of
+growth, transformants that grew without tryptophan were replica plated to yepd without
+ xxxd3365xxx  to test for dhfr enzyme function. to test
+for auxotrophy for the other metabolites that
+require activity of the dhfr enzyme (adenine,
+histidine, and methionine), transformants for each
+construct were transferred to nonselective medium
+(yepd + xxxd3365xxx ), allowed to grow for 2 days and
+then replica plated to synthetic medium missing
+each of the metabolites and to complete synthetic
+medium as a control. plates were scored for
+growth after 3– 5 days.
+
+2.4. drug sensiti6ity assays
+cycloguanil and the experimental antifolate,
+wr99210 were generously supplied by dr david
+jacobus (jacobus pharmaceutical, princeton, nj),
+and chloroquine,  xxxd2258xxx , pyrimethamine
+and wr99210 by dr. wilbur milhous. stock
+solutions for pyrimethamine, cycloguanil and
+wr99210 were prepared by dissolving each drug
+at 1 mg ml − 1 in  xxxd102xxx  overnight. stock
+solutions were aliquoted and stored at −70°c.
+chloroquine was dissolved at 3.13 ×10 − 3 m in
+ xxxd102xxx  and  xxxd2258xxx  at 1 × 10 − 3 m
+in 70% ethanol; both were stored at −20°c. all
+dilutions of drugs were made serially into medium
+lacking nitrogen (1.61 g yeast nitrogen base without amino acids or ammonium sulfate, 11.1 g
+ xxxd3251xxx  and 6.7 g naoh l − 1; the level of
+ xxxd2146xxx  is 0.0018 mg l − 1 and p-aminobenzoic
+acid is 0.19 mg l − 1). the dilutions were stored at
+4°c protected from light for up to 5 days. for
+drug sensitivity experiments on solid medium,
+drugs were spread on the surface of the plate at
+the appropriate concentrations and allowed time
+to be absorbed into the medium. mixing the drug
+into the medium (after it cooled to 55 – 60°c)
+before pouring the plates worked equally well.
+drug sensitivity tests were made using a ‘‘double
+replica plating’’ procedure because this improved
+the discrimination of growth. first, yeast strains
+of interest were transferred to nonselective
+medium (yepd), allowed to grow for 2 days, and
+replica plated to another yepd plate. this plate
+
+29
+
+was then immediately replica plated to a test plate
+containing drug and control plate without drug.
+after 5 days of growth, each strain was scored for
+sensitivity by comparison with growth on the
+control plate without drug.
+the quantitative drug sensitivity assays were
+carried out in liquid culture in the following manner. each yeast strain was grown up to midlog
+phase (5× 106 –2× 107 cells ml − 1) in ym-1
+medium and this culture was diluted to 104 cells
+ml − 1 in medium and aliquoted into 5 ml cultures.
+drug was added to cultures at various concentrations but at constant volume to create a drug
+concentration series. each concentration point
+was done in duplicate. the cultures were incubated on a roller (new brunswick scientific, new
+brunswick, nj) for 24 h, after which growth was
+determined by measuring the absorbance at 660
+nm on a spectophotometer (gilford instrument
+stasar ii). a growth period of 24 h insured that
+all samples would still be actively growing in log
+phase at the end of the experiment. the drug
+sensitivity curve was generated by expressing the
+growth at each concentration point as a percentage of the growth of the control sample without
+drug.
+
+3. results
+
+3.1. the p. falciparum dhfr gene can supply the
+enzyme function in dhfr-yeast
+to determine whether the p. falciparum dhfr
+gene could provide the enzyme function in s.
+cere6isiae that lack dhfr activity, we made the
+construct diagrammed in fig. 1a. the 600 bp
+region from the 5% promoter of the s. cere6isiae
+dhfr gene [32] was cloned 5% of the dhfr domain
+from the p. falciparum dhfr-ts gene from d6 [31]
+and the translation termination and 3% termination
+region from the s. cere6isiae dhfr gene were added
+3% of the pf-dhfr-d6 coding region gene [32]. this
+hybrid gene was inserted into the prs314 plasmid
+that carries s. cere6isiae sequences that allow
+autonomous replication of the plasmid in yeast,
+and centromere sequences to assure that the plasmid is maintained at a low copy number [36].
+
+30
+
+j.m. wooden et al. / molecular and biochemical parasitology 85 (1997) 25–40
+
+several control plasmids were also made: a hybrid
+construct with the pf-dhfr-d6 coding and yeast 3%
+regions in reverse orientation, and a yeast construct that lacked the 3% region altogether. in
+addition, we made a construct with the dhfr coding region from s. cere6isiae ligated back to the
+yeast 5% and 3% regions to compare with a complete sc-dhfr gene. this was designed to assure
+that the two restriction sites that flank the pfdhfr-d6 did not reduce activity. these plasmids
+were transformed into the th5 mutant
+(dfr1::ura3 ) that lacked endogenous dhfr activity [27] and transformants were selected by
+growth on plates without tryptophan, but supplemented with  xxxd3365xxx . the resulting transformants
+were then tested for their ability to grow in the
+absence of  xxxd3365xxx .
+we first determined whether complementation
+of the yeast dhfr defect depended on the presence of the yeast 5% and 3% control regions and a
+dhfr coding region. the dhfr-mutant and the
+transformant containing the vector alone were
+unable to grow on plates that lacked  xxxd3365xxx , but
+the pf-dhfr-d6 transformant and the sc-dhfr
+transformants grew equally well in the presence or
+absence of  xxxd3365xxx . this demonstrated that the
+pf-dhfr-d6 gene can supply the enzyme function
+(fig. 1b). yeast growth was indistinguishable in
+transformants that expressed the sc-dhfr construct
+that contained the flanking restriction sites and
+the construct that lacked the sites (data not
+shown), suggesting that the restriction sites we
+introduced did not interfere with the function of
+the gene. as expected, neither the hybrid gene
+that lacked the yeast 3% sequences, nor the construct in reverse orientation showed any growth in
+the absence of  xxxd3365xxx . while the pf-dhfr-d6
+transformant did not grow as well as the wild type
+parent strain, its growth was comparable to that
+of the transformant containing the sc-dhfr plasmid. we also made yeast strains in which the
+pf-dhfr-d6 gene was integrated into the dhfr locus
+and these showed more vigorous growth, comparable to that observed for wild type yeast.
+these observations suggest that the reduced
+growth of the pf-dhfr-d6 transformant is not a
+consequence of the heterologous nature of the
+plasmodium enzyme, but probably results from
+
+the differences between the truncated promoter
+used to express the dhfr on the plasmid and the
+full promoter that drives chromosomal expression.
+to insure that the observed phenotype was due
+to the construct used for the transformation and
+not a change in the biology of the yeast host,
+plasmid dna was isolated from each transformant and transferred into e. coli [30,35]. the
+plasmid dna was analyzed by restriction digests
+and then used to transform a new yeast dhfr-mutant host. in all cases, the original phenotype was
+observed in the transformant. these results together show that the pf-dhfr enzyme can supply the function for yeast and that these regions
+of the yeast dhfr gene promoter and terminator
+are necessary and sufficient for low expression of
+the pf-dhfr gene in s. cere6isiae.
+the dhfr enzyme activity is required for the
+biosynthesis of other metabolites in addition to
+ xxxd3365xxx  (fig. 2). growth of the yeast dhfr-mutant
+requires supplementation with adenine, histidine,
+and methionine as well as  xxxd3365xxx  [27]. therefore,
+if the pf-dhfr-d6 enzyme can complement all
+of the functions of the yeast dhfr enzyme, the
+pf-dhfr-d6 transformants should no longer be
+auxotrophic for these other metabolites. this prediction was tested by transferring the pf-dhfr-d6
+transformant to plates that lacked methionine,
+
+fig. 2. folate pathway in the yeast s. cerevisiae. dihydrofolate
+(dhf) is converted to tetrahydrofolate (thf) by the enzyme
+ xxxg631xxx  (dhfr). thf is used as a cofactor in
+the biosynthesis of  xxxd3365xxx  and other metabolites.
+
+j.m. wooden et al. / molecular and biochemical parasitology 85 (1997) 25–40
+
+31
+
+table 1
+the effect of growth media on yeast strains
+growth media
+
+− xxxd3365xxx 
+−adenine
+−histidine
+−methionine
+complete
+
+yeast strain
+wildtype
+
+dfr1
+
+vector
+
+sc-dhfr
+
+pf-dhfr-d6
+
++
++
++
++
++
+
+−
+−
+−
+−
++
+
+−
+−
+−
+−
++
+
++
++
++
++
++
+
++
++
++
++
++
+
+histidine or adenine (table 1). neither the dhfrmutant nor the transformant containing the vector alone was able to grow when any of these
+three metabolites was missing from the growth
+medium. however, the pf-dhfr-d6 transformant
+grew as well as the sc-dhfr transformant under all
+of these conditions. this demonstrates that all of
+the functions of the dhfr were restored in the
+pf-dhfr-d6 transformant and that the pf-dhfr
+
+enzyme serves the major functions of the yeast
+folate pathway.
+
+3.2. expression of the plasmodium dhfr gene in
+s. cere6isiae confers sensiti6ity to inhibitors of the
+plasmodium dhfr enzyme
+wild type s. cere6isiae are insensitive to
+pyrimethamine, a drug that is a potent competi-
+
+fig. 3. growth of wild type yeast and two transformants on media containing pyrimethamine (pyr). replica plating experiments
+were performed as described in section 2.
+
+32
+
+j.m. wooden et al. / molecular and biochemical parasitology 85 (1997) 25–40
+
+fig. 4. drug sensitivity of yeast transformants. (a) comparison of pyrimethamine sensitivity of pf-dhfr-d6 and scdhfr transformants. (b) comparison of sensitivity of
+pf-dhfr-d6 to pyrimethamine (pyr) and nonrelated antimalarial drugs chloroquine (chl) and  xxxd2258xxx  (hal). the
+drug sensitivity curves were generated by expressing the
+growth at each concentration point as a percentage of the
+growth of the control sample that was not treated with drug.
+ic50 indicated by dotted line intersecting x-axis.
+
+tive inhibitor of the p. falciparum enzyme. to test
+for drug sensitivity, the growth of the pf-dhfr-d6
+transformant was examined on medium containing pyrimethamine (fig. 3). the growth of wild
+type yeast and the transformant containing the
+yeast dhfr construct (sc-dhfr) was unaffected
+by pyrimethamine concentrations as high as 4 ×
+10 − 5 m, a level high enough to kill the most
+resistant strains of p. falciparum [1]. in contrast,
+the growth of the pf-dhfr-d6 transformant was
+inhibited at 4×10 − 7 m pyrimethamine, a concentration comparable to the range of sensitivity
+seen in p. falciparum itself [1]. this demonstrates
+that the sensitivity of s. cere6isiae to
+pyrimethamine depends on the origin of the
+dhfr enzyme.
+the drug sensitivity of the pf-dhfr-d6 transformant was characterized more quantitatively by
+measuring the growth of the transformant in liquid culture. a single colony was picked, and its
+
+growth was tested in the presence of
+pyrimethamine at concentrations ranging from 0
+to 5× 10 − 5 m. the pf-dhfr-d6 transformant was
+sensitive to pyrimethamine concentrations comparable to those that inhibit p. falciparum in the
+standard short-term in 6itro assay; the ic50 was
+2× 10 − 8 m [1]. the growth of the sc-dhfr transformant was unaffected by pyrimethamine up to
+1× 10 − 5 m; effects at higher concentrations were
+identical to those observed when the solvent alone
+was tested (fig. 4a). two other dhfr inhibitors
+were tested on these pf-dhfr-d6 cells: cycloguanil
+and wr99210, an experimental drug that is also
+thought to inhibit p. falciparum by inhibition of
+dhfr [5,6]. both drugs gave comparable results;
+the s. cere6isiae cells that expressed the pf-dhfrd6 were sensitive to cycloguanil and wr99210 at
+levels comparable to the ic50 measured for each
+drug in p. falciparum (data not shown). as before, the s. cere6isiae transformants that expressed the sc-dhfr were unaffected by either
+antimalaria drug.
+to assure that the inhibition by pyrimethamine
+targeted the pf-dhfr-d6, the assay was used to
+compare the growth of the pf-dhfr-d6 transformant in choloroquine and  xxxd2258xxx , two antimalaria drugs that do not interfere with dhfr
+function (fig. 4b) [1]. no inhibition of growth
+was observed in cultures grown in either
+chloroquine or  xxxd2258xxx  except at levels where
+the solvent alone caused inhibition. thus, the
+sensitivity of the pfdhfr s. cere6isiae is specific
+to the drugs that target dhfr, as one would
+expect.
+
+3.3. the drug sensiti6ity of pfdhfr yeast is
+dependent on the dhfr allele from which the
+construct was deri6ed
+if the yeast system is to be useful, then the drug
+sensitivity of a transformed strain must depend on
+the dhfr domain used to make the expression
+construct, and allow discrimination of subtle differences between alleles of dhfr. to determine
+whether this is the case, constructs were made
+using the dhfr genes from the pyrimethamine-resistant strains honduras l (pf-dhfr-hon) and
+mikenga (pf-dhfr-mik). the resistance of the
+
+j.m. wooden et al. / molecular and biochemical parasitology 85 (1997) 25–40
+
+33
+
+fig. 5. growth of yeast containing pf-dhfr constructs on media containing pyrimethamine. replica plating tests were performed
+as described in section 2.
+
+honduras 1 strain has been shown to result from
+a single point mutation changing the ser usually
+found at amino acid 108 to asn. its ic50 for
+pyrimethamine was reported to be about 250 [19]
+to 6000 times [18] higher than that of d6. the
+ic50 for pyrimethamine of the mikenga strain was
+about 5 ×10 − 6 m, (about 260 times that of the
+sensitive d6 strain), but the dna sequence of the
+dhfr gene had not been previously characterized.
+we determined the dna sequence of the dhfr
+allele isolated from the mikenga strain; its resistance to pyrimethamine results only from two
+mutations in the dhfr domain, an asn108 and ile51
+(table 3). this is the same set of mutations previously observed in two other parasites, 7g8 and
+it.d12 that are reported to be 2500 times and
+between 1 and 3000 times more resistant to
+pyrimethamine than is the d6 strain [18,19].
+
+the drug sensitivity of transformants expressing these genes was then compared with that of
+the pf-dhfr-d6 construct described above. the
+constructs were transformed into the yeast dhfrmutant and each dhfr construct complemented the
+dhfr defect as shown in table 1. the sensitivity
+to pyrimethamine of these three pf-dhfr transformants was compared by transferring patches of
+the transformed colonies to plates containing no
+drug or pyrimethamine ranging from 5 × l0 − 8 to
+5× l0 − 5 m (fig. 5). the growth of the d6-dhfr
+transformant was completely inhibited on plates
+containing 5× 10 − 7 m pyrimethamine, the hondhfr transformant at 5×10 − 6 m and the mikdhfr transformant at 5× 10 − 5 m. this is the
+expected pattern of sensitivity based on resistance
+of each of these strains of p. falciparum [15,16]
+(jmw unpub). we concluded that the
+
+34
+
+j.m. wooden et al. / molecular and biochemical parasitology 85 (1997) 25–40
+
+resistance over the full range of sensitivity
+observed in populations of p. falciparum.
+
+3.4. inhibition of the growth by pyrimethamine
+can be o6ercome by tetrahydrofolate
+
+fig. 6. sensitivity of pf-dhfr alleles in yeast to
+pyrimethamine. transformants containing various dhfr constructs are noted as follows — —, pf-dhfr-d6; –
+–,
+pf-dhfr-hon; - -- -, pf-dhfr-mik. curves were generated as described in legend to fig. 4. ic50 indicated by dotted
+line intersecting x-axis.
+
+pyrimethamine sensitivity of these pf-dhfr
+strains reflected the strain of origin for each dhfr
+allele.
+the resistance of the three transformants was
+compared more quantitatively by growing the
+cells in liquid culture as described above. the ic50
+of the pf-dhfr-d6 transformant was about
+3×10 − 8 m pyrimethamine while the ic50 of the
+pf-dhfr-hon was 2 ×10 − 6 and pf-dhfr-mik,
+4×10 − 6 m (fig. 6a). as one might expect, the
+growth on plates containing pyrimethamine and
+inhibition of growth in liquid gave slightly
+different results; a higher concentration of drug
+was required to completely inhibit growth on
+plates. however, the data from both the replica
+plating and liquid culture assays show that the
+yeast system discriminates the differences in drug
+
+if pyrimethamine acts directly on dhfr, one
+can make several predictions based on the folate
+pathway diagrammed in fig. 2. the predictions
+were easily tested in yeast, since the pathway is
+well known, and the tests of function required
+simple replica plating on medium with defined
+nutritional requirements. for example, yeast with
+the pf-dhfr-d6 allele should again require
+supplementation with  xxxd3365xxx , adenine, methionine
+and histidine for growth in the presence of
+pyrimethamine. tetrahydrofolate (thf), the
+product of the dhfr enzyme activity, is required
+for synthesis of all of the other metabolites listed
+in fig. 2. therefore, a second prediction is that
+inclusion of tetrahydrofolate in the medium
+should overcome the effects of pyrimethamine.
+we compared the growth of transformants
+carrying three different plasmids: pyrs pf-dhfrd6, pyrr pf-dhfr-hon and the yeast sc-dhfr
+(table 2). the growth of the pf-dhfr-d6
+transformant was inhibited by pyrimethamine,
+while the growth of the sc-dhfr transformant
+and hon-dhfr transformant were not. the
+pyrimethamine-inhibition of growth was reversed
+by either thf or  xxxd3365xxx  when the d6-dhfr
+transformant was tested on plates containing
+methionine, histidine and adenine. however,
+
+table 2
+the effect of growth media on transformant growth
+growth media
+
+c (complete)
+c+pyr
+c+pyr+ xxxd3365xxx 
+c+pyr+thf
+c−his+pyr
+c−his+pyr+ xxxd3365xxx 
+c−his+pyr+thf
+
+transformant
+sc-dhfr
+
+pf-dhfr-d6
+
+pf-dhfr-hon
+
++
++
++
++
++
++
++
+
++
+−
++
++
+−
+−
++
+
++
++
++
++
+9
++
++
+
+pyrimethamine was added at 5×10−7 m. supplementation with  xxxd3365xxx  was at 100 mg ml−1 and thf at 500 mg ml−1. all tests were
+performed as described in section 2 using defined synthetic medium.
+
+j.m. wooden et al. / molecular and biochemical parasitology 85 (1997) 25–40
+
+fig. 7. sensitivity of pf-dhfr alleles in yeast to experimental
+material drug wr99210. transformants containing various
+dhfr constructs are noted as follows: — —, pf-dhfrd6; –
+– , pf-dhfr-hon; - -- -, pf-dhfr-mik. curves
+were generated as described in legend to fig. 4. ic50 indicated
+by dotted line intersecting x-axis.
+
+supplementing the medium with  xxxd3365xxx  did not
+permit growth in pyrimethamine if histidine was
+also withheld, as expected. identical results were
+observed when either adenine or methionine was
+withheld from the medium (data not shown).
+under the same conditions, the transformant that
+expressed hon-dhfr did grow, although somewhat
+weakly. no effect on growth of the sc-dhfr transformant was observed. these results serve as
+strong functional evidence that the drug sensitivity of pf-dhfr in yeast results from inhibition of
+the dhfr enzyme in the folate pathway.
+
+3.5. the pf-dhfr yeast can be used to predict
+response to experimental drugs that may act as
+inhibitors of dhfr
+the d6, honduras and mikenga strains of p.
+falciparum from which the three dhfr alleles were
+
+isolated are all efficiently killed by the experimental antimalaria drug, wr99210 [4–6]. in contrast,
+the sc-dhfr yeast were insensitive to wr99210,
+even  xxxd1891xxx  − 5 m (data not shown). when the
+growth in liquid culture was used to compare the
+drug sensitivity of each transformant to
+wr99210, all three were efficiently inhibited at
+about 10 − 8 m wr99210 (fig. 7). in fact, the
+transformants containing dhfr alleles from the
+pyrimethamine resistant strains, honduras and
+mikenga were more sensitive to wr99210 than
+the d6-dhfr transformant, a phenomenon known
+as collateral hypersensitivity [38].
+the ic50 values for inhibition of growth of the
+three pf-dhfr strains in liquid cultures for
+pyrimethamine, wr99210, and cycloguanil are
+compared in table 3. several conclusions can be
+drawn. first, the small standard deviations of the
+measurements demonstrate that this system provides a very precise measurement of the drug
+sensitivity of a dhfr allele. this degree of precision
+is much greater than that currently obtainable in
+p. falciparum using standard in vitro drug sensitivity assays [1]. second, the expected patterns of
+sensitivity were observed for all three drugs. the
+p. falciparum strains honduras 1 and mikenga
+are moderately resistant to cycloguanil but they
+are two to three orders of magnitude more resistant to pyrimethamine than is d6. in contrast, all
+three strains of p. falciparum are very efficiently
+killed by wr99210. these are exactly the patterns
+of sensitivity we observed when these dhfr alleles
+were tested in the yeast transformed with each
+dhfr allele.
+
+table 3
+ic50 values used to compare the effectiveness of drugs in yeast and p. falcipaurm
+drug
+
+cycloguanil
+pyrimethamine
+wr99210
+a
+
+35
+
+a
+
+ic50 (mm)
+
+pf-dhfr-d6
+
+pf-dhfr-hon
+
+pf-dhfr-mik
+
+0.159 0.01
+0.0359 0.003
+0.0309 0.0025
+
+1.2 90.21
+3.090.61
+0.0057 90.0004
+
+2.9 9 0.21
+4.1 90.44
+0.012 90.0038
+
+each value represents an average of three independent experiments.
+
+36
+
+j.m. wooden et al. / molecular and biochemical parasitology 85 (1997) 25–40
+
+4. discussion
+the experiments described here are the first step
+in establishing a system for estimating rapidly and
+quantitatively the potential of a dhfr inhibitor
+for selecting populations of p. falciparum resistant
+to the drug. we have demonstrated that the
+dhfr enzyme from p. falciparum can supply the
+enzyme function in dhfr -s. cere6isiae. furthermore, the sensitivity of the transformed yeast to
+antimalaria drugs that target dhfr depends
+only upon the allele they express. thus, one can
+now treat yeast that express a drug-sensitive allele
+of dhfr with a drug, and select resistant yeast
+colonies for analysis of the frequency and mechanism of their drug resistance.
+we made a number of choices in the original
+design of our experiments. first, we used only
+portions of the 5% and 3% regulatory elements from
+s. cere6isiae. the sequences of these regions were
+known [32] and our goal was to express the
+pf-dhfr at low levels. in fact, our choice of only
+600 bp of the 5% region resulted in expression that
+was considerably lower than the yeast gene with
+the full upstream 5% regions (compare the wild
+type and two plasmid constructs in fig. 1). this
+low level of expression was our intent, since, as
+one would predict, high level expression of the
+wild type enzyme from a high copy number plasmid or linked to its full promoter does confer
+resistance to high levels of pyrimethamine, cycloguanil or wr99210 (k. hamilton and s.
+mookherjee, personal communication). the dependence of the yeast upon this minimal level of
+dhfr activity allows one to see easily rather
+subtle effects of the inhibitors on the enzyme,
+simply by observing the growth of the culture on
+plates or in liquid.
+we also chose to make our constructs with only
+the coding region of the dhfr domain from p.
+falciparum, even though the enzyme activity is
+normally part of a bifunctional dhfr-ts enzyme
+[20,31]. in yeast, dhfr and ts are encoded by
+separate genes and the yeast host expressed normal levels of ts [27]. this choice avoided potential problems stemming from an overexpression of
+ts. in addition, sirawaraporn and his colleagues
+showed that constructs that contained the dhfr
+
+domain alone have kinetic parameters that are
+very similar to those measured in vitro for the
+bifunctional dhfr-ts enzyme [7]. for detailed
+studies of biochemical parameters of the dhfr
+enzyme, we intend to make similar constructs that
+do contain both the dhfr and ts domains from p.
+falciparum.
+we observed that the growth of the transformed yeast was equivalent whether the plasmid
+expressed the yeast or the p. falciparum dhfr
+(compare sc-dhfr and pf-dhfr-d6 in fig. 1).
+this was a bit of a surprise. since dhfr functions as a complex with ts in many protists [20],
+it has been argued that the association of the two
+domains is important for the efficient coupling of
+the sequential enzyme activities [39]. with this in
+mind, one might predict that the single dhfr
+domain would not interact very efficiently with
+the ts from s. cere6isiae and would support yeast
+growth somewhat less efficiently than the yeast
+dhfr enzyme. the data in fig. 1 suggest that
+the heterologous enzyme functions just as well in
+the yeast folate pathway as the native enzyme.
+the antimalaria drugs examined in this study
+inhibited growth of the d6-dhfr transformants at
+about the same concentrations that inhibit p.
+falciparum itself. this was fortuitous, but does
+allow a fairly direct comparison of the effectiveness of particular dhfr inhibitors in the yeast
+transformants and p. falciparum itself. the correspondence will permit us to monitor the emergence of drug resistant populations at
+concentrations that resemble those that are likely
+to be operating in the actual clinical situation.
+the effectiveness of low drug concentrations also
+demonstrated that the yeast were permeable to the
+antimalaria drugs. this was a concern, since s.
+cere6isiae are frequently insensitive to exogenous
+toxins simply because they exclude them from the
+cells or actively excrete them [40,41]. for example,
+yeast cells do not normally take up  xxxd3365xxx  and the
+selection of dhfr-mutant cells required that the
+mutants be maintained by  xxxd3365xxx  addition to the
+medium. to isolate the original dhfr-mutant,
+huang and his co-workers used a parental strain,
+th1, that had been first selected for the tup1
+mutation that allows thymidine uptake. we did
+not determine whether the tup1 mutation was
+
+j.m. wooden et al. / molecular and biochemical parasitology 85 (1997) 25–40
+
+necessary for efficient uptake of the dhfr inhibitors we employed, but all of our experiments
+were done in a tup1 background.
+assays of drug sensitivity on plates or in liquid
+culture gave comparable results with the three
+strains and the range of measurement spanned
+three orders of magnitude in sensitivity to
+pyrimethamine and cycloguanil. furthermore,
+honduras 1 (asn108) is somewhat less resistant to
+pyrimethamine than is mikenga (ile51asn108) and
+even this subtle difference was observed both on
+the plates and during growth in liquid. in table 3,
+we have used the ic50 values to compare the
+relative effectiveness of each of the drugs in yeast
+and in p. falciparum. this is easy because the ic50
+we measure in liquid culture is analogous to the
+ic50 commonly used to compare the response of
+different strains of in malaria to particular drugs
+[1].
+the reproducibility of the ic50 measurements in
+the pf-dhfr yeast was far better than comparable
+measurements in p. falciparum in vitro [1]. this is
+probably due to the extremely low level of folate
+and para-aminobenzoic acid in the yeast growth
+medium. this is in contrast to culture of p.
+falciparum where the standard rpmi medium
+contains 1 mg l − 1 of  xxxd2146xxx  and paraaminobenzoic acid. the variation in the levels of
+folate in the human serum and  xxxd187xxx  also
+contirbute to the variation in culture conditions of
+the p. falciparum. data were compiled from a
+number of different publications where an ic50
+was determined for laboratory strains of p. falciparum. the values given were determined in standard rpmi, and all labs used the standard
+3
+h-hypoxanthine uptake assay [42]. the relative
+sensitivity of the pyrs d6 and the pyrr strains,
+honduras 1 and its parent line, hb3 (that carry
+the mutation to asn108) was compared with the
+sensitivity of 7g8 and it.d12, two strains that
+carry the ile51 and asn108 mutations that were
+observed in the dhfr allele from mikenga. in each
+case, the relative resistance is the ratio of the ic50
+of the sensitive strain compared with the ic50 for
+the resistant strain. it is striking that the values
+reported by different labs can differ by more than
+an order of magnitude. for example, the reported
+relative resistance of hb3 ranges from 260 to
+
+37
+
+5258 [15,18,19]. variability of this kind is not
+clinically important; all groups agree in the assignment of strains to the pyrs and pyrr categories. however, table 3 shows that in the yeast
+system, the measurement of relative sensitivity to
+any of these drugs is easy and reproducible. this
+precision will allow direct assessment of the contribution of each amino acid change to the overall
+resistance of the enzyme to a particular drug.
+wr99210 is the active metabolite of ps-15, one
+of several promising drugs that are potent inhibitors of pf-dhfr in vitro [4]. wr99210 is effective even against strains that are extremely
+resistant to pyrimethamine and cycloguanil, like
+the honduras 1 and mikenga strains used here. in
+fact, both of these pyrimethamine- and cycloguanil-resistant strains were more sensitive to
+wr99210 than was the pyrimethamine-sensitive
+d6. this collateral hypersensitivity has been observed for other drug targets where a series of
+related drugs was compared [38]. the major difference between the d6 and the two pyrr strains
+is the presence of asn rather than ser at the 108
+position. detailed binding and structural studies
+will be required to identify the cause of the increased susceptibility of these two strains to
+wr99210. in any case, if strains that express the
+asn108 are generally more susceptible to this new
+drug, it raises the hope that ps-15 may be particularly effective against the pyrimethamine-and cycloguanil-resistant strains that already prevail in
+large regions of southeast asia and south america and are developing rapidly in africa [2,13,14].
+at this point, the effectiveness of wr99210 has
+been demonstrated in vitro, but it is not yet
+known whether all of its action is directed against
+dhfr [4–6]. when we tested the drug against
+the yeast transformants expressing each dhfr allele, wr99210 efficiently killed all of them, but
+the ic50 was about 10 − 8, almost an order of
+magnitude higher than the comparable measurement in p. falciparum (milhous, w. wrair internal document; jmw, unpublished). one
+explanation of this discrepancy could be that
+wr99210 inhibits more than one function in p.
+falciparum. further experiments will be required
+to test this idea, but the yeast system affords a
+quick, quantitative way to determine whether a
+
+38
+
+j.m. wooden et al. / molecular and biochemical parasitology 85 (1997) 25–40
+
+drug really does target the pf-dhfr and if it does,
+to separate that action from inhibition of other
+functions in p. falciparum.
+the basic strategy used here may be applicable
+to the study of resistance to a number of other
+antimalaria drugs. the requirements are clear.
+first, the drug must inhibit a particular p. falciparum enzyme, either as a competitive inhibitor of
+the enzyme or by binding to a region other than
+the active site. second, the homologous enzyme
+activity must also operate in s. cere6isiae. third,
+the mechanism of resistance must depend on mutations in the gene, not on increases in gene
+expression or changes in other genes that affect
+the cell biology of p. falciparum. fourth, the s.
+cere6isiae must be permeable to the drug in question and the subcellular localization of the enzyme
+and the drug must be the same in both systems. a
+number of malaria enzymes appear to conform to
+these requirements. dihydropteroate synthase, the
+target of sulfa drugs [40], topoisomerases i and ii,
+the target of quinolones [41,42] and ornithine
+decarboxylase, the target of  xxxd2430xxx  and novel tetraamines [43,44] are all possible candidates for studies of this sort.
+these experiments make it clear that one can
+study the effect of antimalaria drugs that target
+the dhfr enzyme of p. falciparum by transferring the malaria enzyme into s. cere6isiae. the
+ease of growth and manipulation of the yeast
+make it easy to measure the sensitivity of any
+particular dhfr allele to potential inhibitors of
+pf-dhfr. more important, it will allow us now
+to measure the efficiency with which resistant
+mutants to any particular dhfr inhibitors are
+selected. a drug or combination of drugs that
+show a very low capacity to select resistant populations in the yeast system will be a valuable lead
+in the development of drugs of this class that
+remain clinically useful for treatment of p. falciparum over much longer periods than those observed for pyrimethamine and cycloguanil.
+
+acknowledgements
+the advice and encouragement of barbara
+garvik, dr david jacobus, dr wilbur milhous
+
+and dr wallace peters are gratefully acknowledged. critical reading of the manuscript by barbara garvik, kelly hamilton, victoria brophy,
+tuyen vu, eleanor hankins, somnath mookherjee, erik jacobson and alexis n’zila greatly improved the manuscript. initial stages of this work
+were supported by the royalties research fund
+of the university of washington, and nih grant
+gm 17709 to lhh. lhh is an acs research
+professor. jmw is supported by training grant
+(gm 67–1173) to the department of genetics.
+
+references
+[1] peters, w. (1987) chemotherapy and drug resistance in
+malaria, academic press, london.
+[2] white, n.j. (1992) antimalarial drug resistance: the pace
+quickens. j. antimicrob. chemother. 30, 571 – 85.
+[3] hyde, j.e. (1990) the  xxxg631xxx - xxxg2366xxx  gene in the drug resistance of malaria parasites. pharm. ther. 48, 45 – 59.
+[4] milhous, w.k., weatherly, n.f., bowdre, j.h. and desjardins, r.e. (1985) in vitro activities of and mechanisms
+of resistance to antifol antimalarial drugs. antimicrob.
+agents chemother. 27, 525 – 30.
+[5] childs, g.e. and lambros, c. (1986) analogues of nbenzyloxydihydrotriazines: in vitro antimalarial activity
+against plasmodium falciparum. ann. trop. med. parasitol. 80, 177 – 81.
+[6] canfield, c.j., milhous, w.k., ager, a.l., rossan, r.n.,
+sweeney, t.r., lewis, n.j. and jacobus, d.p. (1993)
+ps-15: a potent, orally active antimalarial from a new
+class of  xxxd2146xxx  antagonists. am. j. trop. med. hyg.
+49, 121 – 6.
+[7] sirawaraporn, w., prapunwattana, p., sirawaraporn, r.,
+yuthavong, y. and santi, d.v. (1993) the dihydrofolate
+reductase domain of plasmodium falciparum thymidylate
+synthase- xxxg631xxx . gene synthesis, expression and anti-folate-resistant mutants. j. biol. chem. 268,
+21637 – 44.
+[8] huennekens, f.m. (1994) the methotrexate story: a
+paradigm for development of cancer chemotherapeutic
+agents. adv. enzyme-regul. 34, 397 – 419.
+[9] coderre, j.a., beverley, s.m., schimke, r.t. and santi,
+d.v. (1983) overproduction of a bifunctional thymidylate
+synthetase- xxxg631xxx  and dna amplification in methotrexate-resistant leishmania tropica. proc.
+natl. acad. sci. usa 80, 2132 – 6.
+[10] thaithong, s., chan, s.w., songsomboon, s., wilairat,
+p., seesod, n., sueblinwong, t., goman, m., ridley, r.
+and beale, g. (1992) pyrimethamine resistant mutations
+in plasmodium falciparum. mol. biochem. parasitol. 52,
+149 – 57.
+
+j.m. wooden et al. / molecular and biochemical parasitology 85 (1997) 25–40
+[11] tanaka, m., gu, h.m., bzik, d.j., li, w.b. and inselburg, j. (1990) mutant  xxxg631xxx -thymidylate
+synthase
+genes
+in
+pyrimethamine-resistant
+plasmodium falciparum with polymorphic chromosome
+duplications. mol. biochem. parasitol. 42, 83–91.
+[12] zolg, j.w., plitt, j.r., chen, g.-x. and palmer, s. (1989)
+point mutations in the  xxxg631xxx - xxxg2366xxx  gene as the molecular basis for
+pyrimethamine resistance in plasmodium falciparum. mol.
+biochem. parasitol. 36, 253–262.
+[13] peterson, d.s., di santi, s.m., povoa, m., calvosa, v.s.,
+do rosario, v.e. and wellems, t.e. (1991) prevalence of
+the  xxxg631xxx  asn108 mutation as the basis
+for pyrimethamine-resistant falciparum malaria in the
+brazilian amazon. am. j. trop. med. hyg. 45, 492 – 7.
+[14] plowe, c.v., djimde, a., bouare, m., doumbo, o. and
+wellems, t.e. (1995) pyrimethamine and  xxxd1672xxx  resistance-conferring mutations in plasmodium falciparum  xxxg631xxx : polymerase chain reaction methods
+for surveillance in africa. am. j. trop. med. hyg. 52,
+565 – 8.
+[15] peterson, d.s., walliker, d. and wellems, t.e. (1988)
+evidence that a point mutation in  xxxg631xxx -thymidylate
+synthase
+confers
+resistance
+to
+pyrimethamine in falciparum malaria. proc. natl. acad.
+sci. usa 85, 9114–8.
+[16] cowman, a.f., morry, m.j., biggs, b.a., cross, g.a.
+and foote, s.j. (1988) amino acid changes linked to
+pyrimethamine resistance in the dihydrofolate reductasethymidylate synthase gene of plasmodium falciparum.
+proc. natl. acad. sci. usa 85, 9109–13.
+[17] foote, s.j., galatis, d. and cowman, a.f. (1990) amino
+acids in the  xxxg631xxx - xxxg2366xxx 
+gene of plasmodium falciparum involved in cycloguanil
+resistance differ from those involved in pyrimethamine
+resistance. proc. natl. acad. sci. usa 87, 3014–7.
+[18] peterson, d.s., milhous, w.k. and wellems, t.e. (1990)
+molecular basis of differential resistance to cycloguanil
+and pyrimethamine in plasmodium falciparum malaria.
+proc. natl. acad. sci. usa 87, 3018–22.
+[19] garrett, c.e., coderre, j.a., meek, t.d., garvey, e.p.,
+claman, d.m., beverley, s.m. and santi, d.v. (1984) a
+bifunctional  xxxg2366xxx - xxxg631xxx  in protozoa. mol. biochem. parasitol. 11, 257– 65.
+[20] sirawaraporn, w., sirawaraporn, r., cowman, a.f.,
+yuthavong, y. and santi, d.v. (1990) heterologous expression of active  xxxg2366xxx - xxxg631xxx  from plasmodium falciparum. biochemistry 29,
+10779 – 85.
+[21] hall, s.j., sims, p.f. and hyde, j.e. (1991) functional
+expression of the  xxxg631xxx  and thymidylate
+synthetase activities of the human malaria parasite plasmodium falciparum in escherichia coli. mol. biochem.
+parasitol. 45, 317–30.
+[22] lagosky, p.a., taylor, g.r. and haynes, r.h. (1987)
+molecular characterization of the saccharomyces cere6isiae  xxxg631xxx  gene (dfr1). nucleic
+acids res. 15, 10355–10371.
+
+39
+
+[23] oduola, a.m., milhous, w.k., weatherly, n.f., bowdre,
+j.h. and desjardins, r.e. (1988) plasmodium falciparum:
+induction of resistance to mefloquine in cloned strains by
+continuous drug exposure in vitro. exp. parasitol. 67,
+354 – 60.
+[24] sikorski, r.s. and hieter, p. (1989) a system or shuttle
+vectors and yeast host strains designed for efficient manipulation of dna in saccharomyces cere6isiae. genetics
+122, 19 – 27.
+[25] huang, t., barclay, b.j., kalman, t.i., vonborstel, r.c.
+and hastings, p.j. (1992) the phenotype of a  xxxg631xxx  mutant in saccharomyces cere6isiae. gene
+121, 167 – 171.
+[26] zolg, j.w., macleod, a.j., dickson, i.h. and scaife,
+j.g. (1982) plasmodium falciparum: modifications of the
+in vitro culture conditions improving parasitic yields. j.
+parasitol. 68, 1072 – 1080.
+[27] sherman, f., fink, g.r. and lawrence, c.w., (1979)
+methods in yeast genetics, cold spring harbor press,
+cold spring harbor, ny.
+[28] wooden, j.m., gould, e.e., paull, a.t. and sibley, c.h.
+(1992) plasmodium falciparum: a simple polymerase chain
+reaction method for differentiating strains. exp. parasitol.
+74, 207 – 212.
+[29] hoffman, c.s. and winston, f. (1987) a ten-minute
+dna preparation from yeast efficiently releases autonomous plasmids for transformation of escherichia coli.
+gene 57, 267 – 72.
+[30] bzik, d.j., li, w.b., horii, t. and inselburg, j. (1987)
+molecular cloning and sequence analysis of the plasmodium falciparum  xxxg631xxx - xxxg2366xxx  gene. proc. natl. acad. sci. usa 84, 8360 – 4.
+[31] higuchi, r. (1989) simple and rapid preparation of samples for pcr, in pcr technology: principles and applications for dna amplification (erlich h., ed.), pp.
+31 – 38. stockton press, san francisco.
+[32] saiki, r., scharf, s., faloona, f., mullis, k., horn, g.,
+erlich, h. and arnheim, n. (1985) enzymatic amplification of  xxxg1025xxx  genomic sequences and restriction site
+analysis for diagnosis of sickle cell anemia. science 230,
+1350 – 1354.
+[33] sambrook, j., fritsch,  xxxd1971xxx . and maniatis, t. (1989)
+molecular cloning: a laboratory manual, cold spring
+harbor press, cold spring harbor, ny.
+[34] ito, h., fukuda, y., murata, k. and kimura, a. (1983)
+transformation of intact yeat cells treated with alkali
+cations. j. bacteriol. 153, 163 – 168.
+[35] genther, c.s., schoeny, r.s., loper, j.c. and smith,
+c.c. (1977) antifolate studies. activities of 40 potential
+antimalarial compounds against senstitive and  xxxd1672xxx  triazine resistant strains of folate-requiring bacteria and escherichia coli. j. med. chem. 20, 237 – 243.
+[36] knighton, d.r., kan, c.c., howland, e., janson, c.a.,
+hostomska, z., welsh, k.m. and matthews, d.a. (1994)
+structure of and kinetic channelling in bifunctional  xxxg631xxx - xxxg2366xxx . nat. struct.
+biol. 1, 186 – 94.
+
+j.m. wooden et al. / molecular and biochemical parasitology 85 (1997) 25–40
+
+40
+
+[37] pillai, r., kytle, k., reyes, a. and colicelli, j. (1993) use
+of a yeast expression system for the isolation and analysis
+of drug-resistant mutants of a mammalian phosphodiesterase. proc. natl. acad. sci. usa 90, 11970–11974.
+[38] nitiss, j.l. (1994) using yeast to study resistance to
+ xxxg2312xxx -targeting drugs. cancer chemother.
+pharmacol. 34, 6–13.
+[39] desjardins, r.e., canfield, c.j., haynes, j.h. and chulay, j.d. (1979) quantitative assessment of anitmalarial
+activity in vitro by a semiautomatedmicrodilution technique. antimicrobial agents and chemotherapy 16, 710 –
+718.
+[40] brooks, d.r., wang, p., read, m., watkins, w.m.,
+sims, p.f. and hyde, j.e. (1994) sequence variation of
+the hydroxymethyldihydropterin pyrophosphokinase: dihydropteroate synthase gene in lines of the human
+malaria parasite, plasmodium falciparum, with differing
+resistance to sulfadoxine. eur. j. biochem. 224, 397 – 405.
+
+.
+
+.
+
+[41] tosh, k. and kilbey, b. (1995) the gene encoding topoisomerase i from the human malaria parasite plasmodium falciparum. gene 163, 151 – 4.
+[42] gamage, s.a., tepsiri, n., wilairat, p., wojcik, s.j.,
+figgitt, d.p., ralph, r.k. and denny, w.a. (1994) synthesis and in vitro evaluation of 9-anilino-3,6-diaminoacridines active against a multidrug-resistant strain
+of the malaria parasite plasmodium falciparum. j. med.
+chem. 37, 1486 – 94.
+[43] edwards, m.l., stemerick, d.m., bitonti, a.j., dumont,
+j.a., mccann, p.p., bey, p. and sjoerdsma, a. (1991)
+antimalarial polyamine analogues. j. med. chem. 34,
+569 – 74.
+[44] hibasami, h., tsukada, t., nishiguchi, y., sakurai, m.,
+shirakawa, s. and nakashima, k. (1994) remarkable
+activation of polyamine biosynthesis in hematopoiesis and
+hyperplasia of spleen in mice with hemolytic anemia
+caused by infection with plasmodium berghei. int. j. parasitol. 24, 213 – 7.
+

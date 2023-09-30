@@ -1,0 +1,1647 @@
+j. phys. chem. a 2006, 110, 6487-6497
+
+6487
+
+classical polarization in hybrid qm/mm methods
+christopher j. r. illingworth,† stuart r. gooding,† peter j. winn,†,‡ garth a. jones,†
+gyo1 rgy g. ferenczy,§ and christopher a. reynolds*,†
+department of biological sciences, university of essex, wivenhoe park,
+colchester,  xxxg283xxx   xxxg284xxx  3sq, united kingdom, and department of general and analytical chemistry,
+budapest university of technology and economics, szt gellért tér 4, budapest, 1111-hungary
+received: july 10, 2004; in final form: march 29, 2006
+
+we have presented a method for modeling polarization in hybrid qm/mm calculations. the method, which
+expresses the induced dipoles as a set of “induced” charges, is based on the induced dipole approach and
+methodology for calculating potential-derived point charges from distributed multipole series. the method
+has the advantage that the same methodology can be used to determine the induced charges and the potential
+derived charges and so both sets of charges are rigorously defined within the same framework. this underlying
+link with the wave function makes the method particularly suitable for use in hybrid qm/mm calculations.
+here we assess the importance of explicit polarization in the classical part of a qm/mm system with regard
+to improving the classical description and the consequent effects on the quantum description. the main
+advantages of the induced charge approach are that the method is readily interfaced with quantum mechanical
+methods and that induced charges are more readily interpreted than induced dipoles. the ease of interpretation
+is illustrated by analysis of the charges involved in dimeric and trimeric hydrogen bonded systems. the
+method for treating the mm polarization has been validated by a regression analysis of the charges induced
+in both the qm and mm systems against those derived from full quantum mechanical calculations. the
+method has also been validated using two energy decomposition approaches, which show that mm polarization
+makes a significant and reliable contribution to the qm - mm interaction energy in a hybrid system. the
+distance dependency of the induced charges is investigated in calculations on methylsuccinyl-ala-ala-proala chlormethyl ketone interacting with human  xxxg694xxx  and propranolol interacting with asparagine
+residues in a model of the  xxxg837xxx   xxxg1553xxx   xxxg2356xxx -adrenergic receptor.
+
+introduction
+hybrid quantum mechanics molecular mechanics (qm/mm)
+methods1-3 offer much potential in modeling, particularly
+because they offer a strategy for calculating the energetics of
+an enzyme catalyzed reaction.4-18 they also offer a parameterfree approach for studying both the conformation and the
+polarization of a quantum mechanical ligand within a classical
+enzyme. in some cases, the polarization has been shown to play
+a key part in priming substrates for reaction.9,19,20 such effects
+cannot normally be observed with current molecular mechanics
+force fields that are in widespread routine use (e.g., amber,21-24
+opls,25-28 charmm29-31) as polarization is usually included
+implicitly rather than explicitly. moreover, the advantages of
+hybrid qm/mm methods are not restricted to enzyme reactions
+but can also be applied to inorganic systems such as transition
+metal complexes.32-34 here we describe a method for explicitly
+including polarization in classical force fields that can be readily
+interfaced with quantum mechanical methods. it is allied to the
+method of deriving atomic charges (monopoles) from the
+quantum mechanical electrostatic potential35 and is therefore
+compatible with many of the force fields in current use.22,36 we
+assess the importance of polarization of the classical part of a
+qm/mm system both from the perspective of better representing
+* corresponding author. e-mail: c.a.reynolds@essex.ac.uk.
+† university of essex.
+‡ current address: european eml research ggmbh, villa bosch,
+schloss-wolfsbrunnenweg 31c, 69118 heidelberg, germany.
+§ budapest university of technology and economics.
+
+the classical part and from the perspective of its influence on
+the quantum part.
+stone has presented a rigorous theory for describing polarization37 that gives excellent results on small molecules38,39 but,
+the method is not readily applicable to large biomolecular
+systems. for such systems, the usual simplification is to assign
+point charges, q, and isotropic scalar polarizabilities, r, to the
+atoms; here, as elsewhere,40,41 we used the isotropic atomic
+polarizabilities of miller and savchik.42 the field, e, due to
+the point charges, q (and the induced dipoles, µ), then gives
+rise to induced dipoles, µ, via
+
+µ ) re
+
+(1)
+
+the induced dipoles, µ, modify the field, e, and so eq 1 is
+usually solved by iteration, but considerable improvement in
+accuracy can still be obtained without iteration43-45 and hence
+with consequent savings in cpu time. the dipole, µ, and the
+field, e, are shown in bold to denote that these are vector
+quantities: this increase in complexity inevitably adds a high
+computational overhead to the calculations and also makes them
+more difficult to interpret. nevertheless, the method has been
+applied to a number of systems, notably water.46-51 kollman
+and hemmingsen have shown that polarization may be essential
+for describing the hydration of cations.52,53 a number of authors
+have shown that the polarization energy is particularly significant
+in condensed phases and typically constitutes 10-20% of the
+total interaction energies.43,54-59
+
+10.1021/jp046944i ccc: $33.50 © 2006 american chemical society
+published on web 05/03/2006
+
+6488 j. phys. chem. a, vol. 110, no. 20, 2006
+
+illingworth et al.
+
+table 1: comparison of b3lyp/dzvp potential-derived
+charges,83 mulfit charges59 and mulliken charges109 for the
+pathological case of [zn(h2o)6]2+ a
+zn
+o
+h
+
+q(mep)
+
+q(mulfit)
+
+q(mulliken)
+
+9.236
+-2.178
+0.486
+
+-0.012
+-0.768
+0.385
+
+1.082
+-0.361
+0.257
+
+a
+the molecular electrostatic potential (mep)-derived charge method
+fails on the buried zn atom.
+
+approaches to polarization based on fluctuating charges, the
+related chemical potential equalization model and the drude
+oscillator model60-67 offer much potential for studying biomolecular systems because the polarization is handled at the point
+charge level and so the computational overhead is small;63 work
+for including these methods in hybrid qm/mm methods is
+underway.68-70
+we have followed an alternative approach to polarization.
+previous methods for calculating potential-derived point
+charges59,71,72 from a distributed multipole analysis (dma)73,74
+are used to express the induced dipole, derived from eq 1, as a
+set of “induced” charges on the atom carrying the isotropic
+polarizability, r, and those bonded to it. the method has the
+advantage that the same methodology is used to determine the
+induced charges and the potential derived charges and so both
+sets of charges are rigorously defined within the same framework. the link with the wave function is therefore retained and
+this offers both compatibility with hybrid qm/mm methods and
+the option to derive charges (and other parameters) unambiguously from the wave function. this point is important because
+many force fields are parametrized against total energies without
+a rigorous attempt to meaningfully separate the energy components. the method has been implemented in a fully classical
+framework41 and an application of the method to the iodineoxygen nonbonded interaction in dimethyl-2-iodobenzoylphosphonate has been reported.40 here we present a more complete
+report of the ability of the hybrid qm/mm method to reproduce
+the electronic distributions in the classical and quantum components of a number of small hybrid qm/mm systems, and
+introduce some of the issues that may be relevant for calculations
+on large systems.
+methods
+the systems chosen consist of a number of dimeric or trimeric
+nonbonded complexes that were sufficiently small to be studied
+using full quantum mechanical calculations. the b3lyp density
+functional method75 was used to determine the energies and
+optimized geometries, primarily because charge distributions
+derived from density functional wave functions do not include
+polarization implicitly59 but also because the b3lyp method
+can give a good description of hydrogen bonding,76,77 as long
+as dispersion effects are not important.78 a relatively large tzvp
+basis set of triple-zeta plus polarization quality designed for density
+functional calculations79,80 was used because of its compatibility
+with density functional calculations and because its large size
+should help to minimize basis set superposition effects,81 which
+were estimated using the counterpoise correction.82 (for the zinc
+complex, [zn(h2o)6]2+ (table 1), a related dzvp basis set79,80
+was used because the tzvp basis set is not available for zinc;
+the dzvp basis set was also used for the large protease ligand).
+symmetry was not rigorously applied, because it is rarely useful
+in biology, and so some charges may differ slightly even though
+they appear to be in identical environments. the charges were
+determined using the mulfit methodology.59,71,72 these are
+
+essentially potential derived charges in which the potential is
+determined from a distributed multipole analysis up to hexadecapole in a spherical shell around the multipole center. the
+optimal charges that reproduce this potential on the multipole
+center and the atoms bonded to it are determined using an
+analytical procedure that avoids the use of a numerical grid.
+because the atomic charges are linked to the multipole expansion on the same atomic center (and those bonded to it), the
+method does not suffer problems with ill-defined charges as
+may occur with other implementations of the potential-derived
+charge method.36,83-86 a catastrophic failure of the standard
+potential-derived charge method is shown for [zn(h2o)6]2+ in
+table 1. here the potential was calculated from the distributed
+multipole expansion of the gaussian87 wave function using
+orient88 at a surface of 955 randomly distributed points on
+a surface at twice the van der waals radius. such failures depend
+on the surface chosen and arise partly because atoms distant
+from a center contribute toward the potential in its vicinity and
+these failures are most noticeable for buried atoms such as the
+zn in table 1: there are several such atoms in this study. we
+note that the resp and related charge fitting procedures86,89,90
+also avoid unrealistically high values for charges but require
+extra constraints, unlike the methodology described here.
+for each system in this study, one of the molecules was
+described quantum mechanically and the remainder described
+classically. the polarized wave function and the induced charges
+on the classical atoms were calculated iteratively. first, the
+monomer charges were assigned on the classical (mm) molecule
+and these charges were used as a perturbation in the hamiltonian
+to polarize the quantum mechanical (qm) entity.91-95 the
+classical molecules were polarized via eq 1, with the electric
+field at the mm atoms due to the qm entity potentially
+calculated by one of two methods. the first is calculation of
+the field directly from the wave function using gaussian.87
+in the second, the wave function was calculated using gaussian and expressed as a distributed multipole analysis using
+gdma 1.3.96 the field was then calculated from this multipole
+series using orient 4.5.88 for both of these approaches, the
+induced dipoles on the mm entity were calculated using eq 1
+and expressed as induced charges using the mulfit technology
+described above.40,41,59,71,72 both methods gave essentially
+equivalent results but the second method was quicker and was
+used for all the results reported here. the induced charges were
+added to the monomer charges and the new charges replaced
+the original charges as the perturbation to the hamiltonian. this
+resulted in a new wave function, new fields and new induced
+charges. the procedure was iterated (typically for 4 iterations)
+until the value of the induced charges converged. as implemented here, the method does not readily permit the calculation
+of analytical gradients, but this limitation has been removed in
+a related method43 that uses an alternative approach for
+converting induced dipoles into induced charges and is therefore
+more suited to geometry optimization and molecular dynamics.
+to avoid the “polarization catastrophe”, we followed the
+procedure of not allowing atoms separated by 3 bonds or less
+to polarize each other. a less obvious problem, which can be
+corrected for, is the corruption of the monomer charges by the
+polarizing effect of atoms in the same monomer unit.41 here
+this was not a major problem and was ignored.
+for the trimeric systems, two approaches to the polarization
+were employed. in the first, only the field from the qm entity
+was used in the calculations. in the second, the two mm entities
+were also allowed to polarize each other; here the field at mm
+
+classical polarization in hybrid qm/mm methods
+
+j. phys. chem. a, vol. 110, no. 20, 2006 6489
+
+entity 1 due to the qm entity was augmented by the classical
+field (again calculated using orient) due to mm entity 2 (and
+vice versa).
+a simple energy decomposition scheme91,92 was applied to
+the fully optimized complexes to determine the quantum
+mechanical electrostatic and polarization energy so that the
+energetic contribution of mm polarization to the polarization
+of the qm entity within the hybrid system could be assessed.
+let e1 be the quantum mechanical energy of the isolated
+monomer and let its wave function be used as the guess for the
+wave function in the hybrid qm/mm calculation. let e2 be
+the energy at the end of the first scf cycle and e3 the energy
+when the scf process has converged. the monomer charges
+are then incremented by the induced charges and used in the
+hamiltonian and e4 is the energy at the end of the scf process
+when this wave function has converged (i.e., after the first
+iteration). e5 is the corresponding energy at the end of the scf
+process after 4 iterations. under these circumstances, e2 - e1
+is the electrostatic energy and e3 - e2 is the scf polarization
+energy. taken with the self-energy correction (see below),
+e4 - e3 gives the mm polarization energy after 1 iteration and
+e5 - e4 gives the additional mm polarization energy after the
+iteration has converged (i.e. after 4 cycles). in all cases, iteration
+refers to iteration of the induced charges and not to scf cycles.
+the self-energy, eself, is the energy required to create the
+induced charges. ferenczy and reynolds43 give two alternative
+ways for calculating this correction within a purely classical
+framework.
+
+eself )
+
+1
+
+1
+
+tot
+∑ qind
+i qj
+2 ij r
+
+(2a)
+
+ij
+
+eself )
+
+1 atoms
+2
+
+∑i riei2
+
+figure 1. atomic charges for (a) the water dimer, (b) the anticooperative water trimer, (c) the cyclic water trimer and (d) the linear
+cooperative water trimer. the order of the charges from top to bottom
+is (i) qm monomer charge, (ii) full qm complex charge, (iii) mm
+polarized charge 1, (iv) (trimers only) mm polarized charge 2 (i.e.,
+with the alternative monomer as the qm entity. the order of the
+classical charges (iii) and (iv) is abc, so if c is the molecule under
+focus, the order of the mm charges is for a as qm followed by b as
+qm; the molecules are labeled by a subscript on the oxygen atom.).
+the charges did not include the classical correction (as is apparent from
+the disparity at some positions between (iii) and (iv)) and were obtained
+after one iteration.
+
+(2b)
+
+here the more common method of calculating eself from the
+electric field, ei, and polarizabilities, ri at the mm atoms i,
+(2b), overestimates the correction as it assumes isotropic
+polarization and so here we used the qm/mm analogue of eq
+(2a) which, as in equations (2a) and (2b), gives the mm
+polarization energy as half the total polarization energy calculated in the absence of the self-energy calculation.
+morokuma energy decomposition analysis,97 implemented at
+the hartree-fock level within gamess-us98 was used to
+determine the polarization component of the total quantum
+mechanical interaction energy. this program partitions the
+energy into an electrostatic, polarization, charge-transfer, exchange repulsion and a contribution (termed “mix”) that cannot
+be assigned to any of the other categories. the “mix” term was
+added to the counterpoise correction to give an upper limit to
+the error in the polarization component. the morokuma energy
+decomposition analysis does not give a unique partitioning but
+it does provide a useful independent benchmark against which
+the qm/mm calculations can be assessed. for this reason, some
+of the qm/mm calculations were also performed at the
+hartree-fock level using the same tzvp basis set, or the
+6-31g* basis set99 for the propranolol- xxxg837xxx   xxxg1553xxx   xxxg2356xxx -adrenergic receptor
+system, because this basis set or a similar one is usually used
+for such applications in biology).
+the statistical analysis was performed using spss 11.5;100
+in all determinations of f and t the probability that the results
+arose by chance was given as 0.000 and so is not reported below.
+
+results and discussion
+qualitative analysis of the induced charges. the results
+are readily illustrated by calculations on water dimers and
+trimers, as shown in figure 1. the anticooperative water trimer
+(1b) shows the least increase in polarity, followed by the dimer
+(1a), the linear cooperative trimer (1d) and last the cyclic water
+trimer (1c). the results for the full set of the additional molecules
+(figure 2 plus the a-t and a-u base pairs) are given in figures
+s1-5s. these charges are the simplest that can be calculated
+under the schemes presented here as they were calculated after
+1 iteration and did not include the classical correction to the
+field. the systems studied here interact through hydrogen bonds
+and so the qualitative power of the method can be seen by
+analyzing the charges on the oxygen and nitrogen atoms that
+(a) donate hydrogen bonds (table 2), (b) receive hydrogen bonds
+(table 3) and (c) donate and receive hydrogen bonds (table
+4). table 5 shows that the charges usually converged after 3
+cycles of iteration, particularly for atoms not involved in
+hydrogen bonding. indeed, the rapid convergence for many
+atoms suggests strategies for reducing the computational effort
+that will be investigated further below. initially, however, in
+tables 2-4, we concentrate on the charges determined after
+full iteration with the classical correction to the field.
+some of the systems presented below display quite subtle
+effects that arise because of the interplay between different
+hydrogen bonds. for example, in the water trimer in figure 1b,
+the outer water molecules polarize the central molecule via the
+same oxygen atom. vectors drawn from the central oxygen to
+the hydrogen-bonding hydrogen atoms of the flanking water
+
+6490 j. phys. chem. a, vol. 110, no. 20, 2006
+
+illingworth et al.
+table 3: b3lyp atomic charges on hydrogen bond
+accepting heavy atomsa
+atom
+
+monomer
+charge
+
+quantum
+charge
+
+induced
+charge
+
+o
+
+-0.51
+
+-0.55
+
+-0.56
+
+o
+o
+o
+o
+o
+o
+o
+o
+n
+n
+
+-0.51
+-0.76
+-0.76
+-0.76
+-0.66
+-0.66
+-0.61
+-0.60
+-0.70
+-0.70
+
+-0.53
+-0.78
+-0.78
+-0.79
+-0.66
+-0.68
+-0.67
+-0.67
+-0.77
+-0.79
+
+-0.54
+-0.84
+-0.88
+-0.86
+-0.70
+-0.71
+-0.66
+-0.65
+-0.78
+-0.78
+
+a
+
+system
+water formaldehyde
+anticooperative trimer
+water formaldehyde dimer
+water dimer
+anticooperative water trimer
+cooperative water trimer
+methanol dimer
+linear methanol trimer
+o4 of t
+o4 of u
+n1 on a in at
+n1 on a in au
+
+the other details are as for table 2.
+
+table 4: b3lyp atomic charges on heavy atoms that
+donate and accept hydrogen bondsa
+atom
+o
+o
+o
+n
+a
+
+figure 2. additional molecules under study; the a-t and a-u base
+pairs were also studied in addition to the oligomers shown here.
+
+table 2: b3lyp atomic charges on hydrogen bond
+donating heavy atomsa
+atom
+
+monomer
+charge
+
+quantum
+charge
+
+induced
+charge
+
+o
+
+-0.76
+
+-0.81
+
+-0.79
+
+o
+o
+o
+o
+o
+o
+n
+n
+n
+
+-0.76
+-0.76
+-0.76
+-0.76
+-0.66
+-0.66
+-0.49
+-0.50
+-0.53
+
+-0.80
+-0.83
+-0.81
+-0.84
+-0.70
+-0.72
+-0.55
+-0.55
+-0.58
+
+-0.81
+-0.83
+-0.81
+-0.85
+-0.74
+-0.75
+-0.56
+-0.57
+-0.58
+
+system
+water formaldehyde
+anticooperative trimer
+water formaldehyde dimer
+water dimer
+anticooperative water trimer
+cooperative water trimer
+methanol dimer
+linear methanol trimer
+n3 of t on at
+n3 of u on au
+n6 of a in at (or au)
+
+a
+for the trimer systems, the induced charge calculations incorporated
+the classical correction. the charges reported are those obtained after
+four cycles of iteration but are generally the same at 2dp as those
+obtained after 1 iteration. for the trimer systems, as there are three
+ways to select the monomer to be treated quantum mechanically, it is
+possible to report two induced charges for each atom, one for each
+qm monomer. however, with the classical correction (but not without),
+these values are largely the same at 2dp and so the common value is
+reported in tables 2-4. however, in a few cases where there are
+multiple equivalent values, e.g., fww, a consensus is reported (but in
+table 6 all values are used).
+
+molecules are essentially opposed to each other. in some
+respects, therefore, the hydrogen bonds are working against each
+other and the hydrogen bond system is termed anticooperative.
+in contrast, in (1d), the corresponding oxygen to hydrogen
+vectors point in the same direction. in this system, (1d), the
+hydrogen bonds re-enforce each other and the hydrogen bond
+system is cooperative. these effects are magnified in the cyclic
+cooperative systems in figures 1c and 2e. similar effects work
+to re-enforce the two a-t and a-u hydrogen bonds in the base
+pairs (figure s5, supporting information).
+hydrogen bond donating heavy atoms. table 2 shows
+that for the water oligomers, the anticooperative trimer generally
+has the smallest increase in polarity (as shown by the quantum
+
+monomer quantum induced
+charge
+charge charge
+-0.76
+-0.76
+-0.66
+-0.66
+
+-0.85
+-0.87
+-0.72
+-0.73
+
+-0.92
+-0.90
+-0.76
+-0.76
+
+system
+cooperative water trimer
+cyclic cooperative water trimer
+linear methanol trimer
+cyclic methanol trimer
+
+the other details are as for table 2.
+
+table 5: variation in charge with iteration for atoms of
+the water dimera
+atoms monomer
+
+first
+
+second
+
+third
+
+fourth
+
+fifth
+
+o
+h
+h
+
+left water of water dimer
+-0.761345 -0.833582 -0.834866 -0.834890 -0.834891 -0.834891
+0.380775 0.381739 0.381664 0.381663 0.381663 0.381663
+0.380680 0.451842 0.453201 0.453227 0.453228 0.453228
+
+o
+h
+h
+
+right water of water dimer
+-0.761345 -0.838521 -0.839317 -0.839325 -0.839325 -0.839325
+0.380665 0.419406 0.419807 0.419812 0.419812 0.419812
+0.380680 0.419115 0.419509 0.419513 0.419513 0.419513
+
+a the numbers that do not change are shown in bold; atoms involved
+in hydrogen bonding are also shown in bold.
+
+charges), followed by the dimer and then the cooperative trimer.
+this effect is well reproduced by the induced charges. a similar
+increase in polarity in the methanol trimer over the dimer is
+again well reproduced. the ability of formaldehyde to polarize
+a water molecule is generally less than that of another water
+molecule and this is reflected well in the changes in the induced
+charges. the change in polarity in the anticooperative formaldehyde water heterotrimer compared to the dimer is minimal
+because the polarizing power of the formaldehyde is split
+between the two water molecules. for the base pairs, the increase
+of ∼-0.05 in charge on n6 and n3 of a and t (or u) is well
+reproduced.
+hydrogen bond accepting heavy atoms. the induced
+charges on the hydrogen bond accepting oxygen and nitrogen
+atoms given in table 3 generally increase in line with the
+quantum mechanical charges. the increased polarity in the water
+and methanol trimers over the water and methanol dimers
+(respectively) is well reproduced as is the increase in polarity
+for the water formaldehyde heterotrimer over the corresponding
+dimer. there is a greater tendency to overestimate the charges
+in hydrogen bond accepting oxygen atoms compared to the
+hydrogen bond donating oxygen atoms; this is partly due to
+the inherent deficiencies of the point charge approximation and
+partly due to the method of distributing an induced dipole over
+neighboring centers. however, the comparatively larger increase
+in polarity of o4 in u and t is well reproduced.
+
+classical polarization in hybrid qm/mm methods
+
+j. phys. chem. a, vol. 110, no. 20, 2006 6491
+table 6: regression analysis, y ) mx, where y is the
+b3lyp atomic charges from the full qm calculations and
+x is the approximation to thisa
+
+figure 3. repulsive h-h interaction that can give rise to anomalous
+induced charges unless the classical correction is applied. the order of
+the charges is as follows. top row monomer, second row full qm
+(bold), third row no classical correction, fourth row with classical
+correction. for the quantum part (denoted qm), all charges are qm
+charges; for the classical part (denoted mm) only first 2 rows are qm
+charges. all charges are fully converged, i.e., after 4 iterations.
+
+hydrogen bond donating and accepting heavy atoms.
+the increase in the charge on the atoms in table 4 that accept
+as well as donate hydrogen bonds is greater than their
+counterparts in tables 2 and 3, and this increase is reproduced
+well by the induced charges. the polarization effects in the
+cyclic systems appear to be more additive than in the acyclic
+systems according to the qm calculations but not according to
+the qm/mm calculations. however, the greater polarity in the
+cyclic systems may be supplemented by greater basis set
+superposition effectssthe counterpoise correction is certainly
+larger for the cyclic systems (3.8 kj mol-1 compared to 3.2 kj
+mol-1 for the cooperative water trimer and 5.0 kj mol-1
+compared to 3.9 kj mol-1 for the cooperative methanol trimer).
+under these circumstances there is probably some uncertainty
+in the benchmark quantum calculations (despite the use of a
+large basis set to minimize the basis set superposition error).
+nevertheless, the general conclusion to emerge from tables 2-4
+is that the induced charge method gives a good qualitative
+reproduction of the charge distribution in the mm part of the
+systems presented in figures s1-s5.
+importance of the classical correction to the field. figure
+3 shows qualitatively why it is advantageous to include the
+classical correction to the field for certain configurations. here
+a classical formaldehyde accepts a hydrogen bond from the
+quantum water (and the classical water). though the classical
+water does not donate a traditional hydrogen bond to the
+quantum water as the distance is too great, it still presents a
+hydrogen toward the quantum hydrogen. the polarizing effects
+of the quantum water minimize this mildly repulsive h‚‚‚h
+interaction by reducing the charge on the classical hydrogen
+from 0.38 to 0.37 (third row in figure 3); there is an anomalous
+decrease in the polarity of the oxygen atom (to -0.75) and an
+increase in polarity from 0.37 to 0.38 for the other hydrogen.
+in reality, the hydrogen bond with the classical formaldehyde
+should result in increased polarity. this effect can be incorporated via the classical correction to the field and here this results
+in an increase in charge on the hydrogen from 0.38 to 0.41
+(fourth row in figure 3), which agrees with the full quantum
+mechanical calculations. for this reason, all of the results in
+tables 2-4 included the classical correction.
+
+row
+
+system
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+monomer
+qm/mm
+qm/mm
+qm/mm
+qm/mm
+qm/mm
+qm/mm
+qm/mm
+qm/mm
+qm/mm
+
+it. class.
+n no. corr
+33
+33
+33
+33
+33
+33
+66
+66
+66
+66
+
+0
+1
+4
+1
+4
+1
+4
+1
+4
+
+×
+×
+x
+x
+×
+×
+x
+x
+
+r2
+
+std
+dev
+
+f
+
+m
+
+deltam
+
+t
+
+0.998
+0.999
+0.999
+0.999
+0.999
+0.999
+0.997
+0.997
+0.999
+0.998
+
+0.032
+0.019
+0.021
+0.021
+0.020
+0.020
+0.033
+0.032
+0.025
+0.026
+
+13890
+37663
+32073
+31915
+34588
+34804
+27505
+26877
+45145
+41125
+
+1.096
+1.009
+0.997
+0.997
+0.994
+0.992
+1.021
+1.019
+0.975
+0.964
+
+0.009
+0.005
+0.006
+0.006
+0.005
+0.005
+0.006
+0.006
+0.005
+0.005
+
+118
+194
+179
+179
+186
+187
+166
+164
+212
+203
+
+a
+the simplest approximation is the monomer charges. where x is
+the quantum charges in qm/mm systems, they are denoted qm/mm,
+whereas the induced charges are denoted qm/mm. the classical
+correction (“class. corr”) to the field is defined in the methods section.
+the number of compounds and the number of iterations of the induced
+charges (“it. no.”) is also given.
+
+effect of the induced charges on the qm system. the
+effect of classical polarization in the mm entity on the atomic
+charges that can be calculated for the qm entity using mulfit is
+less marked as they are already polarized through the scf
+process and so the additional polarization is small. in figure 3
+there is no effect visible at 2d.p. in the charge on the quantum
+oxygen atom, and a small increase of 0.1 in the charge of the
+quantum hydrogen that donates a hydrogen bond (regardless
+of whether the classical correction is included or omitted). the
+effect of mm polarization in improving the qm atomic charges
+can be detected by regression analysis of the charges, as shown
+in table 6, but the effect on the energetics of interaction is more
+noticeable because this involves both the qm and mm atoms.
+regression analysis of the induced and quantum charges.
+using atomic charges from the full qm calculations as a
+benchmark, regression analysis has been used to assess whether
+mm polarization improved charges on the key atoms involved
+in the trimer interactions, as discussed above, for both the qm
+entity and the mm entity. for the acyclic water trimers, these
+key atoms are the central ohoho atoms that form the linear
+h-bond arrangement; for the cyclic trimers the key atoms are
+the ring of 3 oh groups. carbonyl carbons are also included
+as key atoms. the results are given in table 6. trimer formation
+results in polarization of the monomers, and this is reflected in
+the regression coefficient, m, taking a value greater than 1.0s
+the value of ∼1.1 (row 1, table 6) suggests an increase in
+polarity of ∼10%. the qm/mm charges in the qm entity
+correlate much better with the qm charges: the coefficient drops
+from ∼1.1 to ∼1.01 (row 2), which is much nearer the ideal
+value of 1.0, even without mm polarization. one iteration of
+polarization of the mm charges takes m to a value of 0.997
+(row 3), which is even closer to the ideal value but subsequent
+iteration does not result in more improvement of the qm charges
+(row 4). if the classical correction is applied to the polarized
+mm charges, m for the qm charges drops marginally to 0.994
+(row 5, 1 iteration) but the f value increases. subsequent
+iteration (row 6) improves f and t marginally but also reduces
+m marginally.
+similar improvements are seen in the mm charges. one
+iteration in the absence of the classical correction sees m drop
+from ∼1.1 (row 1, monomer charges) to ∼1.02 (rows 7 and 8),
+which again is nearer to the ideal value of 1.0. application of
+the classical correction sees m drop from ∼1.1 to 0.98 (row 9),
+giving a similar improvement in m, but this is accompanied by
+a more notable increase in f and t. the results after one iteration
+
+6492 j. phys. chem. a, vol. 110, no. 20, 2006
+
+illingworth et al.
+
+table 7: standard statistical descriptors for regression analysis on hartree-fock (hf) and b3lyp qm/mm dimer
+interaction energies using the equation ep ) memethod, where ep is the energy calculated assuming “perfect polarization”
+(i.e., using charges derived from the full qm calculations) and emethod is one of the methods below, i.e. with 0, 1 or
+4 iterations
+hf method
+r2
+std dev
+f
+m
+deltam
+t
+
+b3lyp method
+
+0 iterations
+
+1 iteration
+
+4 iterations
+
+0 iterations
+
+1 iterations
+
+4 iterations
+
+0.999
+1.86
+6162
+1.104
+0.014
+79
+
+1.000
+0.99
+21716
+0.983
+0.007
+148
+
+1.000
+0.95
+23568
+0.976
+0.006
+154
+
+0.999
+1.81
+6023
+1.106
+0.014
+78
+
+1.000
+0.94
+22309
+0.985
+0.007
+149
+
+1.000
+0.91
+23839
+0.978
+0.006
+154
+
+(row 9) are superior to those after 4 iterations (row 10).
+however, it should be noted that although the visual analysis
+in tables 2-4 and the regression analysis in table 6 provides
+evidence that the atomic charges are polarizing in a meaningful
+way, perfect agreement with the quantum mechanical charges
+cannot be expected for two reasons. first, it is well-known that
+atomic charges are not rigorously defined within quantum
+mechanics. second, the partitioning of an induced dipole at an
+atomic center onto the neighboring centers inevitably means
+that the regression cannot be perfect, and this is the reason m
+tends to move further away from 1.0 on subsequent iteration.
+for this reason, the true test of the method is not how well it
+reproduces changes in the atomic charges, though this can be
+useful for gaining chemical insight, but how well it reproduces
+the energetics.
+electrostatic and polarization energies. the atomic charges
+determined by the full qm calculations can be taken to represent
+the “definitive” result that would occur if the polarization
+process worked perfectly. clearly the phrase “definitive” needs
+to be used with caution, as basis set superposition effects are
+not zero despite the use of a large basis set, but is clearly
+reasonable to set these calculations as the benchmark for qm/
+mm calculations performed with the same functional. the
+b3lyp electrostatic and polarization energies resulting from
+this process are compared to those determined with no mm
+polarization and those determined using mm polarization, with
+and without iteration for the dimeric systems in figure 4. despite
+the inherent polarity of hartree-fock wave functions, table 7
+shows that the regression analysis for the b3lyp energies in
+figure 4 and the corresponding hartree-fock energies (not
+shown) are essentially identical. here we merely note that the
+marked polarity of hartree-fock wave functions with small
+basis sets is much less marked for large basis sets and this is
+probably the origin of this equivalence. for this reason, the
+corresponding hartree-fock results for the trimer systems with
+and without the classical correction are shown in figure 5. the
+results in figures 4 and 5 and table 7 clearly show that the
+qm/mm electrostatic and polarization energies with no mm
+polarization underestimate the “definitive” energies by about
+9-12% (as judged by the slope of the best-fit lines, which is
+∼1.105). with mm polarization and four cycles of iteration,
+the dimer electrostatic and polarization interaction energy is
+overestimated by about 2.3%, or 1.6% with just one iteration
+(the slopes are ∼0.977 and 0.984, respectively). the results for
+1 iteration are not shown in figure 5 as the line is too close to
+the line for 4 iterations. because the results with and without
+iteration are essentially equivalent, there is little to be gained
+by iteration and indeed the results without iteration are actually
+slightly superior as well as taking just 40% of the time. for the
+trimer systems without the classical correction, the interaction
+energy is underestimated by about 2.9%, but with the classical
+correction the error decreases to a slight 0.8% overestimate. in
+contrast to the qm/mm interaction energies without mm
+
+figure 4. relationship between the b3lyp qm/mm electrostatic plus
+polarization dimer interaction energy determined using “perfect”
+polarization and that determined using polarization modeled using
+induced charges. the line for equality between the two methods is
+indicated by short dashes. the results for qm/mm with no mm
+polarization lie above the ideal line and are indicated by squares and
+a solid line. the results for one iteration of mm polarization lie slightly
+below the ideal line and are indicated by triangles and a solid line.
+the results for four iterations of mm polarization lie slightly further
+below the ideal line and are indicated by crosses (which are generally
+obscured by the triangles) and long gray dashes.
+
+polarization, all four mm polarization schemes in figures 4 and
+5 give rise to correlations that lie close to the 45° degree ideal
+line. it would seem reasonable to conclude that only one iteration
+is required and that the classical correction is desirable but not
+essential. indeed, in a similar implementation of this approach
+designed for molecular dynamics simulations,43 we note the
+liquid water oxygen-oxygen radial distribution function was
+well-reproduced without iteration.
+comparison against morokuma energy decomposition
+analysis. a comparison of the qm/mm polarization energy
+with that calculated for the dimers using morokuma energy
+decomposition analysis is given in figure 6 (optimized geometry) and figure s6 (optimized geometry extended by 1 å).
+the molecules are indicated on the x axis. several general trends
+that emerge from these calculations can be seen by analyzing
+the results for the fully optimized water dimer denoted ww
+(figure 1a and figure 7a). first, the qm/mm polarization
+energies are in good agreement with the morokuma energy
+decomposition analysissindeed in all cases in figure 6 and
+figure s6 the agreement is within the error bars and is usually
+well within the error bars. second, there is a difference between
+the qm + mm and the mm + qm results; the superior results
+are obtained when the h-bond donating water of figure 1 is
+
+classical polarization in hybrid qm/mm methods
+
+j. phys. chem. a, vol. 110, no. 20, 2006 6493
+
+figure 5. relationship between the hf qm/mm electrostatic plus
+polarization trimer interaction energy determined using “perfect”
+polarization and that determined using polarization modeled using
+induced charges. the results for qm/mm with no mm polarization
+lie well above the ideal line (short dashes) and are indicated by squares
+and a solid line. the results for qm/mm with full mm polarization (4
+iterations) but no classical correction lie slightly above the ideal line
+(short dashes) and are indicated by triangles and a solid line. the results
+for qm/mm with full mm polarization (4 iterations) and classical
+correction lie just below the ideal line (short dashes) and are indicated
+by crosses and a solid line.
+figure 7. water dimer orientations used for the morokuma energy
+decomposition analysis. (a) ww, the fully optimized geometry as in
+figure 1a. (b) qqpl, as in (a) but constrained to be planar. (c) qqpp,
+the h-bond donating group was constrained to approach perpendicular
+to the plane of the second water at an intermolecular distance equivalent
+to that in (a).
+
+figure 6. polarization energy calculated using morokuma energy
+decomposition analysis, qm/mm methods and classical methods. w
+denotes a water molecule, f denotes formaldehyde, m denotes methanol,
+a denotes adenine, t denotes thymine, and u denotes uracil. perpendicular attack of water in the ww dimer is denoted pp, ppq denotes
+addition of off-atom point charges and pl denotes a completely planar
+system. the order of the bars is given in the key: morok pol denotes
+polarization from morokuma energy decomposition, qm + mm
+denotes that the polarization energy is the sum of the scf polarization
+energy for monomer a plus the mm polarization energy for monomer
+b. mm + qm denotes that the polarization energy is the sum of the
+scf polarization energy for monomer b plus the mm polarization
+energy for monomer a. qm + qm denotes the sum of the scf
+polarization energies for monomers a and b; mm + mm denotes the
+sum of the mm polarization energies for monomers a and b. dipole
++ dipole is the traditional polarization energy calculated from the
+induced dipoles for both a and b. error is the sum of the mix term
+and the counterpoise correction and is used to set the error bars on the
+polarization energy calculated using morokuma energy decomposition
+analysis.
+
+the qm entity. third, the combined qm polarization energies
+inevitably underestimate the effect, because in the qm/mm
+calculation of e3, the mm part is not at all polarized and so the
+
+qm part is also not fully polarized. for the same reason, the
+combined mm polarization energies slightly overestimate the
+effect. the induced dipole approximation greatly overestimates
+the effect, but unlike the overestimation in the combined mm
+polarization energies, this is not due to an arbitrary partitioning.
+in a previous article on induced charges, we regarded the
+induced dipole approximation as a superior model and assessed
+the induced charge model by how well it reproduced the induced
+dipole polarization energies.43 generally, the induced charge
+model reproduced a fraction of the polarization energy, which
+in most orientations was adequate but was low for a water dimer
+where the second water approached from a direction perpendicular to the hoh plane (as in figure 7c). figures 6 and s6
+suggests that the induced charge model may actually be superior
+to the induced dipole model, which does not always agree to
+within the error bars of the morokuma energy decomposition
+analysis. the induced dipole model is inherently isotropic
+whereas the induced charge model is inherently anisotropic as
+it is constrained by the molecular structure.
+for the water dimer of figure 1 (ww), the classical water
+model cannot polarize perpendicular to the plane. we therefore
+see superior results in the planar wwpl system (figure 7b)
+where this deficiency is artificially removed. in cases such as
+wwpp (figure 7c) where there should be significant polarization
+perpendicular to the plane, figure 6 (second  xxxg92xxx ) shows that
+this anisotropic model underestimates the polarization energy.
+however, the isotropic model (sixth  xxxg92xxx ) overestimates the
+polarization by a greater amount and so is in greater error.
+indeed, the anisotropic induced charge model is superior to the
+isotropic induced dipole model in all the systems represented
+in figures 6 and s6.
+the problem of polarization perpendicular to the plane can
+be addressed using point charges sited 0.1 å above and below
+
+6494 j. phys. chem. a, vol. 110, no. 20, 2006
+
+illingworth et al.
+
+table 8: b3lyp/dzvp qm/mm interaction energies (kj mol-1) between methylsuccinyl-ala-ala-pro-ala chlormethyl
+ketone and various selected human neutrofil elastase residuesa
+atom/residue
+
+r/å
+
+x(qm)
+
+elec
+ xxxd2037xxx  - e1
+
+scf pol
+e3 - e2
+
+mm pol
+(e4 - e3)/2
+
+mm pol
+(e5 - e4)/2
+
+total
+polarization
+
+o v31
+hetay94
+hdelta2 f192
+h  xxxg193xxx 
+hgamma s195
+o v216
+h  xxxg218xxx 
+
+10.9
+4.1
+2.1
+1.9
+2.1
+2.0
+2.3
+
+h alm 5
+2hb pro 4
+ha alm 5
+o alm 5
+hxt alm 5
+h ala 3
+ xxxg1062xxx  msu1
+
+-0.33
+0.85
+-10.82
+-12.37
+5.37
+-26.09
+-0.73
+
+-0.06
+-0.06
+-0.91
+-1.70
+-1.74
+-3.07
+-0.61
+
+0.00
+-0.01
+-0.83
+-1.73
+-0.34
+-2.55
+-0.56
+
+0.00
+0.00
+-0.02
+-0.07
+-0.00
+-0.19
+-0.09
+
+-0.06
+-0.07
+-1.76
+-3.50
+-2.09
+-5.81
+-1.09
+
+a
+the closest distance of approach, r, between key atoms is also given along with the identity of these residues, which can also be found by
+reference to figure 8. “elec” is the electrostatic interaction energy (e2 - e1), “scf pol” is the polarization energy due to the scf process (e3 e2), “mm pol” is the polarization energy due to the induced charges from (e4 - e3) or (e5 - e4), and “total” is the sum of the scf and mm
+polarization energies. the classical correction to the field was not applied.
+
+the plane, as shown in figure 6 (wwppq). however, the
+polarization energy is overestimated and the resulting induced
+charges (not shown) are nonphysical. we therefore conclude
+that although the methodology permits such an approach, it
+would require a degree of parametrization that is beyond the
+scope of this article.
+the polarization energy component of the energy relative to
+the total electrostatic and polarization energy in figures 4 and
+5 is 15 ( 3% for 1 iteration or 15 ( 4% for full iteration. this
+percentage is remarkably close to the 14 ( 5% for the (different)
+systems in figure 6. (the percentage relative to the total
+quantum mechanical interaction energy is much higher (37 (
+19%) because the exchange repulsion term is almost equal and
+opposite in magnitude to the electrostatic term; the polarization
+term is similar in magnitude to the charge-transfer term.) this
+percentage drops to 6 ( 2% for the systems extended by 1 å
+(figure s6) where the equilibrium bond length has been
+extended by 1 å (and the percentage relative to the total energy
+is similar at 6 ( 2% because the exchange-repulsion term is
+reduced significantly in magnitude). consideration of these
+values shows that although polarization is not the most important
+term, its magnitude is sufficiently large to determine the outcome
+of competing reactions with similar energetics. these calculations show that the scf polarization is less than half of the full
+polarization energy, hence the need for mm polarization.
+in summary, we conclude that when assessed against morokuma energy decomposition analysis, the qm/mm induced
+charge model performs well.
+contribution to protein-ligand interactions. to assess
+the affect of geometry on the polarization calculations, we have
+studied two systems of biological interest. the first is the 1.84
+å structure of human  xxxg694xxx , a  xxxg745xxx 
+interacting with the peptide analogue ligand methylsuccinylala-ala-pro-ala chlormethyl ketone. hydrogen atoms were
+added and the system was minimized using moe. it therefore
+represents an equilibrium system before attack on the ala p1
+carbonyl group by ogamma of ser 195 (the key c-o distance is
+3.24 å). the second system is propranolol (a beta-adrenergic
+antagonist) interacting with a model of the  xxxg837xxx   xxxg1553xxx   xxxg2356xxx -adrenergic
+receptor101 generated from a restrained molecular dynamics
+study. the energy components for the pair wise interaction
+between the quantum mechanical ligand and selected classical
+residues are given in tables 8 (peptide ligand) and 9 (propranolol).
+for the peptide inhibitor (figure 8, table 8), the polarization
+energy can amount to 30% of the electrostatic energy (gly 193),
+and for gly 218 is even greater in magnitude. in this configuration, the polarization energy significantly reduces the repulsive electrostatic interaction between ser 195 and the inhibitor.
+in figures 4 and 5 the polarization energy contributed a much
+
+figure 8. space-filled peptide analogue ligand methylsuccinyl-alaala-pro-ala chlormethyl ketone interacting with selected residues from
+human  xxxg694xxx .
+
+more constant proportion (15 ( 4%) as the systems were all
+hydrogen bonded. here the interactions are more heterogeneous
+and the polarization ceases to be such a uniform proportion and
+this is probably the main reason for including it.
+a similar picture emerges in the propranolol- xxxg837xxx   xxxg1553xxx   xxxg2356xxx -adrenergic
+receptor interaction (table 9, figure s7). here we see that the
+electrostatic interaction energy can be positive (residues 264,
+289, 293) or negative (residues 103, 183, 283), but the scf
+procedure always lowers the energy; for residues 103 and 293
+this lowering is insignificant because of the long distances
+involved. for the close interactions, the polarization energy due
+to the induced charges is generally of the same magnitude as
+the scf polarization energy (e.g., for asn 264), but for asn
+183, this lowering is greater (-1.1 compared to -0.1 kj mol-1).
+in all cases apart from asn 283, the scf energy converged to
+5 decimal places after just one iteration of the polarization
+
+classical polarization in hybrid qm/mm methods
+
+j. phys. chem. a, vol. 110, no. 20, 2006 6495
+
+table 9: hf/6-31g* qm/mm interaction energies
+(kj mol-1) between propranolol and various selected
+asparagine residuesa
+total
+elec scf pol total
+asn r/å x(qm) x(asn) e2 - e1 e3 - e2 mm pol polarization
+103 15.2 h(c1′)
+183 4.3 h(c1′)
+264 5.2 h3
+283 2.3 h(c3′)
+289 2.4 h8
+293 9.3 h8
+
+o
+odelta1
+hdelta21
+n
+hdelta22
+ xxxg1261xxx   xxxg1262xxx 
+
+-1.9
+-5.1
+2.4
+-22.7
+19.8
+6.4
+
+0
+-0.1
+-0.1
+-1.4
+-1.0
+0.0
+
+-0.1
+-1.1
+-0.2
+0.3
+-0.5
+-0.1
+
+-0.1
+-1.2
+-0.3
+-1.1
+-1.5
+-0.1
+
+a
+
+the closest distance of approach, r, between key atoms is also
+given along with the identity of these residues, which can also be found
+by reference to figure s7. here h(c1′) indicates a hydrogen atom
+attached to carbon labeled c1′. the other details are as for table 8.
+
+process; in all cases the energy had fully converged after just
+two iterations. the results for residue 289 (as for ser 195 above)
+are illuminating as they show a net gain in polarization energy
+of -1.5 kj mol-1, showing that polarization can play a role in
+helping to reduce repulsive interactions in protein-ligand
+interactions, as well as further stabilizing attractive interactions.
+the origin of the anomalous positive polarization energy for
+asn 283 (mm pol ) 0.3) is similar to that for the anomalous
+results for h2co‚2h2o (figures 2 and s2) when the classical
+correction was not included and is reported to illustrate that
+care must to be taken in partitioning the system.
+here we have sought to gain additional insight into the
+interactions within the  xxxg837xxx   xxxg1553xxx   xxxg2356xxx -adrenergic receptor-ligand complex
+by applying the method at a geometry pre-computed using a
+lower level of theory. such an approach is well established
+within theoretical chemistry, as most elegantly illustrated in the
+various variants of oniom,33,102-104 g1,105  xxxg2106xxx  and g3107
+levels of theory. for more detailed applications involving
+geometry optimization or molecular dynamics, the strategy
+should be implemented with a variant of the mulfit approach
+for which derivatives are readily calculated.43
+conclusions
+we have presented a method for modeling polarization and
+have assessed its performance in hybrid qm/mm calculations
+on a number of small molecule systems. the method is based
+on the induced dipole approach (eq 1) but exploits existing
+methodology for calculating potential-derived point charges59,72
+from distributed multipole series74 to express the induced dipoles
+as a set of “induced” charges on the atom carrying the isotropic
+polarizability, r, and those bonded to it. the method has the
+advantage that the same methodology is used to determine the
+induced charges and the potential derived charges and so both
+sets of charges are rigorously defined within the same framework. the link with the wave function is therefore retained and
+this is the origin of the method’s distinct compatibility with
+hybrid qm/mm methods. the advantage of the induced charge
+approach is that the method is readily interfaced with quantum
+mechanical methods and has the added advantage that the
+induced charges are more readily interpreted than induced
+dipoles.
+regression analysis of the hybrid mm induced charges and
+the hybrid qm charges against those derived from full quantum
+mechanical calculations shows that the method works well. this
+assessment has been supplemented by visual inspection: the
+ease of interpretation is illustrated by analysis of the charges
+involved in cooperative and anticooperative hydrogen bonding
+systems. it is encouraging that polarization effects in water are
+modeled well and this may be important, not only for modeling
+
+water mediated protein-ligand interactions, as observed for
+example in hiv protease and  xxxg631xxx , which
+may require a hybrid qm/mm approach, but also for modeling
+bulk water where it has been shown that standard water models
+do not necessarily reproduce the asymmetric strength of
+hydrogen bonds in bulk water.108
+polarization effects generally contribute about 10% of the
+total energy and so including polarization in the mm region of
+a hybrid qm/mm calculation makes a significant contribution
+to the total interaction energy. thus in the applications reported
+here, the polarization energy is roughly twice that reported in
+standard qm/mm calculations with fixed mm charge distributions. the “benchmark” polarization energy calculations show
+that the use of well-chosen standard unmodified polarizabilities
+gives good interaction energies.
+for the small dimeric systems presented here, implementation
+of the method is straightforward. for more complex systems,
+consideration of geometric effects is important in setting up the
+calculations as two contrasting effects are significant. though
+the basic method involves iteration, the results, particularly those
+involving interactions at nonequilibrium distances or interactions
+to distant residues within a protein, show that in many cases
+only one iteration is required. indeed, many interactions within
+a protein could be ignored completely because the polarization
+effects are so small. however, for certain trimers and other more
+complex systems such as asn 283 in the receptor:ligand
+complex, care needs to be taken in partitioning the system so
+classical-classical polarization is included where necessary.
+supporting information available: figures s1-s7 of
+atomic charges, polarization energies, and the interaction
+between propranolol and asparagine residues. this material is
+available free of charge via the internet at http://pubs.acs.org.
+references and notes
+(1) mulholland, a. j.; grant, g. h.; richards, w. g. prot. eng. 1993,
+6, 133-147.
+(2) cunningham, m. a.; bash, p. a. biochimie 1997, 79, 687-689.
+(3) bakowies, d.; thiel, w. j. phys. chem. 1996, 100, 10580-10594.
+(4) park, h.; brothers, e. n.; merz, k. m. j. am. chem. soc. 2005,
+127, 4232-4241.
+(5) hermann, j. c.; hensen, c.; ridder, l.; mulholland, a. j.; holtje,
+h. d. j. am. chem. soc. 2005, 127, 4454-4465.
+(6) guimaraes, c. r. w.; udier-blagovic, m.; jorgensen, w. l. j. am.
+chem. soc. 2005, 127, 3577-3588.
+(7) topf, m.; richards, w. g. j. am. chem. soc. 2004, 126, 1463114641.
+(8) marti, s.; andres, j.; moliner, v.; silla, e.; tunon, i.; bertran, j.
+j. am. chem. soc. 2004, 126, 311-319.
+(9) greatbanks, s. p.; gready, j. e.; limaye, a. c.; rendell, a. p. j.
+comput. chem. 2000, 21, 788-811.
+(10) hall, r. j.; hindle, s. a.; burton, n. a.; hillier, i. h. j. comput.
+chem. 2000, 21, 1433-1441.
+(11) hart, j. c.; sheppard, d. w.; hillier, i. h.; burton, n. a. chem.
+commun. 1999, 79-80.
+(12) marti, s.; andres, j.; moliner, v.; silla, e.; tunon, i.; bertran, j.;
+field, m. j. j. am. chem. soc. 2001, 123, 1709-1712.
+(13) marti, s.; andres, j.; moliner, v.; silla, e.; tunon, i.; bertran, j.
+theor. chem. acc. 2001, 105, 207-212.
+(14) ridder, l.; mulholland, a. j.; rietjens, i. m. c. m.; vervoort, j.
+j. am. chem. soc. 2000, 122, 8728-8738.
+(15) mulholland, a. j.; richards, w. g. j. phys. chem. b 1998, 102,
+6635-6646.
+(16) strajbl, m.; florian, j.; warshel, a. int. j. quantum chem. 2000,
+77, 44-53.
+(17) turner, a. j.; moliner, v.; williams, i. h. phys. chem. chem. phys
+1999, 1, 1323-1331.
+(18) varnai, p.; richards, w. g.; lyne, p. d. proteins 1999, 37, 218227.
+(19) houjou, h.; inoue, y.; sakurai, m. j. phys. chem. b 2001, 105,
+867-879.
+(20) thompson, m. a.; schenter, g. k. j. phys. chem. 1995, 99, 63746386.
+
+6496 j. phys. chem. a, vol. 110, no. 20, 2006
+(21) cornell, w. d.; cieplak, p.; bayly, c. i.; gould, i. r.; merz, k.
+m.; ferguson, d. m.; spellmeyer, d. c.; fox, t.; caldwell, j. w.; kollman,
+p. a. j. am. chem. soc. 1996, 118, 2309.
+(22) cornell, w. d.; cieplak, p.; bayly, c. i.; gould, i. r.; merz, k.
+m.; ferguson, d. m.; spellmeyer, d. c.; fox, t.; caldwell, j. w.; kollman,
+p. a. j. am. chem. soc. 1995, 117, 5179-5197.
+(23) weiner, s. j.; kollman, p. a.; nguyen, d. t.; case, d. a. j.
+comput. chem. 1986, 7, 230-252.
+(24) weiner, s. j.; kollman, p. a.; case, d. a.; singh, u. c.; ghio, c.;
+alagona, g.; profeta, s.; weiner, p. j. am. chem. soc. 1984, 106, 765784.
+(25) jorgensen, w. l.; tirado-rives, j. j. am. chem. soc. 1988, 110,
+1666-1671.
+(26) jorgensen, w. l. j. phys. chem. 1986, 90, 1276-1284.
+(27) jorgensen, w. l.; swenson, c. j. j. am. chem. soc. 1985, 107,
+569-578.
+(28) jorgensen, w. l.; madura, j. d.; swenson, c. j. j. am. chem.
+soc. 1984, 106, 6638-6646.
+(29) mackerell, a. d.; bashford, d.; bellott, m.; dunbrack, r. l.;
+evanseck, j. d.; field, m. j.; fischer, s.; gao, j.; guo, h.; ha, s.; josephmccarthy, d.; kuchnir, l.; kuczera, k.; lau, f. t. k.; mattos, c.;
+michnick, s.; ngo, t.; nguyen, d. t.; prodhom, b.; reiher, w. e.; roux,
+b.; schlenkrich, m.; smith, j. c.; stote, r.; straub, j.; watanabe, m.;
+wiorkiewicz-kuczera, j.; yin, d.; karplus, m. j. phys. chem. b 1998,
+102, 3586-3616.
+(30) mackerell, a. d.; wiorkiewiczkuczera, j.; karplus, m. j. am.
+chem. soc. 1995, 117, 11946-11975.
+(31) brooks, b. r.; bruccoleri, r. e.; olafson, b. d.; states, d. j.;
+swaminathan, s.; karplus, m. j. comput. chem. 1983, 4, 187-217.
+(32) khoroshun, d. v.; musaev, d. g.; morokuma, k. organometallics
+1999, 18, 5653-5660.
+(33) svensson, m.; humbel, s.; froese, r. d. j.; matsubara, t.; sieber,
+s.; morokuma, k. j. phys. chem. 1996, 100, 19357-19363.
+(34) matsubara, t.; maseras, f.; koga, n.; morokuma, k. j. phys. chem.
+1996, 100, 2573-2580.
+(35) cox, s. r.; williams, d. e. j. comput. chem. 1981, 2, 304-323.
+(36) henchman, r. h.; essex, j. w. j. comput. chem. 1999, 20, 483498.
+(37) stone, a. j. mol. phys. 1985, 56, 1065-1082.
+(38) fowler, p. w.; stone, a. j. j. phys. chem. 1987, 91, 509-511.
+(39) buckingham, a. d.; fowler, p. w.; stone, a. j. int. rev. phys.
+chem. 1986, 5, 107-114.
+(40) gooding, s. r.; winn, p. j.; maurer, r. i.; ferenczy, g. g.; miller,
+j. r.; harris, j. e.; griffiths, d. v.; reynolds, c. a. j. comput. chem.
+2000, 21, 478-482.
+(41) winn, p. j.; ferenczy, g. g.; reynolds, c. a. j. comput. chem.
+1999, 20, 704-712.
+(42) miller, k. j.; savchik, j. a. j. am. chem. soc. 1979, 101, 7206.
+(43) ferenczy, g. g.; reynolds, c. a. j. phys. chem. a 2001, 105,
+11470-11479.
+(44) straatsma, t. p.; mccammon, j. a. chem. phys. lett. 1990, 167,
+252-254.
+(45) straatsma, t. p.; mccammon, j. a. j. mol. simul. 1990, 5, 181.
+(46) wang, j.; jordan, p. c. j. chem. phys. 1990, 93, 2762-2768.
+(47) berendsen, h. j. c.; grigera, j. r.; straatsma, t. p. j. phys. chem.
+1987, 91, 6269-6271.
+(48) ramnarayan, k.; rao, b. g.; singh, u. c. j. chem. phys. 1990,
+92, 7057-7067.
+(49) ahlstrom, p.; wallqvist, a.; engstrom, s.; jonsson, b. mol.
+phys.1989, 68, 563-581.
+(50) sprik, m.; klein, m. l. j. chem. phys. 1988, 89, 7556-7560.
+(51) caldwell, j.; dang, l. x.; kollman, p. a. j. am. chem. soc. 1990,
+112, 9144-9147.
+(52) dang, l. x.; rice, j. e.; caldwell, j.; kollman, p. a. j. am. chem.
+soc. 1991, 113, 2481-2486.
+(53) hemmingsen, l.; amara, p.; ansoborlo, e.; field, m. j. j. phys.
+chem. a 2000, 104, 4095-4101.
+(54) thompson, m. a.; glendening, e. d.; feller, d. j. phys. chem.
+1994, 98, 10465-10476.
+(55) ferenczy, g. g.; csonka, g. i.; náray-szabó, g.; a
+ä ngyán, j. g. j.
+comput. chem. 1998, 19, 38-50.
+(56) gao, j. l. j. comput. chem. 1997, 18, 1061-1071.
+(57) gao, j. l.; freindorf, m. j. phys. chem. a 1997, 101, 3182-3188.
+(58) gao, j. l.; xia, x. f. science 1992, 258, 631-635.
+(59) winn, p. j.; ferenczy, g. g.; reynolds, c. a. j. phys. chem. a
+1997, 101, 5437-5445.
+(60) stern, h. a.; kaminski, g. a.; banks, j. l.; zhou, r. h.; berne,
+b. j.; friesner, r. a. j. phys. chem. b 1999, 103, 4730-4737.
+(61) rick, s. w.; berne, b. j. j. am. chem. soc. 1996, 118, 672-679.
+(62) rick, s. w.; stuart, s. j.; bader, j. s.; berne, b. j. j. mol. liq.
+1995, 65-6, 31-40.
+(63) rick, s. w.; stuart, s. j.; berne, b. j. j. chem. phys. 1994, 101,
+6141-6156.
+
+illingworth et al.
+(64) rick, s. w. j. chem. phys. 2001, 114, 2276-2283.
+(65) rappe, a. k.; goddard, w. a. j. phys. chem. 1991, 95, 33583363.
+(66) bret, c.; field, m. j.; hemmingsen, l. mol. phys. 2000, 98, 751763.
+(67) hirshfelder, j. o.; curtiss, l.; bird, r. b. molecular theory of gases
+and liquids; wiley: new york, 2000.
+(68) field, m. j. mol. phys. 1997, 91, 835-845.
+(69) bryce, r. a.; vincent, m. a.; hillier, i. h. j. phys. chem. a 1999,
+103, 4094-4100.
+(70) bryce, r. a.; vincent, m. a.; malcolm, n. o. j.; hillier, i. h.;
+burton, n. a. j. chem. phys. 1998, 109, 3077-3085.
+(71) ferenczy, g. g.; winn, p. j.; reynolds, c. a. j. phys. chem. a
+1997, 101, 5446-5455.
+(72) ferenczy, g. g. j. comput. chem. 1991, 12, 913-917.
+(73) stone, a. j.; alderton, m. mol. phys. 1985, 56, 1047-1064.
+(74) stone, a. j. chem. phys. lett. 1981, 83, 233-239.
+(75) becke, a. d. j. chem. phys. 1993, 98, 5648-5652.
+(76) hunt, n. t.; turner, a. r.; wynne, k. j. phys. chem. b 2005,
+109, 19008-19017.
+(77) o’malley, p. j. j. phys. chem. a 1998, 102, 248-253.
+(78) kone, m.; illien, b.; graton, j.; laurence, c. j. phys. chem. a
+2005, 109, 11907-11913.
+(79) sosa, c.; andzelm, j.; elkin, b. c.; wimmer, e.; dobbs, k. d.;
+dixon, d. a. j. phys. chem. 1992, 96, 6630-6636.
+(80) godbout, n.; salahub d. r.; andzelm, j.; wimmer, e. can. j.
+chem. 1992, 70, 560-571.
+(81) boys, s. f.; bernardi, f. mol. phys. 1970, 19, 553-&.
+(82) kolos, w. theor. chim. acta 1979, 51, 219-240.
+(83) ferenczy, g. g.; reynolds, c. a.; richards, w. g. j. comput.
+chem. 1990, 11, 159-169.
+(84) carey, c.; chirlian, l. e.; francl, m. m.; gange, d. m. glycoconjugate j. 1997, 14, 501-505.
+(85) stouch, t. r.; williams, d. e. j. comput. chem. 1993, 14, 858866.
+(86) bayly, c. i.; cieplak, p.; cornell, w. d.; kollman, p. a. j. phys.
+chem. 1993, 97, 10269-10280.
+(87) frisch, m. j.; trucks, g. w.; schlegel, h. b.; scuseria, g. e.; robb,
+m. a.; cheeseman, j. r.; montgomery, j. a., jr.; vreven, t.; kudin, k.
+n.; burant, j. c.; millam, j. m.; iyengar, s. s.; tomasi, j.; barone, v.;
+mennucci, b.; cossi, m.; scalmani, g.; rega, n.; petersson, g. a.;
+nakatsuji, h.; hada, m.; ehara, m.; toyota, k.; fukuda, r.; hasegawa, j.;
+ishida, m.; nakajima, t.; honda, y.; kitao, o.; nakai, h.; klene, m.; li,
+x.; knox, j. e.; hratchian, h. p.; cross, j. b.; bakken, v.; adamo, c.;
+jaramillo, j.; gomperts, r.; stratmann, r. e.; yazyev, o.; austin, a. j.;
+cammi, r.; pomelli, c.; ochterski, j. w.; ayala, p. y.; morokuma, k.;
+voth, g. a.; salvador, p.; dannenberg, j. j.; zakrzewski, v. g.; dapprich,
+s.; daniels, a. d.; strain, m. c.; farkas, o.; malick, d. k.; rabuck, a.
+d.; raghavachari, k.; foresman, j. b.; ortiz, j. v.; cui, q.; baboul, a.
+g.; clifford, s.; cioslowski, j.; stefanov, b. b.; liu, g.; liashenko, a.;
+piskorz, p.; komaromi, i.; martin, r. l.; fox, d. j.; keith, t.; al-laham,
+m. a.; peng, c. y.; nanayakkara, a.; challacombe, m.; gill, p. m. w.;
+johnson, b.; chen, w.; wong, m. w.; gonzalez, c.; pople, j. a. gaussian
+03, revision c.02; gaussian, inc.: wallingford, ct, 2004.
+(88) stone, a. j.; dullweber a.; engkvist, o.; fraschini, e.; hodges,
+m. p.; meredith, a. w.; nutt, d. r.; popelier, p. l. a.; wales, d. j. 2002
+orient: a program for studying interactions between molecules, version
+4.5′. university of cambridge, 2006; enquiries to a. j. stone, ajs1@cam.ac.uk.
+(89) henchman, r. h.; essex, j. w. j. comput. chem. 1999, 20, 499510.
+(90) cornell, w. d.; cieplak, p.; bayly, c. i.; kollman, p. a. j. am.
+chem. soc. 1993, 115, 9620-9631.
+(91) reynolds, c. a.; ferenczy, g. g.; richards, w. g. theochem
+1992, 88, 249-269.
+(92) reynolds, c. a.; richards, w. g.; goodford, p. j. j. chem. soc.,
+perkin 2 1988, 551-576.
+(93) reynolds, c. a.; richards, w. g.; goodford, p. j. anti-cancer
+drug des. 1987, 1, 291-295.
+(94) holmes, r. e.; richards, w. g.; lambros, s. a. theochem 1985,
+22, 273-279.
+(95) richards, w. g.; cuthbertson, a. f. chem. commun. 1984, 167168.
+(96) stone, a. j. j. chem. theory comput. 2005, 1, 1128-1132.
+(97) umeyama, h.; kitaura, k.; morokuma, k. chem. phys. lett. 1975,
+36, 11-15.
+(98) schmidt, m. w.; baldridge, k. k.; boatz, j. a.; elbert, s. t.;
+gordon, m. s.; jensen, j. h.; koseki, s.; matsunaga, n.; nguyen, k. a.;
+su, s. j.; windus, t. l.; dupuis, m.; montgomery, j. a. j. comput. chem.
+1993, 14, 1347-1363.
+(99) petersson, g. a.; bennett, a.; tensfeldt, t. g.; allaham, m. a.;
+shirley, w. a.; mantzaris, j. j. chem. phys. 1988, 89, 2193-2218.
+
+classical polarization in hybrid qm/mm methods
+(100) spss inc., 233 s. wacker drive, 11th floor, chicago, il 60606,
+2006.
+(101) gouldson, p. r.; kidley, n. j.; bywater, r. p.; psaroudakis, g.;
+brooks, h. d.; diaz, c.; shire, d.; reynolds, c. a. proteins 2004, 56,
+67-84.
+(102) maurer, r. i.; reynolds, c. a. j. comput. chem. 2004, 25, 627631.
+(103) vreven, t.; mennucci, b.; da silva, c. o.; morokuma, k.; tomasi,
+j. j. chem. phys. 2001, 115, 62-72.
+(104) vreven, t.; morokuma, k. j. comput. chem. 2000, 21, 14191432.
+
+j. phys. chem. a, vol. 110, no. 20, 2006 6497
+(105) pople, j. a.; headgordon, m.; fox, d. j.; raghavachari, k.;
+curtiss, l. a. j. chem. phys. 1989, 90, 5622-5629.
+(106) curtiss, l. a.; raghavachari, k.; redfern, p. c.; pople, j. a. j.
+chem. phys. 1997, 106, 1063-1079.
+(107) curtiss, l. a.; raghavachari, k.; redfern, p. c.; pople, j. a. j.
+chem. phys. 2000, 112, 7374-7383.
+(108) wernet, p.; nordlund, d.; bergmann, u.; cavalleri, m.; odelius,
+m.; ogasawara, h.; naslund, l. a.; hirsch, t. k.; ojamae, l.; glatzel, p.;
+pettersson, l. g.; nilsson, a. science 2004, 304, 995-999.
+(109) mulliken, r. s. j. chem. phys. 1955, 23, 1833-1840.
+

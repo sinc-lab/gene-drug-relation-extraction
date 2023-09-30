@@ -1,0 +1,1751 @@
+magdalena j. ślusarz
+rafal
+
+investigation of mechanism of
+desmopressin binding in
+vasopressin  xxxg231xxx 
+versus vasopressin v1a and
+oxytocin receptors: molecular
+dynamics simulation
+of the agonist-bound
+state in the membrane–
+aqueous system
+
+322
+
+s´lusarz, s´lusarz, and ciarkowski
+table i biological activities of avp, ot,  xxxd160xxx ,  xxxd160xxx , and  xxxd1847xxx  toward
+respective receptors
+ xxxg231xxx 
+avp(iu/mg)
+ot(iu/mg)
+ xxxd160xxx (iu/mg)
+ xxxd160xxx (iu/mg)
+ xxxd1847xxx (iu/mg)
+
+465
+5
+1745 6 385
+253 6 44
+1200 6 126
+
+ xxxg229xxx 
+412
+5
+346 6 13
+1.1 6 0.04
+0.39 6 0.2
+
+and photons of light.1 moreover, they are very important pharmaceutical drug targets and identiﬁcation of
+a gpcr activation mechanism is the major requisite
+of rational drug design.2,3 the largest and best-studied class a of gpcrs4 includes, among others, rhodopsin (rd) and the neurohypophyseal hormone
+receptors, which are the subject of this work. the xray structure of the inactive (dark) form of bovine
+rd5–8 is the only crystal structure of gpcr resolved
+to atomic resolution. it is an agreement that rd
+makes a good structural template for other class a
+members.3,9–13 accordingly, it was used as a template
+for building neurohypophyseal  xxxg1603xxx 
+models in our previous investigations.14–16 the neurohypophyseal  xxxg1603xxx  subgroup includes
+three vasopressin receptors ( xxxg229xxx ,  xxxg230xxx , and  xxxg231xxx )
+and a unique  xxxg1642xxx  (otr).17–19 the main
+function mediated via  xxxg231xxx  expressed in the collecting duct (cd) of the kidney is the regulation of water
+reabsorption and concentration of the urine (antidiuretic effect).20 mutations in the  xxxg231xxx  gene are responsible for the x-linked form of nephrogenic diabetes
+insipidus (ndi).21  xxxg229xxx  mainly controls increase of
+blood pressure, whereas the stimulation of  xxxg1801xxx  hormone secretion is mediated via  xxxg230xxx 
+(also known as v3r), which is not a subject of this
+work.22,23 otr is involved mainly in the control of
+labor and lactation in the mammals.24,25 moreover,
+neurohypophyseal hormone receptors play a role in
+many reproductive, behavioral, and social functions.26  xxxg229xxx ,  xxxg230xxx , and otr are functionally
+coupled to the gq/11 protein that stimulates the activity of phospholipase c and cytosolic calcium mobilization, whereas  xxxg231xxx  is coupled to the gs protein that
+stimulates adenylyl cyclase.17,18 the cellular
+response resulting from receptor activation is mainly
+determined via a type of a coupled g protein. the
+molecular mechanism determining the selectivity of
+receptor–g protein interaction is important for understanding the signal transduction pathway.
+the neurohypophyseal hormone receptors, as typical gpcrs members, share a common membrane to-
+
+otr
+
+reference
+
+17
+450
+—
+—
+—
+
+28
+28
+114
+114
+31
+
+pology, thus being membrane-embedded proteins
+built of a single long polypeptide chain that traverses
+the membrane seven times and forms the transmembrane domain consisting of seven -helices (tm)
+successively connected with extracellular (el) and
+intracellular (il) loops.5,9,11 receptor activation is
+induced when diffusable extracellular agonist docks
+to the receptor binding cavity and causes the switch
+of the receptor protein from an inactive state to an
+active conformation capable of interacting with a g
+protein.27 the nonapeptide hormone  xxxd3495xxx  (cyfqncprg-nh2, avp), also termed the
+ xxxd3495xxx  (adh), is an endogenous agonist of the vasopressin receptors. the second neurohypophyseal hormone oxytocin ([i3,l8]avp, ot)
+binds to the vasopressin receptors with low afﬁnity,
+however, it is a natural agonist of otr.28 avp is
+released into the blood for interaction with respective
+receptors under two main stimuli, i.e., the response to
+low urine osmolality and changes in blood volume
+and pressure.29 vasopressin also displays to a low
+degree typical ot activities: uterine contraction and
+milk ejection.28
+desmopressin ([1-deamino, 8-d]avp,  xxxd1847xxx ),
+the main subject of this investigation, is strong selective  xxxg231xxx  agonist with negligible pressor and uterotonic activity.30,31 it is widely used for treatment of
+central diabetes insipidus and primary nocturnal enuresis.32,33  xxxd1847xxx  also increases levels of the  xxxg751xxx  in mild  xxxg751xxx  and  xxxg2423xxx  in von willebrand disease.34–36 in table i
+the biological activities of the neurohypophyseal hormones and avp analogues:  xxxd160xxx  (1-deamino- xxxd3495xxx ),  xxxd160xxx  (8- xxxd862xxx  vasopressin),
+and  xxxd1847xxx  are given. it is known that the deamination of the avp molecule results in almost four times
+the enhanced afﬁnity toward  xxxg231xxx  (see table i), probably due to a change of the molecule conformation.37
+the deamination does not change afﬁnity toward
+ xxxg229xxx , while this receptor is very sensitive to substitution at position 8, and the presence of  xxxd862xxx  in this
+position results in the very low pressor activity (see
+biopolymers doi 10.1002/bip
+
+desmopressin binding in vasopressin and oxytocin receptors
+
+table i). thus, the high  xxxg231xxx / xxxg229xxx  selectivity of
+ xxxd1847xxx  results from absence of some critical receptor–ligand interactions in  xxxg229xxx . consequently, it has
+been established that single-residue asp103 located in
+the ﬁrst extracellular loop (el1) of  xxxg231xxx  is responsible
+for the high afﬁnity binding of the  xxxd1847xxx .38
+to clarify molecular mechanism of receptor–ligand
+interactions, experimental investigations are indispensable. however, they provide limited information
+about the dynamics of the docking and activation
+processes as well as about the role of environment
+(lipid or water molecules). computer simulations
+make it possible to investigate many aspects of binding and activation processes in detail and they interplay with experiments either conﬁrming experimental
+results or providing a new hypothesis for experimental
+veriﬁcation. unfortunately, available force ﬁelds are
+not advanced enough to simulate the receptor activation via docking agonist and subsequent molecular
+dynamics (md) simulation in timescales typical for
+gpcr activation. the crystal structure of gpcr (rd)
+also represents the inactive state of the receptor5–8 and
+its activation mechanism is still poorly recognized.
+however, it has been accepted that rd activation
+involves an outward move of the tm6, tm7, and
+tm2 cytosolic halves along with adjacent loop parts,
+away from the 7tm bundle with the simultaneous
+clockwise (viewing from the cytosol) tm6 rotation.39,40 these conformational rearrangements eventually result in conversion from rhodopsin to metarhodopsin (meta ii, mii). it is also known that the
+c-terminal peptide gt(340–350) stabilizes mii.41–44
+accordingly, an atomic-resolution model of the mii
+monomer complexed with the gt(338–350) fragment
+has been proposed;45 subsequently, it was used as
+the template for construction of activated neurohypophyseal  xxxg1603xxx  models and the interacting
+fragments of respective g proteins: gs(382–394);
+(iiqrmhlrqyell) for  xxxg231xxx  and gq/11(347–359);
+(tilqlnlkeynlv) for  xxxg229xxx  and otr.46 these
+models were applied successfully in our former investigations concerning the interactions with ot and
+avp.46,47 the same models are currently used in this
+work for analysis of receptor– xxxd1847xxx  interactions.
+
+methods
+parametrization
+nonstandard amino acid residues and other structure fragments were parameterized as recommended in the amber
+7.0 manual.48 speciﬁcally, the point atom charges were ﬁtted by applying the resp procedure49 to the electrostatic
+potential calculated in the 6-31g* basis set using the program gamess.50
+biopolymers doi 10.1002/bip
+
+323
+
+models
+the three-dimensional model of  xxxd1847xxx  was built using
+the coordinates of pressinoic acid51 and the biopolymer
+module of the sybyl package.52 the three-residue c-terminal tail of  xxxd1847xxx  was added in the amber 7.0 force ﬁeld.48
+the lowest-energy conformation of  xxxd1847xxx  was obtained
+using energy minimization followed by the simulated
+annealing protocol in amber.53 nonetheless, regardless of
+the ‘‘seed conformation’’ of the ligand, the autodock program,54 subsequently used for docking  xxxd1847xxx  to receptors, employs a modiﬁed genetic algorithm55 to explore the
+conformational states of a ﬂexible ligand. hence, the extensive conformational changes do occur during docking and
+any reasonable initial  xxxd1847xxx  structure is considered satisfactory at this point.54,56
+the three-dimensional models of activated neurohypophyseal hormone receptors ( xxxg231xxx ,  xxxg229xxx , and otr) and the
+ subunit c-terminal fragments of suitable g protein necessary to keep the receptor in an activated state were constructed as described previously,46 using the model of mii–
+gt(338–350), which is the appropriate modiﬁcation of the
+x-ray rd structure,5 as a template. brieﬂy, all computer
+modiﬁcations necessary to obtain neurohypophyseal receptor
+models were made using standard amber 7.0 tools48 and the
+biopolymer module of sybyl52 as described previously.46
+
+docking and md simulation
+in the next step  xxxd1847xxx  was docked into the  xxxg231xxx –
+gs(382–394),  xxxg229xxx – gq/11(347–359), and otr–gq/
+11(347–359) systems, using a modiﬁed genetic algorithm
+as implemented in autodock program.54 autodock is a
+suite of programs designed to predict the bound conformation(s) of a ﬂexible ligand to a macromolecular target.54,56
+details of the docking procedure were described elsewhere.14,56,57 the relaxation of the complexes using a constrained simulated annealing (csa) protocol in vacuo for
+15 ps,53 followed by energy minimization, with positional
+constrains on c atoms in 7tm to maintain the receptors
+shape in homology to mii was done. the two lowestenergy systems per each v2–gs(382–394)– xxxd1847xxx , v1a–
+gq/11(347–359)– xxxd1847xxx , and otr–gq/11(347–359)–
+ xxxd1847xxx  complex were chosen. subsequently, six selected
+complexes were inserted into the fully hydrated 1- xxxd2832xxx -2-oleoyl-sn-glycero-3-phosphatidylcholine
+(popc)
+membrane model.58,59 no additional water molecules were
+placed inside the receptor cavity. the models were submitted to the md simulation in the amber 7.0 force ﬁeld,48
+using particle-mesh ewald electrostatic summation60 as already described.14 brieﬂy, the periodic box of each complex consisted of 120 popc lipid molecules, over 3,500
+water molecules, and cl— counterions. moreover, for all
+components of complexes, the opls61 united atom parameters were applied. the ﬂat-bottom soft harmonic-wall
+restraints were imposed onto the ’, , and ! peptide angles
+of the 7tm amino acid residues to avoid unfolding or any
+other unwanted modiﬁcations of the helices. in accordance
+with the standard amber protocol, the positional tm c
+
+324
+
+s´lusarz, s´lusarz, and ciarkowski
+
+constraints were used exclusively for the ﬁrst 100 ps of the
+simulation during heating the system from 0 to 300 k to
+prevent the helices from degeneration. from 100 to 1,000 ps
+free md simulation without positional constraints was carried out. finally, the energy minimization of the 1-ns md
+snapshots in the amber 7.0 force ﬁeld48 was done.
+
+analysis of interactions and
+supplementary md
+after md simulation six relaxed complexes were obtained.
+for analysis of the receptor–ligand interactions, one lower
+energy complex for each receptor was selected. it has been
+experimentally demonstrated that the  xxxd103xxx  located in the
+el1 of  xxxg231xxx  determines the high afﬁnity binding of the
+ xxxd1847xxx .38 unfortunately, in both  xxxg231xxx – xxxd1847xxx  complexes
+this interaction did not appear, neither during docking nor
+during unconstrained md. thus, we attempted the supplementary manual docking of the  xxxd1847xxx  in  xxxg231xxx  using a
+swiss–pdbviewer.62 the previously selected (that of lower
+energy)  xxxd1847xxx – xxxg231xxx  complex was slightly modiﬁed via
+displacement of ligand molecule toward the el1 to serve as
+input for a new 1-ns md. therefore, the d-arg8 side chain
+was situated proximal to el1  xxxd103xxx , while the cyclic part of
+the molecule was retained docked in the depth the binding
+cavity within the 7tm domain (see figure 1). subsequently, the complex was relaxed by the csa protocol followed by the energy minimization and submitted to the 1ns md simulation in hydrated membrane analogously as
+described above and subsequently used for analysis of
+ xxxg231xxx – xxxd1847xxx  interactions. actually,  xxxd1847xxx  was partially
+‘‘undocked’’ by being pulled out toward the extracellular
+side and slowly docked again during md, resulting in the
+second  xxxg231xxx – xxxd1847xxx  complex. it is impossible to observe a
+course of the docking in autodock, where the ligand is
+instantly generated in the optimal location inside the binding cavity, thus the autodock-produced complexes represent the ﬁnal states of docking. the slow ligand docking
+during 1-ns md might stand for model of the docking
+course. therefore, the supplementary  xxxg231xxx – xxxd1847xxx  complex might represent one of early states of docking.
+receptor amino acid residues involved in ligand binding
+have been identiﬁed using distance criteria, i.e., all amino
+acid residues in which any atom was not farther away than
+3.5 å from any atom of the  xxxd1847xxx  residue, were chosen to
+be interacting. subsequently all receptor residues not
+involved in any interaction were omitted during visual
+inspection. several distant residues interacting with the
+ligand were added on condition that they were not farther
+away than 4.5 å. the amino acid residues meeting these
+criteria are listed in table ii. the most essential interactions
+between  xxxd1847xxx  and respective receptors are characterized
+by visual inspection and are presented in figure 2.
+
+nomenclature
+the  xxxd1847xxx  residues are identiﬁed using three-letter codes
+with the indices in parentheses, e.g., d-arg8, while the re-
+
+figure 1  xxxd1847xxx  docked to the  xxxg231xxx  cavity after manual docking, before md. the d-arg8 side chain is situated
+proximal to el1  xxxd103xxx , while the cyclic part of the molecule remains docked in the depth the binding cavity within
+the 7tm domain. the ﬁgure was prepared using the program rasmol.115
+
+ceptor residues are identiﬁed using one-letter codes with
+the universal class a indices (ballesteros–weinstein numbering scheme)63 placed as superscripts, followed by the
+absolute numbers and e.g.,  xxxg231xxx  e1.3540. in the ballesteros–
+weinstein scheme, the most conserved residue in the tm
+helix ‘n’ has been given the number ‘n’50, and each residue is numbered according to its position relative to this
+conserved residue. residues placed in loops are identiﬁed
+with a one-letter code, followed only by the residue absolute number e.g., el2 v189.
+moreover, in describing receptor–ligand interactions
+involving the three-component names of complexes, e.g.,
+‘‘ xxxg231xxx – xxxd1847xxx –gs(382–394),’’ the clause ‘‘gs(382–
+394)’’ is omitted for better legibility. telling about the receptor–g protein interaction, the name of the g protein segment e.g., ‘‘gs(382–394)’’ is abbreviated to ‘‘gs.’’ the g
+protein residues are identiﬁed a using one-letter code following the name of g protein class e.g., gs l393.
+two  xxxg231xxx – xxxd1847xxx  complexes are marked as i and ii
+(autodock and manual docking, respectively).
+
+results and discussion
+conformation of receptors and  xxxd1847xxx 
+and their changes during md
+the binding pockets of the  xxxd1847xxx  in all receptors
+are formed within tm1–tm7 with the ligand located
+perpendicularly to the longer axis of the receptor (see
+figure 2). all receptor– xxxd1847xxx  complexes remained
+stable during 1-ns unconstrained md and there were
+insigniﬁcant conformational changes of the receptor
+structures. the rmsd measured on the all atoms/
+biopolymers doi 10.1002/bip
+
+desmopressin binding in vasopressin and oxytocin receptors
+table ii
+
+list of the  xxxg231xxx ,  xxxg229xxx , and otr residues directly involved in the interactions with ddavpa
+
+tm ‘n’
+domain
+n terminus
+tm1
+tm2
+
+ xxxg2318xxx 
+
+tm4
+el2
+
+ xxxg2318xxx 
+
+tm6
+
+tm7
+
+325
+
+ xxxg231xxx (i)
+
+ xxxg231xxx (ii)
+
+ xxxg229xxx 
+
+otr
+
+r32
+e40
+l44
+v88
+q92
+—
+q96
+w99
+—
+v115
+—
+q119
+m120
+m123
+—
+s127
+—
+—
+r181
+—
+—
+v189
+t190
+c192
+—
+v206
+i209
+—
+v213
+f214
+f287
+q291
+a294
+—
+v308
+m311
+—
+—
+s315
+
+r32
+e40
+l44
+v88
+q92
+v93
+q96
+w99
+—
+v115
+k116
+q119
+—
+m123
+—
+s127
+—
+q180
+r181
+s187
+ xxxg188xxx 
+v189
+t190
+c192
+—
+v206
+i209
+a210
+—
+f214
+f287
+q291
+—
+f307
+v308
+m311
+l312
+a314
+s315
+
+r46
+e54
+l58
+—
+q104
+—
+q108
+w111
+ xxxd112xxx 
+v127
+k128
+q131
+v132
+ xxxd3211xxx 
+f136
+—
+q185
+m191
+i192
+—
+k199
+a200
+r201
+—
+y216
+v217
+m220
+—
+i224
+f225
+f307
+q311
+s314
+—
+t331
+a334
+l335
+ xxxg337xxx 
+s338
+
+r34
+e42
+l46
+—
+—
+v93
+q96
+w99
+d100
+—
+k116
+q119
+v120
+m123
+f124
+—
+q171
+—
+r178
+—
+—
+—
+f185
+—
+y200
+i201
+i204
+—
+v208
+—
+f291
+q295
+s298
+f311
+i312
+m315
+l316
+a318
+s319
+
+universal
+numbering
+—
+1.35
+1.39
+2.53
+2.57
+2.58
+2.61
+2.64
+2.65
+3.28
+3.29
+3.32
+3.33
+3.36
+3.37
+3.40
+4.60
+4.66
+—
+—
+—
+—
+—
+—
+5.38
+5.39
+5.42
+5.43
+5.46
+5.47
+6.51
+6.55
+6.58
+7.35
+7.36
+7.39
+7.40
+7.42
+7.43
+
+experimental
+data (ref.)
+68, 69
+70
+70, 97
+92
+64, 99, 100
+99
+64
+73
+95
+101
+64, 100, 101, 102
+64
+—
+—
+—
+—
+64, 100
+—
+105 ( xxxg231xxx )
+—
+—
+—
+—
+—
+—
+103 ( xxxg231xxx )
+92 ( xxxg231xxx )
+—
+—
+104
+102
+64
+92 ( xxxg231xxx )
+—
+—
+—
+—
+—
+65
+
+a
+the majority of residues conserved in the vasopressin/oxytocin family were previously experimentally determined as crucial for ligand
+binding. among the non-conserved residues, for residues determined in  xxxg231xxx  subtype, the receptor name is given in parentheses.
+
+7tm c atoms were 3.45 å/2.48 å for  xxxg231xxx (i), 1.62
+å/1.26 å for  xxxg231xxx (ii), 2.64 å/1.79 å for  xxxg229xxx , and
+2.91 å/2.88 å for otr. the lower rmsd for
+ xxxg231xxx (ii) is not surprising and results from better
+relaxation of the input receptor structure, which was
+previously simulated for 1 ns as opposed to remaining
+complexes (see analysis of interactions and supplementary md). moreover, strong receptor–ligand interactions (see below) contribute to the stability of
+the complex. finally, there are very similar  xxxd1847xxx 
+biopolymers doi 10.1002/bip
+
+conformations in both  xxxg231xxx – xxxd1847xxx (i) and  xxxg231xxx –
+ xxxd1847xxx  (ii) complexes with only the exception of
+8
+ xxxd862xxx  location as shown in figure 2. in general,
+the location of  xxxd1847xxx  is nearly identical in all
+complexes contrary to the dissimilar avp location
+observed in the same receptors, as described in our
+previous work.47 the location and conformation of
+ xxxd1847xxx  change somewhat during md in all receptors, mostly in otr, and the rmsd measured on the
+c atoms of  xxxd1847xxx  are: 1.15 å in  xxxg231xxx (i), 0.74 å in
+
+326
+
+s´lusarz, s´lusarz, and ciarkowski
+
+figure 2 representation of the  xxxd1847xxx  binding pockets in neurohypophyseal hormone receptors. (a)  xxxg231xxx (i),
+(b)  xxxg231xxx (ii), (c)  xxxg229xxx , (d) otr. the tm helices are colored from blue (tm1) to red (tm7), the  xxxd1847xxx  is gray,
+the g protein c-terminal peptide is magenta. several helices are drawn thinner or transparently for clarity. left: the
+location of the ligand and g protein segments inside their
+binding cavities is shown. right: the binding amino acid
+residues are marked and their side chains are exposed; they
+are colored in agreement with the tm to which they belong
+while the el2 residues are gray. the extracellular loops are
+omitted for clarity. the ﬁgure was prepared using the program molmol.116
+
+ xxxg231xxx (ii), 1.45 å in v1r, and 2.48 å in otr. the
+lower rmsd for ligand molecule in  xxxg231xxx (ii) results
+from their better relaxation before docking. the low
+rmsd values for both the ligand and the receptor
+show stability of the whole complex. in all investi-
+
+gated receptors the -turn is formed in the ligand
+molecule and the stability for  xxxd1847xxx  conformation
+is provided via one hydrogen bond between peptide
+backbone, i.e., the carbonyl oxygen of mpa1 interacts
+with the  xxxg641xxx  amide proton. furthermore, the c-terminal part of molecule, i.e., the important guanidinium group of d-arg8 is located within tm1– xxxg2318xxx .
+however, in the  xxxg231xxx – xxxd1847xxx  (ii) complex, the darg8 side chain projects outside the 7tm core,
+whereas in  xxxg231xxx -dadvp(i) it is more embedded by
+the binding cavity. in all complexes the n-terminal
+part with the tyr2 and  xxxg641xxx  aromatic rings is situated
+near  xxxg2318xxx –tm6, but in no complex do they interact
+with each other, as a consequence of tyr2 with
+respect to  xxxg641xxx  location on the opposite sides of the
+macrocyclic ring plane in the  xxxg229xxx – xxxd1847xxx  and
+otr– xxxd1847xxx  complexes. similarly, in both  xxxg231xxx –
+ xxxd1847xxx  complexes the  xxxg641xxx  side chain is situated
+perpendicularly to the plane of the tocin ring, since
+there is also no chance for stacking interaction with
+tyr2. in figure 3 the superposition of  xxxd1847xxx  structures before and after md simulations is presented. in
+the  xxxg231xxx – xxxd1847xxx (i) complex, three other intramolecular hydrogen bonds between side chains are formed
+in the ligand molecule. therefore, the cys6 carbonyl
+oxygen simultaneously interacts with the d-arg8 amide and asn5 carboxamide protons. moreover, the
+pro7 carbonyl oxygen interacts with the d-arg8 guanidinium. as a result of forming the hydrogen bonds
+involving side chains of asn5 and d-arg8, they are
+slightly weaker when exposed to interactions with the
+receptor residues, contrary to the fully accessible
+gln4 and the c-terminal carboxamides. in the  xxxg231xxx –
+ xxxd1847xxx (ii) complex, only one intramolecular hydrogen bond present in the  xxxg231xxx – xxxd1847xxx (i) complex has
+been retained, hence, the cys6 carbonyl oxygen still
+interacts with the d-arg8 amide proton. as a result of
+the lack of other hydrogen bonds involving the polar
+side chains in  xxxg231xxx – xxxd1847xxx , they are fully accessible
+for interactions with the receptor residues. in both
+ xxxd1847xxx – xxxg231xxx  complexes, the aromatic side chain of
+tyr2 is well exposed for interaction with the receptor,
+whereas, in the  xxxd1847xxx – xxxg231xxx (ii) complex, the  xxxg641xxx 
+aromatic ring, slightly dislocated over the macrocyclic ring, is less accessible for receptor residues. the
+most signiﬁcant conformational change observed in
+the  xxxd1847xxx – xxxg231xxx (i) complex during 1-ns md is the
+dislocation of d-arg8 side chain and formation of
+hydrogen bond with pro7 as described above (see figure 3a). the situation of the remaining side chains
+has also changed, mainly that of gln4 and pro7. in the
+ xxxg231xxx – xxxd1847xxx (ii) complex, the location of all side
+chains changes only to a small extent (see figure
+3b), however, mainly for gln4, as in the former combiopolymers doi 10.1002/bip
+
+desmopressin binding in vasopressin and oxytocin receptors
+ xxxg231xxx – xxxd1847xxx 
+
+figure 3 stereodiagrams of superimposition of the
+ xxxd1847xxx  conformations inside the respective receptors
+before (gray) and after (black) md. (a)  xxxg231xxx (i), (b)
+ xxxg231xxx (ii), (c)  xxxg229xxx , (d) otr. the ﬁgure was prepared
+using the program rasmol.115
+
+plex. in the  xxxg229xxx – xxxd1847xxx  complex, one more intramolecular hydrogen bond can be observed involving
+the asn5 amide oxygen and the c-terminal carboxamide proton, thus the latter group is less accessible
+for interaction with the receptor than the other side
+chain groups. the asn5 side chain is folded back
+beneath the ring moiety toward the disulﬁde bridge
+and this is the most important change during 1-ns
+md along with the displacement of the gln4 side
+chain (see figure 3c). in the complex with otr, one
+more hydrogen bond also can be formed, between the
+ xxxg641xxx  carbonyl oxygen and the gln4 amide proton (see
+figure 3d), resulting in a poor accessibility of this
+group for otr residues. moreover, in this complex,
+the location of all side chains changes noticeably during md in agreement with the highest rmsd for
+ xxxd1847xxx  in otr.
+biopolymers doi 10.1002/bip
+
+327
+
+complexes
+
+inﬂuence of highly conserved residues interacting
+with  xxxd1847xxx  on receptor activation. in figure 2a and
+b and table ii, the most noticeable  xxxg231xxx – xxxd1847xxx 
+interactions are given. the network of many hydrogen bonds involving the conserved amino acid residues (see multiple sequence alignment in figure 4)
+can be observed in both  xxxg231xxx – xxxd1847xxx (i) and  xxxg231xxx –
+ xxxd1847xxx (ii) complexes. the interactions involving
+the highly conserved 7tm gln residues (q2.5792,
+q2.6196, q3.32119, and q6.55291) seem to be especially important for ligand binding. this is not surprising since they make a part of the binding cavity,
+moreover, their side chain carboxamide could either
+be a donor or an acceptor of hydrogen bonds formed
+with the ligand. therefore, the gln carboxamides
+could form the hydrogen bonds with the polar side
+chains group of  xxxd1847xxx  as follows: q2.5792–asn5;
+q2.6196–d-arg8, and q6.55291–tyr2, identically in
+both  xxxg231xxx – xxxd1847xxx  complexes with the exception of
+q3.32119 interacting with asn5 and gln4 in  xxxg231xxx –
+ xxxd1847xxx (i) and  xxxg231xxx – xxxd1847xxx (ii) complexes, respectively. the conserved 7tm gln residues have been
+ﬁrst recognized as responsible for binding neurohypophyseal hormones and their analogs to rat  xxxg229xxx .64
+moreover, their importance for ot and avp binding
+in human neurohypophyseal hormone receptors has
+been proposed.46,47 the detailed examination of
+obtained receptor models, both inactive and active,
+may explain their function. in the model of the inactive receptor, constructed on the template of rd crystal structure,5,16 the q2.5792, q2.6196, and q3.32119
+carboxamides interact via hydrogen bonds with
+another highly conserved residue s7.43315 (see figure
+5a). this interaction is broken in the agonist-bound
+model, as a result of interaction of these three gln
+residues with  xxxd1847xxx  as described above (see table
+ii and figure 2). moreover, s7.43315 also interacts
+with the ligand via its hydroxyl forming the hydrogen
+bond with the backbone carbonyl of asn5 or gln4 in
+ xxxg231xxx – xxxd1847xxx (i) and  xxxg231xxx – xxxd1847xxx (ii) complexes,
+respectively. accordingly, s315r mutation in  xxxg231xxx 
+has been identiﬁed as being responsible for ndi by
+impairing avp binding.65 the docking of ligand may
+directly break the interaction between three gln and
+s7.43315 as an internal constraint between tm2,
+ xxxg2318xxx , and tm7 and consequently result in their rearrangement, which is believed to be part of the activation process.12 there are several reasons that may
+support this hypothesis. first of all, for the human 2
+adrenergic receptor, it has been proposed that two
+equivalent residues, y7.43316 and d3.32113, interact
+with each other in the unoccupied receptor model and
+
+328
+
+s´lusarz, s´lusarz, and ciarkowski
+
+figure 4 primary sequence alignment of the human neurohypophyseal hormone receptors
+(otr,  xxxg229xxx , and  xxxg231xxx ) and bovine rhodopsin, obtained using multalin.117 the putative transmembrane helices 1–7 are underlined. the conservative residues, indicative of high-level similarity
+within the subfamily, are shown in black while those with lower-level similarity are shown in
+gray.25 the tm ‘n’50 residues are marked with an arrow.63
+
+this interaction is absent in the agonist–receptor complex.66 second, it is also noticeable that s7.43315 is
+equivalent to rd k7.43296 (see sequence alignment,
+figure 4), where the k7.43296–e3.28113 salt bridge
+maintains rd in the inactive state.67 in the vasopressin/ xxxg1642xxx  subfamily, the valyl (v3.28)
+is conserved at this position and q2.5792, q2.6196,
+and q3.32119 are the only residues in this region
+that possess polar side chains long enough to form
+the interhelical interaction (see sequence alignment,
+figure 4).
+two other highly conserved  xxxg231xxx  residues, r32
+and e1.3540, located in the n-terminus and tm1,
+respectively, might be involved in ligand recognition.
+in both complexes their oppositely charged side chain
+groups form a salt bridge with each other and interact
+with the ligand simultaneously. in the  xxxg231xxx –
+ xxxd1847xxx (i) complex, the c-terminal carboxamide of
+ xxxd1847xxx  is headed toward r32 guanidinium in the nterminal sequence, whereas in the  xxxg231xxx – xxxd1847xxx (ii)
+complex it is located closer to the e1.3540 carboxyl.
+indeed, the c-terminal carboxamide might interact
+with both residues forming an ionic pair at the same
+time. the equivalent arginyl (r46 and r34 in  xxxg229xxx 
+and otr, respectively) has been identiﬁed as playing
+a critical role in high-afﬁnity agonist binding.68,69 in
+addition, e1.3546 has been recently determined to be
+critical for avp binding in  xxxg229xxx .70 the molecular
+basis for the signiﬁcance of these two residues has
+not been deﬁned; however, it has been suggested that
+it could be involved in the intramolecular interactions
+
+with negatively charged residues.69,70 molecular
+modeling in this study may help to explain this mechanism. in the inactive state of  xxxg231xxx , the r32 side
+chain is exposed toward the extracellular side and
+forms a salt bridge with the conserved el3 e303 (see
+figure 5b). differently, in the agonist-bound model
+( xxxg231xxx – xxxd1847xxx (i) complex), the r32 side chain is dislocated toward the binding cavity and interacts with
+the e1.3540 carboxyl (see figure 5c). furthermore,
+this ionic pair strongly interacts with the c-terminal
+carboxamide of  xxxd1847xxx , as described above. accordingly, it has been demonstrated that the deletion of cterminal carboxamide results in avp analogs with
+low agonist activity.71 it is conceivable that  xxxd1847xxx 
+approaching from the extracellular side might interact
+directly via c-terminal carboxamide with highly
+exposed r32, resulting in dislocation of its side chain
+toward the binding cavity along with the docking
+ligand. this interaction would result in the disruption
+of the r32–e303 salt bridge linking tm1 and tm7
+and triggering the conformational changes leading
+to receptor activation. interestingly, in the  xxxg231xxx –
+ xxxd1847xxx (ii) complex the r32 interacts with these both
+aspartates simultaneously (figure 5d). this might be
+a model of the intermediate state, resulting from the
+slower docking during md, contrary to instant docking in autodock (see analysis of interactions and
+supplementary md).
+the highly conserved w2.6499 interacts with the darg8; however, in the  xxxg231xxx – xxxd1847xxx (i) complex these
+residues are situated perpendicularly to each other in
+biopolymers doi 10.1002/bip
+
+desmopressin binding in vasopressin and oxytocin receptors
+
+329
+
+nists to the  xxxg231xxx .73 the remaining conserved residues
+interacting with the  xxxd1847xxx  (see table ii) in our
+models do not seem to be as important as the residues
+described above. some of the hydrophobic residues,
+especially those with bulky side chains, may play a
+role in proper positioning of important receptor residues, such as two conserved valyl residues: v2.5388
+and v3.28115. these two residues, in an inactive receptor, form the steric constraints delimiting the conformational space of crucial q2.5792 (partially also
+q3.32119). therefore, they might force the appropriate gln position to form the interhelical interaction with s7.43315 as described above and shown in
+figure 5a.
+
+nonconserved residues are involved in the  xxxg231xxx –
+selectivity. as described under methods, the
+ xxxd1847xxx  molecule was ‘‘redocked’’ with manual help
+to form the salt bridge between d-arg8 guanidinium
+and el1  xxxd103xxx  (see figure 1). unexpectedly, after
+1-ns md this interaction was discontinued. the analysis of the md trajectory revealed slow relocation of
+w2.6499 indole between d-arg8 and  xxxd103xxx  until disruption of the previously formed salt bridge as shown
+in figure 6. the exactly parallel arrangement of
+indole w2.6499 and d-arg8 guanidinium in the ﬁnal
+complex (see figure 5e) prevents any interaction of
+the latter with el1  xxxd103xxx  carboxyl. nevertheless, it
+does not necessarily contradict the experimental
+results, in which the el1  xxxd103xxx  was identiﬁed as a
+residue crucial for high afﬁnity  xxxg231xxx – xxxd1847xxx  binding
+
+ xxxd1847xxx 
+
+figure 5 representation of some interactions crucial
+for the  xxxg231xxx  activation or ligand binding. the tm helices
+are signed and crucial receptor residues are exposed; the
+ligand is marked with dotted lines. (a) the interhelical
+interactions between the conserved residues stabilizing the
+inactive  xxxg231xxx . (b–d) the interactions involving the highly
+conserved arginyl observed in the inactive  xxxg231xxx ,  xxxg231xxx –
+ xxxd1847xxx (i) complex, and  xxxg231xxx – xxxd1847xxx (ii) complex, respectively. (e) the location of w2.6499 after md in  xxxg231xxx –
+ xxxd1847xxx (ii) complex resulting in the disruption of the salt
+bridge between d-arg8 and el2  xxxd103xxx ; the  xxxd1847xxx   xxxd862xxx 
+side chain is thicker for clarity. (f) the interhelical interaction of the highly conserved residues involved in the receptor activation; the tm2 is transparent for clarity. the ﬁgure
+was prepared using the programs rasmol115 and molmol.116
+
+contrast to their exactly parallel arrangement in the
+ xxxg231xxx – xxxd1847xxx (ii) complex. the hydrogen bond is
+formed between the w2.6499 indole and d-arg8 guanidinium in the  xxxg231xxx – xxxd1847xxx (i) complex. the model
+of interaction of these two planar groups observed in
+the  xxxg231xxx – xxxd1847xxx (ii) complex has been recognized as
+being energetically favorable72 and might be directly
+involved in the ligand dislocation toward the bottom
+of the binding cavity (see below). furthermore, a
+w99r mutation has been identiﬁed in ndi patients
+and oligonucleotide-directed mutagenesis revealed
+that w2.64 is involved in high-afﬁnity binding of agobiopolymers doi 10.1002/bip
+
+figure 6 representation of the w2.6499 dislocation
+disrupting the d-arg8– xxxd103xxx  salt bridge observed during
+md. all distances has been measured from the centers of
+gravity of the side chain heavy atoms. (a) distance
+between the d-arg8 and  xxxd103xxx  side chains. (b) distance
+between the w2.6499 and half of the hypothetical line connecting the d-arg8 and  xxxd103xxx .
+
+330
+
+s´lusarz, s´lusarz, and ciarkowski
+
+and proposed to interact with d-arg8.38 therefore, the
+8
+ xxxd862xxx  – xxxd103xxx  salt bridge might be formed at the recognition stage, before  xxxd1847xxx  entry into the  xxxg231xxx 
+binding pocket. subsequently, the interaction would
+slowly disappear during docking, thus making possible a correct, deep immersion of ligand inside the
+binding cavity leading to full receptor activation.
+other interactions are probably less important.
+the interactions involving the nonconserved 7tm
+residues and gln4 and tyr2 of the ligand can be
+observed. in both complexes the s3.40127 hydroxyl
+might form a hydrogen bond with the gln4 carboxamide, whereas f5.47214 might interact with the tyr2
+and/or gln4 side chains. the interaction between the
+c-terminal carboxamide and v7.36308 can be observed in both complexes. moreover, the second
+extracellular loop strongly interacts with the c-terminal part of the ligand. thus, in the  xxxg231xxx – xxxd1847xxx (i)
+complex, the el2 t190 hydroxyl may form hydrogen
+bonds with the c-terminal carboxamide, the gly9 amide proton, and the d-arg8 guanidinium simultaneously. similar interaction can be observed in the
+ xxxg231xxx – xxxd1847xxx (ii) complex, where the el2 t190
+hydroxyl may form a hydrogen bond with the c-terminal carboxamide of  xxxd1847xxx . the aromatic–hydrophobic interactions between m3.33120, v5.39206,
+i5.42209 and aromatic rings of tyr2 and  xxxg641xxx  take
+place; furthermore, m7.39311 interacts with the
+ xxxd1847xxx  disulﬁde bridge. in any  xxxg231xxx – xxxd1847xxx  complex aromatic p–p receptor–ligand interactions have
+not been observed, in agreement with the hypothesis
+that they are involved in stabilization of an inactive
+state of the receptor, as previously proposed.15,16,74
+interaction with the gs(382–394) c-terminal peptide. to identify the  xxxg231xxx –gs(382–394) interactions, any receptor and gs residues within the mutual distance of 4.0 å or less have been selected and
+subjected to detailed analysis. the receptor residues
+identiﬁed as interacting with the gs segment are
+shown in table iii and figure 7. in both  xxxg231xxx –
+ xxxd1847xxx (i) and  xxxg231xxx – xxxd1847xxx (ii) complexes these
+interactions are identical. this is not surprising, since
+the location of gs(382–394) and its interaction with
+ xxxg231xxx  remained unchanged during the renewed docking of  xxxd1847xxx  (see methods). subsequent 1-ns md
+has not had any effect on their interactions.
+the residues involved in the receptor–gs interaction are prevailingly hydrophobic; however, a few
+signiﬁcant polar contacts occur. the important polar
+interactions seem to be two salt bridges formed by
+r3.50137 and d3.49136 from the highly conserved (d/
+e)ry (in  xxxg231xxx  : drh) motif at the cytoplasmic end
+of  xxxg2318xxx . in our model the d3.49136 carboxyl interacts
+
+with the gs r389 guanidinium, while the r3.50137
+guanidinium might interact with the gs l394 c-terminal carboxyl and/or gs e392 carboxyl. moreover,
+the same gs e392 interacts with the carboxamides
+of the highly conserved n7.45317 and n7.49321 via
+hydrogen bonds as well as the another hydrogen bond
+that may be formed between the y7.53325 hydroxyl
+and the gs q390 carboxamide. r3.50137 has been
+recognized to play a key role in triggering g protein
+activation and mutation of this residue to histidine in
+the human  xxxg231xxx  totally abolishes  xxxg231xxx –gs coupling,
+resulting in a complete type of ndi.75 mutation of
+the r3.50 in otr and several other receptors has
+established an important role of this residue in g protein activation.76–79 accordingly, it has been suggested that the substitution of the adjacent acidic residue (glu or asp in d/ery motif) with noncharged
+residue leads to constitutive activity.80–82 however, it
+has been recently demonstrated that the arginyl of the
+dry motif is not essential for g protein coupling for
+a novel wild-type receptor, orf74-ehv2.83 hence,
+although this motif is highly conserved, its function
+in the gpcr activation and signaling might be speciﬁc for particular receptors.84 the n7.49321 and
+y7.53325 are the part of highly conserved npxxy
+motif at the cytoplasmic side of tm7; mutations of
+n7.49 in different gpcrs have revealed that this residue is involved either in the adenylyl cyclase or in
+the phospholipase c activation.85–87 moreover, the
+analysis of the inactive  xxxg231xxx  model reveals that
+n7.49321 participates in the network of the interhelical hydrogen bonds, involving the highly conserved
+residues n1.5055, d2.5085, and s7.46318 (see figure
+5f). interestingly, s7.46318 interacts simultaneously
+with s7.43315, which is involved in the interhelical
+interaction with three gln residues, as already
+described (see figure 5a). therefore, it is possible
+that the docking of agonist not only breaks the interaction between three gln and s7.43315, as proposed
+previously, but initiates a gradual disruption of the
+interhelical hydrogen bond network during receptor
+activation, ﬁnally leading to the n7.49321 side chain
+rearrangement toward the intracellular side for interaction with gs(382–394); as shown in the  xxxg231xxx –
+ xxxd1847xxx  complexes (figure 7). an activation mechanism involving n7.49 has been recently proposed for
+ xxxg2341xxx .88
+the remaining interactions at the receptor–
+gs(382–394) interface are hydrophobic. the most
+important handle point seems to be the highly conserved gs l393, interacting with as many as ﬁve
+ xxxg231xxx  residues: i2.4378, l2.4681, m3.42129, i3.43130,
+and m3.46133 (see figure 7). less important hydrophobic interactions can also be observed, involving
+biopolymers doi 10.1002/bip
+
+desmopressin binding in vasopressin and oxytocin receptors
+
+331
+
+table iii list of the  xxxg231xxx ,  xxxg229xxx , and otr residues involved in the interaction with
+the gac-terminal segments
+
+tm1
+
+ xxxg1169xxx 
+tm2
+
+ xxxg2318xxx 
+
+ xxxg1173xxx 
+tm6
+
+tm7
+
+c-terminus
+
+ xxxg231xxx (i, ii)
+
+ xxxg229xxx 
+
+otr
+
+l57
+v58
+a61
+r65
+—
+p73
+i74
+ xxxd926xxx 
+i78
+l81
+m129
+i130
+a132
+m133
+ xxxd136xxx 
+r137
+a140
+i141
+y148
+—
+—
+—
+—
+—
+n317
+s318
+n321
+p322
+y325
+
+s71
+v72
+a75
+t79
+k82
+—
+m86
+f89
+i90
+—
+m141
+—
+—
+m145
+ xxxd148xxx 
+r149
+—
+—
+—
+r288
+—
+—
+—
+—
+—
+—
+n344
+p345
+y348
+
+—
+—
+—
+—
+
+—
+l356
+v360
+f363
+
+—
+v60
+a63
+t67
+k70
+—
+l74
+ xxxd926xxx 
+m78
+—
+—
+l130
+—
+m133
+ xxxd136xxx 
+r137
+—
+i141
+—
+r272
+m276
+i279
+i280
+f284
+—
+—
+n325
+p326
+y329
+t333
+l336
+f337
+—
+—
+
+the highly conserved gs l388, interacting with
+i2.3974 and f2.4277. these two gs leu residues,
+l388 and l393, are conserved among members of
+functionally different g protein classes42 and have
+been recognized as being absolutely crucial for receptor–g protein binding.89–91 moreover, the nonconserved c-terminal gs l394 interacts with a3.45132
+and m3.46133 while the gs y391 interacts with
+p7.50322 and y7.53325 again from the npxxy motif.
+accordingly, the mutation of p7.50322 has been identiﬁed in ndi, resulting in a  xxxg231xxx  mutant having impaired its ability to mediate the activation of adenylyl
+cyclase.92
+described  xxxg231xxx –gs(382–394) interaction involves
+the conservative residues of both interacting individubiopolymers doi 10.1002/bip
+
+universal
+numbering
+1.52
+1.53
+1.56
+1.60
+—
+2.38
+2.39
+2.42
+2.43
+2.46
+3.42
+3.43
+3.45
+3.46
+3.49
+3.50
+3.53
+3.54
+—
+6.32
+6.36
+6.39
+6.40
+6.44
+7.45
+7.46
+7.49
+7.50
+7.53
+7.57
+—
+—
+—
+—
+
+als: dry and npxxy motifs from receptor and two
+highly conserved leucyls from the g protein. these
+interactions have been formed at the step of activated
+models building,46 while subsequent md simulation
+with  xxxd1847xxx  applied in this study allows better ﬁtting
+of the receptor–g protein interacting parts and
+strengthening of the existing interactions. hence, it
+is a reasonable validation of our recent hypothesis
+concerning the interaction of class a gpcrs with g
+proteins.45
+the role of internal water molecules. internal
+water molecules, contributing to the intricate network
+of hydrogen bonds inside the receptor, involving the
+ xxxd1847xxx  and gs(382–394), have accumulated during
+
+332
+
+s´lusarz, s´lusarz, and ciarkowski
+
+mately 50 ps of md and remained at their target positions through the rest of the simulation (see figure 8).
+in both  xxxg231xxx – xxxd1847xxx  complexes water molecules
+interact mainly with the polar residues having wellexposed long side chains, which makes it favorable
+binding site for an h-bond donor/acceptor. in figure 9,
+several water-mediated interactions exemplifying
+their structural function and a role in stabilization of
+the receptor agonist-bound state are depicted. the
+most important ones appear to be the interhelical
+interactions that can be formed due to mediating
+water molecules. therefore, as one may see in figure
+9a, this particular interaction might have an inﬂuence
+on the rearrangement of the adjacent parts of tm1,
+tm2, and el2, where the interacting residues of the
+receptor belong. this interaction may contribute to
+forming the protuberance of el2 projecting toward
+the extracellular side as observed in the activated
+state (figure 2). some of the identiﬁed water molefigure 7 gs(382–394) docked inside the intracellular
+cavity of  xxxg231xxx . the tm helices are colored from blue
+(tm1) to red (tm7); the g protein is magenta. tm1– xxxg2318xxx 
+are made transparent for clarity; the interacting  xxxg231xxx  resides
+are exposed. the ﬁgure was prepared using the program
+molmol.116
+
+the productive md simulation. as described under
+methods, no water molecules were intentionally located inside the receptor, nonetheless water molecules, hydrating the lipid bilayer, migrated into the
+receptor cavity during the simulation. the water molecules escaped the hydration layer after approxi-
+
+figure 8 the dislocation of a specimen water molecule escaping the hydration layer. the water molecules
+enter inside the receptor cavity at the very beginning of the
+md and remain at approximately the same (ﬁnal) position
+over the whole simulation.
+
+figure 9 representation of the water-mediated interactions exemplifying their structural function and role in
+stabilization of the receptor agonist-bound state (for details
+see the role of internal water molecules). the ﬁgure was
+prepared using the program molmol.116
+biopolymers doi 10.1002/bip
+
+desmopressin binding in vasopressin and oxytocin receptors
+
+cules, located within the receptor–ligand contact surface, may mediate the receptor–ligand indirect interactions (e.g., see figure 9b and c). in figure 9b, one
+may see an interaction of one water molecule with
+two receptor residues and one ligand residue. this
+interaction might have an inﬂuence on the correct
+position of two highly conserved gln, q2.5792 and
+q3.32119, which, apart from water-mediated interaction with cys6 backbone, could interact with the
+ligand directly (see figure 2a and b). the largest
+cluster consisting of ﬁve water molecules mediates
+the interaction with as many as four receptor and one
+ligand residues as shown in figure 9c. therefore,
+three receptor domains,  xxxg2318xxx  (k2.29116), tm4
+(q4.60174, q4.66180), and tm6 (q6.55291), are
+involved in an interhelical water-mediated hydrogen
+bond network. moreover, the tyr2 backbone also participates in these stabilizing interactions. it is noticeable that in our model highly conserved q4.60174 and
+k2.29116 interact with the  xxxd1847xxx  only due to mediation of water molecules, but not directly. both of
+these residues, along with q6.55291, are believed to
+be crucial for ligand binding,64 whereas the nonconserved q4.66180 has been proposed as being responsible for selective binding to  xxxg231xxx .47 the network of
+water molecules can be also observed within receptor–gs contact surface (figure 9d and e). these
+interactions also contribute to the stabilization of the
+whole complex. in figure 9d, one water molecule
+mediating the interaction between gs e392 and two
+receptor residues, n7.45317 and n7.49321, is shown. a
+similar interaction is shown in figure 9e, where two
+gs residues, r385 and l394, interact via one water
+molecule with the highly conserved d3.49136. as can
+be seen in figure 9e, at the receptor–g protein contact surface long water bridges also can be formed. it
+is shown that the s333 from the c-terminus of  xxxg231xxx 
+does not interact with the gs directly.
+the structure and function of internal water molecules in gpcr is still little known contrary to their
+well-deﬁned function in bacteriorhodopsin.93,94 yet,
+water molecules identiﬁed in the vicinity of highly
+conserved residues in the rd crystal structure have
+been proposed to control the activity of rd and other
+class a gpcrs.7 selected water-mediated interactions presented in this section demonstrate fairly well
+their possible contribution to the stabilization of the
+ xxxg231xxx – xxxd1847xxx –gs complexes. the detailed examination of several different complexes of vasopressin
+and oxytocin receptors, both in antagonist- and agonist-bound states, supporting the hypothesis about the
+structural function of internal water molecules is in
+progress and the results will be published in the future
+(ślusarz et al., unpublished results).
+biopolymers doi 10.1002/bip
+
+ xxxg229xxx – xxxd1847xxx 
+
+333
+
+and otr– xxxd1847xxx  complexes
+
+in both complexes, the residues equivalent to those in
+ xxxg231xxx  also interact with the ligand. therefore, the
+interactions with the highly conserved gln residues
+occur, conﬁrming their possible role in the mechanism of  xxxd1847xxx  binding. the most important speciﬁc
+interactions appear to be two analogous salt bridges,
+involving the d-arg8 guanidinium and two carboxyls
+of either conserved e1.35 (54 and 42 in  xxxg229xxx  and
+otr, respectively) or nonconserved d2.65(112,100)
+(see figure 2c and d). this interaction is obviously
+absent in the  xxxg231xxx – xxxd1847xxx  complexes, where the
+equivalent position occupies the positively charged
+k2.65100. accordingly, it has been demonstrated that
+the presence of k2.65100 in  xxxg231xxx  is adverse for
+ xxxd1847xxx  binding in the human  xxxg231xxx , whereas
+the presence of aspartate at this position assists the
+binding of the  xxxd1847xxx .95 however, it has not
+afﬁrmed whether the latter interact directly or indirectly with an agonist.95 similarly, as in the  xxxg231xxx –
+ xxxd1847xxx  complexes, the dislocation of the highly conserved arginyl (46 and 34 in  xxxg229xxx  and otr, respectively) occurs, thus supporting our hypothesis that it
+might be involved in the receptor activation as
+described above. similarly, as in the  xxxg231xxx – xxxd1847xxx 
+complexes, any strong aromatic p–p interactions
+between receptor and ligand do not appear, except an
+insigniﬁcant interaction f6.51307– xxxg641xxx  in the  xxxg229xxx –
+ xxxd1847xxx  complex; only several hydrophobic or aromatic–hydrophobic interactions can be observed.
+the  xxxg229xxx  and otr residues identiﬁed as interacting with the gq/11(347–359) c-terminal segment
+are given in table iii. in general, the location of gq/
+11 c-termini in both  xxxg229xxx – xxxd1847xxx  and otr–
+ xxxd1847xxx  complexes has not been retained during md.
+in the ﬁnal complexes, both gq/11 peptides are partially displaced from the  xxxg229xxx  and otr cavities toward the  xxxg1169xxx  and intracellular side. this is probably a
+result of lack of some crucial stabilizing interactions
+at the receptor–gq/11(347–359) interface. the important interactions with two highly conserved motifs
+dry/c (in  xxxg229xxx  and otr, respectively) and npxxy
+occur, however they are not as strong as in the  xxxg231xxx –
+ xxxd1847xxx  complexes. similarly, the highly conserved
+gq/11 l353 and l35842 only weakly interact with
+the receptor. the interactions with  xxxg1169xxx  k(82,70) as
+well as r6.32(288,272) appear in the  xxxg229xxx  and otr,
+which have not been observed in  xxxg231xxx  (see table iii).
+it is conceivable that all of the interactions observed
+in the  xxxg229xxx – xxxd1847xxx  and otr– xxxd1847xxx  complexes
+have been formed during the simulations (docking,
+csa, energy minimization, and md) and result simply from the ligand optimal ﬁtting inside the binding
+
+334
+
+s´lusarz, s´lusarz, and ciarkowski
+
+cavity, past the recognition step that actually implicates the binding of  xxxd1847xxx  to  xxxg229xxx  and otr with a
+small afﬁnity. this consequently results in inappropriate arrangement of other receptor residues and
+makes impossible their high afﬁnity interaction with
+the g protein, allowing its partial dislocation from
+the receptor cavities.
+eventually, as in the  xxxg231xxx – xxxd1847xxx  complexes, the
+internal water molecules in the ligand and gq/
+11(347–359) vicinity can be observed in  xxxg229xxx  and
+otr. they are accumulated within the receptor–
+ligand contact surfaces, interacting with polar, longchain residues and in general are similar to  xxxg231xxx –
+ xxxd1847xxx  complexes, contributing to the stabilization
+of the receptor–ligand–g protein complexes.
+
+comparison of modeling results to
+available experimental data
+in the absence of experimentally determined 3d
+structures for vasopressin and oxytocin receptors, receptor models used in this study were constructed on
+the template of activated rd complexed with gt cterminal peptide.45,46,96 although it is agreed that rd
+makes a good structural template for other family a
+members,3,9–13 using activated rd as a template for
+modeling other gpcr activated states is problematic
+and requires a validation for any speciﬁc case. initially, the predicted receptor models were reﬁned
+computationally by energy minimization followed by
+csa to reduce the steric clashes.46 however, the
+obtained models may be validated based on available
+experimental data for vasopressin/ xxxg1642xxx 
+subfamily. therefore, md simulation (which efﬁciently samples conformational space) of agonistbound receptor models was conducted and 12 complexes with endogenous hormones, vasopressin and
+oxytocin (six complexes per each ligand), were investigated.46,47 the majority of receptor amino acid residues proposed as interacting with the ligands were
+previously identiﬁed as important for binding in experimental studies [46,47 and references therein]; the
+remaining receptor–ligand contacts provide guidelines for future experimental site-directed mutagenesis. since, these two earlier studies46,47 provided a
+partial reﬁnement of the receptor structures, the same
+receptor models were consequently used to study the
+receptor– xxxd1847xxx  interactions. in this investigation,
+the receptor–ligand complexes were generated by
+autodock.54 exclusively, in one  xxxg231xxx – xxxd1847xxx  complex a d-arg8– xxxd103xxx  salt bridge was manually formed
+based on experimental evidence on the  xxxd103xxx  relevance for  xxxd1847xxx  binding.38 all remaining receptor–
+ligand interactions were formed during the simulation
+
+(docking, csa, and energy minimization) and reﬁned
+during 1-ns unconstrained md. comparing our modeling results with the available site-directed mutagenesis data for vasopressin and oxytocin receptors, the
+ligand-binding properties of several mutants are
+found to be in good agreement with the receptor–
+ligand complexes obtained in this study. these experimental data provide very useful information to validate our receptor models64,68–70,73,92,95,97–105 (references assigned to speciﬁc residues are shown in table
+ii). as one may see in table ii, a majority of receptor–ligand contacts that occur in complexes obtained
+in this study were previously found to be involved in
+ligand binding for vasopressin/ xxxg1642xxx  subfamily. for instance, a sigﬁcant reduction in avp
+afﬁnity toward rat  xxxg229xxx , reported for the q2.57a,
+q2.61a, q3.32a, and q6.55a mutants,64 can be explained by their polar, direct interactions with the
+ligand observed in our models (see figure 2, table ii,
+and above text). q4.60a mutant showed considerable
+impairment of avp binding toward rat  xxxg229xxx .64 in
+ xxxg229xxx  and otr, q4.60 directly interacts with the
+ xxxd1847xxx , whereas in  xxxg231xxx  there is the water-mediated
+interaction (see above text and figures 2 and 9). the
+intricate network of hydrogen bonds is formed within
+the k3.29116, q4.60174, q4.66180, q6.55291, tyr2 of
+ xxxd1847xxx  and water molecules (see figure 9c), hence
+the disruption of this dense network of interaction
+may result in critical rearrangement of binding cavity
+and loss of ligand high-afﬁnity binding. q2.61 is found
+to be in strong, polar interaction with the  xxxd1847xxx  darg8 side chain. both q2.61a and q4.60a mutants
+demonstrated a substantial reduction in afﬁnity to
+avp,64 thus suggesting that they are especially important determinants of avp binding. accordingly,
+in our model, q2.61 and q4.60 are located one helical
+turn closer to the extracellular side than q2.57, q3.32,
+and q6.55 (suggested as less important for avp binding64); therefore, these two residues may be in addition involved in ligand recognition among vasopressin and oxytocin receptors. the moderate changes in
+avp– xxxg229xxx  afﬁnity64 resulting from q2.57a, q3.32a,
+and q6.55a mutations are also in agreement with our
+results. these residues, located somewhat deeper
+inside the binding cavity, form the hydrogen bonds
+with crucial  xxxd1847xxx  residues: tyr2 and asn5/gln4
+(see table ii, figure 2, and text above). in general,
+in the obtained models, all highly conserved gln
+residues interact with the following ligand residues:
+tyr2, d-arg8, asn5/gln4. it is noticeable that residues at these amino acid positions are commonly
+known as especially important for agonistic activity among vasopressin/ xxxg1642xxx  subfamily.17,106–111
+biopolymers doi 10.1002/bip
+
+desmopressin binding in vasopressin and oxytocin receptors
+
+two other highly conserved residues, which have
+been previously proposed as critical for agonist binding toward vasopressin and oxytocin receptors are
+also involved in  xxxd1847xxx  binding in our models.
+accordingly, it has been found in site-directed mutagenesis that the mutation of highly conserved n-terminal r (32, 46, and 34 in  xxxg231xxx ,  xxxg229xxx , and otr,
+respectively) results in strong impairment of ligand
+binding.68,69 this is in agreement with our models,
+where this conserved arginyl forms a hydrogen bond
+with the c-terminal carboxamide of  xxxd1847xxx  as
+described above (see also figure 2). more recently it
+has been demonstrated that the highly conserved
+e1.35 also plays an analogous role70 and, in agreement
+with this ﬁnding, in our model this residue interacts
+via hydrogen bond with the c-terminal carboxamide
+(see figure 2 and above text).
+detailed experimental data for human  xxxg231xxx  also
+support validation of our receptor models, e.g.,
+human  xxxg231xxx  mutations involving the following residues: l1.3944, v2.5388, w2.6499, el2 r181, i5.42209,
+a6.58294, and s7.43315 have been previously found
+as responsible for ndi by impairing avp binding65,73,92,97,98,105 and, accordingly all of these residues directly interact with  xxxd1847xxx  in our models (see
+table ii). two other  xxxg231xxx  residues identiﬁed in our
+study as interacing with  xxxd1847xxx  (m3.36123, s3.40127)
+also have been recognized as being responsible for
+ndi, but it is still undetermined whether they affect
+ligand binding.112,113
+the obtained receptor–ligand models provide the
+information on receptor–ligand interactions at the
+molecular level that are sufﬁcient to be validated by
+available experimental data. moreover, the obtained
+models also generate hypotheses regarding the molecular details of gpcr function, i.e., receptor activation, g protein coupling, or internal water molecules
+role. these hypotheses might be next tested by
+experiments whose results, in turn, would be used to
+modify and reﬁne molecular models.
+
+335
+
+binding for the neurohypophyseal hormone receptors
+subfamilies. the highly conserved residues have been
+proposed in this study as contributing to the network
+of interhelical interactions that, if broken, might initiate the conformational rearrangements during activation.
+the nonconserved el1  xxxd103xxx  recognized as crucial for  xxxg231xxx – xxxd1847xxx  high afﬁnity binding38 has been
+proposed to be involved only in the ligand recognition. the receptor drh/y/c (in  xxxg231xxx ,  xxxg229xxx , and
+otr, respectively) and npxxy motifs, being the
+hallmarks for the family a gpcrs, have been identiﬁed to be involved in the g protein coupling. two
+highly conserved leu residues at the c-terminus of
+gs protein appear to be mainly responsible for receptor binding. eventually, the internal water molecules forming an intricate network of the hydrogen
+bonds inside the receptor cavity have been detected.
+these molecules appear to be involved in both
+ xxxd1847xxx  binding and in gs coupling, contributing
+signiﬁcantly to the stability of the whole system.
+in summary, molecular models of receptor–ligand
+interactions might signiﬁcantly facilitate rational
+design of new avp analogs useful in several pathological conditions related to vasopressin  xxxg231xxx .
+on the other hand, detailed knowledge on the  xxxg231xxx 
+activation mechanism might assist in design of new
+ligands capable of activating the mutated  xxxg231xxx  in
+ndi. moreover, given the structural homology
+among class a, these results might ﬁnd an application in the design of drugs acting via other class a
+gpcrs.
+this work is supported by the polish scientiﬁc research
+committee (kbn), grant no. 3 t09a 116 28. magdalena j.
+ślusarz is supported by a l’oréal–unesco ‘‘for women
+in science’’ fellowship 2005 and european social fund
+(esf) scholarship no. zporr/2.22/ii/2.6/arp/u/2/05.
+the computational time in the academic computer center
+in gdansk ci task, poland, and the interdisciplinary center for mathematical modeling (icm) in warsaw, poland,
+is acknowledged.
+
+conclusion
+the docking of  xxxd1847xxx  to neurohypophyseal hormone receptors and subsequent 1-ns md simulation
+of complexes allowed us to propose a model of receptor– xxxd1847xxx  interactions, involving both highly conserved and nonconserved receptor residues. a large
+part of the  xxxg231xxx – xxxd1847xxx  interactions and those previously proposed for ot46 and avp47 is common.
+moreover, the majority of residues identiﬁed in this
+study have been previously determined in several experimental investigations to be involved in ligand
+biopolymers doi 10.1002/bip
+
+references
+1. bockaert, j.; pin, j. p. embo j 1999, 18, 1723–1729.
+2. becker, o. m.; shacham, s.; marantz, y.; noiman, s.
+curr opin drug discov dev 2003, 6, 353–361.
+3. ballesteros, j.; palczewski, k. curr opin drug discov
+dev 2001, 4, 561–574.
+4. hakak, y.; shrestha, d.; goegel, m. c.; behan, d. p.;
+chalmers, d. t. febs lett 2003, 550, 11–17.
+5. palczewski, k.; kumasaka, t.; hori, t.; behnke,
+c. a.; motoshima, h.; fox, b. a.; le trong, i.;
+
+336
+
+6.
+
+7.
+
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+
+15.
+16.
+
+17.
+18.
+19.
+20.
+
+21.
+22.
+
+23.
+
+24.
+25.
+26.
+27.
+28.
+
+29.
+
+30.
+
+s´lusarz, s´lusarz, and ciarkowski
+teller, d. c.; okada, t.; stenkamp, r. e.; yamamoto,
+m.; miyamoto, m. science 2000, 289, 739–745.
+teller, d. c.; okada, t.; behnke, c. a.; palczewski,
+k.; stenkamp, r. e. biochemistry 2001, 40, 7761–
+7772.
+okada, t.; fujiyoshi, y.; silow, m.; navarro, j.; landau, e. m.; shichida, y. proc natl acad sci u s a
+2002, 99, 5982–5987.
+okada, t.; sugihara, m.; bondar, a. n.; elstner, m.;
+entel, p.; buss, v. j mol biol 2004, 342, 571–583.
+ballesteros, j. a.; shi, l.; javitch, j. a. mol pharmacol 2001, 60, 1–19.
+sakmar t. p. curr opin cell biol 2002, 14, 189–195.
+mirzadegan, t.; benko, g.; filipek, s.; palczewski,
+k. biochemistry 2003, 42, 2759–2767.
+archer, e.; maigret, b.; escrieut, c.; pradayrol, l.;
+fourmy, d. trends pharmacol sci 2003, 24, 36–40.
+oliveira, l.; hulsen, t.; lutje hulsik, d.; paiva,
+a. c.; vriend, g. febs lett 2004, 564, 269–273.
+ślusarz, m. j.; ślusarz, r.; kaümierkiewicz, r.; trojnar, j.; wiśniewski, k.; ciarkowski, j. protein pept
+lett 2003, 10, 295–302.
+ślusarz, m. j.; ślusarz, r.; meadows, r.; trojnar, j.;
+ciarkowski, j. qsar comb sci 2004, 23, 536–545.
+ślusarz, m. j.; gieswsl. ldoñ, a.; ślusarz, r.; meadows, r.; trojnar, j.; ciarkowski, j. qsar comb sci
+2005, 24, 603–610.
+barberis, c.; mouillac, b.; durroux, t. j endocrinol
+1998, 156, 223–229.
+zingg, h. h.; baillieres clin endocrinol metab 1996,
+10, 75–96.
+thibonnier, m.; berti-mattera, l. n.; dulin, n.; conarty,
+d. m.; mattera, r. prog brain res 1998, 119, 147–161.
+birnbaumer, m.; seibold, a.; gilbert, s.; ishido, m.;
+barberis, c.; antaramian, a.; brabet, p.; rosenthal,
+w. nature 1992, 357, 333–335.
+birnbaumer, m. arch med res 1999, 30, 465–474.
+thibonnier, m.; auzan, c.; madhun, z.; wilkins, p.;
+berti-mattera, l.; clauser, e. j biol chem 1994, 269,
+3304–3310.
+sugimoto, t.; saito, m.; mochizuki, s.; watanabe,
+y.; hashimoto, s.; kawashima, h. j biol chem 1994,
+269, 27088–27092.
+kimura, t.; tanizawa, o.; mori, k.; brownstein,
+m. j.; okayama, h. nature 1992, 356, 526–529.
+gimpl, g.; fahrenholz, f. physiol rev 2001, 81, 629–
+683.
+barberis, c.; tribollet, e. crit rev neurobiol 1996,
+10, 119–154.
+hunyady, l.; vauquelin, g.; vanderheyden, p. tips
+2003, 24, 81–86.
+lebl, m.; jošt, k.; brtnı́k, f. in handbook of neurohypophysial hormone analogs, vol. 1, part 2; crc
+press: boca raton, fl, 1987; pp 127–267.
+robertson, g. l.; berl, t. pathophysiology of water
+metabolism: the kidney,6th ed.; philadelphia: w.b.
+saunders, 2000; pp 866–924.
+richardson, d. w.; robinson, a.g. ann intern med
+1985, 103, 228–239.
+
+31. zaoral, m. int j pept protein res 1985, 25, 561–574.
+32. fukuda, i.; hizuka, n.; takano, k. endocr j 2003, 50,
+437–443.
+33. schulman, s. l.; stokes, a.; salzman, p. m. j urol
+2001, 166, 2427–2431.
+34. white, b.; lawler, p.; riddell, a.; nitu-whalley, i.
+c.; hermans, c.; lee, c. a.; brown, s. a. br j haematol 2004, 126, 100–104.
+35. mannucci, p. m. n engl j med 2004, 351, 683–694.
+36. lethagen, s.; egervall, k.; berntorp, e.; bengtsson,
+b. haemophilia 1995, 1, 97–102.
+37. hruby, v. j.; chow, m-s. annu rev pharmacol toxicol 1990, 30, 501–534.
+38. ufer, e.; postina, r.; gorbulev, v.; fahrenholz, f.
+febs lett 1995, 362, 19–23.
+39. hubbell, w. l.; altenbach, c.; hubbell, c. m.; khorana, h. g. adv protein chem 2003, 63, 243–290.
+40. farrens, d. l.; altenbach, c.; yang, k.; hubbell, w.
+l.; khorana, h. g. science 1996, 274, 768–770.
+41. koenig, b. w. chembiochem 2002, 3, 975–980.
+42. kisselev, o. g.; kao, j.; ponder, j. w.; fann, y. c.;
+gautam, n.; marshall, g. r. proc natl acad sci u s a
+1998, 95, 4270–4275.
+43. janz, j. m.; farrens, d. l. j biol chem 2004, 279,
+29767–29773.
+44. koenig, b. w.; kontaxis, g.; mitchell, d. c.; louis,
+j. m.; litman, b. j.; bax, a. j mol biol 2002, 322,
+441–461.
+45. ślusarz, r.; ciarkowski, j. acta biochim pol 2004,
+51, 129–136.
+46. ślusarz, m. j.; ślusarz, r.; ciarkowski, j. j pept sci
+2006, 12, 171–179.
+47. ślusarz, m. j.; gieldoń, a.; ślusarz, r.; ciarkowski,
+j. j pept sci 2006, 12, 180–189.
+48. case, d. a.; pearlman, d. a., caldwell, j. w., cheatham, t. e.; wang, j.; ross, w. s.; simmerling, c. l.;
+darden, t. a.; merz, k. m.; stanton, r. v.; cheng,
+a.; vincent, j. j.; crowley, m.; tsui, v.; gohlke, h.;
+radmer, r.; duan, y.; pitera, j.; massova, i.; seibel,
+g. l.; singh, u. c.; weiner, p.; kollman, p. a.
+amber 7. 2002, university of california, san francisco.
+49. cieplak, p.; cornell, w. d.; bayly, c.; kollman, p. a.
+j comp chem 1995, 16, 1357–1377.
+50. schmidt, m. w.; baldridge, k. k.; boatz, j. a.;
+elbert, s. t.; gordon, m. s.; jensen, j. h.; koseki, s.;
+matsunaga, n.; nguyen, k. a.; su, s.; windus, t. l.;
+dupuis, m.; montgomery, j. a. j comput chem
+1993, 14, 1347–1363.
+51. langs, d. a.; smith, g. d.; stezowski, j. j.; hughes,
+r. e. science 1986, 232, 1240–1242.
+52. sybyl 6.8, tripos inc. 1699 south hanley rd., st.
+louis, mo 63144, usa.
+53. kirkpatrick, s.; gelatt, c. d., jr.; vecchi, m. p. science 1983, 220, 671–680.
+54. morris, g. m.; goodsell, d. s.; halliday, r. s.; huey,
+r.; hart, w. e.; belew, r. k.; olson, a. j. j comput
+chem 1998, 19, 1639–1662.
+55. solis, f.j.; wets, j.b. math oper res 1981, 6, 19–30.
+biopolymers doi 10.1002/bip
+
+desmopressin binding in vasopressin and oxytocin receptors
+56. goodsell, d. s.; morris, g. m.; olson, a. j. j mol
+recognit 1996, 9, 1–5.
+57. ślusarz, r.; ślusarz, m. j.; kaümierkiewicz, r.; lammek, b. qsar 2003, 22, 865–872.
+58. murzyn, k.; róg, t.; jezierski, g.; takaoka, y.;
+pasenkiewicz-gierula, m. biophys j 2001, 81, 170–
+183.
+59. pasenkiewicz-gierula, m. murzyn, k.; róg, t.; czaplewski, c. acta biochim polon 2000, 47, 601–
+611.
+60. essmann, u. l.; perera, m. l.; berkowitz, t.; darden,
+t.; lee, h.; pedersen, l. g. j chem phys 1995, 103,
+8577–8593.
+61. jorgensen, w.l.; tirado-rives, j. j am chem soc
+1988, 110, 1657–1666.
+62. guex, n.; peitsch, m. c. electrophoresis 1997, 18,
+2714–2723.
+63. ballesteros, j. a.; weinstein, h. methods neurosci
+1995, 25, 366–428.
+64. mouillac, b.; chini, b.; balestre, m. n.; elands, j.;
+trumpp, k. s.; hoﬂack, j.; hibert, m.; jard, s.; barberis, c. j biol chem 1995, 270, 25771–25777.
+65. morello, j. p.; salahpour, a.; petaja-repo, u. e.;
+laperriere, a.; lonergan, m.; arthus, m. f.; nabi, i.
+r.; bichet, d. g.; bouvier, m. biochemistry 2001,
+40, 6766–6775.
+66. strosberg, a. d.; camoin, l.; blin, n.; maigret, b.
+drug design discov 1993, 9, 199–211.
+67. kim, j-m.; altenbach, c.; kono, m.; oprian, d. d.;
+hubbell, w. l.; khorana, h. g. proc natl acad sci u
+s a 2004, 101, 12508–12513.
+68. hawtin, s. r.; wesley, v. j.; parslow, r. a.,simms,
+j.; miles, a.; mcewan, k.; wheatley, m. mol endocrinol 2002, 16, 600–609.
+69. wheatley, m.; hawtinm s. r.; wesley, v. j.; howard,
+h. c.; simms, j.; miles, a.; mcewan, k.; parslow, r.
+a.; biochem soc trans 2003, 31, 35–39.
+70. hawtin, s. r.; wesley, v. j.; simms, j.; argent, c. c.
+h.; latif, k.; wheatley, m. mol endocrinol 2005, 11,
+2871–2881.
+71. manning, m.; olma, a.; klis, w.; kolodziejczyk, a.;
+nawrocka, e.; misicka, a.; seto, j.; sawyer, w. h.;
+nature 1984, 308, 5960–5961.
+72. chruścinska, e.; derdowska, i.; kozlowski, h.; lammek, b.; luczkowski, m.; oldziej, s.; światekkozlowska, j. new j chem 2003, 27, 251–256.
+73. albertazzi, e.; zanchetta, d.; barbier, p.; faranda, s.;
+frattini, a.; vezzoni, p.; procaccio, m.; bettinelli, a.;
+guzzi, f.; parenti, m.; chini, b. j am soc nephrol
+2000, 11, 1033–1043.
+74. colson, a-o.; perlman, j. h.; jinsi-parimoo, a.; nussenzveig, d. r.; osman, r.; gershengorn, m. c. mol
+pharmacol 1998, 54, 968–978.
+75. rosenthal, w.; antaramian, a.; gilbert, s.; birnbaumer, m. j biol chem 1993, 268, 13030–13033.
+76. fanelli, f.; barbier, p.; zanchetta, d.; de benedetti,
+p. g.; chini, b. mol pharmacol 1999, 56, 214–225.
+77. scheer, a.; fanelli, f.; costa, t.; de benedetti, p. g.;
+cotecchia, s. embo j 1996, 15, 3566–3578.
+biopolymers doi 10.1002/bip
+
+337
+
+78. ballesteros, j.; kitanovic, s.; guarnieri, f.; davies,
+p.; fromme, b. j.; konvicka, k.; chi, l.; millar,
+r. p.; davidson, j. s.; weinstein, h.; sealfon, s. c.
+j biol chem 1998, 273, 10445–10453.
+79. zhu, s. z.; wang, s. z.; hu, j.r.; elfakahany, e. e.;
+mol pharmacol 1994, 45, 517–523.
+80. acharya, s.; karnik, s. a. j biol chem 1996, 271,
+25406–25411.
+81. rasmussen, s. g. f.; jensen, a. d.; liapakis, g.;
+ghanouni, p.; javitch, j. a.; gether, u. mol pharmacol 1999, 56, 175–184.
+82. alewijnse, a. e.; timmerman, h.; jacobs, e. h.;
+smit, m. j.; roovers, e.; cotecchia, s.; leurs, r.;
+mol pharmacol 2000, 57, 890–898.
+83. rosenkilde, m. m.; kledal, t. m.; schwartz, t. w.
+mol pharmacol 2005, 68, 11–19.
+84. hawtin, s. r.; mol pharmacol 2005, 68, 1172–1182.
+85. barak, l. s.; menard, l.; ferguson, s. s.; colapietro,
+a. m.; caron, m. g. biochemistry 1995, 34, 15407–
+15414.
+86. hunyady, l.; bor, m.; baukal, a. j.; balla, t.; catt,
+k. j. j biol chem 1995, 270, 16602–16609.
+87. galés, c.; kowalski-chauvel, a.; dufour, m-n.;
+seva, c.; moroder, l.; pradayrol, l.; vaysse, n.;
+fourmy, d.; silvente-poirot, s. j biol chem 2000,
+275, 17321–17327.
+88. urizar, e.; claeysen, s.; deupı́, x.; govaerts, c.; costagliola, s.; vassart, g.; pardo, l. j biol chem 2005,
+280, 17135–17141.
+89. garcia, p. d.; onrust, r.; bell, s. m.; sakmar, t. p.;
+bourne, h. r. embo j 1995, 14, 4460–4469.
+90. osawa, s.; weiss, e. r. j biol chem 1995, 270,
+31052–31058.
+91. martin, e. l.; rens-domiano, s.; schatz, p. j.;
+hamm, h. e. j biol chem 1996, 271, 361–366.
+92. ala, y.; morin, d.; mouillac, b.; sabatier, n.; vargas, r.; cotte, n.; déchaux, m.; antignac, c.; arthus,
+m-f.; lonergan, m.; turner, m.; balestre, m-n.;
+alonso, g.; hibert, m.; barberis, c.; hendy, g. n.;
+bichet, d.; jard, s. j am soc nephrol 1998, 9, 1861–
+1872.
+93. luecke, h.; schobert, b.; richter, h.-t.; cartailler,
+j. p.; lanyi, j. k. j mol biol 1999, 291, 899–911.
+94. shibata, m.; kandori, h. biochemistry 2005, 44,
+7406–7413.
+95. cotte, n.; balestre, m-n.; phalipou, s.; hibert, m.;
+manning, m.; barberis, c.; mouillac, b. j biol chem
+1998, 273, 29462–29468.
+96. ślusarz, r.; ślusarz, m. j.; lammek, b.; ciarkowski, j.
+qsar comb sci 2005, doi: 10.1002/qsar. 200430920.
+97. oksche, a.; schülein, r.; rutz, c.; liebenhoff, u.;
+dickson, j.; müller, h.; birnbaumer m.; rosenthal,
+w. mol pharmacol 1996, 50, 820–828.
+98. knoers, n. v.; van den ouweland a. m.; verdijk, m.;
+monnens, l. a.; van oost, b. a. kidney int 1994, 46,
+170–176.
+99. kojro, e.; postina, r.; gilbert, s.; bender, f.; krause,
+g.; fahrenholz, f. eur j biochem 1999, 266, 538–
+548.
+
+338
+
+s´lusarz, s´lusarz, and ciarkowski
+
+100. cotte, n.; balestre, m-n.; aumelas, a.; mahé, e.;
+phalipou, s.; morin, d.; hibert, m.; manning, m.;
+durroux, t.; barberis, c.; mouillac, b. eur j biochem
+2000, 267, 4253–4263.
+101. breton, c.; chellil, h.; kabbaj-benmansour, m.; carnazzi, e.; seyer, r.; phalipou, s.; morin, d.; durroux,
+t.; zingg, h.; barberis, c.; mouillac, b. j biol chem
+2001, 276, 26931–26941.
+102. tahtaoui, c.; balestre, m-n.; klotz, p.; rognan, d.;
+barberis, c.; mouillac, b.; hibert, m. j biol chem
+2003, 278, 40010–40019.
+103. postina, r.; ufer, e.; pfeiffer, r.; knoers, n. v.; fahrenholz, f. mol cell endocrinol 2000, 164, 31–39.
+104. acharjee, s.; do-rego, j-l.; oh, d-y.; ahn, r. s.;
+choe, h.; vaudry, h.; kim, k.; seong, j. y.; kwon,
+h. b. j biol chem 2004, 279, 54445–54453.
+105. pan, y.; wilson, p.; gitschier, j. j biol chem 1994,
+269, 31933–31937.
+106. manning, m.; sawyer, w. h. in vasopressin; schrier,
+r. w, ed.; raven press: new york, 1985; pp 131–144.
+107. walter, r. fed proc am soc exp biol 1977, 36,
+1872–1878.
+108. chan, w. y.; wo, n. c.; cheng, l. l.; manning, m.
+j pharmacol exp ther 1996, 277, 999–1003.
+
+109. sawyer, w. h.; acosta, m.; balaspiri, l.; judd, j.;
+manning, m. endocrinology 1974, 94, 1106–1115.
+110. gillessen, d.; du vigneaud, v. j biol chem 1967,
+242, 4806–4812.
+111. postina, r.; kojro, e.; fahrenholz f. j biol chem
+1996, 271, 31593–31601.
+112. arthus, m. f.; lonergan, m.; crumley, m. j.; naumova, a. k.; morin, d.; de marco, l. a.; kaplan,
+b. s.; robertson, g. l.; sasaki, s.; morgan, k.;
+bichet, d. g.; fujiwara, t. m. j am soc nephrol
+2000, 11, 1044–1054.
+113. morello, j. p.; bichet, d. g.; annu rev physiol 2001,
+63, 607–630.
+114. manning, m.; balaspiri, l.; moehring, j.; haldar, j.;
+sawyer, w. h. j med chem 1976, 19, 842–845.
+115. bernstein, h. j.; tibs 2000, 25, 453–455.
+116. koradi, r.; billeter, m.; wüthrich, k. j mol graphics
+1996, 14, 51–55.
+117. corpet, f. nucleic acids res 1998, 16, 10881–10890.
+
+reviewing editor: j. mccammon
+
+biopolymers doi 10.1002/bip
+

@@ -1,0 +1,1240 @@
+neurotoxicology 27 (2006) 547–557
+
+arsenic-induced gene expression changes in the neural tube
+of folate transport defective mouse embryos
+bogdan j. wlodarczyk a,*, robert m. cabrera a, denise s. hill a, daniel bozinov a,1,
+huiping zhu a, richard h. finnell a,b
+a
+
+center for environmental and genetic medicine, institute of biosciences and technology,
+texas a&m university system health science center, houston, tx 77030, usa
+b
+center for environmental and rural health, texas a&m university, college station, tx, 77843, usa
+received 16 december 2005; accepted 21 february 2006
+available online 18 april 2006
+
+abstract
+arsenic injected intraperitoneally (i.p.) during early organogenesis to small pregnant laboratory rodents (mouse, rat, and hamster) induces
+several congenital defects in the progeny. among those abnormalities consistently and predominantly observed are exencephaly and encephalocele. these severe defects of the central nervous system originate from a corrupted process of neurulation and are better known as neural tube
+defects (ntds). in order to understand the mechanism of arsenate-induced ntds, we designed studies in which highly sensitive  xxxg808xxx  nullizygous
+mice were injected intraperitoneally with sodium arsenate at the beginning of the neural tube formation process. this specific knockout mouse and
+the arsenic exposure conditions were chosen as they were known to provide a high incidence of exencephaly in exposed embryos. we have applied
+gene expression technology to the anterior neural tube. this allowed us to study arsenic-induced changes in patterns of gene expression that may
+contribute to the development of neural tube defects in these mice. using extensive data analysis approaches including hierarchical clustering and
+gene ontology analysis, we identified several candidate genes as well as important ontology groups that may be responsible for arsenic’s
+teratogenicity. changes in the expression of several genes in response to arsenic treatment in our model had previously been demonstrated by other
+investigators to also induce ntds in murine model systems. these include: engrailed 1 (en-1),  xxxg1709xxx 
+( xxxg1709xxx ) and ephrina7 ( xxxg710xxx ). we also found several gene ontology groups that could be implicated in arsenic’s underlying teratogenicity:
+morphogenesis, oxidative phosporylation, redox response, and regulation of i-kappab kinase/ xxxg1559xxx  cascade. additionally, we revealed new
+target genes which may be responsible for arsenic disrupted oxidative phosphorylation.
+# 2006 elsevier inc. all rights reserved.
+keywords: sodium arsenate;  xxxg808xxx  knockout mouse; neural tube; microarray
+
+1. introduction
+arsenic poses ‘‘the most significant potential threat to
+human health due to its known or suspected toxicity and
+potential for human exposure’’ of the 275 most hazardous
+substances found in the environment (atsdr, 2005). this
+list, created by the agency for toxic substances and disease
+registry, is based on the toxicity, and potential for exposure at
+any one of the national priorities list, or ‘‘superfund’’ sites.
+* corresponding author at: institute of biosciences and technology, 2121
+west holcombe blvd, houston, tx 77030, usa. tel.: +1 713 677 7722;
+fax: +1 713 677 7784.
+e-mail address: bwlodarczyk@ibt.tamhsc.edu (b.j. wlodarczyk).
+1
+present address: seralogix, inc. austin, tx 78730, usa.
+0161-813x/$ – see front matter # 2006 elsevier inc. all rights reserved.
+doi:10.1016/j.neuro.2006.02.005
+
+while arsenic is ubiquitous in the environment and is found in
+varying concentrations in rock, soil, and water, anthropogenic
+sources of arsenic including metalworking industries (including the smelting of lead, copper, and nickel), coal
+combustion, semiconductors and pesticides production, result
+in tons of arsenic being released into the environment every
+year. according to the united states environmental protection agency’s (usepa) toxic release inventory (tri), in the
+year 2003, 289,629,256 pounds of arsenic or arsenic
+compounds were reported released as a consequence of
+‘‘total on- and off-site disposal or other releases’’. this is
+not a comprehensive number, as only a portion of relevant
+facilities are required to report to the tri. the consequence is
+a greatly increased circulation of potentially hazardous
+compounds into the environment. increased human exposure
+
+548
+
+b.j. wlodarczyk et al. / neurotoxicology 27 (2006) 547–557
+
+to arsenic compounds carries with it unknown health risks for
+future generations.
+inorganic arsenic, the 20th most common element in the
+earth’s crust, is found in the environment in several chemical
+forms, and is well known for its ability to cause acute toxicity
+and death. it exists in several oxidation states, and those of the
+most interest to toxicologists are the trivalent and pentavalent
+forms, arsenite and arsenate. humans are generally exposed to
+these compounds through contaminated water, food and air.
+the chronic effects of arsenic on humans and animals
+include, but are not limited to: skin lesions, blackfoot disease,
+peripheral neuropathy, encephalopathy, hepatomegaly, cirrhosis, altered heme metabolism, bone marrow depression,
+papillary and cortical renal necrosis, diabetes and skin and
+lung cancer (brown and ross, 2002; icps, 1981, 1992). while
+arsenic’s toxicity has never been in question, controversy over
+its teratogenicity in humans continues unabated (desesso,
+2001; desesso et al., 1998; holson et al., 2000; shalat et al.,
+1996). this is primarily due to the limited human data and
+questionably designed epidemiological studies (aschengrau
+et al., 1989; beckman and nordstrom, 1982; borzsonyi et al.,
+1992; ihrig et al., 1998; nordstrom et al., 1978a,b, 1979a,b;
+zierler et al., 1988). the primary flaw in most studies
+involving humans is that actual maternal exposure is not
+determined, rather environmental setting is substituted as a
+proxy. in the few studies in which maternal exposure was
+directly evaluated, measurements were not taken during the
+relevant embryological period of neural tube closure. these
+retrospective studies of a link between arsenic exposure and
+increased risk of malformation measured maternal arsenic
+levels or environmental exposures long after the time when
+teratogens would be capable of inducing structural malformations. however, these studies proved valuable by demonstrating that arsenic readily crosses the human placenta and
+actually concentrates in the embryo/fetus and placenta during
+gestation (concha et al., 1998; eastman and dippel, 1933;
+tabacova et al., 1994). acute prenatal arsenic exposure in
+humans can result in miscarriage and early neonatal death
+(bolliger et al., 1992; lugo et al., 1969).
+in contrast to human studies, in vivo and in vitro experiments
+in laboratory animal species (mouse, rat, hamster and rabbit)
+have consistently shown arsenic to be a potent developmental
+toxicant and a teratogen, primarily inducing anterior neural
+tube defects (ntds) (chaineau et al., 1990; ferm, 1977; golub
+et al., 1998; mirkes and cornel, 1992; morrissey and mottet,
+1983; shalat et al., 1996; tabocova et al., 1996; willhite and
+ferm, 1984; wlodarczyk et al., 1996). however, it should be
+noted that arsenic-induced teratogenicity was mainly demonstrated when the route of adminstration involved using
+injections (intraperitoneal and intravenous), and that arsenic
+doses used in these studies were high when compared to the
+doses likely to be experienced by humans in the environment
+(for detailed reviews the reader is referred to: desesso, 2001;
+holson et al., 2000). in some studies, arsenic given orally or via
+inhalation revealed embryotoxic and/or teratogenic effects but
+at the doses presumably toxic for mothers (baxley et al., 1981;
+hood and harrison, 1982; hood et al., 1978; nagymajtenyi
+
+et al., 1985; nemec et al., 1998). the relatively high doses of
+arsenic used in animal studies should not be a surprise, as lethal
+doses for laboratory animals are somewhat higher than the
+estimated lethal dose in humans. based on clinical reports, the
+estimated minimal lethal dose for humans is about 1–3 mg as/
+kg (armstrong et al., 1984; usphs, 2000), whereas available
+ld50 values for arsenite and arsenate in rats and mice range
+from 15 to 175 mg as/kg (icps, 2001; usphs, 2000). thus,
+extrapolation from animal studies to humans is not trivial, and
+proper assessment of the developmental toxicity of arsenic will
+require much higher quality human epidemiological studies and
+thoughtful investigation of potential modifiers to arsenic’s
+teratogenicity in animal models. taken together, these currently
+available data build a potential linkage between human arsenic
+exposure and elevated risks for neural tube and other congenital
+defects that bears further exploration (zelikoff et al., 1995). in
+this situation, it seems essential to fully understand the
+mechanisms by which arsenic may cause congenital defects, as
+this will enhance our ability to accurately predict the human
+health risks associated with arsenic exposure.
+ xxxd2146xxx  enters cells via folate receptors ( xxxg807xxx ’s), also
+known as folate binding proteins, and the reduced folate carrier
+(rfc1), originally known as slc19a1.  xxxg807xxx ’s are membrane
+bound and have both tissue- and cell-specific expression
+patterns (ross et al., 1994). murine  xxxg808xxx , which is homologous
+to the human  xxxg808xxx , is variably expressed in most tissues
+(barber et al., 1999; ratnam et al., 1989). to assess the role of
+ xxxg808xxx  during embryogenesis, specifically during the period of
+neural tube closure, embryos lacking functional  xxxg808xxx  alleles
+were generated by homologous recombination in embryonic
+stem cells (piedrahita et al., 1999). in this knockout strain,
+stock-folr2tm1fnn ( xxxg808xxx ), nullizygous embryos exhibited
+normal neural tube closure and had no grossly detectable
+abnormal phenotype. plasma folate concentrations in these
+mice were unchanged relative to wildtype controls, and
+homocysteine levels were only slightly elevated, not reaching
+statistical significance (piedrahita et al., 1999). repeated
+experiments consistently demonstrated that  xxxg808xxx  nullizygous
+mice display increased sensitivity to arsenic-induced teratogenicity. intraperitoneal injection of 9.6 mg as/kg as a sodium
+arsenate administered just prior to and during the onset of
+neural tube closure (embryonic (e) days 7.5 and 8.5) results in
+40% exencephaly in nulls compared with 24% exencephaly in
+treated wild-types. this sensitivity to arsenic-induced ntds
+was further enhanced by maintaining dams on a low-folate diet
+(wlodarczyk et al., 2001). when the  xxxg808xxx  nullizygous dams
+were maintained on a low-folate diet (0.3 mg/kg diet) and
+treated with arsenic as above mentioned, the level of
+exencephaly rose to 64%, while in the wildtype it remained
+relatively stable at approximately 25%.
+biotransformation of inorganic arsenic in most mammalian
+species requires a series of reduction and methylation reactions
+which facilitate arsenic excretion from the body (carter et al.,
+2003). recent studies revealed that intermediate trivalent
+arsenic species are extremely toxic, which suggest that
+methylation might not be the detoxification pathway (aposhian
+et al., 2004; le et al., 2000; mandal et al., 2001; petrick et al.,
+
+b.j. wlodarczyk et al. / neurotoxicology 27 (2006) 547–557
+
+2001). in vitro study demonstrates that oxidation of trivalent
+arsenic species to pentavalent forms should be considered as a
+detoxification pathway (aposhian et al., 2003).
+in order to more thoroughly investigate the mechanism of
+arsenate-induced ntds, we designed experiments in which
+highly sensitive  xxxg808xxx  nullizygous mice were treated i.p. with a
+teratogenic dose of sodium arsenate just prior to the onset of
+neural tube formation process. this specific knockout mouse
+and arsenic exposure conditions were chosen as they previously
+produced a high incidence of exencephaly among the exposed
+embryos. we hypothesized that disruption of  xxxg808xxx  in
+nullizygous mice disturbs methylation and excretion processes
+when challenged with high doses of arsenate, extending the
+time of embryo-exposure to arsenic. results of our previous
+arsenic-induced teratogenicity study (wlodarczyk et al., 2001)
+and toxicokinetic study (unpublished data) on  xxxg808xxx  knockout
+mice supports the above hypothesis. we have applied gene
+expression technology to study arsenic-induced neural tube
+defects in these mice. this technique allowed us to develop
+gene expression profiles within isolated regions of the target
+neural tissue that had been pre-selected for analysis. we
+investigated the gene expression changes induced by arsenic in
+the anterior part of neural tube in order to discover patterns that
+might shed light on the mechanism of arsenic’s teratogenicity.
+2. materials and methods
+2.1. animals, treatment and collection of samples
+the stock-folr2tm1fnn ( xxxg808xxx -/-) null mice were housed in
+the institute of biosciences and technology vivarium. the
+animals were maintained in clear polycarbonate microisolator
+cages and were allowed free access to food and water (harlan
+teklad rodent diet #8606, ralston purina, st. louis mo) and
+were maintained on a 12-h light/dark cycle. virgin females, 50–
+70 days of age, were mated overnight with males and examined
+for the presence of vaginal plugs the following morning. the
+onset of gestation was set  xxxd1891xxx  p.m. of the previous night, the
+midpoint of the dark cycle (snell et al., 1948). pregnant females
+were randomly assigned to receive sodium arsenate (na2haso47h2o, sigma chemicals, st. louis, mo) or water. on e 7:12
+and 8:12, pregnant dams were injected i.p. with water solution of
+sodium arsenate at the dose of 9.6 mg as/kg of body weight.
+control dams were injected at the same time points with water for
+
+549
+
+injection (usp, abbott laboratories chicago il) as a control
+treatment. the volume of each single injection amounted to
+10 ml/g body weight. at three selected time points: 8:15 (3 h
+post-injection), 9:00 (12 h post-injection) and 9:12 (24 h postinjection), at least four control and arsenic treated dams were
+sacrificed and embryos harvested. after a thorough gross
+morphological examination under a dissection stereomicroscope
+(leica mz95, heerburg switzerland) the embryos were staged
+according to somite number and advancement through the
+process of neural tube closure (table 1). from these embryos, the
+anterior part of neural tube (cut off just in front of the otic pit) was
+dissected and transferred separately to a 600 ml plastic tube
+containing 15 ml of rnalater-ice (ambion). the samples were
+placed in 20 8c for 24 h to allow the tissue to soak the rna
+preserving compound, and then frozen at 80 8c and kept until
+further processed.
+2.2. sample processing and microarray assay
+no less than six embryonic neural tubes from separate dams
+(three controls and three arsenic treated) for each time point
+were used for hybridization on commercially available
+codelink uniset 10 k bioarray. each array contains a broad
+range of genes (10,500) derived from publicly available, wellannotated mrna sequences. every probe has been functionally
+validated against multiple tissues. a set of housekeeping genes
+has been included to be used for baseline normalization
+procedures. however, for a dataset of this size, a global scaling
+technique is definitely preferable. array to array variation is
+said to be less than 8% across batches. probe specificity is
+claimed by the manufacturer to be approximately 90% probe
+homology to target sequence, such that a 3 bp mismatch would
+significantly reduce the hybridization intensity. this translates
+into the ability to detect a 1.3-fold change in gene expression
+with 95% confidence or 2-fold with 98% confidence while
+differentiating between targets. triplicate measurements
+through replicated array experiments further improve the
+confidence to 99.9%, which is crucial for settings with very
+large data sets such as microarrays. the sequence information
+of each probe (gene) is available on the (http://www1.amershambiosciences.com/aptrix/upp01077.nsf/content) website.
+the 3d gel provides support for 30-mers in a matrix that
+holds the probe away from the surface of the slide. this
+substantially reduces background and enhances sensitivity
+
+table 1
+embryos collected from  xxxg808xxx -/- control and arsenic treated dams
+gestational day (day:hour)
+
+treatment
+
+litters (n)
+
+embryos (n)
+
+somites (mean  s.d.)
+
+8:15
+8:15
+9:00
+9:00
+9:12
+9:12
+
+control
+arsenic
+control
+arsenic
+control
+arsenic
+
+5
+4
+6
+6
+4
+4
+
+28
+26
+44
+39
+30
+28
+
+7.9  1.7
+7.4  1.6
+9.4  2.8
+8.5  2.3
+20.4  1.8
+17.7  3.8*
+
+a
+*
+
+number of embryos being in the process of neural tube closure at given closure site.
+significantly different when compared to the control value (two-tail t-test, p < 0.05).
+
+closure sitesa
+open
+
+i
+
+ii
+
+iii
+
+iv
+
+0
+0
+1
+1
+0
+0
+
+23
+26
+33
+31
+0
+12
+
+4
+0
+2
+6
+0
+8
+
+1
+0
+8
+1
+0
+7
+
+0
+0
+0
+0
+30
+1
+
+550
+
+b.j. wlodarczyk et al. / neurotoxicology 27 (2006) 547–557
+
+(1:300,000), allowing for the detection of one transcript per cell
+with 50–200 ng of  xxxd81xxx + rna.
+since the limited quantities of total rna extracted from
+each anterior part of the embryo neural tube did not enable us to
+use standard procedures for probe labeling, we utilized arna
+amplification methodologies as previously described by
+eberwine et al. (1992) with several modifications. briefly,
+total rna was extracted (picopure rna isolation kit, arcturus)
+and its quality was assessed on an agilent 2100 bioanalyzer
+using pico labchips (agilent). to the rna, concentrated to a
+final volume of 10 ml in a speedvac (thermosavant), 200 ng
+of t7 rna polymerase primer was added and the sample was
+denatured at 70 8c and allowed to anneal slowly at 42 8c. first
+and second strand cdna synthesis was performed using 100
+units of superscript-ii (invitrogen) and dna pol i (invitrogen).
+the dna was isolated by a standard pcr purification kit
+(qiagen) and concentrated using a speedvac (thermosavant).
+the cdna was then suspended in 8 ml of rnase-free water.
+the arna amplification synthesis was performed using
+megascript (ambion) at 42 8c overnight in the presence of
+biotin-utp. the arna was extracted using rneasy kit
+(qiagen) and the volume reduced to 10 ml using a speedvac.
+the net arna yield from each embryo neural tube was 10 mg,
+and the arna quantity was determined using a fluorometer and
+the fluorescent nucleic acid stain ribogreen (molecular
+probes). the arna was fragmented in 40 mm tris acetate,
+ph 7.9, 100 mm koac and 31.5 mm mgoac, at 94 8c for
+20 min. hybridization, coupling of alexa fluor 647-streptavidin (molecular probes), and subsequent washes were
+performed according to manufacturer’s protocol (amersham
+biosciences). the arna was mixed with buffer component a
+and b and then denatured at 90 8c for 5 min. the sample was
+then injected into the hybridization chamber and sealed.
+hybridization was allowed to go 18 h at 37 8c, while shaking at
+300 rpm. each slide was rinsed in tnt buffer (0.1 m tris–hcl
+ph 7.6, 0.15 m nacl, 0.05% tween-20) at room temperature,
+followed by a wash at 42 8c for 1 h. coupling of biotin labeled
+hybridized probe to dye labeled-streptavidin was performed in
+a 1:500 dilution of alexa fluor 647-streptavidin. excess dye
+was removed by washing four times for 5 min each with tnt
+buffer at room temperature. slides were rinsed in deionized
+water, spun-dry, and then scanned using an agilent dna
+microarray scanner.
+2.3. quantitative rt-pcr
+taqman1 gene expression assays were used to validate
+microarray data for selected genes. gene-specific probes and
+primer sets for  xxxg498xxx  (mm01340476_m1), atp5k
+(mm_00833200_g1),  xxxg1062xxx  (mm00516004_m1) and sqstm1
+(mm00448091_m1) were purchased from applied biosystems
+(foster city, ca). the rna extracted from independent
+(different from those used for microarray assay), control and
+arsenic treated target tissue samples was reverse transcribed
+into cdna with high capacity cdna archive kit (applied
+biosystems). fifty nanograms cdna of each sample was mixed
+with 10 ml taqman1 universal pcr master mix, no
+
+amperase1 ung (applied biosystems, foster city, ca)
+and 1 ml probe and primer mixture in a total volume of 20 ml in
+a 384-well plate. the assays were performed according to
+manufacturer’s protocol on an abi prism1 7900ht
+sequence detection system (applied biosystems, foster city,
+ca). the thermo-cycling started with a 10 min denaturing at
+95 8c, followed by 40 cycles of 95 8c for 15 s and 60 8c for
+1 min.
+2.4. statistical analysis
+initial feature extraction from the images was performed
+using codelink expression analysis software v4.0 (amersham
+bioscience), and expression values for all 10,500 genes were
+generated. intensities for each individual gene were determined
+by the median intensity of all pixels within the spot’s region.
+subtraction of the median local background (computed from
+the subset of remaining pixels of the bounding box) yielded net
+intensities representing relative gene expression levels. in order
+to compensate for negative intensities, a floor function with
+a value of 1 (range is 0–65535) was applied. for equidistant
+scaling, all values were logged with a base of 2 and the data
+were normalized using a global scaling method derived from
+single-channel normalization schemes used by affymetrix
+analysis software. expression intensities, ratios and gene id’s
+were then merged; the median of the expression values for each
+sample at the specified timepoint was used to generate the
+effective expression ratios representing the impact of arsenic on
+embryonic development in mice during the critical phase of
+neural closure. in other words, the comparison groups were the
+arsenic treated versus the water injected  xxxg808xxx  nullizygous
+embryos, with measurements taken over time. a thresholding
+function was employed to eliminate very weakly expressed
+genes. this, by definition, occurred where every intensity value
+contributing to the higher of the two gene expression levels was
+lower than the highest observed signal from negative control
+gene spots, plus four standard deviations derived from the
+distribution of the set of 481 negative control genes on the array.
+the remaining genes were sorted based on their differential
+expression and a boundary of 1.5-fold change in expression was
+used to produce a list with considerably up- and down-regulated
+genes. in addition, a t-test has been applied, where a p-value of
+0.05 ensured a consistent expression throughout the replicated
+arrays.
+for hierarchical clustering, we used hierarchical clustering
+explorer software v 3.0 (human computer interaction
+laboratory, university of maryland, college park), and the
+parameters were set for average linkage using the unweighted
+pair group method with arithmetic mean (upgma) and
+pearson correlation coefficient.
+the data were further analyzed based on gene ontology
+groups with the use of ncbis gominer (genomics and
+bioinformatics group, lmp, crr national cancer institute)
+and arraytrack (center for toxicoinformatics, division of
+biometry and risk assessment, national center of toxicology
+research, u.s. food and drug administration), web-delivered
+gene ontology analysis tools to inquire about their relation-
+
+b.j. wlodarczyk et al. / neurotoxicology 27 (2006) 547–557
+
+ships to known regulatory pathways. the gene ontology
+analysis produced clusters of differentially expressed genes
+according to biological processes, cellular component, and
+molecular function. ontological enrichment analysis of all
+differentially expressed genes from all time points collectively
+identified numerous ontological groups displaying significant
+enrichment ( p < 0.005).
+quantitative rt-pcr data were analyzed using sds
+software v2.1 (applied biosystems, foster city, ca). mouse
+ xxxg861xxx  gene was used as internal control. standard curve
+method was used to generate quantitative values. each reaction
+was replicated three times and the normalized mean value was
+used in final comparisons. the level of gene expression was
+compared between arsenic treated and control neural tube
+samples. for that purpose the unpaired t-test was applied and
+the critical p-value was set at 0.05.
+3. results
+3.1. embryos collected from dams on e 8:15, 9:00 and
+9:12
+majority of embryos collected on e8:15 was still in a ‘‘u’’
+shape and had just started the process of neural tube closure
+(theiler stage 13). there were no visible differences between
+the control and arsenic treated embryos. on e9:00 the embryos
+were undergoing axial rotation and most of them were already
+in a ‘‘c’’ shape (late phase of theiler stage 13). the control
+embryos seemed to be a little bigger at this time point and had
+on average one pair of somites more than the arsenic treated
+embryos. on e9:12 the progress in neurulation was more
+pronounced, with all the control embryos having closed
+anterior part of the neural tube (theiler stage 14). in the arsenic
+treated group the embryos were developmentally delayed and
+most of them have closed the neural tube only at closure site i.
+at this time point arsenic treated embryos showed significantly
+fewer somites than control embryos (table 1).
+
+551
+
+table 2
+number of genes with changed expression level in the anterior part of neural
+tube from mouse embryos treated with arsenic
+p
+gestational
+up regulated
+down regulated
+day (day:hour)
+genes
+genes
+8:15
+9:00
+9:12
+p
+
+18
+87
+16
+121
+
+37
+60
+15
+112
+
+55
+147
+31
+233
+
+codelink bioarrays were utilized for this experiment.
+statistical parameters, as described above, were used to
+identify the most significantly altered up- or down-regulated
+genes for each time point. the threshold and t-test were applied
+(1.5-fold change, p < 0.05), and those genes meeting this
+criterion at any time point were graphed across the three time
+points. out of 10,500 gene elements that were present on the
+microarray slides, 233 were identified as differentially
+expressed in this study (table 2). of these, 121 were upregulated and 112 were down-regulated relative to controls with
+31 being unknown. analysis indicated that there were four
+genes (engrailed 1, calponin 1, isoprenylcysteine carboxylmethyltransferase, and carbohydrate sulfotransferase 1) that
+displayed differential expression across multiple time points
+(fig. 1).
+hierarchical cluster analysis of differentially expressed
+genes was used to group samples, based on the degree of
+similarity of their gene expression profiles across all of the
+samples, separately for each time point (8:15, 9:00 and 9:12).
+the results of this analysis showed that all control and arsenic
+samples (genetic profiles) were clearly assigned into two
+separated clusters (fig. 2).
+the data were further analyzed based on gene ontology
+groups with the use of gominer (zeeberg et al., 2003). the
+gene ontology (go) analysis produced clusters of statistically
+
+3.2. gene expression data analyses
+the entire gene expression data from this experiment (21
+microarray chips representing genetic profile of neural tube
+samples from control and arsenic treated mouse embryos) were
+deposited on the ncbi gene expression omnibus web page
+(http://www.ncbi.nlm.nih.gov/projects/geo/). complete data
+can be accessed from this miame compliant depository
+database via accession number gse3412.
+in concert with the microarray data collection, we have
+performed an intensive bioinformatic analysis of the expression
+profiles in this unique genetic model of arsenic-induced neural
+tube defect. in order to evaluate possible relationships between
+arsenic-induced malformations and gene-expression alterations, the anterior neural tube of mouse embryos was collected,
+processed, and the labeled arna was hybridized to microarray
+slides. a minimum of three biological replicates for each of the
+six tested groups were used: three time points (3, 12, and 24 h
+after treatment) for controls and experimentals. a total of 21
+
+fig. 1. genes with dynamic differential expression in the anterior neural tube
+from mouse embryos treated with arsenic. genes that were differentially
+expressed across more than one time point after arsenic treatment in the anterior
+neural tube are displayed. the data are presented as fold change after log 2
+transformation. differential expression was defined as having at least a 1.5-fold
+change. probe accession numbers and known gene symbols for the data
+presented include nm_010133 (en1), nm_009922 (cnn1), af209926 (icmt),
+and nm_023850 (chst1).
+
+552
+
+b.j. wlodarczyk et al. / neurotoxicology 27 (2006) 547–557
+table 3
+comparison of relative ratios of gene expression obtained from qrt-pcr and
+microarray assays
+
+fig. 2. relative gene expression in the neural tube of the control and arsenic
+treated mouse embryos (qrt-pcr). *significantly different comparing to
+control (t-test, p < 0.05).
+
+( p-value < 0.005) enriched differentially expressed genes
+according to their ontologies, e.g. biological processes, cellular
+component, and molecular function. the ontology groups that
+were enriched (go gene lists are available in the supplemental
+data) at each time point are shown in table 4.
+3.3. quantitative real-time pcr (qrt-pcr)
+to independently validate gene expression results obtained
+by the microarray analysis we applied the taqman1 gene
+expression assay, which allows detection and quantification of
+mrna. the expression levels of four genes that showed
+differential pattern of expression (two up- and two downregulated genes) in neural tube samples from control and
+arsenic exposed embryos were quantified using taqman1 rtpcr and compared to those levels determined by the
+microarray assay. more specifically we chose two genes
+(hmx1 and sqstm1) that were upregulated by the arsenic
+exposure and two genes (cox7 and atp5k) down regulated. the
+qrt-pcr results confirmed the microarray outcomes; hmx1
+and sqstm1 were up regulated and cox7 and atp5k were
+significantly down regulated in the arsenic treated neural tube
+samples as compared to the control samples (fig. 3). the
+
+relative expression ratio
+control/arsenic treated
+
+ xxxg1062xxx 
+
+sqstm1
+
+cox7
+
+atp5k
+
+qrtpcr
+microarray
+
+0.01
+0.28
+
+0.43
+0.41
+
+3.96
+5.04
+
+2.32
+1.86
+
+overall, relative expression profiles (control/treated) of the four
+mrnas revealed in qrt-pcr assay were found to be in a good
+agreement (correlation coefficient 0.97) with the expression
+profiles determined by microarray technique (table 3).
+4. discussion
+embryonic arsenic exposure via maternal i.p. injections
+leads to a well-described pattern of fetal malformations in mice
+(golub et al., 1998; hood et al., 1978; morrissey and mottet,
+1983; wlodarczyk et al., 2001). it has also been demonstrated
+that arsenic interferes with normal gene expression in both cell
+and animal models, but the mechanism by which arsenic
+exposure induces malformation and alters gene expression
+remains to be elucidated. we suggest that these changes in gene
+expression are responsible, at least in part, for arsenic-induced
+malformations. this is supported by the fact that disrupting the
+expression of several arsenic responsive genes has previously
+been demonstrated to induce defects in mouse models. these
+genes included engrailed 1 (en-1), platelet derived growth
+factor receptor alpha ( xxxg1709xxx ) and ephrina7 ( xxxg710xxx ).
+inhibition of en-1 by antisense targeting has resulted in
+craniofacial abnormalities (augustine et al., 1995), disruption
+of  xxxg1709xxx  was associated with craniofacial clefts, and cleft
+palate (tallquist and soriano, 2003), and targeted gene
+disruption of  xxxg710xxx  has been shown to induce exencephaly
+(depaepe et al., 2005). the gene expression analyses were
+designed in order to identify genetic alterations produced by
+
+fig. 3. hierarchical clustering of differentially expressed genes in the neural tubes of arsenic treated and control mouse embryos. the dendrogram is a group-based
+comparison (arsenic vs. control), the rows represent each array, while the columns represent a unique gene-specific oligonucleotide on the microarray. the colors
+indicate fluorescent signal intensity, red indicates an increase in expression levels after arsenic exposure, and green indicates a decrease. note clean separation of the
+two treatment groups into two clusters, indicating the high level of reliability of the expression data.
+
+b.j. wlodarczyk et al. / neurotoxicology 27 (2006) 547–557
+
+teratogenic arsenic exposure. we observed that these changes
+were dynamic, in that the set of genes altered by arsenic
+depended directly on the time point following exposure.
+gestational staging of embryos by somite numbers demonstrated that a delay in embryological development was induced
+by arsenic. knowing that, in subsequent microarray studies,
+control and treated embryos were collected at the same time
+points and had developed to a comparable stage of development
+as determined by the number of somites. at the first two time
+points (e8:15 and 9:0) this developmental delay was very
+slight, as the vast majority of the control and arsenic treated
+embryos were in mid-neural tube closure at the closure site i. at
+that time, the average control embryo was slightly developmentally ahead of the arsenic treated embryos (0.5–0.9
+somite pair) with respect to somitogenesis. even though the
+difference between treated and control somite numbers were
+more pronounced at e9:12 (table 1), we were still able to select
+control and treated embryos with comparable numbers of
+somites (18–19 pair of somites). despite of the equivalent
+number of somites observed, the control embryos were
+significantly more advanced in terms of the neurulation
+process, when compared to the as treated embryos. analysis
+of the genetic changes that coincided with these developmental
+changes indicated essential housekeeping genes were altered by
+arsenic exposure (up regulated:  xxxg2409xxx ,  xxxg217xxx , mphosph10,
+snrpa and down regulated: syncrip). globally, alterations
+induced by arsenic included changes in genes providing
+housekeeping functions, morphogenesis, response to hypoxia,
+and regulation of i-kappab kinase/ xxxg1559xxx  cascade
+(globally changed in table 4).
+it is generally hypothesized that multiple genes and
+pathways are responsible for complex birth defects (mitchell,
+2005). therefore, the aim of the present study was to observe
+alterations in the gene expression of the anterior neural tube that
+
+553
+
+precede the genesis of neural tube defects in arsenic treated
+mouse fetuses. characterization of gene alteration in the
+embryonic tissues that ultimately generates these malformations produced lists of up or down regulated genes, and these
+genes were then classified by gene ontologies. genes identified
+by their relevance to toxicant response and dysmorphogenesis
+are described below, identified by the gene ontology group to
+which they belong, and clustered based on the timepoint they
+were shown to have altered expression.
+4.1. three-hour post-treatment
+4.1.1. pkinase cascade
+ xxxg1062xxx  ( xxxg1062xxx ) is a hallmark for arsenicinduced stress (liu et al., 2001). an essential enzyme in heme
+catabolism, it cleaves heme to form biliverdin a strong
+antioxidant. in addition to its substrate, heme, its activity is also
+strongly induced by many agents causing oxidative stress.
+microarray results indicated that  xxxg1062xxx  was the most
+upregulated gene in the arsenic treated anterior neural tubes.
+4.1.2. stress (temp)
+heat shock protein a1b (hspa1b) is also known as 70 kda,
+hsp70, hsp68, hsp70a1, hsp70-1, and hsp70.1. heat shock
+proteins (hsps) are a family of proteins that are induced by
+stressors such as heat and toxicants, and it is thought that the
+expression results in enhanced thermotolerance and chemotolerance. while the necessary induction of hsps is well
+established during organogenesis in the rodent embryo,
+expression may also help provide protection against dysmophogenesis induced by toxicants. work by hunter and dix
+(2001) suggests that hsp70-1 and hsp70-3 are both necessary
+and sufficient to prevent arsenite-induced dysmorphology in
+early-somite staged mouse embryos. both hspa1b and dnajc8
+
+table 4
+gene ontology groups identified by gominertm and arraytrack software in the neural tube samples from arsenic treated mouse embryos
+gestational day (day:hour)
+
+all differentially expressed genes
+a,b
+
+up-regulated genes
+
+down-regulated genes
+a,b
+
+8:15
+
+protein kinase cascade
+
+smooth muscle contraction
+nucleic acid bindinga
+translation elongation factora,b
+
+response to tempa
+eye morphogenesisa,b
+
+9:00
+
+ribosomea,b
+inorganic phosphate transportera
+caspase activatora
+apoptotic protease activatora
+
+caspase activator activitya,b
+apoptotic protease activatora,b
+protein tyrosine phosphatasea,b
+phosphoric ester hydrolase,b
+
+ribosomea
+rna bindinga
+nucleic acid bindinga
+mitochondriona
+hydrogen ion transportera,b
+translationa
+threonine endopeptidasea
+proteasome core complex (euk)a,b
+protein-membrane targetinga,b
+
+9:12
+
+anion channela
+
+rna splicinga
+anion channela
+
+globally changed
+
+alpha dna polymerase activitya, embryonic limb morphogenesisa, glycolysisa, hydrogen ion transporter activitya, regulation
+of i-kappab kinase/ xxxg1559xxx  cascadea, response to hypoxiaa, structural constituent of ribosomea, translation elongation
+factor activitya
+
+all above groups identified with gominer software displayed significant enrichment ( p < 0.005).
+a
+identified with gominer.
+b
+identified with arraytrack.
+
+554
+
+b.j. wlodarczyk et al. / neurotoxicology 27 (2006) 547–557
+
+(another member of heat shock proteins, hsp40) were
+demonstrated to be highly upregulated at the earliest timepoint
+following arsenic treatment, and are known to participate
+together as a chaperone complex.
+4.1.3. morphogenesis
+aldehyde dehydrogenase family 1, subfamily a2 ( xxxg128xxx )
+is also known as  xxxg127xxx ,  xxxg128xxx , aldh1a7, raldh-2 and
+av116159. retinaldehyde dehydrogenase converts retinal to
+ xxxd3417xxx  (ra). ra expression is tissue and time specific,
+and is a developmental signal implicated in the formation of the
+neural axis. ra serves as a ligand for nuclear receptors, which
+influence transcriptional regulation of genes containing retinoic
+acid responsive element (rare). at e8:12, ra can be detected
+in the mouse hindbrain.  xxxg128xxx -/- knockout mice die by e10:12
+with heart defects (mic et al., 2002), whereas excess of ra
+leads to defects in neural crest cell derived structures such as
+craniofacies, heart, axial skeleton, and eyes.  xxxg128xxx  was
+upregulated in the arsenic treated samples, and may possibly
+drive additional ra synthesis.
+4.1.4. translation elongation factor
+the sulfhydryl amino acid homocysteine is associated with
+an increased risk for cardiovascular disease and birth defects
+(rasouli et al., 2005; splaver et al., 2004). homocysteine and
+methionine, both of which are part of the active methyl cycle,
+have also been shown to influence the expression of elongation
+factor-1delta (ef-1delta) in endothelial cells (chacko et al.,
+1998). this gene, a member of a multimeric complex regulating
+mrna translation, was also differentially expressed after
+arsenic exposure. furthermore, alterations in the s-adenosyl
+methionine to  xxxd3157xxx  (sam:sah) ratio of
+the active methyl cycle have been demonstrated in  xxxg808xxx  mice
+in a previous study (spiegelstein et al., 2005). as in the
+endothelial model, these alterations in the active methyl cycle
+appear to induce the expression of ef-1delta and may thereby
+mediate accelerated synthesis of free sulfhydryl-containing
+proteins in response to oxidative stress (chacko et al., 1998).
+4.2. twelve-hour post-treatment
+4.2.1. ribosome
+ribosomal proteins are integrally involved in protein
+synthesis. the numerous proteins of the ribosomal subunits
+have multiple sequential steps that must be followed in order to
+properly initiate and translate mrnas to proteins. the genes
+ xxxg1978xxx , rpl13, rpl14, and rpl18a are all found in the 60s
+ribosomal subunit. this subunit joins with the 48s initiator
+complex at the initiation complex of mrnas, functionally
+forming the active 80s ribosome.  xxxg1978xxx , which is also known
+as qm, has been identified as a putative tumor suppressor, and it
+may also influence various signal transduction pathways
+involving sh3 domain-containing membrane proteins (oh
+et al., 2002). the gene rpl14 is also suggested to be a tumor
+suppressor gene (shriver et al., 1998). therefore, the changes in
+expression of these ribosomal genes during development may
+directly alter ribosome biosynthesis required for cell prolifera-
+
+tion and growth. these alterations may thereby increase the
+vulnerability of an embryo to a neural tube defect if there were
+delays in cellular proliferation and growth during neural tube
+closure. we observed such delays in growth in arsenic exposed
+embryos, and other studies have also demonstrated that
+inactivation of ribosome is similarly embryotoxic and
+teratogenic (chan et al., 1993, 1994).
+4.2.2. apoptosis
+ xxxd226xxx  (ato) has been shown to induce
+differentiation and apoptosis in acute  xxxg1785xxx 
+(apl) cells with concomitant upregulation of r1 and r2
+ xxxg2298xxx /trail ( xxxg2296xxx -related apoptosis-inducing ligand) receptors (akay et al., 2004; liu et al., 2003). we
+observed alteration of  xxxg2298xxx /trail in response to pentavalent
+arsenic exposure. these changes in  xxxg2298xxx /trail may parallel
+what is seen in ato exposed cells, in that ato induces  xxxg2298xxx /
+trail, activates caspase cleavage of bid, a pro-apoptotic
+bcl-2 family member, which depolarizes the mitochondrial
+membrane and releases apoptosis-inducing factor from
+mitochondria in a bcl-2 independent fashion (akay et al.,
+2004; liu et al., 2003; susin et al., 1999). inducible expression
+of pycard/tms1 has also been shown to inhibit cellular
+proliferation and induce dna fragmentation (mcconnell and
+vertino, 2000). since methylation of the cpg islands
+surrounding exon 1 of pycard/tms1 has been indicated
+in controlling its gene expression (conway et al., 2000), the
+biotransformation of arsenic may also directly influence the
+expression of pycard/ms1 by depleting the availability of
+methyl-groups and altering sam:sah (spiegelstein et al.,
+2005).
+4.3. twenty-hour post-treatment
+4.3.1. anion transporter
+voltage-dependent anion channel ( xxxg2409xxx ) is also known as
+vdac5. the voltage-dependent anion channel ( xxxg2409xxx ) is a
+small, abundant pore-forming protein found in the outer
+mitochondrial membrane. it is hypothesized that mitochondrial
+membrane potential and the release of  xxxg569xxx , initiating
+apoptosis, is regulated by the binding of  xxxg250xxx  family of
+proteins to the vdacs (shimizu et al., 1999). the  xxxg250xxx  family
+of proteins’ members may be anti-apoptotic or pro-apoptotic,.
+ xxxg2409xxx  is upregulated in the arsenic treated samples.
+atp synthase, h+ transporting mitochondrial f1 complex,
+ xxxg217xxx  ( xxxg217xxx ). atp synthase harnesses the energy of
+proton flux through the inner mitochondrial membrane to
+synthesize atp from adp during oxidative phosphorylation.
+ xxxg217xxx  expression was upregulated in the arsenic treated
+samples.
+4.4. global analysis
+a global analysis was performed on all differentially
+expressed genes at all time points. global analysis using
+gominer indicated that the three most highly enriched go
+groups were i-kappab kinase/ xxxg1559xxx  cascade, oxidative
+
+b.j. wlodarczyk et al. / neurotoxicology 27 (2006) 547–557
+
+phosphorylation, and eukaryotic translation elongation factor 1
+complex.
+the i-kappab kinase/ xxxg1559xxx  cascade is activated by a
+wide range of cellular toxicants such as cytokines, reactive
+oxygen species (ros), uv radiation, and many others.
+i-kappab kinase, an inhibitor of  xxxg1559xxx , is phosphorylated
+in the event of cellular challenge. the phosphorylation marks
+the i-kappab proteins for proteolysis via the ubiquitination
+pathway, allowing activation of the  xxxg1559xxx  complex.
+ xxxg1559xxx , a nuclear receptor, translocates to the nucleus
+where it binds to  xxxg1559xxx  response elements in the
+regulatory regions of inducible genes, the expression of which
+help protect the cell from apoptosis. this gene cluster included
+sqstm1, birc2, eef1d,  xxxg1062xxx ,  xxxg1321xxx , and tnfrsf10b.
+oxidative phosphorylation is the main method of energy
+production in the cell, using a high-energy electron passed
+through several respiratory enzyme complexes that pump h+
+out of the inner membrane of the mitochondria. this proton
+gradient is used by atp synthase to form atp from adp and
+phosphate. atp is essential to the completion of energetically
+unfavorable chemical reactions in the cell. the genes
+represented in this ontology group include the last three
+enzymes in the electron transport chain (rfk, bcs1l,  xxxg498xxx )
+and a two subunits of atp synthase (atp5k and  xxxg217xxx ).
+the eukaryotic translation elongation factor 1 complex
+ontology cluster consisted of eef1a2 and eef1d. these
+elongation factors control the recruitment of amino-acylated
+trna to the ribosome and regulate the translocation of the
+growing polypeptide (hershey, 1991). elongation factor 1a,
+one of the most abundant proteins in the cell is also involved in
+cytoskeleton organization (condeelis, 1995).
+an evaluation of the relationship between the genes in the
+first two ontology groups suggests a clear pathway for cellular
+damage and response to this damage. downregulation of the
+enzymes in the electron transport chain compromises oxidative
+phosphorylation, reducing available atp, and perhaps more
+importantly, causes reactive oxygen species (ros) spilling,
+primarily consisting of superoxide anions into the cell. as these
+ros overwhelm the cell’s antioxidant capabilities, oxidative
+stress ensues. ros disrupt cells through two main pathways:
+physical damage, and altered cellular signaling. in addition,
+damage from ros may initiate a feedback loop, causing
+continued cellular damage. the genes from the i-kappab
+kinase/ xxxg1559xxx  cascade were upregulated, and may indicate
+an attempt by the cell to ameliorate the damage induced by the
+ros. the most highly upregulated gene observed in the e8:15
+neural tube array was the anti-oxidant  xxxg1062xxx  (heme
+oxygenase), which is considered to be the hallmark of arsenic
+exposure. it has been proposed that damage to proteins induces
+heat shock proteins 40 and 70 (hsp40 and hsp70). when
+damaged proteins overwhelm the cell’s ability to stabilize or
+degrade them, the sequestosome-ubiquitin sequestration system is induced, which isolates damaged proteins from the
+cytosol for later proteolysis. microarray evidence suggests this
+scenario may be occurring in our model.
+arsenic can exert its toxic effect via several pathways: as a
+phosphate analog it interferes with phosphorylation reactions
+
+555
+
+and competes with phosphate in atp formation, through
+reactions with enzyme sulfhydryl groups it can inhibit many
+biochemical cell processes. there has been increasing evidence
+that arsenic toxicity is associated with free radical generation
+and that oxidative stress might be responsible for observed
+adverse effects. ros not only can cause dna and protein
+damage but also cellular lipid peroxydation. additionally they
+can serve as signaling molecules in the pathway leading to cell
+apoptosis (shi et al., 2004). results of our study seem to
+endorse that arsenic exerts its toxic effect via oxidative stress
+pathways. analysis of gene expression in the neural tube of
+arsenic exposed embryos indicated that there was a significant
+dysregulation in a group of genes directly involved in the
+mitochondrial process of energy production. disruption of this
+process leads to uncoupled oxidative phosphorylation, which
+ultimately causes oxidative stress. analysis of microarrays also
+showed that arsenic strongly activated the i-kappab kinase/ xxxg1559xxx  cascade which in turn launched several early response
+genes in response to oxidative stress. additionally, besides
+confirming  xxxg1062xxx  as a main marker gene of acute arsenic
+intoxication we revealed for the first time new target genes
+changed in expression by arsenic caused disruption of the
+oxidative phosphorylation process.
+acknowledgements
+the authors thank ms. michelle merriweather and ms.
+melissa scott for their care of the research animals. this work
+was supported in part by grants es04917, p30es09106 from
+the national institutes of health, and epa grant number
+83068401. the contents of this manuscript are solely the
+responsibility of the authors and do not necessarily represent
+the official views of the niehs, nih.
+references
+agency for toxic substances and disease registry. cercla priority list of
+hazardous substances; 2005. http://www.atsdr.cdc.gov/clist.html.
+akay c, thomas c, gazitt y.  xxxd226xxx  and paclitaxel induce apoptosis
+by different mechanisms. cell cycle 2004;3(3):324–34.
+aposhian hv, zakharyan ra, avram md, kopplin mj, wollenberg ml.
+oxidation and detoxification of trivalent arsenic species. toxicol appl
+pharmacol 2003;193:1–8.
+aposhian vh, zakharyan ra, avram md, sampayo-reyes a, wollenberg ml.
+a review of the enzymology of arsenic metabolism and a new potential role
+of  xxxd2298xxx  in the detoxication of the trivalent arsenic species.
+toxicol appl pharmacol 2004;198:327–35.
+armstrong cw, stroube rb, rubio t, siudyla ea, miller gb. outbreak of fatal
+arsenic poisoning caused by contaminated drinking water. arch environ
+health 1984;39:276–9.
+aschengrau a, zierler s, cohen a. quality of community drinking water and the
+occurrence of spontaneous abortion. arch environ health 1989;44:283–90.
+augustine ka, liu et, sadler tw. antisense inhibition of engrailed genes in
+mouse embryos reveals roles for these genes in craniofacial and neural tube
+development. teratology 1995;51(5):300–10.
+barber rc, bennett gd, greer ka, finnell rh. expression patterns of folate
+binding proteins one and two in the developing mouse embryo. mol genet
+metab 1999;66:31–9.
+baxley mn, hood rd, vedel gc, harrison wp, szczech gm. prenatal toxicity
+of orally administered sodium arsenite in mice. bull environ contam
+toxicol 1981;26:749–56.
+
+556
+
+b.j. wlodarczyk et al. / neurotoxicology 27 (2006) 547–557
+
+beckman l, nordstrom s. ocupational and environmental risks in and around a
+smelter in northern sweden. ix. fetal mortalities among wives of smelter
+workers. hereditas 1982;97:1–7.
+bolliger ct, van zijl p, louw ja. multiple organ failure with the adult
+respiratory distress syndrome in homicidal arsenic poisoning. respiration
+1992;59:57–61.
+borzsonyi m, bereczky a, rudna p, csanady m, horvath a. epidemiological
+studies on human subjects exposed to arsenic in drinking water in southeast
+hungary. arch toxicol 1992;66:77–8.
+brown jg, ross gl. arsenic, drinking water, and health: a position paper of the
+american council on science and health. regul toxicol pharmacol
+2002;36:162–74.
+carter de, aposhian hv, gandolfi aj. the metabolism of inorganic arsenic
+oxides, gallium arsenide, and arsine: a toxicochemical review. toxicol appl
+pharmacol 2003;193:309–34.
+chacko g, ling q, hajjar k. induction of acute translational response genes by
+homocysteine. j biol chem 1998;273(31):19840–6.
+chaineau e, binet s, pol d, chatellier g, meininger v. embryotoxic effects of
+sodium arsenite and sodium arsenate on mouse embryos in culture. teratology 1990;41:105–12.
+chan w, ng t, wu p, yeung h. developmental toxicity and teratogenicity of
+trichosanthin, a ribosome-inactivating protein, in mice. teratog carcinog
+mutagen 1993;13(2):47–57.
+chan w, ng t, yeung h. differential abilities of the ribosome inactivating
+proteins luffaculin, luffins and momorcochin to induce abnormalities in
+developing mouse embryos in vitro. gen pharmacol 1994;25(2):363–7.
+concha g, vogler g, lezcano d, nermell b, vahter m. exposure to inorganic
+arsenic metabolites during early human development. toxicol sci 1998;44:
+185–90.
+condeelis j. elongation factor 1a, translation and the cytoskeleton. trends
+biochem sci 1995;20(5):169–70.
+conway k, mcconnell b, bowring c, donald c, warren s, vertino p. tms1, a
+novel proapoptotic caspase recruitment domain protein, is a target of
+methylation-induced gene silencing in human breast cancers. cancer res
+2000;60(22):6236–42.
+depaepe v, suarez-gonzalez n, dufour a, passante l, gorski j, jones k, et al.
+ephrin signalling controls brain size by regulating apoptosis of neural
+progenitors. nature 2005;435(7046):1244–50.
+desesso jm. teratogen update: inorganic arsenic. teratology 2001;63:170–3.
+desesso jm, jacobson cf, scialli ar, farr ch, holson jf. an assessment of
+the developmental toxicity of inorganic arsenic. reprod toxicol 1998;12:
+389–433.
+eastman nj, dippel al. the passage of arsenic through the human placenta
+following arsphenamine therapy. bull johns hopkins hospital 1933;53:
+288–97.
+eberwine j, yeh h, miyashiro k, cao y, nair s, finnell r, et al. analysis of
+gene expression in single live neurons. proc natl acad sci usa 1992;89:
+3010–4.
+ferm vh. arsenic as a teratogenic agent. environ health perspect 1977;19:
+215–7.
+golub ms, macintosh ms, baumrind n. developmental and reproductive
+toxicity of inorganic arsenic: animal studies and human concerns. j toxicol
+environ health b crit rev 1998;1:199–241.
+hershey jw. translational control in mammalian cells. annu rev biochem
+1991;60:717–55.
+holson jf, desesso jm, jacobson cf, farr hf. appropriate use of animal
+models in the assessment of risk during prenatal development: an illustration using inorganic arsenic. teratology 2000;62:51–71.
+hood rd, harrison wp. effects of prenatal arsenite exposure in the hamster.
+bull environ contam toxicol 1982;29:671–8.
+hood rd, thacker gt, patterson bl, szczech gm. prenatal effects of oral
+versus intraperitoneal sodium arsenate in mice. j environ pathol toxicol
+1978;1:857–64.
+hunter es, dix d. heat shock proteins hsp70-1 and hsp70-3 are necessary and
+sufficient to prevent arsenite-induced dysmorphology in mouse embryos.
+mol reprod dev 2001;59:285–93.
+
+icps, international programme on chemical safety. world health organization report, environmental health criteria monographs (18), arsenic;
+1981. http://www.inchem.org/documents/jecfa/jecmono/v18je17.htm.
+icps, international programme on chemical safety. world health organization report, inorganic arsenic compounds other than arsine, health and
+safety guide no 70; 1992 http://www.inchem.org/documents/hsg/hsg/
+hsg070.htm.
+icps, international programme on chemical safety. world health organization report, environmental health criteria monographs (224), arsenic and
+arsenic compounds; 2001 http://www.inchem.org/documents/ehc/ehc/
+ehc224.htm.
+ihrig mm, shalat sl, baynes c. a hospital-based case-control study of
+stillbirth and environmental exposure to arsenic using an atmospheric
+dispersion model linked to a geographical information system. epidemiology 1998;9:290–4.
+le xc, ma m, cullen wr, aposhian hv, lu x, zheng b. determination of
+monomethylarsonous acid, a key arsenic methylation intermediate, in
+human urine. environ health perspect 2000;108:1015–8.
+liu j, kadiiska m, liu y, lu t, qu w, waalkes m. stress-related gene
+expression in mice treated with inorganic arsenicals. toxicol sci
+2001;61(2):314–20.
+liu q, kishi h, ohtsuka k, muraguchi a. heat shock protein 70 binds caspaseactivated dnase and enhances its activity in tcr-stimulated t cells. blood
+2003;102(5):1788–96.
+lugo g, cassady g, palmoisano p. acute maternal arsenic intoxication with
+neonatal death. am j dis child 1969;117:328–30.
+mandal bk, ogra y, suzuki kt. identification of dimethylarsinous and
+monomethylarsonous acids in human urine of the arsenic-affected areas
+in west bengal, india. chem res toxicol 2001;14:371–8.
+mcconnell b, vertino p. activation of a caspase-9-mediated apoptotic pathway
+by subcellular redistribution of the novel caspase recruitment domain
+protein tms1. cancer res 2000;60(22):6243–7.
+mic fa, haselbeck rj, cuenca ae, dester g. novel  xxxd3417xxx  generating
+activities in the neural tube and heart identified by conditional rescue of
+ xxxg128xxx  null mutant mice. development 2002;129(9):2271–82.
+mirkes pe, cornel l. a comparison of sodium arsenite- and hyperthermiainduced stress responses and abnormal development in cultured postimplantation rat embryos. teratology 1992;46:251–9.
+mitchell le. epidemiology of neural tube defects. am j med genet
+2005;135c:88–94.
+morrissey re, mottet nk. arsenic-induced exencephaly in the mouse and
+associated lesions occurring during neurulation. teratology 1983;28:399–
+411.
+nagymajtenyi l, selypes a, berencsi g. chromosomal aberrations and fetotoxic effects of atmospheric arsenic exposure in mice. j appl toxicol
+1985;5:61–3.
+nemec md, holson jf, farr ch, hood rd. developmental toxicity assessment
+of arsenic acid in mice and rabbits. reprod toxicol 1998;12:647–58.
+nordstrom s, beckman l, nordenson i. occupational and environmental risks
+in and around a smelter in northern sweden. i. variations in birth weight.
+hereditas 1978a;88:43–6.
+nordstrom s, beckman l, nordenson i. occupational and environmental risks
+in and around a smelter in northern sweden. iii. frequencies of spontaneous
+abortion. hereditas 1978b;88:51–4.
+nordstrom s, beckman l, nordenson i. occupational and environmental risks
+in and around a smelter in northern sweden. v. spontaneous abortion among
+female employees and decreased birth weight in their offspring. hereditas
+1979a;90:291–6.
+nordstrom s, beckman l, nordenson i. occupational and environmental risks
+in and around a smelter in northern sweden. vi. congenital malformations.
+hereditas 1979b;90:297–302.
+oh hs, kwon h, sun s, yang c. qm, a putative tumor suppressor, regulates
+proto-oncogene  xxxg2437xxx . j biol chem 2002;277(39):36489–98.
+petrick js, jagadish b, mash ea, aposhian hv. monomethylarsonous acid
+(mma(iii)) and arsenite: ld(50) in hamsters and in vitro inhibition of
+pyruvate dehydrogenase. chem res toxicol 2001;14:651–6.
+
+b.j. wlodarczyk et al. / neurotoxicology 27 (2006) 547–557
+piedrahita ja, oetama b, bennett gd, van waes j, kamen ba, richardson j, et
+al. mice lacking the  xxxd2146xxx -binding protein folbp1 are defective in early
+embryonic development. nat genet 1999;23:228–32.
+rasouli ml, nasir k, blumenthal rs, park r, aziz dc, budoff mj. plasma
+homocysteine predicts progression of atherosclerosis. atherosclerosis
+2005;181(1):159–65.
+ratnam m, marquardt h, duhring jl, freisheim jh. homologous membrane
+folate binding proteins in human placenta: cloning and sequence of a cdna.
+biochemistry 1989;28:8249–54.
+ross jf, chaudhuri pk, ratnam m. differential regulation of  xxxg807xxx 
+isoforms in normal and malignant tissues in vivo and in established cell
+lines. physiologic and clinical implications. cancer 1994;73:2432–43.
+shalat sl, walker db, finnell rh. role of arsenic as a reproductive toxin with
+particular attention to neural tube defects. j toxicol environ health
+1996;48:253–72.
+shi h, shi x, liu kj. oxidative mechanism of arsenic toxicity and carcinogenesis. mol cel biochem 2004;255:67–78.
+shimizu s, narita m, tsujimoto y. bcl-2 family proteins regulate the release of
+apoptogenic  xxxg569xxx  by the mitochondrial channel  xxxg2409xxx . nature
+1999;399:483–7.
+shriver sp, shriver md, tirpak dl, bloch lm, hunt jd, ferrell re, et al.
+trinucleotide repeat length variation in the human ribosomal protein l14
+gene (rpl14): localization to 3p21.3 and loss of heterozygosity in lung and
+oral cancers. mutat res 1998;406(1):9–23.
+snell gd, fekete e, hummel kp. the relation of mating, ovulation and the
+estrus smear in the house mouse to the time of day. anat rec 1948;76:30–
+54.
+spiegelstein o, lu x, le xc, troen a, selhub j, melnyk s, et al. effects of
+dietary folate intake and  xxxg807xxx -2 (folbp2) on urinary
+speciation of sodium arsenate in mice. environ pharmacol toxicol
+2005;19:1–7.
+splaver a, lamas ga, hennekens ch. homocysteine and cardiovascular
+disease: biological mechanisms, observational epidemiology, and the need
+for randomized trials. am heart j 2004;148(1):34–40.
+
+557
+
+susin s, lorenzo h, zamzami n, marzo i, snow b, brothers g, et al. molecular
+characterization of mitochondrial apoptosis-inducing factor. nature
+1999;397(6718):441–6.
+tabacova s, baird dd, balabaeva l, lolova d, petrov i. placental arsenic and
+cadmium in relation to lipid peroxides and glutathione levels in maternalinfant pairs from copper smelter area. placenta 1994;15:873–81.
+tabocova s, hunter es 3rd, gladen bc. developmental toxicity of inorganic
+arsenic in whole embryo: culture oxidation state, dose, time, and gestational
+age dependence. toxicol appl pharmacol 1996;138:298–307.
+tallquist m, soriano p. cell autonomous requirement for  xxxg1709xxx  in populations
+of cranial and cardiac neural crest cells. development 2003;130:507–18.
+usphs department of health and human services, agency for toxic substances and disease registry. toxicological profile for arsenic; 2000. http://
+www.atsdr.cdc.gov/toxprofiles/ xxxg2261xxx .pdf.
+willhite cc, ferm vh. prenatal and developmental toxicology of arsenicals.
+adv exp med biol 1984;177:205–28.
+wlodarczyk bj, bennett gd, calvin ja, finnell rh. arsenic-induced neural
+tube defects in mice: alterations in cell cycle gene expression. reprod
+toxicol 1996;10:447–54.
+wlodarczyk bj, spiegelstein o, gelineau-van waes j, vorce rl, lu x, le cx,
+et al. arsenic-induced congenital malformations in genetically susceptible
+ xxxg807xxx -2 knockout mice. toxicol appl pharmacol 2001;177:
+238–46.
+zeeberg br, feng w, wang g, wang md, fojo at, sunshine m, narasimhan s,
+kane dw, reinhold wc, lababidi s, bussey kj, riss j, barrett jc,
+weinstein jn. gominer: a resource for biological interpretation of genomic
+and proteomic data. genome biology; 2003. http://www.genomebiology.com/2003/4/4/r28.
+zelikoff jt, bertin je, burbacher tm, hunter es, miller rk, silbergeld ek, et
+al. health risks associated with prenatal metal exposure. fundam appl
+toxicol 1995;25:161–70.
+zierler s, theodore m, cohen a, rothman kj. chemical quality of maternal
+drinking water and congenital heart disease. int j epidemiol 1988;17:
+589–94.
+

@@ -1,0 +1,718 @@
+ xxxd1100xxx – xxxd1107xxx  nucleic acids research, 2012, vol. 40, database issue
+doi:10.1093/nar/gkr777
+
+published online 23 september 2011
+
+chembl: a large-scale bioactivity database for
+drug discovery
+anna gaulton1, louisa j. bellis1, a. patricia bento1, jon chambers1, mark davies1,
+anne hersey1, yvonne light1, shaun mcglinchey1, david michalovich2,
+bissan al-lazikani3 and john p. overington1,*
+1
+
+embl-european bioinformatics institute, wellcome trust genome campus, hinxton, cambridgeshire, cb10
+1sd, 2david michalovich scientific consulting, london and 3cancer research uk cancer therapeutics unit,
+institute of cancer research, 15 cotswold road, belmont, surrey, sm2 5ng, uk
+
+received august 15, 2011; accepted september 5, 2011
+
+chembl is an open data database containing binding, functional and admet information for a large
+number of drug-like bioactive compounds. these
+data are manually abstracted from the primary published literature on a regular basis, then further
+curated and standardized to maximize their quality
+and utility across a wide range of chemical biology
+and drug-discovery research problems. currently,
+the database contains 5.4 million bioactivity measurements for more than 1 million compounds and
+5200 protein targets. access is available through a
+web-based interface, data downloads and web services at: https://www.ebi.ac.uk/chembldb.
+introduction
+a wealth of information on the activity of small molecules
+and biotherapeutics exists in the literature, and access to
+this information can enable many types of drug discovery
+analysis and decision making. for example: selection
+of tool compounds for probing targets or pathways of
+interest; identiﬁcation of potential off-target activities of
+compounds which may pose safety concerns, explain
+existing side effects or suggest new applications for old
+compounds; analysis of structure–activity relationships
+(sar) for a compound series of interest; assessment of
+in vivo absorption, distribution, metabolism, excretion
+and toxicity (admet) properties; or construction of predictive models for use in selection of compounds potentially active against a new target (1–5). access to this
+information is especially important due to the continuing
+shift in fundamental research on disease mechanisms from
+the private to public sectors.
+
+however, bioactivity data published in journal articles
+are usually found in a relatively unstructured format and
+are labour-intensive to search and extract. for example,
+compound structures are frequently depicted only as
+images and are not therefore searchable, protein targets
+may be referred to by a variety of synonyms or abbreviations with no reference to any database identiﬁers, and
+details of assays may be included only in supplementary
+data or by reference to previous publications. in addition,
+there is not currently any requirement by most journals for
+authors to deposit small-molecule assay results in public
+databases (as is the case for sequence, protein structure
+and gene expression data). historically, therefore, the
+majority of the published small-molecule bioactivity data
+have only been readily available via commercial products.
+in recent years, in response to the growing demand for
+open access to this kind of information, a variety of
+public-domain bioactivity resources have been developed.
+pubchem bioassay (6) and chembank (7) are large
+archival databases providing access to millions of deposited screening results, typically from high-throughput
+screening (hts) experiments. a number of other primary
+resources extract bioactivity data from literature, but tend
+to focus on particular thematic areas, and primarily on
+binding afﬁnity information. for example, bindingdb
+contains quantitative binding constants manually extracted from publications, focusing chieﬂy on proteins that
+are considered to be potential drug targets (8). pdbbind
+(9), binding moad (10) and afﬁndb (11) contain binding afﬁnity information for protein–ligand complexes
+found in the protein data bank (pdb, 12). pdsp ki
+database stores screening data from the national
+institute of mental health’s psychoactive drug
+screening program (13). brenda provides binding constants for enzymes (14), iuphar contains ligand information for receptors and ion channels (15), while glida
+
+*to whom correspondence should be addressed. tel: + 44 (0) 1223 492 666; fax: + 44 (0) 1223 494 468; email: jpo@ebi.ac.uk
+ß the author(s) 2011. published by oxford university press.
+this is an open access article distributed under the terms of the creative commons attribution non-commercial license (http://creativecommons.org/licenses/
+by-nc/3.0), which permits unrestricted non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited.
+
+downloaded from http://nar.oxfordjournals.org/ at stanford university on may 3, 2012
+
+abstract
+
+nucleic acids research, 2012, vol. 40, database issue
+
+data content
+data extraction and curation
+the core activity data in the chembl database are
+manually extracted from the full text of peer-reviewed scientiﬁc publications in a variety of journals, such as journal
+of medicinal chemistry, bioorganic medicinal chemistry
+letters and journal of natural products. the set of journals covered is by no means comprehensive, but is selected
+to capture the greatest quantity of high-quality data in a
+cost, and time-effective manner. from each publication,
+details of the compounds tested, the assays performed and
+any target information for these assays are abstracted.
+structures for small molecules are drawn in full, in
+machine-readable format, despite the structure often being
+provided as a scaffold and a list of r-group substituents,
+or referred to only by name in the original publication.
+information about the particular salt form tested is also
+captured, where available, although this is often inconsistent in the literature. before loading to the database, structures are checked for potential problems (e.g. unusual
+valence on atoms, incorrect structures for common compounds/drugs), then normalized according to a set of
+rules, to ensure consistency in representation (e.g. compounds are neutralized by protonating/deprotonating
+acids and bases to ensure a formal charge of zero where
+possible). preferred representations are used for certain
+common groups (e.g. sugars, sulphoxides and nitroxides).
+some chemical structures are typically only reported in an
+implicit format, and this is checked and assigned on registration—for example, the stereochemistry of the steroid
+framework is invariably not published, but is assumed to
+be that of the naturally occurring conﬁguration, unless
+otherwise deﬁned. common salts are also stripped from
+the extracted compounds, and both the salt form and the
+parent compound are entered into the database. this
+allows users to view all data associated with the same parent compound, regardless of the salt form tested, while
+still retaining the salt information if required.
+
+details of all types of assays performed are extracted
+from each publication, including binding assays (measuring the interaction of the compound with the target
+directly), functional assays (often measuring indirect effects of the compound on a pathway, system or whole
+organism) and admet assays (measuring pharmacokinetic properties of the compound, interaction with key
+metabolic enzymes or toxic effects on cells/tissues). the
+activity endpoints measured in these assays are recorded
+with the values and units as given in the paper, but for the
+purposes of improved querying are also standardized,
+where possible, to convert them to a preferred unit of
+measurement for a given activity type (e.g. ic50 values
+are displayed in nm, rather than mm/mm/m, half-life is
+reported in hours rather than minutes/days/weeks). this
+enables the user to more easily compare data across different assays.
+to maximize the utility of bioactivity data, the targets
+of assays need to be represented robustly and consistently,
+in a manner independent of the various adopted names
+and synonyms used across different sources. to this end,
+detailed manual annotation of targets is carried out within
+chembl. where the intended molecular target of an
+assay is reported in a publication, this information is extracted, together with associated details of the relevant organism in which the assay was performed (or the organism
+from which the protein/cell-line was derived for an in vitro
+assay). target assignments are carefully checked by our
+curators, and corrected where necessary, then further
+annotated where any ambiguity exists. for example, for
+an in vitro binding assay, it is often possible to determine
+the precise protein target with which the compound is
+interacting and assign a single relevant protein to the
+assay. however, in other cases this may not be possible.
+for example, an assay may describe interaction of a
+compound with a target which is known to be a protein/
+biomolecular complex (e.g. ribosomes, gaba-a receptors or integrins). in this case, several protein subunits
+may be assigned to the assay, but a ‘complex’ ﬁeld in
+the database is used to record the fact that these
+proteins are associated as a speciﬁc protein complex. in
+other cases, the assay performed may not allow elucidation of the precise protein subtypes with which a
+compound is interacting (e.g. cell/tissue-based assays
+where several closely related subtypes of the protein are
+likely to be expressed, or those reported prior to the discovery of particular receptor/enzyme subtypes). again,
+the assay may therefore be mapped to each of the possible
+protein targets, but a ‘multi’ ﬁeld in the database records
+the fact that it is not clear whether the compound is interacting non-speciﬁcally with all of these proteins, and consequently less conﬁdence should be placed in these
+assignments.
+in many cases, such as whole organism-based phenotypic assays, it is not possible to unambiguously determine
+the protein target that is responsible for the observed
+effect of the compound. in these cases, the assay will be
+mapped to a chembl target representing the nonmolecular system on which an effect is observed. for
+example, an assay measuring the cytotoxicity of a
+compound against the human breast carcinoma-derived
+
+downloaded from http://nar.oxfordjournals.org/ at stanford university on may 3, 2012
+
+(16) and gpcrdb (17) provide information speciﬁcally
+for g-protein-coupled receptors. other resources, such
+as drugbank, provide detailed annotation around
+the properties and mechanism of action of approved
+drugs (18).
+however, in order to make informed decisions in drug
+discovery or to design experiments to probe a biological
+system with chemical tools, it is important to consider not
+only the binding afﬁnity of a compound for its target, but
+also its selectivity, efﬁcacy in functional assays or disease
+models and the likely admet properties of the compound. moreover, researchers need the ability to intelligently cluster relevant information across studies (based
+on target or compound similarities, for example) and to
+integrate data across therapeutic areas. chembl aims to
+bridge this gap by providing broad coverage across a
+diverse set of targets, organisms and bioactivity measurements reported in the scientiﬁc literature, together with a
+range of user-friendly search capabilities (19).
+
+ xxxd1101xxx 
+
+ xxxd1102xxx  nucleic acids research, 2012, vol. 40, database issue
+
+approved drugs
+in addition to literature-derived data, chembl also contains structures and annotation for food and drug
+administration (fda)-approved drugs. for each drug
+entry, any information about approved products (from
+the fda orange book, 21) including their trade names,
+administration routes, dosage information and approval
+dates is included in the database. structures for novel drug
+ingredients are manually assigned, and for protein therapeutics, amino-acid sequences may be included, where
+available. each drug is also annotated according to the
+drug type (synthetic small molecule, natural productderived small molecule, antibody, protein, oligosaccharide, oligonucleotide, inorganic etc.), whether there are
+‘black box’ safety warnings associated with a product
+containing that active ingredient, whether it is a known
+prodrug, the earliest approval date (where known),
+whether it is dosed as a deﬁned single stereoisomer or
+racemic mixture, and whether it has a therapeutic application (as opposed to imaging/diagnostic agents, additives
+etc.). this information allows users of the bioactivity data
+to assess whether a compound of interest is an approved
+drug and is therefore likely to have an advantageous
+safety/pharmacokinetic proﬁle or be orally bioavailable,
+for example.
+data model
+the most important entity types within chembl are
+documents (from which the data are extracted), compounds (substances that have been tested for their bioactivity), assays (individual experiments that have been
+carried out to assess bioactivity) and targets (the proteins
+or systems being monitored by an assay). each extracted
+document has a list of associated compound records and
+assays, which are linked together by activities (i.e. the
+actual endpoints measured in the assay with their types,
+values and units).
+since the same compound may have been tested multiple
+times in different assays and publications, the compound
+records are collapsed, based on structure, to form a nonredundant molecule dictionary. standard iupac
+chemical identiﬁer (inchi) representation (22) is used to
+
+determine which compounds are identical and which
+should be registered with new identiﬁers. in general, the
+standard inchi representation distinguishes stereoisomers
+of a compound, but not tautomers. hence, stereoisomers
+will be given unique identiﬁers, but tautomers will not. we
+have taken the view that although a particular binding
+interaction may involve a speciﬁc ionization or tautomer
+state, in a biological assay, there will be interconversion
+and equilibration across these forms. a smaller number of
+protein therapeutics and substances with undeﬁned structures are also included in the molecule dictionary.
+additional information is then associated with the
+entries in this table, such as structure representations,
+calculated properties, synonyms, drug information and
+parent–salt relationships.
+similarly, a non-redundant target dictionary stores a list
+of the proteins, nucleic acids, subcellular fractions,
+cell-lines, tissues and organisms that are subject to investigation. each assay is then mapped to one or more entries
+in this dictionary, as described above. further information, such as protein family classiﬁcation, is also linked
+to the target dictionary.
+each record in the documents, assays, molecule dictionary
+and target dictionary tables is assigned a unique chembl
+identiﬁer, which takes the form of a ‘chembl’ preﬁx
+followed immediately by an integer (e.g.  xxxd234xxx  is
+the compound aspirin, chembl210 is the human b-2
+adrenergic receptor target). in addition, external identiﬁers are recorded for these entities where possible. for
+example, all small molecule compounds with deﬁned structures are assigned chebi identiﬁers (23) and standard
+inchikeys. where data are taken from other resources,
+the original identiﬁers are also retained (e.g. sids and
+aids for pubchem substances and assays, het codes
+for pdbe ligands). pubmed identiﬁers or digital object
+identiﬁers (dois) are stored for documents (20,24).
+protein targets are represented by primary accessions within the uniprot protein database (25), and organism targets
+are assigned ncbi taxonomy ids and names.
+data exchange
+the pubchem bioassay database accepts deposited results
+from many laboratories and screening centres and contains
+a large quantity of data, primarily from high-throughput
+screening experiments, measuring inhibition of a target by
+large numbers of compounds, often at a single compound
+concentration. as such, the number of data points within
+pubchem is huge, but a very small proportion of these
+represent compounds with dose–response measurements
+(e.g. ic50, ki) of an afﬁnity likely to speciﬁcally perturb
+a biological system. in contrast, due to extraction from
+published pharmacology and drug discovery literature,
+chembl contains a much larger proportion of active
+compounds identiﬁed using dose–response assays. the
+number of distinct protein targets with dose–response
+measurements recorded in pubchem is also smaller (currently fewer than 700 proteins, compared with more than
+4000 in chembl). however, there are also novel protein
+targets in pubchem that are not currently included in
+chembl. therefore, the types of data reported in
+
+downloaded from http://nar.oxfordjournals.org/ at stanford university on may 3, 2012
+
+mcf-7 cells would be mapped to a chembl cell-line
+target representing mcf-7. an in vitro assay measuring
+inhibition of growth of mycobacterium tuberculosis would
+be mapped to a chembl organism target representing
+m. tuberculosis. this allows users to easily retrieve information about other assays performed on the same systems,
+even though the underlying mechanism of action of the
+compounds might be different. protein targets are further
+classiﬁed into a manually curated family hierarchy,
+according to nomenclature commonly used by drug
+discovery scientists (e.g. ligand-based classiﬁcation of
+g-protein-coupled receptors, division of enzymes into
+proteases/kinases/phosphatases etc.), and organisms are
+classiﬁed according to a simpliﬁed subset of the ncbi
+taxonomic structure (20). this also allows data to be
+queried at a higher level (e.g. for all protein kinases or
+mycobacterium species).
+
+nucleic acids research, 2012, vol. 40, database issue
+
+pubchem and chembl are distinct and complementary.
+to maximise the utility of the two data sets to users, we
+have worked with the pubchem group to develop a data
+exchange mechanism. all chembl literature-derived
+assays are now included in pubchem bioassay, and a
+subset of pubchem assays (conﬁrmatory and panel assays
+with dose–response endpoints) have been loaded into
+chembl. assays from pubchem are clearly marked,
+both on the chembl interface and in the database, allowing users to easily determine where data have originated,
+while beneﬁting from being able to retrieve more information through a single point of access.
+similarly, compounds and binding measurements from
+chembl have been integrated into bindingdb, and the
+reciprocal incorporation of bindingdb data into
+chembl is planned.
+
+release 11 of the chembl database contains information extracted from more than 42 500 publications,
+together with several deposited datasets, and data drawn
+from other databases (table 1). in total, there are more
+than 1 million distinct compound structures represented
+in the database, with 5.4 million activity values from more
+than 580 000 assays. these assays are mapped to 8200
+targets, including 5200 proteins (of which 2388 are
+human).
+data access
+the chembl interface
+the chembl database is accessible via a simple, userfriendly interface at: https://www.ebi.ac.uk/chembldb.
+this interface allows users to search for compounds, targets or assays of interest in a variety of ways.
+for example, users wishing to retrieve potential tool
+compounds for a target of interest can perform a
+keyword search of the database using a protein name,
+synonym, uniprot accession or chembl target identiﬁer
+of interest. alternatively, targets can be browsed according to protein family (e.g. to retrieve all chemokine receptors), or organism (e.g. to retrieve all plasmodium
+falciparum
+targets).
+since
+the
+database
+only
+
+includes protein targets for which bioactivity data are
+available, users can also perform a blast search of the
+chembl target dictionary with a protein sequence of
+interest. this can be useful to identify closely related
+proteins with activity data, even if the sequence of
+interest is not represented in the database (e.g. activity
+data for a mouse orthologue of a human target).
+having retrieved a target, or multiple targets, of interest,
+a simple drop-down menu allows users to display all
+associated bioactivity data, or to ﬁlter the available data
+to select activity types of interest (for example to include
+only ic50 and ki measurements below a given concentration threshold, or only certain admet endpoints, see
+supplementary figure 1). the resulting bioactivity table
+gives details of each compound that was tested (together
+with the particular salt form used in the assay), the
+measured activity type, value and units, a description of
+the assay, details of the target (including the organism)
+and, importantly, a link to the publication from which
+the data have been extracted. data from this view can
+be exported as a text ﬁle or spread sheet for further
+analysis.
+alternatively, users may have a particular compound of
+interest and wish to retrieve potency, selectivity or
+admet information for this, or closely related compounds. again, users can search for compounds using a
+keyword search with names/synonyms or chembl identiﬁers. however, a more effective strategy will often be to
+search by compound structure. the interface provides a
+choice of several different drawing tools (26), allowing
+users to sketch in a structure or substructure of interest
+(figure 1). a compound similarity or substructure search
+of the database (implemented using the accelrys direct
+oracle cartridge: http://accelrys.com/products/informatics/cheminformatics/accelrys-direct.html) can then be
+carried out to retrieve chembl compounds similar to,
+or containing, the input structure.
+having retrieved a list of compounds of interest, a
+variety of calculated properties such as molecular
+weight, calculated lipophilicity (alogp, 27) and polar
+surface area (28) can be viewed and ﬁltered via a graphical
+display. this may be useful to restrict the set of compounds to those that are likely to have appropriate
+
+table 1. sources of compound and bioactivity data in chembl_11
+data source
+
+number of
+compound
+structures
+
+number of
+assays
+
+number of
+activity
+results
+
+number of
+targets
+
+number of
+protein
+targets
+
+number of
+organisms
+
+chembl literature extraction
+pubchem bioassaya
+gsk tcams malaria data (32)
+pdbe ligands
+novartis-gnf malaria data (33)
+st jude children’s hospital malaria datab (34)
+guide to receptors and channels (35)
+sanger institute genomics of drug sensitivity in cancer
+
+629 943
+364 203
+13 467
+12 337
+5675
+1524
+560
+17
+
+580 624
+1636
+6
+0
+4
+16
+344
+352
+
+3 282 945
+2 079 974
+81 198
+0
+22 788
+5456
+801
+5984
+
+7 957
+681
+3
+0
+3
+8
+239
+352
+
+5104
+647
+0
+0
+0
+0
+239
+0
+
+1552
+63
+2
+0
+2
+5
+6
+1
+
+a
+
+pubchem bioassay set includes only conﬁrmatory/panel assays from pubchem that have dose–response end points.
+only compounds with dose-response measurements from the st jude malaria screening data set have been incorporated into chembl, but the full
+high-throughput screening data can be downloaded from the chembl-ntd website: https://www.ebi.ac.uk/chemblntd.
+b
+
+downloaded from http://nar.oxfordjournals.org/ at stanford university on may 3, 2012
+
+current content
+
+ xxxd1103xxx 
+
+ xxxd1104xxx  nucleic acids research, 2012, vol. 40, database issue
+
+downloaded from http://nar.oxfordjournals.org/ at stanford university on may 3, 2012
+
+figure 1. retrieving bioactivity data with a substructure search. a choice of sketchers allows the user to enter a structure of interest and search the
+database for compounds similar to, or containing that substructure (a). the resulting list of compounds can then be ﬁltered graphically, according to
+their physicochemical properties (e.g. calculated lipophilicity alogp and molecular weight) using the sliders and ‘update chart’ button (b). when a
+suitable compound set has been created, a drop-down menu allows the user to retrieve all relevant bioactivity results from the database, or ﬁlter the
+results further by activity type (c).
+
+nucleic acids research, 2012, vol. 40, database issue
+
+ xxxd1105xxx 
+
+downloaded from http://nar.oxfordjournals.org/ at stanford university on may 3, 2012
+
+figure 2. compound report card for  xxxd2109xxx  ( xxxd2109xxx ) showing synonyms, approved drug features (see supplementary figure 2),
+a link to retrieve clinical trial data, calculated compound properties and structure representations, and different salt forms of the molecule (in this
+case, a hydrochloride salt). the lower portion of the page has a series of clickable widgets, showing breakdown of the activity data for this
+compound by activity type (e.g. ic50, ec50), assay type (e.g. binding/functional/admet) or target type (e.g. enzyme, receptor). clicking on a
+portion of one of the pie charts takes the user directly to the relevant bioactivity results.
+
+drug-like properties (29), before retrieving or ﬁltering the
+associated bioactivity data.
+for each of the main data types in chembl (compounds, targets, assays and documents), report card
+pages are available. these provide further details about
+the entity of interest, such as names and synonyms (for
+
+targets and compounds), journal/abstract details (for
+documents), drug annotation, structures and calculated
+physicochemical properties (for compounds), together
+with cross-references to other resources (e.g. uniprot,
+pdbe, chebi, drugbank and citexplore: http://www
+.ebi.ac.uk/citexplore). each report card also contains a
+
+ xxxd1106xxx  nucleic acids research, 2012, vol. 40, database issue
+
+series of clickable graphical ‘widgets’ summarizing and
+providing rapid access to all of the bioactivity data available for that entity (figure 2).
+a table view of approved drugs is also provided, with
+relevant annotation (e.g. drug type, administration route,
+‘black box’ safety warnings) indicated by a series of
+sortable icons (see supplementary figure 2). users can
+download the structures for these drugs or go to report
+cards to access further information, such as bioactivity
+data.
+downloads and web services
+
+supplementary data
+supplementary data are available at nar online.
+
+acknowledgements
+we are grateful to former colleagues at inpharmatica ltd.,
+our data extractors, part-time curators and interns for
+their contributions to the database. we thank yanli
+wang and evan bolton for their assistance with the
+pubchem data integration. we also greatly appreciate
+and acknowledge the feedback from users on data
+content and organization of the database.
+
+funding
+a strategic award for chemogenomics from the
+wellcome trust [086151/z/08/z]; and the european
+molecular biology laboratory. funding for open access
+charge: european molecular biology laboratory.
+conﬂict of interest statement. none declared.
+
+1. paolini,g.v., shapland,r.h.b., van hoorn,w.p., mason,j.s. and
+hopkins,a.l. (2006) global mapping of pharmacological space.
+nat. biotechnol., 24, 805–815.
+2. mestres,j., gregori-puigjané,e., valverde,s. and solé,r.v. (2009)
+the topology of drug–target interaction networks: implicit
+dependence on drug properties and target families. mol. biosyst.,
+5, 1051–1057.
+3. wassermann,a.m. and bajorath,j. (2011) large-scale exploration
+of bioisosteric replacements on the basis of matched molecular
+pairs. future med. chem., 3, 425–436.
+4. papadatos,g., alkarouri,m., gillet,v.j., willett,p.,
+kadirkamanathan,v., luscombe,c.n., bravi,g., richmond,n.j.,
+pickett,s.d., hussain,j. et al. (2010) lead optimization using
+matched molecular pairs: inclusion of contextual information for
+enhanced prediction of herg inhibition, solubility, and
+lipophilicity. j. chem. inf. model., 50, 1872–1886.
+5. keiser,m.j., setola,v., irwin,j.j., laggner,c., abbas,a.i.,
+hufeisen,s.j., jensen,n.h., kuijer,m.b., matos,r.c., tran,t.b.
+et al. (2009) predicting new molecular targets for known drugs.
+nature, 462, 175–181.
+6. wang,y., bolton,e., dracheva,s., karapetyan,k.,
+shoemaker,b.a., suzek,t.o., wang,j., xiao,j., zhang,j. and
+bryant,s.h. (2010) an overview of the pubchem bioassay
+resource. nucleic acids res., 38,  xxxd255xxx – xxxd266xxx .
+7. seiler,k.p., george,g.a., happ,m.p., bodycombe,n.e.,
+carrinski,h.a., norton,s., brudz,s., sullivan,j.p., muhlich,j.,
+serrano,m. et al. (2008) chembank: a small-molecule screening
+and cheminformatics resource database. nucleic acids res., 36,
+ xxxd351xxx – xxxd359xxx .
+8. liu,t., lin,y., wen,x., jorissen,r.n. and gilson,m.k. (2007)
+bindingdb: a web-accessible database of experimentally
+determined protein-ligand binding afﬁnities. nucleic acids res.,
+35,  xxxd198xxx – xxxd201xxx .
+9. wang,r., fang,x., lu,y., yang,c. and wang,w. (2005) the
+pdbbind database: methodologies and updates. j. med. chem.,
+48, 4111–4119.
+10. benson,m.l., smith,r.d., khazanov,n.a., dimcheff,b.,
+beaver,j., dresslar,p., nerothin,j. and carlson,h.a. (2008)
+binding moad, a high-quality protein–ligand database.
+nucleic acids res., 36,  xxxd674xxx – xxxd678xxx .
+11. block,p., sotriffer,c.a., dramburg,i. and klebe,g. (2006)
+afﬁndb: a freely accessible database of afﬁnities for
+protein–ligand complexes from the pdb. nucleic acids res., 34,
+ xxxd522xxx – xxxd536xxx .
+12. velankar,s., alhroub,y., alili,a., best,c., boutselakis,c.h.,
+caboche,s., conroy,m.j., dana,j.m., van ginkel,g., golovin,a.
+et al. (2011) pdbe: protein data bank in europe.
+nucleic acids res., 39,  xxxd402xxx – xxxd410xxx .
+13. roth,b.l., kroeze,w.k., patel,s. and lopez,e. (2000) the
+multiplicity of serotonin receptors: uselessly diverse
+molecules or an embarrassment of riches? neuroscientist, 6,
+252–262.
+14. scheer,m., grote,a., chang,a., schomburg,i., munaretto,c.,
+rother,m., sohngen,c., stelzer,m., thiele,j. and schomburg,d.
+(2011) brenda, the enzyme information system in 2011.
+nucleic acids res., 39,  xxxd670xxx – xxxd676xxx .
+15. sharman,j.l., mpamhanga,c.p., spedding,m., germain,g.,
+staels,b., dacquet,c., laudet,v. and harmar,a.j. (2011).
+nc-iuphar. (2011) iuphar-db: new receptors and tools
+for easy searching and visualization of pharmacological data.
+nucleic acids res., 39,  xxxd534xxx – xxxd538xxx .
+16. okuno,y., yang,j., taneishi,k., yabuuchi,h. and tsujimoto,g.
+(2006) glida: gpcr-ligand database for chemical genomic
+drug discovery. nucleic acids res., 34,  xxxd673xxx – xxxd677xxx .
+17. horn,f., weare,j., beukers,m., horsch,s., bairoch,a., chen,w.,
+edvardsen,o., campagne,f. and vriend,g. (1998) gpcrdb:
+an information system for g protein-coupled receptors.
+nucleic acids res., 26, 275–279.
+18. knox,c., law,v., jewison,t., liu,p., ly,s., frolkis,a., pon,a.,
+banco,k., mak,c., neveu,v. et al. (2011) drugbank 3.0:
+a comprehensive resource for ‘omics’ research on drugs.
+nucleic acids res., 39,  xxxd1035xxx – xxxd1041xxx .
+
+downloaded from http://nar.oxfordjournals.org/ at stanford university on may 3, 2012
+
+while the chembl interface provides the functionality
+required for many common use-cases, some users may
+prefer to download the database and query it locally (for
+use in large-scale data mining, to integrate with their own
+proprietary data, or due to data security policies around
+the use of chemical structures at their institutions, for
+example). each release of chembl is freely available
+from our ftp site in a variety of formats, including
+oracle, mysql, an sd ﬁle of compound structures and
+a fasta ﬁle of the target sequences, under a creative
+commons attribution-sharealike 3.0 unported license
+(http://creativecommons.org/licenses/by-sa/3.0).
+in addition, a set of restful web services is provided
+(together with sample java, perl and python clients), to
+allow programmatic retrieval of chembl data in xml
+or json formats (see https://www.ebi.ac.uk/chembldb/ws
+for more details).
+finally, to allow greater interoperability of the chembl
+data with molecular interaction and pathway data (e.g. for
+annotation of pathways with chemical tools), a subset of
+the database (compounds active in binding assays against
+protein targets) is available in psi-mitab 2.5 format (30)
+via psicquic web services (31).
+
+references
+
+nucleic acids research, 2012, vol. 40, database issue
+
+28. ertl,p., rohde,b. and selzer,p. (2000) fast calculation of
+molecular polar surface area as a sum of fragment based
+contributions and its application to the prediction of drug
+transport properties. j. med. chem., 43, 3714–3717.
+29. lipinski,c.a., lombardo,f., dominy,b.w. and feeney,p.j. (2001)
+experimental and computational approaches to estimate solubility
+and permeability in drug discovery and development settings.
+adv. drug deliv. rev., 23, 3–25.
+30. kerrien,s., orchard,s., montecchi-palazzi,l., aranda,b.,
+quinn,a.f., vinod,n., bader,g.d., xenarios,i., wojcik,j.,
+sherman,d. et al. (2007) broadening the horizon – level 2.5 of
+the hupo-psi format for molecular interactions. bmc biol., 5,
+44.
+31. aranda,b., blankenburg,h., kerrien,s., brinkman,f.s., ceol,a.,
+chautard,e., dana,j.m., de las rivas,j., dumousseau,m.,
+galeota,e. et al. (2011) psicquic and psiscore: accessing
+and scoring molecular interactions. nat. methods, 8, 528–529.
+32. gamo,f.-j., sanz,l.m., vidal,j., de cozar,c., alvarez,e.,
+lavandera,j.-l., vanderwall,d.e., green,d.v.s., kumar,v.,
+hasan,s. et al. (2010) thousands of chemical starting points for
+antimalarial lead identiﬁcation. nature, 465, 305–310.
+33. plouffe,d., brinker,a., mcnamara,c., henson,k., kato,n.,
+kuhen,k., nagle,a., adrian,f., matzen,j.t., anderson,p. et al.
+(2008) in silico acitivity proﬁling reveals the mechanism of action
+of antimalarials discovered in a high-throughput screen. proc.
+natl acad. sci. usa, 105, 9059–9064.
+34. guiguemde,w.a., shelat,a.a., bouck,d., duffy,s.,
+crowther,g.j., davis,p.h., smithson,d.c., connelly,m., clark,j.,
+zhu,f. et al. (2010) chemical genetics of plasmodium falciparum.
+nature, 465, 311–315.
+35. alexander,s.p.h., mathie,a. and peters,j.a. (2009) guide to
+receptors and channels (grac), 4th edn. br. j. pharmacol.,
+158, s1–s254.
+
+downloaded from http://nar.oxfordjournals.org/ at stanford university on may 3, 2012
+
+19. warr,w.a. (2009) chembl. an interview with john overington,
+team leader, chemogenomics at the european bioinformatics
+institute outstation of the european molecular biology
+laboratory (embl-ebi). j. comput. aided mol. des., 23,
+195–198.
+20. sayers,e.w., barrett,t., benson,d.a., bryant,s.h., canese,k.,
+chetvernin,v., church,d.m., dicuccio,m., edgar,r., federhen,s.
+et al. (2009) database resources of the national center for
+biotechnology information. nucleic acids res., 37, d5–d15.
+21. u.s. department of health and human services. (2011).
+approved drug products with therapeutic equivalence evaluations,
+31st edn. u.s. government printing ofﬁce, washington dc.
+22. stein,s.e., heller,s.r. and tchekhovskoi,d. (2003) an open
+standard for chemical structure representation: the iupac
+chemical identiﬁer. proceedings of the 2003 international
+chemical information conference (nıˆmes). infonortics, tetbury,
+pp. 131–143.
+23. de matos,p., alcantara,r., dekker,a., ennis,m., hastings,j.,
+haug,k., spiteri,i., turner,s. and steinbeck,c. (2010) chemical
+entities of biological interest: an update. nucleic acids res., 38,
+ xxxd249xxx – xxxd254xxx .
+24. paskin,n. (2010) digital object identiﬁer (doiõ ) system.
+in: bates,m.j. and maack,m.n. (ed). encyclopedia of library and
+information sciences, 3rd edn. taylor & francis, london
+pp. 1586–1592.
+25. the uniprot consortium. (2011) ongoing and future
+developments at the universal protein resource.
+nucleic acids res., 39,  xxxd214xxx – xxxd219xxx .
+26. ertl,p. (2010) molecular structure input on the web.
+j. chemoinform., 2, 1.
+27. ghose,a.k. and crippen,g.m. (1987) atomic physicochemical
+parameters for three-dimensional-structure-directed quantitative
+structure-activity relationships. 2. modeling dispersive and
+hydrophobic interactions. j. chem. inf. comput. sci., 27, 21–35.
+
+ xxxd1107xxx 
+

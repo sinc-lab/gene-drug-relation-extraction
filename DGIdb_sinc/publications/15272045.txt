@@ -1,0 +1,1656 @@
+37
+
+j physiol 560.1 (2004) pp 37–49
+
+state-dependent trapping of  xxxd2113xxx  in the cardiac
+sodium channel
+eugene ramos and michael e. o’leary
+department of pathology, anatomy and cell biology, jefferson medical college, 1020 locust street, philadelphia, pa 19107, usa
+
+ xxxd2113xxx  is a class i antiarrhythmic drug and a potent inhibitor of the cardiac ( xxxg2028xxx )
+sodium channel. although the  xxxd2113xxx  inhibition of  xxxg2028xxx  is typically enhanced by
+depolarization, the contributions of the open and inactivated states to  xxxd2113xxx  binding
+and inhibition remain controversial. we further investigated the state-dependent binding of
+ xxxd2113xxx  by examining its inhibition of rapidly inactivating and non-inactivating mutants
+of  xxxg2028xxx  expressed in xenopus oocytes. applying  xxxd2113xxx  while briefly depolarizing
+from a relatively negative holding potential resulted in a low-affinity inhibition of the
+channel (ic50 = 345 µm). increasing the frequency of stimulation potentiated the  xxxd2113xxx 
+inhibition (ic50 = 7.4 µm), which progressively increased over the range of voltages where
+ xxxg2028xxx  channels activated. this contrasts with sustained depolarizations that effectively
+stabilize the channels in inactivated states, which failed to promote significant  xxxd2113xxx 
+inhibition. the voltage sensitivity and strong dependence of the  xxxd2113xxx  inhibition on
+repetitive depolarization suggests that  xxxd2113xxx  binding is facilitated by channel opening
+and that the drug does not directly bind to closed or inactivated channels. the binding of
+ xxxd2113xxx  to open channels was further investigated in a non-inactivating mutant of  xxxg2028xxx .
+ xxxd2113xxx  produced a time-dependent decay in the current of the non-inactivating mutant
+that displayed kinetics consistent with a simple pore blocking mechanism (k d = 11 µm).
+at hyperpolarized voltages,  xxxd2113xxx  slowed the recovery of both the rapidly inactivating
+(tau = 81 ± 3 s) and non-inactivating (tau = 42 ± 3 s) channels. mutation of a conserved
+isoleucine of the d4s6 segment (i1756c) creates an alternative pathway that permits the
+rapid diffusion of anaesthetics out of the  xxxg2028xxx  channel. the i1756c mutation accelerated
+the recovery of both the rapidly inactivating (tau = 12.6 ± 0.4 s) and non-inactivating
+(tau = 7.4 ± 0.1 s) channels, suggesting that  xxxd2113xxx  is trapped and not tightly bound within
+the pore when the channels are closed or inactivated. the data indicate that  xxxd2113xxx  rapidly
+gains access to its binding site when the channel is open and inhibits na+ current by a
+pore blocking mechanism. closing of either the activation or the inactivation gate traps
+ xxxd2113xxx  within the pore resulting in the slow recovery of the drug-modified channels at
+hyperpolarized voltages.
+(received 19 march 2004; accepted after revision 20 july 2004; first published online 29 july 2004)
+corresponding author m. e. o’leary: department of pathology, anatomy and cell biology, jefferson medical college,
+1020 locust street, philadelphia, pa 19107, usa. email: michael.oleary@jefferson.edu
+
+ xxxd2113xxx  is an orally administered class i antiarrhythmic drug that is used in the management
+cardiac arrhythmias (anderson et al. 1989; henthorn
+et al. 1991).  xxxd2113xxx  produces a potent voltage- and
+frequency-dependent inhibition of cardiac na+ channels,
+attributes that have generally proven to be beneficial in
+the treatment of cardiac arrhythmias (hondeghem &
+katzung, 1984).unfortunately, the cast antiarrhythmic
+drug trial discovered that the use of  xxxd2113xxx  is
+associated with increased mortality in patients with
+
+c the physiological society 2004
+
+cardiac arrhythmias resulting from myocardial infarction,
+which has significantly limited its general use as an antiarrhythmic agent (cast investigators, 1989). despite the
+proarrhythmic potential associated with its use,  xxxd2113xxx 
+has proved to be effective in treating atrial fibrillation,
+supraventricular arrhythmias, and long qt syndromes
+linked to naturally occurring genetic mutations of the
+cardiac na+ channel (brugada et al. 2000; benhorin et al.
+2000; windle et al. 2001). in the later case the efficacy
+of  xxxd2113xxx  has been attributed to the preferential block
+
+doi: 10.1113/jphysiol.2004.065003
+
+38
+
+e. ramos and m. e. o’leary
+
+of the enhanced steady-state current characteristic of
+patients carrying the  xxxg2028xxx  mutations (nagatomo et al.
+2000).
+although the clinical use of  xxxd2113xxx  has been limited
+by the results of the cast trials, its strong preference for
+binding to activated states (i.e. open, inactivated) makes
+ xxxd2113xxx  a valuable tool for studying the state-dependent
+binding of anaesthetics. the  xxxd2113xxx  inhibition of
+na+ channels is enhanced by rapid repetitive
+depolarization and increases over the range of voltages
+where the channels activate (ragsdale et al. 1994, 1996;
+qu et al. 1995; liu et al. 2002). for these reasons
+ xxxd2113xxx  is generally considered to be an activated
+or open state inhibitor of the  xxxg2028xxx  channel (anno &
+hondeghem, 1990; nitta et al. 1992; nagatomo et al. 2000).
+preferential interaction and inhibition of open channels
+is further supported by studies showing that  xxxd2113xxx 
+selectively reduces the open times of single na+ channels
+(grant et al. 2000). by contrast, prolonged depolarizations
+that stabilize na+ channels in inactivated states fail to
+promote  xxxd2113xxx  inhibition, indicating that direct
+binding to inactivated channels may not significantly
+contribute to the na+ channel inhibition (nitta et al.
+1992; nagatomo et al. 2000; liu et al. 2002; wang et al.
+2003). this contrasts with studies of anaesthetics such
+as the class ib antiarrhythmic drug lidocaine in which
+na+ channel inhibition progressively increases with
+sustained depolarization and is consistent with high
+affinity binding to inactivated states of the channel
+(bean et al. 1983; sanchez-chapula et al. 1983; clarkson
+et al. 1988). recent studies suggest that although
+ xxxd2113xxx  inhibition is facilitated by channel opening,
+the high-affinity binding and subsequent slow recovery
+at hyperpolarized voltages is more closely linked to
+rapid inactivation (liu et al. 2002, 2003). the relative
+contribution of  xxxd2113xxx  block of open channels and
+inactivated-state binding to na+ channel inhibition
+remains controversial.
+in this study, we investigated the state dependence of
+ xxxd2113xxx  binding and inhibition of rapidly inactivating
+and non-inactivating mutants of the  xxxg2028xxx  channel.
+our studies of the wild-type channel are consistent with
+previous work showing that channel opening is required
+for  xxxd2113xxx  binding and inhibition.  xxxd2113xxx  induces
+a characteristic time-dependent decay in the current
+of the non-inactivating mutant that displays properties
+consistent with an open-channel blocking mechanism.
+the data indicate that  xxxd2113xxx  gains access to the
+cytoplasmic binding site by entering through the open
+channel and inhibits na+ current by a pore blocking
+mechanism. either deactivation or inactivation appears
+to trap  xxxd2113xxx  within the channel resulting in the slow
+recovery at hyperpolarized voltages. the rapid  xxxd2113xxx 
+block of open channels at depolarized voltages and the
+slow untrapping at hyperpolarized voltages appears to
+
+j physiol 560.1
+
+underlie the potent and long-duration inhibition of  xxxg2028xxx 
+channels.
+methods
+expression of  xxxg2028xxx  in oocytes
+
+the cdna encoding the human cardiac ( xxxg2028xxx )
+na+ channel inserted into pcdna plasmid (invitrogen)
+was linearized with xba i and full length capped mrna
+transcribed using the t7 promoter (mmessage mmachine,
+ambion, austin tx, usa). oocytes were harvested
+from mature female xenopus laevis (xenopus i, ann
+arbor, mi, usa). the animals were anaesthetized by
+immersion in tricaine (1.5 mg ml−1 ) and several ovarian
+lobes surgically removed under sterile conditions. the
+adhering follicle cell layer was removed by incubating
+oocytes with 1 mg ml−1 collagenase (sigma chemical,
+st louis, mo, usa) in calcium-free or2 (82.5 mm nacl,
+2.5 mm kcl, 1 mm mgcl2 , 5 mm hepes, ph 7.4) solution
+for 2 h. the oocytes were washed with calcium-free or2
+and transferred to or3 (70% leibovitz l-15 medium, life
+technologies) supplemented with 15 mm hepes (ph 7.4),
+5 mm l-glutamine, and 10 mg ml−1  xxxd2193xxx . stage
+iv–v oocytes were microinjected with 50 nl of crna
+(1–2 µg µl−1 ) and incubated for 24–48 h at 18◦ c. after
+four surgeries, the frogs were deeply anaesthetized in
+tricaine and killed by pithing. these methods of animal
+handling are in accordance with the nih guidelines and
+the protocol was approved by the animal use and care
+committee of thomas jefferson university.
+two-electrode voltage clamp
+
+the whole-cell na+ current of oocytes expressing
+ xxxg2028xxx  were recorded using a standard two-electrode
+voltage clamp. oocytes are impaled with microelectrodes
+(< 1 m) filled with 3 m kcl and currents recorded
+using an oc-725c voltage clamp (warner instruments,
+hamden, ct, usa). oocytes were held at −100 mv and
+pulses generated using pclamp software (version 7,
+axon instruments, foster city ca, usa). oocytes were
+incubated and currents recorded in frog ringer solution
+containing (mm): 116 nacl, 2 kcl, 1.8 cacl2 , 1 mgcl2 ,
+5 hepes, ph 7.4. all recordings were performed at
+room temperature (21–23◦ c). data are presented as the
+mean ± s.e.m. curve fitting and plotting was performed
+using sigmaplot (spss science, chicago, il, usa). the
+recovery time courses were routinely fitted with models
+having between 1 and 3 exponential components. the
+model that provided the best approximation of the data
+with the fewest number of free parameters was reported.
+in all cases, the recovery time course of the wild-type
+and mutant channels were fitted with the same model.
+ xxxd2113xxx  was purchased from sigma chemical.
+
+c the physiological society 2004
+
+mechanisms of  xxxd2113xxx  trapping
+
+j physiol 560.1
+
+site-directed mutagenesis
+
+a
+normalized current
+
+1.0
+
+control
+5
+
+2.5
+
+0.5
+
+10
+50
+
+25
+
+100
+
+0.0
+0
+
+20
+
+40
+
+60
+
+80
+
+100
+
+1000
+
+10000
+
+pulse number
+
+b
+1.0
+
+normalized current
+
+39
+
+0.5
+
+use-dependent
+resting block
+0.0
+0.1
+
+10
+
+1
+
+100
+
+single amino acid substitutions were made using the
+quickchange site-directed mutagenesis kit (stratagene
+inc., la jolla, ca, usa). a fragment (1–2 kb)
+encompassing the mutation site was excised and subcloned
+into pcdna (invitrogen). complementary pairs of
+mutagenic oligonucleotides (22–29 bp) containing the
+appropriate nucleotide substitutions were prepared at
+the nucleic acid facility, kimmel cancer center
+(jefferson medical college, philadelphia, pa, usa). these
+oligonucleotides were subsequently used as primers for
+synthesis of both strands of the plasmid. we used 20 ng
+of cdna plasmid as template, 5 u pfu dna polymerase
+(stratagene), primers, and free nucleotides in a total
+volume of 100 µl. after strand synthesis (≈20 cycles),
+10 u of dpn i was added to the reaction mixture to
+selectively digest the original template (37◦ c, 1–2 h).
+the restriction endonuclease was heat inactivated (65◦ c,
+15 min), and the mixture used to transform dh5alpha bacteria
+by electroporation. base substitutions were confirmed by
+automated dna sequencing. dna fragments (1–2 kb)
+carrying the mutation were then subcloned into wild-type
+ xxxg2028xxx  or non-inactivating (qqq) mutant background.
+
+[ xxxd2113xxx ] ( m)
+normalized current/conductance
+
+c
+
+results
+1.0
+
+ xxxd2113xxx  inhibition of the  xxxg2028xxx  channel
+
+0.5
+
+ xxxd2113xxx  block
+g-v relationship
+0.0
+-80
+
+-60
+
+-40
+
+-20
+
+0
+
+voltage (mv)
+figure 1.  xxxd2113xxx  preferentially inhibits activated states of
+ xxxg2028xxx 
+a, use-dependent inhibition was induced by applying a train of 100
+depolarizing pulses (−10 mv, 20 ms) at a frequency of 10 hz. the
+currents were measured before (control) and 5 min after application
+of  xxxd2113xxx  (2.5–100 µm). b, the steady-state current measured after
+100 pulses (i100 /i1 ) in the presence of  xxxd2113xxx  was normalized to the
+drug-free control and plotted versus the  xxxd2113xxx  concentration
+(use-dependent). also plotted is the resting block determined from
+single depolarizing pulses (−10 mv, 20 ms) applied at 60 s intervals
+from a holding potential of −120 mv (resting block). the continuous
+curves are a fit to the hill equation [(i/io = (1 + ([flec]/ic50 )(n )−1 ]
+where i and io are the control and drug-modified current amplitudes
+and n is the hill coefficient. the ic50 and n values are 7.4 ± 0.6 µm
+and 1.5 ± 0.2 for the use-dependent block (n = 5) and 345 ± 15 µm
+and 1.1 ± 0.06 for the resting block (n = 6). c, the voltage
+dependence of the  xxxd2113xxx  inhibition (25 µm) was determined by
+varying the voltage of the pulses applied during repetitive stimulation
+(100 pulses, 10 hz). the normalized steady-state inhibition after
+100 pulses was determined and the fractional
+
+c the physiological society 2004
+
+ xxxg2028xxx  channels were expressed in xenopus oocytes
+and current recorded using two-electrode voltage clamp.
+applying  xxxd2113xxx  (10 µm) while stimulating at a low
+frequency (60 s intervals) resulted in a negligible (∼2%)
+reduction in the peak current amplitude. because the
+currents were elicited by brief depolarizations from a
+negative holding potential suggests that  xxxd2113xxx  does not
+appreciably bind to the channels under resting conditions.
+increasing the frequency of stimulation typically enhances
+the inhibition produced by local anaesthetics, which
+appear to preferentially bind to the open or inactivated
+states of the channel. in the absence of drug, the peak
+current amplitudes of  xxxg2028xxx  are only slightly reduced
+by a train of depolarizing pulses applied at a frequency
+of 10 hz (fig. 1a). following treatment with  xxxd2113xxx 
+inhibition (1 − iflec /icont ) plotted versus the test voltage. also plotted is
+the normalized conductance versus voltage (g–v) relationship
+determined by briefly depolarizing (20 ms) to voltages between −70
+and −5 mv. the conductance at each voltage (gv ) was calculated
+(gv = ina /(v − v r ), where v r = reversal potential), normalized to the
+conductance measured at −10 mv (go ) and plotted versus the test
+voltage (v). the continuous curves are fits to the boltzmann equation
+(g/go = max/(1 + exp(v 0.5 − v)/k))) with a midpoint (v 0.5 ) of
+−42 ± 1.0 mv and maximal inhibition (max) of 75 ± 2% for the
+ xxxd2113xxx  block (n = 5) and v 0.5 for the current–voltage relationship
+measured in the presence of  xxxd2113xxx  (25 µm) of −36 ± 0.9 mv
+(n = 4).
+
+40
+
+e. ramos and m. e. o’leary
+
+(5–100 µm), the same repetitive pulsing resulted in a
+progressive decrease in the amplitude of the test currents
+reflecting the use-dependent inhibition of the channels.
+the amplitude of the current measured after 100 pulses
+was normalized to that of the drug-free control and
+plotted versus the  xxxd2113xxx  concentration (fig. 1b). the
+continuous curve is fit of the data to the hill equation with
+an ic50 of 7.4 µm. also plotted is the resting  xxxd2113xxx 
+
+a
+normalized current
+
+1.0
+
+0.5
+control
+10 m  xxxd2113xxx 
+25 m  xxxd2113xxx 
+0.0
+0.01
+
+0.1
+
+1
+
+10
+
+100
+
+1000
+
+recovery interval (s)
+
+b
+normalized current
+
+1.0
+
+1 s prepulse
+
+control
+10 m  xxxd2113xxx 
+
+0.5
+
+10 s prepulse
+control
+10 m  xxxd2113xxx 
+
+25 m  xxxd2113xxx 
+0.0
+0.001
+
+0.01
+
+0.1
+
+1
+
+10
+
+100
+
+recovery interval (s)
+figure 2.  xxxd2113xxx  slows the recovery of  xxxg2028xxx  channels
+a,  xxxd2113xxx  inhibition was induced by applying 100 depolarizing
+pulses (−10 mv, 20 ms) at a frequency of 10 hz. the voltage was then
+returned to −100 mv for a variable duration (0.025–180 s) before
+applying a standard test pulse (−10 mv, 20 ms). the peak current
+amplitudes (i) elicited by test pulses were normalized to the current
+measured after a prolonged rest (180 s) at −100 mv (io ) and plotted
+versus the recovery interval. the continuous curves are fits to either a
+single or biexponential function [i/io = 1 − (a1 (t/tau 1 ) + a2 (t/tau 2 )] where
+tau and a are the time constants and the corresponding relative
+amplitudes. the data had time constants (relative amplitude) of
+2.5 ± 0.3 s (a = 0.11 ± 0.01) for the control (n = 12),
+tau 1 = 0.7 ± 0.2 s (a1 = 0.04 ± 0.01) and tau 2 = 75.3 ± 4.5 s
+(a2 = 0.47 ± 0.01) for 10 µm (n = 5), and tau 1 = 0.4 ± 0.1 s
+(a1 = 0.02 ± 0.02) and tau 2 = 81.3 ± 3.2 s (a2 = 0.75 ± 0.01) for
+25 µm  xxxd2113xxx  (n = 6). b, channels were inactivated by applying 1 or
+10 s depolarizing pulses to −10 mv before returning to −100 mv for
+a variable duration (1 ms–30 s). a standard test pulse (−10 mv, 20 ms)
+was used to assay the fractional current (i), which was normalized to
+the current measured after holding at −100 mv for 120 s (io ) and
+plotted versus the recovery interval (t). the continuous curves are fits
+of the data to either the sum of three exponential components
+[i/io = 1 − (a1 exp(− t/tau 1 ) + a2 exp(− t/tau 2 ) + a3 exp(− t/tau 3 ))] where
+tau 1 −tau 3 are the recovery time constants and a1 –a3 are the
+corresponding relative amplitudes. the fitted parameters are listed in
+table 1.
+
+j physiol 560.1
+
+block measured by briefly depolarizing at 60 s intervals,
+which had an ic50 of 345 µm. the relatively weak
+inhibition of resting channels and the significant increase
+induced by rapid repetitive depolarization are consistent
+with the preferential binding of  xxxd2113xxx  to activated
+(i.e. open or inactivated) states of the channel.
+to further investigate the state dependence of  xxxd2113xxx 
+binding we determined the steady-state use-dependent
+inhibition for voltages between −70 and 0 mv. the
+ xxxd2113xxx  inhibition after 100 depolarizing pulses was
+determined and the fractional inhibition plotted versus
+the test voltage (fig. 1c). the  xxxd2113xxx  inhibition
+progressively increased with depolarization reaching
+a maximal of ∼75% at voltages more depolarized
+than −10 mv. the continuous curve is a fit of
+the data to a boltzmann function with a midpoint
+(v 0.5 ) for the  xxxd2113xxx  inhibition of −42 mv. also
+plotted is the normalized conductance versus voltage
+relationship of  xxxg2028xxx  measured in the presence of
+ xxxd2113xxx  (v 0.5 = −36 ± 0.9 mv, n = 4), which was not
+significantly different from that of the drug-free controls
+(v 0.5 = −38 ± 1.3 mv, n = 6, data not shown). the
+extensive overlap of voltage-dependent activation with the
+development of  xxxd2113xxx  inhibition is consistent with
+preferentially binding of the drug to activated states of
+the channel.
+recovery from  xxxd2113xxx  inhibition
+
+the progressive decrease in the amplitude of the test
+currents observed during rapid repetitive depolarization
+indicates that channels that bind  xxxd2113xxx  during the
+20 ms depolarizations do not fully recover during the
+80 ms hyperpolarization between pulses (fig. 1a). this
+was not observed in the absence of the  xxxd2113xxx ,
+suggesting that drug binding may slow the recovery of
+ xxxg2028xxx  at hyperpolarized voltages. we investigated the
+underlying mechanism by directly measuring the time
+course of recovery from  xxxd2113xxx  inhibition.  xxxd2113xxx 
+inhibition was induced by applying a train of 100
+depolarizing prepulses at a frequency of 10 hz. the voltage
+was then returned to −100 mv for a variable duration
+(0.025–180 s) before applying a standard test pulse to
+assay the extent of the recovery. the test currents were
+normalized to those measured after a prolonged rest at the
+holding voltage (> 180 s) and plotted versus the recovery
+interval (fig. 2a). in the absence of drug, a small reduction
+in the test current was observed that recovered with a time
+constant of 2.5 s. this appears to reflect the recovery of
+a small fraction of the channels (11%) that had entered
+slow inactivated states during repetitive depolarization.
+after application of  xxxd2113xxx  (25 µm), the steady-state
+inhibition induced by the depolarizing prepulses increased
+by 7-fold and the recovery time course was found to
+be biexponential with time constants of 0.4 s and 81 s,
+
+c the physiological society 2004
+
+mechanisms of  xxxd2113xxx  trapping
+
+j physiol 560.1
+
+41
+
+table 1. recovery from  xxxd2113xxx  inhibition
+tau1
+
+tau2
+
+tau3
+
+a1
+
+a2
+
+a3
+
+1 s prepulse
+
+control
+10 µm  xxxd2113xxx 
+
+0.014 ± 0.002
+0.011 ± 0.002
+
+0.40 ± 0.10
+0.18 ± 0.08
+
+—
+9.2 ± 5.4
+
+0.77 ± 0.03
+0.71 ± 0.04
+
+0.23 ± 0.03
+0.20 ± 0.04
+
+—
+0.09 ± 0.02
+
+10 s prepulse
+
+control
+10 µm  xxxd2113xxx 
+25 µm  xxxd2113xxx 
+
+0.016 ± 0.002
+0.014 ± 0.002
+0.022 ± 0.007
+
+0.33 ± 0.06
+0.43 ± 0.08
+0.35 ± 0.13
+
+3.1 ± 0.6
+8.7 ± 1.7
+5.3 ± 1.9
+
+0.42 ± 0.02
+0.42 ± 0.02
+0.38 ± 0.05
+
+0.36 ± 0.03
+0.35 ± 0.03
+0.39 ± 0.06
+
+0.22 ± 0.04
+0.22 ± 0.03
+0.23 ± 0.05
+
+recovery time constants (tau 1 –tau 3 ) and relative amplitudes (a1 –a3 ) obtained from curve fits of data shown in fig. 2b.
+
+respectively. the slow component constitutes the majority
+(97%) of the time course and reflects the recovery of the
+drug-modified channels. this slow recovery appears to
+underlie the potent use-dependent inhibition produced
+by  xxxd2113xxx  (fig. 1a).
+to further investigate the state dependence of the
+ xxxd2113xxx  inhibition we examined the recovery of the
+control and drug-modified channels after applying single
+long depolarizing conditioning pulse (−10 mv, 1 s) rather
+than the brief repetitive pulses used to induce the
+use-dependent inhibition. although the channels briefly
+open at the beginning of these prolonged depolarizations,
+the channels rapidly inactivate (tau ≈ 5 ms) and do not
+reopen during the remainder of the pulse. the majority
+of the inhibition observed in these experiments therefore
+reflects  xxxd2113xxx  binding to inactivated channels.
+although  xxxd2113xxx  (10 µm) caused a small fraction
+(< 10%) of the channels to slowly recover (tau = 9 s), the
+majority of the channels recovered with time constants and
+relative amplitudes that are similar to those of drug-free
+controls (fig. 2b). we considered the possibility that
+ xxxd2113xxx  may bind with low affinity or that the onset
+of the drug inhibition may be slow when the channels are
+inactivated. however, increasing the prepulse duration to
+10 s or the applied concentration of  xxxd2113xxx  from 10
+to 25 µm resulted in little change in the recovery time
+course by comparison to the drug-free controls (table 1).
+the data indicate that simply stabilizing the channels
+in inactivated conformations fails to promote significant
+ xxxd2113xxx  inhibition. this sharply contrasts with rapid
+repetitive pulsing, which produces a comparatively large
+inhibition at lower concentrations of the drug (fig. 1)
+and dramatically slows the recovery when the channels
+are returned to a hyperpolarized potential (fig. 2a).
+overall, the data indicate that opening of the channels
+is an important determinant of  xxxd2113xxx  binding and
+that at low concentrations (≤ 25 µm) the drug does not
+appreciably interact with the closed (fig. 1b) or inactivated
+(fig. 2b) states of the channel.
+
+ xxxd2113xxx  binding to open channels
+
+opening of the  xxxg2028xxx  channel appears to play
+a prominent role in the use-dependent inhibition
+
+c the physiological society 2004
+
+produced by  xxxd2113xxx . unfortunately, at depolarizing
+voltages  xxxg2028xxx  channels only briefly open (< 1 ms)
+before inactivating, significantly complicating the
+characterization of  xxxd2113xxx  interaction with the open
+states (o’leary et al. 1995). we further investigated
+the role of the open state in  xxxd2113xxx  binding using
+a non-inactivating mutant of  xxxg2028xxx . this mutant
+was constructed by replacing hydrophobic residues
+(i485, f1486, m1487) of the interdomain d3–d4
+linker of the channel with glutamines (ifm→qqq)
+(west et al. 1992). in the absence of drug, the qqq
+mutant channels open normally at depolarized voltages
+and display minimal inactivation during 400 ms of
+depolarization (fig. 3a).  xxxd2113xxx  (1–25 µm) induced
+a concentration-dependent increase in the rate of the
+current decay that was biexponential, with the rapid
+component (tau f ) reflecting the time course of the  xxxd2113xxx 
+inhibition. assuming a simple bimolecular interaction
+predicts that the blocking rate (1/tau f ) should increase
+linearly with the drug concentration where the slope
+and y-intercept represent the association (k on ) and
+dissociation (k off ) rate constants, respectively (o’leary &
+chahine, 2002). the plot of the blocking rate versus the
+ xxxd2113xxx  concentration is well fitted by a straight line
+with an equilibrium binding constant (k d = k off /k on ) of
+10.8 µm (fig. 3b and table 2).
+to further investigate the underlying mechanism, we
+examined the  xxxd2113xxx  inhibition of the qqq mutant
+after reducing the external concentration of na+ to 50%
+by iso-osmotically replacing nacl with choline chloride.
+the  xxxd2113xxx -induced current decay was fitted with
+exponentials and the blocking rate (1/tau f ) plotted versus the
+ xxxd2113xxx  concentration (fig. 3b). lowering the external
+concentration of na+ reduced both the association and
+dissociation rate constants of  xxxd2113xxx  binding (table 2).
+also plotted is the normalized steady-state inhibition
+of the qqq current measured near the end of the
+depolarizing pulses versus the  xxxd2113xxx  concentration
+(fig. 3c). the continuous curves are fits of the data
+to a single-site binding model with k d values of 11.2
+and 4.1 µm for the 100% (116 mm) and 50% (58 mm)
+external na+ ringer solutions, respectively. reducing the
+external concentration of na+ significantly enhanced the
+steady-state  xxxd2113xxx  inhibition of the qqq mutant
+(table 2). the simple bimolecular kinetics and the
+
+42
+
+e. ramos and m. e. o’leary
+
+sensitivity of  xxxd2113xxx  binding to changes in the external
+concentration of na+ are consistent with an open-channel
+blocking mechanism.
+deactivation traps  xxxd2113xxx  within the pore
+
+ xxxd2113xxx  produced a potent use-dependent inhibition
+during repetitive depolarization (fig. 1a) and slows the
+
+a
+0.5 ∝a
+50 ms
+
+25
+10
+5
+1
+control
+
+b
+-1
+
+blocking rate (s )
+
+120
+
+80
+
+40
+
+100% [na]o
+50% [na]o
+
+0
+0
+
+5
+
+10
+
+15
+
+20
+
+25
+
+30
+
+[ xxxd2113xxx ] ( m)
+
+c
+
+j physiol 560.1
+
+recovery of  xxxg2028xxx  at hyperpolarized voltages (fig. 2a).
+the slow dissociation of  xxxd2113xxx  from either closed or
+inactivated states could account for the use-dependent
+inhibition of the channels. we further investigated
+the underlying mechanisms using the non-inactivating
+(qqq) mutant, which enabled us to selectively examine
+the time course of recovery from closed states (o’leary
+et al. 2003). depolarizing prepulses (−10 mv, 100 ms)
+were used to induce the  xxxd2113xxx  block of the open
+channels. the voltage was then returned to −100 mv for
+variable intervals before applying a standard test pulse to
+assay availability. the test currents were normalized to
+those measured after a prolonged rest (120 s) at −100 mv
+and plotted versus the recovery interval (fig. 4). in the
+absence of drug, ∼3% of the qqq current inactivated
+during the depolarizing prepulse and recovered with a
+time constant (tau ) of 9.2 s.  xxxd2113xxx  (25 µm) induced a
+10-fold increase in the fraction of current inhibited during
+the depolarizing prepulse and increased the recovery time
+constant (tau = 42.4 s). because the qqq mutant channels
+do not inactivate suggests that deactivation either traps
+ xxxd2113xxx  within the pore or otherwise causes the drug to
+slowly dissociate from the channel.
+mutations near the n-terminus of the d4s6 have
+been shown to facilitate the binding of externally applied
+quaternary analogues of anaesthetics (ragsdale et al. 1994;
+qu et al. 1995; lee et al. 2001; sunami et al. 2001).
+mutation of a highly conserved isoleucine (i1756) within
+this region appears to create an alternative diffusion
+1.0
+
+0.5
+100% [na]o
+50% [na]o
+0.0
+0.01
+
+0.1
+
+1
+
+10
+
+100
+
+1000
+
+[ xxxd2113xxx ] ( m)
+
+figure 3.  xxxd2113xxx  inhibition of a non-inactivating mutant of
+nav1.5a
+the non-inactivating (qqq) mutant channels (see text) were expressed
+in oocytes and current elicited by depolarizing to −10 mv for 400 ms
+from a holding potential of −100 mv.  xxxd2113xxx  (1–25 µm) induced a
+time-dependent decay in the current in the otherwise slowly
+inactivating current. b, the  xxxd2113xxx -induced decay was fitted with
+either one (control) or the sum of two ( xxxd2113xxx ) exponentials and
+the effective blocking rate (1/tau f ) plotted versus the  xxxd2113xxx 
+concentration. the straight lines are consistent with a bimolecular
+interaction with slope (kon ) and y-intercept (koff ). also plotted is the
+blocking rate measured after reducing the external concentration of
+na+ by 50%. the association and dissociation rate constants and the
+blocking affinity (k d = koff /kon ) are listed in table 2. c, the steadystate current measured near the end of the depolarizing pulses was
+normalized to the current of drug-free controls and plotted versus
+ xxxd2113xxx  concentration. the continuous curves are fits to a single-site
+binding model [(i/io = (1 + [ xxxd2113xxx ]/k d )−1 ] with equilibrium
+constants (k d ) of 11.2 ± 1.3 µm (n = 7) and 4.1 ± 0.7 µm (n = 6) for
+100 and 50% external na+ , respectively.
+
+normalized current
+
+normalized current
+
+1.0
+
+0.5
+
+0.0
+0.1
+
+qqq
+qqq + flec
+qqq-i1756c
+qqq-i1756c + flec
+1
+
+10
+
+100
+
+1000
+
+recovery interval (s)
+figure 4. i1756c accelerates the recovery of the
+ xxxd2113xxx -blocked qqq mutant
+ xxxd2113xxx  block was induced by applying a 100 ms depolarizing pulse
+to −10 mv before returning to −100 mv for a variable duration
+(0.5–120 s). a standard test pulse (−10 mv, 150 ms) was then used to
+assay availability. the test current amplitudes were normalized to
+control currents measured after 120 s (qqq) or 30 s (qqq-i1756c) of
+rest at −100 mv and plotted versus the recovery interval. the
+continuous curves are exponential fits with time constants (relative
+amplitudes) of tau = 9.2 ± 3.6 s (a = 0.03 ± 0.005) for the control
+(n = 14) and tau = 42.4 ± 2.6 s (a = 0.31 ± 0.005) after application of
+25 µm  xxxd2113xxx  (n = 7). also plotted is the recovery of the
+qqq-i1756c mutant which had time constants (relative amplitude) of
+tau = 11.9 ± 3.0 s (a = 0.03 ± 0.003) for the control (n = 14) and
+tau = 7.4 ± 0.1 s (a = 0.59 ± 0.005) for 25 µm  xxxd2113xxx  (n = 9).
+
+c the physiological society 2004
+
+mechanisms of  xxxd2113xxx  trapping
+
+j physiol 560.1
+
+43
+
+table 2. kinetics of  xxxd2113xxx  block of the qqq and qqq-i1756c channels
+[na+ ]o
+
+kon (s−1
+
+m−1 )
+
+koff (s−1 )
+
+k d (µm)∗
+
+k d (µm)†
+
+106
+
+qqq
+
+100%
+50%
+
+2.9 ×
+2.2 × 106
+
+31
+21
+
+10.8
+9.5
+
+11.2 ± 1.3
+4.1 ± 0.7‡
+
+qqq-i1756c
+
+100%
+
+2.2 × 106
+
+17
+
+7.6
+
+8.5 ± 1.5
+
+∗
+
+equilibrium binding constants (k d = koff /kon ) determined from the linear regression fits
+to the data in figs 3b and 5b. † steady-state estimates of  xxxd2113xxx  binding from figs 3c
+and 5c. ‡ statistically different from the qqq (100% na+ ) control (t test, p < 0.05).
+
+
+c the physiological society 2004
+
+a
+25
+10
+1
+control
+0.8 a
+50 ms
+
+b
+-1
+blocking rate (s )
+
+120
+100
+80
+60
+40
+20
+0
+0
+
+5
+
+10
+
+15
+
+20
+
+25
+
+30
+
+[ xxxd2113xxx ] ( m)
+
+c
+normalized current
+
+pathway for these membrane-impermeant compounds
+that facilitates the interaction of the externally applied
+drug with the cytoplasmic d4s6 binding site (ragsdale
+et al. 1994; sunami et al. 2001). we further investigated
+the untrapping mechanism by transferring the i1756c
+mutation to the non-inactivating (qqq) mutant background (fig. 4). in the absence of drug, 3% of the mutant
+channels inactivated and recovered with a time constant
+of 11.9 s.  xxxd2113xxx  increased the inhibition produced by
+the depolarizing prepulse 20-fold, and the drug-modified
+channels recovered with a time constant of 7.4 s. despite
+the large increase in the relative amplitude of the inhibited
+current, the subsequent recovery time course was similar
+to the drug-free control and 6-fold faster than the recovery
+of the qqq channel (tau = 42 s). the rapid recovery of the
+qqq-i1756c mutant suggests that the slow diffusion of
+ xxxd2113xxx  out of the pore may be the rate-limiting step in
+the recovery when the channels are closed.
+in addition to accelerating the kinetics of closed-state
+untrapping, the i1756c mutation increased the amplitude
+of the slowly recovering component (aqqq-i1756c = 0.59
+versus aqqq = 0.31) (fig. 4). we speculated that this
+increase in the fraction of i1756c mutant channels
+inhibited during the depolarizing prepulse might reflect
+differences in the tonic  xxxd2113xxx  block of the channel
+under resting conditions. to test this we directly compared
+the peak current amplitudes of the qqq mutant
+current by applying depolarizing test pulses (−10 mv,
+400 ms) at 2 min intervals immediately before and after
+applying 25 µm  xxxd2113xxx .  xxxd2113xxx  inhibited the qqq
+and qqq-i1756c channels by 27 ± 0.5% (n = 8) and
+8.4 ± 1.6% (n = 11), respectively. the i1756c mutation
+significantly reduced the tonic block of the qqq mutant.
+assuming a single common  xxxd2113xxx  binding site for both
+the closed and open channels, predicts that a larger fraction
+of the i1756c channels will be unoccupied at rest and
+therefore available for  xxxd2113xxx  block as the channels open
+at depolarized voltages. the data suggest that closed-state
+untrapping may be an important determinant of both the
+recovery kinetics and the steady-state  xxxd2113xxx  block of
+the channels under resting conditions.
+an alternative explanation for the rapid recovery and
+weak resting block of the qqq-i1756c channel is that this
+
+1.0
+
+0.5
+
+0.0
+0.1
+
+1
+
+10
+
+100
+
+[ xxxd2113xxx ] ( m)
+figure 5.  xxxd2113xxx  block of the qqq-i1756c mutant
+a, current of the qqq-i1756c mutant channels before and after bath
+application of  xxxd2113xxx  (1–25 µm). currents were elicited by
+depolarizing to −10 mv for 400 ms from a holding potential of
+−100 mv. the decay of the current was fitted with either one (control)
+or the sum of two exponential components ( xxxd2113xxx ). b, the
+effective blocking rates (1/tau f ) were plotted versus the  xxxd2113xxx 
+concentration. the association and dissociation rate constants are
+listed in table 2. the dotted line is a regression fit describing the
+blocking kinetics of the qqq mutant measured in 100% na+ redrawn
+from fig. 3b. c, the current measured at the end of the 400 ms
+depolarizing pulses (a) was normalized to drug-free controls and
+plotted versus the  xxxd2113xxx  concentration. the continuous curve is a
+fit of the data to a single site model with k d of 8.5 ± 1.5 µm (n = 8).
+
+44
+
+e. ramos and m. e. o’leary
+
+mutation may weaken  xxxd2113xxx  binding thereby causing
+the drug to rapidly dissociate at hyperpolarized voltages.
+to investigate this possibility we directly measured the
+affinity of  xxxd2113xxx  binding to the qqq-i1756c mutant.
+ xxxd2113xxx  induced a concentration-dependent increase in
+the kinetics of the  xxxd2113xxx  block of the qqq-i1756c
+mutant (fig. 5a) similar to what was observed for qqq
+
+a
+normalized current
+
+1.0
+
+0.5
+
+0.0
+0.01
+
+i1756c control
+i1756c  xxxd2113xxx 
+wt control
+wt  xxxd2113xxx 
+0.1
+
+1
+
+10
+
+100
+
+1000
+
+channel. the time course of the current decay was fitted
+with the sum of two exponentials and the blocking rate
+(1/tau f ) was plotted versus the  xxxd2113xxx  concentration
+(fig. 5b). the i1756c mutation reduced both k on and k off
+by comparison to the control qqq channel (table 2). also
+plotted is the steady-state inhibition measured near the end
+of the 400 ms depolarizing pulses, which was well fitted by a
+single site model with a k d of 8.5 µm (fig. 5c). if  xxxd2113xxx 
+binding is an important determinant of the recovery
+from closed states then the reduced k off predicts slower
+recovery of the qqq-i1756c mutant by comparison to
+the qqq channel. this is opposite of what we observed
+experimentally (fig. 4a) and is therefore inconsistent with
+an important role for  xxxd2113xxx  binding in the recovery of
+the qqq mutant. rather the i1756c mutation appears to
+accelerate the recovery by permitting  xxxd2113xxx  to rapidly
+escape from the pore when the channel is closed, similar
+to what we recently described for cocaethylene (o’leary
+et al. 2003).
+
+recovery interval (s)
+
+b
+
+i1756c accelerates the recovery of rapidly
+inactivating channels
+
+1.0
+
+normalized current
+
+j physiol 560.1
+
+0.5
+control
+ xxxd2113xxx 
+
+0.0
+0.001
+
+0.01
+
+0.1
+
+1
+
+10
+
+100
+
+recovery interval (s)
+figure 6. i1756c accelerates the recovery of rapidly inactivating
+channels
+a, the recovery time course of the rapidly inactivating wild type and
+i1756c mutant were measured by applying 100 depolarizing pulses at
+a frequency of 10 hz. the voltage was then returned to −120 mv for
+a variable interval (0.02–90 s) before applying a standard test pulse
+(−10 mv, 20 ms). the amplitude of the test current was normalized to
+controls measured after 180 s rest at the holding potential and plotted
+versus the recovery interval. in the absence of drug the recovery of the
+wild type (n = 9) and i1756c mutant (n = 5) was biexponential with
+time constants (relative amplitude) of tau f = 0.39 ± 0.10 s
+(af = 0.13 ± 0.01) and tau s = 10.3 ± 4.2 s (as = 0.06 ± 0.01). after
+application of  xxxd2113xxx  (10 µm) the wild type had tau f = 1.2 ± 0.1 s
+(af = 0.10 ± 0.005) and tau s = 127.6 ± 8.8 s (as = 0.44 ± 0.004)
+(n = 7). for the i1756c mutant the time constants were
+tau f = 0.10 ± 0.03 s (af = 0.09 ± 0.01) and tau s = 12.6 ± 0.4 s
+(as = 0.50 ± 0.01) after application of  xxxd2113xxx  (n = 5). b, recovery
+time course of the i1756c mutation. the recovery was determined by
+first applying a 10 s depolarizing pulse to −10 mv. the recovery time
+course (1 ms–60 s) was assessed using a standard test pulse. test
+currents were normalized to controls measured after 120 s of rest at
+−120 mv. the continuous curves are biexponential curve fits with time
+constants (relative amplitude) of tau f = 0.03 ± 0.005 s
+(af = 0.47 ± 0.03) and tau s = 1.1 ± 0.1 s (as = 0.50 ± 0.03) for
+controls (n = 3); tau f = 0.05 ± 0.009 s (af = 0.45 ± 0.03) and
+tau s = 2.2 ± 0.3 s (as = 0.52 ± 0.03) after application of 25 µm
+ xxxd2113xxx  (n = 3).
+
+the i1756c mutation facilitated the closed-state
+untrapping of  xxxd2113xxx  from the non-inactivating
+mutant (fig. 4). we were therefore interested in
+determining if the i1756c mutation similarly altered the
+recovery of rapidly inactivating channels. the recovery
+time course of the wild type and i1756c mutant was
+determined by first applying a series of 100 depolarizing
+pulses at a frequency of 10 hz to promote  xxxd2113xxx 
+inhibition. the voltage was returned to the holding
+potential for a variable interval before applying a standard
+test pulse to assay availability. in the absence of drug,
+19% of the i1756c mutant channels inactivated and
+recovered with fast (tau f ) and slow (tau s ) time constants
+of tau f = 0.4 s (af = 0.13) and tau s = 10.3 s (as = 0.06)
+(fig. 6a).  xxxd2113xxx  increased the fraction of slowly
+recovering channels to 59% by selectively increasing
+the relative amplitude (as = 0.50) and time constant
+(tau s = 12.6 s) of the slow component. this contrasts with
+the recovery of the drug-modified wild type measured
+under identical conditions, which had time constants of
+tau f = 1.2 s and tau s = 128 s, respectively (fig. 6a). although
+the recovery of the i1756c mutant is slow by comparison
+to the drug-free controls, it is 10-fold faster than that of
+the wild-type channel. the i1756c mutation accelerated
+the recovery of drug-modified channels similar to what
+was observed for the non-inactivating qqq mutant
+(fig. 4). untrapping of  xxxd2113xxx  appears to be the
+rate-limiting step in the recovery of both closed and
+inactivated channels.
+a recent study indicated that  xxxd2113xxx  binding to
+inactivated states of na+ channels is slow (tau = 8 s)
+(wang et al. 2003), which may explain the relatively
+weak  xxxd2113xxx  inhibition produced by long depolarizing
+
+c the physiological society 2004
+
+j physiol 560.1
+
+mechanisms of  xxxd2113xxx  trapping
+
+pulses (fig. 2b). binding of the native inactivation gate
+to its receptor located near the internal mouth of the
+channel is believed to occlude the pore and may prevent
+ xxxd2113xxx  from rapidly accessing its binding site. the
+finding that the i1756c mutant creates an alternative
+pathway for  xxxd2113xxx  diffusion that accelerates closedand inactivated-state untrapping, raises the possibility that
+this mutation may also facilitate the direct binding of
+ xxxd2113xxx  to inactivated channels. to test this we applied
+long depolarizing conditioning pulses (−10 mv, 10 s) to
+stabilize the i1756c mutant in inactivated conformations
+and to promote  xxxd2113xxx  binding. the voltage was
+then returned to the holding potential and the recovery
+time course was measured using a standard test pulse.
+the recovery of the i1756c mutant measured in the
+presence of  xxxd2113xxx  was not substantially different from
+the drug-free control (fig. 6b). despite creating a pathway
+that enhances drug access to the cytoplasmic binding
+site,  xxxd2113xxx  did not appear to appreciably bind at
+depolarized voltages where the channels are inactivated.
+reduced access to the cytoplasmic binding site induced by
+rapid inactivation cannot account for the weak  xxxd2113xxx 
+inhibition of the i1756c mutant. rather these findings
+suggest that the  xxxd2113xxx  inhibition rapidly dissipates
+when the voltage is returned to a hyperpolarized potential,
+a result that is inconsistent with high-affinity binding to
+inactivated states.
+discussion
+in this study, we investigated the state-dependent binding
+of  xxxd2113xxx  to human cardiac ( xxxg2028xxx ) na+ channels
+expressed in xenopus oocytes. while briefly depolarizing
+from a negative holding potential,  xxxd2113xxx  produced
+a relatively low affinity inhibition (ic50 = 345 µm)
+indicating that the drug weakly binds under resting
+conditions where the channels are predominately closed
+(fig. 1b). increasing the frequency of stimulation
+enhanced the  xxxd2113xxx  inhibition (ic50 = 7.4 µm), which
+progressively increased over the range of voltages where
+the channels activated (fig. 1c). these data suggest
+that  xxxd2113xxx  preferentially interacts with the open
+or inactivated states of the channel. unfortunately, the
+repetitive pulsing protocols necessary to induce the
+ xxxd2113xxx  inhibition causes the channels to rapidly
+cycle through the open and inactivated conformations
+complicating attempts to directly identify the state(s)
+important for drug binding. we further investigated the
+state dependence of binding by applying depolarizing
+pulses that effectively stabilized the channels in inactivated
+conformations (fig. 2b). these long depolarizations failed
+to promote significant  xxxd2113xxx  inhibition, suggesting
+that direct binding to inactivated states is not an
+important determinant of the  xxxd2113xxx  inhibition.
+rather the potent use-dependent inhibition induced
+
+c the physiological society 2004
+
+45
+
+by repetitive depolarization, the voltage sensitivity of
+the inhibition, and the relatively weak inhibition of
+closed (fig. 1b) and inactivated channels (fig. 2b)
+indicates that channel opening plays a prominent
+role in drug binding (liu et al. 2002; wang et al.
+2003).
+ xxxd2113xxx  binding to the open state was further
+investigated using a non-inactivating (qqq) mutant
+of  xxxg2028xxx .  xxxd2113xxx  produced a rapid time-dependent
+decay in the otherwise slow inactivating current of the
+qqq mutant (fig. 3a). the majority of the  xxxd2113xxx 
+inhibition occurred after the channels had open and
+displayed concentration dependence consistent with a
+simple bimolecular interaction of the drug with its binding
+site (grant et al. 2000; o’leary & chahine, 2002).
+lowering the external concentration of na+ altered the
+association and dissociation rate constants of  xxxd2113xxx 
+binding (fig. 3b) and potentiated the steady-state
+inhibition (fig. 3c). the reduction in k off suggests that
+na+ and  xxxd2113xxx  compete for distinct but functionally
+overlapping binding sites within the pore (o’leary
+& chahine, 2002). the strong dependence of the
+ xxxd2113xxx  inhibition on channel opening, bimolecular
+binding kinetics, and competition with na+ ions for
+pore binding sites are consistent with an open-channel
+blocking mechanism.  xxxd2113xxx  appears to preferentially
+gain access to its cytoplasmic binding site located
+within the pore by entering through the internal aqueous pathway created by the opening of
+the channel. occupancy of this cytoplasmic site by
+ xxxd2113xxx  blocks the pore resulting in the inhibition of
+na+ current.
+deactivation and inactivation slows the recovery
+from  xxxd2113xxx  inhibition
+
+ xxxd2113xxx  substantially slows the recovery of  xxxg2028xxx 
+channels (tau = 81 s) by comparison to drug-free controls
+(tau = 2.5 s), which appears to account for the potent
+use-dependent inhibition produced by this drug (fig. 1a).
+our data indicate that during repetitive depolarization,
+ xxxd2113xxx  rapidly binds to the open channels, and that
+subsequent gating transitions further potentiate the
+inhibition and slow the recovery at hyperpolarized
+voltages. several mechanisms have been proposed to
+account for the slow recovery of na+ channels that are
+modified by local anaesthetics. inactivation is believed
+to induce conformational changes near the cytoplasmic
+mouth of na+ channels that increases the affinity of
+anaesthetic binding (hille, 1977; hondeghem & katzung,
+1977). the slow dissociation of anaesthetics from a
+high-affinity binding site could be the rate-limiting step in
+the recovery of the drug-modified channels. alternatively,
+anaesthetics could become trapped within the channel as
+the activation or inactivation gates close (starmer et al.
+
+46
+
+e. ramos and m. e. o’leary
+
+1984). drug that rapidly accesses the cytoplasmic binding
+site when the channel is open may escape via an inherently
+slower pathway when the cytoplasmic aqueous pathway
+is occluded by the activation or inactivation gates. in
+this case, the recovery of drug-modified channels may be
+more closed linked to the diffusion of anaesthetics out
+of the channel rather than the slow dissociation from a
+high-affinity binding site.
+we further investigated these potential mechanisms
+by examining the recovery of the non-inactivating
+(qqq) mutant channels (fig. 4). in the presence of
+ xxxd2113xxx , the recovery of the qqq mutant at hyperpolarized voltages was slow (tau = 42 s) by comparison
+to the drug-free controls (tau = 9 s). assuming that
+at low concentrations (≤ 25 µm)  xxxd2113xxx  does not
+bind to closed channels provides an estimate of the
+rate of  xxxd2113xxx  dissociation from the closed channel
+(1/tau rec = 0.02 s−1 ) that is three orders of magnitude
+slower than the dissociation rate constant directly
+determined from open-channel blocking experiments
+(fig. 3, k off = 31 s−1 ). conformational changes that occur
+as the qqq channels are returned to a hyperpolarized
+potential stabilize the  xxxd2113xxx  block (grant et al. 2000;
+wang et al. 2003). because fast inactivation has been
+disabled by the qqq mutations suggests that closing
+of the activation gate at hyperpolarized voltages trapped
+ xxxd2113xxx  within the pore.
+we used the i1756c mutation to further investigate
+the mechanism(s) underlying the slow recovery from
+ xxxd2113xxx  inhibition. homologous mutations in neuronal
+and skeletal muscle na+ channels potentiate the inhibition
+produced by externally applied quaternary analogues of
+anaesthetics by creating an alternative access pathway that
+facilitates the binding of these membrane-impermeant
+compounds when the channels are closed (ragsdale et al.
+1994; qu et al. 1995; lee et al. 2001; sunami et al.
+2001). we found that the recovery of the drug-modified
+qqq-i1756c mutant (tau = 7.4 s) was 6-fold faster than
+that of the qqq channel (tau = 42 s). when expressed in
+the non-inactivating background, the i1756c mutation
+accelerated the recovery from  xxxd2113xxx  inhibition. the
+more rapid recovery of the qqq-i1756c mutant cannot
+be attributed to a simple weakening of  xxxd2113xxx  binding
+because the affinity is not altered by the i1756c mutation
+(table 2). rather the i1756c mutation appears to facilitate
+ xxxd2113xxx  escape from the pore when the channel is
+closed. slow untrapping of  xxxd2113xxx  from within the pore
+appears to be the rate-limiting step in the recovery of
+the non-inactivating mutant channels. channel opening
+enhances  xxxd2113xxx  binding and deactivation traps the
+drug within the channel. these data are consistent with
+a model in which the activation gate acts as an effective
+barrier that regulates  xxxd2113xxx  access to and escape from
+its cytoplasmic binding site.
+
+j physiol 560.1
+
+at physiological ph (7.4),  xxxd2113xxx  is positively
+charged (99%), which may account for its strong
+preference for accessing the cytoplasmic binding site
+via the hydrophilic aqueous pathway of open channels
+rather than the hydrophobic routes used by uncharged
+anaesthetics (liu et al. 2003). the interdomain d3–d4
+linker of na+ channels is believed to act as a ‘hinged lid’
+that binds to the internal mouth of the channel during
+inactivation and inhibits na+ permeation (west et al.
+1992). the weak  xxxd2113xxx  inhibition induced by long
+depolarizing conditioning pulses (fig. 2b) suggests that
+when closed the inactivation gate prevents  xxxd2113xxx  from
+readily access its binding site via the internal aqueous
+pathway (liu et al. 2002; wang et al. 2003). although rapid
+inactivation does not directly promote  xxxd2113xxx  binding,
+inactivation significantly contributes to the slow recovery
+of drug-modified channels at hyperpolarized voltages. for
+example, the closed-state untrapping of  xxxd2113xxx  from the
+non-inactivating qqq mutant (tau = 42 s) is more rapid
+then the recovery of the inactivating wild type (tau = 81 s).
+this raises the possibility that rapid inactivation may slow
+the recovery by trapping  xxxd2113xxx  within the channel
+(courtney, 1975). alternatively, high-affinity binding of
+ xxxd2113xxx  could bias the gating equilibrium toward stable
+inactivated states thereby contributing to the slow recovery
+of the channels (liu et al. 2002; wang et al. 2003).
+we found that the recovery of the drug-modified
+i1756c mutant (tau i1756c = 12.6 s) was rapid by comparison
+to the wild type (tau = 81 s) and displayed kinetics
+surprisingly similar to the closed-state untrapping from
+the qqq-i1756c mutant (tau qqq-i1756c = 7.4 s). creating a
+pathway that enables the rapid escape of  xxxd2113xxx  from
+the channel accelerated the recovery from both closed
+and inactivated states. this is substantially different from
+what we previously observed for the inhibition of  xxxg2028xxx 
+by cocaethylene, a metabolite of cocaine and ethanol
+(o’leary et al. 2003). in that study, the i1756c mutation
+selectively facilitated the recovery from the closed but
+not the inactivated state. the data indicated that despite
+enabling rapid untrapping, the recovery of the i1756c
+mutant remained slow because of enhanced cocaethylene
+binding to inactivated states, a result that is consistent
+with the predictions of the modulated receptor hypothesis
+(hille, 1977; hondeghem & katzung, 1977). our current
+finding that the i1756c mutation caused the  xxxd2113xxx 
+inhibition to rapidly dissipate in both the inactivating and
+non-inactivating mutants argues against a mechanism in
+which  xxxd2113xxx  is tightly bound when the channels are
+inactivated. this is further supported by data showing
+that prolonged depolarizations that stabilize channels
+in inactivated states failed to promote the  xxxd2113xxx 
+inhibition of the i1756c mutant (fig. 6b). unlike the
+wild type, reduced access of  xxxd2113xxx  to the binding site
+when the channels are inactivated cannot account for
+
+
+c the physiological society 2004
+
+j physiol 560.1
+
+mechanisms of  xxxd2113xxx  trapping
+
+the weak inhibition of the i1756c mutant. these data
+support the conclusion that  xxxd2113xxx  inhibits  xxxg2028xxx  by a
+mechanism that does not require high-affinity binding to
+inactivated states of the channel. rather the data suggest
+that deactivation and rapid inactivation potentiate the
+inhibition and slow the recovery by trapping  xxxd2113xxx 
+within the pore. these findings are consistent with a
+‘guarded receptor’ mechanism in which the channel gates
+regulate  xxxd2113xxx  access to the cytoplasmic binding site
+(starmer et al. 1984).
+mechanisms of state-dependent  xxxd2113xxx 
+binding and inhibition
+
+previous studies of the state-dependent binding of
+ xxxd2113xxx  to na+ channels generally support a mechanism
+in which channel opening is an important step in  xxxd2113xxx 
+binding (anno & hondeghem, 1990; nitta et al. 1992; qu
+et al. 1995; ragsdale et al. 1996; nagatomo et al. 2000;
+liu et al. 2002; wang et al. 2003). this is consistent with
+our data showing that  xxxd2113xxx  preferentially accesses the
+cytoplasmic binding site of  xxxg2028xxx  by entering through
+the aqueous pathway of open channels. however, recent
+work suggests that  xxxd2113xxx  may inhibit na+ channels
+by directly binding to inactivated states (viswanathan
+et al. 2001; desaphy et al. 2004). we found that at
+low concentrations (≤ 25 µm),  xxxd2113xxx  failed to inhibit
+during sustained depolarization where the channels are
+predominately inactivated (fig. 2b). this contrasts with
+repetitive pulsing protocols that significantly inhibited
+the current (75%) under identical conditions (fig. 1).
+these findings are inconsistent with an important role
+for the direct binding of  xxxd2113xxx  to inactivated states of
+the channel. at high concentrations (100 µm),  xxxd2113xxx 
+binding to inactivated channels has been reported but
+the onset of this inhibition is slow and therefore deemed
+unlikely to significantly contribute to the inhibition
+produced by short depolarizing pulses (wang et al. 2003).
+overall, our data support the conclusions of previous
+studies indicating that  xxxd2113xxx  inhibits na+ channels
+by preferentially binding to the open state.
+although na+ channel opening clearly promotes
+ xxxd2113xxx  binding, the mechanism of inhibition remains
+controversial. a recent study reported that although
+channel opening contributes to  xxxd2113xxx  binding, the
+drug does not appear to act by a pore blocking mechanism
+(liu et al. 2002). this contrasts with studies showing
+that  xxxd2113xxx  reduces single-channel open times (grant
+et al. 2000) and causes a time-dependent decay in the
+current of non-inactivating mutant channels (wang et al.
+2003), both of which are consistent with the  xxxd2113xxx 
+block of open channels. the voltage sensitivity of the
+ xxxd2113xxx  inhibition (fig. 1c), simple binding kinetics
+(fig. 3b) and sensitivity to changes in the concentration of
+external na+ (fig. 3b,c) are in good agreement with the
+
+c the physiological society 2004
+
+47
+
+predictions of a pore blocking mechanism. in addition,
+the steady-state inhibition of  xxxg2028xxx  (fig. 1b) and the
+qqq mutant (fig. 3c) display similar concentration
+dependence, suggesting that open-channel block may
+underlie the  xxxd2113xxx  inhibition of both the inactivating
+and the non-inactivating channels.
+our data are consistent with previous studies indicating
+that  xxxd2113xxx  preferentially gains access to its binding
+site when the channels are open and that inhibition of
+the channel is further potentiated by rapid inactivation
+(liu et al. 2002; wang et al. 2003). these findings have
+been interpreted within the framework of the modulated
+receptor hypothesis in which anaesthetics are believed
+to bind with high affinity to the inactivated states
+of the channel (hille, 1977; hondeghem & katzung,
+1977). in this model, the recovery of drug-modified
+channels is determined by the interplay between the
+slow dissociation of  xxxd2113xxx  from its high-affinity
+binding site and the recovery from inactivation. although
+our data are consistent with an important role for
+rapid inactivation in the slow recovery of drug-modified
+channels, it is inconsistent with high-affinity binding
+to inactivated states. the slow dissociation of  xxxd2113xxx 
+from a high-affinity binding site does not appear to be
+the rate-limiting step in the recovery of drug-modified
+channels. rather our data suggest that when shut the
+activation and inactivation gates act as effective barriers
+that prevent the rapid escape of the positively charged
+ xxxd2113xxx  from its binding site located within the
+pore. cooperative interaction between these gates in the
+drug-modified channel appears to potentiate  xxxd2113xxx 
+trapping within the pore resulting in the slow recovery
+of the  xxxg2028xxx  channel at hyperpolarized voltages. it is
+known that na+ channels must first deactivate prior
+to recovering from inactivation (kuo & bean, 1994).
+ xxxd2113xxx  may alter deactivation or disrupt the coupling
+between closing and recovery resulting in channels that
+remain persistently blocked and inactivated at hyperpolarized voltages. alternatively,  xxxd2113xxx  occupancy of
+the pore may alter the voltage-dependent gating causing
+the channels to become locked in a non-conducting
+conformation (sheets & hanck, 2003). additional studies
+of  xxxd2113xxx  untrapping from closed and inactivated
+channels will provide new insight into the mechanisms
+of local anaesthetic inhibition.
+references
+anderson j, gilbert e, alpert b, henthorn r, waldo a,
+bhandari a, hawkinson r & pritchett e (1989). prevention
+of symptomatic recurrences of paroxysmal atrial fibrillation
+in patients initially tolerating antiarrhythmic therapy. a
+multicenter, double-blind, crossover study of  xxxd2113xxx  and
+placebo with transtelephonic monitoring.  xxxd2113xxx 
+supraventricular tachycardia study group. circ 80,
+557–1570.
+
+48
+
+e. ramos and m. e. o’leary
+
+anno t & hondeghem l (1990). interactions of  xxxd2113xxx  with
+guinea pig cardiac sodium channels. importance of
+activation unblocking to the voltage dependence of recovery.
+circ res 66, 89–803.
+bean b, cohen c & tsien r (1983). lidocaine block of cardiac
+sodium channels. j gen physiol 81, 613–642.
+benhorin j, taub r, goldmit m, kerem b, kass r, windman i
+& medina a (2000). effects of  xxxd2113xxx  in patients with new
+ xxxg2028xxx  mutation: mutation-specific therapy for long–qt
+syndrome? circ 101, 1698–1706.
+brugada r, brugada j, antzelevitch c, kirsch g, potenza d,
+towbin j & brugada p (2000). sodium channel blockers
+identify risk for sudden death in patients with st-segment
+elevation and right bundle branch block but structurally
+normal hearts. circ 101, 510–515.
+cast investigators (1989). preliminary report: effect of
+ xxxd1991xxx  and  xxxd2113xxx  on mortality in a randomized trial
+of arrhythmia suppression after myocardial infarction. the
+cardiac arrhythmia suppression trial (cast) investigators.
+n engl j med 321, 406–412.
+clarkson c, follmer c, ten eick r, hondeghem l & yeh j
+(1988). evidence for two components of sodium channel
+block by lidocaine in isolated cardiac myocytes. circ res 63,
+869–878.
+courtney k (1975). mechanism of frequency-dependent
+inhibition of sodium currents in frog myelinated nerve by
+the lidocaine derivative gea. j pharmacol exp ther 195,
+225–236.
+desaphy j, luca a, didonna m, george a jr & camerino d
+(2004). different  xxxd2113xxx  sensitivity of hnav1.4 channels
+and myotonic mutants explained by state-dependent block.
+j physiol 554, 321–334.
+grant a, chandra r, keller c, carboni m & starmer c (2000).
+block of wild-type and inactivation-deficient cardiac sodium
+channels ifm/qqq stably expressed in mammalian cells.
+biophys j 79, 3019–3035.
+henthorn r, waldo a, anderson j, gilbert e, alpert b,
+bhandari a, hawkinson r & pritchett e (1991).  xxxd2113xxx 
+acetate prevents recurrence of symptomatic paroxysmal
+supraventricular tachycardia. the  xxxd2113xxx 
+supraventricular tachycardia study group. circ 83,
+119–125.
+hille b (1977). local anesthetics: hydrophilic and hydrophobic
+pathways for the drug-receptor reaction. j gen physiol 69,
+497–515.
+hondeghem l & katzung b (1977). time- and
+voltage–dependent interactions of antiarrhythmic drugs
+with cardiac sodium channels. biochim biophys acta 472,
+373–398.
+hondeghem l & katzung b (1984). antiarrhythmic agents: the
+modulated receptor mechanism of action of sodium and
+calcium channel-blocking drugs. annu rev pharmacol
+toxicol 24, 387–423.
+kuo c & bean b (1994). na+ channels must deactivate to
+recover from inactivation. neuron 12, 819–829.
+lee p, sunami a & fozzard h (2001). cardiac-specific external
+paths for lidocaine, defined by isoform-specific residues,
+accelerate recovery from use-dependent block. circ res 89,
+1014–1021.
+
+j physiol 560.1
+
+liu h, atkins j & kass r (2003). common molecular
+determinants of  xxxd2113xxx  and lidocaine block of heart
+na+ channels: evidence from experiments with neutral and
+quaternary  xxxd2113xxx  analogues. j gen physiol 121,
+199–214.
+liu h, tateyama m, clancy c, abriel h & kass r (2002).
+channel openings are necessary but not sufficient for
+use-dependent block of cardiac na+ channels by  xxxd2113xxx :
+evidence from the analysis of disease-linked mutations. j gen
+physiol 120, 39–51.
+nagatomo t, january c & makielski j (2000). preferential
+block of late sodium current in the  xxxg2028xxx  kpq mutant by
+the class i(c) antiarrhythmic  xxxd2113xxx . mol pharmacol 57,
+101–107.
+nitta j, sunami a, marumo f & hiraoka m (1992). states and
+sites of actions of  xxxd2113xxx  on guinea-pig cardiac sodium
+channels. eur j pharmacol 214, 191–197.
+o’leary m & chahine m (2002). cocaine binds to a common
+site on open and inactivated human heart ( xxxg2028xxx ) sodium
+channels. j physiol 541, 701–716.
+o’leary m, chen l, kallen r & horn r (1995). a molecular
+link between activation and inactivation of sodium chanels.
+j gen physiol 106, 641–658.
+o’leary m, digregorio m & chahine m (2003). closing and
+inactivation potentiate the cocaethylene inhibition of cardiac
+sodium channels by distinct mechanisms. mol pharmacol 64,
+1575–1585.
+qu y, rogers j, tanada t, scheuer t & catterall w (1995).
+molecular determinants of drug access to the receptor site
+for antiarrhythmic drugs in the cardiac na+ channel. proc
+natl acad sci u s a 92, 11839–11843.
+ragsdale d, mcphee j, scheuer t & catterall w (1994).
+molecular determinants of state-dependent block of
+na+ channels by local anesthetics. science 265,
+1724–1728.
+ragsdale d, mcphee j, scheuer t & catterall w (1996).
+common molecular determinants of local anesthetic,
+antiarrhythmic, and anticonvulsant block of voltage-gated
+na+ channels. proc natl acad sci u s a 93, 9270–9275.
+sanchez-chapula j, tsuda y & josephson i (1983). voltage- and
+use-dependent effects of lidocaine on sodium current in rat
+single ventricular cells. circ res 52, 557–565.
+sheets mf & hanck da (2003). molecular action of lidocaine
+on the voltage sensors of sodium channels. j gen physiol 121,
+163–175.
+starmer c, grant a & strauss h (1984). mechanisms of
+use-dependent block of sodium channels in excitable
+membranes by local anesthetics. biophys j 46, 15–27.
+sunami a, glaaser i & fozzard h (2001). structural and gating
+changes of the sodium channel induced by mutation of a
+residue in the upper third of ivs6, creating an external access
+path for local anesthetics. mol pharmacol 59, 684–691.
+viswanathan p, bezzina c, george a jr, roden d, wilde a &
+balser j (2001). gating-dependent mechanisms for  xxxd2113xxx 
+action in  xxxg2028xxx –linked arrhythmia syndromes. circ 104,
+1200–1205.
+wang g, russell c & wang s (2003). state-dependent block of
+wild-type and inactivation-deficient na+ channels by
+ xxxd2113xxx . j gen physiol 122, 365–374.
+
+
+c the physiological society 2004
+
+j physiol 560.1
+
+mechanisms of  xxxd2113xxx  trapping
+
+west j, patton d, scheuer t, wang y, goldin a & catterall w
+(1992). a cluster of hydrophobic amino acid residues
+required for fast na+ channel inactivation. proc natl acad sci
+u s a 89, 10910–10914.
+windle j, geletka r, moss a, zareba w & atkins d (2001).
+normalization of ventricular repolarization with  xxxd2113xxx 
+
+
+c the physiological society 2004
+
+49
+
+in long qt syndrome patients with  xxxg2028xxx : deltakpq
+mutation. ann noninvasive electrocardiol 6, 153–158.
+acknowledgements
+this work was supported by grants from the national institute
+on drug abuse (da15192) and the american heart association.
+

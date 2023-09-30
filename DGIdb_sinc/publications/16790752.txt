@@ -1,0 +1,1246 @@
+infection and immunity, july 2006, p. 3804–3816
+0019-9567/06/$08.00⫹0 doi:10.1128/iai.00161-06
+copyright © 2006, american society for microbiology. all rights reserved.
+
+vol. 74, no. 7
+
+ xxxg110xxx  restricts the ability of the pathogen
+candida albicans to form a biofilm on catheter surfaces
+through an  xxxd102xxx based mechanism‡
+pranab k. mukherjee,1 sotohy mohamed,1 jyotsna chandra,1 duncan kuhn,1† shuqing liu,2
+omar s. antar,3 ryan munyon,1 aaron p. mitchell,3 david andes,4 mark r. chance,2
+mahmoud rouabhia,5 and mahmoud a. ghannoum1*
+
+received 30 january 2006/returned for modification 28 february 2006/accepted 25 march 2006
+
+candida biofilms formed on indwelling medical devices are increasingly associated with severe infections. in
+this study, we used proteomics and western and northern blotting analyses to demonstrate that alcohol
+dehydrogenase (adh) is downregulated in candida biofilms. disruption of  xxxg72xxx  significantly (p ⴝ 0.0046)
+enhanced the ability of candida albicans to form biofilm. confocal scanning laser microscopy showed that the
+ xxxg72xxx  mutant formed thicker biofilm than the parent strain (210 ␮m and 140 ␮m, respectively). these
+observations were extended to an engineered human oral mucosa and an in vivo rat model of catheterassociated biofilm. inhibition of candida adh enzyme using disulfiram and  xxxd2148xxx  resulted in
+thicker biofilm (p < 0.05). moreover, biofilms formed by the  xxxg72xxx  mutant strain produced significantly smaller
+amounts of ethanol, but larger amounts of acetaldehyde, than biofilms formed by the parent and revertant
+strains (p < 0.0001), demonstrating that the effect of adh1p on biofilm formation is mediated by its enzymatic
+activity. furthermore, we found that 10% ethanol significantly inhibited biofilm formation in vitro, with
+complete inhibition of biofilm formation at ethanol concentrations of >20%. similarly, using a clinically
+relevant rabbit model of catheter-associated biofilm, we found that ethanol treatment inhibited biofilm formation by c. albicans in vivo (p < 0.05) but not by staphylococcus spp. (p > 0.05), indicating that ethanol
+specifically inhibits candida biofilm formation. taken together, our studies revealed that adh1p contributes to
+the ability of c. albicans to form biofilms in vitro and in vivo and that the protein restricts biofilm formation
+through an  xxxd102xxx dependent mechanism. these results are clinically relevant and may suggest novel antibiofilm treatment strategies.
+indwelling medical devices (imds) infected with candida
+represent a major problem, since members of this pathogenic
+genus, particularly candida albicans, adhere avidly to biomaterials, including catheters, and form biofilms (a community of
+microorganisms encased in a self-produced extracellular matrix [ecm]), making antifungal therapy alone insufficient for
+cure (19, 35, 39). c. albicans is the most common fungal pathogen associated with colonization and biofilm formation on the
+surfaces of imds, such as intravenous catheters (35, 38). candida biofilms are extremely resistant to commonly used antifungals (7, 37), and as stipulated in the infectious diseases
+society of america guidelines, removal of the catheter is often
+necessary to effect a cure (53). however, removal of imds may
+not be feasible in many cases, e.g., in patients with coagulopathy or those with limited vascular access (as often occurs
+among the pediatric population). moreover, catheter removal
+
+is also associated with increased health care expenses, as well
+as other complications (49). therefore, it is critical to devise
+new approaches to manage biofilm-associated infections, a
+prerequisite for which is obtaining a better understanding of
+the biology of the candida biofilm.
+an approach that has been used to understand the biology
+and gain a global insight into the processes occurring in cells
+living in a biofilm environment is proteomics. unlike genomic
+analyses, the proteomic approach provides information on the
+functional roles of proteins and protein-protein interactions.
+this state-of-the-art technique has been used to identify specific proteins expressed differentially in biofilms formed by
+bacteria (2, 51, 52, 60, 66). a recent proteomic analysis by ojha
+et al. (50) identified mycolic acid and groel1, a heat shock
+protein (hsp60) chaperone involved in biosynthesis of mycolic
+acid, as unique components essential for biofilm formation by
+mycobacterium smegmatis. proteomics has been used to study
+global protein expression and to identify proteins specific to
+candida germination and virulence (56) but has not been applied to candida biofilms.
+the objectives of this study were to (i) use a proteomic
+approach to identify proteins that are differentially expressed
+in early-phase biofilms; (ii) use gene disruption and inhibition
+assays to prove that one of the identified proteins contributes
+
+* corresponding author. mailing address: center for medical mycology, department of dermatology, case western reserve university, 11100 euclid avenue, lks-5028, cleveland, oh 44106. phone:
+(216) 844-8580. fax: (216) 844-1076. e-mail: mag3@case.edu.
+† present address: division of pulmonary and critical care, massachusetts general hospital, boston, ma 02114.
+‡ supplemental material for this article may be found at http://iai
+.asm.org/.
+3804
+
+downloaded from http://iai.asm.org/ on april 15, 2015 by georgian court univ
+
+center for medical mycology, case western reserve university, cleveland, ohio1; center for proteomics, case western reserve university,
+cleveland, ohio2; department of microbiology, columbia university, new york, new york3; department of medicine,
+university of wisconsin, madison, wisconsin4; and groupe de recherche en ecologie buccale, faculte de
+medecine dentaire, universite laval, quebec city, quebec, canada5
+
+vol. 74, 2006
+
+deletion of adh results in increased biofilm formation
+
+3805
+
+table 1. strains used in this study
+strain
+
+genotype
+
+bwp17 (day1)
+osa101 (parent)
+osa108 (revertant)
+osa114 ( xxxg72xxx  mutant)
+w303 (amp 1411)
+
+ura3⌬::␭imm434 arg4::hisg his1::hisg
+ura3⌬::␭imm434 arg4::hisg his1::hisg
+ura3⌬::␭imm434 arg4::hisg his1::hisg  xxxg72xxx ::tn7-uau1
+ura3⌬::␭imm434 arg4::hisg his1::hisg  xxxg72xxx ::tn7-ura3
+ura3⌬::␭imm434 arg4::hisg his1::hisg::phis1- xxxg72xxx   xxxg72xxx ::tn7-uau1
+ura3⌬::␭imm434 arg4::hisg his1::hisg  xxxg72xxx ::tn7-ura3
+ura3⌬::␭imm434 arg4::hisg his1::hisg::phis1  xxxg72xxx ::tn7-uau1
+ura3⌬::␭imm434 arg4::hisg his1::hisg  xxxg72xxx ::tn7-ura3
+mata ura3-1 leu2-3,112 his3-11 15 trp1-1  xxxg1661xxx -1 can1-100
+
+materials and methods
+candida isolates. the candida strains used in this study are described in table 1.
+candida cultures were maintained on sabouraud dextrose agar (yeast extract,
+peptone, dextrose [1:2:1]) or kept at ⫺80°c for long-term storage.
+animals. rats and rabbits were used in this study to compare the abilities of
+isogenic strains to form biofilm on catheters and to evaluate the ability of ethanol
+to inhibit candida biofilm formation, respectively. specific-pathogen-free female
+sprague-dawley rats weighing 400 g (harlan sprague-dawley, indianapolis,
+ind.) or female new zealand white rabbits weighing 2.5 to 3.0 kg (covance inc.,
+kalamazoo, mich.) were used. the animals were housed in an environmentally
+
+67
+this study
+this study
+this study
+27
+
+controlled room with a 12-h light-dark cycle and were maintained on a standard
+ad libitum rat diet. animal studies with rats were in accordance with the american association for accreditation of laboratory care criteria and approved by
+the animal research committee of the william s. middleton memorial veterans administration hospital, madison, wisconsin. all studies with rabbits were
+performed in accordance with the guidelines for animal health and welfare
+required by the institutional animal care and use committee at case western
+reserve university school of medicine, cleveland, ohio.
+biofilm formation in vitro. candida biofilms were formed and quantified as
+described previously (7). briefly, c. albicans cells were grown overnight at 37°c
+in yeast nitrogen base (ynb) medium (difco laboratories, detroit, mi) supplemented with 50 mm glucose. a standardized cell suspension was prepared
+from this culture by adjusting the cell density to 1 ⫻ 107 cells/ml. silicone
+elastomer disks (1.5-cm diameter; cardiovascular instrument corp., wakefield,
+ma) were placed in 12-well tissue culture plates and incubated in fetal bovine
+serum for 24 h at 37°c on a rocker. next, the disks were immersed in 3 ml of the
+standardized cell suspension (1 ⫻ 107 cells/ml) and incubated for 90 min at 37°c.
+subsequently, the disks were immersed in ynb medium with 50 mm glucose and
+incubated for different times at 37°c on a rocker. fungal biofilms were quantified
+as described previously (7) by measuring their biomass and metabolic activity
+using dry-weight determination and tetrazolium dye [2,3-bis (2-methoxy-4-nitro5-sulfophenyl)-2h-tetrazolium-5-carboxanilide] (xtt) reduction assays (by
+measuring absorbance at 492 nm), respectively. assays were carried out in four
+replicates on different days.
+protein extraction. candida biofilms are characterized by the presence of cell
+wall glycoprotein-rich ecm (7, 8, 36). therefore, we hypothesized that proteins
+associated with the fungal cell wall play a critical role in biofilm development. to
+test this hypothesis, c. albicans was grown as biofilm to the early phase (6 h) and
+as planktonic cells using our in vitro model. total proteins were extracted and
+fractionated into different cellular fractions using a modification of the method
+previously described for candida cells (48). similar sodium  xxxd3215xxx 
+(sds) extraction-based methods have routinely been used by our group and
+other investigators to separate the soluble and insoluble components of c.
+albicans cell wall proteins (17, 48, 57). briefly, biofilms and planktonic cells were
+harvested, washed with prechilled phosphate-buffered saline (pbs), and homogenized with glass beads (0.45-mm diameter; sigma) in buffer a (10 mm sodium
+acetate, ph 5.0, 1 mm phenylmethylsulfonyl fluoride). the resulting lysate was
+centrifuged to remove cytoplasmic material, and the cell wall pellet was incubated with buffer b (10 mm tris-cl, ph 7.8, 2% sds, 100 mm edta, 40 mm
+␤- xxxd26xxx ) for 10 min at 100°c to release sds-soluble cell wall (cws)
+proteins into the mixture. these released cws proteins were collected, after
+a brief centrifugation step, in the supernatant and processed for proteomic
+analyses.
+proteomic analysis. proteomic analyses of the cws samples isolated from c.
+albicans biofilm or planktonic cells were performed as described previously (23,
+43). a brief description is given below.
+(i) cy dye labeling. the fractionated cws protein samples were precipitated
+by using a clean-up kit (ge healthcare). precipitates were solubilized in lysis
+buffer (7 m urea, 2 m thiourea, 4% chaps {3-[(3-cholamidopropyl)-dimethylammonio]-1-propanesulfonate}, 30 mm tris), and the concentration was measured by using a 2d quant kit (ge healthcare). a 250-␮g biofilm sample was
+labeled with 400 pmol of cy3, and a 250-␮g planktonic sample was labeled with
+400 pmol of cy5. labeling was performed for 30 min on ice in the dark, after
+which the reactions were quenched with the addition of 1 ␮l of 10 mm lysine.
+the quenched 250-␮g cy3- and cy5-labeled samples for biofilm and planktonic
+c. albicans were then combined and mixed together, after which an equal volume
+of 2⫻ rehydration buffer (7 m urea, 2 m thiourea, 4% chaps, 4 mg/ml dithio-
+
+downloaded from http://iai.asm.org/ on april 15, 2015 by georgian court univ
+
+to candida biofilm formation in vitro; (iii) move our studies
+closer to the clinical setting by showing that a correlation exists
+between the ability of isogenic c. albicans strains to form
+biofilm in vitro, in an engineered human oral mucosa (ehom)
+model, and in a rat model of catheter-associated candida biofilm; and (iv) determine the mechanism by which the identified
+protein modulates c. albicans biofilm formation.
+in this study, using a proteomic approach, we demonstrate
+that  xxxg110xxx  (adh1p) expression is reduced in
+candida biofilm relative to planktonic cells (grown in suspension). targeted disruption of  xxxg72xxx  or inhibition of the enzyme using specific inhibitors resulted in thicker biofilm in
+vitro than those of the parent and revertant strains. the effect
+of adh1p was also tested in an in vivo-like ehom model.
+ehom tissues infected with the  xxxg72xxx  mutant exhibited increased biofilm formation, tissue damage, and penetration of
+tissue layers compared to tissues infected with the parent and
+revertant c. albicans strains. to demonstrate the in vivo relevance of the role of adh1p in biofilm formation, we tested the
+ability of an  xxxg72xxx  mutant strain to form biofilm in a rat model
+of intravenous-catheter-associated candida biofilm. we found
+that the  xxxg72xxx  mutant formed more biofilm than the isogenic
+parental strain, demonstrating that deletion of  xxxg72xxx  results in
+increased biofilm formation in vivo. since adh1p catalyzes the
+conversion of acetaldehyde to ethanol, we measured the
+amounts of these two substances in biofilms and showed a
+significant increase and decrease in their levels, respectively.
+furthermore, we used in vitro and in vivo assays to demonstrate that ethanol inhibits biofilm formation and that the biofilm-inhibitory activity of adh1p is mediated by its enzymatic
+activity.
+this is the first report that identifies a specific regulator of
+fungal biofilm, demonstrating its in vivo relevance and associated mechanism. our findings have important implications for
+biofilm formation and the coexistence of microbes in a mixedspecies environment, as well as wide-ranging clinical implications.
+
+reference
+
+3806
+
+mukherjee et al.
+
+insertion mutant strains were constructed by random-transposon mutagenesis
+with the uau1 cassette, as described previously (16). c. albicans strains were
+grown in ypd plus uridine (1% yeast extract, 2% bacto peptone, 2% dextrose,
+and 80 ␮g uridine ml⫺1) at 30°c. following transformations, selection was done
+on synthetic medium (2% dextrose, 6.7% yeast nitrogen base plus ammonium
+sulfate and the auxotrophic requirements).
+gene complementation. the open reading frame (orf) of the  xxxg72xxx 
+(orf19.3997) gene was identified through the stanford c. albicans genome database (http://www-sequence.stanford.edu/group/candida). pcr was used to produce a fragment of  xxxg72xxx  from approximately 1,000 bp upstream of the atg to
+approximately 500 bp downstream of the stop codon of the orf. the primer
+sequences used were as follows: forward, 5⬘-ggtcatagtttcatttgcccc
+cg-3⬘; reverse, 5⬘-ccacaacaacaaatactcttctacagga-3⬘. this
+fragment was inserted into the pgemt-easy vector (promega), which contains
+noti or alwni and ngomiv sites flanking the insertion. the insert was then
+released with alwni and ngomiv and integrated into noti-digested pddb78,
+a trp1 his1 vector (65), by in vivo recombination using saccharomyces cerevisiae w303 (27), a trp1⫺ strain (amp 1411). the recombination within the w303
+strain generated plasmid posa107 containing the complementing  xxxg72xxx  insert
+within the pddb78 backbone, suitable for integration into the his1 locus of c.
+albicans. the revertant strain (osa108) was constructed by transforming
+osa101 (tadh1 7.4 5), the  xxxg72xxx / xxxg72xxx  homozygous insertion mutant, to histidine prototrophy with the nrui-digested plasmid posa107. the unique nrui
+site in these plasmids lies in his1 sequences; nrui digestion thus directs integration to the his1 locus. for comparison to the complemented strains, the
+mutant strains were made his⫹ by transforming each mutant to histidine prototrophy with nrui-digested plasmid pddb78. strain osa114 (pddb78 7.4 5)
+was derived from mutant osa101 (tadh1 7.4 5). disruption and reintroduction
+of the  xxxg72xxx  gene was confirmed by pcr analyses of the isogenic strains using
+the primers mentioned above.
+phenotypic characterization of constructed isogenic strains. the growth and
+germination abilities of the constructed isogenic strains were determined as
+described previously (14, 25, 42). briefly, growth of the strains was followed at
+2-h intervals until the stationary phase of growth was attained. for germination
+assays, cells were grown in ynb medium overnight. these freshly grown cells
+were adjusted to a standardized suspension (5 ⫻ 107 cells in 50 ␮l pbs) and then
+incubated with 10% fetal bovine serum for 180 min. after the incubation period,
+10-␮l samples were withdrawn for each strain, a wet mount from each sample
+was prepared, and the number of yeasts that had germ tubes at least 1 blastospore diameter in length was determined microscopically. the percentage of
+germinating cells for each isogenic strain was determined compared to the total
+number of cells counted.
+confocal scanning laser microscopy (cslm) of candida biofilms. to determine the effect of adh1p inhibitor or disruption of the  xxxg72xxx  gene on the
+morphology and architecture of candida biofilms, confocal analyses of the biofilms were performed as described previously (7). briefly, at various time points
+during biofilm formation, silicone elastomer disks on which biofilms were developing were transferred to a 12-well plate and incubated for 45 min at 37␱c in 4
+ml pbs containing the fluorescent stains  xxxg398xxx  (10 ␮m) and  xxxd2620xxx 
+(cona)–alexa fluor-488 conjugate (cona, 25 ␮g/ml).  xxxg398xxx  (excitation wavelength, 543 nm; emission, 560-nm long-pass filter) is converted to orange-red
+cylindrical intravacuolar structures by metabolically active cells, while cona
+(excitation wavelength, 488 nm; emission, 505-nm long-pass filter) binds to glucose and mannose residues of cell wall polysaccharides with green fluorescence.
+after incubation with the dyes, the silicone elastomer disks were placed on a
+35-mm glass-bottom petri dish (mattek corp., ashland, ma) and observed with
+a zeiss lsm510 confocal scanning laser microscope (carl zeiss, inc.).
+ehom model. to move our study closer to the clinical setting, we used an
+ehom model and tested the abilities of the isogenic strains to form biofilm and
+damage and invade ehom tissue layers. the ehom model was created as
+described previously (58). briefly, fibroblasts and epithelial cells were isolated
+from human oral biopsy specimens and cultured in a manner allowing the
+formation of a complex three-dimensional spatial cellular organization, found in
+normal human oral mucosa. specimens of normal palatal mucosae were obtained
+from patients who had attended the dental clinic at laval university (school of
+dental medicine) to undergo gingival grafts. the sample of normal palatal
+mucosa removed from the donor site usually exceeds by a few millimeters the size
+needed for the graft. usually the excess tissue is thrown away with the biomedical
+waste products. following informed consent, the excess tissue was collected and
+used in the study. the epithelium was separated from the lamina propria using
+thermolysin treatment. epithelial cells and fibroblasts were isolated, cultured,
+and then used to design ehom. the lamina propria was produced by mixing
+bovine (skin) type i and type iii collagens (sigma, st. louis, mo) with gingival
+
+downloaded from http://iai.asm.org/ on april 15, 2015 by georgian court univ
+
+threitol) supplemented with 2% immobilized ph gradient (ipg) buffer 4-7 (ge
+healthcare) was added.
+(ii) two-dimensional gel electrophoresis and imaging. the pair-labeled samples for biofilms and planktonic c. albicans (450-␮l final volume) were passively
+rehydrated in 24-cm 4-7 ipg strips (ge healthcare) for 2 h at 0 v and 12 h at
+30 v, followed by isoelectric focusing using a ipgphor ii (ge healthcare) for a
+total of 65.5 kvh (held at 500 v for 1 h, held at 1,000 v for 1 h, and held at 8,000
+v for 8 h). the cysteine sulfhydryls were reduced and carbamidomethylated,
+while the proteins were equilibrated into the second-dimensional loading buffer
+by incubating the focused strips in equilibration buffer (30% glycerol, 6 m urea,
+2% sds, 100 mm tris, ph 8.0, trace bromophenol blue) supplemented with
+0.5% dithiothreitol for 10 min at room temperature, followed by 4.5% iodoacetamide in fresh equilibration buffer for an additional 10 min of room temperature incubation. ipg strips were then placed on top of 12% homogeneous
+polyacrylamide gels that were precast with low-fluorescence glass plates using an
+ettan-dalt caster (ge healthcare). the glass plate was presilanized (bindsilane; ge healthcare) to affix the polymerized gel to only one of the glass plates,
+thereby preventing gel swelling/shrinkage between data acquisition and protein
+excision. the second-dimensional sds-polyacrylamide gel electrophoresis
+(page) was then carried out under the following conditions: 40 ma/gel; ⬃130
+v starting voltage for 14 h. the cy3 (biofilm) and cy5 (planktonic) components
+of each gel were individually imaged using excitation/emission wavelengths of
+532/580 nm for cy3 and 633/670 nm for cy5 using a typhoon 9400 (ge healthcare). after being imaged for cy dye components, the nonsilanized glass plate
+was removed, and the gels were fixed in 10% methanol, 7.5% acetic acid overnight and then washed in wash solution (2.94 g of sodium hydrogen carbonate
+and 31.8 g of  xxxd3212xxx  in 750 ml water brought to 1 liter with water) for
+30 min and then incubated in deep purple solution (ge healthcare; 1 in 250
+dilution) in the dark for 1 h at room temperature. this poststain visualizes ca.
+95% of the unlabeled protein and ensures accurate protein excision, as the
+molecular weights and hydrophobicity of cy dyes can influence protein migration
+during sds-page. the deep purple image was acquired on the same imager
+using 532/560-nm wavelengths, as well as reimaging postexcision to ensure accurate protein excision.
+data analysis. decyder software (ge healthcare) differential in-gel analysis
+was used for simultaneous comparison of abundance changes for pairwise comparisons of individual cy3 biofilm and cy5 planktonic samples. the entire signal
+from each cy dye channel was normalized prior to the codetection of protein
+spot boundaries and the calculation of the volume ratio for each protein spot
+pair. the fold change for each protein spot was reported. proteins of interest
+were robotically excised in a 96-well plate format using ettan spot picker (ge
+healthcare). the gels were dehydrated and digested in gel with trypsin protease,
+and tryptic peptides were then extracted from the gel and applied to a matrixassisted laser desorption ionization (maldi) target. peptide mass maps were
+acquired using maldi-time of flight/time of flight mass spectrometry performed
+on a voyager 4700 (applied biosystems). the spot intensity was quantified with
+the spot normalized volume depending on the whole volume of the difference
+in-gel electrophoresis (dige) image after scanning the image using a typhoon
+scanner. dark-blue spots (cy5 labeled) indicated proteins identified as upregulated in biofilms, while dark-red spots (cy3 labeled) indicated proteins downregulated in biofilms. the data were analyzed using the applied biosystems gps
+explorer software with mascot analysis, and a combined peptide mass fingerprinting/tandem mass spectrometry search. an increase in the cy5/cy3 ratio
+indicated proteins upregulated in biofilms, while an increase in the cy3/cy5 ratio
+indicated upregulated proteins in planktonic c. albicans.
+western and northern blotting analyses. to confirm the identity and levels of
+adh1p during biofilm development, we performed western and northern blotting analyses as described previously (7, 46). for western blot analyses, 10 ␮g
+protein was separated by sds-page and detected using an anti-yeast adh
+primary antibody (1:10,000; calbiochem), a horseradish peroxidase-conjugated
+anti-rabbit secondary antibody (1:5,000; calbiochem), and a chemiluminescencebased detection kit (ecl; amersham). for northern analysis, total rna was
+extracted from biofilm and planktonic c. albicans, and northern analysis of the
+extracted rna was performed using a pcr-amplified  xxxg72xxx -specific probe
+(primers: forward, 5⬘-gcaagcttattcagaattttcagaggtgc-3⬘, and
+reverse, 5⬘-caactggtgtccaatacgtatctactcaag-3⬘).
+disruption and reintroduction of c. albicans  xxxg72xxx  gene. to unequivocally
+confirm the contribution of adh1p to candida biofilm formation, we constructed
+an isogenic strain pair that differed only in the ability to produce adh1p and a
+revertant strain in which a functional copy of  xxxg72xxx  was reintroduced.
+gene disruption. all candida albicans strains used in this study were derived
+from strain bwp17 (ura3⌬::␭imm434/ura3⌬::␭imm434 arg4::hisg/arg4::hisg
+his1::hisg/his1::hisg) (67) and are listed in table 1. the his⫺ homozygous
+
+infect. immun.
+
+vol. 74, 2006
+
+deletion of adh results in increased biofilm formation
+
+ethanol lock treatment of biofilm formed by c. albicans on catheters placed in
+rabbits. we examined the efficacy of ethanol lock therapy against biofilms
+formed by c. albicans, staphylococcus epidermidis, and staphylococcus aureus in
+a rabbit model of catheter biofilm, as described previously (62). this model
+allows the administration and withdrawal of nutrients at different time points and
+is relevant to the clinical setting of biofilm formation. briefly, silicone catheters
+were surgically placed in new zealand white rabbits. three groups of 10 rabbits
+each were infected with c. albicans, s. epidermidis, or s. aureus, respectively.
+after catheter placement, a standard 300-␮l inoculum consisting of 1 ⫻ 107 cfu
+of microorganisms and 100 u of heparin (abbott laboratories, north chicago,
+ill.) was “locked” in the internal lumen of the catheter and allowed to dwell for
+24 h. the inoculum was removed, and the catheter was flushed daily with 300 ␮l
+of heparinized saline (100 u) or 50% ethanol. daily heparin flushes were performed for the first 3 days. five animals in each group were treated with 300 ␮l
+of 50% ethanol locked in the catheter lumen for 30 min/day for 7 days. the
+remaining 5 animals in each group were treated with daily heparin flushes. at the
+end of the treatment period, the rabbits were anesthetized, and 5 ml of blood was
+obtained for blood culture (bd bactec; becton dickinson) through the catheter
+and via cardiac puncture. the animals were euthanized with an intracardiac
+injection of pentobarbital. next, using sterile technique, the catheter was removed and divided into proximal (subcutaneous tunnel) and distal (intravenous)
+4-cm segments. each segment was evaluated by sem.
+statistical analysis. all statistical analyses were performed using statview
+version 5.0.1 software (sas institute inc., cary, nc). for paired comparisons,
+students t test was used, while analysis of variance was performed for comparisons involving more than two groups. a p value of ⬍0.05 was considered
+statistically significant.
+
+results
+proteomic analysis demonstrated that  xxxg110xxx  is downregulated in candida biofilm. studies performed
+with whole-cell proteins result in high background and also
+make it difficult to detect proteins with low abundance (17, 57).
+to avoid these limitations, and to identify differentially expressed proteins in early-phase candida biofilms, we performed fractionation of crude lysates from biofilm and planktonically grown cells to obtain proteins enriched in different
+cellular components (cell wall, membranes, and cytoplasm).
+since candida biofilms are characterized by the presence of
+polysaccharide-rich ecm, which is commonly associated with
+fungal cell walls (7, 47), in this study we focused on the cell
+wall-enriched fraction of c. albicans biofilm proteins. crude
+lysates of biofilm and planktonic c. albicans grown to 6 h were
+separated by differential centrifugation and detergent fractionation, resulting in a cws fraction. using two-dimensional gel
+electrophoresis, we found that 33 spots were downregulated
+while 38 spots were upregulated in biofilms. mass spectrometry
+revealed the identities of 24 proteins, with molecular masses
+ranging from 19 kda to 86 kda and isoelectric points ranging
+from 4 to 7 (fig. 1; see table s1 in the supplemental material).
+the differentially expressed proteins included  xxxg110xxx  (adh1p), which was downregulated in biofilms. this
+protein is known to catalyze the reversible conversion of acetaldehyde to ethanol (4). our results showed that the level of
+adh1p in c. albicans biofilm was ⱖ1.5-fold lower than in
+planktonic cells grown to 6 h (see table s1 in the supplemental
+material). next, we performed western blotting analyses and
+found that adh1p levels were lower in biofilm than in planktonic cells at all time points (fig. 2a). additionally, northern
+blot analysis also revealed that as biofilm formation progressed
+through developmental phases, the level of  xxxg72xxx  expression
+decreased in c. albicans biofilms compared to planktonically
+grown cells (fig. 2b). these results confirmed the identity of
+adh1p, as well as its reduced expression in c. albicans biofilm.
+
+downloaded from http://iai.asm.org/ on april 15, 2015 by georgian court univ
+
+fibroblasts and then cultured in fetal calf serum-supplemented culture medium
+for 4 days. the lamina propria was then seeded with gingival epithelial cells to
+obtain the ehom. the tissues were grown under submerged conditions until the
+total surface of the lamina propria was covered with epithelial cells. to produce
+a stratified epithelium, the ehom was raised to an air-liquid interface for five
+more days to allow the organization of the epithelium into its different strata,
+including the stratum corneum. to test the abilities of the isogenic candida
+strains to form biofilm on ehom tissue, the oral mucosae were infected with
+1 ⫻ 106 cells/cm2 of (i) wild-type c. albicans, (ii) the  xxxg72xxx  mutant, or (iii) the
+revertant strain. tissues treated with no candida cells served as uninfected
+controls for 24 h. the tissues were collected, stained with masson trichrome,
+observed with an optical microscope, and photographed.
+quantitation of biofilms formed on ehom tissues. to quantitatively assess
+the difference between biofilm formations by the different c. albicans strains, we
+collected multiple biopsy specimens from each infected ehom and stained them
+with hematoxylin and eosin. all slides were assigned a number, and measurements were made independently by two different observers. the blinded observer
+measured the thickness of c. albicans biofilms at regular intervals using a calibrated image analysis system (image  xxxd404xxx  software; media cybernetics, md)
+as previously described by chakir et al. (6). ten measurements were performed
+on the unfolded area of each slide. the thicknesses of biofilms formed on
+ehom tissues infected with the  xxxg72xxx  mutant strain were compared with those
+of biofilms formed by the wild-type and revertant strains. a p value of ⬍0.05 was
+considered statistically significant.
+rat model of intravenous-catheter-associated candida biofilm. the ability of
+the  xxxg72xxx  mutant to form biofilm in vivo was tested using a rat model of intravenous-catheter-associated candida biofilm formation (1), which allows rapid
+screening of candida mutants for the ability to form biofilm. the catheter
+diameter was chosen in an attempt to permit blood flow around the extraluminal
+catheter surface. to mimic material used in patients, polyethylene tubing (inner
+diameter, 0.76 mm; outer diameter, 1.52 mm) was chosen. specific-pathogen-free
+sprague-dawley rats weighing 400 g were used. a heparinized (100-u/ml) catheter was surgically inserted into the external jugular vein and advanced to a site
+above the right atrium (2-cm length). the catheter was secured to the vein, and
+the proximal end was tunneled subcutaneously to the midscapular space and
+externalized through the skin. the catheters were placed 24 h prior to infection
+to allow a conditioning period for deposition of host protein on the catheter
+surface. infection was achieved by intralumenal instillation of 500 ␮l c. albicans
+cells (106 cells/ml). after a dwelling period of 4 h, the catheter volume was
+withdrawn and the catheter was flushed with heparinized 0.15 m nacl.
+the catheters were removed from two animals 24 h after c. albicans infection
+to determine biofilm development on the internal surfaces of the intravascular
+devices. the distal 2 cm of the catheter was cut from the entire catheter length
+for biofilm imaging using both confocal and scanning electron microscopy
+(sem). the distal 2 cm of catheter was transected perpendicular to the catheter
+length into 2-mm-long circular segments.
+sem of catheters inserted in rats. sem analysis of catheters placed intravenously in rats was performed as described previously by andes et al. (1). briefly,
+catheter segments were washed with 0.1 m phosphate buffer, ph 7.2, and placed
+in fixative (1% glutaraldehyde and 4% formaldehyde). the samples were then
+washed with buffer for 5 min, placed in 1% osmium tetroxide for 30 min, and
+dehydrated in a series of 10-min ethanol washes (30%, 50%, 70%, 85%, 95%,
+and 100%). final desiccation was accomplished by critical-point drying (tousimis, rockville, md.). specimens were mounted on aluminum stubs and sputter
+coated with gold. samples were imaged in a scanning electron microscope (jeol
+jsm-6100) in the high-vacuum mode  xxxd1891xxx  kv. the images were processed for
+display using adobe photoshop 7.0.1.
+effects of adh inhibitors on candida biofilm formation in vitro. to determine
+whether biochemical inhibition of adh enzyme affects candida biofilm formation, we investigated the effect of treating c. albicans with disulfiram, a specific
+inhibitor of this enzyme (40, 41), or  xxxd2148xxx  (21, 63). biofilms were
+grown for 48 h in the presence of 200 ␮m disulfiram or 10 mm  xxxd2148xxx .
+the metabolic activities and dry biomasses of the biofilms formed were determined by xtt and dry-weight measurements, respectively.
+determination of levels of extracellular ethanol and acetaldehyde in c. albicans biofilms. for determining extracellular ethanol and acetaldehyde levels, c.
+albicans biofilms were scraped into 4 ml of fresh pbs. the resulting suspension was
+centrifuged at 6,000 ⫻ g in a fisher scientific centrifuge, and the supernatant was
+retained. the levels of ethanol and acetaldehyde (g/100 ml) present in these supernatants were then determined using commercially available assay kits (boehringer
+mannheim/r-biopharm) according to the manufacturers’ instructions.
+
+3807
+
+3808
+
+mukherjee et al.
+
+infect. immun.
+
+molecular and biochemical evidence shows that  xxxg72xxx  restricts the ability of candida to form biofilm. (i) targeted
+disruption of the  xxxg72xxx  gene enhances the ability of c. albicans
+to form biofilm in vitro. since adh1p protein levels were lower
+in biofilms than planktonic forms of c. albicans, we hypothesized that disruption of the  xxxg72xxx  gene, which encodes this
+protein, would result in increased biofilm formation. to test
+this hypothesis and to unequivocally prove the role of adh1p in
+c. albicans biofilm formation, we disrupted the c. albicans
+ xxxg72xxx  gene using transposon insertion (16). disruption and
+reintroduction of the  xxxg72xxx  gene were confirmed by pcr
+amplification, which revealed the presence of the expected
+1,297-bp product in the wild-type parent strain and the  xxxg72xxx 
+revertant strain, but not in the  xxxg72xxx  mutant (fig. 3a). phenotypic characterization of the isogenic  xxxg72xxx  mutant, revertant,
+and wild-type parent strains revealed that both growth rate
+(fig. 3b) and germ tube formation were similar to those of the
+corresponding isogenic parental strains (table 2), demonstrating that disruption of the  xxxg72xxx  gene affected neither the
+growth of c. albicans nor its ability to form hyphae. evaluation
+of metabolic activity and dry-weight biomass (xtt optical
+density [od]/mg dry weight) showed that the  xxxg72xxx  mutant
+formed significantly more biofilm than the isogenic parental c.
+
+albicans strain (fig. 3c) (p ⫽ 0.0046). moreover, confocal
+microscopic examination revealed that at both early and mature phases, the  xxxg72xxx  mutant formed thicker biofilm than the
+wild-type strain (78 ␮m and 210 ␮m thick for the  xxxg72xxx  mutant
+and 48 ␮m and 140 ␮m thick for the parent strain at early [6 h]
+and mature [48 h] phases, respectively). the biofilm formed by
+the revertant strain was similar to that formed by the isogenic
+parental strain (data not shown). these results provided unequivocal genetic evidence that adh1p restricts the ability of c.
+albicans to form biofilm.
+(ii) downregulation of adh1p enhances the ability of c.
+albicans to form biofilm on ehom and mediates invasion and
+damage of tissues. to move our studies closer to the in vivo
+setting, we determined the effect of adh1p on the ability of c.
+albicans to form biofilm in the in vivo-like ehom model,
+which mimics the physiologic conditions and complex structure
+of the oral mucosa in terms of three-dimensional structure, the
+relationship between the different cell types, and secretion of
+soluble factors (58). our results revealed that while all the
+isogenic strains tested formed biofilms on the ehom layers
+and led to disorganization of the tissue layers, the  xxxg72xxx  mutant
+caused maximum disruption of ehom layers (fig. 4). importantly, hyphae of the  xxxg72xxx  mutant were observed infiltrating
+
+downloaded from http://iai.asm.org/ on april 15, 2015 by georgian court univ
+
+fig. 1.  xxxg110xxx  is downregulated in cell walls in the early phase of c. albicans biofilms. two-dimensional dige analysis was
+performed with sds-soluble cell wall proteins of c. albicans grown as a (a) biofilm (cy-5 labeled) or (b) planktonic (cy-3 labeled) form, followed
+by maldi-time of flight mass spectrometry analysis. (c) merged image (cy5 and cy3 overlap) showing 24 differentially expressed spots, including
+adh1p, in c. albicans biofilms. an increase in the cy5/cy3 ratio (dark-blue spots) indicated proteins upregulated in biofilms, while an increase in
+the cy3/cy5 ratio (dark-red spots) indicated upregulated proteins in planktonic c. albicans. proteins were identified by mass spectrometry analysis
+of the cws fraction of c. albicans biofilm. the spot intensity was quantified with the spot normalized volume depending on the whole volume of
+the dige image after scanning the image using a typhoon scanner. sequence information from mass spectrometry analysis was matched with the
+online protein database ncbinr using the matrixscience mascot search site (http://www.matrixscience.com). protein scores of greater than 58 were
+considered significant (p ⬍ 0.05).
+
+vol. 74, 2006
+
+deletion of adh results in increased biofilm formation
+
+into the lamina propria of ehom, indicating invasion of the
+tissue layers by the mutant strain (fig. 4d and e), but not by
+the isogenic parental and revertant strains. quantitative analysis revealed that biofilms formed by the  xxxg72xxx  mutant strain on
+ehom layers were significantly thicker (p ⬍ 0.05) than those
+formed by the parent or revertant strain (fig. 4f). these studies demonstrated that disruption of the  xxxg72xxx  gene resulted in
+increased biofilm-forming ability in c. albicans and enhanced
+its ability to invade and damage host mucosal tissues.
+(iii) scanning electron microscopy revealed that the c.
+albicans  xxxg72xxx  mutant strain forms a confluent biofilm with
+dense extracellular matrix on catheters inserted in rats. the
+ehom model provides information about biofilm formation
+and the penetration and damage induced by c. albicans biofilm. however, the model lacks some in vivo modulatory factors, such as salivary histatins and immunoglobulin a, mucosal
+dendritic cells, defensins, and lysozyme, and does not completely mimic an in vivo situation. to determine whether
+adh1p affects biofilm formation in an in vivo environment, we
+compared the biofilm-forming abilities of the isogenic set of
+the  xxxg72xxx  mutant, wild-type, and revertant strains using a recently established rat model of catheter-associated biofilm formation (1). sem examinations revealed that the wild-type and
+ xxxg72xxx  revertant c. albicans strains produced mature biofilm by
+24 h with adherent yeast and filamentous populations and
+matrix (data not shown). although these strains formed biofilms in vivo, several areas of the catheter surface were visible,
+indicating nonconfluent and patchy biofilm formation. in contrast, biofilm formed by the  xxxg72xxx  c. albicans mutant was more
+extensive and completely covered the catheter surface, with
+dense extracellular matrix (data not shown). to confirm that
+
+biofilms formed by the  xxxg72xxx  mutant were thicker than those of
+the parent or revertant strain on catheters inserted in rats, we
+used cslm to visualize the penetration of cona through the
+biofilms formed. we detected cona staining on biofilms
+formed by the  xxxg72xxx  mutant on internal surfaces of catheters
+obtained from the in vivo rat model (data not shown). moreover, the ecm of these biofilms was very dense, which precluded visualization of individual yeast and hyphal cells and
+prevented the stain from reaching the basal surface of the
+biofilm adjacent to the catheter surface (data not shown). in
+contrast, cona penetrated biofilms formed by c. albicans parent and revertant strains, which exhibited both yeast and filamentous forms, suggesting that the dye penetrated to the basal
+biofilm layer on the catheter surface (data not shown) and
+indicating that biofilms formed by the parent and revertant
+strains were not as thick as those formed by the  xxxg72xxx  mutant.
+these results correlate well with our in vitro quantitative and
+microscopy analyses, as well as ehom results, which revealed
+that the  xxxg72xxx  mutant forms thicker biofilms than the wild-type
+and revertant c. albicans strains. taken together, our studies
+demonstrated that disruption of the  xxxg72xxx  gene increased the
+ability of c. albicans to form biofilm in an in vivo-like ehom
+in vitro, and in vivo models, thereby unequivocally proving that
+adh1p restricts the ability of c. albicans to form biofilm.
+(iv) biochemical inhibition of adh enhances its ability to
+form biofilm. having shown that disruption of the  xxxg72xxx  gene
+enhances the ability of c. albicans to form biofilms, we examined whether inhibiting the enzymatic activity of adh1p with a
+known adh inhibitor, disulfiram (a zinc-chelating agent) (40,
+41), modulates the biofilm-forming ability of this organism.
+although disulfiram is known to inhibit adh, it also inhibits
+aldehyde dehydrogenase (29). therefore, we included  xxxd2148xxx , which inhibits adh specifically by binding to the
+active-site zinc of the enzyme and to the enzyme-cofactor complex (20, 21, 63), in our studies to test the effect of specific
+adh inhibition on biofilm formation. our data showed that
+upon incubation, c. albicans formed significantly more biofilm
+in the presence of disulfiram than in its absence (xtt od/mg
+dry biomass, 183.4 ⫾ 6.09 and 79.895 ⫾ 5.8, respectively; p ⬍
+0.05). a similar pattern of biofilm formation was observed for
+biofilm formed in the presence of  xxxd2148xxx  (xtt
+od/mg dry biomass, 107.692 ⫾ 13.3988) compared to that
+formed in its absence (xtt od/mg dry biomass, 79.895 ⫾ 5.8;
+p ⫽ 0.034). next, we used cslm to examine whether adh
+inhibitors affect the morphology and architecture of c. albicans
+biofilm. cslm analysis showed that disulfiram treatment resulted in biofilm that was thicker (⬃600 ␮m) than untreated
+control biofilm (120 ␮m) (fig. 5a and b). moreover, biofilms
+formed in the presence of disulfiram had a complex architecture with an elaborate network of c. albicans hyphae enmeshed in a carbohydrate-rich ecm. taken together, these
+studies provide biochemical confirmation that adh1p restricts
+the ability of c. albicans to form biofilm.
+ xxxg72xxx  downregulates candida biofilm formation through an
+ xxxd102xxx dependent mechanism. (i) deletion of the  xxxg72xxx  gene
+and inhibition of the adh enzyme decrease ethanol production and increase the acetaldehyde levels in c. albicans biofilm.
+since disulfiram and  xxxd2148xxx  target adh enzyme
+activity, we hypothesized that the role of adh1p in c. albicans
+biofilm formation is mediated by its enzymatic activity. adh1p
+
+downloaded from http://iai.asm.org/ on april 15, 2015 by georgian court univ
+
+fig. 2. correlation between protein and mrna level expressions
+of adh1p and its corresponding gene in c. albicans biofilms grown to
+different developmental phases. temporal expression of  xxxg72xxx  in c.
+albicans biofilm during development was determined by (a) western
+and (b) northern blot analyses. as can be seen in panel a, adh1p
+protein levels were lower in biofilms than in planktonic cells. (b) levels of  xxxg72xxx  mrna decrease in c. albicans biofilms with time, with no
+signal detected in mature biofilm.
+
+3809
+
+3810
+
+mukherjee et al.
+
+infect. immun.
+
+downloaded from http://iai.asm.org/ on april 15, 2015 by georgian court univ
+fig. 3. disruption of the c. albicans  xxxg72xxx  gene increases the ability of c. albicans to form biofilm in vitro. (a) disruption of  xxxg72xxx  gene.
+(b) effect of disruption of the  xxxg72xxx  gene on the growth curve of planktonic c. albicans. (c) biofilm formation by the wild-type,  xxxg72xxx  mutant,
+and revertant strains of c. albicans. the  xxxg72xxx / xxxg72xxx  mutant strain was constructed from strain bwp17 through use of a tn7-uau1 transposon
+insertion in the middle of the  xxxg72xxx /orf19.3997 open reading frame as described by davis et al. (16). the complemented strain was created by
+cloning the  xxxg72xxx  orf, along with 1,000 bp of 5⬘ flanking sequence and 500 bp of 3⬘ flanking sequence, in the his1 vector pddb78. the resulting
+plasmid was transformed into the  xxxg72xxx / xxxg72xxx  mutant with selection for his⫹ complementation. disruption and reintroduction of the  xxxg72xxx  gene
+were confirmed by pcr amplification, which revealed the presence of the expected 1,297-bp product in the wild-type parent strain and the  xxxg72xxx 
+revertant strain, but not in the  xxxg72xxx  mutant. biofilm formation by the isogenic strains was quantified as xtt od/mg (dry weight) (biomass) of
+biofilm formed. growth curve studies were performed twice, and a representative set of graphs is shown in panel b. the error bars represent
+standard deviations.
+
+vol. 74, 2006
+
+deletion of adh results in increased biofilm formation
+
+table 2. effects of disruption of the  xxxg72xxx  gene on the
+germination ability of c. albicans
+strain
+
+mean
+germinationa (%)
+
+sd
+
+p valueb
+
+wild-type parent
+ xxxg72xxx  mutant
+revertant
+
+93.25
+92.25
+91.50
+
+2.21
+1.71
+0.57
+
+0.572
+0.319
+
+a
+
+is known to catalyze the reversible conversion of acetaldehyde
+to ethanol (4). to determine whether this reaction is also
+catalyzed by adh1p in c. albicans biofilm, we compared the
+levels of ethanol and acetaldehyde in biofilms formed by the
+
+ xxxg72xxx  mutant, wild-type, and revertant strains. biofilms formed
+by the mutant strain produced significantly smaller amounts of
+ethanol, with concomitantly larger amounts of acetaldehyde
+(18- to 20-fold higher), than biofilms formed by the parent and
+revertant strains (p ⬍ 0.0001 for both comparisons) (fig. 6a).
+these results suggested that the effect of adh1p on biofilm
+formation is mediated by its enzymatic activity and not by a
+general change in cellular metabolism. to further confirm this
+observation, we determined the effect of inhibition of adh on
+ethanol levels in wild-type and  xxxg72xxx  mutant strains of c. albicans. inhibiting the enzyme activities of biofilms formed by the
+parent strain (using the specific inhibitors) resulted in significant reduction in ethanol levels (p ⬍ 0.001, fig. 6b and c).
+however, such reduction was not detected in biofilms formed
+by the  xxxg72xxx  mutant strain (p ⬎ 0.05) (fig. 6b and c), which
+was expected, since the mutant strain lacks a functional adh
+enzyme. these studies demonstrated that in c. albicans bio-
+
+fig. 4. effect of disruption of the  xxxg72xxx  gene on the ability of c. albicans to form biofilms on ehom tissue layers. histological features of
+ehom following exposure to isogenic c. albicans strains are shown. ehom tissue was infected with (a) no candida cells (uninfected control),
+(b) the parental c. albicans strain, (c) the revertant strain, or (d) the  xxxg72xxx  mutant strain. (e) hyphae of the  xxxg72xxx  mutant infiltrating into the
+lamina propria of ehom (arrow). (f) quantitative assessment of the thickness of biofilm formed on ehom tissues. representative photographs
+of three different experiments are shown (two ehoms per experiment). magnification, ⫻250 for panel a, ⫻200 for panels b to d, and ⫻500 for
+panel e. ⴱ and #, p ⬍ 0.0001 compared to the wild-type or revertant c. albicans strain, respectively. the error bars represent standard deviations.
+
+downloaded from http://iai.asm.org/ on april 15, 2015 by georgian court univ
+
+percent germination was determined by counting the number of germinating
+candida cells for each isogenic strain incubated in 10% fetal bovine serum for
+180 min.
+b
+p values were determined by student’s t test, compared to the  xxxg72xxx  mutant
+strain. a p value of ⬍0.05 was considered statistically significant.
+
+3811
+
+3812
+
+mukherjee et al.
+
+infect. immun.
+
+film, adh1p catalyzes the production of ethanol, suggesting
+that the mechanism by which adh1p modulates c. albicans
+biofilm formation is mediated by its enzymatic activity.
+(ii) ethanol inhibits the ability of c. albicans to form biofilm
+in vitro and in vivo. since disruption of the  xxxg72xxx  gene and
+inhibition of the adh1p enzyme resulted in significantly increased biofilm formation with a concomitant decrease in ethanol levels, we hypothesized that ethanol inhibits c. albicans
+biofilm formation. to test this hypothesis, using the xtt metabolic-activity assay, we evaluated the effects of different concentrations of ethanol (10% to 80%) on the ability of c. albicans to form biofilm in vitro. fluorescence microscopy analysis
+of biofilms formed in the presence of ethanol (and subsequently stained with the fluorescent dye calcofluor white)
+revealed distinct changes in biofilm morphologies in the presence of ethanol at concentrations of ⬎10% (data not shown).
+only remnants of ecm were detected in biofilm incubated
+with 20% ethanol, while biofilm structures appeared shriveled
+and thin in the presence of 50% ethanol. in the presence of
+80% ethanol, the biofilm was completely dehydrated, and no
+ecm was detected (data not shown). as shown in fig. 7,
+quantitative analyses of metabolic activity and dry biomass
+revealed that while 2% ethanol had no effect on biofilm formation, there was a significant decrease in both the xtt activity and dry weight of candida biofilm grown in the presence
+of 10% ethanol compared to control biofilms (grown in the
+absence of ethanol), and interestingly, even in the presence of
+80% ethanol, which may be due to residual cells and ecm
+remnants that contain no viable cells. the metabolic activity of
+biofilms reached a significantly reduced basal level in the presence of 20% ethanol and remained at this basal level in the
+presence of higher concentrations of ethanol (50% and 80%).
+while 20% to 80% ethanol also induced a significant decrease
+in the dry weights of biofilms, the biomasses of these biofilms
+were not significantly different from that of biofilm grown in
+the presence of 10% ethanol (fig. 7). these studies indicated
+that 10% ethanol can significantly decrease the biofilm-forming ability of c. albicans.
+
+to determine whether our in vitro findings were relevant to
+biofilm inhibition in vivo, we used a rabbit model of c. albicans
+catheter biofilm (62) to determine whether ethanol inhibits
+biofilms formed in vivo by c. albicans. we used staphylococcus
+epidermidis and s. aureus as controls. staphyloccus species were
+selected as controls for two reasons: (i) unlike its effect on
+candida biofilms, ethanol is known to enhance the production
+of staphylococcus biofilm (10–12, 32–34), and (ii) in contrast to
+candida biofilm,  xxxg72xxx  expression is known to be upregulated
+in staphylococcus biofilms (3, 22). the rabbit model was used
+in these studies because the model has been used to screen the
+antibiofilm activities of antifungal agents (24, 61) and has been
+shown to be clinically relevant (5). our data showed that lock
+therapy with 50% ethanol inhibited biofilms formed by c.
+albicans on in vivo catheters but had no effect on the biofilmforming ability of s. epidermidis or s. aureus (table 3). in
+contrast, in vitro studies showed that planktonically grown c.
+albicans and staphylococcus were completely inhibited when
+grown in the presence of 50% ethanol (data not shown). taken
+together, these studies demonstrated that (i) ethanol inhibits
+biofilm formation by c. albicans in vitro and in vivo, (ii) planktonic forms of both c. albicans and s. aureus are susceptible to
+the inhibitory effect of ethanol, and (iii) the effect of ethanol on
+in vivo biofilms is specific to c. albicans, and it does not affect
+staphylococcus biofilms.
+discussion
+in this study, we used a proteomic approach and showed that
+24 proteins are differentially expressed in early-phase c. albicans biofilms. our data are similar to those reported for bacterial biofilms, where a number of proteins were shown to be
+differentially expressed. oosthuizen et al. (51) showed that four
+proteins were uniquely present in biofilm formed by bacillus
+cereus, while seven proteins were absent. in a subsequent study
+using a different b. cereus strain, the same group (52) reported
+that 15 unique proteins were detected in early-phase biofilm,
+while seven proteins were overexpressed in the mature biofilm.
+
+downloaded from http://iai.asm.org/ on april 15, 2015 by georgian court univ
+
+fig. 5. effect of adh inhibitor on c. albicans biofilms. cslm analysis of biofilm formed in the (a) absence or (b) presence of disulfiram. side
+view reconstructions of cslm images revealed that incubation of biofilm with the inhibitor increased the thickness of mature-phase biofilm from
+(a) 120 ␮m to (b) 600 ␮m. metabolically active fungal biofilm is indicated in red (due to  xxxg398xxx  conversion), while polysaccharide-rich cell wall
+and matrix are shown in green (due to cona binding). the yellow regions in both panels represent merged red and green channels of the
+cslm-derived images. the bars represent 50 ␮m in panels c and d (magnification, ⫻19.5).
+
+vol. 74, 2006
+
+deletion of adh results in increased biofilm formation
+
+3813
+
+in a separate study, sauer and camper (60) reported that 15
+proteins were upregulated following bacterial adhesion and 30
+proteins were downregulated in biofilm formed by the plant
+saprophyte pseudomonas putida on a silicone surface.
+one of the proteins found to be downregulated in our analysis was adh. we focused on adh because it is differentially
+expressed in bacterial biofilms (3, 22), has been shown to have
+immunogenic properties (45, 55), and may have a role in fungal-host cell interactions mediated by its ability to bind host
+structural proteins (e.g., plasminogen and integrins) (13, 31).
+in contrast to our finding with candida biofilm, where we
+showed adh is downregulated, becker et al. (3) reported that
+ xxxg72xxx  was upregulated in s. aureus biofilms. such differential
+roles of the same enzyme in different microbial biofilms may
+have implications for the interactions between c. albicans and
+bacteria in a mixed-species milieu. for example, it is likely that
+bacteria, by overexpressing adh, will enhance their ability to
+form biofilm while at the same time inhibiting candida biofilm
+formation. in this regard, preliminary studies by our group
+showed that addition of exogenous bacterial adh to candida
+reduced its ability to form biofilm on a catheter surface (m. a.
+ghannoum and p. k. mukherjee, unpublished data).
+molecular and biochemical evidence presented in this study
+showed that adh1p restricts the ability of candida to form
+
+biofilm, as revealed by enhanced biofilm formation in response
+to disruption of the  xxxg72xxx  gene or biochemical inhibition of
+the enzyme. in contrast to our finding with candida biofilm,
+finelli et al. (22) showed that disruption of a putative p. aeruginosa  xxxg110xxx  had no effect on planktonic
+growth but caused defects in biofilm formation in static and
+flowing systems. in the same study, competition experiments
+showed that the corresponding mutant demonstrated reduced
+fitness compared with the parent strain. the differences in the
+contributions of adh to biofilm formation by p. aeruginosa
+and c. albicans make it tempting to speculate that the enzyme
+may be involved in the bacterial-fungal interactions that exist
+in the environment. in this regard, hogan and kolter (28)
+suggested a link between biofilm formation and the activities of
+some eukaryotic specific virulence factors toward fungal cells
+and that antagonism between bacteria and fungi may contribute to the evolution and maintenance of many pathogenesisrelated genes.
+our studies extended investigation of the role of adh1p in
+candida biofilm formation from the in vitro to the in vivo
+setting, where we used an in vivo-like ehom model, as well as
+a catheter-associated biofilm rat model, and confirmed that
+adh1p restricts the ability of candida to form biofilms. this
+investigation is the first to demonstrate a correlation between
+
+downloaded from http://iai.asm.org/ on april 15, 2015 by georgian court univ
+
+fig. 6. adh1p catalyzes ethanol production in c. albicans biofilm. ethanol levels in biofilms incubated with inhibitors were calculated as
+percentages of ethanol levels in biofilm formed in the absence of ethanol, which were considered as 100%. supernatants (4 ml each) were collected
+from biofilms grown to mature phase and then used as samples to determine the ethanol and acetaldehyde levels using specific assay kits according
+to the manufacturer’s instructions. the levels of ethanol and acetaldehyde were expressed as g/100 ml of sample. experiments were repeated in
+triplicate (n ⫽ 3). the error bars represent standard deviations.
+
+3814
+
+mukherjee et al.
+
+infect. immun.
+
+the activity of a protein and biofilm formed in vitro and in vivo
+and brings us closer to the clinical setting. the observation that
+an  xxxg72xxx  mutant of c. albicans formed increased biofilm and
+could invade the lamina propria of ehom suggests that biofilm plays a role in the ability of candida to invade host tissues.
+it is likely that having the ability to form biofilm in the gastrointestinal tract allows candida to transmigrate across the gastrointestinal submucosa and cause systemic infection. in the
+nonbiofilm (planktonic) form of c. albicans, adh1p has been
+suggested to have multiple roles, including interactions with
+the host immune system (55) and binding host proteins (31).
+crowe et al. (13) used a proteomics-based approach to identify
+adh1p as one of eight c. albicans cell wall proteins that were
+able to bind plasminogen and that activated plasmin release.
+since plasmin is known to have proteolytic activity, these authors suggested that adh1p may also contribute to fungal invasion of host tissues. since our studies showed that the  xxxg72xxx 
+mutant had greater ability to penetrate ehom layers, one
+mechanism of action of adh1p in biofilm formation may be
+
+table 3. effects of ethanol on biofilm formation in vivo in the
+rabbit catheter model of candida biofilmsa
+organism
+
+c. albicans
+s. epidermidis
+s. aureus
+
+quantitative catheter culture
+(log10cfu/catheter segment) (mean ⫾ sd)
+untreated
+
+50% ethanol
+
+2.191 ⫾ 1.008
+3.005 ⫾ 1.553
+3.429 ⫾ 2.468
+
+0.000 ⫾ 0.000
+2.761 ⫾ 2.380
+3.101 ⫾ 1.898
+
+a
+lock therapy with 50% ethanol resulted in complete clearance of the c.
+albicans biofilm formed on catheters inserted in rabbits but not of the biofilm
+formed by staphylococcus spp.
+
+modulating host tissue invasion by candida biofilm. this aspect of the mechanism of action of adh1p in candida biofilm
+formation remains to be investigated.
+the mechanism by which adh1p regulates biofilm formation
+is unknown. our studies showed that adh1p catalyzes the
+production of ethanol in candida biofilm and that deletion of
+the c. albicans  xxxg72xxx  gene resulted in a decrease in ethanol
+and an increase in acetaldehyde levels. similarly, inhibition of
+adh1p with specific inhibitors also increased the ability of c.
+albicans to form biofilms. these results suggested that the
+effect of adh1p on biofilm formation is mediated by the activity of the adh enzyme itself and is not due to changes in
+metabolism, but is specific. ethanol is a general disinfectant
+(30) and has been shown to have additional roles, e.g., mediation of microbial synergy and signaling (9, 18, 64). our studies
+showed that ethanol inhibited candida biofilm formation both
+in vitro and in vivo, indicating that adh downregulates candida biofilm formation through an  xxxd102xxx dependent mechanism. one possible explanation for the role of adh in c.
+albicans biofilm formation could be based on the concept that
+ethanol is an inhibitory end product of metabolism in this
+pathogenic yeast. under conditions of waste product inhibition, adh may be downregulated as a way of avoiding ethanol
+toxicity.
+our observation that ethanol lock therapy did not affect
+bacterial biofilms while inhibiting candida biofilm, but had an
+inhibitory effect on the growth of planktonic cells (candida as
+well as bacteria), suggests that the inhibitory effect of ethanol
+on biofilm formation is specific to c. albicans and is not related
+to its antiseptic activity per se. our finding that ethanol has no
+effect on staphylococcus biofilms in vivo is consistent with previous findings showing that ethanol enhances biofilm forma-
+
+downloaded from http://iai.asm.org/ on april 15, 2015 by georgian court univ
+
+fig. 7. effects of ethanol on the ability of c. albicans to form biofilm in vitro and in vivo. in vitro biofilm formation in the presence of ethanol
+was quantitated as metabolic activity (xtt activity) and dry biomass (g) (mean plus standard deviation). medium containing ethanol at the
+indicated concentration was added to adhered c. albicans cells, and a biofilm was allowed to form. significant reduction in candida biofilm
+formation was observed in vitro in the presence of 10% ethanol, while biofilm formation was completely inhibited at ethanol concentrations of
+ⱖ15%. ⴱ, p ⬍ 0.001; #, p ⬍ 0.05 compared to biofilm formed in the absence of ethanol (0% ethanol control).
+
+vol. 74, 2006
+
+deletion of adh results in increased biofilm formation
+
+11.
+
+12.
+
+13.
+
+14.
+15.
+
+16.
+
+17.
+
+18.
+
+19.
+20.
+
+21.
+
+acknowledgments
+we acknowledge the technical assistance provided by guangyin
+zhou, jian li for assistance in biofilm formation, and jeniel nett for
+technical help in collection of in vivo biofilm images.
+this work was supported by funds from the nih (1r01 de1393201a1), a bristol myers squibb freedom to discover award to m.a.g.,
+and american heart association (sdg 0335313n) and nih/sdrc
+pilot and feasibility award (p30-ar-39750) funds to p.k.m. the
+assistance of the confocal scanning laser microscopy core facility
+(nci grant p30ca43703-12) at case western reserve university is
+gratefully acknowledged.
+references
+1. andes, d., j. nett, p. oschel, r. albrecht, k. marchillo, and a. pitula. 2004.
+development and characterization of an in vivo central venous catheter
+candida albicans biofilm model. infect. immun. 72:6023–6031.
+2. arevalo-ferro, c., m. hentzer, g. reil, a. gorg, s. kjelleberg, m. givskov,
+k. riedel, and l. eberl. 2003. identification of quorum-sensing regulated
+proteins in the opportunistic pathogen pseudomonas aeruginosa by proteomics. environ. microbiol. 5:1350–1369.
+3. becker, p., w. hufnagle, g. peters, and m. herrmann. 2001. detection of
+differential gene expression in biofilm-forming versus planktonic populations
+of staphylococcus aureus using micro-representational-difference analysis.
+appl. environ. microbiol. 67:2958–2965.
+4. bertram, g., r. k. swoboda, g. w. gooday, n. a. gow, and a. j. brown.
+1996. structure and regulation of the candida albicans  xxxg72xxx  gene encoding
+an immunogenic  xxxg110xxx . yeast 12:115–127.
+5. castagnola, e., m. g. marazzi, a. tacchella, and r. giacchino. 2005.
+broviac catheter-related candidemia. pediatr. infect. dis. j. 24:747.
+6. chakir, j., m. laviolette, m. boutet, r. laliberte, j. dube, and l. p. boulet.
+1996. lower airways remodeling in nonasthmatic subjects with allergic
+rhinitis. lab. investig. 75:735–744.
+7. chandra, j., d. m. kuhn, p. k. mukherjee, l. l. hoyer, t. mccormick, and
+m. a. ghannoum. 2001. biofilm formation by the fungal pathogen candida
+albicans—development, architecture and drug resistance. j. bacteriol. 183:
+5385–5394.
+8. chandra, j., p. k. mukherjee, s. d. leidich, f. f. faddoul, l. l. hoyer, l. j.
+douglas, and m. a. ghannoum. 2001. antifungal resistance of candidal
+biofilms formed on denture acrylic in vitro. j. dent. res. 80:903–908.
+9. chen, j., d. l. clemens, a. i. cederbaum, and b. gao. 2001. ethanol inhibits
+the jak-stat signaling pathway in freshly isolated rat hepatocytes but not
+in cultured hepatocytes or hepg2 cells: evidence for a lack of involvement
+of ethanol metabolism. clin. biochem. 34:203–209.
+10. conlon, k. m., h. humphreys, and j. p. o’gara. 2002. icar encodes a
+
+22.
+
+23.
+
+24.
+
+25.
+
+26.
+27.
+
+28.
+29.
+30.
+
+31.
+
+32.
+
+33.
+
+34.
+
+35.
+36.
+
+transcriptional repressor involved in environmental regulation of ica operon
+expression and biofilm formation in staphylococcus epidermidis. j. bacteriol.
+184:4400–4408.
+conlon, k. m., h. humphreys, and j. p. o’gara. 2004. inactivations of rsbu
+and sara by is256 represent novel mechanisms of biofilm phenotypic variation in staphylococcus epidermidis. j. bacteriol. 186:6208–6219.
+conlon, k. m., h. humphreys, and j. p. o’gara. 2002. regulation of icar
+gene expression in staphylococcus epidermidis. fems microbiol. lett. 216:
+171–177.
+crowe, j. d., i. k. sievwright, g. c. auld, n. r. moore, n. a. gow, and n. a.
+booth. 2003. candida albicans binds human plasminogen: identification of
+eight plasminogen-binding proteins. mol. microbiol. 47:1637–1651.
+cutler, j. e. 1991. putative virulence factors of candida albicans. annu. rev.
+microbiol. 45:187–218.
+dannenberg, c., u. bierbach, a. rothe, j. beer, and d. korholz. 2003.
+ xxxd102xxx lock technique in the treatment of bloodstream infections in pediatric oncology patients with broviac catheter. j. pediatr. hematol. oncol.
+25:616–621.
+davis, d. a., v. m. bruno, l. loza, s. g. filler, and a. p. mitchell. 2002.
+candida albicans mds3p, a conserved regulator of ph responses and virulence identified through insertional mutagenesis. genetics 162:1573–1581.
+de groot, p. w. j., a. d. de boer, j. cunningham, h. l. dekker, l. de jong,
+k. j. hellingwerf, c. de koster, and f. m. klis. 2004. proteomic analysis of
+candida albicans cell walls reveals covalently bound carbohydrate-active
+enzymes and adhesins. eukaryot. cell 3:955–965.
+domenicotti, c., d. paola, a. vitali, m. nitti, d. cottalasso, g. poli, m. a.
+pronzato, and u. m. marinari. 1999. primary role of  xxxg110xxx 
+pathway in acute  xxxd102xxx induced impairment of protein kinase c-dependent signaling system. adv. exp. med. biol. 463:321–330.
+douglas, l. j. 2003. candida biofilms and their role in infection. trends
+microbiol. 11:30–36.
+eklund, h., b. v. plapp, j. p. samama, and c. i. branden. 1982. binding of
+substrate in a ternary complex of horse liver  xxxg110xxx . j. biol.
+chem. 257:14349–14358.
+eklund, h., j. p. samama, and l. wallen. 1982.  xxxd3045xxx  binding in crystalline binary and ternary complexes with liver  xxxg110xxx . biochemistry 21:4858–4866.
+finelli, a., c. v. gallant, k. jarvi, and l. l. burrows. 2003. use of in-biofilm
+expression technology to identify genes involved in pseudomonas aeruginosa
+biofilm development. j. bacteriol. 185:2700–2710.
+friedman, d. b., s. hill, j. w. keller, n. b. merchant, s. e. levy, r. j.
+coffey, and r. m. caprioli. 2004. proteome analysis of human colon cancer
+by two-dimensional difference gel electrophoresis and mass spectrometry.
+proteomics 4:793–811.
+ghannoum, m., l. a. long, h. g. kim, r. munyon, v. rotondo, j. chandra,
+and p. k. mukherjee. 2005.  xxxd164xxx  lipid complex ( xxxd164xxx ) antifungal lock therapy (aflt) is effective in the treatment of candida albicans
+catheter-associated biofilm infections. presented at the 45th interscience
+conference on antimicrobial agents and chemotherapy.
+ghannoum, m. a., s. g. filler, a. s. ibrahim, y. fu, and j. e. edwards, jr.
+1992. modulation of interactions of candida albicans and endothelial cells by
+fluconazole and  xxxd164xxx . antimicrob. agents chemother. 36:2239–
+2244.
+gotz, f. 2002. staphylococcus and biofilms. mol. microbiol. 43:1367–1378.
+hirsch, j. p., c. dietzel, and j. kurjan. 1991. the carboxyl terminus of scg1,
+the g  xxxg216xxx  involved in yeast mating, is implicated in interactions
+with the pheromone receptors. genes dev. 5:467–474.
+hogan, d. a., and r. kolter. 2002. pseudomonas- candida interactions: an
+ecological role for virulence factors. science 296:2229–2232.
+jornvall, h., j. hempel, and b. vallee. 1987. structures of human alcohol
+and aldehyde dehydrogenases. enzyme 37:5–18.
+kampf, g., and a. kramer. 2004. epidemiologic background of hand hygiene and evaluation of the most important agents for scrubs and rubs. clin.
+microbiol. rev. 17:863–893.
+klotz, s. a., m. l. pendrak, and r. c. hein. 2001. antibodies to ␣5␤1 and
+␣vb3 integrins react with candida albicans  xxxg110xxx . microbiology 147:3159–3164.
+knobloch, j. k., k. bartscht, a. sabottke, h. rohde, h. h. feucht, and d.
+mack. 2001. biofilm formation by staphylococcus epidermidis depends on
+functional rsbu, an activator of the sigb operon: differential activation
+mechanisms due to ethanol and salt stress. j. bacteriol. 183:2624–2633.
+knobloch, j. k., m. a. horstkotte, h. rohde, p. m. kaulfers, and d. mack.
+2002. alcoholic ingredients in skin disinfectants increase biofilm expression
+of staphylococcus epidermidis. j. antimicrob. chemother. 49:683–687.
+knobloch, j. k., s. jager, m. a. horstkotte, h. rohde, and d. mack. 2004.
+rsbu-dependent regulation of staphylococcus epidermidis biofilm formation
+is mediated via the alternative sigma factor ␴b by repression of the negative
+regulator gene icar. infect. immun. 72:3838–3848.
+kojic, e. m., and r. o. darouiche. 2004. candida infections of medical
+devices. clin. microbiol. rev. 17:255–267.
+kuhn, d. m., j. chandra, p. k. mukherjee, and m. a. ghannoum. 2002.
+
+downloaded from http://iai.asm.org/ on april 15, 2015 by georgian court univ
+
+tion by these bacterial species (10–12, 26, 32–34, 44). our
+results are likely to have important clinical implications, especially since some previous studies have suggested the use of
+ethanol lock therapy to treat central venous line infections in
+the adult and pediatric populations (15, 54, 59). although the
+focus of our study was not to test the efficacy of ethanol as a
+therapeutic alternative in the treatment of catheter-associated
+infections, the fact that ethanol does not affect bacterial biofilm
+formed on catheters in vivo suggests caution in the random use
+of ethanol lock therapy. such use of ethanol can result in
+enhanced bacterial biofilm formation on intravenous catheters,
+similar to that resulting from the use of  xxxd102xxx based skin
+disinfectants, which can induce increased biofilm formation by
+s. epidermidis (33).
+in conclusion, our studies revealed that adh1p contributes
+to the ability of c. albicans to form biofilms in vitro and in vivo
+and that the protein restricts the ability of candida to form
+biofilms through an  xxxd102xxx dependent mechanism. our findings provide insight not only into candida biofilms, but also
+into the interactions between fungi and bacteria in mixedspecies environments. these results are clinically relevant and
+have important implications for understanding the formation
+of candida biofilms on medical devices and the mechanism of
+c. albicans-mediated host tissue damage and may point to
+novel treatment strategies for these infections.
+
+3815
+
+3816
+
+37.
+
+38.
+39.
+40.
+41.
+
+43.
+44.
+45.
+46.
+47.
+
+48.
+49.
+50.
+51.
+52.
+
+comparison of biofilms formed by candida albicans and candida parapsilosis
+on bioprosthetic surfaces. infect. immun. 70:878–888.
+kuhn, d. m., t. george, j. chandra, p. k. mukherjee, and m. a. ghannoum.
+2002. antifungal susceptibility of candida biofilms: unique efficacy of  xxxd164xxx  lipid formulations and echinocandins. antimicrob. agents chemother.
+46:1773–1780.
+kuhn, d. m., and m. a. ghannoum. 2004. candida biofilms: antifungal
+resistance and emerging therapeutic options. curr. opin. investig. drugs
+5:186–197.
+kumamoto, c. a. 2002. candida biofilms. curr. opin. microbiol. 5:608–611.
+langeland, b. t., and j. s. kinley-mckee. 1996. the effects of disulfiram on
+equine hepatic  xxxg110xxx  and its efficiency against alcoholism:
+vinegar effect. alcohol 31:75–80.
+langeland, b. t., and j. s. mckinley-mckee. 1997. the effects of disulfiram
+and related compounds on equine hepatic  xxxg110xxx . comp.
+biochem. physiol. c 117:55–61.
+leidich, s. d., a. s. ibrahim, y. fu, a. koul, c. jessup, j. vitullo, w. fonzi,
+f. mirbod, s. nakashima, y. nozawa, and m. a. ghannoum. 1998. cloning
+and disruption of caplb1, a phospholipase b gene involved in the pathogenicity of candida albicans. j. biol. chem. 273:26078–26086.
+lilley, k. s., and d. b. friedman. 2004. all about dige: quantification
+technology for differential-display 2d-gel proteomics. exp. rev. proteomics
+1:401–409.
+lim, y., m. jana, t. t. luong, and c. y. lee. 2004. control of glucose- and
+nacl-induced biofilm formation by rbf in staphylococcus aureus. j. bacteriol.
+186:722–729.
+martinez, j. p., m. l. gil, j. l. lopez-ribot, and w. l. chaffin. 1998.
+serologic response to cell wall mannoproteins and proteins of candida
+albicans. clin. microbiol. rev. 11:121–141.
+mukherjee, p. k., j. chandra, d. m. kuhn, and m. a. ghannoum. 2003.
+mechanism of azole resistance in candida albicans biofilms: phase-specific
+role of efflux pumps and membrane sterols. infect. immun. 71:4333–4340.
+mukherjee, p. k., s. mohamed, j. chandra, m. k. schinabeck, and m. a.
+ghannoum. 2003. proteomic identification of phase-specific cell wall proteins expressed during candida albicans biofilm formation, abstr. m-381.
+abstr. 43rd intersci. conf. antimicrob. agents chemother. american society for microbiology, washington, d.c.
+mukherjee, p. k., and r. prasad. 1998. purified arginine permease of candida albicans is functionally active in a reconstituted system. yeast 14:335–
+345.
+nucci, m., and e. anaissie. 2002. should vascular catheters be removed from
+all patients with candidemia? an evidence-based review. clin. infect. dis.
+34:591–599.
+ojha, a., m. anand, a. bhatt, l. kremer, w. r. jacobs, jr., and g. f.
+hatfull. 2005. groel1: a dedicated chaperone involved in mycolic acid
+biosynthesis during biofilm formation in mycobacteria. cell 123:861–873.
+oosthuizen, m. c., b. steyn, d. lindsay, v. s. brozel, and a. von holy. 2001.
+novel method for the proteomic investigation of a dairy-associated bacillus
+cereus biofilm. fems microbiol. lett. 194:47–51.
+oosthuizen, m. c., b. steyn, j. theron, p. cosette, d. lindsay, a. von holy,
+
+editor: a. casadevall
+
+infect. immun.
+
+53.
+54.
+55.
+
+56.
+57.
+
+58.
+59.
+60.
+61.
+
+62.
+
+63.
+64.
+65.
+66.
+
+67.
+
+and v. s. brozel. 2002. proteomic analysis reveals differential protein expression by bacillus cereus during biofilm formation. appl. environ. microbiol. 68:2770–2780.
+pappas, p. g., j. h. rex, j. d. sobel, s. g. filler, w. e. dismukes, t. j.
+walsh, and j. e. edwards. 2004. guidelines for treatment of candidiasis.
+clin. infect. dis. 38:161–189.
+pennington, c. r., and a. d. pithie. 1987. ethanol lock in the management
+of catheter occlusion. jpen j. parenter. enteral. nutr. 11:507–508.
+pitarch, a., j. abian, m. carrascal, m. sanchez, c. nombela, and c. gil.
+2004. proteomics-based identification of novel candida albicans antigens for
+diagnosis of systemic candidiasis in patients with underlying hematological
+malignancies. proteomics 4:3084–3106.
+pitarch, a., m. sanchez, c. nombela, and c. gil. 2003. analysis of the
+candida albicans proteome. i. strategies and applications. j. chromatogr. b
+787:101–128.
+pitarch, a., m. sanchez, c. nombela, and c. gil. 2002. sequential fractionation and two-dimensional gel analysis unravels the complexity of the dimorphic fungus candida albicans cell wall proteome. mol. cell. proteom. 1:967–
+982.
+rouabhia, m., and n. deslauriers. 2002. production and characterization of
+an in vitro engineered human oral mucosa. biochem. cell biol. 80:189–195.
+salzman, m. b., h. d. isenberg, and l. g. rubin. 1993. use of disinfectants
+to reduce microbial contamination of hubs of vascular catheters. j. clin.
+microbiol. 31:475–479.
+sauer, k., and a. k. camper. 2001. characterization of phenotypic changes
+in pseudomonas putida in response to surface-associated growth. j. bacteriol.
+183:6579–6589.
+schinabeck, m. k., m. d’angelo, j. chandra, p. k. mukherjee, and m. a.
+ghannoum. 2004. anidulafungin inhibits candida albicans biofilms in vitro.
+presented at the 44th interscience conference on antimicrobial agents and
+chemotherapy.
+schinabeck, m. k., l. a. long, m. a. hossain, j. chandra, p. k. mukherjee,
+s. mohamed, and m. a. ghannoum. 2004. rabbit model of candida albicans
+biofilm infection:  xxxd164xxx  antifungal lock therapy. antimicrob. agents chemother. 48:1727–1732.
+sigman, d. s. 1967. interactions of substrates, inhibitors, and coenzymes at
+the active site of horse liver  xxxg110xxx . j. biol. chem. 242:3815–
+3824.
+smith, m. g., s. g. des etages, and m. snyder. 2004. microbial synergy via
+an  xxxd102xxx triggered pathway. mol. cell. biol. 24:3874–3884.
+spreghini, e., d. a. davis, r. subaran, m. kim, and a. p. mitchell. 2003.
+roles of candida albicans dfg5p and dcw1p cell surface proteins in growth
+and hypha formation. eukaryot. cell. 2:746–755.
+vilain, s., p. cosette, m. hubert, c. lange, g. a. junter, and t. jouenne.
+2004. comparative proteomic analysis of planktonic and immobilized
+pseudomonas aeruginosa cells: a multivariate statistical approach. anal. biochem. 329:120–130.
+wilson, r. b., d. davis, and a. p. mitchell. 1999. rapid hypothesis testing
+with candida albicans through gene disruption with short homology regions.
+j. bacteriol. 181:1868–1874.
+
+downloaded from http://iai.asm.org/ on april 15, 2015 by georgian court univ
+
+42.
+
+mukherjee et al.
+

@@ -1,0 +1,2276 @@
+article
+pubs.acs.org/jmc
+
+discovery of 1-[2-(2,4-dimethylphenylsulfanyl)phenyl]piperazine
+( xxxd3530xxx ): a novel multimodal compound for the treatment
+of major depressive disorder
+benny bang-andersen,*,† thomas ruhland,† morten jørgensen,† garrick smith,† kristen frederiksen,†
+klaus gjervig jensen,† huailing zhong,‡ søren møller nielsen,† sandra hogg,† arne mørk,† and
+tine bryan stensbøl†
+†
+‡
+
+neuroscience drug discovery denmark, h. lundbeck a/s, 9 ottiliavej, dk-2500 copenhagen-valby, denmark
+lundbeck research usa, 215 college road, paramus, new jersey 07652-1431, united states
+
+bs supporting information
+abstract: the synthesis and structureactivity relationship of a novel series of compounds with combined eﬀects on
+ xxxg1116xxx  and 5-ht1a receptors and on the serotonin (5-ht)
+transporter (sert) are described. compound 5m (lu
+aa21004) was the lead compound, displaying high aﬃnity for
+recombinant human 5-ht1a (ki = 15 nm), 5-ht1b (ki = 33 nm),  xxxg1116xxx  (ki = 3.7 nm),  xxxg1120xxx  (ki = 19 nm), and noradrenergic
+ xxxg836xxx  (ki = 46 nm) receptors, and sert (ki = 1.6 nm). compound 5m displayed antagonistic properties at  xxxg1116xxx  and  xxxg1120xxx 
+receptors, partial agonist properties at 5-ht1b receptors, agonistic properties at 5-ht1a receptors, and potent inhibition of sert.
+in conscious rats, 5m signiﬁcantly increased extracellular 5-ht levels in the brain after acute and 3 days of treatment. following the
+3-day treatment (5 or 10 (mg/kg)/day) sert occupancies were only 43% and 57%, respectively. these characteristics indicate that
+5m is a novel multimodal serotonergic compound, and 5m is currently in clinical development for major depressive disorder.
+
+’ introduction
+the approximate lifetime prevalence of major depressive
+disorder (mdd) and anxiety disorders in the united states is
+17% and 29%, respectively, and onset is typically in childhood
+or adolescence.1 according to the world health organization’s
+global burden of disease project, mdd will become the second
+leading cause of disability worldwide within the next 10 years.2
+pharmacotherapy for mdd and anxiety disorders has been
+available since the late 1950s, when the tricyclic antidepressants
+(tcas) and the  xxxg1357xxx   xxxg1358xxx  inhibitors (maois) became clinically available. during the 1980s, the ﬁrst selective
+serotonin (5-ht) reuptake inhibitors (selective sris or ssris)
+were introduced and since then have become the most widely
+prescribed medication for the treatment of depression and
+related disorders.3 ssris such as ﬂuoxetine, sertraline, paroxetine, ﬂuvoxamine, and citalopram (1) show similar eﬃcacy but
+clear advantages in terms of improved tolerability and a superior
+safety proﬁle compared to tcas and maois.4 the serotonin
+and norepinephrine (ne) reuptake inhibitors (snris) venlafaxine, duloxetine, desvenlafaxine, and milnacipran, as well as the
+allosteric serotonin reuptake inhibitor escitalopram, have been
+marketed in the 1990s and during the new millennium. in
+contrast to ssris, snris display modest improved eﬃcacy and
+a slightly faster onset of antidepressant action but lower
+tolerability.4,5 despite more than 5 decades of research, there
+are still high unmet needs in the treatment of depression. for
+example, the treatment with currently available antidepressants
+r 2011 american chemical society
+
+shows modest eﬃcacy, and the majority of patients with mdd
+fail to achieve full remission with current therapies.6 in addition, a
+relatively long time to onset of symptom relief and issues with
+relapse characterize marketed antidepressants. future drugs will
+also need to address cognitive impairment, pain, and drug-related
+side eﬀects such as sexual dysfunction, nausea/emesis, weight
+gain, and potential cardiovascular eﬀects.4
+for many years, the medical community and pharmaceutical
+companies have been focusing on developing superior pharmacotherapeutic strategies for the treatment of depression and
+anxiety.7,8 clinical research has demonstrated that the antidepressant activity of ssris may be augmented by coadministration
+of  xxxd2957xxx , an eﬀect that has been attributed to  xxxd2957xxx ’s partial
+agonistic eﬀect at the  xxxg1108xxx .9,10 this observation has
+inspired many pharmaceutical companies to launch research
+programs with the aim of discovering designed multiple ligands
+(dmls)11 with dual activity at the serotonin transporter (sert)
+and the  xxxg1108xxx . other proﬁles such as triple reuptake
+inhibitors [sert, ne transporter (net), and dopamine (da)
+transporter (dat) inhibition] and compounds inhibiting sert
+plus various combinations of 5-ht receptor subtypes have also
+been pursued.7,12
+at h. lundbeck a/s, dml programs were pursued with the
+goal of ﬁnding a new generation of antidepressants. these were
+received: november 11, 2010
+published: april 12, 2011
+3206
+
+dx.doi.org/10.1021/jm101459g | j. med. chem. 2011, 54, 3206–3221
+
+journal of medicinal chemistry
+deﬁned prior to initiation of the lead generation program (5ht2c antagonism and sri),13,14 or they emerged from the
+knowledge that was generated during such programs (5-ht3
+receptor antagonism,  xxxg1108xxx  agonism, and sri). the
+objective of the current program was to ﬁnd a compound
+that combines  xxxg1116xxx  antagonism,  xxxg1108xxx 
+agonism, and sert inhibition in a single molecule and that will
+exert superior antidepressant eﬀects in humans compared to
+marketed drugs. recently, the term multimodal was coined for
+compounds that combine at least two separate pharmacological
+modes of action that complement each other in terms of eﬃcacy
+or tolerability.15,16 here we describe the biological rationale for a
+novel class of putative multimodal antidepressants, which is
+proposed to act via diﬀerent modes of action, namely, blocking
+ligand-gated ion channels ( xxxg1116xxx ) and monoamine
+transporters (sert), as well as activating g-protein-coupled
+receptors ( xxxg1108xxx ). sert inhibition is important for
+antidepressant and anxiolytic activity.4 the simultaneous use of
+an eﬃcacious  xxxg1108xxx  agonist, together with a sert
+inhibitor, is expected to rapidly desensitize the inhibitory somatodendritic 5-ht1a autoreceptors and, at the same time, to
+mediate part of the antidepressant eﬀect through activation of
+postsynaptic 5-ht1a receptors.17,18 the rationale for adding
+ xxxg1116xxx  antagonism was based on preclinical studies
+demonstrating that  xxxg1116xxx  antagonists eliminate the
+inhibitory tonus of 5-ht3 receptors on the release of ne and
+acetylcholine (acch) in the forebrain, via 5-ht3 heteroreceptors located on inhibitory  xxxd2177xxx  (gaba)ergic interneurons.1922 these studies indicate that 5-ht3
+receptor antagonists may exert positive eﬀects on mood and
+cognitive impairment in patients with depression. adding to this
+point,  xxxg1108xxx  agonists such as buspirone (2) are used
+as anxiolytics in the clinic, whereas  xxxg1116xxx  antagonists
+such as ondansetron (3) are used to treat the nausea associated
+with chemotherapy and have shown some success in alleviating
+the gastrointestinal distress associated with ssris.23,24 interestingly, litoxetine, initially described as an ssri, was later shown to
+possess antiemetic properties in ferrets that were ascribed to its
+moderate  xxxg1116xxx  antagonistic properties.23 hence, a
+combined  xxxg1116xxx  antagonist,  xxxg1108xxx  agonist,
+and sert inhibitor was hypothesized to have the potential to
+treat signiﬁcant clinical unmet needs in mdd and generalized
+anxiety disorder (gad).
+in a focused screening program we identiﬁed the arylpiperazine 4b and a number of structural analogues as a lead series.
+arylpiperazines are well-known motifs that are typically found in
+compounds possessing activities toward a broad range of targets,
+including various 5-ht receptor subtypes. for example, some
+1-(2-phenoxyaryl)piperazines, although structurally similar to
+our lead series, were recently found to display a slightly diﬀerent
+pharmacological proﬁle, such as high  xxxg1108xxx  aﬃnity
+but only modest sert inhibition.25 this and other examples
+indicate that the design of molecules, interacting in a predeﬁned
+manner with three diﬀerent target classes (i.e., ligand-gated ion
+channels, g-protein-coupled receptors, and monoamine transporters), will be challenging, and it was also anticipated that
+compounds fulﬁlling our design hypothesis might well interact
+with additional targets in a subsequent broader target proﬁling.
+indeed, we found that compound 4b displays moderate human
+(h)  xxxg1116xxx  receptor aﬃnity, very weak h5-ht1a receptor
+aﬃnity, and potent rat (r) sert inhibition (table 1), as well
+as high aﬃnity (ki < 100 nm) for h5-ht2c and  xxxg1991xxx  receptors
+
+article
+
+(data not shown). structurally closely related members of the
+series displayed substantially higher aﬃnity for h5-ht3a and/or
+h5-ht1a receptors (table 1). in contrast to compound 4b, some
+of the analogues showed good human microsomal stability and/
+or minimal cytochrome p450 (cyp450) enzyme inhibition (data
+not shown). thus, the series was a useful starting point for a
+number of dml programs, including the structureactivity
+relationship (sar) studies reported herein that led to the
+discovery of 5m (chart 1).
+
+’ results
+chemistry. several different strategies were employed for the
+synthesis of the target compounds 46. the compound class
+was initially prepared by solid-phase synthesis in order to
+generate compound libraries for lead discovery programs. the
+key step of this synthetic strategy was the generation of aromatic
+carbonheteroatom bonds through iron-assisted nucleophilic
+aromatic substitution.26,27 this was a suitable method for the
+preparation of focused libraries in a short space of time. however,
+a different approach was necessary in order to synthesize such
+molecules in larger quantities and in order to prepare molecules
+with a more complex substitution pattern on the central benzene
+ring. for this purpose, the target compounds were synthesized
+either by two sequential palladium-catalyzed carbonheteroatom bond formations28,29 (methods a and b, schemes 1 and 2)
+or through cyclization of anilines with bis(2-bromoethyl)amine
+(method c). in method a, the synthesis started from 2-bromosubstituted n-phenylpiperazines 7 that were readily available in
+multigram quantities through a selective monoamination of
+dihalogenated benzenes.30 the thioether linkage was subsequently formed using the method reported by schopfer and
+schlapbach.31 in the analogous method b, the order of steps was
+reversed. for both strategies, the required starting materials,
+halogenated benzenes, were either commercially available or
+could be readily obtained from the corresponding anilines.
+finally, the resulting tert-butyloxycarbonyl (boc)-protected
+intermediates were deprotected to give the target molecules
+46 as their hydrochloride salts. overall, method b turned out
+to be more practical than methods a and c, since the bocprotected target molecules were easily separated by chromatography from unreacted diaryl sulfides and hydrodebrominated
+byproducts.
+structureactivity relationship studies. the affinities of
+target compounds 46 for the cloned h5-ht3a and h5-ht1a
+receptors were determined by use of in vitro binding competition
+assays with membranes prepared from cells expressing the
+relevant receptors, and data are reported as ki values (see
+supporting information for pki ( sem values). the inhibition
+of uptake of [3h]5-ht, [3h]ne, and [3h]da into rat brain
+synaptosomes through the monoamine transporters was also
+measured, and data are reported as mean ic50 values (see
+supporting information for pic50 ( sd/sem values) of at least
+two independent determinations. these data are shown in
+tables 13 and 5, along with the structure of the compounds.
+while affinity measures were used at the cloned h5-ht3a and h5ht1a receptors, for historical reasons a functional readout
+was used as the sar driving assay for assessing potency at
+the sert. internal data and literature data, however, have
+demonstrated a close correlation between affinity at  xxxg2150xxx 
+and potency in [3h]5-ht uptake assays, suggesting that values
+are comparable.32 the compounds were prioritized for further
+3207
+
+dx.doi.org/10.1021/jm101459g |j. med. chem. 2011, 54, 3206–3221
+
+journal of medicinal chemistry
+
+article
+
+table 1. structureactivity relationship of compounds 4a1 compared with reference compounds citalopram (1),
+buspirone (2), and ondansetron (3) at human (h)  xxxg1116xxx  and h5-ht1a receptors and the rat (r) serotonin transporter
+(rsert)
+
+ki (nm)a
+compd
+
+synthesis method
+
+r1
+
+r5
+
+ic50 (nm)a
+
+h5-ht3ab
+
+h5-ht1ac
+
+rsertd
+
+4a
+
+b
+
+h
+
+ch3
+
+310
+
+1100
+
+150
+
+4b
+
+b
+
+och3
+
+ch3
+
+190
+
+4000
+
+7.9
+
+4c
+
+b
+
+cl
+
+ch3
+
+500
+
+2500
+
+9.5
+
+4d
+
+b
+
+f
+
+ch3
+
+440
+
+1100
+
+68
+
+4e
+
+b
+
+ch3
+
+ch3
+
+260
+
+2800
+
+20
+
+4f
+
+a
+
+h
+
+h
+
+64
+
+30
+
+390
+
+4g
+
+a
+
+och3
+
+h
+
+36
+
+130
+
+8.0
+
+4h
+4i
+
+a
+a
+
+cl
+f
+
+h
+h
+
+36
+53
+
+69
+39
+
+13
+67
+
+4j
+
+a
+
+ch3
+
+h
+
+56
+
+44
+
+18
+
+4k
+
+a
+
+cf3
+
+h
+
+140
+
+240
+
+6.9
+
+4l
+
+a
+
+c(ch3)3
+
+h
+
+450
+
+2500
+
+2100
+
+1, citalopram
+
+nt
+
+nt
+
+3.9e
+
+2, buspirone
+
+>10000
+
+21
+
+>1000
+
+3, ondansetron
+
+2.8
+
+nt
+
+>2000
+
+a
+
+data are the mean of a minimum of two determinations covering 6 decades for each compound. ki values were calculated from the chengprusoﬀ
+equation (ki = ic50/(1 þ [l]/kd)). nt, not tested. b [3h]granisetron binding to cloned  xxxg1116xxx  receptors. c [3h]5-carboxamidotryptamine binding
+to cloned 5-ht1a receptors. d [3h]5-ht uptake measured in rat synaptosomes. e reference 59.
+
+chart 1. structures of citalopram (1), buspirone (2), ondansetron (3), target compounds (4-6) and 5m
+
+sar studies based on the ratios between the in vitro affinities/
+potencies at h5-ht3a, and h5-ht1a receptors and the rsert.
+it has been demonstrated in both preclinical and clinical studies
+
+that a relatively high  xxxg2150xxx  occupancy of around 8090% is
+required for ssris and snris to exert an antidepressant
+activity.3335 in contrast, the relationship between the in vivo
+3208
+
+dx.doi.org/10.1021/jm101459g |j. med. chem. 2011, 54, 3206–3221
+
+journal of medicinal chemistry
+
+article
+
+scheme 1. synthesis of target compounds by method a
+
+occupancy in experimental animals and humans and the efficacy
+at 5-ht3 and 5-ht1a receptors is less well described. however,
+receptor occupancies of >50% have been reported for the
+antiemetic activity of  xxxg1116xxx  antagonists including
+ondansetron (3),36 whereas much lower receptor occupancies
+have been estimated to be efficacious for buspirone (2) at
+5-ht1a receptors.3739 hence, compounds were selected that
+displayed relative affinities/potencies (ki/ic50) at h5-ht3a and
+h5-ht1a receptors and rsert corresponding to rsert/h5ht3a/h5-ht1a ≈ 1:(15):(515). from a hypothesis that the
+in vitro profile alone would reflect the relative in vivo occupancies, these ratios would correspond to in vivo occupancy levels of
+4580% at 5-ht3 receptors and 2045% at 5-ht1a receptors
+for a compound with an in vivo occupancy of 80% at sert
+(figure 1). furthermore, the compounds were only considered
+if the  xxxg1108xxx  affinity was <100 nm in order to limit
+the amount of compounds for broader in vitro and in vivo
+profiling.
+we ﬁrst focused on the r1 substituent in the phenylsulfanyl
+ring and the r5 substituent in the central benzene ring of lead
+compound 4b (table 1). a number of analogues of 4b were
+available at the onset of the project. in contrast to the methoxy in
+4b, these analogues were furnished with either electron-withdrawing substituents (r1 = f or cf3) or substituents with limited
+electronic eﬀects (r1 = cl, ch3, and tert-butyl). the series of
+compounds was extended by synthesizing analogues carrying a
+hydrogen atom at r5 instead of the methyl substituent of 4b.
+these latter compounds demonstrated higher aﬃnities at the
+ xxxg1116xxx  and 5-ht1a receptors in comparison with compounds
+
+furnished with a methyl substituent at this position, i.e., 4ae
+compared with 4fj. all compounds with relatively small
+substituents at r1 and either a hydrogen atom or a methyl
+substituent at r5 (4b,c,e,g,h,j,k) inhibited rsert in the same
+range, whereas compounds with a ﬂuoro atom (4d and 4i) or a
+hydrogen atom (4a and 4f) exhibited weaker rsert inhibition.
+the compound 4l with the large tert-butyl substituent was a
+signiﬁcant weaker inhibitor of rsert, demonstrating that small
+r1 substituents are preferred for potent rsert inhibition. it was
+also shown that rsert inhibition seemed to be less aﬀected by
+the electronic eﬀects of the r1 substituent as long as the
+substituent was above a certain size. the compounds with an
+electron-donating methoxy substituent (4b and 4g), a more or
+less neutral methyl or chloro substituent (4e, 4j, 4c, and 4h), or
+an electron-withdrawing triﬂuoromethyl substituent (4k) were
+more or less equipotent rsert inhibitors. from this initial series,
+compounds 4h and 4j were selected for further in vitro evaluation
+(tables 3 and 4), whereas compounds 4ae,g,k,l were discarded
+because of their relative low h5-ht1a receptor aﬃnities and
+compounds 4f and 4i were discarded because of their low rsert
+inhibition and suboptimal ratio between rsert inhibition and
+h5-ht1a receptor aﬃnity.
+we extended the series of compounds through the synthesis
+of analogues carrying a hydrogen atom at r5 and methoxy,
+chloro, and/or methyl groups at other positions of the phenylsulfanyl ring. thus, the eﬀects of moving the substituent from
+r1 to either r2 or r3 and of having two substituents (two
+identical or two diﬀerent substituents) in the phenylsulfanyl
+ring were investigated (table 2). in general, all of these
+3209
+
+dx.doi.org/10.1021/jm101459g |j. med. chem. 2011, 54, 3206–3221
+
+journal of medicinal chemistry
+
+article
+
+scheme 2. synthesis of target compounds by method b
+
+compounds (5ap) turned out to have relative high aﬃnities
+for h5-ht3a receptors (ki from 7.3 to 110 nm). these
+compounds also showed moderate to high aﬃnities at the h5ht1a receptor (ki from 14 to 330 nm) and moderate to high
+activity at rsert (ic50 from 4.3 to 330 nm). compounds with
+a methoxy or a methyl substituent at r2 or r3 (5ad) were
+weaker rsert inhibitors than the corresponding r1 analogues
+(4g and 4j). compound 5d, with a monomethyl substituent at
+r3, showed high aﬃnity for h5-ht1a receptors, and the
+corresponding r1 and r2 analogues 4j and 5b showed weaker
+aﬃnities for h5-ht1a receptors compared with 5d by factors of 3
+and 7, respectively.
+six compounds were synthesized with two identical adjacent
+substituents, i.e., compounds with the same substituent at r1 and
+r2 (5e,f,g) or at r2 and r3 (5h,i,j). these compounds were all
+relatively potent rsert inhibitors with favorable ratios between
+the three targets. however, only compounds 5g, 5i, and 5j were
+selected for further in vitro investigations (tables 3 and 4). three
+compounds with identical substituents at r1 and r3 were also
+synthesized (5k,l,m), and all these compounds had the desired h5ht3a/rsert ratio. whereas compound 5k showed weak h5ht1a receptor aﬃnity, compounds 5l and 5m were selected for
+further in vitro proﬁling (tables 3 and 4). finally, three analogues
+with diﬀerent substituents at r1 and r3 were synthesized (5n,o,p).
+only compound 5p was selected for further in vitro proﬁling
+(tables 3 and 4), since compounds 5n and 5o showed low 5-ht1a
+
+receptor aﬃnities, i.e., compound 5n in relation to inhibition of
+sert and 5o with ki > 100 nm.
+compounds 4h, 4j, 5g, 5i, 5j, 5l, 5m, and 5p were tested for
+rnet and rdat inhibition. the ratios between rdat and
+rsert and between rnet and rsert inhibition are shown in
+table 3. the rnet/rsert ratios ranged from 7 to 150, whereas
+the rdat/rsert ratios ranged from 1 to 170. compound 5m
+exhibited the highest ratio (170) between rdat and rsert
+inhibition. compound 5g showed the highest ratio (150)
+between rnet and rsert inhibition, and a group of compounds
+including 5m showed rsert selectivity with ratios ranging from
+20 to 35. furthermore, drug metabolism and pharmacokinetic
+( xxxg643xxx ) properties of the compounds in the series were
+optimized by monitoring their in vitro metabolic stability in rat
+and human liver microsomes and by assessing the inhibitory
+potential of the compounds toward recombinant (cdna-expressed) human cyp450 enzymes. as shown in table 4, the
+compounds generally showed good stability in human liver
+microsomes; i.e., the intrinsic clearances (clint) of all but one
+(5i) were below that for the human liver blood ﬂow (lbf).
+conversely, in rat liver microsomes the clint were all above the
+rat lbf of 20 ml/min, indicating high clearance in vivo. this was
+conﬁrmed in vivo for all compounds tested in the project, e.g., for
+compounds 4h and 5m the hepatic clearances and oral bioavailabilities in rats were found to be 5.8 and 7.1 (l/h)/kg and 26%
+and 16%, respectively. furthermore, inhibition of cyp1a2,
+3210
+
+dx.doi.org/10.1021/jm101459g |j. med. chem. 2011, 54, 3206–3221
+
+journal of medicinal chemistry
+
+article
+
+table 2. structureactivity relationship of compounds 5ap at human (h)  xxxg1116xxx  and h5-ht1a receptors and the rat (r)
+serotonin transporter (rsert)
+
+ki (nm)a
+
+ic50 (nm)a
+
+synthesis
+compd
+
+method
+
+r1
+
+r2
+
+r3
+
+h5-ht3ab
+
+h5-ht1ac
+
+rsertd
+
+5a
+
+a
+
+h
+
+och3
+
+h
+
+62
+
+140
+
+53
+
+5b
+5c
+
+a
+b
+
+h
+h
+
+ch3
+h
+
+h
+och3
+
+64
+52
+
+100
+59
+
+54
+330
+
+5d
+
+b
+
+h
+
+h
+
+ch3
+
+32
+
+14
+
+51
+
+5e
+
+b
+
+och3
+
+och3
+
+h
+
+86
+
+160
+
+15
+
+5f
+
+a
+
+cl
+
+cl
+
+h
+
+110
+
+68
+
+4.7
+
+5g
+
+a
+
+ch3
+
+ch3
+
+h
+
+33
+
+53
+
+5.8
+
+5h
+
+b
+
+h
+
+och3
+
+och3
+
+80
+
+68
+
+37
+
+5i
+
+a
+
+h
+
+cl
+
+cl
+
+67
+
+75
+
+17
+
+5j
+5k
+
+b
+b
+
+h
+och3
+
+ch3
+h
+
+ch3
+och3
+
+29
+32
+
+31
+330
+
+4.4
+7.6
+
+5l
+
+a
+
+cl
+
+h
+
+cl
+
+26
+
+78
+
+5.2
+
+5m
+
+a
+
+ch3
+
+h
+
+ch3
+
+23/3.7e
+
+39/15f
+
+5.3/5.4g
+
+5n
+
+b
+
+och3
+
+h
+
+cl
+
+12
+
+94
+
+4.3
+
+5o
+
+b
+
+ch3
+
+h
+
+och3
+
+17
+
+210
+
+11
+
+5p
+
+b
+
+ch3
+
+h
+
+cl
+
+7.3
+
+78
+
+9.7
+
+a
+
+data are the mean of a minimum of two determinations covering 6 decades for each compound. ki values were calculated from the chengprusoﬀ
+equation (ki = ic50/(1 þ [l]/kd)). b [3h]granisetron binding to cloned h5-ht3a receptors. c [3h]5-carboxamidotryptamine binding to cloned
+5-ht1a receptors. d [3h]5-ht uptake from rat synaptosomes. e external data obtained from cerep, catalogue number 808-3h. f external data obtained
+from mds pharmaservices, catalogue number 271110. g [3h]5-ht uptake from cho cells expressing  xxxg2150xxx . for compound 5m, in-house and
+external data are shown for h5-ht3a and h5-ht1a receptors, and for sert both rat and human data are shown.
+
+cyp2c9, and cyp3a4 was found to be in the high micromolar
+range for all compounds, while inhibition toward cyp2d6
+ranged from 0.4 mum for compound 4h to 9.8 mum for compound
+5m. on the basis of the favorable in vitro and  xxxg643xxx  proﬁle,
+compound 5m was selected for further sar exploration, as well
+as for broader in vitro and in vivo proﬁling.
+the sar of 5m was further explored by a “methyl walk”
+around the entire molecular framework (table 5). in addition,
+the piperazine ring was replaced with a homopiperazine (6f) and
+the sulfur atom with an oxygen atom (6g). in comparison to 5m,
+all of these compounds showed weaker rsert inhibition, and
+only compound 6g had acceptable h5-ht1a receptor aﬃnity.
+they also had relatively large variations in their aﬃnity for h5ht3a receptors, with ki ranging from 45 to 670 nm. compound
+6c (r6 = ch3) and homopiperazine 6f showed some selectivity
+for h5-ht3a receptors, whereas the oxygen analogue 6g, in
+agreement with literature data, had some selectivity for h5-ht1a
+receptors.25
+further pharmacological and pharmacokinetic characterization of 5m. compound 5m displayed high binding affinity
+for cloned homomeric h5-ht3a receptors [ki = 23 nm (in-house)
+and ki = 3.7 nm (cerep)]. in agreement with this, 5m was shown
+to be a potent functional antagonist (ic50 = 12 nm, tested against
+10 mum 5-ht) when tested in an electrophysiological setup
+
+using xenopus oocytes expressing cloned homomeric h5-ht3a
+receptors (figure 2). conversely, at higher concentrations, 5m
+showed agonistic properties (ec50 = 2100 nm), reaching a
+maximal response of 64% relative to 5-ht (figure 3). the
+agonistic response could be blocked by the  xxxg1116xxx 
+antagonist ondansetron (data not shown). at r5-ht3a receptors,
+no agonistic response was found over a large concentration range
+(0.1100000 nm), but in agreement with the findings at
+h5-ht3a receptors, 5m was found to be a potent antagonist at
+r5-ht3a receptors (ic50= 0.18 nm) (figure 2). compound 5m
+displayed high binding affinity for cloned h5-ht1a receptors in
+two different assays (ki = 39 nm (in-house) and ki = 15 nm
+(mds pharmaservice), whereas relative low affinity binding was
+found at r5-ht1a receptors (ki = 230 nm). in a [35s]guanosine
+50 -o-(3-thio)triphosphate ([35s]gtpgammas) binding assay with
+h5-ht1a receptors, 5m was found to be an agonist (ec50 =
+200 nm, efficacy = 96%, figure 4). in vitro characterization
+showed that 5m was a potent rsert inhibitor (ic50 = 5.3 nm)
+when assessed in rat brain synaptosomes, and a similar potency
+was found on  xxxg2150xxx  when expressed in chinese hamster ovary
+(cho) cells (ic50 = 5.4 nm). comparably, binding affinity at
+ xxxg2150xxx  was found to be 1.6 nm. weak potencies (ic50 > 100
+nm) of 5m were found at rnet and rdat (table 3). at 1 mum,
+5m was tested against a panel of more than 75 ion channels,
+3211
+
+dx.doi.org/10.1021/jm101459g |j. med. chem. 2011, 54, 3206–3221
+
+journal of medicinal chemistry
+
+article
+
+table 4. in vitro metabolic stability in rat and human liver
+microsomes and inhibition of recombinant (cdna-expressed) human cyp enzymes
+
+compd
+
+a
+
+clint
+
+clint
+
+(l/min)
+
+(ml/min)
+
+human
+
+rat
+
+ic50 (mum)
+cyp1a2 cyp2c9 cyp2d6 cyp3a4
+
+4h
+
+0.6
+
+70
+
+53
+
+31
+
+0.4
+
+4j
+
+1.1
+
+260
+
+40
+
+40
+
+2.7
+
+16
+
+5g
+
+0.5
+
+290
+
+26
+
+34
+
+2.8
+
+11
+
+5i
+5j
+
+1.9
+0.7
+
+260
+120
+
+32
+24
+
+40
+40
+
+0.5
+3.3
+
+5l
+
+0.5
+
+38
+
+27
+
+34
+
+0.9
+
+5m
+
+0.5
+
+55
+
+40
+
+39
+
+9.8
+
+5p
+
+0.6
+
+120
+
+34
+
+40
+
+1.5
+
+lbfa
+
+1.4
+
+20
+
+6.8
+
+6.1
+8.7
+4.4
+10
+5.5
+
+lbf, liver blood ﬂow.
+
+figure 1. calculated relationships between the occupancy levels at
+5-ht1a or 5-ht3 receptors relative to serotonin (5-ht) transporter
+(sert) occupancy. the line with circles (b) shows the relationship
+between the occupancies if the ratio between the sert and 5-ht1a or
+5-ht3 is 1. the line with triangles (2) shows the relationship when the
+ratio is 5, and the line with squares (9) shows the relationship when the
+ratio is 15; i.e., a compound with occupancy of 80% at sert would give
+occupancy of 45% at 5-ht1a receptors if the aﬃnity at 5-ht1a receptors is
+5-fold lower than at sert, whereas only 20% occupancy would be obtained
+if the 5-ht1a receptors aﬃnity is 15-fold lower than at sert. the two
+hatched areas depict estimated clinically relevant occupancy levels at
+5-ht1a and 5-ht3 receptors based on these considerations.
+
+table 3. structureactivity relationship of key compounds
+selected from tables 1 and 2 at rat serotonin transporter
+(rsert), rat  xxxg2149xxx  (rdat), and rat  xxxg1505xxx   xxxg2148xxx  (rnet), as well as the calculated
+ratios rdat/rsert and rnet/rsert
+ic50 (nm)a
+compd
+
+rsertb
+
+rdatb
+c
+
+ratio
+rnetb
+
+rdat/rsert
+c
+
+d
+
+rnet/rsert
+12/15d
+
+4h
+
+13
+
+37/45
+
+160/190
+
+4j
+
+18
+
+110
+
+460
+
+6.1
+
+25
+
+5g
+5i
+
+5.8
+17
+
+120c
+21c
+
+880c
+120c
+
+21
+1
+
+150
+7
+
+5j
+
+4.4
+
+170c
+
+90c
+
+38
+
+20
+
+5l
+
+5.2
+
+c
+
+250
+
+120c
+
+48
+
+23
+
+5m
+
+5.3
+
+890
+
+140
+
+170
+
+26
+
+5p
+
+9.7
+
+320c
+
+340c
+
+33
+
+35
+
+2.8/3.5
+
+a
+
+data are the mean of a minimum of two values. ic50 values were
+determined using drug concentrations covering at least 3 decades.
+b 3
+[ h]5-ht, [3h]da, and [3h]ne uptake from rat synaptosomes.
+c
+cerep catalogue numbers 711 and 712 for rnet and rdat, respectively. d for compound 4h, ratios from in-house and external data
+are shown.
+
+g-protein-coupled receptors, enzymes, and transporters
+(table 6). modest binding affinities were found at histamine
+ xxxg791xxx , melanocortin hmc4, noradrenergic  xxxg1261xxx , serotonergic
+h5-ht2c, h5-ht5a, and h5-ht6 receptors, whereas more potent
+
+figure 2. compound 5m and ondansetron (3) were tested for antagonistic eﬀects on human (h) and rat (r)  xxxg1116xxx  receptors expressed in
+oocytes. compound 5m inhibited the h5-ht3a and r5-ht3a receptors
+with ic50 equal to 12 and 0.18 nm, respectively. ondansetron (3)
+showed similar inhibition of both h5-ht3a and r5-ht3a receptors with
+ic50 ≈ 0.1 nm.
+3212
+
+dx.doi.org/10.1021/jm101459g |j. med. chem. 2011, 54, 3206–3221
+
+journal of medicinal chemistry
+
+article
+
+figure 4. dose relationship depicting potency and intrinsic activity
+(ia) of 5m, buspirone, and 5-oh dpat in a [35s]guanosine 50 -o-(3thio)triphosphate ([35s]gtpgammas) binding assay in cho membranes
+expressing h5-ht1a receptors. iamax was deﬁned by 5-ht binding. raw
+data were obtained by mds pharmaservices and were then analyzed by
+sigmoidal dose response curve-ﬁttings using graphpad prism 4 to
+generate ec50 and intrinsic activity (ia) results. data shown in the
+graph were averaged from n = 3.
+
+figure 3. compound 5m displayed an agonistic response on human
+(h)  xxxg1116xxx  receptors (arrowhead) but not on rat (r)  xxxg1116xxx  receptors
+(arrow). at h5-ht3a receptors, 5m had an ec50 of 2100 nm, reaching a
+maximal response of 64% compared with the maximal response with
+5-ht. note that after only one application of 5m for 30 s, the
+subsequent application of either 5m or 5-ht (10 mum) did not induce
+any response at all, indicating that 5m induces functional antagonism.
+that means that it is only possible to test one concentration of 5m on
+each oocyte, so the agonism dose-reponse curves for 5m has been
+obtained from a test of each single concentration of 5m using three to six
+separate oocytes.
+
+enhanced hippocampal 5-ht levels by 700% at the dose
+yielding maximal response (data not shown). three days of
+treatment with 5m (5 or 10 (mg/kg)/day) also resulted in
+significantly higher basal levels of 5-ht in the medial
+prefrontal cortex (mpfc) compared to animals treated with
+vehicle. the occupancy of sert by 5m after 3 days of
+treatment with 5 or 10 (mg/kg)/day was 43% and 57%,
+respectively (figure 6). furthermore, 5m showed a robust
+antidepressant- and anxiolytic-like profile in multiple preclinical assays, such as the mouse forced-swim and tail-suspension
+tests and the rat social interaction and conditioned-fear
+paradigms.40
+the prediction of the hepatic clearance of 5m in humans
+was done by in vitro/in vivo extrapolation from the predicted
+hepatic clearance in rats and humans and the observed
+systemic in vivo clearance in rats. according to the well-stirred
+model, the hepatic clearance in each species (clpred) was
+predicted from hepatic microsomal intrinsic clearance (clint)
+according to
+clpred ¼
+
+binding (ki < 180 nm) was found at noradrenergic  xxxg1260xxx  receptors
+(ki = 46 nm) and serotonergic h5-ht1b (ki = 33 nm) and h5ht7 (ki = 19 nm) receptors (table 6). at h5-ht1b
+receptors, 5m proved to be a partial agonist (ec50 = 120 nm,
+efficacy = 55%) when tested in a [35s]gtpgammas binding assay,
+whereas 5m was shown to be an antagonist (ki = 450 nm) at h5ht7 receptors when tested in a camp dependent fluorescence based assay using cloned h5-ht7 receptors expressed in
+hek-cng cells. the unique in vitro pharmacological properties
+of 5m (table 7) translate into an in vivo profile that differs
+from those of currently used antidepressants. compound 5m
+(2.5, 5, or 10 mg/kg sc) increased the extracellular levels of
+5-ht in the ventral hippocampus in conscious rats (figure 5).
+in a similar experiment administration of the ssri escitalopram
+
+ðlbfþðclint þðfu þ
+lbf þ ðclint þðfu þ
+
+where lbf is liver blood ﬂow and fu is the unbound fraction in
+plasma. human clearance was then predicted from the observed
+in vivo rat clearance and the clearances that are predicted based
+on in vitro clearances from each species (clpred,human and
+clpred,rat) according to
+clhuman ¼ clrat
+
+clpred;human
+clpred;rat
+
+the plasma protein binding of 5m was determined to 98.3%
+and 99.2% for human and rat, respectively, resulting in a
+predicted low human hepatic clearance of 35 l/h, which
+turned out to be oﬀ by only a few liters when measured in
+3213
+
+dx.doi.org/10.1021/jm101459g |j. med. chem. 2011, 54, 3206–3221
+
+journal of medicinal chemistry
+
+article
+
+table 5. structureactivity relationship of compounds 6ag compared with 5m at human (h)  xxxg1116xxx  and h5-ht1a receptors
+and the rat serotonin transporter (rsert)
+
+ki (nm)a
+compd
+
+synthesis method
+
+r4
+
+r5
+
+r6
+
+r7
+
+r8
+
+n
+
+x
+
+h5-ht3ab
+
+h5-ht1ac
+
+ic50 (nm)a
+rsertd
+
+6a
+
+b
+
+ch3
+
+h
+
+h
+
+h
+
+h
+
+1
+
+s
+
+160
+
+420
+
+6b
+
+b
+
+h
+
+ch3
+
+h
+
+h
+
+h
+
+1
+
+s
+
+150
+
+2700
+
+44
+25
+
+6c
+
+a
+
+h
+
+h
+
+ch3
+
+h
+
+h
+
+1
+
+s
+
+45
+
+1400
+
+200
+
+6d
+6e
+
+a
+b
+
+h
+h
+
+h
+h
+
+h
+h
+
+ch3
+h
+
+h
+ch3
+
+1
+1
+
+s
+s
+
+670
+130
+
+540
+120
+
+540
+680
+
+6f
+
+b
+
+h
+
+h
+
+h
+
+h
+
+h
+
+2
+
+s
+
+27
+
+310
+
+130
+
+6g
+
+c
+
+h
+
+h
+
+h
+
+h
+
+h
+
+1
+
+o
+
+270
+
+65
+
+250
+
+5m
+
+a
+
+h
+
+h
+
+h
+
+h
+
+h
+
+1
+
+s
+
+23/3.7e
+
+40/15f
+
+5.3/5.4g
+
+a
+
+data are the mean of a minimum of two determinations covering 6 decades for each compound. ki values were calculated from the chengprusoﬀ
+equation (ki = ic50/(1 þ [l]/kd]. b [3h]granisetron binding to cloned  xxxg1116xxx  receptors. c [3h]5-carboxamidotryptamine binding to cloned 5-ht1a
+receptors. d [3h]5-ht uptake from rat synaptosomes. e external data obtained from cerep, catalogue number 808-3h. f external data obtained from
+mds pharmaservices, catalogue number 271110. g [3h]5-ht uptake from cho cells expressing  xxxg2150xxx . for compound 5m, in-house and external data
+are shown for h5-ht3a and h5-ht1a receptors, and for sert both rat and human data are shown.
+
+table 6. broad screening of 5m at cerep, mds pharmaservices, or h. lundbeck a/sa
+targets
+adenosine:  xxxd951xxx , ha2a, ha3
+
+ xxxg99xxx : hat1, hat2
+
+benzodiazepine:  xxxd1459xxx  (central);  xxxd1459xxx  (peripheral)
+bradykinin:  xxxg2028xxx 
+
+ xxxg977xxx : bb (nonselective)
+calcitonin: hcgrp
+
+cannabinoid: hcb1
+
+cholecystokinin: hcck1, hcck2
+
+dopamine: hd1, hd2, hd3,  xxxg1036xxx .4, hd5
+
+endothelin: heta, hetb,
+
+ xxxd2177xxx  (nonselective)
+
+galanin: hgal1, hgal2
+
+growth factors: platelet-derived growth factor,
+
+glutamate (nonselective): phenylcyclidine binding site
+
+h interleukin-8b,  xxxg2296xxx -r, chemokine
+receptor 1
+histamine:  xxxg2028xxx ,  xxxg791xxx  (ki = 180 nm)
+melatonin: hml1
+
+melanocortin: hmc4 (% inh = 51)
+muscarinic:  xxxg447xxx ,  xxxg448xxx ,  xxxg449xxx ,  xxxg450xxx ,  xxxg451xxx 
+
+neurokinin:  xxxg234xxx , hnk2, hnk3
+
+noradrenergic (nonselective): r1 (nonselective), r2 (nonselective),  xxxg836xxx  (ki = 46 nm),
+
+ xxxg1590xxx : hy1, hy2
+
+ xxxg1618xxx : hnt1
+
+opiate: hdelta, kappa, hmu
+
+orphanin: horl1
+
+ xxxg837xxx   xxxg1553xxx   xxxg2356xxx  (ki = 560 nm)
+
+ xxxg70xxx :  xxxg71xxx 
+
+prostaglandin: human thromboxane a/pgh2, hpgi2
+
+purinic: p2x, p2y
+
+serotonergic: h5-ht1a (% inh = 98),b h5-ht1b (% inh = 100),b h5-ht2a, h5-ht2c
+(ki = 180 nm), h5-ht3a (% inh 100),b h5-ht5a (ki = 220 nm), h5-ht6
+(ki = 330 nm), h5-ht7 (ki = 19 nm)
+
+sigma (nonselective)
+
+somatostatin (nonselective): sst
+
+ xxxg2417xxx : hvip1 (vpac1)
+
+vasopression: hv1a
+
+ion channels: ca2þ (l, verapamil site), kþv channel,
+
+transporters:  xxxg694xxx  transporter (% inh = 88),b hda transporter
+
+skþca
+
+þ
+
+
+
+channel, na channel (site 2), cl channel
+
+a
+
+for targets where % inhibition (inh) of binding at 1000 nm was greater than 50%, ki values or % inhibition are speciﬁed. data were generated in a highthroughput proﬁle at cerep 2002. follow-up was made at cerep, mds pharmaservices or at h. lundbeck a/s. data are the mean of a minimum of two
+determinations covering 6 decades for each compound. ki values were calculated from the chengprusoﬀ equation (ki = ic50/(1 þ [l]/kd)). b ic50/
+ki values are reported elsewhere in manuscript.
+
+human healthy volunteers (data not shown). thus, compound
+5m was indeed predicted to display promising pharmacokinetic
+
+characteristics and low cyp450 enzyme inhibitory potential in
+humans.
+3214
+
+dx.doi.org/10.1021/jm101459g |j. med. chem. 2011, 54, 3206–3221
+
+journal of medicinal chemistry
+
+article
+
+figure 5. eﬀects of administration of 5m (2.5, 5, and 10 mg/kg) or vehicle subcutaneous on extracellular 5-ht levels in the rat ventral hippocampus.
+data are expressed as the mean ( sem. there was a dose and time-dependent increase in extracellular 5-ht following drug administration [f(27,159) =
+7.081; p < 0.001]. extracellular concentrations of 5-ht were signiﬁcantly increased relative to baseline from t = 60 until t = 120 min after administration of
+2.5 mg/kg 5m and from t = 40 until t = 180 min after 5 or 10 mg/kg 5m (p < 0.05).
+
+table 7. primary human (h) in vitro binding proﬁle of 5m
+
+figure 6. eﬀects of 3-day treatment with vehicle or 5m (5 or 10 mg/kg
+sc) on extracellular 5-ht levels in the rat medial prefrontal cortex
+(mpfc) and sert occupancy. data are expressed as the mean ( sem.
+three days of treatment with 5m (5 or 10 (mg/kg)/day) resulted in
+signiﬁcantly higher basal levels of 5-ht in the mpfc compared to
+animals treated with vehicle (p < 0.05).
+
+’ discussion and conclusion
+a novel series of compounds with combined eﬀects on h5ht3a and h5-ht1a receptors and on the rsert was discovered.
+compound 5m was identiﬁed as the lead compound from this
+series, displaying the desired relative aﬃnities/potencies (ki/
+ic50) between  xxxg1116xxx , 5-ht1a, and sert, as well as appropriate pharmacokinetic properties for further development.
+compound 5m met the criteria set for eﬃcacy at these targets,
+displaying antagonistic properties at h5-ht3a receptors, agonistic properties at h5-ht1a receptors, and inhibition of  xxxg2150xxx .
+whereas 5m showed comparable potencies at both rat and
+human sert, species diﬀerences were found at 5-ht1a and
+ xxxg1116xxx  receptors. hence, rat models should be used with
+
+target
+
+ki (nm)
+
+h5-ht1a
+
+15
+
+h5-ht1b
+
+33
+
+h5-ht3a
+
+3.7
+
+h5-ht7
+
+19
+
+ xxxg2150xxx 
+
+1.6
+
+caution when predicting the clinical potential of 5m. additional
+proﬁling revealed that compound 5m exerted high aﬃnity (ki <
+100 nm) at noradrenergic  xxxg1260xxx  (ki = 46 nm), serotonergic
+h5-ht1b (ki = 33 nm), and h5-ht7 (ki = 19 nm) receptors.
+in vitro functional characterization at these receptors showed
+that 5m was a partial agonist at h5-ht1b receptors and an
+antagonist at h5-ht7 receptors. taken together, compound 5m
+exerts a multimodal serotonergic action, by inhibiting sert and
+interacting with h5-ht1a, h5-ht1b, h5-ht3, and h5-ht7
+receptors. indeed, the action of an eﬃcacious  xxxg1108xxx 
+agonist is expected to rapidly desensitize the somatodendritic
+5-ht1a autoreceptor41 and simultaneously activate postsynaptic 5-ht1a receptors.42,17,18 moreover, the  xxxg1116xxx 
+antagonistic eﬀect of 5m may counteract the inhibitory tonus of
+the  xxxg1116xxx  on the noradrenergic and cholinergic systems, leading to a facilitating eﬀect on these systems,19,20 both of
+which are known to be important in the pathology of
+mood disorders.43,44 additionally, we have shown that the
+ xxxg1116xxx  antagonist ondansetron potentiates citalopram-induced increases in 5-ht levels in the rat brain,45
+3215
+
+dx.doi.org/10.1021/jm101459g |j. med. chem. 2011, 54, 3206–3221
+
+journal of medicinal chemistry
+demonstrating that  xxxg1116xxx  blockade also facilitates
+5-ht release. while the aﬃnity of 5m for the noradrenergic
+ xxxg1260xxx  receptor did not translate to an obvious pharmacology
+in vivo, the h5-ht1b and h5-ht7 receptor aﬃnity may contribute to the in vivo pharmacological proﬁle. the 5-ht1b
+receptors are present on 5-ht nerve terminals, and a number
+of studies have shown that stimulating 5-ht1b receptors leads to
+a decrease in 5-ht output. conversely, the combination of
+sert blockade and  xxxg1109xxx  antagonism has been
+shown to augment 5-ht levels in microdialysis studies.46 we
+have demonstrated that 5m exerts a partial agonistic proﬁle at the
+h5-ht1b receptors, which could translate to an inhibitory
+control of 5-ht1b receptors in vivo, thus further substantiating
+the potential of 5m in a clinical setting. similarly,  xxxg1120xxx 
+receptor blockade has been shown to be eﬃcacious in animal
+models of depression, e.g., the mouse forced-swim test and tailsuspension test.47 the combination of an ssri with  xxxg1120xxx 
+receptor blockade synergistically augments the levels of 5-ht in
+the prefrontal cortex,48 suggesting that  xxxg1120xxx  receptor antagonism alone or in combination with sert blockade has antidepressant potential.
+in this study we demonstrate that 5m aﬀects 5-ht levels in
+both the ventral hippocampus and mpfc, two important brain
+regions involved in regulation of mood.49,50 after acute administration in rat microdialysis experiments, compound 5m induced
+a robust increase in extracellular 5-ht levels in the ventral
+hippocampus. this increase is higher than those obtained after
+acute administration of ssris51 and snris52,53 at doses that
+maximally block sert,52 suggesting that the combined pharmacological eﬀects of 5m in rats on sert and 5-ht1b, 5-ht3, and
+ xxxg1120xxx  receptors lead to an augmentation of the extracellular
+5-ht levels when compared to that of ssris or snris. as
+mentioned above, activation by  xxxg1108xxx  agonists leads
+to rapid desensitization of somatodendritic 5-ht1a receptors,41
+suggesting an additional beneﬁcial eﬀect in humans, which might
+be diﬃcult to model in rats because the r5-ht1a receptor aﬃnity
+is low. thus, the eﬀects of 5m on the 5-ht receptors may cancel
+out inhibitory feedback eﬀects exerted on acute sert
+inhibition.54 in the rat microdialysis experiments, 3 days of
+treatment with 5m resulted in signiﬁcant increases in extracellular 5-ht levels at low sert occupancy, again suggesting a
+multimodal mode of action of 5m. this is in contrast to
+treatment with ssris, where chronic treatment is generally
+required to overcome the inhibitory feedback mechanisms and
+to produce a positive 5-ht response in preclinical models.55 in
+conclusion, these characteristics indicate that 5m is a novel
+multimodal serotonergic compound that has the potential to
+beneﬁt symptomatologies associated with mood disorders. compound 5m ( xxxd3530xxx ) is currently in clinical development for
+mdd.
+
+’ experimental section
+chemistry. reagents and solvents were obtained from commercial
+sources and used as received. thin layer chromatography was carried out
+on merck silica gel 60 f254. flash chromatography was performed using
+merck silica gel 60 (4063 mum). 1h and 13c nuclear magnetic
+resonance (nmr) spectra were recorded at ambient temperature on a
+bruker avance av-500 at 500.13 and 125.77 mhz, respectively.
+chemical shifts (delta) are reported in parts per million relative to
+tetramethylsilane (tms) or residual solvent, and coupling constants
+(j) are given in hertz. high-resolution mass spectrometry (hrms) was
+
+article
+
+recorded on a bruker daltonics microtof operating with external
+calibration with lithium formate (for esi) and peg200/peg400/
+peg600 (1:1:1) [for atmospheric pressure photo ionization ( xxxg178xxx )].
+liquid chromatography/ms (lc/ms), solvent system a was water/
+trifluoroacetic acid (tfa) (100:0.05) and b was acetonitrile/water/
+tfa (95:5:0.035). instruments were api 150ex and lc system
+shimadzu lc10advp/slc-10avp with sedere sedex75 els and
+column operating at 60 °c. lc/ms method 1 involved the following:
+column 30 mm  4.6 mm waters symmetry c18 with 3.5 mum particles
+operating at room temperature; linear gradient elution with 10% b to
+100% b in 2.4 min at a flow rate of 3.3 ml/min. lc/ms method 2
+involved the following: as above but instead with a 30 mm  4.6 mm
+waters atlantis column with 3 mum particles operating at 40 °c; linear
+gradient elution with 2% b to 100% b in 2.4 min at a flow rate of 3.3 ml/
+min. lc/ms method 3 involved the following: solvent system a
+consisting of water/ammonia (99.9:0.1) and b consisting of acetonitrile/water/ammonia (94.9:5:0.1); instruments were sciex api300 and
+waters acquity uplc with diode array detector (dad) and evaporative
+light scattering (els) (waters); column 50 mm  2.1 mm waters beh
+with 1.7 mum particles operatomg at 60 °c. linear gradient elution with
+10% b to 100% b in 1 min at a flow rate of 1.2 ml/min. all
+pharmacologically characterized compounds were >95% pure as determined by lc/ms, with the exception of 6c and 6d, which had ultraviolet
+(uv) purities of 94% and 93%, respectively. these compounds were
+also characterized by 1h nmr and 13c nmr as well as either elemental
+analysis or hrms. synthesis intermediates were characterized by 1h
+nmr, 13c nmr, and hrms data for new compounds, except for
+synthesis intermediates 13b, 13c, and 13d for which no 13c nmr data
+are reported due to rotamers.
+
+general procedure 1 for the formation of diaryl
+sulfides31. potassium tert-butoxide (1.1 equiv) and a solution of an
+aryl bromide/iodide (1.0 equiv, if this was a solid) were added to
+pd2dba3 (2.5 mol %) and dpephos (10 mol %). subsequent toluene
+(the amount required to make a ∼10% w/w solution of the aryl
+bromide/iodide), the aryl bromide/iodide (1.0 equiv, if this was a
+liquid), and the thiophenol (1.0 equiv) were added. the flask was
+immersed in an oil bath preheated to 100 °c. the mixture was stirred at
+this temperature until the reaction was complete (typically <2 h for aryl
+iodides and overnight for aryl bromides). the crude mixture was loaded
+onto a silica gel column and eluted with heptane/ethyl acetate to give the
+products in >95% purity as determined by 1h nmr.
+
+general procedure 2 for the formation of boc-protected
+arylpiperazines from aryl bromides56. aryl bromide (1.0 equiv,
+if this was a solid), boc-piperazine (1.2 equiv), and sodium tert-butoxide
+(1.4 equiv) were added to pd2dba3 (2.5 mol %) and racemic binap (7.5
+mol %). subsequently toluene (the amount required to make a ∼10%
+w/w solution of the aryl bromide) and the aryl bromide (1.0 equiv, if this
+was a liquid) were added. the flask was immersed in an oil bath
+preheated to 100 °c. the mixture was stirred at this temperature
+overnight. the crude mixture was loaded onto a silica gel column and
+eluted with heptane/ethyl acetate to give the products in >95% purity as
+determined by 1h nmr.
+general procedure 3 for the cleavage of boc groups. the
+substrate was dissolved in methanol (the amount required to make a
+solution of approximately 20% w/w of the substrate). an hcl solution
+(2 m) in et2o (approximately 3 equiv) was added to the mixture, and
+the resulting mixture was stirred at room temperature overnight. if
+required, the mixture was cooled in an ice/water bath and diluted with
+et2o to precipitate the product as the hydrochloride salt. no attempts
+were made to isolate additional product from the filtrate.
+the synthesis procedure and compound characterization data for the
+ﬁnal compounds in table 3 are summarized below. the synthesis and
+characterization data for the remaining ﬁnal compounds and all intermediates are in the supporting information.
+3216
+
+dx.doi.org/10.1021/jm101459g |j. med. chem. 2011, 54, 3206–3221
+
+journal of medicinal chemistry
+compounds prepared according to method a
+(scheme 1). these compounds were prepared by initial formation
+of 2-bromophenylpiperazines accordoing to general method 2 followed
+by formation of the thioether linkage according to general procedure 1.
+deprotection and salt formation were done according to general method 3.
+1-[2-(4-chlorophenylsulfanyl)phenyl]piperazine
+hydrochloride
+(4h). 4h was prepared according to general procedure 3 starting from
+intermediate 11h in a yield of 31%. 1h nmr (500 mhz, dmso-d6) delta
+9.20 (s, 2h), 7.48 (d, j = 6.4, 2h), 7.427.34 (m, 2h), 7.27 (t, j = 7.2,
+1h), 7.20 (d, j = 7.7, 1h), 7.06 (d, j = 7.0, 1h), 6.92 (d, j = 7.7, 1h),
+3.223.08 (m, 8h). 13c nmr (126 mhz, dmso-d6) delta 149.73, 134.19
+(2c), 133.10, 132.69, 131.70, 130.14, 130.01 (2c), 128.27, 125.58,
+121.10, 48.54 (2c), 43.62 (2c). hrms calcd for c16h17cln2s þ h,
+305.0874; found, 305.0876. lc/ms (method 1): tr = 0.98 min, uv
+purity 97%, els purity 100%. anal. (c16h17cln2s 3 hcl) c, h, n.
+1-(2-p-tolylsulfanylphenyl)piperazine hydrochloride (4j). 4j was
+prepared according to general procedure 3 from impure 4-[2-(4methylphenylsulfanyl)phenyl]piperazine-1-carboxylic acid tert-butyl ester (11j) in a yield of 60%. 11j was prepared starting from 7a and
+4-methylthiophenol according general procedure 1. 1h nmr (500
+mhz, dmso-d6) delta 9.21 (s, 2h), 7.35 (d, j = 8.0, 2h), 7.28 (d, j =
+8.0, 2h), 7.227.13 (m, 2h), 7.056.96 (m, 1h), 6.69 (d, j = 7.6, 1h),
+3.18 (broad s, 8h), 2.34 (s, 3h). 13c nmr (126 mhz, dmso-d6) delta
+148.51, 138.82, 134.33 (2c), 134.13, 130.91 (2c), 128.69, 127.86,
+126.94, 125.44, 120.69, 48.53 (2c), 43.67 (2c), 21.14. hrms calcd for
+c17h20n2s þ h, 285.1420; found, 285.1422. lc/ms (method 1): tr =
+0.96 min, uv purity 98%, els purity 100%. anal. (c17h20n2s 3 hbr) c,
+h, n for a batch of the hydrobromide salt.
+1-[2-(3,4-dimethylphenylsulfanyl)phenyl]piperazine hydrochloride (5g). 5g was prepared according to general procedure 3 from impure
+4-[2-(3,4-dimethylphenylsulfanyl)phenyl]piperazine-1-carboxylic acid
+tert-butyl ester (12g) in a yield of 70% over two steps. 12g was prepared
+starting from 7a and 3,4-dimethylthiophenol according general procedure 1. 1h nmr (500 mhz, dmso-d6) delta 9.38 (s, 2h), 7.307.10 (m,
+5h), 7.056.94 (m, 1h), 6.66 (d, j = 7.8, 1h), 3.18 (broad s, 8h), 2.25
+(s, 3h), 2.23 (s, 3h). 13c nmr (126 mhz, cdcl3) delta 153.57, 143.74,
+143.01, 140.66, 139.74, 137.36, 136.54, 133.80, 132.80, 131.96, 130.65,
+125.84, 53.75 (2c), 48.87 (2c), 24.85, 24.75. hrms calcd for
+ xxxd3530xxx  þ h, 299.1576; found, 299.1586. lc/ms (method 1): tr =
+1.03 min, uv purity 97%, els purity 100%.
+1-[2-(2,3-dichlorophenylsulfanyl)phenyl]piperazine hydrochloride
+(5i). 5i was prepared according to general procedure 3 starting from
+impure 4-[2-(2,3-dichlorophenylsulfanyl)phenyl]piperazine-1-carboxylic
+acid tert-butyl ester (12i) in a yield of 6%. 12i was prepared from 7a and
+2,3-dichlorothiophenol according general procedure 1. 1h nmr (500
+mhz, dmso-d6) delta 8.98 (s, 2h), 7.59 (dd, j = 8.0, 1.1, 1h), 7.40 (dd,
+j = 10.9, 4.3, 1h), 7.347.24 (m, 2h), 7.197.07 (m, 2h), 7.036.97
+(m, 1h), 3.223.13 (m, 4h), 3.04 (s, 4h). 13c nmr (126 mhz,
+dmso-d6) delta 150.34, 135.99, 131.80, 130.41, 129.20, 129.01, 128.38,
+128.12, 127.25, 124.81, 120.70, 112.10, 47.62 (2c), 42.72 (2c). hrms
+calcd for c16h16cl2n2s þ h, 339.0484; found, 339.0486. lc/ms
+(method 1): tr = 1.03 min, uv purity 99%, els purity 100%.
+1-[2-(2,4-dichlorophenylsulfanyl)phenyl]piperazine hydrochloride
+(5l). 5l was prepared according to general procedure 3 starting from
+impure 4-[2-(2,4-dichlorophenylsulfanyl)phenyl]piperazine-1-carboxylic
+acid tert-butyl ester (12l) in a yield of 6%. 12l was prepared from 7a and
+2,4-dichlorothiophenol according general procedure 1. 1h nmr (500
+mhz, dmso-d6) delta 9.66 (s, 2h), 8.33 (s, 1h), 8.007.85 (m, 2h), 7.79
+(d, j = 7.9, 1h), 7.747.63 (m, 2h), 7.53 (d, j = 7.8, 1h), 3.72 (s, 4h),
+3.62 (s, 4h). 13c nmr (126 mhz, dmso-d6) delta 150.69, 135.51, 133.93,
+133.22, 132.68, 131.55, 129.90, 129.39, 128.95, 128.69, 125.79, 121.56,
+48.52 (2c), 43.66 (2c). hrms calcd for c16h16cl2n2s þ h, 339.0484;
+found, 339.0492. lc/ms (method 1): tr = 1.07 min, uv purity 96%, els
+purity 100%.
+
+article
+
+1-[2-(2,4-dimethylphenylsulfanyl)phenyl]piperazine hydrochloride (5m). 5m was prepared according to general procedure 3 starting
+from intermediate 12m in a yield of 78%. 1h nmr (500 mhz, dmsod6) delta 9.39 (s, 2h), 7.33 (d, j = 7.7, 1h), 7.24 (s, 1h), 7.177.07 (m,
+3h), 6.96 (dd, j = 7.6, 6.0, 1h), 6.41 (d, j = 7.8, 1h), 3.21 (broad s, 8h),
+2.31 (s, 3h), 2.24 (s, 3h). 13c nmr (126 mhz, dmso-d6) delta 148.22,
+142.04, 139.68, 136.11, 133.74, 132.14, 128.46, 127.19, 126.40, 126.13,
+125.46, 120.64, 48.47 (2c), 43.67 (2c), 21.10, 20.47. hrms calcd for
+ xxxd3530xxx  þ h, 299.1576; found, 299.1584. lc/ms (method 1): tr =
+1.02 min, uv purity 97%, els purity 100%. anal. ( xxxd3530xxx  3 hcl)
+c, h, n.
+
+compounds prepared according to method b
+(scheme 2). these compounds were prepared by initial formation
+of brominated diarylsulfides according to general procedure 1 followed
+by aryl amination under the conditions described for general procedure
+2. deprotection and salt formation were done according to general
+method 3.
+1-[2-(2,3-dimethylphenylsulfanyl)phenyl]piperazine hydrochloride (5j). 5j was prepared according to general procedure 3 starting from
+intermediate 12j in a yield of 48%. 1h nmr (500 mhz, dmso-d6) delta
+9.50 (s, 2h), 7.297.25 (m, 2h), 7.15 (t, j = 6.4, 3h), 6.97 (dt, j = 8.3,
+4.3, 1h), 6.48 (d, j = 7.8, 1h), 3.253.17 (m, 8h), 2.31 (s, 3h), 2.25 (s,
+3h). 13c nmr (126 mhz, dmso-d6) delta 148.42, 140.37, 138.43,
+133.54, 133.31, 131.23, 131.10, 127.03, 126.97, 126.63, 125.46,
+120.72, 48.48 (2c), 43.61 (2c), 20.92, 17.16. hrms calcd for
+ xxxd3530xxx  þ h, 299.1576; found, 299.1582. lc/ms (method 1): tr =
+1.05 min, uv purity 98%, els purity 100%.
+1-[2-(2-chloro-4-methylphenylsulfanyl)phenyl]piperazine hydrochloride (5p). 5p was prepared according to general procedure 3 starting
+from intermediate 12p in a yield of 44%. 1h nmr (500 mhz, dmso-d6)
+delta 9.47 (s, 2h), 7.48 (s, 1h), 7.357.25 (m, 4h), 7.04 (t, j = 7.5, 1h),
+6.68 (d, j = 7.8, 1h), 3.243.07 (m, 8h), 2.34 (s, 3h). 13c nmr (126
+mhz, dmso-d6) delta 149.33, 140.95, 136.48, 135.19, 131.47, 131.04,
+129.49, 128.72, 128.27, 127.85, 125.60, 121.07, 48.44 (2c), 43.58 (2c),
+20.74. hrms calcd for  xxxd1677xxx  þ h, 319.1030; found, 319.1032.
+lc/ms (method 1): tr = 1.04 min, uv purity 98%, els purity 100%.
+compound prepared according to method c. final compound 6g was prepared by aromatic nucleophilic substitution of
+2-fluoronitrobenzene with 2,4-dimethylphenol leading to 2,4-dimethyl-1-(2-nitrophenoxy)benzene (14) that was reduced to 2-(2,4-dimethylphenoxy)phenylamine (15), which was reacted further as
+described below.
+1-[2-(2,4-dimethylphenoxy)phenyl]piperazine hydrochloride (6g).
+compound 15 (2.13 g) and bis(2-bromoethyl)amine hydrobromide57
+(3.89 g) were suspended in chlorobenzene (50 ml). the mixture was
+boiled under reflux for 4 h. the solvent was evaporated off, and the
+residual oil was partitioned between water (100 ml) and ethyl acetate
+(50 ml). the aqueous layer was basified and extracted with ethyl acetate
+(2  50 ml). the combined organic layers were washed with brine
+(100 ml), dried over  xxxd2534xxx , filtered, and concentrated in vacuo to
+afford an oil. this material was purified by column flash chromatography
+(eluent etoac/meoh 9:1 f etoac/meoh/et3n 9:1:1) to afford the
+crude title compound. this material was partitioned between water/
+brine and methylene chloride. the organic layer was dried over  xxxd2534xxx ,
+filtered, and concentrated in vacuo to afford the free base. this material
+was dissolved in ethyl acetate and treated with 2 m hcl in et2o to
+precipitate the title compound (0.83 g, 26%). 1h nmr (500 mhz,
+dmso-d6) delta 9.54 (s, 2h), 7.137.08 (m, 2h), 7.06 (t, j = 7.4, 1h),
+7.006.92 (m, 2h), 6.696.60 (m, 2h), 3.31 (s, 4h), 3.08 (s, 4h), 2.24
+(s, 3h), 2.16 (s, 3h). 13c nmr (126 mhz, dmso-d6) delta 150.17,
+147.60, 139.38, 130.82, 130.23, 126.23, 126.01, 122.14, 122.01, 118.10,
+116.47, 116.07, 45.41 (2c), 41.24 (2c), 18.66, 14.25. hrms calcd for
+c18h22n2o þ h, 283.1805; found, 283.1818. lc/ms (method 1): tr =
+0.98 min, uv purity 100%, els purity 98%.
+3217
+
+dx.doi.org/10.1021/jm101459g |j. med. chem. 2011, 54, 3206–3221
+
+journal of medicinal chemistry
+in vitro pharmacology. the assays used for the sar studies are
+described below. details and all other pharmacology are described in
+supporting information. in general for binding affinity assays, data
+points were expressed as percent of the specific binding, and the ic50
+values were determined by nonlinear regression analysis using a
+sigmoidal variable slope curve fitting. the dissociation constant (ki)
+was calculated from the chengprusoff equation (ki = ic50/(1 þ ([l]/
+kd)), where the concentration of free radioligand l is approximated to
+the concentration of added radioligand in the assay, and kd equals the
+affinity of the radioligand to the receptor. in general ic50 values are
+based on 68 different concentrations covering 46 decades.
+h5-ht3a binding affinity assay. [3h]granisetron (1 nm)
+(perkin-elmer) binding to h5-ht3a receptors was evaluated in membranes from a hek-293 cell line stably expressing the hht3a receptor.
+nonspecific binding was measured in the presence of 10 mum bemesetron. after incubation, the membrane preparations were rapidly filtered
+under a vacuum using glass-fiber filters. compounds were tested at least
+three times over a 6 log concentration range. ic50 values were
+determined by nonlinear regression analysis using hill equation curve
+fitting, and ki values were calculated based on the chengprusoff
+equation.
+h5-ht1a binding affinity assay. [3h]5-carboxamidotryptamine (0.15 nm) (perkin-elmer) binding to cloned human 5-ht1a
+receptors in cho cells or hela was assayed in a membrane-based
+scintillation proximity assay. the level of nonspecific binding was
+obtained in the presence of 10 mum 5-ht or metergoline. compounds
+were tested at least three times over a 6 log concentration range. ic50
+values were determined by nonlinear regression analysis using hill
+equation curve fitting, and ki values were calculated based on the
+chengprusoff equation.
+inhibition of [3h]ne, [3h]da, and [3h]5-ht uptake by rat
+synaptosomes. net, dat, and sert transporter inhibition (ic50)
+
+in rat synaptosomes was measured using [3h]ne, [3h]da, and [3h]5ht, respectively. after incubation, the membrane preparations were
+rapidly filtered under a vacuum using glass-fiber filters. the filters were
+washed with ice-cold buffer using a harvester. bound radioactivity was
+measured by scintillation counting using a scintillation cocktail. compounds were tested at least twice over a 6 log concentration range. ic50
+values were determined by nonlinear regression analysis using hill
+equation curve fitting.
+cytochrome p450 enzyme inhibition. cyp enzyme inhibition
+was performed using recombinant enzymes (supersome, gentest),
+expressing individual cyp enzymes (cyp1a2, cyp2c9, cyp2d6
+and cyp3a4). the inhibition of cyp enzymes by the test compounds
+was assessed by incubating each enzyme with its substrate (7-ethoxy-3cyanocoumarin was used for cyp1a2 (10 mum); dibenzylfuorescein (2
+mum) was used for cyp2c9; resorufin benzyl ether (100 mum) was used
+for cyp3a4; and 3-[2-(n,n-diethyl-n-methylamino)ethyl]-7-methoxy4-methylcoumarin (3 mum) was used for cyp2d6) alone or in the
+presence of the test compounds at eight different concentrations
+(400.02 mum). all incubations (28 min for cyp1a2, 30 min for
+cyp3a4, and 45 min for cyp2c9 and cyp2d6) were performed in
+phosphate buffer with an nadph regenerating system containing
+nadpþ,  xxxd1292xxx  dehydrogenase,  xxxd1292xxx ,
+sodium citrate and mgcl2. at the end of the incubation period, the
+amount of metabolite formed was measured using a fluorescence
+spectrophotometer. the excitation and emission wavelengths in
+nanometers are 405 (ex) and 465 (em) for cyp1a2 and cyp2d6,
+485 (ex) and 535 (em) for cyp2c9, and 530 (ex) and 590 (em) for
+cyp3a4. inhibitions were expressed relative to controls (without
+inhibitors), and ic50 values were calculated using microsoft excel
+software.
+microsomal stability determination. the microsomal intrinsic clearance was determined by assessing the elimination of test
+
+article
+
+compound over the incubation time. the test compounds were incubated at 1 mum with human and rat microsomes (bd biosciences) for
+60 min, using nadph as cofactor. an nadph regenerating system
+containing nadpþ,  xxxd1292xxx  dehydrogenase, glucose
+6-phosphate, sodium citrate, and mgcl2 (cofactor mix) was used as a
+source of nadph. human and rat microsomes were thawed at room
+temperature, and cofactor mix was added. the mixture was stirred on a
+vortex and put in a water bath at 37 °c for 10 min. the reaction was
+initiated by adding test compound (final concentration 1 mum, 0.5 mg of
+protein/ml). separate incubations were made for each test compound
+and time point. the samples were incubated for 0, 5, 15, 30, and 60 min,
+and the reactions were stopped by adding 100 mul of acetonitrile and
+transferred to a 96-well stop plate with seals. the stop plates were
+centrifuged for 10 min at 3300 rpm and 4 °c before being analyzed by
+liquid chromatography coupled to a tandem mass spectrometer
+(lcms/ms, waters quattromicro, manchester, u.k.).
+
+plasma binding by equilibrium dialysis measurements.
+the method was a modification of that reported by kalvass et al.58
+briefly, a 96-well equilibrium dialysis apparatus was used to determine
+the free fraction in the plasma (ht dialysis llc, gales ferry, ct, u.s.).
+membranes (3 kda cutoff) were conditioned in deionized water for 40
+min, followed by conditioning in 80:20 deionized water/ethanol for 20
+min, and then rinsed in deionized water before use. plasma was diluted
+1:1 with pbs. diluted plasma was spiked with the 1 mum test compound
+and loaded into the 96-well equilibrium dialysis plate. dialysis versus
+pbs (100 ul) was carried out for 5 h in a temperature controlled
+incubator at 37 °c, before being analyzed by liquid chromatography
+coupled to a tandem mass spectrometer (lcms/ms, waters quattromicro, manchester, u.k.).
+in vivo pharmacokinetics in rats. in vivo pharmacokinetics was
+studied in rats following single intravenous (1 mg/kg) or oral (2 mg/kg)
+administration of compounds. serial blood samples were collected at
+various time points up to 6 h after dosing. in vivo pharmacokinetic
+parameters were obtained following compartmental modeling. bioanalysis of samples were analyzed by liquid chromatography coupled to a
+tandem mass spectrometer (lcms/ms, waters quattromicro, manchester, u.k.).
+microdialysis in rats. rats (300350 g; harlan, horst, the
+netherlands) were used for the experiments. for acute administration
+5m was dissolved in 10% hydroxypropyl-beta-cyclodextrin and administered subcutaneously (sc) in a volume of 1 ml/kg. for 3-day treatment
+with 5m minipumps were used to deliver the solutions. under isoflurane
+anesthesia osmotic minipumps (2ml2, alzet, u.s.) were implanted in a
+subcutaneous pocket created on the right side parallel to the spine of the
+animal. by stereotaxic surgery i-shaped microdialysis probes (hospal
+an 69 membrane, 4 mm exposed surface; brainlink) were inserted into
+the ventral hippocampus or medial prefrontal cortex under isoflurane
+anesthesia. microdialysis experiments were performed 2448 h after
+surgery by perfusing the probes with artificial csf (147 mm nacl,
+3.0 mm kcl, 1.2 mm cacl2, and 1.2 mm mgcl2) at a flow rate of 1.5
+mul/min. microdialysis samples were collected at 20 or 30 min intervals
+into minivials. after the experiment the rats were sacrificed and the
+position of each probe was histologically verified by making coronal
+sections of the brain.
+serotonin analysis. aliquots were injected onto a hplc column.
+chromatographic separation was performed using an isocratic mobile
+phase. mobile phase was run through the system at a flow rate of 0.4 ml/
+min, and 5-ht was detected electrochemically at þ500 mv. for acute
+experiments four consecutive pretreatment samples were taken as
+baseline and their mean concentration was set to 100%. drug effects
+were expressed as percentages of basal level (mean ( sem) within the
+same animal. moreover, differences between basal outputs of 5-ht
+(fmol/30 min sample) after treatment with 5m or vehicle for 3 days were
+compared.
+3218
+
+dx.doi.org/10.1021/jm101459g |j. med. chem. 2011, 54, 3206–3221
+
+journal of medicinal chemistry
+sert occupancy in rats. after the microdialysis experiments rats
+were sacrificed and the brains were removed and stored at 80 °c until
+cutting. sections of 20 mum containing the striatum were cut and air-dried
+before the binding experiment. for sert occupancy 0.5 nm [3h]dasb
+was used as radioligand. the control for nonspecific binding was 1 mum
+escitalopram. the binding buffer consisted of 50 mm tris, 150 mm
+nacl, and 5 mm kcl, ph 7.4, and the incubation time was 90 min. slides
+were washed in the respective buffers at 4 °c three times for 5 min, then
+briefly dipped in distilled water and air-dried. the slides were analyzed in
+a biospace beta-imager 2000 for at least 6 h.
+
+’ associated content
+
+bs
+
+supporting information. experimental procedures for
+synthesis of intermediates and target compounds; combustion
+analysis and hrms data; descriptions for in vitro and in vivo
+assays; pki ( sem values for h5-ht3a and h5-ht1a receptors;
+and pic50 ( sd/sem values for rsert, rnet, and rdat. this
+material is available free of charge via the internet at http://pubs.
+acs.org.
+
+’ author information
+corresponding author
+
+*phone: þ45 3643 3247. fax: þ45 3643 8237. e-mail:
+ban@lundbeck.com.
+
+’ acknowledgment
+we thank drs. kim andersen and ejner k. moltzen for
+valuable input regarding design of compounds and dr. klaus p.
+bøgesø for helpful input in the discovery phase and insightful
+discussions to improve the manuscript.
+’ abbreviations used
+acch, acetylcholine;  xxxg178xxx , atmospheric pressure photoionization; boc, tert-butyloxycarbonyl; cho, chinese hamster ovary; cyp450, cytochrome p450; da, dopamine; dad,
+diode array detector; dat,  xxxg2149xxx ; dml, designed multiple ligand; els, evaporative light scattering;
+gaba,  xxxd2177xxx ; gad, generalized anxiety disorder; gtpgammas, guanosine 50 -o-(3-thio)triphosphate; hek, human embryonic kidney; hrms, high-resolution mass spectrometry; maoi,  xxxg1357xxx   xxxg1358xxx  inhibitor; mdd, major depressive disorder; mpfc, medial prefrontal cortex; ne, norepinephrine; net,  xxxg1505xxx   xxxg2148xxx ; sar, structure
+activity relationship; sd, standard deviation; sem, standard error of the mean; sert, serotonin transporter; snri, serotonin
+and norepinephrine reuptake inhibitor; ssri, selective serotonin
+reuptake inhibitor; tca, tricyclic antidepressant; tfa, triﬂuoroacetic acid
+’ references
+(1) kessler, r. c.; berglund, p.; demler, o.; jin, r.; merikangas,
+k. r.; walters, e. e. lifetime prevalence and age-of-onset distributions of
+dsm-iv disorders in the national comorbidity survey replication.
+arch. gen. psychiatry 2005, 62, 593–602.
+(2) murray, c. j. l.; lopez, a. d. evidence-based health policy:
+lessons from the global burden of disease study. science 1996,
+274, 740–743.
+(3) bauer, m.; monz, b. u.; montejo, a. l.; quail, d.; dantchev, n.;
+demyttenaere, k.; garcia-cebrian, a.; grassi, l.; perahia, d. g. s.; reed,
+
+article
+
+c.; tylee, a. prescribing patterns of antidepressants in europe: results
+from the factors inﬂuencing depression endpoints research
+(finder) study. eur. psychiatry 2008, 23, 66–73.
+(4) rosenzweig-lipson, s.; beyer, c. e.; hughes, z. a.; khawaja, x.;
+rajarao, s. j.; malberg, j. e.; rahman, z.; ring, r. h.; schechter, l. e.
+diﬀerentiating antidepressants of the future: eﬃcacy and safety. pharmacol. ther. 2007, 113, 134–153.
+(5) papakostas, g. i.; thase, m. e.; fava, m.; nelson, j. c.; shelton,
+r. c. are antidepressant drugs that combine serotonergic and noradrenergic mechanisms of action more eﬀective than the selective
+serotonin reuptake inhibitors in treating major depressive disorder? a
+meta-analysis of studies of newer agents. biol. psychiatry 2007,
+62, 1217–1227.
+(6) trivedi, m. h.; rush, a. j.; wisniewski, s. r.; nierenberg, a. a.;
+warden, d.; ritz, l.; norquist, g.; howland, r. h.; lebowitz, b.;
+mcgrath, p. j.; shores-wilson, k.; biggs, m. m.; balasubramani, g. k.;
+fava, m. evaluation of outcomes with citalopram for depression using
+measurement-based care in star*d: implications for clinical practice.
+am. j. psychiatry 2006, 163, 28–40.
+(7) moltzen, e. k.; bang-andersen, b. serotonin reuptake inhibitors: the corner stone in treatment of depression for half a century—a
+medicinal chemistry survey. curr. top. med. chem. 2006, 6, 1801–1823.
+(8) mathew, s. j.; manji, h. k.; charney, d. s. novel drugs and
+therapeutic targets for severe mood disorders. neuropsychopharmacology
+2008, 33, 2080–2092.
+(9) artigas, f.; perez, v.; alvarez, e.  xxxd2957xxx  induces a rapid
+improvement of depressed patients treated with serotonin reuptake
+inhibitors. arch. gen. psychiatry 1994, 51, 248–251.
+(10) artigas, f.; adell, a.; celada, p.  xxxd2957xxx  augmentation of
+antidepressant response. curr. drug targets 2006, 7, 139–147.
+(11) morphy, r.; rankovic, z. designed multiple ligands. an
+emerging drug discovery paradigm. j. med. chem. 2005, 48, 6523–6543.
+(12) millan, m. j. dual- and triple-acting agents for treating core and
+co-morbid symptoms of major depression: novel concepts, new drugs.
+neurotherapeutics 2009, 6, 53–77.
+(13) cremers, t. i. f. h.; wikstr€om, h. v.; den boer, j. a.; bosker,
+f. j.; westerink, b. h.; bøgesø, k. p.; hogg, s. the combination of a
+serotonin reuptake inhibitor and a 5-ht2c antagonist,  xxxd1422xxx 
+or partial agonist. wo 200141701 (a2), 2001.
+(14) cremers, t. i.; giorgetti, m.; bosker, f. j.; hogg, s.; arnt, j.;
+mørk, a.; honig, g.; bøgesø, k. p.; westerink, b. h.; den boer, h.;
+wikstr€
+om, h. v.; tecott, l. h. inactivation of 5-ht2c receptors
+potentiates consequences of serotonin reuptake blockade. neuropsychopharmacology 2004, 29, 1782–1789.
+(15) nutt, d. j. beyond psychoanaleptics—can we improve antidepressant drug nomenclature?. j. psychopharmacol. 2009, 23, 343–345.
+(16) chang, t.; fava, m. the future of psychopharmacology of
+depression. j. clin. psychiatry 2010, 71, 971–975.
+(17) blier, p.; ward, n. m. is there a role for 5-ht1a agonists in the
+treatment of depression?. biol. psychiatry 2003, 53, 193–203.
+(18) blier, p.; bergeron, r.; de montigny, c. selective activation of
+postsynaptic 5-ht1a receptors induces rapid antidepressant response.
+neuropsychopharmacology 1997, 16, 333–338.
+(19) giovannini, m. g.; ceccarelli, i.; molinari, b.; cecchi, m.;
+goldfarb, j.; blandina, p. serotonergic modulation of acetylcholine
+release from cortex of freely moving rats. j. pharmacol. exp. ther.
+1998, 285, 1219–1225.
+(20) matsumoto, m.; yoshioka, m.; togashi, h.; tochihara, m.;
+ikeda, t.; saito, h. modulation of norepinephrine release by serotonergic receptors in the rat hippocampus as measured by in vivo
+microdialysis. j. pharmacol. exp. ther. 1995, 272, 1044–1051.
+(21) morales, m.; battenberg, e.; de lecea, l.; bloom, f. e. the type
+3  xxxg1108xxx  is expressed in a subpopulation of gabaergic
+neurons in the rat neocortex and hippocampus. brain res. 1996,
+731, 199–202.
+(22) yan, z. regulation of gabaergic inhibition by serotonin
+signaling in prefrontal cortex: molecular mechanisms and functional
+implications. mol. neurobiol. 2002, 26, 203–216.
+3219
+
+dx.doi.org/10.1021/jm101459g |j. med. chem. 2011, 54, 3206–3221
+
+journal of medicinal chemistry
+(23) angel, i.; schoemaker, h.; prouteau, m.; garreau, m.; langer,
+s. z. litoxetine: a selective 5-ht uptake inhibitor with concomitant
+ xxxg1116xxx  antagonist and antiemetic properties. eur. j. pharmacol.
+1993, 232, 139–145.
+(24) bergeron, r.; blier, p.  xxxd1708xxx  for the treatment of nausea
+produced by selective serotonin reuptake inhibitors. am. j. psychiatry
+1994, 151, 1084–1086.
+(25) gray, d. l.; xu, w.; campbell, b. m.; dounay, a. b.; barta, n.;
+boroski, s.; denny, l.; evans, l.; stratman, n.; probert, a. discovery
+and pharmacological characterization of aryl piperazine and piperidine
+ethers as dual acting norepinephrine reuptake inhibitors and 5-ht1a
+partial agonists. bioorg. med. chem. lett. 2009, 19, 6604–6607.
+(26) ruhland, t.; bang, k. s.; andersen, k. iron-assisted nucleophilic aromatic substitution on solid phase. j. org. chem. 2002,
+67, 5257–5268.
+(27) ruhland, t.; smith, g. p.; bang-andersen, b.; pueschl, a.;
+moltzen, e. k.; andersen, k. phenyl-piperazine derivatives as serotonin
+reuptake inhibitors. wo 2003029232 (a1), 2003.
+(28) louie, j.; hartwig, j. f. palladium-catalyzed synthesis of arylamines from aryl halides: mechanistic studies lead to coupling in the
+absence of tin reagents. tetrahedron lett. 1995, 36, 3609–3612.
+(29) guram, a. s.; rennels, r. a.; buchwald, s. l. a simple catalytic
+method for the conversion of aryl bromides to arylamines. angew. chem.,
+int. ed. engl. 1995, 34, 1348–1350.
+(30) larsen, s. b.; bang-andersen, b.; johansen, t. n.; jørgensen,
+m. palladium-catalyzed monoamination of dihalogenated benzenes.
+tetrahedron 2008, 64, 2938–2950.
+(31) schopfer, u.; schlapbach, a. a general palladium-catalysed
+synthesis of aromatic and heteroaromatic thioethers. tetrahedron
+2001, 57, 3069–3073.
+(32) lenox, r. h.; frazer, a. mechanism of action of antidepressants and mood stabilizers. in neuropsychopharmacology: the fifth
+generation of progress: an oﬃcial publication of the american college of
+neuropsychopharmacology ; davis, k. l., charney, d., coyle, j. t.,
+nemeroﬀ, c., eds.; lippincott williams & wilkins: philadelphia, pa,
+2002; pp 11391163.
+(33) meyer, j. h.; wilson, a. a.; sagrati, s.; hussey, d.; carella, a.;
+potter, w. z.; ginovart, n.; spencer, e. p.; cheok, a.; houle, s.
+serotonin transporter occupancy of ﬁve selective serotonin reuptake
+inhibitors at diﬀerent doses: an [11c]dasb positron emission tomography study. am. j. psychiatry 2004, 161, 826–835.
+(34) larsen, a. k.; brennum, l. t.; egebjerg, j.; sanchez, c.;
+halldin, c.; andersen, p. h. selectivity of [3h]madam binding
+to 5-hydroxytryptamine transporters in vitro and in vivo in mice;
+correlation with behavioural eﬀects. br. j. pharmacol. 2004, 141
+1015–1023.
+(35) owens, m. j.; krulewicz, s.; simon, j. s.; sheehan, d. v.; thase,
+m. e.; carpenter, d. j.; plott, s. j.; nemeroﬀ, c. b. estimates of
+serotonin and  xxxg1505xxx   xxxg2148xxx  inhibition in depressed
+patients treated with paroxetine or venlafaxine. neuropsychopharmacology 2008, 33, 3201–3212.
+(36) yamada, y.; sugiura, m.; higo, k.; ozeki, t.; takayanagi, r.;
+okuyama, k.; yamamoto, k.; satoh, h.; sawada, y.; iga, t. receptor
+occupancy theory-based analysis of antiemetic eﬀects and standard
+doses of  xxxg1116xxx  antagonists in cancer patients. cancer chemother. pharmacol. 2004, 54, 185–190.
+(37) farde, l.; ginovart, n.; ito, h.; lundkvist, c.; pike, v. w.;
+mccarron, j. a.; halldin, c. pet-characterization of [carbonyl-11c]way100635 binding to 5-ht1a receptors in the primate brain. psychopharmacology 1997, 133, 196–202.
+(38) bantick, r. a.; rabiner, e. a.; hirani, e.; de vries, m. h.; hume,
+s. p.; grasby, p. m. occupancy of agonist drugs at the  xxxg1108xxx .
+neuropsychopharmacology 2004, 29, 847–859.
+(39) wong, h.; dockens, r. c.; pajor, l.; yeola, s.; grace, j. e., jr.;
+stark, a. d.; taub, r. a.; yocca, f. d.; zaczek, r. c.; li, y.-w. 6hydroxybuspirone is a major active metabolite of buspirone: assessment
+of pharmacokinetics and 5-hydroxytryptamine1a receptor occupancy in
+rats. drug metab. dispos. 2007, 35, 1387–1392.
+
+article
+
+(40) moore, n. a.; bang-andersen, b.; brennum, l. t.; frederiksen,
+k.; hogg, s.; mørk, a.; sanchez, c.; smith, d. g.; stensbøl, t. b.; zhong,
+h.  xxxd3530xxx : a novel potential treatment for mood disorders.
+presented at the 21st european college of neuropsychopharmacology
+(ecnp), barcelona, spain, august 30september 3, 2008; poster
+p.2.b.015. moore, n. a.; bang-andersen, b.; brennum, l. t.; frederiksen, k.; hogg, s.; mørk, a.; sanchez, c.; smith, d. g.; stensbøl,
+t. b.; zhong, h. neuropsychopharmacology 2008, 18 (suppl. 4),
+s321.
+(41) assie, m.-b.; lomenech, h.; ravailhe, v.; faucillon, v.; newman-tancredi, a. rapid desensitization of somatodendritic 5-ht1a
+receptors by chronic administration of the high-eﬃcacy 5-ht1a agonist,
+f13714: a microdialysis study in the rat. br. j. pharmacol. 2006,
+149, 170–178.
+(42) haddjeri, n.; blier, p.; de montigny, c. long-term antidepressant treatments result in a tonic activation of forebrain 5-ht1a
+receptors. j. neurosci. 1998, 18, 10150–10156.
+(43) brunello, n.; blier, p.; judd, l. l.; mendlewicz, j.; nelson, c. j.;
+souery, d.; zohar, j.; racagni, g. noradrenaline in mood and anxiety
+disorders: basic and clinical studies. int. clin. psychopharmacol. 2003,
+18, 191–202.
+(44) laje, r. p.; berman, j. a.; glassman, a. h. depression and
+nicotine: preclinical and clinical evidence for common mechanisms.
+curr. psychiatry rep. 2001, 3, 470–474.
+(45) mørk, a.; brennum, l. t.; fallon, s.; bisulco, s.; frederiksen,
+k.; bang-andersen, b.; lassen, a. b.; zhong, h.; patel, j. g.; poon, p.;
+smith, d. g.; sanchez, c.; stensbøl, t. b.; hogg, s. pharmacological
+proﬁle of  xxxd3530xxx , a novel multi-target drug for the treatment of
+mood disorders. presented at the society for neuroscience meeting,
+chicago, il, october 1721, 2009; poster.
+(46) de groote, l.; klompmakers, a. a.; olivier, b.; westenberg,
+h. g. m. role of extracellular serotonin levels in the eﬀect of 5-ht1b
+receptor blockade. psychopharmacology 2003, 167, 153–158.
+(47) sarkisyan, g.; roberts, a. j.; hedlund, p. b. the  xxxg1120xxx 
+receptor as a mediator and modulator of antidepressant-like behavior.
+behav. brain res. 2010, 209, 99–108.
+(48) bonaventure, p.; kelly, l.; aluisio, l.; shelton, j.; lord, b.;
+galici, r.; miller, k.; atack, j.; lovenberg, t. w.; dugovic, c. selective
+blockade of 5-hydroxytryptamine (5-ht)7 receptors enhances 5-ht
+transmission, antidepressant-like behavior, and rapid eye movement
+sleep suppression induced by citalopram in rodents. j. pharmacol. exp.
+ther. 2007, 321, 690–698.
+(49) drevets, w. c.; price, j. l.; furey, m. l. brain structural and
+functional abnormalities in mood disorders: implications for neurocircuitry models of depression. brain struct. funct. 2008, 213, 93–118.
+(50) fanselow, m. s.; dong, h. w. are the dorsal and ventral
+hippocampus functionally distinct structures?. neuron 2010, 65, 7–19.
+(51) mørk, a.; kreilgaard, m.; sanchez, c. the r-enantiomer of
+citalopram counteracts escitalopram-induced increase in extracellular
+5-ht in the frontal cortex of freely moving rats. neuropharmacology
+2003, 45, 167–173.
+(52) beyer, c. e.; boikess, s.; luo, b.; dawson, l. a. comparison of
+the eﬀects of antidepressants on norepinephrine and serotonin concentrations in the rat frontal cortex: an in-vivo microdialysis study. j.
+psychopharmacol. 2002, 16, 297–304.
+(53) sanchez, c.; brennum, l. t.; storustovu, s.; kreilgard, m.;
+mork, a. depression and poor sleep: the eﬀect of monoaminergic
+antidepressants in a pre-clinical model in rats. pharmacol., biochem.
+behav. 2007, 86, 468–476.
+(54) blier, p. the pharmacology of putative early-onset antidepressant strategies. eur. neuropsychopharmacol. 2003, 13, 57–66.
+(55) gardier, a. m.; malagie, i.; trillat, a. c.; jacquot, c.; artigas, f.
+role of 5-ht1a autoreceptors in the mechanism of action of serotoninergic antidepressant drugs: recent ﬁndings from in vivo microdialysis
+studies. fundam. clin. pharmacol. 1996, 10, 16–27.
+(56) wolfe, j. p.; buchwald, s. l. scope and limitations of the pd/
+binap-catalyzed amination of aryl bromides. j. org. chem. 2000,
+65, 1144–1157.
+3220
+
+dx.doi.org/10.1021/jm101459g |j. med. chem. 2011, 54, 3206–3221
+
+journal of medicinal chemistry
+
+article
+
+(57) pettit, g. r.; chamberland, m. r.; blonda, d. s.; vickers, m. a.
+antineoplastic agents: xi. n-bis(2-bromoethyl)amines. can. j. chem.
+1964, 42, 1699–1706.
+(58) kalvass, j. c.; maurer, t. s. inﬂuence of nonspeciﬁc brain and
+plasma binding on cns exposure: implications for rational drug
+discovery. biopharm. drug dispos. 2002, 23, 327–338.
+(59) sanchez, c.; bergqvist, p. b. f.; brennum, l. t.; gupta, s.;
+hogg, s.; larsen, a.; wiborg, o. escitalopram, the s-(þ)-enantiomer of
+citalopram, is a selective serotonin reuptake inhibitor with potent eﬀects
+in animal models predictive of antidepressant and anxiolytic activities.
+psychopharmacology 2003, 167, 353–362.
+
+3221
+
+dx.doi.org/10.1021/jm101459g |j. med. chem. 2011, 54, 3206–3221
+

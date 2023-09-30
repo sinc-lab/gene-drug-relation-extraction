@@ -1,0 +1,1034 @@
+a r t i c l e
+
+insights into  xxxg682xxx  signaling from the structure of the
+erbb2- xxxd2890xxx  complex
+matthew c. franklin,1,5 kendall d. carey,2,5 felix f. vajdos,1,6 daniel j. leahy,3,4 abraham m. de vos,1,*
+and mark x. sliwkowski2,*
+1
+
+department of protein engineering
+department of molecular oncology
+genentech, inc., 1 dna way, south san francisco, california 94114
+3
+department of biophysics and biophysical chemistry
+4
+howard hughes medical institute
+the johns hopkins university school of medicine, 725 north wolfe street, baltimore, maryland 21205
+5
+these authors contributed equally to this work.
+6
+present address: pfizer, inc., eastern point road, groton, connecticut 06340
+*correspondence: devos@gene.com (a.m.dv.); marks@gene.com (m.x.s.)
+2
+
+summary
+we have determined the 3.2 å x-ray crystal structure of the extracellular domain of the human  xxxg681xxx 
+receptor 2 (erbb2 or her2) in a complex with the antigen binding fragment of  xxxd2890xxx , an anti-erbb2 monoclonal
+antibody also known as 2c4 or  xxxd2890xxx .  xxxd2890xxx  binds to erbb2 near the center of domain ii, sterically blocking a
+binding pocket necessary for receptor dimerization and signaling. the erbb2- xxxd2890xxx  structure, combined with earlier
+mutagenesis data, defines the  xxxd2890xxx  residues essential for erbb2 interaction. to analyze the erbb2 side of the
+interface, we have mutated a number of residues contacting  xxxd2890xxx  and examined the effects of these mutations on
+ xxxd2890xxx  binding and erbb2- xxxg722xxx  heterodimerization. we have also shown that conserved residues previously shown
+to be necessary for egf receptor homodimerization may be dispensible for erbb2- xxxg722xxx  heterodimerization.
+introduction
+ xxxg681xxx  receptors (also known as erbbs) and
+their ligands exist in all higher eukaryotes, including c. elegans
+(aroian et al., 1990) and drosophila (livneh et al., 1985; wadsworth et al., 1985), and have been implicated in a number of
+cancers due to dysregulation or mutation of the  xxxg682xxx  genes
+(burgess et al., 2003; holbro et al., 2003; yarden and sliwkowski, 2001). the mammalian  xxxg682xxx  system contains four receptors,
+40%–45% identical to one another, which arose from a series
+of gene duplications early in vertebrate evolution (stein and
+staros, 2000). the erbbs have a common architecture, details
+of which have been revealed recently by a series of structures
+of the extracellular domains of egf receptor (egfr or  xxxg682xxx )
+(ferguson et al., 2003; garrett et al., 2002; ogiso et al., 2002),
+erbb2 (her2) (cho et al., 2003; garrett et al., 2003), and  xxxg722xxx 
+( xxxg722xxx ) (cho and leahy, 2002), as well as the intracellular kinase
+domain of egfr (stamos et al., 2002). the erbbs are type
+1 transmembrane proteins, with a ligand binding extracellular
+portion containing four domains (i, ii, iii, and iv), a single trans-
+
+membrane helix, a  xxxg2198xxx  domain most closely related
+to the janus kinases and in the same family as other receptor
+tyrosine kinases (hanks and hunter, 1995), and a c-terminal
+tail (the length of which varies between family members) containing a number of tyrosine phosphorylation sites that serve
+as a scaffold for adaptor molecules and enzymes to facilitate
+downstream signaling (jorissen et al., 2003; schlessinger,
+2000).
+at least twelve ligands are known to bind mammalian erbbs,
+including  xxxg681xxx  (egf) and neuregulins (or
+heregulins) (falls, 2003). a comparison of structures of  xxxg722xxx 
+and egf receptor monomers versus a ligand-bound egfr dimer shows that the ligand binds at a site between domains i and
+iii and induces (or at least stabilizes) a dramatic conformational
+change in the receptor extracellular domain (cho and leahy,
+2002; ferguson et al., 2003; garrett et al., 2002; ogiso et al.,
+2002). erbb2 is the only  xxxg682xxx  for which no ligand has been
+found; the structure of the erbb2 extracellular domain shows
+that the ligand binding site has closed up so that domains i and
+iii contact each other directly (cho et al., 2003; garrett et al.,
+
+s i g n i f i c a n c e
+erbb2 is overexpressed in a number of types of cancer, particularly breast cancer, where overexpression correlates strongly with a
+more aggressive disease and poorer survival rates. the anti-erbb2 monoclonal antibody trastuzumab (herceptin) is indicated for
+patients whose metastatic tumors overexpress erbb2. in contrast,  xxxd2890xxx  ( xxxd2890xxx ) is currently being evaluated in phase ii
+clinical trials in patients whose breast, non-small cell lung, prostate, or ovarian tumors do not contain the amplified erbb2 gene. our
+erbb2- xxxd2890xxx  structure clearly shows how  xxxd2890xxx  inhibits erbb2ⴕs function as a coreceptor in ligand-mediated  xxxg682xxx  signaling,
+and provides a framework for interpretation of previous  xxxd2890xxx  mutagenesis data.
+
+cancer cell : april 2004 · vol. 5 · copyright  2004 cell press
+
+317
+
+a r t i c l e
+
+figure 1. the erbb2- xxxd2890xxx  complex
+a: a ribbon representation of chains b, e, and f
+from the erbb2- xxxd2890xxx  complex is shown in
+stereo. erbb2 is colored by domain, with domain
+i (residues 1–195) in green, domain ii (196–320)
+in blue, domain iii (321–488) in purple, and domain iv (489–560) in gray.  xxxd2890xxx  is colored
+by domain and chain, with the light chain variable domain (residues 1–109) in light yellow,
+heavy chain variable domain (1–113) in gold,
+light chain constant domain (110–214) in pink,
+and heavy chain constant domain (114–216) in
+red. glycosylation on erbb2 is shown in stick form,
+with carbons colored green, nitrogens blue, and
+oxygens red.
+b: a composite-omit electron density map of a
+portion of the erbb2- xxxd2890xxx  interface, contoured at 1.3 sigma, is shown as a blue mesh.
+the refined erbb2- xxxd2890xxx  model is superimposed, with side chains in stick form and backbone in ribbon form. carbons are colored by
+domain as in a: erbb2 domain ii in blue, and
+ xxxd2890xxx  vh in gold.
+
+2003). the residues comprising the former binding site are not
+conserved relative to the rest of the  xxxg682xxx  family (garrett et al.,
+2003), suggesting that erbb2 is no longer capable of binding a
+ligand.
+ligand-induced dimerization provides the normal downstream signaling mechanism for the erbbs (burgess et al., 2003).
+a possible structural mechanism for dimerization is suggested
+by the ligand-induced conformational change. when unliganded, the extracellular domain of egfr and  xxxg722xxx  (and presumably  xxxg723xxx ) is in a “closed” conformation, with a ␤ hairpin
+in domain ii interacting with a portion of domain iv (cho and
+leahy, 2002; ferguson et al., 2003). in the ligand-bound, “open”
+state, the domain ii hairpin now protrudes out from the rest of
+
+318
+
+the molecule, and makes most of the contacts seen in the egf
+receptor dimer (garrett et al., 2002; ogiso et al., 2002). it should
+be noted that the open conformation of egfr has not yet been
+observed except in the context of an egfr homodimer. the
+erbb2 extracellular domain is always in the open conformation,
+even when monomeric (cho et al., 2003; garrett et al., 2003),
+which may explain why it is the preferred dimerization partner
+for the other three family members (graus-porta et al., 1997).
+by mechanisms that are still unclear structurally, dimerization
+brings the intracellular kinase domains of the two erbbs into
+proximity, allowing transphosphorylation of tyrosines on the
+c-terminal tail of one  xxxg682xxx  by the kinase domain of the other
+(jorissen et al., 2003), and the consequent recruitment of various
+
+cancer cell : april 2004
+
+a r t i c l e
+
+enzymes and adaptor molecules for further downstream signaling (olayioye et al., 2000).
+erbb2 overexpression in breast cancer correlates well with
+increased tumor growth rates, higher metastatic potential, and
+poorer long-term survival rates for the patient (holbro et al.,
+2003; paik and liu, 2000; ross and fletcher, 1998; slamon
+et al., 1987). a number of therapeutic approaches are being
+developed to block the effects of erbb2 overexpression (arteaga, 2003; fry, 2003), including the humanized monoclonal
+antibodies trastuzumab (carter et al., 2000) and  xxxd2890xxx 
+(2c4 or  xxxd2890xxx ). trastuzumab is approved for metastatic
+breast cancer patients whose tumors overexpress erbb2 (cobleigh et al., 1999; slamon et al., 2001; vogel et al., 2002), while
+ xxxd2890xxx  is currently in phase ii clinical trials. trastuzumab
+and  xxxd2890xxx  bind to different epitopes in the the extracellular
+domain of erbb2, as has been seen functionally (fendly et al.,
+1990) and structurally (cho et al., 2003, and this work).  xxxd2890xxx  binding mediates the same antibody-dependent cytotoxic
+effects as trastuzumab binding (clynes et al., 2000) (k. totpal,
+personal communication), although it does not block erbb2
+shedding as trastuzumab does (molina et al., 2001). in addition
+to cytotoxic effects,  xxxd2890xxx  binding directly inhibits erbb2
+association with its partner receptors, blocking the signaling
+cascade at its source (agus et al., 2002). in experimental systems where erbb2 is activated but not overexpressed, the fab
+fragment of  xxxd2890xxx , which will not cause antibody-dependent cytotoxicity, appears to be just as effective as the intact
+mab at inhibiting erbb2-mediated signaling, in contrast to the
+ineffectiveness of the trastuzumab fab (agus et al., 2002; kelley
+et al., 1992). this property may explain why  xxxd2890xxx , unlike
+trastuzumab, is effective against a broad range of cancers which
+do not express erbb2 at high levels (agus et al., 2000, 2002;
+mann et al., 2001; mendoza et al., 2002).
+to more fully understand the mechanism of action of  xxxd2890xxx , we have determined the cocrystal structure of the  xxxd2890xxx  fab bound to the extracellular domain of erbb2. this
+structure represents the pharmacologically relevant complex,
+given the efficacy of the  xxxd2890xxx  fab in vitro and in vivo
+(agus et al., 2002). previous structural and mutagenic analysis
+of  xxxd2890xxx  (vajdos et al., 2002) can now be reinterpreted
+to provide an understanding of  xxxd2890xxx  binding from one
+side of the interface. to analyze the other side of the interface,
+we have mutated a number of erbb2 residues in and around
+the  xxxd2890xxx  binding site, and examined the effects of these
+mutations on  xxxd2890xxx  binding, as well as erbb2- xxxg722xxx  heterodimerization. finally, the overlap between the  xxxd2890xxx 
+binding site on erbb2 and the probable heterodimer interface
+suggests that the binding of the antibody sterically interferes
+with erbb2 dimerization and signaling.
+results
+erbb2- xxxd2890xxx  structure
+the soluble extracellular domain of erbb2 (hudziak and ullrich,
+1991) was crystallized in complex with the fab fragment of the
+anti-erbb2 monoclonal antibody  xxxd2890xxx  (2c4) (vajdos et
+al., 2002). the structure of this complex was solved to 3.25 å
+by molecular replacement with the program amore (navaza,
+1994), using the structure of rat erbb2 extracellular domain
+(cho et al., 2003) as a search model. there are two erbb2pertuzumab complexes in the asymmetric unit of this crystal,
+
+cancer cell : april 2004
+
+table 1. data collection and refinement statistics
+data collection statistics
+
+erbb2- xxxd2890xxx  complex
+
+space group
+unit cell (å)
+beamline, wavelength
+unique reflections
+resolution (å)
+rsym
+completeness (%)
+avg. redundancy
+i/␴(i)
+
+ xxxg2360xxx  21 2
+139.4, 139.4, 356.9
+als 5.0.2, 1.00 å
+56351
+30.0–3.25
+0.116
+99.9
+8.2
+19.3
+
+3.37–3.25
+0.691
+100.0
+8.3
+3.3
+
+refinement statistics
+resolution (å)
+reflections used (free)
+r factor
+rfree
+rms deviations
+bonds (å)
+angles (⬚)
+ramachandran statistics
+most favored (%)
+additional allowed (%)
+outliers (%)
+model contents
+erbb2 residues
+ xxxd2890xxx  residues
+sugars
+rsym ⫽
+
+15.0–3.25
+52816 (3024)
+0.224
+0.268
+0.009
+1.27
+81.4
+17.4
+0.3
+1123
+872
+12 nag, 1 man
+
+|i ⫺具i典|/兺 i r factor ⫽ 兺兩|f(obs)| ⫺ |f(calc)|兩/兺|f(obs)|
+兺
+hkl
+hkl
+hkl
+hkl
+
+nag ⫽ ␤- xxxd2589xxx - xxxd2683xxx ; man ⫽ ␤-d-mannose
+
+related by a noncrystallographic 2-fold axis next to residue 162
+in domain i; this domain i-domain i interaction buries only 500 å2
+per monomer and is probably not biologically relevant. one
+complex (chains b, e, and f) is slightly better ordered than the
+other, and is shown in figure 1a. after finding both copies of
+erbb2 by molecular replacement, it was possible to locate the
+variable domains of the two  xxxd2890xxx  fabs in a subsequent
+molecular replacement search, then finally place the constant
+domain of the fabs. the structure has been refined to an r
+factor of 22.4% (free r 26.8%), with acceptable model geometry
+(table 1). while peripheral portions of the structure are not well
+ordered (see below), the interface between erbb2 and  xxxd2890xxx  has clear electron density (figure 1b).
+the structure of erbb2 in the erbb2- xxxd2890xxx  complex
+is very similar to its structure alone and in complex with trastuzumab (cho et al., 2003). the extracellular domain of erbb2 is
+divided into four domains, designated i, ii, iii, and iv (figure
+1a). i and iii are structurally very similar: a repeating sequence
+of hydrophobic residues, largely leucines, causes these domains to fold into a “␤ helix” with sides formed by three parallel
+␤ sheets. this architecture is distantly related to the classical
+leucine-rich repeats (ward and garrett, 2001). residues 102–
+110 form an insertion in the leucine repeat motif of domain i,
+and are disordered in this structure. domains ii and iv are also
+similar to each other in structure, being composed of disulfidebonded modules, small structural units held together by one or
+two disulfide bonds (burgess et al., 2003). domain ii contains
+seven disulfide-bonded modules, with an eighth module being
+structurally part of domain i. unlike domain iv, domain ii contains an insertion (residues 247–266) in its central disulfidebonded module which forms a ␤ hairpin that protrudes from
+
+319
+
+a r t i c l e
+
+figure 2. the erbb2- xxxd2890xxx  binding site
+a: overview of the binding site. the four  xxxd2890xxx  fab cdrs which interact with erbb2 are
+shown in ribbon representation, as is the “70s
+loop” (heavy chain residues 67–82). erbb2 is
+shown in surface form, colored by domain as in
+figure 1a.
+b: interactions of cdrs h1 and h2 with erbb2.
+selected residues from erbb2 and  xxxd2890xxx 
+are shown in stick form, with the surrounding
+backbone in ribbon form. hydrogen bonds are
+indicated as black lines. cdrs are labeled near
+the base of their ␤ hairpins.
+c: interactions of cdrs h3 and l2 with erbb2.
+a representation similar to b, with heavy chain
+carbons and ribbons in gold, and light chain in
+yellow.
+
+the rest of the protein. this ␤ hairpin protrusion is also seen in
+each monomer of the egfr homodimer, where it forms one
+side of the dimerization interface (garrett et al., 2002; ogiso et
+al., 2002). when compared to the structure of erbb2 alone (cho
+et al., 2003), domain iv in the erbb2- xxxd2890xxx  complex is
+
+320
+
+rotated by ⵑ20⬚ relative to the rest of the protein. this domain
+has little contact with domain iii, and is positioned in this crystal
+primarily by contacts with symmetry-related fab molecules.
+electron density for domain iv steadily deteriorates with increasing distance from domain iii, eventually becoming untraceable
+
+cancer cell : april 2004
+
+a r t i c l e
+
+after residue 550 (in chain a; 560 in chain b). the erbb2 in this
+complex is more heavily glycosylated (ⵑ20 kda of sugar by
+sds-page) than the material used in previous crystal structures
+(cho et al., 2003), and each of the four n-linked glycosylation
+sites in the ordered portion of the protein has 1–3 well-ordered
+sugars attached to it (figure 1a).
+outside of the complementarity-determining regions (cdrs),
+ xxxd2890xxx  is identical in sequence to trastuzumab (carter et
+al., 1992); consequently, the local structure of the  xxxd2890xxx 
+fab in the erbb2- xxxd2890xxx  complex is largely the same as
+that of the trastuzumab fab, the chief difference being that
+the elbow angle (the angle between the variable and constant
+domains of the fab) is 175⬚, ⵑ20⬚ larger than in the structure
+of the trastuzumab fab (eigenbrot et al., 1993), and ⵑ30⬚ larger
+than in the structure of the  xxxd2890xxx  fab alone (vajdos et
+al., 2002). the conformation of cdr h3 has been substantially
+altered by binding to erbb2, compared to the largely similar
+conformations of this loop in free  xxxd2890xxx  and in trastuzumab (eigenbrot et al., 1993; vajdos et al., 2002). the constant
+domains of the two  xxxd2890xxx  fabs do not obey the same
+noncrystallographic symmetry as the rest of the complex, being
+positioned primarily by nonequivalent crystal contacts. the constant domain of one of the two fabs (chains c and d) is poorly
+ordered, although the variable domain for this fab is well ordered.
+erbb2- xxxd2890xxx  binding interface
+the  xxxd2890xxx  fab is bound to erbb2 near the junction of
+domains i, ii, and iii (figure 1a). this contact buries 1210 å2 on
+the erbb2 side of the interface, with 1147 å2 in domain ii and
+only 63 å2 in domain i. contact is primarily made with the heavy
+chain of the fab (878 å2 versus 236 å2 for the light chain). as
+expected, most of the erbb2- xxxd2890xxx  contacts involve the
+cdrs of the fab, although the dimerization hairpin of domain
+ii lies along the side of the heavy chain variable domain (figure
+2a). despite the contact with the fab, the conformation of the
+dimerization hairpin is essentially the same as that seen in the
+free and trastuzumab-bound erbb2 structures as well as that
+in the egf receptor dimer: 0.7, 1.0, and 1.3 å c␣ rmsd, respectively, for 59 residues surrounding the ␤ hairpin (cho et al.,
+2003; ogiso et al., 2002).
+the interface between erbb2 and  xxxd2890xxx  is primarily
+polar, with few hydrophobic or charged residues in the interface.
+the largest hydrophobic patch lies outside the main cdr surface, between ile 58 and tyr 59 (heavy chain), tyr 94 (light
+chain), and tyr 252 and phe 257 (erbb2). (for consistency with
+previous work on the  xxxd2890xxx  fab [vajdos et al., 2002], we
+have chosen to use a modified kabat numbering rather than
+sequential numbering for  xxxd2890xxx  residues.) residues
+30–32 on cdr h1 and 52–53 on cdr h2 make an extensive
+network of hydrogen bonds with main chain and side chain
+atoms (figure 2b). his 245 of erbb2 is tightly sandwiched between ile 244 and gly 55 of cdr h2. although not technically
+a cdr, the loop containing residues 72–76 makes contacts with
+erbb2, including the only contact with domain i, a hydrogen
+bond between lys 75 of  xxxd2890xxx  and gln 156 of erbb2.
+finally, cdr h3 makes hydrophobic and hydrogen bond contacts with residues lys 311 and his 296 of erbb2. his 296 is
+thoroughly buried upon  xxxd2890xxx  binding, being surrounded
+by tyr 49 and tyr 55 of the light chain, and leu 96 and tyr  xxxd893xxx 
+(modified kabat numbering) of the heavy chain (figure 2c).
+
+cancer cell : april 2004
+
+figure 3. effect of alanine substitutions on  xxxd2890xxx  binding to erbb2
+a: binding of  xxxd2890xxx  fab to various erbb2 mutants was measured by
+elisa as described in the experimental procedures; curves are shown for
+wild-type (wt) erbb2 and for selected mutants with little or no effect (t290a
+or p315a), a moderate effect (s288a or h296a), or a severe effect (s288a/
+h296a or l295p/h296n) on  xxxd2890xxx  binding. error bars represent the
+standard error from three experiments.
+b: ec50 values determined by elisa for various erbb2 single and double
+mutants are shown normalized by the ec50 for wild-type erbb2 (3 nm). the
+s288a/h296a, l295a/h296a, and l295p/h296n double mutants had no detectable binding to  xxxd2890xxx , as indicated by asterisks.
+
+erbb2 mutagenesis and  xxxd2890xxx  inhibition
+to assess the relative importance of the  xxxd2890xxx  fab-erbb2
+binding interactions described above, and to complement previous  xxxd2890xxx  mutagenesis studies (vajdos et al., 2002), binding affinities were determined for a number of select erbb2
+mutants. alanine or other substitutions were made in the context
+of full-length erbb2 that was epitope tagged with gd (paborsky
+et al., 1990; schaefer et al., 1999) to allow for verification of
+expression and to facilitate binding analysis. recombinant
+erbb2 proteins were expressed transiently in cos-7 cells, which
+were then lysed with nonionic detergent. erbb2 was then captured from these lysates on anti-gd coated plates.  xxxd2890xxx 
+fab binding affinities to the captured erbb2 were measured
+by elisa. the ec50 for each mutant was determined using a
+4-parameter fit of the binding curves (figure 3a), and these data
+were used to calculate the ec50 ratio for the mutant versus the
+wild-type (the mut/wt ratio) to give a measure of the severity of
+each mutation (figure 3b). ratios greater than 1 indicate a
+deleterious mutation. alanine substitution in any one of residues
+his 245, val 286, ser 288, leu 295, his 296, or lys 311 significantly reduces  xxxd2890xxx  fab binding affinity for erbb2, while
+substitution in residues phe 257, thr 268, thr 290, and pro 315
+results in mut/wt ratios not significantly above 1. double alanine
+
+321
+
+a r t i c l e
+
+figure 4. effect of erbb2 alanine substitutions on erbb2- xxxg722xxx  heterodimerization
+a: cos-7 cells were cotransfected with erbb2 wild-type (left panel) or the erbb2(s288a/h296a) double alanine mutant (right panel) along with  xxxg722xxx .
+transfected cells were pretreated with or without 100 nm  xxxd2890xxx  for 1 hr, and stimulated with 2 nm hrg or binding buffer as indicated for 10 min at
+room temperature. lysates were prepared and erbb2- xxxg722xxx  heterodimers were immunoprecipitated with agarose-coupled polyclonal anti- xxxg722xxx  antibody,
+and erbb2 receptor activation was evaluated by western blotting with phosphospecific anti-erbb2 antibody (␣-perbb2), or anti-gd antibody (␣-gd) to
+detect erbb2- xxxg722xxx  complexes. lysates were evaluated for expression of erbb2 and  xxxg722xxx  construct expression with anti-gd or anti- xxxg722xxx  (␣- xxxg722xxx ) antibodies,
+respectively.
+b: a sequence alignment of human erbb2 and neu is shown for a portion of domain ii. the bars above each residue indicate the fraction of the side chain
+solvent-accessible surface area, which is buried upon  xxxd2890xxx  binding.
+c: cos-7 cells were cotransfected with alanine mutant erbb2 and wild-type  xxxg722xxx  expression plasmids, stimulated with 2 nm hrg for 10 min at room
+temperature, and assayed for hrg-dependent erbb2 phosphorylation and heterodimerization in a coimmunoprecipitation assay similar to that presented in a.
+
+substitutions in contact residues 245/296, 286/296, or 311/296
+reduce binding further, and the 288/296 double mutation lacks
+any detectable binding to  xxxd2890xxx  fab in this assay. in
+addition, the  xxxd2890xxx  fab is unable to prevent hrg-dependent heterodimerization of the 288/296 double mutant erbb2
+with  xxxg722xxx  (figure 4a). in agreement with our previous studies
+(agus et al., 2002), trastuzumab has little effect on erbb2- xxxg722xxx 
+heterodimerization.
+specificity of  xxxd2890xxx  for human erbb2
+ xxxd2890xxx  is specific for human erbb2 and does not bind to
+rodent erbb2 (neu) with detectable affinity (fendly et al., 1990).
+there are five residues in domain ii which differ between human
+and rat erbb2, and only two (leu 295 and his 296) make significant side chain contacts with the  xxxd2890xxx  fab (figure 4b).
+substitution of residues l295 and/or h296 in erbb2 with neu
+residues (l295p, h296n, or l295p/h296n) is sufficient to eliminate detectable binding to  xxxd2890xxx  (figure 3b). these substitutions also reduce the ability of  xxxd2890xxx  to inhibit hrg-
+
+322
+
+dependent receptor phosphorylation. while  xxxd2890xxx  can
+block hrg-dependent activation in wild-type erbb2 transfected
+cells, inhibition is not observed in erbb2(l295p/h296n) transfected cells (supplemental figure s1 as http://www.cancercell.
+org/cgi/content/full/5/4/317/dc1).
+erbb2 heterodimerization with  xxxg722xxx 
+and the  xxxd2890xxx  binding site
+a number of erbb2 residues in and around the  xxxd2890xxx 
+binding site are homologous to egfr residues necessary for
+homodimerization (ogiso et al., 2002). to test the importance
+of these residues in an erbb2/ xxxg722xxx  heterodimer, alanine substitutions were made at erbb2 residues tyr 252, phe 257, glu
+258, phe 269, leu 295, and his 296 corresponding respectively
+to egfr residues tyr 246, tyr 251, gln 252, phe 263, ala 289,
+and asp 290; the erbb2 double mutants y252a/e258a, y252a/
+f263a, and l295a/h296a were also tested. only the l295a/
+h296a double mutant was able to impair hrg-dependent receptor erbb2- xxxg722xxx  heterodimerization (figure 4c), although
+
+cancer cell : april 2004
+
+a r t i c l e
+
+smaller effects on heterodimerization could very well be below
+the sensitivity limits of our assay. none of the other  xxxd2890xxx 
+contact single alanine mutations discussed above had any effect
+on erbb2 heterodimerization (supplemental figure s2).
+discussion
+ xxxd2890xxx  binds at the erbb2
+heterodimerization interface
+the central portions of domain ii in erbb2 and egfr are highly
+homologous and represent the majority of the dimerization interface observed in egfr (garrett et al., 2002; ogiso et al., 2002).
+since this region overlaps with the binding epitope of  xxxd2890xxx  (figure 5a), an analysis of residues in this area should
+shed light on both  xxxd2890xxx  binding and erbb2 dimerization.
+surface-exposed residues on  xxxd2890xxx  and erbb2 can be
+part of one or both of two binding epitopes: a structural epitope,
+defined by the contacts between the two molecules, and a
+functional epitope, determined by previous mutagenesis of the
+ xxxd2890xxx  fab (vajdos et al., 2002) and our mutagenesis of
+erbb2. the overlap between these two epitopes (figure 5) defines the essential contacts between  xxxd2890xxx  and erbb2.
+ xxxd2890xxx ’s light and heavy chains play different
+roles in erbb2 binding
+the light chain of the  xxxd2890xxx  fab makes only a few contacts
+with erbb2, mostly via cdr l2, and none of the contact residues
+affects erbb2 binding when mutated (vajdos et al., 2002). conversely, light-chain residues which do affect binding when mutated do so indirectly, since none of these residues contacts
+erbb2 (figure 5b). the picture is quite different for the  xxxd2890xxx  heavy chain, where 24 residues contact erbb2 directly;
+seven of these affect binding by at least 75-fold when mutated
+(figure 5b). these essential residues form an extensive hydrogen
+bond network with erbb2, as discussed previously (figure 2b),
+and occupy a compact patch on the surface of the  xxxd2890xxx 
+fab. vajdos et al. (2002) observed a similar, if less compact, patch
+from their mutagenic analysis of the  xxxd2890xxx  fab alone.
+certain residues of erbb2 are essential for  xxxd2890xxx 
+binding and heterodimerization
+on the erbb2 side of the interface, the s288a mutant is 6-fold
+weaker in  xxxd2890xxx  binding, probably due to the loss of the
+hydrogen bonds between ser 288 of erbb2 and asp 31 of the
+fab. in contrast, thr 290 also hydrogen bonds to asp 31, yet
+the t290a mutant has almost no detectable loss in  xxxd2890xxx 
+binding. while our limited resolution prevents any detailed analysis of hydrogen bonds, ser 288 does make two hydrogen bonds
+to  xxxd2890xxx , while thr 290 only makes one, perhaps explaining the different effects of these mutations. the double
+alanine substitutions v286a/h296a and l295a/h296a have
+dramatic effects on  xxxd2890xxx  binding due to the loss of multiple hydrophobic interactions with the fab, as well as the hydrogen bond to tyr  xxxd893xxx . additionally,  xxxd2890xxx  will not bind to
+rodent erbb2 (fendly et al., 1990), probably due to the substitution of a proline for leu 295 and an asparagine for his 296.
+indeed, the l295p/h296n double mutant of human erbb2 is
+severely impaired in  xxxd2890xxx  binding. the patch of  xxxd2890xxx  residues necessary for erbb2 binding (figure 5b) is mirrored by a cluster of erbb2 residues important for  xxxd2890xxx 
+binding (figure 5a), confirming that our structure has captured
+
+cancer cell : april 2004
+
+figure 5. the erbb2 and  xxxd2890xxx  binding epitopes
+a: overlap of dimerization and  xxxd2890xxx  binding sites. erbb2 is shown in
+surface representation, colored as in figure 1a. erbb2 residues homologous
+to those egfr residues which contact the dimerization hairpin are shown
+in white (some atoms may be colored pink due to  xxxd2890xxx  contact).
+individual atoms in erbb2 which directly contact  xxxd2890xxx  atoms (⬍3.2 å
+distance) are shown in pink. erbb2 residues mentioned in the text are labeled; those that inhibit  xxxd2890xxx  binding when mutated to alanine are
+boxed in red.
+b: overlap of the structural and functional erbb2 binding regions. the molecular surface of the  xxxd2890xxx  fab is shown in an open book orientation
+relative to a (i.e., the right side of b folds on top of the left side of a, so that
+ xxxd2890xxx  residue 64 contacts the tip of the dimerization hairpin of erbb2).
+residues which do not contact erbb2 are hatched. residues which displayed a ⬎75-fold loss in binding to erbb2 when mutated to alanine (vajdos
+et al., 2002) are colored red; residues with a 10- to 75-fold loss in binding
+are colored yellow. the heavy black line separates the heavy chain (upper
+left) from the light chain (lower right) of the fab.
+
+the functionally relevant erbb2- xxxd2890xxx  complex. to date,
+mutations similar to the ones we have tested have not been
+reported in erbb2 isolated from cancer patients.
+ xxxd2890xxx  fab sterically interferes
+with erbb2 heterodimerization
+our structure provides a clear explanation for the inhibition of
+erbb2-mediated signaling by  xxxd2890xxx , and validates the
+model of erbb2 heterodimerization based on the structure of
+the egfr homodimer (figures 6a–6h). the  xxxd2890xxx  binding
+epitope overlaps with a region which, by modeling and by ho-
+
+323
+
+a r t i c l e
+
+figure 6. erbb2 heterodimerization and  xxxd2890xxx  interference
+top-down (a, c, e, and g) and side (b, d, f,
+and h) views of various states of the egfr-erbb2
+heterodimerization process, modeled as described in the experimental procedures. egfr
+and erbb2 extracellular domains are shown in
+surface representation, with egfr and erbb2 domains i in green, ii in blue, iii in purple, and iv in
+gray. egfr is always on the left of the panel, and
+erbb2 on the right. egf, when present, is shown
+as an orange surface, while  xxxd2890xxx  (g and
+h) is shown as a pink surface. the lipid bilayer is
+represented as tan spheres, with the modeled
+transmembrane helices as black tubes. the dimerization of the intracellular kinase domains of
+egfr (yellow surface) and erbb2 (dark green surface) is not meant to suggest the orientation of
+the actual kinase dimer.
+a and b: the closed (ligand-free) form of egfr
+is modeled near a molecule of erbb2. in its unliganded form, the extracellular domain of egfr
+(or  xxxg722xxx ) is in a conformation which cannot dimerize with another receptor (cho and leahy,
+2002; ferguson et al., 2003).
+c and d: egfr is now shown in its open, ligandbound state. upon binding a ligand such as egf,
+egfr rearranges into a conformation which exposes the dimerization hairpin, shown protruding
+from the center of domain ii in light blue.
+e and f: egfr and erbb2 are now heterodimerized. the two receptors interact via each
+one’s dimerization hairpin, the membrane-proximal portion of domain iv, and (at least in this
+model) the transmembrane helices and intracellular kinase domains. erbb2 heterodimers with
+egfr,  xxxg722xxx , and  xxxg723xxx  are all expected to look
+identical at this level of detail.
+g and h:  xxxd2890xxx  has bound to erbb2,
+blocking heterodimerization by preventing the
+egfr dimerization hairpin from fitting in its binding
+pocket on erbb2.
+
+mology with egfr, is expected to be the binding site for the
+dimerization hairpin (figures 5a and 6f); therefore, bound  xxxd2890xxx  is modeled to sterically prevent the dimerization hairpin
+from reaching its binding pocket (figures 6g–6h). the fact that
+ xxxd2890xxx  binding inhibits erbb2 heterodimerization (agus et
+al., 2002) can now be interpreted in light of our structure as
+experimental evidence supporting this dimerization model.  xxxd2890xxx  fab bound to domain ii would not sterically interfere
+with other dimerization contacts, such as those in domain iv
+(figure 6f); if the dimerization hairpin could bend out of the
+way, a receptor heterodimer could still potentially be formed.
+the conformation of this hairpin is nearly identical in all three
+erbb2 structures as well as the two egfr homodimer structures
+(cho et al., 2003; garrett et al., 2002, 2003; ogiso et al., 2002),
+suggesting that the hairpin is quite rigid and that sterically
+
+324
+
+blocking the hairpin binding pocket is in fact sufficient to prevent
+erbb2 heterodimerization. our structure shows that the presence of the entire  xxxd2890xxx  antibody is not needed to cause
+this steric interference; the fab fragment alone is sufficient, in
+agreement with our previous studies (agus et al., 2002).
+erbb2 heterodimerization appears to be different
+than egfr homodimerization
+by binding to erbb2 domain ii,  xxxd2890xxx  occludes a number
+of residues which likely contact the other  xxxg682xxx  receptor in the
+heterodimer (figure 5a). we questioned which, if any, of these
+residues was important for heterodimerization, and in particular
+whether mutations in this region have the same deleterious
+effects in an erbb2/ xxxg722xxx  heterodimer as they have been shown
+to have in an egfr homodimer (ogiso et al., 2002). in egfr,
+
+cancer cell : april 2004
+
+a r t i c l e
+
+figure 7. altered conformation of erbb2 domain ii
+the two copies of domain ii (residues 188–313) from the egfr dimer structure
+are shown as gray tubes. domain ii (residues 195–320) from erbb2, superimposed on the central disulfide-bonded modules as described in the text, is
+shown as a blue tube. the last two disulfide-bonded modules from a copy
+of erbb2 superimposed on the other egfr monomer are shown as a black
+line to indicate the potential steric clash in this region. for clarity in this
+figure, the c␣ backbone traces have been heavily smoothed.
+
+residues tyr 246 and arg 285 interact across the dimer interface,
+as do tyr 251 and phe 263 (garrett et al., 2002; ogiso et al.,
+2002). erbb2 substitutes a leucine (leu 291) for arg 285 in
+egfr, breaking the first of these interactions. therefore, the
+erbb2 mutations f257a and f269a, neither of which affects
+erbb2/ xxxg722xxx  heterodimerization, are analogous to the egfr
+double mutants r285s/y251a and r285s/f263a, which completely eliminate egfr homodimerization (ogiso et al., 2002).
+other residues in this region of erbb2 can also be mutated to
+alanine with no effect on erbb2/ xxxg722xxx  heterodimerization. thus,
+our mutagenesis suggests that formation of erbb2 heterodimers
+may be less dependent on correct contacts with the dimerization
+arm than formation of egfr homodimers.
+altered conformation of erbb2 domain ii suggests
+a novel heterodimer contact
+the conformation of erbb2 is similar to that of activated, dimeric
+egfr; however, small but significant differences in the shape
+of domain ii may explain the different dimerization properties
+of these two receptors. domain ii of the  xxxg682xxx  receptors is rather
+like a spine, with rigid “vertebrae” (the disulfide-bonded modules) held in an overall conformation by domains i and iii; these
+domains differ in orientation between egfr and erbb2 due to
+the lack of an erbb2 ligand (figure 6d). as a result, the n-terminal portion of erbb2 domain ii is farther from the modeled
+dimer interface than in egfr, while the c-terminal portion is
+closer (figure 7). the last two disulfide-bonded modules of
+egfr domain ii do not make significant dimer contacts in either
+egfr homodimer structure, with c␣-c␣ distances no less than
+10 å (garrett et al., 2002; ogiso et al., 2002). in the modeled
+erbb2 heterodimer, this region is now in direct contact with the
+other receptor, with a c␣-c␣ distance as low as 4.5 å. his
+296 is in this region, and has been placed relatively close to a
+conserved aspartate (residue 279 in egfr,  xxxg722xxx , and  xxxg723xxx ;
+
+cancer cell : april 2004
+
+residue 288 in erbb2) in the modeled dimer partner, possibly
+explaining the effects of the l295a/h296a mutation on heterodimerization. the structure of this region is essentially the same
+in neu as in human erbb2 (cho et al., 2003), and asn 296 in
+neu could make the same dimer interactions that his 296 does
+in our model. an unresolved issue is that the single mutants,
+l295a and h296a, show little or no effect on heterodimerization,
+although we suspect that these mutants may have a small deleterious effect which is below the sensitivity limits of our heterodimerization assay. taken together, these structural and mutational data suggest that the c-terminal portion of erbb2 domain
+ii is involved in heterodimerization, and that some residues in
+this region, in particular leu 295 and his 296, are important for
+heterodimerization as well as  xxxd2890xxx  binding.
+interestingly, an erbb2 homodimer cannot be modeled in
+the same way as the erbb2 heterodimer discussed above. the
+last two disulfide-bonded modules of erbb2 domain ii would
+be too close to the dimer interface, interpenetrating by more
+than 6 å in the region of ser 313 (figure 7). at minimum, resolving
+this steric clash would require reorienting the two erbb2 molecules, possibly disrupting interactions involving the dimerization
+hairpin or domain iv. this clash may combine with electrostatic
+repulsion between erbb2 monomers (garrett et al., 2003) and
+loss of interactions with the dimerization hairpin (cho et al.,
+2003) to explain why the extracellular domain of erbb2 will not
+homodimerize in solution (ferguson et al., 2000); all of these
+effects arise from the differences in domain ii which give erbb2
+a unique role as a heterodimerization partner.
+in conclusion, our present study provides a satisfying structural basis for  xxxd2890xxx ’s effect as a heterodimerization inhibitor. bound  xxxd2890xxx  occludes the pocket on erbb2 that
+would accept the dimerization hairpin of a heterodimer partner,
+preventing the association of the two receptors and subsequent
+growth signaling.  xxxd2890xxx  therefore represents a novel class
+of targeted therapeutic agents, those that inhibit erbb2’s function as a coreceptor. the erbb2- xxxd2890xxx  complex suggests
+that alternative antibodies, antibody fragments, or peptidomimetics could also function as heterodimerization inhibitors. recently,  xxxd2890xxx  has successfully completed phase i clinical
+testing. these studies suggest that the erbb2 heterodimerization inhibitor can be given safely to patients with advanced
+malignancies; in addition,  xxxd2890xxx  produced an objective
+response in some of these patients, all of whom had failed to
+respond to one or more prior treatment programs. ongoing
+phase ii proof-of-concept studies will determine whether inhibition of erbb2 heterodimerization warrants further development
+in patients whose tumors lack erbb2 gene amplification, but
+are instead driven by ligand-activated erbb2.
+experimental procedures
+cloning and expression
+residues 1–624 of the extracellular domain of erbb2 were stably expressed
+and secreted in cho cells as previously described (hudziak and ullrich,
+1991). conditioned media (100 liter), with an estimated erbb2 concentration
+ⵑ15 mg/l, was concentrated to 12 liter and frozen at ⫺70⬚ c for further
+processing.  xxxd2890xxx  is built on the same antibody framework as trastuzumab (carter et al., 1992). selection and humanization of the  xxxd2890xxx 
+antibody will be described elsewhere (c. adams, d. allison, j. clark, b. fan,
+t. breece, c. schmelzer, s. brignoli, k. totpal, g. phillips, l. presta, and
+m.x.s., unpublished data). the heavy and light chains of the  xxxd2890xxx 
+fab fragment were coexpressed into the periplasm of the 33b6 strain of e.
+coli under the control of an alkaline phosphatase promoter, using an expres-
+
+325
+
+a r t i c l e
+
+sion system originally developed for an anti-lfa-1 fab (werther et al., 1996).
+cells (1900 g) were harvested from a 10 liter fermentation and frozen at ⫺70⬚
+c in ⵑ200 g batches.
+protein purification
+erbb2 extracellular domain (ecd) was purified by immunoaffinity and gel
+filtration chromatography. a trastuzumab affinity column was prepared by
+coupling 400 mg trastuzumab (intact mab; genentech, inc.) to 40 g cnbractivated sepharose (pharmacia); the resulting 100 ml column has the capacity to bind at least 200 mg of erbb2 ecd. concentrated erbb2 ecd from
+conditioned cho cell medium was applied to the trastuzumab column,
+eluted with 10 mm hcl, and immediately neutralized with 1 m tris (ph 8.0).
+fractions containing erbb2 ecd were concentrated and passed over a
+superdex-200 column (pharmacia) to separate monomeric protein from disulfide-linked aggregates. the purified protein was stored at 4⬚c in pbs ⫹
+0.02% sodium azide.
+ xxxd2890xxx  fab was also purified by affinity and gel filtration chromatography. briefly, the fab was released from e. coli cells using osmotic
+shock by resuspending frozen cells in 0.1 m acetic acid (ph ⵑ3), 25 mm
+edta, 1 mm pmsf. impurities were removed from the shockate by batch
+binding to deae-sepharose (pharmacia) at 0.5 ml resin per gram of cells. the
+processed shockate was then passed over a protein g-sepharose column
+(pharmacia) to trap the fab, and the column was then washed with 10 mm
+mes (ph 5.5), 10 mm edta. bound fab was subsequently eluted with 0.1
+m acetic acid, and the eluate was neutralized with 1 m tris (ph 8.0). the
+pooled fab-containing fractions were further purified by superdex-200 gel
+filtration. purified  xxxd2890xxx  fab, like purified erbb2 ecd, is very stable
+in pbs ⫹ 0.02% sodium azide. early crystallization trials used protein produced by a different method (vajdos et al., 2002); however, the crystals
+were identical to those described here.
+erbb2- xxxd2890xxx  complex preparation and crystallization
+erbb2 (10.5 mg at 3.5 mg/ml) and  xxxd2890xxx  fab (10.1 mg at 1.3 mg/ml)
+were mixed (a 33% molar excess of  xxxd2890xxx ) and allowed to incubate
+overnight at 4⬚c. the complex was then separated from excess  xxxd2890xxx 
+fab by running over a superdex-200 column in pbs. the purified complex
+was concentrated to 10 mg/ml and stored for crystallization in 25 mm tris
+(ph 8.0), 150 mm nacl, 0.1 mm edta.
+the purified erbb2- xxxd2890xxx  complex was mixed 1:1 with well solution (22% peg 3350, 100 mm ammonium formate) and equilibrated by
+hanging- or sitting-drop vapor diffusion against the well solution. the ph of
+this mother liquor is not well defined, since there is no buffering capacity at
+neutral ph except for the residual tris from the protein storage solution;
+however, the ph of 100 mm ammonium formate is ⵑ6.5. tetragonal bipyramids appear in a few days and grow to 100–200 micron size in a week.
+crystals were removed from their mother liquor and cryostablized in 100
+mm ammonium formate, 25% peg 3350, 20% ethylene glycol, then frozen
+in liquid nitrogen.
+data collection and structure determination
+data for the erbb2- xxxd2890xxx  complex were collected at beamline 5.0.1
+of the advanced light source (berkeley). highly redundant data were collected to help counteract the generally weak diffraction. data statistics are
+shown in table 1. a molecular replacement solution for the erbb2 portion
+of the complex was obtained using amore (navaza, 1994), with the structure
+of rat erbb2 (cho et al., 2003) as a search model. once both erbb2 molecules
+in the asymmetric unit were found, further molecular replacement using the
+variable domain of the  xxxd2890xxx  fab (vajdos et al., 2002) identified the
+location of the two  xxxd2890xxx  molecules. initial rigid-body refinement of
+the various domains of the complex was performed using cnx (accelrys,
+inc.) without enforcing the noncrystallographic symmetry. subsequent positional and restrained individual atomic b factor refinement was performed
+using cnx and refmac5 (murshudov et al., 1997), with fairly tight ncs
+restraints to prevent overrefinement. model statistics are in table 1.
+modeling of an erbb2 heterodimer
+modeling of an erbb2-containing heterodimer used the egfr homodimer
+structure (ogiso et al., 2002) as a starting point, with erbb2 superimposed
+onto one of the two egfr molecules. because of the altered global conformation of erbb2 versus egfr, a global superposition of the two molecules
+
+326
+
+is quite poor (c␣ rmsd ⵑ6 å). superposition by domain lowers the c␣
+rmsd to 2–3 å depending on the domain, but raises the question of which
+superposition to use for the modeling. since nearly all of the dimerization
+contacts in egfr lie in domain ii, this is the logical choice for superposition
+when making a heterodimer model. further analysis (see discussion and
+figure 7) shows that only residues 232–292 of erbb2 (egfr residues 226–
+286) should be included in the superposition. these residues superimpose
+well, with a c␣ rmsd of 1.3 å (excluding only two residues at the tip of the
+dimerization hairpin). domain iv of egfr is disordered or not present in the
+dimeric egfr structures (garrett et al., 2002; ogiso et al., 2002), but can
+be plausibly inferred by superposition of domains iii and iv from the closed
+form of egfr (ferguson et al., 2003) onto domain iii of the dimeric form.
+this superposition places the c termini of the modeled extracellular domains
+of egfr and erbb2 in close proximity, allowing the modeled transmembrane
+helices to associate. transmembrane helices and linker peptides were created de novo, and two copies of the kinase domain of egfr (stamos et al.,
+2002) were placed next to each other in an arbitrary orientation, not one of
+the previously proposed  xxxg682xxx  kinase dimer models (groenen et al., 1997;
+murali et al., 1996).
+while there is no structure of  xxxg722xxx  in its ligand-bound, active form,
+the inactive forms of egfr and  xxxg722xxx  show a remarkable similarity to one
+another, with c␣ rmsds for domains i, iii, and iv of 0.9–1.2 å (and 1.9 å for
+domain ii). to a first approximation, therefore, an egfr/erbb2 heterodimer
+model will be identical to an  xxxg722xxx /erbb2 heterodimer model, with the
+caveat that the heterodimerized conformation of  xxxg722xxx  (or egfr) may not
+be the same as that of homodimeric egfr.
+erbb2 mutagenesis and cos-7 transfections
+all wild-type and erbb2 mutant constructs used in this study were epitopetagged at the n terminus with the herpes simplex virus signal sequence of
+gd replacing the endogenous erbb2 signal sequence (schaefer et al., 1999).
+mutations were introduced into a 1.5 kb ecor1-xhoi restriction fragment
+of erbb2 in pbsks- (stratagene) using the quick-change method following
+manufacturer’s recommendations (stratagene). mutants were then subcloned into the ecori-xhoi site of full-length gderbb2 in a prk5 mammalian
+expression vector. all mutations were confirmed by automated dna sequencing. cos-7 cells (1 ⫻ 106 cells/10 cm dish) were transfected with 1 ␮g
+of prk5.gderbb2 wild-type or prk5.gderbb2 mutant dna with or without
+10 ␮g of prk7. xxxg722xxx  dna as described using lipofectamine according to
+the manufacturer’s recommendations (invitrogen). twenty-four hours posttransfection, cells were serum starved overnight in 0.1% fetal bovine serum/
+dmem at 37⬚c prior to treatment.
+ xxxd2890xxx  binding assays
+the relative affinity of  xxxd2890xxx  fab for erbb2 or erbb2 mutants was
+measured by elisa. cos-7 cells were transfected with 10 ␮g of prk5.gderbb2
+or prk5.gderbb2 mutant plasmids. after 24 hr, cells were lysed in 1 ml of
+lysis buffer (1% triton x-100, 1% chaps, 25 mm tris [ph 8.0], 150 mm
+nacl, 0.5 mm pmsf, 10 u/ml aprotinin, and 10 ␮g/ml leupeptin). lysates
+were normalized to 1 ng/ml gderbb2 protein using the purified soluble
+extracellular domain of erbb2 as a standard (vajdos et al., 2002) as quantified
+by an origen assay using 2 ␮g/ml biotinylated anti-gd antibody 5b6 for
+capture and 0.5 ␮g/ml ori-tagged trastuzumab for detection via an origen
+analyzer following manufacturer’s instructions (igen).
+nunc maxisorp plates (nunc) were coated with 5 ␮g/ml anti-gd tag
+capture antibody (3c8) in pbs overnight at 4⬚c, and blocked for two hours
+with 5% bovine  xxxg124xxx  (sigma) in pbs. normalized lysates were
+added to coated elisa plates and allowed to bind for 2 hr at 4⬚c. plates
+were rinsed with pbs/0.1% tween 20, and serial dilutions of purified  xxxd2890xxx  fab were added to the plates in pbs and allowed to bind for 2 hr. plates
+were rinsed with pbs/0.1% tween 20, and an anti-human fab-specific hrp
+conjugated antibody (biosource) was added at 1/5000 dilution in pbs/1%
+bsa/0.1% tween for 1 hr. plates were rinsed 6⫻ with pbs/0.1% tween,
+and bound gderbb2 was detected using tmb as a substrate (sigma) and
+measured at 490 nm using a plate reader. the ec50 for each mutant was
+calculated from the binding curves using a 4 parameter fit function, and
+relative affinities were estimated by dividing the ec50 of each mutant by the
+ec50 of wild-type gderbb2.
+
+cancer cell : april 2004
+
+a r t i c l e
+
+coimmunoprecipitation assays
+activation of erbb2 was evaluated by heterodimerization with  xxxg722xxx  upon
+heregulin (hrg) stimulation in a coimmunoprecipitation assay (agus et al.,
+2002). prior to stimulation, the medium was changed to fresh dmem with
+or without 100 nm  xxxd2890xxx  or trastuzumab for 1 hr prior to stimulation
+as indicated. cos-7 cells were stimulated for 10 min at room temperature
+with 2 nm of recombinant heregulin (hrg␤1177–244), in binding buffer (rpmi
+medium, 0.02% bsa, 10 mm hepes [ph 7.2]) or binding buffer alone as
+described. transfected cells were lysed in 1 ml rpmi lysis buffer (1% v/v
+triton x-100, 1% w/v chaps, 10 mm hepes (ph 7.2), in rpmi medium
+containing 0.2 mm pmsf, 10 ␮g/ml leupeptin, 10 u/ml aprotinin, and 1 mm
+na3vo4). heterodimers were immunoprecipitated from 500 ␮l of lysate using
+rabbit polyclonal anti- xxxg722xxx  antibody (santa cruz) covalently coupled to
+agarose (pierce ultralink) at 4⬚c for 2 hr. complexes were washed twice in
+lysis buffer and resuspended in sds sample buffer and boiled. samples
+were separated on a 4%–12% polyacrylamide gel (novex) and electroblotted
+onto nitrocellulose membranes. blots were blocked in 5% bsa/tbst and
+probed with either phosphospecific anti-erbb2 antibody (neomarkers), or
+an anti-gd epitope monoclonal antibody (5b6) to detect gderbb2 followed
+by a peroxidase-conjugated anti-mouse secondary antibody (amersham).
+to verify and normalize for expression of transfected constructs between
+experimental conditions, 50 ␮g of cell lysate was checked by western blotting with anti-gd antibody (5b6) or anti- xxxg722xxx  (ab7, neomarkers) antibody.
+anti-mouse hrp-conjugated secondary antibody was used for visualization
+by enhanced chemiluminescence (ecl, amersham pharmacia biotech).
+
+d.j., lemmon, m.a., sliwkowski, m.x., ward, c.w., and yokoyama, s.
+(2003). an open-and-shut case? recent insights into the activation of egf/
+ xxxg682xxx  receptors. mol. cell 12, 541–552.
+carter, p., presta, l., gorman, c.m., ridgway, j.b., henner, d., wong,
+w.l., rowland, a.m., kotts, c., carver, m.e., and shepard, h.m. (1992).
+humanization of an anti-p185her2 antibody for human cancer therapy.
+proc. natl. acad. sci. usa 89, 4285–4289.
+carter, p., fendly, b.m., lewis, g.d., and sliwkowski, m.x. (2000). development of herceptin. breast disease 11, 103–111.
+cho, h.s., and leahy, d.j. (2002). structure of the extracellular region of
+ xxxg722xxx  reveals an interdomain tether. science 297, 1330–1333.
+cho, h.s., mason, k., ramyar, k.x., stanley, a.m., gabelli, s.b., denney,
+d.w., jr., and leahy, d.j. (2003). structure of the extracellular region of
+her2 alone and in complex with the herceptin fab. nature 421, 756–760.
+clynes, r.a., towers, t.l., presta, l.g., and ravetch, j.v. (2000). inhibitory
+fc receptors modulate in vivo cytoxicity against tumor targets. nat. med.
+6, 443–446.
+cobleigh, m.a., vogel, c.l., tripathy, d., robert, n.j., scholl, s., fehrenbacher, l., wolter, j.m., paton, v., shak, s., lieberman, g., and slamon,
+d.j. (1999). multinational study of the efficacy and safety of humanized
+anti-her2 monoclonal antibody in women who have her2-overexpressing
+metastatic breast cancer that has progressed after chemotherapy for metastatic disease. j. clin. oncol. 17, 2639–2648.
+
+phosphorylation assays
+ xxxd2890xxx  inhibition of hrg-dependent activation of gderbb2 or gderbb2
+mutants was detected by a tyrosine phosphorylation assay as previously
+described (schaefer et al., 1999).
+
+eigenbrot, c., randal, m., presta, l., carter, p., and kossiakoff, a.a. (1993).
+x-ray structures of the antigen-binding domains from three variants of humanized anti-p185her2 antibody 4d5 and comparison with molecular modeling. j. mol. biol. 229, 969–995.
+
+acknowledgments
+
+falls, d.l. (2003). neuregulins: functions, forms, and signaling strategies.
+exp. cell res. 284, 14–30.
+
+we wish to thank m. ultsch, s. hymowitz, c. wiesmann, and j. stamos
+for help with data collection, and c. eigenbrot and d. sidhu for insightful
+comments and feedback during preparation of this manuscript. we also
+wish to thank the dna synthesis and sequencing groups at genentech for
+their support on this project. our data collection was facilitated by thomas
+earnest of the advanced light source, which is supported by the director,
+office of science, office of basic energy sciences, materials sciences division, of the u.s. department of energy under contract no. de-ac0376sf00098 at lawrence berkeley national laboratory. m.c.f., k.d.c.,
+a.m.dv., and m.x.s. are employees of, and stockholders in, genentech,
+inc., the maker of the drugs  xxxd2890xxx  and trastuzumab.
+
+fendly, b.m., winget, m., hudziak, r.m., lipari, m.t., napier, m.a., and
+ullrich, a. (1990). characterization of murine monoclonal antibodies reactive
+to either the human  xxxg682xxx  or her2/neu gene
+product. cancer res. 50, 1550–1558.
+ferguson, k.m., darling, p.j., mohan, m.j., macatee, t.l., and lemmon,
+m.a. (2000). extracellular domains drive homo- but not hetero-dimerization
+of  xxxg682xxx  receptors. embo j. 19, 4632–4643.
+ferguson, k.m., berger, m.b., mendrola, j.m., cho, h.s., leahy, d.j., and
+lemmon, m.a. (2003). egf activates its receptor by removing interactions
+that autoinhibit ectodomain dimerization. mol. cell 11, 507–517.
+fry, d.w. (2003). mechanism of action of  xxxg682xxx   xxxg2198xxx  inhibitors.
+exp. cell res. 284, 131–139.
+
+received: october 14, 2003
+revised: february 9, 2004
+accepted: february 26, 2004
+published: april 19, 2004
+references
+agus, d.b., akita, r.w., fox, w.d., lofgren, j.a., higgins, b., maiese, k.,
+scher, h.i., and sliwkowski, m.x. (2000). a potential role for activated her-2
+in prostate cancer. semin. oncol. 27, 76–83.
+agus, d.b., akita, r.w., fox, w.d., lewis, g.d., higgins, b., pisacane, p.i.,
+lofgren, j.a., tindell, c., evans, d.p., maiese, k., et al. (2002). targeting
+ligand-activated erbb2 signaling inhibits breast and prostate tumor growth.
+cancer cell 2, 127–137.
+aroian, r.v., koga, m., mendel, j.e., ohshima, y., and sternberg, p.w.
+(1990). the let-23 gene necessary for caenorhabditis elegans vulval induction encodes a  xxxg2198xxx  of the egf receptor subfamily. nature 348,
+693–699.
+
+garrett, t.p., mckern, n.m., lou, m., elleman, t.c., adams, t.e., lovrecz,
+g.o., zhu, h.j., walker, f., frenkel, m.j., hoyne, p.a., et al. (2002). crystal
+structure of a truncated  xxxg682xxx  extracellular domain bound to transforming growth factor alpha. cell 110, 763–773.
+garrett, t.p., mckern, n.m., lou, m., elleman, t.c., adams, t.e., lovrecz,
+g.o., kofler, m., jorissen, r.n., nice, e.c., burgess, a.w., and ward, c.w.
+(2003). the crystal structure of a truncated erbb2 ectodomain reveals an
+active conformation, poised to interact with other  xxxg682xxx  receptors. mol. cell
+11, 495–505.
+graus-porta, d., beerli, r.r., daly, j.m., and hynes, n.e. (1997).  xxxg682xxx -2,
+the preferred heterodimerization partner of all  xxxg682xxx  receptors, is a mediator
+of lateral signaling. embo j. 16, 1647–1655.
+groenen, l.c., walker, f., burgess, a.w., and treutlein, h.r. (1997). a model
+for the activation of the  xxxg682xxx  kinase involvement
+of an asymmetric dimer? biochemistry 36, 3826–3836.
+hanks, s.k., and hunter, t. (1995). protein kinases 6. the eukaryotic protein
+kinase superfamily: kinase (catalytic) domain structure and classification.
+faseb j. 9, 576–596.
+
+arteaga, c.l. (2003).  xxxg682xxx -targeted therapeutic approaches in human cancer. exp. cell res. 284, 122–130.
+
+holbro, t., civenni, g., and hynes, n.e. (2003). the  xxxg682xxx  receptors and
+their role in cancer progression. exp. cell res. 284, 99–110.
+
+burgess, a.w., cho, h.s., eigenbrot, c., ferguson, k.m., garrett, t.p., leahy,
+
+hudziak, r.m., and ullrich, a. (1991). cell transformation potential of a her2
+
+cancer cell : april 2004
+
+327
+
+a r t i c l e
+
+transmembrane domain deletion mutant retained in the endoplasmic reticulum. j. biol. chem. 266, 24109–24115.
+jorissen, r.n., walker, f., pouliot, n., garrett, t.p., ward, c.w., and burgess,
+a.w. (2003).  xxxg682xxx : mechanisms of activation
+and signalling. exp. cell res. 284, 31–53.
+kelley, r.f., o’connell, m.p., carter, p., presta, l., eigenbrot, c., covarrubias, m., snedecor, b., bourell, j.h., and vetterlein, d. (1992). antigen binding thermodynamics and antiproliferative effects of chimeric and humanized
+anti-p185her2 antibody fab fragments. biochemistry 31, 5434–5441.
+livneh, e., glazer, l., segal, d., schlessinger, j., and shilo, b.z. (1985). the
+drosophila egf receptor gene homolog: conservation of both hormone
+binding and kinase domains. cell 40, 599–607.
+mann, m., sheng, h., shao, j., williams, c.s., pisacane, p.i., sliwkowski,
+m.x., and dubois, r.n. (2001). targeting  xxxg1884xxx  and her-2/
+neu pathways inhibits colorectal carcinoma growth. gastroenterology 120,
+1713–1719.
+mendoza, n., phillips, g.l., silva, j., schwall, r., and wickramasinghe, d.
+(2002). inhibition of ligand-mediated her2 activation in androgen-independent prostate cancer. cancer res. 62, 5485–5488.
+molina, m.a., codony-servat, j., albanell, j., rojo, f., arribas, j., and baselga, j. (2001). trastuzumab (herceptin), a humanized anti-her2 receptor
+monoclonal antibody, inhibits basal and activated her2 ectodomain cleavage
+in breast cancer cells. cancer res. 61, 4744–4749.
+murali, r., brennan, p.j., kieber-emmons, t., and greene, m.i. (1996). structural analysis of p185c-neu and  xxxg682xxx  tyrosine
+kinases: oligomerization of kinase domains. proc. natl. acad. sci. usa 93,
+6252–6257.
+murshudov, g.n., vagin, a.a., and dodson, e.j. (1997). refinement of macromolecular structures by the maximum-likelihood method. acta crystallogr. d 53, 240–255.
+navaza, j. (1994). amore: an automated package for molecular replacement. acta crystallogr. a 50, 157–163.
+ogiso, h., ishitani, r., nureki, o., fukai, s., yamanaka, m., kim, j.h., saito,
+k., sakamoto, a., inoue, m., shirouzu, m., and yokoyama, s. (2002). crystal
+structure of the complex of human  xxxg681xxx  and receptor
+extracellular domains. cell 110, 775–787.
+olayioye, m.a., neve, r.m., lane, h.a., and hynes, n.e. (2000). the  xxxg682xxx 
+signaling network: receptor heterodimerization in development and cancer.
+embo j. 19, 3159–3167.
+paborsky, l.r., fendly, b.m., fisher, k.l., lawn, r.m., marks, b.j., mccray,
+g., tate, k.m., vehar, g.a., and gorman, c.m. (1990). mammalian cell transient expression of  xxxg748xxx  for the production of antigen. protein eng.
+3, 547–553.
+paik, s., and liu, e.t. (2000). her2 as a predictor of therapeutic response
+in breast cancer. breast disease 11, 91–102.
+
+328
+
+ross, j.s., and fletcher, j.a. (1998). the  xxxg721xxx  oncogene in breast
+cancer: prognostic factor, predictive factor, and target for therapy. stem
+cells 16, 413–428.
+schaefer, g., akita, r.w., and sliwkowski, m.x. (1999). a discrete threeamino acid segment (lvi) at the c-terminal end of kinase-impaired  xxxg722xxx 
+is required for transactivation of erbb2. j. biol. chem. 274, 859–866.
+schlessinger, j. (2000). cell signaling by receptor tyrosine kinases. cell 103,
+211–225.
+slamon, d.j., clark, g.m., wong, s.g., levin, w.j., ullrich, a., and mcguire,
+w.l. (1987). human breast cancer: correlation of relapse and survival with
+amplification of the  xxxg721xxx  oncogene. science 235, 177–182.
+slamon, d.j., leyland-jones, b., shak, s., fuchs, h., paton, v., bajamonde,
+a., fleming, t., eiermann, w., wolter, j., pegram, m., et al. (2001). use of
+chemotherapy plus a monoclonal antibody against her2 for metastatic
+breast cancer that overexpresses her2. n. engl. j. med. 344, 783–792.
+stamos, j., sliwkowski, m.x., and eigenbrot, c. (2002). structure of the
+ xxxg682xxx  kinase domain alone and in complex with
+a 4-anilinoquinazoline inhibitor. j. biol. chem. 277, 46265–46272.
+stein, r.a., and staros, j.v. (2000). evolutionary analysis of the  xxxg682xxx  receptor
+and ligand families. j. mol. evol. 50, 397–412.
+vajdos, f.f., adams, c.w., breece, t.n., presta, l.g., de vos, a.m., and
+sidhu, s.s. (2002). comprehensive functional maps of the antigen-binding
+site of an anti-erbb2 antibody obtained with shotgun scanning mutagenesis.
+j. mol. biol. 320, 415–428.
+vogel, c.l., cobleigh, m.a., tripathy, d., gutheil, j.c., harris, l.n., fehrenbacher, l., slamon, d.j., murphy, m., novotny, w.f., burchmore, m., et al.
+(2002). efficacy and safety of trastuzumab as a single agent in first-line
+treatment of her2-overexpressing metastatic breast cancer. j. clin. oncol.
+20, 719–726.
+wadsworth, s.c., vincent, w.s., 3rd, and bilodeau-wentworth, d. (1985).
+a drosophila genomic sequence with homology to human epidermal growth
+factor receptor. nature 314, 178–180.
+ward, c.w., and garrett, t.p. (2001). the relationship between the l1 and
+l2 domains of the insulin and  xxxg681xxx  receptors and leucinerich repeat modules. bmc bioinformatics 2, 4.
+werther, w.a., gonzalez, t.n., o’connor, s.j., mccabe, s., chan, b., hotaling, t., champe, m., fox, j.a., jardieu, p.m., berman, p.w., and presta,
+l.g. (1996). humanization of an anti-lymphocyte function-associated antigen
+(lfa)-1 monoclonal antibody and reengineering of the humanized antibody
+for binding to rhesus lfa-1. j. immunol. 157, 4986–4995.
+yarden, y., and sliwkowski, m.x. (2001). untangling the  xxxg682xxx  signalling
+network. nat. rev. mol. cell biol. 2, 127–137.
+accession numbers
+the erbb2- xxxd2890xxx  complex structure has been deposited with the
+rcsb protein data bank (id code 1s78).
+
+cancer cell : april 2004
+

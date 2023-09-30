@@ -1,0 +1,908 @@
+european journal of medicinal chemistry 39 (2004) 141–151
+www.elsevier.com/locate/ejmech
+
+original article
+
+synthesis, biological activity and molecular modeling studies
+of novel cox-1 inhibitors
+miljen martić, iva tatić *, stribor marković, nedjeljko kujundžić, sanja koštrun 1
+pliva pharmaceutical industry, incorporated, prilaz baruna filipovića 25, 10000 zagreb, croatia
+received 1 july 2003; received in revised form 14 november 2003; accepted 19 november 2003
+
+abstract
+synthesis of new potential cox-1 and/or cox-2 inhibitors, derivatives of 1,1-di-(3-carboxyphenyl)ethane, their biological activity,
+docking results on cox-1 enzyme and absorption, distribution, metabolism, excretion (adme) properties are presented. in addition to known
+interactions between  xxxd2423xxx  and ibuprofen, leading nsaid agents and cox-1 active site, the possibility of formation of additional
+interactions is explored. interactions with ala527, and with one of the water molecules situated within the active site are identified. molecular
+mechanics and dft calculations for studied compounds have revealed free rotation around two central bonds (c1–c3′ and c1–c3″), making
+them flexible, thus easier to enter and adjust to the active site. further modifications of core structure have been undertaken to optimize
+biological activity and adme properties. as a result, two of the compounds are indicated as novel cox-1 inhibitors.
+© 2003 elsevier sas. all rights reserved.
+keywords: cox-1; nsaid;  xxxd2423xxx ; ibuprofen; docking; adme
+
+1. introduction
+ xxxd3029xxx  belong to non-steroidal antiinflammatory drugs (nsaids) with well-defined antiinflammatory, analgesic and anti-pyretic properties. for this
+class of molecules it is found that their s-enantiomers inhibit
+prostaglandin synthesis by inhibition of cyclo-oxygenase
+(cox) activity of prostaglandin-endoperoxidase synthase
+(pghs) [1]. the most known cox isoforms are cox-1 and
+cox-2; cox-1 is constitutively expressed in a wide variety
+of tissues, while cox-2 is a highly inducible gene that is
+expressed in response to a variety of proinflammatory agents,
+cytokines, growth factors and tumor promoters [2]. cox-1
+expression is also regulated in response to some pathological
+stimuli and is involved in the processes related to carcinogenesis [3], atherosclerosis, thrombosis [4] and central nervous
+system pathology [2]. cox-2 isoform has been implicated in
+inflammatory and other chronical diseases, including cancer
+[3] and rheumatic arthritis [5]. dual inhibition of cox-1 and
+abbreviations: adme, absorption, distribution, metabolism, excretion;
+cox, cyclo-oxygenase; dft, density functional theory; mm, molecular
+mechanics; nsaid, non-steroid anti-inflammatory drug; pghs,
+prostaglandin-endoperoxidase synthase.
+* corresponding author.
+e-mail address: iva.tatic@pliva.hr (i. tatić).
+1
+previously sanja sekušak.
+© 2003 elsevier sas. all rights reserved.
+doi:10.1016/j.ejmech.2003.11.011
+
+cox-2, although unequivocally potent for both enzymes,
+can have beneficial effect on most of the chronic inflammatory diseases, and could be more effective and safe in respect
+to the selective cox-2 inhibitor [5,6]. therapeutic, antiinflammatory effects of nsaids are attributable to their
+ability to inhibit cox-1 and cox-2 enzyme [7]. two of the
+most studied substances, 2-(3-benzoylphenyl) xxxd3029xxx 
+(1), generic name  xxxd2423xxx  (structure 1), and 2-(4-isobutylphenyl) xxxd3029xxx  (2), generic name ibuprofen (structure
+2), are among the best nsaids [8–10].
+from the complex crystal structure of cox-1 enzyme
+with 2 (pdb id: 1eqg), it can be seen that 2 forms three
+hydrogen bonds with the catalytic amino acids; one hydrogen
+bond with tyr355 and two hydrogen bonds with arg120.
+besides these h-bonds, large number of van der waals inter-
+
+structure 1
+
+142
+
+m. martić et al. / european journal of medicinal chemistry 39 (2004) 141–151
+
+structure 2
+
+actions between various ligands and active site have been
+found, including tyr385, ala527 and ser530 [11].
+both 1 and 2 are relatively small molecules and occupy
+only a fraction of the active site cavity. this study was,
+therefore, aimed to investigate further modifications that
+would result in better biological activity. interactions between the potential inhibitor molecules 3–9 and amino acids
+and/or water molecules within the active site of cox-1
+enzyme have been investigated as they turned to be more
+potent cox-1 inhibitors.
+besides the fact that the starting diacid 3 (structure 3)
+comprises fragments of both 1 and 2 structures, it also has
+two carboxyl acid groups, which are favorable for modifications. from diacid 3 we prepared six additional potential
+
+inhibitors (studied compounds) to investigate their biological
+activity. studied compounds 3–9 were tested in vitro for their
+inhibition properties on cox-1 and cox-2 enzymes and
+compared to reference compounds 1 and 2. further on, docking studies have been performed in order to predict and
+explain their in vitro activities. possible binding modes
+within cox-1 active site have been analyzed and ligands
+were ranked according to their binding affinities.
+conformational analysis of studied compounds has been
+done in terms of density functional theory (dft) and molecular mechanics (mm) to explore the flexibility of the
+studied compounds within the active site.
+caco-2 system is the most commonly used assay to predict
+oral absorption and bioavailability of drug candidates. since
+cox inhibitors are administered by peroral route, caco-2
+assay is crucial to properly select potential candidates exerting
+high oral bioavailability [12]. due to the fact that both cox-1
+and cox-2 are constitutively expressed in brain, ideal cox
+inhibitor should have low blood–brain barrier (bbb) permeation [2,13]. furthermore, simultaneous optimization of binding interactions and absorption, distribution, metabolism, excretion (adme) properties can reduce time–cost of drug
+development, additional in silico adme property predictions
+(solubility, caco-2, bbb) complemented the overall analysis
+of the biological activity of the studied compounds.
+2. chemistry
+
+structure 3
+
+diacid 3 was used as a starting molecule for all subsequent
+experiments. scheme 1 shows reaction pathways used for the
+preparation of studied compounds 3–9.
+carboxylic acid chloride of 1,1-di-(3-carboxyphenyl)
+ethane (10) was used as an intermediary product and was
+prepared in large quantities from diacid 3 in a fast reaction.
+
+scheme 1
+
+m. martić et al. / european journal of medicinal chemistry 39 (2004) 141–151
+
+target molecules were selected so as to provide information on which functional group is the most promising for
+further research. methyl diester 1,1-di-(3-methoxycarbonylphenyl)ethane (4), ethyl diester 1,1-di-(3-ethoxycarbonylphenyl)ethane (5) and isopropyl diester 1,1-di-(3-isopropoxycarbonylphenyl)ethane (6) were prepared from chloride
+10 in reactions with methanol, ethanol and isopropanol, respectively. diamide 1,1-di-(3-carboxyamidophenyl)ethane
+(7) was prepared in the reaction of carboxyl acid chloride 10
+with aqueous ammonia. as a representative of a third functional group nitrile of 1,1-di-(3-carboxyphenyl)ethane (8)
+was prepared by dehydration of diamide 7 by phosphorous
+oxychloride in the presence of quinoline.
+finally, diketone 1,1-di-(3-benzoylphenyl)ethane (9) was
+prepared by friedl-crafts reaction from chloride 10 and
+benzene in the presence of the aluminum(iii)-chloride.
+3. results and discussion
+3.1. determination of cox-1 and cox-2 inhibition
+all studied compounds were tested on cox-1 and cox-2
+enzymes. inhibition tests data for both cox enzymes is
+presented in table 1. basal production of pge-2 in untransfected cos-7 cells was below the detection limit of the
+elisa kit. this basal production was checked in every
+individual experiment performed.
+ xxxd543xxx  gave the best inhibition response among the
+studied compounds. as can be seen from table 1, inhibition
+of cox-1 enzyme for 10 µmol concentration of 9 is almost
+identical as 1 and 2, but dramatically decreases for 1 µmol
+concentration. the results also show substantial difference in
+inhibition responses between 1, 2 and 9 for cox-1 and
+cox-2.
+compounds 4, 5, 6 and 9 showed better inhibition response on cox-1 enzyme, while compounds 3, 7 and 8 have
+greater activity on cox-2 enzyme. however, inhibition of
+cox-2 by compounds 3 and 7 were low, and there was no
+statistically significant difference between inhibition at
+10 and 1 µm. for both enzymes,  xxxd543xxx  gave the best
+inhibition response; 96.1% for cox-1 and 41.9% for cox-2
+enzyme.
+table 1
+inhibition of cox-1 and cox-2 by 1–9
+compound
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+concentration
+cox-1 % inhibition
+10 µmol
+1 µmol
+96.0
+90.0
+96.0
+92.0
+0.0
+2.8
+27.8
+16.8
+75.0
+24.0
+27.8
+16.8
+0.0
+0.0
+11.8
+0.0
+96.1
+74.6
+
+cox-2 % inhibition
+10 µmol
+1 µmol
+74.9
+52.2
+87.4
+76.3
+12.0
+17.5
+13.1
+0.0
+21.8
+11.8
+22.9
+0.0
+6.1
+18.4
+17.4
+0.0
+41.9
+0.0
+
+143
+
+table 2
+cox-1/cox-2 inhibition ratios for 1, 2, 5 and 9
+compound
+1
+2
+5
+9
+a
+
+cox-1/cox-2 10 µm
+1.28
+1.10
+3.44
+2.29
+
+cox-1/cox-2 1 µm
+1.72
+1.21
+2.03
+–a
+
+no data for specific concentration ratio (division by zero).
+
+determination of ic50 values for cox-1 enzyme was
+possible for compounds, which showed best inhibition properties. ic50 value for  xxxd543xxx  was found to be 1.60 µmol
+dm–3, while for compound 5 it is 30 µmol dm–3. reference
+compounds 1 and 2 have ic50 values of 0.30 µmol dm–3 and
+0.12 µmol dm–3, respectively. for cox-2 enzyme was possible to determine ic50 value for  xxxd543xxx  which was
+found to be 28 µmol dm–3, while 1 has ic50 value of
+0.27 µmol dm–3 and 2 has ic50 value of 0.70 µmol dm–3.
+cox-1/cox-2 ratio for compounds 5 and 9, compared to
+1 and 2 is presented in table 2. calculated values show that
+two best inhibitors, 5 and 9, are more cox-1 selective.
+3.2. docking studies of receptor–ligand interactions
+in vitro results have revealed that studied compounds 3–9
+are better inhibitors of cox-1 than of cox-2 enzyme
+(table 1). in our modeling approach we, therefore, focused
+on the cox-1 enzyme. docking studies were performed by
+flexx [14] and gold [15] programs. since flexx, upon
+multiple attempts of changing the size of the active site inside
+the protein, failed to dock any of the studied compounds into
+the cox-1 active site, only the results obtained by gold are
+presented. failure of flexx can be attributed to two reasons:
+its inability to correctly position the base fragments of studied compounds (which is considered to be the major drawback of the incremental docking algorithms) and large fraction of hydrophobic areas in the active site [14]. because
+there is no x-ray data available for the structure of cox-1
+with 1 within its active site, we used the structure of cox-1
+enzyme with 2 (pdb id: 1eqg). active site was defined
+from the coordinates of one the ibuprofen carbon atom (ibp
+c8), from the complex crystal structure of cox-1 enzyme.
+radius of the active site was 15 å. no constraints were
+added. based on the analysis of the existing complex crystal
+structures of cox-1 and its known inhibitors [16], pharmacophore for the cox-1 active site can be deducted. known
+pharmacophore model of the active site consists of five different hydrogen bond interactions: two with arg120 and one
+with tyr355, glu524 and ser530. additionally, there are
+three crystal water molecules in the active site, but none of
+the known inhibitors has direct interaction with them [16].
+the values of the scoring given by goldscore fitness
+function [15] are given in table 3. good qualitative agreement between experimental (table 1) and predicted (table 3)
+results is obtained for compounds with substantial inhibition
+response (1, 2 and 9). in general, compounds, which showed
+no activity in vitro, were given the lowest scorings, while
+
+144
+
+m. martić et al. / european journal of medicinal chemistry 39 (2004) 141–151
+
+table 3
+goldscore fitness function on cox-1 enzyme for 1–9 and list of interactions identified by docking between 1–9 and amino acids in the active site
+compound
+1
+2
+3
+4
+5
+6
+7
+8
+9
+a
+
+fitness function of the first correctly
+docked ligand
+55.03
+51.12
+50.69
+43.50
+46.96
+50.30
+43.25
+51.72
+65.14
+
+the rank of the first correctly
+docked ligand
+1
+1
+1
+3
+1
+1
+1
+1
+1
+
+interactions with following amino acids within cox-1
+active site
+arg120, glu524, ser530
+arg120 a, tyr355
+arg120, tyr355, tyr385
+arg120, tyr355
+tyr355
+tyr355, water
+arg120, tyr355
+arg120
+tyr355, ala527, water
+
+compound 2 forms two hydrogen bonds with arg120.
+
+those with substantial activity have the highest scorings. however, some of the docked conformations were placed outside
+the active site of the cox-1 enzyme. gold docking results
+for the first correctly docked conformation, its rank and the list
+of amino acids within the active site with which each compound can form hydrogen bonds is presented in table 3. only
+for methyl diester 4, two conformations with the highest
+fitness function were placed outside the active site.
+position of compound 2 obtained by docking is in a very
+good agreement with the one in the crystal structure of
+cox-1 enzyme with 2 (pdb id: 1eqg).
+based on the docking results, we propose two additional
+interactions between the studied ligands and cox-1 active
+site.
+the first one invokes a hydrogen bond which links one
+keto group with one of the three water molecules present
+within the active site. this interaction is particularly evident
+for compounds 6 and 9. in addition to this interaction,  xxxd543xxx  also forms a hydrogen bond with ala527. both of
+these interactions are observed for the first time and presented in figs. 3 and 6.
+although ala527 is not considered as a part of the active
+site of cox-1 enzyme [16], it plays an important role in the
+binding of  xxxd543xxx . this interaction should be kept in
+mind if designing new class of nsaid-type inhibitors of
+cox-1.
+fitness function of  xxxd543xxx  is significantly higher
+from those of known drugs 1 and 2, which can be attributed to
+its specific interactions with ala527 and water molecule. due
+to the long hydrophobic channel-like active site, unfavorable
+interactions with arg120 and glu524 could be avoided. the
+shift in the position inside the active site enabled the formation of h-bonds described in table 3. furthermore, this
+positioning placed its two outer phenyl rings such as to favor
+hydrophobic interactions within the active site (fig. 6). one
+of the outer rings is parallel to the plane formed by guanidinium group of arg120, while connected inner ring is perpendicular to tyr355 phenyl ring. second outer ring is oriented toward hydrophobic pocked formed by leu352,
+tyr348, tyr385, trp387 and away from hydroxide group of
+ser530.
+figs. 1–3 represent 2d visualization of the active site
+where different binding modes for compounds 1, 2 and 9,
+
+respectively, are visible. figs. 4–6 show docked positions of
+molecules 1, 2 and 9 within the active site. particularly
+effective fit of  xxxd543xxx  as compared to 1 and 2, and
+favoring interaction between its keto group and the water
+molecule inside the active site is clearly visible.
+3.3. conformational analysis
+conformational analysis of the studied molecules has
+been undertaken in order to estimate distortions caused by
+the interactions within the active site.
+to explore conformational space, mmff94 [17] force
+field in the combination with random search (rs) algorithm
+was used. a large number of conformers for each compound
+were found due to the low rotational barrier of rotable bonds
+(table 4).
+geometry of the most stable conformer was further optimized at b3lyp/6-31g** [18,19] level and compared to
+mmff94 results (table 4). good correlation between dft
+and mm energies is observed (fig. 7). relatively large root
+mean square distance (rmsd) values are due to the large
+flexibility of the studied compounds. although difference in
+geometry exists, energy differences are very small for all:
+docked, mm minimum energy and dft conformations.
+therefore, additional single-point energies were calculated
+at b3lyp/6-311g** [18,19] level, and rotation around c1–
+c3′ bond was studied in 30° increment for all 12 conformers.
+however, energy difference was found to be less than a 0.3 kj
+mol–1 even at b3lyp/6-311g** level.
+3.4. adme profiling
+in order to predict adme properties of the studied compounds volsurf [20] program was used. the water probe was
+used to simulate solvation–desolvation processes, while
+dry and o probe were used to simulate interactions between
+the polar groups and hydrophobic core of biological membrane [20]. volsurf procedure automatically converts 3d
+molecular fields into a number of molecular descriptors,
+which are chemically easy to understand and interpret. volsurf descriptors describe the size and shape, hydrogen bonds,
+hydrophobicity, polarity and the balance between them. on
+fig. 8, hydrophilic and hydrophobic regions for the initial
+
+m. martić et al. / european journal of medicinal chemistry 39 (2004) 141–151
+
+145
+
+fig. 1. interactions between 1 and cox-1 active site.
+
+compound 3 and the most active  xxxd543xxx  are given. it can
+be seen that  xxxd543xxx  has larger hydrophobic area as
+compared to compound 3. accordingly, lower solubility and
+larger log p values are predicted.
+predictions of adme properties for studied compounds
+are given in table 5. compounds 3, 4 and 8 have acceptable
+lipophilicity values (log p < 5), while most active compounds
+5 and 9 have relatively high log p values. their solubility
+follows the trend of the log p predictions. compounds 5 and
+9 have good permeability, while the permeability of compound 3 is low. most of the compounds are predicted to have
+medium bbb permeation except compounds 3 and 7 for
+which low bbb permeation is estimated.
+in conclusion, analysis of the predicted adme properties
+for newly prepared compounds 3–9 opens the possibility for
+further optimization of studied compounds.  xxxd543xxx  is
+found to be too lipophilic due to the larger number of phenyl
+rings; therefore, it could serve as lead molecule for further
+optimization of both specific biological activity and adme
+properties.
+
+(k = 254 nm). ir spectra were recorded on nicolet
+magma-ir 760 spectrophotometer from kbr pelleted
+sample or as film. 1h and 13c nmr spectra (300 and
+500 mhz) were recorded using bruker-avance spectrometers with tms as internal standard. all obtained signals
+were marked as: s, singlet; d, doublet; t, triplet; q, quartet and
+m, multiplet. for hplc, thermoquest finnigan
+lcq deca, was used, with built in mass detector. mass
+spectra were scanned on micromass, platform lcz instrument. chn analyses were performed on perkin-elmer, series ii, chns analyzer 2400.
+for spectra interpretation, numbers were added to following carbon atoms.
+
+4. experimental protocols
+
+4.1.1. 1,1-di-(3-carboxyphenyl)ethane (3)
+a mixture of raw 3-(1-cyanoethyl) xxxd306xxx  (ceba)
+(105.0 g, 0.60 mol), naoh (75.0 g, 1.87 mol) and distilled
+water (655.0 ml) was refluxed for 4 h. a reaction mixture was
+cooled and added h2so4 until ph 2. formed crystals were
+
+4.1. chemistry
+tlc was performed using merck silica gel 60 f254 silica
+plates and components were visualized using uv light
+
+146
+
+m. martić et al. / european journal of medicinal chemistry 39 (2004) 141–151
+
+fig. 2. interactions between 2 and cox-1 active site.
+
+isolated and stirred in boiling distilled water (1400 ml).
+undissolved substance was filtered and dried until constant
+mass at 105 °c. the sample (6.10 g, m.p. 226 °c) was not
+purified for further experiments. for the analysis, obtained
+diacid 3 was recrystallized from etoh and showed: ir (kbr)
+mmax (cm–1): 2963, 2875, 2676, 2565, 1686, 1585 and 1420;
+1
+h nmr (dmso) d (ppm): 1.62 (d, 3h, c(2)h3), 4.37 (q, 1h,
+c(1)h), 7.45 (t, 2h, c(5′)h), 7.55 (d, 2h, c(4′)h), 7.79 (d, 2h,
+c(6′)h) and 7.83 (s, 2h, c(2′)h); 13c nmr (dmso) d (ppm):
+21.13 (c(2)), 43.30 (c(1)), 127.13 (c(6′)), 128.04 (c(2′)),
+128.70 (c(5′)), 131.83 (c(4′)) and 167.20 (c(7′)).
+anal. calc. for c16h14o4 (mr = 270.29): c, 71.10; h,
+5.22. found: c, 71.08; h, 5.15%.
+
+4.1.2. carboxylic acid chloride of
+1,1-di-(3-carboxyphenyl)ethane (10)
+a mixture of diacid 3 (2.0 g, 0.0074 mol) and socl2
+(20 ml, 0.274 mol) was refluxed for 4 h. obtained solution
+was evaporated resulting in chloride 10 (2.3 g, 100%,
+m.p. = 98 °c). product purified by sublimation (t = 220 °c,
+p = 0.67 pa) showed: ir (film) mmax (cm–1): 3448, 2971,
+1751, 1594, 1483.
+4.1.3. 1,1-di-(3-methoxycarbonylphenyl)ethane (4)
+a mixture of carboxyl acid chloride 10 (0.8 g, 0.00129
+mol) and meoh (20.0 ml, 0.49 mol) was refluxed for 6 h and
+evaporated resulting in raw oily product 4 (0.38 g, 98.4%).
+
+table 4
+rs results. dft and rs calculated energies for 3–9 and rmsd between obtained geometries
+compound
+3
+4
+5
+6
+7
+8
+9
+
+number of
+conformers
+35
+49
+194
+178
+117
+17
+175
+
+dhf of the most stable
+(kj mol–1)
+237.424
+277.761
+256.067
+276.841
+242.399
+187.557
+437.437
+
+d(dhf) between 1st and 10th most
+stable conformer (kj mol–1)
+0.209
+0.167
+1.630
+2.675
+0.543
+0.878
+3.637
+
+e(dft)/hartree
+
+rmsd
+
+–919.10
+–997.71
+–1076.35
+–1154.98
+–897.36
+–726.42
+–1230.73
+
+2.31
+2.37
+3.18
+3.37
+2.22
+1.76
+3.64
+
+m. martić et al. / european journal of medicinal chemistry 39 (2004) 141–151
+
+h-bond
+dh(1)
+dh(2)
+dh(3)
+
+atoms
+o–h–o
+o–h–o
+o–h–n
+
+distance (å)
+2.88
+3.48
+2.49
+
+147
+
+angle (°)
+108.31
+152.21
+86.44
+
+fig. 3 interactions between 9 and cox-1 active site.
+
+for the analysis, obtained oily methyl diester 4 was purified by redistillation (b.p. = 230 °c, p = 0.67 pa) and showed:
+ir (film) mmax (cm–1): 2952, 1720, 1587, 1433; 1h nmr
+(dmso) d (ppm): 1.68 (d, 3h, c(2)h3), 4.26 (q, 1h, c(1)h),
+7.46 (t, 2h, c(5′)h), 7.57 (d, 2h, c(4′)h), 7.80 (d, 2h, c(6′)h)
+
+and 7.85 (s, 2h, c(2′)h); 13c nmr (dmso) d (ppm): 21.64
+(c(2)), 44.50 (c(1)), 52.13 (och3), 127.05 (c(6′)), 127.82
+(c(2′)), 129.05 (c(5′)), 132.30 (c(4′)); ms m/z: 298.88.
+anal. calc. for c18h18o4 (mr = 298.34): c, 72.47; h,
+6.08. found: c, 71.38; h, 6.19%.
+
+table 5
+selected adme properties of compounds 3–9
+compound
+3
+4
+5
+6
+7
+8
+9
+
+c logp
+4.1
+4.5
+5.6
+6.2
+1.6
+3.5
+6.7
+
+a logp98
+3.3
+3.8
+4.5
+5.2
+2.0
+3.8
+7.1
+
+caco-2 permeability
+0.25
+1.09
+1.25
+1.25
+0.44
+1.97
+1.26
+
+bbb permeation
+–0.45
+0.38
+0.50
+0.24
+–0.38
+0.23
+0.23
+
+solubility
+–3.86
+–3.80
+–4.33
+–5.21
+–3.96
+–6.32
+–6.55
+
+solubility: very low, –8.0 > log sw; low, –8.0 < log sw < –6.0; good, –6.0 < log sw < –4.0; optimal, –4.0 < log sw < –2.0; very good, –2.0 < log sw < 0.0. caco-2
+permeability: –1, low; 0, medium; 1, high. bbb permeation: negative values, low; positive values, high; zero, medium.
+
+148
+
+m. martić et al. / european journal of medicinal chemistry 39 (2004) 141–151
+
+fig. 4. the active site of cox-1 enzyme (green) with 1 (by atom type).
+
+4.1.4. 1,1-di-(3-ethoxycarbonylphenyl)ethane (5)
+a mixture of carboxyl acid chloride 10 (0.90 g, 0.00333
+mol) and 96% etoh (50.0 ml, 0.86 mol) was refluxed for 4 h
+and evaporated. resulting oily product 5 (0.91 g, 0.00279
+mol, 83.4%) was dissolved in ch2cl2 (13 ml) and washed
+with saturated solution of nahco3 (2 × 15.0 ml). organic
+layer was separated and evaporated, resulting in oily ethyl
+diester 5 (0.61 g, 56.2%). redistillated diester 5
+(b.p. = 235 °c, p = 0.67 pa) was used for the analysis and
+showed: ir (film) mmax (cm–1): 2997, 1719, 1587, 1443; 1h
+
+fig. 5. the active site of cox-1 enzyme (green) with 2 (by atom type).
+
+fig. 6. the active site of cox-1 enzyme (green) with 9 (by atom type).
+
+nmr (dmso) d (ppm): 1.32 (t, 3h, c(9′)), 1.63 (d, 3h,
+c(2)h3), 4.31 (q, 2h, c(8′)), 4.41 (q, 1h, c(1)h), 7.47 (t, 2h,
+c(5′)h), 7.58 (d, 2h, c(4′)h), 7.82 (d, 2h, c(6′)h), 7.89 (s, 2h,
+c(2′)h); 13c nmr (dmso) d (ppm): 14.00 (c(9′)), 21.09
+(c(2)), 43.26 (c(1)), 60.59 (c(8′)), 126.95 (c(6′)), 127.85
+(c(2′)), 128.82 (c(5′)), 132.11 (c(4′)); ms m/z: 326.93.
+anal. calc. for c20h22o4 (mr = 326.40): c, 73.60; h,
+6.79. found: c, 73.48; h, 6.70%.
+4.1.5. 1,1-di-(3-isopropoxycarbonylphenyl)ethane (6)
+a mixture of carboxyl acid chloride 10 (0.90 g, 0.00333
+mol) and isopropanol (50.0 ml, 0.86 mol) was refluxed for 4 h
+and evaporated. resulting oily product 6 (0.75 g, 63.7%) was
+dissolved in ch2cl2 (30 ml) and washed with saturated
+solution of nahco3 (2 × 15.0 ml). organic layer was separated and evaporated resulting in oily isopropyl diester 6
+(0.63 g, 53.5%). redistillated isopropyl diester 6
+(b.p. = 238 °c, p = 0.67 pa) was used for the analysis and
+showed: ir (film) mmax (cm–1): 2979, 1715, 1587, 1453; 1h
+
+fig. 7. correlation between energies obtained by dft calculations and
+mmff94.
+
+m. martić et al. / european journal of medicinal chemistry 39 (2004) 141–151
+
+149
+
+anal. calc. for c16h16n2o2 (mr = 268.32): c, 71.62; h,
+6.01; n, 10.44. found: c, 71.59; h, 5.96; n, 10.35%.
+4.1.7. nitrile of 1,1-di-(3-carboxyphenyl)ethane (8)
+a mixture of diamide 7 (2.00 g, 0.00745 mol) and quinoline (7.5 ml) was heated at 135 °c. while heated, in the
+reaction mixture was slowly added pocl3 (4.57 g, 0.0298
+mol) within 5 min, so the reaction temperature would not
+exceed 150 °c. obtained mixture was heated next 30 min at
+150 °c, after which was cooled to the room temperature. in
+cooled mixture, ch2cl2 was added (50 ml) after which was
+added distilled water (20 ml). in obtained mixture, another
+50 ml of ch2cl2 and 20 ml of water was added. organic layer
+was separated and washed with distilled water (2 × 20 ml),
+after which was again separated and evaporated. reaction
+yielded in dinitrile 8 (1.11 g, 64.2%). using column chromatography and ch2cl2 as a mobile phase, tlc pure dinitrile 8
+was obtained (0.83 g, 48.40%) in a form of yellow viscose
+mass. for the analysis, dinitrile 8 was additionally purified by
+redistillation (b.p. = 245 °c, p = 0.67 pa) which showed: ir
+(film) mmax (cm–1): 2972, 2229, 1719, 1581; 1h nmr
+(dmso) d (ppm): 1.60 (d, 3h, c(2)h3), 4.32 (q, 1h, c(1)h),
+7.47 (t, 2h, c(5′)h), 7.62 (d, 2h, c(4′)h), 7.65 (d, 2h, c(6′)h),
+7.83 (s, 2h, c(2′)h); 13c nmr (dmso) d (ppm): 21.23
+(c(2)), 43.99 (c(1)), 130.49 (c(6′)), 131.03 (c(2′)), 131.71
+(c(5′)), 133.27 (c(4′)); ms m/z: 233.13.
+anal. calc. for c16h12n2 (mr = 232.29): c, 82.73; h,
+5.21; n, 12.06. found: c, 82.60; h, 5.06; n, 12.31%.
+
+fig. 8. grid 3d molecular fields of (a) compound 3; and (b)  xxxd543xxx 
+calculated with water probe. the regions shown as yellow indicate hydrophobic interactions at 1.5 kcal mol–1 and blue regions represent hydrophilic
+interactions at –2.0 kcal mol–1.
+
+nmr (dmso) d (ppm): 1.30 (d, 6h, c(9′,10′)h3), 1.62 (d, 3h,
+c(2)h3), 4.40 (q, 1h, c(1)h), 5.12 (m, 1h, c(8′)h), 7.46 (t, 2h,
+c(5′)h), 7.57 (d, 2h, c(4′)h), 7.80 (d, 2h, c(6′)h), 7.85 (s, 2h,
+c(2′)h); 13c nmr (dmso) d (ppm): 21.20 (c(9′,10′)), 21.51
+(c(2)), 43.25 (c(1)), 68.03 (c(8′)), 126.92 (c(6′)), 127.83
+(c(2′)), 128.82 (c(5′)), 132.07 (c(4′)); ms m/z: 253.15.
+anal. calc. for c22h26o4 (mr = 354.45): c, 74.55; h,
+7.39. found: c, 74.25; h, 7.13%.
+4.1.6. 1,1-di-(3-carboxyamidophenyl)ethane (7)
+a mixture of carboxyl acid chloride 10 (2.5 g, 0.00926
+mol) and concentrated solution of aqueous ammonia
+(130.0 ml) was refluxed 4 h and evaporated, resulting in
+diamide 7 (2.11 g, 84.90%). after recrystallization from 96%
+etoh, diamide 7 was obtained in a form of white powder
+(m.p. = 240 °c) which showed: ir (film) mmax (cm–1): 3401,
+3176, 2955, 1662, 1626, 1582, 1400; 1h nmr (dmso) d
+(ppm): 1.65 (d, 3h, c(2)h3), 3.37 (t, 4h, nh2) 4.28 (q, 1h,
+c(1)h), 7.39 (t, 2h, c(5′)h), 7.45 (d, 2h, c(4′)h), 7.72 (d, 2h,
+c(6′)h), 7.83 (s, 2h, c(2′)h); 13c nmr (dmso) d (ppm):
+21.15 (c(2)), 43.88 (c(1)), 125.11 (c(6′)), 126.40 (c(2′)),
+128.19 (c(5′)), 130.19 (c(4′)), 167.80 (c(7′)); ms m/z: 269.08.
+
+4.1.8. 1,1-di-(3-benzoylphenyl)ethane (9)
+to a mixture of carboxyl acid chloride (10) (2.0 g, 0.00651
+mol) and dry benzene (30.0 ml, 0.337 mol), alcl3 (3.4 g,
+0.0255 mol) was added. obtained reaction mixture was refluxed for 2 h, cooled to the room temperature and washed
+with distilled water (2 × 20 ml). benzene layer was separated
+and evaporated. to resulting residue etoh (40.0 ml) was
+added. obtained diphenyl 9 in a form of gummy mass was
+separated and dried under vacuum (p = 10 pa) resulting in dry
+substance 9 (1.36 g, 53.0%). by column chromatography
+using ch2cl2 as a mobile phase, tlc pure diketone 9 was
+obtained (0.76 g, 29.60%). addition purification was made
+for the analysis by redistillation (b.p. = 250 °c, p = 0.67 pa).
+obtained sample showed: ir (film) mmax (cm–1): 2969, 1725,
+1659, 1597; 1h nmr (dmso) d (ppm): 1.75 (d, 3h, c(2)h3),
+3.72 (q, 1h, c(1)h), 7.10–7.80 (m).
+anal. calc. for c28h22o2 (mr = 390.49): c, 86.13; h,
+5.68. found: c, 86.21; h, 5.56%.
+4.2. determination of cox-1 and cox-2 inhibition
+cox-1 gene was amplified with pcr using primer pairs
+containing hindiii and bamhi restriction site: 5′
+atataagtcttgcgccatgagccggagtctc(3), and
+5′ atatggatcctcagagctctgtggatggtcgc(3).
+cox-2 primer pairs also contained hindiii and bamhi
+restriction sites: 5′ atataagcttgctggcgatgctcgcccgc(3) and 5′ atatggatccctacagttcagtcgaacgttc(3).
+
+150
+
+m. martić et al. / european journal of medicinal chemistry 39 (2004) 141–151
+
+human placenta cdna library (clontech) was used as
+template in pcr reaction performed with pfx platinum dna
+polymerase (invitrogen). products were cloned in pcdna3.1
+hygro(+) plasmid (invitrogen) and sequenced.
+cos-7 cells were transfected using lipofectamine 2000
+(invitrogen). cells were grown in 24-well plate in the incubator (37 °c, 95% relative humidity, 5% co2) until they
+reached 95% confluency. transfection was performed using
+1 µg of plasmid dna containing cox-1 or cox-2 gene and
+2 µl of lipofectamine 2000 reagent.
+twenty-four hours after transfection, dilutions of tested
+compounds were added in duplicate. each plate contained
+positive and negative control. cells were left for 20 min in the
+incubator before addition of  xxxd208xxx  in final concentration of 20 µm. supernatants were collected after 30 min
+and stored on –70 °c.
+pge-2 was measured using pge-2 competitive elisa kit
+(amersham) following manufacturer’s recommendation.
+spontaneous production of pge-2 from endogenouslyreleased  xxxd208xxx  in both transfected and untransfected
+cells was monitored and was below the detection limit of the
+kit (20 pg ml–1). pge-2 level was below the detection limit
+also for the untransfected cells treated with exogenous  xxxd208xxx . the total amount of pge-2 was at average of
+610 pg ml–1 for cox-1 transfected cells, and 530 pg ml–1 for
+cox-2 transfected cells, which is in the linearity range of the
+elisa detection. these data demonstrate that all detectable
+conversion of exogenous  xxxd208xxx  to pge-2 was due to
+the presence of plasmid driven synthesis of cox-1 and cox-2
+in transfected cos-7 cells, and that the inhibition data represents the inhibition of cloned human cox-1 and cox-2 enzymes expressed in transiently transfected cos-7 cells.
+ic50 values were determined using graphpadprism software.2
+4.3. computational methods
+the studied molecules were first minimized using dft
+calculations. we used b3lyp [18] functional and 6-31g**
+basis set [19] for the minimization, and 6-311g** basis set
+for single-point energy calculations of the minimized structures. all dft calculations have been performed using jaguar program package [21]. conformational analysis has been
+performed using random search method and mmff94 [17]
+force field, as implemented in sybyl program package.3
+flexx [14] and gold [15] docking programs were used
+to study binding modes of studied molecules within the
+cox-1 active site [16]. structure of the cox-1 enzyme was
+used as given in pdb id: 1eqg. flexx was used in the
+combination with drugscore scoring function [22], while
+goldscore [15] was used in gold. flexx failed to dock any
+of the molecules into the active site, therefore only gold
+docking results have been presented.
+
+adme properties were predicted using volsurf [20]. we
+used water, dry and o probe with grid4 force field to
+generate the 3d interaction energies. grid space of 0.5 å was
+used. caco-2 permeation, bbb permeation and solubility for
+these molecules were calculated. solubility is expressed in
+mol l–1 at 25 °c and transformed as a negative logarithm. pls
+analysis [23] was used as a chemometric tool to correlate the
+data and build the models of interest. cerius2 qsar module
+was used for calculations of c log p and a log p98 [24].
+gold v2.0 and jaguar v4.2, release 77 were run on
+kayak xm 600, while sybyl v6.8 (flexx and volsurf v3.0.4)
+were run on sgi octane.
+acknowledgements
+the authors are thankful to professor vitomir šunjić,
+head of division of organic chemistry and biochemistry,
+ruwer bošković institute, zagreb and donatella verbanac
+and zrinka ivezić from pliva inc. for valuable advice and
+assistance throughout this project.
+references
+[1]
+[2]
+[3]
+[4]
+[5]
+[6]
+[7]
+[8]
+[9]
+
+[10]
+[11]
+
+[12]
+[13]
+[14]
+[15]
+[16]
+[17]
+[18]
+
+s.s. adams, p. bresloff, c.g. mason, j. pharm. pharmacol. 28 (1976)
+256–257.
+s. taniura, h. kamitani, t. watanabe, t.e. eling, j. biol. chem. 277
+(2002) 16823–16830.
+n. rioux, a. castonguay, carcinogenesis 21 (2000) 1745–1751.
+g. de gaetano, m.b. donati, c. cerletti, trends pharmacol. sci. 24
+(2003) 245–252.
+i. foeldvari, r. burgos-vargas, a. thon, d. tuerck, j. rheumatol. 29
+(2002) 1079–1083.
+k.j. sales, a.a. katz, b. howard, r.p. soeters, r.p. millar, h.n. jabbour, cancer res. 62 (2002) 424–432.
+t.d. warner, f. giuliano, i. vojnovic, a. bukasa, j.a. mitchell,
+j.r. vane, proc. natl. acad. sci. 96 (1996) 7563–7568.
+j.g. lombardino, i.g. otterness, e.h. wiseman, arzneim.-forsch. 25
+(1975) 1629–1635.
+i.m. hunneyball, recent developments in disease-modifying antirheumatic drugs, in: e. jucker (ed.), progress in drug research, vol.
+24, birkhäuser, verlag, basel, 1980, pp. 101–216.
+f. jamali, r. mehvar, f.m. pasutto, j. pharm. sci. 78 (1989) 695–715.
+r.g. kurumbail, a.m. stevens, j.k. gierse, j.j. mcdonald,
+r.a. stegeman, j.y. pak, d. gildehaus, j.m. miyashiro, t.d. penning, k. seibert, p.c. isakson, w.c. stallings, nature 384 (1996)
+644–648.
+v. meunier, m. bourrié, y. berger, g. fabre, cell biol. toxicol. 11
+(1995) 187–194.
+k. brune, a. neubert, clin. exp. rheumatol. 19 (2001) s51–s57.
+m. rarey, b. kramer, t. lengauer, g. klebe, j. mol. biol. 261 (1996)
+470–489.
+g. jones, p. willett, r.c. glen, a.r. leach, r. taylor, j. mol. biol.
+267 (1997) 727–748.
+b.s. selinsky, k. gupta, c.t. sharkey, p.j. loll, biochemistry 40
+(2001) 5172–5180.
+t. halgren, j. am. chem. soc. 112 (1990) 4710–4723.
+v. barone, c. adamo, j. chem. phys. 105 (1996) 24–37.
+
+2
+
+prism, graphpad software, san diego, ca, usa.
+sybyl® 6.7.1 tripos inc., 1699 south hanley rd., st. louis, mi
+63144, usa.
+3
+
+4
+
+grid version 19, molecular discovery ltd, berkeley street, mayfair,
+london.
+
+m. martić et al. / european journal of medicinal chemistry 39 (2004) 141–151
+[19] p.w. atkins, r.s. friedman, molecular quantum mechanics, oxford
+university press, oxford, new york, tokyo, 1997.
+[20] g. cruciani, p. crivori, p.a. carrupt, b. testa, j. mol. struct.
+theochem. 503 (2000) 17–30.
+[21] jaguar 4.2 (1991–2000) schrödinger, inc., portland, or.
+[22] h. gohlke, m. hendlich, g. klebe, j. mol. biol. 295 (2000) 337–356.
+
+151
+
+[23] g. klebe, structural alignment of molecules, in: h. kubinyi (ed.),
+3d-qsar in drug design. theory, methods and applications,
+scom, leiden, 1993.
+[24] a.k. ghose, v.n. viswanadhan, j.j. wendoloski, j. phys. chem. 102
+(1998) 3762–3772.
+

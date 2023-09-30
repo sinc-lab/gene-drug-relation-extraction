@@ -1,0 +1,884 @@
+biochemical pharmacology 68 (2004) 1957–1969
+www.elsevier.com/locate/biochempharm
+
+elucidation of the mechanism of inhibition of cyclooxygenases by
+acyl- xxxd1739xxx  and acylglucuronic conjugates of  xxxd2423xxx 
+nicolas levoina,1, céline blondeaua, cécile guillaumea, line grandcolasa,
+françoise chretienb, jean-yves jouzeaua, etienne benoitc,
+yves chapleurb, patrick nettera, françoise lapicquea,*
+a
+
+umr 7561 cnrs-uhp, physiopathologie et pharmacologie articulaires, faculté de médecine—bp 184, f-54505 vandoeuvre les nancy, france
+b
+umr 7565 cnrs-uhp, groupe sucres, faculté des sciences, vandoeuvre les nancy, france
+c
+laboratoire de biochimie, ecole nationale supérieure vétérinaire de lyon, france
+received 1 april 2004; accepted 15 july 2004
+
+abstract
+nonsteroidal anti-inflammatory drugs (nsaids) inhibit the cyclooxygenase (cox) isoforms which accounts for their clinical effects.
+the differential inhibition of  xxxg1883xxx  and cox-2 is not sufficient to explain the absence of a correlation between in vitro and in vivo
+effects, especially for 2-aryl-propionates, thus indicating the participation of metabolites. conjugates to glucuronic acid and to coenzymea are mainly produced, and have been shown to be chemically reactive. therefore, we studied the interaction of the  xxxd2423xxx 
+metabolites with the cox enzymes. after incubation with bovine pulmonary artery endothelial cells (bpaec),  xxxg1883xxx  was inhibited
+stereoselectively by s- xxxd2423xxx  acylglucuronide, and more significantly by coa-thioester. after washing-out the medium,  xxxg1883xxx 
+activity was essentially recovered, indicating a reversible inhibition. in lps-stimulated j774.2 cells, cox activity (mainly inducible
+cox-2) was inhibited reversibly and stereospecifically by s- xxxd2423xxx  glucuronide, whereas it disappeared totally and was not recovered
+after incubation with coa-thioester. correspondingly, inhibition of purified cox-2 with this compound was observed to be rapid and
+irreversible. using an anti- xxxd2423xxx  antibody, cox immunoprecipitated from cells exhibited adduct formation for cox-2 but not for
+ xxxg1883xxx . this was observed after incubation with coa-thioester, and, surprisingly, also with glucuronide. molecular docking gave support
+to explain this discrepancy: the glucuronide was found to establish a strong interaction with y115 located in the membrane binding
+domain, whereas the thioester was preferentially bound to the active site of the enzyme. overall, our results suggest a contribution of coathioester metabolites of carboxylic nsaids to their pharmacological action by irreversibly and selectively inhibiting cox-2.
+# 2004 elsevier inc. all rights reserved.
+keywords: chiral nonsteroidal anti-inflammatory drugs; cox inhibition; metabolite; acylglucuronide;  xxxd1739xxx 
+
+1. introduction
+nonsteroidal anti-inflammatory drugs (nsaids) are
+widely used for the treatment of articular and inflammatory
+diseases. it is generally accepted that nsaids exert their
+abbreviations: cox, cyclooxygenase; nsaid, nonsteroidal antiinflammatory drug; coa,  xxxd1739xxx ; lps, lipopolysaccharide; ugt,
+udp-glucuronosyltransferase; kpf,  xxxd2423xxx ; glc, glucuronide; nak,
+non-acylating analogue of kpf–coa; bpaec, bovine pulmonary arterial
+endothelial cells; dmem, dulbeccos modified eagles medium; pg, prostaglandin; mbd, membrane binding domain; sd, steepest descents; cg,
+conjugate gradient.
+* corresponding author. tel.: +33 383 68 39 50; fax: +33 383 68 39 59.
+e-mail address: francoise.lapicque@medecine.uhp-nancy.fr (f. lapicque).
+1
+present address: bioprojet-biotech, f-35762 saint-grégoire, france.
+0006-2952/$ – see front matter # 2004 elsevier inc. all rights reserved.
+doi:10.1016/j.bcp.2004.07.015
+
+clinical effects by inhibiting cyclooxygenase (cox),
+thereby blocking the synthesis of prostaglandins. cox
+exists in at least two different isoforms:  xxxg1883xxx  is
+expressed constitutively and is present in most cells under
+physiological conditions, whereas cox-2 is mainly
+induced in response to inflammatory stimuli. over the last
+few years, the inhibition of the inducible enzyme has then
+been thought to be responsible for the beneficial properties
+of nsaids, while blocking the housekeeping functions of
+ xxxg1883xxx  would contribute to their gastro-intestinal sideeffects. this explanation appears today overly simple,
+since  xxxg1883xxx  is also implicated in inflammation whereas
+cox-2 is involved in intestinal homeostasis and in the
+resolution of inflammation [1]. a number of in vitro assays
+have been published comparing the potencies of nsaids
+
+1958
+
+n. levoin et al. / biochemical pharmacology 68 (2004) 1957–1969
+
+against  xxxg1883xxx  and cox-2, and several recent reports have
+dealt with structural aspects of cox selectivity using
+x-ray analysis after crystallisation. however, no definitive
+correlation has been found between isoform selectivity and
+clinical effects, and led to a search for other mechanisms
+of action.
+chiral 2-arylpropionic acid nsaids are generally marketed as a racemic mixture of r- and s-enantiomers. most
+of their clinical effects have been attributed to the senantiomer, as highly stereoselective inhibitor of cox
+in vitro. however, although being a poor cox inhibitor,
+the r-form possesses significant analgesic activity, as
+demonstrated for  xxxd2423xxx  (kpf) in humans [2]. since
+little chiral inversion from r- to the s-antipode occurred in
+these conditions, it can be suggested that nsaids act via
+both cox-dependent and cox-independent mechanisms.
+this discrepancy may also originate from the participation of intermediate products of metabolism in cox
+inhibition, which could not be expected from in vitro
+studies.  xxxd3029xxx  are extensively metabolised
+as acylglucuronides by udp-glucuronosyltransferases
+(ugt), mainly in liver, before elimination into urine.
+several nsaids undergo thioesterification with coenzyme
+a (coa) by acyl-coa synthetases ( xxxg47xxx   xxxg50xxx   xxxg51xxx   xxxg2223xxx   xxxg2224xxx   xxxg2225xxx .3), leading to
+glycine conjugation [3], lipid incorporation [4], and chiral
+inversion of the r-enantiomer into s-antipode, in the case
+of asymmetric molecules. both acylglucuronides and
+thioesters are chemically activated carboxylic acids and
+
+can therefore be expected to react with nucleophilic groups
+contained in proteins.
+acylglucuronides of  xxxd2556xxx  [5] and kpf [6,7] for
+example, were effectively shown to be responsible for
+adduct formation on albumin.  xxxd1882xxx  was also observed
+to be capable to form adducts in perfused rat liver via
+glucuronidation [8]. kpf glucuronides bound ugt2b1
+isoform covalently and were thus responsible for irreversible inhibition of the enzyme [9].
+endogenous fatty acyl-coas are high energy intermediates in the lipid pathway: they are involved in numerous
+biochemical processes such as calcium ion fluxes, membrane trafficking, membrane targeting and association
+[10]. they participate in gene regulation, interacting with
+transcription factors, such as yeast fad r [11],  xxxg1064xxx   xxxg1065xxx 
+[12]. they are also inhibitors of numerous enzymes, e.g.,
+ugt [13], mitochondrial adenosine translocase and citrate
+transporter, glucokinase, glucose-6-phosphatase, pyruvate
+dehydrogenase, acetyl-coa carboxylase, 3-methylglutaryl-coa reductase [14]. acyl-coas from xenobiotics
+have been far less studied. however, some of them have
+been shown to be inhibitors of acetyl-coa carboxylase
+[15], carnitine  xxxd2832xxx  transferase i [16], glutathione stransferases [17] and cox [18]. since acyl-coas are
+chemically activated carboxylic acids, these effects may
+be due to their acylating properties and occur by covalent
+binding. as a matter of fact, chemical modification of
+unknown proteins has been effectively observed by fibrate
+
+fig. 1.  xxxd2423xxx  (kpf) and conjugates. (kpf–glc: glucuronide of kpf, kpf–coa: acyl-coa of kpf, nak: non acylating analogue of kpf–coa: (*)
+denotes chiral centre of kpf).
+
+n. levoin et al. / biochemical pharmacology 68 (2004) 1957–1969
+
+derivatives [19], and of human  xxxg124xxx  by
+naproxen-coa [20].
+therefore, the aim of the present study was to compare
+acylglucuronides and acyl-coa conjugates to the parent
+drug for their potency to inhibit cox. kpf was chosen as
+an example of chiral nsaid, and enantiomers were evaluated separately. experiments were done using intact cells
+expressing preferentially  xxxg1883xxx  or cox-2, and purified
+enzymes. the mechanism of inhibition was elucidated by
+complementary assessments: cox recovery after exposure
+to the conjugates, formation of adducts with the enzymes,
+behaviour of a non-acylating analogue of kpf–coa, nak
+(fig. 1).
+
+2. materials and methods
+2.1. chemicals and reagents
+racemic, r- and s-kpf were kindly offered by rhone
+poulenc rorer.  xxxd208xxx  was obtained from cayman chemicals. all other chemicals and reagents were
+purchased from sigma.
+2.2. synthesis and analysis of kpf conjugates
+the glucuronide, kpf–glc, was prepared from phenobarbital-treated rat liver microsomes immobilised on alginate beads as described previously [21]. r- or s-kpf was
+used as the substrate to obtain pure r- or s-kpf–glc.
+glucuronides were then purified by semi-preparative
+hplc (7 mm lichrosorb rp18 column 250 mm 
+10 mm, merck), with a mobile phase consisting of acetonitrile/h2o/trifluoro-acetic acid (40:60:0.06) at a flow
+rate of 2.5 ml/min.
+kpf–coa and nak were synthesised chemically as
+described previously [22]. elementary analysis, hrms,
+1
+h-, 13c-, and 31p-nmr spectra were in accordance with
+the proposed structure. assignments were confirmed by
+double irradiation or two-dimensional spectroscopy. acylcoa of both kpf enantiomers was obtained. they gave
+two peaks in preparative hplc, which were purified
+stereospecifically. however, owing to an epimerisation
+reaction occurring during the reaction [22], the assignment
+of one configuration to one eluate was not possible at this
+stage. therefore, for the present work, acyl-coa of kpf
+enantiomers will be named coa-1 and coa-2 following
+their elution order, without knowing if coa-1 corresponds
+to r-kpf–coa or s-kpf–coa and vice versa.
+purity and stability of kpf conjugates were tested by
+analytical hplc, using a c18 column (radial pack 80 mm
+ 10 mm in rcm module, waters), and a mobile phase of
+methanol/9 mm phosphate buffer ph 5.5 (45:55) at a flow
+rate of 1.5 ml/min. elution was monitored at 254 nm,
+using a 996 photodiode array detector and a 510 pump
+(waters).
+
+1959
+
+2.3. inhibition of cox activity in cultured cells
+bovine pulmonary arterial endothelial cells (bpaec)
+and murine macrophages (j774.2 cells) (the european
+collection of animal cell culture, salisbury, uk) were
+grown to confluence in 24-well culture plates with dulbecco’s modified eagle’s medium (dmem) supplemented
+with 10% foetal calf serum, 4 mm glutamine, 50 mg/ml
+penicillin/streptomycin and 0.25 mg/ml amphothericin b.
+j774.2 cells were activated 14 h with lps (1 mg/ml) in
+dmem medium containing 2.5% foetal calf serum for
+induction of cox-2 [23]. both cell cultures were incubated
+at 20 8c for 30 min with one inhibitor at varying concentrations.  xxxd208xxx  (30 mm) was then added and the
+cells were incubated for a further 15-min period. the
+supernatants were assayed for 6-keto-prostaglandin-f1a,
+6kpgf1a, (bpaec) or pge2 (j774.2) content by elisa
+(assay designs). recovery activity of cox was then
+determined as reported by laneuville et al. [24]. briefly,
+the cells were washed twice for 45 min to remove the
+inhibitor,  xxxd208xxx  (30 mm) was added for further 15min incubation, and prostaglandins were quantified as
+previously. the supernatants were analysed by hplc
+for kpf–glc, kpf–coa and kpf content to assess the
+possibility of conjugate hydrolysis.
+2.4. preparation of permeabilised cells
+cells prepared as described above were incubated with
+each inhibitor in the presence of 0.02% saponine. preliminary trypan blue tests revealed that cell permeabilisation
+occurred under these conditions.
+2.5. kinetics of inhibition of purified cox enzymes
+purified ovine  xxxg1883xxx  and cox-2 enzymes were
+obtained from cayman chemicals. enzyme activity was
+determined by measuring  xxxd1902xxx  production as reported
+by janusz et al. [25]. briefly, 30 ml enzyme (6.8 
+1013 mol) and 30 ml inhibitor to a final concentration
+of either 5  105, 5  106, or 5  107 m was added to
+250 ml of 50 mm phosphate buffer ph 7.4 containing
+1 mm phenol, 1 mm hematine and 0.5 mg/ml sncl2,
+and incubated at 20 8c for a period of time of 0, 2, 5,
+10 or 15 min. then 30 mm  xxxd208xxx  was added for
+5 min at 37 8c. incubation was stopped by adding 20 ml of
+1 n hcl and neutralised with 1 n naoh before prostaglandin assay by elisa. controls were done for each
+experimental concentration of inhibitor and incubation
+time.
+2.6. analysis of cox adducts by western blotting
+purified cox enzyme (6  1011 mol) in 50 mm ph 7.4
+phosphate buffer containing 1 mm hematine, 300 mm
+diethyl dithiocarbamate and 0.1% tween 201, were incu-
+
+1960
+
+n. levoin et al. / biochemical pharmacology 68 (2004) 1957–1969
+
+bated for 1 h at 20 8c with kpf–coa (2  1010 mol).
+samples were mixed with laemmli reagent (final concentration 2% sds, 10% glycerol, 5% 2- xxxd26xxx ,
+0.002% bromophenol blue in  xxxd3449xxx ). sds–page was
+performed using 9% acrylamide for separating gel and 4%
+for stacking gel. proteins were transferred onto immobilon
+p membrane (millipore) by electroblotting, using a glycine/tris/0.1% meoh buffer adjusted to ph 7.4 for 1 h at
+12 v. blots were saturated with 3% bsa in 0.04% tween
+201 in pbs. immunodetection was performed by colorimetry using an anti-kpf polyclonal antibody obtained
+from rabbits immunized against kpf-thyreoglobuline by
+the method described by maire-gauthier et al. [26]. the
+anti-kpf antibody was diluted at 1/6000 and the secondary
+goat anti-rabbit igg alkaline phosphatase conjugate at
+1/5000.
+2.7. immunoprecipitation of cox
+bpaec and adherent activated j774.2 cells (5  106
+cells) were incubated with kpf–coa or kpf–glc to a
+final concentration of 103 or 104 m for 2 h at room
+temperature. the cells were then washed twice with pbs
+to remove kpf conjugates. they were scrapped and
+centrifuged for 10 min at 24,000  g, and the resulting
+pellet was taken up in 1 ml 150 mm nacl, 1% igepal
+(cas registry no. [26571-11-9]), 0.5 mm  xxxd1835xxx ,
+50 mm ph 7.4 phosphate buffer solution (wb). cells were
+lysed by thermal shocks and ultrasonication, then membrane proteins were solubilised (1.5 h at 0 8c) and the
+samples were ultracentrifuged at 130,000  g for 1 h
+at 4 8c. the supernatant was added to 10 ml protein gagarose 0.2 g/l and incubated for 2 h at 4 8c on a rotating
+platform for preclearing. the suspension was then centrifuged for 1 min at 24,000  g. the supernatant was
+incubated with 10 ml of 1/100 anti- xxxg1883xxx  or anti-cox-2
+for 2 h before addition of 10 ml protein g-sepharose
+overnight at 4 8c. the suspension was then centrifuged
+at 24,000  g for 1 min and the supernatant carefully
+removed. the beads were once more suspended in 1 ml
+wb and incubated for 20 min at room temperature on a
+rocking platform. washing was repeated with 500 mm
+nacl, 0.1% igepal, 0.05%  xxxd1835xxx  then with 0.1%
+igepal, 0.05%  xxxd1835xxx  in phosphate buffer. the last
+pellet was taken up in gel loading buffer and analysed by
+western blot. in preliminary experiments, the specificity
+of immunoprecipitation was assessed using selective antibodies for  xxxg1883xxx  and cox-2, and further staining by
+ponceau red ensured the absence of any other protein after
+the purification.
+the presence of kpf adducts was evaluated as described
+above, using anti-kpf antibody. to check the presence of
+immunoprecipitated  xxxg1883xxx , the membrane was washed
+after revelation by the anti-kpf antibody and reblocked
+with hsa, before overnight incubation with an anti- xxxg1883xxx 
+antibody at 1/750.
+
+2.8. molecular modelling
+the postulated binding site of nsaid in cox-2 membrane binding domain (mbd) was studied from crystal
+structure of apo cox-2 (pdb entry 5cox [27]). docking at
+the active site was studied from holo cox-2 (pdb entry
+3pgh) complexed with  xxxd2141xxx , using the entire protein
+monomer.
+the initial docking was obtained using ligandfit
+(cerius2, accelrys). the active site grid was defined with
+reference to a manually docked probe consisting of cocrystallized ligand with sp3 carbon substitutes filling the
+free space around the ligand in the mbd. ligand fitting
+was performed with flexible ligand and 150,000 monte
+carlo trials, a nonbond cutoff distance of 12 å, and a
+distance-dependent dielectric constant (e = 4r).
+then the best scored conformation was energy-optimised using discover 3 software (insightii, accelrys).
+the backbone and side-chains of residues beyond 12 å
+of the docked ligand were tethered using a quadratic
+potential. a nonbond cell-multipole method was used with
+a distance-dependent dielectric constant (e = 4r), for 2000
+steps of a sd/cg (steepest descents/conjugate gradient)
+protocol until convergence within 0.001 kcal/mol/å.
+short molecular dynamics was performed to test the
+stability of this final complex. since the precise environment of the internal mbd at the interface between water
+and lipids was not known, molecular dynamics was performed in vacuo, with the same atoms as previously in
+frozen state. the integration time step was set to 1 fs, and
+calculations were performed at constant volume and temperature. a heating stage of 5 ps was used starting from 10
+to 300 k. once the system was equilibrated (150 ps), data
+were collected for a further 300 ps. cff force field was
+used for the entire protocol (accelrys).
+the trajectory was drawn to follow the motion of the
+ligand, showing distances between the two centroids of
+y355 phenyl ring and of the distal phenyl ring of kpf–glc
+(d1), between nh of r120 and the centroid of the proximal
+phenyl ring of kpf–glc (d2), between nz of k83 and
+carboxylate of kpf–glc (d3), and between the centroids of
+y115 phenyl ring and of the osidic ring of kpf–glc (d4).
+the docking of kpf conjugates in the cyclooxygenase
+active site was started using a manual superimposition of
+kpf with  xxxd2141xxx . the molecular structure was then
+optimised using 2000 steps of a sd/cg protocol as previously described, keeping the protein in frozen state.
+finally, the complex was minimized again in the same
+conditions, keeping only the backbone frozen.
+2.9. data analysis and modelling
+the inhibition of prostaglandin production by kpf and
+conjugates was calculated as the percentage of the decrease
+of activity in the same conditions. the inhibition expressed
+by the sigmoidal concentration-response curve was mod-
+
+n. levoin et al. / biochemical pharmacology 68 (2004) 1957–1969
+
+elled using the following equation mathematically analogous to the hill function:
+y¼
+
+ad
+½1 þ ðx=cþb  þ d
+
+where x and y represent the molar concentration of
+inhibitor and the percentage of inhibition, respectively;
+a, b, c and d are the equation parameters, as described by
+blain et al. [28]. fitting of the experimental data to the
+above model was carried out by minimisation of the
+objective function, defined as the sum of square deviations
+between predicted and experimental response. the best fit
+was obtained with a weight at 1/y. use of this equation also
+yields estimate for the ic50 values from the values of the
+parameters.
+
+3. results
+3.1. validation of the cellular system
+bpaec and lps-activated j774.2 cells were used for
+testing  xxxg1883xxx  and cox-2 activity, respectively, by the
+amount of 6kpgf1a and pge2 produced after the addition
+of 30 mm  xxxd208xxx . lps-treatment increased the production of pge2 from 13 5 ng/ml to 100 7 ng/ml
+(n = 6). the concentration of pge2 can therefore be
+considered representative of the cox-2 activity, since
+pge2 is the main eicosanoid produced through the
+cox-2 pathway [29].
+owing to the low lipophilicity of the metabolites, with
+calculated log p values at 0.6 and 2.4 for kpf–glc and
+kpf–coa, respectively, to be compared to 3.0 for kpf, we
+intended first to facilitate their intracellular diffusion by
+permeabilisation of the cell membranes. therefore, in
+preliminary experiments, intact cells and cells permeabilised by 0.02% saponine were compared. the amount of
+prostaglandins produced was increased by about 25% in
+saponine-treated cells. this increase is likely due to the
+intracellular production released by this treatment, as
+described by horton et al. [30]. however, the extent of
+inhibition was not affected by the presence of saponine,
+
+1961
+
+irrespective of the compound studied, namely s-kpf,
+glucuronide (s-kpf–glc) or acyl-coa (data not shown).
+since the metabolites were not hydrolysed even after a 2-h
+incubation at 37 8c, as confirmed by hplc assay of
+supernatants (data not shown), it was concluded that they
+were able to penetrate the intact cells and to inactivate
+intracellular coxs by themselves. in addition to passive
+diffusion, the occurrence of other transport mechanisms
+can be suggested for these compounds. besides, intact cells
+could be used in the following experiments.
+3.2. inhibition of cox activity in intact cells
+kpf and conjugates were assessed for their capacity
+to inhibit cox activity in bpaec and in activated j774.2
+cells, immediately after 30-min incubation. inhibition
+versus concentration curves were drawn (fig. 2) and
+corresponding ic50 were calculated (table 1).
+as expected, kpf inhibited both coxs stereoselectively
+in favour of the s-enantiomer, with r/s ic50 ratios at about
+240 for  xxxg1883xxx  and 15 for cox-2 (table 1). s-kpf–glc
+inhibited  xxxg1883xxx  and cox-2, with ic50 values at 2 and 1
+orders of magnitude higher than the parent drug, respectively, whereas its diastereoisomer was a poor inhibitor of
+ xxxg1883xxx  with nil effect on cox-2. both coxs were inhibited by kpf–coa (coa-1 and coa-2), with ic50 values
+comparable to that of s-kpf–glc. the non-acylating
+analogue nak inhibited  xxxg1883xxx  with the same potency
+as kpf–coa, but was a weak inhibitor of cox-2.
+after incubation with one of these compounds, the cells
+were washed thoroughly until their presence was not
+detected in the supernatant, and cox activity was determined again, for assessment of its recovery. the remaining
+inhibition was plotted versus the initial concentration of the
+compound (fig. 2), and allowed the ic50 value of recovery
+to be calculated (table 1).
+under these conditions, cox activity was totally restored
+in the case of kpf and nak in both cell lineages, expressing
+substantial reversible inhibition (fig. 2). in activated j774.2
+cells cox activity was also restored after incubation
+with s-kpf–glc, whereas activity was not recovered after
+kpf–coa, as indicated by the perfect superimposition of
+the curves of immediate and recovery inhibition. the cox
+
+table 1
+ic50 (m) values of cox activity by kpf and conjugates in bpaec (mainly  xxxg1883xxx ) and in stimulated j774.2 macrophages (mainly cox-2)
+compound
+
+ xxxg1883xxx 
+
+r-kpf
+s-kpf
+r-kpf–glc
+s-kpf–glc
+coa1
+coa2
+nak
+
+6.95
+2.88
+9.89
+1.89
+4.31
+8.37
+3.17
+
+cox-2
+
+immediate inhibition
+
+
+
+
+
+
+
+
+107
+109
+105
+107
+107
+108
+107
+
+recovery
+
+immediate inhibition
+
+recovery
+
+>103
+>103
+7.92  104
+4.58  105
+6.47  105
+1.4  105
+>103
+
+8.02  105
+5.46  106
+>103
+5.7  105
+7.09  105
+5.5  105
+5.02  103
+
+>103
+>103
+>103
+>103
+1.07  104
+1.08  104
+>103
+
+ xxxg1883xxx  and cox-2 were assessed in bpaec by assay of the production of 6kpgf1a, and in lps-stimulated j774.2 by pge2, respectively, immediately after
+30-min incubation with the compounds (immediate inhibition) and after washing-out (recovery). calculations were done with hill function.
+
+1962
+
+n. levoin et al. / biochemical pharmacology 68 (2004) 1957–1969
+
+activity in bpaec exhibited an intermediate behaviour.
+however, with ic50 values for recovery at about 100 times
+higher than for immediate inhibition, the inhibition can be
+supposed to be mainly reversible.
+
+ism, affecting both cox isoforms to a similar extent. on
+the contrary, the evolution of inhibition by s-kpf versus
+time was expressed by a plateau attained from the beginning of incubation, as expected from a reversible inhibitor.
+
+3.3. time-dependent inhibition of purified cox by
+kpf–coa
+
+3.4. acylation of cox by  xxxd2423xxx  conjugates
+
+use of isolated enzymes showed that kpf–coa was
+actually a direct cox inhibitor. this effect was not due to
+hydrolysis of kpf–coa, since no released kpf was
+detected in these conditions. the incubation of both coxs
+with kpf–coa led to an inactivation, increasing with time
+and concentration (fig. 3), as depicted for time-dependent
+or irreversible inhibitors. the activities of  xxxg1883xxx  and
+cox-2 were reduced by 30 and 20%, respectively, after
+2-min incubation with 50 mm kpf–coa, and by 55 and
+40% after 15 min. the effect of time was particularly
+important within the first 2 min, expressing a fast mechan-
+
+the incubation of purified cox enzymes with kpf–
+coa resulted in the formation of kpf-adducts, as revealed
+by western blotting with anti-kpf antibody (fig. 4). both
+isoforms were found to be subjected to this chemical
+modification. in the presence of  xxxd208xxx , the amount
+of adducts was decreased significantly for both coxs,
+suggesting that acylation occurs in the active site of the
+enzymes. adduct formation was also observed with kpf–
+glc, but not with kpf.
+we next investigated whether acylation occurred in the
+cells after incubation with kpf metabolites. therefore,
+ xxxg1883xxx  and cox-2 were selectively immunoprecipitated
+
+fig. 2. inhibition of cox activity by kpf and conjugates in bpaec (mainly  xxxg1883xxx ) (a) and in lps-stimulated j774.2 macrophages (mainly cox-2) (b).
+activity of  xxxg1883xxx  and cox-2 was assessed by the production of 6kpgf1a in bpaec, and of pge2 in lps-stimulated j774.2 cells, respectively, immediately
+after a 30-min incubation with the compounds (immediate inhibition, *, &) and after washing-out (recovery, *, &). inhibition was determined for r-kpf, rkpf–glc, kpf–coa-1, nak (*, *), and for s-kpf, s-kpf–glc, kpf–coa-2 (&, &); data are mean values of 3 and 4 experiments and were fitted by hill
+function (
+,
+).
+
+n. levoin et al. / biochemical pharmacology 68 (2004) 1957–1969
+
+1963
+
+fig. 2. (continued ).
+
+from incubated bpaec and j774.2 cells, respectively, and
+adducts were evaluated on western blot revealed with antikpf antibody (fig. 5). adduct formation was observed for
+cox-2 in j774.2 cells with the two metabolites, and was
+more significant with kpf–coa than with the glucuronide.
+on the contrary, no adduct was detected with  xxxg1883xxx  from
+bpaec, whereas the presence of the protein was confirmed by a further incubation of the membrane with an
+anti- xxxg1883xxx  antibody.
+
+4. discussion
+the contribution of metabolites to the pharmacological
+activity of drugs has been considered either as beneficial as
+for morphine glucuronide [31], or conversely as responsible for side-effects [32]. we report here that kpf conjugates with glucuronide and with  xxxd1739xxx  are potent
+inhibitors of cox, although with a differential behaviour
+towards the cox isoforms.
+in bpaec,  xxxg1883xxx  was inhibited by kpf–glc. the
+well-known enantioselectivity of the parent molecule for
+
+ xxxg1883xxx  was even enhanced by the osidic moiety, the r/s
+ic50 ratio increasing from 240 to 520 (table 1). kpf–
+coa was a more potent inhibitor than the other metabolite, but exhibited no difference between the two enantiomers. using ibuprofenyl-coa, neupert et al. [18] have
+also reported this loss of stereoselectivity: the r/s ic50
+ratio was 10 and 0.5 for ibuprofenyl-coa on  xxxg1883xxx  and
+cox-2, respectively, instead of 16 and over 250 for
+ibuprofen. this could be explained by intracellular inversion of the configuration due to epimerase activity, leading to a unique enantiomer. however, no epimerisation in
+the culture medium was observed as far as kpf–coa or
+kpf was concerned.
+after washing-out the metabolites from the bpaec
+medium,  xxxg1883xxx  activity was recovered to a large extent,
+expressing the inhibition as essentially reversible. accordingly, after selective immunoprecipitation of cox isoenzymes and western blot analysis with an anti-kpf
+antibody, no adduct of kpf was found. paradoxically,
+the inactivation of purified  xxxg1883xxx  enzyme by kpf–
+coa was time-dependent and corresponded to the covalent
+binding of kpf, as revealed by western blot. this dis-
+
+1964
+
+n. levoin et al. / biochemical pharmacology 68 (2004) 1957–1969
+
+fig. 3. kinetics of inhibition of purified coxs by kpf and kpf–coa. enzymatic activity was measured by  xxxd1902xxx  production after pre-incubation of cox
+with kpf  xxxd2274xxx   108 m (*), or kpf–coa at 5  105 m (&), 5  106 m (&), or 5  107 m (), then adding 30 mm  xxxd208xxx .
+
+crepancy may be explained by (i) a difference in protein
+behaviour between cells and purified enzyme, due to
+purification and/or to an unidentified role of the cell
+membrane in the function of the enzyme, as previously
+observed [33], or by (ii) a low solubilisation yield of  xxxg1883xxx , whose concentation can be sufficient for detecting the
+protein by using an anti- xxxg1883xxx  antibody, but probably too
+low for detecting kpf adducts using an anti-kpf antibody.
+cox-2 activity in j774.2 cells was inhibited by both
+kpf–coa conjugates, and stereospecifically by s-kpf–
+glc, its antipode having no effect. cox-2 activity was
+totally restored after elimination of the glucuronide. on the
+contrary, no catalytic capacity was recovered in the case of
+kpf–coa. the curve of the inhibition extent with the
+initial product concentration is even perfectly superimposable with that determined for immediate inhibition. this
+
+expresses the fact that for a given metabolite concentration,
+cox-2 remained inactivate after its elimination as much as
+in its initial presence. this conserved inhibition is thus
+different from that of time-dependent inhibitors, such as
+indomethacin, a reversible inhibitor, which dissociates
+slowly from cox but losses 25% of its inhibition capacity
+in similar conditions [24]. western blot data demonstrate
+unambiguously that kpf–coa is irreversibly bound to
+cox-2, and competition experiments with  xxxd208xxx ,
+the natural substrate of cox, suggest that cox acylation
+occurs in the active site. it can therefore be proposed that
+kpf–coa inhibits cox-2 activity via covalent modification of the enzyme. this hypothesis is further supported by
+the complete recovery after incubation with nak, the nonacylating analogue of kpf–coa, in which the reactive
+thioester function is replaced by a thiomethylene keto
+
+n. levoin et al. / biochemical pharmacology 68 (2004) 1957–1969
+
+1965
+
+fig. 4. kpf-acylation of purified coxs by kpf metabolites.  xxxg1883xxx  and cox-2 (6  1011 mol) were incubated for 1 h with kpf, kpf–coa, or kpf–glc (2
+ 1010 mol).  xxxd208xxx , aa (5  1010 mol), was added 5 min before kpf–coa. western blot was analysed using anti-kpf antibody.
+
+group, and by the time-dependent inhibition observed for
+the purified enzyme.
+kpf–glc was also covalently bound to cox-2, both in
+cells and to isolated enzyme. however, this binding had no
+effect on enzyme activity after wash-out, contrary to kpf–
+coa. it can then be supposed that kpf binding occurs in
+domain of the protein different from the catalytic site.
+molecular modelling was then used to facilitate interpretation of the above results. kpf–glc and kpf–coa
+were thus found to bind to the cyclooxygenase active site
+quite in a similar manner to kpf, their respective ester and
+thioester functions interacting with the triad r120, e524,
+y355. the modelled complex clearly argues in favour of
+y355 as the nucleophilic amino-acid responsible for cox
+acylation, since its distance to the thioester of kpf–coa
+and to the ester of kpf–glc is at 3.7 å (fig. 6), and 4.4 å
+(data not shown), respectively. interestingly, y355 was
+
+fig. 5. immunoprecipitation of cox from cells treated with kpf metabolites. bpaec and j774.2 were incubated 2 h with kpf metabolites before
+immunoprecipitation of  xxxg1883xxx  and cox-2, respectively. proteins were
+then analysed using anti-kpf (a) or anti- xxxg1883xxx  antibody (b). 0: control; 1,
+5: kpf–coa 103 m; 2, 6: kpf–coa 104 m; 3, 7: kpf–glc 103 m and
+4, 8: kpf–glc 104 m.
+
+previously shown to potentially participate in the timedependent inhibition through interaction with the substrate
+and the inhibitor [34] and to play a significant role in  xxxg1454xxx   xxxg1884xxx  stereoselectivity towards chiral nsaids [35].
+both metabolites can bind to the active site, their
+reactive function interacting with y355. but as suggested
+by llorens et al. [36], they should interact with the
+membrane binding domain (mbd) prior to entering the
+active site. analysis of the crystal structure revealed a
+hydrophobic cluster in this domain in the vicinity of w100,
+v103, and i102, which we identified by molecular docking
+to constitute a speculative binding site for kpf, as previously shown for  xxxd2141xxx  [36]. the hydrophilic moiety of kpf metabolites does not inhibit this proposed
+fixation, even though slightly affecting the binding mode
+of the benzophenone. the kpf moiety of the molecule is in
+the proximity of v116, v349, l359, f357, y355, i112 and
+v89, while, for glucuronide, the osidic part is in a more
+polar environment, with a salt bridge between the carboxylic function and k83 (fig. 7). molecular dynamics
+was used to test the stability of the complex by following
+the possible motion of the ligand. as shown in fig. 8, the
+key distances of its trajectory were constant during the
+300 ps simulation. this supports the hypothesis of a strong
+interaction between kpg-glc and the site, with p-stacking
+for d1, cation-p for d2 and salt bridge for d3. as far as
+adducts are concerned, the only postulated residue is y115,
+which is in compatible orientation and distance (4 å) from
+the ester function of the glucuronide, as shown in fig. 8.
+here, kpf–glc could adopt a fixed and packed conformation allowing the interaction between the ester and
+y115, then leading to a possible acylation of the residue.
+molecular dynamics performed with kpf-acylated y115
+resulted in fast reorientation of kpf outside the site, and
+
+1966
+
+n. levoin et al. / biochemical pharmacology 68 (2004) 1957–1969
+
+fig. 6. proposed complex of kpf–coa with cox-2 active site view from the membrane binding domain: detail showing the close contact between y355 and
+kpf–coa (distance between oh of y355 and thioester group of kpf–coa: 3.7 å). stereoimage prepared with rasmol.
+
+the alignment with the lipophilic helix of the mbd. therefore, fig. 9 suggests that the chemical modification of
+y115 does not hinder access to the active site, and that
+cox-2 would be chemically modified but only reversibly
+inhibited by kpf–glc.
+
+the same study was done for kpf–coa. however, in
+this case, the long hydrophilic chain may adopt a number of
+conformations: packed in the mbd, unfolded in the medium, or interacting with polar residues outside the core of
+this domain. due to this high mobility allowing numerous
+
+fig. 7. proposed complex of kpf–glc with cox-2 membrane binding domain binding site (distance between oh of y115 and ester group of kpf–glc: 3.5 å).
+
+n. levoin et al. / biochemical pharmacology 68 (2004) 1957–1969
+
+1967
+
+fig. 8. distances of key contact points between cox-2 and kpf–glc during md. details for definition of distances are given in m and m.
+
+different structures, attempts were made in orienting manually the coa moiety towards polar residues. multiple
+conformers appeared with comparable probability, and
+made it difficult to conclude on a precise binding mode.
+the very flexible packing in the mbd does not allow a
+strong interaction with y115, as required for chemical
+reactions. kpf–coa will then be able to join the active site
+
+and to acylate y355, leading thus to the irreversible
+inhibition of activity by obstruction of the site.
+taken together, these experiments with intact cells
+have shown the glucuronide of kpf to be a reversible
+inhibitor of both coxs, whereas inhibition by coa
+thioester was either reversible for  xxxg1883xxx , or irreversible
+for cox-2. docking experiments actually provided a
+
+fig. 9. proposed structure for acylated cox-2 by kpf–glc. side-chains of hydrophobic residues are in yellow. the triad r120, e524, y355 of the entrance of
+the site is shown in black and kpf covalently bound to y115 in blue.
+
+1968
+
+n. levoin et al. / biochemical pharmacology 68 (2004) 1957–1969
+
+molecular explanation for the interaction of kpf metabolites with cox-2. nevertheless, further studies will be
+necessary to characterise the exact protein domain of
+covalent binding. peptide mapping and site-directed mutagenesis are in progress to define the amino acids involved
+in this mechanism.
+with respect to glucuronides, inhibition of enzyme
+activity was only described for ugt [9] after acylation
+of the protein. until now, their reactivity was mainly
+considered to be responsible for immuno-allergic sideeffects. these phase ii metabolites are hydrophilic conjugates, so their physico-chemical properties may be ratecontrolling for their penetration into the cells, contrary to
+the parent drug, which penetrates the cells mainly by
+passive diffusion. in this study, the effect of glucuronide
+was almost the same using either intact or permeabilised
+cells, and let us suppose them able to diffuse through the
+plasma membrane of cells in target tissues after plasma
+transport. this study provides then the first example of
+their contribution to pharmacological effects of drugs.
+therefore, glucuronide may explain interindividual differences in nsaid response, through variations in ugt
+activity [37].
+acyl-coas do not seem to exist outside of cells, so their
+inhibition effect is to be limited to inside the cells, where
+they are formed. however, acyl-coa synthetases are
+expressed in various types of cells, and particularly in
+the cells expressing also coxs. inhibition of cox activity
+was previously observed for coa thioesters of ibuprofen
+[18], of salicylate in macrophages [38], and also of fatty
+acids in microsomes [39], but the mechanism was not
+elucidated. the present work demonstrates that kpf–
+coa is a selective irreversible inhibitor of cox-2 and
+that its acylation is responsible for durable inhibition.
+interestingly, conversion of nsaids into ester and amide
+derivatives generates highly selective cox-2 inhibitors,
+for which interaction was shown with y355 [40].
+to conclude, this study suggests a novel mode of action
+of nsaids with active metabolites. they are probably
+more cox-2 selective than estimated previously from the
+parent drug, due to the selective acylation of the enzyme by
+their coa metabolite.
+
+acknowledgements
+
+‘‘sur l’onde calme et noire où dorment les étoiles . . .’’.
+this paper is dedicated to céline, who left us so precociously by a sombre spring morning.
+this work was supported by the association de
+recherche sur la polyarthrite rhumatoı̈de (arp), paris,
+the centre hospitalier régional universitaire de nancy
+(cprc grant), the centre national de la recherche scientifique (cnrs) and the ministère de l’education nationale, de la recherche et de la technologie (thesis grant
+of nl).
+
+references
+[1] parente l, perretti m. advances in the pathophysiology of constitutive
+and inducible cyclooxygenases: two enzymes in the spotlight. biochem pharmacol 2003;65:153–9.
+[2] cooper sa, reynolds dc, reynolds b, hersh ev. analgesic efficacy
+and safety of (r)- xxxd2423xxx  in postoperative dental pain. j clin
+pharmacol 1998;38:11s–8s.
+[3] kasuya f, igarashi k, fukui m. participation of a medium chain acylcoa synthetase in glycine conjugation of the  xxxd306xxx  derivatives
+with the electron-donating groups. biochem pharmacol 1996;51:
+805–9.
+[4] sallustio bc, meffin pj, knights km. the stereospecific incorporation
+of fenoprofen into rat hepatocyte and adipocyte triacylglycerols.
+biochem pharmacol 1988;37:1919–23.
+[5] mcgurk ka, remmel rp, hosagrahara vp, tosh d, burchell b.
+reactivity of  xxxd2556xxx  1-o-acyl glucuronide with proteins in
+vitro and ex vivo. drug metab dispos 1996;24:842–9.
+[6] dubois n, lapicque f, maurice mh, pritchard m, fournel-gigleux s,
+magdalou j, et al. in vitro irreversible binding of  xxxd2423xxx  glucuronide to plasma proteins. drug metab dispos 1993;21:617–23.
+[7] dubois-presle n, lapicque f, maurice mh, fournel-gigleux s,
+magdalou j, abiteboul m, et al. stereoselective esterase activity
+of human  xxxg124xxx  toward  xxxd2423xxx  glucuronide. mol pharmacol 1995;47:647–53.
+[8] wang m, dickinson rg. disposition and covalent binding of  xxxd1882xxx  and  xxxd1882xxx  acyl glucuronide in the isolated perfused rat liver.
+drug metab dispos 1998;26:98–104.
+[9] terrier n, benoit e, senay c, lapicque f, radominska-pandya a,
+magdalou j, et al. human and rat liver udp-glucuronosyltransferases
+are targets of  xxxd2423xxx  acylglucuronide. mol pharmacol 1999;56:
+226–34.
+[10] ford da, horner cc, gross rw. protein kinase c acylation by
+ xxxd2832xxx - xxxd1739xxx  facilitates its translocation to membranes.
+biochemistry 1998;37:11953–61.
+[11] raman n, dirusso cc. analysis of acyl- xxxd1739xxx  binding to the
+transcription factor fadr and identification of amino acid residues in
+the carboxyl terminus required for ligand binding. j biol chem 1995;
+270:1092–7.
+[12] hertz r, magenheim j, berman i, bar-tana j. fatty acyl-coa
+thioesters are ligands of hepatic nuclear factor-4alpha. nature
+1998;392:512–6.
+[13] yamashita a, watanabe m, tonegawa t, sugiura t, waku k. acylcoa binding and acylation of udp-glucuronosyltransferase isoforms
+of rat liver: their effect on enzyme activity. biochem j 1995;312:
+301–8.
+[14] faergeman nj, knudsen j. role of long-chain fatty acyl-coa esters in
+the regulation of metabolism and in cell signalling. biochem j
+1997;323:1–12.
+[15] kemal c, casida je.  xxxd1739xxx  esters of 2-aryloxyphenoxypropionate herbicides and 2-arylpropionate antiinflammatory drugs are
+potent and stereoselective inhibitors of rat liver acetyl-coa carboxylase. life sci 1992;50:533–40.
+[16] kiorpes tc, hoerr d, ho w, weaner le, inman mg, tutwiler gf.
+identification of 2-tetradecylglycidyl- xxxd1739xxx  as the active form
+of methyl 2-tetradecylglycidate (methyl palmoxirate) and its characterization as an irreversible, active site-directed inhibitor of carnitine
+palmitoyltransferase a in isolated rat liver mitochondria. j biol chem
+1984;259:9750–5.
+[17] silva c, loyola g, valenzuela r, garcı́a-huidobro t, monasterio o,
+bronfman m. high-affinity binding of fatty acyl-coas and peroxisome proliferator-coa esters to glutathione s-transferases. effect on
+enzymatic activity. eur j biochem 1999;266:143–50.
+[18] neupert w, brugger r, euchenhofer c, brune k, geisslinger g.
+effects of ibuprofen and its  xxxd1739xxx  thioesters on human prostaglandin endoperoxide synthases. br j pharmacol 1997;122:487–92.
+
+n. levoin et al. / biochemical pharmacology 68 (2004) 1957–1969
+[19] sallustio bc, nunthasomboon s, drogemuller cj, knights km. in
+vitro covalent binding of nafenopin-coa to human liver proteins.
+toxicol appl pharmacol 2000;163:176–82.
+[20] olsen j, bjørnsdottir i, tjørnelund j, hansen sh. chemical reactivity
+of the naproxen acyl glucuronide and the naproxen  xxxd1739xxx 
+thioester towards bionucleophiles. j pharm biomed anal 2002;29:
+7–15.
+[21] chakir s, maurice mh, magdalou j, leroy. dubois n, lapicque f, et
+al. high-performance liquid chromatographic enantioselective assay
+for the measurement of  xxxd2423xxx  glucuronidation by liver microsomes. j chromatogr 1994;654:61–8.
+[22] levoin n, chrétien f, lapicque f, chapleur y. synthesis and biological testing of acyl-coa- xxxd2423xxx  conjugates as selective irreversible inhibitors of cox-2. bioorg med chem 2002;10:753–7.
+[23] mitchell ja, akarasereenont p, thiemermann c, flower rj, vane jr.
+selectivity of nonsteroidal antiinflammatory drugs as inhibitors of
+constitutive and inducible cyclooxygenase. proc natl acad sci usa
+1993;90:11693–7.
+[24] laneuville o, breuer dk, dewitt dl, hla t, funk cd, smith wl.
+differential inhibition of human prostaglandin endoperoxide h
+synthases-1 and -2 by nonsteroidal anti-inflammatory drugs. j pharmacol exp ther 1994;271:927–34.
+[25] janusz jm, young pa, ridgeway jm, scherz mw, enzweiler k, wu
+li, et al. new  xxxg1884xxx / xxxg147xxx  inhibitors. 1.7-tertbutyl-2,3-dihydro-3,3-dimethylbenzofuran derivatives as gastrointestinal safe antiinflammatory and analgesic agents: discovery and
+variation of the 5-keto substituent. j med chem 1998;41:1112–23.
+[26] maire-gauthier r, buronfosse t, magdalou j, herber r, besse s,
+delatour p, et al. species-dependent enantioselective glucuronidation
+of  xxxd446xxx . xenobiotica 1998;28:595–604.
+[27] kurumbail rg, stevens am, gierse jk, mcdonald jj, stegeman ra,
+pak jy,
+et al. structural basis for selective inhibition of
+ xxxg1884xxx  by anti-inflammatory agents. nature 1996;384:
+644–8.
+[28] blain h, boileau c, lapicque f, nedelec e, loeuille d, guillaume c,
+et al. limitation of the in vitro whole blood assay for predicting the
+cox selectivity of nsaids in clinical use. br j clin pharmacol
+2002;53:255–65.
+[29] brock tg, mcnish rw, peters-golden m.  xxxd208xxx  is preferentially metabolized by  xxxg1884xxx  to prostacyclin and
+ xxxd1903xxx . j biol chem 1999;274:11660–6.
+
+1969
+
+[30] horton jk, williams as, smith-phillips z, martin rc, o’beirne g.
+intracellular measurement of  xxxd1903xxx : effect of anti-inflammatory drugs on cyclooxygenase activity and prostanoid expression.
+anal biochem 1999;271:18–28.
+[31] paul d, standifer km, inturrisi ce, pasternak gw. pharmacological
+characterization of morphine-6 beta-glucuronide, a very potent morphine metabolite. j pharmacol exp ther 1989;251:477–83.
+[32] wieland e, shipkova m, schellhaas u, schütz e, niedmann pd,
+armstrong vw, et al. induction of cytokine release by the acyl
+glucuronide of  xxxd2678xxx : a link to side-effects? clin biochem 2000;33:81–159.
+[33] eling te, glasgow wc, curtis jf, hubbard wc, handler ja. studies
+on the reduction of endogenously generated prostaglandin g2 by
+prostaglandin h synthase. j biol chem 1991;266:12348–55.
+[34] so oy, scarafia le, mak ay, callan oh, swinney dc. the dynamics
+of prostaglandin h synthases. studies with prostaglandin h synthase 2
+y355f unmask mechanisms of time-dependent inhibition and allosteric activation. j biol chem 1998;273:5801–7.
+[35] bhattacharyya dk, lecomte m, rieke cj, garavito rm, smith wl.
+involvement of arginine 120, glutamate 524, and tyrosine 355 in the
+binding of  xxxd208xxx  and 2-phenylpropionic acid inhibitors to the
+cyclooxygenase active site of ovine prostaglandin endoperoxide h
+synthase-1. j biol chem 1996;271:2179–84.
+[36] llorens o, perez jj, palomer a, mauleon d. structural basis of the
+dynamic mechanism of ligand binding to cyclooxygenase. bioorg
+med chem lett 1999;9:2779–84.
+[37] strassburg cp, kneip s, topp j, obermayer-straub p, barut a, tukey
+rh, et al. polymorphic gene regulation and interindividual variation
+of udp-glucuronosyltransferase activity in human small intestine. j
+biol chem 2000;275:36164–71.
+[38] hinz b, kraus v, pahl a, brune k. salicylate metabolites inhibit
+ xxxg1884xxx -dependent  xxxd1903xxx  synthesis in murine
+macrophages. biochem biophys res commun 2000;274:197–202.
+[39] fujimoto y, nakajima t, murakami y, takami k, sakuma s, fujita t.
+effect of fatty acyl- xxxd1739xxx  esters on prostaglandin synthesis in
+rabbit medulla microsomes. prostaglandins leukot essent  xxxd2154xxx 
+1992;47:265–8.
+[40] kalgutkar as, marnett ab, crews bc, remmel rp, marnett lj. ester
+and amide derivatives of the nonsteroidal anti-inflammatory drug,
+indomethacin, as selective  xxxg1884xxx  inhibitors. j med chem
+2000;43:2860–70.
+

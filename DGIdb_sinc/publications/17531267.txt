@@ -1,0 +1,1909 @@
+doi:10.1016/j.jmb.2007.04.031
+
+j. mol. biol. (2007) 370, 512–529
+
+crystal structures of a poplar thioredoxin peroxidase
+that exhibits the structure of glutathione peroxidases:
+insights into redox-driven conformational changes
+cha san koh 1 , claude didierjean 1 ⁎, nicolas navrot 2 , santosh panjikar 3
+guillermo mulliert 1 , nicolas rouhier 2 , jean-pierre jacquot 2
+andré aubry 4 , omar shawkataly 5 and catherine corbier 6 ⁎
+1
+
+lcm3b, equipe
+biocristallographie, umr 7036
+cnrs-uhp, faculté des
+sciences et techniques, nancy
+université, bp 239, 54506
+vandoeuvre-lès-nancy, france
+2
+
+unité mixte de recherche
+inra-uhp 1136, interactions
+arbres/micro-organismes,
+ifr 110 geef, faculté des
+sciences et techniques,
+nancy université, bp 239,
+54506 vandoeuvre-lès-nancy,
+france
+3
+embl hamburg outstation
+c/o desy, notkestr,
+85 d-22603 hamburg,
+germany
+
+glutathione peroxidases (gpxs) are a group of enzymes that regulate the
+levels of reactive oxygen species in cells and tissues, and protect them
+against oxidative damage. contrary to most of their counterparts in animal
+cells, the higher plant gpx homologues identified so far possess cysteine
+instead of selenocysteine in their active site. interestingly, the plant gpxs
+are not dependent on glutathione but rather on thioredoxin as their in vitro
+electron donor. we have determined the crystal structures of the reduced
+and oxidized form of populus trichocarpa × deltoides  xxxg947xxx  (ptgpx5), using a
+ xxxd3187xxx  derivative. ptgpx5 exhibits an overall structure similar to
+that of the known animal gpxs. ptgpx5 crystallized in the assumed
+physiological dimeric form, displaying a pseudo ten-stranded beta sheet core.
+comparison of both redox structures indicates that a drastic conformational
+change is necessary to bring the two distant cysteine residues together to
+form an intramolecular disulfide bond. in addition, a computer model of a
+complex of ptgpx5 and its in vitro recycling partner thioredoxin h1 is
+proposed on the basis of the crystal packing of the oxidized form enzyme. a
+possible role of ptgpx5 as a heavy-metal sink is also discussed.
+© 2007 elsevier ltd. all rights reserved.
+
+4
+
+laboratoire de chimie physique
+macromoléculaire,
+umr cnrs-inpl,
+1,rue grandville, bp 451,
+54001 nancy, france
+5
+
+chemical sciences programme,
+school of distance education,
+universiti sains malaysia,
+minden, 11800, usm, penang,
+malaysia
+6
+
+urafpa, equipe pb2p,
+faculté des sciences et
+techniques, nancy université,
+bp 239, 54506
+vandoeuvre-lès-nancy, france
+*corresponding authors
+
+keywords: glutathione peroxidase; x-ray structure; thioredoxin peroxidase;
+redox state; molecular dynamics
+
+abbreviations used: ros, reactive oxygen species; gsh,  xxxd2213xxx ; prx, peroxiredoxin; gpx, glutathione
+peroxidase; mad, multiple anomalous dispersion.
+e-mail addresses of the corresponding authors: claude.didierjean@lcm3b.uhp-nancy.fr;
+catherine.corbier@scbiol.uhp-nancy.fr
+0022-2836/$ - see front matter © 2007 elsevier ltd. all rights reserved.
+
+gpx-type thioredoxin peroxidase
+
+introduction
+in aerobic organisms, reactive oxygen species (ros)
+such as superoxide radicals, hydroxyl radicals or  xxxd2298xxx  are generated during the incomplete
+reduction of molecular oxygen to water,1 following
+exposure to environmental factors2 or during several
+metabolic processes (e.g. photosynthesis, respiration).3 the accumulation of ros can give rise to oxidative stress and lead to cell damage, mutation, or
+even death. the ros challenge to land plants is made
+difficult because they are immobile in a constantly
+changing environment and, besides consuming o2
+during respiration, they also generate it during photosynthesis.4 plants have developed several nonenzymatic and enzymatic systems to withstand the
+oxidative damage caused by these ros. while the
+major non-enzymatic antioxidant compounds include carotenoids, tocopherols,  xxxd2213xxx 
+(gsh) and ascorbate,5 the enzymatic systems rely on
+superoxide dismutases, catalases, ascorbate peroxidases, peroxiredoxins (prxs) and glutathione peroxidases (gpxs). in mammals, gpxs that form a group
+of enzymes with an important role in protecting cells
+against ros, using gsh as the reducing substrate,
+have been studied extensively.6 in plants, different
+isoforms of gpx are found to be expressed in various
+subcellular compartments. recently, one of these
+gpxs was proposed to play a role in signal transduction during stress conditions.7,8 saccharomyces cerevisiae possesses three plant-type gpxs,  xxxg945xxx  functioning as a redox sensor involved in gene activation.9
+typical plant enzymes display sequences similar to
+those of animal gpx enzymes, except that the secys
+in the catalytic site of most animal gpx is replaced by
+cys in plant gpx, which in general show reduced
+catalytic efficiency.10–15 interestingly, recent studies
+have demonstrated that some plants10,11,16 and
+yeast17 gpxs can reduce peroxides, much more efficiently or sometimes exclusively, using trx instead
+of gsh as an electron donor. in the unicellular parasite plasmodium falciparum, a gpx-like protein closely
+related to plant gpxs is also specific for trx as a
+reductant.18 most animal gpxs catalyse the reduction
+of  xxxd2298xxx  by consuming two gsh molecules to reduce the oxidized form of secys (selenenic
+acid) that is generated upon catalysis (h2o2 +
+2gsh → gs-sg + 2h2o).19–22 on the contrary, plant
+gpxs possess a second cys residue to complete the
+reduction of ros.10 navrot et al. (2006) have recently
+proposed a three-step reaction mechanism for plant
+gpxs similar to that used by peroxiredoxin q (prx
+q),10,23 with two cys forming an intramolecular disulfide bridge in the oxidized state. these steps are: (i)
+a nucleophilic attack of the peroxidatic cysteine
+(cys107, numbering in ptgpx3.210) on the peroxide
+with the release of an alcohol and the concomitant
+formation of a sulfenic acid; (ii) an attack of the
+sulfenic acid by the resolving cys (cys155, numbering in ptgpx3.210) and formation of an intramolecular disulfide bridge between cys107 and cys155;
+and (iii) a reduction of the disulfide bridge by trx.10
+plant gpxs have low substrate specificity, being
+
+513
+capable to reduce a wide spectrum of peroxides,
+including more complex hydroperoxides.10 on the
+basis of biochemical evidence, rather than on phylogenetic classification, rouhier and jacquot (2005) suggested that plant gpxs should be included in the large
+thioredoxin-dependent peroxidase family, also
+known as prxs and constitute a fifth group of this
+family.23 the levels of sequence identity between
+gpxs and prxs are relatively low23 (ranging from 1%
+with cytosolic peroxiredoxin type iib to 16% with the
+prx q; see rouhier and jacquot23 for the nomenclature of peroxiredoxin).
+to date, there are six gpx crystal structures available, all of them from mammals. these crystal structures include one bovine  xxxg943xxx  (pdb code 1gp1)24
+structure and five human gpx structures ( xxxg943xxx ,
+pdb code 2f8a;  xxxg944xxx , pdb code 2he3;  xxxg945xxx , from
+professor rudolf ladenstein;25  xxxg946xxx , pdb code
+2gs3 and  xxxg947xxx , pdb code 2iy3). these gpxs are
+homotetrameric enzymes, except that human  xxxg946xxx 
+(an isoform that specifically detoxifies phospholipid
+hydroperoxides) is reported as a monomeric enzyme.
+depending on the active site amino acid, these enzymes are generally classified into two groups: one
+contains secys at its active center (at least four out of
+five isozymes belong to selenium-containing gpx in
+mammals), the other contains a regular cysteine (the
+mammalian epididymis-specific isoform,  xxxg947xxx ).26
+the non-selenium type  xxxg947xxx  is speculated to serve
+as the backup enzyme for the selenium-containing
+gpx to counteract ros-mediated damage of sperm
+cells, since selenium deficiency causes male infertility
+and selenium-containing gpx is suspected to be a
+candidate for the defective molecule.26,27 the activity
+of selenium-independent gpx is low and, hence, its
+contribution as a gsh-dependent peroxide scavenger
+is ambiguous.27 nevertheless, the overall structures
+of all mammal gpx monomers are similar, except that
+the environment around their active site catalytic
+residues is quite different.19,24,25
+black cottonwood (poplar) has been chosen as the
+model plant in this study. very recently, an exhaustive overview was done on poplar gpxs and the
+annotation of the first release of the poplar genome
+indicates the presence of six complete gpx genes.10
+in this study, we describe the crystal structures of the
+ xxxg947xxx  of populus trichocarpa × deltoides (ptgpx5) in its
+oxidized (optgpx5) and reduced (rptgpx5) states,
+revealing that ptgpx5 is a gpx-type thioredoxindependent peroxidase with an unique dimerization
+pattern mainly depending on hydrophobic contacts.
+the differences between the structures are discussed,
+with emphasis on the transition between the oxidized and the reduced forms, and on the formation
+of dimers†.
+
+† the peroxidatic cys44 and the resolving cys92 in this
+study correspond to cys107 and cys155 of poplar  xxxg945xxx 
+(ptgpx3.2) in the previous study.10 the denomination of
+plant gpxs does not correspond to the denomination of
+mammalian gpxs, for example, ptgpx5 in current study
+does not correspond to the human epididymis  xxxg947xxx .
+
+514
+
+gpx-type thioredoxin peroxidase
+
+results
+quality of the model
+ptgpx5 is a 170 residue protein with a monomeric
+molecular mass of 19.36 kda and exists as a dimer in
+solution. 10 the reduced form of the enzyme
+(rptgpx5) was crystallized as two dimers (dimer 1,
+subunits a and b; dimer 2, subunits c and d) in the
+asymmetric unit and this structure was solved from
+rhombohedric selenium-substituted protein crystal
+dataset (2.7 å) using the single wavelength anomalous diffraction method. the structure was completed using the high-resolution data (1.95 å)
+collected from the native rptgpx5. the final model
+of rptgpx5 structure, with r and rfree factors of
+17.85% and 20.04%, respectively, contains 160 or 161
+amino acid residues corresponding to residues from
+glu10 to ile169 in monomers b, c, and d and from
+glu10 to ser170 in monomer a. the overall structure
+
+is well defined in the electron density map except for
+the missing portions mentioned above. very few
+residues have poorly defined side-chains and they
+are usually located in flexible loops on the protein
+surface. in addition, there are 32 cadmium atoms,
+eight acetate anions and 668 water molecules found
+in the asymmetric unit of the reduced form crystal.
+the rms overlaps of all the subunits fall in the range
+from 0.15 å–0.33 å based on alignments of calpha
+positions, thus suggesting that all subunits are
+equivalent. the most ordered with well-defined
+electron density subunit, as indicated by the average
+b-value (table 1), is subunit a that participates most
+highly in the subunit–subunit interactions. hence,
+unless indicated otherwise, our discussion will focus
+on this subunit.
+the oxidized form of the enzyme (optgpx5) was
+crystallized as a dimer in the asymmetric unit. the
+final model of optgpx5 contains residues from ser6
+to ile169 in each subunit with an r-value of 21.08%
+(rfree = 28.03%) at 2.45 å resolution. compared to
+
+table 1. data collection, phasing and refinement statistics for the [semet] rptgpx5, the wild-type native rptgpx5 and the
+wild-type native optgpx5 crystals
+data set
+a. data collection and processing statistics
+data collection site
+wavelength (å)
+space group
+unit cell dimensions
+a (å)
+b (å)
+c (å)
+content of asymmetric subunit
+resolution range (å)a
+redundancy
+completeness (%)
+i/sigma (i)a
+rmergea,b
+figure of merit (mlphare/dm)
+b. refinement statistics
+resolution range (å)
+reflections used
+rcrystc
+rfreed
+number of atoms
+(protein/water/cd2+/ca2+/acetate ions)
+average b-value for individual chain (å2)
+mean b-factor
+main chain (å2)
+side-chain (å2)
+water (å2)
+all (å2)
+rms deviation from ideal geometry
+bond lengths (å)
+bond angles (°)
+dihedral angles (°)
+improper angles (°)
+ramachandran plot
+in most favored regions (%)
+in additionally allowed regions (%)
+in generously allowed regions (%)
+a
+b
+c
+d
+
+[semet] reduced (peak)
+
+reduced native
+
+oxidized native
+
+bm30a esrf-grenoble
+0.98004
+r3
+
+x11 desy-hamburg
+0.81560
+r3
+
+bm30a esrf-grenoble
+0.80630
+p3121
+
+222.19
+222.19
+48.36
+four subunits
+50.00–2.70 (2.85–2.70)
+6.50 (6.50)
+100.0 (100.0)
+21.30 (7.70)
+0.079 (0.300)
+0.342/0.665
+
+221.67
+221.67
+48.14
+four subunits
+50.00–1.95 (2.02–1.95)
+5.04 (4.52)
+99.8 (99.0)
+11.48 (2.20)
+0.066 (0.409)
+
+71.58
+71.58
+117.82
+two subunits
+50.00–2.45 (2.49–2.45)
+7.60 (7.79)
+99.8 (100.0)
+17.24 (2.91)
+0.062 (0.335)
+
+30.00–2.00
+59452
+17.85
+20.04
+
+50.00–2.45
+12907
+21.08
+28.03
+
+5187/668/32/0/8
+16.32/25.41/21.08/29.68
+(subunit a/b/c/d)
+
+2650/224/0/5/0
+39.15/53.58
+(subunit a/b)
+
+22.10
+24.12
+33.19
+24.40
+
+46.24
+46.49
+42.08
+46.07
+
+0.005
+1.3
+22.9
+0.67
+
+0.006
+1.3
+23.9
+0.72
+
+90.5
+9.3
+0.2
+
+81.4
+16.2
+2.4
+
+the values in parentheses are for the highest resolution bin.
+rmerge = ∑i|ii–bin|/∑|bin|, where i is the intensity for the ith measurement of an equivalent reflection with the indices h, k, l.
+rcryst = ∑|fo–fc|/∑fo, where fo and fc are the observed and calculated structure factor amplitudes, respectively.
+the rfree value was calculated from 10% of all data that were not used in the refinement.
+
+gpx-type thioredoxin peroxidase
+
+the structure of the reduced form, optgpx5 structure has more poorly defined regions. most of the
+residues located in a long flexible loop (residues 73–
+100) are found in the generously allowed regions of
+the ramachandran plot (table 1). the electron
+density of the region between residues 77 to 84
+can hardly be seen. among the subunits in the
+asymmetric unit, subunit a shows the clearest
+densities for the main-chain atoms. thus, we have
+adopted the conformation of the flexible loop of
+subunit a for the loop positioning of the subunit b
+as this monomer has more poorly defined regions.
+in the model of the oxidized form, we have assigned
+five calcium atoms per asymmetric unit as calcium
+chloride was present in the crystallization condition.
+overall fold and secondary structure of ptgpx5
+subunit
+the subunit structure shows a thioredoxin fold,28
+which consists mainly of a central twisted beta-sheet
+
+515
+and several flanking alpha-helices, with few additional
+secondary structure elements, similar to that described for the gpx24,25 and prx29–32 families. the
+reduced form (rptgpx5) subunit structure consists of
+four alpha helices and seven beta strands (figure 1). helices
+alpha1,  xxxg831xxx  and  xxxg833xxx  are located on one side of the 45°
+twisted central beta sheet ( xxxg838xxx , beta2,  xxxg836xxx , beta4 and beta5) and  xxxg832xxx 
+is on the other side. helices alpha1 and  xxxg833xxx  are nearly
+parallel and their axes are roughly parallel with the
+central beta strands. the two other alpha helices,  xxxg831xxx  and  xxxg832xxx ,
+are oriented perpendicular to each other and to the
+helices alpha1 and  xxxg833xxx  (figure 1(b)). the n-terminal end
+exhibits an extra chain folding into a beta-hairpin
+designated as betan1 and betan2, respectively.
+superimposition of both reduced and oxidized
+form of ptgpx5 subunit structures shows a rms
+deviation of 4.02 å (based on alignments of 160 calpha
+positions) (figure 2). this high rms value is due to
+the large local differences observed in alpha1 and  xxxg831xxx 
+helices between both structures. the beginning of alpha1
+helix in the optgpx5, where the peroxidatic cys44 is
+
+figure 1. (a) and (c) topological diagrams and (b) and (d) cartoon representation showing the overall structures of the
+rptgpx5 (top two panels) and the optgpx5 (bottom two panels). all alpha helices are shown in red while beta strands are in
+yellow. in the topological diagrams, the helices are represented as circles and the beta strands as triangles. the beginning and
+the ending residues with numbering of each secondary structural element are labelled. the intramolecular disulfide bond
+between cys44 and cys92 is highlighted.
+
+516
+
+gpx-type thioredoxin peroxidase
+
+conformational changed regions, the rms deviation
+is only 0.525 å (based on alignments of only 135 calpha
+positions) (figure 2). indeed, the rest of both
+rptgpx5 and optgpx5 structures superimpose well.
+oligomerization state of ptgpx5
+
+figure 2. stereoscopic view of superimpositions
+between the calpha traces of the rptgpx5 (red), the optgpx5
+(blue) and a typical mammalian gpx, the human plasma
+ xxxg945xxx  (yellow).25 the major difference between ptgpx5
+and the classical mammalian gpx is the absence of the
+oligomerization loop (indicated by the arrow) in the
+ptgpx5.
+
+located, undergoes a local unwinding and rearrangement. the local flipping of this small loop towards
+the direction of helix  xxxg831xxx , however, is rather small as
+compared to the complete unwinding of the  xxxg831xxx  helix,
+where the resolving cys92 is situated. the latter
+motion results in a flexible extra long loop (residues
+73–100), connecting beta2 and  xxxg838xxx  strands. these conformational changes lead to the loss of 58 interactions, which were involved in the stabilization of the
+reduced form enzyme, whereas 28 interactions are
+newly created to stabilize the oxidized form. if the
+two structures are superimposed, excluding the
+
+one of the inter-subunit contact types observed
+within the crystal lattice of ptgpx5 likely represents
+the subunit interaction that stabilizes the dimeric
+enzyme in solution. indeed, from two different
+experiments, using different crystallization conditions, we observed the same dimerization pattern in
+the crystal structures regardless of their redox states.
+the dimer interface areas in both reduced and
+oxidized structures range from 822 å2 to 847 å2,
+involving 60% of non-polar atoms and 40% of polar
+atoms. in this study, we highlight a new mode of
+dimerization pattern that differs from previously
+reported gpxs and prxs. the dimerization interface
+localizes at the c-terminal region of ptgpx5. the
+main dimer building block consists of two antiparallel beta sheet (beta5a-beta5b) which are positioned side-byside in a head-to-tail manner, related by local 2-fold
+symmetry axis. formation of the ptgpx5 dimer
+results in a central pseudo-10-pleated beta sheet core
+through the dimer (figure 3). however, although the
+two beta5 strands are adjacent to each other, the -co
+groups of one beta5a strand and the -nh groups on the
+adjacent beta5b strand are 6 å apart. in fact, the dimer
+interface is stabilized by several hydrogen bonds
+involving polar side-chains of residues located in the
+loop that connects  xxxg832xxx  to beta4, beta5 and  xxxg833xxx  (summarized
+
+figure 3. cartoon representation of the dimerization interface of the rptgpx5 (monomers a and b). this figure
+highlights the dimerization interface involving the hydrophobic and aromatic residues (shown as sticks). the side-chains
+of monomer a and monomer b, which are involved in the dimerization, are coloured magenta and green, respectively.
+the locations of the peroxidatic cys44, the highly conserved cys73 and the resolving cys92 are coloured blue.
+
+517
+
+gpx-type thioredoxin peroxidase
+table 2. hydrogen bonding interactions at the dimerization interface
+distance (å)
+monomer a
+
+monomer b
+
+loop between  xxxg832xxx  and beta4 (124–133)
+gln 132 nepsilon2
+asp 129 odelta1
+tyr 151 oh
+asp 129 odelta1
+asp 129 odelta2
+gln 132 nepsilon2
+tyr 151 oh
+gln 132 nepsilon2
+beta5 (147–155)
+tyr 151 oh
+arg 149 nh1
+tyr 151 oh
+arg 149 nh2
+tyr 151 oh
+asp 129 odelta2
+tyr 151 oh
+arg 149 nh1
+tyr 151 oh
+gln 132 nepsilon2
+arg 161 nh2
+ser 155 ogamma
+ xxxg833xxx  (156–166)
+asp 162 odelta2
+ser 158 ogamma
+asp 162 odelta1
+ser 158 ogamma
+arg 161 nh1
+ser 158 ogamma
+ser 155 ogamma
+arg 161 nh1
+ser 158 ogamma
+arg 161 nh1
+ser 158 ogamma
+asp 162 odelta1
+ser 158 ogamma
+asp 162 odelta2
+
+rptgpx5
+
+optgpx5
+
+2.67
+2.82
+2.71
+2.84
+
+2.44
+3.00
+2.82
+2.82
+
+2.94
+3.17
+2.65
+3.14
+2.89
+3.28
+
+(3.73)
+(3.55)
+3.05
+2.98
+2.85
+3.37
+
+2.81
+2.93
+2.73
+2.66
+2.92
+2.83
+2.87
+
+3.05
+2.41
+3.03
+3.21
+2.72
+2.52
+3.19
+
+distance n3.5 å is not considered as a hydrogen bonding
+interaction and is indicated for comparison purposes (marked in
+parentheses).
+
+in table 2) and van der waals interactions which
+involve the participation of a hydrophobic and
+aromatic cluster (trp124, ile126, phe127, trp133,
+tyr150, tyr151, pro152, cgamma of thr153 and cgamma of
+thr154).
+environment of the peroxidatic cys in the
+reduced form of the enzyme (rptgpx5)
+the active site residues in the neighbourhood of
+the peroxidatic cys44 are well-defined in (3fo–2fc)
+electron density map. the active site pocket is
+formed by residues in the long loop between  xxxg832xxx 
+and beta4 (phe127–phe135), the loops between beta2 and
+ xxxg831xxx  (cys73–thr83), beta5 and  xxxg833xxx  (tyr151–leu157) and
+ xxxg836xxx  and alpha1 (val40–met46), while the assumed
+peroxidatic cys44 of ptgpx510,23 is positioned on
+the seven residue-long loop just before the alpha1 helix
+(near the interface of a dimer of the asymmetric
+unit). the side-chain of cys44 is pointing towards
+the interior of the protein, surrounded mainly by
+non-polar groups (met46, phe76, phe135, trp133,
+pro152 and the aliphatic chain of lys43), while the
+remaining residues are hydrophilic (glu79, asn134)
+(figure 4(a)). the peroxidatic cys44 remains accessible to solvent because of its strategic location near
+the surface of the subunit.
+the active-site cleft appears to be occupied by a
+ xxxd3051xxx  (cd2+) that originated from the crystallization solution, ligated by three residues and well
+coordinated with three water molecules. the coordination of this  xxxd3051xxx  displays a distorted
+octahedron, ligated with cys44-s gamma , glu79-o epsilon1 ,
+trp133-nepsilon1 and three water molecules (see table 3
+and figure 4(a)). the positions of cd2+-surrounding
+
+ligands show no significant geometry changes
+compared with the active sites described for mammalian gpxs (which do not possess any cadmium
+ion).24,25
+further, the active site of rptgpx5 is shielded by
+the adjacent subunit of the dimer (residues gly122–
+ile126 at the c terminus of the  xxxg832xxx ), which suggests
+that the dimer in ptgpx5 and probably in all plant
+gpxs is of catalytic significance. in the structure of
+the reduced form, the peroxidatic cysteine (cys44) of
+a dimer are ∼ 38 å apart and occupy opposite sites
+(figure 3). in addition to the catalytic site cys44,
+there are two other cysteine residues present in each
+ptgpx5 subunit. cys73 is located on the loop that
+connects beta2 and  xxxg831xxx , about 11 å apart from cys44,
+while cys92 is located on  xxxg831xxx  and is 21 å away from
+the peroxidatic residue.
+environment of the peroxidatic cys in the
+oxidized form of the enzyme (optgpx5)
+in the structure of the oxidized form (optgpx5),
+an intramolecular disulfide bond between the
+peroxidatic cys44 and the resolving cys92 is clearly
+visible. the formation of the disulfide bond causes
+two regions in optgpx5 to rotate toward each
+other, decreasing the c alpha –c alpha distance between
+residues 44 and 92 by 12.1 å relative to the reduced
+molecule. the torsion angles for the bonds constituting the disulfide bond between cys44 and cys92
+are as follows: cys44, x1 = − 58°, x2 = − 60°, x3 = + 96°,
+x2′ = + 84°, x1′ = − 165°, cys92.
+examining the surroundings of the disulfide bond
+in the optgpx5 reveals that one side is freely
+exposed to the solvent while the other side faces
+an aromatic residue (phe95). close to the disulfide
+bond, there are several other residues, including
+met46, thr93 and arg94 (figure 4(b)). in addition, a
+spoon-shaped, surface-exposed loop connecting beta2
+and  xxxg838xxx  (residues 77–100) is observed facing the
+oxidized active site. this long loop results from the
+unwinding of  xxxg831xxx  helix mentioned earlier. the
+conformation of this loop is an obtuse angle between
+protein core and the surface loop (∼ 120°).
+proposed model of the optgpx5-trx h1
+complex
+as a result of crystal packing, a trp residue
+(trp124′) from a crystallographically symmetric
+neighbouring molecule is observed in the vicinity
+of the intramolecular disulfide bond (figure 4(b)).
+as mentioned before, optgpx5 is regenerated by
+trx,10 and the trp residue at the catalytic site of
+trx plays an important role in trx-substrate
+recognition (see discussion). it is tempting to
+speculate that a similar situation at the active site
+may occur when the optgpx5 binds the reducing
+redox partner, trx. therefore, we were prompted
+to model the complex that enables us to visualize the
+possible interaction between the ros scavenger
+(optgpx5) and its in vitro recycling partner (trx
+h1,33 pdb code 1ti3). several molecular dynamics
+
+518
+
+gpx-type thioredoxin peroxidase
+
+figure 4. stereoview details of the active site cleft of both (a) rptgpx5 and (b) optgpx5 with final 3fo–2fc electron
+densities (1.2 sigma level) covering chosen residues for clarity. relevant residues are labelled. in the rptgpx5 active site, a
+ xxxd3051xxx  is coordinated to the peroxidatic cys44, trp133, glu79 and three water molecules, forming an octahedral
+geometry. in the optgpx5 active site, an intramolecular disulfide bond is formed between cys44 and cys92. all the
+residues shown here (in sticks, coloured according to atom type) are from monomer a. (b) the trp124 residue, coloured
+blue, stacks from a symmetry-related subunit.
+
+519
+
+gpx-type thioredoxin peroxidase
+table 3. coordination geometry of the active-site  xxxd3051xxx 
+bond lengths (å)
+gamma
+
+cys44 s - cd
+glu79 oepsilon1 - cd
+trp133 nepsilon1 - cd
+wat318 - cd
+wat482 - cd
+wat626 - cd
+
+bond angles (°)
+2.59
+2.44
+2.75
+2.65
+2.71
+2.81
+
+gamma
+
+cys44 s - cd - glu79 oepsilon1
+cys44 sgamma - cd - trp133 nepsilon1
+cys44 sgamma - cd - wat318
+cys44 sgamma - cd - wat482
+cys44 sgamma - cd - wat626
+glu79 oepsilon1 - cd - trp133 nepsilon1
+glu79 oepsilon1 - cd - wat318
+glu79 oepsilon1 - cd - wat482
+glu79 oepsilon1 - cd - wat626
+trp133 nepsilon1 - cd - wat318
+trp133 nepsilon1 - cd - wat482
+trp133 nepsilon1 - cd - wat626
+wat318 - cd - wat482
+wat318 - cd - wat626
+wat482 - cd - wat626
+
+90
+105
+167
+96
+103
+92
+93
+171
+111
+88
+79
+143
+84
+64
+75
+
+(md) processes were performed by placing the trx
+molecule next to optgpx5, in such a position that
+trp124′ of the symmetry-related optgpx5 is
+replaced by trp37 of trx h1 (see materials and
+methods). two complex models can be built with a
+transient intermolecular disulfide bond formed
+between the catalytic cys38 of poplar trx h1 and
+either the peroxidatic cys44 (complex 1) or the
+resolving cys92 (complex 2) of optgpx5. the
+complex 1 exhibits a plus left-handed hook disulfide
+bond, while the complex 2 possesses a minus righthanded hook disulfide bond. in terms of calculated
+free energy, however, complex 2 reveals a more
+stable complex as compared to complex 1.
+in both complex models, several edge-to-face
+aromatic interactions were essential at the protein–
+protein interfaces involving especially the trp37 of
+trx h1 (figure 5). the nepsilon1 atom of this residue is
+hydrogen bonded with gln86-o in complex 1 or
+with asn84-o in complex 2. otherwise, this residue
+
+is always located between a phe residue and a pro
+residue. in both cases, the phe ring interacts
+perpendicularly, with its edge pointing towards
+the trp face, while pro tends to make ch–pi interaction on the trp face through major contributions from its cgamma and cdelta. in complex 1, both of these
+phe and pro residues are from optgpx5 (phe90 and
+pro81), whereas in complex 2, phe90 of optgpx5
+and pro39 of trx h1 are involved. nevertheless, all
+these residues are conserved in plant gpx homologues and trx h1 subgroup. details of the
+hydrogen bonding interactions involved in both
+complexes are summarized in table 4.
+comparison to homologous structures
+ptgpx5 shares a high level of identity with various
+plant gpxs, ranging from 72% to 91%. however,
+none of these plant gpxs has any structural reference.
+to date, six structures of mammalian gpxs have been
+solved. they are the classical bovine erythrocyte  xxxg943xxx  (pdb code 1gp1),24 the secys to glycine mutant of
+human  xxxg943xxx  (pdb code 2f8a), the human  xxxg944xxx 
+(pdb code 2he3), the human plasma  xxxg945xxx  (from
+professor rudolf ladenstein),25 the secys to glycine
+mutant of human  xxxg946xxx  (pdb code 2gs3) and the
+human  xxxg947xxx  (pdb code 2iy3). all the classical
+mammalian gpx structures known so far are in the
+tetrameric form, except for human  xxxg946xxx , which is a
+monomeric enzyme (pdb code 2gs3).  xxxg947xxx  from
+poplar presents as a dimer with interactions that
+differ from those existing in other known gpx or
+2-cys prx structures (see discussion).
+the superimposition of rptgpx5 subunit with the
+other mammal gpxs leads to rms deviations
+varying from 0.72 å with human  xxxg946xxx  (based on
+alignments of 152 calpha positions) to 1.08 å with
+human plasma  xxxg945xxx  (based on alignments of 144
+
+figure 5. molecular model of the optgpx5-trx h1 complex. the modelled complex 2 (see results) structure shown in
+cartoon representation displays an intermolecular disulfide bond (yellow) between the catalytic cys38 of trx h1 and the
+resolving cys92 of optgpx5. protein–protein interactions between the optgpx5 (magenta) and the trx h1 (blue)
+involving several aromatic residues at the interface are shown as sticks and are coloured according to respective
+molecules.
+
+520
+
+gpx-type thioredoxin peroxidase
+
+table 4. hydrogen bonding interactions between
+optgpx5 and trx h1 in both complex 1 and complex 2
+models
+molecule
+a. complex 1
+
+b. complex 2
+
+ptgpx5
+
+trx h1
+
+d (å)
+
+cys44 n
+gln86 nepsilon2
+gln86 nepsilon2
+gln86 o
+thr88 ogamma1
+thr88 o
+glu80 o
+thr83 ogamma1
+asn84 o
+gln86 nepsilon2
+arg94 nh1
+
+trp37 o
+asp64 odelta2
+asp66 odelta2
+trp37 nepsilon1
+ser36 ogamma
+lys67 nzeta
+lys42 nzeta
+ser36 o
+trp37 nepsilon1
+ser36 ogamma
+val77 o
+
+3.24
+3.25
+2.88
+3.22
+3.29
+2.81
+2.89
+3.00
+3.03
+2.76
+2.71
+
+complex 1; disulfide bond between cys44 of optgpx5 and cys38
+of trx h1. complex 2; disulfide bond between cys92 of optgpx5
+and cys38 of trx h1.
+
+calpha positions). structure-based alignments demonstrated that the main differences between ptgpx5
+and other mammalian gpxs are the absence of an
+extended n terminus, the deletion of the region
+coding for the classical oligomerization loop, and
+the shortening of helix  xxxg831xxx  (by five residues) (figure
+6). in terms of the n terminus, ptgpx5 does not
+possess the extra n-terminal residues (the region
+before the n-terminal beta-hairpin) observed in the
+human  xxxg945xxx  enzyme structure. likewise, the other
+mammalian  xxxg943xxx ,  xxxg944xxx ,  xxxg946xxx  and  xxxg947xxx  also
+lack this extra feature. in addition, a large part of the
+classical mammalian sequence (positions 125–142 in
+bovine  xxxg943xxx  structure numbering) is deleted in
+ptgpx5 and in human phospholipid hydroperoxide
+ xxxg946xxx  (pdb code 2gs3). this missing part corresponds precisely to the subunit interaction sites of
+the tetrameric mammalian gpxs.
+another important difference is that ptgpx5
+displays an overall negatively charged protein surface, while the rest of the mammalian gpxs show
+more evenly distributed charged protein surfaces.
+sequence analysis also demonstrated that ptgpx5
+contains 15% of negatively charged residues (asp
+and glu), while the mammalian gpxs contain 11%.
+remarkably, the  xxxg831xxx  helix in ptgpx5, where the
+resolving cys92 is situated, exhibits a highly
+negatively charged region (figure 7(d)) as compared
+
+to the corresponding regions in all mammalian
+gpxs. further, active site residues of rptgpx5 and
+their geometries are similar to those described for the
+most classical gpx enzymes. however, a peroxidatic
+cys (cys44) and a glu (glu79) are found in the active
+site pocket of the present structure instead of secys
+and gln (gln83; numbering in human plasma  xxxg945xxx 
+structure) residues in classical mammalian gpx
+structures. these differences may suggest enzyme
+adaptation to substrate binding and specificity or to
+the adapted redox partner (see discussion).
+cadmium-binding sites
+there are 32  xxxd3051xxx  present in the asymmetric unit of ptgpx5 in its reduced form (figure
+8(a)). we have distinguished four potential cadmium-binding sites per monomer (16 sites per
+asymmetric unit) on the basis of the following
+three prerequisites: (i) the cadmium-binding site is
+present in the four independent subunits; (ii) at least
+two non-water ligands are involved in ion-binding;
+and (iii) the ion-binding site is independent of the
+crystal packing. the first cadmium-binding site is
+situated at the active site cavity, displaying the
+coordination geometry of an octahedron as
+described before (see the previous section). the
+second binding site located at the dimer interface
+also shows the typical octahedron geometry by
+binding to six ligands, including asp148-odelta1 of one
+subunit, thr153-o of the adjacent subunit and four
+water molecules (figure 8(b)). anchored to the
+subunit interface, the third cadmium-binding site
+(figure 8(c)) is hepta-coordinated by two bidentate
+residues (asp85 and asp89) and water molecules. a
+similar coordination geometry is found for the
+fourth cadmium-binding site (figure 8(d)) at the betahairpin loop of each subunit, except that the two
+bidentate residues involved are glu22 and asp103.
+
+discussion
+re-evaluation of ptgpx5 denomination
+sequence comparison revealed that ptgpx5 and
+other plant homologues share relatively high levels
+
+figure 6. multiple sequence alignment of 14 representative glutathione peroxidase proteins from mammals and
+plants (including the ptgpx5) as compared to the available secondary structure elements from the bovine erythrocyte
+ xxxg943xxx  (pdb code 1gp1), the human  xxxg943xxx  (pdb code 2f8a), the human  xxxg944xxx  (pdb code 2he3), the human plasma
+ xxxg945xxx  (from professor rudolf ladenstein), the human  xxxg946xxx  (pdb code 2gs3) and the human  xxxg947xxx  (pdb code 2iy3) as
+references. both reduced and oxidized states secondary structures of ptgpx5 are shown in comparison to the mammalian
+gpx structures. residues that are identical are boxed in red and displayed in white letters, while homolog residues are
+framed in blue and shown in red letters. for secondary structure representation, alpha and 310 helices are displayed in coils
+with alpha and eta labels, respectively, beta strands are shown as arrows labelled beta, and strict alpha and beta turns are marked tt.
+contacts between protein residues and supported hetero-compounds are shown as black stars. sequence comparison
+between plant gpxs and mammalian gpxs (except mammal  xxxg946xxx ) show a large gap in plant gpx sequences, while this
+region (framed in red) codes for an oligomerization loop in animal gpxs. the accession numbers for other plant gpx
+sequences displayed in the final alignment are as follows: arabidopsis thaliana, atgpx8: np_564813; medicago truncatula,
+medicago: abe92132; solanum lycopersicum, le2: ai898013; vitis vinifera, vv: cb978870; helianthus annuus,  xxxd951xxx :
+caa74775; mesembryanthemum crystallinum, mesembryanthemum: cac83045; citrus sinensis, cit-sap: caa47018. a
+motif from residue glu80 to lys96 (numbering in ptgpx5) in plant gpxs is proposed (framed in dark blue) to be the
+recognition site for thioredoxin. the figure was prepared using espript.54
+
+521
+
+gpx-type thioredoxin peroxidase
+
+figure 6 (legend on previous page)
+
+522
+
+figure 7. local surface charges of  xxxg831xxx  helix of (d)
+rptgpx5 and its corresponding helices of other mammalian gpx structures ((a) the monomeric human  xxxg946xxx ,
+pdb code 2gs3; (b) the classical tetrameric human  xxxg945xxx ,
+human plasma  xxxg945xxx ). the corresponding  xxxg831xxx  helix in
+calmodulin (pdb code 1cll) that exhibits a helix–coil
+transition is shown in (c). negatively and positively
+charged regions are shown in red and blue, respectively,
+while the rest are shown in grey. three residues, situated
+at each helix turn and facing the same side of the helix, are
+displayed as sticks.
+
+of sequence similarities with mammal gpxs. contrary to the majority of mammalian gpxs, which
+involve only a secys residue in the catalytic
+mechanism, the higher plant gpx homologues
+identified so far possess two cysteine residues
+(peroxidatic cys, cp and resolving cys, cr) that
+take part in the reduction of peroxide. these
+
+gpx-type thioredoxin peroxidase
+
+mammalian gpxs use gsh for their regeneration
+of the secys catalytic residue. however, it has been
+suggested that gpx-type enzymes are not completely specific for gsh but may react also with cxxc
+motifs present in trx or tryparedoxins.34 indeed,
+most of the plant gpxs probably use reduced trx
+for their regeneration,10–12,16,17 and do not react with
+gsh or  xxxg905xxx , as demonstrated recently for
+ptgpx5.10 the reaction mechanism of ptgpx5 was
+shown to be homologous to that of atypical 2-cys
+prxs, in which (i) the reduction of the peroxide is
+accompanied by the formation of a sulfenic acid on
+the catalytic cysteine, (ii) a second cys residue forms
+an intramolecular disulfide bridge with the cp and
+acts as a cr in being indispensable for the reduction
+by trx.10 thus, in a classification based on existing
+biochemical evidence rather than on phylogenetic
+linkage, the plant gpxs constitute a fifth group of
+plant prxs.23 on the other hand, a reclassification of
+the group of enzymes in which secys is replaced by
+cys in gpx homologs is being suggested on the
+basis of biochemical properties, as gpx-type trx
+peroxidases.35 we describe here for the first time in
+plants, two structures of ptgpx5 in two different
+redox states that give insights for the denomination
+of this enzyme from a structural point of view.
+gpx and prx present the same overall fold,
+namely the trx fold, which consists of a central beta
+sheet and flanking alpha helices. however, with respect
+to the nature of their redox centers, the secys
+residue in mammal gpxs is at hydrogen bonding
+distance from a trp and a gln residue25 (active site
+
+figure 8. the 32 independent cadmium atoms in the rptgpx5 crystal structure are displayed. (a) the two dimers of
+rptgpx5 are shown in cartoon representation and cd2+ involved in potential cadmium-binding sites are highlighted
+(yellow, blue, green and pink for sites 1, 2, 3 and 4, respectively). the sites 1 (figures 4(a)), 2(b), 3(c) and 4(d) are shown in
+detail with cd2+ in the same colour code as in (a).
+
+gpx-type thioredoxin peroxidase
+
+signature of mammalian gpxs, which is highly
+conserved), while the immediate neighbouring
+residues of the catalytic cys at the active site pocket
+of prxs are thr and arg.36 as expected, the
+rptgpx5 displays the same overall fold as classical
+mammal gpxs and prxs. interestingly, the
+rptgpx5 possesses an active site cleft architecture
+(consisting of cys, glu and trp) very similar to that
+reported for mammal secys-gpx structures, which
+clearly distinguishes rptgpx5 from prxs. on the
+other hand, when rptgpx5 is superimposed onto
+the thiol peroxidase structures (which belong to 2cys prxs), the locations of both cp and cr are
+similar in structure, although the proteins have a
+very low level of sequence identity. this observation
+suggests the importance of the positions of these cys
+residues in order to facilitate the peroxide reduction
+and the regeneration process. flohé et al. (2003)
+suggested that thiol-dependent peroxidases care
+little about homology-based assignments of function.34 taking into account previous studies10,35 and
+the present crystallographic evidence, we conclude
+that ptgpx5 is actually a thioredoxin peroxidase,
+structurally related to glutathione peroxidases but
+exhibiting catalytic and trx-dependent recycling
+mechanisms of peroxiredoxin. the historical term
+of gpx can be used accurately only to describe a
+subgroup of gpx family35 that uses gsh as electron
+donor despite the high level of similarity between
+the sequences among the family members.
+
+523
+
+figure 9. cartoon representation of different oligomerization states of enzymes, including (a) the dimeric plant
+ptgpx5 in its reduced state (pdb code 2p5q), (b) the
+classical tetrameric human plasma  xxxg945xxx  (from professor
+rudolf ladenstein), (c) the mammalian 2-cys peroxiredoxin heme-binding protein, hbp23 (pdb code 1qq2) and
+(d) the human transthyretin or prealbumin (pdb code
+2pab). note that the presence of oligomerization loops,
+circled in red, in the human plasma  xxxg945xxx  structure in (b) is
+likely to cause steric hindrance and obstruct the dimer
+formation if this feature exists in ptgpx5. in the1qq2
+structure in (c), a true ten-stranded beta-sheet is observed (the
+intermolecular beta-sheet distance is indicated) while in (a) the
+rptgpx5 dimer a pseudo ten-stranded beta sheet similar to
+that observed (d) for the 2pab structure is seen (see the text).
+
+oligomerization mode of ptgpx5
+recent biochemical studies10 showed that poplar
+gpxs are non-covalent dimeric enzymes in solution.
+this dimeric arrangement, which is found in both
+the reduced and oxidized form, exhibits a pseudo
+antiparallel beta sheet that is stabilized mostly by
+hydrophobic clusters. most of the residues involved
+in the dimerization are conserved in plant gpxs,
+suggesting that similar form of enzyme could be
+observed for all plant gpxs. among the residues
+involved at the dimer interface of ptgpx5, tyr151 is
+structurally an important residue (table 2). it makes
+several critical contacts with residues (particularly
+asp129, gln132 and arg149) from another subunit
+and is also a part of an aromatic cluster (see results).
+to date, all classical mammalian gpxs characterized are tetrameric enzymes (figure 9(b)) except
+ xxxg946xxx , a mammal  xxxg946xxx  that is monomeric. the
+sequence alignment (figure 6) indicates that the
+region coding for the oligomerization loop (located
+in the core of the tetramer, figure 9(b)) in typical
+tetrameric mammal gpxs (positions 125–142 in the
+bovine  xxxg943xxx  sequence) is absent from all plant
+gpxs as well as mammal  xxxg946xxx , suggesting that
+these enzymes might not be tetrameric. our structures reveal that the ptgpx5 dimer cannot be
+formed by other mammal gpxs due to the structural
+differences that would cause steric hindrances at
+the dimerization interface. for example in mammal
+ xxxg943xxx ,  xxxg944xxx ,  xxxg945xxx  and  xxxg947xxx , part of the
+oligomerization loop covers the c-terminal part of
+
+the beta5 strand that is the dimerization interface in
+ptgpx5. in addition, mammal  xxxg945xxx  possesses a
+longer n-terminal chain that completely covers the
+beta5 strand, making this enzyme unable to form the
+same dimer as ptgpx5. however, in the mammal
+monomeric gpx437 there is neither the oligomerization loop nor the extra-long n-terminal chain, yet
+this enzyme cannot form the dimeric pattern of
+ptgpx5. further structural comparison reveals that
+a loop (residues lys111–ala126) in mammal  xxxg946xxx 
+obstructs the formation of a beta-sheet interaction
+between two subunits and hinders the dimerization.
+similar dimer formation by antiparallel association of two beta-strands has been reported for typical
+2-cys and 1-cys prxs.32,36 however instead of a
+central true ten-stranded beta sheet as observed in prx
+(figure 9(c)), dimerization of ptgpx5 results in a
+central pseudo ten-stranded beta sheet (figure 9(a))
+due to the relatively large distance between two beta
+strands (∼ 6 å apart) at the dimer interface that does
+not allow backbone hydrogen bond formation.
+therefore, the hydrophobic and aromatic networks
+play an important role in forming the dimer of
+ptgpx5 independently of its redox state. this rather
+unusual kind of beta-sheet interactions has already
+been described in an amyloid sheet,38–40 and in the
+prealbumin protein.41 sharing similar dimer properties with prealbumin, ptgpx5 dimer also produces
+an apparently more open quaternary structure due
+
+524
+to the greater separation of the beta sheet at the
+dimerization site (figure 9(d)).
+comparison between reduced and oxidized form
+ptgpx5: redox-driven conformational changes
+resolution of the reduced and oxidized structures of ptgpx5 allowed us to examine how the
+intramolecular disulfide bond can be formed in
+plant gpxs. upon scavenging peroxide, the resulting peroxidatic cys44-soh intermediate will react
+rapidly with the resolving cys92 to generate a
+stable disulfide bond at the active site of optgpx5.
+this reaction involves two conformational changes
+(figure 2): (i) first, the bowing of the loop that
+connects  xxxg836xxx  and alpha1 (where peroxidatic cys44 is
+located) by about 90° towards cys92 (in  xxxg831xxx  helix).
+the flipping of this helical turn causes the peroxidatic cys44 in rptgpx5 to move ∼ 10 å before the
+formation of an intramolecular disulfide bond. (ii)
+second, the unwinding of the whole  xxxg831xxx  helix
+bringing cys92 closer to cys44. the absence of
+ xxxg831xxx  helix in the optgpx5 structure (figure 1) results
+in a long flexible loop that now connects beta2
+directly to  xxxg838xxx . due to its flexibility, a loop motion
+seems possible, leading to a ”closed” conformation
+where the active site of optgpx5 is covered. we
+speculate that this motion is needed to cover/
+uncover the active site cavity of optgpx5 during
+the recycling process of this enzyme by reduced
+trx.
+similar extensive conformational changes could
+occur for the other plant gpxs, since they share
+closely similar amino acid sequences and biochemical properties. comparatively, the conformational
+changes observed in the present study are much
+more drastic than those described for atypical 2-cys
+prxs and prokaryotic thiol peroxidases so far. indeed, in atypical 2-cys prxs, the change of redox
+state is accompanied by limited conformational
+changes, a helical turn of peroxidatic-cys- (cp-)
+and resolving-cys- (cr-) loops.29
+the  xxxg831xxx  helix of rptgpx5 shows a noticeable
+analogy with ribosomal protein l2042 and calmodulin (cam),43 which exhibit a helix–coil transition.
+the flexible regions of l20 and cam share a similar
+sequence motif that confers helical instability, a
+cluster of charged amino acid residues distributed
+on the same helical face and spanning three helical
+turns. in the  xxxg831xxx  helix of rptgpx5, cys92 and two
+negatively charged residues, asp85 and asp89, are
+located at each helix-turn, with all side-chains
+oriented facing the same side of the  xxxg831xxx  helix. once
+cys92 is present in its thiolate form during catalysis,
+the emerging negatively charged cluster of  xxxg831xxx  helix
+(figure 7(d)) tends to make it unstable. this may
+lead to the complete unwinding of the  xxxg831xxx  helix, as
+observed from the differences between the reduced
+and the oxidized form of ptgpx5. interestingly,
+these two negatively charged residues are conserved
+or replaced by homologue residues in plant gpxs,
+suggesting that similar conformational changes
+could happen for the other gpx homologues.
+
+gpx-type thioredoxin peroxidase
+
+in all three cases (ptgpx5, l20 and cam), sidechain electrostatic repulsion could be responsible for
+helical instability, and therefore constitute a hot spot
+for alpha helix unwinding. this helix–coil transition was
+suggested to confer to cam the required plasticity for
+binding to an exceptional variety of distinct partners.44 we suggest here that the drastic structural
+rearrangements observed in ptgpx5 are needed to
+allow disulfide bond formation and facilitate the
+recognition of its reducing partner, as also proposed
+for  xxxd2596xxx  reductases,45 enzymes that
+repair the oxidized  xxxd2596xxx  derivatives
+generated from ros.45,46
+possible interactions between ptgpx5 and
+thioredoxin h1 from poplar
+we have already mentioned that optgpx5 is
+regenerated by trx10 and the trp residue adjacent
+to the catalytic cys of trx plays an important role in
+trx-substrate recognition.47 indeed, menchise et al.
+(2001) suggested that the trp residue at the active
+site of trx has a dual function both to force the
+active site in the bioactive conformation and to
+mediate protein–protein recognition.47 we therefore
+simulated two model complexes of optgpx5-trx
+h1. the poplar trx h1 enzyme exhibits an unusual
+active site with the sequence wcppc rather than the
+typical wcgpc motif. the trx h1 structure (pdb
+code 1ti3), however, adopts the classical trx fold,
+in general, although it appears to be more rigid.33
+the major interaction force in  xxxg947xxx -trx h1 complex is derived from two charge interactions:
+negative on the optgpx5 domain and positive on
+the trx h1 domain.
+our molecular dynamics simulations suggest
+that the complex that contains an intermolecular
+disulfide bond between the resolving cys92 of
+optgpx5 and catalytic cys38 of trx h1 (complex
+2) is more favourable in terms of calculated binding
+free energy. this result corroborates recent evidence that a disulfide can be formed between the
+resolving cys (cys91) of the oxidized drosophila
+melanogaster (dm)gpx and the catalytic cys
+(cys32) of a reduced trx c35s mutant.35 in this
+study, we provide structural information describing for the first time the gpx–trx interface and
+the possibility of a transient intermolecular disulfide bond formation. taking both complexes into
+account, we propose a trx recognition motif
+found in the majority of plant gpx sequences, the
+- 80 epgxx(d/e)xixx(f/m)(v/a)ct(r/k)fk 96 motif (where x represents any residue, figure 6),
+whereas the identified gpx recognition motifs in
+trx, - 36 swc(p/g)pc(k/r) 42 - and - 64 d(v/t)
+delk69- (numbering based on the 1ti3 structure),
+is conserved also in the trx h1 subgroup.
+the protein–protein interaction illustrated in the
+model of optgpx5 and trx h1 complex is in
+agreement with the suggestion that a cluster of
+charged groups on one side of the s-s bond of trx
+participates in the mechanism of the redox reactions
+or to substrate recognition.48 in contrast, there is also
+
+525
+
+gpx-type thioredoxin peroxidase
+
+a flat and hydrophobic surface on the other side of
+the s-s bond in trx, which is suggested to be the
+interaction area with thioredoxin reductases49,50 via
+ping-pong mechanisms.51,52 hence, based on the
+model of complex optgpx5-trx h1 in this study, we
+conclude that the molecular surface of trx interacting with its substrates, for example plant gpxs, is
+different from the site of trx interacting with its
+regenerating partner, trx reductase.
+protective role of ptgpx5 against cd
+
+2+
+
+cadmium is non-redox-reactive but strongly
+hazardous to metal-sensitive enzymes, and its
+toxicity is believed to be due to the depletion of
+glutathione and sulfhydryl groups in proteins,52–54
+contributing indirectly to oxidative stress by affecting the cellular thiol redox balance. vido et al.55
+showed that the expression of proteins involved in
+protection of the cell against peroxides and superoxides is increased upon exposure to cd2+. in
+response to cd2+ stress, higher plants utilise a
+number of defence systems, such as retention in cell
+walls, binding by organic molecules in the cytosol
+and sequestration in the vacuole. 56 thiol-rich
+compounds such as gsh are also proposed as
+cd2+-detoxifying compounds in plants.57,58 however gsh depletion in response to cd2+ has been
+reported in several plant species.59 alternatively,
+thioredoxin from the thiol-disulfide oxidoreductase
+family has been proposed to be an efficient cd2+
+chelator upon acute cd2+ exposure.60,61 in a more
+relevant context, yeast  xxxg945xxx  over-expression was
+shown to be effective in raising the threshold of
+cadmium tolerance. 62 moreover, expression of
+ xxxg945xxx  c82s did not complement the cadmium
+sensitivity of the gpx3delta strain, corroborating the
+notion that a peroxidase activity of  xxxg945xxx  is
+required for cadmium resistance. the present
+reduced form structure (rptgpx5) displays the
+ability of two dimers to interact with 32 atoms of
+cd2+ in the asymmetric unit (figure 8(a)) in which
+eight of them are trapped independently by a
+dimer, suggesting that this enzyme could play an
+additional role as a cd2+ -sink in defence against
+heavy metals, particularly cd2+. four potential
+cadmium-binding sites are identified in each subunit (see results). it is worth mentioning that the
+first three cadmium-binding sites, including the one
+at the active site, involve residues that are
+conserved in other plant gpx homologues. the
+ xxxd3051xxx  captured at the active site also has an
+important role in locking the reduced conformation
+of ptgpx5 (figure 4(a)) since this enzyme oxidizes
+spontaneously in solution. the fourth cadmiumbinding site, however, involves non-conserved
+residues in plant gpxs, thus suggesting that
+ptgpx5 may be an efficient cd2+-sink as compared
+to other isoforms. recently, navrot et al. (2006) have
+demonstrated that when poplar leaves are subjected to metal stresses such as the presence of high
+concentrations of cadmium or copper, the levels of
+gpx are modified.10 likewise, plant  xxxg947xxx  homo-
+
+logues could play a broader role as a heavy-metal
+sink than just as a peroxide scavenger.
+
+materials and methods
+protein purification and crystallization
+the ptgpx5 gene was amplified from a p. trichocarpa ×
+deltoides root cdna library. the gene was inserted in the
+pet-3d expression plasmid, between ncoi and bamhi
+sites. recombinant plasmids carrying the gene of interest
+were electroporated into methionine auxotrophic strain of
+escherichia coli bl21 (de3) psbet.63 bacteria were
+cultured at 37 °c in m9 medium supplemented with
+the usual amino acid residues (100 mg/l) except
+methionine. a final culture volume of 2 l was reached
+by two successive subculturing processes. expression of
+recombinant ptgpx5 was induced at exponential phase
+with 100 mum isopropyl-beta-d-thiogalactoside (iptg) and
+cell growth continued for another 4 h before harvesting.
+simultaneous with the addition of iptg,  xxxd3187xxx  was added to the culture medium at a final
+concentration of 100 mg/l. purification of ptgpx5 was
+completed by a two-step chromatography as described,10
+and the purified protein was kept at − 20 °c in storage
+buffer (30 mm tris–hcl (ph 8), 1 mm edta). mass
+spectrometry was performed to assess purity and to
+confirm the full incorporation of  xxxd3187xxx .
+electrospray mass analysis of the native reduced form
+of ptgpx5 (19279( ± 1.61) da) showed that the n-terminal
+methionine residue was not present in the purified
+protein sample. therefore, two methionine residues
+were expected to be substituted in one monomer of
+[semet]ptgpx5. indeed, the observed molecular mass of
+19374( ± 1.96) da indicates that the two methionine
+residues were fully substituted by  xxxd3187xxx  in
+each monomer of [semet]ptgpx5. as for the native
+ptgpx5 used in the present crystallographic work, the
+protein was over-expressed and purified as described.10
+crystallization conditions were screened extensively at
+20 °c by batch methods, using microliter amounts in
+microdroplets under oil. drops used for the initial
+crystallization trials consisted of 1.5 mul of the protein
+solution concentrated at 20 mg/ml mixed with 1.5 mul of
+various crystallization solutions. the most promising
+screen conditions from jena bioscience gmbh (jena,
+germany) and hampton research (ca, usa) were
+optimized to obtain large crystals suitable for x-ray
+analysis. both the native and the semet reduced form
+of ptgpx5 crystals were obtained after 7 days in
+hampton crystal screen 2 solution 34 (0.1 m hepes (ph
+7.5), 0.05 m cadmium sulphate hydrate, 1.0 m sodium
+acetate). on the other hand, native oxidized ptgpx5
+crystals were obtained within 2 days in jbs 2–c4
+crystallization condition containing 0.1 m tris–hcl (ph
+8.5), 25% (w/v) peg 4000, 0.2 m calcium chloride. all
+crystals were cryoprotected in a mother liquor supplemented with 20% (v/v) glycerol before flash-cooling in
+liquid ethane and liquid nitrogen.
+data collection and processing
+x-ray data for cryopreserved crystals of both  xxxd3187xxx -substituted (reduced form) and native (oxidized form) enzymes were collected at the selenium
+absorption edge (0.980043 å) and at wavelength
+
+526
+0.80630 å, respectively. both sets of diffraction data were
+collected by using the mar research ccd detector and the
+radiation produced by the esrf beamline bm30a
+(grenoble, france). as for the native reduced ptgpx5
+crystal, a dataset was collected at the doris storage ring,
+embl x11 beamline (desy, hamburg, germany) at
+wavelength 0.81560 å. all images were indexed, integrated and scaled using either the hkl program64 or the
+xds program package.65 while both the [semet] and the
+native reduced form of ptgpx5 crystals are rhombohedral
+(designated form i), the native oxidized ptgpx5crystal is
+trigonal (designated form ii).
+form i crystals belong to the rhombohedral space group
+r3 with cell dimensions of a = 222.7 å and c = 48.1 å. assuming four subunits per asymmetric unit, the vm value of
+the crystal is 2.93 å3/da.66 form ii exhibits space group
+p3121 with cell dimensions of a = 71.6 å and c = 117.8 å. the
+presence of two subunits per asymmetric unit in form ii
+crystal gives the vm value of 2.24 å3/da. for details of data
+collection statistics, see table 1.
+phasing and structure refinements
+multiple anomalous dispersion (mad) data were collected from ptgpx5 crystal to 2.2 å resolution at the
+selenium edge. the 3w-mad, 2w-mad and single
+wavelength anomalous diffraction approaches were tested
+using auto-rickshaw, an automated crystal structure
+determination platform‡ at webserver, however only the
+single wavelength anomalous diffraction approach using
+the beamline version of auto-rickshaw was successful and
+resulted in an interpretable map with a partial model. the
+beamline version uses the data to 3.0 å resolution whereas
+the advanced version of auto-rickshaw includes maximum resolution of the data. the version was not successful
+with any phasing protocol; this observation indicated that
+the crystal might have suffered severely with radiation
+damage (see below). high-resolution reflections are more
+sensitive to radiation damage and such damage causes
+problems for scaling and merging the datasets, and can
+prevent measurement of anomalous and dispersive differences that consequently affects the experimental phasing.
+therefore, the peak data were reprocessed and scaled. data
+quality was found to be good to 2.7 å for phasing (table 1).
+overall processes that have taken place in the pipeline
+included: shelxd,67 which located eight expected selenium atoms present in the asymmetric unit; mlphare68
+for initial phasing; dm69 for density modification and
+twofold ncs averaging; and essens70 to position alpha
+helices in the structure. the initial phases were extended to
+2.7 å resolution using resolve version 2.02.71
+initially, molecular replacement using the closest
+structure (bovine erythrocyte gpx, pdb code 1gp1) was
+unsuccessful against the native dataset; however, the
+model was placed successfully in electron density using
+phased molecular replacement. the resultant model was
+checked on graphics for the crystal packing, which clearly
+showed that a long loop (19 residues) clashes with the
+neighbouring residues; therefore, the loop was removed
+and the phased molecular replacement was repeated. this
+gave the best fit to the experimental electron density. the
+model was used as a starting point for further manual
+model building using the graphics program coot.72
+once the model was 90% complete, positional and bfactor refinements were performed using the protocols
+
+‡ http://www.embl-hamburg.de/auto-rickshaw
+
+gpx-type thioredoxin peroxidase
+implemented in cns, version 1.1.73 the partially refined
+[semet]ptgpx5 model was used as a search model in a
+molecular replacement procedure using molrep74
+against the native data, and the resultant model was
+used for automatic model building using the program
+arp/warp:75 99% of the model was built automatically.
+further, the model was improved by manual building with
+turbo-frodo§ interspersed with refinement using cns. at
+this stage, it became evident that the ptgpx5 crystal
+contained additional heavy atoms. the calculation of
+anomalous difference fourier map indicated 32 cadmium
+atoms bound to the protein in one asymmetric unit. some
+cadmium was expected to bind the protein, as the
+cadmium sulphate hydrate was used during crystallization; however such a large number of  xxxd3051xxx  bound
+to the protein is generally not common. therefore, the
+radiation damage to the [semet] crystal was significantly
+high and prohibited phasing information using mad. in
+addition, eight acetate anions, which was also an component of the crystallization solution, were added to the final
+native reduced form structure of ptgpx5 before several
+refinement steps using both refmac568 and cns.
+a model of the reduced form of native enzyme was
+used for molecular replacement to solve the structure of
+the oxidized form of enzyme. the solution was further
+refined using cns, and iteratively combined with manual
+building with the program described above. throughout
+the model building and refinement process, the qualities
+of the models were assessed using the program
+procheck.76 refinement statistics are summarised in
+table 1. the figures were prepared with pymol∥.
+molecular modelling
+the structure of thioredoxin in complex with a protein
+substrate is not available. thus, the initial model for the
+oxidized ptgpx5-thioredoxin (optgpx5-1ti3) complex
+was constructed as follow. the initial model of the complex
+was generated using the program turbo-frodo by simply
+superimposing the minimized average structure of 1ti3 (as
+the structure of trx h1 was solved by a nuclear magnetic
+resonance approach and there is actually an ensemble of 20
+structures) to the nearest symmetry mate of the optgpx5
+molecule (monomer a), paying special attention to trp124
+of the symmetry mate (trp124′). the complex was built to
+calculate the most energy-favourable complex in terms of
+its stability. all minimizations and md simulations of the
+complex were performed using the amber8.0 simulation
+package¶ and the amber parm99 force field77 with a
+tip3p water model.78 the complex molecules were
+explicitly solvated in a truncated octahedral box and all
+counterions were excluded from all the calculations. the
+calculations were performed using two processors (intel p4
+xeon) on the local in-house cluster with 3 ghz cpus. the
+non-bonded cutoff was set to 12.0 å in all calculations
+unless mentioned otherwise. before the md simulations,
+all structures were energy-minimized using the sander
+module in amber 8.0, first by holding the complex fixed
+while minimizing the positions of water molecules using
+the conjugate gradient method for 1000 cycles and then
+minimizing the entire molecular system for 2500 cycles.
+md simulations were carried out thereafter. the temperature of the system was raised gradually from 0 k to 300 k
+
+§ http://www.afmb.univ-mrs.fr/-turbo∥ http://pymol.sourceforge.net
+¶ http://www.amber.scripps.edu
+
+gpx-type thioredoxin peroxidase
+(with weak restraint on the complex) in 20 ps followed by
+100 ps equilibration (without any restraint) at 300 k. all
+md simulations were performed with a time-step of 2.0 fs.
+various parameters (density, temperature, pressure,
+kinetic energy and potential energy) were monitored
+during the md simulations, and generally were stable
+during the 100 ps equilibration.
+using the molecular mechanics poisson–boltzmann/
+surface area (mm-pb/sa) method,79 snapshots for energy
+analyses were obtained from the md trajectories of both
+complexes. the water molecules were deleted for energy
+analyses. we have selected 100 snapshots from each
+equilibrated trajectory in 100 ps intervals. snapshots from
+the trajectories were visually examined and illustrated
+with visual molecular dynamics (vmd) program.80
+sequence analysis and structure alignments
+deduced amino acids of ptgpx5 (170 residues), deposited in the genbank database with the accession number
+abn59534 was analysed using the programs blastp81 to
+search for its homologous protein sequences and
+clustalw82 to align selected sequences. as for the tertiary
+structure, superimpositions of the present structures with
+their homologous structures obtained from pdb were
+performed using lsqman program from the dejavu
+package83 and lsqkab (superpose) program of the ccp4
+program suite 5.0.268 with default parameters proposed by
+the author. the protein–protein interface was analysed
+using the protein-protein interaction server (v1.5).84
+protein data bank accession codes
+all coordinates and structure factors of the native
+reduced and oxidized forms of ptgpx5 have been
+deposited in the rcsb protein data bank, with the
+accession code 2p5q and 2p5r, respectively.
+
+acknowledgements
+we are very grateful to the fip-team in esrf,
+grenoble, france and the desy-team in emblhamburg outstation, germany, for providing access
+to beamlines bm30a and x11, respectively. this
+work was supported by financial aid from the cnrs
+and the french government. c.s.k. is a recipient of
+the asts fellowship from the universiti sains
+malaysia.
+
+references
+1. farr, s. b. & kogoma, t. (1991). oxidative stress
+responses in escherichia coli and salmonella typhimurium. microbiol. rev. 55, 561–585.
+2. dat, j., vandenabeele, s., vranova, e., van montagu,
+m., inzé, d. & van breusegem, f. (2000).  xxxd2082xxx  of
+the active oxygen species during plant stress responses. cell mol. life sci. 57, 779–795.
+3. milla, m. a. r., maurer, a., huete, a. r. & gustafson,
+j. p. (2003). glutathione peroxidase genes in arabidopsis are ubiquitous and regulated by abiotic stresses
+through diverse signalling pathways. the plant j. 36,
+602–615.
+
+527
+4. foyer, c. h., lescure, j. c., lefebvre, c., morotgaudry, j. f., vincentz, m. & vaucheret, h. (1994).
+adaptations of photosynthetic electron transport,
+carbon assimilation, and carbon partitioning in transgenic nicotiana plumbaginifolia plants to changes in
+nitrate reductase activity. plant physiol. 104, 171–178.
+5. noctor, g. & foyer, c. h. (1998). ascorbate and
+glutathione: keeping active oxygen under control.
+annu. rev. plant physiol. plant mol. biol. 49, 249–279.
+6. roy, g., sarma, b. k., phadnis, p. p. & mugesh, g.
+(2005). selenium-containing enzymes in mammals:
+chemical perspectives. j. chem. sci. 117, 287–303.
+7. miao, y., lv, d., wang, p., wang, x.-c., chen, j., miao,
+c. & song, c.-p. (2006). an arabidopsis glutathione
+peroxidase functions as both a redox tranducer and a
+scavenger in abscisic acid and drought stress
+responses. plant cell, 18, 2749–2766.
+8. eshdat, y., holland, d., faltin, z. & ben-hayyim, g.
+(1997). plant glutathione peroxidases. physiol. plantarum, 100, 234–240.
+9. delaunay, a., pflieger, d., barrault, m. b., vinh, j. &
+toledano, m. b. (2002). a thiol peroxidase is an
+hb2bob2b receptor and redox-transducer in gene
+activation. cell, 111, 471–481.
+10. navrot, n., collin, v., gualberto, j., gelhaye, e.,
+hirasawa, m., rey, p. et al. (2006). plant glutathione
+peroxidases are functional peroxiredoxins distributed in
+several subcellular compartments and regulated during
+biotic and abiotic stresses. plant physiol. 142, 1–17.
+11. jung, b. g., lee, k. o., lee, s. s., chi, y. h., jang, h. h.,
+kang, s. s. et al. (2002). a chinese cabbage cdna with
+high sequence identity to phospholipids hydroperoxide glutathione peroxidases encodes a novel isoform of thioredoxin-dependent peroxidase. j. biol.
+chem. 277, 12572–12578.
+12. kang, s.-g., jeong, h. k. & suh, h. s. (2004).
+characterization of a new member of the glutathione
+peroxidase gene family in oryza sativa. mol. cells, 17,
+23–28.
+13. holland, d., ben-hayyim, g., faltin, z., camoin, l.,
+strosberg, a. d. & eshdat, y. (1993). molecular
+characterization of salt-stress-associated protein in
+citrus: protein and cdna sequence homology to
+mammalian glutathione peroxidases. plant mol. biol.
+21, 923–927.
+14. sugimoto, m. & sakamoto, w. (1997). putative
+phospholipids hydroperoxide glutathione peroxidase
+gene from arabidopsis thaliana induced by oxidative
+stress. genes genet. syst. 72, 311–316.
+15. ren, x., yang, l., liu, j., su, d., you, d., liu, c. et al.
+(2001). a novel glutathione peroxidase mimic with
+antioxidant activity. arch. biochem. biophys. 387, 250–256.
+16. herbette, s., lenne, c., leblanc, n., julien, j.-l.,
+drevet, j. r. & roeckel-drevet, p. (2002). two gpxlike proteins from lycopersion esculentum and helianthus annuus are antioxidant enzymes with  xxxg946xxx  and
+thioredoxin peroxidase activities. eur. j. biochem. 269,
+2414–2420.
+17. tanaka, t., izawa, s. & inoue, y. (2005).  xxxg944xxx ,
+encoding a phospholipid hydroperoxide glutathione
+peroxidase homologue, codes for an atypical 2-cys
+peroxiredoxin in saccharomyces cerevisiae. j. biol. chem.
+276, 7397–7403.
+18. sztajer, h., gamain, b., aumann, k. d., slomianny, c.,
+becker, k., brigelius-flohe, r. & flohe, l. (2001). the
+putative glutathione peroxidase gene of plasmodium
+falciparum codes for a thioredoxin peroxidase. j. biol.
+chem. 276, 7397–7403.
+
+528
+19. prabhakar, r., vreven, t., morokuma, k. & musaev,
+d. g. (2005). elucidation of the mechanism of
+selenoprotein glutathione peroxidase (gpx)-catalyzed
+ xxxd2298xxx  reduction by two glutathione
+molecules: a density functional study. biochemistry,
+44, 11864–11871.
+20. prabhakar, r., morokuma, k. & musaev, d. g. (2006).
+peroxynitrite reductase activity of selenoprotein glutathione peroxidase: a computational study. biochemistry, 45, 6967–6977.
+21. flohé, l., loschen, g., gunzler, w. a. & eichele, e.
+(1972). glutathione peroxidase, v. the kinetic mechanism. hoppe seylers z physiol. chem. 353, 987–999.
+22. mugesh, g., du mont, w. & sies, h. (2001). chemistry
+of biologically important synthetic organoselenium
+compounds. chem. rev. 101, 2125–2179.
+23. rouhier, n. & jacquot, j.-p. (2005). the plant multigenic family of thiol peroxidases. free radic. biol. med.
+38, 1413–1421.
+24. epp, o., ladenstein, r. & wendel, a. (1983). the refined
+structure of the selenoenzyme glutathione peroxidase
+at 0.2-nm resolution. eur. j. biochem. 133, 51–69.
+25. ren, b., huang, w., åkesson, b. & ladenstein, r. (1997).
+the crystal structure of seleno-glutathione peroxidase
+from human plasma at 2.9 å resolution. j. mol. biol. 268,
+869–885.
+26. grignard, e., morin, j., vernet, p. & drevet, j. r. (2005).
+ xxxg947xxx  orthologs of the mouse epididymis-restricted
+and sperm-bound selenium-independent glutathione
+peroxidase are not expressed with the same quantitative and spatial characteristics in large domestic
+animals. theriogenology, 64, 1016–1033.
+27. fujii, j., iuchi, y., matsuki, s. & ishii, t. (2003).
+cooperative function of antioxidant and redox systems against oxidative stress in male reproductive
+tissues. asian j. androl. 5, 231–242.
+28. martin, j. f. (1995). thioredoxin – a fold for all reasons.
+structure, 3, 245–250.
+29. choi, j., choi, s., choi, j., cha, m. k., kim, i. h. &
+shin, w. (2003). crystal structure of escherichia coli
+thiol peroxidase in the oxidized state: insights into
+intramolecular disulfide formation and substrate
+binding in atypical 2-cys peroxiredoxins. j. biol.
+chem. 278, 49478–49486.
+30. hirotsu, s., abe, y., okada, k., nagahara, n., hori, h.,
+nishino, t. s. & hakoshima, t. (1999). cystal structure
+of a multifunctional 2-cys peroxiredoxin heme-binding protein 23 kda/proliferation-associated gene
+product. proc. natl acad. sci. usa, 96, 12333–12338.
+31. schröder, e., littlechild, j. a., lebedev, a. a.,
+errington, n., vagin, a. a. & isupov, m. n. (2000).
+crystal structure of decameric 2-cys peroxiredoxin
+from human erythrocytes at 1.7 å resolution. structure, 8, 605–615.
+32. declercq, j. p., evrard, c., clippe, a., stricht, d. v.,
+bernard, a. & knoops, b. (2001). crystal structure of
+human  xxxg1826xxx , a novel type of mammalian
+peroxiredoxin at 1.5 å resolution. j. mol. biol. 311,
+751–759.
+33. coudevylle, n., thureau, a., hemmerlin, c., gelhaye,
+e., jacquot, j. p. & cung, m. t. (2005). solution
+structure of a natural cppc active site variant, the
+reduced form of thioredoxin h1 from poplar. biochemistry, 44, 2001–2008.
+34. flohé, l., jaeger, t., pilawa, s. & sztajer, h. (2003). thioldependent peroxidases care little about homologybased assignments of function. redox rep. 8, 256–264.
+35. maiorino, m., ursini, f., bosello, v., toppo, s., tosatto,
+s. c., mauri, p. et al. (2006). the thioredoxin specificity of
+
+gpx-type thioredoxin peroxidase
+
+36.
+37.
+
+38.
+
+39.
+
+40.
+
+41.
+
+42.
+
+43.
+44.
+45.
+
+46.
+
+47.
+
+48.
+
+49.
+
+50.
+
+51.
+52.
+
+drosophila gpx: a paradigm for a peroxiredoxin-like
+mechanism of many glutathione peroxidases. j. mol.
+biol. 365, 1033–1046.
+wood, z. a., schröder, e., harris, j. r. & poole, l. b.
+(2003). structure, mechanism and regulation of peroxiredoxins. trends biochem. sci. 28, 32–40.
+ursini, f., maiorino, m., brigelius-flohé, r., aumann,
+k. d., roveri, a., schomburg, d. & flohé, l. (1995).
+diversity of glutathione peroxidases. methods enzymol. 252, 38–53.
+serag, a. a., altenbach, c., gingery, m., hubbell, w. l.
+& yeates, t. o. (2002). arrangement of subunits and
+ordering of beta-strands in an amyloid sheet. nature
+struct. biol. 9, 734–739.
+hwang, w., zhang, s., kamm, r. d. & karplus, m.
+(2004). kinetic control of dimer structure formation in
+amyloid fibrillogenesis. proc. natl acad. sci. usa, 101,
+12916–12921.
+lei, h., wu, c., wang, z. & duan, y. (2006). molecular
+dynamics simulations and free energy analyses on the
+dimer formation of an amyloidogenic heptapeptide
+from human beta2-microglobulin: implication for the
+protofibril structure. j. mol. biol. 356, 1049–1063.
+blake, c. c., geisow, m. j., oatley, s. j., rerat, b. &
+rerat, c. (1978). structure of prealbumin: secondary,
+tertiary and quaternary interactions determined by
+fourier refinement at 1.8 å. j. mol. biol. 121, 339–356.
+timsit, y., allemand, f., chiaruttini, c. & springer, m.
+(2006). coexistence of two protein folding states in the
+crystal structure of ribosomal protein l20. embo rep.
+7, 1013–1018.
+babu, a., orr, g. & gulati, j. (1988). calmodulin
+supports the force-generating function in desensitized
+muscle fibers. j. biol. chem. 263, 15485–15491.
+hoeflich, k. p. & ikura, m. (2002). calmodulin in
+action: diversity in target recognition and activation
+mechanisms. cell. 108, 739–742.
+boschi-muller, s., olry, a., antoine, m. & branlant, g.
+(2005). the enzymology and biochemistry of methionine
+sulfoxide reductases. biochim. biophys. acta, 1703,
+231–238.
+moskovitz, j., bar-noy, s., williams, w. m., requena,
+j., berlett, b. s. & stadtman, e. r. (2001). methionine
+sulfoxide reductase (msra) is a regulator of antioxidant defense and lifespan in mammals. proc. natl
+acad. sci. usa, 98, 12920–12925.
+menchise, v., corbier, c., didierjean, c., jacquot, j. p.,
+benedetti, e., saviano, m. & aubry, a. (2000). crystal
+structure of the w35a mutant thioredoxin h from
+chlamydomonas reinhardtii: the substitution of the conserved active site trp leads to modifications in the
+environment of the two catalytic cysteines. biopolymers,
+56, 1–7.
+eklund, h., cambillau, c., sjoberg, b. m., holmgren,
+a., jornvall, h., hoog, j. o. & branden, c. i. (1984).
+conformational and functional similarities between
+ xxxg905xxx  and thioredoxins. embo j. 3, 1443–1449.
+slaby, i. & holmgren, a. (1979). structure and
+enzymatic functions of thioredoxin refolded by
+complementation of two tryptic peptide fragments.
+biochemistry, 18, 5584–5591.
+thelander, l. (1974). reaction mechanism of  xxxd2246xxx  diphosphate reductase from escherichia coli.
+oxidation-reduction-active disulfides in the b1 subunit. j. biol. chem. 249, 4858–4862.
+holmgren, a. (1979). thioredoxin catalyzes the
+reduction of insulin disulfides by dithiothreitol and
+dihydrolipoamide. j. biol. chem. 254, 9627–9632.
+fortuniak, a., zadzinski, r., bilinski, t. & bartosz, g.
+
+529
+
+gpx-type thioredoxin peroxidase
+
+53.
+54.
+55.
+
+56.
+
+57.
+
+58.
+
+59.
+60.
+
+61.
+
+62.
+
+63.
+
+64.
+65.
+
+66.
+67.
+68.
+69.
+
+(1996). glutathione depletion in the yeast saccharomyces
+cerevisiae. biochem. mol. biol. int. 38, 901–910.
+zenk, m. h. (1996). heavy metal detoxification in
+higher plants – a review. gene, 179, 21–30.
+stohs, s. j., bagchi, d., hassoun, e. & bagchi, m. (2001).
+oxidative mechanisms in the toxicity of chromium and
+ xxxd3051xxx . j. environ. pathol. toxicol. oncol. 20, 77–88.
+vido, k., spector, d., lagniel, g., lopez, s., toledano,
+m. b. & labarre, j. (2001). a proteome analysis of the
+cadmium response in saccharomyces cerevisiae. j. biol.
+chem. 276, 8469–8474.
+vázquez, s., goldsbrough, p. & carpena, r. o. (2006).
+assessing the relative contributions of  xxxd2213xxx 
+and the cell wall to cadmium resistance in white lupin.
+physiol. plant. 128, 487–495.
+howden, r., goldsbrough, p. b., andersen, c. r. &
+cobbett, c. s. (1995). cadmium-sensitive, cad1 mutants
+of arabidopsis thaliana are phytochelatin deficient.
+plant physiol. 107, 1059–1066.
+vogeli-lange, r. & wagner, g. j. (1990). subcellular
+localization of cadmium and cadmium-binding peptides in tobacco leaves: implication of a transport
+function for cadmium-binding peptides. plant physiol.
+92, 1086–1093.
+steffens, j. c. (1990). the heavy metal-binding peptides of plants. annu. rev. plant physiol. plant mol. biol.
+41, 553–575.
+rollin-genetet, f., berthomieu, c., davin, a. h. &
+quemeneur, e. (2004). escherichia coli thioredoxin
+inhibition by cadmium: two mutually exclusive
+binding sites involving cys32 and asp26. eur. j.
+biochem. 271, 1299–1309.
+lemaire, s. d., stein, m., issakidis-bourguet, e., keryer,
+e., benoit, v. v., pineau, b. et al. (1999). the complex
+regulation of ferredoxin/thioredoxin-related genes by
+light and the circadian clock. planta, 209, 221–229.
+avery, a. m., willetts, s. a. & avery, s. v. (2004).
+genetic dissection of the  xxxg946xxx  activity of yeast  xxxg945xxx  reveals its functional
+importance. j. biol. chem. 279, 46652–46658.
+schenk, p. m., baumann, s., mattes, r. & steinbiss, h. h.
+(1995). improved high-level expression system for
+eukaryotic genes in escherichia coli using t7 rna
+polymerase and rare arg trnas. biotechniques, 19,
+196–198.
+otwinowski, z. & minor, w. (1997). processing of
+x-ray diffraction data collected in oscillation mode.
+methods enzymol. 276, 307–326.
+kabsch, w. (1993). automatic processing of rotation
+diffraction data from crystals of initially unknown
+symmetry and cell constants. j. appl. crystallog. 26,
+795–800.
+matthews, b. w. (1968). solvent content of protein
+crystals. j. mol. biol. 33, 491–497.
+schneider, t. r. & sheldrick, g. m. (2002). substructure solution with shelxd. acta crystallog. sect. d,
+58, 1772–1779.
+ccp4: collaborative computational project. number
+4 (1994). the ccp4 suite: programs for protein
+crystallography. acta crystallog. sect. d, 50, 760–763.
+cowtan, k. (1994). dm: an automated procedure for
+
+70.
+
+71.
+72.
+73.
+
+74.
+75.
+
+76.
+
+77.
+
+78.
+
+79.
+
+80.
+81.
+
+82.
+
+83.
+84.
+
+phase improvement by density modification. joint
+ccp4 esf-eacbm newsletter on protein crystallography, 31, 34–38.
+kleywegt, g. j. & jones, t. a. (1997). template convolution to enhance or detect structural features in
+macromolecular electron-density maps. acta crystallog. sect. d, 53, 179–185.
+terwilliger, t. c. (2000). maximum-likelihood density
+modification. acta crystallog. sect. d, 56, 965–972.
+emsley, p. & cowtan, k. (2004). coot: model-building
+tools for molecular graphics. acta crystallog. sect. d,
+60, 2126–2132.
+brünger, a. t., adams, p. d., clore, g. m., delano,
+w. l., gros, p., grosse-kunstleve, r. w. et al. (1998).
+crystallography and nmr system: a new software
+suite for macromolecular structure determination.
+acta crystallog. sect. d, 54, 905–921.
+vagin, a. & teplyakov, a. (1997). molrep: an automated program for molecular replacement. j. appl.
+crystallog. 30, 1022–1025.
+perrakis, a., morris, r. j. & lamzin, v. s. (1999).
+automated protein model building combined with
+iterative structure refinement. nature struct. biol. 6,
+458–463.
+laskowski, r. a., macarthur, m. w., moss, d. s. &
+thornton, j. m. (1993). procheck: a program to
+check the stereochemical quality of protein structures.
+j. appl. crystallog. 26, 283–291.
+cornell, w. d., cieplak, p., bayly, c. i., gould, i. r.,
+merz, k. m., ferguson, d. m., jr et al. (1995). a second
+generation force field for the simulation of proteins,
+nucleic acids, and organic molecules. j. am. chem. soc.
+117, 5179–5197.
+jorgensen, w. l., chandrasekhar, j., madura, j. &
+klein, m. l. (1983). comparison of simple potential
+functions for simulating liquid water. j. chem. phys.
+79, 926–935.
+srinivasan, j., miller, j., kollman, p. a. & case, d. a.
+(1998). continuum solvent studies of the stability of
+rna hairpin loops and helices. j. biomol. struct.
+dynam. 16, 671–682.
+humphrey, w., dalke, a. & schulten, k. (1996).
+vmd: visual molecular dynamics. j. mol. graph. 14,
+33–38.
+altschul, s. f., madden, t. l., schaffer, a. a., zhang, j.,
+zhang, z., miller, w. & lipman, d. j. (1997). gapped
+blast and psi-blast: a new generation of protein
+database search programs. nucl. acids res. 25,
+3389–3402.
+thompson, j. d., higgins, d. g. & gibson, t. j.
+(1994). clustal w: improving the sensitivity of
+progressive multiple sequence alignment through
+sequence weighting, position-specific gap penalties
+and weight matrix choice. nucl. acids res. 22,
+4673–4680.
+kleywegt, g. t. & jones, t. a. (1997). detecting folding
+motifs and similarities in protein structures. methods
+enzymol. 277, 525–545.
+jones, s. & thornton, j. m. (1996). principles of
+protein-protein interactions. proc. natl acad. sci.
+usa, 93, 13–20.
+
+edited by m. guss
+(received 5 february 2007; received in revised form 6 april 2007; accepted 9 april 2007)
+available online 19 april 2007
+

@@ -1,0 +1,700 @@
+© 2000 oxford university press
+
+nucleic acids research, 2000, vol. 28, no. 1
+
+235–242
+
+the protein data bank
+helen m. berman1,2,*, john westbrook1,2, zukang feng1,2, gary gilliland1,3, t. n. bhat1,3,
+helge weissig1,4, ilya n. shindyalov4 and philip e. bourne1,4,5,6
+1research
+
+collaboratory for structural bioinformatics (rcsb), 2department of chemistry, rutgers university,
+610 taylor road, piscataway, nj 08854-8087, usa, 3national institute of standards and technology, route 270,
+quince orchard road, gaithersburg, md 20899, usa, 4san diego supercomputer center, university of california,
+san diego, 9500 gilman drive, la jolla, ca 92093-0505, usa, 5department of pharmacology,
+university of california, san diego, 9500 gilman drive, la jolla, ca 92093-0500, usa and
+6the burnham institute, 10901 north torrey pines road, la jolla, ca 92037, usa
+received september 20, 1999; revised and accepted october 17, 1999
+
+abstract
+the protein data bank (pdb; http://www.rcsb.org/pdb/ )
+is the single worldwide archive of structural data of
+biological macromolecules. this paper describes the
+goals of the pdb, the systems in place for data deposition and access, how to obtain further information,
+and near-term plans for the future development of the
+resource.
+introduction
+the protein data bank (pdb) was established at brookhaven
+national laboratories (bnl) (1) in 1971 as an archive for
+biological macromolecular crystal structures. in the beginning
+the archive held seven structures, and with each year a handful
+more were deposited. in the 1980s the number of deposited
+structures began to increase dramatically. this was due to the
+improved technology for all aspects of the crystallographic
+process, the addition of structures determined by nuclear
+magnetic resonance (nmr) methods, and changes in the
+community views about data sharing. by the early 1990s the
+majority of journals required a pdb accession code and at least
+one funding agency (national institute of general medical
+sciences) adopted the guidelines published by the international
+union of crystallography (iucr) requiring data deposition for
+all structures.
+the mode of access to pdb data has changed over the years
+as a result of improved technology, notably the availability of
+the www replacing distribution solely via magnetic media.
+further, the need to analyze diverse data sets required the
+development of modern data management systems.
+initial use of the pdb had been limited to a small group of
+experts involved in structural research. today depositors to the
+pdb have varying expertise in the techniques of x-ray crystal
+structure determination, nmr, cryoelectron microscopy and
+theoretical modeling. users are a very diverse group of
+researchers in biology, chemistry and computer scientists,
+educators, and students at all levels. the tremendous influx of
+data soon to be fueled by the structural genomics initiative, and
+the increased recognition of the value of the data toward
+
+understanding biological function, demand new ways to
+collect, organize and distribute the data.
+in october 1998, the management of the pdb became the
+responsibility of the research collaboratory for structural
+bioinformatics (rcsb). in general terms, the vision of the
+rcsb is to create a resource based on the most modern
+technology that facilitates the use and analysis of structural
+data and thus creates an enabling resource for biological
+research. specifically in this paper, we describe the current
+procedures for data deposition, data processing and data
+distribution of pdb data by the rcsb. in addition, we address
+the issues of data uniformity. we conclude with some current
+developments of the pdb.
+data acquisition and processing
+a key component of creating the public archive of information
+is the efficient capture and curation of the data—data processing.
+data processing consists of data deposition, annotation and
+validation. these steps are part of the fully documented and
+integrated data processing system shown in figure 1.
+in the present system (fig. 2), data (atomic coordinates,
+structure factors and nmr restraints) may be submitted via
+email or via the autodep input tool (adit; http://pdb.rutgers.
+edu/adit/ ) developed by the rcsb. adit, which is also used
+to process the entries, is built on top of the mmcif dictionary
+which is an ontology of 1700 terms that define the macromolecular structure and the crystallographic experiment (2,3),
+and a data processing program called maxit (macromolecular
+exchange input tool). this integrated system helps to ensure
+that the data submitted are consistent with the mmcif
+dictionary which defines data types, enumerates ranges of
+allowable values where possible and describes allowable
+relationships between data values.
+after a structure has been deposited using adit, a pdb
+identifier is sent to the author automatically and immediately
+(fig. 1, step 1). this is the first stage in which information
+about the structure is loaded into the internal core database (see
+section on the pdb database resource). the entry is then
+annotated as described in the validation section below. this
+process involves using adit to help diagnose errors or
+
+*to whom correspondence should be addressed at: department of chemistry, rutgers university, 610 taylor road, piscataway, nj 08854-8087, usa.
+tel: +1 732 445 4667; fax: +1 732 445 4320; email: berman@rcsb.rutgers.edu
+
+236
+
+nucleic acids research, 2000, vol. 28, no. 1
+
+figure 1. the steps in pdb data processing. ellipses represent actions and rectangles define content.
+
+table 1 contains the general information that the pdb collects
+for all structures as well as the additional information collected for
+those structures determined by x-ray methods. the additional
+items listed for the nmr structures are derived from the
+international union of pure and applied chemistry recommendations (iupac) (4) and will be implemented in the near future.
+table 1. content of data in the pdb
+
+figure 2. the integrated tools of the pdb data processing system.
+
+inconsistencies in the files. the completely annotated entry as
+it will appear in the pdb resource, together with the validation
+information, is sent back to the depositor (step 2). after
+reviewing the processed file, the author sends any revisions
+(step 3). depending on the nature of these revisions, steps 2
+and 3 may be repeated. once approval is received from the
+author (step 4), the entry and the tables in the internal core
+database are ready for distribution. the schema of this core
+database is a subset of the conceptual schema specified by the
+mmcif dictionary.
+all aspects of data processing, including communications
+with the author, are recorded and stored in the correspondence
+archive. this makes it possible for the pdb staff to retrieve
+information about any aspect of the deposition process and to
+closely monitor the efficiency of pdb operations.
+current status information, comprised of a list of authors,
+title and release category, is stored for each entry in the core
+database and is made accessible for query via the www interface
+(http://www.rcsb.org/pdb/status.html ). entries before release
+are categorized as ‘in processing’ (proc), ‘in depositor
+review’ (wait), ‘to be held until publication’ (hpub) or ‘on
+hold until a depositor-specified date’ (hold).
+content of the data collected by the pdb
+all the data collected from depositors by the pdb are considered
+primary data. primary data contain, in addition to the coordinates,
+general information required for all deposited structures and
+information specific to the method of structure determination.
+
+the information content of data submitted by the depositor is
+likely to change as new methods for data collection, structure
+determination and refinement evolve and advance. in addition,
+the ways in which these data are captured are likely to change
+as the software for structure determination and refinement
+produce the necessary data items as part of their output. adit,
+
+nucleic acids research, 2000, vol. 28, no. 1
+
+the data input system for the pdb, has been designed so as to
+easily incorporate these likely changes.
+validation
+validation refers to the procedure for assessing the quality of
+deposited atomic models (structure validation) and for
+assessing how well these models fit the experimental data
+(experimental validation). the pdb validates structures using
+accepted community standards as part of adit’s integrated
+data processing system. the following checks are run and are
+summarized in a letter that is communicated directly to the
+depositor:
+covalent bond distances and angles. proteins are compared
+against standard values from engh and huber (5); nucleic acid
+bases are compared against standard values from clowney
+et al. (6); sugar and phosphates are compared against standard
+values from gelbin et al. (7).
+stereochemical validation. all chiral centers of proteins and
+nucleic acids are checked for correct stereochemistry.
+atom nomenclature. the nomenclature of all atoms is checked
+for compliance with iupac standards (8) and is adjusted if
+necessary.
+close contacts. the distances between all atoms within the
+asymmetric unit of crystal structures and the unique molecule
+of nmr structures are calculated. for crystal structures,
+contacts between symmetry-related molecules are checked as
+well.
+ligand and atom nomenclature. residue and atom nomenclature is compared against the pdb dictionary (ftp://ftp.rcsb.
+org/pub/pdb/data/monomers/het_dictionary.txt ) for all ligands
+as well as standard residues and bases. unrecognized ligand
+groups are flagged and any discrepancies in known ligands are
+listed as extra or missing atoms.
+sequence comparison. the sequence given in the pdb seqres
+records is compared against the sequence derived from the
+coordinate records. this information is displayed in a table
+where any differences or missing residues are marked. during
+structure processing, the sequence database references given
+by dbref and seqadv are checked for accuracy. if no
+reference is given, a blast (9) search is used to find the best
+match. any conflict between the pdb seqres records and
+the sequence derived from the coordinate records is resolved
+by comparison with various sequence databases.
+distant waters. the distances between all water oxygen atoms
+and all polar atoms (oxygen and nitrogen) of the macromolecules,
+ligands and solvent in the asymmetric unit are calculated.
+distant solvent atoms are repositioned using crystallographic
+symmetry such that they fall within the solvation sphere of the
+macromolecule.
+in almost all cases, serious errors detected by these checks are
+corrected through annotation and correspondence with the authors.
+it is also possible to run these validation checks against
+structures before they are deposited. a validation server
+
+237
+
+(http://pdb.rutgers.edu/validate/ ) has been made available for
+this purpose. in addition to the summary report letter, the
+server also provides output from procheck (10), nucheck
+(rutgers university, 1998) and sfcheck (11). a summary
+atlas page and molecular graphics are also produced.
+the pdb will continually review the checking methods used
+and will integrate new procedures as they are developed by the
+pdb and members of the scientific community.
+other data deposition centers
+the pdb is working with other groups to set up deposition
+centers. this enables people at other sites to more easily
+deposit their data via the internet. because it is critical that the
+final archive is kept uniform, the content and format of the
+final files as well as the methods used to check them must be
+the same. at present, the european bioinformatics institute
+(ebi) processes data that are submitted to them via autodep
+(http://autodep.ebi.ac.uk/ ). once these data are processed they
+are sent to the rcsb in pdb format for inclusion in the central
+archive. before this system was put in place it was tested to
+ensure consistency among entries in the pdb archive. in the
+future, the data will be exchanged in mmcif format using a
+common exchange dictionary, which along with standardized
+annotation procedures will ensure a high degree of uniformity
+in the archival data. structures deposited and processed at the
+ebi represent ~20% of all data deposited.
+data deposition will also soon be available from an adit
+web site at the institute for protein research at osaka
+university in japan. at first, structures deposited at this site
+will be processed by the pdb staff. in time, the staff at osaka
+will complete the data processing for these entries and send the
+files to the pdb for release.
+nmr data
+the pdb staff recognizes that nmr data needs a special
+development effort. historically these data have been retrofitted into a pdb format defined around crystallographic information. as a first step towards improving this situation, the
+pdb did an extensive assessment of the current nmr holdings
+and presented their findings to a task force consisting of a
+cross section of nmr researchers. the pdb is working with
+this group, the biomagresbank (bmrb) (12), as well as other
+members of the nmr community, to develop an nmr data
+dictionary along with deposition and validation tools specific
+for nmr structures. this dictionary contains among other
+items descriptions of the solution components, the experimental
+conditions, enumerated lists of the instruments used, as well as
+information about structure refinement.
+data processing statistics
+production processing of pdb entries by the rcsb began on
+january 27, 1999. the median time from deposition to the
+completion of data processing including author interactions is
+less than 10 days. the number of structures with a hold
+release status remains at ~22% of all submissions; 28% are
+held until publication; and 50% are released immediately after
+processing.
+when the rcsb became fully responsible there were about
+900 structures that had not been completely processed. these
+included so called layer 1 structures that had been processed
+by computer software but had not been fully annotated. all of
+
+238
+
+nucleic acids research, 2000, vol. 28, no. 1
+
+figure 3. the integrated query interface to the pdb.
+
+these structures have now been processed and are being
+released after author review.
+the breakdown of the types of structures in the pdb is
+shown in table 2. as of september 14, 1999, the pdb
+contained 10 714 publicly accessible structures with another
+1169 entries on hold. of these, 8789 (82%) were determined
+by x-ray methods, 1692 (16%) were determined by nmr and
+233 (2%) were theoretical models. overall, 35% of the entries
+have deposited experimental data.
+table 2. demographics of data in the pdb
+
+advanced querying capabilities of the pdb makes it critical to
+accelerate the data uniformity process for these data. we are
+now at a stage where the query capabilities surpass the quality
+of the underlying data. the data uniformity project is being
+approached in two ways. families of individual structures are
+being reprocessed using adit. the strategy of processing data
+files as groups of similar structures facilitates the application
+of biological knowledge by the annotators. in addition, we are
+examining particular records across all entries in the archive.
+as an example, we have recently completed examining and
+correcting the chemical descriptions of all of the ligands in the
+pdb. these corrections are being entered in the database. the
+practical consequence of this is that soon it will be possible to
+accurately find all the structures in the pdb bound to a particular
+ligand or ligand type. in addition to the efforts of the pdb to
+remediate the older entries, the ebi has also corrected many of
+the records in the pdb as part of their ‘clean-up’ project. the
+task of integrating all of these corrections done at both sites is
+very large and it is essential that there is a well-defined
+exchange format to do this; mmcif will be used for this
+purpose.
+
+data uniformity
+a key goal of the pdb is to make the archive as consistent and
+error-free as possible. all current depositions are reviewed
+carefully by the staff before release. tables of features are
+generated from the internal data processing database and
+checked. errors found subsequent to release by authors and
+pdb users are addressed as rapidly as possible. corrections
+and updates to entries should be sent to deposit@rcsb.
+rutgers.edu for the changes to be implemented and re-released
+into the pdb archive.
+one of the most difficult problems that the pdb now faces is
+that the legacy files are not uniform. historically, existing data
+(‘legacy data’) comply with several different pdb formats and
+variation exists in how the same features are described for
+different structures within each format. the introduction of the
+
+the pdb database resource
+the database architecture
+in recognition of the fact that no single architecture can fully
+express and efficiently make available the information content
+of the pdb, an integrated system of heterogeneous databases
+has been created that store and organize the structural data. at
+present there are five major components (fig. 3):
+• the core relational database managed by sybase (sybase
+sql server release 11.0, emeryville, ca) provides the
+central physical storage for the primary experimental and
+coordinate data described in table 1. the core pdb relational
+database contains all deposited information in a tabular form
+that can be accessed across any number of structures.
+
+nucleic acids research, 2000, vol. 28, no. 1
+
+239
+
+database query
+three distinct query interfaces are available for the query of data
+within pdb: status query (http://www.rcsb.org/pdb/status.html ),
+searchlite (http://www.rcsb.org/pdb/searchlite.html ) and searchfields (http://www.rscb.org/pdb/queryform.cgi ). table 3
+summarizes the current query and analysis capabilities of the
+pdb. figure 4 illustrates how the various query options are
+organized.
+table 3. current query capabilities of the pdb
+
+figure 4. the various query options that are available for the pdb.
+
+• the final curated data files (in pdb and mmcif formats)
+and data dictionaries are the archival data and are present as
+ascii files in the ftp archive.
+• the pom (property object model)-based databases, which
+consist of indexed objects containing native (e.g., atomic
+coordinates) and derived properties (e.g., calculated secondary
+structure assignments and property profiles). some properties
+require no derivation, for example, b factors; others must be
+derived, for example, exposure of each amino acid residue
+(13) or c contact maps. properties requiring significant
+computation time, such as structure neighbors (14), are precalculated when the database is incremented to save considerable
+user access time.
+• the biological macromolecule crystallization database
+(bmcd; 15) is organized as a relational database within
+sybase and contains three general categories of literature
+derived information: macromolecular, crystal and summary
+data.
+• the netscape ldap server is used to index the textual
+content of the pdb in a structured format and provides
+support for keyword searches.
+it is critical that the intricacies of the underlying physical
+databases be transparent to the user. in the current implementation,
+communication among databases has been accomplished using
+the common gateway interface (cgi). an integrated web
+interface dispatches a query to the appropriate database(s),
+which then execute the query. each database returns the pdb
+identifiers that satisfy the query, and the cgi program integrates
+the results. complex queries are performed by repeating the
+process and having the interface program perform the appropriate
+boolean operation(s) on the collection of query results. a
+variety of output options are then available for use with the
+final list of selected structures.
+the cgi approach [and in the future a corba (common
+object request broker architecture)-based approach] will
+permit other databases to be integrated into this system, for
+example extended data on different protein families. the same
+approach could also be applied to include nmr data found in
+the bmrb or data found in other community databases.
+
+searchlite, which provides a single form field for keyword
+searches, was introduced in february 1999. all textual information
+within the pdb files as well as dates and some experimental
+data are accessible via simple or structured queries. searchfields, accessible since may 1999, is a customizable query
+form that allows searching over many different data items
+including compound, citation authors, sequence (via a fasta
+search; 16) and release or deposition dates.
+two user interfaces provide extensive information for result
+sets from searchlite or searchfields queries. the ‘query
+result browser’ interface allows for access to some general
+information, more detailed information in tabular format, and
+the possibility to download whole sets of data files for result
+sets consisting of multiple pdb entries. the ‘structure
+explorer’ interface provides information about individual
+structures as well as cross-links to many external resources for
+macromolecular structure data (table 4). both interfaces are
+accessible to other data resources through the simple cgi
+application programmer interface (api) described at http://www.
+rcsb.org/pdb/linking.html
+
+240
+
+nucleic acids research, 2000, vol. 28, no. 1
+
+table 4. static cross-links to other data resources currently provided
+by the pdb
+
+the website usage has climbed dramatically since the system
+was first introduced in february 1999 (table 5). as of
+november 1, 1999, the main pdb site receives, on average,
+greater than one hit per second and greater than one query per
+minute.
+table 5. web query statistics for the primary rcsb site
+(http://www.rcsb.org )
+
+• from complete web-based mirror sites that contain all databases, data files, documentation and query interfaces updated
+weekly.
+• from ftp-only mirror sites that contain a complete or subset
+copy of data files, updated at intervals defined by the mirror
+site. the steps necessary to create an ftp-only mirror site are
+described in http://www.rcsb.org/pdb/ftpproc.final.html
+• quarterly cd-rom.
+data are distributed once per week. new data officially
+become available at 1 a.m. pst each wednesday. this follows
+the tradition developed by bnl and has minimized the impact
+of the transition on existing mirror sites. since may 1999, two
+ftp archives have been provided: ftp://ftp.rcsb.org , a reorganized
+and more logical organization of all pdb data, software, and
+documentation; and ftp://bnlarchive.rcsb.org , a near-identical
+copy of the original bnl archive which is maintained for
+purposes of backward compatibility. rcsb-style pdb mirrors
+have been established in japan (osaka university), singapore
+(national university hospital) and in uk (the cambridge
+crystallographic data centre). plans call for operating mirrors in
+brazil, australia, canada, germany, and possibly india.
+the first pdb cd-rom distribution by the rcsb contained
+the coordinate files, experimental data, software and documentation
+as found in the pdb on june 30, 1999. data are currently
+distributed as compressed files using the compression utility
+program gzip. refer to http://www.rcsb.org/pdb/cdrom.html
+for details of how to order cd-rom sets. there is presently no
+charge for this service.
+data archiving
+the pdb is establishing a central master archiving facility.
+the master archive plan is based on five goals: reconstruction
+of the current archive in case of a major disaster; duplication of
+the contents of the pdb as it existed on a specific date; preservation
+of software, derived data, ancillary data and all other computerized
+and printed information; automatic archiving of all depositions
+and the pdb production resource; and maintenance of the pdb
+correspondence archive that documents all aspects of deposition.
+during the transition period, all physical materials including
+electronic media and hard copy materials were inventoried and
+stored, and are being catalogued.
+maintenance of the legacy bnl system
+
+data distribution
+the pdb distributes coordinate data, structure factor files and
+nmr constraint files. in addition it provides documentation
+and derived data. the coordinate data are distributed in pdb
+and mmcif formats. currently, the pdb file is created as the
+final product of data annotation; the program pdb2cif (17) is
+used to generate the mmcif data. this program is used to accommodate the legacy data. in the future, both the mmcif and pdb
+format files created during data annotation will be distributed.
+data are distributed to the community in the following ways:
+• from primary pdb web and ftp sites at ucsd, rutgers and
+nist that are updated weekly.
+
+one of the goals of the pdb has been to provide a smooth
+transition from the system at bnl to the new system. accordingly,
+autodep, which was developed by bnl (18) for data deposition,
+has been ported to the rcsb site and enables depositors to
+complete in-progress depositions as well as to make new
+depositions. in addition, the ebi accepts data using autodep.
+similarly, the programs developed at bnl for data query and
+distribution (pdblite, 3dbbrowser, etc.) are being maintained
+by the remaining bnl-style mirrors. the rcsb provides data
+in a form usable by these mirrors. finally the style and format
+of the bnl ftp archive is being maintained at ftp://bnlarchive.
+rcsb.org
+a multitude of resources and programs depend upon their
+links to the pdb. to eliminate the risk of interruption to these
+services, links to the pdb at bnl were automatically redirected to
+the rcsb after bnl closed operations on june 30, 1999 using
+
+nucleic acids research, 2000, vol. 28, no. 1
+
+241
+
+table 6. pdb information sources
+
+a network redirect implemented jointly by rcsb and bnl
+staff. while this redirect will be maintained, external resources
+linking to the pdb are advised to change any urls from http://
+www.pdb.bnl.gov/ to http://www.rcsb.org/
+current developments
+in the coming months, the pdb plans to continue to improve
+and develop all aspects of data processing. deposition will be
+made easier, and annotation will be more automated. in addition,
+software for data deposition and validation will be made available
+for in-laboratory use.
+the pdb will also continue to develop ways of exchanging
+information between databases. the pdb is leading the object
+management group life sciences initiative’s efforts to define
+a corba interface definition for the representation of macromolecular structure data. this is a standard developed under a
+strict procedure to ensure maximum input by members of
+various academic and industrial research communities. at this
+stage, proposals for the interface definition, including a
+working prototype that uses the standard, are being accepted.
+for further details refer to http://www.omg.org/cgi-bin/doc?lifesci/
+99-08-15 . the finalized standard interface will facilitate the query
+and exchange of structural information not just at the level of
+complete structures, but at finer levels of detail. the standard
+being proposed by the pdb will conform closely to the mmcif
+standard. it is recognized that other forms of data representation
+are desirable, for example using extensible markup language
+(xml). the pdb will continue to work with mmcif as the
+underlying standard from which corba and xml representations can be generated as dictated by the needs of the
+community.
+the pdb will also develop the means and methods of
+communications with the broad pdb user community via the
+web. to date we have developed prototype protein documentaries
+(19) that explore this new medium in describing structure–
+function relationships in proteins. it is also possible to develop
+educational materials that will run using a recent web browser
+(20).
+finally it is recognized that structures exist both in the public
+and private domains. to this end we are planning on providing
+a subset of database tools for local use. users will be able to
+load both public and proprietary data and use the same search
+and exploratory tools used at pdb resources.
+the pdb does not exist in isolation, rather each structure
+represents a point in a spectrum of information that runs from
+
+the recognition of an open reading frame to a fully understood
+role of the single or multiple biological functions of that molecule.
+the available information that exists on this spectrum changes
+over time. recognizing this, the pdb has developed a scheme
+for the dynamic update of a variety of links on each structure to
+whatever else can be automatically located on the internet.
+this information is itself stored in a database and can be
+queried. this feature will appear in the coming months to
+supplement the existing list of static links to a small number of
+the more well known related internet resources.
+pdb advisory boards
+the pdb has several advisory boards. each member institution
+of the rcsb has its own local pdb advisory committee. each
+institution is responsible for implementing the recommendations
+of those committees, as well as the recommendations of an
+international advisory board. initially, the rcsb presented a
+report to the advisory board previously convened by bnl. at
+their recommendation, a new board has been approached
+which contains previous members and new members. the goal
+was to have the board accurately reflect the depositor and user
+communities and thus include experts from many disciplines.
+serious issues of policy are referred to the major scientific
+societies, notably the iucr. the goal is to make decisions
+based on input from a broad international community of
+experts. the iucr maintains the mmcif dictionary as the data
+standard upon which the pdb is built.
+for further information
+the pdb seeks to keep the community informed of new developments via weekly news updates to the web site, quarterly
+newsletters, and a soon to be initiated annual report. users can
+request information at any time by sending mail to info@rcsb.
+org . finally, the pdb-l@rcsb.org listserver provides a community
+forum for the discussion of pdb-related issues. changes to pdb
+operations that may affect the community, for example, data
+format changes, are posted here and users have 60 days to
+discuss the issue before changes are made according to major
+consensus. table 6 indicates how to access these resources.
+conclusion
+these are exciting and challenging times to be responsible for
+the collection, curation and distribution of macromolecular
+
+242
+
+nucleic acids research, 2000, vol. 28, no. 1
+
+structure data. since the rcsb assumed responsibility for data
+deposition in february 1999, the number of depositions has
+averaged approximately 50 per week. however, with the
+advent of a number of structure genomics initiatives worldwide this number is likely to increase. we estimate that the
+pdb, which at this writing contains approximately 10 500
+structures, could triple or quadruple in size over the next
+5 years. this presents a challenge to timely distribution while
+maintaining high quality. the pdb’s approach of using
+modern data management practices should permit us to scale to
+accommodate a large data influx.
+the maintenance and further development of the pdb are
+community efforts. the willingness of others to share ideas,
+software and data provides a depth to the resource not obtainable
+otherwise. some of these efforts are acknowledged below.
+new input is constantly being sought and the pdb invites you
+to make comments at any time by sending electronic mail to
+info@rcsb.org
+acknowledgements
+research collaboratory for structural bioinformatics (rcsb) is a
+consortium consisting of three institutions: rutgers university,
+san diego supercomputer center at university of california,
+san diego, and the national institute of standards and technology.
+the current rcsb pdb staff include the authors indicated and
+kyle burkhardt, anke gelbin, michael huang, shri jain,
+rachel kramer, nate macapagal, victoria colflesh, bohdan
+schneider, kata schneider, christine zardecki (rutgers);
+phoebe fagan, diane hancock, narmada thanki, michael
+tung, greg vasquez (nist); peter arzberger, john badger,
+douglas s. greer, michael gribskov, john kowalski, glen
+otero, shawn strande, lynn f. ten eyck, kenneth yoshimoto
+(ucsd). the continuing support of ken breslauer (rutgers),
+john rumble (nist) and sid karin (sdsc) is gratefully
+acknowledged. current collaborators contributing to the future
+development of the pdb are the biomagresbank, the
+cambridge crystallographic data centre, the hiv protease
+database group, the institute for protein research, osaka
+university, national center for biotechnology information,
+the relibase developers, and the swiss institute for bioinformatics/glaxo. we are especially grateful to kim henrick
+of the ebi and steve bryant at ncbi who have reviewed our
+files and sent back constructive criticisms. this has helped the
+pdb to continuously improve its procedures for producing
+entries. the cooperation of the bnl pdb staff is gratefully
+acknowledged. portions of this article will appear in volume f
+of the international tables of crystallography. this work is
+supported by grants from the national science foundation, the
+office of biology and environmental research at the department
+of energy, and two units of the national institutes of health:
+the national institute of general medical sciences and the
+national institute of medicine.
+
+references
+1. bernstein,f.c., koetzle,t.f., williams,g.j., meyer,e.e., brice,m.d.,
+rodgers,j.r., kennard,o., shimanouchi,t. and tasumi,m. (1977)
+j. mol. biol., 112, 535–542.
+2. bourne,p., berman,h.m., watenpaugh,k., westbrook,j.d. and
+fitzgerald,p.m.d. (1997) methods enzymol., 277, 571–590.
+3. westbrook,j. and bourne,p.e. (2000) bioinformatics, in press.
+4. markley,j.l., bax,a., arata,y., hilbers,c.w., kaptein,r., sykes,b.d.,
+wright,p.e. and wüthrich,k. (1998) j. biomol. nmr, 12, 1–23.
+5. engh,r.a. and huber,r. (1991) acta crystallogr., a47, 392–400.
+6. clowney,l., jain,s.c., srinivasan,a.r., westbrook,j., olson,w.k. and
+berman,h.m. (1996) j. am. chem. soc., 118, 509–518.
+7. gelbin,a., schneider,b., clowney,l., hsieh,s.-h., olson,w.k. and
+berman,h.m. (1996) j. am. chem. soc., 118, 519–528.
+8. iupac–iub joint commission on biochemical nomenclature (1983)
+eur. j. biochem., 131, 9–15.
+9. zhang.j., cousens,l.s., barr,p.j. and sprang,s.r. (1991) proc. natl
+acad. sci. usa, 88, 3346–3450.
+10. laskowski,r.a., mcarthur,m.w., moss,d.s. and thornton,j.m. (1993)
+j. appl. crystallogr., 26, 283–291.
+11. vaguine,a.a., richelle,j. and wodak,s.j. (1999) acta crystallogr., d55,
+191–205.
+12. ulrich,e.l., markley,j.l and kyogoku,y. (1989) protein seq. data anal.,
+2, 23–37.
+13. lee,b. and richards,f.m. (1971) j. mol. biol., 55, 379–400.
+14. shindyalov,i.n. and bourne,p.e. (1998) protein eng., 11, 739–747.
+15. gilliland,g.l. (1988) j. cryst. growth, 90, 51–59.
+16. pearson,w.r. and lipman,d.j. (1988) proc. natl acad. sci. usa, 24,
+2444–2448.
+17. bernstein,h.j., bernstein,f.c. and bourne,p.e. (1998) j. appl.
+crystallogr., 31, 282–295.
+18. laboratory,b.n. (1998) autodep, version 2.1. upton, ny.
+19. quinn,g., taylor,a., wang,h.-p. and bourne,p.e. (1999) trends
+biochem. sci., 24, 321–324.
+20. quinn,g., wang,h.-p., martinez,d. and bourne,p.e. (1999)
+pacific symp. biocomput., 380–391.
+21. siddiqui,a. and barton,g. (1996) perspectives on protein engineering
+1996, 2, (cd-rom edition; geisow,m.j. ed.) biodigm ltd (uk).
+isbn 0-9529015-0-1.
+22. orengo,c.a., michie,a.d., jones,s., jones,d.t., swindels,m.b. and
+thornton,j.m. (1997) structure, 5, 1093–1108.
+23. kabsch,w. and sander,c. (1983) biopolymers, 22, 2277–2637.
+24. holm,l. and sander,c. (1998) nucleic acids res., 26, 316–319.
+25. nayal,m., hitz,b.c. and honig,b. (1999) protein sci., 8, 676–679.
+26. dodge,c., schneider,r. and sander,c. (1998) nucleic acids res., 26,
+313–315.
+27. suhnel,j. (1996) comput. appl. biosci., 12, 227–229.
+28. hogue,c., ohkawa,h. and bryant,s. (1996) trends biochem. sci., 21,
+226–229.
+29. berman,h.m., olson,w.k., beveridge,d.l., westbrook,j., gelbin,a.,
+demeny,t., hsieh,s.h., srinivasan,a.r. and schneider,b. (1992)
+biophys. j., 63, 751–759.
+30. weissig,h., shindyalov,i.n. and bourne,p.e. (1998) acta crystallogr.,
+ xxxd54xxx , 1085–1094.
+31. laskowski,r.a., hutchinson,e.g., michie,a.d., wallace,a.c.,
+jones,m.l. and thornton,j.m. (1997) trends biochem. sci., 22, 488–490.
+32. murzin,a.g., brenner,s.e., hubbard,t. and chothia,c. (1995)
+j. mol. biol., 247, 536–540.
+33. neshich,g., togawa,r., vilella,w. and honig,b. (1998) protein data
+bank quarterly newsletter, 84.
+34. westhead,d., slidel,t., flores,t. and thornton,j. (1998) protein sci., 8,
+897–904.
+35. gibrat,j.-f., madej,t. and bryant,s.h. (1996) curr. opin. struct. biol., 6,
+377–385.
+36. hooft,r.w.w., sander,c. and vriend,g. (1996) j. appl. crystallogr., 29,
+714–716.
+

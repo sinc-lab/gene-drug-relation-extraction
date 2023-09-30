@@ -1,0 +1,834 @@
+hon p.1 [100%]
+
+yakugaku zasshi 126(12) 1301―1308 (2006)  2006 the pharmaceutical society of japan
+
+1301
+
+―reviews―
+
+バイオセンサーによる有機リン剤等の検知
+安斉順一
+
+use of biosensors for detecting organophosphorus agents
+jun-ichi anzai
+graduate school of pharmaceutical sciences, tohoku university, aramaki, aoba-ku, sendai 9808578, japan
+(received july 26, 2006)
+the present paper reviews the use of electrochemical biosensors for detecting organophosphorus pesticides and
+nerve agents. acetylcholine esterase (ache)-immobilized electrodes have been used for detecting ache inhibitors including organophosphorus and carbamate pesticides. the sensors are composed of ache and choline oxidase (chox)
+for converting the ache-generated choline into betaine and hydrogenperoxide (h2o2 ), which is electrochemically oxidized at the electrode surface to produce the output signal of the sensor. in the presence of ache inhibitors, the suppressed output signal of the sensor can be observed. if the sensors are operated in the presence of acetylthiocholine as a
+substrate of ache, one can eliminate chox from the sensor design because enzymatically generated thiocholine is electrochemically active and thus directly oxidized at the electrode without using chox. electron-transfer mediators such as
+tetracyanoquinodimethane have often been used for catalytically oxidizing thiocholine at the electrode set at less positive
+potential, which is ešective in circumventing possible interference arising from oxidizing compounds in the sample solution. one of the drawbacks of the ache-based biosensors in detecting organophosphorus pesticides and nerve agents
+arises from the fact that the sensors indirectly detect the signal based on the inhibition of the ache-catalyzed reaction.
+on the other hand, for directly obtaining the output signal, organophosphorus hydrolase (oph) is immobilized on the
+electrode surface to prepare amperometric biosensors. oph catalyzes the hydrolysis reaction of organophosphorus
+compounds to produce electrochemically active compounds such as  xxxd2821xxx  and thiols from parathion and vx,
+respectively. thus oph-based sensors can be used for detecting these compounds directly. these biosensors would be
+useful for in-site measurements of organophosphorus pesticides and nerve agents because portable-type biosensors are
+easily fabricated at relatively low cost.
+key words―biosensor; electrode; organophosphorus pesticide; nerve agent
+
+1.
+
+はじめに
+
+有機リン剤はコリンエステラーゼ阻害により人体
+
+法についてこれまでの研究例を紹介する．
+2.
+
+バイオセンサーの構造と作動原理
+
+に重篤な影響を与えることは周知のことである．環
+
+バイオセンサーは電極などのトランスジューサー
+
+境汚染の防止という意味からもまた犯罪防止の観点
+
+と生体材料を組み合わせて作製される小型計測装置
+
+からも，これらの物質を簡便にその場で検出するこ
+
+であり，酵素，抗体，細胞，dna などの生体由来
+
+とが重要である．小型電極を用いたバイオセンサー
+
+の材料を装置の一部に含むためにバイオセンサーと
+
+は操作が簡便で携帯することも可能であり，この目
+
+称される．測定対象物質は千差万別であるが，環境
+
+的には好適な装置である．本稿では，始めに酵素と
+
+計測や医療計測などに幅広く応用されている．1―3)
+
+電極を組み合わせて作製されたバイオセンサーの構
+
+figure 1 にバイオセンサーの概念と汎用されるトラ
+
+造や測定原理と装置について解説し，次にバイオセ
+
+ンスジューサー及び生体材料の例をまとめた．バイ
+
+ンサーによる有機リン剤や神経剤など危険物の検出
+
+オセンサーは，測定対象物質が存在する試料溶液
+（又は試料ガス）と接触すると，酵素などの生体材
+
+東北大学大学院薬学研究科（〒9808578 仙台市青葉区
+荒巻字青葉 63）
+e-mail: junanzai＠mail.pharm.tohoku.ac.jp
+本総説は，日本薬学会第 126 年会シンポジウム s38 で
+発表したものを中心に記述したものである．
+
+料が対象物質と何らかの化学反応を起こす（酵素な
+らば基質の触媒反応，抗体ならば抗原の結合）．こ
+の化学反応は電極表面で起きるので，化学反応の種
+類に適した方式で電気信号を発生させることができ
+
+hon p.2 [100%]
+
+1302
+
+vol. 126 (2006)
+
+能で，例えば髪の毛程度の太さの金属の細線を用い
+て作製したセンサーは，単一細胞に突き刺して細胞
+内部の測定に使用するといったこともできる．通常
+の環境計測や医療計測では常に極端な微小化が要求
+される訳ではないので，研究室における実験では直
+径が 3 ― 5 mm 程度の白金や金（あるいは炭素）の
+細い線をプラスチックの棒の中心に埋め込んで，円
+盤状に露出した先端をディスク電極として使用する
+ことが多い．しかし，個々のセンサーを微小化すれ
+ば同一の装置に多量の微小センサーを集積化するこ
+とが可能となるので，センサーを微小化する研究が
+活発に行われている．一般には，電極が微小化され
+て表面積が小さくなると得られる電流値は低下し必
+然的にノイズも増大するので，微小化されたセン
+サーにより有効な信号を観測するのはかならずしも
+容易ではない．
+fig. 1.
+
+a schematic illustration of biosensors
+
+figure 2 に電極を用いたバイオセンサーの測定装
+
+置を模式的に示した．電極部分と電流を測定する電
+流計の部分に大別できるが，バイオセンサーとして
+る．このとき発生した電気信号の大小は試料中に存
+
+重要なのは電極部分である．後者の電流計などは優
+
+在する測定対象物質の濃度に依存するので，対象物
+
+れた装置が市販されており適宜選択すれば問題はな
+
+質の濃度を電気信号（通常は電流）として検出する
+
+い．電極部分は，三本又は二本の電極から構成され
+
+ことができる．figure 1 に示した種々のセンサー材
+
+る．すなわち，酵素等が固定化された作用電極，電
+
+料のうち，電極に酵素を固定化したバイオセンサー
+
+流を流すための対極，及び作用電極の電位を設定す
+
+が従来から最も広く研究されており，既に市販され
+
+る際の基準となる参照電極である．これらの電極を
+
+ているバイオセンサーもある．本稿で紹介する有機
+
+別々に試料液に挿入して測定することもできるし，
+
+リン剤等を測定するバイオセンサーも，金属又は炭
+
+必要に応じてみかけ上は一本の電極に一体化するこ
+
+素を材料とする電極の表面にコリンエステラーゼ等
+
+ともできる．また，微小化などの都合があるときに
+
+を固定化した構造になっている．バイオセンサーは
+
+は，参照電極は除外して二電極系として，対極を疑
+
+市販されているものはかならずしも多くないので，
+
+似参照電極として用いることもある．figure 2 に示
+
+しばしば測定する目的に応じて自作する必要があ
+
+したのは，個別の試料にセンサーを挿入して測定す
+
+る．その際に，適切な電極や生体材料を選択するこ
+
+る方式（いわゆるバッチ方式）であるが，流れ分析
+
+とはもちろん大切であるが，生体材料を電極表面に
+
+系を組んで試料溶液の流路に電極を装備させるよう
+
+効果的に固定化することも重要であり，固定化法の
+
+に設計すれば，センサーによる連続測定ができる．
+
+適否によりバイオセンサーの性能は著しく左右され
+
+このような方式は，既にクロマトグラフィーの電気
+
+る．そのため，電極等への生体材料（主に酵素や抗
+
+化学検出器として広く利用されている．
+
+体などのタンパク質）の固定化法はそれ自体広範に
+
+本稿では以下に，有機リン剤等を検出するバイオ
+
+研究されて今日まで種々の方法が確立されている
+
+センサーについて，作動方式の違いに着目しながら
+
+が，一長一短があり現在でもすべての要求を満たす
+
+測定原理や性能についてこれまでの研究例を紹介す
+
+固定化法はないのが実状である．
+
+る．
+
+バイオセンサーの装置は電極に酵素などを固定化
+したものなので，一般の分析装置に比べて簡便であ
+る．また，センサーのサイズを微小化することも可
+
+3.
+
+コリンエステラーゼ・コリンオキシダーゼ複
+
+合酵素型センサー
+当初はアセチルコリンを測定する目的で，アセチ
+
+hon p.3 [100%]
+
+no. 12
+
+1303
+
+fig. 2.
+
+an apparatus for electrochemical measurements using biosensors
+
+a: working electrode (sensor), b: reference electrode, c: counter electrode, d: sample solution, e: electrometer, f: recorder.
+
+scheme 1.
+
+enzyme and electrochemical reactions involved in ache/chox-based organophosphorus agent sensors
+
+ル コ リ ン エ ス テ ラ ー ゼ （ acetylcholine esterase,
+
+消費されるので， eq. ( 3 )の電解反応により h2o2
+
+ache ）とコリンオキシダーゼ（ choline oxidase,
+
+生成量を求める代わりに，市販の酸素電極にこれら
+
+chox）の 2 種類の酵素を 1 つの電極に固定化した
+
+の酵素を固定化してセンサーとし，酸素濃度の変化
+
+バイオセンサーが開発された．4,5)
+
+このアセチルコリ
+
+からアセチルコリン濃度を求める方法もある．筆者
+
+ンセンサーでは， scheme 1 に示すように eqs. ( 1 )
+
+らは，電極表面に固定化される ache と chox の
+
+と( 2 )の ache と chox の逐次反応及び eq. ( 3 )の
+
+触媒活性の比を最適化することを試みて， h2o2 測
+
+電気化学反応に基づいて電気信号が発生する．すな
+
+定方式のアセチルコリンセンサーの高性能化を達成
+
+わち， ache の触媒反応により生成したコリンが
+
+した．6)
+
+chox によりベタインに酸化される際に，過酸化水
+
+ところで，有機リン剤は ache に不可逆的に結
+
+素（h2o2 ）が生成される．h2o2 は易酸化性物質な
+
+合して触媒反応を阻害するので，アセチルコリンが
+
+ので＋0.6 v 程度に設定された電極の表面で電解酸
+
+存在する溶液中に有機リン剤が共存すれば eq. (1)
+
+化され，その際の酸化電流の値はアセチルコリンの
+
+の反応は部分的に阻害されて，コリンの生成速度は
+
+濃度に依存し，電流値からアセチルコリン濃度を求
+
+低下する．このため， eqs. ( 2 )及び( 3 )の反応速度
+
+めることができる．なお eq. ( 2 )の反応では o2 が
+
+も低下するので，センサーの電流応答は減少する
+
+hon p.4 [100%]
+
+1304
+
+vol. 126 (2006)
+
+（ fig. 3 ）． そ の 結 果 ， 試 料 液 中 の 有 機 リ ン 剤 の
+ache 阻害物質の濃度が増大すれば fig. 3 におけ
+
+る -di は大きくなる．この関係を用いて，ache 阻
+害物質を検出することができる（なお，fig. 3 はセ
+ンサーの一般的な応答性を示したものであり，ある
+一定の条件下でセンサーを用いて実測した応答曲線
+ではない）．この原理に基づいたバイオセンサーに
+よる有機リン剤等の測定が広範に報告されている
+が，報告例を table 1 にまとめた．7―11) table 1 に
+まとめたセンサーは多くは有機リン系及びカルバ
+メート系農薬の検出を目的としたものである．筆者
+
+fig. 3. a typical response of ache/chox-based biosensors
+to organophosphorus agents
+
+らもこの方法により， pm レベルのトリクロルフォ
+
+a: addition of acethylcholine, b: addition of organophosphorus agent.
+
+ン（ fig.
+
+4 ）が測定できることを報告している．12)
+
+なお，ache の代わりにブチルコリンエステラーゼ
+（ buche ）が使用されることもある．この場合に
+は，酵素の基質としてアセチルコリンではなくブチ
+ルコリンが用いられる．
+figure 3 に示したように，測定対象とする試料に
+ache 阻害物質が含まれれば電流の減少が観察され
+
+fig. 4.
+
+the chemical structure of trichlorfon
+
+るので，定性的判断には長い時間は必要としない．
+しかし，阻害物質の濃度を定量するためにはセン
+サーの検量線をあらかじめ作成することが必要なの
+で迅速性には劣る．
+4.
+
+コリンエステラーゼ型センサー
+
+table 1. ache-chox bienzyme-based biosensors for detecting organophosphorus compounds
+electrode
+
+上 述 の セ ン サ ー で scheme 1 中 の eq. ( 1 ) の
+ache の反応阻害が応答電流の減少を引き起こすた
+
+めには，eq. (1)が eqs. (1)―(3)の反応全体の律速
+
+carbon paste
+oxygen electrode
+
+段階にならなければならない．したがって，2 種類
+の酵素のうち ache に対して chox を過剰に固定
+化して eq. (2)の反応速度を速くするのが普通であ
+る．equation (3)の電極反応は速いので，このよう
+な条件にすれば eq. (1)の反応速度が相対的に遅く
+なり，全体の律速段階になって ache 阻害物質の
+
+dendrimer-coated gold
+electrode
+screen-printed carbon
+electrode
+screen-printed carbon
+electrode
+
+濃度を測定することができる．このように，ache
+と chox を同時に用いるセンサーの設計にはやや
+
+gold electrode
+
+organophosphorus
+reference
+compound
+(lower detection limit)
+paraoxon (0.1 nm )
+carbofuran (0.1 nm )
+aldicarb (50 nm )
+carbofuran (2 nm )
+carbaryl (19 nm )
+dichlorvos (5 pm )
+carbofuran (50 pm )
+methyl parathion
+(50 nm )
+paraoxon (19 nm )
+chlorpyrifos ethyl
+oxon (1 nm )
+trichlorfon (4 pm )
+
+7)
+8)
+
+9)
+10)
+11)
+
+12)
+
+煩雑な面がある．さらに， ache と chox の単位
+重量当たりの触媒活性はかなり異なることが多いの
+で，固定化する ache と chox の比を最適化する
+
+eqs. ( 2 )及び( 3 )の反応を用いるまでもなく電気信
+
+必要があることも煩雑さを増している．ところで
+
+号を得ることができる．このような観点から， eq.
+
+ache と chox の 2 種類の酵素を用いるのは， eq.
+
+(1)の ache の基質としてアセチルチオコリンを用
+
+(1 )の反応で生成するコリンは酸化還元電位が非常
+
+いることにより，ache だけを固定化したセンサー
+
+に高いので電極で直接酸化できないためである．も
+
+を開発することが検討された（scheme 2）．
+
+し， eq. ( 1 )の反応生成物が電極で酸化できれば，
+
+アセチルチオコリンが eq. (4)に従って ache に
+
+hon p.5 [100%]
+
+no. 12
+
+1305
+
+scheme 2.
+
+enzyme and electrochemical reactions involved in ache-based sensors using acethyl thiocholine
+
+より加水分解されて生成するチオコリンは，電極で
+
+table 2.
+
+ache-based biosensors using acetylthiocholine
+
+酸化されて 2 量体のジチオビスコリンとなる（ eq.
+5)．このときの酸化電流はチオコリンの濃度に依存
+
+するので，もし試料中に ache 阻害物質が共存し
+て ache の触媒活性が低下すれば，電極表面で生
+成されるチオコリンの濃度が減少して酸化電流値は
+低下する．この電流値の低下から ache 阻害物質
+を検出することができる． table 2 にチオコリンの
+電解酸化に基づくセンサーの研究例をまとめ
+た．13―16)
+
+電極材料や酵素固定化法が種々検討され
+
+ているが，いずれも nm レベルの有機リンあるいは
+
+electrode
+screen-printed carbon
+electrode
+screen-printed carbon
+electrode（tcnq)a)
+screen-printed carbon
+electrode (tcnq)a)
+carbon nanotube electrode
+
+organophosphorus
+reference
+compound
+(lower detection limit)
+dichlorvos (10 nm )
+
+13)
+
+carbaryl (10 nm )
+carbofuran (0.8 nm )
+carbaryl (55 nm )
+
+14)
+
+methy parathion
+(100 nm )
+paraoxon (0.4 pm )
+
+15)
+
+16)
+
+a) tcnq ：tetracyanoquinodimethane was used as electron transfer
+mediator.
+
+カルバメート類が検出されている． table 2 の中に
+は，チオコリンを電極で直接酸化して電流信号を得
+ているセンサーもあるが，多くは電子メディエー
+ター（med）を用いて低い酸化電位で検出する方法
+を採用している．この方法は，チオコリンよりも低
+い電位で酸化還元反応が進む med の酸化型により
+チオコリンを酸化して，その結果還元型になった
+med を電極で再酸化して触媒的に使用するもので
+
+ある．このようにすると，より低い電位でチオコリ
+ンを検出できるので，試料液中に含まれる可能性の
+
+fig. 5. a schematic illustration of mechanism for an electron mediator-based sensors
+
+ある妨害物質の影響を受けずに測定ができるので有
+用である． med を用いる測定原理を fig. 5 に示し
+た． table 2 に示した例ではテトラシアノキノジメ
+
+センサーでは，チオコリンの検出限界は 0.3 mm と
+
+タン（tcnq）が med として使用されている．
+
+報告されている．17) カーボンナノチューブは表面積
+
+最近，チオコリンを酸化して信号を得るセンサー
+
+が広いので電流応答が大きいことやコストも比較的
+
+の電極材料としてカーボンナノチューブが優れてい
+
+低いことなど利点が多く，バイオセンサー用の電極
+
+ることが見出された．炭素電極の表面に ache と
+
+材料として有望である．18,19)
+
+カーボンナノチューブを薄膜状に被覆して作製した
+
+4- アミノフェニル酢酸を ache の基質として用
+
+hon p.6 [100%]
+
+1306
+
+vol. 126 (2006)
+
+いると，生成物の 4- アミノフェノールは med を使
+
+ていることである．このため，測定する試料溶液に
+
+用しなくても 0.1 v 程度の低い電位で酸化されるの
+
+ache の本来の基質であるアセチルコリンやアセチ
+
+で，共存物による妨害を考慮する必要がないので有
+
+ルチオコリンなどを試薬として添加しなければなら
+
+また，4- アミノフェニル酢酸は油溶性
+
+ない煩雑さがある．実際の測定操作では，試薬を加
+
+が高いので有機溶剤を含む系の有機リン類の検出に
+
+える段階と試料を測定する段階の二段操作になる．
+
+も適している．しかし，アセトニトリルやエタノー
+
+さらに，ache に対する有機リン剤等の阻害は不可
+
+ルなどが 20 ％を超えると ache の活性が著しく低
+
+逆であることが多く，センサーの再使用には再生の
+
+下するので，使用する有機溶剤の含量には注意を要
+
+操作が必要とされる．このような弱点を回避するた
+
+すると報告されている．20)
+
+めに，有機リン剤を分解する酵素の探索が行われ，
+
+用である．20)
+
+ache を電極以外のトランスジューサーと組み合
+
+土壌細菌から有機リンヒドロラーゼ（ organophos-
+
+わせて，ache 阻害物質を検出することも可能であ
+
+phorus hydrolase, oph）が見出された．oph は基
+
+る． equations ( 1 )と( 4 )から分かるように， ache
+
+質特異性が高くないので，パラチオンを始めとする
+
+の触媒反応では加水分解生成物として酢酸が生成す
+
+多くの有機リン農薬やサリン，ソマン，vx など化
+
+る．したがって，固定化酵素の近傍では局所的に
+
+学剤を加水分解することができる．また， oph は
+
+ph が酸性になるので，適切な ph 応答色素を用い
+
+ache とは異なりカルバメート類は加水分解しない
+
+ると ache の酵素反応を色の変化として検出する
+
+ので，有機リン剤だけを検出することができる．
+
+ことができる．中性付近で色調が変化するブロモク
+
+scheme 3 に，パラチオン及び vx の oph によ
+
+レゾールパープルと ache を光ファイバーの先端
+
+る加水分解反応を示した．パラチオンでは加水分解
+
+に固定化して作製した携帯型センサーは，効果的に
+
+により p- ニトロフェノールが生成するので，これ
+
+有機リンやカルバメート類を検出することができる
+
+を電極で酸化して電流信号を得ることができる．ま
+
+と報告されている．21)
+
+た，vx ではチオールが生成するので酸化電流を得
+
+こ れ ま で 述 べ た ache を 用 い た セ ン サ ー は ，
+
+ることができる．このように， oph を電極に固定
+
+ache に不可逆的に結合した阻害物質をプラドキシ
+
+化すると酵素の直接反応により信号を得ることがで
+
+ム（ pam ）により除いて再活性化すれば繰り返し
+
+きるので，ache を用いるセンサーと比べると操作
+
+て使用することが可能である．しかし一般には，炭
+
+が一段階なので簡便である．wang らの研究によれ
+
+素プリント電極など安価な電極材料を用いてディス
+
+ば，oph を電極に固定化したセンサーで 0.1 mm 程
+
+ポーザブル型センサーとすることが得策であろう．
+
+度のパラチオンやメチルパラチオンが検出でき
+
+有機リンヒドロラーゼを用いるセンサー
+
+る．22) また，長さ 16 m のケーブルの先端に電極を
+
+ache を用いて作製したセンサーの最大の弱点
+
+装着したリモート操作型のセンサーを作製すると，
+
+は，酵素阻害の程度を指標として間接的に信号を得
+
+vx や rvx が mm レベルまで検出することが可能
+
+5.
+
+scheme 3.
+
+oph-catalyzed hydrolysis reactions of parathion and vx
+
+hon p.7 [100%]
+
+no. 12
+
+1307
+
+であったと報告されている．23) oph を固定化した
+センサーでもカーボンナノチューブの利用が有効で
+あることが示された．24)
+
+さらに， oph を ph 電極
+
+と組み合わせたセンサーや ph 変化に伴う色調の変
+化を信号とする光学センサーなども作製することが
+できる．25)
+6.
+
+結
+
+7)
+8)
+9)
+
+論
+
+以上のように，ache や oph などの酵素を利用
+
+10)
+
+したバイオセンサーが有機リン剤など化学剤の検出
+に有効に機能することが示されている．現場に携帯
+できる小型バイオセンサーも容易に作製でき，ま
+た，屋外の定点へ恒常的に設置して自動連続測定す
+
+11)
+12)
+
+ることもできる．さらに，製造コストも他の計測装
+置に比較して安価であること，操作が簡便で熟練技
+
+13)
+
+術は必要としないことなど，利点が多い．ただし，
+クロマトグラフィー法や質量分析法などに比べる
+
+14)
+
+と，超微小量の検出や化学成分の厳密な識別などに
+は弱点を有している．また，酵素を使用するので長
+
+15)
+
+期安定性に劣ることが多い．このような特性を十分
+考慮して他の計測装置と併用すれば，バイオセン
+
+16)
+
+サーが危険物の検出に効果的に活用されるものと思
+17)
+
+われる．
+なお， ache や oph を利用したバイオセンサー
+の最近の研究動向をまとめた総説が発表されている
+ので参照されたい．26,27) また本稿では触れなかった
+が，爆発物やシアン類などの危険物を検出すること
+
+18)
+19)
+
+を目的としたセンサーの研究も進展している．28―30)
+references
+1)
+
+2)
+
+3)
+
+4)
+5)
+6)
+
+rogers k., mulchandani a., zhou w.,
+``biosensor and chemical sensor technology,'' american chemical society, washington, dc, 1995.
+mirsky v. m., ``ultrathin electrochemical
+chemo- and biosensors,'' springer-verlag,
+berlin, heidelberg, new york, 2004.
+gorton l., ``biosensors and modern biospeciˆc analytical techniques,'' elsevier b.
+v., amsterdam, 2005.
+guerreri a., palmisano f., anal. chem., 73,
+28752882 (2001).
+navera e. n., sode k., tamiya e., karube i.,
+biosens. bioelectron., 6, 675680 (1991).
+chen q., kobayashi y., takeshita h., hoshi
+t., anzai j., electroanalysis, 10, 9497
+
+20)
+21)
+22)
+
+23)
+
+24)
+
+25)
+
+26)
+
+（1998).
+ciucu a. a., negulescu c., baldwin r. p.,
+biosens. bioelectron., 18, 303310 (2003).
+kok f. n., hasirci v., biosens. bioelectron.,
+19, 661665 (2004).
+snejdarkova m., svobodova l., nikolelis d.
+p., wang j., hianik t., electroanalysis, 15,
+11851191 (2003).
+lin y.-h., lu f., wang j., electroanalysis,
+16, 145149 (2004).
+andreescu s., noguer t., magearu v., marty
+j.-l., talanta, 57, 169176 (2002).
+shi h., zhao z., song z., huang j., yang y.,
+anzai j., osa t., chen q., electroanalysis,
+17, 12851290 (2005).
+shi m., xu j., zhang s., liu b., kong j.,
+talanta, 68, 10891095 (2006).
+bucur b., fournier d., danet a., marty j.-l.,
+anal. chim. acta, 562, 115121 (2006).
+carlo m. d., mascini m., pepe a., diletti g.,
+compagnone d., food chem., 84, 651656
+(2004).
+liu g., lin y., anal. chem., 78, 835843
+(2006).
+liu g., lee s., consuelo m., lin y., electrochem. commun., 7, 11631169 (2005).
+gooding j. j., electrochim. acta, 50, 3049
+3060 (2005).
+merkoci a., pumera m., llopis x., perez b.,
+del valle m., alegret s., trend anal. chem.,
+24, 826838 (2005).
+andreescu s., noguer t., magearu v., marty
+j. l., talanta, 57, 169176 (2002).
+andreou v. g., clonis y. d., biosens. bioelectron., 17, 6169 (2002).
+mulchandani a., mulchandani p., chen w.,
+wang j., chen l., anal. chem., 71, 2246
+2249 (1999).
+wang j., chen l., mulchandani a., mulchandani p., chen w., electroanalysis, 11, 866
+869 (1999).
+joshi k. a., prouza m., kum m., wang j.,
+tang j., haddon r., chen w., mulchandani
+a., anal. chem., 78, 331336 (2006).
+arribas a. a., vazquez t., wang j., mulchandani a., chen w., electrochem. commun., 7, 13711374 (2005).
+andreescu s., marty j.-l., biomol. eng., 23,
+115 (2006).
+
+hon p.8 [100%]
+
+1308
+
+27)
+
+28)
+
+vol. 126 (2006)
+
+mulchandani a., chen w., mulchandani p.,
+wang j., rogers k. r., biosens. bioelectron.,
+16, 225230 (2001).
+wang j., anal. chim. acta, 507, 310 (2004).
+
+29)
+30)
+
+fu x., benson r., wang j., fries d., sens.
+actuat. b, 106, 296301 (2005).
+shankaran d. r., matsumoto k., toko k.,
+miura n., sens. actuat. b, 114, 7179 (2006).
+

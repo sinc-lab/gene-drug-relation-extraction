@@ -1,0 +1,1210 @@
+biochimica et biophysica acta 1764 (2006) 199 – 210
+http://www.elsevier.com/locate/bba
+
+the role of lysine residues 297 and 306 in nucleoside triphosphate
+regulation of e. coli  xxxg546xxx : inactivation by 2′,3′-dialdehyde
+atp and mutational analyses
+travis j. macleod, faylene a. lunn, stephen l. bearne ⁎
+department of biochemistry and molecular biology, dalhousie university, halifax, nova scotia, canada b3h 1x5
+received 26 july 2005; received in revised form 16 november 2005; accepted 28 november 2005
+available online 27 december 2005
+
+abstract
+cytidine 5′-triphosphate synthase ( xxxg546xxx ) catalyzes the atp-dependent formation of ctp from utp using either nh3 or l-glutamine as the
+source of nitrogen. to identify the location of the atp-binding site within the primary structure of e. coli  xxxg546xxx , we used the affinity label 2′,3′dialdehyde adenosine 5′-triphosphate ( xxxg2163xxx ).  xxxg2163xxx  irreversibly inactivated  xxxg546xxx  in a first-order, time-dependent manner while atp protected
+the enzyme from inactivation. in the presence of 10 mm utp, the values of kinact and ki were 0.054 ± 0.001 min−1 and 3.36 ± 0.02 mm,
+respectively.  xxxg546xxx  was labeled using (2,8-3h) xxxg2163xxx  and subsequently subjected to trypsin-catalyzed proteolysis. the tryptic peptides were
+separated using reversed-phase hplc, and two peptides were identified using n-terminal sequencing (s(492)gddqlveiievpnh(506) and y
+(298)ielpday(k(306)) in a 5:1 ratio). the latter suggested that lys 306 had been modified by  xxxg2163xxx . replacement of lys 306 by alanine reduced
+the rate of  xxxg2163xxx -dependent inactivation (kinact = 0.0058 ± 0.0005 min−1, ki = 3.7 ± 1.3 mm) and reduced the apparent affinity of  xxxg546xxx  for both atp
+and utp by approximately 2-fold. the efficiency of k306a-catalyzed glutamine-dependent ctp formation was also reduced 2-fold while near
+wild-type activity was observed when nh3 was the substrate. these findings suggest that lys 306 is not essential for atp binding, but does play a
+role in bringing about the conformational changes that mediate interactions between the atp and utp sites, and between the atp-binding site and
+the glutamine amide transfer domain. replacement of the nearby, fully conserved lys 297 by alanine did not affect nh3-dependent ctp
+formation, relative to wild-type  xxxg546xxx , but reduced kcat for the  xxxg907xxx  activity 78-fold. our findings suggest that the conformational change
+associated with binding atp may be transmitted through the l10-alpha11 structural unit (residues 297–312) and thereby mediate effects on the
+ xxxg907xxx  activity of  xxxg546xxx .
+© 2005 elsevier b.v. all rights reserved.
+keywords:  xxxg546xxx ; atp-binding site; amidotransferase; affinity label; 2′,3′-dialdehyde atp; inactivation; e. coli; gtp-dependent activation
+
+1. introduction
+ xxxg546xxx  [ xxxg546xxx ; e.c. 6.3.4.2; utp:nh3 ligase (adpforming)] catalyzes the atp-dependent formation of ctp from
+utp using either l-glutamine or nh3 as the nitrogen source
+(scheme 1) [1,2]. this  xxxg920xxx  is a single
+polypeptide chain consisting of two domains. the c-terminal
+
+abbreviations:  xxxg546xxx , cytidine 5′-triphosphate synthase; gat, glutamine
+amide transfer;  xxxg2163xxx , 2′,3′-dialdehyde adenosine 5′-triphosphate; pth,
+phenylthiohydantoin; rp-hplc, reversed-phase high performance liquid
+chromatography
+⁎ corresponding author. tel.: +1 902 494 1974; fax: +1 902 494 1355.
+e-mail address: sbearne@dal.ca (s.l. bearne).
+1570-9639/$ - see front matter © 2005 elsevier b.v. all rights reserved.
+doi:10.1016/j.bbapap.2005.11.021
+
+glutamine amide transfer (gat) domain catalyzes the hydrolysis of glutamine ( xxxg907xxx  activity) to generate nascent
+nh3 [3,4]. amino acid sequence similarities between gat
+domains have been used to classify amido-transferases into two
+well-characterized families [5,6]. the ntn glutamine am
+idotransferases utilize an n-terminal cys to catalyze glutamine
+hydrolysis, whereas  xxxg546xxx  belongs to the triad glutamine
+amidotransferases that utilize a cys–his–glu triad. the nascent
+nh3 derived from glutamine is subsequently transferred to the
+n-terminal synthase domain via an nh3-tunnel [7] where it
+reacts with utp that has been activated by phosphorylation at
+the 4-position, to yield ctp [8,9].
+ xxxg546xxx  catalyzes the final step in the de novo synthesis of
+cytosine nucleotides.  xxxg546xxx  activity is elevated in some forms
+
+200
+
+t.j. macleod et al. / biochimica et biophysica acta 1764 (2006) 199–210
+
+scheme 1.
+
+of leukemia [10,11] and some solid tumors [12]. because
+ctp plays a central role in nucleic acid [13] and membrane
+phospholipid biosynthesis [14],  xxxg546xxx  is a recognized target
+for the development of antineoplastic [13,15], antiviral [15–
+17], and antiprotozoal [18–20] agents.
+ xxxg546xxx  from e. coli is the most thoroughly characterized
+ xxxg546xxx  with respect to its physical and kinetic properties, and
+is regulated in a complex fashion [1]. gtp is required as a
+positive allosteric effector to increase the efficiency (kcat/km)
+of the  xxxg907xxx  activity and glutamine-dependent ctp
+synthesis [21,22] but inhibits ctp synthesis at concentrations
+greater than 0.15 mm [23]. in addition, the enzyme is
+inhibited by the product ctp [24], exhibits negative
+cooperativity for glutamine [25], and displays positive
+cooperativity for atp and utp [24–26]. atp and utp act
+synergistically to promote tetramerization of the enzyme to its
+active form [26]. kinetic studies on  xxxg546xxx  from lactococcus
+lactis have suggested that the 4-phosphorylated utp
+intermediate acts as a coactivator with gtp to stimulate
+glutamine hydrolysis [27]. in addition to these noncovalent
+modes of regulation, the yeast enzyme encoded by the ura7
+gene [28,29] and the human enzyme [30] are regulated by
+phosphorylation.
+recently, the x-ray crystal structures of  xxxg546xxx  from thermus
+thermophilus [31] and e. coli [7,32] were solved. modeling
+studies using  xxxg177xxx . coli  xxxg546xxx  (which crystallized as a tetramer
+even though no nucleotides were bound) revealed that atp- and
+utp-binding interactions are contributed by three monomers
+[7], consistent with the observations that activity requires
+tetramer formation, and that an atp/utp-dependent dimer–
+tertamer equilibrium contributes to the positive cooperativity.
+recently, baldwin and co-workers reported the structure of e.
+coli  xxxg546xxx  complexed with the products ctp and adp at 2.8-å
+resolution [32]. this structure revealed that the 2′-oh and 3′oh of adp have no direct protein contacts, but are proximal to
+asp 303 and lys 306. although the crystallization was
+conducted in the presence of gtp, no gtp was bound in the
+crystalline enzyme. modeling studies, however, suggest that
+gtp binds in a deep cleft with the leu 301 amide, and the lys
+297 and arg 356 side chains interacting with the triphosphate
+moiety of gtp [7].
+prior to publication of the structure of unliganded e. coli
+ xxxg546xxx , our interest in identifying nucleotide-binding sites on
+ xxxg546xxx  led us to examine the effect of the affinity label 2′,3′-
+
+dialdehyde adenosine 5′-triphosphate ( xxxg2163xxx ) on  xxxg546xxx 
+catalysis. we chose  xxxg2163xxx  as an affinity label for  xxxg546xxx 
+because it reacts with lys residues [33], and such residues
+had been implicated in catalysis by thiourea dioxide labeling
+[34]. this paper describes the inactivation of e. coli  xxxg546xxx 
+by  xxxg2163xxx  and the isolation of a radiolabeled peptide. we
+identify lys 306 as the site of labeling, consistent with the
+recent x-ray crystallographic findings [32]. in addition, we
+construct k306a  xxxg546xxx  and show that lys 306 plays a role
+in transmission of the allosteric signal from the atp-binding
+site to the  xxxg907xxx  site. using the k297a mutant, we
+show that the fully conserved lys 297 plays an important
+role in gtp-dependent activation of glutamine-dependent
+ctp formation.
+2. materials and methods
+2.1. general
+ xxxg2163xxx  (for preliminary studies), atp, utp, gtp, iodoacetate, dtt, tpcktreated trypsin, and all other chemicals were purchased from sigma chemical
+co. (oakville, on) unless otherwise noted.  xxxg2163xxx  and [2,8-3h] xxxg2163xxx  were
+prepared by sodium periodate oxidation of atp or [2,8-3h]atp (ge healthcare,
+baie d'urfé, pq) using published protocols [18,35,36]. his·bind resin,
+thrombin cleavage capture kits, and the pet–15b expression system were
+purchased from novagen, inc. (madison, wi). the jupiter c18 column and
+guard columns were purchased from phenomenex (torrance, ca). spectra/por
+dialysis membranes, and amicon centriprep-30 concentrators were purchased
+from fisher scientific (nepean, on). dna sequencing was conducted by the
+dalhousie university-nrc institute for marine biosciences joint laboratory
+(halifax, ns). hplc was conducted using two waters 510 pumps, a 680
+controller, and a rheodyne 7725i sample injector.
+
+2.2. mutagenesis
+the plasmid pet15b- xxxg546xxx  [21] was used as the template for sitedirected mutagenesis. site-directed mutagenesis was conducted using the
+quickchange site-directed mutagenesis kit (stratagene inc., la jolla, ca)
+and following the manufacturer's protocol. the synthetic deoxyoligonucleotide forward (f) and reverse (r) primers used to construct the mutants
+were: 5′-cggtatggtcggcgcgtacattgaactgcc-3′ (f, k297a),
+5′-ggcagttcaatgtacgcgccgaccataccg-3′ (r, k297a), 5′gccggatgcttatgcatcagtgatcgaagc-3′ (f, k306a), and 5′gcttcgatcactgatgcataagcatccggc-3′ (r, k306a), where the
+positions of the mismatched bases are underlined. the entire open reading
+frame of the mutants was sequenced to verify that no other alterations of
+the nucleotide sequence had been introduced. potential mutant plasmids
+were isolated and heat shock was used to transform competent dh5alpha cells
+[37]. these cells were used for plasmid maintenance.
+
+2.3. expression and purification of  xxxg546xxx 
+the wild-type and mutant forms of recombinant e. coli  xxxg546xxx  were
+expressed in and purified from e. coli strain bl21(de3) cells transformed with
+either the mutant or wild-type plasmid pet15b- xxxg546xxx  as described previously
+[21]. the pet15b- xxxg546xxx  construct encodes the  xxxg546xxx  gene product
+with an n-terminal hexahistidine (his6) tag. cleavage of the his6-tag from
+soluble enzymes using biotinylated thrombin (new n-terminus, gshmlem1...,
+where m1 is the first residue of wild-type  xxxg546xxx ) was carried out as described
+previously [21]. the resulting enzymes were dialyzed into hepes buffer (70
+mm, ph 8.0) containing edta (0.5 mm; or egta (0.5 mm) where noted) and
+mgcl2 (10 mm). the results of the purification and cleavage procedures were
+routinely monitored using sds-page. typically, enzyme preparations were
+∼98% pure.
+
+t.j. macleod et al. / biochimica et biophysica acta 1764 (2006) 199–210
+
+2.4. enzyme assays and protein determinations
+ xxxg546xxx  activity was determined at 37 °c using a continuous spectrophotometric assay by following the rate of increase in absorbance at 291 nm
+resulting from the conversion of utp to ctp (deltaepsilon = 1338 m−1 cm−1) [24].
+the standard assay mixture consisted of hepes buffer (70 mm, ph 8.0)
+containing egta (0.5 mm), mgcl2 (10 mm),  xxxg546xxx  (wild-type, 20–116 mug/
+ml; k306a, 36–224 mug/ml; and k297a, 40 mug/ml), utp (1 mm or
+2 mm), and atp (1 mm or 3 mm) in a total volume of 1 ml. enzyme and
+nucleotides were pre-incubated together for 2.5 min at 37 °c followed by
+addition of substrate (nh4cl or glutamine) to initiate the reaction. total
+nh4cl concentrations in the assays were 2.5, 5, 10, 20, 40, 60, 80, 100, 125,
+and 150 mm. for assays of glutamine-dependent ctp formation, concentrations of glutamine were 0.05, 0.1, 0.2, 0.3, 0.5, 1.0, 2.0, 3.0, 5.0, and 10 mm.
+the concentration of gtp was maintained at 0.25 mm for all assays when
+glutamine was used as the substrate. for assays in which either the
+concentration of atp or utp was varied, the concentration of nh4cl was
+fixed at 150 mm. total atp concentrations ranged from 0.1 mm to 4.0 mm
+when atp was the varied substrate, and the concentration of utp was
+2.0 mm. total utp concentrations ranged from 0.1 mm to 2.0 mm when
+utp was the varied substrate, and the concentration of atp was 3.0 mm. in
+addition, the ionic strength was maintained at 0.30 m in all assays by the
+addition of kcl.
+the  xxxg907xxx  activity of k297a (25 mug/ml) was assayed using hplc, as
+described previously [38], and using a saturating concentration of glutamine
+(10 mm) in the presence of gtp (0.25 mm) to estimate the value of kcat.
+all kinetic parameters were determined in triplicate and average values are
+reported. the reported errors are standard deviations. initial rate kinetic data
+were fit to either eq. (1) (glutamine or nh3 as substrates) or eq. (2) (atp or utp
+as substrates) by non-linear regression analysis using the program kaleidagraph v. 3.5 from synergy software (reading, pa). in eq. (1), vi is the initial
+velocity, vmax is the maximal velocity at saturating substrate concentrations
+(where vmax = kcat [e]t), s is the substrate (glutamine or nh3), and km is the
+michaelis constant for the substrate. values of km were calculated for the
+concentration of nh3 present at ph 8.0 (pka (nh+4) = 9.24; [39]). values of kcat
+were calculated for  xxxg546xxx  variants with the his6-tag removed using mr values of
+61 029 (wild-type) and 60 971 (k297a and k306a).
+vi ¼
+
+vmax ½s
+km þ ½s
+
+ð1þ
+
+vi ¼
+
+vmax ½sn
+k vþ ½sn
+
+ð2þ
+
+in eq. (2), vi is the initial velocity, vmax is the maximal velocity at saturating
+substrate concentrations,
+s ﬃis the substrate (atp or utp), n is the hill number,
+pﬃﬃﬃﬃ
+and k′ (where ½s0:5 ¼ n k v) is a constant comprised of the intrinsic dissociation
+constant and interaction factors [40]. protein concentrations were determined
+using the bio-rad protein assay (bio-rad laboratories ltd., mississauga, on)
+with bovine  xxxg124xxx  standards.
+
+2.5. inactivation of  xxxg546xxx  by  xxxg2163xxx 
+solutions (200 mul) containing either wild-type or k306a  xxxg546xxx  (0.5–1.0
+mg/ml) and varying concentrations of  xxxg2163xxx  were incubated for 60 min at
+25 °c. aliquots (20 mul) were removed at 5 or 10 min intervals and assayed to
+monitor changes in enzyme activity. the residual enzyme activity was linear
+implying that the 50-fold dilution was sufficient to significantly slow the rate of
+inactivation. these inactivation reactions were conducted using the following
+nucleotide concentrations: 10 mm utp and no atp; 10 mm utp and varying
+concentrations of atp; 10 mm atp and no utp; and, no added nucleotides.
+
+2.6. stoichiometry of  xxxg2163xxx  binding
+the binding stoichiometry for  xxxg2163xxx  was determined by following the
+incorporation of radioactivity into a sample of  xxxg546xxx  during the inactivation
+of the enzyme.  xxxg546xxx  was incubated at 25 °c as described above, except [2,8-
+
+201
+
+3
+h] xxxg2163xxx  (2 mm) and utp (10 mm, saturating) were present in the reaction
+mixture. at various time points, an aliquot (100 mul) was removed from the
+incubation mixture and the unbound radiolabel was removed by spin filtration
+(see below, [41]). the filtered material was divided into three fractions
+(20 mul each). one fraction was assayed for enzyme activity, the second was
+used for a protein concentration determination, and the third was used for
+scintillation counting. the resulting radioactivity measurements were
+converted into moles of  xxxg2163xxx  bound per mole of  xxxg546xxx  monomer.
+
+2.7. preparation of radiolabeled  xxxg546xxx 
+ xxxg546xxx  (5 mg in 3 ml) was incubated with [2,8-3h] xxxg2163xxx  (2 mm) in hepes
+buffer (70 mm, ph 8.0) containing edta (0.5 mm), mgcl2 (10 mm), and utp
+(10 mm) at 25 °c for 120 min, after which the activity of the enzyme was
+assayed to confirm complete inactivation. nacnbh3 was added to give a final
+concentration of 10 mm, and the solution was kept at 4 °c for 12 h. unbound
+[2,8-3h] xxxg2163xxx  and excess nacnbh3 were removed using the spin column
+technique of penefsky [41]. the spin columns consisted of 5 ml syringes
+containing sephadex g-50 (fine) equilibrated in assay buffer which had been
+centrifuged (2 min, 200×g). samples (500 mul) were loaded onto the columns
+and immediately centrifuged (2 min, 200×g). subjecting  xxxg2163xxx  solutions to this
+procedure demonstrated that 100% of unincorporated  xxxg2163xxx  was retained on the
+column. the filtered enzyme solution was stored at 4 °c prior to proteolytic
+digestion.
+the effects of atp upon incorporation of radiolabel were examined by
+incubating  xxxg546xxx  as described above with the addition of atp (10 mm) to the
+labeling mixture. the solution was treated with nacnbh3 and spin-filtered
+as described above.
+
+2.8. proteolytic digestion of labeled  xxxg546xxx  and peptide isolation
+urea and dtt were added to the filtered [2,8-3h] xxxg2163xxx -labeled  xxxg546xxx 
+solutions to give final concentrations of 6 m and 3 mm, respectively. these
+solutions were incubated for 15 min at 50 °c, then cooled to room temperature
+and treated with iodoacetamide (3.0 mm final concentration). after 15 min at
+room temperature, the solution was dialyzed at 4 °c against hepes buffer
+(70 mm, ph 8.0) containing edta (0.5 mm) and mgcl2 (10 mm). trypsin was
+added using a protease to substrate mass ratio of 1:50, and the solution was then
+maintained at 37 °c for 8 h. proteolytic digestion reactions were terminated by
+injection onto a reversed-phase hplc (rp-hplc) column. separation of the
+tryptic peptides was conducted using a jupiter c18 column (250 × 4.6 mm;
+5 mum; 300 å) fitted with a guard column (4 × 3.0 mm wide pore c18). the
+solvent system consisted of solvents a and b, which were 0.1% trifluoroacetic
+acid in water and 0.1% trifluoroacetic acid in acetonitrile, respectively. all
+solvents were filtered and degassed prior to use. typically, peptides were eluted
+using a linear gradient from 5% solvent b to 90% solvent b over 60 min
+followed by 15 min at 90% solvent b. the eluted peptides were detected by
+monitoring the absorbance at 215 nm. the flow rate was 1 ml/min and an
+automated fraction collector was used to collect fractions (1 ml) in 1.5-ml
+polypropylene tubes. aliquots (10–20 mul) were subsequently removed for
+liquid scintillation counting. fractions containing significant levels of
+radioactivity were pooled and concentrated by evaporation under a gentle
+flow of argon. n-terminal amino acid sequence analysis of the isolated peptides
+was performed by automated edman degradation at the eastern québec
+proteomics core facility (sainte-foy, qc).
+
+3. results
+3.1. inactivation of  xxxg546xxx  by  xxxg2163xxx 
+treatment of  xxxg546xxx  from e. coli with  xxxg2163xxx  (in either the
+presence or absence of utp) produced time-dependent loss of
+enzyme activity, which followed first-order kinetics up to at
+least 90% (n3 half-lives) of the reaction. complete loss of
+enzyme activity was eventually observed. the inactivation was
+
+202
+
+t.j. macleod et al. / biochimica et biophysica acta 1764 (2006) 199–210
+
+irreversible with no activity being recovered when totally
+inactivated enzyme was dialyzed against hepes buffer (70
+mm, ph 8.0) containing edta (0.5 mm) and mgcl2 (10 mm).
+in the presence of utp (10 mm), inactivation of  xxxg546xxx  by  xxxg2163xxx 
+showed saturation kinetics (fig. 1), suggesting initial reversible
+formation of an enzyme–inactivator complex as shown in
+scheme 2. the formation of the reversible complex, according
+to the treatment of kitz and wilson [42], is in rapid equilibrium
+compared with the rate of formation of irreversibly inactivated
+enzyme. the kinetic mechanism is described by eq. (3). in the
+presence of a saturating concentration of utp (10 mm), the
+values for ki and kinact were 3.36 ± 0.02 mm and 0.054 ± 0.001
+min−1, respectively.
+kobs ¼
+
+kinact ½oatp
+:
+ki þ ½oatp
+
+ð3þ
+
+the inactivation of  xxxg546xxx  by  xxxg2163xxx  proceeded quite differently in the absence of utp. although the inactivation was still
+time-dependent and followed first-order kinetics, the observed
+rate of inactivation was much more rapid. the plot of kobs against
+[ xxxg2163xxx ] (fig. 2) revealed that at low concentrations of  xxxg2163xxx , the
+value of kobs rises sharply with small increases in  xxxg2163xxx 
+concentration, but reaches an upper limit of approximately
+0.092 min−1 at an  xxxg2163xxx  concentration of 0.5 mm. at this
+
+fig. 1. inactivation of  xxxg546xxx  by  xxxg2163xxx  in the presence of utp. (a) timedependence of inactivation.  xxxg546xxx  solutions (0.5 mg/ml) were incubated with
+utp (10 mm) and  xxxg2163xxx  (●, 0 mm; ▴, 1 mm; □, 2 mm; ■, 3.5 mm; ○, 5 mm;
+and ▿, 8 mm) at 25 °c. aliquots were assayed for nh3-dependent  xxxg546xxx 
+activity at the times shown. (b) dependence of apparent first-order rate constant
+(kobs) for inactivation of  xxxg546xxx  inactivation on  xxxg2163xxx  concentration. the rates of
+inactivation of  xxxg546xxx  at various  xxxg2163xxx  concentrations were determined from
+linear regression fits of plots of ln (% activity) against time. non-linear
+regression analysis was used to fit the data to eq. (3). the values of ki and kinact
+were 3.36 ± 0.02 mm and 0.054 ± 0.001 min−1, respectively.
+
+scheme 2.
+
+concentration of  xxxg2163xxx , the rate of inactivation is approximately
+15-fold greater than the rate observed when utp (10 mm) is
+present. at concentrations of  xxxg2163xxx  above 0.5 mm, the value of
+kobs for  xxxg546xxx  inactivation decreased, finally leveling off with a
+value of approximately 0.04 min−1. this value is similar to the
+measured value of kinact for the inactivation of  xxxg546xxx  in the
+presence of utp. this complex dependence of kobs on the
+concentration of  xxxg2163xxx  likely reflects different reactivities of
+the monomeric, dimeric, and tetrameric species of  xxxg546xxx  that
+exist in equilibrium in solution [43] and/or additional reactions
+at the utp-, or ctp-, or gtp-binding site(s). when the ability of
+ xxxg2163xxx  (0–20 mm) to serve as a substrate was examined, no ctp
+formation was detected in the presence of glutamine (10 mm),
+
+fig. 2. inactivation of  xxxg546xxx  by  xxxg2163xxx  in the absence of utp. (a) timedependence of inactivation.  xxxg546xxx  solutions (0.5 mg/ml) were incubated with
+ xxxg2163xxx  (●, 0 mm; ○, 0.125 mm; ⋄, 0.25 mm; ▴, 0.5 mm; ▿, 0.75 mm; ▾,
+1 mm; ▵, 2 mm; □, 3 mm; ■, 5 mm; and ♦, 8 mm) at 25 °c. aliquots were
+assayed for nh3-dependent  xxxg546xxx  activity at the times shown. (b) dependence
+of the apparent first-order rate constant (kobs) for  xxxg546xxx  inactivation (in the
+absence of utp) on  xxxg2163xxx  concentration. the rates of inactivation of  xxxg546xxx  at
+various  xxxg2163xxx  concentrations in the absence of utp were determined from linear
+regression fits of plots of ln (% activity) against time. the value of kobs for  xxxg546xxx 
+inactivation increased with increasing concentrations of  xxxg2163xxx  to a maximum of
+0.092 min−1. at concentrations of  xxxg2163xxx  above 0.5 mm, the value of kobs
+decreased to a constant value of approximately 0.04 min−1.
+
+t.j. macleod et al. / biochimica et biophysica acta 1764 (2006) 199–210
+
+utp (1 mm), gtp (0.15 mm), and wild-type  xxxg546xxx  (42 mug/ml).
+hence, it is unlikely that this effect arises from substrate
+utilization since  xxxg2163xxx  does not appear to support glutaminedependent ctp formation.
+3.2. effect of atp on inactivation
+atp protects  xxxg546xxx  from inactivation by  xxxg2163xxx  (fig. 3).
+increasing concentrations of atp caused a decrease in the rate
+of inactivation (kobs) as shown in fig. 3b. the apparent affinity
+of  xxxg546xxx  for atp was estimated to be 0.39 mm and this value is
+in good agreement with the [s]0.5 value of 0.49 mm for atp
+reported in table 1.
+the protective effect of atp was further demonstrated by
+incubating  xxxg546xxx  with varying concentrations of  xxxg2163xxx  in the
+presence of saturating atp (10 mm) (fig. 4). in the presence of
+atp (10 mm), the rate of inactivation of the enzyme is linearly
+proportional to the concentration of  xxxg2163xxx . this suggests the
+saturation of atp-binding sites by atp, while the  xxxg2163xxx  reacts
+non-specifically either at low-affinity sites or in a bimolecular
+reaction with  xxxg546xxx . the inactivation of  xxxg546xxx  by 0.5 mm  xxxg2163xxx 
+can be virtually “competed out” by 10 mm atp, which provides
+almost complete protection against inactivation (i.e.,
+kobs = 0.001 min−1 (fig. 4) as opposed to 0.092 min−1 (fig. 2)
+
+fig. 3. atp protection of  xxxg546xxx  against inactivation by  xxxg2163xxx . (a) timedependence of inactivation.  xxxg546xxx  solutions (0.5 mg/ml) were incubated with
+utp (10 mm) and  xxxg2163xxx  (2 mm) at 25 °c. addition of atp (○, 0 mm atp and
+ xxxg2163xxx ; ■, 0 mm; □, 0.5 mm; ▴, 1 mm; ▵, 2 mm; and ●, 3 mm) resulted in a
+reduction in the rate of loss of enzyme activity. (b) the dependence of the
+apparent first-order rate constant (kobs) for  xxxg546xxx  inactivation on atp
+concentration. values of kobs were determined from linear regression fits of
+plots of ln (% activity) versus time (a). the curve shown is a fit to the equation
+k obs = k inact [ xxxg2163xxx ]/((k i (1 + [atp]/k a )) + [ xxxg2163xxx ]) with [ xxxg2163xxx ] = 2 mm,
+ki = 3.36 mm, and kinact = 0.054 min−1 (see fig. 1). the value for the apparent
+dissociation constant for atp (ka) is 0.39 ± 0.06 mm.
+
+203
+
+table 1
+kinetic parameters for wild-type and mutant ctp synthases with atp and utp
+varied
+substrate for
+ctp
+formation
+
+kinetic
+parameter
+
+ xxxg546xxx  variants
+wild-type
+
+k297a
+
+k306a
+
+atp ([utp] =
+2.0 mm)
+
+[s]0.5
+(mm)
+kcat (s−1)
+n
+[s]0.5
+(mm)
+kcat (s−1)
+n
+
+0.494 ± 0.020
+
+0.451 ± 0.002
+
+0.968 ± 0.037
+
+12.8 ± 0.2
+2.20 ± 0.12
+0.281 ± 0.041
+
+10.8 ± 0.1
+2.28 ± 0.02
+0.388 ± 0.010
+
+6.26 ± 0.23
+2.26 ± 0.01
+0.437 ± 0.043
+
+13.7 ± 0.8
+1.26 ± 0.14
+
+14.0 ± 0.2
+1.18 ± 0.02
+
+6.90 ± 0.24
+1.39 ± 0.12
+
+utp ([atp] =
+3.0 mm)
+
+in the absence of nucleotides). hence, there is an approximately
+90-fold reduction in the rate of inactivation of  xxxg546xxx  by  xxxg2163xxx 
+(0.5 mm) when atp (10 mm) is present.
+3.3. radiolabeling and tryptic digestion of  xxxg546xxx 
+ xxxg546xxx  was labeled with [2,8-3h] xxxg2163xxx  in the presence of
+utp (10 mm to promote tetramerization and to avoid the
+
+fig. 4. inactivation of  xxxg546xxx  by  xxxg2163xxx  in the presence of saturating atp. (a)
+time-dependence of inactivation.  xxxg546xxx  solutions (0.5 mg/ml) were incubated
+with atp (10 mm) and  xxxg2163xxx  (●, 0 mm  xxxg2163xxx  and atp; ○, 0.5 mm; ■, 1 mm;
+□, 2 mm; ▴, 5 mm; and ▵, 10 mm) at 25 °c. aliquots were assayed for nh3dependent  xxxg546xxx  activity at the times shown. (b) the dependence of the
+apparent first-order rate constant (kobs) for  xxxg546xxx  inactivation (in the presence of
+10 mm atp) on  xxxg2163xxx  concentration. values of kobs were determined from linear
+regression fits of plots of ln (% activity) versus time (a). the value of kobs
+increases linearly with the concentration of  xxxg2163xxx  over the range of 0 to 10 mm
+and saturation was not observed. the slope of the line in panel b gives a value
+for the apparent kinact/ki equal to 0.0019 mm−1 min−1. this value is an order of
+magnitude less than that observed in the absence of atp (i.e., kinact/ki = 0.016
+mm−1 min−1; see fig. 1).
+
+204
+
+t.j. macleod et al. / biochimica et biophysica acta 1764 (2006) 199–210
+
+complex inactivation behavior exhibited in the absence of utp
+(i.e., fig. 2b)) and treated with nacnbh3 to reduce the putative
+schiff base of the adduct (if present; see discussion). the
+enzyme was denatured with urea, reacted with iodoacetamide,
+and then digested with trypsin before injection onto the rphplc column. the resulting uv and radioactivity profiles are
+shown in fig. 5. the uv profile (fig. 5a) shows numerous
+peaks representing the many tryptic peptides that resulted from
+the extensive digestion of  xxxg546xxx  by trypsin. the most
+significant amount of radioactivity was contained in fractions
+27 to 32 (fig. 5b). these fractions were pooled, lyophilized,
+and stored at −20 °c.
+in order to examine the effect of atp on the incorporation of
+radiolabel into  xxxg546xxx , the radiolabeling reaction was conducted
+in the presence of saturating utp (10 mm), and in the presence
+of both saturating utp (10 mm) and atp (10 mm). after
+radiolabeling, proteolysis and rp-hplc separation of the
+tryptic peptides were conducted as described above. the two
+radioactivity profiles are shown in fig. 5c. a marked decrease
+in the amount of radioactivity incorporated into  xxxg546xxx  was
+observed when the radiolabeling was conducted in the presence
+
+of saturating atp. the greatest reduction (over 2-fold) occurs in
+the peak region of the profile, which indicates that the radiolabel
+is likely incorporated into peptide(s) residing in these fractions
+because of the reaction of  xxxg2163xxx  at a specific atp-binding site.
+the presence of atp only slightly reduced radioactivity in the
+fractions 10–23, which is evidence that the apparent radiolabeling observed in these fractions was probably the result of either
+non-specific interactions and/or partial overflow of the
+radiolabel into adjacent fractions during the rp-hplc
+separation of the tryptic peptides.
+3.4. stoichiometry of  xxxg2163xxx  labeling
+the stoichiometry of  xxxg2163xxx  labeling under assay conditions
+was examined (i.e., in the presence of 10 mm utp).  xxxg546xxx  was
+inactivated with [2,8-3h] xxxg2163xxx  and the fractions were assayed
+for enzyme activity, protein concentration, and incorporation of
+radioactivity. the results are expressed in terms of moles of
+ xxxg2163xxx  incorporated per moles of  xxxg546xxx  monomer calculated for
+various stages of  xxxg546xxx  inactivation (fig. 6). interestingly, the
+binding stoichiometry was approximately 4 mol of  xxxg2163xxx 
+incorporated per mole of  xxxg546xxx  monomer. it appears that
+multiple sites on the tetramer are available for reaction with
+ xxxg2163xxx . with the exception of lys 306 (vide infra), the identity of
+the reacting sites remains unknown.
+3.5. isolation and sequencing of radiolabeled peptides
+
+fig. 5. elution profiles of [2,8-3h] xxxg2163xxx -labeled  xxxg546xxx  tryptic digests. panel a
+displays the elution profile for tryptic peptides derived from a digest of [2,8-3h]
+ xxxg2163xxx -modified  xxxg546xxx  and separated by rp-hplc. the gradient of ch3cn is
+shown as a solid line. the large peak with an elution time of 4 min represents the
+void volume of the column. the corresponding radioactivity profile is shown in
+panel b. elution conditions are as described in materials and methods. panel c
+shows the reduction of incorporation of [2,8-3h] xxxg2163xxx  into  xxxg546xxx  in the presence
+of atp.  xxxg546xxx  was incubated for 12 h with  xxxg2163xxx  (2 mm) and nacnbh3 (5 mm)
+at 4 °c in both the absence (●) and presence (○) of atp (10 mm). the modified
+enzyme was digested with trypsin, the peptides were separated using rp-hplc,
+and the radioactivity measured for each fraction as described in materials and
+methods.
+
+the solution containing the pooled fractions of tryptic
+peptides was further purified using multiple rounds of rphplc until a fraction corresponding to a single peak in the uvelution profile and displaying a high incorporation of radioactivity was obtained. this purified fraction was lyophilized and
+the n-terminal amino acid sequences of the constituent peptides
+determined using edman degradation. two distinct peptides
+were found to be present in a 5:1 ratio. the amino acid sequences
+of the isolated major and minor peptides were s(492)
+gddqlveiievpnh(506) and y(298)ielpday(305), respectively (fig. 7). the minor peptide was initially thought to end
+with tyr 305, however, examination of the hplc elution profile
+revealed the presence of an additional phenylthiohydantoin
+(pth) derivative which had an elution time similar (but not the
+same as) that expected for pth-proline. since trypsin cleaves
+polypeptides on the c-terminal side of lys or arg residues, the
+minor peptide should have contained lys 306 as its n-terminal
+amino acid residue. this atypical pth derivative probably
+represents the pth derivative of lys 306 bearing the  xxxg2163xxx 
+affinity label. (unfortunately, we were not able to measure the
+radioactivity associated with each round of edman degradation.)
+3.6. k306a and k297a kinetics
+the lys 306 residue of  xxxg546xxx  that was modified by  xxxg2163xxx 
+was mutated to alanine using site-directed mutagenesis. the
+kinetic parameters of the wild-type and k306a ctp synthases
+are given in tables 1 and 2. at saturating concentrations of utp
+(2 mm), binding of atp to both wild-type and k306a ctp
+
+t.j. macleod et al. / biochimica et biophysica acta 1764 (2006) 199–210
+
+fig. 6. stoichiometry of the reaction of  xxxg2163xxx  with  xxxg546xxx .  xxxg546xxx  solutions were
+incubated with  xxxg2163xxx  in the presence of utp (10 mm) and, at various time
+points, an aliquot of solution was removed and passed through a spin-filter
+containing sephadex g-50. the filtered solution was used for determination of
+enzyme activity, protein concentration and radioactivity as described in
+materials and methods. complete inactivation of the enzyme corresponded to
+the incorporation of 4 mol  xxxg2163xxx  per mole of  xxxg546xxx  monomer.
+
+synthases is cooperative and the affinity of k306a  xxxg546xxx  for
+atp is approximately half of that exhibited by wild-type  xxxg546xxx 
+(table 1). on the other hand, at saturating concentrations of
+atp (3 mm), binding of utp to both wild-type and k306a
+ctp synthases shows minimal cooperativity and the affinity of
+k306a  xxxg546xxx  for utp is only 1.6-fold less than that exhibited
+by wild-type  xxxg546xxx . mutation of lys 306 to alanine causes a 2fold reduction in kcat with respect to atp. interestingly, a 2-fold
+reduction in kcat with respect to utp was also observed.
+for wild-type  xxxg546xxx , concentrations of atp and utp equal
+to 1 mm are saturating. however, for k306a  xxxg546xxx , this is not
+
+205
+
+the case (data not shown) and hence the kinetic parameters for
+nh3- and glutamine-dependent ctp formation catalyzed by
+both wild-type and k306a ctp synthases were determined
+under two different conditions (i.e., [atp] = [utp] = 1 mm; and
+saturating values of [atp] = 3 mm, [utp] = 2 mm). the
+elevated concentrations of atp and utp had little effect on
+the kcat and km values for wild-type  xxxg546xxx -catalyzed nh3dependent ctp formation. however, for k306a  xxxg546xxx , there
+was a 1.5-fold increase in catalytic efficiency of nh3-dependent
+ctp formation at the elevated concentrations of atp and utp
+resulting from a 2.3-fold increase in km and a 3.5-fold increase
+in kcat (table 2). in contrast to the changes in the kinetic
+parameters for nh3-dependent ctp formation, which were
+small and resulted in slightly enhanced catalytic efficiency
+when the concentrations of atp and utp were elevated,
+reductions in the catalytic efficiency of glutamine-dependent
+ctp formation were observed. for wild-type  xxxg546xxx , the value
+of kcat decreased 4-fold while km was decreased 1.7-fold
+leading to a 2.4-fold reduction in catalytic efficiency in the
+presence of elevated concentrations of atp and utp. this
+suggests the possibility that at high concentrations, binding of
+the nucleoside triphosphates may be less specific giving rise to
+substrate inhibition. such substrate inhibition has been observed
+previously with concentrations of atp exceeding 2 mm [23].
+for k306a  xxxg546xxx , the value of kcat was not significantly altered
+while km was increased 2.2-fold leading to a 2-fold reduction in
+catalytic efficiency with respect to glutamine.
+when k306a  xxxg546xxx  was treated with  xxxg2163xxx  in the presence
+of utp (10 mm), it was irreversibly inactivated in a timedependent manner (data not shown). again, this emphasizes
+
+fig. 7. sequence comparison of selected regions of ctp synthases corresponding to isolated tryptic peptides. for the protein sequences shown, invariant residues (*),
+conservative substitutions (:), and semi-conservative substitutions (.) are indicated. the residues corresponding to the two tryptic peptides identified in the present
+study are underlined. residues that align with lys 306 are shown on a black background. the proteins included in the alignment are as follows (with accession
+numbers given in brackets): thermus thermophilus hb8 (bad71289.1), girardia lambia (eaa36847.1), synechococcus (q54775), synechocystis (p74208),
+borrelia burgdorferi (o51522), spiroplasma citri (p52200), bacillus subtilis (p13242), mycobacterium leprae (s72961), mycobacterium bovis (aab48045.1),
+methanococcus jannaschii (q58574), chlamydia trachomatis (q59321), haemophilus influenzae (p44341), neisseria meningitidis (cab84970.1), nitrosomonas
+europaea (aac33441.1), azospirillum brasilense (p28595), campylobacter jejuni (cab72520.1), heliobacter pylori (o25116), plasmodium falciparum
+(acc36385.1), lactococcus lactis (np_266647.1), saccharomyces cerevisiae ura7 (p28274), saccharomyces cerevisiae ura8 (p38627), cricetulus griseus
+(p50547), mus musculus (p70698), homo sapiens (np_001896.1), and escherichia coli (aaa69290.1). the numbering for the e. coli sequence is shown. sequence
+alignments were constructed using clustalw [59].
+
+206
+
+t.j. macleod et al. / biochimica et biophysica acta 1764 (2006) 199–210
+
+table 2
+kinetic parameters for ctp formation catalyzed by wild-type and mutant ctp synthases
+substrate
+
+kinetic parameter
+
+ xxxg546xxx  variants
+wild-type
+
+nh3
+
+glutamine
+
+km (mm)
+kcat (s−1)
+kcat/km (mm−1 s−1)
+km (mm)
+kcat (s−1)
+kcat/km (mm−1 s−1)
+
+k297a
+
+k306a
+
+[atp] = 1 mm
+[utp] = 1 mm
+
+[atp] = 3 mm
+[utp] = 2 mm
+
+[atp] = 1 mm
+[utp] = 1 mm
+
+[atp] = 1 mm
+[utp] = 1 mm
+
+[atp] = 3 mm
+[utp] = 2 mm
+
+2.15 ± 0.14
+9.50 ± 0.53
+4.43 ± 0.12
+0.345 ± 0.057
+6.10 ± 0.80
+17.8 ± 2.3
+
+2.79 ± 0.31
+11.3 ± 1.1
+4.07 ± 0.13
+0.206 ± 0.017
+1.50 ± 0.05
+7.30 ± 0.39
+
+1.54 ± 0.04
+8.59 ± 0.15
+5.60 ± 0.06
+a
+a
+a
+
+0.627 ± 0.056
+2.19 ± 0.04
+3.50 ± 0.26
+0.196 ± 0.008
+1.28 ± 0.05
+6.55 ± 0.49
+
+1.47 ± 0.15
+7.59 ± 0.30
+5.19 ± 0.34
+0.424 ± 0.094
+1.35 ± 0.03
+3.27 ± 0.58
+
+a
+
+under optimal conditions for maximal velocity ([gtp] = 0.15 mm, [utp] = [atp] = 1 mm, and [glutamine] = 10 mm), the observed velocity was reduced 50-fold
+relative to that observed with the wild-type  xxxg546xxx . this low level of activity precluded accurate determination of the kinetic constants with respect to glutamine.
+
+that  xxxg2163xxx  is reacting at other sites in addition to lys 306. for
+the inactivation of k306a by  xxxg2163xxx  in the presence of utp (10
+mm), the values of ki and kinact were 3.7 ± 1.3 mm and 0.0058 ±
+0.0005 min−1, respectively (data not shown). thus the apparent
+affinity of k306a for  xxxg2163xxx  was not significantly different from
+that observed for wild-type  xxxg546xxx , however, kinact was reduced
+approximately 10-fold.
+lys 297 is fully conserved in ctp synthases and appears to
+interact with the beta-phosphate of gtp in modeling studies [7].
+for this reason, we replaced lys 297 by alanine to assess its role
+in  xxxg546xxx  catalysis. k297a exhibited essentially wild-type
+interactions with atp and utp (table 1) and wild-type activity
+with respect to nh3-dependent ctp formation. however,
+k297a did not catalyze glutamine-dependent ctp formation.
+in fact, the apparent kcat for the intrinsic  xxxg907xxx  activity of
+k297a was 0.077 ± 0.007 s−1. this value is reduced 78-fold
+relative to that observed for wild-type  xxxg546xxx  (6.0 s−1 [38]).
+unfortunately, the extremely low velocities for conversion of
+glutamine to glutamate precluded accurate measurement of km
+for glutamine and the dependence of the  xxxg907xxx  activity on
+gtp concentration (if any).
+4. discussion
+ xxxg546xxx  binds and discriminates between the four nucleotides:
+utp, ctp, atp, and gtp. in addition to serving as substrates,
+atp and utp act synergistically to promote tetramerization of
+ xxxg546xxx  to its active form. prior to publication of two structures of
+e. coli  xxxg546xxx  [7,32], we initiated a study to identify residues
+that might play a role in binding atp and/or promote
+tetramerization of  xxxg546xxx . to selectively label the atp-binding
+site(s) of  xxxg546xxx , we sought to use an affinity label that contained
+an unmodified adenine moiety so that specific recognition by
+ xxxg546xxx  would be favored. 2′,3′-dialdehyde atp ( xxxg2163xxx ) [33,44]
+has been used successfully to probe atp-binding sites in
+numerous enzymes (e.g., see reference [45] and references
+therein). this affinity label is easily prepared by the periodate
+oxidation of atp [36] and is highly water-soluble, unlike other
+affinity labels such as 5′-p-fluorosulfonylbenzoyladenosine
+[46].  xxxg2163xxx  is identical to the natural substrate except for the
+ribose moiety that contains the reactive aldehyde groups. the
+2′,3′-dialdehyde function reacts with the epsilon-amino group of lys
+
+residues to form an adduct with a dihydroxymorpholino-type
+structure [35,47–49], although schiff base formation is
+consistent with the observations of some groups [36,50].
+the present work describes the proteolytic digestion of [2,83
+h] xxxg2163xxx -labeled  xxxg546xxx , separation of the tryptic peptides using
+rp-hplc, and the sequencing of isolated peptides. using this
+affinity labeling procedure, we identified lys 306 as the site of
+covalent modification. conversion of lys 306 to alanine using
+site-directed mutagenesis caused a reduction in the apparent
+affinity for atp, relative to wild-type  xxxg546xxx . the k306a mutant
+also exhibited reduced catalytic efficiency when glutamine was
+the substrate but had wild-type efficiency when nh3 was the
+substrate.
+4.1. inactivation of  xxxg546xxx  by  xxxg2163xxx 
+ xxxg546xxx  is inactivated in a first-order, time-dependent fashion
+by  xxxg2163xxx , and the inactivation is not reversible upon dialysis.
+atp provided protection against this inactivation (fig. 3b), and
+the presence of atp (10 mm) during inactivation of the enzyme
+with radiolabeled  xxxg2163xxx  reduced the incorporation of radioactivity in the peak fractions by approximately 60% (fig. 5c).
+saturating atp (10 mm) was also able to reduce the rate of
+inactivation by  xxxg2163xxx  (0.5 mm) 90-fold relative to inactivation
+in the absence of utp (cf. figs. 2b and 4b).
+in the presence of utp (10 mm), the inactivation kinetics
+showed saturation (fig. 1b) consistent with the kinetic
+mechanism shown in scheme 2. however, in the absence of
+utp, the rate of inactivation of  xxxg546xxx  by  xxxg2163xxx  showed a
+peculiar dependence on the concentration of  xxxg2163xxx . the value of
+kobs for inactivation reached a maximum of 0.092 min−1 at
+[ xxxg2163xxx ] = 0.5 mm. at higher concentrations of  xxxg2163xxx , the value
+of kobs declined, ultimately “leveling off” at high  xxxg2163xxx 
+concentrations with a kobs value similar to that obtained when
+the inactivation was performed in the presence of 10 mm utp.
+one possible explanation for such behavior is that tetramerization of the enzyme may bury a reactive lys (or possibly cys,
+vide infra) residue at another site that is very reactive with
+ xxxg2163xxx , yet is also protected by atp. as the concentration of
+ xxxg2163xxx  is increased in the absence of utp, tetramerization of
+ xxxg546xxx  occurs and reaction of  xxxg2163xxx  with the atp-binding site(s)
+on the  xxxg546xxx  tetramer is less efficient than reaction with the
+
+t.j. macleod et al. / biochimica et biophysica acta 1764 (2006) 199–210
+
+207
+
+fig. 8. location of lys residues 297 and 306 within the structure of e. coli  xxxg546xxx . (a) the structure of e. coli  xxxg546xxx  is shown with adp, asp 303, and lys 306 in spacefilling representation (pdb code  xxxd1789xxx  [32]). residues 298–306 corresponding to the radiolabeled minor peptide identified in the present work are shaded purple.
+note that the epsilon-n of lys 306 is located 3.98 å and 3.94 å from the 2′-o and 3′-o of adp, respectively. the gamma-carboxylate oxygen atoms of asp 303 are located 4.74 å
+and 5.00 å from the 3′-o of adp. b. lys 297 is located at the n-terminal end of a conserved loop-helix (l10–alpha11 [7]) structure (residues 297–312, green) and the epsilon-n
+of lys 297 is located 2.79 å from one of the oxygens of the beta-phosphate of gtp, and 2.68 å from the backbone carbonyl of phe 353 which resides on the l11 lid
+(residues 351–356, magenta). the active site cys 379 is shown in space-filling representation.
+
+reactive lys (or cys) residues on the  xxxg546xxx  dimer. under
+conditions similar to those used for the assay of  xxxg546xxx  activity,
+the stoichiometry for incorporation of  xxxg2163xxx  is 4 mol of  xxxg2163xxx 
+per mole of  xxxg546xxx  monomer. this observation implies that there
+may be several different sites on the  xxxg546xxx  tetramer where  xxxg2163xxx 
+reacts. this conclusion is also supported by the fact that atp
+did not offer total protection against inactivation in the presence
+of utp (fig. 3b), and it did not completely prevent
+incorporation of radioactive  xxxg2163xxx  into the protein (fig. 5c).
+although  xxxg2163xxx  has been reported to react primarily with lys
+residues, there are reports suggesting reaction with cys residues
+to form thiohemiacetals [45,51,52]. presumably, additional
+ xxxg2163xxx -labeled peptides were not isolated because of the unstable
+nature of such thiohemiacetals under the rp-hplc conditions.
+in contrast to the  xxxg2163xxx -dependent inactivation behavior
+observed in the absence of nucleotides (fig. 2b), when atp (10
+mm) is present (fig. 4b), the relationship between kobs and
+ xxxg2163xxx  concentration is linear. this suggests that the presence of
+10 mm atp promotes tetramerization (i.e., resulting in lower
+values of kobs) and suppresses the ability of  xxxg2163xxx  to saturate the
+enzyme. again, the latter observation is consistent with the
+notion that  xxxg2163xxx  is reacting at the atp-binding site.
+4.2. localization of the atp-binding site
+prior to the recent solution of the crystal structures of  xxxg546xxx 
+from thermus thermophilus [31] and from e. coli [7,32],
+sequence alignments of amidotransferases suggested that the
+gat domain of  xxxg546xxx  began approximately at amino acids 292
+to 300 [3]. since we assumed that the atp-binding site would
+be located in the synthase domain of  xxxg546xxx  (i.e., before amino
+acid 300), we were surprised to isolate major and minor tryptic
+peptides from regions corresponding to the apparent junction
+between the gat and synthase domains and within the gat
+domain, respectively. amino acid residues present in the major
+tryptic peptide correspond to residues 492–506 in e. coli  xxxg546xxx .
+residues within this region are relatively non-conserved
+between species with the exception of glu 499 and glu 502
+
+that are highly and fully conserved, respectively (fig. 7). in
+addition, no lys residues are present in this region. since  xxxg2163xxx 
+has been reported to react only with lys residues (and possibly
+cys), it is unlikely that the major peptide was radiolabeled by
+[2,8-3h] xxxg2163xxx .1 amino acid residues present in the minor
+tryptic peptide correspond to residues 298–306 in e. coli  xxxg546xxx .
+residues within this region of the primary structure of  xxxg546xxx  are
+highly conserved between species, although the modified lys
+306 is not fully conserved.2 the fact that k306a is inactivated
+by  xxxg2163xxx  with values of kinact and kinact/ki that are both reduced
+∼10-fold relative to wild-type  xxxg546xxx  supports our conclusion
+that lys 306 reacts with  xxxg2163xxx . in addition, our observation that
+k306a  xxxg546xxx  is still inactivated by  xxxg2163xxx  is consistent with our
+suggestion that  xxxg2163xxx  is reacting at additional sites.
+recently, the crystal structure of e. coli  xxxg546xxx  with bound
+adp and ctp was solved at 2.8-å resolution [32]. fig. 8a
+shows the residues within the structure of  xxxg546xxx  that correspond
+1
+it is difficult to account for the presence of the major peptide in the tryptic
+digest. we are not aware of reports of  xxxg2163xxx  reacting with either ser or his
+residues. the possibility that modification of his occurred leading to formation
+of a positively charged species that was subsequently recognized as a trypsin
+cleavage site seems unlikely when considering the unfavorable effect that the
+increased steric bulk of an  xxxg2163xxx -his adduct would have on trypsin binding.
+with respect to the 5:1 ratio of major to minor peptide, it should be noted that
+under the radiolabeling conditions, inactivation was 100% complete. hence the
+apparent low ratio does not reflect incomplete modification of lys 306 but may
+arise from the possibility that the  xxxg2163xxx -lys adduct is labile even in the
+presence of the reducing agent [45,47]. the labile nature of the adduct,
+combined with the possibility of  xxxg2163xxx  reacting at other minor sites (e.g., other
+lys and cys residues [45,51,52]), may account for the broad distribution of
+low-level radioactivity detected in many of the rp- hplc fractions (see fig. 5).
+2
+photoaffinity labeling experiments conducted by olcott and mathews [56]
+on e. coli  xxxg546xxx  using [gamma32p]8-n3-atp revealed that the primary site of
+photoinsertion was within the sequence g(343)ldailvpggfgyr(356). in
+the x-ray crystal structure of e. coli  xxxg546xxx , these residues are somewhat
+removed from the atp-binding site and constitute part of the gtp-binding site
+[7,32]. this result may arise from either direct binding of [gamma32p]8-n3-atp at
+the gtp-binding site, conformational changes that bring these residues more
+proximal to the atp-binding site, nonspecific labeling, or diffusion of the
+reactive nitrene to the adjacent gtp-binding site after photolysis [57,58].
+
+208
+
+t.j. macleod et al. / biochimica et biophysica acta 1764 (2006) 199–210
+
+to the minor peptide identified in the present work. although the
+epsilon-amino group of lys 306 does not directly interact with either
+the 2′-oh or 3′-oh of adp in the structure [32], its proximity
+to the 2′-oh and 3′-oh would certainly favor reaction with the
+aldehyde groups of  xxxg2163xxx . thus, our identification of lys 306 as
+the primary site of covalent modification by  xxxg2163xxx  is fully
+consistent with the x-ray structure of the  xxxg546xxx –adp–ctp
+complex.
+4.3. k306a and k297a kinetics
+replacement of lys 306 by alanine produced a  xxxg546xxx  variant
+that exhibited a ∼2-fold reduction in its affinity for both atp and
+utp. this suggests that lys 306 is not essential for atp binding
+but does play a role in bringing about the conformational
+changes that mediate interaction between the atp and utp sites.
+the fact that lys 306 is not fully conserved between species
+(fig. 7) also suggests that interaction of lys 306 with atp is not
+essential (at least in ctp synthases from all species). kinetic
+studies conducted by baldwin and co-workers [32] revealed that
+the 2′-oh of atp is not required for substrate recognition and
+catalysis since the values of [s]0.5 and vmax with respect to 2′ xxxd1148xxx  were similar to those obtained with atp. however,
+interaction with the 3′-oh may be important for substrate
+recognition and catalysis since 2′,3′-dideoxy-atp was not a
+substrate. in the crystal structure of the  xxxg546xxx –adp–ctp
+complex, asp 303 appears to interact with the 3′-oh of adp
+while lys 306 does not [32]. asp 303 is not fully conserved
+between species (fig. 7), but residue 303 is always an acidic
+residue (asp or glu). lys 306 in e. coli  xxxg546xxx  [32] (and leu 317
+in t. thermophilus  xxxg546xxx  [31]) appears to buttress asp 303 (asp
+314 in t. thermophilus) orienting it for interaction with the 3′oh of adp (or atp). however, we cannot exclude the
+possibility that lys 306 interacts with either the 2′-oh or 3′oh groups, especially when considering the current resolution
+of the crystal structure (2.8 å), the possibility that more
+substantial changes in conformation may occur upon the binding
+of atp and utp to  xxxg546xxx  in solution, and our present
+inactivation results with  xxxg2163xxx .
+k306a  xxxg546xxx  exhibited essentially wild-type activity with
+nh3 as the substrate, however, the efficiency (kcat/km) of
+glutamine-dependent ctp formation was reduced approximately 2-fold. hence, the presence of the lys 306 side chain is
+required to induce the appropriate changes in conformation that
+promote glutamine-dependent ctp formation. indeed, previous studies have indicated that atp binding accelerates the
+ xxxg907xxx  activity of e. coli  xxxg546xxx  [53]. the current crystal
+structure of  xxxg546xxx  with bound adp [32] does not show
+significant changes in conformation, relative to the nucleotidefree structure [7], that might account for transmission of this
+allosteric signal. however, the crystal structures do suggest a
+possible mechanism. lys 306 and asp 303 reside on a loophelix structure (l10–alpha11 [7]; see fig. 8b) comprised, in part,
+of residues 294–306 that is present in the structures of both t.
+thermophilus [31] and e. coli [7,32] ctp synthases. this
+loop–helix appears to pack against the ribose moiety of atp
+and interactions formed upon atp binding may be transmitted
+
+via this loop to subtly influence the positioning of residues
+such as lys 297 within the gat domain (fig. 8b). recently,
+davisson and co-workers [54] reported kinetic studies on sitespecific mutants of the triad  xxxg920xxx 
+imidazole glycerol phosphate synthase revealing that an
+interdomain salt bridge in this enzyme plays a key role in
+mediating communication between the gat and synthase
+domains. the authors proposed that asp 303 may play a
+similar role in signaling between the atp-binding site and the
+ xxxg907xxx  site in  xxxg546xxx . our results with k306a  xxxg546xxx 
+support such an allosteric signaling mechanism.
+replacement of lys 297 by alanine drastically reduced the
+ xxxg907xxx  activity of  xxxg546xxx  but did not affect the enzyme's
+ability to catalyze nh3-dependent ctp formation. modeling
+studies suggest that the epsilon-n of lys 297 interacts with the betaphosphate of gtp and forms an h-bond with the backbone
+carbonyl of phe 353 on the l11 lid (residues 351–356 [7]). phe
+353 is fully conserved among ctp synthases and examination of
+the t. thermophilus and e. coli  xxxg546xxx  crystal structures suggests
+that the phenyl ring of phe 353 packs between bound glutamine
+and gtp. accompanying this hydrophobic interaction, the main
+chain amide of gly 352 on the l11 lid forms part of the oxyanion
+hole [7] that stabilizes the tetrahedral transition state and
+intermediates formed during hydrolysis of glutamine [21].
+zalkin and weng [4] showed that replacement of the adjacent
+gly 351 by proline in e. coli  xxxg546xxx  abolishes glutamine
+dependent ctp formation but has little effect on nh3-dependent
+ctp formation. more recently, willemoës et al. [55] mutated
+residues arg 359, gly 360, and glu 362 (arg 356, gly 357, and
+glu 359 in e. coli) that lie close to the oxyanion hole of l. lactis
+ xxxg546xxx . these residues lie on or adjacent to the l11 lid and appear
+to mediate the allosteric effects of gtp on the  xxxg907xxx 
+activity. thus, replacement of lys 297 by alanine may obviate
+the  xxxg907xxx  activity of  xxxg546xxx  by altering the enzyme's
+interaction with gtp and by altering the conformation of the l11
+lid or adjacent residues. this dual effect may account for the kcat
+value (0.077 s−1) for  xxxg907xxx  activity of k297a, in the
+presence of gtp, being an order of magnitude less than the
+corresponding kcat value (0.7 s−1, [23]) of wild-type  xxxg546xxx  in the
+absence of gtp.
+in conclusion, we have used  xxxg2163xxx  as an affinity label to
+identify lys 306 as a residue located adjacent to the atpbinding site of e. coli  xxxg546xxx . this direct evidence for the
+location of the atp-binding site in e. coli  xxxg546xxx  is consistent
+with recent x-ray crystallographic findings [32]. kinetic studies
+on k306a  xxxg546xxx  reveal that lys 306 plays a role in inducing the
+appropriate changes in conformational that help promote
+glutamine-dependent ctp formation. in addition, we show
+that lys 297 is required for gtp-dependent ctp formation but
+not for nh3-dependent ctp formation.
+
+acknowledgments
+this work was supported by an operating grant from the
+canadian institutes of health research (slb) and graduate
+student fellowships from the natural sciences and engineering
+
+t.j. macleod et al. / biochimica et biophysica acta 1764 (2006) 199–210
+
+research council of canada (tjm), the walter c. sumner
+foundation (fal), and the nova scotia health research
+foundation (fal). we thank professor enoch baldwin
+(university of california, davis, ca, usa) for kindly providing
+us with the structural coordinates for both e. coli  xxxg546xxx 
+complexed with adp and ctp (pdb  xxxd1789xxx ) and gtp modeled
+into the gtp-binding site, and for his discussions regarding
+interactions between adp and  xxxg546xxx . we also thank mark
+charman for conducting some preliminary kinetic experiments.
+
+references
+[1] d.e. koshland jr., a. levitzki, ctp synthetase and related enzymes, in:
+p.d. boyer (ed.), the enzymes, vol. 10, academic press, new york, 1974,
+pp. 539–559.
+[2] c. long, d.e. koshland jr.,  xxxd1789xxx  synthetase, methods
+enzymol. 51 (1978) 79–83.
+[3] m. weng, c.a. makaroff, h. zalkin, nucleotide sequence of escherichia
+coli pyrg encoding ctp synthetase, j. biol. chem. 261 (1986)
+5568–5574.
+[4] m.l. weng, h. zalkin, structural role for a conserved region in the ctp
+synthetase glutamine amide transfer domain, j. bacteriol. 169 (1987)
+3023–3028.
+[5] h. zalkin, the amidotransferases, adv. enzymol. relat. areas mol. biol.
+66 (1993) 203–309.
+[6] h. zalkin, j.l. smith, enzymes utilizing glutamine as an amide donor,
+adv. enzymol. relat. areas mol. biol. 72 (1998) 87–144.
+[7] j.a. endrizzi, h. kim, p.m. anderson, e.p. baldwin, crystal structure of
+escherichia coli  xxxd1789xxx  synthetase, a nucleotide-regulated
+ xxxg920xxx /atp-dependent amidoligase fusion protein
+and homologue of anticancer and antiparasitic drug targets, biochemistry
+43 (2004) 6447–6463.
+[8] c.w. long, a. levitzki, d.e. koshland jr., the subunit structure and
+subunit interactions of  xxxd1789xxx  synthetase, j. biol. chem. 245
+(1970) 80–87.
+[9] w. von der saal, p.m. anderson, j.j. villafranca, mechanistic investigations of escherichia coli cytidine-5′-triphosphate synthetase. detection of
+an intermediate by positional isotope exchange experiments, j. biol.
+chem. 260 (1985) 14993–14997.
+[10] p.h. ellims, t.e. gan, g. medley,  xxxd1789xxx  synthetase activity
+in lymphoproliferative disorders, cancer res. 43 (1983) 1432–1435.
+[11] a.c. verschuur, a.h. van gennip, e.j. muller, p.a. voute, a.b. van
+kuilenburg, increased activity of  xxxd1789xxx  synthetase in
+pediatric acute lymphoblastic leukemia, adv. exp. med. biol. 431 (1998)
+667–671.
+[12] h. kizaki, j.c. williams, h.p. morris, g. weber, increased cytidine 5′triphosphate synthetase activity in rat and human tumors, cancer res. 40
+(1980) 3921–3927.
+[13] s. hatse, e. de clercq, j. balzarini, role of antimetabolites of purine and
+pyrimidine nucleotide metabolism in tumor cell differentiation, biochem.
+pharmacol. 58 (1999) 539–555.
+[14] e.p. kennedy, the biosynthesis of phospholipids, in: j.a.f. op den
+kamp, b. roelofsen, k.w.a. wirtz (eds.), lipids and membranes:
+past, present and future, elsevier scientific publishers, amsterdam,
+1986, pp. 171–206.
+[15] t.w. kensler, d.a. cooney, inhibitors of the de novo pyrimidine pathway,
+in: m. sandler, h.j. smith (eds.), design of enzyme inhibitors as drugs,
+oxford univ. press, new york, 1989, pp. 379–401.
+[16] e. de clercq, antiviral agents: characteristic activity spectrum depending
+on the molecular target with which they interact, adv. virus res. 42 (1993)
+1–55.
+[17] w.y. gao, d.g. johns, h. mitsuya, potentiation of the anti-hiv activity of
+ xxxd3546xxx  and lamivudine by a  xxxg546xxx  inhibitor, 3-deazauridine,
+nucleosides nucleotides nucleic acids 19 (2000) 371–377.
+
+209
+
+[18]  xxxd1971xxx . hendriks, w.j. o'sullivan, t.s. stewart, molecular cloning and
+characterization of the plasmodium falciparum  xxxd1789xxx 
+synthetase gene, biochim. biophys. acta 1399 (1998) 213–218.
+[19] a. hofer, d. steverding, a. chabes, r. brun, l. thelander, trypanosoma
+brucei ctp synthetase: a target for the treatment of african sleeping
+sickness, proc. natl. acad. sci. u. s. a. 98 (2001) 6412–6416.
+[20] r.l. lim, w.j. o'sullivan, t.s. stewart, isolation, characterization and
+expression of the gene encoding  xxxd1789xxx  synthetase from
+giardia intestinalis, mol. biochem. parasitol. 78 (1996) 249–257.
+[21] s.l. bearne, o. hekmat, j.e. macdonnell, inhibition of escherichia coli
+ xxxg546xxx  by glutamate gamma-semialdehyde and the role of the
+allosteric effector gtp in glutamine hydrolysis, biochem. j. 356 (2001)
+223–232.
+[22] a. levitzki, d.e. koshland jr., role of an allosteric effector. guanosine
+triphosphate activation in cytosine triphosphate synthetase, biochemistry
+11 (1972) 241–246.
+[23] j.e. macdonnell, f.a. lunn, s.l. bearne, inhibition of e. coli ctp
+synthase by the “positive” allosteric effector gtp, biochim. biophys. acta
+1699 (2004) 213–220.
+[24] c.w. long, a.b. pardee,  xxxd1789xxx  synthetase of escherichia
+coli b. i. purification and kinetics, j. biol. chem. 242 (1967) 4715–4721.
+[25] a. levitzki, d.e. koshland jr., negative cooperativity in regulatory
+enzymes, proc. natl. acad. sci. u. s. a. 62 (1969) 1121–1128.
+[26] a. levitzki, d.e. koshland jr., ligand-induced dimer-to-tetramer
+transformation in cytosine triphosphate synthetase, biochemistry 11
+(1972) 247–253.
+[27] m. willemoës, b.w. sigurskjold, steady-state kinetics of the  xxxg907xxx 
+reaction of  xxxg546xxx  from lactococcus lactis, eur. j. biochem. 269
+(2002) 4772–4779.
+[28] t.s. park, d.b. ostrander, a. pappas, g.m. carman, identification of
+ser424 as the  xxxg1836xxx  phosphorylation site in ctp synthetase
+from saccharomyces cerevisiae, biochemistry 38 (1999) 8839–8848.
+[29] t.s. park, d.j. o'brien, g.m. carman, phosphorylation of ctp synthetase
+on ser36, ser330, ser354, and ser454 regulates the levels of ctp and
+phosphatidylcholine synthesis in saccharomyces cerevisiae, j. biol.
+chem. 278 (2003) 20785–20794.
+[30] g.s. han, a. sreenivas, m.g. choi, y.f. chang, s.s. martin, e.p. baldwin,
+g.m. carman, expression of human ctp synthetase in saccharomyces
+cerevisiae reveals phosphorylation by  xxxg1836xxx , j. biol. chem. 280
+(2005) 38328–38336.
+[31] m. goto, r. omi, n. nakagawa, i. miyahara, k. hirotsu, crystal structures
+of ctp synthetase reveal atp, utp, and glutamine binding sites, structure
+12 (2004) 1413–1423.
+[32] j.a. endrizzi, h. kim, p.m. anderson, e.p. baldwin, mechanisms of
+product feedback regulation and drug resistance in  xxxd1789xxx 
+synthetases from the structure of a ctp-inhibited complex, biochemistry
+44 (2005) 13491–13499.
+[33] r.f. colman, affinity labeling of purine nucleotide sites in proteins, annu.
+rev. biochem. 52 (1983) 67–91.
+[34] j.g. robertson, l.j. sparvero, j.j. villafranca, inactivation and covalent
+modification of ctp synthetase by thiourea dioxide, protein sci. 1 (1992)
+1298–1307.
+[35] f. hansske, m. sprinzl, f. cramer, reaction of the ribose moiety of
+adenosine and amp with periodate and carboxylic acid hydrazines,
+bioorg. chem. 3 (1974) 367–376.
+[36] s.b. easterbrook-smith, j.c. wallace, d.b. keech,  xxxg1674xxx :
+affinity labelling of the magnesium  xxxd83xxx  binding site,
+eur. j. biochem. 62 (1976) 125–130.
+[37] j. sambrook,  xxxd1971xxx . fritsch, t. maniatis, molecular cloning, cold spring
+harbor laboratory press, plainview, ny, 1989, pp. 1.21–1.52.
+[38] a. iyengar, s.l. bearne, an assay for ctp synthetase  xxxg907xxx  activity
+using high performance liquid chromatography, anal. biochem. 308
+(2002) 396–400.
+[39] w.p. jencks, j. regenstein, ionization constants of acids and bases,
+in: h.a. sober (ed.), handbook of biochemistry, the chemical
+rubber co., cleveland, ohio, 1968, pp. j150–j189.
+[40] i.h. segel, enzyme kinetics, john wiley and sons, inc., new york, 1975,
+pp. 470–473.
+
+210
+
+t.j. macleod et al. / biochimica et biophysica acta 1764 (2006) 199–210
+
+[41] h.s. penefsky, a centrifuged-column procedure for the measurement of
+ligand binding by beef heart f1, methods enzymol. 56 (1979) 527–530.
+[42] r. kitz, j.b. wilson, esters of  xxxd390xxx  acid as irreversible
+inhibitors of acetylcholinesterase, j. biol. chem. 237 (1962)
+3245–3249.
+[43] j.g. robertson, determination of subunit dissociation constants in native
+and inactivated ctp synthetase by sedimentation equilibrium, biochemistry 34 (1995) 7533–7541.
+[44] p.n. lowe, r.b. beechey, interactions between the mitochondrial
+adenosinetriphosphatase and periodate-oxidized adenosine 5′-triphosphate, an affinity label for adenosine 5′-triphosphate binding sites,
+biochemistry 21 (1982) 4073–4082.
+[45] i. hilden, b. hove-jensen, k.w. harlow, inactivation of escherichia coli
+ xxxd2937xxx  synthetase by the 2′,3′-dialdehyde derivative of atp. identification of active site lysines, j. biol. chem. 270 (1995)
+20730–20736.
+[46] j.s. bennett, r.f. colman, r.w. colman, identification of adenine
+nucleotide binding proteins in human platelet membranes by affinity
+labeling with 5′-p-fluorosulfonylbenzoyl adenosine, j. biol. chem. 253
+(1978) 7346–7354.
+[47] f. hansske, f. cramer, structure of periodated ribonucleosides and
+ribonucleotides, carbohydr. res. 54 (1977) 75–84.
+[48] m.r. gregory, e.t. kaiser, inactivation of phosphofructokinase by
+dialdehyde-atp, arch. biochem. biophys. 196 (1979) 199–208.
+[49] m.m. king, r.f. colman, affinity labeling of nicotinamide adenine
+dinucleotide dependent isocitrate dehydrogenase by the 2′,3′-dialdehyde
+derivative of adenosine 5′-diphosphate. evidence for the formation of an
+unusual reaction product, biochemistry 22 (1983) 1656–1665.
+[50] s.n. kochetkov, t.v. bulargina, l.p. sashchenko, e.s. severin, studies
+on the mechanism of action of histone kinase dependent on adenosine
+
+[51]
+
+[52]
+
+[53]
+
+[54]
+
+[55]
+
+[56]
+[57]
+
+[58]
+
+[59]
+
+3′:5′-monophosphate. evidence for involvement of histidine and lysine
+residues in the phosphotransferase reaction, eur. j. biochem. 81 (1977)
+111–118.
+g.j. thomson, j.r. coggins, n.c. price, the reaction of  xxxg1106xxx  (cpn 60)
+with the atp analogue 2′,3′ dialdehyde atp, febs lett. 336 (1993)
+19–22.
+y. zheng, a. bergold, m.w. duffel, affinity labeling of aryl sulfotransferase iv. identification of a peptide sequence at the binding site for
+3′-phosphoadenosine-5′- xxxd1564xxx , j. biol. chem. 269 (1994)
+30313–30319.
+a. levitzki, d.e. koshland jr.,  xxxd1789xxx  synthetase. covalent
+intermediates and mechanisms of action, biochemistry 10 (1971)
+3365–3371.
+r.s. myers, r.e. amaro, z.a. luthey-schulten, v.j. davisson, reaction
+coupling through interdomain contacts in imidazole phosphate synthase,
+biochemistry 44 (2005) 11974–11985.
+m. willemoës, a. mølgaard, e. johansson, j. martinussen, lid l11 of the
+ xxxg920xxx  domain of  xxxg546xxx  mediates allosteric
+gtp activation of  xxxg907xxx  activity, febs j. 272 (2005) 856–864.
+m.c. olcott, c.k. mathews, localization of the atp-binding domain of
+ctp synthetase, faseb j. 16 (2002) a156.
+j. czarnecki, r. geahlen, b. haley, synthesis and use of azido
+photoaffinity analogs of adenine and guanine nucleotides, methods
+enzymol. 56 (1979) 642–653.
+r.l. potter, b.e. haley, photoaffinity labeling of nucleotide binding sites
+with 8-azidopurine analogs: techniques and applications, methods
+enzymol. 91 (1983) 613–633.
+r. chenna, h. sugawara, t. koike, r. lopez, t.j. gibson, d.g. higgins,
+j.d. thompson, multiple sequence alignment with the clustal series of
+programs, nucleic acids res. 31 (2003) 3497–3500.
+

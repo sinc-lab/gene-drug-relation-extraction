@@ -1,0 +1,2014 @@
+molecular cell
+
+article
+hydroxyurea induces hydroxyl
+radical-mediated cell death
+in escherichia coli
+bryan w. davies,1 michael a. kohanski,3,4 lyle a. simmons,1,6,7 jonathan a. winkler,5,7 james j. collins,2,4
+and graham c. walker1,*
+1department
+
+of biology, massachusetts institute of technology, cambridge, ma 02139, usa
+institute, department of biomedical engineering, center for biodynamics, and center for advanced biotechnology
+3department of biomedical engineering and center for biodynamics
+4boston university school of medicine
+5program in molecular biology, cell biology, and biochemistry
+boston university, boston, ma, usa
+6department of molecular, cellular, and developmental biology, university of michigan, ann arbor, mi 48109, usa
+7these authors contributed equally to this work
+*correspondence: gwalker@mit.edu
+doi 10.1016/j.molcel.2009.11.024
+2howard hughes medical
+
+summary
+
+hydroxyurea (hu) specifically inhibits class i ribonucleotide reductase (rnr), depleting dntp pools
+and leading to replication fork arrest. although hu
+inhibition of rnr is well recognized, the mechanism
+by which it leads to cell death remains unknown. to
+investigate the mechanism of hu-induced cell death,
+we used a systems-level approach to determine the
+genomic and physiological responses of e. coli to
+hu treatment. our results suggest a model by which
+hu treatment rapidly induces a set of protective
+responses to manage genomic instability. continued
+hu stress activates iron uptake and toxins mazf and
+rele, whose activity causes the synthesis of incompletely translated proteins and stimulation of envelope stress responses. these effects alter the properties of one of the cell’s terminal cytochrome oxidases,
+causing an increase in superoxide production. the
+increased superoxide production, together with the
+increased iron uptake, fuels the formation of hydroxyl
+radicals that contribute to hu-induced cell death.
+introduction
+hydroxyurea (hu) is commonly used in both prokaryotes and
+eukaryotes to study dna damage-independent replication fork
+arrest (lopes et al., 2001; sogo et al., 2002; timson, 1975). hu
+is exquisitely specific for inhibiting class i ribonucleotide reductase (rnr), the enzyme responsible for the synthesis of dntps
+under aerobic conditions in many organisms, including escherichia coli, yeast, and humans (rosenkranz et al., 1967; sinha and
+snustad, 1972). several lines of evidence have indicated that
+rnr is the primary, if not only, cellular target of hu (fuchs and
+karlstrom, 1973; kren and fuchs, 1987; sjoberg et al., 1986;
+sneeden and loeb, 2004). depletion of dntp pools through
+hu treatment leads to replication fork arrest and subsequent
+
+genomic instability (ahmad et al., 1998; nakayama et al., 1994),
+most likely through substrate starvation (foti et al., 2005; godoy
+et al., 2006; timson, 1975). although hu has been used to study
+replication fork arrest for decades, very little is known about the
+downstream physiological effects of hu-dependent replication
+fork arrest, especially the mechanism by which hu leads to loss
+of cell viability and eventual lysis.
+an intriguing but unexplained observation is that prolonged hu
+stress results in cell death and lysis mediated in part by the mazef
+and relbe toxin/antitoxin modules (godoy et al., 2006). depletion
+of thymine pools (thymineless death) has similarly been suggested
+to involve mazf activation in e. coli (sat et al., 2003). our observation that variants of the translesion dna polymerase umuc, acting
+in combination with the translesion polymerase dinb and the
+umud gene products, may mitigate such mazef- or relbeinduced death has led us to suggest that hu-induced death of
+e. coli is brought about not by stalled replication forks directly,
+but rather through a series of downstream processes involving
+the toxin/antitoxin pairs mazef and relbe (godoy et al., 2006).
+to understand how hu-dependent replication fork arrest leads
+to cell death, we used a systems-level analysis to identify the
+genomic and physiological effects of hu treatment. we present
+a mechanism whereby hu treatment rapidly induces several
+survival responses, including upregulation of the sos response,
+downregulation of cell division inhibition, and induction of rnr
+synthesis. however, as hu stress continues, toxin modules
+mazf and rele are activated, triggering a cascade of events
+that eventually results in the production of deleteriously hydroxyl
+radicals. the production of hydroxyl radicals is exacerbated by
+increased iron uptake, and these harmful reactive oxygen species
+contribute to the majority of hu-mediated cell death in e. coli.
+
+results
+genome-wide analysis defines transcriptional
+perturbations induced by hu treatment
+when exponentially growing e. coli strain mc4100 is treated with
+100 mm hu in liquid culture, cell growth quickly ceases.
+
+molecular cell 36, 845–860, december 11, 2009 ª2009 elsevier inc. 845
+
+molecular cell
+d
+
+hu-induced oh production in e. coli
+
+however, cells do not begin to die until 2–3 hr into the treatment,
+and cell survival declines to 0.1% by 6 hr (figure 1). we examined gene expression profiles of exponentially growing mc4100
+cultures following 1 hr of treatment with or without 100 mm
+hu. at this 1 hr time point, hu-treated cultures do not show
+decreased survival but do show growth inhibition (figure 1a).
+we hypothesized that expression profiles at this time during
+hu treatment would allow us to gain insights into the early
+cellular events that lead to cell death and lysis.
+rna from three independent cultures treated with or without
+hu were analyzed using affymetrix antisense genome microarrays. the expression results were integrated into an e. coli
+microarray expression database (faith et al., 2007; http://m3d.
+bu.edu/) for analysis comparing the hu results to more than
+500 additional expression profiles (faith et al., 2007). we examined significance (z score) of gene expression on a gene-by-gene
+basis through comparison of expression levels with or without
+hu treatment in the framework of the mean and standard deviation (sd) of expression for each gene across all conditions in
+the compendium (see experimental procedures for additional
+details). this allowed us to determine the statistically significant
+changes in expression due to hu treatment in terms of units of
+sd by subtracting, on a gene-by-gene basis, the z score for an
+untreated control from the z score for an hu-treated sample.
+this procedure allowed us to filter our expression profile to identify those genes that showed altered transcript level specifically
+in response to hu (table s1 available online).
+hu rapidly induces survival responses to manage dna
+damage
+our microarray analysis showed induction of cell survival
+responses to manage hu-induced cell stress (table s1). we
+have grouped these survival responses into three categories
+(table 1).
+(1) upregulation of ribonucleotide reductase synthesis
+consistent with previous observations (gibert et al., 1990), we
+found a significant increase in gene and protein expression of
+the components of class i rnr, nrda and nrdb, in response
+to hu treatment (table 1 and figures  xxxd3227xxx  and s1b). in addition,
+genes encoding e. coli anaerobic class iii rnr (nrddg) and
+a cryptic rnr (nrdef) (jordan and reichard, 1998) showed
+significant transcriptional increases (table 1). we were surprised
+to find substantial induction of nrddg, given that any nrddg
+produced would be irreversibly inactivated under our aerobic
+conditions. these observations suggest that upregulation of all
+rnr genes in response to hu-induced dntp pool depletion is
+a strong survival response.
+(2) upregulation of primosome components
+we also observed that components of the primosome, pria and
+prib, were substantially upregulated by hu treatment (table 1).
+pria and prib can assemble forks on either the leading or lagging
+strand (heller and marians, 2005, 2006; lovett, 2005). the pria
+pathway for replication restart is most efficient on fork structures
+without gaps in the leading strand. this structure could be
+formed after the collapse of a replication fork. an alternative
+pric-dependent pathway preferentially utilizes forks with large
+gaps in the leading strand. we did not observe upregulation of
+pric (table 1), an observation consistent with the mode of fork
+
+damage induced by hu treatment. upregulation of primosome
+components may help restart replication forks stalled or collapsed following hu treatment. of note, induction of primosome
+components is not part of the sos response (simmons et al.,
+2008a).
+(3) activation of the sos response
+consistent with previous work (barbe et al., 1987), our microarray analysis revealed that numerous genes in the dna-damageresponsive sos network were induced by hu treatment
+(table 1). the sos response involves the upregulation of 57
+genes involved in numerous aspects of dna repair and other
+cellular functions (simmons et al., 2008a). in agreement with
+the transcriptional data, sula and reca protein levels showed
+a significant increase following hu challenge (figures s1c
+and s1d).
+recent work has shown that a small subpopulation of cells can
+account for large transcriptional changes in microarray analyses
+of the sos response (britton et al., 2007; simmons et al., 2008b).
+to determine the population of sos-induced cells after hu treatment, we used the pl(lexo)-gfp construct in which gfp expression is controlled by lexa (dwyer et al., 2007) as a single-cell
+marker of sos induction. no gfp fluorescence was observed
+in the absence of hu (data not shown), but we did observe
+gfp fluorescence soon after hu treatment (figure 1b, i). after
+a 30 min exposure to hu, gfp fluorescence was clearly visible
+in the vast majority of cells (figure 1b, ii), indicating that sos
+induction occurred uniformly in the bulk of the population.
+to explore the contribution of the sos response to hu
+survival, we tested the sensitivity of the lexa3 mutant strain to
+increasing amounts of hu (figure 1c). the lexa3 strain carries
+a noncleavable form of lexa, effectively preventing sos induction (friedberg et al., 2005; mount et al., 1972). the lexa3 strain
+was 10-fold more sensitive relative to the parental strain
+through a range of hu concentrations, indicating that activation
+of the sos-regulated genes helps cells survive hu exposure. hu
+is much less stable in liquid culture than in solid lb agar (s.t.
+lovett, personal communication), possibly due to increased
+oxidation of hu in liquid. we found that 100 mm hu was required
+for significant killing in liquid cultures (figure 1a), whereas
+5–30 mm hu was sufficient to observe growth difference
+between strains in lb agar plating assays (figure 1c).
+hu treatment induces extreme filamentation (godoy et al.,
+2006), which could occur due to sula-mediated inhibition of
+septum formation. however, upregulation of sula alone cannot
+completely account for the observed increase in filamentation
+because hu-induced filamentation still occurs in a dsula background (figure s1e and s1f). a functionally linked cluster of
+genes involved early in cell division, including several genes
+involved in septum formation (e.g., ftsz, ftsq, zipa) and a positive
+regulator of ftsz, rcsb (table 1), showed significant downregulation in our microarrays. in agreement with the transcriptional
+result, we observed a decrease in ftsz protein level (figure s1g).
+to determine whether the downregulation of genes required for
+septum assembly was sufficient to perturb septum formation, we
+analyzed z ring formation at the single-cell level using an ftszgfp fusion (weiss et al., 1999). ftsz-gfp does not functionally
+complement endogenous ftsz but is able to decorate the
+wild-type protein forming z rings, allowing for visualization by
+
+846 molecular cell 36, 845–860, december 11, 2009 ª2009 elsevier inc.
+
+molecular cell
+hu-induced ohd production in e. coli
+
+a
+
+c
+- hu
+
+lexa3
+
+wt
+
++ hu
+
+b
+
+membrane
+
+gfp
+
+d
+
+i)
+
+3µm
+
+plexo-gfp, 15min
+
+3µm
+
+3 µµm
+
+untreated
+
+3µ m
+
+treated
+
+ii)
+3µm
+
+plexo-gfp, 30min
+
+3µm
+
+3µm
+
+pfuro-gfp, 15min
+
+3µm
+
+3µm
+
+pfuro-gfp, 30min
+
+iii)
+
+iv)
+
+3µm
+
+figure 1. hu treatment induces dna damage responses
+(a) survival of exponentially growing mc4100 cultures treated with (d) or without (-) 100 mm hu for the indicated times.
+(b) mc4100 pl(lexo)-gfp treated with 100 mm hu for 15 min (i) and 30 min (ii). mc4100 pl(lexo)-gfp did not show gfp fluorescence in the absence of hu (data
+not shown). mc4100 pl(furo)-gfp treated with 100 mm hu for 15 min (iii) and 30 min (iv). mc4100 pl(furo)-gfp did not show gfp fluorescence in the absence of
+hu (data not shown).
+(c) wt ab1157 (-) and ab1157 lexa3 (-) were spotted on lb agar plates containing increasing concentrations of hu.
+(d) mc4100 carrying placftsz-gfp treated with 2.0 mm iptg with or without 100 mm hu for 1 hr.
+each data point represents the average of at least three independent experiments, and the error bars represent the standard error of the independent measurements.
+
+molecular cell 36, 845–860, december 11, 2009 ª2009 elsevier inc. 847
+
+molecular cell
+d
+
+hu-induced oh production in e. coli
+
+table 1. functional groups of differentially regulated genes
+identified by microarray analysis having a biologically relevant
+effect on the e. coli cellular response to hu
+gene product/function
+
+table 1. continued
+iron uptake
+fepc
+
+inner-membrane protein, ferrienterobactin
+transport
+
++1.51 ± 0.52
+
+gene
+
+ribonucleotide reductases
+
+z score ± se1
+(+hu vs. hu)
+
+fepd
+
+ferrienterobactin permease
+
++1.23 ± 0.24
+
+nrda
+
+subunit a class i ribonucleotide reductase
+
++1.82 ± 0.15
+
+fepg
+
+ferrienterobactin permease
+
++1.40 ± 0.51
+
+nrdb
+
+subunit b class i ribonucleotide reductase
+
++2.52 ± 0.14
+
+fhua
+
+ferrichrome omp
+
++1.59 ± 0.22
+
+nrdd
+
+class iii ribonucleotide reductase,
+anaerobic
+
++2.25 ± 0.25
+
+fhub
+
+hydroxamate-dependent ferric uptake
+
++2.07 ± 0.57
+
+nrdg
+
+nrdd activating enzyme
+
++2.38 ± 0.20
+
+fhuc
+
+hydroxamate-dependent ferric uptake
+
++1.59 ± 0.26
+
+nrdh
+
+electron transport system for nrdef
+
++2.32 ± 0.09
+
+fhud
+
+hydroxamate-dependent ferric uptake
+
++1.34 ± 0.28
+
+fhue
+
+ferric-rhodotorulic acid outer-membrane
+receptor
+
++0.86 ± 0.25
+
+fhuf
+
+ferric hydroxamate transport
+
++2.38 ± 0.16
+
+tonb
+
+iron uptake
+
++1.88 ± 0.09
+
+exbb
+
+iron uptake
+
++2.43 ± 0.09
+
+exbd
+
+iron uptake
+
++2.11 ± 0.05
+
+nrdi
+
+part of nrdhief operon; function unknown
+
++2.53 ± 0.09
+
+nrde
+
+subunit a cryptic class i ribonucleotide
+reductase
+
++2.33 ± 0.05
+
+subunit b cryptic class i ribonucleotide
+reductase
+
++2.47 ± 0.09
+
+nrdf
+
+sos network
+sula
+dinb
+reca
+recn
+
+inhibits ftsz ring formation
+dna polymerase iv
+recombinatorial repair
+recombinatorial repair
+
+umuc dna polymerase v
+umud dna polymerase v
+
++0.85 ± 0.23
++0.97 ± 0.02
++0.71 ± 0.10
++1.58 ± 0.28
++1.49 ± 0.07
+
+ruva
+
+holliday junction recognition
+
++1.19 ± 0.31
+
+ruvb
+
+branch migration of holliday structures
+
++1.58 ± 0.64
+
+uvrb
+
+excision nuclease subunit b
+
++1.52 ± 0.15
+
+cell division
+ftsz
+
+initiates septum ring formation
+
+toxin-antitoxin pairs
+
++1.48 ± 0.04
+
+1.29 ± 0.20
+
+zipa
+
+septal ring structural protein
+
+1.53 ± 0.09
+
+ftsq
+
+growth of cell wall at septum
+
+0.93 ± 0.28
+
+rcsb
+
+ftsz regulator
+
+0.71 ± 0.05
+
+dna replication restart
+pria
+
+primosome factor y
+
++1.20 ± 0.24
+
+prib
+
+primosome protein
+
++1.04 ± 0.13
+
+dnab
+
+helicase
+
++0.41 ± 0.14
+
+dnac
+
+helicase loading
+
++0.95 ± 0.14
+
+dnan
+
+sliding clamp subunit
+
++1.52 ± 0.12
+
+iron uptake
+feca
+
+receptor, citrate-dependent ferric iron
+transport
+
++2.03 ± 0.10
+
+fecb
+
+periplasmic protein, ferric iron transport
+
++1.80 ± 0.14
+
+fecc
+
+ferric iron transport
+
++1.77 ± 0.19
+
+fecd
+
+membrane protein, ferric iron transport
+
++1.31 ± 0.26
+
+fece
+
+ferric iron transport
+
++1.58 ± 0.42
+
+feci
+
+ferric iron transport
+
++2.16 ± 0.10
+
+fecr
+
+regulator of ferric iron transport
+
++1.12 ± 0.16
+
+feoa
+
+ xxxd2385xxx  uptake system
+
++0.65 ± 0.20
+
+feob
+
+membrane protein,  xxxd2385xxx  uptake
+system
+
++0.76 ± 0.26
+
+fepa
+
+outer-membrane protein, ferribactin
+transport
+
++1.85 ± 0.08
+
+fepb
+
+periplasmic protein, ferrienterobactin
+transport
+
++1.19 ± 0.09
+
+0.37 ± 0.02
+
+maze
+
+suppressor of mazf activity
+
+mazf
+
+toxic protein, growth inhibitor
+
++0.10 ± 0.35
+
+relb
+
+suppressor of rele activity
+
+0.21 ± 0.08
+
+rele
+
+toxic protein, growth inhibitor
+
+0.04 ± 0.08
+
+1
+
+se, standard error.
+
+fluorescence microscopy (ma et al., 1996). induction of ftszgfp by iptg was comparable in hu-treated and nontreated
+cultures (figure s1h). under nonstress conditions, we observed
+septal ring formation in mc4100 cells at midcell (figure 1d).
+however, when ftsz-gfp was induced following hu treatment,
+the elongated cells did not show z ring formation (figure 1d).
+in fact, we did not observe z rings in any hu-treated cells
+(data not shown). together, these results strongly suggest that
+the decreased expression of ftsz and other septum assembly
+genes is sufficient to perturb normal septum formation.
+hu-induced iron uptake response is nonuniform
+and associated with cell death
+we also observed several functional classes of genes whose
+expression changes we could not easily explain as survival
+responses. our microarray analysis indicated that many genes
+encoding the fep, fec, fhu, and feo iron uptake systems (postle
+and larsen, 2007) were significantly upregulated after 1 hr of hu
+treatment (table 1). iron is required for numerous biological
+purposes, including playing a catalytic role in class i rnr
+(stubbe, 2003), so it seemed possible that increased iron uptake
+in response to hu represents an effort to replenish rnr. however, excessive amounts of iron can be deleterious to e. coli,
+catalyzing the production of highly destructive hydroxyl radicals
+(ohd) through fenton chemistry (jakubovics and jenkinson,
+2001). to test whether such a strong hu-induced iron uptake
+had an overall beneficial or detrimental effect on e. coli, we disrupted tonb, which is a component of the tonb/exbb/exbd
+inner-membrane protein complex. tonb is important for iron
+uptake because it couples the dedicated outer-membrane iron
+transporters fepa, feca, and fhue to the proton-motive force
+
+848 molecular cell 36, 845–860, december 11, 2009 ª2009 elsevier inc.
+
+molecular cell
+hu-induced ohd production in e. coli
+
+figure 2. hu treatment induces iron uptake
+response and oxidative stress
+
+b
+
+a
+
+∆tonb
+-hu
+3µm p(furo)-gfp
+
+mc4100
+
+c
+c
+
++hu
+3µm p(furo)-gfp
+
+d
+200
+
+relative fluorescence (%)
+
+thiourea
+
+150
+
+hu+thiourea
+
++hu
+
+100
+
+-hu
+
+50
+
+hu
+
+0
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+time (hours)
+
+f
+
+200
+
+relative fluorescence (%)
+
+e
+
+time (hours)
+
+(a) mc4100 (-) and a dtonb mutant (d) were serially
+diluted and spotted on lb agar plates containing
+increasing concentrations of hu.
+(b) fur-regulated gfp-expressing cells were treated with
+100 mm hu for 1 hr and then imaged. no gfp fluorescence was observed in the absence of hu (data not
+shown).
+(c) hydroxyl radical formation measured by hpf fluorescence in mc4100 treated with or without 100 mm hu.
+the relative fluorescence values were determined by
+taking the mean fluorescence value for each sample at
+each time point and normalizing that value to the maximum
+mean fluorescence value that the wild-type sample
+achieved over the time course. each data point represents
+the average of three independent measurements of these
+relative fluorescence values, and the error bars represent
+se of the independent measurements.
+(d) survival curve of mc4100 treated with 100 mm hu in
+the presence (-) or absence (d) of 100 mm thiourea.
+the growth of mc4100 in the presence of 100 mm thiourea
+is shown as a control (-).
+(e) hydroxyl radical formation measured by hpf fluorescence in mc4100 following treatment with 100 mm hu
+with or without 100 mm thiourea. fluorescence for each
+condition is shown relative to the maximum fluorescence
+achieved by mc4100 + 100 mm hu.
+(f) mc4100 (-) and dahpc (d) strains were spotted on lb
+agar plates containing increasing concentrations of hu.
+
+150
+
++hu
+
+100
+
+mc4100
+
+50
+
++hu/+thiourea
+
+0
+0
+
+1
+
+2
+
+3
+
+4
+
+control, but one subpopulation was more fluorescent than the other.
+we further explored the relationship between
+iron uptake and cell death by staining mc4100
+cells carrying pl(furo)-gfp with  xxxd3027xxx 
+iodide.  xxxd3027xxx  iodide is used as a marker
+for cell death, as it is only able to enter and stain
+bacteria that have damaged cell membranes. after 3 hr of hu
+treatment, we found that 20% of cells stained with  xxxd3027xxx 
+iodide and that 98% of  xxxd3027xxx  iodide-stained cells also
+showed increased levels of fur-regulated gfp expression (n =
+810 cells). in sum, these results indicated that, unlike the uniform
+sos survival response, the induction of genes involved in iron
+uptake occurs later to two distinguishable levels and correlates
+with cell death.
+
+∆ahpc
+
+5
+
+time (hours)
+
+(wandersman and delepelaire, 2004; wiener, 2005). we found
+that disruption of tonb increased resistance of the strain to hu
+(figure 2a), suggesting that the strong upregulation of iron
+uptake has an overall negative impact on cell survival under
+hu stress.
+we asked whether the increased iron uptake occurred on the
+same timescale as hu-protective responses such as the sos
+response. to explore the temporal relationship between iron
+uptake and hu treatment, we observed mc4100-carrying plasmid pl(furo)-gfp that expresses gfp under the control of the
+iron-responsive transcriptional regulator fur. fur controls
+expression of three major iron transport systems upregulated
+in our microarray: fec, fep, and fhu. in contrast to induction
+of the sos-regulated gfp response, we did not observe furregulated gfp expression after 15 min of hu treatment and
+observed only minor induction at 30 min (figure 1b, iii and iv).
+under the same exposure conditions, we did observe a significant increase in fur-regulated gfp expression after 1 hr of hu
+treatment, consistent with our microarray data (figure 2b). interestingly, our microscopy indicated that there were two subpopulations of gfp-expressing cells after 1 hr of hu treatment. both
+subpopulations showed gfp fluorescence above the untreated
+
+quenching of hydroxyl radicals prevents hu-induced
+cell death
+we had speculated that increased iron uptake might be detrimental to the cell by increasing ohd formation (imlay et al.,
+1988). to test this idea, we monitored the fluorescence of the
+dye, 30 -(r-hydroxyphenyl)-fluorescein (hpf), in cultures after
+hu treatment (kohanski et al., 2007). hpf is oxidized with high
+specificity by ohd to a fluorescent product (setsukinai et al.,
+2003). one hour after hu treatment, we observed ohd formation
+in mc4100 that steadily increased until reaching a maximum at
+4 hr (figure 2c). the first major increase in ohd formation
+coincides exactly with the first major decrease in cell viability
+after hu exposure (figure 1a). this correlation suggests that
+
+molecular cell 36, 845–860, december 11, 2009 ª2009 elsevier inc. 849
+
+molecular cell
+d
+
+hu-induced oh production in e. coli
+
+b
+600
+
+cell count
+
+c
+
++hu
+
+600
+t0
+t1
+t2
+t3
+t4
+t5
+
+400
+
+cell count
+
+a
+
+200
+
++guanazole
+t0
+t1
+t2
+t3
+t4
+t5
+
+400
+
+200
+
++guanazole
+0
+0
+10
+
+4
+
+2
+
+10
+
+10
+
+fluorescence
+
+time (hours)
+
+d
+
+e
+
+relative fluorescence (%)
+
+200
+
+wt
+
+150
+
++hu
+100
+
++guanazole
+50
+
+dnae(ts)
+0
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+time (hours)
+
+time (hours)
+
+relative fluorescence (%)
+
+f
+
+g
+250
+
+dnae(ts)
+
+200
+150
+100
+
+wt
+
+mc4100
+
+50
+0
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+time (hours)
+
+h
+relative fluorescence (%)
+
+∆cydb
+
+200
+150
+
+mc4100
+
+100
+
+∆cydb
+
+50
+0
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+time (hours)
+
+850 molecular cell 36, 845–860, december 11, 2009 ª2009 elsevier inc.
+
+0 0
+10
+
+2
+
+10
+
+fluorescence
+
+4
+
+10
+
+molecular cell
+hu-induced ohd production in e. coli
+
+hu-induced cell death may be due, at least in part, to increased
+ohd levels.
+to test whether the increased ohd production that we observe
+following hu treatment is causally related to cell death, we
+quenched ohd using the potent ohd scavenger thiourea
+(novogrodsky et al., 1982; repine et al., 1981; touati et al.,
+1995). though similar in structure to hu, thiourea is not a potent
+inhibitor of rnr because it lacks the key hydroxyl group that
+inactivates rnr and thus does not affect culture growth (figure 2d) (stubbe, 2003). addition of thiourea to cultures essentially prevented hu-induced cell death (figure 2d) and strongly
+decreased ohd formation (figure 2e). in other words, thiourea
+changes hu from a bactericidal stress into a bacteriostatic
+stress. thiourea did not interfere with the hu-dependent arrest
+of dna synthesis (figure s2b). because thiourea has been
+shown to scavenge another radical, hocl (wasil et al., 1987),
+we cannot rule out the possibility that thiourea may be quenching
+additional unknown radicals that also contribute to hu-induced
+cell death. nevertheless, the virtually complete abrogation of cell
+death brought about by thiourea treatment strongly suggests
+that ohd and possibly other radicals play a causal role in the
+chain of events that leads to cell death in response to prolonged
+hu treatment.
+ohd formation via the fenton reaction occurs when hydrogen
+peroxide (h2o2) interacts with  xxxd2385xxx . there are a number of
+enzymes that can remove harmful reactive oxygen species
+(ros), and in e. coli, ahpcf encodes for one of the key h2o2scavenging enzymes (seaver and imlay, 2001). we examined
+survival of an dahpc strain and found that loss of ahpc increased
+sensitivity to hu through a range of hu concentrations (figure 2f). this result strongly supports our inference that hu
+induces ohd formation via fenton chemistry and that this ros
+contributes to hu-mediated cell death.
+replication fork arrest promotes ohd production
+our results indicate that ohd play a causal role in hu-mediated
+cell death, yet blocking iron uptake by deleting tonb results in
+only a modest increase on survival in the presence of hu.
+thus, though increased iron likely contributes to hu-mediated
+cell death by promoting ohd formation, our results suggest
+that there must be additional factors responsible for the high
+levels of ohd production after hu treatment.
+although rnr is widely thought to be the sole cellular target of
+hu (fuchs and karlstrom, 1973; kren and fuchs, 1987; sjoberg
+et al., 1986; sneeden and loeb, 2004), it was still possible that
+
+the increased iron uptake and ohd production, which contribute
+to cell death, were off-target effects of hu treatment. to address
+these issues, we first treated mc4100 with guanazole and again
+monitored for increased iron uptake and hydroxyl radical formation. guanazole is a highly specific inhibitor of rnr that is chemically distinct from hu (foti et al., 2005; jones et al., 2007; moore
+and hurlbert, 1985). treatment of mc4100 with 100 mm guanazole resulted in 0.1% survival after 6 hr, similar to hu treatment
+(figure 3a). we monitored iron uptake using plasmid pl(furo)gfp. treatment of mc4100 carrying pl(furo)-gfp with either
+hu (figure 3b) or guanazole (figure 3c) resulted in a substantial
+increase in fur-regulated gfp fluorescence, as measured by
+flow cytometry. furthermore, treatment of mc4100 with guanazole also strongly induced ohd production (figure 3d). these
+results support the hypothesis that both increased iron uptake
+and ohd production are due to inhibition of rnr activity rather
+than an off-target effect of hu.
+to determine whether increased iron uptake and ohd were
+due strictly to the inhibition of rnr or to the downstream effects
+of replication fork arrest, we tested a temperature-sensitive dnae
+mutant (strauss et al., 2005) for iron uptake and ohd production
+at the permissive and nonpermissive temperatures. dnae codes
+for the a-catalytic subunit of dna polymerase iii holoenzyme and
+is essential for dna synthesis (gefter et al., 1971; wickner and
+kornberg, 1974), and incubation at the nonpermissive temperature leads to replication fork arrest in the dnae(ts) mutant. at the
+permissive temperature, the dnae(ts) strain was identical to the
+parental strain with respect to growth, expression of iron uptake,
+and ohd formation (data not shown). after 5 hr at the nonpermissive temperature of 40 c, the dnae(ts) strain viability had
+decreased to 0.1% (figure 3e). of interest, at the nonpermissive
+temperature, the dnae(ts) strain did not exhibit a change in iron
+uptake response (figures s2b and s2c) but did show a significant increase in ohd formation (figure 3f) compared to the
+wild-type control strain. in fact, the first major increase in ohd
+production was observed at the same time as the first major
+decrease in dnae(ts) mutant cell survival. these observations
+support our conclusion that, in addition to the increase in iron
+uptake caused by hu treatment, there must be additional
+cellular responses resulting from the blocked replication fork
+that play a major role in ohd production and subsequent cell
+death.
+the major source of reactive oxygen species in the cell is from
+the inappropriate reduction of oxygen during electron transport
+through the respiratory chain (imlay and fridovich, 1991). it
+
+figure 3. effects of replication fork arrest
+(a) survival curve of mc4100 treated with (d) or without (-) 100 mm guanazole.
+(b and c) mc4100 pl(furo)-gfp treated with 100 mm hu or 100 mm guanazole and sorted by flow cytometry as previously described (dwyer et al., 2007).
+(d) comparison of hydroxyl radical formation measured by hpf fluorescence in mc4100 treated with hu (-) or guanazole (d) normalized to mic. fluorescence
+for each strain is shown relative to the maximum fluorescence achieved by mc4100 + 100 mm hu.
+(e) survival curve of the dnae(ts) mutant (d) and parental strain (-) grown at the nonpermissive temperature.
+(f) hydroxyl radical formation measured by hpf fluorescence in the dnae(ts) (d) and parental strain (-) grown at the nonpermissive temperature. fluorescence
+for each strain is shown relative to the maximum fluorescence achieved by the wild-type strain.
+(g) mc4100 (-) and dcydb (d) strains were spotted on lb agar plates containing increasing concentrations of hu.
+(h) hydroxyl radical formation measured by hpf fluorescence in mc4100 (-) and the dcydb mutant (d) during hu treatment. fluorescence for each strain is
+shown relative to the maximum fluorescence achieved by mc4100 + 100 mm hu.
+each data point represents the average of at least three independent experiments, and the error bars represent the standard error of the independent measurements.
+
+molecular cell 36, 845–860, december 11, 2009 ª2009 elsevier inc. 851
+
+molecular cell
+d
+
+hu-induced oh production in e. coli
+
+was recently shown that lethality of a temperature-sensitive dna
+polymerase iii mutant could be overcome (strauss et al., 2005) by
+disrupting one the major respiratory cytochrome oxidases, cytochrome oxidase bd (poole and cook, 2000; strauss et al., 2005).
+we hypothesized that replication fork arrest was ultimately disrupting electron transport chain activity, which was leading to
+increased ros production. agreeing with this, we found that
+deleting cydb, which encodes subunit b of one of the major respiratory terminal cytochrome oxidases, prevented hu-induced cell
+death (figure 3g). furthermore, deletion of cydb nearly completely prevented hu-induced ohd formation (figure 3h).
+mazef and relbe act synergistically to promote cell
+death and ohd production and are additive
+in their effects with increased iron uptake
+our observations that the dnae(ts) mutant produced ohd at the
+nonpermissive temperature and that the dcydb mutant exhibited
+increased survival following hu treatment point toward replication fork arrest as a key element underlying ros formation
+during hu stress. it was also recently shown that the action of
+mazf can mediate cell death in response to certain antibiotics
+by producing reactive oxygen species (kolodkin-gal et al.,
+2008). of interest, we had previously shown that disruption of
+either toxin-antitoxin pairs, mazef or relbe, in the e. coli hm21
+and p90c strain backgrounds increased hu resistance (godoy
+et al., 2006). these observations led us to ask whether the mazef
+and relbe toxin/antitoxin modules contributed to the death of
+hu-treated strain mc4100 via an ohd-mediated mechanism
+and whether this is connected to hu-mediated replication fork
+inhibition. when challenged with hu, we found that, in strain
+mc4100, deletion of mazef led to increased resistance to hu
+(figure 4a). the mc4100 drelbe strain, however, was indistinguishable from the parental strain for hu survival (figure 4b).
+strikingly, we found that deletions of both mazef and relbe act
+synergistically to promote hu resistance to levels far above
+that observed in a dmazef strain alone (figure 4c) and similar
+to that observed with the dcydb strain. deletion of relbe did
+not have a detectable effect on ohd formation, whereas deletion
+of mazef caused a small decrease in ohd formation (figures
+s2d and s2e). the dmazef drelbe strain exhibited a stronger
+reduction in ohd levels (figure s2f), consistent with the
+observed increase in survival (figure 4c). we also note that our
+microarray results showed that hu induced only small increases
+in expression of mazf relative to maze and of rele relative to relb
+(table 1), suggesting that hu treatment appears to be affecting
+toxin activation mainly at a posttranscriptional level.
+we have shown above that increased iron uptake has overall
+negative effects on hu survival. to determine the relationship
+between increased iron uptake and toxin-induced cell death,
+we constructed a dmazef drelbe dtonb strain and tested its
+sensitivity to hu. we found that our dmazef drelbe dtonb
+was more resistant to hu than was our dmazef drelbe strain
+(figure 4d). this suggests that increased iron uptake enhances
+toxin-mediated cell death, which likely occurs via an ohddependent mechanism. consistent with these data, we found
+that deleting tonb in combination with dmazef drelbe results
+in a significant decrease in the levels of ohd following hu treatment (figure 4e).
+
+toxin activity leads to improperly translated proteins
+and membrane stress
+we next considered how toxin activity could lead to radical-mediated cell death. a number of chromosomally encoded toxins have
+functions that directly affect protein synthesis. hipa was recently
+shown to phosphorylate the translation-related protein  xxxg678xxx   xxxg2360xxx 
+(schumacher et al., 2009), and the toxins mazf and rele are
+ribonucleases that cleave mrna (christensen and gerdes,
+2003; zhang et al., 2005), thereby disrupting protein translation.
+improper protein synthesis can lead to problems with protein
+folding, and this has been associated with protein carbonylation
+(a marker of oxidative stress) (dukan et al., 2000) and ros formation following treatment with aminoglycosides (kohanski et al.,
+2008). recent work has also shown that mazf overexpression
+can lead to protein carbonylation (kolodkin-gal et al., 2008).
+we hypothesized that hu stimulates mazf and rele activity,
+which cleave mrna, leading to truncated proteins, protein misfolding, and, ultimately, oxidative stress and cell death.
+to test this idea, we investigated protein translation following
+hu treatment to determine whether replication fork inhibition
+affects protein synthesis and whether such an effect is toxin
+dependent. disruption of protein translation can lead to stalled
+ribosomes that can be rescued by tmrna (moore and sauer,
+2007). tmrna frees stalled ribosomes by releasing both mrna
+and the incompletely translated protein. we used the tmrna
+system developed by moore et al., which adds a 63 his peptide
+tag to the end tmrna-released proteins, to monitor the effect of
+toxin activity during hu treatment (moore and sauer, 2005). we
+found that hu treatment induced a significant increase in tmrna
+his-tagged proteins (figure 5a). this increase in tmrna histagged proteins was alleviated by deleting both toxins mazf
+and rele. this suggests that toxin activity during hu treatment
+likely leads to the improper translation of proteins.
+improperly translated proteins can also lead to membrane
+stress (alba and gross, 2004). to test whether the hu treatment
+leads to membrane stress, we first used an rpohp3-lacz reporter
+to measure rpoe activity following hu treatment. rpoe is a s
+factor whose activity is induced by membrane stress (alba and
+gross, 2004). after only 1 hr of hu treatment, we observed a
+2-fold increase in rpoe activity (figure 5b). this increase in
+rpoe activity was prevented by deletion of both toxins mazf
+and rele, confirming that toxins stimulate envelope stress, likely
+through a mechanism involving improperly translation proteins.
+we were unable to assess rpoe activity at later time points
+because the strain lacking both toxin-antitoxin pairs rapidly
+approached stationary phase, which induces rpoe activity
+(kabir et al., 2005).
+to confirm that membrane stress affects hu-mediated survival, we looked at the responses of dcpxa and ddegp mutant
+strains to hu treatment. disruption of membrane proteins also
+leads to the activation of the cpxar two-component signaling
+system (cpxa is the sensor protein, and cpxr is the cognate
+transcription factor), which monitors the fidelity of proteins
+trafficked across the inner membrane and works in conjunction
+with se to activate elements of the envelope stress response system such as the periplasmic protease, degp (macritchie et al.,
+2008; ruiz and silhavy, 2005). recent evidence suggests that
+mistranslated proteins can induce ohd through cpx-mediated
+
+852 molecular cell 36, 845–860, december 11, 2009 ª2009 elsevier inc.
+
+molecular cell
+hu-induced ohd production in e. coli
+
+a
+
+d
+deltamazefdeltarelbedeltatonb
+
+deltamazefdeltarelbe
+
+deltamazef
+mc4100
+
+e
+
+mc4100
+deltarelbe
+
+relative fluorescence (%)
+
+b
+
+200
+
+150
+
+mc4100
+100
+
+50
+
+deltamazefdeltarelbedeltatonb
+0
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+time (hours)
+
+c
+
+deltamazefdeltarelbe
+
+mc4100
+
+figure 4. hu stress assays
+(a–d) (a) mc4100 (-) and dmazef (d), (b) mc4100 (-) and drelbe (d), (c) mc4100 (-) and drelbe dmazef (a), and (d) drelbe dmazef (-) and drelbe
+dmazef dtonb (d). strains were spotted on lb agar plates containing increasing concentrations of hu.
+(e) hydroxyl radical formation measured by hpf fluorescence in mc4100 (-) and the drelbe dmazef dtonb mutant (d) in the presence of 100 mm hu using flow
+cytometry. fluorescence for each strain is shown relative to the maximum fluorescence achieved by mc4100 + 100 mm hu.
+each data point represents the average of at least three independent experiments, and the error bars represent the standard error of the independent measurements.
+
+perturbation of envelope stress and metabolism and that deletion of the cpxa or degp significantly decreased ohd production (kohanski et al., 2008). in agreement with this, we found
+that deletion of cpxa resulted in a striking rescue from huinduced cell death (figure 5c), comparable to that achieved by
+deleting cydb or mazef, relbe, and tonb. deletion of cpxa
+also substantially reduced hu-induced ohd production (figure 5d). furthermore, we also observed that deletion of degp
+also conferred significant resistance to hu-induced cell death
+(figure 5c).
+hu treatment leads to membrane depolarization
+and toxin-mediated release of superoxide
+if hu-induced membrane stress leads to ohd formation by disrupting the normal electron flow through the electron transport
+
+chain, then we hypothesized that hu treatment should also
+lead to changes in membrane potential. we treated cells with
+the bisoxonol dye dibac, which diffuses across depolarized
+yet intact cell membranes (jepras et al., 1997). we examined
+cells 3 hr after hu treatment, as cell death appears to have
+begun by this time (figure 1a), and observed a significant
+number of dibac-stained cells (figure 5f). furthermore, we
+found that only cells strongly expressing fur-regulated gfp
+stained with dibac (figure 5g). this agrees with our observation
+above that, overall, increased expression of iron uptake genes is
+associated with hu-induced cell dysfunction.
+the most common ros released from the respiratory chain is
+superoxide (imlay and fridovich, 1991). our results demonstrating a connection between toxin activity and membrane
+stress, together with our earlier results showing that dcydb is
+
+molecular cell 36, 845–860, december 11, 2009 ª2009 elsevier inc. 853
+
+molecular cell
+d
+
+hu-induced oh production in e. coli
+
+2
+
+3
+
+4
+
+5
+
+d
+
+h
+
+200
+
+relative fluorescence (%)
+
+1
+
+relative fluorescence (%)
+
+a
+
+150
+
+mc4100
+
+100
+50
+
+∆cpxa
+0
+
+200
+150
+
+mc4100
+
+100
+50
+
+deltamazefdeltarelbe
+
+0
+
+0
+
+b
+
+1
+
+2
+3
+time (hours)
+
+4
+
+5
+
+0
+
+1
+
+2
+
+3
+
+4
+
+time (hours)
+
+e
+
+dic
+
+2µm
+
+dibac
+
+2µm
+
+gfp
+
+2µm
+
+f
+∆mazef
+∆ relbe
+
+mc4100
+
+c
+∆cpxa
+
+g
+
+∆ degp
+
+mc4100
+
+figure 5. hu treatment induces membrane stress
+(a) mc4100 and the drelbe dmazef mutant carrying the tmrna-63 his allele were treated with or without 100 mm hu for 3 hr. equal amounts of total protein
+lysate were separated by sds-page and probed with a monoclonal anti-his antbody. lane 1, mc4100 (–) hu; lane 2, drelbe dmazef (–) hu; lane 3, mc4100 (+)
+hu; lane 4, drelbe dmazef (+) hu; lane 5, mc4100 without tmrna-63 his (+) hu.
+(b) mc4100 and the drelbe dmazef carrying reporter rpohp3-lacz treated with or without hu for 1 hr. the plot shows the ratio of lacz activity with or without hu
+for each strain.
+(c) mc4100 (-), dcpxr (d), and ddegp (-) strains were spotted on lb agar plates containing increasing concentrations of hu.
+(d) hydroxyl radical formation measured by hpf fluorescence in mc4100 (-) and the dcpxa mutant (d) in the presence of 100 mm hu using flow cytometry.
+(e–g) fur-gfp-containing cells were treated with 100 mm hu for 3 hr. the culture was then stained with dibac. (e) nomarsky image of cells. (f) image showing
+dibac staining. (g) image showing fur-regulated gfp expression.
+(h) mc4100 pl(soxr)-gfp (-) and drelbe dmazef pl(soxr)-gfp (d) treated with 100 mm hu and sorted by flow cytometry.
+each data point represents the average of at least three independent experiments, and the error bars represent the standard error of the independent measurements.
+
+substantially less sensitive to hu treatment, suggest that hu-induced changes in membrane composition and function may
+lead to superoxide formation. superoxide is converted to
+ xxxd2298xxx  (h2o2) that can react with  xxxd2385xxx  to
+produce ohd (jakubovics and jenkinson, 2001). it is thus
+possible that toxin-mediated superoxide formation can contribute to an increase in fenton chemistry, which would explain
+the significant decrease in cell death in the dmazef drelbe
+
+dtonb strain. to monitor superoxide production, we used
+plasmid pl(soxs)-gpf, which expresses gfp under the control
+of the superoxide-sensing regulator soxs (dwyer et al., 2007).
+we observed an increase in soxs-regulated gfp expression
+following hu treatment. soxs-regulated gfp expression was
+significantly decreased in the dmazef drelbe mutant (figure 5h), which demonstrates that hu-mediated toxin activity
+contributes to cell death via superoxide formation.
+
+854 molecular cell 36, 845–860, december 11, 2009 ª2009 elsevier inc.
+
+molecular cell
+hu-induced ohd production in e. coli
+
+hydroxyurea
+
+a
+
+dna
+ribonucleotide
+replication
+reductase
+toxin
+activiation
+mazf/rele
+
+b
+mrna
+cleavage
+
+ribosome
+
+e
+
+increased
+iron uptake
+
+protein
+misfolding
+fe
+
+cpxr
+
+cpxr
+
+-p
+
+-p
+cpxa
+cpxa
+p-
+
+fe
+
+2+
+
+fe
+
+cyt bd
+
+3+
+
+fe
+
+uq
+
+iv
+
+v
+
+h2o2
+o2membrane stress
+c
+and o2- generation
+fenton
+d reaction
+
+i
+
+ii
+
+oh
+
+cell death
+figure 6. schematic representation of cellular response to hu treatment
+(a) in e. coli, hu rapidly inhibits rnr, arresting replication fork progression.
+(b) subsequent activation of toxins mazf and rele leads to improperly translated proteins, membrane stress, and membrane stress responses.
+(c and d) (c) these effects disrupt respiratory chain activity, causing an increase in superoxide production, eventually leading to increased ohd production and
+(d) cell death.
+(e) misregulation of the hu-induced iron uptake response further fuels this processes by increasing the amount of free iron available for fenton chemistry.
+
+discussion
+our work describes the previously unknown chain of events by
+which hu-induced dna replication arrest leads to cell death.
+on the basis of our findings, we propose the following mechanism whereby hu treatment results in cell death (figure 6). hu
+inhibits rnr, leading to dntp depletion and an arrest of normal
+
+dna replication (figure 6a). dntp depletion results in the activation of toxins mazf and rele. the activity of these toxins
+produces improperly translated proteins, leading to membrane
+stress and activation of membrane stress responses (figure 6b).
+these effects alter the properties of one of the cell’s two terminal
+cytochrome oxidases in the electron transport chain, causing
+an increase in the production of superoxide, which is then
+
+molecular cell 36, 845–860, december 11, 2009 ª2009 elsevier inc. 855
+
+molecular cell
+d
+
+hu-induced oh production in e. coli
+
+converted to  xxxd2298xxx  (figure 6c). the hydrogen
+peroxide reacts with free  xxxd2385xxx , resulting in the formation
+of ohd, which contribute to cell death (figure 6d). hu treatment
+also induces a strong iron uptake response (figure 6e), which
+may be part of an initial survival response to increased demand
+for synthesis of the iron-utilizing class i rnr. however, due to
+replication fork arrest, toxin activity, and membrane stress,
+hu-induced iron uptake becomes misregulated and exacerbates ohd production (figure 6e).
+our work also shows that hu initially induces cell survival
+responses beyond the classic sos response. specifically, we
+show that hu induces genes required for primosome formation
+and downregulates genes required for cell division. induction
+of primosome genes could help restart collapsed replication
+forks that have resulted from hu treatment. downregulation of
+cell division genes would retain all copies of the chromosome
+in one compartment, thus leaving open the possibility of recombinational repair.
+it is striking that hu-induced death, which takes several hours
+and is preceded by specific cellular changes and is associated
+with cell lysis, can be substantially prevented by adding thiourea
+or by inactivating cydb, cpxa, or the combination of mazef,
+relbe, and tonb. these systems appear to converge on radical
+formation as a contributing element in hu-mediated cell death,
+and these observations suggest that there is one predominant
+mode of death for hu-treated cells, which is in contrast to cells
+treated with various bactericidal antibiotics for which there are
+additional modes of death besides that mediated by ohd radicals (kohanski et al., 2007).
+of interest, kohanski et al. (2007) showed that treatment of
+e. coli with the  xxxg2311xxx   xxxg2312xxx  inhibitor norfloxacin also induces
+radical production and cell death, both of which can be partially
+alleviated by thiourea. however, thiourea rescue of norfloxacininduced cell death is not as complete as it is for hu. thus, though
+both hu and norfloxacin inhibit dna replication and induce lethal
+radical production, radicals appear to play a more significant role
+in hu-induced cell death. we believe that this difference is due to
+the exact mode of replication arrest that these two compounds
+elicit and how the cell interprets these modes of replication
+arrest. a clue that this may be the case comes from microarray
+studies that show that norfloxacin does not induce iron uptake
+but does cause internal iron release by destabilizing iron-sulfur
+clusters (kohanski et al., 2007). furthermore, norfloxacin-mediated radical production is not dependent on toxins, whereas
+hu radical production is.
+our observations establish a direct link between hu-mediated
+killing and the respiratory chain (figure 6c) and suggest that,
+under the stressed condition resulting from prolonged exposure
+to hu, the cydab-encoded heterodimeric cytochrome bd  xxxd2299xxx 
+oxidase plays a contributing role in cell death by generating
+superoxide. the involvement of this particular cytochrome in
+hu-mediated cell death is intriguing. typically, cytoplasmic
+superoxide is not generated by the action of cytochrome oxidases (imlay, 2003), and both cytochrome bd and cytochrome
+bo3 have molecular features that prevent the release of incompletely reduced oxygen as superoxide (tsubaki et al., 2000).
+nevertheless, our results suggest that, under conditions of hu
+stress, cytochrome bd oxidase switches from a protective role
+
+to a diametrically opposite role of promoting cell death by
+producing superoxide. from this perspective, it is intriguing
+that the d heme, which binds the o2, is only found in this enzyme
+(dueweke and gennis, 1991).
+another unique feature of cytochrome bd oxidase is that its
+most prominent stable form is the one-electron reduced oxy
+state (fe2+-o2) in which oxygen is at the level of superoxide
+(belevich et al., 2005; lorence and gennis, 1989; yang et al.,
+2008). thus, it is possible that some modification of the cytochrome bd oxidase under conditions of prolonged hu stress
+could alter its function so that it becomes a producer of superoxide. such a modification of function could result from a proteolytic cleavage in the stressed cells, perhaps in its protease-sensitive periplasmic loops (dueweke and gennis, 1991), in a manner
+reminiscent of the cleavage of rsea by degs in response to
+envelope stress, or in a membrane-spanning domain by rsep
+(ades, 2008). other possibilities include c-terminal truncation
+by translation of an incomplete message, posttranslation modification, or modulation of the native enzyme by other components present in the stressed cell envelopes. such alterations
+could, for example, potentially interfere with the efficiency of
+electron transfer from ubiquinol to the o2-binding d heme or
+change the status of the putative o2 channel that has been
+postulated to flicker between open and closed conformations
+under normal conditions (belevich et al., 2007). the clustering
+of cytochrome bd oxidase in mobile patches in the membrane
+(lenn et al., 2008) might have the effect of speeding up killing
+by concentrating hydroxyl radical production in particular
+regions of the cell.
+toxin/antitoxin modules are found both on plasmids and on
+bacterial chromosomes. it is widely accepted that the toxin/antitoxin pairs located on plasmids serve as ‘‘addiction’’ modules by
+killing bacteria that have lost the plasmid (couturier et al., 1998;
+engelberg-kulka et al., 2006; gerdes et al., 2005; hayes, 2003;
+jensen and gerdes, 1995). there is evidence suggesting that
+toxin/antitoxin modules serve as growth modulators that help
+bacterial cells to manage a variety of physiological stresses
+(buts et al., 2005; gerdes et al., 2005). the proposal that chromosomally encoded ta pairs may mediate cell death in
+response to certain stresses has proven to be controversial
+(engelberg-kulka et al., 2006; gerdes et al., 2005; kolodkingal and engelberg-kulka, 2006; magnuson, 2007; saavedra
+de bast et al., 2008; tsilibaris et al., 2007).
+a recent study has shown that mazef-mediated cell death
+appears to occur via ros-dependent and independent mechanisms, which depends on the production of a density-dependent
+pentapeptide extracellular death factor (edf) (kolodkin-gal
+et al., 2008). furthermore, it has been suggested that the
+commonly used e. coli strain mg1655 is largely resistant to
+mazef-mediated killing because it fails to produce the edf
+and responds very poorly to it (kolodkin-gal and engelbergkulka, 2008). although the killing that results from hu exposure
+is mediated, in part, by mazef, it differs from the mazef-mediated killing discussed above in two important respects. first,
+we found that hu-induced cell death is independent of culture
+density (figure s3a), indicating that activation of hu-induced
+cell death responses may not require the pentapeptide extracellular death factor described by kolodkin-gal and colleagues
+
+856 molecular cell 36, 845–860, december 11, 2009 ª2009 elsevier inc.
+
+molecular cell
+hu-induced ohd production in e. coli
+
+(kolodkin-gal et al., 2007). second, we found that hu induces
+cell death and lysis in strains mc4100 and mg1655 with similar
+kinetics (figure s3b). our results suggest that, although hu
+induces cell death responses that are at least partially dependent
+on toxin activation, these responses are complex (figure 6) and
+quite different from those previously studied (saavedra de bast
+et al., 2008; tsilibaris et al., 2007).
+the mechanism by which hu-mediated dntp depletion activates the mazf and rele toxins and causes envelope stress is
+not yet clear. we hypothesize that hu-dependent depletion of
+dntps and subsequent replication fork arrest lead to gaps in
+the dna that interrupt transcription and subsequent translation
+of several genes, including toxin/antitoxin pairs. because antitoxins are more labile than their toxin counterparts are (buts
+et al., 2005; engelberg-kulka et al., 2006), inhibition of transcription and translation could lead to rapid loss of antitoxin and activation of toxin. possible support for this hypothesis comes from
+our previous observation that certain umuc mutations, such as
+umuc122::tn5, permit dna pol iv (dinb) and dna pol v
+(umud0 2c) to carry out limited mutagenic dna synthesis that
+makes cells resistant to killing by hu (godoy et al., 2006). the
+kms of dna pol iv and pol v for dntps are strikingly lower
+than those for the replicative dna polymerase, explaining why
+they can act in dntp-depleted cells (godoy et al., 2006). this
+limited dna synthesis presumably stabilizes the replication
+fork by filling in gaps that would otherwise accumulate under
+low-dntp conditions.
+in this work, we used a systems-level approach to examine the
+transcriptional response of e. coli following hu treatment and, in
+doing so, expanded our understanding of the events following
+hu-mediated rnr inhibition and replication fork arrest. we
+have explored the protective responses induced by hu treatment as well as responses that are important for cell death, and
+we implicate toxin-antitoxins, envelope stress, cytochromes,
+and iron misregulation as key players in an hu-mediated, free
+radical-based cell death pathway (figure 6). moving forward, it
+will be interesting to determine whether the cell death mechanism that we propose in this work extends past hu inhibition
+to encompass replication inhibition in general.
+experimental procedures
+strains, plasmids, and growth conditions
+strains and plasmids are shown in table s2. all strains were grown in luriaberani (lb) or m63 minimal medium (+ 0.2% glucose) at 37 c. for ftsz-gfp
+assays, lb was supplemented with 0.2% glucose and 1.0 mm to 2.5 mm
+iptg. where indicated, antibiotics were used at the following concentrations: ampicillin (100 mg/ml except for bwd05 that used 25 mg/ml), kanamycin
+(30 mg/ml), and spectinomycin (100 mg/ml). allele transfers were done by p1
+transduction.
+rna isolation and microarray analysis
+mc4100 was grown to exponential phase. three independent cultures were
+diluted and grown with or without 100 mm hu (sigma) for 1 hr, after which
+rna was isolated using the qiagen rneasy extraction kit and samples
+were treated with dnase treated using dna-free (ambion). cdna preparation
+and microarray analysis were performed as described (dwyer et al., 2007).
+results are reported as the average ± standard error (se).
+the resulting microarray *.cel files were combined with *.cel files from
+arrays that comprise the m3d compendium (faith et al., 2007) (http://m3d.
+
+bu.edu; e_coli_v3_build_3) and were rma normalized (bolstad et al., 2003)
+with rmaexpress for a total of 530 rma-normalized e. coli expression arrays.
+each gene’s sd of expression, s, was calculated across the entire compendium and used to construct the z scale difference between that gene’s
+normalized expression following hydroxyurea treatment versus the untreated
+control:
+dzexp =
+
+xexp  xctl
+s
+
+this allowed us to measure each gene’s change in expression for a given
+experiment in units of sd, a form of the z test. we used a two-tier z score cutoff
+platform to identify statistical significance gene expression changes. genes
+with a z score of > +2 or < 2 were scored as highly significant, and genes
+with z scores between +1 and +2 or between 1 and 2 were scored as significant. as described in the manuscript, we tested candidate genes that showed
+statistically significant gene expression changes from our microarray analysis
+for biological significance in response to hu treatment.
+
+hydroxyurea, guanazole, and temperature sensitivity assays
+liquid culture assays were performed as described (godoy et al., 2006). exponentially growing cultures were diluted to od600 0.01 or 0.0001 prior to treatment. where indicated, hu, guanazole, and thiourea were added to 100 mm
+for liquid culture assays. for temperature sensitivity assays, exponentially
+growing cultures were diluted to od600 0.01 and then shifted to the nonpermissive temperate. for chronic assays, strains were serially diluted and plated on
+lb agar containing increasing amounts of hu. cfu were counted after 24 hr
+growth at 37 c. we required 100 mm hu to observe significant cell death in
+liquid culture and between 5 mm and 30 mm to observe significant cell death
+in plating assays. this is due the decreased stability of hu of liquid culture (s.t.
+lovett, personal communication).
+
+protein lysates, immunoblots, and lacz assays
+at least three independent cultures were grown to mid-log with or without
+100 mm hu for 1 hr. cultures were lysed by bead beater. immunoblotting
+was performed as previously described (robichon et al., 2005), loading equal
+amounts of protein lysate for each sample. relative protein expression levels
+were quantitated using a fluorchem hd2 imaging system (alpha innotech
+corp.) and expressed as the average ± se. lacz assays were performed as
+previously described (sambrook and russell, 2001).
+
+microscopy and flow cytometry analysis
+strains were grown to exponential phase, diluted, and grown for 1 hr with or
+without 100 mm hu. preparation of cells for live-cell microscopy was done
+essentially as described (godoy et al., 2006). flow cytometry analysis was performed as described (dwyer et al., 2007). flow cytometry experiments
+measured the entire population of cells, and all plots represent analysis of
+an equal number of cells (r 50,000 cells). the relative fluorescence values
+were determined by taking the mean fluorescence value for each sample at
+each time point and normalizing that value to the maximum mean fluorescence
+value that the wild-type sample achieved over the time course. each data point
+represents the average of three independent measurements of these relative
+fluorescence values, and the error bars represent se of the independent
+measurements. hydroxyl radical formation was measured by 30 -(p-hydroxyphenyl) fluorescein (hpf; molecular probes). an example of the side scatter
+and forward scatter for one experiment measuring hpf fluorescence is shown
+in figure s4. cell death was measured using  xxxd3027xxx  iodide (molecular
+probes). cell membrane depolarization was monitored using dibac4
+(molecular probes).
+
+supplemental data
+supplemental data include two tables and three figures and can be found with
+this article online at http://www.cell.com/molecular-cell/supplemental/
+s1097-2765(09)00865-x.
+
+molecular cell 36, 845–860, december 11, 2009 ª2009 elsevier inc. 857
+
+molecular cell
+d
+
+hu-induced oh production in e. coli
+
+acknowledgments
+we would like to thank dr. joseph lutkenhaus for anti-ftsz antibodies, dr.
+bernard strauss for strains and helpful discussion, and kaleena m. crafton
+for microscopy support at the university of michigan. this work was supported
+by national institutes of health grants gm31030, ca21615-27 (to g.c.w.), and
+dp10d003644 (to j.j.c); howard hughes medical institute (j.j.c.); national
+science foundation fibr program (to j.j.c.); national sciences and engineering research council of canada graduate scholarship (to b.w.d.); nci
+postdoctoral fellowship and start-up funds from the university of michigan
+(to l.a.s); and massachusetts institute of technology center for environmental health sciences national institute of environmental health sciences
+grant p30 es002109. g.c.w. is an american cancer society research
+professor.
+received: april 11, 2009
+revised: july 13, 2009
+accepted: august 13, 2009
+published: december 10, 2009
+references
+ades, s.e. (2008). regulation by destruction: design of the sigmae envelope
+stress response. curr. opin. microbiol. 11, 535–540.
+ahmad, s.i., kirk, s.h., and eisenstark, a. (1998). thymine metabolism and
+thymineless death in prokaryotes and eukaryotes. annu. rev. microbiol. 52,
+591–625.
+alba, b.m., and gross, c.a. (2004). regulation of the escherichia coli sigmadependent envelope stress response. mol. microbiol. 52, 613–619.
+barbe, j., villaverde, a., and guerrero, r. (1987). induction of the sos
+response by hydroxyurea in escherichia coli k12. mutat. res. 192, 105–108.
+belevich, i., borisov, v.b., konstantinov, a.a., and verkhovsky, m.i. (2005).
+oxygenated complex of cytochrome bd from escherichia coli: stability and
+photolability. febs lett. 579, 4567–4570.
+
+faith, j.j., hayete, b., thaden, j.t., mogno, i., wierzbowski, j., cottarel, g.,
+kasif, s., collins, j.j., and gardner, t.s. (2007). large-scale mapping and
+validation of escherichia coli transcriptional regulation from a compendium
+of expression profiles. plos biol. 5, e8.
+foti, j.j., schienda, j., sutera, v.a., jr., and lovett, s.t. (2005). a bacterial g
+protein-mediated response to replication arrest. mol. cell 17, 549–560.
+friedberg, e.c., walker, g.c., siede, w., wood, r.d., schultz, r.a., and ellenberger, t. (2005). dna repair and mutagenesis, second edition (washington,
+dc: asm press).
+fuchs, j.a., and karlstrom, h.o. (1973). a mutant of escherichia coli defective
+in ribonucleosidediphosphate reductase. 2. characterization of the enzymatic
+defect. eur. j. biochem. 32, 457–462.
+gefter, m.l., hirota, y., kornberg, t., wechsler, j.a., and barnoux, c. (1971).
+analysis of dna polymerases ii and 3 in mutants of escherichia coli thermosensitive for dna synthesis. proc. natl. acad. sci. usa 68, 3150–3153.
+gerdes, k., christensen, s.k., and lobner-olesen, a. (2005). prokaryotic
+toxin-antitoxin stress response loci. nat. rev. microbiol. 3, 371–382.
+gibert, i., calero, s., and barbe, j. (1990). measurement of in vivo expression
+of nrda and nrdb genes of escherichia coli by using lacz gene fusions. mol.
+gen. genet. 220, 400–408.
+godoy, v.g., jarosz, d.f., walker, f.l., simmons, l.a., and walker, g.c.
+(2006). y-family dna polymerases respond to dna damage-independent inhibition of replication fork progression. embo j. 25, 868–879.
+hayes, f. (2003). toxins-antitoxins: plasmid maintenance, programmed cell
+death, and cell cycle arrest. science 301, 1496–1499.
+heller, r.c., and marians, k.j. (2005). the disposition of nascent strands at
+stalled replication forks dictates the pathway of replisome loading during
+restart. mol. cell 17, 733–743.
+heller, r.c., and marians, k.j. (2006). replication fork reactivation downstream of a blocked nascent leading strand. nature 439, 557–562.
+imlay, j.a. (2003). pathways of oxidative damage. annu. rev. microbiol. 57,
+395–418.
+
+belevich, i., borisov, v.b., bloch, d.a., konstantinov, a.a., and verkhovsky,
+m.i. (2007). cytochrome bd from azotobacter vinelandii: evidence for highaffinity oxygen binding. biochemistry 46, 11177–11184.
+
+imlay, j.a., and fridovich, i. (1991). superoxide production by respiring
+membranes of escherichia coli. free radic. res. commun. 12-13, 59–66.
+
+bolstad, b.m., irizarry, r.a., astrand, m., and speed, t.p. (2003). a comparison of normalization methods for high density oligonucleotide array data
+based on variance and bias. bioinformatics 19, 185–193.
+
+imlay, j.a., chin, s.m., and linn, s. (1988). toxic dna damage by hydrogen
+peroxide through the fenton reaction in vivo and in vitro. science 240,
+640–642.
+
+britton, r.a., kuster-schock, e., auchtung, t.a., and grossman, a.d. (2007).
+sos induction in a subpopulation of structural maintenance of chromosome
+(smc) mutant cells in bacillus subtilis. j. bacteriol. 189, 4359–4366.
+
+jakubovics, n.s., and jenkinson, h.f. (2001). out of the iron age: new insights
+into the critical role of manganese homeostasis in bacteria. microbiology 147,
+1709–1718.
+
+buts, l., lah, j., dao-thi, m.h., wyns, l., and loris, r. (2005). toxin-antitoxin
+modules as bacterial metabolic stress managers. trends biochem. sci. 30,
+672–679.
+
+jensen, r.b., and gerdes, k. (1995). programmed cell death in bacteria: proteic plasmid stabilization systems. mol. microbiol. 17, 205–210.
+
+christensen, s.k., and gerdes, k. (2003). rele toxins from bacteria and
+archaea cleave mrnas on translating ribosomes, which are rescued by
+tmrna. mol. microbiol. 48, 1389–1400.
+couturier, m., bahassi, e.-m., and van melderen, l. (1998). bacterial death by
+ xxxg2311xxx   xxxg2312xxx  poisoning. trends microbiol. 6, 269–275.
+dueweke, t.j., and gennis, r.b. (1991). proteolysis of the cytochrome
+d complex with trypsin and chymotrypsin localizes a  xxxd2299xxx  oxidase domain.
+biochemistry 30, 3401–3406.
+dukan, s., farewell, a., ballesteros, m., taddei, f., radman, m., and nystrom,
+t. (2000). protein oxidation in response to increased transcriptional or translational errors. proc. natl. acad. sci. usa 97, 5746–5749.
+
+jepras, r.i., paul, f.e., pearson, s.c., and wilkinson, m.j. (1997). rapid
+assessment of antibiotic effects on escherichia coli by bis-(1,3-dibutylbarbituric acid) trimethine oxonol and flow cytometry. antimicrob. agents chemother.
+41, 2001–2005.
+jones, j., studholme, d.j., knight, c.g., and preston, g.m. (2007). integrated
+bioinformatic and phenotypic analysis of rpon-dependent traits in the plant
+growth-promoting bacterium pseudomonas fluorescens sbw25. environ.
+microbiol. 9, 3046–3064.
+jordan, a., and reichard, p. (1998). ribonucleotide reductases. annu. rev.
+biochem. 67, 71–98.
+
+dwyer, d.j., kohanski, m.a., hayete, b., and collins, j.j. (2007). gyrase inhibitors induce an oxidative damage cellular death pathway in escherichia coli.
+mol. syst. biol. 3, 91.
+
+kabir, m.s., yamashita, d., koyama, s., oshima, t., kurokawa, k., maeda, m.,
+tsunedomi, r., murata, m., wada, c., mori, h., and yamada, m. (2005). cell
+lysis directed by sigmae in early stationary phase and effect of induction of
+the rpoe gene on global gene expression in escherichia coli. microbiology
+151, 2721–2735.
+
+engelberg-kulka, h., amitai, s., kolodkin-gal, i., and hazan, r. (2006). bacterial programmed cell death and multicellular behavior in bacteria. plos genet.
+2, e135.
+
+kohanski, m.a., dwyer, d.j., hayete, b., lawrence, c.a., and collins, j.j.
+(2007). a common mechanism of cellular death induced by bactericidal antibiotics. cell 130, 797–810.
+
+858 molecular cell 36, 845–860, december 11, 2009 ª2009 elsevier inc.
+
+molecular cell
+hu-induced ohd production in e. coli
+
+kohanski, m.a., dwyer, d.j., wierzbowski, j., cottarel, g., and collins, j.j.
+(2008). mistranslation of membrane proteins and two-component system activation trigger antibiotic-mediated cell death. cell 135, 679–690.
+
+robichon, c., vidal-ingigliardi, d., and pugsley, a.p. (2005). depletion of apolipoprotein n-acyltransferase causes mislocalization of outer membrane lipoproteins in escherichia coli. j. biol. chem. 280, 974–983.
+
+kolodkin-gal, i., and engelberg-kulka, h. (2006). induction of escherichia coli
+chromosomal mazef by stressful conditions causes an irreversible loss of
+viability. j. bacteriol. 188, 3420–3423.
+
+rosenkranz, h.s., winshell, e.b., mednis, a., carr, h.s., and ellner, c.j.
+(1967). studies with hydroxyurea. vii. hydroxyurea and the synthesis of functional proteins. j. bacteriol. 94, 1025–1033.
+
+kolodkin-gal, i., and engelberg-kulka, h. (2008). the extracellular death
+factor: physiological and genetic factors influencing its production and
+response in escherichia coli. j. bacteriol. 190, 3169–3175.
+
+ruiz, n., and silhavy, t.j. (2005). sensing external stress: watchdogs of the
+escherichia coli cell envelope. curr. opin. microbiol. 8, 122–126.
+
+kolodkin-gal, i., hazan, r., gaathon, a., carmeli, s., and engelberg-kulka, h.
+(2007). a linear pentapeptide is a quorum-sensing factor required for mazefmediated cell death in escherichia coli. science 318, 652–655.
+kolodkin-gal, i., sat, b., keshet, a., and engelberg-kulka, h. (2008). the
+communication factor edf and the toxin-antitoxin module mazef determine
+the mode of action of antibiotics. plos biol. 6, e319.
+kren, b., and fuchs, j.a. (1987). characterization of the ftsb gene as an allele
+of the nrdb gene in escherichia coli. j. bacteriol. 169, 14–18.
+lenn, t., leake, m.c., and mullineaux, c.w. (2008). clustering and dynamics
+of cytochrome bd-i complexes in the escherichia coli plasma membrane
+in vivo. mol. microbiol. 70, 1397–1407.
+lopes, m., cotta-ramusino, c., pellicioli, a., liberi, g., plevani, p., muzi-falconi, m., newlon, c.s., and foiani, m. (2001). the dna replication checkpoint
+response stabilizes stalled replication forks. nature 412, 557–561.
+lorence, r.m., and gennis, r.b. (1989). spectroscopic and quantitative analysis of the oxygenated and peroxy states of the purified cytochrome d complex
+of escherichia coli. j. biol. chem. 264, 7135–7140.
+lovett, s.t. (2005). filling the gaps in replication restart pathways. mol. cell 17,
+751–752.
+ma, x., ehrhardt, d.w., and margolin, w. (1996). colocalization of cell division
+proteins ftsz and ftsa to cytoskeletal structures in living escherichia coli
+cells by using green fluorescent protein. proc. natl. acad. sci. usa 93,
+12998–13003.
+macritchie, d.m., buelow, d.r., price, n.l., and raivio, t.l. (2008). twocomponent signaling and gram negative envelope stress response systems.
+adv. exp. med. biol. 631, 80–110.
+magnuson, r.d. (2007). hypothetical functions of toxin-antitoxin systems. j.
+bacteriol. 189, 6089–6092.
+moore, e.c., and hurlbert, r.b. (1985). the inhibition of  xxxd2246xxx  diphosphate reductase by hydroxyurea, guanazole and pyrazoloimidazole (impy).
+pharmacol. ther. 27, 167–196.
+moore, s.d., and sauer, r.t. (2005). ribosome rescue: tmrna tagging activity
+and capacity in escherichia coli. mol. microbiol. 58, 456–466.
+moore, s.d., and sauer, r.t. (2007). the tmrna system for translational
+surveillance and ribosome rescue. annu. rev. biochem. 76, 101–124.
+mount, d.w., low, k.b., and edmiston, s.j. (1972). dominant mutations (lex) in
+escherichia coli k-12 which affect radiation sensitivity and frequency of ultraviolet lght-induced mutations. j. bacteriol. 112, 886–893.
+nakayama, k., kusano, k., irino, n., and nakayama, h. (1994). thymine starvation-induced structural changes in escherichia coli dna. detection by
+pulsed field gel electrophoresis and evidence for involvement of homologous
+recombination. j. mol. biol. 243, 611–620.
+novogrodsky, a., ravid, a., rubin, a.l., and stenzel, k.h. (1982). hydroxyl
+radical scavengers inhibit lymphocyte mitogenesis. proc. natl. acad. sci.
+usa 79, 1171–1174.
+poole, r.k., and cook, g.m. (2000). redundancy of aerobic respiratory chains
+in bacteria? routes, reasons and regulation. adv. microb. physiol. 43,
+165–224.
+
+saavedra de bast, m., mine, n., and van melderen, l. (2008). chromosomal
+toxin-antitoxin systems may act as antiaddiction modules. j. bacteriol. 190,
+4603–4609.
+sambrook, j., and russell, d.w. (2001). molecular cloning: a laboratory
+manual, third edition (cold spring harbor, ny: cold spring harbor laboratory
+press).
+sat, b., reches, m., and engelberg-kulka, h. (2003). the escherichia
+coli mazef suicide module mediates thymineless death. j. bacteriol. 185,
+1803–1807.
+schumacher, m.a., piro, k.m., xu, w., hansen, s., lewis, k., and brennan,
+r.g. (2009). molecular mechanisms of hipa-mediated multidrug tolerance
+and its neutralization by hipb. science 323, 396–401.
+seaver, l.c., and imlay, j.a. (2001). alkyl hydroperoxide reductase is the
+primary scavenger of endogenous  xxxd2298xxx  in escherichia coli.
+j. bacteriol. 183, 7173–7181.
+setsukinai, k., urano, y., kakinuma, k., majima, h.j., and nagano, t. (2003).
+development of novel fluorescence probes that can reliably detect reactive
+oxygen species and distinguish specific species. j. biol. chem. 278,
+3170–3175.
+simmons, l.a., foti, j.j., cohen, s.e., and walker, g.c. (2008a). escherichia
+coli and salmonella: cellular and molecular biology, vol, chapter 5.4.3 (washington, d. c.: asm press).
+simmons, l.a., goranov, a.i., kobayashi, h., davies, b.w., yuan, d.s.,
+grossman, a.d., and walker, g.c. (2008b). a comparison of responses
+to double-strand breaks between escherichia coli and bacillus subtilis
+reveals different requirements for sos induction. j. bacteriol. 191,
+1152–1161.
+sinha, n.k., and snustad, d.p. (1972). mechanism of inhibition of deoxyribonucleic acid synthesis in escherichia coli by hydroxyurea. j. bacteriol. 112,
+1321–1324.
+sjoberg, b.m., hahne, s., karlsson, m., jornvall, h., goransson, m., and uhlin,
+b.e. (1986). overproduction and purification of the  xxxg221xxx  of ribonucleotide reductase from escherichia coli. j. biol. chem. 261, 5658–5662.
+sneeden, j.l., and loeb, l.a. (2004). mutations in the r2 subunit of ribonucleotide reductase that confer resistance to hydroxyurea. j. biol. chem. 279,
+40723–40728.
+sogo, j.m., lopes, m., and foiani, m. (2002). fork reversal and ssdna accumulation at stalled replication forks owing to checkpoint defects. science 297,
+599–602.
+strauss, b., kelly, k., and ekiert, d. (2005). cytochrome oxidase deficiency
+protects escherichia coli from cell death but not from filamentation due to
+thymine deficiency or dna polymerase inactivation. j. bacteriol. 187,
+2827–2835.
+stubbe, j. (2003). di-iron-tyrosyl radical ribonucleotide reductases. curr.
+opin. chem. biol. 7, 183–188.
+timson, j. (1975). hydroxyurea. mutat. res. 32, 115–132.
+
+postle, k., and larsen, r.a. (2007). tonb-dependent energy transduction
+between outer and cytoplasmic membranes. biometals 20, 453–465.
+
+touati, d., jacques, m., tardat, b., bouchard, l., and despied, s. (1995).
+lethal oxidative damage and mutagenesis are generated by iron in delta fur
+mutants of escherichia coli: protective role of superoxide dismutase. j. bacteriol. 177, 2305–2314.
+
+repine, j.e., fox, r.b., and berger, e.m. (1981).  xxxd2298xxx  kills
+staphylococcus aureus by reacting with staphylococcal iron to form hydroxyl
+radical. j. biol. chem. 256, 7094–7096.
+
+tsilibaris, v., maenhaut-michel, g., mine, n., and van melderen, l. (2007).
+what is the benefit to escherichia coli of having multiple toxin-antitoxin
+systems in its genome? j. bacteriol. 189, 6101–6108.
+
+molecular cell 36, 845–860, december 11, 2009 ª2009 elsevier inc. 859
+
+molecular cell
+d
+
+hu-induced oh production in e. coli
+
+tsubaki, m., hori, h., and mogi, t. (2000). probing molecular structure of dioxygen reduction site of bacterial  xxxd2299xxx  oxidases through ligand binding to
+the redox metal centers. j. inorg. biochem. 82, 19–25.
+
+wickner, w., and kornberg, a. (1974). a holoenzyme form of deoxyribonucleic
+acid polymerase iii. isolation and properties. j. biol. chem. 249, 6244–6249.
+
+wandersman, c., and delepelaire, p. (2004). bacterial iron sources: from siderophores to hemophores. annu. rev. microbiol. 58, 611–647.
+
+wiener, m.c. (2005). tonb-dependent outer membrane transport: going for
+baroque? curr. opin. struct. biol. 15, 394–400.
+
+wasil, m., halliwell, b., grootveld, m., moorhouse, c.p., hutchison, d.c., and
+baum, h. (1987). the specificity of thiourea, dimethylthiourea and dimethyl
+sulphoxide as scavengers of hydroxyl radicals. their protection of alpha
+1-antiproteinase against inactivation by hypochlorous acid. biochem. j. 243,
+867–870.
+
+yang, k., borisov, v.b., konstantinov, a.a., and gennis, r.b. (2008). the fully
+oxidized form of the cytochrome bd  xxxd2299xxx  oxidase from e. coli does not participate in the catalytic cycle: direct evidence from rapid kinetics studies. febs
+lett. 582, 3705–3709.
+
+weiss, d.s., chen, j.c., ghigo, j.m., boyd, d., and beckwith, j. (1999). localization of ftsi (pbp3) to the septal ring requires its membrane anchor, the z
+ring, ftsa, ftsq, and ftsl. j. bacteriol. 181, 508–520.
+
+zhang, y., zhang, j., hara, h., kato, i., and inouye, m. (2005). insights into the
+mrna cleavage mechanism by mazf, an mrna interferase. j. biol. chem.
+280, 3143–3150.
+
+860 molecular cell 36, 845–860, december 11, 2009 ª2009 elsevier inc.
+

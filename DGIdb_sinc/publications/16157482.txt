@@ -1,0 +1,1491 @@
+journal of steroid biochemistry & molecular biology 97 (2005) 328–341
+
+quantitative analysis of gene regulation by seven clinically
+relevant progestins suggests a highly similar mechanism
+of action through progesterone receptors in t47d
+breast cancer cells
+jeffrey d. bray a,∗,1 , scott jelinsky b,1 , radhika ghatge c , jenifer a. bray a ,
+christopher tunkey b , kathryn saraf b , britta m. jacobsen c ,
+jennifer k. richer c , eugene l. brown b , richard c. winneker a ,
+kathryn b. horwitz c , c. richard lyttle a
+a
+
+women’s health research institute, wyeth research, collegeville, pa 19426, usa
+b expression proﬁling sciences, wyeth research, cambridge, ma 02140, usa
+c department of medicine, university of colorado health sciences center,
+denver, co 80045, usa
+received 13 january 2005; accepted 27 june 2005
+
+abstract
+progesterone (p4) is an essential reproductive steroid hormone required for many aspects of female reproductive physiology. progestins
+are compounds that demonstrate progesterone-like activity and are used in oral contraception, hormone therapy, and treatment of some
+reproductive disorders, but differ widely in their chemical structures, potency, and pharmacokinetics. while numerous studies have assessed
+progestins on specific endpoints, little is known about the activation of global gene expression by progestins. we used affymetrix genechip
+u133a expression arrays to examine the action of p4 and six clinically relevant synthetic progestins ( xxxd2067xxx ,  xxxd1946xxx ,
+levonorgestrel,  xxxd2554xxx ,  xxxd2751xxx  acetate, and trimegestone) on the  xxxg1737xxx  (pr)-positive t47dco
+and the pr-negative t47d-y breast cancer cell lines. excluding  xxxd1946xxx , one or more of the progestins-regulated 329 genes, with 30
+genes regulated by at least 2.0-fold by all progestins in the t47dco cells. the synthetic progestins show a high degree of similarity in their
+transcriptional responses, and each progestin regulates between 77 and 91% of the genes regulated by p4. independent quantitative rt-pcr
+analysis confirmed a similar regulation for s100p, ppl, il20ra, net1,  xxxg212xxx , hig2, and  xxxg560xxx  (sdf-1) by all seven progestins.
+attempts to find differentially regulated genes by any progestin compared to all other treatments failed, suggesting any differences are
+quantitative, not qualitative. this analysis demonstrates a high degree of similarity among these progestins on pr-regulated gene expression
+in t47d cells, suggesting a similar and fairly specific mode of action.
+© 2005 elsevier ltd. all rights reserved.
+keywords:  xxxg1737xxx ; progestin; gene expression profiling
+
+1. introduction
+∗
+
+corresponding author. present address: cvu cedd, urogenital biology, glaxosmithkline, 709 swedeland road, king of prussia, pa 19406,
+usa. tel.: +1 610 270 4826; fax: +1 610 270 5681.
+e-mail address: jeffrey.d.bray@gsk.com (j.d. bray).
+1 these authors contributed equally.
+0960-0760/$ – see front matter © 2005 elsevier ltd. all rights reserved.
+doi:10.1016/j.jsbmb.2005.06.032
+
+progesterone (p4) is a steroid hormone essential for
+coordinating normal mammalian reproduction in females
+[1–3]. the physiological effects of p4 are mediated by
+interaction with progesterone receptors (pr); members
+of the nuclear hormone superfamily of ligand-activated
+
+j.d. bray et al. / journal of steroid biochemistry & molecular biology 97 (2005) 328–341
+
+transcription factors [4,5]. there are two receptor isoforms,
+designated pr-a and pr-b, transcribed from the same gene
+by two distinct promoters, with the only difference being that
+human pr-b are larger by an additional 164 amino acids at the
+amino terminus [6–8]. as a result, pr-a and pr-b have differing transcriptional activities [9–11]. ligand-occupied pr
+bind directly to dna at progesterone response elements [12],
+and recruit co-regulators that activate or repress transcription via interactions with the general transcription apparatus
+[13–16]. pr interact with other transcription factors such
+as ap-1 and the rela(p65) subunit of  xxxg1559xxx  [17–19].
+they can also interact with src to activate mapk signaling
+[20,21], and compete for binding of general transcriptional
+machinery components preventing access of other transcriptional activators in a process known as “squelching” [22,23].
+pr-dependent transcriptional specificity depends on the pr
+isoforms and coregulatory factors available in a target cell
+[9,10,24,25]. therefore, transcriptional modulation of pr target genes can occur through a variety of mechanisms that
+result in the regulation of gene expression in p4 target tissues.
+synthetic progestins are compounds that interact with pr
+to activate or repress gene expression in target cells in a
+manner presumed to be similar to p4, the natural ligand.
+progestins are used in contraception, hormone therapy, and
+for treatment of some gynecological disorders. they differ widely in their chemical structure, pharmacokinetics and
+potency, as comprehensively reviewed by others [26–28]. the
+clinical profile of each progestin differs as well, but all have
+the ability to repress e2-induced endometrial proliferation
+in vivo [27]. the ability of pr to repress  xxxg730xxx 
+function has been demonstrated in vitro as well [9,10,24,29].
+therefore, the design of progestins with improved clinical
+profiles would benefit from an increased understanding of
+the molecular bases for these similarities and differences.
+the molecular mechanisms of gene regulation by progestins through pr are poorly characterized, especially with
+regard to synthetic progestins. previous expression profiling studies of steroid hormone receptors have focused on
+the native hormones [25,30,31], for studying the effects of
+selective  xxxg730xxx  modulators (serms) [32,33],
+assessing a synthetic progestin and a synthetic glucocorticoid
+that act through different receptors [34], or compared different chemotypes of pr ligands [35]. no quantitative global
+gene regulation analysis has compared multiple synthetic
+progestins to p4. the progestin-responsive t47d breast cancer cell line has been used for examining progestin-dependent
+gene expression in vitro [25,34,35]. here, we describe the
+effects of seven clinically relevant progestins on t47dco
+breast cancer cell gene regulation. excluding  xxxd1946xxx ,
+we observe very similar pr-dependent activities among these
+progestins as assessed by expression profiling. examination
+of selected candidate marker genes by quantitative rt-pcr
+confirmed these findings. these data suggest that progestins
+in general have a similar mechanism of action through pr
+in t47d breast cancer cells, and it may be possible to use
+transcriptional profiling to predict the progestational activity
+
+329
+
+of a compound by measuring the transcription of a panel of
+marker genes.
+
+2. materials and methods
+2.1. cell culture and treatments
+pr-positive t47dco [36], and pr-negative t47d-y [37],
+human breast carcinoma cells were maintained in mem
+supplemented with 5% fbs at 37 ◦ c with 5% co2 . for experiments, cells were plated at ∼70% confluence in mem containing 5% charcoal stripped fbs for 24 h, then were treated
+12 h with 1 nm  xxxd1946xxx  (dros),  xxxd2067xxx 
+(3-keto), levonorgestrel (lng), medroxyprogesterone
+acetate (mpa),  xxxd2751xxx  acetate (neta), trimegestone
+(tmg), or 10nm p4 for 12h. p4, 3-keto, lng, mpa, and
+neta were purchased from sigma chemical co. (st. louis,
+mo). the discovery and synthetic chemistry group at
+wyeth research synthesized dros. aventis pharmaceuticals (bridgewater, nj) provided tmg. tissue culture media
+(emem) was obtained from invitrogen (carlsbad, ca). fetal
+bovine serum (fbs) was obtained from hyclone (logan,
+ut). all other chemicals were purchased from sigma.
+2.2. alkaline phosphatase assay
+a modified alkaline phosphatase assay was performed
+[38–40]. briefly, 25,000 t47dco cells/well were plated in
+96-well plates in mem containing 5% charcoal stripped fbs
+overnight. the cells were treated with progestins for 15 h.
+the medium was removed, washed with phosphate buffered
+saline, and then 50 ␮l of 0.1 m tris–hcl, ph 9.8 containing
+0.2% triton x-100 were added to each well with 15 min shaking. after this incubation, 150 ␮l of 0.1 m tris–hcl, ph 9.8
+containing 4 mm  xxxd2822xxx  was added. vmax
+measurements were taken at 5 min intervals for 30 min at
+405 nm wavelength using a spectramax plus spectrophotometer (molecular devices, sunnyvale, ca) and the data
+analyzed to obtain ec50 values using jmp software and activity reported as mod/min (sas institute, inc., cary, nc).
+2.3. affymetrix genechip® expression proﬁling
+experiments
+total rna was prepared using trizol (invitrogen, carlsbad, ca) and repurified using rneasy columns (qiagen,
+valencia, ca). double-stranded cdna was synthesized from
+10 ␮g total rna using the superscript system (invitrogen).
+briefly, rna was mixed with 100 pmol oligonucleotide 5 ggccatggaattgtaatacgactcactatagggaggcgg-(dt)24 in 20 ␮l water, annealed at 70 ◦ c for 10 min,
+and quick-chilled. buffer, dithiothreitol, and dntp mix were
+then added and incubated at 37 ◦ c for 2 min. superscript ii
+reverse transcriptase was added, and the 50 ◦ c incubation
+was continued for 60 min. second-strand synthesis was
+
+5 -cgaacacgatgaactcactgaag
+5 -tgtgggcgggactctga
+5 -gtaggacattcttcatgttgatgga
+5 -aggcgacttcgagggatatcta
+5 -cgaattcctcctggtcttacaga
+5 -tggaagtcgcgttctttacatc
+5 -gtggatcgccggctgtag
+5 -ttcttcagccgggctacaat
+5 -gacattttcccatttgtttttgc
+5 -tgcacgatctccagcatctc
+5 -cgacagcttgtgtcggttca
+5 -ggctggttctcttgttctcagaa
+5 -cataacgaccatcccaggaact
+5 -tgcactgctttctcttgtagaatcc
+5 -caagcatcaccaggaccaataag
+
+5 -6-fam-acgccaatggagatgcccaggtg-tamra
+5 -6-fam-caggccaagcattttatacataccctcgct-tamra
+5 -6-fam-cctaaacctgcaaacatcaccttctt-tamra
+5 -6-fam-agtctcccttcagtcgaaaactagatctttggagt-tamra
+5 -6-fam-tggtggtgcagtgggccgactt-tamra
+5 -6-fam-ctgatgctgggacagccccgc-tamra
+5 -6-fam-ccggactcctgcacgacctgc-tamra
+5 -6-fam-ctcaacactccaaactgtgcccttc-tamra
+5 -6-fam-ccgcacttaaggattaaccaggtcgtcc-tamra
+5 -6-fam-cggcaacggctacatcagccg-tamra
+5 -6-fam-aaggccttccgcgacgtctacca-tamra
+5 -6-fam-tatcagccgctcttgaagaagccgac-tamra
+5 -6-fam-cctcttcaatgctgccaactgg-tamra
+5 -6-fam-ctgtgtacctgcccaattgtgaccgc-tamra
+5 -6-fam-ctgaccacagggctgctcctca-tamra
+
+reverse
+forward
+
+5 -ggatgccgtggataaattgc
+5 -gacgcagtgacctccttggt
+5 -agttccctgtgtctctggtggtt
+5 -aagacttcctccagcgatgtct
+5 -cacacagccttcttcgtcagtatc
+5 -gtgcccaaggctgcatct
+5 -tggtgcttagtaaccgactttcc
+5 -gccaacgtcaagcatctcaaa
+5 -ccttttgcacataacatgctttagatta
+5 -gggccttcagcatgtacga
+5 -ccatgcctgcgagatgtgt
+5 -cagtggtgccggctacaga
+5 -atgcctgctacggtggtactg
+5 -ccagcccacgcatggt
+5 -cccctgactgcaccactca
+
+total rna was prepared using the abi prism 6100
+nucleic acid workstation with the absoluterna wash
+solution reagent according to the manufacturer’s protocol (applied biosystems, foster city, ca). selected regulated genes identified via genechip® were verified by
+real-time quantitative rt-pcr using an abi prism 7900
+sequence detection system according to the manufacturer’s
+protocol (pe applied biosystems). briefly, taqman primers
+and probes were designed using primer express software
+(applied biosystems) and probes were purchased from qiagen. the genes examined are described in table 1. all
+
+s100p
+ppl
+il20ra
+net1
+ xxxg212xxx 
+ xxxg1470xxx 
+hig2
+ xxxg560xxx 
+f3
+hpcal1
+maz1
+cri1
+hmgcs2
+ xxxg1150xxx 
+adam15
+
+2.4. taqmantm quantitative rt-pcr assays
+
+gene
+
+performed by adding reaction buffer, dntps (200 ␮m),
+dna ligase (10 u), dna polymerase (40 u), ribonuclease
+h (2 u), and water (to a final volume of 150 ␮l), and the
+reaction was incubated for 2 h at 16 ◦ c. this was followed by
+addition of 10 u t4 dna polymerase and incubation at 16 ◦ c
+for 5 min. the cdna was purified by phenol/chloroform
+extraction, precipitated, and transcribed in vitro using t7
+rna polymerase. biotinylated crna was generated using
+biotin labeled utp and ctp (perkin-elmer, boston, ma).
+the crna was purified by rneasy column (qiagen)
+and fragmented by incubation in 40 mm tris–hcl (ph
+8.1), 100 mm  xxxd2987xxx , and 30 mm magnesium
+acetate buffer at 94 ◦ c for 35 min. fragmented crna were
+hybridized to a human u133a genechip® (affymetrix,
+santa clara, ca) at 45 ◦ c for 18 h as recommended by the
+manufacturer. the hybridized chips were washed and stained
+using an affymetrix fluidics station 400 and eukge- xxxg1410xxx 
+standard format as recommended by the manufacturer. the
+staining was performed using streptavidin–phycoerythrin
+conjugate (sape; molecular probes, eugene, or), followed
+by biotinylated antibody against streptavidin (vector laboratories, burlingame, ca), and then sape. the chips were
+scanned using a hewlett packard genearray scanner and
+analyzed using affymetrix mas 5.0 software. raw data for
+each array were first normalized to a scaling factor of 100.
+hybridization intensities on each array were further normalized to a standard curve created from a set of 11 transcripts
+spiked in at defined concentrations. this standard curve was
+used to convert signal values for each qualifier gene on each
+array to frequency units expressed as parts per million. the
+5 /3 ratio for  xxxg861xxx 
+( xxxg861xxx ) and for ␤-actin ranged from 0.8 to 1.1. three
+independent, time-separated experiments were performed
+and analyzed. the statistical analysis was performed using
+genesis 2.0 software (genelogic, gaithersburg, md).
+pair-wise comparisons on log 10 transformed signal values
+were performed for each progestin to vehicle treatments.
+unless otherwise stated, genes were determined to be
+significantly regulated if the following four conditions were
+met; fold difference greater or equal to 1.7, t-test p-values
+less then or equal to 0.01, expression level greater than 1.7
+signal units and at least one present (p) call.
+
+probe
+
+j.d. bray et al. / journal of steroid biochemistry & molecular biology 97 (2005) 328–341
+
+table 1
+primer and probe sets used in this study for taqman quantitative rt-pcr
+
+330
+
+j.d. bray et al. / journal of steroid biochemistry & molecular biology 97 (2005) 328–341
+
+primers were used at 0.5 ␮m and probes at 0.2 ␮m concentrations in the pcr reactions. quantified rna (2 ␮g) was
+converted to cdna using taqman reverse transcription
+reagents (pe applied biosystems). gene-specific primers
+and probes were used with the taqman universal pcr master mix (pe applied biosystems) to amplify the equivalent
+of 50 ng of rna generated from the cdna. reactions were
+incubated at 50 ◦ c for 2 min followed by 10 min at 95 ◦ c
+then 40 cycles of pcr as follows: 95 ◦ c for 15 s then 60 ◦ c
+for 1 min in an abi 7900. the data were analyzed using
+sequence detector version 2.0 software (pe applied biosystems) and were normalized to  xxxg861xxx  primer set using a
+standard curve method of quantification followed by transformation of values to fold change (pe applied biosystems).
+the data were analyzed by one-way anova with huber
+weighting to down-weight the effects of outliers and least
+square differences using jmp software (sas institute, inc.,
+cary, nc).
+
+3. results
+3.1. selection of synthetic progestin concentrations for
+affymetrix genechip® experiments
+alkaline phosphatase activity, a marker of progestational
+activity in t47d cells [38,39], was used to determine the relative potency of each progestin (fig. 1). with the exception of
+
+fig. 1. effects of p4, dros, 3-keto, lng, mpa, neta, and tmg on
+alkaline phosphatase enzymatic activity in t47dco cells. t47d cells were
+plated at 25,000 cells/well in 96-well plates in emem with 5% charcoal
+stripped fetal bovine serum and cultured for 12 h. then, cells were treated
+for 12 h with progestins followed by alkaline phosphatase assay as described
+in section 2 with results reported as mod/min of enzyme activity over
+concentration (in nm) of progestin. the insert lists the ec50 (50% effective
+concentration) of steroidal progestins on alkaline phosphatase activity in the
+human t47d breast carcinoma cell line in nm. results are the average from
+three independent determinations.
+
+331
+
+dros, all progestins had ec50 of 0.6 nm or less suggesting
+that a 1 nm concentration for the synthetic progestins should
+give similar, near maximal responses (approximately, ec90 )
+and this response should be similar to the response seen with
+10 nm p4.
+3.2. affymetrix genechip® expression proﬁling
+experiments reveal a high degree of similarity among
+progestins on gene regulation
+we next determined the global effect on transcription
+following treatment with either 10 nm of p4 or 1 nm of
+the synthetic progestins. global gene regulation was determined using the affymetrix u133a genechip platform,
+which monitors over 22,000 transcripts. t47dco cells were
+treated with each progestin for 12 h in triplicate, timeseparated experiments to allow for statistical analyses of the
+expression profiling data. the selected time point has been
+determined empirically to provide consistently high gene
+expression on selected known pr-dependent genes ([33] and
+data not shown). fig. 2 shows the number of genes regulated by each progestin using the filtering criteria described
+in section 2. with the exception of dros, the progestins
+regulate between 98 (lng) and 194 (tmg) genes and p4regulated 160 genes. consistent with the alkaline phosphatase
+data, with 1 nm dros we see only weak effects on the
+transcriptional profile (figs. 1 and 2). we have therefore
+excluded dros from detailed comparative analyses. among
+all the regulated genes, 72–91% showed an increase in the
+transcript levels. in total, the six progestins-regulated 329
+genes greater than 1.7-fold (see fig. 2 and supplementary
+table s1).
+to assess if a progestin differs significantly from any other
+progestins, we determined the transcriptional relationship of
+
+fig. 2. number of genes regulated by progestin treatment in t47dco cells.
+t47dco cells were plated in emem with 5% charcoal stripped fetal bovine
+serum and cultured for 12 h. then, cells were treated for 12 h with 10 nm p4
+or 1 nm dros, 3-keto, lng, mpa, neta, and tmg. rna was harvested
+and subjected to u133a affymetrix genechip analysis as described in section 2 (>1.7-fold change, p < 0.01). the bars represent the results of three
+independent and time-separated experiments. the number of up-regulated
+(white bars) and down-regulated (black bars) genes are indicated.
+
+332
+
+j.d. bray et al. / journal of steroid biochemistry & molecular biology 97 (2005) 328–341
+
+with most genes appearing to be regulated unidirectionally by
+all progestins. there appear to be two groups of progestins,
+with tmg, mpa, and 3-keto showing a more similar magnitude of response than neta, p4, and lng which appear
+to group in a similar manner. this is likely due to potency
+differences on a single point gene expression measurement.
+importantly, no obvious group of genes can be identified
+that clearly distinguishes any one treatment from another,
+suggesting that there are few quantitative differences among
+these progestins.
+we also determined the relatedness of each synthetic progestin to the 160 p4-regulated genes from fig. 2. the five
+synthetic progestins showed a high degree of overlap and
+similarity with 77–91% of p4-regulated genes also regulated
+(p < 0.05) by a synthetic progestin. of the 160 p4-regulated
+genes, 143 (89%) were regulated by 3-keto, 123 (77%) by
+lng, 135 (84%) by mpa, 128 (80%) by neta and 145
+(91%) by tmg. (fig. 4, red and dark blue wedges).
+this allowed us to define a progestin-regulated gene set
+that includes genes regulated by all six progestins. table 2
+shows the 30 genes commonly regulated by 2.0-fold by each
+of the six progestins. this list includes at least nine genes
+(in italics) previously demonstrated to be progesterone upregulated including s100p,  xxxg1085xxx , klf4, net1,  xxxg254xxx ,
+atp1b1,  xxxg2339xxx ,  xxxg47xxx  [25], and  xxxg212xxx  [41]. consistent with our analysis showing less similarity among the
+down-regulated genes, only 1 gene,  xxxg560xxx  is significantly down-regulated [35]. the number of overlapping
+genes increases to 156 if the filter stringency is reduced
+(p < 0.05), and includes more down-regulated genes (see
+supplementary table s2) suggesting that the observed profiling differences in gene expression are quantitative rather than
+qualitative.
+3.3. taqman rt-pcr validates the similarity of selected
+common progestin-regulated genes
+
+fig. 3. cluster diagram of genes regulated by p4, 3-keto, lng, mpa, neta,
+and tmg. fold change values for the 329 genes significantly regulated
+by at least one progestin were subjected to hierarchical clustering using
+genecluster (eisen). each column represents the average ratio of an individual progestin to vehicle-treated t47dco cells. each row represents one
+of the 329 gene qualifiers. only the genes were subjected to hierarchical
+clusters, and the order of treatments simply reflects input order. red squares
+represent increased expression values relative to vehicle; blue squares represent decreased expression values relative to vehicle control; white squares
+represent no difference in expression values compared to vehicle. the color
+saturation represents the magnitude of the ratio.
+
+each gene to each progestin. clustering algorithms provide
+an unbiased method to group genes with similar expression
+to determine underlying patterns. fig. 3 shows the unsupervised hierarchical clustering of the 329 regulated genes,
+
+to confirm that the expression profiling accurately
+described the observed gene regulation by these progestins,
+we further analyzed gene expression using taqman quantitative rt-pcr on selected marker genes. single concentration
+measurements may miss important concentration-dependent
+gene regulation kinetics, so we determined concentration
+responses (0.01–1000 nm) for seven commonly regulated
+genes: s100p, ppl, il20ra, net1,  xxxg212xxx , hig2, and
+ xxxg560xxx  (table 2, in bold).
+at the 1 nm concentration (equivalent to the concentration used for array analysis of the synthetic progestins), all
+seven selected genes were significantly regulated (p < 0.001)
+by the progestins, excluding dros (fig. 5a–g). six of the
+seven genes have a greater fold induction magnitude when
+measured by taqman than by expression profiling, but still
+show a high similarity in regulation. for each gene, there
+may be significant expression differences at a single concentration but across the concentration range no progestin
+was significantly different from the others. given that the
+
+j.d. bray et al. / journal of steroid biochemistry & molecular biology 97 (2005) 328–341
+
+333
+
+fig. 4. p4-regulated genes commonly regulated (p < 0.05) by 3-keto, lng, mpa, neta, and tmg. each pie chart represents the 160 genes regulated by p4
+from fig. 2 (corresponding to 115 up-regulated genes and 45 down-regulated genes), and the common regulation of genes both up- (blue segments) and downregulated (red segments) by each progestin on these genes with corresponding gene numbers. yellow segments and light blue segments represent p4-regulated
+genes that do not share up- and down-regulation with the progestin treatment, respectively.
+
+responses for all the genes were highly similar, it is likely
+that the treatment concentration selection for array analyses was appropriate for this study. in general, the expression
+curves for the synthetic progestins are left-shifted compared
+to p4, suggesting that they have higher potencies. for all
+seven genes, none of the treatments had a unique expression pattern in a concentration-dependent manner suggesting
+a similar mechanism of action by these progestins on prdependent gene expression in t47dco cells.
+
+we also examined dros on these selected marker genes.
+if there is a similar mechanism of action for steroidal progestins, then dros should regulate these genes in a similar
+manner to the other six progestins. dros does, in fact, regulate all genes tested but with reduced potency and efficacy
+(fig. 5a–g). we observe significant gene regulation following 10 nm or higher dros treatment, which indicates that
+the concentration of dros selected for the array analysis
+was too low.
+
+j.d. bray et al. / journal of steroid biochemistry & molecular biology 97 (2005) 328–341
+
+334
+
+table 2
+top genes regulated by all progestins
+qualifier
+
+204351
+204130
+203407
+208763
+221841
+219115
+207275
+201830
+204326
+203973
+202733
+203586
+220948
+221245
+212063
+212185
+201243
+201005
+209835
+201829
+203759
+205240
+218507
+201041
+215990
+209574
+201061
+212345
+219127
+209687
+
+at
+at
+at
+s at
+s at
+s at
+s at
+s at
+x at
+s at
+at
+s at
+s at
+s at
+at
+x at
+s at
+at
+x at
+at
+at
+at
+at
+s at
+s at
+s at
+s at
+s at
+at
+at
+
+gene symbol
+
+s100p
+ xxxg1085xxx 
+ppl
+ xxxg2339xxx 
+klf4
+il20ra
+( xxxg47xxx ,  xxxg47xxx )
+net1*
+(mt1l, mt1x)
+cebpd
+ xxxg1651xxx 
+arf4l
+ xxxg212xxx 
+dkfzp434e2135
+cd44*
+ xxxg1470xxx 
+atp1b1
+ xxxg399xxx 
+cd44*
+net1*
+siat4c
+lgn
+hig2
+ xxxg664xxx 
+ xxxg254xxx 
+c18orf1
+(stom, na)
+dkfzp586f2423
+mgc11242
+ xxxg560xxx 
+
+unigene
+
+hs.2962
+hs.1376
+hs.192233
+hs.420569
+hs.376206
+hs.288240
+hs.406678
+hs.25155
+hs.374950
+hs.381058
+hs.104772
+hs.183153
+hs.371889
+hs.17631
+hs.306278
+hs.418241
+hs.78629
+hs.387579
+hs.306278
+hs.25155
+hs.75268
+hs.278338
+hs.521170
+hs.171695
+hs.155024
+hs.285091
+hs.439776
+hs.59943
+hs.36529
+hs.436042
+
+fold change
+p4
+
+3-keto
+
+lng
+
+mpa
+
+neta
+
+tmg
+
+10.5
+11.1
+7.5
+5.6
+5.7
+5.3
+4.2
+4.2
+4.8
+4.4
+4.3
+3.8
+3.5
+4.3
+4.3
+4.1
+3.8
+3.8
+3.0
+3.0
+2.9
+3.1
+3.2
+3.0
+2.4
+2.4
+2.7
+2.5
+2.3
+−3.9
+
+12.0
+11.7
+7.2
+5.5
+5.7
+5.2
+5.1
+4.7
+4.2
+4.7
+4.6
+4.0
+4.3
+4.1
+4.1
+3.7
+3.9
+3.8
+3.6
+3.8
+3.5
+3.3
+3.3
+2.7
+2.8
+2.4
+2.5
+2.5
+2.4
+−4.0
+
+8.0
+7.8
+5.1
+4.7
+4.2
+3.9
+4.9
+4.3
+3.6
+3.0
+3.2
+3.9
+3.2
+3.8
+3.3
+3.8
+3.4
+3.1
+2.9
+2.9
+2.8
+3.3
+3.1
+2.5
+2.5
+2.1
+2.6
+2.1
+2.6
+−3.4
+
+9.5
+9.9
+6.9
+5.5
+5.1
+4.1
+4.3
+4.1
+4.0
+3.3
+4.0
+4.3
+3.5
+4.3
+3.7
+4.0
+3.1
+3.7
+3.0
+2.8
+3.5
+3.1
+3.0
+2.7
+2.9
+2.8
+2.2
+2.5
+2.6
+−4.0
+
+8.4
+9.5
+5.9
+4.9
+4.8
+3.7
+4.4
+3.7
+4.1
+3.1
+3.7
+4.1
+3.4
+3.5
+3.6
+3.9
+3.5
+3.6
+2.9
+2.5
+2.9
+2.9
+3.2
+2.9
+2.6
+2.2
+2.6
+2.3
+2.5
+−3.6
+
+10.6
+11.8
+7.9
+6.0
+5.4
+5.7
+4.2
+5.0
+4.4
+4.1
+4.5
+4.4
+3.7
+4.0
+4.1
+3.6
+3.3
+3.4
+3.8
+2.9
+2.9
+3.4
+3.2
+3.1
+2.3
+2.5
+2.3
+2.7
+2.6
+−4.3
+
+italicized genes have previously been described as progestin-regulated in t47d cells. fold change is progestin treatment compared to vehicle control. asterisk
+(*) denotes genes represented multiple times because the gene is represented multiple times on the array. bold genes have been validated independently by
+taqman© .
+
+3.4. expression proﬁling analysis to ﬁnd differentially
+regulated genes by a single progestin
+only a single gene, f3, was identified that appeared to be
+uniquely regulated by a single treatment, 3-keto (p < 0.01 and
+>1.7-fold change). we next attempted to identify additional
+genes showing a significant qualitative difference among progestins. since the response to progestin treatment was similar
+and individual progestins do not regulate a distinct set of
+genes, we chose to increase the statistical analysis power by
+combining the data derived from multiple treatments. this
+also allowed us to systematically identify genes that are significantly regulated by a single progestin. we compared the
+expression of a single progestin to the mean expression values
+derived from the other five progestins. this analysis identified
+84 unique genes with the potential to demonstrate quantitative differential regulation by any one progestin (table 3). for
+most of the treatments, only a few (between 1 and 16) of gene
+qualifiers showed progestin specific regulation. however, at
+least 33 transcripts were differentially regulated following
+treatment with neta. it is important to note that the difference in expression levels is generally subtle and usually less
+
+than 2.0-fold. among these genes, only f3, hpcal1, and
+ xxxg740xxx  have been previously identified as progestin-regulated
+[25,42]; 3-keto differentially regulated f3 compared to the
+other progestins, and p4 differentially regulated hpcal1 and
+ xxxg740xxx . for most genes in this subset, the observed relative
+expression differences suggest only subtle qualitative differences distinguish the progestins (supplementary table s3).
+most of these genes show differential regulation of less than
+
+table 3
+number of genes differentially regulated by a specific progestin compared
+to all other progestins
+treatment
+
+genes differentially regulated
+
+p4
+3-keto
+lng
+mpa
+neta
+tmg
+
+24
+5
+6
+1
+33
+16
+
+the mean expression values following a single progestin treatment were
+compared to the mean expression values derived from the combination of
+the five additional progestins.
+
+j.d. bray et al. / journal of steroid biochemistry & molecular biology 97 (2005) 328–341
+
+335
+
+fig. 5. concentration response for selected genes commonly regulated by progestins in t47dco cells. rna from t47dco cells treated for 12 h with
+0.01–1000 nm p4, dros, 3-keto, lng, mpa, neta, and tmg was analyzed by taqman quantitative rt-pcr for a, s100p; b, ppl; c, il20ra; d,
+net1; e,  xxxg212xxx ; f, hig2; g,  xxxg560xxx . results are represented as fold change ± s.e.m. from at least three independent, time-separated experiments.
+
+1.7-fold compared to vehicle and therefore were not observed
+in the initial analysis.
+3.5. taqman rt-pcr fails to validate genes
+differentially regulated by one progestin compared to the
+others
+nevertheless, quantitative rt-pcr was performed on
+seven genes that were potentially progestin-specific by
+
+expression profiling (table 3 and supplementary table s3).
+f3 (3-keto-selective), maz, adam15, and hpcal1 (p4selective), hmgcs2 (lng-selective), cri1 and  xxxg1150xxx 
+(neta-selective) were chosen as candidates. they were
+selected because of a relatively large fold-induction as
+seen by expression analysis, lack of potential cross
+hybridization, previous identification as progestin-regulated,
+or possible relevance to known gene products and/or pathways.
+
+336
+
+j.d. bray et al. / journal of steroid biochemistry & molecular biology 97 (2005) 328–341
+
+fig. 6. concentration response for genes differentially regulated by progestins using expression profiling in t47dco cells. rna from t47dco cells treated
+for 12 h with 0.01–1000 nm p4, dros, 3-keto, lng, mpa, neta, and tmg were analyzed by taqman quantitative rt-pcr for a, maz; b, adam15;
+c, hpcal1; d, f3; e, hmgcs2; f, cri1; g,  xxxg1150xxx . results are represented as fold change ± s.e.m. from at least three independent, time-separated
+experiments.
+
+for f3, we predicted to see a 3-keto selective response.
+while 3-keto is the most potent inducer at all concentrations,
+it is not significantly different from the other progestins at
+any concentration (fig. 6a). hpcal1 showed a progestindependent response, but was not selective for p4 (fig. 6b).
+none of the remaining genes show the expected pattern of
+progestin selective expression (fig. 6c–g). in fact, some of
+
+the genes (maz, hmgcs2, cri1, and  xxxg1150xxx ) showed no
+concentration-dependent regulation by qualitative rt-pcr.
+since many of these genes are differentially expressed less
+than 2.0-fold by expression analysis or had low expression
+levels, it is not surprising that they did not confirm by quantitative pcr. we detected no qualitative differences among
+these progestins on t47dco cell gene expression.
+
+j.d. bray et al. / journal of steroid biochemistry & molecular biology 97 (2005) 328–341
+table 4
+number of genes regulated in t47d-y cells by progestins, and in common
+with t47dco cells
+treatment
+
+number of genes regulated
+in t47d-y cells
+
+number of genes regulated
+in common with t47dco
+cells
+
+p4
+dros
+3-keto
+lng
+mpa
+neta
+tmg
+any
+
+0
+2
+10
+21
+62
+2
+2
+83
+
+0
+0
+0
+0
+1
+0
+0
+1
+
+“any” is the total of unique genes from all the treatments. from the 329
+genes regulated by any progestin in t47dco cells, only a single gene was
+regulated in the t47d-y cells.
+
+3.6. progestin gene regulation in pr negative cells
+to determine if any transcriptional responses were mediated through non-pr mediated pathways, expression profiling was performed using t47d-y cells, a pr-negative subline
+of t47d cells. of the 329 progestin-regulated genes, only
+1 gene (gpcr41) is significantly regulated (1.9-fold) in the
+null cells and by only a single progestin (mpa). this suggests
+that the transcriptional regulation by progestins in t47dco
+cells is predominantly mediated through pr. however, we
+identified additional genes regulated in the null cells that were
+not regulated in wild type cells (table 4, and supplementary
+table s4). in total, only a small fraction, 83 genes, are regulated by any progestin in the t47d-y cells. many of the genes
+are very highly expressed (i.e., ribosomal and cytoskeletal
+genes) and may be artifactual due to differential chip saturation. preliminary quantitative pcr on some of the ribosomal
+genes suggests this to be the case (data not shown). further
+confirmation and investigation of these genes is necessary,
+but beyond the scope of this study.
+
+4. discussion
+expression profiling was used to investigate the effects of
+seven clinically relevant progestins (p4, dros, 3-keto, lng,
+mpa, neta, and tmg) on pr-dependent gene expression
+in the t47dco breast cancer cell line, a well-characterized
+
+337
+
+model for progestational activity. the results show that for
+each progestin, as well as all the progestins, more genes are
+up-regulated than down-regulated, and more genes are commonly up-regulated than commonly down-regulated between
+p4 and the synthetic progestins (figs. 2–4). we also show
+that, with the exception of dros, there are no significant
+qualitative differences with regard to gene regulation through
+pr. there are quantitative differences on gene expression
+and any given pair of progestins may differ quantitatively
+from another on a given gene. nonetheless, the similarity
+of gene regulation is quite striking. in retrospect, this is not
+surprising since progestins were selected by their ability to
+have similar effects on defined physiological endpoints, consistent with the desired clinical goals as “progestational”
+compounds. we observed good concordance between array
+analysis and rt-pcr. seven marker genes also confirm that
+no progestin (except dros) is significantly different from the
+others, suggesting that a similar mechanism of pr-dependent
+gene regulation is utilized by all of these progestins.
+the degree of similarity in the transcriptional response
+through pr was striking since the rationale used to select
+these seven progestins was meant to investigate a range of differing progestins, with known differences in steroid receptor
+selectivity and activities. we used availability for therapeutic
+use as the primary selection criterion. from this, we chose
+representative progestins from different chemical classes
+with varying steroid selectivity profiles and potencies. p4, the
+only natural ligand for pr, was selected as the reference agonist. the synthetic progestins have differences in biological
+activity and are generally more potent than p4 in bioassays that assess pregnancy maintenance, ovulation inhibition
+or general progestational effects on the rabbit endometrium
+[26,27]. the biological activities of the progestins used are
+summarized in table 5 [26,27,43]. there are two major chemical classes of synthetic progestin: the first class containing
+mpa and tmg is structurally related to progesterone. mpa is
+a 17␣- xxxd2303xxx  derivative called a pregnane and
+tmg is a 19-norprogesterone derivative (norpregnane). the
+second class consisting of neta, lng and 3-keto are structurally related to testosterone. neta is a 19-nortestoterone
+derivative called an estrane. lng and 3-keto (the active form
+of its prodrug,  xxxd1849xxx ) are 13-ethylgonanes (gonanes).
+pharmacokinetic and metabolic differences exist but are
+beyond the scope of this study.
+
+table 5
+biological activities of progestins used in this study
+compound
+
+prog
+
+estr
+
+aestr
+
+andr
+
+aar
+
+gluc
+
+amr
+
+p4
+mpa
+tmg
+neta
+lng
+3-keto
+dros
+
++
++++
+++++
+++
++++
+++++
+++
+
+−
+−
+−
++
+−
+−
+−
+
++
++
++
++
++
++
++
+
+−
++
+−
++
++
++
+−
+
++
+−
++
+−
+−
+−
++
+
+−
++
+−
+−
+−
+−
+−
+
++
+−
++/−
+−
++/−
++/−
++
+
+prog, progestogenic; estr, estrogenic; aestr, antiestrogenic; andr, androgenic; aar, antiandrogenic; gluc, glucocorticoid; amr, antimineralocorticoid. data adapted from [26–28,43].
+
+338
+
+j.d. bray et al. / journal of steroid biochemistry & molecular biology 97 (2005) 328–341
+
+it is noteworthy that the synthetic progestins have known
+differences in steroid receptor selectivity and activities (see
+table 5). however, the low degree of qualitative differences
+among these progestins through pr suggests that there is
+minimal contribution from cross-reactivity with other steroid
+receptor on gene expression in the t47dco cells. indeed,
+ghatge et al. (personal communication) have shown a lack
+of androgenic activity, and weak glucocorticoid activity in
+these cells. furthermore, the lack of substantial consistent
+gene regulation in the pr-negative t47d-y cells implies that
+at the dose used, the signaling is occurring through pr, not
+other receptors.
+we find that each gene has a slightly different concentration response. however, at the concentrations used for array
+analysis the response of each progestin across each gene is
+fairly similar suggesting that our selection of progestin concentrations was valid. the rt-pcr results suggest that if we
+were to examine genes regulated by progestins at a lower concentration we would see more quantitative differences, but
+still observe the same overall trend. in general, the expression
+curves for the synthetic progestins are left-shifted compared
+to p4, suggesting they have higher potencies, consistent with
+the alkaline phosphatase assay data and historical biological
+data (figs. 1 and 5). however, the efficacies of the progestins
+appear to be very similar.
+we were unable to identify any gene that, for discriminatory purposes, is selectively regulated by a single progestin.
+we attempted to identify any gene that is differentially regulated by any single progestin, and have identified ∼80
+potential candidates. however, these differences were not
+confirmed for seven selected genes by rt-pcr.
+of the seven progestins, dros had the greatest differences on gene expression. dros is an analogue of
+spirolonolactone structurally related to testosterone and has
+biochemical and pharmacological properties similar to progesterone such as antiandrogenic and antimineralocorticoid
+activities [44]. dros regulated fewer genes at 1 nm than
+the other progestins, and dros also was the least potent
+ligand on alkaline phosphatase activity (figs. 1 and 2).
+these results are consistent with dros being a less potent
+progestin in t47d cells and provided justification to exclude
+it from the analysis. we did observe that dros regulates
+all the marker genes examined in this study (figs. 5 and 6);
+again suggesting that dros is simply less potent. these data
+suggest that the gene expression measurements can provide
+an accurate and sensitive way to assess pharmacological
+parameters of a progestin such as potency or efficacy.
+we have confirmed and extended the expression data for
+t47d cells. our results are consistent with previous studies
+of gene expression in t47dco cells that show there are more
+up-regulated genes than down-regulated genes by p4 [25,35].
+this study shows that there are more similarities than there
+are differences among progestins. previous examination of
+t47d gene expression comparing p4 with the antiprogestin,
+ru486, or a non-steroidal pr modulator (prm) with mixed
+activities demonstrated that these classes can be discerned
+
+from each other [35]. treatment of t47d cells with r5020,
+a synthetic progestin, or dexamethasone, a glucocorticoid,
+yielded overlapping but distinct regulated gene sets [34],
+whereas we see a very high degree of similarity. there is little
+difference upon global gene regulation by these progestins,
+indicating that all these hormones fall into the same class
+when both pr isoforms are present. we have identified a significant number of genes previously described to be regulated
+in the t47d isoform-specific lines (see text [25,45]). expression profiling and further experimentation with these cells,
+after treatment with the seven progestins, has been initiated
+to determine the contribution of pr isoforms to progestinspecific gene regulation.
+the regulated genes confirm and extend our knowledge
+of progestational activity on cells. many of the regulated
+genes encode cell surface proteins suggesting that progestins
+may alter the phenotype of the cells to be more secretory
+than proliferative. this is consistent with the upregulation of
+alkaline phosphatase activity and previous findings [25,39].
+ppl encodes the intermediate filament protein periplakin,
+a component of desmosomes [46].  xxxg212xxx  encodes the
+catalytic subunit of the ouabain-sensitive na+ , k+ atpase
+pump [47,48]. net1 encodes a guanine exchange factor
+for rhoa [49,50]. rhoa is a gtpase important for actin
+cytoskeletal functions and has a role as a key regulator of
+cadherin-mediated cell–cell adhesion [51]. more intriguing,
+the na+ , k+ atpase pump is involved in tight junction formation through rho gtpase and stress fibers [52]. adam15
+(named for a disintegrin and metalloprotease 15, metargidin)
+encodes a membrane-anchored glycoprotein that has been
+implicated in cell–cell or cell–matrix interactions and in the
+proteolysis of molecules on the cell surface or extracellular
+matrix [53]. p4 is known to regulate other members of this
+protease family such as adamts-1 [54]. s100p, the highest
+regulated gene, encodes a calcium-binding protein associated
+with breast cancer [55,56], and has been previously identified
+as a progesterone-regulated gene in t47d cells [25]. hig2
+is a hypoxia-induced gene of unknown function [57]. however, genes involved in proliferation or proliferative responses
+are also progestin-regulated. the il20ra gene encodes the
+ xxxg216xxx  of the il-20 receptor, which transduces il20 signaling via jak-stat pathways [58,59]. maz encodes
+a myc-associated zing finger protein that can function as
+a purine-binding transcription factor [60]. the lone downregulated gene,  xxxg560xxx , a growth stimulatory cytokine (also
+called  xxxg560xxx ) is estrogen-induced in
+mcf-7 breast cancer cells [61], and down-regulated by p4
+and ru486 in t47d cells [35]. hpcal1 encodes a calcium
+binding protein previously identified as both pr-a and pr-b
+regulated gene in t47d cells [25,62]. f3 has been identified
+as pr-b selective in t47d cells, and pr-regulated in vivo and
+in vitro in endometrial stromal cells [25,42,63,64]. hmgcs2
+encodes mitochondrial 3-hydroxy-3-methylglutaryl coa
+synthase involved in ketogenesis [65,66]. cri1 encodes a
+protein that inhibits histone acetylation activity of p300 or the
+ xxxg516xxx , cbp [67]. finally,  xxxg1150xxx  encodes
+
+j.d. bray et al. / journal of steroid biochemistry & molecular biology 97 (2005) 328–341
+
+an essential regulator of physiological processes in bone, kidney, and mammary gland [68]. preliminary examination of
+two other genes from table 2,  xxxg1085xxx  and  xxxg1470xxx  also
+show the same pattern of similar progestin regulation (data
+not shown). while these genes have different physiological
+roles, the observed regulation by progestins is remarkably
+alike.
+in sum, we have established an endogenous progestinregulated gene profile (table 2) that may predict the progestational activity of a molecule more accurately than assays
+that use exogenous reporters and/or transfected pr. of future
+interest would be how other classes of pr modulators such as
+partial pr agonists, pr antagonists, nonsteroidal progestins,
+or dissociated progestins would regulate these genes. as new
+generations of prms are developed, these genes may provide
+insight into the mechanisms of action of novel molecules and
+ultimately which genes are responsible for various aspects of
+progestin-dependent physiology.
+
+[7]
+
+[8]
+
+[9]
+
+[10]
+
+[11]
+
+[12]
+
+acknowledgments
+at wyeth, the authors wish to acknowledge dharmesh
+patel of women’s health and bone, wyeth research for
+oligonucleotide synthesis, dr. zhiming zhang for his helpful advice with selecting concentrations. at the university
+of colorado, the authors acknowledge support from the nih
+(ca26869), the national foundation for cancer research
+and family health international with funds from the mellon foundation (whose views do not necessarily reflect the
+views expressed in this article). we are grateful to stephanie
+schittone for her cell culture advice.
+
+[13]
+
+[14]
+
+[15]
+[16]
+
+[17]
+[18]
+
+appendix a. supplementary data
+[19]
+
+supplementary data associated with this article can be
+found, in the online version,  xxxd1891xxx .1016/j.jsbmb.2005.06.032.
+[20]
+
+references
+[1] e.e. baulieu, contragestion and other clinical applications of ru
+486, an antiprogesterone at the receptor, science 245 (1989)
+1351–1357.
+[2] j.p. lydon, f.j. demayo, c.r. funk, s.k. mani, a.r. hughes, c.a.
+montgomery jr., g. shyamala, o.m. conneely, b.w. o’malley, mice
+lacking  xxxg1737xxx  exhibit pleiotropic reproductive abnormalities, genes dev. 9 (1995) 2266–2278.
+[3] j.d. graham, c.l. clarke, physiological action of progesterone in
+target tissues, endocr. rev. 18 (1997) 502–519.
+[4] d.j. mangelsdorf, c. thummel, m. beato, p. herrlich, g. schutz,
+k. umesono, b. blumberg, p. kastner, m. mark, p. chambon, the
+nuclear receptor superfamily: the second decade, cell 83 (1995)
+835–839.
+[5] m. robinson-rechavi, g.h. escriva, v. laudet, the nuclear receptor
+superfamily, j. cell sci. 116 (2003) 585–586.
+[6] b.a. lessey, p.s. alexander, k.b. horwitz, the subunit structure of human breast cancer progesterone receptors: characterization
+
+[21]
+
+[22]
+
+[23]
+
+[24]
+
+[25]
+
+339
+
+by chromatography and photoaffinity labeling, endocrinology 112
+(1983) 1267–1274.
+p. kastner, a. krust, b. turcotte, u. stropp, l. tora, h. gronemeyer,
+p. chambon, two distinct estrogen-regulated promoters generate
+transcripts encoding the two functionally different human  xxxg1737xxx  forms a and b, embo j. 9 (1990) 1603–1614.
+h. gronemeyer, m.e. meyer, m.t. bocquel, p. kastner, b. turcotte,
+p. chambon, progestin receptors: isoforms and antihormone action,
+j. steroid biochem. mol. biol. 40 (1991) 271–278.
+e. vegeto, m.m. shahbaz, d.x. wen, m.e. goldman, b.w.
+o’malley, d.p. mcdonnell, human  xxxg1737xxx  a form
+is a cell- and promoter-specific repressor of human progesterone
+receptor b function, mol. endocrinol. 7 (1993) 1244–1255.
+l. tung, m.k. mohamed, j.p. hoeffler, g.s. takimoto, k.b. horwitz, antagonist-occupied human progesterone b-receptors activate
+transcription without binding to progesterone response elements and
+are dominantly inhibited by a-receptors, mol. endocrinol. 7 (1993)
+1256–1265.
+d.p. mcdonnell, m.m. shahbaz, e. vegeto, m.e. goldman, the
+human  xxxg1737xxx  a-form functions as a transcriptional
+modulator of  xxxg1602xxx  transcriptional activity, j.
+steroid biochem. mol. biol. 48 (1994) 425–432.
+m. beato, gene regulation by steroid hormones, cell 56 (1989)
+335–344.
+l. klein-hitpass, s.y. tsai, n.l. weigel, g.f. allan, d. riley, r.
+rodriguez, w.t. schrader, m.j. tsai, b.w. o’malley, the  xxxg1737xxx  stimulates cell-free transcription by enhancing the
+formation of a stable preinitiation complex, cell 60 (1990) 247–
+257.
+m.j. tsai, b.w. o’malley, molecular mechanisms of action of
+steroid/thyroid receptor superfamily members, annu. rev. biochem.
+63 (1994) 451–486.
+s.a. leonhardt, d.p. edwards, mechanism of action of progesterone
+antagonists, exp. biol. med. (maywood) 227 (2002) 969–980.
+n.j. mckenna, r.b. lanz, b.w. o’malley, nuclear receptor coregulators: cellular and molecular biology, endocr. rev. 20 (1999)
+321–344.
+h. gronemeyer, transcription activation by estrogen and progesterone receptors, annu. rev. genet. 25 (1991) 89–123.
+e. kalkhoven, s. wissink, p.t. van der saag, b.b. van der, negative
+interaction between the rela(p65) subunit of  xxxg1559xxx  and the
+ xxxg1737xxx , j. biol. chem. 271 (1996) 6217–6224.
+a.m. bamberger, c.m. bamberger, b. gellersen, h.m. schulte,
+modulation of ap-1 activity by the human  xxxg1737xxx 
+in endometrial adenocarcinoma cells, proc. natl. acad. sci. u.s.a.
+93 (1996) 6169–6174.
+a. migliaccio, d. piccolo, g. castoria, m. di domenico, a. bilancio, m. lombardi, w. gong, m. beato, f. auricchio, activation of
+the src/ xxxg1077xxx /erk pathway by  xxxg1737xxx  via cross-talk
+with  xxxg730xxx , embo j. 17 (1998) 2008–2018.
+v. boonyaratanakornkit, m.p. scott, v. ribon, l. sherman, s.m.
+anderson, j.l. maller, w.t. miller, d.p. edwards, progesterone
+receptor contains a proline-rich motif that directly interacts with
+sh3 domains and activates  xxxg2198xxx  family tyrosine kinases, mol. cell
+8 (2001) 269–280.
+m.e. meyer, h. gronemeyer, b. turcotte, m.t. bocquel, d. tasset,
+p. chambon, steroid hormone receptors compete for factors that
+mediate their enhancer function, cell 57 (1989) 433–442.
+m.e. meyer, c. quirin-stricker, t. lerouge, m.t. bocquel, h.
+gronemeyer, a limiting factor mediates the differential activation
+of promoters by the human  xxxg1737xxx  isoforms, j. biol.
+chem. 267 (1992) 10882–10887.
+d.p. mcdonnell, m.e. goldman, ru486 exerts antiestrogenic activities through a novel  xxxg1737xxx  a form-mediated mechanism, j. biol. chem. 269 (1994) 11945–11949.
+j.k. richer, b.m. jacobsen, n.g. manning, m.g. abel, d.m. wolf,
+k.b. horwitz, differential gene regulation by the two progesterone
+
+340
+
+[26]
+[27]
+
+[28]
+[29]
+
+[30]
+
+[31]
+
+[32]
+
+[33]
+
+[34]
+
+[35]
+
+[36]
+
+[37]
+
+[38]
+
+[39]
+
+[40]
+
+[41]
+
+[42]
+
+j.d. bray et al. / journal of steroid biochemistry & molecular biology 97 (2005) 328–341
+receptor isoforms in human breast cancer cells, j. biol. chem. 277
+(2002) 5209–5218.
+f.z. stanczyk, all progestins are not created equal, steroids 68
+(2003) 879–890.
+a.e. schindler, c. campagnoli, r. druckmann, j. huber, j.r.
+pasqualini, k.w. schweppe, j.h.h. thijssen, classification and pharmacology of progestins, maturitas 46 (2003) 7–16.
+r. sitruk-ware, pharmacological profile of progestins, maturitas 47
+(2004) 277–283.
+w.l. kraus, k.e. weis, b.s. katzenellenbogen, inhibitory crosstalk between steroid hormone receptors: differential targeting of
+ xxxg730xxx  in the repression of its transcriptional activity by
+agonist- and antagonist-occupied progestin receptors, mol. cell biol.
+15 (1995) 1847–1857.
+m. soulez, m.g. parker, identification of novel  xxxg730xxx 
+target genes in human zr75-1 breast cancer cells by expression
+profiling, j. mol. endocrinol. 27 (2001) 259–274.
+a.s. levenson, k.m. svoboda, k.m. pease, s.a. kaiser, b. chen,
+l.a. simons, b.d. jovanovic, p.a. dyck, v.c. jordan, gene expression profiles with activation of the  xxxg730xxx  alpha-selective
+ xxxg730xxx  modulator complex in breast cancer cells expressing wild-type  xxxg730xxx , cancer res. 62 (2002) 4419–
+4426.
+a.s. levenson, i.l. kliakhandler, k.m. svoboda, k.m. pease, s.a.
+kaiser, j.e. ward iii, v.c. jordan, molecular classification of selective  xxxg730xxx  modulators on the basis of gene expression
+profiles of breast cancer cells expressing  xxxg730xxx  alpha,
+br. j. cancer 87 (2002) 449–456.
+t.m. kian, i. rogatsky, c. tzagarakis-foster, a. cvoro, j. an,
+r.j. christy, k.r. yamamoto, d.c. leitman, estradiol and selective  xxxg730xxx  modulators differentially regulate target genes
+with estrogen receptors alpha and beta, mol. biol. cell 15 (2004)
+1262–1272.
+y. wan, s.k. nordeen, overlapping but distinct gene regulation profiles by glucocorticoids and progestins in human breast cancer cells,
+mol. endocrinol. 16 (2002) 1204–1214.
+j.d. bray, z. zhang, r.c. winneker, c.r. lyttle, regulation of gene
+expression by pra-910, a novel  xxxg1737xxx  modulator, in
+t47d cells, steroids 68 (2003) 995–1003.
+k.b. horwitz, m.b. mockus, b.a. lessey, variant t47d human
+breast cancer cells with high progesterone-receptor levels despite
+estrogen and antiestrogen resistance, cell 28 (1982) 633–642.
+c.a. sartorius, s.d. groshong, l.a. miller, r.l. powell, l. tung,
+g.s. takimoto, k.b. horwitz, new t47d breast cancer cell lines
+for the independent study of progesterone b- and a-receptors: only
+antiprogestin-occupied b-receptors are switched to transcriptional
+agonists by camp, cancer res. 54 (1994) 3868–3877.
+d. di lorenzo, a. albertini, d. zava, progestin regulation of alkaline
+phosphatase in the human breast cancer cell line t47d, cancer res.
+51 (1991) 4470–4475.
+d. di lorenzo, m. gianni, g.f. savoldi, f. ferrari, a. albertini,
+e. garattini, progesterone induced expression of alkaline phosphatase is associated with a secretory phenotype in t47d breast
+cancer cells, biochem. biophys. res. commun. 192 (1993) 1066–
+1072.
+z. zhang, s.g. lundeen, y. zhu, j.m. carver, r.c. winneker, in
+vitro characterization of trimegestone: a new potent and selective
+progestin, steroids 65 (2000) 637–643.
+h.a. kester, b.m. van der leede, p.t. van der saag, b.b. van
+der, novel progesterone target genes identified by an improved differential display technique suggest that progestin-induced growth
+inhibition of breast cancer cells coincides with enhancement of differentiation, j. biol. chem. 272 (1997) 16637–16643.
+g. krikun, f. schatz, n. mackman, s. guller, c.j. lockwood, transcriptional regulation of the  xxxg748xxx  gene by progestins in human
+endometrial stromal cells, j. clin. endocrinol. metab. 83 (1998)
+926–930.
+
+[43] r.c. winneker, d. bitran, z. zhang, the preclinical biology of a
+new potent and selective progestin: trimegestone, steroids 68 (2003)
+915–920.
+[44] r. krattenmacher,  xxxd1946xxx : pharmacology and pharmacokinetics of a unique progestogen, contraception 62 (2000) 29–38.
+[45] b.m. jacobsen, j.k. richer, s.a. schittone, k.b. horwitz, new
+human breast cancer cells to study  xxxg1737xxx  isoform
+ratio effects and ligand-independent gene regulation, j. biol. chem.
+277 (2002) 27793–27800.
+[46] c.l. leung, r.k. liem, d.a. parry, k.j. green, the plakin family,
+j. cell sci. 114 (2001) 3409–3410.
+[47] j.b. lingrel, t. kuntzweiler, na+, k(+)-atpase, j. biol. chem. 269
+(1994) 19659–19662.
+[48] j. lingrel, a. moseley, i. dostanic, m. cougnon, s. he, p. james,
+a. woo, k. o’connor, j. neumann, functional roles of the alpha
+isoforms of the na, k-atpase, ann. n. y. acad. sci. 986 (2003)
+354–359.
+[49] a.m. chan, s. takai, k. yamada, t. miki, isolation of a novel
+oncogene, net1, from neuroepithelioma cells by expression cdna
+cloning, oncogene 12 (1996) 1259–1266.
+[50] a.s. alberts, r. treisman, activation of rhoa and  xxxg1372xxx /jnk signalling pathways by the rhoa-specific exchange factor mnet1,
+embo j. 17 (1998) 4075–4085.
+[51] m. fukata, k. kaibuchi, rho-family gtpases in cadherin-mediated
+cell-cell adhesion, nat. rev. mol. cell biol. 2 (2001) 887–897.
+[52] s.a. rajasekaran, l.g. palmer, s.y. moon, s.a. peralta, g.l. apodaca, j.f. harper, y. zheng, a.k. rajasekaran, na, k-atpase activity is required for formation of tight junctions, desmosomes, and
+induction of polarity in epithelial cells, mol. biol. cell 12 (2001)
+3717–3732.
+[53] k. horiuchi, g. weskamp, l. lum, h.p. hammes, h. cai, t.a.
+brodie, t. ludwig, r. chiusaroli, r. baron, k.t. preissner, k.
+manova, c.p. blobel, potential role for adam15 in pathological
+neovascularization in mice, mol. cell biol. 23 (2003) 5614–5624.
+[54] r.l. robker, d.l. russell, l.l. espey, j.p. lydon, b.w. o’malley,
+j.s. richards, progesterone-regulated genes in the ovulation process:
+adamts-1 and  xxxg555xxx  proteases, proc. natl. acad. sci. u.s.a.
+97 (2000) 4689–4694.
+[55] t. becker, v. gerke, e. kube, k. weber, s100p, a novel ca(2+)binding protein from human placenta. cdna cloning, recombinant
+protein expression and ca2+ binding properties, eur. j. biochem.
+207 (1992) 541–547.
+[56] d.s. guerreiro i., y.f. hu, i.h. russo, x. ao, a.m. salicioni, x.
+yang, j. russo, s100p calcium-binding protein overexpression is
+associated with immortalization of human breast epithelial cells in
+vitro and early stages of breast cancer development in vivo, int. j.
+oncol. 16 (2000) 231–240.
+[57] n. denko, c. schindler, a. koong, k. laderoute, c. green, a.
+giaccia, epigenetic regulation of gene expression in cervical cancer
+cells by the tumor microenvironment, clin. cancer res. 6 (2000)
+480–487.
+[58] h. blumberg, d. conklin, w.f. xu, a. grossmann, t. brender, s.
+carollo, m. eagan, d. foster, b.a. haldeman, a. hammond, h.
+haugen, l. jelinek, j.d. kelly, k. madden, m.f. maurer, j. parrishnovak, d. prunkard, s. sexson, c. sprecher, k. waggie, j. west, t.e.
+whitmore, l. yao, m.k. kuechle, b.a. dale, y.a. chandrasekher,
+interleukin 20: discovery, receptor identification, and role in epidermal function, cell 104 (2001) 9–19.
+[59] l. dumoutier, c. leemans, d. lejeune, s.v. kotenko, j.c. renauld,
+cutting edge: stat activation by il-19, il-20 and mda-7 through
+il-20 receptor complexes of two types, j. immunol. 167 (2001)
+3545–3549.
+[60] j.j. pyrc, k.h. moberg, d.j. hall, isolation of a novel cdna encoding a zinc-finger protein that binds to two sites within the c-myc
+promoter, biochemistry 31 (1992) 4102–4110.
+[61] j.m. hall, k.s. korach,  xxxg560xxx , a novel target
+of  xxxg730xxx  action, mediates the mitogenic effects of estra-
+
+j.d. bray et al. / journal of steroid biochemistry & molecular biology 97 (2005) 328–341
+diol in ovarian and breast cancer cells, mol. endocrinol. 17 (2003)
+792–803.
+[62] m. kobayashi, k. takamatsu, s. saitoh, m. miura, t. noguchi,
+molecular cloning of hippocalcin, a novel calcium-binding protein of the  xxxg1941xxx  family exclusively expressed in hippocampus,
+biochem. biophys. res. commun. 189 (1992) 511–517.
+[63] c.j. lockwood, y. nemerson, s. guller, g. krikun, m. alvarez,
+v. hausknecht, e. gurpide, f. schatz, progestational regulation of
+human endometrial stromal cell  xxxg748xxx  expression during decidualization, j. clin. endocrinol. metab. 76 (1993) 231–236.
+[64] m.m. harpold, r.m. evans, m. salditt-georgieff, j.e. darnell, production of mrna in chinese hamster cells: relationship of the rate
+of synthesis to the cytoplasmic concentration of nine specific mrna
+sequences, cell 17 (1979) 1025–1035.
+
+341
+
+[65] n. dashti, j.a. ontko, rate-limiting function of 3-hydroxy-3methylglutaryl- xxxd1739xxx  synthase in ketogenesis, biochem. med.
+22 (1979) 365–374.
+[66] y. boukaftane, g.a. mitchell, cloning and characterization of
+the human mitochondrial 3-hydroxy-3-methylglutaryl coa synthase
+gene, gene 195 (1997) 121–126.
+[67] s. miyake, w.r. sellers, m. safran, x. li, w. zhao, s.r. grossman,
+j. gan, j.a. decaprio, p.d. adams, w.g. kaelin jr., cells degrade
+a novel inhibitor of differentiation with e1a-like properties upon
+exiting the cell cycle, mol. cell biol. 20 (2000) 8889–8902.
+[68] m.r. schneider, e. wolf, a. hoeflich, h. lahm, igf-binding
+protein-5: flexible player in the igf system and effector on its own,
+j. endocrinol. 172 (2002) 423–440.
+

@@ -1,0 +1,402 @@
+published online 20 november 2009
+
+nucleic acids research, 2010, vol. 38, database issue  xxxd787xxx – xxxd791xxx 
+doi:10.1093/nar/gkp1014
+
+update of ttd: therapeutic target database
+feng zhu1, bucong han1,2, pankaj kumar1, xianghui liu1, xiaohua  xxxd3382xxx , xiaona wei1,2,
+lu huang1,2, yangfan guo1, lianyi han1, chanjuan zheng1 and yuzong chen1,2,*
+1
+
+bioinformatics and drug design group, center for computational science and engineering, department of
+pharmacy and 2computation and systems biology, singapore-mit alliance, national university of singapore,
+singapore, 117543
+
+received august 18, 2009; revised october 16, 2009; accepted october 19, 2009
+
+abstract
+
+introduction
+pharmaceutical agents generally exert their therapeutic
+eﬀects by binding to and subsequently modulating the
+activity of a particular protein, nucleic acid or other molecular (such as membrane) target (1,2). target discovery
+
+*to whom correspondence should be addressed. tel: +65 6516 6877; fax: +65 6774 6756; email: csccyz@nus.edu.sg
+ß the author(s) 2009. published by oxford university press.
+this is an open access article distributed under the terms of the creative commons attribution non-commercial license (http://creativecommons.org/licenses/
+by-nc/2.5/uk/) which permits unrestricted non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited.
+
+downloaded from http://nar.oxfordjournals.org/ by guest on march 23, 2015
+
+increasing numbers of proteins, nucleic acids and
+other molecular entities have been explored as therapeutic targets, hundreds of which are targets of
+approved and clinical trial drugs. knowledge of
+these targets and corresponding drugs, particularly
+those in clinical uses and trials, is highly useful for
+facilitating drug discovery. therapeutic target
+database (ttd) has been developed to provide
+information about therapeutic targets and corresponding drugs. in order to accommodate
+increasing demand for comprehensive knowledge
+about the primary targets of the approved, clinical
+trial and experimental drugs, numerous improvements and updates have been made to ttd. these
+updates include information about 348 successful,
+292 clinical trial and 1254 research targets, 1514
+approved, 1212 clinical trial and 2302 experimental
+drugs linked to their primary targets (3382 small
+molecule and 649 antisense drugs with available
+structure and sequence), new ways to access data
+by drug mode of action, recursive search of related
+targets or drugs, similarity target and drug
+searching, customized and whole data download,
+standardized target id, and significant increase of
+data (1894 targets, 560 diseases and 5028 drugs
+compared with the 433 targets, 125 diseases and
+809 drugs in the original release described in
+previous paper). this database can be accessed at
+http://bidd.nus.edu.sg/group/cjttd/ttd.asp.
+
+eﬀorts have led to the discovery of hundreds of successful
+targets (targeted by at least one approved drug) and
+>1000 research targets (targeted by experimental drugs
+only) (3–6). rapid advances in genomic, proteomic, structural, functional and systems studies of the known targets
+and other disease proteins (7–13) enable the discovery of
+drugs, multi-target agents, combination therapies and new
+targets (3,5,7,14,15), analysis of on-target toxicity (16) and
+pharmacogenetic responses (17) and development of discovery tools (18–21).
+to facilitate the access of information about therapeutic
+targets, publicly accessible databases such as drugbank
+(22), potential drug target database (pdtd) (23) and
+our own therapeutic target database (ttd) (24) have
+been developed. these databases complement each other
+to provide target and drug proﬁles. drugbank is an excellent source for comprehensive drug data with information
+about drug actions and multiple targets (22). pdtd
+contains active-sites as well as functional information for
+potential targets with available 3d structures (23). ttd
+provides information about the primary targets of
+approved and experimental drugs (24).
+while drugs typically modulate the activities of multiple
+proteins (25) and up to 14 000 drug-targeted-proteins have
+been reported (26), the reported number of primary
+targets directly related to the therapeutic actions of
+approved drugs is limited to 324 (6). information about
+the primary targets of more comprehensive sets of
+approved, clinical trial and experimental drugs is highly
+useful for facilitating focused investigations and discovery
+eﬀorts against the most relevant and proven targets
+(5,7,14,16,17,20). therefore, we updated ttd by
+signiﬁcantly expanding the target data to include 348 successful, 292 clinical trial and 1254 research targets, and
+added drug data for 1514 approved, 1212 clinical trial
+and 2302 experimental drugs linked to their primary
+targets (3382 small molecule and 649 antisense drugs
+with available structure and sequence, more structures
+will be added).
+we collected a slightly higher number of successful
+targets than the reported number of 320 targets (6)
+
+ xxxd788xxx  nucleic acids research, 2010, vol. 38, database issue
+
+because of the identiﬁcation of protein subtypes as the
+targets of some approved drugs and the inclusion of
+multiple targets of approved multi-target drugs and nonprotein/nucleic acid targets of anti-infectious drugs (e.g.
+bacterial cell wall and membrane components). clinical
+trial drugs are based on reports since 2005 with the
+majority since 2008. clinical trial phase is speciﬁed for
+every clinical trial drug. we also added new features for
+data access by drug mode of action, recursive search of
+related target and drug entries, similarity search of targets
+and drugs, customized and whole data download, and
+standardized target id.
+target and drug data collection and
+access
+
+target and drug similarity searching
+target similarity searching (figure 2) is based on the
+blast (27) algorithm to determine the similarity level
+between the sequence of an input protein and the
+sequence of each of the ttd target entries. the blast
+program was downloaded from ncbi website
+(http://www.ncbi.nlm.nih.gov/blast/download.shtml).
+the similarity targets are ranked by e-value and blast
+score (27). e-value has been reported to give reliable
+predictions of the homologous relationships (30) and
+e-value cutoﬀ of 0.001 can be used to ﬁnd 16% more
+structural relationships in the scop database than when
+using a standard sequence similarity with a 40% sequenceidentity threshold (31). the majority of protein pairs that
+share 40–50% (or higher) sequence-identity diﬀer by <1 å
+rms deviation (32,33), and a larger structural deviation
+probably alters drug-binding properties.
+drug similarity searching (figure 3) is based on the
+tanimoto similarity searching method (28). an input
+compound structure in mol or sdf format is converted
+into a vector composed of molecular descriptors by
+using our model software (34). molecular descriptors
+are quantitative representations of structural and
+physicochemical features of molecules, which have
+been extensively used in deriving structure–activity
+relationships, quantitative structure–activity relationships
+and virtual screening tools for drug discovery (35,36).
+based on the results of our earlier studies (29), a total of
+98 1d and 2d descriptors were used as the components of
+the compound vector, which include 18 descriptors in the
+class of simple molecular properties, 3 descriptors in the
+class of chemical properties, 35 descriptors in the class of
+molecular connectivity and shape, and 42 descriptors in
+the class of electro-topological state. the vector of an
+input compound i is then compared with drug j in ttd
+by using the tanimoto coeﬃcient sim(i,j) (28):
+l
+p
+
+simði,jþ ¼
+
+l
+p
+d¼1
+
+ðxdi þ2 þ
+
+xdi xdj
+
+d¼1
+l 
+p
+d¼1
+
+l
+2 p
+xdj 
+xdi xdj
+d¼1
+
+downloaded from http://nar.oxfordjournals.org/ by guest on march 23, 2015
+
+additional data about the approved, clinical trial and
+experimental drugs and their primary targets were collected from a comprehensive search of literatures, fda
+drugs@fda webpage (http://www.accessdata.fda.gov)
+with information about fda approved drugs, latest
+reports from 17 pharmaceutical companies that describe
+clinical trial and other pipeline drugs (astrazeneca, bayer,
+boehringer ingelheim, genentech, gsk, idenix, incyte,
+isis, merck, novartis, pﬁzer, roche, sanoﬁ aventis,
+schering-plough, spectrum, takeda, teva). literature
+search was conducted by searching pubmed database
+using keyword combinations of ‘therapeutic’ and
+‘target’, ‘drug’ and ‘target’, ‘clinical trial’ and ‘drug’, and
+‘clinical trial’ and ‘target’, and by comprehensive search of
+such review journals as nature reviews drug discovery,
+trends of pharmaceutical science and drug discovery
+today. in particular, these searches identiﬁed 198 recent
+papers reporting approved and clinical trial drugs and
+their targets. as many of the experimental antisense
+drugs are described in us patents, we speciﬁcally
+searched us patent databases to identify 745 antisense
+drugs targeting 104 targets. primary targets of 211 drugs
+and drug binding modes of 79 drugs are not speciﬁed in
+our collected documents. further literature search was
+conducted to ﬁnd the relevant information for these
+drugs. the criteria for identifying the primary target of a
+drug or targets of a multi-target drug is based on the
+developer or literature reported cell-based or in vivo
+evidence that links the target to the therapeutic eﬀect of
+the drug. these searched documents are listed in the
+respective target or drug entry page of ttd and crosslink
+is provided to the respective pubmed abstract, us patent
+or developer web-page.
+ttd data can be accessed by keyword or customized
+search. customized search (figure 1) ﬁelds include target
+name, drug name, disease indication, target biochemical
+class, target species, drug therapeutic class and drug mode
+of action. further information about each target can be
+accessed via crosslink to uniprotkb\swissprot, pdb,
+kegg, omid and brenda database. further drug information can be accessed via crosslink to pubchem,
+drugbank, superdrug and chebi. related target or
+drug entries can be recursively searched by clicking a
+disease or drug name. similarity targets of an input
+
+protein sequence in fasta format can be searched by
+using the blast sequence alignment tool (27).
+similarity drugs of an input drug structure can be
+searched by using molecular descriptor based tanimoto
+similarity searching method (28,29). target and drug
+entries are assigned standardized ttd ids for easy identiﬁcation, analysis and linkage to other related databases.
+the whole ttd data, target sequences along with
+swissprot and entrez gene ids, and drug structures can
+be downloaded via the download link. a separate
+downloadable ﬁle contains the list of ttd drug id,
+drug name and the corresponding ids in other crossmatching databases pubchem, drugbank, superdrug
+and chebi. the corresponding hgnc name and
+swissprot and entrez gene id of each target is provided
+in the target page. the smiles and inchi of each drug
+is provided in the drug page.
+
+nucleic acids research, 2010, vol. 38, database issue
+
+figure 2. target similarity search page of ttd.
+
+downloaded from http://nar.oxfordjournals.org/ by guest on march 23, 2015
+
+figure 1. customized search page of ttd.
+
+ xxxd789xxx 
+
+ xxxd790xxx  nucleic acids research, 2010, vol. 38, database issue
+
+where l is the number of molecular descriptors. tanimoto
+coeﬃcient of similarity compounds are typically in the
+range of 0.8–0.9 (37,38). hence compound i is considered
+to be very similar, similar, moderately similar, or
+un-similar to drug j if sim(i,j) > 0.9, 0.85 < sim(i,j) < 0.9,
+0.75 < sim(i,j) < 0.85, or sim(i,j) < 0.75, respectively.
+remarks
+the updated ttd is intended to be a more useful resource
+in complement to other related databases by providing
+comprehensive information about the primary targets
+and other drug data for the approved, clinical trial and
+experimental drugs. in addition to the continuous update
+of new target and drug information, eﬀorts will be devoted
+to the incorporation of more features into ttd.
+increasing amounts of data about the genomic, proteomic,
+structural, functional and systems proﬁles of therapeutic
+targets have been and are being generated (7–13). apart
+from establishing crosslink to the emerging data sources,
+some of the proﬁles extracted or derived from the relevant
+data (3) may be further incorporated into ttd. target
+data has been used for developing target discovery
+methods (18–20), some of these methods may be
+included in ttd in addition to the blast tool for similarity target searching. as in the case of pdtd (23), some
+of the virtual screening methods and datasets (35,36) may
+also be included in ttd for facilitating target oriented
+drug lead discovery.
+
+funding
+funding for open access charge: the open access charges
+for this article were partially waived by oxford university
+press.
+conﬂict of interest statement. none declared.
+
+references
+1. ohlstein,e.h., ruﬀolo,r.r. jr and elliott,j.d. (2000) drug
+discovery in the next millennium. annu. rev. pharmacol. toxicol.,
+40, 177–191.
+2. zambrowicz,b.p. and sands,a.t. (2003) knockouts model the 100
+best-selling drugs–will they model the next 100? nat. rev. drug
+discov., 2, 38–51.
+3. zheng,c.j., han,l.y., yap,c.w., ji,z.l., cao,z.w. and chen,y.z.
+(2006) therapeutic targets: progress of their exploration and
+investigation of their characteristics. pharmacol rev., 58, 259–279.
+4. golden,j.b. (2003) prioritizing the human genome: knowledge
+management for drug discovery. curr. opin. drug discov. dev., 6,
+310–316.
+5. imming,p., sinning,c. and meyer,a. (2006) drugs, their targets
+and the nature and number of drug targets. nat. rev. drug discov.,
+5, 821–834.
+6. overington,j.p., al-lazikani,b. and hopkins,a.l. (2006) how
+many drug targets are there? nat. rev. drug discov., 5, 993–996.
+7. lindsay,m.a. (2003) target discovery. nat. rev. drug discov., 2,
+831–838.
+8. edwards,a. (2009) large-scale structural biology of the human
+proteome. annu. rev. biochem., 78, 541–568.
+9. lundstrom,k. (2006) structural genomics: the ultimate approach
+for rational drug design. mol. biotechnol., 34, 205–212.
+10. kramer,r. and cohen,d. (2004) functional genomics to new drug
+targets. nat. rev. drug discov., 3, 965–972.
+11. dey,r., khan,s. and saha,b. (2007) a novel functional approach
+toward identifying deﬁnitive drug targets. curr. med. chem., 14,
+2380–2392.
+12. hopkins,a.l. (2008) network pharmacology: the next paradigm in
+drug discovery. nat. chem. biol., 4, 682–690.
+13. giallourakis,c., henson,c., reich,m., xie,x. and mootha,v.k.
+(2005) disease gene discovery through integrative genomics.
+annu. rev. genomics hum. genet., 6, 381–406.
+14. zimmermann,g.r., lehar,j. and keith,c.t. (2007) multi-target
+therapeutics: when the whole is greater than the sum of the parts.
+drug discov. today, 12, 34–42.
+15. jia,j., zhu,f., ma,x., cao,z., li,y. and chen,y.z. (2009)
+mechanisms of drug combinations: interaction and network
+perspectives. nat. rev. drug discov., 8, 111–128.
+16. liebler,d.c. and guengerich,f.p. (2005) elucidating mechanisms
+of drug-induced toxicity. nat. rev. drug discov., 4, 410–420.
+17. eichelbaum,m., ingelman-sundberg,m. and evans,w.e. (2006)
+pharmacogenomics and individualized drug therapy. annu. rev.
+med., 57, 119–137.
+
+downloaded from http://nar.oxfordjournals.org/ by guest on march 23, 2015
+
+figure 3. drug similarity search page of ttdss.
+
+nucleic acids research, 2010, vol. 38, database issue
+
+28. willett,p. (1998) chemical similarity searching. j. chem. inf.
+comput. sci., 38, 983–996.
+29. ma,x.h., wang,r., yang,s.y., li,z.r., xue,y., wei,y.c.,
+low,b.c. and chen,y.z. (2008) evaluation of virtual screening
+performance of support vector machines trained by sparsely
+distributed active compounds. j. chem. inf. model, 48, 1227–1237.
+30. george,r.a. and heringa,j. (2002) protein domain identiﬁcation
+and improved sequence similarity searching using psi-blast.
+proteins, 48, 672–681.
+31. gerstein,m. (1998) measurement of the eﬀectiveness of transitive
+sequence comparison, through a third ’intermediate’ sequence.
+bioinformatics, 14, 707–714.
+32. wood,t.c. and pearson,w.r. (1999) evolution of protein
+sequences and structures. j. mol. biol., 291, 977–995.
+33. koehl,p. and levitt,m. (2002) sequence variations within protein
+families are linearly related to structural variations. j. mol. biol.,
+323, 551–562.
+34. li,z.r., han,l.y., xue,y., yap,c.w., li,h., jiang,l. and
+chen,y.z. (2007) model-molecular descriptor lab: a web-based
+server for computing structural and physicochemical features of
+compounds. biotechnol. bioeng., 97, 389–396.
+35. yap,c.w., li,h., ji,z.l. and chen,y.z. (2007) regression methods
+for developing qsar and qspr models to predict compounds of
+speciﬁc pharmacodynamic, pharmacokinetic and toxicological
+properties. mini rev. med. chem., 7, 1097–1107.
+36. li,h., yap,c.w., ung,c.y., xue,y., li,z.r., han,l.y., lin,h.h.
+and chen,y.z. (2007) machine learning approaches for predicting
+compounds that interact with therapeutic and admet related
+proteins. j. pharm. sci., 96, 2838–2860.
+37. bostrom,j., hogner,a. and schmitt,s. (2006) do structurally
+similar ligands bind in a similar fashion? j. med. chem., 49,
+6716–6725.
+38. huang,n., shoichet,b.k. and irwin,j.j. (2006) benchmarking sets
+for molecular docking. j. med. chem., 49, 6789–6801.
+
+downloaded from http://nar.oxfordjournals.org/ by guest on march 23, 2015
+
+18. barcellos,g.b., pauli,i., caceres,r.a., timmers,l.f., dias,r. and
+de azevedo,w.f. jr (2008) molecular modeling as a tool for drug
+discovery. curr. drug targets, 9, 1084–1091.
+19. lee,g.m. and craik,c.s. (2009) trapping moving targets with
+small molecules. science, 324, 213–215.
+20. zhu,f., han,l., zheng,c., xie,b., tammi,m.t., yang,s., wei,y.
+and chen,y. (2009) what are next generation innovative
+therapeutic targets? clues from genetic, structural, physicochemical,
+and systems proﬁles of successful targets. j. pharmacol. exp. ther.,
+330, 304–315.
+21. han,l.y., zheng,c.j., xie,b., jia,j., ma,x.h., zhu,f., lin,h.h.,
+chen,x. and chen,y.z. (2007) support vector machines approach
+for predicting druggable proteins: recent progress in its exploration
+and investigation of its usefulness. drug discov. today, 12,
+304–313.
+22. wishart,d.s., knox,c., guo,a.c., cheng,d., shrivastava,s.,
+tzur,d., gautam,b. and hassanali,m. (2008) drugbank: a
+knowledgebase for drugs, drug actions and drug targets.
+nucleic acids res., 36,  xxxd901xxx – xxxd906xxx .
+23. gao,z., li,h., zhang,h., liu,x., kang,l., luo,x., zhu,w.,
+chen,k., wang,x. and jiang,h. (2008) pdtd: a web-accessible
+protein database for drug target identiﬁcation. bmc bioinformatics,
+9, 104.
+24. chen,x., ji,z.l. and chen,y.z. (2002) ttd: therapeutic target
+database. nucleic acids res., 30, 412–415.
+25. yildirim,m.a., goh,k.i., cusick,m.e., barabasi,a.l. and vidal,m.
+(2007) drug-target network. nat. biotechnol., 25, 1119–1126.
+26. wishart,d.s., knox,c., guo,a.c., shrivastava,s., hassanali,m.,
+stothard,p., chang,z. and woolsey,j. (2006) drugbank: a
+comprehensive resource for in silico drug discovery and exploration.
+nucleic acids res., 34,  xxxd668xxx – xxxd672xxx .
+27. altschul,s.f., madden,t.l., schaﬀer,a.a., zhang,j., zhang,z.,
+miller,w. and lipman,d.j. (1997) gapped blast and psiblast: a new generation of protein database search programs.
+nucleic acids res., 25, 3389–3402.
+
+ xxxd791xxx 
+

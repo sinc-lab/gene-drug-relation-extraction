@@ -1,0 +1,1011 @@
+biochimica et biophysica acta 1764 (2006) 961 – 971
+http://www.elsevier.com/locate/bba
+
+enzymatic and biochemical properties of a novel human
+ xxxg2043xxx  isoform
+hirofumi ogawa a,⁎, tomoharu gomi b , mikio nishizawa c , yumiko hayakawa d , shunro endo d ,
+kyoko hayashi e , hiroshi ochiai f , fusao takusagawa g , henry c. pitot h , hisashi mori a ,
+hiroaki sakurai i , keiichi koizumi i , ikuo saiki i , hirofumi oda j , takashi fujishita j ,
+toshiro miwa j , muneharu maruyama j , masashi kobayashi j
+a
+
+department of biochemistry, toyama medical and pharmaceutical university faculty of medicine, toyama 930-0194, japan
+b
+scientific instrument center, toyama medical and pharmaceutical university, toyama 930-0194, japan
+c
+department of medical chemistry, kansai medical university, osaka 570-8506, japan
+d
+department of neurosurgery, toyama medical and pharmaceutical university, toyama 930-0194, japan
+e
+department of virology, toyama medical and pharmaceutical university, toyama 930-0194, japan
+f
+department of human science, toyama medical and pharmaceutical university, toyama 930-0194, japan
+g
+molecular sciences, university of kansas, lawrence, ks 66045-7534, usa
+h
+mcardle laboratory for cancer research, medical school, university of wisconsin, madison, wi 53706-1599, usa
+i
+institute of natural medicine, toyama medical and pharmaceutical university, toyama 930-0194, japan
+j
+department of internal medicine, toyama medical and pharmaceutical university, toyama 930-0194, japan
+received 24 december 2005; received in revised form 1 february 2006; accepted 16 february 2006
+available online 20 march 2006
+
+abstract
+a cdna clone similar to human  xxxg2043xxx  (sdh) is deposited in the genbank/embl databases, but its structural and functional
+bases remain unknown. despite the occurrence of mrna, the expected protein level was found to be low in cultured cells. to learn about
+physicochemical properties of the protein, we expressed the cdna in escherichia coli, and compared the expressed protein with that of a hepatic
+sdh. the purified protein showed l-serine and  xxxd3361xxx  dehydratase activity, demonstrating to be an isoform of sdh. however, their km and
+vmax constants were different in a range of two-order. removal of pro128 from the hepatic sdh consisting of 328 residues, which is missing in
+the corresponding position of the isoform consisting of 329 residues, significantly changed the michaelis constants and kd value for pyridoxal 5′phosphate, whereas addition of a proline residue to the isoform was without effect. these findings suggest the difference in the structures of the
+active sites of the two enzymes. another striking feature was that the expressed level of the isoform in e. coli was 7-fold lower than that of the
+hepatic sdh. substitution of val for leu287 in the isoform dramatically increased the protein level. the high yield of the mutated isoform was
+also confirmed by the in vitro transcription and translation experiment. the poor expression of the isoform could be explained by the more stable
+secondary structure of the mrna than that of the hepatic sdh mrna. the present findings may provide a clue as to why the protein level in
+cultured cells is low.
+© 2006 elsevier b.v. all rights reserved.
+keywords:  xxxg2043xxx ; isoform; recombinant protein; translational efficiency
+
+abbreviations: sdh,  xxxg2043xxx ; hsdh, hepatic  xxxg2043xxx ;
+ xxxg2044xxx , cancerous  xxxg2043xxx  or sdh-like protein 1; sds-page, sodium
+ xxxd3215xxx  polyacrylamide gel electrophoresis (and staining); plp,
+pyridoxal 5′-phosphate; rt-pcr, reverse-transcription and polymerase-chain
+reaction; kbp, kilo base-pairs; iptg, isopropyl-beta-d-thiogalctopyranoside; cbb,
+coomassie brilliant blue (staining); wb, western blot analysis; sali*, artificial
+restriction enzyme site similar to sali
+⁎ corresponding author. tel.: +81 76 434 7233; fax: +81 76 434 5015.
+e-mail address: hogawa@ms.toyama-mpu.ac.jp (h. ogawa).
+1570-9639/$ - see front matter © 2006 elsevier b.v. all rights reserved.
+doi:10.1016/j.bbapap.2006.02.010
+
+1. introduction
+ xxxg2043xxx  (sdh,  xxxg1016xxx .17; formerly 4.3.1.13)
+catalyzes the pyridoxal 5′-phosphate-dependent conversion of
+l-serine ( xxxd3361xxx ) to pyruvate (alpha-ketobutyrate) and ammonia. this enzyme is widely distributed in organisms including
+bacteria, yeast, plants and vertebrates (ref. [1] for review).
+microbial and plant sdhs are allosteric enzymes consisting
+
+962
+
+h. ogawa et al. / biochimica et biophysica acta 1764 (2006) 961–971
+
+of a homotetramer and are involved in the biosynthesis of
+ xxxd2394xxx , for which the alpha-ketobutyrate produced from lthreonine is used as starting material. the crystal structure
+of e. coli sdh was solved previously [2]. rat liver sdh is a
+michaelis type enzyme consisting of a homodimer [3–5] and
+participates in gluconeogenesis in the liver and kidney [6]. the
+crystal structures of rat and human sdhs were also reported
+recently, and show that they have similar tertiary structures, as
+would be expected since they have 84.1% identity of the amino
+acid sequences [7–9]. on the other hand, the overall amino acid
+sequence identity between the prokaryotic and eukaryotic sdhs
+is very low (25%), but their folding patterns are substantially
+similar [2,7,8].
+except in rodents, the levels of sdh are generally low in
+vertebrate livers so far examined. for example, the level of sdh
+in human liver is estimated to be ten times lower than that in rat
+liver [10,11]. moreover, human sdh is localized in the
+perivenous hepatocytes, whereas rat sdh exists predominantly
+in the periportal hepatocytes, where gluconeogenesis and
+ureogenesis are the most active [12–14]. the ichiyama group
+demonstrated that in the human liver, serine-pyruvate aminotransferase ( xxxg102xxx ), rather than sdh, plays a pivotal role
+in serine catabolism [15]. several lines of evidence, therefore,
+led us to suppose that mammalian sdhs, except for rodent
+sdhs, play a limited role in gluconeogenesis and may have
+another function [1,9]. recently, we noticed that a novel mrna
+similar to sdh was deposited as “sdh-like 1” in the databases.
+its cdnas were obtained from human cell lines such as lung,
+kidney and brain cancer cells, and from normal organs. the
+nucleotide and amino acid sequences are 36.4% and 58.8%
+identical, respectively, between the sdh-like 1 and the
+authentic sdh. in this study, the sdh-like 1 was designated
+ xxxg2044xxx  (cancerous sdh), and the authentic one hsdh (hepatic
+sdh). as a first step to clarify the biological functions of this
+new gene and its product, we attempted to explore the
+physicochemical properties of purified  xxxg2044xxx . in a preliminary
+experiment, neither sdh activity nor an appreciable amount of
+ xxxg2044xxx  as determined by western blotting was detected in lung
+cancer cell lysates. therefore, we decided to characterize a
+recombinant  xxxg2044xxx .  xxxg2044xxx  was expressed in e. coli and purified
+ xxxg2044xxx  was found to possess sdh activity, and was therefore
+judged to be an isoform of sdh. in the course of this study, we
+found that the expression level of  xxxg2044xxx  was extremely low
+relative to that of hsdh in e. coli. since rat sdh and hsdh are
+abundantly expressed in e. coli, the low-level expression of
+ xxxg2044xxx  profoundly intrigued us. this paper characterizes
+recombinant  xxxg2044xxx  and hsdh, and clarifies a mechanism for
+why  xxxg2044xxx  is so poorly expressed in e. coli.
+2. materials and methods
+2.1. materials
+reagents used in this study were purchased as follows: rt-pcr kit, takara,
+japan; quickchange site-directed mutagenesis kit, stratagene; ecl western
+blotting kit, amersham; de52, whatman; sephacryl s-200, pharmacia; ni2+nta, gibco brl; pet-28a(+) dna, novagen; in vitro transcription and
+translation kit (easyxpress) and qirprep spin miniprep kit, qiagen. non-small
+
+lung cancer cells, h226,  xxxd1322xxx  and h441 were purchased from atcc, and pc14,
+a549 and sq5 were from riken (japan).
+
+2.2. detection of hsdh and  xxxg2044xxx  mrnas in cancer cells
+total rna was isolated from human lung cancer cells by the acid
+guanidium thiocyanate/phenol/chloroform method [16]. cdna was synthesized by reverse transcriptase using a random hexamer primer. then, an
+aliquot thereof was amplified by taq dna polymerase with the following
+primers: 5′-gcagagcatgccaagca-3′ (forward) and 5′-cttggcmacactggtga-3′ (reverse) for hsdh, and 5′-gcagagcatgccaagca-3′
+(forward) and 5′-cttggcmacactggtga-3′ (reverse) for  xxxg2044xxx , respectively. the forward and reverse primers corresponded to the sequences
+slightly downstream from the translation start codon, and about 660
+nucleotides downstream from the translation start site, respectively. the
+reverse primer was common to both dnas. the conditions for pcr were: 25
+cycles of 1-min denaturation at 94 °c, 1-min annealing at 57 °c and 1-min
+elongation at 72 °c.
+
+2.3. cloning of a full-length  xxxg2044xxx  from lung cancer cells and
+construction of expression vector
+a first strand cdna for  xxxg2044xxx  was synthesized as above and amplified by
+taq dna polymerase with the primers of 5′-tcccatatggatggtcctgtggcagagc-3′ (forward) and 5′-cgctcatctagaaccaggactgtcc-3′
+(reverse), where the underlined and double underlined sequences correspond to
+ndei and xbai sites, respectively. the conditions for pcr were: two cycles of
+94 °c for 1 min, 45 °c for 1 min, 72 °c for 1.5 min, followed by 30 cycles
+of 94 °c for 1 min, 55 °c for 1 min, 72 °c for 1.5 min. the procedure for
+constructing the expression vector with pcw was described previously [17].
+briefly, an aliquot of the pcr product was digested with ndei and xbai, and
+ligated with the pcw vector that had been cut with ndei and xbai.
+ampicillin-resistant colonies of e. coli bl21(de3) transformed with this
+recombinant dna were obtained. alternatively, an ndei and hindiii fragment
+from the pcw recombinant vector was introduced into the pet28(a) vector
+precut with ndei and hindiii. kanamycin-resistant colonies of e. coli bl21
+(de3) were selected. construction of the pcw plasmid expressing hsdh was
+described previously [9]: an insert cut out from the vector with ndei and
+hindiii was ligated with the pet28(a) precut with ndei and hindiii.
+
+2.4. bacterial growth
+for analytical experiments, 10 ml of lb medium containing 1/50 volume of
+overnight culture of recombinant e. coli bl21 (de3) was shaken at 37 °c for
+2 h and then supplemented with 0.5 mm iptg. the culture was continued for an
+additional 15 h at 25 °c or 3 h at 37 °c. the cells were harvested in a 15-ml
+plastic tube by centrifugation and suspended with 1 ml of 10 mm tris–hcl (ph
+8.0)/1 mm edta/lysozyme (1 mg), and frozen for 30 min at −80 °c. after
+thawing, the suspension was subjected to brief sonication. one or 2 mul of the
+lysate (about 7.0 mg protein/ml) was used for western blotting or sds-page,
+respectively.
+
+2.5. purification of recombinant  xxxg2044xxx 
+for purification of recombinant  xxxg2044xxx , a 2-l sakaguchi flask containing
+500 ml of lb medium was shaken with overnight culture of recombinant e.
+coli bl21 (de3) in the same manner as above. the incubation time was
+15 h at 25 °c after iptg induction. the cells were collected into four 50ml tubes by centrifugation, suspended with 20 ml per tube of 10 mm tris–
+hcl (ph 8.0)/1 mm edta/lysozyme (10 mg), and frozen at −80 °c until
+use.  xxxg2044xxx  was purified according to the protocol described previously [9].
+the sephacryl s-200 column-purified preparation was further applied to a
+ni2+-nat column (1 cm diameter × 1.5 cm height) according to the
+manufacturer's instruction manual. the final preparation eluted by 0.1 m
+imidazole was immediately dialyzed against 10 mm tris–hcl (ph 8.0)/
+0.05 mm plp/1 mm dithiothreitol/0.1 m kcl and frozen at −80 °c until
+use.
+
+h. ogawa et al. / biochimica et biophysica acta 1764 (2006) 961–971
+
+2.6. enzyme assay and kinetics
+the sdh activity was measured colorimetrically as described previously [18].
+the reaction mixture (250 mul) consisted of 50 mm borate–koh (ph 8.3)/0.1 mm
+plp/0.1 m l-serine and enzyme. one unit of enzyme activity is defined as the
+amount that produces one nmol of product per min per mg protein at 37 °c. enzyme
+kinetics was performed twice using two different homogenous preparations. each
+plot was obtained by averaging the duplicate data and fitted to the least square
+regression method. the km and vmax values were the mean values of two assays.
+
+2.7. limited proteolysis experiment
+one mug of purified  xxxg2044xxx  or hsdh was reacted with 1 ng of trypsin or
+subtilisin, or 10 ng of chymotrypsin in 15 mul of 20 mm tris–hcl (ph 8.0) at
+25 °c for 30 min. the reaction was terminated by adding an equal amount of
+the sds buffer (4% sds/0.25 m tris–hcl (ph 6.8)) and the whole reaction
+mixture was subjected to sds-page.
+
+2.8. determination of apparent dissociation constant of apoenzyme for
+plp
+the apoenzyme was obtained by dialyzing the holoenzyme against 50 mm
+potassium phosphate (ph 6.5)/10 mm l-cysteine at 0 °c overnight, and then
+against 50 mm potassium phosphate (ph 7.2)/1 mm dithiothreitol. the apparent
+dissociation constant for the apoenzyme was obtained by measuring the enzyme
+activity in the presence of varying concentrations of plp, 50 mm borate–koh
+(ph 8.3) and 100 mm l-serine.
+
+963
+
+34,625), respectively (fig. 1a). they are 58.8 and 36.4%
+homologous at the amino acid and nucleotide sequence levels,
+respectively. the amino acid sequence homology is much lower
+than the 84.1% sequence homology between human and rat
+liver sdhs. the most striking feature we noted was that the nterminal seven amino acids of  xxxg2044xxx  and the c-terminal five
+amino acids of hsdh are protruding with respect to the other
+protein. without this difference, the amino acid identity
+increases to 59.9%. another feature is that pro128 in hsdh
+(marked by an open triangle) is missing in  xxxg2044xxx . except for
+these differences, the sequence around the lysine residue
+capable of forming a schiff base with plp (marked by a filled
+triangle), and the glycine-rich sequence involved in the binding
+of the phosphate moiety of plp (marked by an underline) are
+well conserved, implying that  xxxg2044xxx  probably possesses the
+sdh activity. we also found that the genes for these sdhs are
+mapped in a reverse orientation at chromosome 12q24.13 and
+are flanked by an about 18.5 kbp-long spacer. the gene
+organizations are shown in fig. 1b. the translatable regions of
+ xxxg2044xxx  and hsdh are composed of eight exons, which have the
+same sizes in the two genes (also see fig. 1a), although the
+length of the introns is different.
+3.2. confirmation of sdh isoform mrna in lung cancer cells
+
+2.9. site-directed mutagenesis by pcr
+pcr-based site-directed mutagenesis was carried out according to the
+manufacturer's instruction manual with slight modifications. the standard
+reaction mixture and annealing temperature were changed to 25 mul and 50 °c,
+respectively. the pcr product, after its presence was confirmed by agarose gel
+electrophoresis, was treated with 0.5 mul of restriction enzyme dpni at 37 °c for
+3 h, and a portion thereof was used for transformation of e. coli bl21 (de3).
+plasmid dna from the transformant was purified using a qiagen mini-prep kit.
+the nucleotide sequence analysis was conducted by the sanger method using an
+abi 3100 dna sequencer.
+
+2.10. in vitro transcription and translation experiments
+the transcription and translation reaction mixture (25 mul) consisted of 8 mul of
+e. coli extract, 10 mul of substrate buffer, 0.5 mug of template dna, 1 mm iptg,
+plus protease inhibitors, and was incubated at 37 °c for 50 min. the reaction was
+stopped by chilling at 0 °c, and 1 or 2 mul aliquots thereof were immediately
+subjected to western blotting, or sds-page, respectively. the addition of iptg
+was found to enhance the transcription.
+
+2.11. other methods
+protein was determined by the lowry method with bovine  xxxg124xxx  as
+a standard [19]. sds-page (13.5%) was carried out by the method of laemmli
+[20]. coomassie brilliant blue solution consisted of 40% methanol/10% acetic
+acid/0.25% dye. western blotting was performed with an ecl kit according to
+the manufacturer's instruction manual, with the anti-rabbit igg against rat sdh
+was used as the first antibody [13].
+
+3. results
+3.1. comparison of the amino acid sequences between  xxxg2044xxx 
+and hsdh, and gene organization
+we first aligned the amino acid sequences of  xxxg2044xxx  and
+hsdh, which consist of 329 (mr 34,673) and 328 residues (mr
+
+the genbank/embl database contained cdnas for  xxxg2044xxx 
+(as sdh-similar mrna) from various cancer cell lines and
+normal organs. to confirm the presence of the  xxxg2044xxx  mrna,
+we carried out rt-pcr using total rna from five kinds of
+human lung cancer cell lines. as shown in fig. 2 (upper and
+middle panels), positive signals for  xxxg2044xxx  mrna were found in
+all of the cell lines examined, while hsdh mrna was low or
+undetectable in four of the lines. sequence analysis showed that
+the full-length cdna obtained here was the same as the
+authentic  xxxg2044xxx . to assess the occurrence of  xxxg2044xxx  protein,
+western blot analysis using the mono-specific rabbit igg to rat
+liver sdh was done for the cell lysates from the cells that
+expressed only  xxxg2044xxx  mrna. contrary to our initial expectation, no appreciable band was seen in each case, whereas the
+purified rat liver and rat liver extract preparations cross-reacted
+with the igg (fig. 2, lower panel). (that  xxxg2044xxx  cross-reacts well
+with the igg used here is examined in fig. 3). these results
+indicate extremely low or negligible levels of  xxxg2044xxx  despite the
+presence of the mrna. therefore, we decided to produce a
+recombinant protein for further study.
+3.3. bacterial expression and purification of sdhs
+in a previous study, we succeeded in a large production of
+hsdh in e. coli using the pcw expression vector [9]. a merit of
+this vector is its capability of producing sdh carrying no
+artificial sequence, and thus, the recombinant protein is useful
+for crystallography. unexpectedly, an iptg-induced  xxxg2044xxx 
+protein band was not clearly seen in crude extracts of e. coli
+upon sds-page under the conditions in which an hsdh band
+was clearly recognized. changes of culture conditions such as
+incubation temperature and duration were without effect. this
+
+964
+
+h. ogawa et al. / biochimica et biophysica acta 1764 (2006) 961–971
+
+fig. 1. amino acid sequences of  xxxg2044xxx  and hsdh, and gene organization. (a) the amino acid sequence of  xxxg2044xxx  deduced from a cdna clone obtained in this study
+was consistent with that of the deposited clone in genbank (accession number bc009849). the amino acid sequence of hsdh was from j05037 with revisions. filled
+and open triangles denote the lysine residue capable of forming a schiff base with plp, and the position of a pro residue missing in  xxxg2044xxx , respectively. the glycinerich sequence is underlined. the square indicates the a putative lysine residue at which hsdh but not  xxxg2044xxx  is strongly cleaved by trypsin (see the text). the thick bar
+indicates the region responsible for the low yield of  xxxg2044xxx  in e. coli (see text). arrows indicate the positions where introns are inserted in the corresponding exons of
+genomic sequences. (b) gene organization of  xxxg2044xxx  and hsdh. the nucleotide sequences of  xxxg2044xxx  (official symbol, sdsl; gene id, 113675 ) and hsdh (official
+symbol, sds; gene id, 10993) are from the entrez genome database.
+
+result suggested that the abundance of  xxxg2044xxx  was much lower
+than that of hsdh, and therefore conventional purification
+procedures might encounter many difficulties. the approximate
+level of  xxxg2044xxx  was estimated by western blotting with the rabbit
+igg to rat sdh. as shown in fig. 3a, the level of  xxxg2044xxx  in the
+extract was low compared with that of hsdh. next, we used to
+the pet vector having a 6× histidine tag. an exogenous peptide
+produced using this vector was 20 residues long (mr 2,309),
+which is much smaller than the mr 26,000-protein from, e.g., the
+ xxxg1073xxx  vector. fig. 3b shows sds-page at
+each purification step. hsdh was seen as a major band in the
+crude extract, but  xxxg2044xxx  was not seen, as was also the case with
+the pcw vector (lanes 2 versus 5). however, the sdh activity
+was eluted as a small but single peak upon deae-cellulose
+chromatography. a plausible band became visible in the sample
+with the highest activity upon s-200 gel filtration (lane 7). a
+homogeneous preparation was obtained by ni2+-nat column
+chromatography (lane 8). owing to the exogenous sequence
+from the pet vector, both proteins were apparently larger than
+the hsdh preparation obtained with the pcw vector (lanes 10,
+11 versus 12). hsdh migrated slightly faster than  xxxg2044xxx  as
+
+expected from their difference of mr. the findings of
+experiment a suggested that  xxxg2044xxx  was cross-reactive with
+the antibody to rat sdh. since the sequence identity between
+the two proteins was about 60%, complete cross-reactivity of
+ xxxg2044xxx  with the igg was needed for further analysis. fig. 3c
+indicates that the cross-reactivity of  xxxg2044xxx  with the igg was
+about half the reactivity of hsdh.  xxxg2044xxx  behaved in the same
+manner as hsdh upon gel filtration, suggesting that  xxxg2044xxx  is
+also a dimer.  xxxg2044xxx  was stable at 0 °c for at least 2 weeks, or
+−80 °c for a long time.
+3.4. kinetic properties
+saturation kinetic were performed with purified hsdh and
+ xxxg2044xxx  preparations.  xxxg2044xxx  exhibited michaelis kinetics as did
+hsdh. the kinetic constants are listed in table 1. the km and
+vmax values of hsdh for l-serine and  xxxd3361xxx  were almost
+equivalent to those of the hsdh preparation produced using the
+pcw vector, indicating that the n-terminal 20 residues from the
+pet vector do not affect the kinetics. the most notable feature
+was that the km value for  xxxd3361xxx , and vmax values for l-
+
+h. ogawa et al. / biochimica et biophysica acta 1764 (2006) 961–971
+
+965
+
+the small domain of the two-domain structure of hsdh (rat
+sdh). it was of interest to examine whether pro128 plays a key
+role in the structure of the active site, and whether the difference
+of the kinetic constants between  xxxg2044xxx  and hsdh is due to the
+absence or presence of a pro residue. to address these
+questions, pro128 was deleted from hsdh (−pro) and a pro
+residue was added to  xxxg2044xxx  (+pro). as expected, the hsdh
+(−pro) enzyme was found to have altered kinetic constants for
+both substrates and a 10-fold increased kd value for plp,
+suggesting that pro128 is, in particular, involved in the plp
+binding. on the other hand, the kinetics of  xxxg2044xxx  (+pro) did not
+change. these kinetic data demonstrated that the structures of
+the active sites of  xxxg2044xxx  and hsdh are significantly different.
+3.5. effect of limited-proteolysis
+
+fig. 2. rt-pcr products for  xxxg2044xxx  and hsdh amplified from total rna from
+six kinds of lung cancer cell lines. total rna was isolated from human lung
+cancer cell lines a549, h226, pc14,  xxxd1322xxx , h441 and sq5 (numbered from left to
+right). rt-pcr was carried out as described under materials and methods. an
+aliquot thereof was electrophoresed on a 1.2% agarose gel in the presence of
+ethidium bromide. upper and middle panels are for  xxxg2044xxx  and hsdh cdnas,
+respectively. western blot analysis was carried out for the cell lysates from
+h226, pc14,  xxxd1322xxx , h441 that did not express hsdh mrna (lower panel). the
+mono-specific igg was the same as in fig. 3. approximately 50 mug of the cell
+lysate were used in each lane. “purified” and “liver ext.” denote 10 ng of the
+purified rat liver sdh, and 3 mug of the crude rat liver extract (10,000×g
+supernatant of the liver homogenate), respectively, in each lane.
+
+serine and  xxxd3361xxx  of  xxxg2044xxx  were much smaller than those
+of hsdh, while the km for l-serine of  xxxg2044xxx  was approximately
+half that of hsdh. overall, the catalytic efficiency of  xxxg2044xxx  was
+6.5- (l-serine) to 2-fold ( xxxd3361xxx ) lower than that of hsdh.
+with hsdh, the km values for both substrates are known to be
+almost the same, but the vmax value for  xxxd3361xxx  is slightly
+smaller than that for l-serine [9]. in other words, l-serine is a
+better substrate than  xxxd3361xxx  for hsdh. the inverse
+tendency was seen for  xxxg2044xxx . interestingly, a chimeric enzyme
+(see below) consisting of the n-terminal half of  xxxg2044xxx  (amino
+acids no. 1–200) and the c-terminal half of hsdh (amino
+acids no. 193–328) had kinetic constants for l-serine and lthreonine that were close to those of  xxxg2044xxx . this result
+suggests that the domain responsible for the unique kinetic
+property of  xxxg2044xxx  is localized in the first two thirds of the
+protein from the n-terminus.
+as shown in fig. 1,  xxxg2044xxx  lacks a pro residue corresponding
+to pro128 in hsdh. pro128 is also conserved in rat sdh. this
+residue participates in forming a turn between a beta-strand (113–
+125) and an alpha-helix (130–133) and is exposed to the surface of
+
+the limited-proteolysis experiment sometimes provides
+useful information about the higher-order structure of a protein.
+to examine the structural differences between  xxxg2044xxx  and
+hsdh, we digested them with trypsin (t), chymotrypsin (c)
+and subtilisin (s). the conditions for proteolysis were described
+previously [9,18]. trypsin quickly cleaved a segment of about
+mr 1,800 from both sdhs (fig. 4, lanes 2, 6). the recombinant
+proteins carry a thrombin recognition motif (leu–val–pro–
+arg–gly–ser) at the n terminal region. the peptide from the
+n-terminus to the arg residue in this motif is mr 1,762 in size.
+since there is neither a lys nor an arg residue in the c-terminal
+region of either protein at the position that can give this
+molecular size, trypsin was concluded to cut the arg residue in
+this motif. following the n-terminal segment, trypsin released a
+polypeptide of about mr 22,000. chymotrypsin and subtilisin
+liberated a polypeptide of about mr 22,000 as well, but their
+cleavage sites were expected to be closer to the n-terminus than
+the sites cleaved by trypsin, because the thrombin recognition
+motif was intact. in fact, the region from glu206 to lys221 in
+rat sdh is specifically digested by trypsin, staphylococcus
+aureus v8 protease, lysyl endopeptidase, subtilisin, chymotrypsin, and other proteases [18]. the crystal structures of rat
+sdh and hsdh show that the region susceptible to these
+proteases constitutes the entrance of the active sites of both
+enzymes [7,8]. hsdh is also cleaved by trypsin, chymotrypsin
+and subtilisin (ref. [9] and this study). lys-221 is conserved in
+rat sdh, hsdh and  xxxg2044xxx  (see fig. 1, filled square). taking
+into consideration that rat sdh and hsdh have similar tertiary
+structures, and  xxxg2044xxx  is virtually resistant to the three proteases
+under the conditions tested, the findings obtained so far suggest
+that the structure of the active site of  xxxg2044xxx  is different from that
+of hsdh.
+3.6. stability of  xxxg2044xxx 
+in addition to the structural and kinetic differences
+between  xxxg2044xxx  and hsdh, another notable feature was
+that the expression level of  xxxg2044xxx  was much lower that of
+hsdh (fig. 3). it seemed possible that  xxxg2044xxx  is more
+unstable than hsdh in cell-free extract or in vivo. as
+described above, purified  xxxg2044xxx  was quite stable at a low
+
+966
+
+h. ogawa et al. / biochimica et biophysica acta 1764 (2006) 961–971
+
+fig. 3. purification of hsdh and  xxxg2044xxx  from e. coli. (a) western blotting (wb) of lysate of e. coli expressing hsdh or  xxxg2044xxx  using a pcw plasmid. e. coli cells were
+cultured in the presence (hsdh and  xxxg2044xxx ) or absence ( xxxg2044xxx ) of iptg as described in materials and methods. one-mul aliquots of the lysates were subjected to western
+blotting. (b) sds-page (cbb) of an aliquot of the preparation at each purification step. in the case of the ni2+ nat-eluted preparation, 2 mug of protein were applied
+(lanes 10, 11). lane 12 represents the hsdh preparation obtained with a pcw plasmid. the arrow indicates the approximate position of sdh. sup, supernatant of
+whole lysate; s200, sephacryl s200 column chromatography; deae, deae-cellulose column chromatography. (c) cross-reactivity of the rabbit igg to rat sdh with
+hsdh or  xxxg2044xxx  as determined by dot blot analysis. the left well contained 20 ng of the purified hsdh or  xxxg2044xxx , and sequentially 2-fold diluted samples were loaded
+into the wells in the rightward direction. all experiments were carried out at least twice.
+
+temperature. to rule out the first possibility, cell lysate was
+kept at 0 or 25 °c for 16 h and then subjected to western
+blotting.  xxxg2044xxx  and hsdh gave similar patterns. an atp
+regenerating system was added to facilitate the action of
+atp-dependent proteases. however, both proteins were seen
+
+at unchanged levels after incubation at 0 or 25 °c for 16 h.
+to examine whether much less  xxxg2044xxx  than hsdh is
+accumulated in vivo, two cultures 2 h after iptg induction
+were treated with chloramphenicol (34 mug/ml) and incubated
+for an additional 2 or 5 h at 37 °c. western blotting
+
+table 1
+kinetic constants of various sdhs
+enzyme
+
+km (s) a (mm)
+
+km (t)a (mm)
+
+vmax (s) (u/mg)
+
+vmax (t) (u/mg)
+
+vmax/km (s)
+(u/mg/mm)
+
+vmax/km (t)
+(u/mg/mm)
+
+kd (plp) (m-6)
+
+hsdh
+ xxxg2044xxx 
+ xxxg2044xxx –hsdh
+ xxxg2044xxx  (l287v)
+hsdh (−pro)
+ xxxg2044xxx  (+pro)
+
+67.3
+32.2
+44.4
+30.7
+35.7
+34.5
+
+59.5
+3.1
+13.2
+4.2
+14.9
+3.5
+
+105.6
+7.8
+6.3
+8.2
+35.7
+11.0
+
+70.6
+1.8
+2.7
+1.7
+14.9
+1.9
+
+1.57
+0.24
+0.14
+0.26
+1.00
+0.32
+
+1.18
+0.58
+0.20
+0.41
+1.35
+0.54
+
+0.32
+nd b
+nd
+nd
+3.3
+nd
+
+kinetic constants were obtained as described in materials and methods. data are mean values of two determinations using the different preparations. the experimental
+errors were usually below 10%.
+a
+s, serine; t, threonine.
+b
+nd, not determined.
+
+h. ogawa et al. / biochimica et biophysica acta 1764 (2006) 961–971
+
+967
+
+3.7. search for the region responsible for the low yield of  xxxg2044xxx 
+in e. coli
+
+fig. 4. limited proteolysis of  xxxg2044xxx  and hsdh. hsdh and  xxxg2044xxx  were digested
+with trypsin (t), chymotrypsin (c) or subtilisin (s), as described in materials
+and methods. the digests were analyzed by 13.5% sds-page. the arrow
+indicates the position of the major products liberated. the result is a
+representative of two determinations.
+
+showed no difference of electrophoretic patterns between
+ xxxg2044xxx  and hsdh. these findings suggest that the stability
+in vitro or in vivo is not a direct cause for the difference in
+expression levels of  xxxg2044xxx  and hsdh.
+
+to explain the results obtained so far, one possibility is the
+translation efficiency is different between the two proteins. in
+particular,  xxxg2044xxx  might carry a specific region responsible for
+the low yield in e. coli. to demonstrate this assumption, we
+roughly mapped a site of interest by constructing chimeric
+proteins between  xxxg2044xxx  and hsdh. an appropriate restriction
+site common to both cdnas was not found in the center of the
+respective open reading frame. instead, both cdnas carried
+common ncoi sites around one third of the polypeptide length
+from the stop codon (fig. 5a). the second ncoi site of hsdh
+was made inactive by introducing a silent mutation. then, each
+ndei–ncoi segment was exchanged, resulting in  xxxg2044xxx –hsdh
+and hsdh– xxxg2044xxx  chimeric constructs (fig. 5b, upper panel).
+the levels of the chimeric proteins were assessed by sdspage (cbb) and western blot (wb) analysis. the  xxxg2044xxx –
+
+fig. 5. abundance of chimeric and mutated proteins in e. coli as measured by sds-page and/or western blotting. (a) restriction map of hsdh and  xxxg2044xxx  cdnas
+used for the creation of chimeric proteins. hsdh and  xxxg2044xxx  cdnas had two and one ncoi sites in the open reading frame, respectively. the second ncoi site of hsdh
+was disrupted by introducing a silent mutation. the amino acids corresponding to the restriction site are shown beneath. sali* (gtggag; val–glu) is an not a sali
+(gtcgac; val–asp) site. the underlined bases of the sali* site were replaced by c, resulting in a sali site (see the details in the text). the black bar indicates the
+region involved in the low yield of  xxxg2044xxx . (b) construction of two types of chimera between hsdh and  xxxg2044xxx  at the ncoi site, and expression in e. coli. the details are
+described in materials and methods. (c) a chimera of  xxxg2044xxx  and hsdh at the sali site. an aliquot of each extract was subjected to sds-page. after construction of
+the chimera (lane 4), the sali site was made invalid resulting in the original codon for glu (lane 5). (d) introduction of a stop codon into a  xxxg2044xxx –hsdh chimera and
+ xxxg2044xxx , and their expression in e. coli. stop codons were created at the indicated positions of the  xxxg2044xxx  and hsdh chimera (c–h), and  xxxg2044xxx , and termed s1 to s5,
+respectively. each sample was analyzed by sds-page and western blotting. in the case of western blotting of hsdh, a 0.1-mul aliquot lysate was used (lane 1 with
+asterisk) and in the other lanes, 2 mul were loaded. (e) expression of hsdh having an artificial stop codon and  xxxg2044xxx  having a frame shift mutation. a stop codon was
+made at the indicated position of hsdh. a  xxxg2044xxx  mutant protein that had a frame shift at the position indicated by the arrow was constructed.
+
+968
+
+h. ogawa et al. / biochimica et biophysica acta 1764 (2006) 961–971
+
+hsdh chimera (c–h) was expressed at a level as high as
+hsdh, whereas the level of the hsdh– xxxg2044xxx  chimera (h–c)
+was about equal to that of  xxxg2044xxx , strongly suggesting that the
+region responsible for the low expression is located in the cterminal portion of  xxxg2044xxx .
+to narrow down the target region, additional chimeric
+proteins were constructed. since there were no other useful
+restriction sites common to the two cdnas between the ncoi
+site and translation stop codon, a sali site (gtcgac; val–asp) in
+place of the original sequence gtggag (sal*; val–glu) was
+created about one fourth of the distance downstream from the
+stop codon (fig. 5a), because the replacement of glu by asp
+was considered likely to produce no dramatic conformational
+change of the chimeric protein. as shown in fig. 5c lane 4, the
+ xxxg2044xxx –hsdh chimera was expressed abundantly, indicating
+that the region conferring the low yield resides near the cterminus of  xxxg2044xxx  (amino acid residues ∼270 to c-terminus).
+to rule out the possibility that the high yield of the chimera was
+due to the above replacement, the gtcgac sequence was changed
+back to the original gtggag. the levels of the chimeric proteins
+were similar irrespective of whether they contained asp or glu
+(lane 5). to construct a chimera within about 270 residues of the
+c-terminus was practically impossible.
+among the about 60 candidate residues remaining, 35
+residues are identical between  xxxg2044xxx  and hsdh and are thus
+considered to be unrelated to the present phenomenon, while
+the remaining 25 residues were too numerous to be analyzed
+individually. therefore, we attempted to introduce a stop
+codon at appropriate sites of  xxxg2044xxx , assuming that if a
+deleterious portion were not included in the modified  xxxg2044xxx ,
+the level of the immature polypeptide should be increased.
+first, a  xxxg2044xxx –hsdh chimera (at the sali* site) was tested
+for making a stop codon at s1 or s2 (fig. 5d, upper panel).
+introduction of these stop codons produced a polypeptide
+with the predicted size and a level comparable to that of the
+original  xxxg2044xxx –hsdh chimera (fig. 5d, lanes 4, 5),
+suggesting that the element of interest resides between the
+sali* and s1 sites. to test this notion, s3, s4 or s5 was
+introduced into  xxxg2044xxx  at the position indicated. whereas s3
+gave an intense band at the expected position (lane 6), s4 and
+s5 markedly decreased the expression levels, as determined
+by sds-page. western blotting made more clear the relative
+amount of the polypeptide (lanes 7, 8). these findings imply
+that the element responsible for the low yield of  xxxg2044xxx  is
+located between s3 and s4, as shown by the black box.
+during construction of a series of mutant proteins, we found
+by chance an interesting mutant protein which carried a
+frame-shifted sequence extending from the sali* site to a stop
+codon in the pet vector. twenty additional residues
+consequently were added to this protein (fig. 5e, upper
+panel). this mutant protein was overexpressed, presumably
+because of the lack of the deleterious element of  xxxg2044xxx  (lane
+2). in hsdh, a stop codon at the position indicated in fig. 5e,
+upper panel created an intense band with the expected size
+(lane 3). these findings narrowed the site of interest to within
+20 amino acid residues, and the immature polypeptides,
+irrespective of whether they were derived from  xxxg2044xxx  or
+
+hsdh, that contained about the first 260 residues from the nterminus were relatively stable in e. coli.
+3.8. identification of the residue responsible for a low yield of
+ xxxg2044xxx 
+fig. 6a shows the amino acid sequence of  xxxg2044xxx  in which
+the element of interest was expected to reside, aligned with the
+corresponding regions of hsdh and rat sdh. we decided to
+target llr (ctc–ctg–cgg) in  xxxg2044xxx  owing to the relatively large
+sequence dissimilarity there among the three sequences. this
+sequence was replaced with val–ile–gln (viq) ( xxxg889xxx –atc–cag),
+which is present in hsdh. as shown by sds-page and
+western blotting in fig. 6b, marked elevation of the mutated
+ xxxg2044xxx  was observed. next, which residue in this sequence was
+the most critical was examined. the amount of the leu287val
+(l287v) mutant protein was found to be comparable to that of
+the leu–leu–arg387–9val–ile–gln (llr387–9viq) protein, while those of leu288ile (l288i) and arg289gln
+(r289q) were reduced. the densitometric data of western
+blotting are shown beneath the image normalized by the amount
+of  xxxg2044xxx . since the cross-reactivity of the igg with  xxxg2044xxx  is
+about 50% weaker than the reactivity with hsdh (fig. 3c), the
+level of hsdh was corrected from 14.3 to 7.2. the result
+obtained here was surprising because valine and leucine are
+similar amino acids, and play similar roles in the tertiary
+structures of proteins. we therefore considered that the bacterial
+expression level might have been affected by the nucleotide
+rather than amino acid residue difference. l287v (gtc)
+produced more protein than l287 (ctc). therefore, l287 (ctc)
+was changed to various codons. the codons for leu are cta, ctg,
+ctt, ctc, tta and ttg. as seen in fig. 6c, replacement of the first
+pyrimidine by g was most effective, followed by a (lanes 4, 7),
+while change of the third letter (ctg) was without effect (lane 5);
+another leu codon ttg, slightly decreased the expression (lane
+6); double replacement of the first and second nucleotides,
+changing ctc to gcc (ala) was effective but less effective than
+changing the codon to gct (lane 8). gly286 ( xxxg286xxx ) in  xxxg2044xxx  is
+his and gly in hsdh and rat sdh, respectively. rat sdh is
+expressed at a higher level than hsdh. for this reason we did
+not further examine this residue. however, the protein containing g286h (ggc to cac) was more highly expressed than  xxxg2044xxx 
+(lane 9). this result indicates that the codon at  xxxg286xxx  is also
+important for the high-level expression of  xxxg2044xxx .
+3.9. in vitro transcription and translation experiment
+to confirm the above in vivo results, we carried out an in
+vitro transcription and translation experiment (fig. 7). a
+positive control dna for ef-ts produced a major protein
+band, but no protein band was seen on sds-page when a
+hsdh or  xxxg2044xxx  template was used (upper panel). the positive
+control dna was used the most efficiently in this system and
+the products produced using eukaryotic dna as templates
+seems to be less abundant. in fact, western blotting revealed an
+hsdh band at the expected position (lane 3, lower panel),
+whereas no band of  xxxg2044xxx  (lane 4) or l287l (lane 7) was seen.
+
+h. ogawa et al. / biochimica et biophysica acta 1764 (2006) 961–971
+
+969
+
+than those of hsdh or the chimera, which is consistent with the
+in vivo results. large amounts of the l287a and g286h
+proteins were produced. these findings basically support the
+conclusions made based on the in vivo experiments.
+4. discussion
+
+fig. 6. identification of a residue(s) responsible for the low expression of  xxxg2044xxx .
+(a) the amino acid sequence of  xxxg2044xxx  relevant to the low yield of protein, and
+corresponding amino acid sequences of hsdh and rat hsdh are aligned. the
+llr related to the low yield of  xxxg2044xxx  is emphasized in bold. asterisks denote
+invariant amino acids among the three sequences. (b) e. coli strains carrying the
+six kinds of sdh were cultured, and 2 and 1 mul of whole lysate were subjected to
+sds-page and western blotting, respectively, as described in materials and
+methods. the intensity of each band obtained by western blotting was quantified
+by nih image densitometry. expression levels were standardized by the  xxxg2044xxx 
+level. since the cross-reactivity of the igg with  xxxg2044xxx  was about 2-fold weaker
+than the reactivity with hsdh, the hsdh level was corrected as shown in
+parentheses. (c) expression of various kinds of sdh. in addition to hsdh,
+ xxxg2044xxx , l287, and additional five kinds of stains carrying  xxxg2044xxx  mutations were
+examined. two and 1 mul of each lysate was subjected to sds-page and western
+blotting, respectively. italic letters in parentheses denote the codons.
+
+these results are in good agreement with those of the in vivo
+experiments. an intense band for a  xxxg2044xxx –hsdh chimera was
+seen between the positions of hsdh and  xxxg2044xxx  (lane 5). l287v
+was also seen at the expected position but its amount was lower
+
+the pitot group [4] first reported the occurrence of two
+isozymes of sdh separable by deae cellulose chromatography of rat liver extract. their expression was regulated by
+glucagon and glucocorticoid, but their amino acid compositions
+as well as kinetic constants were quite similar. although these
+isozymes were confirmed by several laboratories (ref. [21] for
+review), the mechanisms for the generation and hormonal
+control of the isozymes remained elusive. the two isozymes are
+probably produced by posttranslational modifications, whereas
+ xxxg2044xxx  and hsdh in the present study are encoded by different
+genes.
+generally, collection of a sufficient amount of protein for
+crystallization from cultured cell lines is practically impossible.
+moreover, preliminary experiments showed no appreciable
+amount of  xxxg2044xxx  in cell lysates. therefore, we cloned a cdna
+for  xxxg2044xxx  from human lung cancer cells, expressed it in e. coli,
+and characterized its physicochemical properties. the kinetic
+constants and patterns of limited-proteolysis were largely
+different between  xxxg2044xxx  and hsdh. the experiments removing
+pro128 from hsdh and inserting a pro residue into  xxxg2044xxx 
+produced the different results. these findings strongly suggested that the structure of the active site of  xxxg2044xxx  is distinct
+from that of hsdh. the crystallographic analysis of  xxxg2044xxx  is
+currently underway.
+the second problem we encountered was not expected at the
+beginning of this study, because we had already succeeded in
+high-level expression of hsdh and rat sdh in e. coli using the
+pcw vector [9,18]. initially, it was considered that the low
+accumulation of  xxxg2044xxx  was due to heat-instability or high
+protease susceptibility. however, several lines of evidence
+almost completely ruled out these possibilities. we then
+searched for the element responsible for the low yield of the
+protein by constructing chimeric and mutated proteins. based
+on the results, leu287 was identified as a critical residue for this
+phenomenon.  xxxg286xxx , l288 and r289 also played some role in
+this phenomenon. the low yield of  xxxg2044xxx  was found to be due
+to low translation efficiency, which is influenced by (1) codon
+usage and (2) secondary structure of the mrna. as to (1), a
+small number of rare codons may hamper the synthesis of
+proteins: the codon usage of agg, aga, cgg, or cga for arg, ggc
+for gly, ata for ile, cta for leu and ccc for pro is very rare in e.
+coli [22]. we compared the codon usage between the two
+cdnas. however, there is no significant difference in the codon
+availability (not shown).
+as to (2), this possibility seems more likely. l287v and
+l287a, in which the first nucleotide of the codon was changed
+from pyrimidine to purine gave good yields of  xxxg2044xxx . the
+change of the third nucleotide of the codon from pyrimidine to
+purine was without effect (fig. 6c, lanes 5, 6). it is difficult to
+predict the secondary structure of an entire sdh mrna.
+
+970
+
+h. ogawa et al. / biochimica et biophysica acta 1764 (2006) 961–971
+
+fig. 7. in vitro transcription and translation experiment. the in vitro transcription and translation reaction was performed in a 25-mul volume as described under
+materials and methods. five- or 2-mul aliquots thereof were subjected to sds-page (upper panel) or western blotting (lower panel), respectively. a portion of the
+lysate expressing  xxxg2044xxx  (fig. 6b) was used as a size marker (lane 12). the positions of  xxxg2044xxx  and hsdh are shown by arrows. the experiment was performed thrice
+and the consistent results were obtained.
+
+furthermore, to do so is meaningless because a minute change
+occurring in a local region fails to alter the huge deltag of the
+whole structure. for this reason, we calculated each deltag of a 60nucleotide sequence encompassing the codon for l287 or
+another codon by the mfold algorithm (ref. [23]; web server
+available at http://www.bioinfo.rpi.edu/∼zukerm/rna). the deltag
+values are listed in increasing in table 2. the value of the deltag
+was roughly inversely correlated with that of the expression
+level of various sdhs standardized by the  xxxg2044xxx  level. the deltag
+of  xxxg2044xxx  was found to be much larger than that of hsdh,
+suggesting that the structure of  xxxg2044xxx  mrna is thermodynamically more stable than that of hsdh mrna. the replacement
+of only one base dramatically influenced the deltag, e.g. of l287v
+(gtc) but not l287l (ctg). hsdh was expressed 7-fold more
+table 2
+deltag of the 60 nucleotide-sequence surrounding the codons for l287 and related
+residues
+sequence
+
+deltag (kcal/mol)
+
+expression level
+
+l287l (ctg)
+ xxxg2044xxx 
+l287l (ttg)
+l288i (atc)
+r289q (cag)
+l287v (gtc)
+l287i (atc)
+l287a (gcc)
+llr287–289viq
+g286h (cac)
+hsdh
+
+−27.7
+−26.1
+−25.0
+−24.3
+−23.9
+−21.7
+−20.2
+−20.2
+−20.0
+−19.9
+−13.2
+
+0.9
+1
+0.6
+1.9
+1.7
+3.3–4.6
+1.5
+2.6
+4.0
+2.4
+7.0–7.2
+
+free energy change of the 60-nucleotide sequence, 836-ccuuagcagccaucuacucaggccuccugcggaggcuccaggccgagggcugccugcccc-895 in  xxxg2044xxx  mrna, was
+calculated using an algorithm for prediction of the secondary structure of rna
+(zucker, 2003). the bold and underlined nucleotides are the codon for l287.
+the 70-nucleotide sequence in hsdh mrna which corresponds to the above
+sequence is compared. “expression level” means values standardized by the
+expression level of  xxxg2044xxx  in e. coli (fig. 6b, c). the folding conditions were:
+temperature, 37 °c; ionic strength, 1 m nacl; no divalent cations.
+
+strongly than  xxxg2044xxx  in e. coli. the deltag of hsdh is the minimal
+value in this table. the deltag values of other 60-nucleotide
+sequences adjacent to the n-terminal or c-terminal side of the
+60-nucleotide sequence surrounding the codon for l287 ranged
+−14 to −20 kcal/mol. these values were smaller than the
+−27.2 kcal/mol of the 60-nucleotide sequence around the codon
+for l287. therefore, the secondary structure of the nucleotide
+sequence surrounding l287 (ctc) is considered to reduce the
+speed of protein synthesis by ribosomes. actually, the mfold
+algorithm clearly depicts that the secondary structures of l287
+(ctc), l287l (ctg), l287v (gtc), and the corresponding
+sequence of hsdh are largely different (model structures not
+shown). the codon ctc for l287 exists in a stretch of seven
+paired bases consisting of the top of the stem structure, but
+when this long duplex is disrupted by replacement with the
+codon gtc (l287v), a marked decrease in deltag results.
+replacement of ctc by ctg (l287l) does not alter the number
+of paired-bases so that the deltag is almost unchanged and the
+expression level remains low. in hsdh, a stem structure like
+that in  xxxg2044xxx  is  xxxd3237xxx . accordingly, the deltag is the
+smallest observed here, which is consistent with hsdh having
+strongest expression among the sequences tested. collectively,
+the results of the codon usage and deltag values of the secondary
+structure of various mrnas lead to the conclusion that the poor
+expression of  xxxg2044xxx  can be explained by low translation
+efficiency based on the secondary structure of the mrna. the
+lack of an appreciable amount of  xxxg2044xxx  in lysates of various
+lung cancer cells may be due to the secondary structure of  xxxg2044xxx 
+mrna.
+recently, edgar reported the expression levels of sdh and
+sdh-like 1 mrnas in adult mice and developing whole mouse
+embryos obtained by real-time pcr [24]. sdh and sdh-like 1
+in mouse are considered to correspond to hsdh and  xxxg2044xxx  in
+this study, respectively. since the expression levels in each
+organ are standardized by the hepatic level, the absolute
+expression levels of both mrnas are not known. in adult mice,
+
+h. ogawa et al. / biochimica et biophysica acta 1764 (2006) 961–971
+
+sdh is expressed predominantly in the livers, followed by heart
+at only one-hundredth the level in liver, while the levels of
+sdh-like 1 mrna in heart, kidney, spleen, and testis are >onetenth of the hepatic liver level. that is to say, sdh-like 1 is
+expressed widely in various organs. we reported previously that
+the sdh level in rat kidney was about 5% relative to that in
+liver, as determined by northern blotting [25], whereas the
+results of edgar showed that the renal sdh level in mice was
+about 0.001% relative to the level in the liver. it will be
+necessary to simultaneously determine the levels of both sdh
+proteins in various organs of mouse and rat, and to perform
+northern blot analysis to examine the relative levels of the
+corresponding mrnas.
+some of the enzymes involved in amino acid metabolism
+have two or more isozymes, one of which is expressed in cancer
+cells. for instance, regulation of methionine adenosyltransferase isozymes (mats) has been extensively studied [26]. a
+switch in mat expression from  xxxg1378xxx  to  xxxg1379xxx  plays a
+pathogenetic role in liver carcinogenesis, because the pool of
+methyl groups provided by methionine adenosyltransferase
+must be regulated for transmethylation of the nucleic acids,
+which is involved in regulating gene expression [27]. although
+it was shown here that the  xxxg2044xxx  gene is transcribed but poorly
+translated, the physiological significance of the fact that  xxxg2044xxx 
+gene is expressed in cancerous cells must be clarified in future
+studies.
+references
+[1] h. ogawa, structure and function relationships of serine dehydratases
+from various sources, trends comp. biochem. physiol. 6 (2000) 1–19.
+[2] d.t. gallagher, g.l. gilliland, g. xiao, j. zondlo, k.e. kisher, d.
+chinchilla, e. eisenstein, structure and control of  xxxd3047xxx 
+dependent allosteric threonine deaminase, structure 15 (1998) 465–475.
+[3] h. nakagawa, h. kimura, the properties of crystalline  xxxg2043xxx 
+of rat liver, j. biochem. 66 (1969) 669–683.
+[4] h. inoue, c. kasper, h.c. pitot, studies on the induction and repression of
+enzymes in rat liver: vi. some properties and the metabolic regulation of
+two isozymic forms of  xxxg2043xxx , j. biol. chem. 246 (1971)
+2626–2632.
+[5] h. ogawa, t. gomi, f. takusagawa, t. masuda, t. goto, t. kan, n.-h.
+huh, evidence for a dimeric structure of rat liver  xxxg2043xxx , int. j.
+biochem. cell biol. 34 (2002) 533–543.
+[6] t. masuda, h. ogawa, t. matushima, s. kawamata, m. sasahara, k.
+kuroda, y. suzuki, y. takata, m. yamazaki, f. takusagawa, h.c. pitot,
+localization and hormonal control of  xxxg2043xxx  during metabolic
+acidosis differ markedly from those of phosphoenolpyruvate carboxykinase
+in rat kidney, int. j. biochem. cell biochem. 35 (2003) 1234–1247.
+[7] t. yamada, j. komoto, y. takata, h. ogawa, h.c. pitot, f. takusagawa,
+crystal structure of  xxxg2043xxx  from rat liver, biochemistry 42
+(2003) 12854–12865.
+[8] l. sun, m. bartlam, y. liu, h. pang, z. rao, crystal structure of the
+pyrodxal-5′-phosphate-dependent  xxxg2043xxx  from human liver,
+protein sci. 14 (2005) 791–798.
+
+971
+
+[9] t. kashii, t. gomi, t. oya, y. ishii, h. oda, m. maruyama, m.
+koabayashi, t. masuda, m. yamazaki, t. nagata, k. tsukada, a.
+nakajima, k. tatsu, h. mori, f. takusagawa, h.h.c. ogawa, some
+biochemical and histochemical properties of human liver serine
+dehydratase, pitot, int. j. biochem. cell biol. 37 (2005) 574–589.
+[10] g. kikuchi, the glycine cleavage system. comparison, reaction
+mechanism, and physiological significance, mol. cell. biochem. 1
+(1973) 179–203.
+[11] h.h. xue, m. fujie, t. sakgauchi, t. oda, h. ogawa, n.m. kneer, h.a.
+lardy, a. ichiyama, flux of the l-serine metabolism in rat liver. the
+predominant contribution of  xxxg2043xxx , j. biol. chem. 274 (1999)
+16020–16027.
+[12] t. kitagawa, h.c. pitot, immunohistochemical demonstration of serine
+dehydratase in rat liver, am. j. pathol. 78 (1975) 309–318.
+[13] h. ogawa, s. kawamata, periportal expression of the  xxxg2043xxx 
+gene in rat liver, histochem. j. 27 (1995) 380–387.
+[14] i. lopez-flores, j.b. barroso, r. valderrama, f.j. esteba, e. martinezlara, f. luque, m.a. peinado, h. ogawa, j.a. lupianez, j. peragon,
+ xxxg2043xxx  expression decreases in rat livers injured by chronic
+thioacetamide ingestion, mol. cell. biochem. 268 (2005) 33–43.
+[15] h.h. xue, t. sakaguchi, m. fujie, h. ogawa, a. ichiyama, flux of l-serine
+metabolism in rabbit, human, and dog livers: substantial contributions of
+both mitochondrial and peroxisomal serine pyruvate/alanine:glyoxylate
+aminotransferase, j. biol. chem. 274 (1999) 16028–16033.
+[16] p. chomczynski, n. sacchi, single-step method of rna isolation by acid
+guanidinium thiocyanate–phenol–chloroform extraction, anal. biochem.
+162 (1987) 156–159.
+[17] h. ogawa, t. gomi, y. takata, t. date, m. fujioka, recombinant
+expression of rat  xxxg928xxx  and evidence for contribution
+of n-terminal acetylation to co-operative binding of s- xxxd3156xxx ,
+biochem. j. 327 (1997) 407–412.
+[18] h. ogawa, f. takusagawa, k. wakaki, h. kishi, m.r. eskandarian, m.
+kobayashi, t. date, n.-h. huh, h.c. pitot, rat liver  xxxg2043xxx :
+bacterial expression and two folding domains as revealed by limited
+proteolysis, j. biol. chem. 274 (1999) 12855–12860.
+[19] o.h. lowry, n.j. rosebrugh, a.l. farr, r.j. randall, protein measurement
+with the folin phenol reagent, j. biol. chem. 193 (1951) 265–275.
+[20] u.k. laemli, cleavage of structural proteins during the assembly of the
+head of bacteriophage t4, nature 227 (1970) 680–685.
+[21] k. snell, enzymes of serine metabolism in normal, developing and
+neoplastic rat tissues, adv. enzyme regul. 22 (1984) 325–400.
+[22] a. henaut, a. danchin, in: f. neidhardt, r. curtissiii, j. ingraham, e. lin,
+b. low, b. magasanik, w. bezniloff, m. riley, m. schaechter, h.
+umbarger (eds.), escherichia coli and salmonella typhimurium cellular
+and molecular biology, vol. 2, american society for microbiology,
+washington, dc, 1996, pp. 2047–2066.
+[23] m. zuker, mfold web server for nucleic acid folding and hybridization
+prediction, nucleic acids res. 31 (2003) 3406–3415.
+[24] a.j. edgar, mice have a transcribed l- xxxg2069xxx /gly1 gene, but
+the human gly1 gene is a non-processed pseudogene, bmc genomics 6
+(2005) 32.
+[25] h. ogawa, m. fujioka, t. date, m. mueckler, y. su, h.c. pitot, nutritional
+regulation and tissue-specific expression of the  xxxg2043xxx  gene in
+rat, j. biol. chem. 265 (1990) 14407–14413.
+[26] j.m. mato, f.j. corrales, s.c. lu, m.a. avila, s- xxxd3156xxx . a
+control switch that regulates liver function, faseb j. 16 (2002) 15–26.
+[27] h. yang, m.r. sadda, v. yu, y. zeng, t.d. lee, x. ou, l. chen, s.c. lu,
+induction of human  xxxg1379xxx  expression by
+ xxxg2296xxx  alpha. role of  xxxg1559xxx  and ap-1, j. biol. chem.
+278 (2003) 50887–50896.
+

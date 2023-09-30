@@ -1,0 +1,1301 @@
+reproductive toxicology 30 (2010) 9–17
+
+contents lists available at sciencedirect
+
+reproductive toxicology
+journal homepage: www.elsevier.com/locate/reprotox
+
+screening for (anti)androgenic properties using a standard operation protocol
+based on the human stably transfected androgen sensitive palm cell line. first
+steps towards validation
+a. freyberger a,∗ , h. witters b , m. weimer c , w. loﬁnk a , p. berckmans b , h.-j. ahr a
+a
+
+bayer schering pharma ag, bsp-gdd-ged-gtox special toxicology, bldg 514, aprather weg 18, d-42096 wuppertal, germany
+flemish institute for technological research (vito nv) & centre for advanced r&d on alternative methods (cardam), unit environmental risk & health, toxicology, boeretang
+200, b-2400 mol, belgium
+c
+german cancer research center, biostatistics-c060, im neuenheimer feld 280, d-69120 heidelberg, germany
+b
+
+a r t i c l e
+
+i n f o
+
+article history:
+received 28 august 2009
+received in revised form 6 october 2009
+accepted 7 october 2009
+available online 27 october 2009
+keywords:
+human stably transfected androgen
+sensitive transactivation assay
+palm cells
+cytotoxicity
+screening for endocrine active compounds
+
+a b s t r a c t
+despite more than a decade of research in the ﬁeld of endocrine active compounds targeting the androgen
+receptor (ar), and although suitable cell lines can be obtained, no validated human stably transfected
+androgen sensitive transactivation assay is available. bayer schering pharma (bsp) and the flemish institute for technological research (vito), partners within the eu-sponsored 6th framework project reprotect,
+made ﬁrst steps towards such a validation. a standard operation protocol (sop) developed at bsp based
+on the androgen sensitive palm cell line was transferred to vito and its performance and transferability were thoroughly studied. the investigation followed a generic protocol prepared for all reporter
+gene assays evaluated within reprotect, and in both laboratories at least three independent experiments
+were performed. the highest concentration to be tested was limited to 10 ␮m, if needed. a few compounds, 17␣-methyltestosterone (17␣-mt), vinclozolin and linuron, were studied using a real world
+scenario, i.e., assuming that their interaction with the ar was not known: a prescreening for agonism and true, competitive antagonism was used to select conditions such as the appropriate mode of
+action, and the working range excluding cytotoxicity for the ﬁnal screening. all other compounds were
+tested according to the generic protocol: compounds screened for agonism were the reference androgen
+17␣-methyldihydrotestosterone (mdht), levonorgestrel, norethynodrel, progesterone, o,p -ddt, and
+dibutylphthalate (dbp), while compounds screened for antagonism were the reference anti-androgen ﬂutamide, prochloraz, o,p -ddt, progesterone, norethynodrel, and dbp. cytotoxicity was assessed in parallel
+as lactate dehydrogenase release. the prescreen classiﬁed 17␣-mt as androgenic, vinclozolin and linuron
+as anti-androgenic and compounds were tested accordingly. in the absence of cytotoxicity, appropriate
+androgenic properties of reference and test compounds were detected by both laboratories, o,p -ddt
+and dbp had no androgenic activity. across the two laboratories ec50 -values for mdht, 17␣-mt, and
+levonorgestrel varied by not more than a factor of 3.4, for norethynodrel by a factor of 9.7. progesterone
+effects could not fully be evaluated, as frequently concentration response curves were incomplete. in the
+absence of cytotoxicity anti-androgenic properties of reference and test compounds were also detected
+in both laboratories. dbp, the putative negative reference compound, was inactive, norethynodrel rather
+showed agonistic properties. progesterone was an antagonist at low concentrations, but agonistic properties were observed in one laboratory at high concentrations. since the highest test concentration was
+limited to 10 ␮m, for some compounds no complete concentration response curves were obtained and
+estimation of ec50 -values was less robust. our data demonstrated that the sop was transferable, and
+that the assay was able to rank compounds with strong, weak, and without afﬁnity for the ar and to
+discriminate agonists and antagonists. the sensitivity of the assay could be improved further, if the limit
+of solubility or beginning cytotoxicity was chosen as the highest test concentration. the assay avoids
+the use of tissues from laboratory animals, and thus contributes to the 3r concept. furthermore, it could
+be adjusted to an intermediate/high throughput format. on the whole, this palm assay is a promising
+candidate for further validation.
+© 2009 elsevier inc. all rights reserved.
+
+∗ corresponding author. tel.: +49 (0) 202 36 8832; fax: +49 (0) 202 36 4137.
+e-mail address: alexius.freyberger@bayerhealthcare.com (a. freyberger).
+0890-6238/$ – see front matter © 2009 elsevier inc. all rights reserved.
+doi:10.1016/j.reprotox.2009.10.002
+
+10
+
+a. freyberger et al. / reproductive toxicology 30 (2010) 9–17
+
+1. introduction
+
+2. materials and methods
+
+there is a concern that man-made and natural compounds may
+interfere with the endocrine system and thus may affect wildlife
+and humans and/or its progeny. whereas early studies focused on
+interactions with  xxxg730xxx -mediated signaling and date
+back to the 1980s (see [1]), more recently interactions with the
+ xxxg183xxx  gained attention [2–6]. both the recommendations to the us environmental protection agency (epa) of the
+endocrine disruptor screening and testing advisory committee
+(edstac) [7] and the oecd conceptual framework for the testing
+and assessment of endocrine disrupting chemicals [8] addressed
+transactivation assays as important tools to study interactions with
+sex hormone receptors, especially because of their capability to discriminate receptor agonists and antagonists, and these assays represent important components of the us epa tier 1 screening battery
+and of level 2 of the oecd conceptual frame work. however, despite
+more than a decade of research in the ﬁeld of endocrine active
+compounds targeting the  xxxg183xxx  (ar), and although
+suitable, stably transfected reporter cell lines can be obtained,
+no validated human stably transfected androgen sensitive transactivation assay is available. in a joint effort of bayer schering
+pharma (bsp) and the flemish institute for technological research
+(vito) as partners within the eu-sponsored 6th framework project
+reprotect, ﬁrst steps towards such a validation were made. the
+androgen sensitive palm cell line, the human prostate cancer cell
+line pc-3 stably transfected with human ar and a luciferase gene
+under the control of mouse mammary tumor virus (mmtv) [9],
+has been used for a decade to screen for (anti)androgenic properties of chemicals [9–12]. also at bsp palm cells have served as an
+important tool within a panel of screening methods for endocrine
+activity and had turned out as a simple and reliable in vitro system. in this work the performance of a standard operation protocol
+developed at bsp based on the palm cell line was evaluated thoroughly at bsp. furthermore, the protocol was transferred to the
+reprotect partner laboratory vito in belgium, a laboratory familiar with transactivation assays but previously not working with
+palm cells to investigate protocol transferability. in both laboratories at least three independent experiments per compound were
+performed on different days, and dilutions of test compounds from
+deep-frozen aliquoted stocks were freshly prepared for each experiment. the investigation followed a generic protocol prepared and
+agreed upon in collaboration with the european centre for the
+validation of alternative methods (ecvam) for all reporter gene
+assays evaluated within reprotect. the highest concentration of
+all chemicals to be tested, if necessary, was limited to 10 ␮m. a
+small set of compounds (17␣-methyltestosterone, vinclozolin and
+linuron) were tested using a real world scenario, i.e., assuming that
+their interaction with the ar was not known: following a prescreening approach with testing for agonism, for antagonism (in
+the presence of 0.2 nm 17␣-methyldihydrostestosterone (mdht)
+as an androgenic stimulus, corresponding to the ec50 -value) and
+in the presence of 100 nm mdht, i.e., excess androgenic stimulus
+that would overcome true competitive antagonism, appropriate
+conditions for the ﬁnal screening (concentrations, mode) were
+selected. all other compounds were tested according to the
+generic protocol: compounds screened for agonism were the reference androgen 17␣-methyldihydrostestosterone, levonorgestrel,
+norethynodrel, progesterone, o,p -ddt, and dibutylphthalate.
+compounds screened for antagonism (in the presence of 0.2 nm
+mdht) were the reference anti-androgen ﬂutamide, prochloraz,
+o,p -ddt, progesterone, norethynodrel, and dibutylphthalate. in
+addition, in all experiments cytotoxicity was assessed as the release
+of lactate dehydrogenase into the medium. results were subjected
+to an independent statistical analysis. the outcome of this prevalidation exercise is reported herein.
+
+2.1. reference and test compounds and stock solutions
+both laboratories used compounds from the same supplier and lot.
+17␣-methyldihydrotestosterone (mdht) >99% (cas 521-11-9), levonorgestrel
+[=d(−)- xxxd2754xxx ] ≥99% (cas  xxxd2476xxx ), progesterone ≥99% (cas  xxxd3023xxx ), and
+norethynodrel >99% (cas 68-23-5) were obtained from sigma, taufkirchen,
+germany. o,p -ddt 97.7% (cas 789-02-6) was delivered by sigma–supelco,
+taufkirchen, germany, and prochloraz 99.5% (cas 67747-09-5), linuron 99.7%
+(cas330-55-2), and vinclozolin 99.6% (cas 50471-44-8) were purchased from
+sigma–fluka, taufkirchen, germany.  xxxd2143xxx  ≥99% (cas  xxxd2143xxx , sigma),
+17␣-methyltestosterone ≥97% (cas  xxxd2618xxx , fluka), and dibutylphthalate 99.7%;
+(cas 84-74-2, sigma) were kindly donated by dr. b. van der burg (biodetection
+systems, amsterdam, the netherlands). stock solutions in dmso (100 mm, 10 mm
+for mdht) were prepared in sterile glass vials, aliquoted into sterile glass vials and
+kept at ≤−18 ◦ c. whenever possible, a minimum of 10 mg substance was used for
+the preparation of stock solutions.
+2.2. cell culture
+the palm cell line was obtained from inserm (montpellier, france). cells were
+checked for mycoplasm infection on a regular basis using pcr. only mycoplasmfree cells were used for experimentation. cells were expanded in nutrient mixture
+f-12 ham with l-glutamine containing 7% heat-inactivated fetal calf serum (fcs),
+penicillin (1 u/ml), streptomycin (0.1 mg/ml),  xxxd2191xxx  (1 mg/ml) and  xxxd3041xxx 
+(1 ␮g/ml) in 5% co2 in a humidiﬁed atmosphere at 37 ◦ c in 250 ml culture ﬂasks
+(=75 cm2 ) with 20 ml culture medium. medium was exchanged twice a week. if
+conﬂuence was reached, after removal of culture medium and washing the cell
+layer with 8 ml ca/mg-free pbs, conﬂuent cells were harvested by incubating the
+cell layer with 2.5 ml trypsin–edta solution at 37 ◦ c for 5 min. then, 10 ml culture
+medium were added to neutralize trypsin. cells were suspended in culture medium
+and aliquots of the suspension were added to 20 ml culture medium in new ﬂasks
+and incubated as described above. if the passage number was low, 3–5 new ﬂasks
+could be seeded, while at higher passages (>20) up to 20 ﬂasks could be seeded to
+reach conﬂuence in about one week.
+2.3. adaptation of cells to hormone-free conditions for testing
+cells having reached about 70% conﬂuence were adapted to hormone-free conditions. after removal of culture medium, the cell layer was washed with 8 ml
+ca/mg-free pbs, 20 ml test medium (nutrient mixture f-12 ham with l-glutamine
+containing 7% charcoal-stripped heat-inactivated fcs) was added and cells were
+incubated for at least 1.5 (up to 3) days at 37 ◦ c (depending on the day of seeding
+for the assay) in a 5% co2 -enriched humidiﬁed air atmosphere.
+2.4. treatment of cells
+following adaptation to hormone-free conditions cells were harvested as
+described above, however, test medium was used to neutralize trypsin. the cell suspension was centrifuged for 5 min at 600 × g and the cell pellet was resuspended
+in an adequate volume of test medium, resulting in a cell number of more than
+1.25e05 cells/ml. following cell counting, the cell suspension was diluted with test
+medium to yield 1.25e05 cells/ml, and 80 ␮l aliquots of cell suspension were then
+transferred to 96-well plates. the outer wells lining a plate were not used for testing to avoid any edge effect. subsequently these wells were ﬁlled with 100 ␮l test
+medium or pbs. after three days, at 37 ◦ c in a 5% co2 -enriched humidiﬁed air atmosphere cells were exposed to test compounds according to the approach chosen.
+prior to dosing, cells were checked microscopically for infections by random inspection of wells. plates with infected cells were discarded. test compounds (together
+with mdht, if antagonism was investigated) were added in 20 ␮l test medium containing 0.1% dmso. the ﬁnal dmso concentration was 0.02% in all wells. for each
+treatment condition triplicate incubations (=triplicate wells) were run. following
+dosing, cells were incubated for one day (22–24 h). when this work was initiated,
+a concentration of 10 ␮m was discussed at oecd as the upper limit concentration
+in transactivation assays. in line with this consideration, the highest concentration
+tested, if necessary, was 10 ␮m.
+2.5. prescreening approach
+one plate per compound was used. cells were treated with test compound (0,
+1e−13, 1e−11, 1e−09, 1e−07, and 1e−05 m) alone or in combination with two concentrations of mdht (0.20 nm approximately the ec50 -value, and 100 nm, 500 times
+the ec50 -value).
+2.6. screening for ar agonism
+within each series of experiments, a full concentration response was conducted
+for the reference androgen mdht on one plate. the upper part of this plate contained
+a medium blank (no cell control), vehicle control and eight concentrations of mdht
+
+a. freyberger et al. / reproductive toxicology 30 (2010) 9–17
+
+11
+
+fig. 1. (a) induction of luciferase activity in palm cells by mdht, 17␣-mt, levonorgestrel, norethynodrel, and progesterone at bsp. cells were incubated overnight at the
+concentrations indicated. luciferase activity was measured after cell lysis and is expressed relative to the solvent control. representative results are shown. individual data
+points and corresponding curve ﬁts are given. (b) induction of luciferase activity in palm cells by mdht, 17␣-mt, levonorgestrel, norethynodrel, and progesterone at vito.
+conditions correspond to ﬁgure (a).
+
+(0.010, 0.033, 0.10, 0.33, 1.0, 3.3, 10, 100 nm) with the same set-up, the lower part
+was used to investigate a test compound. all further plates contained a medium
+blank (no cell control), vehicle control and seven or eight concentrations of test
+compound on the upper part and vehicle control, eight concentrations of another
+test compound and mdht (100 nm) on the lower part. levonorgestrel was tested
+at 0.010, 0.033, 0.10, 0.33, 1.0, 3.3, 10, and 33 nm, norethynodrel at 0.33, 1.0, 3.0,
+10, 33, 100, 330, and 1000 nm, and progesterone, o,p -ddt, and dbp at 0.010, 0.033,
+0.10, 0.33, 1.0, 3.3, and 10 ␮m. 17␣-methyltestosterone was tested as chosen by the
+laboratories based on the outcome of the prescreening.
+2.7. screening for ar antagonism
+within each series of experiments, a full concentration response was conducted
+for the reference anti-androgen ﬂutamide on one plate. the upper part of this plate
+contained a medium blank (no cell control), vehicle control, 0.20 nm mdht and
+0.20 nm mdht combined with seven different concentrations of ﬂutamide (0.001,
+0.010, 0.10, 0.33, 1.0, 3.3, 10 ␮m). with the same set-up, the lower part was used to
+investigate a test compound. all further plates contained a medium blank (no cell
+control), vehicle control, 0.20 nm mdht, and 0.20 nm mdht combined with seven
+different concentrations of test compound on the upper part and vehicle control,
+0.20 nm mdht, and 0.20 nm mdht combined with seven different concentrations
+of another test compound or combined with 10 ␮m ﬂutamide. prochloraz, o,p -ddt,
+progesterone, and dbp were tested at 0.010, 0.033, 0.10, 0.33, 1.0, 3.3, and 10 ␮m,
+norethynodrel at 0.33, 1.0, 3.0, 10, 33, 100, and 1000 nm. vinclozolin and linuron
+were tested as chosen by the laboratories based on the outcome of the prescreening.
+erroneously, at bsp initially too low concentrations (maximum 1 ␮m) of vinclozolin
+and linuron were tested. resulting data were insufﬁcient for a meaningful evaluation
+and were not reported.
+
+stop solution to wells, plates were agitated on a shaker at room temperature for
+about 10 s. fluorescence was then measured at 580 nm with excitation at 540 nm.
+after subtracting the mean value obtained for the medium blank (=no cell control),
+mean values and standard deviations of replicate incubations/wells were calculated.
+ldh activity in the media from treated cells was related to ldh activity in media
+from corresponding dmso control cells and expressed as percent of control.
+
+2.10. preliminary performance criteria
+for cytotoxicity, an increase of ldh secreted into the medium by at least 50%
+(compared to the dmso control) was considered as a cytotoxic response. test
+compound concentrations characterized as cytotoxic were not evaluated for transactivation. in the prescreening, an induction factor of ≥4.0-fold for 100 nm mdht
+and of ≥2.5-fold for 0.2 nm mdht should be observed for the reference agonist.
+a test chemical is considered an agonist provided that the response of the test
+chemical only, qualitatively resembles that of the reference agonist, mdht, seen
+as a concentration-dependently increased signal compared to the solvent control.
+in case that an antagonistic effect was observed at the low mdht concentration
+(0.2 nm), the concentration response curve should be considerably shifted to higher
+concentrations in the presence of the high mdht concentration (100 nm) if true
+antagonism had occurred. when screening for agonism, a sigmoid concentration
+response should be observed for mdht. a maximally stimulating concentration
+of mdht (100 nm or above) should result in an induction factor of ≥4.0, whereas
+the ec50 of mdht should be in the range 0.1–1 nm. when screening for antagonism, 0.2 nm mdht should result in an induction factor of ≥2.5, ﬂutamide should
+concentration-dependently reduce the agonistic effect of 0.2 nm mdht, and at
+10 ␮m ﬂutamide should reduce the net increase of luciferase activity (brought about
+by 0.2 nm mdht) by ≥70%.
+
+2.8. determination of luciferase activity in cells
+2.11. statistical evaluation
+at the end of the incubation period residual medium was removed and 30 ␮l
+reporter lysis buffer (component of luciferase assay system no. e4530, promega,
+mannheim, germany) per well was added. plates were shaken at room temperature
+for 30 min and were then deep-frozen at −80 ◦ c and were kept frozen up to one
+week. prior to measurement, plates were thawed at room temperature. following
+addition of 50 ␮l luciferase assay reagent per well, luminescence was measured.
+2.9. cytotoxicity assay
+cytotoxicity was measured as the release of lactate dehydrogenase (ldh) into
+the culture medium using the cytotox-one homogeneous membrane integrity
+assay (promega, mannheim, germany). at the end of the incubation period, 50 ␮l
+medium per well from each plate was transferred to fresh white 96-well microtiter
+plates and 50 ␮l cytotox-one reagent was added per well. after shaking for 30 s,
+plates were incubated at room temperature for 10 min. following addition of 25 ␮l
+
+prior to ﬁtting a dose–response model and estimation of ec50 the mean blank
+signal was subtracted from the response (luciferase signal of each well). after subtraction the response of treated wells was divided by the mean of the corresponding
+solvent control. the four-parametric log-logistic function
+f (x) = 1 +
+
+2 − 1
+1 + exp(3 (log(x) − 4 ))
+
+was ﬁtted to the transformed data using the drm function of r-package drc. ec50 and
+95% conﬁdence intervals were calculated using the ed function of the same package
+[13,14]. parameter  4 is the log of the ec50 , i.e., the log of the concentration with
+a response half-way between upper response limit  2 and lower response limit  1 .
+parameter  3 is the slope parameter. parameters  1 und  2 were constrained to be
+non-negative.
+
+12
+
+a. freyberger et al. / reproductive toxicology 30 (2010) 9–17
+
+table 1
+ec50 -values achieved at bsp for  xxxg183xxx  agonists in the palm cell line.
+compound
+
+experiment numbera
+
+ec50 -value [m]
+
+lower
+
+upper
+
+17␣-methyldihydrotestosterone
+
+1-1-u
+2-1-u
+3-1-u
+mean ± sd
+
+1.157e−10
+1.381e−10
+1.423e−10
+1.320e−10 ± 1.430e−11
+
+8.040e−11
+1.137e−10
+1.182e−10
+
+1.665e−10
+1.677e−10
+1.712e−10
+
+17␣-methyltestosterone
+
+1-1-l
+2-1-l
+3-1-l
+mean ± sd
+
+6.863e−10
+5.283e−10
+5.377e−10
+5.841e−10 ± 8.863e−11
+
+5.925e−10
+4.391e−10
+4.584e−10
+
+7.948e−10
+6.357e−10
+6.308e−10
+
+levonorgestrel
+
+1-2-l
+2-2-l
+3-2-l
+mean ± sd
+
+5.373e−10
+5.314e−10
+9.218e−10
+6.635e−10 ± 2.237e−10
+
+4.165e−10
+3.408e−10
+4.940e−10
+
+6.930e−10
+8.286e−10
+1.720e−09
+
+norethynodrel
+
+1-3-u
+2-3-u
+3-3-u
+mean ± sd
+
+1.735e−08
+1.206e−08
+7.547e−08
+3.496e−08 ± 3.518e−08
+
+1.090e−08
+9.433e−09
+4.607e−08
+
+2.762e−08
+1.542e−08
+1.236e−07
+
+progesterone
+
+1-4-u
+2-4-u
+3-4-u
+mean
+
+6.160e−07
+(9.385e−06)b
+7.326e−07
+6.743e−07 (n = 2)
+
+4.229e−07
+4.359e−08
+4.685e−07
+
+8.972e−07
+2.021e−03
+1.145e−06
+
+a
+b
+
+conﬁdence interval [m]
+
+internal experiment number, plate number and location on plate (upper/lower part) are given.
+upper limits of conﬁdence interval considerably out of test range.
+
+table 2
+ec50 -values achieved at vito for  xxxg183xxx  agonists in the palm cell line.
+compound
+
+experiment numbera
+
+ec50 -value [m]
+
+lower
+
+upper
+
+17␣-methyldihydrotestosterone
+
+04-1-ub
+05-1-u
+06-1-u
+07-1-u
+07-3-l
+11-1-u
+mean ± sd
+
+1.621e−10
+8.768e−11c
+1.379e−10
+2.963e−10
+1.974e−10
+1.689e−10
+1.750e−10 ± 6.989e−11
+
+5.216e−11
+5.627e−11
+9.793e−11
+2.148e−10
+1.757e−10
+1.236e−10
+
+5.039e−10
+1.366e−10
+1.941e−10
+4.089e−10
+2.218e−10
+2.308e−10
+
+17␣-methyltestosterone
+
+04-1-l
+05-1-l
+06-1-l
+07-1-l
+07-6-u
+11-1-l
+mean ± sd
+
+2.592e−10
+4.718e−10
+3.268e−10
+5.040e−10
+3.614e−10
+5.761e−10
+4.166e−10 ± 1.200e−10
+
+1.496e−10
+3.998e−10
+1.772e−10
+4.294e−10
+2.884e−10
+4.215e−10
+
+4.493e−10
+5.569e−10
+6.029e−10
+5.915e−10
+4.529e−10
+7.875e−10
+
+levonorgestrel
+
+04-3-l
+05-3-l
+06-4-l
+07-4-l
+11-4-l
+mean ± sd
+
+1.199e−09
+1.115e−09
+4.737e−10
+9.447e−10
+1.318e−09
+1.010e−09 ± 3.292e−10
+
+3.338e−10
+6.238e−10
+3.153e−10
+3.104e−10
+8.171e−10
+
+4.304e−09
+1.992e−09
+7.115e−10
+2.875e−09
+2.125e−09
+
+norethynodrel
+
+04-5-u
+05-5-u
+06-3-u
+07-3-u
+11-3-u
+mean ± sd
+
+7.740e−09
+9.579e−09
+7.751e−09
+1.049e−08
+1.073e−08
+9.258e−09 ± 1.446e−09
+
+3.698e−09
+7.861e−09
+3.754e−09
+8.612e−09
+8.911e−09
+
+1.620e−08
+1.167e−08
+1.600e−08
+1.278e−08
+1.292e−08
+
+progesterone
+
+04-3-u
+05-3-u
+06-4-u
+07-4-u
+11-4-u
+mean ± sd
+
+(2.584e−06)d
+(3.678e−03)e
+(2.070e−05)e
+(3.204e−02)e
+(7.926e−03)e
+–
+
+5.047e−07
+4.374e−07
+1.324e−06
+1.285e−03
+8.157e−08
+
+1.323e−05
+3.092e+01
+3.235e−04
+7.991e−01
+7.702e+02
+
+a
+b
+c
+d
+e
+
+internal experiment number, plate number and location on plate (upper/lower part) are given.
+4-fold induction test performance criterion for mdht not met.
+out of range ec50 test performance criteria for mdht.
+upper limits of conﬁdence interval out of test range.
+ec50 estimate out of test range.
+
+conﬁdence interval [m]
+
+a. freyberger et al. / reproductive toxicology 30 (2010) 9–17
+
+3. results
+3.1. outcome of the prescreening approach
+17␣-methyltestosterone (17␣-mt), vinclozolin, and linuron
+were tested using a real world scenario and subjected to a prescreening in order to select the relevant mode of testing and the
+most appropriate concentration range. the prescreening included
+testing for agonism, for antagonism (in the presence of 0.2 nm
+mdht as androgenic stimulus, corresponding to the ec50 -value)
+and in the presence of 100 nm mdht, i.e., excess androgenic stimulus that would overcome true competitive antagonism.
+both at vito and bsp, compared to the corresponding controls 17␣-mt (further) induced luciferase activity at concentrations
+of ≥10−9 m both in the absence and presence of 0.2 nm mdht
+until a plateau was reached. 17␣-mt was unable to further
+increase the extent of luciferase induction brought about by 100 nm
+mdht (not shown). these features indicated ar agonism, subsequently 17␣-mt was tested accordingly. in both laboratories
+neither vinclozolin nor linuron were able to induce luciferase
+activity. however, at both institutions vinclozolin concentrationdependently at 1e−07 m and 1e−05 m and linuron moderately at
+1e−05 m decreased luciferase induction brought about by 0.2 nm
+mdht. these suppressive effects were no longer observed in the
+presence of 100 nm mdht (not shown). these features were in
+line with ar antagonism, and subsequently vinclozolin and linuron
+were investigated accordingly in both laboratories.
+neither bsp nor vito observed cytotoxicity of 17␣-mt, vinclozolin, and linuron up to the highest concentration tested (not
+shown).
+preliminary performance standards were met, as induction factors of ≥4.0-fold for 100 nm mdht and of ≥2.5-fold for 0.2 nm
+mdht were observed (not shown) and as for vinclozolin and linuron their known antagonistic response in the presence of 0.2 nm
+mdht was abolished by 100 nm mdht.
+3.2. detection of androgenicity
+17␣-methyldihydrotestosterone (mdht) as reference compound, 17␣-mt levonorgestrel, norethynodrel, progesterone,
+o,p -ddt, and dibutylphthalate were tested for ar agonism. 17␣mt was tested at concentrations ﬁxed by the laboratories on the
+basis of their prescreening results, all other compounds were tested
+according to concentrations ﬁxed in the generic protocol. similar
+results were obtained both at bsp and vito (fig. 1a and b): except
+o,p -ddt and dibutylphthalate that were inactive (not shown), all
+other tested compounds were able to induce luciferase activity.
+ec50 -values obtained at both institutions are given in tables 1 and 2.
+ec50 -values for progesterone showed considerable variability and
+were frequently associated with broad conﬁdence intervals, as the
+highest concentration of 10 ␮m obviously was too low to consistently end up in a sufﬁciently complete sigmoid concentration
+response curve suitable for the estimation of accurate ec50 -values,
+however, agonism was clearly demonstrable in both labs. thus,
+ec50 -values for progesterone should be considered with caution.
+in terms of ec50 -values the following identical rank order could be
+established both at bsp and vito:
+mdht > 17␣-methyltestosterone > levonorgestrel
+ norethynodrel  progesterone
+all test compounds were studied in parallel for potential cytotoxicity. both at bsp and vito, none of them was able to increase
+ldh release into the medium. rarely occurring increases were mild,
+without concentration dependency and not reproducible across
+
+13
+
+experiments and thus were not considered as true indication of
+cytotoxicity. accordingly, within the concentration tested, no cytotoxicity was observed.
+preliminary performance standards were mostly met. for mdht
+a sigmoid concentration response was always obtained, and a
+maximally stimulating concentration of mdht provided induction
+factors of 9.7, 9.6, and 8.6 (bsp) and of 3.7, 16.8, 5.6, 20.7, 12.8, and
+15.6 (vito). thus, only in one out of nine experiments across both
+laboratories the minimum performance of ≥4.0-fold induction was
+not achieved. only in one experiment (see table 2) the ec50 -value
+for mdht was outside the ﬁxed limits and was slightly below the
+lower limit (0.1 nm).
+3.3. detection of anti-androgenicitiy
+ xxxd2143xxx  as reference compound, prochloraz, norethynodrel,
+progesterone, o,p -ddt, vinclozolin, linuron, and dibutylphthalate
+were tested for ar antagonism in the presence of 0.2 nm mdht.
+vinclozolin and linuron were tested at concentrations ﬁxed by
+the laboratories on the basis of their prescreening results, the
+other compounds were tested according to concentrations ﬁxed
+in the generic protocol. except dibutylphthalate that was inactive, and norethynodrel rather showing agonist properties at the
+higher concentrations (not shown), all compounds were able to
+suppress mdht-induced luciferase activity to a variable degree.
+as most compounds were only weakly active, the highest concentration of 10 ␮m obviously was too low to consistently end up in
+a sufﬁciently complete concentration response curve suitable for
+robust ec50 -estimation. thus, ec50 -values were frequently associated with considerable variability and should be used with caution.
+similarly, not all compounds  xxxd1891xxx  ␮m were able to decrease the
+mdht-mediated induction of luciferase by 50% or more. this was
+the case for linuron at bsp, and for most experiments with linuron, and prochloraz at vito, while occasionally for ﬂutamide at
+vito. progesterone was a case of its own. at low concentrations
+it concentration-dependently decreased the mdht-mediated net
+induction of luciferase by about 60% (bsp) and 40% (vito). at
+bsp higher concentration did not contribute to further inhibition,
+whereas at vito 3 and 10 ␮m concentration-dependently induced
+an increase of the luciferase signal beyond the corresponding control value. ec50 -values obtained at both institutions are given in
+tables 3 and 4. an overlay of typical concentration response curves
+from both laboratories is given in fig. 2a and b.
+all test compounds were studied in parallel for potential cytotoxicity. both at bsp and vito, none of them was able to increase
+ldh release into the medium. rarely occurring increases were mild,
+without concentration dependency and not reproducible across
+experiments and thus were not considered as true indication of
+cytotoxicity (not shown).
+preliminary performance standards were mostly met. for
+0.2 nm mdht an induction factor of ≥2.50 was consistently
+observed.  xxxd2143xxx  dose-dependently decreased the agonistic
+effect of 0.2 nm mdht, however, the net induction of luciferase
+activity brought about by 0.2 nm mdht was not always decreased
+by ≥70%  xxxd1891xxx  ␮m ﬂutamide (not shown).
+4. discussion
+the value of hormone sensitive transactivation assays both as
+a mechanistic tool to characterize receptor-mediated endocrine
+activity, but also as an important screening assay for endocrine
+active compounds, is well recognized. an important feature of such
+assays is their capability to discriminate agonists and antagonists.
+interestingly, despite more than one decade of research in the ﬁeld
+of endocrine active compounds targeting at the  xxxg183xxx ,
+
+14
+
+a. freyberger et al. / reproductive toxicology 30 (2010) 9–17
+
+table 3
+ec50 -values achieved at bsp for  xxxg183xxx  antagonists.
+compound
+
+experiment numbera
+
+ec50 -value [m]
+
+lower
+
+upper
+
+ xxxd2143xxx 
+
+4-1-u
+5-1-u
+6-1-u
+7-1-ub
+8-1-ub
+9-1-ub
+mean ± sd
+
+1.458e−06
+2.362e−06
+2.353e−06
+(4.028e−06)c
+(1.726e−06)c
+1.165e−06
+1.835e−06 ± 6.156e−07 (n = 4)
+
+2.945e−07
+1.097e−06
+5.873e−07
+7.213e−07
+8.165e−08
+6.101e−07
+
+7.212e−06
+5.088e−06
+9.428e−06
+2.250e−05
+3.647e−05
+2.225e−06
+
+o,p -ddt
+
+4-3-l
+5-3-l
+6-3-l
+mean ± sd
+
+(2.807e−06)c
+(2.517e−06)c
+3.212e−06
+no mean calculated
+
+4.858e−07
+4.698e−07
+1.366e−06
+
+1.622e−05
+1.349e−05
+7.552e−06
+
+vinclozolin
+
+7-1-l
+8-1-l
+9-1-l
+mean ± sd
+
+8.066e−07
+1.306e−07
+2.867e−07
+4.080e−07 ± 3.539e−07 (n = 3)
+
+9.197e−08
+3.893e−08
+4.637e−08
+
+7.074e−06
+4.381e−07
+1.773e−06
+
+prochloraz
+
+4-2-u
+5-2-u
+6-2-u
+mean ± sd
+
+(3.798e−06)c
+(7.699e−06)c
+(6.487e−06)c
+no mean calculated
+
+5.004e−07
+1.341e−06
+2.678e−06
+
+2.883e−05
+4.420e−05
+1.572e−05
+
+linuron
+
+7-2-u
+8-2-u
+9-2-u
+mean ± sd
+
+modest indication of antagonism, but unclear concentration response relationship
+modest indication of antagonism, but unclear concentration response relationship
+modest indication of antagonism, but unclear concentration response relationship
+–
+
+progesterone
+
+4-4-u
+5-4-u
+6-4-u
+mean ± sd
+
+8.356e−08
+1.195e−07
+6.152e−08
+8.819e−08 ± 2.927e−08
+
+a
+b
+c
+
+conﬁdence interval [m]
+
+5.874e−08
+7.214e−08
+3.872e−08
+
+1.189e−07
+1.979e−07
+9.772e−08
+
+internal experiment number, plate number and location on plate (upper/lower part) are given.
+70% reduction test performance criterion for ﬂutamide not met.
+upper limits of conﬁdence interval out of test range.
+
+no validated androgen sensitive transactivation assay is available.
+aim of this work was to evaluate a standard operation protocol in
+two laboratories as a ﬁrst step towards the validation of a human
+stably transfected androgen sensitive transactivation assay.
+
+the assay is considered to start with a prescreening in order to
+direct the ﬁnal screening activities. the three compounds submitted to prescreening were correctly classiﬁed as compounds with
+either androgenic (17␣-methyltestosterone) or anti-androgenic
+
+fig. 2. (a) suppression of mdht-mediated net induction of luciferase activity in palm cells by ﬂutamide, vinclozolin, prochloraz, progesterone, and linuron at bsp. cells
+were incubated overnight with 0.2 nm mdht in the absence or presence of compounds at the concentrations indicated, basal luciferase activity was assessed in the presence
+of solvent only. luciferase was measured after cell lysis. following correction for basal luciferase activity, net luciferase is expressed relative to net luciferase activity in
+the presence of 0.2 nm mdht. representative results are shown. for the sake of clarity, only means and the corresponding curve ﬁts, but no standard deviations are given.
+(b) suppression of mdht-mediated net induction of luciferase activity in palm cells by ﬂutamide, vinclozolin, prochloraz,  xxxd3023xxx , and linuron at vito. conditions
+correspond to ﬁgure (a).
+
+a. freyberger et al. / reproductive toxicology 30 (2010) 9–17
+
+15
+
+table 4
+ec50 -values achieved at vito for  xxxg183xxx  antagonists.
+compound
+
+experiment numbera
+
+ec50 -value [m]
+
+lower
+
+upper
+
+ xxxd2143xxx 
+
+08-1-u
+09-1-ub
+10-1-ub
+10-5-ub
+12-1-u
+mean ± sd
+
+(3.691e−06)c
+(1.838e−05)d
+(3.406e−06)c
+(5.878e−06)c
+(3.831e−06)c
+no mean calculated
+
+8.028e−07
+1.830e−08
+9.209e−09
+2.713e−07
+1.328e−06
+
+1.697e−05
+1.847e−02
+1.260e−03
+1.274e−04
+1.105e−05
+
+o,p -ddt
+
+08-2-l
+09-2-l
+10-2-l
+12-2-l
+mean ± sd
+
+3.139e−06
+(4.883e−06)c
+2.467e−06
+1.310e−06
+2.305e−06 ± 9.252e−07 (n = 3)
+
+1.282e−06
+6.991e−07
+1.398e−06
+5.060e−07
+
+7.690e−06
+3.411e−05
+4.355e−06
+3.391e−06
+
+vinclozolin
+
+08-3-l
+09-3-l
+10-3-l
+12-3-l
+mean ± sd
+
+9.532e−07
+(2.946e−06)c
+1.377e−06
+6.452e−07
+9.92e−07 ± 3.67e−07 (n = 3)
+
+5.096e−07
+2.285e−07
+8.105e−07
+3.235e−07
+
+1.783e−06
+3.800e−05
+2.340e−06
+1.287e−06
+
+prochloraz
+
+08-4-u
+09-4-u
+10-4-u
+12-4-l
+mean ± sd
+
+modest indication of antagonism, but unclear concentration response relationship
+modest indication of antagonism, but unclear concentration response relationship
+modest indication of antagonism, but unclear concentration response relationship
+6.489e−09
+3.489e−02
+(1.505e−05)d
+–
+
+progesterone
+
+08-3-u
+09-3-u
+10-3-u
+12-3-u
+mean ± sd
+
+biphasic concentration response relationshipe
+biphasic concentration response relationshipe
+biphasic concentration response relationshipe
+biphasic concentration response relationshipe
+
+linuron
+
+08-2-u
+09-2-u
+10-2-u
+12-2-u
+mean
+
+1.634e−06
+9.062e−07
+2.945e−06
+modest indication of antagonism, but unclear concentration response relationship
+modest indication of antagonism, but unclear concentration response relationship
+3.037e−06
+1.344e−06
+6.859e−06
+2.336e−06 (n = 2)
+
+a
+b
+c
+d
+e
+
+conﬁdence interval [m]
+
+internal experiment number, plate number and location on plate (upper/lower part) are given.
+70% reduction test performance criterion for ﬂutamide not met.
+upper limit of conﬁdence interval out of test range.
+ec50 estimate out of test range.
+compared to the vehicle control, a decrease at low concentrations is followed by an increase above the control level at higher concentrations.
+
+properties (vinclozolin, linuron), and a proper selection of the relevant concentrations for the ﬁnal screening could be made. in this
+prevalidation exercise, the highest concentration was limited to
+10 ␮m. this may be too low to detect weakly active compounds and
+for the prescreen and if necessary also for the ﬁnal screening, rather
+the limit of solubility, the onset of cytotoxicity or a concentration
+as high as 1 mm is recommended as the highest test concentration. a similar approach was recently taken when drafting the oecd
+test guideline for the stably transfected human  xxxg730xxx -␣
+transcriptional assay [15].
+assessment of cytotoxicity in transactivation assays is important especially if screening for potential antagonists is performed
+in order to distinguish cytotoxic effects from true antagonistic
+effects. the approach used in this work was very convenient, as after
+removal of medium to measure ldh release into the medium as a
+marker of cytotoxicity, the same cells could be lysed and examined
+for luciferase activity. recent work showed that the applied cytotoxicity test was as sensitive as other cytotoxicity tests [16]. none
+of the test compounds showed up as cytotoxic, which is probably
+due to the low (≤10 ␮m) concentrations tested.
+across the two laboratories ec50 -values for the agonists mdht,
+17␣-mt, and levonorgestrel varied by not more than a factor of
+3.4 (ratio of highest to lowest ec50 for a given compound irrespective of the laboratory), for norethynodrel by a factor of 9.7. these
+low values, especially in the light of the low number of independent experiments from two laboratories indicate that the protocol
+is transferable and the assay is capable to accurately assess recep-
+
+tor agonism with only small variability. effects of progesterone
+could not fully be evaluated, as frequently incomplete concentration response curves were obtained. also for anti-androgenicity
+testing results across the laboratories were comparable, however,
+an in depth quantitative comparison was not possible, since most
+compounds were only weakly active, and limitation of the top
+concentration to 10 ␮m frequently resulted in incomplete concentration response curve not suitable for robust ec50 -estimation. it
+should be kept in mind that this ﬁnding does not argue against the
+assay per se, but rather suggests a modiﬁed regimen with higher
+test concentrations. importantly, the endocrine activity of all test
+compounds could be detected and classiﬁed.
+with regard to further validation and a ﬁnal protocol, performance criteria are important. the preliminary criteria were
+well selected and mostly met: the fold-induction for the various approaches were achieved and mostly surpassed and may be
+increased further. only on one plate throughout the whole effort
+the requested fold-induction for mdht was not met, obviously as
+the consequence of an untypically high response in the solvent
+control. the maximum fold-induction induced by mdht typically
+exceeded 4.0-fold, the lower limit ﬁxed in the recently adopted
+oecd test guideline 455 for the stably transfected human  xxxg730xxx -␣ transcriptional activation assay for detection of
+estrogenic agonist activity and met or exceeded the maximum foldinduction (in response to dht) reported for the ar-ecoscreentm
+(10.7-fold) [17]. an even higher fold-induction was reported for
+the ar-calux® assay (30-fold) [18]. in our assay mdht always
+
+16
+
+a. freyberger et al. / reproductive toxicology 30 (2010) 9–17
+
+table 5
+screening for agonism—comparison of results with published data.
+compound
+
+mdht
+dht
+17␣-mt
+levonorgestrel
+norethynodrel
+progesterone
+o,p -ddt
+dibutylphthalate
+
+investigation
+this investigation
+palm cells
+[ec50 -value, m]
+
+araki et al. [17]
+ar-ecoscreentm
+[ec50 -value, m]
+
+sonneveld et al. [19]
+ar-calux®
+[ec50 -value, m]
+
+0.161e−09 ± 0.060e−09a
+not done
+0.472e−09 ± 0.134e−09a
+0.880e−09 ± 0.329e−09a
+18.90e−09 ± 23.01e−09a
+≥0.616e−06b
+no effect
+no effect
+
+not done
+0.222e−09
+0.705e−09
+not done
+not done
+2.19e−06
+no effect
+no effect
+
+not done
+0.126e−09
+0.794e−09
+not done
+6.31e−09
+>10e−06
+not done
+not done
+
+a
+
+means and standard deviations across both laboratories.
+frequently no full concentration response curve was observed, as the highest concentration was limited to 10 ␮m, and estimated ec50 -values were less robust. thus,
+rather a range is given.
+b
+
+yielded sigmoid concentration response curves and with only one
+exception, ec50 -values for mdht were within the requested range.
+on the basis of all available data, the range may be shifted to
+slightly lower concentrations, e.g., 0.05–0.5 nm, but should not be
+broadened. when screening for antagonism the requested reduction by ≥70% of mdht-induced net transactivation by 10 ␮m of
+the reference anti-androgen ﬂutamide was not achieved in each
+experiment and on each plate. this partial failure is most likely
+due to the fact that in this series of experiments the androgenic
+stimulus 0.2 nm mdht, as deﬁned in the sop, did not correspond
+to an ec50 -value, but rather to an ec65 -value possibly triggering
+a modest loss of sensitivity. thus, further versions of the protocol
+should request experimental determination of the ec50 of mdht
+immediately before anti-androgenicity screening and the use of
+the observed ec50 as androgenic stimulus. in addition, the use of a
+stronger anti-androgen such as  xxxd2725xxx  as reference should be
+considered.
+an important step in the evaluation of an assay is the comparison of assay data with data from similar assays observed for the
+same test compounds. in table 5, results from the investigation of
+agonists reported herein are compared to reporter gene assay data
+of groups using different cell lines [17,19]. mdht is rarely used as
+a reference androgen, however, it can readily be compared with
+dht, as receptor binding afﬁnity of both compounds is quite similar [20]. irrespective of the methodological differences, ec50 -values
+reported herein were quite comparable to those observed in the
+published cell culture experiments, and the ranking for the afﬁnity of agonists was similar across different assays and laboratories.
+our ranking of agonists also closely followed recently published
+ar binding afﬁnities [20]. a possible exception could be progesterone. it was less active as an agonist in relation to its ar binding
+afﬁnity. however, it cannot be excluded that it is no true ar agonist
+and that its effect is rather mediated via an activated glucocorticoid
+receptor (gr). progesterone has afﬁnity for the gr, and the pmmtvneo luc reporter in palm cells also responds to a ligand-activated
+gr [21]. indeed, high concentrations of ﬂutamide were unable to
+suppress progesterone-stimulated luciferase induction in palm
+cells (freyberger, unpublished). likewise, in the androgen sensitive mda-kb2 reporter cell line, also carrying the pmmtv-neo luc
+reporter, the potent anti-androgen hydroxy-ﬂutamide could not
+suppress progesterone-stimulated reporter gene induction [21]. in
+table 6 our results of the antagonist screening are compared to
+reporter gene assay data obtained with the ar-ecoscreentm [17].
+the outcome of antagonism studies considerably depends on the
+concentration of the androgenic stimulus added together with the
+test compound, however, with respect to the response to the androgenic stimulus, our and data of araki et al. [17] are similar and
+thus the results are comparable. irrespective of the methodologi-
+
+cal differences, results obtained in both reporter cell lines suggest
+comparable sensitivity. interestingly, progesterone when tested
+at vito reproducibly showed a biphasic response showing antiandrogenic properties at low and agonism at high concentrations.
+the roughly estimated ec50 -values for the antagonist part of the
+response were frequently around 25e−08 and thus similar to the
+bsp results. it remains to be elucidated whether a similar biphasic
+response could also be obtained at bsp when increasing the concentration range (slightly) above 10 ␮m. one may speculate that
+such a biphasic response could be an overlay of different mechanisms such as antagonism at the androgen and agonism at the
+ xxxg1601xxx .
+our data demonstrate that across laboratories the assay was
+able to reliably rank compounds with strong, weak, and without
+afﬁnity for the ar and to discriminate agonists and antagonists.
+employing a human stably transfected cell line it avoids use of animal tissues, and thus contributes to the 3r concept. furthermore,
+the assay could be adjusted to an intermediate/high throughput
+format. in terms of the ecvam modular approach of validation, the
+data set presented herein corresponds to the ﬁrst four modules,
+namely test deﬁnition, within-laboratory variability, transferability and between-laboratory variability [22]. according to our data
+the assay is a promising candidate for further validation. it may be
+used to screen for endocrine-modulating compounds with afﬁnity for the ar, to further investigate equivocal results from other
+in vitro assays and it may also be helpful as a mechanistic tool in
+order to characterize effects on the endocrine system observed in
+animal studies. whether this human stably transfected androgen
+sensitive transactivation assay can reliably predict the outcome of
+table 6
+screening for antagonism—comparison of results with published data.
+compound
+
+ xxxd2143xxx 
+progesterone
+vinclozolin
+o,p -ddt
+linuron
+norethynodrel
+dibutylphthalate
+
+investigation
+this investigation
+palm cells
+[ec50 -value, m]
+
+araki et al. [17]
+ar-ecoscreentm
+[ic50 -value, m]
+
+1e−06 to 6e−06a
+0.020e−06 to 0.120e−06b
+0.70e−06 ± 0.45e−06c
+1e−06 to 5e−06a
+≥2e−06a
+no effect (agonist)
+no effect
+
+1.66e−06
+0.57e−06
+0.40e−06
+2.13e−06
+10.8e−06
+not done
+547e−06
+
+a
+frequently no full concentration response curve was observed, as the highest
+concentration was limited to 10 ␮m, and estimated ec50 -values were less robust.
+thus, rather a range is given.
+b
+estimated ec50 -values were partially less robust. thus rather a range is given.
+c
+means and standard deviations across both laboratories. one less robust value
+excluded from calculation.
+
+a. freyberger et al. / reproductive toxicology 30 (2010) 9–17
+
+corresponding in vivo screening assays such as the hershberger
+assay remains to be explored.
+conﬂict of interest
+there are no conﬂicts of interest.
+acknowledgements
+the authors wish to thank dr. b. van der burg (biodetection systems, amsterdam, the netherlands) for the donation of ﬂutamide,
+17␣-methyltestosterone, and dibutylphthalate. this work was supported in part by funding to bayer schering pharma ag and vito
+from the eu-sponsored project reprotect (lshb-ct-2004-503257).
+the statistical analysis (m.w.) was performed on a contract basis
+for ecvam.
+references
+[1] mclachlan ja, korach ks, newbold rr, degen gh. diethylstilbestrol and other
+estrogens in the environment. fundam appl toxicol 1984;4:686–91.
+[2] kelce wr, stone cr, laws sc, gray le, kemppainen ja, wilson em. persistent ddt metabolite p,p -dde is a potent  xxxg183xxx  antagonist. nature
+1995;375:581–5.
+[3] lambright cr, ostby j, bobseine k, et al. cellular and molecular mechanisms
+of action of linurone: an antiandrogenic herbicide that produces reproductive
+malformations in male rats. toxicol sci 2000;56:389–99.
+[4] wilson vs, lambright c, ostby j, gray jr le. in vitro and in vivo effects of 17␤trenbolone: a feedlot efﬂuent contaminant. toxicol sci 2002;70:202–11.
+[5] jenkins rl, wilson em, angus ra, howell wm, kirk m. androstenedione and
+progesterone in the sediment of a river receiving paper mill efﬂuent. toxicol
+sci 2003;73:53–9.
+[6] soto am, calabro jm, prechtl nv, et al. androgenic and estrogenic activity in
+water bodies receiving cattle feedlot efﬂuent in eastern nebraska, usa. environ
+health perspect 2004;112:346–52.
+[7] edstac. final report. available via epa http://www.epa.gov/scipoly/
+oscpendo/history/ﬁnalrpt.htm; 1998.
+[8] oecd, organisation for economic cooperation and development. draft summary report of the sixth meeting of the task force on endocrine disrupters
+testing and assessment (edta 6). paris; 2003.
+
+17
+
+[9] terouanne b, tahiri b, georget v, et al. a stable prostatic bioluminescent cell
+line to investigate androgen and antiandrogen effects. mol cell endocrinol
+2000;160:39–49.
+[10] sultan c, balaguer p, terouanne b, et al. environmental xenoestrogens, antiandrogens and disorders of male sexual differentiation. mol cell endocrinol
+2001;178:99–105.
+[11] lemaire g, terouanne b, mauvais p, et al. effect of organochlorine pesticides
+on human androgen receptoior activation in vitro. toxicol appl pharmacol
+2004;196:235–46.
+[12] escande a, servant n, rabenoelina f, et al. regulation of activities of steroid
+hormone receptors by  xxxd3372xxx  and its primary metabolites. j steroid biochem
+mol biol 2009;116:8–14.
+[13] ritz c, streibig jc. bioassay analysis using r. j stat software 2005;12(5):1–22,
+http://www.bioassay.dk.
+[14] r development core team. r: a language and environment for statistical computing. vienna, austria: r foundation for statistical computing; 2009, isbn
+3-900051-07-0, http://www.r-project.org.
+[15] oecd, organisation for economic cooperation and development. oecd guideline for the testing of chemicals. draft proposal for a new guideline 455
+(21/11/2008). the stably transfected human  xxxg730xxx -␣ transcriptional assay for detection of estrogenic agonist-activity of chemicals. paris;
+2008.
+[16] berckmans p, leppens h, vangenechten c, et al. screening of endocrine disrupting chemicals with meln cells, an er-transactivation assay combined with
+cytotoxicity assessment. toxicol in vitro 2007;21:1262–7.
+[17] araki n, ohno k, takeyoshi m, lida m. evaluation of a rapid in vitro androgen
+receptor transcriptional activation assay using ar-ecoscreentm cells. toxicol
+in vitro 2005;19:335–52.
+[18] sonneveld e, jansen hj, riteco jac, et al. development of androgen- and
+estrogen-responsive bioassays, members of a panel of human cell linebased highly selective steroid-responsive bioassays. toxicol sci 2005;83:136–
+48.
+[19] sonneveld e, riteco jac, jansen hj, et al. comparison of in vitro and in
+vivo screening models for androgenic and estrogenic activities. toxicol sci
+2006;89:173–87.
+[20] freyberger a, ahr h-j. development and standardization of a simple binding
+assay for the detection of compounds with afﬁnity for the  xxxg183xxx .
+toxicology 2004;195:113–26.
+[21] wilson v, bobseine k, lambright c, et al. a novel cell line, mda-kb2, that stably expresses an androgen- and glucocorticoid-responsive promoter for the
+detection of  xxxg1603xxx  agonists and antagonists. toxicol sci 2002;66:
+69–81.
+[22] hartung t, bremer s, casati s, et al. a modular approach to the ecvam principles
+on test validity. atla 2004;32:467–72.
+

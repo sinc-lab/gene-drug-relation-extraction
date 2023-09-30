@@ -1,0 +1,1153 @@
+articles
+phosphoramidate pronucleotides: a comparison of the
+phosphoramidase substrate specificity of human and
+escherichia coli histidine triad nucleotide binding proteins
+tsui-fen chou,† janina baraniak,‡ renata kaczmarek,‡ xin zhou,† jilin cheng,†
+brahma ghosh,† and carston r. wagner*,†,§
+departments of medicinal chemistry and chemistry, university of minnesota, minneapolis,
+minnesota 55455, and department of bioorganic chemistry, centre of molecular and
+macromolecular studies, polish academy of science, lodz, poland
+received june 23, 2006; revised manuscript received october 19, 2006; accepted october 26, 2006
+
+abstract: to facilitate the delivery of nucleotide-based therapeutics to cells and tissues, a variety of
+pronucleotide approaches have been developed. our laboratory and others have demonstrated that
+nucleoside phosphoramidates can be activated intracellularly to the corresponding 5′-monophosphate
+nucleotide and that histidine triad nucleotide binding proteins (hints) are potentially responsible for their
+bioactivation. hints are conserved and ubiquitous enzymes that hydrolyze phosphoramidate bonds
+between nucleoside 5′-monophosphate and an amine leaving group. on the basis of the ability of
+nucleosides to quench the fluorescence of covalently linked amines containing indole, a sensitive, continuous fluorescence-based assay was developed. a series of substrates linking the naturally fluorogenic
+indole derivatives to nucleoside 5′-monophosphates were synthesized, and their steady state kinetic
+parameters of hydrolysis by human  xxxg1050xxx  and escherichia coli hint were evaluated. to characterize the
+elemental and stereochemical effect on the reaction, two p-diastereoisomers of adenosine or guanosine
+phosphoramidothioates were synthesized and studied to reveal a 15-200-fold decrease in the specificity
+constant (kcat/km) when the phosphoryl oxygen is replaced with sulfur. while a stereochemical preference
+was not observed for e. coli hint, hhint1 exhibited  xxxd3426xxx -fold preference for  xxxd1794xxx  phosphoramidates over l-isomers. the most efficient substrates evaluated to date are those that contain the less
+sterically hindering amine leaving group, tryptamine, with kcat and km values comparable to those found
+for  xxxg79xxx . the apparent second-order rate constants (kcat/km) for adenosine tryptamine
+phosphoramidate monoester were found to be 107 m-1 s-1 for hhint1 and 106 m-1 s-1 for e. coli hint.
+both the human and e. coli enzymes preferred purine over pyrimidine analogues. consistent with observed
+hydrogen bonding between the 2′-oh group of  xxxd81xxx  and the active site residue,
+asp43, the second-order rate constant (kcat/km) for thymidine tryptamine phosphoramidate was found to
+be 3-4 orders of magnitude smaller than that for uridine tryptamine phosphoramidate for hhint1 and 2
+orders of magnitude smaller than that for e. coli hint. ara-a tryptamine phosphoramidate was, however,
+shown to be a good substrate with a specificity constant (kcat/km) only 10-fold lower than the value for
+adenosine tryptamine phosphoramidate. consequently, nucleoside phosphoramidates containing unhindered primary amines and either an r or beta 2′-oh group should be easily bioactivated by hints with
+efficiencies rivaling those for the 5′-monophosphorylation of nucleosides by nucleoside kinases. the
+differential substrate specificity observed for human and e. coli enzymes represents a potential therapeutic
+rationale for the development of selective antibiotic phosphoramidate pronucleotides.
+keywords: histidine triad nucleotide binding proteins (hints); phosphoramidase; human  xxxg1050xxx ;
+escherichia coli hint; fluorogenic phosphoramidates
+
+introduction
+nucleosides are an important class of therapeutics. in
+particular, nucleosides have been clinically used for decades
+* to whom correspondence should be addressed: department of
+medicinal chemistry, university of minnesota, 8-174 weaver
+densford hall, 308 harvard st. se, minneapolis, mn 55455.
+phone: (612) 625-2614. fax: (612) 624-0139. e-mail:
+wagne003@umn.edu.
+† department of medicinal chemistry, university of minnesota.
+‡ polish academy of science.
+§ department of chemistry, university of minnesota.
+208
+
+molecular pharmaceutics vol. 4, no. 2, 208-217
+
+as both antiviral and anticancer drugs. unfortunately, because
+they typically must be converted by intracellular kinases to
+the corresponding 5′-mono-, di-, and triphosphate, the utility
+of a given nucleoside will depend on the substrate specificity
+of these intracellular enzymes. since in general the substrate
+requirements for nucleoside kinases are more demanding than
+for either nucleotidylate or diphosphosphate kinases, a
+method of delivering nucleoside 5′-monophosphates would
+expand the number of potentially therapeutically useful
+nucleosides. to address this issue, a number of imaginative
+pronucleotide approaches have been developed.1 in general,
+10.1021/mp060070y ccc: $37.00 © 2007 american chemical society
+published on web 01/12/2007
+
+phosphoramidate pronucleotides
+these methods rely on either remote chemical or enzymatic
+activation of the masking moiety, followed by collapse of
+an unstable intermediate and release of the nucleotide. early
+efforts to design phosphate ester pronucleotides were limited
+in their success. our laboratory and others have sought to
+utilize phosphoramidate esters as possible pronucleotides.2-8
+recently, direct intracellular p-n bond cleavage has been
+observed by esi-ms for azt l-tryptophan phosphoramidate
+monoesters.9 moreover, we have demonstrated that human
+and bacterial variants of a subfamily of the histidine triad
+(hit) protein superfamily are nucleoside phosphoramidases.10
+hit enzymes are a ubiquitous superfamily consisting
+primarily of nucleoside phosphoramidases, dinucleotide
+hydrolyases, and nucleotidylyl transferases.11 the distinguishing feature of these enzymes is an active site motif
+(1) wagner, c. r.; iyer, v. v.; mcintee, e. j. pronucleotides: toward
+the in vivo delivery of antiviral and anticancer nucleotides. med.
+res. rev. 2000, 20, 417-451.
+(2) abraham, t. w.; mcintee, e. j.; vidhya, v. i.; schinazi, r. f.;
+wagner, c. r. synthesis and biological activity and decomposition
+studies of amino acid phosphomonoester amidates of acyclovir.
+nucleosides, nucleotides nucleic acids 1997, 16, 2079-2092.
+(3) mcintee, e. j.; remmel, r. p.; schinazi, r. f.; abraham, t. w.;
+wagner, c. r. probing the mechanism of action and decomposition of amino acid phosphomonoester amidates of antiviral
+nucleoside prodrugs. j. med. chem. 1997, 40, 3323-3331.
+(4) chang, s. l.; griesgraber, g. w.; southern, p. j.; wagner, c. r.
+amino acid phosphoramidate monoesters of 3′-azido-3′- xxxd3364xxx : relationship between antiviral potency and intracellular metabolism. j. med. chem. 2001, 44, 223-231.
+(5) chang, s. l.; griesgraber, g. w.; wagner, c. r. comparison of
+the antiviral activity of hydrophobic amino acid phosphoramidate
+monoesters of 2′,3′- xxxd929xxx  (dda) and 3′-azido-3′ xxxd3364xxx  (azt). nucleosides, nucleotides nucleic acids
+2001, 20, 1571-1582.
+(6) mcguigan, c.; harris, s. a.; daluge, s. m.; gudmundsson, k.
+s.; mclean, e. w.; burnette, t. c.; marr, h.; hazen, r.;
+condreay, l. d.; johnson, l.; de clercq, e.; balzarini, j.
+application of phosphoramidate pronucleotide technology to
+abacavir leads to a significant enhancement of antiviral potency.
+j. med. chem. 2005, 48, 3504-3515.
+(7) mcguigan, c.; cahard, d.; sheeka, h. m.; de clercq, e.;
+balzarini, j. phosphoramidate derivatives of d4t with improved
+anti-hiv efficacy retain full activity in thymidine kinase-deficient
+cell. bioorg. med. chem. lett. 1996, 6, 1183-1186.
+(8) meier, c.; balzarini, j. application of the cyclosal-prodrug
+approach for improving the biological potential of phosphorylated
+biomolecules. antiviral res. 2006, 71, 282-292.
+(9) kim, j.; chou, t.-f.; griesgraber, g. w.; wagner, c. r. direct
+measurement of nucleoside monophosphate delivery from a
+phosphoramidate pronucleotide by stable isotope labeling and lcesi-ms/ms. mol. pharmaceutics 2004, 1, 102-111.
+(10) chou, t.-f.; bieganowski, p.; shilinski, k.; cheng, j.; brenner,
+c.; wagner, c. r. 31p nmr and genetic analysis establish hint
+as the only escherchia coli  xxxd2705xxx  phosphoramidase
+and as essential for growth under high salt conditions. j. biol.
+chem. 2005, 280, 15356-15361.
+(11) brenner, c. hint,  xxxg797xxx , and galt: function, structure, evolution,
+and mechanism of three branches of the histidine triad superfamily
+of nucleotide hydrolases and transferases. biochemistry 2002, 41,
+9003-9014.
+
+articles
+composed of the sequence his-x-his-x-his-xx, where x
+is a hydrophobic residue. three primary hit families have
+been identified. the first and most ancient is the family of
+the histidine triad nucleotide binding protein (hint). hint
+homologues isolated from rabbits,12 humans,10 chickens,13
+yeast,12 and escherichia coli10 have been shown to be purine
+nucleoside phosphoramidases. mammalian  xxxg1050xxx  has been
+suggested to have tumor suppressor activity in a hint1knockout mice model14,15 and human non-small cell lung
+carcinoma cells.16 related to this observation, the expression
+of hhint1 has been shown to be a potential regulator of
+apoptosis.17 nevertheless, the cellular function and biochemical relevance of the phosphoramidase activity have remained
+a mystery. two less typical members of the hint family are
+aprataxin, which is mutated in ataxia-oculomotor apraxia1,18,19 and the scavenger  xxxg613xxx , dcps/
+ xxxg613xxx , a 7-methyl gpppg hydrolyase.20,21 the second family
+is that of the  xxxg797xxx  ( xxxg797xxx ), which exhibits
+characteristic diadenosine polyphosphate hydrolase activity
+(12) bieganowski, p.; garrison, p. n.; hodawadekar, s. c.; faye, g.;
+barnes, l. d.; brenner, c. adenosine monophosphoramidase
+activity of hint and hnt1 supports function of kin28, ccl1, and
+tfb3. j. biol. chem. 2002, 277, 10852-10860.
+(13) parks, k. p.; seidle, h.; wright, n.; sperry, j. b.; bieganowski,
+p.; howitz, k.; wright, d. l.; brenner, c. altered specificity of
+hint-w123q supports a role for hint inhibition by asw in avian
+sex determination. physiol. genomics 2004, 20, 12-14.
+(14) su, t.; suzui, m.; wang, l.; lin, c. s.; xing, w. q.; weinstein,
+i. b. deletion of  xxxg1050xxx /pkcinteracting protein in mice enhances cell growth and carcinogenesis. proc. natl. acad. sci. u.s.a. 2003, 100, 7824-7829.
+(15) li, h.; zhang, y.; su, t.; santella, r. m.; weinstein, i. b.  xxxg1050xxx 
+is a haplo-insufficient tumor suppressor in mice. oncogene 2006,
+25, 713-721.
+(16) yuan, b. z.; jefferson, a. m.; popescu, n. c.; reynolds, s. h.
+aberrant gene expression in human non small cell lung carcinoma
+cells exposed to demethylating agent 5-aza-2′- xxxd1836xxx .
+neoplasia 2004, 6, 412-429.
+(17) weiske, j.; huber, o. the histidine triad protein  xxxg1050xxx  triggers
+apoptosis independent of its enzymatic activity. j. biol. chem.
+2006, 281, 27356-27366.
+(18) moreira, m. c.; barbot, c.; tachi, n.; kozuka, n.; uchida, e.;
+gibson, t.; mendonca, p.; costa, m.; barros, j.; yanagisawa,
+t.; watanabe, m.; ikeda, y.; aoki, m.; nagata, t.; coutinho, p.;
+sequeiros, j.; koenig, m. the gene mutated in ataxia-ocular
+apraxia 1 encodes the new hit/zn-finger protein aprataxin. nat.
+genet. 2001, 29, 189-193.
+(19) date, h.; onodera, o.; tanaka, h.; iwabuchi, k.; uekawa, k.;
+igarashi, s.; koike, r.; hiroi, t.; yuasa, t.; awaya, y.; sakai,
+t.; takahashi, t.; nagatomo, h.; sekijima, y.; kawachi, i.;
+takiyama, y.; nishizawa, m.; fukuhara, n.; saito, k.; sugano,
+s.; tsuji, s. early-onset ataxia with ocular motor apraxia and
+hypoalbuminemia is caused by mutations in a new hit superfamily gene. nat. genet. 2001, 29, 184-188.
+(20) liu, h.; rodgers, n. d.; jiao, x.; kiledjian, m. the scavenger
+ xxxg613xxx  dcps is a member of the hit family
+of pyrophosphatases. embo j. 2002, 21, 4699-4708.
+(21) kwasnicka, d. a.; krakowiak, a.; thacker, c.; brenner, c.;
+vincent, s. r. coordinate expression of nadph-dependent flavin
+reductase, fre-1, and  xxxg613xxx ,
+ xxxg613xxx . j. biol. chem. 2003, 278, 39051-39058.
+vol. 4, no. 2 molecular pharmaceutics
+
+209
+
+articles
+and was reported to possess tumor suppressor activity.22 the
+third family contains relatives of galactose-1-phosphate
+uridylyltransferase (galt), which is a specific nucleoside
+monophosphate transferase.23
+the reaction mechanism of the hint protein family has
+been proposed to be a two-step double replacement, in which
+the complex of a phosphoramidate with his112 of hhint1
+or his101 of e. coli hint forms a covalent hint-nmp
+intermediate (n is a or g) followed by dissociation of the
+amine. in the second step, the hint-nmp intermediate
+undergoes hydrolysis to release nmp and hint. the mechanism is inspired by the similarities of hint proteins to fhit24
+and galt.25 recently, human  xxxg797xxx  has been shown to possess
+phosphoramidase activity with adenosine 5′-phosphoimidazolide (amp-im) and adenosine 5′-phospho-n-methylimidazolide (amp-n-meim) as substrates with similar catalytic
+efficiencies in comparison with its best substrate p1-5′-oadenosine-p3-5′-o- xxxd83xxx  (ap3a).24,26 the
+only reported spectroscopic substrate of hint, adenosine 5′o-p-nitrophenylphosphoramidate (amp-pna), has relatively
+poor michaelis-menten parameters (kcat ) 0.00187 s-1, km
+) 134, and kcat/km ) 14 s-1 m-1).27 other reported methods
+for detecting hint-catalyzed reaction are either a complicated coupled assay that can detect only formation of
+amp24 or a discontinuous and labor-intensive hplc or tlc
+assay.12,27
+in this study, we report the development of a continuous
+fluorescence-based assay for hint phosphoramidase activity,
+which we then used to map the substrate specificity for the
+human and bacterial enzymes. on the basis of these results,
+we propose a set of parameters for the design of hint
+activatible phosphoramidate pronucleotides.
+(22) ohta, m.; inoue, h.; cotticelli, m. g.; kastury, k.; baffa, r.;
+palazzo, j.; siprashvili, z.; mori, m.; mccue, p.; druck, t.; croce,
+c. m.; huebner, k. the  xxxg797xxx  gene, spanning the chromosome
+3p14.2 fragile site and renal carcinoma-associated t(3;8) breakpoint, is abnormal in digestive tract cancers. cell 1996, 84, 587597.
+(23) frey, p. a.; wong, l. j.; sheu, k. f.; yang, s. l. galactose-1phosphate uridylyltransferase: detection, isolation, and characterization of the uridylyl enzyme. methods enzymol. 1982, 87,
+20-36.
+(24) huang, k.; arabshahi, a.; wei, y.; frey, p. a. the mechanism
+of action of the  xxxg797xxx ,  xxxg797xxx : isolation of a covalent
+adenylyl enzyme and chemical rescue of h96g- xxxg797xxx . biochemistry
+2004, 43, 7637-7642.
+(25) wedekind, j. e.; frey, p. a.; rayment, i. the structure of
+nucleotidylated histidine-166 of galactose-1-phosphate uridylyltransferase provides insight into phosphoryl group transfer.
+biochemistry 1996, 35, 11560-11569.
+(26) huang, k.; arabshahi, a.; frey, p. a. ph-dependence in the
+hydrolytic action of the human  xxxg797xxx . eur. j. org.
+chem. 2005, 5198-5206.
+(27) krakowiak, a.; pace, h. c.; blackburn, g. m.; adams, m.;
+mekhalfia, a.; kaczmarek, r.; baraniak, j.; stec, w. j.; brenner,
+c. biochemical, crystallographic, and mutagenic characterization
+of hint, the amp-lysine hydrolase, with novel substrates and
+inhibitors. j. biol. chem. 2004, 279, 18711-18716.
+210
+
+molecular pharmaceutics vol. 4, no. 2
+
+chou et al.
+
+experimental procedures
+general synthetic procedure for fluorogenic nucleoside 5′-phosphoramidates. nucleoside 5′-phosphoramidates
+were prepared in a single-step carbodiimide-mediated coupling reaction as described previously10 with minor modification.
+1-ethyl-3-[3-(dimethylamino)propyl]carbodiimide hydrochloride (4.5 equiv) was added to a solution of nucleoside
+5′-monophosphate (1 equiv) and indole compound (5 equiv)
+in h2o (ph ∼7.0, adjusted with sodium hydroxide) at room
+temperature for 6 h and concentrated under reduced pressure.
+the resulting solid was then purified by flash chromatography (sio2, 5:3:0.5 chcl3/meoh/h2o mixture containing
+0.5% nh4oh) to give the desired products. for some
+tryptamine analogues, the preparative hplc purification was
+carried out using an alltech econosphere c8 column (10
+mm × 250 mm) with a linear gradient elution of solvent a
+(hplc-grade water) and solvent b (hplc-grade methanol)
+at a flow rate of 3 ml/min. the gradient is as follows: 0%
+b for 2 min, from 0 to 5% b from 2 to 12 min, and from 5
+to 100% b from 12 to 16 min. the elution peak at 6-7 min
+was collected to give the white solid.
+2(s)-[adenosyl-5′-(phosphorylamino)]-3-(3-indolyl)proprionic acid methyl ester (1). the yield is 62.7% (0.96 g)
+as a white solid: 1h nmr (d2o, 300 mhz) delta 8.03 (1h, s),
+7.87 (1h, s), 7.07 (2h, m), 6.77 (2h, m), 6.57 (1h, t), 5.73
+(1h, d), 4.49 (1h, t), 4.18 (1h, m), 4.05 (1h, m), 3.68 (3h,
+m), 3.4 (3h, s), 2.74 (2h, m); 31p nmr (d2o, 300 mhz) delta
+7.33; hrms (esi) m/z calcd for [m - h]- 546.1508, found
+546.1503.
+[2-(3-indolyl)-1(s)-(methylcarbamoyl)ethyl]phosphoramidic acid 5′-adenosyl ester (2). the yield is 71.9%
+(0.31 g) as a white solid: 1h nmr (d2o, 300 mhz) delta 8.07
+(1h, s), 7.94 (1h, s), 7.2 (2h, d), 7.12 (2h, d), 6.91 (1h, s),
+6.85 (1h, t), 6.65 (1h, t), 5.77 (1h, d), 4.45 (1h, t), 4.13
+(1h, t), 4.03 (1h, m), 3.62 (3h, m), 2.49 (3h, s), 1.77 (2h,
+m); 31p nmr (d2o, 300 mhz) delta 7.10; hrms (esi) m/z
+calcd for [m + h]+ 547.1824, found 547.1851.
+[2-(3-indolyl)-1(s)-carbamoylethyl]phosphoramidic acid
+5′-adenosyl ester (3). the yield is 92% (0.045 g) as a white
+solid: 1h nmr (d2o, 300 mhz) delta 7.93 (1h, s), 7.79 (1h,
+s), 7.16 (2h, d), 6.99 (2h, d), 6.86 (1h, s), 6.71 (1h, t),
+6.55 (1h, t), 5.65 (1h, d), 4.33 (1h, t), 4.03 (1h, t), 3.96
+(1h, m), 3.56 (3h, m), 2.78 (2h, m); 31p nmr (d2o, 300
+mhz) delta 7.01; hrms (esi) m/z calcd for [m - h]533.1668, found 533.1668.
+2(s)-[guanosyl-5′-(phosphorylamino)]-3-(3-indolyl)proprionic acid methyl ester (6). the yield is 72% (0.66
+g) as a white solid: 1h nmr (d2o, 300 mhz) delta 7.74 (1h,
+s), 7.19 (2h, m), 6.91 (2h, m), 6.76 (1h, t), 5.58 (1h, d),
+4.49 (1h, m), 4.21 (1h, m), 4.04 (1h, m), 3.72 (3h, m),
+3.41 (3h, s), 2.82 (2h, m); 31p nmr (d2o, 300 mhz) delta
+7.38; hrms (esi) m/z calcd for [m - h]- 562.1451, found
+562.1468.
+[2-(3-indolyl)-1(s)-(methylcarbamoyl)ethyl]phosphoramidic acid 5′-guanosyl ester (7). the yield is 64.2%
+(0.29 g) as a white solid: 1h nmr (d2o, 300 mhz) delta 7.72
+
+phosphoramidate pronucleotides
+(1h, s), 7.22 (1h, d), 7.14 (1h, d), 6.86 (2h, m), 6.74 (1h,
+m), 5.56 (1h, d), 4.45 (1h, m), 4.12 (1h, m), 3.98 (1h, m),
+3.62 (3h, m), 2.83 (2h, m), 2.45 (3h, s); 31p nmr (d2o,
+300 mhz) delta 7.38; hrms (esi) m/z calcd for [m + h]+
+563.1773, found 563.1813.
+[2-(3-indolyl)-1(s)-carbamoylethyl]phosphoramidic acid
+5′-guanosyl ester (8). the yield is 38.3% (0.21 g) as a white
+solid: 1h nmr (d2o, 300 mhz) delta 7.72 (1h, s), 7.28 (1h,
+d), 7.15 (1h, d), 6.90 (2h, m), 6.73 (1h, t), 5.56 (1h, d),
+4.44 (1h, m), 4.11 (1h, m), 3.96 (1h, m), 3.60 (3h, m),
+2.85 (2h, m); 31p nmr (d2o, 300 mhz) delta 7.10; hrms
+(esi) m/z calcd for [m - h]- 547.146, found 547.144.
+2(r)-[adenosyl-5′-(phosphorylamino)]-3-(3-indolyl)proprionic acid methyl ester (11). the yield is 40.1%
+(0.31 g) as a white solid: 1h nmr (d2o, 300 mhz) delta 8.16
+(1h, s), 7.86 (1h, s), 7.17 (2h, m), 6.93 (1h, t), 6.83 (1h,
+s), 6.78 (1h, t), 5.83 (1h, d), 4.20 (1h, t), 4.12 (1h, m),
+3.80 (1h, m), 3.70 (2h, m), 3.19 (3h, s), 2.77 (2h, m); 31p
+nmr (d2o, 300 mhz) delta 7.36; hrms (esi) m/z calcd for
+[m - h]- 546.1508, found 546.1513.
+[2-(3-indolyl)-1-ethyl]phosphoramidic acid 5′-adenosyl
+ester (12). the yield is 37.4% (0.26 g) as a white solid: 1h
+nmr (d2o, 300 mhz) delta 7.98 (1h, s), 7.86 (1h, s), 6.99
+(2h, m), 6.73 (2h, m), 6.55 (1h, t), 5.7 (1h, d), 4.46 (1h,
+m), 4.23 (1h, m), 4.12 (1h, m), 3.78 (2h, m), 2.77 (2h,
+m), 2.43 (2h, m); 31p nmr (d2o, 300 mhz) delta 10.25; hrms
+(esi) m/z calcd for [m - h]- 488.1447, found 488.148.
+[2-(3-indolyl)-1-ethyl]phosphoramidic acid 5′-(1-betaarabinofuranosyl)adenine ester (13). the yield is 47%
+(0.45 g) as a white solid: 1h nmr (d2o, 300 mhz) delta 8.07
+(1h, s), 7.78 (1h, s), 7.11 (1h, d), 7.05 (1h, d), 6.8 (1h, t),
+6.75 (1h, s), 6.67 (1h, t), 6.03 (1h, d), 4.43 (1h, m), 4.29
+(1h, m), 3.92 (3h, m), 2.80 (2h, m), 2.51 (2h, m); 31p nmr
+(d2o, 300 mhz) delta 10.23; hrms (esi) m/z calcd for [m h]- 488.1447, found 488.1422.
+2(r)-[guanosyl-5′-(phosphorylamino)]-3-(3-indolyl)proprionic acid methyl ester (14). the yield is 16.3%
+(0.12 g) as a white solid: 1h nmr (d2o, 300 mhz) delta 7.88
+(1h, s), 7.32 (2h, m), 7.08 (1h, m), 6.95 (2h, m), 5.74 (1h,
+d), 4.29 (1h, m), 4.14 (1h, m), 3.82 (3h, m), 3.32 (3h, s),
+2.90 (2h, m); 31p nmr (d2o, 300 mhz) delta 7.46; hrms
+(esi) m/z calcd for [m - h]- 562.1451, found 562.1462.
+[2-(3-indolyl)-1-ethyl]phosphoramidic acid 5′-guanosyl ester (15). the yield is 16.0% (0.10 g) as a white solid:
+1
+h nmr (d2o, 300 mhz) delta 7.76 (1h, s), 7.2 (2h, m), 6.98
+(1h, m), 6.80 (2h, m), 5.60 (1h, d), 4.27 (1h, m), 4.14 (1h,
+m), 3.86 (1h, m), 3.79 (1h, m), 2.85 (2h, m), 2.56 (2h,
+m); 31p nmr (d2o, 300 mhz) delta 10.21; hrms (esi) m/z
+calcd for [m - h]- 504.1397, found 504.1400.
+[2-(3-indolyl)-1-ethyl]phosphoramidic acid 5′-(7-benzylguanosyl) ester (16). the reaction mixture was heated
+at 55 °c for 6 h. the product mixture was concentrated and
+the residue chromatographed on silica gel, eluting first with
+a chcl3/meoh mixture (80:20) and then with a chcl3/
+meoh/h2o mixture (5:3:0.25, containing 0.5% nh4oh).
+the solid obtained after evaporation of the solvent was
+passed through an ion exchange column (dowex-50w8-200,
+
+articles
+na+ form). the yield is 31% (0.04 g) as a white solid: 1h
+nmr (d2o, 300 mhz) delta 7.17-7.06 (m, 7h), 6.91 (s, 1h),
+6.81 (t, 1h), 6.62 (t, 1h), 5.65 (d, 1h), 4.96 (d, 2h), 4. 25
+(t, 1h), 4.15 (d, 1h), 3.96-3.72 (m, 2h), 2.94-2.67 (m,
+2h), 2.61 (t, 2h); 31p nmr (d2o, 300 mhz) delta 10.44; hrms
+(esi) m/z calcd for [m + h]+ 618.1837, found 618.1825.
+[2-(3-indolyl)-1-ethyl]phosphoramidic acid 5′-inosyl
+ester (17). the yield is 4.5% (0.057 g): 1h nmr (d2o,
+300 mhz) delta 8.04 (1h, s), 7.54 (1h, s), 7.14 (2h, m), 6.86
+(1h, m), 6.77 (1h, s), 6.69 (1h, m), 5.72 (1h, d), 4.28 (1h,
+m), 4.16 (1h, m), 3.87 (1h, m), 3.76 (1h, m), 2.75 (2h,
+m), 2.46 (2h, m); 31p nmr (d2o, 300 mhz) delta 10.29; hrms
+(esi) m/z calcd for [m - h]- 489.1288, found 489.1279.
+[2-(3-indolyl)-1-ethyl]phosphoramidic acid 5′-uridyl
+ester (18). the yield is 6.3% (0.041 g): 1h nmr (d2o,
+300 mhz) delta 7.37 (2h, m), 7.21 (1h, d), 6.97 (2h, m), 6.86
+(1h, m), 5.58 (1h, d), 5.18 (1h, d), 3.96 (3h, m), 3.84 (1h,
+m), 3.69 (1h, m), 2.95 (2h, m), 2.72 (2h, m); 31p nmr
+(d2o, 300 mhz) delta 10.26; hrms (esi) m/z calcd for [m h]- 465.1175, found 465.1174.
+[2-(3-indolyl)-1-ethyl]phosphoramidic acid 5′-cytidyl
+ester (19). the yield is 4.7% (0.031 g): 1h nmr (d2o,
+300 mhz) delta 7.42 (1h, d), 7.33 (1h, d), 7.20 (1h, d), 6.94
+(2h, m), 6.83 (1h, m), 5.59 (1h, d), 5.35 (1h, d), 3.90 (4h,
+m), 3.68 (1h, m), 2.93 (2h, m), 2.7 (2h, m); 31p nmr (d2o,
+300 mhz) delta 10.24; hrms (esi) m/z calcd for [m - h]464.1335, found 464.1335.
+[2-(3-indolyl)-1-ethyl]phosphoramidic acid 5′-thymidyl
+ester (20). the yield is 21.9% (0.072 g) as a white solid:
+1
+h nmr (d2o, 300 mhz) delta 7.24 (1h, d), 7.14 (1h, d), 7.09
+(1h, s), 6.92 (2h, m), 6.76 (1h, m), 5.93 (1h, t), 4.26 (1h,
+m), 3.89 (1h, m), 3.78 (1h, m), 3.67 (1h, m), 2.9 (2h, m),
+2.66 (2h, m), 1.99 (1h, m), 1.82 (1h, m), 1.23 (3h, s); 31p
+nmr (d2o, 300 mhz) delta 10.12; hrms (esi) m/z calcd for
+[m - h]- 463.1383, found 463.1396.
+n-(2-thiono-1,3,2-oxathiaphospholanyl)- l -tryptophan methyl ester (21). n-(2-thiono-1,3,2-oxathiaphospholanyl)-l-tryptophan methyl ester was prepared as previously described with minor modifications.28
+to a solution of l-tryptophan methyl ester hydrochloride
+(0.25 g, 1 mmol) was added 5 ml of dry pyridine elemental
+sulfur (0.07 g, 2 mmol). then 2-chloro-1,3,2-oxathiaphospholane (1 mmol) was added dropwise. the reaction mixture
+was stirred at room temperature for 12 h. then the solvent
+was removed under reduced pressure; to the residue was
+added acetonitrile (10 ml), and an excess of sulfur was
+filtered off. after evaporation of the solvent, the residue was
+dissolved in 2-3 ml of chloroform and applied to a silica
+gel (200-300 mesh) column (2.5 cm × 18 cm). the column
+was eluted with chloroform. appropriate fractions were
+combined and evaporated under reduced pressure to give the
+desired compound as a mixture of diastereoisomers. the
+diastereoisomers were separated by crystallization. from the
+(28) baraniak, j.; kaczmarek, r.; korczynski, d.; wasilewska, e.
+oxathiaphospholane approach to n- and o-phosphorothioylation
+of amino acids. j. org. chem. 2002, 67, 7267-7274.
+vol. 4, no. 2 molecular pharmaceutics
+
+211
+
+articles
+solution of both diastereoisomers in chloroform was deposited the isomer absorbing at lower field in 31p nmr [(cdcl3,
+121 mhz) delta 96.54]. mother liquor was concentrated, and
+the solid residue was dissolved in the solution of chloroform
+and  xxxd2052xxx  (10:1). crystals collected from this solvent
+mixture constituted the pure diastereomer resonating in 31p
+nmr at higher field [(cdcl3, 121 mhz) delta 95.52]. crystals
+of the diastereoisomer absorbing in 31p nmr at lower field
+have appeared to be appropriate for x-ray analysis,29 which
+proved the existence of the r configuration at the phosphorus
+center: yield of 0.27 g (75%); 1h nmr (cdcl3, 300 mhz)
+delta 8.09 (bs, 1h), 7.57 (d, 1h), 7.39-7.35 (m, 1h), 7.247.06 (m, 3h), 4.38-4.06 (m, 4h), 3.67 (s, 3h), 3.44-3.26
+(m, 4h); 31p nmr (cdcl3, 121 mhz) delta 96.54 (rp), 95.52
+(sp); hrfab-ms m/z calcd for [m - h]- 355.0418, found
+355.0419.
+general procedure for the synthesis of nucleoside 5′o-(l-tryptophanylphosphoramidothioates). nucleoside
+5′-o-(tryptophanylphosphoramidothioates) were prepared by
+a similarly described procedure with minor modification.30
+the individual diastereoisomer of n-(2-thiono-1,3,2-oxathiaphospholanyl)tryptophan methyl ester (0.36 g, 1 mmol)
+was dissolved in dry acetonitrile (5 ml), and into this
+solution was dropped a solution of n2-isobutyryl-o2′,o3′diacetylguanosine (0.44 g, 1 mmol) or n6,o2′,o3′-tribenzoyladenosine (0.58 g, 1 mmol) and dbu (167 µl, 1.1 mmol)
+in dry acetonitrile (6 ml). the reaction mixture was stirred
+at room temperature for 12 h and then concentrated under
+reduced pressure. the residual solid was suspended in 10
+ml of 20% aqueous ammonia and left for 24 h at room
+temperature in a tightly closed vial. ammonia was then
+evaporated; the residue was dissolved in water and purified
+on a sephadex a-25 column (3 cm × 20 cm), and products
+were eluted with a linear gradient of triethylammonium
+bicarbonate buffer (ph 7.5) from 0.05 to 0.4 m. the
+appropriate fractions were combined and evaporated to yield
+the oily product, which was dissolved in water and passed
+through a dowex 50wx2 (na+) column (1.5 cm × 10 cm).
+the fractions containing the product were combined and
+lyophilized to provide the corresponding products as a
+colorless solid.
+[2-(3-indolyl)-1(s)-carbamoylethyl]-(sp)-thiophosphoramidic acid 5′-adenosyl ester (4). the yield is 71% (0.39
+g) as a white solid: 1h nmr (d2o, 300 mhz) delta 8.20 (1h,
+s), 8.08 (1h, s), 7.32 (1h, d), 7.12 (1h, d), 7.03 (1h, s),
+6.84 (1h, t), 6.67 (1h, t), 5.82 (1h, d), 4.44 (1h, m), 4.12
+(2h, m), 3.80 (2h, m), 3.71 (1h, m), 2.97 (2h, m); 31p nmr
+(d2o, 121 mhz) delta 55.65; hrfab-ms m/z calcd for [m h]- 547.1954, found 547.1942.
+(29) wieczorek, m. unpublished results.
+(30) stec, w. j.; grajkowski, a.; karwowski, b.; kobylanska, a.;
+koziolkiewicz, m.; misiura, k.; okruszek, a.; wilk, a.; guga,
+p.; boczkowska, m. diastereomers of nucleoside 3′-o-(2-thio1,3,2-oxathia(selena)phospholanes): building blocks for stereocontrolled synthesis of oligo(nucleoside phosphorothioate)s. j. am.
+chem. soc. 1995, 117, 12019-12029.
+212
+
+molecular pharmaceutics vol. 4, no. 2
+
+chou et al.
+[2-(3-indolyl)-1(s)-carbamoylethyl]-(rp)-thiophosphoramidic acid 5′-adenosyl ester (5). the yield is 74.5% (0.41
+g) as a white solid: 1h nmr (d2o, 300 mhz) delta 8.28 (1h,
+s), 8.06 (1h, s), 7.32 (1h, d), 7.13 (1h, d), 7.02 (1h, s),
+6.85 (1h, t), 6.69 (1h, t), 5.82 (1h, d), 4.50 (1h, m), 4.16
+(2h, m), 3.94 (1h, m), 3.70 (2h, m), 2.97 (2h, m); 31p nmr
+(d2o, 121 mhz) delta 57.96; hrfab-ms m/z calcd for [m h]- 547.1954, found 547.1940.
+[2-(3-indolyl)-1(s)-carbamoylethyl]-(sp)-thiophosphoramidic acid 5′-guanosyl ester (9). the yield is 76.2% (0.43
+g) as a white solid: 1h nmr (d2o, 300 mhz) delta 7. 86 (1h,
+s), 7.37 (1h, d), 7.23 (1h, d), 6.96 (2h, t), 6.80 (1h, t),
+5.66 (1h, d), 4.52 (1h, m), 4.18 (1h, m), 4.10 (1h, m), 3.86
+(2h, m), 3.66 (1h, m), 2.96 (2h, m); 31p nmr (d2o, 121
+mhz) delta 55.63; hrfab-ms m/z calcd for [m - h]563.1304, found 543.1236.
+[2-(3-indolyl)-1(s)-carbamoylethyl]-(rp)-thiophosphoramidic acid 5′-guanosyl ester (10). the yield is 66.5%
+(0.38 g) as a white solid: 1h nmr (d2o, 300 mhz) delta 7.
+93 (1h, s), 7.39 (1h, d), 7.23 (1h, d), 7.03 (1h, s), 6.97
+(1h, t), 6.80 (1h, t), 5.65 (1h, d), 4.58 (1h, m), 4.19 (1h,
+m), 4.12 (1h, m), 3.89 (1h, m), 3.76 (2h, m), 2.96 (2h,
+m); 31p nmr (d2o, 121 mhz) delta 57.91; hrfab-ms m/z
+calcd for [m - h]- 563.1304, found 563.1250.
+continuous fluorescent phosphoramidase activity assay. stock solutions of substrates (5 mm) were prepared in
+deionized water and filtered through a 0.2 µm filter.
+hydrolysis of the fluorogenic substrate by hint proteins was
+carried out in 600 µl of degassed hepes buffer [20 mm
+hepes (ph 7.2) and 1 mm mgcl2] in quartz cuvettes at 25
+°c. the purification of hint proteins has been described
+previously.10 fluorescence measurements were taken in a
+varian/cary eclipse fluorimeter with the kinetics program
+equipped with a thermostated cuvette holder. the excitation
+wavelength was set at 280 nm; fluorescence emission was
+measured at 360 nm, and excitation and emission slits were
+set  xxxd1891xxx  nm for substrate concentrations from 50 nm to 2
+µm or 5 nm for substrate concentrations from 4 to 50 µm.
+the fluorescence intensity was monitored for 2 min to obtain
+the baseline and allow the temperature to stabilize at 25 °c,
+and then enzyme was added to initiate the reaction. the
+increase in fluorescence intensity was recorded for 2-30 min
+on the basis of the rate of hydrolysis. the initial velocities
+were obtained by converting the slope of the fluorescence
+spectrum into micromolar substrate hydrolyzed per minute,
+based on the fluorescence standard curves of substrate and
+indole product solutions (figure 1 and tables i and ii of the
+supporting information). measurements were carried out in
+duplicate, and variants are given as the standard deviation.
+equilibrium dialysis. equilibrium dialysis is figured as
+a simple but effective tool for the exploration of interactions
+between molecules in vitro. the interaction between hhint1
+and 3′-azido-3′- xxxd3364xxx -l-phenylalanine phosphoramidate monoester (l-apo) was analyzed with the equilibrium biodialyzer (the nest group, inc.). hhint1 (0.18 µm)
+and l-apo (0.1∼8.6 mm) were loaded into the sample
+chamber, and  xxxd3449xxx  [20 mm tris (ph 7.5), 1 mm
+
+articles
+
+phosphoramidate pronucleotides
+
+figure 1. fluorescence assay. the time course was for conversion of the first 10% of the reaction.
+
+edta, and 1 mm dtt] was loaded into the assay chamber.
+the concentration of free l-apo at equilibrium was determined by the absorbance at 267 nm. the control was
+performed without adding protein.
+
+results and discussion
+continuous fluorescence assay development. since the
+discovery that hints are nucleoside phosphoramidases, we
+have embarked on an effort to map the substrate specificity
+of these unique enzymes so that we may better understand
+their native function, as well as profit from their potential
+as pronucleotide bioactivators. although both hplc-based12
+and nmr-based10 assays of hint phosphoramidase activity
+have been developed, only two spectrophotometric assays
+have been devised. a spectrophotometric assay has been
+developed that relies on the release of methylcoumarinamine
+from released tert-butoxycarbonyl-l-lysine methylcoumarinamide by trypsin.13 a continuous spectrophotometric assay
+that depends on the ability to monitor the release of
+p-nitroaniline (410 nm) after hydrolysis of adenosine 5′-o
+p-nitroaniline phosphoramidate (amp-pna) by hints has
+also been developed.27 while each of these spectrophotometric assays has its advantages, the low substrate specificity
+(vide supra) for amp-pna and the discontinuous nature and
+restriction to lysine-based phosphoramidates of the coumarinbased assay spurred us to investigate the feasibility of
+developing a simple, sensitive, and efficient continuous
+fluorescence assay that was also structurally flexible enough
+to allow the substrate specificity of these enzymes to be
+probed in greater detail.
+nucleoside phosphoramidates, such as azt l-tryptophan
+methyl ester phosphoramidate monoester, that incorporate
+the fluorescent indole moiety have been shown to have potent
+antiviral and anticancer activity.4 as can be seen in figure
+1, because of intramolecular quenching, hydrolysis of the
+adenosine tryptophan phosphoramidate (1) by hhint1 can
+be easily observed by monitoring the increase in indole
+fluorescence with time. due to the magnitude of fluorescence
+quenching (>10-fold), this assay can be carried out in the
+
+low micromolar range, while interfilter effects limited the
+highest substrate concentration to 50 µm.
+hint substrate specificity. from an examination of the
+michaelis-menten parameters for the series of indolecontaining nucleoside phosphoramidates, a picture of the
+substrate specificity for both hhint1 and echint begins to
+emerge (tables 1-3). first, on the basis of kcat/km values,
+when either adenosine or guanosine phosphoramidateincorporated l-tryptophan, the human enzyme preferred
+substitution of the r-carboxylate with a r-carboxamide
+(table 1). in contrast, echint exhibited no significant
+preference for either the methyl ester, methyl amide, or amide
+substitution. this discrepancy is likely due to the closeness
+of a h-bond donor in the vicinity of the phosphoramidate
+r-carboxylate. this apparently is not the case for echint,
+since no particular preference for a substitution at the
+r-carboxylate was observed. when the effect of amino acid
+stereochemistry was examined, hhint1 was far more sensitive
+to configurations at the r-carbon of the amino acid, preferring d- over l-tryptophan by approximately 70- and 120fold for the adenosine and guanosine phosphoramidates,
+respectively (table 2). in contrast, the bacterial enzyme
+exhibited no particular amino acid stereochemical preference,
+thus revealing an additional difference between the active
+sites that may be exploited in the development of bacterially
+specific pronucleotides. the discrepancy between the enzymes was eliminated with the removal of the r-carboxylate.
+tryptamine phosphoramidates of adenosine were shown to
+have significantly higher kcat values and lower km values and,
+therefore, kcat/km values that are 240-fold (hhint1) and 44fold (echint) greater than the values for  xxxd1794xxx 
+phosphoramidates (table 2). obviously, for both enzymes,
+the r-carboxylate presents a significant stereochemical
+barrier to not only substrate binding but also, on the basis
+of the proposed mechanism, formation of the initial adenylated enzyme.
+on the basis of the crystal structure of hhint1 with the
+stable adp analogue, ampcp, the conserved residues
+his112(hhint1) and his101(echint) and his114(hhint1) and
+vol. 4, no. 2 molecular pharmaceutics
+
+213
+
+articles
+
+chou et al.
+
+table 1. steady state kinetic comparison of hydrolysis of phosphoramidate and phosphoramidothioate substrates by
+hhint1 and echint in hepes buffer (ph 7.2)a
+
+kcat (s-1)
+compound
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+a
+
+r1
+
+r2
+
+adenine
+adenine
+adenine
+adenine
+adenine
+guanine
+guanine
+guanine
+guanine
+guanine
+
+ooos- (sp)
+s- (rp)
+ooos- (sp)
+s- (rp)
+
+kcat/km (×10-3 s-1 m-1)
+
+km (µm)
+
+r3
+
+hhint1
+
+echint
+
+hhint1
+
+echint
+
+hhint1
+
+echint
+
+och3
+nhch3
+nh2
+nh2
+nh2
+och3
+nhch3
+nh2
+nh2
+nh2
+
+0.012 ( 0.001
+0.02 ( 0.003
+0.45 ( 0.01
+0.011 ( 0.007
+0.03 ( 0.008
+0.0071 ( 0.002
+0.024 ( 0.002
+0.23 ( 0.01
+0.002 ( 0.0001
+0.012 ( 0.003
+
+1.1 ( 0.1
+0.52 ( 0.06
+1.28 ( 0.09
+0.02 ( 0.01
+0.07 ( 0.05
+0.50 ( 0.02
+0.56 ( 0.07
+0.52 ( 0.04
+0.01 ( 0.003
+0.011 ( 0.003
+
+41 ( 4
+44 ( 11
+50 ( 3
+216 ( 15
+49 ( 14
+31 ( 1
+65 ( 9
+58 ( 6
+52 ( 6
+162 ( 23
+
+43 ( 3
+63 ( 8
+94 ( 9
+361 ( 27
+779 ( 56
+32 ( 3
+67 ( 14
+64 ( 8
+190 ( 66
+137 ( 40
+
+0.23 ( 0.04
+0.5 ( 0.2
+9.2 ( 0.7
+0.05 ( 0.04
+0.6 ( 0.3
+0.23 ( 0.01
+0.37 ( 0.08
+4.0 ( 0.6
+0.04 ( 0.007
+0.07 ( 0.03
+
+28 ( 4
+8(2
+14 ( 2
+0.05 ( 0.03
+0.09 ( 0.07
+16 ( 2
+8(3
+8(2
+0.05 ( 0.03
+0.08 ( 0.04
+
+measurements were carried out in duplicate, and variants are given as the standard deviation.
+
+table 2. steady state kinetic parameters of hhint1 and echinta
+
+kcat (s-1)
+
+km (µm)
+
+kcat/km (×10-3 s-1 m-1)
+
+compound
+
+r1
+
+r4
+
+r5
+
+r6
+
+hhint1
+
+echint
+
+hhint1
+
+echint
+
+hhint1
+
+echint
+
+1
+11
+12
+13
+6
+14
+15
+16
+17
+18
+19
+20
+
+adenine
+adenine
+adenine
+adenine
+guanine
+guanine
+guanine
+7-benzylguanine
+hypoxanthine
+uracil
+cytosine
+thymine
+
+h
+h
+h
+oh
+h
+h
+h
+h
+h
+h
+h
+h
+
+oh
+oh
+oh
+h
+oh
+oh
+oh
+oh
+oh
+oh
+oh
+h
+
+s-cooch3
+r-cooch3
+h
+h
+s-cooch3
+r-cooch3
+h
+h
+h
+h
+h
+h
+
+0.012 ( 0.001
+0.27 ( 0.02
+2.1 ( 0.1
+1.1 ( 0.03
+0.0071 ( 0.002
+0.26 ( 0.02
+2.3 ( 0.07
+0.68 ( 0.04
+2.6 ( 0.04
+2.5 ( 0.3
+1.2 ( 0.1
+0.10 ( 0.01
+
+1.1 ( 0.1
+1.0 ( 0.2
+4.5 ( 0.07
+1.5 ( 0.4
+0.50 ( 0.02
+0.37 ( 0.01
+4.0 ( 0.4
+0.15 ( 0.01
+4.2 ( 0.1
+2.4 ( 0.6
+0.49 ( 0.03
+0.02 ( 0.002
+
+41 ( 4
+4.1 ( 0.9
+0.13 ( 0.02
+1.0 ( 0.06
+31 ( 1
+3.3 ( 0.6
+0.21 ( 0.02
+14 ( 2
+0.71 ( 0.03
+2.2 ( 0.4
+2.3 ( 0.4
+32 ( 5
+
+45 ( 12
+45 ( 12
+5.2 ( 0.2
+60 ( 19
+32 ( 3
+21 ( 1
+6(1
+56 ( 6
+14 ( 1
+42 ( 15
+30 ( 3
+46 ( 7
+
+0.23 ( 0.04
+70 ( 20
+15000 ( 3000
+1100 ( 100
+0.23 ( 0.01
+80 ( 30
+11000 ( 1000
+50 ( 10
+3700 ( 300
+1200 ( 500
+600 ( 200
+3(1
+
+28 ( 4
+20 ( 10
+870 ( 50
+30 ( 20
+16 ( 2
+17 ( 2
+700 ( 200
+2.6 ( 0.7
+310 ( 40
+70 ( 60
+20 ( 4
+0.4 ( 0.2
+
+a
+
+measurements were carried out in duplicate, and variants are given as the standard deviation.
+
+his103(echint) are likely to interact directly with the
+phosphorus oxygens and nitrogen of phosphoramidates31
+(figure 2). to gain insights into the potential role of these
+side chains with the phosphoramidate oxygens, each of the
+oxygens of compounds 3 and 8 were stereospecifically
+replaced with phosphoramidothioates (table 1). a marked
+(31) lima, c. d.; klein, m. g.; hendrickson, w. a. structure-based
+analysis of catalysis and substrate definition in the hit protein
+family. science 1997, 278, 286-290.
+214
+
+molecular pharmaceutics vol. 4, no. 2
+
+decrease in the kcat values for both hhint1 and echint was
+observed. the greater effect on kcat observed for both adenosine and guanosine substrates likely reflects the similar importance of specifically aligned active site stabilizing interactions
+on both the transition state for either enzyme adenylation or
+deadenylation. while the echint km values for the phosphoramidothioates increased, the hhint1 km value was
+unchanged for the adenosine rp analogue (4) and the
+guanosine sp analogue (9). the idiosyncratic differences
+
+articles
+
+phosphoramidate pronucleotides
+table 3. echint/hhint1 ratio of the specificity constant
+(kcat/km)
+compound
+
+ratio of kcat/km
+(echint/hhint1)
+
+compound
+
+ratio of kcat/km
+(echint/hhint1)
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+122 ( 39
+16 ( 10
+1.5 ( 0.3
+1(1
+0.2 ( 0.2
+70 ( 12
+22 ( 13
+2.0 ( 0.8
+1(1
+1(1
+
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+
+0.3 ( 0.2
+0.06 ( 0.01
+0.03 ( 0.02
+0.21 ( 0.1
+0.06 ( 0.02
+0.05 ( 0.02
+0.08 ( 0.02
+0.06 ( 0.07
+0.03 ( 0.02
+0.13 ( 0.11
+
+observed for these substrates and the hints may reflect subtle
+discrepancies in their binding affinity and/or the rate of active
+site adenylation by the two enzymes.
+probing the hint base recognition site, we determined the
+substrate specificity for both purine and pyrimidine phosphoramidates of tryptamine. adenosine (12) and guanosine
+(15) phosphoramidates were found to have the greatest kcat/
+km values for both enzymes (table 2). indeed, the hhint1
+kcat/km value of 1.5 × 107 s-1 m-1 for compound 12 is 30fold greater than the value of 4.9 × 105 s-1 m-1 reported
+for the hydrolysis of n--n-boc-lysine adenosine phosphoramidate by the nearly identical rabbit  xxxg1050xxx .27 the slight
+preference by hhint1 and echint may be a reflection of a
+somewhat tighter set of binding interactions between the
+active site and n-3, as well as the ribose ring (figure 3a,b).
+evidently, the predicted backbone carbonyl interaction with
+2-nh2 (figure 3c) is significant, since the km, and therefore
+kcat/km, for tryptamine phosphoramidate of inosine (17) is
+3-fold lower than the value for tryptamine guanosine
+phosphoramidate (15). neither uridine (18) nor cytidine (19)
+phosphoramidates can access either of these backbone
+interactions; thus, purine substrates are preferred by both
+enzymes, with a uridine analogue enjoying a slight preference
+over a cytidine analogue. although the crystal structure
+studies demonstrated that n-7 for both adenosine and
+guanosine is solvent accessible, the introduction of a benzyl
+group at this position seriously compromised both the kcat
+and km value and therefore the kcat/km. nevertheless,
+modifications on this face are still remarkably well tolerated.
+as exhibited by the crystal structure of hhint1 (figure
+3), two significant hydrogen bonding interactions are made
+with the ribose of either amp or gmp. the inability of either
+hhint1 or echint to efficiently hydrolyze thymidine tryptamine
+phosphoramidate (20) is consistent with this finding. furthermore, although we were able to demonstrate by equilibrium dialysis that the potent  xxxd3553xxx  phosphoramidate4, l-apo, is able to modestly bind to hhint1 (kd ) 1.0
++ 0.2 mm); l-apo proved neither to be an inbibitor nor a
+substrate for hhint1 (chou, t.-f. and wagner, c. r.,
+unpublished results). thus, phosphoramidates of dideoxynucleosides are unlikely to be substrates for hints. the
+configuration of the substituents at this position is not
+absolute, since the ara-a phosphoramidate (13), in which
+
+figure 2. x-ray crystallographic structure of hhint1 with
+bound ampcp (a) (pdb entry 1av5) and of the hhint1 active
+site with bound amp (b) (pdb entry 1kpf; ref 31).
+
+the 2′-oh group is in the opposite beta-configuration, is
+tolerated as a substrate (table 2).
+summary and concluding remarks. on the basis of
+these results, a general outline of the phosphoramidase
+substrate specificity requirements for hints can be delineated.
+first, although there is a clear preference for purine phosphoramidates, pyrimidine-based phosphoramidates can be
+considered as viable substrates. second, on the basis of
+crystal structure studies and our kinetic results with phosphoramidothioates, substitutions of the phosphoramidate
+oxygens are not likely to be tolerated. third, regardless of
+the base, maintenance of an electrophilic or hydrogenbonding group at the ribose 2′-position is essential. phosphoramidates containing deoxy- or dideoxynucleosides, such
+as d4t and azt, therefore, are not likely to be substrates
+for mammalian hints.2,4,5,7 nevertheless, as the results with
+ara-a demonstrate, the beta-configuration is well tolerated,
+opening the door to the potential for drugs such as  xxxd2120xxx ,32,33  xxxd1722xxx ,34  xxxd1790xxx ,35,36 and the recently discovered
+2′-methyl nucleosides37 to be substrates for hints. fourth,
+phosphoramidates containing a primary amine with as few
+as two methylene groups are significantly favored as
+substrates over sterically crowded amines. the remarkable
+vol. 4, no. 2 molecular pharmaceutics
+
+215
+
+articles
+
+chou et al.
+expanded by improving their cellular uptake, as well as by
+incorporation of an additional tissue targeting compound or
+synergistic drug coupled through an alkyl amine linker.
+last, although the phosphoramidase activity of hints has
+only recently been discovered, it has been known for decades
+that both bacterial and mammalian tissues express a  xxxd2246xxx  phosphoramidase. smith and burrow were the
+first to demonstrate this activity, when they discovered that
+e. coli extracts were able to efficiently hydrolyze adenosine
+phosphoramidate (amp-nh2).40 shabarova and co-workers
+later partially purified a phosphoramidase from rabbit and
+rat liver extracts that specifically preferred to hydrolyze
+phosphoramidate-containing purine bases and d-amino acids.41 the first phosphoramidase purified to homogenenity
+was obtained from bacterial extracts by kumon and coworkers and shown to be a 28 kda homodimer.42 unfortunately, since they did not obtain sequence data for this
+protein, its identity could not be determined. consequently,
+on the basis of our substrate specificity results for both
+bacterial and human hints, we believe that the identity of
+the phosphoramidase previously studied is eukaryotic  xxxg1050xxx 
+and prokaryotic hint. nevertheless, given the inability of
+hhint1 to hydrolyze l-apo or the related antiviral analog,
+3′-azido-3′- xxxd3364xxx -l-tryptophan methyl amide phosphoramidate (chou, t.-f. and wagner, c. r., unpublished
+results), it is highly unlikely that the phosphoramidase
+
+figure 3. hydrogen bonding network surrounding the purine
+ring and ribose of amp-bound hhint1 (a) (pdb entry 1kpf;
+ref 31) and ribose gmp-bound rabbit  xxxg1050xxx  (b) (pdb entry
+3rhn; ref 43), revealing the chemical basis of discrimination
+by hhint1 of ara-adenosine, guanosine, and inosine as
+substrates.
+
+efficiency with which hints can convert nucleoside phosphoramidates to the 5′-monophosphates is comparable to the
+values of 103-106 observed for nucleoside kinases, such as
+adenosine kinases.38,39 one can envision, therefore, that the
+therapeutic utility of nucleoside phosphoramidates could be
+(32) brockman, r. w.; schabel, f. m., jr.; montgomery, j. a. biologic
+activity of  xxxd2120xxx , a metabolically
+stable analog of 9-beta-d-arabinofuranosyladenine. biochem. pharmacol. 1977, 26, 2193-2196.
+(33) danhauser, l.; plunkett, w.; keating, m.; cabanillas, f. 9-beta-darabinofuranosyl-2-fluoroadenine 5′-monophosphate pharmacokinetics in plasma and tumor cells of patients with relapsed
+leukemia and lymphoma. cancer chemother. pharmacol. 1986,
+18, 145-152.
+(34) lindemalm, s.; liliemark, j.; gruber, a.; eriksson, s.; karlsson,
+m. o.; wang, y.; albertioni, f. comparison of cytotoxicity of
+2-chloro-2′-arabino-fluoro-2′-deoxyadenosine ( xxxd1722xxx ) with
+cladribine in mononuclear cells from patients with acute myeloid
+and chronic lymphocytic leukemia. haematologica 2003, 88,
+324-332.
+216
+
+molecular pharmaceutics vol. 4, no. 2
+
+(35) kufe, d. w.; major, p. p.; egan, e. m.; beardsley, g. p.
+correlation of cytotoxicity with incorporation of  xxxd1790xxx  into dna.
+j. biol. chem. 1980, 255, 8997-9000.
+(36) major, p. p.; egan, e. m.; beardsley, g. p.; minden, m. d.; kufe,
+d. w. lethality of human myeloblasts correlates with the
+incorporation of  xxxd1790xxx  into dna. proc. natl.
+acad. sci. u.s.a. 1981, 78, 3235-3239.
+(37) eldrup, a. b.; allerson, c. r.; bennett, c. f.; bera, s.; bhat, b.;
+bhat, n.; bosserman, m. r.; brooks, j.; burlein, c.; carroll, s.
+s.; cook, p. d.; getty, k. l.; maccoss, m.; mcmasters, d. r.;
+olsen, d. b.; prakash, t. p.; prhavc, m.; song, q.; tomassini, j.
+e.; xia, j. structure-activity relationship of purine ribonucleosides
+for inhibition of hepatitis c virus rna-dependent rna polymerase. j. med. chem. 2004, 47, 2283-2295.
+(38) maj, m. c.; singh, b.; gupta, r. s. pentavalent ions dependency
+is a conserved property of  xxxg79xxx  from diverse
+sources: identification of a novel motif implicated in phosphate
+and  xxxd2531xxx  binding and substrate inhibition. biochemistry
+2002, 41, 4059-4069.
+(39) darling, j. a.; sullivan, w. j.; carter, d.; ulman, b.; roos, d.
+s. recombinant expression, purification, and characterization of
+toxoplasma gondii  xxxg79xxx . mol. biol. parasitol. 1999,
+103, 15-23.
+(40) smith, r. a.; burrow, d. j. enzymic cleavage of phosphoramidic
+acid. biochim. biophys. acta 1959, 34, 274-276.
+(41) shabarova, z. a. synthetic nucleotide-peptides. prog. nucleic acid
+res. mol. biol. 1970, 10, 145-182.
+(42) kuba, m.; okizaki, t.; ohmori, h.; kumon, a. nucleoside
+monophosphoramidate hydrolase from rat liver: purification and
+characterization. int. j. biochem. 1994, 26, 235-245.
+(43) brenner, c.; garrison, p.; gilmour, j.; peisach, d.; ringe, d.;
+petsko, g. a.; lowenstein, j. m. crystal structures of hint
+demonstrate that histidine triad proteins are gadt-related nucleotide-binding proteins. nat. struct. biol. 1997, 4, 231-238.
+
+articles
+
+phosphoramidate pronucleotides
+activity responsible for the activation of the previously
+reported  xxxd3553xxx  and d4t phosphoramidates is
+hhint1.2,4,5,7 the identity of this enzyme(s) remains to be
+determined.
+
+abbreviations used
+echint, e. coli histidine triad nucleotide binding protein;
+hhint1, human  xxxg1050xxx ;
+amp-lysine, amp-n--(n-r-acetyllysine methyl ester) 5′phosphoramidate; ampcp, adenosine 5′-(r,beta-methylene)diphosphate; gmp, guanosine 5′-monophosphate; dtt,
+dithiothreitol; edta, ethylenediaminetetraacetic acid; hit,
+histidine triad; sds-page, sodium dodecyl sulfatepolyacrylamide gel electrophoresis; tris, tris(hydroxymethyl)aminomethane.
+
+acknowledgment. we thank dr. phalguni ghosh for
+technical assistance and for providing a sample of 7-benzylguanosine monophosphate. we thank dr. w. stec (polish
+academy of sciences) for stimulating discussions. we
+gratefully acknowledge the national institutes of health
+(hl073719 and hl076779) and the university of minnesota
+academic health center for partial support of this research.
+supporting information available: fluorescence
+standard curves (figure 1), fluorescence factors obtained
+from fluorescence standard curves in hepes buffer (table
+i), and equations used to convert fluorescence intensity
+changes to velocities (table ii). this material is available
+free of charge via the internet at http://pubs.acs.org.
+mp060070y
+
+vol. 4, no. 2 molecular pharmaceutics
+
+217
+

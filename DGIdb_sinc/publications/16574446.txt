@@ -1,0 +1,1441 @@
+journal of molecular graphics and modelling 25 (2006) 396–409
+www.elsevier.com/locate/jmgm
+
+molecular dynamics of a biophysical model for b2-adrenergic
+and g protein-coupled receptor activation§
+lester a. rubenstein a,ä, randy j. zauhar b, richard g. lanzara c,*
+a
+
+department of physiology and biophysics, mount sinai school of medicine, one gustav levy place,
+new york, ny 10029, united states
+b
+department of chemistry and biochemistry, the university of the sciences in philadelphia, 600 s. 43rd street,
+philadelphia, pa 19104, united states
+c
+bio balance, inc. pharmacology, 30 west 86th street, new york, ny 10024, united states
+received 14 december 2005; received in revised form 17 february 2006; accepted 21 february 2006
+available online 30 march 2006
+
+abstract
+this study analyzes 16 molecular dynamic simulations of a biophysical model for b2-adrenergic ( xxxg92xxx ) and g protein-coupled receptor
+(gpcr) activation. in this model, a highly conserved cysteine residue, c106 (c3.25 or cysiii:01), provides a free sulfhydryl or thiol group in an
+acid–base equilibrium between uncharged (rsh) and charged (rs) states that functions as an electrostatic molecular switch for receptor
+activation. the transition of c106 in the  xxxg92xxx  between acid and base states significantly changes the helical/transmembrane (tm) domain
+interactions and the electrostatic interaction energy differences (ddeel). the ddeel changes correlate well with the experimentally observed
+ligand efficacies. the tm interaction energies display patterns compatible with those previously recognized as responsible for gpcr activation.
+key differences between the agonist, epinephrine, and the antagonist,  xxxd2957xxx , are seen for the  xxxg2318xxx   6,  xxxg2318xxx   4, tm6  7 and tm1  7
+interaction energies.  xxxd2957xxx  also produces a weaker ddeel interaction and less tm interaction energy changes, which are important differences
+between the agonist and antagonist ligands. the d115e mutant with  xxxd2957xxx  displays a greater ddeel and tm interactions than for the wild-type
+ xxxg92xxx  with  xxxd2957xxx . this explains the higher activity of  xxxd2957xxx  in the d115e mutant. the constitutively active d130a mutant displays tm
+interaction patterns similar to those for the activating ligands implying a common pattern for receptor activation. these findings support the broad
+concept of protean agonism and demonstrate the potential for allosteric modulation. they also demonstrate that this two-state model agrees with
+many previous experimental and theoretical observations of gpcrs.
+# 2006 elsevier inc. all rights reserved.
+keywords: molecular dynamics; two-state model; g protein-coupled receptor model;  xxxg92xxx  adrenergic receptor; sulfhydryl; electrostatic molecular switch;
+receptor activation
+
+1. introduction
+abbreviations:  xxxg92xxx , b2-adrenergic receptor; dtt, dithiolthreitol;
+d130a, the  xxxg92xxx  aspartate residue 130 to alanine mutation; d113e, the
+ xxxg92xxx  aspartate residue 113 to glutamate mutation; epi, epinephrine; del,
+the energy difference between the base and acid states for the electrostatic
+energy terms; ddeel, electrostatic interaction energy differences; gpcr, g
+protein-coupled receptor; gs, stimulatory gtp-binding regulatory protein of
+adenylylcyclase; dlj, the energy difference between the base and acid states
+for the lennard–jones energy terms; md, molecular dynamics; ne, norepinephrine; pin,  xxxd2957xxx ; rmsd, root mean square deviation; drh, the net
+change in a high affinity receptor state; tm, transmembrane
+§
+this work is dedicated to and in memory of dr. lester a. rubenstein.
+* corresponding author.
+e-mail address: rlanzara@bio-balance.com (r.g. lanzara).
+ä
+deceased author.
+1093-3263/$ – see front matter # 2006 elsevier inc. all rights reserved.
+doi:10.1016/j.jmgm.2006.02.008
+
+receptor activation requires the recognition of an extracellular signal that usually involves an endogenous agonist
+ligand activating its target receptor. the g protein-coupled
+receptors (gpcrs), receive and transmit these signals to the
+intracellular environment. as general models for all gpcrs,
+the b2-adrenergic ( xxxg92xxx ) and rhodopsin receptors have been
+studied extensively to understand the complex molecular
+changes that accompany receptor activation and signal
+transduction.
+recent experimental discoveries have significantly changed
+our understanding of how these receptors work. bond et al.
+demonstrated that transgenic mice with an increased number of
+
+l.a. rubenstein et al. / journal of molecular graphics and modelling 25 (2006) 396–409
+
+ xxxg92xxx  receptors exhibit spontaneous activity similar to
+normally expressed receptors in the presence of an agonist
+ligand [1]. this observation separated receptor activation from
+the action of agonist ligands alone and prompted a revision of
+receptor models to include an intrinsically active receptor state.
+one consequence of this revision was that the resting
+populations of receptors must interconvert by themselves from
+resting to active states. however, the biophysical basis for these
+active and inactive receptor states has not been adequately
+defined or understood. one possible perspective is that there
+must exist an equilibrium between the inactive and active
+receptor states that can be perturbed to produce a shift in the net
+amounts of these states. an agonist ligand favoring the active
+receptor state would perturb the initial chemical equilibrium
+thereby inducing receptor activation in a manner similar to le
+chatelier’s principle. however, the underlying molecular
+mechanism of this perturbation needs to be more carefully
+examined.
+mathematical models are essential for understanding the
+underlying biophysical events that determine the receptor
+response. in general, two-state mathematical models have been
+among the most successful for describing receptor activation
+[2–8]. most of these models calculate either the proportional or
+fractional receptor occupancy as the overall receptor response
+[2–5]. although it is seductive to assume that the proportional
+amount of an active receptor state should correlate with the
+biological response, the experimental evidence for receptor
+overexpression and spare receptors suggests that the calculation
+of the net change in the active receptor state is a much better
+measure for response than is the fractional or proportional
+change [6–8]. this is demonstrated by the effects of agonist/
+antagonist combinations on the desensitization of b-receptors
+[7,8]. this is also demonstrated by receptors that are activated
+by overexpression since this requires a change between r and
+r* that is difficult to understand in terms of a proportional
+rather than a net change [7,8]. from this perspective, it is
+important to determine within the constructs of any molecular
+model what molecular states interconvert either by ligands,
+receptor overexpression or mutation.
+several experimental techniques show that the relative
+movements of transmembrane domains iii and vi ( xxxg2318xxx  and
+tm6) correspond with receptor activation in both the rhodopsin
+and  xxxg92xxx  receptors [9–15]. gether et al., using fluorescent
+labels, localized agonist-induced conformational changes of
+the  xxxg92xxx  to  xxxg2318xxx  and tm6 [12]. ballesteros et al. showed that
+charge-neutralizing mutations of e268 in tm6 and  xxxd130xxx  in
+ xxxg2318xxx  led to a significant increase in basal and pindololstimulated camp accumulation in cos-7 cells, which was
+presumably due to an increase in the relative motions of  xxxg2318xxx  to
+tm6 [13,14]. in the rhodopsin receptor, khorana’s group using
+spin labels attached to cysteine residues showed that rigid body
+movements of  xxxg2318xxx  relative to tm6 were essential for
+activation [10].
+other investigators have also suggested that the cis–trans
+isomerization of retinal in rhodopsin causes repositioning
+followed by a movement of  xxxg2318xxx  away from tm6 [9,11,15].
+clearly there are many studies that implicate  xxxg2318xxx  and tm6
+
+397
+
+with the molecular events leading to receptor activation. an
+implicit assumption from these important studies is that there
+exists an ‘‘off’’ conformation of the  xxxg2318xxx  and tm6 domains
+that can be switched to an ‘‘on’’ conformation corresponding
+with gpcr activation. however, from this perspective, it is
+difficult to clearly translate  xxxg2318xxx  and tm6 domain motions into
+discrete molecular entities for specific on and off states.
+previously, we have attempted to bridge this gap by defining
+specific receptor states that relate the acid–base transition of a
+conserved sulfhydryl group to the mathematically defined r
+and r* states [16]. in this present work, we examine whether or
+not this model can be applied to the molecular dynamic analysis
+of the  xxxg92xxx .
+although controversial, there is a wealth of experimental
+evidence for the existence of at least one free sulfhydryl group
+that modulates the receptor response in many gpcrs [16–34].
+for decades it has been known that there are free sulfhydryl
+groups in blood and on the external side of animal tissues in
+vivo [17]. however, most experimentalists and theoreticians
+have not seriously questioned that the conserved disulfidebonded cysteines may be a potential source of free sulfhydryl
+groups under normal physiologic conditions. this may be
+primarily due to the fact that all of the gpcr families are
+considered to have a highly conserved disulfide bond
+connecting a conserved cysteine in the extracellular region
+of  xxxg2318xxx  [19–21]. within all of the gpcr families this disulfidelinked cysteine, c110 in rhodopsin or c106 in the  xxxg92xxx , is the
+most conserved cysteine that is vital for gpcr expression and
+function [19–21]. this disulfide’s proximity to both the
+extracellular region and the ligand binding region suggests
+that the oxidation/reduction state of this bond could modulate
+both ligand binding and receptor function [23–25].
+from specific sequence analyses, it is known that the  xxxg92xxx 
+receptor contains a total of 13 cysteine residues [18]. of these
+cysteines, there are four potentially reactive cysteines, c106,
+c184, c190 and c191, on the external side of the  xxxg92xxx  that
+may form at least one extracellular disulfide bond [18].
+similarly, in the rhodopsin receptor there are three external
+cysteines, c110, c185 and c187 that are potentially reactive.
+the odd number of external cysteines in the rhodopsin receptor
+insures that there will be at least one free sulfhydryl group even
+when the disulfide bond is formed.
+the crystal structure for rhodopsin in the protein data bank
+(1f88) shows c110 in the extracellular region of  xxxg2318xxx 
+positioned about 10 å away from the 11-cis-retinal chromophore and 7 å from glutamine e113 [15,22]. this c110 is
+normally considered to be in a disulfide bond with c187 and is
+apparently in a disulfide bond in the crystal structure; however,
+the nearby c185 apparently exists as a free sulfhydryl group,
+which may undergo acid–base transitions as well as other
+chemical reactions. because the conditions for crystallization
+are very different from the natural state in which receptors
+normally function in vivo, it is difficult to imagine that the
+conditions for crystallization would preserve the free sulfhydryl
+groups of a reduced disulfide bond. receptors transiently
+exposed to oxidizing conditions in vivo or in vitro may form this
+disulfide bond as a protective mechanism so that upon return to
+
+398
+
+l.a. rubenstein et al. / journal of molecular graphics and modelling 25 (2006) 396–409
+
+reducing conditions, the normal receptor state could be easily
+regenerated.
+in this context, it is important to consider a few of the
+complex chemical equilibria between the acid/base and
+oxidized/reduced forms of cysteine [35]. first, the side chain
+can reversibly ionize:
+rsh $ rs þ hþ
+
+(1)
+
+second, there is the oxidation/reduction equilibrium involving
+the disulfide bond:
+rsh þ rs $ rssr þ oh
+
+(2)
+
+in the presence of a suitable oxidizing agent, a suitable base
+acts to increase the probability of disulfide bond formation by
+forming rs, which initiates the reaction cascade for disulfide
+bond formation (shown below) [36].
+in general, many sulfhydryl groups or mercaptans are easily
+oxidized to disulfides and the interconversion between cysteine
+and cystine is important in biochemistry [36]. this mechanism
+has been studied for several oxidizing agents and varies with the
+agent. for oxygen it is:
+rsh þ b $ rs þ bh
+
+
+rs þ o2 $ rs þ o2
+rs þ o2
+
+
+
+
+
+
+
+$ rs þo2 2
+
+
+
+2rs $ rssr
+o2 2 þ bh $ oh þ b þ o2
+this mechanism with respect to the sulfur involves the loss
+of a proton, reduction to a free radical followed by radical
+coupling [36]. the resultant equation from this reaction cascade
+is eq. (2) above. this reaction cascade demonstrates the
+important role played by base ions (b) to favor free radical
+formation in the presence of an oxidizing agent such as
+molecular oxygen. this also demonstrates some of the
+experimental difficulties in studying free thiol groups since
+exposure to air in the presence of a base is often sufficient to
+oxidize free thiols to disulfides or several other oxidized species
+too numerous to mention here [35–39].
+from the above considerations, assumptions that the disulfide
+cysteines are always resistant to chemical derivatization may not
+be correct for the normal conditions of receptor function in vivo.
+when one or more of the extracellular cysteines of the  xxxg92xxx 
+(c106, c184, c190 or c191) are either mutated or chemically
+altered thiol/disulfide exchange may occur with the remaining
+free cysteines or other free thiol groups to complicate the
+analysis. in addition, double mutants often fail to express either
+as an extracellular or functional form of the receptor, which
+makes it difficult to determine which of the four cysteines in the
+ xxxg92xxx  are most critical for receptor function and expression
+[18,19]. this is usually interpreted as evidence for the disulfide
+bond being essential for receptor activation [18,19]. although
+this view has been accepted without very much critical
+questioning, there is at least one alternative explanation [16].
+
+evidence from experimental binding studies from several
+gpcrs demonstrate that a free sulfhydryl group is next to the
+agonist ligand binding site [26–33]. sidhu made use of this fact
+to purify the d-1 dopamine receptor from rat striatum [26].
+others using a morphine ligand with an attached sulfhydryl
+group found a free sulfhydryl group near the ligand binding site
+of the m opioid receptor [27].
+additional studies have found free sulfhydryl groups next to
+the agonist binding site in the m, d and k opioid receptors
+[28,29]. heinonen et al., using a series of sh-reactive
+‘‘molecular yardsticks’’, found a cysteine thiol group about
+8.6–14.5 å from the position of asp113 ( xxxd113xxx ) in the a2adrenergic receptor [30]. since this aspartate residue is
+important for attracting the positive amine group of binding
+ligands in many gpcrs including the  xxxg92xxx , the proximity of
+free cysteines may be considered as a critical component of
+normal receptor function, which has been experimentally
+observed [23,24,31–34] and theoretically justified [16].
+experimental measurements of receptor activation suggest
+that the disulfide bond requires reduction to a free sulfhydryl for
+the functional state of several gpcrs in vivo [23–25,34]. one
+of the simplest and most direct experimental studies demonstrated that externally applied sulfhydryl reducing agents
+potentiate the response of tissues to various agonist ligands
+[34]. this study found that the reduction of disulfide bonds to
+free sulfhydryls increased the tissue responsiveness for many
+receptors and increased the potency of many agonists [34]. one
+problem with these studies is that physiologically opposing
+receptors may be simultaneously stimulated by the application
+of thiol reducing agents, which would confuse the analysis of
+the tissue response.
+additional evidence for the requirement of reduction for
+normal receptor function is evident in a number of other
+important studies. a free sulfhydryl group in the active
+rhodopsin receptor state is suggested from the mi to mii
+equilibrium shift of 4 units from a pk of 4.1 for ligand-free
+opsin to 8.5 [3]. this is also supported by the findings of
+saranak and foster that implicate a free sulfhydryl in the
+reductive activation of the rhodopsin photoreceptor [23]. for
+the muscarinic receptors, florio and sternweis found that the
+reducing agent dtt produced functional activation and
+potentiated agonist activation [25]. pedersen and ross using
+purified b-adrenergic receptors and purified gs protein in
+phospholipid vesicles found that the treatment of these
+receptors with the sulfhydryl reducing agent dithiolthreitol
+(dtt) activated the g protein in either the presence or absence
+of agonist [24]. since there was no effect of dtt on gs alone,
+they reasoned that it was the receptor itself that was the target of
+the reducing agent and not the g protein [24]. several other
+studies have also shown that constitutive activation occurred in
+reconstituted systems containing both b-adrenergic receptors
+and g proteins when the membrane vesicles were prepared with
+sulfhydryl reducing agents [31–33]. these experimental
+findings need to be included into a comprehensive model for
+receptor activation.
+previously, the acid and base states of the sulfhydryl group
+within the c148 residue in the  xxxg1113xxx  were linked to
+
+l.a. rubenstein et al. / journal of molecular graphics and modelling 25 (2006) 396–409
+
+399
+
+the inactive and active receptor states r and r* [16]. in the
+current study, we have extended this model to the  xxxg92xxx  where
+the corresponding cysteine residue is c106 (c3.25 or
+cysiii:01). this cysteine, located on the extracellular side of
+ xxxg2318xxx , functions as a molecular switch that toggles between the
+charged (rs) and uncharged (rsh) states associated with the
+acid to base transition of the sulfhydryl group [16]. this
+provides a specific molecular switch for receptor activation that
+correlates well with both the ligand induced electrostatic
+interaction energy difference (ddeel) and the experimentally
+measured ligand efficacies and the preferential attraction of
+ligands for the base receptor state (rs) [16]. in this context,
+ligand-induced perturbations produce a net change in the
+amount of the base receptor state (rs), that can mathematically describe the receptor response in a two-state model [6,7].
+for this study, we examined 16 molecular dynamic (md)
+simulations of full agonists, partial agonists and an antagonist
+of the wild-type and two mutant b2ars. the d130a mutant
+changed the aspartate residue  xxxd130xxx  in the dry portion of  xxxg2318xxx 
+to alanine. this mutation removes a negatively charged residue
+from the  xxxg92xxx  and produces a constitutively active receptor in
+at least two separate systems [14,40]. the other mutant is the
+d113e that replaces the aspartate residue  xxxd113xxx  (d3.32) with a
+glutamate residue. this mutation does not alter the net charge
+of the receptor, but profoundly alters ligand efficacies causing
+both the antagonist  xxxd2957xxx  and the full agonist norepinephrine
+to behave like partial agonists [19]. this behavior is examined
+through these simulations of  xxxg92xxx  activation within the
+context of this two-state acid–base model for gpcr activation.
+2. methodology
+2.1. the molecular model
+the  xxxg92xxx  model displayed in fig. 1 was developed and
+further refined from the ‘‘what-if’’ structures produced by
+vriend at the embl labs in heidelberg, which is based upon
+baldwin et al.’s general model [20]. the d130a and d113e
+mutant structures were also modified from this  xxxg92xxx  model.
+for this model, the change of the sulfhydryl group in c106 is
+associated with the acid and base states in the  xxxg92xxx  (see
+fig. 1), which allows the sulfhydryl group to exist in either acid
+or base states (sh or s) [16]. since the conserved cys106 is
+located near the extracellular region, nearby water molecules
+would be expected to influence or modulate this electrostatic
+switch, but we did not model this possibility.
+the receptor models comprising the seven transmembrane
+regions were constructed with the program quanta. the loop
+regions were not considered in this particular model although
+future work may require the inclusion of these elements. all
+hydrogen atoms were included explicitly. standard charmm
+charges were applied to all receptor atoms except for the base
+state of the cysteine (c106 or c3.25) in which case the charges
+were derived from a calculation of the molecule ethyl sulfide
+with a 6–31g basis set using the hartree–fock method. the
+calculated charges were then scaled and adapted to charmm
+format. ligand models in the form of cations were built with the
+
+fig. 1. (a) the  xxxg92xxx  model as viewed through the plane of the cell membrane
+( xxxg2318xxx  is the center solid red ribbon). a includes the initial docking position of
+epinephrine (epi) as a representative ligand. ligands were manually docked in
+the acid receptor state with no initial refinement of the side chains. the spacefilled residue at the top is the highly conserved cysteine residue c106 (c3.25 or
+cysiii:01), which provides a free sulfhydryl or thiol group (yellow) in either an
+acid or base state (sh or s). the space-filled residues at the bottom are the
+critical dry region near the intracellular end of the receptor. (b) the sequences
+for this  xxxg92xxx  model are refined from ‘‘what-if’’ structures proposed by vriend
+(http://www.gpcr.org/7tm/models/vriend2/index.html) and based upon baldwin
+et al.’s model [20]. the c106, in which the sulfhydryl group was modeled in
+either the acid, sh; or base, s, state, is labeled in  xxxg2318xxx . the two mutants,
+d113e and d130a, which occur in  xxxg2318xxx , are listed below the sequences.
+
+400
+
+l.a. rubenstein et al. / journal of molecular graphics and modelling 25 (2006) 396–409
+
+program quanta. each ligand model was constructed with
+the chirality corresponding to the most active form. the models
+for epinephrine and norepinephrine had chirality r and the
+model for  xxxd2957xxx  had chirality s. charges were determined
+from calculations with the program gaussian-98 using 6–
+31g* basis sets with the hartree–fock method. energy
+minimization and molecular dynamics calculations were done
+by using the set of programs charmm (version 24).
+the ligand was docked into the acid form of the receptor
+with the cysteine in the acid state (sh) using facilities of the
+program quanta. the ligand was positioned near enough to
+form a salt bridge with either the aspartate  xxxd113xxx  in the wild type
+receptor or the glutamate e113 in the d113e mutant receptor.
+the position of the ligand in the acid state was also used as the
+starting position for docking in the base state (s).
+subsequent calculations and molecular dynamic simulations
+were done with the c106 in either the uncharged sh (acid) or
+charged s (base) state. initial receptor minimization included
+sequential intervals of steepest descent, conjugate gradient, and
+adopted basis newton–raphson. the dynamics calculations
+included heating to 310 k (30 ps), equilibration (50 ps), and
+simulation (200 ps) portions. the lengths of the bonds
+involving hydrogen atoms were constrained according to the
+shake algorithm, allowing an integration time step of
+0.001 ps. integration of newton’s equation of motion was done
+by using the verlet algorithm.
+harmonic constraints with a force constant of 0.5 were
+applied in order to maintain the structure of the receptor
+backbone. a dielectric constant of 4.0 was used to emphasize
+electrostatic interactions between the ionized cysteine and the
+rest of the receptor since the electrostatic interactions computed
+generally take place within the protein interior in the absence of
+intervening solvent. a cut-off distance of 60 å was used to
+model the distant interactions between the ionized cysteine and
+the rest of the system. equilibration was observed after 50 ps
+for all runs. for each run, the minimized average structures used
+for the analyses were taken from the last 5 ps of the simulations.
+sixteen molecular dynamics (md) simulations were
+analyzed for this study comprising eight acid–base pairs with
+the c106 cysteine in either the sh or s states. the md
+simulations included the wild type (wt), and two mutant
+b2ars with and without bound ligands as described in table 1.
+these include each of the following receptor systems in acid
+and base states: the wild-type (wt)  xxxg92xxx  alone and with the
+ligands epinephrine (epi), norepinephrine (ne) and  xxxd2957xxx 
+(pin); the d113e mutant alone and with the ligands ne and
+pin; the d130a mutant alone.
+we understand that this  xxxg92xxx  model without loops, in
+vacuum, with backbone restraints may not completely validate
+a gpcr activation hypothesis, but hope that it will be
+considered in the larger context of the experimental and
+theoretical data that it attempts to explain.
+2.2. the calculation of interaction energies
+for each of the base and acid states of a particular receptor
+system the interaction energy (de) was calculated for each
+
+table 1
+charmm energy differences for the base–acid receptor states
+receptor
+
+ligand
+
+de
+(kcal/mol)
+
+dlj a
+
+delb
+
+diec
+
+system
+wt
+wt + epi
+wt + ne
+wt + pin
+
+wt
+wt
+wt
+wt
+
+none
+epi
+ne
+pin
+
++33.9
+3.8
+10.6
++7.7
+
++10.4
+8.7
+9.0
++10.4
+
++15.7
+5.1
+3.6
++3.6
+
+7.8
+10.0
+2.0
+6.3
+
+mutants
+d113e
+d113e + ne
+d113e + pin
+d130a
+
+d113e
+d113e
+d113e
+d130a
+
+none
+ne
+pin
+none
+
++10.4
+8.3
++12.3
++10.6
+
+5.9
+10.6
++5.0
++13.1
+
++0.9
++0.6
++6.8
+0.1
+
+0.5
+1.7
+15.4
+2.4
+
+a
+dlj = the energy difference between the base and acid states for the
+lennard–jones energy terms (kcal/mol).
+b
+del = the energy difference between the base and acid states for the
+electrostatic energy terms (kcal/mol).
+c
+die = the energy difference between the base and acid states for the internal
+energy terms (bending, stretching and torsional) (kcal/mol).
+
+molecular complex by taking the energy of the receptor–ligand
+molecular complex (erl) and subtracting the energies of the
+free receptor and ligand molecules (er) and (el) respectively:
+de ¼ erl  er  el
+
+(3)
+
+in general, the lower or more negative the interaction energy the
+more favored the formation of the molecular complex.
+each of the interaction energies can be further partitioned
+into lennard–jones (lj) and electrostatic (el) terms according
+to the expression:
+de ¼ delj þ deel
+
+(4)
+
+the differences between interaction energies (dde) for
+various molecular complexes were calculated as before [16]
+where the deel differences for the base minus the acid states
+(b  a) of a ligand–receptor complex is calculated as:
+ddeel ¼ deel ðbþ  deel ðaþ
+
+(5)
+
+all of the interaction energies were calculated from the
+average structures generated from the last 5 ps of the md
+simulations.
+3. results
+3.1. differences between the acid and base states
+fig. 2a and b displays the electrostatic potentials for the
+acid and base states of the  xxxg92xxx  plotted for the positive (blue)
+and negative (red) potentials. these figures all have the same
+orientation as the  xxxg92xxx  model displayed in fig. 1. fig. 2a and
+b show that the transition of c106 from the uncharged acid
+state (rsh) to the charged base state (rs) produces a change
+from an electrophilic (blue) to a more nucleophilic (red) state.
+this is consistent with the base state (rs) preferentially
+attracting the positively charged cationic amine group of
+binding ligands and thereby creating a higher affinity state
+consistent with previous results [16].
+
+l.a. rubenstein et al. / journal of molecular graphics and modelling 25 (2006) 396–409
+
+fig. 2. (a) plot of the acid state with the same orientation as shown for the
+ xxxg92xxx  model in fig. 1a with the extracellular end at the top of the picture and
+ xxxg2318xxx  as the solid red ribbon. the space-filled residue at the top is the highly
+conserved cysteine residue c106 (c3.25 or cysiii:01), which provides a free
+thiol group (yellow) in an acid–base equilibrium between uncharged (rsh) and
+charged (rs) states. the space-filled residues at the bottom are the dry
+region near the intracellular region of the  xxxg92xxx . the electrostatic potentials are
+plotted as positive 25 (blue) and negative 25 kj mol1 (red) meshes in both a
+and b. the acid state corresponds to the uncharged rsh or ‘‘r’’ receptor state in
+this model. (b) plot of the base state with the same orientation as shown for the
+ xxxg92xxx  model in fig. 1a and the acid state in a. the base state corresponds to the
+charged rs or ‘‘r*’’ receptor state. portions of these composite pictures were
+generated with the swiss-pdbviewer (from ref. [51]).
+
+after performing the md simulations representing a
+composite of several molecular structures that exist around
+the equilibrium energy, we analyzed various properties of the
+average structures. fig. 3 displays the root mean square
+deviations (rmsds) for the acid and base differences of the
+conserved residues in the wild type  xxxg92xxx  (labeled ‘‘*’’)
+
+401
+
+together with those residues displaying a rmsd greater than
+1 å. except for the arginine r3.50 (r131), the other conserved
+residues show less than 1 å difference. this suggests that these
+residues may function as a scaffold that is not as dynamically
+mobile as other parts of the  xxxg92xxx .
+the distances between the alpha carbons of r131 and  xxxd130xxx 
+in  xxxg2318xxx  and the alpha carbons of the residues within the other
+helices were generally shorter in the acid than in the base state
+suggesting that the base structure is somewhat larger than the
+acid structure (not shown).
+the distance between the r131 and  xxxd130xxx  alpha carbons in
+the dry region may also be affected by the strength of the salt
+bridge and the loss of this stabilizing interaction in the base
+state as discussed below.
+if the extra negative charge in the base state shows a higher
+affinity for the positively charged agonist ligands, then we must
+nevertheless explain why antagonist ligands do not favor the
+base over the acid receptor state. in order to understand this, we
+analyzed the acid–base interaction energy differences of the
+average molecular structures in more detail.
+the charmm energy differences for the wt, d113e and
+d130a  xxxg92xxx  mutants are displayed in table 1 for the base
+minus acid difference (b  a). apart from the extra negative
+charge on the thiol group, the base state of the wt  xxxg92xxx  has a
+higher overall charmm energy than the acid state (see
+de(b  a), table 1).
+in both the d113e and d130a mutant receptors, the base
+state also has a higher charmm energy than the acid state
+although the total energy change, de(b  a), is less than that
+for the wt  xxxg92xxx . the higher energy of the base state in the
+wt and the mutant b2ars may be partly attributed to the
+repulsion energy between the negative charge on the ionized
+sulfhydryl group (rs) and the other negatively charged
+regions such as the backbone oxygens and the carboxyl group
+of  xxxd113xxx , which is two helical turns (about 10.8 å) away from
+the cysteine c106. overall, the total charmm energy profile
+suggests that the acid state is energetically more favored than
+the base state in the unliganded native conformation, which is
+expected if the native receptor exists primarily in an off
+conformational state.
+for the agonist-bound receptors in almost all cases, the
+difference in the charmm energies favors the base state over
+the acid state, whereas the antagonist  xxxd2957xxx  pin showed an
+energy pattern that is contrary to this. this may be partially due
+to a larger dlj(b  a) energy difference for pin compared to
+the agonist ligands (see table 1).
+for the d113e and d130a mutant receptors, there is a lower
+energy difference compared to the that for the wt receptor
+alone (compare de(b  a) 33.9 with 10.4 and 10.6 kcal/mol in
+table 1). interestingly, the overall charmm energy differences for these mutations are very similar but result from
+differing intramolecular forces. for the d130a mutant, the
+charmm energy of the del(b  a) difference decreases
+dramatically from 15.7 to 0.1 kcal/mol. in contrast, the d113e
+mutant shows charmm energy differences for the base minus
+acid states (b  a) that result from each of the separate energy
+terms dlj, del, die and de as shown in table 1. these
+
+402
+
+l.a. rubenstein et al. / journal of molecular graphics and modelling 25 (2006) 396–409
+
+fig. 3. the differences in the root men square deviation (rmsd) for the base minus acid states (b  a). the residues are listed as for the ballesteros and weinstein
+notation [52]. conserved residues 1.50, 2.50, 3.50, 4.50, 5.50, 6.50 and 7.50 are starred ‘‘*’’. the other residues are either residues of interest such as the dry region
+or those residues with the rmsd(b  a)  1 å.
+
+observations suggest that there may be a lower energy barrier for
+the overall acid to base transition for these mutant b2ars
+resulting from different molecular interactions.
+for the unbound wild-type receptor, the transmembrane
+(tm) domain interaction energies for the base minus acid states
+(b  a) are plotted in fig. 4 for all possible tm pairs. these
+energy differences range from a low of 3 kcal/mol for
+tm2  3 to a high of 18 kcal/mol for tm6  7 followed
+closely by 16 kcal/mol for  xxxg2318xxx   4.
+the largest total energy changes occur in tm6  7 and
+ xxxg2318xxx   4 followed by  xxxg2318xxx   6, tm1  7 and  xxxg2318xxx   5
+(fig. 4). the largest changes in the electrostatic energy (del)
+occur for the  xxxg2318xxx   4 and tm6  7 interactions; whereas, the
+largest changes in the lennard–jones energy (dlj) occur for
+the  xxxg2318xxx   6 and tm6  7 interactions (fig. 4).
+this suggests that these major helical interactions are
+perturbed by the transition from an acid to base receptor state
+apart from any ligand binding. tm7 also appears to be strongly
+
+fig. 4. transmembrane domain interaction energy differences for the wt
+ xxxg92xxx  receptor displayed for the differences between the base and acid (b  a)
+states. the total energy differences for all tm pairs is displayed as the base
+minus acid (b  a) and is also broken down into the separate van der waals
+(dlj) and electrostatic (del) interactions.
+
+connected indirectly through the electrostatic interactions
+between tm6 and tm7. these interactions demonstrate the
+complex dynamics associated with the acid to base transition.
+3.2. differences in interaction energies and their
+correlation with ligand efficacies
+the smaller ligands have a larger positive charge density and
+a more favorable interaction with the negatively charged
+cysteine in the base state suggesting that their relative efficacies
+may be related to their charge densities and their ability to
+interact with the base receptor state [16].
+the charmm energy differences, de(b  a), for the
+ligands epi, ne, and pin bound to the wt receptor are 3.8,
+10.6, and +7.7 kcal/mol, respectively (table 1). when
+norepinephrine and  xxxd2957xxx  are bound with the d113e mutant
+receptor, the values of the charmm energy difference are
+8.3 and 12.3 kcal/mol, respectively (see the de(b  a)
+values for d113e + pin and d113e + ne in table 1). a partial
+explanation may be that for the ne and pin ligands complexed
+with the d113e mutant receptor, the average distances between
+the ligands and the receptor increase in comparison with those
+in the wild-type complexes, which may be due to the slightly
+longer sidechain on the glutamate residue in the d113e mutant.
+the rmsds were calculated for the acid and base states of
+the unbound receptor state and the ligand-bound receptor. the
+greatest rmsds occur within tm6 and are greater for the full
+agonists, epi and ne, than for the antagonist, pin (not shown).
+however, we could not consistently connect the rmsds of
+any specific residue to the experimental ligand efficacies.
+although tm7 showed a larger rmsd with pin in the d113e
+mutant than in the wt receptor (not shown), this may be
+partially attributed to the displacement of pin by the larger
+glutamate residue, which places the ligand closer to tm7.
+in contrast, the electrostatic interaction energies (ddeel)
+show that pin in the d113e mutant receptor has a larger ddeel
+than for pin bound to the wt  xxxg92xxx . one reason for this may
+be that the basic nitrogen of pin is closer to c106, which
+
+l.a. rubenstein et al. / journal of molecular graphics and modelling 25 (2006) 396–409
+table 2
+electrostatic interaction energy differences for the base minus acid states with
+the percent sodium fluoride activity
+receptor system
+
+ddeel (kcal/mol)
+
+nafa (%)
+
+wt + epi
+wt + ne
+d113e + ne
+d113e + pin
+wt + pin
+
+14.0
+14.4
+5.5
+6.4
+4.7
+
+95
+95
+50
+35
+0
+
+a
+
+these values were taken from strader et al. [19]. the correlation coefficient
+for ddeel vs. %naf is r = 0.92.
+
+generates a larger ddeel in the d113e mutant. as a result, the
+electrostatic interaction energy of pin with the negatively
+charged c106 residue is greater, which provides an explanation
+for the increased efficacy of  xxxd2957xxx  as primarily due to the
+increased electrostatic favoring of the base state in the d113e
+mutant.
+the calculated ddeel energies for wt + pin were
+4.7 kcal/mol versus 6.4 kcal/mol for the d113e + pin,
+which are in good agreement with the experimentally observed
+increase in the experimentally measured percent sodium floride
+activity as shown in table 2.
+for the wild-type receptor with the ne ligand, the calculated
+ddeel was 14.4 kcal/mol; whereas for the d113e mutant
+receptor with ne, the ddeel was 5.5 kcal/mol suggesting a
+diminution in the efficacy of ne in the mutant consistent with
+previous experimental findings [19] (see table 2). these
+findings are consistent with the observations from strader’s
+group that the d113e mutation changes pin from an antagonist
+to a partial agonist and reduces the activity of ne to that of a
+partial agonist [19].
+in order to further understand the effects of ligand
+occupancy on the  xxxg92xxx , we examined the transmembrane
+(tm) interaction energy differences for the acid and base states
+in the epi bound wt receptor. in general, the binding of epi
+changes the interaction energy differences of he base minus
+acid states (b  a) from positive to negative for the tm1  7,
+ xxxg2318xxx   4,  xxxg2318xxx   6 and tm6  7 interactions (see fig. 5a).
+this suggests that one of the actions produced by epi binding is
+to increase the magnitude of the tm interactions between
+tm1  7,  xxxg2318xxx   4,  xxxg2318xxx   6 and tm6  7 in the base state of
+the receptor. many of these interactions have been previously
+linked either directly or indirectly to receptor activation [9–15].
+with the wt  xxxg92xxx  bound epi, the  xxxg2318xxx   4 interaction
+energy changes from a positive 16 to a negative 23 kcal/mol
+suggesting that there is a closer interaction of  xxxg2318xxx  and tm4 in
+the base state. the  xxxg2318xxx   4 interaction is also the largest
+interaction measured for all of the epi induced interaction
+energy changes shown in table 3a.
+the interdomain interaction energy differences for the
+antagonist pin in the wt receptor show an opposite pattern
+from the epi and other activating ligands (compare fig. 5a and
+f and table 3a). although pin binding reduces the positive
+interaction energy differences for tm1  7,  xxxg2318xxx   4,
+ xxxg2318xxx   6 and tm6  7, pin fails to make them negative.
+this suggests that the weaker electrostatic interaction energy
+
+403
+
+table 3a
+changes in key transmembrane domain interaction energy differences for the
+base minus acid states
+receptor
+systems (b  a)
+
+tm pair energies (kcal/mol)
+tm1  7
+
+ xxxg2318xxx   4
+
+ xxxg2318xxx   6
+
+tm6  7
+
+wt + epi
+wt + ne
+d113e + ne
+d130a
+d113e + pin
+wt + pin
+
+7.3
+3.2
+1.3
+2.7
+1.7
+1.4
+
+23
+2.7
+0.5
+6.4
+0.4
+7.1
+
+7.7
+3.8
+2.2
+4.8
+1.3
+3.8
+
+5.7
+6.1
+4.5
+1.6
+1.7
+5.4
+
+change (ddeel) for the pin binding translates into tm
+interaction energy changes that fail to reach a critical threshold
+value for receptor activation. this may be a key difference
+between the antagonist and agonist ligands.
+for the mutant d113e + pin receptor system,  xxxg2318xxx   4 and
+ xxxg2318xxx   6 become negative suggesting an activating pattern that
+is supported by previous experimental observations showing
+partial agonist activity [19,40]. from this analysis,  xxxg2318xxx   4
+changing from positive to negative emerges as a consistent
+predictor for all of the activating ligands and mutations in this
+study.
+to further isolate the effects of ligand binding, we subtracted
+the tm energy differences of the wt(b  a) from the other
+receptor systems in order to see the net effect of the bound
+ligands. these results are displayed in table 3b. this highlights
+those differences created by ligands or mutations that change
+the tm energy patterns of the unbound wt  xxxg92xxx .
+by this analysis, the largest effect of epi binding is more
+readily seen for the  xxxg2318xxx   4, tm6  7,  xxxg2318xxx   6 and
+tm1  7 interdomain interaction energies (table 3b). these
+changes are largely consistent with the tm interaction energies
+in table 3a, but more clearly demonstrate that the net effect of
+ligand binding centers around the major  xxxg2318xxx   4, tm6  7,
+ xxxg2318xxx   6 and tm1  7 interactions.
+in the receptor systems with the largest agonist activity, the
+ xxxg2318xxx   4 and tm6  7 interactions are also the largest
+(table 3b). the pattern of tm interaction energies for the
+mutant d130a receptor compared to the epi bound wt
+receptor also displays a strong correlation (r = 0.90 in fig. 6)
+suggesting that this may be a general pattern for both ligand
+and constitutive receptor activation. these general patterns
+support christopoulos and kenakin’s concept of protean
+
+table 3b
+changes from the wild-type  xxxg92xxx  in key transmembrane domain interaction
+energy differences for the base minus acid states
+receptor
+systems (b  a)
+
+tm pair energies (kcal/mol)
+tm1  7
+
+ xxxg2318xxx   4
+
+ xxxg2318xxx   6
+
+tm6  7
+
+epi-wt
+ne-wt
+d113e + ne-wt
+d130a-wt
+d113e + pin-wt
+pin-wt
+
+12
+8
+4
+8
+3
+4
+
+39
+19
+17
+23
+17
+9
+
+16
+4
+6
+4
+10
+4
+
+24
+24
+22
+16
+16
+13
+
+404
+
+l.a. rubenstein et al. / journal of molecular graphics and modelling 25 (2006) 396–409
+
+agonism by demonstrating that there exist similar activation
+patterns that vary around a common theme for activating
+ligands and mutations [41].
+these findings also demonstrate that although  xxxd2957xxx  is an
+antagonist, it contains some elements, albeit weaker, within its
+interaction pattern in common with the full agonist epinephrine.
+parts of these patterns may represent energies that fail to reach a
+threshold energy change for receptor activation since the pin
+energy differences in table 3b are generally smaller than those
+for the agonist ligands.
+however, in the d113e mutant receptor, the antagonist
+ xxxd2957xxx  changes to a partial agonist and norepinephrine
+activity decreases approximately 50% to that of a partial
+agonist. this occurs in our analysis by the alteration of key tm
+domain interaction energies such as the changes in the
+ xxxg2318xxx   4 and  xxxg2318xxx   6 for pin (compare fig. 5d and f)
+and those for the  xxxg2318xxx   4 and tm6  7 for ne (compare
+fig. 5c and b).
+in contrast, the accompanying changes to the tm domain
+interaction energy differences for d113e + pin compared to
+
+wt + pin show a more negative energy pattern for the
+ xxxg2318xxx   4,  xxxg2318xxx   6 and tm6  7 interactions in the d113e
+mutant consistent with a higher activity for pin in this mutant
+(tables 3a and 3b).
+if the constitutively active mutant d130a is assumed to have
+approximately the same activity as the d113e + pin system,
+then the tm6  7 interdomain interaction energy differences
+listed in table 3b correlate well with the experimentally
+measured relative intrinsic efficacies listed in table 2 (%naf).
+interestingly, there is also a good correlation between all of the
+other ligand bound and mutant receptors with their experimentally reported activities (r = 0.94 with the d130a, or
+r = 0.92 without the d130a mutant).
+3.3. regions within the receptor that may have a role in
+signal recognition and transmission
+in our model, c106 is two-helical turns (10.8 å) above the
+important aspartate residue  xxxd113xxx  that forms a counterion with
+the protonated amine of catecholamine ligands. this is
+
+fig. 5. (a–g) the transmembrane domain (tm) interdomain interaction energy differences for the base minus the acid (b  a) states for all possible tm domain
+pairs. in all parts, the vertical scales are equal. each figure shows the patterns of the transmembrane domain (tm) interdomain interaction energy differences for the
+base minus the acid (b  a) states with the unliganded wild-type  xxxg92xxx  wt (b  a) in the black bars given for comparison. a shows epinephrine with the wild-type
+receptor (wt + epi (b  a)). b shows norepinephrine with the wild-type receptor (wt + ne (b  a)). c shows norepinephrine with the d113e mutant
+(d113e + ne (b  a)). d shows  xxxd2957xxx  with the d113e mutant ( xxxd113xxx  + pin (b  a)). e shows the d130a mutant (d130a (b  a)). f shows  xxxd2957xxx  with the
+wild-type receptor (wt + pin (b  a)). g shows the d113e mutant (d113e (b  a)).
+
+l.a. rubenstein et al. / journal of molecular graphics and modelling 25 (2006) 396–409
+
+405
+
+fig. 5. (continued ).
+
+consistent with heinonen et al.’s, suggestion that a reactive
+cysteine or thiol group is 8.6–14.5 å from the asp113 in the a2adrenergic receptor [30]. similarly in rhodopsin, the distance
+from retinal to the glutamate e134 in the ery region is between
+
+fig. 6. correlation of the tm interdomain interacton energy differences of the
+base minus acid states for the constitutively active mutant d130a vs. the wildtype  xxxg92xxx  bound with epinephrine (d130a-wt(b  a) vs. epi-wt(b  a);
+r = 0.90).
+
+19 and 30 å (pdb 1f88) [22], which generally agrees with the
+distances for ligands docked within our  xxxg92xxx  model.
+the protonation and movement of r131 (r3.50) has been
+previously suggested as a potential mechanism for receptor
+activation [13,40,42]. previously in the two-state acid–base
+model for the  xxxg1113xxx , the charged cysteine was
+observed to have long range electrostatic interactions with the
+aspartate and arginine residues within the dry region [16].
+in the present study, the acid to base change of c106 is
+accompanied by a corresponding displacement of the aspartate
+and arginine in the dry region of the  xxxg92xxx  (0.7 and 1.7 å,
+respectively) (fig. 3). this demonstrates that the acid to base
+transition perturbs r131 enough to disrupt this bonding. this
+suggests that deprotonation of c106 followed by a separate
+protonation of r131 may be a feasible molecular mechanism
+for the transmission of an extracellular signal to the
+intracellular side of the receptor.
+all of the possible pairs of tm domain interaction energy
+differences demonstrate complex patterns for both the
+electrostatic (del) and lennard–jones (dlj) interactions as
+shown in fig. 4 for the wild-type  xxxg92xxx . the largest
+perturbations occur for the del energies of the  xxxg2318xxx   4
+and tm6  7 interactions and the dlj energies of the  xxxg2318xxx   6
+and tm6  7 interactions.
+
+406
+
+l.a. rubenstein et al. / journal of molecular graphics and modelling 25 (2006) 396–409
+
+for all of the md simulations, the most consistent change
+accompanying receptor activation is the change of the  xxxg2318xxx   4
+interaction energy from positive to negative together with the
+ddeel becoming more negative. this is observed for all of the
+active systems we studied; wt + epi, wt + ne, d113e + ne,
+d130a and d113e + pin, shown in fig. 5a–e. these tm
+domain interactions may in turn affect the second and third
+intracellular loops (icl2 and icl3), which are considered to be
+important in receptor-g protein-coupling [15,30]. these
+interactions may produce a repositioning of the arginine in
+the polar pocket surrounding the dry region demonstrating
+that our relatively simple model generates complex electrostatic and conformational changes within the  xxxg92xxx  that link
+tm changes to previously recognized patterns of receptor
+activation [5,13,21,40].
+4. discussion
+this work tests a two-state acid–base model for an ionizable
+cysteine residue found within all gpcrs. this cysteine is
+strategically located two-helical turns or about 10.8 å above
+the important aspartate residue  xxxd113xxx  in  xxxg2318xxx  that forms a
+counterion with the protonated amine of catecholamine ligands
+in adrenergic receptors [30]. the acid–base transition of this
+cysteine, c106 in the  xxxg92xxx , modulates the internal energies of
+the receptor and the interaction energies of various ligands that
+interact with the  xxxg92xxx  in ways that correlate well with
+previously observed transmembrane domain interactions and
+the experimentally measured ligand efficacies (table 2 and
+fig. 6). although it would be preferable to have a larger
+sampling of ligands with their experimental efficacies, these
+simulations taken together with previous studies suggest that
+those ligands that activate the  xxxg92xxx  also show a preferential
+electrostatic attraction for the base form of the receptor state
+[16].
+previous two-state models for gpcr activation have been
+considered to represent a simplification of the available
+conformational space [2,43]. however, single-molecule spectroscopy of the  xxxg92xxx  receptor has recently suggested that there
+are two distinct states with a population enrichment of one state
+occurring when bound with agonist molecules [43]. the authors
+of this study suggested that there is a population of active
+receptor states that are separate from the active states in the
+native receptor, which appears contrary to the findings from
+bond et al. [1].
+one possible way to resolve these seemingly contradictory
+findings is through the interpretation that our two-state model
+provides that allows for a net enrichment of the active state
+through either receptor overexpression or ligand binding [6–8].
+on the molecular level, we have determined that the discrete
+molecular states rsh and rs connect the mathematically
+general r and r* states to electrostatic interaction energy
+changes (ddeel) that closely correlate with their experimentally measured ligand efficacies as seen previously for the 5ht2a receptor [16]. this suggests a molecular basis for the r
+to r* shift in the receptor equilibrium as a measure for the net
+receptor response and supports the concept that cysteine
+
+modulation of ligand binding may be an important mechanism
+to explain how ligands activate these receptors [16].
+although this picture may be more complex than previously
+characterized, the acid–base transition of c106 clearly creates
+energy perturbations that are largely compatible with many
+previous experimental findings [9–15]. in the unliganded wildtype  xxxg92xxx , the tm1  7,  xxxg2318xxx   4,  xxxg2318xxx   5,  xxxg2318xxx   6 and
+tm6  7 interactions are all strongly positive for the unbound
+wt (b  a) states of the  xxxg92xxx  (gray bars in fig. 4 and the
+black bars in fig. 5a–g). however, these interactions switch
+from positive to negative upon the binding of epinephrine with a
+rank order of  xxxg2318xxx   4 > tm6  7 >  xxxg2318xxx   6 > tm1  7
+(fig. 5a).
+in addition, the  xxxg2318xxx   4 interaction also changes from
+positive in the unbound d113e mutant to negative in the pin
+bound d113e mutant, which suggests a possible threshold
+activation energy for this interaction (compare fig. 5g with d).
+all of the md simulations of the receptor systems experimentally shown to be active, wt + epi, wt + ne, d113e + ne,
+d130a and d113e + pin, consistently show that the  xxxg2318xxx   4
+interaction energy changes from a positive to negative value
+(table 3a). although more work needs to be done to support
+this finding, at least one study has implicated tm4 in the
+activation of the m1 muscarinic receptor [44].
+one of the more subtle changes involves the d113e
+mutation that changes  xxxd2957xxx  from an antagonist in the wt
+ xxxg92xxx  to a partial agonist in the d113e mutant [19]. to our
+knowledge there have been no other theoretical models that
+have explained this experimental finding. however from our
+simulations, the change from an aspartate to glutamate creates a
+larger difference in  xxxd2957xxx ’s interactions between the acid and
+base states, which is directly reflected in the ddeel energy
+difference and the changes in the tm interaction energies. this
+is most evident by the  xxxg2318xxx   4 and  xxxg2318xxx   6 interactions,
+which change from positive for the wt + pin to negative for
+the d113e + pin system (compare table 2 and  xxxg2318xxx   4 and
+ xxxg2318xxx   6 in fig. 5d and f).
+unlike the agonist ligands in the wild-type  xxxg92xxx ,  xxxd2957xxx 
+fails to make the  xxxg2318xxx   4, tm6  7,  xxxg2318xxx   6 and tm1  7
+interaction energies negative, which represents a crucial
+difference between the agonist and antagonist ligands. this
+molecular mechanism elucidates these subtle changes within
+the dynamic patterns of  xxxg92xxx  activation.
+further experimental observations suggest that some liganddependent conformations favor one particular g protein over
+another as a basis for protean agonism [2]. although epi and
+ne are about equally effective at activating the  xxxg92xxx , their tm
+interactions show some unique differences. for the ne bound
+ xxxg92xxx , all of the major tm interactions except for  xxxg2318xxx   6
+change from positive to negative; whereas for the epi bound
+receptor the  xxxg2318xxx   6 also changes from positive to negative
+(fig. 5a and b). however, their overall tm changes show
+similar patterns and display a strong correlation relative to the
+acid–base changes of the wt receptor (r = 0.83).
+these common patterns are comprised of changes in the
+tm1  7,  xxxg2318xxx   4,  xxxg2318xxx   6 and tm6  7 interaction energy
+differences (tables 3 and 4). interestingly, the constitutively
+
+l.a. rubenstein et al. / journal of molecular graphics and modelling 25 (2006) 396–409
+
+active mutant d130a also displays a similar pattern of tm
+interactions compared to the epi bound receptor suggesting a
+common pattern for receptor activation (figs. 5a and e and 6).
+this supports the concept that protean agonism arises naturally
+from ligand or mutation specific patterns due to variations in
+internal interaction energies that may favor receptor binding to
+one particular g protein over another.
+in comparison with rhodopsin, sakmar et al. implicated the
+h-bond networks linking the tm1  7,  xxxg2318xxx   4,  xxxg2318xxx   6
+and tm6  7 interactions to receptor activation [15] and
+ballesteros et al. showed that the charge-neutralizing mutation
+of  xxxd130xxx  in  xxxg2318xxx  of the  xxxg92xxx  to asparagine (d130n) led to a
+significant increase in basal and  xxxd2957xxx -stimulated camp
+accumulation, which was thought to be due to an increase in the
+relative motions of  xxxg2318xxx  to tm6 [13,14]. in the context of our
+model, these tm interaction changes arise from the acid to base
+transition alone.
+the ‘‘protonation hypothesis’’ for  xxxg92xxx  activation suggests
+that the protonation of the aspartic/glutamatic acid residue in the
+d/ery portion of the cytoplasmic side of  xxxg2318xxx  is a key event for
+initiating receptor activation [21]. the constitutively active
+d130a mutation is thought to free the arginine r131 or r3.50
+within the critical dry region [14,40], which suggests that the
+protonation of the  xxxd130xxx  or d3.49 frees this arginine to move out
+of the polar pocket [13]. this is also supported by the
+experimental finding that in isolated  xxxg92xxx  membrane preparations decreasing ph favors receptor activation in vitro [45].
+in the context of our model, the existence of at least two
+different ph-sensitive residues on both interior and external
+sides of the receptor may complicate these interpretations since
+another study has shown that an increase in external ph
+increases receptor activation [46]. this still raises the important
+question of how activating ligands that bind to the extracellular
+region might induce the protonation of acidic residues on the
+cytoplasmic side of the receptor. in our model, the aspartate and
+arginine within the dry region move by 0.7 and 1.7 å (fig. 3),
+which may be enough to disrupt an intramolecular bond such as
+a salt bridge. this would reconcile the observations that either
+an acidic or basic ph may promote receptor activation, since the
+differing ph-sensitivities of the two residues cys 106 or asp
+130 may be involved on both the extracellular and intracellular
+side of the receptor in the cell membrane.
+recent experimental observations of receptor dimerization
+together with parallel receptor activation studies demonstrate
+that receptor dimer formation enhances receptor activation
+[47,48]. zeng and wess produced the first direct evidence for
+the existence of muscarinic receptor dimers formed from two
+conserved cysteine residues, c140 and c220 located on the
+extracellular side of the receptor with c140 corresponding to
+c106 of the  xxxg92xxx  [47].
+in the  xxxg656xxx  ( xxxg656xxx ), javitch and co-workers
+showed that the site of crosslinking occurs at c168 on the
+extracellular end of tm4 and concluded that cross-linking does
+not impair the ability of dopamine to activate the d2ar,
+demonstrating that the receptor can bind dopamine and activate
+gi with a disulfide bond between the c168 residue in each
+subunit of the dimer [49]. these observations suggest that the
+
+407
+
+active receptor state remains within the receptor dimers
+themselves.
+the possible role for a dimeric species in  xxxg92xxx  signaling
+was discovered when it was found that receptor ligands affect
+the monomer:dimer equilibrium [48].  xxxd2401xxx  increased
+the relative amount of dimer by 45% and also protected the
+dimer from the disruptive effect of the tm6 peptide [48]. these
+results suggest that  xxxd2401xxx  stabilizes the  xxxg92xxx  dimer
+even in the absence of g proteins, which is compatible with our
+model.
+for any particular redox environment, there necessarily
+occurs an equilibrium between disulfide bonds and free
+sulfhydryls, which are then free to be influenced by the
+environmental ph. if two receptors dimerize by forming a
+disulfide bond, they will necessarily produce a pair of free
+sulfhydryls, because the four cysteine residues of the two
+disulfide bonds form only a single disulfide bond, thereby
+leaving two sulfhydryl groups free. this is a chemical
+disproportionation reaction that happens when a substance
+can be simultaneously oxidized and reduced, thereby allowing
+the formation of free sulfhydryl groups.
+we tested an extension of our previous model [16] in the larger
+context of past modelling efforts. although this  xxxg92xxx  model
+without loops, in vacuum, with backbone restraints may not
+completely validate a gpcr activation hypothesis, our model
+offers a potentially powerful approach to modelling two-state
+interactions as the differences in interaction energies. these
+simulation results provide new insights into the relationships
+observed between selected biochemical data and the structural
+interactions that occur during receptor activation.
+in summary, these findings place the activation of the  xxxg92xxx 
+into a dynamic and general molecular model that explains many
+aspects of how ligands or mutations alter the  xxxg92xxx  to produce
+activation. these findings generally support kenakin’s concept
+of protean agonism through a mechanism that describes ligand
+biased conformational change and suggest that there are multiple
+ways to activate and allosterically modulate the  xxxg92xxx  [2,50].
+this model also relates the transmembrane domain motions of
+gpcrs to explicit receptor states and demonstrates that many
+elements from several different models may be important parts of
+a bigger view of receptor activation. hopefully, this work will
+cultivate an appreciation for receptor function in terms of a
+general, two-state acid–base model that will present fruitful
+alternatives for the modeling of gpcr activation in the future.
+5. conclusions
+the major conclusions from this work are:
+(1) the electrostatic interaction energy changes correlate well
+with the experimentally observed ligand efficacies.
+(2) the interaction energy changes for the helical/transmembrane domain interactions are generally compatible with
+previously described events for gpcr activation.
+(3) this molecular model ties together many experimental and
+theoretical findings observed for the  xxxg92xxx  and other
+gpcrs.
+
+408
+
+l.a. rubenstein et al. / journal of molecular graphics and modelling 25 (2006) 396–409
+
+acknowledgments
+the authors express their gratitude to drs. harel weinstein
+and roman osman for their encouragement and support. many
+thanks to dr. mihaly mezei for his assistance with computer
+support. we thank dr. diana casper for reading the manuscript
+and offering helpful suggestions. this work is dedicated to and
+in memory of dr. lester a. rubenstein, 2/9/1939–2/23/2004.
+references
+[1] r.a. bond, p. leff, t.d. jonhson, c.a. milano, h.a. rockman, t.r.
+mcminn, s. apparsundaram, m.f. hyek, t.p. kenakin, l.f. allen, r.j.
+lefkowitz, physiological effects of inverse agonists in transgenic mice
+with myocardial overexpression of the beta-2-adrenoceptor, nature 374
+(1995) 272–276.
+[2] t. kenakin, drug efficacy at g protein-coupled receptors, annu. rev.
+pharmacol. toxicol. 42 (2002) 349–379.
+[3] r. vogel, f. siebert, conformations of the active and inactive states of
+opsin, j. biol. chem. 276 (2001) 38487–38493.
+[4] r.j. lefkowitz, s. cotecchia, p. samama, t. costa, constitutive activity of
+receptors coupled to guanine nucleotide regulatory proteins, trends
+pharmacol. sci. 14 (1993) 303–307.
+[5] d. colquhoun, binding, gating, affinity and efficacy: the interpretation of
+structure–activity relationships for agonists and of the effects of mutating
+receptors, br. j. pharm. 125 (1998) 923–947.
+[6] r. lanzara, method for determining drug compositions to prevent
+desensitization of cellular receptors, u.s. patent #5,597,699, 1997.
+[7] r. lanzara, compositions to enhance the efficacy and safety of biopharmaceutical drugs. u.s. patent #6,593,094, 2003.
+[8] r. lanzara, optimal agonist/antagonist combinations maintain receptor
+response by preventing rapid b1-adrenergic receptor desensitization, int. j.
+pharm. 1 (2) (2005) 122–131.
+[9] u.m. ganter, t. charitopoulos, n. virmaux, f. siebert, conformational
+changes of cytosolic loops of bovine rhodopsin fourier transform infrared
+difference spectroscopy, photochem. photobiol. 56 (1992) 57–62.
+[10] t. sakamoto, h.g. khorana, structure and function in rhodopsin: the fate
+of opsin formed upon the decay of light-activated metarhodopsin ii in
+vitro, proc. natl. acad. sci. u.s.a. 92 (1995) 249–253.
+[11] g.-f. jang, v. kuksa, s. filipek, f. bartli, e. ritteri, m.h. gelb, k.p.
+hofmanni, k. palczewski, mechanism of rhodopsin activation as examined with ring-constrained retinal analogs and the crystal structure of the
+ground state protein, j. biol. chem. 276 (2001) 26148–26153.
+[12] u. gether, s. lin, b.k. kobilka, fluorescent labeling of purified b-2
+adrenergic receptor: evidence for ligand-specific conformational changes,
+j. biol. chem. 47 (1995) 28268–28275.
+[13] j.a. ballesteros, a.d. jensen, g. liapakis, s.g. rasmussen, l. shi, u.
+gether, j.a. javitch, activation of the b2-adrenergic receptor involves
+disruption of an ionic lock between the cytoplasmic ends of transmembrane segments 3 and 6, j. biol. chem. 276 (2001) 29171–29177.
+[14] s.g. rasmussen, a.d. jensen, g. liapakis, p. ghanouni, j.a. javitch, u.
+gether, mutation of a highly conserved  xxxd233xxx  in the beta2
+adrenergic receptor: constitutive activation, structural instability, and
+conformational rearrangement of transmembrane segment 6, mol. pharmacol. 56 (1999) 175–184.
+[15] t.p. sakmar, s.t. menon, e.p. marin, e.s. awad, rhodopsin: insights
+from recent structural studies, annu. rev. biophys. biomol. struct. 31
+(2002) 443–484.
+[16] l. rubenstein, r. lanzara, activation of g protein-coupled receptors
+entails cysteine modulation of agonist binding, j. mol. struct. (theochem) 430 (1998) 57–71.
+[17] p.c. jocelyn, biochemistry of the sh group, academic press, new york,
+1972.
+[18] u. gether, s. lin, p. ghanouni, j.a. ballesteros, h. weinstein, b.k. kobilka,
+agonists induce conformational changes in transmembrane domains iii and
+vi of the b2 adrenoceptor, embo j. 16 (1997) 6737–6747.
+
+[19] c.d. strader, t.m. fong, m.r. tota, d. underwood, r.a.f. dixon,
+structure and function of g protein-coupled receptors, ann. rev. biochem. 63 (1994) 101–132.
+[20] j.m. baldwin, g.f.x. schertler, v.m. unger, an alpha carbon template for
+the transmembrane helices in the rhodopsin family of g-protein-coupled
+receptors, j. mol. biol. 272 (1997) 144–164.
+[21] u. gether, uncovering molecular mechanisms involved in activation of gprotein-coupled receptors, endocr. rev. 21 (2000) 90–113.
+[22] k. palczemski, t. kumasaka, t. hori, c.a. behnke, h. motoshima, b.a.
+fox, i. le trong, d.c. teller, t. okada, r.e. stenkamp, m. yamamoto, m.
+miyano, crystal structure of rhodopsin: a g protein-coupled receptor,
+science 289 (2000) 739–745.
+[23] j. saranak, k.w. foster, reducing agents and light break an s–s bond
+activating rhodopsin in vivo, biochem. biophys. res. commun. 275
+(2000) 286–291.
+[24] s.e. pedersen, e.m. ross, functional activation of b-adrenergic receptors
+by thiols in the presence or absence of agonists, j. biol. chem. 260 (1985)
+14150–14157.
+[25] v.a. florio, p.c. sternweis, mechanisms of muscarinic receptor action on
+go in reconstituted phospholipid vesicles, j. biol. chem. 264 (1989)
+3909–3915.
+[26] a. sidhu, a novel affinity purification of d-1 dopamine receptors from rat
+striatum, j. biol. chem. 265 (1990) 10065–10072.
+[27] k. kanematsu, r. naito, y. shimohigashi, m. ohno, t. ogasawara, m.
+kurono, k. yagi, design synthesis of an opioid receptor probe: mode of
+binding of s-activated ()-6b-sulfhydryldihydromorphine with the sh
+group in the m-opioid receptor, chem. pharm. bull. 38 (1990) 1438–1440.
+[28] t.l. gioannini, i. onoprishvili, j.m. hiller, e.j. simon, inactivation of the
+purified bovine m opioid receptor by sulfhydryl reagents, neurochem. res.
+24 (1999) 37–42.
+[29] n. shirasu, t. kuromizu, h. nakao, y. chuman, t. nose, t. costa, y.
+shimohigashi, exploration of universal cysteines in the binding sites of
+three opioid receptor subtypes by disulfide-bonding affinity labeling with
+chemically activated thiol-containing dynorphin a analogs, j. biochem.
+126 (1999) 254–259.
+[30] p. heinonen, k. koskua, m. pihlavisto, a. marjamäki, v. cockcroft, j.-m.
+savola, m. scheinin, h. lönnberg, a series of 6-(v-methanesufonylthioalkoxy)-2-n-methyl-1,2,3,4-tetrahydroisoquinolines: cysteine-reactive molecular yardsticks for probing a2-adrenergic receptors, bioconj. chem. 9
+(1998) 358–364.
+[31] w.l. strauss, j.c. venter, a sulfhydryl group of the canine cardiac betaadrenergic receptor observed in the absence of hormone, life sci. 36
+(1985) 1699–1706.
+[32] r.a. cerione, j. codina, j.l. benovic, r.j. lefkowitz, l. birnbaumer,
+m.g. caron, the mammalian b2-adrenergic receptor: reconstitution of
+functional interactions between pure receptor and pure stimulatory
+nucleotide binding protein of the adenylate cyclase system, biochemistry
+23 (1984) 4519–4525.
+[33] r.a. cerione, j.w. regan, h. nakata, j. codina, j.l. benovic, p.
+gierschik, r.l. somers, a.m. spiegel, l. birnbaumer, r.j. lefkowitz,
+m.g. caron, functional reconstitution of the a2-adrenergic receptor with
+guanine nucleotide regulatory proteins in phospholipid vesicles, j. biol.
+chem. 261 (1986) 3901–3909.
+[34] j. fontaine, j.-p. famaey, j. reuse, potentiation by sulphydryl agents of
+the responses of guinea-pig isolated ileum to various agonists, j. pharm.
+pharmacol. 36 (1984) 450–453.
+[35] c.k. mathews, k.e. van holde, biochemistry, second ed., benjamin/
+cummings, new york, 1996, pp. 135–136.
+[36] j. march, advanced organic chemistry, mcgraw-hill, new york, 1968,
+p. 889.
+[37] j.d. helmann, science’s stke, 2002, http://www.stke.org/cgi/content/
+full/sigtrans;2002/157/pe46.
+[38] n.m. giles, a.b. watts, g.i. giles, f.h. fry, j.a. littlechild, c. jacob,
+metal and redox modulation of cysteine protein function, chem. biol. 8
+(2003) 677–693.
+[39] a. claiborne, t.c. mallett, j.i. yeh, j. luba, d. parsonage, structural,
+redox, and mechanistic parameters for cysteine–sulfenic acid function in
+catalysis and regulation, adv. protein chem. 58 (2001) 215–276.
+
+l.a. rubenstein et al. / journal of molecular graphics and modelling 25 (2006) 396–409
+[40] a. scheer, f. fanelli, t. costa, p.g. de benedetti, s. cottechia, the
+activation process of the a1b-adrenergic receptor: potential role of protonation and hydrophobicity of a highly conserved aspartate, proc. natl.
+acad. sci. u.s.a. 94 (1997) 808–813.
+[41] a. christopoulos, t. kenakin, g protein-coupled receptor allosterism and
+complexing, pharmacol. rev. 54 (2002) 323–374.
+[42] l. oliviera, a.c.m. paiva, c. sander, g. vriend, a common step for signal
+transduction in g protein-coupled receptors, trends pharmacol. sci. 15
+(1994) 170–172.
+[43] g. peleg, p. ghanouni, b.k. kobilka, r.n. zare, single-molecule spectroscopy of the b2 adrenergic receptor: observation of conformational
+substates in a membrane protein, proc. natl. acad. sci. u.s.a. 98
+(2001) 8469–8474.
+[44] z.-l. lu, j.w. saldanha, e.c. hulme, transmembrane domains 4 and 7 of
+the m1 muscarinic acetylcholine receptor are critical for ligand binding
+and the receptor activation switch, j. biol. chem. 276 (2001) 34098–
+34104.
+[45] p. ghanouni, h. schambye, r. seifert, t.w. lee, s.g. rasmussen, u.
+gether, b.k. kobilka, the effect of ph on beta(2) adrenoceptor function:
+
+[46]
+[47]
+[48]
+
+[49]
+
+[50]
+[51]
+
+[52]
+
+409
+
+evidence for protonation-dependent activation, j. biol. chem. 275 (2000)
+3121–3127.
+b.a. mcswiney, w.h. newton, reaction of smooth muscle to the h-ion
+concentration, j. physiol. 63 (1927) 51–60.
+f.-y. zeng, j. wess, identification molecular characterization of m3
+muscarinic receptor dimers, j. biol. chem. 274 (1999) 19487–19497.
+t.e. hebert, s. moffett, j.-p. morello, t.p. loisel, d.g. bicheti, c. barret,
+m. bouvier, a peptide derived from a b2-adrenergic receptor transmembrane domain inhibits both receptor dimerization and activation, j. biol.
+chem. 271 (1996) 16384–16392.
+w. guo, l. shi, j.a. javitch, the fourth transmembrane segment forms the
+interface of the  xxxg656xxx  homodimer, j. biol. chem. 278
+(2003) 4385–4388.
+t. kenakin, efficacy at g-protein-coupled receptors, nat. rev. drug
+discov. 1 (2002) 103–110.
+n. guex, m.c. peitsch, swiss-model and the swiss-pdbviewer: an
+environment for comparative protein modeling, electrophoresis 18 (1997)
+2714–2723. http://www.expasy.org/spdbv/.
+j.a. ballesteros, h. weinstein, methods neurosci. 25 (1995) 366–428.
+

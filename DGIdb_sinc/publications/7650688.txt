@@ -1,0 +1,1241 @@
+j.med. chem. 1995,38, 3351-3360
+
+335 1
+
+the histamine hi-receptor antagonist binding site. a stereoselective
+pharmacophoric model based upon (semi-)rigidhi-antagonists and including
+a known interaction site on the receptor?
+anton m. ter laak, jennifer venhorst, gabrielle m. donn6-op den kelder,* and hendrik timmerman
+leiden iamsterdam center for drug research, division of medicinal chemistry, department of pharmacochemistry,
+faculty of chemistry, vrije universiteit, de boelelaan 1083, 1081 hv amsterdam, the netherlands
+received march 8, 1995@
+
+a new pharmacophoric model for the hi-antagonist binding site is derived which reveals that
+a simple atom to atom matching of compounds is not sufficient; in this model, interacting
+residues from the receptor need to be included. to obtain this model, the bioactive
+conformations of several (semi-)rigid classical histamine hi-receptor antagonists have been
+investigated ( xxxd1785xxx ,  xxxd2904xxx , triprolidine, epinastine,  xxxd2572xxx , ibf28145,
+and  xxxd2637xxx ). in general, these antihistamines contain two aromatic rings and a basic
+nitrogen atom. a previously derived pharmacophoric model with the nitrogen position fixed
+relative to the two aromatic rings is now found not to be suitable for describing the hi-antagonist
+binding site. a procedure is described which allows for significant freedom in the position of
+the basic nitrogen of the histamine hi-antagonist. the area accessible to the basic nitrogen is
+confined to the region accessible to its counterion on the histamine hi-receptor, le., the
+carboxylate group of asp116. the basic nitrogen is assumed to form an ionic hydrogen bond
+with this  xxxd233xxx  which ca- and cp-carbons are fured with respect to the protein backbone.
+via this hydrogen bond, the direction of the acidic proton of the antagonist is taken into account.
+within these computational procedures, an  xxxd233xxx  is coupled to the basic nitrogen of
+each hi-antagonist considered; the carboxylate group is connected to the positively charged
+nitrogen via geometric h-bonding restraints obtained from a thorough database search (csd).
+also to the basic nitrogen of the pharmacophore is coupled an  xxxd233xxx  (to yield our new
+template). in order to derive a model for the hi-antagonist binding site, the aromatic ring
+systems of the antagonists and template are matched according to a previously described
+procedure. subsequently, the ca- and cp-carbons of the  xxxd233xxx  coupled to the
+hi-antagonists are matched with those of the template in a procedure which allows the
+antagonist and the carboxylate group to adapt their conformation (and also their relative
+position) in order to optimize the overlap with the template. a six-point pharmacophoric model
+is derived which has stereoselective features and is furthermore able to distinguish between
+the so-called “cis”- and “trans”-rings mentioned in many (q)sar studies on hi-antagonists.
+due to its stereoselectivity, the model is able to designate the absolute bioactive configuration
+of antihistamines such as  xxxd2904xxx  (s),epinastine (si,and ibf28145 (r). a further merit
+of this study is that a model is obtained which includes an amino acid from the receptor. since
+this amino acid has been identified t o be asp116,tools are now available to dock the antagonists
+with the  xxxd233xxx  coupled t o the nitrogen in a homology model of the receptor, while
+matching the coupled aspartate with asp116 of the protein. the most likely (energetically
+favorable) binding site for the antagonists can then be determined by allowing for rotation
+around the ca-cb bond, while leaving the position of ca and cp unchanged. since several
+homology models can be built for the protein depending on the alignment chosen, the likelihood
+of the binding site and especially the (dislagreement with (q)sarand biological data will give
+clues for the most probable 3d-model (i.e., alignment) of the protein (studies in progress). the
+underlying approach which includes known interacting amino acids from the receptor into a
+pharmacophoric model is of general importance for verifying protein models with limited
+reliability, such as models derived for g-protein-coupled receptors from bacteriorhodopsin.
+
+introduction
+for several decades, almost all compounds with
+known histamine hi-blocking activity shared a common
+* to whom correspondence should be addressed.
+’ abbreviations: ai, angle between the planes of the fitted “cis”rings; aii, angle between the planes of the fitted “trans”-rings; di,
+distance between the centroids of the fitted “cis”-rings; dii, distance
+between the centroids of the fitted “trans’’-rings;ae, ab initio internal
+energy relative to ges; ges, global minimum energy structure (ab
+initio); gpcr,  xxxg89xxx ; qsar,quantitative structure-activity relationship; vdw,,,i, excluded van der waals volume.
+abstract published in advance acs abstracts, august 1, 1995.
+0022-2623/95/1838-3351$09.00/0
+
+chemical structure consisting of two neighboring aromatic rings and a side chain with a basic nitrogen (see,
+e.g., figure 1). although initially the expectations for
+the therapeutic use of these so-called “classical”histamine hi-antagonists against allergic disorders were
+very high, the application of these drugs has been rather
+limited, mainly because of severe central side effects,
+especially sedation.
+”in the last decade new hi-antagonists became available which lack sedative effects, probably due to their
+limited passage of the blood-brain barrierel the chemi-
+
+0 1995 american chemical society
+
+3352 journal of medicinal chemistry, 1995, vol. 38, no. 17
+ch
+
+i
+
+h
+
+1
+
+a
+i
+
+5
+
+2
+
+i
+
+h
+
+3
+
+ter laak et al.
+
+mentioned five-point pharmacophore. however, due to
+unsatisfactory results we had to establish a new pharmacophore. the final model comprises a residue from
+the protein (an asp), contains six pharmacophoric
+recognition points, and is stereoselective. these results
+might have important implications for rational drug
+design.
+
+strategy
+
+6:,
+6
+
+7
+
+8
+
+figure 1. histamine hi-antagonistsused for the development
+of the hi-antagonist binding site model:  xxxd1785xxx  (11,
+ xxxd2904xxx  (21,trans-triprolidine (3),epinastine (41,  xxxd2572xxx  (s),ibf28145 (61, xxxd2637xxx  (71, and (r)-4-methyl-
+
+diphenhydramine (8).
+cal structures of these drugs (e.g.,  xxxd236xxx , temelastine, terfenadine,  xxxd2572xxx , epinastine, cetirizine,
+and loratadine) often deviate from the basic structure
+of classical antihistamines. recently, a study on a series
+of sedating and nonsedating hi-blockers demonstrated
+that nonsedative hi-antagonists fulfill specific lipophilicity criteria which prevent them from brain penetration.2
+for the purpose of rational drug design based on
+structure-activity information, one is confined to data
+mainly concerning so called classical antagonist^.^
+qsar studies indicate that para substitution with a
+small lipophilic group group (i.e., ch3, c1) is favorable
+for only one of the two aromatic rings of classical hiantagonists (figure 1). on the basis of a comparison
+with diphenylaminopropene analogues (e.g., triprolidine
+3, figure 1)the latter ring is called the “~is”-ring.~
+the
+aromatic character of this ring seems to be indispensable for hi-activity. in contrast, the second aromatic
+“trans”-ringcan be replaced by nonaromatic lipophilic
+groups (e.g., cyclohexyl) without drastic effects on hiblocking activity. obviously, the different receptor
+environment of the two ring systems is responsible for
+the stereoselectivity observed for many hi-antagonists,
+e.g., the trans-isomer of triprolidine 3 is 1000 times
+more active than the cis-isomer and the r-isomer of 8
+(4-methyldiphenhydramine,figure 1)is 100 times more
+active than the s - i ~ o m e r . ~ - ~
+three-dimensional models describing the structural
+features of histamine hi-receptor antagonists are generally based upon the semirigid and potent hi-antagonist  xxxd1785xxx  1.6-8 most of the early 3d-models
+were derived from flexible hi-antagonists for which only
+one conformation was considered (crystal structure6 or
+global minimum’). in later years, when lack of cpu
+time was not so much an issue, van drooge et al.
+derived a five-point pharmacophore by matching lowenergy conformations of the semirigid and potent hiantagonists  xxxd2904xxx  (2) and triprolidine (3) on six
+template conformations of  xxxd1785xxx  (1h8 this
+nonstereoselective model describes the relative position
+of two aromatic rings and a basic nitrogen atom derived
+from 1 with the piperidylene ring in the so-called “boat3”
+conformation.
+initially, the present study focused upon the accommodation of (semi-)rigid hi-antagonists in the above
+
+initially, we tried to accommodate (semi-)rigid and
+potent hi-antagonists in the five-point pharmacophore
+derived earlier by van drooge et al. (figure 1, compounds 4-7h8 however, the basic nitrogen could not
+always be matched with the position of the template
+nitrogen in the boat3 conformation of 1. therefore, we
+allowed for a certain flexibility in the position of the
+nitrogen. for this purpose, an approach was developed
+which considers the several interaction possibilities
+between a basic nitrogen and an  xxxd233xxx  in the
+histamine hi-receptor. the introduction of an aspartate
+is based upon the observation that aspartic acids are
+present within transmembrane domains i1 and i11 of
+the histamine h ~ - r e c e p t o r . ~a
+- ~recent
+~
+site-directed
+mutagenesis study on the histaminergic hi-receptor
+confirms our hypothesis by showing that the aspartate
+conserved in all aminergic g-protein coupled receptors
+(asp116)interacts with the classical hi-antagonist  xxxd3050xxx .13 in our strategy, we further assume that
+the cis- and trans-rings of 1-7 have a preferred orientation within the antagonist binding site, resulting in a
+relative position toward the c,- and cp-carbons of the
+aspartate. furthermore, we implicitly assume that all
+antagonists considered bind to the same site. these
+considerations lay the foundation for our model.
+in order to derive a new pharmacophoric model for
+the hi-antagonist binding site, low-energy conformations of compounds 2-7 (figure l) are superimposed
+on six previously derived low-energy conformations of
+ xxxd1785xxx .8 an aspartate is coupled to the basic
+nitrogen of each hi-antagonist and t o the template
+conformations of 1 (figure 2a). for this coupling,
+geometric constraints are obtained from a statistical
+analysis of the cambridge structural database with
+respect to the specific type of hydrogen-bonding interaction. in a first step the aromatic rings of the antagonist
+and the template are matched. subsequently,a “unique”
+position for the c,- and cp-atoms of the aspartate is
+derived by allowing for flexibility in the asparate side
+chain. in this second step the positions of the ring
+systems of the antagonist are fixed relative to those of
+the pharmacophore, while the ca’s and cp’s are being
+matched (figure 2c). a n additional advantage of this
+approach compared to all previous approaches is that
+the directionality of the hydrogen bond between the
+basic nitrogen and the aspartate is automatically taken
+into account. the stereoselectivity of the model is
+determined in a final step, where the flexible and
+stereoselective isomers of 8 are used to designate the
+cis- and trans-ring of our pharmacophoric model. our
+approach results in a new and stereoselective pharmacophore defined by the relative positions of the c,- and
+cp-carbons of an  xxxd233xxx  of the hi-receptor (probably asp116)positioned relative to the cis- and transring of classical histamine hi-antagonists.
+
+the histamine hi-receptor antagonist binding site
+
+journal of medicinal chemistry, 1995, vol. 38, no. 17 3353
+a
+
+(n..o) = 2.60 a
+
+(n..o) = 2.70 k 0. i i a
+
+(c-c-o..n)= 1x0" ?r 13'
+
+'
+
+(c-c-o..n)= 170"
+
+(1)
+
+figure 3. representation of the applied geometric constraints
+cri
+
+i
+
+'!
+
+rigid fining
+of the aromatic rings
+
+'0
+
+flexible lilting
+of c , and cp atoms
+
+a
+r
+c
+figure 2. strategy for fitting histamine hi-antagonists when
+
+(a) a n  xxxd233xxx  is connected to the protonated amino group
+of the template ( xxxd1785xxx ) and a second hi-antagonist
+(here  xxxd2572xxx ) according to geometric constraints obtained
+from a statistical analysis on csd data. (b) the aromatic
+rings are superimposed in a rigid fit. (c) in a flexible fit
+procedure the c,- and c/i-atoms of the aspartatic acids are
+matched. the dotted line represents the virtual axis in the
+n-he 00bond.
+
+methods
+investigated compounds (figure 1). in the present
+modeling study we consider the (semi-)rigid histamine hiantagonists 1-7 and the stereoselective isomers of 4-methyldiphenhydramine 8. from displacement experiments with
+i'$hlmepyramine (guinea pig cerebellum membranes, 30 min),
+it is evident that compounds 1-4 and 7-8 are potent hiantagonists with apparent pk, values of 9.27 ( l ) , 8.20 (2), 8.78
+(3, cis/trans mixture), 8.85 (4), 9.07 (71, and 7.91 ( 8 , ris
+mixture).'l the high potencies of these compounds have also
+been measured in other, different, and therefore incomparable
+functional systems, for example, pa2(l) = 9, pa2(2) = 8.8, pa2(3)= 9.9, -log(ics0)(4) = 8.8, and pa2(8) = 8.7 (in contrast to
+a value of 6.8 for the s-isomer of
+l8 the potencies for 5
+and 6 are reported by barbe et al. as being 7.2 and 7.3,
+respectively (pedso values measured on guinea pig ileum).l 9
+however, a binding constant of 8.0 was reported for 5 by
+leysen et al. (displacement of l3hlmepyramine from guinea
+pig cerebellum membranes after 30 min), and even higher
+picsovalues (up to 9.0) were measured a t longer incubation
+times.20
+the activities of the potent and (semi-)rigid hi-antagonists
+used in this study are measured in different pharmacological
+systems and should therefore not be compared quantitatively.
+for this reason no relative weights were given to the compounds during the construction of the present hi-antagonist
+model.
+conformational analyses. all calculations on hi-antagonists 1-8 were performed on the protonated species (figure
+1). the low-energy conformations of compounds 1-3 were
+. ~
+4-8 were built
+obtained from van drooge et ~ 1 compounds
+using the modeling package chem-x january 1990 (chemical
+design ltd., oxford, u.k. 1. the three possible conformations
+of the extremely rigid compound 4 were built from scratch and
+optimized within chem-x. in contrast, the starting conformations of compounds 5-8 were built using crystal structures
+(complete structures or fragments) from the cambridge structural database (diphenhydramine, code jemjoa;  xxxd2637xxx ,
+code bucvaw; phenothiazine group, code mpmptz; 3-quinuclidinyl group, code bewdow10). subsequently, macromodel (version 2.5) was used for molecular mechanics conformational analyses on compounds 5-8. if neccesary, the ring
+closure bond option was used (5-7) and a large number of
+conformations was generated by changing all rotatable bonds
+with increments of 30". the conformations were energy
+optimized with a n mm2 force field (nbrf optimization) with
+8 ) . 5 3 1 5 -
+
+for the ionic hydrogen bonding interaction between a n aspartic
+acid and (a) a protonated tertiary amino group or (b) a
+protonated guanidino group. p a r t a represents the average
+hydrogen bond geometry with standard deviations (n = 23)
+from a statistical search (gstat88) in the cambridge structural database. part b represents a n optimized hydrogen
+bond geometry using ab initio methods (gamess, sto-3g
+basis set).
+the program batchmin 2.7 in order to obtain the low-energy
+conformations. the partial charges used in these calculations
+stem from the classical definition of bond dipoles and thus
+correspond to the mm2 dipoles exactly. for the dielectric
+constant a value of 1 was used (batchmin user manual
+version 4.0, columbia university, new york).
+fit procedures. in the present study two different fit
+procedures were used (chem-x, january 1990). the first
+approach corresponds to the one described earlier in which two
+neighboring aromatic rings and a basic nitrogen of a n hiantagonist are matched with a five-point pharmacophore.r
+each aromatic ring is represented by two dummy atoms, 1.8
+a above and below the centroid of the ring. low-energy
+conformations of compounds 2-8 are superimposed on the
+template conformations of 1 ( t h t pharmacophore) using restraint constants of 10 kcal/(mol*a2)for the dummies and 100
+for the basic nitrogen. the compounds are first matched by
+allowing for global rotations and translations only (rigid
+match). in a subsequent step (flexible fit) the internal nonbonded energy of the antagonist is minimized with respect to
+user-defined exocyclic bonds (compound 2, 1 rotatable bond;
+3, 4 bonds; 5 , 2; 6, 1; and 8, 6) and the penalty functions
+(restraints). endocyclic nitrogen inversion was considered for
+compounds 4-7. also the nonplanar ring system(s) of compounds 1, 2, 4, and 7 can adopt several distinct low-energy
+conformations due to variations around endocyclic bonds.
+therefore, all low-energy conformations of compounds 1-2 and
+4- 7 generated manually or with macromodel were considered
+separately in the above procedure. for compounds 3 and 8
+(only exocyclic torsions), only the ges was considered since
+the restraint constants are high enough to overcome the small
+energy barriers present.
+in the second approach, a n  xxxd233xxx  is coupled to the
+basic nitrogen of each investigated antagonist and the template conformations of 1 (figure 2a). the carboxylate group
+is connected to the protonated tertiary amino group (all
+compounds except 4) according to geometric constraints derived from a statistical analysis (gstat88) on 23 structures
+describing the interaction between a tertiary amino and a
+carboxylate (cambridge structural database, oct. 1992;21
+codes binriz, bpamal, coynej, cuxkov, debalb,
+fakcav, fugsab. fupdoj. gexwov. japcae. jegwun, jidlaj, jifyom, k e ~ u g ,kex+an, l o x s y c i o ,
+mpsihf, nicsal, prpeng, pychma, sebrog, talcoy,
+vipriv, figure 3a). x-ray structures were accepted when the
+n* -0 distance was smaller than 3.4 a.
+compound 4 contains a fused guanidino group. a carboxylate is connected using geometric constraints derived from a
+study on arginine-carboxylate interactions.22 the geometry
+of this bidentate complex (i.e., a methylguanidinoaspartate
+moiety) was optimized using ab initio methods (gamess,
+sto-3g basis set). although this so-called anti i1 geometry
+involves two hydrogen bonds, only one is used to connect the
+aspartate to the guanidino of 4 (figure 3b) (see discussion).
+in all cases ( 1-8), a virtual bond was established between the
+
+ter laak et al.
+
+3354 journal of medicinal chemistry, 1995, vol. 38, no. 17
+
+table 1. low-energy conformations of  xxxd1785xxx  (side
+viewp
+
+-=i?-
+
+g 44 9
+chairleq
+
+chair2eq
+
+hoat3q
+
+hoatkq
+
+hoatscq
+
+hoaihcq
+
+fa
+
+ xxxg675xxx 
+l;a
+
+c. i 27 kcal/mol
+d i x2 kcallmol
+figure 4. the fused tetrahydropyridine ring of  xxxd2904xxx 
+(21 can adopt two different twisted boat conformations which
+differ about 0.5 kcavmol in internal energy (a).
+the n methyl group can either be in the preferred equatorial (a and
+b) or in the axial position (c and d).
+a. 0.ou hcallmol
+
+ae
+
+0.00
+
+chair l a x
+
+ae
+
+2.42
+
+1.36
+
+chair2;ix
+
+3.xo
+
+6.08
+
+3.3s
+
+6.06
+
+3.36
+
+hoai3ax
+
+hoat4ax
+
+hoaisax
+
+hoathax
+
+4.99
+
+6.29
+
+4.98
+
+8.1 i
+
+the piperidylene ring of  xxxd1785xxx  can attain six different conformations with the n-methyl group in the equatorial
+(upper six conformations) or axial orientation (lower six conformations). the calculated ab initio energy differences relative to the
+global minimum (he)are given in kcavmol (gamess u.k., sv
+4-31gbasis set).
+hydrogen-donating nitrogen of the antagonist and the hydrogenaccepting oxygen of the aspartate in order to allow for rotation
+around this bond in the flexible fit procedure.
+i n the first step (rigid fit) the aromatic ring systems are
+matched, defining each ring by two dummies (figure 2b). in
+the subsequent flexible fit, the c,- and cb-carbons are matched
+with restraint constants of 50 kcavmol*a2)(six-point pharmacophore, figure 2c). in addition to the above-mentioned userdefined rotatable bonds, the above virtual bond and the c/rc, bond of the aspartate group are also allowed to rotate.
+twelve different template conformations of 1 are considered
+(table 1). the pharmacophore is asymmetric as the aspartate
+distorts the mirror symmetry in  xxxd1785xxx . consequently, both stereoisomers of chiral compounds 2 and 4-8
+are considered.
+the criteria us2d to accept matching results are a s follows:
+a t maximum 0.5 a for the distances between the centroids of
+the rings (di and dii), 0.5 8, for the distances between the basic
+nitrogens (five-point pharmacophore), at maximum %5" for the
+angles between the rings (a1 and aii) and 0.3 a for the
+deviation between cn)s and c,{s (six-point pharmacophore).
+final conformations with a n energy (aahf or he) '10 kcav
+mol above ges (global energy structure) were rejected.
+energy calculations. all low-energy conformations and
+those obtained after fitting were eventually geometry optimized with the quantum chemical program gamess-uk
+the
+(sto-3g basis set) on a n ibm-risc system 6000.2'3;24
+two aromatic rings, the basic nitrogen, and the attached proton
+were restrained to a fixed position during optimization of the
+fitted conformation in order to preserve the match with the
+pharmacophore. a single-point sv 4-31g calculation was done
+to obtain accurate a b initio energies. for compounds 1,2, and
+4, all low-energy conformations were refined a b initio. for
+the more flexible compounds 3 and 5-8, the mm2 global
+minimum was asumed to yield the a b initio global minimum
+(ges).
+the a b initio energy difference (a)
+between the fitted
+conformation and the corresponding global minimum was
+calculated. in contrast to the (semi-)rigid compounds, the ges
+of the flexible compound 8 contains a n intramolecular hydrogen bond. as no information is available on the presence of
+an internal h-bond in solution, the global energy conformation
+of 8 is assumed to be the lowest energy conformation without
+such a n h-bond. this energy was used for determining he
+values.
+
+13 0 40 kcavmol
+
+results and discussion
+conformational analysis of  xxxd1785xxx (1).
+the major reason for using the potent hi-antagonist 1
+as a template molecule is its relative rigidity. the
+piperidylene ring may attain two chair and four boat
+conformations (see also ref 8). including the two different attachments of the n-methyl group being either
+axial or equatorial, 12 different low-energy conformations are obtained (table l). the relative energies of
+these ab initio optimized conformations indicate chair1
+with the n-methyl group equatorial (chairleq)to be the
+ges; this conformation is also found in x-ray studies
+on  xxxd1785xxx .25 more importantly,
+ih-nmr experiments show that chairleq and chair2eq
+are the only conformations observed in solution (cdc13)
+occurring in a ratio of about 4:1.26 this is in agreement
+with our data in table 1.
+consequently, three conformations of 1were considered as possible templates: the two conformations
+observed in solution (chairleq and chair2eq) and boaeeq,
+since this conformation has earlier been suggested to
+be the bioactive conformation.8
+conformationanalysis of  xxxd2904xxx  (2) and
+triprolidine (3). the chiral molecule  xxxd2904xxx 
+2 and the nonchiral trans-triprolidine 3 are two semirigid hi-antagonists used in the study by van drooge
+et al8 it is worthwhile mentioning that the double bond
+of  xxxd2904xxx  can either be in the piperidyl ring (as
+in 2, figure 1)or in between the phenyl group and the
+piperidyl ring (not shown). thus  xxxd2904xxx  can be
+isolated in two epimeric forms, their ratio depending on
+the salt or free base being formed.27 the structural
+formula 2 depicted in figure 1is representative for the
+commercially available  xxxd2904xxx  tartrate salt and
+is reported to be the bioactive epimer of  xxxd2904xxx .28
+taking into account the likely epimerization of  xxxd2904xxx , it is interesting to note that no one has ever
+separated stereoisomers of 2. since no information is
+available on the absolute configuration of the bioactive
+epimer 2, both stereoisomers of 2 were considered in
+the fitting procedures.
+the relative rigidity of 2 is due to the limited
+flexibility of the fused tetrahydropyridine ring and the
+presence of only one freely rotatable bond. we found
+that the tetrahydropyridine ring can adopt two different
+boatlike conformations which differ only 0.5 kcavmol
+in internal energy (ab initio, sv4-31g basis). as the
+n-methyl group can either be in the favorable equatorial
+or in the less favorable axial position, four local minima
+are obtained all within 1.8 kcallmol from the global
+minimum (figure 4).
+the conformational analysis for 3 was performed for
+the trans-isomer only as it displays a 1000-fold higher
+antihistaminic potency than the cis-isomer.l 7 the con-
+
+the histamine hi-receptor antagonist binding site
+
+a. 0 . t n i kcal/mol
+r. 8.19 kcal/mol
+c. x. is kcillmol
+figure 5. three conformations of the protonated s-isomer
+
+of epinastine (4) with their
+explanation.
+
+ae values. see text for further
+
+formational analysis resulted in a global energy structure (ges) with the a-pyridyl ring and the double bond
+almost in the same plane (deviation 22"); the substituted
+phenyl ring is rotated out of this plane by -59".
+considering the many low-energy conformations of 3 (4
+rotatable bonds) and low-energy barriers between the
+local minima, only the ges was used for flexible fitting
+purposes. starting from other low-energy conformations for this specific compound is unlikely to influence
+the final results.
+conformation analysis of epinastine (4), phenothiazine derivatives 5 and 6, and  xxxd2637xxx 
+(7). epinastine 4 is a highly rigid and basic compound
+with a pka of -11.2 all theoretically possible conformations and tautomers of the protonated form were built
+and optimized. tautomers with two protons at nitrogen
+n2 (see figure 5) are at least 36 kcavmol more favorable
+(sv 4-31g basis set) than tautomers with the acidic
+proton attached to n1 or n3. therefore, the tautomer
+depicted in figure 2 is likely to be the bioactive
+protonated species of 4. in total, six conformations are
+possible for 4: a, b, and c for both the s- and r-isomer
+(figure 5). the large ab initio energy differences
+indicate that conformation a is probably active at hireceptors. it is important to mention that 4 can be
+methylated at n3 (thereby replacing the n3-hydrogen)
+without losing antihistamininic activity; in fact this
+compound is 2 times more active than 4 itself.29 on the
+basis of this observation, the ionic hydrogen bond
+between 4 and a protein carboxylate is assumed to be
+formed with n2 and not with n3.
+as the tricyclic phenothiazine part of compounds 5
+and 6 is symmetric, interconversion of the thiazine ring
+does not yield different conformations. however, inversion of the ring nitrogen can put the side chain either
+in an axial or equatorial orientation. the local minima
+resulting from the conformational analyses show that
+the equatorial position is energetically more favorable
+than the axial position (ab initio ae: 3.40 kcavmol for
+5 and 1.44 kcavmo1 for 6). for fitting purposes, both
+the equatorial and axial conformers were considered.
+since the carbon connecting the tricyclic part with the
+3-quinuclidinyl group is chiral, two stereoisomers were
+also investigated.
+although  xxxd2637xxx  (7) has no freely rotatable
+bonds, the molecule is relatively flexible. the fused
+piperazinyl ring can be oriented either axial or equatorial at both the central chiral carbon and the neighboring nitrogen (nitrogen inversion). as a consequence,
+this ring can attain several chair, boat, and twisted boat
+conformations. conformational analysis yielded six lowenergy piperazinyl chair conformations. the ges is a
+chair with the n-methyl in an equatorial position (sv431g basis set). all low-energy conformations of both
+stereoisomers were considered in the fitting procedures.
+
+journal of medicinal chemistry, 1995, vol. 38, no. 17 3355
+
+pharmacophores with a fixed position for the
+basic nitrogen atom. in our present study we found
+that antihistaminics 4-7 could not be fitted on the
+previously assumed bioactive boat3eq conformation of
+ xxxd1785xxx .8 although the aromatic rings of 4-7
+match the pharmacophore well, the nitrogens of especially 4,5, and 7 hardly match (distance >0.8 a; table
+2). since we also found that the energy difference
+between boat3eq and the global minimum chairleq is
+substantially higher with ab initio methods (ae:6.08
+kcavmo1) than with semiempirical methods (mndo:
+aahf: 2.7 kcavmol), we questioned the validity of boat3
+as a possible pharmacophore.8
+on the basis of the above observations, we focused
+our attention on chairleq and chairaeq, which are found
+in solution and have the lowest ab initio energies. we
+found that only a limited number of compounds could
+be fitted on the two five-point pharmacophores represented by chairleq (compounds 2 and 3) and chair2eq
+(compounds 2 , 3 and 5). in all other combinations (le.,
+4,6, and 7 on chair2eq and 4-7 on chairleq), the fit of
+the basic nitrogens was not satisfactory (n-n distances
+>0.5 a; table 2).
+in summary, the fit results, partially presented in
+table 2, demonstrate that the basic nitrogen of hireceptor antagonists does not occupy one particular
+position in space with respect to the position of the
+aromatic rings. we therefore conclude that a five-point
+pharmacophore derived from either chairleq, chair2eq,
+or boat3eq is not sufficient to describe the histamine
+hi-antagonist binding site.
+a pharmacophore with a variable position for
+the basic nitrogenatom. from the results presented
+in table 2, we anticipated that the ionic interaction
+between the basic nitrogen and the hi-receptor should
+have a relatively large positional freedom. we therefore
+introduced an  xxxd233xxx  into our model with which
+the antagonists interact and which represents an  xxxd233xxx  from the receptor. a penalty function was
+put on the position of the c,- and cp-carbons; no
+restraints were put on the basic nitrogens. this approach results in a six-point pharmacophore, while at
+the same time sufficient attention is given to the
+directionality of the acidic proton.
+for the construction of the new pharmacophore, the
+experimentally observed chairleq and chair2eq were
+considered as templates. in the two conformations, the
+acidic hydrogens have opposite directions which is
+illustrated by the different positions of the aspartate in
+figure 6. since preliminary fitting experiments showed
+that the acidic hydrogens in chairlax and chair2ax point
+approximately in a similar direction as in the aboveinvestigated chair2eq and chairleq conformations (see
+table l), these axial conformations were not further
+investigated.
+it was observed that when more than three molecules
+were fitted simultaneously according to the flexible
+fitting procedure described in figure 2c, the number
+of restraints prevented the c,- and cg-atoms from
+converging. therefore at maximum two compounds out
+of the series 2-7 were simultaneously fit on 1. each
+compound was combined with several other compounds
+(starting with the most rigid ones) in order to derive
+the most likely template molecule. in case a template
+
+3356 journal of medicinal chemistry,1995, vol. 38,no. 17
+
+ter laak et al.
+
+table 2. quality of the fits of compounds 2-7 fitted on the chairleq, chair2eq, and boat3eq conformations of  xxxd1785xxx 
+fitted on chairleq
+compound
+ xxxd1785xxx ( 1)
+phenindaminec(2)
+triprolidine" (3)
+epinastine (4)
+ xxxd2572xxx  (5)
+ibf28145 (6)
+ xxxd2637xxx  ( 7 )
+
+n-na
+
+(a)
+
+aeb (kcdmol)
+
+fitted on chair2eq
+n-n"
+
+0.00
+1.82
+11.61
+0.00
+0.49
+5.06
+3.70
+
+0.25
+0.19
+3.62
+0.67
+0.80
+2.35
+
+(a)
+
+0.26
+0.18
+2.57
+0.04
+0.94
+1.57
+
+aeb
+
+(kcavmol)
+1.36
+2.47
+10.82
+0.00
+1.48
+1.85
+3.70
+
+fitted on boat3eq
+n-na
+
+(a)
+
+0.17
+0.08
+1.64
+0.78
+0.13
+0.89
+
+aeb (kcavmol)
+6.08
+2.93
+10.30
+0.00
+4.63
+5.43
+6.60
+
+a the distance between the basic nitrogen atoms with respect to  xxxd1785xxx . ab initio energies of the fitted conformations relative
+to the global minimum energy (ae)(gamess u.k., sv 4-31g basis set). results for chairleq and chair2eq are taken from van drooge
+
+et a1.8
+
+fitof5
+
+'chair leq'
+
+'chair  xxxd1278xxx '
+
+figure 6. fits of (r)- xxxd2572xxx  (5, green) a n d (s)-epinastine (4, blue) on two different conformations of the template molecule
+ xxxd1785xxx  (1,yellow).  xxxd2572xxx  ( 5 )reveals a much better overlap with chair2eq (upper right) t h a n with chairleq (upper
+left) as illustrated by the excluded vdw volumes of the fitted molecules (white). epinastine (4) reveals similar results (lower
+right and left). also the quality of the fit for 4 on 1 with respect to the aromatic rings is much better for chair2eq t h a n for
+chairleq.
+
+was rejected, it was checked whether the outcome was
+not an artefact of the applied restraints.
+especially in the fits of 4 and 5 on 1, a clear
+distinction is present between the quality of the fits on
+chairleq and chair2eq (figure 6). within our predefined criteria, epinastine 4 does not fit on chairleq
+due to low fit quality of the aromatic rings; the centroids
+have at best deviations of 0.42 (ring i) and 1.00 a (ring
+11), respectively. moreover, the cp of the aspartate
+coupled to 4 could not be superimposed on the cp of
+chairleq (cp-cp > 0.8 a). also the steric overlap
+between 4 and chairleq is low (vdwexci = 34.2 a3)
+compared to the overlap between 4 and chair2eq (vdwexc1 = 44.7 a
+').
+comparable results were found for  xxxd2572xxx  (5).
+although the rings of 5 fitted well on both templates,
+the aspartate of 5 did not match the chairleq aspartate
+(cb-cp > 0.8 a). moreover, the 3-quinuclidinyl side
+chain of 5 is forced to occupy a spatial area different
+from the one occupied by the piperidylene side chain of
+the template chairleq (vdwexcl=73.8 a3;figure 6). in
+contrast, the fit on the chair2e aspartate appeared to
+be much better (ca-ca = 0.07 cg-cg = 0.15 a) and
+resulted in a large steric overlap (vdwexc1 = 8.0 hi3).
+
+i,
+
+the fit results for both 4 and 5 on 1 indicate that the
+bioactive conformation of 1 most probably is chair2eq.
+low-energy conformations of 4 (ges) and 5 (ae= 1.94
+kcal/mol; table 3) have a good steric overlap with a lowenergy conformation of 1 (chairaeq, ae = 1.36 kcal/mol)
+with respect to the aromatic rings and the side chains;
+moreover, the three compounds are able to interact with
+the same carboxylate group.
+our tentative conclusions are supported by the remarkable good fits of compounds 2,3,6, and 7 on the
+six-point chair2eq pharmacophore (table 3); because of
+the limited flexibility of 2,6, and 7 , these results were
+unexpected. figure 7 shows the conformations of 2-7
+superimposed on chair2eq. the molecules show a good
+fit with respect to the aromatic rings, relatively compact
+steric boundaries of the various side chains and only
+negligible variations in the position of the ca- and cgatoms of the postulated  xxxd233xxx . the model shows
+that the interacting basic nitrogen occupies largely
+different positions within the antagonist binding site.
+for clarity, the fits are presented separately in figure
+8.
+bioactive conformations of the hi-antagonists.
+in most cases the energy of the best fitting, presumably
+
+the histamine hi-receptor antagonist binding site
+
+journal of medicinal chemistry, 1995, vol. 38, no. 17 3357
+
+table 3. quality of the fits of compounds 2-8 fitted on the chair2eq conformation of  xxxd1785xxx  with an aspartate coupled
+to a basic nitrogen"
+compound
+dib(a) diic(a) aid (deg) aiie(deg) n-nf(a)
+c,-c$ (a) cs-c# (a) aei (kcavmo1)
+1.36
+0.00
+0.00
+0.00
+0.00
+0.00
+ xxxd1785xxx  (1)
+0.00
+0.00
+3.58
+0.04
+0.12
+1.16
+34.11
+4.38
+ xxxd2904xxx  (2)
+0.22
+0.37
+7.42
+0.16
+0.09
+1.15
+20.29
+7.45
+0.20
+0.27
+triprolidine (3)
+0.00
+0.26
+0.10
+2.04
+31.07
+23.03
+0.43
+0.29
+epinastine (4)
+1.94
+0.15
+0.07
+0.92
+8.45
+8.41
+ xxxd2572xxx  ( 5 )
+0.11
+0.10
+4.25
+0.20
+0.14
+1.67
+15.75
+17.69
+0.24
+0.16
+ibf28145 (6)
+2.62
+0.20
+0.33
+1.09
+11.63
+18.31
+0.25
+0.34
+ xxxd2637xxx  (7)
+1.88
+0.08
+0.07
+1.11
+6.36
+6.61
+(r)-4-me-diphenhydramine(8)
+0.10
+0.09
+11.04
+0.25
+0.28
+1.49
+6.17
+5.50
+(s)-4-me-diphenhydramine( 8 )
+0.16
+0.14
+a all results are with respect to  xxxd1785xxx . distance between the ring centroids of the cis-rings. e distance between the ring
+centroids of the trans-rings. angle between the cis-rings.e angle between the trans-rings. f distance between the basic nitrogens.
+g distance between the c, atoms. h distance between the cbatoms. i ab initio energies of the fitted conformations relative to the global
+gamess u.k, sv 4-31g basis set).
+minimum energy (a;
+
+\
+
+a
+figure 7. the hi-antagonists comprising the final hi-antagonist binding site model; the a s p z c acid of the protein is included:
+red = 1 (chair2eq); lightgreen = (s)-2 (figure 4); dark blue = trans-3; yellow = (s)-4 (figure 5a);orange = (r)-5(equatorial);
+dark green = (r)-6(axial); light blue = (r)-7;white = (r)-8. (a) front view of the model revealing the overlay of the cis-rings
+(upper left) and the trans-rings (upper right) and the fit of the ca- and cg-carbon atoms of the aspartate. (b) side view (90°
+rotated) illustrating the variation in the position of the basic nitrogen atom interacting with the  xxxd233xxx .
+
+bioactive, conformation appeared to be very close to the
+global or a local minimum (table 3). for example, the
+final conformation of  xxxd2904xxx  2 is a slightly
+distorted version of conformation c (figure 4). an
+acceptable ab initio energy of 3.58 kcavmol above ges
+was found.
+the internal energy of 3 is high relative to ges (ae
+= 7.42 kcdmol, table 3). this is caused by the inability
+of the chem-x force field to treat conjugated systems
+in an appropriate way. the chem-x molecular mechanics force field easy rotates the aromatic rings out
+of the plane of the conjugated double bond in order to
+improve the fit, whereas ab initio methods assign
+relatively high energies to these distorted systems. this
+phenomenon can also be observed when 3 is fitted on
+the three different conformations of 1in the absence of
+an aspartate (table 2). even when the restraints on
+the basic nitrogen or the aspartate are removed, the ring
+systems of 3 and 1 are hard to match. this suggests
+that in order to explain the high antagonistic activity
+
+of 3,we might have to assume that the position of one
+of the rings might be less restricted than that of the
+second ring. this suggestion is supported by qsar
+studies which indicate that the steric boundaries of the
+trans-ring are relatively undefined compared to those
+of the ~ i s - r i n g .the
+~ probably unnecessary forced fit of
+the trans-ring of 3 on the trans-ring of 1 explains the
+relatively high internal energy of 3.
+as a consequence of the above observations, the
+orientation of the trans-ring in compounds 4-7 relative
+to 1might also be too restricted. nonetheless, the ring
+systems of 4-7 fitted extremely well on 1(table 3). the
+lower fit quality is generally found for the more rigid
+compounds 4 and 7. this is probably due to the
+restriction of the n-h* -0 hydrogen bond angle and the
+n-ha -0-c dihedral angle to their optimal values of
+180" (figure 2). since the actual interaction is probably
+less restricted, it is to be expected that relative internal
+energies can be slightly overestimated (in the order of
+a few kcavmo1).
+
+ter laak et al.
+
+3358 journal of medicinal chemistry, 1995, vol. 38,no. 17
+
+1
+
+-;l
+
+figure 8. separate fits of compounds 2-8 (blue) on chair2eq of 1(yellow). this view shows the cis-ring at the left side and the
+trans-ring at the right side of the molecules.
+
+in conclusion, the whole series of (semi-)rigid hiantagonists can be fitted well on a six-point pharmacophore (chair2eq coupled to an aspartate) illustrated
+by high-quality fits, low intramolecular energies relative
+to ges, and optimal interaction geometries with an hireceptor  xxxd233xxx .
+definition of the cis- and trans-ring. one of the
+aromatic rings of trans-triprolidine 3 is substituted with
+ap-methyl group and has been defined as the cis-ring
+of hi-antagonists. we found that the cis- and transring of 3 when fitted on 1cannot be interchanged. thus,
+our model confirms the substantially lower affinity of
+cis-triprolidine compared to trans-triprolidine 3 (see
+introduction). the ring closest to the carboxylate group
+(smallest distances between the ca-and cgatoms of the
+ xxxd233xxx  and the centroids of the ring systems) is
+defined as the cis-ring (figure 9).
+at this stage of the study, it is important to mention
+that the model still lacks stereoselectivity since for none
+of the chiral compounds (2 and 4-7) the absolute
+configuration of the bioactive stereoisomer is known. as
+a consequence, two pharmacophores are possible: the
+pharmacophore shown in figure 7 and its mirror image.
+the pharmacophore with the appropriate stereochemistry can be found by fitting the potent and stereoselective isomers of 4-methyldiphenhydramine 8 on
+chair2eq. for both isomers, the para-substituted ring
+was fitted on the cis-ring of chair2eq. keeping the
+aromatic rings optimally fitted on the template, only one
+of the two mirror images of the pharmacophore appeared to be a good template for the most active
+r-isomer of 8 (1.88 kcdmol above ges). in contrast,
+the 100 times less potent s-isomer did not match well
+with chair2eq unless the side chain was folded (best
+f i t 11-04kcdmol above ges). figures 7 and 9 present
+the pharmacophore in the appropriate configuration.
+the orientation of the cis- and trans-ring of antihistamines with respect to an  xxxd233xxx  can therefore be
+
+cis
+
+trans
+0
+
+l
+.
+i
+l
+
+ca
+
+figure 9. pharmacophoric model of the histamine hiantagonist binding site based on chair2eq of 1(left, front view;
+right, side view). dotted lines connect the ca- and cp-atoms
+of the aspartate with the centroids of the cis- and trans-ring.
+the aspartate is defined with respect to cyproheptadineby the
+distance 01-n+= 2.69 the angles ol-h-n+ = 180.0" and
+ol-n+-cii = 114.1" and the dihedral angles c,-o~-n+-ci
+= -177.7, cb-cy-o1-nf
+= -179.7, and ca-cb-cy-01
+=
+149.0.
+
+a,
+
+described in a three-dimensional and stereoselective
+pharmacophoric model (figure 9).
+qualitative prediction of the stereoselectivity
+of antihistamines 2,4, and 6. compound 8 made it
+possible to determine the stereoselectivity of the model;
+now we can qualitatively predict the absolute configuration of the bioactive stereoisomers of 2,4, and 6. we
+found that only the s-isomer of 2, the s-isomer of 4,
+and the r-isomer of 6 are able to fit the present
+pharmacophore. the model also designates the phenyl
+group of  xxxd2904xxx  2 as the cis-ring. also, the
+aromatic ring of 4 closest in space to its guanidino group
+is found to be comparable to the cis-ring (figure 9).
+unfortunately, the pharmacophore does not unambiguously predict the stereoselectivity of 5 and 7.
+
+the histamine hi-receptor antagonist binding site
+
+journal of medicinal chemistry, 1995, vol. 38, no. 17 3359
+
+ xxxd2572xxx  5 is represented by its r-isomer, whereas
+the s-isomer fits equally well. this is not surprising
+since the chiral center is relatively “far away” from the
+aromatic ring systems when compared to 6.  xxxd2637xxx 
+(7) is represented by its r-isomer, whereas also in this
+case the mirror image (s-isomer)fits equally well. since
+in the fits of the r- and s-isomers of 7 the aromatic rings
+are interchanged, it is not possible to predict the
+stereoselectivity of 7 and/or designate the putative cisand trans-ring.
+the presented pharmacophore enables us to extrapolate the structure activity relationships obtained for
+classical hi-antagonists to a 3d-model for (semi-)rigid
+antihistamine^.^ also less rigid and/or nonclassical hiantagonists can be fitted in the pharmacophoric model
+in order to elucidate their stereoselectivity and/or
+designate their cis- and trans-rings. in general, the
+model will be useful for understanding the binding
+modes of nonclassical antagonists and for the design of
+new, preferably nonsedating, antihistamines. in preliminary studies we have found that modern antihistamines such as terfenadine,  xxxd236xxx , loratadine, and
+cetirizine also fit the model indeed. however, the “best”
+fit cannot be assigned based on these results, since these
+compounds usually have an additional flexible side
+chain attached to the basic nitrogen which occupies an
+area within the hi-receptornot described by the present
+model.
+
+since the directionality of the proton differs in the three
+low-energy conformations and cypropheptadine is the
+basis of our template.
+(iv)the existence of several low-energy conformations
+for  xxxd1785xxx  indicates that this compound possibly binds to the histamine and muscarine or serotonine receptors in different conformations. this might
+further explain the different stereoselectivity observed
+for histamine and muscarine antagonists.
+(v)a model is obtained which includes one amino acid
+of the receptor. since this amino acid has been identified to be asp116, tools are now available to dock the
+antagonists in a homology model of the receptor while
+matching the aspartate coupled t o the basic nitrogen of
+the antagonist with asp116 of the protein. the most
+likely (energetically favorable) binding site for the
+antagonists can then be determined by allowing for
+rotation around the c,-cp bond while leaving the
+position of c, and cp unchanged. since several homology models can be built for the protein depending on
+the alignment chosen (e.g., refs 30-321, a number of
+possible binding sites will be obtained (one for each 3dmodeyalignment). the most probable binding site and
+therefore the most probable alignment can be attained
+when the energetics of the binding sites are compared,
+i.e., by investigating whether the model explains observed biological data such as affinity values. furthermore, the properties of the binding site should explain
+the known (q)sar data. both studies will give clues
+on the most probable 3d-model (le., alignment) of the
+protein. the underlying approach including known
+protein interaction sites into a pharmacophoric model
+is of general importance for verifying protein models
+with limited reliability such as models derived for
+gpcrs from bacteriorhodopsin. furthermore, these
+interaction sites are necessary in case a simple atom to
+atom matching of compounds is not sufficient t o derive
+a model which can accommodate all investigated compounds. studies investigating several 3d-models for the
+hi-receptor are in progress.
+since our model is able to assign the bioactive
+stereoisomers of phenindame (s-isomer),epinastine (sisomer), and ibf28145 (r-isomer)and further predicts
+that the receptor binds these enantiomers with high
+stereoselectivity, we encourage chiral separation of the
+enantiomers of these compounds for further validation
+of our model.
+finally, the presented pharmacophoric model might
+enhance insights into the sars of several other classes
+of histamine hi-antagonists. in the near future we
+intend to use our model as a basis for an extensive
+comparative molecular field analysis (comfa)~~
+and,
+when possible, determine the bioactive conformation of
+several classical and nonclassical hi-antagonists.
+coordinates of the hi-antagonist pharmacophoric
+model may be obtained from the authors (by e-mail:
+donne@chem.vu.nl).
+
+conclusions
+a new pharmacophoric model for the histamine hiantagonist binding site has been derived which reveals
+that a simple atom t o atom matching of compounds is
+not sufficient anymore for describing the binding of an
+extended series of antagonists but that interacting
+residues from the receptor need to be included. the new
+model allows for significant freedom in the position of
+the basic nitrogen of the histamine hi-antagonist. the
+area accessible to the basic nitrogen is confined t o the
+region accessible to its counterion on the histamine hireceptor, i.e., the carboxylate group of asp116. the basic
+nitrogen is assumed to form an ionic hydrogen bond
+with this  xxxd233xxx  whose c,- and cg-carbons are
+fixed with respect t o the protein backbone. via this
+hydrogen bond the directionality of the acidic proton of
+the antagonist is taken into account. a six-point pharmacophore is derived describingthe bioactive conformations of  xxxd1785xxx ,  xxxd2904xxx , triprolidine,
+epinastine,  xxxd2572xxx , ibf28145, and  xxxd2637xxx .
+the merits of this study are as follows.
+(i) the pharmacophore is stereoselective and is able
+to designate the absolute bioactive configuration of hiantagonists such as phenindame (s),epinastine (s),and
+ibf28145 (r). since we did not succeed in accommodating the opposite enantiomers of these three
+compounds, we conclude that the receptor is highly
+stereoselecive for these componds.
+(ii) the model is able t o distinguish between the socalled cis- and trans-rings mentioned in many (q)sar
+studies on hi-antagonists.
+(iii) the bioactive conformation of  xxxd1785xxx  is
+revealed not be the ~ h a i r l e qor~ boat3eq
+,~
+conformation8
+but chair2eq. this has important implications for the
+docking of  xxxd1785xxx  (and other classical hiantagonists) into three-dimensional receptor models
+
+acknowledgment. this research was supported by
+the dutch technology foundation (stw). the use of
+the caos/camm facilities (nijmegen, the netherlands) is gratefully acknowledged.
+
+3360 journal of medicinal chemistry, 1995, vol. 38, no. 17
+
+references
+timmerman, h. factors involved in the incidence of central
+nervous system effects of hi-blockers. in therapeutic index of
+antihistamines; church, m. k., rihoux, j.-p., eds.; hogrefe and
+huber publishers: lewiston, ny,1992; pp 19-31.
+ter laak, a. m.; tsai, r. s.; donne-op den kelder, g. m.;
+carrupt, p.-a,; testa, b.; timmerman, h. lipophilicity and
+hydrogen bonding capacity of hi-antihistaminic agents in relation to their central sedative side effects. eur.j. pharmacol. sci.
+1994,2, 373-384.
+ter laak, a. m.; van drooge, m. j.; timmerman, h.; donne-op
+den kelder. g. m. qsar and molecular modeline studies on
+histamine hi-receptor antagonists. quant. strucr-act. relat.
+1992,11,348-363.
+ison, r. r.; franks, f. m.; soh, k. s. the binding of conformationally restricted antihistamines to histamine receptors. j .
+pharm. pharmacol. 1973,25, 887-894.
+harms, a. f.; hespe, w.; nauta, w. th.; rekker, r. f.;
+timmerman, h.; de vries, j. diphenhydramine derivatives
+through manipulation toward design. in drug design vi;
+ariens, e. j., ed.; academic press: new york, 1975;  xxxd1307xxx -80.
+borea, p. a.; bertolasi, v.; gilli, g. crystallographic and
+conformational studies on histamine hi-receptor antagonists.
+iv. on the stereochemical vector of antihistaminic activity.
+arzneim. forsch.ldrug. res. 1986, 36 (11,895-899.
+naruto, s.;motoc, i.; marshall, g. r. computer-assisted analysis
+of bioactivity. i. active conformation of histamine hi-receptor
+antagonists. eur. j. med. chem. 1985, 20, 529-532.
+van drooge, m. j.; donne-op den kelder, g. m.; timmerman,
+h. the histamine hi-receptor antagonist binding site. part 1:
+active conformation of  xxxd1785xxx . j. comput.-aided mol.
+des. 1991, 5, 357-370.
+yamashita, m.; ito, s.; sugama, k.; fukui, h.; smith, b.;
+nakanishi, k.; wada, h. biochemical characterization of histamine hi-receptors in bovine adrenal medulla. biochem. biophys.
+res. commun. 1991,177 (31, 1233-1239.
+fujimoto, k.; horio, y.; sugama, k.; ito, s.; liu, y. q.; fukui,
+h. genomic cloning of the rat histamine hi-receptor. biochem.
+biophys. res. commun. 1993,190,294-301.
+de backer, m. d.; gommeren, w.; moereels, h.; nobels, g.;
+gompel, p. v.; leysen, j. e.; luyten, w. h. m. l. genomic
+cloning, heterologous expression and pharmacological characterization of a human histamine hi-receptor. biochem. biophys.
+res. commun. 1993,197, 1601-1608.
+traiffort, e.; leurs, r.; arrang, j. m.; tarclivel-lacombe,j.; diaz,
+j.; schwartz, j.-c.; ruat, m. guinea pig histamine hi-receptor.
+i. gene cloning, characterization, and tissue expression revealed
+by in situ hybridization. j . neurochem. 1994, 62, 507-518.
+ohta, k.; hayashi, h.; mizuguchi, h.; kagamiyama, h.; fujimoto, k.; fukui, h. site-directed mutagenesis of the histamine
+hi-receptor: roles of aspartic acidl07, asparagine198 and threonine194. biochem. biophys. res. commun. 1994, 203, 10961099.
+ter laak, a. m.; donne-op den kelder, g. m.; bast, a.;
+timmerman, h. is there a difference in the affinity of histamine
+hi-receptor antagonists for cns and peripheral receptors? eur.
+j . pharmacol. 1993,232, 199-205.
+trottier, r. w.; malone, m. h., jr., comparative in vitro
+evaluation of cryogenine,  xxxd1785xxx , and diphenhydramine
+as antagonists of furtrethonium, histamine, and serotonin. j .
+pharm. sci. 1969,58,1250-1256.
+augstein, j.; ham, a. l.; leeming, p. r. relationship between
+antihistamine and antidepressant activity in hexahydroindenopyridines. j . med. chem. 1972, 15, 466-470.
+
+ter laak et al.
+(17) waringa, c. g.; rekker, r. f.; nauta, w. th. l,l-diaryl-3aminopropenes and some related compounds. eur. j . med.
+chem. 1975, 10 (41, 349-352.
+(18) fiiger, a.; bechtel, w. d.; kuhn, f. j.; mierau, j. in vitro and
+in vivo studies of the non-sedating antihistamine epinastine.
+arzneim. forsch.ldrug res. 1988, 38, 1446-1453.
+(19) barbe, j.; andrews, p. r.; lloyd, e. j.; brouant, p.; soyfer, j.
+c.; galy, j. p.; galy, a. m. individualisation des supports
+structuraux des actions sedative et anti-hi. eur. j . med. chem.
+1983,18, 531-534.
+(20) leysen, j. e.; gommeren, w.; janssen, p. f. m.; janssen, p. a.
+j. comparative study of central and peripheral histamine-hi
+receptor binding in vitro and ex vivo of non-sedating antihistamines and of noberastine, a new agent. drug deu. res. 1991,
+22, 165-178.
+(21) allen, f. h.; bellard, s.; brice, m. d.; cartwright, b. a,;
+doubleday, a.; higgs, h.; hummelink, t.; hummelink-peters,
+b. g.; kennard, 0.;motherwell, w. d. s.; rogers, j. r.; watson,
+d. g. the cambridge crystallographic data base. acta crystallogr. 1979, b35, 2331-2339.
+(22) ippolito, j. a.; alexander, r. s.; christianson, d. w. hydrogen
+bond stereochemistry in protein structure and function. j . mol.
+biol. 1990,215, 457-471.
+(23) dupuis, m.; spangler, d.; wendoloski, j. nrcc software
+catalog, vol 1, program no. qgol (gamess), 1980.
+(24) guest, m. f.; kendrick, j. gamess user manual, an introductory guide; daresbury laboratories: daresbury, u.k., 1993.
+(25) birknes, b. the structure of an antihistamine:  xxxd1785xxx 
+hydrochloride sesquihydrate. acta crystallogr. 1977,687-691.
+(26) sadek, m.; craik, d. j.; hall, j . g.; andrews, p. r. conformational analysis of  xxxd1785xxx . j.med. chem.
+1990,33, 1098-1107.
+(27) branch, s. s.; casy, a. f.; hussain, r.; upton, c. the structure
+of  xxxd2904xxx  base and salts in the solute state. j . pharm.
+pharmacol. 1987, 40, 83-84.
+(28) plati, j. t.; wenner, w. pyrindene derivatives. 11. the chemistry of 2-methyl-9-phenyl-2,3,4,9-tetrahydro-l-pyridindene.
+j.
+org. chem. 1956,20, 1412-1424.
+(29) walther, g.; daniel, h.; bechtel, w. d.; brandt, k. new
+tetracyclic guanidine derivatives with hi-antihistaminic properties. chemistry of epinastine. arzneim. forsch.ldrug res.
+1990,40 (11,440-446.
+(30) oliveira, l.; paiva, a. c. m.; vriend, g. a common motif in
+g-protein coupled transmembrane seven helix receptors. tm7
+1993, 1, 13-26.
+(31) timms, d.; wilkinson, a. j.; kelly, d. r.; broadley, i(.j.;davies,
+r. h. interactions of tyr377 in a ligand-activation model of
+signal transmission through betal-adrenoreceptor alpha-helices.
+int. j. quant. chem.: quant. biol. symp. 1992, 19, 197-215.
+(32) trumpp-kallmeyer, s.; hoflack, j.; bruinvels, a,; hibert, m.
+modeling of g-protein-coupled receptors: application to dopamine, adrenaline, serotonin, acetylcholine, and mammalian opsin
+receptors. j. med. chem. 1992,35, 3448-3462.
+(33) cramer, r. d., 111; patterson, d. e.; bunce, j. d. comparative
+molecular field analysis (comfa). 1. effect of shape on binding
+of steroids to carrier proteins. j. am. chem. soc.1988, 110,
+5959-5967.
+
+jm9501745
+

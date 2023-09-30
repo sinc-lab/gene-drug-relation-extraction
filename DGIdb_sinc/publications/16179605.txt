@@ -1,0 +1,860 @@
+research article
+
+4405
+
+phosphatidylinositol (3,4,5)-trisphosphate specifically
+interacts with the phox homology domain of
+ xxxg1772xxx  and stimulates its activity
+jun sung lee1, jong hyun kim1, il ho jang1, hyeon soo kim1, jung min han1, andrius kazlauskas2,
+hitoshi yagisawa1,3, pann-ghill suh1 and sung ho ryu1,*
+1
+
+division of molecular and life science, pohang university of science and technology, pohang 790-784, korea
+schepens eye research institute, harvard medical school, 20 staniford street, boston, ma 02114, usa
+3
+graduate school of life science, university of hyogo, harima science garden city, hyogo 678-1297, japan
+2
+
+*author for correspondence (e-mail: sungho@postech.ac.kr)
+
+accepted 28 june 2005
+journal of cell science 118, 4405-4413 published by the company of biologists 2005
+doi:10.1242/jcs.02564
+
+summary
+phospholipase d (pld), which catalyzes the hydrolysis of
+phosphatidylcholine to phosphatidic acid and choline,
+plays key roles in cellular signal transduction by mediating
+extracellular stimuli including hormones, growth factors,
+neurotransmitters, cytokines and extracellular matrix
+molecules. the molecular mechanisms by which domains
+regulate the activity of pld – especially the phox
+homology (px) domain – have not been fully elucidated.
+in this study, we have examined the properties of the px
+domains of  xxxg1772xxx  and  xxxg1773xxx  in terms of phosphoinositide
+binding and pld activity regulation. interestingly, the px
+domain of  xxxg1772xxx , but not that of  xxxg1773xxx , was found to
+specifically interact with phosphatidylinositol (3,4,5)trisphosphate (ptdins(3,4,5)p3). we found that mutation of
+the conserved arginine at position 179 of the  xxxg1772xxx  px
+domain to lysine or to alanine (r179a or r179k,
+respectively) disrupts ptdins(3,4,5)p3 binding. in nih-3t3
+cells, the egfp- xxxg1772xxx  px wild-type domain, but not the
+two mutants, localized to the plasma membrane after 5minute treatment with platelet-derived growth factor
+
+(pdgf). the enzymatic activity of  xxxg1772xxx  was stimulated
+by adding ptdins(3,4,5)p3 in vitro. treatment with pdgf
+resulted in the significant increase of  xxxg1772xxx  activity and
+phosphorylation of the downstream extracellular signalregulated kinases (erks), which was blocked by pretreatment of hek 293 cells with phosphoinositide 3-kinase
+(pi3k) inhibitor after the endogenous  xxxg1773xxx  had been
+depleted by sirna specific for  xxxg1773xxx . nevertheless, both
+ xxxg1772xxx 
+mutants
+(which
+cannot
+interact
+with
+ptdins(3,4,5)p3) did not respond to treatment with pdgf.
+moreover,  xxxg1772xxx  was activated in hepg2 cells stably
+expressing the y40/51 mutant of pdgf receptor that is
+required for the binding with pi3k. our results suggest
+that the  xxxg1772xxx  px domain enables  xxxg1772xxx  to mediate signal
+transduction via  xxxg1369xxx /2 by providing a direct binding site
+for ptdins(3,4,5)p3 and by activating  xxxg1772xxx .
+
+introduction
+phospholipase d (pld) mediates various cellular signaling
+events, including cytoskeletal rearrangement, vesicle
+trafficking, and proliferation by modulating membrane
+compositions and/or by producing phosphatidic acid (cross et
+al., 1996; frohman et al., 1999; jones et al., 1999; rizzo et al.,
+1999). phosphatidic acid, the product of pld action, is a well
+known second messenger and is implicated in various
+regulatory roles in signaling molecules (frohman and morris,
+1999). the activity regulation of pld is achieved by
+phosphorylation (kim et al., 1999; lee et al., 1997) and
+binding with small molecular weight guanine nucleotide
+binding proteins (smgs) such as adp-ribosylation factor
+(arf), rho, rac and cdc42 (hammond et al., 1997; yamazaki
+et al., 1999). however, little is known about the details of the
+molecular mechanism and the roles of domains in the
+regulation of pld.
+phosphoinositide (pi) functions in diverse cellular processes
+
+(martin, 1998; odorizzi et al., 2000). the  xxxd2360xxx  headgroup of ptdins contains five hydroxyl groups (at positions 2,
+3, 4, 5 and 6), three of which (3, 4, and 5) are known to be
+reversible phosphorylation targets to yield singly, doubly
+or triply phosphorylated phosphatidylinositide (ptdins)
+derivatives (ptdins3p, ptdins4p, ptdins5p, ptdins(3,4)p2,
+ptdins(3,5)p2, ptdins(4,5)p2, and ptdins(3,4,5)p3) of different
+combinations. the activities of specific ptdins are regulated by
+controlling their cellular levels, which is achieved by complex
+networks of proteins that regulate their synthesis (kinases) and
+degradation (phosphatases and lipases) (de camilli et al.,
+1996; fruman et al., 1998; rameh and cantley, 1999;
+vanhaesebroeck et al., 2001). of these, ptdins(3,4,5)p3 is
+synthesized when the mammalian class i phosphatidylinositide
+3-kinase (pi3k) is recruited to the plasma membrane after the
+activation of a cell-surface-receptor kinase. the binding of
+ptdins(3,4,5)p3 to its effector phosphoinositide-dependent
+kinase-1 (pdk-1) (stokoe et al., 1997) mediates the
+
+key words: px domain, pld, phosphoinositides, erk
+phosphorylation, pdgf
+
+4406
+
+journal of cell science 118 (19)
+
+translocation of pdk-1 to a place where it can phosphorylate
+and activate akt (protein kinase b, pkb) (stephens et al.,
+1998), which results in the increased phosphorylation of
+several substrates including glycogen synthase kinase-3 (gsk3), p70s6k and  xxxg693xxx  (scott et al., 1998). these, in turn,
+activate diverse metabolic pathways and are necessary for
+cell survival (stephens et al., 1998). however, ptdinsspecific cellular functions, especially ptdins(3,4,5)p3-induced
+molecular activation and signaling events, are not fully
+understood.
+the phox homology (px) domain is named after its presence
+in the p40phox and  xxxg1508xxx  subunits of the nadph oxidase
+complex and has an approximately ~140 amino-acid-long
+motif (ponting, 1996). px domains are found in a range of
+proteins associated with membranes such as pld, sorting
+nexins and yeast vam7p, and contain a proline-rich motif,
+which enables them to recognize the src homology 3 (sh3)
+domain (jang et al., 2003; kay et al., 2000; ponting, 1996).
+moreover, recent studies have shown that, specific interactions
+between px domains and phosphoinositides play a crucial role
+in the localization and enzymatic regulation of px-domaincontaining proteins, and have identified the px domain as a
+phosphoinositide-binding module involved in cellular signal
+transduction (ago et al., 2001; cheever et al., 2001; ellson et
+al., 2001; kanai et al., 2001; xu et al., 2001; zhan et al., 2002).
+ xxxg1772xxx  and  xxxg1773xxx  isozymes share several structural domains
+including the n-terminally localized px domain (frohman et
+al., 1999; ponting, 1996). recently, du et al. suggested that the
+px domain of  xxxg1772xxx  plays a role in the re-entry of  xxxg1772xxx  into
+perinuclear vesicles after its pma-stimulated translocation
+to the plasma membrane (du et al., 2003). however, the
+molecular characteristics of the px domain of pld, especially
+its role in the regulation of enzymatic activity, remains unclear.
+to check the phosphoinositide-binding ability of the pld px
+domain and to characterize the functional role of this
+interaction, we investigated the lipid affinity of pld. here, we
+show that the  xxxg1772xxx  px domain specifically binds to
+ptdins(3,4,5)p3, which is critical in  xxxg1772xxx  activity regulation.
+materials and methods
+chemicals and reagents
+phosphoinositides were purchased from echelon biosciences inc.
+(salt lake city, ut). the enhanced chemiluminescence kit
+(ecl system), dipalmitoyl-phosphatidyl [methyl-3h]choline, and
+glutathione sepharose 4b were from amersham pharmacia
+biotech (buckinghamshire, uk). dipalmitoyl-phosphatidylcholine
+(dipalmitoyl-pc), dioleoyl-phosphatidylethanolamine (dioleoyl-pe)
+was purchased from sigma (st louis, mo). water soluble
+inositolphosphates were a generous gift from sung ki chung (pohang
+university of science and technology, korea). silica gel 60 tlc
+plates and triton x-100 were acquired from em science (gibbstown,
+nj). dulbecco’s modified eagle’s medium (dmem) and
+lipofectamine were purchased from invitrogen (carlsbad, ca).
+bovine calf serum was obtained from hyclone (logan, ut).
+horseradish peroxidase-conjugated goat anti-rabbit igg, anti-mouse
+igg, igm, and iga were purchased from kirkegaard and perry
+laboratories inc. (gaithersburg, md).  xxxd2523xxx  and porcine
+platelet-derived growth factor (pdgf) were purchased from
+calbiochem (san diego, ca). antibody against phosphorylated
+extracellular signal-regulated kinases (erks) was from cell signaling
+(beverly, ma). antibody against the c-terminal region of pld was
+prepared as previously described (lee et al., 1997).
+
+cell culture
+nih-3t3, hek 293 and hepg2 cells stably expressing mutant
+pdgf␤ receptor y40/51 (bae et al., 2000; valius and kazlauskas,
+1993) were cultured at 37°c in a humidified 5% co2 atmosphere in
+high glucose dmem supplemented with 10% fetal bovine serum.
+generation of plasmids and recombinant proteins
+mutants  xxxg1772xxx (r179k) or  xxxg1772xxx (r179a) were generated by point
+mutating the arginine residue in wild-type  xxxg1772xxx  at position 179 to
+lysine or alanine, respectively, by using the splice-overlap extension
+method (ho et al., 1989). briefly,  xxxg1772xxx (r179k) was obtained by
+using forward primer: 5⬘-g ttc ttt ggc aag agg caa c-3⬘
+and reverse primer: 5⬘-g ttg cct ctt gcc aaa gaa c-3⬘. a
+similar strategy was used to generate  xxxg1772xxx (r179a), this time by
+using forward primer: 5⬘-g ttc ttt ggc  xxxg873xxx  agg caa c-3⬘
+and reverse primer: 5⬘-g ttg cct cgc gcc aaa gaa c-3⬘. the
+resulting products were cloned into the pcdna3.1 vector
+(invitrogen). sequences of the  xxxg1772xxx  px domain (amino acids 76196) of wild type, and mutants (r179k and r179a) were amplified
+by polymerase chain reaction (pcr) and subcloned into vector
+pgex4t1 (amersham pharmacia biotech) or pegfp (enhanced
+green fluorescent protein)-c1 (pegfp-c1, clontech) vector to
+generate glutathione-s-transferase (gst)- xxxg1772xxx  px or egfp- xxxg1772xxx 
+px constructs, respectively. to purify the recombinant proteins,
+escherichia coli bl21 cells were transformed with individual
+expression vectors encoding gst fusion protein and grown at 37°c
+to an od600 of 0.8. fusion proteins were then induced by incubating
+the cells in the presence of 100 ␮m isopropyl-␤-dthiogalactopyranoside for 4 hours at 25°c. after harvesting the cells,
+the fusion proteins were purified with glutathione-sepharose 4b
+(amersham pharmacia biotech).
+liposome-binding assay
+phospholipid-vesicles composed of 53 ␮m phosphatidylethanolamine
+(pe), 3.3 ␮m phosphatidylcholine, and 4.6 ␮m phosphoinositides
+(ptdins) were incubated with 10 ng of the purified gst-pld px
+domains in 150 ␮l buffer a (50 mm hepes-naoh ph 7.5, 3 mm
+mgcl2, 2 mm cacl2, 3 mm egta, and 80 mm kcl) as previously
+described (kim et al., 1998). after incubation at 37°c for 15 minutes,
+the reaction mixtures were centrifuged at 300,000 g for 30 minutes in
+a tl-100 ultracentrifuge (beckman). supernatants and pellets were
+then subjected to sds-page and immunoblotted using anti-gst
+antibody. in competition analysis, water soluble inositolphosphates
+were added to incubation mixtures.
+in vitro pld activity assays
+pld activity was determined by measuring choline release from
+phosphatidylcholine as previously described (kim et al., 1999) with
+a minor modification. the enzyme sources in this study were obtained
+from hek 293 cells. cells transfected with  xxxg1772xxx ,  xxxg1772xxx (r179k),
+and  xxxg1772xxx (r179a) were harvested with buffer a. after sonication, 1
+␮g of lysate was used per assay.
+in vivo pld activity assays
+pld activity analysis was performed as previously described (kim et
+al., 1999). briefly, full-length  xxxg1772xxx  wild-type,  xxxg1772xxx (r179k) or
+ xxxg1773xxx  genes were transiently expressed. transfection was carried out
+with lipofectamine, according to the manufacturer’s instructions.
+in hek 293 cells, depletion of endogenous  xxxg1773xxx  was performed
+using small interference rna (sirna) for  xxxg1773xxx , as described
+previously (kim et al., 2005). after starving the cells for 24 hours,
+they were incubated with 10 ␮ci [3h] xxxd2681xxx  for 3 hours. pld
+activity was determined using the transphosphatidylation reaction in
+
+ptdins(3,4,5)p3- xxxg1772xxx  px interaction
+the presence of 0.4% 1-butanol. lipids were extracted and separated
+by silica gel 60 thin-layer chromatography (volume ratio of
+chloroform: methanol: acetic acid, 90:10:10), and the amounts of
+labeled phosphatidylbutanol and total lipid were determined using a
+fuji bas-2000 image analyzer (fuji film).
+immunocytochemistry and confocal imaging
+nih-3t3 cells grown on cover slips were transfected with pegfppld1 px wild type, pegfp- xxxg1772xxx  px (r179k) or pegfp- xxxg1772xxx  px
+(r179a). after 24 hours of serum starvation, cells were treated with
+pdgf (25 ng/ml) and fixed with 4% (w/v) paraformaldehyde for 30
+minutes. the slides were mounted and signals were visualized by
+confocal laser scanning microscopy (zeiss lsm510, germany).
+fractionation of cells
+nih-3t3 cells were washed twice with cold phosphate-buffered saline
+(pbs) and scraped with buffer b (pbs containing 0.25 m sucrose and
+a protease-inhibitor mixture). the cell suspension was then
+homogenized using a dounce homogenizer and centrifuged at 3000
+g for 15 minutes, and the supernatant was further centrifuged at
+100,000 g for 30 minutes. the resulting supernatants (cytosol
+fraction) and pellets (membrane fraction) were subjected to sdspage and marked as cyt and mem, respectively.
+
+4407
+
+results
+the  xxxg1772xxx  px domain binds specifically to ptdins(3,4,5)p3
+pld contains a n-terminal px domain, which can bind
+phosphoinositide to modulate its localization and activity. fig.
+1a shows the sequence alignment of part of the px domain of
+several px-domain-containing proteins. the px domains of
+pld have high homology with those of other proteins. to
+determine whether the pld-px domain interacts with
+phosphoinositides, purified gst- xxxg1772xxx  px and gst- xxxg1773xxx  px
+domains were incubated with liposomes containing a range of
+phosphoinositides. as shown in fig. 1b, the  xxxg1772xxx  px domain,
+but not the  xxxg1773xxx  px domain, selectively bound to
+ptdins(3,4,5)p3. the  xxxg1772xxx  has a conserved arg (r179),
+crucial for phosphoinositide binding (ago et al., 2001; fruman
+et al., 1999), whereas  xxxg1773xxx  has a lys residue at the
+corresponding residue. therefore, we mutated r179 of  xxxg1772xxx 
+to lys (r179k) or ala (r179a) and, as expected, both gstpld1 px(r179k) and gst- xxxg1772xxx  px(r179a) failed to
+interact with ptdins(3,4,5)p3. we further characterized the
+ptdins(3,4,5)p3 selectivity of  xxxg1772xxx  px by inositolphosphate
+competition analysis. fig. 1c shows that the interaction
+between  xxxg1772xxx  px and ptdins(3,4,5)p3-containing liposome
+
+fig. 1. the px domain of  xxxg1772xxx  specifically binds to ptdins(3,4,5)p3. (a) the sequence alignment of regions from several px domains. the
+conserved arg residue mutated in this study is marked as 䉲. (b) specificities of  xxxg1772xxx  px,  xxxg1772xxx  px(r179k),  xxxg1772xxx  px(r179a) and  xxxg1773xxx 
+for a range of phosphatidylinositols were analyzed by liposome-binding assay. binding of gst-pld px domains to liposomes containing pe
+(phosphatidylethanolamine), pc (phosphatidylcholine) and indicated ptdins (phosphatidylinositol) were analyzed. liposomes (see materials
+and methods) were incubated with 10 ng of purified gst-pld px for 15 minutes at 37°c. the reaction mixtures were then centrifuged and the
+resulting supernatant (s) and pellets (p) were subjected to sds-page. western blotting was performed with anti-gst antibody. a
+representative result of three individual experiments is shown. (c) the selectivity of ptdins(3,4,5)p3 for the  xxxg1772xxx  px domain was confirmed
+by competition analysis. water-soluble inositolphosphates were added to the reaction mixture as described in (b). (d) the affinity of  xxxg1772xxx  px
+for ptdins(3,4,5)p3 was compared with those of ph domains from btk and pdk-1.
+
+4408
+
+journal of cell science 118 (19)
+
+was competed by the addition of ins(1,3,4,5)p4 in a dosedependent manner but that it was not affected by any other
+inositolphosphate. next, we checked the affinity between the
+ xxxg1772xxx  px domain and ptdins(3,4,5)p3 by comparing it with the
+pleckstrin homology (ph) domain of pdk-1 and bruton’s
+ xxxg2198xxx  (btk) that have a kd value for ptdins(3,4,5)p3
+of 1.6 nm and 40 nm, respectively (currie et al., 1999). the
+liposome-binding analysis with ptdins(3,4,5)p3-containing
+vesicles showed that, for ptdins(3,4,5)p3, the  xxxg1772xxx  px domain
+has a higher affinity than the btk ph domain but a lower
+affinity than pdk-1 ph domain (fig. 1d). taken together,
+these results suggest that the  xxxg1772xxx  px domain can mediate
+ptdins(3,4,5)p3 interaction and that the conserved arg179 is
+crucial for this interaction.
+the  xxxg1772xxx  px domain interacts with ptdins(3,4,5)p3 in
+nih-3t3 cells
+pi3k is known to catalyze the phosphorylation of the d-3
+position of the inositol ring of phosphoinositides and to prefer
+
+ptdins(4,5)p2 as its substrate, resulting in a high level of
+ptdins(3,4,5)p3 in cells (auger et al., 1989; vanhaesebroeck et
+al., 2001). with the obtained knowledge that pld1px has a
+high affinity for ptdins(3,4,5)p3 in vitro, we wanted to examine
+whether this interaction occurs also in vivo. therefore, we
+generated egfp- xxxg1772xxx  px constructs. pegfp- xxxg1772xxx  px wild
+type, pegfp- xxxg1772xxx  px(r179k) or pegfp- xxxg1772xxx  px(r179a)
+were expressed in nih-3t3 cells. after 24 hours of serum
+starvation, we observed a diffused pattern of the wild type and
+both mutants in the cytosol (fig. 2a). interestingly, after a 5minute treatment with pdgf, egfp- xxxg1772xxx  px as well as
+bruton’s  xxxg2198xxx  (btk) ph domain, which specifically
+recognizes ptdins(3,4,5)p3, were localized in plasma
+membrane. the r179k and r179a mutants, however, which
+have no affinity to ptdins(3,4,5)p3 in vitro, did not change their
+intracellular localization in the presence of pdgf. moreover,
+when cells were fractionated into cytosolic (cyt) and
+membrane (mem) fractions, only the wild-type  xxxg1772xxx  px
+domain showed membrane localization after pdgf treatment
+(fig. 2b). to further determine whether the plasma membrane
+localization of  xxxg1772xxx  px was mediated by interaction with
+ptdins(3,4,5)p3, we examined the effect of  xxxd2523xxx , a pi3kspecific inhibitor. when cells were pre-treated with ly
+294002, a pdgf-induced plasma membrane localization of
+ xxxg1772xxx  px did not occur (fig. 3a). this was further confirmed
+by the cell-fractionation studies (fig. 3b). taken together,
+these data show that the  xxxg1772xxx  px domain can interact with
+ptdins(3,4,5)p3 in vivo, resulting in its localization in the
+plasma membrane in nih-3t3 cells.
+ptdins(3,4,5)p3 activates  xxxg1772xxx  in vitro
+we found that the  xxxg1772xxx  px domain serves as a
+
+fig. 2. the  xxxg1772xxx  px domain interacts with ptdins(3,4,5)p3 in nih3t3 cells. nih-3t3 cells grown on cover slips were transfected with
+pegfp- xxxg1772xxx  px, pegfp- xxxg1772xxx  px(r179k), pegfp- xxxg1772xxx 
+px(r179a), or pegfp-btk ph. (a) after 24 hours of serum
+starvation, cells were treated with pdgf (25 ng/ml). after 5 minutes,
+cells were fixed and the localization of  xxxg1772xxx  px domains was
+visualized by confocal microscopy. bars, 10 ␮m. (b) cells as
+described in (a) were cultured in dishes and fractionated into cytosolic
+(cyt) and membrane (mem) fractions. western blotting was performed
+with anti-egfp antibody and show that only the wild-type  xxxg1772xxx  px
+domain showed membrane localization after pdgf treatment.
+
+fig. 3. inhibition of pi3k attenuates the plasma membrane
+localization of  xxxg1772xxx  px. nih-3t3 cells transfected with pegfppld1 px were serum starved for 24 hours. pdgf (25 ng/ml) was
+applied for 5 minutes, after the pre-incubation of cells with dmso
+or 50 ␮m of the pi3k inhibitor  xxxd2523xxx , for 20 minutes at 37°c.
+(a) subcellular  xxxg1772xxx  px localization was visualized by confocal
+microscopy. bars, 10 ␮m. (b) biochemical fractionation study
+showing localization of  xxxg1772xxx  px in the cytosol (cyt) or the plasme
+membrane (mem), in the absence or presence of  xxxd2523xxx .
+
+ptdins(3,4,5)p3- xxxg1772xxx  px interaction
+ptdins(3,4,5)p3-binding module. thus we investigated whether
+the interaction of ptdins(3,4,5)p3 with the  xxxg1772xxx  px domain
+plays a regulatory role in the enzymatic activity of pld. in
+vitro, pld activity was measured as described in materials and
+methods, using phosphoinositide-containing lipid vesicles as a
+substrate. homogenates of hek 293 cells transfected with
+wild-type  xxxg1772xxx , r179k  xxxg1772xxx  or r179a  xxxg1772xxx  were used as
+an enzyme source. as shown in fig. 4a, ptdins(4,5)p2, which
+was previously reported to stimulate pld (kim et al., 1998;
+sciorra et al., 1999), enhanced the activities of  xxxg1772xxx  wild type,
+r179k and r179a. addition of arf and gtp␥s further
+stimulated the ptdins(4,5)p2-induced activation of wild-type
+ xxxg1772xxx  and the two mutants r179k and r179a  xxxg1772xxx  (data not
+shown), indicating that both mutants can response to arf, a
+well known activator of  xxxg1772xxx  (hammond et al., 1997).
+interestingly, ptdins(3,4,5)p3 strongly stimulated wild-type
+
+fig. 4. ptdins(3,4,5)p3 activates  xxxg1772xxx  in vitro. (a) the effects of a
+range of phosphatidylinositols on the in-vitro activity of  xxxg1772xxx  were
+analyzed as described in materials and methods. liposomes,
+reconstituted with phosphatidylethanolamine (pe),
+phosphatidylcholine (pc) and the indicated phosphatidylinositols,
+were used as substrates. error bars indicate standard deviations. data
+are representative of three independent experiments. immunoblot in
+the inset indicates that the amount of  xxxg1772xxx  preparation used in this
+study were similar. (b) the dose-dependency of stimulation was
+checked using liposomes containing pe, pc, ptdins and
+ptdins(3,4,5)p3. the sum of the concentrations of ptdins and
+ptdins(3,4,5)p3 was maintained at 4.6 ␮m.
+
+4409
+
+ xxxg1772xxx  activity when compared with  xxxg1772xxx (r179k) or
+ xxxg1772xxx (r179a). moreover, as shown in fig. 4b,
+ptdins(3,4,5)p3-induced  xxxg1772xxx  activation occurs in a dosedependent manner. these results indicate that ptdins(3,4,5)p3
+interacts directly with the px domain of  xxxg1772xxx  and stimulates
+its activity in vitro.
+ptdins(3,4,5)p3-induced  xxxg1772xxx  activation promotes erk
+phosphorylation
+next, we checked whether the interaction of ptdins(3,4,5)p3
+with  xxxg1772xxx  px is involved in  xxxg1772xxx  activity in cells. to prevent
+background effects caused by  xxxg1773xxx , we depleted endogenous
+ xxxg1773xxx  with sirna in hek 293 cells, and investigated  xxxg1772xxx 
+activity by measuring the amount of phosphatidylbutanol that
+had accumulated within 2 minutes after pdgf treatment. as
+shown, activity of  xxxg1772xxx  dramatically rose in the presence of
+pdgf, an effect that was prevented by the pre-treatment of ly
+
+fig. 5. ptdins(3,4,5)p3-induced activation of  xxxg1772xxx  promotes erk
+phosphorylation. (a) 5⫻105 hek 293 cells depleted of endogenous
+ xxxg1773xxx , were transfected with 1 ␮g of wild-type  xxxg1772xxx  dna. 24 hours
+after transfection, cells were starved for 24 hours followed by an
+incubation with [3h] xxxd2681xxx  for 3 hours. phosphatidylbutanol
+(pbt) accumulation was measured in the presence of 0.4% butanol
+after 2 minutes. cells were incubated with  xxxd2523xxx  (50 ␮m) or
+dmso for 20 minutes before pdgf treatment. error bars indicate
+standard deviations. data are representative of three separate
+experiments. to check expression levels of pld, the same amounts
+of cell lysates (20 ␮g) were subjected to sds-page and then
+immunoblotted with anti-c-terminal pld antibody (data not shown).
+(b) activation of  xxxg1369xxx  and  xxxg1366xxx  induced by the stimulation of
+pld were compared. (upper panel) the phosphorylation status of
+ xxxg1369xxx /2 was analyzed by western blotting with an antiphosphorylated-erk antibody. (lower panel) expression levels of
+ xxxg1369xxx /2. the fold-increases of  xxxg1366xxx  phosphorylation were
+calculated from the ratio of phosphorylated  xxxg1366xxx  to
+unphosphorylated  xxxg1366xxx  (perk2: xxxg1366xxx ) determined by
+densitometric analysis.
+
+4410
+
+journal of cell science 118 (19)
+
+294002 (fig. 5a). previous reports have suggested that
+phosphatidic acid generated by pld, mediates  xxxg1924xxx 
+translocation to the plasma membrane and the activation of the
+mitogen-activated protein kinase (mapk) pathway (rizzo et
+al., 1999; rizzo et al., 2000). thus, we checked whether
+ptdins(3,4,5)p3-induced  xxxg1772xxx  activity results in mapk
+activation. as shown in fig. 5b, high levels of phosphorylated
+ xxxg1369xxx  and  xxxg1366xxx  were observed after pdgf treatment.
+pre-treatment with the pi3k-specific inhibitor  xxxd2523xxx ,
+however,
+blocked
+this
+pdgf-induced
+ xxxg1369xxx /2
+phosphorylation, which correlates well with the activity
+profiles of  xxxg1772xxx .  xxxg1366xxx  phosphorylation is expressed as fold
+increase of phosphorylated  xxxg1366xxx  divided by total  xxxg1366xxx  as
+determined by densitometry analysis (fig. 5b, upper
+immunoblots). these results indicate that generation of
+ptdins(3,4,5)p3 induces  xxxg1772xxx  stimulation and promotes erk
+activation in hek 293 cells.
+interaction with ptdins(3,4,5)p3 is crucial for the pdgfinduced  xxxg1772xxx  activation
+we next addressed the association of ptdins(3,4,5)p3 with
+ xxxg1772xxx  px in context of the enzymatic activity of  xxxg1772xxx . since
+pdgf-induced pld activation has been assigned to smgs
+(shome et al., 1998; voss et al., 1999) and phospholipase c␥1 (plc␥1) (lee et al., 1994; yeo et al., 1994), we used
+hepg2 cells that stably expressed the mutant pdgf receptor
+y40/51 pdgf␤r. this mutant receptor can recruit pi3k but
+not the ras gtpase-activating protein (ras gap), the src
+homology 2 (sh2)-domain-containing protein-tyrosine
+phosphatase-2 ( xxxg1894xxx ) and plc␥ 1 (bae et al., 2000; valius
+and kazlauskas, 1993). in contrast to  xxxg1772xxx (r179k) and
+ xxxg1773xxx , stimulation with pdgf resulted in a threefold increase
+of activity of endogenous and wild-type  xxxg1772xxx , as shown in
+fig. 6. furthermore, inhibition of pi3k by pre-incubating the
+
+fig. 6. interaction with ptdins(3,4,5)p3 is crucial for pdgf-induced
+activation of  xxxg1772xxx . hepg2 cells stably expressing mutant y40/51
+pdgf␤r were transiently transfected as indicated. pld activity was
+measured for 2 minutes in the presence of pdgf (25 ng/ml). to
+inhibit pi3k, cells were treated with 50 ␮m  xxxd2523xxx  for 20
+minutes before treatment with pdgf. data are representative of three
+separate experiments. error bars indicate standard deviations.
+immunoblots in the inset show that the expression levels of pld
+were similar.
+
+cells with  xxxd2523xxx  prevented the activation of  xxxg1772xxx  by
+pdgf. these results indicate that the pi3k pathway is involved
+in pdgf-mediated  xxxg1772xxx  activation, and that the interaction
+between ptdins(3,4,5)p3 and the  xxxg1772xxx  px domain plays a
+crucial role in the activation of  xxxg1772xxx  in vivo.
+discussion
+it is becoming clear that specific interactions of
+phosphoinositide with the px domain are crucial for the
+cellular function of host proteins. in this study, we investigated
+whether the pld px domain can bind to specific
+phosphoinositides and the meaning of this interaction. our
+findings show that ptdins(3,4,5)p3 has affinity for the  xxxg1772xxx 
+px domain and enhances the enzymatic activity of  xxxg1772xxx .
+the downstream molecular mechanisms that mediate the
+suggested function of pi3k in growth-factor-induced signal
+transduction such as cell survival, vesicle trafficking and
+cytoskeletal rearrangement (downward, 1997; fruman et al.,
+1998; martin, 1998; rameh and cantley, 1999; toker and
+cantley, 1997) are not fully understood. to elucidate how
+pi3k acts, several laboratories have tried to identify
+ptdins(3,4,5)p3-binding proteins (fukui et al., 1998;
+vanhaesebroeck et al., 2001). pdk-1 is a well known
+ptdins(3,4,5)p3-binding protein that translocates to the plasma
+membrane after binding to ptdins(3,4,5)p3 through its ph
+domain, thus regulating the metabolism and cell-survivalrelated roles of pi3k by phosphorylating akt. in addition,
+swap-70, a ptdins(3,4,5)p3-dependent guanine nucleotide
+exchange factor (gef) for rac, can regulate membrane
+ruffling induced by  xxxg681xxx  (egf) or pdgf
+(shinohara et al., 2002). although it was reported that the
+inhibition of pi3k activity results in the downregulation of
+pld activity (emoto et al., 2000; kozawa et al., 1997;
+standaert et al., 1996), the mechanism involved is unknown.
+our finding that the  xxxg1772xxx  px domain has affinity for
+ptdins(3,4,5)p3 is an important clue. it provides an
+explanation for the previously suggested molecular
+mechanism that pld is involved in insulin-like growth factor
+i ( xxxg1144xxx )-induced erk activation in chinese hamster ovary
+(cho) cells (banno et al., 2003). furthermore, we found that
+ xxxg1772xxx  can mediate the activation of the mapk pathway by
+interacting with ptdins(3,4,5)p3, the product of pi3k activity
+(fig. 5). taken together, we suggest that  xxxg1772xxx  is a novel
+ptdins(3,4,5)p3-binding protein that can mediate pi3k
+signaling.
+ptdins(4,5)p2 has been considered to be a major regulator of
+ xxxg1772xxx  in enzymatic activity and cellular localization by binding
+to the ph domain of  xxxg1772xxx  (hodgkin et al., 2000). although
+ptdins(3,4,5)p3 has also been reported to activate  xxxg1772xxx  in
+vitro, the mechanism involved is unclear. for example,
+ptdins(3,4,5)p3 activated  xxxg1772xxx , purified from insect (sf9)
+cells, in the presence of arf (hammond et al., 1997; min et
+al., 1998) or rac1 (hodgkin et al., 2000). under our assay
+conditions, we found that ptdins(4,5)p2 and ptdins(3,4,5)p3
+stimulated the activity of wild-type  xxxg1772xxx  almost equally when
+gtp␥s and arf were added (data not shown), which is in
+agreement with min et al. (min et al., 1998). in the absence of
+arf, however, activation of  xxxg1772xxx  by ptdins(3,4,5)p3 was
+about 1.3-fold stronger than that by ptdins(4,5)p2 (fig. 4).
+differences between the activation potentials of ptdins(4,5)p2
+
+ptdins(3,4,5)p3- xxxg1772xxx  px interaction
+in the presence or absence of arf might be due to its abilities
+to directly bind to arf (randazzo, 1997) and to stimulate
+gdp dissociation and gtp binding of arf (terui et al., 1994).
+in conclusion, we suggest that the px domain of  xxxg1772xxx  plays
+a role in the ptdins(3,4,5)p3-dependent activation of  xxxg1772xxx  in
+vitro. we also demonstrate for the first time that  xxxg1772xxx  can be
+activated by ptdins(3,4,5)p3 through direct interaction in cells
+(figs 5 and 6).
+in the present study, we observed that the activation of  xxxg1772xxx 
+in vitro and in vivo depends on the interaction of  xxxg1772xxx  px
+with ptdins(3,4,5)p3. another example of the pxphosphoinositide-interaction-dependent enzymatic activation
+was reported for cytokine-independent survival kinase (cisk)
+(virbasius et al., 2001). this study suggested that binding of
+the cisk px domain to ptdins(3)p is required for its
+localization to endosomes and for the activation of cisk
+protein kinase by  xxxg1144xxx  or egf. these results suggest a new
+feature of the px domains not only for the translocation but
+also for the activation of px-domain-containing proteins.
+furthermore, in addition to its phosphoinositide-binding
+pocket,  xxxg1772xxx  px has a phosphorylation site for protein kinase
+c (pkc) and can thus be phosphorylated, which enables  xxxg1772xxx 
+to be activated upon agonist stimulation (kim et al., 2000).
+therefore, the px domain of  xxxg1772xxx  is probably a center for
+fine-tuning and modulating enzymatic activity and localization
+of  xxxg1772xxx .
+an nmr structural study of the  xxxg1508xxx  px domain showed
+that, binding of the sh3 domain to the pxxp motif caused
+a shift in the nmr signals of residues within its
+phosphoinositide-binding pocket (hiroaki et al., 2001), and
+that the lipid binding also causes a shift of residues within the
+pxxp motif (cheever et al., 2001). this suggests that
+the binding properties of these two distinct motifs (the
+phosphoinositide-binding pocket and the pxxp motif) in the px
+domain are allosterically regulated by each other. recently, we
+reported that the px domains of pld interact with the sh3
+domain of plc␥1 through their pxxp motifs, and that this
+interaction is crucial for egf-induced plc␥1 activation and
+intracellular ca2+ mobilization (jang et al., 2003). taken
+together, the pld px domains might be multiple-binding
+modules and might have multifunctionality in order to
+coordinate signaling from receptors. it is not clear, however,
+whether protein-binding to the  xxxg1772xxx  px domain alters the
+nature of the lipid-px interaction or vice versa. so it would be
+interesting to characterize the affinity and the activity profiles
+of the  xxxg1772xxx  px domain by using a combination of binding
+proteins and ptdins(3,4,5)p3.
+pdgf stimulates a number of cellular responses following
+its binding to the specific cell surface receptor and the
+activation of intrinsic  xxxg2198xxx  (ullrich and
+schlessinger, 1990; williams, 1989). although the main
+upstream signals of pdfg-induced pld activation have been
+ascribed to the arf, rho (shome et al., 1998), ral, pkc and
+plc␥ (lee et al., 1994; voss et al., 1999; yeo et al., 1994)
+pathways, no direct evidence concerning the isotype-specific
+activation mechanism of  xxxg1772xxx  by pdgf has been available.
+in this study, we identified pi3k as a novel signaling molecule
+that specifically activates  xxxg1772xxx  but not  xxxg1773xxx  upon pdgf
+stimulation (fig. 6). thus, pdgf-induced  xxxg1772xxx  activation can
+be mediated by pi3k as well as smgs and by the plc␥-pkc
+pathway for a fine-tuned regulation in cells.
+
+4411
+
+ xxxg1772xxx  localizes in diverse subcellular membrane structures,
+including the endoplasmic reticulum (er), golgi complex,
+endosomes, lysosomes and in the plasma membrane (brown et
+al., 1998; jones et al., 1999; kim et al., 1999; roth et al., 1999;
+toda et al., 1999). in this study, we found that ptdins(3,4,5)p3
+binds to the px domain of  xxxg1772xxx  and induces its localization
+in plasma membrane. in case of wild-type  xxxg1772xxx , regulation of
+localization is performed by complex mechanisms. hodgkin et
+al. reported that the deletion mutant of  xxxg1772xxx  (⌬ph- xxxg1772xxx ),
+which lacked the ph domain, showed a punctate distribution
+in iic9 cells (hodgkin et al., 2000). in addition, we previously
+reported that palmitoylation is important for the localization of
+ xxxg1772xxx  in caveolin-enriched membranes (cem) (han et al.,
+2002). thus it is thought that the determination of  xxxg1772xxx 
+localization is achieved by the coordinated effect of lipid
+modification, px-pi(3,4,5)p3-binding, interaction of ph
+domain and polybasic motif-pi(4,5)p2, as well as, presumably,
+by association with binding proteins in the membrane.
+furthermore, considering that the full-length  xxxg1772xxx (r179k)
+mutant, which cannot bind to pi(3,4,5)p3, still showed a
+localization pattern similar to the one of wild type  xxxg1772xxx  (data
+now shown), we speculate that the combination of
+palmitoylation and pi(4,5)p2-binding is a major determinant
+for  xxxg1772xxx  to localize in the plasma membrane. after that,
+binding of  xxxg1772xxx  to px-pi(3,4,5)p3 occurs, thereby generating
+additional linkage to the plasma membrane. nevertheless, there
+remains a discrepancy in terms of the localization of full-length
+ xxxg1772xxx . recently, du et al. showed that the px domain of  xxxg1772xxx 
+participates in the recycling of  xxxg1772xxx  into perinuclear vesicles
+after pma stimulation of cos-7 cells (du et al., 2003), thereby
+identifying  xxxg1772xxx  px as a recycling regulatory domain. in
+nih-3t3 cells, however, we observed no dramatic effects of
+ xxxd2523xxx  in the localization of wild-type  xxxg1772xxx  (data not
+shown). to clarify this issue, extensive studies concerning cell
+type specificity, experimental conditions, mutant comparisons
+and lipid modifications will be necessary.
+this work was supported by the program of the national research
+laboratory and the 21st frontier proteome research of the ministry
+of science and technology in the republic of korea.
+
+references
+ago, t., takeya, r., hiroaki, h., kuribayashi, f., ito, t., kohda, d. and
+sumimoto, h. (2001). the px domain as a novel phosphoinositide-binding
+module. biochem. biophys. res. commun. 287, 733-738.
+auger, k. r., serunian, l. a., soltoff, s. p., libby, p. and cantley, l. c.
+(1989). pdgf-dependent tyrosine phosphorylation stimulates production of
+novel polyphosphoinositides in intact cells. cell 57, 167-175.
+bae, y. s., sung, j. y., kim, o. s., kim, y. j., hur. k. c., kazlauskas, a.
+and rhee, s. g. (2000). platelet-derived growth actor-induced h2o2
+production requires the activation of phosphatidylinositol 3-kinase. j. biol.
+chem. 275, 10527-10531.
+banno, y., takuwa, y., yamada, m., takuwa, n., ohguchi, k., hara, a.
+and nozawa, y. (2003). involvement of phospholipase d in insulin-like
+growth factor-i-induced activation of extracellular signal-regulated kinase,
+but not phosphoinositide 3-kinase or akt, in chinese hamster ovary cells.
+biochem. j. 369, 363-368.
+brown, f. d., thompson, n., saqib, k. m., clark, j. m., powner, d.,
+thompson, n. t., solari, r. and wakelam, m. j. (1998). phospholipase
+d1 localizes to secretory granules and lysosomes and is plasma-membrane
+translocated on cellular stimulation. curr. biol. 8, 835-838.
+cheever, m. l., sato, t. k., de beer, t., kutateladze, t. g., emr, s. d. and
+overduin, m. (2001). phox domain interaction with ptdins(3)p targets the
+vam7 t-snare to vacuole membranes. nat. cell biol. 3, 613-618.
+
+4412
+
+journal of cell science 118 (19)
+
+cross, m. j., roberts, s., ridley, a. j., hodgkin, m. n., stewart, a.,
+claesson-welsh, l. and wakelam, m. j. o. (1996). stimulation of actin
+stress fibre formation mediated by activation of phospholipase d. curr. biol.
+6, 588-597.
+currie, r. a., walker, k. s., gray, a., deak, m., casamayor, a., downes,
+c. p., cohen, p., alessi, d. r. and lucocq, j. (1999). role of
+phosphatidylinositol 3,4,5-trisphosphate in regulating the activity and
+localization of 3-phosphoinositide-dependent protein kinase-1. biochem. j.
+337, 575-583.
+de camilli, p., emr, s. d., mcpherson, p. s. and novick, p. (1996).
+phosphoinositides as regulators in membrane traffic. science 271, 15331539.
+downward, j. (1997). role of phosphoinositide-3-oh kinase in ras
+signaling. adv. second mess. phosphoprot. res. 31, 1-10.
+du, g., altshuller, y. m., vitale, n., huang, p., chasserot-golaz, s.,
+morris, a. j., bader, m. f. and frohman, m. a. (2003). regulation of
+ xxxg1772xxx  subcellular cycling through coordination of multiple
+membrane association motifs. j. cell biol. 162, 305-315.
+ellson, c. d., gobert-gosse, s., anderson, k. e., davidson, k.,
+erdjument-bromage, h., tempst, p., thuring, j. w., cooper, m. a.,
+lim, z. y., holmes, a. b. et al. (2001). ptdins(3)p regulates the neutrophil
+oxidase complex by binding to the px domain of p40(phox). nat. cell biol.
+3, 679-682.
+emoto, m., klarlund, j. k., waters, s. b., hu, v., buxton, j. m., chawla,
+a. and czech, m. p. (2000). a role for phospholipase d in glut4 glucose
+transporter translocation. j. biol. chem. 275, 7144-7151.
+frohman, m. a. and morris, a. j. (1999). phospholipase d structure and
+regulation. chem. phys. lipids 98, 127-140.
+frohman, m. a., sung, t.-c. and morris, a. j. (1999). mammalian
+phospholipase d structure and regulation. biochim. biophys. acta 1439,
+175-186.
+fruman, d. a., meyers, r. e. and cantley, l. c. (1998). phosphoinositide
+kinases. annu. rev. biochem. 67, 481-507.
+fruman, d. a., rameh, l. e. and cantley, l. c. (1999). phosphoinositide
+binding domains: embracing 3-phosphate. cell 97, 817-820.
+fukui, y., ihara, s. and nagata, s. (1998). downstream of
+phosphatidylinositol-3 kinase, a multifunctional signaling molecule, and its
+regulation in cell responses. j. biochem. 124, 1-7.
+hammond, s. m., jenco, j. m., nakashima, s., cadwallader, k., gu, q.,
+cook, s., nozawa, y., prestwich, g. d., frohman, m. a. and morris, a.
+j. (1997). characterization of two alternately spliced forms of
+ xxxg1772xxx . activation of the purified enzymes by
+phosphatidylinositol 4,5-bisphosphate, adp-ribosylation factor, and rho
+family monomeric gtp-binding proteins and protein kinase c-alpha. j. biol.
+chem. 272, 3860-3868.
+han, j. m., kim, y., lee, j. s., lee, c. s., lee, b. d., ohba, m., kuroki,
+t., suh, p. g. and ryu, s. h. (2002). localization of  xxxg1772xxx  to
+caveolin-enriched membrane via palmitoylation: implications for epidermal
+growth factor signaling. mol. biol. cell 13, 3976-3988.
+hiroaki, h., ago, t., ito, t., sumimoto, h. and kohda, d. (2001). solution
+structure of the px domain, a target of the sh3 domain. nat. struct. biol.
+8, 526-530.
+ho, s. n., hunt, h. d., horton, r. m., pullen, j. k. and pease, l. r. (1989).
+site-directed mutagenesis by overlap extension using the polymerase chain
+reaction. gene 77, 51-59.
+hodgkin, m. n., masson, m. r., powner, d. j., saqib, k. m., ponting, c.
+p. and wakelam, m. j. o. (2000). phospholipase d regulation and
+localisation is dependent upon a phosphatidylinositol 4,5-bisphosphatespecific ph domain. curr. biol. 10, 43-46.
+jang, i. h., lee, s., park, j. b., kim, j. h., lee, c. s., hur, e. m., kim, i.
+s., kim, k. t., yagisawa, h., suh, p. g. et al. (2003). the direct interaction
+of phospholipase c-gamma 1 with  xxxg1773xxx  is important for
+ xxxg681xxx  signaling. j. biol. chem. 278, 18184-18190.
+jones, d., morgan, c. and cockcroft, s. (1999). phospholipase d and
+membrane traffic. potential roles in regulated exocytosis, membrane
+delivery and vesicle budding. biochim. biophys. acta 1439, 229-244.
+kanai, f., liu, h., field, s. j., akbary, h., matsuo, t., brown, g. e.,
+cantley, l. c. and yaffe, m. b. (2001). the px domains of  xxxg1508xxx  and
+p40phox bind to lipid products of pi(3)k. nat. cell biol. 3, 675-678.
+kay, b. k., williamson, m. p. and sudol, m. (2000). the importance of
+being proline: the interaction of proline-rich motifs in signaling proteins
+with their cognate domains. faseb j. 14, 231-241.
+kim, j. h., lee, s. d., han, j. m., lee, t. g., kim, y., park, j. b., lambeth,
+j. d., suh, p. g. and ryu, s. h. (1998). activation of  xxxg1772xxx 
+
+by direct interaction with  xxxg186xxx  and rala. febs lett.
+430, 231-235.
+kim, j. h., han, j. m., lee, s., kim, y., lee, t. g., park, j. b., lee, s. d.,
+suh, p. g. and ryu, s. h. (1999).  xxxg1772xxx  in caveolae: regulation
+by protein kinase calpha and  xxxg346xxx . biochemistry 38, 3763-3769.
+kim, j. h., kim, j. h., ohba, m., suh, p. g. and ryu, s.h. (2005). novel
+functions of the  xxxg1773xxx -phox homology domain in protein kinase
+czeta activation. mol. cell. biol. 25, 3194-3208.
+kim, y., han, j. m., han, b. r., lee, k. a., kim, j. h., lee, b. d., jang,
+i. h., suh, p. g. and ryu, s. h. (2000).  xxxg1772xxx  is phosphorylated
+and activated by protein kinase c in caveolin-enriched microdomains within
+the plasma membrane. j. biol. chem. 275, 13621-13627.
+kozawa, o., blume-jensen, p., heldin, c. h. and ronnstrand, l. (1997).
+involvement of phosphatidylinositol 3⬘-kinase in stem-cell-factor-induced
+phospholipase d activation and  xxxd208xxx  release. eur. j. biochem.
+248, 149-155.
+lee, t. g., park, j. b., lee, s. d., hong, s., kim, j. h., kim, y., yi, k. s.,
+bae, s., hannun, y. a., obeid, l. m. et al. (1997). phorbol  xxxd2681xxx 
+acetate-dependent association of  xxxg1837xxx  with phospholipase
+d1 in intact cells. biochim. biophys. acta 1347, 199-204.
+lee, y. h., kim, h. s., pai, j. k., ryu, s. h. and suh, p. g. (1994).
+activation of phospholipase d induced by platelet-derived growth factor is
+dependent upon the level of phospholipase c-gamma 1. j. biol. chem. 269,
+26842-26847.
+martin, t. f. (1998). phosphoinositide lipids as signaling molecules: common
+themes for signal transduction, cytoskeletal regulation and membrane
+trafficking. annu. rev. cell dev. biol. 14, 231-264.
+min, d. s., park, s.-k. and exton, j. h. (1998). characterization of a rat
+brain phospholipase d isozyme. j. biol. chem. 273, 7044-7051.
+odorizzi, g., babst, m. and emr, s. d. (2000). phosphoinositide signaling
+and the regulation of membrane trafficking in yeast. trends biochem. sci.
+25, 229-235.
+ponting, c. p. (1996). novel domains in nadph oxidase subunits, sorting
+nexins, and ptdins 3-kinases: binding partners of sh3 domains? protein sci.
+5, 2353-2357.
+rameh, l. e. and cantley, l. c. (1999). the role of phosphoinositide 3kinase lipid products in cell function. j. biol. chem. 274, 8347-8350.
+randazzo, p. a. (1997). functional interaction of  xxxg186xxx 
+with phosphatidylinositol 4,5-bisphosphate. j. biol. chem. 272, 7688-7692.
+rizzo, m. a., shome, k., vasudevan, c., stolz, d. b., sung, t.-c.,
+frohman, m. a., watkins, s. c. and romero, g. (1999). phospholipase
+d and its product, phosphatidic acid, mediate agonist-dependent  xxxg1924xxx 
+translocation to the plasma membrane and the activation of the mitogenactivated protein kinase pathway. j. biol. chem. 274, 1131-1139.
+rizzo, m. a., shome, k., watkins, s. c. and romero, g. (2000). the
+recruitment of  xxxg1924xxx  to membranes is mediated by direct interaction with
+phosphatidic acid and is independent of association with ras. j. biol. chem.
+275, 23911-23918.
+roth, m. g., bi, k., ktistakis, n. t. and yu, s. (1999). phospholipase d as
+an effector for adp-ribosylation factor in the regulation of vesicular traffic.
+chem. phys. lipids 98, 141-152.
+sciorra, v. a., rudge, s. a., prestwich, g. d., frohman, m. a.,
+engebrecht, j. and morris, a. j. (1999). identification of a
+phosphoinositide binding motif that mediates activation of mammalian and
+yeast phospholipase d isoenzymes. embo j. 18, 5911-5921.
+scott, p. h., brunn, g. j., kohn, a. d., roth, r. a. and lawrence, j. c.,
+jr (1998). evidence of insulin-stimulated phosphorylation and activation of
+the  xxxg1478xxx  mediated by a protein kinase b signaling
+pathway. proc. natl. acad. sci. usa 95, 7772-7777.
+shinohara, m., terada, y., iwamatsu, a., shinohara, a., mochizuki, n.,
+higuchi, m., gotoh, y., ihara, s., nagata, s., itoh, h. et al. (2002).
+swap-70 is a guanine-nucleotide-exchange factor that mediates signalling
+of membrane ruffling. nature 416, 759-763.
+shome, k., nie, y. and romero, g. (1998). adp-ribosylation factor proteins
+mediate agonist-induced activation of phospholipase d. j. biol. chem. 273,
+30836-30841.
+standaert, m. l., avignon, a., yamada, k., bandyopadhyay, g. and
+farese, r. v. (1996). the phosphatidylinositol 3-kinase inhibitor,
+ xxxd3536xxx , inhibits insulin-induced activation of phosphatidylcholine
+hydrolysis and associated protein kinase c translocation in rat adipocytes.
+biochem. j. 313, 1039-1046.
+stephens, l., anderson, k., stokoe, d., erdjument-bromage, h., painter,
+g. f., holmes, a. b., gaffney, p. r., reese, c. b., mccormick, f.,
+tempst, p. et al. (1998). protein kinase b kinases that mediate
+
+ptdins(3,4,5)p3- xxxg1772xxx  px interaction
+phosphatidylinositol 3,4,5-trisphosphate-dependent activation of protein
+kinase b. science 279, 710-714.
+stokoe, d., stephens, l. r., copeland, t., gaffney, p. r., reese, c. b.,
+painter, g. f., holmes, a. b., mccormick, f. and hawkins, p. t. (1997).
+dual role of phosphatidylinositol 3,4,5-trisphosphate in the activation of
+protein kinase b. science 277, 567-570.
+terui, t., kahn, r. a. and randazzo, p. a. (1994). effects of acid
+phospholipids on nucleotide exchange properties of adp-ribosylation factor
+1. evidence for specific interaction with phosphatidylinositol 4,5bisphosphate. j. biol. chem. 269, 28130-28135.
+toda, k., nogami, m., murakami, k., kanaho, y. and nakayama, k.
+(1999). colocalization of  xxxg1772xxx  and gtp-binding-defective
+mutant of  xxxg187xxx  to endosomes and lysosomes. febs
+lett. 442, 221-225.
+toker, a. and cantley, l. c. (1997). signalling through the lipid products of
+phosphoinositide-3-oh kinase. nature 387, 673-676.
+ulrich, a. and schlessinger, j. (1990). signal transduction by receptors with
+ xxxg2198xxx  activity. cell 61, 203-212.
+valius, m. and kazlauskas, a. (1993). phospholipase c-gamma 1 and
+phosphatidylinositol 3 kinase are the downstream mediators of the pdgf
+receptor’s mitogenic signal. cell 73, 321-334.
+vanhaesebroeck, b., leevers, s. j., khatereh, a., timms, j., katso, r.,
+driscoll, p. c., woscholski, r., parker, p. j. and waterfield, m. d. (2001).
+synthesis and function of 3-phosphorylated inositol lipids. annu. rev.
+biochem. 70, 535-602.
+
+4413
+
+virbasius, j. v., song, x., pomerleau, d. p., zhan, y., zhou, g. w. and
+czech, m. p. (2001). activation of the akt-related cytokine-independent
+survival kinase requires interaction of its phox domain with endosomal
+phosphatidylinositol 3-phosphate. proc. natl. acad. sci. usa 98, 1290812913.
+voss, m., weernink, p. a., haupenthal, s., moller, u., cool, r. h., bauer,
+b., camonis, j. h., jakobs, k. h. and schmidt, m. (1999). phospholipase
+d stimulation by receptor tyrosine kinases mediated by protein kinase c and
+a ras/ral signaling cascade. j. biol. chem. 274, 34691-34698.
+williams, l. t. (1989). signal transduction by the platelet-derived growth
+factor receptor. science 243, 1564-1570.
+xu, y., hortsman, h., seet, l., wong, s. h. and hong, w. (2001). snx3
+regulates endosomal function through its px-domain-mediated interaction
+with ptdins(3)p. nat. cell biol. 3, 658-666.
+yamazaki, m., zhang, y., watanabe, h., yokozeki, t., ohno, s., kaibuchi,
+k., shibata, h., mukai, h., ono, y., frohman, m. a. et al. (1999).
+interaction of the small g protein rhoa with the c terminus of human
+ xxxg1772xxx . j. biol. chem. 274, 6035-6038.
+yeo, e. j., kazlauskas, a. and exton, j. h. (1994). activation of
+phospholipase c-gamma is necessary for stimulation of phospholipase d by
+platelet-derived growth factor. j. biol. chem. 269, 27823-27826.
+zhan, y., virbasius, j. v., song, x., pomerleau, d. p. and zhou, g. w.
+(2002). the p40phox and  xxxg1508xxx  px domains of nadph oxidase target
+cell membranes via direct and indirect recruitment by phosphoinositides. j.
+biol. chem. 277, 4512-4518.
+

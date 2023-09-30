@@ -1,0 +1,933 @@
+research article
+received: 26 march 2010
+
+accepted: 23 july 2010
+
+published online in wiley online library: 1 september 2010
+
+(wileyonlinelibrary.com) doi 10.1002/jms.1804
+
+competitive mass spectrometry binding assay
+for characterization of three binding sites of
+tubulin
+chien-ming li,a,b yan lu,c sunjoo ahn,a,b ramesh narayanan,b
+duane d. millerc and james t. daltona,b∗
+tubulin is an attractive and established target for anticancer therapy. to date, the only method to determine the binding
+of inhibitor to tubulin has been competitive radioligand binding assays. we developed a non-radioactive mass spectrometry
+(ms) binding assay to study the tubulin binding of colchicine, vinblastine and paclitaxel and to identify which of these three
+binding sites that a novel inhibitor binds. the method involves a very simple step of separating the unbound ligand from
+macromolecules using ultrafiltration. the unbound ligand in the filtrate can be accurately determined using highly sensitive
+and specific liquid chromatography tandem mass spectrometry (lc-ms/ms) method using multiple reaction monitoring (mrm)
+mode. the assay was validated using  xxxd2980xxx , vincristine and docetaxel, drugs that compete to the colchicine-,
+vinblastine- and paclitaxel-binding sites in tubulin, respectively. this competitive binding assay allowed the reliable detection
+of interactions of these drugs with three binding sites on tubulin. this method was subsequently applied to determine the
+tubulin-binding site of 4-substituted methoxylbenzoyl-aryl-thiazoles (smart-h), a potent antitubulin agent developed in our
+laboratory. the results indicated that smart-h specifically and reversibly bound only to the colchicine-binding site, but not to
+vinblastine- or paclitaxel sites. this new non-radioligand binding method to determine the binding site on tubulin will function
+c 2010 john wiley & sons, ltd.
+as a useful tool to study the binding sites of tubulin inhibitors. copyright 
+keywords: ms binding; colchicine; vinblastine; paclitaxel; tubulin
+
+introduction
+
+1160
+
+tubulins are the building blocks of microtubules, which are
+dynamic structural components of the cellular cytoskeleton. polymerization and depolymerization of microtubules play important
+roles during normal cell division, while perturbing microtubule
+function leads to mitotic attract and ultimately to cell death by
+apoptosis.[1,2] antitubulin agents continue to arrest significant
+attention in drug discovery pipelines owing to their chemotherapeutic potential.[3,4] antitubulin agents are divided into two
+categories, microtubule stabilizers and destabilizers, based on their
+ability to bind to tubulin and change the ratio between assembled
+microtubules and dimeric tubulin. recently, we developed a class
+of potent antitubulin agents, 4-substituted methoxylbenzoyl-arylthiazoles (smart), which effectively inhibit tubulin polymerization,
+and exhibit low nanomolar cytotoxic ic50 values in a variety of
+cancer cell types.[5]
+in vitro, the equilibrium between the dimeric and polymeric
+forms of tubulin can be altered by different effecters, such
+as  xxxd1896xxx  (dmso),[6] cofactors [mg2+ , guanosine-5 triphosphate (gtp), guanosine-5 -diphosphate (gdp)],[7] or small
+molecules,[8,9] which alter the stability of tubulin dimers or the
+polymerization process. three unique binding sites for small
+molecule antitubulin agents are known and are responsible
+for the interactions and pharmacologic effect of paclitaxel,
+vinblastine and colchicine.[10,11] paclitaxel, which preferably binds
+to polymeric tubulin as opposed to its dimeric form, is a classic
+type of microtubule-stabilizing agent. at high concentration,
+paclitaxel promotes the assembly of all the available tubulin
+
+j. mass. spectrom. 2010, 45, 1160–1166
+
+into microtubules.[8] vinblastine and colchicine are microtubuledestabilizing agents, which prefer to bind to dimeric tubulin.
+vinblastine binds to the  xxxg2353xxx  subunit at a distinct region
+known as the vinca-binding domain, while colchicine binds to the
+beta-subunit at the interface with alpha-monomer of the same tubulin
+molecule. small amounts of the tubulin–colchicine complex
+will copolymerize with free tubulin, with colchicine remaining
+bound to the microtubule.[12] the dissociation of colchicine
+from tubulin is extremely slow.[13] as occurs with vinblastine,
+colchicine depolymerizes microtubules at high concentrations.
+both colchicine and vinblastine effectively halt microtubule
+dynamics at low concentrations.
+radioligand binding assays have been used over the past two
+decades to characterize the binding of small molecule inhibitors
+to tubulin.[14] although such assays provide a sensitive method
+to study ligand–target interactions, radioligand assays also have
+inherent disadvantages, including the need for expensive radiolabeled drugs that require special handling, disposal, detection and
+synthesis. issues related to isotope effects and stability may also
+
+∗
+
+correspondence to: james t. dalton, preclinical research and development,
+gtx inc., memphis, tn 38163, usa. e-mail: jdalton@gtxinc.com
+
+a division of pharmaceutics, college of pharmacy, the ohio state university,
+columbus, oh 43210, usa
+b preclinical research and development, gtx inc., memphis, tn 38163, usa
+c department of pharmaceutical sciences, university of tennessee health science
+center, memphis, tn 38163, usa
+
+c 2010 john wiley & sons, ltd.
+copyright 
+
+ms binding assay for characterization of binding sites of tubulin
+complicate such assays, but are often overlooked or ignored.[15]
+mass spectrometry (ms) provides an alternative technique for sensitive and selective quantification of ligand that can be applied to
+the study of ligand–target interactions.[16,17] ultrafiltration ms has
+been developed for the screening ligand–target interactions, such
+as estrogen receptors,[18] and human retinoid x receptors.[19] ultrafiltration is used to separate unbound low-mass compounds from
+ligand–receptor complexes. therefore, unbound compounds can
+be quantified by lc-ms/ms. using ms to study binding is so-called
+ms binding assays, which share all of the advantages and principles
+of radioligand binding assays, but eliminate the disadvantages of
+radioactive use and allow for simultaneous measurement of different ligands that cannot be accomplished when using radioligands
+because of limitations associated with using and the sole availability of 3 h or 14 c-labeled radioligands. there are additional
+differences between ms binding and radioligand binding assays.
+bound radioligand as a fraction of total radioactivity is always
+measured during radioligand binding assays, while the concentration of free ligand after protein precipitation is quantified during
+ms analysis. alternatively, ms binding assay can be also used to
+directly quantify the concentration of unbound ligand.[20 – 22]
+in this study, we developed an ms binding method to
+determine the binding site of a novel antitubulin drug on tubulin.
+the non-radiolabeled ligand was incubated with tubulin, and
+then the unbound fraction was isolated by ultrafiltration. the
+filtrate was injected into the lc-ms/ms system without further
+sample preparation. three well-known tubulin binders, colchicine,
+vinblastine and paclitaxel, were used to optimize and validate
+the binding study with tubulin. the optimized binder and tubulin
+concentrations were then used to examine the tubulin-binding
+characteristics of their competitors,  xxxd2980xxx , vincristine
+and docetaxel, respectively. once validated, this ms binding assay
+was applied to determine the binding site of a novel smart
+compound (smart-h). the method demonstrated that smart-h
+effectively and specifically bound to the colchicine-binding site,
+but not to vinblastine- or paclitaxel-binding sites. in addition, the
+ability of colchicine to displace smart-h from its tubulin-binding
+site was assessed, a feat not possible using standard radioligand
+binding assays without the synthesis of radiolabeled smart-h.
+these studies provide the first evidence that ms can be used to
+quickly and selectively identify the tubulin-binding site of novel
+small molecule inhibitors.
+
+methods
+lc-ms/ms method for measuring colchicine, vinblastine
+and paclitaxel
+
+j. mass. spectrom. 2010, 45, 1160–1166
+
+in vitro tubulin polymerization assay
+bovine brain tubulin (0.2 mg) (cytoskeleton, denver, co) was
+mixed with vehicle (dmso, 5% v/v) and gtp (1 mm) and incubated
+in 100 µl of buffer (80 mm piperazine-1,4-bis(2-ethanesulfonic
+acid) (pipes), 2.0 mm mgcl2 , 0.5 mm ethylene glycol tetraacetic
+acid (egta), ph 6.9) at 37 ◦ c for 1 h. the absorbance at 340 nm
+wavelength was monitored every minute (synergy 4 microplate
+reader, bio-tek instruments, winooski, vt). the spectrophotometer was maintained at 37 ◦ c for tubulin polymerization.
+
+ms binding assay using ultrafiltration
+colchicine, vinblastine and paclitaxel were prepared in dmso at
+25 µm; 5 µl of each was spiked (final concentration, 1.2 µm) and
+incubated with varying concentrations of tubulin (8–4000 µg/ml)
+in 100 µl incubation buffer (80 mm pipes, 2.0 mm mgcl2 , 0.5 mm
+egta, ph 6.9) in a shaking incubator (37 ◦ c) for 1 h. to study
+the colchicine and vinblastine binding sites, the incubations were
+performed under conditions which did not contain gtp because
+these ligands prefer to bind to dimeric tubulin. for paclitaxelbinding studies, preformed microtubules in 100 µl incubation
+buffer were prepared by pre-incubating tubulin in the presence
+of gtp (1 mm) for 1 h. paclitaxel (5 µl of 25 µm) was added to the
+preformed microtubules, and incubated for an additional hour.
+the unbound ligands were separated from tubulin or microtubules
+using an ultrafiltration method (microconcentrator) (microcon,
+bedford, ma) with a molecular cutoff size of 30 kda. samples were
+collected by centrifuge at 14 000 g for 30 min. the filtrate (50 µl)
+was diluted with acetonitrile/h2 o (1/2) (150 µl) containing 200-nm
+internal standard. the final volume was 200 µl. an aliquot of 10 µl
+was injected into the lc-ms/ms system.
+
+validation of the lc-ms/ms method
+standard analyte solutions were prepared in the loading buffer
+(25% tubulin buffer, 25% acetonitrile, and 50%h2 o). solutions containing all three standards (vinblastine, colchicine and paclitaxel)
+at concentrations of 0.4, 0.8, 2, 4, 8, 20, 40, 80, 200, 400, 800, 2000,
+4000, 8000 and 20 000 nm were used to examine the linearity and
+establish calibration curves. two concentrations, 200 and 1000
+nm, were used to examine intra-day (morning and evening) and
+inter-day (two consecutive days) variation.
+
+c 2010 john wiley & sons, ltd.
+copyright 
+
+wileyonlinelibrary.com/journal/jms
+
+1161
+
+an high performance liquid chromatography (hplc) system
+(model 1100 series chemstation, agilent technology co, santa
+clara, ca), narrow-bore c4 column (varian inc, 2.1 × 150 mm,
+5 µm, palo alto, ca) and triple-quadruple mass spectrometer (api
+qtrap4000 , applied biosystems/mds sciex, concord, ontario,
+canada) with a turboionspray source were used to develop this
+method. gradient mode was used to achieve the separation
+of analytes using mixtures of mobile phase a [5%/95% (v/v)
+acetonitrile/h2 o containing 0.1%  xxxd2154xxx ] and mobile phase
+b [95%/5% (v/v) acetonitrile/h2 o containing 0.1%  xxxd2154xxx ] at
+a flow rate of 300 µl/min. mobile phase a was used at 90% from
+0 to 1 min followed by a linearly programmed gradient to 100%
+of mobile phase b within 3 min; 100% of mobile phase b was
+maintained for 1 min before a quick ramp to 90% mobile phase a.
+
+mobile phase a was continued for another 10 min toward the end
+of analysis.
+multiple reaction monitoring (mrm) mode, scanning m/z 400
+→ 310 (colchicine), m/z 406 → 272 (vinblastine), m/z 854 →
+286 (paclitaxel) and m/z 434 → 266 (internal standard, a bromo
+substitution on 4-position of a-ring of smart-h), was used to
+obtain the most sensitive signals for these tubulin ligands. the
+spraying needle voltage was set at 5000 v for positive mode,
+collision-assisted dissociation (cad) gas at medium, and the source
+heater probe temperature at 500 ◦ c. collision energies (ce) were
+set at 40, 35 and 45 v, respectively. gas 1 and 2 were set at 50. unit
+resolution was selected for q1 and q3. for paclitaxel, vinblastine
+and colchicine, dwell time was set 100 ms, while 50 ms was set
+for internal standard. data acquisition and quantitative processing
+were accomplished using analyst software, ver. 1.4.2 (applied
+biosystems).
+
+c.-m. li et al.
+
+100%
+90%
+
+310.4
+
+a
+
+h3co
+
+nhcoch3
+
+90%
+
+282.4 326.3
+
+h3co
+ch3o
+
+80%
+
+100%
+
+o
+
+colchicine
+
+50%
+
+n
+n
+h
+
+70%
+358.4
+
+och3
+
+285.2 295.4
+
+et
+h
+ocome
+n
+co2me
+h
+me oh
+
+co2me
+meo
+
+60%
+
+vinblastine
+
+50%
+
+400.6
+
+311.1 340.5
+
+40%
+
+oh
+et
+
+n
+
+80%
+
+70%
+60%
+
+272.1
+
+b
+
+40%
+
+267.3
+
+30%
+
+30%
+
+20%
+
+20%
+
+10%
+
+10%
+
+50
+
+100%
+90%
+
+100
+
+150
+
+200
+
+250
+300
+m/z, amu
+
+286.4
+
+350
+
+aco
+
+400
+
+o
+
+nh
+
+o oh
+
+1.5e5
+
+d
+1.4e5
+
+o
+o
+
+80%
+
+h
+ho o o
+o
+o
+
+oh
+
+70%
+
+100
+
+450
+
+c
+
+355.7
+210.3
+
+200
+
+300
+
+400 500
+m/z, amu
+
+o
+
+900
+
+colchicine
+
+1.2e5
+1.0e5
+
+6.2
+
+paclitaxel
+
+8.0e4
+
+paclitaxel
+439.9
+
+800
+
+me
+
+509.6
+
+40%
+
+700
+
+5.6
+
+vinblastine
+
+60%
+50%
+
+600
+
+854.8
+
+6.0e4
+
+i.s.
+
+551.4
+
+30%
+
+4.0e4
+
+20%
+
+7.3
+
+7.9
+
+2.0e4
+
+10%
+100
+
+200
+
+300
+
+400 500
+m/z, amu
+
+600
+
+700
+
+800
+
+900
+
+0.0
+
+2
+
+4
+
+6
+
+8
+
+time, min
+
+figure 1. tandem mass spectrum and chromatography. tandem mass spectrum of colchicine (a), vinblastine (b) and paclitaxel (c). the chromatography
+using multiple reaction monitoring (mrm) mode of colchicine, vinblastine, paclitaxel, and an internal standard (a bromo substitution on 4-position of
+a-ring of smart-h) (d).
+
+competitive ms binding assay
+competitive ms binding assay was conducted as previously
+described but with slightly different conditions for colchicine,
+vinblastine and paclitaxel binding. colchicine, vinblastine and paclitaxel (1.2 µm for each) were incubated with tubulin (1.3 mg/ml)
+in the incubation buffer (80-mm pipes, 2.0-mm mgcl2 , 0.5-mm egta,
+ph 6.9) at 37 ◦ c for 1 h. varying concentrations (0.1–125 µm) of
+ xxxd2980xxx , vincristine and docetaxel were used to compete
+with colchicine-, vinblastine- and paclitaxel–tubulin binding, respectively. after incubation, the filtrate was obtained as previously
+described. smart-h (0.5–125 µm) was examined to individually
+compete with colchicine-, vinblastine- and paclitaxel–tubulin
+binding. the ability of the competitor or smart-h to inhibit
+the binding of ligands was expressed as a percentage of control
+binding in the absence of any competitor. each study was run in
+triplicate.
+reversible binding assay
+
+1162
+
+smart-h (1 µm) was incubated with tubulin (1.0 mg/ml) in the
+incubation buffer (80 mm pipes, 2.0 mm mgcl2 , 0.5 mm egta,
+ph 6.9) at 37 ◦ c for 1 h. varying concentrations (0.5–500 µm) of
+colchicine were added to compete with smart-h-tubulin binding.
+after incubation, the filtrate was obtained as described previously.
+the mrm ion pair of smart-h, m/z 356 → 188, was monitored
+
+wileyonlinelibrary.com/journal/jms
+
+by the lc-ms/ms method using the same chromatographic
+conditions as described previously. the ability of colchicine to
+inhibit the binding of smart-h-tubulin was expressed as a
+percentage of control binding in the absence of any colchicine.
+each experiment was performed in triplicate.
+
+results and discussion
+lc-ms/ms method for colchicine, vinblastine and paclitaxel
+the full-scan electrospray mass spectra of colchicine, vinblastine
+and paclitaxel were obtained by infusion of a solution of each
+analyte [final concentration 2 µm in h2 o/acetonitrile/ xxxd2154xxx 
+(50 : 50 : 0.1)] into the mass spectrometer (data not shown). the
+data indicated that singly charged species were the predominant
+ions for colchicine ([m + h]+ , m/z 400) and paclitaxel (mh+ , m/z
+854 and [m + na]+ , m/z 876) in full-scan mode by electrospray
+ionization (esi). however, the intensity of the [m + 2h]2+ ion at
+m/z 406 was more than five times greater than that of the singly
+charged [m + h]+ ion for vinblastine. the singly charged precursor
+ions of colchicine and paclitaxel, and the doubly charged precursor
+ion of vinblastine were selected for fragmentation to generate
+respective product ions (fig. 1a–c). the ms/ms spectrum of
+colchicine (fig. 1a) was consistent with that of emuri et al. and
+yao et al.,[23,24] who reported the major fragment ions (m/z 358,
+310, 326, 282) from the singly protonated form of colchicine. in
+
+c 2010 john wiley & sons, ltd.
+copyright 
+
+j. mass. spectrom. 2010, 45, 1160–1166
+
+ms binding assay for characterization of binding sites of tubulin
+fig. 1b, the predominant product ion m/z 272 of double-charged
+vinblastine was consistent with dennison.[25] for paclitaxel (m/z
+854), the main fragment ions, m/z 569, 551, 509 and 286 were
+consistent with liia et al.[26] in subsequent experiments using
+mrm modes for quantitative measurement, the mrm ion pairs,
+m/z 400 → 310, 406 → 272 and 854 → 286, were selected to
+result in a highly specific and sensitive method for quantitation
+of colchicine, vinblastine and paclitaxel, respectively. an internal
+standard, an analog of smart compounds, was added to improve
+the analytical accuracy of the quantitative method.
+the lc-ms/ms method reported here included c4 reversedphase chromatography using a gradient program of acetonitrile/water with 0.1%  xxxd2154xxx . the chromatograms indicate
+that colchicine, vinblastine, paclitaxel, and the internal standard
+were completely separated under these chromatographic conditions (fig. 1d). to our knowledge, this is the first analytical method
+with the capability to simultaneously quantify the three antitubulin
+agents in a well-separated chromatography.
+intra-day and inter-day precision and accuracy were determined
+using current lc-ms/ms methodology (table 1). precision and
+accuracy using two concentrations, 200 and 1000 nm, were below
+7% among all three analytes. all three analytes exhibited the same
+detection limit (s/n > 3) with 0.8 nm. in addition, their linearity
+exhibited 4–5 order of magnitudes. these data suggest that the
+lc-ms/ms methodology provided a reliable quantification for
+vinblastine, colchicine and paclitaxel.
+effects of gtp and dmso on tubulin polymerization
+
+table 1. overview of the linearity data and evaluation of accuracy
+and precision
+parameters
+linearity, nm
+regression
+coefficient, (r2 )
+detection limit
+(s/n > 3)
+concentration, nm
+intra-day precision
+(rsd%, n = 6)
+intra-day accuracy
+(re%, n = 6)
+inter-day precision
+(rsd%, n = 12)
+inter-day accuracy
+(re%, n = 12)
+concentration, nm
+intra-day precision
+(rsd%, n = 6)
+intra-day accuracy
+(re%, n = 6)
+inter-day precision
+(rsd%, n = 12)
+inter-day accuracy
+(re%, n = 12)
+
+paclitaxel
+
+vinblastine
+
+colchicine
+
+0.8–20 000
+1.0000
+
+0.8–8000
+0.9999
+
+0.8–8000
+0.9989
+
+0.8
+
+0.8
+
+0.8
+
+200
+6.2
+
+200
+5.3
+
+200
+2.8
+
+1.4
+
+4.1
+
+3.3
+
+3.9
+
+2.2
+
+1.4
+
+5.9
+
+2.2
+
+2.6
+
+1 000
+2.1
+
+1 000
+2
+
+1 000
+6.2
+
+0.8
+
+1.3
+
+6.9
+
+3.5
+
+2.1
+
+1.7
+
+3.2
+
+3.6
+
+2.9
+
+rsd%, relative standard deviation; re%, percent relative error.
+
+figure 2a shows the effects of 1 mm gtp, 5% dmso, and the
+combination effects of gtp and dmso on tubulin polymerization,
+respectively. the buffer (without added gtp or dmso) did not
+significantly cause tubulin aggregation. tubulin polymerization
+was monitored at 340 nm in a 96-well plate thermostated to 37 ◦ c.
+both dmso and gtp promoted tubulin aggregation, while the
+combination produced a hyperbolic curve with a higher plateau,
+suggesting that gtp and dmso synergistically increased the extent
+of tubulin polymerization. figure 2b shows the polymerization
+curve that was obtained when tubulin was pre-incubated with gtp
+(1 mm) for 1 h prior to the addition of dmso or buffer. the extent
+of tubulin polymerization increased after dmso was added. these
+data suggested that pre-incubation with gtp (fig. 2b) should be
+avoided when performing studies to examine binding to dimeric
+tubulin (e.g. colchicine and vinblastine), but would be beneficial
+when performing studies with paclitaxel, which preferentially
+binds to polymeric microtubules.
+study of ligand–tubulin interaction by the ms binding assay
+
+j. mass. spectrom. 2010, 45, 1160–1166
+
+figure 2. induction of tubulin polymerization by gtp and dmso. tubulin
+(2 mg/ml) was incubated in the presence of gtp (1 mm), dmso (5%, v/v)
+and combination of gtp and dmso (a) for 1 h. tubulin (2 mg/ml) was
+pre-incubated with gtp (1 mm) for 1 h, and then incubated with buffer
+or dmso (5%, v/v) for 1 h (b). tubulin polymerization was monitored at
+340 nm in a 96-well plate thermostated to 37 ◦ c.
+
+c 2010 john wiley & sons, ltd.
+copyright 
+
+wileyonlinelibrary.com/journal/jms
+
+1163
+
+colchicine (1.2 µm) was incubated with varying concentrations
+of tubulin in the absence of gtp for 1 h. ultrafiltration was
+then used to separate free colchicine and macromolecules,
+such as tubulin and microtubules. the filtrate was used for
+quantification without further sample preparation. figure 3a
+shows that the percentage of colchicine bound to tubulin
+increased with increasing tubulin concentrations, and approached
+90% at tubulin concentration >1 mg/ml. the vinblastine–tubulin
+binding (fig. 3b) was examined under the same conditions. for
+paclitaxel–tubulin binding, tubulin (4 mg/ml) was pre-incubated
+in the presence of 1 mm gtp to generate partial microtubules,
+and then titrated to the indicated tubulin concentrations.
+paclitaxel (1.2 µm) was then incubated with the preformed
+
+c.-m. li et al.
+the buffer system used. the longer retention times and baseline
+resolution obtained during hplc separation may minimize ion
+suppression effects.
+competitive ms binding assay and its application to determine
+the binding site of smart-h on tubulin
+tubulin (1–1.5 mg/ml) was incubated with colchicine, vinblastine
+and paclitaxel (1.2 µm). both colchicine- and vinblastine–tubulin
+binding studies were examined in the absence of gtp without preincubation. paclitaxel–tubulin binding studies were performed
+after pre-incubation of tubulin with gtp for 1 h. podophylltoxin, vincristine and docetaxel are well-known competitors for
+colchicine, vinblastine and paclitaxel, respectively, binding to
+tubulin. as shown in fig. 4b–d, the ms competitive binding
+method demonstrated that podophylltoxin, vincristine and docetaxel effectively competed for the colchicine-, vinblastine- and
+paclitaxel–tubulin binding sites, respectively, indicating that competitive displacement of the known ligand can be quantified
+and identified using this newly developed ms binding assay.
+the ms competitive binding method was further employed to
+determine the binding site of smart-h (fig. 4a) on tubulin.
+smart-h is a novel antitubulin agent that potently inhibits tubulin
+polymerization.[5] varying concentrations of smart-h were used
+to compete with colchicine-, vinblastine- and paclitaxel–tubulin
+binding. figure 4b–d show that smart-h competed effectively
+and specifically with colchicine–tubulin binding, but not to the
+vinca alkaloid or paclitaxel sites, indicating that smart-h bound
+to the colchicine-binding site on tubulin. the competitive binding
+curve of smart-h deviates substantially from 0 at high concentrations, suggesting that smart-h may exhibit nonspecific binding or
+achievement of its saturated solubility. the ic50 value of smart-h
+in competitive binding curve was slightly less that of  xxxd2980xxx , suggesting that determinations of relative affinity to tubulin
+can also be obtained using this method.
+reversible binding of smart-h on colchicine-binding site
+
+figure 3. ms tubulin-binding studies. the binding of 1.2 µm of colchicine
+(a), vinblastine (b) and paclitaxel (c) to increasing concentrations of
+tubulin. since vinblastine and colchicine prefer to bind to dimeric tubulin,
+and paclitaxel prefers to bind to polymeric microtubule, their incubation
+conditions were different. in panels a and b, colchicine or vinblastine was
+incubated with tubulin in the absence of gtp for 1 h. in panel c, tubulins
+were incubated in the presence of gtp for 1 h to preform microtubules
+and then incubated with paclitaxel. vehicle, dmso (5%, v/v) (n = 3). brs,
+sd.
+
+1164
+
+microtubules binding study (fig. 3c). figure 3a–c show that
+tubulin concentrations of 1000 µg/ml or greater bound >80%
+of each ligand. thus tubulin concentrations of 1–1.5 mg/ml were
+used for further competitive binding studies.
+the tubulin-binding assays were performed in a nonvolatile
+incubation buffer, which is not compatible with the ms system.
+however, the incubation buffer can be diverted into waste by a
+simple switching valve during hplc, avoiding its entrance to the
+ms system. the analytes (e.g. colchicine, vinblastine and paclitaxel)
+were retained longer in the column and then were detected by
+lc-ms/ms. therefore, no further sample preparation (desalting)
+was needed after ultrafiltration. this approach is not limited by
+
+wileyonlinelibrary.com/journal/jms
+
+the ability to use non-radiolabeled ligand in the ms binding assay
+allowed us to also examine the ability of colchicine to displace
+smart-h from tubulin binding site. varying concentrations of
+colchicine were used to compete for the binding of tubulin
+(1 mg/ml) by smart-h (1 µm). the lc-ms/ms was set to detect
+smart-h (m/z 356 → 188) with the same chromatographic
+conditions (data not shown). colchicine competed effectively
+with the smart-h-tubulin binding (fig. 5), suggesting that the
+binding of smart-h to tubulin is not covalent and further
+corroborating the conclusion that the binding site for smart-h
+overlaps with the colchicine-binding site. this reversible binding
+study demonstrated that competitive ms binding assay is simple
+and widely applicable to non-radiolabeled agents.
+
+conclusions
+we developed an ms-based assay to study the interactions of small
+molecule inhibitors with tubulin. the concentration of unbound
+ligands was determined after one-step sample purification using
+ultrafiltration. the assay is broadly applicable to any small molecule
+that can be measured by ms, as demonstrated by studies using
+colchicine,  xxxd2980xxx , vinblastine, vincristine, paclitaxel,
+docetaxel and smart-h. the assay was used to demonstrate
+that smart-h reversibly competes for the colchicine-binding site
+
+c 2010 john wiley & sons, ltd.
+copyright 
+
+j. mass. spectrom. 2010, 45, 1160–1166
+
+ms binding assay for characterization of binding sites of tubulin
+
+figure 4. ms competitive binding studies. smart-h (a) competes with colchicine (b), but not with vinblastine (c) and paclitaxel (d) to bind to tubulin
+(1.3 mg/ml). in panel b and c, tubulin was incubated with colchicine or vinblastine (1.2 µm) in the absence of gtp with increasing concentrations of test
+compound. in panel d, preformed microtubules were incubated with paclitaxel (1.2 µm) and 1 mm gtp, and increasing concentrations of test compound.
+podophylltoxin, vincristine and docetaxel were used as positive controls for competitive binding with colchicine, vincristine and paclitaxel, respectively.
+vehicle was 5% dmso; bar, sd. (n = 3).
+
+% smart-h bound on tubulin
+
+100
+80
+60
+40
+20
+0
+-20
+0.1
+
+1
+
+10
+
+100
+
+1000
+
+colchicine concentration, µm
+
+figure 5. reversible binding. smart-h (1 µm) and tubulin (1 mg/ml) were
+incubated with vary concentrations of colchicine in the absence of gtp.
+n = 3; bar, sd.
+
+on tubulin with an affinity slightly less than  xxxd2980xxx .
+the assay does not require the use of radiolabeled materials,
+can be used to study drugs that inhibit or promote tubulin
+polymerization, and could be applied to drugs with unknown
+binding sites in tubulin and thus represents a novel technique with
+broad applicability in the study of ligand–tubulin interactions.
+
+references
+
+j. mass. spectrom. 2010, 45, 1160–1166
+
+c 2010 john wiley & sons, ltd.
+copyright 
+
+wileyonlinelibrary.com/journal/jms
+
+1165
+
+[1] j. a. hadfield, s. ducki, n. hirst, a. t. mcgown. tubulin and
+microtubules as targets for anticancer drugs. prog. cell cycle res.
+2003, 5, 309.
+[2] s. honore, e. pasquier, d. braguer. understanding microtubule
+dynamics for improved cancer therapy. cell. mol. life sci. 2005,
+62, 3039.
+
+[3] a. jordan, j. a. hadfield, n. j. lawrence, a. t. mcgown. tubulin as a
+target for anticancer drugs: agents which interact with the mitotic
+spindle. med. res. rev. 1998, 18, 259.
+[4] m. a. jordan, k. kamath. how do microtubule-targeted drugs work?
+an overview. curr. cancer drug targets 2007, 7, 730.
+[5] y. lu, c. m. li, z. wang, c. r. ross 2nd, j. chen, j. t. dalton, w. li,
+d. d. miller. discovery of 4-substituted methoxybenzoyl-arylthiazole as novel anticancer agents: synthesis, biological evaluation,
+and structure-activity relationships. j. med. chem. 2009, 52, 1701.
+[6] s. sharma, t. ganesh, d. g. kingston, s. bane. promotion of tubulin
+assembly by poorly soluble taxol analogs. anal. biochem. 2007, 360,
+56.
+[7] g. c. na, s. n. timasheff. interaction of vinblastine with calf brain
+tubulin: effects of  xxxd2531xxx . biochemistry 1986, 25, 6222.
+[8] n. kumar. taxol-induced polymerization of purified tubulin.
+mechanism of action. j. biol. chem. 1981, 256, 10435.
+[9] m. c. edler, a. m. fernandez, p. lassota, c. m. ireland, l. r. barrows.
+inhibition of tubulin polymerization by vitilevuamide, a bicyclic
+marine peptide, at a site distinct from colchicine, the vinca alkaloids,
+and  xxxd1925xxx . biochem. pharmacol. 2002, 63, 707.
+[10] b. gigant, c. wang, r. b. ravelli, f. roussi, m. o. steinmetz,
+p. a. curmi, a. sobel, m. knossow. structural basis for the regulation
+of tubulin by vinblastine. nature 2005, 435, 519.
+[11] e. nogales, s. g. wolf, k. h. downing. structure of the alpha beta
+tubulin dimer by electron crystallography. nature 1998, 391, 199.
+[12] d. a. skoufias, l. wilson. mechanism of inhibition of microtubule
+polymerization by colchicine: inhibitory potencies of unliganded
+colchicine and tubulin-colchicine complexes. biochemistry 1992,
+31, 738.
+[13] s. b. hastie. interactions of colchicine with tubulin. pharmacol. ther.
+1991, 51, 377.
+[14] p. m. sweetnam, l. caldwell, j. lancaster, c. bauer jr, b. mcmillan,
+w. j. kinnier, c. h. price. the role of receptor binding in drug
+discovery. j. nat. prod. 1993, 56, 441.
+[15] v. l. schramm. binding isotope effects: boon and bane. curr. opin.
+chem. biol. 2007, 11, 529.
+[16] c. e. whitehurst, d. a. annis. affinity selection-mass spectrometry
+and its emerging application to the high throughput screening of
+g protein-coupled receptors. comb. chem. high throughput screen.
+2008, 11, 427.
+
+c.-m. li et al.
+[17] d. a. annis, e. nickbarg, x. yang, m. r. ziebell, c. e. whitehurst.
+affinity selection-mass spectrometry screening techniques for small
+molecule drug discovery. curr. opin. chem. biol. 2007, 11, 518.
+[18] y. sun, c. gu, x. liu, w. liang, p. yao, j. l. bolton, r. b. van breemen.
+ultrafiltration tandem mass spectrometry of estrogens for
+characterization of structure and affinity for human estrogen
+receptors. j. am. soc. mass. spectrom. 2005, 16, 271.
+[19] d. liu, j. guo, y. luo, d. j. broderick, m. i. schimerlik, j. m. pezzuto,
+r. b. van breemen. screening for ligands of human retinoid x
+receptor-alpha using ultrafiltration mass spectrometry. anal. chem.
+2007, 79, 9398.
+[20] k. v. niessen, g. hofner, k. t. wanner. competitive ms binding
+assays for dopamine d2 receptors employing spiperone as a native
+marker. chembiochem. 2005, 6, 1769.
+[21] c. zepperitz, g. hofner, k. t. wanner. expanding the scope of ms
+binding assays to low-affinity markers as exemplified for  xxxg1402xxx .
+anal. bioanal. chem. 2008, 391, 309.
+[22] l. a. de jong, c. m. jeronimus-stratingh, t. i. cremers. development
+of a multiplex non-radioactive receptor assay: the benzodiazepine
+receptor, the serotonin transporter and the beta-adrenergic
+receptor. rapid. commun. mass spectrom. 2007, 21, 567.
+
+[23] y. jiang, j. wang, y. wang, h. li, j. p. fawcett, j. gu. rapid and
+sensitive liquid chromatography-tandem mass spectrometry
+method for the quantitation of colchicine in human plasma. j.
+chromatogr. b analyt. technol. biomed. life sci. 2007, 850, 564.
+[24] e. abe, a. s. lemaire-hurtel, c. duverneuil, i. etting, e. guillot, p. de
+mazancourt, j. c. alvarez. a novel lc-esi-ms-ms method for
+sensitive quantification of colchicine in human plasma: application
+to two case reports. j. anal. toxicol. 2006, 30, 210.
+[25] j. b. dennison, j. l. renbarger, d. o. walterhouse, d. r. jones,
+s. d. hall. quantification of vincristine and its major
+metabolite in human plasma by high-performance liquid
+chromatography/tandem mass spectrometry. ther. drug monit.
+2008, 30, 357.
+[26] l. d. vainchtein, b. thijssen, e. stokvis, h. rosing, j. h. schellens,
+j. h. beijnen. a simple and sensitive assay for the quantitative
+analysis of paclitaxel and metabolites in human plasma using liquid
+chromatography/tandem mass spectrometry. biomed. chromatogr.
+2006, 20, 139.
+
+1166
+wileyonlinelibrary.com/journal/jms
+
+c 2010 john wiley & sons, ltd.
+copyright 
+
+j. mass. spectrom. 2010, 45, 1160–1166
+

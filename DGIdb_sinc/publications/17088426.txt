@@ -1,0 +1,960 @@
+published november 6, 2006
+
+jcb: article
+
+ xxxd124xxx  stimulation of hek293 cells generates
+multiple contiguous domains with different [camp]:
+role of compartmentalized phosphodiesterases
+anna terrin,1 giulietta di benedetto,1 vanessa pertegato,1 york-fong cheung,2 george baillie,2 martin j. lynch,2
+nicola elvassore,3 anke prinz,4 friedrich w. herberg,4 miles d. houslay,2 and manuela zaccolo1
+1
+
+dulbecco telethon institute, venetian institute of molecular medicine, 35129 padova, italy
+division of biochemistry and molecular biology, institute of biomedical and life sciences, university of glasgow, glasgow g12 8qq, scotland, uk
+3
+department of chemical engineering, university of padova, 35131 padova, italy
+4
+department of biochemistry, university of kassel, d-34132 kassel, germany
+
+t
+
+here is a growing appreciation that the cyclic  xxxd81xxx  (camp)– xxxg1836xxx 
+(pka) signaling pathway is organized to form transduction units that function to deliver speciﬁc messages.
+such organization results in the local activation of pka
+subsets through the generation of conﬁned intracellular
+gradients of camp, but the mechanisms responsible for
+limiting the diffusion of camp largely remain to be clariﬁed. in this study, by performing real-time imaging of
+camp, we show that prostaglandin 1 stimulation generates multiple contiguous, intracellular domains with different camp concentration in human embryonic kidney 293
+
+cells. by using pharmacological and genetic manipulation
+of phosphodiesterases (pdes), we demonstrate that compartmentalized  xxxg1698xxx  and  xxxg1700xxx  are responsible for
+selectively modulating the concentration of camp in individual subcellular compartments. we propose a model
+whereby compartmentalized pdes, rather than representing an enzymatic barrier to camp diffusion, act as a sink
+to drain the second messenger from discrete locations,
+resulting in multiple and simultaneous domains with different camp concentrations irrespective of their distance
+from the site of camp synthesis.
+
+introduction
+camp is a ubiquitous second messenger and is responsible for a
+plethora of cellular effects and biological functions (beavo and
+brunton, 2002). the generation of camp occurs upon ligand
+binding to gs protein–coupled receptors (gpcrs) and the consequent activation of a family of transmembrane adenylyl cyclases
+(acs) localized at the plasma membrane (cooper, 2005). an alternative source of camp is the soluble ac, an enzyme that has
+been shown to localize in different subcellular compartments,
+the activity of which is independent of gpcr stimulation and is
+regulated by bicarbonate and calcium ions (zippin et al., 2003).
+camp exerts its cellular functions via the activation of
+three different effectors: the camp-dependent pka, cyclic
+a. terrin and g. di benedetto contributed equally to this paper.
+correspondence to manuela zaccolo: manuela.zaccolo@unipd.it
+abbreviations used in this paper: ac, adenylyl cyclase; akap, a kinase–
+anchoring protein; dn, dominant negative; fret, ﬂuorescence resonance energy
+transfer; gpcr, gs protein–coupled receptor; hek, human embryonic kidney;
+ xxxd2388xxx , isobutyl-methyl-xanthine; pde, phosphodiesterase;  xxxd124xxx , prostaglandin 1.
+the online version of this article contains supplemental material.
+
+© the rockefeller university press $8.00
+the journal of cell biology, vol. 175, no. 3, november 6, 2006 441–451
+http://www.jcb.org/cgi/doi/10.1083/jcb.200605050
+
+nucleotide-gated ion channels (biel et al., 1999), and exchange
+proteins directly activated by camp (epac; bos, 2003). the action of camp is terminated via its degradation by phosphodiesterases (pdes), a large superfamily of enzymes grouped in 11
+families with >40 isoenzyme variants (soderling and beavo,
+2000; francis et al., 2001; houslay and adams, 2003; lugnier,
+2006). individual pde enzymes exert specific functional roles
+as a consequence of the unique combination of regulatory mechanisms, intracellular localization, and enzyme kinetics (houslay
+and milligan, 1997; beavo and brunton, 2002; baillie et al.,
+2005) and play an important role in shaping intracellular gradients of camp (rich et al., 2001; zaccolo and pozzan, 2002;
+rochais et al., 2004).
+the notion of the spatial regulation of camp as a means
+of generating specific downstream responses is now well accepted (tasken and aandahl, 2004; wong and scott, 2004).
+such a paradigm is grounded on increasing evidence that
+camp/pka signaling is compartmentalized in discrete subcellular domains in which pka is anchored to a kinase–anchoring
+
+downloaded from jcb.rupress.org on march 17, 2015
+
+the journal of cell biology
+
+2
+
+supplemental material can be found at:
+http://jcb.rupress.org/content/suppl/2006/11/06/jcb.200605050.dc1.html
+
+jcb
+
+441
+
+published november 6, 2006
+
+results
+generation of a fret-based sensor
+for camp targeted to the plasma membrane
+
+we recently generated a fret-based sensor for real-time imaging of camp. the sensor, called pka-gfp, includes the regulatory (r) and catalytic (c) subunits of the pka tagged with the
+cfp and yfp variants of gfp, respectively (fig. 1 a). when
+overexpressed in hek293 cells, pka-gfp shows a uniform
+distribution in the cytosol (fig. 1 a).
+442
+
+jcb • volume 175 • number 3 • 2006
+
+figure 1. the pka-based sensor for camp. (a) schematic representation
+of the r and c subunits of pka fused to cfp and yfp, respectively (top),
+and confocal images showing their localization in hek293 cells coexpressing the two subunits of the sensor (bottom). (b) schematic representation of the membrane-targeted version of the pka-based sensor (top) and
+distribution of the two subunits in hek293 cells (bottom) as detected at
+the confocal microscope. bars, 10 mum. (c) apparent activation constants
+determination for pka-gfp and mppka-gfp.
+
+to compare camp dynamics in the bulk cytosol and in
+the subplasma membrane compartment, we generated a variant
+of the pka-gfp sensor that is targeted to the plasma membrane. to this end, we fused to the n terminus of the r subunit a
+short polypeptide (mp) corresponding to the n-terminal targeting signal from the lyn kinase (resh, 1999). this sequence is
+posttranslationally myristoylated and palmitoylated and targets
+to the plasma membrane (fig. 1 b). hek293 cells cotransfected
+with mpr-cfp and c-yfp (mppka-gfp) show the predicted
+localization of both the r and c subunits at the plasma membrane
+(fig. 1 b). to verify that modification of the r-cfp sequence
+with the mp peptide does not affect the sensitivity for camp,
+we determined activation constant (ka) values both for pka-gfp
+and mppka-gfp. as shown in fig. 1 c, ka values were identical for the two sensors (ka = 0.77 mum). modification at the
+n terminus of the r subunit does not affect its dynamic interactions with the c subunit, as shown by its complete release
+
+downloaded from jcb.rupress.org on march 17, 2015
+
+proteins (akaps; wong and scott, 2004) in close proximity to
+its specific targets and is activated by restricted pools of camp
+(buxton and brunton, 1983; jurevicius and fischmeister, 1996;
+zaccolo and pozzan, 2002; mongillo et al., 2004; barnes et al.,
+2005; dodge-kafka et al., 2005). however, the concept of the
+restricted intracellular diffusion of camp contrasts with the evidence that the diffusion rate of this second messenger in the
+cytosol appears to be unrestrained (500–700 mum2s−1; bacskai
+et al., 1993; nikolaev et al., 2004). to explain the paradox of a
+signaling pathway organized in spatially segregated transduction units, the selective activation of which is committed to a
+freely diffusible second messenger, the hypothesis of either a
+physical or an enzymatic barrier restricting intracellular diffusion of camp has been formulated (rich et al., 2000, 2001;
+zaccolo et al., 2002; cooper, 2003; rochais et al., 2004;
+willoughby et al., 2006; for review see brunton, 2003).
+recently, new methods for monitoring intracellular camp
+concentration in single living cells have been developed. one approach using cyclic nucleotide-gated ion channel–based sensors
+relies on ion influx measurements as a readout of camp changes
+near the plasma membrane (rich et al., 2001). another approach
+uses fluorescence resonance energy transfer (fret)–based indicators in which camp binding to pka (zaccolo et al., 2000) or
+epac (dipilato et al., 2004; nikolaev et al., 2004; ponsioen et al.,
+2004) proteins leads to a change in fluorescence emission that
+correlates with the intracellular concentration of camp. such optical biosensors allow the detection of camp changes with submicrometer resolution in different intracellular compartments.
+these new technologies led to the identification in human
+embryonic kidney (hek) 293 cells of a subplasma membrane
+compartment showing a larger rise in camp concentration in
+response to prostaglandin 1 ( xxxd124xxx ) receptor stimulation as
+compared with the bulk cytosol (rich et al., 2001; dipilato et al.,
+2004), but the molecular and structural components responsible
+for such compartmentalization largely remain to be defined.
+here, we set out to study local camp dynamics by using
+fret-based biosensors that are selectively targeted to distinct
+subcellular compartments in hek293 cells. we found that compartmentalized pdes, rather than acting as barriers to camp
+diffusion from the plasma membrane to the bulk cytosol, act as
+a sink that drains camp concentration in defined domains by
+locally degrading the second messenger. as a result, intracellular camp concentration is not bound to change along a uniform
+gradient from the plasma membrane to the deep cytosol, but
+multiple contiguous domains with different concentrations of
+camp may coexist within the volume of the cell.
+
+published november 6, 2006
+
+figure 2. the camp response to  xxxd124xxx  is
+higher under the plasma membrane than in
+the bulk cytosol. (a) wide-ﬁeld images of a
+representative hek293 cell cotransfected with
+r-cfp (top left) and c-yfp (not depicted) and
+with mpr-cfp (bottom left) and c-yfp (not depicted). for the same cell, the pseudocolor images of the 480/545-nm emission ratio before
+(time = 0 s) and after the addition of 10 mum
+ xxxd124xxx  (time = 200 s) and 100 mum  xxxd2388xxx  (time =
+800 s) are shown on the right. bars, 10 mum.
+(b) kinetics of camp changes recorded in the
+cells shown in a. open circles represent kinetics recorded in the bulk cytosol with pka-gfp,
+and closed circles represent kinetics recorded
+at the plasma membrane with mppka-gfp.
+(c) summary of all the experiments performed
+in the same conditions as in a and b. (d) time
+to reach half-maximal response (t/2) to 10 mum
+ xxxd124xxx . (e) the summary of experiments performed by applying 1 mum  xxxd124xxx . error bars indicate sem. *, 0.01 < p < 0.05; **, 0.005
+< p < 0.01; ***, p < 0.005.
+
+ xxxd124xxx  stimulation generates a higher camp
+response under the plasma membrane
+as compared with the bulk cytosol
+
+to verify whether gpcr stimulation generates different camp
+signals in the subplasma membrane compartment as compared
+with the bulk cytosol, we stimulated hek293 cells transfected
+with either pka-gfp or mppka-gfp with 10 mum  xxxd124xxx  and
+measured camp-induced fret changes in the two compartments. as shown in fig. 2 (a–c), the camp response in the
+subplasma membrane compartment was almost twice as large
+as the response in the bulk cytosol (∆r/r0 = 18.6 ± 2.1 [mean
+± sem; n = 30] vs. 9.6 ± 1.2% [n = 34]; p = 1.4 × 10−4).
+furthermore, the time to reach half-maximal response to  xxxd124xxx 
+was almost twice as fast in the subplasma membrane compartment as compared with the bulk cytosol (t1/2 = 58.9 ± 7.3 [n =
+30] and 110.6 ± 12.5 s [n = 34], respectively; p = 1.7 × 10−3;
+fig. 2 d). we found that in 50% of the analyzed cells,  xxxd124xxx 
+generated a transient response in both the subplasma membrane
+compartment and the bulk cytosol, with the level of camp returning to baseline levels in 5.8 ± 0.84 and 7.6 ± 1.04 min, respectively, after application of the stimulus (fig. 2 b). in the
+other 50% of the cells, the response reached a plateau value
+and remained sustained for at least 10 min (unpublished data).
+application of the nonselective pde inhibitor isobutyl-methylxanthine ( xxxd2388xxx ; 100 mum) in the continuous presence of  xxxd124xxx 
+raised the camp level in both compartments, indicating that
+
+downloaded from jcb.rupress.org on march 17, 2015
+
+into the cytosol upon camp increase and binding to mpr-cfp.
+c-yfp is effectively resequestered to the plasma membrane upon
+camp removal (supplemental material and video 1; available at
+http://www.jcb.org/cgi/content/full/jcb.200605050/dc1).
+
+termination of the camp response to  xxxd124xxx  was caused by pde
+activity. we excluded any overt role for receptor desensitization
+in the termination of the camp response to  xxxd124xxx  based on the
+observation that it is possible to repeatedly stimulate the  xxxd124xxx 
+receptor and obtain comparable rises in intracellular [camp]
+(supplemental material and fig. s1; available at http://www.jcb.
+org/cgi/content/full/jcb.200605050/dc1). the application of
+1 mum  xxxd124xxx  also generated different camp levels in the two
+compartments, with a response in the subplasma membrane compartment of 8.2 ± 1.5% (n = 34) and of 3.3 ± 0.6% (n = 33) in
+the bulk cytosol (p = 9.5 × 10−4; fig. 2 e).
+a unimolecular sensor for camp conﬁrms
+the generation of discrete camp domains
+upon  xxxd124xxx  stimulation
+
+when using the mppka-gfp sensor, the binding of camp to
+mpr-cfp causes subunit dissociation, releasing the c-yfp
+subunits to diffuse away from the mprii-cfp fret partners
+anchored at the plasma membrane. conversely, when camp
+binds to the r-cfp subunits of pka-gfp in the bulk cytosol,
+the dissociating c-yfp subunits remain in close proximity to
+their cytosolic r-cfp fret partners. in our experiments,
+fret changes are measured as cfp intensity/yfp intensity
+(480/545-nm fluorescence emission; see fret imaging section).
+therefore, as a result of the diffusion of c-yfp away from
+the plasma membrane, the fret changes measured upon probe
+dissociation in the subplasma membrane compartment may
+result in artifactually larger values being observed than the
+fret changes measured in the cytosol. to exclude this possibility and confirm that the subplasma membrane compartment
+and the cytosolic compartments show a distinct camp response
+controlled diffusion of
+
+camp
+
+• terrin et al.
+
+443
+
+published november 6, 2006
+
+to  xxxd124xxx , we used a unimolecular fret sensor for camp based
+on epac1 (h30; fig. 3 a). as h30 is a single polypeptide chain,
+cfp and yfp do not diffuse apart upon camp binding. we
+modified h30 by fusing the plasma membrane–targeting mp sequence (mph30; fig. 3 b) to its n terminus, which, as with rii,
+allowed for the effective targeting of this unimolecular sensor to
+the plasma membrane (fig. 3 b). membrane targeting of h30
+did not substantially modify its sensitivity to camp, as shown
+by the apparent dissociation constants measured for h30 and
+mph30 (ec50 = 12.5 and 20 mum, respectively; fig. 3 c). using
+these unimolecular probes, we show in fig. 3 (d and e) that the
+stimulation of hek293 cells expressing h30 or mph30 with
+1 mum  xxxd124xxx  generated a mean ∆r/r0 of 23.5 ± 1.4 (n = 40) and
+31.4 ± 1.2% (n = 36), respectively (p = 10−4). these results
+confirm that  xxxd124xxx  stimulation generates a compartmentalized
+camp response, with a higher level of camp being generated
+in the subplasma membrane compartment as compared with the
+bulk cytosol. interestingly, the steepness of the camp gradient
+between the subplasma membrane and bulk cytosol compartments is smaller (35% higher camp response at the plasma
+membrane vs. the cytosol) as compared with the steepness of
+the gradient recorded with the pka-based sensor (148% higher
+camp response at the plasma membrane vs. the cytosol; compare fig. 2 e with fig. 3 e).
+pka enhances the camp gradient
+between the plasma membrane
+and the cytosol via pde activation
+
+the pka-based and epac1-based sensors both clearly reveal
+a gradient of camp between the plasma membrane and the
+444
+
+jcb • volume 175 • number 3 • 2006
+
+cytosol upon  xxxd124xxx  stimulation. however, such a gradient appears
+steeper when detected by the pka-gfp probe as compared
+with h30. one possible explanation for this is that overexpression of the pka-based sensor, the catalytic subunit of which
+is enzymatically active, may affect the steepness of the camp
+gradient. to test this hypothesis, we measured camp levels in
+hek293 cells transfected with either h30 or mph30 alone or
+in combination with untagged pka. as shown in fig. 4 (a and b),
+in the presence of overexpressed pka, the fret change
+recorded at the plasma membrane was ∆r/r0 = 9.5 ± 1%
+(n = 48), whereas the fret change recorded in the bulk cytosol
+was ∆r/r0 = 5.8 ± 0.5% (n = 60; p = 0.0009), indicating
+that the level of camp is 62% higher at the plasma membrane as compared with the cytosol. thus, pka overexpression increases the steepness of the camp gradient between the
+two compartments around twofold. in further support of this,
+we found that the higher the level of pka overexpression,
+the larger the effect is on the steepness of the camp gradient
+(supplemental material and fig. s2; available at http://www.jcb.
+org/cgi/content/full/jcb.200605050/dc1).
+pka is known to activate  xxxg1695xxx  and pde4 families of
+pdes, thereby stimulating the degradation of camp (smith
+et al., 1996; mackenzie et al., 2002). interestingly, pde4 and
+ xxxg1695xxx  are the major camp pde activities represented in
+hek293 cells, with pde4 accounting for 68% of the total
+pde activity and  xxxg1695xxx  accounting for a remaining 30% (lynch
+et al., 2005). therefore, we asked whether pdes may be the
+effectors of pka in modulating the steepness of the camp
+gradient. we found that the inhibition of pdes with 100 mum of
+the nonselective pde inhibitor  xxxd2388xxx  completely abolished the
+
+downloaded from jcb.rupress.org on march 17, 2015
+
+figure 3. a unimolecular epac-based sensor detects different [camp] at the plasma membrane and in the bulk cytosol. (a) schematic representation of the
+fusion protein constituting the epac-based camp sensors h30 and confocal micrographs showing its distribution in hek293 cells. (b) structure and localization of the membrane-targeted version of mph30. bars, 10 mum. (c) camp dose-response curves measured as the percent fret changes of h30 (white
+circles), mph30 (black circles), and nlsh30 (gray circles). ec50 are 12.5, 20, and 17.5 mum, respectively. (d) representative kinetics of camp changes
+generated in the cytosol (white circles) and at the plasma membrane (black circles) upon stimulation with 1 mum  xxxd124xxx  followed by 100 mum  xxxd2388xxx . (e) summary of the experiments performed as in d. error bars represent sem. **, p = 0.002; ***, p = 10−4.
+
+published november 6, 2006
+
+figure 5. identiﬁcation of the prevalent pde affecting the camp response
+to  xxxd124xxx . summary of the effect of selective  xxxg1695xxx  (10 mum cilostamide) or
+pde4 (10 mum  xxxd3142xxx ) inhibition on the camp response in the cytosolic
+(h30) and subplasma membrane (mph30) compartments upon 1 mum
+ xxxd124xxx  stimulation of hek cells overexpressing untagged pka. error bars
+represent sem. *, p = 0.01; ***, p < 0.00095.
+
+effect of pka overexpression on the camp gradient (cytosol
+∆r/r0 = 26.03 ± 1.73% [n = 64] in the cytosol and 32.46 ±
+1.72% [n = 56] at the plasma membrane; p = 0.009; fig. 4 b),
+reestablishing a difference in the camp level present in the two
+compartments of 25% (compare fig. 4 b with fig. 3 e). these
+results confirm that pdes mediate the effect of pka on the
+camp gradient. in agreement with this finding and in support of
+the key role played by pka in shaping the camp gradient, the
+inhibition of overexpressed pka activity with 10 mum  xxxd477xxx 
+completely abolished the camp gradient (∆r/r0 = 12.7 ±
+2.05% [n =35] in the cytosol and 16.18 + 2.7% [n =22] at the
+plasma membrane; p = ns; fig. 4 b). similarly, the inhibition
+of endogenous pka with  xxxd477xxx  was sufficient to completely dissipate the camp gradient generated upon  xxxd124xxx  stimulation
+(fig. 4 c). interestingly, the camp response to  xxxd124xxx  in the
+presence of  xxxd477xxx  was invariably more sustained in time, with the
+level of camp being reduced by only 25%  xxxd1891xxx  min after application of the stimulus.
+to determine the contribution of different pde families in
+shaping the camp gradient, we selectively inhibited either
+pde4 with 10 mum  xxxd3142xxx  (mackenzie and houslay, 2000) or
+ xxxg1695xxx  with 10 mum cilostamide (manganiello and degerman,
+1999). we found that the sole inhibition of pde4 reproduced
+the effect of total pde inhibition with  xxxd2388xxx  (∆r/r0 = 30.88 ±
+3.9% [n = 14] in the cytosol and 41.8 ± 2% [n = 16] at the
+plasma membrane; p = 0.01; compare fig. 5 with fig. 4 b).
+
+downloaded from jcb.rupress.org on march 17, 2015
+
+figure 4. role of pka in shaping the camp gradient between the plasma
+membrane and the cytosol. (a and b) representative camp kinetic (romoser
+et al., 1996) and summary of experiments (b) performed in hek293 cells
+cotransfected with pka and either h30 or mph30 and challenged with
+1 mum  xxxd124xxx  followed by either total pde inhibition with 100 mum  xxxd2388xxx  or
+pka inhibition with 10 mum  xxxd477xxx  as indicated. (c and d) representative
+kinetics (c) and summary of experiments (d) showing the effect of endogenous pka inhibition on the camp response induced by 10 nm  xxxd124xxx  at
+the plasma membrane and bulk cytosol in the absence and presence of the
+pka inhibitor  xxxd477xxx  (10 mum). in all of the experiments, when the pka inhibitor was used, cells were preincubated for 10 min with  xxxd477xxx , and the inhibitor was present throughout the experiment. error bars represent sem.
+*, p = 0.02; **, p = 0.009; ***, p = 0.0009.
+
+ xxxd3142xxx  showed a similar effect in cells transfected with h30
+or mph30 in the absence of overexpressed pka (unpublished
+data). conversely, selective  xxxg1695xxx  inhibition with 10 mum cilostamide did not substantially raise the camp level generated by
+ xxxd124xxx  stimulation in either compartments both in the presence
+(∆r/r0 = 5.05 ± 0.6% [n = 16] in the cytosol and 10.8 ± 1.7%
+[n = 12] at the plasma membrane; p = 0.00095; fig. 5) and in
+the absence of overexpressed pka (not depicted). these results
+strongly indicate that pde4 is the key regulator of the intracellular camp gradient in hek293 cells.
+tethered pdes determine the direction
+of the camp gradient in hek293 cells
+upon  xxxd124xxx  stimulation
+
+our results are in agreement with studies indicating that pdes
+may be responsible for the generation of intracellular camp
+gradients by acting as an enzymatic barrier that by rapidly degrading camp limits its diffusion from the site of synthesis
+(the plasma membrane) to the deep cytosol (rich et al., 2000;
+rochais et al., 2004; mongillo et al., 2004). according to this
+view, the inhibition of pde activity would abolish the barrier to
+camp diffusion and should result in a fast reequilibration of camp
+concentration within the cell. surprisingly, however, our results
+show that pde inhibition with either  xxxd2388xxx  or  xxxd3142xxx  does
+not dissipate the camp gradient between the plasma membrane
+and the bulk cytosol elicited by  xxxd124xxx  stimulation (figs. 2, b–e;
+3 e, 4, and 5). we reasoned that as both  xxxd2388xxx  and  xxxd3142xxx 
+are competitive pde inhibitors, in the high [camp] subplasma
+membrane compartment, they may be less efficient in inhibiting
+pdes than in the bulk cytosol (lower [camp]), thus sustaining
+the camp gradient between the two compartments.
+to test the effect of noncompetitive inhibition of pde4
+on the intracellular camp gradient, we performed genetic ablation of pdes by an rna silencing approach to reduce enzyme
+concentration. the most represented pde4 subfamilies in
+hek293 cells are  xxxg1698xxx  and  xxxg1700xxx , with  xxxg1698xxx  representing 30% of the total pde4 activity and  xxxg1700xxx  representing
+65% in these cells (lynch et al., 2005). therefore, we focused
+on these two subfamilies. the design of sirna oligonucleotides
+controlled diffusion of
+
+camp
+
+• terrin et al.
+
+445
+
+published november 6, 2006
+
+figure 6. effect of genetic ablation of selected pdes
+on the camp gradient between the plasma membrane
+and bulk cytosol. (a–d) summary of the effect on the
+camp response generated by 1 mum  xxxd124xxx  either in the
+bulk cytosol (open bars) or at the plasma membrane
+(closed bars) in hek293 cells expressing either h30
+or mph30 in control cells (a; romoser et al., 1996) or
+cells transfected with sirna oligonucleotides for the
+selective genetic knockdown of  xxxg1698xxx  (b),  xxxg1700xxx 
+(c), or both (d). for each experimental group, n ≥ 25.
+in each panel, the schematics on the right show the
+observed distribution of the camp gradient (in red)
+and the predicted distribution of endogenous pdes upon
+the selective knockdown of speciﬁc pde4 subfamilies.
+as shown, a lower concentration of camp corresponds
+to a region with higher pde4 activity. error bars represent sem. *, p = 0.04; ***, p = 10−4.
+
+446
+
+jcb • volume 175 • number 3 • 2006
+
+the gradient dictated by the prevalent  xxxg1700xxx  activity localized in
+the cytoplasm. on the contrary, the overexpression of dnpde4d3
+or dnpde4d5 completely abolished the camp gradient (fig.
+7 b), as expected upon displacement of the prevalent  xxxg1700xxx 
+activity from its anchor sites within the cytoplasm. overall,
+these results confirm that the different camp concentrations in
+these two compartments are dependent on compartmentalized
+pde4 isoforms.
+
+figure 7. effect of the selective displacement of pde4 subfamilies on the
+camp gradient. (a and b) response to 1 mum  xxxd124xxx  in hek293 cells expressing the dn variants of pde4b1 or pde4b2 (a; romoser et al., 1996) and
+expressing the dn variants of pde4d3 or pde4d5 (b). for each experimental
+group, n ≥ 17. schematics on the right of each panel show the observed
+camp gradient (in red) and the predicted redistribution of endogenous, active
+pde4 subfamilies upon overexpression of the cognate, inactive dn proteins
+(not depicted). error bars represent sem. *, p = 0.01; **, p = 0.004.
+
+downloaded from jcb.rupress.org on march 17, 2015
+
+as well as the time and means of transfection had been previously optimized by us to achieve 95% selective knockdown
+of each pde subfamily in hek293 cells (lynch et al., 2005).
+we found that the genetic knockdown of  xxxg1698xxx  did not
+affect the camp gradient (∆r/r0 = 13.9 ± 2.2 [n = 27] and
+8.5 ± 1.2% [n = 23] in the subplasma membrane and bulk
+cytosol, respectively; p = 0.04; fig. 6 b). surprisingly, when
+we cotransfected the camp sensor with sirna sequences that
+selectively knock down  xxxg1700xxx , we found that the camp response was higher in the cytosol as compared with the
+subplasma membrane compartment (∆r/r0 = 22.8 ± 2.4 [n =
+25] and 14.6 ± 2.5% [n = 23], respectively; p = 0.04; fig. 6 c).
+the finding that the ablation of  xxxg1700xxx  results in the inversion of the camp gradient suggests that a pde different from
+ xxxg1700xxx  is active in the subplasma membrane compartment and
+maintains the camp concentration low in that domain. in fact,
+when we ablated both  xxxg1698xxx  and  xxxg1700xxx , we found that the
+camp gradient was completely abolished (∆r/r0 = 22.8 ±
+2.2% [n = 20] in the cytosol and 20.3 ± 2.4% [n = 22] in
+the subplasma membrane compartment; fig. 6 d). overall, our
+results suggest that  xxxg1698xxx  mainly regulates the subplasma
+membrane compartment, whereas  xxxg1700xxx  mainly regulates the
+cytosolic pool.
+the ability of individual pde4 subfamilies to control
+camp concentration independently in defined compartments
+implies that they are selectively tethered within such compartments. to test this, we overexpressed catalytically inactive point
+mutants of  xxxg1698xxx  and  xxxg1700xxx  in hek293 cells. such mutants
+have been shown to exert a dominant-negative (dn) effect by
+displacing the cognate endogenous active pde4 isoforms from
+their functionally relevant anchor sites (baillie et al., 2003). as
+shown in fig. 7 a, upon the overexpression of either dnpde4b1
+or dnpde4b2, the camp response to  xxxd124xxx  was higher in the
+subplasma membrane compartment than in the cytosol. this
+finding indicates that the displacement of  xxxg1698xxx  from its anchor
+sites and its consequent distribution inside the cell do not affect
+
+published november 6, 2006
+
+figure 8. subcellular localization of  xxxg1698xxx  and  xxxg1700xxx . confocal images
+of hek293 cells stained with monoclonal antibodies speciﬁc for either
+ xxxg1698xxx  or  xxxg1700xxx . the control is the secondary antibody alone. bars, 10 mum.
+
+downloaded from jcb.rupress.org on march 17, 2015
+
+ xxxg1698xxx  and  xxxg1700xxx  localize in distinct
+compartments in hek293 cells
+
+the aforementioned effect of the genetic manipulation of
+ xxxg1698xxx  and  xxxg1700xxx  implies a distinct localization of the two
+enzyme subfamilies. to confirm this, we performed immunocytochemistry by using monoclonal antibodies specific for either
+subfamilies and found that, as expected,  xxxg1698xxx  shows a prevalent localization at the plasma membrane, whereas  xxxg1700xxx  localizes mainly in the bulk cytosol (fig. 8). such membrane
+sequestration of  xxxg1698xxx  is consistent with a previous study
+showing that in hek293 cells, pde4b2 is unavailable to interact with cytosolic beta-arrestin (lynch et al., 2005).
+pde4s deﬁne local drains for camp
+and generate multiple contiguous,
+intracellular compartments with different
+concentrations of the second messenger
+
+the results presented in figs. 6 and 7 indicate that pde4
+enzymes, rather than acting as a barrier to camp diffusion
+from the site of synthesis to the bulk cytosol, function as a local drain to degrade freely diffusible camp and maintain the
+low concentration of the second messenger in discrete compartments. thus, rather than a continuous gradient from the
+plasma membrane (higher [camp]) to the deep cytosol (lower
+[camp]), we may expect to find contiguous compartments with
+higher or lower [camp] independent of their distance from the
+site of synthesis but depending on the localization and activity
+of pdes. according to this hypothesis, a subcellular compartment deeper inside the cell as compared with the bulk cytosol and in which pde activity is low should show a higher
+[camp] as compared with the bulk cytosol. the nucleus is such
+a compartment.
+to monitor [camp] inside the nucleus, we fused a nuclear
+localization sequence (nls) to the c terminus of the h30 sensor
+(fig. 9 a) that selectively targets the probe to the nucleus (fig.
+9 a). when we challenged hek293 cells transfected with nlsh30
+with 1 mum  xxxd124xxx , we found that the fret change was higher in
+
+figure 9.  xxxd124xxx  stimulation generates a larger camp response in the
+nucleus as compared with the bulk cytosol. (a) schematic representation of
+the sensor h30 targeted to the nucleus (nlsh30) and its distribution in
+hek293 cells. bars, 10 mum. (b) representative kinetics of camp changes
+in response to 1 mum  xxxd124xxx  as detected in the bulk cytosol in cells transfected with h30 (white circles), at the plasma membrane in cells transfected with mph30 (black circles), and in the nucleus in cells transfected
+with nlsh30 (gray circles). (c) summary of the experiments performed in
+the aforementioned conditions. (d) summary of the fret changes recorded
+in the bulk cytosol (white bar) and in the nucleus (gray bar) of hek293
+cells cotransfected with either h30 or nlsh30 and sirna oligonucleotides
+for  xxxg1700xxx  and stimulated with 1 mum  xxxd124xxx . error bars represent sem. **,
+p = 0.03; ***, p = 10−4.
+
+the nucleus as compared with the bulk cytosol (∆r/r0 = 28.5
+± 1.7 [n = 25] and 23.5 ± 1.4% [n = 28], respectively; p =
+0.03) and was similar to the fret change found in the subplasma membrane compartment (fig. 9, b and c). the different
+response recorded in the nucleus was not caused by a higher
+sensitivity of the nlsh30 sensor to camp changes, as indicated
+by similar ec50 (17.5 mum for nlsh30 vs. 12.5 mum for h30; fig.
+3 c). in apparent contrast with our data showing that there is
+a delay in the camp changes in the bulk cytosol as compared
+with the subplasma membrane compartment (fig. 2 d), the kinetics of the nuclear camp changes appear to be as fast as those
+occurring at the plasma membrane (fig. 9 b). this is caused
+by differences in probe kinetics in that the velocity of nlsh30
+fret change upon [camp] rise is significantly faster than
+the velocity of h30 (p = 0.004) and mph30 (p = 0.0001)
+fret changes at the same [camp] (supplemental material).
+the difference in the fret change between the nucleus and the
+bulk cytosol was completely abolished when  xxxg1700xxx  was ablated by sirna duplex cotransfection (∆r/r0 = 17.7 ± 1.5%
+[n = 26] in the nucleus and 22.8 ± 2.5% [n = 28] in the cytosol;
+controlled diffusion of
+
+camp
+
+• terrin et al.
+
+447
+
+published november 6, 2006
+
+p = 0.12; fig. 6 d). these results confirm that multiple
+contiguous, subcellular domains with diverse [camp] may coexist within hek293 cells irrespective of their distance from the
+site of camp synthesis and depending on  xxxg1698xxx  and  xxxg1700xxx 
+activity and localization.
+
+discussion
+
+448
+
+jcb • volume 175 • number 3 • 2006
+
+downloaded from jcb.rupress.org on march 17, 2015
+
+the pleiotropic effects of camp pose the pressing question of
+how signaling specificity is achieved. in the past few years,
+compartmentalization of the camp signal transduction pathway has emerged as an important mechanism to ensure the necessary specificity of response (tasken and aandahl, 2004; wong
+and scott, 2004). a particular focus has been placed on the organization of macromolecular complexes, including receptors,
+effectors, modulators, and targets effectively organized in restricted domains, within which the molecular components of
+the complex only affect each other appropriately. some of these
+domains are localized at the plasma membrane, one example of
+which is the assembly of the beta2 adrenergic receptor, heterotrimeric g proteins, ac, and pka and its target, the l-type ca2+
+channel  xxxg304xxx  (davare et al., 2001). within the complex, activation of the receptor leads to the synthesis of camp and activation of pka, which, in turn, can regulate the activity of the
+channel in a highly localized manner. akap/pka signaling domains have also been found to be located deep in the cytosol
+and away from the site of camp synthesis, as is the case, for
+example, for the centrosome-associated akaps (witczak et al.,
+1999) or the nuclear membrane-associated muscle akap
+(dodge et al., 2001). specific activation of the pka pools,
+which are spatially segregated deep inside the cell, requires that
+camp is made available selectively in such compartments. how
+the highly hydrophilic, freely diffusible camp molecule can
+selectively activate deep intracellular targets without affecting
+pka enzymes located closer to the site of camp synthesis
+remains to be defined.
+one example of the limited diffusion of camp is the generation of a subplasma membrane pool of the second messenger
+in response to  xxxd124xxx  stimulation of hek293 cells. to explain
+such compartmentalization, the hypothesis was formulated of a
+physical barrier that is possibly formed by elements of the endoplasmic reticulum and localizes underneath the plasma membrane, thereby limiting camp diffusion from the site of synthesis
+to the deep cytosol (rich et al., 2000). however, an important
+contribution to camp compartmentalization appears to derive
+from the activity of pdes, as pointed out by a large body of indirect evidence based on altered cell functioning after selective
+pde inhibition (rich et al., 2001; zaccolo and pozzan, 2002;
+jurevicius et al., 2003; abrahamsen et al., 2004; mongillo et al.,
+2004, 2006). pdes can be targeted to subcellular compartments,
+including the plasma membrane, and can be recruited into multiprotein signaling complexes (perry et al., 2002), thereby providing a means to terminate the camp signal in a spatially
+restricted manner (baillie et al., 2005). such features suggested
+a role for pdes as an enzymatic barrier to camp diffusion
+(for review see brunton, 2003; barnes et al., 2005; willoughby
+et al., 2006).
+
+the model of a barrier to camp diffusion implies the generation of a gradient of camp with a higher concentration of the
+second messenger at the plasma membrane and a progressively
+lower concentration toward the deep cytosol. however, the direction of such a gradient is incompatible with the selective activation of a subset of pka anchored deep inside the cytosol
+without concomitant activation of those pka enzymes that are
+localized at the plasma membrane and closer to the site of
+camp synthesis.
+in this study, we set out to study the camp response to
+gpcr stimulation of the transmembrane ac with  xxxd124xxx  in
+hek293 cells with the aim of defining the role of pdes in the
+generation of a subplasma membrane pool of high camp. we
+applied an imaging approach for real-time monitoring of camp
+dynamics in single living cells and used fret-based biosensors
+selectively targeted to different subcellular domains. we found
+that the camp response in the subplasma membrane compartment is higher as compared with the bulk cytosol because of a
+compartmentalized  xxxg1700xxx  located in the cytosol that keeps the
+level of the second messenger low in this compartment. indeed,
+genetic ablation of  xxxg1700xxx  inverted the direction of the camp
+gradient, resulting in a higher concentration of the second messenger in the cytosol as compared with the subplasma membrane compartment. on the contrary, genetic ablation of  xxxg1698xxx 
+did not affect the direction of the gradient. the camp gradient
+was completely abolished only when the expression of both
+ xxxg1698xxx  and  xxxg1700xxx  was blocked. these results demonstrate
+that the concerted activity of  xxxg1698xxx  and  xxxg1700xxx  is sufficient to
+generate an intracellular camp gradient in response to  xxxd124xxx  in
+hek293 cells. we also found that dislocation of  xxxg1700xxx  from
+its anchoring sites by means of the overexpression of catalytically inactive enzymes dissipated the camp gradient, indicating that the compartmentalization of  xxxg1700xxx  is responsible for
+shaping such a gradient.
+intriguingly, we found that the inhibition of endogenous
+pka with  xxxd477xxx  completely abolished the camp gradient between the plasma membrane and bulk cytosol. on the contrary,
+the overexpression of pka via pde activation increased the
+steepness of the subplasma membrane camp gradient generated by  xxxd124xxx . these results indicate that pka not only has a
+role in shaping the intracellular camp gradient upon receptor
+stimulation but also that pka itself can reinforce the boundaries between the intracellular camp compartments and can selfregulate the specificity of its own activity.
+in this study, we show for the first time that a compartment deep inside the cell may accumulate higher levels of
+camp as compared with the bulk cytosol. these findings demonstrate that multiple and contiguous domains with different
+concentrations of camp can be generated simultaneously inside the cell irrespective of their distance from the site of synthesis of the second messenger. to explain such findings, we
+must assume that pdes, rather than acting as enzymatic barriers
+to camp diffusion from the plasma membrane to the bulk cytosol, are organized to generate local drains that dump camp in
+defined compartments. such a mechanism of control of camp
+diffusion may be more general and may also apply to the production of nonuniform intracellular camp domains in response
+
+published november 6, 2006
+
+to soluble ac activation. therefore, we propose a new model
+whereby camp is free to diffuse from the site of synthesis and
+to accumulate in the cell to levels effective for pka activation
+except in those domains in which localized pdes degrade it to
+protect sensitive targets from inappropriate activation.
+
+materials and methods
+reagents
+dme, opti-mem, fbs, l-glutamine, penicillin, trypsin/edta, pbs, and lipofectamine 2000 were purchased from invitrogen.  xxxd124xxx  and  xxxd2388xxx  were
+obtained from sigma-aldrich. restriction enzymes, t4 ligase, and shrimp
+ap were purchased from new england biolabs, inc. fugene-6 transfection reagent was obtained from roche.
+
+activation constants and apparent dissociation constants determination
+to determine apparent activation constants for pka-gfp and mppka-gfp,
+the prsetb vectors carrying the riibeta, mpriibeta, or calpha subunits were introduced into bl21(de3) (stratagene) for heterologous protein expression in
+bacteria. individual subunits were subsequently puriﬁed with ni– xxxd2739xxx  resin according to the manufacturer’s instructions (qiagen).
+puriﬁed proteins were buffer changed by gel ﬁltration to 20 mm mops,
+150 mm nacl, 5 mm mgcl2, 100 mum atp, and 1 mm  xxxd26xxx ,
+ph 7.0 (dialysis buffer), to remove imidazole. for pka holoenzyme formation, pka-r (pka-gfp and mppka-gfp) and pka calpha subunits (slice et al.,
+1989; herberg et al., 1993) were mixed in a molar ratio of 1.5:1.0,
+and dialysis was performed overnight with three buffer changes against
+dialysis buffer (herberg et al., 1993). for the determination of activation
+constants, a coupled spectrophotometric assay (cook et al., 1982) was performed using the peptide kemptide (lrraslg; biosynthan) as the substrate.
+phosphotransferase activity was measured in an assay mixture consisting
+of 100 mm mops, ph 7.0, 10 mm mgcl2, 1 mm phosphoenol pyruvate,
+1 mm atp, 200 mum nadh, 1 mm dtt, 15 u/ml lactate dehydrogenase
+(roche), and 70 u/ml pyruvate kinase (roche). for the reaction, 100 mul
+of assay mixture, 20 nm pka holoenzyme, and 1 mul kemptide peptide
+(200 mum) were mixed in a quartz cuvette. the enzymatic activity (∆e340nm ×
+min−1) was monitored at room temperature using a spectrophotometer
+(lambda bio uv/vis; perkinelmer). ec50 values for activation were determined by preincubating the pka holoenzyme with increasing concentrations of camp for 1 min in assay mixture before starting the reaction with
+kemptide peptide. data points were determined in duplicates, and experiments were repeated at least twice with similar results. statistical analyses
+were performed using prism 4.0 software (graphpad software).
+to determine in vivo apparent dissociation constants for h30,
+mph30, and nlsh30, hela cells expressing the camp sensor were injected
+with known concentrations of camp via a patch pipette, and fret changes
+were recorded as described in the fret imaging section. cells were continuously superfused at 2 ml/min in a standard extracellular solution, ecs-1,
+which contained 150 mm nacl, 5 mm kcl, 1 mm mgcl2, 10 mm hepes,
+2 mm cacl2, 2 mm pyruvate, and 5 mm glucose, ph 7.4. patch pipettes
+were ﬁlled with an intracellular solution, ics-1, containing 120 mm kaspartate, 10 mm tea-cl, 1 mm mgcl2, 10 mm hepes, 10 mm cscl,
+0.3 mm gtp-na, 3 mm atp-k (adjusted to ph 7.2 with koh), 5 mm
+bapta, 1 mm thapsigargin, 0.1 mm  xxxd2388xxx , and 0.007–0.18 mm camp
+as indicated and ﬁltered through 0.22-mum pores (millipore). only cells
+
+cell culture and transfection
+hek293 cells were grown in dme containing 10% fbs supplemented with
+2 mm l-glutamine, 100 u/ml penicillin, and 100 mug/ml streptomycin in a
+humidiﬁed atmosphere containing 5% co2. for transient expression, cells
+were seeded onto 24-mm diameter round glass coverslips, and transfections were performed at 50–70% conﬂuence with fugene-6 transfection
+reagent according to the manufacturer’s instructions using 1–2 mug dna
+per coverslip. imaging experiments were performed after 24–48 h.
+to achieve the selective knockdown of  xxxg1698xxx  or  xxxg1700xxx  subfamilies, we used double-stranded 21-mer rna duplexes (dharmacon) targeted at regions of sequence that are unique to each of these subfamilies
+as described previously (lynch et al., 2005). each sirna duplex was delivered into target cells via the reagent lipofectamine 2000 (invitrogen).
+speciﬁcally, 5 mul lipofectamine 2000 (1 mg/ml) was diluted in 100 mul
+opti-mem, and, separately, 125 pmol of each sirna sample and 1 mug
+camp sensor dna were diluted in 100 mul opti-mem. 200 mul sirna–dna
+transfection complexes were added to each well, and the plates were
+incubated for 3–4 h at 37°c (5% co2). these complexes were then
+removed and replaced with dme. imaging experiments were performed
+after 48 h.
+
+downloaded from jcb.rupress.org on march 17, 2015
+
+construct generation
+the membrane-targeted version of the r-cfp subunit of the pka-based
+camp sensor (lissandron et al., 2005) was generated by inserting the nterminal targeting signal mgcikskrkdnlndd (mp) from lyn kinase at the
+n terminus of r-cfp. this becomes posttranslationally myristoylated and
+palmitoylated, resulting in its targeting to membrane rafts. the camp
+epac1-based sensor, called h30, was provided by k. jalink (the netherlands cancer institute, amsterdam, netherlands) and corresponds to the
+cfp-epac(deltadep-cd)-yfp sensor (ponsioen et al., 2004). the membranetargeted version of h30 was generated by fusion at the n terminus of the
+mgcikskrkdnlndd plasma membrane–targeting sequence. the nucleartargeted version of h30 was generated by fusion of the nuclear localization
+signal pkkkrkveda (nls) at the c terminus (dipilato et al., 2004).
+untagged pka was generated by cloning both the riibeta subunit of
+pka and the calpha subunit of pka into pcdna3.1 (invitrogen). constructs for
+the expression of pka subunits in escherichia coli were generated by cloning riibeta, mpriibeta, and calpha into prsetb (invitrogen).
+
+that displayed a seal resistance of >2 gomega before achieving the whole cell
+conﬁguration were retained. cells admitted to the analysis after achieving
+the whole cell conﬁguration were further characterized by an access resistance of <12 momega and an apparent membrane resistance of >300momega.
+at least six cells were analyzed for each concentration of camp.
+
+fret imaging
+fret imaging experiments were performed 24–48 h after transfection.
+cells were maintained in hepes-buffered ringer-modiﬁed saline containing
+125 mm nacl, 5 mm kcl, 1 mm na3po4, 1 mm mgs04, 5.5 mm glucose, 1 mm cacl2, and 20 mm hepes, ph 7.5, at room temperature (20–
+22°c) and imaged on an inverted microscope (ix50; olympus) with a
+60× na 1.4 oil immersion objective (olympus). the microscope was
+equipped with a ccd camera (sensicam qe; pco), a software-controlled
+monochromator (polychrome iv; till photonics), and a beam-splitter optical
+device (multispec microimager; optical insights). images were acquired
+using custom-made software and processed using imagej (national institutes of health). fret changes were measured as changes in the background-subtracted 480/545-nm ﬂuorescence emission intensities on
+excitation at 430 nm and expressed as either r/r0, where r is the ratio at
+time t and r0 is the ratio at time = 0 s, or ∆r/r0, where ∆r = r – r0.
+confocal imaging
+cells were stained with anti- xxxg1698xxx  and - xxxg1700xxx  monoclonal antibodies
+(fabgennix). alexafluor488-conjugated anti–mouse antibody was used
+as the secondary antibody. confocal images were acquired with an inverted microscope (eclipse te300; nikon) equipped with a spinning disk
+confocal system (ultraview lci; perkinelmer) and a 12-bit ccd camera
+(hamamatsu; orca er). cells were excited using the 488-nm line of a
+krypton-argon laser (643-ryb-a02; melles griot) for imaging yfp and the
+alexafluor488 ﬂuorophore and using the 405-nm diode laser (iflex2000;
+point source) for imaging cfp.
+online supplemental material
+fig. s1 shows an evaluation of  xxxd124xxx  receptor desensitization. fig. s2
+shows an evaluation of the dose-response relationship between pka
+overexpression and the steepness of the camp gradient. video 1 shows
+the dynamics interactions between mprii-cfp and c-yfp upon camp
+binding and release. supplemental material also provides information
+about determination of the velocity of fret change for the camp sensors.
+online supplemental material is available at http://www.jcb.org/cgi/
+content/full/jcb.200605050/dc1.
+we thank prof. f. mammano for technical advice.
+this work was supported by telethon italy (grants tcp00089 and
+ggp05113), the italian cystic fibrosis research foundation, the fondazione
+compagnia di san paolo, the human frontier science program organization
+(grant rgp0001/2005-c to m. zaccolo), the medical research council of
+the united kingdom (grant g8604010 to m.d. houslay), the european union
+(grant qlk3-ct-2002-02149 to m. zaccolo, f.w. herberg, and m.d. houslay), and the bmbf (grant 01 gr0441 [ngfn] to f.w. herberg).
+
+submitted: 8 may 2006
+accepted: 6 october 2006
+
+controlled diffusion of
+
+camp
+
+• terrin et al.
+
+449
+
+published november 6, 2006
+
+references
+
+450
+
+jcb • volume 175 • number 3 • 2006
+
+downloaded from jcb.rupress.org on march 17, 2015
+
+abrahamsen, h., g. baillie, j. ngai, t. vang, k. nika, a. ruppelt, t. mustelin,
+m. zaccolo, m. houslay, and k. tasken. 2004. tcr- and cd28-mediated
+recruitment of  xxxg1697xxx  to lipid rafts potentiates tcr signaling.
+j. immunol. 173:4847–4858.
+bacskai, b.j., b. hochner, m. mahaut-smith, s.r. adams, b.k. kaang, e.r.
+kandel, and r.y. tsien. 1993. spatially resolved dynamics of camp
+and  xxxg1836xxx  subunits in aplysia sensory neurons. science.
+260:222–226.
+baillie, g.s., a. sood, i. mcphee, i. gall, s.j. perry, r.j. lefkowitz, and
+m.d. houslay. 2003. beta-arrestin-mediated pde4 camp phosphodiesterase recruitment regulates beta-adrenoceptor switching from gs to gi.
+proc. natl. acad. sci. usa. 100:940–945.
+baillie, g.s., j.d. scott, and m.d. houslay. 2005. compartmentalisation of
+phosphodiesterases and  xxxg1836xxx : opposites attract. febs lett.
+579:3264–3270.
+barnes, a.p., g. livera, p. huang, c. sun, w.k. o’neal, m. conti, m.j. stutts,
+and s.l. milgram. 2005.  xxxg1700xxx  forms a camp diffusion
+barrier at the apical membrane of the airway epithelium. j. biol. chem.
+280:7997–8003.
+beavo, j.a., and l.l. brunton. 2002. cyclic nucleotide research–still expanding
+after half a century. nat. rev. mol. cell biol. 3:710–718.
+biel, m., x. zong, a. ludwig, a. sautter, and f. hofmann. 1999. structure and
+function of cyclic nucleotide-gated channels. rev. physiol. biochem.
+pharmacol. 135:151–171.
+bos, j.l. 2003. epac: a new camp target and new avenues in camp research.
+nat. rev. mol. cell biol. 4:733–738.
+brunton, l.l. 2003. pde4: arrested at the border. sci. stke. doi:10.1126/
+stke.2003.204.pe44.
+buxton, i.l., and l.l. brunton. 1983. compartments of  xxxd1773xxx  and protein
+kinase in mammalian cardiomyocytes. j. biol. chem. 258:10233–10239.
+cook, p.f., m.e. neville jr., k.e. vrana, f.t. hartl, and r. roskoski jr. 1982.
+adenosine cyclic 3′,5′-monophosphate dependent protein kinase: kinetic
+mechanism for the bovine skeletal muscle catalytic subunit. biochemistry.
+21:5794–5799.
+cooper, d.m. 2003. regulation and organization of adenylyl cyclases and camp.
+biochem. j. 375:517–529.
+cooper, d.m. 2005. compartmentalization of adenylate cyclase and camp
+signalling. biochem. soc. trans. 33:1319–1322.
+davare, m.a., v. avdonin, d.d. hall, e.m. peden, a. burette, r.j. weinberg,
+m.c. horne, t. hoshi, and j.w. hell. 2001. a beta2 adrenergic receptor
+signaling complex assembled with the ca2+ channel  xxxg304xxx . science.
+293:98–101.
+dipilato, l.m., x. cheng, and j. zhang. 2004. fluorescent indicators of camp
+and epac activation reveal differential dynamics of camp signalling
+within discrete subcellular compartments. proc. natl. acad. sci. usa.
+101:16513–16518.
+dodge, k.l., s. khouangsathiene, m.s. kapiloff, r. mouton, e.v. hill, m.d.
+houslay, l.k. langeberg, and j.d. scott. 2001. makap assembles a
+ xxxg1836xxx /pde4 phosphodiesterase camp signaling module.
+embo j. 20:1921–1930.
+dodge-kafka, k.l., j. soughayer, g.c. pare, j.j. carlisle michel, l.k.
+langeberg, m.s. kapiloff, and j.d. scott. 2005. the  xxxg1836xxx 
+anchoring protein makap coordinates two integrated camp effector
+pathways. nature. 437:574–578.
+francis, s.h., i.v. turko, and j.d. corbin. 2001. cyclic nucleotide phosphodiesterases: relating structure and function. prog. nucleic acid res. mol.
+biol. 65:1–52.
+herberg, f.w., s.m. bell, and s.s. taylor. 1993. expression of the catalytic subunit of camp-dependent protein kinase in escherichia coli: multiple isozymes reflect different phosphorylation states. protein eng. 6:771–777.
+houslay, m.d., and g. milligan. 1997. tailoring camp-signalling responses
+through isoform multiplicity. trends biochem. sci. 22:217–224.
+houslay, m.d., and d.r. adams. 2003. pde4 camp phosphodiesterases: modular enzymes that orchestrate signalling cross-talk, desensitization and
+compartmentalization. biochem. j. 370:1–18.
+jurevicius, j., and r. fischmeister. 1996. camp compartmentation is responsible
+for a local activation of cardiac ca2+ channels by beta-adrenergic
+agonists. proc. natl. acad. sci. usa. 93:295–299.
+jurevicius, j., v.a. skeberdis, and r. fischmeister. 2003. role of  xxxg1696xxx  isoforms in camp compartmentation following
+beta2-adrenergic stimulation of ica,l in frog ventricular myocytes.
+j. physiol. 551:239–252.
+lissandron, v., a. terrin, m. collini, l. d’alfonso, g. chirico, s. pantano, and
+m. zaccolo. 2005. improvement of a fret-based indicator for camp
+
+by linker design and stabilization of donor-acceptor interaction. j. mol.
+biol. 354:546–555.
+lugnier, c. 2006.  xxxg1696xxx  (pde) superfamily: a
+new target for the development of specific therapeutic agents. pharmacol.
+ther. 109:366–398.
+lynch, m.j., g.s. baillie, a. mohamed, x. li, c. maisonneuve, e. klussmann, g.
+van heeke, and m.d. houslay. 2005. rna silencing identifies pde4d5
+as the functionally relevant camp phosphodiesterase interacting with
+beta arrestin to control the  xxxg1836xxx /akap79-mediated switching of the beta2-adrenergic receptor to activation of erk in hek293b2
+cells. j. biol. chem. 280:33178–33189.
+mackenzie, s.j., and m.d. houslay. 2000. action of  xxxd3142xxx  on specific
+pde4 camp phosphodiesterase isoforms and on the phosphorylation
+of camp-response-element-binding protein (creb) and p38 mitogenactivated protein (map) kinase in u937 monocytic cells. biochem. j.
+347:571–578.
+mackenzie, s.j., g.s. baillie, i. mcphee, c. mackenzie, r. seamons, t.
+mcsorley, j. millen, m.b. beard, g. van heeke, and m.d. houslay. 2002.
+long pde4 camp specific phosphodiesterases are activated by protein
+kinase a-mediated phosphorylation of a single serine residue in upstream
+conserved region 1 (ucr1). br. j. pharmacol. 136:421–433.
+manganiello, v.c., and e. degerman. 1999. cyclic nucleotide phosphodiesterases (pdes): diverse regulators of cyclic nucleotide signals and inviting molecular targets for novel therapeutic agents. thromb. haemost.
+82:407–411.
+mongillo, m., t. mcsorley, s. evellin, a. sood, v. lissandron, a. terrin, e.
+huston, a. hannawacker, m.j. lohse, t. pozzan, et al. 2004. fluorescence
+resonance energy transfer-based analysis of camp dynamics in live neonatal rat cardiac myocytes reveals distinct functions of compartmentalized phosphodiesterases. circ. res. 95:67–75.
+mongillo, m., c.g. tocchetti, a. terrin, v. lissandron, y.f. cheung, w.r.
+dostmann, t. pozzan, d.a. kass, n. paolocci, m.d. houslay, and m.
+zaccolo. 2006. compartmentalized phosphodiesterase-2 activity blunts
+beta-adrenergic cardiac inotropy via an no/cgmp-dependent pathway.
+circ. res. 98:226–234.
+nikolaev, v.o., m. bunemann, l. hein, a. hannawacker, and m.j. lohse.
+2004. novel single chain camp sensors for receptor-induced signal
+propagation. j. biol. chem. 279:37215–37218.
+perry, s.j., g.s. baillie, t.a. kohout, i. mcphee, m.m. magiera, k.l. ang, w.e.
+miller, a.j. mclean, m. conti, m.d. houslay, and r.j. lefkowitz. 2002.
+targeting of  xxxd1773xxx  degradation to beta 2-adrenergic receptors by
+beta-arrestins. science. 298:834–836.
+ponsioen, b., j. zhao, j. riedl, f. zwartkruis, g. van der krogt, m. zaccolo,
+w.h. moolenaar, j.l. bos, and k. jalink. 2004. detecting camp-induced
+epac activation by fluorescence resonance energy transfer: epac as a
+novel camp indicator. embo rep. 5:1176–1180.
+resh, m.d. 1999. fatty acylation of proteins: new insights into membrane targeting of myristoylated and palmitoylated proteins. biochim. biophys. acta.
+1451:1–16.
+rich, t.c., k.a. fagan, h. nakata, j. schaack, d.m. cooper, and j.w. karpen.
+2000. cyclic nucleotide-gated channels colocalize with adenylyl
+cyclase in regions of restricted camp diffusion. j. gen. physiol.
+116:147–161.
+rich, t.c., k.a. fagan, t.e. tse, j. schaack, d.m. cooper, and j.w. karpen.
+2001. a uniform extracellular stimulus triggers distinct camp signals
+in different compartments of a simple cell. proc. natl. acad. sci. usa.
+98:13049–13054.
+rochais, f., g. vandecasteele, f. lefebvre, c. lugnier, h. lum, j.l. mazet,
+d.m. cooper, and r. fischmeister. 2004. negative feedback exerted by
+camp-dependent protein kinase and camp phosphodiesterase on subsarcolemmal camp signals in intact cardiac myocytes: an in vivo study
+using adenovirus-mediated expression of cng channels. j. biol. chem.
+279:52095–52105.
+romoser, v., r. ball, and a.v. smrcka. 1996. phospholipase c beta2 association
+with phospholipid interfaces assessed by fluorescence resonance energy
+transfer. g protein betagamma subunit-mediated translocation is not required for enzyme activation. j. biol. chem. 271:25071–25078.
+slice, l.w., and s.s. taylor. 1989. expression of the catalytic subunit of
+camp-dependent protein kinase in escherichia coli. j. biol. chem.
+264:20940–20946.
+smith, k.j., g. scotland, j. beattie, i.p. trayer, and m.d. houslay. 1996.
+determination of the structure of the n-terminal splice region of the  xxxd1773xxx -specific phosphodiesterase rd1 (rnpde4a1) by 1h nmr
+and identification of the membrane association domain using chimeric
+constructs. j. biol. chem. 271:16703–16711.
+soderling, s.h., and j.a. beavo. 2000. regulation of camp and cgmp signaling: new phosphodiesterases and new functions. curr. opin. cell biol.
+12:174–179.
+
+published november 6, 2006
+
+tasken, k., and e.m. aandahl. 2004. localized effects of camp mediated by
+distinct routes of  xxxg1836xxx . physiol. rev. 84:137–167.
+willoughby, d., w. wong, j. schaack, j.d. scott, and d.m. cooper. 2006. an
+anchored pka and pde4 complex regulates subplasmalemmal camp
+dynamics. embo j. 25:2051–2061.
+witczak, o., b.s. skalhegg, g. keryer, m. bornens, k. tasken, t. jahnsen,
+and s. orstavik. 1999. cloning and characterization of a cdna encoding
+an a-kinase anchoring protein located in the centrosome, akap450.
+embo j. 18:1858–1868.
+wong, w., and j.d. scott. 2004. akap signalling complexes: focal points in
+space and time. nat. rev. mol. cell biol. 5:959–970.
+zaccolo, m., and t. pozzan. 2002. discrete microdomains with high concentration of camp in stimulated rat neonatal cardiac myocytes. science.
+295:1711–1715.
+zaccolo, m., f. de giorgi, c.y. cho, l. feng, t. knapp, p.a. negulescu, s.s.
+taylor, r.y. tsien, and t. pozzan. 2000. a genetically encoded, fluorescent indicator for  xxxd1773xxx  in living cells. nat. cell biol. 2:25–29.
+zaccolo, m., p. magalhaes, and t. pozzan. 2002. compartmentalisation of camp
+and ca(2+) signals. curr. opin. cell biol. 14:160–166.
+zippin, j.h., y. chen, p. nahirney, m. kamenetsky, m.s. wuttke, d.a. fischman,
+l.r. levin, and j. buck. 2003. compartmentalization of bicarbonatesensitive adenylyl cyclase in distinct signaling microdomains. faseb j.
+17:82–84.
+
+downloaded from jcb.rupress.org on march 17, 2015
+
+controlled diffusion of
+
+camp
+
+• terrin et al.
+
+451
+

@@ -1,0 +1,809 @@
+biochemistry 2002, 41, 5193-5201
+
+5193
+
+metabolic engineering of a  xxxg1485xxx -epimerase pathway for
+complex polyketide biosynthesis in escherichia coli†,‡
+linda c. dayem,§ john r. carney,§ daniel v. santi,§ blaine a. pfeifer,| chaitan khosla,| and james t. kealey*,§
+kosan biosciences, inc., 3832 bay center place, hayward, california 94545, and departments of chemical engineering,
+chemistry, and biochemistry, stanford university, stanford, california 94305
+received august 2, 2001; revised manuscript received january 8, 2002
+
+abstract: a barrier to heterologous production of complex polyketides in escherichia coli is the lack of
+(2s)-methylmalonyl-coa, a common extender substrate for the biosynthesis of complex polyketides by
+modular polyketide synthases. one biosynthetic route to (2s)-methylmalonyl-coa involves the sequential
+actions of two enzymes,  xxxg1485xxx  and methylmalonyl-coa epimerase, which convert
+succinyl-coa to (2r)- and then to (2s)-methylmalonyl-coa. as reported [mckie, n., et al. (1990) biochem.
+j. 269, 293-298; haller, t., et al. (2000) biochemistry 39, 4622-4629], when genes encoding coenzyme
+b12-dependent methylmalonyl-coa mutases were expressed in e. coli, the inactive apo-enzyme was
+produced. however, when cells harboring the mutase genes from propionibacterium shermanii or e. coli
+were treated with the b12 precursor  xxxd2300xxx , active holo-enzyme was isolated, and (2r)methylmalonyl-coa represented ∼10% of the intracellular coa pool. when the e. coli  xxxg243xxx  cell line
+[pfeifer, b. a., et al. (2001) science 291, 1790-1792] harboring plasmids that expressed p. shermanii
+ xxxg1485xxx , streptomyces coelicolor methylmalonyl-coa epimerase, and the polyketide
+synthase debs (6-deoxyerythronolide b synthase) was fed propionate and  xxxd2300xxx , the
+polyketide 6-deoxyerythronolide b (6-deb) was produced. isotopic labeling studies using [13c]propionate
+showed that the starter unit for polyketide synthesis was derived exclusively from exogenous propionate,
+while the extender units stemmed from methylmalonyl-coa via the mutase-epimerase pathway. thus,
+the introduction of an engineered mutase-epimerase pathway in e. coli enabled the uncoupling of carbon
+sources used to produce starter and extender units of polyketides.
+
+polyketides are complex natural products that are particularly abundant in soil microorganisms (1). although fewer
+than 10 000 polyketides have been identified to date, they
+include a large number of major pharmaceuticals that span
+a broad range of therapeutic areas, including cancer (adriamycin), infectious disease (tetracyclines, erythromycin),
+cardiovascular (mevacor, lovastatin), and immunosuppression
+(rapamycin, tacrolimus).
+complex polyketides are produced by modular polyketide
+synthases (pkss)1slarge, multifunctional enzymes that are
+organized into multiple catalytic “modules”, each containing
+† this research was supported in part by nih grant r01-ca66736
+to c.k.
+‡ the p. shermanii methylmalonyl-coa epimerase dna sequence
+has been deposited into the genbank database under accession number
+ay046899.
+* address correspondence to this author. telephone: 510-732-8400,
+x224. fax: 510-732-8401. email: kealey@kosan.com.
+§ kosan biosciences, inc.
+| stanford university.
+1
+abbreviations: coa,  xxxd1739xxx ; pcr, polymerase chain reaction; hplc, high-performance liquid chromatography; debs, 6-deoxyerythronolide b synthase; iptg, beta-isopropyl-thiogalactoside; edta,
+ethylenediaminetetraacetic acid; tca, trichloroacetic acid; lb, luriabertani medium; dtt, dithiothreitol; nadh, nicotinamide adenine
+dinucleotide; tlc, thin-layer chromatography; sds-page, sodium
+ xxxd3215xxx -polyacrylamide gel electrophoresis; tkl, (2r,3s,4s,5r)2,4-dimethyl-3,5-dihydroxy- xxxd2269xxx  ∂-lactone (triketide lactone); 6-deb, 6-deoxyerythronolide b; elsd, evaporative lightscattering detector; esi-tof, electrospray ionization time-of-flight.
+
+a set of 3-6 functional domains that determine the identity
+of a 2-carbon unit of the polyketide. as illustrated in figure
+1 for the prototypical deoxyerythronolide b synthase (debs)
+(2), modules are linearly arranged, beginning with a starter
+module, followed by a number of extender modules, and
+terminating with a releasing domain. each of the modules
+recognizes the acyl group of a specific acyl-coa, catalyzes
+its condensation with an acyl-group tethered to the preceding
+module to form a nascent polyketide chain, and modifies
+the beta-carbon atom of the growing chain. this extension/
+modification process occurs in an assembly line fashion
+through the entire sequence of modules, resulting in a oneto-one correlation between the constituent enzymatic activities of a pks module and the corresponding 2-carbon ketide
+unit of a polyketide.
+owing to the modular nature of polyketide synthesis,
+genetic engineering can be used to create specific structural
+modifications of polyketides in a predictable fashion and to
+produce new libraries of these natural products. in theory,
+by modifying the genes that encode pks modules, a specific
+2-carbon unit of a polyketide may be changed to one of about
+20 others, reflecting the combinations of chain extender units
+(malonate, methylmalonate, or rarer units), the fate of the
+incoming beta-keto group at each step of chain extension (keto,
+hydroxyl, enoyl, or methylene), and the stereochemistry of
+methyl and hydroxyl branches. in practice, such modifications are complicated by several factors, including the facts
+
+10.1021/bi015593k ccc: $22.00 © 2002 american chemical society
+published on web 03/29/2002
+
+5194 biochemistry, vol. 41, no. 16, 2002
+
+dayem et al.
+
+figure 1: biosynthesis of the complex polyketide 6-deb and its truncated analogue tkl by the polyketide synthases debs and debs1+te,
+respectively.
+
+that most natural polyketide producers grow slowly, are
+poorly transformed by dna, and are often intractable toward
+genetic manipulations. to exploit the molecular biological
+tools available in genetically “friendly” organisms, we are
+developing escherichia coli as a general host for polyketide
+manipulation and production.
+heterologous production of polyketides in e. coli is
+problematic because of the lack of needed acyl-coa precursors. for example, the erythromycin pks debs requires
+propionyl-coa as a starter unit and (2s)-methylmalonyl-coa
+as an extender unit, neither of which is found in e. coli (3).
+recently, however, e. coli was engineered to produce these
+metabolic intermediates (4). propionyl-coa was produced
+by propionate feeding of cells disrupted in propionyl-coa
+catabolism and overexpressing propionyl-coa ligase, the
+product of the prpe gene (5). in addition to providing the
+starter unit, propionyl-coa served as a source of the extender
+unit, (2s)-methylmalonyl-coa, via the coexpressed propionyl-coa carboxylase (pcc). the metabolically engineered
+host supported the synthesis of a full-length polyketide (6deb), or alternatively a truncated triketide lactone (tkl)
+when only the starter and the first two extender modules of
+the pks (debs1 + te) were expressed (figure 1).
+in the present work, we describe the introduction into e.
+coli of the coenzyme b12-dependent methylmalonyl-coa
+mutase-epimerase pathway (6-8) (figure 2), an important
+pathway for production of methylmalonyl-coa in the
+polyketide-producing actinomycetes (9, 10). in contrast to
+the pcc pathway, in which both the starter and extender
+units stem from propionyl-coa, the mutase pathway produces the (2s)-methylmalonyl-coa extender unit from the
+tca cycle intermediate, succinyl-coa. thus, the polyketide
+extender unit is provided independently of the starter unit,
+making separate optimization feasible.
+materials and methods
+propionibacterium freudenreichii subsp. shermanii was
+obtained from ncimb, scotland (ncimb #9885) and
+
+figure 2: biosynthetic routes to (2s)-methylmalonyl-coa and
+production of 6-deb. for the pcc pathway (middle), all atoms in
+6-deb are derived from propionate. for the mutase pathway (right),
+atoms shown in gray come from propionate while those shown in
+black arise from succinyl-coa.
+
+maintained as a stab in tomato juice agar (11). escherichia
+coli bl21(de3), e. coli xli blue, and pbluescript sk(+)
+were from stratagene, and e. coli sj16 (cgsc #6341) (12)
+was from the e. coli genetic stock center, yale university.
+the expression vectors pet-22b(+) and pet-16b were from
+novagen. the vector pkos116-63 is pet-22b with an
+altered linker containing restriction sites ndei-hindiiipaci-nsii-nhei. phage p1 cm clr (13) was provided by
+bryan julien, kosan biosciences. transcarboxylase was
+
+complex polyketide biosynthesis in engineered e. coli
+provided by the laboratory of h. g. wood, case western
+reserve university.  xxxg243xxx  e. coli and plasmids pbp12,
+pbp130, and pbp144 are described in pfeifer et al. (4). strain
+k173-145, a pand version of  xxxg243xxx , and plasmid pkos173158, a modified version of pbp144 in which the pcc genes
+were removed, were provided by jonathan kennedy, kosan
+biosciences (unpublished results). dna sequencing was
+performed using a beckman ceq 2000 capillary sequencer.
+mut medium consisted of m9 salts, glucose, thiamin, trace
+elements, and amino acids (14). protease inhibitor cocktail
+tablets (complete, mini, edta-free) were obtained from
+roche molecular biochemicals. [3-3h]beta-alanine (50 ci/
+mmol) and [1-14c]propionate (56 mci/mmol) were from
+american radiolabeled chemicals. [13c3]propionate (99
+atom %) was obtained from aldrich. all other reagents were
+the purest available from commercial sources. standard
+molecular biology techniques were as described (15). one
+unit (u) of enzyme activity is the amount of enzyme required
+for production of 1 µmol of product per minute.
+e. coli bl21(de3)/pand. e. coli sj16 containing tn10
+(tetr) linked to pand was infected with p1 phage, and the
+lysate was used to infect e. coli bl21(de3) (13). following
+selection for tetr colonies, a strain (k117-60) was isolated
+that displayed a reduction in growth on mut medium, and a
+∼10-fold increase in incorporation of [3h]beta-alanine into acylcoas.
+construction of  xxxg1485xxx  expression
+vector. the translationally coupled muta and mutb genes,
+encoding the beta and r  xxxg1485xxx  subunits
+[originally identified and sequenced by leadlay and coworkers (6)], were amplified from p. shermanii genomic
+dna by pcr in four fragments that were then joined. the
+pcr primers for the first fragment, muta1, were 5′-cac
+agt cta gac ata tga gca gca cgg atc agg
+gga cc-3′, containing introduced xbai and ndei sites
+(boldface type), and 5′-cac agc tgc agg gct  xxxg873xxx 
+aac  xxxg873xxx  atg gga tcc-3′, containing a natural psti
+site (italics). for muta2, the primers were 5′-cac agc tgc
+agg gca ccg agc cgg atc tga cc-3′ (natural psti
+site, italics) and 5′-cac aga agc ttg ata tca agg
+ xxxg889xxx  gag gac-3′, introducing a hindiii site (boldface) at
+the 3′ end, adjacent to the naturally occurring ecorv site
+(italics). in the mutb1 fragment, the start codon for the mutb
+gene was changed from  xxxg889xxx  to atg (7) using the pcr
+primer 5′-cac aga cta  xxxg889xxx  ata tct tgg gag tcg
+cga aat gag cac tct gcc ccg ttt tga ttc-3′,
+which also introduced a spei site (boldface) upstream of the
+natural ecorv site (italics). the reverse primer for this
+fragment was 5′-cac agc tgc agg aac agc tgg
+ xxxg889xxx  tta cgg  xxxg873xxx  atg c-3′, containing a natural psti
+site (italics). the primers for the mutb2 fragment were 5′cac agc tgc agc agg aat cgg gca cga cgc
+ xxxg873xxx  tga tc-3′ (natural psti site, italics) and 5′-cac aga
+agc ttc aat tgc tag gca tcg agc gaa gcc
+c-3′, introducing mfei and hindiii sites (boldface) near the
+3′ end of the fragment. each fragment was cloned into an
+intermediate bluescript vector and sequenced. the fragments
+were excised from the intermediate vectors and pieced
+together: naturally occurring psti sites were used to join
+muta1 and muta2 (muta), as well as mutb1 and mutb2
+(mutb). the muta and mutb fragments were combined at a
+naturally occurring ecorv site to form the complete mutase
+
+biochemistry, vol. 41, no. 16, 2002 5195
+gene, which was cloned into the vector pkos116-63 between
+the restriction sites ndei and hindiii, to form pkos11695b.
+expression of p. shermanii holo-methylmalonyl-coa
+mutase. operations were performed in a dark room with a
+safelight. a foil-wrapped 125 ml flask containing 25 ml
+of mut medium, 100 µg/ml carbenicillin, 5 µm beta-alanine,
+and 5 µm  xxxd2300xxx  was inoculated with 250 µl
+of a starter culture of k117-60/pkos116-95b (mutab),
+which was grown at 27 °c for 20 h in the above medium,
+excluding  xxxd2300xxx . after incubating overnight at
+27 °c, cultures were induced with iptg to 1 mm final
+concentration and incubated for an additional 5 h. cells were
+transferred to a foil-wrapped conical tube, collected by
+centrifugation, and stored in the dark at -80 °c. for soluble
+extract preparation, the pellet was thawed, washed with buffer
+c (50 mm potassium phosphate buffer, ph 7.4, 5 mm
+edta, 10% glycerol, 1 protease inhibitor tablet per 10 ml
+of buffer), and resuspended in 0.5 ml of buffer c. following
+sonication on ice, the extract was clarified by centrifugation.
+cloning and expression of e. coli sbm. the gene for sbm
+(sleeping beauty mutase) was amplified by pcr from e.
+coli k117-60 genomic dna and cloned into pet-16b to
+introduce an n-terminal his10-tag (pkos143-49-2), as
+described (16). the gene was also cloned as an ndei/saci
+fragment into pet-22b (pkos143-40-39) to encode the
+native sbm sequence. cultures of k117-60/pkos143-49-2
+(his10-sbm) were grown in lb with 100 µg/ml carbenicillin
+at 37 °c. at late-log phase, the cultures were induced with
+iptg to 1 mm final concentration and grown for an
+additional 18 h at 22 °c. the cells were collected by
+centrifugation, and his10-sbm was purified by metal chelate
+chromatography (as specified by qiagen). no attempt was
+made to purify native sbm.
+acyl-coa analysis. hplc was performed using a 150 ×
+4.6 mm 5 µm ods-3 inertsil hplc column (metachem
+technologies). hplc buffer a contained 100 mm nah2po4, 75 mm naoac, ph 4.6, and buffer b contained 70%
+buffer a, 30% methanol. the hplc column was equilibrated
+with 90% buffer a/10% buffer b at a flow rate of 1 ml/
+min. after sample injection, a linear gradient to 40% buffer
+b was formed over 35 min, followed by a linear gradient to
+90% buffer b over 20 min; the eluant was monitored at 260
+nm. for radioactive samples, 0.5 ml fractions were collected
+from 18 to 58 min, and the samples were counted in a liquid
+scintillation counter. the coa standard mix contained 0.5
+mm coa and 1.6 mm each of malonyl-, methylmalonyl-,
+succinyl-, acetyl-, and propionyl-coa.
+analysis of intracellular acyl-coas. mut medium (1 ml)
+containing 100 µg/ml carbenicillin and 100 µm beta-alanine
+was inoculated with single colonies of k117-60 harboring
+various mutase genes (pkos116-95b, pkos143-49-2, or
+pkos143-40-39) or the vector control pet-22b. after
+overnight growth at 37 °c, cells were collected by centrifugation and washed 4 times with 1 ml of mut medium. the
+cells were suspended in 1 ml of mut medium containing
+100 µg of carbenicillin, and grown for 4 h at 37 °c to deplete
+cells of beta-alanine. fresh mut medium (1 ml) containing 10
+µci of [3h]beta-alanine, 0.5 µm beta-alanine, and 100 µg/ml
+carbenicillin was inoculated with 30 µl of the starved cells.
+after 3 h of growth at 37 °c, iptg was added to each culture
+to a final concentration of 1 mm. the culture tubes were
+
+5196 biochemistry, vol. 41, no. 16, 2002
+wrapped in aluminum foil,  xxxd2300xxx  was added to
+5 µm final concentration, and the cultures were incubated
+at 27 °c overnight. cells were collected by centrifugation
+and washed twice with 1 ml of mut medium. the washed
+cell pellet was resuspended in 300 µl of cold 10% tca
+containing 5 µl of coa standard mix, and the suspension
+was sonicated on ice for 1 min at 5 w. precipitants were
+removed by centrifugation, and 50 µl of the supernatant was
+analyzed for acyl-coas by hplc as described above.
+ xxxg1485xxx  assay. all operations for the
+mutase assay were performed in the dark or under a safelight.
+enzyme assays (100 µl) contained 0.2 mm (2rs)-methylmalonyl-coa and mutase extract in buffer c. for assays
+containing added coenzyme b12, the mutase extract was
+preincubated with 0.01 mm coenzyme b12 in 75 µl of buffer
+c for 5 min at 30 °c for mutab, or for 1 h at 4 °c with 2
+mm dithiothreitol (16) for his10-sbm. (2rs)-methylmalonylcoa was added, and after incubation at 30 °c for 2, 5, 10,
+or 20 min, reactions were quenched with 50 µl of 10% tca
+and placed on ice for 10 min. after centrifugation, 100 µl
+of the supernatant was analyzed by hplc to quantify
+conversion of methylmalonyl-coa to succinyl-coa.
+his10-sbm was also assayed to determine which diastereomer of methylmalonyl-coa it produced. reaction mixtures (50 µl) contained 0.2 m potassium phosphate buffer,
+ph 6.9, 0.1 m nh4so4, 5 mm sodium pyruvate, 2.4 mm
+succinyl-coa, 0.0033 unit of transcarboxylase, and purified
+his10-sbm, with and without methylmalonyl-coa epimerase.
+reactions were initiated with succinyl-coa, incubated in the
+dark at 30 °c for 10 min, and quenched as described above.
+supernatants were analyzed by the hplc system described
+above, which separated succinyl-coa, methylmalonyl-coa,
+and propionyl-coa.
+methylmalonyl-coa epimerase assay. enzyme activity
+was assayed at 30 °c using a modification of a reported
+method (8). the epimerase (0.54 mg/ml) was first activated
+with 100 µm cocl2 at 4 °c for 1 h. reaction mixtures (1.5
+ml) contained 0.2 m potassium phosphate buffer, ph 6.9,
+0.1 m nh4so4, 5 mm sodium pyruvate, 0.08 mm (2rs)methylmalonyl-coa, 0.05 unit of transcarboxylase, 0.16 mm
+nadh, and 2.5 units of  xxxg1739xxx . the reaction
+was initiated with (2rs)-methylmalonyl-coa, and the decrease in a340 concomitant with consumption of the s-isomer
+was allowed to stabilize. limiting epimerase was added to
+catalyze conversion of the remaining r- to s-isomer, and
+the initial rate and total decrease in a340 were monitored.
+for kinetic studies, ∼1.2 nm epimerase was incubated with
+varying amounts of (2rs)-methylmalonyl-coa (27-160
+µm). the (2r)-methylmalonyl-coa concentrations were
+assumed to be half of the concentration of (2rs)-methylmalonyl-coa.
+n-terminal sequencing of methylmalonyl-coa epimerase
+from p. shermanii. a 10 l fermentation of p. shermanii was
+grown anaerobically at ph 6.85 (11). after 3 days, cells were
+collected by centrifugation, washed with water, and stored
+at -80 °c. methylmalonyl-coa epimerase was purified as
+described (8), followed by c-8 reversed-phase hplc (17).
+the hplc-purified epimerase was subjected to n-terminal
+amino acid sequencing, and also digested with 0.4 µg of
+achromobacter lyticus protease (lys-c) in 125 mm tris/
+hcl, ph 8, 3.8 mm dtt for 16 h at 37 °c. the lys-c
+peptides were separated by hplc, and those showing 280
+
+dayem et al.
+nm tryptophan absorbance were sequenced. we obtained 41
+residues of the n-terminal sequence, and 6 residues of a
+lys-c peptide.
+p. shermanii methylmalonyl-coa epimerase gene. a
+cosmid library of p. shermanii was prepared as described
+(stratagene). degenerate pcr primers were designed based
+on the n-terminus and internal peptide sequences of the
+epimerase. the forward primer was 5′-cacagtctagaathgaycaygtngcntaygc-3′, and the reverse
+primer was 5′-cacagggatccytcrtcrttnarnggngcytt-3′, where the underlined sequences target the
+epimerase gene and the boldface type shows introduced xbai
+(forward primer) and bamhi (reverse primer) restriction sites.
+these primers were used to pcr-amplify from p. shermanii
+genomic dna a 190 base pair fragment, which was used as
+a template to generate a digoxigenin (dig)-labeled probe
+via pcr (boehringer mannheim). the labeled pcr product
+was used to probe the cosmid library by colony hybridization.
+cosmids from positive colonies were screened for the
+epimerase gene by pcr, and several were subjected to dna
+sequencing using primers specific to the epimerase sequence.
+the cosmid designated pkos117-167-a7 contained the
+complete epimerase gene, the sequence of which has been
+deposited into the genbank database under accession number
+ay046899.
+the epimerase gene was amplified from pkos117-167a7 by pcr, using primers that introduced ndei and bamhi
+restriction sites at the 5′ end, and nhei and avrii sites at the
+3′ end. the forward primer also destroyed a natural ndei
+site at nucleotides 41-46. the pcr product was cloned into
+an intermediate vector for sequencing, and then into the
+vector pkos116-63 between ndei and nhei sites, to give
+pkos143-28-8.
+s. coelicolor methylmalonyl-coa epimerase gene. the
+p. shermanii methylmalonyl-coa epimerase dna sequence
+was used to search the s. coelicolor genomic database
+(www.sanger.ac.uk/projects/s•coelicolor) using the blast
+programs at the national center for biotechnology information, nih website (18), and s. coelicolor gene 8f4.02c was
+identified as a putative methylmalonyl-coa epimerase. the
+gene was amplified by pcr from s. coelicolor genomic
+dna, using the forward primer 5′-cac agc ata tgc
+tga cgc gaa tcg acc-3′, which introduced a ndei
+site at the 5′ end, and the reverse primer, 5′-cac aga tgc
+att cag tgc tca ggt gac tca acg g-3′, which
+introduced an nsii site at the 3′ end. the pcr fragment was
+cloned into an intermediate vector and sequenced, and then
+into the vector pkos116-63 between the restriction sites
+ndei and nsii, to give pkos117-174-a37.
+heterologous expression and purification of the epimerases. e. coli bl21(de3) harboring either pkos143-28-8
+(p. shermanii epimerase) or pkos117-174-a37 (s. coelicolor epimerase) was grown in 750 ml of lb (100 µg/ml
+carbenicillin) at 37 °c until late-log phase, then induced with
+iptg to 1 mm final concentration, and grown for an
+additional 3 h at 30 °c. the cells were collected by
+centrifugation, and the pellets were stored at -80 °c. the
+recombinant epimerase proteins were purified essentially as
+described for p. shermanii (8).
+coexpression of p. shermanii mutase and epimerase
+genes. the methylmalonyl-coa epimerase gene from p.
+shermanii was cloned as an ndei/avrii fragment downstream
+
+complex polyketide biosynthesis in engineered e. coli
+of a t7 promoter in pkos116-172a. the epimerase gene
+was excised along with the t7 promoter from pkos116172a as a paci/nhei fragment and cloned into pkos1339b, a pet plasmid containing paci-nhei sites directly
+downstream of the mutab genes, and followed by a t7
+transcriptional terminator. this provided pkos143-35-50
+with the configuration: [t7 promoter-mutab genes]-[t7
+promoter-epimerase gene]-[t7 terminator]. the mutab and
+epimerase genes were also cloned in the same configuration
+into a tetracycline-resistant pacyc vector containing atoc
+to create pkos207-15a (sumati murli, unpublished results).
+tkl analysis. e. coli  xxxg243xxx  was transformed with pbp12
+(debs1+te) and either pkos143-35-50 (mutab/epimerase) or pkos116-95b (mutab). individual transformants
+were inoculated into mut medium with 100 µg/ml carbenicillin and 50 µg/ml kanamycin, and the cultures were
+grown at 37 °c. upon reaching late-log phase, the cultures
+were cooled at 22 °c for 3 min and centrifuged. the cell
+pellets were resuspended in 1 ml of the supernatant, 10 µci
+of [14c]propionate was added, and  xxxd2300xxx  and
+iptg were added in the dark at final concentrations of 5
+µm and 0.5 mm, respectively. the cultures were incubated
+in the dark at 22 °c for up to 43 h. samples (100 µl) were
+removed from the cultures periodically, and supernatants
+were extracted twice with 300 µl of ethyl acetate. the extract
+was dried in vacuo and subjected to tlc analysis. radioactive spots comigrating with authentic tkl were quantitated
+on a phosphorimager, and tkl concentrations were calculated using a standard curve of [14c]propionate. negative
+controls included cultures of  xxxg243xxx /pbp12 (debs1+te
+only) and  xxxg243xxx /pbp12/pkos143-35-50 (debs1+te and
+mutab/epimerase) without  xxxd2300xxx .
+6-deb analysis. lb medium (10 ml) was inoculated with
+e. coli strain k173-145 containing plasmids pkos173-158
+(debs1), pbp130 (debs2,3), and pkos207-15a (mutab/
+epimerase). as an alternative for the mutase-epimerase
+pathway, pkos207-15a was substituted by pkos143-189,
+a tetracycline-resistant pacyc vector containing the pcc
+genes behind a t7 promoter (sumati murli, unpublished
+results). cultures were grown at 37 °c in lb medium with
+100 µg/ml carbenicillin, 7.5 µg/ml tetracycline, and 50 µg/
+ml kanamycin. upon reaching late-log phase, cultures were
+chilled on ice, either 5 mm propionate or 5 mm [13c3]propionate was added, and the cultures were induced with
+iptg to 0.5 mm final concentration.  xxxd2300xxx ,
+succinate, and glutamate, to final concentrations of 5 µm,
+50 mm, and 50 mm, respectively, were added to strains
+containing the mutase. the cultures were grown for 40 h at
+22 °c; cells were collected by centrifugation, and the cellfree medium was extracted with an equal volume of etoac.
+the etoac extract (8 ml) was dried and resuspended in
+meoh.
+extracts were analyzed by lc-ms on a system comprised
+of an agilent 1100 hplc and an applied biosystems
+mariner time-of-flight mass spectrometer equipped with a
+turbo ionspray source (spray chamber temperature 400 °c;
+nozzle potential 110 v). the 6-deb was adsorbed to a
+metachem inertsil ods-3 column (5 µm, 2.1 × 150 mm)
+and eluted with a linear gradient from 35% to 100% mecn
+(0.1% hoac) at 300 µl/min over 10 min. the eluate was
+monitored by ms. under these conditions, the retention time
+of 6-deb was 7.9-8.1 min.
+
+biochemistry, vol. 41, no. 16, 2002 5197
+for quantitation, extracts were analyzed using a system
+consisting of a beckman system gold hplc, an alltech
+elsd detector, and a pe sciex api100 lc ms-based
+detector configured with an atmospheric pressure chemical
+ionization source. the eluate from a metachem inertsil
+ods-3 column (5 µm, 4.6 × 150 mm) of a linear gradient
+from 35 to 100% mecn (0.1% hoac) at 1 ml/min over
+10 min was split 1:1 between the elsd and ms detectors.
+under these conditions, 6-deb eluted  xxxd2274xxx .4 min. titers were
+determined from elsd response by comparing the integrated
+area of 6-deb from the cultures to standard curves generated
+from authentic 6-deb.
+results
+pcr amplification and expression of active  xxxg1485xxx . the translationally coupled genes (mutab) for the r- and beta- subunits of methylmalonyl-coa
+mutase ( xxxg1344xxx .2) were amplified from p. shermanii
+genomic dna, cloned, and sequenced. there were two
+discrepancies between the amino acid sequence predicted
+from the genes obtained here and the sequence reported in
+the database (accession no. x14965); we found g990c991
+instead of c990g991, corresponding to glu330leu331 rather than
+asp330val331. since our residue assignments corresponded
+with those in the crystallographic structure of the protein
+(19), we concluded that they are correct. to facilitate
+expression in e. coli, the naturally occurring  xxxg889xxx  start codon
+for mutb was changed to atg (7, 14), and the mutab genes
+were subcloned into an e. coli expression vector under the
+control of a t7 promoter.
+we grew e. coli k117-60 harboring pkos116-95b, a pet
+vector containing the p. shermanii mutase genes, at 27 °c
+in the defined mut medium with and without  xxxd2300xxx  (14). mutase activity in cell extracts was monitored
+by the conversion of (2r)-methylmalonyl-coa to succinylcoa by hplc. as reported (7), in the absence of  xxxd2300xxx , mutase activity was undetectable unless extracts
+were supplemented with coenzyme b12, indicating exclusive
+expression of the apo-enzyme. however, when expression
+of the mutase was induced in cells grown in the presence of
+ xxxd2300xxx , 0.038 unit/mg of mutase activity was
+observed in crude extracts. no succinyl-coa formation was
+observed when (2rs)-methylmalonyl-coa was incubated
+with extracts from strain k117-60 harboring the pet vector
+control.
+the gene (sbm) for e. coli  xxxg1485xxx 
+was cloned downstream of a t7 promoter with a his10-tag,
+expressed in e. coli, purified, and reconstituted with coenzyme b12. as reported (16), the reconstituted enzyme
+catalyzed the production of succinyl-coa when incubated
+with (2rs)-methylmalonyl-coa. to determine which isomer
+of methylmalonyl-coa was used as the substrate, his10-sbm
+was incubated with succinyl-coa to produce methylmalonylcoa, as well as with sodium pyruvate and transcarboxylase,
+which converts the (2s)- but not the (2r)-isomer to propionyl-coa. hplc analysis revealed that propionyl-coa was
+not produced. however, when p. shermanii epimerase was
+added to the assay mixture to interconvert (2r)- and (2s)methylmalonyl-coa, propionyl-coa was produced. this
+demonstrated that, as with other methylmalonyl-coa mutases, sbm catalyzes the stereospecific conversion of succinyl-coa to (2r)-methylmalonyl-coa.
+
+5198 biochemistry, vol. 41, no. 16, 2002
+
+figure 3: intracellular acyl-coa analysis in e. coli. radioactivity
+in hplc fractions of cell-free extracts from [3h]beta-alanine-fed e.
+coli harboring a pet vector containing the p. shermanii  xxxg1485xxx  genes with (red) and without (green)  xxxd2300xxx  feeding, or harboring a pet vector control with
+(blue) and without (black)  xxxd2300xxx  feeding.
+
+production of methylmalonyl-coa in e. coli. analysis of
+in vivo acyl-coa pools is typically accomplished in e. coli
+strains deficient in the enzyme aspartate decarboxylase
+(pand), which converts aspartate to beta-alanine, a component
+of coa. such strains are “fed” [3h]beta-alanine, which is
+incorporated into coa without isotopic dilution. the 3hlabeled acyl-coas in crude lysates are separated by hplc
+and analyzed by scintillation counting (12). to express the
+mutase in a pand background, we constructed a bl21(de3)/
+pand strain (k117-60) by phage p1 transduction of the pand
+locus from sj16 to bl21(de3) (12). the resulting pand
+strain enabled detection of intracellular acyl-coa pools at
+about 10-fold greater sensitivity compared with wild-type
+strains.
+cultures of e. coli k117-60 harboring various  xxxg1485xxx  genes or the vector control pet were
+grown and induced in mut medium containing [3h]beta-alanine
+with and without  xxxd2300xxx . cells were lysed and
+extracts applied to an hplc system along with coa
+standards. figure 3 shows in vivo acyl-coa levels in cells
+with and without the p. shermanii mutab. in cells expressing
+mutab and grown with  xxxd2300xxx , methylmalonylcoa comprised ∼10% of the coa pool, whereas in the
+cultures without mutab and/or  xxxd2300xxx , methylmalonyl-coa was not detected. similar levels of methylmalonyl-coa were observed in cells grown with  xxxd2300xxx  and overexpressing sbm and his10-sbm (data not
+shown). it has been reported that sbm retained only 7% of
+its in vitro activity after cleavage of the n-terminal his10tag (16). however, we found that both versions of sbm
+produced similar amounts of methylmalonyl-coa in vivo.
+with the exception of methylmalonyl-coa, the acyl-coa
+pool composition was comparable to that observed for e.
+coli pand mutants grown on glucose (3). however, in cells
+overexpressing mutab, malonyl-coa levels were consistently elevated. in this minimal medium, we did not observe
+propionyl-coa.
+methylmalonyl-coa epimerases. methylmalonyl-coa epimerase (ec 5.1.99.1) from p. shermanii was purified to
+homogeneity; peptide sequences were obtained and used to
+design degenerate pcr primers. a dig-labeled probe was
+
+dayem et al.
+
+figure 4: sds-page analysis of soluble protein from e. coli
+cells grown in the presence of iptg and  xxxd2300xxx . lane
+1, cells harboring a pet vector; lane 2, cells harboring a pet vector
+containing the p. shermanii mutase (mutab) and epimerase genes.
+arrows indicate the positions of muta, mutb, and epimerase.
+molecular mass markers are indicated in kda. (lanes 1 and 2 are
+from the same gel, with intervening lanes removed for clarity of
+presentation.)
+
+amplified by pcr and used to isolate the complete 447 bp
+epimerase gene from a p. shermanii cosmid library via
+colony hybridization. the predicted protein sequence of the
+p. shermanii epimerase was used to identify a putative
+methylmalonyl-coa epimerase from the s. coelicolor genomic database; the two sequences are ∼44% identical and
+∼64% similar. the genes for both epimerases were cloned
+into e. coli expression vectors, and the proteins were purified
+to homogeneity. we also cloned the bacillus subtilus yqjc,
+identified as a putative methylmalonyl-coa epimerase gene
+(16), into a pet expression vector containing a t7 promoter.
+however, the protein was expressed in e. coli as insoluble
+particles and not studied further.
+the calculated molecular masses of the epimerases are
+16 716 da for p. shermanii and 16 081 da for s. coelicolor.
+sds-page analysis of the purified p. shermanii epimerase
+revealed a band at molecular mass ∼23 kda; however, esitof mass spectrometry confirmed the expected molecular
+mass of 16.7 kda. the s. coelicolor epimerase had a
+molecular mass of 16.1 kda by esi-tof mass spectrometry,
+and migrated on sds-page as a band of molecular mass
+∼18 kda. the steady-state kinetic constants for the p.
+shermanii (km ) 38 µm; kcat ) 150 s-1) and s. coelicolor
+(km ) 57 µm; kcat ) 75 s-1) epimerases were comparable.
+production of complex polyketides via the mutase route.
+the gene encoding the methylmalonyl-coa epimerase from
+p. shermanii was cloned under the control of a t7 promoter
+downstream of the mutab genes, yielding the expression
+plasmid pkos143-35-50. analysis by sds-page of
+soluble protein from induced e. coli cells harboring the
+mutab and epimerase genes showed that muta, mutb, and
+the epimerase were overexpressed (figure 4). to test the
+ability of the p. shermanii  xxxg1485xxx  and
+epimerase to support polyketide biosynthesis in vivo, the
+recently described  xxxg243xxx  e. coli cell line was transformed
+with pbp12 (debs1+te) (4) and either pkos143-35-50
+(mutab-epimerase) or pkos116-95b (mutab). the strains
+were grown in a minimal medium containing [14c]propionate
+and  xxxd2300xxx . following iptg induction, the
+cultures were sampled and evaluated by tlc to show that
+coexpression of mutab and epimerase in the  xxxg243xxx  cell line
+resulted in production of the truncated polyketide tkl (data
+not shown). in a control experiment omitting the epimerase
+gene, no tkl was detected; this is in accord with previous
+
+complex polyketide biosynthesis in engineered e. coli
+
+biochemistry, vol. 41, no. 16, 2002 5199
+
+work demonstrating that (2r)-methylmalonyl-coa is not a
+substrate for debs1+te (20, 21).
+having demonstrated that the (2s)-methylmalonyl-coa
+supplied via the engineered mutase-epimerase pathway
+supported synthesis of a triketide, we sought to produce the
+full-length polyketide, 6-deb, and to show that the polyketide
+starter and extender units were derived from separate sources.
+the cell line k173-145 ( xxxg243xxx /pand) was transformed with
+the genes encoding debs (pkos173-158 and pbp130) and
+either the mutase-epimerase genes (pkos207-15a) or the
+pcc genes (pkos143-189) (figure 2). cultures were
+supplemented with propionate, and following ethyl acetate
+extraction, the 6-deb in supernatants was analyzed by lc/
+ms. in numerous experiments, average 6-deb titers for this
+system were ∼1 mg/l for the mutase-epimerase pathway
+and ∼10 mg/l for the pcc pathway (unpublished results).
+the origins of the carbon atoms were determined by lc/
+ms analysis of the 6-deb product formed upon feeding
+propionate or [13c3]propionate. the mass spectrum of the
+6-deb produced when propionate was fed to the strain
+containing the mutase-epimerase pathway is shown in
+figure 5a. when [13c3]propionate was fed to the same strain,
+all ions were shifted up by exactly 3 mass units (figure 5b
+versus figure 5a), indicating that 1 mol of exogenous
+propionate was incorporated per mole of 6-deb. considering
+the metabolic pathways engineered into the system, it was
+deduced that the [13c3]propionate was incorporated only as
+a starter unit and not as an extender unit. as expected for
+the pcc pathway, [13c3]propionate was incorporated at all
+21 carbons of 6-deb (figure 5c). under these conditions,
+14-desmethyl 6-deb was not observed, demonstrating that
+acetyl-coa was not used as a starter unit for debs.
+discussion
+production of polyketides in heterologous hosts requires
+pks expression, posttranslational phosphopantetheinylation
+(22), and a supply of appropriate acyl-coa precursors
+including acetyl-, malonyl-, propionyl-, and (2s)-methylmalonyl-coa. whereas acetyl- and malonyl-coas are ubiquitous metabolic intermediates (they are essential for fatty acid
+biosynthesis), propionyl- and (2s)-methylmalonyl-coas are
+not. recently, e. coli was engineered to produce and
+accumulate sufficient propionyl- and (2s)-methylmalonylcoa to support complex polyketide biosynthesis (4). for
+propionyl-coa accumulation, its catabolism was inhibited
+by interruption of the prp operon, and prpe was placed under
+independent control of a t7 promoter. for (2s)-methylmalonyl-coa production, heterologous propionyl-coa carboxylase (pcc) genes were introduced. in this system,
+propionyl-coa served as the source of both starter and
+extender substrates for polyketide biosynthesis.
+in the present work, we introduced the methylmalonylcoa mutase-epimerase pathway into e. coli. this pathway
+converts tca cycle-derived succinyl-coa to (2r)-methylmalonyl-coa, which is then epimerized to the pks extender
+substrate, (2s)-methylmalonyl-coa (figure 2). the  xxxg1485xxx -epimerase pathway provides several
+potential advantages over the pcc pathway for production
+of polyketides. first, if a starter acyl-coa is not supplied,
+(2s)-methylmalonyl-coa could potentially yield propionylcoa through decarboxylation by expression of a known
+
+figure 5: lc-ms spectra comparing (a) unlabeled, (b) partially
+labeled, and (c) fully labeled 6-deb produced via the mutaseepimerase pathway with (a) propionate or (b) [13c3]propionate, and
+(c) via the pcc pathway with [13c3]propionate. the mass spectrum
+of unlabeled 6-deb consists primarily of ions due to [m+na]+
+(409.3), [m+h-h2o]+ (369.3), [m+h-2h2o]+ (351.3), and a 15
+carbon fragment (c15h27o2) that includes the carbons of the
+propionate starter unit (239.2); a pseudo-molecular ion [m+h]+ is
+rarely observed. 6-deb titers in this experiment (average of 2
+samples) were (a) 0.73 mg/l, (b) 0.8 mg/l, and (c) 2.1 mg/l.
+
+methylmalonyl-coa decarboxylase (16), thereby permitting
+all of the carbon atoms of a polyketide to be derived from
+glucose. second, if a starter acyl-coa is supplied, the source
+of the starter and extender units will be decoupled, allowing
+unusual starter units to be incorporated into the polyketide.
+we anticipated three potential problems in introducing an
+effective  xxxg1485xxx -epimerase pathway
+into e. coli: (1) expressing holo- xxxg1485xxx ,
+since e. coli does not contain coenzyme b12; (2) effectively
+converting intracellular (2r)-methylmalonyl-coa to the (2s)isomer needed for polyketide synthesis; and (3) accumulation
+
+5200 biochemistry, vol. 41, no. 16, 2002
+of intracellular foreign acyl-coas in sufficient amounts
+without untoward toxicity. in this study, each of these issues
+was addressed.
+our first objective was to express holo-methylmalonylcoa mutase in e. coli and to demonstrate accumulation of
+methylmalonyl-coa. although e. coli possesses a gene (sbm)
+that encodes a putative  xxxg1485xxx , neither
+mutase activity nor methylmalonyl-coa is detectable in cell
+extracts. the p. shermanii and e. coli methylmalonyl-coa
+mutases have previously been expressed in e. coli as inactive
+apo-enzymes that require reconstitution with coenzyme b12
+to form the active holo-enzyme (7, 16). we confirmed these
+results and also showed that, as with the p. shermanii enzyme
+(23), the coenzyme b12-reconstituted his10-sbm produced
+(2r)- rather than (2s)-methylmalonyl-coa. although e. coli
+does not produce coenzyme b12, it possesses btur, which
+encodes an enzyme that introduces the adenosyl moiety into
+mature coenzyme b12 precursors, such as  xxxd2300xxx 
+(24). indeed, active b12-dependent  xxxg1479xxx  was
+expressed in e. coli by inclusion of  xxxd2300xxx  in a
+minimal growth medium (14). when e. coli cells expressing
+p. shermanii mutase were grown in minimal medium
+containing  xxxd2300xxx , the mutase recovered from cell
+extracts was catalytically active. furthermore, when e. coli
+harboring the p. shermanii or e. coli mutase genes (native
+or his10) was grown in medium containing  xxxd2300xxx , intracellular methylmalonyl-coa comprised ∼10% of
+the acyl-coa pool (figure 3), corresponding to ∼40 µm (3).
+this exceeds the km of (2s)-methylmalonyl-coa (∼25 µm)
+for debs or debs1+te (25, 26) and should thus support
+polyketide synthesis.
+our next objective was to convert intracellular (2r)methylmalonyl-coa to the (2s)-isomer. to produce (2s)methylmalonyl-coa in vivo, coexpression of a functional
+epimerase is required to interconvert the (r)- and (s)-isomers
+of methylmalonyl-coa (figure 2). although the cloning and
+sequencing of methylmalonyl-coa epimerase from p. shermanii (8) have previously been reported (27), the gene
+sequence was neither available in the public domain nor
+available to us. thus, we isolated the p. shermanii epimerase
+gene by screening a cosmid library of genomic dna, using
+dna probes derived from the sequence of the p. shermanii
+epimerase protein that we purified and sequenced. the p.
+shermanii epimerase sequence was also used to identify a
+methylmalonyl-coa epimerase gene from the s. coelicolor
+genomic database. the p. shermanii and s. coelicolor
+epimerases were expressed in e. coli both individually and
+with the methylmalonyl-coa mutases. the two epimerases
+examined were shown to have similar steady-state kinetic
+parameters.
+our final objective was to coexpress mutase, epimerase,
+and debs, and demonstrate polyketide biosynthesis. ultimate proof of having engineered a functional mutaseepimerase pathway in e. coli hinged on production of a
+complex polyketide that required (2s)-methylmalonyl-coa,
+the final product of the engineered pathway. we coexpressed
+the p. shermanii mutase and epimerase in e. coli k173-145
+along with debs, a pks that produces 6-deb from
+propionyl- and (2s)-methylmalonyl-coa, and demonstrated
+that 6-deb was produced at ∼1 mg/l. to ascertain the origin
+of the carbon atoms in the 6-deb product, we fed cultures
+[13c3]-labeled propionate and determined the isotopic content
+
+dayem et al.
+of resulting 6-deb by mass spectroscopy. all ions of 6-deb
+were shifted exactly 3 mass units higher when [13c3]propionate was used as the exogenous precursor (figure
+5a,b). furthermore, no unlabeled product was detected,
+indicating that the exogenous [13c3]propionate was not
+diluted by endogenously derived propionate, as might arise
+from decarboxylation of the unlabeled methylmalonyl-coa
+extender unit. thus, exogenous propionate serves exclusively
+as the starter unit. as a control, we used the pcc system to
+produce (2s)-methylmalonyl-coa from [13c3]propionyl-coa,
+which generated a uniformly labeled 6-deb product, indicating that both the starter and extender units stemmed from
+the fed propionate (figure 5c).
+perspectives. the “chemobiosynthetic” method for incorporating unusual starter units into polyketides involves
+inactivating the first module of a pks and feeding host cells
+a chemically synthesized diketide thiol ester; the diketide
+enters the biosynthetic pathway at the second module and is
+incorporated into the polyketide product (28). the present
+work presents an alternative method for producing polyketides
+with novel starter units, independent of diketide feeding. the
+approach exploits the mutase-epimerase pathway by enabling extender units to be generated independently of starter
+units. that is, the extender units are derived from endogenously produced intermediatessmalonyl- and methylmalonyl-coaswhereas the starter unit is derived from an
+exogenous sourcesin the present case, propionatesthat is
+activated to an acyl-coa foreign to the cell. by introducing
+a pathway to produce a foreign acyl-coa from an exogenously supplied carboxylic precursor, it is possible to
+generate and accumulate novel acyl-coas in e. coli.
+provided such foreign acyl-coas are accepted as substrates
+by the starting module of a pks, they would be incorporated
+into the polyketide, affording an alternative to diketide
+feeding. the results of such studies will be the subject of a
+forthcoming report.
+acknowledgment
+we thank dr. tim leaf and mr. al deguzman for the
+fermentation of p. shermanii, dr. jonathan kennedy and dr.
+sumati murli for strain k173-145 and plasmids pkos20715a, pkos143-189, and pkos173-158, dr. ralph reid for
+performing homology searches for the epimerase, dr. gary
+ashley and dr. larry peck for helpful discussions, and dr.
+david hopwood for helpful editing suggestions.
+references
+1. o’hagan, d. (1993) nat. prod. rep. 10, 593-624.
+2. katz, l. (1997) chem. rev. 97, 2557-2575.
+3. vallari, d. s., jackowski, s., and rock, c. o. (1987) j. biol.
+chem. 262, 2468-2471.
+4. pfeifer, b. a., admiraal, s. j., gramajo, h., cane, d. e., and
+khosla, c. (2001) science 291, 1790-1792.
+5. horswill, a. r., and escalante-semerena, j. c. (1999) microbiology 145, 1381-1388.
+6. marsh, e. n., mckie, n., davis, n. k., and leadlay, p. f.
+(1989) biochem. j. 260, 345-352.
+7. mckie, n., keep, n. h., patchett, m. l., and leadlay, p. f.
+(1990) biochem. j. 269, 293-298.
+8. leadlay, p. f. (1981) biochem. j. 197, 413-419.
+
+complex polyketide biosynthesis in engineered e. coli
+9. zhang, w., and reynolds, k. a. (2001) j. bacteriol. 183,
+2071-2080.
+10. donadio, s., staver, m. j., and katz, l. (1996) mol. microbiol.
+19, 977-984.
+11. brown, c. e., shemin, d., and katz, j. j. (1973) j. biol. chem.
+248, 8015-8021.
+12. jackowski, s., and rock, c. o. (1981) j. bacteriol. 148, 926932.
+13. sternberg, n. l., and maurer, r. (1991) methods enzymol.
+204, 18-43.
+14. amaratunga, m., fluhr, k., jarrett, j. t., drennan, c. l.,
+ludwig, m. l., matthews, r. g., and scholten, j. d. (1996)
+biochemistry 35, 2453-2463.
+15. maniatis, t., sambrook, j., and fritsch, e. f. (1982) molecular
+cloning: a laboratory manual, cold spring harbor laboratory,
+cold spring harbor, ny.
+16. haller, t., buckel, t., retey, j., and gerlt, j. a. (2000)
+biochemistry 39, 4622-4629.
+17. santi, d., pinter, k., kealey, j., and davisson, v. (1990) j.
+biol. chem. 265, 6770-6775.
+18. tatusova, t., and madden, t. (1999) fems microbiol. lett.
+174, 247-250.
+19. mancia, f., keep, n., nakagawa, a., leadlay, p., mcsweeney,
+s., rasmussen, b., bosecke, p., diat, o., and evans, p. (1996)
+structure 4, 339-350.
+
+biochemistry, vol. 41, no. 16, 2002 5201
+20. marsden, a. f., caffrey, p., aparicio, j. f., loughran, m. s.,
+staunton, j., and leadlay, p. f. (1994) science 263, 378380.
+21. weissman, k. j., bycroft, m., cutter, a. l., hanefeld, u.,
+frost, e. j., timoney, m. c., harris, r., handa, s., roddis,
+m., staunton, j., and leadlay, p. f. (1998) chem. biol. 5,
+743-754.
+22. lambalot, r. h., gehring, a. m., flugel, r. s., zuber, p.,
+lacelle, m., marahiel, m. a., reid, r., khosla, c., and walsh,
+c. t. (1996) chem. biol. 3, 923-936.
+23. zagalak, b., and retey, j. (1974) eur. j. biochem. 44, 529535.
+24. lawrence, j. g., and roth, j. r. (1995) j. bacteriol. 177,
+6371-6380.
+25. pieper, r., ebert-khosla, s., cane, d., and khosla, c. (1996)
+biochemistry 35, 2054-2060.
+26. pieper, r., gokhale, r. s., luo, g., cane, d. e., and khosla,
+c. (1997) biochemistry 36, 1846-1851.
+27. mccarthy, a. a., baker, h. m., shewry, s. c., patchett, m.
+l., and baker, e. n. (2001) structure (london) 9, 637646.
+28. jacobsen, j. r., hutchinson, c. r., cane, d. e., and khosla,
+c. (1997) science 277, 367-369.
+bi015593k
+

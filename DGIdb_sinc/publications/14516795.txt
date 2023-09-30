@@ -1,0 +1,743 @@
+available online at www.sciencedirect.com
+r
+
+experimental cell research 290 (2003) 144 –154
+
+www.elsevier.com/locate/yexcr
+
+ xxxd2298xxx  mediates arsenite activation of p70s6k
+and extracellular signal-regulated kinase
+dong keun jung,a,1 gyu-un bae,a,1 yong kee kim,a seung-hee han,a wahn soo choi,b
+hyeog kang,c dong wan seo,d hoi young lee,e eun-jung cho,a
+hyang-woo lee,a and jeung-whan hana,*
+a
+
+department of biochemistry and molecular biology, college of pharmacy, sungkyunkwan university, suwon 440-746, korea
+b
+department of immunology, college of medicine, konkuk university, chungcheongbuk-do 380-701, korea
+c
+laboratory of biochemical genetics, national heart, lung and blood institute, national institutes of health, bethesda, md 20892, usa
+d
+extracellular matrix pathology section, laboratory of pathology, national cancer institutes, national institutes of health, bethesda, md 20892, usa
+e
+department of pharmacology, college of medicine, konyang university, nonsan 320-711, korea
+received 12 november 2002, revised version received 28 april 2003
+
+abstract
+to define the mechanism of arsenite-induced tumor promotion, we examined the role of reactive oxygen species (ros) in the signaling
+pathways of cells exposed to arsenite. arsenite treatment resulted in the persistent activation of p70s6k and extracellular signal-regulated
+kinase 1/2 ( xxxg1369xxx /2) which was accompanied by an increase in intracellular ros production. the predominant produced appeared to be
+h2o2, because the arsenite-induced increase in dichlorofluorescein (dcf) fluorescence was completely abolished by pretreatment with
+catalase but not with heat-inactivated catalase. elimination of h2o2 by catalase or  xxxd68xxx  inhibited the arsenite-induced
+activation of p70s6k and  xxxg1369xxx /2, indicating the possible role of h2o2 in the arsenite activation of the p70s6k and the  xxxg1369xxx /2 signaling
+pathways. a specific inhibitor of p70s6k, rapamycin, and calcium chelators significantly blocked the activation of p70s6k induced by arsenite.
+while the phosphatidylinositol 3-kinase (pi3k) inhibitors  xxxd3536xxx  and  xxxd2523xxx  completely abrogated arsenite activation of p70s6k,
+ xxxg1369xxx /2 activation by arsenite was not affected by these inhibitors, indicating that h2o2 might act as an upstream molecule of pi3k as well
+as  xxxg1369xxx /2. consistent with these results, none of the inhibitors impaired h2o2 production by arsenite. dna binding activity of ap-1,
+downstream of  xxxg1369xxx /2, was also inhibited by catalase,  xxxd68xxx , and the mek inhibitor  xxxd1169xxx , which significantly blocked
+arsenite activation of  xxxg1369xxx /2. taken together, these studies provide insight into mechanisms of arsenite-induced tumor promotion and
+suggest that h2o2 plays a critical role in tumor promotion by arsenite through activation of the  xxxg1369xxx /2 and p70s6k signaling pathways.
+© 2003 elsevier inc. all rights reserved.
+keywords: arsenite; h2o2; p70s6k;  xxxg1369xxx /2
+
+introduction
+arsenic is ubiquitous in the environment, occurring
+mainly as arsenite and arsenate [1]. it is released into the
+environment during energy production from coal, oil shale,
+and geothermal sources. epidemiological studies have
+shown that chronic exposure to arsenic can result in liver
+* corresponding author. fax: ⫹82-31-290-5403.
+e-mail address: jhhan@skku.ac.kr (j.-w. han).
+1
+these authors contributed equally.
+0014-4827/03/$ – see front matter © 2003 elsevier inc. all rights reserved.
+doi:10.1016/s0014-4827(03)00320-3
+
+injury, peripheral neuropathy, and an increased incidence of
+cancers of the kidney, lung, skin, bladder, liver, and colon
+[2– 6]. while a single exposure to arsenic appears to be
+nonmutagenic, arsenic potentiates the mutagenic effects of
+short-wavelength uv radiation [7], suggesting that arsenite
+acts as a tumor promoter in the carcinogenic process; however, the mechanism has not yet been defined.
+activation of tumor cell proliferation requires transcriptional upregulation of the immediate early genes, as well as
+an accelerated rate of translation of various genes, which are
+regulated by intracellular activation of several signaling
+
+d.k. jung et al. / experimental cell research 290 (2003) 144 –154
+
+protein kinase cascades [8, 9]. among them, two protein
+kinase cascades, referred to as the  xxxg1369xxx /2 ( xxxg1369xxx /2) signaling pathway and the
+p70s6k signaling pathway, have been demonstrated to be
+responsible for the upregulation of transcription [10] and
+translation in response to various growth factors [11], respectively. ligand-mediated dimerization of growth factors
+triggers the activation of receptor tyrosine kinases, resulting
+in autophosphorylation of tyrosine residues [12,13], and
+these residues then serve as docking sites for the recruitment
+of downstream signaling mediators [14,15].
+one of the signaling pathways bifurcating at the specific
+docking sites of receptor  xxxg2198xxx  is the  xxxg1369xxx /2
+signaling pathway consisting of grb2/sos, ras,  xxxg1924xxx ,
+ xxxg1361xxx , and  xxxg1369xxx /2 [16]. activated  xxxg1369xxx /2 is responsible
+for the phosphorylation of a variety of cellular proteins,
+including downstream kinases and transcription factors that
+are involved in the transcriptional regulation of the immediate early genes (e.g., c-myc, c-jun, and c-fos) [10]. the
+other signaling pathway is the p70s6k pathway, which bifurcates at a growth factor receptor docking site distinct from
+that of the ras/ xxxg1369xxx /2 pathway [17]. many studies, including point mutational analysis of platelet-derived growth
+factor (pdgf) receptor [18], and the effect of various mutants of phosphatidylinositol 3-kinase (pi3k) [19] and pkb
+[20,21], and specific inhibitors of pi3k and fk506-rapamycin-associated protein (frap) on p70s6k activity [18,22]
+have suggested that the p70s6k signaling pathway includes
+pi3k, pdk1, pkb, and frap as upstream mediators of
+p70s6k activity, although the function of pkb as a regulator of
+the p70s6k signaling pathway has been challenged [23, 24]. the
+major substrate of p70s6k appears to be the 40 s ribosomal
+protein s6 [25], whose multiple phosphorylation in the cytosol
+has been implicated in the selective translational upregulation
+of a family of mrna transcripts that contain a polypyrimidine
+tract at their 5⬘ transcriptional start site [26, 27].
+dysregulation of the p70s6k pathway or  xxxg1369xxx /2 pathway
+through alterations in any one of several mediators involved
+in the cascade can lead to cellular transformation [28,29].
+indeed, many tumors exhibit elevated p70s6k [29] or
+ xxxg1369xxx /2 [30,31] activity. it is not surprising, therefore, that
+a common feature of known tumor promoters (e.g., phorbol
+ester) is their ability to perturb the p70s6k or  xxxg1369xxx /2 signaling pathway.
+there is emerging evidence that reactive oxygen species
+(ros) at low concentration may function as a signaling
+intermediator of cellular responses [32,33]. the generation
+of ros by external stimuli is associated with various cellular processes, such as cell proliferation [34] and apoptosis
+[35]. ros have been shown to stimulate components of
+signaling pathways implicated in growth factor and cytokine effects. the components include transcription factors,
+nf-␬b [36], and ap-1 [37], as well as  xxxg1369xxx /2 [33,38,39]
+and p70s6k [34], which play an important role in cell proliferation and various intracellular signaling pathways. arsenite has also been shown to cause a significant elevation
+
+145
+
+of p70s6k or  xxxg1369xxx /2 activity in rat cardiomyocytes and
+pc12 cells [40,41]. furthermore, the production of ros in
+response to arsenite treatment has been observed in various
+cell lines [42,43], suggesting that arsenite may act early in
+the growth factor signaling pathway. therefore, a better
+understanding of the signal transduction pathway leading to
+p70s6k and  xxxg1369xxx /2 activation by arsenite could provide
+important insight into its mechanism of tumor promotion. in
+this report, we focused our attention mainly on the early
+events in the signaling pathway leading to p70s6k and
+ xxxg1369xxx /2 activation, and provided evidence that arsenite
+treatment results in the production of  xxxd2298xxx 
+(h2o2), leading to the activation of p70s6k and  xxxg1369xxx /2. the
+ability of arsenite to usurp this growth regulatory pathway
+might likely contribute to its tumor promotion.
+
+materials and methods
+cell culture
+jb6 cells (balb-c mouse epidermal cells) were cultured
+in minimum essential medium (mem) containing 8% heatinactivated fetal bovine serum and 1% penicillin/streptomycin at 37°c in a humidified 5% co2 atmosphere. cells were
+serum deprived in serum-free medium for 24 h prior to
+treatment with arsenite.
+preparation of cell extracts
+seventy-eight percent confluent cells were made quiescent by culturing them for 24 h in mem without fetal
+bovine serum. serum-deprived cells were treated at 37°c
+with arsenite for the indicated times. alternatively, cells
+were pretreated for the indicated times at 37°c with serumfree mem containing egta (5 mm), bapta-am (20
+␮m), catalase (300 units/ml, aspergillus niger), rapamycin
+(5 nm),  xxxd3536xxx  (500 nm),  xxxd2523xxx  (25 ␮m), or
+ xxxd1169xxx  (50 ␮m) before arsenite stimulation. after incubation, cells were rinsed twice with an ice-cold wash buffer
+solution containing 50 mm tris–hcl (ph 7.5), 120 mm
+nacl, 20 mm naf, 1 mm edta, 5 mm egta, 10 mm
+sodium pyrophosphate, 30 mm  xxxd2822xxx , 1
+mm  xxxd302xxx , and 0.1 mm phenylmethylsulfonyl fluoride, and then extracted in the same buffer containing 0.1%
+nonidet p-40. cell extracts were collected with a plastic
+scraper, homogenized, and cleared by centrifugation at 4°c
+for 15 min at 12,000 rpm. aliquots of the supernatant were
+frozen in liquid nitrogen and stored at ⫺70°c.
+immunoblotting
+cell lysates were boiled in laemmli sample buffer for 5
+min. cell lysates containing 50 ␮g of total protein were
+subjected to sds–polyacrylamide gel electrophoresis
+(page) on 15% slab gels for the determination of p70s6k
+
+146
+
+d.k. jung et al. / experimental cell research 290 (2003) 144 –154
+
+and  xxxg1369xxx /2, and proteins were transferred to polyvinylidene difluoride membranes. membranes were blocked for
+30 min in tris-buffered saline containing 0.5% tween 20
+and 5% (w/v) dry skim milk powder, and incubated overnight with anti-p70s6k and anti- xxxg1369xxx /2 antisera. the membranes were then washed with blocking solution and incubated for 90 min with alkaline phosphatase-conjugated goat
+anti-rabbit igg as secondary antibody. bound antibodies
+were detected with the enhanced amplified alkaline phosphatase immunoblot system (bio-rad).
+immunoprecipitation and p70s6k activity assay
+p70s6k was immunoprecipitated by incubating 20 ␮g
+(total 200 ␮l) of protein/assay of cell extract to an antibody
+directed to the c-terminal 18 residues of p70s6k for 2 h
+incubation at 4°c. immunoprecipitation was facilitated by
+the addition of protein a–sepharose (25 ␮l) for 30 min at
+4°c on a shaking plate. the beads were then washed twice
+at 4°c with an extraction buffer containing 50 mm tris–
+hcl (ph 7.5), 120 mm nacl, 20 mm naf, 1 mm edta, 5
+mm egta, 10 mm sodium pyrophosphate, 30 mm pnitrophenyl phosphate, 1 mm  xxxd302xxx , 0.1 mm pmsf,
+and 0.1% nonidet p-40, and once with a dilution buffer
+containing 50 mm mops (ph 7.0), 1 mm dtt, 5 mm
+mgcl2, 10 mm  xxxd2822xxx , and 0.1% nonidet
+p-40. p70s6k activity was assayed using the s6 peptide as a
+substrate by incubating the immunoprecipitate for 30 min in
+25 ␮l of reaction mixture containing 50 mm mops (ph 7.0),
+5 mm mgcl2, 1 mm dtt, 10 mm  xxxd2822xxx ,
+0.1% nonidet p-40, 0.6 ␮m pki, and 12 ␮m atp (plus
+0.75 ␮ci [␥-32p]atp). the reaction was terminated by the
+addition of 10 ␮l of 100 mm edta (ph 7.0). following a
+brief centrifugation, the supernatant was spotted on p-81
+paper. unincorporated [␥-32p]atp was eliminated by three
+10-min washes in 5% phosphoric acid, and phosphorylated
+s6 peptide bound to the paper was counted. assays were
+carried out in duplicate. the results were calculated as units
+of s6 kinase activity per milligram of protein lysate and
+expressed as the fold increase over the control value. one
+unit of activity represents the transfer of 1 pmol of 32pi into
+s6 peptide per minute under the assay conditions.
+measurement of intracellular reactive oxygen species
+cells were grown on coverslips for 2 days and serumfree mem for 1 day. the serum-deprived cells were stabilized in serum-free mem without phenol red for at least 30
+min and stimulated with arsenite for different times. sometimes, cells were preincubated with various inhibitors of
+protein kinases or antioxidants for 30 min before treatment
+with arsenite. for the last 5 min of stimulation, 5 ␮m 2⬘,
+7⬘-dichlorofluorescein (dcf) was added to monitor intracellular h2o2. then, the cells were immediately observed
+with a laser scanning confocal microscope (carl zeiss lsm
+410). the images of samples excited by a 488-nm argon
+
+laser were filtered through a long-pass 515-nm filter. thirty
+cells were randomly selected from each experiment and the
+mean relative fluorescence intensity of each group of cells
+was then measured with the karl zeiss vision system
+(ks400, version 3.0).
+electrophoretic mobility shift assay of activator protein 1
+of ap-1
+oligonucleotide probe containing the activator protein 1
+(ap-1) binding site tgactca (12-o-tetreadecanoylphorbol-13-acetate response element) was labeled with
+[␣-32p] xxxd1148xxx  using klenow fragment. the sequences of
+probe used in this work were 5⬘-ttg cgc atg act
+cac-3⬘ (sense) and 5⬘- xxxg889xxx  ggt gag tca tgc-3⬘ (antisense). binding reactions were performed at room temperature for 30 min with 5 ␮g of nuclear protein in 20 ␮l of
+binding buffer (10 mm hepes–koh, ph 7.7, 50 mm kcl,
+2.5 mm mgcl2, 1 mm dtt, 10% glycerol, and 1 ␮g/ml
+leupeptin, pepstatin, and aprotinin) containing 1 ␮g of poly[di– dc · di– dc] and 100,000 cpm 32p-labeled probe. the
+specificity of the binding reaction was confirmed by competition assay with a 100-fold molar excess of unlabeled
+oligonucleotide probe. dna–protein complex was separated from unbound probe on native 6% polyacrylamide
+gels. after electrophoresis, the gel was vacuum-dried and
+analyzed with the fluorescent image analyzer fla-2000
+(fujifilm, japan).
+
+results
+activation of p70s6k and  xxxg1369xxx /2 in response to arsenite
+we have reinvestigated previous reports that arsenite
+activates p70s6k [41] and  xxxg1369xxx /2 [40,44] to obtain kinetic
+information. thus, mouse jb6 epidermal cells were treated
+with various concentrations of arsenite and activity of
+p70s6k and  xxxg1369xxx /2 was measured. as shown in fig. 1,
+arsenite treatment led to dose-dependent phosphorylation
+and activation of p70s6k, as measured by its slower migration on western blots of one-dimensional sds–page and
+immune complex kinase assay. an increase in p70s6k activity was apparent above 10 ␮m arsenite and maximum
+p70s6k activity was observed at 100 ␮m (fig. 1a). the
+increase in phosphorylation and p70s6k activity following
+arsenite treatment was apparent as early as 10 min, with
+maximum activity at 60 min, which was sustained longer
+than 90 min (fig. 1b). similarly,  xxxg1369xxx /2 phosphorylation
+was also dose-dependent and appeared from 10 min, with
+maximal phosphorylation at 60 min, which was prolonged
+up to 90 min (figs. 2a, b). therefore, the results presented
+in figs. 1 and 2 not only confirm the earlier observations,
+but also provide additional information on the kinetics of
+p70s6k and  xxxg1369xxx /2 activation. the sustained activation of
+p70s6k and  xxxg1369xxx /2 with arsenite may be compared with the
+
+d.k. jung et al. / experimental cell research 290 (2003) 144 –154
+
+147
+
+cells [34]. as arsenite is known to produce ros [42,43], we
+presumed that ros might play a role as a mediator in the
+activation of p70s6k and  xxxg1369xxx /2 by arsenite. to determine
+the possibility, we first examined whether ros were generated following treatment of jb6 cells with arsenite by
+measuring the intracellular generation of ros with oxidation of the peroxide-sensitive fluorophore dcf. microfluorometric studies with laser scanning confocal microscopy
+revealed that exposure of quiescent cells to arsenite resulted
+in a dose-dependent increase in dcf fluorescence (figs.
+3a, b). the increase in dcf fluorescence was apparent as
+early as 10 min after the arsenite treatment, and maximum
+production of ros was observed at 60 min, and was sustained for up to 90 min with a slight decrease (fig. 3c). the
+arsenite-stimulated increase in dcf fluorescence was completely abolished by preincubation with catalase (figs. 4a,
+b) which is taken up by an unknown mechanism across the
+plasma membrane of vascular smooth muscle cells [33] as
+well as jb6 cells [34]. however, pretreatment of jb6 cells
+with heat-inactivated catalase did not affect arsenite-induced ros production, indicating that the predominant
+ros produced was h2o2 (figs. 4a, b).
+the dose response and time course of h2o2 production
+were well correlated with those of p70s6k and  xxxg1369xxx /2
+activation; suggesting a possible role of h2o2 in the arsenite-induced activation of p70s6k and  xxxg1369xxx /2. to further
+confirm the role of h2o2 in arsenite-induced activation of
+p70s6k and  xxxg1369xxx /2, we attempted to reduce intracellular
+arsenite-induced h2o2 generation with antioxidants such as
+catalase and  xxxd68xxx  (nac), a thiol-containing
+compound, which nonenzymatically interacts and detoxifies
+reactive electrophiles and free radicals [46]. when jb6 cells
+were preincubated with catalase from aspergillus niger
+fig. 1. p70s6k was activated by arsenite in a dose- and time-dependent manner.
+(a) serum-deprived jb6 cells were stimulated with the indicated concentrations of arsenite for 60 min. cell lysates were immunoprecipitated using a
+specific antibody for p70s6k and assayed for s6 kinase activity as described
+under materials and methods. p70s6k activity was expressed as the fold increase over the control value. the results shown represent the means ⫾ sem
+of three independent experiments. the levels of p70s6k phosphorylation in the
+above-described cell lysates were monitored as slower migration of a family of
+bands on sds–page and immunoblot analysis using a specific antibody for
+p70s6k. (b) after treatment with arsenite (100 ␮m) for the indicated times in
+serum-deprived jb6 cells, cell lysates were immunoprecipitated and assayed
+for s6 kinase activity as described under materials and methods. inset: levels
+of p70s6k phosphorylation in the cell lysates.
+
+transient activation usually observed with growth factors
+such as egf [45]. however, the magnitude of p70s6k activation by arsenite (about fivefold activation) is comparable
+to that seen with egf [46].
+involvement of intracellular h2o2 in arsenite activation
+of p70s6k and  xxxg1369xxx /2
+a recent study showed that h2o2 was able to mediate the
+activation of p70s6k and  xxxg1369xxx /2 by growth factor in jb6
+
+fig. 2.  xxxg1369xxx /2 was activated by arsenite in a dose- and time-dependent manner.
+(a) serum-deprived jb6 cells were stimulated with the indicated concentrations of
+arsenite for 60 min. (b) to examine the kinetics of arsenite activation of  xxxg1369xxx /2,
+serum-deprived jb6 cells were treated with arsenite (100 ␮m) for the indicated
+times. the activation of  xxxg1369xxx /2 in arsenite-stimulated cell lysates was monitored
+as slower migration of a family of bands on sds–page and immunoblot analysis
+using a specific antibody for  xxxg1369xxx /2. results show a representative blot from
+three independent experiments.
+
+148
+
+d.k. jung et al. / experimental cell research 290 (2003) 144 –154
+
+fig. 3. h2o2 was produced by arsenite in a dose- and time-dependent manner. jb6 cells were grown on coverslips for 2 days and serum-free mem for 1
+day. the serum-deprived cells were stabilized in serum-free mem without phenol red for at least 30 min. (a) after treatment with the indicated
+concentrations of arsenite (as) for 60 min, cells were incubated in the presence of 5 ␮m dcf for the last 5 min to monitor intracellular ros. dcf
+fluorescence was measured with a confocal scanning laser microscope. results are representative photographs from three independent experiments. (b) thirty
+cells were randomly selected from each of the experiments in (a), and fluorescence intensity was then measured with the karl zeiss vision system (ks400,
+version 3.0) and averaged. fluorescence intensity of each group is expressed as the fold increase over the control value. data shown represent means ⫾ sem
+of the fluorescence intensities of each group. (c) after treatment with arsenite (100 ␮m) for the indicated time, cells were incubated in the presence of 5
+␮m dcf for the last 5 min to monitor intracellular ros. the fluorescence intensity is the mean ⫾ sem of three independent experiments.
+
+(300 units/ml) or nac (30 mm) for 30 min, p70s6k phosphorylation and activity (fig. 4c), as well as  xxxg1369xxx /2 phosphorylation (fig. 4d), decreased: activation of p70s6k and
+ xxxg1369xxx /2 was almost completely inhibited to near-basal levels. these results suggest that the sustained production of
+h2o2 by arsenite could be responsible for the persistent
+activation of p70s6k and  xxxg1369xxx /2, thereby leading to tumor
+promotion. consistent with these results,  xxxg1369xxx /2 activation
+by arsenite has been demonstrated to be required for the
+arsenite-induced cell transformation [47].
+effect of calcium chelators on arsenite-induced p70s6k
+activity
+earlier studies showed that incubation of various cells
+with compounds that increase intracellular calcium concen-
+
+tration (ionophore a23187, thapsigargin) stimulates p70s6k
+[48], and that pdgf- or h2o2-induced p70s6k activation is
+ablated by ca2⫹ chelation [24,34], indicating a possible role
+of ca2⫹ in regulation of p70s6k. however, the requirement
+of ca2⫹ for  xxxg1369xxx /2 activation has been shown to vary with
+individual cell types and stimuli [34,49,50]. we therefore
+examined the possible involvement of ca2⫹ in arsenite
+activation of p70s6k and  xxxg1369xxx /2. when jb6 cells were
+preincubated with either the extracellular calcium chelator
+egta (5 mm) or the cell-permeant calcium chelator
+bapta-am (20 ␮m), the activation and phosphorylation
+of p70s6k by arsenite were completely inhibited (fig. 5a). in
+comparison, neither egta nor bapta-am significantly
+inhibited arsenite-induced phosphorylation of  xxxg1369xxx /2 (fig.
+5b). these results indicate that the arsenite-stimulated
+
+d.k. jung et al. / experimental cell research 290 (2003) 144 –154
+
+149
+
+fig. 4. h2o2 was an intracellular mediator in arsenite activation of p70s6k and  xxxg1369xxx /2. (a) cells were pretreated with 30 mm nac, catalase (300 units/ml,
+from aspergillus niger), or heat-inactivated catalase for 30 min before stimulation with 100 ␮m arsenite. results are representative photographs from three
+independent experiments. (b) fluorescence intensity was measured and is expressed as the fold increase as described for fig. 3. (c) serum-deprived jb6 cells
+were stimulated with arsenite (100 ␮m) for 60 min. alternatively, samples were preincubated with 30 mm nac or 300 units/ml catalase for 30 min. activity
+and phosphorylation of p70s6k were measured as described earlier. the results shown are means ⫾ sem of three independent determinations. (d)
+phosphorylation of  xxxg1369xxx /2 was analyzed as described in fig. 2. nac,  xxxd68xxx .
+
+p70s6k signaling pathway is intracellular calcium-dependent, whereas the arsenite activation of  xxxg1369xxx /2 is not, in
+jb6 cells. the requirement for ca2⫹ appeared to be downstream of h2o2, because pretreatment of jb6 cells with
+egta and bapta-am did not cause any alteration of
+h2o2 production by arsenite (figs. 7a, b). consistent with
+these results, h2o2 stimulation of ca2⫹ release has also
+been observed in rat-2 fibroblasts [51].
+differential involvement of pi3k in arsenite-activated
+p70s6k and  xxxg1369xxx /2 signaling pathways
+in rat cardiomyocytes, it has been observed that arsenite
+activation of p70s6k is inhibited by inhibitors of pi3k, indicating the possible involvement of pi3k in the activation
+of p70s6k by arsenite [41]. although it has been suggested
+
+that pi3k acts as an upstream molecule of h2o2 produced
+by pdgf [52], this has been disputed, because exposure of
+cardiomyocytes to h2o2 markedly increased pi3k activity
+and tyrosine phosphorylation of the p85 regulatory subunit
+[53]. thus, we further characterized the role of pi3k as well
+as frap in arsenite-induced signaling pathways, using specific inhibitors for pi3k and frap. pretreatment of jb6
+cells with  xxxd3536xxx  (500 nm) or  xxxd2523xxx  (25 ␮m)
+completely inhibited arsenite activation and phosphorylation of p70s6k to almost basal levels (fig. 6a), indicating
+the possible role of pi3k as a mediator of arsenite activation
+of p70s6k. in constrast, the phosphorylation of  xxxg1369xxx /2 by
+arsenite was not affected by pi3k inhibitors (fig. 6b),
+indicating that pi3k was not required for activation of the
+ xxxg1369xxx /2 signaling pathway by arsenite. neither  xxxd3536xxx 
+nor  xxxd2523xxx  suppressed h2o2 production by arsenite
+
+150
+
+d.k. jung et al. / experimental cell research 290 (2003) 144 –154
+
+electrophoretic mobility shift assay (emsa). ap-1 dna
+binding activity increased in a time-dependent manner, being apparent as early as 10 min after arsenite treatment, with
+maximum activation occurring at 90 min, which was sustained for up to 120 min (fig. 8a). arsenite activation of
+ap-1 was ablated by pretreatment with the mek inhibitor
+ xxxd1169xxx , but not by specific inhibitors of the p70s6k signaling pathway— xxxd3536xxx ,  xxxd2523xxx , and rapamycin—indicating the role of the  xxxg1369xxx /2 pathway as a mediator of ap-1 activation by arsenite (fig. 8b). furthermore,
+ap-1 activation by arsenite was completely inhibited by
+reducing h2o2 production through pretreatment of the cells
+with antioxidants such as catalase and nac (fig. 8c). the
+specificity of ap-1 dna binding was confirmed by a competition assay with a 100-fold molar excess of unlabeled
+oligonucleotide probe (data not shown). taken together, the
+results suggest that arsenite activation of ap-1 is mediated
+by h2o2-induced erk 1/2 activation.
+
+discussion
+fig. 5. arsenite activation of 70s6k was mediated by the intracellular ca2⫹
+signaling pathway. serum-deprived jb6 cells were stimulated with 100
+␮m arsenite for 60 min. alternatively, samples were preincubated with 5
+mm egta or 20 ␮m bapta-am for 30 min. (a) the activity and
+phosphorylation of p70s6k were assayed as described in fig. 1. the results
+shown represent the means ⫾ sem of four independent experiments. (b)
+phosphorylation of  xxxg1369xxx /2 was determined as described in fig. 2.
+
+recently, ros such as h2o2 and superoxide have gained
+acceptance as modulators of receptor-mediated signal transduction in a variety of cell types [56]. we have recently
+
+(figs. 7a, b). these observations further support the notion
+that pi3k acted downstream rather than upstream of h2o2
+produced by arsenite, because arsenite activation of  xxxg1369xxx /2
+would be inhibited by the decrease in h2o2 by pi3k inhibitors, if pi3k acted as an upstream molecule of h2o2. the
+frap-specific inhibitor rapamycin at 5 nm significantly
+inhibited arsenite-induced p70s6k activity, indicating the involvement of frap in arsenite activation of p70s6k. pretreatment of jb6 cells with the mek-specific inhibitor
+ xxxd1169xxx  (50 ␮m) significantly inhibited  xxxg1369xxx /2 activation, but had no effect on p70s6k activity at the same concentration (figs. 6a, b). therefore, arsenite stimulation of
+p70s6k appears to be mediated through pi3k and frap.
+requirement of h2o2 and  xxxg1369xxx /2 for induction of
+activator protein 1 activity by arsenite
+it is known that arsenite stimulates transcription factor
+ap-1 activity through the mitogen-activated kinase cascade
+in several cell systems [47,54,55]. ap-1 mediates many
+biological effects of tumor promoters and is an important
+regulator of cell growth. we therefore investigated the possible role of h2o2 and  xxxg1369xxx /2 in stimulation of ap-1
+activity by arsenite, and measured the change in ap-1 binding affinity following treatment with 100 ␮m arsenite by
+
+fig. 6. the p13k signaling pathway was differentially involved in arsenite
+activation of p70s6k and  xxxg1369xxx /2. serum-deprived jb6 cells were stimulated with 100 ␮m arsenite for 60 min. alternatively, the cells were
+preincubated with 50 ␮m  xxxd1169xxx , 5 nm rapamycin, 500 nm  xxxd3536xxx , or 25 ␮m  xxxd2523xxx  for 30 min. (a) activity and phosphorylation of
+p70s6k, and (b) phosphorylation of  xxxg1369xxx /2 were assayed as described
+earlier. the results shown are the means ⫾ sem and typical representative
+blot of three independent experiments.
+
+d.k. jung et al. / experimental cell research 290 (2003) 144 –154
+
+151
+
+fig. 7. ca2⫹ chelator, pi3k inhibitors, and rapamycin did not inhibit h2o2 production by arsenite. serum-deprived jb6 cells were stimulated with 100 ␮m
+arsenite for 60 min. alternatively, the cells were preincubated with 20 ␮m bapta-am, 25 ␮m  xxxd2523xxx , 500 nm  xxxd3536xxx , or 5 nm rapamycin for
+30 min. (a) dcf fluorescence was measured with a confocal scanning laser microscope. results are representative photographs from three independent
+experiments. (b) ros generation was measured by dcf fluorescence as described in fig. 3.
+
+152
+
+d.k. jung et al. / experimental cell research 290 (2003) 144 –154
+
+fig. 8. ap-1 activation was mediated by the arsenite-activated h2o2–
+ xxxg1369xxx /2 signaling pathway. (a) serum-deprived jb6 cells were stimulated
+with 100 ␮m arsenite for the indicated times. nuclear extracts were
+prepared, and dna binding activity of ap-1 was determined by emsa as
+described under materials and methods. the positive control sample was
+stimulated with 10% serum for 20 min. (b) to determine the signaling
+pathway involved in arsenite activation of ap-1, serum-deprived jb6 cells
+were pretreated with 50 ␮m  xxxd1169xxx , 5 nm rapamycin, 500 nm  xxxd3536xxx , or 25 ␮m  xxxd2523xxx  for 30 min. after stimulation with 100 ␮m
+arsenite for 90 min, nuclear extracts were prepared and dna binding
+activity of ap-1 was determined by emsa. (c) to elucidate the involvement of h2o2 in arsenite activation of ap-1, serum-deprived jb6 cells
+were pretreated with nac (30 mm) or catalase (300 units/ml) for 30 min.
+after stimulation with 100 ␮m arsenite for 90 min, dna binding activity
+of ap-1 was determined by emsa.
+
+demonstrated that the generation of h2o2 is required for
+pdgf- and egf-induced activation of p70s6k and  xxxg1369xxx /2
+[34]. in addition, arsenite has been shown to produce ros
+as well as to activate p70s6k and  xxxg1369xxx /2 [40 – 43]. however, none of the previous studies linked the activation of
+p70s6k and  xxxg1369xxx /2 to ros production in arsenite-stimulated cells. in the present study, we provide direct evidence
+for this linkage. arsenite was found to induce activation of
+p70s6k and  xxxg1369xxx /2. however, this response differed from
+the ligand-induced response. while endogenous stimuli
+such as egf have been demonstrated to cause transient
+activation of p70s6k and  xxxg1369xxx /2 [45], arsenite induced
+sustained activation of these kinases (fig. 1, 2). consistent
+with our observation, persistent activation (for up to 45 min)
+of  xxxg1369xxx /2 by arsenite has been shown in urotsa cells, an
+sv40 immortalized human urothelium cell line [57]. the
+prolonged activation of these kinases by arsenite could be
+important in progression of the cell cycle, thereby leading to
+
+continued cell proliferation. these findings are in good
+agreement with other observations that p70s6k activity remains maximally activated for up to 14 h after serum induction, a time just before the cells first enter s phase [58].
+furthermore, microinjection of quiescent rat embryo fibroblasts with polyclonal antibodies against p70s6k during the
+first 10 h after serum induction totally abrogated entry of the
+cells into s phase, indicating that p70s6k function was essential throughout g1 phase. in support of the above observation, p70s6k was also found to be constitutively activated
+in small cell lung cancer cells [29]. pretreatment of the cells
+with rapamycin, a specific inhibitor of p70s6k, inhibited
+growth of the cells at concentrations similar to those required for inducing inactivation of p70s6k [29]. thus, the
+prolonged activation of p70s6k by arsenite would play an
+important role in promoting the growth of cancer cells.
+in addition to the ability to activate p70s6k and  xxxg1369xxx /2,
+arsenite has been implicated in production of ros [42,43].
+in fact, arsenite induced time- and dose-dependent production of ros. the kinetic pattern of ros production by
+arsenite was very similar to that of activation of p70s6k and
+ xxxg1369xxx /2, indicating a possible link between ros production
+and activation of p70s6k and  xxxg1369xxx /2: arsenite activation of
+p70s6k and  xxxg1369xxx /2 was completely inhibited by antioxidants. furthermore, the major ros produced by arsenite
+appeared to be h2o2, because arsenite-induced production
+of ros was significantly abolished by pretreatment with
+catalase but not with heat-inactivated catalase. mutational
+analysis of pdgf␤r has demonstrated that pi3k is required
+for pdgf-induced production of h2o2, indicating the role
+of pi3k as an upstream molecule of h2o2 [52]. however,
+contrary to the above, we earlier demonstrated that h2o2
+acted as an upstream molecule of pi3k, frap, and ca2⫹ in
+the p70s6k signaling pathway [34]. consistent with this
+observation, specific inhibitors for pi3k, frap, or ca2⫹
+chelators abrogated arsenite activation of p70s6k without
+any alteration of h2o2 production, thus indicating pi3k,
+frap, and ca2⫹ as downstream effectors of h2o2 in arsenite signaling leading to p70s6k activation. if pi3k acted
+as an upstream molecule of h2o2, inhibition of pi3k by
+specific inhibitors would induce inactivation of p70s6k as
+well as  xxxg1369xxx /2, because no h2o2 would be produced.
+however, inhibition of pi3k failed to inactivate  xxxg1369xxx /2,
+confirming pi3k as a downstream effector of h2o2, this
+possibility is further strengthened by an earlier observation
+that exposure of cardiomyocytes to h2o2 led to sustained
+activation of pi3k as well as tyrosine phosphorylation of
+the p85 regulatory subunit [53].
+several lines of evidence have demonstrated that arsenite
+may act early in the growth factor signaling pathway. in
+particular, arsenite activated  xxxg1369xxx /2 in rat pc12 cells
+through ras-dependent signaling [40], and stimulated  xxxg2198xxx 
+activity and tyrosine phosphorylation of several proteins
+including the proto-oncoprotein shc and egf receptor [40,
+57]. these effects of arsenite were antagonized by anitioxidant, indicating that effects of arsenite on early growth
+
+d.k. jung et al. / experimental cell research 290 (2003) 144 –154
+
+factor signaling might be mediated by a ros which appeared to be h2o2, because production of ros by arsenite
+was completely abolished by catalase treatment (fig. 4a).
+furthermore, h2o2 has also been shown to cause phosphorylation of growth factor receptors [53]. in support of the
+above observation, activation of p70s6k and  xxxg1369xxx /2 by
+arsenite was significantly inhibited by treatment with the
+protein  xxxg2198xxx  inhibitor genistein (unpublished
+data).
+epidemiological studies have revealed that many skin
+cancers occur among people medically or occupationally
+exposed to arsenite and that high exposure to arsenite
+through drinking water is associated with increased risk of
+skin, bladder, kidney, lung, and colon cancers [6,59]. consistent with these observations, chronic exposure of cultured
+cells to low concentrations of arsenic leads to transformation [60]. furthermore, mice exposed to 0.01% arsenite in
+drinking water develop hyperplasia of the bladder urothelium within 4 weeks of exposure [61]. one possible explanation of its tumor-promoting properties in humans, animals, and cultured cells could be activation of early events
+in the growth factor signaling pathway by sustained production of h2o2 by arsenite. h2o2 produced by arsenite might
+activate growth factor receptor by increasing its tyrosine
+phosphorylation, thereby leading to stimulation of the
+p70s6k and  xxxg1369xxx /2 pathways, which are critical signaling
+events for cell proliferation [10,11], strongly indicating
+h2o2 to be a pivotal mediator of the tumor-promoting
+activity of arsenite. finally, our findings presented herein
+provide one of the mechanisms for the tumor-promoting
+properties of arsenite and suggest h2o2 as a potential target
+for therapeutic strategies aimed at preventing or inhibiting
+arsenite-induced tumor growth.
+acknowledgments
+this study was supported by a grant of the korea health
+21 r&d project, ministry of health & welfare, republic of
+korea (hmp-00-b-20900-0092)
+references
+[1] e.t. snow, metal carcinogenesis: mechanistic implications, pharmacol, ther. 53 (1992) 31– 65.
+[2] p. bagla, j. kaiser, india’s spreading health crisis draws global
+arsenic experts, science 274 (1996) 174 –175.
+[3] f.r. bettley, j. o’shea, the absorption of arsenic and its relation to
+carcinoma, br. j. dermatol. 92 (1975) 563–568.
+[4] j. cuzick, s. evans, m. gillman, d.a. price evans, medicinal arsenic
+and internal malignancies, br. j. cancer 45 (1982) 904 –911.
+[5] d.r. germolec, t. yoshida, k. gaido, j.l. wilmer, p.p. simeonova,
+f. kayama, f. burleson, w. dong, r.w. lange, m.i. luster, arsenic
+induces overexpression of growth factors in human keratinocytes,
+toxicol. appl. pharmacol. 141 (1996) 308 –318.
+[6] w.p. tseng, m.m. chu, s.w. how, prevalence of skin cancer in an
+endemic area of chronic arsenicism in taiwan, j. natl. cancer ins. 40
+(1968) 453– 463.
+
+153
+
+[7] a. hartwig, u.d. groblinghoff, d. beyersmann, a.t. natarajan, r.
+filon, l.h. mullenders, interaction of arsenic(iii) with nucleotide
+excision repair in uv-irradiated human fibroblasts, carcinogenesis 18
+(1997) 399 – 405.
+[8] l. chang, m. karin, mammalian map kinase signaling cascades,
+nature 410 (2001) 37– 40.
+[9] m.j. clemens, u.a. bommer, translational control: the cancer connection, int. j. biochem. cell. biol. 31 (1999) 1–23.
+[10] r.j. davis, the mitogen-activated protein kinase signal transduction
+pathway, j. biol. chem. 268 (1993) 14553–14556.
+[11] s.j. morley, g. thomas, intracellular messengers and the control of
+protein synthesis, pharmacol. ther. 50 (1991) 291–319.
+[12] w.j. fantl, d.e. johnson, l.t. williams, signalling by receptor
+tyrosine kinases, annu. rev. biochem. 62 (1993) 453– 481.
+[13] c.h. heldin, dimerization of cell surface receptors in signal transduction, cell 80 (1995) 213–223.
+[14] l.a. feig, the many roads that lead to ras, science 260 (1993)
+767–768.
+[15] j. schlessinger, how receptor tyrosine kinases activate ras, trends
+biochem. sci. 18 (1993) 273–275.
+[16] j. avruch, x.f. zhang, j.m. kyriakis, raf meets ras: completing the
+framework of a signal transduction pathway, trends biochem. sci. 19
+(1994) 279 –283.
+[17] x.f. ming, b.m.t. burgering, s. wennstrom, l. claesson-welsh,
+c.h. heldin, j. l. bos, s. c. kozma, g. thomas, activation of
+p70/p85 s6 kinase by a pathway independent of  xxxg1077xxx , nature 371
+(1994) 426 – 429.
+[18] j. chung, t. grammer, k.p. lemon, a. kazlauskas, j. blenis, pdgfand insulin-dependent pp70s6k activation mediated by phosphatidylinositol-3-oh kinase, nature 370 (1994) 71–75.
+[19] q.p. weng, k. andrabi, a. klippel, m.t. kozlowski, l.t. williams,
+j. avruch, phosphatidylinositol 3-kinase signals activation of p70 s6
+kinase in situ through site-specific p70 phosphorylation, proc. natl.
+acad. sci. usa. 92 (1995) 5744 –5748.
+[20] j. downward, signal transduction: a target for pi(3) kinase, nature
+376 (1995) 553–554.
+[21] t. kitamura, w. ogawa, h. sakaue, y. hino, s. kuroda, m. takata,
+m. matsumoto, t. maeda, h. konishi, u. kikkawa, m. kasuga,
+requirement for activation of the serine–threonine kinase akt (protein kinase b) in insulin stimulation of protein synthesis but not of
+glucose transport, mol. cell. biol. 18 (1998) 3708 –3717.
+[22] b. cheatham, c.j. vlahos, l. cheatham, l. wang, j. blenis, c.r.
+kahn, phosphatidylinositol 3-kinase activation is required for insulin
+stimulation of pp70 s6 kinase, dna synthesis, and glucose transporter translocation, mol. cell. biol. 14 (1994) 4902– 4911.
+[23] m. andjelkovic, t. jakubowicz, p. cron, x-f. ming, j.w. han, b.a.
+hemmings, activation and phosphorylation of a pleokstrin homology
+domain containing protein kinase (rac-pk/pkb) promoted by serum and protein phosphatase inhibitors, proc. natl. acad. sci. usa
+93 (1996) 5699 –5704.
+[24] n.m. conus, b.a. hemmings, r.b. pearson, differential regulation
+by calcium reveals distinct signaling requirements for the activation
+of akt and p70s6k, j. biol. chem. 273 (1998) 4776 – 4782.
+[25] m.j. stewart, g. thomas, mitogenesis and protein synthesis: a role
+for ribosomal protein s6 phosphorylation? bioessay 16 (1994) 809 –
+815.
+[26] h.b. jefferies, c. reinhard, s.c. kozma, g. thomas, rapamycin
+selectively represses translation of the “polypyrimidine tract” mrna
+family, proc. natl. acad. sci. usa 91 (1994) 4441– 4445.
+[27] h.b. jefferies, g. thomas, g. thomas, elongation factor-1 alpha
+mrna is selectively translated following mitogenic stimulation,
+j. biol. chem. 269 (1994) 4367– 4372.
+[28] s. cowley, h. paterson, p. kemp, c.j. marshall, activation of map
+kinase kinase is necessary and sufficient for pc12 differentiation and
+for transformation of nih 3t3 cells, cell 77 (1994) 841– 852.
+
+154
+
+d.k. jung et al. / experimental cell research 290 (2003) 144 –154
+
+[29] t. seufferlein, e. rozengurt, rapamycin inhibits constitutive p70s6k
+phosphorylation, cell proliferation, and colony formation in small cell
+lung cancer cells, cancer res. 56 (1996) 3895–3897.
+[30] e. lengyel, h. wang, r. gum, c. simon, y. wang, d. boyd,
+elevated  xxxg1767xxx  receptor expression in
+a colon cancer cell line is due to a constitutively activated extracellular signal-regulated kinase-1-dependent signaling cascade, oncogene 14 (1997) 2563–2573.
+[31] c.m. schmidt, i.h. mckillop, p.a. cahill, j.v. sitzmann, increased
+mapk expression and activity in primary human hepatocellular carcinoma, biochem. biophys. res. commun. 236 (1997) 54 –58.
+[32] s.g. sullivan, d.t. chiu, m. errasfa, j.m. wang, j.s. qi, a. stern,
+effects of h2o2 on protein tyrosine phosphatase activity in her14
+cells, free radical biol. med. 16 (1994) 399 – 403.
+[33] m. sundaresan, z.x. yu, v.j. ferrans, k. irani, t. finkel, requirement for generation of h2o2 for platelet-derived growth factor signal
+transduction, science 270 (1995) 296 –299.
+[34] g.u. bae, d.w. seo, h.k. kwon, h.y. lee, s. hong, z.w. lee, k.s.
+ha, h.w. lee, j.w. han,  xxxd2298xxx  activates p70s6k signaling pathway, j. biol. chem. 274 (1999) 32596 –32602.
+[35] s.k. manna, h.j. zhang, t. yan, l.w. oberley, b.b. aggarwal,
+overexpression of manganese superoxide dismutase. suppresses  xxxg2296xxx -induced apoptosis and activation of nuclear transcription factor-kappab and activated protein-1, j. biol. chem. 273
+(1998) 13245–13254.
+[36] r. schreck, p. rieber, p.a. baeuerle, reactive oxygen intermediates
+as apparently widely used messengers in the activation of the nfkappa b transcription factor and hiv-1, embo j. 10 (1991) 2247–
+2258.
+[37] y.y.c. lo, t.f. cruz, involvement of reactive oxygen species in
+cytokine and growth factor induction of c-fos expression in chondrocytes, j. biol. chem. 270 (1995) 11727–11730.
+[38] k.z. guyton, y. liu, m. gorospe, q. xu, n.j. holbrook, activation
+of mitogen-activated protein kinase by h2o2: role in cell survival
+following oxidant injury, j. biol. chem. 271 (1996) 4138 – 4142.
+[39] y.y.c. lo, j.m.s. wong, t.f. cruz, reactive oxygen species mediate
+cytokine activation of c-jun nh2-terminal kinases, j. biol. chem. 271
+(1996) 15703–15707.
+[40] w. chen, j.l. martindale, n.j. holbrook, y. liu, tumor promoter
+arsenite activates extracellular signal-regulated kinase through a signaling pathway mediated by  xxxg682xxx  and
+shc, mol. cell. biol. 18 (1998) 5178 –5188.
+[41] x. wang, c.g. proud, p70 s6 kinase is activated by sodium arsenite
+in adult rat cardiomyocytes: roles for phosphatidylinositol 3-kinase
+and  xxxg1368xxx , biochem. biophys. res. commun. 238 (1997)
+207–212.
+[42] m.c. duyndam, t.m. hulscher, d. fontijn, h.m. pinedo, e. boven,
+induction of  xxxg2413xxx  expression and hypoxia-inducible factor 1 alpha protein by the oxidative stressor arsenite, j. biol. chem. 276 (2001) 48066 – 48076.
+[43] m. ozaki, s.s. deshpande, p. angkeow, s. suzuki, k. irani, rac1
+regulates stress-induced, redox-dependent heat shock factor activation, j. biol. chem. 275 (2000) 35377–35383.
+[44] c. huang, w.y. ma, j. li, a. goranson, z. dong, requirement of
+erk, but not jnk, for arsenite-induced cell transformation, j. biol.
+chem. 274 (1999) 14595–14601.
+[45] m. susa, a.r. olivier, d. fabbro, g. thomas, egf induces biphasic
+s6 kinase activation: late phase is protein kinase c-dependent and
+contributes to mitogenicity, cell 57 (1989) 817– 824.
+
+[46] p. moldeus, i.a. cotgreave, m. berggren, lung protection by a
+thiol-containing antioxidant:  xxxd68xxx , respiration 50 (1986)
+31– 42.
+[47] c. huang, w.y. ma, c.a. ryan, z. dong, proteinase inhibitors i and
+ii from potatoes specifically block uv-induced  xxxg1222xxx 
+activation through a pathway that is independent of extracellular
+signal-regulated kinases, c-jun n-terminal kinases, and p38 kinase,
+proc. natl. acad. sci. usa 94 (1997) 11957–11962.
+[48] l.m. graves, y. he, j. lambert, d. hunter, x. li, h.s. earp, an
+intracellular calcium signal activates p70 but not p90 ribosomal s6
+kinase in liver epithelial cells, j. biol. chem. 272 (1997) 1920 –1928.
+[49] b.h. shah, k.j. catt, calcium-independent activation of extracellularly regulated kinases 1 and 2 by  xxxg99xxx  in hepatic c9 cells:
+roles of protein kinase cdelta, src/proline-rich  xxxg2364xxx , and
+epidermal growth receptor trans-activation, mol. pharmacol. 61
+(2002) 343–351.
+[50] s. eguchi, h. iwasaki, h. ueno, g.d. frank, e.d. motley, k. eguchi,
+f. marumo, y. hirata, t. inagami, intracellular signaling of  xxxg99xxx -induced p70 s6 kinase phosphorylation at ser(411) in vascular smooth muscle cells: possible requirement of epidermal growth
+factor receptor, ras, extracellular signal-regulated kinase, and akt,
+j. biol. chem. 274 (1999) 36843–36851.
+[51] z.w. lee, s.m. kweon, b.c. kim, s.h. leem, i. shin, j.h. kim, k.s.
+ha, phosphatidic acid-induced elevation of intracellular ca2⫹ is mediated by rhoa and h2o2 in rat-2 fibroblasts, j. biol. chem. 273
+(1998) 12710 –12715.
+[52] y.s. bae, j.y. sung, o.s. kim, y.j. kim, k.c. hur, a. kazlauskas,
+s.g. rhee, platelet-derived growth factor-induced h2o2 production
+requires the activation of phosphatidylinositol 3-kinase, j. biol.
+chem. 275 (2000) 10527–10531.
+[53] v.c. tu, j.j. bahl, q.m. chen, signals of oxidant-induced cardiomyocyte hypertrophy: key activation of p70 s6 kinase-1 and phosphoinositide 3-kinase, j. pharmacol. exp. ther. 300 (2002) 1101–
+1110.
+[54] m. cavigelli, w.w. li, a. lin, b. su, k. yoshioka, m. karin, the
+tumor promoter arsenite stimulates ap-1 activity by inhibiting a jnk
+phosphatase, embo j. 15 (1996) 6269 – 6279.
+[55] b. dérijard, m. hibi, i.h. wu, t. barrett, b. su, t. deng, m. karin,
+r.j. davis,  xxxg1370xxx : a protein kinase stimulated by uv light and
+ xxxg1077xxx  that binds and phosphorylates the c-jun activation domain,
+cell 76 (1994) 1025–1037.
+[56] y.j. suzuki, h.j. forman, a. sevanian, oxidants as stimulators of
+signal transduction, free radical biol. med. 22 (1997) 269 –285.
+[57] p.p. simeonova, s. wang, t. hulderman, m.i. luster,  xxxg2198xxx -dependent activation of the  xxxg682xxx  and mitogenactivated protein kinase pathway by arsenic: role in carcinogenesis,
+j. biol. chem. 277 (2002) 2945–2950.
+[58] h.a. lane, a. fernandez, n.j. lamb, g. thomas, p70s6k function is
+essential for g1 progression, nature 363 (1993) 170 –172.
+[59] a.b.g. lansdown, physiological and toxicological changes in the
+skin resulting from the action and interaction of metal ions, crit. rev.
+toxicol. 25 (1995) 397– 462.
+[60] c.q. zhao, m.r. young, b.a. diwan, t.p. coogan, m.p. waalkes,
+association of arsenic-induced malignant transformation with dna
+hypomethylation and aberrant gene expression, proc. natl. acad. sci.
+usa 94 (1997) 10907–10912.
+[61] p.p. simeonova, s. wang, w. toriuma, v. kommineni, j. matheson,
+n. unimye, f. kayama, d. harki, m. ding, v. vallyathan, m.i.
+luster, arsenic mediates cell proliferation and gene expression in the
+bladder epithelium: association with activating protein-1 transactivation, cancer res. 60 (2000) 3445–3453.
+

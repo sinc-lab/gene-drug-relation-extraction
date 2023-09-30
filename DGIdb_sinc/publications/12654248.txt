@@ -1,0 +1,886 @@
+cell, vol. 112, 819–829, march 21, 2003, copyright 2003 by cell press
+
+ xxxg2331xxx , a trp-like channel
+expressed in nociceptive neurons,
+is activated by cold temperatures
+gina m. story,1 andrea m. peier,2 alison j. reeve,3
+samer r. eid,1 johannes mosbacher,4
+todd r. hricik,1 taryn j. earley,1
+anne c. hergarden,2 david a. andersson,3
+sun wook hwang,1 peter mcintyre,3 tim jegla,2
+stuart bevan,3 and ardem patapoutian1,2,*
+1
+department of cell biology
+the scripps research institute
+la jolla, california 92037
+2
+genomics institute of the novartis research
+foundation
+san diego, california 92121
+3
+novartis institute for medical sciences
+london
+wc1e 6bn
+united kingdom
+4
+nervous system research
+novartis pharma ag
+basel ch-4002
+switzerland
+
+summary
+mammals detect temperature with specialized neurons in the peripheral nervous system. four trpvclass channels have been implicated in sensing heat,
+and one trpm-class channel in sensing cold. the
+combined range of temperatures that activate these
+channels covers a majority of the relevant physiological spectrum sensed by most mammals, with a significant gap in the noxious cold range. here, we describe
+the characterization of  xxxg2331xxx , a cold-activated
+channel with a lower activation temperature compared
+to the cold and menthol receptor,  xxxg2334xxx .  xxxg2331xxx  is
+a distant family member of trp channels with very
+little amino acid similarity to  xxxg2334xxx . it is found in
+a subset of nociceptive sensory neurons where it is
+coexpressed with trpv1/ xxxg2335xxx  (the capsaicin/heat receptor) but not  xxxg2334xxx . consistent with the expression
+of  xxxg2331xxx , we identify noxious cold-sensitive sensory neurons that also respond to capsaicin but not
+to menthol.
+introduction
+john updike wrote, “cold is an absence, an absence
+of heat, and yet it feels like a presence” (updike, 1980).
+the ability to sense cold as a distinct presence resides
+in specialized neurons within the peripheral nervous system that detect environmental temperature. the cell
+bodies of these sensory neurons are clustered in ganglia
+located in the vertebral column and cranium, and their
+projections extend for long distances to peripheral
+tissues such as the skin of the trunk and head. it is
+hypothesized that channels present at the end of these
+*correspondence: ardem@scripps.edu
+
+projections are activated by physical stimuli such as
+temperature and pressure (hensel, 1981).
+the cloning of trpv1 ( xxxg2335xxx : a capsaicin- and heatactivated channel) has proven this hypothesis and ignited research into thermosensation at the molecular
+level (caterina et al., 1997). trpv1 is activated near
+43⬚c, a temperature most mammals perceive as noxious. three other trpv channels with greater than 40%
+amino acid level identity to trpv1 have since been
+cloned and characterized as thermosensors. these
+channels are activated at various heat thresholds, ranging from 33⬚c (warm) for  xxxg2336xxx  to 55⬚c (high-threshold
+noxious heat) for trpv2/vrl1 (peier et al., 2002b; smith
+et al., 2002; xu et al., 2002; caterina et al., 1999). trpv4,
+originally described as an osmo-sensor, has also been
+shown to be activated by warm temperatures (guler et
+al., 2002; liedtke et al., 2000; strotmann et al., 2000).
+much less is known about channels that sense cold.
+recently, the cloning of a menthol- and cold-activated
+channel,  xxxg2334xxx  (cmr1) was described (mckemy et
+al., 2002; peier et al., 2002a). the threshold of  xxxg2334xxx 
+activation is ⵑ25⬚c, consistent with the pleasant/cool
+feeling conveyed by menthol products. since  xxxg2334xxx  is
+initially activated at cool rather than cold temperatures,
+it has been postulated that other cold-activated channels exist. indeed, recent reports (and this study) identify
+a population of neurons that respond to cold but not
+menthol (m.l nealen et al., 2002, and d.w. beacham et
+al., 2002, soc. neurosci., abstract).
+all known temperature-activated receptors belong to
+the transient receptor potential (trp) family of nonselective cation channels. trp channels are divided into
+three subclasses designated trpc, trpv, and trpm
+(montell et al., 2002). all have six putative transmembrane domains with a proposed pore region between
+transmembrane domains five and six. trp channels are
+thought to have cytoplasmic n- and c termini. the three
+classes of trp channels are distinguished according to
+overall similarity as well as several unique characteristics. trpv and trpc members contain two to four
+n-terminal ankyrin domains thought to be involved in
+linking transmembrane proteins to the cytoskeleton.
+trpc and trpm members have a trp box (with unknown function) following the sixth putative transmembrane domain. the involvement of trp channels in sensory function has been evident since the original trpc
+channel was cloned in drosophila due to its essential
+role in the photoreceptor response to light (montell and
+rubin, 1989). osm-9 and other trpv-family members
+in c. elegans are required for various sensory responses
+(tobin et al., 2002). in mammals, trpc2 is required for
+the response of vomeronasal neurons to pheromones
+(stowers et al., 2002). however, unlike the known mammalian thermo-activated trps, these channels do not
+seem to “sense” stimuli directly but act downstream
+of various g protein-coupled receptors (gpcrs), most
+probably via the phospholipase c pathway (montell,
+2001). most of the 21 mammalian classical trp channels
+described to date have diverse expression patterns and
+
+cell
+820
+
+varied roles not related to sensory perception, including
+functions in male fertility and vasorelaxation.
+it is now recognized that other classes of ion channels
+are homologous to the classical trp channels, and a
+nomenclature system has been proposed to reflect this
+relationship (montell, 2001). the new subtypes include
+trpp for pkd2-like channels (pkd2 is mutated in polycystic kidney disease), trpml for mucolipidin-like
+channels (mucolipidin mutations are responsible for
+some lysosomal storage disorders), and trpn for
+nompc-like channels (nompc is required for mechanosensory function in flies). here, we show that
+ xxxg2331xxx , a trp-like channel, participates in thermosensation.  xxxg2331xxx  responds to cold temperatures but not
+to menthol when expressed in mammalian cell lines or
+xenopus ooctyes.  xxxg2331xxx  is expressed in a small population of sensory neurons that also express trpv1 but
+not  xxxg2334xxx , arguing that at least two distinct groups of
+neurons sense cold temperature.
+results
+to date, all five thermo-activated channels identified
+belong to the trp family, all characterized by six transmembrane domains (6tm) and most containing n-terminal ankyrin domains (montell, 2001). we took a combined bioinformatic and expression analysis approach
+to identify additional trp channels involved in sensory
+detection. a search for predicted cdna sequences that
+contain both ankyrin domains (pfam00023) and 6tm
+domains (pfam00520) led us to  xxxg2331xxx . human
+ xxxg2331xxx  is an uncharacterized putative channel cloned
+from cultured fibroblasts (jaquemar et al., 1999). a previous study found no significant expression of  xxxg2331xxx 
+in various tissues examined, although est sequences
+suggest that  xxxg2331xxx  is upregulated in many human
+tumor cells. full-length mouse  xxxg2331xxx  was amplified
+using rt-pcr from sensory neurons of the trigeminal
+and dorsal root ganglia (drg) (data not shown). theoretical translation of the nucleotide sequence predicts an
+1125 amino acid protein very similar to human  xxxg2331xxx 
+(1119 amino acids) (genbank accession number
+ay231177). mouse  xxxg2331xxx  has 14 predicted n-terminal ankyrin domains followed by a 6tm domain.
+ xxxg2331xxx  seems to be the sole mammalian member of
+a distant subfamily of trp channels (data not shown).
+we analyzed overall tissue distribution of  xxxg2331xxx  by
+northern blot analysis using a probe corresponding to
+nucleotides 590–1492 of mouse  xxxg2331xxx .  xxxg2331xxx  expression was not detected on a blot containing mouse
+tissues such as heart, lung, skeletal muscle, and kidney
+(figure 1). we also probed a blot containing rat tissues
+relevant to sensory neurons and their target tissues such
+as drg, spinal cord, and skin. a single mrna species
+of approximately 5 kb was detected only in drg (figure
+1). more detailed expression analysis of  xxxg2331xxx  in drg
+was carried out via in situ hybridization and immunostaining. digoxigenin-labeled  xxxg2331xxx  crna probes
+strongly hybridized to neurons in adult drg and trigeminal ganglia (figure 2 and data not shown). we found
+ xxxg2331xxx  expression restricted to a small sub-population of drg neurons (59 of 1608; 3.6%). to further characterize its expression in sensory neurons, we examined
+
+figure 1.  xxxg2331xxx  is specifically expressed in sensory neurons
+northern blot analysis of mouse (1st image) and rat (2nd image)
+tissues reveals expression of  xxxg2331xxx  in the dorsal root ganglia
+(drg). blots were hybridized with a 32p-labeled fragment of  xxxg2331xxx 
+cdna (top image) and with control cdnas (bottom image).
+
+whether other drg markers colocalized with  xxxg2331xxx .
+ xxxg2331xxx  is not expressed in heavily myelinated neurons
+marked by nf-150 kd (figures 2a–2c). this suggests
+that  xxxg2331xxx  is most likely expressed in the non-myelinated c- or lightly myelinated a␦-fiber population of neurons that sense temperature and/or noxious stimuli. in
+accordance with this observation, we further discovered
+that  xxxg2331xxx  is expressed in calcitonin gene-related
+peptide (cgrp)- and  xxxg2240xxx  (sp)-positive neurons
+(figures 2d–2f, and data not shown). cgrp and sp are
+secreted inflammatory peptides expressed in a subset
+of nociceptive neurons (scott, 1992). roughly 97% (69/
+71) of  xxxg2331xxx -positive neurons were cgrp-positive.
+we next examined the expression of  xxxg2331xxx  relative
+to known thermo-activated trp channels. trpv1 ( xxxg2335xxx )
+is a well-characterized receptor for noxious heat, ph,
+and capsaicin. double in situ experiments with  xxxg2331xxx 
+and trpv1 probes (figures 2g–2i) revealed that 97%
+(100/103) of  xxxg2331xxx -positive neurons also express
+trpv1, while 30% (100/336) of trpv1-positive neurons
+express  xxxg2331xxx . we have previously shown that
+ xxxg2334xxx , the cold and menthol receptor, is not coexpressed with cgrp and trpv1 in drg neurons (peier
+et al., 2002a). quantitative analysis of double in situ
+hybridizations confirmed our initial observation: we
+found no trpv1 expression in 95  xxxg2334xxx -positive neurons (data not shown). since  xxxg2331xxx  expression overlaps with cgrp and trpv1, we would expect  xxxg2331xxx 
+and  xxxg2334xxx  not to be coexpressed. indeed, in double
+in situ hybridizations, we observed no overlap of expression between  xxxg2331xxx  and  xxxg2334xxx  (n ⫽ 113 for  xxxg2331xxx 
+and 137 for  xxxg2334xxx ) (figures 2j–2l). taken together,
+these results indicate that  xxxg2331xxx  is expressed in a
+subpopulation of nociceptive/thermoceptive neurons
+that coincides with noxious heat-activated trpv1 but
+not with the cool/cold-activated  xxxg2334xxx  (figure 2m).
+since  xxxg2331xxx  is a putative trp-like channel expressed in sensory neurons, we tested whether sensory
+stimuli activate  xxxg2331xxx . full-length mouse  xxxg2331xxx 
+was stably transfected in chinese hamster ovary (cho)
+cells containing frt sites (cho-k1/frt). we generated
+cell lines either constitutively expressing  xxxg2331xxx , or
+under the control of a tetracycline (tet)-inducible promoter via flp recombinase-mediated recombination.
+cells constitutively expressing  xxxg2331xxx  appeared unhealthy and downregulated  xxxg2331xxx  expression after
+
+ xxxg2331xxx  is a trp channel that senses noxious cold
+821
+
+figure 2. in situ hybridization and immunostaining analyses demonstrate  xxxg2331xxx  expression in a subset of trpv1-positive nociceptive drg neurons
+(a–c)  xxxg2331xxx  mrna is not present in heavily myelinated neurons
+marked by neurofilament (nf 150) antibody.
+(d–f)  xxxg2331xxx  and calcitonin-gene-related peptide (cgrp) are
+coexpressed (arrows d–f).
+(g–l) double in situ hybridization shows  xxxg2331xxx  is present in a
+sub-population of thermosensitive neurons expressing trpv1
+(arrows g–i), but not  xxxg2334xxx . size bar is 50 ␮m.
+(m) a schematic of overlap in expression among thermo-activated
+trp channels according to expression analysis in adult drgs.
+
+several passages in culture (data not shown). therefore,
+we performed all functional analyses in the tet-inducible
+system. most trp channels are non-selective cation
+channels and readily allow calcium into cells when activated, permitting both electrophysiological studies and
+intracellular calcium imaging. we used fluorescence microscopy to monitor increases in intracellular calcium
+concentration in response to sensory stimuli by loading
+ xxxg2331xxx -expressing cho cells with the calcium indicator dye, fura-2. hypotonic solutions, known to elicit
+calcium influx in trpv4-expressing cells, did not activate  xxxg2331xxx  (data not shown) (liedtke et al., 2000;
+strotmann et al., 2000). heat stimuli of up to 42⬚c and
+
+52⬚c, strong activators of trpv1 and trpv2 respectively, did not activate  xxxg2331xxx -expressing cho cells
+(data not shown) (caterina et al., 1999, 1997). menthol
+or cool stimuli in the range of 23–28⬚c, the threshold
+of activation of  xxxg2334xxx , failed to activate  xxxg2331xxx 
+(mckemy et al., 2002; peier et al., 2002a). however,
+lowering temperature to 10⬚c caused a large influx of
+calcium in  xxxg2331xxx -expressing cells, but not in tettreated cho cell controls (figure 3a). the response to
+cold stimulus by  xxxg2331xxx  was abolished upon removal
+of extracellular calcium, suggesting that  xxxg2331xxx  is acting as a calcium permeable channel rather than releasing calcium from intracellular stores (figure 3a). similar
+responses to cold were obtained from cho cells transiently transfected with  xxxg2331xxx  and from tet-inducible
+human embryonic kidney (hek 293) cells stably expressing  xxxg2331xxx  (data not shown). ruthenium red, a blocker
+of thermosensitive trpv channels, also blocked cold
+responses by  xxxg2331xxx . pre-incubation of anktm1expressing cells in 5 ␮m ruthenium red followed by application of cold completely blocked responses, which
+were not fully restored after a ten minute washout (figure
+3, and data not shown). similar experiments performed
+with 1 ␮m ruthenium red caused complete block of the
+cold response in 90% of cells from multiple experiments
+(data not shown).
+we were intrigued by the possibility that cooling
+agents other than menthol might trigger calcium influx
+in  xxxg2331xxx -expressing cells. high concentrations of
+camphor (400 ␮m), which fail to activate  xxxg2334xxx , also
+had no effect on  xxxg2331xxx  (data not shown). icilin, a
+cooling agent and potent activator of  xxxg2334xxx , also activated  xxxg2331xxx -expressing cells (figure 3b) (mckemy
+et al., 2002; wei and seid, 1983). icilin did not activate
+trpv1-expressing cells. capsaicin, a potent activator of
+trpv1, did not activate  xxxg2334xxx - or  xxxg2331xxx -expressing
+cells, as expected (figure 3b). it is interesting that icilin
+(which is structurally distinct from menthol) activates
+both cold receptors, despite the fact that  xxxg2334xxx  and
+ xxxg2331xxx  have no significant similarity at the amino acid
+level. however, higher concentrations of icilin were required for  xxxg2331xxx  activation compared to  xxxg2334xxx , and
+the response was relatively delayed in  xxxg2331xxx  cells
+(15–60 s delay for  xxxg2331xxx  versus approximately 5 s
+for  xxxg2334xxx ; data not shown). therefore, it is not clear if
+icilin directly binds to and activates  xxxg2331xxx .
+both  xxxg2334xxx  and  xxxg2331xxx  respond to cold. however,
+initial experiments suggested the threshold for activation of  xxxg2331xxx  is lower than that of  xxxg2334xxx . we have
+previously reported that  xxxg2334xxx  is activated at approximately 23⬚c (peier et al., 2002a). to further investigate
+this issue, we performed calcium-imaging experiments
+where cells were incubated at 33⬚c for several minutes
+before the bath temperature was lowered gradually to
+10⬚c. the majority of  xxxg2334xxx -expressing cells exhibited
+increased intracellular calcium concentration when the
+temperature was lowered to 20⬚c (figure 4a). however,
+the majority of  xxxg2331xxx -expressing cells were not activated until the temperature was cooled below 20⬚c (figure 4a). quantitative analysis showed that trpm8expressing cells exhibited an activation threshold (defined
+as 20% increase from baseline fluorescence) at temperatures ranging from 19–24⬚c with a mean activation temperature of 22.5 ⫾ 1⬚c (mean ⫾ sd, n ⫽ 60).  xxxg2331xxx -
+
+cell
+822
+
+figure 3.  xxxg2331xxx  is a calcium permeable
+cation channel that responds to cold and
+icilin, and is blocked by ruthenium red
+(a) a cold stimulus elicits a rise in [ca2⫹]i in
+ xxxg2331xxx -expressing cho cells. a schematic
+representation of the stimulus is indicated below the graph. when buffer is cooled, [ca2⫹]i
+increases rapidly in  xxxg2331xxx -expressing
+cho cells, but not in untransfected cho
+cells. average activation temperature (measured at the inlet of the cell chamber by a
+miniature thermocouple) is approximately
+17⬚c. cooling in the presence of 5 ␮m ruthenium red and in the absence of extracellular
+ca2⫹ eliminates cold-evoked responses. values shown are average increase in ratio 340/
+380 ⫾ sem of 30–40 cells from representative
+experiments.
+(b) average fold increase in ratio 340/380 ⫾
+sem of 20  xxxg2331xxx -, tprm8-, and trpv1expressing cho cells in response to hot(capsaicin) and cold- (menthol, icilin) inducing compounds.
+
+expressing cells exhibited a broader range of activation
+temperatures (12–24⬚c) with an average activation temperature of 17.5 ⫾ 3.5⬚c (mean ⫾ sd, n ⫽ 100). figure
+4b illustrates traces of typical responses of individual
+ xxxg2331xxx - and  xxxg2334xxx -expressing cells, as temperature
+is gradually decreased.
+ xxxg2331xxx - and  xxxg2334xxx -expressing cho cells were assayed electrophysiologically using the whole-cell patch
+clamp technique. the cells were clamped at ⫺60 mv
+and the temperature of the perfused bath solution was
+decreased from 32⬚c to 10⬚c. in  xxxg2331xxx -expressing
+cells, small and slowly developing inward currents were
+observed followed by rapid and larger phase currents
+with an average peak amplitude of 0.55 ⫾ 0.07 na (n ⫽
+
+35) (figure 5a and 5b, and data not shown). when maintained at lower temperatures, the current inactivated
+quickly (figure 5a). similar to results obtained by calcium imaging, the activation temperature for the currents varied from cell to cell, ranging between 8–28⬚c
+(n ⫽ 35). a comparison of representative currents from
+ xxxg2331xxx - and  xxxg2334xxx -expressing cells demonstrates a
+colder threshold of activation for  xxxg2331xxx  (figure 5b).
+currents evoked by decreasing the temperature in
+ xxxg2331xxx -expressing cells show outward rectification,
+with substantial current in the inward direction (figures
+5c and 5d). a reversal potential of ⫹7.7 ⫾ 1.2 mv was
+observed in an external solution containing 140 mm
+nacl (n ⫽ 6). reducing the nacl in the external solution
+
+ xxxg2331xxx  is a trp channel that senses noxious cold
+823
+
+figure 4.  xxxg2331xxx  is activated at colder
+temperatures compared to  xxxg2334xxx 
+(a) representative images taken from calcium imaging experiments comparing responses of fura-2 loaded  xxxg2331xxx - and
+ xxxg2334xxx -expressing cho cells to gradual
+cooling. increases in fluorescence correspond to increases in intracellular calcium
+levels and are indicated by a change in color
+where red ⬎ yellow ⬎ green ⬎ blue. the color
+scale bar indicates deltaf values, defined as
+the average fold increase in the fura-2 340/
+380 ratio in response to the stimulus. ratios
+were normalized to baseline fluorescence.
+note that the majority of  xxxg2331xxx -expressing
+cells (left) are not active until temperatures fall
+below 20⬚c, while many  xxxg2334xxx -expressing
+cells (right) are already strongly activated
+at 20⬚c.
+(b) graphic presentation of responses of individual  xxxg2331xxx - and  xxxg2334xxx -expressing
+cho cells to gradual cooling from 31–9⬚c.
+responses shown are from representative
+cells.
+
+to 40 mm (by equimolar replacement with 100 mm choline chloride) caused a negative shift in the reversal
+potential, consistent with  xxxg2331xxx  being a cation channel. differences in reversal potentials were used to determine the ionic selectivity of  xxxg2331xxx . the shift in
+reversal potential by ⫺18 mv to ⫺10.35 ⫾ 1.6 mv (n ⫽
+7) seen upon replacing 100 mm nacl with 100 mm choline cl gives a relative permeability ratio of pcholine/pna ⫽
+0.28. the reversal potentials of the cold activated cur-
+
+rents were similar in simplified external solutions containing 100 mm choline cl and 40 mm nacl, kcl, or
+cscl. the measured reversal potentials yield relative
+permeability ratios of pk/pna⫽ 1.19 and pcs/pna ⫽ 1.42
+(nacl, erev ⫽ ⫺10.35 ⫾ 1.6 mv, n ⫽ 7; kcl, erev ⫽ ⫺7.65 ⫾
+1.5 mv, n ⫽ 8; cscl, erev ⫽ ⫺4.75 ⫾ 0.75 mv, n ⫽ 7).
+the relative permeability of ca2⫹ and mg2⫹ were estimated from the shift in reversal potentials when their
+concentrations were raised from 1 to 30 mm in a 40 mm
+
+cell
+824
+
+figure 5. currents evoked by decreasing
+temperatures in cho cells expressing
+ xxxg2331xxx 
+(a) example of an inward current evoked by
+cooling of a cell voltage clamped at ⫺60 mv.
+(b) comparison of temperature current relationship for  xxxg2331xxx  and  xxxg2334xxx .
+(c) current voltage relationship for  xxxg2331xxx 
+(voltage ramp is from ⫺100 mv to ⫹80 mv
+with two second ramps). the current is outwardly rectifying and there is an increase in
+both inward and outward currents when the
+temperature is lowered (30⬚c–18⬚c).
+(d) comparisons of current-voltage relationships for  xxxg2331xxx  in various external solutions. the main charge carrying ions are: (1)
+140 mm nacl; (2) 40 mm nacl/100 mm choline; (3) 1 mm cacl2 (with 40 mm nacl/100
+mm choline); and (4) 30 mm cacl2 (with 40
+mm nacl/100 mm choline). erevs for these examples are, ⫹4, ⫺6, ⫺2, and ⫹11 mv, respectively.
+
+nacl /100 mm choline cl solution containing the divalent
+cation under investigation. the reversal potential shifted
+from ⫹0.54 ⫾ 3.3 (1 mm cacl2, n ⫽ 6) to ⫹14.16 ⫾ 3.9
+mv (30 mm cacl2, n ⫽ 6) for ca2⫹ and from ⫺14.36 ⫾
+1.1 (1 mm mgcl2, n ⫽ 6) to ⫹7.01 ⫾ 2.9 mv (30 mm
+mgcl2, n ⫽ 6) for mg2⫹, corresponding to pca/pna ⫽ 0.84
+and pmg/pna ⫽ 1.23 (figure 5d, and data not shown).
+these results indicate that  xxxg2331xxx  is a non-selective
+cation permeable channel, similar to many previously
+described trp channels.
+to investigate the properties of  xxxg2331xxx  in another
+heterologous system, we injected xenopus oocytes with
+ xxxg2331xxx  crna. we observed large currents in response
+to cold temperatures, similar to the activity of anktm1expressing cho cells (figure 6). in both xenopus oocytes and cho cells, a strong desensitization of
+
+ xxxg2331xxx  to cold stimuli was observed (figure 6, and
+data not shown). cold activation of  xxxg2331xxx  showed a
+marked desensitization during a first cold pulse and
+desensitization to repeated cold pulses (figure 6). on
+average, the second cold pulse resulted in a current
+that was 26% of the first pulse in  xxxg2331xxx -injected
+oocytes (sd ⫽ 6.5, n ⫽ 5), compared to 78% for  xxxg2334xxx 
+(sd ⫽ 5.9, n ⫽ 4). we also tested whether icilin activated
+xenopus oocytes injected with  xxxg2331xxx  crna. currents
+were elicited by 25 ␮m and 200 ␮m of icilin, but not with
+1 ␮m. all three concentrations activated  xxxg2334xxx  injected
+oocytes but not uninjected ones (data not shown).
+the characterization of  xxxg2331xxx  as a cold-sensitive
+channel expressed in nociceptive neurons distinct from
+ xxxg2334xxx -positive neurons immediately raises the interesting question as to whether  xxxg2331xxx -like characterisfigure 6.  xxxg2331xxx  currents are desensitized to repeated cold stimuli
+inward currents recorded in response to cold
+steps from xenopus oocytes expressing
+ xxxg2331xxx  (a) and  xxxg2334xxx  (b). the oocytes
+were held at ⫺70 mv during the recordings.
+ xxxg2331xxx  current responses were markedly
+reduced in the second cold step.
+
+ xxxg2331xxx  is a trp channel that senses noxious cold
+825
+
+figure 7. a sub-population of drg neurons
+have  xxxg2331xxx -like characteristics
+(a) representative images taken from calcium imaging experiments of fura-2 loaded
+adult drg neurons cultured overnight without ngf. cells are subjected to a cold stimulus (33–9⬚c), warmed to room temperature
+(9–27⬚c), followed by perfusion with menthol
+(250 ␮m), and capsaicin (100 nm). the field
+shown contains an  xxxg2331xxx /trpv1-like
+(blue arrows), a  xxxg2334xxx -like (green arrows),
+and a trpv1-like (red arrow) neurons. the
+color scale bar indicates deltaf values, defined as the average fold increase in the
+fura-2 340/380 ratio in response to the
+stimulus.
+(b) graphic presentation of the responses of
+the neurons shown in (a). the color-coding
+is preserved from the previous image.
+(c) a schematic summary of results from
+adult drg imaging experiments. the overlap
+between cold-, cool/menthol-, and heat/capsaicin-responders from cultures with or without ngf are shown. the response profiles
+from cultures with no ngf completely agree
+with the in vivo expression of  xxxg2331xxx /
+ xxxg2334xxx /trpv1 as summarized in figure 2m.
+
+tics are found in drg neurons in vivo. to answer this
+question, we analyzed dissociated adult drgs 18–36 hr
+after culture in the presence or absence of 100 ng/ml
+ xxxg1564xxx  (ngf). adult drg neurons are routinely cultured with ngf, but can survive for weeks without it (aguayo and white, 1992). we assayed calcium
+influx in response to a variety of relevant thermal and
+chemical stimuli. we perfused these neurons with cold
+buffer (33–9⬚c), followed by menthol (250 ␮m), capsaicin
+(100 nm), and heat (45⬚c; heat activated the same neurons that responded to capsaicin over 95% of the time,
+and we focused mainly on the capsaicin response). menthol represents a very powerful tool for these experiments, since it activates  xxxg2334xxx -expressing cells, but
+not those that express antkm1. we observed two separate populations of cold-sensitive neurons: one group
+of neurons responded to cool temperatures (average
+threshold of activation 24⬚c) and to menthol, while another group responded to colder temperatures (average
+threshold of activation 15⬚c) but not to menthol (figure
+7 and table 1). this is consistent with the expression
+profile and activation characteristics of  xxxg2334xxx  and
+ xxxg2331xxx , respectively.
+since  xxxg2331xxx  is expressed in a subset of trpv1-
+
+expressing neurons (and  xxxg2334xxx  is not), we further characterized the response of the two populations of coldsensing neurons to capsaicin and heat (trpv1 activation). interestingly, in the cultures with no ngf, all of
+the menthol-insensitive but none of the menthol-sensitive cold neurons showed activation by capsaicin (figure
+7 and table 1). this agrees with our expression analysis
+and represents strong evidence that cold-sensitive neurons with antkm1-like characteristics are present
+within the drgs. with ngf in the culture conditions, in
+addition to all of the menthol-insensitive cold neurons,
+about 50% of the menthol-sensitive neurons also responded to capsaicin (table 1). drg neurons have been
+previously reported to respond to both capsaicin and
+menthol in the presence of ngf (mckemy et al., 2002;
+reid et al., 2002). ngf is known to have an effect on
+capsaicin sensitivity (see discussion). these results
+suggest that culture conditions without ngf better correspond to the in vivo expression profiles of the thermalactivated trp channels (figures 2m and 7c).
+the coexpression of trpv1 and  xxxg2331xxx  also raises
+the possibility that the two channels might interact by
+influencing the properties of one another. we addressed
+this issue directly by transiently transfecting human
+
+cell
+826
+
+table 1. cold responses in cultured adult drg neurons
+
+total neurons
+cold-sensitive neurons
+
+⫺ngf
+
+⫹ngf
+
+477
+44
+
+458
+37
+
+menthol-sensitive neurons
+
+27
+
+30
+
+capsaicin-sensitive
+average activation temperature
+menthol-insensitive neurons
+
+0/27
+24.2 ⫾ 4.1⬚c
+17
+
+14/30
+23.4 ⫾ 4.3⬚c
+7
+
+capsaicin-sensitive
+average activation temperature
+
+17/17
+14.8 ⫾ 2.8⬚c
+
+7/7
+14.5 ⫾ 2.5⬚c
+
+trpv1 in  xxxg2331xxx -positive cho cells. pulses of cold
+followed by heat, or heat followed by cold were applied
+to these cells and intracellular calcium imaging performed. the responses (including activation threshold)
+of  xxxg2331xxx  and trpv1 were indistinguishable when
+compared to cells that expressed only one of the channels separately (p ⬎ 0.05, mean threshold values taken
+from 40 representative coexpressing cells from three
+experiments, data not shown).
+discussion
+most living creatures tolerate a very narrow temperature
+range. in humans, the necessity to maintain requisite
+physiological temperature is paired with an acute sensory detection system that discriminates temperature
+differences smaller than a single degree centigrade. the
+cloning and characterization of heat- and cold-activated
+channels establishes a molecular basis for understanding temperature detection and sensation.
+here, we describe the characterization of a cold-activated channel.  xxxg2331xxx  belongs to the superfamily of
+trp channels, as does the menthol- and cold-activated
+receptor,  xxxg2334xxx . interestingly, icilin, a potent cooling
+compound, activates cells expressing either channel.
+however, at the amino-acid level, the two cold-receptors have no significant similarity. in contrast, the four
+heat-activated trpv channels have at least 40% similarity. the transmembrane domain of  xxxg2331xxx  is more
+similar to trpv members than to any other mammalian
+proteins. this amino acid similarity is likely significant
+at the structural level since ruthenium red, a potent
+blocker of trpv channels, also blocks  xxxg2331xxx . however, in phylogenetic tree prediction programs,  xxxg2331xxx 
+is grouped with a different trp-like family of channels,
+with  xxxg2331xxx  being the only mammalian member.
+functional studies of  xxxg2331xxx  agree with the phylogenetic characterization of this channel as trp-like.
+there is now strong evidence that a group of trp channels play a role in temperature detection in the mammalian peripheral nervous system.  xxxg2331xxx  belongs to the
+third trp subfamily shown to play a role in temperature
+detection. like other thermosensitive trps,  xxxg2331xxx  is
+a non-selective cation channel.
+ xxxg2331xxx  is activated at lower temperatures than
+ xxxg2334xxx , starting near 17⬚c, which approximates the
+threshold of noxious cold for humans (ⵑ15⬚c) (davis
+and pope, 2002). a role for  xxxg2331xxx  in noxious cold
+detection is also suggested by its expression pattern.
+mouse  xxxg2331xxx  is specifically expressed in somatic
+
+sensory neurons. within this population,  xxxg2331xxx  is not
+expressed in neurons that express  xxxg2334xxx . instead, the
+vast majority of  xxxg2331xxx -positive cells also express
+trpv1 and cgrp, markers for pain-sensing neurons.
+our expression analysis reveals the presence of two
+distinct populations of cold-responding neurons: trpm8positive neurons (that lack trpv1 expression) and
+ xxxg2331xxx -positive neurons (that also express trpv1).
+we have functionally validated our in vivo expression
+analysis by short-term cultures of adult drg neurons.
+two populations of cold-sensitive neurons are observed: one population responds to cool temperatures
+and menthol but not to capsaicin (presumptive trpm8positive neurons), and another population responds to
+cold and capsaicin but not to menthol (presumptive
+ xxxg2331xxx /trpv1-positive neurons). recent reports have
+also demonstrated the presence of two distinct groups
+of cold-sensitive neurons (m.l nealen et al., 2002, and
+d.w. beacham et al., 2002, soc. neurosci., abstract).
+however, most previous drg culture studies have identified a significant percentage of neurons that respond
+both to menthol and capsaicin, implying coexpression
+of  xxxg2334xxx  and trpv1 (mckemy et al., 2002; reid et al.,
+2002). we believe that the response of single neurons
+to both menthol and capsaicin is due to a change in
+trpv1 (or  xxxg2334xxx ) expression or activity levels induced
+by the culture conditions. indeed, the presence of ngf
+(which is routinely used at high levels in these cultures)
+is known to have profound effects on capsaicin/heatresponsive drg neurons in culture (aguayo and white,
+1992). ngf sensitizes trpv1 activity, and has been
+shown to upregulate trpv1 mrna and protein in cultured drg neurons (chuang et al., 2001; ji et al., 2002;
+shu and mendell, 1999; winston et al., 2001). in our
+culture experiments, menthol/capsaicin coresponsive
+cells are readily detected in cultures with ngf, but no
+such coresponsive cells are observed in the absence
+of ngf. on the other hand, all of the menthol-insensitive
+cold neurons respond to capsaicin with or without ngf.
+these observations are consistent with our in vivo expression analysis and suggest that  xxxg2334xxx -positive cells
+that might express low levels of trpv1 mrna in vivo
+(undetectable by in situ hybridizations) could gain capsaicin-responsiveness in culture with high ngf. high
+levels of ngf in culture may resemble an inflammatory
+state for these drgs neurons. if coexpression of  xxxg2334xxx 
+and trpv1 indeed occurs in vivo during inflammation,
+it may have important physiological consequences.
+here, we show that a cold-activated channel ( xxxg2331xxx )
+is expressed in a subset of heat-sensitive (trpv1expressing) neurons. this suggests that such neurons
+
+ xxxg2331xxx  is a trp channel that senses noxious cold
+827
+
+correspond to previously observed polymodal nociceptive drg neurons that respond to both noxious hot and
+cold (cain et al., 2001; campero et al., 1996). such neurons raise the question of how temperature information
+is then decoded in the spinal cord and brain. electrophysiological characterization of drg neurons has led
+to the labeled line hypothesis of sensory perception
+(perl, 1998). according to this hypothesis, the nervous
+system interprets the environment by monitoring the
+electrical activity of distinct groups of sensory neurons
+that are specialized to detect a unique sensory modality:
+activity in “cold neurons” gives rise to the perception
+of cold and is distinguishable from activity in “hot neurons”. what would this hypothesis predict in the case
+of polymodal nociceptors?
+potentially, combinatorial activity in trpv1-,  xxxg2331xxx /
+trpv1-, and  xxxg2334xxx -positive neurons could be integrated to interpret the actual temperature of a given
+stimulus. for example, activation of only  xxxg2331xxx /
+trpv1-positive neurons would signal a noxious cold
+stimulus, while activation of both trpv1- and  xxxg2331xxx /
+trpv1-positive neurons would signal a noxious heat
+stimulus. the distinction of whether the noxious stimulus is hot or cold could also be dependent on the firing
+activity of  xxxg2334xxx  neurons. the expression of  xxxg2331xxx 
+in a subset of trpv1-positive neurons might also provide a molecular explanation of paradoxical cold (a local
+heat stimulus produces a cold sensation) (dodt and zoterman, 1952). alternative to a labeled line theory, it is
+possible that neurons expressing both channels might
+distinguish the signals transduced from  xxxd2565xxx 
+stimuli. the strong desensitization of  xxxg2331xxx  in response to a persistent cold stimulus compared to the
+response of trpv1 to noxious heat might contribute to
+such a distinction.
+collectively, our data suggests a model in which
+ xxxg2334xxx -expressing neurons are involved in transmitting
+an innocuous and pleasant cooling sensation (due to its
+activation by menthol and its expression pattern that is
+mutually exclusive with any known nociceptive markers), while  xxxg2331xxx -expressing neurons are involved in
+transmitting a noxious cold stimulus (due to its lower
+threshold of activation and its expression pattern that
+strongly overlaps with nociceptive markers such as
+trpv1 and cgrp). it is not clear if all cold sensation
+can be explained by the combined activity of  xxxg2331xxx 
+and  xxxg2334xxx . alternative mechanisms of cold sensitivity
+have been proposed, and these could function in conjunction with trp channels (askwith et al., 2001; maingret et al., 2000; reid and flonta, 2001; viana et al.,
+2002).
+experimental procedures
+molecular cloning of  xxxg2331xxx 
+bioinformatic searches were done as described (peier et al., 2002a,
+2002b). sequence analysis was performed using the biology workbench at the san diego supercomputing center (http://workbench.
+sdsc.edu). a 902-base pair fragment of the mouse homolog of
+ xxxg2331xxx  was amplified from newborn mouse drg cdna using primers mank-like f2 (5⬘-agtggggagactaccctgtg) and mank-like
+r2 (5⬘-tttatcatgcccattctttgc). from this initial sequence
+and subsequent hits to dna databases, primers mank-like start
+(5⬘tttggatccgccaccatgaagcgcggcttgaggagg) and manklike stop (5⬘tttgcggccgcctaaaagtccgggtggctaatagaac)
+
+were designed to pcr-amplify full-length  xxxg2331xxx  from adult
+mouse trigeminal ganglia cdna.
+expression analysis
+the rat tissue northern blot was prepared as described (peier et
+al., 2002a). membranes were hybridized with a 32p-labeled probe
+corresponding to nucleotides 590–1492 of mouse full-length
+ xxxg2331xxx .
+for in situ hybridization and immunostaining of drgs, adult mice
+were perfused with 4% paraformaldehyde and drgs were rapidly
+dissected. following post-fixation and cryo-protection in 30% sucrose in pbs, single drgs were embedded in oct, frozen in liquid
+nitrogen, and sectioned  xxxd1891xxx  ␮m thickness. for double in situ hybridizations, sections were hybridized with in vitro transcribed digoxigenin- or fluorescein-labeled crna probes (roche) corresponding to nucleotides 590–1492 of manktm1 and 1410–1980 of
+mtrpm8 (nm_029310). we used two crna probes corresponding
+to bases 1516–2065 or 1516–2482 of trpv1 sequence (af029310).
+both probes showed consistent patterns of hybridization. peroxidase-conjugated anti-digoxigenin-pod (1:500) and alkaline phosphatase-conjugated anti-fluorescein (1:2000) antibodies (roche)
+were used to detect hybridized crna probes and visualized using
+tyramide signal amplification (tsa; nen) and fast-red detection
+(roche) systems, respectively. the immunostaining experiments followed hybridization of sections with digoxigenin-labeled crna
+probes and tsa fluorescent detection. anti-nf150 kd (1:1000;
+chemicon) and anti-cgrp (1:100; biogenesis) primary antibodies
+and anti-rabbit cy3 (1:200, jackson immunoresearch) secondary
+antibodies were used.
+cho cell expression system
+ xxxg2331xxx -expressing cho cells were generated as previously described (peier et al., 2002a).  xxxg2331xxx -expressing stable cho-k1/
+frt lines appeared unhealthy (membrane blebbing, cytoplasmic
+granulations) in culture, and after several passages, a loss of
+ xxxg2331xxx  expression was observed (data not shown). other investigators have previously claimed difficulty generating stable cell lines
+expressing human  xxxg2331xxx  (jaquemar et al., 1999). to circumvent
+this problem, we generated cell lines in which we could control
+ xxxg2331xxx  expression. tetracycline-inducible cho-k1/frt cells lines
+were generated by transfecting the cho flp-in host cell line with
+pcdna6/tr according to manufacturer’s instructions (invitrogen).
+the expression vector pcdna5frt/to containing full-length mouse
+ xxxg2331xxx  and the flp recombinase expression plasmid pog44 were
+cotransfected into the tetracycline-inducible cho-k1/frt cell line
+and selected via hygromycin resistance (200 ␮g/ml). induction of
+ xxxg2331xxx  was accomplished by treating cho cells with 1–2 ␮g/ml
+tet 5–24 hr before experiments. stable clones expressing  xxxg2331xxx 
+were identified by northern blot analysis. northern blot analysis of
+control and tet-treated  xxxg2331xxx -inducible cho cells showed high
+levels of  xxxg2331xxx  expression. a low-level of  xxxg2331xxx  expression
+in the absence of tet was also present in these cells (data not
+shown). therefore, cho cells that stably expressed the tet-repressor were used as controls in subsequent experiments. for some of
+the experiments described, we maintained cells in culture medium
+supplemented with 5 ␮m ruthenium red (rr, fluka), which blocks
+ xxxg2331xxx  activity. this was done to overcome the slight leaky expression of  xxxg2331xxx  in the tet-system. cells cultured in rr looked
+healthier and a higher percentage of cells responded to cold compared to non-rr treated cells. the threshold of activation was not
+affected. for coexpression studies of  xxxg2331xxx  and trpv1, tetinducible cho cells stably expressing  xxxg2331xxx  were transiently
+cotransfected with human trpv1 in the pcdna5/frt expression
+plasmid and gfp.  xxxg2331xxx  expression was induced by tet treatment 24 hr after transfection.
+intracellular calcium imaging experiments
+calcium imaging experiments were performed essentially as described (peier et al., 2002a). images of fura-2 loaded cells with the
+excitation wavelength alternating between 340 nm and 380 nm were
+captured with a cooled lcd camera. the ratio of fluorescence intensity of the two wavelengths of groups of 30–50 cells in each experiment was analyzed using metafluor (universal imaging corp). ex-
+
+cell
+828
+
+periments were performed in triplicate. unless otherwise indicated,
+graphs represent averaged responses of 20–40 cells from representative experiments. for direct comparison of results from different
+experiments, values were normalized to baseline of the ratio 340/
+380. for  xxxg2331xxx  and  xxxg2334xxx  threshold experiments, the threshold
+temperature of activation of 60–100 cells each from three replicate
+experiments was analyzed. threshold of activation was defined as
+20% above baseline. for  xxxg2331xxx /trpv1 coexpression experiments, gfp-positive cells in a field were chosen for analysis. differences in threshold of activation were analyzed by using student’s
+t test. hanks  xxxd2988xxx  (hbss) and hepes buffers were
+obtained from gibcobrl. the compounds menthol, capsaicin, and
+icilin were obtained from sigma, fluka, and tocris woodson, respectively.
+electrophysiology
+recordings were performed essentially as described (peier et al.,
+2002a). recording solutions were as follows: pipette solution for all
+experiments was 140 mm cscl; 10 mm bapta; 10 mm hepes; 2
+mm mgatp; titrated to ph 7.4 with csoh. the external solution in
+the recording chamber was kept at 32⬚c and consisted of 100 mm
+cholinecl; 40 mm nacl; 10 mm hepes; 2 mm cacl2; 1 mm mgcl2;
+titrated to ph 7.4 with naoh. in some studies, the above solution was
+used with 140 mm nacl and no choline. in monovalent permeability
+studies, equimolar kcl or cscl replaced nacl (40 mm). in divalent
+permeability studies, the solutions contained either 1 mm or 30 mm
+of test ion (ca or mg) and 100 mm cholinecl; 40 mm nacl; and 10
+mm hepes. osmolarity was maintained by addition of sucrose (80
+mm) to the 1 mm divalent cation solution. the current-voltage relationships were determined using a 2 s ramp from ⫺100 to ⫹80 mv.
+the permeability ratio of choline relative to na⫹ (pcholine/pna) was
+calculated, after partial replacement of the external na with choline,
+from the following equation: eshift ⫽ {rt/f} ln {[na]o(2) ⫹ (pcholine/pna
+[choline]o (2) /[na]o (1)), where f is faraday’s constant, r is the universal
+gas constant, t is absolute temperature, [na]o (1) is the initial concentration of external na⫹ and [na]o (2) and [choline]o (2) refer to the
+concentration of these ions after substitution. relative permeability
+ratios of other monovalent cations (x⫹) were calculated using the
+equation eshift ⫽ {rt/f} ln {(px/pna[x]o (2) ⫹ (pcholine/pna [choline]o (2))/
+([na]o (1) ⫹ (pcholine/pna [choline]o (1))}, where solution (1) contains na⫹
+plus choline and solution (2) contains the substitution ion (x) plus
+choline. permeability ratios relative to na⫹, for divalent cations were
+calculated as follows: eshift ⫽ {rt/f} ln {[na]o ⫹ pcholine/pna[choline]o ⫹
+4b’ [x]o (2)}/{[na]o ⫹ pcholine/pna[choline]o ⫹ 4b’ [x]o (1)}, where b⬘⫽ p⬘x/
+pna and p⬘x ⫽ px/(1 ⫹ eef/rt) and [x]o (1) and [x]o (2) refer to the two
+different concentrations of the divalent ions (ca2⫹ or mg2⫹) tested.
+ xxxg2331xxx  and  xxxg2334xxx  were cloned into the pox expression vector
+for expression in xenopus oocytes (jegla and salkoff, 1997). capped
+crnas were prepared by run-off transcription using the t3 mmessage mmachine kit (ambion) and cleaned prior to injection using
+qiaquick columns (qiagen). mature oocytes were isolated enzymatically as described (wei et al., 1990). oocytes were injected with
+5–25 ng of crna in a 50 nl volume and incubated 2–5 days prior to
+recording at 18⬚c in nd96 (96 mm nacl, 2 mm kcl, 1.8 mm  xxxg2125xxx ,
+1 mm mgcl, 5 mm hepes, 2.5 mm na-pyruvate, 100 u/ml penicillin,
+100 ␮g/ml streptomycin, and [ph 7.5]). recordings were made using
+standard two-electrode voltage clamp techniques with 3 m kcl
+electrodes (0.3–0.5 m⍀). the recording solution consisted of 96 mm
+nacl, 4 mm kcl, 1 mm mgcl, 100 ␮m  xxxg2125xxx , and 5 mm hepes, [ph
+7.5]. temperature control was achieved with a combination of a
+peltier-cooled stage and constant perfusion of cooled/heated solution. temperatures were monitored using a miniature thermocouple
+placed adjacent to the oocyte in the recording chamber. currents
+and temperatures were recorded using a tev-200 amplifier (dagan
+instruments), an hcc-100a temperature controller (dagan instruments), and pclamp8 software suite (axon instruments).
+drg cultures
+dorsal root ganglia from all spinal levels of adult sprague dawley
+rats were rapidly dissected and dissociated by incubation for 3 hr
+at 37⬚c in a solution of culture medium (ham’s f12/dmem with
+10% horse serum, 1% penicillin-streptomycin) containing 0.125%
+collagenase (invitrogen). cells were gently triturated using fire-pol-
+
+ished pasteur pipettes and centrifugated in culture medium containing 15% bsa to separate cells from debris. cells were resuspended and plated onto coverslips coated with  xxxd2793xxx  (0.5
+mg/ml; sigma) and laminin (5 ␮g/ml; invitrogen). cells were cultured in medium either with or without 100 ng/ml ngf (invitrogen).
+calcium imaging experiments were performed 18–36 hr after plating.
+for calcium imaging experiments, drg neurons were treated as
+described for cho cells except that they were loaded with fura-2
+for 30 min at 37⬚c.
+acknowledgments
+we thank sian colley, shelley halpain, nancy hong, thomas
+krucker, van lee, xiaorong liu, aziz moqrich, matt petrus, and jim
+watson for valuable contributions and input. supported in part by
+grants from the nih and novartis. a.p. is a basil o’connor and
+damon runyon scholar.
+received: october 24, 2002
+revised: january 22, 2003
+references
+aguayo, l.g., and white, g. (1992). effects of  xxxg1564xxx 
+on ttx- and capsaicin-sensitivity in adult rat sensory neurons. brain
+res. 570, 61–67.
+askwith, c.c., benson, c.j., welsh, m.j., and snyder, p.m. (2001).
+deg/enac ion channels involved in sensory transduction are modulated by cold temperature. proc. natl. acad. sci. usa 98, 6459–6463.
+cain, d.m., khasabov, s.g., and simone, d.a. (2001). response
+properties of mechanoreceptors and nociceptors in mouse glabrous
+skin: an in vivo study. j. neurophysiol. 85, 1561–1574.
+campero, m., serra, j., and ochoa, j.l. (1996). c-polymodal nociceptors activated by noxious low temperature in human skin. j.
+physiol. 497, 565–572.
+caterina, m.j., schumacher, m.a., tominaga, m., rosen, t.a., levine, j.d., and julius, d. (1997). the  xxxg2335xxx : a heat-activated ion channel in the pain pathway. nature 389, 816–824.
+caterina, m.j., rosen, t.a., tominaga, m., brake, a.j., and julius,
+d. (1999). a capsaicin-receptor homologue with a high threshold for
+noxious heat. nature 398, 436–441.
+chuang, h.h., prescott, e.d., kong, h., shields, s., jordt, s.e., basbaum, a.i., chao, m.v., and julius, d. (2001). bradykinin and nerve
+growth factor release the  xxxg2335xxx  from ptdins(4,5)p2mediated inhibition. nature 411, 957–962.
+davis, k.d., and pope, g.e. (2002). noxious cold evokes multiple
+sensations with distinct time courses. pain 98, 179–185.
+dodt, e., and zoterman, y. (1952). the discharge of specific cold
+fibers at high temperatures (the paradoxical cold). acta physiol.
+scand. 26, 358–365.
+guler, a.d., lee, h., iida, t., shimizu, i., tominaga, m., and caterina,
+m. (2002). heat-evoked activation of the ion channel, trpv4. j.
+neurosci. 22, 6408–6414.
+hensel, h. (1981). thermoreception and temperature regulation. monogr. physiol. soc. 38, 1–321.
+jaquemar, d., schenker, t., and trueb, b. (1999). an ankyrin-like
+protein with transmembrane domains is specifically lost after oncogenic transformation of human fibroblasts. j. biol. chem. 274, 7325–
+7333.
+jegla, t., and salkoff, l. (1997). a novel subunit for shal k⫹ channels
+radically alters activation and inactivation. j. neurosci. 17, 32–44.
+ji, r.r., samad, t.a., jin, s.x., schmoll, r., and woolf, c.j. (2002).
+p38 mapk activation by ngf in primary sensory neurons after inflammation increases trpv1 levels and maintains heat hyperalgesia. neuron 36, 57–68.
+liedtke, w., choe, y., marti-renom, m.a., bell, a.m., denis, c.s.,
+sali, a., hudspeth, a.j., friedman, j.m., and heller, s. (2000).  xxxd428xxx  receptor-related osmotically activated channel (vr-oac), a candidate vertebrate osmoreceptor. cell 103, 525–535.
+maingret, f., lauritzen, i., patel, a.j., heurteaux, c., reyes, r., le-
+
+ xxxg2331xxx  is a trp channel that senses noxious cold
+829
+
+sage, f., lazdunski, m., and honore, e. (2000).  xxxg1256xxx  is a heatactivated background k(⫹) channel. embo j. 19, 2483–2491.
+
+is a calcium-permeable temperature-sensitive cation channel. nature 418, 181–186.
+
+mckemy, d.d., neuhausser, w.m., and julius, d. (2002). identification of a cold receptor reveals a general role for trp channels in
+thermosensation. nature 416, 52–58.
+
+accession numbers
+
+montell, c. (2001). physiology, phylogeny, and functions of the trp
+superfamily of cation channels. science’s stke http://stke.
+sciencemag.org/cgi/content/full/sigtrans;2001/90/re1.
+montell, c., and rubin, g.m. (1989). molecular characterization of
+the drosophila trp locus: a putative integral membrane protein required for phototransduction. neuron 2, 1313–1323.
+montell, c., birnbaumer, l., flockerzi, v., bindels, r.j., bruford, e.a.,
+caterina, m.j., clapham, d.e., harteneck, c., heller, s., julius, d.,
+et al. (2002). a unified nomenclature for the superfamily of trp
+cation channels. mol. cell 9, 229–231.
+peier, a.m., moqrich, a., hergarden, a.c., reeve, a.j., andersson,
+d.a., story, g.m., earley, t.j., dragoni, i., mcintyre, p., bevan, s.,
+and patapoutian, a. (2002a). a trp channel that senses cold stimuli
+and menthol. cell 108, 705–715.
+peier, a.m., reeve, a.j., andersson, d.a., moqrich, a., earley, t.j.,
+hergarden, a.c., story, g.m., colley, s., hogenesch, j.b., mcintyre,
+p., et al. (2002b). a heat-sensitive trp channel expressed in keratinocytes. science 296, 2046–2049.
+perl, e.r. (1998). getting a line on pain: is it mediated by dedicated
+pathways? nat. neurosci. 1, 177–178.
+reid, g., and flonta, m. (2001). cold transduction by inhibition of a
+background potassium conductance in rat primary sensory neurones. neurosci. lett. 297, 171–174.
+reid, g., babes, a., and pluteanu, f. (2002). a cold- and mentholactivated current in rat dorsal root ganglion neurones: properties
+and role in cold transduction. j. physiol. 545, 595–614.
+scott, s.a. (1992). sensory neurons: diversity, development, and
+plasticity (new york: oxford university press).
+shu, x., and mendell, l.m. (1999).  xxxg1564xxx  acutely sensitizes the response of adult rat sensory neurons to capsaicin. neurosci. lett. 274, 159–162.
+smith, g.d., gunthorpe, m.j., kelsell, r.e., hayes, p.d., reilly, p.,
+facer, p., wright, j.e., jerman, j.c., walhin, j.p., ooi, l., et al.
+(2002).  xxxg2336xxx  is a temperature-sensitive  xxxd428xxx  receptor-like protein. nature 418, 186–190.
+stowers, l., holy, t.e., meister, m., dulac, c., and koentges, g.
+(2002). loss of sex discrimination and male-male aggression in mice
+deficient for  xxxg614xxx . science 295, 1493–1500.
+strotmann, r., harteneck, c., nunnenmacher, k., schultz, g., and
+plant, t.d. (2000). otrpc4, a nonselective cation channel that confers sensitivity to extracellular osmolarity. nat. cell biol. 2, 695–702.
+tobin, d., madsen, d., kahn-kirby, a., peckol, e., moulder, g.,
+barstead, r., maricq, a., and bargmann, c. (2002). combinatorial
+expression of trpv channel proteins defines their sensory functions
+and subcellular localization in c. elegans neurons. neuron 35,
+307–318.
+updike, j. (1980). the cold. in more matter: essays and criticism
+(new york: ballantine books), pp. 133–138.
+viana, f., de la pena, e., and belmonte, c. (2002). specificity of
+cold thermotransduction is determined by differential ionic channel
+expression. nat. neurosci. 5, 254–260.
+walker, r.g., willingham, a.t., and zuker, c.s. (2000). a drosophila
+mechanosensory transduction channel. science 287, 2229–2234.
+wei, e.t., and seid, d.a. (1983). ag-3–5: a chemical producing sensations of cold. j. pharm. pharmacol. 35, 110–112.
+wei, a., covarrubias, m., butler, a., baker, k., pak, m., and salkoff,
+l. (1990). k⫹ current diversity is produced by an extended gene
+family conserved in drosophila and mouse. science 248, 599–603.
+winston, j., toma, h., shenoy, m., and pasricha, p.j. (2001). nerve
+growth factor regulates vr-1 mrna levels in cultures of adult dorsal
+root ganglion neurons. pain 89, 181–186.
+xu, h., ramsey, i.s., kotecha, s.a., moran, m.m., chong, j.a., lawson, d., ge, p., lilly, j., silos-santiago, i., xie, y., et al. (2002).  xxxg2336xxx 
+
+the genbank accession number for manktm1 reported in this
+paper is ay231177.
+

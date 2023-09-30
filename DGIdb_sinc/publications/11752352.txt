@@ -1,0 +1,682 @@
+412–415
+
+nucleic acids research, 2002, vol. 30, no. 1
+
+© 2002 oxford university press
+
+ttd: therapeutic target database
+x. chen, z. l. ji and  xxxd3459xxx . z. chen*
+department of computational science, national university of singapore, blk s17, level 7, 3 science drive 2,
+117543 singapore
+received july 23, 2001; revised and accepted august 28, 2001
+
+abstract
+a number of proteins and nucleic acids have been
+explored as therapeutic targets. these targets are
+subjects of interest in different areas of biomedical
+and pharmaceutical research and in the development
+and evaluation of bioinformatics, molecular modeling,
+computer-aided drug design and analytical tools. a
+publicly accessible database that provides comprehensive information about these targets is therefore
+helpful to the relevant communities. the therapeutic
+target database (ttd) is designed to provide information about the known therapeutic protein and
+nucleic acid targets described in the literature, the
+targeted disease conditions, the pathway information
+and the corresponding drugs/ligands directed at each
+of these targets. cross-links to other databases are
+also introduced to facilitate the access of information
+about the sequence, 3d structure, function, nomenclature, drug/ligand binding properties, drug usage
+and effects, and related literature for each target. this
+database can be accessed at http://xin.cz3.nus.edu.sg/
+group/ttd/ttd.asp and it currently contains entries for
+433 targets covering 125 disease conditions along
+with 809 drugs/ligands directed at each of these
+targets. each entry can be retrieved through multiple
+methods including target name, disease name, drug/
+ligand name, drug/ligand function and drug therapeutic
+classification.
+introduction
+pharmaceutical agents generally exert their therapeutic effect
+by binding to a particular protein or nucleic acid target (1,2).
+so far, hundreds of proteins and nucleic acids have been
+explored as therapeutic targets (1). rapid advances in genetic
+(3), structural (4) and functional (5) information of disease
+related genes and proteins not only raise strong interest in the
+search of new therapeutic targets, but also promote the study of
+various aspects of known targets including molecular mechanism
+of their binding agents and related adverse effects (6), and pharmacogenetic implications of sequence or proteomic variations (7),
+etc. the knowledge gained from such a study is important in
+facilitating the design of more potent, less toxic and personalized
+drugs. development of advanced computational methods for
+
+figure 1. the web interface of ttd. five types of search mode are supported.
+this database is searchable by target name, disease name, drug/ligand name,
+drug/ligand function, drug classification or any combination of these.
+
+bioinformatics (4), molecular modeling (8), drug design and
+pharmacokinetics analysis (9–11) increasingly uses known
+therapeutic targets to refine and test algorithms and parameters.
+a publicly accessible database that provides comprehensive
+information about these targets is therefore helpful in catering
+for the need and interest of the relevant communities in general
+and those unfamiliar with a specific therapeutic target in
+particular. to the best of the authors’ knowledge, such a
+publicly accessible database is not yet available. in this work,
+we introduce a therapeutic target database (ttd), which
+contains information about the known therapeutic protein and
+nucleic acid targets together with the targeted disease conditions,
+the pathway information and the corresponding drugs/ligands
+directed at each of these targets. cross-links to other databases
+are introduced to facilitate the access of information regarding
+the function, sequence, 3d structure, nomenclature, drug/
+ligand binding properties and related literatures of each target.
+the therapeutic targets collected in ttd are from a search of
+the available literature. it has been reported that, at present,
+approximately 500 therapeutic targets have been exploited in
+the currently available medical treatment (1). an effort has
+been made to collect as many of these known targets as
+possible. however, description of some of these targets in the
+literature was not specific enough to point to a particular
+protein or nucleic acid as the target. hence these targets are not
+included in our database.
+
+*to whom correspondence should be addressed. tel: +65 874 6877; fax: +65 774 6756; email: yzchen@cz3.nus.edu.sg
+
+nucleic acids research, 2002, vol. 30, no. 1
+
+table 1. disease names listed in ttd (synonyms of disease names are also included to facilitate searching)
+acute lymphoblastic leukemia
+
+erectile dysfunction
+
+neuropathic
+
+addiction
+
+fever
+
+obesity
+
+advanced pancreatic tumor
+
+fungal infection
+
+obstructive pulmonary disease
+
+affective disorder
+
+gastric tumor
+
+ocular hypertension/glaucoma
+
+aids
+
+glaucoma
+
+oral
+
+allergic rhinitis
+
+gout
+
+osteoporosis
+
+ xxxd1676xxx   xxxd2504xxx 
+
+heart disease
+
+ovarian
+
+alzheimer’s
+
+heart failure
+
+pain
+
+ xxxd2565xxx 
+
+helminth infection
+
+parkinson’s
+
+anesthesia
+
+hepatitis c
+
+peptic ulcer
+
+anf degradation
+
+herpes
+
+phaeochromocytoma
+
+angiogenesis
+
+high blood glucose level
+
+platelet adhesion
+
+anxiety
+
+high blood sugar level
+
+platelet disease
+
+arthritis
+
+high cholesterol
+
+posterior pituitary disorder
+
+asthma
+
+hirsutism
+
+postsurgical
+
+autoimmune disease
+
+hormone-dependent tumors
+
+prostate adenocarcinoma
+
+b cell
+
+human african trypanosomiasis
+
+prostate tumor
+
+ xxxd3440xxx  infection
+
+hypertension
+
+prostatic hyperplasia
+
+baldness
+
+hyperthyroidism
+
+psychiatric illness
+
+blood coagulation
+
+hypocalcaemia
+
+psychomotor
+
+bone loss
+
+immune response
+
+reproduction
+
+brain ischaemia
+
+immunodeficiency
+
+respiration
+
+breast
+
+in transplantation, etc.
+
+rheumatoid
+
+calcium deficiency
+
+inflammation
+
+riboflavin deficiency
+
+cancer
+
+influenza a and b
+
+schizophrenia
+
+carcinoid syndrome
+
+insomnia
+
+seizure
+
+cardiac failure
+
+irritable bowel syndrome
+
+smoking
+
+cardiovascular disease
+
+kidney failure
+
+smooth  xxxd2565xxx 
+
+chronic myelogenous leukemia
+
+leukemia
+
+solid tumor
+
+cognitive dysfunction
+
+liposarcoma
+
+thiamine deficiency
+
+colon
+
+liver
+
+tuberculosis
+
+common  xxxd1676xxx 
+
+local anesthetic
+
+urinary tract infection
+
+common roundworm
+
+lung
+
+urticaria
+
+congestive heart failure
+
+lupus
+
+uterus contraction
+
+cystic fibrosis
+
+malaria
+
+vascular disease
+
+dementia
+
+malignant pain
+
+viral infection
+
+depression
+
+melanoma
+
+visceral
+
+diabetes
+
+metastasis
+
+ xxxd3105xxx  deficiency
+
+diabetic retinopathy
+
+migraine
+
+ xxxd1771xxx   xxxd3520xxx  deficiency
+
+diarrhea
+
+morning sickness
+
+ xxxd3049xxx  deficiency
+
+drug dependence
+
+ xxxd1892xxx 
+
+ xxxd228xxx  deficiency
+
+drug induced
+
+motor disorder
+
+ xxxd1682xxx   xxxd2019xxx  deficiency
+
+dry eye
+
+movement disorder
+
+vomiting
+
+dysrhythmic
+
+nasal congestion
+
+zollinger-ellison syndrome
+
+emphysema
+
+neurodegeneration
+
+epilepsy
+
+neurological symptom
+
+413
+
+414
+
+nucleic acids research, 2002, vol. 30, no. 1
+
+table 2. drug functions listed in ttd
+(synonyms of drug functions are also
+included to facilitate searching)
+activator
+
+cofactor
+
+agonist
+
+immunotoxin
+
+alkylator
+
+inactivator
+
+antagonist
+
+inhibitor
+
+antibody
+
+intercalator
+
+antisense
+
+opener
+
+blocker
+
+stimulator
+
+chain breaker
+
+substrate
+
+coenzyme
+
+vaccine
+
+figure 2. the interface of a search result on ttd. all the targets that satisfy
+the specified search criteria are listed along with disease, drug/ligand name and
+drug classification.
+
+table 3. drug classifications listed in ttd (synonyms of drug classifications
+are also included to facilitate searching)
+anesthetic
+
+antimalarial
+
+lipid-lowering
+
+anti-allergic
+
+antimotility
+
+local anesthetic
+
+anti- xxxd1676xxx   xxxd2504xxx 
+
+anti-neurodegenerative lupus
+
+anti-androgen
+
+anti-obesity
+
+nasal decongestion
+
+anti-angiogenic
+
+antiplatelet
+
+neurological
+
+anti-asthmatic
+
+antipsychotic
+
+opioid overdose
+
+antibacterial
+
+antipyretic
+
+osteoporosis
+
+anticancer
+
+antirheumatoid
+
+ovulation induction
+
+anti-cholesterol
+
+antiseptics
+
+pain-killer
+
+anticoagulant
+
+antiviral
+
+parkinson’s
+
+anticonvulsant
+
+anxiolytic
+
+platelet
+
+antidepressant
+
+anxiotic
+
+procoagulant
+
+antidiabetic
+
+arthritis
+
+psychomotor stimulant
+
+antidiarrheal
+
+bronchodilator
+
+psychostimulant
+
+antidiuretic
+
+cardiotonic
+
+psychotomimetic
+
+antidysrhythmic
+
+contraceptive
+
+respiratory stimulant
+
+anti-emetic
+
+convulsant
+
+sedative
+
+anti-emetics
+
+depressant
+
+supplement
+
+antiepileptic
+
+diuretics
+
+uterine contractant
+
+antifungal
+
+drug dependence
+
+uterine relaxant
+
+anti-gastric secretion
+
+erectile dysfunction
+
+vasodilator
+
+antihelminthic
+
+glaucoma treatment
+
+vitamin
+
+database structure and access
+ttd has a web interface at http://xin.cz3.nus.edu.sg/group/
+ttd/ttd.asp. the entries of this database are generated from a
+search of pharmacology textbooks (12,13), review articles (14–21)
+and a number of recent publications. our database currently
+contains 433 entries of protein and nucleic acid targets found from
+the literature. these targets cover 125 different disease conditions,
+which are described in the database. drugs and ligands
+directed at each of these targets are searched and included in
+the database. a total of 809 different drugs and ligands are
+listed in the database.
+the ttd database web interface is shown in figure 1. this
+database is searchable by target name or drug/ligand name. it
+
+can also be accessed by selection of disease name, drug/ligand
+function or drug therapeutic classification from the list
+provided in the corresponding selection field. searches
+involving any combination of these five search or selection fields
+are also supported. the lists of disease names, drug/ligand
+functions and drug classifications are given in tables 1, 2 and
+3, respectively.
+the search is case insensitive. in a query, a user can specify
+full name or any part of the name in a text field, or choose one
+item from a selection field. wild characters of ‘%’ and ‘_’ are
+supported in text field. here, ‘_’ represents any one character
+and ‘%’ represents a string of characters of any length. for
+example, input of ‘phosphatase’ in the target name field finds
+entries containing ‘phosphatase’ in their name, such as
+cdc25a phosphatase or  xxxd3459xxx  phosphatase. on the other
+hand, input of ‘cdc25_ phosphatase’ finds entries with names
+like cdc25a phosphatase, cdc25b phosphatase and  xxxg401xxx 
+phosphatase. likewise, input of cdc% phosphatase finds the
+same entries as above. in this case, ‘%’ represents ‘25a’,
+‘25b’, ‘25c’, respectively.
+the result of a typical search is illustrated in figure 2. in this
+interface, all the therapeutic targets that satisfy the search
+criteria are listed along with the disease conditions to be
+treated, drugs or ligands directed at the target, and the drug
+class. more detailed information of a target can be obtained by
+clicking the corresponding target name. the result is displayed
+in an interface shown in figure 3. from this interface, one
+finds target name, corresponding disease  xxxd1866xxx  and crosslink to karolinska disease database (http://www.kib.ki.se/),
+target function in pathway and corresponding natural ligand,
+known drugs or ligands directed at the target, drug function
+(such as inhibitor, antagonist and blocker, etc.), drug therapeutic
+classification, and additional cross-links to other databases that
+provide useful information about the target.
+the functional properties of an identified target can be
+obtained through cross-linking to the on-line medical
+dictionary (omd) database (http://www.graylab.ac.uk/omd/)
+and the swiss-prot database (22). the target sequence can
+be retrieved from cross-link to the swiss-prot database.
+the available 3d structure of this target can be accessed
+through cross-linking to the protein data bank (pdb) database
+(23). for an enzymatic target, its nomenclature can be obtained
+from cross-link to the enzyme data bank (24). ligand-binding
+properties may be obtained from cross-link to the computed
+
+nucleic acids research, 2002, vol. 30, no. 1
+
+figure 3. interface of the detailed information of target in ttd. information
+related to disease, drug/ligand, pathway and some of the cross-database shortcuts
+are provided. in the case of one target having multi ligands, the ligands are
+separated with ‘|’, as well as their functions and cas numbers.
+
+ligand binding energy database (clibe) (http://
+xin.cz3.nus.edu.sg/group/clibe.asp). the related literature
+can be accessed from cross-link to the relevant entries in the
+pubmed database (25).
+as the research in proteomics (26) and pathways (27)
+progresses, the relevant information can be incorporated or the
+corresponding databases can be cross-linked to ttd to provide
+more comprehensive information about the drug targets and
+their relationship to other biomolecules and cellular processes.
+references
+1. drews,j. (2000) drug discovery: a historical perspective. science, 287,
+1960–1964.
+2. ohlstein,e.h., ruffolo,r.r.,jr and ellroff,j.d. (2000) drug discovery in
+the next millennium. annu. rev. pharmacol. toxicol., 40, 177–191.
+3. peltonen,l. and mckusick,v.a. (2001) genomics and medicine: dissecting
+human disease in the postgenomics era. science, 291, 1224–1232.
+
+415
+
+4. sali,a. (1998) 100,000 protein structures for biologist. nature struct. biol., 5,
+1029–1032.
+5. koonin,e.v., tatusov,r.l. and michael, xxxd3459xxx . xxxd2217xxx . (1998) beyond complete
+genomes: from sequence to structure and function. curr. opin. struct.
+biol., 8, 355–363.
+6. wallace,k.b. and starkov,a.a. (2000) mitochondrial targets of drug
+toxicity. annu. rev. pharmacol. toxicol., 40, 353–388.
+7. vesell,e.s. (2000) advances in pharmacogenetics and
+pharmacogenomics. j. clin. pharmacol., 40, 930–938.
+8. cornell,w.d., cieplak, xxxd2434xxx ., bayly,c.i., gould,i.r., mer,k.m.,jr,
+ferguson,d.m., spellmeyer,d.c., fox,t., caldwell,j.w. and
+kollman, xxxd2434xxx .a. (1995) a second generation force field for the simulation of
+proteins, nucleic acids, and organic molecules. j. am. chem. soc., 117,
+5179–5197.
+9. blundell,t.l. (1996) structure-based drug design. nature, 384 (suppl.),
+23–26.
+10. podlogar,b.l. and terguson,d.m. (2000) qsar and comfa: a
+perspective on the practical application to drug discovery. drug  xxxd1880xxx .
+discov., 17, 4–12.
+11. chen, xxxd3459xxx .z. and zhi,d. xxxd2217xxx . (2001) ligand-protein inverse docking and its
+potential use in the computer search of protein targets of a small molecule.
+proteins, 43, 217–226.
+12. rang,h. xxxd2434xxx ., dale,m.m. and ritter,j.m. (1999) pharmacology, 4th edn.
+churchill livingstone, new york, ny.
+13. katznug,b. xxxd2217xxx . (1998) basic and clinical pharmacology, 7th edn.
+appleton & lange, new jersey, nj.
+14. navia,m.a. and murcko,m.a. (1992) use of structural information in
+drug design. curr. opin. struct. biol., 2, 202–210.
+15. gibbs,j.b. (2000) mechanism-based target identification and drug
+discovery in cancer research. science, 287, 1969–1973.
+16. rao,r.n. (1996) targets for cancer therapy in the cell cycle pathway.
+curr. opin. oncol., 8, 516–524.
+17. brower,v. (1999). tumor angiogenesis – new drugs on the block.
+nat. biotechnol., 17, 963–968.
+18. moir,d.j., shaw,k.j., hare,r.s. and vovis, xxxd2217xxx . xxxd2433xxx . (1999) genomics and
+antimicrobial drug discovery. antimicrob. agents chemother., 43, 439–446.
+19. olliaro, xxxd2434xxx .l. and yuthavong, xxxd3459xxx . (1999) an overview of chemotherapeutic
+targets for antimalarial drug discovery. pharmacol. ther., 81, 91–110.
+20. brower,v. (2000) new paths to pain relief. nat. biotechnol., 18, 387–391.
+21. persidis,a. (2000) industry trends supplement. nat. biotechnol., 18,
+it3–it29.
+22. bairoch,a. and apweiler,r. (2000) the swiss-prot protein sequence
+database and its supplement trembl in 2000. nucleic acids res., 28,
+45–48.
+23. berman,h.m., westbrook,j., feng,z., gilliland, xxxd2217xxx ., bhat,t.n.,
+weissig,h., shindyalov i.n. and bourne, xxxd2434xxx .e. (2000) the protein data
+bank. nucleic acids res., 28, 235–242. updated article in this issue:
+nucleic acids res. (2002), 30, 245–248.
+24. bairoch,a. (2000) the enzyme database in 2000. nucleic acids res.,
+28, 304–305.
+25. mcentyre,j. and lipman,d. (2001) pubmed: bridging the information
+gap. can. med. assoc. j., 164, 317–1319.
+26. dove,a. (1999) proteomics: translating genomics into products?
+nat. biotechnol., 17, 233–236.
+27. scharpe,s. and de meester,i. (2001) peptide truncation by dipeptidyl
+peptidase iv: a new pathway for drug discovery? verh. k. acad.
+geneeskd. belg., 63, 5–32.
+

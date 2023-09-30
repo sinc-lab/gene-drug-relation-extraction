@@ -1,0 +1,939 @@
+practical, catalytic, asymmetric synthesis of beta-lactones via a
+sequential ketene dimerization/hydrogenation process: inhibitors
+of the thioesterase domain of  xxxg765xxx 
+vikram c. purohit,† robyn d. richardson,‡ jeffrey w. smith,*,‡ and daniel romo*,†
+department of chemistry, texas a & m university, p.o. box 30012, college station, texas 77842-3012
+and cell adhesion and extra cellular matrix biology, burnham institute for medical research,
+infectious and inflammatory disease center, la jolla, california 92037
+romo@mail.chem.tamu.edu; jsmith@burnham.org
+received february 24, 2006
+
+the recent finding that the fda-approved antiobesity agent orlistat ( xxxd2792xxx , xenical) is a
+potent inhibitor of the thioesterase domain of  xxxg765xxx  (fas) led us to develop a concise and
+practical asymmetric route to pseudosymmetric 3,4-dialkyl-cis-beta-lactones. the well-documented upregulation of fas in cancer cells makes this enzyme complex an interesting therapeutic target for cancer.
+the described route to 3,4-dialkyl-beta-lactones is based on a two-step process involving calter’s catalytic,
+asymmetric ketene dimerization of acid chlorides followed by a facial-selective hydrogenation leading
+to cis-substituted-beta-lactones. importantly, the ketene dimer intermediates were found to be stable to flash
+chromatography, enabling opportunities for subsequent transformations of these optically active, reactive
+intermediates. subsequent r-epimerization and r-alkylation or acylation led to trans-beta-lactones and
+beta-lactones bearing r-quaternary carbons, respectively. several of the ketene dimers and beta-lactones
+displayed antagonistic activity (apparent ki in the low micromolar range) in competition with a fluorogenic
+substrate toward a recombinant form of the thioesterase domain of  xxxg765xxx . the best antagonist,
+a simple phenyl-substituted cis-beta-lactone 3d, displayed an apparent ki (2.5 ( 0.5 µm) of only ∼10-fold
+lower than that of orlistat (0.28 ( 0.06 µm). in addition, mechanistic studies of the ketene dimerization
+process by reactionview infrared spectroscopy support previous findings that ketene formation is rate
+determining.
+
+introduction
+the development of synthetic processes that deliver optically
+active products from achiral starting materials in a practical and
+catalytic manner continues to be a vital area of research in
+organic synthesis.1 in the area of beta-lactone synthesis, the
+wynberg process continues to be a benchmark for further
+developments in this area.2 several groups have recently
+* to whom correspondence should be addressed.
+† texas a & m university.
+‡ burnham institute for medical research.
+
+(1) (a) noyori, r. asymmetric catalysis in organic synthesis; john wiley
+& sons: new york, 1994. (b) williams, j. m. j. catalysis in asymmetric
+synthesis; sheffield academic press: sheffield, england, 1999.
+(2) (a) wynberg, h.; staring, e. g. j. j. am. chem. soc. 1982, 104,
+166. (b) wynberg, h.; staring, e. g. j. top. stereochem. 1986, 16, 87.
+
+developed various catalytic, asymmetric routes to beta-lactones
+involving nucleophile-catalyzed aldol-lactonizations and lewisacid-catalyzed [2+2] cycloadditions.3 with regard to the former
+route, we recently reported an intramolecular, nucleophilecatalyzed aldol-lactonization process building on the work of
+wynberg that effectively joins catalytic, asymmetric carbocycle
+synthesis with beta-lactone synthesis employing organocatalysis.4
+this was the first example of this process with highly electrophilic (e.g., non-r-chlorinated) aldehydes. more recently, this
+(3) for reviews describing asymmetric routes to beta-lactones, see: (a)
+yang, h. w.; zhao, c.; romo, d. tetrahedron 1997, 53, 16471. (b) wang,
+y.; tennyson, r. l.; romo, d. heterocycles 2004, 64, 605.
+(4) (a) cortez, g. s.; tennyson, r. l.; romo, d. j. am. chem. soc.
+2001, 123, 7945. (b) cortez, g. s.; oh, s. h.; romo, d. synthesis 2001,
+1731. (c) oh, s.; cortez, g.; romo, d. j. org. chem. 2005, 70, 2835.
+
+10.1021/jo060392d ccc: $33.50 © 2006 american chemical society
+
+published on web 05/18/2006
+
+j. org. chem. 2006, 71, 4549-4558
+
+4549
+
+purohit et al.
+
+figure 1. schematic diagram of fas showing enzymatic steps involved in fatty acid biosynthesis leading to  xxxd2833xxx . fas is comprised
+of six enzymatic domains and an acyl-carrier protein (acp). the steps in fatty acid biosynthesis are as follows. (i) the malonyl/acetyl transferase
+domain (1) transfers an acetyl group onto the acp. it is then translocated to the active-site cysteine by r-ketoacyl synthase (2). this position,
+marked “r”, also serves as the loading position for the growing acyl chain in subsequent iterations. (ii) the malonyl/acetyl transferase domain (1)
+then transfers a malonyl group to the acp, and the two are condensed (2) into a four-carbon product bound to the enzyme through the thiol of the
+acp. (iii) the ketoacyl reductase (3) reduces the ketone at c-3 to an alcohol. (iv) the dehydrase (4) further reduces the alcohol to an alkene. (v)
+the enoyl reductase domain (5) further reduces the alkene bond to an alkane, and the acp-bound chain is translocated back to the active-site
+cysteine (2). steps ii-v are then repeated six times to yield a 16-carbon, fully saturated  xxxd2833xxx  bound to the acp. (vi) the palmitate is
+released from fas by the enzyme’s intrinsic thioesterase domain (fas te, 6), which is the target of orlistat and the beta-lactones generated in this
+study.
+
+scheme 1. strategy toward pseudosymmetric
+cis-3,4-dialkyl-beta-lactones 3 via a ketene dimerization/
+hydrogenation process from acid chlorides 1 and
+epimerization to trans-beta-lactones 4
+
+limitation was overcome by use of lewis-acid additives in the
+wynberg process by nelson and calter, allowing access to cisbeta-lactones in high enantiopurity.5 in a related process, the calter
+group described a novel application of asymmetric organocatalysis for the dimerization of methylketene6 and more recently
+several in situ generated ketenes leading to pseudosymmetric,
+chiral 3-alkyl-4-methylene-2-oxetanones 2 (scheme 1, 1 f 2).7
+these homodimers were typically not isolated but directly ringopened with lithiated secondary amines to provide enolates that
+could undergo subsequent aldol reactions leading to polypropionate fragments and ultimately to polyketide natural products.8
+important to the process described herein, the geometry of the
+olefin in dimer 2 was determined to be z by virtue of the
+stereochemical outcome of the subsequent aldol process. in this
+article, we describe hydrogenation of isolated, optically active
+ketene dimers 2 leading to cis-beta-lactones 3 and subsequent
+(5) (a) calter, m. a.; tretyak, o. a.; flaschenriem, c. org. lett. 2005,
+7, 180. (b) zhu, c.; shen, x.; nelson, s. g. j. am. chem. soc. 2004, 126,
+5352.
+(6) calter, m. a. j. org. chem. 1996, 61, 8006.
+(7) (a) calter, m. a.; orr, r. k.; song, w. org. lett. 2003, 5, 4745. (b)
+for a review on the use of ketenes in asymmetric synthesis, see: orr, r.
+k.; calter, m. a. tetrahedron 2003, 59, 3545.
+(8) (a) calter, m. a.; guo, x. j. org. chem. 1998, 63, 5308. (b) calter,
+m. a.; zhou, j. g. tetrahedron lett. 2004, 45, 4847. (c) calter, m. a.;
+guo, x. tetrahedron 2002, 58, 7093. (d) calter, m. a.; liao, w. s.; struss,
+a. j. org. chem. 2001, 66, 7500.
+
+4550 j. org. chem., vol. 71, no. 12, 2006
+
+r-epimerization and alkylations leading to trans-beta-lactones 4
+and r,r-disubstituted-beta-lactones, respectively (scheme 1). this
+process provides a practical (two steps from acid chlorides) and
+complimentary approach to simplified pseudosymmetric dialkylbeta-lactones 3.
+our long-standing interest in the development of enantioselective methodologies for beta-lactone synthesis and our recent
+discovery that  xxxd2792xxx  (orlistat) potently inhibits fatty
+acid synthase (fas)9 prompted us to explore the potential of
+optically active ketene dimers as precursors to pseudosymmetric
+trans-3,4-dialkyl-beta-lactones 4 and study the ability of these
+simplified beta-lactones to inhibit the thioesterase domain of fatty
+acid synthase (fas te) (figure 1). human  xxxg765xxx 
+(fas) is the enzyme responsible for cellular synthesis of
+palmitate. fas contains seven separate enzymatic pockets that
+function sequentially to condense acetyl-coa with malonylcoa to form a four-carbon intermediate. six additional turns
+of the enzyme’s cycle convert this intermediate to palmitate,
+which is then liberated from fas by the action of the
+thioesterase domain.10 fas is attracting great interest as a drug
+target in oncology because it is up-regulated in most solid
+tumors, including those of the breast,11 prostate,12 and ovary.13
+furthermore, a number of studies show that a pharmacologic
+blockade of fas can be cytostatic and cytotoxic to tumor cells.14
+for example, the fungal product cerulenin15 and a synthetic
+(9) (a) kridel, s. j.; axelrod, f.; rozenkrantz, n.; smith, j. w. cancer
+res. 2004, 64, 2070. (b) knowles, l. m.; axelrod, f.; browne, c. d.; smith,
+j. w. j. biol. chem. 2004, 279, 30540.
+(10) mattick, j. s.; nickless, j.; mizugaki, m.; yang, c. y.; uchiyama,
+s.; wakil, s. j. j. biol. chem. 1983, 258, 15300.
+(11) (a) alo, p. l.; visca, p.; marci, a.; mangoni, a.; botti, c.; di
+tondo, u. cancer 1996, 77, 474. (b) swinnen, j. v.; roskams, t.; joniau,
+s.; van poppel, h.; oyen, r.; baert, l.; heyns, w.; verhoeven, g. int. j.
+cancer 2002, 98, 19.
+(12) (a) rossi, s.; graner, e.; febbo, p.; weinstein, l.; bhattacharya,
+n.; onody, t.; bubley, g.; balk, s.; loda, m. mol. cancer res. 2003, 1,
+707. (b) pizer, e. s.; wood, f. d.; heine, h. s.; romantsev, f. e.;
+pasternack, g. r.; kuhajda, f. p. cancer res. 1996, 56, 1189.
+(13) gansler, t. s.; hardman, w., iii; hunt, d. a.; schaffel, s.; hennigar,
+r. a. hum. pathol. 1997, 28, 686.
+
+beta-lactone inhibitors of  xxxg765xxx 
+
+figure 3. cinchona alkaloids and derivatives 9-11 employed in
+the ketene dimerization.
+
+scheme 2. attempted one-pot, two-step catalytic
+asymmetric beta-lactone synthesis via a ketene dimerization/
+hydrogenation sequence
+
+figure 2. structures of representative, bioactive natural products
+possessing trans-3,4-disubstituted-beta-lactones.
+
+c75,16
+
+results and discussion
+
+derivative,
+were found to inhibit the ketosynthase (ks)
+domain of fas and thus shut down tumor cell proliferation and
+in some cases induce apoptosis.17 we recently showed that
+orlistat, which bears a beta-lactone and is a drug approved for
+treating obesity, is a potent inhibitor of fas te and that this
+natural product derivative is cytotoxic and cytostatic to tumor
+cells in vitro and can inhibit tumor growth in vivo.9 however,
+orlistat has poor solubility and poor bioavailability, so there is
+a great need to develop new beta-lactones that overcome these
+problems and that can be deployed as potential antitumor drugs.
+in addition, simplified derivatives that are readily prepared
+would also ultimately be attractive from the standpoint of
+process development.
+a particularly attractive feature of the described strategy is
+its practicality since beta-lactones 4, which are simplified but
+structurally analogous to orlistat, could potentially be obtained
+in three steps from acid chlorides in optically active form.
+following ketene dimerization and hydrogenation, r-epimerization would allow access to the thermodynamically favored
+trans-beta-lactones 4 (scheme 1) corresponding to the relative
+stereochemistry found in orlistat (5) and also commonly
+observed in beta-lactone-containing natural products such as
+nocardiolactone (6), the ebelactones (7a,b), and most recently
+the belactosins (e.g., belactosin c (8), (figure 2)). furthermore,
+given the potential that beta-lactones are showing currently as
+inhibitors of several enzymes including proteases,18 hmg  xxxd1739xxx 
+synthase,19 esterases, and also the proteasome,20 the ketene
+dimerization/hydrogenation process described herein could also
+find wider application.
+
+development of a one-pot ketene dimerization/hydrogenation sequence. initial studies focused on the possibility
+of developing a one-pot, two-step ketene dimerization/hydrogenation process employing hexanoyl chloride 1a to access
+beta-lactone 3a (scheme 2). following ketene dimerization by the
+method of calter7 with quinidine (9, figure 3) as nucleophilic
+catalyst and simple filtration to remove amine hydrochloride
+salts, the reaction mixture was transferred to a hydrogenation
+vessel and pressurized to 30 psi of h2. this procedure provided
+only modest overall yields of beta-lactone 3a due to apparent
+degradation of the ketene dimers in the presence of traces of
+dissolved quaternary ammonium salts, a process with precedent
+in the literature.21 despite careful filtration of the amine salts
+prior to hydrogenation, extensive degradation of the dimer was
+always observed. more significantly, the enantiopurity of the
+ketene dimer (97% f 78% ee at 40% conversion) and thus the
+enantiopurity of the beta-lactone (97% f 74% ee) were found to
+erode during the hydrogenation, thus rendering this method
+ineffective for obtaining highly enantiopure beta-lactones. the
+stereochemistry of beta-lactone 3a was assigned based on coupling
+constant analysis (jcis ≈ 6 hz, jtrans 4-4.5 hz)22 and subsequently confirmed by x-ray analysis of the cyclohexyl-containing beta-lactone 3c (vide infra).
+isolation and purification of ketene dimers. to avoid
+erosion of optical purity and degradation during the hydrogenation step, we studied the stability of ketene dimers 2 toward
+isolation and purification. previous large-scale synthesis and
+purification of racemic ketene dimers bearing long alkyl chains
+(>13 carbons) relied on acidic extraction to remove alkylam-
+
+(14) (a) kuhajda, f. p.; pizer, e. s.; li, j. n.; mani, n. s.; frehywot, g.
+l.; townsend, c. a. proc. natl. acad. sci. u.s.a. 2000, 97, 3450. (b)
+kuhajda, f. p.; jenner, k.; wood, f. d.; hennigar, r. a.; jacobs, l. b.;
+dick, j. d.; pasternack, g. r. proc. natl. acad. sci. u.s.a. 1994, 91, 6383.
+(c) pizer, e. s.; chrest, f. j.; digiuseppe, j. a.; han, w. f. cancer res.
+1945, 5, 4611.
+(15) funabashi, h.; kawaguchi, a.; tomoda, h.; omura, s.; okudas,
+s.; iwasaki, s. j. biochem. 1989, 105, 751.
+(16) kuhajda, f. p.; pizer, e. s.; li, j. n.; mani, n. s.; frehywot, g.
+l.; townsend, c. a. proc. natl. acad. sci. u.s.a. 2000, 97, 3450.
+(17) (a) pizer, e. s.; jackisch, c.; wood, f. d.; pasternack, g. r.;
+davidsonf, n. e.; kuhajda, p. cancer res. 1996, 56, 2745-2747. (b) pizer,
+e. s.; chrest, f. j.; digiuseppew, j. a.; han, f. cancer res. 1998, 58,
+4611.
+(18) (a) lall, m. s.; ramtohul, y. k.; james, m. n. g.; vederas, j. c.
+j. org. chem. 2002, 67, 1536.
+
+(19) (a) mayer, r. j.; louis-flamberg, p.; elliott, j. d.; fisher, m.; leber,
+j. biochem. biophys. res. commun. 1990, 169, 610. (b) thompson, k. l.;
+chang, m. n.; chiang, y. c. p.; yang, s. s.; chabala, j. c.; arison, b. h.;
+greenspan, m. d.; hanf, d. p.; yudkovitz, j. tetrahedron lett. 1991, 32,
+3337. (c) romo, d.; harrison, p. h. m.; jenkins, s. i.; riddoch, r. w.;
+park, k.; yang, h. w.; zhao, c.; wright, g. d. bioorg. med. chem. 1998,
+6, 1255. (d) tomoda, h.; kumagai, h.; ogawa, y.; sunazuka, t.;
+hashizume, h.; nagashima, h.; omura, s. j. org. chem. 1997, 62, 2161.
+(e) tomoda, h.; ohbayashi, n.; kumagai, h.; hashizume, h.; sunazuka,
+t.; omura, s. biochem. biophys. res. commun. 1999, 265, 536.
+(20) (a) tomoda, h.; omura, s. yakugaku zasshi-j. pharm. soc. jpn.
+2000, 120, 935. (b) masse, c. e.; morgan, a. j.; adams, j.; panek, j. s.
+eur. j. org. 2000, 14, 2513.
+(21) brady, w. t.; waters, o. h. j. org. chem. 1967, 32, 3703.
+(22) mulzer, j.; zippel, m.; bruntrup, g.; sengner, j.; finke, j. liebigs
+ann. chem. 1980, 1108.
+
+j. org. chem, vol. 71, no. 12, 2006 4551
+
+purohit et al.
+table 1. effect of catalyst structure and reaction conditions
+
+table 2. effect of catalyst loading, base, and reaction time on
+
+on efficiency of ketene dimerization leading to dimer 2a
+
+diastereoselectivity and enantioselectivitya
+
+entry
+
+catalyst
+
+time (h)
+
+% yielda
+
+% eec
+
+configd
+
+entry
+
+mol % pd/c
+
+mol % et3n
+
+time (h)
+
+% yield
+
+drb
+
+1
+2
+3
+4
+5
+
+qnd (9)
+o-tbs qnd (11)
+o-tms qnd (10)
+o-tms quin (12)
+o-tms quin (12)
+
+24
+24
+24
+6
+6
+
+58
+54
+55
+62
+75b
+
+98
+nd
+nd
+nd
+96
+
+s
+s
+s
+r
+r
+
+1
+2
+3
+4
+
+5
+5
+5
+1
+
+0
+100
+0
+0
+
+24
+24
+0.5
+0.5
+
+88
+92
+89
+90
+
+4/1
+17/1
+17:1
+>19:1c
+
+a
+
+yields refer to isolated, purified dimer. b freshly, doubly-distilled acid
+chloride was used. c nd ) not determined. d absolute configurations are
+based on the precedent of calter (ref 5).
+
+monium salts followed by vacuum distillation, and this could
+potentially be applied to the asymmetric process described
+herein.23 however, in efforts to develop a procedure that would
+be tolerant of acid-sensitive functionality and avoid extensive
+heating, we studied the stability of ketene dimers to silica gel
+chromatography. indeed, we were able to purify all ketene
+dimers by normal silica gel flash chromatography. ketene dimer
+2a possessed sufficient stability to allow determination of its
+enantiomeric purity by gas chromatography using cyclodextrin
+bis-otbs as chiral stationary phase.24 beta-lactones (r)-2a and
+(s)-2a were obtained in high optical purity by use of either qnd
+(9, >98% ee) or o-tms quin (12, >96% ee), respectively
+(table 1, entries 1 and 5). the enantiopurity of other dimers
+was determined following hydrogenation to the cis-beta-lactones
+(vide infra). silylated alkaloids gave comparable yields of ketene
+dimer 3a compared to in situ generated, acetylated derivatives
+(table 1, entry 1 vs 2).25 a slight improvement in yield was
+realized when shorter reaction times were employed (6 vs 24
+h), consistent with our finding that the ketene dimer is unstable
+to prolonged exposure to trialkylammonium salts (table 1,
+entries 1-3 vs 4). the yield of ketene dimer could be improved
+further by use of doubly-distilled acid chloride (75% vs 62%
+yield, table 1, entry 4 vs 5). while our work was in progress,
+calter reported that ketene dimers derived from propanoyl
+chloride and malonyl chloride half-ester could be purified by
+rapid filtration through silica gel.7 the ability to isolate and
+purify optically active ketene dimers 2 greatly extends the
+potential utility of these intermediates for beta-lactone synthesis,
+allowing for subsequent transformations including epoxidation
+as reported by us recently, leading to novel spiro-epoxy-betalactones.26
+hydrogenation of ketene dimers. we next studied the
+hydrogenation of the isolated ketene dimers. prior hydrogenation
+studies of diketenes have primarily focused on the parent
+diketene, 4-methylene-2-oxetanone, in both racemic and asymmetric fashion, as a means to obtain the corresponding 4-methyl2-oxetanone, a commodity chemical utilized on ton scale for
+polymer applications.27 several catalysts have been utilized for
+hydrogenation of enol ethers;28 however, for simplicity and
+practicality, palladium on carbon was studied initially with
+(23) for a lead reference to processes for ketene dimerization, see:
+zhang, j. j. u.s. patent 5525738, 1996.
+(24) shitangkoon, a.; vigh, g. j. chromatogr., a. 1996, 738, 31-42.
+(25) calter previously reported increased rates with silylated quinine
+derivatives, see ref 7a.
+(26) duffy, r. j.; morris, k. a.; romo, d. j. am. chem. soc. 2005,
+127, 16754.
+
+4552 j. org. chem., vol. 71, no. 12, 2006
+
+a
+
+reactions were conducted at 0.1 m in ch2cl2. b ratios estimated by
+nmr (500 mhz) integration of ha and hb in crude reaction mixtures.
+c enantiomeric excess of cis-3a was determined by gc analysis to be 98%
+ee.
+1h
+
+racemic ketene dimer 2a. at the outset, we expected high facial
+selectivity for the hydrogenation due to the proximity of the
+alkene to the r-stereogenic carbon at c3 of the beta-lactone.
+however, hydrogenation of dimer 2a employing 5 mol % pd/c
+(5 wt %) resulted in high yield but low diastereoselectivity,
+providing a mixture of cis- and trans-beta-lactones 3a (4:1 favoring
+cis) after a 24 h reaction time (entry 1, table 2). addition of
+100 mol % triethylamine relative to pd catalyst, in an attempt
+to reduce the activity of the catalyst, improved the diastereoselectivity to 17:1 with the same reaction time (entry 2, table
+2). however, repeating these conditions with optically active
+dimer 2a (98% ee) indicated that racemization was occurring
+under these conditions necessarily at the dimer stage, providing
+cis-beta-lactone 3a with reduced enantiopurity (71% ee). shortening the reaction time using 5 mol % catalyst without added et3n
+also gave high diastereoselectivity (entry 3, table 2). taken
+together, these results suggest that both longer reaction times
+and the absence of catalyst poison leads to erosion in diastereoselectivity. optimal conditions that prevented racemization
+and maintained high diastereoselectivity were eventually realized
+by decreasing the amount of pd/c to 1 mol % and reducing the
+reaction time to 30 min under 30 psi of h2 pressure without
+et3n. under these conditions, no racemization or epimerization
+was observed for either the ketene dimer or the major diastereomer isolated, cis-beta-lactone 3a. the latter could be isolated
+in 90% yield as a >19:1 mixture of cis/trans diastereomers 3a
+as determined by coupling constant analysis (3a, jha,hb ) 6.3
+hz) in 96% ee (table 2, entry 4).29 in this manner, hydrogenation of a series of ketene dimers 2a-f gave consistently high
+yields of the corresponding beta-lactones 3a-f with high enantiomeric purities (table 3). enantiomer ratios were determined
+by chiral gc analysis following hydrogenation. racemic
+beta-lactone 3c was crystalline, and thus, x-ray analysis verified
+the cis stereochemistry obtained during hydrogenation and
+suggested by coupling constant analysis for the entire series
+(figure 4).
+(27) for lead references to hydrogenation of diketene, see: (a) sixt, j.
+u.s. patent 2,763,664, 1956. for lead references to asymmetric hydrogenation of diketene using chiral binap-ru(ii)catalysts, see: (b) ohta, t.;
+miyake, t.; seido, n.; kumobayashi, h.; takaya, h. j. org. chem. 1995,
+60, 357. (c) takaya, h.; ohta, t.; kumobayashi, h.; okeda, y.; gonda, y.
+u.s. patent 5,412,109, 1995.
+(28) for a lead reference to hydrogenation of enol ethers, see: brandänge,
+s.; färnbäck, m.; leijonmarck, h.; sundin, a. j. am. chem. soc. 2003,
+125, 11942.
+(29) samples taken at 2, 4, 6, 12, and 18 h revealed no erosion of
+enantiomeric purity by chiral gc analysis for both ketene dimer 2a and
+cis-beta-lactone 3a.
+
+beta-lactone inhibitors of  xxxg765xxx 
+table 3. catalytic asymmetric beta-lactone synthesis via a sequential, two-step ketene dimerization/hydrogenation sequencea
+
+a all reactions were carried out at 0.1 m (final concentration) with freshly distilled acid chloride. b refers to isolated, purified yields. c enantiomeric
+excess was determined by chiral gc analysis. d absolute configuration of the major enantiomer is depicted and based on the previously determined absolute
+configuration of ketene dimers (ref 7). e reaction time was 3 h at 0 °c. f reaction was performed with 5 mol % pd/c for 3.5 h. g nd ) not determined.
+
+scheme 3. epimerization of cis-beta-lactones to the
+trans-isomers
+
+figure 4. x-ray crystal structure (pov chem rendering) of (()cis-beta-lactone 3c.
+
+r-epimerization of cis- to trans-beta-lactones. as described
+above, the majority of naturally occurring beta-lactones possess
+trans-beta-lactone stereochemistry including orlistat (see figure
+2). thus, we explored conditions to epimerize to the thermodynamically preferred trans-beta-lactones. deprotonation leading
+to beta-lactone enolates is possible since beta-elimination in these
+systems is a symmetry forbidden process.30 competing intermolecular claisen condensations can be precluded provided
+there is an r-substituent; however, in some cases, low yields
+of r-monoalkylated systems have been obtained using inverse
+addition with highly reactive electrophiles.31 numerous thermodynamic conditions to effect epimerization were studied
+including (a) triethylamine/ammonium acetate buffer system in
+dichloromethane (∼10-15% conversion by 1h nmr analysis
+after prolonged stirring for 48 h at 23 °c), (b) t-buok in
+ xxxd3319xxx , (c) dabco, (d) dbu, 1,2-dichlorobenzene, or aceto(30) mulzer, j.; zippel, m.; bruentrup, g.; segner, j.; finke, j. liebigs
+ann. chem. 1980, 1108.
+(31) (a) parsons, p. j.; cowell, j. synlett 2000, 107. (b) hanessian, s.;
+tehim, a.; chen, p. j. org. chem. 1993, 58, 7768.
+
+nitrile, (e) hmds, thf, (f) catalytic khmds/18-crown-6/thf,
+(g) t-buok/hmds/thf, (h) t-buok/hmds/18-crown-6/thf.
+however, all these conditions gave low conversion to the transisomers along with decomposition. ultimately, an unsatisfying
+but functional procedure was developed involving kinetic
+deprotonation and quenching to provide a mixture of cis- and
+trans-beta-lactones, which could then be separated by silica gel
+chromatography to deliver pure trans-isomers 3a and 3c
+(scheme 3).
+alkylation/acylation of cis-beta-lactones. enolization with
+lithium hexamethyldisilazide (lihmds) followed by addition
+of various electrophiles proved more fruitful and allowed access
+to beta-lactones bearing r-quaternary centers. alkylation proceeded
+with high diastereoselectivity when benzyl bromide was employed (entries 2 and 3, table 4), whereas the smaller electrophile, methyl iodide, provided only moderate diastereoselectivity
+(entry 1, table 4), as previously observed for beta-lactones with
+moderately sized beta-substituents.32 the relative stereochemistry
+of the major diastereomer of benzyl-beta-lactone 8b was determined by noe analysis.33 in the case of acylation with benzyl
+j. org. chem, vol. 71, no. 12, 2006 4553
+
+purohit et al.
+table 4. diastereoselective alkylations and acylations of
+cis-beta-lactone 4a leading to quaternary carbon bearing
+beta-lactones 8a-c
+
+entry
+
+r
+
+cmpd no.
+
+base
+
+% yielda
+
+drb
+
+1
+2
+3
+
+ch3
+bn
+co2bn
+
+8a
+8b
+8c
+
+lihmds
+lihmds
+lihmds
+nahmds
+
+73
+88
+68
+74
+
+6:1
+19:1
+8:1
+19:1
+
+a refers to isolated, purified yield. b diastereomeric ratio was determined
+by integration (1h nmr 500 mhz) of crude reaction mixtures.
+
+figure 6. reactionview ir monitoring (1600-2200 cm-1, t )
+0-232 min) of the ketene dimerization process leading to ketene dimer
+2d under reaction condition ii from hydrocinnamoyl chloride: (a)
+normalized lorentz curve fit for absorbance vs time (min) for three
+distinct species. (b) mid-ir reactionview spectrum for dimerization
+of 3-phenyl prop-1-en-1-one.
+
+figure 5. reaction view ir monitoring (1600-2200 cm-1, t )
+0-540 min) of the ketene dimerization process leading to ketene dimer
+2d under reaction condition i from hydrocinnamoyl chloride: (a)
+normalized lorentz curve fit for absorbance vs time (min) for three
+distinct species (acid chloride, ketene, and ketene dimer 2d) for the
+dimerization reaction of hydrocinnamoyl chloride. (b) mid-ir reactionview spectrum for dimerization of 3-phenyl prop-1-en-1-one.
+
+chloroformate, the use of sodium hexamethyldisilazide (nahmds) gave improved yields and diastereoselectivities relative
+to lihmds (entry 3, table 4).
+monitoring ketene formation and dimerization of hydrocinnamoyl chloride by reactionview in situ midinfrared (ir) spectroscopy. the formation and dimerization
+of 3-phenyl-1-propen-2-one derived from hydrocinnamoyl
+chloride by the action of hünig’s base was monitored in efforts
+to detect intermediates by mid-ir spectroscopy and follow the
+(32) for a review on the utility of beta-lactones and their application as
+intermediates in natural product synthesis, see: wang, y.; tennyson, r.
+l.; romo, d. heterocycles 2004, 64, 605.
+(33) see supporting information for details.
+
+4554 j. org. chem., vol. 71, no. 12, 2006
+
+overall dimerization process. figures 5 and 6 show results of
+reactionview ir monitoring for the overall dimerization
+reaction of hydrocinnamoyl chloride in ch2cl2 (0.1 m) leading
+to ketene dimer 2d. under reaction conditions i, the nucleophilic catalyst, tms-qnd (10), is added 5 min after the addition
+of etni-pr2 (hünig’s, dipea) base at 30 min (figure 5). under
+these conditions, three distinct species (i) hydrocinnamoyl
+chloride (1793 cm-1), (ii) 3-phenyl prop-1-en-1-one (2118
+cm-1), and (iii) 3-benzyl-4-(2-phenylethylidene)oxetan-2-one
+(2d, 1710 cm-1) were detected and monitored over a period of
+540 min. the data are plotted as absorbance versus time in a
+two-dimensional format (figure 5a) and three-dimensional
+format (figure 5b) following peak fitting (reactionview
+software). upon addition of 1.0 equiv of hünig’s base at t )
+30 min to the hydrocinnamoyl chloride, ketene generation is
+immediately initiated, and after 5 min, a 50% decrease in
+absorbance for hydrocinnamoyl chloride is observed. separate
+experiments revealed that ketene was stable at this temperature
+for at least 15 min. subsequent addition of tms-qnd (10) at
+t ) 35 min completely consumes the ketene after 44 min.
+however, a brief induction period is observed wherein ketene
+dimer formation is retarded until hydrocinnamoyl chloride is
+almost consumed at t )160 min. it is clear that under these
+conditions the formed ketene is rapidly consumed, and following
+this time, presumably an undetectable amount of ketene is
+produced slowly from acid chloride, leading to complete
+conversion to ketene dimer 2d.
+in a second experiment the order of addition of reagents was
+altered (reaction conditions ii, figure 6). addition of hydrocinnamoyl chloride at t ) 18.3 min to a mixture of hünig’s
+base and tms-qnd immediately produced ketene dimer along
+with a trace amount of ketene. under these reaction conditions
+
+beta-lactone inhibitors of  xxxg765xxx 
+table 5. antagonistic activity of ketene dimers 2 and beta-lactones 3 and 8 toward recombinant fas te compared to orlistat (1)
+
+it appears that the rate of ketene consumption exceeds that of
+ketene generation in accordance with the results above and also
+those observed by calter,7 and thus, the ketene resonance is
+fleeting on the time scale of mid-ir measurements. these
+reactionview studies provide further evidence for a ratedetermining ketene generation step followed by rapid ketene
+dimerization as found previously by calter during rate studies
+of the ketene dimerization process.7a
+enzyme inhibition studies. a recombinant form of the
+thioesterase domain of  xxxg765xxx  was used in a
+substrate-based screen to measure the apparent ki’s of ketene
+dimers 2a-d and both cis-beta-lactone and trans-isomers of the
+derived simplified orlistat derivatives. importantly, orlistat is
+presumed to be a covalent inhibitor of the fas te domain, in
+analogy to the adduct formed with the active site serine of
+ xxxg1789xxx .34 we presume that all of the beta-lactones
+examined in this study function via the same mechanism.
+therefore, the results are reported as apparent inhibition
+constants (app ki), as the term ki is usually used for reversible
+inhibitors. 4-methylumbelliferyl  xxxd2269xxx  (4-muh) was
+utilized as a substrate for fas te as it was found to provide
+(34) (a) borgstrom, b. biochim. biophys. acta 1988, 962, 308. (b)
+hadvary, p.; lengsfeld, h.; wolfer, h. j. biol. chem. 1988, 256, 357. (c)
+hadvary, p.; sidler, w.; meister, w.; vetter, w.; wolfer, h. biochem. j.
+1991, 266, 2021.
+
+figure 7. dose-response curve illustrating the inhibition of fas
+te by trans-beta-lactone 3a in a fluorogenic assay.
+
+the best signal-to-noise ratio and an acceptable turnover rate.
+the product of this substrate, 4-methylumbelliferone, fluoresces
+at 450 nm (excitation at 350 nm) and provides a convenient
+readout of thioesterase activity. in this assay, the hydrolysis of
+4-muh is blocked by orlistat, our lead antagonist with an
+apparent ki of 0.21 µm. the ability of the various beta-lactones
+and some ketene dimer precursors described above to act as
+antagonists of 4-muh toward recombinant fas te was
+j. org. chem, vol. 71, no. 12, 2006 4555
+
+purohit et al.
+
+measured by this assay (table 5). the beta-lactones were tested
+across a concentration range of 1-100 µm, and the doseresponse curve for trans-beta-lactone 3a is shown as a representative example (figure 7).
+ketene dimers were tested and showed moderate activity (516 µm) with the exception of dimer 2c which showed no activity
+(table 5, entries 1-4). the most potent ketene dimer tested
+was phenyl derivative 2d with an app ki of ∼5.0 µm, which is
+approximately 25-fold less potent than orlistat.
+in the cis-isomeric series (table 5, entries 9-15), addition
+of an ester substituent in proximity to the beta-lactone nucleus
+led to a drastic reduction in activity (table 5, entry 14).
+however, a remote methoxy substituent as in beta-lactone cis-3f
+(entry 15) restored activity comparable to that observed for the
+n-butyl-substituted beta-lactone, cis-3a (entry 10).35 as expected,
+the trans-isomers, in general, were found to possess greater
+inhibitory activity compared to the cis-isomers with the same
+substituents (entries 5-8 vs 10-13). beta-lactones 8a-c bearing
+r-quaternary carbons showed moderate activity (10-19 µm)
+but presumably also lead to covalent adducts suggestive of the
+possibility that the thioesterase domain is not selective for only
+3,4-disubstituted-beta-lactones.
+in the case of the phenyl-substituted ketene dimer 2d (5.0
+µm), a ∼2-fold increase in activity to 2.5 µm was observed
+following hydrogenation to give the phenyl-substituted cis-betalactone 3d (table 5, entry13). surprisingly, little variation in
+activity is observed (3.3 µm, entry 8) when this derivative is
+epimerized to trans-beta-lactone 3d possessing the relative and
+absolute stereochemistry corresponding to that found in orlistat.
+although none of the simple 3,4-dialkyl-beta-lactones described
+herein were found to be as potent as orlistat, the findings are
+significant since these are highly simplified beta-lactones devoid
+of the n-formyl aminoester side chain. these polar substituents
+are expected to serve as additional recognition sites via potential
+hydrogen-bonding and polar-polar interactions to fas te. in
+addition, they should also contribute to water solubility.
+however, a promising lead compound for further optimization
+is the phenyl-substituted derivative trans-3d.
+in summary, we developed a scaleable process to prepare
+cis-3,4-disubstituted beta-lactones using a ketene dimerization/
+hydrogenation sequence from readily available acid chlorides
+in good overall yields and high enantioselectivity. this reaction
+could be run as a single-pot, two-step process, but higher overall
+yields and optical purities were obtained upon isolation of the
+ketene dimer by silica gel chromatography and subsequent
+hydrogenation of the purified ketene dimer at moderate pressures. several ketene dimers were isolable, and their enantiomeric purity could be determined by chiral gc analysis. a
+current limitation in this process is the accessibility of only
+pseudosymmetric ketene dimers 2 via the calter procedure
+(35) for previous studies of the impact of beta-lactone stereochemistry and
+substitution on enzyme inhibitory activity, see: (hmg-coa synthase) (a)
+tomoda, h.; ohbayashi, n.; kumagai, h.; hashizume, h.; sunazuka, t.;
+omura, s. biochem. biophys. res. commun. 1999, 265, 536. (b) romo,
+d.; harrison, p. h. m.; jenkins, s. i.; riddoch, r. w.; park, k.; yang, h.
+w.; zhao, c.; wright, g. d. bioorg. med. chem. 1998, 6, 1255. (c) tomoda,
+h.; kumagai, h.; ogawa, y.; sunazuka, t.; hashizume, h.; nagashima,
+h.; omura, s. j. org. chem. 1997, 62, 2161. (d) mayer, r. j.; louisflamberg, p.; elliott, j. d.; fisher, m.; leber, j. biochem. biophys. res.
+commun. 1990, 169, 610. (e) romo, d.; harrison, p. h. m.; jenkins, s. i.;
+riddoch, r. w.; park, k.; yang, h. w.; zhao, c.; wright, g. d. bioorg.
+med. chem. 1998, 6, 1255. (proteasome) (f) macherla, v. r.; mitchell, s.
+s.; manam, r. r.; reed, k. a.; chao, t. h.; nicholson, b.; deyanat-yazdi,
+g.; mai, b.; jensen, p. r.; fenical, w. f.; neuteboom, s. t. c.; lam, k.
+s.; palladino, m. a.; potts, b. c. m. j. med. chem. 2005, 48, 3684.
+
+4556 j. org. chem., vol. 71, no. 12, 2006
+
+leading to pseudosymmetric beta-lactones 3. enolization followed
+by alkylation and acylation of the cis-beta-lactones provided ready
+access to r,r-disubstituted beta-lactones with high diastereoselectivities. trans-beta-lactones could also be obtained by r-epimerization in low yield; however, a general, practical solution for
+this process remains elusive. these highly simplified dialkylbeta-lactones are analogous to the natural products norcardiolactone, valilactone, and orlistat and were found to exhibit moderate
+to good inhibitory activity toward recombinant fas te as
+measured by enzymatic activity using recombinant protein with
+a fluorogenic substrate. the best antagonist, cis-beta-lactone 3d,
+displayed an app ki of only ∼10-fold less than that of orlistat.
+in addition, analysis of the ketene dimerization process by
+reactionview ir spectroscopy further substantiates findings by
+calter that ketene formation is rate determining in the catalyzed
+ketene dimerization process. further transformations of these
+optically pure ketene homodimers are being explored as a means
+to provide practical routes to beta-lactones more structurally
+analogous to orlistat and expected to have higher affinity for
+fas te. in addition, the use of hetero-ketene dimers will
+expand the beta-lactone structures accessible by this strategy.
+experimental section
+general experimental procedure for dimerization as described for (r,z)-3-butyl-4-pentylideneoxetan-2-one (2a). this
+procedure is slightly modified from the method of calter.7a to a
+flame-dried 1 l round-bottomed flask was added 764 mg (5 mol
+%, 1.926 mmol) of tms-quinine, 385 ml of ch2cl2 (0.1 m), and
+6.86 ml (1.0 equiv, 38.53 mmol) of hünig’s base under nitrogen
+atmosphere at 22 °c. to this colorless solution, 5 ml (5.18 g, 38.53
+mmol) of freshly double-distilled, hexanoyl chloride was added over
+15 min via syringe. after 6 h the dark yellow solution was
+concentrated down to 100 ml (one-fifth original volume) in vacuo
+and 250 ml of pentanes was added to precipitate the ammonium
+salts. filtration through whatmann filter paper (#1, qualitative
+grade), concentration in vacuo, and purification by flash column
+chromatography on deactivated sio2 (10% h2o) (2.5 cm × 35.0
+cm column, 15 cm pad) eluting with 0-20% et2o:hexanes gave
+2.83 g (75%) of 2a as a colorless oil (96% ee, chiral gc analysis).
+rf 0.54 (15% et2o:hexanes); [r]d26 +5.3 (c ) 0.51, chcl3); ir
+(thin film) 1865 cm-1; 1h nmr (300 mhz, cdcl3) delta 4.70 (dt,
+j ) 1.3, 6.3 hz, 1h), 3.94 (dt, j ) 1.0, 7.0 hz, 1h), 2.13 (app q,
+2h), 1.75-1.83 (m, 2h), 1.28-1.53 (m, 8h), 0.88-0.96 (m, 6h);
+13c nmr (300 mhz, cdcl ) delta 14.5, 14.6, 22.9, 23.1, 25.1, 28.0,
+3
+29.2, 32.3, 54.45, 102.4, 146.4, 170.6; esi lrms calcd for
+c12h20o2 [m + li], 202; found, 202.
+racemic ketene dimers were initially prepared in a similar
+manner using hünig’s base. subsequently, 5 mol % quinuclidine
+hydrochloride with 1.0 equiv of hünig’s base gave optimal results
+in terms of reaction rate and yield; therefore, this method was
+subsequently used for preparation of racemic ketene dimers.
+representative procedure for hydrogenation as described
+for cis-(3r,4s)-3-butyl-4-pentyloxetan-2-one (3a). the purified
+n-butyl ketene dimer 2a (5.1 mmol, 1.0 g) was dissolved in 40 ml
+of dichloromethane (0.1 m) and transferred to a parr bomb
+apparatus under a n2 atmosphere using an additional 10 ml of
+dichloromethane as wash solvent. pd/c (107 mg, 1 mol %, 5 wt
+%) was then added at one time under n2 atmosphere. the parr
+bomb was then subjected to three consecutive evacuation-saturation
+cycles of hydrogen gas and then pressurized to 30 psi hydrogen
+gas pressure. hydrogenation with shaking (parr shaker) was
+continued for 30 min at this pressure, and then the heterogeneous
+slurry was vacuum filtered through a plug of celite and concentrated, yielding a colorless oil. flash chromatography with gradient
+elution (5-15%  xxxd2052xxx /hexanes; 2.5 × 35.0 × 5 cm pad)
+gave 3-butyl-4-pentyl-oxetan-2-one (3a, 897 mg, 90%) as a
+
+beta-lactone inhibitors of  xxxg765xxx 
+colorless oil (>96% ee, chiral gc): [r]d26 -27.1 (c ) 0.5, chcl3);
+rf 0.47 (15% et2o:hexanes); ir (thin film) 1824 cm-1; 1h nmr
+(300 mhz, cdcl3) delta 4.54 (ddd, j ) 2.1, 3.6, 5.7 hz, 1h), 3.59
+(ddd, j ) 4.5, 5.4, 8.4 hz, 1h), 1.46-1.84 (m, 6h), 1.31-1.44
+(m, 8h), 0.88-0.94 (m, 6h); 13c nmr (500 mhz, cdcl3) delta 14.5,
+14.7, 23.2, 23.2, 24.4, 26.0, 30.5, 30.9, 32.2, 53.3, 76.5, 173.1;
+esi lrms calcd for c12h22o2 [m + li], 205; found, 205.
+the enantiomeric purity of ketene dimer 2a and beta-lactone 3a
+was determined to be >96% ee by chiral gc analysis. column
+type, chiral bis-otbs-cyclodextrin; retention time, tdimer 16.96
+(major) and 17.16 (minor), tbeta-lactone 26.23 (major) and 26.44 (minor).
+conditions: make up flow, 25 ml/min; h2 flow, 30 ml/min; air
+flow, 300 ml/min; injector temperature, 200 °c, pressure, 5 psi
+(hold time 30 min); oven temperature gradient, 100 f140 °c (hold
+time 30 min); detector temperature, 250 °c.
+trans-(3r,4r)-3-butyl-4-pentyloxetan-2-one (trans-3a). to a
+-78 °c solution of 100 mg (0.51 mmol) of 3a in 5 ml of thf
+was added 760 µl of lihmds (1.5 equiv, 1.0 m in thf), and
+this was allowed to stir for 1 h.  xxxd3043xxx  (tmeda,
+120 µl, 1.5 equiv, 0.76 mmol) was then added at -78 °c and
+allowed to stir for an additional 30 min, after which the solution
+was quenched with glacial acetic acid (130 µl, 3.0 equiv, 2.27
+mmol) and warmed to 22 °c. after extraction with  xxxd2052xxx 
+(2 × 6 ml), the combined organics were washed with 2 ml of ph
+7.0 buffer and 2 ml of brine and then dried over na2so4.
+concentration in vacuo gave a colorless oil, which upon purification
+by flash chromatography on sio2 (15% et2o:hexanes) gave cis-3a
+and trans-3a (72 mg, 72% yield) as a 1:1 mixture of diastereomers.
+further purification by gravity column chromatography (2×, 5%
+et2o:hexanes) delivered 34 mg (34%) of trans-3a and 38 mg of
+cis-3a (38%): rf 0.38 (10% et2o:hexanes; cis-3a rf 0.29); ir (thin
+film) 1824 cm-1; 1h nmr (500 mhz, cdcl3) delta 4.22 (ddd, j )
+4.2, 6.0, 7.5 hz, 1h), 3.16 (ddd, j ) 3.9, 6.6, 9.0 hz, 1h), 1.671.93 (m, 4h), 1.26-1.49 (m, 10h), 0.91 (bs, 6h); 13c nmr (300
+mhz, cdcl3) 14.5, 14.7, 23.1, 23.2, 25.4, 28.3, 29.9, 32.1, 35.2,
+56.9, 78.9, 172.5; esi lrms calcd for c12h22o2 [m + li], 205;
+found, 205.
+trans-(3s,4s)-4-(2-cyclohexylethyl)-3-(cyclohexylmethyl)oxetan-2-one (trans-3c). to a -78 °c solution of 30 mg (0.108 mmol)
+of cis-beta-lactone 3c in 3 ml of thf was added 162 µl of lihmds
+(1.5 equiv, 1.0 m in thf), and this was stirred for 1 h.
+ xxxd3043xxx  (tmeda, 25 µl, 1.5 equiv, 0.162 mmol)
+was then added at -78 °c and allowed to stir for an additional 30
+min, after which the solution was quenched with glacial acetic acid
+(18 µl, 3.0 equiv, 0.323 mmol) and warmed to 22 °c. after
+extraction with  xxxd2052xxx  (2 × 3 ml), the combined organics
+were washed with 2 ml of ph 7.0 buffer and 2 ml of brine and
+then dried over na2so4. concentration in vacuo gave a colorless
+oil that was purified by flash chromatography on sio2 (10% et2o:
+hexanes) to give a mixture of cis- and trans-3c (19.8 mg, 66%
+yield). further purification by gravity column chromatography (10%
+et2o:hexanes) delivered 12 mg (40%) of trans-3c and 7.6 mg of
+cis-3c (25%): rf 0.47 (10% et2o:hexanes; cis-3c, rf 0.40); ir (thin
+film) 1824 cm-1; 1h nmr (500 mhz, cdcl3) delta 4.17 (ddd, j )
+4.2, 6.0, 7.4 hz, 1h), 3.24 (ddd, j ) 4.0, 6.5, 9.0 hz, 1h), 1.791.89 (m, 1h), 1.59-1.78 (m, 12h), 1.30-1.39 (m, 1h), 1.071.30 (m, 10h), 0.82-0.99 (m, 4h); 13c nmr (300 mhz, cdcl3)
+15.4, 26.1, 26.2, 26.3, 26.4, 26.6, 29.8, 31.9, 32.6, 32.9, 33.2, 33.3,
+35.9, 37.4, 54.2, 66.0, 79.4, 172.3; esi lrms calcd for c18h30o2
+[m + li], 285; found, 285.
+(3r,4s)-3-butyl-3-methyl-4-pentyloxetan-2-one (8a). a solution of beta-lactone 3a (36.3 mg, 0.1835 mmol) in 1.9 ml of thf
+was cooled to -78 °c, and 370 µl of lihmds (0.367 mmol, 2.0
+equiv, 1.0 m solution in thf) was added under a nitrogen
+atmosphere. after 1.5 h, 23 µl (0.367 mmol, 2.0 equiv) of
+iodomethane was added and the reaction warmed to -40 °c and
+stirred for an additional 45 min. the reaction mixture was
+concentrated in vacuo and purified by flash chromatography (015% et2o:hexanes) to give beta-lactone 8a (28 mg, 73%) as a colorless
+
+oil and a mixture of cis/trans diastereomers (dr, 6:1). data provided
+for major diastereomer: rf (15% et2o:hexanes) 0.64; ir (thin film)
+1824 cm-1; 1h nmr (500 mhz, cdcl3) delta 4.18 (dd (major diast.),
+j ) 6.0, 8.5 hz, 1h), 1.63-1.78 (m, 2h), 1.45-1.53 (m, 2h), 1.39
+(s, 3h), 1.24-1.39 (m, 10h), 0.89-0.94 (m, 6h); 13c nmr (500
+mhz, cdcl3) 14.1, 14.2, 20.0, 22.1, 25.5, 25.6, 26.5, 30.3, 31.7,
+35.9, 56.8, 84.5, 175.5; esi lrms calcd for c13h24o2li [m +
+li], 219; found, 219.
+(3s,4s)-3-benzyl-3-butyl-4-pentyloxetan-2-one (8b). to a -78
+°c solution of beta-lactone 3a (153 mg, 0.76 mmol) dissolved in 7.5
+ml of thf was added 1.52 ml of lihmds (1.52 mmol, 2.0 equiv,
+1.0 m solution in thf) under nitrogen atmosphere. after 1.5 h,
+180 µl (1.52 mmol, 2.0 equiv) of benzyl bromide was added and
+the reaction warmed to -40 °c and stirred for an additional 45
+min. the reaction mixture was concentrated in vacuo and purified
+by flash chromatography (0-5% et2o:hexanes) to give beta-lactone
+8b (192 mg, 88%) as a mixture of cis/trans diastereomers (>19:1).
+data provided for major diastereomer: rf 0.55(5% et2o:hexanes);
+ir (thin film) 1813 cm-1; 1h nmr (500 mhz, cdcl3) delta 7.307.34 (m, 2h), 7.25-7.28 (m, 1h),7.16-7.17 (m, 2h), 4.34 (dd,
+j ) 4.5, 9.5 hz, 1h), 3.13, 2.88 (ab q, j ) 14.5 hz, 2h), 1.681.78 (m, 2h), 1.45-1.61 (m, 4h), 1.18-1.39 (m, 8h), 0.94 (t, j )
+3.5, 3h), 0.87 (t, j ) 3.5, 3h); 13c nmr (500 mhz, cdcl3) 13.87,
+13.89, 22.4, 23.2, 25.2, 26.3, 28.7, 29.7, 31.4, 38.2, 61.3, 80.3,
+127.1(2c), 128.7(2c), 129.8, 135.8, 174.2; esi lrms calcd for
+c19h28o2 [m + li], 295; found, 295.
+(3s,4s)-benzyl 3-butyl-2-oxo-4-pentyloxetane-3-carboxylate
+(8c). to a -78 °c solution of nahmds (1.2 equiv, 0.91 mmol,
+45 µl, 2m in thf) in 5 ml of thf was added 150 mg (0.73
+mmol) of beta-lactone 3a dissolved in 2.5 ml of thf. after 1.5 h,
+benzylchloroformate (1.1 equiv, 0.833 mmol, 120 µl) was added
+at one time and stirred for an additional 3 h. this solution was
+warmed to 23 °c over 1 h and worked up as described above for
+beta-lactone 8b. flash chromatography on sio2 (5% et2o:hexanes)
+gave beta-lactone 8c (185 mg, 74% yield) as a colorless oil: rf 0.48
+(15% et2o:hexanes); ir (thin film) 1824, 1757, 1716 cm-1; 1h
+nmr (300 mhz, cdcl3) delta 7.40 (m, 5h), 5.27, 5.22 (ab q, j )
+12.0, 2h), 4.52 (dd, j ) 4.8, 8.4 hz, 1h), 2.50-2.56 (m, 1h),
+2.22-2.30 (m, 2h), 1.71-1.85 (m, 1h), 1.44-1.60 (m, 4h), 1.151.39 (m, 8h), 0.81-0.92 (m, 6h); 13c nmr (500 mhz, cdcl3)
+14, 14.6, 14.7, 23.1, 23.3, 23.6, 24.9, 25.8, 26.9, 29.4, 30.4, 31.1,
+31.9, 32.3, 40.4, 71.6, 79.8, 121.7, 129.2, 129.4, 129.5, 129.8, 133.1,
+152.7, 163.7, 167.3; esi lrms calcd for c20h28lio4+ [m + li],
+339; found, 338.
+general experimental procedure for in situ mid-ir spectroscopy with a remspec reactionview system. a remspec
+reaction view system was fitted with a double-pass liquid
+transmission head that was placed into a flame-dried two-necked
+20 × 2.3 cm reaction tube equipped with a spin vane stir bar, and
+the reaction flask was placed under a nitrogen atmosphere.
+following addition of 30 ml of ch2cl2, a background spectrum
+was obtained for 15 min and then automatic data collection was
+initiated and provided 45 scans/min for both experiments at 23 °c.
+the data collected for hydrocinnamoyl chloride, ketene, and ketene
+dimer for both experiments were peak fitted with a lorentzian
+function on grams/ai software and normalized on microsoft excel
+to obtain absorbance versus time curves.
+reaction condition i. sequential addition of hydrocinnamoyl
+chloride (0.45 ml, 2.97 mmol; t ) 14.5 min) and 565 µl of hünig’s
+base (2.97 mmol; t ) 30 min) gave rise to expected acid chloride
+and ketene absorbances. after complete consumption of acid
+chloride, 5 mol % tms-qn (22 mg) was added as a solution in 1
+ml of ch2cl2 in one portion at t ) 35 min, and data was collected
+for an additional 540 min.
+reaction condition ii. in this procedure 5 mol % tms-qn
+(22 mg) and 565 µl of hünig’s base was added to 30 ml of ch2cl2. at t ) 18.3 min, hydrocinnamoyl chloride (0.45 ml, 2.97
+mmol) was added over a period of 5 min and data was collected
+for an additional 230 min.
+j. org. chem, vol. 71, no. 12, 2006 4557
+
+purohit et al.
+fluorogenic assay for detection of enzyme inhibition.
+expression of the recombinant thioesterase domain of fas was
+performed as described previously,9 and large-scale expression was
+performed by invitrogen corp. (madison, wi). the synthetic
+fluorogenic substrate, 4-methylumbelliferyl  xxxd2269xxx  (4-muh),
+was purchased from sigma (st. louis, mo). the reaction mixture
+consisted of 45 µl of 500 nm fas te in buffer a (100 mm trishcl, 50 mm nacl at ph 7.4) which was preincubated with 2.5 µl
+of stock solutions of test beta-lactones dissolved in dmso at final
+concentrations of 0.32-100 µm at 37 °c for 30 min. the reaction
+was initiated by addition of 5 µl of 1.25 mm 4-muh in 1:1 dmso:
+buffer a. the resulting fluorescence from liberated 4-methylumbelliferone was measured every 5 min at 350/450 nm for 40-60
+min. results are the average of triplicate time points in which the
+typical standard deviation was <5%. each compound was tested
+at least twice, yielding essentially identical results.
+
+acknowledgment. we thank the nih (ca10658, d.r. and
+j.w.s.; ca 81713, j.w.s.; niaid 055789, j.w.s.; u54
+
+4558 j. org. chem., vol. 71, no. 12, 2006
+
+rr020843-01, j.w.s.), the nsf (che 9624532, d.r.), the
+d.o.d prostate cancer research program (w81xwh-04-10515, j.w.s.), the welch foundation (a-1280, d.r.), and pfizer
+(d.r.) for support of these investigations. we thank dr. huda
+henry-riyad for help with the in situ ir spectroscopy. we thank
+prof. michael calter (wesleyan) for helpful discussions and ms.
+amanda s. barela for assistance (summer nih bridges student).
+we thank dr. joe reibenspies (tamu) for the x-ray analysis.
+supporting information available: general procedures for
+dimerization, hydrogenation, and subsequent transformations with
+characterization data (including 1h and 13c nmr spectra) for ketene
+dimers 2a-d, 2f, beta-lactones cis-3a-f, trans-3a, 3c, and 8a-8c
+and noe data for beta-lactone 8b. this material is available free of
+charge via the internet at http://pubs.acs.org.
+jo060392d
+

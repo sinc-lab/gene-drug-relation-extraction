@@ -1,0 +1,997 @@
+biochemistry 2004, 43, 1193-1203
+
+1193
+
+three-dimensional structure of  xxxg1296xxx  from pseudomonas fluorescens†,‡
+cory momany,§ vladimir levdikov,§,| lena blagova,§,| santiago lima,⊥ and robert s. phillips*,|,⊥
+departments of chemistry and of biochemistry and molecular biology, university of georgia, and department of
+pharmaceutical and biomedical sciences, college of pharmacy, university of georgia, athens, georgia 30602
+received september 26, 2003; revised manuscript received december 5, 2003
+
+abstract:  xxxg1296xxx  [e.c. 3.7.1.3] is a pyridoxal-5′-phosphate (plp)-dependent enzyme that catalyzes
+the hydrolytic cleavage of l-kynurenine to  xxxd189xxx  and l-alanine. sequence alignment with other
+plp-dependent enzymes indicated that  xxxg1296xxx  is in subgroup iva of the aminotransferases, along
+with  xxxg1562xxx , csdb, and serine-pyruvate aminotransferase, which suggests that  xxxg1296xxx  has an
+aminotransferase fold. crystals of pseudomonas fluorescens  xxxg1296xxx  were obtained, and the structure
+was solved by molecular replacement using the csdb coordinates combined with multiple isomorphous
+heavy atom replacement. the coordinates were deposited in the pdb (id code 1qz9). the structure,
+refined to an r factor of 15.5% to 1.85 å resolution, is dimeric and has the aminotransferase fold. the
+structure also confirms the prediction from sequence alignment that lys-227 is the plp-binding residue
+in p. fluorescens  xxxg1296xxx . the conserved asp-201, expected for an aminotransferase fold, is located
+near the plp nitrogen, but asp-132 is also strictly conserved and at a similar distance from the pyridinium
+nitrogen. mutagenesis of both conserved aspartic acids shows that both contribute equally to plp binding,
+but asp-201 has a greater role in catalysis. the structure shows that tyr-226 donates a hydrogen bond to
+the phosphate of plp. unusual among plp-dependent enzymes, trp-256, which is also strictly conserved
+in kynureninases from bacteria to humans, donates a hydrogen bond to the phosphate through the indole
+n1-hydrogen.
+
+ xxxg1296xxx  [e.c. 3.7.1.3] is a pyridoxal-5′-phosphate
+(plp1)-dependent enzyme that catalyzes the hydrolytic
+cleavage of l-kynurenine to  xxxd189xxx  and l-alanine
+(eq 1). this reaction is a key step in the catabolism of
+
+l-tryptophan
+
+by pseudomonas fluorescens and some other
+bacteria (1). in fungi and vertebrates, kynurenine is first
+hydroxylated to 3-hydroxykynurenine, which is the preferred
+substrate of  xxxg1296xxx  in those organisms, resulting in
+3-hydroxyanthranilate and l-alanine.
+ xxxg1296xxx  also plays a role in the biosynthesis of nad(p)+. the product of  xxxg1296xxx , 3-hydroxyanthranilate,
+†
+this research was partially supported by grants from nsf-nato
+(dge-97-10853) to v.l. and nih (gm42588-13) to r.s.p.
+‡
+coordinates are deposited in the protein data bank as id code
+1qz9.
+* to whom correspondence should be addressed.. phone: (706) 5421996. fax: (706) 542-9454. e-mail: rsphillips@chem.uga.edu.
+§
+department of pharmaceutical and biomedical sciences, college
+of pharmacy.
+|
+department of chemistry.
+⊥
+department of biochemistry and molecular biology.
+1
+abbreviations: bme,  xxxd26xxx ; dtt, dithiothreitol;
+iptg, isopropyl beta-d-thiogalactopyranoside; mir, multiple isomorphous
+replacement; mr, molecular replacement; plp, pyridoxal-5′-phosphate;
+pmp, pyridoxamine-5′-phosphate; pmsf, phenylmethylsulfonyl fluoride; tcep, tris(2-carboxyethyl)phosphine hydrochloride.
+
+is subsequently converted by 3-hydroxyanthranilate-3,4dioxygenase to quinolinic acid, which is a precursor of nad(p)+. however, quinolinic acid is also a neurotoxin, due to
+its agonist effects on the n-methyl-d-aspartate (nmda)
+receptor (2). excessive levels of quinolinic acid have been
+implicated in the etiology of a wide range of neurological
+disorders, such as epilepsy, stroke, and aids-related dementia (3-10). thus, inhibitors of  xxxg1296xxx  are of
+interest as potential drugs for the treatment of these cns
+disorders.
+the  xxxg1296xxx  from p. fluorescens, a dimer with a
+subunit molecular weight of 45000, has been cloned and
+expressed in escherichia coli (11). the p. fluorescens
+ xxxg1296xxx  is highly homologous to the human enzyme,
+with 28% identical residues (11). thus, the three-dimensional
+structures must be similar. sequence alignment with other
+plp-dependent enzymes shows that kynureninases are in
+subgroup iva of the aminotransferases, along with  xxxg1562xxx ,
+csdb, and serine-pyruvate aminotransferase, suggesting that
+ xxxg1296xxx  has an aminotransferase fold (12). in the
+present work, we obtained crystals of p. fluorescens  xxxg1296xxx  suitable for x-ray diffraction and solved the structure
+to 1.85 å. the structure confirms the prediction that
+ xxxg1296xxx  has the aminotransferase fold. furthermore, the
+structure shows several unusual features, including two
+conserved aspartate residues in the plp-binding site, asp201 and asp-132, and a conserved tryptophan, trp-256,
+which donates a hydrogen bond to the phosphate of plp.
+the implications of the structure for the mechanism of
+ xxxg1296xxx  are discussed. furthermore, the structure of the
+bacterial  xxxg1296xxx  will help in the structure determination
+
+10.1021/bi035744e ccc: $27.50 © 2004 american chemical society
+published on web 01/16/2004
+
+1194 biochemistry, vol. 43, no. 5, 2004
+
+momany et al.
+
+scheme 1: proposed reaction mechanism of  xxxg1296xxx 
+
+of the human  xxxg1296xxx , which in turn would be valuable
+for the design and evaluation of novel, selective, and more
+potent inhibitors.
+materials and methods
+cloning, expression, and purification. recombinant
+ xxxg1296xxx  was purified initially from e.coli cells containing plasmid ptz18u with the gene coding for p. fluorescens
+ xxxg1296xxx  (11). to prepare an expression construct
+amenable for  xxxd3187xxx  substitution, ptz18u was
+used to subclone the  xxxg1296xxx  gene into psapko-wt,
+a modified pet28b vector (novagen) containing sapi sites
+introduced between the ecori and ncoi sites of the original
+vector (13). this construct, plb1kyn, was transformed into
+the methionine auxotroph e. coli b834 (de3).
+alternative purification schemes were developed after
+difficulties were encountered in producing crystals using the
+original protocol (11). e. coli cells containing ptz18u or
+plb1kyn were grown for 15-17 h at 37 °c in 50 ml
+inoculums of lb medium (1% tryptone, 0.5% yeast extract,
+0.5%  xxxd3213xxx ; the ph was adjusted to 7.0 with
+sodium hydroxide) containing 100 µg/ml carbenicillin. after
+inoculation into 1 l of the same medium, cells were grown
+for 4-5 h before induction by 1 mm iptg. the cells were
+collected by centrifugation at 4 °c for 15 min at 10000g
+and suspended in 30 ml of buffer (5 mm potassium
+phosphate, ph 8.0, containing 0.2 mm plp). a 1 mm
+concentration of pmsf (1 m stock in  xxxd2400xxx ) was added
+to the cell suspension. after sonication on ice for 3 min in
+1 min increments with a fisher scientific 550 sonic dismembrator, cell debris was removed by centrifugation for
+30 min at 25000g at 4 °c. a solution of 2% (w/v) protamine
+sulfate (4 ml) was added dropwise to the supernatant, and
+the precipitant was separated by centrifugation at 4 °c for
+20 min at 55000g. the subsequent purification steps were
+carried out by two procedures, either of which were able to
+produce homogeneous enzyme that crystallized.
+
+purification scheme 1 continued by loading the enzyme
+onto a hitrap q (amersham-pharmacia, 5 ml) column
+equilibrated with 5 mm potassium phosphate buffer, ph 8.0,
+at a flow rate of 5 ml/min, washing with the same buffer,
+and then eluting using a 0-0.5 m nacl (same buffer)
+gradient over 20 column volumes. the active fractions were
+combined, and the solution was replaced by 5 mm potassium
+phosphate and 0.2 mm plp buffer by repeated (two times)
+concentration (5 ml) and dilution (50 ml) with 5 mm
+potassium phosphate buffer containing 0.2 mm plp using
+a ym 30 ultrafiltration membrane (amicon). the enzyme
+was applied to an omega-aminohexylagarose (sigma) column
+equilibrated with 5 mm potassium phosphate buffer, ph 8.0,
+washed with the same buffer, and eluted using a 0-0.5 m
+nacl gradient over 20 column volumes. after a buffer
+change to 5 mm potassium phosphate containing 0.2 mm
+plp by ultrafiltration as before, the sample was applied to
+a second hitrap q column equilibrated with 5 mm potassium phosphate buffer, ph 8.0. the enzyme was washed with
+the same buffer and then eluted using a 0-0.5 m nacl
+gradient. the buffer was changed to 0.5 m potassium
+phosphate containing 0.2 mm plp by ultrafiltration. the
+resulting solution was then applied to a phenyl-sepharose
+(amersham-pharmacia) column equilibrated with 0.5 m
+potassium phosphate buffer, ph 8.0. the enzyme was washed
+with the same buffer and then eluted using a 0.5 m to 5
+mm potassium phosphate buffer gradient.
+the second purification scheme proved to be difficult to
+reproduce and involved concentration of the crude extract
+(30 ml) to 3 ml on a ym 30 ultrafiltration membrane
+(amicon) and subsequent dilution to 15 ml with water
+containing 0.2 mm plp. the diluted protein was applied to
+a hydroxyapatite column (biorad, 3.0 cm × 15 cm)
+equilibrated with 1 mm potassium phosphate buffer, ph 8.0,
+washed with the same buffer, and then eluted with 5 mm
+potassium phosphate, ph 8.0. the active fractions from either
+
+structure of pseudomonas fluorescens  xxxg1296xxx 
+
+biochemistry, vol. 43, no. 5, 2004 1195
+
+table 1: data collection, scaling, and phasing statistics
+data set
+
+resolution, å
+
+rmerge(i), %
+
+redundancy
+
+completeness, %
+
+rcryst,c %
+
+no. of heavy atom sites
+
+phase powerd
+
+native
+xe
+tmera
+ptcpb
+ptcpb
+nabr
+
+58.7-1.85
+20.0-2.6
+20.0-3.0
+20.0-3.4
+20.0-3.4
+20.0-2.6
+
+6.3
+8.7
+7.8
+8.4
+7.0
+6.6
+
+13.9
+14.6
+3.4
+5.7
+4.1
+6.8
+
+96.8
+99.9
+98.6
+87.6
+98.1
+99.8
+
+16.3
+35.2
+26.9
+12.0
+16.0
+
+2
+3
+1
+1
+12
+
+0.91
+1.14
+0.41
+0.45
+0.89
+
+a tmer ) thiomersalyl (c h hgna o s). b ptcp ) potassium tetrachloroplatinate(ii). c r
+9 9
+2 2
+cryst (%) )100∑|fp - fph|/∑|fp|, where fp and fph are
+the observed structure factors for the native and heavy atom derivatives. d phase power ) fh/e, where fh is the rms contribution of the heavy atom
+and e is the rms lack of closure error.
+
+of the above methods, containing specific activities of greater
+than 15, were combined and concentrated on an amicon
+membrane to the final concentration of the protein equal to
+40 mg/ml. the purified protein exhibited a single band on
+silver-stained sds-page on phastgel homogeneous 20
+(amersham-pharmacia). purified protein was usually divided
+into 100 µl portions and stored at -78 °c. the protein
+concentration was estimated by measuring the absorbance
+at 280 nm on a pharmacia biotech ultrospec 2000 spectrophotometer using the extinction coefficient e1%1cm ) 14.0
+(14). the activity of  xxxg1296xxx  was determined by
+following the decrease in absorbance at 360 nm (∆ )
+-4500 m-1 cm-1) as kynurenine is hydrolyzed to anthranilic
+acid.
+crystallization, structure determination, and refinement.
+crystallization experiments were performed using the hanging-drop vapor diffusion technique at room temperature (15,
+16) using sparse matrix approaches (17). heavy atom
+derivatives of thiomersalyl (c9h9hgna2o2s) and potassium
+tetrachloroplatinate(ii) were obtained by soaking native
+protein crystals in solutions of heavy atom compounds in
+the stabilizing solution, 40% (w/v) peg 400, 0.2 m licl,
+0.2 mm plp, 5 mm potassium phosphate buffer, ph 8.0, at
+concentrations of 2.5-4.0 mm for 1-3 days. a xe heavy
+atom derivative was obtained by suspending the crystals in
+a xe atmosphere for 10 min at a 700 kpa pressure using a
+molecular structure corp. cryo-xe-siter. a nabr derivative
+was obtained by briefly (10-15 s) transferring the native
+crystals through stabilizing solution containing 1 m nabr
+(18). x-ray diffraction data from a single crystal of native
+protein to 1.85 å resolution and the five heavy atom
+derivatives were collected in-house using a mar research
+imaging plate scanner mounted on a rigaku ru-200 generator (cu kr, lambda ) 1.5418 å). all data were collected at -180
+°c except the thiomersalyl derivative, which was collected
+at room temperature. the data were processed and merged
+using the programs denzo and scalepack (19, 20). the
+statistics for data collection and processing are summarized
+in table 1.
+phases for the protein structure factors at 2.6 å resolution
+were derived by a combination of mir and mr methods.
+initial heavy atom positions were obtained from the program
+solve (21) using the xe derivative. a second heavy atom,
+on a special position, was found using harker sections of
+the anomalous difference patterson map. a molecular
+replacement solution was found using the cr model of csdb
+from e. coli (pdb code 1c0n) (22, 23). the level of
+sequence identity between  xxxg1296xxx  and csdb is 16%.
+a cross-rotation function with an integration radius of 30 å
+and a translation function were calculated in the resolution
+
+range from 10 to 6.5 å using amore (24). the rotation
+function solution was 43rd in the solutions list. the translation solution had a correlation of 44.5 and r factor of 50.5%.
+correlations for wrong peaks of the translation function were
+below 42.2. two criteria for selection of the right solution
+were used. first, the solution model packed in the unit cell
+with formation of an appropriate biologically sensible dimer.
+second, the peaks corresponding to the xe heavy atom
+positions were present in the difference fourier map for the
+xe derivative calculated with mr phases. the mr phases
+were used to find heavy-atom-binding sites in difference
+fourier syntheses for four other derivatives. the heavy atom
+parameters were refined jointly taking into account anomalous dispersion using the program mlphare (25) from the
+ccp4 suite (26). the mir phases had a mean figure of merit
+of 0.52 at 2.6 å resolution. statistics for the heavy atom
+refinement are given in table 1. mir phases were improved
+using solvent flattening and histogram matching using the
+dm program (27) from the ccp4 suite. the quality of the
+map allowed us to trace above 90% of the polypeptide chain
+including side chains using residues conserved between csdb
+and  xxxg1296xxx  as consistency markers. the model was
+built using the program o (28). the coordinate refinement
+was carried out using the stereochemically restrained maximum-likelihood method, program refmac, in the ccp4
+package (29) coupled with automated building and updating
+of the solvent structure using arp (30). the lysine was
+refined as an aldimine linkage with the cofactor having a
+target bond length of 1.450 å and appropriate bond
+geometries. all x-ray data were used with no cutoff on
+amplitudes or resolution. in later rounds, tls refinement
+was performed by dividing the protein into four domains
+(domain i, residues 1-35 and 299-405; domain 2, residues
+36-96, 205-241, and 282-298; domain 3, residues 242281; domain 4, residues 97-204). tls refinement dropped
+the r factor from 17.8% to 16.1% and rfree from 24.3% to
+20.7%, thus validating its use. side chains for residues gln
+21, glu 27, arg 87, glu 118, gln 160, gln 164, gln 185,
+gln 262, glu 370, and arg 401 were not visible in electron
+density maps and were not refined. the orientations of
+glutamine, asparagine, and histidine residues were checked,
+and hydrogen atoms were added by the program molprobity (31) before the later rounds of refinement. a continuous, nonproteinacious feature in the electron density maps
+was modeled as a short  xxxd2982xxx , although it is
+possibly a fatty acid on the order of  xxxd2681xxx . statistics
+for the final refinement round are given in table 2.
+site-directed mutagenesis. mutagenesis of p. fluorescens
+ xxxg1296xxx  was performed using the quikchange kit from
+stratagene. the mutagenesis primers were designed accord-
+
+1196 biochemistry, vol. 43, no. 5, 2004
+
+momany et al.
+
+table 2: refinement statistics and figures of quality for the final refined structure
+resolution range (last shell)
+no. of reflns (last shell)
+r factor (last shell)
+rfree factor (5% of data excluded from refinement) (last shell)
+no. of protein atoms/no. of water molecules
+ligands
+rms deviations from ideal geometry
+bond length
+bond angle
+mean b factor
+percentage of residues in ramachandran plot in favored/additional/generous/disallowed regions
+
+ing to the instructions obtained with the kit. all mutant
+kynureninases were sequenced to confirm the presence of
+the desired mutation and the absence of unintended mutations
+elsewhere. the reactions were cycled in a thermocycler as
+follows: 1 cycle of 30 s at 95 °c, 16 cycles of 30 s at 95
+°c, 1 min at 55 °c, and 8 min at 68 °c. the mutant proteins
+were purified as described previously (11).
+plp binding measurements were performed with apoenzymes that were obtained by overnight incubation with 0.2
+m l-alanine, followed by gel filtration on a pd-10 column
+(amersham-pharmacia) to remove the l-alanine and pmp.
+assays were performed at 37 °c in a molecular devices
+spectramax340 microplate reader. reactions contained 1-10
+nm  xxxg1296xxx , except in the case of d201a, where the
+enzyme was 1 µm. the reaction mixtures contained, in a
+total of 300 ml, 0.04 m potassium phosphate, ph 8, 0.2
+mm l-kynurenine, and varying amounts of plp. the
+reactions were followed by the decrease in absorbance at
+360 nm, after a 5-10 min preincubation to allow plp
+binding. the plp activity data were fit to a michaelismenten equation using the program hyper (32) to obtain
+the plp binding constant.
+sequence analysis. a psi-blast sequence analysis (33)
+was performed at the national center for biotechnology
+information (ncbi) web server using human and p. fluorescens  xxxg1296xxx  amino acid sequences to build a profile
+that was then searched and redefined three times. homologues were aligned using clustal-w (34) in bioedit
+(tom hall) that had probability scores above 2e-33. several
+bacterial  xxxg1296xxx  amino acid sequences were corrected
+at the n-terminus on the basis of sequence alignment and
+the presence of obvious shine-dalgarno (35) sequences
+incorrectly assigned in the protein sequence. atrazine hydrolase appeared to be at the transition between kynureninases and  xxxg1562xxx  homologues and was not included in the
+alignment.
+results
+purification and crystallization of p. fluorescens  xxxg1296xxx . because  xxxg1296xxx  failed to crystallize reproducibly
+using the previously reported purification scheme, a new
+approach to purify the enzyme was developed. attempts to
+purify the protein using hydroxyapatite columns were difficult to reproduce, with some batches of protein yielding
+high-purity protein and other batches not binding to the
+hydroxyapatite column and thus necessitating a different
+strategy. the longer protocol, with multiple q columns and
+the phenyl-sepharose column, reproducibly produced protein
+that crystallized. the enzyme in 5 mm potassium phosphate
+buffer and 0.2 mm plp, ph 8.0, loses 40% of its activity
+
+58.7-1.85 å (1.90-1.85)
+29707 (2078)
+0.155 (0.377)
+0.192 (0.411)
+3158/433
+cl- and peg
+0.009 å
+1.186°
+23.48 å2
+88.4/10.5/1.1/0
+
+when stored at 4 °c for 1 week. we observed an almost
+4-fold decrease in enzyme activity when the protein was
+stored at -78 °c for 3 months. the enzyme is more stable
+in buffer of higher ionic strength. if stored in 0.1 m
+phosphate buffer, it is stable toward freezing at -78 °c for
+at least one year. attempts to prepare a selenomethionylsubstituted  xxxg1296xxx  for mad phasing from the construct
+on plasmid ptz18u proved difficult, with an unacceptably
+low yield. the long expression times used with this plasmid
+appeared to be detrimental, so the  xxxg1296xxx  gene was
+transferred to a pet28b vector (novagen). while the
+structure was solved before this plasmid construct was used
+to prepare selenomethionyl-modified  xxxg1296xxx , the yield
+of the enzyme was significantly improved over that of the
+ptz18u construct. thus, the pet28b-based plasmid was
+useful for isolation of native  xxxg1296xxx .
+three distinct crystal morphologies were identified during
+crystallization trials. thin, platelike yellow crystals (0.3 ×
+0.2 × 0.03 mm) were obtained by vapor diffusion using a
+mixture of lithium chloride (1.2-1.6 m) and peg 8000 (10%
+w/v) as the precipitant. the protein drops contained 20-25
+mg  xxxg1167xxx   xxxg1296xxx , 0.4 m lithium chloride, and 5% peg
+8000. preliminary x-ray studies showed that these crystals
+had laue symmetry mmm with unit cell parameters a ) 83.5
+å, b ) 89.7 å, and c ) 104.2 å. colorless dagger-like
+crystals were obtained when the drop, containing 20 mg/
+ml protein, 0.4 m lithium chloride, 3% (w/v) peg 8000,
+and 3% (w/v) peg 600, was equilibrated against the reservoir
+solution consisting of 1.2 m lithium chloride, 8% (w/v) peg
+8000, and 2% (w/v) peg 600. these crystals were rather
+small and not suitable for x-ray experiments. crystals
+suitable for x-ray diffraction studies were obtained when
+the protein (20 mg  xxxg1167xxx  in 5 mm potassium phosphate
+buffer and 0.2 mm plp, ph 8.0 or 6.0) was mixed with
+0.15-0.2 m (final) lithium chloride and 10% (w/v) peg 400
+or 600 and suspended over a reservoir consisting of 2535% (w/v) peg 400 or 600 only or with the addition of
+0.15-0.4 m lithium chloride. yellow isometric crystals
+appeared in 10-15 days at room temperature and grew to
+dimensions of 0.5 × 0.5 × 0.4 mm in approximately 1 week.
+crystals grown in peg 400 at ph 6.0 were more suitable
+for a structure determination both from a size standpoint and
+because they could be directly flash frozen with no evidence
+of ice crystal formation visible as a haze around the crystal
+or in the diffraction pattern.. fresh crystals diffracted beyond
+2.0 å resolution, but the quality of the diffraction decreased
+markedly with crystal age. they belong to the p3121 space
+group with cell dimensions a ) b ) 68.08 å and c ) 138.98
+å. these crystals were used for the  xxxg1296xxx  structure
+determination.
+
+structure of pseudomonas fluorescens  xxxg1296xxx 
+crystals of  xxxg1296xxx  form readily from precipitate.
+the influence of reducing agents on the formation of the
+ xxxg1296xxx  crystals was studied by adding dtt, betame, and
+tcep to the crystallization drops to achieve final 1-5 mm
+concentrations of the reductant in the hanging drops. the
+presence of the additives resulted in a significant decrease
+of amorphous precipitate from which formation of the
+crystals took place (data not shown), but the presence of the
+reductant did not improve the diffraction quality, and thus
+reductants were not used in further structural studies.
+overall fold. the biologically active structure of  xxxg1296xxx , like many plp-dependent enzymes, is a homodimer
+(36). with this particular unit cell and the p3121 space group,
+a  xxxg1296xxx  monomer makes up the asymmetric unit. its
+2-fold related monomer is generated by the symmetry
+operator (x - y, -y, 2/3 - z) translated one unit cell along
+the crystallographic b axis. electron density is generally well
+ordered for residues thr-2 to ala-405, although a few side
+chains had weak density. in particular, the side chain of
+conserved phe 263 was poorly ordered. the density for the
+plp cofactor clearly suggests that a stable aldimine linkage
+between lys-227 is present. a single tentative chloride ion
+in the active site was assigned on the basis of the strong
+electron density feature and a strong anomalous signal in
+the native anomalous difference fourier map. all of the
+sulfur atoms, with the exception of cys-194, have strong
+anomalous difference density, indicating that the data and
+final structure are of high quality. the crystal structure has
+good geometry with rms deviations from ideal bonds
+lengths and angles of 0.009 å and 1.186° (table 2). no nonglycine residues are in the disallowed regions of the
+ramachandran plots, while residues leu60, glu118, gln144,
+and cys280 are in the generous regions. the final r factor,
+including hydrogen atoms, was 15.5% with an rfree of 19.2%
+(5% of the data) at 1.85 å resolution. figure 1 illustrates
+the overall fold of  xxxg1296xxx . secondary structure elements identified with procheck are associated with the
+sequence in figure 2.
+ xxxg1296xxx  is structurally most similar to l-cysteine
+l-cystine c-s lyase (c-des; pdb accession no. 1elq)
+with a close second being the protein used for molecular
+replacement, csdb (pdb accession no. 1c0n) (figure 3).
+the overall r-carbon rms deviations are 2.3 and 2.8 å over
+349 and 368 residues when analyzed by dali. figure 3
+illustrates the degree of structural similarity among  xxxg1296xxx , csdb, and c-des. on the basis of the dali fold match
+and sequence alignments (12),  xxxg1296xxx  belongs in the
+aminotransferase fold type i, class iva. like other fold type
+i enzymes, the monomer folds into a “large domain”
+(residues 34-301) consisting of a greek-key rbetar fold
+containing a seven-stranded mixed beta-pleated sheet (s3, s10,
+s9, s8, s6, s4, and s5) with seven flanking r-helices (h5,
+h10, h9, h8, h7, h6, and  xxxg1956xxx ) and several short beta-strands
+(s2, s7, s11, and s12) and outside helices (h3 and h4), all
+enfolding the plp cofactor. the “small domain” (residues
+302-405) is an rbeta fold with four antiparallel beta-strands (s13,
+s14, s15, and s16) and three r-helices (h13, h14, and h15).
+like csdb and c-des, there is an n-terminal extension from
+the large domain, helices (h1 and h2) that are associated
+mainly with the small domain. lys-227 extends from a loop
+located between the two domains to interact with the plp
+cofactor. when the domains are compared separately, the
+
+biochemistry, vol. 43, no. 5, 2004 1197
+
+figure 1: ribbon representation of the  xxxg1296xxx  monomer
+(a) and the biologically functional dimer (b). secondary structure
+assignments are color coded blue to red, amino terminus to carboxy
+terminus. the plp cofactor and a chloride ion (colored green) in
+the active site are rendered in cpk format. the figures were
+generated using swiss-pdbviewer version 6.3 (43) and rendered
+with pov-ray (http://www.povray.org). labels were added using
+adobe illustrator.
+
+rms deviations are smaller than the overall deviation. the
+large domains (residues 29-301) superpose with an rms
+deviation of 2.2 å with c-des and 2.6 å with csdb. the
+small domains (residues 302-403) have rms deviations of
+1.6 å with csdb and 2.1 å with c-des. several other plp
+proteins, for instance  xxxg1562xxx -like protein (z ) 12.3) and l-allothreonine aldolase (z ) 11.7), have higher z-scores for the
+small domain than csdb (6.0) and c-des (5.6).
+structure comparisons of  xxxg1296xxx  with csdb and
+c-des reveal several regions of structure variation.  xxxg1296xxx  has an extra r-helix at the amino terminus, h1, that is
+not present in csdb or c-des (figure 3). some kynureninases, for instance from caenorhabditis elegans, have
+appreciably more amino acids at the amino terminus (figure
+2). fujii et al. identified several regions of significant
+structural differences between csdb and  xxxg1562xxx  that were
+denoted dr-a* through dr-d (22). several additional insertions and deletions with respect to c-des and csdb (dr-e
+through dr-g) are shown in figure 3 beyond the original
+four identified. region dr-a*, located between helices h3
+
+1198 biochemistry, vol. 43, no. 5, 2004
+
+momany et al.
+
+figure 2: multiple sequence alignment of kynureninases from multiple species. only a subset of the sequences aligned is represented to
+save space. helical secondary structures in the p. fluorescens kynureninases structure are denoted as cylinders and beta-strands as extended
+arrows above the sequences. colored blocks in the sequences represent regions of >80% identity with the colors dependent on the amino
+acid (p, yellow; g, purple; avilyfwm, green; hkr, blue; stde, red; nq, gray; c, brown). double mutations identified from the
+structure are shown in the conserved sequence as double letters, representing the possible amino acids at that position. the figure was
+generated using a clustal-w alignment (34) in the program bioedit (tom hall). the circled letter k is lys-227 that binds plp.
+abbreviations and ncbi accession: p. fluorescens, pseudomonas fluorescens; d. radiodurans, deinococcus radiodurans np_285661 putative
+ xxxg1296xxx ; b. japonicum, bradyrhizobium japonicum usda 110 np_770799; b. anthracis, bacillus anthracis a2012 np_656639
+aminotransferase class v; m. loti, mesorhizobium loti np_102390 probable  xxxg1296xxx ; s. coelicolor, streptomyces coelicolor a3 np_627839
+putative hydrolase; c. hutchinsonii, cytophaga hutchinsonii zp_00118864 hypothetical protein; c. caviae, chlamydophila caviae gpic
+np_829432; s cerevisiae, saccharomyces cerevisiae np_013332; c. elegans, caenorhabditis elegans np_509023; h. sapiens, homo sapiens
+np_003928. a more complete alignment is given in the supporting information. structural differences described in the text among
+ xxxg1296xxx , csdb, and c-des that show significant sequence variations within the kynureninases are denoted as dr-a through dr-g.
+
+structure of pseudomonas fluorescens  xxxg1296xxx 
+
+biochemistry, vol. 43, no. 5, 2004 1199
+
+figure 3: stereo representation of superpositioned  xxxg1296xxx , csdb, and c-des. the structures of  xxxg1296xxx  (colored orange),
+csdb (1c0n, blue), and c-des (1elq, green) were superpositioned using the “magic fit” and “improve fit” options in swiss-pdbviewer
+(43). labeled regions colored black in the  xxxg1296xxx  denote regions of significant structural variation following the scheme presented
+for csdb (figure 9 of fujii et al. (22)) but extended further here, “dr-a*” for  xxxg1296xxx  residues asn-58 to asp-71 between h3 and h5,
+“dr-b” for residues leu-105 to arg-120 between h6 and s4, “dr-c*” for residues leu-253 to pro-271 in the region of s11 and s12, “dr-d”
+for residues arg-369 to ile-373 between beta-strands s16 and s17, “dr-e” for the insertion (csdb) between glu-27 and ile-30 at the end of
+beta-strand s1, “dr-f” for the loops found in csdb and c-des between asp-153 and glu-157 between beta-strand s5 and helix h8, “dr-g” for
+the insertion (c-des) between residues glu-193 and ala-196 between helix h9 and beta-strand s8. the ribbon drawing was prepared in
+swiss-pdbviewer rendered with pov-ray.
+
+and h5 and thus including h4, extends into the active site
+and contributes residues ile-61, trp-64, and trp-69 that are
+important in monomer-monomer contacts and may be
+involved in substrate recognition. csdb has a more extended
+loop between strand a and helix 3 that  xxxg1296xxx  lacks.
+region dr-c* provides conserved trp-256* and wellconserved phe-257*. region dr-d of csdb has a helix
+missing in c-des and  xxxg1296xxx  that extends near the
+active site and directs cys-362 into the active site of this
+protein, where it can play a role in catalysis (22). the other
+regions (dr-b, dr-e, dr-f, and dr-g), in addition to being
+structurally different with respect to csdb and c-des, are
+also very variable across the kynureninases (the regions are
+also denoted in figure 2 associated with the corresponding
+amino acid sequences), suggesting that other kynureninases
+would have significant conformational differences there that
+are not important in catalytic function.
+sequence homology with other kynureninases. sequence
+alignments of p. fluorescens  xxxg1296xxx  with other bacterial and eukaryotic kynureninases show that there is high
+homology between multiple bacteria and nonplant eukaryotes
+(figure 2 and the supporting information). no plant species
+were identified in the psi-blast analysis. the unrooted
+tree (not shown) clusters the eukaryotic kynureninases (from
+s. cerevisiae, neurospora crassa, c. elegans, and homo
+sapiens) separately from most of the bacterial enzymes (from
+pseudomonas, deinococcus, bordatella, ralstonia, and xanthomonas species, etc). interestingly, the kynureninases of
+bacillus anthracis and cytophaga hutchinsonii have higher
+sequence homology to the higher organisms and may
+represent recovery of the gene from a host.
+one cluster of absolutely conserved residues surrounds the
+substrate-binding site and defines a pocket around the
+pyridine ring of the cofactor (figure 4). conserved active
+site residues include asn-35, ser-26, leu-37, phe-129, pro130, asp-132, tyr-176, asp-201, his-204, cys-224, tyr226, lys-227, pro-233, asp-367, arg-369, and arg-375. a
+second shell of residues extends from the active site and
+defines a set of structurally critical residues that are
+hydrophobic. these conserved residues are ile-122, tyr-134,
+
+trp-200, gly-207, leu-213, tyr-220, tyr228, leu-229,
+asn230, trp-240, leu-295, phe-298, pro-335, gly-342, pro371, leu-381, tyr-382, and val-388. asp-219 (hydrogen
+bonding to highly conserved his-192) is the lone hydrophilic
+residue serving to stabilize the packing of helix h9 to helix
+h10 and beta-strand s9. a final set of conserved residues is
+important in oligomerization. these residues, leu-37, trp56, trp-69, pro-233, and trp-256, lie at the dimer interface.
+trp-256 additionally hydrogen bonds to the phosphate
+oxygen of the cofactor. interestingly, amino acids surrounding the phosphate of the cofactor are poorly conserved in
+the sense that serines (ser-98) and threonines (thr-96, -97,
+-131, and -282*) are randomly substituted among the
+kynureninases.
+several additional amino acids in the kynureninases are
+conserved as compensating double mutations. the volume
+of trp-64 and neighboring thr-282 in the bacterial kynureninases is largely matched with a histidine/asparagine pair in
+the eukaryotes. another compensating mutation set is the
+gly-223 and phe-238 (or tyr/ile) pair shifting to tryptophan
+and glycine. in this case, most bacteria use gly at 223, with
+the interesting exceptions of b. anthracis and c. hutchinsonii.
+active site. a schematic picture of the residues associated
+with the pyridoxal-5′-phosphate cofactor is shown in figure
+5. phe-129 is pi-stacked atop the pyridine ring of the plp
+cofactor. there is a hydrogen bond between the internal
+aldimine nh and the 3′-o of the plp, with an n-o distance
+of 2.68 å. this is consistent with the spectroscopic properties
+of  xxxg1296xxx , which shows an absorption maximum at
+423 nm (37) that indicates a preference for a ketoenamine
+structure for the internal aldimine. in addition, the n of
+his-204 is 3.85 å from the 3′-o of plp. his-204 is strictly
+conserved in all known sequences of  xxxg1296xxx . although
+the distance from his-204 to the 3′-o of plp (3.85 å) and
+the geometry are not conducive to hydrogen bonding in the
+internal aldimine, his-204 could interact with the 3′-o during
+catalysis. the structure shows the conserved asp-201 in the
+plp-binding site, which is expected for a member of the
+aminotransferase family of plp-dependent enzymes (12). in
+addition, the structure has an additional strictly conserved
+
+1200 biochemistry, vol. 43, no. 5, 2004
+
+momany et al.
+
+figure 4: stereoview of the active site region around the pyridoxal-5′-phosphate. panel a illustrates representative electron density
+contoured at 1.2sigma (sigmaa weighted 2fo-fc) around the plp cofactor. only a thin slab of density and atoms is shown for clarity. note
+the continuous density between lys-227 and the cofactor and the well-defined density around aspartates 132 and 201. extraneous density
+modeled as a  xxxd2982xxx  polymer is visible on the left-hand side of the cofactor. panel b represents a view looking at the cofactor
+roughly from the bulk solvent. residues from the 2-fold symmetry related monomer are denoted with an asterisk.
+
+figure 5: schematic representation of residues interacting with
+the plp. distances between potential hydrogen-bonding partners
+are indicated in angstroms.
+
+aspartate, asp-132, which is located at a similar distance
+from the plp nitrogen (figure 5). there is significant
+electron density located between asp-132 and asp-201, and
+the distance between odelta of asp-132 and odelta of asp-201 is
+2.50 å, indicating that a hydrogen bond is likely between
+the two aspartates. the short distance between the two
+aspartates suggests that there may be a low-barrier hydrogen
+bond (38).
+
+the phosphate oxygens are surrounded by a variety of
+hydrogen bond donors. trp-256* and thr-282* from the
+other chain of the dimer donate hydrogen bonds to one of
+the oxygens. the nr-h and the ogamma of ser-98 are located in
+hydrogen-bonding distance from another phosphate oxygen,
+as is the ogamma of thr-96. tyr-226 and thr-97 provide hydrogen
+bonds to the third phosphate oxygen. of the residues involved
+in phosphate binding, only tyr-226 and trp-256 are strictly
+conserved. while many plp-dependent enzymes stabilize
+the phosphate charge via an ionic interaction, for instance
+using a histidine (csdb, c-des, and even the distantly
+related  xxxg1626xxx ),  xxxg1296xxx  has no basic
+residues nearby to provide this charge stabilization. like
+other aminotransferase-like enzymes, a helix dipole from
+r-helix h6 is appropriately oriented to provide some charge
+stabilization.
+an atom, most likely a chloride ion, sits in the active site
+where the carboxyl group of the substrate would normally
+interact. this is similar to the acetate ion found in the
+structures of the related enzymes c-des and csdb. assignment of the atom as a chloride ion was made on the basis of
+the strong anomalous signal of this ion, its presence in the
+crystallization buffer, and the strong electron density.
+one further feature of the  xxxg1296xxx  structure is the
+presence of extraneous electron density near the active site
+
+structure of pseudomonas fluorescens  xxxg1296xxx 
+table 3: plp binding constants and activity of wild-type and
+mutant  xxxg1296xxx 
+enzyme
+
+kd, plp, nm
+
+kcat/km,
+kynurenine, m-1 s-1
+
+wild type
+d132e
+d132a
+d201e
+d201a
+
+628 ( 35
+128 ( 14
+5100 ( 590
+15.1 ( 1.5
+7010 ( 2300
+
+6.3 × 105
+2.1 × 105
+7.4 × 104
+2.3 × 104
+20
+
+(figure 4). since the crystals were prepared in low molecular
+weight  xxxd2982xxx , it may be a tightly bound
+molecule of peg. alternatively, it could be a fatty acid
+maintained through purification. the uncharacterized molecule actually occupies the same region as an extra loop (12
+additional amino acids) found in csdb (thr-360 to met377 of csdb, which corresponds to region dr-d, figure 3)
+that is absent in the kynureninases. the eukaryotic, as well
+as b. anthracis and c. hutchinsonii, kynureninases have small
+insertions of two additional amino acids in this region. many
+of the residues surrounding the putative peg molecule are
+conserved, so this may have biological implications and
+certainly offers an extra handle for drug design. one further
+important point to make related to this extraneous feature is
+that this molecule may be occupying a site normally filled
+by residues his-259* through glu-266* of  xxxg1296xxx 
+(region dr-c*). this loop was difficult to trace because of
+poor electron density. phe-263* is located in the middle of
+this loop and has very poor side-chain electron density. this
+is quite surprising and was cause for alarm during initial
+model building because it is absolutely conserved. the
+explanation for the poor side-chain electron density of an
+absolutely conserved residue could be that the loop normally
+is associated with the active site, and that it has been
+displaced in the crystal structure by a crystallization reagent,
+peg.
+mutagenesis of asp-132 and asp-201. we prepared the
+ala and glu mutants of asp-132 and asp-201 by sitedirected mutagenesis to probe their roles in plp binding and
+catalysis. surprisingly, both d132e and d201e kynureninases have good activity and plp binding stronger than that
+of the wild-type enzyme (table 3). however, d132a
+ xxxg1296xxx  has lower activity and binds plp weakly (table
+3). d201a  xxxg1296xxx  has very low activity, less than
+0.01% of that of the wild-type enzyme, binds plp weakly,
+and expresses poorly, giving large amounts of insoluble
+inclusion bodies and very low levels of soluble protein. this
+is expected, since asp-201 is homologous to the conserved
+plp-binding aspartate found in all members of the aminotransferase family (12).
+discussion
+ xxxg1296xxx  is an enzyme in tryptophan catabolism that
+is inducible in bacteria such as p. fluorescens, but which is
+constitutive in eukaryotes (1). however, n. crassa was
+reported to have both inducible and constitutive kynureninases (39). the inducible  xxxg1296xxx  reacts with lkynurenine, while the constitutive enzyme reacts preferentially with 3-hydroxy-l-kynurenine (1). the constitutive
+ xxxg1296xxx  plays a key role in the pathway for de novo
+synthesis of nad(p)+ in eukaryotes. there is homology, and
+significant identity, in all known  xxxg1296xxx  sequences,
+
+biochemistry, vol. 43, no. 5, 2004 1201
+from bacteria to man (figure 2). thus, both inducible and
+constitutive kynureninases must have a similar fold and threedimensional structure. we note that the majority of the
+conserved residues in figure 2 are located in or very near
+the plp-binding site. the structure confirms the prediction
+from sequence alignment that lys-227 is the plp-binding
+residue in p. fluorescens  xxxg1296xxx .
+sequence alignment of  xxxg1296xxx  with other plpdependent enzymes shows that  xxxg1296xxx  is in subgroup
+iva of the aminotransferases, along with  xxxg1562xxx , csdb, and
+serine-pyruvate aminotransferase (12). indeed, the coordinates of csdb were used for molecular replacement in the
+solution of the structure of  xxxg1296xxx , after molecular
+replacement failed with both aspartate aminotransferase and
+tyrosine phenol-lyase coordinates. it is interesting to note
+that all of the members of subgroup iva share similar
+reaction characteristics, in that they catalyze either beta-elimination reactions with electrophilic replacement or transamination, resulting in l-alanine as a product.
+all plp-dependent enzymes in the aminotransferase
+family have an aspartate residue in close contact with the
+plp pyridine n1, to keep it protonated to enhance the
+electrophilicity of the cofactor (12). the sequence alignment
+predicts that asp-201, which is strictly conserved in kynureninases, is the corresponding residue in p. fluorescens  xxxg1296xxx . we do observe in the structure that asp-201 is near
+the plp nitrogen, but in addition, we find that asp-132 is
+also at a similar distance and is also strictly conserved. the
+results show that both residues contribute to plp binding,
+but asp-201 has a much greater contribution to activity. tyr226 is the residue just preceding the plp-binding lysine, and
+this residue is strictly conserved in kynureninases, although
+tyrosine is not found in this position in any other plpdependent enzyme. the structure shows that tyr-226 donates
+a hydrogen bond to the phosphate of the plp. however, it
+is not uncommon for aminotransferases to have a tyrosine
+involved in plp binding. in aspartate aminotransferase, tyr70 donates a hydrogen bond to the phosphate of plp, and
+serves mainly to bind plp (40). in the case of tyrosine
+phenol-lyase, tyr-71 donates a hydrogen bond to the plp
+phosphate in the internal aldimine, but also is a general acid
+for the elimination step of the reaction (41). trp-256, which
+is strictly conserved in kynureninases, also donates a
+hydrogen bond to the phosphate through the indole n1
+hydrogen. to our knowledge, the participation of a tryptophan residue in plp binding through the phosphate is
+unique to  xxxg1296xxx  and c-des. finally, the strictly
+conserved phe-129 is pi-stacked on the pyridine ring of plp.
+this is also commonly observed in aminotransferase family
+members.
+we have studied the mechanism of  xxxg1296xxx  previously using both steady-state (42) and pre-steady-state kinetic
+techniques (37). the ph dependence of kcat/km showed that
+there is only a single catalytic base, with a pka of 6.25,
+required for multiple proton transfers during the reaction (42).
+the most likely residue for the base is lys-227, since it
+requires a great deal of dexterity. the catalytic base must
+remove the proton from the r-carbon of the kynurenine
+external aldimine ( xxxg1229xxx ) and then protonate c-4′ of the
+quinonoid intermediate (eq1) (scheme 1). it then assists
+water in addition to the gamma-carbonyl of the ketimine intermediate (ek1) to form the gem-diolate (ed), protonates the
+
+1202 biochemistry, vol. 43, no. 5, 2004
+beta-carbon of the enamine (ee), and finally shuttles the proton
+from c-4′ of the pyruvate ketimine (ek2) back to cr to give
+the alanine external aldimine ( xxxg302xxx ). the sequence alignment
+of  xxxg1296xxx  with the other members of the aminotransferase family shows a conserved arginine residue, arg-375,
+which is homologous to the substrate r-carboxylate-binding
+site in other members of the family. in our structure, the
+carboxylate of l-alanine can be docked with arg-375 with
+the amino group oriented toward the plp lys-227 schiff
+base to undergo external aldimine formation (data not
+shown). thus, our results confirm that arg-375 is a substratebinding residue. in the present structure, the putative r-carboxylate-binding site is occupied by a sphere of electron
+density, probably a chloride ion, which provides confirmation
+that it is an anion-binding site.
+the structure of p. fluorescens  xxxg1296xxx  reported
+herein provides information essential for the future testing
+of the role of active site residues in the mechanism of the
+reaction using site-directed mutagenesis. in addition, the
+homology with eukaryotic, especially human (28% identity),
+kynureninases will allow for the convenient structure determination in the future using the molecular replacement
+method. the structure of human  xxxg1296xxx  will help in
+the design of novel, potent, and specific inhibitors, which
+may be of value as cns active drugs.
+acknowledgment
+we thank drs. nobuyoshi esaki and yasuo hata for the
+generous use of the csdb coordinates before publication.
+supporting information available
+multiple sequence alignment (clustal-w) of kynureninases in pdf format. coordinates are available from the
+protein data bank, id code 1qz9. this material is available
+free of charge via the internet at http://pubs.acs.org.
+references
+1. soda, k., and tanizawa, k. (1979) kynureninases: enzymological
+properties and regulation mechanism, adv. enzymol. relat. areas
+mol. biol. 49, 1-40.
+2. birley, s., collins, j. f., perkins, m. n., and stone, t. w. (1982)
+the effects of cyclic dicarboxylic acids on spontaneous and amino
+acid- evoked activity of rat cortical neurones, br. j. pharmacol.
+77, 7-12.
+3. saito, k., crowley, j. s., markey, s. p., and heyes, m. p. (1993)
+a mechanism for increased quinolinic acid formation following
+acute systemic immune stimulation, j. biol. chem. 268, 1549615503.
+4. sei, s., saito, k., stewart, s. k., crowley, j. s., brouwers, p.,
+kleiner, d. e., katz, d. a., pizzo, p. a., and heyes, m. p. (1995)
+increased human immunodeficiency virus (hiv) type 1 dna
+content and quinolinic acid concentration in brain tissues from
+patients with hiv encephalopathy, j. infect. dis. 172, 638-647.
+5. sei, y., paul, i. a., saito, k., layar, r., hartley, j. w., morse, h.
+c., 3rd, skolnick, p., and heyes, m. p. (1996) quinolinic acid
+levels in a murine retrovirus-induced immunodeficiency syndrome,
+j. neurochem. 66, 296-302.
+6. saito, k., nowak, t. s., jr., markey, s. p., and heyes, m. p. (1993)
+mechanism of delayed increases in kynurenine pathway metabolism in damaged brain regions following transient cerebral
+ischemia, j. neurochem. 60, 180-192.
+7. saito, k., nowak, t. s., jr., suyama, k., quearry, b. j., saito,
+m., crowley, j. s., markey, s. p., and heyes, m. p. (1993)
+kynurenine pathway enzymes in brain: responses to ischemic
+brain injury versus systemic immune activation, j. neurochem.
+61, 2061-2070.
+
+momany et al.
+8. heyes, m. p., brew, b., martin, a., markey, s. p., price, r. w.,
+bhalla, r. b., and salazar, a. (1991) cerebrospinal fluid quinolinic
+acid concentrations are increased in acquired immune deficiency
+syndrome, adv. exp. med. biol. 294, 687-690.
+9. heyes, m. p., swartz, k. j., markey, s. p., and beal, m. f. (1991)
+regional brain and cerebrospinal fluid quinolinic acid concentrations in huntington’s disease, neurosci. lett. 122, 265-269.
+10. achim, c. l., heyes, m. p., and wiley, c. a. (1993) quantitation
+of human immunodeficiency virus, immune activation factors, and
+quinolinic acid in aids brains, j. clin. invest. 91, 2769-2775.
+11. koushik, s. v., sundararaju, b., mcgraw, r. a., and phillips, r.
+s. (1997) cloning, sequence and expression of  xxxg1296xxx  from
+pseudomonas fluorescens, arch. biochem. biophys. 344, 301308.
+12. alexander, f. w., sandmeier, e., mehta, p. k., and christen, p.
+(1994) evolutionary relationships among pyridoxal-5′-phosphatedependent enzymes. regio-specific alpha, beta and gamma
+families, eur. j. biochem. 219, 953-960.
+13. bose, n., greenspan, p., and momany, c. (2002) expression of
+recombinant human betaine: homocysteine s-methyltransferase
+for x-ray crystallographic studies and further characterization of
+interaction with  xxxd3156xxx , protein expr. purif. 25,
+73-80.
+14. moriguchi, m., yamamoto, t., and soda, k. (1971) inactivation
+of  xxxg1296xxx  by l-alanine, biochem. biophys. res. commun.
+44, 1416-1419.
+15. davies, d. r., and segal, d. m. (1972) protein crystallization:
+micro techniques involving vapor diffusion, methods enzymol.
+266-269.
+16. mcpherson, a. (1976) crystallization of proteins from polyethylene
+glycol, j. biol. chem. 251, 6300-6303.
+17. jancarik, j., and kim, s. h. (1991) sparse matrix sampling: a
+screening method for crystallization of proteins, j. appl. crystallogr. 24, 409-411.
+18. dauter, z., dauter, m., and rajashankar, k. r. (2000) novel
+approach to phasing proteins: derivatization by short cryo-soaking
+with halides, acta crystallogr.  xxxd56xxx , 232-237.
+19. otwinowski, z. (1993) denzo, in data collection and processing
+(sawyer, l., isaacs, n., and bailey, s., eds.) pp 56-62, serc
+daresbury laboratory, warrington, u.k.
+20. otwinowski, z., and minor, w. (1997) processing of x-ray
+diffraction data collected in oscillation mode, methods enzymol.
+276, 307-326.
+21. terwilliger, t. c., and berendzen, j. (1999) automated mad and
+mir structure solution, acta crystallogr. d55, 849-861.
+22. fujii, t., maeda, m., mihara, h., kurihara, t., esaki, n., and hata,
+y. (2000) structure of a  xxxg1562xxx  homologue: x-ray structure analysis
+of csdb, an escherichia coli counterpart of mammalian  xxxg2016xxx , biochemistry 39, 1263-1273.
+23. mihara, h., maeda, m., fujii, t., kurihara, t., hata, y., and esaki,
+n. (1999) a  xxxg1562xxx -like gene, csdb, encodes an escherichia coli
+counterpart of mammalian  xxxg2016xxx . gene cloning,
+purification, characterization and preliminary x-ray crystallographic studies, j. biol. chem. 274, 14768-14772.
+24. navaza, j. (1994) amore: an automated package for molecular
+replacement, acta crystallogr. d50, 157-163.
+25. otwinowski, z. (1991) isomorphous replacement and anomalous
+scattering, in proceedings of the ccp4 study weekend (wolf,
+w., evans, p. r., and leslie, g. w., eds.) pp 80-86, serc
+daresbury laboratory, warrington, u.k.
+26. ccp4, collaborative computational project, number 4 (1994) the
+ccp4 suite: programs for protein, acta crystallogr. d50, 760763.
+27. cowtan, k., and main, p. (1998) miscellaneous algorithms for
+density modification, acta crystallogr.  xxxd54xxx , 487-493.
+28. jones, t. a., zou, j. y., cowan, s. w., and kjeldgaard. (1991)
+improved methods for binding protein models in electron density
+maps and the location of errors in these models, acta crystallogr.
+a47, 110-119.
+29. murshudov, g. n., vagin, a. a., and dodson, e. j. (1997)
+refinement of macromolecular structures by the maximumlikelihood method, acta crystallogr.  xxxd53xxx , 240-255.
+30. lamzin, v. s., and wilson, k. s. (1993) automated refinement
+of protein models, acta crystallogr.  xxxd49xxx , 129-147.
+31. lovell, s. c., davis, i. w., arendall, w. b., 3rd, de bakker, p. i.,
+word, j. m., prisant, m. g., richardson, j. s., and richardson,
+d. c. (2003) structure validation by calpha geometry: phi,psi
+and cbeta deviation, proteins 50, 437-450.
+
+structure of pseudomonas fluorescens  xxxg1296xxx 
+32. cleland, w. w. (1979) statistical analysis of enzyme kinetic data,
+methods enzymol. 63, 103-138.
+33. altschul, s. f., madden, t. l., schaffer, a. a., zhang, j., zhang,
+z., miller, w., and lipman, d. j. (1997) gapped blast and
+psi-blast: a new generation of protein database search
+programs, nucleic acids res. 25, 3389-3402.
+34. thompson, j. d., higgins, d. g., and gibson, t. j. (1994)
+clustal w: improving the sensitivity of progressive multiple
+sequence alignment through sequence weighting, position-specific
+gap penalties and weight matrix choice, nucleic acids res. 22,
+4673-4680.
+35. shine, j., and dalgarno, l. (1974) the 3′-terminal sequence of
+escherichia coli 16s ribosomal rna: complementarity to
+nonsense triplets and ribosome binding sites, proc. natl. acad.
+sci. u.s.a. 71, 1342-1346.
+36. jansonius, j. n. (1998) structure, evolution and action of vitamin
+b6-dependent enzymes, curr. opin. struct. biol. 8, 759-769.
+37. phillips, r. s., sundararaju, b., and koushik, s. v. (1998) the
+catalytic mechanism of  xxxg1296xxx  from pseudomonas fluorescens: evidence for transient quinonoid and ketimine intermediates from rapid-scanning stopped-flow spectrophotometry,
+biochemistry 37, 8783-8789.
+
+biochemistry, vol. 43, no. 5, 2004 1203
+38. cleland, w. w., and kreevoy, m. m. (1994) low-barrier hydrogen
+bonds and enzymic catalysis, science 264, 1887-1890.
+39. gaertner, f. h., cole, k. w., and welch, g. r. (1971) evidence
+for distinct  xxxg1296xxx  and hydroxykynureninase activities in
+neurospora crassa, j. bacteriol. 108, 902-909.
+40. toney, m. d., and kirsch, j. f. (1987) tyrosine 70 increases the
+coenzyme affinity of aspartate aminotransferase. a site-directed
+mutagenesis study, j. biol. chem. 262, 12403-12405.
+41. chen, h. y., demidkina, t. v., and phillips, r. s. (1995) sitedirected mutagenesis of tyrosine-71 to phenylalanine in citrobacter freundii tyrosine phenol-lyase: evidence for dual roles of
+tyrosine-71 as a general acid catalyst in the reaction mechanism
+and in cofactor binding, biochemistry 34, 12276-12283.
+42. koushik, s. v., moore, j. a., 3rd, sundararaju, b., and phillips,
+r. s. (1998) the catalytic mechanism of  xxxg1296xxx  from
+pseudomonas fluorescens: insights from the effects of ph and
+isotopic substitution on steady state and pre-steady-state kinetics,
+biochemistry 37, 1376-1382.
+43. guex, n., and peitsch, m. c. (1997) swiss-model and the
+swiss-pdbviewer: an environment for comparative protein modeling, electrophoresis 18, 2714-2723.
+bi035744e
+

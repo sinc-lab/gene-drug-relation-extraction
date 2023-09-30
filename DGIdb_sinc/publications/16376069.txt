@@ -1,0 +1,701 @@
+biosensors and bioelectronics 22 (2006) 1–9
+
+electrochemical sensor based on arthrobacter globiformis
+for cholinesterase activity determination
+margarita stoytcheva a,∗ , roumen zlatev b , benjamin valdez b ,
+jean-pierre magnin c , zdravka velkova d
+a university of mining and geology, department of chemistry, studentski grad, 1700 soﬁa, bulgaria
+autonomous university of baja california, institute of engineering, mexicali, baja california, mexico
+c lepmi, umr 5631, cnrs/ujf/inpg, bp75, 38402 st. martin d’hères, france
+d university of food technologies, department of inorganic and physical chemistry, bld. maritza 26, 4002 plovdiv, bulgaria
+b
+
+received 6 september 2005; received in revised form 11 november 2005; accepted 17 november 2005
+available online 20 december 2005
+
+abstract
+the sensors applied recently for determination of cholinesterase activity are mostly enzymatic amperometric sensors, in spite of their disadvantages: short life-time at ambient temperature, instability of the response, interferences, as well as passivation of the electrode surface. in the
+present paper a new approach for determination of cholinesterase activity was proposed, overcoming the main drawbacks of the analysis performed
+with amperometric enzymatic sensors. instead of the immobilization of enzymes on a conducting electrode surface, whole cells of arthrobacter
+globiformis, containing choline oxidase were fixed on a clark type oxygen probe. current proportional to bacteria respiration is registered as a
+sensor response.
+the application of whole cells of bacteria as a sensing element permits to achieve high stability of the response and long life-time of the sensor
+at ambient temperature, due to the conservation of the enzyme in its natural micro-environment inside the immobilized cells. the proposed sensor
+keeps its functionality more than 7 weeks stored in deionized water at ambient temperature. for the first 2 weeks the amplitude of the response
+decreases with only 10% and at the end of the studied 7 weeks period the response was 50% of the initial.
+the other advantages of the proposed sensor are: the dissolved oxygen is used as a mediator which concentration can be reliably and interferences
+free measured by the aim of a clark type oxygen probe applied as a transducer; reproducible bacterial membranes can be elaborated by filtration
+of resuspended bacterial culture after preliminary determination of its activity; application of membranes containing lyophilized bacteria capable
+to be conserved infinitely long time and activated just before their application; negligible cost compared with the sensors based on immobilized
+enzymes.
+the steady-state response of the proposed bacterial sensor to choline obtained in 200 s is linear in the investigated concentration range up to
+2 × 10−4 mol dm−3 , with detection limit of 8 × 10−8 mol dm−3 and sensitivity of 4 × 10−1 ␮a cm3 mol−1 , at ph 6, temperature of 25 ◦ c and stirring
+rate of 300 rpm. choline is formed as a result of the catalytic hydrolysis (depending on the cholinesterase activity) of the substrate acetylcholine.
+linear calibration graph for cholinesterase activity determination was obtained in the range up to 11 mu cm−3 , with a slope of
+1.97 × 10−2 ␮a cm3 mu−1 , at ph 6, temperature of 25 ◦ c and stirring rate of 300 rpm.
+the tests with reconstituted lyophilized serum with known activity used as a control sample confirm the accuracy of the proposed method. the
+relative error of the determination was only 2.82%.
+© 2005 elsevier b.v. all rights reserved.
+keywords: biosensor; arthrobacter globiformis; choline; cholinesterase activity
+
+1. introduction
+
+∗
+
+corresponding author. tel.: +359 29627220x518; fax: +359 2624240.
+e-mail address: stoytcheva@hotmail.com (m. stoytcheva).
+
+0956-5663/$ – see front matter © 2005 elsevier b.v. all rights reserved.
+doi:10.1016/j.bios.2005.11.013
+
+cholinesterase che (acylcholine-acylhydrolase  xxxg248xxx )
+is one of the plasma’s enzymes. its activity in the blood serum
+varies normally in the range of 1900–3800 u dm−3 (reference value, established using acetylthiocholine as a substrate)
+(boshev, 1986). among the clinic states, associated with the
+
+2
+
+m. stoytcheva et al. / biosensors and bioelectronics 22 (2006) 1–9
+
+increase of the cholinesterase activity, an interest represents
+the nephritis syndrome (podilchak, 1967). contrary, the lesions
+of the liver’s parenchyma (cirrhosis, carcinomas, acute forms
+of infectious and toxic hepatitis; podilchak, 1967), as well as
+the phosphoro-organic compounds and the carbamates (insecticides, warfare agents and pharmaceutical products, which have
+an inhibitory effect; podilchak, 1967), provoke a diminution of
+the cholinesterase activity. consequently, the analytical evaluation of the cholinesterase activity has a clinico-diagnostic and
+pharmaco-therapeutic importance, but represents also an interest
+of agrochemical, ecological and military point of view, considering the impact of the anticholinesterase agents on men and the
+environment.
+the cholinesterase activity could be determined applying
+various methods: spectrophotometric – of hestrin (1949) and
+ellman et al. (1961), ph-metric (michel, 1949; nenner, 1970),
+conductometric (hanss and rey, 1971), radiometric (gaballah,
+1968; guilbault, 1970), fluorimetric (guilbault, 1970). in
+the 60th years of the 20th century, the first cholinesterase
+electrodes with an immobilized enzyme have been created
+and bioelectrocatalytical methods have been introduced. these
+methods have found an application mostly for the determination
+of the cholinesterase inhibitors – by measuring the variation
+of the enzymatic activity as a function of their concentration
+(tran-minh, 1985; nikol’skaya and evtyugin, 1992; evtugin et
+al., 1998 and recently doretti et al., 1999; stefan and van stade,
+2001; guerrieri et al., 2002; guerrieri and palmisano, 2001;
+kok et al., 2001, 2002; andreescu et al., 2003; dzyadevych et
+al., 2003, 2004; evtyugin et al., 2003; flores et al., 2003; ivanov
+et al., 2003; medyantseva et al., 2003; sapelnikova et al., 2003;
+snejdarkova et al., 2003, 2004; trojanowicz, 2003; verma and
+dhillon, 2003; bucur et al., 2004; crew et al., 2004; guilbault
+et al., 2004; joshi et al., 2004; mitchell, 2004; mourzina et al.,
+2004; rodriguez-mozaz et al., 2004; shaidarova et al., 2004;
+suprun et al., 2004; timur and telefoncu, 2004; schöning,
+2005; solná et al., 2005; sotiropoulou et al., 2005; yang et al.,
+2005). the features of the biosensors based on cholinesterases
+for the determination of pesticides, developed the last decade
+(until 2001–2003) are described, evaluated and discussed in
+the review works of jaffrezic-renault (2001) and solé et al.
+(2003a,b). a comparative presentation of the different types
+of amperometric cholinesterase sensors developed during
+the last 20 years (until 2002) is given by turdean et al.
+(2002).
+the cholinesterase electrodes, according to the applied electrochemical transducer can be potentiometric and amperometric.
+the principles of their operation are summarized in the cited
+above surveys (jaffrezic-renault, 2001; solé et al., 2003a,b;
+turdean et al., 2002).
+the potentiometric cholinesterase electrodes are based most
+frequently on the following reaction:
+che
+
+r-choline + h2 o−→choline + r-cooh
+
+(1)
+
+the change of the ph of the solution as a result of the acid
+formation during the enzyme catalyzed hydrolysis of the choline
+esters is recorded, applying different techniques (fedosseeva et
+
+al., 2000), as a sensor response depending on the cholinesterase
+activity.
+the amperometric cholinesterase electrodes providing faster
+response, as well as higher sensitivity and accuracy than the
+potentiometric ones are developed in two directions:
+a. amperometric sensors based of the following bienzymatic
+processes:
+che
+
+r-choline + h2 o−→choline + r-cooh
+cho
+
+choline + 2o2 + h2 o−→betaine + 2h2 o2
+
+(2)
+(3)
+
+where cho is the choline oxidase.
+the current of the h2 o2 oxidation or o2 reduction,
+depending on the substrate concentration and the enzyme
+activity, is recorded as a sensor response. however, since the
+h2 o2 oxidation is carried out at a potential of +0.60 v/sce,
+many substances contained in biological liquids and submitted to an oxidation at the same potential (glutathione, ascorbates, urates, etc.) interfere, corrupting the determination. as
+shown by gunaratna the cholinesterase is very sensitive to its
+micro-environment and even small changes provoke significant lost of enzyme activity resulting in decreasing of the
+sensor sensitivity (gunaratna and wilson, 1990).
+b. amperometric sensors based on synthetic substrates such as
+thiocholine and indoxylacetate esters, transformed by the catalytic hydrolysis in products able to be easily oxidized. however, the anodic thiocholine oxidation provokes a passivation
+of the platinum anodes, because of their interaction with
+the sulfur containing compounds (nikol’skaya and evtyugin,
+1992). the leucoindigo, product of the catalytic hydrolysis
+of the indoxylacetate, is exposed to a chemical, as well as
+to electrochemical oxidation involving o2 , which complicates the formation of the analytical signal (nikol’skaya and
+evtyugin, 1992).
+other essential disadvantages of the amperometric sensors
+based on immobilized enzymes are the instability of the response
+(solé et al., 2003a,b) and the short life-time at ambient temperature.
+all these drawbacks of the immobilized cholinesterase electrodes could be successfully overcome applying a new approach
+– measuring the respiration of whole cells of arthrobacter
+globiformis employed as a sensing element immobilized on the
+membrane of a clark type oxygen probe used as a transducer.
+the functional principle of such a bacterial sensor is based on
+the mentioned above bienzymatic processes (reactions 2 and 3).
+reaction (3) takes place inside the immobilized bacterial cells
+as a part of the natural cell metabolism. the enzyme choline oxidase included in the cells of the bacteria a. globiformis catalyzes
+the oxidation of choline to betaine with oxygen consumption
+(ikuta et al., 1977a,b; gadda, 2003). the diminution of the oxygen flow, passing trough the bacterial membrane and due to
+the reaction (3) results in steady-state current diminution of the
+clark oxygen probe.
+the proposed approach permits to overcome the essential
+disadvantages of the enzyme modified amperometric electrodes
+
+m. stoytcheva et al. / biosensors and bioelectronics 22 (2006) 1–9
+
+used recently for cholinesterase activity determination, namely
+(solé et al., 2003a,b):
+• diminution of the enzyme activity as a result of its microenvironmental changes. for the proposed sensor the enzyme
+is stored inside the immobilized bacterial cells in its natural
+microenvironment. that is why such a problem cannot exist
+at all.
+• occurring of concurrent electrochemical reactions at the
+imposed electrode potential corrupting the determination.
+• passivation of the eectrode surface.
+
+3
+
+the turbidimetric measurements of the bacterial culture were
+performed using a spekol 11 spectrophotometer.
+the determinations with amperometric registration were carried out in an especially elaborated cell. the clarck probe was
+connected to a computerized potentiostat equipped with special
+unit for noise suppression and appropriated software, produced
+by zenit laboratory, bulgaria (zlatev, 2002).
+all the measured concentrations were achieved by direct
+addition of small volumes of solutions by means of biohit electronically adjustable pipettes.
+2.2. bacterial culture
+
+the unique electrochemical reaction taking place at the proposed sensor is the reduction of the oxygen occurring behind
+the polymer membrane of the oxygen probe permeable for gases
+only.
+in addition, the proposed bacterial sensor provides the following advantages:
+• stable sensor response, stored in deionized water at ambient
+temperature (the diminution of its response is only 10% during
+the first 2 weeks);
+• using of dissolved oxygen as a mediator, providing reliable
+measurement of its concentration by a clark type oxygen
+probe applied as a transducer;
+• easy preparation of sensors with reproducible characteristics.
+by filtration of well-defined volume of resuspended bacterial
+culture with preliminary determined activity, bacterial membranes with identical characteristics can be elaborated;
+• membranes with lyophilized bacteria capable to be conserved
+infinitely long time can be applied as sensing component. this
+type of membranes can be activated just before the application, thus turning the clark oxygen probe into cholinesterase
+activity sensor. the results obtained with lyophilized membranes are subject of the next paper;
+• very low price of the sensor – neither procedures for enzyme
+separation nor application of expensive already separated and
+purified enzymes are needed.
+2. experimental
+2.1. reagents and apparatus
+a. globiformis nbimcc 2369 were obtained from the
+national bank of industrial microorganisms and cell cultures
+(bulgaria).
+acetylcholine chloride, choline chloride and cholinesterase
+( xxxg248xxx , 13 u mg−1 ) were purchased from sigma. the substrates acetylcholine chloride and choline chloride, as well as
+the other reagents were analytical reagent grade. fresh substrate
+solutions were prepared daily. in order to maintain a constant
+ph value, phosphate buffer solutions (ph 6–8), glycylglycine
+buffer solutions (ph 8–9) and glycine buffer solutions (ph
+9–11) were used. control human serum qualitrol hs n (merck,
+2 u cm−3 at 25 ◦ c) was used as a standard for cholinesterase.
+cellulose filters with pore size of 0.25 ␮m used for bacterial
+membrane preparation were purchased from sartorius.
+
+the bacterial strain a. globiformis, isolated and described by
+conn and dimmick (1947) has been used. for its development,
+the cultural medium proposed by ikuta et al. (1977a), containing 1% choline chloride, 0.5% yeast extract, 0.5% kcl, 0.1%
+k2 hpo4 and 0.05%  xxxd2534xxx  ·7h2 o at ph 7, has been employed.
+the bacterial culture has been filtered and centrifuged, in order
+to obtain a mass of concentrated cells. the last has been resuspended in deionized water.
+2.3. determination of the concentration of the bacterial
+culture
+the optical density od of the bacterial culture has been
+measured turbidimetrically and the number of cells per cm3 –
+by a direct microscopic count (brock and madigan, 1991). a
+calibration plot expressing the relationship between these two
+parameters has been constructed.
+the turbidimetric measures have been based on lambert and
+rayleigh laws. from the equations:
+i = i0 e−tdelta
+ 
+8pi  xxxd2756xxx  4 2
+t=
+nalpha
+3
+lambda
+
+(4)
+(5)
+
+where i0 is the intensity of the incident light, i the intensity of
+the light crossing a layer of thickness delta, delta the pathway length,
+t the turbidity coefficient, lambda the wavelength, n the number of
+dispersed particles (bacterial cells cm−3 in this case) and alpha is the
+polarisability, it follows that the diminution of the light intensity
+in the direction of its propagation in the micro-heterogeneous
+bacterial culture would be the most important for the smaller
+wavelengths. consequently, a maximal effect would be expected
+in the area of the blue and the ultra violet light. however, as
+the analytical signal was still enough important at 340 nm, the
+turbidimetric measures have been carried out at this wavelength.
+the standard plot is linear (od = 1.73n × 10−8 ;
+2
+r = 0.9857) in the investigated concentration range, up to
+2.2 × 107 cells cm−3 . the relative error of the turbidimetric
+determinations did not exceed 5%. the time of the analyses
+was inferior to 1 min.
+the turbidimetric method was preferred to the time consuming direct microscopic count, as well as to the wide spread
+spectrophotometric method of lowry et al. (1951). the last characterizes with a relative error of the determinations varying from
+
+4
+
+m. stoytcheva et al. / biosensors and bioelectronics 22 (2006) 1–9
+
+20% to 50%, time of execution about 90 min and a non-linear
+standard curve. thereafter, only the express turbidimetric determinations have been applied for the determination of the cell
+numbers per cm3 in the bacterial cultures, using the constructed
+calibration plot.
+the viability of the cell culture has been confirmed by the
+standard method of koch (brock and madigan, 1991).
+2.4. construction of the bacterial sensor
+the bacterial sensor, subject of the present paper consists of
+an oxygen probe used as a transducer and a bacterial membrane
+used as a sensing element. in order to satisfy the specific requirements of the bacterial sensors, the oxygen probe was modified
+in comparison to the commercial oxygen probes, as described
+by zlatev et al. (2006a,b). first, the conventional spherical front
+usually used in commercial clark oxygen probes was replaced
+with a flat one, thus ensuring a good contact with the bacterial
+membrane. second, the small disk cathode was substituted by a
+gold multicathode uniformly dislocated on the whole surface of
+the flat front. hence, the limitations due to the diffusion of the
+o2 molecules from the periphery of the polymer membrane to
+the cathode were eliminated.
+the bacterial membrane consists of a thin layer of a. globiformis, covering a cellulose filter with pore dimensions preventing their loss, as well as the contamination of the bacterial
+membrane with external bacteria. the bacterial layer was prepared by filtration of resuspended bacterial cells through the
+cellulose filter. the bacterial membrane was fixed on the polymer membrane of the oxygen probe as shown in fig. 1, the
+bacterial mass remaining confined between the polymer membrane and the cellulose filter.
+to determine the volume of the filtered bacterial mass so that
+membranes with reproducible activity to be obtained, the method
+applied and describe earlier (zlatev et al., 2006a,b; zlatev, 2002)
+was applied after preliminarily determination of the bacterial
+culture concentration. this method allowed controlling the bacterial charge and hence the bacterial membrane activity by the
+volume of the filtered bacterial culture.
+
+fig. 1. construction of the biosensor.
+
+3. results and discussion
+3.1. response of the bacterial sensor to choline and its
+characteristics
+3.1.1. general considerations
+in conformity to the eq. (3) the increasing of the choline concentration results in increasing of the a. globiformis respiration
+i.e. increasing of the o2 consumption inside the bacterial membrane of the sensor. as a result the flow of the oxygen crossing the
+entire bacterial layer and reaching the oxygen probe depends on
+the choline concentration. thus, the changes of the steady state
+current of the oxygen probe can be used as a measure of the
+choline concentration.
+on the other hand, accordingly to eq. (2), the quantity of the
+generated choline resulting from the choline esters hydrolysis
+(acetylcholine chloride in this case) catalyzed by cholinesterase
+depends on the enzyme activity at identical conditions. consequently, the concentration of the generated choline can be used
+as a measure of the cholinesterase activity.
+taking this into consideration the response of the bacterial
+sensor to choline was studied and the results are presented below.
+all the determinations have been carried out at stirring rate of
+300 rpm and temperature of 25 ◦ c. the temperature was held
+constant because the following three parameters strongly affecting the sensor response depend on it:
+• the response of the oxygen probe (about 2%/◦ c);
+• the equilibrium concentration of the dissolved oxygen;
+• the enzyme activity.
+3.1.2. effect of ph
+phosphate buffer with ph range from 6 to 8, glycylglycine
+buffer with ph range from 8 to 9 and glycine buffer with ph
+range from 9 to 11 were used as carrier solution. the effect of
+ph on the sensor’s response (the change of the steady-state current of the oxygen probe) to a value about the middle of the
+linear concentration range of choline (3.75 × 10−7 mol dm−3 )
+is shown in fig. 2. the response of the sensor has a maximum
+at ph value close to 8. this result shows that the choline oxidase contained in the immobilized cells of a. globiformis has its
+maximal activity at the same ph value as the free enzyme (ikuta
+et al., 1977b).
+the cholinesterase activity is determined by measuring the
+concentration of choline produced as a result of the enzymatic
+hydrolysis (catalyzed by cholinesterase) of acetylcholine used
+as a substrate. as shown by lautié et al. (1978) the acetylcholine
+also undergoes an uncontrolled spontaneous hydrolysis, which
+rate is ph depended. in order to decrease this non-enzymatic
+hydrolysis, affecting the slope and the intercept of the calibration
+curve, the determinations must be carried out at lowest possible
+ph values. that is why the characteristics of the sensor to choline
+was determined not at ph value close to 8 corresponding to the
+maximum of the sensor response, but at ph 6 since the nonenzymatic hydrolysis of the substrate is negligible at this ph
+value (fig. 3).
+
+m. stoytcheva et al. / biosensors and bioelectronics 22 (2006) 1–9
+
+fig. 2. ph dependence of the response of the bacterial sensor to choline (phosphate buffer: ph 6–8; glycylglycine buffer: ph 8–9; glycine buffer: ph 9–11).
+stirring rate 300 rpm; temperature 25 ◦ c; constant choline chloride concentration of 3.75 × 10−7 mol dm−3 .
+
+3.1.3. limit of detection (lod)
+the limit of detection of choline chloride was experimentally determined to be 8 × 10−8 mol dm−3 . the response of the
+bacterial sensor to this concentration, where the analytical signal equals to 3 r.s.d. is presented in fig. 4 (ph 6, 25 ◦ c,
+300 rpm).
+3.1.4. limit of quantitation (loq)
+according to the upac definition (thévenot et al.,
+1999), the lod can be calculated by the equation
+
+5
+
+fig. 4. amperometric response of the a. globiformis sensor to
+8 × 10−8 mol dm−3 choline chloride (detection limit) at ph 6, temperature 25 ◦ c and stirring rate 300 rpm.
+
+loq = 3.3 lod. the application of this equation yields:
+loq = 2.6 × 10−7 mol dm−3 .
+3.1.5. linear concentration range
+the amperometric response of the sensor based on a. globiformis to choline chloride in the concentration range up to
+1.2 × 10−5 mol dm−3 at ph 6, 25 ◦ c and 300 rpm is presented in
+fig. 3. the corresponding calibration plot (steady-state current
+is /␮a versus choline chloride concentration c/␮mol dm−3 ) is
+linear, passes through the zero and it can be described by the
+equation: is = 0.40c, with r2 = 0.9978. this equation is valid for
+choline chloride concentrations up to 2 × 10−4 mol dm−3 .
+3.1.6. sensitivity
+the sensitivity s is the slope of the calibration curve within
+the linear concentration range up to 2 × 10−4 mol dm−3 yields:
+s = 0.4 ␮a ␮mol−1 determined by the equation given above.
+3.1.7. steady-state response time
+the steady-state biosensor’s response time was determined to
+be 200 s for 10−5 mol dm−3 choline chloride concentration and
+same experimental conditions, mentioned above. the steadystate response time increases with the increasing of the measured
+choline chloride concentration and the bacterial charge of the
+membrane.
+
+fig. 3. amperometric response of the a. globiformis sensor to choline chloride
+for 12 consecutive injections of aliquots of 1 × 10−6 mol dm−3 each, at ph 6,
+temperature 25 ◦ c and stirring rate 300 rpm.
+
+3.1.8. storage life-time (tl10 and tl50 ):
+for determining of this characteristic the biosensor based on
+a. globiformis was stored in deionized water at ambient temperature and no stirring was applied. the response of the sensor
+(the steady-state current) due to 10−5 mol dm−3 choline chloride was measured every day at 25 ◦ c, 300 rpm stirring rate and
+ph 6. after 14 days of storage at ambient temperature about
+10% loss of activity has been observed and after 49 days of
+
+6
+
+m. stoytcheva et al. / biosensors and bioelectronics 22 (2006) 1–9
+
+storage at same conditions the sensor response was 50% of
+the initial. thus, the storage life-time tl10 and tl50 were determined to be 14 and 49 days of storage, respectively, at ambient
+temperature.
+the results for the life-time obtained with the proposed bacterial sensor at ambient temperature could be explained with the
+conservation of the natural microenvironment of the enzymes
+included inside the bacterial cells during the storage of the bacterial sensor. the storage of all the immobilized enzyme based
+sensors at ambient temperature always leads to rapid lost of the
+enzyme activity due to the denaturizing of the enzymes that is
+why they must be stored at 4 ◦ c.
+3.1.9. selectivity
+the unique agent interfering to the response of the proposed
+bacterial sensor was found to be the glucose. the steady-state
+response of the sensor to 10−5 mol dm−3 glucose was found to
+be 4.7 times higher than that obtained for the same concentration
+of choline chloride. as demonstrated by ikuta et al. (1977a) the
+a. globiformis can be developed in choline containing media as
+well as in glucose containing media. in spite that the bacterial
+culture used for bacterial membrane preparation was developed
+in choline containing media only, the glucose still continues to
+take part in the bacteria metabolism. to avoid the influence of
+glucose on the choline determinations the samples were preliminary treated by glucose oxidase used as catalyst for oxidation of
+the glucose into gluconic acid – no affecting the determination
+of choline.
+3.1.10. sensors reproducibility
+the reproducibility of the bacterial sensors based on a. globiformis was determined by a series of 10 averaged measurements
+performed using each of the five identically elaborated membranes. the same bacterial culture was employed and measurements were carried out at ph 6, temperature 25 ◦ c and stirring
+rate 300 rpm. the response of each of the five sensors corresponding to choline chloride concentration of 10−5 mol dm−3
+was recorded after 1 h multiple rinsing of the sensor in deionized water, in order to remove the eventually included traces of
+choline chloride in the bacterial membrane. the r.s.d. calculated from the obtained results was inferior to 3%.
+3.2. cholinesterase activity determination
+3.2.1. general considerations
+the cholinesterase activity determination is based on measurement of the concentration of the choline chloride formed as
+a result of the enzymatic (cholinesterase) hydrolysis of acetylcholine used as a substrate. that is why the basic characteristics
+of the bacterial sensor versus cholinesterase activity are those
+determined above for choline determination.
+the native cholinesterase (ce 3.1.1.8) demonstrates a maximal catalytic activity at ph range 8.4–9 (kolev, 1976). the
+maximal activity of the included in the immobilized cells of a.
+globiformis choline oxidase (ec 1.1.3.17) was found to be at ph
+about 8. however, experiments for cholinesterase activity determination have been performed at ph 6, in order to decrease the
+
+fig. 5. amperometric response of the a. globiformis sensor to acetylcholine
+chloride in the absence (curve 0) and in the presence of cholinesterase: curves
+1–4 correspond to 1–4 × 2.76 × 10−3 u cm−3 (ph 6, temperature 25 ◦ c and
+stirring rate 300 rpm).
+
+spontaneous and uncontrolled non-enzymatic hydrolysis of the
+substrate acetylcholine, as mentioned above.
+3.2.2. sensor response
+fig. 5 illustrates the amperometric response of the a. globiformis sensor to acetylcholine chloride. the substrate (acetylcholine) concentration was 2 × 10−5 mol dm−3 (ph 6, 25 ◦ c
+and 300 rpm). the upper curve 0 corresponds to choline formed
+as a result of spontaneous non-enzymatic hydrolysis occurring
+during solution storage. the lower curves correspond to the formation of choline as a result of the enzymatic hydrolysis of the
+acetylcholine, after consecutive cholinesterase additions.
+3.2.3. linear concentration range
+the corresponding to the curves in fig. 5 calibration plot
+(steady-state current versus cholinesterase activity) is linear in
+the investigated concentration range up to 11 mu cm−3 . the
+slope of the line was found to be 1.97 × 10−2 ␮a cm3 mu−1 ,
+the y-intercept was found to be 23.75 × 10−2 ␮a and linear correlation coefficient was 0.9971. the y-intercept corresponds to
+the initial concentration of choline chloride resulting from the
+non-enzymatic hydrolysis.
+3.2.4. steady-state response time
+since the determination of cholinesterase activity is based on
+choline determination, the steady-state response time depends
+on the response time of the sensor to choline and the rate
+of the enzymatic hydrolysis. the experimentally determined
+response time of the sensor to acetylcholine did not exceed
+its response time to choline, as shown in figs. 3 and 5. that
+could be explained taking into consideration the fact that the
+cholinesterase has a very high turnover number and high specific activity, compared to choline oxidase (zubay, 1988). con-
+
+m. stoytcheva et al. / biosensors and bioelectronics 22 (2006) 1–9
+
+fig. 6. amperometric response of the a. globiformis sensor to acetylcholine
+chloride in the absence (curve 0) and in the presence of lyophilized serum (curve
+1) at ph 6, stirring rate 300 rpm and temperature 25 ◦ c.
+
+sequently, the oxidation of choline inside the bacterial cells
+catalyzed by the choline oxidase could be considered to be
+the rate limiting process, in the absence of diffusion constraints, thus determining the response time of the bacterial
+sensor.
+3.2.5. selectivity
+as shown above the glucose is the unique agent interfering
+on the determination of the choline. since the determination of
+the cholinesterase activity is based on the choline concentration
+measurement, the glucose is the only interfering agent and it
+must be eliminated as described above.
+3.2.6. accuracy
+determination of the cholinesterase activity of the reconstituted lyophilized serum qualitrol hs n with known activity was
+performed in order to evaluate the accuracy of the method. the
+response of the bacterial sensor to acetylcholine chloride (substrate concentration 2 × 10−5 mol dm−3 , ph 6, 25 ◦ c, 300 rpm)
+before and after the serum addition is presented in fig. 6. a preliminary enzymatic catalytic oxidation of the glucose contained
+in the serum was carried out, thus eliminating its interference.
+the constructed calibration plot has been exploited for the verification of the results.
+based on the experimental data, it has been found that the
+cholinesterase activity in the diluted sample of lyophilized serum
+is equal to 1.46 × 10−3 u cm−3 . the comparison of this result
+with the calculated value (1.42 × 10−3 u cm−3 ) shows a relative
+error of 2.82%.
+4. conclusion
+a new approach for determination of choline concentration
+and cholinesterase activity based on the measurement of the
+
+7
+
+current due to bacteria respiration was proposed. this approach
+was realized combining a clark type oxygen probe and a. globiformis bacterial membrane, resulting in a sensor with very
+high stability of the response and long life-time at ambient
+temperature, due to the storage of the enzyme inside the bacterial cells in its natural environment. the application of the
+procedure for bacterial membrane preparation developed earlier permits to obtain sensors with reproducible characteristics.
+the proposed approach allows avoiding the main disadvantageous of the enzymatic sensors – interferences, passivation of the
+electrode surface, high price, etc. membranes with lyophilized
+bacteria capable to be conserved infinitely long time without lost
+of its activity could be applied as sensing component activated
+just before the application.
+the response of the biosensor was established in different
+experimental conditions including measurements of real human
+blood serum samples. the results obtained for cholinesterase
+activity of the blood serum by the application of the proposed
+sensor fit very well with the results obtained by other independent method.
+references
+andreescu, s., fournier, d., marty, j.-l., 2003. development of highly sensitive sensor based on bioengineered acetylcholinesterase immobilized by
+affinity method. anal. lett. 36, 1865–1885.
+boshev, n. (ed.), 1986. the biological constants in humans. medicina i
+fizkultura, sofia.
+brock, t.d., madigan, m.t., 1991. biology of microorganisms, 6th ed.
+prentice-hall inc., englewood cliffs, ny.
+bucur, b., andreescu, s., marty, j.-l., 2004. affinity methods to immobilize acetylcholinesterases for manufacturing biosensors. anal. lett. 37,
+1571–1588.
+conn, h.j., dimmick, 1947. soil bacteria similar in morphology to mycobacterium and corynebacterium. j. bacteriol. 54, 291–303.
+crew, a., hart, j.p., wedge, r., marty, j.-l., fournier, d., 2004. a
+screen-printed, amperometric, biosensor array for the detection of
+organophosphate pesticides based on inhibition of wild type, and mutant
+acetylcholinesterases, from drosophila melanogaster. anal. lett. 37,
+1601–1610.
+doretti, l., ferrara, d., lora, s., palma, g., 1999. amperometric biosensor involving covalent immobilization of choline oxidase and  xxxg248xxx  on a methacrylate-vinylene carbonate co-polymer. biotechnol. appl. biochem. 29, 67–72.
+dzyadevych, s.v., soldatkin, a.p., korpan, y.i., arkhypova, v.n., el’skaya,
+a.v., chovelon, j.-m., martelet, c., jaffrezic-renault, n., 2003. biosensors based on enzyme field-effect transistors for determination of
+some substrates and inhibitors. anal. bioanal. chem. 377, 496–
+506.
+dzyadevych, s.v., arkhypova, v.n., martelet, c., jaffrezic-renault, n.,
+chovelon, j.-m., el’skaya, a.v., soldatkin, a.p., 2004. potentiometric
+biosensors based on isfets and immobilized cholinesterases. electroanalysis 16, 1873–1882.
+ellman, g.l., courtney, k.d., andres, v., feathersfow, r.m., 1961. a new
+and rapid colorimetric determination of acetylcholinesterase – activity.
+biochem. pharmacol. 7, 88–95.
+evtugin, g.a., budnikov, h.c., nilolskaya, e.b., 1998. sensitivity and selectivity of electrochemical enzyme sensors for inhibitor determination.
+talanta 46, 465–484.
+evtyugin, g.a., stoikov, i.i., budnikov, g.k., stoikova, e.e., 2003. a
+cholinesterase sensor based on a graphite electrode modified with 1,3disubstituted calixarenes. j. anal. chem. 58, 1151–1156.
+
+8
+
+m. stoytcheva et al. / biosensors and bioelectronics 22 (2006) 1–9
+
+fedosseeva, o.v., uchida, h., katsube, t., ishimaru, y., iida, t., 2000. novel
+type biosensor bases on immobilized cholinesterase using spv technique.
+sens. actuators b: chem. 65, 55–57.
+flores, f., artigas, j., marty, j.-l., valdés, f., 2003. development of an
+enfet for the detection of organophosphorous and carbamate insecticides. anal. bioanal. chem. 376, 476–480.
+gaballah, s., 1968. a direct radioisotopic microassay for cholinesterase. proc.
+soc. exp. biol. med. 129, 376–380.
+gadda, g., 2003. kinetic mechanism of choline oxidase from arthrobacter
+globiformis. biochim. biophys. acta: proteins proteomics 1646, 112–
+118.
+guerrieri, a., palmisano, f., 2001. an acetylcholinesterase/choline oxidasebased amperometric biosensors as a liquid chromatography detector for
+acetylcholine and choline determination in brain tissue homogenates.
+anal. chem. 73, 2875–2882.
+guerrieri, a., monaci, l., quinto, m., palmisano, f., 2002. a disposable
+amperometric biosensor for rapid screening of anticholinesterase activity
+in soil extracts. analyst 127, 5–7.
+guilbault, g., 1970. enzymic methods of analysis. pergamon, oxford.
+guilbault, g.g., pravda, m., kreuzer, m., o’sullivan, c.k., 2004.
+biosensors—42 years and counting. anal. lett. 37, 1481– 1496.
+gunaratna, c., wilson, g., 1990. optimization of multienzyme flow
+reactors for determination of acetylcholine. anal. chem. 62, 402–
+407.
+hanss, m., rey, a., 1971. the conductivity method in the study of enzyme
+reactions.  xxxg248xxx . biochim. biophys. acta 227, 618–
+629.
+hestrin, s., 1949. the reaction of acetylcholine and other carboxylic acid
+derivatives with hydroxylamine, and its analytical application. j. biol.
+chem. 180, 249–261.
+ikuta, s., matuura, k., imamura, s., misaki, h., horiuti, y., 1977a. oxidative pathway of choline to betaine in the soluble fraction prepared from
+arthrobacter globiformis. j. biochem. 82, 157–163.
+ikuta, s., imamura, s., misaki, h., horiuti, y., 1977b. purification and characterization of choline oxidase from arthrobacter globiformis. j. biochem.
+82, 1741–1749.
+ivanov, a., evtugyn, g., budnikov, h., ricci, f., moscone, d., palleschi,
+g., 2003. cholinesterase sensors based on screen-printed electrodes for
+detection of organophosphorus and carbamic pesticides. anal. bioanal.
+chem. 377, 624–631.
+jaffrezic-renault, n., 2001. new trends in biosensors for organophosphorus
+pesticides. sensors 1, 60–74.
+joshi, k.a., tang, j., haddon, r., wang, j., chen, w., mulchandani, a.,
+2004. a disposable biosensor for organophosphorus nerve agents based
+on carbon nanotubes modified thick film strip electrode. electroanalysis
+17, 54–58.
+kok, f.n., bozoglu, f., hasirci, v., 2001. immobilization of acetylcholinesterase and choline oxidase in/on phema membrane for biosensor
+construction. j. biomater. sci. polym. ed. 12, 1161–1176.
+kok, f.n., bozoglu, f., hasirci, v., 2002. construction of an
+acetylcholinesterase-choline oxidase biosensor for aldicarb determination.
+biosens. bioelectron. 17, 531–539.
+kolev, d., 1976. enzymes. nauka i izkustvo, sofia.
+lautié, a., aslanian, d., merlin, j., dupax, a., balkanski, m., 1978. non
+enzimatic hydrolysis of acetylcholine studied by raman spectrometry. j.
+raman spectrosc. 7, 337–340.
+lowry, o.h., rosebrough, n.j., farr, a.l., randall, r.j., 1951. protein
+measurement with the follin phenol reagent. j. biol. chem. 193, 265–
+275.
+medyantseva, e.p., il’icheva, n.yu., eremin, s.a., budnikov, g.k., 2003.
+immunoextraction of pesticide residues from different classes followed
+by amperometric determination. j. anal. chem. 58, 639–640.
+michel, h., 1949. an electrometric method for the determination of red blood
+cell and plasma cholinesterase activity. j. lab. clin. med. 34, 1564–1569.
+mitchell, k.m., 2004. acetylcholine and choline amperometric enzyme sensors characterized in vitro and in vivo. anal. chem. 76, 1098–11106.
+mourzina, yu., yoshinobu, t., ermolenko, yu., vlasov, y., schöning, m.j.,
+iwasaki, h., 2004. immobilization of urease and cholinesterase on the sur-
+
+face of semiconductor transducer for the development of light-addressable
+potentiometric sensors. mikrochim. acta 144, 41–50.
+nenner, m., 1970. simultaneous determination of acetylcholinesterase (ec
+3.1.1.77) activity in whole blood, plasma and erythrocytes with the automatic titrator. z. klin. chem. klin. biochem. 8, 537–540.
+nikol’skaya, e.b., evtyugin, g.a., 1992. cholinesterases application in analytical chemistry. zh. anal. khim. 47, 1358–1378.
+podilchak, m.d., 1967. clinical enzymology. zdorov’ya, kiev.
+rodriguez-mozaz, s., marco, m.-p., lopez de alda, m.j., barceló, d., 2004.
+biosensors for environmental monitoring of endocrine disruptors: a review
+article. anal. bioanal. chem. 378, 588–598.
+sapelnikova, s., dock, e., solná, r., skládal, p., ruzgas, t., emnéus, j.,
+2003. screen-printed multienzyme arrays for use in amperometric batch
+and flow systems. anal. bioanal. chem. 376, 1098–1103.
+schöning, m.j., 2005. “playing around” with field-effect sensors on the basis
+of eis structures, laps and isfets. sensors 5, 126–138.
+shaidarova, l.g., ziganshina, s.a., medyantseva, e.p., budnikov, g.k.,
+2004. amperometric cholinesterase biosensors with carbon paste electrodes modified with cobalt phthalocyanine. russian j. appl. chem. 77,
+241–248.
+snejdarkova, m., svobodova, l., nikolelis, d.p., wang, j., hianik, t., 2003.
+acetylcholine biosensor based on dendrimer layers for pesticides detection. electroanalysis 15, 1185–1191.
+snejdarkova, m., svobodova, l., evtugyn, g., budnikov, h., karyakin, a.,
+nikolelis, d.p., hianik, t., 2004. acetylcholinesterase sensors based on
+gold electrodes modified with dendrimer and polyaniline. a comparative
+research. anal. chim. acta 514, 179–188.
+solé, s., merkoçi, a., alegret, s., 2003a. determination of toxic substances
+based on enzyme inhibition. part i. electrochemical biosensors for the
+determination of pesticides using batch procedures. crit. rev. anal.
+chem. 33, 89–126.
+solé, s., merkoçi, a., alegret, s., 2003b. determination of toxic substances
+based on enzyme inhibition. part ii. electrochemical biosensors for the
+determination of pesticides using flow systems. crit. rev. anal. chem.
+33, 127–143.
+solná, r., dock, e., christenson, a., winther-nielsen, m., carlsson,
+c., emnéus, j., ruzgas, t., skládal, p., 2005. amperometric screenprinted biosensor arrays with co-immobilised oxidoreductases and
+cholinesterases. anal. chim. acta 528, 19.
+sotiropoulou, s., fournier, d., chaniotakis, n.a., 2005. genetically engineered acetylcholinesterase-based biosensor for attomolar detection of
+dichlorvos. biosens. bioelectron. 20, 2347–2352.
+stefan, r.-i., van stade, j.f., 2001. electrochemical sensors in bioanalysis.
+marcel dekker, ny.
+suprun, e.v., budnikov, h.c., evtugyn, g.a., brainina, kh.z., 2004. bienzyme sensor based on thick-film carbon electrode modified with electropolymerized tyramine. bioelectrochemistry 63, 281–284.
+thévenot, d.r., toth, k., durst, r.a., wilson, g.s., 1999. electrochemical
+biosensors: recommended definitions and classification. pure appl. chem.
+71, 2333–2348.
+timur, s., telefoncu, a., 2004. acetylcholinesterase (ache) electrodes based
+on gelatin and chitosan matrices for the pesticide detection. artif. cells
+blood sub. biotechnol. 32, 427–442.
+tran-minh, c., 1985. immobilized enzyme probes for determining inhibitors.
+ion sel. electrode rev. 7, 41–75.
+turdean, g., popescu, i.c., oniciu, l., 2002. biocapteurs ampérométriques
+à cholinestérases pour la détermination des pesticides organophosphorés.
+can. j. chem. 80, 315–331.
+trojanowicz, m., 2003. application of conducting polymers in chemical analysis. microchim. acta 143, 75–91.
+verma, n., dhillon, s.s., 2003. biosensors for monitoring insecticides and
+herbicides – a survey. int. j. environ. stud. 60, 29–43.
+yang, y., guo, m., yang, m., wang, z., shen, g., yu, r., 2005. determination
+of pesticides in vegetable samples using an acetylcholinesterase biosensor
+based on nanoparticles zro2 /chitosan composite film. int. j. environ.
+anal. chem. 85, 163–175.
+zlatev, r.k., 2002. etudes sur les possibilités d’application de la bactérie
+acidithiobacillus ferrooxidans dans les méthodes électrochimiques
+
+m. stoytcheva et al. / biosensors and bioelectronics 22 (2006) 1–9
+d’analyse – biocapteurs et voltammétrie. thesis work. lepmi, inpg,
+france.
+zlatev, r., magnin, j.-p., ozil, p., stoytcheva, m., 2006a. bacterial sensors
+based on acidithiobacillus ferrooxidans. part i. fe2+ and s2 o3 2− determination. biosens. bioelectron 21, 1493–1500.
+
+9
+
+zlatev, r., magnin, j.-p., ozil, p., stoytcheva, m., 2006b. bacterial sensors
+based on acidithiobacillus ferrooxidans. part ii. cr(vi) determination.
+biosens. bioelectron 21, 1501–1506.
+zubay, g., 1988. biochemistry. macmillan publishing co., ny.
+

@@ -1,0 +1,879 @@
+biology
+
+biosynthesis of selenocysteine
+on its trna in eukaryotes
+xue-ming xu1[, bradley a. carlson1[, heiko mix2, yan zhang2, kazima saira2, richard s. glass3, marla j. berry4,
+vadim n. gladyshev2, dolph l. hatfield1*
+1 molecular biology of selenium section, laboratory of cancer prevention, center for cancer research, national cancer institute, national institutes of health, bethesda,
+maryland, united states of america, 2 department of biochemistry, university of nebraska, lincoln, nebraska, united states of america, 3 department of chemistry, the
+university of arizona, tucson, arizona, united states of america, 4 department of cell and molecular biology, university of hawaii at manoa, honolulu, hawaii, united states
+of america
+
+selenocysteine (sec) is cotranslationally inserted into protein in response to uga codons and is the 21st amino acid in
+the genetic code. however, the means by which sec is synthesized in eukaryotes is not known. herein, comparative
+genomics and experimental analyses revealed that the mammalian  xxxg2050xxx  (secs) is the previously identified
+ xxxd3047xxx -containing protein known as the  xxxg2050xxx . secs required selenophosphate and ophosphoseryl-trna[ser]sec as substrates to generate selenocysteyl-trna[ser]sec. moreover, it was found that sec was
+synthesized on the trna scaffold from selenide, atp, and serine using trna[ser]sec,  xxxg2012xxx , ophosphoseryl-trna[ser]sec kinase, selenophosphate synthetase, and secs. by identifying the pathway of sec
+biosynthesis in mammals, this study not only functionally characterized secs but also assigned the function of the
+o-phosphoseryl-trna[ser]sec kinase. in addition, we found that selenophosphate synthetase 2 could synthesize
+monoselenophosphate in vitro but selenophosphate synthetase 1 could not. conservation of the overall pathway of
+sec biosynthesis suggests that this pathway is also active in other eukaryotes and archaea that synthesize
+selenoproteins.
+citation: xu xm, carlson ba, mix h, zhang y, saira k, et al. (2007) biosynthesis of selenocysteine on its trna in eukaryotes. plos biol 5(1): e4. doi:10.1371/journal.pbio.
+0050004
+
+bound to sec trna[ser]sec that was targeted by antibodies in
+patients with an autoimmune chronic hepatitis [14]. sla was
+subsequently reported to exist as a separate family within a
+larger superfamily of diverse plp-dependent transferases
+[15], and this protein has been proposed to function as the
+mammalian secs (e.g., see [3,15–17]). further evidence that
+sla is involved in selenium metabolism is that it was found to
+occur in a protein complex with other factors involved in the
+biosynthesis of sec and/or its insertion into protein [17,18]. in
+addition, a kinase that phosphorylated a minor seryl-trna
+was reported in 1970 [19] that was subsequently isolated,
+characterized, and found to speciﬁcally phosphorylate the
+seryl moiety on seryl-trna[ser]sec [20]. the resulting phosphoseryl-trna[ser]sec was proposed either as a candidate
+substrate for secs (see [3,20] and references therein) or it
+served as a storage form [21] . furthermore, two genes
+
+introduction
+selenocysteine (sec) is a selenium-containing amino acid
+that is cotranslationally inserted into protein and is recognized as the 21st amino acid in the genetic code [1–3]. sec is
+incorporated into protein in all three lines of descent,
+eukaryota, archaea, and eubacteria, but unlike other amino
+acids, sec synthesis occurs on its transfer rna (trna),
+designated trna[ser]sec [4,5]. trna[ser]sec is initially aminoacylated with serine by  xxxg2012xxx  and the seryl
+moiety provides the backbone for sec synthesis. the biosynthesis of sec was established in escherichia coli in the early
+1990s [6–8]. bacterial  xxxg2050xxx  (secs) (e. coli  xxxg2050xxx  [sela]) is a  xxxd3047xxx  (plp)-dependent protein that converts the serine attached to trna[ser]sec
+to sec by initially removing the hydroxyl group from serine to
+form an aminoacrylyl intermediate. this intermediate serves
+as the acceptor for activated selenium, and when selenium is
+donated, selenocysteyl-trna[ser]sec is formed. the active
+selenium donor in bacteria is synthesized from selenide and
+atp by e. coli selenophosphate synthetase (seld), and the
+product of the reaction has been identiﬁed as monoselenophosphate (sep) [9].
+a distant homolog of bacterial sela (sela-like) is present in
+some archaea but is not active as secs [10], and it does not
+always co-occur in archaea with sec insertion systems. in
+addition, no sela sequences could be detected in eukaryotes.
+although sec insertion systems are different in bacteria from
+those in archaea and eukaryotes [11–13], several factors have
+been characterized in mammals that most certainly have a
+role in sec biosynthesis. for example, the soluble liver
+antigen (sla) was initially identiﬁed as a 48-kda protein
+plos biology | www.plosbiology.org
+
+academic editor: rowena matthews, university of michigan, united states of
+america
+received july 5, 2006; accepted november 1, 2006; published december 26,
+2006
+this is an open-access article distributed under the terms of the creative commons
+public domain declaration which stipulates that, once placed in the public domain,
+this work may be freely reproduced, distributed, transmitted, modified, built upon,
+or otherwise used by anyone for any lawful purpose.
+abbreviations: dtt, dithiothreitol; msecs, mouse  xxxg2050xxx ; msps1,
+mouse selenophosphate synthetase 1; msps2, mouse selenophosphate synthetase
+2; msps2-cys, mouse selenophosphate synthetase 2 containing an sec (uga)-tocys (ugc) mutation; plp,  xxxd3047xxx ; sec, selenocysteine; secs,
+ xxxg2050xxx ; sela, escherichia coli  xxxg2050xxx ; seld, e.
+coli selenophosphate synthetase; sep, monoselenophosphate; trna, transfer rna
+* to whom correspondence should be addressed. e-mail: hatfield@mail.nih.gov
+[ these authors contributed equally to this work.
+
+0096
+
+january 2007 | volume 5 | issue 1 | e4
+
+selenocysteine biosynthesis
+
+comparative genomics studies were then carried out to
+identify genes that co-occur with selenoproteins in (1)
+eukaryotes (table 1) and (2) archaea (table 2). each of the
+searches had known components of sec insertion machinery
+as top candidates as well as an additional protein, herein
+designated as secs. in mammals, secs is also known as sla.
+sla was ﬁrst detected as an autoimmune factor that
+coimmunoprecipitated trna[ser]sec from cell extracts in
+patients with autoimmune chronic hepatitis [14], and it also
+bound other sec insertion components [17,18]. secs formed a
+separate family within a larger superfamily of diverse plpdependent proteins and was previously suggested to convert a
+trna-bound serine to sec [15]. we found that it occurred
+exclusively in both eukaryotes and archaea which had
+selenoproteins but was lacking in the other organisms
+examined (figure 1 and tables 1 and 2). these observations
+strongly suggested that secs may be the missing secs in
+eukaryotes and archaea. based on the multiple sequence
+alignment and phylogenetic analysis of secs and other plpdependent proteins, including sela, sela-like, and sepcyss,
+it was clear that bacterial sela and archaeal sela-like
+proteins [10], on one hand, and secs, on the other, belonged
+to completely different families of plp-containing proteins
+(figures 1 and 2), suggesting that their similar functions arose
+by convergent evolution. secs was also distantly homologous
+to sepcyss, a protein recently found to synthesize cysteine
+from  xxxd1857xxx  in some archaea [28] (figures 1 and 2).
+after identifying a likely secs candidate by comparative
+genomics analysis, we experimentally veriﬁed its function as
+described below.
+
+author summary
+biosynthesis of the 20 canonical amino acids is well established in
+eukaryotes. however, many eukaryotes also have a rare seleniumcontaining amino acid, selenocysteine, which is the 21st amino acid
+in the genetic code. selenium is essential for human health, and its
+health benefits, including preventing cancer and heart disease and
+delaying aging, have been attributed to the presence of selenocysteine in protein. how selenocysteine is made in eukaryotes has not
+been established. to gain insight into its biosynthesis, we used
+computational analyses to search completely sequenced genomes
+for proteins that occur exclusively in organisms that utilize
+selenocysteine. this approach revealed a putative selenocysteine
+synthase, which had been previously identified as a pyridoxal
+phosphate–containing protein dubbed  xxxg2050xxx . we
+were able to characterize the activity of this synthase using
+selenophosphate and a trna aminoacylated with  xxxd1857xxx 
+as substrates to generate selenocysteine. moreover, identification of
+ xxxg2050xxx  allowed us to delineate the entire pathway
+of selenocysteine biosynthesis in mammals. interestingly,  xxxg2050xxx  is present only in those archaea and eukaryotes
+that make selenoproteins, indicating that the newly defined
+pathway of selenocysteine biosynthesis is active in these domains
+of life.
+
+initially thought to have a role in selenophosphate synthesis,
+sps1 and sps2, have been reported in mammals [22–25], and
+the product of sps2 is a selenoprotein, sps2 [22,24]. the secto-cys mutant form of sps2 has low enzyme activity [22,24,26]
+and can complement seld in escherichia coli cells transfected
+with the mammalian mutant form [26]. complementation of
+seld e. coli cells with sps1 or sps2 has suggested that sps1
+may have a role in recycling sec via a selenium salvage system
+and sps2 may be involved in the de novo synthesis of
+selenophosphate from selenide [27]. however, it should be
+noted that, to our knowledge, selenophosphate has never
+been shown to serve directly as the active selenium donor in
+sec biosynthesis in eukaryotes.
+herein, we used a comparative genomics search and
+experimental analyses to show that sla is the mammalian
+secs. this protein belongs to a different family of plpcontaining enzymes and uses o-phosphoseryl-trna[ser]sec
+rather than seryl-trna[ser]sec as substrate. secs dephosphorylates o-phosphoseryl-trna[ser]sec and accepts the active
+selenium donor to yield selenocysteyl-trna[ser]sec. we also
+demonstrated unequivocally that the selenium donor in
+eukaryotes is sep by using this compound as a substrate in
+a reaction with secs and phosphoseryl-trna[ser]sec. selenophosphate is indeed synthesized in mammals by sps2,
+whereas the distant homolog of seld in mammals, sps1, did
+not synthesize the active selenium donor. conservation of the
+overall pathway of sec biosynthesis suggests that it is also
+active in other eukaryotes and archaea.
+
+binding and dephosphorylation of o-phosphoseryltrna[ser]sec by mouse secs
+to elucidate sec biosynthesis in mammals, we initially
+examined the ability of trna[ser]sec, seryl-trna[ser]sec, and ophosphoseryl-trna[ser]sec to bind to the recombinant mouse
+secs (msecs). the coprecipitated product was detected by
+northern blotting (figure 3a) and the amount of binding was
+quantitated (figure 3b). o-phosphoseryl-trna[ser]sec bound
+more efﬁciently to msecs than the other trna[ser]sec forms,
+while seryl-trna[ser]sec bound least efﬁciently, suggesting that
+o-phosphoseryl-trna[ser]sec may be a substrate for msecs. it
+is not clear why trna[ser]sec binds to msecs (see also [18]),
+albeit less efﬁciently than o-phosphoseryl-trna[ser]sec. seryltrnaser and trnaser, however, did not manifest any binding
+to msecs (unpublished data).
+to assess whether the phosphate moiety on o-phosphoseryl-trna may be removed by msecs to generate an
+intermediate that serves as an acceptor for the active
+selenium donor, the 32p-labeled form of o-phosphoseryltrna[ser]sec was incubated with msecs (figure 3c). msecs
+removed the phosphoryl moiety from o-phosphoseryltrna[ser]sec (see lane 2). interestingly, sela was also capable
+of dephosphorylating o-phosphoseryl-trna[ser]sec (lane 3).
+neither msps2-cys [mouse selenophosphate synthetase 2
+containing an sec (uga)-to-cys (ugc) mutation] nor seld
+appeared to have any effect on o-phosphoseryl-trna[ser]sec
+(lanes 4 and 5). the dephosphorylation of o-phosphoseryltrna[ser]sec by msecs and sela is further considered below.
+however, it should be noted that the data in figure 3 strongly
+suggest that the dephosphorylated product is not seryl-
+
+results
+computational search and comparative genomics
+analysis
+we analyzed completely sequenced genomes of eukaryotes
+and archaea for the occurrence of selenoproteins. twenty-six
+eukaryotes and three archaea that had these proteins and 24
+eukaryotes and 24 archaea that did not were identiﬁed.
+plos biology | www.plosbiology.org
+
+0097
+
+january 2007 | volume 5 | issue 1 | e4
+
+selenocysteine biosynthesis
+
+table 1. phylogenetic profiles of eukaryotic proteins that are present exclusively in selenoprotein-containing eukaryotes
+protein name (accession
+number in drosophila
+melanogaster)
+
+sps1 (o18373)/sps2 (q9vky8)
+secs (q7ktt1)
+hypothetical protein 1 (q5ljr2)
+nitrate/nitrite transporter (q7kuf9)
+hypothetical protein 2 (q8t3v7)
+ribonuclease inhibitor (ri)-like (q9veh4)
+
+occurrence in 26 selenoproteincontaining eukaryotes
+
+26
+26
+26
+22
+22
+21
+
+cog/pfam/cdd
+
+occurrence in
+archaea
+
+cog0709, selenophosphate synthetase
+pfam05889,  xxxg2050xxx 
+
+pfam03825, nucleoside hþ symporter
+
+cd00116, leucine-rich repeats,
+ribonuclease inhibitor (ri)-like
+
+selenoproteincontaining
+þ
+þ
+
+
+
+
+
+others
+þ
+
+
+
+
+
+
+accession numbers in column 1 correspond to proteins in drosophila melanogaster.
+doi:10.1371/journal.pbio.0050004.t001
+
+trna[ser]sec as the product binds efﬁciently to msecs but
+seryl-trna does not (figure 3b).
+
+of the area between 15 and 30 ppm were expanded as shown
+in figure 4b. clearly, there was a peak at þ23.2 ppm
+corresponding to sep, demonstrating that msps2-cys produced sep. the signal for sep was also evident with c. elegans
+sps2 and with seld, but msps1 did not produce this signal.
+to further examine the hydrolysis of atp by msps2-cys, c.
+elegans sps2, seld, and msps1, each component was
+incubated with [a-32p]atp with and without selenide (figure
+4c). hydrolysis of atp to amp was largely dependent on the
+presence of selenide with the three enzymes, msps2-cys, c.
+elegans sps2, and seld, that produced sep (see above), and all
+three hydrolyzed atp to adp independently of selenide.
+although msps1 hydrolyzed atp to adp and apparently
+only slightly to amp, this degradation was independent of
+selenium. these data provide further evidence that msps1
+cannot synthesize sep from selenide.
+
+in vitro atp hydrolysis assay of selenophosphate
+synthetase and nmr spectroscopic analysis
+we next identiﬁed the active selenium donor by assessing
+whether msps1 and msps2-cys synthesized sep. 31p nmr
+spectroscopic analysis of the products of the msps2-cys–
+catalyzed reaction manifested a signal at þ23.2 ppm, albeit
+weakly (figure 4a1), that corresponded to sep [9,29]. since
+the msps2 used in this experiment was a sec-to-cys mutant
+and might not be expected to generate sep efﬁciently, we
+cloned sps2 from caenorhabditis elegans, which naturally
+contains cys in place of sec at the presumed active site of
+sps2 [13]. c. elegans sps2 clearly generated a signal at þ23.2
+ppm (figure 4a2). as expected, sep was also formed in the
+presence of e. coli seld, selenide, and atp (figure 4a3) [9,29].
+however, no signal at þ23.2 ppm was observed when msps1
+replaced msps2-cys or seld in the reaction, indicating that
+msps1 did not synthesize sep (figure 4a4).
+as the peak at þ23.2 ppm was relatively weak in the product
+analysis of msps2-cys (figure 4a1), the ordinate and abscissa
+
+in vitro sec biosynthesis
+previous studies analyzing sec biosynthesis did not utilize
+sep to assess whether this compound served directly as the
+active selenium donor. we therefore examined the ability of
+sep to donate selenium directly in sec biosynthesis. sec was
+
+table 2. phylogenetic profiles of archaeal proteins that are present exclusively in selenoprotein-containing archaea
+protein name (accession number
+in methanococcus jannaschii)
+
+cog/pfam
+
+occurrence in
+eukaryotes
+
+sla (mj0610)
+pstk (mj1538)
+hypothetical protein (mj1590)
+hypothetical protein (mj0164)
+predicted sugar kinase (mj1337)
+zinc finger protein (mj0481)
+hypothetical protein (mj0944)
+hypothetical protein (mj0241)
+hypothetical protein (mj0011)
+biotin operon repressor (mj1005)
+
+pfam05889,  xxxg2050xxx 
+cog4088, predicted nucleotide kinase
+
+cog1667,  xxxg1259xxx  conserved in archaea
+cog0063, predicted sugar kinase
+
+cog1733, predicted transcriptional regulators
+cog1959, predicted transcriptional regulator
+
+cog1654, biotin operon repressor
+
+selenoprotein-containing
+þ
+þ
+
+
+
+
+
+
+
+
+
+others
+
+
+
+
+
+
+
+
+
+
+
+we identified 24 archaea that lacked selenoproteins and three that had these proteins.
+seld (prokaryotic selenophosphate synthetase) was not detected in the search because it was present in an archaeon that lacked selenoproteins (haloacrula marismartui). in this organism,
+the seld gene was on a plasmid and might have been acquired via lateral gene transfer.
+accession numbers in column 1 correspond to proteins in methanococcus jannaschii.
+doi:10.1371/journal.pbio.0050004.t002
+
+plos biology | www.plosbiology.org
+
+0098
+
+january 2007 | volume 5 | issue 1 | e4
+
+selenocysteine biosynthesis
+
+figure 1. phylogenetic tree of secs, sela, sela-like, and other plp-dependent proteins
+secs proteins are shown in red; sela in pink, and archaeal sela-like proteins in green. other plp-dependent protein branches are compressed and
+represented by family names. the phylogenetic tree was generated by clustalw and phylip programs. both bootstrap support (the number of times
+each branch was supported in bootstrap replication) and the measurement of distance for the branch lengths (shown by a bar) are indicated.
+doi:10.1371/journal.pbio.0050004.g001
+
+for msecs (figure 5b). sela would substitute for msecs when
+the substrate was seryl-trna[ser]sec or o-phosphoseryltrna[ser]sec.
+as expected, seld could substitute for msps2-cys in
+synthesizing sep and generating similar amounts of sec as
+msps2-cys in reactions with msecs (unpublished data), and
+those reactions in figure 5b were dependent on atp as well
+as selenide wherein sec was generated (unpublished data).
+serine, alanine, and pyruvate were recovered from reactions with sela using either seryl- or o-phosphoseryltrna[ser]sec as substrates, wherein alanine and pyruvate were
+likely the deacylated, degraded products of the intermediate,
+aminoacrylyl-trna[ser]sec [7] (figures 5a and 5b). in reactions
+with msecs using o-phosphoseryl-trna[ser]sec as substrate,
+only a small amount of  xxxd1857xxx  and a peak that
+comigrated with pyruvate were recovered as deacylated
+products, suggesting that pyruvate was, similar to the
+bacterial case, the deacylated, degraded product of the
+intermediate in sec biosynthesis in eukaryotes. however,
+the amount of pyruvate recovered in reactions that were
+coupled with sep synthesis by selenophosphate synthetase
+
+indeed synthesized when sep [9,29] was added in the reaction
+with o-phosphoseryl-trna[ser]sec and msecs (figure 5a). this
+observation conﬁrms unequivocally that sep is the active
+donor of selenium in sec biosynthesis and that secs is the
+missing secs. control assays demonstrated that sec was not
+formed when sep was omitted from the reaction, when seryltrna was used in place of o-phosphoseryl-trna[ser]sec, or
+when another protein, thioredoxin (trx), was substituted for
+msecs in the reaction. as expected, a reaction consisting of
+sela, seryl-trna[ser]sec, and sep also synthesized sec (figure
+5a). o-phosphoseryl-trna[ser]sec could also serve as a
+substrate and replace seryl-trna[ser]sec in reactions with
+sela and sep, thus using the dephosphorylated product as an
+acceptor for activated selenium to synthesize selenocysteyltrna[ser]sec.
+sec was also synthesized on trna[ser]sec when o-phosphoseryl-trna[ser]sec was incubated with msecs, msps2-cys,
+atp, and selenide (figure 5b). control reactions demonstrated that sec was not formed when selenide was omitted
+from the reaction, when seryl-trna[ser]sec was used in place
+of o-phosphoseryl-trna[ser]sec, or when trx was substituted
+plos biology | www.plosbiology.org
+
+0099
+
+january 2007 | volume 5 | issue 1 | e4
+
+selenocysteine biosynthesis
+
+figure 2. multiple alignment of secs, sela, sela-like, and other plp-dependent protein sequences
+genbank accession numbers for the sequences are given in the accession numbers summary. the active site lysine (k), which is plp-binding residue, is
+indicated with an arrow.
+doi:10.1371/journal.pbio.0050004.g002
+
+plos biology | www.plosbiology.org
+
+0100
+
+january 2007 | volume 5 | issue 1 | e4
+
+selenocysteine biosynthesis
+
+figure 3. binding of trna[ser]sec to msecs-cys and dephosphorylation of o-phosphoseryl-trna[ser]sec by msecs-cys
+(a) relative efficiencies of trna[ser]sec, seryl-trna[ser]sec, and o-phosphoseryl-trna[ser]sec binding to msecs are shown. cloning of msecs-cys, its
+expression and purification, binding assays, and northern analysis are detailed in materials and methods. the upper panel shows the binding of each
+form of trna[ser]sec to msecs-cys. the lower panel shows the amount of each trna[ser]sec used in the binding reaction which was assessed by northern
+blot analysis of 2 ll of each binding reaction solution designated as trna loading control.
+(b) amounts of each trna[ser]sec form bound to msecs in (a) above were quantified by measuring the band densities of each form bound to msecs
+relative to those of the corresponding densities of the amount of each form added to the assay using imagequant version 5.2 (molecular dynamics).
+the error bars were derived from four separate binding assays. the p-value in each case is ,0.01.
+(c) 32p-labeled o-phosphoseryl-trna[ser]sec was added to a reaction mixture containing either msecs, sela, msps2-cys, or seld, and the reaction was
+incubated, the aminoacyl-trna[ser]sec was deacylated, and the deacylated products were chromatographed as given in materials and methods. lane 1
+contains 32p-labeled o- xxxd1857xxx , and the other lanes contain the components shown.
+doi:10.1371/journal.pbio.0050004.g003
+
+these conditions. the intermediates in reactions with sela [7]
+and msecs are further considered in discussion.
+we also examined the rate of sec synthesis with ophosphoseryl-trna[ser]sec and sep as substrates in the
+presence of msecs (figure 5c). as the substrate, o-phosphoseryl-trna[ser]sec, was labeled with [3h]serine and the deacy-
+
+was lower (figure 5b) than in reactions in which sep was
+supplied directly as substrate (figure 5a). use of hse in
+these reactions required the addition of high levels of
+dithiothreitol (dtt) which were inhibitory to sec synthesis
+(unpublished data), and apparently the intermediate that
+formed pyruvate as a deacylated product was unstable under
+
+figure 4. in vitro atp hydrolysis assay of selenophosphate synthetase and nmr spectroscopic analysis
+cloning of the genes, mouse sps1, mouse sps2, seld, and c. elegans sps2, and mutation of mouse sps2 to sps2-cys and reaction conditions are detailed in
+materials and methods. for nmr analysis, 200 ll of atp hydrolysis reaction was sealed in 3-mm nmr tubes and incubated at 37 8c for 4 h before 31p
+nmr spectroscopic analysis [9].
+(a) complete 31p-nmr spectra of atp hydrolysis products generated with msps2-cys, c. elegans selenophosphate synthetase 2, seld, and msps1 are
+shown.
+(b) expanded spectra of the ordinate and abscissa between 15 and 30 ppm for these products are shown.
+(c) atp hydrolysis reactions with [a-32p]atp, either without or with 0.25 mm selenide, incubated with msps2-cys, c. elegans selenophosphate
+synthetase 2, seld, or msps1; at the end of the incubation period, reactions were loaded onto pei tlc plates, run in 0.8 m licl, and exposed to a
+phosphorimager screen as described in materials and methods.
+doi:10.1371/journal.pbio.0050004.g004
+plos biology | www.plosbiology.org
+
+0101
+
+january 2007 | volume 5 | issue 1 | e4
+
+selenocysteine biosynthesis
+
+figure 5. in vitro sec biosynthesis
+all reactions were carried out under anaerobic conditions and are detailed in materials and methods. synthetic trna[ser]sec was used in those reactions
+employing trna and its synthesis, aminoacylation with 3h-serine and phosphorylation were carried out as given [20]. cloning of mouse sps2, and
+preparation of the sec-to-cys sps2 mutant, and cloning of e. coli sela and mouse secs are given in materials and methods.
+(a) sec biosynthesis using sep as the active selenium donor with o-phosphoseryl-trna[ser]sec or seryl-trna[ser]sec and either msecs or sela as secs is
+shown.
+(b) sec biosynthesis using msps2-cys and selenide (hse) to provide sep as the active selenium donor with o-phosphoseryl-trna[ser]sec or seryltrna[ser]sec and either msecs or sela as secs is shown. hse was maintained in the reduced state in reactions in b with dtt as described in materials
+and methods. migration of control amino acids and pyruvate are indicated below the graphs in (a) and (b).
+(c) the rate of sec synthesis is shown. reactions were terminated at 0, 1.25, 2.5, 5, 10, 20, 40, and 80 min. after chromatography and counting of
+samples in a liquid scintillation counter as given in materials and methods, the counts from the peaks of sec, o- xxxd1857xxx , or the degraded
+intermediate (the peak migrated after alanine and chromatographed with pyruvate) were pooled together for quantification at each time point. the
+analyses in this figure were carried out on deacylated products.
+doi:10.1371/journal.pbio.0050004.g005
+
+lated products, o- xxxd1857xxx , sec and the degraded
+intermediate, pyruvate, migrated separately in the chromatographic system used in figure 5a; the amounts of each could
+be assessed during the course of the reaction. dephosphorylation occurred rapidly and appeared to be near completion
+in about 10 min. sec synthesis increased rapidly during the
+initial 10 min and then appeared to proceed more slowly until
+completion at about 40 min. the approximate initial rate was
+0.28 pmol sec/min/pmol msecs. likewise, the intermediate
+formed rapidly during the initial stages of the reaction and
+then decreased over the remainder of the experiment.
+plos biology | www.plosbiology.org
+
+discussion
+in this work, we deﬁned the pathway of sec biosynthesis in
+eukaryotes. in order to carry out sec biosynthesis, we
+functionally characterized two previously known enzymes,
+selenophosphate synthetase [22,23,25] and o-phosphoseryltrna[ser]sec kinase [20], as well as establishing the function of
+sla [14] as the eukaryotic secs. all these enzymes were found
+to be required for in vitro biosynthesis of sec, and the
+implications of these ﬁndings are discussed below.
+the active selenium donor in bacteria is sep [9,29] and it is
+0102
+
+january 2007 | volume 5 | issue 1 | e4
+
+selenocysteine biosynthesis
+
+figure 6. sec biosynthesis in eukaryotes
+the pathway of sec biosynthesis is shown (see text for details and abbreviations are defined in the text with the exception of sers [seryl-trna
+synthetase] and pstk [o-phosphoseryl-trna[ser]sec kinase]).
+doi:10.1371/journal.pbio.0050004.g006
+
+no enzyme comparable to o-phosphoseryl-trna[ser]sec kinase
+has been identiﬁed in e. coli, it is of interest to note that sela
+can utilize o-phosphoseryl-trna[ser]sec as a substrate. the
+major difference between the sec biosynthetic pathway
+characterized herein and that in eubacteria is the extra step
+in the synthesis of o-phosphoseryl-trna[ser]sec which serves
+as a substrate for secs. in e. coli, seryl-trna[ser]sec serves
+directly as the substrate for sela [7]. the occurrence of secs
+exclusively in selenoprotein-containing organisms in eukaryotes and archaea (tables 1 and 2) indicates that the secsbased pathway also operates in other animals, lower
+eukaryotes, and archaea where the sec machinery occurs
+[3]. considering the difﬁculties with identiﬁcation of other
+components of sec biosynthesis and insertion machinery
+(e.g., sbp2, efsec), secs might become the most characteristic
+feature of the sec trait in eukaryotes and archaea.
+
+synthesized from selenide and atp by selenophosphate
+synthetase, also known as seld [7,30]. two homologs of
+bacterial seld, designated sps1 and sps2, are present in
+mammals [22–25]. interestingly, sps2 is a selenoprotein.
+direct roles of sps1 and sps2 in mammals have not been
+tested, but it was suggested that sps2 supports the use of
+selenite, whereas sps1 depends on a selenium salvage system
+when examined in e. coli [27]. our results clearly demonstrate
+that sps2 makes the active selenium donor, sep, for the
+biosynthesis of sec.
+we recently identiﬁed the gene that phosphorylates seryltrna[ser]sec and characterized the gene product, o-phosphoseryl-trna[ser]sec [20]. however, the precise role of ophosphoseryl-trna[ser]sec was not determined. the current
+results showed that o-phosphoseryl-trna[ser]sec is the substrate of secs, and therefore o-phosphoseryl-trna[ser]sec
+kinase is involved in the sec biosynthesis pathway.
+what is the intermediate produced by msecs? most
+certainly the dephosphorylated product of o-phosphoseryltrna[ser]sec cannot be seryl-trna[ser]sec (figure 3a). the
+intermediate could possibly be aminoacrylyl-trna[ser]sec
+(dehydroalanyl-trna[ser]sec) which could yield pyruvate on
+hydrolysis. the facts that the intermediate generated by sela
+is aminoacrylyl-trna[sergsec and that msecs contains  xxxd3047xxx  suggest that the schiff base intermediate of
+aminoacrylyl-trna[sergsec postulated for sec synthesis in
+prokaryotes [7] is analogous to that formed in eukaryotes.
+however, it proved possible to trap the proposed aminoacrylyl-trna[ser]sec by reduction with kbh4 leading to the
+formation of alanine on hydrolysis in the prokaryotic, but not
+eukaryotic, case. this result may be due to differences
+between the enzyme to which the aminoacrylyl-trna[ser]sec
+is bound; that is, reduction can occur before hydrolysis in the
+prokaryotic, but not eukaryotic, case. nevertheless, identiﬁcation of the intermediate in sec biosynthesis in eukaryotes
+must await further study.
+the biosynthesis of sec in eukaryotes is shown in figure 6.
+trna[ser]sec is aminoacylated by  xxxg2012xxx  and
+the seryl moiety is phosphorylated by o-phosphoseryltrna[ser]sec kinase to form o-phosphoseryl-trna[ser]sec [20].
+o-phosphoseryl-trna[ser]sec is a substrate for secs which
+replaces the phosphoryl moiety of  xxxd1857xxx , derived
+from the selenium donor, sep, to yield sec. sep is synthesized
+by sps2 in the atp-dependent reaction. secs does not use
+seryl-trna[ser]sec as a substrate (figure 5a and 5b). although
+plos biology | www.plosbiology.org
+
+materials and methods
+materials. [a-32p]atp and [c-32p]atp (speciﬁc activity, approximately 6,000 ci/mmol) and hybond nþ nylon membranes were
+purchased from amersham (http://www.amersham.com), 3h-serine
+(speciﬁc activity, 29.5 ci/mmol) and 14c-pyruvate (speciﬁc activity, 19
+mci/mm) were from perkin elmer (http://www.perkinelmer.com), ninta agarose was from qiagen (http://www.stratagene.com), and pfu
+polymerase and pbluescript ii were from stratagene (http://www.
+stratagene.com). pet32b vector (encoding the 109–amino acid
+thioredoxin with a his-tag) and bl21(de3) competent cells were
+obtained from novagen (emd biosciences, http://www.
+emdbiosciences.com), alkaline phosphatase from new england
+biolabs (http://www.neb.com), t7 ribomax express large scale
+rna production system and 3m ﬁlter paper from whatman (http://
+www.whatman.com), and unlabeled amino acids, pei tlc plates, and
+selenocystine from sigma (http://www.signaaldrich.com).
+[(ch3)3sio]3pse was chemically synthesized [31]. all other reagents
+were commercial products of the highest grade available.
+computational analyses. a total of 50 completely or nearly
+completely sequenced eukaryotic genomes (table s1) were analyzed
+for occurrence of selenoproteins by tblastn using the set of all
+known selenoproteins. twenty-six organisms were found to contain
+selenoproteins and 24 organisms lacked these proteins. in organisms
+lacking selenoproteins, the sec insertion machinery was also missing.
+to identify proteins with phylogenetic proﬁles corresponding to
+selenoproteins, annotated genes in d. melanogaster were used as a
+query dataset. blast homology analyses were used to scan genomic
+databases using the following criteria: e-value less than 1e06 and
+length of the conserved region greater than 50 amino acids. genes
+present in any of the organisms lacking selenoproteins were
+dismissed. the remaining genes were searched against selenoprotein-containing organisms to determine their occurrences. top
+candidate genes were included in table 1; they were present in
+80% of selenoprotein-containing eukaryotes. these candidates were
+further manually analyzed for possible function.
+0103
+
+january 2007 | volume 5 | issue 1 | e4
+
+selenocysteine biosynthesis
+synthesized [(ch3)3sio]3pse [31]. for generating the selenium donor
+with msps2-cys, a 10-ll reaction containing 50 mm nh4hco3 (ph
+7.6), 10 mm dtt, 2 mm mgcl2, 2 mm kcl, 2 mm atp, and 2 lg of
+msps2-cys with or without 1 mm selenide was preincubated at 37 8c
+for 1 h. the msps2-cys reaction was added to 10 ll containing 50
+mm tris-hcl (ph 7.0), 20 mm dtt, 10 mm mgcl2, 2 lm plp, 1.0 lg
+of puriﬁed msecs, and approximately 5 lg (about 30,000 cpm) of
+either o-phospho-[3h]seryl-trna[ser]sec or [3h]seryl-trna[ser]sec and,
+in a positive control reaction, sela in place of msecs, and in a
+negative control reaction, thioredoxin (with a his-tag) in place of
+msecs. reactions were incubated at 37 8c for 2 h and then heated at
+75 8c for 5 min, aminoacyl-trnas were deacylated [20], and 1 ll of an
+unlabeled amino acid mix (containing 12.5 mm concentration each of
+serine, o- xxxd1857xxx , sec, and alanine in 50 mm of kbh4) was
+added. each reaction, along with several control lanes containing
+unlabeled amino acids and 14c-pyruvate, was chromatographed on
+whatman 3m ﬁlter paper (45 3 60 cm) in ethanol/acetic acid/water
+(12:3:5) for 16 to 20 h. then 1.0-cm strips were cut out of the dried
+chromatogram and counted in a liquid scintillation counter. the
+locations of each amino acid were determined by staining the lanes
+with unlabeled amino acids in 0.3% ninhydrin in acetone or by
+cutting out 1.0-cm strips of lanes with 14c-pyruvate and counting in a
+liquid scintillation counter. for direct use of sep as a selenium donor,
+reactions contained the same components as above except 1 mm sep
+was used in place of msps2-cys reaction solutions and dtt was
+omitted from the msecs reactions, since we found that the activity of
+msecs is higher without dtt. sep was generated by hydrolysis of 20
+mm chemically synthesized [(ch3)3sio]3pse [31]. reactions were
+incubated and analyzed as above.
+for measurement of the secs synthesis rate, reactions were carried
+out in a total volume of 10 ll of 50 mm tris-hcl (ph 7.0), with 10 mm
+mgcl2, 10 mm kcl, 0.2 mm sep, and 4 lg (approximately 120 pmol) of
+o-phospho-[3h]seryl-trna[ser]sec. reactions were initiated by adding
+2 lg (approximately 35 pmol) of msecs and were stopped at speciﬁc
+time points between 0 and 80 min by boiling for 2 min and then
+deacylating and counting as described above.
+
+a similar search strategy was carried out in archaea. a total of 27
+archaeal genomes (table s1), including three selenoprotein-containing organisms (m. jannaschii, m. maripaludis, and m. kandleri), were
+analyzed for gene occurrence using all annotated genes in m.
+jannaschii. top candidate genes are included in table 2; these
+proteins were present in all three selenoprotein-containing archaea
+and absent in other completed archaeal genomes. we used clustalw
+to generate multiple sequence alignment. phylogenetic trees were
+built with phylip programs.
+gene cloning and protein expression and purification. the coding
+regions of e. coli sela and seld, mouse secs, sps2, sps1, and c. elegans sps2
+genes were ampliﬁed from bl21 genomic dna or mouse liver cdna
+or c. elegans total cdna using pfu polymerase, respectively [20]. the
+resulting product was cloned into the pet32b vector at the ndeixhoi cloning sites in which the vector contained a his-tag
+immediately downstream of, and in frame with, the open reading
+frame. the sec tga codon in sps2 was mutated to a cys tgc codon
+using a site-directed mutagenesis kit (stratagene), and the resulting
+gene product was designated msps2-cys. the cdna constructs were
+conﬁrmed by sequencing and transformed into bl21(de3) cells.
+expression and puriﬁcation of each protein were carried out as
+described [20]. for msecs and sela expression and puriﬁcation, 1 nm
+plp was added in the lb medium during expression and 5 lm plp
+was added in the elution buffer during puriﬁcation. the proteins
+were dialyzed against 13 tbs for 2 h and stored at 20 8c in 50%
+glycerol before use.
+binding of trna[ser]sec to msecs. native trna[ser]sec was puriﬁed
+and aminoacylated with serine and the seryl moiety phosphorylated
+as described [20]. then 200 ng of puriﬁed msecs containing a his-tag
+on its c-terminal was added in a total volume of 100 ll solution (20
+mm tris-hcl [ph 7.4], 0.01 mm egta, 1 mm dtt, 10 mm mgcl2, and
+5 lg of yeast trna) and approximately 50 ng of puriﬁed trna[ser]sec
+(with either serine or  xxxd1857xxx  attached, or no amino acid)
+added, and the reaction was incubated for 30 min at room
+temperature. anti-his agarose (10 ll) was added to pull down msecs.
+after washing three times with 1 ml of 13 tbs/0.1% tween, the
+agarose was suspended in 40 ll of tbe-urea loading buffer (90 mm
+tris-hcl [ph 8.3], 64.6 mm boric acid, 2.5 mm edta, 3.5 m urea), and
+5 ll of each sample was loaded onto a 15% tbe-urea gel. after
+electrophoresis and transfer of the rna to a nylon membrane, rna
+was detected by northern blotting with the sec trna probe [20]. of
+each binding reaction, 2 ll had been removed immediately after the
+incubation period and electrophoresed along with the reaction
+samples for analysis by northern blotting that served as a loading
+control.
+dephosphorylation of o-phosphoseryl-trna[ser]sec by secs. native
+trna[ser]sec was aminoacylated with serine and phosphorylated with
+[c-32p]atp using o-phosphoseryl-trna[ser]sec kinase as described
+[20]. the 32p-labeled o-phosphoseryl-trna[ser]sec was added to a 10ll reaction mixture containing 50 mm tris-hcl (ph 7.5), 20 mm
+dtt, 10 mm kcl, 10 mm mgcl2 and 1 lg of each puriﬁed protein.
+reactions were carried out for 30 min at 37 8c. following incubation,
+the trna was deacylated by adding an equal volume of 1 m tris-hcl
+(ph 8.0) and incubating at 37 8c for 45 min. reactions were then
+spotted onto 3m paper (whatman), placed in a tlc chamber, and
+chromatographed for 8 h using a mixture of butanol/acetic acid/water
+(12:3:5). the chromatogram was then exposed to a phosphorimager
+screen.
+in vitro atp hydrolysis assay of selenophosphate synthetase and
+nmr spectroscopic analysis. atp hydrolysis assays were carried out
+in a volume of 10 ll with 40 mm hepes (ph 7.4), 20 mm kcl, 10 mm
+mgcl2, 5 lci of [a-32p]atp, and 10 mm dtt and either with or
+without 0.25 mm selenide. after adding 0.3 mg/ml ﬁnal concentration
+of each selenophosphate synthetase protein, reactions were incubated at 37 8c for 1 h under anaerobic conditions. then 0.5 ll of each
+reaction was loaded onto pei tlc plates, the plates were run in 0.8 m
+licl, and the developed tlc plates were exposed to a phosphorimager screen. for nmr analysis, atp hydrolysis reactions were
+carried out under anaerobic conditions in 3-mm nmr tubes in a total
+volume of 200 ll with 2 mm atp instead of [a-32p]atp. nmr tubes
+were sealed and incubated at 37 8c for 4 h prior to 31p nmr
+spectroscopic analysis [9].
+in vitro sec biosynthesis. synthetic sec trna was used in all
+biosynthetic reactions. synthesis, puriﬁcation, and aminoacylation of
+sec trna were carried out as described [20]. all of the reactions were
+set up under anaerobic conditions before chromatographic analysis.
+for sec biosynthesis, the selenium donor sep was either generated
+from selenide by using msps2-cys or hydrolyzed from chemically
+
+plos biology | www.plosbiology.org
+
+supporting information
+table s1. eukaryotes and archaea used in the computational
+searches
+found at doi:10.1371/journal.pbio.0050004.st001 (41 kb pdf).
+accession numbers
+genbank (http://www.ncbi.nlm.nih.gov/genbank) accession numbers
+for the sequences used in this paper are homo sapiens (secs_hs),
+ xxxg2050xxx ; mus musculus (secs_mm), q6p6m7; drosophila melanogaster
+(secs_dm), np_649556; c. elegans (secs_ce), q18953; methanococcus jannaschii (secs_mj), q58027; methanopyrus kandleri (secs_mk),
+q8txk0. sela sequences: escherichia coli (sela_ec), bae77702;
+geobacter sulfurreducens (sela_gs), p61736. sela-like sequences:
+methanococcus jannaschii (sela-like_mj), q57622; methanopyrus kandleri
+(sela-like_mk), aam01835; e. coli sela, m64177; seld, m30184; mouse
+secs, al049338; sps2, nm_009266; sps1, nm_175400; and c. elegans
+sps2, nm_070203. the numbers for other plp-containing proteins
+are methanococcus jannaschii sep-trna:cys-trna synthase (sepcyss_mj), q59072; medicago truncatula orn/lys/arg decarboxylase
+(cog1982_mt), abe83138.1; archaeoglobus fulgidus  xxxg913xxx  (cog0076_af), o28275; and thermococcus kodakarensis
+glycine/serine hydroxymethyltransferase (cog0112_tk), 05jf06.
+
+acknowledgments
+author contributions. xmx, bac, vng, and dlh conceived and
+designed the experiments. xmx, bac, yz, and ks performed the
+experiments. xmx, bac, hm, yz, rsg, mjb, vng, and dlh analyzed
+the data. xmx, bac, rsg, mjb, vng, and dlh wrote the paper.
+funding. this research was supported by the intramural research
+program of the national institutes of health, national cancer
+institute, and center for cancer research and by grants gm065204,
+gm061603, and ca080946 to vng; grants dk47320 and dk52963 to
+mjb and grant ca-41108 (nih colon cancer prevention program
+project) to rsg.
+competing interests. the authors have declared that no competing
+interests exist.
+
+0104
+
+january 2007 | volume 5 | issue 1 | e4
+
+selenocysteine biosynthesis
+references
+1. birringer m, pilawa s, flohe l (2002) trends in selenium biochemistry. nat
+prod rep 19: 693–718.
+2. driscoll dm, copeland pr (2003) mechanism and regulation of selenoprotein synthesis. annu rev nutr 23: 17–40.
+3. hatﬁeld dl, carlson ba, xu xm, mix h, gladyshev vn (2006)
+selenocysteine incorporation machinery and the role of selenoproteins
+in development and health. prog nucleic acid res mol biol 81: 97–142.
+4. lee bj, worland pj, davis jn, stadtman tc, hatﬁeld dl (1989)
+identiﬁcation of a selenocysteyl-trna(ser) in mammalian cells that
+recognizes the nonsense codon, uga. j biol chem 264: 9724–9727.
+5. leinfelder w, stadtman tc, bock a (1989) occurrence in vivo of
+selenocysteyl-trna(seruca) in escherichia coli. effect of sel mutations. j
+biol chem 264: 9720–9723.
+6. forchhammer k, boesmiller k, bock a (1991) the function of  xxxg2050xxx  and selb in the synthesis and incorporation of selenocysteine. biochimie 73: 1481–1486.
+7. forchhammer k, bock a (1991)  xxxg2050xxx  from escherichia
+coli. analysis of the reaction sequence. j biol chem 266: 6324–6328.
+8. forchhammer k, leinfelder w, boesmiller k, veprek b, bock a (1991)
+ xxxg2050xxx  from escherichia coli. nucleotide sequence of the
+gene (sela) and puriﬁcation of the protein. j biol chem 266: 6318–6323.
+9. glass rs, singh wp, jung w, veres z, scholz td, et al. (1993)
+monoselenophosphate: synthesis, characterization, and identity with the
+prokaryotic biological selenium donor, compound sepx. biochemistry 32:
+12555–12559.
+10. kaiser jt, gromadski k, rother m, engelhardt h, rodnina mv, et al. (2005)
+structural and functional investigation of a putative archaeal  xxxg2050xxx . biochemistry 44: 13315–13327.
+11. berry mj, banu l, chen yy, mandel sj, kieffer jd, et al. (1991) recognition
+of uga as a selenocysteine codon in type i deiodinase requires sequences
+in the 3’ untranslated region. nature 353: 273–276.
+12. forchhammer k, leinfelder w, bock a (1989) identiﬁcation of a novel
+translation factor necessary for the incorporation of selenocysteine into
+protein. nature 342: 453–456.
+13. kryukov gv, castellano s, novoselov sv, lobanov av, zehtab o, et al.
+(2003) characterization of mammalian selenoproteomes. science 300:
+1439–1443.
+14. gelpi c, sontheimer ej, rodriguez-sanchez jl (1992) autoantibodies
+against a serine trna-protein complex implicated in cotranslational
+selenocysteine insertion. proc natl acad sci u s a 89: 9739–9743.
+15. kernebeck t, lohse aw, grotzinger j (2001) a bioinformatical approach
+suggests the function of the autoimmune hepatitis target antigen soluble
+liver antigen/liver pancreas. hepatology 34: 230–233.
+16. allmang c, krol a (2006) selenoprotein synthesis: uga does not end the
+story. biochimie (in press).
+17. small-howard a, morozova n, stoytcheva z, forry ep, mansell jb, et al.
+
+plos biology | www.plosbiology.org
+
+18.
+
+19.
+20.
+21.
+22.
+
+23.
+
+24.
+
+25.
+26.
+27.
+
+28.
+29.
+
+30.
+31.
+
+0105
+
+(2006) supramolecular complexes mediate selenocysteine incorporation in
+vivo. mol cell biol 26: 2337–2346.
+xu xm, mix h, carlson ba, grabowski pj, gladyshev vn, et al. (2005)
+evidence for direct roles of two additional factors, secp43 and soluble
+liver antigen, in the selenoprotein synthesis machinery. j biol chem 280:
+41568–41575.
+maenpaa ph, bernﬁeld mr (1970) a speciﬁc hepatic transfer rna for
+ xxxd1857xxx . proc natl acad sci u s a 67: 688–695.
+carlson ba, xu xm, kryukov gv, rao m, berry mj, et al. (2004)
+identiﬁcation and characterization of phosphoseryl-trna[ser]sec kinase.
+proc natl acad sci u s a 101: 12848–12853.
+amberg r, mizutani t, wu xq, gross hj (1996) selenocysteine synthesis in
+mammalia: an identity switch from trna(ser) to trna(sec). j mol biol 263:
+8–19.
+guimaraes mj, peterson d, vicari a, cocks bg, copeland ng, et al. (1996)
+identiﬁcation of a novel seld homolog from eukaryotes, bacteria, and
+archaea: is there an autoregulatory mechanism in selenocysteine metabolism? proc natl acad sci u s a 93: 15086–15091.
+kim iy, stadtman tc (1995) selenophosphate synthetase: detection in
+extracts of rat tissues by immunoblot assay and partial puriﬁcation of the
+enzyme from the archaean methanococcus vannielii. proc natl acad sci u s a
+92: 7710–7713.
+kim iy, guimaraes mj, zlotnik a, bazan jf, stadtman tc (1997) fetal
+mouse selenophosphate synthetase 2 (sps2): characterization of the
+cysteine mutant form overproduced in a baculovirus-insect cell system.
+proc natl acad sci u s a 94: 418–421.
+low sc, harney jw, berry mj (1995) cloning and functional characterization of human selenophosphate synthetase, an essential component of
+selenoprotein synthesis. j biol chem 270: 21659–21664.
+kim ts, yu mh, chung yw, kim j, choi ej, et al. (1999) fetal mouse
+selenophosphate synthetase 2 (sps2): biological activities of mutant forms
+in escherichia coli. mol cells 9: 422–428.
+tamura t, yamamoto s, takahata m, sakaguchi h, tanaka h, et al. (2004)
+selenophosphate synthetase genes from lung adenocarcinoma cells: sps1
+for recycling  xxxd3186xxx  and sps2 for selenite assimilation. proc natl
+acad sci u s a 101: 16162–16167.
+sauerwald a, zhu w, major ta, roy h, palioura s, et al. (2005) rnadependent cysteine biosynthesis in archaea. science 307: 1969–1972.
+veres z, tsai l, scholz td, politino m, balaban rs, et al. (1992) synthesis of
+5-methylaminomethyl-2-selenouridine in trnas: 31p nmr studies show
+the labile selenium donor synthesized by the seld gene product contains
+selenium bonded to phosphorus. proc natl acad sci u s a 89: 2975–2979.
+ehrenreich a, forchhammer k, tormay p, veprek b, bock a (1992)
+selenoprotein synthesis in e. coli. puriﬁcation and characterisation of the
+enzyme catalysing selenium activation. eur j biochem 206: 767–773.
+glass rs, stadtman tc (1995) selenophosphate. methods enzymol 252:
+309–315.
+
+january 2007 | volume 5 | issue 1 | e4
+

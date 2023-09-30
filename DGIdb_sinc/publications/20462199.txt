@@ -1,0 +1,973 @@
+5340
+
+biochemistry 2010, 49, 5340–5349
+doi: 10.1021/bi100037b
+
+two distinct mechanisms of inactivation of the class ic ribonucleotide reductase
+from chlamydia trachomatis by hydroxyurea: implications for the protein
+gating of intersubunit electron transfer†
+wei jiang,‡,§ jiajia xie,‡ paul t. varano,§ carsten krebs,*,‡,§ and j. martin bollinger, jr.*,‡,§
+‡
+
+department of biochemistry and molecular biology and §department of chemistry,
+the pennsylvania state university, university park, pennsylvania 16802
+received january 11, 2010; revised manuscript received april 12, 2010
+
+abstract:
+
+catalysis by a class i ribonucleotide reductase (rnr) begins when a cysteine (c) residue in the
+r2 subunit is oxidized to a thiyl radical (c•) by a cofactor ∼35 å away in the  xxxg837xxx   xxxg1553xxx   xxxg2356xxx  subunit. in a class ia or ib
+rnr, a stable tyrosyl radical (y•) is the c oxidant, whereas a mniv/feiii cluster serves this function in the
+class ic enzyme from chlamydia trachomatis (ct). it is thought that, in either case, a chain of y residues
+spanning the two subunits mediates c oxidation by forming transient “pathway” y•s in a multistep electron
+transfer (et) process that is “gated” by the protein so that it occurs only in the ready holoenzyme complex.
+the drug hydroxyurea (hu) inactivates both ia/b and ic  xxxg837xxx   xxxg1553xxx   xxxg2356xxx  subunits by reducing their c oxidants. reduction
+of the stable cofactor y• (y122•) in escherichia coli class ia  xxxg837xxx   xxxg1553xxx   xxxg2356xxx  is faster in the presence of r2 and a substrate
+(cdp), leading to speculation that hu might intercept a transient et pathway y• under these turnover
+conditions. here we show that this mechanism is one of two that are operant in hu inactivation of the ct
+enzyme. hu reacts with the mniv/feiii cofactor to give two distinct products: the previously described
+homogeneous mniii/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx  complex, which forms only under turnover conditions (in the presence of r2 and
+the substrate), and a distinct, diamagnetic mn/fe cluster, which forms ∼900-fold less rapidly as a second
+phase in the reaction under turnover conditions and as the sole outcome in the reaction of mniv/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx  only.
+formation of mniii/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx  also requires (i) either y338, the subunit-interfacial et pathway residue of  xxxg837xxx   xxxg1553xxx   xxxg2356xxx , or
+y222, the surface residue that relays the “extra electron” to the mniv/feiv intermediate during activation of
+ xxxg837xxx   xxxg1553xxx   xxxg2356xxx  but is not part of the catalytic et pathway, and (ii) w51, the cofactor-proximal residue required for
+efficient et between either y222 or y338 and the cofactor. the combined requirements for the catalytic
+subunit, the substrate, and, most importantly, a functional surface-to-cofactor electron relay system imply
+that hu effects the mniv/feiii f mniii/feiii reduction by intercepting a y• that forms when the ready
+holoenzyme complex is assembled, the et gate is opened, and the mniv oxidizes either y222 or y338.
+ribonucleotide reductases (rnrs)1 catalyze the committed
+step in the only known pathway for de novo biosynthesis of the
+deoxyribonucleotide precursors to dna (1, 2). this reaction
+proceeds by a free radical mechanism and is initiated by
+abstraction of the 30 h atom of the substrate by a cysteine thiyl
+radical (c•) (3, 4). the c• is not present in the resting enzyme but
+is generated in situ by one-electron oxidation of a conserved
+cysteine residue by an oxidized cofactor. on the basis of the
+nature of the cofactor employed for generation of the c30 -habstracting c•, rnrs have been divided into classes i-iii (1, 2).
+†
+this work was supported by the national institutes of health (grant
+gm-55365 to j.m.b. and c.k.), the national science foundation
+(grant reu-dbi 05-21443 was used to acquire the epr spectrometer
+used in this study), and the dreyfus foundation (teacher scholar
+award to c.k.).
+*to whom correspondence should be addressed. c.k.: department
+of chemistry, 332 chemistry building, university park, pa 16802;
+phone, (814) 865-6089; fax, (814) 865-2927; e-mail, ckrebs@psu.edu.
+j.m.b.: department of chemistry, 336 chemistry building, university
+park, pa 16802; phone, (814) 863-5707; fax, (814) 865-2927; e-mail,
+jmb21@psu.edu.
+1
+abbreviations: c•, cysteinyl radical; cdp, cytidine 50 -diphosphate;
+ct, chlamydia trachomatis; dcdp, 20 - xxxd1836xxx  50 -diphosphate;
+dt, dithionite; dtt, dithiothreitol; ec, escherichia coli; epr, electron
+paramagnetic resonance; et, electron transfer; hu, hydroxyurea;
+pcet, proton-coupled electron transfer; rnr, ribonucleotide reductase; y•, tyrosyl radical.
+
+pubs.acs.org/biochemistry
+
+published on web 05/12/2010
+
+a class i rnr [e.g., those from all mammals, herpes simplex
+virus i, and the most extensively studied enzyme from escherichia
+coli (ec)] is composed of two homodimeric subunits (1, 5). the
+catalytic subunit, r2, contains the substrate-binding site, the
+cysteine residue that is transiently oxidized to the c•, and
+additional c residues that deliver electrons and a proton to the
+20 position of the substrate to reduce it (5). the  xxxg837xxx   xxxg1553xxx   xxxg2356xxx  subunit harbors
+the c-oxidizing cofactor. in a class ia or ib enzyme, the c oxidant
+is a stable tyrosyl radical (y•) in the proximity of a carboxylatebridged dimetal cluster [fe2iii/iii in class ia (6-8) and either
+fe2iii/iii (9, 10) or mn2iii/iii (11-13) in class ib]. the reaction
+begins with the one-electron oxidation of the c (c439 in the
+ec enzyme) in r2 by the y• (y122• in the ec enzyme) in  xxxg837xxx   xxxg1553xxx   xxxg2356xxx  (5).
+after substrate reduction, the c• reoxidizes the transiently reduced
+y back to its radical form. this intersubunit radical transfer step
+has several notable characteristics. first, the y• in  xxxg837xxx   xxxg1553xxx   xxxg2356xxx  is (in the
+protoyptical ec enzyme) thought to be ∼35 å from the radical c
+in r2 (5, 14, 15), a distance too large for c oxidation to proceed at
+the required rate by a single electron tunneling step. evidence
+indicates that the et instead proceeds by a multistep tunneling
+(“radical hopping” or “electron relay”) mechanism, in which
+transient “pathway” radicals form along a chain of conserved,
+aromatic amino acids (in the ec enzyme, w48 and y356 in  xxxg837xxx   xxxg1553xxx   xxxg2356xxx  and
+y730 and y731 in r2) to transfer the electron from the c to the y•
+r 2010 american chemical society
+
+article
+
+figure 1: structural representations of the fe2iii/iii forms of ec  xxxg837xxx   xxxg1553xxx   xxxg2356xxx 
+
+(a) and ct  xxxg837xxx   xxxg1553xxx   xxxg2356xxx  (b) generated from the crystallographic coordinates
+available in protein data bank entries 1mxr and 1syy, respectively. proposed proton transfer steps associated with gating of pcet
+are indicated with blue arrows in panels a and b. in panel c, the
+proposed electron transfer pathways of ct rnr specific to catalysis
+(red dotted line) and activation of  xxxg837xxx   xxxg1553xxx   xxxg2356xxx  by formation of its mniv/feiii
+cofactor (green dotted line) are shown. the black arrows indicate
+amino acid residues important in reduction of the mniv/feiiibeta2 3 r2 3 cdp 3 atp complex to the mniii/feiii form by hydroxyurea.
+a symbolic scheme of the residues involved in electron transfer is
+shown in the inset.
+
+and back again (16-23). second, the individual et steps leading
+to the net ∼35 å radical transfer are thought to be coupled to
+proton transfers (proton-coupled et or pcet) (5, 24). third, in
+the ec class ia rnr, the pcet step is gated by the protein so that
+it occurs only in the ready holoenzyme complex, and binding of
+the substrate to r2 is the key for opening of the gate (20, 22, 23, 25).
+this conformational gating provides the mechanism by which the
+potently oxidizing y122• can be stable for hours, even in the
+presence of reductants that are sufficiently potent to reduce it
+(e.g., ascorbate and thiols), but then accept the electron from c439
+in tens to hundreds of milliseconds (25) upon assembly of the ready
+holoenzyme complex and opening of the gate. the gating mechanism for the intersubunit pcet remains to be defined but is likely
+to involve dynamic control of one or more of the coupled proton
+transfer steps in response to protein conformation. in the simplest
+case, substrate binding to r2 in the r2 3  xxxg837xxx   xxxg1553xxx   xxxg2356xxx  complex (with the proper
+effector also bound) could induce a conformational change
+favoring a crucial proton transfer [perhaps to the buried cofactor
+y• (5, 24) (figure 1a)], allowing the oxidizing equivalent to
+propagate outward onto pathway residues and ultimately onto
+the c residue in the r2 active site. however, it should be noted that
+some class i rnrs have been shown to engage in more complex
+subunit oligomerization equilibria, involving not only free r2,
+free  xxxg837xxx   xxxg1553xxx   xxxg2356xxx , and r2beta2 but also higher-order complexes r4beta4 and
+r6beta6 (26-33). because the oligomerization state drastically affects
+activity and binding of nucleotides affects the oligomerization
+state (26-33), it is possible that these changes could, in some cases,
+be involved in the gating transition.
+the y• in a class ia/b rnr can be reduced by a number of oneelectron reductants (6, 34). because this reaction inactivates
+rnr to inhibit dna synthesis, it is medically important. one
+such y• reductant, hydroxyurea (hu), is used as an anticancer
+and antiviral agent (35). its reaction with ec  xxxg837xxx   xxxg1553xxx   xxxg2356xxx  has been studied
+by several groups (36-39). hu reduces the y122• of ec rnr
+
+biochemistry, vol. 49, no. 25, 2010
+
+5341
+
+∼10 times more rapidly in the presence of r2, substrate, and
+allosteric effector (turnover conditions) than in the absence of
+these components (36). this observation was interpreted as
+evidence that y122• reduction by hu proceeds by two distinct
+mechanisms: direct access by the drug to the buried y122• in
+“resting”  xxxg837xxx   xxxg1553xxx   xxxg2356xxx  (39) and interception of a pathway radical intermediate of the multistep pcet process under turnover conditions (36, 38). one would expect the first mechanism not to
+require a functional pcet pathway. this expectation was
+verified for the class ia rnr from mus musculus (40). by
+contrast, the more interesting second mechanism would be
+expected to occur only with the pcet pathway at least partially
+intact, i.e., not in variant  xxxg837xxx   xxxg1553xxx   xxxg2356xxx  subunits with the oxidizing equivalent
+effectively confined to the cofactor y• by mutagenesis of one of
+the cofactor proximal pathway residues. surprisingly, this simple
+and direct test was not subsequently reported for the ec enzyme
+or for any other class i rnr. thus, the notion that hu can
+intercept a pathway radical intermediate of the multistep pcet
+has remained merely interesting speculation.
+the class ic rnr from the obligate intracellular human
+pathogen, chlamydia trachomatis (ct), employs a high-valent,
+heterodinuclear mniv/feiii cofactor to initiate catalysis (41-44).
+in a structural sense, the mniv ion replaces one fe ion from the
+diiron cluster of a class ia rnr, and in a functional sense, it
+replaces the y•. the mniv/feiii cofactor forms via a mniv/feiv
+intermediate upon reaction of the mnii/feii form of ct  xxxg837xxx   xxxg1553xxx   xxxg2356xxx  with
+o2 (45). the electron needed to convert the feiv site of the
+intermediate to the feiii ion of the stable cofactor is transferred to
+the cluster site by w51 (the functional counterpart of w48 in
+ec  xxxg837xxx   xxxg1553xxx   xxxg2356xxx ) and y222, a residue that has no role in the catalytic pcet
+process and no functional counterpart in the class ia/b proteins (figure 1) (46). analogy to the well-studied ec enzyme and
+results of mutagenesis experiments (46) imply that, during
+catalysis, forward pcet from c672 converts the mniv/feiii
+cluster to the mniii/feiii form, which has an s = 1/2 ground state
+and is therefore epr-active. the epr spectrum of mniii/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx 
+produced by dithionite (dt) reduction of the mniv/feiii state in
+the absence of r2, substrate, and the allosteric effector is broad
+and poorly resolved, suggesting heterogeneity in the structure
+of the cluster (41). by contrast, reduction by dt in the presence
+of his6 -delta(1-248)r2 [a catalytically active, affinity-tagged,
+n-terminally truncated form of r2 that is more stable than the
+wild-type subunit (47) and has been used in our previous mechanistic studies of ct rnr (41, 46) and throughout this work],
+substrate, and the allosteric effector (turnover conditions) results
+in a narrower, well-resolved epr spectrum indicative of a structurally homogeneous state (41). the same well-resolved epr
+signal is also observed when the ct rnr holoenzyme acts on the
+mechanism-based inactivator, 20 -azido-20 -deoxy-adp (41), and
+when it is reduced by hu (48). it seems likely that the structural
+perturbations to the cofactor revealed by the changes in the epr
+spectrum of the mniii/feiii redox state reflect the pcet gating
+transition.
+in this work, we have defined the requirements for generation
+of the homogeneous mniii/feiii state with the resolved epr
+spectrum and have probed the mechanism of its production by
+hu. the data provide direct evidence of two distinct mechanisms
+for reaction of the mniv/feiii cofactor with hu [as previously
+suggested for the ec enzyme (36, 38, 39)], with one involving
+interception of a pathway y• generated by excursion of the hole
+from the mniv site upon opening of the pcet gate, and the other
+involving direct reaction with the mniv/feiii cluster. they
+
+5342
+
+biochemistry, vol. 49, no. 25, 2010
+
+jiang et al.
+
+figure 2: x-band epr spectra showing the requirements for formation of the homogeneous mniii/feiii state in  xxxg837xxx   xxxg1553xxx   xxxg2356xxx  upon treatment of mniv/
+
+feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx  with either dt (a) or hu (b). 300 mum beta monomer containing 0.75 equiv of mniv/feiii cluster was present in all samples. the presence (þ)
+or absence (-) of the various other components is indicated on the right side of the corresponding spectrum. when included, the other components
+were present at concentrations of 900 mum r, 10 mm dtt, 4 mm cdp, 1 mm atp, 20 mm dt, and 20 mm hu. all components except dt or
+hu were mixed, and the reductant was quickly added. samples were incubated for 5 min at ambient temperature in the absence of o2 before being
+frozen. spectra were acquired with a temperature of 14.0 ( 0.2 k, a microwave frequency of 9.45 ghz, a microwave power of 200 muw, a
+modulation frequency of 100 khz, a modulation amplitude of 1 mt, a scan time of 167 s, and a time constant of 167 ms.
+
+indicate that, as in the ec enzyme (20, 22, 23, 25), binding of the
+substrate opens the gate. they further suggest that the gate
+resides close to the cofactor in  xxxg837xxx   xxxg1553xxx   xxxg2356xxx , involving, at most, only w51
+among all the pcet pathway residues.
+materials and methods
+construction of vectors to overexpress the y991f,
+y990f, and c672s variants of his6-delta(1-248)r2. the
+residue numbering corresponds to the wild-type sequence. the
+substitutions were introduced by the polymerase chain reaction
+(pcr) with pet-28a- xxxg321xxx -delta(1-248)-wt as the template (41).
+details are provided in the supporting information.
+overexpression and purification of r2 and  xxxg837xxx   xxxg1553xxx   xxxg2356xxx  proteins.
+wild-type and variant  xxxg837xxx   xxxg1553xxx   xxxg2356xxx  proteins and his6-delta(1-248)r2 and
+its site-directed variants were prepared as previously described (41, 46). residual nd(t)p/dnd(t)ps bound to his6delta(1-248)r2 were digested by treatment with calf intestinal
+phosphatase (cip) (new england biolabs) at a concentration
+of 40 units/ml at ambient temperature for 30 min. the solution
+was loaded onto a ni-nta column again, and cip was washed
+out. his6-delta(1-248)r2 was then eluted and concentrated, as
+previously described (41). the protein was stored in 100 mm
+hepes buffer (ph 7.6) and 10% (v/v) glycerol. complete
+removal of cip was verified by testing for its activity in the final
+solution by mass spectrometry.
+preparation of mniv/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx . mniv/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx  was prepared
+by slow addition of feii to a solution of mnii and  xxxg837xxx   xxxg1553xxx   xxxg2356xxx  under
+aerobic conditions, as previously described (49).  xxxg837xxx   xxxg1553xxx   xxxg2356xxx  prepared in
+this way contains 90% of the total fe in the form of the mniv/
+feiii cluster and exhibits a specific activity of 0.4 ( 0.1 s-1
+
+(per beta monomer) at 22 ( 2 °c in the presence of a 10-fold molar
+excess of his6-delta(1-248)r2.
+stopped-flow absorption, freeze-quench epr, and
+m€
+ossbauer experiments. the stopped-flow apparatus, the
+epr and m€ossbauer spectrometers, and the freeze-quench
+apparatus and procedures have been described previously (45).
+m€ossbauer spectra were analyzed with wmoss. absorbance
+versus time traces after equal volume mixing of a solution of
+mniv/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx , his6-delta(1-248)r2, and atp with a solution of
+cdp and hydroxyurea were analyzed by nonlinear regression
+according to eq 1
+aðtþ ¼ a0 þ deltaa1 ½1 - expð - k1 tþ þ deltaa2 ½1 - expð - k2 tþ ð1þ
+where k1 and k2 are apparent first-order rate constants, deltaa1 and
+deltaa2 are amplitudes for the exponential phases, and a0 is the
+absorbance at time zero.
+results and discussion
+effects of the presence of r2, the substrate, and the
+allosteric effector on the epr spectrum of the mniii/feiii
+cluster. to define requirements for the development of the wellresolved epr signal of the mniii/feiii cluster in  xxxg837xxx   xxxg1553xxx   xxxg2356xxx , components
+of the presumptive mniv/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx  3 r2 3 substrate 3 effector complex
+were systematically omitted. these samples were treated with
+either dt or hu (or no reductant in the control samples) and
+characterized by epr spectroscopy (figure 2). as expected, in the
+absence of reductant, neither mniv/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx  alone nor the protein
+in the presence of his6-delta(1-248)r2, cdp, and atp exhibits an
+epr signal (spectra a1, a2, b1, and b2). samples in which dt
+reduction of  xxxg837xxx   xxxg1553xxx   xxxg2356xxx  was conducted in the absence of all other
+
+article
+components (spectrum a3), the presence of his6-delta(1-248)r2 only
+(spectrum a4), or the presence of his6-delta(1-248)r2 and atp
+(spectrum a5) exhibit nearly identical, broad, heterogeneous epr
+spectra. these observations suggest that binding of the substrate,
+cdp, triggers the transition that permits generation of the
+resolved, homogeneous epr signal (spectrum a7). dt reduction
+in the presence of all components but the allosteric effector, atp,
+gives a signal (spectrum a6) that is the superposition of the broad
+and well-resolved spectra, suggesting that atp may potentiate the
+effect of the substrate.
+by contrast to its reduction by dt, treatment of mniv/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx ,
+either alone or in the presence of only his6-delta(1-248)r2, with hu
+does not generate an epr-active species (spectra b3 and b4,
+respectively). in the presence of both his6-delta(1-248)r2 and atp,
+hu generates only a weak (∼10% of the maximum intensity)
+resolved signal (spectrum b5), implying that the allosteric effector
+does not by itself efficiently promote the structural transition
+permitting generation of the resolved signal.2,3 again, the presence of the substrate, cdp, is the key for the development of
+the resolved signal (spectrum b7). indeed, the signal reaches its
+maximal intensity in the absence of the effector, atp (spectrum
+b6), as long as cdp is present. thus, the results with both dt
+and hu imply that binding of the substrate triggers the structural
+change reported by the epr spectrum of the reduced state.
+kinetics of hu reduction of mniv/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx  in the
+absence and presence of his6-delta(1-248)r2, cdp, and
+atp. the kinetics of the reactions of mniv/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx  with hu
+in the absence and presence of his6-delta(1-248)r2, cdp, and atp
+were defined in stopped-flow absorption (sf-abs) and freezequench epr (fq-epr) experiments. both the mniv/feiii cluster
+and the reduction products have broad absorption bands between 300 and 500 nm without prominent peaks, but the features of the products are less intense, resulting in a decrease in
+absorbance in the 300-500 nm region during the reaction (49).
+deltaa390 versus time traces from the reaction of mniv/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx  with
+hu at 22 ( 2 °c in the presence of his6-delta(1-248)r2, cdp, and
+atp exhibit two well-resolved phases (figure 3a). the fact that
+the fast phase is absent in the reaction of only mniv/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx  with
+hu (figure 3b) suggests that this phase is associated with
+formation of the s = 1/2 mniii/feiii cluster. this inference is
+confirmed by the results of freeze-quench epr experiments at a
+single hu concentration (20 mm). development of the wellresolved epr signal (figure s1 of the supporting information
+and solid squares in figure 3a) is clearly coincident with the fast
+phase in the sf-abs trace from the experiment at the same hu
+concentration (black circles in figure 3a). the solid line through
+the experimental epr intensities (squares) corresponds to a firstorder rate constant of 0.10 ( 0.03 s-1, in excellent agreement
+with the apparent first-order rate constant of 0.09 ( 0.02 s-1
+obtained by fitting (as described below) the sf-abs trace from
+2
+it is likely that the weak signal generated in the presence of atp but
+in the absence of cdp reflects the effect of an adp contaminant in the
+atp solution. (adp is a substrate for the enzyme.) analysis of the atp
+solution by mass spectrometry confirmed that ∼16% of atp had been
+hydrolyzed
+to adp.
+3
+in the study by roshick et al. (47), truncation of residues 1-248 of
+r2, which removes a region that is marked by its sequence as a  xxxd1148xxx 
+binding site, did not appear to affect the behavior of the subunit toward
+the activator, atp. however, because a potential nucleotide binding site
+that is present in the wild-type subunit is absent in our his6-delta(1-248)r2,
+caution is warranted in extending to the wild-type r2 subunit the
+conclusion that atp binding plays a relatively minor role in his6delta(1-248)r2 in promoting the structural transition that permits formation of the mniii/feiii cluster with the well-resolved epr spectrum.
+
+biochemistry, vol. 49, no. 25, 2010
+
+5343
+
+figure 3: (a) kinetics of the absorbance changes at 390 nm (left
+
+y-axis) during the reaction of mniv/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx  with hu in the presence
+of r2, cdp, and atp at ambient temperature (22 ( 2 °c) and relative
+intensities of the epr signal characteristic of the homogeneous
+mniii/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx  state (right y-axis). a solution containing 400 mum beta
+monomer (0.75 equiv mniv/feiii cluster), 800 mum r monomer,
+20 mm dtt and 2 mm atp was mixed with an equal volume of
+reaction buffer containing 8 mm cdp and hu at a concentration
+appropriate to give the hu concentration listed in the figure (after
+mixing). the solid lines overlaid are fits of eq 1 to the data. the black
+squares are the epr signal intensities extracted from the spectra
+shown in figure s1 of the supporting information. the solid line is
+a fit of a single-exponential phase to the data, which gives a rate
+constant of 0.10 ( 0.03 s-1. (b) kinetics of the reaction of mniv/feiiibeta2 with hu. the reaction was initiated in the same fashion described
+above but in the absence of r2, cdp, atp, and dtt. (c) dependence
+of the apparent first-order rate constants for the reactions on the
+concentration of hu. k1,obs (black circles) was extracted from the fast
+phase in panel a, and the overlaid solid line is the hyperbolic fit to the
+data, which gives a limiting reduction rate constant (asymptote of the
+hyperbolic fit) of 0.7 ( 0.1 s-1. k2,obs (red squares) was extracted from
+the reactions in panel b. the linear fit gives the second-order rate
+constant (slope) of (9.0 ( 2.0)  10-3 m-1 s-1.
+
+the experiment at the same hu concentration (solid line through
+the circles). the biphasic sf-abs traces from the reaction under
+turnover conditions were analyzed according to eq 1. the
+apparent first-order rate constant for the fast phase depends
+hyperbolically on hu concentration (black circles in figure 3c),
+with a limiting rate constant of 0.7 ( 0.1 s-1 and an apparent
+second-order rate constant of 8 ( 4 m-1 s-1. by contrast, the
+traces from the reaction of mniv/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx  only with hu are
+monophasic, and a plot of the observed first-order rate constant
+versus hu concentration is linear (red squares in figure 3c),
+giving a second-order rate constant (slope) of (9 ( 2)  10-3 m-1 s-1.
+thus, the fast phase of the reaction under turnover conditions
+is ∼900-fold faster than the reaction of free mniv/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx . the
+slower phase in the reaction under turnover conditions correlates
+
+5344
+
+biochemistry, vol. 49, no. 25, 2010
+
+figure 4: m€ossbauer spectra illustrating the different outcomes of
+the reaction of mniv/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx  with hu. (a) m€
+ossbauer spectra (at
+4.2 k and 53 mt) of samples in which mniv/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx  (800 mum beta and
+0.75 equiv of mniv/feiii cluster) was reacted with 20 mm hu at
+ambient temperature for 1 min (black hashed vertical bars) or 10 min
+(red solid line) in the presence of 1.2 mm r, 10 mm dtt, 1 mm atp,
+and 10 mm cdp. the black solid line is the spectrum of the
+heterogeneous mniii/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx  state (49). the black and red arrows
+indicate the conversion of the mniv/feiii form to the new feiiicontaining complex. the blue arrows indicate the outer lines of the
+magnetically split subspectrum of the mniii/feiii cluster (∼45%
+of the total intensity). the amounts of mniii/feiii cluster in
+the two samples are identical within experimental uncertainty. (b)
+m€
+ossbauer spectra (at 4.2 k and zero field) of samples prepared by
+treatment of mniv/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx  (top) with 20 mm hu for 30 min at
+ambient temperature (bottom). the solid lines on top are simulations
+as indicated in the text. the blue and red lines represent the
+contributions of the mniv/feiii cluster and the new feiii-containing,
+diamagnetic species, respectively.
+
+with the single phase in the reaction of free mniv/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx . the
+presence of this second phase, even with a 2-fold molar excess
+of his6-delta(1-248)r2 (which is expected to saturate  xxxg837xxx   xxxg1553xxx   xxxg2356xxx  at these
+high subunit concentrations), can be explained by invoking
+asymmetry and a resultant “half-of-sites” reactivity in the ct
+rnr holoenzyme complex, which was previously observed for
+class ia rnrs (15, 20, 22, 50, 51). additional evidence for halfof-sites reactivity in ct rnr is provided below.
+m€
+ossbauer-spectroscopic evidence for two distinct
+products from hu treatment of mniv/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx . the product of both the reaction of free mniv/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx  with hu and the
+slow phase of the reaction under turnover conditions is eprsilent and was therefore characterized by m€ossbauer spectroscopy, a method that can provide information about any fecontaining species, regardless of spin or oxidation state (52).
+the 4.2 k, 53 mt m€ossbauer spectra of samples prepared by
+incubation of mniv/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx , his6-delta(1-248)r2, cdp, and atp
+with 20 mm hu at ambient temperature for 1 and 10 min are
+shown in figure 4a as black vertical bars and a red line,
+respectively. these two reaction times correspond to completion
+of the first, fast phase (1 min) and approximately one-quarter of
+the way through the second phase (10 min). both spectra display
+two broad peaks at -5 and 5 mm/s (blue arrows), which we
+
+jiang et al.
+
+figure 5: m€ossbauer spectra (at 4.2 k) of the product of the
+reaction of free mniv/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx  and hu recorded in external magnetic
+fields of 4 t (top) and 8 t (bottom) applied parallel to the gamma-beam.
+ xxxg217xxx  (3.0 mm monomer containing 0.75 equiv mniv/feiii
+cluster per monomer) was incubated with 60 mm hu at ambient
+temperature for 25 min before being frozen. the contributions of
+mniv/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx  (57% intensity), the diamagnetic feiii-containing cluster
+(33% intensity), and the mononuclear high-spin feiii impurity (10%
+intensity) are shown as blue, red, and green lines, respectively. simulation parameters are as follows: s = 5/2, d = -0.38 cm-1, e/d = 0.31,
+g = (2.0, 2.0, 2.0), deltaeq = 0.56 mm/s, delta = 0.46 mm/s, afe/gnbetan =
+(-22, -22, -22) t, eta = -0.19 (green lines); s = 0, deltaeq = -0.88 mm/s,
+delta = 0.49 mm/s, eta = -0.43 (red lines); s = 1, d = -1.9 cm-1, e/d =
+0.33, g = (2.0, 2.0, 2.0), deltaeq = -1.38 mm/s, delta = 0.52 mm/s, afe/
+gnbetan = (-39.0, -39.2, -37.6) t, eta = -0.23 (blue lines). the black
+lines overlaid with the experimental spectra are the summations of the
+three components.
+
+assign as the outer lines of the magnetically split spectrum of the
+homogeneous mniii/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx  state formed under turnover conditions. this spectral component accounts for ∼45% of the total
+intensity. comparably broad and poorly resolved features were
+previously observed for the heterogeneous mniii/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx  state
+produced by dithionite reduction of mniv/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx  alone (49),
+and this spectrum is shown as a solid black line for the sake of
+comparison. because approximately half of the intensity of the
+m€ossbauer spectrum can be attributed to the mniii/feiii complex, the product of the fast phase, these results provide additional evidence for half-of-sites reactivity of the presumptive
+ xxxg837xxx   xxxg1553xxx   xxxg2356xxx  3 his6-delta(1-248)r2 3 cdp 3 atp complex. the remaining fraction of the 1 min spectrum can be attributed to the features of the
+mniv/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx  complex (42). comparison of the spectra of the
+1 and 10 min samples reveals that prolonged incubation with hu
+yields a small amount (∼10%) of a new quadrupole doublet,
+indicated by red arrows. this quadrupole doublet also develops
+when mniv/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx  is reacted with hu in the absence of his6delta(1-248)r2, cdp, and atp. in the 4.2 k, zero-field m€ossbauer
+spectrum of this  xxxg837xxx   xxxg1553xxx   xxxg2356xxx -only sample (figure 4b), the contribution
+from the mniv/feiii cluster (blue line) is diminished by 36%
+relative to that in the starting mniv/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx  complex, and an
+asymmetric quadrupole doublet with parameters typical of highspin feiii [isomer shift delta = 0.49 mm/s and quadrupole splitting
+parameter |deltaeq| = 0.88 mm/s (red line)] accounts for the lost
+intensity. in particular, the isomer shift implies that the oxidation
+state of the iron does not change during the reaction with hu.4
+this new species was further characterized by its m€ossbauer
+4
+alternatively, the novel features can be simulated with two symmetric quadrupole doublets of equal intensity. the parameters (delta1 =
+0.55 mm/s, deltaeq1 = 0.76 mm/s, delta2 = 0.46 mm/s, and deltaeq2 = 0.94 mm/s)
+also support the assignment as high-spin feiii for both subsites.
+
+article
+
+figure 6: m€ossbauer spectra of the products of the reaction of
+mniv/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx  with (1) hydroxyurea, (2) hydroxylamine, (3) n,ndimethylhydroxylamine, (4)  xxxd66xxx , and (5) hydrazine. spectra were collected at 4.2 k without an applied field (a) and
+in an external magnetic field of 53 mt oriented parallel to the gamma beam
+(b). the arrows indicate the position of the quadrupole doublet of the
+feiii-containing diamagnetic species. the reaction of mniv/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx 
+with hydrazine does not result in generation of the feiii-containing
+diamagnetic species. to illustrate this, the spectra of the mniv/feiii
+form (with 90% of the total intensity) are overlaid for the sake of
+clarity as solid red lines. instead, a small amount of a high-spin feii
+species (∼10%), which is evident from the weak absorption feature at
+∼3 mm/s, is formed in the reaction with hydrazine.
+
+spectra in applied fields of 4 and 8 t (figure 5). analysis of these
+spectra reveals that the sample contains three components: mniv/
+feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx  (57% intensity, blue lines), the new feiii-containing
+complex (33% intensity, red lines), and a mononuclear high-spin
+feiii impurity (10% intensity, green lines). the parameters used
+for the simulation of the mniv/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx  complex (see the legend of
+figure 5) are slightly different from (but within 3% of) those
+previously published (42), perhaps suggesting that this cluster
+may access slightly different conformations, as we previously
+suggested on the basis of observed variations in deltaeq (49). the
+spectral features of the new feiii-containing species can be
+satisfactorily simulated with the parameters (delta and deltaeq) determined from analysis of the low-field spectra (given above) and the
+assumption that this complex has a diamagnetic (s = 0) electron
+spin ground state.
+we have considered three possibilities for the identity of the
+diamagnetic, feiii-containing species. first and simplest, hu
+could act as a two-electron reductant, converting the mniv/feiiibeta2 complex to a mnii/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx  form, which would be expected to
+have a diamagnetic ground state arising from antiferromagnetic
+coupling between the mnii (smn = 5/2) and feiii (sfe = 5/2) ions.
+however, given that the mnii/feii and mniii/feiii forms of  xxxg837xxx   xxxg1553xxx   xxxg2356xxx 
+both react efficiently with h2o2 to produce mniii/feiii and
+mniv/feiv complexes, respectively (49), we anticipated that a
+mnii/feiii form should also react with h2o2, presumably to form
+the mniv/feiii cluster. the diamagnetic complex does not react
+efficiently with h2o2 (figure s2 of the supporting information).
+moreover, treatment of mniv/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx  with a different twoelectron reductant, hydrazine (n2h4), does not produce the
+diamagnetic complex (figure 6). these considerations weigh
+against a mnii/feiii assignment. second, the diamagnetic,
+feiii-containing species could be an adduct between a formal
+
+biochemistry, vol. 49, no. 25, 2010
+
+5345
+
+figure 7: x-band epr spectra of samples prepared by reaction of
+
+wild-type or variant mniv/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx  with hu or dt in the presence of
+r2 (wild type or variant), cdp, and atp. the corresponding
+schematic of the branched electron transfer pathways is shown at
+the left, with redox-active residues colored black and redox-inactive
+ones colored red. an o2-free solution containing 300 mum beta monomer
+(0.75 equiv of mniv/feiii cluster), 900 mum r monomer, 4 mm cdp, 1
+mm atp, and 10 mm dtt was constituted. hu or dt was then
+added to a final concentration of 20 mm, and the solution was
+incubated for 5 min at ambient temperature before being frozen.
+spectra were acquired with a temperature of 14.0 ( 0.2 k, a
+microwave frequency of 9.38 ghz, a microwave power of 200 muw,
+a modulation frequency of 100 khz, a modulation amplitude of
+1 mt, a scan time of 20.97 s, and a time constant of 5.12 ms.
+
+mniii/feiii cluster and no•. the mniii/feiii cluster could be
+generated by one-electron reduction of the mniv/feiii form by
+hu, which would yield an aminoxyl radical (37). the mniii/feiii
+cluster could then react with no•, which is known to form in
+solutions containing hu (53), to yield the mniii/feiii-no•
+adduct. however, attempts to make the complex in high yield
+by direct exposure of a solution of mniii/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx  to no• were
+unsuccessful: analysis of spectra of a sample prepared in this
+manner (figure s3 of the supporting information) suggests that
+only ∼10% of the total intensity can be attributed to the
+characteristic quadrupole doublet. this observation provides
+argument against the second possibility.
+the third possibility, and the one that we favor, is that the
+feiii-containing, diamagnetic complex generated in the reaction of mniv/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx  with hu forms by slow one-electron reduction by hu of the mniv/feiii cluster to a mniii/feiii form followed by coordination of the hu-derived aminoxyl radical (37)
+to the cluster, presumably to the feiii site to account for the
+s = 0 ground state. such coordination of aminoxyl radicals to
+transition metals has been reported (54, 55). the diamagnetic
+ground state could then be rationalized by antiferromagnetic
+interactions between the feiii (sfe = 5/2) and mniii (smn = 2) sites
+and between the feiii site and the aminoxyl radical (saminoxyl = 1/2).
+consistent with this hypothesis, other compounds containing an
+n-oh group [nh2-oh, (ch3)2n-oh, and ch3-(co)nh-oh] also promote development of the quadrupole doublet
+
+5346
+
+biochemistry, vol. 49, no. 25, 2010
+
+characteristic of the diamagnetic feiii-containing complex when
+incubated with mniv/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx  (figure 6). this structural explanation for the diamagnetic state requires direct access of the
+n-oh bond-containing reductant to the cofactor, as previously
+suggested for hu inactivation of ec  xxxg837xxx   xxxg1553xxx   xxxg2356xxx  in isolation (i.e., not under
+turnover conditions) (39).
+roles of et pathway residues in the one-electron
+reduction of the mniv/feiii cofactor. the roles of the
+catalysis-specific pcet pathway residues in  xxxg837xxx   xxxg1553xxx   xxxg2356xxx  (w51 and
+y338) (47, 56) and r2 [y991, y990, and c672; residue numbers
+reflect the sequence of the wild-type subunit (47) rather than his6delta(1-248)r2] and the activation-specific residue, y222, in  xxxg837xxx   xxxg1553xxx   xxxg2356xxx  (46)
+in mediating one-electron reduction of the mniv/feiii cofactor
+by hu were probed by replacement of these residues, individually and in combination, with functionally incompetent surrogates (phenylalanine, f, for the w and y residues and serine, s,
+for c672) (figure 1c). with the exception of  xxxg837xxx   xxxg1553xxx   xxxg2356xxx -w51f (discussed
+below), hu treatment of any of the various single variants in the
+presence of cdp, atp, and the wild-type partner subunit gives
+the homogeneous epr signal (figure 7). it is tempting to
+conclude that the tyrosines of the pcet pathway have no role
+in mediating the one-electron reduction, but the result with
+the  xxxg837xxx   xxxg1553xxx   xxxg2356xxx -y222f/y338f double variant shows otherwise. very little
+epr intensity develops upon hu treatment of this double
+variant in the presence of his6-delta(1-248)r2, cdp, and atp.
+the fact that the resolved signal is readily generated by treatment
+of mniv/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx -y222f/y338f with the stronger reductant,
+dt, in the presence of his6-delta(1-248)r2, cdp, and atp shows
+that the double variant is inherently competent to undergo
+whatever conformational change might be necessary to yield
+the homogeneous mniii/feiii state upon binding to the his6delta(1-248)r2 3 cdp 3 atp complex. thus, either y222 or y338
+in  xxxg837xxx   xxxg1553xxx   xxxg2356xxx  (but not both) is required for the one-electron reduction
+outcome effected by hu under turnover conditions. this observation is the best evidence available for the hypothesis
+[advanced originally in studies of the ec class ia rnr (36, 38)
+but never tested by validation of the expected pcet pathway
+dependence] that hu can intercept a y• under turnover conditions. the inability of  xxxg837xxx   xxxg1553xxx   xxxg2356xxx -w51f to support one-electron reduction of the mniv/feiii cluster by hu [although it does support
+formation of the diamagnetic, formally two-electron-reduced
+state (figure s4 of the supporting information)] is also consistent, as previous studies have shown that proper electron relay
+function of both y222 and y338 depends on the presence of
+w51 (46). in the case of this variant, the inability of dt to
+generate the resolved signal suggests that w51 could have a role
+in the conformational change required to form the homogeneous
+mniii/feiii state, although caution is warranted in this conclusion because of the unconservative nature of the w51f substitution and the possibility that it might propagate structural changes
+to other regions of the protein, perhaps preventing formation of
+the homogeneous state. the fact that none of the pathway
+residues in r2 is required to support formation of the resolved
+epr signal implies that hu can act at the subunit interface
+(figure 1c, black arrows), although the possibility that it can also
+act within r2 cannot be excluded from the available data.
+evidence for conformational gating of pcet in ct
+rnr. among the major outstanding questions concerning the
+function of class i rnrs are the mechanism of the multistep
+pcet process and how it is gated by the protein. the hypothesis
+of a conformational gate was initially founded on the dichotomy between the remarkable stability (many hours at room
+
+jiang et al.
+temperature) of the potently oxidizing y122• in ec  xxxg837xxx   xxxg1553xxx   xxxg2356xxx , even in
+the presence of compounds such as ascorbate and thiols that are
+clearly thermodynamically competent to reduce it, and the
+relatively rapid turnover rate of the enzyme (5-10 s-1), which
+would seem to require that c439 reduce the y122• in tens to
+hundreds of milliseconds (5, 25). over the past decade, studies by
+the stubbe group have provided a more direct demonstration of
+the postulated conformational gating and have shown that
+substrate binding is the key to opening the gate (20, 22, 23, 25).
+kinetic studies suggested that a slow conformational change
+prevents accumulation of reduced y122 (the immediate product
+of pcet) in a single turnover and rate-limits substrate reduction (25). variants of  xxxg837xxx   xxxg1553xxx   xxxg2356xxx  or r2 containing  xxxd2471xxx  (dopa) or 3-aminotyrosine (nh2-y) in place of one of the
+pcet pathway y residues were shown to be capable of accumulating dopa• or nh2-y• pathway radicals (20, 22, 23). the
+reduction potentials of these radicals are less than that of the y•,
+meaning that reduction of the y122• by the engineered dopa or
+nh2-y pathway residue is thermodynamically favored. nevertheless, pcet effectively does not proceed or proceeds very
+sluggishly until substrate is added. thus, substrate binding opens
+the pcet gate and allows the favored reaction to proceed at a
+kinetically competent rate.
+such elegant resolution of steps in the intersubunit pcet has
+not yet been achieved for ct rnr, so the notion that it is also
+conformationally gated remains a working hypothesis. nevertheless, the hypothesis is now supported by a wealth of circumstantial evidence. the ct enzyme is similar to the ec protein in
+that the oxidized cofactor is quite stable (for at least hours) in the
+free  xxxg837xxx   xxxg1553xxx   xxxg2356xxx  subunit in the presence of thiols but must accept an
+electron (presumably) from c672 in ∼1 s to account for the
+turnover number of ∼0.6 s-1 (46, 47). in addition, cdp is
+required for production of the mniii/feiii complex with the wellresolved epr signal when either dt or hu is used to reduce the
+active mniv/feiii state, and the latter reductant generates a
+distinct, diamagnetic product in the absence of substrate. the
+kinetics of hu reduction under turnover conditions are also
+consistent with data for ec rnr suggesting that the opening of
+the gate is rate-limiting for turnover. the observed “saturation”
+of the apparent first-order rate constant for the reaction with
+increasing hu concentration is most simply interpreted according to a mechanism in which (i) cdp (present in the syringe with
+hu) binds to his6-delta(1-248)r2 in its complex with  xxxg837xxx   xxxg1553xxx   xxxg2356xxx , (ii) a ratelimiting conformational change opens the gate and allows for
+propagation of the oxidizing equivalent from the mniv ion of the
+cofactor into the pathway, and (iii) hu then reduces a pathway
+radical to trap the cofactor in the mniii/feiii state. according
+to this mechanism, saturation with respect to hu concentration
+reflects the approach to 100% efficiency in trapping of the
+pathway radical by hu, and the limiting value of the rate
+constant (0.7 ( 0.1 s-1) for hu reduction reflects the rate
+constant for the gate-opening conformational change. this rate
+constant is, within error, twice the value of the turnover number
+under similar reaction conditions (0.4 s-1). if one assumes that
+only one monomer of the  xxxg837xxx   xxxg1553xxx   xxxg2356xxx  homodimer can be active at a time,
+which is indicated by the kinetic and spectroscopic data on the
+hu reaction described in this work, then these two values agree
+well. on this basis, we tentatively propose that the ct enzyme may
+be rate-limited in a single turnover and the steady state by a slow
+conformational change occurring after binding of the substrate,
+which has been shown more rigorously by stubbe and co-workers
+for the ec enzyme (20, 22, 23, 25).
+
+article
+location and nature of the pcet gate. if the interpretations given above are accepted, then the unique aspects of the
+ct enzyme and its reaction with hu provide additional insight
+concerning the location and nature of the pcet gate. in the
+reaction of the ec enzyme with hu, a ∼10-fold difference in
+the rate of y122• reduction under resting and turnover conditions (36) is the sole experimental manifestation of the postulated
+y• interception mechanism. thus, one would anticipate a 10-fold
+diminution (at most) in the rate of the reaction in a pathwaydisrupted variant, were similar experiments to be performed on
+the ec enzyme. by contrast, the ct reaction has two spectroscopically distinguishable products and a ∼900-fold difference
+in the rates of the reaction pathways leading to them. these
+features permit clearer definition of the requirements for the
+y• interception mechanism and opening of the pcet gate.
+more importantly, the existence of two intersecting electron relay
+systems connecting the surface of  xxxg837xxx   xxxg1553xxx   xxxg2356xxx  to the buried cofactor
+(the w51-y338 pathway employed in catalytic pcet and the
+w51-y222 pathway involved only in activation), a feature that is
+apparently unique to the ct system among all class i rnrs that
+have been studied to date, provides a unique probe for the location
+of the gate. although conformational transduction of the binding
+of the substrate to the opening of the pcet gate almost certainly
+involves an extensive network of interactions spanning both
+subunits, the actual gating mechanism could involve (i) primarily
+the electron-accepting mniv/feiii cofactor (e.g., by promoting
+an increase in its effective reduction potential), (ii) primarily
+the electron-donating c672 (e.g., by promoting an increase in
+its effective oxidation potential), (iii) primarily the mediating
+pathway (e.g., by modification of the disposition of component residues to engage the pathway), or (iv) some combination of these elements. the observation that substituting any
+of the pathway y residues does not prevent generation of the
+mniii/feiii product by hu implies that none of these residues
+plays a critical role in pcet gating. more specifically, the simplest
+interpretation of the observation that y222 supports formation of
+mniii/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx  in the absence of the subunit interfacial pcet
+pathway residue, y338, in a substrate-gated fashion (figure s5 of
+the supporting information) is that opening of the gate permits
+propagation of the oxidizing equivalent from the mniv ion onto
+the off-pathway y222, generating a y222• that is quenched by
+hu. this conclusion is somewhat surprising, as y222 has no role
+in catalytic pcet [as evidenced by the absence of an effect of the
+y222f substitution on the catalytic activity (46)] and would not
+necessarily be expected to communicate with the cofactor in a
+gated fashion. it is thus also quite informative, implying that gate
+opening induces a “pull” from the mniv that is sufficiently strong
+to draw an electron from the off-pathway residue, if the intended
+target (y338) is not present. thus, the gating mechanism probably
+involves an increase in the effective reduction potential of the
+cofactor, and the gate is probably located close to the cofactor.
+what is the nature of the gate? stubbe, nocera, and co-workers
+have proposed for ec rnr that a proton from the  xxxd630xxx -coordinated water is transferred to the y122 phenolic oxygen to increase
+the effective reduction potential of the y• and the proton from the
+indole nh group of w48 is transferred to  xxxd237xxx  to decrease the
+potential of the w48 radical (blue arrows in figure 1a), permitting
+migration of the radical from its resting position on y122 onto
+w48 (5, 24). we have proposed a derivative mechanism by which
+dynamic control of proton transfers might also gate pcet in the
+mn/fe-dependent ct rnr [figure 1b (44)]. this mechanism is
+founded on x-ray absorption data, which revealed the presence
+
+biochemistry, vol. 49, no. 25, 2010
+
+5347
+
+of a (mu-oxo)(mu-hydroxo)-bridged mniv/feiii cluster in ct  xxxg837xxx   xxxg1553xxx   xxxg2356xxx  (57).
+we proposed that protonation of the mu-oxo group yielding
+a bis(mu-hydroxo)-bridged cluster could increase the reduction
+potential of the mniv site to open the gate. by contrast, a recent
+computational study proposed that forward pcet is coupled to
+protonation of the hydroxo bridge, resulting in a (mu-oxo)(mu-aqua)mniii/feiii cluster (58). experiments to distinguish among these
+two models and other alternatives using electron nuclear double
+resonance (endor) spectroscopy on the well-resolved epr
+signal of the mniii/feiii state are ongoing. the pathway and
+mechanism by which the substrate binding event is transduced the
+estimated 35 å across the subunit interface to control the relevant
+proton transfers and open the gate remain to be elucidated.
+supporting information available
+procedure for construction of the vectors to express the his6
+affinity-tagged, n-terminally truncated r2 subunit [his6-delta(1-248)r2]
+and its site-directed variants, stopped-flow absorption data from the
+reaction between hu and different redox forms of  xxxg837xxx   xxxg1553xxx   xxxg2356xxx , m€ossbauer
+spectra of samples prepared by exposing mniii/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx  to nitric
+oxide, m€ossbauer spectra of samples prepared by reacting
+mniv/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx -w51f with hu, and epr spectra showing that
+production of mniii/feiii- xxxg837xxx   xxxg1553xxx   xxxg2356xxx -y338f by hu requires the presence
+of substrate. this material is available free of charge via the
+internet at http://pubs.acs.org.
+references
+1. nordlund, p., and reichard, p. (2006) ribonucleotide reductases.
+annu. rev. biochem. 75, 681–706.
+2. stubbe, j. (2000) ribonucleotide reductases: the link between an
+rna and a dna world? curr. opin. struct. biol. 10, 731–736.
+3. stubbe, j., and ackles, d. (1980) on the mechanism of  xxxd2246xxx 
+diphosphate reductase from escherichia coli. j. biol. chem. 255, 8027–
+8030.
+4. mao, s. s., yu, g. x., chalfoun, d., and stubbe, j. (1992) characterization of c439sr1, a mutant of escherichia coli ribonucleotide
+diphosphate reductase: evidence that c439 is a residue essential for
+nucleotide reduction and c439sr1 is a protein possessing novel
+thioredoxin-like activity. biochemistry 31, 9752–9759.
+5. stubbe, j., nocera, d. g., yee, c. s., and chang, m. c. y. (2003)
+radical initiation in the class i ribonucleotide reductase: long-range
+proton-coupled electron transfer? chem. rev. 103, 2167–2202.
+6. atkin, c. l., thelander, l., reichard, p., and lang, g. (1973) iron
+and free radical in ribonucleotide reductase. exchange of iron and
+m€
+ossbauer spectroscopy of the protein  xxxg221xxx  of the escherichia
+coli enzyme. j. biol. chem. 248, 7464–7472.
+7. nordlund, p., sj€
+oberg, b.-m., and eklund, h. (1990) threedimensional structure of the free radical protein of ribonucleotide
+reductase. nature 345, 593–598.
+8. stubbe, j. (2003) di-iron-tyrosyl radical ribonucleotide reductases.
+curr. opin. chem. biol. 7, 183–188.
+9. jordan, a., pontis, e., atta, m., krook, m., gibert, i., barbe, j., and
+reichard, p. (1994) a second class i ribonucleotide reductase in
+enterobacteriaceae: characterization of the salmonella typhimurium
+enzyme. proc. natl. acad. sci. u.s.a. 91, 12892–12896.
+10. huque, y., fieschi, f., torrents, e., gibert, i., eliasson, r., reichard,
+p., sahlin, m., and sj€
+oberg, b.-m. (2000) the active form of the r2f
+protein of class ib ribonucleotide reductase from corynebacterium
+ammoniagenes is a diferric protein. j. biol. chem. 275, 25365–25371.
+11. willing, a., follmann, h., and auling, g. (1988) ribonucleotide
+reductase of brevibacterium ammoniagenes is a manganese enzyme.
+eur. j. biochem. 170, 603–611.
+12. abbouni, b., oehlmann, w., stolle, p., pierik, a. j., and auling, g.
+(2009) electron paramagnetic resonance (epr) spectroscopy of the
+stable-free radical in the native metallo-cofactor of the manganeseribonucleotide reductase (mn-rnr) of corynebacterium glutamicum.
+free radical res. 43, 943–950.
+13. cotruvo, j. a., and stubbe, j. (2010) an active dimanganese(iii)tyrosyl radical cofactor in escherichia coli class ib ribonucleotide
+reductase. biochemistry 49, 1297–1309.
+
+5348
+
+biochemistry, vol. 49, no. 25, 2010
+
+14. uhlin, u., and eklund, h. (1994) structure of ribonucleotide reductase protein  xxxg1991xxx . nature 370, 533–539.
+15. bennati, m., robblee, j. h., mugnaini, v., stubbe, j., freed, j. h.,
+and borbat, p. (2005) epr distance measurements support a model
+for long-range radical initiation in e. coli ribonucleotide reductase.
+j. am. chem. soc. 127, 15014–15015.
+16. ekberg, m., sahlin, m., eriksson, m., and sj€
+oberg, b.-m. (1996) two
+conserved tyrosine residues in protein  xxxg1991xxx  participate in an intermolecular electron transfer in ribonucleotide reductase. j. biol. chem.
+271, 20655–20659.
+17. ekberg, m., p€
+otsch, s., sandin, e., thunnissen, m., nordlund, p.,
+sahlin, m., and sj€
+oberg, b.-m. (1998) preserved catalytic activity in an
+engineered ribonucleotide reductase r2 protein with a nonphysiological
+radical transfer pathway. the importance of hydrogen bond connections
+between the participating residues. j. biol. chem. 273, 21003–21008.
+18. rova, u., goodtzova, k., ingemarson, r., behravan, g., gr€aslund,
+a., and thelander, l. (1995) evidence by site-directed mutagenesis
+supports long-range electron transfer in mouse ribonucleotide reductase. biochemistry 34, 4267–4275.
+19. rova, u., adrait, a., p€
+otsch, s., gr€aslund, a., and thelander, l.
+(1999) evidence by mutagenesis that tyr370 of the mouse ribonucleotide reductase r2 protein is the connecting link in the intersubunit
+radical transfer pathway. j. biol. chem. 274, 23746–23751.
+20. seyedsayamdost, m. r., and stubbe, j. (2006) site-specific
+replacement of y356 with 3, xxxd2471xxx  in the  xxxg837xxx   xxxg1553xxx   xxxg2356xxx  subunit of e. coli ribonucleotide reductase. j. am. chem. soc. 128, 2522–
+2523.
+21. seyedsayamdost, m. r., yee, c. s., reece, s. y., nocera, d. g., and
+stubbe, j. (2006) ph rate profiles of fny356-r2s (n = 2, 3, 4) in
+escherichia coli ribonucleotide reductase: evidence that y356 is a
+redox-active amino acid along the radical propagation pathway.
+j. am. chem. soc. 128, 1562–1568.
+22. seyedsayamdost, m. r., and stubbe, j. (2007) forward and reverse
+electron transfer with the y356dopa- xxxg837xxx   xxxg1553xxx   xxxg2356xxx  heterodimer of e. coli
+ribonucleotide reductase. j. am. chem. soc. 129, 2226–2227.
+23. seyedsayamdost, m. r., xie, j., chan, c. t. y., schultz, p. g., and
+stubbe, j. (2007) site-specific insertion of 3-aminotyrosine into subunit r2 of e. coli ribonucleotide reductase: direct evidence for
+involvement of y730 and y731 in radical propagation. j. am. chem.
+soc. 129, 15060–15071.
+24. reece, s. y., hodgkiss, j. m., stubbe, j., and nocera, d. g. (2006)
+proton-coupled electron transfer: the mechanistic underpinning for
+radical transport and catalysis in biology. philos. trans. r. soc.
+london, ser. b 361, 1351–1364.
+25. ge, j., yu, g., ator, m. a., and stubbe, j. (2003) pre-steady-state and
+steady-state kinetic analysis of e. coli class i ribonucleotide reductase.
+biochemistry 42, 10017–10083.
+26. kashlan, o. b., scott, c. p., lear, j. d., and cooperman, b. s. (2002)
+a comprehensive model for the allosteric regulation of mammalian
+ribonucleotide reductase. functional consequences of atp- and
+ xxxd1148xxx -induced oligomerization of the large subunit. biochemistry
+41, 462–474.
+27. scott, c. p., kashlan, o. b., lear, j. d., and cooperman, b. s. (2001)
+a quantitative model for allosteric control of purine reduction by
+murine ribonucleotide reductase. biochemistry 40, 1651–1661.
+28. kashlan, o. b., and cooperman, b. s. (2003) comprehensive model
+for allosteric regulation of mammalian ribonucleotide reductase:
+refinements and consequences. biochemistry 42, 1696–1706.
+29. radivoyevitch, t., kashlan, o. b., and cooperman, b. s. (2005)
+rational polynomial representation of ribonucleotide reductase
+activity. bmc biochem. 6, 8.
+30. wang, j., lohman, g. j. s., and stubbe, j. (2007) enhanced subunit
+interactions with gemcitabine-50 -diphosphate inhibit ribonucleotide
+reductases. proc. natl. acad. sci. u.s.a. 104, 14324–14329.
+31. hassan, a. q., wang, y., plate, l., and stubbe, j. (2008) methodology to probe subunit interactions in ribonucleotide reductases.
+biochemistry 47, 13046–13055.
+32. kasrayan, a., birgander, p. l., pappalardo, l., regnstr€
+om, k.,
+westman, m., slaby, a., gordon, e., and sj€
+oberg, b.-m. (2004)
+enhancement by effectors and substrate nucleotides of  xxxg1991xxx -r2 interactions in escherichia coli class ia ribonucleotide reductase. j. biol.
+chem. 279, 31050–31057.
+33. rofougaran, r., crona, m., vodnala, m., sj€
+oberg, b.-m., and hofer,
+a. (2008) oligomerization status directs overall activity regulation of
+the escherichia coli class ia ribonucleotide reductase. j. biol. chem.
+283, 35310–35318.
+34. stubbe, j. (1990) ribonucleotide reductases. in advances in enzymology and related areas of molecular biology, pp 349-419, wiley,
+new york.
+
+jiang et al.
+35. donehower, r. c. (1992) an overview of the clinical experience with
+hydroxyurea. semin. oncol. 19, 11–19.
+36. karlsson, m., sahlin, m., and sj€
+oberg, b.-m. (1992) escherichia coli
+ribonucleotide reductase. radical susceptibility to hydroxyurea is
+dependent on the regulatory state of the enzyme. j. biol. chem. 267,
+12622–12626.
+37. lassmann, g., thelander, l., and gr€aslund, a. (1992) epr stoppedflow studies of the reaction of the tyrosyl radical of protein r2 from
+ribonucleotide reductase with hydroxyurea. biochem. biophys. res.
+commun. 188, 879–887.
+38. gerez, c., and fontecave, m. (1992) reduction of the small subunit of
+escherichia coli ribonucleotide reductase by hydrazines and hydroxylamines. biochemistry 31, 780–786.
+39. sneeden, j. l., and loeb, l. a. (2004) mutations in the r2 subunit of
+ribonucleotide reductase that confer resistance to hydroxyurea.
+j. biol. chem. 279, 40723–40728.
+€
+40. davydov, a., ohrstr€
+om, m., liu, a., thelander, l., and gr€aslund
+a. (2002) chemical reduction of the diferric/radical center in
+protein r2 from mouse ribonucleotide reductase is independent
+of the proposed radical transfer pathway. inorg. chim. acta 331,
+65–72.
+41. jiang, w., yun, d., saleh, l., barr, e. w., xing, g., hoffart, l. m.,
+maslak, m.-a., krebs, c., and bollinger, j. m., jr. (2007) a
+manganese(iv)/iron(iii) cofactor in chlamydia trachomatis ribonucleotide reductase. science 316, 1188–1191.
+42. jiang, w., bollinger, j. m., jr., and krebs, c. (2007) the active form
+of chlamydia trachomatis ribonucleotide reductase r2 protein contains a heterodinuclear mn(iv)/fe(iii) cluster with s = 1 ground
+state. j. am. chem. soc. 129, 7504–7505.
+43. jiang, w., yun, d., saleh, l., bollinger, j. m., jr., and krebs,
+c. (2008) formation and function of the manganese(iv)/iron(iii)
+cofactor in chlamydia trachomatis ribonucleotide reductase.
+biochemistry 47, 13736–13744.
+44. bollinger, j. m., jr., jiang, w., green, m. t., and krebs, c. (2008) the
+manganese(iv)/iron(iii) cofactor of chlamydia trachomatis ribonucleotide reductase: structure, assembly, radical initiation, and
+evolution. curr. opin. struct. biol. 18, 650–657.
+45. jiang, w., hoffart, l. m., krebs, c., and bollinger, j. m., jr. (2007)
+a manganese(iv)/iron(iv) intermediate in assembly of the manganese(iv)/iron(iii) cofactor of chlamydia trachomatis ribonucleotide reductase. biochemistry 46, 8709–8716.
+46. jiang, w., saleh, l., barr, e. w., xie, j., gardner, m. m., krebs, c.,
+and bollinger, j. m., jr. (2008) branched activation- and catalysisspecific pathways for electron relay to the manganese/iron cofactor in
+ribonucleotide reductase from chlamydia trachomatis. biochemistry
+47, 8477–8484.
+47. roshick, c., iliffe-lee, e. r., and mcclarty, g. (2000) cloning and
+characterization of ribonucleotide reductase from chlamydia trachomatis. j. biol. chem. 275, 38111–38119.
+48. voevodskaya, n., lendzian, f., ehrenberg, a., and gr€aslund, a.
+(2007) high catalytic activity achieved with a mixed manganese-iron
+site in protein r2 of chlamydia ribonucleotide reductase. febs lett.
+581, 3351–3355.
+49. jiang, w., xie, j., nørgaard, h., bollinger, j. m., jr., and krebs, c.
+(2008) rapid and quantitative activation of chlamydia trachomatis
+ribonucleotide reductase by  xxxd2298xxx . biochemistry 47,
+4477–4483.
+50. uppsten, m., f€arnegå xxxg2186xxx , m., domkin, v., and uhlin, u. (2006) the
+first holocomplex structure of ribonucleotide reductase gives new
+insight into its mechanism of action. j. mol. biol. 359, 365–377.
+51. seyedsayamdost, m. r., chan, c. t. y., mugnaini, v., stubbe, j., and
+bennati, m. (2007) peldor spectroscopy with dopa- xxxg837xxx   xxxg1553xxx   xxxg2356xxx  and
+nh2y-beta2s: distance measurements between residues involved in the
+radical propagation pathway of e. coli ribonucleotide reductase.
+j. am. chem. soc. 129, 15748–15749.
+52. krebs, c., price, j. c., baldwin, j., saleh, l., green, m. t., and
+ossbauer
+bollinger, j. m., jr. (2005) rapid freeze-quench 57fe m€
+spectroscopy: monitoring changes of an iron-containing active site
+during a biochemical reaction. inorg. chem. 44, 742–757.
+53. king, s. b. (2003) the  xxxd2738xxx  producing reactions of hydroxyurea. curr. med. chem. 10, 437–452.
+54. more, k. m., eaton, g. r., and eaton, s. (1987) metal- xxxd2738xxx 
+interactions. 52. epr spectra of  xxxd2738xxx  radicals coordinated to
+manganese(iii) tetraphenylporphyrin via the  xxxd2738xxx  oxygen. inorg.
+chem. 26, 2618–2620.
+55. dikalov, s. i., vitek, m. p., maples, k. r., and mason, r. p. (1999)
+amyloid beta peptides do not form peptide-derived free radicals spontaneously, but can enhance metal-catalyzed oxidation of hydroxylamines to nitroxides. j. biol. chem. 274, 9392–9399.
+
+article
+56. h€
+ogbom, m., stenmark, p., voevodskaya, n., mcclarty, g.,
+gr€aslund, a., and nordlund, p. (2004) the radical site in chlamydial
+ribonucleotide reductase defines a new r2 subclass. science 305,
+245–248.
+57. younker, j. m., krest, c. m., jiang, w., krebs, c., bollinger, j. m.,
+jr., and green, m. t. (2008) structural analysis of the mn(iv)/fe(iii)
+cofactor of chlamydia trachomatis ribonucleotide reductase by
+
+biochemistry, vol. 49, no. 25, 2010
+
+5349
+
+extended x-ray absorption fine structure spectroscopy and density
+functional theory calculations. j. am. chem. soc. 130, 15022–
+15027.
+58. roos, k., and siegbahn, p. e. m. (2009) density functional theory
+study of the manganese-containing ribonucleotide reductase from
+chlamydia trachomatis: why manganese is needed in the active
+complex. biochemistry 48, 1878–1887.
+

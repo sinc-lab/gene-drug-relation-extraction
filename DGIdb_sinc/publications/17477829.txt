@@ -1,0 +1,801 @@
+assay and drug development technologies
+volume 5, number 2, 2007
+© mary ann liebert, inc.
+doi: 10.1089/adt.2007.057
+
+ xxxg778xxx : real-time kinetics and
+inhibition by nitrogen-containing bisphosphonates
+in a scintillation assay
+j. fraser glickman and andres schmid
+
+abstract: a mix-and-read flashplate® (perkinelmer, waltham, ma) assay for the enzyme farnesyl
+pyrophosphate (fpp) synthase ( xxxg778xxx ) was developed to rapidly measure both steps in the synthesis
+of fpp from  xxxd1897xxx  ( xxxd1897xxx ). the assay used either  xxxd1897xxx  or geranyl
+pyrophosphate (gpp) and [3h] xxxd2397xxx  ([3h]ipp) as substrates, and measured the
+ xxxg778xxx -catalyzed conversion of these into [3h]fpp or [3h]gpp by capturing the products onto a
+phospholipid-coated scintillating microtiter plate and monitoring the product formation in a chargecoupled device imager. the michaelis-menten parameters—kcat gpp (38/min), km ipp (0.6 m), and
+km gpp (0.7 m)—were consistent with previous studies using difficult phase separation techniques.
+the 50% inhibitory concentrations of various nitrogen-containing bisphosphonates (n-bps) were
+determined and were also consistent with prior literature. without precedent, weaker inhibition (5
+m) of the non-n-bps was also detected. in preincubation studies, the potency of the n-bps, and
+specifically  xxxd3561xxx , increased slowly over time by 100-fold. this potency shift was reversed
+significantly by the inclusion of gpp with  xxxd3561xxx .  xxxd3561xxx  was uncompetitive with respect
+to ipp. thus, these studies were consistent with prior structural and thermodynamic studies, and
+suggest a rapid formation of a lower-affinity complex between  xxxd3561xxx  and the gpp binding site,
+followed by the formation of a very tight complex of  xxxd3561xxx  and enzyme, which excludes
+further binding of gpp. furthermore, one of the substrates from the first step in the catalytic cycle,
+ xxxd1897xxx , was identified as a 1 m inhibitor of the second step of the catalysis, suggesting that the
+fpp two-step synthesis is regulated by  xxxd1897xxx .
+
+introduction
+arnesyl pyrophosphate (fpp) synthase ( xxxg778xxx ) is a
+key branchpoint enzyme in the mevalonate pathway,
+which produces cholesterol and other polyisoprenes critical for membrane component synthesis and gtpasebased signal transduction.1,2 the enzyme is a 78–80-kda
+homodimer that catalyzes the formation of fpp and  xxxd2194xxx  (gpp) from  xxxd2397xxx  (ipp) and  xxxd1897xxx  ( xxxd1897xxx )
+(see fig. 1).
+
+f
+
+synthesis of fpp is catalyzed through two consecutive 1-4 (head-to-tail) condensation reactions between
+first the allylic pyrophosphate,  xxxd1897xxx  and ipp, to
+form gpp, and then a second condensation between
+gpp (an allylic pyrophosphate) and ipp-3 (see fig. 1).
+based on product inhibition studies using gpp and pyrophosphate (ppi), the kinetic mechanism has been
+shown to be “ordered bi-bi,” where a ternary complex
+is formed in two steps, first by binding of an allylic
+substrate ( xxxd1897xxx  or gpp) and then by binding of ipp
+to the enzyme, which rapidly converts through a car-
+
+novartis institutes for biomedical research, novartis pharma ag, basel, switzerland.
+abbreviations: ccd, charge-coupled device;  xxxd1897xxx ,  xxxd1897xxx ; dmso,  xxxd1896xxx ; fpp,  xxxd2086xxx ;  xxxg778xxx ,  xxxg778xxx ; gpp,  xxxd2194xxx ; ic50, 50% inhibitory concentration; ipp,  xxxd2397xxx ; itc, isothermal titration calorimetry; n-bp, nitrogen-containing bisphosphonate; ppi, pyrophosphate; spa, scintillation proximity
+assay.
+
+205
+
+206
+
+bocation intermediate into ppi and either gpp or fpp,
+the two possible products.3,4
+variations of a phase separation assay requiring high
+performance liquid chromatography separation of labeled
+products have been used to determine the steady-state
+constants of both substrates, generally in the 0.5 m
+range, with a kcat approximately between 20 and 170
+turnovers/min.2,5 using equilibrium dialysis, the kd for
+ xxxd1897xxx  was 1.8 m, for gpp was 0.17 m, and for fpp
+was 0.73 m, where  xxxd1897xxx  and gpp are competitive
+with each other. studies using both binding assays and
+catalytic assays have supported the proposal that each
+monomer of the enzyme has two sites: an allylic site 1,
+which can bind  xxxd1897xxx , fpp, or gpp, and an ipp binding site 2—although ipp can bind to site 1 in the absence
+of allylic substrates.
+ xxxg778xxx  has been found to be a target for nitrogen-containing bisphosphonate (n-bp) drugs,6,7 which are currently used for preventing bone loss resulting from osteoporosis, metastatic bone disease, and paget disease.8–11
+bisphosphonates are an unusual drug class in that when
+they are administered, they rapidly localize to bone and
+inhibit the action of osteoclasts and macrophages.1,12
+structural investigations comparing the free  xxxg778xxx  enzyme to that in complex with the n-bp  xxxd3561xxx  and
+ipp have suggested that, first, the inhibitor binds to an
+open formation of the  xxxd1897xxx /gpp site, which causes a
+partial closure, and, second, ipp binds to the enzyme–inhibitor complex and induces a full closure, thus preventing further catalysis.5,13 isothermal titration calorimetry
+(itc) has determined that the affinity of some of the nbps for  xxxg778xxx  ranges between 15 and 164 nm, additionally suggesting slow, tight binding inhibition to the enzyme.5
+of critical importance in using  xxxg778xxx  as a target for
+drug discovery is having a robust and well-characterized
+set of in vitro assays. prior  xxxg778xxx  assay methods have
+used organic:aqueous extraction, followed by chromatographic separation in order to quantify the formation of
+radiolabeled substrates and products.3,5–7,14,15 these
+methods are extremely time-consuming. based on knowledge of the enzyme’s activity, we have designed a rapid,
+miniaturized assay using scintillation proximity, similar
+to a previously reported  xxxg765xxx  assay using
+a flashplate® (perkinelmer, waltham, ma).16,17 the radiolabeled product of the  xxxg778xxx  reaction can be captured
+on a phospholipid-coated flashplate, which emits photons when tritium is in close proximity. the tritiated fpp
+that is formed binds to the plate, while the [3h]ipp does
+not. the flashplate method has the advantage of eliminating the requirement for laborious separation of the
+products from the substrates, and the reaction progress
+can be measured in real time, allowing for precise kinetic
+investigations. our studies with flashplates confirm previous evidence for slow, tight binding of n-bps to the
+
+glickman and schmid
+
+allylic site, and further suggest that  xxxd1897xxx  is a preferred substrate over gpp in a nonprocessive two-step
+synthesis of fpp.
+
+materials and methods
+materials
+recombinant human  xxxg778xxx  was cloned, expressed, and
+purified as previously described13 and stored as a 10
+mg/ml stock solution in 25 mm tris (ph 7.4), 25 mm
+nacl, and 2 mm dithiothreitol. [3h]gpp (20 ci/mmol)
+was stored as a 1 mg/ml solution in 4 parts isopropanol:3
+parts ammonia:1 part water. 1-[3h]ipp (40 ci/mmol, 1
+ci/ml; anawa trading ag, zurich, switzerland) was
+stored in ethanol:ammonia hydroxide (1:1 vol/vol) at
+80°c. 1-[3h]fpp triammonium salt (60 ci/mmol, 1
+mci/ml; anawa trading ag) was stored in 70% ethanol
+and 0.25 m ammonium bicarbonate. unlabeled fpp,
+gpp, and ipp were purchased from anawa trading ag.
+ xxxd1897xxx  was purchased from sigma (st. louis, mo).
+phospholipid-coated 384-well imaging flashplates were
+purchased from perkinelmer. all bisphosphonate compounds were from the novartis pharma ag (basel,
+switzerland) compound archive.
+ xxxg778xxx  enzyme assay
+two separate catalytic processes were measured as
+shown in fig. 1. the  xxxg778xxx  assay reaction was performed
+in a final volume of 12 l at 22°c in the flashplate, with
+four equivalent 3-l additions, each containing a compound or blank, two of the substrates, and the enzyme.
+prior to the addition into the assay reaction mix, ipp,
+fpp, gpp,  xxxd1897xxx , and  xxxg778xxx  were diluted to a 4 final concentration in an assay buffer that consisted of 20
+mm hepes (ph 7.4), 5 mm mgcl2, and 1 mm cacl2.
+all inhibitors were diluted in the same assay buffer containing 18.5%  xxxd1896xxx  (dmso) prior to addition to the assay reaction mix. thus, the only variables
+in the assay set-up were in the order of addition of the
+components to the flashplate, the final concentrations of
+the components, and the incubation time. these specific
+variables are indicated in the figure legends. for steadystate reactions, the compound or blank was added first (3
+l) and then each of two substrates (2  3 l), and the
+reaction was started with the addition of 3 l of  xxxg778xxx 
+followed by mixing. where preincubation of  xxxg778xxx  with
+compounds was examined, 6 l of the compound/ xxxg778xxx 
+mixture in assay buffer with 9% dmso was added to 6
+l of the substrates in assay buffer and mixed into the
+flashplate. the final concentrations and specific activities of the substrates and enzyme are indicated in the figure legends. after addition of all components, the mixture was incubated in the flashplates for various times
+
+ xxxg778xxx 
+
+207
+
+[s]/[s]  km, where vmax equals the maximal rate of product formation over time, [s] is the concentration of ipp,
+gpp, or  xxxd1897xxx , and km is the henri-michaelis-menten
+constant. the kcat was determined by vmax/[ xxxg778xxx ].
+the 50% inhibitory concentration (ic50) curves were
+fit to a variable slope, sigmoidal curve as y  imin  (imin
+imax)/1  10[(log ic50x) (hill slope)], where imin is the minimal percent inhibition and imax is the maximal percent
+inhibition.
+nonlinear curve fitting to the four major models of
+enzyme inhibition was accomplished with the graph-
+
+fig. 1.  xxxg778xxx -catalyzed reaction.  xxxg778xxx  catalyzes the two-step
+synthesis of fpp from ipp and  xxxd1897xxx . in the flashplate assay, [3h]ipp and either  xxxd1897xxx  (for measuring the first two
+enzymatic steps) or gpp (for measuring the second enzymatic
+step alone) can be used as substrates. the hydrophobic tritiated
+products of the reactions, [3h]gpp and [3h]fpp, are captured
+on a phospholipid-coated flashplate, which emits photons when
+tritium is in close proximity. neither the hydrophilic [3h]ipp
+nor the nontritiated substrates  xxxd1897xxx  and gpp are detected
+in the assay.
+
+at room temperature, and subsequently the radioactivity
+was counted in a leadseeker™ iv (general electric,
+cardiff, uk) charge-coupled device (ccd) imager for 2
+min using quasicoincident correction on the scintillation
+proximity assay setting.
+compounds were solubilized from powders into either
+dmso or water as 2 mm stock solutions and then diluted
+into 18% dmso/assay buffer for the inhibition studies.
+data analysis
+all parameters were determined by fitting to the various equations using the nonlinear regression algorithm of
+graphpad prism® (version 4.00 for windows, graphpad
+software, san diego ca; http://www.graphpad.com).
+steady-state kinetic parameters were fit to the
+henri-michaelis-menten steady-state equation v  vmax
+
+fig. 2. (a) discrimination of substrate and product by flashplate using ccd-imager technology, with a 12-l assay volume and incubation time of 45 min at room temperature in a
+384-well phospholipid-coated flashplate (n  6). [3h]fpp (20
+mci/mmol; ), [3h]ipp (20 mci/mmol; ), and [3h]gpp (20
+ci/mmol; ) were added independently to the plate (final volume, 12 l), and radioactivity was counted after 45 min. the
+relationship between pixel density and amount of [3h]fpp present fit the linear equation [fpp]  [(pixel density  21) 
+0.48]. (b) binding kinetics of fpp to the flashplate. twelve
+microliters of the indicated concentrations of [3h]fpp (50
+ci/mmol) in assay buffer was added at room temperature to the
+flashplate, and radioactivity was counted in the ccd imager
+at the indicated time intervals. concentrations of [3h]fpp are
+as follows: 0.05 nm (), 9 nm (), () 19 nm (), 39 nm
+(), 84 nm (), 200 nm ( ), 360 nm (), and 580 nm ( ).
+
+208
+
+glickman and schmid
+
+pad prism program using the following simultaneous
+equations, where x is the substrate concentration, y is
+the the initial catalytic rate, vo, and i is the inhibitor
+concentration. km app is the km in the presence of the
+inhibitor.
+in the competitive model:
+km app  km(1  i/ki)
+y  vmax[x/(km app  x)]
+in the noncompetitive model:
+vmax inhibitor  vmax/(1  i/ki)
+y  vmax inhibitor[x/(km  x)]
+in the uncompetitive model:
+vmax inh  vmax/(1  i/ki)
+km app  km/(1  i/ki)
+y  vmax inh  x/(km app  x)
+in the mixed model:
+km app  km[(1  i/ki)]
+y  (vmax  x)/(km app  [x(1  [i/ki])])
+where the constant ki is the [enzyme]  [inhibitor]/[enzyme–inhibitor] (at “steady-state” equilibrium) and  is
+the [enzyme–substrate–inhibitor]/[enzyme–substrate] (at
+“steady-state” equilibrium).
+
+fig. 4. km and vmax determination for ipp. (a) reaction
+progress versus [3h]ipp concentration with  xxxg778xxx   0.5 nm (6
+fmol per reaction), gpp  1,500 nm, dmso  4.5%, and 50
+ci/mmol [3h]ipp: ipp  64 nm (), 119 nm ( ), 227 nm ( ),
+429 nm ( ), and 848 nm (). (b) initial velocity versus ipp
+concentration. at t  20 min, with  xxxg778xxx   0.5 nm (n  4), km
+ipp  600  52 nm, and vmax  97  5 fmol/min.
+
+results and discussion
+flashplate assay and enzyme kinetics
+
+fig. 3. reaction progress versus  xxxg778xxx  concentration: 0 fm
+ xxxg778xxx  (), 100 fm  xxxg778xxx  (), 250 fm  xxxg778xxx  (), 500 fm  xxxg778xxx 
+(), 1,000 fm  xxxg778xxx  (), and 1,500 fm  xxxg778xxx  (). reaction
+conditions were 500 nm [3h]ipp, 500 nm gpp, assay volume
+12 l, incubation at room temperature.
+
+the assay concept is based upon differences in hydrophobicity among fpp, ipp,  xxxd1897xxx , and gpp. for
+example, fpp is very hydrophobic, while the substrate
+ipp is more hydrophilic and can be labeled with tritium.
+the product formation can be detected by using a
+phospholipid-coated flashplate, which contains surfaceembedded scintillation materials and has preferential
+binding to hydrophobic substances.16 the use of a supercooled ccd-based imaging instrument to monitor the
+assay has the advantages of rapid reading time and reduced compound interference from yellow compounds
+over prior methods using a photomultiplier tube-based
+system.18 because of the fast imager reading time, the
+enzyme kinetics can be monitored in real time, without
+
+209
+
+ xxxg778xxx 
+
+fig. 5. km and vmax determination for gpp. for ipp  1.7 m,
+at t  20 min, with  xxxg778xxx   0.5 nm (6 fmol per reaction) (n 
+4), km gpp  716  71 nm, and vmax  225  17 fmol/min.
+
+the need for the addition of a reaction-stopping step, or
+of a reaction quencher, thus making the assay well suited
+for studies of enzyme inhibition.
+the first set of experiments established that the flashplates were able to partition product away from the substrate and yield a product-specific signal. furthermore,
+these experiments served as a system for calibrating the
+amount of product formed by the enzyme based on the
+signal from the ccd instrument. figure 2a demonstrates
+that fpp can be discriminated from ipp and gpp by selective binding to the plate and, furthermore, that the pixel
+density raw data can be translated into moles of product
+formed based on a linear fit. a dynamic range was observed over at least three orders of magnitude. the relationship between the pixel density and amount of
+[3h]fpp present fit the linear equation [fpp]  [(pixel
+density  21)  0.48], and in subsequent studies this
+type of conversion was used to determine the quantity of
+fpp formed. as indicated in fig. 2b, the rate of surface
+capture of the product, fpp, was rapid, reaching saturation by 30 min. in order to eliminate the possibility of
+table 1.
+
+kinetic artifacts, all subsequent enzyme kinetic determinations were performed using time points after the 30min reaction progress and with less than 25% substrate
+conversion, such that the maximal product formed would
+be 170 nm. additional experiments using gpp gave the
+same results (data not shown). the read time for 384 assay points in parallel was 2 min, thus making the readout a suitable measure of product formation in real time.
+the next set of experiments was used to assess the activity of the  xxxg778xxx . for measuring the second step of catalysis we incubated  xxxg778xxx  with [3h]ipp and gpp in a flashplate and counted the radioactivity in the reaction at
+various time points (fig. 3). this and several other experiments with varied concentrations of ipp and gpp
+ranging between 64 nm and 1,500 nm demonstrated that
+the reaction progress was linear after 15 min, thus making it possible to measure the initial velocity at varying
+concentrations of substrate under steady-state conditions
+and determine km and vmax and make a good estimate of
+kcat (figs. 4 and 5). the variation of kcat seemed to correlate with the use of different enzyme batches in different experiments, suggesting that some preparations had
+a higher percentage of active enzymes than others. overall, our steady-state results are consistent with prior published reports of  xxxg778xxx  from various vertebrate species
+shown in table 1. it should be noted that because the assay was done in a 384-well microtiter plate and the ccd
+reader does not have temperature control, our studies
+were carried out at 22°c (with thermostatically controlled
+room heating and cooling units), whereas published studies were performed at 37°c.
+our next experiments were used to measure the catalytic conversion of  xxxd1897xxx  and ipp into gpp and, consequently, fpp. in these experiments, shown in fig. 6a,
+the  xxxg778xxx  enzyme was incubated with [3h]ipp and
+ xxxd1897xxx . in this configuration, the  xxxg778xxx  would be predicted to form gpp and then subsequently convert this
+into fpp. these experiments are more difficult to interpret kinetically, because the flashplate signal is  xxxd2870xxx -
+
+kinetic constants
+
+of
+
+ xxxg778xxx 
+km (m)
+
+report
+
+year
+
+species
+
+tissue
+
+ipp
+
+gpp
+
+kcat gpp (1/min)
+
+this report
+kavanagh et al.5
+fernandez et al.19
+ding et al.14
+poulter et al.20
+reed and rilling15
+holloway and popjak4
+
+2007
+2006
+2000
+1991
+1978
+1976
+1967
+
+human
+human
+avian
+human
+pig
+avian
+pig
+
+recombinant
+recombinant
+recombinant
+recombinant
+liver
+liver
+liver
+
+0.6  0.1
+1.8  0.33
+0.87  0.17
+0.55  0.17
+0.5  0.1
+0.5
+1.45  0.117
+
+0.7  0.1
+2.07  0.22
+0.37  0.02
+0.43  0.32
+0.71  0.06
+0.5
+4.34  0.71
+
+27  12
+25
+53  6
+nd
+nd
+170
+nd
+
+this table presents a comparison of our results with michaelis constants for  xxxg778xxx  from various sources presented in the literature.4,5,14,15,19,20 nd, not determined.
+
+210
+
+glickman and schmid
+
+up a steady-state gpp-to-fpp catalyzed reaction as described previously and included increasing concentrations
+of  xxxd1897xxx , thus demonstrating in fig. 6b that  xxxd1897xxx 
+has an ic50 of 1 m. to our knowledge this is the first
+observation that the first substrate blocks the formation of
+fpp in the second step of the reaction. assuming the gpp
+and  xxxd1897xxx  binding sites are the same,13 our results suggest that the two-step reaction is not processive. in this
+case, processivity assumes that as soon as gpp is formed
+from  xxxd1897xxx  and ipp it does not leave the binding site,
+but undergoes a movement within the catalytic pocket,
+such that fpp is formed. contrary to this assumption, our
+results suggest that the gpp formed in step 1 (fig. 1) of
+the reaction can leave the enzyme catalytic site and can be
+replaced by  xxxd1897xxx  prior to the second step of the reaction. build-up of  xxxd1897xxx  in the cell to 1 m concentrations would force the reaction towards the first step in
+catalysis—the synthesis of gpp—and only after the
+ xxxd1897xxx  concentration is reduced does the reaction proceed towards fpp synthesis.
+inhibition by bisphosphonates
+the ic50 of known bisphosphonate inhibitors was
+tested under steady-state conditions, demonstrating the
+expected potencies of the known bisphosphonate inhibi-
+
+fig. 6.  xxxd1897xxx  as a substrate and inhibitor. (a) measurement of the  xxxg778xxx -catalyzed conversion of  xxxd1897xxx  into gpp
+and fpp with [3h]ipp  1.7 m and  xxxg778xxx   1.0 nm (12 fmol
+per reaction) (n  4): 0 min (), 20 min ( ), 40 min ( ), 70
+min ( ), and 180 min (). (b) inhibition of the  xxxg778xxx -catalyzed
+conversion of gpp into fpp by  xxxd1897xxx  with [3h]ipp  200
+nm, gpp  150 nm, and  xxxg778xxx   1.0 nm (12 fmol per reaction) (n  4). ic50  1.0  0.36 m.
+
+dent upon two indistinguishable consecutive catalytic
+steps, so it was not possible to determine the kcat for this
+reaction. however, we observed under steady-state conditions a concentration dependence of  xxxd1897xxx , suggesting
+a km of approximately 0.15 m. interestingly, the curve
+was biphasic, and at about 500 nm  xxxd1897xxx  the catalytic
+rate was diminished (fig. 6a). from this observation, we
+hypothesized that  xxxd1897xxx  served as a blocker of the second step in the reaction, involving the conversion of gpp
+into fpp. an alternative explanation would be that higher
+concentrations of  xxxd1897xxx  interfered with the binding of
+fpp to the flashplate. in order to rule out this possibility,
+we examined the effect of up to 100 m  xxxd1897xxx  on binding of both [3h]fpp and [3h]gpp to the flashplate.
+ xxxd1897xxx  showed no effect on the detection or binding of
+products on the flashplate (data not shown). we then set
+
+fig. 7. inhibition of  xxxg778xxx  by bisphosphonates with
+[3h]ipp  193 nm, gpp  150 nm, at t  45 min, and  xxxg778xxx  
+1 nm (12 fmol per reaction) (n  4):  xxxd3128xxx  ( ) ic50 
+40  3.8 nm;  xxxd3561xxx  () ic50  137  10.3 nm; and olpadronate () ic50  287  19.9 nm.
+
+table 2.
+
+enzyme inhibition studies using flashplate assay
+
+and
+
+comparison
+
+with
+
+literature values
+
+ic50 (nm) for reaction
+gpp literature
+
+gpp
+
+ xxxd1897xxx 
+
+initial
+
+preincubation
+
+initial
+
+preincubation
+
+ xxxd3128xxx 
+
+160 (v),
+450 (k)
+
+3.9 (b); 5.7 (k)
+
+106.0
+
+2.7
+
+18.0
+
+3.2
+
+ xxxd3561xxx 
+
+475 (k)
+
+4.1 (k)
+
+131.0
+
+7.3
+
+51.4
+
+2.6
+
+olpadronate
+
+3,250 (v)
+
+188.0
+
+16.8
+
+196.0
+
+15.4
+
+ xxxd2311xxx 
+
+214 (v)
+
+199.0
+
+11.4
+
+93.1
+
+11.5
+
+ xxxd2837xxx 
+
+27,500 (v)
+
+500 (b)
+
+757.0
+
+58.7
+
+458.0
+
+97.9
+
+460 (b)
+
+916.0
+
+36.3
+
+642.0
+
+46.0
+
+6,770.0
+
+6,400.0
+
+5,130.0
+
+4,310.0
+
+7,440.0
+
+40,500.0
+
+5130.0
+
+38700.0
+
+alendronate
+
+ xxxd2063xxx 
+
+ xxxd1721xxx 
+
+10,000 (b),
+100,000 (v)
+
+initial preincubation
+
+compound preincubation with enzyme in the present experiments was 30 min at 22°c; however, in the literature, the preincubation times were 15 min at 37°c.5–7 reference codes: (k)  kavanaugh et al.5; (v)  van beek et al.6; (b)  bergstrom et
+al.7 all coefficients of variation for the ic50 values were less than 25% in quadruplicate determinations.
+
+212
+
+tors. figure 7 and table 2 show the results of inhibition
+curves performed on several n-bps and non-n-bps ordered by potency. generally, our method seemed to be
+more sensitive to bisphosphonate inhibition than the older
+methods; however, our experiments are in close agreement
+with those recently reported.5 prior studies have not demonstrated any inhibition by the non-n-bps,  xxxd1721xxx  and
+ xxxd2063xxx , whereas the flashplate assay detected weak,
+but dose-dependent and reproducible, inhibition.
+we were also able to examine the effect of the compounds on the net two-step reaction and on the second
+step of the reaction. the weaker compounds tended to be
+equipotent in both reactions, whereas some compounds,
+notably  xxxd3561xxx  and  xxxd3128xxx , were more potent in
+the two-step reaction. since the two-step reaction is complex with respect to the number of possible substrates and
+products, it is very difficult to make any mechanistic interpretation of these results.
+as shown in table 2 and in fig. 8, preincubation of
+the enzyme with the n-bp inhibitors for 30 min results
+in a dramatic increase in the potency (and, presumably,
+the affinity) of the compound for the  xxxg778xxx . a prior study
+has demonstrated this phenomenon, and along with itc
+experiments has made a case for a low, tight-binding inhibition mechanism.7 generally, a “slow, tight-binding”
+inhibitor works by forming an initial low-affinity com-
+
+fig. 8. the inhibition curve of  xxxd3561xxx  shifts with preincubation. the effect of increasing  xxxd3561xxx  concentrations
+on the catalytic rate was measured in two separate reactions:
+step 1 ( xxxd1897xxx   fpp), giving the enzyme ipp and  xxxd1897xxx 
+as starting material for product formation, and step 2 (gpp 
+fpp), giving the enzyme gpp and ipp as starting material for
+product formation (see fig. 1). for step 2 of the reaction
+[3h]ipp  190 nm and gpp  150 nm; or for step 1 of the reaction [3h]ipp  190 nm,  xxxd1897xxx   150 nm, at t  45 min,
+and  xxxg778xxx   1 nm (12 fmol per reaction) (n  4): step 2
+(gpp  fpp) reaction under steady-state conditions (), ic50
+ xxxd3561xxx   130  30 nm; step 2 gpp reaction with a 30min preincubation of  xxxd3561xxx  ( ), ic50  7.3  3.1 nm;
+step 1  xxxd1897xxx  reaction ( xxxd1897xxx   fpp) under steady-state
+conditions (), ic50  51  12 nm; and step 1 reaction with
+30-min preincubation with  xxxd3561xxx  ( ), ic50  2.6  1.5
+nm.
+
+glickman and schmid
+
+fig. 9. kinetics of  xxxd3561xxx  inhibition.  xxxd3561xxx  was
+preincubated with  xxxg778xxx  for various times at various concentrations prior to the start of the step 2 steady-state reaction, with
+[3h]ipp  190 nm, gpp  150 nm, at t  45 min, and  xxxg778xxx  
+1 nm (12 fmol per reaction) (n  3).
+
+plex followed by an “isomerization” or conformational
+change in the enzyme in order to form a more high-affinity complex. this conformational change is slower than
+the diffusion-controlled “on-rate” would be. using the
+flashplate assay, we looked more closely at the kinetics
+of potency shift, by varying the preincubation time prior
+to adding substrates and then recording the steady-state
+velocity over 45 min, shown in fig. 9. we observed a
+rapid increase in the potency by 10-fold in the first
+minute, followed by a slow increase in potency over 1 h,
+leading to an ic50 that is near the enzyme concentration
+of 1 nm. furthermore, as shown in fig. 10, the potency
+shift in ic50 can be partially reversed by preincubation
+of gpp along with  xxxd3561xxx . additionally,  xxxd1897xxx 
+was also able to reverse the potency shift by preincubation in the  xxxd1897xxx  reaction (data not shown), supporting the interchangeability of the allylic site for gpp or
+ xxxd1897xxx . overall, these data suggest that after an initial
+rapid binding of  xxxd3561xxx  to the apo-enzyme, a slow
+conformational change occurs (isomerization), which
+locks the enzyme– xxxd3561xxx  into a tightly bound single digit nanomolar complex. the inhibition of  xxxd3561xxx  appears to be bimodal.
+from prior studies we know that  xxxg778xxx  catalysis is a
+two-step, three-substrate process with an ordered bi-bi
+mechanism.  xxxd3561xxx  appears to be a tight binding inhibitor.3,4 these two factors make the mechanistic studies difficult to model and interpret. however, we were
+able to perform a  xxxd3561xxx  inhibition study under varying concentrations of gpp and saturating ipp, shown in
+fig. 11. we fit the data to the four standard models of
+inhibition, and our data clearly supported an uncompetitive mechanism with respect to ipp.
+the classical interpretation of uncompetitive inhibition
+with a single-substrate enzyme is that the inhibitor binds
+to the enzyme–substrate complex, yielding an inactive enzyme–substrate–inhibitor complex, and that the inhibitor
+
+213
+
+ xxxg778xxx 
+
+does not bind to the free enzyme.21 however, we know
+that  xxxd3561xxx  binds to the free enzyme, and has an ordered bi-bi mechanism.3,4 thus we propose that the uncompetitive behavior is a consequence of an inhibition
+mechanism, quite common in ordered bi-reactant enzyme
+systems,21 whereby  xxxd3561xxx  reacts with one or more
+enzyme forms independent of ipp binding to yield a complex that can no longer participate in the catalytic process.
+in this case,13  xxxd3561xxx  rapidly binds to the gpp binding site, followed by a slow formation of a tightly bound
+complex. unfortunately, a limitation in the technology did
+not allow us to perform the converse experiment, having
+saturating ipp and varying gpp, since the signal to background at very high concentrations of ipp is very low.
+these investigations of  xxxg778xxx , using a novel and independent “mix-and-read” assay system, are remarkably
+consistent with recent reports that used crystal structures,
+itc, and phase-separation enzyme inhibition studies to
+suggest a slow-binding mechanism of n-bps, with the
+binding of n-bps to the allylic substrate site, and not the
+ipp site.5,13 it is difficult to know the pharmacological
+implications of these kinetic findings. part of this difficulty lies in knowing which form of the enzyme exists
+in a cellular environment, and what the intracellular concentrations of substrates and products that control the kinetics would be. in the preincubation studies, we have
+observed that dilute solutions of the enzyme are not particularly stable; however, the enzymes are stabilized by
+substrate. also, most prior studies focus on the second
+step in catalysis, while in a cellular environment, both
+steps would occur. presumably, gpp, fpp,  xxxd1897xxx , ppi,
+and ipp are present in the cell, and all of these would to
+some degree bind to the enzyme.
+
+fig. 10. ipp and gpp affect the preincubation  xxxd3561xxx 
+potency shift. with [3h]ipp  190 nm, gpp  150 nm, at t 
+45 min, and  xxxg778xxx   1 nm (12 fmol per reaction) (n  4), 1
+nm  xxxg778xxx  was preincubated for 30 min with various concentrations of  xxxd3561xxx  in the absence or presence of 150 nm
+gpp or 150 nm ipp prior to starting the reaction with one of
+the lacking substrates: ic50 without preincubation ()  405 
+150 nm; ic50 with 30-min preincubation ( )  7  2 nm; ic50
+co-incubated with 150 nm ipp ()  11  5 nm; and ic50 coincubated with 150 nm gpp ()  55  36 nm.
+
+fig. 11. apparent uncompetitive inhibition of  xxxg778xxx  by  xxxd3561xxx . assay conditions were gpp  4,000 nm and  xxxg778xxx  
+1 nm, at t  45 min (n  4), giving an apparent ki  336 
+89 nm with r2  0.98.  xxxg778xxx  was added to substrates and  xxxd3561xxx  to start the catalytic reaction in a 12-l assay volume.
+the  xxxd3561xxx  concentration was as follows: 0 nm ( ); 300
+nm (); 500 nm (); 600 nm (); 900 nm ( ); and 1,200 nm
+().
+
+clearly, there are many more experiments suggested
+by this study. our efforts at building kinetic models of
+inhibition suggest that  xxxd3561xxx  is a slow, tight-binding inhibitor, as suggested by the preincubation studies
+(fig. 9) and by a nonlinear effect on the progress curve
+similar to that observed with inhibition of thrombin by
+serpins22 under steady-state conditions (data not shown).
+however, the overall  xxxg778xxx -catalyzed reaction contains
+at least 15 equilibria and 30 different rate constants, making predictions difficult. further modeling of the kinetic
+mechanisms involved in inhibition by  xxxd1897xxx  and nbps to suggest further experimental designs will be a focus of future investigations.
+although scintillation proximity assays (including
+flashplate assays) using ccd imagers were originally
+developed for hts purposes,16–18,23 they have a more
+general utility because of the mix-and-read, real-time
+readout. this particular manifestation of the assay, which
+utilizes a flashplate with high affinity for lipids, has potential usefulness in measuring any enzyme involved in
+a hydrophilic to hydrophobic transformation and may
+also represent a more physiological assay, since it is performed in the presence of phospholipids. we have here
+presented an extended use of the technology for enzyme
+kinetic studies, and such assays might also be useful in
+other applications such as biomarker development where
+a rapid, precise, reproducible method for measuring  xxxg778xxx 
+activity in tissue samples is required.
+
+acknowledgments
+thanks to peter fuerst, rene amstutz, and lorenz
+mayr for management, infrastructure, and guidance; paul
+
+214
+
+ramage for supplying the purified  xxxg778xxx  enzyme; uli
+schopfer, carolyn engeloch, and the novartis compound
+archive group; wolfgang jahnke for critical review and
+editing the manuscript; and novartis institutes for biomedical research, which provided the funding for this
+work.
+
+references
+1. fisher je, rodan ga, reszka aa: in vivo effects of bisphosphonates on the osteoclast mevalonate pathway. endocrinology 2000;141:4793–4796.
+2. reilly jf, matinez sd, mickey g, maher pa: a novel role
+for  xxxg778xxx  in fibroblast growth
+factor-mediated signal transduction. biochem j 2002;366:
+501–510.
+3. poulter cd, rilling hc: the prenyl transfer reaction. enzymatic and mechanistic studies of the 1-4 coupling reaction in the terpene biosynthetic pathway. accounts chem
+res 1978;11:307–313.
+4. holloway pw, popjak g: the purification of 3,3 dimethylallyl and geranyl transferase and of isopentanyl pyrophosphate isomerase from pig liver. biochem j 1967;104:
+57–70.
+5. kavanagh k, guo k, dunford j, wu x, knapp s, ebetino
+f, et al.: the molecular mechanism of nitrogen-containing
+bisphosphonates as antiosteoporosis drugs. proc natl acad
+sci u s a 2006;103:7829–7834.
+6. van beek e, pieterman e, cohen l, loewik c, papapoulos s: nitrogen-containing bisphosphonates inhibit  xxxd2397xxx  isomerase/ xxxd2086xxx 
+synthase activity with relative potencies corresponding to
+their antiresorptive potencies in vitro and in vivo. biochem
+biophys res commun 1999;255:491–494.
+7. bergstrom jd, bostedor rg, masarachia, pj, reszka, aa,
+rodan g: alendronate is a specific, nanomolar inhibitor
+of  xxxd2086xxx  synthase. arch biochem biophys
+2000;373:231–241.
+8. berenson jr: treatment of hypercalcemia of malignancy
+with bisphosphonates. semin oncol 2002;29:12–18.
+9. coleman re: bisphosphonates: clinical experience. oncologist 2004;9:14–27.
+10. delmas pd: treatment of postmenopausal osteoporosis.
+lancet 2002;359:2018–2026.
+11. langston al, ralston sh: management of paget’s disease
+of bone. rheumatology 2004;43:955–959.
+12. rogers mj, gordon s, benford hl, coxon fp, luckman
+sp, monkkonen j, et al.: cellular and molecular mecha-
+
+glickman and schmid
+
+13.
+
+14.
+
+15.
+16.
+17.
+
+18.
+
+19.
+
+20.
+
+21.
+
+22.
+23.
+
+nisms of action of bisphosphonates. cancer 2000;88:2961–
+2978.
+rondeau jm, bitsch f, bourgier f, geiser m, hemmig r,
+kroemer m, et al.: structural basis for the exceptional in
+vivo efficacy of bisphosphonate drugs. chemmedchem
+2006;1:267–273.
+ding vd, sheares bt, bergstrom jd, ponpipom mm,
+perez lb, poulter cd: purification and characterization of
+recombinant human  xxxd2086xxx  synthase expressed in escherichia coli. biochem j 1991;275:61–65.
+reed bc, rilling hc: substrate binding of avian liver
+prenyltransferase. biochemistry 1976;15:3739–3745.
+glickman jf, weiss dr: characterization of  xxxg765xxx  activity using scintillation proximity. assay drug dev
+technol 2003;1:161–166.
+seethala r, ma z, golla r, cheng d: a homogenous scintillation proximity assay for acetyl  xxxd1739xxx  carboxylase coupled to  xxxg765xxx . anal biochem 2006;
+358:257–265.
+zheng w, carroll s, inglese j, graves r, howels l,
+strulovici b: miniaturization of a hepatitis c virus rna
+polymerase assay using a 102°c cooled ccd camerabased imaging system. anal biochem 2001;290:214–220.
+fernandez sms, kellogg ba, poulter cd: farnesyl
+diphosphate synthase. altering the catalytic site to select
+for  xxxd2194xxx  activity. biochemistry 2000;39:
+15316–15321.
+poulter cd, argyle jc, mash ea:  xxxd2086xxx 
+synthetase: mechanistic studies of the 1-4 coupling reaction with 2-fluorogeranyl pyrophosphate. j biol chem
+1978;253:7227 233.
+segel ih: simple inhibition systems. in: enzyme kinetics:
+behavior and analysis of rapid equilibrium and steadystate enzyme systems (segel ih, ed.), pp. 100–159,
+506–841. john wiley and sons, new york, 1993.
+stone sr, hermans jm: inhibitory mechanism of serpins.
+interaction of thrombin with antithrombin and protease
+nexin 1. biochemistry 1995;34:5164–5172.
+ferrand s, schmid a, engeloch c, glickman jf: statistical evaluation of a self-deconvoluting matrix strategy for
+high-throughput screening of the cxcr3 receptor. assay
+drug dev technol 2005;3:413–424.
+
+address reprint requests to:
+j. fraser glickman, ph.d.
+novartis pharma ag
+ch-4002 basel, switzerland
+e-mail: fraser.glickman@novartis.com
+

@@ -1,0 +1,760 @@
+eur j clin pharmacol (1996) 51 : 153–160
+
+© springer-verlag 1996
+
+p h a r m ac o dy na m i c s
+
+t. bouillon · i. meineke · r. port · r. hildebrandt
+k. günther · u. gundert-remy
+
+concentration-effect relationship of the positive chronotropic and
+hypokalaemic effects of  xxxd2098xxx  in healthy women of childbearing age
+
+received: 7 december 1995 / accepted in revised form: 29 april 1996
+
+abstract objective: to analyse  xxxd2098xxx -induced
+tachycardia and hypokalaemia, the most important and
+most frequent adverse effects of tocolytic therapy with
+b2-adrenoceptor agonists in females of childbearing
+age.
+methods: the study was performed as a double blind,
+randomised, placebo controlled, cross over trial. seven
+healthy women aged 22–38 y, received intravenous infusions of  xxxd2098xxx  at 3 different rates
+within the therapeutic range for tocolysis (0.5,1.0, and
+2.0 µg·min[1 ) and placebo. the time courses of the
+plasma concentrations of  xxxd2098xxx  and potassium, and
+the heart rate were analysed with mixed effects pharmacokinetic-pharmacodynamic ( pkpd) modeling
+using nonmem.
+results: the plasma concentration-time course followed a linear two compartment model. fenoterolinduced tachycardia was described by a linear
+concentration-effect model with baseline. the estimated
+baseline and slope parameters were 78 beats ·min[1
+and 0.032 beats · min[1 ·µg[1 · l, respectively.  xxxd2098xxx -induced hypokalaemia could be described by a
+physiological indirect response model including feedback; the estimated basal plasma potassium concentration was 3.93 mmol ·l[1 and the slope factor for
+
+t. bouillon (* )1 · i. meineke · u. gundert-remy
+department of clinical pharmacology, university of göttingen,
+göttingen, germany
+r. port
+german cancer research institute, heidelberg, germany
+r. hildebrandt
+department of gynecology and obstetrics, freie universität
+berlin, berlin, germany
+k. günther
+department of experimental and clinical pharmacology,
+bundesgesundheitsamt, berlin, germany
+present address:
+1
+department of anesthesiology and critical care medicine,
+university of bonn, sigmund-freud-strasse 25, d-53127 bonn,
+germany
+
+the  xxxd2098xxx -induced relative increase in the efflux
+of potassium from the extracellular space was
+6.22 * 10[4 ng ·l[1.
+conclusion: the estimated population parameters permitted calculation of the expected time course of tachycardia and hypokalaemia in women after the initiation
+of tocolysis with  xxxd2098xxx  over the clinically relevant
+concentration range, and prediction of its variability.
+based on simulation, our model predicted that a continous infusion of 2.0 µg · min[1 (highest rate examined) would increase heart rate to 113 beats·min[1 at
+steady state and lower the plasma potassium concentration to 2.77 mmol· l[1 1.5 h after beginning the infusion. thereafter, the plasma potassium concentration
+would slowly return to normal.
+key words  xxxd2098xxx , tachycardia, hypokalaemia;
+b2-adrenoceptor agonist, nonmem, pharmacokinetic /pharmacodynamic modeling
+
+introduction
+ xxxd2098xxx  is an adrenoceptor agonist with predominant
+b2-adrenoceptor activity. [1, 2 ]. despite its widespread
+use for tocolysis and the treatment of asthma for more
+than two decades, very little is known about its concentration-effect relationship. in a previous pharmacokinetic /dynamic study, the effect of  xxxd2098xxx  on
+parameters of pulmonary function and on heart rate
+was analysed in asthmatic patients [3 ]. we recently
+reported its pharmacokinetics in healthy females and
+in patients treated for premature labour [ 4, 5]. since
+tachycardia and hypokalaemia are the predominant
+adverse effects after initiation of tocolytic therapy
+with b2-adrenoceptor agonists and concentrationeffect data of the drug in women are lacking, we have
+now investigated  xxxd2098xxx - induced tachycardia and
+hypokalaemia in female subjects. it is known that both
+effects are subject to the development of tolerance [6].
+
+154
+
+whether this would be observed during the first few
+hours of administeration of a therapeutic dose was a
+further question to be answered.
+the data were analysed by mixed effects modeling
+in order to determine interindividual, interoccasion
+and residual random variability, and to enable simulation of the expected variation of effects in a population [7].
+
+pharmacokinetic /dynamic ( pk /pd) analysis
+the pk/pd analysis was performed sequentially. the population
+means, the interindividual and occasion-specific variability and
+empirical bayesian estimates of the individual, occasion-specific
+pharmacokinetic parameters were first determined. subsequently,
+the effect data were analysed by keeping individual, occasion-specific
+pharmacokinetic parameters fixed. the effects on heart rate and
+plasma potassium concentration were analysed separately.
+
+pharmacokinetic model
+
+methods
+subjects
+seven healthy non-pregnant women, aged 22–38 y (mean 30 y),
+were selected for the study. each subject was normal on screening
+physical examination and in laboratory tests, including complete
+blood cell count, blood chemistry (sodium, potassium, calcium,
+chloride, phosphate, creatinine, bun, got, gpt, c-gt, alkaline
+phosphatase, glucose, albumine, plasma protein) and electrocardiogram. the subjects had no history of significant illness or surgery.
+the study was approved by the ethics committee at the
+bundesgesundheitsamt, berlin. written informed consent was
+obtained from each subject.
+
+study design
+the study was performed as a randomised, double blind, placebocontrolled, four period cross over study. on four days, separated
+at least by 1 week, subjects received either placebo ( nacl 0.9 %)
+or  xxxd2098xxx  (partusistenr ampoules, containing  xxxd2098xxx  0.05
+mg/ml) by intravenous infusion at 0.5,1.0 and 2.0 µg/min over 3 h.
+before drug administration, each subject had an indwelling heparin
+lock placed in a forearm vein for blood sampling and a separate
+iv catheter inserted in the contralateral arm for the  xxxd2098xxx  infusion. blood sampling and measurements of heart rate were done
+before, and 0.16, 0.33, 1, 1.5, 2, 2.5, 3, 3.17, 3.33, 4, and 4.5 h after
+starting the infusion. blood was collected in heparinised tubes. one
+aliquot was used for determination of plasma potassium and the
+remaining blood was centrifuged and the plasma frozen at [20° c
+for the subsequent determination of the drug.
+
+determination of heart rate
+heart rate was measured by counting the radial pulse over 1 min.
+
+as published previously, the concentration time course of  xxxd2098xxx 
+was best described by an open linear two compartment model [4].
+the model was parameterised in terms of the central volume of distribution ( v), the volume of distribution at steady state ( vss), the
+intercompartmental (distribution) clearance (q) and the elimination clearance (cl). the interindividual and interoccasion variability in the pharmacokinetic parameters were modeled as
+described by karlsson and sheiner [9 ]:
+v = h(1) * e(
+
+g (1) + flag1 * g(3) + flag2 * g(4) + flag3 * g(5))
+
+cl = h(2) + g(2) + flag1* g(6) + flag2 * g(7) + flag3 * g(8) (2)
+vss = v + h(3)
+
+(3)
+
+q = h(4)
+
+(4)
+
+where h1, h2, h3 and h4 are the population means of v, cl, vss–v
+and q, respectively, and all g’s vary randomly between individuals
+with mean zero and diagonal variance-covariance matrix omega2.
+flag1, flag2, flag3 are equal to one for treatments 1, 2, 3,
+respectively, and are otherwise zero. the variances of g(3)–(5) were
+set to be equal, as well as the variances of g(6)–(8). in the above
+model, g(1) describes the interindividual random variance of v (and,
+indirectly, vss ), while g(3)–(5) describe an additional occasion specific
+variation of v (and vss). the variance of g(2) is the interindividual
+variance of cl, and the variance of g(4)–(6) is the interoccasion variance of cl. since only 7 subjects and 3 applications were examined, the data supported only interindividual and interoccasion
+variability estimates for two of the structural parameters.
+as the measured concentrations differed by at least one order
+of magnitude, a multiplicative error model was chosen for modeling residual variability.
+cobs = cexp * (1+e)
+
+plasma potassium was measured by flame photometry ( klina
+flame, beckman, munich, frg).
+
+ xxxd2098xxx  assay
+
+quantitative determination of  xxxd2098xxx  was performed by a sensitive radioimmunoassay after separation of its metabolites by extraction with tertiary butylmethylether, as previously described [8].
+concentrations could be measured within the range 10 to
+1000 pg·ml[1 (3.63 × 10[11 to 3.63 × 10[9 mol·l[1) with an
+interassay coefficient of variation of 2.5% to 4.6%.
+
+(5)
+
+cobs refers to the observed concentration, cexp to the concentration predicted based on dose, time, q and the individual, occasion
+specific parameters v, cl and vss. e is normally distributed with
+mean zero and variance r2. a dependency of v and clearance on
+the infusion rate was tested by using
+v = h(1) * e(
+
+potassium measurements
+
+(1)
+
+g(1) + flag1 * g(3) + flag2 * g(4) + flag3* g(5))
+
++ h(6)* rate
+
+(6)
+
+cl = h(2) + g(2) + flag1 * g(6) + flag2 * g(7) + flag3 * g(8)
++ h(5) * rate
+
+(7)
+
+pharmacodynamic model
+a) heart rate since hysteresis was not observed when plotting heart
+rate against the plasma concentration of  xxxd2098xxx , the positive
+chronotropic effect of  xxxd2098xxx  was modeled as a function of the
+drug concentration in the central compartment. the following equation adequately described the data:
+hr(t) = hrbase + s * cp(t)
+
+(8)
+
+155
+with
+
+s = h(4)
+
+hr(t) = heart rate at time t
+
+the model for the residual error was additive:
+
+hrbase = basal heart rate
+
+kobs = kexp + e
+
+s = slope factor
+
+kobs refers to the observed potassium concentrations, kexp to the
+potassium concentrations predicted from cp(t), s, ktol and empirical bayes estimates of k0 and kout. e refers to a random variable
+with mean zero and variance r2.
+
+cp(t) = plasma concentration of  xxxd2098xxx  at time t
+the plasma concentration of  xxxd2098xxx , cp(t), was calculated from
+dose, time and the empirical bayesian estimates of the individual,
+occasion specific pharmacokinetic parameters.
+additive interindividual and interoccasion variability models
+were chosen for hrbase and for s (interindividual variability only):
+hrbase = h(1) + g(1) + flag1 * g(3) + flag2* g(4)
++ flag3 * g(5)
+s = h(2) + g(2)
+
+(9)
+(10)
+
+where all g were normally distributed with mean zero and diagonal variance-covariance matrix x2, and the variances of g(3)–(5) were
+equal. adding interoccasion variability for s did not significantly
+improve the fit.
+because the observed heart rates fell within a relatively narrow
+range, an additive error model was used for residual variability.
+hrobs = hrexp + e
+
+(11)
+
+hrobs refers to the observed heart rates, hrexp to the expected
+heart rates based on cp(t), as predicted by the pharmacokinetic
+model and empirical bayesian estimates of hrbase, and s. e is normally distributed with mean zero and variance r2.
+b) potassium since  xxxd2098xxx  induces hypokalemia by enhancing
+the transfer of potassium into the intracellular space, the change in
+the plasma potassium concentration over time was described by a
+modified physiological indirect response model with feedback inhibition according to the following equations [10,11,12].
+dk/dt = kin * f(t)[kout * (1 + s * cp(t)) * k(t)
+
+(12)
+
+df/dt = (k0 /k(t)[f(t)) * ktol
+
+(13)
+
+k0 baseline plasma potassium concentration [mmol· l[1]
+k(t) plasma potassium concentration at time t [mmol · l[1]
+kout transfer constant out of the extracellular into the intracellular
+space [h[1]
+f(t) feedback factor counterregulating against changes of the
+plasma potassium concentration by adjusting the input into
+the extracellular space
+s slope factor linking the increase of cp and the efflux of potassium from the extracellular space [ (ng· l[1) [1]
+cp plasma concentration of  xxxd2098xxx  [ng·l[1]
+kin transfer constant into the extracellular space [(mmol · l [1) · h[1]
+ktol decay constant of the feedback process increasing the influx of
+potassium into the extracellular space [h[1]
+initial conditions: k(t) = k0; f = 1. at time zero dk /dt =
+kin[kout * k0 = 0; therefore kin = k0 * kout. substitution in eq. (12)
+yields:
+dk/dt = kout * k0 * f(t)[kout * (1+ s * cp(t)) * k(t)
+
+(14)
+
+the plasma concentration of  xxxd2098xxx , cp(t) was calculated from
+dose, time and the empirical bayesian estimates of the individual
+pharmacokinetic parameters. both interindividual and interoccasion variability were assumed for k0 and kout.
+k0 = h(1) + g(1) + flag1 * g(3) + flag2 * g(4) + flag3 * g(5)
+(15)
+g(2) + flag1 * g(6) + flag2 * g(7)+flag3 * g(8))
+
+kout = h(2) * e(
+
+(16)
+ktol = h(3)
+
+(17)
+
+(18)
+
+(19)
+
+simulations
+sequential pk/ pd simulations of the positive chronotropic and the
+potassium lowering effects of  xxxd2098xxx  were performed for a population of 100 subjects receiving an iv infusion of 2 µg · min[1, the
+highest infusion rate examined. first, 100 sets of individual, occasion specific pharmacokinetic parameters were simulated, based on
+the estimated population means and interindividual and interoccasion variances of the pharmacokinetic parameters. these sets of
+parameters were subsequently used in simulation of 100 effect time
+courses for heart rate and plasma potassium concentration based
+on the estimated population means, interindividual and interoccasion variances of the pharmacodynamic parameters, and the estimated residual variances of heart rate and plasma potassium
+concentration.
+the program system nonmem version iv with the fo
+method was used for all model fitting, empirical bayesian estimation of individual and occasion specific parameters and simulations.
+the parameters describing interindividual and interoccasion variance were added one at a time and were kept in the model if they
+improved the goodness of the fit, judged by the likelihood ratio criterion with p < 0.05 [13].
+
+results
+with the exception of one subject, who dropped out
+after the infusion at 1.0 µg ·min[1 on the first day, all
+volunteers completed the study. tremor and restlessness were reported by several volunteers, especially
+when receiving the drug at the highest infusion rate.
+although the plasma potassium concentration dropped
+well below 3 mmol ·l [1 at the highest infusion rate,
+none of the volunteers showed clinical symptoms of
+hypokalaemia.
+pharmacokinetic analysis
+as published previously, the plasma concentration-time
+course was best described by a two compartment model
+[4 ]. the measured plasma concentrations in all subjects and infusion rates, as well as the model predictions based on the population means, are shown in
+fig. 1. the corresponding pharmacokinetic parameters are summarised in table 1. due to the small
+number of individuals it was not possible to estimate
+the interindividual and interoccasion variance of all
+parameters.
+the mean volume of distribution of the central compartment was 13.8 l, close to the extracellular fluid
+space. 68 % of the individuals were expected to have
+
+156
+table 1 pharmacokinetic parameters of  xxxd2098xxx  in healthy females. the coefficients of variation of the parameter estimates ranged
+between 7 and 26% for the structural parameters and 41 and 132 % for the variance parameters. residual error is 0.18 (proportional
+error model). vc, central compartment volume of distribution; q, intercompartmental clearance; vp, peripheral compartment volume of
+distribution; cl, elimination clearance; cl0, rate-independent component of the elimination clearance; n, regression parameter describing the influence of the infusion rate on the elimination clearance
+population
+mean
+vc [l]
+q [l·h[1 ]
+vp [ l]
+cl [ l·h[1 ] = cl0+ n * rate
+cl0 [l·h[1 ]
+n [(l·h[1 )·(µg·min[1 )]
+
+interindividual
+variability
+
+interoccasion
+variability
+
+13.8
+62.0
+53.4
+
+2.01 a
+–
+–
+
+1.49 a
+–
+–
+
+65.6
+21.6
+
+11.8% b
+–
+
+15.6% b
+–
+
+a
+an exponential model was used for interindividual and interoccasion variability. numbers given are the typical random deviations from
+the population mean (e√omega2). divide and multiply the population mean by this factor to obtain an interval which is expected to enclose
+68% of the individual and occasion specific values.
+b
+an additive model was used for interindividual and interoccasion variability. numbers given are coefficients of variation.
+
+fig. 1 plasma concentration-time profiles of  xxxd2098xxx  during and
+after an infusion over 180 min. solid lines and circles: individual
+ xxxd2098xxx  concentrations measured at 2.0 µg·min[1. broken lines
+and triangles: individual  xxxd2098xxx  concentrations measured at
+1.0 µg·min[1. dotted lines and diamonds: individual  xxxd2098xxx 
+concentrations measured at 0.5 µg·min[1. bold solid lines :
+predicted mean concentration-time courses at all infusion rates (0.5,
+1.0, 2.0 µg· min[1)
+
+fig. 2 time course of the heart rate during and after an infusion
+of  xxxd2098xxx  over 180 min. solid lines and circles : individual heart
+rates measured at 2.0 µg · min[1. broken lines and triangles :
+individual heart rates measured at 1.0 µg · min[1. dotted lines and
+diamonds: individual heart rates measured at 0.5 µg · min[1. bold
+solid lines: predicted mean time courses of the heart rate, all infusion rates (0.5, 1.0, 2.0 µg · min[1)
+
+central volumes of distribution ranging from 6.9–27.7
+l (population mean divided or multiplied by e√x2 ).
+introducing the infusion rate as a covariate into the
+equation describing the individual elimination clearance (7), significantly improved the fit (p < 0.01). the
+mean clearance was 1.27 l· min[1 at 0.5 µg · min[1,
+1.45 l·min[1 at 1 µg ·min[1, and 1.81 l· min[1 at
+2 µg·min[1. the estimated interindividual coefficient
+of variation of the clearance was 11.8 %, about the same
+as the interoccasion variability (15.6 % ).
+
+pharmacodynamic analysis.
+both heart rate and plasma potassium concentration
+were stable under placebo treatment, indicating that
+the study was performed under well-controlled conditions. the time course of the heart rate during and after
+iv infusion of  xxxd2098xxx  was fitted to a linear concentration-effect model with baseline. employing an emax
+model did not significantly improve the fit. the
+measured heart rates in all subjects and infusion
+rates, as well as the model predictions based on the
+
+157
+table 2 pharmacodynamic parameters describing the positive chronotropic effect of  xxxd2098xxx  in healthy females. the coefficients of variation of the parameter estimates are 3 and 10% for the structural parameters and 35.6 to 68.3 % for the variance parameters. residual
+error is 6.3 beats·min[1 (additive error model). an additive model was used for interindividual and interoccasion variability. numbers
+given are coefficients of variation. baseline, heart rate at rest; slope, increment of heart rate per ng · l[1 of  xxxd2098xxx  in the central compartment
+
+baseline beats· min[1
+slope [beats·min[1· ng[1 ·l
+
+population
+mean
+
+interindividual
+variability
+
+interoccasion
+variability
+
+78.2
+0.032
+
+7.0%
+22.7%
+
+5.0%
+–
+
+table 3 pharmacodynamic parameters describing the potassium
+lowering effect of  xxxd2098xxx  in healthy females. the coefficients of
+variation of the parameter estimates range between 1.3–19.5 % for
+the structural parameters and 32.6–98.3% for the variance parameters. residual error is 0.24 mmol·l[1 (additive error model)
+baseline, plasma potassium concentration at rest; slope, increment
+of the factor determining the rate of the outflux of potassium from
+the plasma per ng·l[1 of  xxxd2098xxx  in the central compartment; kout
+factor determining the rate of the outflux of potassium from the
+extracellular space; ktol decay constant of the feedback process promoting the influx of potassium into the extracellular space
+
+kout [h[1]
+baseline [mmol· l[1]
+slope [(ng·l[1)[1]
+ktol [h[1]
+
+population
+mean
+
+interindividual interoccasion
+variability
+variability
+
+0.397
+3.93
+6.22*10[4
+0.198
+
+1.67 a
+2.5% b
+–
+–
+
+2.02 a
+3.7% b
+–
+–
+
+a
+an exponential model was used for interindividual and interoccasion variability. numbers given are the typical random deviations from the population mean (e√omega2). divide and multiply the
+population mean by this factor to obtain an interval which is
+expected to enclose 68% of the individual and occasion specific
+values.
+b
+an additive model was used for interindividual and interoccasion
+variability. numbers given are coefficients of variation.
+
+population means, are shown in fig. 2. the corresponding pharmacodynamic parameters are summarised in table 2. the mean heart rate in the absence
+of the drug was estimated to be 78 beats ·min[1, with
+very small interindividual and interoccasion variability
+(cv’s of 7% and 5 %, respectively).  xxxd2098xxx , in the
+observed concentration range, caused a linear, dosedependent increase in heart rate (population mean:
+0.032 beats·min[1·ng[1·l interindividual variability:
+22.7%). the residual standard deviation was 6.3
+beats·min[1.
+the time course of the plasma potassium concentration during and iv  xxxd2098xxx  was modeled with the
+physiologic indirect response model. inclusion of a
+feedback model enhancing the backflow of potassium
+from the intracellular to the extracellular compartment
+significantly improved the fit (p < 0.001). this
+approach adequately described the hysteresis and
+yielded an adequate fit over the entire dose range. the
+measured plasma potassium concentrations for all subjects and infusion rates and the model predictions based
+
+fig. 3 time course of the plasma potassium concentration during
+and after an infusion of  xxxd2098xxx  over 180 min. solid lines and circles: individual potassium concentrations measured at
+2.0 µg · min[1. broken lines and triangles : individual potassium
+concentrations measured at 1.0 µg · min[1. dotted lines and diamonds: individual potassium concentrations measured at
+0.5 µg · min[1. bold solid lines: predicted mean concentration-time
+courses of potassium, all infusion rates (0.5, 1.0, 2.0 µg · min[1)
+
+on the population means are given in fig. 3. as can
+be seen, the nadir of the potassium concentration
+occured sooner as the infusion rate rose. the corresponding pharmacodynamic parameters are summarised in table 3. the initial plasma concentration
+of potassium was 3.93 ( 0.098 ) ( 0.146 ) mmol·l[1
+(population mean ( interindividual sd) and (interoccasion sd). the population mean of the slope factor
+was 6.22 * 10[4 (ng · l )[1. introducing interindividual
+or interoccasion variability did not significantly
+improve the fit. kout is estimated to be 0.397 h[1, and
+the typical individual and occasion specific deviations
+from the mean ( e√omega2 ) were 1.67 and 2.02 for interindividual and interoccasion variability, respectively. the
+large interoccasion variability was mainly due to one
+subject, who showed an early and pronounced rise
+in plasma potassium when receiving the lowest infusion rate ( fig. 3 ). the residual standard deviation was
+0.2 mmol ·l[1.
+
+158
+
+simulations1
+simulation of the time course of the heart rate and the
+potassium plasma concentration was performed for 100
+hypothetical subjects receiving a continous infusion of
+
+ xxxd2098xxx  at the highest rate examined (2 µg·min[1 );
+(fig. 4 and 5 ). the median heart rate at steady state
+was 113 beats ·min[1 and the 5 – 95 % quantile range
+was 89–137 beats · min[1. the lowest median plasma
+concentration of potassium was 2.77 mmol·l[1
+(5 – 95 % quantile 2.24 –3.37 mmol ·l[1 ), which was
+reached 1.5 h, well before steady state. thereafter, the
+model predicted a slow rise in plasma potassium
+towards normal.
+
+discussion
+
+fig. 4 time course of the heart rate in women receiving
+2 µg·min[1  xxxd2098xxx  as an intravenous infusion. simulation with
+the pk/pd parameters from tables 1 and 2, n = 100. symbols:
+simulated heart rates; bold solid line median; dotted lines 5–95 %
+quantile
+
+fig. 5 time course of the plasma potassium concentration in
+women receiving 2 µg·min[1  xxxd2098xxx  as an intravenous infusion.
+simulation with the pk/pd parameters from tables 1 and 3,
+n = 100. symbols: simulated potassium concentrations; bold solid
+line median; dotted lines 5–95% quantile
+
+pk/pd studies in the population of interest are the
+most useful means to evaluate the relationship between
+concentration and effect, whether therapeutic or
+adverse. the majority of publications about  xxxd2098xxx 
+have focused on airway resistance and tachycardia in
+asthmatic patients after inhalation of  xxxd2098xxx , often
+describing mere dose-effect relationships [14]. a
+pk /pd analysis of the chronotropic and bronchodilation effects of  xxxd2098xxx  after inhalation and systemic
+application has been performed in asthmatic patients
+[ 3 ].
+as  xxxd2098xxx  is also used for tocolysis, another population of interest consists of women aged between 20
+and 40 years. since pregnancy does not alter the pharmacokinetics of  xxxd2098xxx  [5 ] and is very unlikely to
+alter its pharmacodynamics, we believe that our results
+are relevant to therapeutic use of the drug. only one
+publication adresses the concentration-response relationship of  xxxd2098xxx -induced tachycardia in pregnant
+women [ 15 ]. although frequently observed in the clinical setting, hypokalaemia, has not so far been adequately characterised.
+the population examined (7 healthy females) was
+homogenous with respect to age and weight and the
+individuals did not receive any comedication. there
+were also sufficient data from each subject to fit an
+individual pk / pd model. thus, a population analysis
+might seem unnecessarily complicated, as opposed to
+a more traditional method of data analysis, like the
+standard two stage ( sts ) method. the population
+approach was preferred, however, because it permitted
+estimation of interindividual and interoccasion variance, whilst avoiding overestimating these variances,
+as the sts method typically does [ 16 ]. on the other
+hand, it is not possible to obtain estimates of interindividual and interoccasion variance of all parameters
+with data from 7 subjects and 3 applications. we have
+estimated those interindividual and interoccasion variances that had the greatest impact on the objective
+function.
+sequential pk /pd analysis was preferred to simultaneous analysis to avoid distortion of the pharmacokinetic parameter estimates by the effect data. the two
+pd data sets were also fitted independently of each
+other. as reported previously, the pharmacokinetics of
+
+159
+
+the drug are best described by a linear two compartment model. we also confirmed the influence of the
+infusion rate on the elimination clearance [ 4 ]. since
+ xxxd2098xxx  is a low protein bound, high extraction drug,
+which is exclusively cleared by the liver, its clearance
+should correlate directly with hepatic blood flow. it is
+well known that b2-adrenoceptor agonists increase cardiac output by their chronotropic and inotropic action
+and also by decreasing afterload. therefore, the
+increased clearance of  xxxd2098xxx  at higher doses / infusion rates could well have been due to its effect
+on hepatic blood flow. the clearance values between
+1.3 and 1.8 l·min[1 are well in line with this hypothesis. since  xxxd2098xxx  almost immediately elicits its
+positive chronotrope effect and, due to the design of
+the study (the first concentration measurement was
+obtained 10 min after beginning the  xxxd2098xxx  infusion), the predicted plasma concentration could
+be used as the input in the pharmacodynamic model.
+the concentration-effect relationship for positive
+chronotropy remained stable throughout the observation period, precluding early desensitisation to the
+positive chronotropic effect of the drug. this is in line
+with earlier observations of the time course of
+ xxxd2098xxx -induced tachycardia. the rapid desensitisation mechanisms reported for events at the receptor
+and postreceptor levels after exposure to the nonselective b-adrenoceptor agonist  xxxd2401xxx  [ 17, 18, 19,
+20] are not directly related to the time course of desensitisation of tachycardia during therapy with b2-adrenoceptor agonists. however, after 3 days of tocolytic
+therapy with  xxxd2098xxx  sustained release tablets
+(3 × 14 mg per day), the initial rise heart rate had been
+succeeded by a return to baseline [ 6 ]. the potassium
+lowering effect of systemically applied b2-adrenoceptor
+agonists is well known [ 21, 22 ]. the concentration
+time course of terbutaline-induced hypokalaemia has
+already been examined by pk / pd modeling. the pharmacodynamics was adequately described by a negative
+sigmoid emax model with baseline. the hysteresis loop
+between the concentration-time courses of terbutaline
+and potassium in plasma was collapsed by using the
+effect compartment approach [23 ].
+recently, pharmacodynamic models which account
+for the underlying physiology of b2-adrenoceptor
+agonist induced hypokalaemia, the so called indirect
+physiological response models, have been described
+[10,11]. as previously reported, the potassium lowering effect of b2-adrenoceptor agonists does not involve
+renal elimination of potassium [ 24 ]. instead, they activate na+/k+ atpase via a camp-dependent mechanism [25], leading to a shift of potassium from the
+extracellular into the intracellular space. the physiological response model addresses this process by explicitly predicting a concentration-dependent increase
+in the transport rate for potassium out of the extracellular space in the presence of  xxxd2098xxx . thus, the
+hysteresis between the time courses of the concentrations of  xxxd2098xxx  and potassium in plasma can
+
+be explained by a known physiological mechanism
+rather than by introducing a hypothetical effect compartment.
+in studies of patients on long term oral  xxxd2098xxx 
+therapy, the potassium lowering effect of the agent
+appears to be self terminating within 24 h (hildebrand,
+personal communication). therefore we tested whether
+introduction of a feedback mechanism in the pd model
+improved its fit. the model employed was suggested by
+holford as a description of the development of tolerance to cocaine [12]. it assumes the synthesis of a putative substance, which stimulates a physiological process
+counteracting the process enhanced by the drug in
+question, rather than directly attenuating the drug
+effect. in our case, the substance is assumed to stimulate the flux of potassium from the intracellular to the
+extracellular fluid space. the introduction of the feedback model greatly improved the fit (p < 0.001),
+suggesting that tolerance to the hypokalaemic effect
+of  xxxd2098xxx  develops even during the first hours of
+treatment.
+in order to obtain a clinically useful representation
+of the variability and extent of  xxxd2098xxx -induced tachycardia and hypokalaemia in women receiving an infusion at a rate sufficient for tocolysis, we performed
+simulations at the highest infusion rate examined
+(2µg ·min[1, n = 100). from the simulations, it
+becomes clear that after 4 h of therapy 90% of the
+patients would show heart rates between 89 and 137
+beats ·min[1. one and a half hours after the start of
+the infusion, the nadir of the plasma potassium concentration would be reached; 90 % of the patients would
+show a plasma potassium concentration between 2.24
+and 3.37 mmol· l[1, which would slowly return
+towards normal despite continued administration of
+the drug. this early physiological counterregulation
+may be the reason why symptomatic hypokalaemia is
+virtually unknown as an adverse effect of tocolysis with
+b2-adrenoceptor agonists.
+
+references
+1. heel rc, brogden rn, speight tm, avery gs (1978)
+ xxxd2098xxx  : a review of its pharmacological properties and therapeutic efficacy in asthma. drugs 15 : 3–32
+2. svedmyr n (1985)  xxxd2098xxx : a beta2 adrenergic agonist
+for use in asthma. pharmacology, pharmacokinetics, clinical
+efficacy and adverse effects. pharmacotherapy 5 : 109–126
+3. hochhaus g, schmidt ew, rominger kl, möllmann h (1992)
+pharmacokinetic /dynamic correlation of pulmonary and cardiac effects of  xxxd2098xxx  in asthmatic patients after different
+routes of administration. pharmacol res 9 : 291–297
+4. warnke k, hildebrandt r, günther k, langen u, gundertremy u (1992) the pharmacokinetics of the b2-adrenoceptor
+agonist  xxxd2098xxx  in healthy women. eur j clin pharmacol
+43 : 663– 665
+5. hildebrandt r, weitzel h, warnke k, gundert-remy u (1993)
+pharmacokinetics of  xxxd2098xxx  in pregnant and nonpregnant
+women. eur j clin pharmacol 45 : 275 –277
+6. rausch k, hermer m, brehm h, edwabny v, lang n (1984)
+a new long acting  xxxd2098xxx  preparation for oral tocolysis,
+
+160
+
+7.
+8.
+9.
+10.
+11.
+12.
+
+13.
+14.
+
+15.
+16.
+
+results of a multicenter study. z geburtsh perinatol.
+188:185–190
+sheiner lb, ludden tm (1992) population pharmacokinetics /
+dynamics. ann rev pharmacol toxicol 32:185–209
+rominger kl, mentrup a, stiasni m (1990) radioimmunological determination of  xxxd2098xxx . drug res 40:887 – 895
+karlsson mo, sheiner lb (1993) the importance of modeling
+interoccasion variability in population pharmacokinetic analyses. j pharmacokinet biopharm 21:735–750
+dayneka nl, garg v, jusko wj (1993) comparison of four
+basic models of indirect pharmacodynamic response. j pharmacokinet biopharm 21: 457–478
+jusko wj, ko hc (1994) physiologic indirect response models characterize diverse types of pharmacodynamic effects. clin
+pharmacol ther 56:406– 419
+holford nhg (1992) parametric models of the time course of
+drug action. in: van boxtel cj, holford nhg, danhof m (eds)
+the in vivo study of drug action. elsevier, amsterdam, pp
+61– 69
+beal sl, sheiner lb. nonmem user’s guides (1992) nonmem project group, university of california, san francisco
+bauer kg, kaik b, sertl k, kaik ga (1993) studies on the
+bronchodilator, tremorogenic, cardiovascular and hypokalemic
+effects of  xxxd2098xxx  dry powder in asthma. br j clin pharmacol
+36:285–292
+schärer m, carasso a, soliva m, dreher e (1986) pharmacokinetic and pharmacodynamic of tocolysis by  xxxd2098xxx  in
+premature labour. arch gynecol 239:259–262
+steimer jl, mallet a, mentre f (1984) estimating interindividual pharmacokinetic variability. in: rowland m, sheiner lb,
+
+17.
+
+18.
+19.
+20.
+
+21.
+22.
+23.
+24.
+25.
+
+steimer jl, (eds) variability in drug therapy. description, estimation and control. raven press, new york, pp 65 –111
+strasser rh, stiles gl, lefkowitz rj (1984) translocation and
+uncoupling of the beta-adrenergic receptor in rat lung after catecholamine promoted desensitization in vivo. endocrinology
+115 : 1392 – 1400
+strasser rh, lefkowitz rj (1985) homologous desensitization
+of beta adrenoceptor coupled adenylate cyclase. resensitization
+by  xxxd2982xxx  treatment. j biol chem 260 : 4561– 4564
+lohse mj, benovic jl, caron mg, lefkowitz rj (1990)
+multiple pathways of rapid b2-adrenergic receptor desensitization. j biol chem 265 : 3202 – 3209
+pippig s, andexinger s, daniel k, puzicha m, caron mg,
+lefkowitz rj, lohse mj (1993) overexpression of b-arrestin
+and b-adrenergic receptor kinase augment desensitization of b2
+adrenergic receptors. j biol chem 268 : 3201–3208
+thomas djb, dove af, alberti kgmm (1977) metabolic
+effects of salbutamol infusion during premature labour. br j
+obstet gynaecol 84 : 497– 499
+moravec ma, hurlbert bj (1980) hypokalemia associated with
+terbutaline in obstetrical patients. anesth analg 59 : 917–920
+jonkers r, van boxtel cj, oosterhuis b (1987)  xxxg92xxx -mediated hypokalemia and its abolishment by
+ xxxd2812xxx . clin pharmacol ther 42 : 627– 633
+bia mj, lu d, tyler k, de fronzo ra (1986) beta adrenergic control of extrarenal potassium disposal. a beta-2 mediated
+phenomenon. nephron 43 : 117–122
+clausen t, flatman ja (1977) the effect of catecholamines on
+na-k transport and membrane potential in rat soleus muscle.
+j physiol 270 : 383– 414
+

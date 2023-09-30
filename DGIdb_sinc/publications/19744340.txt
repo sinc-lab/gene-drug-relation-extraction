@@ -1,0 +1,1560 @@
+bmc medical genomics
+
+biomed central
+
+open access
+
+research article
+
+glucocorticoids with different chemical structures but similar
+ xxxg1601xxx  potency regulate subsets of common and
+unique genes in human trabecular meshwork cells
+alissar nehmé1, edward k lobenhofer2,4, w daniel stamer3 and
+jeffrey l edelman*1
+address: 1department of biological sciences, allergan, inc., irvine, ca 92612, usa, 2cogenics™, a division of clinical data®, morrisville, nc
+27560, usa, 3department of ophthalmology and vision science, university of arizona, tucson, az 85724, usa and 4current address : amgen,
+inc., thousand oaks, ca 93120, usa
+email: alissar nehmé - nehme_alissar@allergan.com; edward k lobenhofer - ed@lobenhofer.com; w
+daniel stamer - dstamer@eyes.arizona.edu; jeffrey l edelman* - edelman_jeffrey@allergan.com
+* corresponding author
+
+published: 10 september 2009
+bmc medical genomics 2009, 2:58
+
+doi:10.1186/1755-8794-2-58
+
+received: 18 february 2009
+accepted: 10 september 2009
+
+this article is available from: http://www.biomedcentral.com/1755-8794/2/58
+© 2009 nehmé et al; licensee biomed central ltd.
+this is an open access article distributed under the terms of the creative commons attribution license (http://creativecommons.org/licenses/by/2.0),
+which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.
+
+abstract
+background: in addition to their well-documented ocular therapeutic effects, glucocorticoids
+(gcs) can cause sight-threatening side-effects including ocular hypertension presumably via
+morphological and biochemical changes in trabecular meshwork (tm) cells. in the present study,
+we directly compared the  xxxg1601xxx  (gr) potency for dexamethasone (dex),
+ xxxd2128xxx  acetonide (fa) and  xxxd3418xxx  (ta), examined the expression of known
+gralpha and grbeta isoforms, and used gene expression microarrays to compare the effects of dex, fa,
+and ta on the complete transcriptome in two primary human tm cell lines.
+methods: gr binding affinity for dex, fa, and ta was measured by a cell-free competitive radiolabeled gr binding assay. gr-mediated transcriptional activity was assessed using the geneblazer
+beta-lactamase reporter gene assay. levels of gralpha and grbeta isoforms were assessed by western
+blot. total rna was extracted from tm 86 and tm 93 cells treated with 1 mum dex, fa, or ta
+for 24 hr and used for microarray gene expression analysis. the microarray experiments were
+repeated three times. differentially expressed genes were identified by rosetta resolver gene
+expression analysis system.
+results: the gr binding affinity (ic50) for dex, fa, and ta was 5.4, 2.0, and 1.5 nm, respectively.
+these values are similar to the gr transactivation ec50 of 3.0, 0.7, and 1.5 nm for dex, fa, and
+ta, respectively. all four gralpha translational isoforms (a-d) were expressed in tm 86 and tm 93
+total cell lysates, however, the c and d isoforms were more highly expressed relative to a and b.
+all four grbeta isoforms (a-d) were also detected in tm cells, although grbeta-d isoform expression
+was lower compared to that of the a, b, or c isoforms. microarray analysis revealed 1,968 and
+1,150 genes commonly regulated by dex, fa, and ta in tm 86 and tm 93, respectively. these
+genes included rgc32, oca2, angptl7, myoc, fkbp5,  xxxg2009xxx  and zbtb16. in addition, each
+gc specifically regulated a unique set of genes in both tm cell lines. using ingenuity pathway
+analysis (ipa) software, analysis of the data from tm 86 cells showed that dex significantly
+regulated transcripts associated with rna post-transcriptional modifications, whereas fa and ta
+
+page 1 of 14
+(page number not for citation purposes)
+
+bmc medical genomics 2009, 2:58
+
+http://www.biomedcentral.com/1755-8794/2/58
+
+modulated genes involved in lipid metabolism and cell morphology, respectively. in tm 93 cells,
+dex significantly regulated genes implicated in histone methylation, whereas fa and ta altered
+genes associated with cell cycle and cell adhesion, respectively.
+conclusion: human trabecular meshwork cells in culture express all known gralpha and grbeta
+translational isoforms, and gcs with similar potency but subtly different chemical structure are
+capable of regulating common and unique gene subsets and presumably biologic responses in these
+cells. these gc structure-dependent effects appear to be tm cell-lineage dependent.
+
+background
+glucocorticoid (gc) therapy can lead to the development
+of glaucomatous ocular hypertension and secondary
+open-angle glaucoma that is clinically similar to primary
+open-angle glaucoma [1]. the elevated intraocular pressure (iop) is due to increased aqueous humor outflow
+resistance and is associated with morphological and biochemical changes in the trabecular meshwork (tm) [2].
+these changes are associated with increased deposition of
+extracellular matrix material in the outflow pathway [3],
+which may be due, in part, to an inhibition of tm phagocytosis [4], decreased extracellular activity of stromelysin
+and tissue plasminogen activator [5], alteration of the
+actin cytoskeleton [6] and formation of intercellular junctions [7]. most of the effects of gcs on tm cells and tissues are likely due to gc-mediated tm cell gene
+expression, including the induction of myocilin, serum
+amyloid a1, alpha a-crystallin, insulin growth factor binding
+protein 2, growth arrest-specific 1 and other genes [8-13].
+it is currently unclear which genes or combinations of
+genes are modulated by gcs and ultimately lead to
+increased iop.
+the biological actions of glucocorticoids are mediated
+through the cytoplasmic  xxxg1601xxx  (gr),
+which belongs to the nuclear receptor subfamily that
+includes receptors for mineralocorticoids, estrogen and
+thyroid hormones,  xxxd3417xxx , and vitamin d [14].
+upon hormone binding, the activated ligand-bound
+receptor translocates into the nucleus and binds as a
+homodimer to glucocorticoid response elements within
+the promoter region of target genes. the gr can positively
+or negatively regulate gene expression, depending on the
+response element sequence and promoter context. the gr
+also modulates gene expression, independent of glucocorticoid response elements, by physically interacting with
+other transcription factors (e.g., activating protein ap-1
+and nuclear factor  xxxg1559xxx ) [15].
+gralpha and grbeta are the two major splice variants of gr as a
+result of alternative splicing. the grbeta isoform acts as a
+natural dominant negative inhibitor of gralpha-induced
+transactivation of glucocorticoid-responsive genes [16].
+amino acid sequence analysis revealed that gralpha and grbeta
+isoforms are identical from the amino terminus to amino
+
+acid 727 but diverge beyond this position, with gralpha having an additional 50 amino acids and grbeta having an
+additional, non homologous, 15 amino acids. the expression of both gralpha and grbeta was reported in cultured
+human tm cells [17,18].
+recent evidence indicates that at least eight different gralpha
+or grbeta n-terminal isoforms are generated from one single
+gr gene by alternative translation initiation [19]. for
+gralpha, receptor isoforms are designated gralpha-a, -b, -c1, c2, -c3, -d1, -d2 and -d3 [20]. the gralpha-a isoform is the
+full-length receptor containing amino acids 1-777. the
+other gralpha isoforms have shortened n termini. the apparent molecular weights for gralpha-a, -b, -c and -d are 94, 91,
+82-84 and 53-56 kda, respectively. all gralpha isoforms are
+functional receptors and contain the identical intact ligand-binding domain that binds gcs. the gralpha isoforms
+transcriptionally regulate common and unique sets of
+genes within the context of a single cell type [20]. furthermore, the tissue expression patterns of gralpha translational
+isoforms have been determined in both rats and mice and
+the levels of the gralpha isoforms differ widely among tissues
+[20]. thus, the unique transcriptional activities and distinct tissue-specific distribution patterns of gralpha isoforms
+could provide a novel mechanism for tissue-specific glucocorticoid responses. further studies are needed to confirm this in human tissues. for grbeta, receptor isoforms are
+designated grbeta-a, -b, -c1, -c2, -c3, -d1, -d2 and -d3
+[19]. the grbeta-a isoform is the full-length receptor containing amino acids 1-742 with an apparent molecular
+weight of 90 kda. the other grbeta isoforms have shortened
+n termini. although little is known about the transcriptional activity and tissue distribution of grbeta isoforms,
+fruchter et al demonstrated that the potency of the dominant negative effect of grbeta on gralpha-induced transactivation depends on both the type and the dose of the
+synthetic glucocorticoids in use [16].
+recently, schaaf et al showed that the intranuclear distribution and mobility of the gr is highly dependent on the
+chemical structure of the glucocorticoid with which it is
+associated [21]. some ligands, especially high-affinity synthetic ligands like dexamethasone and  xxxd3418xxx , induce a highly punctate gc-gralpha distribution
+organized in discrete domains of high receptor concentrapage 2 of 14
+(page number not for citation purposes)
+
+bmc medical genomics 2009, 2:58
+
+tion. in contrast, other ligands, mainly naturally occurring
+low-affinity ligands like cortisone and cortexolone,
+induce a more homogeneous, although still not entirely
+random, distribution. more importantly, structure-function analysis revealed that the 9-fluoro and 17-hydroxy
+groups on the steroid significantly impact nuclear receptor
+distribution. the effects of gc-mediated gr nuclear distribution and mobility patterns on gr-dependent transcriptional activity are still unclear.
+microarray technology provides a comprehensive, rapid
+and efficient method for large scale profiling of gene
+expression changes in biological samples (e.g., treatment
+versus control, disease versus normal). the advantages of
+dna microarray technology include the ability to analyze
+expression patterns of thousands of genes simultaneously.
+other advantages include the ability to characterize relationships between genes and the changes in biological
+processes such as disease states, developmental stages and
+responses to drugs [22,23]. more importantly, canales et
+al recently showed that results generated from five different microarray platforms correlated exceedingly well with
+real-time quantitative polymerase chain reaction (rtpcr), as well as other non-microarray-based approaches
+to determine transcript abundance [24].
+in this study, using two primary human tm cell lines isolated from either a newborn or an adult donor, we examined the distribution of gralpha and grbeta isoforms and
+determined global gene expression profiles after treatment with 1 mum of three potent gr agonists (dexamethasone,  xxxd2128xxx  acetonide and triamcinolone
+acetonide). tm 86 and tm 93 expressed all known gralpha
+and grbeta isoforms as determined by western blot. the
+gene expression profiles and ingenuity pathway analysis
+demonstrated that each of the three gcs regulated a common and unique subset of genes that is associated with a
+cell lineage-dependent specific signaling pathway.
+
+methods
+cell culture and glucocorticoid treatment conditions
+human primary cultures of trabecular meshwork cells,
+tm 86 and tm 93, were established and characterized
+from 3-month- and 35-year-old human eye donors,
+respectively, according to original methods [25]. cells
+were maintained in low glucose dulbecco's modified
+eagle medium (dmem, invitrogen, carlsbad, ca) supplemented with 10% (vol/vol) fbs (american type culture
+collection, manassas, va), 1% (vol/vol) penicillin and
+streptomycin (invitrogen). cells from the human hela
+cervical adenocarcinoma cell line (american type culture
+collection) were maintained in alpha-mem medium supplemented with 10% (v/v) fbs, 1% (v/v) penicillin and
+streptomycin. all cells were used within passages 3 to 6.
+
+http://www.biomedcentral.com/1755-8794/2/58
+
+for treatment with dex, fa, or ta, tm cells were grown in
+100-mm tissue culture plates (bd labware, bedford, ma)
+in dmem complete medium until reaching 100% confluence. cells were maintained for one week with medium
+renewal every other day. the day before the experiment,
+confluent tm were washed once with phosphate-buffered
+saline (pbs) and then the cells were maintained in 1%
+fbs-containing medium with antibiotics. cells were
+treated with 1 mum of dex, fa, or ta for an additional 24
+hr. control cells were treated with 0.1%(v/v) dimethylsulfoxide (dmso). at the end of gc treatment, supernatant
+was discarded and the cell monolayer was kept frozen at 80°c for subsequent total rna extraction and gene
+expression profiling.
+glucocoroticoid receptor binding affinity
+gr binding affinity assay was performed at cerep inc.
+(celle l'evescault, france), according to an established
+method [26]. brifely, fractions of im-9 human b lymphoblast cell cytosol (300 mug proteins) are incubated for 6
+h at 4°c with 1.5 nm [3h]dexamethasone in the absence
+or presence of dex, fa, or ta in a buffer containing 10
+mm tris ethanesulfonic acid-naoh (ph 7.4), 1 mm
+edta, 10 mm na2moo4, 20 mm  xxxd26xxx  and
+10% glycerol. nonspecific binding is determined in the
+presence of 10 mum triamcinolone. following incubation,
+the samples are filtered rapidly under vacuum through
+glass fiber filters (gf/b, packard) presoaked with 0.3%
+poly(ethyleneimine) and rinsed several times with icecold 50 mm tris-hcl using a 96-sample cell harvester
+(unifilter, packard). the filters are dried and counted for
+radioactivity in a scintillation counter (topcount, packard) using a scintillation cocktail (microscint 0, packard).
+the results are expressed as percent inhibition of the control radioligand specific binding. the ic50 values (concentration causing half-maximal inhibition of control
+specific binding) and hill coefficients (nh) were determined by non-linear regression analysis of the competition curves generated with mean replicate values using
+hill equation curve fitting (y = d + [(a - d)/(1 + (c/
+c50)nh)], where y = specific binding, d = minimum specific binding, a = maximum specific binding, c = compound concentration, c50 = ic50, and nh = slope factor).
+this analysis was performed using the hill software
+(cerep) and validated by comparison with data generated
+by the commercial software sigmaplot® 4.0 for windows®
+(© 1997 by spss inc.). the inhibition constants (ki) were
+calculated using the cheng prusoff equation (ki = ic50/
+(1+(l/kd)), where l = concentration of radioligand in the
+assay, and kd = affinity of the radioligand for the receptor). the standard reference compound is dex, which is
+tested in each experiment at several concentrations to
+obtain a competition curve from which an ic50 is calculated. the gr binding assay was performed in duplicate.
+
+page 3 of 14
+(page number not for citation purposes)
+
+bmc medical genomics 2009, 2:58
+
+glucocoroticoid receptor-mediated transactivation
+gr transactivation activity was assessed by the invitrogen
+selectscreen profiling service (madison, wi), using invitrogen geneblazer beta-lactamase reporter gene technology [27]. profiling was performed using human hela cells
+stably transfected with an expression construct containing
+beta-lactamase cdna under the control of the mmtv
+response element previously identified as a gr response
+element (mmtv-bla hela cellsensor®). the mmtv-bla
+hela cells were plated in 384-well plates in 32 mul assay
+medium (optimem + 1% charcoal/dextran stripped fbs)
+at a density of 10,000 cells/well and incubated overnight.
+after addition of 8 mul of a 5-fold concentrated compound
+solution (dex, fa, or ta) in assay medium, the cells were
+incubated for additional 5 hr. the 5 hr time point was
+chosen based on preliminary results showing that the
+optimal dex-mediated transcriptional activation of gr
+occurred between 5 and 16 hr. the beta-lactamase activity of
+each sample was determined by adding 8 mul of 6-fold concentrated liveblazer™ substrate solution to the samples
+followed by two hours of incubation at room temperature
+in a tecan safire2 plate reader using the appropriate liveblazer™ filter settings. gc treatment was performed in
+15-point dose response using a three-fold dilution series
+starting with a maximum compound concentration of 10
+mum. each data point represents a triplicate sample (n = 3).
+assay reproducibility was determined by calculating z'
+values for untreated vs. maximum stimulation. the geneblazer assay was performed twice.
+distribution of glucocoroticoid receptor isoforms in tm 86
+and tm 93 cells
+tm cells were grown in 100-mm tissue culture plates (bd
+labware) in dmem complete medium until reaching
+100% confluence. cells were then maintained for one
+week with medium renewal every other day. human hela
+cells were used as a positive control in these experiments.
+the day before the experiment, confluent tm and hela
+cells were washed once with phosphate-buffered saline
+(pbs) and stepped to 1% fbs-containing medium with
+antibiotics. after 24 hr, cells were washed twice with icecold pbs and lysed in 400 mul radioimmuno-precipitation
+assay buffer (50 mm tris-hcl [ph 7.4], 150 mm nacl,
+0.25%  xxxd1835xxx , 1% np-40, 1 mm edta; upstate
+biotech, lake placid, ny), supplemented with 0.2%
+ xxxd3215xxx  (sds) and a 1% (vol/vol) cocktail
+of protease inhibitors, serine-threonine phosphatase
+inhibitors, and tyrosine phosphatase inhibitors (sigmaaldrich, saint louis, mo). after 30 min incubation on ice,
+the lysates were centrifuged at 14,000 rpm for 20 min at
+4°c. supernatants were transferred to clean microfuge
+tubes, and the total protein concentration of each sample
+was measured with a bicinchoninic acid protein assay
+(pierce biotechnology, rockford, il). cell lysates (45 mug
+protein) in sds sample buffer were separated on 7% tris-
+
+http://www.biomedcentral.com/1755-8794/2/58
+
+acetate gel by sds-polyacrylamide gel electrophoresis and
+transferred to nitrocellulose membranes. four gralpha isoforms were detected by a specific polyclonal antibody
+anti-gralpha ( xxxd2211xxx -516) from abr affinity bioreagents
+(golden, co), whose epitope corresponds to the specific
+gralpha peptide segment aa 755-771 [20]. four grbeta isoforms were detected by a specific polyclonal antibody
+anti-grbeta (pa3-514) from abr affinity bioreagents,
+whose epitope corresponds to the specific grbeta peptide
+segment aa 728-742 [19]. protein bands were visualized
+with a chemiluminescence detection kit (invitrogen).
+three independent cell lysate samples were tested per cell
+line for each antibody.
+rna isolation and gene expression profiling
+rna isolation and gene expression profiling were performed at cogenics™, a division of clinical data® (morrisville, nc), using methods that have been previously
+described [28-31]. briefly, rna was isolated from flash
+frozen cell culture plates using rneasy mini columns
+(qiagen, valencia, ca) according to the manufacturer's
+protocol. there were three biological replicates per treatment condition. the quantity and purity of the extracted
+rna was evaluated using a nanodrop nd-1000 spectrophotometer (nanodrop technologies, wilmington, de,
+usa) and its integrity measured using an agilent bioanalyzer. for microarray hybridizations, 500 ng of total rna
+from each rna sample was amplified and labeled with a
+fluorescent dye (cy3) using the low rna input linear
+amplification labeling kit (agilent technologies, palo
+alto, ca, usa) following the manufacturer's protocol.
+the amount and quality of the fluorescently labeled crna
+was assessed using a nanodrop nd-1000 spectrophotometer and an agilent bioanalyzer. an equal amount of
+cy3-labeled crna (1.6 mug) was hybridized to the agilent
+human whole genome oligo microarray (agilent technologies) for 17 hours, prior to washing and scanning.
+data were extracted from scanned images using agilent's
+feature extraction software (agilent technologies) using
+default settings. gene expression data were loaded into
+the rosetta resolver® gene expression analysis system
+version 7.1.0.1.11. data from three biological replicate
+hybridizations were combined using an error-weighted
+average and the following criteria was used to identify differentially expressed transcripts: a log ratio p-value <
+0.001, and a log(10) intensity measurement > -1.8. the
+full complement of microarray data has been deposited in
+the nih/nlm gene expression omnibus (geo accession
+# gse16643) [32].
+
+gene ontology enrichment analysis was performed on
+lists of differentially expressed transcripts using the highthroughput gominer integrative gene ontology tool with
+a significance threshold of an enrichment p-value < 0.01
+[33,34]. the lists of differentially expressed genes were
+
+page 4 of 14
+(page number not for citation purposes)
+
+bmc medical genomics 2009, 2:58
+
+http://www.biomedcentral.com/1755-8794/2/58
+
+also applied to global functional, network and canonical
+pathway analyses using ingenuity pathway analysis (ingenuity® systems, redwood city, ca). in order to identify
+the most significant results in ipa's analyses, the benjamini-hochberg multiple-testing corrected p-value was
+used with a significance threshold of 0.05.
+
+results
+ xxxg1601xxx  binding affinity
+the gr binding affinity for dex, fa and ta has never
+been directly compared in one cell type. moreover, a wide
+range of gr binding affinities have been reported in the
+literature for each of these three gcs [35]. therefore, we
+sought to directly compare the gr binding affinity in vitro
+using a gr radiolabeled competitive binding assay
+(cerep, france). the results are shown in table 1. the ic50
+values for dex, fa, and ta were 5.4, 2.0, and 1.5 nm,
+respectively. these results suggest that the gr binding
+affinities for these three drugs are roughly equivalent.
+interestingly, the gr binding affnitiy of 5 nm for dex in
+im-9 cells is consistent with previously reported cellular
+binding affinity of dex in primary human tm cells [18].
+the distribution of gralpha isoforms in human im-9 cells
+used in the gr binding affinity assay is unknown. since
+different gralpha isoforms might exhibit different binding
+affinities for each gc, the observed gr binding affinity is
+likely an aggregate affinity generated by multiple gr isoforms.
+ xxxg1601xxx  transactivation potency
+the gr transactivation potency for dex, fa and ta has
+never been directly compared in one cell type. moreover,
+a wide range of gr transactivation potency values have
+been reported in the literature for each of these three gcs
+[35]. therefore, gr transactivation potency was assessed
+in the geneblazer beta-lactamase reporter gene technology
+table 1:  xxxg1601xxx  binding affinity for
+dexamethasone,  xxxd2128xxx  acetonide, and triamcinolone
+acetonide.
+
+ligand
+
+ic50
+(nm)
+
+ki
+(nm)
+
+nh
+
+dexamethasone
+
+5.36 ± 1.13
+
+2.68 ± 0.58
+
+1.06 ± 0.18
+
+ xxxd2128xxx  acetonide
+
+2.00 ± 0.42
+
+0.97 ± 0.17
+
+1.10 ± 0.00
+
+ xxxd3418xxx 
+
+1.45 ± 0.50
+
+0.72 ± 0.24
+
+1.05 ± 0.07
+
+ic50, ki, and nh values were determined using a glucocorticoid
+receptor radiolabeled competition binding assay as described in
+"materials and methods" section.
+data shown for dexamethasone are averages of fourteen independent
+experiments performed in triplicate ± sd.
+data shown for  xxxd2128xxx  acetonide and  xxxd3418xxx 
+are averages of two independent experiments performed in triplicate
+± sd.
+
+in mmtv-bla hela cellsensor® cells (invitrogen).
+attempts to establish a robust and reproducible geneblazer assay using primary human tm cells failed, and
+hela cells seemed a reasonable surrogate since the levels
+of all gralpha and grbeta isoforms in these cells were comparable to those in tm 86 and tm 93 cells (figure 1). hela
+cells were treated with various concentrations of gc for 5
+hr. figure 2 shows that all three gcs induced an increase
+in gr transactivation activity in a dose-dependent manner. the ec50 (concentration causing a half-maximal
+increase in gr transactivation) values for dex, fa, and
+ta, were 3.02 ± 0.02, 0.67 ± 0.10, and 1.29 ± 0.28 nm,
+respectively. these data suggest that all three gcs are
+roughly equivalent at stimulating gr transcriptional
+activity. the expression of multiple gralpha isoforms in hela
+cells has been previously reported [20] and confirmed in
+our study. assuming that different gralpha isoforms might
+exhibit different transcriptional activities in response to
+each gc, the observed gr-mediated transactivation function is the aggregate response generated by multiple gr
+isoforms in these cells.
+gralpha and grbeta isoform expression in tm 86 and tm 93
+cells
+levels of total gralpha and total grbeta proteins have been previously reported in human tm by competitive binding
+assay [18] or western blot [17]. however, to our knowledge, the expression of gralpha and grbeta translational isoforms in human tm cells has never been determined. the
+distribution of four gralpha isoforms, gralpha-a, gralpha-b, gralphac, and gralpha-d was assessed in tm 86 and tm 93 total cell
+lysates by western blot using a specific anti-gralpha antibody. western blots showed that both tm 86 and tm 93
+expressed all four known gralpha isoforms (figure 1a).
+higher levels of gralpha-c and gralpha-d isoforms were
+observed compared to gralpha-a and gralpha-b. the additional
+bands in between gralpha-c and gralpha-d isoforms may be
+degradation products or cell-specific isoforms. the distribution of four grbeta isoforms, grbeta-a, grbeta-b, grbeta-c, and
+grbeta-d was also determined in tm 86 and tm 93 total cell
+lysates by western blot using a specific anti-grbeta antibody.
+figure 1b shows that both tm 86 and tm 93 expressed all
+four known grbeta isoforms. the level of grbeta-d isoform
+was lower when compared to levels of grbeta-a, grbeta-b, and
+grbeta-c in both tm 86 and tm 93 cells. moreover, tm 93
+expressed lower levels of grbeta-d as compared to that in
+tm 86. the additional bands in between grbeta-c and grbetad isoforms may be degradation products or cell-specific
+isoforms.
+gene expression profiles for dex, fa, and ta in tm 86 and
+tm 93 cells
+the chemical structures of dex, fa, and ta are shown in
+figure 3. to determine the biological impact of gc structure on gr transcription, primary tm 86 and tm 93 cells
+
+page 5 of 14
+(page number not for citation purposes)
+
+bmc medical genomics 2009, 2:58
+
+http://www.biomedcentral.com/1755-8794/2/58
+
+hela
+
+a
+c1
+
+tm86
+
+c2 c3
+
+c1 c2 c3
+
+tm93
+c1 c2
+
+c3
+
+grd-a (94 kd)
+grd-b (91 kd)
+
+- 100 kd
+
+grdc (82-84 kd)
+- 80 kd
+
+- 60 kd
+grdd (53-56 kd)
+- 50 kd
+
+hela
+
+b
+
+c1
+gre-a
+gre-b
+gre-c
+
+c2 c3
+
+tm86
+c1 c2 c3
+
+tm93
+c1 c2
+
+c3
+
+80 kd -
+
+60 kd 50 kd gre- d
+40 kd -
+
+response ratio
+
+western
+figure 1 blot analysis of the gralpha (a) and grbeta (b) isoforms in human tm86 and tm93
+western blot analysis of the gralpha (a) and grbeta (b) isoforms in human tm86 and tm93. blots resolving 45 mug of
+total cell lysates from hela, tm 86, or tm 93 cells detected with anti-gralpha antibody ( xxxd2211xxx -516) or anti-grbeta antibody (pa3514) are shown. three independent cell lysates were analyzed per cell line. additional bands in between gr-c and gr-d isoforms may be degradation products or cell-specific isoforms.
+
+6.5
+6.0
+5.5
+5.0
+4.5
+4.0
+3.5
+3.0
+2.5
+2.0
+1.5
+1.0
+0.5
+0.001
+
+ xxxd3418xxx 
+ xxxd2128xxx  acetonide
+dexamethasone
+0.01
+
+0.1
+
+1
+
+10
+
+100
+
+1000 10000 100000
+
+compound (nm)
+
+nide
+activation
+ethasone,
+figure
+2  xxxd2128xxx 
+of glucocorticoid
+acetonide
+receptor
+and triamcinolone
+in response toacetodexamactivation of  xxxg1601xxx  in response to
+dexamethasone,  xxxd2128xxx  acetonide and  xxxd3418xxx . mmtv-bla hela cellsensor® cells were
+treated with gc for 5 hr. beta-lactamase reporter gene activity
+was assessed by adding the liveblazer substrate solution for
+2 hr. each data point represents a triplicate sample from two
+independent experiments. results are plotted as a response
+ratio (normalized against untreated values).
+
+figure 3 of dexamethasone,
+structures
+triamcinolone
+acetonide
+ xxxd2128xxx  acetonide, and
+structures of dexamethasone,  xxxd2128xxx  acetonide, and  xxxd3418xxx .
+page 6 of 14
+(page number not for citation purposes)
+
+bmc medical genomics 2009, 2:58
+
+a
+
+http://www.biomedcentral.com/1755-8794/2/58
+
+b
+
+figure
+venn
+diagrams
+4
+showing the distribution and overlap of differentially expressed genes in tm 86 (a) and tm 93 (b) cells
+venn diagrams showing the distribution and overlap of differentially expressed genes in tm 86 (a) and tm 93
+(b) cells. tm cells were treated with dexamethasone,  xxxd2128xxx  acetonide, or  xxxd3418xxx  at 1 mum for 24 hr.
+the two criteria for the identification of significantly different gene expression were log ratio p < 0.001 and log (10) intensity
+measurement >-1.8.
+
+were treated with dex, fa, ta, or a vehicle control and
+total rna was isolated 24 hr later followed by gene
+expression profiling using agilent whole human
+genome microarrays. the saturating concentration of 1
+mum for each gc was chosen based on the geneblazer
+reporter gene assay results (figure 2) and human clinical
+reports showing ocular tissue concentrations for dex or
+ta >1 mum following local administration [36,37]. three
+biological replicates were analyzed using independent
+microarrays for each drug treatment that were then
+directly compared to vehicle controls (0.1% dmso).
+since tm 86 and tm 93 cells were isolated from donors of
+different ages, all subsequent microarray data analysis
+were performed for each tm cell type, separately [for complete gene lists see additional file 1]. there were 1968
+genes regulated by all three gcs in tm 86 cells (figure
+4a). however, the total number of genes uniquely regulated by each gc varies: 1761, 693, or 388 for dex, fa, or
+ta, respectively, suggesting a potential transcriptional
+mechanism underlying the different cellular responses to
+each of the gcs (figure 4a). in tm 93 cells, 1150 genes
+were regulated commonly by all three gcs (figure 4b).
+each of the gcs also regulated a unique set of genes in tm
+93 cells. there were 745, 2294, or 555 genes regulated
+uniquely by dex, fa, or ta, respectively (figure 4b).
+table 2 summarizes the top 24 genes regulated by dex,
+fa or ta in tm 86 cells based on the magnitude of fold
+change. these genes included rgc32, angptl7, myoc,
+
+fkbp5,  xxxg2009xxx , mxra5, per3 and  xxxg180xxx . interestingly,
+oca2 and  xxxg1726xxx  were found to be uniquely upregulated by
+70.2- or 3.1-fold in response to dex or fa, respectively.
+table 3 shows the 24 genes most highly upregulated by
+dex, fa or ta in tm 93 cells. the list of genes included
+oca2,  xxxg2009xxx , angptl7, fkbp5, myoc,  xxxg180xxx , mxra5
+and per3. similar to tm 86, slp1 was found to be
+uniquely upregulated by 18.0-fold in response to fa.
+gene function analysis
+using ingenuity pathway analysis, we identified networks
+that were significantly enriched using the lists of differentially expressed genes. this analysis confirmed the unique
+regulation of a functional subset of genes by each of the
+gcs in tm 86 and tm 93 cells. for example, in tm 86,
+dex significantly regulated a network centered around
+the rna binding protein s1 or rnps1 (figure 5), whereas
+fa significantly modulated a gr-dependent network
+(data not shown). in tm 93, dex significantly affected a
+network centered around a histone methyltransferase
+known as suppressor of  xxxd2044xxx  12 homolog or suz12 (data
+not shown), whereas fa regulated a transcriptional repressor referred to as jumonji, at rich interactive domain 1b
+or jarid1b-based network (figure 6).
+
+using the high-throughput gominer integrative gene
+ontology tool, the enrichment of biological themes from
+the differentially expressed transcript lists in response to
+each of the gcs was also evaluated in both tm 86 and tm
+93 cell lines [for complete biological processes lists see
+page 7 of 14
+(page number not for citation purposes)
+
+bmc medical genomics 2009, 2:58
+
+http://www.biomedcentral.com/1755-8794/2/58
+
+table 2: top 24 differentially regulated genes in response to dex, fa, or ta treatment in tm 86 cell line.
+
+gene symbol
+
+gene name
+
+genbank accession number dex
+fc
+
+fa
+fc
+
+ta
+fc
+
+upregulated
+rgc32
+oca2
+ xxxg2009xxx 
+angptl7
+itga10
+lsp1
+ xxxg1237xxx 
+fkbp5
+klf15
+angptl4
+myoc
+zbtb16
+ xxxg1726xxx 
+
+response gene to complement 32
+oculocutaneous albinism ii
+ xxxg2009xxx 
+angiopoietin-like 7
+integrin, alpha 10
+clone pp9372 unknown mrna
+potassium voltage-gated channel, shab-related subfamily,
+member 1
+fk506 binding protein 5
+kruppel-like factor 15
+angiopoietin-like 4
+myocilin, trabecular meshwork inducible glucocorticoid
+response
+zinc finger and btb domain containing 16
+ xxxg1726xxx  ( xxxg1726xxx )
+
+kallmann syndrome 1 sequence
+ xxxg836xxx 
+matrix-remodelling associated 5
+period homolog 3 (drosophila)
+ xxxg180xxx  ( xxxg180xxx )
+protocadherin 19
+ras-like, family 11, member b
+kinesin family member 4a
+coxsackie virus and adenovirus receptor
+chemokine (c-c motif) receptor-like 1
+unknown
+
+nm_014059
+nm_000275
+nm_000331
+nm_021146
+nm_003637
+af289610
+ xxxg1237xxx 
+
+>100
+70.2
+30.9
+24.8
+22.4
+20.9
+13.6
+
+>100 >100
+ns
+ns
+34.6 35.3
+16.0 26.5
+25.1 17.7
+14.9 15.4
+20.1 19.9
+
+nm_004117
+nm_014079
+nm_139314
+nm_000261
+
+12.9
+12.5
+7.0
+7.5
+
+13.8
+11.5
+9.6
+7.4
+
+12.5
+11.1
+7.9
+6.7
+
+nm_006006
+nm_002619
+
+7.5
+ns
+
+8.7
+3.2
+
+8.1
+ns
+
+nm_000216
+ xxxg836xxx 
+nm_015419
+nm_016831
+nm_198098
+nm_020766
+nm_023940
+nm_012310
+nm_001338
+nm_178445
+unknown
+
+-5.8
+-6.9
+-6.0
+-5.1
+-5.5
+-4.7
+-4.0
+-4.0
+-4.7
+-3.8
+ns
+
+-5.6
+-4.0
+-4.3
+-5.3
+-4.4
+-5.1
+-4.9
+-3.6
+-3.4
+-4.7
+ns
+
+-6.7
+-4.9
+-5.4
+-7.0
+-5.1
+-5.0
+-4.0
+-4.1
+-4.8
+-3.4
+-3.1
+
+downregulated
+kal1
+ xxxg836xxx 
+mxra5
+per3
+ xxxg180xxx 
+pcdh19
+rasl11b
+kif4a
+cxadr
+ccrl1
+enst00000344214
+
+fc: fold change; ns: not significant
+the genes are listed according to their rank order fold-change.
+
+additional files 2, 3, 4, 5, 6, 7, 8 and 9]. this analysis confirmed again that each of the gcs can generate both a
+common and unique pattern of gene expression that is
+associated with specific biological processes. results
+showed that in tm 86 cells, dex significantly regulated
+cellular component organization and biogenesis, whereas
+fa and ta regulated actin filament-based process and
+mitotic cell cycle, respectively. in tm 93 cells, dex significantly regulated membrane lipid metabolic process,
+whereas fa and ta regulated biopolymer metabolic process and smooth muscle cell proliferation, respectively.
+
+discussion
+the goals of this study were to measure gr potency for
+three gcs used to treat inflammatory eye disease, examine
+the expression of gralpha and grbeta translational isoforms in
+human tm cells, and to assess changes in mrna levels in
+tm cells treated with dex, fa or ta. the findings of this
+study demonstrate that tm cells in vitro express all gralpha
+and grbeta n-terminal isoforms, and that gcs with dissimilar structures but similar gr potency are capable of regu-
+
+lating common and unique subsets of genes and
+biological networks that appear to be cell-lineage dependent.
+before characterizing gc transcript responses in tm cells,
+we deemed it important to directly measure and compare
+the gr binding affinity for dex, fa, and ta, and their
+potency in a gr-mediated transactivation assay. the gr
+binding affinities for all three gcs were in the low nm
+range and were considered roughly equivalent. importantly, the gr binding affinity of 5 nm for dex reported
+here in im-9 b-lymphoblastoid cells is identical to that
+reported in primary human tm cells [18]. the ec50 values
+for dex, fa, and ta in the gr-mediated hela cell transactivation assay were also in the low nm range. these data
+support the notion that these three gcs are roughly equivalent at stimulating gr-mediated transcriptional activity
+[16]. the relationship between receptor potency and gr
+translational isoform expression is to date poorly understood. the expression of gralpha isoforms in hela cells has
+been previously reported [20] and confirmed in our study,
+page 8 of 14
+(page number not for citation purposes)
+
+bmc medical genomics 2009, 2:58
+
+http://www.biomedcentral.com/1755-8794/2/58
+
+table 3: top 24 differentially regulated genes in response to dex, fa, or ta treatment in tm 93 cell line.
+
+gene symbol
+
+upregulated
+oca2
+angptl7
+rgc32
+lsp1
+ xxxg2009xxx 
+ xxxg1237xxx 
+itga10
+angptl4
+fkbp5
+ xxxg1726xxx 
+zbtb16
+klf15
+myoc
+
+gene name
+
+genbank accession number dex
+fc
+
+oculocutaneous albinism ii
+angiopoietin-like 7
+response gene to complement 32
+clone pp9372 unknown mrna
+ xxxg2009xxx 
+potassium voltage-gated channel, shab-related subfamily,
+member 1
+integrin, alpha 10
+angiopoietin-like 4
+fk506 binding protein 5
+ xxxg1726xxx  ( xxxg1726xxx )
+zinc finger and btb domain containing 16
+kruppel-like factor 15
+myocilin, trabecular meshwork inducible glucocorticoid
+response
+
+fa
+fc
+
+ta
+fc
+
+nm_000275
+nm_021146
+nm_014059
+af289610
+nm_000331
+ xxxg1237xxx 
+
+>100
+18.8
+18.8
+ns
+10.7
+9.3
+
+98.0 >100
+13.0 20.5
+11.0 19.9
+18.0 ns
+8.3 11.9
+5.2 11.3
+
+nm_003637
+nm_139314
+nm_004117
+nm_002619
+nm_006006
+nm_014079
+nm_000261
+
+8.1
+6.5
+5.9
+5.2
+5.4
+4.2
+2.5
+
+9.1
+9.1
+6.8
+6.5
+4.9
+3.6
+2.7
+
+5.6
+5.3
+5.8
+4.4
+5.5
+3.9
+2.6
+
+unknown
+nm_000216
+ xxxg836xxx 
+nm_198098
+nm_015419
+nm_020766
+nm_016831
+nm_178445
+nm_012310
+nm_001338
+nm_023940
+
+-5.6
+-2.9
+-2.5
+-2.8
+-3.9
+-2.9
+-2.8
+-2.4
+-2.3
+-2.2
+-1.5
+
+-6.3
+-3.0
+-2.2
+-3.2
+-4.5
+-3.9
+-3.6
+-2.5
+-2.2
+-1.8
+ns
+
+ns
+-3.3
+-2.6
+-2.8
+-4.5
+-3.3
+-3.8
+-2.1
+-2.3
+-2.6
+ns
+
+downregulated
+enst00000344214
+kal1
+ xxxg836xxx 
+ xxxg180xxx 
+mxra5
+pcdh19
+per3
+ccrl1
+kif4a
+cxadr
+rasl11b
+
+unknown
+kallmann syndrome 1 sequence
+ xxxg836xxx 
+ xxxg180xxx  ( xxxg180xxx )
+matrix-remodelling associated 5
+protocadherin 19
+period homolog 3 (drosophila)
+chemokine (c-c motif) receptor-like 1
+kinesin family member 4a
+coxsackie virus and adenovirus receptor
+ras-like, family 11, member b
+
+fc: fold change; ns: not significant
+the genes are listed according to their rank order fold-change.
+
+however, the distribution of gralpha isoforms in human  xxxd1418xxx  cells used in the gr binding affinity assay is unknown.
+assuming that different gralpha isoforms may exhibit different binding affinities for each gc, the observed gr binding affinity or transactivation potency is the aggregate
+affinity or potency generated by multiple gr isoforms in
+these cells. to avoid possible subtle but significant differences in gc potencies in tm cells, we chose a saturating
+gc dose of 1 mum in subsequent gene regulation studies.
+recently, lu and cidlowski showed distinct tissue-specific
+distribution patterns of n-terminal gralpha isoforms in mice
+and rat tissues, and suggested that unique gralpha transcriptional activities and distinct tissue-specific distribution
+patterns could provide a novel mechanism for tissue-specific glucocorticoid responses [20]. total gralpha and grbeta
+protein expression was previously reported in human tm
+by a competitive binding assay [18] or by western blot
+[17]. our results show that tm 86 and tm 93 cells express
+detectable levels of all known gralpha or grbeta isoforms (a-
+
+d). to our knowledge, this is the first report of gralpha and
+grbeta translational isoforms in human tm cells. although
+the relationship between gc-mediated biological
+responses and the distribution of gralpha and grbeta isoforms
+in tm cells is currently undefined, it is tempting to speculate that gralpha-c may play an important role in tm cells
+since it was shown that this isoform has the highest relative transcriptional activity in response to dex [20].
+gene expression profiling studies using agilent microarray revealed that the two primary tm cell types exhibited
+significantly different global gene expression profiles. this
+observation may be explained by a higher level of grbeta-d
+isoform expression in tm 86 compared to tm 93 cells.
+alternatively, the fact that tm 86 and tm 93 cells were isolated from an infant and an adult, respectively, may
+account for the differences in gene expression patterns
+between the two cell lines. it is also possible that inherent
+differences between individuals may reflect differences in
+gene expression profiles.
+
+page 9 of 14
+(page number not for citation purposes)
+
+bmc medical genomics 2009, 2:58
+
+dex
+
+http://www.biomedcentral.com/1755-8794/2/58
+
+fa
+
+ta
+ta
+
+figure
+the
+most
+5 prominently affected gene network in response to dex in tm 86 cells
+the most prominently affected gene network in response to dex in tm 86 cells. network was classified as: rnapost-transcriptional modification, antigen presentation, immune cell trafficking. regulation of this network in tm 86 cells is compared across treatment with dex, fa or ta. pathway contains rna binding protein s1 (rnps1), which occupies a central
+position in this network. red: induction; green: repression; white: unaffected; color intensity correlates with fold change;
+number: fold change. the diagram was obtained from ingenuity pathway analysis (ingenuity® systems).
+to test the hypothesis that each gc generates subsets of
+common and unique genes, we compared the global gene
+expression profiles of two different tm cell types in
+response to 24 hr treatment with a saturating gc concentration. this is the first microarray study that compares the
+effects of three clinically-relevant gcs at equimolar concentrations on the transcriptome of tm cells. our study
+shows that many genes commonly regulated by dex, fa
+and ta in tm 86 and tm 93 cells were also regulated by
+dex in published studies in primary tm cells [8-11].
+
+these genes included myoc, fkbp5,  xxxg2009xxx ,  xxxg2009xxx ,
+zbtb16, angptl7, cxadr and per3. the size of this
+common subset of genes was steroid and cell-dependent,
+and accounted for 16%-53% of all steroid-regulated genes
+in tm86 cells and 33%-67% in tm93 cells.
+our results also showed that all three gcs regulated, in a
+cell lineage-dependent manner, unique sets of genes
+involved in a specific biological process or functional network. the present study closely confirms recently pub-
+
+page 10 of 14
+(page number not for citation purposes)
+
+bmc medical genomics 2009, 2:58
+
+fa
+
+http://www.biomedcentral.com/1755-8794/2/58
+
+dex
+
+ta
+
+figure
+the
+most
+6 prominently affected gene network in response to fa in tm 93 cells
+the most prominently affected gene network in response to fa in tm 93 cells. network was classified as: cell cycle,
+cell-mediated immune response, cellular assembly and organization. regulation of this network in tm 93 cells is compared across
+treatment with dex, fa or ta. pathway contains jumonji, at rich interactive domain 1b transcriptional repressor (jarid1b),
+which occupies a central position in this network. red: induction; green: repression; white: unaffected; color intensity correlates with fold change; number: fold change. the diagram was obtained from ingenuity pathway analysis (ingenuity® systems).
+
+lished findings by fan et al who demonstrated that ta and
+dex were capable of regulating common as well as
+unique subsets of genes in tm cells [13]. the fan et al
+results showed that gc-regulated genes were associated
+with multiple cell functions including acute-phase
+response, cell adhesion, and cell cycle and growth. similar
+observations were obtained by guo et al who showed that
+different  xxxg1805xxx  or gamma
+agonists were capable of generating common and unique
+gene expression subsets in rodent primary hepatocytes
+[38,39]. in the present study, gene function analysis
+
+showed that in tm 86 cells, dex significantly regulated a
+network centered around the rna binding protein s1 or
+rnps1, whereas fa significantly modulated a grdependent network. in tm 93, dex significantly affected
+histone methyltransferase or suz12 network, whereas fa
+regulated transcriptional repressor or jarid1b-based network.
+the functional and potential clinical significance of these
+gc-dependent pharmacologic responses requires further
+investigation. these responses are likely gc dose and
+page 11 of 14
+(page number not for citation purposes)
+
+bmc medical genomics 2009, 2:58
+
+duration of exposure-dependent, and the results suggest a
+very complex mechanism that is initiated by gc-gralpha
+interactions. for example, in addition to unique gcdependent gene subsets, specific genes such as oca2 and
+slp1 were uniquely regulated by only one gc in one cell
+line and regulated by all three gcs in the other cell line.
+these observations suggest that in a specific cell line dex,
+fa, or ta generate a unique ligand-gr binding conformation, a unique gr-dna binding domain conformation,
+and the subsequent recruitment of distinct co-repressors
+or co-activators. there may also be gc-dependent remodeling of the chromatin at the promoter of gr target genes.
+finally, the microarray results presented here further support the findings by schaaf and cidlowski that show gc
+analogs with subtly different chemical structures are capable of generating unique patterns of gc-gralpha nuclear distribution and mobility [21]. our microarray data strongly
+suggest that the gc-mediated gr nuclear distribution patterns ultimately regulate common and unique subsets of
+genes and presumably generate unique cellular responses.
+the clinical impact of pharmacologically-distinct and
+defined glucocorticoid agonists on inflammatory diseases, including those of the eye, remains fertile ground
+for future research.
+
+http://www.biomedcentral.com/1755-8794/2/58
+
+regulated genes related to cell cycle and cell adhesion,
+respectively. these observations support the hypothesis
+that dex, fa, or ta are capable of generating common
+and unique gene subsets via a unique conformation of the
+gc-gralpha complex, which ultimately results in the binding
+of gralpha to specific promoters on target genes. these
+unique gc-mediated unique molecular effects are likely
+time, dose, cell-type, and cell-lineage dependent.
+
+competing interests
+although an and jle are current employees at allergan
+inc., we are not discussing or using any current or future
+commercial products.
+
+authors' contributions
+an conducted western blot experiments, prepared tm
+cell samples for microarray studies, conducted the ipa
+analysis of microarray data, coordinated the allergan
+business contracts with cerep, invitrogen, and cogenics,
+and wrote the manuscript. ekl performed the analysis of
+microarray data. wds provided the primary human
+trabecular meshwork cells used in this study and consulted on use of primary cultures of tm cells as model for
+tm tissues. jle, ekl and wds helped writing the manuscript. all authors read and approved the final manuscript.
+
+conclusion
+a primary goal of this study was to determine if glucocorticoids with similar potencies but subtly different chemical structures can generate both common and unique
+subsets of genes in trabecular meshwork cells. this
+hypothesis was proposed by schaaf and cidlowski from
+studies showing that gc chemical structure directly influenced gc/gralpha nuclear distribution and mobility [21]. in
+surrogate cell types, the gr binding affinity and gr-mediated transactivation potencies for dex, fa, or ta in are
+similar (1 - 5 nm), and represent the aggregate affinity or
+transactivation potency generated by multiple gralpha and
+grbeta isoforms. all four known gralpha and grbeta translational
+isoforms (a-d) were expressed in tm 86 and tm 93 cells.
+the physiologic necessity and functional role for multiple
+gralpha isoforms in tm cells requires further study, however,
+gene expression analysis revealed that 1,968 and 1,150
+genes were regulated by dex, fa, and ta in tm 86 and tm
+93 cells, respectively. many of these genes, including
+myoc, fkbp5,  xxxg2009xxx , zbtb16 and angptl7 were previously reported to be regulated by dex or ta in primary
+human tm cells. in addition to sets of genes shared by all
+three gcs, each gc also regulated a unique subset of
+genes in both tm cell lines. in tm 86, dex significantly
+regulated transcripts associated with rna post-transcriptional modifications, whereas fa and ta modulated genes
+associated with lipid metabolism and cell morphology,
+respectively. in tm 93 cells, dex significantly regulated
+genes related to histone methylation, whereas fa and ta
+
+additional material
+additional file 1
+comparison of lists of differentially expressed genes in response to
+dex, fa, and ta in tm 86 and tm 93. these lists show, for tm 86
+and tm 93, the genes that were differentially regulated in response to a
+single treatment (dex, fa, or ta), as well as the genes commonly
+expressed across multiple treatments.
+click here for file
+[http://www.biomedcentral.com/content/supplementary/17558794-2-58-s1.xls]
+
+additional file 2
+the "change" list of enriched gene ontological processes in response to
+dex in tm 86. a list of biological processes (and associated statistical
+enrichment values) representing the entire list of transcripts and negating
+the directionality of the change. the list was sorted by p-value.
+click here for file
+[http://www.biomedcentral.com/content/supplementary/17558794-2-58-s2.xls]
+
+additional file 3
+the "change" list of enriched gene ontological processes in response to
+fa in tm 86. a list of biological processes (and associated statistical
+enrichment values) representing the entire list of transcripts and negating
+the directionality of the change. the list was sorted by p-value.
+click here for file
+[http://www.biomedcentral.com/content/supplementary/17558794-2-58-s3.xls]
+
+page 12 of 14
+(page number not for citation purposes)
+
+bmc medical genomics 2009, 2:58
+
+additional file 4
+the "change" list of enriched gene ontological processes in response to
+ta in tm 86. a list of biological processes (and associated statistical
+enrichment values) representing the entire list of transcripts and negating
+the directionality of the change. the list was sorted by p-value.
+click here for file
+[http://www.biomedcentral.com/content/supplementary/17558794-2-58-s4.xls]
+
+http://www.biomedcentral.com/1755-8794/2/58
+
+references
+1.
+2.
+3.
+4.
+
+additional file 5
+the "change" list of enriched gene ontological processes in response to
+dex, fa and ta in tm 86. a list of biological processes (and associated
+statistical enrichment values) representing the entire list of transcripts and
+negating the directionality of the change. the list was sorted by p-value.
+click here for file
+[http://www.biomedcentral.com/content/supplementary/17558794-2-58-s5.xls]
+
+5.
+6.
+
+7.
+
+additional file 6
+the "change" list of enriched gene ontological processes in response to
+dex in tm 93. a list of biological processes (and associated statistical
+enrichment values) representing the entire list of transcripts and negating
+the directionality of the change. the list was sorted by p-value.
+click here for file
+[http://www.biomedcentral.com/content/supplementary/17558794-2-58-s6.xls]
+
+additional file 7
+the "change" list of enriched gene ontological processes in response to
+fa in tm 93. a list of biological processes (and associated statistical
+enrichment values) representing the entire list of transcripts and negating
+the directionality of the change. the list was sorted by p-value.
+click here for file
+[http://www.biomedcentral.com/content/supplementary/17558794-2-58-s7.xls]
+
+8.
+
+9.
+
+10.
+
+11.
+
+12.
+
+additional file 8
+the "change" list of enriched gene ontological processes in response to
+ta in tm 93. a list of biological processes (and associated statistical
+enrichment values) representing the entire list of transcripts and negating
+the directionality of the change. the list was sorted by p-value.
+click here for file
+[http://www.biomedcentral.com/content/supplementary/17558794-2-58-s8.xls]
+
+13.
+
+14.
+15.
+
+additional file 9
+the "change" list of enriched gene ontological processes in response to
+dex, fa and ta in tm 93. a list of biological processes (and associated
+statistical enrichment values) representing the entire list of transcripts and
+negating the directionality of the change. the list was sorted by p-value.
+click here for file
+[http://www.biomedcentral.com/content/supplementary/17558794-2-58-s9.xls]
+
+16.
+
+17.
+
+18.
+
+acknowledgements
+the authors would like to thank emely hoffman for her excellent technical
+assistance.
+
+19.
+20.
+
+clark af, wordinger rj: the role of steroids in outflow resistance. exp eye res 2009, 88:752-759.
+wordinger rj, clark af: effects of glucocorticoids on the
+trabecular meshwork: towards a better understanding of
+glaucoma. prog retin eye res 1999, 18:629-667.
+mccartney md, cantu-crouch d, clark af: freeze-fracture
+examination of cultured human trabecular meshwork cells:
+effect of dexamethasone. exp eye res 2006, 82:994-1001.
+zhang x, ognibene cm, clark af, yorio t: dexamethasone inhibition of trabecular meshwork cell phagocytosis and its modulation by  xxxg1601xxx  beta. exp eye res 2007,
+84:275-284.
+snyder rw, stamer wd, kramer tr, seftor re: corticosteroid
+treatment and trabecular meshwork proteases in cell and
+organ culture supernatants. exp eye res 1993, 57:461-468.
+clark af, brotchie d, read at, hellberg p, english-wright s, pang ih,
+ethier cr, grierson i: dexamethasone alters f-actin architecture and promotes cross-linked actin network formation in
+human trabecular meshwork tissue. cell motil cytoskeleton 2005,
+60:83-95.
+underwood jl, murphy cg, chen j, franse-carman l, wood i,
+epstein dl, alvarado ja: glucocorticoids regulate transendothelial fluid flow resistance and formation of intercellular
+junctions. am j physiol 1999, 277: xxxd408xxx -342.
+ishibashi t, takagi y, mori k, naruse s, nishino h, yue by, kinoshita
+s: cdna microarray analysis of gene expression changes
+induced by dexamethasone in cultured human trabecular
+meshwork cells. invest ophthalmol vis sci 2002, 43:3691-3697.
+leung yf, tam po, lee ws, lam ds, yam hf, fan bj, tham cc,
+chua jk, pang cp: the dual role of dexamethasone on antiinflammation and outflow resistance demonstrated in cultured human trabecular meshwork cells. mol vis 2003,
+9:425-439.
+lo wr, rowlette ll, caballero m, yang p, hernandez mr, borras t:
+tissue differential microarray analysis of dexamethasone
+induction reveals potential mechanisms of steroid glaucoma.
+invest ophthalmol vis sci 2003, 44:473-485.
+rozsa fw, reed dm, scott km, pawar h, moroi se, kijek tg,
+krafchak cm, othman mi, vollrath d, elner vm, richards je: gene
+expression profile of human trabecular meshwork cells in
+response to long-term dexamethasone exposure. mol vis
+2006, 12:125-141.
+shinzato m, yamashiro y, miyara n, iwamatsu a, takeuchi k, umikawa m, bayarjargal m, kariya k, sawaguchi s: proteomic analysis
+of the trabecular meshwork of rats in a steroid-induced ocular hypertension model: downregulation of type i collagen cpropeptides. ophthalmic res 2007, 39:330-337.
+fan bj, wang dy, tham cc, lam ds, pang cp: gene expression
+profiles of human trabecular meshwork cells induced by triamcinolone and dexamethasone. invest ophthalmol vis sci 2008,
+49:1886-1897.
+evans rm: the steroid and thyroid  xxxg1603xxx  superfamily. science 1988, 240:889-895.
+necela bm, cidlowski ja: mechanisms of  xxxg1601xxx  action in noninflammatory and inflammatory cells. proc
+am thorac soc 2004, 1:239-246.
+fruchter o, kino t, zoumakis e, alesci s, de martino m, chrousos
+g, hochberg z: the human  xxxg1601xxx  (gr) isoform {beta} differentially suppresses gr{alpha}-induced
+transactivation stimulated by synthetic glucocorticoids. j clin
+endocrinol metab 2005, 90:3505-3509.
+zhang x, clark af, yorio t: regulation of glucocorticoid
+responsiveness in glaucomatous trabecular meshwork cells
+by  xxxg1601xxx -beta. invest ophthalmol vis sci 2005,
+46:4607-4616.
+weinreb rn, bloom e, baxter jd, alvarado j, lan n, o'donnell j,
+polansky jr: detection of glucocorticoid receptors in cultured
+human trabecular cells.
+invest ophthalmol vis sci 1981,
+21:403-407.
+lu nz, cidlowski ja:  xxxg1601xxx  isoforms generate transcription specificity. trends cell biol 2006, 16:301-307.
+lu nz, cidlowski ja: translational regulatory mechanisms
+generate n-terminal  xxxg1601xxx  isoforms with
+unique transcriptional target genes. mol cell 2005, 18:331-342.
+
+page 13 of 14
+(page number not for citation purposes)
+
+bmc medical genomics 2009, 2:58
+
+21.
+
+22.
+23.
+24.
+
+25.
+26.
+
+27.
+28.
+
+29.
+
+30.
+
+31.
+
+32.
+33.
+
+34.
+
+schaaf mj, lewis-tuffin lj, cidlowski ja: ligand-selective targeting of the  xxxg1601xxx  to nuclear subdomains is
+associated with decreased receptor mobility. mol endocrinol
+2005, 19:1501-1515.
+schena m, shalon d, davis rw, brown po: quantitative monitoring of gene expression patterns with a complementary dna
+microarray. science 1995, 270:467-470.
+lipshutz rj, fodor sp, gingeras tr, lockhart dj: high density synthetic oligonucleotide arrays. nat genet 1999, 21:20-24.
+canales rd, luo y, willey jc, austermiller b, barbacioru cc, boysen
+c, hunkapiller k, jensen rv, knight cr, lee ky, ma y, maqsodi b,
+papallo a, peters eh, poulter k, ruppel pl, samaha rr, shi l, yang
+w, zhang l, goodsaid fm: evaluation of dna microarray
+results with quantitative gene expression platforms. nat biotechnol 2006, 24:1115-1122.
+stamer wd, seftor re, williams sk, samaha ha, snyder rw: isolation and culture of human trabecular meshwork cells by
+extracellular matrix digestion. curr eye res 1995, 14:611-617.
+clark af, lane d, wilson k, miggans st, mccartney md: inhibition
+of dexamethasone-induced cytoskeletal changes in cultured
+human trabecular meshwork cells by tetrahydrocortisol.
+invest ophthalmol vis sci 1996, 37:805-813.
+wilkinson jm, hayes s, thompson d, whitney p, bi k: compound
+profiling using a panel of steroid  xxxg1603xxx  cellbased assays. j biomol screen 2008, 13:755-765.
+boorman ga, blackshear pe, parker js, lobenhofer ek, malarkey de,
+vallant mk, gerken dk, irwin rd: hepatic gene expression
+changes throughout the day in the fischer rat: implications
+for toxicogenomic experiments. toxicol sci 2005, 86:185-193.
+guo l, lobenhofer ek, wang c, shippy r, harris sc, zhang l, mei
+n, chen t, herman d, goodsaid fm, hurban p, phillips kl, xu j,
+deng x, sun ya, tong w, dragan yp, shi l: rat toxicogenomic
+study reveals analytical consistency across microarray platforms. nat biotechnol 2006, 24:1162-1169.
+shi l, reid lh, jones wd, shippy r, warrington ja, baker sc, collins
+pj, de longueville f, kawasaki es, lee ky, luo y, sun ya, willey jc,
+setterquist ra, fischer gm, tong w, dragan yp, dix dj, frueh fw,
+goodsaid fm, herman d, jensen rv, johnson cd, lobenhofer ek,
+puri rk, schrf u, thierry-mieg j, wang c, wilson m, wolber pk,
+zhang l, amur s, bao w, barbacioru cc, lucas ab, bertholet v,
+boysen c, bromley b, brown d, brunner a, canales r, cao xm,
+cebula ta, chen jj, cheng j, chu tm, chudin e, corson j, corton
+jc, croner lj, davies c, davison ts, delenstarr g, deng x, dorris
+d, eklund ac, fan xh, fang h, fulmer-smentek s, fuscoe jc, gallagher k, ge w, guo l, guo x, hager j, haje pk, han j, han t, harbottle hc, harris sc, hatchwell e, hauser ca, hester s, hong h,
+hurban p, jackson sa, ji h, knight cr, kuo wp, leclerc je, levy s,
+li qz, liu c, liu y, lombardi mj, ma y, magnuson sr, maqsodi b,
+mcdaniel t, mei n, myklebost o, ning b, novoradovskaya n, orr
+ms, osborn tw, papallo a, patterson ta, perkins rg, peters eh,
+peterson r, et al.: the microarray quality control (maqc)
+project shows inter- and intraplatform reproducibility of
+gene expression measurements.
+nat biotechnol 2006,
+24:1151-1161.
+lobenhofer ek, auman jt, blackshear pe, boorman ga, bushel pr,
+cunningham ml, fostel jm, gerrish k, heinloth an, irwin rd, malarkey de, merrick ba, sieber so, tucker cj, ward sm, wilson re,
+hurban p, tennant rw, paules rs: gene expression response in
+target organ and whole blood varies as a function of target
+organ injury phenotype. genome biol 2008, 9:r100.
+edgar r, domrachev m, lash ae: gene expression omnibus:
+ncbi gene expression and hybridization array data repository. nucleic acids res 2002, 30:207-210.
+zeeberg br, feng w, wang g, wang md, fojo at, sunshine m, narasimhan s, kane dw, reinhold wc, lababidi s, bussey kj, riss j, barrett jc, weinstein jn: gominer: a resource for biological
+interpretation of genomic and proteomic data. genome biol
+2003, 4:r28.
+zeeberg br, qin h, narasimhan s, sunshine m, cao h, kane dw,
+reimers m, stephens rm, bryant d, burt sk, elnekave e, hari dm,
+wynn ta, cunningham-rundles c, stewart dm, nelson d, weinstein jn: high-throughput gominer, an 'industrial-strength'
+integrative gene ontology tool for interpretation of multiplemicroarray experiments, with application to studies of common variable immune deficiency (cvid). bmc bioinformatics
+2005, 6:168.
+
+http://www.biomedcentral.com/1755-8794/2/58
+
+35.
+
+36.
+
+37.
+
+38.
+
+39.
+
+grossmann c, scholz t, rochel m, bumke-vogt c, oelkers w,
+pfeiffer af, diederich s, bahr v: transactivation via the human
+glucocorticoid and  xxxg1602xxx  by therapeutically used steroids in cv-1 cells: a comparison of their glucocorticoid and mineralocorticoid properties. eur j endocrinol
+2004, 151:397-406.
+spandau uh, derse m, schmitz-valckenberg p, papoulis c, jonas jb:
+dosage dependency of intravitreal  xxxd3418xxx 
+as treatment for diabetic macular oedema. br j ophthalmol
+2005, 89:999-1003.
+kozak i, kayikcioglu or, cheng l, falkenstein i, silva ga, yu dx,
+freeman wr: the effect of  xxxd2290xxx  on dexamethasone penetration into the posterior segment of the eye after sub-tenon's injection. j ocul pharmacol
+ther 2006, 22:362-369.
+guo l, zhang l, sun y, muskhelishvili l, blann e, dial s, shi l, schroth
+g, dragan yp: differences in hepatotoxicity and gene expression profiles by anti-diabetic ppar gamma agonists on rat
+primary hepatocytes and human hepg2 cells. mol divers 2006,
+10:349-360.
+guo l, fang h, collins j, fan xh, dial s, wong a, mehta k, blann e,
+shi l, tong w, dragan yp: differential gene expression in
+mouse primary hepatocytes exposed to the  xxxg1805xxx  agonists. bmc bioinformatics
+2006, 7(suppl 2):s18.
+
+pre-publication history
+the pre-publication history for this paper can be accessed
+here:
+http://www.biomedcentral.com/1755-8794/2/58/prepub
+
+publish with bio med central and every
+scientist can read your work free of charge
+"biomed central will be the most significant development for
+disseminating the results of biomedical researc h in our lifetime."
+sir paul nurse, cancer research uk
+
+your research papers will be:
+available free of charge to the entire biomedical community
+peer reviewed and published immediately upon acceptance
+cited in pubmed and archived on pubmed central
+yours — you keep the copyright
+
+biomedcentral
+
+submit your manuscript here:
+http://www.biomedcentral.com/info/publishing_adv.asp
+
+page 14 of 14
+(page number not for citation purposes)
+

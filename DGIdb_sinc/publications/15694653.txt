@@ -1,0 +1,884 @@
+european journal of medicinal chemistry 40 (2005) 185–194
+www.elsevier.com/locate/ejmech
+
+original article
+
+atypical and typical antipsychotic drug interactions
+with the  xxxg656xxx 
+erik hjerde, svein g. dahl, ingebrigt sylte *
+department of pharmacology, institute of medical biology, university of tromsø, n-9037 tromsø, norway
+received 1 april 2004; received in revised form 27 september 2004; accepted 15 october 2004
+available online 07 january 2005
+
+abstract
+a model of the  xxxg656xxx  was used to study the receptor interactions of dopamine, the typical antipsychotics haloperidol and
+ xxxd2511xxx , and the atypical antipsychotics clozapine and melperone. the atypical antipsychotics interacted with the halogen atom of the ring
+system in the direction of the transmembrane helices (tmhs) 2, 3 and 7, while the typical had the corresponding halogen atom in the direction
+of tmh5. molecular dynamics simulations indicated that the average helical displacement upon binding increased in the order: typical
+< atypical < dopamine. upon binding, the atypical induced larger displacements into tmh5 than did the typical. the typical had stronger
+non-bonded interactions with the receptor than had the atypical, which is in agreement with the experimental observation that the atypical
+antipsychotic drugs dissociate faster from the receptor than the typical antipsychotic drugs.
+© 2004 elsevier sas. all rights reserved.
+keywords: typical and atypical antipsychotics;  xxxg656xxx ; molecular dynamics; ligand induced receptor conformation
+
+1. introduction
+g-protein-coupled receptors (gpcrs) are characterised by
+seven highly conserved transmembrane helices (tmhs), connected to by intracellular (ic) and extracellular (ec) loops.
+there are five different subtypes of dopamine receptors (d1–
+d5), which all belong to the rhodopsin family of gpcrs [1].
+the binding site of dopamine is within a water accessible
+crevice extending from the ec surface of the receptors into
+the transmembrane domain between the tmhs. the surface
+of this crevice is formed by amino acids contributing to receptor specific ligand recognition and binding.
+schizophrenia is a complex and heterogeneous group of
+diseases for which the aetiology and pathogenesis are incompletely understood. schizophrenia is associated with increased
+activity at dopaminergic receptor sites [2,3], and the therapeutic effect of antipsychotic drugs is, at least in part, connected to antagonist action at dopamine receptors in the brain.
+certain antipsychotic drugs are also potent  xxxg1113xxx 
+antagonists. positron emission tomographic (pet) data have
+demonstrated that certain antipsychotics drugs at subthera* corresponding author. tel.: +47 77 64 4705; fax: +47 77 64 5310.
+e-mail address: sylte@fagmed.uit.no (i. sylte).
+0223-5234/$ - see front matter © 2004 elsevier sas. all rights reserved.
+doi:10.1016/j.ejmech.2004.10.010
+
+peutic doses saturate  xxxg1113xxx  binding, indicating that
+5-ht2 occupancy alone is not enough for mediating the antipsychotic effects [4].
+it has been demonstrated that a “threshold” of d2 occupancy is required to induce the antipsychotic response [5].
+the incidence of extrapyramidal side effects (eps) also
+increases with a d2 occupancy above 80% [5]. the atypical
+antipsychotic drug clozapine, has a lower incidence of eps,
+and has a lower degree of  xxxg656xxx  occupancy at therapeutic doses than the typical antipsychotic drugs. the lower
+d2 occupancy appears to be driven by a faster dissociation
+from the receptor [4,6,7].
+detailed knowledge about the molecular mechanisms of
+action of atypical and typical antipsychotic drugs is important for understanding of the pathophysiology of schizophrenia and for design of new drugs with improved efficacy and
+fewer side effects than the existing ones. the crystal structure of bovine rhodopsin [8] was the first reported threedimensional (3d) structure of a gpcr at atomic resolution.
+this structure provides a possibility of using a traditional
+homology modelling approach to predict the structures of
+other gpcrs of the rhodopsin family. in the present study, a
+3d model of the human  xxxg656xxx  was constructed, using the crystal structure of rhodopsin as template.
+
+186
+
+e. hjerde et al. / european journal of medicinal chemistry 40 (2005) 185–194
+
+the  xxxg656xxx  model was used to study the receptor interactions of dopamine, the typical antipsychotic drugs, haloperidol and  xxxd2511xxx , and the atypical antipsychotic drugs,
+clozapine and melperone [9–11].
+2. results
+the root mean square (rms) difference between the backbone atoms of the tmhs in the initial energy refined dopamine d2 model and the x-ray structure of rhodopsin was 0.4 å.
+after 750 ps of md of the receptor model, the rms difference between the rhodopsin structure and the average structure from the simulation was 3.1 å, with largest rms differences in tmh5 and tmh6. the electrostatic potentials
+outside the water accessible surface of the receptor model
+showed a dipolar structure with the ec regions more negative than the ic regions (fig. 1).
+2.1. ligand docking
+ligand–receptor interaction energies, complementarity
+between the ligand and the receptor and the results of site-
+
+fig. 2. molecular structures of dopamine, haloperidol, melperone, clozapine and  xxxd2511xxx .
+
+directed mutagenesis were used as controls of the tested ligand
+interaction modes. the docking procedure indicated that the
+structurally similar drugs clozapine and  xxxd2511xxx  (fig. 2) bind
+the receptor with the chlorine atom in different orientations.
+the most favourable interaction mode of clozapine was with
+the chlorine atom in the direction of tmh3 and tmh7 while
+the chlorine atom of  xxxd2511xxx  was in the direction of
+tmh5 and tmh6 (fig. 3). the docking procedure also indicated that haloperidol and melperone bind the  xxxg656xxx 
+with the fluorine atom of the ring system (fig. 2) differently
+oriented in the binding pocket. haloperidol had the fluorine
+atom in the direction of tmh5, while melperone had the fluorine atom in the direction of amino acids in tmh2 and tmh7
+(fig. 3).
+2.2. receptor–ligand interactions after 750 ps md
+fig. 1. distribution of relative electrostatic potentials outside the water accessible surface of the  xxxg656xxx  model, calculated with the grasp
+program. the ec side is up in the figure. the electrostatic potential distribution shows a dipol, with the synaptic side mainly negative (red) and the
+cytoplasmic side mainly positive (blue).
+
+residues having van der waals contact with the ligands in
+the average complexes after 750 ps md simulations are listed
+in table 1. all ligands had strong interactions with the highly
+conserved asp114 in tmh3, which has been suggested to be
+important for ligand binding to the  xxxg656xxx 
+
+e. hjerde et al. / european journal of medicinal chemistry 40 (2005) 185–194
+
+187
+
+table 1
+non-bonded interaction energies between the ligands and amino acids within the heptahelical bundle after energy minimisation of the average complexes from
+the md simulations. amino acids with van der waals contacts with the ligands, or within 20% increased van der waals radii of contacting atoms (*) are included
+receptor segment
+tmh2
+
+tmh3
+
+tmh5
+
+tmh6
+
+tmh7
+
+residue
+val87
+val91
+leu94
+glu95
+cys107
+phe110
+val111
+asp114
+val115
+met117
+cys118
+phe189
+val190
+ser193
+ser194
+trp386
+phe389
+phe390
+his393
+ile394
+ile397
+his398
+tyr408
+thr412
+trp413
+gly415
+tyr416
+
+dopamine
+
+clozapine
+
+–0.9*
+–7.6
+–3.6
+
+–0.8
+–5.9
+–2.8
+–10.5
+–3.1
+–0.3*
+–0.8
+
+–1.0
+
+ligand interaction energy (kcal/mol)
+melperone
+haloperidol
+–1.0
+–1.1
+–3.3
+–0.8
+–1.6
+–1.8*
+–1.8
+–5.8
+–2.8
+–2.8
+–3.6
+–8.1
+–11.0
+–1.9
+–3.3
+
+ xxxd2511xxx 
+
+–1.3*
+–4.1
+–4.7
+–9.9
+
+–1.4
+–0.8
+–2.4
+–2.7
+–3.2
+–2.6
+–2.8
+
+–3.0
+–4.6
+–1.0*
+–2.5
+–3.1
+–3.3
+–0.2
+–2.6
+
+[12,13]. the carboxyl group of the  xxxd233xxx  residue was
+oriented directly towards the protonated nitrogen atom of the
+ligand in all the complexes (fig. 3). the ligands also interacted strongly with other amino acids in tmh3, and with
+amino acids in tmh6 and tmh7 (table 1). the ligands did
+not have van der waals contacts with amino acids in
+tmh1 and tmh4.
+the typical antipsychotic drugs, haloperidol and  xxxd2511xxx , had stronger interactions with tmh6 than had the atypical antipsychotic drugs, clozapine and melperone (table 1).
+the typical antipsychotics also had stronger interactions with
+tmh5 than the atypical. haloperidol had van der waals contacts with ser193, ser194, and phe189, while  xxxd2511xxx  had
+van der waals contact with val190. the atypical antipsychotic drugs showed stronger interaction with phe110, and
+weaker interactions with val111 in tmh3, than did the typical antipsychotic drugs (table 1).
+dopamine interacted strongly with ser194 in tmh5
+(table 1). site-directed mutagenesis has shown that ser194 is
+
+–1.1*
+–0.7*
+–1.3*
+–1.4
+–2.7
+–1.8
+–1.8*
+–2.4
+
+–1.7
+–0.9*
+
+–2.0
+–5.6
+–1.4
+–3.6
+
+–2.0
+–2.4
+–3.1
+–3.0
+–7.1
+–1.2
+
+–4.4
+–1.5
+–1.0
+
+–3.2*
+–1.4*
+
+–1.9
+
+–1.0*
+
+important for binding of dopamine to the  xxxg656xxx  [14,15].
+this serine is highly conserved among gpcrs, and is important for binding of catecholamines to gpcrs [13].
+as shown in table 2 the typical antipsychotic drugs had
+stronger non-bonded interaction with the receptor than had
+the atypical antipsychotic drugs. the non-bonded interaction
+energies of haloperidol and  xxxd2511xxx  were –74.0 and
+–67.8 kcal/mol, respectively, while the non-bonded interaction energies of clozapine and melperone were –63.6 and
+–60.5 kcal/mol, respectively.
+2.3. ligand induced conformational changes
+of the receptor
+the average structures provide information about the most
+populated receptor states during the md simulations. comparison of receptor structures after md of the free receptor
+and md of receptor–ligand complexes (table 3), gives an
+indication of the structural displacements of specific receptor
+
+table 2
+potential energy (kcal/mol) of the receptor structure, receptor complexes and non-bonded receptor–ligand interactions, in the energy minimised average structures from md simulations
+
+receptor alone
+total
+receptor–ligand interaction
+
+dopamine
+–737.7
+–769.3
+–41.4
+
+clozapine
+–834.1
+–857.6
+–63.6
+
+potential energy (kcal/mol)
+melperone
+haloperidol
+–708.9
+–787.9
+–751.3
+–836.1
+–60.5
+–74.0
+
+ xxxd2511xxx 
+–734.9
+–766.6
+–67.8
+
+188
+
+e. hjerde et al. / european journal of medicinal chemistry 40 (2005) 185–194
+
+e. hjerde et al. / european journal of medicinal chemistry 40 (2005) 185–194
+table 3
+rms difference of receptor domains (backbone atoms) between energy minimised average receptor structure of the free (unbound receptor) and receptor
+in complex with a ligand, during md simulations. avg.: the average rms
+difference from the free receptor
+
+tmh1
+tmh2
+tmh3
+tmh4
+tmh5
+tmh6
+tmh7
+avg.
+
+complex compared to unbound receptor
+dopamine clozapine melperone haloperidol  xxxd2511xxx 
+1.20
+0.76
+0.89
+0.74
+0.63
+0.88
+0.58
+0.70
+0.51
+0.68
+1.09
+0.73
+0.72
+0.88
+0.61
+0.86
+1.01
+0.75
+0.76
+0.45
+1.17
+1.60
+1.31
+0.94
+1.16
+1.35
+1.12
+1.61
+1.12
+1.87
+1.08
+1.24
+1.13
+0.97
+1.29
+1.09
+1.00
+1.01
+0.84
+0.95
+
+domains induced by ligand binding. the agonist dopamine
+induced larger displacements into the helical bundle than did
+the antagonists. the average helical displacement upon ligand
+binding increased in the order: typical < atypical < dopamine
+(table 3). after md, the largest rms differences from the
+unbound receptor for the antagonists were in tmh5,
+tmh6 and tmh7, while largest difference between the free
+receptor and the dopamine-bound receptor structure was in
+tmh1, tmh5 and tmh6. compared with the free receptor,
+the atypical antipsychotic drugs, clozapine and melperone,
+induced larger structural displacements into tmh5 than did
+the typical antipsychotic drugs, haloperidol and  xxxd2511xxx .
+
+3. discussion
+the success of structural predictions by a homology modelling approach depends strongly upon how closely the modelled structure fits the chosen template. until recently, an exact
+3d structure of any gpcr at an atomic level was not known,
+and gpcr modelling was based on structural data of bacteriorhodpsin [16] or an electron density projection map of
+rhodopsin [17,18], both with relatively limited accuracy. the
+present  xxxg656xxx  model should therefore give a more precise prediction of ligand binding than previous  xxxg656xxx 
+models based on bacteriorhodopsin or the electron density
+projection map of rhodopsin. the amino acid identity between
+backbone atoms in the tmhs of bovine rhodopsin and the
+human  xxxg656xxx  is about 20%. structural analysis and
+visual inspection indicated large similarities between the
+ xxxg656xxx  model and the experimental rhodopsin structure:
+1. the rms differences between the backbone atoms within
+tmhs were 0.4 å before and 3.1 å after md simulation of
+the free receptor. 2. highly conserved amino acids in the
+rhodopsin family of g-protein coupled receptors were located
+in similar positions and in similar conformations. 3. large
+similarities in fragments known to be crucial for activation
+and ligand binding. further, the amino acids constituting the
+
+189
+
+interior polar cavity of the receptor model are in agreement
+with suggestions from experimental studies using the cysteine accessibility method (scam) [19–21]. altogether, this
+suggests that the present  xxxg656xxx  model is a valuable tool
+for studying the ligand interactions with the  xxxg656xxx . still,
+the present model must be considered as an approximation of
+the functional protein.
+site-directed substitutions of single amino acids, combined with experimental results from structure–affinity relationship studies of ligands, allows mapping of structurally
+and functionally important amino acids in the receptor, and
+may be used to validate the present  xxxg656xxx  model. a
+ligand at the  xxxg656xxx  binding site may be shielded or stabilised by several highly conserved aromatic and hydrophobic residues located in tmh3 (ile109, phe110, val111),
+tmh6 (val378, phe382, trp386, phe389, phe390, ile394,
+ile397), and tmh7 (leu407, tyr408, phe411, trp413,
+tyr416, tyr426) [12,22]. agonist binding was also affected
+when serine residues in tmh5 of the  xxxg656xxx  were
+mutated [12,23]. in the present model, phe110, val111,
+ser193, ser194, phe389, phe390, ile394, ile397, tyr408,
+trp413 and tyr416 were all directly involved in ligand binding (table 1). ile109, val378, phe382, trp386, leu407,
+phe411 and tyr426 were facing the interior of the central
+core involved in aromatic or hydrophobic interactions within
+the receptor, suggesting that these amino acids are important
+for maintaining of a proper structure of the binding site.
+ile109 interacted with leu86 and trp90 in tmh2. val378 interacted with ile73 (tmh2), ile425 (tmh7) and tyr426
+(tmh7). phe382 was facing phe198 (tmh5) and phe202
+(tmh5), while trp386 interacted with phe198 (tmh5) and
+phe411 (tmh7). leu407 interacted with leu395 (tmh6),
+while tyr426 interacted with val55 (tmh1), ile73 (tmh2)
+and val378 (tmh6). the present model suggests that mutation of these amino acids will affect the binding pocket.
+it has been proposed that  xxxg656xxx  antagonists interact
+with an aromatic microdomain within the second, third, and
+seventh membrane-spanning segments [24]. val91 (tmh2),
+phe110 (tmh3), val111 (tmh3) and tyr408 (tmh7) have
+been suggested to be in close spatial proximity and form a
+part of the microdomain [24,25]. the present model positioned these amino acids in close proximity to each other,
+and directly involved in antagonist binding (table 1). modelling and mutational studies have suggested that asn52
+(tmh1), asp80 (tmh2), ser121 (tmh3), asn 419 (tmh7),
+ser420 (tmh7) and asn423 (tmh7) form a putative sodiumbinding pocket in the  xxxg656xxx  [26]. in the present model,
+these amino acids are in close proximity to each other, and
+capable of forming such a binding pocket.
+3.1. electrostatic potentials of the  xxxg656xxx 
+membrane-spanning proteins generally follow a “positiveinside rule” with an overall dipolar distribution of charges
+
+fig. 3. average receptor–ligand complexes after 750 ps of md simulation. left: viewed from the ec side. right: closer view of the binding site. the ligands and
+the most important amino acids for ligand binding are indicated in the figure. colour coding of atoms: red; oxygen and fluorine, blue; nitrogen, grey; chlorine
+and carbon. colour coding of receptor segments: a-helices; red, loop regions; yellow.
+
+190
+
+e. hjerde et al. / european journal of medicinal chemistry 40 (2005) 185–194
+
+[27]. a dipolar distribution of electrostatic potentials was also
+observed in the  xxxg656xxx  model, where the cytoplasmic
+regions were more positively charged than the synaptic
+regions (fig. 1). similar charge distributions have also been
+observed in previous gpcr models based on bactheriorhodopsin [28] or the electron density projection maps of
+rhodopsin [29].
+most ligands that bind to the  xxxg656xxx  contain an amino group with pka > 7, indicating that the ligands
+will be partly or fully positively charged at a physiological
+ph of 7.4. evidence for that the protonated form of the ligands
+is pharmacologically active has emerged from studies on permanently uncharged  xxxg656xxx  antagonists that bind very
+poorly to the receptor compared to the corresponding charged
+species [30]. it has, therefore, generally been assumed that
+the binding of these ligands to the receptor includes an electrostatic interaction with a negatively charged receptor
+domain.
+a highly conserved  xxxd233xxx  (asp114) in tmh3 is
+important for the binding of both agonists and antagonists to
+the  xxxg656xxx  [12,13], and its terminal carboxyl group may
+function as an anchoring point for ligands with a protonated
+amino group [31]. in the present study, the ligands were
+docked into the receptor with the protonated amino group
+near asp114. after 750 ps of md simulations, the ligands
+had moved slightly compared with the initial position. however, the strong interaction with asp114 was maintained for
+all complexes, supporting the suggestion that asp114 functions as an anchoring point for ligands with a protonated
+amino group.
+javitch et al. [19–21,24,25,32–34] used site-directed
+mutagenesis studies to map the amino acids exposed to the
+water accessible surface in the helical core of the dopamine
+ xxxg656xxx . the present model has a water accessible central core extending from the ec side to about 10 å below
+asp114 towards the ic side. from this, a mechanism of ligand
+translocation from the ec fluid to the binding site may be
+proposed, by which the positively charged ligand is drawn
+towards the synaptic parts of the receptor by its negative electrostatic potentials (fig. 1). some of the solvated ligand molecules may migrate down the water filled core and make contacts with the negatively charged asp114, leading to an
+exchange process whereby the ligand and the receptor adapt
+to each other and release water molecules. asp114 may thus
+be a common anchorage point for the positively charge amino
+group, whereas other parts of various ligands, which may have
+quite diverse molecular structures, may interact with different parts of the receptor. in order to understand these interactions in more detail, it is necessary to obtain more exact information on the 3d structure of the different gpcrs.
+3.2.  xxxg656xxx –ligand interactions
+a previous study analysing the receptor–ligand interactions of 22 gpcrs with 23 different ligands using proteoch-
+
+emometrics modelling [35] indicated that amino acids within
+tmhs 2, 3, 5–7 were positive contributors to ligand affinity.
+these observations support the present calculations suggesting that amino acids in tmhs 2, 3, 5–7 of the receptor model
+were directly involved in receptor–ligand interactions
+(table 1).
+site-directed mutagenesis studies have indicated that a
+cluster of serine residues in tmh5 (ser193, ser194 and
+ser197) is important for agonist binding and receptor activation [14,15,23]. it was suggested that the serine cluster and
+dopamine form a hydrogen-bonding network with the parahydroxyl substituent of dopamine interacting with ser194
+(fig. 2). such a hydrogen-bonding network was reproduced
+by the md simulation of the receptor–dopamine complex
+(fig. 3). in the complex the strongest contributor to the network was ser194 (fig. 3), which is consistent with the experimental observation that a ser194ala mutated receptor completely lost dopamine induced activation [14]. in the average
+complex after md, the meta-hydroxyl group of dopamine
+formed a strong hydrogen bond with ser194 (atomic distance 1.8 å), and a weaker hydrogen bond with ser193
+(atomic distance 3.5 å). the para-hydroxyl group formed
+hydrogen bonds with ser194 (atomic distance 3.5 å) and
+ser197 (atomic distance 3.5 å). the  xxxg656xxx –dopamine
+complex suggests that a mutation of one of these serine residues will affect the dopamine position and thereby the dopamine affinity.
+the fluorine atom of haloperidol and the chlorine atom of
+ xxxd2511xxx  (fig. 2) were located relatively close to ser194, but
+were not close enough for direct van der waals contacts
+(table 1). however, the fluorine of haloperidol had van der
+waals contacts with ser193. the binding modes of the ligands
+after md may suggest that strong interactions with
+ser194 together with a hydrogen-bonding network involving
+ser193, ser194 and ser197 and the ligand is important for a
+proper receptor activation. despite both clozapine and  xxxd2511xxx  interacting with the region outside ser194, none of the
+antipsychotics were able to form a hydrogen-bonding network as observed for dopamine.
+in the x-ray structure of rhodopsin ec2 penetrates into
+the ligand binding pocket, and site-directed mutagenesis studies have shown that ec2 is important for ligand binding to
+several gpcrs (http://www-grap.fagmed.uit.no/grap/
+homepage.html). in the present model ec2 was constructed
+based on available loop structures in the pdb-database, and
+the loop structure must be regarded as relatively uncertain.
+the presence of a disulphide bridge between cys 107 (ec1)
+and cys 182 (ec2) constrains the loop close to the ligand
+binding site. in all ligand–receptor complexes, the region
+outside glu181 (ec2) had electrostatic interactions with
+the ligand, with an interaction energy varying between
+–8.1 kcal/mol (melperone) and –4.0 kcal/mol ( xxxd2511xxx ).
+however, direct van der waals contacts between the ligands
+and amino acid residues in ec2 were not seen.
+unlike the antagonists, dopamine did not interact with
+residues in tmh7. this observation is supported by the
+
+e. hjerde et al. / european journal of medicinal chemistry 40 (2005) 185–194
+
+results of site-directed mutagenesis studies (http://wwwgrap.fagmed.uit.no/grap/homepage.html), where mutation
+of residues in tmh7 did not influence the binding of dopamine. dopamine had relatively strong interactions with trp386,
+phe389 and phe390 in tmh6 (table 1), in agreement with
+site-directed mutagenesis studies where mutations of these
+residues reduced the affinity of dopamine more than 10,000fold [12].
+the main differences in binding mode between the typical
+and atypical antipsychotics were that the typical drugs  xxxd2511xxx  and haloperidol bound the receptor with the halogen
+atom at the ring system (fig. 2) in the direction of ser194 in
+tmh5, while the atypical  xxxd2511xxx  analogue clozapine, and
+the atypical haloperidol analogue melperone, both had the
+corresponding halogen atom in the direction of residues in
+tmh2, tmh3 and tmh7. a position of haloperidol similar
+to that of the most favourable melperone position seemed
+unrealistic. haloperidol is larger and more bulky than melperone, and in such a position, haloperidol had sterical conflicts with amino acids in tmh5, indicating that large conformational changes of the receptor would be necessary in
+order to adopt the haloperidol structure in such a docking
+position. the position of the piperazine ring relative to the
+ring system is different between the structure of  xxxd2511xxx  and
+clozapine (fig. 2). a binding mode of  xxxd2511xxx  with the chlorine atom in a position corresponding to the chlorine of clozapine (fig. 3), would have the protonated piperazine ring further from asp114 than clozapine. therefore, in order to obtain
+strong interactions between the protonated piperazine ring
+and asp114, the chlorine atom of  xxxd2511xxx  must be in another
+orientation than the chlorine atom of clozapine.
+the template for the  xxxg656xxx  model represents an inactive conformation of rhodopsin [8], which may suggest that
+also the initial d2 model represents an inactive conformation. the helical displacements averaged over the tmhs
+(table 3) showed that the agonist dopamine induced larger
+helical displacements upon binding than did the antagonists.
+upon binding to an inactive receptor conformation, dopamine stabilises the receptor in an active receptor conformation
+resulting in large helical displacements compared with the
+initial inactive conformation. upon binding of an antagonist,
+the antagonist stabilises the receptor in an inactive receptor
+conformation resulting in less helical displacements from the
+initial inactive conformation than with the agonist.
+the typical antipsychotics obtained direct van der waals
+contacts with tmh5 (table 1), while the atypical only interacted with tmh5 via long range forces. table 3 shows that
+upon binding of an atypical antipsychotic drug, tmh5 is more
+displaced from its position in the free receptor than after binding of the typical antipsychotic drugs. this indicates that the
+van der waals contacts of the typical antipsychotic drugs with
+residues in tmh5 constrain its position relative to the other
+tmhs. tmh5 is connected to ic3, which is very important
+for g-protein interactions. the differences in structural displacements of tmh5 upon binding of atypical and typical
+antipsychotic drugs (table 3) indicate that they are inducing
+
+191
+
+different conformations of ic3, which may affect g-protein
+interactions.
+both the typical and atypical antipsychotic drugs interacted directly with amino acids in tmh6. however, the typical antipsychotic drugs interacted more strongly with amino
+acids in tmh6 than did the atypical ones (table 1). interaction with tmh5 and tmh6 partly explains the stronger nonbonded interaction with the receptor of the typical than of the
+atypical drugs (table 2). although the present calculations of
+interaction energies are not directly related to ligand binding
+affinities and receptor occupation [36], the stronger interaction energy of the typical drugs with tmh5 and tmh6 may
+reflect the strength of receptor binding. therefore, this observation supports the experimental observation that the lower
+ xxxg656xxx  occupancy of atypical than of typical
+drugs may be driven by a faster dissociation from the receptor [4,6,7]. thermodynamic measurements of receptor–
+ligand binding showed that binding of agonist and antagonists to some gpcrs gave thermodynamic agonist–antagonist
+discrimination [37]. when the agonist binding to a given
+receptor was entropy-driven, the binding of its antagonists
+was enthalpy-driven, or vice versa. however, this was not
+observed for the  xxxg656xxx  [37]. non-bonded interactions
+such as hydrogen-bonding interactions are mainly related to
+the enthalpic term, while solvent reorganisation upon binding is mainly related to the entropic term. the stronger nonbonded receptor–ligand interactions of the typical drugs
+(table 2) may therefore indicate that the higher  xxxg656xxx 
+occupancy of the typical than of the atypical drugs may be
+related to a stronger enthalpic contribution to receptor binding.
+4. conclusions
+md simulations indicated that the agonist dopamine
+induced larger displacements into the heptahelical bundle than
+did the antagonists. further, the atypical antipsychotic drugs
+induced larger conformational displacements into tmh5 than
+did the typical antipsychotic drugs (table 3). this observation was explained by direct van der waals contacts between
+the typical antipsychotic drugs and residues in tmh5 that
+stabilised the position of tmh5 relative to the other tmhs.
+the typical antipsychotics,  xxxd2511xxx  and haloperidol, were
+both oriented with the halogen atom of the ring system in the
+direction of tmh5, while the atypical had the corresponding
+halogen atom in the direction of tmhs 2, 3 and 7 (fig. 3).
+the typical antipsychotics also had stronger non-bonded interactions with tmh6 (table 1), and a stronger non-bonded
+interaction with the receptor than the atypical drugs (table 2).
+these interactions support the hypothesis that lower receptor
+occupancy of the atypical drugs is driven by a faster dissociation from the receptor [4,6,7].
+5. experimental
+molecular graphics was done with the midas plus software, and molecular mechanics and molecular dynamics
+
+192
+
+e. hjerde et al. / european journal of medicinal chemistry 40 (2005) 185–194
+
+(md) calculations were performed with the amber 5.0 programs [38]. a distance-dependent dielectric function with a
+dielectric constant of 4 (e = 4rij, rij = interatomic distance)
+was used in the calculations. explicit water molecules were
+not included. the cut off radius for non-bonded interactions
+during energy minimisation was 15 å. energy minimisation
+of the receptor model, and of receptor–ligand complexes was
+performed by 500 steps of steepest descent followed by
+2000 steps of conjugate gradient minimisation.
+md was performed with a 12 å cut off radius for nonbonded interactions, and a secondary cut off radius of 15 å.
+all bonds involving hydrogen atoms were constrained using
+the shake option. the md simulations were performed at
+300 k. in order to preserve the helical conformation of tmhs
+during md extra hydrogen-bonding forces (5 kcal/mol) were
+applied between the backbone oxygen atom of residue n and
+the backbone nitrogen atom of residues n + 4, excluding prolines. extra hydrogen-bonding forces of 5 kcal/mol have been
+shown to reproduce the experimentally observed rigid body
+movements of tmhs [39,40], and have previously been used
+for md of receptor models [41,42].
+5.1. construction of the receptor model
+a 3d model of the human  xxxg656xxx  was constructed, based on the x-ray structure of bovine rhodopsin
+(pdb acquisition code: 1f88). a multiple sequence alignment
+including the mammalian dopamine receptor subtypes (d1–
+d5), and bovine rhodopsin was performed using the clustalw
+1.7 program [43]. all amino acid sequences were obtained
+from the swiss prot database (http://www.expasy.ch/sprot/).
+the sequence alignment, x-ray structure of bovine rhodopsin [8] and information about amino acid conservation among
+the gpcr families (http://www-grap.fagmed.uit.no) were
+used to define the start and end positions of the seven tmhs
+of the  xxxg656xxx . the start and end positions of tmhs
+were; tmh1: arg31–arg61, tmh2: thr68–val97, tmh3:
+arg104–ala135, tmh4: lys198–gly173, tmh5: asn186–
+val215, tmh6: glu368–cys399, tmh7: pro405–phe429.
+an initial structure of  xxxd2316xxx , ec1, ec3 and the n-terminal
+were taken directly from the bovine rhodopsin structure and
+constructed by changing the rhodopsin side chains into the
+corresponding side chains of the  xxxg656xxx . modelling non-conserved regions of certain length is a challenge.
+in the present study a combination of secondary structure prediction and available loop structures in the brookhaven pdbdatabase (http://www.rcsb.org/pdb/) were used to construct
+initial models of the non-conserved regions. the c-terminal,
+ic2 and ec2 were constructed based on available loop structures. the loop conformations in the database having highest
+amino acid sequence homology with each of these receptor
+segments were inspected visually for possible steric interactions with its local environment on the receptor. the loop
+conformations providing best fit to the helical end positions
+and other extramembrane domains were selected, and initial
+structures of the receptor segments were constructed by
+
+changing the side chains into those of the corresponding
+ xxxg656xxx  segment. pdb acquisition codes:
+c-terminal—1ala; ic2—1tdy; ec2—1cgj. ic3 of the
+ xxxg656xxx  contains 152 amino acids, and no initial loop structure for the entire loop was found in the pdbdatabase. the predict protein server (http://www.emblheidelberg.de/predictprotein/) indicated four stretches of
+b-sheet conformation in the loop, while no clear secondary
+structure was indicated for the segments between the
+b-stretches. these segments were constructed from available
+pdb structures in the pdb-database. the pdb acquisition
+code for loop fragments used to construct ic3 were: 3pmg,
+2hip,  xxxd1838xxx , 1fcd and 1plf. the b-sheets and these fragments were linked together to form an initial model of ic3.
+the loops and terminals were connected to the helical
+bundle, and a disulphide bridge was introduced between
+cys107 and cys182. this disulphide bridge was maintained
+during all calculations with the receptor model. the model
+was energy refined by the following steps:
+1. five hundred steps of steepest descent and 1500 of conjugate gradient energy minimisation of the loops and terminals keeping the helices at fixed positions.
+2. five hundred steps of steepest descent and 1500 of conjugate gradient energy minimisation of all the side chains in
+the model keeping the backbone atoms fixed.
+3. fifty ps of md simulation on the loops and terminals, keeping the helices fixed.
+4. fifty ps of md simulations of all the side chains, keeping
+the backbone atom fixed.
+5. five hundred steps of steepest descent and 1500 steps of
+conjugate gradient minimisation of the entire receptor
+model.
+the refined model was used for ligand docking and md
+simulations of receptor–ligand interactions. the grasp program was used to calculate the water accessible surface and
+the relative electrostatic potential outside the surface of the
+ xxxg656xxx .
+5.2. modelling of ligands
+the ligand structures are shown in fig. 2. molecular
+mechanical parameters were obtained by analogy with standard amber force field parameters [38] using the web service “amber parameters by analogy” [44]. a rms difference for the norm of the energy gradient between successive
+steps of 0.02 kcal/mol per å was used as convergence criteria
+for energy minimisation of ligand molecules. atomic restrained electrostatic potential (resp) charges [45] were calculated for the ligand molecules using a 6-31g* basis set.
+the crystal structures of haloperidol [46] and clozapine
+[47] were obtained from the cambridge structural database.
+an initial model of melperone was constructed from the crystal structure of haloperidol, while the initial structure of  xxxd2511xxx  was constructed from the crystal structure of clozapine. the coordinates and resp charges for dopamine were
+obtained from a previous study [48].
+
+e. hjerde et al. / european journal of medicinal chemistry 40 (2005) 185–194
+
+5.3. ligand docking and md simulations
+of receptor–ligand interactions
+the typical antipsychotic drugs, haloperidol and  xxxd2511xxx , the atypical antipsychotic drugs, clozapine and melperone, and the agonist dopamine were docked at putative binding sites in the receptor. for amine gpcrs the binding site of
+small molecules is within the transmembrane helical bundle.
+the sequence homology with rhodopsin is quite low also for
+this part of the receptor, and ligand binding predictions based
+only upon the rhodopsin template are relatively uncertain.
+therefore, ligand docking into amine gpcr models must be
+performed very carefully with as many controls as possible.
+automatic docking and scoring functions derived from
+empirical fits to an array of simplified energy terms capturing
+the key contribution to ligand–protein binding are extremely
+fast for screening of ligand binding modes to high resolution
+protein structures. due to a compromise between accuracy
+and computational speed such docking methods also have
+limitations, and especially when the protein structure is not
+at a detailed level. a large amount of information about ligand
+binding to family a of gpcrs is derived from site-directed
+mutagenesis studies available in a searchable form at the
+tgrap database (http://www-grap.fagmed.uit.no). in the
+present study, we have therefore used an approach where
+manual docking was guided by information from sitedirected mutagenesis studies and short docking simulations
+with both the receptor and the ligand free to move.
+structurally similar parts of the ligands where oriented in
+similar positions in the receptor model. several docking positions were considered, and the three positions of each ligand
+(four of dopamine) giving strongest receptor interactions were
+examined in detail.
+these receptor–ligand complexes were energy minimised, and refined by 30 ps of md simulation. the temperature was gradually heated from 0 to 300 k during the md.
+after 30 ps, the following criteria were used to select among
+the complexes for further md simulations: 1. interaction
+energy between the ligand and receptor. 2. complementarity
+in shape and electrostatic potentials between the ligand and
+the receptor. 3. results of experimental site-directed mutagenesis experiments.
+the molecular system obtained after 30 ps of heating was
+equilibrated by 120 ps of md followed by a 600 ps simulation where coordinates were sampled every 5th ps, giving a
+total simulation time of 750 ps. an average structure was calculated from all coordinates collected during the final 600 ps
+of each simulation. for comparison, a corresponding simulation was also performed for the receptor without a ligand.
+the average receptor structures were refined by 500 steps
+of steepest descent energy minimisation followed by
+2000 steps of conjugate gradient minimisation, and the rms
+deviation of specific receptor domains from the average structure during the final 600 ps of md was calculated. the interaction energy between the ligands and the receptor, the potential energy of the ligand-receptor complex, and the potential
+
+193
+
+energy of the receptor alone, were calculated for each of the
+energy minimised complexes.
+
+acknowledgments
+this work was supported by research grants from the norwegian research council (nfr), and computer time on the
+hp-supercomputer at the university of tromsø, norway.
+
+references
+[1]
+[2]
+
+[3]
+[4]
+[5]
+[6]
+[7]
+[8]
+
+[9]
+[10]
+[11]
+[12]
+[13]
+[14]
+[15]
+[16]
+[17]
+[18]
+[19]
+[20]
+[21]
+[22]
+[23]
+
+[24]
+[25]
+[26]
+
+d.r. sibley, f.j. monsma jr., trends pharmacol. sci. 13 (1992)
+61–69.
+a. abi-dargham, j. rodenhiser, d. printz, y. zea-ponce, r. gil,
+l.s. kegeles, r. weiss, t.b. cooper, j.j. mann, r.l. van heertum,
+j.m. gorman, m. laruelle, proc. natl. acad. sci. usa 97 (2000)
+8104–8109.
+l.p. kestler, e. walker, e.m. vega, behav. pharmacol. 12 (2001)
+355–371.
+s. kapur, r.b. zipursky, g. remington, am. j. psychiatry 156 (1999)
+286–293.
+l. farde, a.l. nordstrom, f.a. wiesel, s. pauli, c. halldin, g. sedvall, arch. gen. psychiatry 49 (1992) 538–544.
+s. kapur, p. seeman, j. psychiatry neurosci. 25 (2000) 161–166.
+s. kapur, p. seeman, am. j. psychiatry 158 (2001) 360–369.
+k. palczewski, t. kumasaka, t. hori, c.a. behnke, h. motoshima,
+b.a. fox, i. le trong, d.c. teller, t. okada, r.e. stenkamp,
+m. yamamoto, m. miyano, science 289 (2000) 739–745.
+e.g. christensson, in: h.y. meltzer (ed.), novel antipsychotic
+drugs, raven press, new york, 1992, pp. 19–32.
+h.y. meltzer, in: h.y. meltzer (ed.), novel antipsychotic drugs,
+raven press, new york, 1992, pp. 33–46.
+p. seeman, can. j. psychiatry 47 (2002) 27–38.
+w. cho, l.p. taylor, a. mansour, h. akil, j. neurochem. 65 (1995)
+2105–2215.
+a. mansour, f. meng, j.h. meador-woodruff, l.p. taylor, o. civelli,
+h. akil, eur. j. pharmacol. 227 (1992) 205–214.
+b.a. cox, r.a. henningsen, a. spanoyannis, r.l. neve, k.a. neve,
+j. neurochem. 59 (1992) 627–635.
+b.l. wiens, c.s. nelson, k.a. neve, mol. pharmacol. 54 (1998)
+435–444.
+r. henderson, j.m. baldwin, t.a. ceska, f. zemlin, e. beckmann,
+k.h. downing, j. mol. biol. 213 (1990) 899–929.
+g.f. schertler, c. villa, r. henderson, nature 362 (1993) 770–772.
+j.m. baldwin, embo j. 12 (1993) 1693–1703.
+d. fu, j.a. ballesteros, h. weinstein, j. chen, j.a. javitch, biochemistry 35 (1996) 11278–11285.
+j.a. javitch, x. li, j. kaback, a. karlin, proc. natl. acad. sci. usa
+91 (1994) 10355–10359.
+j.a. javitch, d. fu, j. chen, biochemistry 34 (1995) 16433–16439.
+j.a. bikker, s. trumpp-kallmeyer, c. humblet, j. med. chem. 41
+(1998) 2911–2927.
+r.e. wilcox, w.-h. huang, m.-y.k. brusniak, d.m. wilcox,
+r.s. pearlman, m.m. teeter, c.j. durand, b.l. wiens, k.a. neve, j.
+med. chem. 43 (2000) 3005–3019.
+j.a. javitch, j.a. ballesteros, j. chen, v. chiappa, m.m. simpson,
+biochemistry 38 (1999) 7961–7968.
+m.m. simpson, j.a. ballesteros, v. chiappa, j. chen, m. suehiro,
+d.s. hartman, et al., mol. pharmacol. 56 (1999) 1116–1126.
+k.a. neve, m.g. cumbay, k.r. thompson, r. yang, d.c. buck,
+v.j. watts, c.j. durand, m.m. teeter, mol. pharmacol. 60 (2001)
+373–381.
+
+194
+
+e. hjerde et al. / european journal of medicinal chemistry 40 (2005) 185–194
+
+[27] y. gavel, j. steppuhn, r. herrmann, g. von heijne, febs lett. 282
+(1991) 41–46.
+[28] s.g. dahl, ø. edvardsen, i. sylte, proc. natl. acad. sci. usa 88
+(1991) 8111–8115.
+[29] i. sylte, ø. edvardsen, s.g. dahl, protein eng. 9 (1996) 149–160.
+[30] d.d. miller, m. harrold, r.a. wallace, l.j. wallace, n.j. uretsky,
+trends pharmacol. sci. 9 (1988) 282–284.
+[31] p.g. strange, trends pharmacol. sci. 17 (1996) 238–244.
+[32] j.a. javitch, d. fu, j. chen, a. karlin, neuron 14 (1995) 825–831.
+[33] j.a. javitch, j.a. ballesteros, h. weinstein, j. chen, biochemistry 37
+(1998) 998–1006.
+[34] l. shi, m.m. simpson, j.a. ballesteros, j.a. javitch, biochemistry 40
+(2001) 12339–12348.
+[35] m. lapinsh, p. prusis, t. lundstedt, j.e.s. wikberg, mol. pharmacol.
+61 (2002) 1465–1475.
+[36] i. sylte, z. chilmonczyk, s.g. dahl, j. cybulski, ø. edvardsen, j.
+pharm. pharmacol. 49 (1997) 698–705.
+[37] p.a. borea, a. dalpiaz, k. varani, p. gilli, g. gilli, biochem. pharmacol. 60 (2000) 1549–1556.
+
+[38] w.d. cornell, p. cieplak, c.i. bayly, i.r. gould, k.m.j. merz,
+d.m. ferguson, et al., j. am. chem. soc. 117 (1995) 5179–5197.
+[39] d.l. farrens, c. altenbach, k. yang, w.l. hubbell, h.g. khorana,
+science 274 (1996) 768–770.
+[40] j. liu, n. blin, b.r. conklin, j. wess, j. biol. chem. 271 (1996)
+6172–6178.
+[41] f. fanelli, c. menziani, a. scheer, s. cotecchia, p.g. de benedetti,
+methods 14 (1998) 302–317.
+[42] i. sylte, a. bronowska, s.g. dahl, eur. j. pharmacol. 416 (2001)
+33–41.
+[43] j.d. thompson, d.g. higgins, t.j. gibson, nucleic acids res. 22
+(1994) 4673–4680.
+[44] a.w. ravna, k.e. schrøder, ø. edvardsen, comput. chem. 23 (1999)
+435–437.
+[45] c.i. bayly, p. cieplak, w. cornell, p.a. kollman, j. phys. chem. 97
+(1993) 10269–10280.
+[46] l.l. reed, j.c. schaefer, acta crystallogr.  xxxd1320xxx  (1973) 1886–1890.
+[47] a.s. horn, m.l. post, o. kennard, j. pharm. pharmacol. 27 (1975)
+553–563.
+[48] a.w. ravna, i. sylte, s.g. dahl, j. comput. aided mol. des. 17
+(2003) 367–382.
+

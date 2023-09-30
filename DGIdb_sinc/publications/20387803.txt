@@ -1,0 +1,791 @@
+anal. chem. 2010, 82, 3819–3825
+
+measuring binding kinetics of ligands with
+tethered receptors by fluorescence polarization
+and total internal reflection fluorescence
+ka-cheung kwok and nai-ho cheung*
+department of physics, hong kong baptist university, hong kong, china
+binding kinetics of nuclear receptors and their specific
+ligands was measured using polarization anisotropy
+complemented with total internal reflection fluorescence.
+binding affinities of tethered full length human estrogen
+receptor alpha (err) with 17beta-estradiol, diethylstilbestrol, raloxifene, 4- xxxd91xxx , tamoxifen, and
+genistein were measured to be 100 (as reference), 100,
+35, 21, 8, and 1.5, respectively. they agreed with
+published results. for the first time, rate constants were
+measured, and off rates were 1.5, 1.5, 1.3, 1.6, 1.7, and
+2.3 × 10-3 s-1 while on rates were 11, 10, 3.3, 2.4,
+1.0, and 0.26 × 105 m-1s-1, respectively. for the
+antiestrogen drugs, their comparable off-rates correlated well with their equally similar potency. eleven
+ginsenosides were screened as potential ligands. none
+were found to bind to err, but rb1(s) and 20(s)-rg3
+were shown to bind to  xxxg1807xxx . the latter finding corroborated
+strongly with the therapeutic effects of ginsenosides on
+diabetic mice observed in a separate study. our
+method would complement surface plasmon resonance
+assay for small ligands in the mass range of tens to
+hundreds of daltons.
+numerous physiological processes are mediated by receptorligand interactions. one example is the binding of estrogens with
+their receptors. this can lead to the proliferation of cancerous
+mammary cells. consequently, antagonist drugs were developed
+which could compete with endogenous hormones for the receptor
+site.1 another example is the binding of hormone receptors with
+certain environmental contaminants. this can disrupt endocrine
+functions to cause health problems.2 one therefore wants to
+measure the binding between receptors and ligands, be it for lead
+optimization in drug discovery, or for large scale screening of
+endocrine disruptors. specifically, equilibrium and kinetic rate
+constants of receptor-ligand interaction are to be measured in
+vitro.3,4
+* to whom correspondence should be addressed. e-mail: nhcheung@
+hkbu.edu.hk.
+(1) jordan, v. c. cancer 1992, 70, 977–982.
+(2) current status of test methods for detecting endocrine disruptors: in
+vitro  xxxg730xxx  binding assays; nih publication 03-4504; national
+institutes of health, october 2002.
+(3) copeland, r. a. evaluation of enzyme inhibitors in drug discovery; wiley
+interscience: hoboken, nj, 2005.
+(4) tummino, j. p.; copeland, r. a. biochemistry 2008, 47, 5481–5492.
+10.1021/ac1002245  2010 american chemical society
+published on web 04/13/2010
+
+these binding constants may be measured by radioisotope
+or optical assays.5 for safety reasons, the latter is preferred.
+in these studies, the reagents are mixed in solution and kinetics
+is studied by stopped-flow. more recently, however, tethered
+receptors in flow cells are used because this format uses less
+chemicals, allows reagent injection amidst reactions, and can
+be parallel-processed like microarrays for high throughput
+screening. examples of this format include the widely adopted
+surface plasmon resonance (spr) and the newer reflectance
+interferometry.6,7 they detect optical changes due to the
+increase in mass. no analyte labeling is necessary. for small
+ligands like estrogens (272 d), nonetheless, the minute mass
+increase can evade detection. that probably explains why only
+leading spr experts had measured estrogen binding kinetics.8
+if still smaller ligands are to be studied, as in fragment-based
+drug discovery,9 spr will be seriously handicapped.
+fluorescence based techniques can be more sensitive. for
+example, total-internal-reflection fluorescence (tirf) can detect
+single fluorophores.10 it has been used by itself,11 and in combination with fluorescence correlation spectroscopy,12 and photobleaching recovery,13 to measure affinities and kinetics of
+receptor-ligand interactions. we have previously used tirf to
+measure the adsorption kinetics of single molecules of bovine
+ xxxg124xxx .14,15 another useful technique is fluorescence
+polarization (fp). it detects the fluorescence anisotropy of small
+fluorescent ligands whose tumbling is slowed when they bind to
+protein receptors.10 although dye labeling is a concern in these
+(5) protein-ligand interactions, methods and applications; nienhaus, g. u., ed.;
+humana press: totowa, nj, 2005.
+(6) rich, r. l.; myszka, d. g. drug discovery today: technol. 2004, 1, 301–
+308.
+(7) gavutis, m.; lata, s.; lamken, p.; muller, p.; piehler, j. biophys. j. 2005,
+88, 4289–4302.
+(8) rich, r. l.; hoth, l. r.; geoghegan, k. f.; brown, t. a.; lemotte, p. k.;
+simons, s. p.; hensley, p.; myszka, d. g. proc. natl. acad. sci. u.s.a.
+2002, 99, 8562–8567.
+(9) hopkins, a. l.; groom, c. r.; alex, a. drug discovery today 2004, 9, 430–
+431.
+(10) lakowicz, j. r. principles of fluorescence spectroscopy, 3rd ed.; springer:
+new york, 2006.
+(11) schmid, e. l.; tairi, a.-p.; hovius, r.; vogel, h. anal. chem. 1998, 70,
+1331–1338.
+(12) lieto, a. m.; cush, r. c.; thompson, n. l. biophys. j. 2003, 85, 3294–
+3302.
+(13) hsieh, h. v.; thompson, n. l. biochemistry 1995, 34, 12481–12488.
+(14) yeung, k. m.; lu, z. j.; cheung, n. h. colloids surf., b 2009, 69, 246–
+250.
+(15) kwok, k. c.; yeung, k. m.; cheung, n. h. langmuir 2007, 23, 1948–
+1952.
+
+analytical chemistry, vol. 82, no. 9, may 1, 2010
+
+3819
+
+figure 1. experimental setup of the fp-tirf system: bs, beam splitter; c, coverglass; emccd, electron-multiplied charge-coupled device; f,
+band filter; g, vacuum grease; l, lens; m, mirror; mo, microscope objective; ndf, neutral density filter; o, immersion oil; p, prism; and q,
+quartz slide. (a) polarization anisotropy a and tirf signal. a 2 nm sample of f was injected at t ) 0, and 20 µm 4oht was injected at t ) 900 s
+while a (o) and tirf signal (4) were captured simultaneously. (b) err tethering scheme: q, quartz; pll, poly-l-lysine; igg, primary antibody;
+abr, secondary antibody; err,  xxxg730xxx  r. (c) typical image. the four spots from top to bottom were bf|, tirf|, bf⊥, and tirf⊥.
+dimensions of the corresponding object were indicated.
+
+fluorescence measurements, one may detect dark ligands by
+tracking their displacement of bright reporters.16,17
+fp has been widely used to measure receptor-ligand interactions at equilibrium,2 as well as binding kinetics in stopped-flow
+mixing.18,19 as far as we know, it has not been used to measure
+binding kinetics of tethered receptors. here, we report the design
+and implementation of an fp-tirf system for measuring the
+binding kinetics of small ligands with tethered receptors. we will
+show that our method was reliable, and it complemented spr in
+many ways. we report, for the first time, the rate constants of
+the binding of full-length human  xxxg730xxx  alpha (err)
+with its standard ligands. our measured affinities agreed with
+published results. the antiestrogen drugs that we studied were
+shown to have dissimilar affinities. yet their comparable off-rates
+correlated with their equally similar potency in reducing breast
+cancer. we also screened ginsenosides for binding with err and
+ xxxg1807xxx  ( xxxg1807xxx ). high
+affinity ligands were identified, which corroborated the therapeutic
+effects of ginsenosides on diabetic mice demonstrated in a
+separate study.
+experimental section
+apparatus. the fp-tirf system is shown schematically in
+figure 1. it was built around an inverted microscope. the sample
+cell was made from a quartz slide q coated with receptor on the
+(16) thoma, n.; goody, r. s. in kinetic analysis of macromolecules; johnson,
+k. a., ed.; oxford university press: oxford, 2003; pp 153-170.
+(17) motulsky, h. j.; mahan, l. c. mol. pharmacol. 1984, 25, 1–9.
+
+3820
+
+analytical chemistry, vol. 82, no. 9, may 1, 2010
+
+underside, filled with buffer, sandwiched with a cover glass c,
+and sealed with vacuum grease g. liquid inlet and outlet were
+inserted from the top. the cell was clamped onto the traveling
+stage and coupled via immersion oil o to a prism p that was fixed
+relative to the microscope stand. the cell could freely translate
+without moving the prism. a 473-nm laser beam was split two
+ways with a beam splitter bs. one beam was focused with lens l
+and incident through the prism on the quartz-water interface at
+70° and was totally reflected internally to produce the tirf signal.
+the evanescent layer was about 100 nm thick.15 the other beam
+was steered with mirrors m and incident through the prism on
+the quartz-water interface at 41° to produce the bulk fluorescence
+bf signal. the incident laser beam was te polarized (s-wave)
+and the laser power of the two arms was balanced with a neutral
+density filter ndf. fluorescence signal was collected by a 10×
+na 0.25 microscope objective mo, band-filtered f, and directed
+through a polarizing beamsplitter pb. the dual images were
+captured with an electron-multiplied ccd (emccd). part c is a
+typical image. the four spots from top to bottom were bf|, tirf|,
+bf⊥, and tirf⊥. dimensions of the corresponding object were
+indicated. further instrumentation details can be found in the
+supporting information.
+receptor tethering. the receptors err were tethered on
+the quartz slide and the cover glass. the multilayer tethering
+(18) wilkinson, j. c.; stein, r. a.; guyer, c. a.; beechem, j. m.; staros, j. v.
+biochemistry 2001, 40, 10230–10242.
+(19) tairi, a.-p.; hovius, r.; pick, h.; blasey, h.; bernard, a.; suprenant, a.;
+lundström, k.; vogel, h. biochemistry 1998, 37, 15850–15864.
+
+scheme is shown in part b of figure 1. first, positively charged
+poly-l-lysine (pll) was adsorbed electrostatically on negatively
+charged quartz (q). second, a primary antibody (igg) was bonded
+covalently to pll. third, igg then captured a secondary antibody
+(abr). finally, abr targeted the af1 region of err. details of
+the sample preparation are given in the supporting information.
+data capture. a kinetics run usually consisted of fast
+(seconds) and slow (minutes) events. slow events were recorded
+on 2-s long movies taken at 1 min intervals, at 5 hz frame rate. if
+spatial averaging was needed, the slide would be translated and
+10 or more such movie segments would be taken in prompt
+succession. to capture fast events, such as the influx of the
+fluorescent reporter ligands f and their binding with and dissociation from receptors, 30 s movies of the same spot were taken
+at 5 hz frame rate. slight photobleaching could have occurred.
+its extent was gauged by comparison with neighboring nonirradiated spots. movies in tif format were processed by a matlab
+program in real time. the program summed 10 successive frames
+and calculated the average brightness over user-defined areas
+such as the four spots shown in figure 1c as well as peripheral
+areas that served as background. the tirf and fp traces were
+displayed as the reaction progressed. at the end of a data run,
+the data traces in text format and the raw tif file were stored for
+off-line processing and analysis.
+theory
+fluorescence anisotropy. our kinetics analysis was based
+on measuring the fluorescence anisotropy of f. the anisotropy
+parameter a is defined by10
+
+a)
+
+i| - i⊥
+itotal
+
+(1)
+
+measuring a at that instant. the second was based on mixing f
+with excess err in solution in a peg-coated channel. all results
+were found to be consistent and the value of a and ā were about
+80 and 320 ma, respectively. we will show in a later section that
+even for tethered err, µ of bound f was oriented randomly. we
+could therefore make use of eqs 1-3 to determine f(t) from
+measured a(t).
+kinetics modeling. when f was flowed onto tethered err,
+the time rate of change of the surface density of the receptor-f
+complex [rf]• would be given by3
+•
+
+[rf] ) kon[f]([r]total - [rf]) - koff[rf]
+
+(4)
+
+where [f] was the concentration of free f in solution, [r]total was
+the surface density of apo and complexed receptors, and kon
+and koff were the respective on and off rate constants. expressing eq 4 in terms of the bound fraction f, we have
+•
+
+f ) kon(1 - f )(ftotal - f [f]total) - koff f
+
+(5)
+
+where ftotal was the equivalent volume concentration if all the
+tethered receptors were dissolved in solution, and [f]total was
+the equivalent volume concentration of free and complexed f.
+by solving eq 5 numerically to best fit the measured f(t), we could
+determine the three unknowns, ftotal and the two rate constants.
+we assumed that the mixing of free f in the solution was rapid,
+so that [f] was homogeneous throughout. this so-called rapid
+mixing assumption will be justified in the next section.21
+to model the competition between a dark ligand l and the
+reporter ligand f, eq 5 had to be modified to two coupled
+differential equations17
+•
+
+where i| and i⊥ are the bulk fluorescence intensities of f with
+polarization parallel and perpendicular to the incident polarization, respectively, and itotal is the total fluorescence intensity.
+values of a are usually reported in ma, where 1 ma ) 10-3 a.
+if the dipole µ of f is oriented randomly, itotal can be shown
+to be10
+itotal)i|+2i⊥
+
+(2)
+
+and a can be converted to the fraction f of fluorophores bound,10
+f)
+
+a-a
+_
+ā - a
+_
+
+(3)
+
+in the last equation, a is the minimum a value of 100% free f,
+and ā is the maximum a value of 100% bound f. we generated
+100% free f by two independent methods: (1) by mixing f with a
+huge excess of a competitor ligand,20 and (2) by flowing f into a
+sample channel coated with  xxxd2982xxx  (peg). we
+produced 100% bound f again by two independent means. the
+first was by allowing f to bind to tethered err, waiting until
+equilibrium, and then promptly flushing out all free f and
+(20) we typically mixed 1 nm f with 20 µm of the competitor ligand. the
+competitor ligand was either e2 or des. their dissociation constants were
+1.4 nm (see table 1).
+
+f ) kon(1 - f )(ftotal - f [f]total - f̃ [l]total) - koff f
+
+(6)
+
+and
+•
+
+f̃ ) k̃on(1 - f̃ )(ftotal - f [f]total - f̃ [l]total) - k̃off f̃
+
+(7)
+
+where variables with tildes were the l analogs of f. in contrast
+to [f]total, [l]total could not be measured because l was not
+fluorescent. instead, it was determined from dilution ratios
+based on the known concentration of the stock. for that reason,
+extra care was taken when preparing and diluting the stock.
+this was explained in the supporting information. the five
+unknowns, ftotal and the four rate constants in eqs 6 and 7, could
+be determined by solving the coupled differential equations
+numerically to best fit the measured f(t).
+rapid mixing assumption. to determine if diffusive mixing
+is rapid enough or not, we can consider the number of f molecules
+dissociated from unit area of tethered receptors in time tau, where
+tau is the time for a free f to diffuse half the height h of the sample
+channel. we use half height because there were tethered receptors
+on the quartz slide as well as on the coverglass. tau is therefore
+given by tau ) (h2)/(8d) where d is the diffusion constant of
+free f.
+(21) myszka, d. g.; he, x.; dembo, m.; morton, t. a.; goldstein, b. biophys. j.
+1998, 75, 583–594.
+
+analytical chemistry, vol. 82, no. 9, may 1, 2010
+
+3821
+
+figure 2. err-f binding kinetics. the bound fraction of f as deduced from fluorescence anisotropy was plotted against time as different
+reagents were injected at various time points. at time t ) 0, 10 µl of 3 nm f was injected into the sample to replace the initial blank buffer, and
+the bound fraction was plotted (o). at t ) 300 s, 15 µl of blank buffer was injected, and the equilibrated bound fraction was shown (4). the last
+step was repeated at t ) 600 s, and the equilibrated bound fraction was plotted (+). at t ) 900 s, 10 µl of 3 nm f was injected and the
+equilibrated bound fraction was plotted (0). at t ) 1200 s, 15 µl of 20 µm e2 was injected, and the subsequent dissociation of f from err was
+shown ( ×). the steady-state signal shown was the average over 10 or more neighboring spots on the sample slide. the standard deviation
+was about the size of the data symbols. the kinetic rate constants could be determined by best-fitting the experimental data points (bold curves).
+misfits were also shown: 50% higher koff (curves labeled d), 50% lower koff (curves labeled c), and both koff and kon 50% higher (curves a and
+f) and 50% lower (curves b and e).
+
+these freed f molecules are released in a volume of (channel
+height h) × (unit area). the concentration of released f, relative
+to the background [f], is thus given by
+[f]released
+koff[r]totalh
+)
+[f]bkgn
+8d[f]bkgn
+
+(8)
+
+if the ratio is much less than 1, mixing is rapid enough.
+for association events, one can derive in a similar fashion the
+criteria for rapid mixing. we also checked the validity of eq 8 by
+numerically solving the hydrodynamics equations subject to
+appropriate boundary conditions.21 the result supported the
+conclusion drawn from eq 8 (ref 22).
+results and discussion
+tether characterization. because of the fragility of the
+ xxxg730xxx  and the stringent requirement of polarization
+assays,10,23 we had to experiment with numerous tethering
+schemes, from simple physisorption, through covalent bonding,23
+to antibody capture.24 we finally adopted the scheme depicted in
+figure 1b. we tested the strength and specificity of the tethering
+chain. each link was found to withstand multiple flushes of buffer
+and reagents. the antibody bridge was shown to be specific: the
+surface coverage of err dropped 18-fold if abr was absent
+(figure s1, supporting information). we used a green fluorescent
+ligand f ( xxxd1853xxx  es2, invitrogen) as the reporter in kinetic
+studies. the binding of f to the channel surface was shown to be
+(22) kwok, k. c. measuring binding kinetics of ligands with tethered
+receptors by fluorescence polarization complemented with total internal
+reflection fluorescence microscopy. ph.d. thesis, hong kong baptist
+university, 2010.
+(23) kim, s. h.; tamrazi, a.; carlson, k. e.; daniels, j. r.; lee, i. y.;
+katzenellenbogen, j. a. j. am. chem. soc. 2004, 126, 4754–4755.
+(24) wingren, c.; borrebaeck, c. a. k. omics 2006, 10, 411–427.
+
+3822
+
+analytical chemistry, vol. 82, no. 9, may 1, 2010
+
+extremely specific as well: when 1 nm f was flowed into errcoated channels, about 60% were bound; when err was absent,
+the bound fraction dropped to practically zero (figure s2).
+we then enquired if tethering would affect receptor functions.
+we found that, for our tethered err, agonist (17beta-estradiol) bound
+ones recruited 18 times more coactivator than apo ones or antagonist
+( xxxd38xxx ) bound ones (figure s3), as expected of a
+functional err. we also showed that tethering did not affect the
+binding kinetics of err-f. this will be elaborated later.
+we last checked the orientation of the dipole µ of bound f.
+during their brief fluorescence lifetime, each µ was effectively
+frozen in space. yet they were shown to be pointing just as
+randomly, were they bound to receptors in solution or receptors
+tethered on the quartz slide (figure s4). the polarization anisotropy a ()(i| - i⊥)/(itotal)) could thus be readily converted to
+bound fraction of f.
+binding kinetics of green  xxxd1853xxx  f. the binding
+kinetics of analyte (nonlabeled) ligands was deduced from their
+displacement of the reporter ligand f. for that reason, the rate
+constants of f had to be measured first. we did a preliminary
+study by flowing f onto tethered err, waiting until steady state,
+and displacing the bound f with a high concentration of 4- xxxd91xxx  (4oht). the result is shown in figure 1a, where
+anisotropy a (o) and the tirf signal (4) are plotted against time.
+experimental conditions are described in the figure caption. as
+can be seen, the two sets of data were very consistent. the
+anisotropy a, however, could give the absolute bound fraction (eq
+3) while tirf would only give the relative population of surfacebound fluorophores. therefore, in our finalized experimental
+design, we measured the kinetics by fp. the tirf data were used
+for consistency checks.
+the results of a typical kinetics run are shown in figure 2.
+the experimental conditions are given in the caption. briefly, at
+
+table 1. rate constants, dissociation constants, and relative binding affinities (rba) of err-ligand interactions
+kon (105 m-1 s-1)
+ligand
+
+this work
+
+agonist
+green f
+e2
+des
+genistein
+
+570 (100)
+11 (3)
+10 (1)
+0.26 (8)
+
+antagonist
+raloxifene
+4oht
+tamoxifen
+
+3.3 (5)
+2.4 (9)
+1.0 (3)
+
+koff (10-3 s-1)
+a
+
+rich 2002
+
+13 (6)
+60 (7)
+
+0.023 (1)
+0.045 (1)
+
+kl ) koff/kon (nm)
+
+rba
+
+this work
+
+rich 2002
+
+this work
+
+rich 2002
+
+this work
+
+rich 2002
+
+herr-fpb
+
+30 (5)
+1.5 (4)
+1.5 (3)
+2.3 (5)
+
+1.2 (2)
+0.05 (2)
+
+0.5 (1)
+1.4 (5)
+1.4 (3)
+90 (30)
+
+0.9 (4)
+0.009 (3)
+
+270 (60)
+100
+100 (20)
+1.5 (6)
+
+100
+1.0 (3) × 104
+
+140 (70)
+100
+120 (30)
+6 (9)
+
+1.3 (5)
+1.6 (4)
+1.73 (6)
+
+0.041 (1)
+1.0 (1)
+
+4 (2)
+7 (3)
+18 (6)
+
+18 (1)
+220 (20)
+
+35 (17)
+21 (9)
+8 (3)
+
+5.0 (3)
+0.41 (4)
+
+29 (30)c
+17 (8)
+4 (3)
+
+a
+rich 2002 (ref 8). b rba values of human full length err measured by fp, as reported in the literature (refs 2 and 25–27, and vendor). c rba
+values of human full length err measured by fp and radio-assays, as reported in the literature (refs 27–30).
+
+t ) 0, f was injected into a sample channel of tethered err. flow
+was promptly ceased, and binding occurred in a static cell
+environment during the next 300 s. blank buffer or f was then
+injected a few more times, when new steady states were generated
+each time. at t ) 1200 s, excess 17beta-estradiol was injected to
+completely displace all bound f.
+with reference to figure 2, the simulation of the empirical data
+was done in four steps. first, the off-rate was easily found because
+the decay beyond 1200 s was due solely to dissociation of f.
+rebinding was prevented by excess e2. second, the receptor
+coverage and the equilibrium dissociation constant kd () koff/
+kon) were determined by fitting the four steady-state bound
+fractions between 100 and 1000 s. four steady-state values
+overdetermined the two unknowns to allow parameter optimization and consistency checks. third, we used the determined
+rate constants and receptor coverage to generate the association curve. the transient influx of f near t ) 0, as measured
+by itotal(t), was taken into account in the simulation (figure
+s8). as there were no free parameters, the excellent match to
+the experimental data lent confidence to the model. four, we
+finally optimized the three parameters to best fit all data points.
+the best fit is shown in figure 2 (bold solid curves), which
+yielded both the on and off rates. the sensitivity of the fit to
+parameter values was also examined. a 50% higher koff visibly
+underestimated the equilibrated bound fractions (light curves
+labeled d) while a 50% lower koff overestimated them (light
+curves labeled c). if both koff and kon were 50% higher, the f
+signal would increase too fast (light curve a) and decay too
+soon (light curve f). the exact opposite would occur if both
+rate constants were 50% lower than the best-fit values (light
+curves b and e).
+multiple sets of rate constants were found from fitting more
+than 10 sets of data. to test reproducibility, these data sets were
+captured using different sample cells in experiments performed
+in different sessions, even on different days. the averaged rate
+constants are given in table 1 (first row). the standard deviations
+are shown as uncertainties. as can be seen, the uncertainties were
+within 20%.
+(25) ohno, k.; suzuki, s.; fukushima, t.; maeda, m.; santa, t.; imai, k. analyst
+2003, 128, 1091–1096.
+(26) mueller, s. o.; simon, s.; chae, k.; metzler, m.; korach, k. s. toxicol. sci.
+2004, 80, 14–25.
+(27) clegg, n. j.; paruthiyil, s.; leitman, d. c.; scanlan, t. s. j. med. chem.
+2005, 48, 5989–6003.
+
+rate constants were also measured in peg-coated channels
+when receptor-ligand interactions occurred in solution. the on
+and off rates were found by fp to be 6.8 × 107 m-1 s-1 and 2.5 ×
+10-2 s-1, respectively. the relative uncertainty was about 20%.
+their agreement with those of tethered err, to within
+experimental error (see table 1), indicated that tethering did
+not affect the binding kinetics.
+from the best fit, the receptor coverage was found to be about
+30 molecules µm-2. at this low coverage, the perturbation in
+local [f] due to binding with or dissociation from tethered err
+was less than 2% (eq 8). this justified the assumption of rapid
+mixing.
+binding kinetics of nonfluorescent ligands. the binding
+kinetics of a dark ligand l was determined by its competitive
+displacement of the reporter f. the result of a typical experiment
+is shown in figure 3 when the dark ligand genistein was used.
+the measured bound fractions are plotted as data points (o, 4,
+×, and 0). the experimental conditions are given in the caption.
+with reference to figure 3, the experimental data were fitted
+as follows. first, the rate constants of err-f interaction and the
+receptor coverage were found by fitting the initial 600 s of data.
+values of the rate constants should be the same as those gotten
+previously (see table 1, first row). once this consistency was
+checked, the final dissociation phase was fitted in two steps to
+determine the rate constants of l. in step one, the steady-state
+bound fraction at t ) 1200 s was fitted to give (k̃off)/(k̃on). in step
+two, the shape of the dissociation curve (600 s < t < 1000 s)
+was fitted to give k̃off and k̃on.
+the best fit is shown in figure 3 (bold solid curves). the on
+and off rates k̃on and k̃off of l were hence determined. tolerance
+in the fitted values is again illustrated in the figure.
+multiple sets of rate constants of genistein were gotten from
+fitting three sets of data. these data sets were again captured in
+different sessions. the averaged rate constants are given in table
+1. the standard deviations are shown as uncertainties. besides
+genistein, five other standard ligands of err were studied. they
+were 17beta-estradiol (e2), diethylstilbestrol (des), raloxifene,
+(28) grese, t. a. proc. natl. acad. sci. u.s.a. 1997, 94, 14105–14110.
+(29) wijayaratne, a. l.; nagel, s. c.; paige, l. a.; christensen, d. j.; norris,
+j. d.; fowlkes, d. m.; mcdonnell, d. p. endocrinology 1999, 140, 5828–
+5840.
+(30) kuiper, g. g. j. m.; lemmen, j. g.; carlsson, b.; corton, j. c.; safe, s. h.;
+van der saag, p. t.; van der burg, b.; gustafsson, j.-a. endocrinology 1998,
+139, 4252–4263.
+
+analytical chemistry, vol. 82, no. 9, may 1, 2010
+
+3823
+
+figure 3. err-genistein binding kinetics. the bound fraction of f
+as deduced from anisotropy a was plotted against time while different
+reagents were injected at various time points. at t ) 0, 10 µl of 1 nm
+f was flowed into the sample cell (o). at t ) 300 s, another 10 µl of
+1 nm f was flowed in, and the equilibrated bound fraction was shown
+(4). at t ) 600 s, 15 µl of 1 µm genistein was flowed in, and the
+subsequent dissociation of f from err was shown ( ×). at t ) 1200 s,
+15 µl of 10 µm e2 was flowed in to generate the baseline (0). the
+error bar of the steady-state signal was about the size of the data
+symbols. for the data shown, photobleaching was found to be
+negligible. the rate constants of the err-f binding kinetics could be
+determined by best-fitting the experimental data points for t < 600 s
+(bold curves). for the err-genistein complex, the rate constants
+could be determined by best-fitting the remaining experimental data
+points (bold decay curve). misfits were also shown: 50% higher koff
+(curve labeled d), 50% lower koff (curve c), and both koff and kon 50%
+higher (curve b) and 50% lower (curve a).
+
+4- xxxd91xxx  (4oht), and tamoxifen. they were chosen
+because they were standard ligands of err or approved antiestrogen drugs. their measured rate constants are listed in table
+1. the uncertainties were based on three or more data sets. they
+were mostly within 30%.
+as far as we know, the values of the kinetic rate constants
+listed in table 1 were known only for the first time. to date, none
+were reported in the literature. the nearest that we could find
+were rate constants measured by rich et al. 2002 (ref 8), but they
+used the ligand binding domain (lbd) of err while we used full
+length receptors. their results are also given in table 1 for easy
+comparison. as could be seen, except for e2, the rate constants
+differed very significantly.
+later on, we will comment on the discrepancy. here, it is useful
+to point out that equilibrium binding affinity data were available
+in the literature. they were usually reported in terms of relative
+binding affinity (rba) of err-l relative to err-e2.2 it could be
+computed once the dissociation constant kl was known (see
+supporting information). the computed values are listed in table
+1.
+rba values were reported by numerous other groups. among
+them, we selected those studies when full length human err was
+assayed by fluorescence polarization (herr-fp).2,25–27 we averaged the reported values and computed their standard deviations.
+the results are also tabulated in table 1 for easy comparison. as
+could be seen, our rba values were consistent with the reported
+ones. for the case of raloxifene, only one herr-fp result was
+available.27 we therefore quoted the results of radio-assays
+performed on full length human err as well.28–30
+we could also compute the rba values based on the results
+of rich in 2002 (ref 8). these are shown in table 1. they were
+very different from the other reported values. rich in 2002 used
+3824
+
+analytical chemistry, vol. 82, no. 9, may 1, 2010
+
+spr to assay the binding of err(lbd) with its ligands while all
+the others used fp to study full length err. that might explain
+the difference.
+all the known err ligands that we have studied did bind to
+err and competed with f for err. in other words, all the positive
+results that we saw were true positives. we also checked for false
+negatives. we tested dexamethasone and testosterone which were
+known to be non err ligands. no binding was detected (figure
+s5).
+from table 1, interesting pharmacological implications could
+be drawn. the relative binding affinities of the ligands ranged
+from 1.5 to 100, but the off-rates only varied from 1.3 × 10-3 s-1
+to 2.3 × 10-3 s-1 (see table 1). if off-rates correlated better with
+in vivo downstream effects than binding affinities,4 we would
+expect similar potency for these ligands. this was indeed the case
+for tamoxifen and raloxifene. from table 1, raloxifene would bind
+4 times stronger than tamoxifen, but the two drugs were shown
+to reduce breast cancer risk by about the same factor when they
+were administered at comparable dosage.31 admittedly, a 4-fold
+difference in affinity may be too small to be clinically significant,
+but it illustrates how our technique can be applied to study the
+correlation between off-rate and drug potency.
+screening ginsenosides for binding with nuclear receptors. as mentioned, our fp-tirf method could be used to screen
+potential ligands of the tethered receptor. we screened a total of
+11 ginsenosides for binding with tethered err. they were rb1(s),
+20(r)-rg3, 20(s)-rg3, 20(r)-rh2, 20(s)-rh2, rg1, re, ppt, ppd,
+ck, and f1. they were chosen because of their steroidlike
+properties.32 each ginsenoside at high concentration (10-50 µm)
+was flowed onto tethered err-f complex, and the displacement
+of f was monitored. all 11 ginsenosides were screened 3 times.
+no measurable binding of any of the ginsenosides with err was
+observed (figure s6). the null results were double-checked using
+fluorescence polarization assays in solution.22 the two results
+agreed.
+using the fp-tirf system, we screened the same 11 ginsenosides for binding with surface-immobilized  xxxg1807xxx  (lbd).
+ xxxg1807xxx  was chosen because it was recently implicated in the
+antidiabetic effects of ginsenosides.33,34 to immobilize this receptor, we found that it could be physisorbed firmly on pll-coated
+surfaces. the tethering procedure was therefore simplified.
+binding was measured by tirf. only two ginsenosides, rb1(s)
+and 20(s)-rg3, showed measurable binding to  xxxg1807xxx  (figure s7).
+we then double-checked the reliability of the screening results
+by repeating the experiment but with the  xxxg1807xxx  (lbd) captured
+by a surface-immobilized antibody specific for the receptor.22
+this time, we used fp to measure the binding. results are shown
+in figure 4. clearly, the same conclusion could be drawn. both
+the positive and negative results were double-checked using
+fluorescence polarization assays in solution.22 the two results
+agreed.
+(31) star results: raloxifene as effective as tamoxifen, better safety profile.
+nci cancer bulletin; national cancer institute, april 18, 2006; vol. 3 (16).
+(32) furukawa, t.; bai, c. x.; kaihara, a.; ozaki, e.; kawano, t.; nakay, y.;
+awais, m.; sato, m.; umezawa, y.; kurokawa, j. mol. pharmacol. 2006,
+70, 1916–1924.
+(33) shang, w.; yang, y.; zhou, l.; jiang, b.; jin, h.; chen, m. j. endocrinol.
+2008, 198, 561–569.
+(34) hwang, j. t.; lee, m. s.; kim, h. j.; sung, m. j.; kim, h. y.; kim, m. s.;
+kwon, d. y. phytother. res. 2009, 23, 262–266.
+
+figure 4. screening ginsenosides for binding with antibody-captured
+ xxxg1807xxx . tethered  xxxg1807xxx  was first complexed with f. a 10 µm
+sample of a ginsenoside was injected into the sample channel at time
+t ) 0, and fluorescence anisotropy was measured for the next 300 s
+and converted to bound f fraction. the cell was refreshed by flushing
+with blank buffer. the injection-wash cycle was repeated with a new
+ginsenoside each time. results of three ginsenosides were shown:
+rb1 (4), 20(s)-rg3 (o), and 20(r)-rg3 ( ×). blank buffer was used
+as negative control (]). as positive control, a  xxxg1807xxx  standard ligand
+ xxxd1216xxx   xxxd1891xxx  µm was injected in the last round to determine the
+minimum anisotropy (b).
+
+the therapeutic effects of ginsenosides on diabetic mice had
+since been investigated by our collaborators, and very interesting
+results that corroborated strongly with our findings were observed.35
+our fast screen results may also help to relate the ligand
+structure with its function. for instance, the absence of the
+aromatic a-ring might be a possible explanation for nonbinding
+with err,36 and the orientation of the hydroxyl group on the chiral
+carbon (c-20) and the sugar moiety at c-3 might be decisive for
+binding with  xxxg1807xxx .
+conclusion
+we reported a method to measure the binding kinetics of
+tethered nuclear receptors with their specific ligands. it was based
+on fp anisotropy of a fluorescent reporter ligand that competed
+with the analyte ligands. the same apparatus also measured the
+tirf signal of surface-bound reporter ligands.
+our method gave reliable results based on straightforward data
+analysis. the data interpretation was clean because the tethering
+scheme preserved the random pointing of the reporter dipole. this
+simplified the data analysis. at the same time, the sensitive
+
+detection tolerated low receptor coverage which in turn justified
+position-independent kinetics modeling. when the receptor coverage was high, as in the case of spr, elaborate models would be
+needed.21 the data accuracy was checked by the consistency of
+the fp and the tirf signals. the model validity was ensured by
+the satisfactory fit to empirical data. the very good agreement
+between our measured affinities and those reported in the
+literature speaks for the reliability of our results.
+our method also saved money and time. the setup was
+inexpensive: the entire apparatus cost less than 20 000 usd if the
+electron-multiplied ccd (emccd) was replaced with photomultiplier tubes. an emccd was used to locate areas-of-interest on
+the image. for mature setups, however, this will not be necessary.
+the recurrent cost was low: our sample cell could be easily
+fabricated and disassembled for cleaning and recycling, and only
+tens of femtomoles of the reporter ligand were needed as opposed
+to the picomoles required in conventional fp assays. the
+measurement was fast: the screening of 11 ginsenosides took less
+than 2 h, and the rate constants for an analyte ligand could be
+determined in less than 30 min.
+yet more importantly, we believe our method is presently the
+only nonradioisotope assay that can reliably measure the kinetic
+rate constants of receptors interacting with small (101-102 d)
+ligands. realizing that receptor-ligand interaction is the
+primary step in chemical signaling on the one hand, and
+fluorescent ligands are becoming readily available on the
+other,37 the application horizon is vast.
+acknowledgment
+we thank professors r.n.s. wong and y.k. cheng of hong
+kong baptist university for their helpful suggestions. we thank
+professor r.n.s. wong and his group for carrying out the binding
+studies of ginsenosides with err by fp in solution, and professor
+yu huang of chinese university of hong kong for communicating
+their experimental results of the therapeutic effects of ginsenosides on diabetic mice prior to publication. this work was supported
+by the general research fund and the collaborative research
+fund of the research grants council of hong kong, and the
+faculty research grants of hong kong baptist university.
+supporting information available
+additional expeimental details, explanations of calculations, and
+figures. this material is available free of charge via the internet
+at http://pubs.acs.org.
+received for review january 26, 2010. accepted march 31,
+2010.
+ac1002245
+
+(35) huang, y. private communication.
+(36) baker, m. e.; chang, d. j. biochem. biophys. res. commun. 2009, 386,
+516–520.
+
+(37) fluorescent ligands for ar, err,  xxxg731xxx , gr, pparr,  xxxg1806xxx ,  xxxg1807xxx , pr,
+ xxxg1598xxx  ( xxxg1598xxx ), and vdr are available from invitrogen.
+
+analytical chemistry, vol. 82, no. 9, may 1, 2010
+
+3825
+

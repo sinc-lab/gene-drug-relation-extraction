@@ -1,0 +1,1165 @@
+vol. 269, no. 37, issue of september 16, pp. 23367-23373, 1994
+printed in u.s.a.
+
+thejournal
+of b r o m r c ~
+chemistry
+~
+0 1994 by the american society for biochemistry and molecular biology, inc.
+
+a model for the  xxxg748xxx  pathway to thrombin
+11. a mathematical simulation*
+(received for publication, march 10, 1994, and in revised form, june 28, 1994)
+
+kenneth c. jones and kenneth g. manns
+from the department of biochemistry, health science complex, university of vermont, college of medicine,
+burlington, vermont 05405-0068
+
+a mathematical simulation of the  xxxg748xxx  pathway to the generation of thrombin has been developed
+using a combination of empirical, estimated, and deduced rate constants for reactions involving the activation of factor e,x, v, and viii, in the formation of
+thrombin, as well as rate constants for the assembly of
+the coagulation enzyme complexes which involve factor
+viiia-factor ma (intrinsic tenase) and  xxxg749xxx -xa (prothrornbinase) assembled on phospholipid membrane.
+differential equations describing the fate of each species inthe reaction were developed and solved using an
+interactive procedure based upon the runge-kutta
+technique. in addition to the theoretical considerations
+involving the reactions of the  xxxg748xxx  pathway, a
+physical constraint associated with the stability of the
+ xxxg751xxx -factor ixa complex has been incorporated
+into the model based upon the empirical observations
+associated with the stability of this complex. the model
+system provides a realistic accounting of the fates of
+each of the proteins in the coagulation reaction through
+a range of initiator (factorviia- xxxg748xxx ) concentrathe modelis responsive
+tions ranging from 5 pm to 5
+to alterations in the concentrations of factor viii, factor
+v, and their respective activated species,  xxxg751xxx 
+and  xxxg749xxx , and overall provides a reasonable approximation ofempirical data. the computer modelpermits the assessment of the reaction over a broad range
+of conditions and provides a useful tool for the development and management ofreaction studies.
+
+n~.
+
+computer-based mathematical model to describe the kineticsof
+the  xxxg741xxx  complex (5). this latter model explained
+the sensitivity of that system to the concentrationsof various
+reactants including the
+paradoxical decreases inrates observed
+with increasing concentrations of enzyme, substrate, or lipid
+surface.
+these examples point out the need to identify the different
+kinetic fates of the individual proteins initially presentwhen
+reacting mixtures are studied.  xxxg741xxx  is an enzyme with
+distinctly different catalytic properties in the presence or absence of its active cofactor  xxxg749xxx  (6). both  xxxg741xxx -phospholipid and thrombin can activatefactor v and factor vi11 to
+their respectiveactive
+cofactors (7-12). factorviiia, once
+formed, is subject to spontaneous inactivation (13, 14). factor
+ixa is virtually inactive without  xxxg751xxx  (15). factors ix
+and x serve as competitive substrates for the tissue factorfactor viia complex (4,16,17), and
+ xxxg741xxx -phospholipid catalyzes the formation of factor i x a (4).these complexities make
+interpretation of the kinetics of coagulation less than obvious.
+the reaction is even more difficult to analyze because of the
+absence of steady state conditions. the concentrations of all
+substrates, cofactors, and enzymes change throughout the reaction, and enzymelactivator concentrations may and
+do exceed
+substrate concentrations. in addition, the natural concentrations of the coagulation proteins in blood vary over an extremely broad range.
+in this studywe model the procoagulant reactions using the
+runge-kutta digital integration technique (18).in previously
+reported work, lewis et al. (19) used a similar algorithm to
+successfully model the assembly of fibrin.
+
+the first paper in this series (1) reports the formation of
+methods
+thrombin in a system containing saturatinglevels of phospholipid and allof the proteins necessary
+for initiating coagulation
+in the activationof prothrombin viathe extrinsic pathway,
+at least 18
+via the “extrinsic” pathway. the data from that paper indicate kineticspeciesexist. a separate differentialequationdescribesthe
+conthat the sequential activation
+of the extrinsic pathway proteinschanging concentrationof each species.for example, the changing
+of  xxxg749xxx  can be describedin the mathematical shorthand:
+centration
+when initiated by picomolar t o nanomolar concentrations of
+ xxxg748xxx -factor viia issufficient to give stoichiometric condva = k,m[xa] + k,m[iia] - k,va]pa] + k,[vaxa](eq.
+1)
+version of prothrombin t o a-thrombin in 30-240 s.
+where k, and k , correspond to the second orderrate constants for factor
+it is not intuitivelyobvious how the kineticsof the activation va formation via  xxxg741xxx  and thrombin as the activating enzymes,
+of each protein contributes to the overall cascade, resulting in respectively. k , corresponds to thefirst order decay of the prothrornbithe explosive formation of thrombin. kinetic analyses of the nase complex (va.xa), and k , corresponds to the association rate conindividual reactions in the extrinsic pathway have
+been re- stant for factorva with  xxxg741xxx  in theprothrombinase complex.
+solving the complete set of 18 differential equationsis not practical,
+ported (2, 31, but an analysisof the complete reaction with its
+multiple reactants has been given less attention. in previous but approximating the solution using a runge-kutta numerical technique (18)provides a useful description of the reaction progress.
+reports, this laboratory reported
+a n activation study of factors
+the anticipated mathematical approach should allow prediction of
+ix and x with tissuefactor-factor viia (4) and also
+developed a the changing concentrations of each species. for such a complex set of
+reactions, several different solutions using different
+rate constants may
+* this work was supported by grant po1 hl46703 and the depart- match experimentalresults. we have restricted ourmodel to be based,
+ment of biochemistry. the costs of publication of this article were de- for the most part, upon published rate constants determined in earlier
+frayed in part by the paymentof page charges. thisarticle mustthere- work.
+the process of developing the mathematical model has three steps.
+fore be hereby marked “aduertisement”in accordance with 18 u.s.c.
+section 1734 solely to indicate this fact.
+first, identifying the enzymatic reactionsthat are integralto the com$ to whom correspondence and reprint requests should be addressed. plete coagulationcascade; second, developingempirically restricted aptel.: 802-656-0335.
+proximations for the rate constants for each enzymatic reaction; and
+
+23367
+
+simulation offactor-dependent
+ttssue hemostasis
+
+23368
+
+third, adjusting the rate constants toallow the model to simulate the
+empirical results derived from laboratory experiments. first
+thestep in
+this process was developed by multiple laboratories who identified the
+different enzymes, proenzymes, and
+cofactors important in coagulation.
+the literature which deals with the evaluation
+of rate constantsfor each
+reaction, although extensive (table i), is
+complete.
+not
+this shortcoming
+puts more importance and potential for misinterpretation upon the
+third stepof the evaluationprocess. in the present analysis,
+we compare
+the results from the mathematical model with the experimental, empirical results presented
+by lawson et al. (1)in theaccompanying paper.
+in that paper, the changing concentration of each protein is tracked
+throughout the reaction under different initial conditions. the use of
+or should
+those results helps determine which
+of the rate constants can
+be adjusted in the mathematicalmodel.
+the resultsof the lawson et al. (1)experiment are consistent witha
+model that includes the following reaction steps:
+k6
+
+ix+tf.viia
+
+0
+
+k 11
+ix.tf.viia+ tf.viia+ixa
+
+k 16
+k6
+ xxxd3215xxx 
+x+tf.viia-x.tf.viia-. tf.viia+xa
+
+4 7
+
+k6
+kl,
+x+viiia.ixaox.viiia.ma+ viiia.ea+xa
+k 18
+'15
+
+ix+xa+ xa+ea
+kl
+v+xa+xa+va
+
+vi11 + xa
+
+k3
+--j
+
+xa + viiia
+
+k,
+v + iia + iia
+
+vi11 + iia
+
+i1 + va . xa
+
+k6
+0
+
+k4
+--f
+
++ va
+
+iia + viiia
+
+i1 . va . xa
+
+14
+--j
+
+va . xa + miia
+
+kl,
+k5
+miia+va.xa+va.xa+iia
+k7
+viiia + ea 0 viiia . ixa
+k,
+k*
+va+xa-va.xa
+k 10
+
+table
+i
+rate constants used to model the activation
+
+thrombin
+value
+
+activation of v by xa (2nd order)
+activation of v by iia (2nd order)
+activation of vi11 by xa (2nd order)
+activation of vi11 by iia (2nd order)
+conversion of miia to iiaby (va.xa)
+(2nd order)
+on-rate for rapidly formed complexes
+(2nd order)
+on-rate for the viiia.ma complex
+(2nd order)
+on-rate for the va.xa complex
+(2nd order)
+off-rate for viiia.ma complex
+off-rate for va,xacomplex
+v, for activation of m by tf.viiia
+v, for activation of x by tf.viiia
+v,, for activation of x by viiia.ixa
+v,,,,for miia formation by va.xa
+activation of m by xa (2nd order)
+off-rate for m on tf.viia complex
+off-rate for x on tf.viia complex
+off-rate forx on viiia.ixa complex
+off-rate for i1 on va.xa complex
+constant for the slow degration of
+v i i 1 a . e (see comment above)
+each interval of time.
+very small time intervals require more computing time but decrease
+the possibility of generating artifactual results due to approximating
+linear interpolations between intervals when nonlinear events are taking place. in order to avoid these types of artifacts, the model was
+subjected to repeated analysesat decreasing valuesof i until a convergent result was obtained.
+the differential equations describing each of the components in the
+reaction are as follows:
+d[tf . viia] = kll[tf . viia . e] - k6[tf . viia][m] +
+k,,[tf . viia . mi + kjtf . viia . x]
+
+-
+
+k,[tf . viia][x] +
+(eq. 2)
+k,,[tf. viia . x]
+
+d[m] = kl,[tf . viia . e ] - k,[tf . viia][m]
+
+-
+
+k15[ix][xa] -
+
+kl,[m]wa
+
+4 3 1 = k,,[tf . viia . x] - k,[tf . viia][x]
+
+'
+
+xa1
+
+d!3'iii] = - k 3 m i i ] f a ]
+
+-
+
+(eq. 3)
+
+k , m i i a . ma]p] +
+ xxxg1287xxx [viiia . m a . x] (eq. 4)
+
+-
+
+d[vi = -kjvj[xa] - k,m[iia] - k,m[miia](eq.
+k4[viii][iia] - k,[viii][rniia]
+
+4111 = kl,va . xa . 111 - k6[va . xa][ii]
+
+5)
+(eq. 6)
+(eq. 7)
+
+d m i i a . ixa] = k7miia][ma] - k , m i i a . m a ] - k , m i i a . ixalg] +
+k18miia . ixa . x] + k13miia . ea . x]
+
+relevant
+reactions
+in coagulation
+1
+under the conditions used by lawson et al. (11, sufficient lipid was
+added to saturate all protein-lipid binding reaction conditions; therefore, lipid binding equilibria are not included as reaction steps per se.
+thus, in thismodel as well as the experiments describedin lawson et
+al. (l),the kinetic significance of the phospholipid concentration is
+reduced by performing each experiment with vast excesses
+of phospholipid. therefore, these mathematicalmodels do not, at present, include
+a factor for the concentration of lipid.
+simulateddeterminations of thechangingconcentrations
+of the
+proenzymes, pro-cofactors, and their products with time in complex
+the
+reaction were developed using the runge-kutta numerical technique
+(18). a computer program developed in the laboratory of dr. david
+ballou of the universityof michigan (20)allows a dos-based computer
+to carry out calculations
+of the concentrations of each componentin the
+system over time ( t ) .the initial concentration condition (wheret = to)
+for each component isprovided by the user. the model then uses those
+concentrations in a set of differential equations to calculatethe concentration present after the next interval
+( i )at time (to+ i). the process is
+continually repeated to calculate the concentration of each species for
+
+of
+
+decription
+
+d w a . xa] = k8ba]wa]
+
+-
+
+-
+
+(fabs(i- [viiia . ma])) +
+(i - [viiia . ma]) (eq. 8 )
+
+klo2wa. xa] + k,,[va. xa ,111 (eq. 9)
+k,[va. xa][ii] + k,,va . xa . 111
+
+d[iia] = k,[va . xa][miia]
+d[va . xa . 111= k s v a . xa][ii]
+
+-
+
+kl,[va . xa . 111 k14[va . xa . 111
+
+d[miia] = k,,[va . xa . 111 - k,wa
+d[tf . viia . mi = k6[tf . viia][m]
+d[tf . viia . x] = k,[tf . viia][x]
+
+-
+
+-
+
+. xa][miia]
+
+k16[tf. viia . mi kll[tf . viia . mi
+
+k,,[tf . viia . x] kl,[tf . viia . x]
+
+d m i i a . ma . x] = k,[viiia . ma][x] - k,,miia . m a . x] k,,[viiia . ixa .x]
+
+simulation offactor-dependent
+tissue hemostasis
+d[ma] = k,miia . ma]
+
+-
+
+k,miia][ma]
+
++ k,,[tf . viia . mi +
+
+k,,[mi[xal + kls[ml[va . xal
+d[xa] = k,,[va . xa] - k,[xa]wa]
+
++ k,,[tf . viia . x] +
+k,,miia . m a . x]
+
+dwa] = k,,[va. xa] - k,l[xa]wa]
+
++ klmixa] + k,m[iia] +
+kzm[miial
+
+d m i i a ] = k,miia . ma]
+
+-
+
+k,[viiia][ma]
+
++ k,mii][xa] +
+
+k,[viii][iia]
+
++ k,mii][miia]
+
+23369
+a 120
+
+(eq. 16)
+e
+
+=0
+(eq. 17)
+
+e
+
+80
+
+p
+
+5
+(eq. 18)
+
+100
+
+60
+
+e
+
+es
+
+40
+
+20
+
+ieq. 19)
+0
+0
+
+where fabs is the absolute value function and miia is meizothrombin.
+from the empirical data of lawson et al. (11, it is clearly established
+that there isa decay in the activity of the  xxxg751xxx -factor m a complex with time.
+in order to approximate this empirically established decay of the
+ xxxg751xxx -factor ixa complex activity, an additional equation which
+would cause adecreasing maximal concentration ( i )of the factor viiiafactor m a complex is required:
+di = (-(fah(z
+
+-
+
+m i i a . ma])) + (z - w i i a . ma]))k,,
+
+50
+
+100
+
+150
+250
+
+200
+
+time (seconds)
+
+(eq. 20)
+
+thereader
+should note asimilar
+factor is used in determining the changing concentration of the  xxxg751xxx -factor ma complex
+(equation 7).
+in order to execute the model, it is necessary to provide the starting
+concentrations and estimates of the kinetic constants appropriate for
+each reaction system. for most simulations described in thispaper, the
+initial concentrations are identical with thoseused in theexperimental
+conditions of lawson et al. (1) at 5 nm factor viia- xxxg748xxx  unless
+specified otherwise.
+table i lists the empirical, estimated, and deduced rate constants
+used in thesimulated models. k,,, k,,, k,,, andk,, are taken
+directly from
+previously published values (15,21,22). each of these studies reported
+k,, and k , values for the reactions. for the purposes of this model, the
+k,, for each of the reactions (k,) was assumed to be rapid and the k ,
+values (k,,, k,,, k,,, and k1j were calculated from the michaelis-menten
+relationship. the kinetics of factor v activation ( k , , k , )were described
+by monkovicand tracy (23),and theactivation of factor vi11 (k,, k,)were
+initially approximated by analogy and refined by comparison with the
+experimental results of lawson et al. (1).it isknown that thekd values
+for the  xxxg749xxx - xxxg741xxx  complexand  xxxg751xxx -factor ma complex
+are on the order of 1-2 n~(15,241, and theratio of the on and off rates
+(k&, and kdk,) are consistent withthose studies. the actual on-ratefor
+the  xxxg741xxx  complex formation from lipid-bound proteins has
+been reported by krishnaswamy et al. (3), and the value for k , (and by
+analogy, k , ) reflects that study. the accelerated conversion of  xxxg752xxx 
+to factor ma shows complex kinetics in thepresence of  xxxg741xxx  and the
+ xxxg748xxx -factor viia complex. a previous study by lawson et al. (4)
+reported the resultsof experiments in which factor m was activated to
+factor k a p by factor viia- xxxg748xxx  in thepresence of  xxxg741xxx . that
+report included data showing the changing rate as theconcentration of
+substrate was depleted. from those data, a rough estimation of a second
+order rate constant (k,,) was calculated for the present study. the rates
+for meizothrombin conversion to a-thrombin (k,) and the decay rate for
+ xxxg751xxx  (a combination of k,, and z as described above) were determined by matching results of the computer model with experimental
+results reported by lawson et al. (1).
+the rate constants for activation of factor v, k, and k,, were adjusted
+from the published rate constants by factors of 2 to 3. this adjustment
+was necessary to match the empirical results of lawson et al. (1). the
+different reaction conditions under which the data of the laboratories
+were obtained may explain the small difference between the experimentally derived constants and those used in thismodel. similarly, the rate
+constants for activation of factor vi11 were determined by fitting model
+results to those observed by lawson et al. (1).
+the results of each simulation are a set of reactant concentrations
+predicted for each time interval selected which can be converted to a
+graphical form by assigning relative specific activities for each species.
+the graphical representations for thrombin activity correspond to the
+experimental observation of thrombin activity as influenced by the differing activity of a-thrombin and meizothrombin. the activity of meizothrombin is known to be about 120%that of a-thrombin (25); therefore,
+a relative specific activity of 1.2 is assigned to meizothrombin and 1to
+a-thrombin in order to model thrombin activity in experimental results.
+in all other cases, a relative specific activity coefficient of 1 is assigned
+to the species of interest.
+
+0.2
+0
+0
+
+50
+150
+
+100
+
+200
+
+250
+
+time (seconds)
+
+fig.1. a, a comparison of the formation of thrombin seen under
+experimental conditions to that modeled by mathematical simulation.
+the percent thrombin formation is plotted versus time. the empirical
+data (0)
+were taken from the resultsof lawson et al. (1). the model (0)
+is as described under “methods”; protein at plasma concentrations,
+ xxxg748xxx -factor viia at 5 pm,and the rateconstants as described in
+table i. relative specific activity for aiia = 1 and for miia = 1.2. 100%
+formation corresponds to complete formation of aiia (1.4 p ~ ) b,
+. a test
+of the effect of varying enzyme complex formation rate constants on
+mathematical model results. the initial model ( 0 )represents the simulation with 5 pm  xxxg748xxx -factor viia and the rate constants as
+described in table i. relative specific activity for aiia = 1 and for miia
+= 1.2. the other results show the simulated results with k, = 1 x 10, m-,
+sel ( 0 1, k g = 0.0005 s-’ (01
+or
+,k , = 4 x 10,
+s-’, k,, = 0.04 sec” (0).
+
+results
+
+fig. la shows the rate of thrombin formation predicted by
+the model at 5 pm factor viia- xxxg748xxx  complex (open
+circles),together with theempirical results obtained under the
+same conditions (open squares). the similarity in the form of
+the predicted reaction course to the empirical data is encouraging. the form of the reaction profile, characterized by a lag or
+initiation phase, a propagation phase, and thedecay of meizothrombin to a-thrombin (theobserved “bump” in activity) seen
+between 140 and 180 s, does not prove the model, nor does it
+validate thatall of the assumptionsupon which it was built are
+correct. however, the result suggests the
+model provides a reasonable approximation of the empirical result. the slight differences between the empirical result and themodel are easily
+reconciled if one considers the many varied conditions under
+which the empirical rate constants used were derived and appreciates the difficulty in obtaining precise laboratory results
+in a reaction system as complex as the extrinsic pathway. the
+many different laboratory determinations of the empirical rate
+constants which are used in the model were collected under
+different conditions of temperature, metalion and protein and
+lipid concentration. each of these variables is known to have
+significant effects upon reaction rates. for our empirical results (l), different experiments conducted on different days
+using different protein preparations produced similar relative
+results but with the lagperiods often varying as much as the
+difference between the model and the displayed results.
+
+23370
+
+simulation offactor-dependent
+tissue hemostasis
+
+an example of the sensitivity of the model to someof the rate
+a 120
+constantassumptions is presented in fig. ib. thisfigure
+shows how the variation of some of the approximated rate
+constants will cause alterations in themodeled output. these
+results are similar in magnitude to the
+difference between the
+model and empirical results. one set
+of rate constantsfor which
+there is an extended range is thek,, and k,, for the  xxxg741xxx  complex, k , and kl0.while the kd for theprothrombinase
+complex is well characterized, thereby defining the ratio of
+k,jk,,, (kl,,lk8),the actual values reported
+for the individual rate
+constants could range within 1 or 2 orders of magnitude, de0
+50
+100
+150
+200
+250
+pending upon whether the reaction requires
+exchange dissociatime (seconds)
+tion-reassociation to the membrane surface
+or simplythe  xxxg1967xxx  100
+brane facilitates two-dimensional transfer. decreasing the k ,
+90
+and k , by a factor of 10 for the  xxxg741xxx  complex inc 80
+creases the lag period by 10%. changing k,jk,, (kjkk,) for the
+;;i 70
+e
+ xxxg751xxx -factor ma complex increases the lagmore noticek 60
+ably. this observation reinforces the importance of the factor
+2 50
+viiia-factor ma complex in accelerating the
+overall reaction at
+40
+the low factor viia- xxxg748xxx  complex concentration (5 pm)
+2 30
+specified. similar results are obtained by changing the indi20
+vidual rate constants
+for formation of the michaelis complexes.
+10
+the results displayed in fig. ib illustrate two important
+0
+0
+50
+100
+150
+200
+250
+elements of the model. first, the assignmentof rate constants
+time (seconds)
+to those reaction steps
+that are notwell characterized is not so
+critical as to either validate or invalidate the
+complete model.
+second, the results show that reasonable changes in assumptions provide enough difference in the resulting output toexplain the small differences between the model and the empirical results to which they are compared.
+despite the relative insensitivity
+of the model to anyone rate
+constant, some fundamental mechanistic properties are critical. fig. 2a represents thevery slight acceleration in u-thrombin formation that is evident ina model that allows formation
+10
+of a stable, completely active  xxxg751xxx -factor ma complex.
+the overall effect of a model which assumes a stable factor
+0
+viiia-factor m a complex on the rate of u-thrombin formation,
+0
+50
+100
+150
+200
+250
+time (seconds)
+however, is insignificant. this is because during the first 80 s
+the level of  xxxg751xxx -factor ma complex activity and, thus,
+fig.2. the effect of stable factor viii-factor ma. the percent
+ xxxg741xxx  concentrations are similar whether or not a stable thrombin,  xxxg741xxx , or factor ma is plotted uersus time. the basic
+is simulated as described under “methods.” the alternative
+complex is assumed to exist.however, as seenin fig. 2, b and model (0)
+model (0)
+does not include the degradation of the active factor viiiac, the assumption of  xxxg751xxx -factor ma complex degrada- factor ma complex. in a, the relative specific activity for aiia = 1 and
+tion is critical after the initial 80 s (a time point after the miia = 1.2. 100% formation corresponds to the complete formation of
+.
+meizothrombin is also known toposess proteolytic
+initiation of maximal thrombinactivation). in fig. 2b, the rate aiia (1.4p ~ ) (note:
+of meizothrommodel activity similar to thrombin. in this paper, the kinetics
+of  xxxg741xxx  formation is seen to be much greater in the
+activity are assumed
+to be equivalent to thrombin
+activity.) in b , the
+when it allows a stable  xxxg751xxx -factor m a complex activity bin
+relative specific activity for xa = va.xa = va.xa-i1 = 1. the diamond
+to be expressed than inboth the empirical results (1)and in the symbols represent the empirically determined level of  xxxg741xxx  remodel which includes the degradation
+of  xxxg751xxx -factorma ported in lawsonet al. (1).100%formation corresponds tothe complete
+complex activity. this conclusion is further reinforced when the formation of xa (170 nm). in c, the relative specific activity for ma =
+= viiia.ma - x = 1. 100% formation corresponds to the
+role of factor m activation is considered. fig. 2c shows the viiia.ma
+complete formation of ma (90 m).the diamond symbols represent the
+results due t o the feedback activating effect of the large con- empirically determined levels of factor ma.
+centration of  xxxg741xxx  on factor m generation when thefactor
+viiia-factor ma complex is modeled as a stable catalyst in the levels of factor ixa and  xxxg741xxx  are crucial processes, the
+complete activation of  xxxg741xxx  and m are not critical events in
+reaction.
+further evidence of the validity of the model is seen infig. 3. achieving the maximal rateof thrombin generation.
+influence of the concentration of factor vzia- xxxg748xxx 
+this figure illustrates the concentration-time dependence of
+thrombin,  xxxg741xxx ,  xxxg749xxx ,  xxxg751xxx , and factor ma complex-the importance of the initial activationof  xxxg752xxx 
+during the course of the reaction. the model data show the and  xxxg741xxx  can be modeled by varying the initialconcentrasequence of events thatis associated with the resulting throm- tion of the  xxxg748xxx -factor viia complex. at the initial
+bin formation. consistent with the empirical results reported (plasma) concentrations of factor m and  xxxg741xxx , both are
+by lawson et al. (l), the activationof pro-cofactors factor vand significant substrates for the  xxxg748xxx -factor viia enzyme
+factor vi11 takes place rapidly and precedes the “propagation complex, and thiscomplex plays an essentialrole in the initial
+phase” of the rapid formation of thrombin. the formation of activation of both factors (16, 17). lawson et al. (1)note that
+of  xxxg748xxx -factor viia hasonly
+factor ma and  xxxg741xxx  controls the ultimatelevels of activity changing the concentration
+minimal effects on the maximal rate of thrombin formation
+of the enzyme complexes,  xxxg741xxx , and factor viiiafactor ma complex. while the timely formation of sufficient observed during the propagation phase of the reaction, while
+
+simulation of  xxxg748xxx -dependent
+hemostasis
+
+‘0
+
+5- 1.2
+
+i00
+
+d
+.
+
+em
+?
+
+23371
+
+0
+0
+
+80
+
+i
+
+60
+
+1
+0.8
+
+c
+
+i
+
+5 0.6
+
+40
+
+e
+
+u
+
+e
+
+20
+
+0.4
+0.2
+0
+
+0
+0
+
+50
+
+100
+
+150
+
+200
+
+0
+
+250
+
+50
+
+fig.3. the reaction progress for each protein.
+the basic model
+is simulated as described under “methods” using the rate constants in
+table i. theformation of thrombin (0)
+is modeled using relativespecific
+activity of aiia = 1 and miia = 1.2. 100% formation corresponds to the
+complete formation of iia (1.4 p ~ ) the
+.
+formation of xa (0)
+is modeled
+using relative specific activity: xa = va.xa = va.xa - i1 = 1. 100%
+formation corresponds to the complete formation of xa (170 n ~ ) the
+.
+formation of m a ( 0 ) is modeled using the relative specific activity for
+e a = viiia.ma = vii1a.m - x = 1.100% formation corresponds to the
+complete formation of m a (90 m). the cleavage of factor v (a)is
+modeled using the relative specific activity for v = 1. 100% corresponds
+to initial conditions wi = 20 m. the cleavage of factor vi11 (v) is
+modeled using the relative specific activity for vi11 = 1. 100% corresponds to initial conditions [viiii = 0.7 m.
+
+150
+
+200
+
+250
+
+fig.4. the effect of  xxxg748xxx -factor w a concentration.
+the percent thrombin formed is plotted as a function of time. the model
+(0)
+is simulated as described under “methods”using the rateconstants
+in table i and protein concentrations as described in table i of ref. 1
+(with 5 pm  xxxg748xxx -viia). the relative specific activity of aiia = 1
+and miia = 1.2. each of the other results was simulated usingthe same
+rate constants but increased concentrations of tf.viia. 0,
+[tf.viia] =
+10 pm; 0 , [tf.viial= 50 pm;a, [tf.viial= 500 pm;v, [tf.viial= 5 nm.
+
+a
+
+1.6
+
+t,
+
+-e 1.2
+v
+
+‘z
+
+having the greatest influence on the initiation phase of the
+reaction which precedesthe phaseof maximal thrombinformation. fig. 4 presents thepredicted progress curves for thrombin
+generation when the reaction is initiated at different tissue
+factor-factor viia concentrations. the data of fig. 4 illustrate
+the same form of dependence on the initiating tissue factorfactor viia concentration observed for the empirical results of
+of
+lawson et al. (1).the empirical studies using concentrations
+the activatorcomplex which varied over a 1000-fold range produced only a 5-fold change in the observed propagation phase
+rate of thrombin generation; the major effect observed was a
+prolongation of the “lag”or initiation phaseof the reaction. virtually the same observations are made
+for the computermodel
+over a 1000-fold range of activator complex concentration.
+theeffect of factor vzzz on the reaction progress-it is
+known that factor vi11 plays a critical role in the initiation of
+coagulation, and that, in the absence of factor viii, the activated partial thromboplastin time
+(21) is extended. in contrast,
+factor vi11 deficiency does not result in prolongation of the
+prothrombin time(22). while the tissuefactor-factor viia comof factor
+plex is important informing the initial concentrations
+xa required for thrombin generation to proceed, the contribution of the  xxxg751xxx -factor 1% complex can be shown in the
+model by setting the initial concentration of factor vi11 to 0.
+fig. 5a shows that when low  xxxg748xxx -factor viia concentrations are used, the thrombinformation rate is depressedas
+a consequence of the much slower rate of  xxxg741xxx  formation.
+this prediction by the model is virtually identical with the
+observation made in theempirical studies of lawson et al. (1)
+which show that at low (picomolar)  xxxg748xxx -factor viia
+concentrations, thepropagation phase of thrombin generation
+is significantly depressed when factor vi11 is left out of the
+initial reaction mixture.
+similarly, both the model and the data of lawson et al. (1)
+show that at hightissue factor-factor viiaconcentrations,
+omitting factor vi11 from the reaction mixture has a minimal
+effect on the time course or form of the a-thrombin generation
+curve. fig. 5b shows the predicted a-thrombin generation rate
+at 1n m  xxxg748xxx -factor viia. the ratesof thrombin generation are identical whether factor vi11 is present or not. thus,
+the presence of factor vi11 is not critical t o achieve rapid maximal formation of thrombin when high levels of factor viia-
+
+100
+
+time (seconds)
+
+time (seconds)
+
+e
+
+1
+
+5 0.8
+u
+
+5e
+
+z+
+
+0.6
+0.4
+0.2
+
+1
+
+0 b “
+o
+0
+
+50
+..
+
+100
+~~
+
+150
+
+200
+
+250
+
+200
+
+250
+
+time (seconds)
+
+s
+
+e
+
+e
+
+u
+
+1.2
+1
+0.8
+
+c
+
+b 0.6
+e
+
+e
+
+0.4
+
+o%l-”&00
+
+50
+
+100
+
+150
+
+time (seconds)
+
+fig.5. a , the effect of pro-cofactors on thrombin formation. the percent thrombin formed is plotted as a function of time. the model (0)
+is
+simulated as described under “methods” using the rate constants in
+table i and protein concentrations as described in table i of ref. 1. the
+relative specific activity of aiia = 1and miia = 1.2. the simulation of iia
+formation in the absence of vi11 (0)
+was modeled using the same rate
+constants but starting with the concentration of factor vi11 = 0. the
+simulation of iia formation in theabsence of factor v ( 0 ) was modeled
+using the same rate constants but starting with the concentration of
+factor v = 0. b , the effect of pro-cofactors on thrombin formation. the
+percent thrombin formed is plotted as a function of time. the model (0)
+is simulated as described under “methods” using the rate constants in
+table i and plasma protein concentrations as described by lawson et al.
+(1)in table i except that the concentration of tf.viia = 1 nm. the
+relative specific activity of aiia = 1and miia = 1.2. the simulation of iia
+formation in the absence of vi11 (0)
+was modeled using the same rate
+constants but starting with the concentration of factor vi11 = 0. the
+simulation of iia formation in theabsence of factor v ( 0 ) was modeled
+using the same rate constants but starting with the concentration of
+factor v = 0.
+
+ xxxg748xxx  are available. this is the result
+of the tissuefactorfactor viia complex forming the threshold levels of  xxxg741xxx 
+required to achieve explosive prothrombin activation without
+the need for the  xxxg751xxx -factor ma complex.
+
+simulation of  xxxg748xxx -dependent hemostasis
+1.6
+
+r
+
+i
+
+conclusions
+
+a difficulty inherent in many kinetic studiesis the reliance
+upon steady state kineticsfor the determination of individual
+rate constants. in theprocess of the activationof prothrombin
+to a-thrombin under pseudophysiological conditions of procoagulants, the concentrations of each zymogen, enzyme, procofactor, cofactor, and substrate vary widely and change significantly. for this reason,it is not obvious how the full
+ensemble of reactions will progress, nor is it obvious how the
+various forward and feedback reactions quantitatively influ0
+50
+100
+150
+200
+250
+ence the generationof the intermediateproducts. the ability to
+time (seconds)
+model the entire procoagulation reaction using specific indifig.6. the contributionsof factor iia and  xxxg741xxx  to factorv vidual rate constants allows a quantitative approximation of
+and factorviii activation. the percent thrombin formed is plotted as
+the proteolytic and catalytic events that lead t o a-thrombin
+a function of time. themodel (0)
+is simulated as described under
+“methods”using the rate constants in table i and plasma protein con- formation. the analyticalmodel also provides the ability of the
+centrations as described in table i of ref. 1. the relative specific activity investigator to ascertain the relativesignificance of the quanof aiia = 1 and miia = 1.2. the decreasing rate of thrombin formation titative levels of any species at any point in the reaction time
+is modeled by changing one of the rateconstants. k , = 0 ( 0 ), thrombin
+activation of factor v = 0; k , = 0 (01
+factor
+, xa of factor v activation = 0; course.
+the resultsof this paper do not suggest new knowledge about
+k, = 0 (a), thrombin activation of factor vi11 = 0.
+previously unknown reactionsor kinetic constants. rather, the
+prediction data comply reasonably in form and magnitude to
+the observations of both theempirical data (1)and the math- the empirical progress curves for the reaction. this result is a
+ematical model are consistent with the observations of biggs testimonial to both the mathematical model and the quality
+and nossel (261, who reported that the sensitivity of the pro- and the appropriateness
+of the empirical kinetic datapublished
+thrombin time to factor vi11 or  xxxg752xxx  deficiency could be for each separatereaction. one must alsospecify caution since
+there maybe other setsof rate constantswhich will match the
+enhanced by dilution of the thromboplastin reagent used to
+experimental results by combining changes in any of the folinitiate the clotting reaction.
+nature of the activatorof factor v-both thrombin andfac- lowing: (a)  xxxg751xxx -factor ma on-rates; (b)factor vi11 actor xa are known to activate factor v to  xxxg749xxx . the math- tivation by  xxxg741xxx  or iia; (c) xxxg749xxx - xxxg741xxx  on-rates; ( d )
+ematical model can use the simulation approach explore
+to
+the factor v activation by  xxxg741xxx  or iia; (e)  xxxg751xxx  degrarelative contribution of each of these enzymes to the activation dation; ( f , michaelis-menten complex on-rates.
+of factor v. in the mathematical simulation, the relative ofrates the rate constantsused in the model for this paper do show
+be invoked to explain the
+factor v activation by  xxxg741xxx  and by thrombin can be indi- that no additional kinetic events must
+vidually manipulated toexclude either enzyme from participat- empirical data for a-thrombin generation. themodel also proing inthis reaction process. this selection experiment canonly vides insights into the kinetic eventsthat precede and initiate
+be conducted by the computer since in the realworld this se- the rapid formation of thrombin. the ability of the model to
+lective reaction manipulationwould be impossible. fig. 6 shows reflect empirical results also suggests that product inhibition
+the resultsof such an experimental simulation. the simulated may not be a necessary consideration to fully explain the proreaction profile predicts that the eliminationof either thrombin gress of events in a-thrombin formation.
+at low  xxxg748xxx -factor viia concentration, during the
+or  xxxg741xxx  as a catalyst for the activationof factor vto factor
+first
+20-40 s of the reaction, a n almost steady state rate of
+va would result in a substantial prolongation of the initiation
+activation
+of factors ix and x occurs.  xxxg741xxx  begins to act
+on
+phase of the reaction. the empirical data are thus best
+modeled
+factors v, viii, m,and 11. two of the most kinetically signifiby a synthesis inwhich both  xxxg741xxx  and thrombin participate
+cant reactions are the activations
+of the profactors factor vand
+as activators of factor v during the initiation phase of the
+factor vi11 to the active species factorva and  xxxg751xxx . the
+reaction.
+results of the model suggest that both  xxxg741xxx  and thrombin
+a simulation was also performed in which the selective deplay essential roles in the activationof factor v to  xxxg749xxx , a
+letions of thrombin or  xxxg741xxx  as the activatorof factor vi11 result consistent with theempirical data of lawson et al. (1).
+were explored. the result of this computer experiment(fig. 6) after activation,  xxxg749xxx  complexes with  xxxg741xxx  to formprosuggest that thrombin plays the greater
+role in the activation
+of thrombinase, resulting in the initial generationof both meizofactor viiia. when factor
+vi11 is not activated to
+ xxxg751xxx  by thrombin and a-thrombin.while both thrombin andfactor xa
+thrombin, the reaction proceeds in a manner appropriate to
+are effective activators of factor vi11 resulting in  xxxg751xxx ,
+those simulations in which factor vi11 is deleted altogether
+the model suggests that in the system utilized here, thrombin
+from the initial reactionconditions.
+appears principally responsible for factor vi11 activation.
+the relevant pathway to the activation of factor xu-one
+at the point in the reaction when the activationof factor v
+advantage of this computer model is the ability to determine and factor vi11 are essentially complete, thrombin formation
+the pathwayby which the most significant proportion of factor accelerates dramatically. however, at this point, which signals
+x is activated. by assigning a rate of 0 to thefactor xactivating the propagation phaseof thrombin generation, theconcentraactivity of  xxxg751xxx -factor e a , that pathway canbe elimi- tions of enzyme factorxa and factor m a do not reflect complete
+nated in the model. the results of simulations in which the activation of their proenzymes. this observation raises the
+activation of  xxxg741xxx  by  xxxg751xxx - xxxg748xxx  alone or in question of apparent reaction inefficiencies in having the“exconjunction with  xxxg751xxx -factor ma indicate that the ini- tra” proenzyme. most likely, the concentrationsof factor xand
+tial activation of  xxxg741xxx  is not affected by deleting thefactor factor m specified by the naturalphysiology of coagulation are
+viiia-factor ma pathway, but after 40 s the importanceof this selected not in terms of the ultimate enzyme concentrations
+catalyst’s activity t o generating  xxxg741xxx  at low  xxxg748xxx - required, but rather relativeto their utilization as substrates.
+in this consideration, the satisfaction of the reaction k, for
+factor viia concentrationsbecomes clear.
+
+simulation of  xxxg748xxx -dependent hemostasis
+ xxxg748xxx -factor viiaand for  xxxg751xxx -factorma complex
+becomes the determining basisof the physiologically necessary
+concentrations of  xxxg752xxx  and  xxxg741xxx .
+the results of the empirical data of lawson et al. (11, which
+have been incorporated into the
+model, indicate that something
+is causing thefactor viiia-factor ixa complex-related activity
+in theexpression of  xxxg741xxx  t o be diminished after the initial,
+essential formation of some  xxxg751xxx -factor ma complex.
+one plausible contributor to this
+loss of activity is thedissociation of the subunits of  xxxg751xxx  (13) or theproteolytic inactivation of  xxxg751xxx  by factor ma (14).another possible
+explanation is proteolytic inactivation of either  xxxg751xxx  or
+factor ma under theconditions in which a vast excess of thrombin concentration occurs. for the purposes of the model, a
+mathematical relationship was introduced which results in a
+decay of the  xxxg751xxx -factor ma complex, but only after the
+3 pm complex is formed and a steady state level of 3 pm is
+maintained. the actuallevel of active complex can be approximated from empirical results of the rateof formation of factor
+xa. in the experimental results reported by lawson et al. (l),
+the results suggestthat there is never more than a 5 pm active
+ xxxg751xxx -factor ixa complex, however, from the standpoint
+of either themodel system or the
+empirical data, the high
+levels
+of  xxxg741xxx , which would occur if a stable factor viii-factorixa
+complex was present, would not substantially influence the
+ultimate maximum rate of thrombin generation seen during
+the propagation phase
+of the reaction. this lack of contribution
+would occur because the increase in  xxxg741xxx  levels, which
+would occur with a stable factorviiia-factor ma complex,
+would be formed subsequent to the maximum rate
+of thrombin
+generation; i.e. the propagation phase.
+reviewing the model results suggests the
+following sequence
+of events in the formation of thrombin. 1) the tissue factorfactor viia complex (5 pm) causes the activation
+of  xxxg752xxx  and
+ xxxg741xxx  at the rates of 0.5 pm s-' and 1 pm s-', respectively. 2)
+the  xxxg741xxx  formed is then able to initiate the
+conversion of
+factor v to  xxxg749xxx . 3) the  xxxg749xxx  formed then complexes
+with  xxxg741xxx  to form the  xxxg741xxx  complex which begins theconversion of prothrombin t o thrombin (via the meizothrombin intermediate). 4) the resulting thrombinformed accelerates the rate
+of factor vactivation and together with
+factor
+xa results in the conversion of factor vi11 t o  xxxg751xxx . 5)
+with  xxxg751xxx  present, the enzymatic activity
+of factor ixa
+greater rateof formation of  xxxg741xxx .
+is enhanced resulting a in
+it is at this point that the initiation phase of the reaction is
+complete. 6 ) from the experimental results, at 30 s, the concentration of factor ma is still less than20 pm;the concentration of  xxxg741xxx  is also less than 100 pm, but beginning to
+increase because of the additionalconversion of factor xby the
+small but significant concentration of the  xxxg751xxx -factor
+ixa complex. the concentration of thrombin is also low at this
+time, but increasing
+because of the newly formingprothrombinuse complex. by 60 s, the concentrationof factors va and viiia
+have reached levels easily saturating their respective apoenzymes ( xxxg741xxx  and factor ixa, respectively), ultimately leading to maximal ratesof  xxxg741xxx  and thrombin formation.
+an analysis of the simulationmodel shows that theobservations of activation of individual factors and cofactors are consistent with earlier work on the protein activationpathway. at
+the start of the propagation phase of thrombin formation, the
+
+23373
+
+amount ofprothrombinase necessary to generate the thrombin
+(fig. 1)is equal to the concentration
+of  xxxg741xxx  formed. factor
+va, which is probably formed by both  xxxg741xxx  and thrombin,
+appears at a rate which saturates  xxxg741xxx  at the end of the
+initiation phase.
+the most important conclusion from these experiments is
+that there isno need for any enhanced rate
+of activation of any
+of the components of the extrinsicpathway. the formation rate
+of factor ixa observed empirically is sufficient to generate a
+significant concentration of the  xxxg751xxx -factorma complex,
+and the resulting formation of  xxxg741xxx  allows for enough
+prothrornbinase t o rapidly convert prothrombin t o thrombin.
+we anticipate that the computer
+models which are identified in
+this paper will have utility in exploring the influence of alterations in the concentrationsof any species in the coagulation
+reaction and alsohow alterations in theirconcentrations, as a
+consequence of the presence of either natural or synthetic inhibitors of the coagulation reaction system, will influence outcome. the efficiency of the computer explorations in terms of
+time spent, materials required, andpersonnel cost makes it a
+valuable tool for the exploration of research concepts, the
+identification of appropriate experimental conditions for empirical exploration, and for development of model-generated
+hypotheses.
+acknowledgments-we acknowledge dr. david ballou of the university of michigan and joel dinverno at the university of vermont for
+their valuable assistance in using the computer simulation and dr.
+michael kalafatis for his assistance in review of this paper.
+references
+1. lawson, j. h., kalafatis, m., stram, s., and mann, k. g. (1994)j . biol. chem.
+269,23357-23366
+2. mann, k. g., nesheim, m. e., church, w. r., haley, p., and krishnaswamy. s.
+(1990) blood 76,l-16
+3. krishnaswamy, s., jones, k. c., and mann, k. g. (1988) j. biol. chem. 263,
+3823-3834
+4. lawson, j. h., and mann, k. g. (1991) j. bid. chem. 266,11317-11327
+5. nesheim, m. e., tracy,r.p.,andmann,
+k. g. (1984) j. biol. chem. 259,
+1447-1453
+6. nesheim, m. e., taswell, j. b., and mann, k. g. (1979) j . biol. chem. 254,
+10952-10962
+7. owen, p. a,, and cooper, t. (1955)arch. intern. med. 95,194-201
+8. nesheim, m. e., and mann, k. g. (1979) j. biol. chem. 254, 13261334
+9. foster, w. b., nesheim, m. e., andmann, k. g. (1983) j. biol. chem. 258,
+13970-13977
+10. vehar, g. a., and davie, e. w. (1980) biochemistry 1 9 , 4 0 1 4 1 0
+11. fass, d. n., knutson, g. j., and katzmann, j. a. (1982) blood 69,594-600
+12. fulcher, c. a., and zimmerman, t. s. (1982)proc. natl. acad. sci. u.s. a. 79,
+1648-1652
+13. lollar, p., and parker, e. t.(1991)j . b i d . chem. 266, 12481-12486
+14. obrien, d. p., johnson, d., byfield, p.,and 'hddenham, e. g. d. (1992)
+biochemistry 31,2805-2812
+15. van dieijin, g., tans, g., rosing, j., and hemker, h. c. (1981)j. bid. chem.
+266,3433-3442
+16. osterud, b., and rapaport, s. i. (1977) proc. natl. acad. sci. u.s. a. 74,
+5260-5264
+17. jesty, j., and silverberg, s. a. (1979) j. biol. chem. 264, 12337-12345
+18. boyce, w. e., and def'rima, r. c. (1969) elementary differential equations
+and boundary valve problems, 2nd ed, pp. 345-350, wiley & sons, new
+york
+19. lewis, s. d., shields, p. p., and shafer, j. a. (1985) j. biol. chem. 260,1019210199
+20. maeda-yorita, k., and massey, v. (1993)j. biol. chem. 268,4134-4144
+21. zur, m., and nemerson, y. (1980) j. biol. chem. 266, 5703-5707
+22. silverberg, s. a., nemerson, y., and zur, m. (1977) j. b i d . chem. 252, 84818488
+23. monkovic, d. d., and tracy, p. b. (1990)biochemistry 29, 1118-1128
+24. duffy, e. j., parker, e. t., mutucumarana,v. p., johnson, a. e., and lollar, p.
+(1992) j. biol. chem. 267,17006-17011
+25. doyle, m. f., and mann, k. g. (1990) j. biol. chem. 265, 10693-10701
+26. biggs, r., and nossel, h. l. (1961) thromb. haemostasis 6, 1 4
+

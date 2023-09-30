@@ -1,0 +1,1477 @@
+protein science ~1999!, 8:2791–2805. cambridge university press. printed in the usa.
+copyright © 1999 the protein society
+
+function of the central domain of streptokinase in
+substrate plasminogen docking and processing
+revealed by site-directed mutagenesis
+
+anita chaudhary,1,3 s. vasudha,1 k. rajagopal,1 sneha sudha komath,
+nandita garg,2 m. yadav, shekhar c. mande, and girish sahni
+institute of microbial technology, sector 39-a, chandigarh-160036, india
+~received may 20, 1999; accepted october 6, 1999!
+
+abstract
+the possible role of the central b-domain ~residues 151–287! of streptokinase ~sk! was probed by site-specifically
+altering two charged residues at a time to alanines in a region ~residues 230–290! previously identified by peptide
+walking to play a key role in plasminogen ~pg! activation. these mutants were then screened for altered ability to
+activate equimolar “partner” human pg, or altered interaction with substrate pg resulting in an overall compromised
+capability for substrate pg processing. of the eight initial alanine-linker mutants of sk, one mutant, viz. skkk256,257aa
+~sk-d1!, showed a roughly 20-fold reduction in pg activator activity in comparison to wild-type sk expressed in
+escherichia coli ~nsk!. five other mutants were as active as nsk, with two @sk re248.249aa and sk ek281.282aa , referred
+to as sk~c! and sk~h!, respectively# showing specific activities approximately one-half and two-thirds, respectively,
+that of nsk. unlike sk~c! and sk~h!, however, sk~d1! showed an extended initial delay in the kinetics of pg
+activation. these features were drastically accentuated when the charges on the two lys residues at positions 256 and
+257 of nsk were reversed, to obtain skkk256.257ee @sk~d2!#. this mutant showed a pg activator activity approximately
+10-fold less than that of sk~d1!. remarkably, inclusion of small amounts of human plasmin ~pn! in the pg activation
+reactions of sk~d2! resulted in a dramatic, pn dose-dependent rejuvenation of its pg activation capability, indicating
+that it required pre-existing pn to form a functional activator since it could not effect active site exposure in partner
+pg on its own, a conclusion further confirmed by its inability to show a “burst” of  xxxd2821xxx  release in the presence
+of equimolar human pg and p-nitrophenyl guanidino benzoate. the steady-state kinetic parameters for hpg activation
+of its 1:1 complex with human pn revealed that although it could form a highly functional activator once “supplied”
+with a mature active site, the km for pg was increased nearly eightfold in comparison to that of nsk-pn. sk mutants
+carrying simultaneous two- and three-site charge-cluster alterations, viz., sk re248.249aa;ek281.282aa @sk~ch!#,
+sk ek272.273aa;ek281.282aa @sk~fh!#, and sk re248.249aa;ek272.273aa;ek281.282aa @sk~cfh!#, showed additive0synergistic
+influence of multiple charge-cluster mutations on hpg activation when compared to the respective “single-site”
+mutants, with the “triple-site” mutant @sk~cfh!# showing absolutely no detectable hpg activation ability. nevertheless, like the other constructs, the double- and triple-charge cluster mutants retained a native like affinity for complexation with partner pg. their overall structure also, as judged by far-ultraviolet circular dichroism, was closely similar
+to that of nsk. these results provide the first experimental evidence for a direct assistance by the sk b-domain in the
+docking and processing of substrate pg by the activator complex, a facet not readily evident probably because of the
+flexibility of this domain in the recent x-ray crystal structure of the sk-plasmin light chain complex.
+keywords: plasminogen; plasminogen activation mechanism; site-specific mutagenesis; streptokinase; substrate
+plasminogen
+
+reprint requests to: girish sahni, institute of microbial technology, sector 39-a, chandigarh, 160036 india; e-mail: sahni@imtech.ernet.in.
+1
+these authors have contributed equally in this work.
+2
+present address: torrent pharmaceuticals ltd., gandhinagar, ahmedabad, india.
+3
+visiting fellow of the department of biotechnology, government of india on deputation from the department of environmental sciences, indian
+agricultural research institute, pusa, new delhi, india.
+abbreviations: sk, streptococcus equisimilis streptokinase; pg, plasminogen; pn, plasmin; hpg, human plasminogen;  xxxg1074xxx , human plasminogen; bsa,
+bovine  xxxg124xxx ; cd, circular dichroism; sd, standard deviation; tpa, tissue plasminogen activator; npgb, p-nitrophenyl p-guanidinobenzoate;
+iptg, isopropyl-1-thio-b-d-galactopyranoside; orf, open reading frame; pbs, phosphate buffered saline; pcr, polymerase chain reaction; uk, urokinase.
+
+2791
+
+2792
+plasminogen activators such as streptokinase, tissue plasminogen
+activator, and urokinase are widely used as thrombolytic agents for
+the treatment of diverse circulatory disorders, including myocardial infarction ~isis-3, 1992!. however, unlike uk and tpa, which
+are proteases, sk is enzymatically inert. it acts by first forming a
+noncovalent, high-affinity complex with hpg. this complex is
+then believed to undergo an intramolecular conformational change
+that exposes the active site in the zymogen. the active site within
+sk-hpg now becomes capable of acylation and can be titrated
+by hydrolysis of p-nitrophenyl p-guanidinobenzoate ~npgb! to
+ xxxd2821xxx  as a sharp “burst” ~mcclintock & bell, 1971!, or
+catalyze the processing of small-mw amidolytic substrates. this
+enzymatically active, “virgin” complex also rapidly develops a
+capability to catalyze the specific transformation of substrate molecules of hpg to  xxxg1074xxx  by cleavage at the arg561–val562 peptide
+bond ~reviewed by castellino, 1981!. an understanding of the
+structural processes involved in, first, the exposure of the active
+site in the virgin sk-hpg complex, followed by its transformation
+to a highly specific protease ~either “activated” sk-hpg, or skhpn! that, unlike free plasmin, displays a very high substrate
+preference for hpg ~markus & werkheiser, 1964!, is crucial to the
+design of improved sk-based thrombolytic agents ~marder, 1993!.
+sk has been shown to be composed of three distinct domains,
+designated a, b, and g separated by two coiled coils, and small
+regions at the n- and c-termini of the protein with disordered,
+flexible structures ~conejero-lara et al., 1996; parrado et al., 1996;
+wang et al., 1998!. while the regions at the two ends are known to
+be dispensable for the biological activity of sk, selective deletions
+of a or g domains, or parts thereof, lead to drastic reduction in
+hpg activation ability, signifying that all three domains are vital
+for the functioning of the molecule ~malke et al., 1987; fay &
+bokka, 1998!. however, the exact manner in which each domain
+contributes toward the high rates of pg activation characteristic of
+full-length sk remains to be clarified. although it has been demonstrated that the three domains retain significant amounts of their
+original native-like structure when individually isolated, none displays significant hpg activator activity on its own ~parrado et al.,
+1996!. in contrast to the absence of any appreciable hpg activator
+activity in isolated domains, the characteristic high-affinity binding of sk with hpg is relatively well preserved in the b-domain,
+and to a lesser degree, in fragments derived from the a-domain
+~nihalani & sahni, 1995; reed et al., 1995; rodriguez et al., 1995;
+conejero-lara et al., 1996, 1998; nihalani et al., 1998!. more
+recently, using physico-chemical approaches, it has been elegantly
+demonstrated that the b-domain contributes in a major way toward
+the generation of the high-affinity interactions between sk and
+hpg that lead to the formation of the equimolar activator complex
+between the two proteins ~conejero-lara et al., 1998!. a relatively
+small locus in the b-domain ~residues in and around 230–290,
+termed the “core” region! has earlier been implicated in the interaction of the activator complex with substrate hpg through a
+peptide walking approach ~nihalani et al., 1997!. therefore, the
+exact role of this domain, particularly in terms of the loci0epitopes
+that may be involved in interacting with hpg to translate the
+primary event in sk-hpg interaction, namely the avid binding
+between these two proteins to the catalytic, high efficiency conversion of substrate molecules of hpg to  xxxg1074xxx  by the activator
+complex needs to be explored further.
+despite the compelling biochemical evidence implicating the
+b-domain in both activator complex formation and in the interaction of this complex with substrate hpg, the recent x-ray dif-
+
+a. chaudhary et al.
+fraction structure of the sk-plasmin light chain complex does not
+reveal an overt structural involvement of this domain in activator
+complex formation ~wang et al., 1998!. however, what is fairly
+discernible is that sk and pg together ~i.e., the activator complex!
+provide a perfect docking site for substrate pg to be positioned
+optimally for processing by the active site. computer modeling
+studies with substrate microplasminogen artificially docked onto
+the sk-plasmin light chain complex, indeed, suggest several potential contacts between the substrate and the a- and b-domains of
+the sk of the activator complex. this observation thus reinforces
+a proposed model of sk action ~nihalani et al., 1998! similar to
+the “protein co-factor assisted” mechanism recently forwarded to
+explain the switch of the relatively nonspecific, trypsin-like substrate specificity of the plasmin active site into a highly specific
+substrate preference upon association with sk ~esmon & mather,
+1998!. in the present paper, using site-directed mutagenesis as a
+tool, we present experimental evidence for an important role of the
+b-domain in substrate docking and processing by the sk-plasmin~ xxxd2046xxx ! activator complex, and probably in zymogen activation
+as well.
+
+results
+construction, purification, and functional characterization
+of alanine-linker charge-cluster mutants of the
+“core” region of the beta-domain of sk
+the sequence of residues 230–290 of sk from streptococcus
+equisimilis ~termed the “core” region! that has been previously
+implicated in the interaction of sk with hpg by peptide walking
+studies ~nihalani et al., 1997! is depicted in figure 1. this region
+
+fig. 1. primary structure of the target sequence for mutagenesis in the
+b-domain of sk. the amino acid sequence of the residues 230–290 of the
+b-domain of sk from s. equisimilis h46a is shown. the charged cluster
+residues that were mutated to alanines in this study are indicated in italics.
+the sites whose charges were reversed by mutation are underlined.
+
+2793
+
+beta-domain mediated streptokinase-plasminogen interactions
+table 1. sequence of pcr primers used for the construction of sk mutants
+charge-cluster
+mutation a
+
+oligonucleotide sequence
+
+r.e.b site
+
+de 238,240 aa
+rk 244,246 aa
+re 248,249 aa
+kk 256,257 aa
+kk 256,257 ee
+ee 262,263 kk
+ee 262,263 aa
+ek 272,273 aa
+kk 278,279 aa
+ek 281,282 aa
+
+59-attttacccatggcgcaagcgtttacttacc-39
+59-aagagtttacgtacgctgttgcaaatcgggaac-39
+59-cgtgttaaaaatgctgcgcaagcttataggat-39
+59-gcttataggattaatgcagcatctggtctgaatgaa-39
+59-aggatcaatgaagaatctggtctcaatgaagaaata-39
+59-aaaaaatctggtctcaataaaaaaataaacaacact-39
+59-aataaaaaatctgggctcaatgcagcaataaacaacact-39
+59-acctgatctctgcagcgtattacgtcctt-39
+59-agaaatattacgtacttgcagcaggggaaaagc-39
+59-aaaaaaggggcggcgccgtatgatcc-39
+
+nco i
+bsi w1
+fsp i
+vsp i
+bsm ai
+ xxxd98xxx  26i
+bsp 12861
+pst i
+bsa a1
+nar i
+
+upstream primer c
+
+59-atttatgaacgtgactcctcaatcgtc-39
+
+bse ri
+
+downstream primer c
+
+59-ataggctaaatgatagctagcattctctcc-39
+
+bsm i
+
+a
+the mutant primers shown in this table are for the construction of single charge-cluster mutants. double and triple charge-cluster
+mutants were also prepared using a strategy described in the text. the nucleotides altered from the wild-type sequence are depicted by
+lower case letters.
+b
+restriction sites introduced in the primers to aid screening of mutants through silent mutagenesis are underlined while codons in
+which the desired mutations were introduced are shown in bold.
+c
+these flanking primers had wild-type sequences, carrying unique r.e. sites naturally present in the nsk gene, and were used to
+dock back the mutant pcr cassettes into the sk expression vector ~see text for details!.
+
+of primary structure of sk shows several positively and negatively
+charged clustered residues. to delineate the possible role of these
+side chains, site-specific mutations of eight such clustered charges
+~two residues per site! to alanine residues were carried out using a
+pcr-based “megaprimer” approach ~sarkar & sommer, 1990; smith
+& klugman, 1997!. the mutated cassettes were then docked back
+into the native sk gene in the expression plasmid, and the genes
+expressed intracellularly in escherichia coli and purified to homogeneity ~see table 1 for sequence of primers used for mutagenesis,
+and materials and methods for details!. the native-like recombinant sk ~termed nsk! expressed in the heterologous host, after
+purification, was found to exhibit several of the known characteristic features of native sk from s. equisimilis, e.g., a mw of
+47 kd, native n-terminal sequence except for the presence of a
+met residue at the n-terminus ~as expected from the gene sequence!, high-affinity binding with hpg, and a specific activity for
+hpg activation of around 1.0 3 10 5 i.u. per mg protein. in case
+of all the mutants constructed ~table 2!, these criteria were essentially found to be native like, except for reduction, to varying
+extents, in the specific activities for hpg activation of selected
+mutants. for simplification, the various sk mutants described in
+this study have been abbreviated with different suffixes, e.g., sk~c!,
+sk~d1!, etc. ~see table 2!. of all the eight initial alanine-linker
+mutants, only one ~skkk256.257aa !, referred to as sk~d1!, showed
+a major diminution in pg activation ability, to a level approximately 5% that of nsk. two other mutants, viz., skre248.249aa and
+skek281.282aa , abbreviated as sk~c! and sk~h!, respectively,
+showed relatively marginal decreases in specific activity for hpg
+activation, while the remaining were found to be totally unaltered.
+remarkably, all the mutants, including ones with lowered activity,
+retained near-native hpg binding affinities as measured by a solid
+phase radio-assay employing 125 i-labeled hpg.
+the mutant sk~d1! displayed kinetics of hpg activation that
+were distinctly different on a qualitative basis when compared to
+
+the other mutants, viz. sk~c! and sk~h!, that had detectable
+decrease in activity as well. in the case of sk~d1!, the kinetics of
+pg activation ~fig. 2a! was noticeably slower, especially in the
+initial phases. the progress curves generated with sk~d1! demonstrated a perceptible lag even when relatively high concentrations of the mutant were used in the assay, while nsk demonstrated
+a clear-cut absence of such a lag even when assayed using low
+amounts ~fig. 2a!. mutants sk~c! and sk~h! also showed the
+absence of any lag. the overall specific activity of sk~d1! for
+hpg activation ~computed from plots of change in absorbance at
+405 nm vs. t 2 ; see materials and methods! was determined to be
+
+table 2. alanine scanning mutagenesis of the charge-clusters
+in the “core region” of the b-domain of streptokinase a
+
+type of sk
+wild-type sk
+skde238.240aa
+skrk244.246aa
+skre248.249aa
+skkk256.257aa
+skee262.263aa
+skek272.273aa
+skkk278.279aa
+skek281.282aa
+
+short name
+
+specific activity
+~3 10 5 iu0mg!
+
+dissociation
+constant @kd # of
+sk-hpg complex
+~nm!
+
+nsk
+sk~a!
+sk~b!
+sk~c!
+sk~d1!
+sk~e!
+sk~f!
+sk~g!
+sk~h!
+
+1.00 6 0.15
+1.00 6 0.16
+1.00 6 0.10
+0.45 6 0.09
+0.04 6 0.01
+1.00 6 0.12
+0.90 6 0.05
+1.00 6 0.05
+0.70 6 0.12
+
+1.07 6 0.47
+1.03 6 0.17
+1.18 6 0.17
+1.48 6 0.54
+1.83 6 0.04
+1.46 6 0.14
+1.15 6 0.19
+1.01 6 0.12
+1.29 6 0.05
+
+a
+specific activity for the hpg activation was measured as detailed in
+materials and methods. values shown are mean of at least three independent experiments. dissociation constants were measured using solid phase
+radio-assay employing 125 i-labeled hpg.
+
+2794
+
+a. chaudhary et al.
+
+a
+
+b
+
+fig. 2. activation of substrate and partner hpg by mutant sk~d1!. a: varying concentrations ~4.3–12.7 nm! of sk~d1! i.e.,
+skkk256.257aa were added to assay cuvette containing hpg and chromozyme pl, and the activator activity of the mutant was
+monitored spectrophotometrically as detailed under materials and methods. the figure shows progress curves of hpg activation by
+different amounts of sk~d1!, viz., 4.3 nm ~open triangles!, 6.4 nm ~closed circles!, 8.5 nm ~open squares!, 10.6 nm ~closed triangles!,
+and 12.7 nm ~open circles!. a control hpg activation reaction with 0.5 nm e. coli–expressed, wild-type nsk ~closed squares! is also
+depicted. b: generation of amidolytic activity in hpg by mutant sk~d1!. an equimolar mixture of either sk~d1! or nsk was
+prepared with hpg ~5 mm each! and the amidolytic activity generated in hpg was monitored by periodically assaying in a cuvette
+containing 1 mm chromozyme pl. the percentage of maximum amidolytic ability generated as a function of pre-incubation period
+by either sk~d1!-hpg @open triangles# or nsk-hpg complexes @closed squares# is depicted. the maximum amidolysis generated by
+nsk was taken as 100% to calculate the amidolytic activity.
+
+barely one-twentieth as compared to nsk. the cause of this “latent” activation became apparent when the time course of amidolytic activation by equimolar quantities of sk~d1! and hpg was
+examined ~fig. 2b!, which clearly showed significantly slow activation kinetics in case of sk~d1!, with appearance of full amidolytic ability requiring 25–30 min. on the other hand, nsk-hpg
+equimolar mixtures generated amidolytic activity rapidly, with saturation being attained within 7–8 min after initiation of the reaction. the much slower amidolytic activation suggested that the
+delayed substrate hpg activation kinetics observed with this mutant likely arose from a slower exposure0maturation of the plasmin~ xxxd2046xxx ! active site in the sk~d1!-hpg activator complex.
+charge-reversal mutations at positions 256 and 257 in sk
+drastically compromise the hpg activation as well as
+amidolytic activation properties of the molecule
+to further explore the role of the positively charged lysine residues
+of native sk at positions 256 and 257, these were altered to negatively charged  xxxd2431xxx  residues by site-directed mutagenesis. the resultant mutant @skkk256.257ee , abbreviated sk~d2!#
+was purified, and its hpg activation as well as amidolytic activation characteristics with equimolar partner hpg were examined.
+the construct showed a highly diminished overall rate of hpg
+activation ~fig. 3a!, which was determined to be ;500 i.u.0mg,
+which is roughly 200-fold lower than that of nsk, and nearly 10
+times lower than that of sk~d1!. in addition, the progress curves
+of hpg activation generated with sk~d2! showed markedly prominent lag periods ~fig. 3a! when compared to that of sk~d1!
+~fig. 2a!. also, unlike sk~d1!, sk~d2! showed much slower
+amidolytic activation with 1:1 molar hpg ~less than 10% amidolytic activity as compared to nsk after 20 min; see fig. 3b!,
+suggesting that the substitution of negatively charged side chains
+at positions 256 and 257 of sk had adversely affected the proteins’
+
+ability to rapidly form a stoichiometric complex with hpg, or
+grossly undermined the ability of the complex, once formed, to
+initiate active site exposure in “partner” hpg. however, the apparent affinity of sk~d2! for hpg, when determined by the solid
+phase radioassay, was found to be virtually unaltered ~approximately 1.5-fold decrease compared to nsk; kd 5 1.8 nm!, indicating that its observed inability to activate equimolar zymogen
+did not emanate from a correspondingly lowered affinity between
+the complexing partners. the survival of the capability in sk~d2!
+to bind hpg was confirmed by examining the binding of this
+mutant with hpg-agarose, which clearly demonstrated that this
+mutant could indeed bind with this affinity matrix in a manner that
+was indistinguishable from that of nsk ~see fig. 4b!. these results
+strongly indicated that the “biochemical lesion” in sk~d2! was
+not an inability to stoichiometrically complex with hpg, but at the
+post-complexation step of active site exposure in partner hpg. to
+explore this further, we tested the ability of this mutant to give the
+characteristic “burst” of  xxxd2821xxx  release with equimolar hpg
+after reaction with the active site acylating agent, npgb ~chase &
+shaw, 1969!. it is known that the sk-hpg virgin complex can
+undergo acylation at the cryptic active site with this “pseudosubstrate” even before the conversion of the hpg to  xxxg1074xxx , while
+hpg or sk, individually, are unreactive with the reagent ~mcclintock & bell, 1971; reddy & markus, 1972; wohl, 1984!. the
+results ~see fig. 3b, inset! showed clearly that sk~d2! failed to
+show any significant release of  xxxd2821xxx , while a characteristic burst was observed in case of nsk @as well as with sk~d1!#,
+indicating that sk~d2! could not engender a npgb-reactive active center in equimolar hpg.
+the presence of a distinct delay in the activation of partner
+hpg2, on the one hand, and the presence of a highly diminished
+hpg activator activity in sk~d2! prompted us to explore whether
+this phenotypic deficiency could be overcome by providing a “preformed” active site in the form of  xxxg1074xxx . for this purpose, we added
+
+2795
+
+beta-domain mediated streptokinase-plasminogen interactions
+
+b
+
+a
+
+c
+
+fig. 3. activation of substrate and partner hpg by mutant sk~d2! and its rejuvenation in the presence of  xxxg1074xxx . a: substrate hpg
+activation by sk~d2! was assayed by adding varying concentrations ~2–10.6 nm! of the purified protein to assay cuvettes containing
+hpg and chromozyme pl ~see materials and methods!. the figure shows the progress curves of hpg activation by different amounts
+of sk~d2!: 2 nm ~open circles!, 4.3 nm ~closed triangles!, 6.4 nm ~open squares!, 8.5 nm ~closed circles!, and 10.6 nm ~open
+triangles!. a control hpg activation reaction with 0.5 nm wild-type nsk ~closed squares! is also depicted. b: active site exposure in
+hpg by sk~d2!. the generation of amidolytic activity in hpg by mutant sk~d2! was monitored by mixing equimolar amounts of
+sk~d2! or nsk and hpg ~5 mm each! and periodically assaying for amidolysis as detailed under materials and methods and
+figure 2b. the figure shows the percentage of maximum amidolytic ability generated as a function of pre-incubation times by either
+sk~d2!-hpg ~open circles! or nsk-hpg complexes ~closed squares!. inset: active site titration of hpg on complexing with nsk,
+sk~d1! or sk~d2! using npgb. the generation of an active centre in “partner” hpg by nsk, or mutants sk~d1! or sk~d2!, was
+monitored for release of a burst of  xxxd2821xxx  as described under materials and methods. the figure depicts the progress curves of
+npgb hydrolysis by nsk-hpg ~closed squares!, sk~d1!-hpg ~open triangles! or sk~d2!-hpg ~open circles! complexes and a
+control reaction ~closed triangles! from which sk was omitted, and a corresponding volume of buffer was added to the reaction mixture
+containing all other components. c: enhanced hpg activation by mutant sk~d2! in the presence of increasing amounts of  xxxg1074xxx . the
+effects of increasing amounts of added  xxxg1074xxx  to the hpg activation ability of sk~d2! was studied by adding 1 nm sk~d2! to a reaction
+mixture containing 1 mm chromozyme pl, 1 mm hpg and varying amounts of  xxxg1074xxx  ~prepared using immobilized urokinase!. the
+figure shows the resultant activation curves when 1 nm  xxxg1074xxx  ~closed triangles!, 15 nm  xxxg1074xxx  ~open squares!, or 30 nm  xxxg1074xxx  ~filled
+circles! were used in the reactions, after subtracting their corresponding control curves containing hpg and varying amounts of  xxxg1074xxx ,
+in the absence of sk~d2!. the hpg activation activity of 4 nm sk~d2! using either hpg from which intrinsic  xxxg1074xxx  had been removed
+by passage through sti-agarose ~closed squares! or unpassaged hpg ~open circles! are shown along with the activator activity of 1 nm
+pre-formed equimolar sk~d2!- xxxg1074xxx  complex ~open triangles!.
+
+trace quantities of  xxxg1074xxx  into the pg activation reactions of sk~d2!
+and then measured the rates of hpg activation using the spectrophotometric method ~fig. 3c!. the results demonstrated a remarkable rejuvenation of pg activator activity in the reactions as a
+function of increasing  xxxg1074xxx . by contrast, when the activation reactions were carried out using hpg preparations whose intrinsic
+ xxxg1074xxx  content was decreased by passage through soybean trypsin
+inhibitor-agarose ~see materials and methods!, the activator activ-
+
+ity was seen to be perceptibly decreased. these results clearly
+indicated that a rate-limiting factor in the generation of activator
+activity by sk~d2! was the conversion of the initial sk~d2!-hpg
+complex to an enzymatically competent state possessing amidolytic and pg activation functions. this deduction was fully confirmed when sk~d2! was pre-incubated briefly with equimolar
+ xxxg1074xxx , and the sk~d2!- xxxg1074xxx  complex assayed as before for activator activity in the presence of excess hpg ~1 mm!. in this case
+
+2796
+
+a. chaudhary et al.
+
+b
+
+a
+
+fig. 4. hpg-binding ability of charge-cluster mutants of sk. a: the binding isotherms of mutants. either nsk or sk~cfh! was
+immobilized onto the wells of a polyvinyl microtitre plate and probed with varying concentrations of 125 i-hpg. the total radioactive
+counts bound onto each well were subtracted from the counts in the control wells ~in which no sk was immobilized!, and the data
+plotted as a function of 125 i-hpg concentration. the figure shows representative data obtained for nsk ~closed squares! and sk~cfh!
+~open circles!. the dissociation constants from such curves ~mean of at least three experiments were taken! were then calculated ~see
+materials and methods!. b: binding of sk mutants onto hpg-agarose. affinity chromatography of either nsk ~a! or the triple
+charge-cluster mutant, sk~cfh! ~b! was carried out on hpg-agarose columns and the specifically bound protein was eluted using 8 m
+urea as described under materials and methods. the binding profile obtained with sk~cfh! ~shown above in b! was closely similar
+to that obtained with sk~d2! ~data not shown!.
+
+~fig. 3c!, a remarkably high activity was seen to be engendered.
+however, we noticed that the specific activity of sk~d2! complexed with  xxxg1074xxx , although considerably resuscitated, was still
+perceptibly less than that of nsk- xxxg1074xxx , indicating that this mutant,
+despite being supplied with a fully formed active site, was still
+catalytically less active than nsk under the experimental conditions. nevertheless, the foregoing results on the rejuvenation of
+sk~d2! with  xxxg1074xxx  clearly showed that a principal “block” in the
+action of sk~d2! was at the level of the formation of a functional
+activator after complexation with equimolar hpg.
+the steady-state kinetic parameters for the catalytic processing
+of hpg and amidolytic peptide substrate by the equimolar complexes of sk~d1! and sk~d2! with  xxxg1074xxx  are presented in tables 3
+
+and 4, respectively. it is evident from these data that both mutants
+possess near-native ability for hpg processing under substratesaturating conditions after being “partnered” with  xxxg1074xxx . however,
+the km values for substrate hpg in case of sk~d1! and sk~d2!
+are approximately four- and eightfold higher, respectively, when
+compared to nsk. it is worth mentioning here that the mutation of
+two tandem lysine residues ~kk 272,273! situated close-by in the
+beta domain, to alanine residues, had not resulted in any perceptible change in the biological activity of the resultant mutants ~see
+table 2!. thus, these results strongly indicated that the two lysine
+
+table 4. steady-state kinetic parameters for amidase activity
+of equimolar complexes of mutant sk with  xxxg1074xxx  a
+table 3. steady-state kinetic parameters for hpg activation
+by equimolar complexes of mutant sk and  xxxg1074xxx  a
+activator protein
+nsk- xxxg1074xxx 
+sk~d1!- xxxg1074xxx 
+sk~d2!- xxxg1074xxx 
+
+km
+~mm!
+
+kcat
+~min 21 !
+
+kcat 0km
+~min 210mm!
+
+0.45 6 0.05
+2.10 6 0.20
+4.00 6 0.10
+
+10.75 6 0.32
+08.06 6 0.64
+09.68 6 0.51
+
+23.89
+3.84
+2.42
+
+a
+the kinetic parameters for hpg activation were determined at 22 8c as
+detailed in materials and methods. the data represent the mean of three
+independent determinations.
+
+protein
+ xxxg1074xxx 
+nsk- xxxg1074xxx 
+sk~d1!- xxxg1074xxx 
+sk~d2!- xxxg1074xxx 
+
+km
+~mm!
+
+kcat
+~min 21 !
+
+kcat 0km
+~min 210mm!
+
+0.18 6 0.04
+0.55 6 0.02
+0.91 6 0.02
+0.80 6 0.10
+
+300 6 20
+378 6 10
+359 6 16
+351 6 14
+
+1,666.67
+687.27
+394.51
+438.75
+
+a
+for determination of the amidolytic parameters, sk- xxxg1074xxx  were precomplexed in equimolar ratio and an aliquot of this mixture was assayed
+for amidolysis at varying concentrations of chromozyme pl ~see material and methods!. the data represent the mean of three independent
+determinations.
+
+2797
+
+beta-domain mediated streptokinase-plasminogen interactions
+residues at positions 256 and 257 are specifically involved in the
+interaction of the sk-plasmin~ xxxd2046xxx ! activator complex with substrate pg. to further examine this aspect i.e., whether the observed
+effect on substrate-activator complex interactions was positionspecific, rather than that arising from reversing the charges of two
+tandem residues in this segment of the primary structure of sk
+leading to a general “charge-destabilization” of this segment, we
+reversed the charges on two other such residues ~ee 262,263!
+lying in the immediate vicinity of residues 256 and 257. the resultant mutant ~skee262.263kk ! was then examined for its functional properties after purification. the results ~data not shown!
+revealed no perceptible alteration in the specific activity of its
+hpg activator activity nor its ability to activate zymogen, suggesting strongly that the two lysine side chains at positions 256 and
+257 were specifically involved in promoting the interaction of the
+activator complex with substrate pg.
+in contrast to an increased km for substrate pg, the km values of
+the  xxxg1074xxx  complexes of sk~d1! and sk~d2! for the low-mw
+amidolytic substrate ~chromozyme pl! were close to that of nsk,
+and the turnover rates ~kcat values! were also similar, suggesting
+that the basic characteristics of the  xxxg1074xxx  active site in terms of their
+ability to catalyze the scission of specific peptides, upon complexation with sk~d1! and sk~d2!, were unchanged. it should be
+mentioned here that one prominent and easily detectable consequence of the binding of sk with  xxxg1074xxx  is a roughly fivefold
+elevation of its km for amidolytic substrates without a concomitant
+alteration of the kcat values ~robbins et al., 1981!, which has been
+interpreted to reflect a decreased accessibility of the substrate for
+the active center in the plasmin moiety of the activator complex,
+probably due to steric hindrance arising from sk binding in the
+vicinity of the active site ~wohl, 1984!. the isolated sk b-domain
+~fragment 143–293! also brings about a similar alteration in km
+values of  xxxg1074xxx  for the amidolytic substrate, as reported earlier
+~nihalani et al., 1997!. table 4 shows that both mutants, like nsk,
+brought about the characteristic increase in the km for amidolytic
+substrate over that of free  xxxg1074xxx . these results indicated that despite
+the alteration at residues 257 and 257 the binding of the mutants
+with  xxxg1074xxx  resulted in a native-like inhibition of the accessibility of
+the amidolytic substrate for the active site.
+the simultaneous introduction of multiple charge-cluster
+to alanine mutation in the “core” region of the b-domain
+destroys substrate processing and zymogen activation
+properties without significantly affecting high-affinity
+interactions of sk with partner pg
+the single charge-cluster sites whose mutations had led to a detectable reduction in terms of specific activities for hpg activation in comparison to nsk, e.g., sk~c! and sk~h! ~see table 2!,
+were then taken up for further mutagenic analysis by constructing
+double charge-cluster sk mutants, viz., sk~ch! carrying four
+simultaneous point mutations. another double-site charge-cluster
+mutant was also constructed that included, besides site “h”, another charge-cluster mutation ~namely, that in sk~f!; see table 2!
+that had a relatively innocuous effect on the pg activator activity
+of sk. to explore a possible synergistic influence of these sites on
+the activity of sk, a triple-site mutant, abbreviated sk~cfh!, was
+also constructed ~see materials and methods for the experimental
+strategy employed! that carried all three charge-cluster alterations
+simultaneously. all of these mutants were then expressed intracellularly in e. coli, purified as before for single charge-cluster mu-
+
+tants, and characterized with respect to their functional properties,
+viz. amidolytic activation of equimolar hpg, as well as activation
+of substrate hpg.
+the steady-state kinetic parameters for pg activation and amidolysis for these constructs are shown in tables 5 and 6, respectively. for a complete analysis, the results for the two double- and
+triple-site mutants are compared to nsk, on the one hand, and their
+single-site counterparts, viz., sk~c!, sk~f!, and sk~h! on the
+other. it is evident that the simultaneous presence of the three
+charge-cluster mutations ~generating a hexa-mutant! virtually completely abolishes the amidolytic and plasminogenolytic capabilities
+of the molecule, whereas the two-site charge-cluster mutants, viz.,
+sk~ch! and sk~fh! displayed significantly reduced hpg activator activities compared to their respective single charge-cluster
+“parents” ~roughly one-fourth as compared to nsk!. in contrast to
+the triple-site mutant, the double-site mutants, namely sk~ch!
+and sk~fh!, were able to effect amidolytic activation in “partner”
+pg at rates slightly delayed as compared to that observed with nsk
+~data not shown!. however, once full amidolytic activation had
+occurred in the 1:1 complexes, the hpg activator activities engendered were indistinguishable from those of their equimolar complexes with  xxxg1074xxx  ~table 5!. however, as the kinetic data in table 5
+demonstrate, the overall lowered hpg activator activity ~kcat ! of
+the double-site mutants owed its origin to an inherently less efficient processivity of substrate hpg. in contrast to mutants sk~d1!
+and sk~d2!, which had near-native vmax values for hpg processing but significantly enhanced km values, only marginal effects, at
+best, were observed in the km for hpg activation in case of these
+mutants, viz., sk~ch! and sk~fh!. in the case of sk~cfh!, this
+parameter could not be determined because of its nonexisting activator activity even when a functional partner in the form of  xxxg1074xxx 
+was provided to make a 1:1 molar complex, and this complex used
+for pg activator assays. thus, a particularly notable feature of
+these mutants, including the partially active double-site mutants,
+was the absence of any rejuvenation of their hpg activation capabilities in the presence of equimolar pre-formed  xxxg1074xxx , clearly
+indicating that the loss in their activities was not due to an inability
+to effect active site exposure in partner hpg.
+to examine if the diminished pg activator activity of sk~ch!
+and sk~fh!, and the complete abolishment of hpg activator activity in sk~cfh!, arose from an intrinsic inability to bind with
+hpg or a step subsequent to the formation of a 1:1 molar complex
+with hpg, their binding behavior with the latter was studied by
+solid phase radio-assay. the results showed that these mutants
+
+table 5. steady-state kinetic parameters for hpg activation
+by equimolar complexes of mutant sk with  xxxg1074xxx  a
+activator protein
+
+km
+~mm!
+
+kcat
+~min 21 !
+
+kcat 0km
+~min 210mm!
+
+nsk- xxxg1074xxx 
+sk~ch!- xxxg1074xxx 
+sk~fh!- xxxg1074xxx 
+sk~cfh!- xxxg1074xxx  b
+
+0.45 6 0.05
+0.50 6 0.07
+0.33 6 0.08
+—
+
+10.75 6 0.32
+2.36 6 0.41
+2.45 6 0.25
+—
+
+23.89
+4.73
+7.42
+—
+
+a
+the kinetic parameters for hpg activation were determined as described in materials and methods. the data represent the mean of three
+independent determinations.
+b
+no detectable activity, over controls, could be measured.
+
+2798
+
+a. chaudhary et al.
+
+table 6. steady-state kinetic parameters for amidase activity
+of equimolar complexes of mutant sk with  xxxg1074xxx  a
+protein
+ xxxg1074xxx 
+nsk- xxxg1074xxx 
+sk@c#- xxxg1074xxx 
+sk@f#- xxxg1074xxx 
+sk@h#- xxxg1074xxx 
+sk@ch#- xxxg1074xxx 
+sk@fh#- xxxg1074xxx 
+sk@cfh#- xxxg1074xxx 
+
+km
+~mm!
+
+kcat
+~min 21 !
+
+kcat 0km
+~min 210mm!
+
+0.18 6 0.04
+0.55 6 0.02
+0.16 6 0.05
+0.60 6 0.06
+0.54 6 0.10
+0.19 6 0.03
+0.26 6 0.04
+0.25 6 0.07
+
+300 6 20
+374 6 10
+467 6 32
+462 6 29
+385 6 25
+561 6 36
+598 6 44
+274 6 13
+
+1,666.67
+680.00
+2,918.75
+770.00
+712.96
+2,952.63
+2,300.00
+1,096.00
+
+a
+the amidolytic parameters were determined as outlined in materials and methods. the data represent the mean of three independent
+determinations.
+
+could bind with hpg with a high affinity ~table 7; fig. 4a!, with
+the dissociation constants of their 1:1 complexes with hpg continuing to be in the nanomolar range despite the double0triple site
+mutations. in case of the triple-site mutant @sk~cfh!#, a relatively
+modest ~approximately threefold! reduction in affinity for hpg
+was evident. however, this diminution in binding affinity of this
+mutant does not appear to be commensurate with the drastic reduction in its biological activity. it may be mentioned that the latter
+was measured in the presence of hpg at concentrations several
+orders of magnitude higher than the nanomolar range of the dissociation constant between sk and hpg. the survival of a nearnative avidity between sk~cfh! and hpg was also confirmed
+when the binding characteristics of this mutant onto hpg-agarose
+was studied, which showed that sk~cfh! could indeed bind tightly
+with the affinity matrix in a manner indistinguishable from that of
+nsk ~fig. 4b!. similar results were obtained for the double chargecluster mutants ~data not shown!. these observations indicated that
+the mutations in the core region of the b-domain had led specifically to a reduction in the ability of these proteins to process
+substrate molecules @and in case of sk~cfh! and sk~d2!, zymogen activation of partner hpg as well# without significantly altering their ability to bind tightly with hpg to form the initial 1:1
+complex.
+
+the double- and triple-site mutants were then assessed for their
+amidolytic parameters to explore whether the reduced catalytic
+efficiency of their  xxxg1074xxx  complexes for hpg substrate was reflected
+in a similar change with respect to the small-mw amidolytic substrate as well ~table 6!, presumably due to alterations brought
+about in the active site of  xxxg1074xxx . it was observed that, if anything,
+the kcat for amidase activity had marginally increased as a result of
+these mutations, indicating that the primary specificity of the  xxxg1074xxx 
+active site was basically unaltered upon complexation with the
+mutants. remarkably, however, these mutants lacked an ability to
+effect an increase in the km of  xxxg1074xxx  for the amidolytic substrate, a
+property that is characteristic of the binding of native sk with free
+ xxxg1074xxx  ~robbins et al., 1981; wohl, 1984!. thus, it appears that
+these mutants, although exhibiting near-native affinities for hpg
+~table 7!, failed to engender the structural alteration~s! in partner
+hpg that result in a reduced access of the small-mw peptide
+substrate to the active site due to steric hindrance. interestingly, in
+terms of this effect, the single-site charge cluster mutant, sk~c!,
+was similar to the double- and triple-site charge cluster mutants,
+whereas sk~f! and sk~h!, like nsk, increased the km of  xxxg1074xxx  for
+amidolytic substrate
+with a view to explore whether the altered functionalities of the
+mutants were reflected in their folding characteristics, in particular
+their secondary structural features, their far-uv cd spectra were
+recorded. the spectrum for nsk was closely similar to the one
+reported previously for this protein ~radek & castellino, 1989!.
+the cd spectrum of sk~cfh! revealed ~fig. 5! a remarkable
+similarity to that of the native protein, showing that the overall
+folding of this mutant despite the triple charge-cluster mutations,
+was essentially preserved. the spectra of sk~d2!, sk~ch!, and
+sk~fh! were nearly identical to that of nsk ~data not shown!.
+
+table 7. dissociation constants for hpg-binding
+by double- and triple-charge-cluster sk mutants a
+
+type of sk
+wild-type sk
+skre248.249aa. ek281.282aa
+skek272.273aa. ek281.282aa
+skre248.249aa. ek272.273aa. ek281.282aa
+
+short name
+
+dissociation
+constant @kd # of
+sk-hpg complex
+~nm!
+
+nsk
+sk~ch!
+sk~fh!
+sk~cfh!
+
+1.07 6 0.47
+1.73 6 1.10
+1.29 6 0.15
+3.10 6 0.94
+
+a
+dissociation constants were measured using solid phase radio-assay
+employing 125 i-labeled hpg as detailed in materials and methods.
+
+fig. 5. far-uv cd spectra of mutant sk~cfh!. the figure shows the
+far-uv cd spectra in the wavelength range of 197–250 nm as outlined
+under materials and methods. the curves shown are: nsk ~closed squares!
+and sk~cfh! ~open circles!. the cd spectra of sk~fh! and sk~ch!
+were found to be closely similar to that of sk~cfh!.
+
+beta-domain mediated streptokinase-plasminogen interactions
+these results thus suggest the absence of grossly misfolded structures in the mutated sk derivatives. it should be mentioned, however, that the native-like cd spectra do not necessarily rule out the
+presence of conformational alterations in the vicinity of the mutations since the spectral contributions arising from these changes
+could easily have been “averaged out” by the spectral contributions emanating from the remainder of the molecule.
+discussion
+perhaps the most intriguing question associated with the mode of
+action of pg activators in general, and the sk-plasmin~ xxxd2046xxx ! activator complex in particular, is the structural basis of their inordinately high substrate specificity. in the case of the latter, the
+identification of the mechanism~s! underlying the conversion of
+the relatively nonspecific, trypsin-like substrate specificity of plasmin to that of a highly pg-specific protease upon complexing with
+sk still constitutes a challenge despite the recent availability of the
+three-dimensional structure of the sk-human plasmin light chain
+complex ~wang et al., 1998!. conceptually, sk could produce a
+change in the specificity of the plasmin~ xxxd2046xxx ! active site by changing its conformation0geometry per se, or by providing altered
+secondary substrate binding subsites ~s2, s3, etc.! into the active
+center, or by improving substrate presentation, through a more
+optimal docking, of pg at the active site. it is also possible that
+more than one of the above possibilities is operative together in the
+functioning of sk. at present there is no direct evidence for the
+first two possibilities. however, the structure of the sk-plasmin
+light chain complex strongly supports the third possibility, which
+we had also advanced earlier on the basis of biochemical studies
+~nihalani et al., 1998!, that sk “switches” the substrate specificity
+of plasmin because the sk-plasmin~ xxxd2046xxx ! complex provides two
+substrate-specific sites for the optimal binding of substrate pg
+onto the complex. indeed, modeling studies using the crystal structure data on the sk- xxxg1074xxx  light chain complex ~fig. 6! indicate
+several potential contacts in the a- and b-domains of sk between
+docked substrate and the complex and that the sk-hpg interface
+provides a “near perfect” concavity for substrate positioning wherein
+the scissile peptide bond in the latter becomes ideally amenable to
+
+fig. 6. stereo view of the sk- xxxg1074xxx  light chain complex. the view is
+shown as a c a trace. the b-domain of sk is seen to make relatively few
+contacts with  xxxg1074xxx . the distance shown is that between the c a atom of
+residue 260 of sk and the c a atom of arg561 of the cleaved  xxxg1074xxx . since
+this distance is in excess of 50 å, it is unlikely that, at least in this structure,
+lys256,257 will be close to the cleavage site unless large conformational
+changes in the b-domain take place ~adapted from wang et al., 1998!.
+
+2799
+cleavage by the active center of the activator complex ~esmon &
+mather, 1998; wang et al., 1998!. in the present study, a direct
+experimental evidence of the involvement of the b-domain in such
+a “protein cofactor mediated” catalytic assistance and substrate
+docking mechanism for sk action is being reported.
+our mutagenesis studies show that the replacement of the two
+tandem lys residues at positions 256 and 257 in the core region
+with either ala or glu residues drastically affects the hpg activation properties of the molecule. the involvement of these residues in sk functioning has been shown in an earlier study as well
+~lin et al., 1996!. in that study, the lys residues were altered to ala
+residues, and a decrease in hpg activation kinetics by the mutant
+was noted. however, in the present investigation, by mutating the
+lysyl to glutamyl side chains, a structurally much more nonconservative alteration, greater insight into the structure-function interrelationship of residues 256 and 257 could be obtained. the presence
+of two consecutive negative charges at this locus turned out to be
+highly detrimental to the functioning of the molecule, which now
+showed a very low overall hpg activation capability even though
+its apparent affinity for hpg to form a 1:1 complex was largely
+unaffected. the slow activation kinetics of hpg by this mutant
+was attributable to a highly compromised ability for effecting zymogen activation in partner hpg. in the case of the relatively less
+drastic mutation kk256.257aa @sk~d1!#, the property of zymogen activation was slowed to a great extent compared to the native
+protein. the underlying “biochemical lesion” that was caused by
+mutation at lys256 and lys257 in sk, therefore, seemed to be
+related to the first step~s! after complexation with hpg that lead to
+the exposure of the active site in the latter. therefore, when the
+charges of the two residues were reversed @as in sk~d2!#, there
+was a highly enhanced delay in exposure of the active site in
+partner hpg .
+in the case of native sk, the nascent 1:1 sk-hpg complex is
+believed to undergo a rapid conformational change to an “activated” form that displays both amidolytic and esterolytic capability
+even before any proteolytic cleavage has taken place through a
+process that is presently unclear ~esmon & mather, 1998!. it also
+remains unclear whether it is this “virgin” complex, or the skhpn complex ~to which it rapidly converts!, that possesses the
+earliest pg activator ability ~davidson et al., 1990; shi et al.,
+1993!. whatever the exact mechanism of this zymogen activation
+in the sk-hpg complex, our results show that the complex between sk~d2! and hpg is drastically compromised with respect
+to this transformation, as indicated by an inability to participate in
+the “npgb burst” reaction and an enhanced delay in amidolytic
+activation of partner hpg. however, the 1:1 complex of sk~d1!
+with hpg was able to react with npgb and also generate amidolytic activity albeit slowly ~figs. 2, 3!. thus, the rate-limiting
+factor in the hpg activation process by these two mutants seems
+to be a delay, to varying extents, in the generation of an amidolytically competent sk-plasmin~ xxxd2046xxx ! complex. indeed, in perfect
+accord with this proposed scenario, the apparent hpg activation
+capability of both mutants increased dramatically once a “fully
+mature” partner, in the form of  xxxg1074xxx , was provided. the kinetic
+analyses of the now “rejuvenated” activator complexes ~formed
+with  xxxg1074xxx  instead of hpg! revealed, however, that their interaction
+with substrate hpg was significantly reduced, as indicated by a
+nearly fourfold increased km for hpg in the case of sk~d1!, and
+a eightfold increased km in the case of sk~d2!.
+our results on the involvement of lys256 and lys257 of sk in
+substrate recognition represent the first experimental demonstra-
+
+2800
+tion of the direct involvement of the b-domain in providing assistance in the sequestering of substrate pg for processing by the
+activator complex. these findings provide, at least in part, a rationale for the observation that consequent to sk binding, the km
+of the  xxxg1074xxx  active site that is measurable in the millimolar range
+for unconstrained, small-mw substrates is found to be several
+orders of magnitude lower when tested against hpg as substrate
+~robbins et al., 1981!. the complementary loci in substrate pg
+with which the side chains of residues 256 and 257 make contact
+in this process of increasing the efficacy of enzyme-substrate interactions, however, are presently unclear. the kringle domains of
+hpg, due to the presence of lysine binding property in these
+structures, immediately offer themselves as probable candidates,
+especially since these have been implicated clearly both in 1:1
+interaction between sk and hpg as well as in the interaction of
+the activator complex with substrate hpg ~shi & wu, 1988;
+conejero-lara et al., 1998; wang et al., 1998; young et al., 1998!.
+however, precise structural information on this important aspect is
+sorely lacking at present, particularly as the recently published
+x-ray diffraction data employed crystals of complexes between
+sk and  xxxd2767xxx , which is devoid of the kringle domains
+~wang et al., 1998!. our results, nevertheless, point unmistakably
+to a direct role of this region, in particular of the two lysine
+residues at position 256 and 257, probably in the docking of substrate pg during its conversion to product ~plasmin! as a result of
+the highly specific proteolytic cleavage at the scissile peptide bond
+by the sk-plasmin~ xxxd2046xxx ! activator complex. the observation that
+alterations in these residues lead to an apparent decreased substrate
+affinity is entirely in keeping with this inference, even though the
+identity of the complementary site~s! in substrate pg with which
+these residues interact is presently unclear. in addition, these residues seem to be important in the zymogen activation process as
+well. the molecular details of the process whereby sk binding to
+pg leads to active site exposure even before any proteolytic scission has taken place has not been elucidated. wang et al. ~1998!
+hypothesize that lys698 of hpg, which is located close to the
+activation pocket, can replace the a-amino group of val562 ~hence,
+forming the critical salt bridge to asp740 during the zymogen
+activation process! in the sk-hpg virgin complex. a mechanism
+such as this, or alternate ones ~esmon & mather, 1998; khan &
+james, 1998!, presume an underlying conformational change in the
+activation pocket of hpg subsequent to sk binding that activates
+the hitherto latent active site without scissile peptide bond cleavage. it appears that the placement of two negative charges at 256
+and 257 of sk strongly hinders this conformational change. at the
+same time, the fact that the substitution of alanines instead of
+ xxxd2431xxx  residues at these positions had a much milder effect
+on the zymogen activation ability of the molecule suggests that the
+two lys residues in nsk are not involved in zymogen activation
+per se, since had it been otherwise, then irrespective of the type of
+mutation, the effect would have been a drastic decrease in zymogen activation ability. wang et al. ~1998! suggest that the binding
+of the g-domain of sk to the autolysis loop region of hpg may
+cause the conformational change necessary to form a salt linkage
+between the asp740 and lys698 of hpg. an inspection of the
+recently elucidated three-dimensional structure of the sk- xxxg1074xxx 
+light chain complex ~fig. 6! shows that residues 256 and 257 occur
+in a highly flexible region of the b-domain. this region is encompassed by a long loop ~residues 248–259!, which was not observable clearly in the experimental electron density map due to
+positional disorder. moreover, the b-domain itself exhibits high
+
+a. chaudhary et al.
+mobility as evidenced by its large thermal factors probably due to
+the absence of the kringles ~wang et al., 1998!. in the sk- xxxg1074xxx 
+light chain crystal structure, the tip of the disordered loop encompassing residues 256–257 in the b-domain is more than 50 å away
+from the arg561 of the partner  xxxd2767xxx  ~see fig. 6!. thus,
+unless one invokes the possibility that the b-domain’s juxtaposition with the rest of the activator complex is actually different in
+the full-fledged ternary complex, viz., hpg.sk.hpg, occupying
+either a position more proximal to the active site area or indirectly
+influencing the conformational changes leading to active site exposure, it is difficult to make more definitive deductions at this
+juncture regarding the structural basis of lys256,257 in activating
+partner hpg.
+unlike the crystal structure of the sk-plasmin light chain complex, the x-ray diffraction data on the closely similar pg activator
+protein, staphylokinase ~sak! complexed simultaneously with substrate and partner hpg ~both in the form of the  xxxg1074xxx  light chain!,
+appears to provide a better glimpse of the positioning of the substrate with respect to the plasmin active site. interestingly, sak
+displays a marked structural similarity to the a-domain of sk
+~wang et al., 1998!. besides this structural similarity, both sk and
+sak have common functional similarities as well, in that both are
+intrinsically inert bacterial proteins that activate pg “indirectly”
+by first forming proteolytically functional activator complexes with
+partner plasmin~ xxxd2046xxx !. however, unlike sk, sak requires a preformed active site to generate a functional activator, whereas sk
+can expose the active site in partner zymogen directly ~collen
+et al., 1993!. the lack of a zymogen activation ability in sak
+seems to be commensurate with its smaller size ~approximately
+one-third of sk! since it lacks the counterparts to the b- and
+g-domains that sk possesses. besides the additional attribute of
+autocatalytic zymogen activation, the presence of all three domains
+in sk confers a catalytic advantage onto this activator protein over
+sak, which is exemplified by the fact that the sk- xxxg1074xxx  complex
+possesses a substrate hpg turnover rate that is significantly higher
+than that of sak- xxxg1074xxx  ~robbins et al., 1981; radek et al., 1993!.
+the present study suggests that at least a major part of this additional “catalytic power” emanates from the crucial assistance in
+substrate binding and0or docking that the b-domain provides, and
+which probably plays a crucial role in enhancing overall substrate
+processivity as well. the crystal structure of the sak-plasmin
+light chain complexed with substrate  xxxd2767xxx  ~parry et al.,
+1998! strongly suggests substrate docking, on the one hand, and
+subtle alterations of the secondary s30s4 subsites of the active
+center of plasmin by the bound sak, on the other, as being responsible for the switch in the substrate specificity of the bound
+ xxxg1074xxx . if one assumes that the a-domain of sk retains a high level
+of functional analogy with sak, it should not seem surprising that
+the intrinsic catalytic power of sak is much less than that of sk
+because it has to generate this activity entirely on its own while in
+the case of sk, both the a- and b-domains ~and probably the
+g-domain as well! interact together to engender much higher rates
+of hpg activation. our results demonstrate that at least one of the
+major factors behind the contribution of the b-domain toward the
+higher catalytic efficiency observed with sk- xxxg1074xxx  arises directly
+from the locus encompassing the residues 256 and 257, since
+alterations of these residues led to a perceptible increase in km for
+substrate pg.
+on the other hand, mutants altered simultaneously at several
+residues around this site @as in case of sk~ch! and sk~fh!#
+resulted not so much in an increased km but in an overall reduced
+
+2801
+
+beta-domain mediated streptokinase-plasminogen interactions
+substrate processivity ~kcat ! by their activator complexes. in case
+of the triple charge-cluster mutant, sk~cfh!, which did not display any significant ability to activate partner hpg, virtually no
+pg activator activity could be detected even when a preformed
+active site, in the form of  xxxg1074xxx , was supplied to form the 1:1
+partner. these mutants, including sk~cfh!, appeared to be native
+like by cd spectral analysis and showed dissociation constants for
+hpg that, like that of nsk, were in the nanomolar range of concentration. at first sight, the most straightforward explanation for
+this phenomenon is that the charges in this segment interact directly with residues involved in catalysis. however, this possibility
+appears somewhat remote since the kcat values for amidolysis of
+1:1 complexes of the mutants with  xxxg1074xxx  were not decreased, indicating an essentially unaltered active site topology. thus, as previously discussed, a rational explanation of the lowered kcat values
+obtained with mutants sk~ch! and sk~fh! in the absence of any
+perceptible changes in km values cannot be forwarded at this juncture and will probably have to await the availability of future
+crystallographic data ~such as that gleaned from hpg.sk.hpg
+ternary complexes! offering much greater structural detail than the
+one presently available. the b-domain in this structure has demonstrably increased average thermal factor probably due to its enhanced mobility arising from an absence of stabilizing interactions
+that are likely kringle-mediated. nevertheless, despite the absence
+of a directly verifiable structural explanation, it is tempting to
+speculate on possible alternate mechanisms that may help explain
+the observed results. thus, one can envision a scenario of a proteincofactor mediated catalysis wherein both substrate docking and
+product release are assisted through selective interaction of the sk
+of the activator complex with discrete structural elements, such as
+the kringles, in the substrate pg. the cardinal role played by the
+kringle domains of pg in substrate recognition by the activator
+complex is evident from the observed decrease in microplasminogen activation, which is devoid of kringles, by sk ~shi & wu,
+1988; shi et al., 1990!, and also by the significant fall in the
+formation of ternary complex ~hpg.sk.hpg! in the presence of
+ xxxd146xxx  ~young et al., 1998!, an agent that binds to
+kringles and alters their conformational states. it is well recognized
+that the scission of the arg561–val562 peptide bond of hpg to
+ xxxg1074xxx  generates a large conformational change in the latter, particularly in terms of the three-dimensional arrangement of the kringle
+domains ~mangel et al., 1990; marshall et al., 1994; bock et al.,
+1996!. thus, in this model, kringle-mediated recognition of the
+substrate by the core region of the b-domain of the sk in the
+activator complex would enhance enzyme-substrate collision and
+docking, and following conversion of substrate hpg to  xxxg1074xxx , the
+facilitated release of the product ~plasmin! as well. the latter event
+would accrue directly as a result of reduced affinity of the activator
+for  xxxg1074xxx  consequent to conformational changes not only at the
+active site but also in and around the interacting kringle~s! as well.
+thus, sk might serve to enhance the affinity of substrate-activator
+complex interactions by “exploiting” elements of the substrate
+molecule that are destined to undergo the most prominent conformational changes upon conversion to product ~e.g., the scissile
+peptide bond region itself and the kringle domain conformations!
+so that the product can be released readily from the activator
+complex upon completion of catalysis. kringle 5 is closest to the
+scissile peptide bond region and therefore a likely candidate mediating this interaction. the fact that the two- and three-site chargecluster mutants have impaired ability, unlike nsk, to effect the
+characteristic increase in the km for the amidolytic substrate in
+
+their 1:1 complexes with  xxxg1074xxx  signifies an altered mode of binding
+of their b-domain in the vicinity of the active site, which might be
+responsible not only for an improper positioning of substrate pg,
+but also in failing to recognize, to varying extents, the kringlemediated structural changes that help in product release. in case of
+sk~cfh!, the impairment was not only at the level of hpg processing but in terms of zymogen activation as well, indicating that
+the triple-site charge-cluster mutations had resulted in a relatively
+greater structural destabilization in this segment of the b-domain.
+indeed, the nearly two- to threefold decreased affinity of complex
+formation observed with these mutants may signify a subtly altered
+mode of interaction with partner hpg due to local structural disturbances, which might affect the catalytic properties of the complex without a concomitantly drastic decrease in the ability to form
+the stoichiometric activator complex. thus, on the whole, the present
+experimental observations suggest that the b-domain of sk is
+involved in both the docking of substrate pg and its release as
+product.
+it is intriguing that despite the six simultaneous point-mutations
+in sk~cfh!, its 1:1, high-affinity interaction with hpg was unchanged, and its overall structure, as evidenced by cd, retained a
+native-like folding. at first sight, this might appear to be at variance with our earlier conclusions, based on a peptide walking
+approach ~nihalani et al., 1997!, that this locus, besides participating in substrate recognition, is intimately involved in 1:1 interaction between sk and hpg. in that study, partially overlapping
+peptides derived from the sequence 230–290 of sk were found to
+inhibit strongly the formation of a functional activator complex
+when added prior to complexation between equimolar sk and
+hpg. conversely, peptides derived from the other regions of the
+b-domain primary structure failed to show this effect. although the
+present study substantially validates our earlier conclusion that a
+substrate-specific binding locus is present in the region in and
+around residues 250–270 of sk, an overt effect of the mutations in
+the 230–290 region on 1:1 interactions between sk and hpg was
+not detected. however, it is conceivable that intermolecular contacts other than those involving charged side chains are responsible
+for this high-affinity interaction. indeed, a few distinct patches of
+clustered  xxxd1850xxx  residues are present in the core region of the
+b-domain of sk, that are potentially capable of providing intermolecular hydrophobic contacts with similar residues in hpg. we
+have recently observed that alanine linker mutagenesis of these
+patches results in a drastic reduction in the activity of the mutants
+~a. chaudhary & g. sahni, unpubl. results!. the detailed functional effects of alterations, such as these or of other potential
+contacts between sk and hpg as revealed by the recently published x-ray diffraction data, are currently being investigated in
+detail. it is hoped that the availability of sk mutants specifically
+altered in terms of their 1:1 interaction with hpg, or with respect
+to substrate and0or product affinity, or turnover rates, followed by
+their high-resolution structural evaluation will pave the way for a
+clearer understanding of the molecular mechanism of sk action.
+materials and methods
+proteins and reagents
+glu-hpg was procured from boehringer-mannheim ~mannheim,
+germany!. where albumin-free hpg was specifically needed, gluhpg was purified from human plasma by affinity chromatography
+on lysine-agarose in the presence of proteases inhibitors as de-
+
+2802
+scribed ~deutsch & mertz, 1970!. both preparations contained less
+than 2% of lys-hpg and less than 0.01% free  xxxg1074xxx . where needed,
+hpg was converted to  xxxg1074xxx  by the action of agarose-immobilized
+uk ~300 plough units0mg glu-hpg! in 50 mm tris-cl buffer,
+ph 8.0, containing 10 mg0ml hpg, 25 mm l-lysine and 25%
+glycerol for 12 h at 22 8c. uk was covalently immobilized onto
+cross-linked agarose ~sepharose 6b-cl; pharmacia ltd., uppsala,
+sweden! by reductive amination ~stults et al., 1989!. soybean
+ xxxd207xxx  agarose ~;3 mg sti0ml agarose!, used to prepare  xxxg1074xxx -deficient hpg, and hpg-agarose ~;2 mg hpg0ml
+agarose! were also prepared by covalent immobilization of the
+respective proteins using reductive amination chemistry. the plasmin content in hpg preparations, as well as the number of active
+sites generated in  xxxg1074xxx , were determined by active-site titration
+with the acylating agent, npgb ~mcclintock & bell, 1971!. protein concentrations were determined by the method of bradford
+~1976!. s. equisimilis sk ~w.h.o. standard; 700 i.u. per vial!,
+used for the determination of specific activities of sk or its mutant
+forms, was procured from national institute of biological standards and control, south mimms, hertfordshire, u.k. chromogenic plasmin substrate, tosyl-gly-pro-lys-anilide ~chromozyme
+pl! was obtained from boehringer-mannheim. the t7 rna polymerase promoter-based expression vector, pet23~d! used for the
+intracellular expression of sk in e. coli, was a product of novagen
+inc. ~madison, wisconsin!. sti was procured from sigma chemical co. ~st. louis, missouri!. thermostable dna polymerase ~ pfu!
+with proof-reading activity, plasmid bluescript ii ks, and e. coli
+xl-blue were procured from stratagene inc. ~la jolla, california!. restriction endonucleases and other enzymes used for rdna
+experiments were procured from new england biolabs ~beverly,
+massachusetts! or promega inc. ~madison, wisconsin!. oligonucleotide primers were either synthesized in-house on an applied
+biosystems ~foster city, california! dna synthesizer model 492,
+or custom-synthesized by ransom hill biosciences inc. ~ramona,
+california!. n-terminal protein sequencing was done on a perkin
+elmer0applied biosystems sequencer, model 476 a. pcr-generated
+dnas from agarose gels, and plasmid dnas were routinely purified using kits from qiagen inc. ~valencia, california! ~supplied
+by genetix ltd., new delhi, india!. automated fluorescence-dye
+dna sequencing was carried out on an applied biosystems0perkinelmer dna sequencer system, model 377 at the university of
+delhi, south campus ~new delhi, india!. all other reagents used
+were of the highest analytical grade available.
+design and construction of sk mutants
+the cloning of the sk gene of s. equisimilis strain h46 a in e. coli
+was carried out essentially by the approach of malke and ferretti
+~1984!, and the details regarding the construction of expression
+vectors have been described previously ~pratap et al., 1996; nihalani et al., 1998!. the different sk mutants were constructed by
+a pcr-based strategy, using the “megaprimer” method of oligonucleotide directed site-directed mutagenesis using one mutagenic
+and two ~common! flanking primers ~sarkar & sommer, 1990;
+smith & klugman, 1997! followed by cloning into plasmid vectors
+by standard methodologies ~sambrook et al., 1989!. the sequences
+of the mutagenic primers used for the mutagenesis experiments are
+depicted in table 1. the primers were designed to be complementary to the known dna sequence of the sk gene from s. equisimilis ~malke et al., 1985!. a total of 13 sk mutants, of three
+distinct types were made viz., single-, double-, and triple-charge
+
+a. chaudhary et al.
+cluster sites ~see fig. 1! mutated either to ala residues ~in most
+cases! or, in a few instances, to a complementary side-chain to
+effect charge-reversal ~e.g., lys to glu, and vice-versa!, with each
+mutant type representing the incorporation of two, four, or six
+simultaneous point mutations, respectively. in table 1 are also
+shown the diagnostic r.e. sites introduced by translationally silent
+mutagenesis ~raghava & sahni, 1994! in each primer to aid the
+screening of the clones. the sequence of the two flanking primers
+~termed the “upstream” and “downstream” primers! in the amplification reaction are also shown. each of these carried an internal
+r.e. site unique to the sk orf @as also to the plasmid pet23~d!sk#, viz., bser i and bsm i to facilitate the re-ligation of the
+mutant pcr blocks back into the sk orf in the expression vector.
+briefly, the first pcrs ~to generate the different mutant megaprimers! were carried out in a volume of 100 ml and contained ~final
+reaction conditions are given! 200 mm dntps, 100 ng of template
+dna @pet23~d!-sk, the t7 polymerase based expression vector
+in which the full-length sk gene had been cloned; see nihalani
+et al., 1998 and references cited therein#, 20 pmol each of the
+mutagenic and downstream primers, 2.5 u of standard cloned pfu
+thermostable dna polymerase, and 10 ml of 10x pfu reaction
+buffer. the pcr cycling conditions were in accordance with the
+denaturation temperatures of different primers, calculated using
+the computer program, oligo ~version 4.0!. in general, all reactions
+were started with a “hot start” ~94 8c, 5 min!, followed by a
+denaturation ~94 8c for 45 s!, annealing ~50 8c for 1 min! and
+extension ~72 8c, 1 min! phases. after a total of 30 cycles, a 10 min
+period at 72 8c was given for a final extension of partially finished
+daughter dna molecules, and the reactions were terminated, and
+then processed through qiagen pcr purification columns. the
+relevant dna cassettes were then purified by agarose gel electrophoresis, by excising the required dna band and further purifying
+by qiagen gel extraction kit. the amplified dnas was then used
+as megaprimers for a second pcr ~referred to as pcr-ii! either
+with wild-type sk gene as the template, or with full-length extended pcr products carrying different mutations as the template
+to generate double- and triple-charge cluster mutant dnas ~see
+below!. the full-length, extended dna cassettes were then cloned
+back into pet23~d!-sk expression vector vector at the bseri and
+bsm i sites. the pcr-ii pre-mixes ~100 ml! contained: 60 ng
+template @pet23~d!-sk#, 200 mm dntps, 10 ml of 10x pfu buffer,
+and varying concentrations of megaprimers ~200– 600 ng!. the
+mixes were held for 5 min at 95 8c ~“hot start”! and the reaction
+initiated with addition of 5.0 u of pfu dna polymerase per reaction. this was followed by seven cycles of denaturation ~94 8c,
+45 s! and extension ~72 8c for 3 min! to ensure build-up of mutated
+strand dna and to effect megaprimer extension. at the end of this
+phase of the pcr, 20 pmol of upstream primer was added, and
+thermal cycling continued as follows, for 10 cycles: 94 8c for 45 s,
+51 8c for 1 min, and 72 8c for 1 min. after the last cycle, 20 pmol
+of downstream primer was added, and cycling continued as before
+for 15 cycles, followed by a final extension at 72 8c for 10 min.
+the extended pcr products ~504 bp! were then purified on agarose gels and the dna bands isolated after excision of gel blocks.
+these were digested with bseri and bsmi restriction enzymes and
+ligated with similarly digested pet23~d!-sk plasmid dna, and
+transformed into e. coli xl-blue electrocompetent cells. the desired clones were selected by screening mini-prep plasmid dnas
+for the diagnostic r.e. sites incorporated through the pcr primers
+~table 1!, and the positive clones were subjected to automated
+dna sequencing to confirm the incorporation of the desired mu-
+
+2803
+
+beta-domain mediated streptokinase-plasminogen interactions
+tation, as also to rule out the presence of any unwanted mutations
+due to the pcr amplification. for the construction of double and
+triple charge-cluster mutants, the same overall strategy was followed except that complementary megaprimers and templates were
+used for the extension step in the pcr-ii step e.g., for the construction of the double charge-cluster mutant skre248.248aa;ek281.282aa ,
+the megaprimer carrying the mutations re248.248aa was used
+with the full-length extended pcr product carrying the mutations
+ek281.282aa. similarly, for the construction of the double chargecluster mutant skek272.273aa; ek281.282aa , the extended pcr product containing the mutations ek281.282aa was employed as the
+template, with the megaprimer carrying the mutations ek272.273aa
+used to prime the reaction at the pcr-ii step. in case of the triple
+charge-cluster mutant viz., sk re248.248aa;ek272.273aa;ek281.282aa , the
+construction strategy was as follows. first, a megaprimer containing the double charge-cluster mutations ek272.273aa and
+ek281.282aa was constructed using as template the purified pcr
+product carrying the single cluster mutant ek281.282aa, and carrying out another pcr using the upstream primer bearing the
+ek272.273aa mutation along with the downstream bsmi-site containing primer. this double charge-cluster megaprimer was then
+isolated, and used along with the full-length extended pcr product
+with the mutation re248.248aa ~used as template in pcr-ii!, to
+generate pcr amplified dna block containing three simultaneous
+charge-cluster mutations. all the purified mutant pcr dnas were
+then digested with bse ri and bsm i restriction enzymes, and
+cloned into similarly digested plasmid vector pet23~d!-sk to obtain the desired mutant sk clones. all mutations were confirmed
+by dna sequencing of the complete sk gene in the expression
+vector using the t7 promoter and terminator sequencer primers.
+this also established the absence of any unwanted mutation introduced in the sk gene during mutant construction particularly as a
+result of the pcr amplification.
+expression and purification of sk mutants
+the native-like recombinant sk ~termed nsk! or the various sk
+mutants were expressed intracellularly in e. coli bl-21 ~de 3!
+cells after induction with 1 mm iptg after initial growth until
+mid-log phase, essentially as described ~nihalani et al., 1998!. the
+bacterial pellets obtained by centrifugation from 1 l shake flask
+cultures were suspended in 80 ml of 20 mm napo 4 buffer, ph 7.2,
+and subjected to ultrasonication for 10 min with 30-s pulses with
+equal periods of rest, using a heat systems ~new york, new york!
+ultrasonic processer with a medium-sized probe. the lysates were
+then processed for hydrophobic interaction chromatography ~hic!
+on phenyl-agarose ~affinity chromatography ltd., isle of man,
+u.k.! as follows. after centrifugation at 4 8c at 12,000 3 g for
+15 min, the supernatants were made 0.5 m in nacl, and loaded
+onto a column of phenyl-agarose ~2 3 10 cm! in equilibrating
+buffer, viz., 0.5 m nacl in 20 mm napo4 buffer, ph 7.2. the
+column was then washed successively with five bed-volumes each
+of ~in this order!: equilibrating buffer, 20 mm na-po4 buffer,
+ph 7.2, distilled water, and finally, 8 m urea. nearly 90% of the
+loaded sk activity was recovered by elution with water, and the
+protein found to be more than 80% pure as judged by sds-page.
+this fraction, pooled conservatively, was then loaded onto a perseptive biosystem poros-d anion-exchange column ~1 3 5 cm! in
+20 mm napo4 , ph 7.2, on a bio-cad sprint liquid chromatography work station. the chromatographic elution was carried out ~at
+a flow rate of 1 ml0min! using a linear gradient of nacl ~0 to
+
+1.0 m! in napo4 buffer, ph 7.2 over 20 min. greater than 75%
+yield of sk activity, as compared to the preceding step, was obtained, and the sk eluted in and around a molarity of 0.3 nacl in
+the gradient. the sk was more than 95% pure at this stage. the
+major sk-containing fractions were pooled and stored at 270 8c
+until analyzed. overall recoveries were consistently 50– 65%, yielding between 30– 40 mg purified protein0liter of shake-flask grown
+culture. the purified proteins were subjected to n-terminal sequencing, which showed an extra methionine residue at the
+n-termini, succeeded by the native sequence of sk.
+characterization of sk mutants
+assays for studying the activation of
+hpg by sk and sk mutants
+a one-stage assay method was used to measure the kinetics of
+hpg activation by sk or its mutants ~wohl et al., 1980; shi et al.,
+1994!. purified sk or mutant sk ~0.5–50 nm! were added to a
+100 ml quartz assay cuvette containing hpg ~1 mm! in assay
+buffer ~50 mm tris-cl buffer, ph 7.5! containing 1.0 mm chromogenic substrate ~boehringer-mannheim!. the change in absorbance at 405 nm was then measured as a function of time~t! in a
+shimadzu uv-160 model spectrophotometer at 22 8c. appropriate
+dilutions of standard w.h.o. s. equisimilis streptokinase were used
+as reference for calibration of international units0mg protein ~specific activity! in the unknown preparations ~heath & gaffney,
+1990!. the activator activities were obtained from the slopes of
+the activation progress curves, which were plotted as change in
+absorbance0t against t ~wohl et al., 1980!.
+amidolytic and esterolytic activation of
+equimolar sk0sk mutant-hpg complexes
+hpg ~final conc. 5.0 mm! was incubated with 5.5 mm each of
+sk or mutant sk at 22 8c in 50 mm tris.cl, ph 7.5, containing
+0.5% bsa. the amidolytic activity was determined periodically
+by transferring a suitable aliquot of the complex ~final concentration in reaction, 100 nm! to a 100 ml cuvette containing assay
+buffer along with 1 mm chromozyme pl in a final volume of
+100 ml. the change in absorbance at 405 nm was monitored to
+compute the kinetics of amidolytic activation ~see nihalani et al.,
+1998! by plotting the slopes of the progress curves from the initial
+periods ~2– 4 min! as a function of pre-incubation times. the generation of an npgb-reactive active center by equimolar sk0skmutant and hpg was monitored at 22 8c as described by wohl
+et al. ~1980!. the reaction was initiated by adding 5 mm hpg
+~final concentration! to an assay cuvette containing buffer ~10 mm
+napo4 , ph 7.2! and sk ~5.5 mm! and 100 mm npgb. the release
+of  xxxd2821xxx  due to acylation of the active center was detected
+by continuous monitoring at 410 nm.
+assays for determining the steady-state kinetic constants
+for hpg activator activity of sk and sk mutants
+to determine the kinetic parameters for hpg activation, fixed
+amounts of sk or sk mutant ~1 to 10 nm! were added to a 100 ml
+assay cuvette containing chromogenic substrate ~1 mm! and varying concentrations of hpg ~0.035 to 2.0 mm! and activator activity
+measured as described above. in cases where the kinetic constants
+of hpg activation of sk0sk mutant- xxxg1074xxx  complexes were to be
+measured, the respective equimolar sk- xxxg1074xxx  complexes were
+formed immediately prior to the determination of hpg activation
+
+2804
+
+a. chaudhary et al.
+
+as described, in a separate tube ~at 22 8c! at a final concentration
+of 0.2 mm in 50 mm tris{cl, ph 7.5, containing 0.5% bsa,
+and suitable aliquots were withdrawn for hpg activator assay
+using different final substrate hpg concentrations. the kinetic
+parameters for hpg activation were then calculated from inverse,
+lineweaver–burke plots by standard methods ~wohl et al., 1980!.
+
+fuged  xxxd1891xxx ,000 3 g for 10 min, and the clear supernatants used for
+recording the spectra. appropriate buffer baselines were subtracted
+in all cases. a mean residue weight of 114 for sk was used ~radek
+& castellino, 1989!, and the final spectrum was an average of 10
+scans.
+
+assays for determining the steady-state kinetic constants
+for amidolytic activity of sk and sk mutants
+the kinetic parameters of amidolysis by sk or sk mutants
+complexed with  xxxg1074xxx  were determined by precomplexing equimolar ratios of sk and  xxxg1074xxx  ~200 nm each! at 22 8c in 50 mm
+tris{cl, ph 7.5, containing 0.5% bsa. the amidolytic activity
+was measured by transferring an aliquot of this mixture to a 100 ml
+assay cuvette containing buffer ~50 mm tris{cl, ph 7.5! and varying concentrations of the chromogenic substrate ~0.1–2.0 mm! to
+obtain a final concentration of 100 nm of the complex in the
+reaction. the reaction was continuously monitored spectrophotometrically at 405 nm for 4–5 min. the kinetic parameters were
+determined from lineweaver–burke plots by standard methods
+~wohl et al., 1980!. in cases where kinetic constants were determined for sk-hpg complexes, sk0sk mutants were preincubated with equimolar hpg and allowed to mature at 22 8c until the
+generation of maximum amidolytic capability, and then transferred
+to assay cuvettes as described above for the determination of amidolytic parameters.
+
+acknowledgments
+
+measurement of dissociation constants
+solid phase assays were performed using the procedure described by reed et al. ~1995!. native sk or sk mutants were
+immobilized onto the wells of polyvinyl microtitre plates ~costar,
+cambridge, massachusetts! @175 ml of protein solution 5.0 mg0ml
+in 50 mm naco3-nahco3 buffer, ph 9.5 ~binding buffer!# after
+overnight incubation at 4 8c. into each well was then added 200 ml
+of a 1% ~w0v! solution of bsa in pbs, ph 7.4. plates were then
+incubated for 1 h at 4 8c, following which 175 ml0well of 125 ilabeled hpg at different concentrations ~5 pm–200 nm! were
+added and incubated at 4 8c for 1 h. the labeling of hpg was done
+by the iodogen method ~fraker & speck, 1978! and the specific
+activity of the labeled hpg was 3.8 3 10 9 cpm0mg. after adsorption, the wells were aspirated and then washed twice with 200 ml
+of pbs containing 0.5% tween-20. they were then cut and subjected to gamma-counting on a packard cobra autogamma counter.
+binding of sk0sk mutants onto hpg-agarose
+the binding characteristics of sk mutants with hpg-agarose
+was studied by loading ;150 mg of either nsk or a mutant onto
+the affinity matrix packed in a 1 ml bed volume column equilibrated with 50 mm tris{cl, ph 7.5, essentially by the procedure
+described by rodriguez et al. ~1992!. the column was then washed
+with five bed-volumes of equilibrating buffer. the loading and
+washing steps were carried out in less than 10 min. specifically
+bound protein was eluted with 8 m urea in the same buffer. the
+chromatography was carried out at 4 8c. the protein in each fraction ~0.75 ml! was then estimated ~bradford, 1976!.
+cd measurements
+far-uv cd spectra of the proteins in the wave-length range of
+197–250 nm were recorded on a jobin yvon auto dicrograph
+mark-v model using a 0.1 cm path length cell, at protein concentrations of 0.15 mg0ml in pbs, ph 7.4. all samples were centri-
+
+this study was supported by grants from the department of biotechnology
+~d.b.t.! and the council of scientific and industrial research ~c.s.i.r.!,
+government of india. we are thankful to dr. amit ghosh for encouragement and support. the provision of a senior research fellowship to s.v. by
+the c.s.i.r., and a visiting fellowship to a.c. by the d.b.t. is gratefully
+acknowledged. we thank ms. paramjit kaur for expert technical assistance.
+we express our gratitude to dr. p. guptasarma for providing facilities for
+cd measurements, and dr. k.l. dikshit for providing plasmid pjkd-55,
+used as the source of cloned sk gene for the construction of sk-expression
+vector. the authors thank dr. x.c. zhang for providing access to the
+coordinates for their sk- xxxd2767xxx ~ xxxd2046xxx ! crystal structure. this is communication number 012099 from the institute of microbial technology.
+
+references
+bock pe, day de, verhamme ima, bernardo mm, olson st, shore jd. 1996.
+analogs of human plasminogen that are labeled with fluorescence probes at
+the catalytic site of the zymogen. j biol chem 271:1072–1080.
+bradford mm. 1976. a rapid method for quantitation of microgram quantities of
+protein utilizing the principle of protein dye binding. biochemistry 72:248–
+254.
+castellino fj. 1981. recent advances in the chemistry of the fibrinolytic system.
+chem rev 81:431– 446.
+chase t, shaw e. 1969. comparison of the esterase activities of trypsin, plasmin
+and thrombin on guanidobenzoate esters. titration of the enzymes. biochemistry 8:2212–2224.
+collen d, schlott b, engelborghs y, hoef bv, hartmann m, lijnen hr, behnke
+d. 1993. on the mechanism of the activation of human plasminogen by
+recombinant streptokinase. j biol chem 268:8284–8289.
+conejero-lara f, parrado j, azuaga ai, dobson cm, ponting p. 1998. analysis
+of the interactions between streptokinase domains and human plasminogen.
+protein sci 7:2190–2199.
+conejero-lara f, parrado j, azuaga ai, smith rag, ponting p, dobson cm.
+1996. thermal stability of the three domains of streptokinase studied by
+circular dichroism and nuclear magnetic resonance. protein sci 5:2583–2591.
+davidson dj, higgins dl, castellino fj. 1990. plasminogen activities of equimolar complexes with variant recombinant plasminogens. biochemistry
+29:3585–3590.
+deutsch dg, mertz et. 1970. plasminogen: purification from human plasma by
+affinity chromatography. science 170:1095–1096.
+esmon ct, mather t. 1998. switching  xxxg745xxx  specificity. nat struct
+biol 5:933–937.
+fay pf, bokka lv. 1998. functional analysis of the amino- and carboxy-termini
+of streptokinase. thromb haemost 79:985–991.
+fraker pj, speck jc. 1978. protein and cell membrane iodinations with a sparingly soluble chloroamide 1,3,4,6-tetrachloro-3a,6a-diphenylglycouril. biochem biophys res commun 80:849–857.
+heath ab, gaffney pj. 1990. a collaborative study to establish the second
+international standard for streptokinase. thromb haemost 64:267–269.
+isis-3. 1992. third international study of infarct survival collaborative group.
+a randomized comparison of streptokinase vs tissue plasminogen activator
+vs  xxxd185xxx  and of aspirin plus heparin vs aspirin alone among 41,229
+cases of suspected acute myocardial infarction. the lancet 339:753–781.
+khan ar, james ng. 1998. molecular mechanisms for the conversion of zymogens to active proteolytic enzymes. protein sci 7:815–836.
+lin l, oeun s, houng a, reed gl. 1996. mutation of lysines in a plasminogen
+binding region of streptokinase identifies residues important for generating
+a functional activator complex. biochemistry 35:16879–16885.
+malke h, ferretti jj. 1984. streptokinase: cloning, expression and excretion by
+escherichia coli. proc natl acad sci usa 81:3557–3561.
+malke h, roe b, ferretti jj. 1985. nucleotide sequence of the streptokinase
+gene from streptococcus equisimilis h46a. gene 34:357–362.
+malke h, roe b, ferretti jj. 1987. streptokinase: expression of altered forms.
+in: ferretti jj, curtis r iii, eds. streptococcal genetics. washington dc:
+american society for microbiology. pp 143–149.
+
+beta-domain mediated streptokinase-plasminogen interactions
+mangel wf, liu b, ramakrishnan v. 1990. characterization of an extremely
+large ligand-induced conformational change in plasminogen. science 248:
+69-73.
+marder vj. 1993. recombinant streptokinase: opportunity for an improved
+agent. blood coagul fibrinolysis 4:1039–1040.
+markus g, werkheiser wc. 1964. the interaction of streptokinase with plasminogen: functional properties of the activated enzyme. j biol chem
+239:2637–2643.
+marshall jm, brown aj, ponting cp. 1994. conformational studies of human
+plasminogen and plasminogen fragments: evidence for a third novel conformation of plasminogen. biochemistry 33:3599–3606.
+mcclintock dk, bell ph. 1971. the mechanism of activation of human plasminogen by streptokinase. biochem biophys res commun 43:694–702.
+nihalani d, kumar r, rajagopal k, sahni g. 1998. role of the amino terminal
+region of streptokinase in the generation of a fully functional plasminogen
+activator complex probed with synthetic peptides. protein sci 7:637– 648.
+nihalani d, raghava gps, sahni g. 1997. mapping of the plasminogen binding
+site of streptokinase with short synthetic peptides. protein sci 6:1284–1292.
+nihalani d, sahni g. 1995. streptokinase contains two independent plasminogen–
+binding sites. biochem biophys res commun 217:1245–1254.
+parrado j, conejero-lara f, smith rag, marshall jm, ponting cp, dobson cm.
+1996. the domain organization of streptokinase: nuclear magnetic resonance, circular dichroism, and functional characterization of proteolytic
+fragments. protein sci 5:6930-704.
+parry maa, fernandez-catala c, bergner a, huber r, hopfner k-p, sclott b,
+guhrs k-h, bode w. 1998. the ternary  xxxd2767xxx -staphylokinase-  xxxd2767xxx  complex is a proteinase-cofactor-substrate complex in action.
+nature 5:917–923.
+pratap j, kaur j, rajamohan g, singh d, dikshit kl. 1996. role of n-terminal
+domain of streptokinase in protein transport. biochem biophys res commun
+227:303–310.
+radek jt, castellino fj. 1989. conformational properties of streptokinase. j biol
+chem 264:9915–9922.
+radek jt, davidson jd, castellino fj. 1993. streptokinase–plasmin~ xxxd2046xxx ! activator assays. methods enzymol 223:145–155.
+raghava gp, sahni g. 1994. gmap: a multi-purpose computer program to aid
+synthetic gene design, cassette mutagenesis and the introduction of potential
+restriction sites into dna sequences. biotechniques 16:1116–1123.
+reddy knn, markus g. 1972. mechanism of activation human plasminogen by
+streptokinase. j biol chem 247:1683–1691.
+reed gl, lin lf, parhami-seren b, kussie p. 1995. identification of a plas-
+
+2805
+minogen binding region in streptokinase that is necessary for the creation of
+a functional streptkinase-plasminogen activator complex. biochemistry
+34:10266–10271.
+robbins kc, summaria l, wohl rc. 1981. human plasmin. methods enzymol
+80:379–387.
+rodriguez p, fuentes p, barro m, alvarez jg, munoz e, collen d, lijnen hr.
+1995. structural domains of streptokinase involved in the interaction with
+plasminogen. eur j biochem 229:83–90.
+rodriguez p, hernandez l, munoz e, castro j, fuente j, herrera l. 1992.
+purification of streptokinase by affinity chromatography of immobilized
+acylated human plasminogen. biotechniques 12:424– 427.
+sambrook j, fritsch ef, maniatis t. 1989. molecular cloning: a laboratory
+manual, 2nd ed. cold spring harbor, new york: cold spring harbor laboratory press.
+sarkar g, sommer ss. 1990. “megaprimer” method of site-directed mutagenesis. biotechniques 8:404– 407.
+shi gy, chang b, chen sm, wu dh, wu hl. 1994. function of streptokinase
+fragments in plasminogen activation. biochem j 304:235–241.
+shi gy, chang b, wu d, ha y, wu h. 1990. activation of human and bovine
+plasminogens by the  xxxd2767xxx  and streptokinase complex. thromb res
+58:317–329.
+shi gy, chang b, wu d, wu h. 1993. interaction of immobilized human
+plasminogen with streptokinase. biochem biophys res commun 195:192–200.
+shi gy, wu hl. 1988. isolation and characterization of microplasminogen.
+j biol chem 263:17071–17075.
+smith am, klugman kp. 1997. “megaprimer” method of pcr-based mutagenesis: the concentration of megaprimer is a critical factor. biotechniques
+22:438– 442.
+stults nl, asta lm, lee yc. 1989. immobilization of proteins on oxidized
+cross-linked sepharose preparations by reductive amination. anal biochem
+180:114–119.
+wang x, lin x, tang j, zhang x. 1998. crystal structure of the catalytic domain
+of human plasmin complexed with streptokinase. science 281:1662–1665.
+wohl rc. 1984. interference of active site specific reagents in plasminogenstreptokinase active site formation. biochemistry 23:3799–3804.
+wohl rc, summaria l, robbins kc. 1980. kinetics of activation of human
+plasminogen by different activator species at ph 7.4 and 37 c. j biol chem
+255:2005–2013.
+young kc, shi gy, wu dh, chang lc, chang bi, ou cp, wu hl. 1998.
+plasminogen activation by streptokinase via a unique mechanism. j biol
+chem 273:3110–3116.
+

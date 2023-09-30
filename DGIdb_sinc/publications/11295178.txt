@@ -1,0 +1,808 @@
+molecular & biochemical parasitology 113 (2001) 241– 249
+www.parasitology-online.com.
+
+kinetic properties of  xxxg631xxx  from wild-type and
+mutant plasmodium 6i6ax expressed in escherichia coli
+rachida tahar a,1, philippe eldin de pécoulas a,2, leonardo k. basco a,b,
+mohammed chiadmi c, andré mazabraud a,*
+a
+
+centre de génétique moléculaire, centre national de la recherche scientifique, 91198 gif-sur-y6ette, france
+b
+institut de recherche pour le dé6eloppement (ird) —
+organisation de coordination pour la lutte contre les endémies en afrique centrale (oceac), b.p. 288, yaoundé, cameroon
+c
+laboratoire de cristallographie et rmn biologiques, cnrs-ep2075, ufr des sciences biologiques et pharmaceutiques, uni6ersité de paris v,
+4 a6enue de l’obser6atoire, 75006 paris, france
+received 17 august 2000; received in revised form 9 january 2001; accepted 10 january 2001
+
+abstract
+antifolate drugs inhibit malarial  xxxg631xxx  (dhfr). in plasmodium falciparum, antifolate resistance has been
+associated with point mutations in the gene encoding dhfr. recently, mutations at homologous positions have been observed
+in the p. 6i6ax gene. since p. 6i6ax cannot be propagated in a continuous in vitro culture for drug sensitivity assays, the kinetic
+properties of dhfr were studied by expression of the dhfr domain in escherichia coli. induced expression yielded a protein
+product that precipitated as an inclusion body in e. coli. the soluble, active dhfr recovered after denaturation and renaturation
+was purified to homogeneity by affinity chromatography. kinetic properties of the recombinant p. 6i6ax dhfr showed that the
+wild-type dhfr (ser-58 and ser-117) and double mutant dhfr (arg-58 and asn-117) have similar km values for dihydrofolate
+and nadph. antifolate drugs (pyrimethamine, cycloguanil, trimethoprim, and methotrexate), but not  xxxd1672xxx  (parent
+compound of cycloguanil) inhibit dhfr activity, as expected. the kinetics of enzyme inhibition indicated that point mutations
+(ser58arg and ser117asn) are associated with lower affinity between the mutant enzyme and pyrimethamine and cycloguanil,
+which may be the origin of antifolate resistance. © 2001 elsevier science b.v. all rights reserved.
+keywords: malaria; plasmodium falciparum; drug resistance; pyrimethamine
+
+1. introduction
+ xxxd2146xxx  is an essential cofactor required for the
+biosynthesis of various metabolites. higher eukaryotes,
+including humans, are dependent on the exogenous
+source of folate in the diet. by contrast, many microorganisms, including prokaryotes and some lower eukaryabbre6iations: dhfr,  xxxg631xxx ; dhps, dihydropteroate synthase; paba, para-aminobenzoic acid; ts, thymidylate syntase; pvdhfr, dhfr derived from p. 6i6ax.
+* corresponding author. cnrs-upres-a8080, bâtiment 447, institut de biologie animale intégrative et cellulaire, université parissud xi, 91405 orsay, france. tel.: +33-16-9156815.
+e-mail address: andre.mazabraud@ibaic.u-psud.fr (a. mazabraud).
+1
+laboratoire d’ecologie des systèmes vectoriels, institut pasteur,
+25 rue du docteur roux, 75715 paris cedex 15, france.
+2
+laboratoire de parasitologie, faculté de pharmacie, université de
+caen, france.
+
+otes, such as protozoa, are able to synthesize  xxxd2146xxx 
+de novo from para-aminobenzoic acid (paba) and
+gtp. in the apicomplexa parasite plasmodium, folate
+biosynthesis is an absolute requirement for pyrimidine
+biosynthesis since the parasite lacks the ability to salvage pyrimidine nucleosides from the host cell and
+obtains folate only partially from its own pool of
+metabolites. this difference has been exploited to develop antifolate drugs, which specifically inhibit the
+enzymes of the folate biosynthetic pathway in infectious
+microorganisms. the antifolate antimalarial drugs currently used for treatment are synergistic combinations
+of sulfonamides (sulfadoxine, sulfalene, sulfamethoxazole) or sulfones (dapsone) and derivatives of pyrimidine (pyrimethamine, trimethoprim).  xxxd1672xxx 
+(biguanide), in combination with chloroquine (4-aminoquinoline), is used exclusively for chemoprophylaxis.
+
+0166-6851/01/$ - see front matter © 2001 elsevier science b.v. all rights reserved.
+pii: s 0 1 6 6 - 6 8 5 1 ( 0 1 ) 0 0 2 3 0 - 4
+
+242
+
+r. tahar et al. / molecular & biochemical parasitology 113 (2001) 241–249
+
+sulfonamides are structural analogs of paba that inhibit 7,8-dihydropteroate synthase (dhps; ec
+2.5.1.15), an enzyme which regulates the early step of
+folate biosynthesis. pyrimethamine, trimethoprim, and
+cycloguanil (biologically active metabolite of  xxxd1672xxx )
+inhibit  xxxg631xxx  (dhfr;  xxxd3334xxx :nadp+ oxidoreductase, ec 1.5.1.3), which
+catalyzes nadph-dependent reduction of dihydrofolate to tetrahydrofolate. the sequential inhibition of the
+enzymes by the drug combination results in the deprivation of  xxxd3364xxx  monophosphate, leading to
+growth inhibition of the parasites.
+pyrimethamine alone and sulfadoxine-pyrimethamine
+drug combination had been known to be highly active
+against plasmodium falciparum until the emergence of
+drug-resistant strains in the amazon basin and southeast asia in the 1950s and 1960s, initially observed after
+monotherapy and later even with the combination therapy [1]. by contrast, it has been observed in early
+clinical trials that pyrimethamine, alone or in combination with sulfonamides, is clinically less effective against
+p. 6i6ax infections. in both malaria species, clinical
+cases of drug resistance were reported within one or
+two years whenever antifolate drugs have been massively employed in an endemic area [1].
+in recent years, the molecular basis of resistance to
+sulfonamides and dhfr inhibitors (pyrimethamine
+and cycloguanil) has been elucidated in p. falciparum.
+key point mutations leading to the substitution of
+amino acid residues bordering the active site of drug
+targets, dhps and dhfr, play a predominant role in
+determining resistance to both drugs. these amino acid
+substitutions lead to a diminished affinity of altered
+enzymes for antifolate drugs. experimental evidence
+accumulated so far supports the hypothesis that
+pyrimethamine resistance in p. falciparum is determined
+primarily by a ser108asn substitution in dhfr and
+that additional mutations, asn51ile, cys59arg, and
+ile164leu, further increase the level of pyrimethamine
+resistance [2–5]. in addition to these mutations, a
+cys50arg mutation that has been discovered recently in
+bolivian p. falciparum isolates shows an increase in the
+in vitro resistance to pyrimethamine and cycloguanil in
+yeast transformed by a vector carrying p. falciparum
+dhfr insert [6].
+in our earlier study, we have isolated, cloned, and
+sequenced the 1878-bp p. 6i6ax dhfr-ts gene [7]. as in
+other protozoa, p. 6i6ax dhfr and  xxxg2366xxx  (ts; 5,10-methylenetetrahydrofolate: dump cmethyltransferase,  xxxg2366xxx ) are encoded by a single
+gene expressed as a bifunctional enzyme, whereas in
+most organisms, dhfr is a monofunctional monomer.
+the dhfr and ts domains of the gene encode 237
+and 286 amino acid residues, respectively, with a linkage sequence of 100 amino acids between the two
+domains. alignment of the deduced amino acid se-
+
+quences of the dhfr domain from 30 p. 6i6ax isolates
+originating from different geographic locations has
+demonstrated that all pyrimethamine-resistant isolates
+carry the amino acid substitution ser117asn, which is
+homologous to the ser108asn key amino acid substitution in pyrimethamine-resistant p. falciparum strains
+[8,9]. furthermore, mutant dhfr alleles of some p. 6i6ax
+isolates were characterized by the presence of additional
+amino acid substitutions ser58arg and ile173leu,
+which correspond to cys59arg and ile164leu in the p.
+falciparum dhfr gene, respectively. these observations
+suggest
+that
+the
+underlying
+mechanism
+of
+pyrimethamine resistance may be similar in p. falciparum and p. 6i6ax.
+in the present study, we report the heterologous
+expression of the p. 6i6ax dhfr using a pcr-amplified dhfr fragment inserted into escherichia coli pet
+expression vector and the purification procedures of the
+expression product. to confirm the direct implication
+of ser58arg and ser117asn amino acid residue substitutions in pyrimethamine resistance, the kinetic properties of wild-type and mutant p. 6i6ax dhfr were
+determined in the presence of its natural substrates and
+antifolate drugs.
+
+2. materials and methods
+
+2.1. parasite dna
+since p. 6i6ax cannot be easily maintained in continuous in vitro culture, p. 6i6ax-infected venous blood
+samples were collected from european patients consulting bichat-claude bernard hospital in paris, france,
+and burmese patients treated at the dawae district
+hospital in burma. parasite dna was obtained from
+patient blood samples by phenol –chloroform extraction method [7]. in our earlier studies, the complete
+dna sequences of the dhfr domain were determined
+from 30 p. 6i6ax isolates [7,8]. ari/pakistan isolate
+(ser-58/ser-117) and bur-1/burma isolate (arg-58/
+asn-117) represent the pyrimethamine-sensitive and
+pyrimethamine-resistant dhfr-ts genetic profiles,
+respectively.
+
+2.2. p6dhfr plasmid contruct
+the p. 6i6ax dhfr domain was amplified by pcr
+from genomic dna of ari/pakistan and bur-1/
+burma isolates. the following synthetic oligonucleotide
+primers were designed from the complete p. 6i6ax
+dhfr-ts sequence [7], forward primer, 5%-gggggcatatggaggacctttcagatgtatt-3% and
+reverse primer, 5%-gggggggatccttacttgctgtaaaccaaaaagtccagag-3%. the nucleotides of
+the forward primer in small letters correspond to a nde
+
+r. tahar et al. / molecular & biochemical parasitology 113 (2001) 241–249
+
+i restriction site, which incorporates the atg initiation
+codon in frame with the dhfr coding sequence. a bam
+h1 restriction site (in small letters) was introduced into
+the reverse primer downstream of an in-frame termination codon (underlined) just beyond the border between
+the dhfr domain and the junction domain.
+the pcr was performed in a 50-ml mixture containing 500 ng of genomic dna, 15 pmoles of primers, 200
+mm of each of the four deoxynucleoside triphosphates
+(dntp), buffer (25 mm kcl, 5 mm (nh4)2so4, 10
+mm tris, ph 8.8), 2 mm  xxxd2534xxx , and 1 u of pwo
+dna polymerase (roche diagnostics, meylan,
+france). the ptc-100 thermal cycler (mj research,
+watertown, ma) was programmed as follows: 94°c×
+2 min, 50°c×1 min, and 72°c×5 min for the first
+cycle, and 94°c×1 min, 50°c ×1 min, and 72°c× 1
+min for the subsequent cycles, for a total of 30 cycles,
+followed by an additional extension step at 72°c× 15
+min. the amplified product was gel purified, digested
+with nde i and bam h1, and cloned for expression into
+the corresponding restriction sites of the pet 21-b
+vector (novagen). this strategy allows expression of
+the recombinant protein without the t7tag and histag
+of the pet vector.
+
+2.3. protein expression in e. coli
+the expression constructs, pet 21-b pvdhfr ser58/ser-117 and pet 21-b pvdhfr arg-58/asn-117,
+were transformed into bl21-de3 plyss e. coli strain
+(stratagen). for the negative control of recombinant
+protein expression, pet vector without insert was used.
+transformed bacterial clones were grown at 37°c in lb
+medium containing 100 mg ml − 1 ampicillin to an absorbance at 600 nm (a600) of 0.6 – 0.8 u. protein expression was induced by adding isopropyl-1-b-d-thio1-galactopyranoside (iptg) to a final concentration of
+0.5 mm. the cells were grown for an additional 3 h at
+37°c. the cells were separated by centrifugation
+(8000× g for 15 min) at 4°c. the pellets were resuspended in ice-cold phosphate-buffered saline (pbs) solution, washed three times in pbs, and stored at
+− 80°c until use.
+
+2.4. dna sequencing
+although pwo dna polymerase has a higher fidelity
+than taq dna polymerase, the nucleotide sequence of
+the inserts was determined for possible base misincorporation. transformed recombinant plasmid was extracted by alkaline lysis method. dna sequencing was
+performed by the dideoxy chain-termination method.
+both universal and internal primers were used to verify
+that cloned products of the dhfr domain corresponded to the dhfr sequence determined by direct
+sequencing of pcr products, except for the restriction
+
+243
+
+sites introduced into the insert by modifying the pcr
+primers.
+
+2.5. purification of dhfr
+the protein was partially purified using the method
+described by lin and cheng [10]. further purification
+was performed according to the method of sirawaraporn et al. with minor modifications [11]. the bacterial
+pellet was resuspended in 50 ml of 20% sucrose, 0.1
+mm ethylenediaminetetraacetic acid (edta), and pbs,
+ph 7.5, centrifuged at 4000× g for 10 min, resuspended
+in water at 0°c for 10 min to facilitate cell wall lysis,
+and centrifuged at 8000× g for 10 min. the pellet was
+resuspended in 10 ml of solution a consisting of 5 mm
+edta, 0.5 mm phenylmethylsulfonyl fluoride (pmsf),
+20 mg ml − 1 aprotinin, and 1 mg ml − 1 leupeptin. cell
+extracts were prepared by sonication with three 30-s
+pulses at 30-s interval at 50 w using a w-225r sonicator (ultrasonics; plainview, ny). nucleic acids were
+digested by incubating the cell debris with 40 mg ml − 1
+dnase i and 130 u ml − 1 t1 rnase at room temperature for 20 min. the inclusion bodies were diluted in
+solution a (w/v 1:4), centrifuged at 13 000× g for 10
+min, and washed three times in pbs supplemented with
+25% sucrose, 1% triton x-100, and 5 mm edta by
+centrifugation at 4°c (25 000×g for 10 min). inclusion
+bodies were resuspended in 10 ml of solution b (20 mm
+potassium phosphate buffer, ph 7.0, 0.1 mm edta, 5
+mm dithiotreitol (dtt), 200 mm kcl, 5 m guanidine
+hydrochloride) and disrupted by sonication for 5 s.
+after centrifugation (12 000× g for 30 min), the solution was left for 1 h at 0°c under mild agitation.
+protein refolding was achieved by a 20-fold dilution in
+solution b with 20% glycerol and 20 mg ml − 1 aprotinin
+(without guanidine). the suspension was left overnight
+at 4°c with gentle agitation and centrifuged at
+13 500×g for 30 min, and the pellet was discarded.
+refolded active enzyme was purified by affinity chromatography on a methotrexate-agarose column (1.0×
+4.0 cm) pretreated with  xxxd2146xxx  and equilibrated with
+solution b containing 0.2 m kcl. refolded protein was
+circulated twice through the column at a constant flow
+rate of 1 ml min − 1, washed once with solution b
+containing 1 m kcl, and washed with solution b
+containing 50 mm kcl until protein was undetectable
+in the effluent at a280. the elution was performed with
+5 mm dihydrofolate in 40 ml of buffer e (50 mm n-tris
+hydroxymethyl-2-aminoethane sulfonic acid (tes), ph
+7.8, 0.1 mm edta, 5 mm dtt, and 50 mm kcl) at
+a flow rate of 1 ml min − 1, and 2 ml fractions were
+collected. fractions (10 ml) containing dhfr activity
+were pooled. dihydrofolate was removed from pooled
+fractions by either dialysis or gel filtration on a sephadex g-25 column (nap-25 or pd10 column; pharmacia biotech).
+
+244
+
+r. tahar et al. / molecular & biochemical parasitology 113 (2001) 241–249
+
+2.6. protein analysis
+
+3. results
+
+purified protein was concentrated by filtration on a
+ym10 ultrafiltration disc (millipore). sds-page and
+staining with coomassie blue r250 or silver nitrate
+were performed as described [12]. protein concentration
+was determined by bradford dye-binding technique using the standard assay procedure (bio-rad).
+
+3.1. cloning and expression
+
+2.7. dhfr acti6ity assay
+the specific activity of dhfr was determined by
+spectrophotometry (model lambda 2, perkin elmer).
+the reaction mixture (1 ml) consisted of 1 mg of enzyme, 50 mm tes (ph 6.8), 75 mm  xxxd26xxx , and 100 mm dihydrofolate. the reaction was
+initiated by addition of 100 mm nadph to the mixture. the combined decrease in absorbance at 340 nm
+(a340) of nadph and dihydrofolate was monitored for
+2 min at 25°c. one unit of enzyme activity is defined as
+the amount of dhfr required to produce 1 nmol of
+product per min at 25°c using the molar extinction
+coefficient differential of 12 300/m ×cm at 340 nm,
+which takes into consideration the oxidation of
+nadph and the reduction of dihydrofolate.
+
+2.8. kinetic studies
+michaelis –menten constant (km) values for nadph
+and dihydrofolate were determined by varying the concentrations of one substrate within subsaturating range
+and fixing the other substrate at a saturating concentration. for determination of kinetic parameters of
+nadph, its concentration was varied from 2 to 150
+mm, and the concentration of dihydrofolate was kept
+constant at 160 mm. for kinetic studies of dihydrofolate, its concentration ranged between 5 and 260 mm,
+and the concentration of nadph was set at 100 mm.
+to calculate the km values, a least-square nonlinear
+curve describing the michaelis – menten equation was
+fitted to the data using the kaleidagraph software
+(synergy software, inc., pa).
+
+2.9. inhibition assay
+the inhibition of dhfr activity (ki ) by
+pyrimethamine,
+cycloguanil,
+trimethoprim,
+and
+methotrexate was studied by determining the activity of
+dhfr at a constant saturating concentration of
+nadph (100 mm) and various dihydrofolate concentrations, ranging from 10 to 260 mm, in the presence of
+several fixed concentrations of dhfr inhibitors. the
+concentrations of antimalarial drugs that reduce vmax
+from 10–40% were used in the experiments. ki values
+were calculated from the lineweaver – burk equation.
+
+based on our full-length p. 6i6ax dhfr-ts gene sequence, including the 5%-end non-coding region, and
+amino acid sequence alignment with the dhfr-ts gene of
+other plasmodium species, the dhfr domain of the
+bifunctional enzyme was determined to lie between
+residues 1 and 237 (ari/pakistan isolate) or 222 (bur1/burma isolate). this fragment (666 or 711 bp) was
+amplified from genomic dna by pcr using primers
+that incorporate nde i and bam h1 sites at the 5% and
+3% ends, respectively, and the translation termination
+codon taa just after the dhfr domain. the optimal
+pcr amplification conditions were determined to yield
+a single product of the expected size. the pcr product
+was purified from agarose gel, digested with nde i and
+bam h1, and inserted in the pet 21-b e. coli expression vector to yield two constructs, pet 21-b pvdhfr
+ser-58/ser-117 (wild-type enzyme from ari/pakistan
+isolate) and pet 21-b pvdhfr arg-58/asn-117 (double mutant enzyme from bur1/burma isolate). these
+constructs were initially transformed into top 10 f’ e.
+coli cells (invitrogen) for propagation and confirmation
+of their nucleotide sequences. in addition to the nucleotide differences at positions 58 and 117, these two
+constructs differ in the number of ggdn repeat units
+in the region between codons 88 and 106. this motif is
+repeated three times in the wild-type isolate and two
+times in the mutant isolate. further experiments with
+top 10 f’ cells indicated that the expression level of the
+recombinant protein is low.
+subsequent experiments on the expression of p. 6i6ax
+dhfr were performed in bl21-de3 plyss cells. the
+dhfr gene in pet 21-b vector was placed under the t7
+promoter that is recognized by t7 rna polymerase
+but not by e. coli rna polymerase. the e. coli strain
+used for our expression studies expresses a low level of
+t7 lysozyme, which inhibits t7 rna polymerase during bacterial growth, diminishing the risk for cellular
+toxicity due to the overexpressed protein. t7 lysozyme
+also acts on bacterial membranes and facilitates protein
+purification. when the dhfr gene was induced, a 30 kda
+protein accumulated to about 20–30% of the total
+cellular protein detectable by sds-page stained with
+coomassie blue in e. coli transformed with the recombinant vector, but not in e. coli transformed with the
+vector without insert (fig. 1). the yield with bl21-de3
+plyss cells is about five times as much as that of top
+10 f’ cells. analysis of the soluble and insoluble fractions of the bacterial culture indicated that the expression product was concentrated within the insoluble
+inclusion bodies (data not shown).
+
+r. tahar et al. / molecular & biochemical parasitology 113 (2001) 241–249
+
+fig. 1. expression of the p. 6i6ax dhfr after induction in e. coli
+cells. the total protein content of non-induced (lane b) or induced
+(lane c) bl21 de3 plyss e. coli carrying the recombinant plasmid
+pet 21-b containing the wild-type (ari/pakistan) dhfr sequence was
+analysed on sds-page. lane a, molecular mass standards (biorad).
+
+3.2. purification and characterization of the p. 6i6ax
+dhfr
+the recombinant protein in the inclusion bodies of e.
+coli was inactive, requiring solubilization in 5 m
+guanidine hydrochloride as denaturant and protein refolding by dialysis and dilution in the refolding buffer
+c solution (200 mm kcl, 20 mm potassium phosphate, ph 7.0, 100 mm edta, and 10 mm dithiotreitol). the partial purification of the protein from
+inclusion bodies by unfolding and refolding allowed the
+recovery of an active dhfr, which was stable for
+several months when stored at −20°c.
+
+245
+
+the refolded recombinant dhfr was further
+purified to homogeneity by affinity chromatography on
+methotrexate-sepharose column equilibrated with
+buffer c with 0.05 m kcl. our initial experiments
+showed that an irreversible binding occurred between
+dhfr and methotrexate, yielding a very low quantity
+of active protein even with a high concentration (4
+mm) of dihydrofolate in the elution buffer. to reduce
+the high binding force, the column was pre-treated with
+ xxxd2146xxx , and a higher concentration of kcl (increased
+from 50 to 200 mm) was added to the elution buffer.
+furthermore, the remaining protein was eluted with a
+denaturing buffer containing 5 m guanidine hydrochloride. these modifications allowed a considerable increase in the yield of purified, active protein. the
+recombinant dhfr was separated from its natural
+substrate by loading the active fractions onto a gel
+filtration column. the yield of the active enzyme at
+different steps of purification is summarized in table 1.
+the predominant protein in the purified material was a
+30 kda band on sds-page and coomassie blue
+staining, corresponding to the p. 6i6ax recombinant
+dhfr (fig. 2). the final yield of the purified p. 6i6ax
+recombinant dhfr was approximately 0.5 –1.5 mg for
+1 l of e. coli culture.
+
+3.3. kinetic properties
+kinetic constants of the p. 6i6ax dhfr were determined from the enzymatic activity of the wild-type and
+mutant p. 6i6ax dhfr expressed and purified in the
+same experiments for comparison. the protein purified
+from the wild-type, pyrimethamine-sensitive p. 6i6ax
+showed similar activities as those of the protein purified
+from mutant pyrimethamine-resistant p. 6i6ax. the apparent km values for dihydrofolate and nadph measured at ph 7 and 37°c are summarized in table 2.
+the effects of ph and temperature on the activity of
+the wild-type and mutant dhfr were evaluated. the
+activity of dhfr was determined between ph 3 and 9.
+the enzymatic activity diminished considerably within
+the acidic and basic ph ranges (data not shown). the
+optimal enzymatic activity was observed at ph 6.8.
+since the asexual intraerythrocytic malaria parasites
+
+table 1
+purification of recombinant p. 6i6ax dhfra
+procedure
+
+protein (mg)
+
+unfolded protein in inclusion bodies 30
+refolded protein
+8.6
+sepharose column
+1.5
+a
+
+dhfr activity (nmol min−1 mg−1)
+
+total activity (nmol min−1)
+
+yield (%)
+
+392
+745
+1700
+
+11 760
+6444
+2550
+
+100
+54
+22
+
+the quantity of protein in each step was estimated by the bradford assay (bio-rad s.a., ivry-sur-seine, france).
+
+246
+
+r. tahar et al. / molecular & biochemical parasitology 113 (2001) 241–249
+
+fig. 2. sds-page of p. 6i6ax dhfr at different steps of protein purification from e. coli transformed with pet 21-b expression vector
+containing recombinant dhfr. lane 2, total protein content of induced e. coli cells carrying the plasmid pet 21-b with wild-type
+(ari/pakistan) dhfr sequence; lane 3, proteins recovered from inclusion bodies by denaturation and refolding; lane 4, proteins removed when
+washing the inclusion bodies; lane 5, proteins recovered after methotrexate-agarose chromatography. lanes 6 – 9 correspond to the same steps as
+lanes 1 – 4, starting with e. coli cells carrying the plasmid pet 21-b without insert. lane 1, molecular mass standards (pharmacia biotech).
+
+grow best at 37°c in mammalian hosts, the activity of
+the p. 6i6ax dhfr was determined at 25 and 37°c.
+the km values did not vary with temperature changes.
+
+3.4. enzyme inhibition by antifolates
+the kinetics of enzyme inhibition by antifolates was
+evaluated using a lineweaver – burk plot (fig. 3). ki
+values for pyrimethamine, cycloguanil, trimethoprim,
+and methotrexate were higher for the mutant enzyme
+than for the wild-type (table 2). pyrimethamine inhibited the wild-type dhfr with a ki of 64 nm and
+mutant dhfr with a ki of 930 nm. similar ki values
+(67 nm for wild-type and 743 nm for mutant dhfr)
+were obtained with cycloguanil. trimethoprim inhibited
+the wild-type dhfr at a slightly higher ki (98 nm)
+and inhibited the mutant dhfr (ki =143 nm) to a
+similar extent (i. e. less than 2-fold difference in ki ).
+likewise, methotrexate was a potent inhibitor of the
+recombinant p. 6i6ax dhfr and inhibited the wildtype (ki =5.2 nm) and mutant dhfr (ki =6.9 nm) to
+a similar extent. in addition, the lineweaver –burk
+plots indicate that pyrimethamine and cycloguanil are
+non-competitive inhibitors for the two enzymes. however, the lineweaver – burk plots for trimethoprim
+(data not shown) suggests that trimethoprim is a substrate competitor for the wild-type enzyme but a noncompetitor for the mutant. methotrexate is a substrate
+competitor for the two enzymes at low concentration
+but at concentrations above 10 nm, our data (not
+shown) suggest that it becomes a non-competitive inhibitor.  xxxd1672xxx , the parent compound of cycloguanil
+that is metabolized to a biologically active form,
+showed no inhibitory effect on either the wild-type or
+the mutant dhfr (data not shown).
+
+4. discussion
+in earlier studies, the biochemical properties of p.
+falciparum dhfr were determined on crude extracts
+or partially purified enzyme prepared from a large-scale
+in vitro culture [13 –17]. since p. 6i6ax cannot be
+maintained in a continuous in vitro culture with ease
+[18], large quantities of parasite proteins cannot be
+obtained for direct studies using this strategy. more
+recent studies on p. falciparum dhfr have resorted to
+heterologous systems, including e. coli and saccharomyces cere6isiae [6,11,19 –22]. some of the earlier
+attempts to express p. falciparum dhfr in e. coli have
+been unsuccessful or have provided low amounts of
+enzyme. the possible reasons include the high at
+content or toxicity of the gene product for bacteria [20].
+table 2
+kinetic parameters of recombinant p. 6i6ax dhfra
+kinetic parameter wild-type
+(ser-58/ser-117)
+km dihydrofolate 107 9 17
+(mm)
+km nadph
+60 9 14
+(mm)
+ki pyrimethamine 64 98
+(nm)
+ki cycloguanil
+67 912
+(nm)
+ki trimethoprim
+98 917
+(nm)
+ki methotrexate
+5.2 9 0.5
+(nm)
+
+double mutant
+(arg-58/asn-117)
+97 9 8
+70 9 20
+930 9106
+743 9 66
+143 9 5
+6.9 9 1.2
+
+a
+km values did not vary between 25 and 37°c. data in this table
+were obtained at 37°c.
+
+r. tahar et al. / molecular & biochemical parasitology 113 (2001) 241–249
+
+fig. 3. lineweaver– burk plots of (a) the wild-type dhfr (ser-58
+and ser-117, ari/pakistan) and (b) the double mutant dhfr
+(arg-58 and asn-117, bur-1/burma) activities in the presence of
+various concentrations of pyrimethamine. black square, drug-free
+controls; open circle, 40 nm; open triangle, 80 nm; black circle, 400
+nm; black triangle, 1200 nm.
+
+however, a high at content may not, in itself, fully
+explain the inefficient expression of the p. falciparum
+enzymes since some enzymes, such as hypoxanthine
+phosphoribosyl transferase and aldolase, have been expressed in large quantities in spite of a high at content
+in the corresponding gene [23,24]. other possible explanations include inefficient transcription and/or translation and degradation of mrna and/or expressed
+protein in bacteria. the technical difficulty of expressing p. falciparum dhfr gene has been overcome by
+constructing an artificial dhfr gene based on the codons
+used frequently by e. coli [11,21]. recently, however,
+hekmat-nejad et al. [25] have demonstrated that native
+p. falciparum dhfr sequences can be cloned into a t7
+promoter-based expression plasmid for overproduction
+of the expression product in e. coli. in our study on p.
+6i6ax, naturally occurring codons were also used for
+expression in e. coli. there was no apparent toxic effect
+of highly expressed recombinant dhfr on e. coli. the
+major underlying reason may be related to the relatively high gc content of the p. 6i6ax gene (50.8%), as
+
+247
+
+compared with that of p. falciparum homologue
+(25.4%) [7].
+in protozoa, dhfr and ts are on a single polypeptide with a linker region between the two domains [26].
+dna sequence of the p. 6i6ax dhfr-ts gene also suggested that these two enzymes are physically linked and
+bifunctional in p. 6i6ax [7]. earlier expression studies
+on the p. falciparum dhfr and ts, either as a bifunctional protein or separately, have suggested that the ts
+domain and the junctional sequence are not essential
+for the dhfr activity [11,21]. in addition, kinetic
+properties of recombinant p. falciparum dhfr domain alone and those of the bifunctional dhfr-ts are
+similar [11]. based on these observations, we have
+limited our experiments to the activity of dhfr by
+introducing a stop codon just after the dhfr domain
+of the dhfr-ts gene. as in the case of a construct
+containing just the dhfr domain of the p. falciparum
+dhfr-ts gene expressed in e. coli, the p. 6i6ax enzyme
+was produced but was mostly sequestered in an aggregated inactive form in inclusion bodies [11,20]. further
+treatment was necessary to solubilize and reactivate the
+enzyme.
+our kinetic studies showed that km values for the
+wild-type and mutant p. 6i6ax enzymes are similar for
+both dihydrofolate and nadph substrates. in studies
+conducted by sirawaraporn et al. [11,19], lower km
+values (range 1–24.7 mm for dihydrofolate and 1.1 –9.7
+mm for nadph) were obtained with p. falciparum
+recombinant dhfr. in their studies, recombinant
+dhfr with a single mutation (ser108asn) was characterized by higher km values for both dihydrofolate and
+nadph, while the km values of a double mutant
+(ser108asn+ asn51ile) were even lower than those of
+a wild-type dhfr. in another expression study [21],
+the km values (67 mm for dihydrofolate and 90 mm for
+nadph) of the p. falciparum synthetic, recombinant
+dhfr domain were within a similar range as those of
+our studies. however, the km value of dhfr from
+different organisms vary widely, probably due to its
+dependence on ph, temperature, and urea and salt
+concentrations [27,28], rendering the comparison of km
+values of dhfr from different studies difficult.
+the ki values for pyrimethamine, cycloguanil, and
+trimethoprim were considerably higher for the p. 6i6ax
+mutant enzyme than those for the wild-type dhfr.
+our results are in agreement with those obtained by
+other investigators for p. falciparum recombinant enzymes [11,21]. however, the ki values for the p. 6i6ax
+recombinant dhfr were about 25 times higher than
+those for the corresponding p. falciparum enzymes.
+whether this difference between the ki values of p.
+falciparum and p. 6i6ax dhfr is due to an intrinsic,
+lower sensitivity of p. 6i6ax to antifolate drugs, as
+observed in clinical and epidemiological studies, remains to be established [1]. the ki values for  xxxd1672xxx 
+
+248
+
+r. tahar et al. / molecular & biochemical parasitology 113 (2001) 241–249
+
+were not determined since this compound has no inhibitory effect on dhfr activity, even at high concentrations (up to 800 mm). this indicates that while its
+active metabolite, cycloguanil, specifically inhibits
+malarial dhfr, the parent compound,  xxxd1672xxx , does
+not interact with dhfr [29].
+this study is the first successful attempt to clone and
+express the p. 6i6ax dhfr gene in e. coli and purify the
+expression product. the dhfr domain of the bifunctional dhfr-ts enzyme from two isolates, one representing the wild-type sequence and the other presenting
+a double mutation, was cloned into the pet-21b vector.
+these two genotypes were isolated and cloned from
+naturally-occurring parasites from various geographic
+origins [8]. the choice of these genotypes was based on
+the sequence alignment with p. falciparum dhfr, which
+suggested that, of the residues associated with antifolate
+resistance (codons 16, 51, 59, 108, and 164), cys59arg
+and ser108asn substitutions are homologous to the
+ser58arg and ser117asn substitutions in the p. 6i6ax
+gene. in p. falciparum, ser108asn substitution is the
+key mutation that confers resistance to antifolates and
+appear to be the first mutation that occurs, followed by
+other mutations at positions 51 and/or 59, and at
+position 164 after these mutations [4]. the amino acid
+substitutions at codons 58 and 117 were observed frequently in our collection of naturally-occurring p. 6i6ax
+parasites. the amino acid residue at position 15 in the
+p. 6i6ax gene, which corresponds to residue 16 in the p.
+falciparum gene, was invariant (ala). even in p. falciparum isolates, the ala16val substitution is relatively
+rare, at least in africa and asia [4].
+an identical ile164leu substitution occurs at position 173 in p. 6i6ax. the mutant gene from duf/
+french guiana isolate with a triple mutation
+(cys58arg, ser117asn, and ile173leu) and three
+ggdn repeat units was also cloned into the expression
+vector. however, after several experiments conducted in
+identical experimental conditions as the other two dhfr
+genotypes, we failed to obtain an active enzyme from
+the triple mutant. dna sequencing of the mutant gene
+inserted into the pet 21b vector showed no base
+changes, insertions, or deletions, as compared with the
+original sequence determined from genomic dna [8].
+three ggdn repeat units (positions 88 – 106) were
+present in both the wild-type ari/pakistan isolate and
+the triple mutant duf/french guiana isolate. in other
+p. 6i6ax isolates, the three ggdn units were present or
+either partially or totally absent, with apparently no
+influence on the key codons associated with antifolate
+resistance [8]. these observations may suggest that the
+triple mutant recombinant enzyme may be toxic for
+transformed e. coli.
+further analysis of the characteristics of the
+lineweaver –burk plots suggested that pyrimethamine
+
+and cycloguanil, which are specific inhibitors of malarial dhfr, inhibited both wild-type and mutant enzymes in a non-competitive manner. similar
+observations were made for the wild-type p. falciparum
+dhfr, with or without ts, as well as p. chabaudi
+dhfr [19,30]. trimethoprim, a specific inhibitor of
+bacterial, and to some extent, malarial dhfr, seems to
+be a substrate competitor for the wild-type enzyme and
+a non-competitor for the mutant enzyme. methotrexate
+is a potent anti-cancer agent of mammalian cells that
+inhibits wild-type and mutant enzymes at low concentrations in a competitive manner but becomes a noncompetitor at high concentrations. however, these
+results with trimethoprim and methotrexate need to be
+confirmed by more extensive assays since only two
+concentrations of inhibitor were used and the errors at
+high values of 1/v and 1/s may be substantial.
+dhfr is one of the target enzymes that may be
+specifically inhibited and has been clinically useful for
+malaria treatment. although the emergence and spread
+of antifolate resistance in malaria parasites limit the use
+of pyrimethamine and  xxxd1672xxx  in some geographic
+areas, the discovery that new candidate dhfr inhibitors, such as wr99210 and ps-15, retain a comparable, high activity against both the wild-type and
+mutant p. falciparum dhfr in vitro provides a
+promising lead for further development of novel antifolate drugs [6,22,31]. a three-dimensional model of the
+p. falciparum dhfr has also provided insight into the
+mechanisms of action and mechanism of resistance to
+antifolates [32]. furthermore, a structural model of the
+substrate binding site of p. falciparum dhfr has led
+to the identification of potential lead compounds with
+novel chemical structures that are effective against the
+parasites carrying either the wild-type or mutant
+dhfr [33]. these preliminary computer-derived models of the three-dimensional malarial dhfr structure
+may lead to the development of a rational design of
+future antifolate drugs. however, for a more precise
+computer-assisted drug design, a large amount of
+purified dhfr is required, not only for in vitro screening of novel candidate dhfr inhibitors, but also for
+the determination of the x-ray crystallographic structure of the target enzyme. our study shows that this is
+now feasible with the p. 6i6ax dhfr enzyme.
+
+acknowledgements
+we thank professor philippe brasseur and dr pierre
+druilhe for supporting the field studies in burma
+(pep). rt was supported by grants from the fondation de la recherche médicale and société de pathologie exotique (pasteur institute, paris, france).
+
+r. tahar et al. / molecular & biochemical parasitology 113 (2001) 241–249
+
+references
+[1] peters w. chemotherapy and drug resistance in malaria, second
+ed. london: academic press, 1987.
+[2] foote sj, galatas d, cowman af. amino acids in the  xxxg631xxx - xxxg2366xxx  gene of plasmodium falciparum involved in cycloguanil resistance differ from those
+involved in pyrimethamine resistance. proc natl acad sci usa
+1990;87:3014– 7.
+[3] peterson ds, milhous wk, wellems te. molecular basis of
+differential resistance to cycloguanil and pyrimethamine in plasmodium falciparum malaria. proc natl acad sci usa
+1990;87:3018– 22.
+[4] basco lk, eldin de pécoulas p, wilson cm, le bras j, mazabraud a. point mutations in the dihydrofolate reductasethymidylate synthase gene and pyrimethamine and cycloguanil
+resistance in plasmodium falciparum. mol biochem parasitol
+1995;69:135– 8.
+[5] sirawaraporn w, sathitkul t, sirawaraporn r, yuthavong y,
+santi dv. antifolate-resistant mutants of plasmodium falciparum
+ xxxg631xxx . proc natl acad sci usa 1997;94:1124–
+9.
+[6] cortese jf, plowe cv. antifolate resistance due to new and
+known plasmodium falciparum  xxxg631xxx  mutations expressed in yeast. mol biochem parasitol 1998;94:205– 14.
+[7] eldin de pécoulas p, basco lk, tahar r, ouatas t, mazabraud
+a. analysis of the plasmodium 6i6ax dihydrofolate reductasethymidylate synthase gene sequence. gene 1998;211:177– 85.
+[8] eldin de pécoulas p, tahar r, ouatas t, mazabraud a, basco
+lk. sequence variations in the plasmodium 6i6ax dihydrofolate
+reductase- xxxg2366xxx  gene and their relationship with
+pyrimethamine resistance. mol biochem parasitol 1998;92:265–
+73.
+[9] tahar r, eldin de pécoulas p, mazabraud a, basco lk. plasmodium 6i6ax: rapid detection by polymerase chain reaction and
+restriction fragment length polymorphism of the key mutation in
+ xxxg631xxx - xxxg2366xxx  gene associated
+with pyrimethamine resistance. exp parasitol 1998;89:343– 6.
+[10] lin kh, cheng sy. an efficient method to purify active eukaryotic protein from inclusion bodies in escherichia coli. biotechniques 1991;11:748–52.
+[11] sirawaraporn w, prapunwattana p, sirawaraporn r,
+yuthavong y, santi dv. the  xxxg631xxx  domain of
+plasmodium falciparum  xxxg2366xxx - xxxg631xxx . j biol chem 1993;268:21637–44.
+[12] laemmli uk. cleavage of structural proteins during the assembly of head of bacteriophage t4. nature 1974;227:680–5.
+[13] mccutchan tf, welsh ja, dame jb, et al. mechanism of
+pyrimethamine resistance in recent isolates of plasmodium falciparum. antimicrob agents chemother 1944;26:656–9.
+[14] banyal hs, inselburg j. plasmodium falciparum: induction, selection, and characterization of pyrimethamine-resistant mutants.
+exp parasitol 1986;62:61–70.
+[15] dieckmann a, jung a. the mechanism of pyrimethamine resistance in plasmodium falciparum. parasitology 1986;93:275– 8.
+[16] walter rd. altered  xxxg631xxx  in pyrimethamineresistant plasmodium falciparum. mol biochem parasitol
+1986;19:61– 6.
+[17] chen gx, zolg jw. purification of the bifunctional thymidylate
+synthase- xxxg631xxx  complex from the human
+malaria parasite plasmodium falciparum. mol pharmacol
+1988;32:723– 30.
+
+.
+
+249
+
+[18] golenda cf, li j, rosenberg r. continuous in vitro propagation of the malaria parasite plasmodium 6i6ax. proc natl acad
+sci usa 1997;94:6786– 91.
+[19] sirawaraporn w, sirawaraporn r, cowman af, yuthavong y,
+santi dv. heterologous expression of active  xxxg2366xxx - xxxg631xxx  from plasmodium falciparum. biochemistry 1990;29:10779– 85.
+[20] hall sj, sims pfg, hyde je. functional expression of the
+ xxxg631xxx  and  xxxg2366xxx  activities of
+the human malaria parasite plasmodium falciparum in escherichia coli. mol biochem parasitol 1991;45:317– 30.
+[21] sano g, morimatsu k, horii t. purification and characterization of  xxxg631xxx  of plasmodium falciparum expressed by a synthetic gene in escherichia coli. mol biochem
+parasitol 1994;63:265– 73.
+[22] wooden jm, hartwell lh, vasquez b, sibley ch. analysis in
+yeast of antimalaria drugs that target the  xxxg631xxx 
+of plasmodium falciparum. mol biochem parasitol 1997;85:25–
+40.
+[23] dobeli h, trzeciak a, gillessen d, et al. expression, purification, biochemical characterization and inhibition of recombinant
+plasmodium falciparum aldolase. mol biochem parasitol
+1990;41:259– 68.
+[24] keough dt, ng al, winzor dj, emmerson bt, de jersey j.
+purification and characterization of plasmodium falciparum hypoxanthine-guanine-xanthine phosphoribosyltransferase and
+comparison with the human enzyme. mol biochem parasitol
+1999;98:29– 41.
+[25] hekmat-nejad m, lee pc, rathod pk. plasmodium falciparum:
+direct cloning and expression of pyrimethamine-sensitive and
+pyrimethamine-resistant  xxxg631xxx  domains. exp
+parasitol 1997;85:303– 5.
+[26] ivanetich km, santi dv. bifunctional  xxxg2366xxx - xxxg631xxx  in protozoa. faseb j 1990;4:1591–7.
+[27] huennekens fm, mell gp, harding ngl, gundersen le,
+friesheim jh. pteridines. in: iwai k, akino m, goto m,
+iwanami y, editors. chemistry and biology of pteridines.
+tokyo: international academic printing, 1970:329– 50.
+[28] domin ba, cheng yc, hakala mt. properties of dihydrofolate
+reductase from a methotrexate-resistant subline of human kb
+cells and comparison with enzyme from kb parent cells and
+mouse s180 at/3000 cells. mol pharmacol 1982;21:231–8.
+[29] fidock da, nomura t, wellems te. cycloguanil and its parent
+compound  xxxd1672xxx  demonstrate distinct activities against plasmodium falciparum malaria parasites transformed with human
+ xxxg631xxx . mol pharmacol 1998;54:1140–7.
+[30] sirawaraporn w, yuthavong y. kinetic and molecular properties of  xxxg631xxx  from pyrimethamine-sensitive and
+pyrimethamine-resistant plasmodium chabaudi. mol biochem
+parasitol 1984;10:355– 67.
+[31] hekmat-nejad m, rathod pk. plasmodium falciparum: kinetic
+interactions of wr99210 with pyrimethamine-sensitive and
+pyrimethamine-resistant  xxxg631xxx . exp parasitol
+1997;87:222– 8.
+[32] rastelli g, sirawaraporn w, sompornpisut p, et al. interaction
+of pyrimethamine, cycloguanil, wr99210 and their analogues
+with plasmodium falciparum  xxxg631xxx : structural
+basis of antifolate resistance. bioorg med chem 2000;8:1117–28.
+[33] toyoda t, brobey rkb, sano g, horii t, tomioka n, itai a.
+lead discovery of inhibitors of the  xxxg631xxx  domain of plasmodium falciparum dihydrofolate reductasethymidylate synthase. biochem biophys res commun
+1997;235:515– 9.
+

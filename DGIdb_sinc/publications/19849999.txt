@@ -1,0 +1,1251 @@
+analytical biochemistry 397 (2010) 144–151
+
+contents lists available at sciencedirect
+
+analytical biochemistry
+journal homepage: www.elsevier.com/locate/yabio
+
+analysis of activity and inhibition of oxygen-dependent enzymes by optical
+respirometry on the lightcycler system
+alice zitova a, james hynes b, julien kollar a, sergey m. borisov c, ingo klimant c, dmitri b. papkovsky a,*
+a
+
+department of biochemistry, university college cork, cavanagh pharmacy building, cork, ireland
+luxcel biosciences ltd., suite 332, biotransfer unit, bioinnovation centre, ucc, cork, ireland
+c
+institute of analytical chemistry and food chemistry, graz university of technology, technikerstrasse 4, a-8010 graz, austria
+b
+
+a r t i c l e
+
+i n f o
+
+article history:
+received 19 august 2009
+available online 20 october 2009
+keywords:
+enzymatic assays
+monoamine oxidase
+cytochrome p450
+cyclooxygenase
+optical oxygen respirometry
+oxygen-sensitive probes
+phosphorescence
+lightcycler
+
+a b s t r a c t
+there is currently a need for a method capable of measuring the activity and inhibition of biologically relevant oxygenases in a format that enables the convenient, fast, and cost-efﬁcient generation of dose–
+response information. here we describe a low-volume luminescence-based assay for the measurement
+of such oxygen-dependent enzymes. the assay employs a photoluminescent oxygen-sensitive probe
+and glass capillary microcuvettes measured on the roche lightcycler detection platform. three discrete
+types of oxygen probe were evaluated for this application: (i) solid-state coatings, (ii) soluble macromolecular mitoxpress probe, both phosphorescent porphyrin-based, and (iii) a luminescent ir(iii)-based
+nanoparticle probe. measurement parameters were optimised and subsequently applied to the analysis
+of three biologically relevant oxygenases, namely cytochrome p450 (cyp), monoamine oxygenase (mao),
+and cyclooxygenase (cox). cyp enzymes are central players in drug detoxiﬁcation while speciﬁc inhibitors of mao and cox are important for therapeutic intervention and treatment of neurological and
+inﬂammatory diseases, respectively. to determine assay utility, oxygen consumption catalysed by all
+three enzyme types was measured and the effect of speciﬁc inhibitors determined. the panel included
+the mao-a/b inhibitors  xxxd1730xxx , toloxatone, deprenyl, and the cox-1/2 inhibitors niﬂumic acid,
+ xxxd2727xxx , sc-560,  xxxd2423xxx , and phenylbutazone. ic50 values were then compared with literature values. the measurement methodology described allows the low-volume analysis of biologically relevant
+oxygenases and displays the requisite sensitivity and throughput to facilitate routine analysis. it is also
+applicable to other o2-dependent enzymes and enzymatic systems.
+ó 2009 elsevier inc. all rights reserved.
+
+oxygen-consuming enzymes play a central role in many important biochemical pathways and have therefore become the focus of
+attention both as drug targets and as players in drug metabolism.
+important examples receiving attention currently include the
+monoamine oxidase (mao)1, cytochrome p450 (cyp450), and cycloxygenase (cox) families of oxidases.
+maos are ﬂavoprotein enzymes located in the outer mitochondrial membrane. their main function is to inactivate dietary
+amines and neurotransmitters such as serotonin or dopamine [1].
+abnormal mao activity is implicated in neurological disorders
+[2,3], conditions that can be treated with mao inhibitors. thus,
+the mao-b inhibitor deprenyl (phenyl-isopropyl-methyl-propargylamine) is used in the treatment of parkinson disease [4]; mao
+a inhibitor  xxxd1730xxx  [5] inhibits succinate-dependent h2o2 release [6]. cyp450 are important phase 1 enzymes involved in the
+* corresponding author. fax: +353 21 4901698.
+e-mail address: d.papkovsky@ucc.ie (d.b. papkovsky).
+1
+abbreviations used: aa,  xxxd208xxx ; cox, cyclooxygenase; cyp450, cytochrome p450;  xxxg1017xxx , glucose oxidase; mao, monoamine oxygenase; ps, polystyrene.
+0003-2697/$ - see front matter ó 2009 elsevier inc. all rights reserved.
+doi:10.1016/j.ab.2009.10.029
+
+oxidative metabolism of xenobiotics. cyp inhibition and induction
+are being examined earlier in the drug discovery process in an effort to reduce attrition rates [7]. cox, or prostaglandin endoperoxide h synthase, catalyses the oxidation of  xxxd208xxx  (aa) to
+prostaglandin h2 (pgh2) [8,9]. nonsteroidal anti-inﬂammatory
+drugs (nsaids) compete directly with aa, thereby inhibiting cox
+activity [8]. thus, niﬂumic acid selectively inhibits cox-2 [9], phenylbutazone inhibits cox peroxidase activity [10], and sc-560
+(diaryl heterocycle) inhibits both cox-1 and cox-2 [11].
+known modulators of mao and cox activity often show undesirable side effects [12], thus stimulating the search for new compounds and analytical systems for their monitoring. techniques
+such as thin layer chromatography, capillary electrophoresis, and
+high-performance liquid chromatography have been used for analysis of cox and mao [13–15]. the microtitre plate assays providing higher throughput and convenience offer certain advantages
+and therefore are ﬁnding widespread use. examples include ﬂuorogenic cyp substrates [16], mao-glo (www.promega.com), a homogeneous luciferase-coupled luminescence method, and the amplex
+red (dihydroresoruﬁn) method which detects mao-catalysed h2o2
+
+enzymatic screening assays/a. zitova et al. / anal. biochem. 397 (2010) 144–151
+
+production [17]. although sensitive, these methods are indirect
+and often involve coupled reactions, thereby increasing assay complexity and complicating data interpretation. direct measurement
+of enzymatic oxygen consumption is an attractive alternative
+which simpliﬁes the assay procedure. polarographic clark-type
+oxygen electrodes have been used for such measurements [18–
+20]; however, they do not provide the necessary throughout or
+convenience. these limitations can be circumvented through the
+use of quenched-ﬂuorescence oxygen sensing [21–23].
+development of a simple, sensitive, and robust respirometric
+assay requires rational selection of the appropriate probe, measurement format, and detection platform, and subsequent optimisation of the assay parameters to ensure optimal performance.
+probes based on phosphorescent pt(ii)-porphyrins have proved
+their utility for o2 sensing [24], working well within the whole
+physiological range (0–250 lm) of dissolved o2. more recently
+ir(iii)-coumarin complexes displaying bright emission and nearoptimal sensitivity to o2 have been introduced [25]. regarding
+the measurement format, microplate systems are compatible with
+existing detection and liquid handling platforms [23]. however,
+due to the nonoptimal protection from ambient oxygen, their sensitivity is compromised. a more sensitive option is provided by the
+lightcycler system. originally developed for quantitative pcr, this
+system uses narrow-bore glass capillary cuvettes measured on a 48
+sample carousel using blue led excitation (470 nm) and three
+detection channels (green 530 nm, red 640 nm, and far-red
+705 nm). the use of glass capillaries allied to excellent temperature
+control provides a more sensitive and accurate platform for o2 consumption measurements [23].
+in this study, we apply the lightcycler platform to develop a
+sensitive assay for the monitoring of oxygen-dependent enzymatic
+reactions. three different o2-sensitive materials were evaluated
+comparatively: (i) solid-state pt-tetrakis(pentaﬂuorophenyl) porphine-based coatings [26], (ii) a soluble pt-coproporphyrin-based
+macromolecular probe, mitoxpress [27], and (iii) a nanoparticle
+probe based on the iridium(iii) coumarin dye, ir(cs)2(acac) [28].
+measurement parameters were optimised and subsequently applied to the analysis of three biologically relevant oxygenases,
+namely cyp450, mao, and cox, and the effects of speciﬁc inhibitors determined.
+
+materials and methods
+materials
+human recombinant mao a (5 mg/ml, 405 u/ml) and b (5 mg/
+ml, 190 u/ml) both produced from baculovirus-infected insect cells
+and cox-1 from sheep (0.21 mg/ml, 45 ku/ml), cox-2 human
+(0.45 mg/ml, 7 ku/ml), glucose oxidase ( xxxg1017xxx ) produced from
+aspergillus niger, and all substrates and inhibitors were from sigma-aldrich (ireland). cyp1a2 and supermix microsomes were
+from bd gentest. the 20-ll lightcycler capillaries were from
+roche (us). ethyl acetate was from rathburn chemicals (scotland).
+te buffer (0.1 m tris–hcl and 10 mm edta) was from sigma-aldrich (ireland) and tehp buffer contained 1 lm hemoglobin and
+2 mm phenol.
+the mitoxpress probe was from luxcel biosciences (ireland).
+one 10 package of the probe was reconstituted in 100 ll of assay
+medium and used at a working concentration of 5 lm. the nanoparticle probe comprising the polystyrene-poly(vinylpyrrolidone)
+(ps-pvp) block-co-polymer nanobeads (aldrich) impregnated with
+ir(cs)2(acac) (1.5% w/w) was prepared as described previously [29].
+probe stock solution (10 mg/ml) was diluted with assay medium to
+the required working concentration. the solid-state coatings were
+prepared by dissolving pttfpp dye (frontier scientiﬁc, usa) (0.1–
+
+145
+
+0.5 mg/ml) in 1–5% w/w solution of polystyrene (ps) in ethyl acetate, quickly pipetting aliquots of this coating cocktail into glass
+capillaries and centrifuging them for 30 s at 1000 rpm to bring
+the cocktail to the bottom of the capillary. the capillaries were
+then dried under reduced pressure to form an o2-sensitive coating.
+optical measurements
+uv–vis absorption spectra of the probes (range 250–650 nm)
+were measured on an hp8453 diode array spectrometer (agilent,
+usa) in a 1-cm quartz cell. excitation and emission spectra were
+measured on an ls-50b luminescence spectrometer (perkin elmer,
+usa). for spectra analysis, the solid-state pttfpp-ps probe was
+spotted on polyester foil. deoxygenation was achieved using a sodium sulﬁte solution (5 mg/ml of kh2po4 in 7 mg/ml na2so3).
+measuring enzymatic oxygen consumption
+enzymatic oxygen consumption measurements were performed in pb, ph 7 ( xxxg1017xxx ), 100 mm pb, ph 7.4 (for mao a/b),
+0.1 mm tehp buffer, ph 8 (for cox-1/2), or in 100 mm k-phosphate (ph 7.4) containing 1.3 mm nadp+, 3.3 mm  xxxd1292xxx , 1.6 u/ml  xxxg825xxx , and 3.3 mm
+ xxxd2532xxx  (for cyp).
+oxygen probe, enzyme, substrate, and inhibitor where necessary were mixed, with substrate added as the last component to
+initiate the reaction. the 20-ll aliquots were spin-loaded into glass
+capillaries (1000g for 30 s) and, where indicated, an additional 5 ll
+of  xxxd2648xxx  was spin-loaded to reduce diffusion of atmospheric
+oxygen into the sample. oxygen consumption measurements were
+performed by taking phosphorescence intensity readings on the
+lightcycler (roche, us) at regular intervals over a 30- to 120-min
+period. all enzymatic reactions were carried out at 37 °c.
+data processing
+measured time proﬁles of probe signal were processed using
+the previously published algorithm [30], to determine relative
+rates of o2 consumption. brieﬂy, raw ﬂuorescent proﬁles were normalized for the initial intensity and transformed into linear scale.
+the following analytical relationship therefore applies.
+
+iðt 0 þ
+1 þ k sv ½o2 ðt 0 
+¼
+iðtþ  iðt0
+k sv k2 ½et
+
+ð1þ
+
+where i(t0) and i(t) represent initial phosphorescence signal and the
+signal at time t, ksv represents the stern-volmer quenching constant
+of the probe, [o2(t0)] represents the initial, air-saturated, dissolved
+oxygen concentration, while k2 and [e] represent the catalytic constant and enzyme concentration, respectively. this relationship allows linearization of raw phosphorescence proﬁles (using double
+reciprocal plots [31]), with inversed slopes (1/sn) of transformed
+proﬁles proportional to the reaction rate. these values were used
+for the assessment of enzyme activity and inhibition. ic50 values
+were calculated using origin 6.0 (microcal).
+results
+photophysical characterization of the o2-sensitive materials
+spectral characteristics of the three o2-sensitive materials are
+shown in fig. 1. both the mitoxpress probe and the pttfpp-ps coatings have strong excitation bands in the 360–400 nm range (the
+soret band), several minor excitation bands in the visible range
+(500–550 nm), and both emit at 650 nm. the particulate
+ir(cs)2(acac)-based probe is excitable at 350–495 nm and emits
+
+146
+
+enzymatic screening assays/a. zitova et al. / anal. biochem. 397 (2010) 144–151
+tm
+
+mitoxpress
+pttfpp-ps
+ir(cs)2(acac)
+
+1.2
+ch2
+
+blue led
+
+normalised intensity
+
+1.0
+
+0.8
+
+0.6
+
+0.4
+ch1
+ch3
+
+0.2
+
+0.0
+300
+
+350
+
+400
+
+450
+
+500
+
+550
+
+600
+
+650
+
+700
+
+750
+
+wavelengh [nm]
+fig. 1. excitation (300–600 nm) and emission (500–750 nm) spectra of pttfpp-ps
+(+), mitoxpress (), and ir(cs)2(acac) (*) dyes. instrument led excitation band and
+three detection channels (ch1, ch2, ch3) are marked.
+
+nal instability with a baseline ﬂuorescent signal decrease of 10–
+12% per hour. in contrast both mitoxpress and pttfpp coatings
+show no signiﬁcant signal drift (see fig. 3). these observations reﬂect the superior compatibility of the ir(cs)2(acac)-based probe
+with the lightcycler excitation source and are consistent with previous data showing high brightness but moderate photostability of
+the ir(cs)2(acac) dye [29]. the addition of a  xxxd2648xxx  seal atop
+the sample (a seal from ambient oxygen) improved the signal stability of the ir(cs)2(acac) probe (fig. 3) and also stabilised the signal during the monitoring of enzymatic reactions (see below). a
+ xxxd2648xxx  seal was therefore used in all subsequent experiments
+with enzymatic reactions.
+the ﬂuorescence response of the probes to deoxygenation was
+evaluated by comparing their signals under air-saturated and
+deoxygenated conditions at various temperatures. probe responses
+are summarised in table 1. probe signal decreases with increasing
+temperature, an effect which is reduced under deoxygenated conditions due to the absence of molecular oxygen as a collisional
+quencher. based on these data, all three probes appear suitable
+for oxygen consumption-related applications performed on the
+lightcycler.
+performance evaluation
+
+between 550 and 650 nm. it is therefore more compatible with the
+blue led excitation used on the lightcycler instrument.
+use of the pttfpp-ps probe required optimisation of dye and
+polymer concentration and the coating procedure. polymer concentrations of <3% w/w were found optimal for spin loading and
+coating of the glass capillaries. fig. 2 shows the effect of increasing
+concentrations of pttfpp in the coating cocktail on the signals measured at 640 nm. for subsequent experiments, 3 ll loading volumes of 0.1 mg/ml pttfpp-ps in 3% w/w ps were chosen due to
+the stable and robust signal produced. a working concentration
+of the particulate ir(cs)2(acac)-based probe was optimised using
+serial dilution measurements, again performed in 20 ll volumes
+in glass capillaries at 640 nm. a probe concentration of 12.5 lg/
+ml was seen to give moderate and reproducible phosphorescent
+signals (4 rfu, fig. 2), and was selected for subsequent measurements. the mitoxpress probe was optimised for the lightcycler
+system previously [22] and used at 5 lm.
+when measured on the lightcycler, the ir(cs)2(acac)-based
+probe appears to be 20–30 times brighter than ptcp-based mitoxpress probe (see fig. 2). however, the former shows signiﬁcant sig-
+
+80
+12
+60
+
+pttfpp
+
+8
+40
+
+ir(cs)2(acac)
+
+4
+
+20
+mitoxpress
+
+0
+0.01
+
+0.1
+
+1
+
+10
+
+concentration of probe [nmol]
+fig. 2. the effect of different concentrations of ptpfpp-ps (), ir(cs)2(acac) in pspvp (1.5% w/w) (+), and mitoxpress on measured signal in pb at 37 °c. the volume
+of the ptpfpp-ps cocktail applied was 3 ll and ps concentration 3% w/w.
+
+normalised phosphorescence intensity
+
+100
+
+16
+
+phosphorescence intensity of pttfpp-ps
+
+phosphorescence intensity of
+ir(cs)2(acac)/mitoxpress
+
+1.04
+
+120
+
+20
+
+0
+1e-3
+
+assay performance was assessed using the robust  xxxg1017xxx  system.
+using saturating concentrations of glucose (100 mm) a range of
+oxygen proﬁles was generated. increasing enzyme concentration
+increases the rate of oxygen consumption, which is seen as an increase in the rate increase in probe signal. the addition of an oil
+seal does not signiﬁcantly alter the initial rate of signal change
+but does effect the equilibrium intensity by limiting oxygen diffusion back into the system (fig. 4a). such raw intensity proﬁles can
+be linearised (fig. 4b, [30]) to circumvent the nonlinear relationship between probe signal and oxygen concentration (fig. 4b),
+thereby providing more accurate data reduction resulting in more
+precise dose response data (fig. 4c). parallel measurement of up to
+32 samples is possible, allowing the simple, reliable, and accurate
+determination of enzyme activity.
+the mitoxpress probe and pttfpp-based coatings show the
+greatest signal change with the former displaying a superior response time and good reproducibility with cv values of about
+1%. signal changes for the ir(cs)2(acac) probe are smaller. calculated limits of detection (lod) values for  xxxg1017xxx  activity and mitox-
+
+1.00
+
+0.96
+
+0.92
+
+0.88
+
+0.84
+0.0
+
+0.2
+
+0.4
+
+0.6
+
+0.8
+
+time [h]
+fig. 3. stability of baseline signals for samples containing 5 lm mitoxpress (d/s),
+12.5 lg/ml of ir(cs)2(acac) (j/h), and 100 lg/ml pttfpp-ps (?/d) probes, uncovered
+(open symbols) and covered with  xxxd2648xxx  (solid symbols), at 37 °c.
+
+147
+
+enzymatic screening assays/a. zitova et al. / anal. biochem. 397 (2010) 144–151
+
+table 1
+phosphorescence intensities signals of the 12.5 lg/ml ir(cs)2(acac), 0.2 mg/ml pttfpp-ps, and 5 lm mitoxpress-based probes in aerated (pb) and deoxygenated sulfate buffers at
+different temperatures.
+pb
+
+sulﬁte buffer
+
+temp. [°c]
+
+ir(cs)2(acac)
+
+pttfpp-ps
+
+mitoxpress
+
+ir(cs)2(acac)
+
+pttfpp-ps
+
+mitoxpress
+
+25
+37
+53
+
+4.88 ± 0.41
+3.94 ± 0.31
+3.71 ± 0.20
+
+63.24 ± 0.78
+49.26 ± 1.25
+39.11 ± 0.08
+
+4.17 ± 0.19
+2.86 ± 0.13
+1.69 ± 0.18
+
+10.81 ± 1.45
+10.58 ± 1.6
+10.22 ± 1.74
+
+83.38 ± 0.42
+77.26 ± 5.37
+75.81 ± 3.52
+
+20.28 ± 2.42
+14.47 ± 1.77
+6.32 ± 0.72
+
+b 40
+
+5 µm mitoxpress, no oil
+glucose 100 mm
+
+tm
+
+mitoxpress +oil
+m itoxpress
+
+tm
+
+2.4
+
+1.8
+
+ir(cs)2 +oil
+
+2
+
+ xxxg1017xxx  [ng/ml]
+30
+60
+120
+250
+500
+
+30
+
+pttfpp-ps+oil
+pttfpp-ps
+
+i0/(i-i0)
+
+normalised phosphorescence intensity
+
+a 3.0
+
+20
+
+r
+0.9879
+0.9913
+0.9981
+0.9957
+0.9691
+
+10
+
+1.2
+
+ir(cs)2
+
+0.0
+
+0.5
+
+1.0
+
+1.5
+
+0
+
+2.0
+
+0
+
+time [h]
+
+5
+
+10
+
+15
+
+20
+
+1/time [1/h]
+
+c
+
+probe
+ir(cs)2 +oil
+ir(cs)2
+
+5
+
+2
+
+lod of  xxxg1017xxx  [ng/ml] r
+41.86
+0.998
+50.96
+0.994
+tm
+
+mitoxpress +oil 100.46
+tm
+mitoxpress
+122.85
+
+0.997
+0.999
+
+3
+
+0.008
+
+oil
+
+0.007
+0.006
+
+2
+
+slope [h]
+
+1/slope [1/h]
+
+4
+
+0.005
+0.004
+0.003
+
+oil
+
+0.002
+
+1
+
+0.001
+0.000
+probes
+
+0
+0
+
+100
+
+200
+
+300
+
+400
+
+500
+
+600
+
+700
+
+800
+
+900 1000
+
+ xxxg1017xxx  [ng/ml]
+fig. 4. (a) respiration proﬁles of samples containing 500 ng/ml  xxxg1017xxx  enzyme with 100 mm glucose measured with ir(cs)2 (acac), mitoxpress, and pttfpp-ps probes. (b)
+transformed linearised proﬁles for various concentrations of  xxxg1017xxx  (500–30 ng/ml) produced with mitoxpress probe. (c) inversed slopes of linearised proﬁles as a function of
+ xxxg1017xxx  concentration performed with ir(cs)2 (acac) and mitoxpress probes and samples uncovered or covered with  xxxd2648xxx , at 37 °c.
+
+press and ir(cs)2(acac) probes are 122 and 50 ng/ml, respectively.
+with oil-sealed samples, sensitivity increases to 100 and 41 ng/
+ml, respectively. mitoxpress displays a larger signal change per
+unit enzyme and good linearity (fig. 4c, insets).
+oxygenase analysis
+the method was then applied to the analysis of a panel of relevant oxygenases, namely mao a, mao b, cox i and ii, cytochrome
+p450 1a2 isoforms, and supermix microsomes. fig. 5 shows the
+typical data output of such analysis with highly reproducible proﬁles (tight error bars, n = 3). using dopamine and bezylamine as
+substrates for mao a and mao b, respectively, reproducible (cv
+<1%) time proﬁles were obtained, and control proﬁles showed neg-
+
+ligible change (figs. 5a and b), thereby illustrating that mao catalysed oxygen consumption was readily measurable. using
+phenacetin as substrate, large, reproducible signal changes were
+also observed for cyp1a2 and supermix-catalysed oxygen consumption; however, in this instance, enzyme in the absence of substrate showed signiﬁcant oxygen consumption (figs. 5c and d).
+this effect is due to substrate cycling and is more pronounced for
+the supermix preparation than for the single 1a2 isoform. these
+data illustrate that cyp1a2-catalysed oxygen consumption is readily measurable either as a single isoform or as part of the supermix
+preparation and highlights the degree to which substrate conversion is uncoupled from enzyme activity in such systems.
+fig. 6 illustrates the effect of substrate concentration on such
+intensity proﬁles, with increasing concentrations of dopamine
+
+148
+
+b 3.5
+
+3.0
+
+400 µm
+dopamine
+
+62.5 µg/ml mao a
+
+normalised phosphorescence intensity
+
+normalised phosphorescence intensity
+
+a
+
+enzymatic screening assays/a. zitova et al. / anal. biochem. 397 (2010) 144–151
+
+2.5
+
+2.0
+
+1.5
+
+-ctrl
+
+1.0
+
+0.0
+
+0.2
+
+0.4
+
+0.6
+
+0.8
+
+500 µg/ml mao b
+
+2.5
+
+2.0
+
+1.5
+
+-ctrl
+
+1.0
+0.0
+
+1.0
+
+0.2
+
+0.4
+
+time [h]
+
+0.8
+
+1.0
+
+d
+
+4.5
+4.0
+
+0.6
+
+time [h]
+
+7.5 pmol/100 µl
+cyp 1a2
+
+200 µ m phenacetin
+
+3.5
+3.0
+2.5
+2.0
+1.5
+
+0 µ m phenacetin
+
+1.0
+
+no enzyme
+
+normalised phosphorescence intensity
+
+normalised phosphorescence intensity
+
+c
+
+15 mm
+ xxxd314xxx 
+
+3.0
+
+4.0
+3.5
+
+200 µm
+phenacetin
+
+7.5 pmol/100 µl
+tm
+supermix
+
+3.0
+
+0 µm
+phenacetin
+
+2.5
+2.0
+1.5
+
+no
+enzyme
+
+1.0
+
+0.5
+0.0
+
+0.2
+
+0.4
+
+0.6
+
+0.8
+
+1.0
+
+0.0
+
+0.2
+
+time [h]
+
+0.4
+
+0.6
+
+0.8
+
+1.0
+
+time [h]
+
+fig. 5. respiration proﬁles and blanks for the highest feasible enzymes concentrations of mao a (a), mao b (b), cyp1a2 (c), and supermix (d).
+
+b
+
+a
+3.0
+
+12
+
+800 µm
+400 µm
+
+y = 0.0003x + 0.1902
+2
+r = 0.9981
+
+10
+
+2.5
+8
+
+2.0
+
+1/v
+
+normalised phosphorescence intensity
+
+62.5 µg/ml mao a
+
+6
+
+200 µm
+4
+
+1.5
+
+100 µm
+50 µm
+-ctrl
+
+1.0
+
+0.0
+
+0.2
+
+0.4
+
+0.6
+
+0.8
+
+1.0
+
+1.2
+
+time [h]
+
+2
+
+0
+0.00
+
+0.01
+
+0.02
+
+0.03
+
+0.04
+
+1/dopamine [1/µm]
+
+fig. 6. (a) averaged proﬁles (normalized intensity versus time, n = 3) obtained for monitoring 62.5 lg/ml mao a enzyme activity with various concentrations of dopamine
+(800–50 lm), and (b) linear curve of 62.5 lg/ml mao a showing the relation between substrate concentration (dopamine) and rate of reaction (slope). performed with 5 lm
+mitoxpress probe.
+
+causing proportionally larger signal changes, reﬂecting higher
+rates of mao a-catalysed oxygen consumption. concentration
+dependence at low substrate concentrations shows good linearity
+(fig. 6b). similar kinetic data can be generated for other measurable oxygenases (not shown).
+
+for the enzymes under investigation, a panel of relevant substrates was assessed at concentrations at least three times above
+the corresponding km. associated activities and error bars are presented in fig. 7a. dopamine,  xxxd314xxx ,  xxxd208xxx , and
+phenacetin were chosen as substrates for inhibition assays with
+
+149
+
+enzymatic screening assays/a. zitova et al. / anal. biochem. 397 (2010) 144–151
+
+mao a, mao b, cox, and cyp1a2 enzymes, respectively. using
+these substrates, the inhibitory effects of speciﬁc compounds can
+be assessed. fig. 7b presents the level of inhibition caused by a
+ﬁxed inhibitor concentration. this approach would facilitate the
+medium throughput identiﬁcation of enzyme inhibitors. dose–response data can also be generated, as shown for the mao a inhibitor  xxxd1730xxx  (fig. 7c). ic50 values generated in this manner for
+some drugs and enzymes are presented in table 2. calculated
+ic50 values are generally in the same range as literature values with
+the exception of the cox 1 inhibitor sc-560. the assay therefore
+shows good precision and rather small variability of data (error
+bars).
+
+table 2
+half-maximal inhibitory concentration (ic50) for mao and cox inhibitors.
+ic50 [lm]
+
+b
+c
+
+the aim of this work was to develop a robust assay for the activity of oxygen-dependent enzyme systems using quenched-ﬂuorescence oxygen sensing. optimal conditions for monitoring of
+activity of mao a, mao b, cox-1 and cox-2, and cyp isoenzymes
+were established and method applicability was assessed using a
+panel of relevant substrates and inhibitors. the lightcycler system
+was used as it facilitates low-volume (20 ll), high sensitivity, automated oxygen consumption measurements [32]. three discrete
+oxygen-sensitive probes were evaluated for their suitability for
+
+a
+
+200 µm
+phenacetin
+
+-6
+
+75*10
+µmol/ml
+cyp1a2
+
+ xxxd1730xxx 
+toloxatone
+
+0.72 ± 0.11
+1.17 ± 0.04
+
+mao b 125 lg/ml
+
+deprenyl
+
+0.38 ± 0.04
+
+cox 1 50 lg/ml
+
+niﬂumic acid
+phenylbutazone
+sc-560
+niﬂumic acid
+
+5 µg/ml
+cox1
+
+0.14 mm serotonin
+1.4 mm norepinephrine
+1.4 mm epinephrine
+0.24 mm pea
+
+125 µg/ml
+mao a
+250 µg/ml
+mao b
+
+0.4 mm dopamine
+
+15 mm  xxxd314xxx 
+0.4 mm dopamine
+0.14 mm pea
+
+20.31 ± 5.67
+78.41 ± 2.54
+0.33 ± 0.04
+0.22 ± 0.01
+
+published value
+1.2 [35]a
+0.13 [34]b
+–
+4.3 [35]a
+0.6 [34]b
+16 [11]c
+100 [35]c
+0.01 [11]c
+0.1 [9]a
+
+this application: the macromolecular mitoxpress probe, the nanoparticle ir(cs)2(acac) probe, and pttfpp-ps-based solid-state
+coatings.
+in agreement with their spectral and o2-sensing characteristics
+(fig. 1, table 1) and published data [27,29], all three probes can be
+used on the lightcycler. in contrast to mitoxpress and pttfpp-ps
+probes, the ir(cs)2(acac) dye excitation matches the instrument’s
+
+b
+
+-100 µm furafilline (pre-inc)
+
+cyp1a2
+
+0.1 mm aa
+0.1 mm  xxxd1886xxx 
+0.1 mm epa
+0.1 mm aa
+
+mitoxpress
+
+western blot immunoassay.
+spectrometric method a250.
+elisa.
+
+enzyme
+
+enzyme
+
+40 µg/ml
+cox2
+
+inhibitor
+
+mao a 125 lg/ml
+
+cox 2 40 lg/ml
+a
+
+discussion
+
+enzyme
+
+cox 2
+
+1 µm  xxxd2723xxx 
+
+cox 1
+
+1 µm sc-560
+90 µm phenylbutazone
+
+cox 1
+cox 1
+
+50 µm  xxxd2723xxx 
+
+mao b
+
+1 µm deprenyl
+
+mao a
+
+4 µm toloxatone
+4 µm  xxxd1730xxx 
+
+mao a
+--
+
+--0.0
+
+0.5
+
+1.0
+
+1.5
+
+2.0
+
+2.5
+
+0
+
+3.0
+
+c
+
+20
+
+40
+
+60
+
+80
+
+100
+
+% activity
+
+1/normalised slope
+0.9
+0.8
+
+1/normalised slope
+
+0.7
+0.6
+0.5
+0.4
+0.3
+0.2
+0.1
+1e-7
+
+1e-6
+
+1e-5
+
+ xxxd1730xxx  [um]
+fig. 7. (a) the effect of the substrates on 0.25 mg/ml mao b, 0.125 mg/ml mao a, 0.005 mg/ml cox-1, and 0.04 mg/ml cox-2 enzyme activity. (b) effects of selected
+inhibitors on enzyme activity. (c) dose–response curve of inhibition of mao a enzyme activity (0.125 mg/ml) by  xxxd1730xxx  represented by inversed normalised slopes of
+transformed ﬂuorescent proﬁles as a function of inhibitor concentration. t = 37 °c. measured with addition of 5 lm mitoxpress probe, 0.4 mm of dopamine hydrochloride,
+37 °c.
+
+150
+
+enzymatic screening assays/a. zitova et al. / anal. biochem. 397 (2010) 144–151
+
+blue led light source (470 nm). the emission peaks are sufﬁciently
+broad such that the second detection channel provides adequate
+sensitivity for all three probes (fig. 1).the optimum probe concentration was determined (see fig. 2) and concentrations were chosen that provided reproducible, robust and cost-effective
+measurement. under measurement conditions, the ir(cs)2(acac)
+probe displayed the highest brightness allowing the use of nanomolar working concentrations; however, it showed a signal drift
+of 10–12% per hour. this was improved by adding a layer of heavy
+ xxxd2648xxx  (fig. 3) allowing the probe to potentially be used in
+such a system. all three probes displayed adequate signal changes
+on deoxygenation (table 1) and, as expected, this response was
+temperature dependent. the mitoxpress probe displayed the
+greatest and the ir(cs)2(acac) probes the least temperature dependence. these data would suggest that on other platforms, where
+temperature control is not as well regulated, the ir(cs)2(acac)
+probe would provide more consistent results. mitoexpress and
+pttfpp-ps coatings do, however, display a greater signal change
+on deoxygenation.
+using the economical and well-characterised glucose/ xxxg1017xxx  system, a range of oxygen consumption rates were generated, thereby
+mimicking the conditions used with more biologically interesting
+oxygenases. mitoxpress probe gave the largest signal changes
+and proﬁles were very reproducible with cv values of 1%
+(fig. 4a). ir(cs)2(acac)-derived proﬁles were also reproducible with
+cv values of the order around 1% but displayed lower signal
+changes. this agrees with their signal changes on deoxygenation
+(table 1). the oil seal was seen to have little effect on the initial
+rates; however, the point at which equilibrium is reached between
+oxygen consumption and back diffusion is higher in the oil-sealed
+samples and that condition is maintained for a longer period of
+time. pttfpp-ps coatings also display large signal changes but their
+low reproducibility (cvs around 20%) and response times are insufﬁcient for such an application. linearised intensity proﬁles (fig. 4b)
+allow the analysis of limits of detection (lod) for all three probes.
+as the lightcycler interrogates each capillary from the bottom, it
+was postulated that pttfpp-ps coatings would provide superior
+sensitivity to probes distributed uniformly within the sample.
+however, pttfpp-ps measurements were compromised by their
+working performance and no such increase in sensitivity was observed, although there is the potential to improve this via fabrication. the lod values for the ir(cs)2(acac) and mitoxpress probes
+were in the range from 42 to 122 ng/ml of  xxxg1017xxx  (fig. 4c) with the
+latter displaying the largest signal change per enzyme unit. such
+linearization procedures address the majority of compound interferences [30], while analogues probe types can also be employed
+should problematic compounds libraries be encountered [33].
+these data show that, while the pttfpp-ps coatings are not sufﬁciently developed for this application, both ir(cs)2(acac) and
+mitoxpress work well. the latter probe showing the greater signal
+stability was chosen for further analysis.
+to determine its usefulness, the optimised method was applied
+to the analysis of biologically interesting mao a and b, cox i and ii,
+and cyp isoforms. using sufﬁcient, though economically justiﬁable,
+enzyme concentrations, large signal changes and highly reproducible proﬁles were again observed (fig. 5). in the absence of substrate, mao and cox enzymes showed no signiﬁcant signal
+change (figs. 5a and b), while cyp isoforms displayed considerable
+oxygen consumption uncoupled from substrate turnover (fig. 5c
+and d). this effect was more pronounced for the supermix preparation which contains a mixture of cyp isoforms reﬂecting typical
+liver expression levels. for some isoforms such as cyp 2c19 speciﬁc substrate (s-mephenytonin)-derived oxygen consumption is
+all but indistinguishable from this background consumption (data
+not shown). however in instances such as the single 1a2 isoform,
+such consumption can be subtracted to generate useful enzyme
+
+activity data. therefore, the method is applicable to the analysis
+of these enzymes (fig. 6), and also multiple substrates (fig. 7a).
+by choosing the substrate that provides the highest activity, the
+method can be tuned to screen for enzyme inhibitors in a medium-throughput manner. using a simple data processing algorithm, the degree of inhibition is easily determined at ﬁxed
+concentrations of such putative inhibitors (fig. 7b) and the whole
+dose response curve (fig. 7c). ic50 values generated in this manner
+were comparable with literature values, considering the different
+methodologies and enzyme preparations used in generating the
+reference data. signiﬁcant variation with literature exists for certain enzyme–substrate combinations, possibly due the differences
+in methodologies used to generate the data or differences in the
+source of the enzyme used (table 2). of the ic50 values generated
+in this study, sc-560 displays the greatest divergence from the literature. one possible contributory factor to this divergence may be
+that in this work cox-1 is extracted from sheep while in the reference data the enzyme is extracted from sf21 insect cells [11]. such
+divergences do not, however, detract from the fact that such ic50
+values generated using the described method can be used to rank
+compounds based on inhibitory capacity.
+overall, the developed methodology is shown to be of considerable utility in the investigation of oxygenase activity. the widely
+available lightcycler system is well suited for oxygen consumption
+measurements since ambient oxygen is effectively excluded from
+entering the sample. the method is more sensitive than available
+ﬂuorescence-based oxygen consumption assays and provides accurate monitoring of mao and cox and cyp isoenzyme activity with
+adequate sensitivity (nm–mm range), facilitating the screening of
+new chemical entities for inhibitory activity or as a tool for further
+elucidation of a mechanism of action.
+
+acknowledgments
+financial support for this work by the epa, environmental rtdi
+programme 2000–2006 (grant 2006-phd-rca-18-m1) and the
+european commission fp7 programme (project nmp4-sl-2008214706) is gratefully acknowledged.
+
+references
+[1] j.p. johnston, some observations upon a new inhibitor of monoamine oxidase
+in brain tissue, biochem. pharmacol. 17 (7) (1968) 1285–1297.
+[2] j.p. feighner, j. herbstein, n. damlouji, combined maoi, tca, and direct
+stimulant therapy of treatment-resistant depression, j. clin. psychiatry 46 (6)
+(1985) 206–209.
+[3] j. saura et al., increased  xxxg1358xxx  activity in plaque-associated
+astrocytes of alzheimer brains revealed by quantitative enzyme
+radioautography, neuroscience 62 (1) (1994) 15–30.
+[4] j. knoll, k. magyar, some puzzling pharmacological effects of monoamine
+oxidase inhibitors, adv. biochem. psychopharmacol. 5 (1972) 393–408.
+[5] m.b. youdim, y.s. bakhle, monoamine oxidase: isoforms and inhibitors in
+parkinson’s disease and depressive illness, br. j. pharmacol. 147 (suppl. 1)
+(2006) s287–s296.
+[6] f. zoccarato, m. cappellotto, a. alexandre,  xxxd1730xxx  and other
+propargylamine derivatives as inhibitors of succinate-dependent h(2)o(2)
+release at nadh:ubiquinone oxidoreductase (complex i) in brain
+mitochondria, j. bioenerg. biomembr. 40 (4) (2008) 289–296.
+[7] k. venkatakrishnan, l.l. von moltke, d.j. greenblatt, human drug metabolism
+and the cytochromes p450: application and relevance of in vitro models, j. clin.
+pharmacol. 41 (11) (2001) 1149–1179.
+[8] d. picot, p.j. loll, r.m. garavito, the x-ray crystal structure of the membrane
+protein prostaglandin h2 synthase-1, nature 367 (6460) (1994) 243–249.
+[9] j. barnett et al., puriﬁcation, characterization and selective inhibition of human
+ xxxg1883xxx  and 2 expressed in the baculovirus system,
+biochim. biophys. acta 1209 (1) (1994) 130–139.
+[10] g.a. reed, i.o. grifﬁn, t.e. eling, inactivation of prostaglandin h synthase and
+ xxxg1880xxx  by phenylbutazone. requirement for peroxidative
+metabolism, mol. pharmacol. 27 (1) (1985) 109–114.
+[11] c.j. smith et al., pharmacological analysis of  xxxg1883xxx  in
+inﬂammation, proc. natl. acad. sci. usa 95 (22) (1998) 13313–13318.
+
+enzymatic screening assays/a. zitova et al. / anal. biochem. 397 (2010) 144–151
+[12] manja m. krause et al., nonsteroidal antiinﬂammatory drugs and a selective
+ xxxg1884xxx  inhibitor uncouple mitochondria in intact cells, arthritis
+rheum. 48 (5) (2003) 1438–1444.
+[13] r. nageswara rao, s. meena, a. raghuram rao, an overview of the recent
+developments in analytical methodologies for determination of cox-2
+inhibitors in bulk drugs, pharmaceuticals and biological matrices, j. pharm.
+biomed. anal. 39 (3–4) (2005) 349–363.
+[14] k. dittmann, u. riese, m. hamburger, hplc-based bioactivity proﬁling of plant
+extracts: a kinetic assay for the identiﬁcation of monoamine oxidase-a
+inhibitors using human recombinant monoamine oxidase-a, phytochemistry
+65 (21) (2004) 2885–2891.
+[15] r.n. rao et al., development and validation of a reversed-phase liquid
+chromatographic method for separation and simultaneous determination of
+cox-2 inhibitors in pharmaceuticals and its application to biological ﬂuids,
+biomed. chromatogr. 19 (5) (2005) 362–368.
+[16] c.l. crespi, v.p. miller, b.w. penman, microtiter plate assays for inhibition of
+human, drug-metabolizing cytochromes p450, anal. biochem. 248 (1) (1997)
+188–190.
+[17] m. zhou et al., a stable nonﬂuorescent derivative of resoruﬁn for the
+ﬂuorometric determination of trace  xxxd2298xxx : applications in
+detecting the activity of phagocyte nadph oxidase and other oxidases, anal.
+biochem. 253 (2) (1997) 162–168.
+[18] s.w. rowlinson et al., the binding of  xxxd208xxx  in the cyclooxygenase
+active site of mouse prostaglandin endoperoxide synthase-2 (cox-2). a
+putative l-shaped binding conformation utilizing the top channel region, j.
+biol. chem. 274 (33) (1999) 23305–23310.
+[19] e.d. thuresson, k.m. lakkides, w.l. smith, different catalytically competent
+arrangements of  xxxd208xxx  within the cyclooxygenase active site of
+prostaglandin endoperoxide h synthase-1 lead to the formation of different
+oxygenated products, j. biol. chem. 275 (12) (2000) 8501–8507.
+[20] e.d. thuresson et al., prostaglandin endoperoxide h synthase-1: the functions
+of cyclooxygenase active site residues in the binding, positioning, and
+oxygenation of  xxxd208xxx , j. biol. chem. 276 (13) (2001) 10347–10357.
+[21] d.b. papkovsky, methods in optical oxygen sensing: protocols and critical
+analyses, oxygen sensing 381 (2004) 715–735.
+
+151
+
+[22] k. schouest et al., toxicological assessment of chemicals using caenorhabditis
+elegans and optical oxygen respirometry, environ toxicol. chem. (2008) 1.
+[23] f.c. o’mahony et al., optical oxygen microrespirometry as a platform for
+environmental toxicology and animal model studies, environ. sci. technol. 39
+(13) (2005) 5010–5014.
+[24] d.b. papkovsky et al., phosphorescent complexes of porphyrin-ketones—
+optical properties and application to oxygen sensing, anal. chem. 67 (22)
+(1995) 4112–4117.
+[25] m.c. derosa et al., iridium luminophore complexes for unimolecular oxygen
+sensors, j. am. chem. soc. 126 (24) (2004) 7619–7626.
+[26] s.k. lee, i. okura, photostable optical oxygen sensing material: platinum
+tetrakis(pentaﬂuorophenyl)porphyrin immobilized in polystyrene, anal.
+commun. 34 (6) (1997) 185–188.
+[27] h.j. tanke et al., use of platinum coproporphyrin and delayed luminescence
+imaging to extend the number of targets fish karyotyping, cytometry 33 (4)
+(1998) 453–459.
+[28] s.m. borisov, i. klimant, luminescent nanobeads for optical sensing and
+imaging of dissolved oxygen, microchim. acta 164 (2009) 7–15.
+[29] s.m. borisov, i. klimant, ultrabright oxygen optodes based on cyclometalated
+iridium(iii) coumarin complexes, anal. chem. 79 (19) (2007) 7501–7509.
+[30] v.i. ogurtsov et al., data analysis algorithm for high throughput enzymatic
+oxygen consumption assays based on quenched-ﬂuorescence detection sens,
+actuators b 129 (2) (2007) 581–590.
+[31] y. will et al., analysis of mitochondrial function using phosphorescent oxygensensitive probes, nat. protoc. 1 (6) (2006) 2563–2572.
+[32] d.b. papkovsky, j. hynes, y. will, respirometric screening technology for
+adme-tox studies, expert opin. drug metab. toxicol. 2 (2) (2006) 313–323.
+[33] c. o’donovan et al., phosphorescent oxygen-sensitive materials for biological
+applications, j. mater. chem. 15 (27–28) (2005) 2946–2951.
+[34] s. yoshida et al., fluorinated phenylcyclopropylamines. part 3. inhibition
+of  xxxg1357xxx  and b, bioorg. med. chem. 12 (10) (2004)
+2645–2652.
+[35] g. reed, i. grifﬁn, t. eling, inactivation of prostaglandin h synthase and
+ xxxg1880xxx  by phenylbutazone. requirement for peroxidative
+metabolism, mol. pharmacol. 27 (1) (1985) 109–114.
+

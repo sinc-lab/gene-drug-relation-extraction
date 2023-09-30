@@ -1,0 +1,1248 @@
+bioconjugate chem. 2005, 16, 518−527
+
+518
+
+structural, kinetic, and thermodynamic analysis of the binding of
+the 40 kda peg-interferon-r2a and its individual positional
+isomers to the extracellular domain of the receptor ifnar2
+christophe dhalluin,‡ alfred ross,‡ walter huber, paul gerber, doris brugger, bernard gsell, and
+hans senn*
+f. hoffmann-la roche ag department of pharma research ch-4070 basel, switzerland. received
+september 15, 2004; revised manuscript received march 8, 2005
+
+type-i interferons exert antiviral and antiproliferative activities through the binding to a common
+cell surface receptor comprising two subunits,  xxxg1138xxx  and ifnar2. human recombinant interferonr2a (ifnr2a) is a potent drug ( xxxd2862xxx ) used to treat various cancers and viral diseases including
+hepatitis b/c infections. to significantly improve the pharmacological properties of the drug, a
+pegylated form of ifnr2a was developed (pegasys). this 40 kda peg-conjugated ifnr2a (40pegifnr2a) is obtained by the covalent binding of one 40 kda branched peg-polymer to a lysine sidechain of ifnr2a. here, we report the detailed structural, kinetic, and thermodynamic analysis of the
+binding to the extracellular domain of the receptor ifnar2 of 40peg-ifnr2a and its isolated positional
+isomers modified at k31, k134, k131, k121, k164, and k70, respectively, in comparison with
+unmodified ifnr2a. our binding studies, using the surface plasmon resonance technique, show that
+the pegylation does not abolish the binding to the receptor, but significantly reduces the affinity mainly
+due to a change of the association rate. the results are supported by modeling and simulation of the
+binding, using self-avoiding-walk calculations for the polymer conformations. a correlation between
+the structural parameters and the kinetic and thermodynamic parameters of the binding of the
+positional isomers could be established. for the isomer-k31 and -k164, the peg-polymer attachment
+point is located in proximity to the binding interface, and the isomers display affinity in the range
+150-520 nm in an enthalpy-driven binding process. in contrast for the isomer-k134, -k131, -k121,
+and -k70, the peg-polymer is attached remotely from the binding interface, and the isomers exhibit
+a higher affinity (32-76 nm) in an entropy-driven binding process. this study constitutes an essential
+collection of knowledge on which the interaction of 40peg-ifnr2a and its positional isomers with its
+cellular receptors can be better understood.
+
+introduction
+
+type-i interferons (ifns)1 are a family of homologous
+cytokines that potently elicit an antiviral and antiproliferative state in cells (1). human type-i ifn r/beta bind
+to a common cell surface receptor consisting of two
+transmembrane subunits,  xxxg1138xxx  and ifnar2 (2, 3),
+to form a ternary complex (figure 1). ifnar2 is the
+major ligand binding component of the receptor complex,
+exhibiting nanomolar affinity to both ifnr and ifnbeta (4).
+while ifnar2 binds ifns, such as interferon-r2a (ifnr2a)
+* to whom correspondence should be addressed. tel: +41
+(0)61 68 82028; fax: +41 (0)61 68 87408; e-mail: hans.senn@
+roche.com.
+‡ these authors contributed equally to this work.
+1 abbreviations: ifn, interferon; hcv, hepatitis c virus;
+ifnr2a, interferon-r2a; ifnar2ec, extracellular domain of the
+receptor ifnar2; peg, poly(ethylene glycol); 40peg-ifnr2a
+(pegasys) 40 kda branched peg-conjugated interferon-r2a,
+composed of monopegylated positional isomers; monopegylated
+positional isomer, one interferon-r2a molecule with one 40 kda
+branched peg molecule covalently attached at the -amino
+group of a lysine residue of interferon-r2a; 5peg-ifnr2a,
+interferon-r2a modified at the -amino group of a lysine residue
+with a 5 kda linear peg-polymer; saw, self-avoiding-walk;
+sec, size-exclusion chromatography; ls, light-scattering; rphplc, reverse-phase high-performance liquid chromatography;
+spr, surface plasmon resonance; nmr, nuclear magnetic
+resonance.
+
+figure 1. schematic diagram showing the ternary complex
+formed by the binding of infr2a to the human ifn r/beta receptor
+comprising two transmenbrane subunits,  xxxg1138xxx  and ifnar2.
+the ifnr2a structure (35) is reported as a ribbon with r-helices
+in orange and connecting loops and turns in light gray.
+
+with high affinity (kd ∼ 2-10 nm), the intrinsic binding
+affinity of  xxxg1138xxx  to ifnr2a is low (kd > 100 nm). the
+ternary complex mediates activation of numerous genes
+
+10.1021/bc049780h ccc: $30.25 © 2005 american chemical society
+published on web 05/03/2005
+
+peg−interferon-r2a/ifnar2ec receptor complex
+
+through different transduction pathways (5). various
+expression profiles are induced by ifns, apparently
+through the same receptor with particular differences
+between ifnr and ifnbeta. however, the molecular mechanisms underlying the functional differences between
+ifns remain elusive.
+ifns are currently one of the classes of human proteins
+most widely used as therapeutic agents, approved to treat
+various types of cancer and viral diseases. since 1986,
+the medical potential of recombinant human ifnr2a has
+been recognized and the drug ( xxxd2862xxx ) approved for
+the treatment of malignant melanoma, renal cell carcinoma, chronic myelogenous leukaemia, non-hodgkin’s
+lymphoma, and hepatitis b/c infections (8, 9). today, a
+major worldwide health concern is infection by hepatitis
+c virus (hcv). the factors limiting the efficacy of ifnr
+in the treatment of hcv are the pharmacokinetic properties of ifnr, that lead to a short serum half-life of the
+drug: the protein is rapidly degraded, diffuses widely
+throughout the entire body, and has a high rate of renal
+clearance (10, 11).
+one successful way to overcome these limitations has
+been the use of pegylation, the process by which an inert,
+nontoxic, and water soluble poly(ethylene glycol) (peg)polymer is covalently attached to a therapeutic protein
+(12-15).
+an earlier developed pegylated ifnr2a was obtained
+with a 5 kda linear peg-polymer (16). however, this first
+generation of pegylated ifnr2a, 5peg-ifnr2a, did not
+exhibit significant improvements, in terms of pharmacological properties and efficacy, with respect to unmodified ifnr2a (13). based on the latest advancements in
+pegylation technology and a better empirical basis of the
+correlation existing between the peg-polymer characteristics and the resulting pharmacological properties of
+the modified protein (12, 17, 18), a second generation of
+pegylated ifnr2a drug was developed, 40peg-ifnr2a
+(pegasys) (13). here, by the covalent binding of one
+40 kda branched peg-polymer to a lysine side-chain of
+the protein, a mixture of mainly six monopegylated
+positional isomers with distinct in vitro antiviral activity
+is obtained (19). the drug has a superior efficacy over
+ifnr2a, with increased serum half-life and reduced renal
+clearance (9, 20). pegasys received fda approval for
+the hcv treatment in late 2002.
+understanding the molecular basis of the in vitro
+biological activity of 40peg-ifnr2a requires quantitative
+and qualitative interpretation of the structural, kinetic,
+and thermodynamic binding parameters for the interaction of the individual positional isomers with the receptors  xxxg1138xxx  and ifnar2.
+very recently, the nmr solution structure of the
+extracellular domain of the receptor ifnar2 (ifnar2ec)
+has been solved and a model of the ifnr2a/ifnar2ec
+complex reported, presenting a molecular basis for the
+ifn binding mechanism (21). the ifnar2ec binding site
+is formed by an extensive and predominantly hydrophobic
+patch, which interacts with a matching hydrophobic
+surface of ifnr2a, while complementary adjacent motifs
+of alternating charged side-chains provide specific recognition.
+in an accompanying publication we present the structural and biophysical characterization of the individual
+positional isomers of 40peg-ifnr2a (22). in this study,
+we establish the correlation between the structural
+parameters and the kinetic and thermodynamic parameters of the binding of the positional isomers to ifnar2ec.
+the results are compared to those obtained for ifnr2a
+and 5peg-ifnr2a. in addition, we present results on the
+
+bioconjugate chem., vol. 16, no. 3, 2005 519
+
+time-course of the digestion of ifnr2a and 40peg-ifnr2a
+by trypsin that provide evidence for the peg-polymer
+protection against proteolytic degradation. the interpretation of the experimental results is supported by modeling and simulation of the binding of the positional
+isomers with the polymer conformations mimicked as
+self-avoiding-walk (saw) constructs (23). the data
+presented here constitute an important step toward
+understand the rules that govern the in vitro antiviral
+activity of the different positional isomers of 40pegifnr2a and may support in the future the development
+of a third generation of pegylated ifnr2a or other
+pegylated proteins.
+materials and methods
+
+ifnr2a, pegylated ifnr2a and polymer materials.
+the standard recombinant human interferon-r2a,
+ xxxd2862xxx  (ifnr2a) (19.2 kda, 165 amino acids) (8, 24),
+the 40 kda branched peg-conjugated ifnr2a, pegasys
+(40peg-ifnr2a), and the 5 kda linear peg-conjugated
+ifnr2a (5peg-ifnr2a) were obtained from the biopharmaceuticals production department of hoffmann-la
+roche inc., as well the peg-polymer reagents used for
+the pegylation reactions, the n-hydroxysuccinimide ester
+derivative of a 40 kda branched peg-polymer, and the
+pyridinyl carbamate derivative of a 5 kda linear pegpolymer (13, 16, 25). in 5peg-ifnr2a and 40pegifnr2a, the peg-polymer is attached nonspecifically on
+surface exposed -amino group of lysine residues via an
+urea bond and an amide bond, respectively (13, 16). the
+final product of the respective pegylation reactions is a
+mixture of monopegylated ifnr2a conjugates with potentially 11 lysine positions of modification (plus the
+n-terminus).
+very recently, an ion-exchange hplc separation procedure of the positional isomers of 40peg-ifnr2a has
+been developed, and it has been shown that 40pegifnr2a is composed of nine bioactive isomers (19). using
+this isolation method, the four major isomers modified
+at k31, k134, k131, k121 and the two minor isomers
+modified at k164 and k70 were separated with a purity
+of over 97% as determined by analytical ion-exchange
+hplc. these six positional isomers have been extensively analyzed structurally (22) and constitute approximately ∼98% of the protein mixture.
+the molecular weight of ifnr2a protein, based on the
+amino acid content, is 19241 da. the calculated extinction coefficients of ifnr2a and 40peg-ifnr2a are 1.00
+ml‚mg-1‚cm-1 and 1.05 ml‚mg-1‚cm-1, respectively. the
+sample concentration for the pegylated ifnr2as is given
+in mass of protein per unit of volume. in this work, the
+positional isomers refer to the four major and two minor
+monopegylated positional isomers of 40peg-ifnr2a modified at k31, k134, k131, k121, k164, and k70, respectively.
+production of the extracellular domain of ifnar2 receptor and complex formation with
+ifnr2a. ifnar2ec was produced in an e. coli expression
+system and purified by ion-exchange and size-exclusion
+chromatography as previously described (26). the expression yield was ∼5 mg of protein per gram of biomass.
+the molecular weight of ifnar2ec protein (216 amino
+acids ending with the sequence sesaes) determined by
+electro-spray-ionization mass specrometry was 24621 da.
+this is in agreement with the expected mass of 24628
+da. analytical size-exclusion chromatography (sec) on
+a superdex-75 hr10/30 (pharmacia biotech) in 20 mm
+tris/hcl, 100 mm nacl at ph 8.4 coupled to a minidawn
+
+520 bioconjugate chem., vol. 16, no. 3, 2005
+
+light-scattering (ls) detector system (wyatt technology,
+germany) showed that ifnar2ec was monomeric and
+aggregate-free in solution.
+as previously described (27), a (1:1) stoichiometric
+complex ifnr2a/ifnar2ec was prepared and purified by
+sec-ls with a molecular weight of ∼44.5 kda. by
+performing an analytical rp-hplc run of the complex
+ifnr2a/ifnar2ec, the activity of ifnar2ec was determined to be over 95%.
+experimental details of surface plasmon resonance. the binding affinity of ifnr2a, 5peg-ifnr2a,
+40
+peg-ifnr2a, and its positional isomers for ifnar2ec
+was determined by spr measurements on a biacore-3000
+(biacore, sweden) instrument  xxxd1891xxx , 17, 25, 30, and 37
+°c. for all the samples, the measurement was repeated
+in duplicate or triplicate at nine different concentrations
+ranging from 0.6 nm to 1500 nm. the biaevaluation
+program (biacore, sweden) was used to analyze and fit
+the experimental data to a (1:1) biomolecular interaction
+model with mass transport limitation. the binding affinity of the free 5 kda linear and 40 kda branched pegpolymers was evaluated at 25 °c.
+the receptor ifnar2ec was labeled with biotin before
+being immobilized on a streptavidin containing sensor
+surface (sa sensor, biacore-3000). biotinylation was
+performed by mixing a 0.8 mm solution of biotinamidocaproate-n-hydrosuccinimide ester (fluka) in dmso
+to the ifnar2ec solution (0.1 mg‚ xxxg1167xxx  in 10 mm hepes
+buffer at ph 8.4) to get a final concentration of 20 µm of
+biotinylated reagent. after 1 h of reaction, the solution
+was dialyzed overnight in 10 mm hepes buffer at ph
+8.4 to remove excess biotin. immobilization was performed by contacting the biotinylated protein solution,
+diluted to 0.01 mg‚ xxxg1167xxx , with the sa sensor surface. for
+the binding experiments, the amount of immobilized
+protein was controlled via the contact time: 200 ru were
+immobilized, corresponding to approximately 0.2 ng‚mm-2
+of ifnar2ec. the sample and running buffer for the
+binding experiments was 10 mm hepes, 150 mm nacl,
+3 mm cacl2, 0.005% polysorbate-20 at ph 8.4 with a flow
+velocity of 50 µl‚min-1. the acquisition sampling rate
+was 5 points per second. between the measurements no
+regeneration of the sensor surface was needed because
+of the fast dissociation process. typical sensorgram
+responses are shown in figure 2.
+data analysis of spr: equilibrium binding and
+kinetic rate constants. the equilibrium dissociation
+constant kdeq. was determined after analysis of the
+equilibrium spr response with the scatchard analysis:
+the ratio of the sensor response to the ligand concentration was plotted versus the sensor response, and the
+resulting slope of the straight line provided the equilibrium association constant kaeq. ) 1/kdeq.. the association
+and dissociation rates, kon and koff, were determined by
+fitting the time dependent association and dissociation
+phases with a mathematical model for a (1:1) complex
+formation. kdkin. was calculated as koff /kon. in case of fast
+association, kon could not be evaluated with a reliable
+fitting of the association phase. in such a case, only koff
+was obtained by the fitting of the dissociation phase by
+a monoexponential decay curve. the kdeq. value determined by the scatchard analysis of the equilibrium
+sensor response was then used to calculate kon via the
+expression kon ) koff /kdeq.. results obtained are presented
+in table 1.
+equilibrium thermodynamics of the binding to
+ifnar2ec. upon binding of ifnr2a and the pegylated
+ifnr2as to ifnar2ec, the change in free energy ∆g° is
+related to the enthalpy change ∆h°, the entropy change
+
+dhalluin et al.
+
+figure 2. sensorgram response of binding affinity measured
+by spr with immobilized ifnar2ec at 25 °c in contact with:
+(a) ifnr2a at concentrations 100, 80, 40, 20, 10, 5, and 2.5 nm,
+respectively (black line); (b) isomer-k31 at concentrations 1000,
+800, 600, 400, 300, 200 and 150 nm, respectively (blue line);
+(c) isomer-k70 at concentrations 300, 290, 150, 120, 70, 40, 15,
+and 7.5 nm, respectively (red line). for panels a, b, and c, the
+green dashed lines represent the result of global fits using a
+(1:1) biomolecular interaction model. panel d presents the
+overlay of the 100 nm sensorgram response of binding kinetics
+with immobilized ifnar2ec in contact with ifnr2a, the isomerk31 and -k70, colored in black, blue, and red lines, respectively.
+for comparison, the maximum sensorgram response at equilibrium was adjusted to the same level.
+table 1. kinetic parameters kon, koff, kdkin. () koff/kon),
+and kdeq. of the binding to ifnar2ec of ifnr2a,
+40peg-ifnr
+2a and its individual positional isomers, and
+5peg-ifnr a
+2a
+kon 105 m-1‚s-1 koff 10-2 s-1 kdkin., nm kdeq., nm
+ifnr2a
+peg-ifnr2ab
+
+40
+
+27.0
+1.6
+
+1.3
+2.0
+
+5.0
+121
+
+5.5
+124
+
+isomer-k31
+isomer-k164
+
+low affinity (la) isomer
+1.0
+5.2
+2.3
+3.3
+
+520
+150
+
+500
+150
+
+isomer-k134
+isomer-k131
+isomer-k121
+isomer-k70
+5
+peg-ifnr2ac
+
+high affinity (ha) isomer
+2.7
+2.1
+4.8
+1.9
+5.3
+2.1
+5.5
+1.8
+7.4
+1.3
+
+76
+40
+39
+32
+17
+
+77
+43
+40
+32
+17
+
+a spr measurements were done at 25 °c. for all the values,
+the standard error is (10%. b 40peg-ifnr2a is a mixture of
+mainly six monopegylated positional isomers modified at k31,
+k134, k131, k121, k164, and k70, respectively, representing
+∼98% of the mixture (19). c 5peg-ifnr2a is a mixture of 11
+monopegylated positional isomers modified at all the lysine
+positions (16).
+
+∆s°, and the equilibrium association constant kaeq.
+according to the eq 1 with r the gas constant (1.99 ×
+10-3 kcal‚k-1‚mol-1).
+
+∆g° ) ∆h° - t∆s° ) -rt ln kaeq.
+
+(1)
+
+if the enthalpy change does not vary with the temperature, the van’t hoff plot of ln kaeq. versus 1/t results in
+a straight line of slope ∆h°/r.
+
+ln kaeq ) -∆h°/rt + ∆s°/r
+
+(2)
+
+although the intercept, ∆s°/r, provides the entropy,
+a better alternative is to use eq 1. however ∆h° and ∆s°
+
+peg−interferon-r2a/ifnar2ec receptor complex
+
+bioconjugate chem., vol. 16, no. 3, 2005 521
+
+table 2. thermodynamic parameters ∆g°, ∆h°, and
+t∆s°, for the binding to ifnar2ec of ifnr2a,
+40peg-ifnr
+2a and its individual positional isomers, and
+5peg-ifnr a
+2a
+∆g°,
+∆h°,
+t∆s°,
+∆cp°,
+kcal‚mol-1 kcal‚mol-1 kcal‚mol-1 kcal‚mol-1‚k-1
+ifnr2a
+40
+peg-ifnr2ab
+isomer-k31
+isomer-k164
+isomer-k134
+isomer-k131
+isomer-k121
+isomer-k70
+5
+peg-ifnr2ac
+
+-11.2
+-9.4
+
+-5.7
+-3.7
+
+5.5
+5.7
+
+-0.2
+n.d.d
+
+low affinity (la) isomer
+-8.6
+-6.5
+2.1
+-9.3
+-6.0
+3.3
+
+-0.5
+-0.6
+
+high affinity (ha) isomer
+-9.7
+-3.0
+6.7
+-10.0
+-4.6
+5.4
+-10.1
+-3.6
+6.5
+-10.2
+-4.6
+5.6
+-10.6
+-5.4
+5.2
+
+-0.2
+-0.5
+-0.1
+-0.4
+-0.4
+
+a
+
+the values were derived from the van’t hoff analysis of the
+temperature dependence of the binding affinity data at equilibrium. t∆s° is calculated at 25 °c. the temperature dependence of
+the enthalpy and entropy was evaluated by the determination of
+∆cp°. the standard errors for ∆g°, ∆h°, t∆s° were estimated to
+be in the 10% range, and that of ∆cp° was estimated to be in the
+100% range. this estimated was done by a replicate of the kd(t)
+series of ifnr2a which showed a experimental error on kd in the
+10% range. this experimental error was used as noise in a monte
+carlo simulation of the fit parameters of the van’t hoff equation.
+b 40peg-ifnr
+2a is a mixture of mainly six monopegylated positional isomers modified at k31, k134, k131, k121, k164, and k70,
+respectively, representing ∼98% of the mixture (19). c 5pegifnr2a is a mixture of 11 monopegylated positional isomers
+modified at all the lysine positions (16). d n.d. ) not determined.
+
+very often show temperature variations, resulting in a
+non-zero value of the heat capacity change ∆cp°. within
+the temperature range relevant for the study of such
+associations, ∆cp° itself does not vary with temperature.
+the temperature dependence of the equilibrium association constant, kaeq., is then taken into account by
+introducing ∆cp° in the integrated van’t hoff eq 3.
+
+ln(kaeq./k°) ) [(∆h° - to.∆cp°) × (1/to - 1/t) +
+∆cp° ln(to/t)]/r (3)
+here, a nonlinear fitting of the experimental data
+provides ∆h° and ∆cp°. thus, ∆g° and ∆s° were
+calculated using eq 1. the standard temperature to was
+taken to 25 °c. thermodynamic parameters are summarized in table 2.
+monitoring of the in vitro digestion of ifnr2a
+and 40peg-ifnr2a by trypsin. the in vitro digestion
+of ifnr2a and 40peg-ifnr2a by trypsin at room temperature was monitored by successive rp-hplc runs
+spaced in time. rp-hplc experiments were conducted
+with a hewlett-packard 1050 hplc system equipped
+with a supelco-c5 column (4.6 mm inner diameter × 150
+mm length) from sigma-aldrich. proteins were eluted
+using a gradient of acetonitrile in 0.08% trifluoroacetic
+acid and water in 0.1% trifluoroacetic acid at a flow rate
+of 0.25 ml‚min-1 and monitored by absorbance at 214
+nm.
+prior to measurement, ifnr2a and 40peg-ifnr2a
+solutions were dialyzed in 20 mm tris 0.02% nan3 at
+ph 7.4 and subjected to a preparative centrifugation to
+ensure the removal of aggregates. the protein solutions
+were subsequently diluted to a concentration of 0.25
+mg‚ xxxg1167xxx  measured by uv absorbance (280 nm). bovine
+pancreas trypsin of sequencing grade quality was purchased from roche diagnostics (penzberg, germany).
+this  xxxg745xxx  specifically cleaves peptide bonds
+at c-terminally arginine and lysine at an optimum
+
+figure 3. time-course of the in vitro digestion of infr2a and
+40peg-infr , respectively by trypsin monitored with successive
+2a
+rp-hplc runs. for each time point, an aliquot (60 µl) of the
+incubation solution was injected. for both proteins tested, the
+concentration was 0.25 mg‚ xxxg1167xxx  in 20 mm tris 0.02% nan3
+at ph 7.4. the molar ratio (trypsin:protein) was (1:40). in the
+rp-hplc chromatograms, the area of the elution peak, derived
+from the intact protein, was normalized with respect to the area
+of elution peak for the first time-point, i.e., 1 h after incubation.
+
+working ph of 8.0. a stock solution of 1 mg‚ xxxg1167xxx  of
+trypsin was prepared in the buffer specified above. in
+individual sealed vials, the digestion was triggered by
+mixing a specific amount of trypsin solution to 1 ml of
+ifnr2a and 40peg-ifnr2a solutions at 0.25 mg‚ xxxg1167xxx ,
+respectively, to make a molar ratio (1:40; trypsin:protein).
+after 1 h of incubation, the first rp-hplc chromatogram
+was recorded by injecting an aliquot of 60 µl from the
+vials. the monitoring of the in vitro digestion of ifnr2a
+and 40peg-ifnr2a by trypsin was subsequently performed by time-spaced injections of 60 µl from the
+content of the vials over the time-course of the digestion.
+each chromatogram provided a snapshot of the digestion
+at different times with decreasing signals derived from
+intact ifnr2a and 40peg-ifnr2a, respectively, and new
+increasing signals derived from peptide fragments. ifnr2a
+and 40peg-ifnr2a proteins displayed the same retention
+times in all their respective chromatograms. digestive
+time-courses are shown in figure 3.
+self-avoiding-walk and simulation of the binding to ifnar2ec. to structurally understand the differences observed for ifnar2ec binding data of 40pegifnr2a and its positional isomers with respect to ifnr2a,
+a simple kinetic model (28) and numerical simulations
+of the protein-polymer construct were used. in the
+simulation, proteins are modeled as hard spheres of
+defined radii and the polymer-chains represented as an
+ensemble of on-lattice saws. all molecular modeling
+calculations were performed using the molecular modeling package moloc on a pc-workstation (29, 30).
+in a brute force on-lattice representation of a single
+peg-polymer chain the grid in use has to encompass as
+many shells as there are bonds in the chain to prevent
+undesired compaction of the saw. this requires, for a
+40 kda single peg chain of 40peg-ifnr2a a grid
+dimension of 465 (units) × 3 (bonds) ) 1395 shells, not
+tractable by use of the computational power available.
+basic polymer theory (31) shows that a long polymerchain can be represented by a much smaller number of
+nodes if the unit length of the grid is defined by a properly
+selected statistical length that is related to the typical
+direction correlation distance of the polymer.
+to define this statistical length, 1000 saws of 72 steps
+were enumerated on a diamond lattice (dmd) of 72 shells;
+
+522 bioconjugate chem., vol. 16, no. 3, 2005
+
+thus, the saws are never restricted by hitting the
+boundary as they start at the origin. artifactual compaction of saws is excluded.
+direction correlation distance was extracted from
+distance, i.e., number of steps, dependent walk direction
+correlation function, evaluated from the saw ensemble.
+the number of steps over which these correlation functions decayed to e-1 was 1.163.
+for the definition of the statistical length needed,
+connection with real peg chain was made by the
+experimental finding that the ratios for populations of
+gauche and trans steps is 90% for the o-c-c-o
+conformation and 10% for the c-o-c-c links (32).
+thus, the real peg chain loses its direction of propagation approximately every third step, i.e., every monomer.
+from this estimate and the direction correlation length
+of 1.163, diamond lattice walks of ∼465 steps (equal to
+the mean number of units in a 20 kda peg-chain) were
+considered. thus, a reduction in the number of lattice
+shells by a factor of 3, corresponding to a reduction in
+computational time by a factor of 33 was achieved. the
+size of the saws is well below the dimension of the
+corresponding lattices. errors introduced from walks
+bouncing off the lattice surface are prevented.
+due to the scaling of lengths described above, ifnr2a
+has to be represented by a sphere of size 4.36 lattice bond
+distances. the spheres were placed such that the lattice
+origin was at the surface of the sphere. all walks started
+from this origin and could not penetrate to lattice
+vertexes inside the sphere. 4000 saws were generated.
+to evaluate the activation entropic contribution to the
+free energy of protein-protein association, a purely
+entropic model was used. in this model, a test sphere
+representing an approaching protein, e.g. a receptor or
+a protease, of varying radius was placed in the lattice
+box in surface-contact with ifnr2a sphere. this was done
+at various azimuth angles theta with respect to the starting
+point of the saws at the surface of the ifnr2a sphere.
+sphere size and angle dependent contributions were
+obtained by counting the fraction of saws that did not
+penetrate the test sphere. thus, the likelihood that a
+protein in surface-contact with the protein part of the
+pegylated construct intersects with the polymer was
+evaluated. this measure was calculated as the fraction
+of an ensemble of saws intersecting with a test sphere
+in contact with the pegylated protein but positioned at
+different locations with respect to the origin of the saws.
+the result can be displayed as an intersection probability
+p(theta) expressed as an activation entropic contribution
+∆s‡(theta) to the free energy of association by a simple
+boltzmann like relationship given by p(theta) ∝ exp(-∆s‡(theta)/
+kb), with kb the boltzmann constant. to test the influence
+of the lattice type used, we repeated all simulations with
+a simple (sc) a body (bcc) and a face-centered (fcc) cubic
+lattice. it turned out that the type of lattice has only a
+minor influence on the fraction of intersecting walks.
+averages over all lattice types were used for further
+discussion. results are shown in figures 4 and 5.
+results and discussion
+
+experimental results: kinetics and thermodynamics of the binding to ifnar2ec. spr experiments
+provided essential data for dissecting out the kinetics and
+mechanisms involved in the binding of ifnr2a, 5pegifnr2a, 40peg-ifnr2a, and its positional isomers to
+ifnar2ec. all the proteins, including the receptor
+ifnar2ec, were obtained and used in a highly pure
+monomeric and aggregate-free form (see materials and
+
+dhalluin et al.
+
+figure 4. normalized probability of nonintersection [1 - p(theta)]
+of an ensemble of saws of the peg-chains with a test sphere
+positioned in surface contact with the infr2a sphere at an
+azimuth angle theta with respect to the origin of the saw (see
+materials and methods). the origin is defined at the center of
+the infr2a binding epitopes of ifnar2ec (see text). the
+normalization is done with respect to a saw starting on the
+opposite side of the sphere contact point given by [1 - p(180°)].
+two simulations are included: diamond-shaped points connected by a solid line, the diameter of the test sphere was the
+same as the infr2a sphere; triangles connected by a dashed
+line, the diameter of the test sphere was doubled. lines are
+shown to guide the eye. filled circles represent angle corrected
+ratios kon/kon(180°) of experimental kon values of the positional
+isomers. kon(180°) is defined by kon(180°) ) 121kon × p(113°)/
+p(180°), with 121kon the association rate of the isomer-k121. the
+theta-angles are extracted from the literature (21). the definition
+of the x- and y-error bars is given in the text.
+
+figure 5. simulation of the intersection probability p(30°) of
+an ensemble of saws of various peg-polymers with a test
+sphere (same radius as the infr2a sphere) positioned in surfacecontact with the infr2a sphere at an azimuth angle of 30°
+normalized to p(180°) in dependence on the molecular weight
+of a peg-polymer (see materials and methods). clearly seen is
+the plateau of this ratio for a molecular weight beyond 20 kda.
+line is shown to guide the eye. the filled square and triangle
+correspond to a 5 kda and 40 kda peg-polymer, respectively.
+
+methods section) (22). for all the samples, the spr
+sensograms displayed a very good signal-to-noise ratio
+with an increase in the rate and extent of the binding
+with increasing protein concentrations. typical sensorgrams for the binding to ifnar2ec of varying concentrations of ifnr2a and the positional isomers modified at
+-k31 and -k70 are illustrated in figure 2. for all the
+samples, kdkin., kon, and koff could be calculated. the
+binding affinity data extracted from the spr measurements at 25 °c for ifnr2a, 5peg-ifnr2a, 40pegifnr2a, and its individual positional isomers are reported
+in table 1. neither the free 5 kda linear peg-polymer
+nor the free 40 kda branched peg-polymer displayed any
+spr response indicative of an affinity to the receptor
+(data not shown).
+ifnr2a binds to ifnar2ec with a very high affinity
+(kdkin. ) 5 nm). this is in agreement with previously
+reported values and the model recently proposed for the
+complex ifnr2a/ifnar2ec (21, 27, 33, 34). here, the
+binding involves hydrophobic patches of ifnr2a interacting with matching hydrophobic surfaces of ifnar2ec,
+
+peg−interferon-r2a/ifnar2ec receptor complex
+
+bioconjugate chem., vol. 16, no. 3, 2005 523
+
+figure 6. representation of the complex structure infr2a/ifnar2ec obtained by the docking of the two individual nmr structures
+(21, 35). the model has been described and documented in ref 21. the ifnar2ec structure is reported as a space-fill representation.
+the ifnr2a structure is reported as a ribbon with r-helices in orange and connecting loops and turns in light gray. at the lysine
+positions known to be pegylated in the positional isomers of 40peg-infr2a, two short peg-chains are represented as on-lattice
+saws of 20 steps using the molecular modeling package moloc (29, 30). the peg-chains of the class-la isomers at k31 and k164
+are colored in yellow. the peg-chains of the class-ha isomers at k134, k131, k121, and k70 are colored in light green, light blue,
+dark blue, and dark green, respectively. separation between the class-la and -ha isomers is indicated by a dashed line. these
+figures were generated using the rasmol program (48).
+
+while complementary adjacent motifs of alternating
+charged side-chains guide the two proteins in a fast
+association to form a tight complex.
+compared to ifnr2a, the binding affinity of 5pegifnr2a to the receptor is ∼3.4-fold reduced, mainly due
+to a ∼3.6-fold decrease of the association rate. this must
+be attributed to the 5 kda linear peg-polymer. once
+bound, 5peg-ifnr2a dissociates with the same koff as
+ifnr2a. for 40peg-ifnr2a, the binding affinity for the
+receptor is ∼24-fold reduced with respect to ifnr2a.
+again, this is mainly due to a change of the association
+rate: kon decreases by ∼16.8-fold while koff remains
+essentially unaltered. all these results clearly show that
+the pegylation significantly reduces the affinity of the
+pegylated ifnr2a for ifnar2ec without abolishment of
+the binding, and that the affinity is peg-size dependent.
+however, as 40peg-ifnr2a as well as 5peg-ifnr2a is
+a mixture of monopegylated positional isomers (16, 19),
+the kinetic parameters extracted results from the weighted
+contributions of all the components in the mixture.
+therefore, only a careful analysis of the binding of the
+individual isomers to the receptor can provide a clear
+interpretation of the kinetic binding parameters for
+40
+peg-ifnr2a (see below). for 5peg-ifnr2a, the isolated positional isomers were not available.
+each positional isomer of 40peg-ifnr2a exhibits different binding affinity for ifnar2ec, ranging from 32
+nm to 520 nm (table 1). the losses of binding affinity
+are clearly attributable to the 40 kda branched pegpolymer and are dependent on the pegylation site. one
+can identify among the positional isomers two classes
+with respect to the kinetic binding process. the first class,
+called the class-la (la for low affinity), comprises the
+isomer-k31 and -k164, that bind to the receptor with
+lower affinities (150-520 nm). in contrast, the second
+class, called the class-ha (ha for high affinity), comprises the isomer-k134, -k131, -k121, and -k70, that
+interact with the receptor with higher affinities (32-76
+nm). the two classes are directly related to two different
+areas of location of the pegylation sites (figure 6). for
+the class-la isomers, the peg-polymer attachment point
+is located in proximity to the ifnar2ec binding interface
+(21). a high steric hindrance of the protein-protein
+contacts due to the peg-polymer seems therefore to be
+responsible for the reduced binding affinity of these
+isomers. this especially holds true for the isomer-k31
+
+that carries the polymer close to a hot-spot region for the
+interaction with ifnar2ec (33, 34). for the class-ha
+isomers, the peg-polymer is attached remotely with
+respect to the binding interface. this leads to lower
+reduction of binding affinities, certainly due to lower
+steric hindrance by the polymer.
+in all the isomers, the affinity losses are controlled by
+a substantial change of the association rate combined
+with a moderate change of the dissociation rate. the
+models, presented in the molecular modeling and simulation section, explain nicely the reduction in kon experimentally observed for the class-la and -ha isomers by
+∼16-fold and ∼6-fold, respectively. as far as the dissociation rate koff is concerned, only the class-la isomers
+present notable differences with respect to ifnr2a: the
+isomer-k31 and -k164 are released from the complex ∼4fold and ∼2.5-fold faster than ifnr2a, respectively. again
+these differences are attributed to the location sites of
+the peg-polymer. the attachment of the peg-polymer
+at the binding interface may favor a faster release of the
+isomer than in the case where the polymer is located on
+the opposite side of the interface (figure 6). moreover, it
+is known that the charges contribute to the binding
+affinity to ifnar2ec (21, 33, 34). thus for the isomerk31, the removal of one charge by pegylation of k31
+might increase the dissociation rate. in the isomer-k164,
+the high mobility of the c-terminal segment of ifnr2a
+(35) may bring the pegylated residue k164 near to the
+binding interface. thus, the removal of one charge might
+also contribute in this isomer to increase koff.
+experimental results: temperature dependence
+of the equilibrium thermodynamics of the binding
+to ifnar2ec. the thermodynamic analysis of the temperature dependence of the binding affinity data at
+equilibrium, derived from spr measurements, was performed using the van’t hoff analysis. the free energy
+∆g°, the enthalpy change ∆h°, the entropy change ∆s°,
+and the specific heat capacity ∆cp° of the binding of
+ifnr2a and pegylated ifnr2as to ifnar2ec at equilibrium could be determined. the thermodynamic parameters at equilibrium ∆g°, ∆h°, ∆s°, and ∆cp° are
+reported in table 2.
+the high affinity binding of ifnr2a to ifnar2ec is a
+slightly enthalpy-driven process as the free energy of
+binding, ∆g° ) -11.2 kcal‚mol-1, results from an enthalpy contribution of ∆h° ) -5.7 kcal‚mol-1. the
+
+524 bioconjugate chem., vol. 16, no. 3, 2005
+
+formation of electrostatic and hydrophobic contacts and
+hydrogen bonds between the two molecules account for
+this exothermic interaction (∆h° < 0), accompanied by
+an increase of entropy ∆s° also favorable for binding.
+this large entropy contribution suggests that the binding
+may involve a burial of hydrophobic surface, an increase
+in the conformation freedom of the proteins and/or a
+release of bound water molecules (36, 37). water release
+is consistent with a charge compensation occurring at the
+binding interface upon complex formation. in the ifnr2a/
+ifnar2ec model, important electrostatic contacts are
+responsible for driving the two proteins in a tight complex
+(21).
+the binding of 5peg-ifnr2a to ifnar2ec is also a
+slightly enthalpy-driven process, with enthalpy and
+entropy losses of ∼5% and ∼10%, respectively, when
+compared to ifnr2a. these low ∆h° and ∆s° variations
+show the similarities of the thermodynamic binding
+process. in contrast for 40peg-ifnr2a, the binding to
+ifnar2ec is entropy-driven. but it must be noted that
+this change in character is mostly caused by a loss of
+enthalpy by ∼35% while the entropy remains unaltered.
+to provide a detailed description of the thermodynamics
+of binding of 40peg-ifnr2a, each individual positional
+isomer was analyzed (see below).
+upon binding to ifnar2ec, all the positional isomers
+of 40peg-ifnr2a gained enthalpy and entropy. with
+respect to the relative importance of electrostatic and
+hydrophobic contacts involved, this suggests that the
+isomers interact with ifnar2ec globally in a similar
+manner as ifnr2a. interestingly, the class-la binds to
+the receptor, like ifnr2a, in an enthalpy-driven binding
+process. in contrast the binding for the class-ha members, like 40peg-ifnr2a, is entropy-driven. as compared
+to ifnr2a, the class-la isomers present a mean enthalpy
+gain of ∼10%. in contrast, the class-ha isomers display
+a mean enthalpy loss of ∼30%. whether these trends of
+∆h° change are due to alterations of remotely located
+surface charges and/or charges involved in the binding
+cannot be decided with the data available. the differences
+in ∆h° can also be attributed to differences in the details
+of the hydration of the proteins and the peg-polymer
+involved (38, 39). an obvious possibility to explain the
+significant loss of entropy by ∼50% for the class-la
+isomers, is the reduced number of conformations accessible to the peg-polymer due to the steric hindrance of
+mobility arising from ifnr2a and ifnar2ec, and viceversa (36, 40).
+experimental results: peg-polymer protection
+against proteolytic degradation. to evaluate the
+peg-polymer protection against proteolytic degradation,
+the in vitro digestion of ifnr2a and 40peg-ifnr2a by
+trypsin was monitored by rp-hplc. as illustrated in
+figure 3, the area of the normalized signal of intact
+40
+peg-ifnr2a in the chromatograms decreases ∼7-fold
+slower than ifnr2a. this shows a reduction of the in vitro
+proteolytic degradation due to the pegylation of ifnr2a.
+by imposing a steric hindrance on the protein, the pegpolymer limits with a large excluded volume the accessibility for protease. the increased stability against
+proteolytic degradation was also reported for other
+pegylated proteins (41, 42).
+molecular modeling and simulation of binding
+to ifnar2ec. the reduction in binding affinity by a
+factor of ∼24 observed for the 40peg-ifnr2a/ifnar2ec
+complex, as compared to its ifnr2a counterpart, is mainly
+determined by a corresponding difference in the association rate kon (table 1). in general the kinetics of the
+formation of a protein-protein complex can be explained
+
+dhalluin et al.
+
+by the following determinants. the collision rate, at
+which two partners meet, is controlled by the concentration of the two molecules. under diffusion-limited conditions, the collision rate is independent of the molecular
+weight of the partners and their relative orientation. this
+rate constitutes an upper limit and is defined in water
+at 300 k by kcollision ≈ 6.6 × 109 m-1‚s-1 (28). if each hit
+of two molecules would lead to a complex, this value is
+the expected kon of the binding process. however, kon
+values for real proteins are often substantially lower, as
+productive complex formation depends on a correct position and relative orientation of the two partners with
+respect to each other. a correct preorientation of the
+binding partners can, for example, be achieved by longrange electrostatic interactions assuming a freely accessible binding area. in this case, the two binding partners
+can interact and lower the free-energy of the complex
+compared to the unbound state. in the case of the ifnr2a/
+ifnar2ec complex, it is estimated that only one out of
+approximately 2400 collisions leads to an active complex.
+this reduction is related to the ratio of the interaction
+surface to the overall surface of the proteins involved. it
+has been shown that kon scaling is expected to be
+proportional to rh-2, with rh being the hydrodynamic
+radius (28). with the rh scaling argument given above
+and using experimental rh values, kon for 40peg-ifnr2a
+was estimated to be reduced ∼10-fold compared to ifnr2a
+(22). thereby, it is assumed that the size of the contact
+area and the long-range interactions between the proteins are not altered by the presence and location of the
+peg-polymer. already, this simple kinetic model provides a rough estimate for the expected drop of kon and
+kd for pegylated proteins. it has to be emphasized that
+this reduction in kon proportional in rh-2 cannot be
+circumvented by optimized positioning of the polymer
+with respect to the binding interface.
+further reduction of kon is expected if the polymer is
+attached near to or at the edge of the binding interface,
+due to steric hindrance of the formation of specific
+protein-protein contacts. this holds true in the case of
+the class-la isomers (table 1). but also the variations
+in kon between all the isomers in both cases can be
+rationalized as a consequence of different steric interactions in the process of complex formation due to spatial
+differences among the positional isomers. in our model
+elaborated in this work, hindrance is represented as the
+likelihood that a protein, e.g. ifnar2ec, in surfacecontact with the protein domain of the pegylated construct intersects with the polymer. this likelihood was
+calculated as the fraction of an ensemble of saws
+intersecting with a test sphere in contact with the
+pegylated protein. the test sphere is positioned at
+different locations defined by an azimuth angle theta with
+respect to the origin of the saws. the result is displayed
+as an intersection probability p(theta) expressed as an
+activation entropic contribution ∆s‡(theta) to the free energy
+of association (see materials and methods). thus
+[1 - p(theta)] defines the fraction of an approaching protein
+that can form an active complex.
+pictorially, it is clear that the protection of a surfaceelement located on the surface of the ifnr2a sphere
+against a contact with an approaching protein is more
+pronounced if the peg-polymer attachment point is
+located close in space. the normalized function [1 - p(theta)]/
+[1 - p(180°)] is reported for two test sphere radii in
+figure 4. it is a measure to rate the additional repulsive
+effect of the different isomers of 40peg-ifnr2a as
+compared to the hypothetical most remotely attached
+polymer position, i.e., for theta ) 180°. in the complex of
+
+peg−interferon-r2a/ifnar2ec receptor complex
+
+ifnar2ec with the positional isomers, the starting points
+for the saws are defined by the azimuth angle theta between
+the peg-polymer attachment point and the center of the
+binding interface (21). the reference kon value for the
+hypothetical isomer at theta ) 180°, kon(180°), was calculated
+by scaling kon of the isomer-k121 (theta ) 113°) by the factor
+p(113°)/p(180°). a relative contribution for the destabilization of the complex is reported for each individual
+positional isomer with kon in figure 4 by kon/kon(180°). it
+must be noted that the definition of the center of the
+binding interface is somewhat arbitrary. this reflects
+itself in angular theta-error bars given for the experimental
+data points in figure 4. this saw based-model can
+semiquantitatively explain the experimental differences
+in kon observed for the various isomers (table 1). especially, the experimental factor ∼5.5 for the isomer dependent kon variations is nicely reproduced with this
+simulation. in addition, the model predicts that only a
+factor below ∼10 in kon can be gained for hypothetical
+pegylation at theta ∼180° compared to pegylation at the rim
+(theta ∼30°) of the binding interface. of high importance is
+the finding that if the pegylation is performed at an angle
+of at least ∼40° away from the ridge of the binding
+interface, i.e., theta ∼70°, only a ∼2-fold reduction in kon is
+expected compared to the sterically most favorable case
+with theta ) 180° (figure 4). the azimuth angles of all the
+isomers, with the exception of the isomer-k31 and -k164,
+lie in this range. these two isomers display a small theta
+angle, as their pegylation sites are located at or close to
+the rim of the binding interface. however, for the isomerk164, it must be noted that the pegylation site resides
+in the highly flexible c-terminal region of the protein
+(35); therefore, it is not clear whether the extracted angle
+really represents an accurate value valid for the complex.
+one is tempted to increase the theta-angle for the isomerk164 by approximately ∼15° still representing a conformation accessible for the flexible c-terminus without
+steric clash.
+only the isomer-k31 and -k134 experience a kon
+reduced by a factor ∼2.0 compared to the prediction of
+the saw model (figure 4). for the isomer-k31, the
+deviation is in line with the argument that the removal
+of a charge on the side-chain influences the long-range
+interactions needed for the prepositioning of the proteins
+to support complex formation. whether the same holds
+true for the isomer-k134 is not clear.
+to summarize, the variations in kon observed for ifnr2a
+and the individual positional isomers of 40peg-ifnr2a
+(table 1) can be explained with reasonable accuracy by
+taking into account (a) the size (rh) of the unpegylated
+and pegylated ifnr2a (22) and (b) the differences in steric
+hindrance encountered between ifnar2ec and the positional isomers in the process of complex formation. the
+first effect can be semiquantitatively explained by the
+rigid-body association model (28), and the second effect
+by the saw based-model elaborated above. only this
+latter model can convincingly explain the observed variations in binding affinities and association rates for the
+positional isomers.
+the saw based-model can also make a prediction of
+the steric effect for different sizes of peg-polymer attached at various theta-angles on intermolecular interaction.
+figure 5 shows the ratio p(30°)/p(180°), expressing the
+relative hindrance at two extreme angles of peg attachment site (see above) in dependence on the polymer
+molecular weight. this dependence becomes independent
+of the molecular weight of the polymer above 20 kda.
+therefore, very similar if not identical angle dependencies are expected for kon of proteins modified with
+
+bioconjugate chem., vol. 16, no. 3, 2005 525
+
+polymer-chains larger than 20 kda. for smaller pegchains a more pronounced theta-dependence is observed
+(figure 5). a substantially higher reduction of kon relative
+to the relaxed position at theta ) 180° is expected, if pegchains smaller than 20 kda were attached close to the
+binding interface, e.g. in case of a ∼5 kda peg-chain,
+the variations p(30°)/p(180°) are ∼6-times larger than
+that expected for a 20 kda peg-chain.
+in all the positional isomers investigated here, the
+peg-polymer attachment site lies well outside or close
+to the rim of the binding epitopes of ifnr2a. if the
+attachment site were to be within the binding region,
+very pronounced effects on the binding affinity, association and dissociation rates would be expected. in this
+particular case, the flexible polymer-chain would severely
+prevent the correct alignment and interaction of the two
+binding partners, by its steric bulk. in ifnr2a, no lysine
+(with the exception of k31 known to lie close to a hotspot region of binding) is directly within this critical
+region (27, 33). for the stability and endurance of the
+complex, the strength of the electrostatic, hydrogen bond,
+van der waals and hydrophobic (dehydration) interactions are of high importance. these effects, however, have
+only a minor effect on kon (see above), having a higher
+importance once the complex is formed.
+pharmacological effects and molecular properties. the reduction in receptor binding affinity of
+pegylated ifnr2a has direct implications on the in vitro
+biological activity. in the in vitro antiviral assay an
+approximately ∼3-fold and ∼30-fold lower specific activity was observed for 5peg-ifnr2a and 40peg-ifnr2a,
+respectively (16, 19). in the in vivo situation, this pegsize dependent effect is more than counterbalanced by
+the two following positive findings: (a) the prolongation
+of peg-chains goes in hand with an increase in stability
+and protection against proteolytic degradation, and (b)
+bigger particles experience a reduction in renal clearance
+by glomerular filtration (41-43). both effects also depend
+critically on the size of the attached-peg-polymer. the
+size of the pegylated protein particle is given by the
+hydrodynamic radius rh, and as it is dominated by a long
+polymer chain, it increases with mw3/5, with mw the
+polymer molecular weight (22, 31, 44). the simple kinetic
+model described above predicts a increased protection
+against proteolytic degradation roughly proportional in
+∼rh2 (∼mw1.2). an estimate of the protection against the
+proteolytic degradation thus predicts a decrease of the
+digestion rate of 40peg-ifnr2a by a factor ∼10 as
+compared to ifnr2a, in good agreement with the experimentally observed reduction of the in vitro digestion rate
+by a factor of ∼7 (figure 3). previously, it has been shown
+that the pegylation of ifnr2a reduces the tendency of the
+protein for aggregation (22). here, the same rigid-body
+association model predicts that the self-aggregation of
+pegylated ifnr2a by protein-protein interactions is
+reduced by a scaling factor ∼rh-4. this remains to be
+confirmed experimentally. due to the low concentration
+of the drug in the body, aggregation is expected to be of
+minor importance after the substance is administered.
+however, reduced aggregational property is essential
+while the protein is maintained in its formulation at
+higher concentration. it is well conceivable that this rh-4
+dependence also relates to the substantially reduced rate
+of self-digestion if a polymer is attached on proteases (45,
+46). steric hindrance of protein approach brought about
+by the large hydrodynamic volume of the peg-polymer
+(22) can also account for the significantly improved
+immunological properties of 40peg-ifnr2a (9), as the
+immune system requires the recognition of the antigen.
+
+526 bioconjugate chem., vol. 16, no. 3, 2005
+
+clinical data show that the half-life of 40peg-ifnr2a
+in the blood is at least by a factor of ∼8 longer than
+ifnr2a (20). the new drug pegasys has superior
+efficacy over ifnr2a. the reduced receptor affinity of
+40
+peg-ifnr2a and its correspondingly reduced in vitro
+antiviral activity is thus more than compensated by the
+dramatically increased efficacy due to the significantly
+improved half-life in the blood.
+impact for future molecular design of pegylated
+proteins. the data, presented in this work and the
+accompanying paper (22), provide a solid collection of
+knowledge on variously pegylated ifnr2a. they contribute to a better understanding of the molecular framework
+responsible for improved structural stability, binding
+interaction, and pharmacological properties of pegylated
+proteins in general. thus, future research and technology
+to optimize and tailor the pharmacological properties of
+proteins by pegylation may be rationally guided. some
+of the methods presented already constitute new indispensable tools in the quality control of pegylated ifnr2as
+(22). for design purposes, the dependence of the intermolecular association rate kon on polymer size found (∼1/
+rh2 ∝ 1/mw1.2), and its modulation by the spatial location
+of the peg attachment site are of great interest. if
+possible the peg-polymer attachment sites should be
+located as remotely as possible from the protein binding
+interface, but angles above ∼40° away from the rim of
+the binding interface already lead to only a minor
+decrease of the association rate kon as compared to the
+maximum value achievable by a given size of the pegpolymer. the angle dependent effect is expected to be
+more pronounced for polymer chains of lower molecular
+weight (<20 kda). if the size of proteins that interact
+with the pegylated-protein drugs increases, the angular
+dependencies of kon become more pronounced (figure 4),
+but the dependency on peg-size decreases (data not
+shown). thus, the theta-dependent shielding is more critical
+in the case of interaction with large protein-receptors
+than with smaller proteins or enzyme substrates. the
+simulations presented may also help to decide about the
+feasibility of single versus multiple pegylation sites in
+dependence of peg-polymer mw and structural details
+of molecular recognition.
+conclusion. here, we report a detailed analysis of the
+binding to ifnar2ec of 40peg-ifnr2a and its positional
+isomers modified at k31, k134, k131, k121, k164, and
+k70 respectively, as compared to ifnr2a and 5pegifnr2a. our results clearly show that the affinity for the
+receptor is peg-size dependent with no abolishment of
+the binding, and that the pegylation significantly reduces
+the affinity mainly due to a change of the association rate
+kon. these results are in agreement with modeling and
+simulation of the binding, based on saw calculation. a
+correlation between the structural parameters and the
+kinetic and thermodynamic parameters of the binding
+of the positional isomers could be established. for the
+isomer-k31 and -k164, the peg-polymer attachment
+point is located in proximity of the binding interface, and
+the isomers display the lower affinity in an enthalpydriven binding process. in contrast, for the isomer-k134,
+-k131, -k121, and -k70, the peg-polymer is attached
+remotely from the binding interface and the isomers
+exhibit the higher affinity in an entropy-driven binding
+process. with the rp-hplc monitoring of the timecourse in vitro digestion of ifnr2a and 40peg-ifnr2a
+by trypsin, we also provided evidence for a decrease of
+the proteolytic degradation due to pegylation.
+with the work presented in this study we compiled a
+solid collection of knowledge regarding the structural,
+
+dhalluin et al.
+
+kinetic, and thermodynamic parameters of the binding
+of 40peg-ifnr2a and its positional isomers to ifnar2ec.
+this constitutes a molecular basis for a better understanding of receptor binding mechanisms and the relationship between the structure and the biological function
+of the positional isomers.
+at this level of the knowledge, relating the variations
+in the in vitro antiviral activity (foser 2003) of the
+positional isomers with the structural, kinetic, and
+thermodynamic parameters of their binding to ifnar2ec
+is highly speculative and out of scope of this study. indeed
+even if the putative binding interface between ifnr2a and
+the receptor  xxxg1138xxx  could be postulated (21, 47), essential binding affinity data defining the interaction to
+the second receptor  xxxg1138xxx  and other data are yet to
+be determined. all these data taken together will help
+in the future to potentially identify pegylation sites of
+enhanced in vitro biological activity where the pegpolymer is most remotely attached with respect to both
+ xxxg1138xxx  and ifnar2 binding sites. this could lead to a
+third generation of pegylated ifnr2a.
+acknowledgment
+
+we would like to thank j. kohler for her help in
+experimental work, drs. p. bailon and g. ehrlich for
+giving us the 5 kda peg-conjugated ifnr2a material,
+and drs. j. anglister and j. chill for providing us the
+coordinates of the ifnr2a/ifnar2ec complex structure
+prior to publication. we acknowledge drs. s. foser, w.
+klaus, t. schreitmüller, r. thoma, and k. weyer for
+fruitful discussions and dr. h. jacobsen for his help and
+advice to produce and cleave the receptor protein. we
+thank dr. d. banner for a careful reading of the manuscript.
+literature cited
+(1) isaacs, a., and lindenmann j. (1957) virus interference i:
+the interferon. proc. r. soc. ser. b 147, 258-267.
+(2) uze, g., lutfalla, g., and gresser, i. (1990) genetic transfer
+of a functional human interferon-r receptor into mouse
+cells: cloning and expression of its cdna. cell 60, 225-234.
+(3) novick, d., cohen, b., and rubinstein, m. (1994) the human
+interferon-r/beta receptor: characterization and molecular cloning. cell 77, 391-400.
+(4) cohen, b., novick, d., barak, s., and rubinstein, m. (1995)
+ligand induced association of the type-i receptor components.
+mol. cell. biol. 15, 4208-4214.
+(5) stark, g., kerr, i., williams, b. r. g., silverman, r., and
+schreiber, r. (1998) how cells respond to interferons. annu.
+rev. biochem. 67, 225-264.
+(6) rani, m. r. s., foster, g. r., leung, s., leaman, d., stark,
+g. r., and ransohoff, r. m. (1996) characterization of beta-r1,
+a gene that is selectively induced by  xxxg1140xxx  (ifn- beta)
+compared with  xxxg1139xxx . j. biol. chem. 271, 22878-22884.
+(7) der, s. d., zhou, a., williams, b. r., and silverman, r. h.
+(1998) identification of genes differentially regulated by
+interferon r, beta or gamma using oligonucleotide arrays. proc. natl.
+acad. sci. u.s.a. 95, 15623-15628.
+(8) baron, s., tyring, s. k., fleischmann, w. r., coppenhaver,
+d. h., niesel, d. w., klimpel, g. r., stanton, j., and hughes,
+t. k. (1991) the interferons, mechanisms of action and
+clinical applications. jama 266, 1375-1383.
+(9) harris, j. m., martin, n. e., and modi, m. (2001) pegylation,
+a novel process for modifying pharmacokinetics. clin. pharmacokinet. 40, 539-551.
+(10) rostaing, l., chatelut, e., payen, j. l., izopet, j., thalamas, c., ton-that, h., pascal, j. p., duramd, d., and canal,
+p. (1998) pharmacokinetics of alphaifn-2b in chronic hepatitis c virus patients undergoing hemodialysis or with normal
+renal function: clinical implications. j. am. soc. nephrol. 9,
+2344-2348.
+
+peg−interferon-r2a/ifnar2ec receptor complex
+(11) zeuzem, s. (1999) clinical implications of hepatitis c viral
+kinetics. j. hepatol. 31, 61-64.
+(12) bailon, p., and berthold, w. (1998) poly(ethylene glycol)conjugated pharmaceuticals proteins. pharm. sci., technol.
+today 1, 352-356.
+(13) bailon, p., palleroni, a., schaffer, c., spence, c., fung, w.,
+porter, j., ehrlich, g., pan, w., xu, z. x., modi, m., farid,
+a., and berthold, w. (2001) rational design of a potent, long
+lasting form of interferon: a 40 kda branched polyethylene
+glycol-conjugated interferonr-2a for the treatment of hepatitis c. bioconjugate chem. 12, 195-202.
+(14) youngster, s., wang, y. s., grace, m., bausch, j., bordens,
+r., and wyss, d. f. (2002) structure, biology, and therapeutic
+implications of pegylated  xxxg1137xxx -2b. curr. pharm.
+des. 8, 2139-2157.
+(15) harris, j. m., and chess, r. b. (2003) effect of pegylation
+on pharmaceuticals. nat. rev. drug discovery 2, 214-221.
+(16) monkarsh, s. p., ma, y., aglione, a., bailon, p., ciolek,
+d., debarbieri, b., graves, m. c., hollfelder, k., michel, h.,
+palleroni, a., porter, j. e., russoman, e., roy, s., and pan,
+y. c. (1997) positional isomers of monopegylated interferonr2a: isolation, characterization, and biological activity. anal.
+biochem. 247, 434-440.
+(17) fung, w. j., porter, j. e., and bailon, p. (1997) strategies
+for the preparation and characterization of poly-(ethylene
+glycol) (peg) conjugated pharmaceutical proteins. polym.
+prepr. 38, 565-566.
+(18) caliceti, p,. schiavon, o., and veronese, f. m. (1999)
+biopharmaceutical properties of urecase conjugated to neutral
+and amphiphilic polymers. bioconjugate chem. 10, 638-646.
+(19) foser, s., schacher, a., weyer, k. a., brugger, d., dietel,
+e., marti, s., and schreitmüller, t. (2003) isolation, structural
+characterization, and antiviral activity of positional isomers
+of monopegylated  xxxg1137xxx -2a. j. prot. exp. purif. 30,
+78-87.
+(20) algranati, n. e., sy, s., and modi, m. (1999) a branched
+methoxy 40 kda  xxxd2982xxx  (peg) moiety optimizes
+the pharmacokinetics (pk) of peginterferon r-2a (peg-ifn)
+and may explain its enhanced efficacy in chronic hepatitis c
+(chc). hepatology 30, 4 pt 2, 190a.
+(21) chill, j., quadt, s., levy, r., schreiber, g. and anglister,
+j. (2003) the human  xxxg1139xxx : nmr
+structure reveals the molecular basis of ligand binding.
+structure 11, 791-802.
+(22) dhalluin, c., ross, a., leuthold, l. a., foser, s., gsell, b.,
+müller, f., and senn, h. (2005) structural and biophysical
+characterization of the 40 kda peg-interferon-r2a (pegasys) and its individual positional isomers. bioconjugate
+chem. 16, accompanying paper in this issue.
+(23) flory, p. j. (1969) statistical mechanics of chain molecules,
+wiley-interscience, new york.
+(24) hochuli, e. (1986) large-scale recovery of interferonr-2a
+synthesized in bacteria. chimia 40, 408-412.
+(25) kozlowski, a., and harris, j. m. (2001) improvements in
+protein pegylation: pegylated interferons for treatment of
+hepatitis c. j. controlled release 72, 217-224.
+(26) chill, j., nivasch, r., levy, r., albeck, s., schreiber, g.
+and anglister, j. (2002) the human  xxxg1139xxx :
+nmr-based modeling, mapping of ifn-r2 binding site, and
+observed ligand induced tightening. biochemistry 41, 35753585.
+(27) piehler, j., and schreiber, g. (1999a) biophysical analysis
+of the interaction of human ifnar2 expressed in e. coli with
+ifnr2. j. mol. biol. 289, 57-67.
+(28) janin, j. (1997) the kinetics of protein-protein recognition.
+proteins: struct., funct., genet. 28, 153-161.
+(29) müller, k., ammann, h. j., doran, d. m., gerber, p. g.,
+gubernator, k., and schrepfer, g., (1988) complex heterocyclic structures: a challenge for computer assisted molecular
+modeling. com. soc. chim. belg. 97, 655-667.
+
+bioconjugate chem., vol. 16, no. 3, 2005 527
+(30) gerber, p. g., and müller (1995) mab, a generally applicable molecular force field for structure modeling in
+medicinal chemistry. j. comput.-aided mol. des. 9, 251-268.
+(31) tanford, c. (1961) physical chemistry of macromolecules,
+john wiley and sons, new york.
+(32) yoshida, h., takikawa, k., kaneko, i., and matsuura, h.
+(1994) conformational analysis of model compounds of nonionic surfactants in aqueous solution: raman spectroscopy
+and ab initio mo calculations. j. mol. struct. 311, 205-210.
+(33) piehler, j., and schreiber, g. (1999b) mutational and
+structural analysis of the binding interface between type i
+interferons and their receptor ifnar2. j. mol. biol. 294,
+223-237.
+(34) piehler, j., roisman, l. c., and schreiber, g. (2000) new
+structural and functional aspects of the type-i interferonreceptor interaction revealed by comprehensive mutational
+analysis of the binding interface. j. biol. chem. 275, 4042540433.
+(35) klaus, w., gsell, b., labhardt, a., wipf, b., and senn, h.
+(1997) the three-dimensional high-resolution structure of
+human interferonr-2a determined by heteronuclear nmr
+spectroscopy in solution. j. mol. biol. 374, 661-675.
+(36) brady, g. p., and sharp k. a. (1997) entropy in protein
+folding and in protein-protein interactions. curr. opin.
+struct. biol. 7, 215-221.
+(37) roos, h., karlsson, r., nilshans, h., and persson, a. (1998)
+thermodynamic analysis of protein interactions with biosensor technology. j. mol. recogn. 11, 204-211.
+(38) ito, w., yasui, h., and kurasawa, y. (1995) mutations in
+the complementary-determining regions do not cause differences in free energy during the process of formation of the
+activated complex between an antibody and the corresponding
+protein antigen. j. mol. biol. 248, 729-732.
+(39) maxfield, j., and shepherd, t. j. (1975) conformation of
+polyethylene-glycol oxide in the solid-state, melt, and solution
+measured raman scattering. polymer 16, 505-512.
+(40) farooq, a., plotnikova, o., zeng, l., and zhou, m.-m. (1999)
+ xxxd1075xxx  binding domains of shc and  xxxg1194xxx 
+substrate 1 recognize the npxpy motif in a thermodynamically distinct manner. j. biol. chem. 274, 6114-6121.
+(41) delgado, c., francis, g. e., and fischer, d. (1982) the uses
+and properties of peg-linked proteins. crit. rev. ther. drug.
+carrier syst. 9, 219-304.
+(42) veronese, f. m., caliceti, p. and schiavon, o. (1997)
+branched and linear poly(ethylene glycol): influence of the
+polymer structure on enzymological, pharmacokinetic, and
+immunological properties of proteins conjugates. j. bioact.
+comput. polym. 12, 196-207.
+(43) yamaoka, t., tabata, y., and ikada, y. (1994) distribution
+and tissue uptake of poly(ethylene-glycol) with different
+molecular weights after intraveneous administration to mice.
+j. pharm. sci. 4, 601-606.
+(44) kawaguchi, s., imai, g., suzuki, j., miyahara, a., kitano,
+t., and ito, k. (1997) aqueous solution properties of oligoand poly(ethylene oxide) by static light scattering and intrinsic viscosity. polymer 38, 2885-2891.
+(45) abuchowski, a., and davis, f. (1979) preparation and
+properties of  xxxd2982xxx -trypsin adducts. biochim.
+biophys. acta 578, 41-46.
+(46) rajagopalan, s., gonias, s. l., and pizzo, s. v. (1985) a
+nonantigenic covalent streptokinase- xxxd2982xxx  complex with plasminogen activator function. j. clin. invest. 75,
+413-419.
+(47) deonarain, r., chan, d. c. m., platanias, l. c., and fish,
+e. n. (2002) interferonr/beta receptor interactions: a complex
+story unfolding. curr. pharm. des. 8, 2131-2137.
+(48) sayle, r., and milner-white, j. (1995) rasmol: biomolecular graphics for all. trends biol. sci. 20, 374-375.
+
+bc049780h
+

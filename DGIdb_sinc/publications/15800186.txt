@@ -1,0 +1,1015 @@
+3312 • the journal of neuroscience, march 30, 2005 • 25(13):3312–3322
+
+cellular/molecular
+
+amantadine inhibits nmda receptors by accelerating
+channel closure during channel block
+thomas a. blanpied,1 richard j. clarke,1,2 and jon w. johnson1,2
+1
+
+department of neuroscience and 2center for neuroscience, university of pittsburgh, pittsburgh, pennsylvania 15260
+
+the channel of nmda receptors is blocked by a wide variety of drugs. nmda receptor channel blockers include drugs of abuse that induce
+psychotic behavior, such as phencyclidine, and drugs with wide therapeutic utility, such as amantadine and memantine. we describe here
+the molecular mechanism of amantadine inhibition. in contrast to most other described channel-blocking molecules, amantadine causes
+the channel gate of nmda receptors to close more quickly. our results confirm that amantadine binding inhibits current flow through
+nmda receptor channels but show that its main inhibitory action at pharmaceutically relevant concentrations results from stabilization
+of closed states of the channel. the surprising variation in the clinical utility of nmda channel blockers may in part derive from their
+diverse effects on channel gating.
+key words: nmda; parkinson; synaptic transmission; channel block; glutamate; single-channel patch-clamp
+
+introduction
+amantadine is a drug of broad clinical utility. it was first recognized as an antiviral agent (davies et al., 1964) but soon afterward
+was also found to be useful in treating parkinson’s disease
+(schwab et al., 1969). it continues to be a widely used and well
+tolerated drug in the treatment of parkinsonian movement disorders and may also slow the progression of parkinson’s disease
+(blanchet et al., 2003), ameliorate chronic pain (fisher et al.,
+2000), and improve recovery from traumatic brain injury
+(meythaler et al., 2002).
+the clinical utility of amantadine appears to result from its
+actions as a blocker of ion channels. its antiviral action results
+from block of the m2 small viral membrane protein (hay, 1992).
+although the utility of amantadine in treating parkinson’s disease was initially assumed to result from effects on dopaminergic
+systems (danysz et al., 1997), amantadine later was found to
+block the channel of nmda receptors (kornhuber et al., 1991;
+lupp et al., 1992; parsons et al., 1995; blanpied et al., 1997).
+increasing evidence suggests that the effectiveness of amantadine
+in treating nervous system disorders results predominantly from
+its inhibition of nmda responses (blanchet et al., 2003).
+nmda receptor channel blockers have diverse properties.
+channel block by extracellular mg 2⫹ is of profound physiological significance because it is responsible for the powerful voltage
+dependence of postsynaptic ca 2⫹ influx at excitatory synapses
+
+received oct. 13, 2004; revised feb. 16, 2005; accepted feb. 16, 2005.
+this work was supported by national institute of mental health grants mh45817 and mh00944 (j.w.j.). we
+thank shawn kotermanski for helpful comments on this manuscript. t.a.b. acknowledges michael ehlers for support
+during manuscript preparation.
+correspondence should be addressed to jon w. johnson, department of neuroscience, 446 crawford hall, university of pittsburgh, pittsburgh, pa 15260. e-mail: johnson@bns.pitt.edu.
+t. a. blanpied’s present address: department of physiology, university of maryland school of medicine, baltimore, md 21201.
+doi:10.1523/jneurosci.4262-04.2005
+copyright © 2005 society for neuroscience 0270-6474/05/253312-11$15.00/0
+
+(dingledine et al., 1999). in contrast to clinically useful nmda
+receptor channel blockers such as amantadine and its derivative
+memantine, many organic blockers, such as ketamine and phencyclidine, induce schizophrenic-like behavior in humans
+(jentsch and roth, 1999) and are neurotoxic (olney et al., 1999).
+why do substances with an apparently similar pharmacological action, channel block of nmda receptors, exhibit such divergent clinical properties? previous data suggest that possible
+variations in either nonspecific drug actions or in nr2 subunit
+specificity do not provide adequate explanations (javitt and
+zukin, 1991; bresink et al., 1996; danysz et al., 1997; monaghan
+and larsen, 1997; blanchet et al., 2003). instead, the wide variation in clinical utility may arise from differences in the mechanisms of blocker interaction with nmda receptors. aspects of
+mechanism that can powerfully influence inhibitory properties
+of a channel blocker include the kinetics and affinity of blocker
+binding and the effects of bound blocker on transitions among
+channel closed states (rogawski, 1993; parsons et al., 1999b;
+johnson and qian, 2002). despite the importance of these aspects
+of blocker action, we currently have limited understanding of the
+interaction between nmda receptors and amantadine.
+in this paper, we combined whole-cell and single-channel recording with quantitative modeling to investigate the mechanisms
+by which amantadine inhibits nmda responses. we found that
+amantadine displays intermediate kinetics of block (hille, 2001),
+which permitted us to measure blocking and unblocking rates and
+estimate rate of channel closure with amantadine bound. we show
+that, when amantadine is bound in the channel of nmda receptors,
+it increases the rate of channel closure. as a result, the predominant
+inhibitory mechanism of amantadine is not blockade of current flow
+through open channels but rather increasing occupancy of channel
+closed states. the unusual properties of amantadine may play an
+important role in its clinical safety.
+
+blanpied et al. • amantadine speeds closure of blocked nmda channels
+
+materials and methods
+cell cultures and solutions. cerebral cortices were isolated from day 16
+embryonic rats and used to prepare cultured neurons on glass coverslips
+as described previously (antonov and johnson, 1996). all procedures
+were approved by the institutional animal care and use committee of
+the university of pittsburgh. neurons were used for experiments after
+2–5 weeks in serum-containing medium. for recordings, coverslips were
+transferred to a recording chamber and bathed in an extracellular solution that contained the following (in mm): 140 nacl, 2.8 kcl, 1 cacl2,
+and 10 hepes. ph was adjusted to 7.3 with naoh. the pipette solution
+contained the following (in mm): 120 csf, 10 cscl, 10 hepes, and 10
+bapta. ph was adjusted to 7.2 with csoh.
+human embryonic kidney (hek) 293t cells were maintained as described previously (qian et al., 2005). for experiments, the cells were
+plated onto glass coverslips pretreated with poly-d-lysine and rat-tail
+collagen. eighteen to 24 h after plating, the cells were transiently transfected with cdnas encoding the nr1–1a and nr2b nmda receptor
+subunits using a calcium phosphate precipitation procedure (qian et al.,
+2005). cdna of enhanced green fluorescent protein (egfp) was cotransfected as a marker of successfully transfected cells. the amount of cdna
+used per dish was as follows (in ␮g): 0.7 egfp, 1.3 nr1–1a, and 2 nr2b.
+after a 6 – 8 h incubation in the transfection solution, the cells were
+washed with fresh culture medium that contained 200 ␮m apv. experiments were performed 20 –72 h after transfection.
+outside-out patch recordings. pipettes were pulled from standard wall
+borosilicate glass with filament (warner instruments, hamden, ct),
+coated with sylgard (dow corning, midland, mi), and fire polished.
+pipette resistance ranged from 6 to 12 m⍀. recordings were performed
+using an axopatch 200a amplifier (axon instruments, union city, ca).
+the patch was placed in front of the opening of one of a pair of perfusion
+tubes, and the solution was switched by moving the tubes. nmda receptors were activated by solution containing 5 ␮m nmda and 10 ␮m glycine alone or with the indicated concentration of amantadine. one to 4
+min of channel openings at each drug concentration were low-pass filtered  xxxd1891xxx  khz and recorded to videotape for later analysis. the holding
+potential, after correction for the measured junction potential, was ⫺67 mv.
+single-channel analysis. data from videotape were filtered using an
+eight-pole bessel filter with a cutoff of fc ⫽ 4 khz and digitized at 20 or 41
+khz. segments containing unacceptable noise were removed using the
+channel analysis program (r.c. electronics, santa barbara, ca). openings and closings were detected with a 50% threshold criterion
+(colquhoun and sigworth, 1995) using pclamp 6 software (axon instruments). the effective cutoff of the cascaded filters resulted in an
+estimated system dead time of 0.179/fc ⫽ 0.048 ms, and events briefer
+than twice the system dead time (tmin) were deleted from all histograms
+and excluded from analysis. histograms are presented as square root
+versus log time plots (sigworth and sine, 1987).
+binned dwell time distributions (eight bins per decade) were fit using
+the maximum likelihood method. open-time distributions were well fit
+by a single-exponential component (ascher and nowak, 1988; jahr and
+stevens, 1990; antonov and johnson, 1996). additional open-time components (howe et al., 1988; gibb and colquhoun, 1992; donnelly and
+pallotta, 1995; kleckner and pallotta, 1995; antonov et al., 1998; antonov and johnson, 1999) were not analyzed because they were either not
+visible or very small. the mean open time (␶o) was corrected for missed
+brief closures, which otherwise could cause overestimation of ␶o, using
+the following equation (ogden and colquhoun, 1985; marshall et al.,
+1990; antonov and johnson, 1996): ␶o ⫽ (trec ⫺ tmeas ⫺ tmiss)/(nmeas ⫹
+nmiss ⫹ 1), where trec is total recording time of the data segment under
+analysis, nmeas is the measured number of closures with durations ⱖtmin,
+tmeas is their summed closed duration, nmiss is the estimated number of
+closures with durations ⬍tmin, and tmiss is their estimated summed closed
+duration. nmiss and tmiss were estimated by extrapolation of the fit closed
+duration distributions from t ⫽ tmin to 0. in control conditions, the value
+of ␶o calculated by this method was 4.19 ⫾ 0.26 ms, 98 ⫾ 3% of the
+unadjusted arithmetic mean open time calculated from open-time histograms, confirming the accuracy of the calculation when ␶o ⬎⬎ tmin. the
+correction had a greater effect when the unadjusted mean open time was
+
+j. neurosci., march 30, 2005 • 25(13):3312–3322 • 3313
+
+briefer. in 100 ␮m amantadine, which increased the frequency of openings briefer than tmin, ␶o was 70 ⫾ 2% of the unadjusted arithmetic mean
+open time.
+closed-time histograms in the absence and in the presence of amantadine were well fit in the large majority of cases by the sum of three
+exponential components. in the absence of amantadine, these components had time constants as follows: short duration (␶c,s), 0.29 ⫾ 0.04
+ms; intermediate duration (␶c,i), 7.22 ⫾ 1.70 ms; long duration (␶c,l),
+494 ⫾ 80 ms; with relative amplitudes of 0.43 ⫾ 0.02, 0.16 ⫾ 0.01, and
+0.41 ⫾ 0.02, respectively. as described in results, the mean duration of
+amantadine blocking events (␶c,b) was similar to ␶c,s. the accuracy of
+estimates of ␶c,b were optimized by establishing conservative criteria for
+acceptance of data to be used in the estimates. the criteria were used to
+minimize two potential errors. the first potential error resulted from the
+similarity of ␶c,s and ␶c,b. these two closed-time components were too
+similar to be fit by separate exponentials but in general should not have
+identical durations. thus, short-duration channel closures could have
+interfered with measurement of ␶c,b. to minimize interference from
+these brief closures, we accepted ␶c,b measurements only if the shortduration component area was ⬎70% of the total area of all closed-time
+components (see fig. 2c). with this cutoff, approximately two-thirds or
+more of the short-duration component were attributable to amantadine
+block. the second possible error was overestimation of ␶c,b because of
+missed brief openings at high concentrations of amantadine. to minimize this error, we accepted ␶c,b measurements only when ␶o,b was ⬎0.5
+ms (antonov and johnson, 1996), limiting missed openings to a maximum of 18% of all openings. because the number of missed openings
+increases with amantadine concentration, the observation that the estimated ␶c,b does not increase with amantadine concentration (see fig.
+2 b) supports the accuracy of our estimate. only data in 10 ␮m (6 of 8
+patches) and 30 ␮m amantadine (7 of 11 patches) satisfied the criteria
+described above. data that met both these criteria are superimposed on
+all single-channel data in figure 2, b and c.
+the value of 1/␶c,b provides an estimate of the sum of rates for leaving
+the blocked state (colquhoun and hawkes, 1995), which according to
+model 1, is ␣⬘ ⫹ k⫺. our use of 1/␶c,b as an estimate of k⫺ alone is based
+on the assumption that k⫺ ⬎⬎ ␣⬘. analysis of burst durations indicated
+that ␣⬘ is 251 s ⫺1 (see results). because this is much smaller than the
+estimated value of 1/␶c,b (4480 s ⫺1), the approximation k⫺ ⫽ 1/␶c,b
+should be in error by ⬍6%.
+n ⫻ popen (number of channels in a patch multiplied by mean open
+probability per channel) was calculated as total channel open time divided by recording time using pclamp 9 (axon instruments). the patch
+recording durations used here ranged from 71 to 335 s (mean of 163 s).
+burst analysis was performed to estimate the rate of channel closure in
+the absence and presence of amantadine. burst durations were measured
+as the duration of openings with closures briefer than a critical duration
+(tcrit) counted as part of open time (colquhoun and sigworth, 1995).
+only patches in which ⬍5% of all openings were multilevel openings
+were used. in the absence of amantadine, channel openings of nmda
+receptors are often interrupted by short-duration closures (time constant
+␶c,s). these short-duration closures constitute a trivial fraction of total
+closed time. this state therefore was ignored by choosing a tcrit between
+␶c,s and ␶c,i (dilmore and johnson, 1998) and was not represented in the
+model we used for data analysis (see fig. 3a). as a result, channel closures
+were defined as transitions to closed states of intermediate or longer
+duration. to minimize the unavoidable error of misclassification of closures, tcrit was calculated so that there were equal numbers of shortduration closures counted as between burst and intermediate closures
+counted as within burst (magleby and pallotta, 1983). values for tcrit in
+control conditions were 1.23 ⫾ 0.33 ms, in good agreement with values
+obtained in previous studies of forebrain neurons (howe et al., 1988; jahr
+and stevens, 1990; gibb and colquhoun, 1992; kleckner and pallotta,
+1995; antonov and johnson, 1996). the average separation of ␶c,s and
+␶c,i by a factor of 27 is somewhat less than preferred for burst analysis
+(colquhoun and sigworth, 1995). however, burst duration showed little
+sensitivity to small variations in tcrit: doubling tcrit increased burstduration estimates by only 9.0 ⫾ 1.8%, whereas halving tcrit decreased
+burst-duration estimates by only 10.5 ⫾ 1.3% (n ⫽ 6 patches). these
+
+blanpied et al. • amantadine speeds closure of blocked nmda channels
+
+3314 • j. neurosci., march 30, 2005 • 25(13):3312–3322
+
+results suggest that burst-duration estimates
+were reliable. in 1 of 32 patch data segments
+used for burst analysis, the middle closed-time
+component was ⬍1 ms and was included
+within bursts.
+burst analysis in the presence of amantadine
+was designed to count amantadine blocking
+events as within burst. because the value of ␶c,b
+was very close to the value of ␶c,s, the procedures
+used were identical to those used in the absence of
+amantadine. the mean values of tcrit in amantadine (1.02 ⫾ 0.11 ms in 10 ␮m, 1.19 ⫾ 0.13 ms in
+30 ␮m, and 1.45 ⫾ 0.06 ms in 100 ␮m amantadine) were similar to the control value (1.23 ⫾
+0.33 ms).
+whole-cell recording. whole-cell recordings
+from cultured neurons or transfected hek
+293t cells were performed as described previously (blanpied et al., 1997), using the same
+solutions as for outside-out patch recordings.
+rapid applications of the indicated nmda
+concentration plus 10 ␮m glycine with or without amantadine were accomplished by moving
+a set of gravity-fed flow pipes under computer
+control. solution exchanges were at least 98%
+complete within 120 ms (blanpied et al., 1997).
+all experiments were performed at room
+temperature.
+curve fitting and modeling. concentration–
+inhibition curves were constructed by fitting
+data with the following equation:
+
+response ⫽ 1/共1 ⫹ 共关aman]/ic50兲nh),
+
+figure 1. amantadine causes flickering channel block of nmda receptors. a, outside-out patch-clamp records of channel
+openings activated at ⫺67 mv by 5 ␮m nmda plus 10 ␮m glycine with 0, 10, and 100 ␮m amantadine. lines above the top trace
+of each pair indicate a region shown on a faster time scale in the bottom trace. all traces are from a single patch. b, open-time
+histograms from the patch shown in a at the corresponding amantadine concentrations. lines are single-exponential fits to the
+histograms. c, closed-time histograms from the patch shown in a. lines are triple-exponential fits to the histogram. note the
+change in scale in the y-axis in the bottom graph.
+
+(1)
+where response is either normalized n ⫻ popen (see fig. 2 d) or iaman/
+icontrol (see fig. 4 b), [aman] is the amantadine concentration, ic50 is the
+[aman] at which the response is 50% inhibited, and nh is the hill coefficient, which reflects the cooperativity of drug action.
+the equilibrium predictions of model 1 (see fig. 3a) shown in figures
+3, b and c, 5, and 6 d were made with the equations derived in the
+supplemental material (available at www.jneurosci.org). the equilibrium constants among unblocked channel states (ka ⫽ 11.0 ␮m; kg ⫽
+39.0; kds ⫽ 0.2) were fixed at values chosen as described previously
+(dilmore and johnson, 1998) based on previous measurements (benveniste and mayer, 1991; lester et al., 1993; rosenmund et al., 1995).
+because estimates of maximal popen (which is established by kg) for
+nmda receptors have varied greatly, a value for kg could not be set with
+confidence. however, the predictions based on model 1 shown in figures
+3c, 5, and 6 d varied only slightly when kg was varied from 39 [corresponding to a maximal popen of 0.025 (rosenmund et al., 1995)] to 2.33
+[corresponding to a maximal popen of 0.3 (jahr, 1992)]. similarly, our
+general conclusions are not affected by changes in the values of ka or kds
+within a plausibly physiological range. the kd of amantadine was fixed at
+110 ␮m, which equals the ratio of rate constants (k⫺/k⫹) determined here
+from single-channel measurements. equilibrium constants among
+blocked channel states were set to equal the corresponding equilibrium
+constants for unblocked channels, except when otherwise indicated.
+burst-duration fitting and predictions (see fig. 6c) were made with
+equation 2, which is derived in the supplemental material (available at
+www.jneurosci.org).
+predictions from and fitting of equations were performed in origin 7
+(originlab, northampton, ma) or sigmaplot 8 (spss, chicago, il).
+errors in text and error bars in figures indicate sem.
+
+results
+rates of amantadine block and unblock
+we investigated the kinetics of block by 3–100 ␮m amantadine of
+single channels activated by 5 ␮m nmda plus 10 ␮m glycine in
+
+outside-out patches at a holding potential of ⫺67 mv. amantadine did not affect the single-channel current amplitude of open
+nmda-activated channels but induced brief, flickering closures
+that interrupted channel openings (fig. 1 a). as amantadine concentration was increased, the frequency of brief closures increased, causing a decrease in the duration of channel openings
+(fig. 1 a, b). the population of brief closures observed in the
+presence of amantadine (fig. 1 a, c) are typical of open channel
+blocking drugs with “intermediate” kinetics (hille, 2001). we
+took advantage of the kinetics of amantadine block to measure
+(neher and steinbach, 1978) the apparent rate constants of
+amantadine block (k⫹) and unblock (k⫺) directly from singlechannel recordings.
+to estimate k⫹, we measured the mean duration of channel
+openings (␶o) in the absence (control, ␶o,c) and presence
+(blocker, ␶o,b) of amantadine (fig. 1 b). as expected for an openchannel blocker (neher and steinbach, 1978), a plot of the reciprocal of ␶o as a function of amantadine concentration ([b]) was
+well fit by the equation 1/␶o ⫽ k⫹[b] ⫹ 1/␶o,c. the value of k⫹,
+calculated as the slope of a linear regression fit to all data points
+(fig. 2 a), was 40.8 ␮m⫺1s⫺1.
+we estimated k⫺ from the mean duration of the closures induced by amantadine (␶c,b), which reflects its dwell time in the
+channel, and applied the equation (neher and steinbach, 1978)
+k⫺ ⫽ 1/␶c,b. closed-time distributions in both the absence and
+presence of amantadine were well fit by the sum of three exponential components (fig. 1c). amantadine appeared to cause an
+increase in the frequency of the shortest-duration closures (fig.
+1c). we concluded that this effect of amantadine results from
+similarity of the value of ␶c,b and the mean duration of the shortestduration closures in the absence of amantadine based on the following observations: (1) amantadine had little effect on the mean dura-
+
+blanpied et al. • amantadine speeds closure of blocked nmda channels
+
+figure 2. estimation of the k⫹ , k⫺, and ic50 of amantadine from outside-out patch experiments. recordings were made in 5 ␮m nmda plus 10 ␮m glycine with the indicated concentration of amantadine. a, dependence on amantadine concentration of reciprocal ␶o. mean
+values based on a total of 48 measurements from 12 patches are plotted; in most cases, error
+bars are smaller than points. the slope of a linear regression fit through all data points (line),
+40.8 ␮m⫺1s⫺1, was used to estimate k⫹. b, dependence on amantadine concentration of the
+shortest duration component of the closed-time distribution. open squares show the mean of
+all data points at each concentration; filled circles show the mean of just those that met the two
+criteria described in materials and methods. the line is drawn at the mean of all data points. c,
+dependence on amantadine concentration of the area of the short-duration component as a
+proportion of the total area of the three closed-time histogram components. symbols are as in
+b. the dashed line indicates that histograms in which the proportional area of ␶c,b was ⬍0.7
+were excluded from calculation of k⫺ (see materials and methods). d, ic50 for amantadine
+inhibition of nmda responses in patches. normalized n ⫻ popen equals n ⫻ popen in the plotted
+amantadine concentration divided by n ⫻ popen measured in the same patch in 0 amantadine.
+line is best fit of equation 1 to the data. data were pooled from all patch measurements, as in a.
+
+tion or relative area of the longer components of the closed-time
+distribution (fig. 1c); (2) the time constant of the shortest-duration
+closed-time component in the absence or presence of amantadine
+(␶c,s) varied little over a wide range of amantadine concentrations,
+even when it accounted for as little as 60% or as much as 95% of all
+closures (fig. 2b); and (3) the relative area of the shortest-duration
+component increased with amantadine concentration (figs. 1c,
+2c). potential errors in the measurement of ␶c,b, were minimized as
+described in materials and methods. the mean value of ␶c,b was
+0.223 ⫾ 0.012 ms (n ⫽ 13), yielding an estimate of k⫺ for amantadine of 4480 s ⫺1.
+divergence of kd and ic50 of amantadine
+with the above data, the equilibrium dissociation constant for
+binding of amantadine to the open channel of nmda receptors
+(kd) can be estimated (hille, 2001) from the equation kd ⫽ k⫺/
+k⫹, yielding kd ⫽ 110 ␮m. this kd is considerably larger than the
+amantadine ic50 (38.9 ⫾ 4.6 ␮m) that we measured under similar
+conditions in whole-cell experiments (blanpied et al., 1997), a
+value in agreement with the average amantadine ic50 (⬃35 ␮m)
+measured electrophysiologically by others (parsons et al., 1995,
+1996, 1999a; sobolevsky and koshelev, 1998; sobolevsky et al.,
+
+j. neurosci., march 30, 2005 • 25(13):3312–3322 • 3315
+
+1998; sobolevsky and yelshansky, 2000; bolshakov et al., 2003).
+the observation that kd ⬎ ic50 implies that amantadine inhibits
+total nmda receptor-mediated current more effectively than it
+blocks open single channels.
+one possible explanation for the difference between the kd of
+amantadine (measured in patch experiments) and ic50 (measured in whole-cell experiments) is that patch excision increases
+the ic50 of amantadine, as observed for nmda receptor channel
+block by internal mg 2⫹ (li-smerin et al., 2000, 2001). if this
+explanation were correct, then the ic50 of amantadine measured
+in outside-out patches should resemble the kd, 110 ␮m. we tested
+this possibility by measuring the amantadine concentration dependence of the total channel open time (n ⫻ popen) during
+outside-out patch recordings. fitting of equation 1 to normalized n ⫻ popen (fig. 2 d) yielded an ic50 of 29.7 ␮m (nh ⫽ 1.1), in
+reasonable agreement with previous whole-cell ic50 measurements. this result conflicts with the hypothesis that patch excision increases the ic50 of amantadine and suggests that an explanation for the discrepancy between kd and ic50 should be sought
+in the mechanism of amantadine action.
+the relationship between the kd and ic50 of a channel blocker
+depends on how the blocker affects channel transitions after
+binding. for example, blockers that act by the “sequential” (or
+“foot-in-the-door”) mechanism, which prevent closure of the
+channel while blocking, inhibit whole-cell responses (or patch
+n ⫻ popen) much less effectively than they block single-channel
+currents (kd ⬍⬍ ic50) (neher and steinbach, 1978; hille, 2001;
+johnson and qian, 2002). amantadine, in contrast, is known to
+be a trapping channel blocker: it permits channel closure while
+bound in the channel of nmda receptors (blanpied et al., 1997;
+sobolevsky and yelshansky, 2000; bolshakov et al., 2003). nevertheless, even trapping channel blockers have been found to partly
+inhibit channel closure during block (johnson and qian, 2002),
+leading to an ic50 that is greater than the kd. however, for amantadine, kd is greater than ic50, a difference that cannot be the
+result of partial inhibition of channel closure.
+the observation that kd ⬎ ic50 for amantadine is inconsistent
+with the hypothesis that it inhibits nmda responses simply by
+blocking current flow through the channel. this inequality implies that nonconducting states with amantadine bound (which
+do not exist for a sequential blocker) are of great importance to its
+mechanism of action. to better understand how amantadine inhibits nmda responses, we used a trapping channel block
+model, which includes closed, amantadine-bound states. by
+combining model simulations with whole-cell and singlechannel data, we tested whether this model can account for the
+difference between the ic50 and kd of amantadine.
+the trapping channel block model we used (fig. 3a) is derived
+from previous work on channel block of nmda receptors (benveniste and mayer, 1995; blanpied et al., 1997; chen and lipton,
+1997; dilmore and johnson, 1998; sobolevsky et al., 1998; sobolevsky and yelshansky, 2000) and nicotinic ach receptors (lingle,
+1983; ogden and colquhoun, 1985). the upper five states of model
+1 describe the behavior of nmda receptors in the absence of
+blocker, whereas the lower five states describe the ability of amantadine to be trapped in closed channels. the model does not include
+binding steps for glycine because a saturating glycine concentration
+was included in all solutions. the model compresses multiple closed,
+liganded, nondesensitized states into a single state, a2r (see discussion). faithful reproduction of nmda receptor behavior under all
+conditions clearly would require a much more complex model.
+however, there currently is insufficient understanding of nmda
+receptors to develop a full and accurate model. model 1 has been
+
+3316 • j. neurosci., march 30, 2005 • 25(13):3312–3322
+
+blanpied et al. • amantadine speeds closure of blocked nmda channels
+
+found to reproduce with surprising accuracy
+a wide range of properties of nmda receptors and channel blockers and to be highly
+useful for hypothesis testing (dilmore and
+johnson, 1998; anson et al., 2000).
+we applied model 1 to determine
+whether, and if so how, the relatively low
+ic50 with which amantadine inhibits
+whole-cell nmda responses can be explained by its known action as a trapping
+blocker. because the model was used to
+simulate steady-state whole-cell measurements, consideration only of equilibrium
+constants (not rate constants) was needed.
+to minimize the number of adjustable parameters, the constants that defined equilibria among unblocked states (ka, kds,
+and kg) were fixed as described in materials and methods, and kd was fixed at 110
+␮m based on the above single-channel figure 3. the effects of a trapping blocker on receptor state transitions help determine ic50. a, schematic of model 1. r is the
+measurements. we determined whether nmda receptor, a is an nmda molecule, b is an amantadine molecule, a2d is the desensitized receptor, and a2r* is a receptor in
+the open conformation. symbols used for each rate constant (k) are shown in the model. equilibrium constants were defined as
+amantadine could lower its ic50 relative to follows: for nmda binding, k ⫽ k /k and k⬘ ⫽ k⬘ /k⬘ ; for channel gating, k ⫽ ␣/␤ and k⬘ ⫽ ␣⬘/␤⬘; for
+a⫺ a⫹
+a
+a⫺ a⫹
+g
+g
+its kd by affecting any one of the three re- desensitization, k ⫽ k /ka and
+k⬘ds ⫽ k⬘ds⫺/k⬘ds⫹; for amantadine binding, kd ⫽ k⫺/k⫹. b, model 1 was used to
+ds
+ds⫺ ds⫹
+maining constants, all of which defined investigate how the ic50 of a trapping channel blocker is influenced by the effects of the blocker on channel gating with [a] ⫽ 5
+equilibria among blocked states: agonist ␮m. predicted concentration–response curves (see materials and methods) are plotted for a blocker with kd ⫽ 110 ␮m that has
+binding (k⬘a ⫽ ka), desensitization (k⬘ds no effect on channel gating when bound (k⬘g ⫽ kg ⫽ 39; solid line), that stabilizes the channel open state (k⬘g ⫽ 0.1 ⫻ kg;
+⫽ kds), or channel gating (k⬘g ⫽ kg). to dashed line), and that stabilizes the channel closed state (k⬘g ⫽ 10 ⫻ kg; dotted line). in all plots, k⬘a ⫽ ka ⫽ 11 ␮m and
+examine how these alterations of the equi- k⬘ds ⫽ kds ⫽ 0.2. c, model 1 was used to determine that a blocker with kd ⫽ 110 ␮m can achieve an ic50 of 38.9 ␮m by decreasing
+libria among blocked states affect inhibi- agonist affinity (k⬘a ⫽ 2.35 ⫻ ka ⫽ 25.9 ␮m) alone, by stabilizing the channel closed state (k⬘g ⫽ 2.83 ⫻ kg ⫽ 110) alone, or
+tion by amantadine, we used model 1 to by stabilizing the desensitized state (k⬘ds ⫽ 0.152 ⫻ kds ⫽ 0.0304) alone.
+predict amantadine concentration–inhicoefficient (nh) was 0.99 ⫾ 0.02 (n ⫽ 6). here we used the same
+bition curves (for the equation used and its derivation, see supwhole-cell protocol, membrane potential (⫺67 mv), and soluplemental material, available at www.jneurosci.org). figure 3b
+tions
+as used previously to measure the ic50 of amantadine in 30
+shows an example of simulated concentration–inhibition rela␮m nmda (fig. 4 a, b). the ic50 was 50.5 ⫾ 11.5 ␮m, with
+tionships for amantadine when the gating equilibrium constant
+nh ⫽ 0.99 ⫾ 0.04 (n ⫽ 3). we attempted to make similar mea(k⬘g) was changed to 0.1 ⫻ kg or to 10 ⫻ kg. importantly, setting
+surements
+at 1000 ␮m nmda, but strong rundown of the rek⬘g ⫽ 0.1 ⫻ kg (that is, shifting the equilibrium between open
+sponse
+prevented
+reliable measurement of full concentration–
+and closed states toward the closed state, which we refer to as
+inhibition relationships. we instead used a single amantadine
+stabilizing the closed state), lowers the ic50. this plot demonconcentration of 50 ␮m to estimate its ic50 in 1000 ␮m nmda.
+strates that inhibition by a trapping channel blocker is not solely
+to ensure the reliability of this estimate, we used the same prodetermined by its obstruction of current flow but is strongly detocol to make a second estimate of the amantadine ic50 in 30 ␮m
+pendent on how it interacts with the gating machinery of a recepnmda (fig. 4c). amantadine at 50 ␮m inhibited the response to
+tor. despite its kd of 110 ␮m for the open channel, the macro30 ␮m nmda by 55 ⫾ 6% and the response to 1000 ␮m nmda
+scopic ic50 of 38.9 ␮m of amantadine in the presence of 5 ␮m
+by 47.9 ⫾ 6%. these values were used to estimate ic50 using the
+nmda could be explained if the presence of the drug in the
+relationship
+ic50 ⫽ [amantadine] ⫻ (1 ⫺ f )/f, where f is fracchannel altered any of the three blocked channel equilibrium
+tional inhibition by 50 ␮m amantadine, yielding the following: in
+constants (fig. 3c).
+30 ␮m nmda, amantadine ic50 ⫽ 45.1 ⫾ 11.3 ␮m; and in 1000
+␮m nmda, amantadine ic50 ⫽ 54.3 ⫾ 16.5 ␮m. the two estidependence of amantadine ic50 on nmda concentration
+mates
+of ic50 in 30 ␮m nmda are not statistically different and
+the simulations of figure 3, b and c, show that the low ic50 of
+so were combined, giving an estimate of 47.8 ⫾ 7.3 ␮m (n ⫽ 6).
+amantadine can be explained parsimoniously through its known
+there were no significant differences between any of the amanaction as a trapping channel blocker, as described by model 1. we
+ xxxd2504xxx  ic50 estimates in 5, 30, and 1000 ␮m nmda, even when
+next wanted to determine which receptor state transition (agonist
+correction for multiple comparisons was not performed. thus,
+binding, channel gating, or desensitization) might be affected by
+these results indicate that the ic50 of amantadine does not deamantadine binding. we used model 1 to search for an experipend significantly on nmda concentration.
+mental protocol that would distinguish which equilibrium
+to help interpret these data, they are plotted with model 1
+among receptor states is affected by amantadine binding. we
+predictions of the relationship between ic50 and nmda concenfound that the dependence of the ic50 of amantadine on agonist
+tration (fig. 5). amantadine was assumed to have a kd of 110 ␮m
+concentration diverges strongly depending on which equilibrium
+and to achieve an ic50 of 38.9 ␮m in 5 ␮m nmda by only deis affected by amantadine binding. therefore, we compared the
+creasing nmda affinity (long dashes; ic50 rises with nmda
+ic50 of amantadine at several different nmda concentrations.
+concentration), only stabilizing the channel closed state (short
+we reported previously (blanpied et al., 1997) that, in 5 ␮m
+nmda, the ic50 of amantadine was 38.9 ⫾ 4.2 ␮m, and its hill
+dashes; ic50 is nearly insensitive to nmda concentration), or
+
+blanpied et al. • amantadine speeds closure of blocked nmda channels
+
+j. neurosci., march 30, 2005 • 25(13):3312–3322 • 3317
+
+figure 5. predicted and measured dependence of amantadine ic50 on nmda concentration.
+the solid line shows the prediction of model 1 when each blocked channel equilibrium constant
+equaled the corresponding unblocked channel equilibrium constant (k⬘a ⫽ ka ⫽ 11 ␮m;
+k⬘g ⫽ kg ⫽ 39; k⬘ds ⫽ kds ⫽ 0.2). the other three lines each show predictions after adjustment of an equilibrium constant to yield the previously measured (blanpied et al., 1997) amantadine ic50 of 38.9 ␮m in 5 ␮m nmda (see legend to fig. 3c). equilibrium constant adjustments
+were as follows: k⬘a to 25.9 ␮m (long dashes), k⬘g to 110 (short dashes), or k⬘ds to 0.0304
+(dotted line). each of these manipulations decreased the proportion of blocked channels in the
+open state at equilibrium. the closed circles show the mean values of amantadine ic50 measured in the presence of the indicated nmda concentrations plus 10 ␮m glycine.
+
+figure 4. inhibition of whole-cell responses by amantadine in elevated nmda concentrations. a, whole-cell current records of inhibition of responses activated by 30 ␮m nmda plus 10
+␮m glycine with the indicated concentrations of amantadine. all traces are from the same cell.
+lines above traces indicate the time of application of nmda and amantadine. b, example of an
+amantadine concentration–inhibition curve from a single cell (same cell as used for traces in a).
+iaman/icontrol is the steady-state current in agonists plus amantadine divided by current in agonists alone and was measured as shown in a and c. current in agonists alone was calculated as
+the average of the steady-state currents in agonists measured before and after application of
+amantadine. the line is the best fit of equation 1 to the data. similar concentration–response
+curves with amantadine at six to seven concentrations from 1 to 1000 ␮m were used to estimate
+amantadine ic50 in 30 ␮m nmda. c, examples of inhibition by 50 ␮m amantadine of responses
+activated by 30 ␮m nmda plus 10 ␮m glycine and by 1000 ␮m nmda plus 10 ␮m glycine.
+
+only stabilizing the desensitized state (dots; ic50 decreases with
+nmda concentration). the measured ic50 values strongly favor
+the model in which amantadine binding stabilizes the channel
+closed state. the data show a nonsignificant trend toward a rise in
+ic50 as nmda concentration increases. model 1 similarly predicts that, if amantadine binding stabilized the channel closed
+state, ic50 should rise with nmda concentration, although the
+increase is too slight to be visible in figure 5 (short dashes). this
+increase, however, depends on the value of kg. the value of kg
+used here, 39, corresponds to the previously estimated (rosenmund et al., 1995) maximal popen of 0.025. if a lower kg (corresponding to a higher maximal popen, as has been reported in other
+studies) were assumed, then ic50 would be predicted to rise
+slightly more steeply with nmda concentration.
+effect of amantadine on the closing rate of blocked channels
+the data and models above are consistent with the hypothesis
+that amantadine inhibits nmda responses by stabilizing the
+channel closed state as well as by blocking the channel. next, we
+tested a prediction of this hypothesis. if amantadine stabilizes the
+channel closed state, it must do so by decreasing the rate of channel opening (␤⬘ ⬍ ␤ in model 1), by increasing the rate of channel
+
+closing (␣⬘ ⬎ ␣), or by a combination of these two effects. we
+explored the possibility that amantadine increases the channel
+closing rate by measuring single-channel burst duration as a
+function of amantadine concentration.
+as shown in figure 1 a, in the presence of amantadine,
+nmda receptor openings occur as “bursts,” channel openings
+interrupted by brief closures that represent block by amantadine.
+the durations of bursts were estimated from the duration of
+channel openings when channel blocking events were ignored
+(neher and steinbach, 1978). this burst duration approximates
+the time spent in states a2r* and a2r*b (model 1). in the absence
+of amantadine, the mean burst duration (tburst) represents the
+mean duration of state a2r*, the inverse of which was used to
+estimate ␣ (see materials and methods). in a saturating concentration of amantadine, tburst, if it could be measured, would represent the mean duration of state a2r*b, the inverse of which
+would provide an estimate of ␣⬘. burst duration in a saturating
+concentration of amantadine cannot be measured because the
+channel would essentially always be in a blocked state. however,
+tburst can be measured in intermediate amantadine concentrations; as amantadine concentration is increased from 0, model 1
+predicts that tburst should change from a value of 1/␣ to values
+intermediate between 1/␣ and 1/␣⬘. thus, if channel block by
+amantadine accelerates the rate of channel closure (that is, if ␣⬘ ⬎
+␣), then burst duration should decrease as amantadine concentration increases. note that this is the opposite of the predicted
+and observed effect of sequential blockers on burst duration (neher and steinbach, 1978; antonov and johnson, 1996).
+to test this prediction, standard procedures were used to measure burst duration, which involved measuring the open time
+after ignoring all closures briefer than a “critical gap length” (tcrit;
+see materials and methods). figure 6 a shows examples of singlechannel openings, and figure 6 b shows the corresponding burstduration distributions, in the absence and presence of amantadine. the burst-duration distribution in all conditions was
+adequately fit by the sum of one or two exponentials. we quantified tburst here as arithmetic mean because equation 2 (below),
+
+blanpied et al. • amantadine speeds closure of blocked nmda channels
+
+3318 • j. neurosci., march 30, 2005 • 25(13):3312–3322
+
+1 by only increasing ␣⬘. to quantify the expected dependence of
+tburst on the concentration of a blocker that affects channel closing rate, we derived the following equation (see supplemental
+material, available at www.jneurosci.org) from model 1:
+
+t burst ⫽
+
+figure 6. effect of amantadine on channel gating. a, bursts of single-channel openings
+activated by nmda in 0 (top) and 30 ␮m (bottom) amantadine from a single patch. b, burstduration histograms derived from the patch used for a in 0 (top) and 30 ␮m (bottom) amantadine. the solid lines are double-exponential fits to each histogram. arrows indicate the arithmetic mean burst length in control (8.46 ms) and 30 ␮m amantadine (5.63 ms). c, dependence
+on amantadine concentration of arithmetic mean burst duration. points are measured burst
+duration; each point represents averages of data from 4 –10 patches. the solid line is the best fit
+of equation 2 to burst-duration values, with k⫹ and k⫺ fixed at their measured values (40.8
+␮m⫺1s⫺1 and 4480 s ⫺1, respectively) and ␣ fixed at 126 s ⫺1 (inverse of measured control
+mean burst duration). the best fit was achieved with ␣⬘ (the only free parameter) ⫽ 251 s ⫺1,
+or 1.99 ⫻ ␣. the dotted line shows the predicted mean burst duration from equation 2 with
+k⫹, k⫺, and ␣ set to the values given above and ␣⬘ set to 357 s ⫺1 (⫽ 2.83 ⫻ ␣; see legend
+to fig. 3c). d, predicted concentration–inhibition curves for three inhibitors are compared:
+“amantadine” (solid line) binds to the open channel (kd ⫽ 110 ␮m), blocks current flow when
+bound, and stabilizes the channel closed state (k⬘g ⫽ 2.83 ⫻ kg); “block only” (dashed line)
+binds to the open channel (kd ⫽ 110 ␮m), blocks current flow when bound, but has no effect on
+channel gating; “gating only” (dotted line) binds to the open channel (kd ⫽ 110 ␮m), does not
+block current flow when bound, but stabilizes the channel closed state (k⬘g ⫽ 2.83 ⫻ kg).
+predicted curves were derived (see supplemental material, available at www.jneurosci.org)
+from model 1 with [a] ⫽ 5 ␮m, k⬘a ⫽ ka, and k⬘ds ⫽ kds; ka, kg, and kds were fixed at values
+given in materials and methods.
+
+which was derived from model 1 to fit the amantadine concentration dependence of tburst (see supplemental material, available
+at www.jneurosci.org), applies to arithmetic mean burst duration. in the absence of amantadine, tburst was 7.93 ⫾ 0.77 ms (n ⫽
+10), which is near the middle of the range of previous estimates of
+nmda receptor tburst from forebrain neurons (ascher et al.,
+1988; howe et al., 1988; gibb and colquhoun, 1992; antonov
+and johnson, 1996). consistent with the hypothesis that closed
+states are stabilized during amantadine block, tburst was decreased
+in all amantadine concentrations tested (fig. 6c), and there was
+significant negative correlation between amantadine concentration and tburst (spearman’s r; one-tailed p ⫽ 0.023).
+to further test the hypothesis that channel closure is accelerated by amantadine block, we determined whether the amantadine dependence of tburst (fig. 6c) could be reproduced by model
+
+共␣⬘ ⫹ k⫺ 兲2 ⫹ k⫹ ⫻ 关b兴 ⫻ k⫺
+.
+共␣⬘ ⫹ k⫺ 兲共␣ ⫻ k⫺ ⫹ ␣ ⫻ ␣⬘ ⫹ k⫹ ⫻ ␣⬘ ⫻ 关b兴兲
+
+(2)
+
+we fit the equatio to the data plotted in figure 6c with ␣⬘ as the
+only adjustable parameter (see legend to fig. 6c). the best fit was
+achieved with a value of 251 s ⫺1 for ␣⬘, indicating that the burst
+duration in a saturating amantadine concentration would be 3.98
+ms. these results indicate that the channel of nmda receptors
+closes 1.99 times faster when blocked by amantadine than when
+unblocked. the agreement of this highly constrained fit of equation 1 (solid line) with the data further supports the hypothesis
+that channel closure is accelerated during block by amantadine.
+does this effect of amantadine on channel closing fully explain
+the low ic50 of amantadine? probably not entirely. to achieve an
+ic50 of 39 ␮m at 5 ␮m nmda with a kd of 110 ␮m through an
+effect only on channel gating, k⬘g must be 2.83 times greater than
+kg (fig. 3c). to achieve this difference purely through an effect
+on the rate of channel closure, amantadine would have to increase the channel closing rate by a factor of 2.83. the resulting
+effect on burst duration, predicted with equation 1, is plotted in
+figure 6c (dashed line). the difference between the dashed line
+and the data suggests that acceleration of channel closure is not
+the only mechanism by which amantadine reduces open probability. for example, if amantadine also reduced channel opening
+rate by a factor of 1.4 (␤⬘ ⫽ ␤/1.4), the observed difference between ic50 and kd would result.
+the whole-cell, single-channel, and modeling results presented here all support the hypothesis that amantadine inhibits
+nmda responses with an ic50 lower than its kd predominantly
+through an effect on channel gating. amantadine thus has two
+inhibitory actions: blocking current flow through the open channel and increasing occupancy of closed states. which is the dominant inhibitory mechanism by which amantadine acts? this
+question can be addressed be comparing the predicted concentration–response curves of two hypothetical antagonists. both
+bind to the open state of the nmda receptor with the kd of
+amantadine (110 ␮m). however, one is a pure channel blocker: it
+does not affect receptor function (k⬘g ⫽ kg, k⬘a ⫽ ka, k⬘ds ⫽ kds).
+the other is a pure “gating antagonist”: it stabilizes the closed
+state of the nmda receptor like amantadine but does not block
+current flow through the open channel. the predicted concentration–inhibition curves for these hypothetical blockers and for
+amantadine are compared in figure 6 d. for inhibitor concentrations below ⬃100 ␮m, the gating antagonist (“gating only”)
+inhibits more effectively than the antagonist that blocks current
+flow without affecting gating (“block only”). thus, over the
+range of amantadine concentrations that are pharmaceutically
+relevant, the principal antagonistic effect of amantadine is to stabilize the closed state of the channel of nmda receptors.
+we performed one additional test of the hypothesis that
+amantadine increases channel closing rate when bound. the test
+is based on the observation that, after block of nmda receptor
+channels by extracellular mg 2⫹ (mg 2⫹o), unblock caused by a
+depolarizing voltage jump proceeds with a multi-exponential
+time course (vargas-caballero and robinson, 2003, 2004;
+kampa et al., 2004). one or more time constants of unblock were
+observed to be much slower than would be expected from the
+unblocking rate of mg 2⫹o measured in single-channel experi-
+
+blanpied et al. • amantadine speeds closure of blocked nmda channels
+
+j. neurosci., march 30, 2005 • 25(13):3312–3322 • 3319
+
+discussion
+
+figure 7. after a rapid depolarizing voltage step, unblock of amantadine from nr1/nr2b
+receptors contains a prominent slow component. a, b, superimposed whole-cell currents from
+transfected hek 293t cells during a voltage jump from ⫺67 to 40 mv in 30 ␮m nmda plus 10
+␮m glycine with the following: a, 0 (thin trace) or 100 ␮m (thick trace) amantadine; b, 100 ␮m
+amantadine (thick trace) or 100 ␮m mg 2⫹o (thin trace). cells were exposed to the indicated
+external solution starting 15 s before the voltage jump. currents were leak and capacitive
+subtracted using identical voltage steps made in the presence of blocker but in the absence of
+agonists. in a, currents are not normalized; in b, currents were normalized and shifted so that
+currents were equal before the voltage jump and also at steady state at 40 mv (not visible in
+plotted section of traces). normalization was particularly important to remove differences attributable to mg 2⫹o potentiation of nr1/nr2b receptors (paoletti et al., 1995).
+
+ments. kinetic models were used to explore possible explanations
+for these observations (kampa et al., 2004; vargas-caballero and
+robinson, 2004). it was found that slow components of unblock
+are expected if blocker binding increases the occupation of channel closed states. occupation of closed states was increased by
+either increasing the rate of channel closure (vargas-caballero
+and robinson, 2004) or modifying multiple rate constants, including the rate of channel closure (kampa et al., 2004). based on
+these results, our hypothesis that amantadine accelerates channel
+closure, and hence increases occupation of closed states, predicts
+that amantadine unblock after a depolarizing voltage jump
+should proceed with a multi-exponential time course.
+we tested this prediction as shown in figure 7 and table 1.
+these experiments were performed on transfected hek 293t
+cells, which are electrotonically compact, rather than neurons
+because excellent space clamp was important to avoid artifactual
+slow relaxations after the voltage jumps. we transfected the
+nr2b subunit (along with nr1–1a) because this is likely to be the
+dominant nr2 subunit in the cultured neurons used in other
+experiments (zhong et al., 1994). the unblocking rate of amantadine, which should be even faster at 40 mv than at ⫺67 mv,
+would cause unblocking time course to be submillisecond if
+amantadine block had no effect on receptor transition rates
+(kampa et al., 2004; vargas-caballero and robinson, 2004). in
+contrast, we observed prominent slow components to amantadine unblock at 40 mv (fig. 7, table 1). amantadine unblocked
+with three dominant time constants. a fast component (␶fast) is
+likely to reflect the speed of voltage control. an intermediate time
+constant of unblock (␶slow1) was exhibited both by amantadine
+(5.17 ms) and by mg 2⫹o (8.51 ms) (fig. 7b, table 1). a very slow
+time constant of unblock (␶slow2) was observed during amantadine unblock (153 ms) (fig. 7b, table 1) but not during mg 2⫹o
+unblock. these data support the idea that channel block by
+amantadine increases the occupation of closed states by increasing the rate of channel closure.
+
+a crucial feature of clinically useful drugs is an affinity for their
+target molecule(s) that is high enough to prevent undesirable
+nonspecific effects. the affinity of a drug can be increased
+through increasing its binding rate or decreasing its unbinding
+rates. because binding rates are limited, most fundamentally by
+diffusion, clinically useful drugs tend to unbind relatively slowly.
+the data presented here demonstrate that amantadine binds to
+its principal target, the open channel of nmda receptors, with a
+binding rate typical of channel blockers, ⬃40 ␮m⫺1s⫺1 at resting
+potential. the corresponding unbinding rate of amantadine,
+however, is remarkably fast at over 4000 s ⫺1. how does a drug
+with such a fast unbinding rate nevertheless exhibit inhibitory
+effects on its target in a useful concentration range? the answer
+shown here is that, after blocking the open channel, amantadine
+encourages nmda receptor channels to occupy closed conformations. this unusual ability of amantadine increases its affinity,
+despite its fast unbinding from receptors with an open channel.
+the principal mechanism by which amantadine inhibits
+nmda responses at clinically useful concentrations is atypical of
+characterized channel blockers, which by definition plug open
+channels. inhibition of nmda responses by amantadine at concentrations below 100 ␮m, in contrast, depends mostly on stabilization of channel closed states. thus, the principal mode of
+action of amantadine is that of a gating antagonist rather than
+channel blocker. burst analysis (fig. 6c) revealed that the main
+mechanism by which amantadine stabilizes channel closed states
+is through acceleration of channel closure by a factor of ⬃2.
+observation of a slow component of amantadine unblock after a
+depolarizing voltage jump (fig. 7) supported the idea that amantadine binding accelerates channel closure. additional support
+for this idea can be found in our previous study of inhibition by
+memantine and amantadine of whole-cell nmda-activated currents (blanpied et al., 1997). the best fit of a simplified version of
+model 1 to whole-cell responses during agonist and amantadine
+concentration jumps yielded channel closing rates that were 2.9
+times faster when amantadine was bound. thus, although amantadine binding and unbinding rates were unknown in the previous study, its modeling results were consistent with the results
+obtained here using burst analysis.
+acceleration of channel closure cannot fully explain the low
+ic50 of amantadine, which requires that block by amantadine
+stabilize the closed state by a factor of 2.8 (fig. 3c). it is possible
+that amantadine slows channel opening rate as well as accelerating channel closing rate. we cannot exclude the possibility, however, that amantadine has other inhibitory effects on nmda receptors, although any additional inhibitory actions are unlikely
+to be at the nmda binding site (fig. 5).
+although only a single closed-liganded state (a2r) is shown in
+the absence of blocker in model 1, nmda receptors are known to
+have access to multiple closed-liganded states (gibb and
+colquhoun, 1992). the shortest-duration closed state that we
+observed, which was not included in model 1, was briefer than tcrit
+and so could not have terminated bursts. shortening of burst
+duration by amantadine therefore must have resulted from increased occupancy of longer-lived closed states. it is possible that
+a new longer-lived closed state appears only when amantadine is
+bound. however, a simpler explanation would appear to be that
+entry into a state or states that also exist in the absence of amantadine is accelerated. although understanding of connections
+among nmda receptor closed states is limited, an explicit model
+to explain three components of closed-time histograms was pro-
+
+blanpied et al. • amantadine speeds closure of blocked nmda channels
+
+3320 • j. neurosci., march 30, 2005 • 25(13):3312–3322
+
+table 1. current relaxations after depolarizing voltage steps
+agonists plus 0 blocker
+agonists plus 100 ␮m amantadine
+agonists plus 100 ␮m mg2⫹
+
+␶fast (ms)
+
+afast (%)
+
+␶slow1 (ms)
+
+aslow1 (%)
+
+␶slow2 (ms)
+
+aslow2 (%)
+
+n
+
+0.338 ⫾ 0.016
+0.279 ⫾ 0.027
+0.399 ⫾ 0.031
+
+88.5 ⫾ 1.6
+53.1 ⫾ 3.3
+71.3 ⫾ 1.5
+
+14.5 ⫾ 6.9
+5.17 ⫾ 0.51
+8.51 ⫾ 0.42
+
+11.5 ⫾ 1.6
+27.5 ⫾ 1.9
+28.7 ⫾ 1.5
+
+153. ⫾ 6.0
+
+19.4 ⫾ 1.6
+
+3
+4
+3
+
+the membrane voltage of hek 293t cells expressing nr1/nr2b receptors was stepped from ⫺67 to 40 mv in the presence of agonists (30 ␮m nmda plus 10 ␮m glycine) with 0 blocker, 100 ␮m amantadine, or 100 ␮m mg2⫹. current
+relaxations at 40 mv were fit using either a double (agonists with 0 blocker or 100 ␮m mg2⫹) or a triple (agonists with 100 ␮m amantadine) exponential equation. a is the fractional amplitude of each component.
+
+posed in an impressive recent study (banke and traynelis, 2003).
+in this model, open channels can close only to the shortest-lived
+closed state; from this state, either nr1 or nr2 subunits can
+make transitions to longer-lived closed conformations. the
+closed durations reported here differ from those recorded under
+different conditions by banke and traynelis (2003). nevertheless, our burst data could be plausibly explained within the framework of their model if channel block by amantadine increases the
+rate of any of the three proposed types of closing transitions.
+because amantadine binds in the channel, the most straightforward idea may be that amantadine increases the reverse rate of the
+final, rapid, concerted, pore-opening transition. this would
+mean that amantadine increases the rate into the shortest-lived
+state, the duration of which would be within burst. however, in
+this model, the shortest-lived state is a gateway state to all other
+closed states. thus, increasing occupancy of the shortest-lived
+state would result in an increase in the rate of entry into longerlived states and would lead to shorter bursts.
+many organic nmda receptor channel blockers affect channel gating (for review, see johnson and qian, 2002; sobolevsky,
+2003). however, occupation of the channel of nmda receptors
+by organic channel blockers has been shown by previous studies
+to stabilize the channel open state. amantadine appears to be the
+first organic nmda receptor channel blocker to be shown to
+stabilize closed states. in contrast to most organic blockers, physiological block of nmda receptor channels by mg 2⫹o was proposed recently to accelerate channel closure (kampa et al., 2004;
+vargas-caballero and robinson, 2004). this proposal was supported by earlier measurements of an mg 2⫹o-induced decrease in
+burst duration (ascher and nowak, 1988). we observed that
+amantadine, like mg 2⫹o, exhibits a slow component of unblock
+after a voltage jump to a positive potential (fig. 7, table 1). thus,
+the blocking actions of amantadine and of mg 2⫹o may exhibit
+two notable similarities: unusually fast unblocking kinetics and
+the ability to accelerate channel closure while blocking. however,
+amantadine exhibits a much slower component of unblock that
+we did not observed with mg 2⫹o (fig. 7a, table 1) (but see
+kampa et al., 2004). also, in contrast to amantadine, the ic50 and
+kd of mg 2⫹o are nearly identical (qian et al., 2002). this observation and others (sobolevsky and yelshansky, 2000) argue
+against the idea (kampa et al., 2004; vargas-caballero and robinson, 2004) that block by mg 2⫹o significantly favors occupation
+of channel closed states. thus, there must be yet uncharacterized
+differences in how amantadine and mg 2⫹o influence gating while
+blocking the channel of nmda receptors.
+it is perhaps surprising that occupation of an ion channel by a
+relatively large molecule such as amantadine would accelerate
+rather than slow channel closure. stabilization of closed states of
+a mutant shaker k ⫹ channel by an organic channel blocker has
+been observed previously (holmgren et al., 1997). tetraethylammonium (tea) and its analog c10 strongly stabilize the open
+state of wild-type shaker channels. however, when shaker channels with a point mutation (i470c) near the middle of the s6
+region were examined, c10 was found to weakly stabilize the
+
+channel open state and tea to weakly stabilize channel closed
+states. these results indicate that the precise relationship between
+blocker structure and the shape of the channel cavity in which
+blockers are likely to bind (jiang and mackinnon, 2000) can
+determine the effects of blocker binding on channel gating. structural and functional similarities between k ⫹ channels and glutamate receptors (panchenko et al., 2001) suggest that similar ideas
+may apply to block of nmda receptors. thus, systematic molecular modification of amantadine and other blockers (antonov
+and johnson, 1996; bolshakov et al., 2003) can be used to help
+define channel shape while advancing the search for more useful
+therapeutic drugs.
+amantadine and its close analog memantine are both nmda
+channel blockers that exhibit high clinical utility. their spectra of
+utility, however, differ substantially (danysz et al., 1997); for example, amantadine appears to be the more effective antiparkinsonian drug, whereas memantine currently is the only
+drug approved by the fda for use in the treatment of moderate to
+severe alzheimer’s disease. correspondingly, each drug exhibits
+distinct antagonistic properties that influence their affinity, kinetics, ability to be trapped, and use dependence. the properties
+of amantadine described here permit its action to resemble in
+important respects block by mg 2⫹o, although amantadine block
+is less voltage dependent because of the lower valence of the drug
+(⫹1 at physiological ph). thus, the remarkably fast unblocking
+kinetics of amantadine allow it, like mg 2⫹o, to at least partly
+unblock during the brief depolarization of an action potential, a
+characteristic that may decrease deleterious clinical effects. the
+weaker voltage dependence of amantadine should permit it to
+inhibit nmda responses more effectively than mg 2⫹o during the
+prolonged depolarizations that accompany neurological insults,
+enhancing its neuroprotective potential. together, the unique
+combination of kinetics, effects on channel gating, and voltage
+dependence of amantadine may enhance both its clinical safety
+and effectiveness.
+
+references
+anson lc, schoepfer r, colquhoun d, wyllie dj (2000) single-channel
+analysis of an nmda receptor possessing a mutation in the region of the
+glutamate binding site. j physiol (lond) 527:225–237.
+antonov sm, johnson jw (1996) voltage-dependent interaction of openchannel blocking molecules with gating of nmda receptors in rat cortical
+neurons. j physiol (lond) 493:425– 445.
+antonov sm, johnson jw (1999) permeant ion regulation of n-methyl-daspartate receptor channel block by mg 2⫹. proc natl acad sci usa
+96:14571–14576.
+antonov sm, gmiro ve, johnson jw (1998) binding sites for permeant
+ions in the channel of nmda receptors and their effects on channel block.
+nat neurosci 1:451– 461.
+ascher p, nowak l (1988) the role of divalent cations in the n-methyl-daspartate responses of mouse central neurones in culture. j physiol
+(lond) 399:247–266.
+ascher p, bregestovski p, nowak l (1988) n-methyl-d-aspartate-activated
+channels of mouse central neurones in magnesium-free solutions.
+j physiol (lond) 399:207–226.
+banke tg, traynelis sf (2003) activation of nr1/nr2b nmda receptors.
+nat neurosci 6:144 –152.
+
+blanpied et al. • amantadine speeds closure of blocked nmda channels
+benveniste m, mayer ml (1991) kinetic analysis of antagonist action at
+n-methyl-d- xxxd233xxx  receptors. two binding sites each for glutamate
+and glycine. biophys j 59:560 –573.
+benveniste m, mayer ml (1995) trapping of glutamate and glycine during
+open channel block of rat hippocampal neuron nmda receptors by
+9-aminoacridine. j physiol (lond) 483:367–384.
+blanchet pj, metman lv, chase tn (2003) renaissance of amantadine in
+the treatment of parkinson’s disease. adv  xxxd122xxx  91:251–257.
+blanpied ta, boeckman fa, aizenman e, johnson jw (1997) trapping
+channel block of nmda-activated responses by amantadine and memantine. j neurophysiol 77:309 –323.
+bolshakov kv, gmiro ve, tikhonov db, magazanik lg (2003) determinants of trapping block of n-methyl-d-aspartate receptor channels.
+j neurochem 87:56 – 65.
+bresink i, benke ta, collett vj, seal aj, parsons cg, henley jm, collingridge
+gl (1996) effects of memantine on recombinant rat nmda receptors
+expressed in hek 293 cells. br j pharmacol 119:195–204.
+chen hs, lipton sa (1997) mechanism of memantine block of nmdaactivated channels in rat retinal ganglion cells: uncompetitive antagonism. j physiol (lond) 499:27– 46.
+colquhoun d, hawkes ag (1995) the principles of the stochastic interpretation of ion-channel mechanisms. in: single-channel recording, ed 2
+(sakmann b, neher e, eds), pp 397– 482. new york: plenum.
+colquhoun d, sigworth fj (1995) fitting and statistical analysis of singlechannel records. in: single-channel recording, ed 2 (sakmann b, neher e,
+eds), pp 483–587. new york: plenum.
+danysz w, parsons cg, kornhuber j, schmidt wj, quack g (1997) aminoadamantanes as nmda receptor antagonists and antiparkinsonian
+agents—preclinical studies. neurosci biobehav rev 21:455– 468.
+davies wl, grunert rr, haff rf, mcgahen jw, neumayer em, paulshock
+m, watts jc, wood tr, hermann ec, hoffmann ce (1964) antiviral
+activity of  xxxd136xxx  (amantadine). science 144:862– 863.
+dilmore jg, johnson jw (1998) open channel block and alteration of
+n-methyl-d- xxxd233xxx  receptor gating by an analog of phencyclidine.
+biophys j 75:1801–1816.
+dingledine r, borges k, bowie d, traynelis sf (1999) the  xxxg981xxx  ion channels. pharmacol rev 51:7– 61.
+donnelly jl, pallotta bs (1995) single-channel currents from
+diethylpyrocarbonate-modified nmda receptors in cultured rat brain
+cortical neurons. j gen physiol 105:837– 859.
+fisher k, coderre tj, hagen na (2000) targeting the n-methyl-daspartate receptor for chronic pain management. preclinical animal studies, recent clinical experience and future research directions. j pain symptom manage 20:358 –373.
+gibb aj, colquhoun d (1992) activation of n-methyl-d-aspartate receptors by l-glutamate in cells dissociated from adult rat hippocampus.
+j physiol (lond) 456:143–179.
+hay aj (1992) the action of adamantanamines against influenza a viruses:
+inhibition of the m2 ion channel protein. semin virol 3:21–30.
+hille b (2001) ion channels of excitable membranes, ed 3. sunderland, ma:
+sinauer.
+holmgren m, smith pl, yellen g (1997) trapping of organic blockers by
+closing of voltage-dependent k ⫹ channels: evidence for a trap door
+mechanism of activation gating. j gen physiol 109:527–535.
+howe jr, colquhoun d, cull-candy sg (1988) on the kinetics of largeconductance glutamate-receptor ion channels in rat cerebellar granule
+neurons. proc r soc lond b biol sci 233:407– 422.
+jahr ce (1992) high probability opening of nmda receptor channels by
+l-glutamate. science 255:470 – 472.
+jahr ce, stevens cf (1990) a quantitative description of nmda receptorchannel kinetic behavior. j neurosci 10:1830 –1837.
+javitt dc, zukin sr (1991) recent advances in the phencyclidine model of
+schizophrenia. am j psychiatry 148:1301–1308.
+jentsch jd, roth rh (1999) the neuropsychopharmacology of phencyclidine: from nmda receptor hypofunction to the dopamine hypothesis of
+schizophrenia. neuropsychopharmacology 20:201–225.
+jiang y, mackinnon r (2000) the barium site in a  xxxg1232xxx  by
+x-ray crystallography. j gen physiol 115:269 –272.
+johnson jw, qian a (2002) interaction between channel blockers and
+channel gating of nmda receptors. biologicheskie membrany 19:17–22.
+kampa bm, clements j, jonas p, stuart gj (2004) kinetics of mg 2⫹ unblock
+
+j. neurosci., march 30, 2005 • 25(13):3312–3322 • 3321
+of nmda receptors: implications for spike-timing dependent synaptic
+plasticity. j physiol (lond) 556:337–345.
+kleckner nw, pallotta bs (1995) burst kinetics of single nmda receptor
+currents in cell-attached patches from rat brain cortical neurons in culture. j physiol (lond) 486:411– 426.
+kornhuber j, bormann j, hubers m, rusche k, riederer p (1991) effects of
+the 1-amino-adamantanes at the mk-801-binding site of the nmdareceptor-gated ion channel: a human postmortem brain study. eur
+j pharmacol 206:297–300.
+lester ra, tong g, jahr ce (1993) interactions between the glycine and
+glutamate binding sites of the nmda receptor. j neurosci 13:1088 –1096.
+li-smerin y, aizenman e, johnson jw (2000) inhibition by intracellular
+mg 2⫹ of recombinant n-methyl-d-aspartate receptors expressed in chinese hamster ovary cells. j pharmacol exp ther 292:1104 –1110.
+li-smerin y, levitan es, johnson jw (2001) free intracellular mg 2⫹ concentration and inhibition of nmda responses in cultured rat neurons.
+j physiol (lond) 533:1729 –1743.
+lingle c (1983) blockade of cholinergic channels by chlorisondamine on a
+crustacean muscle. j physiol (lond) 339:395– 417.
+lupp a, lucking ch, koch r, jackisch r, feuerstein tj (1992) inhibitory
+effects of the antiparkinsonian drugs memantine and amantadine on
+n-methyl-d-aspartate-evoked acetylcholine release in the rabbit caudate
+nucleus in vitro. j pharmacol exp ther 263:717–724.
+magleby kl, pallotta bs (1983) burst kinetics of single calcium-activated
+potassium channels in cultured rat muscle. j physiol (lond) 344:605– 623.
+marshall cg, ogden dc, colquhoun d (1990) the actions of suxamethonium (succinyldicholine) as an agonist and channel blocker at the nicotinic receptor of frog muscle. j physiol (lond) [erratum (1991) 435:645–
+646] 428:155–174.
+meythaler jm, brunner rc, johnson a, novack ta (2002) amantadine to
+improve neurorecovery in traumatic brain injury-associated diffuse axonal injury: a pilot double-blind randomized trial. j head trauma rehabil 17:300 –313.
+monaghan dt, larsen h (1997) nr1 and nr2 subunit contributions to
+n-methyl-d-aspartate receptor channel blocker pharmacology. j pharmacol exp ther 280:614 – 620.
+neher e, steinbach jh (1978) local anaesthetics transiently block currents
+through single acetylcholine-receptor channels. j physiol (lond)
+277:153–176.
+ogden dc, colquhoun d (1985) ion channel block by acetylcholine, carbachol and suberyldicholine at the frog neuromuscular junction. proc r
+soc lond b biol sci 225:329 –355.
+olney jw, newcomer jw, farber nb (1999) nmda receptor hypofunction
+model of schizophrenia. j psychiatr res 33:523–533.
+panchenko va, glasser cr, mayer ml (2001) structural similarities between  xxxg981xxx  channels and k ⫹ channels examined by scanning mutagenesis. j gen physiol 117:345–360.
+paoletti p, neyton j, ascher p (1995) glycine-independent and subunitspecific potentiation of nmda responses by extracellular mg 2⫹. neuron
+15:1109 –1120.
+parsons cg, quack g, bresink i, baran l, przegalinski e, kostowski w,
+krzascik p, hartmann s, danysz w (1995) comparison of the potency,
+kinetics and voltage-dependency of a series of uncompetitive nmda receptor antagonists in vitro with anticonvulsive and motor impairment
+activity in vivo. neuropharmacology 34:1239 –1258.
+parsons cg, panchenko va, pinchenko vo, tsyndrenko ay, krishtal oa
+(1996) comparative patch-clamp studies with freshly dissociated rat
+hippocampal and striatal neurons on the nmda receptor antagonistic
+effects of amantadine and memantine. eur j neurosci 8:446 – 454.
+parsons cg, danysz w, bartmann a, spielmanns p, frankiewicz t, hesselink
+m, eilbacher b, quack g (1999a) amino-alkyl-cyclohexanes are novel
+uncompetitive nmda receptor antagonists with strong voltagedependency and fast blocking kinetics: in vitro and in vivo characterization. neuropharmacology 38:85–108.
+parsons cg, danysz w, quack g (1999b) memantine is a clinically well
+tolerated n-methyl-d-aspartate (nmda) receptor antagonist—a review
+of preclinical data. neuropharmacology 38:735–767.
+qian a, antonov sm, johnson jw (2002) modulation by permeant ions of
+mg 2⫹ inhibition of nmda-activated whole-cell currents in rat cortical
+neurons. j physiol (lond) 538:65–77.
+qian a, buller al, johnson jw (2005) nr2 subunit-dependence of nmda
+receptor channel block by external mg 2⫹. j physiol (lond) 562:319 –331.
+
+3322 • j. neurosci., march 30, 2005 • 25(13):3312–3322
+rogawski ma (1993) therapeutic potential of excitatory amino acid antagonists:
+channel blockers and 2,3-benzodiazepines. trends pharmacol sci 14:325–331.
+rosenmund c, feltz a, westbrook gl (1995) synaptic nmda receptor
+channels have a low open probability. j neurosci 15:2788 –2795.
+schwab rs, england jr ac, poskanzer dc, young rr (1969) amantadine in
+the treatment of parkinson’s disease. jama 208:1168 –1170.
+sigworth fj, sine sm (1987) data transformations for improved display and
+fitting of single-channel dwell time histograms. biophys j 52:1047–1054.
+sobolevsky a, koshelev s (1998) two blocking sites of amino-adamantane derivatives in open n-methyl-d- aspartate channels. biophys j 74:1305–1319.
+sobolevsky ai (2003) channel block of glutamate receptors. in: recent research developments in physiology 1 (pandalai sg, ed),  xxxd1100xxx –38. kerala,
+india: research signpost.
+sobolevsky ai, yelshansky mv (2000) the trapping block of nmda recep-
+
+blanpied et al. • amantadine speeds closure of blocked nmda channels
+tor channels in acutely isolated rat hippocampal neurones. j physiol
+(lond) 526:493–506.
+sobolevsky ai, koshelev sg, khodorov bi (1998) interaction of memantine
+and amantadine with agonist-unbound nmda-receptor channels in
+acutely isolated rat hippocampal neurons. j physiol (lond) 512:47– 60.
+vargas-caballero m, robinson hp (2003) a slow fraction of mg 2⫹ unblock
+of nmda receptors limits their contribution to spike generation in cortical pyramidal neurons. j neurophysiol 89:2778 –2783.
+vargas-caballero m, robinson hpc (2004) fast and slow voltagedependent dynamics of magnesium block in the nmda receptor: the
+asymmetric trapping block model. j neurosci 24:6171– 6180.
+zhong j, russell sl, pritchett db, molinoff pb, williams k (1994) expression of mrnas encoding subunits of the n-methyl-d-aspartate receptor
+in cultured cortical neurons. mol pharmacol 45:846 – 853.
+

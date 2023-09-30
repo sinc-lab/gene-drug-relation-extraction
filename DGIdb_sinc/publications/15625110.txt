@@ -1,0 +1,527 @@
+biological spectra analysis: linking biological activity
+profiles to molecular structure
+anton f. fliri*, william t. loging, peter f. thadeio, and robert a. volkmann*†
+pfizer global research and development, groton, ct 06340
+communicated by larry e. overman, university of california, irvine, ca, october 25, 2004 (received for review september 4, 2004)
+
+biospectra 兩 proteome 兩 structure–function relationships
+
+o
+
+rganic molecules have the intrinsic capacity of both storing
+and transmitting information. this ability provides the link
+between chemical scaffold design and biological activity. identification of structure features that allow differentiation between
+effect and side-effect profiles of medicinal agents is currently
+rate limiting in drug discovery (1). current understanding of
+structure–activity relationship (sar) components evolved from
+‘‘lock and key’’ models of protein–ligand interactions (2, 3). each
+protein family has its own sets of rules, which depend on dynamic
+and structural aspects of ligand and ligand-binding site, for
+identifying molecular properties that provide specific interactions with proteins (4, 5). current drug discovery methods
+estimate biological response of potential medicinal agents by
+constructing independent and linear models. although these
+models provide a link between specific biological targets and
+therapeutic effects, the properties of natural signals are too
+complex to expect that an independent set of descriptors would
+be capable of forecasting broad biological responses (6). hence
+refinement of traditional sar methods hinges on development
+of nonlinear, multivariant models and availability of molecular
+property descriptors that take into account chirality and dynamic
+aspects not only of ligands but also of receptor targets (7).
+obviously, these models must also factor in the variance of
+molecular property and biological response descriptors based on
+www.pnas.org兾cgi兾doi兾10.1073兾pnas.0407790101
+
+translation of chemical property information into biological
+activity spectra
+what emerges from investigations on the complexity of biological response regulation is the obvious role that modularity plays
+at every level, from genes to proteins to functions. modular
+structure design within protein families by using conserved
+structure elements in the active site (11), for example, forms the
+basis for 3d models, which drive sar studies within protein
+families. this strategy even succeeds in protein families whose
+members have low sequence homology such as the cytochrome
+p450 superfamily, which consists of ⬎2,000 members distributed
+across different organisms (12–15).
+the investigation described below takes advantage of the
+modularity concept for linking biological response and structure
+design of molecules. conservation of active site residues within
+protein families is the reason that, at high ligand concentration,
+the capacity of molecules to interact selectively with protein
+targets is lost. consequently, determination of percent inhibition
+values for a molecule at single high drug concentrations not only
+measures its interaction with a single target but also provides
+information on a molecule’s broad interaction potential with a
+large number of proteins represented in a gene family. examining the ability of ligands to interact with proteins representing
+a wide range of gene families of the ‘‘drugable’’ proteome (16)
+under identical ligand concentration therefore provides an effective strategy for determining the interaction capacity of
+molecules with this important section of the proteome (17–19).
+for characterizing the interaction capacity of molecules with
+the proteome, percent inhibition values are treated as a continuum of data points and not as independent observations (9,
+20–22). from this perspective, individual percent inhibition
+values are not interpreted in terms of biological response
+significance but instead are used to describe the interaction
+capacity of a molecule with the proteome. representation of this
+molecular property as a biological activity spectrum has several
+important consequences. first, biospectra provide a uniform
+description of this molecular property, which integrate sar
+determinants of both ligand and ligand-binding sites. a second
+feature is that biospectra derived from percent inhibition values
+at single ligand concentration are normalized and directly comparable. as a result, spectroscopic methods can be used to
+compare interaction capacities of molecules with the proteome
+freely available online through the pnas open access option.
+abbreviations: sar, structure–activity relationship; sp, similarity to profile; ccs, confidence
+in cluster similarity.
+*a.f.f. and r.a.v. contributed equally to this work.
+†to
+
+whom correspondence should be addressed. e-mail: robert.a.volkmann@pfizer.com.
+
+© 2004 by the national academy of sciences of the usa
+
+pnas 兩 january 11, 2005 兩 vol. 102 兩 no. 2 兩 261–266
+
+chemistry
+
+differences in biological environments (8). considering the
+complexity of this requirement, computational solutions that
+precisely link molecular structure to broad biological response
+are currently not possible (9, 10). we report here an approach
+to structure–function studies that is based on measurements of
+the capacity of molecules to interact with the proteome (11).
+
+pharmacology
+
+establishing quantitative relationships between molecular structure and broad biological effects has been a longstanding challenge in science. currently, no method exists for forecasting broad
+biological activity profiles of medicinal agents even within narrow
+boundaries of structurally similar molecules. starting from the
+premise that biological activity results from the capacity of small
+organic molecules to modulate the activity of the proteome, we set
+out to investigate whether descriptor sets could be developed for
+measuring and quantifying this molecular property. using a 1,567compound database, we show that percent inhibition values,
+determined at single high drug concentration in a battery of in
+vitro assays representing a cross section of the proteome, provide
+precise molecular property descriptors that identify the structure
+of molecules. when broad biological activity of molecules is represented in spectra form, organic molecules can be sorted by
+quantifying differences between biological spectra. unlike traditional structure–activity relationship methods, sorting of molecules by using biospectra comparisons does not require knowledge
+of a molecule’s putative drug targets. to illustrate this finding, we
+selected as starting point the biological activity spectra of  xxxd1732xxx  and  xxxd3380xxx  because their putative target, lanosterol
+demethylase ( xxxg596xxx ), was not included in the bioassay array.
+spectra similarity obtained through profile similarity measurements and hierarchical clustering provided an unbiased means for
+establishing quantitative relationships between chemical structures and biological activity spectra. this methodology, which we
+have termed biological spectra analysis, provides the capability not
+only of sorting molecules on the basis of biospectra similarity but
+also of predicting simultaneous interactions of new molecules with
+multiple proteins.
+
+because sterol 14␣-demethylase ( xxxg596xxx ), the putative drug
+target (15) of these antifungal agents, is not part of the 92-protein
+bioassay suite. fig. 2 shows the biological activity profiles for
+ xxxd1732xxx  and  xxxd3380xxx  by using the suite of in vitro assays
+described above and listed in data set 2. biological activity data
+for these two molecules can be represented in several ways: (i)
+a table listing the percent inhibition values of 1 and 2 in each of
+the assays (fig. 2 a); (ii) a two-dimensional spectra representation of percent inhibition values, e.g., percent inhibition values
+for each molecule in the 92 bioassays (fig. 2b); (iii) a onedimensional comparison of percent inhibition values by using a
+heat map representing individual percent inhibition values with
+a coloring scheme (fig. 2c).
+
+fig. 1. a cross section of the drugable proteome. proteins are clustered on
+the basis of sequence homology. proteins in close proximity in this dendrogram are members of the same gene family and share sequence similarity and
+structure similarity in regulatory and ligand-binding domains. cerep’s bioprint database‡ (23) consists of ⬎100 in vitro assays. forty-two of the 92 assay
+constituents used in our studies (shown in red) are g-protein-coupled receptors (gpcrs). the rest encompass a wide range of functionally diverse proteins
+representing a number of protein superfamilies.
+
+across a wide range of structure classes. biospectra similarity
+between molecules is measured by using similarity measures such
+as euclidean distance, cosine correlation, city block distance, or
+tanimoto coefficient. for the sar study presented below,
+biospectra similarity was determined by using cosine correlation.
+the other similarity measures provided similar results.
+methods
+to probe the utility of biological activity spectra as an intrinsic
+molecular property descriptor, we selected a portion of the
+bioprint database‡ of cerep (rueil-malamaison, france) (23)
+for our investigation. we used 1,567 structurally diverse molecules and 92 ligand-binding assays for constructing a data set
+containing complete percent inhibition values  xxxd1891xxx  ␮m ligand
+concentration. primary screening  xxxd1891xxx  ␮m was carried out in
+duplicate. additional screening was carried out  xxxd1891xxx  ␮m ligand
+concentration if results varied by more than 20%. the 92 assays
+were selected to represent a cross section of the drugable
+proteome as shown in fig. 1 (16–19). the 1,567-compound data
+set represented the complete list of molecules in the bioprint
+database that had percent inhibition values for all of the 92
+assays. the compounds and assays used for this investigation are
+listed in data sets 1 and 2, which are published as supporting
+information on the pnas web site. decisionsite 7.2 (spotfire,
+somerville, ma) was used for hierarchical clustering and profile
+similarity searches.
+results and discussion
+to ensure that direct structure–activity information would not,
+in any way, affect the outcome of our assessment of the general
+utility of biospectra as molecular property descriptors, the
+biological activity spectra of  xxxd1732xxx  (1) and  xxxd3380xxx  (2)
+(fig. 2) were selected as a starting point for our investigation
+‡bioprint
+
+is a commercial database, which is available to subscribers and contains data on
+⬎2,500 drugs and drug-like molecules.
+
+262 兩 www.pnas.org兾cgi兾doi兾10.1073兾pnas.0407790101
+
+biospectra similarity. the capacity of  xxxd1732xxx  and  xxxd3380xxx  to interact with the proteome is reflected in the biological
+activity spectrum constructed from individual percent inhibition
+values for these 92 bioassays obtained  xxxd1891xxx  ␮m drug concentration (fig. 2). experience with physicochemical spectra
+teaches that spectra similarity parallels structure similarity.
+hence it is generally accepted that molecules with identical
+structure have identical spectra and that spectra similarity
+between molecules decreases with decreasing structure similarity. there are two methods commonly used for spectra comparison. one method for establishing biospectra similarity between
+molecules is based on direct biospectra profile comparison.
+operationally, this method rank orders compounds in the database by using similarity scores [similarity to profile (sp)
+scores], obtained by comparing the biospectra of every molecule
+in the database with the biospectrum of a reference compound.
+the second method, which is not biased, identifies spectra
+similarity [by using the confidence in cluster similarity (ccs)
+scale] based on hierarchical clustering. hierarchical clustering
+identifies the best possible matches between compound pairs in
+the entire database (optimal overall fit), whereas profile searching identifies the compound that is most similar to the reference
+profile (best reference fit). conducting a profile search using
+biospectra of  xxxd1732xxx  (1) (fig. 2) as entry point revealed
+three biospectra of greatest similarity in the entire 1,567compound database:  xxxd3380xxx  (2) with a similarity (sp) rating
+of 0.79 and two other related azoles, 3 and 4, the former with a
+similarity rating of 0.81 and the latter with a rating of 0.79.
+remarkably, this biospectra similarity search identifies molecules that all have antifungal activity and hence identifies
+molecules with similar biological response capacity.
+a second profile search, using the biospectra of  xxxd3380xxx 
+(2) (fig. 2) as entry point, revealed the following additional
+molecules (azoles) with high similarity ranking: 3 [similarity (sp)
+ranking of 0.92], 4 (0.90), 5 (0.84), 6 (0.86), 7 (0.78), 8 (0.79), and
+9 (0.87). the results obtained in these two biospectra profile
+searches were compared with results obtained by hierarchical
+clustering using the unweighted pair-group method (upgma).
+the same similarity measure was used for profile searching and
+hierarchical clustering. comparison between these independent
+spectra comparison methods (comparing sp and ccs values)
+indicates that biospectra spectra similarity parallels structure
+similarity and biological response similarity. accordingly, if the
+spectra profile similarity [profile (sp) similarity values] ranking
+between molecules is ⬎0.8, then the molecules retrieved in a
+profile search are structurally and pharmacologically closely
+aligned. likewise, hierarchical clustering identifies structurally
+and pharmacologically closely related molecules, if molecules in
+a cluster exhibit a confidence in cluster similarity ranking (ccs)
+of ⬎0.8. the results of profile searching and hierarchical clustering merge, e.g., identify molecules as most similar if profile
+search ranking or ccs value are ⬎0.8 (see fig. 4a). examination
+of the biospectra similarity of these and other molecules in the
+database reveals that structure similarity relationships (visual
+fliri et al.
+
+chemistry
+
+inspection) erode when similarity (sp) rankings or ccs values
+are ⬍0.80.
+hierarchical clustering of the 1,567 biospectra. the hierarchical
+clustering of 1,567 compounds and 92 bioassays is shown in fig.
+3a. hierarchical clustering of the biospectra of 1,567 molecules
+listed in cerep’s bioprint database, using the upgma algorithm and cosinus correlation as similarity measurement, provides two sar dendrograms. the dendrogram depicted on the
+y axis provides similarity assessments of molecules based on their
+capacity to interact with the proteome (biospectra similarity).
+the ‘‘biological activity’’ similarity between these molecules can
+be ascertained by considering the organization of the y-axis
+dendrogram. this organization captures the biological response
+similarity of these molecules. accordingly, molecules on proximate branches of the y-axis dendrogram in fig. 3 have closely
+related biological activity spectra and closely related pharmacology. the x-axis dendrogram, on the other hand, clusters
+proteins on the basis of ligand-binding site similarity. this
+property determines the appearance and organization of biological activity spectra. biological activity spectra are organized
+on the basis of the capacity of ligand-binding domains to
+differentiate between ligands (25). the ligand-binding domain
+similarity between the 92 proteins is objectively ascertained
+through hierarchical clustering. hierarchical clustering organizes the layout of the x-axis dendrogram and provides an
+unbiased mean for biological spectra comparisons between
+organic molecules.
+fliri et al.
+
+assessment of biological activity profile similarity. the dendrogram
+
+flanking the y axis of fig. 3a shows the binning of 1,567
+molecules into clusters based on biospectra similarity. the
+biospectra similarity between molecules is measured with ccs
+values resulting from hierarchical clustering. inspecting the
+structures of molecules grouped in the y-axis dendrogram in fig.
+3a reveals that the clustering of compounds based on biospectra
+similarity measurements separates these molecules into distinct
+structural series and pharmacology classes. accordingly, molecules on proximate branches of the y-axis dendrogram in fig. 3a
+exhibiting a ccs ranking of ⱖ0.8 are structurally closely related.
+this empirically determined ccs value is in agreement with
+biospectra similarity rankings obtained through direct spectra
+comparison (profile searching) studies shown above. fig. 3a
+organizes 73 clusters containing 317 compounds with a score of
+ⱖ0.80 confidence range. each of these clusters identifies structurally and pharmacologically closely related molecules. thirtythree clusters in this database contain 109 compounds with ccs
+values ⱖ0.90, indicating molecules whose biospectra profiles are
+even more closely aligned.
+a portion (23 compounds) of the entire data set, containing
+ xxxd1732xxx  (1),  xxxd3380xxx  (2), and related molecules 2–9, is
+shown in fig. 3b. compounds 2–9 are antifungal agents with
+similar structural motifs (fig. 4a). the cluster of molecules 2–9
+(‘‘azole’’ cluster) shown in figs. 3b and 4 is prototypical of the
+other clusters in the 1,567-compound database that have a
+confidence in cluster similarity value of ⱖ0.80. inspection of fig.
+pnas 兩 january 11, 2005 兩 vol. 102 兩 no. 2 兩 263
+
+pharmacology
+
+fig. 2. biological activity spectra of antifungal agents  xxxd1732xxx  and  xxxd3380xxx . these spectra were constructed by using 92 bioassay data points from
+cerep’s bioprint array.‡ the bioassay proteins, listed in data set 2, are located on the x axis. associated percent inhibition values (a), determined  xxxd1891xxx  ␮m drug
+concentrations for each compound, are described in the two-dimensional spectra view shown in b and as a heat map shown in c, which presents the same
+information and layout for the x axis and uses a coloring scheme for expressing percent inhibition values. a white to green to black gradient expresses values
+between 0% and 100% inhibition. this coloring scheme is applied to all heat maps shown in this publication.
+
+fig. 3. hierchical clustering of 1,567 compounds by using percent inhibition values. (a) a heat map and x-axis and y-axis dendrograms obtained for the complete
+sar matrix. over 140,000 data points with a dimension 92 ⫻ 1,567 (assays ⫻ molecules) resides in the heat map. (b) a portion (23 molecules in 92 assays) of the
+heat map containing  xxxd1732xxx  (1) and  xxxd3380xxx  (2), which were described in fig. 2. the data are organized by using two classification schemes
+(dendrograms): one with horizontal orientation on top (x-axis dendrogram) and the other with vertical orientation on the left side (y-axis dendrogram).
+receptors appearing in the x-axis dendrogram are color coded according to memberships in designated protein superfamilies: blue, g-protein-coupled receptors;
+pink, enzymes; green, ion channels; purple, transporters; orange, receptors; black, steroid receptors. providing an unbiased organization of biospectra of
+individual molecules (shown on the y axis). the x-axis dendrogram clusters proteins into groups based on interaction profile similarity between proteins by using
+the percent inhibition values of 1,567 molecules as the measure. proteins with similar percent inhibition value distribution (similar ligand-binding domain
+characteristics) appear on proximate branches of the x-axis dendrogram. the y-axis dendrogram, on the other hand, clusters molecules on the basis of similarity
+ranking obtained by comparing biospectra by using the upgma algorithm (molecule comparison). biospectra similarity between clusters and individual
+molecules is measured by using confidence in ccs values. clusters to the right of the red line of the y-axis dendrogram have ccs values ⬎0.80. a similar scoring
+method for comparing molecular structure based on ir spectra similarity has been described by varmuza et al. (24).
+
+4a reveals that dendrogram sections c and d resolve structurally
+less similar molecules into subgroups containing molecules 2–5
+and another containing 6–9, and these are further resolved into
+groupings providing tightly associated structures. the closer the
+confidence in similarity value approaches unity in these subgroups, the greater the structural similarity. accordingly, in the
+azole cluster shown in fig. 4a, the biospectra of molecules 6 and
+7 have a ccs value of 0.94. this is the highest biospectra
+similarity score within this group of antifungal imidazole derivatives and identifies two structures that differ by only a single
+atom: chlorine versus a bromine atom in the thiophene moiety
+of the azole nucleus. a ccs score of only 0.77 was obtained in
+the biospectra comparison of  xxxd1732xxx  (molecule 1) and
+ xxxd3380xxx  (molecule 2). these values indicate that these molecules have significant structural differences.
+the fact that high ccs values correlate tightly with molecular
+structure similarity has obvious implications. a major one is the
+ability of approaching structure–function studies from either
+direction (predicting structure from function or predicting function from structure). experience with physicochemical spectroscopic methods such as nmr, ir, or mass spectrometry teaches
+that similarity relationships between molecules and spectra are
+exchangeable and, as a result, chemical structure can be assigned
+by using spectra as input and spectra can be predicted by using
+molecular structure information as input.
+264 兩 www.pnas.org兾cgi兾doi兾10.1073兾pnas.0407790101
+
+predicting biospectra by using molecular structure information. for
+
+testing the inverse process, using chemical structure information
+for determining biospectra of molecules, four compounds, 10–
+13, were added to the 1,567-compound database to assess the
+forecasting capabilities of this methodology. compounds 10–13
+were omitted in the first analysis, shown in fig. 4a, because they
+did not have a complete data set: they lacked percent inhibition
+values for either bradykinin b2 or the enzyme p55fyn receptors
+in the 92-protein assay suite. visual comparison of the structures
+of 10–13 with molecules 2–9 (shown in fig. 4) reveals a strong
+structural similarity between these molecules. based on this
+assessment and the observations described above, the biospectra
+profiles of molecules 10–13 are expected to be more closely
+aligned to those of molecules 2–9 than any of the other 1,559
+remaining compounds in the database. for this reason, the ccs
+values for 10–13 and compounds 2–9 in the azole cluster are
+projected to exceed ccs values of 0.8 and hence only one of the
+73 clusters with ccs values ⱖ0.8 in fig. 4 should include
+molecules 2–13.
+repeating the hierarchical clustering process as described
+before but, in this instance, using 1,571 instead of 1,567 molecules (by including molecules 10–13) creates a new complete
+linkage map. the azole section of the new linkage map shown in
+fig. 4b contains, as anticipated, molecules 2–13. remarkably,
+not only is the inclusion of 10–13 in the dendrogram of fig. 4b
+fliri et al.
+
+chemistry
+pharmacology
+
+fig. 4. hierarchical clustering of biospectra provides the azole section of this linkage map using 1,567 molecules in hierarchical clustering (see fig. 3) (a) and
+the new y-axis dendrogram section containing azole derivatives 1–13 and using 1,571 molecules in hierarchical clustering, resulting from the addition of 10–13
+to the database (b).
+
+predictable, but in addition, where molecules 10–13 specifically
+reside in dendrogram 4b and how closely these molecules are
+associated with other members of the cluster can also be
+rationalized. for projecting the evolution of the dendrogram
+shown fig. 4b, one matches up molecules 10–13 with those most
+similar in structure (differing by the least number of atoms) in
+fig. 4a (26). predictions of bioactivity profiles, dendrogram
+relationships, and ccs values are based on competition experiments involving molecules 10–13 and compounds 2–9. the
+starting point for these calculations is the dendrogram section in
+fig. 4a derived from the y-axis dendrogram shown in fig. 3b.
+displacement of molecules from this (and other) clusters takes
+place if a new hierarchical cluster is projected to yield a higher
+ccs value in biospectra similarity competition.
+predicting the evolution of the dendrogram in fig. 4b. accordingly,
+
+to project how the added molecules 10–13 integrate with the
+molecules residing in fig. 4a, the following individual structure
+comparisons were made. molecules 10 and 11 were first singled
+out because of their structural similarity to molecule 3 in
+dendrogram section c of fig. 4a. in fact, by examining the
+structures of molecules residing in this section, one recognizes
+that molecule 3, which is aligned with 4 in fig. 4a, is actually
+structurally more similar to molecules 10 and 11 than to molecule
+4. this is because molecules 10 and 3 differ by only a single atom;
+fliri et al.
+
+molecule 10 has sulfur instead of an oxygen atom in the ether
+linkage, whereas molecules 3 and 4 (clustered in fig. 4a with a
+ccs of 0.93) have greater structural diversity (a chlorophenyl
+group in 3 is replaced by a thiophene moiety in 4). likewise,
+molecule 11 is structurally more similar to molecule 3 than to
+molecules 2, 4, 5, and 10. once more, molecule 11 differs from
+molecule 3 by only a single atom (a chlorine atom is substituted
+for a hydrogen atom on the phenyl ring of the benzyl group) and
+11, in turn, differs only by two atoms from 10 (oxygen for a sulfur
+atom and chlorine for a hydrogen atom). these comparisons
+establish a close structural relationship between molecules 3, 10,
+and 11. inspection of the ccs values in fig. 4a indicates that the
+displacement of molecule 4 by either molecule 10 or molecule 11
+in the cluster pair of 3 and 4 shown in fig. 4a requires a ccs
+value that exceeds 0.93 because that value serves as the standard
+for the association of 3 and 4. whether 10 or 11 is more closely
+aligned with 3 is not obvious; however, the assessment of
+structural similarity predicts a cluster for molecule 3, 10, and 11
+(with 4 being displaced) and that one of the molecule pairs 3 and
+10 or 3 and 11 has a ccs value ⬎0.93. in addition, because the
+structure comparisons made above indicate that molecules 10
+and 11 are structurally less similar to each other than they are to
+molecule 3, the prediction would be that molecule 3, 10, and 11
+have a dendrogram relationship where one molecule pair, 3 and
+10 or 3 and 11, is projected to have a ccs value of ⱖ0.93 and
+pnas 兩 january 11, 2005 兩 vol. 102 兩 no. 2 兩 265
+
+the remaining, either 10 or 11, a ccs value of ⱖ0.91 because this
+value will compete with the ccs value given for the biospectra
+comparison between structurally less similar molecules (2 and
+molecules 3 and 4) in fig. 4a.
+furthermore, by examining the structural similarity of molecule 2 in relation to molecules 3, 4, 5, 10, and 11, one recognizes
+that molecule 2 is structurally more similar to molecule 4 than
+to molecules 3, 5, 10, or 11. again, molecules 2 and 4 differ by
+only one atom (a chlorine versus a hydrogen atom in the
+thiophene moiety of molecule 4). fig. 4a lists a ccs value of 0.91
+for these molecules. the ccs value of 0.91 should remain intact.
+in addition, the ccs value of 0.86 for the clustering of 2, 3, and
+4 with 5 dictates the dendrogram relationship between clusters
+containing molecule pair 2 and 4 and molecules 3, 10, and 11.
+the ccs value separating these clusters is projected to be ⱖ0.86
+to compete successfully with the value obtained for the biospectra comparison of cluster 3, 10, and 11 with structurally less
+similar molecule 5 in fig. 4a.
+comparing dendrogram section c (fig. 4a) with dendrogram
+section e (fig. 4b) indicates that the predictions made above are
+accurate: not only are the anticipated alignments of molecules in
+the new azole cluster correct but so too are the ccs values
+obtained for individual clusters. accordingly, confidence in
+cluster similarity values in combination with chemical structure
+similarity assessments accurately predicts biological activity profiles and dendrogram relationships of previously not-tested
+molecules (27). this analysis can be extended to molecules 12
+and 13, whose structural similarity with molecules 1–11 is less
+pronounced. comparing biospectra and ccs values of structurally related molecules (biospectra comparison of molecules with
+ccs values ⬎0.80 in fig. 3a), provides a wealth of information
+for drug design. determination of differences in ccs values
+(delta ccs, or differences between other similarity measures) in
+biospectra competition experiments provides, for example, qualitative and quantitative assessment of ‘‘bioequivalence’’ of structure fragments (bioisosteres).
+the experiments described above indicate that the information content stored in biospectra matches the information con-
+
+tent of physicochemical descriptors and that biospectra are
+precise descriptors of molecular properties capable of differentiating molecules on the basis of single atom pair differences. the
+accurate differentiation of structurally similar molecules is based
+on standardized descriptions of the capacity of molecules to
+interact with the proteome and not on information on the
+putative drug target. this approach in structure–function studies
+enables consideration of wide response determinants and does
+not require representation of response as a linear combination
+of independent relationships. moreover, simple rules provide
+accurate projections for establishing response–structure relationships, based on y-axis dendrogram clusters of structurally
+related molecules in fig. 3a. as a result, biological spectra
+analysis permits precise assessment of molecular properties
+relevant to structure–function relationships not only for individual molecules but also for clusters of compounds embedded
+in chemical series.
+
+xue, l. & bajorath, j. (2000) comb. chem. high throughput screen. 3, 363–372.
+blow, d. m. (1976) acc. chem. res. 9, 145–152.
+huber, r. & bode, w. (1978) acc. chem. res. 11, 114–122.
+yoshida, y. & aoyama, y. (1987) biochem. pharmacol. 36, 229–235.
+mottola, d. m., laiter, s., watts, v. j., tropsha, a., wyrick, s. d., nichols,
+d. e. & mailman, r. b. (1996) j. med. chem. 39, 285–296.
+csete, m. e. & doyle, j. c. (2002) science 295, 1664–1669.
+zou, x., sun, y. & kuntz, i. d. (1999) j. am. chem. soc. 121, 8033–8043.
+keinan, s. & avnir, d. (1998) j. am. chem. soc. 120, 6152–6159.
+poroikov, v. v., filimonov, d. a., ihlenfeldt, w.-d., gloriozova, t. a.,
+lagunin, a. a., borodina, y. v., stepanchikova, a. v. & nicklaus, m. c. (2003)
+j. chem. inf. comput. sci. 43, 228–236.
+gillet, v. j., willett, p. & bradshaw, j. (1998) j. chem. inf. comput. sci. 38,
+165–179.
+panchenko, a. r., kondrashov, f. & bryant, s. (2004) protein sci. 13, 884–892.
+palczewski, k., kumasaka, t., hori, t., behnke, c. a., motoshima, h., fox,
+b. a., letrong, i., teller, d. c., okada, t., stenkamp, r. e., et al. (2000)
+science 289, 739–745.
+ji, h.-t., zhang, w.-n., zhou, y.-j., lu, j.-g., zhu, j. & zhu, j. (1998)
+shengwu huaxue yu shengwu wuli xuebao 30, 419–426.
+
+14. graham, s. e. & peterson, j. a. (1999) arch. biochem. biophys. 369, 24–29.
+15. ji, h., zhang, w., zhou, y., zhang, m., zhu, j., song, y., lü, j. & zhu, j.
+(2000) j. med. chem. 43, 2493–2505.
+16. swindells, m. b. & overington, j. p. (2002) drug discov. today 7, 516–521.
+17. mirzabekov, a. & kolchinsky, a. (2002) curr. opin. chem. biol. 6, 70–75.
+18. pazos, f. & valencia, a. (2001) protein eng. 14, 609–614.
+19. moore, m. n. (2002) aquat. toxicol. 59, 1–15.
+20. horvath, d. & jeandenans, c. (2003) j. chem. inf. comput. sci. 43, 680–690.
+21. blower, p. e., yang, c., fligner, m. a., verducci, j. s., yu, l., richman, s. &
+weinstein, j. n. (2002) pharmacogenomics j. 2, 259–271.
+22. lewi, p. j. (1976) arzneim.-forsch. 26, 1295–1300.
+23. krejsa, c. m., horvath, d., rogalski, s. l., penzotti, j. e., mao, b., barbosa,
+f. & migeon, j. c. (2003) curr. opin. drug discov. dev. 6, 470–480.
+24. varmuza, k., karlovits, m. & demuth, w. (2003) anal. chim. acta 490,
+313–324.
+25. kauvar, l. m., higgins, d. l., villar, h. o., sportsman, j. r., engqvistgoldstein, a., bukar, r., bauer, k. e., dilley, h. & rocke, d. m. (1995) chem.
+biol. 2, 107–118.
+26. barbosa, f. & horvath, d. (2004) curr. top. med. chem. 4, 589–600.
+27. raffa, r. b. (1999) life sci. 65, 967–980.
+
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+
+10.
+11.
+12.
+
+13.
+
+266 兩 www.pnas.org兾cgi兾doi兾10.1073兾pnas.0407790101
+
+summary. comparing biological activity profiles of molecules
+assayed at a single ligand concentration provides an unbiased
+means for establishing quantitative relationships between chemical structure and broad biological effects without using information on affinities for putative drug targets. being able to
+measure and quantify structural similarity of organic molecules
+by using biological molecular property descriptors has significant
+implications in many areas of science. for medicinal chemists,
+understanding the biological consequence of structural changes
+in a molecular series is essential to the drug discovery process.
+for combinatorial chemists, understanding the relationship between new synthetic libraries and existing molecules is crucial.
+herein we have shown a paradigm that uses the unique structural
+properties of the proteome to order organic molecules. this
+method is flexible and is capable of incorporating diverse
+databases of molecules and proteins. biological spectra analysis
+(biological spectroscopy) has significant implications for systems
+biology and drug discovery. biological activity profiles are
+precise indicators not only of molecular properties such as
+molecular structure but also of the biological response capacity
+of molecules.
+
+fliri et al.
+

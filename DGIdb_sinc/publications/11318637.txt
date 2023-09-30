@@ -1,0 +1,877 @@
+biochemistry 2001, 40, 5151-5160
+
+5151
+
+three-dimensional structure of 2-amino- xxxd64xxx  coa ligase from
+escherichia coli complexed with a plp-substrate intermediate: inferred reaction
+mechanism
+andrea schmidt, j. sivaraman, yunge li, robert larocque, joão a. r. g. barbosa, christopher smith, allan matte,
+joseph d. schrag, and miroslaw cygler*
+biotechnology research institute and montréal joint centre for structural biology, national research council of canada,
+6100 royalmount avenue, montréal, québec h4p 2r2, canada
+received september 19, 2000; revised manuscript received february 23, 2001
+
+abstract: 2-amino- xxxd64xxx  coa ligase (kbl,  xxxg871xxx ) is a  xxxd3047xxx  (plp)
+dependent enzyme, which catalyzes the second reaction step on the main metabolic degradation pathway
+for threonine. it acts in concert with threonine dehydrogenase and converts 2-amino- xxxd64xxx , the
+product of threonine dehydrogenation by the latter enzyme, with the participation of cofactor coa, to
+glycine and acetyl-coa. the enzyme has been well conserved during evolution, with 54% amino acid
+sequence identity between the escherichia coli and human enzymes. we present the three-dimensional
+structure of e. coli kbl determined at 2.0 å resolution. kbl belongs to the r family of plp-dependent
+enzymes, for which the prototypic member is aspartate aminotransferase. its closest structural homologue
+is e. coli 8-amino-7-oxononanoate synthase. like many other members of the r family, the functional
+form of kbl is a dimer, and one such dimer is found in the asymmetric unit in the crystal. there are two
+active sites per dimer, located at the dimer interface. both monomers contribute side chains to each active/
+substrate binding site. electron density maps indicated the presence in the crystal of the schiff base
+intermediate of 2-amino- xxxd64xxx  and plp, an external aldimine, which remained bound to kbl
+throughout the protein purification procedure. the observed interactions between the aldimine and the
+side chains in the substrate binding site explain the specificity for the substrate and provide the basis for
+a detailed proposal of the reaction mechanism of kbl. a putative binding site of the coa cofactor was
+assigned, and implications for the cooperation with threonine dehydrogenase were considered.
+
+threonine degradation occurs via three pathways; the main
+pathway involves a two-step process that converts threonine
+to glycine (1-3). this pathway (figure 1) is common to
+prokaryotic and eukaryotic cells and involves two enzymes:
+ xxxd3361xxx  dehydrogenase [tdh,1 ec 1.1.1.103 (4-6)] and
+2-amino- xxxd64xxx  coa ligase (kbl,  xxxg871xxx ) (2,
+3, 7-9). in the first step, which requires the cofactor nad,
+tdh converts  xxxd3361xxx  into l-2-amino- xxxd64xxx .
+this intermediate then serves as a substrate for kbl, which,
+in the presence of coa, catalyzes the conversion of 2-amino3-ketobutyrate to glycine and acetyl-coa. glycine can be
+utilized as an educt for serine synthesis, while acetyl-coa
+is utilized in a large variety of metabolic reactions [e.g.,
+ecocyc (10)]. the reactions catalyzed by tdh and kbl
+are coupled, both in vivo and in vitro (9), and the two
+enzymes have been shown to form a complex, most likely
+containing one tetramer of tdh and two dimers of kbl (7,
+8, 11). this concerted mode of action is consistent with the
+highly reactive nature of the 2-amino- xxxd64xxx  intermediate, which in aqueous solution undergoes spontaneous
+* corresponding author. tel: (514) 496-6321. fax: (514) 496-5143.
+e-mail: mirek.cygler@bri.nrc.ca.
+1 abbreviations: coa,  xxxd1739xxx ; nad, nicotinamide adenine
+dinucleotide; kbl, 2-amino- xxxd64xxx  coa ligase; plp, pyridoxal
+5′-phosphate; tdh,  xxxd3361xxx  dehydrogenase; aons, 8-amino-7oxononanoate synthase; aon, 8-amino-7-oxononanoate.
+
+figure 1: threonine degradation (or synthesis) pathway via
+threonine dehydrogenase (tdh) and 2-amino- xxxd64xxx  coa
+ligase (kbl). without kbl, the main product of threonine
+oxidation would be aminoacetone. the equilibrium between all of
+these compounds is determined mainly by the relative amounts of
+threonine, nad, glycine, and coa. figure produced in chemwindows 5.0 (softshell int. ltd.)/coreldraw 7.
+
+decarboxylation to yield aminoacetone and co2. the equilibrium between threonine, glycine, 2-amino- xxxd64xxx ,
+and aminoacetone is determined by the intracellular concentrations of threonine, glycine, nad, and coa (12).
+
+10.1021/bi002204y ccc: $20.00 © 2001 american chemical society
+published on web 04/05/2001
+
+5152 biochemistry, vol. 40, no. 17, 2001
+2-amino- xxxd64xxx  coa ligases (also known as
+ xxxg871xxx  or  xxxg871xxx ) from both
+prokaryotes and eukaryotes have been extensively studied
+(11, 13-18). the first enzyme was cloned from escherichia
+coli (19), and cloning of a human enzyme has been described
+recently (14). the sequence identity between the e. coli and
+human enzymes is 54% and indicates strong conservation
+of kbl during evolution. in addition to  xxxd1739xxx , kbl
+also requires  xxxd3047xxx  (plp) for activity and,
+therefore, belongs to the class of plp-dependent enzymes.
+the plp-dependent enzymes form one of the most
+versatile protein families. the range of reactions catalyzed
+by these enzymes spans a broad spectrum and includes
+transaminations, beta-eliminations, racemizations, replacement
+reactions, and a variety of other reactions (20-23). with
+few exceptions, these enzymes are involved in amino acid
+metabolism (20, 23) and play a vital role as a link between
+carbon and nitrogen metabolism (24).
+several classification schemes of plp-dependent enzymes
+have been introduced over the years (21, 23, 25, 26). their
+classification was far from simple due to generally low
+sequence homology between these enzymes, even between
+enzymes sharing the same fold. initially, the classification
+was based on sequence alignments and the reaction specificity, i.e. which carbon atom of the quinonoid intermediate,
+r, beta, or gamma, was the target for the catalytic activity (26). more
+recently, the plp-dependent enzymes have been divided into
+four fold-type groups on the basis of their three-dimensional
+structures (21, 27). sequence analysis using the family
+profile analysis algorithm (28), capable of identifying very
+distant relationships between protein families, reconciled the
+sequence-based and structure-based classifications and provided grouping of enzymes in agreement with structural
+characteristics of 23 proteins with known three-dimensional
+structures (23). the four independent families are named the
+r family (aspartate aminotransferase family), the beta family
+(tryptophan synthase family), the d- xxxg941xxx 
+family, and the alanine racemase family. while there is some
+correlation between the family class and the r, beta, or gamma carbon
+reactive center, there is no one-to-one correspondence
+between the two classification schemes (21, 29). for
+example, the r family contains enzymes with either r or gamma
+carbon reactivity.
+during the course of the reaction the plp cofactor forms
+a covalent bond to the enzyme, a schiff base linkage between
+the aldehyde carbonyl of plp and the -amino group of a
+lysine (20, 21, 24, 30). during catalysis, the lysine side chain
+of this internal aldimine is replaced by the incoming amino
+acid substrate to form the external aldimine. the general
+chemical steps in the plp-catalyzed reactions are well
+established (20). the differences in the type of reaction
+catalyzed by various enzymes reflect local differences in the
+environment of plp and the specific substrate.
+in this study we have investigated the three-dimensional
+structure of 2-amino- xxxd64xxx  coa ligase from e. coli,
+a member of the r family of plp-dependent enzymes.
+although neither plp nor the substrate was added to the
+protein during purification or crystallization, the crystals
+contained kbl complexed with  xxxd3047xxx  in the
+form of its external aldimine with 2-amino- xxxd64xxx .
+this fortuitously trapped reaction intermediate allowed us
+to propose the molecular details of the catalytic mechanism.
+
+schmidt et al.
+the structure of kbl is similar to that of e. coli 8-amino7-oxononanoate synthase (29), with which it shares 35%
+amino acid identity.
+experimental procedures
+cloning and expression of the e. coli kbl gene. the fulllength kbl gene was amplified by pcr with recombinant
+taq dna polymerase (amersham-pharmacia) using genomic dna from the strain mc1061 as a template. primers
+were obtained from hukabel scientifique ltée. (montréal,
+canada). the forward primer orl287 5′-tctggagaatcgcatatgcgtggag-3′ and reverse primer orl288 5′cgctttcatctcggatcctcaggcg-3′ incorporating
+ndei and bamhi restriction sites, respectively (in bold), were
+utilized for directional cloning into a derivative of pgex4t1 vector (amersham-pharmacia) in order to obtain an inframe fusion with schistosoma japonicum glutathione stransferase (gst) and a thrombin cleavage site. this
+derivative cloning vector contained an insertion, which
+introduced a ndei site just upstream of the bamhi normally
+present in pgex-4t1. transformants were screened by pcr
+for the presence of the correct insert, and positives were then
+restricted with hincii for confirmation. the plasmid was then
+transformed into the protein expression strain dl41 from
+stratagene (la jolla, ca).
+an overnight culture of the transformed e. coli dl41
+strain was inoculated in defined lemaster medium (31)
+containing 100 µg/ml ampicillin and grown at 37 °c. this
+culture was diluted 10-fold in the same medium and grown
+under the same conditions for 2 h, after which time it was
+transferred to 22 °c and 100 µm iptg (sigma, st. louis,
+mo) was added. the induced culture was grown for 20 h
+before being harvested by centrifugation (15 min, 4 °c,
+4000g).
+purification and crystallization. cells were resuspended
+in 40 ml of lysis buffer [50 mm tris-hcl, ph 7.5, 0.4 m
+nacl, 1 mm edta, 1% (w/v) triton x-100, 5% (w/v)
+glycerol, 20 mm dtt, and 1 tablet of complete protease
+inhibitor cocktail from roche molecular biology, montreal,
+quebec, canada]. after sonication (sonicator w-375, heat
+systems-ultrasonics inc., 6 × 30 s at 50% power with 30 s
+between cycles) the lysate was cleared by ultracentrifugation
+at 150000g at 4 °c for 45 min.
+the protein supernatant was passed through a deaesepharose column (pharmacia) and the flow-through subsequently loaded on a 5 ml glutathione-sepharose 4b
+column (pharmacia). after two wash steps, first with 4 bed
+volumes of buffer a [50 mm tris-hcl, ph 7.5, 1 m nacl,
+5% (w/v) glycerol, 1 mm edta, and 1% (w/v) triton
+x-100) and then with 3 bed volumes of buffer b [50 mm
+tris-hcl, ph 7.5, 0.2 m nacl, and 5% (w/v) glycerol], the
+bound gst fusion protein was cleaved on the beads by
+addition of ∼100 µg of r-thrombin (haematologic technologies inc.) and incubation for 75 min at room temperature.
+kbl was then eluted from the column in ∼3 bed volumes
+of buffer b, and the protein was concentrated by ultrafiltration to ∼8 mg/ml in 20 mm tris-hcl, ph 7.5, 0.2 m nacl,
+and 1 mm edta. the protein was assessed for purity by
+sds-page and for solution behavior by dynamic light
+scattering (dls; dynapro-801, protein solutions, charlottesville, va).
+
+3-d structure of e. coli kbl
+
+biochemistry, vol. 40, no. 17, 2001 5153
+
+table 1: data collection statistics for kbl mad data setsa
+wavelength (å)
+resolution (å)
+rsym
+〈i/sigma〉
+completeness
+redundancy
+no. of reflections
+unique reflections
+unique reflections
+merged, f(+),f(-)
+r-factorc (no. of
+reflections)
+r-freed (no. of
+reflections)
+
+lambda1
+
+lambda2
+
+lambda3
+
+0.961123
+100-2.0
+(2.07-2.0)
+0.040 (0.093)
+20.5 (11.6)
+99.6 (99.0)
+3.5
+351450
+97421
+
+0.97955
+100-2.0
+(2.07-2.0)
+0.075 (0.163)
+11.5 (12.0)
+99.9 (99.8)
+3.5
+354763
+97732
+50707b
+
+0.979305
+100-2.0
+(2.07-2.0)
+0.054 (0.135)
+16.9 (8.8)
+99.7 (98.6)
+3.5
+348424
+97661
+
+0.151 (45591)
+0.206 (5094)
+
+a values for the last shell are given in parentheses. b refinement
+performed using merged data collected at lambda ) 0.97955 å. c r-factor
+) ∑|fo - fc|/∑fo. d r-free ) r-factor, but for a random set of 10%
+of the unique reflections.
+
+crystals were grown using the hanging drop vapor
+diffusion method. the droplets contained 2 µl of protein
+solution and 4 µl of reservoir solution [2.2 m (nh4)2so4,
+0.1 m sodium/potassium phosphate, ph 6.4, 3.4% (w/v)
+glycerol, and 3 mm dtt]. orthorhombic crystals appeared
+within a few days at 18 °c. the best crystals with cell
+dimensions a ) 63.94 å, b ) 98.66 å, and c ) 118.70 å
+and space group p212121 were obtained by macroseeding.
+the crystals contain two molecules per asymmetric unit
+related by a noncrystallographic 2-fold axis parallel to the
+crystallographic b-axis. prior to data collection, a crystal was
+transferred into a cryoprotectant solution consisting of 2.2
+m (nh4)2so4, 0.1 m sodium/potassium phosphate, ph 6.4,
+and 23% (w/v) glycerol for 10-20 s. it was then mounted
+in a rayon cryoloop (hampton research) and flash-frozen
+in liquid nitrogen at 100 k.
+data collection, mad phasing, and model building. data
+were collected using a quantum-4 ccd detector (area
+detector systems corp.) at the x8c beamline at the national
+synchrotron light source, brookhaven national laboratory,
+upton, ny. diffraction images were collected with 1.5°
+oscillations and an exposure time of 45 s.
+multiwavelength anomalous dispersion (mad) data sets
+were collected on a se-met labeled crystal at three different
+wavelengths: lambda1 (peak) ) 0.979305 å, lambda2 (inflection point)
+) 0.97955 å, and lambda3 (high energy remote) ) 0.961123 å at
+100 k to 2.0 å resolution (table 1). data processing and
+scaling were performed with denzo and scalepack
+(32). all of the 24 expected selenium sites per dimer were
+identified by solve (33) with an overall figure of merit
+(fom) of 0.87 in the resolution range 12-2.0 å. a map
+calculated after solvent flattening and skeletonization by dm
+(34) was of excellent quality with an improved overall fom
+of 0.93. the bones [o (35)] clearly showed the secondary
+structure for both molecules of the dimer in the asymmetric
+unit. a self-rotation function was calculated using program
+polarrfn of the ccp4 suite, version 4.0 (36), to determine
+the orientation of the expected 2-fold axis. in addition, a
+noncrystallographic symmetry search using the selenium
+positions was carried out using the ccp4 suite.
+starting from the initial mad-phased map, automated
+model building was attempted by using warpntrace (37) and
+
+refinement as implemented in the arp-warp 5.0 program
+package (38). using warpntrace, a set of four independent
+free atom models was built into the initial electron density
+map and subjected to repeated cycles of refinement with
+refmac (ccp4) and automatic chain tracing. the protein size
+was set to 4000 atoms, the resolution range to 12.0-2.0 å,
+the refinement cycle number to 75, and the number of
+molecules in the asymmetric unit to 2. remaining parameters
+required by the program were set to default values. after
+each rebuilding round, consisting of 75 cycles, the resulting
+partial model was checked visually using the program o,
+and solvent atoms were removed. the resulting model was
+used as the starting point for the next run. selenium atoms
+found in solve were included in the refinement. when
+∼200 of the expected 802 residues were traced, phase
+restraints were applied and rebuilding and tracing continued
+as outlined above. when the protein chain was 95%
+complete, side chains were inserted by the side_trace routine
+of the arp package using default settings. the model was
+then adjusted manually using the program o, including
+corrections of side chain positions and building of missing
+residues from the n-termini and small loop regions into the
+electron density. when the protein model was complete,
+solvent molecules were introduced into the structure using
+arp. for the protein, the restraints weight was set to 0.6,
+phase restraints were omitted. and the refinement cycle
+number was decreased to 20. no noncrystallographic symmetry restraints were applied throughout the whole refinement process. the progress of model building and refinement
+was monitored with the r-factor, the r-free, the connectivity
+index (during building), the correlation of fo to fc, and the
+root-mean-square deviation from mean density. in the region
+near the putative active site there was residual electron
+density, which was clearly identified as  xxxd3047xxx 
+forming a schiff base with the substrate, 2-amino- xxxd64xxx  (figure 2). in addition, four glycerol molecules were
+modeled into the appropriate electron density at the surface
+of the protein. the external aldimine and the glycerol
+molecules were included in the final steps of the refinement.
+the crystallographic refinement converged to an r-factor of
+0.151 (r-free of 0.206) and a correlation coefficient (fofc)
+of 0.95 for 50708 reflections (no sigma cutoff) and 7258 atoms.
+the structure was validated with procheck (39). the final
+coordinates have been deposited in the protein databank with
+access code 1fc4.
+results and discussion
+kbl was expressed at a high level, in the range of 20
+mg/l cell culture. the purified protein migrated as a single,
+43 kda band on an sds-page gel. dynamic light
+scattering measurements corresponded to a monodisperse
+solution with an estimated molecular weight for the protein
+of ∼80 kda, indicating that kbl exists in solution as a
+dimer.
+quality of the kbl model. both monomers (residues glyser-his-met1...ala398) are well defined in the electron
+density map, including the three additional residues at the
+n-terminus (gly-ser-his) that remain after cleavage with
+thrombin. subtle differences between monomers do occur
+in some short loop regions and side chain positions. the
+refinement converged to a rather low r-factor of 0.15,
+indicating overall a well-defined structure. the geometry of
+
+5154 biochemistry, vol. 40, no. 17, 2001
+
+schmidt et al.
+
+figure 2: electron density in the simulated annealing omit map for the external aldimine contoured at the 3.0sigma level. residues within 4
+å of the aldimine were removed from calculations. two water molecules are marked with an x. figure created in o and oplot (35).
+
+the model is very good, with 88.5% of the non-glycine or
+non-proline residues present in the most favored regions of
+the ramachandran plot. only two residues, the two active
+site lysines, which are very well defined in terms of electron
+density, are found in generously allowed regions. this is also
+observed in other plp-dependent enzymes, e.g., the structure
+of bacterial  xxxg2256xxx  [tryptophan indole-lyase (40)]. the
+external aldimine is for the most part well defined in the
+electron density (figure 2) and corresponds to the substrate
+trapped as a schiff base with the  xxxd3047xxx 
+cofactor.
+structure of the kbl monomer. kbl belongs to the r
+family of plp-dependent enzymes (23), for which aspartate
+aminotransferase is the prototypic enzyme. in topological
+terms kbl belongs to the r/beta protein class. the molecule
+can be divided into three segments: the n-terminal arm, the
+small domain, and the large plp-binding domain (figure
+3). a topology diagram is shown in figure 4.
+the n-terminal arm (residues 2-19) is formed by a single
+helix, which extends away from rest of the monomer and
+primarily contributes to dimer formation. the small domain
+is made of two segments assembled from the n-terminal
+(residues 22-57) and c-terminal (residues 295-398) sections of the primary sequence. this domain consists of two
+small, nearly perpendicular beta-sheets and three r-helices,
+which cover the external, solvent-directed surface of the
+sheets. the plp-binding domain (residues 58-294) has as
+its main feature a large, seven-stranded twisted beta-sheet in
+which all strands but the second one are parallel (figures 3
+and 4). this beta-sheet is found in all plp-binding proteins
+belonging to the r family (21). in kbl there are three short,
+extended stretches (strands) adding to the large sheet on the
+side involved in dimer contacts. three r-helices cover the
+concave side of the large sheet and are approximately parallel
+to the neighboring beta-strands. the convex side of the beta-sheet
+is covered by six r-helices, one of which is only one turn
+long. the loops between secondary structure elements are
+generally very short.
+the two domains are assembled at an angle (figure 3)
+and are supported by two consecutive, long r-helices
+(residues 280-294 and 296-314). this arrangement creates
+a deep cleft between the domains. the concave side of the
+beta-sheet of the plp-binding domain faces the side of the
+beta-sheet of the small domain free of r-helices. the bottom
+
+figure 3: ribbons representation of kbl. (a) a monomer with
+the three domains shown in different colors: the n-terminal arm
+is in green, the small domain is in blue, and the plp binding domain
+is in red. the external aldimine and lys244 side chain are shown
+in ball-and-stick representation. the view is from the side occupied
+by the second monomer. (b) the dimer, with the color scheme as
+above for the monomer. the second monomer is in light blue. the
+view is along the 2-fold axis, and the aldimines are at the bottom
+of the funnel. figure produced with molscript (54) and
+raster3d (55).
+
+of the cleft is formed by residues from the c-terminal ends
+of the beta-strands of the plp-binding domain on one side and
+
+3-d structure of e. coli kbl
+
+biochemistry, vol. 40, no. 17, 2001 5155
+
+figure 4: topology diagram for kbl, drawn with coreldraw 7. it shows the domain structure of the protein. residues marked by circles
+are located in the putative active site, in close vicinity to the  xxxd3047xxx  moiety.
+
+by the side chains from the beta-sheets of the small domain on
+the other side. a seven residue long loop from the plpbinding domain that holds lys244, the crucial residue that
+forms a schiff base with the plp, protrudes into this cleft
+(figure 3).
+structure of the kbl dimer. the two molecules of kbl
+form a tight dimer. an extensive contact surface is provided
+by the concave sides of the beta-sheets of the two plp-binding
+domains which face each other. the small domain contacts
+the large domain of the other molecule along the edge of
+the large beta-sheet. finally, the n-terminal arm wraps the
+second molecule along the n-terminal ends of the large
+beta-sheet. approximately one-fourth, or 4260 å2, of each
+monomer’s surface is buried upon association, based on a
+probe radius of 1.4 å. the dimer is very compact: as each
+monomer has 16 226 å2 accessible surface, the dimer has
+only 24 355 å2.
+the active site contains residues from both monomers and
+is fully formed only when the dimer is assembled. the plpbinding cleft within a monomer is complemented by residues
+from the second monomer and transformed into a cavity to
+which access is along a deep, narrowing down funnel-like
+opening. side chains from both monomers contact the plp
+moiety; however, the putative catalytic residues come from
+only one monomer. the substrate binding cavity has an
+amphipathic character. residues on one side of the pyrimidine ring are polar, acidic, and basic, including lys244. the
+other side of the cavity has a hydrophobic character,
+dominated by several phenylalanines (figure 5). access to
+the substrate binding cavity, as observed in this structure, is
+too narrow to admit either the plp or the substrate, implying
+that a conformational rearrangement within the dimer has
+
+to occur for the complete catalytic cycle to take place. this
+could be of either a local nature, with movement of several
+loops, or, more likely, a movement of the entire small domain
+(20). small domain movement upon substrate binding was
+observed in a structurally related enzyme, 8-amino-7oxononanoate synthase (41), where the active site cleft of a
+monomer becomes narrower in the presence of the external
+aldimine. the large buried surface of the kbl dimer makes
+a dynamic exchange of protein molecules between dimers
+and monomers rather unlikely. such equilibrium has been
+observed, however, when the association of the molecules
+into a dimer occurs with a relatively small buried surface
+area, as in the case of  xxxg1626xxx , a plpdependent enzyme with only 655 å2 of buried surface upon
+association (42). the large buried surface area of kbl
+indicates that the enzyme might need other interactions, like
+the binding of coa and/or complex formation with tdh,
+to trigger conformational changes leading to substrate binding
+and product release.
+cofactor binding. although neither plp nor 2-amino-3ketobutyrate was added to the protein during purification or
+crystallization, significant residual electron density was
+observed in the active site cavity of kbl. a molecule of
+ xxxd3047xxx  fitted well to part of this density, with
+the strongest feature corresponding to the phosphate group
+and somewhat lower density for the pyridine ring. the
+remaining electron density corresponded well to the expected
+shape of 2-amino- xxxd64xxx  in the form of an external
+aldimine with plp (figure 2). thus, it appears that we have
+found in the crystal a trapped intermediate of the reaction
+catalyzed by kbl. this external aldimine has remained
+bound within the active site throughout purification and
+
+5156 biochemistry, vol. 40, no. 17, 2001
+
+schmidt et al.
+
+figure 5: interactions between the external aldimine and the protein. the aldimine is shown in thick lines, residues from the monomer
+forming the binding site are in medium thickness, and residues from the second monomer that cover the binding site are in thin lines
+(marked with the letter b after the residue number). hydrogen bonds are shown as dashed lines, and the positions of water molecules are
+marked with a +. lys244 is in a very good position to interact with atoms in the imine link. figure prepared with molscript.
+
+figure 6: surface representation of the kbl dimer. it shows
+accumulation of basic charge in the contact zone between the two
+monomers. the dotted line indicates the dimer interface, and the
+circle denotes the access funnel to the active site. the asterisk shows
+the putative coa binding site. figure produced with grasp (56)/
+coreldraw 7.
+
+crystallization of the enzyme. a key factor contributing to
+trapping of this intermediate is most likely the absence of
+ xxxd1739xxx , which is necessary for the subsequent reaction
+step. as the kbl protein is highly overexpressed in e. coli,
+there might be insufficient  xxxd1739xxx  for the reaction to
+proceed. the external aldimine formed in the first step of
+the overall reaction is tightly bound in kbl’s substrate
+binding cavity and is almost completely buried within the
+dimer interface (figure 6).
+external aldimines have been observed in the crystal
+structures of other plp-dependent enzymes, for example, in
+human  xxxg1621xxx  complexed with inhibitors
+(43) and in 8-amino-7-oxononanoate synthase (aons)
+complexed with plp and its substrate (41). however, in these
+cases plp and/or the substrate had to be introduced
+
+deliberately by soaking or cocrystallization and corresponded
+to the product rather than substrate aldimine.
+several residues in the vicinity of the external aldimine
+have already been proven to play a role in catalysis, including
+lys244 (18) and arg368 (11), and in the crystal structure
+they were indeed found to interact closely with the substrate
+and cofactor (figure 5). it is clear from the electron density
+that there is no covalent linkage between the plp cofactor
+and the lys244 amino group. while lys244 remains in
+proximity to the c4′ and the imine nitrogen atom of the plp,
+its n atom contributes to the stabilization of the phosphate
+group by forming hydrogen bonds with two of its oxygens.
+the phosphate is held in place by additional hydrogen bonds
+involving all of its oxygens and the nh groups of cys111,
+phe112, and asn275, ogamma of ser274, and ogamma1 of thr241.
+none of these groups compensates the negative charge of
+the phosphate, as it is expected that the active site lys244
+is in a deprotonated state in order to carry out its function
+as a general base and proton abstractor (44-49). the
+pyridoxal aromatic ring is held in position by a hydrogen
+bond from the side chain of asp210 to the positively charged
+ring nitrogen (figure 5), a weak hydrogen bond between the
+ogamma of ser185 and o3′, and stacking against the ring of
+his136. the imine nitrogen forms a weak hydrogen bond to
+n2 of his213, which in turn is hydrogen bonded from ndelta1
+to the tyr52 hydroxyl group. from the geometry of the
+hydrogen-bonding pattern, his213 appears to be in a protonated form. nmr studies on kbl from beef liver
+mitochondria indicated protonation of this residue (15). this
+is also indirectly supported by the fact that in  xxxg2256xxx 
+(40) and tyrosine phenol-lyase (50) the structural equivalent
+of this histidine is an arginine, a residue normally carrying
+a positive charge (figure 5).
+the 2-amino- xxxd64xxx  moiety is found in a conformation close to cis with regard to the c4′-n bond. this
+differs from the conformation found in other external
+aldimines, e.g., in aons (41), where the conformation along
+
+3-d structure of e. coli kbl
+this bond is trans. this end of the external aldimine is
+involved in an extensive network of hydrogen bonds, which
+includes several water molecules (figure 5). arg368, a
+residue conserved throughout the protein class, interacts with
+the keto oxygen and with one of the carboxyl oxygens. the
+same carboxyl oxygen is also hydrogen bonded to ser185
+and to a water molecule. the other carboxyl oxygen is
+hydrogen bonded to his136, which in turn forms a hydrogen
+bond to ser138, and stacks against the pyridine ring of plp.
+in the observed conformation the bond to be modified in
+the next step of the reaction (between cr and c of the keto
+group) is nearly in the plane of the pyrimidine ring, while
+the bond to the acidic group is nearly perpendicular to this
+plane. such orientation is opposite to the accepted model of
+the reaction (20, 51). at the same time, it is the acidic rather
+than the keto group that is pointing toward the entrance to
+the funnel leading outside. all this suggests that the 2-amino3-ketobutyrate as found in this structure may not be in the
+productive state. the transformation to a productive state
+would probably require a rotation around the n(imino)-cr
+bond by ∼180°. figure 2 shows that the electron density
+for the pyrimidine ring is weaker than that for the phosphate
+group on one end and the ketobutyrate on the other end.
+this likely indicates that the pyrimidine ring in the center is
+more mobile than the ends of the aldimine molecule but may
+also reflect the fact that the two orientations of the ketobutyrate group require somewhat different position of the ring
+and that we indeed observe a mixture of orientations.
+among sequences of kbl proteins from various species,
+the residues that make contact with the external aldimine,
+lys244, arg368, asp210, his213, and his136, are conserved. extending the comparison to the r family of plpdependent enzymes (figure 5) shows that only lys244,
+arg368, and asp210 are strictly conserved. his136 seems
+to play a role only for positioning of the  xxxd3047xxx ’s aromatic ring, as it is replaced by phenylalanine or
+tyrosine in most other sequences (figure 5). his213 is mostly
+replaced by arginine and in one case by glutamine. as can
+be expected, those amino acids interacting with the cofactor
+and the carbonyl group of the amino acid substrate are better
+conserved than those interacting with the variable side chain
+of the amino acid substrate.
+the molecule found in the active site is a reaction
+intermediate, which is normally immediately attacked by
+coa and cleaved into an acetyl group, which remains
+attached to the coa molecule, and a glycine molecule, which
+remains attached to the plp. in fact, the funnel leading to
+the active site cavity is just wide enough to admit the
+pantothenate/beta- xxxd1787xxx  arm of a coa molecule.
+as well, the local surface shows a cluster of basic residues
+that could act as a binding site for the phosphate groups.
+near this putative phosphate binding site we found a
+hydrophobic patch that could accommodate the adenine
+moiety. all of these residues lie in a cleft forming an
+extension of the funnel and thus may represent the coabinding site. interestingly, there is residual electron density
+in this area that according to its shape does not correspond
+to water molecules but is too weak to allow definite
+assignment as coa. nevertheless, modeling a coa molecule
+into the cleft showed that it would fit nicely into its assigned
+binding site (result not shown).
+
+biochemistry, vol. 40, no. 17, 2001 5157
+we have subsequently collected data from a crystal soaked
+in 10 mm coa for 2 days (2.6 å resolution) and from kbl
+crystallized in the presence of coa (3.2 å resolution). in
+both cases we have found in a difference map that the
+strongest features were at the position occupied by the
+phosphate group and the cr atom of the aldimine. these
+peaks were not connected even at a low contour level. since
+ammonium sulfate was present at a concentration of 2.2 m
+in the crystallization solution, we interpreted the first peak
+as a sulfate ion and the second as a potential sulfate ion
+(many potential hydrogen-bonding partners and arg368). no
+density corresponding to coa could be identified. this lack
+of density may be interpreted as indirect evidence that coa
+allowed the reaction to be completed, liberating products and
+cofactor from the active site.
+comparison with related enzymes. the three-dimensional
+structure of kbl shares similarity with other enzymes of
+the r family that in most cases is restricted to the plpbinding domain, e.g., 8-amino-7-oxononanoate synthase (29),
+several aminotransferases (52), tyrosine phenol-lyase (50),
+tryptophan indole-lyase (40), and ornithine transaminase (53).
+all of these enzymes form dimers or tetramers (tyrosine
+phenol-lyase) in solution and in the crystalline state.
+the sequence homology of kbl to other plp-dependent
+proteins with known structures is rather low. the best
+homology in the pdb is found with 8-amino-7-oxononanoate
+synthase (aons, pdb code 1bs0), which has 33% sequence
+identity with kbl. since a detailed comparison of aons
+with other plp-dependent enzymes has been described, we
+will limit this discussion mostly to the comparison of kbl
+with aons. the latter is involved in biotin biosynthesis and
+catalyzes the stereospecific, decarboxylative condensation of
+l-alanine with pimeloyl-coa (29, 41). it also shows a threedomain structure (a superposition with kbl is shown in
+figure 7) with an n-terminal arm consisting of a single helix,
+a small domain, and a plp-binding domain (29). the
+superposition of the plp-binding domains of kbl and
+aons (pdb code 1bs0, empty substrate binding site) results
+in a root-mean-square (rms) deviation of 1.24 å for 211 cr
+atom pairs; the small domains superimpose with an rms
+deviation of 1.19 å for 91 cr atom pairs. superposition of
+entire monomers gives an rms deviation of 1.41 å for 296
+cr atom pairs, indicating small differences in the arrangement of the two domains between kbl and aons. the
+dimeric arrangement of these two molecules is also similar.
+finally, superposition of dimers of kbl and aons leads
+to an rms deviation of 1.42 å for 584 cr atom pairs,
+identical to that for the monomers. the active site architectures of kbl and aons are also similar. aons transfers
+an amino acid moiety to pimeloyl-coa and shows a similar
+funnel-shaped access to its catalytic center, which admits
+the pantothene arm of coa.
+recently, the structures of the aons complexes with
+cofactor and with its external aldimine (pdb code 1dj9)
+have been published (41), and the comparison with kbl
+shows that the contacts made by the plp are very well
+conserved, including the hydrogen bonds between the aons
+active site lys236 and the plp phosphate group (figure 7).
+however, the directions of the amines attached to plp are
+different. the long arm of aon extends into a pocket formed
+within aons, which in kbl is occupied by several side
+chains. the aon conformation along the n(imino)-cr
+
+5158 biochemistry, vol. 40, no. 17, 2001
+
+schmidt et al.
+
+figure 7: (a) stereoview of the superposition of cr traces of kbl (gold) and aons (no plp, pdb code 1bs0, blue). the superposition
+is based on the plp domains only and shows a difference in the orientation of the small domain. the aldimine bound to kbl is shown in
+green. (b) close-up on the external aldimines in kbl and aons (pdb code 1dj9) after superposition of their plp-binding domains.
+hydrogen bonds and residue numbers are shown for kbl only. figures created with spdbviewer (57) and pov-ray version 3.1g for
+windows (http://www.povray.org/).
+
+bond is trans, and the imino nitrogen is in the plane of the
+pyrimidine ring of plp. in kbl aldimine the corresponding
+torsion angle is ∼-140°, with the n(imino) deviating from
+the piperidine plane. however, the methyl group and the
+carbonyl oxygen in aon are in the same locations as the
+methyl from the keto group and one of the carboxylic
+oxygens of ketobutyrate in kbl complex (figure 7). it is
+also interesting to note that, while the individual domains
+overlap rather well, their relative disposition is somewhat
+different in these enzymes. aons without plp shows a more
+open conformation than either aons or kbl with bound
+external aldimine (figure 7). domain movements in kbl
+are therefore expected upon substrate binding (41).
+alignments of kbl sequences (result not shown) show
+blocks of very well conserved residues. the level of sequence
+identity between e. coli and human kbls makes the present
+structure a very good model for the human enzyme. this is
+the first structure of a 2-amino- xxxd64xxx  coa ligase,
+highly representative for all kbl enzymes.
+active site residues and their involvement in catalysis.
+on the basis of the orientation of the cofactor-substrate
+adduct and the contacts with the protein, we were able to
+assign catalytic functions to the residues situated in the active
+site according to the reaction mechanism shown in figure
+8. the entire reaction sequence follows an ordered bi-bi
+
+mechanism. the reaction mechanism consists of three
+steps: the formation of the external aldimine (figure 8, panel
+1), the acetylation of coa (figure 8, panel 2), and the product
+release and restoration of the protein to its original state
+(figure 8, panel 3).
+generally, steps 1 and 3 (the transaldimination steps)
+require an acid catalyst. in kbl, this function is most likely
+performed by his213, which appears to be in a protonated
+state. the incoming substrate first replaces lys244, assisted
+by his213, forming the external aldimine seen in the crystal
+structure (figure 8, panel 1). amino acids such as arg368,
+his136, and asp210 are important for correct positioning
+of the reactants. in step 2, coa binds to the enzyme and
+removes the acetyl group, with lys244 abstracting the excess
+proton and hence functioning as the required base (figure
+8, panel 2). in this process, the formation of a quinoid
+intermediate is a strong driving force. acetyl-coa then
+dissociates from the protein and lys244 reprotonates the
+quinoid intermediate to form the glycine external aldimine
+(figure 8, panel 3). subsequently, in a reverse step of step
+1, lys244 replaces the glycine moiety, which is finally
+released as the product. the kbl structure shows the state
+just before the entry of  xxxd1739xxx , which removes the
+acetyl group. as coa cannot be found in the crystal structure,
+we are not certain of the specific interactions between coa
+
+3-d structure of e. coli kbl
+
+biochemistry, vol. 40, no. 17, 2001 5159
+
+figure 8: proposed reaction mechanism for kbl. the first step (panel 1) has been established before. its product is the external aldimine
+as seen in the kbl structure. panel 2 shows the incoming of coa and the release of acetyl-coa. the second product of this step is the
+quinoid intermediate. panel 3 shows how glycine is released and the protein restored to its original state. figure produced in chemwindows
+5.0/coreldraw 7.
+
+and the protein. it is likely that ser185 assists in the
+nucleophilic attack of the sulfhydryl group of coa.
+in the studies carried out on the mitochondrial 2-amino3-ketobutyrate coa ligase, it was postulated that his213
+assists the incoming acetyl-coa in the reverse reaction in
+the same way as it assists the incoming amino acid substrate
+during formation of the external aldimine (figure 8, panel
+1). his213 should therefore also be crucial for the formation
+and release of acetyl-coa in the forward reaction of e. coli
+kbl. however, we suggest that ser185 takes over this role,
+as the ketone carbonyl group of the 2-amino- xxxd64xxx 
+moiety may form a close h-bonding contact with this residue
+and hence points away from the oh group of plp and from
+his213.
+there is experimental evidence that kbl and threonine
+dehydrogenase (tdh, ec 1.1.1.103), the two enzymes
+catalyzing two consecutive reactions in threonine degradation, form a complex. this has been determined by gel
+filtration and fluorescence experiments, and the measured
+stoichiometry indicates that two dimers of kbl are associated with one tetramer of tdh (7). the structure of kbl
+with the two active sites on the same side of the dimer
+suggests that kbl binds to tdh with this face opposite the
+
+tdh active sites, which would facilitate channeling of the
+unstable 2-amino- xxxd64xxx .
+acknowledgment
+we thank dr. stéphane raymond for the establishment
+and maintenance of our local projects database, véronique
+sauvé for her collaboration in the project, and dr. denis
+banville for his help in establishing cloning protocols.
+references
+1. bird, m. i., and nunn, p. b. (1983) biochem. j. 214, 687694.
+2. bell, s. c., and turner, j. m. (1976) biochem. j. 156, 449458.
+3. komatsubara, s., murata, k., kisumi, m., and chibata, i.
+(1978) j. bacteriol. 135, 318-323.
+4. newman, e. b., kapoor, v., and potter, r. (1976) j. bacteriol.
+126, 1245-1249.
+5. boylan, s. a., and dekker, e. e. (1981) j. biol. chem. 256,
+1809-1815.
+6. epperly, b. r., and dekker, e. e. (1991) j. biol. chem. 266,
+6086-6092.
+7. tressel, t., thompson, r., zieske, l. r., menendez, m. i.,
+and davis, l. (1986) j. biol. chem. 261, 16428-16437.
+8. bird, m. i., nunn, p. b., and lord, l. a. (1984) biochim.
+biophys. acta 802, 229-236.
+
+5160 biochemistry, vol. 40, no. 17, 2001
+9. marcus, j. p., and dekker, e. e. (1993) j. bacteriol. 175,
+6505-6511.
+10. karp, p. d., riley, m., saier, m., paulsen, i. t., paley, s. m.,
+and pellegrini-toole, a. (2000) nucleic acids res. 28, 5659.
+11. mukherjee, j. j., and dekker, e. e. (1992) arch. biochem.
+biophys. 299, 147-153.
+12. bird, m. i., and nunn, p. b. (1979) biochem. soc. trans. 7,
+1276-1277.
+13. mukherjee, j. j., and dekker, e. e. (1987) j. biol. chem. 262,
+14441-14447.
+14. edgar, a. j., and polak, j. m. (2000) eur. j. biochem. 267,
+1805-1812.
+15. tong, h., and davis, l. (1995) biochemistry 34, 3362-3367.
+16. tong, h., and davis, l. (1994) j. biol. chem. 269, 40574064.
+17. marcus, j. p., and dekker, e. e. (1993) biochem. biophys.
+res. commun. 190, 1066-1072.
+18. mukherjee, j. j., and dekker, e. e. (1990) biochim. biophys.
+acta 1037, 24-29.
+19. aronson, b. d., ravnikar, p. d., and somerville, r. l. (1988)
+nucleic acids res. 16, 3586.
+20. hayashi, h. (1995) j. biochem. (tokyo) 118, 463-473.
+21. jansonius, j. n. (1998) curr. opin. struct. biol. 8, 759-769.
+22. john, r. a. (1995) biochim. biophys. acta 1248, 81-96.
+23. mehta, p. k., and christen, p. (2000) adv. enzymol. relat.
+areas mol. biol. 74, 129-184.
+24. vederas, j. c., and floss, h. g. (1980) acc. chem. res. 13,
+455-463.
+25. mehta, p. k., hale, t. i., and christen, p. (1993) eur. j.
+biochem. 214, 549-561.
+26. alexander, f. w., sandmeier, e., mehta, p. k., and christen,
+p. (1994) eur. j. biochem. 219, 953-960.
+27. grishin, n. v., phillips, m. a., and goldsmith, e. j. (1995)
+protein sci. 4, 1291-1304.
+28. mehta, p. k., argos, p., barbour, a. d., and christen, p. (1999)
+proteins 35, 387-400.
+29. alexeev, d., alexeeva, m., baxter, r. l., campopiano, d. j.,
+webster, s. p., and sawyer, l. (1998) j. mol. biol. 284, 401419.
+30. morino, y., and nagashima, f. (1984) methods enzymol. 106,
+116-137.
+31. hendrickson, w. a., horton, j. r., and lemaster, d. m. (1990)
+embo j. 9, 1665-1672.
+32. otwinowski, z., and minor, w. (1997) methods enzymol. 276,
+307-326.
+33. terwilliger, t. c., and berendzen, j. (1999) acta crystallogr.,
+sect. d: biol. crystallogr. 55 (part 4), 849-861.
+34. cowtan, k. d., and zhang, k. y. (1999) prog. biophys. mol.
+biol. 72, 245-270.
+35. jones, t. a., zhou, j. y., cowan, s. w., and kjeldgaard, m.
+(1991) acta crystallogr. a47, 110-119.
+36. collaborative computational project number 4. the ccp4
+suite: programs for protein crystallography (1994) acta
+crystallogr. d50, 760-763.
+
+schmidt et al.
+37. perrakis, a., morris, r., and lamzin, v. s. (1999) nat. struct.
+biol. 6, 458-463.
+38. lamzin, v. s., and wilson, k. s. (1993) acta crystallogr.
+ xxxd49xxx , 129-149.
+39. laskowski, r. a., macarthur, m. w., moss, d. s., and
+thornton, j. m. (1993) j. appl. crystallogr. 26, 283-291.
+40. isupov, m. n., antson, a. a., dodson, e. j., dodson, g. g.,
+dementieva, i. s., zakomirdina, l. n., wilson, k. s., dauter,
+z., lebedev, a. a., and harutyunyan, e. h. (1998) j. mol.
+biol. 276, 603-623.
+41. webster, s. p., alexeev, d., campopiano, d. j., watt, r. m.,
+alexeeva, m., sawyer, l., and baxter, r. l. (2000) biochemistry 39, 516-528.
+42. coleman, c. s., stanley, b. a., viswanath, r., and pegg, a.
+e. (1994) j. biol. chem. 269, 3155-3158.
+43. shah, s. a., shen, b. w., and brunger, a. t. (1997) structure
+5, 1067-1075.
+44. toney, m. d., and kirsch, j. f. (1993) biochemistry 32, 14711479.
+45. toney, m. d., and kirsch, j. f. (1989) science 243, 14851488.
+46. gloss, l. m., and kirsch, j. f. (1995) biochemistry 34, 39903998.
+47. lu, z., nagata, s., mcphie, p., and miles, e. w. (1993) j.
+biol. chem. 268, 8727-8734.
+48. watanabe, a., kurokawa, y., yoshimura, t., kurihara, t.,
+soda, k., esaki, n., and watababe, a. (1999) j. biol. chem.
+274, 4189-4194.
+49. nishimura, k., tanizawa, k., yoshimura, t., esaki, n., futaki,
+s., manning, j. m., and soda, k. (1991) biochemistry 30,
+4072-4077.
+50. antson, a. a., demidkina, t. v., gollnick, p., dauter, z.,
+von tersch, r. l., long, j., berezhnoy, s. n., phillips, r. s.,
+harutyunyan, e. h., and wilson, k. s. (1993) biochemistry
+32, 4195-4206.
+51. dunathan, h. c. (1966) proc. natl. acad. sci. u.s.a. 55, 712716.
+52. mcphalen, c. a., vincent, m. g., and jansonius, j. n. (1992)
+j. mol. biol. 225, 495-517.
+53. shen, b. w., hennig, m., hohenester, e., jansonius, j. n.,
+and schirmer, t. (1998) j. mol. biol. 277, 81-102.
+54. kraulis, p. j. (1991) j. appl. crystallogr. 24, 946-950.
+55. merritt, e. a., and bacon, d. j. (1997) methods enzymol. 277,
+505-524.
+56. nicholls, a., sharp, k. a., and honig, b. (1991) proteins:
+struct., funct., genet. 11, 281-296.
+57. guex, n., and peitsch, m. c. (1997) electrophoresis 18,
+2714-2723.
+bi002204y
+

@@ -1,0 +1,939 @@
+777
+
+biochem. j. (2004) 379, 777–784 (printed in great britain)
+
+structural model of carnitine palmitoyltransferase i based on the carnitine
+acetyltransferase crystal
+montserrat morillas*, eduardo lópez-viñas†, alfonso valencia‡, dolors serra*, paulino gómez-puertas†,
+fausto g. hegardt*1 and guillermina asins*
+*department of biochemistry and molecular biology, school of pharmacy, university of barcelona, e-08028 barcelona, spain, †bioinformatics laboratory, national astrobiology center,
+consejo superior de investigaciones cientı́ficas, e-28850 torrejón de ardoz, madrid, spain, and ‡protein design group, national center for biotechnology, consejo superior
+de investigaciones cientı́ficas, e-28049 cantoblanco, madrid, spain
+
+ xxxg508xxx  (carnitine palmitoyltransferase i) catalyses the conversion
+of  xxxd2832xxx -coa into palmitoylcarnitine in the presence of lcarnitine, facilitating the entry of  xxxd2154xxx  into mitochondria.
+we propose a 3-d (three-dimensional) structural model for lcpt i (liver  xxxg508xxx ), based on the similarity of this enzyme to the
+recently crystallized mouse  xxxg513xxx . the model
+includes 607 of the 773 amino acids of l- xxxg508xxx , and the positions
+of carnitine, coa and the  xxxd2832xxx  group were assigned by
+superposition and docking analysis. functional analysis of this
+3-d model included the mutagenesis of several amino acids in
+order to identify putative catalytic residues. mutants d477a,
+d567a and e590d showed reduced l- xxxg508xxx  activity. in addition,
+individual mutation of amino acids forming the conserved ser685 -
+
+thr686 -ser687 motif abolished enzyme activity in mutants t686a
+and s687a and altered k m and the catalytic efficiency for carnitine
+in mutant s685a. we conclude that the catalytic residues are
+his473 and asp477 , while ser687 probably stabilizes the transition
+state. several conserved lysines, i.e. lys455 , lys505 , lys560 and
+lys561 , were also mutated. only mutants k455a and k560a
+showed decreases in activity of 50 %. the model rationalizes
+the finding of nine natural mutations in patients with hereditary
+l- xxxg508xxx  deficiencies.
+
+introduction
+
+residue is known to interact with an aspartate residue in catalysis,
+constituting what is referred to as a catalytic triad, which also
+involves either a serine or a threonine residue. the histidine
+residue is critical in catalysis and acts as a general base [9]. in
+ xxxg513xxx , the position of this histidine at the centre of the catalytic
+tunnel allows access to both substrates, carnitine and acetyl-coa,
+which lie on opposite sides of the tunnel [7]. the activated 3hydroxy group of carnitine, probably acting instead of the hydroxy
+group of serine or threonine, can then directly attack the carbonyl
+carbon in acyl-coa or  xxxd3156xxx , and the reaction can proceed
+without the formation of an acyl-enzyme intermediate. previous
+site-directed mutagenesis experiments have demonstrated an
+essential catalytic role for the analogous catalytic histidine in
+l- xxxg508xxx , cot and  xxxg509xxx  [11–13].
+early site-directed mutagenesis studies by mcgarry’s team
+showed that two aspartic residues in  xxxg509xxx  (asp477 and asp567 in
+l- xxxg508xxx ) are essential for activity [13]. in the human  xxxg513xxx  crystal
+it was proposed that, in place of an aspartic residue, glu326 could
+play the role of negative charge on the sole basis that it is very
+close to the catalytic histidine [6,7]. asp477 in l- xxxg508xxx  is orthologous to glu326 in human  xxxg513xxx .
+in the present paper we propose a 3-d (three-dimensional)
+model for l- xxxg508xxx  based on the  xxxg513xxx  crystal. the model is
+validated by site-directed mutagenesis of amino acids putatively
+involved in catalysis. our study demonstrates that mutation of
+either one of the conserved residues asp477 and asp567 , which are
+located near carnitine and coa respectively in the model, nearly
+abolishes enzyme activity. in addition, we also explored the role
+of the conserved motif ser685 -thr686 -ser687 [14]. thr686 and ser687
+are critical, since their mutation to alanine abolishes enzyme
+
+ xxxg508xxx  (carnitine palmitoyltransferase i) catalyses the conversion
+of long-chain fatty acyl-coas into acylcarnitines in the presence of l-carnitine. this is the first step in the transport of longchain  xxxd2154xxx  from the cytoplasm to the mitochondrial matrix,
+and it is the rate-limiting step in beta-oxidation, as  xxxg508xxx  is tightly
+regulated by its physiological inhibitor malonyl-coa, thereby
+conferring on  xxxg508xxx  the ability to signal the availability of lipid
+and carbohydrate fuels [1].  xxxg508xxx  has a critical role in general
+metabolism in the heart, liver and pancreatic beta-cells, and is a
+potential target for the treatment of metabolic disorders, involving
+diabetes and coronary heart disease [2]. mammalian tissues
+express two isoforms of  xxxg508xxx , a liver isoform (l- xxxg508xxx ) and a
+muscle isoform (m- xxxg508xxx ), which are the products of two different
+genes [3,4]. other members of this family are  xxxg513xxx  (carnitine
+acetyltransferase) and cot (carnitine octanoyltransferase), which
+use short- and medium-chain acyl-coas respectively as substrates. in particular,  xxxg513xxx  may serve as a buffering system to
+maintain the appropriate levels of acyl-coa and coa in the
+various cellular compartments [5].
+the crystal structure of mouse and human  xxxg513xxx , alone and
+complexed with their substrates carnitine and coa, has recently
+been reported [6,7]. this information has provided critical insights
+into the molecular basis for acyl-chain transfer and a possible
+common mechanism among the wide range of carnitine acyltransferases. the mechanism proposed for catalysis by carnitine
+acyltransferases is similar for a series of enzyme-transferring
+groups, such as lipases, proteases, acetylcholinesterases and other
+similar enzymes [8–10]. in all of these enzymes, a histidine
+
+key words:  xxxg513xxx , carnitine palmitoyltransferase i, docking analysis, fatty acid beta-oxidation; site-directed
+mutagenesis, three-dimensional structural model.
+
+abbreviations used: cpt, carnitine palmitoyltransferase; 3-d, three-dimensional; l- xxxg508xxx , liver carnitine palmitoyltransferase i; m- xxxg508xxx , muscle carnitine
+palmitoyltransferase i; cot, carnitine octanoyltransferase;  xxxg513xxx ,  xxxg513xxx ; rmsd, root-mean-square displacement.
+1
+to whom correspondence should be addressed (e-mail hegardt@farmacia.far.ub.es).
+
+c 2004 biochemical society
+
+778
+
+m. morillas and others
+
+activity. ser685 may be involved in carnitine binding, as k m and
+v max are modified in the mutant s685a. ser687 might contribute
+to stabilization of the transition state, and asp477 , together with
+his473 , could be involved directly in catalysis. mutation of residues
+lys455 , lys505 , lys560 and lys561 , which have been suggested to
+play a role in catalysis because of their reactivity to chemical
+modification, affects activity to a lesser extent, and their role
+could be mainly one of structural maintenance. we have also
+localized in the model some mutations described for human lcpt i deficiency. the model could explain the changes in activity
+produced by these natural mutations.
+experimental
+construction of the model
+
+the structural model for  xxxg508xxx  was made using homology modelling procedures based on multiple alignment of the members of
+the carnitine/choline acyltransferase family of proteins, including the known 3-d structure of mouse  xxxg513xxx  (protein data
+bank accession numbers: free enzyme structure, 1ndb; carnitine
+complex, 1ndf; coa complex, 1ndi [6]). the model for rat
+ xxxg508xxx , residues 166–772, was built using the program swisspdb viewer and the swiss-model server facilities [15–18]
+(http://www.expasy.org/swissmod/swiss-model.html).
+the rmsd (root-mean-square displacement) between backbone alpha-carbons of the template 1ndb and the  xxxg508xxx  structural
+model was 0.65 å (1 å = 0.1 nm). no further energy minimization procedures were applied to the model, and its structural
+quality was checked using the what check routines [19]
+from the what if program [20] and the procheck validation
+program from the swiss-model server facilities [21]; briefly,
+the quality values of the model were within the expected region
+for protein structural models.
+positioning of the  xxxd2832xxx  group in the l- xxxg508xxx  model by docking
+
+the putative  xxxd2832xxx -coa binding site was modelled based on
+information from docking procedures using the autodock [22,23]
+and hex [24] docking programs. protein target and ligands
+( xxxd2832xxx -coa and carnitine) were prepared using the autodock
+algorithms addsol and autotors, and a global search was
+conducted using autogrid and autodock (100 cycles). ligand
+structures close to the original position for the coa molecule
+in the pdb 1ndi structure were selected. the macromolecular
+docking program hex was used to manually refine the position
+for the acyl extension of the ligand molecule. ribbon plots were
+drawn using rasmol [25] and the swiss-pdb viewer.
+construction of site-directed mutants
+
+plasmids pyeslcptiwt and pyeslcptih473a were obtained as
+described previously [11]. plasmids pyeslcptik455a , pyeslcptid477a , pyeslcptik505a , pyeslcptik560a , pyeslcptik561a ,
+pyeslcptid567a , pyeslcptie590a , pyeslcptis685a , pyeslcptit686a and pyeslcptis687a were constructed using the quick
+change pcr-based mutagenesis procedure (stratagene) with
+the pyeslcptiwt plasmid as template. the appropriate substitutions and the absence of unwanted mutations were confirmed
+by sequencing the inserts in both directions using an applied
+biosystems 373 automated dna sequencer.
+expression of l- xxxg508xxx  in saccharomyces cerevisiae
+
+the expression of constructs containing l- xxxg508xxx  wild type and
+mutants in yeast cells and the preparation of cell extracts were
+
+c 2004 biochemical society
+
+performed as described in [11]. s. cerevisiae was chosen as an
+expression system for l- xxxg508xxx  wild type and mutants because it
+does not have endogenous l- xxxg508xxx  activity.
+determination of carnitine acyltransferase activity
+
+cpt activity was determined by the radiometric method, as described in [11], with minor modifications. the substrates were
+l-[methyl-3 h]carnitine and  xxxd2832xxx -coa. enzyme activity was
+assayed for 4 min at 30 ◦ c in a total volume of 200 µl.
+for determination of the k m for carnitine,  xxxd2832xxx -coa was
+fixed at 135 µm. for determination of the k m for acyl-coa, the
+carnitine concentration was fixed at 400 µm. k m values were
+estimated by analysing the data from three experiments using the
+program enzifit (biosoft).
+values reported in the text are the means and s.d.s of 3–5
+determinations. all protein concentrations were determined using
+the bio-rad protein assay with bsa as standard.
+immunological techniques
+
+western blot analysis was performed as described [11]. the antibody for rat l- xxxg508xxx  was kindly provided by dr c.  xxxg1771xxx -buus
+(université rené descartes, paris, france) and was directed
+against a peptide comprising residues 317–430, in the cytosolic
+catalytic c-terminal domain. in order to quantify the level
+of expression, ecftm western blotting (using fluorescence
+detection) was performed, and analysis and quantification were
+carried out using the fluorescence scanning instrument molecular
+dynamics storm 840tm .
+results
+structural model of l- xxxg508xxx 
+
+the first structural model for l- xxxg508xxx , proposed by our group, was
+constructed by threading or ‘remote homology design’ [11], and
+was based on the 3-d structure of rat enoyl-coa hydratase, in the
+absence of an appropriate reference crystal. since the crystals of
+two members of the family, murine and human  xxxg513xxx  [6,7], have
+recently been reported, we were able to design a more accurate
+structural model of l- xxxg508xxx  by homology modelling, including
+most of the protein sequence. the 3-d l- xxxg508xxx  model was built
+from residues 166 to 772. the n-terminus cannot be modelled,
+since it is absent from  xxxg513xxx .
+the 3-d model of rat l- xxxg508xxx  is based on the structure of
+1ndb, the free enzyme structure of mouse  xxxg513xxx . a multiple
+structural alignment of several m- xxxg508xxx  and l- xxxg508xxx  enzymes
+and the amino acid sequence of 1ndb is shown in figure 1.
+a ribbon picture of the final model of l- xxxg508xxx , including the
+putative location of the carnitine and  xxxd2832xxx -coa ligands, is
+shown in figure 2. although the scaffold structure of the modelled
+l- xxxg508xxx  is essentially similar to the one used as the template
+(1ndb), some differences can be observed. first, between alpha helix
+no. 12 and beta sheet no. 9 in the 1ndb structure, a loop was built
+de novo for rat l- xxxg508xxx  due to the presence of some extra residues
+in the sequences of the latter protein and of the other member of
+the family, m- xxxg508xxx . an addition can also be observed between
+beta strands 13 and 14, where two extra beta strands were built into
+the loop in the new model. the structure of these two loops
+should be considered to be less accurate than the rest of the
+model, as they do not have a counterpart in the template structure.
+numbering of the alpha helices and beta strands in the proposed model
+was performed without changing the labels of the template.
+
+structural model of carnitine palmitoyltransferase i
+
+figure 1
+
+779
+
+multiple sequence alignment of several carnitine acyltransferases
+
+the amino acid sequences of rat and human m- xxxg508xxx  (cptm_rat, cptm_human), mouse, rat and human l- xxxg508xxx  (cpt1_mouse, cpt1_rat, cpt1_human) and the protein data bank structure
+1ndb (the mouse  xxxg513xxx  enzyme) were aligned as described in the experimental section. the secondary structure (ss) elements of 1ndb are numbered as described previously [6]. the modelled
+secondary elements of rat l- xxxg508xxx  are also indicated (h, alpha helix; e, beta strand).
+
+proposed sites for carnitine, coa and the  xxxd2832xxx  group in the
+model of l- xxxg508xxx 
+
+figure 2
+
+structural model of rat l- xxxg508xxx 
+
+a proposed model for l- xxxg508xxx  is shown using the ribbon plot representation. secondary structure
+elements are numbered according to the 1ndb structure, as in figure 1. beta strands are in yellow
+and alpha helices are in blue. the putative sites for carnitine (black) and  xxxd2832xxx -coa (magenta)
+are indicated.
+
+the structural locations of carnitine and coa were obtained
+previously for mouse  xxxg513xxx  [6] and were included in the pdb
+structures 1ndi and 1ndf. in the structural model for rat lcpt i, the site for carnitine has been conserved without variation,
+including the 3-d co-ordinates of the ligand in the new model
+(figure 2). the location of the coa group of the palmitoylcoa molecule has also been maintained (figure 2). a schematic
+drawing of the interactions between coa, carnitine and the
+proximal amino acids of l- xxxg508xxx  that lie within a radius of less
+than 5 å with respect to either coa or carnitine is shown in
+figure 3 (upper panel). the catalytic his473 establishes a
+hydrogen-bonding interaction with the hydroxy group of
+carnitine. asp477 , which presumably stabilizes the positive charge
+of his473 , is in close proximity. the positive charge of arg655
+probably interacts with the negative charge of the carboxylate
+group of carnitine. thr602 and tyr589 are close to carnitine, and
+they probably form hydrogen bonds with it, as reported for mouse
+ xxxg513xxx . the amino acids of the tripeptide ser685 -thr686 -ser687 also
+are very close to carnitine, and may participate in catalysis. several
+other amino acid residues that are less than 5 å from coa are
+shown in figure 3 (upper panel). these include glu590 , asp567 ,
+
+c 2004 biochemical society
+
+780
+
+m. morillas and others
+
+figure 3 proposed model of the location of amino acids close to carnitine and coa (upper panel), and to the  xxxd2832xxx  group of  xxxd2832xxx -coa (lower panel),
+in rat l- xxxg508xxx 
+upper panel: amino acid residues in a radius of 5 å from coa (blue) and carnitine (green) and probably participating in the catalytic event are shown. lower panel: stereo diagram showing
+hydrophobic residues in a radius of 4.0 å from the atoms in the fatty acid tail, which are depicted in green and labelled. the locations of alpha helix 12 and beta strand 14, surrounding the hydrophobic
+tunnel, are indicated. the coa and carnitine molecules, as well as the catalytic residue his473 , are also represented.
+
+leu297 , ser565 , lys556 and lys560 , whose interactions with several
+atoms of coa have been suggested from data recorded for  xxxg513xxx 
+[6,7].
+a model is proposed for the positioning of the  xxxd2832xxx  part
+of  xxxd2832xxx -coa in a hydrophobic pocket of l- xxxg508xxx  (figure 3,
+lower panel). this is of greater interest than interactions described
+for coa and carnitine, since positioning of the  xxxd2832xxx  group
+has not been described previously. the pocket seen in  xxxg513xxx  is
+not valid, since the  xxxd2832xxx  group is much longer than the acetyl
+group and requires a different accommodation from that observed
+in  xxxg513xxx . to adequately define the new binding pocket for this
+long substrate, a docking procedure using the simulation docking
+algorithms autodock [22,23] and hex [24] was used. the result
+of the docking analysis indicates that the fatty acid extension of
+the  xxxd2832xxx -coa molecule is included in a hydrophobic pocket
+enclosed by alpha helix 12 and beta strand 14. figure 3 (lower panel)
+shows the amino acid residues located within a radius of 4 å
+
+c 2004 biochemical society
+
+around the  xxxd2832xxx  group. hydrophobic residues in helix 12 are
+located on the same face of the helix, and point towards the three
+consecutive glycine residues in strand 14. these three residues
+(gly709 -gly710 -gly711 ) are present in all  xxxg508xxx  enzymes (l- and
+m-isoforms), but not in  xxxg513xxx , in which they are modified to valmet-phe. it seems that these three small amino acids facilitate
+access of the long-chain  xxxd2832xxx -coa to the pocket.
+search for putative catalytic amino acids by site-directed
+mutagenesis
+
+it has been suggested that a triad of amino acids, comprising a
+histidine, an aspartate and a serine, is present in the catalytic domains of several hydrolases and transferases whose mechanisms
+of reaction are similar [9]. the putative catalytic histidine in lcpt i was assigned as his473 , since this residue is fully conserved
+in all carnitine acyltransferases and its mutation to alanine
+
+structural model of carnitine palmitoyltransferase i
+
+figure 4
+
+781
+
+localization of mutated amino acids in the l- xxxg508xxx  structural model
+
+the model is depicted in approximately the same orientation as in figure 2. beta strands are in yellow and alpha helices are in blue. stick representations of a molecule of  xxxd2832xxx -coa (red) or carnitine
+(green) are included, suggesting their putative locations at the active site. (a) the positions of l- xxxg508xxx  amino acids possibly involved in catalysis: his473 (blue), asp477 (magenta), asp567 (cyan),
+glu590 (purple), ser685 (black), thr686 (red) and ser687 (grey). (b) the positions of several l- xxxg508xxx  lysine residues less closely involved in catalysis: lys455 (purple), lys505 (magenta), lys560 (cyan) and
+lys561 (orange). the catalytic his473 (blue) is also shown in (b) as a reference.
+
+table 1
+
+kinetic characteristics of wild-type l- xxxg508xxx  and mutants
+
+extracts from yeast expressing wild-type and several mutants of l- xxxg508xxx  were assayed for activity and kinetics as described in the experimental section. the results are means +
+− s.d. of at least three
+independent experiments using different preparations. in parentheses are shown the variation (fold) in the catalytic efficiency (v max /k m ) compared with the wild type. n.d., not determined.
+
+enzyme
+wild type
+d477a
+d567a
+s685a
+t686a
+s687a
+e590d
+k455a
+k505a
+k560a
+k561a
+
+activity (nmol · min−1 · mg
+of protein−1 )
+36.1 +
+− 2.9
+0.72 +
+− 0.04
+1.26 +
+− 0.3
+17.6 +
+− 2.4
+0
+0
+18.9 +
+− 0.9
+14.7 +
+− 2.1
+35.2 +
+− 1.2
+19.9 +
+− 2.3
+39.3 +
+− 1.8
+
+k m (µm)
+
+v max (nmol · min−1 · mg of protein−1 )
+
+catalytic efficiency
+
+expression (%)
+
+corrected activity (%)
+
+carnitine
+
+ xxxd2832xxx -coa
+
+carnitine
+
+ xxxd2832xxx -coa
+
+carnitine
+
+ xxxd2832xxx -coa
+
+100
+102
+123
+98
+110
+106
+140
+70
+142
+104
+129
+
+100
+1.96
+2.85
+48
+0
+0
+37.4
+58.1
+68.7
+52.9
+84.5
+
+101
+n.d.
+n.d.
+262
+–
+–
+137
+147
+105
+110
+130
+
+5.7
+n.d.
+n.d.
+8.7
+–
+–
+5.7
+6.1
+2.4
+6.3
+5.9
+
+39.7
+n.d.
+n.d.
+29.6
+–
+–
+29.8
+23.8
+35.7
+19.8
+53.6
+
+47.6
+n.d.
+n.d.
+33.3
+–
+–
+28.6
+29.8
+33.3
+14.9
+47.6
+
+0.39 (× 1)
+n.d.
+n.d.
+0.11 (× 0.3)
+–
+–
+0.22 (× 0.6)
+0.16 (× 0.4)
+0.34 (× 0.9)
+0.18 (× 0.5)
+0.41 (× 1.1)
+
+8.35 (× 1)
+n.d.
+n.d.
+3.83 (× 0.5)
+–
+–
+5.02 (× 0.6)
+4.89 (× 0.6)
+13.88 (× 1.7)
+2.36 (× 0.3)
+8.07 (× 1)
+
+abolished enzyme activity [11]. moreover, his473 is located close
+(2.8 å) to the s atom of coa in our l- xxxg508xxx  model. therefore
+we explored the amino acid residues surrounding the carbonyl of
+the  xxxd2832xxx  group in the 3-d model of l- xxxg508xxx . we located two
+aspartates, asp477 and asp567 (figure 4), that could participate in
+the catalytic event, since they are well conserved in all carnitine
+transferases, cot,  xxxg513xxx  and  xxxg508xxx  (l- and m-), as well as in
+choline acetyltransferases. experiments carried out with  xxxg509xxx 
+showed that mutations in orthologous amino acids abolished
+enzyme activity [13]. to explore the role of these residues in
+the acyltransferase reaction, we prepared expression plasmids
+encoding the mutant variants l- xxxg508xxx  d477a and d567a. the
+constructs were expressed in s. cerevisiae and the mitochondrial
+fractions were assayed for  xxxg508xxx  activity. this was nearly abolished in both cases (2 % of residual activity for mutant d477a
+and 2.9 % for mutant d567a) (table 1 and figure 5a). since only
+asp477 is close (4.1 å) to the catalytic his473 (asp567 is 13.1 å
+from his473 ), we conclude that asp477 probably participates in
+catalysis.
+
+we also explored a possible role for glu590 of l- xxxg508xxx , since
+mutation of the orthologous glu to asp in  xxxg509xxx  abolished enzyme activity [26]. therefore mutant e590d was expressed in
+s. cerevisiae, and revealed 37 % residual activity (table 1 and
+figure 5a). since glu590 is located 9.5 å from carnitine and 12.0 å
+from the sulphur atom of coa in the model (figure 4a), farther
+away than asp477 (4.1 and 4.4 å respectively), we conclude that
+glu590 does not participate directly in the catalytic event, but
+probably stabilizes, together with asp567 , the positioning of coa
+on its site (figure 3, upper panel).
+in the search for other residues that play a role in catalysis,
+we examined conserved serine residues in all carnitine acyltransferases and choline acetyltransferases, and found a conserved
+ser685 -thr686 -ser687 motif near the c-termini. localization of
+these residues in the l- xxxg508xxx  3-d model near the catalytic
+site and near both substrates, i.e. carnitine (ser685 and thr686 )
+and  xxxd2832xxx -coa (ser687 ) (figure 4a), suggested that one
+of them could participate in the catalytic process. to address
+this, individual point mutants s685a, t686a and s687a were
+
+c 2004 biochemical society
+
+782
+
+m. morillas and others
+
+catalytic efficiency affect the v max more than the k m for both
+carnitine and  xxxd2832xxx -coa. overall, the lysines studied here
+contributed less to catalytic activity than the other amino acids
+assayed, such as asp477 , asp567 , glu590 , ser685 , thr686 and ser687 .
+western blot analysis of wild-type l- xxxg508xxx  and the mutants
+using polyclonal antibodies is shown in figure 5(b). for both
+the wild type and mutants, proteins of the predicted sizes were
+synthesized with similar levels of expression.
+discussion
+
+figure 5 (a) relative activity and (b) immunoblots showing expression of
+wild-type and mutant l- xxxg508xxx  enzymes
+(a)yeast extracts (10 µg of protein) of wild type and mutant proteins were assayed for activity.
+the activity was corrected for the level of protein expression of each mutant. (b) s. cerevisiae
+extracts (60 µg) were separated by sds/page and subjected to immunoblotting using specific
+antibodies. proteins used were l- xxxg508xxx  wild type (wt) (lane 1), h473a (lane 2), d477a (lane 3),
+d567a (lane 4), s685a (lane 5), t686a (lane 6), s687a (lane 7), e590d (lane 8), k455a (lane 9),
+k505a (lane 10), k560a (lane 11) and k561a (lane 12).
+
+prepared and expressed in s. cerevisiae. mutant s685a showed a
+decrease in activity of 48 %; its k m for carnitine increased 3-fold,
+while its v max decreased by 20 %. with the t686a and s687a
+mutants, enzyme activity was abolished and the kinetic constants
+could not be measured (table 1 and figure 5a). since the side
+chain of thr686 points away from the active site, the oh group is
+unlikely to contribute to catalysis. it may, however, have a role in
+positioning of the substrate on the two neighbouring serines, and
+its mutation might disrupt the conformation of the enzyme in this
+area, as was observed for  xxxg513xxx  [6].
+several other residues have been implicated previously in
+catalysis in other members of the carnitine acyltransferase family.
+we explored the putative roles of several lysine residues. lys455
+is a conserved amino acid 18 residues upstream of the catalytic
+his473 and it was located proximal to the catalytic histidine in the
+former l- xxxg508xxx  model. lys505 had been implicated in catalysis
+in cot [27]. lys560 and lys561 are located in the proposed model
+at 3.7 å and 11.0 å respectively from the 5 phosphate group of
+coa (figure 4b). although only the first lysine of these two is
+fully conserved in the carnitine acyltransferase family, we mutated
+both residues independently, as resolution of the model does not
+allow us to identify the best candidate. mutant k455a showed
+altered activity accompanied by 70 % protein expression. thus
+the activity of the mutant was 58 % of wild type (table 1 and
+figure 5a). mutant k505a retained 69 % activity. lys505 is far
+away from the substrates in the model. with regard to the other
+two lysines (lys560 -lys561 ) proximal to the 5 phosphate group
+of coa, mutation of the residue closer to coa had the greatest
+effect on activity. mutant k560a had 53 % of wild-type activity,
+whereas mutant k561a showed 85 % activity (figure 5a).
+the mutants generated in this study which conserved measurable enzyme activity were assayed for determination of kinetic
+constants. the k m values for carnitine of the lysine mutants
+k455a, k505a, k560a, k561a differed little from that of the
+wild type, but their v max values for carnitine ranged between 50 %
+and 135 % of wild type. k m and v max for  xxxd2832xxx -coa were
+similar to wild type. only the k560a mutant showed a decreased
+v max (30 %) (table 1). it appears that those mutants with altered
+
+c 2004 biochemical society
+
+the structural difference between l- xxxg508xxx  and other carnitine
+acyltransferases is that the former contains an additional nterminal domain of about 160 amino acid residues that is not present in  xxxg509xxx , cot or  xxxg513xxx . this n-terminal region comprises
+a cytosolic segment of 47 amino acids, and two transmembrane
+regions. both the n- and c-terminal regions are projected into
+the cytosol. the c-terminal region contains both the catalytic
+and the malonyl-coa binding site, although there might be some
+interaction between the n-terminus and the malonyl-coa site,
+since mutation of specific n-terminal amino acids results in the
+abolition of malonyl-coa sensitivity. the proposed 3-d model
+includes all c-terminal domain amino acids from ser166 to lys772 ,
+analogous to that present in  xxxg513xxx .
+comparison between the 3-d model based on similarity to  xxxg513xxx 
+and the model based on similarity to a fragment of enoyl-coa
+hydratase
+
+in a previous study [11] we proposed a 3-d structural model of
+the catalytic core of the l- xxxg508xxx  and cot proteins, designed on
+a threading procedure or ‘remote homology design’, taking the
+crystal of rat enoyl-coa hydratase as a template. this model was
+partial, since it comprised only 200 amino acids (co-ordinates
+368–567) and could not show the carnitine binding site. in this
+model, his473 of l- xxxg508xxx  was located very close to the sulphur
+atom of the acyl-coa substrate, a result that supported the model
+and offered a structural explanation for the catalytic activity in
+which this histidine residue has been implicated.
+using the data from the former model to find candidate residues
+comprising the catalytic site, we chose two amino acids, asp421
+and ser423 , both of which were modelled close to the acyl-coa
+molecule [11]. mutation of either of these residues to alanine
+did not affect catalytic activity (results not shown). these results
+suggested that the previous model was inaccurate and that it
+should be modified when new data were available to improve
+the assignments of interactions between the various amino acids.
+a careful measurement of distances of these amino acids now
+reveals that they are far away from the catalytic site.
+the present model improves on the previous one, since it
+was constructed by direct homology: the template used was
+obtained after crystallization of another member of the carnitine
+acyltransferase family, in this case mouse  xxxg513xxx . the general
+organization of the new model coincides closely with that of
+ xxxg513xxx , but it contains specific arrangements, particularly those
+referring related to the binding of the substrate  xxxd2832xxx -coa,
+which is much longer than acetyl-coa. as shown in figures 2
+and 3 (lower panel), the l- xxxg508xxx  model contains a pocket near
+the catalytic site, which could accommodate the fatty long-chain
+ xxxd2832xxx -coa. docking analyses using specialized algorithms
+confirmed this possibility.
+in addition to structural features, the 3-d l- xxxg508xxx  model
+shows several functional properties that support its structure.
+mutation of asp477 , asp567 , thr686 or ser687 practically abolished
+enzyme activity. mutation of other amino acid residues produced
+
+structural model of carnitine palmitoyltransferase i
+
+partial decreases in enzyme activity, e.g. glu590 , ser685 and the
+lysines studied in the present paper. these residues probably
+play a secondary role, maintaining the conformation of the
+positive charge distribution of beta sheets and alpha helices throughout
+the molecule. ramsay and co-workers [27] had suggested that
+lys358 of cot might be involved in the cot catalytic process.
+localization of the analogous lysine (lys505 ) in the l- xxxg508xxx  model
+and determination of enzyme activity of its mutant have ruled out
+a probable role in catalysis.
+proposed binding sites for carnitine and  xxxd2832xxx -coa
+
+figure 3 shows a general arrangement of the amino acids involved
+in the interactions with carnitine and the  xxxd2832xxx  group. we
+chose these residues on the basis of four criteria: (1) the effects of
+their mutation on enzyme activity; (2) docking analysis using the
+specialized autodock algorithms; (3) their distance to the s atom
+of coa in some cases, to several groups forming the  xxxd2832xxx 
+molecule or to the various atoms of carnitine; and (4) the general
+positions of similar residues in the mouse or human  xxxg513xxx  crystal.
+arg655 , whose distance to the carboxylate group of carnitine is
+3.7 å, probably forms a salt bridge with this group at the active
+site (figure 3, upper panel). it was shown previously [28] that
+mutation of the equivalent residue in cot to asparagine increased
+the apparent k m for carnitine by 1650-fold. ser687 (whose distance
+to the oh group of carnitine is only 4.3 å), mutation of which
+to alanine abolished enzyme activity, is probably involved in
+maintaining the proper conformation of the enzyme in catalysis.
+it is noteworthy that the hydroxylated side chain of thr686 points
+away from the active site, as is the case in mouse  xxxg513xxx . as
+the ser685 -thr686 -ser687 motif has been observed in all carnitine
+acyltransferases, it is possible that thr686 may help to maintain
+the proper conformation of the enzyme in this area, particularly
+that of ser687 , which may stabilize the transition state, as has
+been pointed out for cot [14]. this effect is not observed for
+the first member of the motif (ser685 ), because its mutation only
+decreased enzyme activity by 50 %. other amino acid residues
+(thr602 , tyr589 ) might also participate in positioning of carnitine
+in the catalytic channel, in view of their small distances to this
+molecule.
+his473 is critical for catalysis, acting as a general base. its distance to the hydroxy group of carnitine is 3.1 å. since asp477 is
+close to his473 in the model, and its mutation abolishes enzyme
+activity, its role in catalysis is probably the stabilization of the
+positive charge that develops after deprotonation of the substrate.
+asp567 and glu590 might stabilize the position of the pantothenic
+group of coa. lys556 and lys560 , which are located only 4.14 and
+3.7 å respectively from the 3 phosphate group of the coa ribose
+ring, probably interact with this group. other amino acid residues
+might also participate in the positioning of coa in the catalytic
+channel, as suggested for  xxxg513xxx  [6], including leu297 and ser565 .
+figure 3 (lower panel) shows how the  xxxd2832xxx  group is accommodated in a hydrophobic pocket. the  xxxd2832xxx  group does not
+form a putative straight line with the coa group, but it bends
+within the catalytic his473 into the direction of a hydrophobic
+region. this is possible because at the beginning of the bend there
+are three glycines (residues 709–711), which are small enough to
+allow the hydrocarbon chain to enter the pocket. it is noteworthy
+that  xxxg513xxx  does not contain this tripeptide; in contrast,  xxxg513xxx 
+contains three voluminous amino acids (val, met and phe) within
+this area. the hydrophobic pocket is located between amino acids
+of helix  xxxg1956xxx  and the glycine residues of beta sheet 14. it should be
+emphasized that immediately before val706 there is an extra loop
+that is present in all isoforms of  xxxg508xxx  (l- and m-) (residues 693–
+705) but is absent from  xxxg513xxx . all of these circumstances favour
+
+table 2
+
+783
+
+missense mutations causing human l- xxxg508xxx  deficiency
+
+n.e., not expressed; n.d., not determined.
+
+mutant
+
+distance to sulphur
+activity
+atom of coa (å)
+instability expression system (% of wild type) reference
+
+c304w
+r357w
+e360g
+delr395
+a414v
+d454g
+l484p
+y498c
+g710e
+
+16
+38
+33
+25
+23
+18
+14
+42
+8.2
+
+++
++
++++
++
++++
++++
+++
++++
+stable
+
+cos cells
+cos cells
+fibroblasts
+cos cells
+n.e.
+s. cerevisiae
+cos cells
+n.e.
+s. cerevisiae
+
+1.7
+14.5
+0
+0.1
+n.d.
+2
+23.9
+n.d.
+undetectable
+
+[29]
+[29]
+[30]
+[29]
+[31]
+[32]
+[29]
+[31]
+[33]
+
+figure 6 localization in the l- xxxg508xxx  structural model of amino acids found
+to be mutated in hereditary  xxxg508xxx  deficiencies described previously
+ribbon plot representation of the proposed model for l- xxxg508xxx , as in figure 4. the positions of
+l- xxxg508xxx  amino acids are indicated as spheres. see table 2 for further details.
+
+localization of the  xxxd2832xxx  group in l- xxxg508xxx  and not in  xxxg513xxx ,
+whose natural substrate is the coa derivative of the small twocarbon acid, the acetyl group. figure 3 (lower panel) also shows
+that amino acids involved in the  xxxd2832xxx  pocket are hydrophobic
+residues, i.e. val481 , trp485 , val488 , met489 and ala490 of helix 12
+and val706 of the coiled turn, and that all are with 4 å of the  xxxd2832xxx  group.
+small differences in catalytic mechanism among the various
+carnitine acyltransferases may occur as a consequence of (1) the
+different lengths of the hydrocarbon chains of the fatty acyl-coa
+substrates; (2) the fact that the reaction of l- xxxg508xxx  is inhibited by
+malonyl-coa; and (3) the fact that l- xxxg508xxx  is bound to the mitochondrial outer membrane, unlike mitochondrial  xxxg509xxx , which is
+close to the inner membrane, peroxisomal cot or mitochondrial
+ xxxg513xxx .
+localization of amino acid residues involved in human  xxxg508xxx 
+deficiency
+
+the present model also provides a molecular basis for understanding the effects of human missense mutations in l- xxxg508xxx 
+(table 2 and figure 6). the natural missense mutations have
+been validated by heterologous expression in mammalian or yeast
+cells. these mutations can be roughly divided into two categories,
+depending on whether they affect the activity directly or indirectly.
+
+c 2004 biochemical society
+
+784
+
+m. morillas and others
+
+the only known natural mutation (g710e) that decreases the
+activity without changing the stability of the protein is localized
+very close to the catalytic his473 , and the introduction of a negative
+charge may impair the catalytic process. alternatively, mutation of
+gly710 , which is one of the amino acids of the tripeptide putatively
+involved in the opening of the  xxxd2832xxx  hydrophobic pocket,
+to the more voluminous glu710 residue impedes the positioning
+of  xxxd2832xxx -coa. the other natural mutations described in the
+literature produce unstable proteins, and involve amino acids
+located far from the catalytic pocket, such as cys304 , arg395 , glu360 ,
+ala414 , asp454 , leu484 and tyr498 . the loss of enzyme activity
+which causes the hereditary diseases is thus explained by a loss
+of stability (table 2).
+no natural mutation has been described in m- xxxg508xxx . thus
+m- xxxg508xxx  deficiency, as a disease, has not been identified
+hitherto. however, more that 150 families have been reported with
+deficiencies in  xxxg509xxx , with a prevalent s113l mutation found in
+50 % of mutant alleles. another 10 families with an infantiletype deficiency of  xxxg509xxx  have been identified; this deficiency
+is lethal during the first month of life [34]. preparation of a 3-d
+ xxxg509xxx  model based on the  xxxg513xxx  model is expected to explain
+the molecular effects of these natural mutations.
+this study was supported by grants from the dirección general de investigación cientı́fica
+y técnica, spain (bmc2001-3048), from the fis of the instituto de salud carlos iii, red
+de centros rcmn from the ministry of health, madrid, spain (c03/08), from the ajut de
+suport als grups de recerca de catalunya 2001sgr-00129 (to f. g. h.), and from the
+fundación ramón areces (to p. g.-p). e. l.-v. is the recipient of a fellowship from
+the fundación ramón areces. we are also grateful to robin rycroft of the language
+service for valuable assistance in the preparation of the manuscript.
+
+references
+1 mcgarry, j. d. and brown, n. f. (1997) the mitochondrial carnitine palmitoyltransferase
+system. from concept to molecular analysis. eur. j. biochem. 244, 1–14
+2 anderson, r. c. (1998) carnitine palmitoyltransferase: a viable target for the treatment of
+niddm? curr. pharm. des. 4, 1–16
+3 esser, v., britton, c. h., weis, b. c., foster, d. w. and mcgarry, j. d. (1993) cloning,
+sequencing, and expression of a cdna encoding rat liver carnitine palmitoyltransferase i.
+direct evidence that a single polypeptide is involved in inhibitor interaction and catalytic
+function. j. biol. chem. 268, 5817–5822
+4 yamazaki, n., shinohara, y., shima, a. and terada, h. (1995) high expression of a novel
+carnitine palmitoyltransferase i like protein in rat brown adipose tissue and heart:
+isolation and characterization of its cdna clone. febs lett. 363, 41–45
+5 ramsay, r. r., gandour, r. d. and van der leij, f. r. (2001) molecular enzymology of
+carnitine transfer and transport. biochim. biophys. acta 1546, 21–43
+6 jogl, g. and tong, l. (2003) crystal structure of  xxxg513xxx  and
+implications for the catalytic mechanism and fatty acid transport. cell 112, 113–122
+7 wu, d., govindasamy, l., lian, w., gu, y., kukar, t., agbandje-mckenna, m. and
+mckenna, r. (2003) structure of human  xxxg513xxx . molecular basis for
+fatty acyl transfer. j. biol. chem. 278, 13159–13165
+8 schrag, j. d., li, y. g., wu, s. and cygler, m. (1991) ser-his-glu triad forms the catalytic
+site of the lipase from geotrichum candidum . nature (london) 351, 761–764
+9 dodson, g. and wlodawer, a. (1998) catalytic triads and their relatives.
+trends biochem. sci. 23, 347–352
+10 sussman, j. l., harel, m., frolow, f., oefner, c., goldman, a., toker, l. and silman, i.
+(1991) atomic structure of acetylcholinesterase from torpedo californica : a prototypic
+acetylcholine-binding protein. science 253, 872–879
+11 morillas, m., gómez-puertas, p., roca, r., serra, d., asins, g., valencia, a. and hegardt,
+f. g. (2001) structural model of the catalytic core of carnitine palmitoyltransferase i and
+carnitine octanoyltransferase (cot): mutation of  xxxg508xxx  histidine 473 and alanine 381 and
+cot alanine 238 impairs the catalytic activity. j. biol. chem. 276, 45001–45008
+received 9 september 2003/5 january 2004; accepted 8 january 2004
+published as bj immediate publication 8 january 2004, doi 10.1042/bj20031373
+
+
+c 2004 biochemical society
+
+12 morillas, m., clotet, j., rubı́, b., serra, d., asins, g., ariño, j. and hegardt, f. g. (2000)
+identification of the two histidine residues responsible for the inhibition by malonylcoa in peroxisomal carnitine octanoyltransferase from rat liver. febs lett. 466,
+183–186
+13 brown, n. f., anderson, r. c., caplan, s. l., foster, d. w. and mcgarry, j. d. (1994)
+catalytically important domains of rat  xxxg509xxx  as determined by
+site-directed mutagenesis and chemical modification. evidence for a critical histidine
+residue. j. biol. chem. 269, 19157–19162
+14 cronin, c. n. (1997) the conserved serine-threonine-serine motif of the carnitine
+acyltransferases is involved in carnitine binding and transition-state stabilization:
+a site-directed mutagenesis study. biochem. biophys. res. commun. 238,
+784–789
+15 guex, n. and peitsch, m. c. (1997) swiss-model and the swiss-pdbviewer:
+an environment for comparative protein modeling. electrophoresis 18, 2714–2723
+16 guex, n., diemand, a. and peitsch, m. c. (1999) protein modelling for all.
+trends biochem. sci. 24, 364–367
+17 peitsch, m. c. (1995) protein modelling by e-mail. bio/technology 13, 658–660
+18 peitsch, m. c. (1996) promod and swiss-model: internet-based tools for automated
+comparative protein modelling. biochem. soc. trans. 24, 274–279
+19 hooft, r. w. w., vriend, g., sander, c. and abola, e. e. (1996) errors in protein structures.
+nature (london) 381, 272
+20 vriend, g. (1990) what if: a molecular modeling and drug design program.
+j. mol. graph. 8, 52–56
+21 laskowski, r. a., macarthur, m. w., moss, d. s. and thornton, j. m. (1993) sfcheck:
+a unified set of procedures for evaluating the quality of macromolecular structure-factor
+data and their agreement with the atomic model. j. appl. crystallogr. 26, 283–291
+22 goodsell, d. s., morris, g. m. and olson, a. j. (1996) automated docking of flexible
+ligands: applications of autodock. j. mol. recognit. 9, 1–5
+23 morris, g. m., goodsell, d. s., halliday, r. s., huey, r., hart, w. e., belew, r. k. and
+olson, a. j. (1998) automated docking using a lamarckian genetic algorithm and
+empirical binding free energy function. j. comput. chem. 19, 1639–1662
+24 ritchie, d. w. and kemp, g. j. (2000) protein docking using spherical polar fourier
+correlations. proteins 39, 178–194
+25 sayle, r. a. and milner-white, e. j. (1995) rasmol: biomolecular graphics for all.
+trends biochem. sci. 20, 374
+26 zheng, g., dai, j. and woldegiorgis, g. (2002) identification by mutagenesis of a
+conserved glutamate (glu487) residue important for catalytic activity in rat liver carnitine
+palmitoyltransferase ii. j. biol. chem. 277, 42219–42223
+27 nic a’bhaird, n., yankovskaya, v. and ramsay, r. r. (1998) active site residues of beef
+liver carnitine octanoyltransferase (cot) and carnitine palmitoyltransferase (cpt-ii).
+biochem. j. 330, 1029–1036
+28 cronin, c. n. (1997) cdna cloning, recombinant expression, and site-directed
+mutagenesis of bovine liver carnitine octanoyltransferase – arg505 binds the carboxylate
+group of carnitine. eur. j. biochem. 247, 1029–1037
+29 brown, n. f., mullur, r. s., subramanian, i., esser, v., bennett, m. j., saudubray, j. m.,
+feigenbaum, a. s., kobari, j. a., macleod, p. m., mcgarry, j. d. and cohen, j. c. (2001)
+molecular characterization of l- xxxg508xxx  deficiency in six patients: insights into function of
+the native enzyme. j. lipid res. 42, 1134–1142
+30 ogawa, e., kanazawa, m., yamamoto, s., ohtsuka, s., ogawa, a., ohtake, a.,
+takayanagi, m. and kohno, y. (2002) expression analysis of two mutations in carnitine
+palmitoyltransferase ia deficiency. j. hum. genet. 47, 342–347
+31 gobin, s., bonnefont, j. p.,  xxxg1771xxx -buus, c., mugnier, c., ferrec, m., demaugre, f.,
+saudubray, j. m., rostane, h., djouadi, f., wilcox, w. et al. (2002) organization of the
+human liver carnitine palmitoyltransferase 1 gene ( xxxg508xxx ) and identification of
+novel mutations in hypoketotic hypoglycaemia. hum. genet. 111, 179–189
+32 ijlst, l., mandel, h., oostheim, w., ruiter, j. p., gutman, a. and wanders, r. j. (1998)
+molecular basis of hepatic carnitine palmitoyltransferase i deficiency. j. clin. invest. 102,
+527–531
+33  xxxg1771xxx -buus, c., thuillier, l., abadi, n., prasad, c., dilling, l., klasing, j., demaugre, f.,
+greenberg, c. r., haworth, j. c., droin, v. et al. (2001) molecular and enzymatic
+characterization of a unique  xxxg508xxx  mutation in the hutterite
+community. mol. genet. metab. 73, 46–54
+34 bonnefont, j. p., demaugre, f.,  xxxg1771xxx -buus, c., saudubray, j. m., brivet, m., abadi, n. and
+thuillier, l. (1999) carnitine palmitoyltransferase deficiencies. mol. genet. metab. 68,
+424–440
+

@@ -1,0 +1,806 @@
+1748
+
+yolanda martn-biosca
+lucia asensi-bernardi
+rosa m. villanueva-camaas
+salvador sagrado
+maria j. medina-hernndez
+departmento qumica analtica,
+universitat de valncia, c/vicente
+andrs estells s/n, burjassot
+(valencia), spain
+
+y. martin-biosca et al.
+
+j. sep. sci. 2009, 32, 1748 – 1756
+
+original paper
+screening of acetylcholinesterase inhibitors by ce
+after enzymatic reaction at capillary inlet
+in this study the development of a procedure based on capillary electrophoresis
+after enzymatic reaction at capillary inlet methodology for the screening and in
+vitro evaluation of the biological activity of acetylcholinesterase (ache) inhibitors is
+presented. the progress of the enzymatic reaction of the hydrolysis of acetylthiocholine at ph 8 in the presence of ache and the inhibitor studied is determined by
+measuring at 230 nm the peak area of the reaction product thiocholine (tch). in the
+method employed the capillary was first filled with 30 mm borate-phosphate buffer
+(ph 8.0) and subsequently, plugs of: (i) water, (ii) ache solution, (iii) substrate solution with or without inhibitor, (iv) ache solution, and (v) water, were hydrodynamically injected into the capillary, and were allowed to stand (and react) during a waiting period of 2 min. the applicability of the proposed methodology to estimate
+different kinetic parameters of interest such as inhibition constants ki, identification of inhibitory action mechanism and ic50, is evaluated using compounds with
+known activity, tacrine  xxxd1968xxx , and neostigmine. the results obtained are
+compared with bibliographic values and confirm the effectiveness of the methodology proposed. finally a method for ache inhibitor screening is proposed.
+keywords: capillary electrophoresis / enzymatic reaction in capillary / screening of acetylcholinesterase inhibitors /
+received: december 3, 2008; revised: december 23, 2008; accepted: february 24, 2009
+doi 10.1002/jssc.200800701
+
+1 introduction
+the use of compounds to inhibit enzyme action is an
+important possibility for therapeutic intervention. many
+drugs act by inhibiting specific enzymes which are associated with the disease process [1]. in this context, human
+acetylcholinesterase (ache) is currently indicated as a
+target enzyme for drugs to be used in the treatment of
+alzheimer's disease (ad), the most common form of
+dementia in the elderly. one important change observed
+in the brain of ad patients is a decrease in hippocampal
+and cortical levels of the neurotransmitter acetylcholine
+(ach) by nearly 90%. this important decrease in ach levels causes impairment in cognitive function [2]. pharmacological treatment of ad is currently based on ache
+inhibitors, such as tacrine, donepezil, rivastigmine, and
+galantamine which maintain high levels of ach at the
+correspondence: dr. maria j. medina-hernndez, departmento
+qumica analtica, universitat de valncia, c/vicente andrs estells s/n, e-46100 burjassot (valencia), spain
+e-mail: maria.j.medina@uv.es
+fax: +34-96-3544953
+abbreviations: ach, acetylcholine; ache, acetylcholinesterase;
+ad, alzheimer's disease; athch, acetylthiocholine; emma, electrophoretically mediated microanalysis; tch, thiocholine
+
+i
+
+2009 wiley-vch verlag gmbh & co. kgaa, weinheim
+
+muscarinic and nicotinic receptors in the central nervous system determining beneficial effects on cognitive,
+functional, and behavioral symptoms of the disease [3].
+however, the adverse side effect of these drugs, often due
+to inhibition of peripheral ache, limits their use [4]. for
+that reason, research on new inhibitors for the treatment
+of ad with improved pharmacological properties is currently in progress.
+preliminary studies in the discovery and development
+process of new drugs include the in vitro evaluation of the
+biological activity of the candidate compounds. for
+enzyme inhibitor screening, the most common approach
+is the measurement of the reduction of the enzyme activity in the presence of candidate compounds. for in vitro
+screening ache inhibitors, the reaction of acetylthiocholine (athch, substrate) at ph 8 in the presence of ache
+(enzyme) and the inhibitor to form acetic acid and thiocholine (tch, product of the enzymatic hydrolysis) is considered.
+several procedures for the evaluation of ache activity
+have been described. these include static procedures
+such as the titration of the acid formed in the reaction
+[5], the use of radiolabeled ach [6] or colorimetric methods using ellman's reagent [7]. the latter method is the
+most widely used to measure the activity of ache and its
+www.jss-journal.com
+
+j. sep. sci. 2009, 32, 1748 – 1756
+
+decrease in the presence of inhibitors. in this method a
+yellow anion derived from the dithiobisnitrobenzoate
+(ellman's reagent) when it reacts with tch is monitored
+at 412 nm. chemiluminiscent assays based on coupled
+enzymatic reactions have also been developed for the
+evaluation of ache inhibitors [3, 8, 9].
+dynamic procedures including chromatographic and
+electrophoretic techniques using ache immobilized or
+in dissolution have also been proposed for the evaluation
+of ache inhibitors. a chromatographic procedure based
+on in situ ache derivatized column has been used to
+determine the inhibition potency (ic50) of known ache
+inhibitors [10]. most recently, the authors developed an
+immobilized human recombinant ache-based microenzyme reactor for inhibitor screening [11, 12]. this reactor
+has been applied for the evaluation of the thermodynamic and kinetic constants, and the mechanism of
+action of inhibitors [13]. moreover, an hplc-ms methodology was used for the screening of ache inhibitors in
+natural extracts [14].
+a recent trend in the area of enzyme assays is the use
+of ce. ce has many advantages in this field due to the
+small dimensions of the capillaries used for reaction and
+separation, high efficiency separations, fast analysis
+times, and the ability to employ several detection techniques [15]. measurement of enzyme activity by ce
+include enzyme reaction prior ce analysis (precapillary
+assay), enzyme reaction and consecutive on-capillary
+detection of the product(s) (on-capillary assay), and
+enzyme reaction after ce separation (post-capillary assay)
+[16]. the second alternative, also known as electrophoretically mediated microanalysis (emma), is of particular
+interest since the assay, and all its necessary operations,
+completely occurs within the capillary. the emma
+method has been successfully used with different
+enzyme systems for enzyme activity assays, kinetic studies with determination of michaelis constants and study
+of inhibitors. recently some reviews dealing with the
+basic principle, methodology, variants, and applications
+of emma have been published [15 – 18].
+at present the plug – plug mode of emma, which relies
+on a plug – plug interaction of reactants in the capillary,
+is probably the most frequently used in the study of enzymatic reactions by ce. in the classical plug – plug mode,
+after the introduction of enzyme and substrate as distinct plugs, the enzymatic reaction is initiated by the
+application of an electric field since the zones interpenetrate due to the differences in their electrophoretic mobilities. one of the problems of this methodology, is the
+high variability in peak areas of reagents and product of
+enzymatic reaction due to slight variations in the incapillary contact period of the enzyme and substrate
+plugs which affect the extent of the reaction [19].
+as an alternative to the classical plug – plug mode the
+at-inlet emma method has been proposed [19]. in this
+
+i
+
+2009 wiley-vch verlag gmbh & co. kgaa, weinheim
+
+electrodriven separation
+
+1749
+
+modality, the consecutively injected enzyme and substrate plugs are mixed by simple diffusion and reacted
+for a given time at the inlet part of the capillary. this variant is especially suitable for enzymes not resistant to an
+electric field.
+for the screening of ache inhibitors, the classical
+plug – plug mode [20], as well as the use of an immobilized capillary ache reactor based on a layer-by-layer
+assembly [21] has been proposed.
+a general problem related with the use of dynamic
+techniques, such as chromatography and electrophoresis, for the calculation of the inhibition kinetic parameters, inhibition constants, ki, and ic50 values, is the existence of diffusion phenomena during the enzymatic
+reaction. as consequence, the actual concentrations of
+substrate, enzyme and inhibitors are lower than the
+injected concentrations and this affect considerably to
+the estimated ki, and ic50 values [19].
+the purpose of this study was the development of effective and reliable high-throughput screening (hts) procedure based on the at-inlet emma method for the screening and in vitro evaluation of the biological activity of
+ache inhibitors that overcomes the limitations previously indicated.
+
+2 materials and methods
+2.1 instrumentation
+an hp3d ce system (helwlett-packard, waldbronn, germany) equipped with an on-column diode array detector
+(dad) and an hp3d ce chemstation software was used to
+carry out all cze separations. a 50 lm inner diameter
+(id) and 363 lm outer diameter (od) fused-silica capillary
+with total and effective length of 56 and 47.5 cm, respectively was employed (agilent technologies, germany).
+the capillary temperature was set at 378c and a running
+voltage of 15 kv was used. detection was performed at
+230 nm due to the maximum absorption of the substrate
+and the reaction product. a crison micro-ph 2000 ph
+meter from crison instruments (alella, barcelona, spain)
+was employed to adjust the ph of the separation buffer.
+
+2.2 chemicals and samples
+all reagents were of analytical grade. ache from electrophorus electricus (ec.3.1.1.7), tacrine ( xxxd3270xxx  hydrochloride), neostigmine bromide,
+ xxxd2940xxx ,  xxxd1968xxx  chloride, pyridostigmine bromide, and  xxxd123xxx  were purchased from sigma –
+aldrich (steinheim, germany). athch chloride was
+obtained from acros organics (geel, belgium), boric acid
+ xxxd2534xxx  heptahydrate from scharlau (barcelona, spain), and sodium dihydrogen phosphate dehydrate from fluka (barcelona, spain).
+www.jss-journal.com
+
+1750
+
+y. martin-biosca et al.
+
+j. sep. sci. 2009, 32, 1748 – 1756
+
+figure 1. (a) schematic diagram of the introduction of the different plugs to the inlet of a capillary for ache activity assay. (b)
+ache-catalyzed reaction.
+
+all solutions were prepared by barnstead e-pure deionized water (sybron, boston, ma, usa) and filtered prior
+to use through 0.45 lm pore size nylon membranes
+(micron separation, westborough, ma, usa).
+
+2.3 solution preparation
+the running buffer in all emma experiments was 30 mm
+borate-phosphate buffer at ph 8.0 and was prepared by
+dissolving the appropriate amounts of boric acid and
+sodium dihydrogen phosphate in water and adjusting
+the ph with 1 m naoh. to prepare the working enzyme
+solution ache was diluted to 115.2 u/ml with boratephosphate buffer. stock solutions of inhibitors
+(5000 lm), substrate athch (100 mm),  xxxd2534xxx  (200 mm),
+and  xxxd123xxx  used as an internal standard (50 mm)
+were prepared in borate-phosphate buffer.
+the assay solutions for kinetic and inhibitory studies
+containing increasing inhibitor concentration, a concentration of substrate in the range of 2 – 20 mm, 20 mm
+ xxxd2534xxx , and 2 mm  xxxd123xxx  were obtained by diluting
+the stock solutions in borate-phosphate buffer.
+
+2.4 procedures
+new capillaries were conditioned for 10 min flush with
+1 m naoh at 608c. then, they were rinsed for 5 min with
+water and 15 min with borate-phosphate buffer at 378c.
+in order to obtain good peak shapes and reproducible
+migration times, the capillary was conditioned at the
+beginning of each day with the following sequence: (i)
+2 min rinse with deionized water, (ii) 2 min rinse with
+1 m sodium hydroxide, (iii) 2 min rinse with deionized
+water, and (iv) 5 min rinse with running buffer at
+1000 mbar. between runs, the capillary was conditioned
+with deionized water for 1 min, and running buffer for
+2 min.
+
+i
+
+2009 wiley-vch verlag gmbh & co. kgaa, weinheim
+
+the enzyme solution and the substrate solution, with
+or without inhibitor, were introduced into the inlet part
+of the capillary by a sandwich injection mode (fig. 1), i.e.,
+enzyme solution (50 mbar for 2 s)-substrate solution
+(50 mbar for 2 s)-enzyme solution (50 mbar for 2 s).
+before and after the sandwich injection mode a small
+plug of water was injected hydrodynamically (20 mbar
+for 2 s). the consecutively injected plugs were allowed to
+stand during a predetermined waiting period. then, a
+voltage of 15 kv was applied for the separation.
+
+2.5 software and data processing
+ache activity (initial reaction velocity) was determined
+by the peak area of the product tch since the reaction
+time was constant due to the identical lengths of the
+enzyme and substrate plugs during all experiments. the
+percentage of inhibition was calculated according to the
+following equation:
+ x
+
+%inhibition ¼ 100 
+100
+ð1þ
+blank
+where x represents the peak area of the product (tch)
+determined at a given concentration of inhibitor, and
+the blank is the peak are of the product (tch) determined
+without inhibitor being present.
+the values of peak area of the product tch determined
+in this study were averages of triplicate measurements.
+microsoftm excel 2000 and statgraphics plus version 5.1
+were used to perform the statistical analysis of the regressions.
+
+3 results and discussion
+3.1 method development and optimization of
+experimental conditions
+in order to develop a screening methodology for ache
+inhibitors, the use of at-inlet emma mode has been evalwww.jss-journal.com
+
+j. sep. sci. 2009, 32, 1748 – 1756
+
+electrodriven separation
+
+1751
+
+figure 2. effect of the incubation time on the percentage of
+inhibition: (0) tacrine 5 lm; (9) tacrine 10 lm. conditions:
+fused-silica capillary, 50 lm id6363 lm od, 47.5 cm of effective length; running buffer, 30 mm borate-phosphate buffer
+(ph 8.0); concentration of ache, 0.4 mg/ml; athch,
+10 mm;  xxxd2534xxx  in the substrate solution, 20 mm; capillary
+temperature, 378c; running voltage, 15 kv; deteccion wavelength, 230 nm.
+
+uated as alternative to the classical plug – plug mode.
+tacrine, a well-known ache inhibitor, was used for optimization. it has been reported in the literature that
+ache displayed maximum activity in 30 mm boratephosphate buffer (ph 8) at 378c and in the presence of
+20 mm of  xxxd2534xxx  [20]. therefore these conditions were
+fixed and used for the enzyme reaction and for electrophoretic separation. the progress of the enzymatic reaction (fig. 1) was determined by measuring at 230 nm the
+peak area of the product tch.
+figure 1 shows a schematic illustration of the disposition used in this work for the at-inlet emma analysis. as
+it was commented previously in the at-inlet emma analysis, unlike in the classical mode, the compounds were
+not electrophoretically mixed prior to reaction. in the
+method employed the capillary was first filled with
+30 mm borate-phosphate buffer (ph 8.0). subsequently,
+plugs of (i) water, (ii) ache solution, (iii) substrate solution with or without inhibitor, (iv) ache solution, and
+finally (v) a plug of water were hydrodynamically
+injected into the capillary, and were allowed to stand
+(and react) during a waiting period. with the aim to control variations in the sandwich injection,  xxxd123xxx  was
+introduced in the substrate solution as an internal standard.
+first the waiting time, the time necessary to allow the
+injected enzyme and substrate plugs be mixed by simple
+diffusion and react at the inlet part of the capillary was
+
+i
+
+2009 wiley-vch verlag gmbh & co. kgaa, weinheim
+
+figure 3. typical electropherograms obtained after enzymatic reaction at the capillary inlet, in the absence (a) and
+presence (b) of the inhibitor  xxxd1968xxx  (100 lm) in the
+substrate solution (athch).  xxxd123xxx  (50 mm) was used as
+an internal standard. conditions: waiting time, 2 min; other
+conditions as in fig. 2.
+
+optimized. figure 2 shows the influence of mixing and
+reaction time (waiting time) over the percentage of ache
+inhibition for two concentrations of the inhibitor
+tacrine. as can be observed, the maximum inhibition
+was achieved for a waiting time of 2 min, therefore, this
+period was selected for further studies. figure 3 shows
+typical electropherograms after at-inlet reaction of ache
+and substrate athch, introduced by sandwich injection
+mode in the absence of inhibitor (fig. 3a) and in the presence of  xxxd1968xxx  (fig. 3b). as can be observed in fig.
+3a, in absence of the inhibitor, the substrate is completely converted into tch (reaction product). however,
+in presence of  xxxd1968xxx  (fig. 3b), the reaction is not
+complete and the peak corresponding to the unreacted
+substrate appears, whereas the product peak area diminwww.jss-journal.com
+
+1752
+
+y. martin-biosca et al.
+
+j. sep. sci. 2009, 32, 1748 – 1756
+
+table 2. structures and apparent mobilities for the substrate
+athch, the product tch, and the different inhibitors
+
+figure 4. inhibition plot of ache in the presence of tacrine.
+experimental conditions: fused-silica capillary, 50 lm
+id6363 lm od, 47.5 cm of effective length; running buffer,
+30 mm borate-phosphate buffer (ph 8.0); concentration of
+ache, 0.4 mg/ml; athch, 10 mm;  xxxd2534xxx  in the substrate
+solution, 20 mm; capillary temperature, 378c; running voltage, 15 kv; detection wavelength, 230 nm; waiting time
+2 min.
+
+compound
+
+l (cm2/v/s)
+
+athch
+
+7.574610 – 4
+
+tch
+
+6.382610 – 4
+
+tacrine
+
+6.846610 – 4
+
+ xxxd1968xxx 
+
+6.605610 – 4
+
+neostigmine
+
+6.464610 – 4
+
+pyridostigmine
+
+6.329610 – 4
+
+ xxxd2940xxx 
+
+6.411610 – 4
+
+table 1. values of inhibitory potency (ic50) for tacrine
+obtained by different assays reported in the literature
+method
+
+ic50, lm
+
+ref.
+
+ellman
+ellman
+chemiluminescent assay
+emma
+immobilized ache-hplc
+immobilized ache-capillary
+
+0.25 l 0.02
+0.25 l 0.01
+0.20 l 0.03
+0.83
+450 l 30
+1.97
+
+[22]
+[10]
+[3]
+[20]
+[10]
+[21]
+
+ishes. due to the low concentration of  xxxd1968xxx 
+used, the peak of the inhibitor does not appear in the
+electropherogram. as can be seen, no product peak splitting was observed that could be an indication of complete mixing [19].
+in order to evaluate the dilution originated during the
+mixing of the plugs and reaction process, the inhibitory
+potency of tacrine using the at-inlet emma method developed was obtained. for this purpose assay solutions containing increasing inhibitor concentration in the range
+of 10 – 3 – 103 lm in the presence of a fixed athch concentration (10 mm), and ache solution of 0.4 mg/ml were
+prepared. figure 4 shows the inhibition curve for tacrine
+obtained by plotting the %inhibition versus the logarithm
+of inhibitor concentration in the assay solution injected.
+as can be seen in fig. 4, complete inhibition was not
+reached, even at high inhibitor concentrations. using
+
+i
+
+2009 wiley-vch verlag gmbh & co. kgaa, weinheim
+
+nonlinear regression the fitted parameters were determined and the ic50 value calculated for tacrine was
+9.16 lm. table 1 shows the bibliographic values reported
+for this compound. as can be observed, the ic50 values
+obtained using inline chromatographic and emma
+methodologies were larger than those obtained with the
+static ellman method considered in bibliography as
+reference method. from the ic50 value for tacrine
+obtained with the ellman method 0.25 lm [3, 10, 22] and
+the ic50 calculated from the inhibition curves using the
+at-inlet emma method a dilution factor, f, of 0.03 was
+www.jss-journal.com
+
+j. sep. sci. 2009, 32, 1748 – 1756
+
+electrodriven separation
+
+1753
+
+figure 5. michaelis – menten (upper part) and corresponding lineweaver – burk plots (lower part) for the enzymatic reaction of
+ache inhibited by: (a) tacrine, (0) 0 lm, (g) 5 lm, (9) 10 lm; (b)  xxxd1968xxx  (0) 0 lm, (g) 10 lm, (9) 50 lm, (h) 100 lm and
+varying concentrations of substrate athch. experimental conditions as in fig. 4.
+
+estimated. obviously the calculated dilution factor correction assumes that the reported literature value is a
+true value. this dilution factor was applied in all of the
+subsequent calculations related with the at-inlet emma
+method developed.
+
+3.2 estimation of kinetic parameters
+the applicability of the proposed methodology to estimate different kinetic parameters of interest such as
+inhibition constants ki, identification of inhibitory
+action mechanism and ic50, was evaluated using compounds with known activity, tacrine  xxxd1968xxx , and
+neostigmine. since, the velocity of the enzymatic reaction is measured by the peak area of the formed tch, it is
+important to guarantee that no other component coeluted with the product. table 2 shows the apparent
+mobilities of substrate, product and some ache inhibi-
+
+i
+
+2009 wiley-vch verlag gmbh & co. kgaa, weinheim
+
+tors in the 30 mm borate-phosphate buffer (ph 8.0; 378c).
+the apparent mobility was calculated from the migration time of the compound, taking into account the
+capillary length and the applied voltage. as can be seen,
+all the inhibitors had different apparent mobilities than
+the product tch.
+reversible inhibition can be described quantitatively
+in terms of the inhibitor's binding to the enzyme (dissociation constant ki) and to the enzyme-substrate complex
+(dissociation constant k9i ), and its effects on the kinetic
+constants of the enzyme. in the presence of a reversible
+inhibitor michaelis – menten equation can be described
+as
+v0 ¼
+
+vmax ½s
+akm þ a9½s
+
+ð2þ
+
+where vmax and km are the typical parameters for an enzymatic reaction, [s] the substrate concentration, and a and
+a9 are the modifying factors defined by the inhibitor conwww.jss-journal.com
+
+1754
+
+y. martin-biosca et al.
+
+j. sep. sci. 2009, 32, 1748 – 1756
+
+table 3. inhibition constants of ache by tacrine and  xxxd1968xxx 
+compound
+
+method
+
+ki (lm)
+
+mechanism
+
+ref
+
+tacrine
+
+at-inlet emma
+ellman
+ellman
+immobilized ache hplc reactor
+emma
+immobilized ache-capillary
+at-inlet emma
+ellman
+ellman
+immobilized ache hplc reactor
+
+0.138 l 0.012
+0.151 l 0.016
+0.23 l 0.02
+2.40 l 0.36
+9
+10
+3.3 l 0.2
+1.9 l 1.3
+1.63 l 0.23
+5.38 l 0.52
+
+mixed
+mixed
+mixed
+mixed
+mixed
+mixed
+competitive
+competitive
+competitive
+competitive
+
+this work
+[22]
+[23]
+[13]
+[20]
+[21]
+this work
+[24]
+[13]
+[13]
+
+ xxxd1968xxx 
+
+values obtained using the developed at-inlet emma methodology and reported in the literature.
+
+centration, [i], and its two dissociation constants ki and
+k9i
+a¼1þ
+
+½i
+ki
+
+ð3þ
+
+a9 ¼ 1 þ
+
+½i
+k9i
+
+ð4þ
+
+in order to consider the dilution originated in the mixing process of the plugs during the at-inlet reaction, corrected concentrations for reagents (substrate, inhibitor,
+enzyme) were introduced. for a compound a the corrected concentration can be calculated as [a]corr =
+f[a]injected, where f is the dilution factor and [a]injected the
+concentration in the vial. therefore taking in account
+the dilution at the capillary inlet, michaelis – menten
+equation can be rewritten as
+v0 ¼
+
+¼
+
+vmax f ½sinjected
+
+vmax ½scorr
+¼
+akm þ a9½scorr
+akm þ a9f ½sinjected
+ð1=a9þvmax ½sinjected
+ða=a9þ1=f km þ ½sinjected
+
+ð5þ
+
+and the modifying factors a and a9
+a¼1þ
+
+f ½iinjected
+½icorr
+¼1þ
+ki
+ki
+
+ð6þ
+
+a9 ¼ 1 þ
+
+f ½iinjected
+½icorr
+¼1þ
+0
+ki
+ki0
+
+ð7þ
+
+for kinetic studies, two reversible reference inhibitors
+with known potency and mechanism of action (tacrine
+and  xxxd1968xxx ) were selected as model compounds.
+to obtain estimates of the competitive inhibition constant, ki, michaelis – menten plots (v vs. [s]injected) and reciprocal plots (1/v vs. 1/[s]injected) were constructed by injecting
+in triplicate different substrate solutions, in the range of
+2 – 20 mm, containing increasing reversible inhibitor
+concentrations, 0 – 10 and 0 – 100 lm for tacrine and
+ xxxd1968xxx , respectively.
+
+i
+
+2009 wiley-vch verlag gmbh & co. kgaa, weinheim
+
+figure 5 shows the michaelis – menten and their corresponding lineweaver – burk plots obtained for tacrine
+and  xxxd1968xxx . the michaelis – menten plots and fitted parameters were assessed by a nonlinear regression
+analysis according to eq. 8:
+vo ¼
+
+ð1=a9þvmax ½sinjected
+a½sinjected
+¼
+1
+b þ ½sinjected
+ða=a9þ km þ ½sinjected
+f
+
+ð8þ
+
+the ratio of the fitted parameters b/a, were then plotted against inhibitor injected concentration, and ki was
+determined as the ratio of the replot intercept to the
+replot slope.
+b
+km 1
+km 1
+km 1
+¼
+a¼
+þ
+½i
+a
+vmax f
+vmax f
+vmax ki injected
+
+ð9þ
+
+table 3 shows the estimated inhibition constants ki for
+tacrine and  xxxd1968xxx  calculated from the fitted
+parameters of the models obtained and bibliographic values. as can be observed, the values obtained were in good
+agreement with those reported in the literature obtained
+using static procedures [13, 23, 24]. the use of other
+dynamic methodologies provided higher and inaccurate
+results.
+mechanism of action was qualitatively evaluated by
+comparing lineweaver – burk plot trend to the theoretical ones [1]. reciprocal plots for tacrine inhibition (fig.
+5b) showed increase in slopes (decreased vmax) and
+increase in intercepts (higher km) with higher inhibitor
+concentration, indicating a mixed-type inhibition. in the
+case of  xxxd1968xxx  inhibition (fig. 6b) unvaried vmax
+and increasing x-intercepts (higher km) at increasing
+inhibitor concentrations were obtained. this behavior
+indicates that  xxxd1968xxx  acts as a pure competitive
+ache inhibitor.
+the results obtained were consistent with data
+reported in the literature and well reflect the relative
+potency of the inhibitors, suggesting that this assay
+could be suitable for the first screening of new potential
+ache inhibitors.
+www.jss-journal.com
+
+j. sep. sci. 2009, 32, 1748 – 1756
+
+electrodriven separation
+
+1755
+
+the inhibitory potency of  xxxd1968xxx  and neostigmine was also determined using the proposed at-inlet
+emma method. for this purpose assay solutions containing increasing inhibitor concentration and a fixed substrate concentration of 10 mm were prepared and the
+inhibition curves were obtained by plotting the %inhibition versus the logarithm of inhibitor concentration in
+the assay solution injected in the electrophoretic system
+(fig. 6). the ic50 values calculated from these curves were
+0.68 and 1.06 lm for  xxxd1968xxx  and neostigmine,
+respectively.
+
+3.3 method for ache inhibitor screening
+in order to obtain a rapid and efficient method for the
+screening of new potential ache inhibitors a new procedure based on at-inlet emma analysis was evaluated. the
+method for screening results used the methodology and
+electrophoretic conditions previously optimized and
+fixed concentrations of substrate; 10 mm, inhibitor,
+10 lm, and ache, 0.4 mg/ml. table 4 shows the screening results, presented in terms of percentage of inhibition, obtained for five known ache inhibitors. according
+to the results obtained, the order of inhibitory potency
+was
+tacrine >  xxxd1968xxx  > neostigmine >  xxxd2940xxx  >
+pyridostigmine. the results obtained agree with the ki
+values reported in bibliography for tacrine and  xxxd1968xxx  [13, 22 – 24]. for neostigmine, pyridostigmine, and
+ xxxd2940xxx  no kinetic data have been found in the bibliography. the results obtained can be used as an automated
+fast screening in the first step of the drug discovery process.
+
+4 conclusions
+
+figure 6. inhibition curves for (a)  xxxd1968xxx  and (b) neostigmine. experimental conditions as in fig. 4.
+
+table 4. inhibitor screening resultsa)
+compoundb)
+
+percent of inhibition (%)
+
+tacrine
+ xxxd1968xxx 
+neostigmine
+pyridostigmine
+ xxxd2940xxx 
+
+54.2
+33.7
+31.1
+6.1
+20.1
+
+a)
+b)
+
+i
+
+conditions as in fig. 4.
+concentration of 10 lm.
+
+2009 wiley-vch verlag gmbh & co. kgaa, weinheim
+
+the developed procedure based on ce after enzymatic
+reaction at capillary inlet proved to be useful for the
+screening and in vitro evaluation of the biological activity
+of ache inhibitors. the proposed method allows online
+evaluation of kinetic parameters of interest such as determination the inhibitory constant (ki), identification of
+mechanism of action and evaluation of ic50 values with
+increased accuracy and reproducibility and with saving
+of time and materials. the results obtained were found
+in agreement with data reported in the literature.
+the advantages over the static conventional methods
+are the system automation which allows a large number
+of compounds to be processed continuously. over the
+dynamic procedures reported in bibliography, the proposed methodology corrects adequately the dilution
+effects that take place in the columns/capillary providing
+similar results compared to the reference/static procedures. due to the reduced analysis time, less than 5 min,
+
+www.jss-journal.com
+
+1756
+
+y. martin-biosca et al.
+
+the at-inlet emma procedure proposed can be used as an
+effective screening methodology.
+the authors acknowledge the spanish ministry of science and
+technology (mcyt), the european regional development fund
+(erdf) (project saf2005-01435) for the financial support.
+the authors declared no conflict of interest.
+
+5 references
+[1] thomas, g., medicinal chemistry, wiley, chichester, england
+2000, pp. 231 – 239.
+[2] di giovanni, s., borloz, a., urbain, a., marston, a., hostettmann,
+k., carrupt, p. a., reist, m., eur. j. pharm. sci. 2008, 33, 109 – 119.
+[3] guardigli, p., pasini, p., mirasoli, m., leoni, a., andreani, a.,
+roda, a., anal. chim. acta 2005, 535, 139 – 144.
+[4] lee, j. h., lee, k. t., yang, j. h., baek, n. i., kim, d. k., arch. pharm.
+res. 2004, 27, 53 – 56.
+[5] jacobsen, c. f., leonis, j., linderstrøm-lang, k., otteren, m., methods biochem. anal. 1957, 4, 171 – 210.
+[6] johnson, c. d., russel, r. l., anal. biochem. 1975, 64, 229 – 238.
+[7] ellman, g. l., courtney, k. d., andres, j. v., featherstone, r. m.,
+biochem. pharmacol. 1961, 7, 88 – 95.
+[8] sabelle, s., renard, p. – y., pecorella, k., de suzzoni-dzard, s.,
+crminom, c., grassi, j., mioskowski, c., j. am. chem. soc. 2002,
+124, 4874 – 4880.
+[9] pasini, p., musiana, m., russo, c., valenti, p., aicardi, g., crabtree, j. e., baraldini, m., roda, a., j. pharm. biomed. anal. 1998, 18,
+555 – 564.
+
+i
+
+2009 wiley-vch verlag gmbh & co. kgaa, weinheim
+
+j. sep. sci. 2009, 32, 1748 – 1756
+
+[10] andrisano, v., bartolini, m., gotti, r., cavrini, v., felix, g., j. chromatogr. b 2001, 753, 375 – 383.
+[11] bartolini, m., cavrini, v., andrisano, v., j. chromatogr. a 2004,
+1031, 27 – 34.
+[12] bartolini, m., cavrini, v., andrisano, v., j. chromatogr. a 2005,
+1065, 135 – 144.
+[13] bartolini, m., cavrini, v., andrisano, v., j. chromatogr. a 2007,
+1144, 102 – 110.
+[14] de jong, c. f., derks, r. j. e., bruyneel, b., niessen, w., irth, h., j.
+chromatogr. a 2006, 1112, 303 – 310.
+[15] zhang, j., hoogmartens, j., van schepdael, a., electrophoresis
+2008, 29, 56 – 65.
+[16] novkov, s., van dyck, s., van schepdael, a., hoogmartens, j.,
+glatz, z., j. chromatogr. a 2004, 1032, 173 – 184.
+[17] van dyck, s., kaale, e., novkov, s., glatz, z., hoogmartens, j.,
+van schepdael, a., electrophoresis 2003, 24, 3868 – 3878.
+[18] zhang, j., hoogmartens, j., van schepdael, a., electrophoresis
+2006, 27, 35 – 43.
+[19] van dyck, s., vissers, s., van schepdael, a., hoogmartens, j., j.
+chromatogr. a 2003, 986, 303 – 331.
+[20] tang, z., wang, t., kang, j., electrophoresis 2007, 28, 360 – 365.
+[21] tang, z., wang, t., kang, j., electrophoresis 2007, 28, 2981 – 2987.
+[22] rampa, a., bisi, a., belluti, f., gobbi, s., valenti, p., andrisano,
+v., cavrini, v., cavalli, a., recanatini, m., bioorg. med. chem. 2000,
+8, 497 – 506.
+[23] khalid, a., zaheer-ul-haq, anjum, s., khan, m. r., atta-ur-rahman, choudhary, m. i., bioorg. med. chem. 2004, 12, 1995 – 2003.
+[24] yerushalmi, n., cohen, e., pestic. biochem. physiol. 2002, 72, 133 –
+141.
+
+www.jss-journal.com
+

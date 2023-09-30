@@ -1,0 +1,968 @@
+the journal of biological chemistry vol. 281, no. 27, pp. 18335–18342, july 7, 2006
+printed in the u.s.a.
+
+regulation of folate-mediated one-carbon metabolism
+by  xxxg131xxx *
+received for publication, september 28, 2005, and in revised form, april 17, 2006 published, jbc papers in press, april 20, 2006, doi 10.1074/jbc.m510623200
+
+montserrat c. anguera‡, martha s. field‡, cheryll perry§, haifa ghandour¶, en-pei chiang储, jacob selhub¶,
+barry shane储, and patrick j. stover‡§1
+from the §division of nutritional sciences and ‡graduate field of biochemistry, molecular and cellular biology, cornell university,
+ithaca, new york 14853, the ¶vitamin metabolism laboratory, jean mayer united states department of agriculture,
+human nutrition research on aging at tufts university, boston, massachusetts 02111, and the 储department of nutritional
+sciences and toxicology, university of california, berkeley, california 94720
+
+tetrahydrofolate (thf)2 polyglutamates are cofactors that function
+as one-carbon donors and acceptors in a set of reactions known as
+
+* this work was supported by u.s. public health services grants hd35687 (to p. j. s.) and
+dk07158-28 (to m. c. a.). the costs of publication of this article were defrayed in part
+by the payment of page charges. this article must therefore be hereby marked
+“advertisement” in accordance with 18 u.s.c. section 1734 solely to indicate this fact.
+1
+to whom correspondence should be addressed: cornell university, 315 savage hall,
+ithaca, ny 14853. tel.: 607-255-8001; fax: 607-255-9751; e-mail: pjs13@cornell.edu.
+2
+the abbreviations used are: thf, tetrahydrofolate; fdh, 10-formyltetrahydrofolate
+dehydrogenase;  xxxg1473xxx , c1- xxxg814xxx ; mthfs, methenyltetrahydrofolate synthetase; sam, s- xxxd3156xxx ; sah, s- xxxd3157xxx ;
+pabg, para-aminobenzoylglutamate; fr,  xxxg807xxx ;  xxxg861xxx , glyceraldehyde-3phosphate dehydrogenase; tet, tetracycline; sh-sy5yfdh, a neuroblastoma cell line
+that stably integrated the human fdh cdna under the control of a tet-inducible promoter; sh-sy5yfdh⫹tet, a neuroblastoma cell line that stably integrated the
+human fdh cdna under the control of a tet-inducible promoter that is cultured in the
+presence of 1 ␮g/ml tet; ␣mem, ␣ minimal essential medium; hplc, high-performance
+liquid chromatography; mtt, 3-(4,5)-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium
+bromide.
+
+july 7, 2006 • volume 281 • number 27
+
+folate-mediated one-carbon metabolism, which occurs both in the cytoplasm and in mitochondria (see fig. 1) (1). thf cofactors carry onecarbon units at three oxidation states ranging from formate to methanol
+(2). the biologically active thf derivatives contain a reduced pteridine
+and a polyglutamate peptide consisting of five to eight glutamate residues linked by ␥-peptide bonds (3). cytoplasmic folate-mediated onecarbon metabolism is required for the de novo synthesis of purines (supplies the carbon-2 and carbon-8 of the purine ring) and thymidylate
+(methylation of dump to  xxxd3365xxx ), and also for remethylation of homocysteine to methionine (2, 3). methionine can be converted to s- xxxd3156xxx  (sam) and serve as a methyl donor for numerous methylation reactions, including the methylation of dna, rna, and
+proteins. serine is a primary source of folate-activated one-carbon units
+(4).  xxxg2068xxx  ( xxxg2068xxx ) catalyzes
+the thf-dependent aldol cleavage of serine to methylene-thf and
+glycine. alternatively, serine can be converted to glycine and formate in
+the mitochondria through mitochondrial folate-mediated one-carbon
+metabolism (5) (fig. 1). the formate produced in the mitochondria is a
+major source of one-carbon units for cytoplasmic one-carbon metabolism through its conversion to 10-formyl-thf by the enzyme c1-thf
+synthase ( xxxg1473xxx ) (6).
+folate deficiency impairs  xxxd3365xxx , methionine, and sam synthesis,
+resulting in increased rates of uracil misincorporation into dna and
+dna hypomethylation (5). therefore, maintenance of cellular folate
+concentrations is critical for both dna synthesis and genome stability
+and expression. intracellular folate concentrations are influenced by
+folate availability, uptake, polyglutamylation, turnover, and export (5).
+folate monoglutamates are transported into the cell either by folate
+receptors (frs) or carrier-mediated proteins (7, 8) and then converted
+to folate polyglutamates by the enzyme folylpolyglutamate synthetase.
+the addition of the polyglutamate chain is required for cellular retention of folate cofactors (9 –12). reduced folate polyglutamates are
+sequestered by folate-binding proteins inside the cell that exhibit kd
+values in the low micromolar to nanomolar range (13). studies have
+indicated that the concentration of cellular folate-binding proteins
+exceeds the concentration of total intracellular folate. in liver, for example, the concentration of folate-binding proteins exceeds the concentration of folate by 5- to 10-fold (5, 13); it has been suggested that the
+concentration of cellular folate-binding proteins may set the upper limit
+for intracellular folate accumulation (5).
+ xxxg131xxx  (fdh;  xxxg131xxx ) is one
+of the most abundant folate-binding proteins present in liver (14). fdh
+catalyzes the nadp⫹-dependent conversion of 10-formyl-thf to thf
+and co2 (1, 15). mice lacking fdh activity are viable and fertile, indicating that one or more fdh functions are not essential in the laboratory environment (16); fdh may function to regulate the folate-medi-
+
+journal of biological chemistry
+
+18335
+
+downloaded from http://www.jbc.org/ by guest on october 15, 2019
+
+ xxxg131xxx  (fdh) catalyzes the
+nadpⴙ-dependent conversion of 10-formyltetrahydrofolate to co2
+and tetrahydrofolate (thf) and is an abundant high affinity folatebinding protein. although several activities have been ascribed to
+fdh, its metabolic role in folate-mediated one-carbon metabolism is
+not well understood. fdh has been proposed to: 1) inhibit purine biosynthesis by depleting 10-formyl-thf pools, 2) maintain cellular folate
+concentrations by sequestering thf, 3) deplete the supply of folateactivated one-carbon units, and 4) stimulate the generation of thfactivated one-carbon unit synthesis by channeling folate cofactors to
+other folate-dependent enzymes. the metabolic functions of fdh
+were investigated in neuroblastoma, which do not contain detectable
+levels of fdh. both low and high fdh expression reduced total cellular
+folate concentrations by 60%, elevated rates of folate catabolism, and
+depleted cellular 5-methyl-thf and s- xxxd3156xxx  levels.
+low fdh expression increased the formyl-thf/thf ratio nearly
+10-fold, whereas thf accounted for nearly 50% of total folate in neuroblastoma with high fdh expression. fdh expression did not affect
+the enrichment of exogenous formate into methionine, serine, or
+purines and did not suppress de novo purine nucleotide biosynthesis.
+we conclude that low fdh expression facilitates the incorporation of
+one-carbon units into the one-carbon pool, whereas high levels of fdh
+expression deplete the folate-activated one-carbon pool by catalyzing
+the conversion of 10-formyl-thf to thf. furthermore, fdh does not
+increase cellular folate concentrations by sequestering thf in neuroblastoma nor does it inhibit or regulate de novo purine biosynthesis.
+fdh expression does deplete cellular 5-methyl-thf and s- xxxd3156xxx  levels indicating that fdh impairs the folate-dependent
+homocysteine remethylation cycle.
+
+ xxxg131xxx 
+
+figure 1. folate-mediated one-carbon metabolism. tetrahydrofolate (thf)-mediated onecarbon metabolism is required for the synthesis of purines, thymidylate, and methionine. the
+hydroxymethyl group of serine is the major source
+of one-carbon units, which can be generated in
+the mitochondria in the form of formate, or in the
+cytoplasm through the activity of cytoplasmic
+serine hydroxymethyltransferase. mitochondrialderived formate can enter the cytoplasm and
+function as a one-carbon unit for folate metabolism. ms,  xxxg1479xxx ;  xxxg1475xxx ,  xxxg1475xxx ;  xxxg2068xxx ,  xxxg2068xxx ; mshmt, mitochondrial serine hydroxymethyltransferase; fdh,
+ xxxg131xxx ;  xxxg1473xxx ,
+a trifunctional enzyme encoding 10-formyl-thf
+synthetase, methylene-thf dehydrogenase, and
+methenyl-thf cyclohydrolyase activities; sam, s- xxxd3156xxx ; sah, s- xxxd3157xxx .
+
+18336 journal of biological chemistry
+
+experimental procedures
+materials—[6s]-[3h]5-formyl-thf (40 ci/mmol) was obtained
+from moravek biochemicals, inc., and [methyl-3h]thymidine was from
+perkinelmer life sciences. [6r,s]-5-formyl-thf was from sapec, the
+chemical division of cerbios-pharma sa, barbengo, switzerland. fetal
+bovine serum, ␣-minimal essential medium (␣mem), and ␣-modification lacking sodium bicarbonate, folate, ribosides, ribotides, deoxyribosides, and deoxyribotides (defined as ␣mem) were obtained from
+hyclone laboratories. folate-depleted fetal bovine serum was prepared
+by dialyzing serum against ten volumes of phosphate-buffered saline at
+4 °c for 24 h with buffer changes every 4 h, then charcoal-treated to
+remove any remaining folate.
+cell lines and culture medium—the sh-sy5y human neuroblastoma cell line has been described previously (24). cells were cultured in
+␣mem with 10% dialyzed fetal bovine serum for all experiments. fdh
+expression was induced in cell lines by the addition of 1 ␮g/ml tetracycline for a minimum of 4 days prior to experimentation.
+generation of human fdh-expressing cell lines—cdna from a fetal
+liver library (clontech) was used as the template to amplify the human
+fdh open reading frame in two fragments. the first fragment (fragment a) of the human fdh cdna (nucleotides 91–1389 from the
+sequence mn 012190; ncbi) was amplified using the forward primer
+5⬘-ccctcctgctaccatgaagatt-3⬘ and the reverse primer
+5⬘-cccccccaatgaagagctggt-3⬘. the cycling conditions were
+94 °c for 45 s, 51 °c for 45 s, and 72 °c for 90 s for a total of 33 cycles. the
+second fragment (fragment b) of the human fdh cdna (nucleotides
+1369 –2854) was amplified using the forward primer 5⬘-tgccccaccagctcttgattg-3⬘ and the reverse primer 5⬘-aggggcagggactttcttctcaga-3⬘. the cycling conditions were 94 °c for 45 s,
+54 °c for 45 s, and 72 °c for 90 s for a total of 33 cycles. fragments a and
+b were cloned into the pcr vector using the blunt end topo kit
+(invitrogen). the nucleotide sequences of fragments a and b were
+determined from three different clones and all were identical. this
+sequence was also identical to the sequence of the human fdh available
+on the ncbi data base (genbanktm accession no. nm 012190). fragment a was excised from the pcr plasmid with kpni and xhoi and
+subcloned into the pko vector (generating pko-a). fragment b was
+excised from the pcr-b vector with kpni and xhoi, the fragment gel
+purified and digested with sapi (which is present in the 1374 –1389 nt
+overlap region of both fragments a and b). the vector pko-a was
+
+volume 281 • number 27 • july 7, 2006
+
+downloaded from http://www.jbc.org/ by guest on october 15, 2019
+
+ated one-carbon metabolic network in specific cell-types. fdh
+expression is restricted normally to the liver and brain, and its range of
+tissue-specific expression parallels that of  xxxg2068xxx  (17, 18), whereas
+folate-dependent enzymes that catalyze biosynthetic reactions are
+believed to be expressed more ubiquitously.
+at least four physiological, and perhaps contradictory, functions
+have been ascribed to fdh. first, krebs et al. (19) suggested that
+fdh serves to remove excess one-carbon units from folate metabolism by depleting pools of folate-activated one-carbon units. in support of this hypothesis, mice with a heritable fdh deficiency exhibit
+4-fold lower relative hepatic thf concentrations and 2.6-fold higher
+relative 10-formyl-thf concentrations compared with the livers of
+control mice (16). second, fdh has been suggested to sequester and
+store cellular folate in the form of thf (2, 20). fdh purified from
+rabbit liver contains tightly bound thf polyglutamates (kd ⫽ 15 nm)
+and its catalytic reaction exhibits product inhibition by thf (21). in
+mammalian liver, fdh represents between 0.5 and 1.0% of total
+soluble protein (15). in rabbit liver, the concentration of fdh has
+been estimated to be 42 ␮m; intracellular folate concentrations are
+estimated to be 25–35 ␮m in liver (22). because intracellular fdh
+concentrations exceed thf concentrations, all cytoplasmic thf is
+expected to be bound by fdh in vivo (21). mice lacking fdh exhibit
+a 35% reduction in total folate concentrations despite being maintained on folate sufficient diets, indicating that fdh may help to
+maintain cellular folate concentrations by sequestering cellular thf
+(16). third, fdh has been proposed to inhibit purine biosynthesis by
+depleting cellular 10-formyl-thf pools (23). finally, fdh has been
+suggested to facilitate the generation of folate-activated one-carbons
+by channeling thf to the enzymes  xxxg2068xxx  and  xxxg1473xxx  (21).
+these two enzymes are the primary entry points for one-carbon
+units into one-carbon metabolism (fig. 1). fdh displays product
+inhibition by thf and contains a second thf-tight-binding site that
+is distinct from the active site (20). both  xxxg2068xxx  and  xxxg1473xxx 
+suppress thf-mediated product inhibition of fdh and thereby
+accelerate the catalytic rate of fdh by 2-fold (21). to validate the
+purported and inferred physiological functions of fdh, the effects of
+fdh expression on the folate-mediated one-carbon metabolic network and cellular folate concentrations were examined in sh-sy5y
+neuroblastoma, a cell line that does not express detectable levels of
+the enzyme.
+
+ xxxg131xxx 
+
+july 7, 2006 • volume 281 • number 27
+
+ture plates at 1 ⫻ 104 cells/well in either defined mem (lacking ribonucleotides, deoxyribonucleotides, serine, and glycine) or defined mem
+with 10 mg/l adenosine and 10 mg/l guanosine. total volume plated
+was 100 ␮l of media, and an additional 50 ␮l of media was added every
+24 h; fdh expression was maintained with 1 ␮g/ml tetracycline. at
+given time points (0, 24, 48, and 72 h), 15 ␮l of 5 mg/ml mtt reagent
+was added to each well. cells were incubated 4 h at 37 °c in 5% co2. the
+insoluble formazan product was pelleted for 10 min at 4000 rpm then
+resuspended in 100 ␮l of me2so, and a550 was measured on a  xxxg22xxx 
+microplate reader (dynex technologies). reported values represent
+the average and standard deviation of two separate experiments, each
+with ten replicates. these values were normalized to the lowest a550
+value, which was assigned a value of one.
+determination of total folate content, sam, sah, and polyglutamate chain lengths—cells were cultured to 70% confluence in ␣mem
+that contained 2 ␮m  xxxd2146xxx . total cellular folate, the distribution of
+folate derivatives, and folate polyglutamate chain lengths were determined by affinity/reversed-phase hplc as described elsewhere (26).
+for sam and sah determinations, cells were cultured to 80% confluence in ␣mem. 4 h prior to harvest, cells were cultured in ␣mem
+lacking methionine to ensure sam levels reflected cellular homocysteine remethylation capacity and not exogenous methionine availability. sam and sah were extracted from the cells and quantified by
+hplc with fluorescence detection relative to standard curves as
+described elsewhere (27).
+stable isotope tracer studies—to quantify the enrichment of [2,3,32
+h3]serine into purines, thymidine, and methionine, cells were plated at
+50% confluence in 100-mm plates and cultured in treatment medium,
+which consisted of defined ␣mem lacking deoxyribonucleosides,
+hypoxanthine, and thymidine but supplemented with 0.05 ␮m
+5-formyl-thf, 10 ␮m methionine, 0.2 mm glycine, 1 mg/liter pyridoxine, 250 ␮m formate, 26 mg/liter l-[5,5,5- xxxd2360xxx ]leucine, and 250 ␮m
+2
+13
+l-[2,3,3- h3]serine). to quantify the enrichment of [ c]formate into
+purines, thymidine, and methionine, cells were plated at 50% confluence
+in 100-mm plates and cultured in treatment medium, which consisted
+of defined ␣mem lacking deoxyribonucleosides, hypoxanthine, and
+thymidine but was supplemented with 250 ␮m [13c]formate, 0.05 ␮m
+5-formyl-thf, 10 ␮m methionine, 0.2 mm glycine, 1 mg/liter pyridoxine, 26 mg/liter l-[5,5,5- xxxd2360xxx ]leucine. cells were cultured using treatment medium for a total of 8 days, and the medium was replaced every
+2 days. cells were harvested by washing with ice-cold phosphate-buffered saline, then trypsinized and pelleted by centrifugation. cellular
+protein and nuclear dna were isolated as described previously (27).
+protein pellets were suspended in 6 n hcl (100 ␮l) in vacuum hydrolysis tubes and heated at 100 °c for 20 h. the amino acids were purified
+by cation exchange chromatography, converted to heptafluorobutyryl
+n-propyl ester derivatives, and then separated on an hp- xxxd1405xxx  column
+(30 m ⫻ 0.25 mm). isotopic enrichment was determined in electron
+capture negative ionization mode by gas chromatography-mass spectrometry using a model 6890 gas chromatograph and model 5973 mass
+spectrometer (hewlett-packard corp., palo alto, ca). selected ion
+monitoring was conducted at a mass-to-charge ratio m/z 519 –523 for
+serine, m/z 305–308 for dehydroalanine, m/z 349 –353 for leucine, m/z
+367–370 for methionine, and m/z 293–295 for glycine.
+dna samples were dried under nitrogen and suspended in formic
+acid (1 ml) and hydrolyzed at 150 °c for 45 min in vacuum hydrolysis
+tubes. after drying at 55 °c under nitrogen, the bases were dissolved in
+0.2 ml of a 1:1 mixture of n,o-bis[trimethylsilyl]trifluoroacetamide/1%
+trimethylchlorosilane (pierce) and acetonitrile and heated at 140 °c for
+30 min. the trimethylsilane-base derivatives were separated on an
+
+journal of biological chemistry
+
+18337
+
+downloaded from http://www.jbc.org/ by guest on october 15, 2019
+
+digested with kpni and sapi, then ligated with fragment b (containing
+sapi and kpni sites), generating the entire human fdh cdna in the
+pko vector. the fdh cdna was excised from the pko vector with
+noti and ecorv and subcloned into the pcdna4/to/myc-his c vector (invitrogen) generating pcdna4-fdh.
+stable sh-sy5y cell lines expressing the human fdh cdna from the
+pcdna6/tr vector (invitrogen) were generated. sh-sy5y cells were
+electroporated with 20 ␮g of plasmid dna (pcdna4-fdh) at 0.22 kv
+and 950 microfarads (bio-rad gene-pulser), then cultured with ␣mem
+for 48 h. the medium was replaced with ␣mem containing blasticidin
+(10 ␮g/ml) and zeocin (100 ␮g/ml, invitrogen) to select for stable integrants. individual colonies resistant to zeocin treatment were selected
+and expanded using ␣mem containing blasticidin and zeocin, and
+clonal lines expressing human fdh protein were screened by western
+blot analyses.
+determination of pabg levels in culture medium—cells were
+seeded (5.6 ⫻ 106) into 100-mm primaria culture dishes (falcon) containing 5 ml of ␣mem. following 5-h incubation, the medium was
+replaced with defined ␣mem containing 25 nm [6s]-[5-3h]formylthf. aliquots of medium were taken at various time points, clarified by
+centrifugation, and stored at ⫺80 °c. folate degradation products were
+analyzed in these samples by reversed-phase hplc as described elsewhere (25). samples were spiked with unlabeled pabg, [6r,s]-5formyl-thf, and [6s]-5-methyl-thf to determine the identity of the
+radiolabeled fractions. with this method, pabg elutes at 6 min,
+5-formyl-thf elutes at 20 min, and 5-methyl-thf elutes at 37 min. for
+each analysis, 1.0-ml fractions were collected into scintillation tubes,
+and the tritium was quantified using a beckman ls 6500 liquid scintillation counter.
+western blot analyses of fdh,  xxxg861xxx , and fr—cells were cultured
+to 75% confluence in ␣mem. cell pellets were lysed using a buffer
+containing 10 mm tris, ph 7.5, 150 mm  xxxd3213xxx , 5 mm edta,
+1% triton x-100, 20 mm 2- xxxd26xxx , 1 mm phenylmethylsulfonyl fluoride. the lysates were centrifuged, and protein concentration of
+the supernatant was determined. protein extracts (60 ␮g/lane) were run
+on an 8% sds-page gel (for fdh analysis) or a 12% sds-page gel (for
+fr and  xxxg861xxx  analysis), then transferred to a polyvinylidene fluoride
+microporous membrane (millipore) using a minitransblot apparatus
+(bio-rad). for detection of fdh, the membrane was incubated overnight at 4 °c with primary antiserum (1:10,000 dilution) consisting of
+purified polyclonal antibodies generated in sheep against a highly conserved peptide sequence of human fdh (amino acid residues 390 –
+410). for detection of  xxxg861xxx  and fr, the membrane was incubated
+overnight at 4 °c with polyclonal antibodies (1:1000 dilution) that recognize the human fr or  xxxg861xxx  (santa cruz biotechnology). the
+membrane was washed using 0.1% tween 20 in phosphate-buffered
+saline, then incubated for 2 h with horseradish peroxidase-conjugated
+rabbit anti-sheep secondary antibody for the detection of fdh (1:6500
+dilution, pierce), and rabbit anti-goat secondary antibody for the detection of fr and  xxxg861xxx  (1:7000 dilution, pierce). proteins were visualized using the super signal west pico chemiluminescence detection
+system (pierce). the protein bands were quantified using chemiimager
+4400 from alpha innotech corp. (san leandro, ca).
+cell growth assays—the effect of human fdh cdna expression on
+sh-sy5y cell proliferation was determined using a colorimetric mtt
+(3-(4,5)-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide) assay.
+in this assay, the yellow mtt reagent is reduced to an insoluble blue
+formazan product (␭max ⫽ 570 nm) by mitochondrial dehydrogenases
+in viable cells. cells maintained in ␣mem were trypsinized and counted
+in a hemocytometer. cells were plated in 96-well v-bottom tissue cul-
+
+ xxxg131xxx 
+table 1
+effect of fdh expression on total cellular folate levels
+and polyglutamate chain lengths in sh-sy5y cells
+the total folate levels were determined from quadruplicate samples of cells cultured
+to 70% confluence in ␣mem containing 2 ␮m  xxxd2146xxx . the mean ⫾ s.d. values are
+shown. wild-type cells were assigned an arbitrary value of 100%, which is shown in
+parentheses.
+cell line
+figure 2. western blot analysis of stable cell lines expressing the human fdh cdna.
+cell lysates from sh-sy5y, sh-sy5yfdh, and sh-sy5yfdh⫹tet were analyzed by western blot to determine the expression levels of fdh (a) and fr and  xxxg861xxx  (b) protein in
+crude cell extracts (60 ␮g of protein/lane). human fr is increased greater than 2-fold in
+cell lines expressing the fdh cdna, whereas  xxxg861xxx  protein levels were unchanged.
+
+sh-sy5y
+sh-sy5yfdh
+sh-sy5yfdh⫹tet
+a
+b
+
+results and discussion
+cloning of the human fdh cdna and generation of a tetracyclineinducible stable cell line—a stable sh-sy5y cell line that expresses
+the human fdh cdna from a tetracycline-inducible promoter
+(pcdna4/to/myc-hisb vector, invitrogen) was isolated (referred to as
+sh-sy5yfdh). fdh protein was not detected in nontransfected
+sh-sy5y cells; sh-sy5yfdh cells cultured in the absence of tet exhibited very low but detectable levels of fdh protein (1.5-fold over densitometry background) (fig. 2a). sh-sy5yfdh cells cultured with tet
+(sh-sy5yfdh⫹tet) exhibited 13.3-fold greater fdh protein levels
+than present in sh-sy5yfdh cells culture without tet. these cell
+lines were used to validate the previously ascribed metabolic roles of
+fdh in folate-mediated one-carbon metabolism. specifically, the
+effects of both low and high level fdh expression on: 1) intracellular
+folate concentrations, 2) the 10-formyl-thf/thf ratio, 3) sam levels, and 4) flux within the folate-mediated one-carbon metabolic
+network were examined.
+effect of fdh expression on cellular folate concentrations—shsy5yfdh cells cultured in the absence and presence of tet displayed a
+57 and 64% reduction, respectively, in total cellular folate concentra-
+
+18338 journal of biological chemistry
+
+pmol folate/mg protein
+
+%
+
+41.7 ⫾ 4.3
+17.8 ⫾ 1.8
+14.6 ⫾ 0.3
+
+(100)b
+(43)b
+(36)b
+
+5.2 ⫾ 0.1
+5.6 ⫾ 0.1
+5.4 ⫾ 0.2
+
+values indicate number of glutamates.
+mean total folate values are different across all three cell lines: p ⬍ 0.0001 (one-way
+analysis of variance).
+
+figure 3. effect of increased human fdh expression on the generation of pabg in
+culture medium. sh-sy5y cells expressing the human fdh cdna were cultured with
+defined ␣mem containing 25.0 nm [6s]-[3h]5-formyl-thf. aliquots of the culture medium
+were removed at defined time points (0 and 5.5 h) immediately following the addition of
+[6s]-[3h]5-formyl-thf. prior to analysis, samples were spiked with unlabeled pabg,
+5-formyl-thf, and 5-methyl-thf. fractions (1 ml) were collected by hplc, and the tritium
+for each fraction was quantified by liquid scintillation. sample a corresponds to sh-sy5y
+cells, sample b corresponds to sh-sy5y cells, and sample c corresponds to sh-sy5y⫹tet
+cells. all values represent duplicate measures, and error bars are ⫾ s.e.
+
+tions compared with the parent cell line, sh-sy5y (table 1). these
+results do not support a role for fdh in maintaining cellular folate
+stores by sequestering or trapping cellular thf. reductions in cellular
+folate can result from decreased rates of cellular transport and/or
+increased rates of turnover (5). therefore, the effects of fdh expression
+on both fr expression and folate catabolism were investigated. fr facilitates transport of  xxxd2146xxx  into the cell (30), and its expression
+increases with cellular folate deficiency in cell culture models (31).
+sh-sy5yfdh cells cultured in the presence or absence of tet displayed
+increased fr protein levels relative to nontransfected cells as determined by western blot analyses (fig. 2b), consistent with fdh expression creating a functional folate deficiency in sh-sy5y cells. these data
+also indicate that the fdh-induced decrease in cellular folate concentrations is not the result of impaired fr-mediated folate transport.
+the effects of fdh expression on rates of folate catabolism, as evidenced by the generation of the folate degradation product para-aminobenzoylglutamate (pabg), were determined in culture medium following exposure to [3h]5-formyl-thf as described previously (25).
+sh-sy5yfdh cells cultured in the absence and presence of tet generated 20% and 2.5-fold more [3h]pabg, respectively, compared with
+sh-sy5y cells (fig. 3). these results indicate that fdh expression
+accelerates folate catabolism in these cells, which may contribute to the
+decreased folate concentrations. however, the modest increase in
+pabg generation between the sh-sy5y cells and sh-sy5yfdh cells
+cultured without tet was not statistically significant, suggesting that
+increased rates of folate catabolism alone may not account for the
+observed differences in folate concentrations assuming that pabg is the
+primary product of folate catabolism (fig. 3). furthermore, fdh
+expression had no effect on the average length of intracellular folate
+polyglutamate chains (table 1). increased rates of folate catabolism
+
+volume 281 • number 27 • july 7, 2006
+
+downloaded from http://www.jbc.org/ by guest on october 15, 2019
+
+hp- xxxd1405xxx  column. isotopic enrichment was determined in positive ionization mode by gas chromatography-mass spectrometry using a model
+6890 gas chromatograph and model 5973 mass spectrometer (hewlettpackard corp.). selected ion monitoring was conducted at a mass-tocharge ratio m/z 255–257 for thymine, m/z 280 –283 for adenine, and
+m/z 368 –371 for guanine.
+formate suppression assay—this assay was developed to quantify
+the efficiency of de novo purine nucleotide biosynthesis (as monitored
+by the incorporation of [14c]formate into purine deoxynucleotides) relative to purine nucleotide biosynthesis through the salvage pathway (as
+monitored by the incorporation of [3h]hypoxanthine into purine nucleotides). cells were maintained in minimal essential medium, ␣ modification (hyclone), supplemented with 11% dialyzed fetal bovine serum.
+the tracer medium consisted of defined minimal essential medium
+(hyclone) that lacked glycine, serine, methionine, hypoxanthine, and
+folate but was supplemented with 200 ␮m methionine, 20 nm 5-formylthf, 2 nm [3h]hypoxanthine, and 20 ␮m [14c]formate. cells were split
+1:6 and grown in 6-well plates at 37 °c, 5% co2 in tracer medium until
+confluent and harvested. the cell pellets were stored at ⫺40 °c. nuclear
+dna was isolated using a dna blood kit from qiagen, and isotope
+levels were quantified on a beckman ls6500 scintillation counter in
+dual dpm mode. for hplc separation of nucleosides, cells were split
+1:3 into tracer medium in 100-cm2 culture plates, grown to confluence,
+and harvested. dna was digested to nucleosides prior to separation by
+hplc, using procedures described elsewhere (28). peaks corresponding
+to nucleosides were identified from standards, collected, and isotope
+levels quantified.
+
+mean
+polyglutamate lengtha
+
+total folate
+
+ xxxg131xxx 
+table 2
+effect of fdh expression on the distribution of folate derivatives in sh-sy5y cells
+the distribution of folate derivatives (values are expressed as a percentage of total folate) were determined from quadruplicate samples of cells cultured to 70% confluence
+in ␣mem (containing 2 ␮m  xxxd2146xxx ) by hplc (26). dihydrofolate was not present in detectable levels in these cells. the percentage values are shown as the mean of
+quadruplicate samples, with variance expressed as the ⫾ s.d. mean folate derivative percentage is different across all three cell lines.
+
+a
+
+5-methyl-thf
+
+formylated thf (5,10-methenyl-thf, 5-formyl-thf,
+10-formyl-thf, and 5-formimino-thf)
+
+cell line
+
+thf
+%
+
+%
+
+%
+
+sh-sy5y
+sh-sy5yfdh
+sh-sy5yfdh⫹tet
+
+34.8 ⫾ 4.3
+9.7 ⫾ 1.1
+46.2 ⫾ 8.5
+p ⬍ 0.0001a
+
+36.9 ⫾ 0.7
+7.8 ⫾ 3.7
+5.4 ⫾ 2.1
+p ⬍ 0.0001a
+
+28.3 ⫾ 4.6
+82.4 ⫾ 3.2
+48.5 ⫾ 10.2
+p ⬍ 0.0001a
+
+formyl-thf/thf ratio
+
+0.8
+8.5
+1.0
+
+p values, one-way analysis of variance.
+
+july 7, 2006 • volume 281 • number 27
+
+table 3
+effect of fdh expression on sam and sah levels in sh-sy5y cells
+cells were grown to 80% confluence in ␣mem. cells were cultured in ␣mem
+lacking methionine for 4 h prior to harvest to ensure sam levels reflected
+cellular homocysteine remethylation capacity and not exogenous methionine
+availability. sam and sah were extracted from the cells and quantified by
+hplc with fluorescence detection relative to standard curves as described elsewhere (27). all values represent the average of three independent experiments;
+variation is expressed ⫾ s.d.
+cell line
+
+sam/sah
+
+sam
+
+sah
+
+pmol/␮g protein
+
+sh-sy5y
+sh-sy5yfdh
+sh-sy5yfdh⫹tet
+
+0.07 ⫾ 0.05
+0.03 ⫾ 0.02
+0.04 ⫾ 0.001
+
+1.2 ⫾ 0.1
+0.6 ⫾ 0.05
+0.7 ⫾ 0.2
+
+16.9 ⫾ 0.6
+18.0 ⫾ 0.9
+17.5 ⫾ 2.4
+
+accumulation. the human a222v polymorphic variant of the  xxxg1475xxx  gene encodes a thermolabile enzyme
+with reduced ability to convert 5,10-methylene-thf to 5-methyl-thf
+(32). the polymorphic allele impairs the accumulation of 5-methylthf in red blood cells in favor of formylated folates (33). human carriers of the a222v polymorphism also exhibit decreased folate content
+in red blood cells (33). therefore, the ability to maintain cellular
+5-methyl-thf concentrations may be an important determinant of
+total cellular folate concentrations.
+the effect of fdh-induced depletion of the 5-methyl-thf pool on
+the homocysteine remethylation cycle was investigated by quantifying
+cellular sam and sah concentrations (table 3). because 5-methylthf is necessary for folate-dependent homocysteine remethylation,
+reduction in steady-state 5-methyl-thf concentrations may impair
+sam synthesis (fig. 1). fdh expression at both high and low levels
+reduced sam concentrations and the sam/sah ratio by 2-fold, indicating that the fdh-induced reduction in 5-methyl-thf and/or total
+cellular folate concentrations impaired the homocysteine remethylation cycle and reduced the methylation potential (sam/sah ratio) of
+the cell. this inhibitory effect of fdh on homocysteine remethylation is
+a novel finding that was not anticipated.
+effect of fdh expression on purine biosynthesis and cell growth—the
+one-carbon unit of 10-formyl-thf supplies the c2 and c8 carbon for
+de novo purine biosynthesis catalyzed by the enzymes 5⬘-phosphoribosylglycinamide transformylase and 5⬘-phosphoribosyl-5-aminoimidazole-4-n-succinocarboxamide transformylase (2). because fdh catalyzes the conversion of 10-formyl-thf to thf, it has been proposed
+that increased fdh expression may impair cell growth by depleting the
+supply of one-carbon units (in the form of 10-formyl-thf) for purine
+biosynthesis. the effect of increased fdh expression on cell proliferation rates was examined in sh-sy5y. cell lines expressing the human
+fdh cdna were cultured with defined ␣mem that lacked nucleosides,
+nucleotides, serine, and glycine (fig. 4a). sh-sy5y cells expressing
+fdh exhibited lower growth rates relative to nontransfected cells, indicating that increased levels of fdh marginally inhibited cell prolifera-
+
+journal of biological chemistry
+
+18339
+
+downloaded from http://www.jbc.org/ by guest on october 15, 2019
+
+have been demonstrated to increase the average folate polyglutamate
+chain length, because folate monoglutamates, which have a lower affinity for folate-binding proteins, are more susceptible to degradation (25).
+effect of fdh expression on the distribution of folate one-carbon
+derivatives and homocysteine remethylation—fdh has been proposed
+to regulate the supply of folate-activated one carbon units by modulating the 10-formyl-thf/thf ratio. cellular folates are distributed
+nearly equally in two compartments, the mitochondria and cytoplasm,
+and these compartments are not in equilibrium (10). 10-formyl-thf is
+the primary folate derivative found in the mitochondria of sh-sy5y
+cells (24) and should not be available to fdh expressed in the cytoplasm. surprisingly, the low level of fdh expression in sh-sy5yfdh
+cells increased the cellular formyl-thf/thf ratio by 10-fold compared
+with sh-sy5y cells (table 2). formyl folates accounted for over 82% of
+total cellular folates, and the relative levels of both thf and 5-methylthf were reduced by ⬃60% (table 2). in contrast, high fdh expression
+decreased the 10-formyl-thf/thf ratio. thf accounted for over 46%
+of total folate in sh-sy5yfdh⫹tet cells (table 2).
+prior to these studies, two potentially contradictory metabolic roles
+had been ascribed to fdh: 1) the removal of excess one-carbon units
+from the folate-activated one-carbon pool by depleting 10-formyl-thf
+pools (19), and 2) the generation of folate-activated one-carbons by
+channeling thf to  xxxg2068xxx  and  xxxg1473xxx , two enzymes that catalyze
+the synthesis of folate-activated one-carbon units (fig. 1). the results
+from this study provide evidence that both of these metabolic roles may
+be operative in cells depending on the expression level of fdh. low
+levels of fdh expression increased the 10-formyl-thf/thf ratio,
+consistent with a role for fdh in facilitating the generation of folateactivated one-carbon units. on the other hand, high levels of fdh
+expression reduced dramatically the supply of folate activated onecarbon units such that thf became the primary cellular folate derivative. these results are consistent with the known physical properties of fdh. fdh exhibits a higher affinity for thf polyglutamates
+(kd ⫽ 15 nm) than 10-formyl-thf polyglutamates (ks ⫽ 0.9 ␮m).
+fdh, when expressed at low levels, is expected to bind cellular thf.
+under these conditions, total fdh enzymatic activity is expected to
+be lower compared with its thf-channeling activity to  xxxg1473xxx 
+and  xxxg2068xxx . elevated levels of fdh expression provide additional
+binding sites for 10-formyl-thf, leading to the depletion of
+10-formyl-thf pools through the fdh-catalyzed conversion of
+10-formyl-thf to thf (the specific activity of fdh exceeds the rate
+of 10-formyl-thf synthesis). in summary, fdh can either generate
+or remove folate-activated one-carbon units depending on its level of
+expression.
+both high and low fdh expression reduced the concentrations of
+5-methyl-thf from 37% in nontransfected cells to ⬍8% in fdh-expressing cells (table 2). interestingly, other studies have demonstrated
+that decreases in 5-methyl-thf concentrations impair cellular folate
+
+ xxxg131xxx 
+table 4
+14 3
+c/ h dpm ratio for nucleosides in shsy-5y and shsy-5yfdh cells
+cells were split 1:3 into tracer medium and grown to confluence. cells were harvested and nuclear dna isolated from cell pellets and digested to nucleosides,
+which were then separated by hplc. the 14c content (represents folate-dependent
+de novo purine nucleotide synthesis) and 3h content (represents purine nucleotide
+biosynthesis from the salvage pathway), in resulting fractions were quantified on a
+beckman coulter ls6500 scintillation counter. variation is expressed as mean ⫾
+s.d. from three measurements for separated nucleosides and six experiments for
+nuclear dna.
+14
+
+cell line
+
+c/3h ratio
+
+dna
+
+daa
+
+dg
+
+dpm
+
+sh-sy5y
+sh-sy5yfdh
+sh-sy5yfdh⫹tet
+a
+
+tion in these cells (fig. 4a). the experiment was repeated using ␣mem
+(containing purine nucleosides, serine, and glycine). the presence of
+purine nucleosides in the culture medium did not rescue proliferation
+rates in these cell lines; sh-sy5y cells expressing fdh exhibited lower
+growth rates compared with nontransfected cells (fig. 4b). therefore,
+expression of fdh in this sh-sy5y cell line affected cell growth, but the
+observed fdh-induced growth inhibition did not result from the inhibition of de novo purine biosynthesis.
+the effect of fdh expression on folate-dependent de novo purine
+biosynthesis was determined directly using a formate-suppression
+assay, which assesses the ability of the purine salvage pathway to suppress the incorporation of formate into purines through the de novo
+pathway. in this experiment, cells are grown in the presence [14c]formate and [3h]hypoxanthine. [14c]formate is incorporated into
+purine nucleotides through de novo purine nucleotide biosynthesis,
+which is folate-dependent, whereas [3h]hypoxanthine is incorporated into purine nucleotides through the salvage pathway (29). fdh
+expression had no effect on the 14c/3h ratio in nuclear dna or
+purine deoxynucleosides, demonstrating that, although fdh can
+deplete 10-formyl-thf pools, this activity does not impair the incorporation of formate into purines (de novo purine biosynthesis) relative to
+salvage pathway biosynthesis in neuroblastoma (table 4). recently, we
+demonstrated that the enzyme methenyltetrahydrofolate synthetase
+(mthfs) is a high affinity 10-formyl-thf-binding protein and that
+mthfs-bound 10-formyl-thf enhances rates of purine biosynthesis
+relative to salvage pathway synthesis in sh-sy5y cells (29). mthfs
+may bind and channel 10-formyl-thf to the de novo purine biosynthesis pathway, thus protecting this pathway from fdh-mediated depletion of 10-formyl-thf pools.
+
+18340 journal of biological chemistry
+
+3.8 ⫾ 0.7
+4.0 ⫾ 0.4
+3.8 ⫾ 0.4
+
+1.1 ⫾ 0.1
+1.2 ⫾ 0.2
+1.2 ⫾ 0.07
+
+da, deoxyadenosine; dg, deoxyguanosine.
+
+effect of fdh expression on the flux of formate between the thymidylate and methionine biosynthetic pathways—to determine if shmt
+or other folate-dependent reactions were compensating for the
+fdh-induced depletions in 10-formyl-thf levels, the incorporation
+of exogenously supplied [13c]formate into methionine and serine
+(present in cellular protein), and purines (present in nuclear dna),
+was determined in sh-sy5y cells as a function of fdh expression
+(fig. 5 and table 5). the one-carbon precursor pools used for synthesis of purines, serine, and methionine can be derived either from
+exogenous labeled formate or from endogenously synthesized unlabeled serine metabolites (fig. 5). surprisingly, fdh expression had
+little effect on [13c]formate enrichments into methionine or serine
+(table 5a). furthermore, fdh expression had little impact on the
+enrichment of the 10-formyl-thf precursor pool used for purine
+synthesis (table 5b). these results indicate that fdh expression
+does not influence the enrichment of [13c]formate into the folateactivated one-carbon pool (fig. 5 and table 5b).
+to establish directly the contribution of  xxxg2068xxx -derived one-carbon
+units into the thymidine and methionine pools in the presence and
+absence of fdh expression, metabolic isotope tracer experiments were
+also performed using cells labeled with [l- xxxd2360xxx ]serine. methylene-thf
+that is supplied by  xxxg2068xxx  and incorporated directly into methionine or
+thymidine is expected to retain the two deuterium atoms (cd2) that are
+present on the hydroxymethyl group of serine (fig. 5). alternatively, if
+[l- xxxd2360xxx ]serine enters the mitochondria, the hydroxymethyl group will be
+released from the mitochondrion as formate, and formate will contain a
+single deuterium atom (cd1). previous isotope tracer studies have
+shown that up to 90% of one-carbon units used for cytoplasmic folate
+metabolism in mammalian cells are derived from formate generated by
+mitochondrial serine metabolism (27). during the derivatization of serine for gc analysis, most of the serine is converted to dehydroalanine,
+with loss of the proton at the c2 position (27). consequently, the m/z
+distribution of dehydroalanine isotopes gives the isotopic distributions
+at the c3 position of serine. table 6 shows that 73–77% of the isotopically labeled cellular serine pool that provided serine for protein synthesis retained both deuteriums on the c3 carbon (as assessed by dehydroalanine labeling). serine that contained one deuterium in the c3
+position (⬃30%) was the result of serine that was resynthesized from
+glycine using the cd1-thf pool (fig. 5). if the methionine and  xxxd3365xxx 
+one-carbon units were only derived from  xxxg2068xxx , the mass ⫹2 species
+of these metabolites should be ⬃70% of the labeled species. the data in
+table 6 indicate that the proportions are much lower, demonstrating
+that most of the one-carbon units used for cytoplasmic methionine and
+ xxxd3365xxx  synthesis were derived from formate that originated from mitochondrial serine metabolism. previously, we have shown that in mcf-7
+
+volume 281 • number 27 • july 7, 2006
+
+downloaded from http://www.jbc.org/ by guest on october 15, 2019
+
+figure 4. effect of fdh expression on cell proliferation. cell growth rates were determined for nontransfected cells (squares, sh-sy5y) and cells expressing human fdh
+cdna (triangles, sh-sy5yfdh; inverted triangles, sh-sy5y5yfdh⫹tet). cells were plated
+in 96-well v-bottom tissue culture plates at 1 ⫻ 104 cells/well in either defined mem
+lacking ribonucleotides, deoxyribonucleotides, serine, and glycine (a) or defined mem
+with 10 mg/liter adenosine and 10 mg/liter guanosine (b). reported values represent
+the average and standard deviation of two separate experiments, each with ten
+replicates. these values were normalized to the lowest a550 value, which was
+assigned a value of one.
+
+1.8 ⫾ 0.1
+2.0 ⫾ 0.2
+1.9 ⫾ 0.06
+
+ xxxg131xxx 
+
+table 5
+effect of fdh expression on formate metabolism in sh-sy5y cells
+cells were cultured in medium containing 0.05 ␮m 5-formyl-thf, 10 ␮m methionine, 26 g/liter 关2h3兴leucine, 250 ␮m 关13c兴formate but lacking ribo- and deoxyribonucleosides, hypoxanthine, thymidine, and serine. isotopic enrichment of
+关13c兴formate in serine and methionine derived from cellular protein and purines
+derived from dna was determined as described previously (27). two independent
+experiments were performed with duplicate measurements for each sample, and
+similar ratios were obtained for both experiments. the results from one experiment
+are shown.
+a) isotopic enrichments of serine and methionine in  xxxd3240xxx 
+cell line
+
+met
+
+ser
+
+sh-sy5y
+sh-sy5yfdh
+sh-sy5yfdh⫹tet
+
+0.31
+0.29
+0.30
+
+0.25
+0.19
+0.19
+
+b) isotopic enrichment of cytosolic 10-formyl-thf pool
+used for purine synthesisb
+
+a
+b
+
+cell line
+
+da
+
+dg
+
+sh-sy5y
+sh-sy5yfdh
+sh-sy5yfdh⫹tet
+
+0.36
+0.33
+0.37
+
+0.36
+0.34
+0.35
+
+enrichment relative to labeled leucine enrichment in protein.
+determined from the ratio of the m⫹1 and m⫹2 isomers of da and dg. a value of
+1.0 would indicate that 100% of the c-2 and c-8 carbons of the purine ring were
+derived from 关13c兴formate.
+
+cells  xxxg2068xxx  preferentially directs methylene-thf to  xxxd3365xxx  synthesis
+as evidenced by the higher percentage of cd2 in  xxxd3365xxx  compared with
+methionine (27). the data in table 6 indicate that  xxxg2068xxx  also preferentially generates one-carbon units for  xxxd3365xxx  synthesis in sh-sy5y
+cells as evidenced by the higher incorporation of cd2 into  xxxd3365xxx  versus
+
+july 7, 2006 • volume 281 • number 27
+
+table 6
+effect of fdh expression on 3-关2h兴serine metabolism
+in sh-sy5y cells
+cellular protein and dna were isolated from cells cultured for 8 days in defined
+medium containing l-关5,5,5-2h3兴leucine and l-关2,3,3-2h3兴serine. isotopic
+enrichment of l-关2,3,3-2h3兴serine into cellular protein pools was determined by
+the detection of labeled methionine (met) and dehydroalanine (dha) (27).
+dha values represent the amount of serine that was used for protein synthesis,
+serving as an internal control. enrichment of 关2,3,3-2h3兴serine in thymidine
+(dt) was determined by analysis of nuclear dna. all values are expressed as the
+percent of l-关2,3,3-2h3兴serine-derived carbons that contain two deuterium
+atoms in the target compound (or the ratio of carbons containing two deuterium
+atoms in the target compound divided by the total number of carbons that
+contain one or two deuterium atoms ⫻ 100). two independent experiments
+were performed with duplicate measurements for each sample, and similar values were obtained for both experiments. the results from one experiment are
+shown.
+cell line
+
+met
+
+dt
+
+met/dt
+
+dha
+
+%
+
+sh-sy5y
+sh-sy5yfdh
+sh-sy5yfdh⫹tet
+
+1.4
+1.5
+2.4
+
+2.6
+2.5
+4.1
+
+0.53
+0.60
+0.60
+
+73
+76
+77
+
+methionine. low levels of fdh expression (as observed in shsy5yfdh cells cultured without tet) did not affect the incorporation of
+cd2 into either methionine or  xxxd3365xxx , whereas cells with high levels of
+fdh expression (sh-sy5yfdh⫹tet cells) exhibited a 60% increase in
+cd2 in methionine and  xxxd3365xxx  compared with the nontransfected cell
+line. these results demonstrate that fdh expression increased the flux
+of  xxxg2068xxx  derived one-carbons into methionine and  xxxd3365xxx , although
+the overall enrichment of  xxxg2068xxx  derived one-carbons into methionine
+
+journal of biological chemistry
+
+18341
+
+downloaded from http://www.jbc.org/ by guest on october 15, 2019
+
+figure 5. isotope tracer experiments. the
+hydroxymethyl group of serine is the major source
+of one-carbon units, which can be generated in
+the mitochondria in the form of formate, or in the
+cytoplasm through the activity of  xxxg2068xxx . when l-[2,3,3⬘2
+h3]serine is added to defined ␣mem culture
+medium, it is incorporated into one-carbon
+metabolism through its conversion to 5,10-methylene-thf by the enzyme shmt. single carbons
+present in methionine or thymidylate generated
+from l-[2,3,3⬘- xxxd2360xxx ]serine in the cytoplasm contain
+two deuterium atoms, whereas one-carbons generated from l-[2,3,3⬘- xxxd2360xxx ]serine in mitochondria
+contain one deuterium atom. mitochondrial-derived formate can enter the cytoplasm and function as a one-carbon unit for folate metabolism.
+ts,  xxxg2366xxx . see fig. 1 for other
+abbreviations used.
+
+ xxxg131xxx 
+and  xxxd3365xxx  did not exceed 8%. furthermore, the data indicate that if
+fdh depresses rates of formate incorporation into methionine and
+ xxxd3365xxx , the  xxxg2068xxx  enzyme can only compensate by making very minor
+contributions to the one-carbon network by providing one-carbon units
+for methionine and  xxxd3365xxx  synthesis.
+
+conclusions
+
+references
+1. barlowe, c. k., and appling, d. r. (1988) biofactors 1, 171–176
+2. wagner, c. (1995) in folate in health and disease (bailey, l. b., ed) pp. 23– 42, marcel
+dekker, inc., new york
+3. shane, b. (1995) in folate in health and disease (bailey, l. b., ed) pp. 1–22, marcel
+dekker, inc., new york
+4. davis, s., stacpoole, p., williamson, j., kick, l., quinlivan, e., coats, b., shane, b.,
+bailey, l., and gregory iii, j. f. (2004) am. j. physiol. 286, e272–e279
+
+18342 journal of biological chemistry
+
+10.
+11.
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+19.
+20.
+21.
+22.
+23.
+24.
+25.
+26.
+27.
+28.
+29.
+30.
+31.
+32.
+33.
+
+suh, j. r., herbig, a. k., and stover, p. j. (2001) annu. rev. nutr. 21, 255–282
+appling, d. r. (1991) faseb j. 5, 2645–2651
+sirotnak, f. m., and tolner, b. (1999) annu. rev. nutr. 19, 91–122
+antony, a. c. (1996) annu. rev. nutr. 16, 501–521
+chen, l., qi, h., korenberg, j., garrow, t. a., choi, y. j., and shane, b. (1996) j. biol.
+chem. 271
+lin, b.-f., huang, r.-f. s., and shane, b. (1993) j. biol. chem. 268, 21674 –21679
+lin, b.-f., and shane, b. (1994) j. biol. chem. 269, 9705–9713
+titus, s. a., and moran, r. g. (2000) j. biol. chem. 275, 36811–36817
+strong, w. b., and schirch, v. (1989) biochemistry 28, 9430 –9439
+min, h., shane, b., and stokstad, e. l. r. (1988) biochim. biophys. acta 967, 348 –353
+cook, r. j., lloyd, r. s., and wagner, c. (1991) j. biol. chem. 266, 4965– 4973
+champion, k. m., cook, r. j., tollaksen, s. l., and giometti, c. s. (1994) proc. natl.
+acad. sci. u. s. a. 91, 11338 –11342
+girgis, s., nasrallah, i. m., suh, j. r., oppenheim, e., zanetti, k. a., mastri, m. g., and
+stover, p. j. (1998) gene 210, 315–324
+hong, m., lee, y., kim, j. w., lim, j.-s., chang, s. y., lee, k. s., paik, s.-g., and choe,
+i. s. (1999) biochem. mol. biol. int. 47, 407– 415
+krebs, h. a., hems, r., and tyler, b. (1976) biochem. j. 158, 341–353
+fu, t.-f., maras, b., barra, d., and schirch, v. (1999) arch. biochem. biophys. 367,
+161–166
+kim, d. w., huang, t., schirch, d., and schirch, v. (1996) biochemistry 35,
+15772–15783
+cichowicz, d. j., and shane, b. (1987) biochemistry 26, 504 –512
+krupenko, s. a., and oleinik, n. (2002) cell growth diff. 13, 227–236
+girgis, s., suh, j. r., jolivet, j., and stover, p. j. (1997) j. biol. chem. 272, 4729 – 4734
+anguera, m. c., suh, j. r., ghandour, h., nasrallah, i. m., selhub, j., and stover, p. j.
+(2003) j. biol. chem. 278, 29856 –29862
+bagley, p. j., and selhub, j. (2000) clin. chem. 46, 404 – 411
+herbig, k., chiang, e. p., lee, l. r., hills, j., shane, b., and stover, p. j. (2002) j. biol.
+chem. 277, 38381–38389
+friso, s., choi, s. w., dolnikowski, g. g., and selhub, j. (2002) anal. chem. 74,
+4526 – 4531
+field, m. s., szebenyi, d. m., and stover, p. j. (2006) j. biol. chem. 281, 4215– 4221
+sierra, e. e., and goldman, i. d. (1999) semin. oncol. 26, 11–23
+jhaveri, m., wagner, c., and trepel, j. (2001) mol. pharmacol. 60, 1288 –1295
+goyette, p., frosst, p., rosenblatt, d. s., and rozen, r. (1995) am. j. hum. genet. 56,
+1052–1059
+friso, s., choi, s., girelli, d., mason, j., dolnikowshi, g. g., bagley, p. j., olivieri, o.,
+jacques, p. f., rosenberg, i. h., corrocher, r., and selhub, j. (2002) proc. natl. acad.
+sci. u. s. a. 99, 5606 –5611
+
+volume 281 • number 27 • july 7, 2006
+
+downloaded from http://www.jbc.org/ by guest on october 15, 2019
+
+these studies examined several purported metabolic functions of
+fdh in a cell culture model. as predicted from its in vitro activity, fdh
+was demonstrated to affect the 10-formyl-thf pools in cells, but fdhinduced alterations in 10-formyl-thf levels did not impair de novo
+purine biosynthesis or confer a purine requirement to these cells as has
+been speculated. we also demonstrate that increased fdh expression
+did not result in increased cellular folate accumulation in neuroblastoma, and therefore its folate tight-binding properties do not enable this
+enzyme to serve as a reservoir for cellular folate. the results of this study
+have identified a new and unanticipated metabolic role for fdh; both
+5-methyl-thf and sam levels were sensitive to fdh expression level.
+the effect of fdh on cellular methylation reactions warrants additional
+study. neither the metabolic role of fdh within the folate-dependent
+one-carbon network, nor its effects on total cellular folate content is
+easily predicted from its catalytic, biochemical, or biophysical properties. furthermore, its physiological function and impact on one-carbon
+metabolism and cellular folate content may vary in different cell types
+and be dependent on the expression of other tissue-specific folate-dependent enzymes and binding proteins.
+
+5.
+6.
+7.
+8.
+9.
+
+regulation of folate-mediated one-carbon metabolism by
+ xxxg131xxx 
+montserrat c. anguera, martha s. field, cheryll perry, haifa ghandour, en-pei chiang,
+jacob selhub, barry shane and patrick j. stover
+j. biol. chem. 2006, 281:18335-18342.
+doi: 10.1074/jbc.m510623200 originally published online april 20, 2006
+
+access the most updated version of this article at doi: 10.1074/jbc.m510623200
+alerts:
+• when this article is cited
+• when a correction for this article is posted
+
+this article cites 30 references, 14 of which can be accessed free at
+http://www.jbc.org/content/281/27/18335.full.html#ref-list-1
+
+downloaded from http://www.jbc.org/ by guest on october 15, 2019
+
+click here to choose from all of jbc's e-mail alerts
+

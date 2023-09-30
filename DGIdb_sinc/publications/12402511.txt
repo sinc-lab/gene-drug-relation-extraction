@@ -1,0 +1,855 @@
+vascular pharmacology 38 (2002) 131 – 141
+www.elsevier.com/locate/vph
+
+analysis of  xxxd2669xxx  block of sodium current in isolated
+guinea-pig atrial myocytes
+atrioventricular difference of  xxxd2669xxx  block
+gias u. ahmmeda, ichiro hisatomea,*, yasutaka kuratab, naomasa makitac,
+yasunori tanakaa, hiroaki tanakaa, tomohisa okamuraa, kazuhiko sonoyamaa,
+yoshiyuki furusea, masaru katoa, yasutaka yamamotoa, kazuhiko oguraa,
+masaki shimoyamaa, junichiro miakea, norihito sasakia, kazuhide oginoa,
+osamu igawaa, akio yoshidaa, chiak shigemasaa
+a
+
+division of cardiology, department of medicine, tottori university faculty of medicine, nishimachi 36-1, yonago, 683, japan
+b
+department of physiology, kanazawa medical university, kanazawa, ishikawa, japan
+c
+department of cardiovascular medicine, hokkaido university graduated medicine, sapporo, japan
+received 1 july 2001; received in revised form 1 november 2001; accepted 1 february 2002
+
+abstract
+the effects of  xxxd2669xxx  on na+ channel currents (ina) were investigated in guinea-pig atrial myocytes and its effects on ina in ventricular
+myocytes and on cloned  xxxg2028xxx  current were compared using the whole-cell, patch-clamp technique.  xxxd2669xxx  induced the tonic block of ina
+with the apparent dissociation constant (kd,app) of 6.3 mm at 100 mv and 99.3 mm at 140 mv.  xxxd2669xxx  at 30 mm shifted the h1 curve to
+the hyperpolarizing direction by 8.6 ± 2.4 mv.  xxxd2669xxx  also produced the phasic block of ina, which was enhanced with the increase in the
+duration of train pulses, and was more prominent with a holding potential (hp) of 100 mv than with an hp of 140 mv. the onset block
+of ina induced by  xxxd2669xxx  during depolarization to 20 mv was continuously increased with increasing the pulse duration, and was
+enhanced at the less negative hp. the slower component of recovery of the  xxxd2669xxx -induced ina block was relatively slow, with a time
+constant of 4.2 ± 2.0 s at 100 mv and 3.0 ± 1.2 s at 140 mv. since  xxxd2669xxx  induced the tonic block of ventricular ina with kd,app of
+3.1 ± 0.8 mm at hp = 100 mv and 30.2 ± 6.8 mm at hp = 140 mv, and cloned  xxxg2028xxx  with kd,app of 3.0 ± 0.5 mm at hp = 100 mv and
+22.0 ± 3.2 mm at hp = 140 mv, respectively, either ventricular ina or cloned  xxxg2028xxx  had significantly higher sensitivity to  xxxd2669xxx  than atrial
+ina. the h1 curve of ventricular ina was shifted by 10.5 ± 3.5 mv by 3 mm  xxxd2669xxx  and that of  xxxg2028xxx  was shifted by 5.0 ± 2.3 mv by 30 mm
+ xxxd2669xxx . from the modulated receptor theory, we have estimated the dissociation constants for the resting and inactivated state to be 99.3
+and 1.2 mm in atrial myocytes, 30 and 0.17 mm in ventricular myocytes, and 22 and 0.2 mm in cloned  xxxg2028xxx , respectively. we conclude that
+ xxxd2669xxx  has a higher affinity for the inactivated na+ channel than for the resting state channel in atrial myocytes, and  xxxd2669xxx  showed
+the significant atrioventricular difference of  xxxd2669xxx  block on ina.  xxxd2669xxx  would exert an antiarrhythmic action on atrial myocytes, as
+well as on ventricular myocytes, by blocking na+ channels with a high affinity to the inactivated state and a slow dissociation kinetics.
+d 2002 elsevier science inc. all rights reserved.
+keywords:  xxxd2669xxx ; ina;  xxxg2028xxx ; tonic block; phasic block; atrial myocytes; ventricular myocytes; modulated receptor hypothesis
+
+1. introduction
+
+* corresponding author. department of cardiovascular medicine,
+tottori university faculty of medicine, nishimachi 36-1, yonago, 683,
+japan. tel.: +81-859-34-8101; fax: +81-859-34-8099.
+e-mail address: hisatome@grape.med.tottori-u.ac.jp (i. hisatome).
+
+ xxxd2669xxx  hydrochloride, a phenothiazine derivative
+(2-carbethoxyamino-10-(3-mopholylpropionyl)  xxxd1677xxx ) (zipes and jalife, 1995), is effective in
+the treatment of ventricular tachycardia, which is attributed
+to its ability to decrease the upstroke velocity of action
+potentials and na+ current (ina) in both multicellular prep-
+
+0306-3623/02/$ – see front matter d 2002 elsevier science inc. all rights reserved.
+pii: s 1 5 3 7 - 1 8 9 1 ( 0 2 ) 0 0 2 1 3 - 6
+
+132
+
+g.u. ahmmed et al. / vascular pharmacology 38 (2002) 131–141
+
+arations of ventricular muscles and single ventricular myocytes. data obtained from studies on ina of mammalian
+cardiac myocytes suggest that  xxxd2669xxx  is thought to bind
+to the inactivated state of ina predominantly with relatively
+fast kinetics. inactivated state block by  xxxd2669xxx  has been
+demonstrated in a number of studies. schubert et al. (1986)
+and saeki et al. (1994) have reported that  xxxd2669xxx  binds
+to the inactivated state with slow kinetics in rat and feline
+ventricular cells. however, similar studies in various
+mammalian species have not always demonstrated  xxxd2669xxx -induced inactivated state block or its contribution to
+use-dependent block. for example, makielski et al. (1988)
+have reported that  xxxd2669xxx  preferentially binds to the
+activated state of ina with slow kinetics in canine purkinje
+cells. saeki et al. described that  xxxd2669xxx  appears to
+have some affinity to the activated state. these contrasting
+results could reflect species-specific, tissue-specific, and/or
+experimental differences. although ina in atrial myocytes
+with shorter action potentials would be less affected by the
+fast kinetic drug binding primarily to the inactivated state,
+ xxxd2669xxx  is effective in preventing and abolishing supraventricular arrhythmias (kaverina et al., 1978; horowitz,
+1990; morganroth, 1990), suggesting that  xxxd2669xxx  is
+possibly an open state blocker for atrial myocytes. however,
+it is not clear whether  xxxd2669xxx  induces activated or
+inactivated state block of ina in atrial myocytes, although
+a single gene encodes for na+ channel of both atrial and
+ventricular myocardium predicting identical properties of
+the  xxxd2669xxx  binding site in the atrial and ventricular
+myocardium. therefore, we studied the effects of  xxxd2669xxx 
+on ina in guinea-pig atrial myocytes using the whole-cell,
+patch-clamp technique. the kinetics of the moricizineinduced tonic and phasic (use-dependent) block of ina was
+examined, then the affinities of  xxxd2669xxx  to the resting and
+inactivated states were determined from the modulated
+receptor theory (hondeghem and katzung, 1977). the
+affinity of  xxxd2669xxx  to each states of the atrial i na
+was also compared with each state of the guinea-pig
+ventricular ina as well as the cloned human na+ channel
+a-subunit ( xxxg2028xxx ).
+
+2. materials and methods
+
+145; naf, 10; and hepes, 5 (titrated to ph 7.2 with csof).
+the use of these solutions allowed the effective isolation of
+ina from other ionic current. the low sodium tyrode’s
+solution was cooled down to 17 c for the successful voltage
+clamp control. the pipette had a tip resistance of less than
+0.5 mm v when filled with the internal solution. cell
+capacitances (cm) were estimated from the current transient
+produced by a small (10 mv) voltage clamp step, and were
+determined by integrating the current transient: cm = 74 ± 6 pf
+(n = 5). series resistance (rs) was determined by fitting the
+exponential to the current transient which was well described
+by a single exponential. rs was estimated from the time
+constant (t) of the capacitive transient on the assumption of
+t = rscm. mean time constant was 98 ± 8 s (n = 5), and rs
+was 1.3 ± 0.4 mv (n = 5). the series resistance was compensated by 60% to minimize the voltage control error.
+several criteria described by colatsky and tsien (1979)
+which permit indirect determination of the adequacy of
+space-clamp control in the cardiac preparation were used.
+1. the inward current record shows a smooth decay,
+with no secondary humps or ‘abominable notches’.
+2. the time course of the current remains unchanged
+when its magnitude varies due to prepulse inactivation.
+3. the measured reversal potential lies close to the
+theoretically expected value.
+4. the activation is a gradual function of the membrane
+potential of which the i –v curve had a wide ( > 25 mv)
+negative slope region, extending over a range of about
+50 mv as in other excitable tissue.
+under our experimental conditions, current recordings
+from isolated myocytes satisfied these criteria, as shown in
+the original current traces of control and the i –v curve of
+the control (fig. 1). the membrane current signal was
+filtered  xxxd1891xxx  khz with a two-pore active filter, digitized at
+a sampling rate of 40 khz, and recorded on videotapes
+(video recorder, mitsubishi hv-f73, mitsubishi, tokyo,
+japan) through a pcm converter (shoshin em, pcmdp16, shoshin, tokyo, japan) for later computer analysis
+(nec pc98xl, nec, tokyo, japan).
+all procedures met the guidelines stipulated by the
+animal ethics committee of tottori university faculty
+of medicine.
+
+2.1. cardiac cell isolation and electrophysiological
+recording
+
+2.2. cell culture and transfection conditions
+
+single guinea-pig atrial and ventricular myocytes were
+isolated by the previous described enzymatic dissociation
+technique (tanaka et al., 1999), and ina were recorded using
+the whole-cell, patch-clamp technique. cells were perfused
+with a low sodium tyrode’s solution of the following
+composition (mm): nacl, 25; cscl, 5: cacl2, 1.8; mgcl2,
+0.5; cocl2, 1.0; d-glucose, 5.5; hepes, 20;  xxxd3337xxx  (tma) chloride, 105 (titrated to ph 7.4 with tmaoh). the pipette (internal) solution contained (mm): csf,
+
+the vector prc/cmv (invitrogen, san diego, ca,
+usa) was used as the expression vector for  xxxg2028xxx  cdnas.
+the  xxxg2028xxx  cdna as described elsewhere (makita et al., 1996)
+was used. cos7 cells were routinely maintained in dulbecco’s modified eagle medium (dmem; gibco, grand
+island, ny) containing 10% fetal bovine serum, 2 mmol/l
+l-glutamine, and 1% penicillin and streptomycin. cell
+cultures were kept at 37 c in a 5% co2 incubator. cells
+grown on glass cover slips in 30-mm dishes were cotrans-
+
+g.u. ahmmed et al. / vascular pharmacology 38 (2002) 131–141
+
+133
+
+fig. 1. effects of  xxxd2669xxx  on the i – v relationship of peak ina in an atrial myocyte. (a, b) representative original traces of ina elicited by 30 ms stepdepolarizing pulses from an hp of 100 mv in 5-mv increments before (a) and after (b) administration of 30 mm  xxxd2669xxx . the dotted line means the
+0 current level. (c) the peak ina – v curves in control, in the presence of 30 mm  xxxd2669xxx  and washout. note that  xxxd2669xxx  blocks ina without changing the
+threshold (60 mv), peak potentials (35 mv), and reversal potentials (+20 mv).
+
+fected with both  xxxg2028xxx  cdna and green fluorescence protein
+cdna (invitrogen) as a marker to identify the transfected
+cells using the calcium phosphate method (hisatome et al.,
+1998). after 48 h, transiently transfected cells were visualized by the fluorescence light, and subsequently, electrophysiological recordings were performed using the cells
+expressing green fluorescence protein.
+2.3. electrophysiological recordings in cultured cells
+whole-cell, voltage-clamp experiments were performed
+at 22 c as described (bennett et al., 1993). the external
+solution had the following composition (mmol/l): nacl 140,
+cscl 5.0, mgcl2 1.0, cacl2 1.8, hepes 10, and glucose 10,
+ph 7.4 with naoh. patch-clamp electrodes were filled with
+a solution of the following composition (mmol/l): csf 90,
+cscl 10, csegta 10, naf 10, mgcl2 2, and hepes 10,
+ph 7.4 with csoh.
+2.4. definition of tonic and phasic block
+to study the tonic block of ina, test pulses (step
+depolarizations) from a holding potential (hp) of 140 or
+100 mv to 20 mv were applied at a low frequency of
+0.1 hz. the pulse interval of 10 s was sufficient to ensure
+full recovery of ina from the use-dependent block. the
+degree of the tonic block was calculated as the percentage
+of decrease in peak ina after perfusion of the drug with
+respect to the control.
+to study the phasic block of ina, 20 train pulses with the
+duration of 10 – 300 ms were applied at 2 hz until decreasing peak ina reached a new steady state. a rest of 60 s was
+interposed between the sequence of stimuli. the degree of
+the phasic block was calculated as the percentage decrease
+in peak ina in the new steady state with respect to that
+during the first pulse (tanaka et al., 1999). all data are
+expressed as mean ± s.e.m. unless otherwise stated.
+
+2.5. mathematical modeling
+according to the modulated receptor theory (hondeghem
+and katzung 1977, 1984), we have determined the kd
+values for the resting and inactivated states of the na+
+channel using the simplified kinetic model shown as
+scheme 1. in this scheme, r and i represent the drug-free
+resting and inactivated state, respectively; rd and id are the
+drug-bound resting and inactivated state, respectively. a and
+b are the rate constants of state transition between r and i or
+between rd and id. k and l are the rate constants of drug
+binding and unbinding, respectively; kd is the equilibrium
+dissociation constant for the resting or inactivated state
+( xxxg1274xxx  = lr/kr, kdi = li/ki). using the kinetic model show as
+scheme 1, we determined the kdi value for  xxxd2669xxx  from
+kd,app values of the tonic block and the steady-state inactivation curves (vh and slope factor). the value of  xxxg1274xxx  was
+set equal to kd,app at an hp of 140 mv, where all of the na
+channels transit between r (rd) and i (id) over an energy
+barrier. according to the erying rate theory, rate constants
+for state transitions are described as a function of gibbs free
+
+scheme 1. the kinetic model on the modulated receptor hypothesis.
+
+134
+
+g.u. ahmmed et al. / vascular pharmacology 38 (2002) 131–141
+
+energy. the rate constants for the transition between r (rd)
+and i (id) are given by:
+
+at 140 mv, and the time constant of the slow ina
+recovery at 140 mv, being given by
+
+a ¼ ðkt =hþexp½ðdgi þ dzfv =rt þ,
+
+kr ¼ ð1=ts140 þ=ð½d þ  xxxg1274xxx  þ,
+
+b ¼ ðkt =hþexpf½dgr þ ðd  1þzfv =rt g,
+where z is the number of gating charges, and d is the
+fractional electrical distance. dgr and dgi denote the energy differences between the transition state and the resting
+or inactivated state (in rt unit). the constants h, k, r, f, and
+t have their usual meanings. the parameters to be
+determined from the experimental data are dgr, dgi, z,
+and d. the value of z and the energy difference between the
+resting and inactivated states (dgri) for the drug-free
+channel can be calculated from the vh and slope  xxxd344xxx  in
+the absence of  xxxd2669xxx , using the following equations:
+
+lr ¼ krkdr :
+since the time constants of the slow ina recovery in the
+presence of  xxxd2669xxx  were very close at 100 and
+140 mv, we assumed that the rate constant of the drug
+dissociation from the inactivated state (ki) is identical to that
+from the resting state (i.e., ki = kr). to estimate the kdi value,
+we predicted the kd,app of the tonic block at 100 mv and
+the vh in the presence of 30 mm  xxxd2669xxx  for each kdi
+value by calculating the probability of na+ channels to be
+in the state r (drug-free resting state). then, the kdi value
+to reproduce the experimental data was determined.
+2.6. chemicals
+
+dgri ¼ dgi  dgr ¼ vh =s,
+z ¼ rt =sf:
+
+ xxxd2669xxx  was kindly supplied by duppone pharmaceutical (tokyo, japan) and was directly dissolved in
+low sodium tyrode’s solution.
+
+the values of d, dgi, and dgr can be determined by
+d ¼ ðs=40þlnða100 =a140 þ,
+
+3. results
+
+dgi ¼ lnða140 h=kt þ þ 140d=s,
+
+3.1. tonic block of ina by  xxxd2669xxx  in atrial myocytes
+
+dgr ¼ dgi  dgri ¼ dgi þ vh =s,
+
+fig. 1 shows the effects of  xxxd2669xxx  on ina in an atrial
+myocyte. the currents were elicited by the 30-ms depolarizing pulses from an hp of 100 mv to the test potentials
+(from 70 to +25 mv in 5-mv increments).  xxxd2669xxx  at
+30 mm reduced the peak ina of the atrial myocyte to 50% of
+the control in a voltage-independent manner. as shown by
+the peak ina – v curves,  xxxd2669xxx  blocked ina without
+changes in either the threshold potential (  60 mv), the
+maximum peak ina potential (  35 mv), or the reversal
+potential ( + 25 mv). washout of  xxxd2669xxx  restored the
+amplitude of ina over the range of membrane potentials.
+fig. 2 shows the concentration dependence of the  xxxd2669xxx -induced tonic block of ina at an hp of 100 or
+140 mv (n= 5). the currents were elicited by 30-ms test
+pulses to 20 mv from either an hp of 100 or 140 mv.
+ xxxd2669xxx   xxxd1891xxx  mm reduced the peak ina by 45% and 22%
+at 100 and 140 mv, respectively, in panels (a) and (b).
+the concentration dependence of the tonic block (a blocked
+ration, ptb) was fitted with the hill equation (panel (c))
+(eq. (1)):
+
+where a100 and a140 are the rate constants for the
+transition from the state i to r at 100 and 140 mv,
+respectively. the value of a140 was calculated from the
+recovery time constant at 140 mv; a100 was calculated
+from the recovery time constant at 100 mv, being given by
+a100 ¼ ð1=t100 þð1 þ expðð100  vh þ=sþþ:
+we assumed that the parameter values (dgr, dgi, z, d) for
+the drug-bound channel are the same as those of the drugfree channel; shifts in vh of the drug-bound channel, usually
+assumed in the modulated receptor theory, resulted in only
+small changes in the predicted kdi value.
+the rate constants for the drug binding and unbinding
+(k and l) can be related to the kd value and the time
+constant of the drug binding/unbinding (denoted td) with
+the equations:
+kd ¼ l=k,
+td ¼ 1=ðk½d þ 1þ,
+where [d] is the concentration of the drug. thus, the k and
+l values for the resting state (kr and lr) can be calculated
+from the  xxxg1274xxx  value which is equal to the kd,app determined
+
+
+ptb ¼ 1= 1 þ ðkd;app =½dþn
+
+ð1þ
+
+where [d] stands for the concentration of  xxxd2669xxx , kd,app
+is the apparent dissociation constant at a given hp, and n is
+the hill coefficient. the values of kd,app at an hp of 100
+and 140 mv were 26.2±4.5 and 99.3±7.2 mm, respectively;
+
+g.u. ahmmed et al. / vascular pharmacology 38 (2002) 131–141
+
+135
+
+fig. 2. tonic block of ina induced by  xxxd2669xxx  in atrial myocytes. (a, b) representative original traces of ina elicited by 30 ms test pulses to 20 mv from
+either an hp of 100 mv (a) or an hp of 140 mv (b) under control conditions and in the presence of  xxxd2669xxx  at various concentrations (1 – 100 mm). the
+dotted line means the 0 current level. (c) the concentration dependence of the  xxxd2669xxx -induced tonic block of ina at an hp of either 100 or 140 mv
+(n = 4). kd,app values were 26.2 ± 4.2 mm at 100 mv and 99.3 ± 7.2 mm at 140 mv.
+
+the n values for 100 and 140 mv were 1.2 ± 0.2 and
+1.3 ± 0.3, respectively. these results indicate that  xxxd2669xxx 
+produces the greater tonic block of ina at more depolarized
+membrane potentials in guinea-pig atrial myocytes.
+as shown in fig. 3,  xxxd2669xxx  induced a negative shift
+in the voltage dependence of the steady-state inactivation of
+ina (h1) (n = 4). the h1 curve was assessed using a standard two-pulse protocol: a prepulse to a test potential
+ranging from 140 to 50 mv was applied for 1000 ms,
+then a 30-ms test pulse to 20 mv was applied after a 1-ms
+interpulse interval. the inactivation curve was fitted by a
+boltzmann equation (eq. (2)):
+h1 ¼ ð1 þ exp½ðvm  vh þ=sþ1
+
+ð2þ
+
+where vm represents the prepulse potential, vh is the midpoint at which h = 0.5, and s is the slope factor.  xxxd2669xxx 
+at 30 mm shifted the h1 curve towards more negative
+potentials by 8.6 ± 2.4 mv (vh = 87.2 ± 4.1 mv in control
+vs. vh = 95.1 ± 4.3 mv with 30 mm  xxxd2669xxx ) without
+significant changes in the slope factor (6.2 ± 0.4 mv in
+control vs. 6.1 ± 0.8 mv with 30 mm  xxxd2669xxx ). after
+washout of  xxxd2669xxx , the h1 curves shifted back to the
+depolarizing direction and partially returned towards the
+control level (vh = 89.8 ± 5.5 mv).
+3.2. phasic block of ina by  xxxd2669xxx  in atrial myocytes
+in addition to the tonic block,  xxxd2669xxx  produced the
+phasic block of ina. fig. 4 shows the phasic block of ina
+induced by 30 mm  xxxd2669xxx , which is examined with 2 hz
+train pulses of various durations (10 – 300 ms). the currents
+
+fig. 3. effects of  xxxd2669xxx  on the steady-state inactivation of ina in atrial
+myocytes. the h1 curve was constructed using a standard two-pulse
+protocol as shown in the inset (a). the curves (b) are the fits with a
+boltzmann equation: h1 1=ð1 þ exp½ðvm  vh =sþþ1 where vm represents
+the prepulse potential, vh is the half-maximum potential at which h1 = 0.5,
+and s is the slope factor.  xxxd2669xxx  at 30 mm shifted the h1 curve to the
+hyperpolarizing direction by 8.6 ± 2.4 mv (n = 4).
+
+136
+
+g.u. ahmmed et al. / vascular pharmacology 38 (2002) 131–141
+
+the pulse sequences with 10 s (control) or 3 –30,000 ms
+prepulses were applied  xxxd1891xxx -s intervals to avoid build-up of
+the ina block. the 1.0-s recovery time was long enough to
+allow full recovery of the drug-free channels (toff = 34.3 ms
+at an hp of 100 mv and toff=6.3 ms at an hp of 140 mv;
+see below for the results of recovery), but short enough to
+minimize recovery from the phasic block (toff = 4.2 s at an
+hp of 100 mv and toff = 3.0 s at an hp of 140 mv; see
+below). in panel (c), with 3 ms prepulse, 30 mm  xxxd2669xxx 
+blocked ina by only 4.0 ± 1.2% and 2.0 ± 1.0% at both an hp
+of 100 and 140 mv, and with 100 ms prepulses, 30 mm
+ xxxd2669xxx  blocked ina by 5.0 ± 1.2% and 3.0 ± 0.6% at an
+hp of 100 and 140 mv, respectively, while with
+10,000 ms prepulse, 30 mm  xxxd2669xxx  produced the ina
+block of 33 ± 4.5% and 21 ± 3.6% at an hp of 100 and
+140 mv, respectively. thus, a prepulse of longer duration
+accelerated the onset block of ina, and the degree of the
+onset block with an hp of 100 mv was greater than that
+with an hp of 140 mv.
+
+fig. 4. phasic block of ina by  xxxd2669xxx  in atrial myocytes. (a, b) the
+phasic block of ina induced by 30 mm  xxxd2669xxx  with an hp of 100 (a) or
+140 (b) mv. the closed circles indicate the ina elicited by the first
+depolarizing pulse to 20 mv with either 10 or 300 ms duration, and the
+closed triangles are the ina elicited by the 20th depolarizing pulse. the train
+pulses were applied at 2 hz. the dotted line means the 0 current level. (c)
+the % phasic block of ina in the presence (upper columns) or absence
+(lower columns) of 30 mm  xxxd2669xxx  determined with the 2-hz train pulses
+of 10, 30, 100, 300 ms duration from an hp of 100 or 140 mv to
+20 mv (n = 5). note that the degree of the phasic block of ina at each hp
+increased with an increase in the pulse duration. in addition, the more
+cumulative block was observed at the more depolarized hp.
+
+were elicited by the depolarizing pulses to 20 mv from an
+hp of 100 or 140 mv. the degree of the phasic block
+was calculated as a percentage decrease in the peak ina
+elicited by the 20th pulse in reference to that during the first
+pulse (n = 5). with an hp of 100 mv, the 10- and 300-ms
+train pulses caused the phasic block of 12% and 47%,
+respectively; with an hp of 140 mv, the 10- and
+300-ms train pulses produced the phasic block of 13%
+and 21%, respectively, in panels (a) and (b). the degree
+of the  xxxd2669xxx -induced phasic block of ina increased with
+an increase in the duration of train pulses, and the more
+dramatic block was observed with the more depolarized hp.
+3.3. onset block of ina by  xxxd2669xxx  in atrial myocytes
+to assess the onset block of ina during depolarization
+(n = 5), a prepulse (3– 30,000 ms) to 20 mv from either an
+hp of 100 or 140 mv was followed by a 1000-ms
+recovery period and a test pulse to 20 mv from each hp in
+the presence of  xxxd2669xxx  (in panels (a) and (b): fig. 5).
+
+fig. 5. time course of onset block of ina by  xxxd2669xxx  in the atrial
+myocytes. the kinetics of onset block by  xxxd2669xxx  was assessed by the
+double-pulse protocol shown in panel (c) in the atrial myocytes. panels (a)
+and (b) show superimposed records of ina elicited by the prepulse of
+various durations (100 – 30,000 ms) to 20 mv and a test pulse of 30 ms to
+20 mv in the presence of  xxxd2669xxx  from either an hp of 100 or
+140 mv. panel (c) indicates the percentage of onset of phasic block
+following prepulse duration varying from 2 to 30,000 ms in the absence
+(open squares) and the presence of 10 mm  xxxd2669xxx  at an hp of 100 mv
+(open circles) and of 140 mv (closed circles) obtained from
+five experiments.
+
+g.u. ahmmed et al. / vascular pharmacology 38 (2002) 131–141
+
+3.4. recovery of ina from the  xxxd2669xxx -induced block in
+atrial myocytes
+to determine the rate of recovery of ina from the
+ xxxd2669xxx -induced block, a double-pulse protocol was
+employed. prepulses of 1000 ms were followed by various
+recovery periods and subsequent 30 ms test pulses to
+20 mv from an hp of 100 or 140 mv (n = 5). in
+the control, the time course of recovery of ina (from
+inactivation) was expressed by a single exponential function with a time constant of 34.3 ± 4.3 ms for an hp of
+100 mv and 6.3 ± 3.0 ms for an hp of 140 mv. in the
+presence of 30 mm  xxxd2669xxx , in contrast, the recovery
+time course was expressed as a sum of two exponential
+terms, with a time constant of 31 ± 6.0 ms and 4.2 ± 2.0 s
+for an hp of 100 mv, and 8.0 ± 4.5 ms and 3.0 ± 1.2 s
+for an hp of 140 mv.
+3.5. the tonic block of  xxxd2669xxx  on the ventricular
+myocytes na+ current and the cloned na+ channel
+-subunit ( xxxg2028xxx )
+fig. 6 shows the tonic block of  xxxd2669xxx  on the ina of
+the ventricular myocytes. panels (a) and (b) show the peak
+amplitude of ina elicited by a 30-ms test pulse to 20 mv
+from either an hp of 100 mv or 140 mv before and
+during administration of  xxxd2669xxx , respectively. in ventricular myocytes 1 and 10 mm  xxxd2669xxx  blocked ina by
+
+137
+
+23% and 85% from 3 to 2.3 and 0.45 na at an hp of
+100 mv, respectively, although 10 and 100 mm  xxxd2669xxx 
+blocked ina by 28% and 83% from 3.6 to 2.6 na and 0.6 na
+at an hp of 140 mv, respectively. this tonic block of ina
+induced by  xxxd2669xxx  showed the voltage-dependency.
+panel (c) shows the semilogarithmic plot of the drug
+concentration and the tonic block of na+ current at hp of
+100 and 140 mv. each point represents the mean value
+of the block ratio of na+ current for each concentration
+(n = 4). the sigmoidal curve was calculated from the empirical equation in fig. 1. in ventricular myocytes, kd,app was
+3.1 ± 0.8 mm at hp = 100 mv and its n was 1.1 ± 0.3, and
+kd,app was 30.2 ± 6.8 mm at hp = 140 mv and its n was
+1.1±0.4. these results suggest that  xxxd2669xxx  produced the
+greater tonic block of na+ current at the more depolarized
+membrane potentials and  xxxd2669xxx  had the significantly
+higher affinity to the na+ channels of ventricular myocytes
+than those of atrial myocytes (see fig. 2).
+fig. 6b shows the shift in the h1 curve by  xxxd2669xxx  in
+ventricle myocytes. based on the data obtained from four
+experiments,  xxxd2669xxx  at 3 mm shifted the h1 curve of
+ventricular myocytes towards a more negative potential by
+10.5 ± 3.5 mv significantly (control: 82.3 ± 3.8 mv vs.
+ xxxd2669xxx  3 mm: 93.5 ± 4.1 mv: p < .05) without changes
+in the slope factor (control: 6.4 ± 0.4 mv vs.  xxxd2669xxx  3 mm:
+6.3 ± 0.6 mv).
+after washout of  xxxd2669xxx , the h1 curve shifted to the
+depolarizing direction and partially returned towards the
+
+fig. 6. tonic block of ina induced by  xxxd2669xxx  in ventricular myocytes. panel a: representative original ina traces were elicited by a test 30 ms pulse to
+20 mv from either hp = 100 mv (a) or hp = 140 mv (b) under control conditions and in the presence of  xxxd2669xxx  at various concentrations from 1 to
+100 mm in ventricular myocytes. the dotted line means the 0 current level. panel (c) shows the concentration-dependent tonic block of ina by  xxxd2669xxx  at either
+hp of 100 or 140 mv in ventricular myocytes (n = 4). kd,app were 3.1 ± 0.8 mm at hp = 100 mv and 30.2 ± 6.8 mm at hp = 140 mv in ventricular
+myocytes (n = 4). panel b: the h1 curve drawn through the data points was described above.  xxxd2669xxx  of 3 mm shifted the h1 curve to the hyperpolarizing
+direction by 10.5 ± 3.8 mv in ventricular myocytes and washout of  xxxd2669xxx  partially returned it towards control level, obtained from four experiments.
+
+138
+
+g.u. ahmmed et al. / vascular pharmacology 38 (2002) 131–141
+
+fig. 7. tonic block of cloned  xxxg2028xxx  induced by  xxxd2669xxx  in cos7 cells. panel a: (a, b) representative original traces of ina elicited by 30 ms step-depolarizing
+pulses from an hp of 100 mv in 5-mv increments before (a) and after (b) administration of 3 mm  xxxd2669xxx . the dotted line means the 0 current level. (c) the
+peak  xxxg2028xxx  – v curves in control, in the presence of 3 mm  xxxd2669xxx  and washout. note that  xxxd2669xxx  blocks  xxxg2028xxx  without changing the threshold (60 mv),
+peak potentials (40 mv), and reversal potentials (+60 mv). panel b: shows the concentration-dependent tonic block of  xxxg2028xxx  by  xxxd2669xxx  at either hp of
+100 or 140 mv in  xxxg2028xxx  (n = 4). kd,app was 3.0 ± 0.5 mm at hp = 100 mv and 22.0 ± 3.2 mm at hp = 140 mv obtained from five experiments. panel c:
+the h1 curve drawn through the data points was described above.  xxxd2669xxx  of 30 mm shifted the h1 curve of  xxxg2028xxx  to the hyperpolarizing direction by
+5.0 ± 2.3 mv and washout of  xxxd2669xxx  partially returned it towards control level, obtained from five experiments.
+
+control level (vh = 85.6 ± 4.7 mv) without changes in the
+slope factor (6.2 ± 0.7 mv in atrial, 6.4 ± 0.3 mv).
+fig. 7a shows the effects of  xxxd2669xxx  on cloned  xxxg2028xxx 
+currents of the cultured cos7 cells. the currents were
+elicited by the 30-ms depolarizing pulses from an hp of
+100 mv to the test potentials (from 70 to +25 mv in
+5-mv increments) in the absence (a) and presence (b) of
+ xxxd2669xxx .  xxxd2669xxx  at 3 mm reduced  xxxg2028xxx  current to
+50% of control. as shown by the peak  xxxg2028xxx  i– v curves,
+ xxxd2669xxx  blocked  xxxg2028xxx  without changes in either the
+threshold potential (60 mv), the maximum peak  xxxg2028xxx 
+current potential (40 mv), or the reversal potential
+(+ 60 mv). washout of the  xxxd2669xxx  partially restored
+the amplitude of  xxxg2028xxx  over the range of membrane potentials. fig. 7b shows the concentration dependence of the
+ xxxd2669xxx -induced tonic block of  xxxg2028xxx  at an hp of 100 or
+140 mv (n = 5). the concentration dependence of the
+tonic block was fitted by the hill equation. the values of
+kd,app at an hp of 100 and 140 mv were 3.0 ± 0.5 and
+22.0 ± 3.2 mm, respectively. as shown in fig. 7c,  xxxd2669xxx  induced a negative shift in the h1 curve of the  xxxg2028xxx 
+current (n = 5).  xxxd2669xxx  at 30 mm shifted the h1 curve
+towards more negative potentials by 5.0 ± 2.3 mv
+
+(vh = 79±4.6 mv in control vs. 84 ± 3.3 mv with
+ xxxd2669xxx  30 mm) without changes in the slope factor.
+after washout of  xxxd2669xxx , the h1 curve shifted back to
+the depolarizing direction and partially towards the control
+level (vh = 80 ± 5.5 mv).
+
+4. discussion
+in the present study for guinea-pig atrial myocytes, we
+have demonstrated that (1)  xxxd2669xxx  produces the tonic
+block of the atrial ina with the apparent dissociation constant
+being smaller at a more depolarized hp, (2)  xxxd2669xxx  shifts
+the h1 curve of the atrial ina to the hyperpolarizing
+direction, (3) the  xxxd2669xxx -induced phasic block of the
+atrial ina is enhanced with increase in the duration of train
+pulses as well as with a less negative hp, (4) the onset block
+of the ina by  xxxd2669xxx  is enhanced by the longer prepulse
+and by using a less negative hp, (5) according to the
+recovery time constant,  xxxd2669xxx  showed the slow kinetics, and (6) the kd value of the  xxxd2669xxx  block of atrial
+ina was significantly larger than either that of ventricular ina
+or that of cloned  xxxg2028xxx .
+
+g.u. ahmmed et al. / vascular pharmacology 38 (2002) 131–141
+
+4.1. mechanism on the block of atrial na+ current by
+ xxxd2669xxx 
+according to the modulated receptor theory (hondeghem
+and katzung 1977, 1984), we have estimated the value of
+kd for the inactivated state of the atrial ina (kdi) as well as
+that for the resting state of the atrial ina ( xxxg1274xxx ) for  xxxd2669xxx 
+from the apparent kd for the tonic block (kd,app) and the vh
+in the presence of  xxxd2669xxx  using the simplified kinetic
+model described in the materials and methods section
+(tanaka et al., 1999). the values of kd,app at 100 mv
+and vh with 30 mm  xxxd2669xxx  were calculated for various
+kdi values with  xxxg1274xxx  = 99.3 mm. with kdi = 1.2 mm, the
+model predicted the kd,app at 100 mv of 27.6 mm and a
+negative shift of 11.8 mv in vh with 30 mm  xxxd2669xxx ,
+which are very close to the experimentally observed values.
+this result indicates that  xxxd2669xxx  has an approximately
+100 times higher affinity for the inactivated ina (kdi = 1.2 mm)
+than for the resting channel ( xxxg1274xxx  = 99.3 mm) in the atrial
+myocyte. our experiments did not clearly separate the
+guarded receptor hypothesis from the modulated receptor
+hypothesis (starmer and grant, 1985). the guarded receptor
+hypothesis assumes a constant affinity receptor and does not
+propose altered gating kinetics of the drug-bound channel.
+ingress of the drug to the receptor is possible only when it is
+unguarded and egress occurs when the drug is not trapped.
+in a guarded receptor hypothesis, the local anesthetics or
+antiarrhythmic agents are generally considered to have their
+binding site inside na+ channels. however, saeki et al.
+(1994) showed that  xxxd2669xxx  is only active from the
+external surface, which argued for a guarded receptor
+model. therefore, we applied our experimental data to the
+modulated receptor hypothesis.
+since the therapeutic plasma concentration of  xxxd2669xxx 
+ranges from 0.13 to 6.5 mm with 92 –95% of the drug bound
+on plasma proteins (raymond et al., 1987), the free serum
+concentration of  xxxd2669xxx  would range from 0.008 to
+0.423 mm. assuming that only one  xxxd2669xxx  molecule
+binds to a receptor site, the fraction of blocked channels in a
+state x ( pbx) can be calculated by the equation (eq. (3)):
+pbx ¼ f½d=ðkdx þ ½dþg
+
+ð3þ
+
+where [d] represents the serum concentration of  xxxd2669xxx ,
+kdx is the dissociation constant for the state x. from the
+estimated kd values for the resting state (99.3 mm) and
+inactivated state (1.2 mm), the ina block in atrial myocytes
+was calculated to be
+0.4% in the resting state and
+26.1% in the inactivated state at the free serum  xxxd2669xxx 
+concentration of 0.423 mm. since a 10% block of
+ventricular ina is speculated to exert a therapeutic effect
+on cardiac arrhythmias (saeki et al., 1994), the block of
+inactivated ina by  xxxd2669xxx  at the therapeutic concentration may be effective in treating atrial arrhythmia.
+however, we should not simply apply this concept to the
+atrium. in addition, since the estimated kd values for the
+
+139
+
+resting state and inactivated state are based on experiments
+performed at the condition of a strongly reduced external
+na+ concentration (25 mm), the presented kd values are not
+representative for in vivo conditions of the physiological
+external na+ concentration (140 mm) and the kd values for
+in vivo conditions may be much less drug-sensitive.
+therefore, we might not apply the presented kd values to
+the clinical situations directly.
+an antiarrhythmic drug binds to the activated and inactivated states during membrane depolarization (hille, 1977;
+hondeghem and katzung, 1977). makielski et al. (1988)
+reported that initial block of ina by 2 mm  xxxd2669xxx  in
+noninactivated cells (at an hp of 150 mv) was 9.3% in the
+canine cardiac purkinje cells, indicating use-dependent
+block by  xxxd2669xxx  was modeled according to the guarded
+receptor hypothesis assuming ingress to the channel binding
+site during the open state of the channel and egress from the
+channel independent of the kinetic state of the channels.
+more recently, makielski et al. (1990) and saeki et al.
+(1994) demonstrated that  xxxd2669xxx  has a higher affinity
+to the inactivated state of either the canine cardiac purkinje
+cells or the feline ventricular myocytes than that to the
+activated state, although they indicated that  xxxd2669xxx  has
+some affinity to the activated state of the na+ channels. in
+the present study,  xxxd2669xxx  indeed appears to have some
+affinity to the activated state of the atrial ina, because it
+blocked ina during the initial 3 ms of the experiment in
+which the start of the block was studied. however, the
+affinity of  xxxd2669xxx  for the inactivated na+ channel may
+be higher than that for the activated state channel in the
+atrial myocyte, since the fraction of blocked channels with
+10,000 ms prepulses (33 ± 4.5% and 21 ± 3.6% at an hp of
+100 and 140 mv, respectively), during which na+
+channels are mostly in the inactivated state, was significantly larger than that (4.0 ± 1.2% and 2.0 ± 1.0% at both an
+hp of 100 mv and an hp of 140 mv, respectively) with
+3 ms prepulses during which na+ channels are mostly in the
+activated state. multiple factors such as size, hydrophobicity, and charge have been proposed as being important in
+determining whether or not a drug will block only an open
+state or the inactivated state (bokesch et al., 1986; ehring
+et al., 1988). it is well accepted that antiarrhythmic drugs in
+the charged form preferentially bind to the activated state,
+whereas those in the neutral form bind to the inactivated
+state (clarkson et al., 1988; makielski et al., 1990).  xxxd2669xxx  molecules, pka of which is 6.26, are mostly neutral
+at the physiological ph of 7.4, suggesting that  xxxd2669xxx 
+predominantly binds to the inactivated state of ina (voigt
+et al., 1988) the pka values of  xxxd2669xxx  (6.26) are quite
+acidic as compared with those of other class 1 antiarrhythmic agents (7.8 –9.5). thus, the fraction of the neutral form
+of  xxxd2669xxx  at ph = 7.4 (93.24%) is much higher than that
+of other class 1 antiarrhythmic agents (1– 50%), indicating
+that  xxxd2669xxx  has the potent hydrophobicity under the
+physiological condition. this may be one reason why
+ xxxd2669xxx  can block inactivated ina more effectively, while
+
+140
+
+g.u. ahmmed et al. / vascular pharmacology 38 (2002) 131–141
+
+it is not clear that the idea of neutral charge blocker with
+inactivated state blocker is proven for  xxxd2669xxx .
+the time course of recovery of ina from the  xxxd2669xxx 
+block reflects the unbinding of the agent from the receptor
+site of the resting state channel. in the atrial myocytes, the
+time constant of the ina recovery was 3.0– 4.2 s in the
+presence of 30 mm  xxxd2669xxx . saeki et al. reported that
+ xxxd2669xxx ’s recovery time course was retarded to 8 s and
+that  xxxd2669xxx  should be classified as an intermediate-type,
+class 1 antiarrhythmic agent, which is in favor of our
+present data. pharmacologically, slow dissociation of the
+drug from the inactivated state results in a marked use- or
+frequency-dependent block of ina because the fraction of
+drug-bound channels would increase cumulatively with
+repeated stimulation at short diastolic intervals. the slow
+recovery of the  xxxd2669xxx -induced ina block in the atrial
+myocytes could prolong the postrepolarization refractoriness and cause cumulative block of ina even during the short
+action potential duration of the atrial myocytes, thereby
+exerting an antiarrhythmic action on atrial myocytes.
+4.2. atrioventricular difference of  xxxd2669xxx  block on the
+cardiac na+ channels
+there are several controversial reports that the affinity of
+ xxxd2669xxx  for the ina of feline ventricular myocytes shows
+the discrepancies of the results obtained from the canine
+purkinje cells. makielski et al. (1988) reported that in canine
+purkinje cells,  xxxd2669xxx ’s dissociation constants for the
+resting and inactivated na+ channel states were 13 and
+0.67 mm, respectively, based on the guarded receptor
+hypothesis. on the other hand, saeki et al. (1994) calculated
+that in feline ventricular myocytes,  xxxd2669xxx ’s  xxxg1274xxx  and kdi
+were 105 and 4.6 mm, respectively, based on the modulated
+receptor hypothesis, which was one order larger than that
+reported by makielski et al. the discrepancy of  xxxd2669xxx 
+action on the ina in the various reports may be attributed
+either to species differences or to tissue specificity. however, it has never been tested if  xxxd2669xxx  equally blocks
+ina of atrial and ventricular myocytes in the same species. in
+the present study,  xxxd2669xxx  blocked the ina in the ventricular myocytes significantly stronger than that in the atrial
+myocytes, since both  xxxd2669xxx ’s  xxxg1274xxx  and kdi were significantly smaller in the ventricular myocytes (30 and
+0.17 mm, respectively) than those in the atrial myocytes
+(99.3 and 1.2 mm, respectively) based on the modulated
+receptor hypothesis. there is no molecular basis for atrioventricular differences of na+ channels, although conventional understanding is that na+ channels of both atrial and
+ventricular cells are the same, and come from the same gene
+predicting identical properties of the  xxxd2669xxx  binding site
+in the atrial and ventricular myocardium. furukawa et al.
+(1995) reported that lidocaine block on ina was virtually
+identical for human atrial and ventricular cells, thus they
+have suggested that any difference in drug effects on ina
+between atrial and ventricular cells results from the different
+
+action potential waveforms of the tissue, but under voltageclamp conditions, na+ channels behave the same. however,
+the few available in vitro studies comparing antiarrhythmic
+effects on the electrical activity of atrial and ventricular cells
+have not resulted in consistent findings. in multicellular
+rabbit heart specimens, the reduction in vmax during a pulse
+train by lidocaine was reported to be more pronounced in
+ventricular than in atrial cells (langenfield et al., 1990) and
+quinidine showed a significant difference in the dissociation
+constants, which were nearly one decade smaller in the
+atrium than in the ventricle, while no atrioventricular
+difference of the dissociation constant was found for prajimalin. chi et al. (1997) reported that quinidine shifted h1
+curve of ventricular myocytes to more hyperpolarized
+direction than that of atrial myocytes. these data support
+the atrioventricular difference of sensitivity of some antiarrhythmic agent to the na+ channels like  xxxd2669xxx .  xxxd2669xxx  blocked the heterologously expressed na+ channel
+a-subunit ( xxxg2028xxx ) with the same affinity ( xxxg1274xxx  = 22 mm and
+kdi = 0.2 mm) to the  xxxd2669xxx  block of ventricular ina in
+the present study. this means that the affinity of  xxxd2669xxx 
+to  xxxg2028xxx  is same to the ventricular ina but is different from
+that to the atrial ina. we calculated the difference of gibbs
+free energy for  xxxd2669xxx  binding to na+ channels in the
+atrium and ventricle to be < 5.94 kj/mol. the gibbs free
+energy of the hydrogen bonding to stabilize the primary
+structure of the protein has been estimated to be > 20 kj/mol,
+and the energy of the electrostatic bond has been estimated to
+be 2 kj/mol. the difference in binding energy between the
+atrial and ventricular na+ channels was much smaller than
+the energy of the hydrogen bonding but was close to the
+energy of the electrostatic bond. this indicates that the
+atrioventricular difference of  xxxd2669xxx  block on ina may
+not come from the large structural difference of the  xxxd2669xxx  binding site such as the changes in its primary structure
+among them. the atrioventricular differences of the localization of the cardiac na+ channels have reported that the
+ventricular na+ channels are remarkably localized in the
+intercalated disks at the end; on the other hand, the atrial na+
+channels are localized mainly in the surface and t-tubular
+systems (cohen, 1996). therefore, cardiac na+ channels
+reside at tissue-specific location, predicting the different
+cytoskeletal interactions between atrium and ventricle
+(cohen, 1996). cytoskeletal interaction may be critical not
+only to cardiac na+ channel localization but also to gating of
+cardiac na+ channels, since treatment of inside-out patches
+of ventricular cells with cytochalasin-d induced na+ channels to enter a mode characterization by lower peak open
+probability with greater persistent activity consistent with a
+decrease in the rate of inactivation of na+ channels (undrovinas et al., 1995). the ankyrinb knockout mice display a
+reduced current density and an abnormal kinetic that contributes to prolonged action potential duration and abnormal
+qt rate adaptation (chauhan et al., 2000). atrioventricular
+difference of na+ channel localization reflects the tissuespecific cytoskeletal interaction, which may explain the
+
+g.u. ahmmed et al. / vascular pharmacology 38 (2002) 131–141
+
+atrioventricular difference of action of antiarrhythmic agents.
+since we cannot make the conclusive explanation for the
+atrioventricular differences of the antiarrhythmic effect of
+ xxxd2669xxx , further experiments would be necessary to clarify this discrepancy.
+
+references
+bennett, p.b., makita, n., george jr., a.l., 1993. a molecular basis for
+gating mode transitions in human skeletal muscle na+ channels. febs.
+lett. 326, 21 – 24.
+bokesch, p.m., post, c., strichartz, g., 1986. structure – activity, relationship of lidocaine homologs producing tonic and frequency-dependent
+impulse blockade in nerve. j. pharmacol. exp. ther. 237, 773 – 781.
+chauhan, v.s., tuvia, s., buhusi, m., bennett, v., grant, a.o., 2000.
+abnormal cardiac na+ channel properties and qt heart rate adaptation
+in neonatal ankyrinb knockout mice. circ. res. 86, 441 – 447.
+chi, j.-f., chu, s.-h., lee, c.-s., su, m.-j., 1997. effects of 8-oxoberberine
+on sodium current in rat ventricular and human atrial myocytes. can. j.
+cardiol. 13, 1103 – 1110.
+clarkson, c.w., follmer, c.h., ten eick, r.e., hondeghem, l.m., yeh,
+j.z., 1988. evidence for two components of sodium channel by lidocaine in isolated cardiac myocytes. circ. res. 63, 869 – 878.
+cohen, s.a., 1996. immunocytochemical localization of rh1 sodium channel in adult rat heart atria and ventricle. presence in terminal intercalated
+disks. circulation 94, 3083 – 3086.
+colatsky, t.j., tsien, r.w., 1979. sodium channels in rabbit cardiac purkinje fibers. nature 278, 265 – 268.
+ehring, g.r., moyer, j.w., hondeghem, l.m., 1988. quantitative structure
+activity studies of antiarrhythmic properties in a series of lidocaine and
+procainamide derivatives. j. pharmacol. exp. ther. 244, 479 – 492.
+furukawa, t., koumi, s.-i., sakakibara, y., singer, d.h., jia, h., arentzen,
+c.e., backer, c.l., wasserstrom, j.a., 1995. a analysis of lidocaine
+block of sodium current in isolated human atrial and ventricular myocytes. j. mol. cell. cardiol. 27, 831 – 846.
+hille, b., 1977. local anesthetics: hydrophilic and hydrophobic pathways
+for the drug-receptor reaction. j. gen. physiol. 69, 497 – 515.
+hisatome, i., morisaki, t., kamma, h., sugama, t., morisaki, h., ohtahara,
+a., holmes, e.w., 1998. control of amp deamninase 1 binding to
+myosin heavy chain. am. j. physiol. 275, 870 – 881.
+hondeghem, l.m., katzung, b.g., 1977. time- and voltage-dependent
+interactions of antiarrhythmic drugs with sodium channel. biochem.
+biophys. acta 472, 373 – 398.
+hondeghem, l.m., katzung, b.g., 1984. antiarrhythmic agents: the modulated receptor mechanism of action of sodium and calcium channelbinding drugs. annu. rev. pharmacol. toxicol. 24, 387 – 423.
+horowitz, l.n., 1990. efficacy of  xxxd2669xxx  in malignant ventricular arrhythmia. am. j. cardiol. 65, 41d – 46d.
+
+141
+
+kaverina, n.v., senova, z.p., lyskovtsev, v.v., 1978. the antiarrhythmic
+properties of  xxxd2669xxx  (clinical and experimental study). kardiologica
+4, 67 – 71.
+langenfield, h., weirich, j., kohler, c., kochsiek, k., 1990. comparative
+analysis of action of class 1 antiarrhythmic drugs (lidocaine, quinidine,
+and prajmaline) in rabbit atrial and ventricular myocardium. j. cardiovasc. pharmacol. 15, 338 – 345.
+makielski, j.c., undrovinas, d.a., hanck, d.a., sheets, m.f., nestrenko,
+v.v., alpert, l.a., rosenshitraukh, l.v., fozzard, h.a., 1988. usedependent block of sodium current by  xxxd2669xxx  in voltage clamped
+internally perfused canine cardiac purkinje cells. j. mol. cell. cardiol.
+20, 255 – 265.
+makielski, j.c., nesterenko, v.v., nelson, w.l., undovinas, a.i., starmer,
+c.f., rosenshtraukh, l.v., 1990. state dependency of ethacizin and
+ xxxd2669xxx  block of sodium current in voltage clamped and internally perfused cardiac purkinje cells. j. pharmacol. exp. ther. 253,
+1110 – 1117.
+makita, n., bennett jr., p.b., george jr., a.l., 1996. multiple domains
+contribute to the distinct inactivation properties of human heart and
+skeletal muscle na+ channels. circ. res. 78, 244 – 252.
+morganroth, j., 1990. placement of  xxxd2669xxx  in the selection of antiarrhythmic drug therapy. am. j. cardiol. 65, 26d – 31d.
+raymond, l.w., morganroth, j., fogoros, r.n., mcmahon, f.g., humphries, j.o., mason, d.t., williams, r.l., 1987. pharmokinetics of  xxxd2669xxx  hcl. am. j. cardiol. 60, 35f.
+saeki, t., uchida, t., nishimura, m., fujinami, t., watanabe, y., 1994.
+block of na+ channel by  xxxd2669xxx  hydrochloride in isolated feline
+ventricular myocytes. eur. j. pharmacol. 261, 249 – 256.
+schubert, b., hering, s., bodwei, r., rosenshtraukh, l.v., wollenberger,
+a., 1986. use and voltage-dependent depression by  xxxd2669xxx  ( xxxd2669xxx ) of the rapid inward sodium current in single rat ventricular
+muscle cells. j. cardiovasc. pharmacol. 8, 358.
+starmer, c.f., grant, a.o., 1985. phasic ion channel block: a kinetic model
+and parameter estimation procedure. mol. pharmacol. 28, 348 – 356.
+tanaka, y., hisatome, i., miyamoto, j., urashima, t., ikeda, k., yamanouchi, y., sasaki, n., kinugawa, t., ogino, k., igawa, o., yoshida, a.,
+shigemasa, c., kurata, y., sato, r., 1999. enhancing effects of salicylate on tonic and phasic block of na+ channels by class 1 antiarrhythmic
+agents in the ventricular myocytes and the guinea pig papillary muscle.
+biochem. biophys. acta 1418, 320 – 334.
+undrovinas, a.i., shander, g.s., makielski, j.c., 1995. cytoskeleton modulates gating of voltage-dependent sodium channel in heart. am. j.
+physiol. 269, h203 – h214.
+voigt, w., mannhold, r., limberg, j., blaschke, g., 1988. interactions of
+antiarrhythmics with artificial phospholipid membrane. j. pharm. sci.
+77, 1018 – 1020.
+zipes, d.p., jalife, j., 1995. class 1 antiarrhythmic drugs: quinidine, procainamide, disopyramide, lidocaine, mexiletine,  xxxd3387xxx , phenytoin,
+ xxxd2669xxx ,  xxxd2113xxx , propafenone (chapter 12). cardiac electrophysiology, from cell to bedside, second ed. saunders, philadelphia, pennsylvania, pp. 1296 – 1317.
+

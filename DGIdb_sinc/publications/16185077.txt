@@ -1,0 +1,1019 @@
+biochemistry 2005, 44, 13091-13100
+
+13091
+
+dual substrate and reaction specificity in mouse  xxxg2204xxx : identification
+of high-affinity dicarboxylate substrate and inhibitors and analysis of the
+beta-eliminase activity†
+kvido střı́šovský,‡,§ jana jirásková,‡,| adriana mikulová,‡ lubomı́r rulı́šek,‡ and jan konvalinka*,‡,|
+institute of organic chemistry and biochemistry, academy of sciences of the czech republic, flemingovo nám. 2, praha 6,
+166 10, czech republic, and department of biochemistry, faculty of natural science, charles university, hlavova 2030,
+praha 2, czech republic
+received june 22, 2005; revised manuscript received july 29, 2005
+
+abstract: mouse  xxxg2204xxx  (msr) is a pyridoxal 5′-phosphate dependent enzyme that catalyzes
+the biosynthesis of the n-methyl-d-aspartate receptor coagonist  xxxd5xxx  in the brain. furthermore, msr
+catalyzes beta-elimination of serine and l-serine-o-sulfate into pyruvate. the biological significance of this
+beta-elimination activity and the factors influencing msr substrate and reaction specificity, which are crucial
+for prospective inhibitor design, are poorly understood. using a bacterial expression system and atpagarose affinity chromatography, we have generated a pure and active recombinant msr and investigated
+its substrate and reaction specificity in vitro by analyzing a systematic series of compounds derived from
+ xxxd3193xxx  and l-serine-o-sulfate. the analysis revealed several competitive inhibitors of serine racemization
+including glycine (ki ) 1.63 mm), several dicarboxylic acids including malonate (ki ) 0.077 mm), and
+l- xxxd2033xxx -3-hydroxyaspartate (ki ) 0.049 mm). the latter compound represents the most effective inhibitor
+of sr reported to date. a simple inversion of the beta-carbon configuration of the compound yields an
+excellent beta-elimination substrate l-threo-3-hydroxyaspartate. inhibition analysis indicates that racemization
+and beta-elimination activities of msr reside at the same active site. while the racemization activity is
+specific to serine, the beta-elimination activity has a broader specificity for l-amino acids with a suitable
+leaving group at the beta-carbon and optimal spatial orientation of the r-carboxyl and leaving groups. the
+possible implications of our observations for inhibitor design, regulation of activity, and function of msr
+are discussed.
+
+all known living organisms use l-amino acids as building
+blocks for ribosomal proteosynthesis. while d-amino acids
+occur commonly in bacteria, which synthesize and use them,
+for example, during cell wall peptidoglycan biosynthesis,
+they were considered not to have a role in higher organisms.
+however, research during the past decade has consistently
+revealed significant levels of  xxxd5xxx  in mouse and rat brains
+(1, 2), and  xxxd5xxx  has been found to act as a coagonist at
+the “glycine site” of the n-methyl-d-aspartate (nmda)1
+subtype of l-glutamate receptors occurring in the mammalian
+central nervous system (cns) (3-5). nmda receptor
+signaling is crucial for many physiological processes in
+mammals including brain development, learning, and memory
+†
+support from the czech ministry of education, youth and sports
+(grant lc512) is gratefully acknowledged.
+* corresponding author. tel/fax: +420-220-183-218. e-mail:
+jan.konvalinka@uochb.cas.cz.
+‡
+academy of sciences of the czech republic.
+§
+present address: mrc laboratory of molecular biology, hills
+road, cambridge cb2 2qh, u.k.
+|
+charles university.
+1 abbreviations: cns, central nervous system; ci, competitive
+inhibitor;  xxxg602xxx ,  xxxg602xxx ; dtt, dl-dithiothreitol; ldh,
+lactate dehydrogenase; lt3ha, l-threo-3-hydroxyaspartate; l-sos,
+l-serine o-sulfate; msr, mouse  xxxg2204xxx ; mgatp, equimolar
+mixture of mgcl2 and atp; nadh, beta- xxxd532xxx ; nmda, n-methyl-d-aspartate; plp, pyridoxal 5′phosphate; sem, standard error of the mean.
+
+(6-8). overactivation of nmda receptors leads to neuronal
+death and contributes to postischemic brain damage and
+neuropathologies. importantly, pharmacological blockers of
+the glycine site are protective in animal models of stroke
+(7).  xxxd5xxx  and glycine bind to the regulatory glycine site
+of nmda receptors with similar affinity, and their relative
+importance for physiological coactivation of nmda receptors is still a matter of debate (reviewed in refs 6 and 7).
+glycine is present in high intracellular concentration in all
+cells, and its extracellular concentrations in mammalian cns
+are buffered by several specific transporters.  xxxd5xxx  cns
+levels are particularly high before and shortly after birth and
+decline in adulthood (9). it is possible that both  xxxd5xxx  and
+gly are physiologically relevant for coactivation of nmda
+receptors with a distinct spatiotemporal pattern.
+the origin of  xxxd5xxx  in mammals was unclear until serine
+racemase, which catalyzes direct conversion of  xxxd3193xxx  to
+ xxxd5xxx , was isolated from rat brain (10). its orthologues
+displaying similar enzymatic properties were also found in
+mouse and human (11, 12), and it has been suggested to be
+responsible for  xxxd5xxx  biosynthesis in vivo. mouse serine
+racemase (msr) is a unique pyridoxal 5′-phosphate (plp)
+enzyme whose activity is dependent on divalent cations and
+stimulated by atp and, to a lesser extent, by adp, gtp,
+and other nucleoside triphosphates (13, 14). it forms dimers
+
+10.1021/bi051201o ccc: $30.25 © 2005 american chemical society
+published on web 09/02/2005
+
+13092 biochemistry, vol. 44, no. 39, 2005
+and tetramers in solution with a monomer molecular mass
+of about 37 kda (15, 16). we and others previously observed
+that msr not only racemizes serine but it also converts
+l-serine and l-serine-o-sulfate into pyruvate via its beta-elimination activity (13, 14, 16). the l-serine-o-sulfate beta-elimination activity of msr is about 2 orders of magnitude higher
+than both its serine racemization and beta-elimination activities
+(17). however, the factors regulating the reaction specificity
+of msr and the physiological significance of its beta-elimination activity in vivo remain poorly understood.
+in this work we aim to analyze substrate and reaction
+specificity of msr and to define the structural features
+important for the high-affinity binding of a ligand to serine
+racemase. to this end, we developed a prokaryotic expression
+system for msr, employed a novel application of cofactor
+affinity chromatography, and, using thereby highly purified
+and active recombinant enzyme, carried out inhibition
+analysis of a series of systematically varied l-serine and
+l-serine o-sulfate derivatives. among these, we identified
+several competitive inhibitors and several beta-elimination
+substrates.
+materials and methods
+dna cloning and protein expression. our escherichia
+coli expression system for msr employs the arabinoseinducible pmpm vector series (18). due to the presence of
+both ncoi and ecori sites within the msr coding sequence,
+these sites could not be used for cloning of the 5′-end of
+msr into pmpm-a4. therefore, the ncoi site in pmpma4 was mutated to ndei by pcr mutagenesis. the pmpma4 vector omega-interposon part was amplified using
+oligonucleotide primers 5′-gtgaaaggaggaattccatatggctctagagctttatgc-3′ and 5′-cgttctgatttaatctgtatcaggc-3′ and back-inserted into
+pmpm-a4 via ecori and xhoi restriction sites to yield
+pmpm-a4-2. the mouse  xxxg2204xxx  gene [genbank
+nucleotide accession number af148321 (12)] was pcramplified using oligonucleotides 5′-gacccacatatgtgtgctcagtactgcatc-3′ and 5′-tccccgcggctcgagttattaaacagaaaccgtctggta-3′ and inserted
+into pmpm-a4-2 via ndei and xhoi restriction sites to yield
+the expression construct pks-msr. the dna sequence of
+the insert was verified by automated dna sequencing using
+bigdye3.0 (amersham).
+recombinant msr was expressed in e. coli mc1061 (19)
+using nutrient-rich turbo medium (athena enzyme systems,
+baltimore, md). briefly, calcium chloride competent bacteria
+were transformed by pks-msr, plated onto lb agar plates
+containing ampicilin (100 µg/ml), and incubated at 37 °c
+for 18 h. the resulting colonies were washed off the plates
+and inoculated into the prewarmed growth medium containing ampicilin (100 µg/ml) to an od600 of ∼0.05. cultures
+were grown at 37 °c, 300 rpm, in an orbital shaker (new
+brunswick scientific). intensive aeration of the culture during
+the expression experiment was required for high msr
+expression. when the culture density reached od600 ) 0.8,
+msr expression was induced by the addition of 1 mm
+l-arabinose (sigma). after 5 h of induction bacteria were
+harvested by centrifugation (10000g, 10 min, 4 °c) and
+stored at -70 °c.
+purification of recombinant mouse  xxxg2204xxx .
+pellets of induced bacteria were suspended in qa buffer [20
+
+střı́šovský et al.
+mm triethanolamine hydrochloride-naoh, ph 7.0, 1 mm
+mgcl2, 20 µm pyridoxal 5′-phosphate, 0.1 mm dl-dithiothreitol, and 0.02% (w/v) nan3] using a glass dounce
+homogenizer at 3 ml/g of cell paste, supplemented with 1
+mm phenylmethanesulfonyl fluoride and the complete
+edta-free protease inhibitor mix (roche molecular biochemicals), and incubated with 0.2 mg/ml chicken egg
+lysozyme and 0.05% (w/v) sodium  xxxd1835xxx  for 30 min
+at room temperature. after the addition of 10 mm mgcl2
+and dnase i (roche molecular biochemicals) to 10 µg/ml
+and 30 min incubation at room temperature, the cell
+suspension was sonicated on ice 3 × 20 s with 20 s intervals
+between cycles. the resulting crude lysate was centrifuged
+at 20000g for 30 min at 4 °c. the supernatant was loaded
+onto a phenyl-sepharose fastflow (pharmacia) column
+preequilibrated in qa buffer. after being washed with three
+column volumes of qa buffer, msr was eluted with 50%
+(v/v) ethylene glycol in qa buffer, ph 7.0. the eluate was
+immediately diluted with an equal volume of qa buffer and
+applied to a q-sepharose fastflow (pharmacia) column
+preequilibrated in qa buffer. after being washed with five
+column volumes of qa buffer, msr was eluted in a linear
+salt gradient generated by qb buffer [20 mm triethanolamine
+hydrochloride-naoh, ph 7.0, 0.5 m nacl, 1 mm mgcl2,
+20 µm pyridoxal 5′-phosphate, 0.1 mm dl-dithiothreitol, and
+0.02% (w/v) nan3] at approximately 220-320 mm sodium
+chloride. the msr-containing fractions (whose intensively
+yellow color is an indication of bound pyridoxal 5′phosphate) were concentrated 10-fold using centriprep
+concentrators (millipore), diluted with qa buffer, reconcentrated 10-fold, and applied to the atp-agarose (sigma)
+column preequilibrated in qa buffer. the bound msr was
+eluted by 2 column volumes of 2 mm atp in qa buffer,
+concentrated to approximately 0.5 mg/ml as determined by
+the bio-rad protein assay (bio-rad laboratories gmbh,
+munich, germany), dialyzed three times against 200 volumes
+of qa buffer at 4 °c, and stored at -70 °c. concentration
+of pure msr was determined by quantitative amino acid
+analysis. the enzyme sample was hydrolyzed for 20 h in
+vacuo with 6 m hcl containing 3% phenol, dried, and
+analyzed using a biochrom 20 amino acid analyzer (pharmacia biotech) with ninhydrin detection of eluted amino
+acids.
+activity assays. enzymatic activities of msr were analyzed in a ph 8.0 reaction buffer containing 100 mm
+hepes-naoh, 10 µm pyridoxal 5′-phosphate, 1 mm
+mgcl2, 5 mm dl-dithiothreitol, and 1 mm atp. reactions
+typically proceeded for 30 min at 37 °c. as msr is unstable
+below ph 5 and easily precipitates (unpublished observations), the reactions were stopped by the addition of 20 µl
+of 1.875 m hclo4 to 100 µl of the reaction mixture. after
+centrifugation (15000g, 10 min, room temperature), the
+solution was neutralized by the addition of 20 µl of 1.875
+m koh and incubated on ice for 10 min, and the kclo4
+precipitate was separated by centrifugation. for analysis of
+amino acid racemization, 10 µl of 5 mm glycine was added
+as an internal standard to the neutralized supernatant, and
+the amino acid mixture was derivatized by 1-fluoro-2,4dinitrophenyl-5-l-alanine amide [marfey’s reagent (20, 21)]
+and resolved using reversed-phase hplc as described (16).
+formation of 2-oxo acids was determined either by
+spectrophotometric assay of nadh depletion accompanying
+
+substrate specificity of  xxxg2204xxx 
+their reduction to 2-hydroxy acids by lactate dehydrogenase
+and nadh (14) or by derivatization of reaction mixtures
+with 2,4-dinitrophenylhydrazine (13). the derivatization of
+50 µl of the reaction mixture by 50 µl of the dinitrophenylhydrazine solution was performed in the presence of 900
+µl of 50% (v/v) methanol at room temperature for 10 min.
+dinitrophenylhydrazones of r-oxo acids were resolved using
+reversed-phase hplc on zorbax extend c18 (agilent
+technologies) in a gradient of 40-85% methanol in 50 mm
+tetrabutylammonium hydroxide adjusted to ph 4.3 by
+ultrapure acetic acid and detected by uv absorption at 366
+nm (22). in this system, 2-oxo acids yielded stable patterns
+of more derivatives, and their quantification was based on
+the sum of the resulting peaks.
+enzyme kinetics. the steady-state initial velocities of
+enzyme reactions were determined by end point measurement
+of product. the dependence of initial velocities on initial
+substrate concentration was fitted into the michaelis-menten
+equation by nonlinear regression using grafit program,
+version 5 (erithacus software ltd., surrey, u.k.).
+computational details. all calculations were carried out
+with turbomole 5.6 software (23). the geometry optimizations were performed using a density-functional (dft) (24,
+25), tzvp basis set (26). the calculations were expedited
+by the resolution-of-identity (ri-j) approximation (27, 28)
+and carried out in a dielectric continuum ( ) 80, i.e.,
+representing water), using the conductor-like screening model
+(cosmo) (29-31).
+results
+preparation of recombinant msr: atp affinity chromatography. to study substrate specificity and inhibition of
+mouse  xxxg2204xxx  (msr), we have constructed an e.
+coli expression system using arabinose-inducible expression
+vector pmpm_a4omega (18). recombinant msr was expressed
+in e. coli as described in materials and methods. after cell
+lysis, msr was isolated from the soluble fraction of the cell
+lysate using hydrophobic and anion-exchange chromatography to yield an msr-enriched fraction (figure 1a, lane
+qs). this preparation was purified to homogeneity using
+atp affinity chromatography that we developed on the basis
+of the observation that atp binds and activates msr with a
+half-maximal activatory concentration ([mgatp]0.5) of 3-4
+µm without being hydrolyzed (13, 14). we tested msr
+binding to three commercially available atp-agarose supports, which differ in the site of attachment of the atp
+moiety to the agarose support. the c8-linked atp-agarose
+(figure 1b) was by far most efficient, followed by the n6linked one, whereas the 2′,3′-oh-linked atp-agarose did
+not bind msr at all (data not shown). the binding of msr
+to the c8-linked atp-agarose was inhibited by 0.5 m nacl,
+and it was therefore essential for the efficiency of the atp
+affinity chromatography to keep the ionic strength below 100
+mm. specific elution of msr from the affinity column was
+achieved by elution with 2 mm atp. thereby, purified msr
+was homogeneous on an overloaded sds-page (figure
+1a, lane aa). the overall yield was about 2 mg of pure
+msr/l of bacterial culture.
+automated n-terminal edman degradation analysis revealed that met1 and cys2 were removed from the recombinant msr by e. coli enzymes, presumably by methionine
+
+biochemistry, vol. 44, no. 39, 2005 13093
+
+figure 1: purification and characterization of recombinant mouse
+ xxxg2204xxx . (a) coomassie-stained sds-page gel showing
+the purification procedure after each stage: l, soluble fraction of
+bacterial lysate; ps, pooled fractions after phenyl-sepharose; qs,
+pooled fractions after q-sepharose; aa, final pure enzyme after
+atp-agarose. each lane contains 10 µg of protein. molecular mass
+standards are shown in the side lanes. (b) attachment of the atp
+moiety to the sepharose support used for the affinity chromatography in this study. (c) characterization of enzymatic activity of
+purified recombinant msr. a representative hyperbolic plot showing the dependence of the initial racemization rate on substrate (lser) concentration at ph 8.0, 10 µm plp, 1 mm mgatp, and 5
+mm dtt. the steady-state kinetic constants were calculated by
+nonlinear fitting of these data into the michaelis-menten equation.
+
+aminopeptidase, which has been shown to effectively remove
+the second amino acid after the initiator methionine if the
+third amino acid is small (gly, ala, ser) (32). maldi mass
+spectrometry of dialyzed pure msr yielded a single molecular mass peak at 36121.2 da. this value corresponds well
+to the predicted molecular mass of the ala3 to val339 fragment
+of msr, 36123.6 da, showing that no c-terminal proteolytic
+cleavage took place in e. coli. aggregation state analysis
+by gel permeation chromatography and analytical ultracentrifugation demonstrated that the enzyme forms dimers and
+tetramers in solution (data not shown), as found previously
+for both the native msr (13) and a recombinant msr from
+different expression systems (15). the minor n-terminal
+trimming of our recombinant msr thus did not significantly
+affect its oligomerization properties.
+kinetic characterization of the recombinant msr. to
+compare the enzymatic properties of our purified recombinant
+msr to those of the native enzyme and recombinant enzymes
+produced in other systems, we analyzed its enzymatic activity
+using the previously described substrates  xxxd3193xxx ,  xxxd5xxx , and
+ xxxd3193xxx -o-sulfate (11, 17). the analysis was carried out under
+1 mm mgatp, which might best reflect the in vivo
+conditions in glial cells (33), and at ph 8.0. the pure
+recombinant msr was stable following at least four freeze-
+
+13094 biochemistry, vol. 44, no. 39, 2005
+
+střı́šovský et al.
+
+table 1: kinetic characterization of recombinant msra
+reaction
+
+km (mm)
+
+kcat (min-1)
+
+kcat/km
+(min-1‚mm-1)
+
+ xxxd3193xxx  f  xxxd5xxx 
+ xxxd5xxx  f  xxxd3193xxx 
+ xxxd3193xxx  f pyruvate
+ xxxd5xxx  f pyruvate
+l-sos f pyruvate
+
+3.8 ( 0.1
+14.5 ( 1.1
+4.0 ( 0.5
+3.2 ( 0.3
+0.49 ( 0.05
+
+45.5 ( 0.5
+113 ( 3
+81.3 ( 2.8
+8.8 ( 0.2
+967 ( 17
+
+12.0 ( 0.4
+7.8 ( 0.6
+20.3 ( 2.6
+2.7 ( 0.4
+1973 ( 205
+
+a
+measurements were carried out at ph 8.0, 10 µm plp, 5 mm dtt,
+and 1 mm mgatp at 37 °c as described under materials and methods.
+the kinetic parameters of known msr substrates undergoing racemization or beta-elimination were determined by nonlinear regression fitting
+of initial reaction rates into the michaelis-menten equation. values
+are represented as the mean ( sem.
+
+thaw cycles, and it preserved full activity during 5 h
+incubation in the assay buffer at 37 °c (data not shown).
+on the basis of these observations and the application of a
+bioaffinity purification step, we assumed that the purified
+msr preparation contained only active species, and we
+considered its analytical concentration as determined by
+amino acid analysis identical to the concentration of active
+msr needed for kcat calculation. a representative michaelismenten kinetics hyperbolic plot showing dependence of the
+initial reaction rates of  xxxd3193xxx  racemization on the initial  xxxd3193xxx 
+concentration is depicted in figure 1c. likewise, we have
+determined the steady-state kinetic parameters for racemization and beta-elimination of  xxxd3193xxx ,  xxxd5xxx , and  xxxd3193xxx -o-sulfate
+(table 1). racemization was assayed by chemical modification of the reaction mixture by n-r-(2,4-dinitro-5-fluorophenyl)-l-alanine amide (marfey’s reagent) and hplc separation
+of the resulting diastereoisomers. pyruvate concentration was
+determined either by spectrophotometric assay of nadh
+depletion accompanying the reduction of pyruvate to lactate
+by lactate dehydrogenase (ldh) and nadh ( xxxd3193xxx -osulfate,  xxxd3193xxx ) or by dinitrophenylhydrazine derivatization
+and hplc analysis ( xxxd5xxx ,  xxxd3193xxx ).
+it is evident that  xxxd3193xxx  displays nearly equal km values
+for both racemization and beta-elimination. in contrast, the km
+values for  xxxd5xxx  racemization and beta-elimination are significantly different, and the kcat of  xxxd5xxx  beta-elimination is an order
+of magnitude lower than that of its racemization. in
+particular, the km value of  xxxd5xxx  beta-elimination is comparable
+to the km values for  xxxd3193xxx  racemization and beta-elimination,
+while the km value for  xxxd5xxx  racemization is about four times
+higher. while  xxxd3193xxx -o-sulfate is effectively beta-eliminated by
+msr, its racemization was not observed. the substrate
+selectivity constant (kcat/km) for  xxxd3193xxx -o-sulfate beta-elimination
+is about 2 orders of magnitude higher than those of any
+reaction involving serine, and the apparent affinity of l-sero-sulfate for the enzyme (km) is 1 order of magnitude higher
+than that of serine. therefore, we asked which substrate
+features are responsible for its high affinity for the enzyme
+active site, which substrate features determine the reaction
+specificity of msr, and whether the racemization and
+beta-elimination activites reside in a single active site or separate
+active sites within msr oligomers.
+specificity mapping of active site ligand binding to msr.
+to analyze the substrate and reaction specificity of serine
+racemase, we studied a panel of systematically modified
+compounds derived from the two known substrates,  xxxd3193xxx 
+and  xxxd3193xxx -o-sulfate, and quantified their ability to interfere
+with  xxxd3193xxx  racemization. the structures of selected com-
+
+figure 2: mapping the structural requirements for compound
+interaction with msr. influence of selected compounds on msrcatalyzed  xxxd3193xxx  racemization. both  xxxd3193xxx  and the tested compounds
+were 5 mm. group i is comprised of serine derivatives, group ii
+includes derivatives and analogues of  xxxd3193xxx -o-sulfate, and group
+iii represents variations of the group ii skeleton devoid of the
+r-amino group. the compounds found to act as msr substrates or
+competitive inhibitors are denoted s and ci, respectively.
+
+pounds were grouped into three subsets. group i compounds
+can be described as  xxxd3193xxx  derivatives in which individual
+functional groups such as -oh, -ch2-oh, -cooh, and
+-nh2 were removed or replaced to yield different derivatives. likewise, group ii compounds represent  xxxd3193xxx -osulfate derivatives with the -oso3h group replaced by its
+structural analogues. finally, group iii compounds represent
+structural and configurational variations of the group ii
+skeleton devoid of the r-amino group.
+all compounds were first prescreened for inhibition of
+ xxxd3193xxx  racemization, as we assumed that those interacting with
+the active site of msr, whether inhibitors or substrates, will
+inhibit  xxxd3193xxx  racemization in proportion to the magnitude of
+their binding affinity. the tested compounds and  xxxd3193xxx  were
+equimolar at 5 mm, which is slightly higher than the km of
+ xxxd3193xxx  (3.8 mm in the conditions used, table 1). in this setup,
+the assay is sensitive to inhibitors with an affinity comparable
+to or better than that of  xxxd3193xxx . the primary results of the
+ligand prescreening are summarized in figure 2.
+a few compounds (acetate, ethanolamine, and  xxxd5xxx -ophosphate) activated msr by 10-15%, but this effect was
+considered weak and was not analyzed further. the compounds that inhibited  xxxd3193xxx  racemization by a factor of 3 or
+more relative to the control, which would correspond to a
+ki of ∼1-2 mm in the case of competitive inhibition (as
+estimated from the experimental setup, kinetic parameters
+of  xxxd3193xxx  racemization, and a competitive inhibition model),
+were further analyzed for their inhibition mechanism and
+inhibitory constants.
+using lineweaver-burk analysis, glycine (figure 3a),
+ xxxd1788xxx -s-sulfate, l- xxxd231xxx  xxxd2033xxx -3-hydroxyaspartate
+(figure 3a), meso-tartrate, dihydroxyfumarate, maleate, and
+malonate were found to be competitive inhibitors of  xxxd3193xxx 
+racemization (denoted ci in figure 2), and their ki values
+are summarized in table 2.
+
+substrate specificity of  xxxg2204xxx 
+
+biochemistry, vol. 44, no. 39, 2005 13095
+
+figure 3: compounds inhibiting  xxxd3193xxx  racemization by a factor of 3 or more relative to the control were analyzed by for their mode of
+inhibition and their inhibitory constants. (a) the lineweaver-burk plot for glycine and l- xxxd2033xxx -3-hydroxyaspartate is shown as an
+example. (b) the steady-state kinetic parameters of the compounds acting as msr substrates were determined by nonlinear regression from
+hyperbolic plots. a representative plot for l-threo-3-hydroxyaspartate is shown. kinetic constants are summarized in table 3. (c)  xxxd3193xxx 
+racemization and elimination occur at the same active site. the eadie-hofstee plot shows that l- xxxd2033xxx -3-hydroxyaspartate is a competitive
+inhibitor of  xxxd3193xxx  elimination. measurements were carried out at ph 8.0, 10 µm plp, 1 mm mgatp, and 5 mm dtt.
+
+other inhibiting compounds shown in figure 2 are
+expected to be weaker but competitive as well because they
+are all structurally similar to the competitive inhibitors listed
+in table 2. some of the interacting compounds shown in
+figure 2 are in fact substrates of the enzyme. their inhibitory
+activities are only indicative and cannot be directly compared
+since the compounds are being eliminated during the analysis
+and their concentration does not remain constant. the kinetic
+constants of those compounds are summarized in table 3
+(see below).
+a minimal ligand: glycine is a competitive inhibitor of
+msr. the analysis of  xxxd3193xxx  derivatives (group i compounds,
+figure 2) shows that the replacement of the hydroxyl group
+from the beta-carbon of  xxxd3193xxx  by the electronegative -cl atom
+preserves binding to msr, but only in the case of the
+l-isomer. its replacement by a less electronegative and less
+polar -sh group to yield  xxxd1788xxx  diminishes the affinity of
+the compound to msr.  xxxd1788xxx  does not interact with msr
+under these conditions. furthermore, when the beta-hydroxyl
+group of  xxxd3193xxx  is removed to yield  xxxd2428xxx , the inhibition of
+msr is virtually lost. however, removal of the beta-carbon of
+the inert  xxxd2428xxx  results in competitively inhibiting gly with
+a ki value of 1.64 mm (table 2). the removal of the
+r-amino group of glycine, its replacement by a hydroxyl,
+or removal of its carboxyl group prevents binding of the
+resulting acetate,  xxxd2219xxx , and ethanolamine, respectively,
+whereas replacement of the r-amino group by an oxo group,
+as in glyoxylate, preserves some binding. it is intriguing that
+
+the smallest and ubiquitous amino acid glycine binds msr
+with such a relatively high affinity. assuming that substrate
+binding to a plp-dependent enzyme is faster than any
+subsequent catalytic steps (34), we can approximate the  xxxd3193xxx 
+substrate dissociation constant ks by its michaelis constant
+km (35, 36). under this assumption, glycine would have
+about 2.4-fold higher affinity for msr than  xxxd3193xxx .
+l- xxxd2033xxx - and l-threo-3-hydroxyaspartates: a highaffinity msr inhibitor and an efficient substrate differing
+in a single carbon configuration. for group ii, all substitutions to the terminal -o-so3h group of  xxxd3193xxx -o-sulfate
+decrease the inhibitory properties of the compounds (figure
+2), and the d-isomers of the studied  xxxd3193xxx -o-sulfate analogues
+do not inhibit  xxxd3193xxx  racemization under these conditions at
+all. the cysteine analogues of  xxxd3193xxx -o-sulfate,  xxxd1788xxx -ssulfate and its derivatives l-cysteinesulfinate and l-homocysteate, are stronger inhibitors of msr than those l-sero-sulfate derivatives in which the whole terminal sulfo group
+is substituted by a phospho, acetyl, or a carboxymethyl group
+to yield  xxxd3193xxx -o-phosphate,  xxxd3193xxx -o-acetate, and  xxxd2431xxx ,
+respectively. interestingly,  xxxd1788xxx -s-sulfate is not a substrate
+for elimination by msr.
+although  xxxd2431xxx  inhibits msr weakly, its one methylene
+shorter analogues,  xxxd233xxx  and  xxxd231xxx , are significantly stronger
+inhibitors.
+the addition of a beta-hydroxyl group to  xxxd233xxx  (to partially
+mimic the natural substrate  xxxd3193xxx ) yields hydroxyaspartate,
+a molecule with two chiral centers and four diastereoisomers.
+
+13096 biochemistry, vol. 44, no. 39, 2005
+table 2: competitive inhibition of msra
+
+a the compounds inhibiting  xxxd3193xxx  racemization by a factor of 3 or
+more relative to control (figure 2) were subjected to lineweaverburk plot analysis, and all were found to be competitive. measurements
+were carried out at ph 8.0, 10 µm plp, 5 mm dtt, and 1 mm mgatp
+at 37 °c. inhibitory constants are given as the mean ( sem.
+
+while l-threo-3-hydroxyaspartate (2s,3s) inhibits  xxxd3193xxx 
+racemization moderately and d-threo-3-hydroxyaspartate
+(2r,3r) shows no significant synergistic effect in our assay
+(figure 2), the l- xxxd2033xxx  isomer of 3-hydroxyaspartate
+(2s,3r) is the strongest competitive inhibitor of  xxxd3193xxx 
+racemization among all analyzed compounds (ki ) 0.049
+mm, figure 3a and table 2) and the strongest competitive
+inhibitor of msr described so far. its affinity to msr is
+approximately 30 times higher than that of glycine and about
+80 times higher than the affinity of the natural substrate  xxxd3193xxx 
+(compare tables 2 and 1). the fact that l- xxxd2033xxx -3hydroxyaspartate is a stereoisomer of an efficient beta-elimination substrate and it is a competitive inhibitor of both  xxxd3193xxx 
+racemization and elimination (figure 3c) suggests that the
+racemization and beta-elimination occur at the same active site.
+msr is competitively inhibited by three- and fourcarbon dicarboxylates. to explore in detail the conformational requirements of a dicarboxylate ligand for binding to
+msr, we analyzed a systematic series of dicarboxylic acids
+for their ability to inhibit msr (figure 2, group iii). these
+compounds lack the r-amino group and as such are not
+
+střı́šovský et al.
+substrates of msr in racemization or beta-elimination reactions.
+it seems that if hydroxyl substituents are present at carbons
+2 and 3, the (r,s) isomer of the compound exhibits the
+highest affinity for msr. this is documented by the three
+isomers of tartaric acid. while l-tartrate (r,r), which is
+isosteric with d-threo-3-hydroxyaspartate, virtually does not
+inhibit msr, d-tartrate (s,s), an isostere of l-threo-3hydroxyaspartate, is a medium-strength inhibitor in our assay
+(figure 2) and meso-tartrate (r,s), which sterically corresponds to  xxxd2033xxx -3-hydroxyaspartate, is the highest affinity
+inhibitor of the tartrate series (ki ) 0.66 mm; see table 2).
+dihydroxyfumarate, which exists in aqueous solution as
+2(rs)-hydroxy-3-oxo- xxxd3251xxx  and is stereochemically related to meso-tartrate, shows strong competitive
+inhibition (ki ) 0.69 mm). it must be mentioned that the
+replacement of the r-amino group in l- xxxd2033xxx -3-hydroxyaspartate (ki ) 0.049 mm) by an isosteric hydroxyl, as
+occurs in meso-tartrate, reduces the affinity for msr by an
+order of magnitude (ki ) 0.66 mm). the presence of only
+a single hydroxy or amino substituent at carbon 2 does not
+seem to improve binding to the active site of msr, since
+succinate inhibits msr to the same extent as l-malate and
+oxalacetate and even more potently than d-malate,  xxxd231xxx ,
+or  xxxd233xxx  (figure 2).
+next, we analyzed a series of conformationally restricted
+dicarboxylates. interestingly, while fumarate (trans-butenedioic acid) is a very weak inihibitor of msr, maleate (cisbutenedioic acid) is a strong competitive inhibitor (ki ) 0.55
+mm) and malonate ( xxxd2537xxx ) has an even higher
+affinity than maleate (ki ) 0.071 mm). the fact that oxalate
+inhibits msr even more weakly than fumarate demonstrates
+that although chelation of  xxxd2531xxx  by dicarboxylates
+might contribute to msr inhibition, it is definitely not the
+main factor, since oxalate, the strongest chelator (36), is the
+least efficient inhibitor of the series. we propose that the
+mutual spatial orientation of the two carboxyl groups in a
+dicarboxylate contributes more to msr binding affinity than
+do the functional amino and hydroxy groups at the carbon
+backbone of the compound.
+msr beta-elimination activity is specific to l-amino acids
+with an electronegative beta-carbon substituent. while several
+compounds from the analyzed set were found to be competitive inhibitors of  xxxd3193xxx  racemization, only the compounds
+having an r-amino group in the l-configuration and a
+suitable leaving group at their beta-carbon could act as msr
+substrates (figure 2). whereas beta-cl- xxxd2428xxx ,  xxxd3361xxx , and
+l-threo-3-hydroxyaspartate are efficiently beta-eliminated to
+pyruvate, 2- xxxd64xxx , and oxalacetate, respectively (see
+table 3), only threonine undergoes epimerization ( xxxd3361xxx  to
+d-allo-thr and d-thr to l-allo-thr). however, the initial rates
+of  xxxd3361xxx  racemization are less than 10% of those of its
+beta-elimination, which prohibits accurate determination of
+steady-state kinetic parameters of the former process. the
+d-isomers of the studied amino acids were not converted to
+the corresponding 2-oxo acids at a measurable rate with the
+exception of  xxxd5xxx .
+comparison of the kinetic parameters for beta-elimination
+of beta-cl- xxxd2428xxx ,  xxxd3361xxx , and l-threo-3-hydroxyaspartate (table
+3) with those of the  xxxd3193xxx  and  xxxd3193xxx -o-sulfate beta-elimination
+reactions (table 1) suggests that the kcat of the beta-elimination
+reaction increases in proportion to the stability of the anion
+that is released from the beta-carbon and the electrophilicity
+
+substrate specificity of  xxxg2204xxx 
+
+biochemistry, vol. 44, no. 39, 2005 13097
+
+table 3: kinetic characterization of newly identified msr
+beta-elimination substratesa
+reaction
+
+km (mm)
+
+kcat (min-1)
+
+kcat/km
+(min-1‚mm-1)
+
+beta-cl- xxxd2428xxx  f pyruvate
+lt3ha f oxalacetate
+ xxxd3361xxx  f 2- xxxd64xxx 
+
+1.6 ( 0.4
+1.0 ( 0.1
+48 ( 5
+
+155 ( 10
+1860 ( 60
+627 ( 25
+
+97 ( 13
+1788 ( 214
+13.1 ( 1.5
+
+a measurements were carried out at ph 8.0, 10 µm plp, 5 mm dtt,
+and 1 mm mgatp at 37 °c. the 2-oxo acid product formation was
+detected spectrophotometrically as the decrease in absorbance at 340
+nm caused by ldh-catalyzed nadh oxidation upon the 2-oxo acid
+reduction into 2-hydroxy acid as described under materials and
+methods. the steady-state kinetic parameters were determined by
+nonlinear regression fitting of initial reaction rates into the michaelismenten equation. values are given as the mean ( sem.
+
+figure 5: equilibrium geometries of msr amino acid substrates:
+(a) l-serine, (b)  xxxd3193xxx -o-sulfate, (c) l-threo-3-hydroxyaspartate, (d)
+ xxxd3361xxx , and inhibitor, (e) l- xxxd2033xxx -3-hydroxyaspartate.
+
+figure 4: equilibrium geometries of the conformationally restricted
+dicarboxylate inhibitors of msr: (a) fumarate, (b) maleate, (c)
+malonate, and (d) oxalate. all distances are in angstroms. the
+corresponding ki values are given.
+
+of the beta-carbon (kcat for  xxxd3193xxx  < beta-cl- xxxd2428xxx  <  xxxd3193xxx -o-sulfate
+< l-threo-3-hydroxyaspartate). this correlation between kcat
+values and beta-carbon electrophilicity/leaving group stability
+might reflect the thermodynamics of the catalyzed chemical
+reaction. the specificity of the enzyme reaction is further
+influenced by the proper alignment of the substrate carbon
+backbone with the enzyme active site (compare kcat for  xxxd3193xxx 
+<  xxxd3361xxx  < l-threo-3-hydroxyaspartate in table 3). l-threo3-hydroxyaspartate conversion to oxalacetate has the highest
+kcat of all substrates analyzed: about 23 times higher than
+that of  xxxd3193xxx  to pyruvate and two times higher than that of
+ xxxd3193xxx -o-sulfate to pyruvate elimination. interestingly, a
+simple switch of the beta-hydroxyl configuration in l-3hydroxyaspartate transforms the beta-elimination substrate
+l-threo-3-hydroxyaspartate into l- xxxd2033xxx -3-hydroxyaspartate, the strongest competitive inhibitor described to date.
+qualitative structural characteristics of msr ligands. to
+explore the stereochemical relationships between the individual msr ligands, we used quantum chemical calculations
+to obtain equilibrium geometries for the series of conformationally restricted dicarboxylates (figure 4) as well as for
+msr substrates l- xxxd3193xxx serine-o-sulfate, l-threo-3-hydroxyaspartate, and  xxxd3361xxx  and the inhibitor l-erythro3-hydroxyaspartate (figure 5). all of the reported optimized
+
+structures correspond to the protonation states at ph 7, i.e.,
+carboxylates deprotonated and amino group protonated
+(nh3+). the equilibrium geometries correspond to an aqueous environment, as they were optimized in the dielectric
+cavity with r ) 80, which is a necessary prerequisite for
+obtaining the stable zwitterionic forms [such structures tend
+to neutralize in in vacuo calculations, forming (nh2, cooh)
+tautomers]. although the minimized structures reflect the
+lowest energy conformations of free compounds in water
+and do not take into account the interaction with the enzyme,
+some valid observations can be made.
+from the structural analysis of the studied conformationally restricted dicarboxylates, it is evident that for efficient
+binding to msr the optimal distance between carboxyl
+carbons is represented by malonate (2.60 å) and maleate
+(3.16 å) (compare table 2 and figure 4). other dicarboxylates can adopt their conformation accordingly, e.g., succinate
+(compare figure 2), but it will always be at certain energetic
+cost unless the molecule is inherently structurally constrained
+in a favorable way, as is the case of maleate and malonate.
+a high degree of similarity between l-threo-3-hydroxyaspartate (2s,3s) and  xxxd3361xxx  (2s,3r) can be seen in
+the equilibrium conformations of msr substrates (figure 5).
+except for the presence of a carboxylate group in l-threo3-hydroxyaspartate, the structures are virtually identical,
+which can explain why they are both msr substrates.
+however, the presence of the second carboxylate in l-threo3-hydroxyaspartate (in place of a methyl group in  xxxd3361xxx )
+probably ensures a higher affinity for msr (compare km’s
+in table 2). interestingly, the equilibrium conformation of
+the inhibitor l- xxxd2033xxx -3-hydroxyaspartate (2s,3r) significantly differs from that of its threo isomer. in the former,
+both of its carboxylates participate in two strong hydrogen
+bonds: one interacts with the oh group and the other with
+the nh3+ group. in contrast to l-threo-3-hydroxyaspartate
+(2s,3s), all three atoms (x-h‚‚‚y) in the two strong
+intramolecular hydrogen bonds of l- xxxd2033xxx -3-hydroxyaspartate (2s,3r) are in their optimal positions. as a
+consequence, it is thermodynamically more stable by 33 kj/
+mol and has more restricted conformational flexibility (or
+higher rigidity) than the substrate, l-threo-3-hydroxyaspartate
+(2s,3s). the lower thermochemical stability of l-threo-3hydroxyaspartate (2s,3s) can be considered as a favorable
+
+13098 biochemistry, vol. 44, no. 39, 2005
+factor for the beta-elimination reaction. since beta-elimination of
+both isomers would result in optically inactive compounds,
+the excess internal energy of approximately 30 kj/mol in
+favor of (2s,3s) isomers can be used as the driving force
+for the enzymatic reaction.
+discussion
+recent findings suggest that mouse  xxxg2204xxx  is a
+bifunctional enzyme that produces both  xxxd5xxx  and pyruvate
+from  xxxd3193xxx  in vivo, the latter activity being higher than the
+former (13, 14, 16, 33). the biological significance of this
+phenomenon and its relevance for the physiological role of
+msr are unclear. to obtain a better insight into msr
+catalysis and its regulation, we generated recombinant mouse
+ xxxg2204xxx  of high purity and specific activity and
+investigated in detail its substrate and reaction specificity in
+vitro.
+while the km value for  xxxd3193xxx  racemization of our
+recombinant msr corresponds well to values obtained by
+other researchers using recombinant msr from different
+sources, its kcat value is about 20-fold higher than for purified
+recombinant msr produced in bacteria or mammalian cells
+(33). this difference could be attributed partly to application
+of our newly developed atp affinity chromatography that
+enriched the msr preparation in the species of native fold
+and intact atp binding site and partly to different assay
+conditions used in the study of foltyn et al. (33), which was
+carried out in the absence of reducing agents and at neutral
+ph. in those conditions msr is much less active than at ph
+8.0 and in the presence of sh-reducing agents, the environment in which our measurements were conducted (10, 13,
+16). furthermore, since msr activity is stimulated by atp
+(13, 14), we conducted all of our kinetic experiments in the
+presence of saturating concentrations of mgatp, as this may
+closely resemble physiological conditions (33).
+the substrate and inhibitor specificity analysis in this
+report shows that glycine, which lacks any side chain, is a
+competitive inhibitor of msr with approximately 2-fold
+higher affinity to msr than the natural substrate l-serine
+(tables 1 and 2). furthermore, several dicarboxylates, which
+lack an r-amino group, are even stronger competitive
+inhibitors than glycine itself. both findings are consistent
+with a recent report of dunlop and neidle (38), who found
+that glycine,  xxxd233xxx ,  xxxd231xxx , and oxalacetate
+competitively inhibit  xxxd3193xxx  racemization by native msr
+isolated from mouse brain. our work extends these observations by showing that oxalacetate is the product of l-threo3-hydroxyaspartate beta-elimination and that three- to fourcarbon dicarboxylates are moderate to strong msr ligands,
+depending on the spatial distance of the two carboxyl groups
+and their conformational flexibility (figure 2, table 2). in
+previous work by others, the inhibition of msr by glycine,
+ xxxd233xxx , and asparagine was not observed, while strong
+inhibition by l-lysine and cysteine was reported (15, 17). in
+contrast, we reproducibly observed only weak inhibition by
+l-cysteine (figure 2) and no inhibition by l-lysine (not
+shown), which is, however, consistent with recent reports
+using native msr isolated from brain (13, 38). glycine
+inhibition might be important for msr activity regulation
+in vivo since glycine is found in astrocytes at relatively high
+concentrations of about 3-6 mm (39, 40), which would be
+
+střı́šovský et al.
+sufficient to significantly inhibit  xxxg2204xxx  activity. a
+possible solution to this apparent incongruity would be that
+ xxxg2204xxx  and glycine show different compartmentation
+within the astrocyte cytosol.
+our analyses suggest that the beta-elimination activity of
+msr is specific to l-amino acids containing an electronegative substituent at the beta-carbon and that it is always higher
+than the racemization activity toward a given substrate.
+whereas we observe efficient beta-elimination of  xxxd3193xxx , beta-cll-ala,  xxxd3361xxx ,  xxxd3193xxx -o-sulfate, and l-threo-3-hydroxyaspartate, the d-isomers of these amino acids were not beta-eliminated with the exception of  xxxd5xxx . however, its beta-elimination
+is 7.5-fold less efficient than that of  xxxd3193xxx  (kcat/km, table
+1), and it is the only d-isomer of the above-mentioned amino
+acids that shows comparable racemization and beta-elimination
+rates. furthermore, both racemization and beta-elimination
+activities are competitively inhibited by l- xxxd2033xxx -3-hydroxyaspartate (figure 3a,c). it is therefore conceivable that the
+low level of pyruvate formed from  xxxd5xxx  might originate
+from beta-elimination of  xxxd3193xxx  produced from  xxxd5xxx  by its
+racemization. this model would still be consistent with the
+conclusion of foltyn et al., who recently reported that serine
+racemase decreases  xxxd5xxx  levels in vivo by  xxxd5xxx  beta-elimination to pyruvate (33).
+there are several examples of pyridoxal 5′-phosphate
+(plp) dependent enzymes that act on amino acids and display
+ambiguous reaction specificities. in the plp-dependent
+enzymes the common initial reaction intermediate, the
+external aldimine, may undergo isomerization and destabilization at different sites, which results in different reaction
+specificities (34, 41). for example, r-amino acid decarboxylases can catalyze transaminations (42), aspartate aminotransferase racemization (43), tryptophan synthase has been shown
+to catalyze racemization and transamination (44), and glycine
+hydroxymethyltransferase catalyzes r-decarboxylation (45),
+transamination, and racemization (46) as side reactions.
+however, the side reactions of plp-dependent enzymes are
+typically about 1-2 or more orders of magnitude slower than
+the “main” reaction. this is not the case with msr, with
+which the beta-elimination activity toward all known substrates
+is either comparable to ( xxxd3193xxx ) or higher than the racemization activity. the high beta-elimination activity of msr
+corresponds to its significant sequence similarity to serine/
+threonine dehydratases and less significant similarity to other
+racemases (12). proteins showing sequence similarity to msr
+also occur in organisms that do not even have nmda
+receptors such as saccharomyces cerevisiae or arabidopsis
+thaliana. interestingly, the msr homologue from s. cerevisiae was shown to have an l-threo-3-hydroxyaspartate
+dehydratase activity but failed to racemize serine (47).
+it is not clear what the physiological significance of msr
+beta-elimination activity is. it is likely of no importance for
+energy metabolism, as glycolysis produces approximately
+1000 times more pyruvate than could be produced by msr
+[based on the observed turnover of  xxxd5xxx  in brain (38)]. it
+has been recently suggested that the beta-eliminase activity of
+msr could regulate intracellular  xxxd5xxx  levels in vivo by
+balancing the rates of its synthesis from  xxxd3193xxx  and degradation into pyruvate (33). considering that  xxxd5xxx  beta-elimination
+activity of msr is about 1 order of magnitude lower than
+ xxxd3193xxx  beta-elimination activity in our experiments, appreciable
+ xxxd5xxx  degradation, be it through direct beta-elimination of  xxxd5xxx 
+
+substrate specificity of  xxxg2204xxx 
+or through its racemization and subsequent beta-elimination of
+ xxxd3193xxx  (the racemization product), could only be observed if
+the  xxxd5xxx  concentration locally approaches or exceeds that
+of  xxxd3193xxx . this model again implies the necessity of a
+particular compartmentation of msr within the cytosol. it
+is intriguing that msr is expressed also in liver (12), where
+no  xxxd5xxx  is needed for neurotransmission and where high
+levels of  xxxg602xxx  ( xxxg602xxx ) activity are present
+(48). conceivably, the role of the msr in liver might be
+degradatory, relying on its beta-elimination activity of  xxxd5xxx 
+or other amino acids related to l-threo-3-hydroxyaspartate.
+the role of hydroxyaspartates in vivo remains unknown.
+there are reports based on amino acid analysis and thinlayer chromatography that describe high concentrations of
+hydroxyaspartate in the cerebrospinal fluid of human patients,
+but the exact stereochemistry of the compound was not
+determined (49, 50). an enzymatically active isolate from
+rabbit skeletal muscle that catalyzes the synthesis of l-erythro3-hydroxyaspartate from dihydroxyfumarate and l-glutamate
+(51) has been reported. l-threo-3-hydroxyaspartate has been
+used in neurobiology as a competitive inhibitor of lglutamate high-affinity transporters (52). when exogenously
+added to neocortical minislices, it can accumulate within the
+ xxxd233xxx  and  xxxd2431xxx  secretion pool and be secreted in a
+potassium- and calcium-dependent manner (53). it has been
+observed that in vivo a local administration of l-threo-3hydroxyaspartate together with malonate induces rigidity in
+rats and damages neurons in some parts of the brain (54).
+exogenously added l-threo-3-hydroxyaspartate apparently
+inhibits the inward transport of  xxxd2431xxx  from extracellular space
+and thus causes glutamate excitotoxicity and subsequent
+damage to adjacent neurons. we cannot exclude the presence
+of endogenous l-threo-3-hydroxyaspartate in vivo. if that
+was the case, it would be attractive to speculate that
+glutamate signaling in the cns might be modulated by this
+endogenous glutamate transport inhibitor.  xxxg2204xxx 
+would then have a dual role in this scheme: producing a
+coactivator of nmda receptors,  xxxd5xxx , and downregulating the levels of l-threo-3-hydroxyaspartate, an inhibitor
+of glutamate retrotransport, to prevent glutamate excitotoxicity.
+our inhibitor analysis reveals that the most important
+structural feature for binding to msr is the presence of two
+adjacent carboxylates with optimal c-c distances of 2.63.2 å. the presence of an r-amino group and a beta-hydroxyl
+or another suitable leaving group at the beta-carbon further
+increases the affinity of the ligand for msr and is necessary
+to make a compound a  xxxg2204xxx  substrate. interestingly, inversion of configuration at the beta-carbon transforms
+the most efficient beta-elimination substrate, l-threo-3-hydroxyaspartate (table 3), into the most potent competitive inhibitor
+of sr, the l- xxxd2033xxx -3-hydroxyaspartate (table 2). it has to
+be pointed out that malonate is almost as potent an inhibitor
+as l- xxxd2033xxx -3-hydroxyaspartate even though it does not have
+an r-amino group.
+these structural considerations are only qualitative, and
+the interactions of the compounds with the enzyme may
+thermodynamically compensate for the internal stabilization
+effects predicted by quantum chemical calculations. we
+propose that binding to msr constrains the position of the
+two carboxylate groups of a hydroxyaspartate diastereoisomer
+in a close proximity (as seen in maleate and malonate) and
+
+biochemistry, vol. 44, no. 39, 2005 13099
+the r-amino group becomes fixed in the external aldimine
+formed with plp. as a consequence, the l-threo and
+l- xxxd2033xxx  isomers of 3-hydroxyaspartate have their beta-hydroxyl pointing in different directions when bound to the
+enzyme, and only the l-threo-3-hydroxyaspartate beta-hydroxyl
+is suitably juxtapositioned to an active site residue to enable
+catalysis. this model could have significant implications for
+prospective msr inhibitor design.
+acknowledgment
+we thank solomon h. snyder for mouse  xxxg2204xxx 
+dna, matthias p. mayer and tomáš moravec for the pmpm
+expression vectors, cyril bařinka and pavel majer for help
+and discussions, karel ubik for mass spectrometry, and
+hillary hoffman for language corrections.
+references
+1. hashimoto, a., nishikawa, t., hayashi, t., fujii, n., harada, k.,
+oka, t., and takahashi, k. (1992) the presence of free  xxxd5xxx 
+in rat brain, febs lett. 296, 33-36.
+2. hashimoto, a., nishikawa, t., konno, r., niwa, a., yasumura,
+y., oka, t., and takahashi, k. (1993) free  xxxd5xxx , d-aspartate
+and d-alanine in central nervous system and serum in mutant mice
+lacking  xxxg602xxx , neurosci. lett. 152, 33-36.
+3. matsui, t., sekiguchi, m., hashimoto, a., tomita, u., nishikawa,
+t., and wada, k. (1995) functional comparison of  xxxd5xxx  and
+glycine in rodents: the effect on cloned nmda receptors and
+the extracellular concentration, j. neurochem. 65, 454-458.
+4. schell, m. j., brady, r. o., jr., molliver, m. e., and snyder, s.
+h. (1997)  xxxd5xxx  as a neuromodulator: regional and developmental localizations in rat brain glia resemble nmda receptors,
+j. neurosci. 17, 1604-1615.
+5. mothet, j. p., parent, a. t., wolosker, h., brady, r. o., jr., linden,
+d. j., ferris, c. d., rogawski, m. a., and snyder, s. h. (2000)
+ xxxd5xxx  is an endogenous ligand for the glycine site of the
+n-methyl-d-aspartate receptor, proc. natl. acad. sci. u.s.a. 97,
+4926-4931.
+6. schell, m. j. (2004) the n-methyl d-aspartate receptor glycine
+site and  xxxd5xxx  metabolism: an evolutionary perspective, philos.
+trans. r. soc. london, ser. b 359, 943-964.
+7. danysz, w., and parsons, a. c. (1998) glycine and n-methyl-daspartate receptors: physiological significance and possible
+therapeutic applications, pharmacol. rev. 50, 597-664.
+8. yang, y., ge, w., chen, y., zhang, z., shen, w., wu, c., poo,
+m., and duan, s. (2003) contribution of astrocytes to hippocampal
+long-term potentiation through release of  xxxd5xxx , proc. natl.
+acad. sci. u.s.a. 100, 15194-15199.
+9. hashimoto, a., kumashiro, s., nishikawa, t., oka, t., takahashi,
+k., mito, t., takashima, s., doi, n., mizutani, y., and yamazaki,
+t. (1993) embryonic development and postnatal changes in free
+d-aspartate and  xxxd5xxx  in the human prefrontal cortex, j.
+neurochem. 61, 348-351.
+10. wolosker, h., sheth, k. n., takahashi, m., mothet, j. p., brady,
+r. o., jr., ferris, c. d., and snyder, s. h. (1999) purification of
+ xxxg2204xxx : biosynthesis of the neuromodulator  xxxd5xxx ,
+proc. natl. acad. sci. u.s.a. 96, 721-725.
+11. de miranda, j., santoro, a., engelender, s., and wolosker, h.
+(2000) human  xxxg2204xxx : moleular cloning, genomic
+organization and functional analysis, gene 256, 183-188.
+12. wolosker, h., blackshaw, s., and snyder, s. h. (1999) serine
+racemase: a glial enzyme synthesizing  xxxd5xxx  to regulate
+glutamate-n-methyl-d-aspartate neurotransmission, proc. natl.
+acad. sci. u.s.a. 96, 13409-13414.
+13. neidle, a., and dunlop, d. s. (2002) allosteric regulation of mouse
+brain  xxxg2204xxx , neurochem. res. 27, 1719-1724.
+14. de miranda, j., panizzutti, r., foltyn, v. n., and wolosker, h.
+(2002) cofactors of  xxxg2204xxx  that physiologically stimulate
+the synthesis of the n-methyl-d-aspartate (nmda) receptor
+coagonist  xxxd5xxx , proc. natl. acad. sci. u.s.a. 99, 1454214547.
+15. cook, s. p., galve-roperh, i., martinez, d. p., and rodriguezcrespo, i. (2002) direct calcium binding results in activation of
+brain  xxxg2204xxx , j. biol. chem. 277, 27782-27792.
+
+13100 biochemistry, vol. 44, no. 39, 2005
+16. strisovsky, k., jiraskova, j., barinka, c., majer, p., rojas, c.,
+slusher, b. s., and konvalinka, j. (2003) mouse brain serine
+racemase catalyzes specific elimination of l-serine to pyruvate,
+febs lett. 535, 44-48.
+17. panizzutti, r., de miranda, j., ribeiro, c., engelender, s., and
+wolosker, h. (2001) a new strategy to decrease n-methyl-daspartate (nmda) receptor coactivation: inhibition of  xxxd5xxx 
+synthesis by converting  xxxg2204xxx  into an eliminase, proc.
+natl. acad. sci. u.s.a. 98, 5294-5299.
+18. mayer, m. p. (1995) a new set of useful cloning and expression
+vectors derived from pbluescript, gene 163, 41-46.
+19. casadaban, m. j., and cohen, s. n. (1980) analysis of gene control
+signals by dna fusion and cloning in escherichia coli, j. mol.
+biol. 138, 179-207.
+20. marfey, p. (1984) determination of d-amino acids. 2. use of a
+bifunctional reagent, 1,5-difluoro-2,4-dinitrobenzene, carlsberg
+res. commun. 49, 591-596.
+21. szokan, g., mezo, g., and hudecz, f. (1988) application of
+marfey’s reagent in racemization studies of amino acids and
+peptides, j. chromatogr. 444, 115-122.
+22. hemming, b. c., and gubler, c. j. (1979) high-pressure liquid
+chromatography of alpha-keto acid 2,4-dinitrophenylhydrazones,
+anal. biochem. 92, 31-40.
+23. treutler, o., and ahlrichs, r. (1995) efficient molecular numericalintegration schemes. j. chem. phys. 102, 346-354.
+24. becke, a. d. (1988) density-functional exchange-energy approximation with correct asymptotic-behavior, phys. rev. a 38,
+3098-3100.
+25. perdew, j. p. (1986) density-functional approximation for the
+correlation-energy of the inhomogeneous electron-gas, phys. rev.
+b 33, 8822-8824.
+26. schafer, a., huber, c., and ahlrichs, r. (1994) fully optimized
+contracted gaussian-basis sets of triple zeta valence quality for
+atoms li to kr, j. chem. phys. 100, 5829-5835.
+27. eichkorn, k., treutler, o., ohm, h., haser, m., and ahlrichs, r.
+(1995) auxiliary basis-sets to approximate coulomb potentials,
+chem. phys. lett. 240, 283-289.
+28. eichkorn, k., weigend, f., treutler, o., and ahlrichs, r. (1997)
+auxiliary basis sets for main row atoms and transition metals and
+their use to approximate coulomb potentials, theor. chem. acc.
+97, 119-124.
+29. klamt, a., and schuurmann, g. (1993) cosmosa new approach
+to dielectric screening in solvents with explicit expressions for
+the screening energy and its gradient, j. chem. soc., perkin trans.
+2, 799-805.
+30. schafer, a., klamt, a., sattel, d., lohrenz, j. c. w., and eckert,
+f. (2000) cosmo implementation in turbomole: extension
+of an efficient quantum chemical code towards liquid systems,
+phys. chem. chem. phys. 2, 2187-2193.
+31. klamt, a., jonas, v., burger, t., and lohrenz, j. c. w. (1998)
+refinement and parametrization of cosmo-rs, j. phys. chem.
+a 102, 5074-5085.
+32. liao, y. d., jeng, j. c., wang, c. f., wang, s. c., and chang, s.
+t. (2004) removal of n-terminal methionine from recombinant
+proteins by engineered e. coli methionine aminopeptidase, protein
+sci. 13, 1802-1810.
+33. foltyn, v. n., bendikov, i., de miranda, j., panizzutti, r., dumin,
+e., shleper, m., li, p., toney, m. d., kartvelishvily, e., and
+wolosker, h. (2005)  xxxg2204xxx  modulates intracellular
+ xxxd5xxx  levels through an alpha, beta-elimination activity, j. biol.
+chem. 280, 1754-1763.
+34. toney, m. d. (2005) reaction specificity in  xxxd3047xxx 
+enzymes, arch. biochem. biophys. 433, 279-287.
+35. fersht, a. (1999) structure and mechanism in protein science:
+a guide to enzyme catalysis and protein folding, w. h.
+freeman, new york.
+
+střı́šovský et al.
+36. cornish-bowden, a. (2004) fundamentals of enzyme kinetics,
+3rd ed., portland press, london.
+37. martell, a. e., smith, r. m., and motekaitis, r. j. (1998) critically
+selected stability constants of metal complexes database, version
+5.0, nist.
+38. dunlop, d. s., and neidle, a. (2005) regulation of  xxxg2204xxx 
+activity by amino acids, mol. brain res. 133, 208-214.
+39. dringen, r., verleysdonk, s., hamprecht, b., willker, w.,
+leibfritz, d., and brand, a. (1998) metabolism of glycine in
+primary astroglial cells: synthesis of creatine, serine, and glutathione, j. neurochem. 70, 835-840.
+40. verleysdonk, s., martin, h., willker, w., leibfritz, d., and
+hamprecht, b. (1999) rapid uptake and degradation of glycine
+by astroglial cells in culture: synthesis and release of serine and
+lactate, glia 27, 239-248.
+41. mehta, p. k., and christen, p. (2000) the molecular evolution of
+pyridoxal-5′′-phosphate-dependent enzymes, adv. enzymol. relat.
+areas mol. biol. 74, 129-184.
+42. meister, a. (1990) on the transamination of enzymes, ann. n.y.
+acad. sci. 585, 13-31.
+43. kochhar, s., and christen, p. (1988) the enantiomeric error
+frequency of aspartate aminotransferase, eur. j. biochem. 175,
+433-438.
+44. miles, e. w. (1987) stereochemistry and mechanism of a new
+single-turnover, half-transamination reaction catalyzed by the
+tryptophan synthase alpha 2 beta 2 complex, biochemistry 26,
+597-603.
+45. palekar, a. g., tate, s. s., and meister, a. (1973) rat liver
+aminomalonate decarboxylase. identity with cytoplasmic serine
+hydroxymethylase and allothreonine aldolase, j. biol. chem. 248,
+1158-1167.
+46. shostak, k., and schirch, v. (1988) serine hydroxymethyltransferase: mechanism of the racemization and transamination of dand l-alanine, biochemistry 27, 8007-8014.
+47. wada, m., nakamori, s., and takagi, h. (2003)  xxxg2204xxx 
+homologue of saccharomyces cerevisiae has l-threo-3-hydroxyaspartate dehydratase activity, fems microbiol. lett. 225, 189193.
+48. d’aniello, a., d’onofrio, g., pischetola, m., d’aniello, g.,
+vetere, a., petrucelli, l., and fisher, g. h. (1993) biological role
+of  xxxg602xxx  and d-aspartate oxidase. effects of
+d-amino acids, j. biol. chem. 268, 26941-26949.
+49. perry, t. l., and jones, r. t. (1961) the amino acid content of
+human cerebrospinal fluid in normal individuals and in mental
+defectives, j. clin. invest. 40, 1363-1372.
+50. sallach, h. j. (1957) evidence for the spatial configuration of
+hydroxyaspartic acid, j. biol. chem. 229, 437-442.
+51. peterson, t. h., and sallach, h. j. (1956) the formation of
+hydroxyaspartic acid from dihydroxyfumaric acid and l-glutamic
+acid, j. biol. chem. 223, 629-634.
+52. shigeri, y., shimamoto, k., yasuda-kamatani, y., seal, r. p.,
+yumoto, n., nakajima, t., and amara, s. g. (2001) effects of
+threo-beta-hydroxyaspartate derivatives on excitatory amino acid
+transporters ( xxxg2107xxx  and  xxxg2108xxx ), j. neurochem. 79, 297-302.
+53. fleck, m. w., barrionuevo, g., and palmer, a. m. (2001) release
+of d,l-threo-beta-hydroxyaspartate as a false transmitter from
+excitatory amino acid-releasing nerve terminals, neurochem. int.
+39, 75-81.
+54. loopuijt, l. d. (2002) local application of l-threo-hydroxyaspartate and malonate in rats in vivo induces rigidity and damages
+neurons of the substantia nigra, pars compacta, j. neural transm.
+109, 1275-1294.
+bi051201o
+

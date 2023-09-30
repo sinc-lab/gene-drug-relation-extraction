@@ -1,0 +1,847 @@
+journal of molecular graphics and modelling 20 (2002) 359–371
+
+differential binding mode of diverse cyclooxygenase inhibitors
+oriol llorens a , juan j. perez a,∗ , albert palomer c , david mauleon b
+a
+
+department of d’enginyeria quı́mica, upc, etseib, av. diagonal, 647, 08028 barcelona, spain
+b laboratorios menarini, alfonso xii, 587, 08912 badalona, spain
+c ferrer internacional s.a., juan de sada, 32, 08028 barcelona, spain
+received 21 april 2001; received in revised form 26 october 2001; accepted 6 november 2001
+
+abstract
+non-steroideal anti-inflammatory drugs (nsaids) are competitive inhibitors of cyclooxygenase (cox), the enzyme that mediates
+biosynthesis of prostaglandins and thromboxanes from  xxxd208xxx . there are at least two different isoforms of the enzyme known as
+cox-1 and -2. site directed mutagenesis studies suggest that non-selective cox inhibitors of diverse chemical families exhibit differential
+binding modes to the two isozymes. these results cannot clearly be explained from the sole analysis of the crystal structures of cox
+available from x-ray diffraction studies. with the aim to elucidate the structural features governing the differential inhibitory binding
+behavior of these inhibitors, molecular modeling studies were undertaken to generate atomic models compatible with the experimental
+data available. accordingly, docking of different cox inhibitors, including selective and non-selective ligands: rofecoxib,  xxxd2423xxx ,
+ xxxd3265xxx ,  xxxd446xxx ,  xxxd3563xxx , indomethacin, diclofenac and meclofenamic acid were undertaken using the amber program. the
+results of the present study provide new insights into a better understanding of the differential binding mode of diverse families of cox
+inhibitors, and are expected to contribute to the design of new selective compounds. © 2002 elsevier science inc. all rights reserved.
+keywords: cyclooxygenase docking; nsaids; molecular modeling; amber
+
+1. introduction
+cyclooxygenase (cox) is an endogenous enzyme that
+catalyzes the first committed step in the conversion of
+ xxxd208xxx  into prostaglandins and thromboxanes.
+these molecules mediate different important functions in the
+gastric, renal and hematic systems and regulate different processes like inflammation and body temperature [1,2]. cox
+is competitively inhibited by a group of drugs known as
+non-steroideal anti-inflammatory drugs (nsaids). their
+action results in the anti-inflammatory, analgesic, antipyretic and antithrombotic activity exhibited by this group of
+molecules. members of this group include well known therapeutic agents like aspirin, diclofenac, ibuprofen, indomethacin or naproxen [3]. spite of their beneficial action, their
+activity is associated with deleterious side effects, and continuous administration of these drugs leads to nefrotoxicity
+and gastric ulcerations [4,5]. consequently, new nsaids
+without side effects are necessary for safer treatments.
+a key discovery in the search of novel anti-inflammatory
+therapeutic agents lacking the deleterious side effects exhibited by traditional nsaids, came from the characterization
+and isolation of two different cox isoforms, known as
+∗ corresponding author. tel.: +34-934016685; fax: +34-934017150.
+e-mail address: juanje@eq.upc.es (j.j. perez).
+
+cox-1 and -2. interestingly, although the two enzymes
+catalyze the same chemical transformation, both isoforms
+are subject to a different expression regulation. thus, while
+cox-1 is constitutively expressed and it is involved in
+the synthesis and supply of the necessary  xxxd208xxx 
+metabolites for a maintenance of gastric and renal functions
+as well as for an adequate vascular homeostasis, cox-2 is
+expressed only after an inflammatory stimulus, releasing
+metabolites that are used to induce inflammation and pain
+[6–8]. this discovery, together with the fact that traditional
+nsaids show very little selectivity for cox-2, prompted to
+suggest [9] that the therapeutic anti-inflammatory action of
+nsaids is produced by inhibition of cox-2, while the unwanted side effects arise from inhibition of cox-1 activity.
+accordingly, a great deal of interest has been devoted in
+recent years to the discovery of selective cox-2 inhibitors.
+as a result of these investigations, the two first cox-2
+selective inhibitors: celecoxib [10] and rofecoxib [11] are
+already in clinical use. these new structures exhibit an
+increased selectivity for cox-2 and little side effects [12].
+their success as therapeutic agents, justifies the enormous
+expectations and interest in the discovery of new leads.
+the process of designing novel selective cox inhibitors
+requires to characterize structural differences between the
+two isozymes. crystal structures of both cox-1 and -2 with
+different ligands docked in their active site were solved using
+
+1093-3263/02/$ – see front matter © 2002 elsevier science inc. all rights reserved.
+pii: s 1 0 9 3 - 3 2 6 3 ( 0 1 ) 0 0 1 3 5 - 8
+
+360
+
+o. llorens et al. / journal of molecular graphics and modelling 20 (2002) 359–371
+
+fig. 1. superposition of the 3d structures of cox-1 (in light blue) and cox-2 (in dark blue). the heme group is shown in green.
+
+x-ray diffraction methods and are nowadays available in
+the literature [13–17]. overall differences between the two
+structures are small as illustrated in fig. 1, and superposition
+of the 3d structures yields a rmsd of 0.9 å computed from
+the ␣-carbons of the two isozymes. the 3d structure of the
+two enzymes exhibit three common domains [18]: (a) the region between residues 34 and 72 at the n-terminus, known
+as the  xxxg681xxx  domain (residue numbering
+refers to cox-1 throughout the present work); (b) the membrane binding domain, between residues 73 and 116, with
+numerous hydrophobic residues involved in its attachment to
+the cell membrane; (c) the c-terminus, a large domain containing the cox active site on top of a hydrophobic channel
+connecting it to the membrane domain.
+the two enzymes are highly homologous, exhibiting a
+61% sequence identity that achieves a 87% when only the
+subset of residues located in the cox active site are compared. alignment of the two sequences reveals the insertion of
+a proline residue after ile106 in cox-2. however, since this
+residue is located on a loop of the membrane domain, the insertion does not perturb the overall 3d structure of the enzyme
+[19]. the largest number of non-conserved residues are located at the membrane domain. however, most of the substitutions preserve their hydrophobic profile, consistent with its
+putative role as membrane anchoring domain of the enzyme.
+
+inhibition of the enzyme at the molecular level is mediated through the blockade of  xxxd208xxx  to access
+the cox active site. accordingly, a detailed analysis of this
+binding site provides keys for designing novel inhibitors
+with increased affinity and selectivity. inspection of the
+cox active site reveals three differential regions, shown in
+fig. 2: (a) a hydrophobic pocket beneath the heme group,
+defined by the residues tyr385 , trp387 , phe518 , ala201 ,
+tyr248 and leu352 ; (b) the mouth of the active site, with
+three hydrophilic residues flanking its entrance: arg120 ,
+glu524 , tyr355 , and arranged to form a hydrogen bond network; (c) a side pocket, larger in cox-2, defined by several
+conserved residues including his90 and the non-conserved
+residues his/arg513 and ile/val523 .
+in spite of the insight provided from the comparative analysis of the structures of the two isozymes solved by x-ray
+diffraction studies, crystal structures alone cannot provide a
+complete explanation of different information obtained from
+diverse mutagenesis studies, strongly pointing that nsaids
+exhibit differential docking modes in the cox active site
+[20–29]. in this conditions, modeling studies are required
+in order to construct molecular models that incorporate
+all experimental evidence reported. these models are necessary to obtain a consistent, more precise picture of the
+enzyme–inhibitor recognition step at the atomic level and
+
+o. llorens et al. / journal of molecular graphics and modelling 20 (2002) 359–371
+
+361
+
+fig. 2. boundary surface defining the cyclooxygenase binding pocket computed on the cox-1 isozyme with grid. different regions of the pocket as
+well as the side chains of key residues are explicitly shown.
+
+furthermore, provide new insights that can be used to design
+novel therapeutic agents.
+the purpose of the present work is to construct molecular models of different inhibitor–enzyme complexes based
+on the available structural information of cox inhibition,
+that incorporate the findings of different site mutagenesis
+experiments. specifically, the present work reports the results of a series of docking studies of a selective (rofecoxib)
+and diverse non-selective ( xxxd2423xxx ,  xxxd3265xxx ,  xxxd446xxx ,
+ xxxd3563xxx , indomethacin, diclofenac and meclofenamic
+acid) cox inhibitors (see in fig. 3 for structures), into the
+cox active site of the two isoforms. this information is important to characterize the structural features of the different
+families of nsaids relevant for their recognition with each
+of the two isozymes as well as provide new insights for the
+design of novel more potent selective inhibitors.
+
+2. methods
+crystal structures of the enzymes cox-1 (entry 1prh)
+[13] and cox-2 (entry 3pgh) [14] with  xxxd2141xxx  bound
+to the cox binding site were obtained from the brookhaven
+data bank [30]. coordinates of the ligand were removed
+
+from the files and the structures of the two enzymes were energy minimized in vacuo with a distance dependent dielectric constant 4r, using a conjugated gradient minimization
+algorithm implemented in the amber program [31], until
+the rmsd of two successive iterations was <0.001 å. all the
+molecular mechanics calculations reported in the present
+work, were performed using the all-atom parm91 force field
+set of parameters [32]. structures of the inhibitors studied
+in the present work were constructed using the prep module of amber. force field parameters were taken from
+the standard parm91 set and partial atomic charges were
+generated by fitting the molecular electrostatic potential,
+computed with a sto-3g basis set using the gaussian94
+suite of programs [33]. ligands were manually docked into
+the cox binding pocket of cox-1 and -2, guided by the
+crystal structures of structurally related inhibitors [13–16],
+site directed mutagenesis studies and grid calculations
+[34,35] performed on the cox binding site of the enzyme
+with diverse probes. complexes generated were energy
+optimized in vacuo, with a distance dependent dielectric
+constant of 4r, using a conjugated gradient minimization
+algorithm until the rmsd of two successive iterations was
+<0.001 å. display and examination of the models was
+carried out using the insightii program [36].
+
+362
+
+o. llorens et al. / journal of molecular graphics and modelling 20 (2002) 359–371
+
+fig. 3. chemical structures of the different cox inhibitors selected for the present study.
+
+3. results
+results of the computations performed in the present work
+are described below and are organized by families according
+to the chemical structures of the different inhibitors studied.
+3.1. phenyl acetic acids:  xxxd2423xxx ,  xxxd446xxx ,
+fenoprofen and  xxxd3265xxx 
+members of this group of nsaids are characterized by
+a 2-methylphenylacetic scaffold with an aromatic moiety
+attached in meta (see fig. 3). specifically, the different
+members of this family selected for the present study exhibit
+
+the following aromatic rings: a benzoyl moiety in the
+case of  xxxd2423xxx , a phenoxy moiety in fenoprofen, a
+thienylcarbonyl moiety in  xxxd3265xxx .  xxxd446xxx  is a tricyclic
+molecule that can be understood as an 6-chloroindole moiety fused to the phenyl acetic ring. these compounds are
+non-selective nsaids and their relative inhibitory potency
+in cox-1 follows the order [37]:  xxxd2423xxx  >  xxxd3265xxx  >
+fenoprofen >  xxxd446xxx . interestingly, the s-enantiomers
+of these ligands are more potent than the corresponding
+r-stereoisomers in all the cases.
+manual docking of the inhibitors using insightii [36] was
+performed by placing the different ligands in the cox active
+site of the two isozymes, using the crystal structures of the
+
+o. llorens et al. / journal of molecular graphics and modelling 20 (2002) 359–371
+
+structurally related inhibitor  xxxd2141xxx  as template [13,14]
+and taking into consideration the mutagenesis studies
+available. for this purpose, several molecular interactions
+were considered to be responsible for the observed affinities (see fig. 4): (i) a hydrogen bond interaction between
+the ligand carboxylate moiety and the guanidinium moiety
+of the arg120 side chain; (ii) a hydrogen bond interaction
+between the heteroatom bridging the two aromatic rings of
+the ligand and the side chain of ser530 and (iii) a hydrophobic interaction between the aromatic moiety common to the
+different ligands and the aromatic pocket formed by the side
+chains of tyr385 , trp387 , phe518 , ala201 , tyr348 and leu352 .
+after energy minimization, complexes were inspected to
+check whether the different ligand–enzyme key interactions
+were conserved during the minimization process. it is important to note that, due to the multiple minima problem
+associated with the ligand–enzyme potential energy surface,
+several docking attempts had to be undertaken for each
+ligand. those complexes conserving all key interactions
+after minimization, were considered representative models
+of the corresponding ligand. it was found that all the compounds, but fenoprofen, preserved all key interactions after
+optimization. as illustration, fig. 4 shows the optimized
+structure of  xxxd2423xxx  docked into the cox-1 active site. in
+the fenoprofen complex, the interaction between the ligand
+and the ser530 side chain could not be preserved and in the
+final structure the ligand appears displaced from its initial
+position, with a structure where the ether oxygen and the hydroxyl moiety of the ser530 side chain lie at a long distance
+from each other. this is likely due to the higher rotational
+freedom exhibited by the phenyl ring of this ligand, and
+corroborated by the observation that after different attempts
+of docking fenoprofen to the active site, the ether oxygen
+was found in all the cases pointing outwards the ser530 .
+analysis of these complexes reveals some ligand key
+structural features that appear relevant for their inhibitory
+activity. thus, present results suggest that the dihedral angle
+between the two aromatic rings around 30◦ is important for
+an efficient ligand–receptor interaction. this explains the
+poorer affinity exhibited by  xxxd446xxx , where the two aromatic rings are constrained to be in the same plane. another
+structural feature regards the size of the aromatic moiety.
+a phenyl moiety fills better the hydrophobic pocket next
+to tyr385 providing a stronger interaction with the enzyme,
+as supported by the lower potency exhibited by  xxxd3265xxx  as
+compared with that of  xxxd2423xxx . present models also suggest that the lower affinity of fenoprofen can be explained
+as a consequence of the two effects. on the one hand, the
+larger rotational freedom exhibited by the molecule through
+the ether moiety in comparison with the other ligands of the
+same family and on the other, its poorer hydrogen bond acceptor capability as compared to a carbonyl oxygen, which
+results in a loss of a key interaction with the side chain of
+ser530 .
+the observed preference of the s-enantiomers for cox,
+as deduced from the structure-activity studies of this family
+
+363
+
+of compounds can also be explained with the use of present
+models. inspection of s- and r-complexes of any of the inhibitors with any of the two enzymes, reveals that in the
+case of the s-enantiomer, when the carboxylate moiety of
+the ligand faces residue arg120 , the methyl group faces
+a small hydrophobic pocket near leu531 . in contrast, in
+all the r-enantiomers complexes the methyl group experiences a steric clash with ile/val523 resulting in a steric of
+ligand–enzyme interaction.
+further inspection of the cox active site suggests that,
+in addition to the docking orientation described above for
+this family of inhibitors, these molecules can also be accommodated inside the active site in a second orientation. in
+this novel orientation, the molecular axis rests in the direction defined between residues arg120 and arg513 , filling the
+lateral pocket of the cox active site. there are two initial
+possible starting docking structures labeled as models 1 and
+2, respectively. taking  xxxd2423xxx  as a proof of principle,
+in model 1 the carboxylic moiety rests close to arg513 and
+the molecule extends towards the mouth of the active site
+with its ketone group interacting with tyr355 . on the other
+hand, in model 2 the carboxylate rests close to arg120 and
+the phenyl ring penetrates into the side pocket. a hydrogen
+bond between the ketone and tyr355 is also present. optimization of the proposed complexes shows that  xxxd2423xxx 
+remains stable in model 2 (see fig. 5) in the two isozymes,
+exhibiting interactions between the carboxylate group and
+arg120 , the ketone group with tyr355 and phenyl ring with
+phe518 . in the case of model 1, although the inhibitor is
+well accommodated in the side pocket, the interaction with
+arg513 is not possible, and the ligand shows an interaction
+with tyr355 and his90 instead. interestingly, in cox-1 the
+inhibitor is shifted from the side pocket due to an steric clash
+between of the more voluminous ile523 (val in cox-2) and
+the methyl group of the acetic acid moiety. in contrast, in
+cox-2 this methyl group is placed in a hydrophobic pocket
+surrounded by gly519 , ala516 , phe518 and val523 .
+3.2. acetic acid derivatives:  xxxd3563xxx 
+ xxxd3563xxx  was selected as a representative inhibitor of
+the acetic acid family of nsaids. the molecule (see fig. 3)
+consist of a substituted pyrrole ring that serves as scaffold to
+attach an acetyl moiety in position 5, two methyl groups in
+positions 1 and 3, respectively, and a 4-chlorobenzoyl group
+in position 2.
+due to steric hindrance the molecule adopts a conformation where the planes of the two aromatic moieties are
+perpendicular to each other. since the structure of the ligand
+exhibits the same key structural features of the phenylacetic
+inhibitors, it was considered that the molecule docks into
+the cox active site in a similar orientation as  xxxd2141xxx .
+consequently, docking of the compound was guided by the
+crystal structures of the  xxxd2141xxx  complexes, that were
+used as template. accordingly, the molecule was placed
+in the active site with the ketone group facing the ser530
+
+364
+
+o. llorens et al. / journal of molecular graphics and modelling 20 (2002) 359–371
+
+fig. 4. superposition of the optimized structures of  xxxd2423xxx  (in green), meclofenamic acid (yellow) and diclofenac (magenta) bound onto the binding
+site of cox-2, whose inner surface is displayed in blue. side chains of key residues are also shown.
+
+fig. 5. superposition of the optimized structures of  xxxd2423xxx  bound according to model 2 to each of the two isozymes. docking onto cox-1 is shown
+in yellow, and onto cox-2 in magenta. the inner surface of the binding pocket is shown in blue.
+
+o. llorens et al. / journal of molecular graphics and modelling 20 (2002) 359–371
+
+side chain, the carboxylate group placed in the vicinity
+of arg120 and the phenyl ring placed inside the aromatic
+pocket near tyr385 . after the minimization process, the two
+latter interactions remained, whereas the interaction between the ketone group and the ser530 side chain was lost in
+all the attempts undertaken. analysis of the final structure
+reveals the key role played by the two methyl groups in the
+docking process. indeed, after optimization the two methyl
+groups rest on favorable hydrophobic regions, surrounded
+by residues leu353 , leu351 and val349 . accordingly, the two
+methyl groups of  xxxd3563xxx  play a dual role in explaining
+the docking process of the ligand. on the one hand, they
+constrain the relative orientation of the 4-chlorobenzoyl and
+pyrrole rings, and on the other, force the orientation of the
+ligand inside the active site, in such a way that the ketone
+group remains distant of the ser530 side chain. this two features explain the lower affinity exhibited by the compound
+compared to  xxxd2423xxx .
+3.3. fenamic acid derivatives: meclofenamic acid
+ligands of this family of inhibitors consist of a
+ xxxd189xxx  moiety with an aromatic ring attached
+in ortho. specifically, meclofenamic acid exhibits an aromatic ring with two bulky chlorine substituents in positions
+2 and 6, in addition to a methyl group in position 3. the
+two chlorines flank the amino group that links the aromatic
+ring to the  xxxd189xxx  moiety.
+site directed mutagenesis studies identified different
+amino acids playing a key role in meclofenamic acid binding. thus, mutation of ser530 to met530 [26] leads to a loss
+of inhibition of the ligand, however, mutation of ser530 to
+ala530 only slightly affects its binding affinity [29]. furthermore, mutation of arg120 to glu120 in cox-2 does not
+affect binding of the inhibitor [25]. these results clearly
+suggest that the carboxylate moiety of the inhibitor does
+not interact directly with the side chain of arg120 .
+in order to identify prospective points in the active site
+suitable to accommodate the carboxylate moiety of the
+inhibitor, interaction maps using a carbonyl probe were
+computed by means of the grid program [34,35]. these
+calculations identified two hot spots suitable to provide such
+a favorable interaction: (i) a region between residues tyr355
+and ser353 and (ii) a region located in the neighborhood of
+ser530 and tyr385 (see fig. 6). in order to identify regions
+for suitable interaction regions where the inhibitor aromatic
+rings could be accommodated in the active site additional
+grid calculations using an aromatic probe were also computed. fig. 6 shows the results of these calculations that
+were subsequently used to generate different positions for
+ligand docking purposes.
+when the ligand was placed in the active site with the
+carboxylate moiety facing the region between tyr355 and
+ser353 , no stable docking was found after minimization, even
+though different starting geometries were tried. in contrast,
+when the acid moiety was placed facing the region between
+
+365
+
+ser530 and tyr385 a stable complex could be observed during
+the minimization process. in its orientation, the inhibitor
+carboxylate group attains a conformation that is stabilized
+by a hydrogen bond between the amine nitrogen and the
+carbonyl oxygen of the acid (yellow ligand in fig. 4), similar
+to the unproductive x-ray crystal structure of arachidonic
+acid bound to cox-2 [39].
+the model described above provides an explanation of
+the slight decrease of affinity produced by the mutation of
+ser530 to ala530 . specifically, it can be explained assuming
+that there is no specific interaction between the ligand and
+the ser530 side chain. in this case, since the volume of the
+two side chains is similar the mutation does not create any
+additional steric hindrance and the affinity is expected to be
+similar. the loss of the proton donor capability is compensated by the complementary role played by the pair tyr385
+and ser530 in the interaction with the inhibitor carboxylate
+moiety. in contrast, the mutation ser530 to met530 produces
+a dramatic drop in affinity. this result can be explained on
+the basis of a steric hindrance produced by the larger volume of the methionine side chain that prevents binding of
+the ligand. it is worth noting that this effect is not observed
+in other inhibitors like  xxxd2423xxx  or indomethacin, due to
+their differential docking orientation.
+3.4. 2-aminophenylacetic derivatives: diclofenac
+ligands of this family of inhibitors consist of a
+2-aminophenylacetic acid scaffold, with an aromatic ring attached in ortho. these structures differ slightly compared to
+the fenamates, exhibiting an extra methylene unit between
+the carboxylate group and the aromatic ring. specifically,
+diclofenac exhibits an aromatic ring with two bulky chlorine substituents in positions 2 and 6, flanking the amino
+group that links the two aromatic rings (see fig. 3).
+like meclofenamic acid, binding of diclofenac is not
+altered by the mutation of arg120 to glu120 [25], but is
+dramatically affected by mutation of ser530 to met530 [26].
+unfortunately, there are no experimental results available
+for the ser530 to ala530 mutation.
+in order to explore possible docking orientations of the
+ligand into the cox binding site, grid interaction maps
+using both a carbonyl and a aromatic, respectively, were
+used as guide (see fig. 6). like in the previous case, starting structures were constructed by placing the carboxylate
+moiety of the inhibitor at a close distance of the pairs
+tyr355 /ser353 or tyr385 /ser530 . docking proceeded in a similar fashion as described above for meclofenamic acid. geometry optimization of the complexes revealed that residues
+tyr355 /ser353 are not accessible to the inhibitor acid moiety.
+in contrast, diclofenac appears to be able to interact with the
+pair tyr385 /ser530 in two different conformations. in one of
+the conformations, the inhibitor exhibits a similar geometry to meclofenamic acid, where the dichlorophenyl ring is
+extended through the hydrophobic channel of the active
+site. on the other conformation, the phenyl ring rests in an
+
+366
+
+o. llorens et al. / journal of molecular graphics and modelling 20 (2002) 359–371
+
+fig. 6. grid interaction energy maps computed with a carbonyl probe (in light green) and with an aromatic probe (in orange) on the cox-2 binding
+site. a starting docking structure of meclofenamic acid (in yellow) is also shown.
+
+aromatic pocket between residues trp387 and leu352 , as
+shown in fig. 4. no clear preference between the two complexes can be assessed so far, since both conformations
+exhibit similar interactions with the receptor and both are
+consistent with the mutagenesis results and with the grid
+calculations.
+3.5. indolacetic acid derivatives: indomethacin
+the structure of indomethacin consists of an 1h-indole3-acetic acid scaffold substituted with a p-chlorobenzoyl
+moiety in position 1, a methyl and an acetyl groups in positions 2 and 3, respectively, and a methoxyl group in position
+5. the molecule exhibits two conformations, denoted as cis
+and trans, that are interchangeable through a 180◦ rotation
+around the amide bond, and evidenced in its crystal structure
+of the isolated molecule [39].
+the crystal structure of the iodine analog of indomethacin
+bound to cox-1, could not be solved at a higher resolution
+than 4.5 å [40]. at this resolution only the electron density
+of the iodine atom of indomethacin could unambiguously be
+located, showing that the iodophenyl moiety binds at the end
+of the long channel near the tyr385 as found for phenyl acetic
+acid family of inhibitors. the rest of the molecule could be
+
+fitted inside the cox binding site in the two possible cisand trans-conformations. in contrast, the crystal structure of
+indomethacin bound to cox-2 at 2.9 å resolution solved by
+a different group shows the cis-conformation [16].
+according to the previous discussion, both the cis- and
+the trans-conformations of indomethacin were considered as
+starting structures for docking studies. both conformations
+can be docked into the binding pocket of both isozymes with
+the carboxylate moiety in the vicinity of arg120 , the ketone
+group facing ser530 side chain and the p-chlorophenyl ring
+accommodated in the aromatic pocket near tyr385 . however,
+whereas in the cis-conformer the indole is surrounded by
+val349 , ser353 and leu352 , in the trans-isomer this moiety
+lies next to val349 , ala527 , leu531 .
+the superposition of the final structures of the two isomers bound to cox-1, after the optimization process are depicted pictorially in fig. 7. analysis of the two complexes of
+cox-1 reveals that all the interactions of the starting complex in both isozymes are preserved during the minimization
+process. however, in the resulting trans-cox-1 complex, the
+guanidinium and carboxylate moieties lie in different planes
+as had already found in the crystal structure [40]. in contrast,
+in the case of the cox-2 complexes, whereas the cis-isomer
+maintains all the interactions of the starting structure, in the
+
+o. llorens et al. / journal of molecular graphics and modelling 20 (2002) 359–371
+
+367
+
+fig. 7. superposition of the structures of indomethacin in its trans- ( in blue) and cis-conformations (in yellow) bound into the binding site of cox-1,
+whose inner surface is displayed in blue.
+
+fig. 8. structure of rofecoxib (in magenta) and  xxxd2423xxx  (in yellow) docked into the binding site of cox-2, whose inner surface is shown in blue.
+
+368
+
+o. llorens et al. / journal of molecular graphics and modelling 20 (2002) 359–371
+
+trans-isomer, the interaction between the ketone group and
+the ser530 side chain is lost, although in both complexes the
+guanidinium and carboxylate moieties remain in the same
+plane, similarly to the structures of the cis-cox-1 complex.
+these results suggest that the trans-conformation exhibits
+lower affinity than the cis-isomer for both isozymes. specifically, in cox-2 the reason of the lower affinity appears to
+be the loss of the interaction between ser530 side chain and
+the carbonyl moiety. in contrast, in cox-1 the lower affinity is due to the poor interaction between the carboxylate
+and the guanidinium moieties appears to be detrimental for
+its binding capacity.
+these results agree with the x-ray diffraction structures
+reported. in the case of cox-1, although the structure could
+not be unambiguously refined to a higher resolution than
+4.5 å, based on different structural arguments and the
+inhibitory activity of the two geometric isomers of the
+indomethacin analog ((z/e)-1-(p-chlorobenzylidene)-2methyl-5-methoxyindenylacetic acid (also known as mk715) [41], the authors proposed the cis-conformation as the
+most favorable complex. on the other hand, in the case of the
+cox-2 complex the cis-isomer is the only structure found
+in the crystals, supporting the hypothesis of present models.
+3.6. tricyclic derivatives: rofecoxib
+the structure of rofecoxib consist of a central five membered lactone ring scaffold with a 4-(methylsulphonyl)phenyl
+moiety and by a phenyl ring attached to it (see fig. 3). this
+tricyclic structure is common to many high affinity selective
+cox-2 ligands.
+
+was placed in the vicinity of the arg120 side chain; (2) in
+model 2, the carbonyl oxygen was placed close to the side
+chain of ser530 to consider the possible formation of hydrogen bond between the carbonyl oxygen and the side chain
+of ser530 . in both complexes, the sulphone was placed in the
+vicinity of the arg513 side chain. the energy optimization
+process of the two complexes revealed model 2 to be more
+favorable, due to good accommodation of the aromatic ring
+in the hydrophobic pocket, as can be seen in fig. 8.
+3.6.2. docking of rofecoxib in the active site of cox-1
+docking of rofecoxib into the active site of cox-1 was
+performed using the previously refined rofecoxib–cox-2
+complex as template. accordingly, the different key interactions between the ligand and the enzyme were conserved
+in the starting structures: (i) the sulphone moiety was
+placed in the side pocket, facing his513 , the phenyl ring was
+placed in the upper aromatic pocket and carbonyl moiety was placed close to ser530 side chain. after energy
+minimization, the inhibitor remained in the same position,
+suggesting that the steric hindrance due to the substitution
+ile/val523 is not enough for preventing the binding of the
+ligand to cox-1. the superposition of cox-1 and -2 models reveal that the sulphone moiety can be accommodated
+in cox-1 with only a small deviation in regard its starting
+position, due to the displacement of the helix fragment corresponding to residues 516–521 and the movement of side
+chain of phe518 , showing that the side pocket is flexible
+enough to accommodate the ligand.
+
+4. discussion
+3.6.1. docking of rofecoxib into the active site of cox-2
+no crystal structure of the rofecoxib–cox complex is
+available in the literature so far. the closest structure available at present, is the structure of the tricyclic ligand sc-558
+complexed in cox-2 [16], that can be used as guide for
+the present docking studies. in this structure, the phenyl
+ring of the inhibitor fills the upper aromatic pocket and the
+phenylsulphonamide moiety occupies the side pocket, with
+the sulfonamide moiety resting close to arg513 . however,
+since sc-558 lacks the furanone moiety of rofecoxib, which
+could be responsible of extra interactions with different
+residues of the active site, different starting structures of
+the inhibitor/enzyme complex were investigated.
+site directed mutagenesis studies suggest that arg513 is
+a key residue for the affinity of the tricyclic inhibitors to
+cox, whereas arg120 does not play any significant role in
+this regard [20,24,25]. the crystal structure of sc-558 reveals that the interaction of the ligand with arg513 is mediated through the sulphone moiety. grid interaction energy
+calculations [34,35] performed with a carbonyl oxygen and
+a ester oxygen probes, respectively, indicate that both ser530
+and arg120 are possible binding points of the furanone moiety of the ligand. accordingly, two different initial structures
+were tried: (1) in model 1, the ester oxygen of the furanone
+
+present models combine the structural information available of different nsaid bound to the cox binding site of
+the two cox isozymes, together with the reported results of
+key mutations on the enzymes, that modify or not the biological profile of different inhibitors. the analysis of these
+models reveals differential binding modes among different
+families of inhibitors and permits to sketch the main features responsible for ligand binding and selectivity for the
+different isoforms of the enzyme.
+the results of the present work suggest that there are
+three key ligand–enzyme interactions, responsible for
+non-selective cox inhibition: (i) a strong hydrogen bond
+between a ligand carboxylate moiety and the side chain of
+arg120 or between the pair tyr385 /ser530 ; (ii) a hydrogen
+bond between a ligand accepting group that binds through
+a hydrogen bond with the ser530 side chain and (iii) an
+interaction between an aromatic ring that accommodates in
+a hydrophobic pocket where tyr385 is located. the results
+of the present models also reveal the importance of the
+spatial arrangement of the required structural features in the
+structure of the inhibitors. ligands are basically planar and
+the different key moieties, can adequately be arranged by
+using a planar scaffold that acts as spacer. in most of the
+
+o. llorens et al. / journal of molecular graphics and modelling 20 (2002) 359–371
+
+non-selective ligands, this spacer is a six-membered ring,
+although  xxxd3563xxx  and indomethacin demonstrate that this
+is not a requirement. moieties attached to the central scaffold are required to fulfil certain structural features for an
+increased inhibitory profile. thus, the carboxyl moiety can
+be in ortho, meta or para positions in regard to the other
+aromatic moiety of the molecule. interestingly, this appears
+to make a difference in the binding mode of the ligands. in
+the case the carboxyl moiety is in ortho, ligands appear in
+a bound orientation such that the carboxyl moiety interacts
+with tyr385 . in contrast when the carboxyl moiety is in meta
+or para, the ligand binds in such a way that the carboxyl
+moiety forms a strong hydrogen bond with the arg120 side
+chain. this feature was observed in the docking studies of
+meclofenamic acid and diclofenac, and suggests that these
+families of nsaids do not fulfill the same pharmacophore
+requirements as the rest of non-selective inhibitors described
+in the present work. first, the lack of effect on affinity of
+the mutation arg120 to glu120 [25], clearly suggests that
+these molecules bind in a different fashion than the arylacetic acid derivatives. moreover, the mutation of ser530
+to ala530 [29] and to met530 [26] clearly reveal that these
+two inhibitors are much sensitive to the presence of bulky
+residues in the region close to ser530 than other nsaids.
+these results clearly indicate that diclofenac and meclofenamic acid binding modes require to occupy a larger region
+in the neighborhood of ser530 that is not required by other
+nsaids. based on the models constructed in the present
+work, the binding mode of these two inhibitors can be explained on the basis of the hydrogen bonding interaction
+between the tyr385 side chain and the carboxylate moiety
+of the ligands. the feasibility of this binding orientation is
+supported by the recent x-ray diffraction structure of the
+ xxxd208xxx  bound to cox-2 [38], where arachidonic
+acid adopts a conformation that permits its carboxylate
+moiety to lay close to the side chains of tyr385 and ser530
+in a similar way as meclofenamic acid and diclofenac do.
+models also reveal important structural features regarding the characteristics of the different moieties attached to
+the central scaffold. thus, the relative spatial position of the
+planes defined by the spacer and the aromatic ring is an important feature to be considered. models show that the angle
+between the two planes should be around 30–40◦ for an improved ligand–enzyme interaction. this feature permits to
+explain the reduced affinity exhibited by  xxxd446xxx . another
+feature that modulates affinity is the proton accepting capability of the group that links the spacer and the aromatic
+ring. the carbonyl appears to be the most suitable, being
+the inhibitory potency lower for poorer proton accepting
+groups. present models suggest this feature to be the reason
+for the reduced inhibitory potency of fenoprofen. finally, a
+methyl group near the carboxyl moiety with a stereoselectivity requirement appears to improve ligand affinity. thus,
+when r-inhibitors are docked in the active site with the
+carboxylate moiety resting close to arg120 , exhibit an steric
+hindrance between the methyl group and the side chain
+
+369
+
+of ile/val523 . in contrast, s-inhibitors dispose their methyl
+groups in a small hydrophobic pocket close to leu531 .
+cox selectivity can be pursued by designing ligands
+targeted to interact with the non-conserved residues of
+the two enzymes. tricyclic inhibitors are designed to occupy the additional side pocket that extends off the cox
+binding pocket. these ligands are larger than traditional
+nsaids and take advantage of a polar interaction with the
+non-conserved residue arg513 (his513 in cox-1), that rests
+at the bottom of this lateral pocket of cox-2. furthermore,
+in addition, to this difference there is a non-conserved
+residue: val523 in cox-2 and ile523 in cox-1 strategically
+located on the confluence of the side pocket and cox
+binding site. both residues arg513 and val523 have been
+demonstrated to be important for cox-2 selective inhibitor
+binding [24]. the role of the first residue can be understood
+from static models of rofecoxib, since it provides a polar
+interaction to the ligand. however, the role of val523 cannot
+clearly be elucidated from a static model. indeed, being
+more voluminous in cox-1 produces a steric hindrance
+that difficulties binding of the ligands to the lateral pocket
+of cox-1, as recently identified by free energy perturbation calculations [42,43]. however, static models may not
+represent accurately the binding of these inhibitors. present
+results suggest that the lateral pocket in cox-1 appears to
+be flexible enough to accommodate ligands at this site, as
+demonstrated by the docking of  xxxd2423xxx  and rofecoxib
+in cox-1. it is possible that in addition to steric reasons,
+val523 acts as a modulator of the kinetic/dynamic behavior
+of the ligands. indeed, tricyclic compounds are time dependent (irreversible) inhibitors of cox-2, and they also exhibit
+a lower, but time independent (reversible) inhibition behavior in cox-1 [24]. the mutation val513 to ile513 in cox-2
+changes the time dependent behavior of different tricyclic
+inhibitors to a time independent behavior, and preserving
+part of their inhibitory profile [22]. extensive molecular
+modeling studies are required to further understand the
+dynamics of the inhibition process and the structural rearrangements associated with these two types of inhibition.
+
+5. conclusions
+systematic docking of selective and non selective ligands
+in the active site of both isozymes was undertaken, using
+the available structural information together with site directed mutagenesis results reported in the literature. models
+constructed show different features regarding the characterization of key structural motifs of ligands involved in
+cox inhibition. several structural features are considered
+to be important for efficient cox inhibition: (i) a carboxylate moiety that interacts with the arg120 side chain; (ii)
+a carbonyl moiety that interacts via a hydrogen bond with
+the side chain of ser530 and (iii) a distal aromatic ring
+filling a hydrophobic pocket beneath the tyr385 side chain.
+these three moieties need to be attached to a scaffold that
+
+370
+
+o. llorens et al. / journal of molecular graphics and modelling 20 (2002) 359–371
+
+most commonly is a six-membered ring. however, present
+results evidence a differential binding mode of the ligand,
+depending on the relative position of the carboxyl and aromatic moieties on the scaffold. this observation could be
+drawn after the analysis of the models of meclofenamic
+acid or diclofenac when compared to those of  xxxd2423xxx 
+or  xxxd3563xxx  this result conciliate and is supported by
+different site directed mutagenesis studies reported in the
+literature. present models also explore the possibility that
+non-selective ligands bind also in a different orientation as
+demonstrated for  xxxd2423xxx . this binding orientation could
+be interpreted as an intermediate mode of binding for the
+ligands in their way to the cox binding pocket.
+selective cox-2 tricyclic inhibitor rofecoxib show a similar disposition when docked into the active site of both
+isoenzymes. this is possible through a displacement of the
+sulphone moiety and an induced fit of the helix that maintains phe518 at the same time in cox-2.
+
+acknowledgements
+the authors wish to thank the helpful comments of
+an anonymous referee to enrich the present manuscript.
+cesca is gratefully acknowledged for a generous allocation of computer time through a grant to the project molecular engineering. o. llorens wishes to thank the generalitat
+de catalunya for a fellowship to undertake this work.
+references
+[1] r.m. smith, d.l. dewitt, r.m. garavito, cyclooxygenases:
+structural, cellular, and molecular biology, ann. rev. biochem. 69
+(2000) 145–182.
+[2] h. herschman, function and regulation of prostaglandin synthase 2,
+adv. exp. med. biol. 469 (1999) 3–8.
+[3] d.e. griswold, j.l. adams, constitutive cyclooxygenase (cox-1)
+and inducible cyclooxygenase (cox-2): rationale for selective
+inhibition and progress to date, med. res. rev. 16 (1996) 181–206.
+[4] d. munroe, c.y. lau, turning down the heat: new routes to inhibition
+of inflammatory signaling by prostaglandin h2 synthases, chem.
+biol. 2 (1995) 343–350.
+[5] h. herschman, prostaglandin synthase 2, biochim. biophys. acta.
+1299 (1996) 125–140.
+[6] k. seibert, y. zhang, k. leahy, s. hauser, j. masferrrer, w. perkins,
+l. lee, p. isakson, pharmacological and biochemical demonstration
+of the role of  xxxg1884xxx  in inflammation and pain, proc.
+natl. acad. sci. u.s.a. 91 (1994) 12013–12017.
+[7] g.p. o’neill, a.w. ford-hutchinson, expression of mrna for
+ xxxg1883xxx  and -2 in human tissues, febs lett. 330 (1993)
+156–160.
+[8] s. kargman, s. charleson, m. cartwright, j. frank, d. riendeau, j.
+mancini, j. evans, g. o’neill, characterization of prostaglandin g/h
+synthase 1 and 2 in rat, dog, monkey, and human gastrointestinal
+tracts, gastroenterology 111 (1996) 445–454.
+[9] j. vane, towards a better aspirin, nature 367 (1994) 215–216.
+[10] j.j. talley, selective inhibitors of cyclooxyganase-2, exp. opin. ther.
+patents 7 (1997) 55–62.
+[11] l.a. sorbera, p.a. leeson, j. castañer, rofecoxib, drugs of the
+future 23 (1998) 1287–1296.
+
+[12] t.j. schnitzer,  xxxg1884xxx -specific inhibitors: are they safe?
+am. j. med. 110 (suppl. 1) (2001) s46–s49.
+[13] d. picot, p.j. loll, r.m. garavito, the x-ray crystal structure of the
+membrane protein prostaglandin h2 synthase-1, nature 367 (1994)
+243–249.
+[14] p.l. dewitt, cox-2-selective inhibitors: the new super aspirins, mol.
+pharmacol. 55 (1999) 625–631.
+[15] c. luong, a. miller, j. barnett, j. chow, c. ramesha, m. browner,
+flexibility of the nsaid binding site in the structure of human
+ xxxg1884xxx , nat. struct. biol. 3 (1996) 927–933.
+[16] r.g. kurumball, a.m. stevens, j.k. gierse, j.j. mcdonald, r.a.
+stegeman, j.y. pak, d. gildehaus, j.m. miyashiro, t.d. penning, k.
+seibert, p.c. isakson, w.c. stallings, structural basis for selective
+inhibition of cyclooxyganase-2 by anti-inflammatory agents, nature
+384 (1996) 644–648.
+[17] b.s. selinsky, k. gupta, c.t. sharkey, p.j. loll, structural analysis of
+nsaid binding by prostaglandin h2 synthase: time-dependent and
+time-independent inhibitors elicit identical enzyme conformations,
+biochemistry 40 (2001) 5172–5180.
+[18] p.j. loll, structure of prostaglandin h2 synthase-1 (cox-1) and its
+nsaid binding sites, in: n. bazan, j. botting, j. vane (eds.), new
+targets in inflammation, inhibitors of cox-2 or adhesion molecules,
+1996, pp. 13–21.
+[19] m. filizola, j.j. perez, a. palomer, d. mauleon, comparative
+molecular modeling study of the three-dimensional structures of
+prostaglandin endoperoxide h2 synthase 1 and 2 (cox-1 and
+cox-2), j. mol. graph. model. 15 (1997) 290–300.
+[20] j.a. mancini, d. rindeau, j.-p. falgueyret, p.j. vickers, g.p. o’neill,
+arginine 120 of prostaglandin g/h synthase-1 is required for the
+inhibition by non-steroideal anti-inflammatory drugs containing a
+carboxylic acid moiety, j. biol. chem. 270 (1995) 29372–29377.
+[21] j.k. gierse, j.j. mcdonald, s.d. hauser, s.h. rangwala, c.m.
+koboldt, k. seibert, a single amino acid difference between cyclooxyganase-1 (cox-1) and –2 (cox-2) reverses the selectivity of
+cox-2 specific inhibitors, j. biol. chem. 271 (1996) 15810–15814.
+[22] q. guo, l.-h. wang, k.-h. ruan, j. kulmacz, role of val509
+in time-dependent inhibition of human prostaglandin h synthase-2
+cyclooxygenase activity by isoform-selective agents, j. biol. chem.
+271 (1996) 19134–19139.
+[23] d.k. bhattacharyya, m. lecomte, c.j. rieke, r.m. garavito, w.l.
+smith, involvement of arginine 120, glutamate 524 and tyrosine 355
+in the binding of  xxxd208xxx  and 2-phenylpropionic acid inhibitors
+to the cyclooxygenase active site of ovine prostaglandin endoperoxide
+h synthase-1, j. biol. chem. 271 (1996) 2179–2184.
+[24] e. wong, c. bayly, h.l. watermann, d. riendeau, j.a. mancini,
+conversion of prostaglandin g/h synthase-1 into an enzyme sensitive
+to  xxxg1884xxx  selective inhibitors by a double his513 → arg and ile523
+→ val mutation, j. biol. chem. 272 (1997) 9280–9286.
+[25] g.m. greig, a.f. donna, j.-p. falgueyret, m. ouellet, m.d. percival,
+p. roy, c. boily, j.a. mancini, g.p. o’neill, the interaction of
+arginine 106 of human prostaglandin g/h synthase-2 with inhibitors
+is not a universal component of inhibition mediated by non-steroidal
+anti-inflammatory drugs, mol. pharm. 52 (1997) 829–838.
+[26] j.a. mancini, p.j. vickers, g.p. o’neill, c. boily, j.-p. falgueyret, d.
+rindeau, altered sensitivity of aspirin-acetylated prostaglandin g/h
+synthase-2 to inhibition by non-steroidal anti-inflammatory drugs,
+mol. pharm. 51 (1997) 52–60.
+[27] o.-y. so, l.e. scarafia, a.y. mak, o.h. callan, d.c. swinney, the
+dynamics of prostaglandin h synthases, j. biol. chem. 273 (1998)
+5801–5807.
+[28] c.j. rieke, a.n. mulichak, r.m. garavito, w.l. smith, the role
+of arginine 120 of human prostaglandin endoperoxide h synthase-2
+in the interaction with fatty acid substrates and inhibitors, j. biol.
+chem. 274 (1999) 17109–17114.
+[29] a.s. kalgutkar, b.c. crews, s.w. rowlinson, a.b. marnett, k.r.
+kozak, r.p. remmel, l.j. marnett, biochemically-based design
+of  xxxg1884xxx  (cox-2) inhibitors: facile conversion of
+
+o. llorens et al. / journal of molecular graphics and modelling 20 (2002) 359–371
+
+[30]
+
+[31]
+
+[32]
+
+[33]
+
+[34]
+
+[35]
+
+non-steroidal anti-inflammatory drugs to potent and highly selective
+cox-2 inhibitors, proc. natl. acad. sci. u.s.a. 97 (2000) 925–930.
+h.m. berman, j. westbrook, z. feng, g. gillard, t.n. bhat, h.
+weissig, i.n. shindyalov, p.e. bourne, the protein data bank, nucl.
+acids res. 28 (2000) 235–242.
+d.a. pearlman, d.a. case, j.c. caldwell, g.l. seibel, v.c. singh,
+p. weiner, p.a. kollman, amber, university of california, san
+francisco, 1991.
+s.j. weiner, p.a. kollman, d.a. case, u.ch. singh, c. ghio, g.
+alagona, s. profeta, p. weiner, a new force field for molecular
+mechanical simulation of nucleic acids and proteins, j. am. chem.
+soc. 106 (1984) 765–784.
+m.j. frisch, g.w. trucks, h.b. schlegel, p.m.w. gill, b.g.
+johnson, m.a. robb, j.r. cheesman, t. keith, g.a. petersson, j.a.
+montgomery, k. raghavachari, m.a. al-laham, v.g. zakrzewski,
+j.v. ortiz, j.b. foresman, c.y. peng, p.y. ayala, w. chen, m.w.
+wong, j.l. andres, e.s. replogle, r. gomperts, r.l. martin, j. fox,
+j.s. binkley, d.j. defrees, j. baker, j.j.p. stewart, m. head-gordon,
+c. gonzales, j.a. pople, gaussian94, revision b.2, gaussian inc.,
+pittsburg, pennsylvania, 1995.
+p.j. goodford, a computational procedure for determining
+energetically favorable binding sites on biologically important
+macromolecules, j. med. chem. 28 (1985) 849–857.
+grid version 17.0, molecular discovery ltd., oxford, 1998.
+
+371
+
+[36] insightii, molecular simulations, san diego, ca, 1998.
+[37] f. cabre, a. carabaza, unpublished results.
+[38] j.r. kiefer, j.l. pawlitz, k.t. moreland, r.a. stageman, w.f. hood,
+j.k. gierse, a.m. stevens, d.c. goodwin, s.w. rowilson, l.j.
+marnett, w.c. stallings, r.g. kurumbail, structural insights into the
+stereochemistry of the cyclooxygenase reaction, nature 405 (2000)
+97–101.
+[39] p.j. lloll, c.j. carrell, h.c. carrell, r.m. garavito, 1-(4-iodobenzoyl)-5-methoxy-2-methyl-3- xxxd2348xxx , an iodinated indomethacin analog, acta. crystallogr. c. 52 (1996) 455–457.
+[40] p.j. loll, d. picot, o. ekabo, r.m. garavito, synthesis and use of
+iodinated non-steroidal anti-inflammatory drug analogs as crystallographic probes of the prostaglandin h2 synthase cyclooxygenase
+active site, biochemistry 35 (1996) 7330–7340.
+[41] k. hoogsteen, n.r. trenner, the structure and conformation of
+the cis- and trans-isomers of 1-(p-chlorobenzylidene)-2-methyl5-methoxyindenylacetic acid, j. org. chem. 35 (1970) 521–523.
+[42] m.l.p. price, w.l. jorgensen, analysis of binding affinities for
+celecoxib analogues with cox-1 and cox-2 from combined docking
+and monte carlo simulations and insight into the cox-2/cox-1
+selectivity, j. am. chem. soc. 122 (2000) 9455–9466.
+[43] m.l.p. price, w.l. jorgensen, rationale for the observed cox-2/
+cox-1 selectivity of celecoxib from monte carlo simulations,
+bioorg. med. chem. lett. 11 (2001) 1541–1544.
+

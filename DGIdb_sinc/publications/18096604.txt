@@ -1,0 +1,2225 @@
+929
+
+j physiol 586.4 (2008) pp 929–950
+
+topical review
+
+modification of k+ channel–drug interactions by ancillary
+subunits
+glenna c. l. bett1,2 and randall l. rasmusson2
+center for cellular and systems electrophysiology, 1 department of gynecology-obstetrics, 2 department of physiology and biophysics, school of medicine
+and biomedical sciences, 124 sherman hall, state university of new york at buffalo, buffalo, ny 14214-3005, usa
+
+reconciling ion channel alpha-subunit expression with native ionic currents and their
+pharmacological sensitivity in target organs has proved difficult. in native tissue, many k+
+channel alpha-subunits co-assemble with ancillary subunits, which can profoundly affect physiological parameters including gating kinetics and pharmacological interactions. in this review, we
+examine the link between voltage-gated potassium ion channel pharmacology and the biophysics
+of ancillary subunits. we propose that ancillary subunits can modify the interaction between pore
+blockers and ion channels by three distinct mechanisms: changes in (1) binding site accessibility;
+(2) orientation of pore-lining residues; (3) the ability of the channel to undergo post-binding
+conformational changes. each of these subunit-induced changes has implications for gating,
+drug affinity and use dependence of their respective channel complexes. a single subunit
+may modulate its associated alpha-subunit by more than one of these mechanisms. voltage-gated
+potassium channels are the site of action of many therapeutic drugs. in addition, potassium
+channels interact with drugs whose primary target is another channel, e.g. the calcium channel
+blocker nifedipine, the sodium channel blocker quinidine, etc. even when k+ channel block
+is the intended mode of action, block of related channels in non-target organs, e.g. the heart,
+can result in major and potentially lethal side-effects. understanding factors that determine
+specificity, use dependence and other properties of k+ channel drug binding are therefore of
+vital clinical importance. ancillary subunits play a key role in determining these properties
+in native tissue, and so understanding channel–subunit interactions is vital to understanding
+clinical pharmacology.
+(received 21 june 2007; accepted after revision 19 december 2007; first published online 20 december 2007)
+corresponding author r. l. rasmusson: department of physiology and biophysics, 124 sherman hall, state university
+of new york, university at buffalo, buffalo, ny 14214, usa. email: rr32@buffalo.edu
+
+although a single type of k+ channel alpha-subunit is
+often present in a variety of different organs, the kinetic
+behaviour and conformational changes of alpha-subunits
+are often modulated by co-assembly with ancillary
+subunits. the expression of ancillary subunits varies
+between organs, as well as between regions of an organ
+(isom et al. 1994; mccrossan & abbott, 2004; birnbaum
+et al. 2004; melnyk et al. 2005). this diversity of ancillary
+subunit expression therefore contributes to the diverse
+assortment of potassium currents recorded from native
+tissues. in addition, relative expression of k+ channels
+and their associated ancillary subunits can be affected by
+factors such as development, changes in hormonal state,
+ischaemic conditions, etc., which can also modulate the
+electrophysiology and pharmacology of native potassium
+currents (soliven et al. 1989; shimoni et al. 1997;
+nerbonne, 1998; liu et al. 2007). the importance of
+
+c 2008 the authors. journal compilation 
+c 2008 the physiological society
+
+the role that subunits can play in regulating ion channel
+behaviour in native tissue is demonstrated by the number
+of mutations which are associated with arrhythmogenesis
+and periodic paralysis in humans (for reviews, see chiang
+& roden, 2000; abbott & goldstein, 2001; shah et al. 2005).
+in addition, indirect alteration in subunit function can lead
+to epilepsy in humans (schulte et al. 2006).
+compounds with k+ channel blocking properties
+are commonly employed as therapeutic agents for
+conditions such as arrhythmias (tamargo et al. 2004),
+stroke (surti & jan, 2005), cancer (conti, 2004),
+and neurological disorders such as psychoses, epilepsy,
+stroke and alzheimer’s disease (surti & jan, 2005).
+for these therapeutic agents, block of specific k+
+channels is the intended mechanism of action (e.g.
+class iii anti-arrhythmic agents). however, there are a
+wide variety of therapeutic agents that are targeted
+doi: 10.1113/jphysiol.2007.139279
+
+930
+
+g. c. l. bett and r. l. rasmusson
+
+to non-k+ channels, but result in unintended block
+of k+ channels. this k+ channel block can result in
+potentially serious and sometimes even fatal side-effects
+(e.g. cardiac arrhythmias). for example, kv channels
+are blocked by calcium channel blockers including
+nifedipine and  xxxd2718xxx  (grissmer et al. 1994; zhang
+& fedida, 1998; hatano et al. 2003; bett et al. 2006b),
+and sodium channel blockers including quinidine and
+ xxxd2113xxx  (yeola & snyders, 1997; caballero et al. 2003;
+wang et al. 2003; bett & rasmusson, 2004). even when
+k+ channel block is the intended mode of action (for
+example, anti-psychotics, anti-epileptics, etc. (davis et al.
+1996; escande, 2000; wickenden, 2002)), block of the
+same or related ion channels in non-target organs, e.g.
+the heart, can result in major and potentially lethal
+side-effects such as arrhythmogenesis. side-effects are of
+particular importance in the herg channel, which is
+the molecular basis of i kr . (see for example sanguinetti
+& tristani-firouzi, 2006). the co-assembly of the core
+alpha-subunit of an ion channel with a variety of ancillary
+subunits results in channels which present a broad
+spectrum of potential targets and side-effects for
+drugs with channel blocking actions. understanding the
+molecular basis of subunit–channel interactions and their
+impact on drug binding is therefore of critical importance
+in the development of safe pharmacological approaches
+for the treatment of arrhythmias, neurological disorders,
+and a multitude of other channel-related maladies.
+this review focuses on the relationship between the
+ability of ancillary subunits to modify the interaction
+between voltage-gated k+ channels and drugs which
+
+j physiol 586.4
+
+bind to and block the intracellular vestibule of the open
+channel pore. ancillary subunits alter the properties of the
+intracellular pore, which can result in direct changes in the
+interaction between the drug and the binding site, as well
+as changes in gating, which can indirectly affect channel
+pharmacology. we discuss three, non-mutually exclusive,
+biophysical models by which ancillary subunits could
+modify ion channel behaviour. these biophysical models
+form a framework for understanding the modification of
+drug–channel interactions by ancillary subunits, and are
+a necessary step in developing predictive state models of
+how drug binding to the open pore is modified by ancillary
+subunits.
+voltage-gated k+ channels and ancillary
+subunits
+voltage-gated k+ channels
+
+voltage-gated k+ channels are a large family of ion
+channels, which are found in almost every cell type,
+and play physiological roles in everything from electrical
+excitability to solute transport. a minimally functional k+
+channel contains a tetramer of alpha-subunits, each of which
+contributes equally to the pore structure. in addition to
+the alpha-subunits, which form the core of the channel, many
+k+ channels co-assemble in native cells with ancillary
+subunits (e.g. kchips (k+ channel interacting proteins),
+kcnes and kvbetas), which can result in dramatic changes
+in structure, behaviour, and function of the ion channel.
+figure 1 shows the topology of a typical pore-forming
+
+figure 1. cartoon representation of kv channels and ancillary subunits
+the pore-forming component of kv channels are formed from a tetramer of alpha-subunits. the alpha-subunits have six
+transmembrane segments, with intracellular n- and c-terminals. the fourth transmembrane segment has a net
+positive charge, and is thought to be the voltage sensor. ancillary subunits interact with the core alpha-subunits in
+a variety of ways. the kcne family are single transmembrane proteins, with an intracellular c-terminal and an
+extracellular n-terminal. the kchip family of proteins are located intracellularly, and are thought to interact with
+the n-terminal. the kvbeta proteins interact with both n- and c-terminals.
+
+c 2008 the authors. journal compilation 
+c 2008 the physiological society
+
+j physiol 586.4
+
+ancillary subunits and k+ channel block
+
+931
+
+alpha-subunit of a  xxxg1244xxx . the n- and
+c-terminal domains are on the cytoplasmic side of the
+membrane. the channel has six transmembrane segments,
+s1–s6, thought to be alpha-helical in structure. a short
+lipophilic segment, the ‘h5 loop’, lies between s5 and
+s6. the h5 helix dips into the transmembrane domain,
+forms a small loop and returns to the extracellular side
+(jan & jan, 1992). h5 is thought to be the location of
+the selectivity filter of the channel (yool & schwarz, 1991;
+lipkind et al. 1995; doyle et al. 1998), and is important
+as a locus for extracellular channel blockers. these general
+structural elements established in kcsa (doyle et al. 1998)
+are well conserved in voltage-gated k+ channels, and have
+been confirmed in crystal structures such as kvap and
+ xxxg1231xxx  (lee et al. 2005; long et al. 2005a,b).
+
+in all voltage-gated channel models, activation involves a
+movement and deformation of s6 at critical hinge regions
+(labro et al. 2003; zhao et al. 2004; webster et al. 2004)
+as the channel moves from the closed to the open state.
+however, the putative open conformation is very different
+for the kcsa and  xxxg1231xxx  versus mthk channels (liu et al.
+2001; jiang et al. 2002; cuello et al. 2004; lee et al. 2005;
+long et al. 2005a,b; zimmer et al. 2006). this suggests
+there is tremendous physical diversity in the open channel
+conformation, even in related channels. furthermore,
+ancillary subunits strongly modify gating properties and
+drug binding properties of the open channel, possibly
+by the substantial structural rearrangements that occur
+as a result of ancillary subunits co-assembling with their
+alpha-subunit partners (see table 1 and table 2).
+
+k+ channel activation
+
+k+ channel inactivation
+
+k+ channel activation is a voltage-dependent event, i.e.
+channels open in response to a change in membrane
+voltage. such voltage dependence requires that a net
+charge moves in the transmembrane electrical field in
+order to produce the physical work necessary to move
+the channel out of the stable closed conformation.
+ca2+ , na+ and k+ channels share a similar structure
+and common voltage-sensing mechanism. the s4
+transmembrane domain in k+ channels contains a highly
+conserved structure (lee et al. 2005; long et al. 2005a,b).
+every third position is occupied by a lysine or arginine,
+which are positively charged in the physiological range
+of ph. at the resting membrane potential, many of
+these positive charges are on the intracellular face of the
+membrane. on membrane depolarization these residues
+move through the membrane due to the increased
+electrical driving force and reach the extracellular face
+(mannuzzu et al. 1996). the transmembrane movement of
+s4 initiates large scale conformational changes that result
+in an open, conducting pore (catterall, 1995; yellen, 1998;
+bezanilla, 2002; lee et al. 2005; long et al. 2005a,b).
+
+inactivation is the process by which a channel becomes
+non-conducting in the presence of a continued stimulus.
+in general, the process of inactivation is slower than
+activation, although there are important exceptions to this
+observation, e.g. herg (trudeau et al. 1995; sanguinetti
+et al. 1995). the molecular basis of k+ channel inactivation
+was originally based on data from shaker k+ channels.
+mutagenesis studies showed at least two mechanisms of
+inactivation, called ‘n-type’ and ‘c-type’ (hoshi et al.
+1991).
+
+the k+ channel open state
+
+channel opening involves a significant change in protein
+structure. one of the most important rearrangements
+is opening or widening of the intracellular pore. this
+widening is often referred to as the ‘intracellular gate’
+(holmgren et al. 1998). the entire
+pore volume has been
+a
+measured to be ∼800–2000 a3 for voltage-gated na+ and
+k+ channels i.e. the volume of ∼50 water molecules
+(zimmerberg et al. 1990; rayner et al. 1992; jiang et al.
+2003). there are three general pictures of intracellular pore
+opening based on crystal structure measurements. the s6
+transmembrane segment is thought to play a prominent
+role in lining the pore in the open channel models of both
+kcsa,  xxxg1231xxx  and mthk channels (liu et al. 2001; jiang et al.
+2002; cuello et al. 2004; lee et al. 2005; long et al. 2005a,b).
+
+c 2008 the authors. journal compilation 
+c 2008 the physiological society
+
+n-type inactivation. the best understood inactivation
+
+mechanism is n-type, which occurs on the order
+of ∼milliseconds to ∼tens of milliseconds. n-type
+inactivation is mediated by a ‘tethered ball’ mechanism
+in which a lipophilic segment of ∼20 amino acids in the
+n-terminus of the channel binds at the intracellular pore
+mouth (zagotta et al. 1990; hoshi et al. 1990, 1991). n-type
+inactivation has a number of well-defined properties: (1)
+n-type inactivation is removed after n-terminal deletion
+(hoshi et al. 1990); (2) n-type inactivation is insensitive to
+extracellular [tea+ ] but sensitive to intracellular [tea+ ]
+(choi et al. 1991; demo & yellen, 1991); (3) n-type
+inactivation is unaffected by increased [k+ ]o (rasmusson
+et al. 1995); (4) the rate of n-type inactivation is voltage
+insensitive at positive potentials (zagotta & aldrich, 1990);
+(5) n-type inactivation is insensitive to point mutations
+at the outer mouth of the channel or the outer region of
+s6 (hoshi et al. 1991; rasmusson et al. 1995).
+c-type inactivation. in k+ channels, c-type inactivation
+
+is defined as the inactivation mechanism that remains
+following the loss of n-type inactivation i.e. following
+n-terminal deletion (hoshi et al. 1991; hille, 2001). c-type
+inactivation involves small conformational changes at
+the extracellular side of the pore, and a substantial
+conformational change (on the same order as channel
+opening) at the intracellular side of the channel pore
+
+932
+
+g. c. l. bett and r. l. rasmusson
+
+j physiol 586.4
+
+table 1. effect of subunits on kv channel gating
+ancillary
+subunit
+alpha-subunit family
+ xxxg1229xxx 
+ xxxg1231xxx 
+ xxxg1233xxx 
+
+kvbeta
+kvbeta
+kvbeta
+
+ xxxg1233xxx  n
+ xxxg1234xxx 
+
+kvbeta
+kvbeta
+
+kv2
+kv3
+
+kcne3
+kcne3
+
+kv4
+
+kchips
+
+ xxxg1245xxx 
+kcne2
+
+ xxxg1268xxx 
+( xxxg1268xxx )
+
+ xxxg1246xxx 
+(herg)
+
+kcne3
+kvbeta
+ xxxg1245xxx 
+kcne2
+kcne3
+kcne4
+kcne5
+ xxxg1245xxx 
+kcne2
+
+gating parameter modified by subunit
+
+introduces inactivation (rettig et al. 1994; heinemann et al. 1996)
+introduces inactivation (heinemann et al. 1996; wang et al. 1996)
+increases inactivation rate (rettig et al. 1994; morales et al. 1995, 1996; majumder et al. 1995)
+slows recovery from inactivation (castellino et al. 1995; accili et al. 1998).
+increases inactivation rate (heinemann et al. 1995, 1996; rasmusson et al. 1997)
+introduces inactivation (majumder et al. 1995; england et al. 1995; heinemann et al. 1996; de biasi et al. 1997;
+uebele et al. 1998; gonzalez et al. 2002; tipparaju et al. 2007)
+shifts activation kinetics (england et al. 1995; uebele et al. 1996, 1998; heinemann et al. 1996; de biasi et al. 1997;
+tipparaju et al. 2007)
+slows deactivation (de biasi et al. 1997; uebele et al. 1998)
+slows activation and deactivation (mccrossan et al. 2003)
+slows activation (mccrossan et al. 2003; lewis et al. 2004)
+slows deactivation (lewis et al. 2004)
+shifts activation and increases rate of recovery from inactivation (abbott et al. 2001)
+alters rate of inactivation (an et al. 2000; bahring et al. 2001a; beck et al. 2002; deschenes & tomaselli, 2002; van
+hoorick et al. 2003; boland et al. 2003; patel et al. 2004).
+speeds recovery from inactivation (an et al. 2000; decher et al. 2001; beck et al. 2002; deschenes & tomaselli,
+2002; patel et al. 2002; boland et al. 2003).
+slows activation and inactivation; slows recovery from inactivation (deschenes & tomaselli, 2002)
+slows activation, shifts activation and inactivation (zhang et al. 2001)
+slows inactivation (zhang et al. 2001; deschenes & tomaselli, 2002)
+slows and shifts activation; slows and shifts inactivation; slows recovery from inactivation (lundby & olesen, 2006)
+shifts inactivation; slows recovery from inactivation (deschenes & tomaselli, 2002)
+slows activation, abolishes inactivation (barhanin et al. 1996; sanguinetti et al. 1996)
+introduces instantaneous activation; increases deactivation rate (tinel et al. 2000)
+channel constitutively open and voltage independent (schroeder et al. 2000)
+slows and shifts activation (bendahhou et al. 2005)
+slows and shifts activation (angelo et al. 2002; bendahhou et al. 2005)
+speeds deactivation (angelo et al. 2002)
+shifts activation (mcdonald et al. 1997)
+slows and shifts activation (abbott et al. 1999)
+speeds activation (mazhari et al. 2001)
+increases the rate of deactivation (abbott et al. 1999; mazhari et al. 2001; weerapura et al. 2002; lu et al. 2003)
+
+table 2. effect of subunits on the interaction between open pore blockers and kv channels.
+alpha-subunit
+ xxxg1234xxx 
+kv4
+
+ xxxg1268xxx 
+
+herg
+
+ancillary
+subunit
+
+drug parameter modified by subunit
+
+kvbeta1.3 decreases sensitivity to bupivicaine, quinidine and s0100176 (gonzalez et al. 2002; decher et al. 2005)
+kchips decreases sensitivity to nifedipine,  xxxd2718xxx , bupivicaine and ropivicaine (hatano et al. 2003; friederich & solth,
+2004; solth et al. 2005; bett et al. 2006b).
+slows development of block by ropivicane and  xxxd383xxx  (friederich & solth, 2004; solth et al. 2005)
+ xxxg1245xxx  increases sensitivity to chromanol 293b, hmr 1556, s5557,  xxxd272xxx , xe991 and 17 beta- xxxd2037xxx  (busch et al. ( xxxg1268xxx )
+1997; wang et al. 2000; schroeder et al. 2000; lerche et al. 2000; bett et al. 2006a).
+affects use dependence (seebohm et al. 2001; bett et al. 2006a)
+kcne2 increases sensitivity to chromanol 293b (tinel et al. 2000)
+kcne3 increases sensitivity to chromanol 293b,  xxxd272xxx , xe991 and 17 beta- xxxd2037xxx  (schroeder et al. 2000; macvinish
+et al. 2001; bett et al. 2006a)
+kcne2 increases sensitivity to e4031 and propranolol (abbott et al. 1999; dupuis et al. 2005)
+( xxxg1246xxx ) alters use dependence (abbott et al. 1999)
+
+(jiang et al. 2003; li et al. 2003). this inactivation was
+labelled ‘c-type’ as it is dependent on the particular
+c-terminal splice variant of the shaker k+ channel
+being studied (pongs, 1992). the cytoplasmic portion
+
+of the c-terminal of shaker does not mediate c-type
+inactivation through a second ball and chain mechanism,
+rather it alters permeation through the core domain
+pore region. domains critical for c-type inactivation
+
+c 2008 the authors. journal compilation 
+c 2008 the physiological society
+
+j physiol 586.4
+
+ancillary subunits and k+ channel block
+
+include the extracellular side of s6 (hoshi et al. 1991), the
+intracellular side of s6 (li et al. 2003; bett & rasmusson,
+2004) and a specific residue in the extracellular h5–s6
+loop (position 449 in shaker b) (lopez-barneo et al.
+1993; wang et al. 2003). c-type inactivation is slowed by
+increasing external permeant ion concentrations (busch
+et al. 1991; lopez-barneo et al. 1993) and by the application
+of extracellular, but not intracellular, tea+ (choi et al.
+1991). thus, c-type inactivation was determined to
+involve closure of the extracellular pore mouth and
+cooperative interactions between multiple core alpha-subunits
+(ogielska et al. 1995; kiss et al. 1999; andalib et al.
+2004). the movements associated with c-type inactivation
+involve more than just small regional changes on the
+extracellular face of the pore; changes in intracellular pore
+diameter (jiang et al. 2003; panyi & deutsch, 2007), and
+transmembrane spanning domains (hoshi et al. 1991;
+adelman et al. 1995; li et al. 2003; bett & rasmusson,
+2004) have also been implicated, as have deeper regions of
+the selectivity filter (kurata et al. 2005; panyi & deutsch,
+2007; cordero-morales et al. 2007).
+drug binding to the open k+ channel
+
+potassium channels interact with a wide variety of drugs.
+for manageability, this review considers only the binding
+of drugs to the open pore of voltage-gated potassium
+channels. however, a similar analysis can be applied to
+conformational-specific drug binding to other states and
+channels. drug binding to an intracellular pore site or
+vestibule is a well established concept (see hille, 2001).
+more recently, site-directed mutagenesis has enabled
+identification of the key pore residues which form the
+binding site in the intracellular pore. analysis of crystal
+structures of the pore region has shown the relative
+positions of these key residues, and the physical nature
+of the binding site.
+the  xxxg1234xxx  s6 binding domains for quinidine were
+among the first to be mapped (yeola et al. 1996).
+other drug–channel combinations have subsequently
+been mapped against the putative crystal structure of this
+region (seebohm et al. 2001, 2003; chen et al. 2002). in
+some cases, a projection of the drug binding interactions
+in terms of individual van der waal’s interactions has
+been accomplished for high-affinity, high-specificity drugs
+(chen et al. 2002). these mappings agree well with the
+putative closed state kcsa structure (doyle et al. 1998),
+despite the drugs having the properties of open channel
+blockers. analysis of quaternary ammonium binding has
+also been interpreted in the context of the putative closed
+structure of the kcsa channel (doyle et al. 1998). analysis
+of the crystal structure of this channel bound to the
+n-terminal inactivation ball showed some interesting
+characteristics. in addition to having structural orientation
+similar to the closed state of the channel, the n-terminal
+
+c 2008 the authors. journal compilation 
+c 2008 the physiological society
+
+933
+
+‘ball’ bound with the n-terminal amino acids in an
+extended chain (zhou et al. 2001), lining the pore, instead
+of the much more rounded structure predicted for these
+domains in solution using nmr (wissmann et al. 1999).
+this structural information suggests that drug binding and
+n-terminal-inactivated states may involve considerable
+secondary changes in channel structure following initial
+binding to the open state.
+for some drug–channel combinations, the degree of
+block observed depends on the stimulation frequency.
+when the block of an open channel blocking drug
+increases with stimulation frequency, this is called use
+dependence. use dependence is thought to arise from
+the interplay of two kinetic parameters: the rate of drug
+binding/unbinding, and the transition rate of the channel
+between states (starmer et al. 1984; gintant & hoffman,
+1984; hondeghem & katzung, 1984). this occurs because
+some drugs bind only to, or preferentially to, specific
+open or closed states of the channel, i.e. some drugs
+display a variety of conformation-specific interactions
+with k+ channels. the amount of time a voltage-gated
+channel spends in any particular state depends in large
+part on the membrane potential. conformation-specific
+interactions can therefore alter drug block of a given
+channel by orders of magnitude, depending on the
+pattern of electrical stimulation (armstrong, 1969, 1971;
+strichartz, 1973; hondeghem & katzung, 1977; starmer
+et al. 1984). this remains a current topic of research
+in voltage-gated potassium channels (e.g. spector et al.
+1996; zhang et al. 1999; jo et al. 2000; kushida
+et al. 2002; persson et al. 2005; bett et al. 2006a,b; stork et al.
+2007). these variations in patterns of use dependence can
+either be clinically detrimental (i.e. the drug has reduced
+effectiveness) or beneficial (e.g. the drug is only effective
+during periods of tachycardia) (hondeghem & snyders,
+1990). ancillary subunits can alter the conformation of
+k+ channels, as well as alter gating kinetics and the
+response of the channel to stimulation frequency. the
+presence of ancillary subunits can therefore modulate
+the relationship between drug and channel, in some cases
+quite dramatically.
+biophysical models of subunit modification
+of k+ channel behaviour
+ancillary subunits can strongly modulate drug–channel
+interactions (tables 1 and 2). as more channel defects
+that affect drug–channel interactions are identified,
+understanding subunit–channel interactions will be
+critical in identifying the consequences of these defects.
+drug–channel interactions are strongly influenced by
+channel gating, as well as the structure of the binding
+site. in an effort to develop a general framework for
+understanding how the relationship between ion channels
+and drug binding is affected by the presence of ancillary
+
+934
+
+g. c. l. bett and r. l. rasmusson
+
+subunits, we will examine subunit–drug–channel interactions in terms of mechanisms of interaction between
+subunit in the pore/vestibule region. this biophysical
+classification may help form the basis for developing predictive state models of drug binding to the open pore, and
+how these models are modified in the presence of subunits.
+we propose that the subunit-induced changes in
+drug–channel interactions can be separated into three
+discrete but related components with distinct molecular
+mechanisms:
+1. ancillary subunits can modulate the ability of drugs
+to access the binding site in the open pore.
+2. ancillary subunits can modulate the orientation of
+residues (primarily on s6) which confer specificity of drug
+binding.
+3. ancillary subunits can modulate the ability of
+the channel to undergo conformational changes (e.g.
+inactivation and closure) following drug block.
+these three mechanisms are not necessarily exclusive
+but can, and probably do, co-exist in any combination in
+any given channel–subunit unit. many features of gating
+and open pore drug binding are similar across the family of
+voltage-gated channels, so it is likely this biophysical model
+can be successfully applied to open pore drug binding
+modulation in other voltage-gated channels.
+ancillary subunits can modulate the ability of drugs
+to access the binding site in the open pore
+
+in order for a drug to bind to the intracellular pore of a
+channel, the drug must be able to reach its binding site.
+for open-pore blockers, this requires that the channel is
+in the open state and the drug can reach the binding site.
+a simple state model of a drug binding to the open pore
+in a channel with closed (c), open (o), blocked (b) and
+blocked-inactivated (bi) states is given by:
+c  o  b  bi
+
+scheme (1)
+
+a schematic representation of this model is shown in
+fig. 2a. the simplest method by which  xxxg220xxx  can
+decrease the ability of a drug to reach the open pore binding
+site is by physical occlusion of the binding site. figure 2b
+shows how an ancillary subunit that binds to the pore
+drug binding site will alter the interaction between drug
+and channel. if the subunit blocks access to the pore or
+competes at the open pore binding site (e.g. rasmusson
+et al. 1997; de biasi et al. 1997), then the subunit must
+unbind before the drug can gain access to the binding site.
+the equivalent state model is:
+c  o  b  bi
+scheme (2)
+s
+
+j physiol 586.4
+
+where s is the state in which the subunit is bound to
+the pore of the channel. electrophysiologically recorded
+current flow is only a measure of the time the channel
+spends in the open state. the effect of the addition of the
+subunit-bound state will therefore depend on the relative
+magnitude of the transition rates between the open and
+blocked states, and the open and subunit-bound states.
+the introduction of the subunit-bound state may result in
+a change in apparent affinity of the drug for the channel,
+even though the actual affinity of the channel has not
+changed. changes in the apparent affinity are usually
+measured as reduction in peak current, but depending on
+model specifics, the actual changes in affinity can often be
+calculated from the changes in gating (bett & rasmusson,
+2002).
+in some cases, inactivation and drug block are
+competitive processes. a schematic depiction of the most
+simple case of competitive binding and inactivation is
+shown in fig. 3a. the equivalent state model is given by:
+coi
+scheme (3)
+b
+figure 3b shows the effect of adding  xxxg220xxx -bound
+(occluding) state to the model. the equivalent state model
+is given by:
+s
+coi
+
+scheme (4)
+
+b
+similar to scheme (2), the net effect on the electrophysiologically measured current will depend on the
+relative magnitudes of the four transitions out of the open
+state. although the rate of transition from the open to the
+drug-bound state is not changed by the presence of the
+ancillary subunit, there may be a change in the apparent
+affinity for the drug, due to the addition of the extra
+subunit-blocked state. physical occlusion of the binding
+site that competes with drug binding is most easily understood in terms of the addition of an ‘n-terminal ball’, which
+kvbeta-subunits introduce to kv channels (see section 3.1).
+physical occlusion of the pore by the ancillary subunit
+itself is not the only way in which access to the binding can
+be altered. in order for the binding site to be accessible,
+the channel must be in the open conformation, and the
+conformation of the intracellular pore must enable the
+drug to reach the binding site. changes in channel gating
+can result in a change of accessibility to the binding site
+i.e. the amount of time the channel spends in the open
+state. deactivated, closed and resting channels usually have
+an intracellular gate which precludes the entry of open
+channel blockers to their s6 binding site (holmgren et al.
+
+c 2008 the authors. journal compilation 
+c 2008 the physiological society
+
+j physiol 586.4
+
+ancillary subunits and k+ channel block
+
+1998; del camino & yellen, 2001). addition of extra closed
+states increases the complexity of the opening process,
+and can introduce a sigmoid delay between stimulus and
+channel opening. a reduction in the time the channel is in
+the open state can reduce the apparent binding affinity of
+a drug for the channel.
+c  c  c  o  b  bi
+
+scheme (5)
+
+alternatively, addition of extra open states, which
+have altered (or zero) affinity for the drug, will result
+in a change in apparent binding affinity. in the case
+where co-expression with an ancillary subunit results in
+additional open states with altered affinity for the drug,
+there cannot be an increase in the apparent affinity of the
+drug for the channel without re-orientation of the residues
+involved in creating the binding site.
+c  o1  o2  o3  b  bi scheme (6)
+
+935
+
+conversely, the presence of ancillary subunits can result
+in a reduction in the number of states, which can result in
+an increase in the ability of the drug to access the binding
+site. the most dramatic form of this is when the channel
+is not able to move in or out of the open state, and the
+binding site is always accessible, as is approximated by the
+case of kcne3 interacting with  xxxg1268xxx  (see section 3.3):
+o
+
+if accessibility to the pore binding site is changed by either
+physical block or changes in gating, there is a change in
+the number of states present in the equivalent state model.
+these changes will affect the rate at which the channel
+can return to the drug-unbound closed state, and so will
+usually affect the use dependence of the channel.
+in summary, if the subunit modulates ion channel–drug
+interactions by altering the ability of the drug to access the
+
+figure 2. cartoon representation to indicate how an ancillary subunit can alter binding site accessibility
+a, a channel with a binding site in the intracellular pore has to open before the drug can bind. drug binding may
+be followed by a post-binding conformational change in the channel. b, if the channel shown in a has  xxxg220xxx 
+associated with it that can bind to the open pore, then, following pore opening, the subunit can block access of
+the drug to the binding site, thus altering binding site accessibility.
+
+c 2008 the authors. journal compilation 
+c 2008 the physiological society
+
+scheme (7)
+
+936
+
+g. c. l. bett and r. l. rasmusson
+
+open pore binding site, there will be:
+1. a change in the number of states in the markov model
+of the channel.
+2. a change in the apparent affinity of the drug, but not
+the actual affinity.
+3. changes in use dependence
+ancillary subunits can modulate the orientation
+of residues (primarily on s6) which confer specificity
+of drug binding
+
+the traditional view of drug binding is often presented
+in terms of a ‘lock and key’ type of interaction. the
+lock and key hypothesis suggests that specific epitopes
+on a drug (the key) interact with specific side chains of
+pore-lining residues (the lock). this requires that the lock,
+i.e. the pore-lining residues, is in a particular physical
+orientation. however, the transmembrane segments of a
+channel are composed of a mixture of rigid and hinged
+structures which can adopt a number of different physical
+orientations and therefore the pore-lining side chains are
+able to adopt different physical conformations which still
+form an open vestibule capable of conducting ions. this
+is shown in fig. 4a, which demonstrates how movement
+
+j physiol 586.4
+
+(e.g. rotation) of the side chains on the s6 segment orients
+the side chain residues to form the binding site in the open
+state. if an ancillary subunit interferes with rotation of s6
+during gating in such a situation, then the side chains which
+form the lock can end up in altered relative orientations
+(fig. 4b). changing the orientation of the binding site
+residues can result in a binding site with either an increased
+or decreased affinity for the drug. examples of subunits
+that increase affinity of a drug for the channel are the
+kcnes and  xxxg1268xxx  (see section 3.3).
+a schematic representation of ancillary subunits altering
+the binding site is shown in fig. 5. there is no change
+in the ability of the drug to access the binding site,
+only a difference in the interaction between the drug
+and the side chains forming the binding site. the only
+transition affected is therefore that between the open and
+the drug-bound state. the equivalent state model is:
+
+c  o  b  bi
+
+
+scheme (8)
+
+for a channel in which inactivation and drug binding
+are competitive, the schematic depiction is given in fig. 6.
+once again, the only transition affected is open to blocked
+
+figure 3. cartoon representation of physical block of a channel with competitive inactivation
+a, in some channels, inactivation and drug block are competitive processes. b, the presence of  xxxg220xxx  which
+can block access to the binding site is the equivalent of introducing an extra subunit-bound state to the model.
+
+c 2008 the authors. journal compilation 
+c 2008 the physiological society
+
+ancillary subunits and k+ channel block
+
+j physiol 586.4
+
+937
+
+figure 4. the binding site depends on residues on s6
+a, channel opening involves rotation of s6, which aligns residues to form the binding site. b, ancillary subunits
+can alter the energetic favourability of some conformations, and so rotation of s6 may result in an alteration of
+the relative positions of the side chains which form the binding site. such a mechanism has been demonstrated in
+herg by chen et al. (2002).
+
+states. the equivalent state model is:
+coi
+scheme (9)
+b
+
+for the state model described in schemes (8) and (9),
+there are no changes in the number of states in the model,
+only a change in the rate at which the drug binds and
+unbinds to the channel. this change can result in either
+
+figure 5. cartoon representation of alteration in binding kinetics
+if an ancillary subunit changes the ‘shape’ of the binding site, this will affect the transition rates between the open
+and drug-bound states.
+
+c 2008 the authors. journal compilation 
+c 2008 the physiological society
+
+938
+
+g. c. l. bett and r. l. rasmusson
+
+an increase or a decrease in the affinity of the drug for the
+channel.
+use dependence depends on the transition and drug
+binding rates of the drug–channel combination relative
+to the stimulation frequency. changing the conformation
+of the binding site can result in a dramatic increase or
+decrease in the rate at which the drug binds and unbinds
+to the channel.  xxxg220xxx  that increases the rate at which a
+drug unbinds has the potential to reduce or eliminate use
+dependence. conversely,  xxxg220xxx  that decreases the rate
+at which a drug unbinds from a channel has the potential
+to increase use dependence. experimental examples of this
+include kchip2b, which eliminates use dependence from
+ xxxg1244xxx , and  xxxg1245xxx , which introduces use dependence to
+ xxxg1268xxx  (see sections 3.2 and 3.3).
+in summary, a change in the orientation of the residues
+lining the pore results in:
+1. a change (either an increase or decrease) in the actual
+affinity of the drug for the channel
+2. no changes in the number of states
+3. any changes in use dependence will follow changes
+in the on-rate and/or off-rate of drug binding
+ancillary subunits can modulate the ability of the
+channel to undergo conformational changes (e.g.
+inactivation and closure) following drug block
+
+when a drug binds to the residues lining the pore, there
+will be a release of energy as the drug and channel
+interact. this drug–binding site interaction can result in
+deformation of the channel, which can either promote or
+
+j physiol 586.4
+
+inhibit the normal conformational changes associated with
+channel gating. in addition, the physical presence of the
+drug can alter the ability of the channel to adopt certain
+conformational changes it would otherwise undergo. for
+example, the mere physical presence of a blocker in the
+pore can prevent deactivation and normal closure of
+the pore (for reviews see rasmusson et al. 1994; bett &
+rasmusson, 2002). alternatively, drug binding to the open
+pore can compete with the n-terminal domain ‘ball and
+chain’ binding, and result in a slowing of the development
+of n-type inactivation (rasmusson et al. 1994). these
+‘foot in the door’ type of mechanisms of drug–channel
+interactions (armstrong, 1966) are relatively easy to
+understand, and result in the relatively simple kinetic
+predictions (bett & rasmusson, 2002). if a channel cannot
+deactivate, close or inactivate in the presence of an open
+channel blocking drug, then the drug-bound site becomes
+an additional blocked state which only has transitions to
+and from the open state.
+for a growing number of channels and drugs it
+is becoming clear that the presence of a drug bound
+to an intracellular binding site can promote further
+conformational changes that confer many of the timeand use-dependent properties of drug action (baukrowitz
+& yellen, 1996; balser et al. 1996; rasmusson et al.
+1998; bett & rasmusson, 2002; sandtner et al. 2004).
+lipophilic open channel blocking compounds can increase
+the rate of development and stability of the c-type
+inactivated state (baukrowitz & yellen, 1996; wang et al.
+2003; bett & rasmusson, 2004). stabilization of the
+c-type inactivated state can result in a very slowly
+recovering open channel block, if the alpha-subunit has
+
+figure 6. alteration in binding kinetics in a competitive model
+the ancillary subunit changes only the transition rates between the open and drug-bound states.
+
+c 2008 the authors. journal compilation 
+c 2008 the physiological society
+
+j physiol 586.4
+
+ancillary subunits and k+ channel block
+
+slowly recovering c-type inactivation. promotion of a
+stable c-type inactivation mechanism in  xxxg1233xxx  is critically
+dependent upon lipophilic interactions and the movement
+of s6 (bett & rasmusson, 2004). drug binding that
+causes allosteric interactions involving the pore mouth
+and intra- and extracellular domains of s6 can create a
+long-lived, combined drug-bound and c-type-inactivated
+state which governs recovery and use dependence. a
+general picture of binding to the open pore is emerging
+in which drug binding properties are strongly dependent
+on the rotational mobility and stability of s6. movement
+of s6 links key elements that govern the accessibility and
+orientation of the high-affinity binding site in response to
+both activation and inactivation. in addition, the induced
+conformational changes that follow initial drug binding
+are critically dependent upon the flexibility and movement
+of s6.
+any intervention which limits the ability of the
+channel to adopt certain conformations following drug
+block will therefore be predicted to alter drug–channel
+relationships. an ancillary subunit can block post-binding
+conformational changes either by physically preventing the
+channel from adopting the conformation or by making
+transitions less energetically favourable.
+figure 7 shows a schematic representation of the effects
+of  xxxg220xxx  altering the post-binding conformational
+changes following drug binding. there are no additional
+states, and the affinity of the channel for the drug is not
+affected. only the transition from the drug-bound to the
+drug-bound inactivated state is affected. the equivalent
+
+939
+
+state model is given by:
+
+c  o  b  bi
+
+
+this model applies equally well to channels that can close
+with the drug bound, i.e. exhibit trapping block:
+
+c  o  b  bc
+
+
+scheme (11)
+
+where bc is a blocked-closed (deactivated) state.
+the changes to the transition rates shown in
+schemes (10) and (11) will affect the stability of
+the blocked-inactivated or blocked-closed states. these
+changes can affect properties such as apparent threshold
+for activation, recovery from inactivation, and use
+dependence. channels that bind drugs which become
+trapped in the deactivated or closed channel may require
+a higher applied voltage to activate as the closed/trapped
+state can become more stable relative to the open state.
+this would appear as an apparent shift in the voltage
+of activation. if the presence of  xxxg220xxx  makes the
+transition to the drug-bound inactivated state less
+energetically favourable, the inactivated state may be less
+stable, and recovery from inactivation may be more rapid
+than without the subunit.
+the rate at which the channel recovers from the open
+state is a key determinant of use dependence. if the subunit
+creates a relatively unstable inactivated state with rapid
+
+figure 7. changes in post-binding transitions
+following drug binding, some channels undergo significant conformational changes. if the presence of  xxxg220xxx 
+alters the ability of the channel to undergo these changes, there will be a change in the transition rates between
+the drug-bound and drug-bound-inactivated states.
+
+c 2008 the authors. journal compilation 
+c 2008 the physiological society
+
+scheme (10)
+
+940
+
+g. c. l. bett and r. l. rasmusson
+
+recovery from inactivation, this would have the potential
+to decrease use dependence. conversely,  xxxg220xxx  that
+promotes a stable slowly recovering inactivated state has
+the potential to increase use dependence.
+in summary, a change in the ability of the channel to
+undergo conformational changes following drug binding:
+(1) does not affect actual initial binding/affinity; (2) can
+affect activation voltage; (3) affects the stability of the
+inactivated state; and (4) affects use dependence
+experimental observations of modulation
+of k+ channel gating and pharmacology by
+ancillary subunits
+the three distinct mechanisms detailed above can co-exist
+with each other in any channel–subunit pair. in this section
+we review some experimental data on how drug–channel
+interactions are modified by the presence of ancillary
+subunits and test the applicability of the three components
+of our biophysical model. ancillary subunits interact with
+their core alpha-subunits in a variety of ways including altering
+cell surface expression, acting as redox sensors, intracellular calcium concentration sensors, etc. (for a review
+see patel & campbell, 2005). for the analysis of the
+biophysical model, we are only interested in how ancillary
+subunits modify open channel drug binding.
+kvbeta-subunits and kv1.x channels
+
+the kvbetas were the first family of voltage-gated k+ channels
+ancillary subunits to be isolated (rettig et al. 1994; scott
+et al. 1994; morales et al. 1995; mccormack et al. 1995).
+kvbeta-subunits are relatively large protein structures, with
+two functional domains: a core c-terminal domain, which
+associates with the alpha-subunit domain, and an n-terminal
+domain, which varies in length.
+kvbetas interact with the kv1.x family of voltage-gated
+ion channels, which are homologs of the shaker channels
+from drosophila.  xxxg1234xxx  and  xxxg1233xxx  alpha-subunits are thought
+to be the molecular basis of the ultrarapid delayed rectifier
+current in human atrium (i kur ) (wang et al. 1994; li
+et al. 1996; yue et al. 1996; feng et al. 1998) and a slowly
+recovering transient outward k+ current in mammalian
+endocardium (i to,s ) (brahmajothi et al. 1999), respectively.
+in addition,  xxxg1233xxx  and  xxxg1234xxx  are thought to be the
+molecular basis of a-type currents in tissues including
+brain (sheng et al. 1993; chung et al. 2001) and smooth
+muscle (lu et al. 2001; fergus et al. 2003; mcgahon et al.
+2007).
+kvbeta-subunits assemble on the intracellular side
+of kv1.x channels, and interact with both n- and
+c-terminal domains. most kvbeta-subunits induce a ‘ball
+and chain’ binding to the open pore mechanism,
+reminiscent of n-type inactivation in shaker-related
+
+j physiol 586.4
+
+channels (heinemann et al. 1994; rettig et al. 1994;
+morales et al. 1995, 1996; england et al. 1995; heinemann
+et al. 1995, 1996). the lipophilic domain of the n-terminus
+of the beta-subunit binds to the same region of the pore as
+lipophilic channel blockers (rettig et al. 1994; de biasi
+et al. 1997; rasmusson et al. 1997; zhou et al. 2001). the
+addition of rapid n-type inactivation suggests that kvbetas
+modulate drug binding via a competitive limitation of
+open channel accessibility in a manner similar to fig. 2
+and scheme (2).
+the introduction of the extra subunit-bound state to
+the kv1.x channels predicts that the rate of development of
+apparent current inactivation/block in the presence of the
+kvbeta-subunits should be additive in nature, but of a lower
+apparent affinity. this has been demonstrated for internal
+block by bupivicaine, quinidine and the  xxxd189xxx 
+s0100176 in  xxxg1234xxx  channels with kvbeta1.3 (gonzalez et al.
+2002; decher et al. 2005).
+there may be additional interactions between kv1
+channels and kvbeta-subunits. the presence of kvbeta slows
+the rate of recovery from inactivation of  xxxg1233xxx , which
+has an intrinsic n-terminal ‘ball and chain’ inactivation
+mechanism, but does not affect recovery from inactivation
+of  xxxg1233xxx  n, which is a  xxxg1233xxx  construct with the
+n-terminal removed (castellino et al. 1995; accili et al.
+1998). this suggests that subunits may have some effect
+on the inactivated state. the core domain of the beta-subunit
+may interact with the alpha-subunit in an allosteric way
+resulting in an alteration of the pore structure, and the
+arrangement of the drug binding site. such a possibility
+is suggested by the ability of the core domain to shift the
+activation kinetics of  xxxg1234xxx  channels (uebele et al. 1996)
+and by recent reports of the effects of the core domain
+of kvbeta1 on inactivation rates of mutant kv1 channels
+(weng et al. 2006 but see bahring et al. 2001b). however,
+the dominant mechanism of modulation of drug binding
+seems to be via competitive interaction in those beta-subunits
+possessing an intact ‘ball and chain’ mechanism.
+in summary, kvbeta-subunits may have some mild affect
+on the orientation of residues forming the binding site
+and the stability of the bound-inactivated state in kv1
+channels, but the primary mechanism of kvbeta regulation
+of kv1 drug–channel interactions appears to be through
+changes in the accessibility of the drug to the binding site
+(see section 2.1).
+kchips and kv4.x channels
+
+kv channel interacting proteins or kchips, are a diverse
+group of proteins that are part of the large neuronal intracellular calcium-sensing protein family (an et al. 2000;
+bahring et al. 2001a; burgoyne & weiss, 2001; nakamura
+et al. 2001; jerng et al. 2004; patel & campbell, 2005).
+kchips are thought to bind to the n-terminal of the kv4
+family of k+ channels (an et al. 2000).
+
+c 2008 the authors. journal compilation 
+c 2008 the physiological society
+
+j physiol 586.4
+
+ancillary subunits and k+ channel block
+
+the kv4.x family of channels mediate a rapidly
+recovering transient outward current (i to,f ) in the
+myocardium (brahmajothi et al. 1999; tseng, 1999; oudit
+et al. 2001) and an a-type current (i sa ) in the brain
+(jerng et al. 2004). the kv4 channel family has been less
+extensively studied than the kv1 family in part because
+of the complex gating of this channel, which remains
+the subject of debate. kv4 channels have a complex
+multi-exponential inactivation process, the molecular
+basis of which is unclear (jerng & covarrubias, 1997; jerng
+et al. 1999; nakamura et al. 2001; wang et al. 2005). the
+core alpha-subunits of the kv4.x channels recapitulate many
+of the properties of native i to,f and i sa , but the gating of the
+heterologously expressed cloned channels does not match
+the native currents. many of the differences in inactivation
+and recovery between the kv4s and the cardiac i to,f can be
+reconciled by co-expression of  xxxg1244xxx  with kchip2b (kuo
+et al. 2001; patel et al. 2002a,b; shibata et al. 2003). in the
+brain, the co-localization of kchips and kv4 channels has
+heterogeneous regional and cellular distribution (an et al.
+2000; rhodes et al. 2004).
+the gating mechanisms underlying kv4.x channel
+activity remain highly controversial, as the molecular basis
+for the components of kv4.x inactivation do not match the
+criteria for either the n- or c-type inactivation seen in kv
+channels (rasmusson et al. 1998; wang et al. 2005). the
+effect of kchips on the inactivation rate of  xxxg1244xxx  channels
+is modest, usually resulting in a mild decrease in the rate
+of inactivation, depending on the particular kchip splice
+variant and the voltage (an et al. 2000; beck et al. 2002;
+deschenes & tomaselli, 2002; van hoorick et al. 2003;
+patel et al. 2004).
+kchips also affect transitions from the inactivated
+state, dramatically increasing the speed of recovery from
+inactivation (an et al. 2000; decher et al. 2001; patel et al.
+2002a; deschenes & tomaselli, 2002; beck et al. 2002;
+boland et al. 2003). this suggests that the inactivated
+state which the channel enters is less stable when the
+kchip is present. when recovery from inactivation is
+measured in the presence of nifedipine,  xxxg1244xxx  channels
+recover more slowly than without the drug. however, when
+kchips are present, nifedipine has no effect on the rate
+of recovery from inactivation (bett et al. 2006b). this
+suggests that not only do kchips make the inactivated
+state less stable, but they also prevent the channel from
+entering the longer lived drug-bound inactivated state.
+in other words, kchips have altered the ability of kv4
+channels to undergo conformational changes subsequent
+to drug binding. on a structural level, this could be
+interpreted as kchips reducing the flexibility or ‘stiffening’
+the channel, which inhibits the channel from developing
+the slowly recovering inactivated and inactivated/blocked
+states which  xxxg1244xxx  channels usually enter.
+kchips affect the ability of several open channel
+blockers to bind to kv4 channels. kchip co-expression
+
+c 2008 the authors. journal compilation 
+c 2008 the physiological society
+
+941
+
+results in a decreased sensitivity to kv4 block by nifedipine,
+ xxxd2718xxx , bupivicaine and ropivicaine (hatano et al.
+2003; friederich & solth, 2004; solth et al. 2005; bett
+et al. 2006b). if kchips modulate drug binding by altering
+accessibility to the binding site, the fact that kchips
+reduce the speed of inactivation would suggest that drugs
+have more time to access the binding site, and so should
+modestly increase the apparent affinity of the drug for the
+channel. however, the decreased affinity for some drugs
+suggest that changing the accessibility due to altered gating
+is not the primary mechanism by which kchips modulate
+drug–channel affinity.
+further evidence for kchips having a direct effect on
+the binding site is the fact that although kchip2.2 reduces
+the rate of inactivation of  xxxg1244xxx  channels, with the result
+that accessibility to the binding site is increased, the rate
+of development of block by ropivicane and  xxxd383xxx 
+are both slowed in the presence of kchip2.2 (friederich &
+solth, 2004; solth et al. 2005). these changes to the rate at
+which the drug binds are opposite to the changes predicted
+by slowed inactivation gating, which suggests they are a
+direct result of changes in the affinity of the drug for the
+open pore binding site, as a consequence of a change in the
+conformation of the binding site residues.
+in summary, kchips appear to interact with kv4
+channels by two of the mechanisms in the biophysical
+model: kchips appear to change the orientation of pore
+residues, resulting in a change in the interaction between
+drug and channel (see section 2.2). in addition, kchips
+may affect the stability of the inactivated state, and prevent
+conformational changes of the channel subsequent to drug
+binding (see section 2.3).
+kcnes and  xxxg1268xxx 
+
+although the kcne subunit proteins are relatively small,
+they have dramatic effects on activation of voltage-gated
+channels. kcne subunits are composed of 57–150 amino
+acids that cross the membrane, with an intracellular
+c-terminal and an extracellular n-terminal (mccrossan
+& abbott, 2004). kcne subunits interact with  xxxg1268xxx 
+alpha-subunits.
+ xxxg1268xxx  ( xxxg1268xxx  or  xxxg1268xxx ) is a member of the kcnq
+k+ channel gene family (barhanin et al. 1996; sanguinetti
+et al. 1996; wang et al. 1996; yang & sigworth, 1998).
+ xxxg1268xxx  is found in an exceedingly diverse range of tissues
+including the heart, neuronal tissue, kidney, colonic crypt
+cells, pituitary, the stria vascularis and the vestibular dark
+cells of the cochlea, stomach, small intestine, liver, thymus,
+exocrine pancreas, prostate, skeletal muscle, airway
+epithelia, ovarian tissue, testis, uterus and placenta (vetter
+et al. 1996; wang et al. 1996; brahmajothi et al. 1996;
+chouabe et al. 1997; neyroud et al. 1997; yang et al.
+1997; gould & pfeifer, 1998; jentsch, 2000; schroeder
+et al. 2000; wulfsen et al. 2000; demolombe et al.
+
+942
+
+g. c. l. bett and r. l. rasmusson
+
+2001; mason et al. 2002; tsevi et al. 2005; lan et al.
+2005).
+the tissue-specific characteristics of electrophysiologically recorded  xxxg1268xxx  current are diverse, due
+to strong modification of  xxxg1268xxx  by ancillary subunits.
+in cardiac myocytes,  xxxg1268xxx  is co-expressed with a
+small single transmembrane domain ancillary subunit,
+ xxxg1245xxx  (mink).  xxxg1268xxx – xxxg1245xxx  forms a k+ channel
+that reproduces the slowly activating delayed-rectifier
+current (i ks ), responsible for repolarization of the cardiac
+action potential (sanguinetti et al. 1996). mutations
+in  xxxg1268xxx  and  xxxg1245xxx  have been linked to prolonged
+qt of the cardiac ekg, and fatal arrhythmias (long qt
+syndrome).  xxxg1268xxx – xxxg1245xxx  results in currents with
+greatly slowed kinetics of activation and deactivation,
+and no voltage-dependent inactivation. in epithelial
+tissues,  xxxg1268xxx  associates with the single transmembrane
+domain subunit kcne3 (schroeder et al. 2000), which
+produces a constitutively open, voltage-independent k+
+current.
+chromanol 293b is a lipophilic drug that is thought to
+bind to the open pore of  xxxg1268xxx  (seebohm et al. 2001).
+kcne subunits have a dramatic effect on the affinity and
+use dependence of drugs for  xxxg1268xxx  (seebohm et al. 2001;
+bett et al. 2006a). the apparent affinities of chromanols
+293b, hmr 1556, s5557, as well as  xxxd272xxx , xe991 and 17
+beta- xxxd2037xxx  are increased by over an order of magnitude
+depending on subunit composition (busch et al. 1997;
+wang et al. 2000; lerche et al. 2000; tinel et al. 2000;
+schroeder et al. 2000; macvinish et al. 2001; bett et al.
+2006a).
+kcne3 appears to ‘lock’ the channel in an open
+position, resulting in a constitutively open channel
+(schroeder et al. 2000; melman et al. 2001). this suggests
+that part of the increased affinity for  xxxg1268xxx –kcne3
+may be caused, at least in part, by increased access time
+to the binding site when kcne3 is present. conversely,
+ xxxg1245xxx  greatly increases the sigmoid delay in activation
+of  xxxg1268xxx , and appears to prevent the channel from
+entering the inactivated state (seebohm et al. 2005). the
+net result is that  xxxg1245xxx  decreases the amount of time
+the channel spends in the open state, at most physiologically important potentials relative to  xxxg1268xxx  expressed
+alone. however, in both cases, the presence of the subunit
+greatly increases drug affinity. therefore, the changes in
+gating cannot account for changes in affinity. the kcne
+subunits probably also modify the orientation of
+the residues which form the drug binding site. the
+presence of this mechanism is further supported by
+mutagenesis results which demonstrate that the kinetic
+and affinity effects of kcne3 and  xxxg1245xxx  can be
+changed independently (bett et al. 2006a). when
+ xxxg1268xxx  channels are co-expressed with kcne3 with
+the valine at position 72 mutated to a threonine, the
+channels are no longer constitutively open, but have
+
+j physiol 586.4
+
+voltage-dependent gating (melman et al. 2002). although
+the  xxxg1268xxx –kcne3[v72t] channel spends much less
+time in the open state than the  xxxg1268xxx –kcne3 channels,
+the high affinity phenotype is retained. this suggests that
+it is a structural change in the binding site rather than
+the change in gating which is the dominant factor in
+determining chromanol 293b affinity.  xxxg1268xxx  has been
+reported to have multiple open states (pusch et al. 2001),
+so kcne subunits may work by modifying the number
+and/or stability of  xxxg1268xxx  open and closed states and the
+ability of drugs to bind to these states.  xxxg1268xxx  alone has a
+fast early activation which reaches a stable steady state. in
+contrast,  xxxg1268xxx – xxxg1245xxx  activation is relatively complex,
+with a relatively slow sigmoid time course, and a second
+very slowly developing component. the time-course of
+open channel block in  xxxg1268xxx – xxxg1245xxx  channels occurs
+relatively slowly following channel opening, and may
+actually reflect a balance between multiple open states such
+as those reported for the  xxxg1268xxx  channel alone (pusch
+et al. 2001). these multiple open states may be modulated
+by kcne subunits, and may have different affinities for
+open channel blockers such as chromanol 293b (bett et al.
+2006a).
+rapid repetitive stimulation of  xxxg1268xxx –kcne
+channels results in a significant increase in channel block,
+which is not seen in  xxxg1268xxx  channels (seebohm et al.
+2001; bett et al. 2006a). the ability of  xxxg1245xxx  to introduce
+use dependence to  xxxg1268xxx  channels, even though  xxxg1245xxx 
+removes the  xxxg1268xxx  inactivated state is consistent
+with the hypothesis that the  xxxg1245xxx  subunit alters the
+conformational changes that the channel undergoes once
+the drug has bound.
+in summary, data currently available on  xxxg1268xxx 
+support the notion that  xxxg1245xxx  and kcne3 appear to
+modify the drug binding properties of  xxxg1268xxx  channel
+by three distinct mechanisms: (1) changing binding site
+accessibility (see section 2.1); (2) changing the orientation
+of pore lining residues thus modifying the binding
+site (see section 2.2); and (3) limiting the ability of
+the channel to undergo gating conformational changes
+secondary to drug binding (see section 2.3). however,
+the relationship between these components and specific
+drug–channel–subunit interactions remains a current
+topic of research.
+kcnes and herg
+
+in addition to interacting with the  xxxg1268xxx  channel, kcne
+subunits have been seen to interact with other kv channels
+including the herg channel, or  xxxg1246xxx  (mcdonald et al.
+1997; abbott et al. 1999; schroeder et al. 2000; mazhari
+et al. 2001; ohyama et al. 2001; weerapura et al. 2002;
+lu et al. 2003). the herg alpha-subunit is thought to
+be the molecular basis of the  xxxg1244xxx 
+underlying cardiac i kr (warmke & ganetzky, 1994;
+
+c 2008 the authors. journal compilation 
+c 2008 the physiological society
+
+j physiol 586.4
+
+ancillary subunits and k+ channel block
+
+trudeau et al. 1995; sanguinetti et al. 1995). the drug
+binding site in the intracellular pore has been well
+described in the herg channel. in particular, two
+aromatic residues (tyrosine y652 and phenylalanine f656)
+on s6 are thought to play a critical role in drug–channel
+interactions for several herg open channel blockers
+(mitcheson et al. 2000). drug binding to the open herg
+pore is thought to be highly conformation dependent (see
+sanguinetti & tristani-firouzi, 2006).
+the herg channel gating has some unique features
+such as the rate of inactivation being faster than activation
+at positive potentials. this makes state-dependent analysis
+of channel activity difficult, and results can be influenced
+by voltage protocols used to obtain them and the analysis
+used to interpret the data. data on the effect of kcne2
+(mirp1) on herg gating is therefore understandably
+mixed. kcne2 has been suggested to slow or speed the
+rate at which herg activates and speeds deactivation, or
+have little effect at all (abbott et al. 1999; mazhari et al.
+2001; weerapura et al. 2002; lu et al. 2003). the data on
+the effects of kcne2 on drug binding are equally mixed.
+kcne2 increases the sensitivity of herg for propranolol
+(dupuis et al. 2005). in addition, kcne2 has been reported
+to increase herg sensitivity to e4031, and increase the
+rate at which use dependence develops (abbott et al.
+1999). conversely, using a different voltage clamp protocol,
+kcne2 was shown to have no effect on e4031 binding
+(weerapura et al. 2002). the differences in the voltage
+protocols used to study e4031 sensitivity suggest that
+kcne2 alters herg conformations. when the protocol
+involves holding the channel mainly in the open state
+(0 mv) then briefly stepped to −110 mv for 25 ms, there
+is no difference in the rate of development or the degree of
+e4031 block whether kcne2 is present or not (weerapura
+et al. 2002). in contrast, when the holding potential is
+−80 mv (i.e. the channel is held in the closed state) and
+stepped to +20 then −40 mv then there is a significant
+difference in the rate of development and the affinity of
+e4031 for herg in the presence of kcne2 (abbott et al.
+1999). this suggests that kcne2 does not affect e4031
+access to the binding site in the open state, but does modify
+access of e4031 to the drug binding site in the closed state.
+the orientation of the binding site residues will be different
+in the open and closed states of the channels, so the affinity
+for closed and open states should be different.
+not all herg drug affinities appear to be affected by the
+presence of kcne2. there are several binding sites in the
+herg channels, and kcne2 may not enable access to all
+of this sites. in addition, some drugs have more restrictive
+requirements for a binding site. drugs which are reported
+to have no change in affinity by kcne2 include local
+anaesthetics (friederich et al. 2004), sulfamethoxazole
+(park et al. 2003), terfenadine (scherer et al. 2002) and
+ xxxd3507xxx  (kamiya et al. 2001). terfenadine interacts
+with y652 and f656, but not the binding sites deeper
+
+c 2008 the authors. journal compilation 
+c 2008 the physiological society
+
+943
+
+within the pore v625,  xxxg648xxx  and t623 (mitcheson et al.
+2000).  xxxd3507xxx  interacts with  xxxg648xxx , f656 and v659
+located in the s6 domain and t623, s624 and v625 located
+at the base of the pore helix (kamiya et al. 2001).
+in summary, the interaction between herg and kcne2
+remains a subject of current research. however, kcne2
+appears to alter accessibility to the binding site for some
+drugs, by enabling binding to the closed state.
+
+conclusions
+ancillary subunits strongly modulate open channel block
+by drugs as well as modifying basic alpha-subunit gating. this
+subunit-specific pharmacology suggests that drugs that are
+targeted to specific alpha-subunits in specific organs can be
+made more specific by considering the characteristics of
+associated subunits found in these tissues. furthermore,
+the kinetic differences in gating and the corresponding
+differences in drug use dependence suggest that the
+response of channels to a drug will depend on the
+patterns of electrical activity of a particular organ or cell
+type, providing the opportunity for additional specificity
+of action or reduction in side-effects. however, the
+drug-modifying properties of some subunits may be
+very limited. drugs which change the structure of the
+binding site may alter the pharmacological profile of a
+channel in a qualitative as well as quantitative fashion.
+conversely, subunits which act primarily by changing
+binding site access time, may not confer altered specificity,
+but may just raise or lower the apparent degree of
+channel inhibition at a specific concentration or pattern
+of electrical activity. changing the relationship between
+drug binding and conformational changes should strongly
+alter use-dependent properties and may confer specific
+inhibitory action to abnormal electrical behaviour, such
+as seizures or arrhythmias. better understanding of the
+molecular properties of drug–subunit interactions will
+help in the development of organ-specific pharmacological
+therapies, and the reduction of adverse side-effects
+associated with current pharmacological interventions.
+references
+abbott gw & goldstein sa (2001).  xxxg1232xxx 
+subunits encoded by the kcne gene family: physiology and
+pathophysiology of the mink-related peptides (mirps). mol
+interv 1, 95–107.
+abbott gw, sesti f, splawski i, buck me, lehmann mh,
+timothy kw, keating mt & goldstein sa (1999). mirp1
+forms ikr potassium channels with herg and is associated
+with cardiac arrhythmia. cell 97, 175–187.
+abbott gw, butler mh, bendahhou s, dalakas mc, ptacek lj
+& goldstein sa (2001). mirp2 forms potassium channels in
+skeletal muscle with kv3.4 and is associated with periodic
+paralysis. cell 104, 217–231.
+
+944
+
+g. c. l. bett and r. l. rasmusson
+
+accili ea, kuryshev ya, wible ba & brown am (1998).
+separable effects of human kvbeta1.2 n- and c-termini on
+inactivation and expression of human  xxxg1233xxx . j physiol 512,
+325–336.
+adelman jp, bond ct, pessia m & maylie j (1995). episodic
+ataxia results from voltage-dependent potassium channels
+with altered functions. neuron 15, 1449–1454.
+an wf, bowlby mr, betty m, cao j, ling hp, mendoza g,
+hinson jw, mattsson ki, strassle bw, trimmer js & rhodes
+kj (2000). modulation of a-type potassium channels by a
+family of calcium sensors. nature 403, 553–556.
+andalib p, consiglio jf, trapani jg & korn sj (2004). the
+external tea binding site and c-type inactivation in
+voltage-gated potassium channels. biophys j 87,
+3148–3161.
+angelo k, jespersen t, grunnet m, nielsen ms, klaerke da &
+olesen sp (2002). kcne5 induces time- and
+voltage-dependent modulation of the  xxxg1268xxx  current.
+biophys j 83, 1997–2006.
+armstrong cm (1966). time course of tea+ -induced
+anomalous recification in squid giant axons. j gen physiol
+50, 491–503.
+armstrong cm (1969). inactivation of the potassium
+conductance and related phenomena caused by quaternary
+ammonium ion injection in squid axons. j gen physiol 54,
+553–575.
+armstrong cm (1971). interaction of  xxxd3339xxx 
+derivatives with the potassium channels of giant axons. j gen
+physiol 58, 413–437.
+bahring r, dannenberg j, peters hc, leicher t, pongs o &
+isbrandt d (2001a). conserved kv4 n-terminal domain
+critical for effects of kv channel-interacting protein 2.2 on
+channel expression and gating. j biol chem 276,
+23888–23894.
+bahring r, milligan cj, vardanyan v, engeland b, young ba,
+dannenberg j, waldschutz r, edwards jp, wray d & pongs
+o (2001b). coupling of voltage-dependent potassium
+channel inactivation and oxidoreductase active site of kvbeta
+subunits. j biol chem 276, 22923–22929.
+balser jr, nuss hb, orias dw, johns dc, marban e, tomaselli
+gf & lawrence jh (1996). local anesthetics as effectors of
+allosteric gating. lidocaine effects on inactivation-deficient
+rat skeletal muscle na channels. j clin invest 98, 2874–2886.
+barhanin j, lesage f, guillemare e, fink m, lazdunski m &
+romey g (1996). kv  xxxg1268xxx  and lsk (mink) proteins associate
+to form the i ks cardiac potassium current. nature 384,
+78–80.
+baukrowitz t & yellen g (1996). use-dependent blockers and
+exit rate of the last ion from the multi-ion pore of a k+
+channel. science 271, 653–656.
+beck ej, bowlby m, an wf, rhodes kj & covarrubias m
+(2002). remodelling inactivation gating of kv4 channels by
+kchip1, a small-molecular-weight calcium-binding protein.
+j physiol 538, 691–706.
+bendahhou s, marionneau c, haurogne k, larroque mm,
+derand r, szuts v, escande d, demolombe s & barhanin j
+(2005). in vitro molecular interactions and distribution of
+kcne family with  xxxg1268xxx  in the human heart.
+cardiovasc res 67, 529–538.
+
+j physiol 586.4
+
+bett gcl, morales mj, beahm dl, duffey me & rasmusson
+rl (2006a). ancillary subunits and stimulation frequency
+determine the potency of chromanol 293b block of the
+ xxxg1268xxx   xxxg1232xxx . j physiol 576, 755–767.
+bett gcl, morales mj, strauss hc & rasmusson rl (2006b).
+kchip2b modulates the affinity and use-dependent block of
+ xxxg1244xxx  by nifedipine. biochem biophys res commun 340,
+1167–1177.
+bett gcl & rasmusson rl (2002). models of cardiac ion
+channels. in quantitative cardiac electrophysiology, ed. cabo
+c & rosenbaum ds), pp. 1–60. marcel dekker, inc., new
+york, ny.
+bett gcl & rasmusson rl (2004). inactivation and recovery in
+ xxxg1233xxx  k+ channels: lipophilic interactions at the intracellular
+mouth of the pore. j physiol 556, 109–120.
+bezanilla f (2002). voltage sensor movements. j gen physiol
+120, 465–473.
+birnbaum sg, varga aw, yuan ll, anderson ae, sweatt jd &
+schrader la (2004). structure and function of kv4-family
+transient potassium channels. physiol rev 84, 803–833.
+boland lm, jiang m, lee sy, fahrenkrug sc, harnett mt &
+o’grady sm (2003). functional properties of a
+brain-specific nh2-terminally spliced modulator of kv4
+channels. am j physiol cell physiol 285, c161–c170.
+brahmajothi mv, campbell dl, rasmusson rl, morales mj,
+trimmer js, nerbonne jm & strauss hc (1999). distinct
+transient outward potassium current (ito ) phenotypes and
+distribution of fast-inactivating  xxxg1232xxx  alpha
+subunits in ferret left ventricular myocytes. j gen physiol
+113, 581–600.
+brahmajothi mv, morales mj, liu s, rasmusson rl, campbell
+dl & strauss hc (1996). in situ hybridization reveals
+extensive diversity of k+ channel mrna in isolated ferret
+cardiac myocytes. circ res 78, 1083–1089.
+burgoyne rd & weiss jl (2001). the neuronal calcium
+sensor family of ca2+ -binding proteins. biochem j 353,
+1–12.
+busch ae, busch gl, ford e, suessbrich h, lang hj, greger r,
+kunzelmann k, attali b & stuhmer w (1997). the role of
+the i sk protein in the specific pharmacological properties of
+the i ks channel complex. br j pharmacol 122, 187–189.
+busch ae, hurst rs, north ra, adelman jp & kavanaugh mp
+(1991). current inactivation involves a histidine residue in
+the pore of the rat lymphocyte  xxxg1232xxx  rgk5.
+biochem biophys res comms 179, 1384–1390.
+caballero r, pourrier m, schram g, delpon e, tamargo j &
+nattel s (2003). effects of  xxxd2113xxx  and quinidine on  xxxg1243xxx 
+currents: voltage dependence and role of s6 valines.
+br j pharmacol 138, 1475–1484.
+castellino rc, morales mj, strauss hc & rasmusson rl
+(1995). time- and voltage-dependent modulation of a  xxxg1233xxx 
+channel by a beta-subunit (kvbeta3) cloned from ferret ventricle.
+am j physiol heart circ physiol 269,  xxxd2700xxx –h391.
+catterall wa (1995). structure and function of voltage-gated
+ion channels. annu rev biochem 64, 493–531.
+chen j, seebohm g & sanguinetti mc (2002). position of
+aromatic residues in the s6 domain, not inactivation,
+dictates  xxxd1708xxx  sensitivity of herg and eag potassium
+channels. proc natl acad sci u s a 99, 12461–12466.
+
+
+c 2008 the authors. journal compilation 
+c 2008 the physiological society
+
+j physiol 586.4
+
+ancillary subunits and k+ channel block
+
+chiang ce & roden dm (2000). the long qt syndromes:
+genetic basis and clinical implications. j am college cardiol
+36, 1–12.
+choi kl, aldrich rw & yellen g (1991). tetraethylammonium
+blockade distinguishes two inactivation mechanisms in
+voltage-activated k+ channels. proc natl acad sci u s a 88,
+5092–5095.
+chouabe c, neyroud n, guicheney p, lazdunski m, romey g
+& barhanin j (1997). properties of  xxxg1268xxx  k+ channel
+mutations in romano-ward and jervell and lange-nielsen
+inherited cardiac arrhythmias. embo j 16, 5472–5479.
+chung yh, shin c, kim mj, lee bk & cha ci (2001).
+immunohistochemical study on the distribution of six
+members of the kv1 channel subunits in the rat cerebellum.
+brain res 895, 173–177.
+conti m (2004). targeting k+ channels for cancer therapy.
+j exp ther oncol 4, 161–166.
+cordero-morales jf, jogini v, lewis a, vasquez v, cortes dm,
+roux b & perozo e (2007). molecular driving forces
+determining  xxxg1232xxx  slow inactivation. nat struct
+mol biol 14, 1062–1069.
+cuello lg, cortes dm & perozo e (2004). molecular
+architecture of the kvap voltage-dependent k+ channel in a
+lipid bilayer. science 306, 491–495.
+davis tm, dembo lg, kaye-eddie sa, hewitt bj, hislop rg &
+batty kt (1996). neurological, cardiovascular and metabolic
+effects of mefloquine in healthy volunteers: a double-blind,
+placebo-controlled trial. br j clin pharmacol 42, 415–421.
+de biasi m, wang z, accili e, wible b & fedida d (1997). open
+channel block of human heart hkv1.5 by the beta-subunit
+hkvbeta1.2. am j physiol heart circ physiol 272, h2932–h2941.
+decher n, kumar p, gonzalez t, renigunta v & sanguinetti
+mc (2005). structural basis for competition between drug
+binding and kvbeta 1.3 accessory subunit-induced n-type
+inactivation of  xxxg1234xxx  channels. mol pharmacol 68, 995–1005.
+decher n, uyguner o, scherer cr, karaman b, yuksel-apak
+m, busch ae, steinmeyer k & wollnik b (2001). hkchip2 is
+a functional modifier of hkv4.3 potassium channels: cloning
+and expression of a short hkchip2 splice variant. cardiovasc
+res 52, 255–264.
+del camino d & yellen g (2001). tight steric closure at the
+intracellular activation gate of a  xxxg1244xxx .
+neuron 32, 649–656.
+demo sd & yellen g (1991). the inactivation gate of the
+shaker k+ channel behaves like an open-channel blocker.
+neuron 7, 743–753.
+demolombe s, franco d, de boer p, kuperschmidt s, roden d,
+pereon y, jarry a, moorman af & escande d (2001).
+differential expression of  xxxg1268xxx  and its regulator isk in
+mouse epithelia. am j physiol cell physiol 280, c359–c372.
+deschenes i & tomaselli gf (2002). modulation of  xxxg1244xxx 
+current by accessory subunits. febs lett 528, 183–188.
+doyle da, morais cj, pfuetzner ra, kuo a, gulbis jm, cohen
+sl, chait bt & mackinnon r (1998). the structure of the
+ xxxg1232xxx : molecular basis of k+ conduction and
+selectivity. science 280, 69–77.
+dupuis ds, klaerke da & olesen sp (2005). effect of
+beta-adrenoceptor blockers on human ether-a-go-go-related
+gene (herg) potassium channels. basic clin pharmacol
+toxicol 96, 123–130.
+
+c 2008 the authors. journal compilation 
+c 2008 the physiological society
+
+945
+
+england sk, uebele vn, kodali j, bennett pb & tamkun mm
+(1995). a novel k+ channel beta-subunit (hkvbeta1.3) is
+produced via alternative mrna splicing. j biol chem 270,
+28531–28534.
+england sk, uebele vn, shear h, kodali j, bennett pb &
+tamkun mm (1995). characterization of a voltage-gated k+
+channel  xxxg217xxx  expressed in human heart.
+proc natl acad sci usa 92, 6309–6313.
+escande d (2000). pharmacogenetics of cardiac k+ channels.
+eur j pharmacol 410, 281–287.
+feng j, xu d, wang z & nattel s (1998). ultrarapid delayed
+rectifier current inactivation in human atrial myocytes:
+properties and consequences. am j physiol heart circ physiol
+275, h1717–h1725.
+fergus dj, martens jr & england sk (2003). kv channel
+subunits that contribute to voltage-gated k+ current in renal
+vascular smooth muscle. pflugers arch 445, 697–704.
+friederich p & solth a (2004). interaction of ropivacaine with
+cloned cardiac  xxxg1244xxx /kchip2.2 complexes. anesthesiology
+101, 1347–1356.
+friederich p, solth a, schillemeit s & isbrandt d (2004). local
+anaesthetic sensitivities of cloned herg channels from
+human heart: comparison with herg/mirp1 and
+herg/mirp1 t8a. br j anaesth 92, 93–101.
+gintant ga & hoffman bf (1984). use-dependent block of
+cardiac sodium channels by quaternary derivatives of
+lidocaine. pflugers arch 400, 121–129.
+gonzalez t, navarro-polanco r, arias c, caballero r, moreno
+i, delpon e, tamargo j, tamkun mm & valenzuela c (2002).
+assembly with the kvbeta1.3 subunit modulates drug block of
+hkv1.5 channels. mol pharmacol 62, 1456–1463.
+gould td & pfeifer k (1998). imprinting of mouse  xxxg1268xxx  is
+developmentally regulated. hum mol genet 7,
+483–487.
+grissmer s, nguyen an, aiyar j, hanson dc, mather rj,
+gutman ga, karmilowicz mj, auperin dd & chandy kg
+(1994). pharmacological characterization of five cloned
+voltage-gated k+ channels, types  xxxg1229xxx , 1.2, 1.3, 1.5, and 3.1,
+stably expressed in mammalian cell lines. mol pharmacol 45,
+1227–1234.
+hatano n, ohya s, muraki k, giles w & imaizumi y (2003).
+dihydropyridine ca2+ channel antagonists and agonists
+block  xxxg1243xxx ,  xxxg1244xxx  and  xxxg1233xxx  k+ channels expressed in
+hek293 cells. br j pharmacol 139, 533–544.
+heinemann s, rettig j, scott v, parcej dn, lorra c, dolly j &
+pongs o (1994). the inactivation behaviour of voltage-gated
+k-channels may be determined by association of alpha- and
+beta-subunits. j physiol (paris) 88, 173–180.
+heinemann sh, rettig j, graack hr & pongs o (1996).
+functional characterization of kv channel beta-subunits from
+rat brain. j physiol 493, 625–633.
+heinemann sh, rettig j, wunder f & pongs o (1995).
+molecular and functional characterization of a rat brain
+kvbeta3  xxxg1232xxx  subunit. febs lett 377, 383–389.
+hille b (2001). ion channels of excitable membranes, 3rd edn.
+sinauer associates inc., sunderland, massachusetts.
+holmgren m, shin ks & yellen g (1998). the activation
+gate of a  xxxg1244xxx  can be trapped in the
+open state by an intersubunit metal bridge. neuron 21,
+617–621.
+
+946
+
+g. c. l. bett and r. l. rasmusson
+
+hondeghem lm & katzung bg (1977). time- and voltagedependent interactions of antiarrhythmic drugs with cardiac
+sodium channels. biochim biophys acta 472, 373–398.
+hondeghem lm & katzung bg (1984). antiarrhythmic agents:
+the modulated receptor mechanism of action of sodium and
+calcium channel-blocking drugs. annu rev pharmacol
+toxicol 24, 387–423.
+hondeghem lm & snyders dj (1990). class iii antiarrhythmic
+agents have a lot of potential but a long way to go. reduced
+effectiveness and dangers of reverse use dependence.
+circulation 81, 686–690.
+hoshi t, zagotta wn & aldrich rw (1990). biophysical and
+molecular mechanisms of shaker  xxxg1232xxx 
+inactivation. science 250, 533–538.
+hoshi t, zagotta wn & aldrich rw (1991). two types of
+inactivation in shaker k+ channels: effects of alterations in
+the carboxy-terminal region. neuron 7, 547–556.
+isom ll, de jongh ks & catterall wa (1994). auxiliary
+subunits of voltage-gated ion channels. neuron 12,
+1183–1194.
+jan ly & jan yn (1992). structural elements involved in
+specific k+ channel functions. annu rev physiol 54, 537–555.
+jentsch tj (2000). neuronal kcnq potassium channels:
+physiology and role in disease. nat rev neurosci 1, 21–30.
+jerng hh & covarrubias m (1997). k+ channel inactivation
+mediated by the concerted action of the cytoplasmic n- and
+c-terminal domains. biophys j 72, 163–174.
+jerng hh, pfaffinger pj & covarrubias m (2004). molecular
+physiology and modulation of somatodendritic a-type
+potassium channels. mol cell neurosci 27, 343–369.
+jerng hh, shahidullah m & covarrubias m (1999).
+inactivation gating of kv4 potassium channels: molecular
+interactions involving the inner vestibule of the pore. j gen
+physiol 113, 641–660.
+jiang x, bett gc, li x, bondarenko ve & rasmusson rl
+(2003). c-type inactivation involves a significant decrease in
+the intracellular aqueous pore volume of  xxxg1233xxx  k+ channels
+expressed in xenopus oocytes. j physiol 549, 683–695.
+jiang y, lee a, chen j, cadene m, chait bt & mackinnon r
+(2002). the open pore conformation of potassium channels.
+nature 417, 523–526.
+jo sh, youm jb, lee co, earm ye & ho wk (2000). blockade
+of the herg human cardiac k+ channel by the
+antidepressant drug amitriptyline. br j pharmacol 129,
+1474–1480.
+kamiya k, mitcheson js, yasui k, kodama i & sanguinetti mc
+(2001). open channel block of herg k+ channels by
+ xxxd3507xxx . mol pharmacol 60, 244–253.
+kiss l, loturco j & korn sj (1999). contribution of the
+selectivity filter to inactivation in potassium channels.
+biophys j 76, 253–263.
+kuo hc, cheng cf, clark rb, lin jj, lin jl, hoshijima m,
+nguyen-tran vt, gu y, ikeda y, chu ph, ross j, giles wr
+& chien kr (2001). a defect in the kv channel-interacting
+protein 2 (kchip2) gene leads to a complete loss of ito and
+confers susceptibility to ventricular tachycardia. cell 107,
+801–813.
+kurata ht, doerksen kw, eldstrom jr, rezazadeh s & fedida
+d (2005). separation of p/c- and u-type inactivation
+pathways in  xxxg1234xxx  potassium channels. j physiol 568, 31–46.
+
+j physiol 586.4
+
+kushida s, ogura t, komuro i & nakaya h (2002). inhibitory
+effect of the class iii antiarrhythmic drug nifekalant on
+herg channels: mode of action. eur j pharmacol 457,
+19–27.
+labro aj, raes al, bellens i, ottschytsch n & snyders dj
+(2003). gating of shaker-type channels requires the
+flexibility of s6 caused by prolines. j biol chem 278,
+50724–50731.
+lan wz, abbas h, lemay am, briggs mm & hill ce (2005).
+electrophysiological and molecular identification of
+hepatocellular volume-activated k+ channels. biochim
+biophys acta 1668, 223–233.
+lee sy, lee a, chen j & mackinnon r (2005). structure of the
+kvap voltage-dependent k+ channel and its dependence on
+the lipid membrane. proc natl acad sci u s a 102,
+15441–15446.
+lerche c, seebohm g, wagner ci, scherer cr, dehmelt l,
+abitbol i, gerlach u, brendel j, attali b & busch ae (2000).
+molecular impact of mink on the enantiospecific block of
+iks by chromanols. br j pharmacol 131, 1503–1506.
+lewis a, mccrossan za & abbott gw (2004). mink, mirp1,
+and mirp2 diversify  xxxg1239xxx  and  xxxg1240xxx   xxxg1232xxx 
+gating. j biol chem 279, 7884–7892.
+li gr, feng j, wang z, fermini b & nattel s (1996).
+adrenergic modulation of ultrarapid delayed rectifier k+
+current in human atrial myocytes. circulation res 78,
+903–915.
+li x, bett gc, jiang x, bondarenko ve, morales mj &
+rasmusson rl (2003). regulation of n- and c-type
+inactivation of  xxxg1233xxx  by pho and k+ : evidence for
+transmembrane communication. am j physiol heart circ
+physiol 284, h71–h80.
+lipkind gm, hanck da & fozzard ha (1995). a structural
+motif for the voltage-gated  xxxg1232xxx  pore. proc
+natl acad sci u s a 92, 9215–9219.
+liu xs, jiang m, zhang m, tang d, clemo hf, higgins rs &
+tseng gn (2007). electrical remodeling in a canine model of
+ischemic cardiomyopathy. am j physiol heart circ physiol
+292, h560–h571.
+liu ys, sompornpisut p & perozo e (2001). structure of the
+kcsa channel intracellular gate in the open state. nat struct
+biol 8, 883–887.
+long sb, campbell eb & mackinnon r (2005a). crystal
+structure of a mammalian voltage-dependent shaker family
+k+ channel. science 309, 897–903.
+long sb, campbell eb & mackinnon r (2005b). voltage
+sensor of  xxxg1231xxx : structural basis of electromechanical
+coupling. science 309, 903–908.
+lopez-barneo j, hoshi t, heinemann sh & aldrich rw
+(1993). effects of external cations and mutations in the pore
+region on c-type inactivation of shaker potassium channels.
+receptors channels 1, 61–71.
+lu y, mahaut-smith mp, huang cl & vandenberg ji (2003).
+mutant mirp1 subunits modulate  xxxg1246xxx  gating:
+a mechanism for pro-arrhythmia in long qt syndrome type
+6. j physiol 551, 253–262.
+lu y, zhang j, tang g & wang r (2001). modulation of
+voltage-dependent k+ channel current in vascular smooth
+muscle cells from rat mesenteric arteries. j membr biol 180,
+163–175.
+
+c 2008 the authors. journal compilation 
+c 2008 the physiological society
+
+j physiol 586.4
+
+ancillary subunits and k+ channel block
+
+lundby a & olesen sp (2006). kcne3 is an inhibitory subunit
+of the  xxxg1244xxx   xxxg1232xxx . biochem biophys res
+commun 346, 958–967.
+majumder k, de biasi m, wang z & wible ba (1995).
+molecular cloning and functional expression of a novel
+ xxxg1232xxx  beta-subunit from human atrium. febs
+lett 361, 13–16.
+mccormack k, mccormack t, tanouye m, rudy b & stuhmer
+w (1995). alternative splicing of the human shaker k+
+channel  xxxg836xxx  gene and functional expression of the beta2 gene
+product. febs lett 370, 32–36.
+mccrossan za & abbott gw (2004). the mink-related
+peptides. neuropharmacology 47, 787–821.
+mccrossan za, lewis a, panaghie g, jordan pn, christini dj,
+lerner dj & abbott gw (2003). mink-related peptide 2
+modulates  xxxg1237xxx  and  xxxg1239xxx  potassium channels in
+mammalian brain. j neurosci 23, 8077–8091.
+mcdonald tv, yu z, ming z, palma e, meyers mb, wang kw,
+goldstein sa & fishman gi (1997). a mink-herg complex
+regulates the cardiac potassium current ikr . nature 388,
+289–292.
+mcgahon mk, dawicki jm, arora a, simpson da, gardiner
+ta, stitt a, scholfield cn, mcgeown g & curtis t (2007).
+ xxxg1234xxx  is a major component underlying the a-type
+potassium current in retinal arteriolar smooth muscle.
+am j physiol heart circ physiol 292, h1001–h1008.
+macvinish lj, guo y, dixon ak, murrell-lagnado rd &
+cuthbert aw (2001). xe991 reveals differences in k+
+channels regulating chloride secretion in murine airway and
+colonic epithelium. mol pharmacol 60, 753–760.
+mannuzzu lm, moronne mm & isacoff ey (1996). direct
+physical measure of conformational rearrangement
+underlying  xxxg1232xxx  gating. science 271,
+213–216.
+mason de, mitchell ke, li y, finley mr & freeman lc (2002).
+molecular basis of voltage-dependent potassium currents in
+porcine granulosa cells. mol pharmacol 61, 201–213.
+mazhari r, greenstein jl, winslow rl, marban e & nuss hb
+(2001). molecular interactions between two long-qt
+syndrome gene products, herg and kcne2, rationalized by
+in vitro and in silico analysis. circulation res 89, 33–38.
+melman yf, domenech a, de la luna s & mcdonald tv
+(2001). structural determinants of  xxxg1268xxx  control by the
+kcne family of proteins. j biol chem 276, 6439–6444.
+melman yf, krumerman a & mcdonald tv (2002). a single
+transmembrane site in the kcne-encoded proteins controls
+the specificity of  xxxg1268xxx  channel gating. j biol chem 277,
+25187–25194.
+melnyk p, ehrlich jr, pourrier m, villeneuve l, cha tj &
+nattel s (2005). comparison of ion channel distribution and
+expression in cardiomyocytes of canine pulmonary veins
+versus left atrium. cardiovasc res 65, 104–116.
+mitcheson js, chen j, lin m, culberson c & sanguinetti mc
+(2000). a structural basis for drug-induced long qt
+syndrome. proc natl acad sci u s a 97, 12329–12333.
+morales mj, castellino rc, crews al, rasmusson rl & strauss
+hc (1995). a novel  xxxg217xxx  increases rate of inactivation
+of specific voltage-gated  xxxg1232xxx  alpha subunits. j biol
+chem 270, 6272–6277.
+
+
+c 2008 the authors. journal compilation 
+c 2008 the physiological society
+
+947
+
+morales mj, wee jo, wang s, strauss hc & rasmusson rl
+(1996). the n-terminal domain of a k+ channel  xxxg217xxx 
+increases the rate of c-type inactivation from the
+cytoplasmic side of the channel. proc natl acad sci u s a 93,
+15119–15123.
+nakamura ty, pountney dj, ozaita a, nandi s, ueda s, rudy
+b & coetzee wa (2001). a role for frequenin, a
+ca2+ -binding protein, as a regulator of kv4 k+ -currents.
+proc natl acad sci u s a 98, 12808–12813.
+nerbonne jm (1998). regulation of  xxxg1244xxx 
+expression in the developing mammalian myocardium.
+j neurobiol 37, 37–59.
+neyroud n, tesson f, denjoy i, leibovici m, donger c,
+barhanin j, faure s, gary f, coumel p, petit c, schwartz k &
+guicheney p (1997). a novel mutation in the potassium
+channel gene  xxxg1268xxx  causes the jervell and lange–nielsen
+cardioauditory syndrome. nat genet 15, 186–189.
+ogielska em, zagotta wn, hoshi t, heinemann sh, haab j &
+aldrich rw (1995). cooperative subunit interactions in
+c-type inactivation of k channels. biophys j 69,
+2449–2457.
+ohyama h, kajita h, omori k, takumi t, hiramoto n,
+iwasaka t & matsuda h (2001). inhibition of cardiac delayed
+rectifier k+ currents by an antisense oligodeoxynucleotide
+against isk (mink) and over-expression of i sk mutant d77n
+in neonatal mouse hearts. pflugers arch 442, 329–335.
+oudit gy, kassiri z, sah r, ramirez rj, zobel c & backx ph
+(2001). the molecular physiology of the cardiac transient
+outward potassium current (ito ) in normal and diseased
+myocardium. j mol cellular cardiol 33, 851–872.
+panyi g & deutsch c (2007). probing the cavity of the slow
+inactivated conformation of shaker potassium channels.
+j gen physiol 129, 403–418.
+park kh, kwok sm, sharon c, berga r & sesti f (2003).
+n-glycosylation-dependent block is a novel mechanism for
+drug-induced cardiac arrhythmia. faseb j 17, 2308–2309.
+patel sp & campbell dl (2005). transient outward potassium
+current, ‘i to ’, phenotypes in the mammalian left ventricle:
+underlying molecular, cellular and biophysical mechanisms.
+j physiol 569, 7–39.
+patel sp, campbell dl, morales mj & strauss hc (2002a).
+heterogeneous expression of kchip2 isoforms in the ferret
+heart. j physiol 539, 649–656.
+patel sp, campbell dl & strauss hc (2002b). elucidating
+kchip effects on  xxxg1244xxx  inactivation and recovery kinetics
+with a minimal kchip2 isoform. j physiol 545, 5–11.
+patel sp, parai r, parai r & campbell dl (2004). regulation of
+ xxxg1244xxx  voltage-dependent gating kinetics by kchip2
+isoforms. j physiol 557, 19–41.
+persson f, carlsson l, duker g & jacobson i (2005). blocking
+characteristics of herg, hnav1.5, and hkvlqt1/hmink
+after administration of the novel anti-arrhythmic compound
+azd7009. j cardiovasc electrophysiol 16, 329–341.
+pongs o (1992). molecular biology of voltage-dependent
+potassium channels. physiol rev 72, s69–s88.
+pusch m, ferrera l & friedrich t (2001). two open states and
+rate-limiting gating steps revealed by intracellular na+ block
+of human  xxxg1268xxx  and  xxxg1268xxx / xxxg1245xxx  k+ channels.
+j physiol 533, 135–143.
+
+948
+
+g. c. l. bett and r. l. rasmusson
+
+rasmusson rl, campbell dl, qu y & strauss hc (1994).
+conformation-dependent drug binding to cardiac
+potassium channels. in ion channels in the cardiovascular
+system: function and dysfunction, ed. spooner pm, brown
+am, catterall wa, kaczorowski gj & strauss hc,
+pp. 387–414. futura publishing co., inc., armonk, ny.
+rasmusson rl, morales mj, castellino rc, zhang y,
+campbell dl & strauss hc (1995). c-type inactivation
+controls recovery in a fast inactivating cardiac k+ channel
+( xxxg1233xxx ) expressed in xenopus oocytes. j physiol 489,
+709–721.
+rasmusson rl, morales mj, wang s, liu s, campbell dl,
+brahmajothi mv & strauss hc (1998). inactivation of
+voltage-gated cardiac k+ channels. circ res 82, 739–750.
+rasmusson rl, wang s, castellino rc, morales mj & strauss
+hc (1997). the  xxxg217xxx , kvb1.2, acts as a rapid open
+channel blocker of nh2-terminal deleted  xxxg1233xxx  alpha-subunits.
+adv exp med biol 430, 29–37.
+rayner md, starkus jg, ruben pc & alicata da (1992).
+voltage-sensitive and solvent-sensitive processes in ion
+channel gating. kinetic effects of hyperosmolar media on
+activation and deactivation of sodium channels. biophys j
+61, 96–108.
+rettig j, heinemann sh, wunder f, lorra c, parcej dn, dolly
+jo & pongs o (1994). inactivation properties of voltagegated k+ channels altered by presence of beta-subunit. nature
+369, 289–294.
+rhodes kj, carroll ki, sung ma, doliveira lc, monaghan
+mm, burke sl, strassle bw, buchwalder l, menegola m,
+cao j, an wf & trimmer js (2004). kchips and kv4 alpha
+subunits as integral components of a-type potassium
+channels in mammalian brain. j neurosci 24, 7903–7915.
+sandtner w, szendroedi j, zarrabi t, zebedin e, hilber k,
+glaaser i, fozzard ha, dudley sc & todt h (2004).
+lidocaine: a foot in the door of the inner vestibule prevents
+ultra-slow inactivation of a voltage-gated sodium channel.
+mol pharmacol 66, 648–657.
+sanguinetti mc, curran me, zou a, shen j, spector ps,
+atkinson dl & keating mt (1996). coassembly of kv  xxxg1268xxx 
+and mink (isk) proteins to form cardiac iks potassium
+channel. nature 384, 80–83.
+sanguinetti mc, jiang c, curran me & keating mt (1995). a
+mechanistic link between an inherited and an acquired
+cardiac arrhythmia: herg encodes the ikr potassium
+channel. cell 81, 299–307.
+sanguinetti mc & tristani-firouzi m (2006). herg potassium
+channels and cardiac arrhythmia. nature 440, 463–469.
+scherer cr, lerche c, decher n, dennis at, maier p, ficker e,
+busch ae, wollnik b & steinmeyer k (2002). the
+antihistamine fexofenadine does not affect ikr currents in a
+case report of drug-induced cardiac arrhythmia.
+br j pharmacol 137, 892–900.
+schroeder bc, waldegger s, fehr s, bleich m, warth r, greger
+r & jentsch tj (2000). a constitutively open potassium
+channel formed by  xxxg1268xxx  and kcne3. nature 403,
+196–199.
+schulte u, thumfart jo, klocker n, sailer ca, bildl w,
+biniossek m, dehn d, deller t, eble s, abbass k, wangler t,
+knaus hg & fakler b (2006). the epilepsy-linked lgi1
+protein assembles into presynaptic kv1 channels and inhibits
+inactivation by kvbeta1. neuron 49, 697–706.
+
+j physiol 586.4
+
+scott ve, rettig j, parcej dn, keen jn, findlay jb, pongs o &
+dolly jo (1994). primary structure of a  xxxg217xxx  of
+alpha-dendrotoxin-sensitive k+ channels from bovine brain.
+proc natl acad sci u s a 91, 1637–1641.
+seebohm g, chen j, strutz n, culberson c, lerche c &
+sanguinetti mc (2003). molecular determinants of  xxxg1268xxx 
+channel block by a benzodiazepine. mol pharmacol 64,
+70–77.
+seebohm g, lerche c, pusch m, steinmeyer k, bruggemann a
+& busch ae (2001). a kinetic study on the stereospecific
+inhibition of  xxxg1268xxx  and iks by the chromanol 293b.
+br j pharmacol 134, 1647–1654.
+seebohm g, westenskow p, lang f & sanguinetti mc (2005).
+mutation of colocalized residues of the pore helix and
+transmembrane segments s5 and s6 disrupt deactivation
+and modify inactivation of  xxxg1268xxx  k+ channels. j physiol
+563, 359–368.
+shah m, akar fg & tomaselli gf (2005). molecular basis of
+arrhythmias. circulation 112, 2517–2529.
+sheng m, liao yj, jan yn & jan ly (1993). presynaptic
+a-current based on heteromultimeric k+ channels detected
+in vivo. nature 365, 72–75.
+shibata r, misonou h, campomanes cr, anderson ae,
+schrader la, doliveira lc, carroll ki, sweatt jd, rhodes kj
+& trimmer js (2003). a fundamental role for kchips in
+determining the molecular properties and trafficking of
+ xxxg1243xxx  potassium channels. j biol chem 278, 36445–36454.
+shimoni y, fiset c, clark rb, dixon je, mckinnon d & giles
+wr (1997). thyroid hormone regulates postnatal expression
+of transient k+ channel isoforms in rat ventricle. j physiol
+500, 65–73.
+soliven b, szuchet s, arnason bg & nelson dj (1989).
+expression and modulation of k+ currents in
+oligodendrocytes: possible role in myelinogenesis. dev
+neurosci 11, 118–131.
+solth a, siebrands cc & friederich p (2005). inhibition of
+ xxxg1244xxx /kchip2.2 channels by  xxxd383xxx  and its modulation
+by the pore mutation kv4.3v401i. anesthesiology 103,
+796–804.
+spector ps, curran me, keating mt & sanguinetti mc (1996).
+class iii antiarrhythmic drugs block herg, a human
+cardiac delayed rectifier k+ channel. open-channel block by
+methanesulfonanilides. circ res 78, 499–503.
+starmer cf, grant ao & strauss hc (1984). mechanisms of
+use-dependent block of sodium channels in excitable
+membranes by local anesthetics. biophys j 46, 15–27.
+stork d, timin en, berjukow s, huber c, hohaus a, auer m &
+hering s (2007). state dependent dissociation of herg
+channel inhibitors. br j pharmacol 151, 1368–1376.
+strichartz gr (1973). the inhibition of sodium currents in
+myelinated nerve by quaternary derivatives of lidocaine.
+j gen physiol 62, 37–57.
+surti ts & jan ly (2005). a  xxxg1232xxx , the m-channel,
+as a therapeutic target. curr opin invest drugs 6, 704–711.
+tamargo j, caballero r, gomez r, valenzuela c & delpon e
+(2004). pharmacology of cardiac potassium channels.
+cardiovasc res 62, 9–33.
+tinel n, diochot s, borsotto m, lazdunski m & barhanin j
+(2000). kcne2 confers background current characteristics
+to the cardiac  xxxg1268xxx   xxxg1232xxx . embo j 19,
+6326–6330.
+
+c 2008 the authors. journal compilation 
+c 2008 the physiological society
+
+j physiol 586.4
+
+ancillary subunits and k+ channel block
+
+tipparaju sm, liu sq, barski oa & bhatnagar a (2007).
+nadph binding to beta-subunit regulates inactivation of
+voltage-gated k(+) channels. biochem biophys res commun
+359, 269–276.
+trudeau mc, warmke jw, ganetzky b & robertson ga
+(1995). herg, a human inward rectifier in the voltage-gated
+ xxxg1232xxx  family. science 269, 92–95.
+tseng gn (1999). molecular structure of cardiac ito channels:
+ xxxg1243xxx ,  xxxg1244xxx , and other possibilities? cardiovasc res 41,
+16–18.
+tsevi i, vicente r, grande m, lopez-iglesias c, figueras a,
+capella g, condom e & felipe a (2005).  xxxg1268xxx / xxxg1245xxx 
+channels during germ-cell differentiation in the rat:
+expression associated with testis pathologies. j cell physiol
+202, 400–410.
+uebele vn, england sk, chaudhary a, tamkun mm &
+snyders dj (1996). functional differences in  xxxg1234xxx  currents
+expressed in mammalian cell lines are due to the presence
+of endogenous kvbeta2.1 subunits. j biol chem 271,
+2406–2412.
+uebele vn, england sk, gallagher dj, snyders dj, bennett pb
+& tamkun mm (1998). distinct domains of the
+ xxxg1244xxx  kv beta 1.3 beta-subunit affect
+voltage-dependent gating. american journal of physiology
+274, c1485–c1495.
+van hoorick d, raes a, keysers w, mayeur e & snyders dj
+(2003). differential modulation of kv4 kinetics by kchip1
+splice variants. mol cell neurosci 24, 357–366.
+vetter de, mann jr, wangemann p, liu j, mclaughlin kj,
+lesage f, marcus dc, lazdunski m, heinemann sf &
+barhanin j (1996). inner ear defects induced by null
+mutation of the isk gene. neuron 17, 1251–1264.
+wang hs, brown bs, mckinnon d & cohen is (2000).
+molecular basis for differential sensitivity of kcnq and iks
+channels to the cognitive enhancer xe991. mol pharmacol
+57, 1218–1223.
+wang q, curran me, splawski i, burn tc, millholland jm,
+vanraay tj, shen j, timothy kw, vincent gm, de jager t,
+schwartz pj, toubin ja, moss aj, atkinson dl, landes gm,
+connors td & keating mt (1996). positional cloning of a
+novel  xxxg1232xxx  gene:  xxxg1268xxx  mutations cause
+cardiac arrhythmias. nat genet 12, 17–23.
+wang s, bondarenko ve, qu yj, bett gc, morales mj,
+rasmusson rl & strauss hc (2005). time- and
+voltage-dependent components of  xxxg1244xxx  inactivation.
+biophys j 89, 3026–3041.
+wang s, morales mj, qu yj, bett gc, strauss hc & rasmusson
+rl (2003).  xxxg1233xxx  channel block by quinidine: evidence for a
+drug-induced allosteric effect. j physiol 546, 387–401.
+wang z, fermini b & nattel s (1994). rapid and slow
+components of delayed rectifier current in human atrial
+myocytes. cardiovasc res 28, 1540–1546.
+wang z, kiehn j, yang q, brown am & wible ba (1996).
+comparison of binding and block produced by
+alternatively spliced kvbeta1 subunits. j biol chem
+271, 28311–28317.
+warmke jw & ganetzky b (1994). a family of potassium
+channel genes related to eag in drosophila and mammals.
+proc natl acad sci u s a 91, 3438–3442.
+
+
+c 2008 the authors. journal compilation 
+c 2008 the physiological society
+
+949
+
+webster sm, del camino d, dekker jp & yellen g (2004).
+intracellular gate opening in shaker k+ channels defined by
+high-affinity metal bridges. nature 428, 864–868.
+weerapura m, nattel s, chartier d, caballero r & hebert te
+(2002). a comparison of currents carried by herg, with
+and without coexpression of mirp1, and the native rapid
+delayed rectifier current. is mirp1 the missing link? j physiol
+540, 15–27.
+weng j, cao y, moss n & zhou m (2006). modulation of
+voltage-dependent shaker family potassium channels
+by an aldo-keto reductase. j biol chem 281,
+15194–15200.
+wickenden ad (2002). potassium channels as anti-epileptic
+drug targets. neuropharmacol 43, 1055–1060.
+wissmann r, baukrowitz t, kalbacher h, kalbitzer hr,
+ruppersberg jp, pongs o, antz c & fakler b (1999). nmr
+structure and functional characteristics of the hydrophilic n
+terminus of the  xxxg1232xxx  beta-subunit kvbeta1.1. j biol
+chem 274, 35521–35525.
+wulfsen i, hauber hp, schiemann d, bauer ck & schwarz jr
+(2000). expression of mrna for voltage-dependent and
+inward-rectifying k channels in gh3/b6 cells and rat
+pituitary. j neuroendocrinol 12, 263–272.
+yang wp, levesque pc, little wa, conder ml, shalaby fy &
+blanar ma (1997).  xxxg1268xxx , a voltage-gated potassium
+channel responsible for human cardiac arrhythmias. proc
+natl acad sci u s a 94, 4017–4021.
+yang y & sigworth fj (1998). single-channel properties of iks
+potassium channels. [erratum appears in j gen physiol 113,
+505]. j gen physiol 112, 665–678.
+yellen g (1998). the moving parts of voltage-gated ion
+channels. q rev biophysics 31, 239–295.
+yeola sw, rich tc, uebele vn, tamkun mm & snyders dj
+(1996). molecular analysis of a binding site for quinidine in a
+human cardiac delayed rectifier k+ channel. role of s6 in
+antiarrhythmic drug binding. circ res 78, 1105–1114.
+yeola sw & snyders dj (1997). electrophysiological and
+pharmacological correspondence between  xxxg1243xxx  current and
+rat cardiac transient outward current. cardiovasc res 33,
+540–547.
+yool aj & schwarz tl (1991). alteration of ionic selectivity of a
+k+ channel by mutation of the h5 region. nature 349,
+700–704.
+yue l, feng j, li gr & nattel s (1996). characterization of an
+ultrarapid delayed rectifier  xxxg1232xxx  involved in
+canine atrial repolarization. j physiol 496, 647–662.
+zagotta wn & aldrich rw (1990). voltage-dependent gating
+of shaker a-type potassium channels in drosophila muscle.
+j gen physiol 95, 29–60.
+zagotta wn, hoshi t & aldrich rw (1990). restoration of
+inactivation in mutants of shaker potassium channels by a
+peptide derived from shb. science 250, 568–571.
+zhang x & fedida d (1998).  xxxg1232xxx -blocking
+actions of nifedipine: a cause for morbidity at high doses?
+circulation 97, 2098.
+zhang s, zhou z, gong q, makielski jc & january ct (1999).
+mechanism of block and identification of the verapamil
+binding domain to herg potassium channels. circ res 84,
+989–998.
+
+950
+
+g. c. l. bett and r. l. rasmusson
+
+zhang m, jiang m & tseng gn (2001). mink-related peptide 1
+associates with  xxxg1243xxx  and modulates its gating function:
+potential role as  xxxg217xxx  of cardiac transient outward
+channel? circulation research 88, 1012–1019.
+zhao y, yarov-yarovoy v, scheuer t & catterall wa (2004). a
+gating hinge in na+ channels; a molecular switch for
+electrical signaling. neuron 41, 859–865.
+zhou m, morais-cabral jh, mann s & mackinnon r (2001).
+ xxxg1232xxx  receptor site for the inactivation gate and
+quaternary amine inhibitors. nature 411, 657–661.
+
+j physiol 586.4
+
+zimmer j, doyle da & grossmann jg (2006). structural
+characterization and ph-induced conformational transition
+of full-length kcsa. biophys j 90, 1752–1766.
+zimmerberg j, bezanilla f & parsegian va (1990). solute
+inaccessible aqueous volume changes during opening of the
+ xxxg1232xxx  of the squid giant axon. biophys j 57,
+1049–1064.
+
+
+c 2008 the authors. journal compilation 
+c 2008 the physiological society
+

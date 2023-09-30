@@ -1,0 +1,2097 @@
+cancer genomics & proteomics 4: 197-210 (2007)
+
+gene signatures developed from patient tumor explants grown
+in nude mice to predict tumor response to 11 cytotoxic drugs
+heinz-herbert fiebig, julia schüler, niko bausch,
+michael hofmann, thomas metz and andre korrat
+
+oncotest gmbh, institute for experimental oncology, am flughafen 12-14, d-79108 freiburg, germany
+
+abstract. patient tumor explants established subcutaneously in
+serial passage in nude mice were characterized for their sensitivity
+towards 11 standard cytotoxic anti-cancer agents. the latter
+include the alkylating agents cyclophosphamide, ifosfamide,
+ xxxd2655xxx  c, cisplatin and  xxxd2502xxx , the antimetabolites 5-fu
+and methotrexate; the  xxxg2312xxx  inhibitors adriamycin
+and etoposide as, well as the tubulin binders paclitaxel and
+ xxxd3513xxx . the mean number of tumors treated with any of the
+various drugs was 54 (range 31-78). the tumor xenografts’ gene
+expression profiles were determined using the affymetrix hgu133 plus 2.0 mrna expression array representing ~38.500
+human genes. the hypothesis was that the correlation of drug
+response to gene expression would identify gene signatures that
+can predict the drug response of individual tumors to these
+agents. predictive gene signatures were found and subsequently
+verified using the leave-one-out cross-validation (loocv)
+technique. tumors were considered as responsive if the drugs
+effected a tumor volume inhibition to less than 11-41% of the
+volume of vehicle control tumors (t/c%). the median cut-off
+over all drugs was a t/c of 25%. using these criteria, on average
+one third of the test tumors were sensitive (responders) and two
+thirds were resistant (non-responders). the bio-informatic
+analysis yielded predictive gene signatures consisting of 42-129
+genes (mean for the 11 drugs: 87 genes). on average, the
+response rate for predicted responders (83%) was 2.45 fold higher
+than that for all test tumors (random testing, 34%). this increase
+of response rates, following signature-guided testing, was
+consistent for all 11 agents. conversely, 94% of the predicted
+non-responders (range: 84-100%) proved to be non-responders
+in nude mouse studies while the proportion of non-responders
+among all test tumors was approximately 66%. the majority of
+
+correspondence to: heinz-herbert fiebig, oncotest gmbh,
+institute for experimental oncology, am flughafen 12-14, d79108 freiburg, germany. tel: +49 761 51559 11, fax: +49 761
+51559 55, e-mail: fiebig@oncotest.de
+key words: gene expression, prediction, tumor sensitivity, cancer,
+microarray, cytotoxicity.
+
+1109-6535/2007 $2.00+.40
+
+genes (59%) making up the predictive gene signatures had an
+unknown function. known genes were implicated in cell
+proliferation, apoptosis, dna repair, cell cycle, metabolism and
+transcription. the predictive gene signatures presented here for 11
+cytotoxic agents have the potential, if employed in the clinic, to
+substantially increase tumor response rates compared to
+empirical drug treatment. however they need to be further
+validated, both preclinically and clinically.
+cancer chemotherapy is still largely empirical. the response
+rates of the various tumor types to given combination or
+single agent therapies are well established and are the basis
+of standard clinical treatment regimens that aim at
+maximizing the chances of therapeutic success for the whole
+cancer patient population. because of the diversity of
+tumors however, this approach is not necessarily most
+effective for the individual patient.
+in contrast to the standard approach, the concept of
+individualized cancer therapy aims at accurately predicting
+the most effective therapy for a given patient. if successful,
+this approach would spare the patient adverse effects and
+save costs associated with ineffective therapies. numerous
+attempts were made to predict the drug sensitivity of a given
+tumor by analysing tumor samples obtained from patients in
+vitro. for example, the capacity of drugs to inhibit colony
+formation by patient-derived tumor cells in agar was used to
+identify effective drugs. these approaches, however, were
+not generally accepted and are therefore not widely used (1).
+an exception is the highly reliable prediction of drug
+resistance using an in vitro thymidine incorporation assay (2).
+the recent advent of dna microarrays representing the
+complete human transcriptome made it possible to derive
+global mrna expression profiles of human tumors.
+correlation of tumor gene expression profiles with the drug
+sensitivities of tumors allows us to derive gene signatures
+that are indicative of tumor sensitivity to a given drug.
+matching such predictive gene signatures for all registered
+drugs with the mrna profile of a given tumor has the
+potential to predict which treatment would be most effective
+for the tumor in question.
+
+197
+
+cancer genomics & proteomics 4: 197-210 (2007)
+table i. comparison of tumor responses in nude mice and in patients.
+nude mouse
+
+patient
+
+response
+
+remission
+no remission
+no remission
+remission
+
+remission
+remission
+no remission
+no remission
+
+19
+2
+57
+2
+
+table ii. dose levels, schedules and routes of administration for 11 anticancer agents in tumor bearing nude mice.
+drug
+
+80 comparisons were performed in 55 tumors. xenografts were
+predicted correctly for resistance in 97% (57/59) and for remission in
+90% (19/21) of cases (from fiebig et al. (4)).
+
+over the years we have established a large collection of
+patient tumor explants passaged as subcutaneous tumor
+xenografts in nude mice. we have shown earlier (3) that
+tumor response in the mouse faithfully recapitulates the
+response of the same tumor to the same treatment in the
+patient (table i). thus, of 21 tumors that underwent
+remission in the patient, 19 tumors also underwent
+remission as a tumor xenograft in the mouse if the mouse
+received the same treatment as the patient. only 2 tumors
+that were sensitive in the patient, did not undergo remission
+in the mouse. conversely, of 59 tumors that were resistant
+in the patient, 57 tumors were also resistant in the mouse.
+overall, the correct prediction for resistance was 97% and
+for sensitivity 90%.
+using the affymetrix chip hg-u-133 plus 2.0
+representing approximately 38.500 human genes (4) we have
+now determined the gene expression profiles of 200 patient
+tumor xenografts passaged subcutaneously in nude mice. by
+correlating tumor sensitivity to 11 registered cytotoxic drugs
+with gene expression data, we have derived gene signatures
+that can predict tumor sensitivity to the 11 drugs. the next
+goal is to develop, for further clinical validation, a custommade chip to assess tumor gene expression and thereby
+predict tumor drug sensitivities.
+
+materials and methods
+animals. athymic nude mice of nmri genetic background were
+either supplied by our own breeding facility or purchased from
+bomholtgard, now taconic, ry, dk. in the first passage, tumors
+from male patients were implanted into male mice, tumors from
+female patients into female mice. all efficacy tests were carried out
+in female mice with the exception of testicular and prostate
+cancers. all animal experiments were performed according to
+german animal license regulations and were approved by the
+local authorities.
+tumors. from more than 1,600 resected solid human malignancies,
+we were able to establish more than 400 tumor models growing
+subcutaneously in serial passage in nude mice (5-7). for efficacy
+tests, two fragments of 1.5-2 mm in diameter were implanted
+subcutaneously into both flanks of each mouse, for tumors inducing
+
+198
+
+cyclophosphamide
+ifosfamide
+ xxxd2655xxx  c
+cisplatin
+ xxxd2502xxx 
+5-fu
+methotrexate
+adriamycin
+etoposide
+paclitaxel
+ xxxd3513xxx 
+
+dose level
+[mg/kg/day]
+
+schedule
+[days]
+
+route
+
+200
+130
+2
+6,4 or 8
+20
+40 or
+100
+4
+6 or 8
+24
+15 or 20
+1,5
+
+1,15
+1-3,15-17
+1,15
+1,15
+1
+1-4,15-18
+1,8,15
+1,4,8,11,15,18
+1,15
+1-3, 15-17
+1,8,15
+1,8,15
+
+i.p.
+i.p.
+i.v.
+s.c.
+i.p.
+i.p.
+i.p.
+i.p.
+i.v.
+s.c.
+i.v.
+i.v.
+
+cachexia only one tumor per mouse was implanted. testings were
+performed using tumor xenografts in serial passage after their
+growth had become regular, for most tumors this was between
+passage 2 and 10. tumors were not used for more than 10-15
+passages after thawing and implanting tumor pieces from frozen
+master stocks. four tumor xenografts used in this study were
+established from human tumor cell lines (mcf7, t24, skov3 and
+ccrf-cem).
+tumor measurements. tumors were measured either weekly or, for
+fast growing tumors, twice weekly and volumes were calculated
+according to the formula axb2/2 where a is the longest diameter and
+b the perpendicular axis. relative tumor volumes were calculated
+for each individual tumor according to tumor size on day x divided
+by tumor size on day 0, i.e. at randomization, multiplied by 100.
+group median relative tumor volumes were used for evaluation.
+design of efficacy tests. for efficacy tests, tumor-bearing mice were
+selected randomly for the untreated or vehicle treated control
+group and the test groups approximately 10-30 days after
+implantation when tumors had grown to mean tumor diameters of
+6 mm (range: 5-7 mm) equal to a tumor volume of approximately
+100 mmñ. each test group consisted of 5 or 6 animals collectively
+bearing between 6 and 10 evaluable tumors. the day of
+randomization was designated as day 0. day 0 was also the first
+day of dosing. the experiments were evaluated after 4 - 6 weeks or
+after 2-3 weeks for very fast growing tumors.
+chemotherapy. eleven established anti-cancer agents were
+administered in monotherapy to tumor-bearing nude mice at dose
+levels, schedules and routes as indicated in table ii (4). the
+treatment regimens corresponded to clinical schedules with the
+exception that treatment in mice was usually repeated after 2 weeks
+instead of the 3 or 4 week intervals used in the clinic. two
+treatment cycles were given. growth curves of 2 sensitive models
+with long term remissions are shown in figure 1. drug dose levels
+causing up to 20% lethalities after 3 to 4 weeks were considered as
+the maximum tolerable doses in tumor bearing nude mice and were
+used as the maximum test dose levels.
+
+fiebig et al: gene signatures and tumor response to cytotoxic drugs
+
+figure 1. effect of chemotherapy in the mammary cancer model maxf 401 and in the large cell lung cancer model lxfl 529. adr, adriamycin; cy,
+cyclophosphamide; mito,  xxxd2655xxx  c; mtx, methotrexate; plat, cisplatin; vind,  xxxd3513xxx .
+
+199
+
+cancer genomics & proteomics 4: 197-210 (2007)
+evaluation parameters for tumor response. test/control (t/c%)
+values, i.e. the ratio of median relative tumor volumes for test and
+control groups were calculated for all measurement time points,
+and the minimum (optimal) t/c value recorded during an
+experiment was taken as the endpoint for evaluation of tumor
+sensitivity. mice had to be sacrificed when the volume of their
+tumors exceeded 1600 mm3. for all drugs, the tested tumors were
+classified either as responders (r) or as non-responders (nr),
+depending on the optimal t/c value. the cut-off points differed
+for the various drugs (table iv) and were chosen such that the
+ratio of r to nr was approximately 1:2, thus roughly matching the
+clinical situation and allowing statistically sound correlations of
+gene expression and efficacy data.
+tumor excision and rna extraction. for mrna preparation,
+tumors were grown in untreated mice. following sacrifice of mice
+by cervical dislocation, tumors were excised without delay and
+tumor pieces free of necrosis were flash frozen in liquid nitrogen.
+following mechanical tissue disruption, total tumor rna was
+extracted using the rneasy mini kit (qiagen, hilden, germany).
+prior to array analysis, one round of t7 promotor-based rna
+amplification was performed.
+microarrays. affymetrix® hg-u133 plus 2.0 mrna expression
+arrays were used to determine the expression of 47,400 transcripts,
+corresponding to human 38,500 genes. the hg-u133 plus 2.0
+mrna expression arrays have proven high reproducibility for
+mrna expression analysis (8).
+data preprocessing and normalization. cel result files were preprocessed using the gc-rma (9) algorithm independently for
+training and validation sets. chip normalization to the 50th
+percentile was performed afterwards.
+data analysis. predictive transcripts were identified by an iterative
+leave-one-out/intersection process utilizing genespring bioscript
+sg2c-2 (agilent, santa clara, us). support vector machines were
+used as the class prediction algorithm (10-12).
+leave-one-out cross-validation. predictive gene signatures were
+generated using the expression profiles and sensitivity data of all n
+test tumors as a training set. leave-one-out cross-validation
+(loocv) involved removing a single tumor from the original
+training set of n tumors and using the remaining n-1 tumors as the
+training set and the removed tumor for validation. this procedure
+was repeated such that each tumor in the original training set was
+used once for validation.
+
+results
+efficacy of 11 cytotoxic agents in tumors with known gene
+expression profiles. a prerequisite for the derivation of gene
+signatures predicting tumor sensitivity towards each of the
+11 cytotoxic drugs was the availability for the same tumors
+of gene expression profiles and efficacy data for
+monotherapy with the 11 drugs. global mrna expression
+profiles were determined for approximately 200 different
+patient tumor explants passaged as subcutaneous xenografts
+in nude mice. the tumors were of various types (table iii),
+
+200
+
+table iii. identity of human tumor models used for gene expression
+profiling.
+tumor
+
+lung non-small cell
+colon
+melanoma
+breast
+kidney
+head and neck
+sarcomas
+gastric
+bladder
+pancreas
+lung small cell
+miscellaneous
+total
+
+gene expression
+hg-u133 plus 2.0
+44
+38
+22
+12
+17
+12
+10
+7
+8
+6
+4
+20
+200
+
+including mainly non-small cell lung (n=44), colon (38),
+kidney (17), breast (12), and head and neck (12) cancers as
+well as melanomas (22) and sarcomas (10). efficacy tests for
+the various drugs were predominantly carried out in the
+subset of tumor types for which the respective drugs are
+registered or for which clinical activity has been
+demonstrated. the cut-off points for efficacy differed for
+the various drugs and were chosen such that the ratio of
+responders (r) to non-responsders (nr) was approximately
+1:2, thus roughly matching the clinical situation and allowing
+statistically sound correlations of gene expression and
+efficacy data. an overview over the numbers of tumors
+tested, the classification borders and the proportion of
+sensitive and resistant test tumors (referred to as r for
+responder and nr for non-responder, respectively) for the
+various agents is given in table iv.
+the alkylating agents cyclophosphamide, ifosfamide,
+ xxxd2655xxx  c, cisplatin, and  xxxd2502xxx  were tested in a total
+of (depending on the drug) 31-78 tumors. the main test
+tumor types were non-small cell lung cancer (all 5
+compounds), mammary cancer (all compounds except
+ xxxd2502xxx ) as well as small cell lung cancer, gastric cancer,
+cancer of the testis and melanoma (all compounds except
+cyclophosphamide and ifosfamide). the cut-off point for
+activity of the various drugs was a tumor volume
+inhibition (t/c%) to smaller than (depending on the
+drug) 11-34% of the volume of vehicle control tumors.
+the proportion of sensitive tumors ranged from
+approximately 32 to 42%. about one half of these
+responders underwent remission while the volume of most
+of the remaining responders was stable (no change). "no
+change" still translates into a clinical benefit, especially
+since drugs are administered in combination.
+
+fiebig et al: gene signatures and tumor response to cytotoxic drugs
+
+table iv. derivation of predictive gene signatures for 11 anti-cancer agents: number of predictive genes, classification borders and results of efficacy
+tests.
+drugs
+
+alkylating agents
+cyclophosphamide
+ifosfamide
+ xxxd2655xxx  c
+cisplatin
+ xxxd2502xxx 
+antimetabolites
+5-fu
+methotrexate
+ xxxg2312xxx  inh.
+adriamycin
+etoposide
+tubulin binder
+paclitaxel
+ xxxd3513xxx 
+total
+mean
+
+predictive
+genes n
+
+t/c,
+cut-off
+
+number of tumors in training set
+r
+
+r in %
+
+nr
+
+nr in %
+
+total
+
+129
+81
+115
+84
+85
+
+<11%
+<24%
+<30%
+<25%
+<11%
+
+26
+15
+23
+25
+12
+
+35.1%
+38.5%
+36.5%
+32.1%
+38.7%
+
+48
+24
+40
+53
+19
+
+64.9%
+61.5%
+63.5%
+67.9%
+61.3%
+
+74
+39
+63
+78
+31
+
+86
+42
+
+<40%
+<41%
+
+18
+6
+
+31.6%
+21.4%
+
+39
+22
+
+68.4%
+78.6%
+
+57
+28
+
+79
+66
+
+<35%
+<30%
+
+23
+10
+
+34.8%
+23.8%
+
+43
+32
+
+65.2%
+76.2%
+
+66
+42
+
+96
+95
+
+<12%
+<13%
+
+21
+23
+
+41.2%
+38.3%
+
+30
+37
+
+58.8%
+61.7%
+
+51
+60
+
+958
+87.1%
+
+the antimetabolites 5-fu and methotrexate were tested in
+57 and 28 tumors, respectively. the main test tumor types
+for 5-fu were colon, mammary, gastric and pancreatic
+cancer. for methotrexate test tumors were evenly distributed
+among the various tumor types. the threshold for activity
+was set at relatively high optimal t/c values of 40 and 41%,
+respectively, taking into account that for both drugs patients
+tolerate more than three times the maximum tolerated dose
+of mice, based on body surface. using these criteria, 32 and
+21% of the tumors were classified as responsive.
+the topoisomerase-ii-inhibitors adriamycin and etoposide
+were tested in 66 and 42 tumors, respectively. the main test
+tumors for both compounds were non-small cell lung
+cancer, mammary cancer, for adriamycin in addition small
+cell lung, pancreatic, bladder and renal cell cancer and for
+etoposide ovarian and testis cancer. tumors showing tumor
+volume inhibition to <35% of the vehicle control group
+were considered as sensitive which was the case for 35 and
+31% of the tested tumors, respectively.
+the tubulin binders paclitaxel and  xxxd3513xxx  were tested
+in 49 and 68 tumors, respectively, among them
+predominantly non-small cell lung and mammary cancers
+for both compounds and for  xxxd3513xxx  in addition small cell
+lung and gastric cancers. the cut-off points were at
+minimum t/c values of 12 and 13%, respectively, and the
+proportion of sensitive (responsive) tumors was 41 % for
+paclitaxel and 38% for  xxxd3513xxx . as for alkylating agents,
+about one half of the responders underwent remission while
+the volume of most of the remaining responders was stable.
+
+202
+34.3%
+
+387
+65.7%
+
+589
+54
+
+utility of predictive gene signatures. the efficacies of
+ xxxd2655xxx -c and adriamycin in the respective 63 and 66 test
+tumors are given in tables v and vi. the derived gene
+signatures predicting tumor sensitivities towards the 2 drugs,
+as assessed based on leave-one-out cross-validation,
+comprise 79 and 115 genes, respectively. out of 26 tumors
+predicted to be sensitive to  xxxd2655xxx  c, 20 (77%) were
+sensitive in animal testings. for adriamycin, out of 28
+tumors predicted to be sensitive, 19 (=68%) actually were.
+in summary, if only the tumors predicted to be sensitive had
+been tested with  xxxd2655xxx  c and adriamycin, response
+rates of 77% (20 out of 26) for  xxxd2655xxx  c and of 68% (19
+out of 28) for adriamycin would have been obtained as
+compared to response rates of 37% and 35% for random
+testing, i.e. using the gene signatures for test tumor
+selection, the response rates increased by factors of 2.08 and
+2.06 compared with random testings. the correct
+predictions for non-responders were 34 out of 37 (92%) for
+ xxxd2655xxx  c and 34 out of 38 (89%) for adriamycin. the
+proportion of non-responders among all test tumors was 40
+out of 63 (63.5%) and 43 out of 66 (65.2%) for  xxxd2655xxx  c
+and adriamycin, respectively.
+the distribution of the real t/c values among the predicted
+ xxxd2655xxx  c and adriamycin responders and non-responders
+is presented in figure 2. among the predicted responders, the
+median t/c achieved by  xxxd2655xxx  c in real testings was 10%
+as compared to 56% for the predicted non-responders. for
+adriamycin the median t/c values among predicted
+responders and non-responders were 31% and 56%,
+
+201
+
+cancer genomics & proteomics 4: 197-210 (2007)
+table v. real and predicted efficacy and cross-validation for  xxxd2655xxx  c in human tumor xenografts.
+
+respectively. for both  xxxd2655xxx  c and adriamycin, rank sum
+tests demonstrated significance of the difference in drug
+efficacy among predicted responders and non-responders
+(p<0.001). in summary, the utility of the predictive  xxxd2655xxx 
+c and adriamycin gene signatures was demonstrated based on
+the overall response rates and the median t/c values for
+predicted responders and non-responders on the one hand
+and randomly tested tumors on the other.
+
+202
+
+with the same methodology, predictive gene signatures for
+9 additional compounds (cyclophosphamide, ifosfamide,
+cisplatin  xxxd2502xxx , 5-fu methotrexate, etoposide, paclitaxel
+and  xxxd3513xxx ) were evaluated. for all compounds, the actual
+response rate among predicted responders was on average
+2.45-fold higher than the response rate for all tumors, i.e. for
+random testing. the increase of the response rate ranged
+from 2.06- to 4.17-fold for the individual compounds.
+
+fiebig et al: gene signatures and tumor response to cytotoxic drugs
+
+table vi. real and predicted efficacy and cross-validation for adriamycin in human tumor xenografts.
+
+for all 11 compounds, random testings of all tumors
+resulted in an average tumor response rate of 34% which
+increased to 82% if only the subgroup of gene signaturepredicted responders were tested. gene signature-guided
+prediction of resistance (no response) was 94% correct,
+
+i.e. 94% (range: 84-100% for the various compounds) of
+the predicted non-responders actually did not respond.
+the proportion of non-responders following random
+testing was on average only 66%. details are shown in
+table vii.
+
+203
+
+cancer genomics & proteomics 4: 197-210 (2007)
+
+figure 2.  xxxd2655xxx  c and adriamycin activity (expressed as t/c values) in tumors predicted as responsive vs. non-responsive. p-values according to
+mann-whitney rank sum test.
+
+prediction of the  xxxd2655xxx  c and adriamycin responses for
+an independent set of 106 additional tumors. in addition to
+the 63 and 66 tumors, respectively, whose gene expression
+profiles and  xxxd2655xxx  c and adriamycin sensitivities were
+used to derive predictive gene signatures, 106 untested
+tumors with known gene expression profiles were available.
+the predictive gene signatures were used to predict
+ xxxd2655xxx  c and adriamycin responses of those tumors.
+table viii (for  xxxd2655xxx  c) and ix (for adriamycin) show
+the response predictions separately for tumor types known
+to be sensitive in the clinic (a) and for tumor types that are
+either predominantly resistant or have not yet been tested
+clinically (b).
+for tumor types considered as  xxxd2655xxx  c-sensitive, 32
+out of 70 individual untested tumors (46%) were predicted
+to be  xxxd2655xxx  c-sensitive, including 3 out of 4 small cell
+lung cancers, 3 out of 4 cervix uteri cancers, 2 out of 4
+bladder cancers, 13 out of 28 non-small cell lung cancers, 5
+out of 14 colorectal cancers, 1 each of gastric, mammary and
+pancreatic cancers and 1 sarcoma. among the 63 tested
+tumors used to derive the  xxxd2655xxx  c gene signature (see
+above), 47 belonged to  xxxd2655xxx  c-sensitive tumor types.
+among those 47 tumors, sensitivity was demonstrated for 23
+(49%). in summary, in the case of the  xxxd2655xxx  c-sensitive
+tumor types, 55 out of a total of 117 (38%) were either
+
+204
+
+demonstrated or predicted to be sensitive. conversely, for
+tumor types clinically considered as  xxxd2655xxx  c-resistant
+(or that had never been tested in the clinic), only 3 out of
+36 untested tumors (8%) were predicted to be sensitive,
+including 2 out of 5 head and neck cancers and 1 leukemia
+but no responses were predicted for any of the liver cancers,
+renal cell cancers, melanomas and a myeloma (table viii
+b). among the 63 tested tumors used to derive the
+ xxxd2655xxx  c gene signature (see above), 16 belonged to
+ xxxd2655xxx  c-resistant tumor types. among those 16 tumors,
+sensitivity was demonstrated for one melanoma only (6%).
+summing up for the  xxxd2655xxx  c-resistant tumor types, 4
+out of a total of 52 (8%) were either demonstrated or
+predicted to be sensitive.
+for tumor types expected to be adriamycin-sensitive, 20
+out of 54 untested tumors (37%) were predicted as
+responsive including 5 out of 5 leukemias, 2 out of 3
+sarcomas, 6 out of 20 non-small cell lung cancers, 1 out of 3
+mammary cancers, 1 out of 3 small cell lung cancers, 1 out
+of 3 bladder cancers, 1 out of 3 pleuramesotheliomas, the
+only myeloma and the only testicular cancer (table ix a).
+among the 66 previouisly tested tumors used to derive the
+adriamycin-specific predictive gene signature (see above), 44
+belonged to adriamycin-sensitive tumor types. among those
+44 tumors, sensitivity was demonstrated for 17 (39%).
+
+fiebig et al: gene signatures and tumor response to cytotoxic drugs
+
+table vii. leave-one-out cross-validation of predictive gene profiles for 11 anticancer agents.
+substance
+
+# genes
+
+# tumors
+tested
+
+class.
+border
+r
+
+alkylating agents
+cyclophosphamide
+ifosfamide
+ xxxd2655xxx  c
+cisplatin
+ xxxd2502xxx 
+antimetabolites
+5-fu
+methotrexate
+ xxxg2312xxx  inh.
+adriamycin
+etoposide
+tubulin binder
+paclitaxel
+ xxxd3513xxx 
+ø
+
+responsive
+nr
+
+random
+
+response
+rate
+signature increase
+
+correct pred.
+nr
+
+129
+81
+115
+84
+85
+
+74
+39
+63
+78
+31
+
+<
+<
+<
+<
+<
+
+11%
+25%
+30%
+25%
+11%
+
+>
+>
+>
+>
+>
+
+35%
+38%
+37%
+32%
+39%
+
+79%
+93%
+77%
+73%
+83%
+
+x2.26
+x2.45
+x2.08
+x2.28
+x2.13
+
+97%
+92%
+92%
+84%
+89%
+
+86
+42
+
+57
+28
+
+<
+<
+
+40%
+41%
+
+>
+>
+
+32%
+21%
+
+84%
+75%
+
+x2.63
+x3.57
+
+95%
+100%
+
+79
+66
+
+66
+42
+
+<
+<
+
+35%
+30%
+
+>
+>
+
+33%
+24%
+
+68%
+100%
+
+x2.06
+x4.17
+
+89%
+94%
+
+96
+95
+87
+
+51
+60
+54
+
+<
+<
+
+12%
+13%
+
+>
+>
+
+41%
+38%
+34%
+
+86%
+87%
+82%
+
+x2.1
+x2.29
+x2.45
+
+93%
+92%
+93%
+
+table viii. a)  xxxd2655xxx  c efficacy in clinically sensitive tumor types: results for 47 tested tumors and predictions for 70 untested tumors.
+cancer type
+
+ xxxd2655xxx  c real
+r
+
+bladder
+colon
+gastric
+lung nsclc
+lung small cell
+mammary
+ovary
+pancreas
+sarcoma
+testicle
+uterus cervix
+total
+
+2
+6
+6
+1
+6
+1
+1
+
+23
+
+nr
+1
+11
+3
+4
+2
+2
+1
+
+24
+
+total
+1
+13
+6
+9
+1
+10
+3
+3
+1
+
+47
+
+ xxxd2655xxx  c predicted
+%
+0%
+15%
+100%
+67%
+100%
+60%
+33%
+33%
+0%
+
+49%
+
+r
+
+ xxxd2655xxx  c real + predicted
+
+nr
+
+total
+
+%
+
+r
+
+nr
+
+total
+
+%
+
+2
+5
+1
+13
+3
+1
+1
+1
+1
+1
+3
+
+4
+9
+1
+15
+1
+1
+2
+1
+3
+
+33%
+36%
+50%
+46%
+75%
+50%
+33%
+50%
+25%
+100%
+75%
+
+2
+7
+7
+19
+4
+7
+2
+2
+1
+1
+3
+
+5
+20
+1
+18
+1
+5
+4
+3
+4
+
+1
+
+6
+14
+2
+28
+4
+2
+3
+2
+4
+1
+4
+
+1
+
+7
+27
+8
+37
+5
+12
+6
+5
+5
+1
+4
+
+29%
+26%
+88%
+51%
+80%
+58%
+33%
+40%
+20%
+100%
+75%
+
+32
+
+38
+
+70
+
+46%
+
+55
+
+62
+
+117
+
+47%
+
+table viii. b)  xxxd2655xxx  c efficacy in clinically resistant tumor types: results for 16 tested tumors and predictions for 36 untested tumors.
+cancer type
+
+ xxxd2655xxx  c real
+r
+
+head + neck
+leukemias+
+lymphomas
+liver
+melanoma
+myeloma
+pleuramesothelioma
+renal
+total
+
+1
+
+1
+
+nr
+
+total
+
+ xxxd2655xxx  c predicted
+%
+
+1
+
+1
+
+0%
+
+6
+
+7
+
+14%
+
+1
+7
+
+1
+7
+
+0%
+0%
+
+15
+
+16
+
+6%
+
+ xxxd2655xxx  c real + predicted
+
+r
+
+nr
+
+total
+
+%
+
+r
+
+nr
+
+total
+
+2
+
+3
+
+5
+
+40%
+
+2
+
+3
+
+5
+
+40%
+
+1
+
+5
+2
+9
+1
+4
+9
+
+6
+2
+9
+1
+4
+9
+
+17%
+0%
+0%
+0%
+0%
+0%
+
+1
+
+6
+2
+15
+1
+5
+16
+
+7
+2
+16
+1
+5
+16
+
+14%
+0%
+6%
+0%
+0%
+0%
+
+33
+
+36
+
+8%
+
+48
+
+52
+
+8%
+
+3
+
+1
+
+4
+
+%
+
+205
+
+cancer genomics & proteomics 4: 197-210 (2007)
+table ix. a) adriamycin efficacy in clinically sensitive tumor types: results for 44 tested tumors and predictions for 54 untested tumors.
+cancer type
+
+bladder
+gastric
+leukemias+
+lymphomas
+lung nsclc
+lung small cell
+mammary
+myeloma
+ovary
+pleuramesothelioma
+sarcoma
+testicle
+total
+
+adriamycin real
+
+adriamycin predicted
+
+adriamycin real + predicted
+
+r
+
+nr
+
+total
+
+%
+
+r
+
+nr
+
+total
+
+%
+
+r
+
+nr
+
+total
+
+1
+3
+
+3
+2
+
+4
+5
+
+25%
+60%
+
+1
+
+2
+2
+
+3
+2
+
+33%
+0%
+
+2
+3
+
+5
+4
+
+7
+7
+
+29%
+43%
+
+1
+5
+3
+2
+
+1
+6
+2
+8
+
+2
+11
+5
+10
+
+50%
+45%
+60%
+20%
+
+3
+1
+1
+
+3
+2
+2
+
+0%
+50%
+50%
+
+5
+26
+3
+3
+1
+4
+3
+3
+1
+
+100%
+23%
+33%
+33%
+100%
+25%
+33%
+67%
+
+6
+11
+4
+3
+1
+1
+2
+3
+1
+
+1
+26
+4
+10
+
+1
+1
+
+5
+6
+1
+1
+1
+1
+1
+2
+1
+
+7
+37
+8
+13
+1
+7
+5
+5
+1
+
+86%
+30%
+50%
+23%
+100%
+14%
+40%
+60%
+100%
+
+17
+
+27
+
+44
+
+39%
+
+54
+
+37%
+
+37
+
+61
+
+98
+
+38%
+
+20
+
+20
+2
+2
+3
+2
+1
+
+34
+
+6
+3
+2
+
+%
+
+table ix. b) adriamycin efficacy in clinically resistant tumor types: results for 22 tested tumors and predictions for 52 untested tumors.
+cancer type
+
+cns
+colon
+head+neck
+melanoma
+pancreas
+renal
+uterus cervix
+total
+
+adriamycin real
+
+adriamycin predicted
+
+r
+
+nr
+
+total
+
+%
+
+r
+
+1
+
+6
+
+7
+
+14%
+
+2
+1
+2
+
+3
+2
+5
+
+5
+3
+7
+
+40%
+33%
+29%
+
+1
+1
+3
+
+6
+
+16
+
+22
+
+27%
+
+5
+
+summing up for the adriamycin-sensitive tumor types, 37 out
+of a total of 98 tumors (38%) were either demonstrated or
+predicted to be sensitive. for tumor types being considered
+as resistant in the clinic, only 5 out of 47 untested tumors
+(10%) were predicted to be adriamycin-sensitive, among
+them 3 out of 11 melanomas (27%), 1 out of 19 colorectal
+cancers (5%), and 0/9 renal cancers (table ix b). among
+the 66 tested tumors used to derive the adriamycin gene
+signature, 22 belonged to adriamycin-resistant tumor types.
+among those 22 tumors, sensitivity was demonstrated for 6
+tumors (27%). summing up for the adriamycin-resistant
+tumor types, 11 out of a total of 74 (15%) were either
+demonstrated or predicted to be sensitive.
+in summary, when combining the results of real efficacy
+tests with the predicted tumor responses, the proportion
+of sensitive tumors among clinically sensitive and clinically
+resistant tumors was in agreement with clinical data.
+
+206
+
+adriamycin real + predicted
+
+nr
+
+total
+
+%
+
+r
+
+nr
+
+total
+
+%
+
+1
+19
+4
+8
+2
+9
+4
+
+1
+20
+5
+11
+2
+9
+4
+
+5%
+20%
+27%
+0%
+0%
+
+2
+1
+5
+1
+2
+
+1
+25
+4
+11
+4
+14
+4
+
+1
+27
+5
+16
+5
+16
+4
+
+0%
+7%
+20%
+31%
+20%
+13%
+0%
+
+47
+
+52
+
+10%
+
+11
+
+63
+
+74
+
+15%
+
+function of genes contained in predictive gene signatures. the
+genes making up the predictive gene signatures were
+identified using an algorithm comprising a combination of
+different statistical tests (12). collectively, the genes allow
+predictions of tumor drug sensitivities. for the gene
+signatures presented here, the mean number of genes per
+signature was 87 (range: 42-129). on average 58.9% of
+those genes have an unknown function, as apparent from
+the fact that they were not annotated to any of the different
+functional categories of genes by the gene ontology
+consortium (table x). looking at the six functional
+categories considered as particularly relevant to oncology, a
+mean of 1.5% of the genes per signature were implicated in
+cell proliferation, 1.8% in apoptosis, 1.3% in dna repair,
+3.4% in cell cycle, 26.1% in metabolism and 10.3% in
+transcription. please note that genes can be assigned to
+more than one functional class.
+
+fiebig et al: gene signatures and tumor response to cytotoxic drugs
+
+table x. representation of selected gene classes* the 11 predictive gene signatures.
+substance
+alkylating agents
+cyclophosphamide
+ifosfamide
+ xxxd2655xxx  c
+cisplatin
+ xxxd2502xxx 
+antimetabolites
+5-fu
+methotrexate
+ xxxg2312xxx  inh.
+adriamycin
+etoposide
+tubulin binder
+paclitaxel
+ xxxd3513xxx 
+mean
+
+gene number
+
+proliferation
+
+apoptosis
+
+dna repair
+
+cell cycle
+
+metabolism
+
+transcription
+
+not-annotated
+
+129
+81
+115
+84
+85
+
+1
+0
+4
+0
+2
+
+5
+1
+3
+1
+2
+
+1
+0
+6
+2
+2
+
+7
+3
+5
+5
+3
+
+29
+18
+38
+11
+24
+
+15
+10
+8
+3
+12
+
+59
+49
+63
+61
+54
+
+86
+42
+
+4
+0
+
+2
+1
+
+0
+0
+
+3
+1
+
+17
+9
+
+6
+4
+
+53
+27
+
+79
+66
+
+0
+1
+
+1
+1
+
+0
+1
+
+2
+1
+
+22
+28
+
+11
+10
+
+50
+28
+
+96
+95
+
+2
+0
+
+0
+0
+
+0
+0
+
+1
+2
+
+30
+24
+
+11
+9
+
+54
+66
+
+87.1
+
+1.3
+1.5%
+
+1.5
+1.8%
+
+1.1
+1.3%
+
+3.0
+3.4%
+
+22.7
+26.1%
+
+9.0
+10.3%
+
+51.3
+58.9%
+
+*as defined by the gene ontology consortium. some genes were annotated to more than one class.
+
+discussion
+predictive gene signatures for 11 cytotoxic agents. we have
+used gene expression profiles and drug sensitivities of
+patient-derived tumor xenografts grown in nude mice to
+identify gene signatures that can predict tumor sensitivities
+to 11 cytotoxic drugs. compared with random testing, the
+predictive gene signatures significantly improved tumor
+response rates in leave-one-out cross-validation. conversely,
+the proportion of resistant tumors was clearly higher among
+predicted non-responders as compared to all test tumors.
+actual and predicted response rates were substantially
+higher for clinically sensitive tumor types as compared to
+clinically resistant tumor types. the 11 predictive gene
+signatures reported here consist on average of 87 genes
+(range: 42-129). for all 11 signatures, the proportion of
+genes implicated in metabolism clearly exceeds the
+proportion of genes involved in other relevant cellular
+processes such as cell proliferation and apoptosis, indicating
+that not only genes directly involved in the mechanism of
+drug action impact on tumor sensitivity.
+a prerequisite for the validity of our approach to deriving
+predictive gene signatures is that gene expression patterns
+and drug sensitivities of tumor xenografts remain stable
+during tumor passages in mice. while we have shown in
+numerous experiments over many years (5) that drug
+sensitivities do not change significantly over at least 15
+passages, preliminary data indicate that gene expression
+profiles also remain stable. thus, correlation coefficients for
+mrna profiles of the same tumor at different passages
+
+starting at passage 0 (original patient tumor) up to passage
+12 were generally above 0.8 for all transcripts and above 0.9
+for the transcripts of the predictive genes (unpublished data).
+we estimate that the tumor training sets required to
+derive predictive gene signatures should ideally comprise 50
+tumors or more. to obtain the necessary tumor numbers, in
+this study we included tumors of, depending on the drug, as
+many as 6-10 different types. consequently, our signatures
+are applicable to all tumor types represented in the training
+sets. experiments are underway to generate tumor typespecific gene signatures by admitting only tumors of one
+type, e.g. colorectal cancer, to the training set. we expect
+that the resulting signatures will be more accurate and
+possibly comprise fewer genes.
+clinical perspectives of predictive gene signatures derived
+from patient tumor explants passaged in nude mice. gene
+expression profiles mirror the complexity and diversity of
+human tumors. since they are easily accessible, they could
+form the basis of individualized cancer therapy. indeed,
+by correlating gene expression profiles determined for
+patient tumor samples with clinical outcome, gene
+signatures have been developed that predict the prognosis
+and drug response of human tumors. gene signatures for
+the prediction of patient prognosis were published for
+breast and non-small cell lung cancers, lymphomas and
+mesotheliomas (13-18). diagnostic tests have been
+developed by genomic health (oncotype dx, 21 genes
+assessed by pcr) and agendia (mamma-print, 70 genes
+assessed by array analysis) to identify primary breast
+
+207
+
+cancer genomics & proteomics 4: 197-210 (2007)
+cancer patients with a high risk of relapse (19, 20) and to
+then decide on adjuvant chemotherapy accordingly. both
+tests have now been approved by the fda. they will need
+further validation in prospective clinical studies which are
+underway. examples of gene signatures for the prediction
+of drug response include a 92 gene signature for
+docetaxel in the neoadjuvant setting in advanced breast
+cancer patients (21) and 512 and 30 gene signatures for
+the prediction of pathological complete remission,
+following neoadjuvant chemotherapy of breast cancer
+patients with either gemcitabine,  xxxd2008xxx  and
+docetaxel (22) or with paclitaxel/ fluorouracil, doxorubicin
+and cyclophosphamide (23).
+a disadvantage inevitably associated with the use of
+clinical data for the generation of predictive gene
+signatures is that most patients receive combination
+therapies, making it impossible in most settings to derive
+gene signatures for monotherapies and to prove how much
+a single agent actually contributed to a therapeutic
+outcome. in the absence of controls, it is strictly speaking
+not even possible to attribute a therapeutic outcome for a
+given patient (e.g., stable disease) unequivocally to the
+treatment of that patient. these disadvantages can be
+avoided using experimental systems such as human tumor
+cell lines cultured in vitro. combining the gene expression
+profiles of tumor cell lines with their drug sensitivities,
+gene signatures were derived that successfully predict
+tumor cell sensitivity to monotherapy with investigational
+and registered anti-cancer agents (24-26). depending on
+the choice of tumor cells for the training set, gene
+signatures can be independent of a test cells’ tissue of
+origin. interestingly, at least in one instance predictive
+gene signatures derived from cultured tumor cell lines
+were used successfully to predict the drug sensitivity of
+patient tumors (25). on the other hand, tumor cell linebased experimental systems have been criticised for lack of
+clinical relevance and are, therefore, not generally
+accepted. for example, as a consequence of prolonged in
+vitro culture, variants of the cell lines were selected that
+are well adapted to rapid in vitro growth but differ from
+the original patient tumor. indeed, nude mouse tumor
+xenografts derived from most cultured tumor cell lines are
+histologically homogeneous and undifferentiated and
+differ in this regard from patient tumors. second, the in
+vitro culture conditions of tumor cell lines and the assay
+parameters (induction of apoptosis and/or inhibition of
+cell proliferation on a plastic surface) are not
+representative for the clinical situation (inhibition of 3d
+tumor growth in the context of tissue).
+patient tumor explants passaged in nude mice combine
+most of the advantages of the clinic and tumor cell linebased experimental systems and avoid most of the
+restrictions. as demonstrated by extensive comparisons
+
+208
+
+of drug sensitivities and histology, the patient tumor
+xenografts retain most of the characteristics of the
+original patient tumor (5) and the principal assay
+parameter, i.e. inhibition of a real tumor, is similar in
+patients and mice. on the other hand, in contrast to the
+clinic, experiments are rapid and well controlled and
+efficacy in a given tumor can be unequivocally attributed
+to individual drugs. using this system, predictive gene
+signatures can be generated for experimental compounds,
+prior to any clinical tests. restrictions for drugs directed
+toward tumor stroma components may arise from the fact
+that after 2 or 3 passages in the mouse the tumor stroma
+is of mouse origin, while the tumor cells themselves are
+of human origin. restrictions may also exist for hormonedependent tumors which exhibit relatively low take rates
+in mice and whose clinical diversity may not be
+adequately represented among nude mouse tumor
+xenografts.
+in summary, we believe that predictive gene signatures
+derived from patient tumor explants passaged in nude mice
+have great potential to predict drug sensitivities of patient
+tumors and could complement the signatures generated with
+clinical data. accordingly, we have initiated the clinical
+validation of our signatures, using the gene expression
+profiles of patient tumor samples to predict tumor
+sensitivities.
+
+conclusion
+gene expression profiles represent the diversity and
+individuality of human tumors. predictive gene signatures
+link tumor gene expression profiles with therapeutic
+outcome and therefore have the potential to form the basis
+of individulalized cancer therapy.
+human tumor explants passaged subcutaneously in nude
+mice are a promising system to derive predictive gene
+signatures. on the one hand, they faithfully recapitulate the
+sensitivity of the original patient tumors to cytotoxic drugs,
+a fact indicating their clinical relevance. on the other hand,
+they have the advantages of experimental systems, i.e. there
+is the capacity to rapidly obtain clean and well controlled
+data under defined conditions.
+predictive gene signatures for 11 cytotoxic drugs have
+been derived using the tumor xenograft system. initial data
+generated with these gene signatures are consistent and
+plausible. however, validation of the signatures, in
+particular for clinical application, is still required.
+
+acknowledgements
+we are grateful to our co-workers sandra kissel, veronika jung,
+sabine wagner and astrid schönfeld and elke simon for their
+excellent technical assistance. we thank hildegard willmann for
+software development and data evaluation.
+
+fiebig et al: gene signatures and tumor response to cytotoxic drugs
+
+conflicts of interest
+all authors are employees of oncotest gmbh, hhf is the owner.
+
+references
+1 schrag d, garewal hs, burstein hj et al: american society of
+clinical oncology technology assessment: chemotherapy
+sensitivity and resistance assays. j clin oncol 22: 3631-3638, 2004.
+2 tewari ks, mehta rs, burger ra et al: conservation of in vitro
+drug resistance patterns in epithelial ovarian carcinoma. gyn
+oncology 98: 360-368, 2005.
+3 fiebig hh, dengler wa and roth t: human tumor
+xenografts: predictivity, characterization and discovery of new
+anticancer agents. in: fiebig hh, burger am (eds). relevance
+of tumor models for anticancer drug development. contr
+oncol. basel karger 54: 29-50, 1999.
+4 url: http://www.affymetrix.com/support/technical/datasheets/
+human_datasheet.pdf
+5 fiebig hh, berger dp, dengler wa, wallbrecher e and
+winterhalter br: combined in vitro/in vivo test procedure with
+human tumor xenografts. in: fiebig hh, berger dp (eds.).
+immunodeficient mice in oncology. karger, basel, contrib
+oncol 42: 321-351, 1992.
+6 fiebig hh and burger am: human tumor xenografts and
+explants. in: tumor models in cancer research. teicher (ed.).
+humana press inc. totowa, nj, pp. 113-137, 2001.
+7 burger am and fiebig hh: preclinical screening for new
+anticancer agents. p 29-44, humana press 2004, handbook of
+anticancer pharmacokinetics and pharmacodynamics. ed gigg,
+w.d. and mcleood, h.l.
+8 shi et al: the microarray quality control (maqc) project
+shows interplatform reproducibility of gene expression
+measurements. nature biotechnology 24(9): 1151-1161, 2006.
+9 zhijin wu and rafael a: irizarry, robert gentleman, francisco
+martinez murillo, and forrest spencer, "a model based
+background adjustment for oligonucleotide expression
+arrays" (may 2004). johns hopkins university, dept. of
+biostatistics working papers. working paper 1.
+10 peng s, xu q, ling xb et al: molecular classification of cancer
+types from microarray data using the combination of genetic
+algorithms and support vector machines. febs lett 555: 358362, 2003.
+11 furey ts, cristianini n, duffy n et al: support vector machine
+classification and validation of cancer tissue samples using
+microarray expression data. bioinformatics 16: 906-914, 2000.
+12 korrat a, greiner t, maurer m, metz t and fiebig hh: gene
+signature based prediction of tumor sensitivity against
+cyclophosphamide. cancer genomics and proteomics, 2007.
+13 paik s, tang g, shak s et al: gene expression and benefit of
+chemotherapy in women with node-negative, estrogen receptorpositive breast cancer. j clin oncol 24: 3726-3734, 2006.
+
+14 garber me, troyanskaya og, schluens k et al: diversity of
+gene expression in adenocarcinoma of the lung. proc natl acad
+sci usa 98: 13784-13789, 2001. (erratum, proc natl acad sci
+usa 99: 1098, 2002.)
+15 chen  xxxg1273xxx , yu s-l, chen c-h et al: a five-gene signature and
+clinical outcome in non-small cell lung cancer. n engl j
+med 356: 11-20, 2007.
+16 raponi m, zhang y, yu j et al: gene expression signatures for
+predicting prognosis of squamous cell and adenocarcinomas of
+the lung. cancer res 66: 7466-7472, 2006.
+17 lossos is, czerwinski dk, alizadeh aa et al: prediction of
+survival in diffuse large-b-cell lymphoma based on the
+expression of six genes. n engl j med 350: 1828-1837, 2004.
+18 gordon gj, jensen rv, hsiao ll et al: translation of
+microarray data into clinically relevant cancer diagnostic tests
+using gene expression ratios in lung cancer and mesothelioma.
+cancer res 62: 4963-4967, 2002.
+19 s paik, g tang, s shak et al: gene expression and benefit of
+chemotherapy in women with node-negative, estrogen
+receptor-positive breast cancer. j clin oncol 24(23): 10, 2006.
+20 buyse m, loi s, van’tt veer et al: validation and clinical utility
+of a 70-gene prognostic signature fo rwomen with node-negative
+breast cancer jnci cancer spectrum 98: 3817-3827, 2006.
+21 chang jc et al: gene expression profiling for the prediction of
+therapeutic response to docetaxel in patients with breast cancer.
+lancet 362: 362-369, 2003.
+22 thueringen o, schneeweiss a, toedt g et al: gene expression
+signature predicting pathologic complete response with
+gemcitabine,  xxxd2008xxx , and docetaxel in primary breast cancer.
+j clin oncol 24: 1839-1845, 2006.
+23 hess kr, anderson k, symmans wf, valero v, ibrahim n,
+mejia ja, booser d, theriault rl, buzdar au, dempsey pj,
+rouzier r, sneige n, ross js, vidaurre t, gomez hl,
+hortobagyi gn and pusztai l: pharmacogenomic predictor of
+sensitivity to preoperative chemotherapy with paclitaxel and
+fluorouracil, doxorubicin, and cyclophosphamide in breast
+cancer. j clin oncol 24(26): 4236-4244, 2006.
+24 staunton je, slonim dk, coller ha et al: chemosensitivity
+prediction by transcriptional profiling. proc natl acad sci usa
+98: 10787-10792, 2001.
+25 potti a, dressman hk, bild a et al: genomic signatures to
+guide the use of chemotherapeutics. nat med 12: 1294-1300,
+2006.
+26 gyorffy b et al: gene expression profiling of 30 cancer cell lines
+predicts resistance towards 11 anticancer drugs at clinically
+achieved concentrations. int j cancer 118: 1699-1712, 2006.
+
+received march 26, 2007
+accepted april 18, 2007
+
+209
+

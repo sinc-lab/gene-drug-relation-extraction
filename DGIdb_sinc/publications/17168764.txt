@@ -1,0 +1,1002 @@
+current pharmaceutical design, 2006, 12, 4591-4600
+
+4591
+
+the heterodimeric sweet taste receptor has multiple potential ligand
+binding sites
+meng cui1, peihua jiang2, emeline maillet2, marianna max2, robert f. margolskee3 and roman
+osman1,*
+1
+
+department of physiology and biophysics, mount sinai school of medicine, box 1218, new york, ny 10029, usa;
+department of neuroscience, 1425 madison avenue, box 1065, new york, ny 10029 and 3howard hughes medical institute, mount sinai school of medicine, box 1677, 1425 madison avenue, new york 10029, usa
+2
+
+abstract: the sweet taste receptor is a heterodimer of two g protein coupled receptors,  xxxg2249xxx  and t1r3. this discovery
+has increased our understanding at the molecular level of the mechanisms underlying sweet taste. previous experimental
+studies using sweet receptor chimeras and mutants show that there are at least three potential binding sites in this heterodimeric receptor. receptor activity toward the artificial sweeteners aspartame and neotame depends on residues in the
+amino terminal domain of human  xxxg2249xxx . in contrast, receptor activity toward the sweetener cyclamate and the sweet taste
+inhibitor lactisole depends on residues within the transmembrane domain of human t1r3. furthermore, receptor activity
+toward the sweet protein brazzein depends on the cysteine rich domain of human t1r3. although crystal structures are
+not available for the sweet taste receptor, useful homology models can be developed based on appropriate templates. the
+amino terminal domain, cysteine rich domain and transmembrane helix domain of  xxxg2249xxx  and t1r3 have been modeled
+based on the crystal structures of metabotropic  xxxg981xxx  type 1,  xxxg2296xxx  receptor, and bovine
+rhodopsin, respectively. we have used homology models of the sweet taste receptors, molecular docking of sweet ligands
+to the receptors, and site-directed mutagenesis of the receptors to identify potential ligand binding sites of the sweet taste
+receptor. these studies have led to a better understanding of the structure and function of this heterodimeric receptor, and
+can act as a guide for rational structure-based design of novel non-caloric sweeteners, which can be used in the fighting
+against obesity and diabetes.
+
+key words: homology modeling, molecular docking, site-directed mutagenesis, sweeteners, sweet taste inhibitors, sweet proteins.
+introduction
+the sense of taste is important for humans and other organisms in evaluating the nutritive quality of foods. humans
+and other mammals can detect and discriminate between at
+least five taste qualities: sweet, bitter, sour, salty, and umami
+[1]. the identification of sweet and bitter tastes is particularly important for humans in seeking out the needed carbohydrates with high nutritive value, avoiding potentially
+deadly plant alkaloids and other bitter tasting environmental
+toxins [2-4]. the tastes of sour and salty are thought to be
+mediated by direct effects on specialized membrane channels
+[5-9]. sweet, bitter, and umami taste transduction, on the
+other hand, is mediated by g protein-coupled receptors
+(gpcrs) and their linked signaling pathways [3, 10-15].
+taste receptor cells are specialized epithelial cells generally found within taste buds embedded within the tongue
+epithelium. each taste bud is shaped like a garlic clove and is
+composed of 50-150 cells [1]. taste buds are found in papillae on the tongue as well as on the palate and pharynx. in
+vertebrates there are three kinds of taste papillae which can
+be distinguished on the basis of morphology and location,
+*address correspondence to this author at the department of physiology
+and biophysics, mount sinai school of medicine, box 1218, new york,
+ny 10029, usa; tel: 212-241-5609; fax: 212-860-3369;
+e-mail: roman.osman@mssm.edu
+1381-6128/06 $50.00+.00
+
+fungiform, foliate and circumvallate [16]. taste receptor
+proteins and other signaling elements are located in the microvilli of the taste receptor cells, where they serve as the
+initial detectors underlying taste qualities. the identification
+of two families of receptors, t1rs and t2rs, responsive to
+sweet/umami and bitter taste stimuli, respectively, has shed
+light on some of the basic mechanisms underlying taste
+transduction in mammals [12, 17-25].
+recently, multiple groups identified a novel t1r gene,
+t1r3, as a candidate sweet receptor gene [3, 17, 19-21]. the
+heterodimer of  xxxg2249xxx  and t1r3 ( xxxg2249xxx /t1r3) is a broadly
+acting sweet taste receptor responsive to natural sugars, artificial sweeteners, d-amino acids, and sweet-tasting proteins
+[3, 13, 20, 26]. the t1rs, a small family of gpcrs expressed in taste cells of the tongue and palate, are related to
+metabotropic glutamate receptors (mglurs), the calcium
+sensing receptor, and vomeronasal receptors. t1rs are characterized by a large extracellular amino terminal domain
+(atd), which is linked by a cysteine rich domain (crd) to
+the 7-tm-domain (tmd) [27]. by analogy with  xxxg972xxx ’s
+atd, for which ligand-bound crystal structures are available
+[28], it has been proposed that the atd of  xxxg2249xxx /t1r3 may
+bind some sweeteners [16, 28].
+in addition to sucrose,  xxxg2249xxx /t1r3 responds to many
+other sweet taste stimuli: the sugars fructose, galactose, glucose, lactose, and maltose; the amino acids glycine and d© 2006 bentham science publishers ltd.
+
+4592
+
+current pharmaceutical design, 2006, vol. 12, no. 35
+
+tryptophan; the sweet proteins brazzein, monellin and thaumatin; and the synthetic sweeteners cyclamate, saccharin,
+acesulfame k, aspartame, dulcin, neotame and sucralose [3,
+29]. sweet taste in humans is inhibited by the inhibitor lactisole [30, 31]. this inhibition has been proposed to reflect
+specific antagonism at the  xxxg2249xxx /t1r3 receptor, because
+lactisole did not inhibit the galpha15-dependent activity of endogenous beta2-adrenergic receptor [26]. studies with receptor
+chimeras and mutants show that the artificial sweeteners
+aspartame and neotame interact with  xxxg2249xxx ’s atd, while the
+sweetener cyclamate and sweet taste inhibitor lactisole interact with t1r3’s tmd [22]. in this review paper, we summarized the homology models of sweet taste receptors, and discussed the possible multiple binding sites in the receptor for
+sweeteners, sweet proteins, and sweet inhibitors. our recent
+modeling results related to sweet taste receptors are also included.
+modeling the structure of sweet taste
+receptor
+the superfamily of gpcrs in mammalian species can be
+classified into 7 subfamilies: a, b, lnb-7tm, c, frizzled/
+smoothened, taste 2, and vomeronasal type 1 receptors.
+t1rs are subfamily c gpcrs. all gpcrs share a common
+topology in their transmembrane domain. structural data on
+gpcrs based on biochemical, immunological, and biophysical approaches have validated a consensus membrane topology of family a gpcrs with an extracellular n terminus, a
+cytoplasmic c terminus, and within the tmd 7 transmembrane helices connected by loops. most gpcrs, including
+receptors in subfamilies a, b, c, and vomeronasal type 1
+receptors mediate their intracellular actions through pathways involving activation of g-proteins. however, there are
+some g-protein-independent ‘gpcrs’ [32].
+the first crystal structure of a gpcr was that of bovine
+rhodopsin, a gpcr subfamily a type receptor. this is also
+the only available crystal structure of any gpcr that contains the 7tm domain [33-35]. the crystal structure of bovine rhodopsin has been widely used as a structural template
+for comparative modeling to construct homology models of
+diverse gpcrs [36-40]. the interplay of site-directed mutagenesis and molecular modeling has provided detailed insights into molecular mechanisms of ligand binding, receptor
+folding, receptor activation, g-protein coupling, and regulation of gpcrs [32]. for example, extensive modeling work
+on the  xxxg2328xxx  (trh) receptor combined with experimental testing and refinement produced a
+better understanding of the binding event and generated a set
+of testable hypotheses of the mechanism of receptor activation. docking experiments identified a binding pocket in the
+tmd of the trh receptor, which was subsequently corroborated by experiments [41]. study on the role of the extracellular loops in ligand binding showed that trh is initially
+anchored to the receptor surface and then moves into the
+tmd binding pocket [42]. investigation of the conserved
+trp in tm-6 found that this residue is responsible for maintaining the receptor in an inhibited state as its mutation to
+ala produced a constitutively active receptor [43]. furthermore, this trp along with other residues in the binding
+pocket for trh were found to be responsible for binding of
+an antagonist [44]. extensive study on the role of the relative
+
+cui et al.
+
+positions of  xxxg2318xxx  and tm-6 in the trh receptor suggested
+an activation mechanism that was validated by experimental
+studies [45]. these examples are just a handful in a rich literature of gpcr modeling, binding of specific ligands and
+studies of receptor activation.
+the t1rs and other subfamily c gpcrs are characterized by a large extracellular atd and a crd. the crystal
+structure has been solved for the atd of  xxxg972xxx  [28], a
+subfamily c gpcr. the mglur protein can be divided into
+three subunits: the extracellular domain, the seven transmembrane spanning domain and the cytoplasmic domain.
+the extracellular part is further divided into the ligand
+binding atd and the crd. studies with chimeric constructs
+[46] and homology modeling [47, 48] based on the leucine/
+isoleucine/valine-binding protein (livbp) [49] both suggest
+that the atd of  xxxg972xxx  is responsible for ligand binding.
+there are five crystal structures of the  xxxg972xxx -atd homodimer available in the protein data bank (pdb): a glutamate-bound form (pdb: 1ewk), ligand-free forms i (pdb:
+1ewt) and ii (pdb: 1ewv) [28], an antagonist (s-mcpg)bound form (pdb: 1iss), and a glutamate/gadolinium-bound
+form (pdb: 1isr) [50]. these structures show the configurations of a  xxxg972xxx -atd dimer, which can be defined by
+the intra-protomer and inter-protomer conformations: the
+open and closed intra-protomer conformations, and two different dimer interaction conformations termed r and a [51].
+the glutamate-bound form and the ligand-free for ii crystal
+structures are nearly isomorphous with the closed-open/a
+forms. the ligand-free form i and the s-mcpg-bound form
+are open-open/r forms. the structure with both glutamate
+and gadolinium bound is a closed-closed/a form.
+the crd is a ~70 amino acids domain with nine highly
+conserved cysteines, which bridges the atd and tmd of
+the mglur. the crd is conserved among all mglur subtypes and the  xxxg343xxx  (car) [51, 52]. however, no crystal structures have been solved yet for any
+gpcr family c crds. most recently, yu et al. proposed a
+homology model for a nine-cysteine long crd of family c
+gpcrs (ncd3g) based on the structure of the extracellular
+domain of the  xxxg2296xxx  receptor (tnfr) (pdb:
+1ext) [53]. although the sequence identity between the
+crds of t1r3 and tnfr is only 15%, seven out of nine
+cysteines can be aligned and three disulfide bonds can be
+identified based on the tnfr template. thus, the crd of
+t1r3 may share a similar folding pattern with other crds
+and the tnfr structure.
+the crystal structures of rhodopsin,  xxxg972xxx -atd and
+tnfr can be used as templates for homology modeling of
+the major domains of the sweet taste receptor (fig. 1). however, the relative positions of the domains of the heterodimeric sweet taste receptor are still hard to predict. presently,
+there is no reliable data to position the atd, crd and tmd
+domains with respect to each other. furthermore, information about the dimerization surface of two different tmds
+from  xxxg2249xxx  and t1r3 is the least known. recent experimental and modeling studies on gpcr dimerization [54-59]
+may suggest a possible  xxxg2249xxx /t1r3 tmd dimer interface.
+the atds are the first domains of the sweet taste receptor
+that have been modeled based on the crystal structure of
+ xxxg972xxx -atd [19, 60-64]. no models have been published
+
+binding sites of sweet taste receptors
+
+current pharmaceutical design, 2006, vol. 12, no. 35 4593
+
+fig. (1). schematic representation of the heterodimer of ht1r2 and ht1r3. atd: amino terminal domain; crd: cystein rich domain;
+tmd: transmembrane domain; ht1r2: human  xxxg2249xxx ; ht1r3: human t1r3.
+
+for the crd or tmd of the sweet taste receptor. accordingly, we have constructed homology models for the human
+t1r3 (ht1r3) tmd based on the rhodopsin crystal structure and for the crd based on the tnfr crystal structure
+[65]. our models are further validated by wet experiments of
+site-directed mutagenesis, and the binding sites for agonists
+and antagonists of the sweet taste receptor are proposed.
+amino terminal domains of the sweet
+taste receptor
+by analogy with mglur, for which ligand-bound crystal
+structures are available [16, 28], it has been proposed that the
+atd of  xxxg2249xxx /t1r3 may be involved in sweetener binding
+[16, 28]. recently, xu et al. [22] used chimeras to identify
+potential sweet receptor binding sites for the sweeteners aspartame and neotame. since both aspartame and neotame are
+sweet for humans but not rodents (i.e. “human specific
+sweeteners”), they identified potential ligand binding sites on
+the t1rs by testing various chimeras of the human and rat
+receptors for responses to these sweeteners. they found that
+the atd of human  xxxg2249xxx  (ht1r2) was required for responses to these human specific sweeteners and proposed
+this atd is the binding site for these sweeteners. two residues, s144 and e302 of the atd of ht1r2 were identified
+by xu et al. as being critical for the aspartame/neotame induced sweet response [22]. jiang et al. [64] identified  xxxd307xxx 
+of the atd of  xxxg2249xxx  as another critical residue for sweet
+receptor responses to aspartame/ xxxd1794xxx .
+to investigate the possible binding pocket in the atd
+region, we have constructed a model of ht1r2/ht1r3 atd
+(closed-open/a form) based on  xxxg972xxx -atd crystal structure (pdb entry: 1ewk) [28]. a multiple sequence alignment of the atds of ht1r2, ht1r3, mouse  xxxg2249xxx  (mt1r2),
+mouse t1r3 (mt1r3), and  xxxg972xxx  was generated by
+
+clustalw [66], followed by minor manual adjustments in the
+non-homologous regions. the sequence identity between the
+atds of ht1r2, ht1r3 and  xxxg972xxx  was found to be 24%.
+the constructed model of the atds was then refined by
+molecular mechanics method, using the charmm program
+[67] with 6 å water shell according to the following protocol: the whole system was refined by 5000 steps of steepest
+descent (sd) minimization with the atd fixed, then by
+5000 steps of sd minimization with the backbone of the
+atd fixed, the 5000 steps of sd minimization for the whole
+system without constraints, followed by 40000 steps of
+adapted basis newton-raphson (abnr) minimization or
+the convergence criterion as the root mean square energy
+gradient of 0.05kcal/mol/å was reached. the refined model
+then was evaluated by the verify3d program with acceptable
+scores [68, 69]. the detailed refinement and evaluation results will be published separately. the refined ht1r2/ht1r3
+atd model is shown in fig. (2).
+aspartame (l-alpha-aspartly- xxxd2916xxx  ester)
+is a low-calorie sweetener, which is approximately 200 times
+sweeter than sucrose [70, 71]. both xu et al. [22] and jiang
+et al. [64] demonstrated that the binding site of the sweet
+taste receptor for aspartame is located in the atd of ht1r2.
+to identify a possible binding pocket for aspartame in ht1r2
+atd, we used the refined ht1r2 atd model for automatic
+docking studies. the geometry of aspartame was optimized
+by ab initio quantum mechanics method at the level of hf/
+6-31g*, followed by single point calculations with the polarized continuum model (pcm) solvation to obtain the
+molecular electrostatic potential for charge fitting. the
+chelpg charge-fitting scheme was used to calculate partial
+charges for the atoms of aspartame [72]. the ab initio calculations were carried out with the gaussian 98 program
+[73]. the predicted binding site for aspartame in ht1r2’s
+
+4594
+
+current pharmaceutical design, 2006, vol. 12, no. 35
+
+cui et al.
+
+fig. (2). ribbon structure representation of the homology model for the amino terminal domain of sweet taste receptor.
+
+atd was derived from molecular docking results by cluster
+analysis. the final docked aspartame configuration was constructed based on the calculated binding energies and the
+analysis on the cluster distributions. the docked aspartameht1r2 complex was then refined by the charmm program
+with 6 å water shell with the same protocol as described
+above. the potential binding pocket of ht1r2’s atd with
+aspartame bound is shown in fig. (3). we found that the
+main interactions of aspartame with ht1r2’s atd can be
+classified as salt bridges (asp278 and asp307), hydrogenbonds (ser303, arg383 and val384) and hydrophobic interactions (tyr215, tyr103 and pro277). two water molecules
+are also identified to bridge the aspartame and the binding
+pocket (asp142 and leu279).
+
+its structure was determined by nuclear magnetic resonance
+(nmr) spectroscopy [80]. it was found that brazzein contains one short alpha-helix, and three strands of antiparallel betasheets held together by four disulfide bonds. site-directed
+mutagenesis suggested that the n- and c-termini and the betaturn around arg43 are involved in the sweetness of brazzein
+
+the cysteine-rich domain of the sweet
+taste receptor
+the crds of the ht1rs are ~70-residue segments with 9
+conserved cysteines. it is a unique domain of gpcr family
+c, located in the extracellular region connecting the atd
+and tmd. the structure and function of the crd is quite
+ambiguous. however, several studies have shown that the
+crd is required/critical for function of mglur and  xxxg343xxx 
+[74-76], and plays a role in the allosteric coupling between
+the change in conformation of the atd and that of the tmd
+[77]. most recently, jiang et al. demonstrated that residues in
+crd of t1r3 are required for the response to the sweet
+protein brazzein [78].
+brazzein is a small, heat-stable, intensely sweet protein
+consisting of 54 amino acid residues. it was initially isolated
+from the fruit of pentadiplandra brazzeana baillon [79], and
+
+fig. (3). aspartame in complex with ht1r2’s atd including two
+water molecules. the binding pocket is represented by molecular
+surface, and two water molecules shown as spheres.
+
+binding sites of sweet taste receptors
+
+[81-83]. humans, apes, and old world monkeys perceive
+brazzein as tasting sweet but other species including new
+world monkeys, mouse, and rat do not sense its sweetness
+[84-86]. jiang et al. demonstrated that the brazzein-induced
+sweet taste response requires the human form of t1r3 [78].
+with other human-specific sweeteners, such as aspartame, it
+is only required that  xxxg2249xxx  be from human for these sweeteners, and t1r3 can be from a non-human species [3, 13, 22,
+26]. using human/mouse chimeras of t1r3 paired with
+ht1r2, jiang et al. discovered that ht1r3 residues 536-545
+within the crd are required for responsiveness to brazzein.
+ala537 and phe540 within this region of ht1r3 were shown
+to be critical for responsiveness to brazzein. ht1r2 + humanized mt1r3 with human substitutions at these two positions fully supported the human-like response to brazzein
+[78].
+jiang et al.’s results further suggest that the crd of
+ht1r3 may form part of the binding site for brazzein [78].
+however, this hypothesis has not been supported by any
+available structural information for the crd of gpcr family c. yu et al. have proposed that tnfr crystal structure
+
+current pharmaceutical design, 2006, vol. 12, no. 35 4595
+
+can serve as a template for modeling the crd of gpcr
+family c [53]. although the sequence identity between
+ht1r3’s crd and that of tnfr is only 15%, we hypothesize that they share a similar folding pattern. based on the
+tnfr crystal structure (pdb: 1ext) [65], we have constructed an homology model of the crd of ht1r3. the sequence alignment between ht1r3 and tnfr and the homology model of ht1r3’s crd are shown in fig. (4). the
+crd model shows that six of the nine conserved cysteines
+form three disulfide bonds. these disulfide bonds confer
+rigidity on the crd, which may be important for the allosteric coupling of the conformational changes that occur upon
+ligand binding to the atd being transmitted to the tmd.
+jiang et al. identified two unique residues in ht1r3 (ala537
+and phe540), which distinguish ht1r3 from mt1r3 and are
+important for the human specific sweet response to brazzein.
+ala537 of ht1r3’s crd may interact directly with brazzein
+or be involved in transmitting the conformational change to
+the tmd. mutations to residues with larger side chains, such
+as a537t, a537q, a537v, abolish the sweet response to
+brazzein. on the other hand, mutants with a smaller side
+chain, such as, a537g keep the sweet response to brazzein
+
+a)
+
+b)
+
+_____________
+__________________
+______________
+501 |
+|
+|
+| |
+|
+crd
+rqcqegqvrrvkgfhsccydcvd-ceagsyrqnpd-diactfcgqdewsperstr--cf
+1ext svcpqgkyihpqnnsicctkchkgtylyndcpgpgqdtdcrecesgsftasenhlrhcl
+* :*: : :.
+** .* .
+.
+.*. * * * ...::....
+*:
+
+fig. (4). a). structural model of the cysteine rich domain of t1rs. left panel is a tube drawing with ala537 and phe540 rendered in cpk,
+and three disulfide bonds are colored yellow; right panel is a molecular surface colored by electrostatic potential (+/- 10 kt/mol/e) with labels on ala537 and phe540. b). sequence alignments between cysteine rich domains of ht1r3 and  xxxg2296xxx  receptor, with
+a537 and f540 darkened. disulfide bonds between pairs of cysteines within the cysteine rich domain have been marked by bridge lines.
+
+4596
+
+current pharmaceutical design, 2006, vol. 12, no. 35
+
+[78]. further studies are underway to delineate the role of the
+crd in sweet taste response.
+the transmembrane domain of the sweet
+taste receptor
+the binding site for agonists of gpcr family c receptors
+has been proposed to be in the extracellular atd [28, 50, 51,
+87]. xu et al.’s chimera experiments demonstrated that artificial sweeteners such as aspartame and neotame, require the
+atd of ht1r2 [22]. we have used molecular docking to
+identify a probable binding site for aspartame in ht1r2’s
+atd. however, some gpcr family c members have been
+shown to bind ligands in their tmds [37-40, 88]. can the
+tmd of the sweet taste receptor bind sweeteners? previous
+chimera and mutagenesis studies on ht1r2/ht1r3 showed
+that the tmd of ht1r3 is required for cyclamate induced
+sweet response, and sweet taste inhibition by lactisole [22,
+89].
+homology model of the ht1r3’s transmembrane domain
+to investigate the possible existence of a binding pocket
+in the tmd, we have constructed a homology model of
+ht1r3’s tmd based on bovine rhodopsin’s crystal structure
+(pdb: 1f88) [33]. a multiple sequence alignment between
+t1rs (ht1r2, ht1r3, mt1r2, mt1r3),  xxxg972xxx , and bovine rhodopsin was performed by the clustalw program
+[66], followed by some manual adjustments in the nonhomologous regions. the sequence identities (similarities)
+between tm1, tm2,  xxxg2318xxx , tm4,  xxxg2318xxx , tm6, and tm7 between ht1r3 and bovine rhodopsin are 22.6% (61.3%),
+13.3% (40%), 22.6% (48.4), 25.0% (33.3%), 11.1% (40.7%),
+11.8% (61.8%), 16% (60%), respectively. that key conserved
+residues in each tm helix of family a gpcrs are also often
+present in the corresponding tms of family c receptors increases our confidence in the alignment. the ht1r3 tm
+homology model was constructed by residue replacement
+using insightii (accelrys, san diego, ca) program. the
+non-conserved pro kink in tm helix 6 was built by manually
+shifting it to its proper location in the sequence. extracellular
+loop3 between tm helix 6 and tm helix 7 was generated by
+ab initio loop prediction [90, 91]. the other intra- and extracellular loops were generated by modeller [92, 93]
+based on the bovine rhodopsin template. the side chains of
+the residues were refined by 500 steps of sd minimization,
+followed by 2ps heating to 300k, 20ps equilibration and a
+100ps production run at 300k to relax possible bad contacts
+in the model. the structure was then minimized for 1000
+steps of sd and 10000 steps of abnr or until the root mean
+square energy gradient of 0.05kcal/mol/å was achieved.
+during the simulation the calpha atoms of the helixes were positionally constrained to prevent possible distortions, and a
+distance-dependent dielectric constant (epsilon = 4rij) was used to
+mimic environmental effects. all the model refinements were
+carried out with charmm [67] using the charmm27 allatom force field.
+ht1r3’s tmd binding site for artificial
+sweeteners
+the chimeric studies of xu et al. show that cyclamate
+interact with ht1r3’s tmd [22]. our recent docking and
+
+cui et al.
+
+mutagenesis studies also clearly show that sweet receptor
+responsiveness to the artificial sweetener cyclamate depends
+on a potential binding site within the tmd of ht1r3 to produce [94]. experimental studies on human/mouse chimeras
+of  xxxg2249xxx /t1r3 [94] show that the tmd of the ht1r3 is required for cyclamate-induced receptor activation. alaninescan mutagenesis of the tmd of ht1r3 shows that some
+mutations have a small effect on the receptor’s activity toward  xxxd1794xxx , but they caused a substantial reduction
+in cyclamate-induced activation of the sweet receptor [94].
+we have also found that  xxxd1794xxx  activation of the
+sweet taste receptor relies on the atd of ht1r2 [64]. however, these mutations are consistent with the hypothesis that
+cyclamate activates the receptor through the tmd. using an
+automatic molecular docking method [95, 96], we have
+identified a possible binding site for cyclamate in the ht1r3
+tmd [94]. the predicted complex of cyclamate and the
+ht1r3 tmd is shown in fig. (5a). our homology model
+shows that the initial binding pocket is located among the
+tm-3, 5 and 6.
+ht1r3’s tmd binding site for a sweet taste
+inhibitor
+lactisole (2-(p-methoxyphenoxy) xxxd3029xxx ) and its
+analogs (phenylalkanoic, phenoxyalkanoic and benzylalkanoic acids) inhibit human sweet taste responses [97]. xu et
+al. proposed a binding site for lactisole located in the tm
+region of ht1r3 [22]. our studies with chimeras of ht1r3
+and mt1r3 show that lactisole blocks sweetener-induced
+activation of ht1r2/ht1r3 but not of the mixed species
+receptor, ht1r2/mt1r3, indicating that ht1r3 is the major
+mediator of lactisole antagonism. additional chimeras, where
+the tmd of ht1r3 replaces that of mouse in the
+mt1r3/mt1r2 receptor show that the presence of the tmd
+of ht1r3 is sufficient to support lactisole antagonism. in
+contrast, in the absence of the tmd of ht1r3, lactisole
+shows no blocking effect. h641a, f778a, q637e, s640v,
+a733v and v779a mutations in the tm domain of ht1r3
+reduced lactisole’s inhibitory effect [89]. using our homology model of ht1r3 tmd, we identified a possible binding
+pocket for lactisole within ht1r3’s tmd. the predicted
+model of the lactisole complex with ht1r3 is shown in fig.
+(5b). it is clear that lactisole shares the same pocket with
+cyclamate, and interacts with his641 and arg723 through
+salt bridges and hydrogen bond interactions, while phe778,
+leu782, and leu644 produce hydrophobic interactions.
+concluding remarks
+over the past few decades, several models of the sweet
+receptor binding site have been developed based on the
+structures of existing sweeteners: the “two-point attachment
+theory (the ah-b theory)” [98], the “three-point attachment
+theory” [99], and the “multipoint attachment theory” [100].
+however, these inferential models are not based on direct
+knowledge of the sweet receptor itself. the identification of
+the sweet taste receptor has opened the door to understanding the mechanism of sweet taste response. the heterodimer
+of  xxxg2249xxx  and t1r3 can respond to almost all sweet molecules including natural sugars, artificial sweeteners, and
+sweet-taste proteins. human specific artificial sweeteners
+such as, aspartame, neotame, cyclamate; human specific
+
+binding sites of sweet taste receptors
+
+current pharmaceutical design, 2006, vol. 12, no. 35 4597
+
+fig (5). a). cyclamate in the binding site of ht1r3 tmd; b). lactisole bound with ht1r3 tmd.
+
+sweet proteins such as, brazzein; and human specific sweet
+inhibitors, such as lactisole by their diverse nature and species specificity, are ideal probes for locating the multiple
+binding sites of sweet receptors [22, 78]. results from sitedirected mutagenesis and molecular modeling have played
+an important role in identifying the binding sites of the sweet
+taste receptor. although there are no crystal structures of any
+part of the sweet taste receptor, each part can be modeled
+based on a template. the  xxxg972xxx  atd is the first crystal
+structure in gpcr family c, which has been used as the
+template to model the atds of ht1r3 and ht1r2. the
+tnfr crystal has been used to model the crd of ht1r3.
+bovine rhodopsin’s solved crystal structure has been used as
+a reasonable template for the tmd of ht1r3.
+
+provide new insights on the binding and activation of the
+sweet taste receptor.
+
+gpcr
+
+=
+
+g protein-coupled receptor
+
+the current data both from wet experiments and theoretical modeling support the viewpoint that the binding site of
+the human sweet taste receptor for the sweeteners aspartame
+and neotame is located in the atd of ht1r2 [22, 64], and
+that the binding site for the sweetener cyclamate and the
+sweet taste inhibitor lactisole is located in the tmd of
+ht1r3 [22, 89]. it seems that the sweet proteins are too large
+to fit into the tmd or within the cleft of the closed form of
+the atd of the t1rs, suggesting they may have a separate
+binding site in the extracellular domain of t1rs. jiang et al.
+showed that the crd of ht1r3 and the atd of t1rs is part
+of the binding site for the sweet protein brazzein [78]. however, at present it is not clear how brazzein binds to the sweet
+taste receptor and whether it shares an overlapping binding
+site with other sweet proteins? the same questions also remain for other small molecule sweeteners. do all small
+sweeteners bind to these two binding sites of the sweet taste
+receptors? which kinds of sweeteners bind to  xxxg2249xxx ’s atd,
+which, sweeteners bind to t1r3’s tmd, and how to classify
+them? do any sweeteners bind to the atd of t1r3 or the
+tmd of  xxxg2249xxx ? are there other regions of the sweet receptors that provide additional binding sites? further experimental and molecular modeling studies should be helpful to
+
+mglur
+
+=
+
+metabotropic glutamate receptors
+
+atd
+
+=
+
+amino terminal domain
+
+crd
+
+=
+
+cysteine rich domain
+
+tmd
+
+=
+
+transmembrane domain
+
+trh
+
+=
+
+ xxxg2328xxx 
+
+livbp
+
+=
+
+leucine/isoleucine/valine-binding protein
+
+car
+
+=
+
+ xxxg343xxx 
+
+tnfr
+
+=
+
+ xxxg2296xxx  receptor
+
+sd
+
+=
+
+steepest descent
+
+abnr
+
+=
+
+adapted basis newton-raphson
+
+pcm
+
+=
+
+polarized continuum model
+
+acknowledgements
+we thank dr. mihaly mezei for helpful discussions. this
+work was supported by psc grant mcb060020p (mc), nih
+grants 1r03 dc007721-01 (mc), 1f32dc007021-01 (pj),
+1r01 dc006696-01a2 (mm), dc03155 (rfm) and
+dk43036 (ro). pj is a charles h. revson senior fellow in
+the biomedical sciences program.
+abbreviations
+
+references
+references 101-103 are related articles recently published in
+current pharmaceutical design.
+[1]
+[2]
+
+lindemann b. taste reception. physiol rev 1996; 76: 718-66.
+margolskee rf. molecular mechanisms of bitter and sweet taste
+transduction. j biol chem 2002; 277: 1-4.
+
+4598
+[3]
+[4]
+[5]
+[6]
+[7]
+[8]
+[9]
+[10]
+[11]
+[12]
+[13]
+[14]
+[15]
+[16]
+[17]
+[18]
+
+[19]
+[20]
+[21]
+[22]
+[23]
+[24]
+
+[25]
+[26]
+[27]
+[28]
+
+current pharmaceutical design, 2006, vol. 12, no. 35
+nelson g, hoon ma, chandrashekar j, zhang y, ryba nj, zuker
+cs. mammalian sweet taste receptors. cell 2001; 106: 381-90.
+amrein h, bray s. bitter-sweet solution in taste transduction. cell
+2003; 112: 283-4.
+avenet p, lindemann b. amiloride-blockable sodium currents in
+isolated taste receptor cells. j membr biol 1988; 105: 245-55.
+brand jg, teeter jh, silver wl. inhibition by amiloride of chorda
+tympani responses evoked by monovalent salts. brain res 1985;
+334: 207-14.
+gilbertson ta, avenet p, kinnamon sc, roper sd. proton currents through amiloride-sensitive na channels in hamster taste
+cells. role in acid transduction. j gen physiol 1992; 100: 803-24.
+heck gl, mierson s, desimone ja. salt taste transduction occurs
+through an amiloride-sensitive sodium transport pathway. science
+1984; 223: 403-5.
+kinnamon sc, dionne ve, beam kg. apical localization of k+
+channels in taste cells provides the basis for sour taste transduction.
+proc natl acad sci usa 1988; 85: 7023-7.
+chaudhari n, roper sd. molecular and physiological evidence for
+glutamate (umami) taste transduction via a g protein-coupled receptor. ann n y acad sci 1998; 855: 398-406.
+wong gt, gannon ks, margolskee rf. transduction of bitter and
+sweet taste by gustducin. nature 1996; 381: 796-800.
+chandrashekar j, mueller kl, hoon ma, adler e, feng l, guo w,
+et al. t2rs function as bitter taste receptors. cell 2000; 100: 70311.
+zhao gq, zhang y, hoon ma, chandrashekar j, erlenbach i,
+ryba nj, et al. the receptors for mammalian sweet and umami
+taste. cell 2003; 115: 255-66.
+chaudhari n, landin am, roper sd. a metabotropic glutamate
+receptor variant functions as a taste receptor. nat neurosci 2000; 3:
+113-9.
+striem bj, pace u, zehavi u, naim m, lancet d. sweet tastants
+stimulate adenylate cyclase coupled to  xxxg1027xxx  in rat
+tongue membranes. biochem j 1989; 260: 121-6.
+montmayeur jp, matsunami h. receptors for bitter and sweet taste.
+curr opin neurobiol 2002; 12: 366-71.
+kitagawa m, kusakabe y, miura h, ninomiya y, hino a. molecular genetic identification of a candidate receptor gene for sweet
+taste. biochem biophys res commun 2001; 283: 236-42.
+li x, inoue m, reed dr, huque t, puchalski rb, tordoff mg, et
+al. high-resolution genetic mapping of the saccharin preference locus (sac) and the putative sweet taste receptor (t1r1) gene
+(gpr70) to mouse distal chromosome 4 . mamm genome 2001; 12:
+13-6.
+max m, shanker yg, huang l, rong m, liu z, campagne f, et al.
+tas1r3, encoding a new candidate taste receptor, is allelic to the
+sweet responsiveness locus sac. nat genet 2001; 28: 58-63.
+montmayeur jp, liberles sd, matsunami h, buck lb. a candidate
+taste receptor gene near a sweet taste locus. nat neurosci 2001; 4:
+492-8.
+sainz e, korley jn, battey jf, sullivan sl. identification of a
+novel member of the t1r family of putative taste receptors. j neurochem 2001; 77: 896-903.
+xu h, staszewski l, tang h, adler e, zoller m, li x. different
+functional roles of t1r subunits in the heteromeric taste receptors.
+proc natl acad sci usa 2004; 101: 14258-63.
+bufe b, hofmann t, krautwurst d, raguse jd, meyerhof w. the
+human tas2r16 receptor mediates bitter taste in response to betaglucopyranosides. nat genet 2002; 32: 397-401.
+behrens m, brockhoff a, kuhn c, bufe b, winnig m, meyerhof
+w. the human taste receptor htas2r14 responds to a variety of
+different bitter compounds. biochem biophys res commun 2004;
+319: 479-85.
+pronin an, tang h, connor j, keung w. identification of ligands
+for two human bitter t2r receptors. chem senses 2004; 29: 58393.
+li x, staszewski l, xu h, durick k, zoller m, adler e. human
+receptors for sweet and umami taste. proc natl acad sci usa
+2002; 99: 4692-6.
+pin jp, galvez t, prezeau l. evolution, structure, and activation
+mechanism of family 3/c g-protein-coupled receptors. pharmacol
+ther 2003; 98: 325-54.
+kunishima n, shimada y, tsuji y, sato t, yamamoto m, kumasaka t, et al. structural basis of glutamate recognition by a dimeric
+metabotropic  xxxg981xxx . nature 2000; 407: 971-7.
+
+cui et al.
+[29]
+[30]
+[31]
+
+[32]
+
+[33]
+[34]
+
+[35]
+
+[36]
+[37]
+
+[38]
+
+[39]
+
+[40]
+
+[41]
+
+[42]
+
+[43]
+
+[44]
+
+[45]
+
+[46]
+
+[47]
+
+kim uk, breslin pa, reed d, drayna d. genetics of human taste
+perception. j dent res 2004; 83: 448-53.
+sclafani a, perez c. cypha [ xxxd3029xxx , 2-(4-methoxyphenol)
+salt] inhibits sweet taste in humans, but not in rats. physiol behav
+1997. 61(1): 25-9.
+schiffman ss, booth bj, sattely-miller ea, graham bg, gibes
+km. selective inhibition of sweetness by the sodium salt of +/-2(4-methoxyphenoxy) xxxd3029xxx . chem senses 1999; 24: 43947.
+kristiansen k. molecular mechanisms of ligand binding, signaling,
+and regulation within the superfamily of g-protein-coupled receptors: molecular modeling and mutagenesis approaches to receptor
+structure and function. pharmacol ther 2004; 103: 21-80.
+palczewski k, kumasaka t, hori t, behnke ca, motoshima h,
+fox ba, et al. crystal structure of rhodopsin: a g protein-coupled
+receptor. science 2000; 289: 739-45.
+teller dc, okada t, behnke ca, palczewski k, stenkamp re.
+advances in determination of a high-resolution three-dimensional
+structure of rhodopsin, a model of g-protein-coupled receptors
+(gpcrs). biochemistry 2001; 40: 7761-72.
+okada t, fujiyoshi y, silow m, navarro j, landau em, shichida
+y. functional role of internal water molecules in rhodopsin revealed by x-ray crystallography. proc natl acad sci usa 2002;
+99: 5982-7.
+visiers i, ballesteros ja, weinstein h. three-dimensional representations of g protein-coupled receptor structures and mechanisms. methods enzymol 2002; 343: 329-71.
+petrel c, kessler a, dauban p, dodd rh, rognan d, ruat m.
+positive and negative allosteric modulators of the ca2+-sensing receptor interact within overlapping but not identical binding sites in
+the transmembrane domain. j biol chem 2004; 279: 18990-7.
+miedlich su, gama l, seuwen k, wolf rm, breitwieser ge.
+homology modeling of the transmembrane domain of the human
+ xxxg343xxx  and localization of an allosteric binding
+site. j biol chem 2004; 279: 7254-63.
+malherbe p, kratochwil n, knoflach f, zenner mt, kew jn,
+kratzeisen c, et al. mutational analysis and molecular modeling of
+the allosteric binding site of a novel, selective, noncompetitive antagonist of the metabotropic glutamate 1 receptor. j biol chem
+2003; 278: 8340-7.
+malherbe p, kratochwil n, zenner mt, piussi j, diener c,
+kratzeisen c, et al. mutational analysis and molecular modeling of
+the binding pocket of the metabotropic glutamate 5 receptor negative modulator 2-methyl-6-(phenylethynyl)-pyridine. mol pharmacol 2003; 64: 823-32.
+perlman jh, laakkonen lj, guarnieri f, osman r, gershengorn
+mc. a refined model of the  xxxg2328xxx  (trh)
+receptor binding pocket. experimental analysis and energy minimization of the complex between trh and trh receptor. biochemistry 1996; 35: 7643-50.
+perlman jh, colson ao, jain r, czyzewski b, cohen la, osman
+r. et al. role of the extracellular loops of the  xxxd3368xxx -releasing
+ xxxg1603xxx : evidence for an initial interaction with  xxxg2328xxx . biochemistry 1997; 36: 15670-6.
+colson ao, perlman jh, jinsi-parimoo a, nussenzveig dr, osman r, gershengorn mc. a hydrophobic cluster between transmembrane helices 5 and 6 constrains the  xxxd3368xxx -releasing
+ xxxg1603xxx  in an inactive conformation. mol pharmacol
+1998; 54(6): 968-78.
+lu x, huang w, worthington s, drabik p, osman r, gershengorn
+mc. a model of  xxxd1422xxx  action at  xxxd3368xxx -releasing
+ xxxg1603xxx  type 1: role of a conserved tryptophan in helix 6.
+mol pharmacol 2004; 66: 1192-200.
+huang w, osman r, gershengorn mc. agonist-induced conformational changes in  xxxd3368xxx -releasing  xxxg1603xxx  type i:
+disulfide cross-linking and molecular modeling approaches. biochemistry 2005; 44: 2419-31.
+takahashi k, tsuchida k, tanabe y, masu m, nakanishi s. role
+of the large extracellular domain of metabotropic glutamate receptors in agonist selectivity determination. j biol chem 1993; 268:
+19341-5.
+o'hara pj, sheppard po, thogersen h, venezia d, haldeman ba,
+mcgrane v, et al. the ligand-binding domain in metabotropic
+glutamate receptors is related to bacterial periplasmic binding proteins. neuron 1993; 11: 41-52.
+
+binding sites of sweet taste receptors
+[48]
+
+[49]
+
+[50]
+
+[51]
+[52]
+
+[53]
+[54]
+[55]
+[56]
+[57]
+
+[58]
+
+[59]
+[60]
+[61]
+[62]
+
+[63]
+
+[64]
+[65]
+[66]
+
+[67]
+
+[68]
+[69]
+[70]
+
+costantino g, macchiarulo a, pellicciari r. modeling of aminoterminal domains of group i metabotropic glutamate receptors:
+structural motifs affecting ligand selectivity. j med chem 1999; 42:
+5390-401.
+sack js, saper ma, quiocho fa. periplasmic binding protein
+structure and function. refined x-ray structures of the
+leucine/isoleucine/valine-binding protein and its complex with
+leucine. j mol biol 1989; 206: 171-91.
+tsuchiya d, kunishima n, kamiya n, jingami h, morikawa k.
+structural views of the ligand-binding cores of a metabotropic  xxxg981xxx  complexed with an antagonist and both glutamate
+and gd3+. proc natl acad sci usa 2002; 99: 2660-5.
+jingami h, nakanishi s, morikawa k. structure of the metabotropic  xxxg981xxx . curr opin neurobiol 2003; 13: 2718.
+brown em, gamba g, riccardi d, lombardi m, butters r, kifor
+o, et al. cloning and characterization of an extracellular ca(2+)sensing receptor from bovine parathyroid. nature 1993; 366: 57580.
+yu l, liang s, liu x, he q, studholme dj, wu q. ncd3g: a
+novel nine-cysteine domain in family 3 gpcrs. trends biochem
+sci 2004; 29: 458-61.
+filizola m, weinstein h. structural models for dimerization of gprotein coupled receptors: the opioid receptor homodimers. biopolymers 2002; 66: 317-25.
+filizola m, olmea o, weinstein h. prediction of heterodimerization interfaces of g-protein coupled receptors with a new subtractive correlated mutation method. protein eng 2002; 15: 881-5.
+fotiadis d, liang y, filipek s, saperstein da, engel a, palczewski k. the g protein-coupled receptor rhodopsin in the native
+membrane. febs lett 2004; 564: 281-8.
+liang y, fotiadis d, filipek s, saperstein da, palczewski k,
+engel a. organization of the g protein-coupled receptors rhodopsin and opsin in native membranes . j biol chem 2003; 278: 2165562.
+filipek s, krzysko ka, fotiadis d, liang y, saperstein da, engel
+a, et al . a concept for g protein activation by g protein-coupled
+receptor dimers: the transducin/rhodopsin interface. photochem
+photobiol sci 2004; 3: 628-38.
+park ps, filipek s, wells jw, palczewski k. oligomerization of g
+protein-coupled receptors: past, present, and future. biochemistry 2004; 43: 15643-15656.
+walters de. homology-based model of the extracellular domain of
+the taste receptor t1r3. pure appl chem 2002; 74: 1117-1123.
+temussi pa. why are sweet proteins sweet? interaction of
+brazzein, monellin and thaumatin with the  xxxg2249xxx -t1r3 receptor.
+febs lett 2002; 526: 1-4.
+spadaccini r, trabucco f, saviano g, picone d, crescenzi o,
+tancredi t, et al. the mechanism of interaction of sweet proteins
+with the  xxxg2249xxx -t1r3 receptor: evidence from the solution structure
+of g16a-mnei. j mol biol 2003; 328: 683-92.
+tancredi t, pastore a, salvadori s, esposito v, temussi pa. interaction of sweet proteins with their receptor. a conformational study
+of peptides corresponding to loops of brazzein, monellin and thaumatin. eur j biochem 2004; 271: 2231-40.
+jiang p, cui m, ji q, snyder l, liu z, benard l, et al. molecular
+mechanisms of sweet receptor function. chem senses 2005 ; 30:
+ xxxd742xxx -i18.
+naismith jh, devine tq, kohno t, sprang sr. structures of the
+extracellular domain of the type i  xxxg2296xxx  receptor.
+structure 1996; 4: 1251-62.
+thompson jd, higgins dg, gibson tj. clustal w: improving
+the sensitivity of progressive multiple sequence alignment through
+sequence weighting, position-specific gap penalties and weight
+matrix choice. nucleic acids res 1994; 22: 4673-80.
+brooks br, bruccoleri re, olafson bd, states dj, swaminathan
+s, karplus m. charmm: a program for macromolecular energy,
+minimization, and dynamics calculations. j comp chem 1983;
+187-217.
+bowie ju, luthy r, eisenberg d. a method to identify protein
+sequences that fold into a known three-dimensional structure. science 1991; 253: 164-70.
+luthy r, bowie ju, eisenberg d. assessment of protein models
+with three-dimensional profiles. nature 1992; 356: 83-5.
+mazur rh, schlatter jm, goldkamp ah. structure-taste relationships of some dipeptides. j am chem soc 1969; 91: 2684-91.
+
+current pharmaceutical design, 2006, vol. 12, no. 35 4599
+[71]
+[72]
+
+[73]
+[74]
+[75]
+
+[76]
+
+[77]
+[78]
+[79]
+[80]
+[81]
+[82]
+[83]
+[84]
+
+[85]
+
+[86]
+[87]
+
+[88]
+
+[89]
+[90]
+[91]
+[92]
+[93]
+[94]
+
+meguro t, kashiwagi t, satow y. crystal structure of the lowhumidity form of aspartame sweetener . j pept res 2000; 56(2): 97104.
+breneman cm, wiberg kb. determining atom-centered monopoles from molecular electrostatic potentials-the need for high
+sampling density in formamide conformational analysis. j comp
+chem 1990; 11: 361-373.
+frisch mj, trucks gw, schlegel hb, scuseria ge, robb ma,
+cheeseman jr, et al. gaussian inc.: pittsburg pa, 1998.
+hu j, hauache o, spiegel am. human ca2+ receptor cysteine-rich
+domain. analysis of function of mutant and chimeric receptors. j
+biol chem 2000; 275: 16382-9.
+peltekova v, han g, soleymanlou n, hampson dr. constraints on
+proper folding of the amino terminal domains of group iii metabotropic glutamate receptors. brain res mol brain res 2000; 76:
+180-90.
+tsuji y, shimada y, takeshita t, kajimura n, nomura s, sekiyama n, et al. cryptic dimer interface and domain organization of
+the extracellular region of metabotropic  xxxg981xxx  subtype
+1. j biol chem 2000; 275: 28144-51.
+parmentier ml, prezeau l, bockaert j, pin jp. a model for the
+functioning of family 3 gpcrs. trends pharmacol sci 2002; 23:
+268-74.
+jiang p, ji q, liu z, snyder la, benard lm, margolskee rf, et al.
+the cysteine-rich region of t1r3 determines responses to intensely
+sweet proteins. j biol chem 2004; 279: 45068-75.
+ming d, hellekant brazzein g. a new high-potency thermostable
+sweet protein from pentadiplandra brazzeana b. febs lett 1994;
+355: 106-8.
+caldwell je, abildgaard f, dzakula z, ming d, hellekant g, markley jl. solution structure of the thermostable sweet-tasting protein brazzein. nat struct biol 1998; 5: 427-31.
+assadi-porter fm, aceti dj, cheng h, markley jl. efficient production of recombinant brazzein, a small, heat-stable, sweet-tasting
+protein of plant origin. arch biochem biophys 2000; 376: 252-8.
+assadi-porter fm, aceti dj, markley jl. sweetness determinant
+sites of brazzein, a small, heat-stable, sweet-tasting protein. arch
+biochem biophys 2000; 376: 259-65.
+jin z, danilova v, assadi-porter fm, aceti dj, markley jl,
+hellekant g. critical regions for the sweetness of brazzein. febs
+lett 2003; 544: 33-7.
+danilova v, danilov y, roberts t, tinti jm, nofre c, hellekant g.
+sense of taste in a new world monkey, the common marmoset: recordings from the chorda tympani and glossopharyngeal nerves. j
+neurophysiol 2002; 88: 579-94.
+hellekant g, danilova v, ninomiya y. primate sense of taste:
+behavioral and single chorda tympani and glossopharyngeal nerve
+fiber recordings in the rhesus monkey, macaca mulatta. j neurophysiol 1997; 77: 978-93.
+hellekant g, ninomiya y, danilova v. taste in chimpanzees ii:
+single chorda tympani fibers. physiol behav 1997; 61: 829-41.
+kuang d, yao y, wang m, pattabiraman n, kotra lp, hampson
+dr. molecular similarities in the ligand binding pockets of an
+odorant receptor and the metabotropic glutamate receptors. j biol
+chem 2003; 278: 42551-9.
+pagano a, ruegg d, litschig s, stoehr n, stierlin c, heinrich m,
+et al. the non-competitive antagonists 2-methyl-6-(phenylethynyl)
+pyridine and 7-hydroxyiminocyclopropan[b]chromen-1a-carboxylic
+acid ethyl ester interact with overlapping binding pockets in the
+transmembrane region of group i metabotropic glutamate receptors.
+j biol chem 2000; 275: 33750-8.
+jiang p, cui m, zhao b, liu z, snyder la, benard lmj, et al.
+lactisole interacts with the transmembrane domains of human
+t1r3 to inhibit sweet taste. j biol chem 2005; 280: 15238-46.
+fiser a, do rk, sali a. modeling of loops in protein structures.
+protein sci 2000; 9: 1753-73.
+fiser a, sali a. modloop: automated modeling of loops in protein
+structures. bioinformatics 2003; 19: 2500-1.
+marti-renom ma, stuart ac, fiser a, sanchez r, melo f, sali a.
+comparative protein structure modeling of genes and genomes.
+annu rev biophys biomol struct 2000; 29: 291-325.
+sali a, blundell tl. comparative protein modelling by satisfaction
+of spatial restraints. j mol biol 1993; 234: 779-815.
+jiang p, cui m, zhao b, snyder la, benard lm, osman r, et al.
+identification of the cyclamate interaction site within the trans-
+
+4600
+
+[95]
+
+[96]
+[97]
+[98]
+
+current pharmaceutical design, 2006, vol. 12, no. 35
+membrane domain of the human sweet taste receptor subunit t1r3.
+j biol chem 2005; 280: 34296-305.
+morris gm, goodsell ds, halliday rs, huey r, hart we, belew
+rk, et al. automated docking using a lamarckian genetic algorithm and and empirical binding free energy function. j comput
+chem 1998; 19: 1639-1662.
+goodsell ds, morris gm, olson aj. automated docking of flexible ligands: applications of autodock. j mol recognit 1996; 9: 15.
+lindley mg. method of inhibiting sweetness. 1986; u.s. patent
+no. 4:567,053.
+shallenberger rs, acree te. molecular theory of sweet taste.
+nature 1967; 216: 480-2.
+
+cui et al.
+[99]
+[100]
+[101]
+[102]
+[103]
+
+kier lb. a molecular theory of sweet taste. j pharm sci 1972.
+61(9): 1394-7.
+nofre c, tinti j-m. sweetness reception in man: the multipoint
+attachment theory. food chem 1996; 56: 263.
+bryan j, crane a, vila-carriles wh, babenko ap, aguilar-bryan
+l. insulin secretagogues, sulfonylurea receptors and k(atp) channels. curr pharm des 2005; 11(21): 2699-716.
+hou t, xu x. recent development and application of virtual
+screening in drug discovery: an overview. curr pharm des 2004;
+10(9): 1011-33.
+mohan v, gibbs ac, cummings md, jaeger ep, desjarlais rl.
+docking: successes and challenges. curr pharm des 2005; 11(3):
+323-33.
+
