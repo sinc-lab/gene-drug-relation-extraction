@@ -15,6 +15,7 @@ A Python>=3.9 is recomended. Install the required packages with:
 
     pip install -r requirements.txt
 
+The dataset with texts and labels is in DGIdb_sinc/
 
 ## Word embedding preparation
 
